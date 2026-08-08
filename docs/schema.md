@@ -51,9 +51,9 @@ authority:                     # 多元典拠。1つも無ければ none_reason 
   jpsearch: null
   none_reason: null
 time:
-  start: "1500~"               # EDTF Level 1 サブセット
+  start: "14XX"                # EDTF。Wikidata の precision 7 ＝世紀の主張
   end: "1868~"
-  display: 15世紀末〜明治維新   # 原表記（元号・王朝名）
+  display: 15世紀（室町後期）〜明治維新   # 原表記（元号・王朝名）
 naming:                        # movement のみ必須
   self_identified: true        # 当事者がこの名で名乗ったか
   named_by: null               # 後付けなら命名者（person/org の id）
@@ -94,8 +94,12 @@ updated: 2026-08-08
 
 ### `time` — EDTF（ISO 8601-2）Level 1 サブセット
 
-受ける形: `1884` / `1884-05` / `1884-05-20` / `146X`（1460年代）/ `18XX`（19世紀）/
-`1500~`（およそ）/ `1884?`（不確か）/ `..`（開いた端）/ `null`（不明）。
+受ける形: `1884` / `1884-05` / `1884-05-20` / `146X`（1460年代）/ `14XX`（15世紀）/
+`1500~`（およそ1500年）/ `1884?`（不確か）/ `..`（開いた端）/ `null`（不明）。
+
+**Wikidata の日付は `precision` を見てから写す。** 値が `+1500-00-00` でも precision 7 なら
+「15. century」（1401–1500）の主張なので `14XX`。値だけ読むと1世紀ずれる（実際にずらした・
+`docs/investigation-task.md` に確認手順あり）。
 
 `kind` ごとに start/end の意味を固定する。`lineage-school` は系譜の活動期間、`self-declared` は
 宣言から解散、`retrospective` は**括られた対象の活動期間**（命名時期は `naming.named_when` に分ける）。
