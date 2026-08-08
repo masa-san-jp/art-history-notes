@@ -149,6 +149,16 @@ EDTF の形式違反／解釈系の関係に `certainty` か `source` が無い�
 **参照先が無い**と言われたら、その参照先を先に作る（`new_entity.py` で `place` や `person` を stub で置く）。
 ただし**孤児 stub を量産しない**——今回の1件に必要なものだけ。
 
+`person` / `work` を作ってよいのは次の3つのどれかに当たるときだけ（`docs/schema.md` の
+「person / work / event をいつ作るか」が正本）:
+
+1. その movement の `kind` / `time` / `originated_in` の根拠になる
+2. 2つ以上の movement を繋ぐ（師弟・分派・伝播）
+3. 作品として実際に分解して読んだ
+
+**どれにも当たらない担い手は、movement の本文に名前を書いて終わりにする。** 担い手を全員ファイルに
+するのは名簿づくりで、この KB の仕事ではない。
+
 ### 7. 取り出して読み返す
 
 ```bash
