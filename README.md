@@ -76,12 +76,15 @@ commit を止める。**`audit.py` は「噛み合っていないか」**（時�
 形が正しいだけの体系は、機械が黙っているうちに静かに矛盾を溜める。
 
 `.githooks/pre-commit` が commit のたびに `build_graph.py --check` を走らせ、通らないものを止める。
-生成物（`data/` と被覆マップ）が古いままの commit も止める。clone した直後に1回だけ:
+生成物（`data/` と被覆マップ）が古いままの commit も止める。
+
+**clone した直後に1回だけ**（これをしないとフックは動かない）:
 
 ```bash
 git config core.hooksPath .githooks
 ```
 
+忘れても気づけるようにしてある——設定されていない状態で `build_graph.py` を走らせると警告が出る。
 手で走らせる規律に頼ると、走らせ忘れた1回で壊れたまま履歴に入る。
 
 ## 書くときの規律

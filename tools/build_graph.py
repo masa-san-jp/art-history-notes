@@ -212,8 +212,22 @@ def render_coverage(cov, cfg):
     return "\n".join(lines)
 
 
+def warn_if_hook_off():
+    """clone 直後はフックが無効。気づかないまま検証なしで commit できてしまうので、走る度に言う。"""
+    import subprocess
+    try:
+        got = subprocess.run(["git", "-C", str(ROOT), "config", "core.hooksPath"],
+                             capture_output=True, text=True, timeout=5).stdout.strip()
+    except Exception:
+        return
+    if got != ".githooks":
+        print("⚠ commit 前の検証フックが無効です。1回だけ実行してください: "
+              "git config core.hooksPath .githooks", file=sys.stderr)
+
+
 def main():
     check_only = "--check" in sys.argv
+    warn_if_hook_off()
     cfg = load_config()
     errors = []
     try:
