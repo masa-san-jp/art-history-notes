@@ -12,7 +12,7 @@ depends_on: []
 受け入れ条件の閾値も同じファイルに置いてある（issue #1 と対応）。
 
 <!-- generated:coverage:start -->
-生成: 2026-08-08 — `python3 tools/build_graph.py`（手で書き換えない）
+生成: 2026-08-09 — `python3 tools/build_graph.py`（手で書き換えない）
 
 movement 合計 **5** 件
 

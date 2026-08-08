@@ -28,8 +28,7 @@ updated: 2026-08-08
 
 # シカゴ美術館 / Art Institute of Chicago
 
-所蔵先として置いた stub。**この館は作品データを API で公開している**（データは CC0、
-`description` は CC-BY）ので、このナレッジベースの一次データ源として一番使いやすい。
-→ https://api.artic.edu/api/v1/artworks/
+《グランド・ジャット島の日曜日の午後》の所蔵館。作品データを API で公開している
+（データは CC0、`description` は CC-BY）→ https://api.artic.edu/api/v1/artworks/
 
-**未確認**: 設立年 1879 は手元の記憶で、一次情報で確かめていない。
+**未確認**: 設立年 1879 は一次情報で確かめていない。
