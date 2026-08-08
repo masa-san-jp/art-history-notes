@@ -1,15 +1,19 @@
 ---
-id: artist/henri-lehmann
-type: artist
+id: person/henri-lehmann
+uri: urn:ahn:person/henri-lehmann
+type: person
 label_ja: アンリ・レーマン
 label_en: Henri Lehmann
 authority:
   wikidata: Q240483
   ulan: "500032345"
+  ndl: null
+  jpsearch: null
+  none_reason: null
 time:
-  start: 1814
-  end: 1882
-  note: 1814-04-14 生 / 1882-03-30 没
+  start: "1814-04-14"
+  end: "1882-03-30"
+  display: null
 space:
   - {role: active_in, target: place/paris}
 relations: []

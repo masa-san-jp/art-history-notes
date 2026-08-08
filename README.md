@@ -15,34 +15,53 @@
 ## 構造
 
 ```
-entities/          1エンティティ1ファイル。frontmatter に典拠ID・時間・空間・関係を持つ
-  artists/  works/  movements/  places/  concepts/  events/
-overviews/         俯瞰。個別エンティティの集約として書き、根拠を張る
-  coverage.md      いま何が埋まって何が空か（このKBの現在地）
-docs/schema.md     エンティティの型・必須項目・関係の語彙。書く前に読む
-tools/build_graph.py   frontmatter を検証し data/graph.json（グラフ）を出力
-data/graph.json    生成物。時間・空間・関係で引くための形
+entities/          1エンティティ1ファイル。frontmatter が唯一の正
+  movements/  persons/  works/  orgs/  places/  concepts/  events/  sources/
+overviews/         俯瞰。coverage.md の表は生成物（手で書き換えない）
+config/            regions.yaml = 文化圏13バケットと受け入れ条件の閾値
+docs/
+  schema.md            型・必須項目・関係語彙・EDTF・claims。書く前に読む
+  investigation-task.md 1件の調査の手順（Sonnet が単独で1件を終えられる粒度）
+  interop-mapping.md    外部標準（CIDOC-CRM / Linked Art / Getty）との対応表
+  design-fable-draft.md 設計の草案と、その根拠になった実測
+tools/
+  kb.py              スキーマ定義と共通部品（1箇所）
+  new_entity.py      必須項目が入った雛形を作る
+  build_graph.py     検証 → data/graph.json・data/coverage.json・被覆マップ更新
+  bundle.py          知識のまとまりを1文書として取り出す
+data/              生成物（graph.json / coverage.json）
 ```
 
 ## 3軸をどう持っているか
 
-- **時間** — 各エンティティの `time.start` / `time.end`。不明は `null` で、空欄を捏造しない。
-- **空間** — `space` に役割付きの場所参照（`created_in` / `held_at` / `active_in` など）。
-  `place` は座標を必ず持つので、「1885年に半径◯kmで何が起きていたか」を後から引ける。
-- **関係** — `relations` に閉じた語彙で（`created_by` / `taught_by` / `influenced_by` /
-  `responds_to` など）。逆向きはビルド時に自動展開するので片側だけ書く。
+- **時間** — `time.start` / `end` は **EDTF**（`146X`＝1460年代／`1500~`＝およそ／`..`＝継続中／
+  `null`＝不明）。不明を推測で埋めない。原表記（元号・王朝名）は `display` に残す。
+- **空間** — `space` に役割付きの場所参照（`originated_in` / `created_in` / `held_at` / `active_in`…）。
+  `place` は文化圏（`region`）と座標を必ず持つので、「1885年に半径◯kmで何が起きていたか」を引ける。
+- **関係** — `relations` は閉じた語彙。解釈を含むもの（`influenced_by` / `derives_from` /
+  `grouped_as` / `diffused_to`…）は **確度（`certainty`）と出典が必須**で、当事者の言明・研究の通説・
+  自分の仮説を区別する。同時代の並行は保存せず、時間×空間から生成する。
 
-外部の典拠ID（Wikidata QID・Getty ULAN / AAT / TGN）を各エンティティに持たせる。これが
-「ノートの山」と「接続可能なデータ」を分ける一点で、表記揺れ（Seurat / スーラ / スーラー）で
-同一性を失わず、所蔵館 API・IIIF 画像・[Linked Art](https://linked.art/model/) 形式のデータと
-後から突き合わせられる。
+主役は `movement`。**単一の型に保ち、必須の `kind`**（当事者が名乗った運動／後付けの括り／
+血縁・工房の継承／時代様式）で性質を区別する。後付けの命名と当事者の自己認識は `naming` で分けて持つ。
+
+外部の典拠ID（Wikidata QID・Getty AAT / ULAN / TGN・Japan Search・NDL）を各エンティティに持たせ、
+無いときは理由（`none_reason`）を書く。`uri`（`urn:ahn:...`）で外から名指しでき、`claims` で
+**主張ごとの根拠**を持つ。これが「ノートの山」と「接続可能なデータ」を分ける三点。外部標準との
+対応は [docs/interop-mapping.md](docs/interop-mapping.md)。
 
 ## 使う
 
 ```bash
-python3 tools/build_graph.py           # 検証してグラフを生成
-python3 tools/build_graph.py --check   # 検証だけ（欠落・dangling 参照・未知の関係型を検出）
+python3 tools/new_entity.py movement kano-school --ja 狩野派 --en "Kanō school"
+python3 tools/build_graph.py --check     # 検証だけ（CI 用）
+python3 tools/build_graph.py             # 検証 + グラフ・被覆マップの生成
+python3 tools/bundle.py movement/kano-school        # 1件とその周辺を1文書で
+python3 tools/bundle.py --region asia-east-japan    # 文化圏でまとめて
+python3 tools/bundle.py --century 19                # 世紀でまとめて
 ```
+
+1件の調査は [docs/investigation-task.md](docs/investigation-task.md) の手順だけで終わる。
 
 ## 書くときの規律
 
@@ -56,19 +75,9 @@ python3 tools/build_graph.py --check   # 検証だけ（欠落・dangling 参照
 
 ## いま入っているもの
 
-| ID | 種別 | 状態 |
-|---|---|---|
-| [work/a-sunday-on-la-grande-jatte](entities/works/a-sunday-on-la-grande-jatte.md) | work | verified |
-| [artist/georges-seurat](entities/artists/georges-seurat.md) | artist | draft |
-| [concept/harmony](entities/concepts/harmony.md) | concept | draft |
-| [movement/neo-impressionism](entities/movements/neo-impressionism.md) | movement | stub |
-| [movement/post-impressionism](entities/movements/post-impressionism.md) | movement | stub |
-| [artist/henri-lehmann](entities/artists/henri-lehmann.md) | artist | stub |
-| [place/paris](entities/places/paris.md) | place | stub |
-| [place/art-institute-of-chicago](entities/places/art-institute-of-chicago.md) | place | stub |
-
-空白の全体像は [overviews/coverage.md](overviews/coverage.md)。現状は19世紀西欧の1点にしか
-光が当たっていない。
+`python3 tools/build_graph.py` の出力が正確な現在地。2026-08-08 時点で12エンティティ・
+movement 3件（新印象派／ポスト印象派／狩野派）。空白の全体像は
+[overviews/coverage.md](overviews/coverage.md)。
 
 ## 制作との接続
 

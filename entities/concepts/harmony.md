@@ -1,19 +1,23 @@
 ---
 id: concept/harmony
+uri: urn:ahn:concept/harmony
 type: concept
 label_ja: 調和
 label_en: harmony
 authority:
   wikidata: null
   aat: null
+  ndl: null
+  jpsearch: null
+  none_reason: 概念そのものの典拠IDは未調査。AAT に harmony 相当の語があるか確認していない
 time:
   start: null
   end: null
-  note: 概念そのものは古代から。ここでは19世紀フランスでの定義の固まり方を軸に追う
+  display: 概念そのものは古代から。ここでは19世紀フランスでの定義の固まり方を軸に追う
 space:
   - {role: active_in, target: place/paris}
 relations:
-  - {type: documented_in, target: artist/georges-seurat}
+  - {type: documented_in, target: source/seurat-letter-beaubourg-1890}
 sources:
   - https://fr.wikiquote.org/wiki/Georges_Seurat
   - https://www.newworldencyclopedia.org/entry/Georges-Pierre_Seurat

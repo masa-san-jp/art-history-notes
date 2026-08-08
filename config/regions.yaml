@@ -1,0 +1,28 @@
+# 文化圏バケット（13）。エンティティにせず、ここを唯一の正とする。
+# 粒度の原則: 内部差がこのKBの主題になったら割る。それまで割らない。割るときはこのファイルの diff 1つ。
+# 「西洋」の定義は受け入れ条件（非西洋比率）の計算に直結する。変更は issue #1 の編集を伴う。
+
+buckets:
+  europe-west:     {label_ja: 西欧・南欧・北欧, west: true}
+  europe-east:     {label_ja: 中東欧・ロシア・ビザンツ圏, west: true}
+  americas-north:  {label_ja: 北米, west: true}
+  mena:            {label_ja: 中東・北アフリカ, west: false}
+  africa-sub:      {label_ja: サブサハラ・アフリカ, west: false}
+  asia-central:    {label_ja: 中央アジア・チベット・モンゴル, west: false}
+  asia-south:      {label_ja: 南アジア, west: false}
+  asia-southeast:  {label_ja: 東南アジア, west: false}
+  asia-east-china: {label_ja: 中国圏, west: false}
+  asia-east-korea: {label_ja: 朝鮮半島, west: false}
+  asia-east-japan: {label_ja: 日本, west: false}
+  americas-latin:  {label_ja: 中南米・カリブ, west: false}
+  oceania:         {label_ja: オセアニア・太平洋, west: false}
+
+# 東アジアを3つに割る理由: 「派」の性質差（狩野派／浙派・呉派／朝鮮画院）がこのKBの主題だから。
+# 西欧を仏英独に割らない理由: 割るとバケット数が主題ではなく資料量で決まり、パリ中心の慣行に引きずられる。
+
+thresholds:              # issue #1 の受け入れ条件の機械化。数値の変更は issue の編集を伴う
+  movement_total: 100
+  non_west_ratio: 0.50
+  per_bucket_min: 3
+  pre_1800_ratio: 0.30
+  isolated_max_ratio: 0.10

@@ -1,19 +1,24 @@
 ---
 id: work/a-sunday-on-la-grande-jatte
+uri: urn:ahn:work/a-sunday-on-la-grande-jatte
 type: work
 label_ja: グランド・ジャット島の日曜日の午後 — 1884年
 label_en: A Sunday Afternoon on the Island of La Grande Jatte
 authority:
   wikidata: Q1044742
+  aat: null
+  ndl: null
+  jpsearch: null
+  none_reason: null
 time:
-  start: 1884
-  end: 1886
-  note: 額縁部分の彩色は1888–89年に追加
+  start: "1884"
+  end: "1886"
+  display: 1884–86年（額縁部分の彩色は1888–89年）
 space:
   - {role: created_in, target: place/paris}
-  - {role: held_at, target: place/art-institute-of-chicago}
+  - {role: held_at, target: org/art-institute-of-chicago}
 relations:
-  - {type: created_by, target: artist/georges-seurat}
+  - {type: created_by, target: person/georges-seurat}
   - {type: belongs_to, target: movement/neo-impressionism}
   - {type: depicts, target: concept/harmony}
 sources:
@@ -103,7 +108,7 @@ pour le ton, un plus lumineux (clair) pour un plus sombre."）。
   **制作地と現在地が大陸を跨いでいる**——1924年に米国のコレクターへ渡った経路が、この作品が
   どこで誰に見られるかを決めている（provenance は
   [AIC API](https://api.artic.edu/api/v1/artworks/27992) に記載）。
-- **関係**: [artist/georges-seurat](../artists/georges-seurat.md) の主要作。
+- **関係**: [person/georges-seurat](../persons/georges-seurat.md) の主要作。
   技法・運動としては [movement/neo-impressionism](../movements/neo-impressionism.md) の中心作。
   なお Wikidata はこの作品の movement を Post-impressionism (Q166713) としている（より広い括り）。
 

@@ -1,23 +1,26 @@
 ---
-id: artist/georges-seurat
-type: artist
+id: person/georges-seurat
+uri: urn:ahn:person/georges-seurat
+type: person
 label_ja: ジョルジュ・スーラ
 label_en: Georges Seurat
 authority:
   wikidata: Q34013
   ulan: "500008873"
-  viaf: "24608076"
+  ndl: null
+  jpsearch: null
+  none_reason: null
 time:
-  start: 1859
-  end: 1891
-  note: 1859-12-02 生 / 1891-03-29 没。活動期間はおよそ10年
+  start: "1859-12-02"
+  end: "1891-03-29"
+  display: 活動期間はおよそ10年
 space:
   - {role: born_in, target: place/paris}
   - {role: died_in, target: place/paris}
   - {role: active_in, target: place/paris}
 relations:
   - {type: belongs_to, target: movement/neo-impressionism}
-  - {type: taught_by, target: artist/henri-lehmann}
+  - {type: taught_by, target: person/henri-lehmann}
 sources:
   - https://www.wikidata.org/wiki/Q34013
   - https://api.artic.edu/api/v1/artworks/27992

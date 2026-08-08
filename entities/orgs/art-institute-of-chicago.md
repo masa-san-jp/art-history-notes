@@ -1,16 +1,23 @@
 ---
-id: place/art-institute-of-chicago
-type: place
+id: org/art-institute-of-chicago
+uri: urn:ahn:org/art-institute-of-chicago
+type: org
 label_ja: シカゴ美術館
 label_en: Art Institute of Chicago
 authority:
   wikidata: Q239303
   ulan: "500304669"
+  aat: null
+  ndl: null
+  jpsearch: null
+  none_reason: null
 coordinates: [41.879444, -87.623889]
 time:
-  start: 1879
-  end: null
-  note: 設立年は要確認（Wikidata 未取得）
+  start: "1879?"
+  end: ".."
+  display: 設立年は要確認
+space:
+  - {role: sited_in, target: place/chicago}
 relations: []
 sources:
   - https://www.wikidata.org/wiki/Q239303

@@ -1,19 +1,241 @@
 {
   "entities": {
-    "artist/georges-seurat": {
-      "id": "artist/georges-seurat",
-      "type": "artist",
+    "concept/harmony": {
+      "id": "concept/harmony",
+      "uri": "urn:ahn:concept/harmony",
+      "type": "concept",
+      "label_ja": "調和",
+      "label_en": "harmony",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "概念そのものの典拠IDは未調査。AAT に harmony 相当の語があるか確認していない"
+      },
+      "time": {
+        "start": null,
+        "end": null,
+        "display": "概念そのものは古代から。ここでは19世紀フランスでの定義の固まり方を軸に追う"
+      },
+      "space": [
+        {
+          "role": "active_in",
+          "target": "place/paris"
+        }
+      ],
+      "relations": [
+        {
+          "type": "documented_in",
+          "target": "source/seurat-letter-beaubourg-1890"
+        }
+      ],
+      "sources": [
+        "https://fr.wikiquote.org/wiki/Georges_Seurat",
+        "https://www.newworldencyclopedia.org/entry/Georges-Pierre_Seurat",
+        "https://www.sothebys.com/en/auctions/ecatalogue/2009/impressionist-modern-art-pf9006/lot.8.html"
+      ],
+      "status": "draft",
+      "updated": "2026-08-08",
+      "path": "entities/concepts/harmony.md"
+    },
+    "movement/kano-school": {
+      "id": "movement/kano-school",
+      "uri": "urn:ahn:movement/kano-school",
+      "type": "movement",
+      "kind": "lineage-school",
+      "label_ja": "狩野派",
+      "label_en": "Kanō school",
+      "authority": {
+        "wikidata": "Q252801",
+        "aat": "300018653",
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": "1500~",
+        "end": "1868~",
+        "display": "15世紀末〜明治維新（Wikidata の inception は1500年、解体は明治期とされる）"
+      },
+      "naming": {
+        "self_identified": true,
+        "named_by": null,
+        "named_when": null,
+        "original_label": "狩野派",
+        "note": "家名がそのまま呼称になっており、命名という行為が存在しない型。西洋の -ism のように誰かが名付けた運動ではない"
+      },
+      "claims": [
+        {
+          "field": "time",
+          "source": "https://www.wikidata.org/wiki/Q252801",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "kind",
+          "source": "https://www.wikidata.org/wiki/Q252801",
+          "certainty": "scholarly"
+        }
+      ],
+      "space": [
+        {
+          "role": "originated_in",
+          "target": "place/kyoto"
+        },
+        {
+          "role": "active_in",
+          "target": "place/kyoto"
+        }
+      ],
+      "relations": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q252801",
+        "https://www.getty.edu/research/tools/vocabularies/aat/"
+      ],
+      "status": "draft",
+      "updated": "2026-08-08",
+      "path": "entities/movements/kano-school.md"
+    },
+    "movement/neo-impressionism": {
+      "id": "movement/neo-impressionism",
+      "uri": "urn:ahn:movement/neo-impressionism",
+      "type": "movement",
+      "kind": "self-declared",
+      "label_ja": "新印象派",
+      "label_en": "Neo-impressionism",
+      "authority": {
+        "wikidata": "Q150091",
+        "aat": "300021505",
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": null,
+        "end": null,
+        "display": "1880年代半ば〜1900年頃（起点・終点とも一次資料未確認）"
+      },
+      "naming": {
+        "self_identified": true,
+        "named_by": null,
+        "named_when": null,
+        "original_label": "néo-impressionnisme",
+        "note": "当事者が使った名であることは、参加者 Paul Signac の著書『D'Eugène Delacroix au néo-impressionnisme』(1899) が題名に用いていることから言える。命名者（批評家 Félix Fénéon とされる）と命名年は未確認"
+      },
+      "claims": [],
+      "space": [
+        {
+          "role": "originated_in",
+          "target": "place/paris"
+        }
+      ],
+      "relations": [
+        {
+          "type": "grouped_as",
+          "target": "movement/post-impressionism",
+          "certainty": "scholarly",
+          "source": "https://www.wikidata.org/wiki/Q1044742"
+        }
+      ],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q150091",
+        "https://api.artic.edu/api/v1/artworks/27992"
+      ],
+      "status": "stub",
+      "updated": "2026-08-08",
+      "path": "entities/movements/neo-impressionism.md"
+    },
+    "movement/post-impressionism": {
+      "id": "movement/post-impressionism",
+      "uri": "urn:ahn:movement/post-impressionism",
+      "type": "movement",
+      "kind": "retrospective",
+      "label_ja": "ポスト印象派",
+      "label_en": "Post-impressionism",
+      "authority": {
+        "wikidata": "Q166713",
+        "aat": "300021508",
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": null,
+        "end": null,
+        "display": "括られる対象の活動期はおよそ1880年代〜1900年代（範囲は論者によって動く）"
+      },
+      "naming": {
+        "self_identified": false,
+        "named_by": null,
+        "named_when": "1910?",
+        "original_label": "Post-Impressionism",
+        "note": "1910年ロンドンのグラフトン・ギャラリーズ展（Roger Fry 企画）の展覧会名に由来するとされる。命名者・命名年とも一次資料は未確認。当事者がこの名で名乗った例を確認していない"
+      },
+      "claims": [],
+      "space": [],
+      "relations": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q166713"
+      ],
+      "status": "stub",
+      "updated": "2026-08-08",
+      "path": "entities/movements/post-impressionism.md"
+    },
+    "org/art-institute-of-chicago": {
+      "id": "org/art-institute-of-chicago",
+      "uri": "urn:ahn:org/art-institute-of-chicago",
+      "type": "org",
+      "label_ja": "シカゴ美術館",
+      "label_en": "Art Institute of Chicago",
+      "authority": {
+        "wikidata": "Q239303",
+        "ulan": "500304669",
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "coordinates": [
+        41.879444,
+        -87.623889
+      ],
+      "time": {
+        "start": "1879?",
+        "end": "..",
+        "display": "設立年は要確認"
+      },
+      "space": [
+        {
+          "role": "sited_in",
+          "target": "place/chicago"
+        }
+      ],
+      "relations": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q239303",
+        "https://api.artic.edu/api/v1/artworks/27992"
+      ],
+      "status": "stub",
+      "updated": "2026-08-08",
+      "path": "entities/orgs/art-institute-of-chicago.md"
+    },
+    "person/georges-seurat": {
+      "id": "person/georges-seurat",
+      "uri": "urn:ahn:person/georges-seurat",
+      "type": "person",
       "label_ja": "ジョルジュ・スーラ",
       "label_en": "Georges Seurat",
       "authority": {
         "wikidata": "Q34013",
         "ulan": "500008873",
-        "viaf": "24608076"
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
       },
       "time": {
-        "start": 1859,
-        "end": 1891,
-        "note": "1859-12-02 生 / 1891-03-29 没。活動期間はおよそ10年"
+        "start": "1859-12-02",
+        "end": "1891-03-29",
+        "display": "活動期間はおよそ10年"
       },
       "space": [
         {
@@ -36,7 +258,7 @@
         },
         {
           "type": "taught_by",
-          "target": "artist/henri-lehmann"
+          "target": "person/henri-lehmann"
         }
       ],
       "sources": [
@@ -46,21 +268,25 @@
       ],
       "status": "draft",
       "updated": "2026-08-08",
-      "path": "entities/artists/georges-seurat.md"
+      "path": "entities/persons/georges-seurat.md"
     },
-    "artist/henri-lehmann": {
-      "id": "artist/henri-lehmann",
-      "type": "artist",
+    "person/henri-lehmann": {
+      "id": "person/henri-lehmann",
+      "uri": "urn:ahn:person/henri-lehmann",
+      "type": "person",
       "label_ja": "アンリ・レーマン",
       "label_en": "Henri Lehmann",
       "authority": {
         "wikidata": "Q240483",
-        "ulan": "500032345"
+        "ulan": "500032345",
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
       },
       "time": {
-        "start": 1814,
-        "end": 1882,
-        "note": "1814-04-14 生 / 1882-03-30 没"
+        "start": "1814-04-14",
+        "end": "1882-03-30",
+        "display": null
       },
       "space": [
         {
@@ -74,142 +300,97 @@
       ],
       "status": "stub",
       "updated": "2026-08-08",
-      "path": "entities/artists/henri-lehmann.md"
+      "path": "entities/persons/henri-lehmann.md"
     },
-    "concept/harmony": {
-      "id": "concept/harmony",
-      "type": "concept",
-      "label_ja": "調和",
-      "label_en": "harmony",
+    "place/chicago": {
+      "id": "place/chicago",
+      "uri": "urn:ahn:place/chicago",
+      "type": "place",
+      "label_ja": "シカゴ",
+      "label_en": "Chicago",
       "authority": {
-        "wikidata": null,
-        "aat": null
+        "wikidata": "Q1297",
+        "tgn": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
       },
+      "region": "americas-north",
+      "coordinates": [
+        41.881944,
+        -87.627778
+      ],
       "time": {
         "start": null,
         "end": null,
-        "note": "概念そのものは古代から。ここでは19世紀フランスでの定義の固まり方を軸に追う"
+        "display": null
       },
-      "space": [
-        {
-          "role": "active_in",
-          "target": "place/paris"
-        }
-      ],
-      "relations": [
-        {
-          "type": "documented_in",
-          "target": "artist/georges-seurat"
-        }
-      ],
-      "sources": [
-        "https://fr.wikiquote.org/wiki/Georges_Seurat",
-        "https://www.newworldencyclopedia.org/entry/Georges-Pierre_Seurat",
-        "https://www.sothebys.com/en/auctions/ecatalogue/2009/impressionist-modern-art-pf9006/lot.8.html"
-      ],
-      "status": "draft",
-      "updated": "2026-08-08",
-      "path": "entities/concepts/harmony.md"
-    },
-    "movement/neo-impressionism": {
-      "id": "movement/neo-impressionism",
-      "type": "movement",
-      "label_ja": "新印象派",
-      "label_en": "Neo-impressionism",
-      "authority": {
-        "wikidata": "Q150091",
-        "aat": "300021505"
-      },
-      "time": {
-        "start": 1884,
-        "end": 1900,
-        "note": "起点は Société des Artistes Indépendants 設立（1884）前後。終期は緩やかで、分割主義として20世紀へ続く"
-      },
-      "space": [
-        {
-          "role": "active_in",
-          "target": "place/paris"
-        }
-      ],
-      "relations": [
-        {
-          "type": "part_of",
-          "target": "movement/post-impressionism"
-        }
-      ],
-      "sources": [
-        "https://www.wikidata.org/wiki/Q150091",
-        "https://www.getty.edu/research/tools/vocabularies/aat/"
-      ],
-      "status": "stub",
-      "updated": "2026-08-08",
-      "path": "entities/movements/neo-impressionism.md"
-    },
-    "movement/post-impressionism": {
-      "id": "movement/post-impressionism",
-      "type": "movement",
-      "label_ja": "ポスト印象派",
-      "label_en": "Post-impressionism",
-      "authority": {
-        "wikidata": "Q166713",
-        "aat": "300021508"
-      },
-      "time": {
-        "start": 1886,
-        "end": 1905,
-        "note": "範囲は論者によって動く。ここでの数値は暫定"
-      },
+      "space": [],
       "relations": [],
       "sources": [
-        "https://www.wikidata.org/wiki/Q166713"
+        "https://www.wikidata.org/wiki/Q1297"
       ],
       "status": "stub",
       "updated": "2026-08-08",
-      "path": "entities/movements/post-impressionism.md"
+      "path": "entities/places/chicago.md"
     },
-    "place/art-institute-of-chicago": {
-      "id": "place/art-institute-of-chicago",
+    "place/kyoto": {
+      "id": "place/kyoto",
+      "uri": "urn:ahn:place/kyoto",
       "type": "place",
-      "label_ja": "シカゴ美術館",
-      "label_en": "Art Institute of Chicago",
+      "label_ja": "京都",
+      "label_en": "Kyoto",
       "authority": {
-        "wikidata": "Q239303",
-        "ulan": "500304669"
+        "wikidata": "Q34600",
+        "tgn": "7004603",
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
       },
+      "region": "asia-east-japan",
       "coordinates": [
-        41.879444,
-        -87.623889
+        35.011611,
+        135.768111
       ],
       "time": {
-        "start": 1879,
+        "start": null,
         "end": null,
-        "note": "設立年は要確認（Wikidata 未取得）"
+        "display": null
       },
+      "space": [],
       "relations": [],
       "sources": [
-        "https://www.wikidata.org/wiki/Q239303",
-        "https://api.artic.edu/api/v1/artworks/27992"
+        "https://www.wikidata.org/wiki/Q34600"
       ],
       "status": "stub",
       "updated": "2026-08-08",
-      "path": "entities/places/art-institute-of-chicago.md"
+      "path": "entities/places/kyoto.md"
     },
     "place/paris": {
       "id": "place/paris",
+      "uri": "urn:ahn:place/paris",
       "type": "place",
       "label_ja": "パリ",
       "label_en": "Paris",
       "authority": {
         "wikidata": "Q90",
-        "tgn": "7008038"
+        "tgn": "7008038",
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
       },
+      "region": "europe-west",
       "coordinates": [
         48.856667,
         2.352222
       ],
       "time": {
         "start": null,
-        "end": null
+        "end": null,
+        "display": null
       },
       "relations": [],
       "sources": [
@@ -219,18 +400,57 @@
       "updated": "2026-08-08",
       "path": "entities/places/paris.md"
     },
+    "source/seurat-letter-beaubourg-1890": {
+      "id": "source/seurat-letter-beaubourg-1890",
+      "uri": "urn:ahn:source/seurat-letter-beaubourg-1890",
+      "type": "source",
+      "label_ja": "スーラの Maurice Beaubourg 宛書簡（1890-08-28）",
+      "label_en": "Seurat's letter to Maurice Beaubourg, 28 August 1890",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "個別の書簡に対応する典拠IDを見つけていない。所蔵館の請求記号で代用している"
+      },
+      "time": {
+        "start": "1890-08-28",
+        "end": "1890-08-28",
+        "display": "1890年8月28日、グラヴリーヌ滞在中"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/georges-seurat"
+        }
+      ],
+      "sources": [
+        "https://fr.wikiquote.org/wiki/Georges_Seurat",
+        "https://www.sothebys.com/en/auctions/ecatalogue/2009/impressionist-modern-art-pf9006/lot.8.html",
+        "https://hollisarchives.lib.harvard.edu/repositories/9/archival_objects/34640"
+      ],
+      "status": "draft",
+      "updated": "2026-08-08",
+      "path": "entities/sources/seurat-letter-beaubourg-1890.md"
+    },
     "work/a-sunday-on-la-grande-jatte": {
       "id": "work/a-sunday-on-la-grande-jatte",
+      "uri": "urn:ahn:work/a-sunday-on-la-grande-jatte",
       "type": "work",
       "label_ja": "グランド・ジャット島の日曜日の午後 — 1884年",
       "label_en": "A Sunday Afternoon on the Island of La Grande Jatte",
       "authority": {
-        "wikidata": "Q1044742"
+        "wikidata": "Q1044742",
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
       },
       "time": {
-        "start": 1884,
-        "end": 1886,
-        "note": "額縁部分の彩色は1888–89年に追加"
+        "start": "1884",
+        "end": "1886",
+        "display": "1884–86年（額縁部分の彩色は1888–89年）"
       },
       "space": [
         {
@@ -239,13 +459,13 @@
         },
         {
           "role": "held_at",
-          "target": "place/art-institute-of-chicago"
+          "target": "org/art-institute-of-chicago"
         }
       ],
       "relations": [
         {
           "type": "created_by",
-          "target": "artist/georges-seurat"
+          "target": "person/georges-seurat"
         },
         {
           "type": "belongs_to",
@@ -269,69 +489,105 @@
   },
   "edges": [
     {
-      "from": "artist/georges-seurat",
+      "from": "concept/harmony",
+      "type": "documented_in",
+      "to": "source/seurat-letter-beaubourg-1890",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "concept/harmony",
+      "type": "active_in",
+      "to": "place/paris"
+    },
+    {
+      "from": "movement/kano-school",
+      "type": "originated_in",
+      "to": "place/kyoto"
+    },
+    {
+      "from": "movement/kano-school",
+      "type": "active_in",
+      "to": "place/kyoto"
+    },
+    {
+      "from": "movement/neo-impressionism",
+      "type": "grouped_as",
+      "to": "movement/post-impressionism",
+      "certainty": "scholarly",
+      "source": "https://www.wikidata.org/wiki/Q1044742"
+    },
+    {
+      "from": "movement/neo-impressionism",
+      "type": "originated_in",
+      "to": "place/paris"
+    },
+    {
+      "from": "org/art-institute-of-chicago",
+      "type": "sited_in",
+      "to": "place/chicago"
+    },
+    {
+      "from": "person/georges-seurat",
       "type": "belongs_to",
-      "to": "movement/neo-impressionism"
+      "to": "movement/neo-impressionism",
+      "certainty": null,
+      "source": null
     },
     {
-      "from": "artist/georges-seurat",
+      "from": "person/georges-seurat",
       "type": "taught_by",
-      "to": "artist/henri-lehmann"
+      "to": "person/henri-lehmann",
+      "certainty": null,
+      "source": null
     },
     {
-      "from": "artist/georges-seurat",
+      "from": "person/georges-seurat",
       "type": "born_in",
       "to": "place/paris"
     },
     {
-      "from": "artist/georges-seurat",
+      "from": "person/georges-seurat",
       "type": "died_in",
       "to": "place/paris"
     },
     {
-      "from": "artist/georges-seurat",
+      "from": "person/georges-seurat",
       "type": "active_in",
       "to": "place/paris"
     },
     {
-      "from": "artist/henri-lehmann",
+      "from": "person/henri-lehmann",
       "type": "active_in",
       "to": "place/paris"
     },
     {
-      "from": "concept/harmony",
-      "type": "documented_in",
-      "to": "artist/georges-seurat"
-    },
-    {
-      "from": "concept/harmony",
-      "type": "active_in",
-      "to": "place/paris"
-    },
-    {
-      "from": "movement/neo-impressionism",
-      "type": "part_of",
-      "to": "movement/post-impressionism"
-    },
-    {
-      "from": "movement/neo-impressionism",
-      "type": "active_in",
-      "to": "place/paris"
+      "from": "source/seurat-letter-beaubourg-1890",
+      "type": "created_by",
+      "to": "person/georges-seurat",
+      "certainty": null,
+      "source": null
     },
     {
       "from": "work/a-sunday-on-la-grande-jatte",
       "type": "created_by",
-      "to": "artist/georges-seurat"
+      "to": "person/georges-seurat",
+      "certainty": null,
+      "source": null
     },
     {
       "from": "work/a-sunday-on-la-grande-jatte",
       "type": "belongs_to",
-      "to": "movement/neo-impressionism"
+      "to": "movement/neo-impressionism",
+      "certainty": null,
+      "source": null
     },
     {
       "from": "work/a-sunday-on-la-grande-jatte",
       "type": "depicts",
-      "to": "concept/harmony"
+      "to": "concept/harmony",
+      "certainty": null,
+      "source": null
     },
     {
       "from": "work/a-sunday-on-la-grande-jatte",
@@ -341,34 +597,40 @@
     {
       "from": "work/a-sunday-on-la-grande-jatte",
       "type": "held_at",
-      "to": "place/art-institute-of-chicago"
+      "to": "org/art-institute-of-chicago"
     },
     {
-      "from": "movement/neo-impressionism",
-      "type": "has_member",
-      "to": "artist/georges-seurat",
-      "derived": true
-    },
-    {
-      "from": "artist/henri-lehmann",
-      "type": "taught",
-      "to": "artist/georges-seurat",
-      "derived": true
-    },
-    {
-      "from": "artist/georges-seurat",
+      "from": "source/seurat-letter-beaubourg-1890",
       "type": "documents",
       "to": "concept/harmony",
       "derived": true
     },
     {
       "from": "movement/post-impressionism",
-      "type": "has_part",
+      "type": "groups",
       "to": "movement/neo-impressionism",
       "derived": true
     },
     {
-      "from": "artist/georges-seurat",
+      "from": "movement/neo-impressionism",
+      "type": "has_member",
+      "to": "person/georges-seurat",
+      "derived": true
+    },
+    {
+      "from": "person/henri-lehmann",
+      "type": "taught",
+      "to": "person/georges-seurat",
+      "derived": true
+    },
+    {
+      "from": "person/georges-seurat",
+      "type": "created",
+      "to": "source/seurat-letter-beaubourg-1890",
+      "derived": true
+    },
+    {
+      "from": "person/georges-seurat",
       "type": "created",
       "to": "work/a-sunday-on-la-grande-jatte",
       "derived": true

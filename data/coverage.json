@@ -1,0 +1,41 @@
+{
+  "as_of": "2026-08-08",
+  "movement_total": 3,
+  "grid": {
+    "asia-east-japan": {
+      "16": 1
+    },
+    "europe-west": {
+      "unknown": 1
+    },
+    "origin-unknown": {
+      "unknown": 1
+    }
+  },
+  "per_bucket": {
+    "europe-west": 1,
+    "europe-east": 0,
+    "americas-north": 0,
+    "mena": 0,
+    "africa-sub": 0,
+    "asia-central": 0,
+    "asia-south": 0,
+    "asia-southeast": 0,
+    "asia-east-china": 0,
+    "asia-east-korea": 0,
+    "asia-east-japan": 1,
+    "americas-latin": 0,
+    "oceania": 0
+  },
+  "origin_unknown": [
+    "movement/post-impressionism"
+  ],
+  "isolated": [],
+  "progress": {
+    "movement_total": "3/100",
+    "non_west_ratio": "0.33/0.5",
+    "per_bucket_min": "0/13 バケットが 3件以上",
+    "pre_1800_ratio": "0.33/0.3",
+    "isolated_ratio": "0.00（上限 0.1）"
+  }
+}
