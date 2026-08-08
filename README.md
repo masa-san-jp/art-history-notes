@@ -78,13 +78,12 @@ python3 tools/bundle.py --century 19                # 世紀でまとめて
 
 ## いま入っているもの
 
-`python3 tools/build_graph.py` の出力が正確な現在地。2026-08-08 時点で12エンティティ・
-movement 3件（新印象派／ポスト印象派／狩野派）。空白の全体像は
-[overviews/coverage.md](overviews/coverage.md)。
+`python3 tools/build_graph.py` の出力が正確な現在地（件数をここに書き写すと必ず古くなる）。
+空白の全体像は [overviews/coverage.md](overviews/coverage.md)。
 
 ## 制作との接続
 
-当面の制作締切は AIアートグランプリ5「調和」（2026-09-15・最低5点）と
+当面の制作締切は AIアートグランプリ5「調和」（2026-09-15・**1名1作品のみ**）と
 AIクリエイターズマーケット2026（2026-11-07）。だから最初に深く掘るのは
 [concept/harmony](entities/concepts/harmony.md)。ただしこのKBは締切のための資料置き場ではなく、
 締切が変わっても残る蓄積として作る。
