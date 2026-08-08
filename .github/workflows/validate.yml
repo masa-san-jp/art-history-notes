@@ -1,0 +1,26 @@
+name: validate
+# ローカルのフックは clone ごとの設定に依存する。push した時点でも必ず検証が走るようにする。
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install pyyaml
+      - name: 形式の検証（壊れていないか）
+        run: python3 tools/build_graph.py --check
+      - name: 生成物が最新か（entities と graph がずれていないか）
+        run: |
+          python3 tools/build_graph.py
+          python3 tools/audit.py
+          git diff --exit-code -- data/ overviews/coverage.md \
+            || (echo "::error::生成物が古い。python3 tools/build_graph.py && python3 tools/audit.py を実行して commit してください" && exit 1)
+      - name: 体系の食い違い（落とさず表示）
+        run: python3 tools/audit.py --dry-run

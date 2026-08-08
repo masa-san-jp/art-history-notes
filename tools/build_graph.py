@@ -15,10 +15,13 @@ from datetime import date
 
 import yaml
 
-from kb import (CERTAINTIES, CLAIM_FIELDS_FOR_VERIFIED, DIR_FOR_TYPE, INTERPRETIVE_RELATIONS,
-                MOVEMENT_KINDS, RELATIONS, ROOT, SPACE_ROLES, STATUSES, TYPES, URI_PREFIX,
-                build_edges, edtf_ok, edtf_year_range, load_config, load_entities, read_queries,
-                region_of)
+import re
+
+from kb import (CERTAINTIES, CLAIM_FIELDS_FOR_VERIFIED, DIR_FOR_TYPE, ENTITIES,
+                INTERPRETIVE_RELATIONS, MOVEMENT_KINDS, RELATION_TARGET_TYPES, RELATIONS, ROOT,
+                SPACE_ROLES, SPACE_TARGET_TYPES, STATUSES, TYPES, URI_PREFIX, alias_map,
+                build_edges, edtf_ok, edtf_year_range, load_config, load_entities, read_frontmatter,
+                read_queries, regions_of)
 
 OVERVIEWS = ROOT / "overviews"
 MARK_START = "<!-- generated:coverage:start -->"
@@ -87,19 +90,35 @@ def validate(entities, records, cfg, errors):
                 and not auth.get("none_reason"):
             err("典拠が1つも無いときは authority.none_reason に理由を書く")
 
+        for a in meta.get("aliases") or []:
+            if a in entities:
+                err(f"alias {a} が既存の id と衝突している")
+
         for r in meta.get("relations") or []:
             rtype = r.get("type")
             if rtype not in RELATIONS:
                 err(f"未知の関係 type: {rtype}")
                 continue
+            allowed = RELATION_TARGET_TYPES.get(rtype)
+            target = entities.get(r.get("target"))
+            if allowed and target and target.get("type") not in allowed:
+                err(f"{rtype} が指せるのは {sorted(allowed)}。今: {r.get('target')}"
+                    f"（{target.get('type')}）")
             if rtype in INTERPRETIVE_RELATIONS:
                 if r.get("certainty") not in CERTAINTIES:
                     err(f"{rtype} は certainty が必須（{sorted(CERTAINTIES)}／今: {r.get('certainty')}）")
                 if not r.get("source"):
                     err(f"{rtype} は source が必須（解釈を含む関係）")
         for s in meta.get("space") or []:
-            if s.get("role") not in SPACE_ROLES:
-                err(f"未知の space role: {s.get('role')}")
+            role = s.get("role")
+            if role not in SPACE_ROLES:
+                err(f"未知の space role: {role}")
+                continue
+            allowed = SPACE_TARGET_TYPES.get(role)
+            target = entities.get(s.get("target"))
+            if allowed and target and target.get("type") not in allowed:
+                err(f"{role} が指せるのは {sorted(allowed)}。今: {s.get('target')}"
+                    f"（{target.get('type')}）")
 
         if meta.get("status") == "verified":
             need = CLAIM_FIELDS_FOR_VERIFIED.get(etype, set())
@@ -112,11 +131,19 @@ def validate(entities, records, cfg, errors):
             if c.get("certainty") not in CERTAINTIES:
                 err(f"claims の {c.get('field')} の certainty が語彙外: {c.get('certainty')}")
 
+    aliases = alias_map(entities)
     for edge in build_edges(entities):
         if edge.get("derived"):
             continue
-        if edge["to"] not in entities:
+        if edge["to"] not in entities and edge["to"] not in aliases:
             errors.append(f"{edge['from']}: 存在しない参照先 {edge['to']}（{edge['type']}）")
+
+    # 本文の相対リンクが実在するか（slug を変えたときに黙って切れるのを防ぐ）
+    link_re = re.compile(r"\]\((\.[^)\s]+\.md)\)")
+    for path, _meta, body in records:
+        for rel_link in link_re.findall(body):
+            if not (path.parent / rel_link).resolve().exists():
+                errors.append(f"{path.relative_to(ROOT)}: 本文のリンク先が無い {rel_link}")
 
 
 def check_overview_freshness(entities, errors):
@@ -137,39 +164,56 @@ def check_overview_freshness(entities, errors):
 
 
 def coverage(entities, cfg):
-    """movement × 文化圏 × 世紀 の被覆と、受け入れ条件の達成度を集計する。"""
-    movements = {i: m for i, m in entities.items() if m.get("type") == "movement"}
-    buckets = cfg["buckets"]
-    grid, per_bucket, unknown_origin, pre1800, isolated = {}, {b: 0 for b in buckets}, [], 0, []
-    edge_ends = {e["from"] for e in build_edges(entities)} | {e["to"] for e in build_edges(entities)}
+    """movement × 文化圏 × 世紀 の被覆と、受け入れ条件の達成度。
 
-    for mid, meta in movements.items():
-        bucket = region_of(mid, entities)
-        if bucket is None:
-            unknown_origin.append(mid)
-        else:
-            per_bucket[bucket] = per_bucket.get(bucket, 0) + 1
+    **stub は実績に数えない。** 枠だけのファイルで件数を満たせてしまうと、受け入れ条件が意味を失う。
+    起源が複数あるものは、どのバケットにも代表させずに「複数起源」として別に数える——
+    最初の1つで代表させると地域比率が歪む。
+    """
+    movements = {i: m for i, m in entities.items() if m.get("type") == "movement"}
+    counted = {i: m for i, m in movements.items() if m.get("status") in ("draft", "verified")}
+    buckets = cfg["buckets"]
+    grid, per_bucket = {}, {b: 0 for b in buckets}
+    unknown_origin, multi_origin, pre1800, isolated = [], [], 0, []
+    all_edges = build_edges(entities)
+    edge_ends = {e["from"] for e in all_edges} | {e["to"] for e in all_edges}
+
+    for mid, meta in counted.items():
+        regions = regions_of(mid, entities)
         lo, _hi = edtf_year_range((meta.get("time") or {}).get("start"))
-        century = (lo // 100 + 1) if lo else None
+        century = str(lo // 100 + 1) if lo else "unknown"
         if lo and lo < 1800:
             pre1800 += 1
-        grid.setdefault(bucket or "origin-unknown", {}).setdefault(str(century or "unknown"), 0)
-        grid[bucket or "origin-unknown"][str(century or "unknown")] += 1
+        if not regions:
+            key = "origin-unknown"
+            unknown_origin.append(mid)
+        elif len(regions) > 1:
+            key = "origin-multiple"
+            multi_origin.append({"id": mid, "regions": regions})
+        else:
+            key = regions[0]
+            per_bucket[key] += 1
+        grid.setdefault(key, {}).setdefault(century, 0)
+        grid[key][century] += 1
         if mid not in edge_ends:
             isolated.append(mid)
 
-    total = len(movements)
+    total = len(counted)
     non_west = sum(n for b, n in per_bucket.items() if not buckets[b]["west"])
     th = cfg["thresholds"]
     return {
         "as_of": date.today().isoformat(),
         "movement_total": total,
+        "movement_stub_excluded": len(movements) - total,
+        "by_status": {s: sum(1 for m in movements.values() if m.get("status") == s)
+                      for s in sorted(STATUSES)},
         "grid": grid,
         "per_bucket": per_bucket,
         "origin_unknown": unknown_origin,
+        "origin_multiple": multi_origin,
         "isolated": isolated,
         "progress": {
-            "movement_total": f"{total}/{th['movement_total']}",
+            "movement_total": f"{total}/{th['movement_total']}（stub {len(movements) - total}件は不算入）",
             "non_west_ratio": f"{(non_west / total if total else 0):.2f}/{th['non_west_ratio']}",
             "per_bucket_min": f"{sum(1 for n in per_bucket.values() if n >= th['per_bucket_min'])}"
                               f"/{len(buckets)} バケットが {th['per_bucket_min']}件以上",
@@ -187,16 +231,22 @@ def render_coverage(cov, cfg):
     header = "| 文化圏 | " + " | ".join(label for _k, label in cols) + " | 計 |"
     sep = "|---" * (len(cols) + 2) + "|"
     lines = [f"生成: {cov['as_of']} — `python3 tools/build_graph.py`（手で書き換えない）", "",
-             f"movement 合計 **{cov['movement_total']}** 件", "", header, sep]
+             f"movement **{cov['movement_total']}** 件（stub {cov['movement_stub_excluded']}件は不算入）"
+             f"／内訳 {cov['by_status']}", "", header, sep]
     for b, conf in buckets.items():
         row = cov["grid"].get(b, {})
         cells = " | ".join(str(row.get(k, 0) or "") for k, _label in cols)
         mark = "" if conf["west"] else " ※非西洋"
         lines.append(f"| {b}（{conf['label_ja']}）{mark} | {cells} | {cov['per_bucket'].get(b, 0)} |")
-    if cov["grid"].get("origin-unknown"):
-        row = cov["grid"]["origin-unknown"]
-        cells = " | ".join(str(row.get(k, 0) or "") for k, _label in cols)
-        lines.append(f"| **発生地未確認** | {cells} | {len(cov['origin_unknown'])} |")
+    for key, label in (("origin-unknown", "**発生地未確認**"), ("origin-multiple", "**複数起源**")):
+        if cov["grid"].get(key):
+            row = cov["grid"][key]
+            cells = " | ".join(str(row.get(k, 0) or "") for k, _label in cols)
+            n = len(cov["origin_unknown"] if key == "origin-unknown" else cov["origin_multiple"])
+            lines.append(f"| {label} | {cells} | {n} |")
+    if cov["origin_multiple"]:
+        lines += ["", "複数起源（どのバケットにも代表させていない）:"] + [
+            f"- {m['id']} — {' / '.join(m['regions'])}" for m in cov["origin_multiple"]]
     misses = {}
     for q in read_queries():
         if q.get("hits") == 0:

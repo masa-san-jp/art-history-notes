@@ -15,8 +15,8 @@ import argparse
 import sys
 from pathlib import Path
 
-from kb import (ROOT, build_edges, edtf_year_range, load_entities, log_query,
-                read_frontmatter, region_of)
+from kb import (ROOT, alias_map, build_edges, edtf_year_range, load_entities, log_query,
+                read_frontmatter, regions_of, resolve)
 
 
 def summarize(meta):
@@ -66,7 +66,8 @@ def render(centers, entities, edges, title):
         if out_edges:
             lines += ["", "関係（この節から出る）:"] + [
                 f"- {e['type']} → {summarize(entities[e['to']]) if e['to'] in entities else e['to']}"
-                + (f"（{e['certainty']}）" if e.get("certainty") else "") for e in out_edges]
+                + (f"（{e['certainty']}）" if e.get("certainty") else "")
+                + (f"  根拠: {e['source']}" if e.get("source") else "") for e in out_edges]
         if in_edges:
             lines += ["", "関係（この節へ入る）:"] + [
                 f"- {summarize(entities[e['from']]) if e['from'] in entities else e['from']}"
@@ -114,6 +115,7 @@ def main():
         print(f"（1件だけ該当: {a.center}）\n", file=sys.stderr)
 
     if a.center:
+        a.center = resolve(a.center, entities, alias_map(entities))
         if a.center not in entities:
             print(f"✗ そんな id は無い: {a.center}", file=sys.stderr)
             return 1
@@ -121,7 +123,7 @@ def main():
         title = f"{entities[a.center]['label_ja']}（{a.depth}ホップ）"
     elif a.region:
         ids = sorted(i for i, m in entities.items()
-                     if m.get("type") == "movement" and region_of(i, entities) == a.region)
+                     if m.get("type") == "movement" and a.region in regions_of(i, entities))
         title = f"文化圏 {a.region}"
     elif a.century:
         ids = []

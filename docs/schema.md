@@ -196,8 +196,24 @@ python3 tools/bundle.py --region asia-east-japan            # 文化圏でまと
 ```
 
 検証が落とすもの: 必須項目の欠落／雛形の TODO 残り／ID・URI とパスの不一致／ID 重複／
-存在しない参照／語彙外の型・関係・役割／EDTF 違反／解釈系の関係の `certainty`・`source` 欠落／
-`verified` なのに項目ごとの根拠がない／`place` の `region` 欠落／
+存在しない参照／語彙外の型・関係・役割／**関係と空間が指す相手の型違反**（`created_by` が場所を指す等）／
+EDTF 違反／解釈系の関係の `certainty`・`source` 欠落／`verified` なのに項目ごとの根拠がない／
+`place` の `region` 欠落／**本文の相対リンクの切れ**／**alias と id の衝突**／
 俯瞰の依存先が更新されたのに `as_of` が古い（STALE）。
+
+`push` 時は GitHub Actions（`.github/workflows/validate.yml`）が同じ検証と「生成物が最新か」を走らせる。
+ローカルのフックは clone ごとの設定に依存するので、そこだけには頼らない。
+
+### 件数の数え方と起源の扱い
+
+- **`stub` は実績に数えない。** 受け入れ条件の件数は `draft` と `verified` だけを数える
+  （枠だけのファイルで100件を満たせてしまうと条件が意味を失う）。内訳は被覆マップに出る。
+- **起源が複数あるものは、どのバケットにも代表させない。** `originated_in` を複数持つ movement は
+  「複数起源」として別に数える（最初の1つで代表させると地域比率が歪む）。
+
+### `aliases`（任意）
+
+slug を変えたときに古い id で参照が切れないように、旧 id を `aliases` に残せる。
+`aliases: [movement/old-slug]`。検証が id との衝突を落とし、`bundle.py` は alias でも引ける。
 
 外部データとの対応関係は [interop-mapping.md](interop-mapping.md)。

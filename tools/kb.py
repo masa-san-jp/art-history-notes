@@ -41,6 +41,23 @@ RELATIONS = {**STRUCTURAL_RELATIONS, **INTERPRETIVE_RELATIONS}
 
 SPACE_ROLES = {"originated_in", "created_in", "held_at", "active_in", "born_in", "died_in", "sited_in"}
 
+# 関係が指してよい相手の型。意味的に壊れた配線（created_by が場所を指す等）を落とすため。
+RELATION_TARGET_TYPES = {
+    "created_by": {"person", "org"}, "taught_by": {"person"},
+    "belongs_to": {"movement"}, "grouped_as": {"movement"},
+    "derives_from": {"movement"}, "reacts_against": {"movement", "concept"},
+    "precedes": {"movement", "event"}, "diffused_to": {"place"},
+    "patronized_by": {"org", "person"}, "member_of": {"org", "movement", "event"},
+    "exhibited_at": {"event", "org"}, "documented_in": {"source"},
+    "depicts": {"concept", "place", "person", "work"},
+    "influenced_by": None, "responds_to": None, "part_of": None,  # None = 型を限定しない
+}
+SPACE_TARGET_TYPES = {
+    "originated_in": {"place"}, "created_in": {"place"}, "active_in": {"place"},
+    "born_in": {"place"}, "died_in": {"place"},
+    "held_at": {"org", "place"}, "sited_in": {"place"},
+}
+
 # verified を名乗るとき、項目ごとの根拠が要る field（claims ブロック）
 CLAIM_FIELDS_FOR_VERIFIED = {"movement": {"time", "originated_in", "kind"}}
 
@@ -137,11 +154,33 @@ def read_queries():
     return [json.loads(l) for l in QUERY_LOG.read_text(encoding="utf-8").splitlines() if l.strip()]
 
 
-def region_of(entity_id, entities):
-    """エンティティの発生地から文化圏バケットを引く。辿れなければ None。"""
+def regions_of(entity_id, entities):
+    """発生地の文化圏を**全部**返す。起源が複数・論争中のものを最初の1つで代表させないため。"""
     meta = entities.get(entity_id) or {}
+    out = []
     for s in meta.get("space") or []:
         if s.get("role") == "originated_in":
             place = entities.get(s.get("target")) or {}
-            return place.get("region")
-    return None
+            r = place.get("region")
+            if r and r not in out:
+                out.append(r)
+    return out
+
+
+def region_of(entity_id, entities):
+    """後方互換。複数あるときは最初の1つ（集計には regions_of を使う）。"""
+    rs = regions_of(entity_id, entities)
+    return rs[0] if rs else None
+
+
+def resolve(ref, entities, alias_map):
+    """id か alias を id に解決する。slug を変えても参照が切れないようにするため。"""
+    return ref if ref in entities else alias_map.get(ref, ref)
+
+
+def alias_map(entities):
+    out = {}
+    for eid, meta in entities.items():
+        for a in meta.get("aliases") or []:
+            out[a] = eid
+    return out

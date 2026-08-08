@@ -26,7 +26,7 @@ from pathlib import Path
 
 import yaml
 
-from kb import ROOT, build_edges, edtf_year_range, load_config, load_entities, region_of
+from kb import ROOT, build_edges, edtf_year_range, load_config, load_entities, regions_of
 
 OVERVIEWS = ROOT / "overviews"
 OUT = ROOT / "data" / "audit.json"
@@ -85,8 +85,7 @@ def check_kind_bias(entities, cfg, findings):
     for eid, meta in entities.items():
         if meta.get("type") != "movement":
             continue
-        r = region_of(eid, entities)
-        if r:
+        for r in regions_of(eid, entities):
             by_region[r].append(meta.get("kind"))
     for region, kinds in sorted(by_region.items()):
         if len(kinds) >= 2 and len(set(kinds)) == 1:
@@ -100,8 +99,7 @@ def check_hypotheses(entities, cfg, findings):
     counts = defaultdict(int)
     for eid, meta in entities.items():
         if meta.get("type") == "movement":
-            r = region_of(eid, entities)
-            if r:
+            for r in regions_of(eid, entities):
                 counts[r] += 1
     for path in sorted(OVERVIEWS.glob("*.md")):
         text = path.read_text(encoding="utf-8")
