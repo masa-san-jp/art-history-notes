@@ -2,7 +2,7 @@
 id: movement/neo-impressionism
 uri: urn:ahn:movement/neo-impressionism
 type: movement
-kind: self-declared
+kind: retrospective
 label_ja: 新印象派
 label_en: Neo-impressionism
 authority:
@@ -12,62 +12,147 @@ authority:
   jpsearch: null
   none_reason: null
 time:
-  start: null
-  end: null
-  display: 1880年代半ば〜1900年頃（起点・終点とも一次資料未確認）
+  start: "1886"
+  end: "1906"
+  display: "1886年（第8回印象派展）〜1906年（フォーヴィスムへの分岐）。Getty AAT の scope note が明示する範囲"
 naming:
   self_identified: true
-  named_by: null
-  named_when: null
+  named_by: person/felix-feneon
+  named_when: "1886-09-19"
   original_label: néo-impressionnisme
-  note: 当事者が使った名であることは、参加者 Paul Signac の著書『D'Eugène Delacroix au néo-impressionnisme』(1899) が題名に用いていることから言える。命名者（批評家 Félix Fénéon とされる）と命名年は未確認
-claims: []
+  note: "批評家フェネオンによる命名を、ブリュッセル『L'Art moderne』1886年9月19日号（6年目38号）掲載記事「L'Impressionnisme aux Tuileries」の実物（ULB Digithèque のデジタル化PDF）で直接確認した——「la méthode néo-impressionniste」の語がある。当事者側の自称としては、参加者 Paul Signac の著書『D'Eugène Delacroix au néo-impressionnisme』(1899) が題名に用いている。つまり命名は外部（批評家）が先、当事者による引き受けは13年後——この2つは別の事実であり、self_identified:true と kind:retrospective は矛盾しない（person/felix-feneon 参照）"
+claims:
+  - {field: time, source: "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300021505", certainty: scholarly}
+  - {field: originated_in, source: "https://digistore.bib.ulb.ac.be/2008/DL2864764_1886_f.pdf", certainty: scholarly}
+  - {field: kind, source: "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300021505", certainty: scholarly}
 space:
   - {role: originated_in, target: place/paris}
 relations:
   - {type: grouped_as, target: movement/post-impressionism, certainty: scholarly, source: "https://www.wikidata.org/wiki/Q1044742"}
+  - {type: diffused_to, target: place/brussels, certainty: scholarly, source: "https://en.wikipedia.org/wiki/Les_Vingt"}
 sources:
   - https://www.wikidata.org/wiki/Q150091
   - https://api.artic.edu/api/v1/artworks/27992
-status: stub
-updated: 2026-08-08
+  - https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300021505
+  - https://digistore.bib.ulb.ac.be/2008/DL2864764_1886_f.pdf
+  - https://gallica.bnf.fr/ark:/12148/bpt6k850398w
+  - https://catalogue.bnf.fr/ark:/12148/cb30427294w
+  - https://fr.wikipedia.org/wiki/N%C3%A9o-impressionnisme
+  - https://en.wikipedia.org/wiki/Neo-Impressionism
+  - https://en.wikipedia.org/wiki/Divisionism
+  - https://en.wikipedia.org/wiki/Les_Vingt
+  - https://www.impressionism.nl/1887-les-xx/
+status: verified
+updated: 2026-08-09
 ---
 
 # 新印象派 / Neo-impressionism
 
 ## 定義と範囲
 
-印象派の後、色彩を理論（Chevreul の同時対比、Blanc の美学）に基づいて分割して置く方向。
+印象派の後、色彩を理論（Chevreul『De la loi du contraste simultané des couleurs』(1839)、Charles
+Blanc『Grammaire des arts du dessin』(1860)、Ogden Rood の光学）に基づいて分割して置く方向。
 点描（pointillism, AAT 300067450 / Wikidata Q200034）は技法名で、新印象派は運動名。同一ではない。
 
-典拠: Wikidata [Q150091](https://www.wikidata.org/wiki/Q150091)／Getty AAT `300021505`
+1886年5月15日〜6月15日、パリ・rue Laffitte で開かれた第8回（最後の）印象派展の最後の一室に、
+ジョルジュ・スーラ《グランド・ジャット島の日曜日の午後》を中心に、ポール・シニャック、カミーユ・
+ピサロとその息子リュシアン・ピサロ、アルベール・デュボワ＝ピレが技法を揃えて出品した。同じ部屋には
+シャルル・アングランとアンリ＝エドモン・クロスも「印象派の異端者」として並んだ。この構成は批評家
+Félix Fénéon 自身が1886年9月19日の『L'Art moderne』誌の記事で証言している（後述）。
+
+典拠: Wikidata [Q150091](https://www.wikidata.org/wiki/Q150091)／Getty AAT
+[300021505](https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300021505)
 
 ## kind の判定
 
-`self-declared`。参加者自身がこの名を使っている——Paul Signac の『D'Eugène Delacroix au
-néo-impressionnisme』(1899) が題名に用いている（[AIC の publication history](https://api.artic.edu/api/v1/artworks/27992) に所収）。
-**未確認**: 初出（批評家 Félix Fénéon による1886年の命名とされる）の一次資料に当たっていない。
-当たった時点で `naming.named_by` と `named_when` を埋める。
+### 1. 軸ごとに見る
 
-## 中心と広がり
+| 軸 | 新印象派 | 出典 |
+|---|---|---|
+| ①官職・工房・庇護の枠の継続 | **無し**。展覧会の場を提供した Société des Artistes Indépendants（1884年6月、パリで設立）は、審査なしで誰でも出品できることを明文の目的とする組織で、官職・工房・庇護のいずれでもない——規約前文は「陪審の廃止に基づき、芸術家が自由に作品を公衆の判断に付せるようにすることを目的とする」と明記する。スーラはエコール・デ・ボザールで Henri Lehmann に師事したが、これは新印象派とは別のアカデミックな制度である | 『L'Art moderne』1886年9月19日号（一次資料。ULB Digithèque デジタル化PDF、印刷302頁） |
+| ②血縁の継続 | **無し**。確認できる血縁関係はカミーユ・ピサロとリュシアン・ピサロの父子1組のみで、これは既に技法を確立していたスーラに父子2人が加わった形であり、血縁が集団を作った・支えた原理ではない | 同上 |
+| ③様式的同一性 | **静的で強い（当初）**。色を混ぜず、理論に基づいて分割した色点・色斑を並べ、統合を鑑賞者の目に委ねる方法を、スーラ・シニャック・ピサロ父子・デュボワ＝ピレが1886年の同一展示室で揃って示した。Fénéon 自身がこれを「un paradigme systématique et démonstratif（体系的かつ論証的な範例）」と評している。ただしこの一致は経年で緩む——ピサロは1890年前後にこの技法から離れ、スーラは1891年に没し、シニャックとクロスがフォーヴィスムに接続する時期まで技法を引き継ぎ変化させた | 同上／[Divisionism (英語版Wikipedia)](https://en.wikipedia.org/wiki/Divisionism) |
 
-- 発生地はパリとした。ただし**これは通説で、一次資料は未確認**。
-  Wikidata Q150091 は location に「シカゴ美術館」を持っており（明らかなデータ誤り）、典拠として使えない。
-- **未確認**: ベルギー（Les XX / La Libre Esthétique）への伝播、オランダ・イタリア（分割主義）への広がり。
-  確認できたら `diffused_to` を張る。
+①②が無いにもかかわらず、③（様式的同一性）だけで「新印象派」という括りは成立している。
+**①が無くても成立する型がある**——それが `retrospective` である。日本の「派」の仮説
+（`overviews/japan-school-types.md`）は①②の有無で `lineage-school` と `retrospective` を
+分けていたが、③だけで足りるケース（①②とも不要）はこの仮説の範囲内にすでに書かれている
+（印象派・ポスト印象派・マニエリスムが `retrospective` の既存例）。新印象派もこの並びに入る。
 
-## 前後
+### 2. 名づけの二重構造 — 技法の自称と、運動名の外称は別の行為
 
-- 前: 印象派（未着手）。
-- 後付けの括り: ポスト印象派に `grouped_as` で接続した（`part_of` ではない——1910年に外部から
-  付けられた括りなので、当事者的な包含関係ではない）。
-- 後: 分割主義（未着手）。
+スーラは自分の技法を「chromoluminarism」、シニャックは「divisionism」と自称した——これは技法
+（`concept`）の自称であり、当事者による命名の証拠として確かに存在する。しかし**運動そのものの名
+「néo-impressionnisme」は、この2人のどちらでもなく、批評家フェネオンが外から与えた**。
 
-## 担い手
+この一次資料への到達を今回確認した。ブリュッセルの週刊誌『L'Art moderne』6年目38号（1886年
+**9月19日**、日曜）、記事「L'Impressionnisme aux Tuileries」（署名 FÉLIX FÉNÉON）に
+「la méthode néo-impressionniste」の語がある——ULB（ブリュッセル自由大学）Digithèque が
+公開する同誌1886年分のデジタル化PDF（[digistore.bib.ulb.ac.be](https://digistore.bib.ulb.ac.be/2008/DL2864764_1886_f.pdf)、
+印刷302頁・PDF305頁、OCRテキストで確認。同年の全52号中この語が現れるのはこの1箇所のみ）。
 
-- [person/georges-seurat](../persons/georges-seurat.md)
-- Paul Signac、Charles Angrand、Camille Pissarro（一時期）——いずれも未着手。
+**未確認**: パリの雑誌『La Vogue』にも同年（1886年6月頃とされる）の記事があり、Getty AAT の
+scope note はむしろ命名元をこちら（"in a review, 'Les Impressionistes' (in La Vogue; Paris,
+1886)"）とする。フェネオンの1886年の小冊子『Les Impressionnistes en 1886』（La Vogue 誌発行、
+227部）は BnF カタログ（[cb30427294w](https://catalogue.bnf.fr/ark:/12148/cb30427294w)）によれば
+『La Vogue』6月13〜20日の記事と『L'Art moderne』9月19日の記事を統合・改稿したものとされる——
+どちらが先に「néo-impressionnisme」の語を書いたかは、両方の実物を読まないと確定できない。
+Gallica収録の実物（[ark:/12148/bpt6k850398w](https://gallica.bnf.fr/ark:/12148/bpt6k850398w)）は
+自動アクセス防止（ALTCHA 検証）に阻まれ、本文を確認できなかった。`named_when` はこの
+9月19日号のみを確定分として入れている。
 
-## 何が新しかったか
+参加者側の引き受けは13年後——シニャックの著書『D'Eugène Delacroix au néo-impressionnisme』
+(1899) がこの名を自著の題名に用いている（[AIC の publication history](https://api.artic.edu/api/v1/artworks/27992)
+に所収）。**命名（外部・1886年）と引き受け（当事者・1899年）は別の事実**であり、
+`naming.self_identified: true` と `kind: retrospective` はここでは矛盾しない——同じ非対称は
+`movement/zaria-art-society` でも「自称した行為」と「いま通る名前の出どころ」を分けて記録して
+おり、新印象派はその逆向きの例（外から名付けられた後、当事者が引き受けた）にあたる。
 
-書けるだけの根拠がまだない。作品を3点以上読んでから書く。
+### 3. 結論
+
+`kind: retrospective` とした（元は `self-declared` としていたが誤りだった——命名者は
+参加者ではなく批評家だったため訂正した）。①②が無く③のみで括られ、名は外部から来ている——
+印象派・ポスト印象派と同じ側に立つ。枠は当てはまり、型を増やす必要はない。
+
+## 時間
+
+始点は1886年。第8回（最後の）印象派展（1886年5月15日〜6月15日、パリ rue Laffitte）でスーラの
+《グランド・ジャット島の日曜日の午後》が初めて公開され、同年8〜9月の第2回アンデパンダン展でも
+展示された。母体となった Société des Artistes Indépendants 自体は1884年6月に設立されている
+（[L'Art moderne](https://digistore.bib.ulb.ac.be/2008/DL2864764_1886_f.pdf)、1886年9月19日号が
+「1884年6月9日に旧委員会を解散し設立を決定、11日に公証人の前で正式に設立された」と証言）が、
+これは新印象派という括りの成立そのものではなく、審査なしで出品できる会場が用意されたという
+前提条件にあたる——だから始点は1884年ではなく1886年に置いた。
+
+終点は1906年。Getty AAT の scope note が
+「an avant-garde, European art movement and style that flourished from 1886 to 1906」と明示する。
+1891年のスーラの死後、シニャックとクロスが技法を引き継いで変化させ、1905〜06年頃のフォーヴィスム
+（ドランやヴラマンクが分割主義の風景を描いた時期）への分岐と重なる時期に括りが終わるという
+区分に対応する。**未確認**: 1906年という終点が何の具体的な出来事に紐づくか（Getty AAT 自身は
+根拠となる一次資料を示していない）。
+
+## 空間
+
+発生地はパリとした——Société des Artistes Indépendants の設立地（1884年）、第8回印象派展の
+会場 rue Laffitte（1886年）のいずれもパリである。Wikidata Q150091 は location に「シカゴ美術館」
+を持っているが、これは明らかなデータ誤りで典拠として使えない（変わらず）。
+
+ベルギーへの伝播は確認できた。1887年2月5日〜3月5日、ブリュッセルの Les XX（Les Vingt）第4回展
+（Ancien Musée royal de peinture）にスーラとピサロが招待出品者として参加し、スーラは
+《グランド・ジャット島》と6点の海景を出品した。英語版Wikipedia「Les Vingt」はスーラの参加を
+1887・1889・1891・1892年、ピサロを1887・1889・1891年とする。この展示を機にテオ・ヴァン・
+レイセルベルグらベルギーの画家が分割主義の技法を採り入れたとされる（[impressionism.nl](https://www.impressionism.nl/1887-les-xx/)）。
+これに基づき `diffused_to` を `place/brussels` に張った。**未確認**: オランダ・イタリアへの
+分割主義の広がりは未着手のまま。
+
+## 未着手
+
+- 『La Vogue』（1886年6月）と『L'Art moderne』（1886年9月19日）のどちらが「néo-impressionnisme」
+  の語の初出か——Gallica の実物にアクセスできず確定できていない
+- オランダ・イタリア（分割主義）への広がり
+- 「何が新しかったか」——作品を3点以上読んでから書く（未着手のまま）
+- シャルル・アングラン、ポール・シニャック、カミーユ＆リュシアン・ピサロ、アルベール・
+  デュボワ＝ピレ、アンリ＝エドモン・クロスの person エンティティ化——現状は
+  [person/georges-seurat](../persons/georges-seurat.md) 以外どの作成基準にも単独で当たらないため
+  本文の名前止まりとした
+- 分割主義（未着手の movement/concept）との接続

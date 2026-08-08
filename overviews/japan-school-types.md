@@ -14,6 +14,7 @@ tested:
   - {region: mena, by: movement/safavid-painting, result: revised}
   - {region: asia-southeast, by: movement/pita-maha, result: gap-found}
   - {region: americas-latin, by: movement/mexican-muralism, result: revised}
+  - {region: europe-west, by: movement/neo-impressionism, result: held}
 tests_regions:            # ここが埋まるまで仮説は仮説のまま（tools/audit.py が指す）
   - asia-east-china
   - asia-east-korea
@@ -60,6 +61,7 @@ tests_regions:            # ここが埋まるまで仮説は仮説のまま（t
 | 中東 | [サファヴィー朝細密画](../entities/movements/safavid-painting.md) | **①の「継続」の意味を変えた** |
 | 東南アジア | [Pita Maha](../entities/movements/pita-maha.md) | **枠に無い軸が2つ見つかった** |
 | 中南米 | [メキシコ壁画運動](../entities/movements/mexican-muralism.md) | **①の境界を決め、③の測り方を割った** |
+| 西欧 | [新印象派](../entities/movements/neo-impressionism.md) | **崩れなかった**（枠は西洋にも通った） |
 
 浙派は血縁なし・師弟希薄・官職はあるが世襲でない（各世代が個別に画院へ出入りするだけ）。
 制度としての実体が無く、括りは後世の美術史記述（董其昌『画禅室随筆』）から来ている。
@@ -175,6 +177,24 @@ tests_regions:            # ここが埋まるまで仮説は仮説のまま（t
 あと数地域で書き方が安定してから項目にする（先に項目化すると既存の全件を書き直すことになる）。
 メキシコ壁画運動は「主題・媒体を共有・時間の中では静的」で、`kind` は当事者の宣言が運動全体を
 覆っていないため `retrospective`。
+
+### 新印象派 — 非西洋で作った枠が、西洋の -ism にも通った
+
+西洋を後回しにしたのは、枠が西洋基準で固まるのを避けるためだった。7地域を回ってから戻ってきて、
+枠は壊れなかった。新印象派は①官職・工房・庇護なし、②血縁なし、③様式的同一性あり——
+①②が無くても③だけで成立する型は既に `retrospective` として用意されていた。印象派・ポスト印象派と
+同じ側に立つ。**枠の拡張は要らなかった。**
+
+そして最初に私が置いた `self-declared` は誤りだった。根拠にしていたのは参加者シニャックの著書
+『D'Eugène Delacroix au néo-impressionnisme』(1899) の題名だけで、実際の命名者は批評家フェネオン。
+**ブリュッセル『L'Art moderne』1886年9月19日号の実物**（ULB のデジタル化）に "la méthode
+néo-impressionniste" の語が確認できた。命名が外部で1886年、当事者による引き受けが1899年——13年空いている。
+
+ここから `naming` の2項目の意味が確定した。`self_identified` は「その名を引き受けたか（後からでもよい）」、
+`named_by` は「最初に付けたのは誰か」。**成り立ちと呼称の来歴は独立に動く。** ザリアはその逆向きの例で、
+当事者が結成したのに、いま通る名は後から付いている。
+
+これがこのKB最初の `verified`（時間・発生地・kind の3つとも一次資料または Getty の scope note で裏が取れた）。
 
 ## これは仮説（3件からの一般化）
 
