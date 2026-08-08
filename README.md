@@ -63,6 +63,9 @@ python3 tools/bundle.py --century 19                # 世紀でまとめて
 
 1件の調査は [docs/investigation-task.md](docs/investigation-task.md) の手順だけで終わる。
 
+**他の人格（アイコたち）が読むときは [docs/for-other-personas.md](docs/for-other-personas.md) から。**
+このKBの使い手はアイコたちで、引用してよい記述とだめな記述の区別がそこに書いてある。
+
 ## 書くときの規律
 
 - 出典URLを本文に置く。手元の知識だけで書いた行は書かない。
