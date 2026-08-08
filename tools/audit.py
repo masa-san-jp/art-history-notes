@@ -106,10 +106,14 @@ def check_hypotheses(entities, cfg, findings):
         if not text.startswith("---\n"):
             continue
         meta = yaml.safe_load(text.split("---\n", 2)[1]) or {}
+        # 既に試した先は指さない（org で試した場合など、movement が増えないこともある）
+        tested = {row.get("region") for row in (meta.get("tested") or []) if isinstance(row, dict)}
         for region in meta.get("tests_regions") or []:
             if region not in cfg["buckets"]:
                 findings.append({"kind": "hypothesis", "about": path.name,
                                  "text": f"tests_regions に未知の文化圏 {region}"})
+            elif region in tested:
+                continue
             elif counts.get(region, 0) == 0:
                 findings.append({"kind": "hypothesis", "about": path.name,
                                  "text": f"{path.name} の仮説を崩しにいく先 {region} が空のまま"

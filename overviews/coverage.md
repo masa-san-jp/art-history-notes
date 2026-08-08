@@ -61,7 +61,6 @@ movement **4** 件（stub 2件は不算入）／内訳 {'draft': 4, 'stub': 2, '
 
 <!-- generated:audit:start -->
 **仮説が未検証**
-- japan-school-types.md の仮説を崩しにいく先 asia-east-korea が空のまま（反証を試していないので仮説のまま止まっている）
 - japan-school-types.md の仮説を崩しにいく先 asia-south が空のまま（反証を試していないので仮説のまま止まっている）
 
 **辿れない先**
