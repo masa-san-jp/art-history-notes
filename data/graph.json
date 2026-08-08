@@ -96,6 +96,66 @@
       "updated": "2026-08-08",
       "path": "entities/movements/kano-school.md"
     },
+    "movement/mexican-muralism": {
+      "id": "movement/mexican-muralism",
+      "uri": "urn:ahn:movement/mexican-muralism",
+      "type": "movement",
+      "label_ja": "メキシコ壁画運動",
+      "label_en": "Mexican muralism",
+      "authority": {
+        "wikidata": "Q938864",
+        "aat": "300107850",
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": "1922",
+        "end": null,
+        "display": "1921年10月・バスコンセロスの教育省(SEP)長官就任と壁画事業の構想開始〜1922年のリベラ「創造」（国立予備校）完成。終期は出典間で一致せず未確定（本文参照）"
+      },
+      "kind": "retrospective",
+      "naming": {
+        "self_identified": false,
+        "named_by": null,
+        "named_when": null,
+        "original_label": "Muralismo mexicano",
+        "note": "英語版Wikipediaは「Mexican muralism」も「ロス・トレス・グランデス」もいずれも当事者の自称ではなく後世に付与された呼称だと明記する。当事者（リベラ・オロスコ・シケイロスらが結成した画家組合）が実際に発表した宣言文は「革命的芸術」「記念碑的芸術」を掲げるが、「壁画運動（muralismo）」という語で自らを呼んだ形跡は確認できていない。命名者・命名年（誰が最初に「muralismo mexicano」と呼んだか、どの言語で最初に定着したか）は未確認"
+      },
+      "claims": [
+        {
+          "field": "kind",
+          "source": "https://en.wikipedia.org/wiki/Mexican_muralism",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "originated_in",
+          "source": "https://www.wikidata.org/wiki/Q1367381",
+          "certainty": "scholarly"
+        }
+      ],
+      "space": [
+        {
+          "role": "originated_in",
+          "target": "place/mexico-city"
+        }
+      ],
+      "relations": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q938864",
+        "https://www.getty.edu/vow/AATFullDisplay?find=&place=&nation=&logic=&note=&role=&subjectid=300107850",
+        "https://en.wikipedia.org/wiki/Mexican_muralism",
+        "https://www.theartstory.org/movement/mexican-muralism/",
+        "https://www.wikidata.org/wiki/Q750196",
+        "https://www.wikidata.org/wiki/Q1367381",
+        "https://www.scielo.org.mx/scielo.php?script=sci_arttext&pid=S2448-83722019000100115",
+        "https://lineriderpress.com/siqueiros-1922-art-manifesto-manifesto-del-sindicato-de-obreros-tecnicos-pintores-y-escultores/",
+        "https://designmanifestos.org/taller-de-grafica-popular-manifesto-of-the-painters-union/"
+      ],
+      "status": "draft",
+      "updated": "2026-08-09",
+      "path": "entities/movements/mexican-muralism.md"
+    },
     "movement/mughal-painting": {
       "id": "movement/mughal-painting",
       "uri": "urn:ahn:movement/mughal-painting",
@@ -205,6 +265,68 @@
       "updated": "2026-08-08",
       "path": "entities/movements/neo-impressionism.md"
     },
+    "movement/pita-maha": {
+      "id": "movement/pita-maha",
+      "uri": "urn:ahn:movement/pita-maha",
+      "type": "movement",
+      "kind": "self-declared",
+      "label_ja": "ピタ・マハ",
+      "label_en": "Pita Maha",
+      "authority": {
+        "wikidata": "Q56294353",
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": "1936-01-29",
+        "end": "1942",
+        "display": "1936年1月29日（結成）〜1942年（解散。第二次世界大戦下、日本軍のオランダ領東インド侵攻に伴う）。設立年について1934年説もある（未確認）"
+      },
+      "naming": {
+        "self_identified": true,
+        "named_by": null,
+        "named_when": null,
+        "original_label": "Pita Maha",
+        "note": "結成の当事者としてバリ王族・バリの芸術家・ヨーロッパ人画家の3系統が資料に現れるが、「Pita Maha」という語そのものを誰が提案したかは資料間で明示されず未確認。名称の意味についても訳が資料間で割れる——houtsnijkunstbali.nlは「grootvader（祖父）」、kunst-uit-bali.nlは「grote geest（偉大な精神）」、Paras（英語二次資料）は古カウィ語で「the great ancestor(s)」（ブラフマー神の性シャクティ・サラスワティを指す称号）とするが、Senokosova（学術論文）は「The Great light」と訳し他資料と一致しない（未確認）"
+      },
+      "claims": [
+        {
+          "field": "time",
+          "source": "https://www.wikidata.org/wiki/Q56294353",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "originated_in",
+          "source": "https://www.wikidata.org/wiki/Q56294353",
+          "certainty": "scholarly"
+        }
+      ],
+      "space": [
+        {
+          "role": "originated_in",
+          "target": "place/ubud"
+        }
+      ],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/rudolf-bonnet"
+        }
+      ],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q56294353",
+        "https://www.houtsnijkunstbali.nl/verdiepingsinformatie/pita-maha/",
+        "https://www.kunst-uit-bali.nl/list_kunstenaars_ned_pita_maha.aspx",
+        "http://www.iraj.in/journal/journal_file/journal_pdf/14-440-152293060021-24.pdf",
+        "https://www.thejakartapost.com/news/2016/03/31/romantic-agony-soul-pita-maha.html",
+        "https://parasparas.com/archive/tradition-of-unity-pita-maha-balinese-artist-community-of-the-1930s/"
+      ],
+      "status": "draft",
+      "updated": "2026-08-09",
+      "path": "entities/movements/pita-maha.md"
+    },
     "movement/post-impressionism": {
       "id": "movement/post-impressionism",
       "uri": "urn:ahn:movement/post-impressionism",
@@ -293,6 +415,63 @@
       "status": "draft",
       "updated": "2026-08-08",
       "path": "entities/movements/rinpa.md"
+    },
+    "movement/safavid-painting": {
+      "id": "movement/safavid-painting",
+      "uri": "urn:ahn:movement/safavid-painting",
+      "type": "movement",
+      "kind": "period-style",
+      "label_ja": "サファヴィー朝細密画",
+      "label_en": "Safavid painting",
+      "authority": {
+        "wikidata": "Q2366921",
+        "aat": "300021713",
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": "1501",
+        "end": "1722",
+        "display": "サファヴィー朝（1501年建国〜1722年イスファハーン陥落。王朝自体は1736年まで名目上存続）"
+      },
+      "naming": {
+        "self_identified": false,
+        "named_by": null,
+        "named_when": null,
+        "original_label": "Safavid painting",
+        "note": "「サファヴィー」は王朝名（教団創始者サフィー・アッディーン・アルダビリーに由来）で、当事者が自分たちの絵画を「サファヴィー様式」と名乗った記録はない。王朝名をそのまま美術史区分に転用した、後代の学術的な期分け用語"
+      },
+      "claims": [],
+      "space": [
+        {
+          "role": "originated_in",
+          "target": "place/tabriz"
+        },
+        {
+          "role": "active_in",
+          "target": "place/isfahan"
+        }
+      ],
+      "relations": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q2366921",
+        "https://www.wikidata.org/wiki/Q18234383",
+        "https://www.wikidata.org/wiki/Q80053",
+        "https://www.wikidata.org/wiki/Q42053",
+        "https://www.wikidata.org/wiki/Q334875",
+        "https://www.wikidata.org/wiki/Q380726",
+        "https://www.wikidata.org/wiki/Q4453623",
+        "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300021713",
+        "https://en.wikipedia.org/wiki/Safavid_art",
+        "https://en.wikipedia.org/wiki/Persian_miniature",
+        "https://en.wikipedia.org/wiki/Safavid_dynasty",
+        "https://www.ebsco.com/research-starters/arts-and-entertainment/esfahan-school-painting",
+        "https://www.britannica.com/art/Tabriz-school"
+      ],
+      "status": "draft",
+      "updated": "2026-08-09",
+      "path": "entities/movements/safavid-painting.md"
     },
     "movement/tosa-school": {
       "id": "movement/tosa-school",
@@ -653,6 +832,33 @@
       "updated": "2026-08-08",
       "path": "entities/persons/henri-lehmann.md"
     },
+    "person/rudolf-bonnet": {
+      "id": "person/rudolf-bonnet",
+      "uri": "urn:ahn:person/rudolf-bonnet",
+      "type": "person",
+      "label_ja": "ルドルフ・ボネ",
+      "label_en": "Rudolf Bonnet",
+      "authority": {
+        "wikidata": "Q2528956",
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": "1895-03-30",
+        "end": "1978-04-18",
+        "display": "1895年3月30日 – 1978年4月18日"
+      },
+      "space": [],
+      "relations": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q2528956"
+      ],
+      "status": "stub",
+      "updated": "2026-08-09",
+      "path": "entities/persons/rudolf-bonnet.md"
+    },
     "person/uche-okeke": {
       "id": "person/uche-okeke",
       "uri": "urn:ahn:person/uche-okeke",
@@ -810,6 +1016,38 @@
       "updated": "2026-08-09",
       "path": "entities/places/hanseong.md"
     },
+    "place/isfahan": {
+      "id": "place/isfahan",
+      "uri": "urn:ahn:place/isfahan",
+      "type": "place",
+      "label_ja": "イスファハーン",
+      "label_en": "Isfahan",
+      "authority": {
+        "wikidata": "Q42053",
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": null,
+        "end": null,
+        "display": null
+      },
+      "region": "mena",
+      "coordinates": [
+        32.6525,
+        51.675
+      ],
+      "space": [],
+      "relations": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q42053"
+      ],
+      "status": "stub",
+      "updated": "2026-08-09",
+      "path": "entities/places/isfahan.md"
+    },
     "place/kyoto": {
       "id": "place/kyoto",
       "uri": "urn:ahn:place/kyoto",
@@ -843,6 +1081,38 @@
       "updated": "2026-08-08",
       "path": "entities/places/kyoto.md"
     },
+    "place/mexico-city": {
+      "id": "place/mexico-city",
+      "uri": "urn:ahn:place/mexico-city",
+      "type": "place",
+      "label_ja": "メキシコシティ",
+      "label_en": "Mexico City",
+      "authority": {
+        "wikidata": "Q1489",
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": null,
+        "end": null,
+        "display": null
+      },
+      "region": "americas-latin",
+      "coordinates": [
+        19.353773,
+        -99.13589
+      ],
+      "space": [],
+      "relations": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q1489"
+      ],
+      "status": "stub",
+      "updated": "2026-08-09",
+      "path": "entities/places/mexico-city.md"
+    },
     "place/paris": {
       "id": "place/paris",
       "uri": "urn:ahn:place/paris",
@@ -874,6 +1144,70 @@
       "status": "stub",
       "updated": "2026-08-08",
       "path": "entities/places/paris.md"
+    },
+    "place/tabriz": {
+      "id": "place/tabriz",
+      "uri": "urn:ahn:place/tabriz",
+      "type": "place",
+      "label_ja": "タブリーズ",
+      "label_en": "Tabriz",
+      "authority": {
+        "wikidata": "Q80053",
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": null,
+        "end": null,
+        "display": null
+      },
+      "region": "mena",
+      "coordinates": [
+        38.073889,
+        46.296111
+      ],
+      "space": [],
+      "relations": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q80053"
+      ],
+      "status": "stub",
+      "updated": "2026-08-09",
+      "path": "entities/places/tabriz.md"
+    },
+    "place/ubud": {
+      "id": "place/ubud",
+      "uri": "urn:ahn:place/ubud",
+      "type": "place",
+      "label_ja": "ウブド",
+      "label_en": "Ubud",
+      "authority": {
+        "wikidata": "Q210654",
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": null,
+        "end": null,
+        "display": null
+      },
+      "region": "asia-southeast",
+      "coordinates": [
+        -8.507,
+        115.262
+      ],
+      "space": [],
+      "relations": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q210654"
+      ],
+      "status": "stub",
+      "updated": "2026-08-09",
+      "path": "entities/places/ubud.md"
     },
     "place/zaria": {
       "id": "place/zaria",
@@ -1018,6 +1352,11 @@
       "to": "place/kyoto"
     },
     {
+      "from": "movement/mexican-muralism",
+      "type": "originated_in",
+      "to": "place/mexico-city"
+    },
+    {
       "from": "movement/mughal-painting",
       "type": "originated_in",
       "to": "place/agra"
@@ -1035,9 +1374,31 @@
       "to": "place/paris"
     },
     {
+      "from": "movement/pita-maha",
+      "type": "created_by",
+      "to": "person/rudolf-bonnet",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "movement/pita-maha",
+      "type": "originated_in",
+      "to": "place/ubud"
+    },
+    {
       "from": "movement/rinpa",
       "type": "originated_in",
       "to": "place/kyoto"
+    },
+    {
+      "from": "movement/safavid-painting",
+      "type": "originated_in",
+      "to": "place/tabriz"
+    },
+    {
+      "from": "movement/safavid-painting",
+      "type": "active_in",
+      "to": "place/isfahan"
     },
     {
       "from": "movement/tosa-school",
@@ -1153,6 +1514,12 @@
       "from": "movement/post-impressionism",
       "type": "groups",
       "to": "movement/neo-impressionism",
+      "derived": true
+    },
+    {
+      "from": "person/rudolf-bonnet",
+      "type": "created",
+      "to": "movement/pita-maha",
       "derived": true
     },
     {
