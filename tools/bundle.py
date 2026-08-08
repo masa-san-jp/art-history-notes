@@ -15,7 +15,8 @@ import argparse
 import sys
 from pathlib import Path
 
-from kb import (ROOT, build_edges, edtf_year_range, load_entities, read_frontmatter, region_of)
+from kb import (ROOT, build_edges, edtf_year_range, load_entities, log_query,
+                read_frontmatter, region_of)
 
 
 def summarize(meta):
@@ -97,6 +98,7 @@ def main():
             haystack = " ".join(str(meta.get(k) or "") for k in ("label_ja", "label_en", "id")) + body
             if a.search.lower() in haystack.lower():
                 hits.append(eid)
+        log_query(a.search, len(hits))
         if not hits:
             print(f"該当なし: {a.search}\n（overviews/coverage.md の空欄も見る——まだ無い領域かもしれない）",
                   file=sys.stderr)

@@ -114,6 +114,29 @@ def build_edges(entities):
     return edges + derived
 
 
+QUERY_LOG = ROOT / "data" / "queries.jsonl"
+
+
+def log_query(term, hits):
+    """検索を記録する。**該当なしこそ残す**——探されたのに無かった、という需要が消えないように。
+
+    これが無いと系が一方通行になる（書く→読まれる→何も返らない）。記録した語は被覆マップに出て、
+    次に何を埋めるかの判断材料になる。
+    """
+    import datetime, json
+    QUERY_LOG.parent.mkdir(exist_ok=True)
+    row = {"ts": datetime.datetime.now().isoformat(timespec="seconds"), "term": term, "hits": hits}
+    with QUERY_LOG.open("a", encoding="utf-8") as fh:
+        fh.write(json.dumps(row, ensure_ascii=False) + "\n")
+
+
+def read_queries():
+    import json
+    if not QUERY_LOG.exists():
+        return []
+    return [json.loads(l) for l in QUERY_LOG.read_text(encoding="utf-8").splitlines() if l.strip()]
+
+
 def region_of(entity_id, entities):
     """エンティティの発生地から文化圏バケットを引く。辿れなければ None。"""
     meta = entities.get(entity_id) or {}

@@ -17,7 +17,8 @@ import yaml
 
 from kb import (CERTAINTIES, CLAIM_FIELDS_FOR_VERIFIED, DIR_FOR_TYPE, INTERPRETIVE_RELATIONS,
                 MOVEMENT_KINDS, RELATIONS, ROOT, SPACE_ROLES, STATUSES, TYPES, URI_PREFIX,
-                build_edges, edtf_ok, edtf_year_range, load_config, load_entities, region_of)
+                build_edges, edtf_ok, edtf_year_range, load_config, load_entities, read_queries,
+                region_of)
 
 OVERVIEWS = ROOT / "overviews"
 MARK_START = "<!-- generated:coverage:start -->"
@@ -196,6 +197,14 @@ def render_coverage(cov, cfg):
         row = cov["grid"]["origin-unknown"]
         cells = " | ".join(str(row.get(k, 0) or "") for k, _label in cols)
         lines.append(f"| **発生地未確認** | {cells} | {len(cov['origin_unknown'])} |")
+    misses = {}
+    for q in read_queries():
+        if q.get("hits") == 0:
+            misses[q["term"]] = misses.get(q["term"], 0) + 1
+    if misses:
+        lines += ["", "**探されたが無かった語**（需要のシグナル。多い順）:", ""]
+        lines += [f"- {term} — {n}回" for term, n in sorted(misses.items(), key=lambda x: -x[1])]
+
     lines += ["", "受け入れ条件の達成度:", ""]
     lines += [f"- {k}: {v}" for k, v in cov["progress"].items()]
     if cov["isolated"]:
