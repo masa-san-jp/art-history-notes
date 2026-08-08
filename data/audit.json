@@ -1,0 +1,29 @@
+{
+  "findings": [
+    {
+      "kind": "hypothesis",
+      "about": "japan-school-types.md",
+      "text": "japan-school-types.md の仮説を崩しにいく先 asia-east-china が空のまま（反証を試していないので仮説のまま止まっている）"
+    },
+    {
+      "kind": "hypothesis",
+      "about": "japan-school-types.md",
+      "text": "japan-school-types.md の仮説を崩しにいく先 asia-east-korea が空のまま（反証を試していないので仮説のまま止まっている）"
+    },
+    {
+      "kind": "hypothesis",
+      "about": "japan-school-types.md",
+      "text": "japan-school-types.md の仮説を崩しにいく先 asia-south が空のまま（反証を試していないので仮説のまま止まっている）"
+    },
+    {
+      "kind": "dead-end",
+      "about": "movement/post-impressionism",
+      "text": "新印象派 の grouped_as 先 ポスト印象派 が stub のまま（辿れない）"
+    },
+    {
+      "kind": "dead-end",
+      "about": "person/henri-lehmann",
+      "text": "ジョルジュ・スーラ の taught_by 先 アンリ・レーマン が stub のまま（辿れない）"
+    }
+  ]
+}

@@ -4,6 +4,11 @@ depends_on:
   - movement/kano-school
   - movement/rinpa
   - movement/tosa-school
+hypothesis: 「派」の kind を分けるのは、名乗ったかどうかではなく制度的な継承が続いたかどうか
+tests_regions:            # ここが埋まるまで仮説は仮説のまま（tools/audit.py が指す）
+  - asia-east-china
+  - asia-east-korea
+  - asia-south
 ---
 
 # 日本の「派」の成り立ち — 3件から見えた判定線

@@ -55,6 +55,22 @@ movement 合計 **5** 件
 - 「発生地未確認」の行は、movement は載っているが発生地を特定できていないもの。
   空間軸に載っていないので、埋めるべき穴として別行に出す。
 
+## 体系の食い違い・偏り（生成物）
+
+`python3 tools/audit.py` の出力。**壊れてはいないが噛み合っていない**ところを機械が指す。
+形式の検証（`build_graph.py --check`）と違って commit は止めない——次に何を調べるかの材料として出す。
+
+<!-- generated:audit:start -->
+**仮説が未検証**
+- japan-school-types.md の仮説を崩しにいく先 asia-east-china が空のまま（反証を試していないので仮説のまま止まっている）
+- japan-school-types.md の仮説を崩しにいく先 asia-east-korea が空のまま（反証を試していないので仮説のまま止まっている）
+- japan-school-types.md の仮説を崩しにいく先 asia-south が空のまま（反証を試していないので仮説のまま止まっている）
+
+**辿れない先**
+- 新印象派 の grouped_as 先 ポスト印象派 が stub のまま（辿れない）
+- ジョルジュ・スーラ の taught_by 先 アンリ・レーマン が stub のまま（辿れない）
+<!-- generated:audit:end -->
+
 ## 需要から決める（探されたが無かった語）
 
 生成ブロックの中に「探されたが無かった語」が出る。これは他の人格が `--search` で探して空振りした記録

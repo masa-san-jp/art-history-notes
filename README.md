@@ -60,6 +60,7 @@ python3 tools/bundle.py --search 調和               # 語で探す（IDを知�
 python3 tools/bundle.py movement/kano-school        # 1件とその周辺を1文書で
 python3 tools/bundle.py --region asia-east-japan    # 文化圏でまとめて
 python3 tools/bundle.py --century 19                # 世紀でまとめて
+python3 tools/audit.py                              # 体系の食い違い・偏り → 次に調べること
 ```
 
 1件の調査は [docs/investigation-task.md](docs/investigation-task.md) の手順だけで終わる。
@@ -68,6 +69,11 @@ python3 tools/bundle.py --century 19                # 世紀でまとめて
 このKBの使い手はアイコたちで、引用してよい記述とだめな記述の区別がそこに書いてある。
 
 ## 検証が自動で走る
+
+検査は2層。**`build_graph.py --check` は「壊れているか」**（必須項目・参照先・語彙・EDTF）を見て
+commit を止める。**`audit.py` は「噛み合っていないか」**（時間の矛盾・型の食い違い・kind の地域偏り・
+仮説が未検証・継承の先が辿れない）を見て、止めずに**次に調べることとして出す**。
+形が正しいだけの体系は、機械が黙っているうちに静かに矛盾を溜める。
 
 `.githooks/pre-commit` が commit のたびに `build_graph.py --check` を走らせ、通らないものを止める。
 生成物（`data/` と被覆マップ）が古いままの commit も止める。clone した直後に1回だけ:
