@@ -377,6 +377,47 @@
       "updated": "2026-08-08",
       "path": "entities/orgs/art-institute-of-chicago.md"
     },
+    "org/dohwaseo": {
+      "id": "org/dohwaseo",
+      "uri": "urn:ahn:org/dohwaseo",
+      "type": "org",
+      "label_ja": "図画署",
+      "label_en": "Dohwaseo",
+      "authority": {
+        "wikidata": "Q16181137",
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": "13XX",
+        "end": null,
+        "display": "朝鮮建国期（太祖、1392年）頃に前身の図画院が設置されたとみられ、世祖末〜成宗初（1460年代後半〜1471年頃、史料により記載が異なる）に図画署へ改称。廃止時期は未確定"
+      },
+      "space": [
+        {
+          "role": "sited_in",
+          "target": "place/hanseong"
+        }
+      ],
+      "relations": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q16181137",
+        "https://www.wikidata.org/wiki/Q17192768",
+        "https://ko.wikipedia.org/wiki/%EB%8F%84%ED%99%94%EC%84%9C",
+        "https://en.wikipedia.org/wiki/Dohwaseo",
+        "https://contents.history.go.kr/mobile/nh/view.do?levelId=nh_027_0050_0040_0030",
+        "https://encykorea.aks.ac.kr/Article/E0015927",
+        "https://encykorea.aks.ac.kr/Article/E0064832",
+        "https://contents.history.go.kr/mobile/kc/view.do?levelId=kc_n301410",
+        "https://monthlyart.com/encyclopedia/%EB%8F%84%ED%99%94%EC%84%9C/",
+        "https://dh.aks.ac.kr/sillokwiki/index.php/%EB%8F%84%ED%99%94%EC%84%9C(%E5%9C%96%E7%95%B5%E7%BD%B2)"
+      ],
+      "status": "draft",
+      "updated": "2026-08-09",
+      "path": "entities/orgs/dohwaseo.md"
+    },
     "person/dong-qichang": {
       "id": "person/dong-qichang",
       "uri": "urn:ahn:person/dong-qichang",
@@ -552,6 +593,38 @@
       "status": "stub",
       "updated": "2026-08-09",
       "path": "entities/places/hangzhou.md"
+    },
+    "place/hanseong": {
+      "id": "place/hanseong",
+      "uri": "urn:ahn:place/hanseong",
+      "type": "place",
+      "label_ja": "漢城",
+      "label_en": "Hanseong",
+      "authority": {
+        "wikidata": "Q624467",
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": "13XX",
+        "end": "1910",
+        "display": "朝鮮王朝の首都・漢城府（1392年建国〜1910年）"
+      },
+      "region": "asia-east-korea",
+      "coordinates": [
+        37.583333,
+        127
+      ],
+      "space": [],
+      "relations": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q624467"
+      ],
+      "status": "stub",
+      "updated": "2026-08-09",
+      "path": "entities/places/hanseong.md"
     },
     "place/kyoto": {
       "id": "place/kyoto",
@@ -759,6 +832,11 @@
       "from": "org/art-institute-of-chicago",
       "type": "sited_in",
       "to": "place/chicago"
+    },
+    {
+      "from": "org/dohwaseo",
+      "type": "sited_in",
+      "to": "place/hanseong"
     },
     {
       "from": "person/georges-seurat",
