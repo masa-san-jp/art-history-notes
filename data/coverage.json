@@ -1,13 +1,27 @@
 {
   "as_of": "2026-08-09",
-  "movement_total": 14,
+  "movement_total": 20,
   "movement_stub_excluded": 1,
   "by_status": {
-    "draft": 13,
+    "draft": 19,
     "stub": 1,
     "verified": 1
   },
   "grid": {
+    "americas-latin": {
+      "20": 2
+    },
+    "asia-south": {
+      "20": 1,
+      "16": 1
+    },
+    "africa-sub": {
+      "13": 1,
+      "20": 1
+    },
+    "asia-east-korea": {
+      "20": 1
+    },
     "americas-north": {
       "19": 1
     },
@@ -18,14 +32,12 @@
     "asia-central": {
       "15": 1
     },
-    "americas-latin": {
-      "20": 1
-    },
-    "asia-south": {
-      "16": 1
-    },
     "europe-west": {
       "19": 1
+    },
+    "mena": {
+      "15": 1,
+      "16": 1
     },
     "oceania": {
       "20": 1
@@ -36,37 +48,31 @@
     "asia-southeast": {
       "20": 1
     },
-    "mena": {
-      "16": 1
-    },
-    "africa-sub": {
-      "20": 1
-    },
     "asia-east-china": {
-      "15": 1
+      "15": 2
     }
   },
   "per_bucket": {
     "europe-west": 1,
     "europe-east": 1,
     "americas-north": 1,
-    "mena": 1,
-    "africa-sub": 1,
+    "mena": 2,
+    "africa-sub": 2,
     "asia-central": 1,
-    "asia-south": 1,
+    "asia-south": 2,
     "asia-southeast": 1,
-    "asia-east-china": 1,
-    "asia-east-korea": 0,
+    "asia-east-china": 2,
+    "asia-east-korea": 1,
     "asia-east-japan": 3,
-    "americas-latin": 1,
+    "americas-latin": 2,
     "oceania": 1
   },
   "origin_unknown": [],
   "origin_multiple": [],
   "isolated": [],
   "progress": {
-    "movement_total": "14/100（stub 1件は不算入）",
-    "non_west_ratio": "0.79/0.5",
+    "movement_total": "20/100（stub 1件は不算入）",
+    "non_west_ratio": "0.85/0.5",
     "per_bucket_min": "1/13 バケットが 3件以上",
     "pre_1800_ratio": "0.50/0.3",
     "isolated_ratio": "0.00（上限 0.1）"

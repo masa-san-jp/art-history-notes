@@ -19,6 +19,12 @@ tested:
   - {region: oceania, by: movement/papunya-tula, result: resolved-gap}
   - {region: europe-east, by: movement/peredvizhniki, result: held}
   - {region: asia-central, by: movement/menri-school, result: gap-found}
+  - {region: asia-east-korea, by: movement/dansaekhwa, result: gap-found}
+  - {region: asia-east-china, by: movement/wu-school, result: held}
+  - {region: asia-south, by: movement/bengal-school, result: held}
+  - {region: africa-sub, by: movement/benin-court-art, result: held}
+  - {region: americas-latin, by: movement/antropofagia, result: revised}
+  - {region: mena, by: movement/ottoman-miniature, result: held}
 tests_regions:            # ここが埋まるまで仮説は仮説のまま（tools/audit.py が指す）
   - asia-east-china
   - asia-east-korea
@@ -70,6 +76,12 @@ tests_regions:            # ここが埋まるまで仮説は仮説のまま（t
 | オセアニア | [Papunya Tula](../entities/movements/papunya-tula.md) | **Pita Maha の未決を決着させた** |
 | 東欧・ロシア | [移動派](../entities/movements/peredvizhniki.md) | 崩れなかった。**図画署との差が確定した** |
 | 中央アジア | [メンリ派](../entities/movements/menri-school.md) | **①に第4の型（師資相承）が要るかの問いが出た** |
+| 朝鮮半島（近代） | [単色画](../entities/movements/dansaekhwa.md) | **命名が2段階だった／当事者が括りを拒否している** |
+| 中国圏（2件目） | [呉派](../entities/movements/wu-school.md) | 崩れなかった。**地名由来に3型目** |
+| 南アジア（2件目） | [ベンガル派](../entities/movements/bengal-school.md) | 崩れなかった。**shared の2件目** |
+| サブサハラ（2件目） | [ベニン王国宮廷美術](../entities/movements/benin-court-art.md) | 崩れなかった。**②に第3の形** |
+| 中南米（2件目） | [アントロポファジア](../entities/movements/antropofagia.md) | **③に「媒体を跨ぐ主張の共有」が加わった** |
+| 中東（2件目） | [オスマン朝細密画](../entities/movements/ottoman-miniature.md) | 崩れなかった。**period-style と lineage-school を分ける軸が確定** |
 
 浙派は血縁なし・師弟希薄・官職はあるが世襲でない（各世代が個別に画院へ出入りするだけ）。
 制度としての実体が無く、括りは後世の美術史記述（董其昌『画禅室随筆』）から来ている。
@@ -90,8 +102,17 @@ tests_regions:            # ここが埋まるまで仮説は仮説のまま（t
 「古臭く地方的」という**蔑称**として使われ始めたとされる（命名者はクラレンス・クックかホーマー・ドッジ・
 マーティンかで確定していない）。**後付けの名は、しばしば批判の言葉として始まる。**
 
-まだ残っている問い: 何が「人名から取る」と「地名から取る」を分けるのか。呉派（中国）と
-バルビゾン派（フランス・地名）で試せる。
+**地名由来は4型に割れた。**
+
+| 型 | 例 | 地名が指すもの |
+|---|---|---|
+| 出自の地 | 浙派 | 開祖（戴進）の出身地。担い手は各地に散る |
+| 画題の地 | ハドソン・リバー派 | 描いた土地。拠点は別（ニューヨーク） |
+| 出自＝活動地 | 呉派 | 蘇州の古称。沈周・文徴明の出身地と終生の活動地が一致 |
+| 形成地 | ベンガル派 | 様式が形成された場所。画題はベンガルを描いていない |
+
+まだ残っている問い: 何が「人名から取る」と「地名から取る」を分けるのか。バルビゾン派（制作地の村の名）で
+5型目が出る可能性がある。
 
 ### 朝鮮の図画署 — 「制度」を3つに割る必要が出た
 

@@ -39,6 +39,281 @@
       "updated": "2026-08-08",
       "path": "entities/concepts/harmony.md"
     },
+    "movement/antropofagia": {
+      "id": "movement/antropofagia",
+      "uri": "urn:ahn:movement/antropofagia",
+      "type": "movement",
+      "kind": "self-declared",
+      "label_ja": "アントロポファジア",
+      "label_en": "Antropofagia",
+      "authority": {
+        "wikidata": "Q2907232",
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "Getty AATを英語(anthropophagism / anthropophagy / anthropophagic)・ポルトガル語(antropofagia)いずれでも検索したが該当語彙が0件だった（2026-08-09、AATServlet実測）。wikidataが取れているためnone_reasonは必須ではないが、検索した事実として残す"
+      },
+      "time": {
+        "start": "1928-05",
+        "end": "1929-08",
+        "display": "1928年5月（『Revista de Antropofagia』創刊号にマニフェスト発表）〜1929年8月（機関誌の第2次『歯』終了）。この集団そのものの解散を明記した一次資料は未確認（本文参照）"
+      },
+      "founding_control": "internal",
+      "naming": {
+        "self_identified": true,
+        "named_by": null,
+        "named_when": null,
+        "original_label": "Antropofagia",
+        "note": "自称の核（『antropófago』『movimento antropophago』という語そのものを参加者自身が創刊号内で使ったこと）は、本KBが直接読んだ一次資料（Revista de Antropofagia創刊号のPDF）で確認できる。一方、誰が最初に『antropofagia』という語を選んだかは資料間で一致しない――ポルトガル語版Wikipediaは『antropofagiaという隠喩を作ったのはプリニオ・サルガードで、オズワルド・デ・アンドラーデがそれを自分の企画のために転用した』と記すが、この記述の一次資料には当たれておらず未確認。雑誌名（Revista de Antropofagia）自体は『オズワルド・デ・アンドラーデとラウル・ボップが企画した』とするサンパウロ大学ブラジリアーナ図書館のカタログ記述もあるが、これも図書館側の付帯情報であり創刊号本文自体には編集主体として『Direção de ANTÔNIO DE ALCÂNTARA MACHADO / Gerencia de RAUL BOPP』としか印刷されていない。命名者の特定は保留し named_by は null にした"
+      },
+      "claims": [
+        {
+          "field": "kind",
+          "source": "https://digital.bbm.usp.br/bitstream/bbm/7064/2/Anno.1_n.01_45000033273.pdf",
+          "certainty": "attested"
+        },
+        {
+          "field": "originated_in",
+          "source": "https://digital.bbm.usp.br/bitstream/bbm/7064/2/Anno.1_n.01_45000033273.pdf",
+          "certainty": "attested"
+        },
+        {
+          "field": "time",
+          "source": "https://digital.bbm.usp.br/bitstream/bbm/7064/2/Anno.1_n.01_45000033273.pdf",
+          "certainty": "scholarly"
+        }
+      ],
+      "space": [
+        {
+          "role": "originated_in",
+          "target": "place/sao-paulo"
+        }
+      ],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/oswald-de-andrade"
+        }
+      ],
+      "sources": [
+        "https://digital.bbm.usp.br/bitstream/bbm/7064/2/Anno.1_n.01_45000033273.pdf",
+        "https://digital.bbm.usp.br/handle/bbm/7064",
+        "https://www.wikidata.org/wiki/Q2907232",
+        "https://en.wikipedia.org/wiki/Manifesto_Antrop%C3%B3fago",
+        "https://en.wikipedia.org/wiki/Anthropophagic_movement",
+        "https://pt.wikipedia.org/wiki/Movimento_antropof%C3%A1gico",
+        "https://www.moma.org/collection/works/193204",
+        "https://www.tate.org.uk/art/art-terms/a/anthropophagia"
+      ],
+      "status": "draft",
+      "updated": "2026-08-09",
+      "path": "entities/movements/antropofagia.md"
+    },
+    "movement/bengal-school": {
+      "id": "movement/bengal-school",
+      "uri": "urn:ahn:movement/bengal-school",
+      "type": "movement",
+      "kind": "retrospective",
+      "label_ja": "ベンガル派",
+      "label_en": "Bengal School of Art",
+      "authority": {
+        "wikidata": "Q948504",
+        "aat": "300417404",
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": "190X",
+        "end": "192X",
+        "display": "1900年代（1896年ハヴェルの教育改革開始、1905年タゴール副校長就任）〜1920年代（1922年ナンダラール・ボースのカラーバワナ着任を境に影響力が衰退）"
+      },
+      "founding_control": "shared",
+      "naming": {
+        "self_identified": false,
+        "named_by": null,
+        "named_when": null,
+        "original_label": "Indian Society of Oriental Art",
+        "note": "当事者が1907年に自ら結成し名乗った組織は「Indian Society of Oriental Art」であり、「Bengal School」という呼称そのものを当事者が名乗った記録は見つかっていない。Debashish Banerjiの著書解説はタゴールを『the founder of the national school of Indian painting, popularly known as the Bengal School of Art』と表現し、『popularly known as』という言い回しは通称としての性格を示す。Getty AATも『a style of art in India developed by Abanindranath Tagore and his followers』と、様式の創出者は記すが呼称の命名者は記していない。命名者・命名年は未確認"
+      },
+      "claims": [
+        {
+          "field": "kind",
+          "source": "https://www.getty.edu/vow/AATFullDisplay?find=Bengal&logic=AND&note=&english=Y&prev_page=1&subjectid=300417404",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "originated_in",
+          "source": "https://en.wikipedia.org/wiki/Government_College_of_Art_%26_Craft",
+          "certainty": "scholarly"
+        }
+      ],
+      "space": [
+        {
+          "role": "originated_in",
+          "target": "place/kolkata"
+        }
+      ],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/abanindranath-tagore"
+        },
+        {
+          "type": "created_by",
+          "target": "person/e-b-havell"
+        },
+        {
+          "type": "influenced_by",
+          "target": "movement/mughal-painting",
+          "certainty": "scholarly",
+          "source": "https://www.getty.edu/vow/AATFullDisplay?find=Bengal&logic=AND&note=&english=Y&prev_page=1&subjectid=300417404"
+        }
+      ],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q948504",
+        "https://en.wikipedia.org/wiki/Bengal_School_of_Art",
+        "https://www.getty.edu/vow/AATFullDisplay?find=Bengal&logic=AND&note=&english=Y&prev_page=1&subjectid=300417404",
+        "https://en.wikipedia.org/wiki/Government_College_of_Art_%26_Craft",
+        "https://en.wikipedia.org/wiki/Ernest_Binfield_Havell",
+        "https://en.wikipedia.org/wiki/Abanindranath_Tagore",
+        "https://en.wikipedia.org/wiki/Indian_Society_of_Oriental_Art",
+        "https://imp-art.org/articles/bengal-school/",
+        "https://digitalcommons.ciis.edu/facultypublications/51/"
+      ],
+      "status": "draft",
+      "updated": "2026-08-09",
+      "path": "entities/movements/bengal-school.md"
+    },
+    "movement/benin-court-art": {
+      "id": "movement/benin-court-art",
+      "uri": "urn:ahn:movement/benin-court-art",
+      "type": "movement",
+      "label_ja": "ベニン王国宮廷美術",
+      "label_en": "Art of the Kingdom of Benin",
+      "authority": {
+        "wikidata": "Q4888026",
+        "aat": "300015777",
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": "12XX",
+        "end": "1897~",
+        "display": "伝承ではオバ・オグオラ（在位「about A.D. 1280」——Fagg）の代、13世紀後半に真鍮鋳造師ギルドが創設された。Wikidataの『art of the Kingdom of Benin』（Q4888026）も inception を +1300 / precision 7＝『13. century』（1201–1300年）とし、この伝承と一致する。1897年の英国によるベニン遠征でベニン王国そのものが解体（Wikidata Q171203の dissolved、Q4888026 の P582 いずれも1897年）。真鍮鋳造の技法とギルド自体はこの後も存続するが、王への排他的従属という体制は1897〜1914年の中断を経て変質した"
+      },
+      "kind": "lineage-school",
+      "naming": {
+        "self_identified": false,
+        "named_by": null,
+        "named_when": null,
+        "original_label": "art of the Kingdom of Benin",
+        "note": "「ベニン宮廷美術（art of the Kingdom of Benin）」は英語圏美術史記述による分類名で、Wikidataのラベル表記そのもの。制作を直接担ったギルド自身は自らを『イグン・エロンムオン（真鍮鋳造）』『イグベサンムオン（象牙彫刻）』というギルド名で名乗ったが、両ギルドの生産物を総称する『ベニン宮廷美術』という括り自体は後代の美術史記述による総称と見られる。命名者・命名年は未確認"
+      },
+      "claims": [
+        {
+          "field": "time",
+          "source": "https://www.wikidata.org/wiki/Q4888026",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "originated_in",
+          "source": "https://www.penn.museum/sites/expedition/the-art-of-benin/",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "kind",
+          "source": "https://www.penn.museum/sites/expedition/the-art-of-benin/",
+          "certainty": "scholarly"
+        }
+      ],
+      "space": [
+        {
+          "role": "originated_in",
+          "target": "place/benin-city"
+        }
+      ],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "org/igun-eronmwon"
+        }
+      ],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q4888026",
+        "https://www.wikidata.org/wiki/Q111731632",
+        "https://www.wikidata.org/wiki/Q171203",
+        "https://www.wikidata.org/wiki/Q123180104",
+        "https://www.penn.museum/sites/expedition/the-art-of-benin/",
+        "https://en.wikipedia.org/wiki/Igun_Street",
+        "https://historicalnigeria.com/benin-bronze-casting-art-power-and-continuity-in-edo-history/"
+      ],
+      "status": "draft",
+      "updated": "2026-08-09",
+      "path": "entities/movements/benin-court-art.md"
+    },
+    "movement/dansaekhwa": {
+      "id": "movement/dansaekhwa",
+      "uri": "urn:ahn:movement/dansaekhwa",
+      "type": "movement",
+      "label_ja": "単色画",
+      "label_en": "Dansaekhwa",
+      "authority": {
+        "wikidata": "Q24988307",
+        "aat": "300417394",
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": "196X",
+        "end": "197X",
+        "display": "Getty AATのscope noteは1960年代〜1970年代とする。英語版Wikipediaの本文は「1970年代半ばから展示され始めた作品群」と1970年代を起点とし、1980年代を『制度化・大衆化』、1990〜2010年代を『レガシー』の時期として別に区分する"
+      },
+      "kind": "retrospective",
+      "naming": {
+        "self_identified": false,
+        "named_by": null,
+        "named_when": "2000",
+        "original_label": "단색화",
+        "note": "英語版・韓国語版Wikipedia、MMCA Research(mmcaresearch.kr)の3出典が独立に、批評家・キュレーターの尹晋燮(Yoon Jin Sup)が2000年の光州ビエンナーレ特別展（英語題 A Facet of Modern Korean and Japanese Art、韓国語題は「한일 현대미술의 단면」）のカタログで英語転写「Dansaekhwa」を使い始めたと一致して述べる。named_byをnullにしたのは、docs/schema.mdのperson作成基準（kind/time/originated_inの根拠になる／2つ以上のmovementを繋ぐ／作品を分解して読んだ）のいずれにも尹晋燮個人が単独で当たらないため、本文で名指しするに留めた経緯"
+      },
+      "claims": [
+        {
+          "field": "kind",
+          "source": "https://en.wikipedia.org/wiki/Dansaekhwa",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "originated_in",
+          "source": "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300417394",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "time",
+          "source": "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300417394",
+          "certainty": "scholarly"
+        }
+      ],
+      "space": [
+        {
+          "role": "originated_in",
+          "target": "place/seoul"
+        }
+      ],
+      "relations": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q24988307",
+        "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300417394",
+        "https://en.wikipedia.org/wiki/Dansaekhwa",
+        "https://ko.wikipedia.org/wiki/%EB%8B%A8%EC%83%89%ED%99%94",
+        "https://mmcaresearch.kr/terms/view.do?fid=2211"
+      ],
+      "status": "draft",
+      "updated": "2026-08-09",
+      "path": "entities/movements/dansaekhwa.md"
+    },
     "movement/hudson-river-school": {
       "id": "movement/hudson-river-school",
       "uri": "urn:ahn:movement/hudson-river-school",
@@ -417,6 +692,61 @@
       "updated": "2026-08-09",
       "path": "entities/movements/neo-impressionism.md"
     },
+    "movement/ottoman-miniature": {
+      "id": "movement/ottoman-miniature",
+      "uri": "urn:ahn:movement/ottoman-miniature",
+      "type": "movement",
+      "label_ja": "オスマン朝細密画",
+      "label_en": "Ottoman miniature",
+      "authority": {
+        "wikidata": "Q268639",
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": "145X",
+        "end": "1800~",
+        "display": "メフメト2世治世（1451–1481年、コンスタンティノープル征服1453年）に始まり、18世紀末（レヴニー以後、油彩肖像画がミニアチュールに代わり宮廷の主要な絵画形式となった時期）まで"
+      },
+      "kind": "period-style",
+      "naming": {
+        "self_identified": false,
+        "named_by": null,
+        "named_when": null,
+        "original_label": "Osmanlı minyatürü",
+        "note": "「オスマン」は王朝名で、当事者がこの名で自分たちの絵画を名乗った記録はない。オスマン語で当時使われたのは taswir・nakış（『描く』『装飾する』の意）という技法一般の語で、王朝名を冠した呼称ではなかった。王朝名を美術史区分に転用した、後代の学術的な呼称"
+      },
+      "claims": [],
+      "space": [
+        {
+          "role": "originated_in",
+          "target": "place/istanbul"
+        }
+      ],
+      "relations": [
+        {
+          "type": "influenced_by",
+          "target": "movement/safavid-painting",
+          "certainty": "scholarly",
+          "source": "https://en.wikipedia.org/wiki/Ottoman_miniature"
+        }
+      ],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q268639",
+        "https://www.wikidata.org/wiki/Q406",
+        "https://www.wikidata.org/wiki/Q63681008",
+        "https://vocab.getty.edu/aat/300021614",
+        "https://en.wikipedia.org/wiki/Ottoman_miniature",
+        "https://en.wikipedia.org/wiki/%C5%9Eahkulu_(painter)",
+        "https://en.wikipedia.org/wiki/Nakka%C5%9F_Osman",
+        "https://en.wikipedia.org/wiki/Safavid_art"
+      ],
+      "status": "draft",
+      "updated": "2026-08-09",
+      "path": "entities/movements/ottoman-miniature.md"
+    },
     "movement/papunya-tula": {
       "id": "movement/papunya-tula",
       "uri": "urn:ahn:movement/papunya-tula",
@@ -793,6 +1123,70 @@
       "updated": "2026-08-08",
       "path": "entities/movements/tosa-school.md"
     },
+    "movement/wu-school": {
+      "id": "movement/wu-school",
+      "uri": "urn:ahn:movement/wu-school",
+      "type": "movement",
+      "kind": "retrospective",
+      "label_ja": "呉派",
+      "label_en": "Wu School",
+      "authority": {
+        "wikidata": "Q558875",
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": "14XX",
+        "end": "15XX",
+        "display": "15世紀後半（沈周の活動期）〜16世紀後半（文徵明門下の後継世代の活動期）。中国語版Wikipediaは正徳〜嘉靖年間（1506〜1567年）を活動の中心とし、清代まで影響が続いたとするが、活動主体としての終期はここでは後継世代の没年でとった"
+      },
+      "naming": {
+        "self_identified": false,
+        "named_by": null,
+        "named_when": null,
+        "original_label": "呉派",
+        "note": "中国語版Wikipedia「吳門畫派」は「『吳派』一詞自明代末期開始出現」（『呉派』という語は明代末期から現れた）とし、特定の命名者を記録していない（二次情報）。日本語版Wikipediaは『董其昌や陳継儒によって体系化された』と書くが、これは呼称の考案者としての記述ではなく理論的な整理者としての記述である。浙派の場合は董其昌が『画禅室随筆』で命名したと日本語版Wikipediaに明記されるのに対し、呉派には対応する一次記述が見つからない——同じ人物が両方を命名したとは確認できない"
+      },
+      "claims": [
+        {
+          "field": "kind",
+          "source": "https://zh.wikipedia.org/wiki/%E5%90%B3%E9%96%80%E7%95%AB%E6%B4%BE",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "originated_in",
+          "source": "https://www.wikidata.org/wiki/Q558863",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "time",
+          "source": "https://www.wikidata.org/wiki/Q558863",
+          "certainty": "scholarly"
+        }
+      ],
+      "space": [
+        {
+          "role": "originated_in",
+          "target": "place/suzhou"
+        }
+      ],
+      "relations": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q558875",
+        "https://ja.wikipedia.org/wiki/%E5%91%89%E6%B4%BE",
+        "https://zh.wikipedia.org/wiki/%E5%90%B3%E9%96%80%E7%95%AB%E6%B4%BE",
+        "https://en.wikipedia.org/wiki/Wu_School",
+        "https://www.wikidata.org/wiki/Q558863",
+        "https://www.wikidata.org/wiki/Q42622",
+        "https://zh.wikipedia.org/wiki/%E6%96%87%E5%BE%B5%E6%98%8E",
+        "https://www.britannica.com/biography/Dong-Qichang"
+      ],
+      "status": "draft",
+      "updated": "2026-08-09",
+      "path": "entities/movements/wu-school.md"
+    },
     "movement/zaria-art-society": {
       "id": "movement/zaria-art-society",
       "uri": "urn:ahn:movement/zaria-art-society",
@@ -993,6 +1387,69 @@
       "updated": "2026-08-09",
       "path": "entities/orgs/dohwaseo.md"
     },
+    "org/igun-eronmwon": {
+      "id": "org/igun-eronmwon",
+      "uri": "urn:ahn:org/igun-eronmwon",
+      "type": "org",
+      "label_ja": "イグン・エロンムオン",
+      "label_en": "Igun Eronmwon",
+      "authority": {
+        "wikidata": "Q111731632",
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": "12XX",
+        "end": "..",
+        "display": "口伝ではオバ・オグオラ（在位「about A.D. 1280」——Fagg）の代に創設。Wikidata の art of the Kingdom of Benin（Q4888026）の inception も +1300 / precision 7＝「13. century」で一致。ただし別系統の伝承（Wikipedia『Igun Street』）はオギソ朝のオギソ・エレ（16–66 A.D.）の代とし、通俗記事はオグオラを「14世紀」とする——出典間で不一致（未確認）。ギルド自体は現在も存続（継続中）"
+      },
+      "space": [
+        {
+          "role": "sited_in",
+          "target": "place/benin-city"
+        }
+      ],
+      "relations": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q111731632",
+        "https://www.penn.museum/sites/expedition/the-art-of-benin/",
+        "https://en.wikipedia.org/wiki/Igun_Street",
+        "https://www.metmuseum.org/perspectives/bronze-casters-igun-street"
+      ],
+      "status": "draft",
+      "updated": "2026-08-09",
+      "path": "entities/orgs/igun-eronmwon.md"
+    },
+    "person/abanindranath-tagore": {
+      "id": "person/abanindranath-tagore",
+      "uri": "urn:ahn:person/abanindranath-tagore",
+      "type": "person",
+      "label_ja": "アバニンドラナート・タゴール",
+      "label_en": "Abanindranath Tagore",
+      "authority": {
+        "wikidata": "Q691796",
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": "1871-08-07",
+        "end": "1951-12-05",
+        "display": "1871年8月7日 – 1951年12月5日"
+      },
+      "space": [],
+      "relations": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q691796",
+        "https://en.wikipedia.org/wiki/Abanindranath_Tagore"
+      ],
+      "status": "stub",
+      "updated": "2026-08-09",
+      "path": "entities/persons/abanindranath-tagore.md"
+    },
     "person/dong-qichang": {
       "id": "person/dong-qichang",
       "uri": "urn:ahn:person/dong-qichang",
@@ -1020,6 +1477,34 @@
       "status": "stub",
       "updated": "2026-08-09",
       "path": "entities/persons/dong-qichang.md"
+    },
+    "person/e-b-havell": {
+      "id": "person/e-b-havell",
+      "uri": "urn:ahn:person/e-b-havell",
+      "type": "person",
+      "label_ja": "E.B. ハヴェル",
+      "label_en": "Ernest Binfield Havell",
+      "authority": {
+        "wikidata": "Q5392799",
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": "1861-09-16",
+        "end": "1934-12-31",
+        "display": "1861年9月16日 – 1934年12月31日"
+      },
+      "space": [],
+      "relations": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q5392799",
+        "https://en.wikipedia.org/wiki/Ernest_Binfield_Havell"
+      ],
+      "status": "stub",
+      "updated": "2026-08-09",
+      "path": "entities/persons/e-b-havell.md"
     },
     "person/felix-feneon": {
       "id": "person/felix-feneon",
@@ -1134,6 +1619,34 @@
       "updated": "2026-08-08",
       "path": "entities/persons/henri-lehmann.md"
     },
+    "person/oswald-de-andrade": {
+      "id": "person/oswald-de-andrade",
+      "uri": "urn:ahn:person/oswald-de-andrade",
+      "type": "person",
+      "label_ja": "オズワルド・デ・アンドラーデ",
+      "label_en": "Oswald de Andrade",
+      "authority": {
+        "wikidata": "Q561169",
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": "1890-01-11",
+        "end": "1954-10-22",
+        "display": "1890年1月11日 – 1954年10月22日"
+      },
+      "space": [],
+      "relations": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q561169",
+        "https://digital.bbm.usp.br/bitstream/bbm/7064/2/Anno.1_n.01_45000033273.pdf"
+      ],
+      "status": "stub",
+      "updated": "2026-08-09",
+      "path": "entities/persons/oswald-de-andrade.md"
+    },
     "person/rudolf-bonnet": {
       "id": "person/rudolf-bonnet",
       "uri": "urn:ahn:person/rudolf-bonnet",
@@ -1220,6 +1733,38 @@
       "status": "stub",
       "updated": "2026-08-09",
       "path": "entities/places/agra.md"
+    },
+    "place/benin-city": {
+      "id": "place/benin-city",
+      "uri": "urn:ahn:place/benin-city",
+      "type": "place",
+      "label_ja": "ベニンシティ",
+      "label_en": "Benin City",
+      "authority": {
+        "wikidata": "Q320704",
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": null,
+        "end": null,
+        "display": null
+      },
+      "region": "africa-sub",
+      "coordinates": [
+        6.3176,
+        5.6145
+      ],
+      "space": [],
+      "relations": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q320704"
+      ],
+      "status": "stub",
+      "updated": "2026-08-09",
+      "path": "entities/places/benin-city.md"
     },
     "place/brussels": {
       "id": "place/brussels",
@@ -1415,6 +1960,70 @@
       "updated": "2026-08-09",
       "path": "entities/places/isfahan.md"
     },
+    "place/istanbul": {
+      "id": "place/istanbul",
+      "uri": "urn:ahn:place/istanbul",
+      "type": "place",
+      "label_ja": "イスタンブール",
+      "label_en": "Istanbul",
+      "authority": {
+        "wikidata": "Q406",
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": null,
+        "end": null,
+        "display": null
+      },
+      "region": "mena",
+      "coordinates": [
+        41.01,
+        28.960277777778
+      ],
+      "space": [],
+      "relations": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q406"
+      ],
+      "status": "stub",
+      "updated": "2026-08-09",
+      "path": "entities/places/istanbul.md"
+    },
+    "place/kolkata": {
+      "id": "place/kolkata",
+      "uri": "urn:ahn:place/kolkata",
+      "type": "place",
+      "label_ja": "コルカタ",
+      "label_en": "Kolkata",
+      "authority": {
+        "wikidata": "Q1348",
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": null,
+        "end": null,
+        "display": null
+      },
+      "region": "asia-south",
+      "coordinates": [
+        22.5675,
+        88.37
+      ],
+      "space": [],
+      "relations": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q1348"
+      ],
+      "status": "stub",
+      "updated": "2026-08-09",
+      "path": "entities/places/kolkata.md"
+    },
     "place/kyoto": {
       "id": "place/kyoto",
       "uri": "urn:ahn:place/kyoto",
@@ -1608,6 +2217,70 @@
       "updated": "2026-08-09",
       "path": "entities/places/saint-petersburg.md"
     },
+    "place/sao-paulo": {
+      "id": "place/sao-paulo",
+      "uri": "urn:ahn:place/sao-paulo",
+      "type": "place",
+      "label_ja": "サンパウロ",
+      "label_en": "São Paulo",
+      "authority": {
+        "wikidata": "Q174",
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": null,
+        "end": null,
+        "display": null
+      },
+      "region": "americas-latin",
+      "coordinates": [
+        -23.550394,
+        -46.633947
+      ],
+      "space": [],
+      "relations": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q174"
+      ],
+      "status": "stub",
+      "updated": "2026-08-09",
+      "path": "entities/places/sao-paulo.md"
+    },
+    "place/seoul": {
+      "id": "place/seoul",
+      "uri": "urn:ahn:place/seoul",
+      "type": "place",
+      "label_ja": "ソウル",
+      "label_en": "Seoul",
+      "authority": {
+        "wikidata": "Q8684",
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": null,
+        "end": null,
+        "display": "大韓民国の首都。朝鮮王朝期の漢城（place/hanseong）と同一の地に置かれた近代以降の名称"
+      },
+      "region": "asia-east-korea",
+      "coordinates": [
+        37.56,
+        126.99
+      ],
+      "space": [],
+      "relations": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q8684"
+      ],
+      "status": "stub",
+      "updated": "2026-08-09",
+      "path": "entities/places/seoul.md"
+    },
     "place/shigatse": {
       "id": "place/shigatse",
       "uri": "urn:ahn:place/shigatse",
@@ -1640,6 +2313,38 @@
       "status": "stub",
       "updated": "2026-08-09",
       "path": "entities/places/shigatse.md"
+    },
+    "place/suzhou": {
+      "id": "place/suzhou",
+      "uri": "urn:ahn:place/suzhou",
+      "type": "place",
+      "label_ja": "蘇州",
+      "label_en": "Suzhou",
+      "authority": {
+        "wikidata": "Q42622",
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": null,
+        "end": null,
+        "display": null
+      },
+      "region": "asia-east-china",
+      "coordinates": [
+        31.3,
+        120.61944444444444
+      ],
+      "space": [],
+      "relations": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q42622"
+      ],
+      "status": "stub",
+      "updated": "2026-08-09",
+      "path": "entities/places/suzhou.md"
     },
     "place/tabriz": {
       "id": "place/tabriz",
@@ -1838,6 +2543,61 @@
       "to": "place/paris"
     },
     {
+      "from": "movement/antropofagia",
+      "type": "created_by",
+      "to": "person/oswald-de-andrade",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "movement/antropofagia",
+      "type": "originated_in",
+      "to": "place/sao-paulo"
+    },
+    {
+      "from": "movement/bengal-school",
+      "type": "created_by",
+      "to": "person/abanindranath-tagore",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "movement/bengal-school",
+      "type": "created_by",
+      "to": "person/e-b-havell",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "movement/bengal-school",
+      "type": "influenced_by",
+      "to": "movement/mughal-painting",
+      "certainty": "scholarly",
+      "source": "https://www.getty.edu/vow/AATFullDisplay?find=Bengal&logic=AND&note=&english=Y&prev_page=1&subjectid=300417404"
+    },
+    {
+      "from": "movement/bengal-school",
+      "type": "originated_in",
+      "to": "place/kolkata"
+    },
+    {
+      "from": "movement/benin-court-art",
+      "type": "created_by",
+      "to": "org/igun-eronmwon",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "movement/benin-court-art",
+      "type": "originated_in",
+      "to": "place/benin-city"
+    },
+    {
+      "from": "movement/dansaekhwa",
+      "type": "originated_in",
+      "to": "place/seoul"
+    },
+    {
       "from": "movement/hudson-river-school",
       "type": "originated_in",
       "to": "place/new-york-city"
@@ -1892,6 +2652,18 @@
       "to": "place/paris"
     },
     {
+      "from": "movement/ottoman-miniature",
+      "type": "influenced_by",
+      "to": "movement/safavid-painting",
+      "certainty": "scholarly",
+      "source": "https://en.wikipedia.org/wiki/Ottoman_miniature"
+    },
+    {
+      "from": "movement/ottoman-miniature",
+      "type": "originated_in",
+      "to": "place/istanbul"
+    },
+    {
       "from": "movement/papunya-tula",
       "type": "originated_in",
       "to": "place/papunya"
@@ -1934,6 +2706,11 @@
       "to": "place/kyoto"
     },
     {
+      "from": "movement/wu-school",
+      "type": "originated_in",
+      "to": "place/suzhou"
+    },
+    {
       "from": "movement/zaria-art-society",
       "type": "created_by",
       "to": "person/uche-okeke",
@@ -1959,6 +2736,11 @@
       "from": "org/dohwaseo",
       "type": "sited_in",
       "to": "place/hanseong"
+    },
+    {
+      "from": "org/igun-eronmwon",
+      "type": "sited_in",
+      "to": "place/benin-city"
     },
     {
       "from": "person/georges-seurat",
@@ -2039,6 +2821,36 @@
       "derived": true
     },
     {
+      "from": "person/oswald-de-andrade",
+      "type": "created",
+      "to": "movement/antropofagia",
+      "derived": true
+    },
+    {
+      "from": "person/abanindranath-tagore",
+      "type": "created",
+      "to": "movement/bengal-school",
+      "derived": true
+    },
+    {
+      "from": "person/e-b-havell",
+      "type": "created",
+      "to": "movement/bengal-school",
+      "derived": true
+    },
+    {
+      "from": "movement/mughal-painting",
+      "type": "influenced",
+      "to": "movement/bengal-school",
+      "derived": true
+    },
+    {
+      "from": "org/igun-eronmwon",
+      "type": "created",
+      "to": "movement/benin-court-art",
+      "derived": true
+    },
+    {
       "from": "movement/post-impressionism",
       "type": "groups",
       "to": "movement/neo-impressionism",
@@ -2048,6 +2860,12 @@
       "from": "place/brussels",
       "type": "received",
       "to": "movement/neo-impressionism",
+      "derived": true
+    },
+    {
+      "from": "movement/safavid-painting",
+      "type": "influenced",
+      "to": "movement/ottoman-miniature",
       "derived": true
     },
     {
