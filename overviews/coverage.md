@@ -14,23 +14,23 @@ depends_on: []
 <!-- generated:coverage:start -->
 データの最新日: 2026-08-09 — `python3 tools/build_graph.py` が生成（手で書き換えない）
 
-movement **10** 件（stub 1件は不算入）／内訳 {'draft': 9, 'stub': 1, 'verified': 1}
+movement **14** 件（stub 1件は不算入）／内訳 {'draft': 13, 'stub': 1, 'verified': 1}
 
 | 文化圏 | 15C | 16C | 17C | 19C | 20C | 年代不明 | 計 |
 |---|---|---|---|---|---|---|---|
 | europe-west（西欧・南欧・北欧） |  |  |  | 1 |  |  | 1 |
-| europe-east（中東欧・ロシア・ビザンツ圏） |  |  |  |  |  |  | 0 |
-| americas-north（北米） |  |  |  |  |  |  | 0 |
+| europe-east（中東欧・ロシア・ビザンツ圏） |  |  |  | 1 |  |  | 1 |
+| americas-north（北米） |  |  |  | 1 |  |  | 1 |
 | mena（中東・北アフリカ） ※非西洋 |  | 1 |  |  |  |  | 1 |
 | africa-sub（サブサハラ・アフリカ） ※非西洋 |  |  |  |  | 1 |  | 1 |
-| asia-central（中央アジア・チベット・モンゴル） ※非西洋 |  |  |  |  |  |  | 0 |
+| asia-central（中央アジア・チベット・モンゴル） ※非西洋 | 1 |  |  |  |  |  | 1 |
 | asia-south（南アジア） ※非西洋 |  | 1 |  |  |  |  | 1 |
 | asia-southeast（東南アジア） ※非西洋 |  |  |  |  | 1 |  | 1 |
 | asia-east-china（中国圏） ※非西洋 | 1 |  |  |  |  |  | 1 |
 | asia-east-korea（朝鮮半島） ※非西洋 |  |  |  |  |  |  | 0 |
 | asia-east-japan（日本） ※非西洋 | 2 |  | 1 |  |  |  | 3 |
 | americas-latin（中南米・カリブ） ※非西洋 |  |  |  |  | 1 |  | 1 |
-| oceania（オセアニア・太平洋） ※非西洋 |  |  |  |  |  |  | 0 |
+| oceania（オセアニア・太平洋） ※非西洋 |  |  |  |  | 1 |  | 1 |
 
 **探されたが無かった語**（需要のシグナル。多い順）:
 
@@ -39,10 +39,10 @@ movement **10** 件（stub 1件は不算入）／内訳 {'draft': 9, 'stub': 1, 
 
 受け入れ条件の達成度:
 
-- movement_total: 10/100（stub 1件は不算入）
-- non_west_ratio: 0.90/0.5
+- movement_total: 14/100（stub 1件は不算入）
+- non_west_ratio: 0.79/0.5
 - per_bucket_min: 1/13 バケットが 3件以上
-- pre_1800_ratio: 0.60/0.3
+- pre_1800_ratio: 0.50/0.3
 - isolated_ratio: 0.00（上限 0.1）
 <!-- generated:coverage:end -->
 

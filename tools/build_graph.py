@@ -15,7 +15,7 @@ import yaml
 
 import re
 
-from kb import (CERTAINTIES, CLAIM_FIELDS_FOR_VERIFIED, DIR_FOR_TYPE, ENTITIES,
+from kb import (CERTAINTIES, CLAIM_FIELDS_FOR_VERIFIED, DIR_FOR_TYPE, ENTITIES, FOUNDING_CONTROL,
                 INTERPRETIVE_RELATIONS, MOVEMENT_KINDS, RELATION_TARGET_TYPES, RELATIONS, ROOT,
                 SPACE_ROLES, SPACE_TARGET_TYPES, STATUSES, TYPES, URI_PREFIX, alias_map,
                 build_edges, edtf_ok, edtf_year_range, load_config, load_entities, read_frontmatter,
@@ -72,6 +72,9 @@ def validate(entities, records, cfg, errors):
             elif naming.get("self_identified") is False and not naming.get("named_by") \
                     and not (naming.get("note") or "").strip():
                 err("naming.self_identified=false なら named_by か note で命名の経緯を書く")
+
+        if meta.get("founding_control") and meta["founding_control"] not in FOUNDING_CONTROL:
+            err(f"founding_control は {sorted(FOUNDING_CONTROL)} のどれか（今: {meta['founding_control']}）")
 
         if etype == "place" and not meta.get("region"):
             err("place は region が必須（被覆集計のキー。config/regions.yaml のバケット名）")

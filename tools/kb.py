@@ -22,6 +22,8 @@ DIR_FOR_TYPE = {
 TYPES = set(DIR_FOR_TYPE)
 
 MOVEMENT_KINDS = {"self-declared", "retrospective", "lineage-school", "period-style"}
+# 設立・所有・意思決定に、対象文化の外部者が構造的に含まれていたか（任意項目）
+FOUNDING_CONTROL = {"internal", "shared", "external"}
 STATUSES = {"stub", "draft", "verified"}
 CERTAINTIES = {"attested", "scholarly", "hypothesis"}
 

@@ -15,6 +15,7 @@ time:
   start: "1958"
   end: null
   display: "1958年（結成）〜1960年10月1日（「Natural Synthesis」宣言）以降。解散年は二次資料間で不一致がある（未確認）"
+founding_control: internal   # 美術学校の学生が自分たちで結成し、綱領も当事者（ウチェ・オケケ）が書いた。外部者が設立・運営に構造的に関与した記述は確認していない
 naming:
   self_identified: true
   named_by: null
