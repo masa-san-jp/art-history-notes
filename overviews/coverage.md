@@ -14,7 +14,7 @@ depends_on: []
 <!-- generated:coverage:start -->
 生成: 2026-08-09 — `python3 tools/build_graph.py`（手で書き換えない）
 
-movement 合計 **5** 件
+movement 合計 **6** 件
 
 | 文化圏 | 15C | 17C | 年代不明 | 計 |
 |---|---|---|---|---|
@@ -26,7 +26,7 @@ movement 合計 **5** 件
 | asia-central（中央アジア・チベット・モンゴル） ※非西洋 |  |  |  | 0 |
 | asia-south（南アジア） ※非西洋 |  |  |  | 0 |
 | asia-southeast（東南アジア） ※非西洋 |  |  |  | 0 |
-| asia-east-china（中国圏） ※非西洋 |  |  |  | 0 |
+| asia-east-china（中国圏） ※非西洋 | 1 |  |  | 1 |
 | asia-east-korea（朝鮮半島） ※非西洋 |  |  |  | 0 |
 | asia-east-japan（日本） ※非西洋 | 2 | 1 |  | 3 |
 | americas-latin（中南米・カリブ） ※非西洋 |  |  |  | 0 |
@@ -40,10 +40,10 @@ movement 合計 **5** 件
 
 受け入れ条件の達成度:
 
-- movement_total: 5/100
-- non_west_ratio: 0.60/0.5
+- movement_total: 6/100
+- non_west_ratio: 0.67/0.5
 - per_bucket_min: 1/13 バケットが 3件以上
-- pre_1800_ratio: 0.60/0.3
+- pre_1800_ratio: 0.67/0.3
 - isolated_ratio: 0.00（上限 0.1）
 <!-- generated:coverage:end -->
 
@@ -62,7 +62,6 @@ movement 合計 **5** 件
 
 <!-- generated:audit:start -->
 **仮説が未検証**
-- japan-school-types.md の仮説を崩しにいく先 asia-east-china が空のまま（反証を試していないので仮説のまま止まっている）
 - japan-school-types.md の仮説を崩しにいく先 asia-east-korea が空のまま（反証を試していないので仮説のまま止まっている）
 - japan-school-types.md の仮説を崩しにいく先 asia-south が空のまま（反証を試していないので仮説のまま止まっている）
 

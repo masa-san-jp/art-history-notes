@@ -283,6 +283,62 @@
       "updated": "2026-08-08",
       "path": "entities/movements/tosa-school.md"
     },
+    "movement/zhe-school": {
+      "id": "movement/zhe-school",
+      "uri": "urn:ahn:movement/zhe-school",
+      "type": "movement",
+      "kind": "retrospective",
+      "label_ja": "浙派",
+      "label_en": "Zhe school",
+      "authority": {
+        "wikidata": "Q1150941",
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": "14XX",
+        "end": "1550~",
+        "display": "15世紀（戴進の活動期）〜16世紀中頃（後世に「ほとんど消滅した」とされる）。Wikidata の movement 項目 (Q1150941) には開始・終了年の claim が P571/P576 とも1つも無く、時間軸は二次情報（日本語版Wikipedia）と開祖・戴進の生没年（Wikidata Q741512、1388年〜1462年、precision 9）から組んだ"
+      },
+      "naming": {
+        "self_identified": false,
+        "named_by": "person/dong-qichang",
+        "named_when": null,
+        "original_label": "浙派",
+        "note": "董其昌『画禅室随筆』に由来するとされる（二次情報、日本語版Wikipedia）。浙派の画家が活動していた時代（15〜16世紀）には「浙派」という名称自体が存在しなかった。命名者・董其昌（1555-1636）は浙派が「16世紀中葉にはほとんど消滅した」とされる時期にまだ生まれてすらいない。『画禅室随筆』の成立年は未確認"
+      },
+      "claims": [
+        {
+          "field": "kind",
+          "source": "https://ja.wikipedia.org/wiki/%E6%B5%99%E6%B4%BE",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "originated_in",
+          "source": "https://www.wikidata.org/wiki/Q741512",
+          "certainty": "scholarly"
+        }
+      ],
+      "space": [
+        {
+          "role": "originated_in",
+          "target": "place/hangzhou"
+        }
+      ],
+      "relations": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q1150941",
+        "https://ja.wikipedia.org/wiki/%E6%B5%99%E6%B4%BE",
+        "https://en.wikipedia.org/wiki/Zhe_school_(painting)",
+        "https://www.wikidata.org/wiki/Q741512",
+        "https://www.wikidata.org/wiki/Q537211"
+      ],
+      "status": "draft",
+      "updated": "2026-08-09",
+      "path": "entities/movements/zhe-school.md"
+    },
     "org/art-institute-of-chicago": {
       "id": "org/art-institute-of-chicago",
       "uri": "urn:ahn:org/art-institute-of-chicago",
@@ -320,6 +376,34 @@
       "status": "stub",
       "updated": "2026-08-08",
       "path": "entities/orgs/art-institute-of-chicago.md"
+    },
+    "person/dong-qichang": {
+      "id": "person/dong-qichang",
+      "uri": "urn:ahn:person/dong-qichang",
+      "type": "person",
+      "label_ja": "董其昌",
+      "label_en": "Dong Qichang",
+      "authority": {
+        "wikidata": "Q537211",
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": "1555",
+        "end": "1636",
+        "display": "1555年 – 1636年（明末の文人・書画家・理論家）"
+      },
+      "space": [],
+      "relations": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q537211",
+        "https://ja.wikipedia.org/wiki/%E6%B5%99%E6%B4%BE"
+      ],
+      "status": "stub",
+      "updated": "2026-08-09",
+      "path": "entities/persons/dong-qichang.md"
     },
     "person/georges-seurat": {
       "id": "person/georges-seurat",
@@ -436,6 +520,38 @@
       "status": "stub",
       "updated": "2026-08-08",
       "path": "entities/places/chicago.md"
+    },
+    "place/hangzhou": {
+      "id": "place/hangzhou",
+      "uri": "urn:ahn:place/hangzhou",
+      "type": "place",
+      "label_ja": "杭州",
+      "label_en": "Hangzhou",
+      "authority": {
+        "wikidata": "Q4970",
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": null,
+        "end": null,
+        "display": null
+      },
+      "region": "asia-east-china",
+      "coordinates": [
+        30.25,
+        120.1675
+      ],
+      "space": [],
+      "relations": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q4970"
+      ],
+      "status": "stub",
+      "updated": "2026-08-09",
+      "path": "entities/places/hangzhou.md"
     },
     "place/kyoto": {
       "id": "place/kyoto",
@@ -633,6 +749,11 @@
       "from": "movement/tosa-school",
       "type": "originated_in",
       "to": "place/kyoto"
+    },
+    {
+      "from": "movement/zhe-school",
+      "type": "originated_in",
+      "to": "place/hangzhou"
     },
     {
       "from": "org/art-institute-of-chicago",
