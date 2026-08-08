@@ -1,8 +1,35 @@
+---
+id: work/a-sunday-on-la-grande-jatte
+type: work
+label_ja: グランド・ジャット島の日曜日の午後 — 1884年
+label_en: A Sunday Afternoon on the Island of La Grande Jatte
+authority:
+  wikidata: Q1044742
+time:
+  start: 1884
+  end: 1886
+  note: 額縁部分の彩色は1888–89年に追加
+space:
+  - {role: created_in, target: place/paris}
+  - {role: held_at, target: place/art-institute-of-chicago}
+relations:
+  - {type: created_by, target: artist/georges-seurat}
+  - {type: belongs_to, target: movement/neo-impressionism}
+  - {type: depicts, target: concept/harmony}
+sources:
+  - https://api.artic.edu/api/v1/artworks/27992
+  - https://www.artic.edu/artworks/27992
+  - https://fr.wikiquote.org/wiki/Georges_Seurat
+  - https://www.sothebys.com/en/auctions/ecatalogue/2009/impressionist-modern-art-pf9006/lot.8.html
+status: verified
+updated: 2026-08-08
+---
+
 # スーラ《グランド・ジャット島の日曜日の午後 — 1884年》
 
 実物未見。シカゴ美術館の一次データと museum text、および作者自身の手紙から書く。
 
-## 1. 事実
+## 事実
 
 | 項目 | 内容 |
 |---|---|
@@ -11,15 +38,16 @@
 | 素材 | 油彩・カンヴァス |
 | 寸法 | 207.5 × 308.1 cm |
 | 所蔵 | シカゴ美術館（1926年、Helen Birch Bartlett Memorial Collection として寄贈） |
+| 所蔵番号 | 1926.224 |
 
 出典: [Art Institute of Chicago API / artwork 27992](https://api.artic.edu/api/v1/artworks/27992)（データは CC0）／
-[作品ページ](https://www.artic.edu/artworks/27992)
+[作品ページ](https://www.artic.edu/artworks/27992)／所蔵番号は [Wikidata Q1044742](https://www.wikidata.org/wiki/Q1044742)
 
 館の解説が挙げる要点は2つ。近づくと形が「補色の点と短い線」に分解されること。そして完成の2年後に
 スーラが戻ってきて、一部の人物のシルエットを強め、人物を足していること（鎖につながれた猿など）。
 館の言葉では、その一つひとつが「古代ギリシアのフリーズに匹敵する近代生活の絵」という狙いに必要な判断だった。
 
-## 2. 作者自身の言葉
+## 作者自身の言葉
 
 スーラは1890年8月28日、批評家 Maurice Beaubourg への手紙で自分の美学を1行で定義している。
 
@@ -41,7 +69,7 @@ pour le ton, un plus lumineux (clair) pour un plus sombre."）。
 **未確認**: Rewald 版の原文と Sotheby's 版で語順・句読点が違う。どちらが手稿に忠実かは原物か
 校訂版を見るまで確定できない。引用するときは両方の存在を示す。
 
-## 3. どう成立しているか
+## どう成立しているか
 
 **調和を「似ていること」だと定義していない。** ここが要。スーラの定義では調和は
 *analogie des contraires*——対立するものの間に見つかる類似。つまり **差があることが前提**で、
@@ -58,11 +86,8 @@ pour le ton, un plus lumineux (clair) pour un plus sombre."）。
 そして全部に **dominante（支配的なもの）** が掛かる。何が支配しているかを先に決め、
 その基準の上で対立を置く。だから画面がばらけない。
 
-この考え方の出どころは Charles Blanc『Grammaire des arts du dessin』(1860) の
-「対立の類似から生まれる調和」で、スーラはそれを反復している。色彩理論としては
-Chevreul『De la loi du contraste simultané des couleurs』(1839) を読んでいる。
-出典: [New World Encyclopedia — Georges-Pierre Seurat](https://www.newworldencyclopedia.org/entry/Georges-Pierre_Seurat)
-（二次情報。Blanc / Chevreul の原典は未確認）。
+この考え方の系譜は [concept/harmony](../concepts/harmony.md) 側に整理した
+（Charles Blanc 1860 / Chevreul 1839。いずれも原典未確認）。
 
 実作でそれがどう出ているか、museum text から言える範囲:
 
@@ -71,7 +96,18 @@ Chevreul『De la loi du contraste simultané des couleurs』(1839) を読んで�
 - 2年後の加筆でシルエットを強めた——完成後も、支配（輪郭の強さ）の方を調整している。
   細部を足したのではなく、効き方を直した。
 
-## 4. 自分の作品にどう使うか
+## 位置づけ
+
+- **時間**: 1884–86年。印象派の「その場の光」から、規則によって構築する側へ移る折り返し点にある。
+- **空間**: 制作はパリ。描かれた場所はセーヌ河畔のグランド・ジャット島。現在地はシカゴ。
+  **制作地と現在地が大陸を跨いでいる**——1924年に米国のコレクターへ渡った経路が、この作品が
+  どこで誰に見られるかを決めている（provenance は
+  [AIC API](https://api.artic.edu/api/v1/artworks/27992) に記載）。
+- **関係**: [artist/georges-seurat](../artists/georges-seurat.md) の主要作。
+  技法・運動としては [movement/neo-impressionism](../movements/neo-impressionism.md) の中心作。
+  なお Wikidata はこの作品の movement を Post-impressionism (Q166713) としている（より広い括り）。
+
+## 自分の作品にどう使うか
 
 グランプリのテーマ「調和」に対して、ここから持って帰る手は3つ。
 

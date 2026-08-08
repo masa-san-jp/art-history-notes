@@ -1,0 +1,389 @@
+{
+  "entities": {
+    "artist/georges-seurat": {
+      "id": "artist/georges-seurat",
+      "type": "artist",
+      "label_ja": "ジョルジュ・スーラ",
+      "label_en": "Georges Seurat",
+      "authority": {
+        "wikidata": "Q34013",
+        "ulan": "500008873",
+        "viaf": "24608076"
+      },
+      "time": {
+        "start": 1859,
+        "end": 1891,
+        "note": "1859-12-02 生 / 1891-03-29 没。活動期間はおよそ10年"
+      },
+      "space": [
+        {
+          "role": "born_in",
+          "target": "place/paris"
+        },
+        {
+          "role": "died_in",
+          "target": "place/paris"
+        },
+        {
+          "role": "active_in",
+          "target": "place/paris"
+        }
+      ],
+      "relations": [
+        {
+          "type": "belongs_to",
+          "target": "movement/neo-impressionism"
+        },
+        {
+          "type": "taught_by",
+          "target": "artist/henri-lehmann"
+        }
+      ],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q34013",
+        "https://api.artic.edu/api/v1/artworks/27992",
+        "https://fr.wikiquote.org/wiki/Georges_Seurat"
+      ],
+      "status": "draft",
+      "updated": "2026-08-08",
+      "path": "entities/artists/georges-seurat.md"
+    },
+    "artist/henri-lehmann": {
+      "id": "artist/henri-lehmann",
+      "type": "artist",
+      "label_ja": "アンリ・レーマン",
+      "label_en": "Henri Lehmann",
+      "authority": {
+        "wikidata": "Q240483",
+        "ulan": "500032345"
+      },
+      "time": {
+        "start": 1814,
+        "end": 1882,
+        "note": "1814-04-14 生 / 1882-03-30 没"
+      },
+      "space": [
+        {
+          "role": "active_in",
+          "target": "place/paris"
+        }
+      ],
+      "relations": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q240483"
+      ],
+      "status": "stub",
+      "updated": "2026-08-08",
+      "path": "entities/artists/henri-lehmann.md"
+    },
+    "concept/harmony": {
+      "id": "concept/harmony",
+      "type": "concept",
+      "label_ja": "調和",
+      "label_en": "harmony",
+      "authority": {
+        "wikidata": null,
+        "aat": null
+      },
+      "time": {
+        "start": null,
+        "end": null,
+        "note": "概念そのものは古代から。ここでは19世紀フランスでの定義の固まり方を軸に追う"
+      },
+      "space": [
+        {
+          "role": "active_in",
+          "target": "place/paris"
+        }
+      ],
+      "relations": [
+        {
+          "type": "documented_in",
+          "target": "artist/georges-seurat"
+        }
+      ],
+      "sources": [
+        "https://fr.wikiquote.org/wiki/Georges_Seurat",
+        "https://www.newworldencyclopedia.org/entry/Georges-Pierre_Seurat",
+        "https://www.sothebys.com/en/auctions/ecatalogue/2009/impressionist-modern-art-pf9006/lot.8.html"
+      ],
+      "status": "draft",
+      "updated": "2026-08-08",
+      "path": "entities/concepts/harmony.md"
+    },
+    "movement/neo-impressionism": {
+      "id": "movement/neo-impressionism",
+      "type": "movement",
+      "label_ja": "新印象派",
+      "label_en": "Neo-impressionism",
+      "authority": {
+        "wikidata": "Q150091",
+        "aat": "300021505"
+      },
+      "time": {
+        "start": 1884,
+        "end": 1900,
+        "note": "起点は Société des Artistes Indépendants 設立（1884）前後。終期は緩やかで、分割主義として20世紀へ続く"
+      },
+      "space": [
+        {
+          "role": "active_in",
+          "target": "place/paris"
+        }
+      ],
+      "relations": [
+        {
+          "type": "part_of",
+          "target": "movement/post-impressionism"
+        }
+      ],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q150091",
+        "https://www.getty.edu/research/tools/vocabularies/aat/"
+      ],
+      "status": "stub",
+      "updated": "2026-08-08",
+      "path": "entities/movements/neo-impressionism.md"
+    },
+    "movement/post-impressionism": {
+      "id": "movement/post-impressionism",
+      "type": "movement",
+      "label_ja": "ポスト印象派",
+      "label_en": "Post-impressionism",
+      "authority": {
+        "wikidata": "Q166713",
+        "aat": "300021508"
+      },
+      "time": {
+        "start": 1886,
+        "end": 1905,
+        "note": "範囲は論者によって動く。ここでの数値は暫定"
+      },
+      "relations": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q166713"
+      ],
+      "status": "stub",
+      "updated": "2026-08-08",
+      "path": "entities/movements/post-impressionism.md"
+    },
+    "place/art-institute-of-chicago": {
+      "id": "place/art-institute-of-chicago",
+      "type": "place",
+      "label_ja": "シカゴ美術館",
+      "label_en": "Art Institute of Chicago",
+      "authority": {
+        "wikidata": "Q239303",
+        "ulan": "500304669"
+      },
+      "coordinates": [
+        41.879444,
+        -87.623889
+      ],
+      "time": {
+        "start": 1879,
+        "end": null,
+        "note": "設立年は要確認（Wikidata 未取得）"
+      },
+      "relations": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q239303",
+        "https://api.artic.edu/api/v1/artworks/27992"
+      ],
+      "status": "stub",
+      "updated": "2026-08-08",
+      "path": "entities/places/art-institute-of-chicago.md"
+    },
+    "place/paris": {
+      "id": "place/paris",
+      "type": "place",
+      "label_ja": "パリ",
+      "label_en": "Paris",
+      "authority": {
+        "wikidata": "Q90",
+        "tgn": "7008038"
+      },
+      "coordinates": [
+        48.856667,
+        2.352222
+      ],
+      "time": {
+        "start": null,
+        "end": null
+      },
+      "relations": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q90"
+      ],
+      "status": "stub",
+      "updated": "2026-08-08",
+      "path": "entities/places/paris.md"
+    },
+    "work/a-sunday-on-la-grande-jatte": {
+      "id": "work/a-sunday-on-la-grande-jatte",
+      "type": "work",
+      "label_ja": "グランド・ジャット島の日曜日の午後 — 1884年",
+      "label_en": "A Sunday Afternoon on the Island of La Grande Jatte",
+      "authority": {
+        "wikidata": "Q1044742"
+      },
+      "time": {
+        "start": 1884,
+        "end": 1886,
+        "note": "額縁部分の彩色は1888–89年に追加"
+      },
+      "space": [
+        {
+          "role": "created_in",
+          "target": "place/paris"
+        },
+        {
+          "role": "held_at",
+          "target": "place/art-institute-of-chicago"
+        }
+      ],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "artist/georges-seurat"
+        },
+        {
+          "type": "belongs_to",
+          "target": "movement/neo-impressionism"
+        },
+        {
+          "type": "depicts",
+          "target": "concept/harmony"
+        }
+      ],
+      "sources": [
+        "https://api.artic.edu/api/v1/artworks/27992",
+        "https://www.artic.edu/artworks/27992",
+        "https://fr.wikiquote.org/wiki/Georges_Seurat",
+        "https://www.sothebys.com/en/auctions/ecatalogue/2009/impressionist-modern-art-pf9006/lot.8.html"
+      ],
+      "status": "verified",
+      "updated": "2026-08-08",
+      "path": "entities/works/a-sunday-on-la-grande-jatte.md"
+    }
+  },
+  "edges": [
+    {
+      "from": "artist/georges-seurat",
+      "type": "belongs_to",
+      "to": "movement/neo-impressionism"
+    },
+    {
+      "from": "artist/georges-seurat",
+      "type": "taught_by",
+      "to": "artist/henri-lehmann"
+    },
+    {
+      "from": "artist/georges-seurat",
+      "type": "born_in",
+      "to": "place/paris"
+    },
+    {
+      "from": "artist/georges-seurat",
+      "type": "died_in",
+      "to": "place/paris"
+    },
+    {
+      "from": "artist/georges-seurat",
+      "type": "active_in",
+      "to": "place/paris"
+    },
+    {
+      "from": "artist/henri-lehmann",
+      "type": "active_in",
+      "to": "place/paris"
+    },
+    {
+      "from": "concept/harmony",
+      "type": "documented_in",
+      "to": "artist/georges-seurat"
+    },
+    {
+      "from": "concept/harmony",
+      "type": "active_in",
+      "to": "place/paris"
+    },
+    {
+      "from": "movement/neo-impressionism",
+      "type": "part_of",
+      "to": "movement/post-impressionism"
+    },
+    {
+      "from": "movement/neo-impressionism",
+      "type": "active_in",
+      "to": "place/paris"
+    },
+    {
+      "from": "work/a-sunday-on-la-grande-jatte",
+      "type": "created_by",
+      "to": "artist/georges-seurat"
+    },
+    {
+      "from": "work/a-sunday-on-la-grande-jatte",
+      "type": "belongs_to",
+      "to": "movement/neo-impressionism"
+    },
+    {
+      "from": "work/a-sunday-on-la-grande-jatte",
+      "type": "depicts",
+      "to": "concept/harmony"
+    },
+    {
+      "from": "work/a-sunday-on-la-grande-jatte",
+      "type": "created_in",
+      "to": "place/paris"
+    },
+    {
+      "from": "work/a-sunday-on-la-grande-jatte",
+      "type": "held_at",
+      "to": "place/art-institute-of-chicago"
+    },
+    {
+      "from": "movement/neo-impressionism",
+      "type": "has_member",
+      "to": "artist/georges-seurat",
+      "derived": true
+    },
+    {
+      "from": "artist/henri-lehmann",
+      "type": "taught",
+      "to": "artist/georges-seurat",
+      "derived": true
+    },
+    {
+      "from": "artist/georges-seurat",
+      "type": "documents",
+      "to": "concept/harmony",
+      "derived": true
+    },
+    {
+      "from": "movement/post-impressionism",
+      "type": "has_part",
+      "to": "movement/neo-impressionism",
+      "derived": true
+    },
+    {
+      "from": "artist/georges-seurat",
+      "type": "created",
+      "to": "work/a-sunday-on-la-grande-jatte",
+      "derived": true
+    },
+    {
+      "from": "movement/neo-impressionism",
+      "type": "has_member",
+      "to": "work/a-sunday-on-la-grande-jatte",
+      "derived": true
+    },
+    {
+      "from": "concept/harmony",
+      "type": "depicted_in",
+      "to": "work/a-sunday-on-la-grande-jatte",
+      "derived": true
+    }
+  ]
+}
