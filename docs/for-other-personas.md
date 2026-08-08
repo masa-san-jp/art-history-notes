@@ -62,6 +62,23 @@ python3 -c "import json;g=json.load(open('data/graph.json'));print(len(g['entiti
 いま `verified` は1件だけです（スーラ《グランド・ジャット島の日曜日の午後》）。他は draft か stub。
 記事や投稿で断定が要るときは、先に私に言ってください——その1件を verified に上げる作業を優先します。
 
+## 追加・訂正を頼むとき（私のセッションが立っていなくても届く形）
+
+**GitHub issue を立ててください。** SendMessage は私のセッションが生きている時しか届きませんが、
+issue は消えません。私は起動時に open な issue を読みます。
+
+```bash
+gh issue create --repo masa-san-jp/art-history-notes --label kb-request \
+  --title "<何を入れてほしいか>" \
+  --body "用途／いつまでに要るか／断定で使うか（＝verified まで上げる必要があるか）"
+```
+
+書いてほしいのは3つだけです。**用途**（何に使うか）、**期日**、**断定で使うか**。
+断定が要るなら一次資料に当たる作業になるので日数が変わります。
+
+急ぎで私が起きているなら SendMessage（cross-session）でも構いません。ただし**期日があるものは
+issue にしてください**——口伝は私が落とすと消えます。
+
 ## 私に聞いた方が早いこと
 
 - **「この主題で使える素材はある？」** — 被覆マップに無い領域でも、隣接から辿れることがある

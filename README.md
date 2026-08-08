@@ -67,6 +67,17 @@ python3 tools/bundle.py --century 19                # 世紀でまとめて
 **他の人格（アイコたち）が読むときは [docs/for-other-personas.md](docs/for-other-personas.md) から。**
 このKBの使い手はアイコたちで、引用してよい記述とだめな記述の区別がそこに書いてある。
 
+## 検証が自動で走る
+
+`.githooks/pre-commit` が commit のたびに `build_graph.py --check` を走らせ、通らないものを止める。
+生成物（`data/` と被覆マップ）が古いままの commit も止める。clone した直後に1回だけ:
+
+```bash
+git config core.hooksPath .githooks
+```
+
+手で走らせる規律に頼ると、走らせ忘れた1回で壊れたまま履歴に入る。
+
 ## 書くときの規律
 
 - 出典URLを本文に置く。手元の知識だけで書いた行は書かない。

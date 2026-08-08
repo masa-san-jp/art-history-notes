@@ -1,0 +1,22 @@
+#!/usr/bin/env bash
+# 検証を通っていないものを commit させない。
+# 手で走らせる規律に頼ると、走らせ忘れた1回で壊れたまま履歴に入る。
+set -uo pipefail
+cd "$(git rev-parse --show-toplevel)" || exit 1
+
+if ! python3 tools/build_graph.py --check; then
+  echo "" >&2
+  echo "✋ commit を止めました。上の指摘を直してから再度 commit してください。" >&2
+  echo "   直したら: python3 tools/build_graph.py（生成物も更新）" >&2
+  exit 1
+fi
+
+# 生成物が古いまま commit されるのも防ぐ（entities を変えたのに graph を更新していない場合）
+if git diff --cached --name-only | grep -q '^entities/'; then
+  python3 tools/build_graph.py >/dev/null || exit 1
+  if ! git diff --quiet -- data/ overviews/coverage.md; then
+    echo "✋ 生成物が古いままです。次を実行して差分を stage してから commit してください:" >&2
+    echo "   python3 tools/build_graph.py && git add data/ overviews/coverage.md" >&2
+    exit 1
+  fi
+fi
