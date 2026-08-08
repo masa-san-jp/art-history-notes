@@ -181,6 +181,59 @@
       "updated": "2026-08-08",
       "path": "entities/movements/post-impressionism.md"
     },
+    "movement/rinpa": {
+      "id": "movement/rinpa",
+      "uri": "urn:ahn:movement/rinpa",
+      "type": "movement",
+      "kind": "retrospective",
+      "label_ja": "琳派",
+      "label_en": "Rimpa school",
+      "authority": {
+        "wikidata": "Q3179819",
+        "aat": "300106734",
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": "1600~",
+        "end": "18XX",
+        "display": "17世紀初頭〜19世紀（Wikidata の inception は1600年。終期は未確認）"
+      },
+      "naming": {
+        "self_identified": false,
+        "named_by": null,
+        "named_when": null,
+        "original_label": "琳派",
+        "note": "尾形光琳の一字から作られた呼称で、当事者が名乗った名ではない。光琳派・宗達光琳派とも呼ばれる（Wikidata Q3179819 の日本語記述）。Getty AAT の見出し語は Sōtatsu-Kōrin School（300106734）。「琳派」という語がいつ誰によって定着したかは未確認"
+      },
+      "claims": [
+        {
+          "field": "time",
+          "source": "https://www.wikidata.org/wiki/Q3179819",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "kind",
+          "source": "https://www.wikidata.org/wiki/Q3179819",
+          "certainty": "hypothesis"
+        }
+      ],
+      "space": [
+        {
+          "role": "originated_in",
+          "target": "place/kyoto"
+        }
+      ],
+      "relations": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q3179819",
+        "https://www.getty.edu/research/tools/vocabularies/aat/"
+      ],
+      "status": "draft",
+      "updated": "2026-08-08",
+      "path": "entities/movements/rinpa.md"
+    },
     "org/art-institute-of-chicago": {
       "id": "org/art-institute-of-chicago",
       "uri": "urn:ahn:org/art-institute-of-chicago",
@@ -521,6 +574,11 @@
       "from": "movement/neo-impressionism",
       "type": "originated_in",
       "to": "place/paris"
+    },
+    {
+      "from": "movement/rinpa",
+      "type": "originated_in",
+      "to": "place/kyoto"
     },
     {
       "from": "org/art-institute-of-chicago",
