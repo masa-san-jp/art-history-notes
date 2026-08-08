@@ -11,8 +11,6 @@ place の region 欠落／俯瞰の依存先が更新されたのに as_of が�
 
 import json
 import sys
-from datetime import date
-
 import yaml
 
 import re
@@ -201,8 +199,10 @@ def coverage(entities, cfg):
     total = len(counted)
     non_west = sum(n for b, n in per_bucket.items() if not buckets[b]["west"])
     th = cfg["thresholds"]
+    # as_of は「今日」ではなく、反映しているデータの最新日にする。
+    # 今日を入れると生成物が走らせた日ごとに変わり、CI の「生成物が最新か」が時差だけで落ちる。
     return {
-        "as_of": date.today().isoformat(),
+        "as_of": max((str(m.get("updated") or "") for m in entities.values()), default=""),
         "movement_total": total,
         "movement_stub_excluded": len(movements) - total,
         "by_status": {s: sum(1 for m in movements.values() if m.get("status") == s)
@@ -230,7 +230,7 @@ def render_coverage(cov, cfg):
     cols = [(c, f"{c}C") for c in centuries] + [("unknown", "年代不明")]
     header = "| 文化圏 | " + " | ".join(label for _k, label in cols) + " | 計 |"
     sep = "|---" * (len(cols) + 2) + "|"
-    lines = [f"生成: {cov['as_of']} — `python3 tools/build_graph.py`（手で書き換えない）", "",
+    lines = [f"データの最新日: {cov['as_of']} — `python3 tools/build_graph.py` が生成（手で書き換えない）", "",
              f"movement **{cov['movement_total']}** 件（stub {cov['movement_stub_excluded']}件は不算入）"
              f"／内訳 {cov['by_status']}", "", header, sep]
     for b, conf in buckets.items():
