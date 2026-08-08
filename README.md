@@ -56,6 +56,7 @@ data/              生成物（graph.json / coverage.json）
 python3 tools/new_entity.py movement kano-school --ja 狩野派 --en "Kanō school"
 python3 tools/build_graph.py --check     # 検証だけ（CI 用）
 python3 tools/build_graph.py             # 検証 + グラフ・被覆マップの生成
+python3 tools/bundle.py --search 調和               # 語で探す（IDを知らなくていい）
 python3 tools/bundle.py movement/kano-school        # 1件とその周辺を1文書で
 python3 tools/bundle.py --region asia-east-japan    # 文化圏でまとめて
 python3 tools/bundle.py --century 19                # 世紀でまとめて

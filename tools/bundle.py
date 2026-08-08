@@ -83,11 +83,33 @@ def main():
     p.add_argument("--depth", type=int, default=1)
     p.add_argument("--region", help="文化圏バケットでまとめる")
     p.add_argument("--century", type=int, help="起点の世紀でまとめる（19 = 1800年代）")
+    p.add_argument("--search", help="語で探す（label と本文を見る）。1件なら束を出し、複数なら一覧を出す")
     p.add_argument("-o", "--out")
     a = p.parse_args()
 
     entities, _ = load_entities()
     edges = build_edges(entities)
+
+    if a.search:
+        hits = []
+        for eid, meta in sorted(entities.items()):
+            body = read_frontmatter(ROOT / meta["path"])[1]
+            haystack = " ".join(str(meta.get(k) or "") for k in ("label_ja", "label_en", "id")) + body
+            if a.search.lower() in haystack.lower():
+                hits.append(eid)
+        if not hits:
+            print(f"該当なし: {a.search}\n（overviews/coverage.md の空欄も見る——まだ無い領域かもしれない）",
+                  file=sys.stderr)
+            return 1
+        if len(hits) > 1:
+            print(f"「{a.search}」に触れているもの {len(hits)} 件:")
+            for eid in hits:
+                m = entities[eid]
+                print(f"  {eid}  — {summarize(m)}")
+            print("\n1件に絞って束で読む: python3 tools/bundle.py <id>")
+            return 0
+        a.center = hits[0]
+        print(f"（1件だけ該当: {a.center}）\n", file=sys.stderr)
 
     if a.center:
         if a.center not in entities:

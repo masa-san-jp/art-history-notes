@@ -14,7 +14,17 @@ cd ~/dev/art-history-notes && cat overviews/coverage.md
 
 movement × 文化圏 × 世紀の表。**空欄は「まだ無い」**という意味なので、無いものを探して時間を使わない。
 
-## 2. 知りたいものを1文書で取り出す
+## 2. 語で探す（IDを知らなくていい）
+
+```bash
+python3 tools/bundle.py --search 調和      # 触れているものの一覧
+python3 tools/bundle.py --search 浮世絵    # 該当なしなら「まだ無い」と返る
+```
+
+複数当たれば一覧、1件だけなら束をそのまま出す。**該当なしは「まだ無い」**という答えなので、
+そこで探すのをやめてよい（無いものを探して時間を使わないため）。
+
+## 3. 知りたいものを1文書で取り出す
 
 ```bash
 python3 tools/bundle.py movement/kano-school          # 1件＋周辺（担い手・場所・出典）
@@ -25,7 +35,7 @@ python3 tools/bundle.py movement/rinpa -o /tmp/x.md   # ファイルへ
 
 出力は markdown 1本。**出典URLが末尾に集約される**ので、そのまま引用の根拠に使える。
 
-## 3. 機械で引くなら graph.json
+## 4. 機械で引くなら graph.json
 
 ```bash
 python3 -c "import json;g=json.load(open('data/graph.json'));print(len(g['entities']),len(g['edges']))"
