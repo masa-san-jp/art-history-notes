@@ -96,6 +96,66 @@
       "updated": "2026-08-08",
       "path": "entities/movements/kano-school.md"
     },
+    "movement/mughal-painting": {
+      "id": "movement/mughal-painting",
+      "uri": "urn:ahn:movement/mughal-painting",
+      "type": "movement",
+      "kind": "period-style",
+      "label_ja": "ムガル絵画",
+      "label_en": "Mughal painting",
+      "authority": {
+        "wikidata": "Q1049336",
+        "aat": "300018939",
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": "155X",
+        "end": null,
+        "display": "フマーユーンの帝都復帰・ペルシャ画家招聘（1555年）とアクバル即位（1556年）を起点に、皇帝の代替わりごとに様式を変えながら継続。創作活動はシャー・アーラム2世期（在位1759〜1806年）までに実質的に停止したとされるが、正確な終息年は出典間で一致しない"
+      },
+      "naming": {
+        "self_identified": false,
+        "named_by": null,
+        "named_when": null,
+        "original_label": "Mughal painting",
+        "note": "「ムガル」はムガル王朝自身の呼称を借用した、近代の美術史記述による分類名。画家自身がこの制作を「ムガル」の名で呼んだ記録は確認できていない。命名者・命名年は未確認"
+      },
+      "claims": [
+        {
+          "field": "kind",
+          "source": "https://www.getty.edu/vow/AATFullDisplay?find=Mughal&logic=AND&note=&subjectid=300018939",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "time",
+          "source": "https://en.wikipedia.org/wiki/Mughal_painting",
+          "certainty": "scholarly"
+        }
+      ],
+      "space": [
+        {
+          "role": "originated_in",
+          "target": "place/agra"
+        }
+      ],
+      "relations": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q1049336",
+        "https://en.wikipedia.org/wiki/Mughal_painting",
+        "https://www.encyclopedia.com/international/encyclopedias-almanacs-transcripts-and-maps/mughal-painting",
+        "https://www.getty.edu/vow/AATFullDisplay?find=Mughal&logic=AND&note=&subjectid=300018939",
+        "https://en.wikipedia.org/wiki/Manohar_Das",
+        "https://en.wikipedia.org/wiki/Govardhan_(artist)",
+        "https://en.wikipedia.org/wiki/Abu%27l-Hasan_(artist)",
+        "https://www.dailyartmagazine.com/mughal-art-aurangzeb/",
+        "https://www.wikidata.org/wiki/Q42941"
+      ],
+      "status": "draft",
+      "updated": "2026-08-09",
+      "path": "entities/movements/mughal-painting.md"
+    },
     "movement/neo-impressionism": {
       "id": "movement/neo-impressionism",
       "uri": "urn:ahn:movement/neo-impressionism",
@@ -282,6 +342,70 @@
       "status": "draft",
       "updated": "2026-08-08",
       "path": "entities/movements/tosa-school.md"
+    },
+    "movement/zaria-art-society": {
+      "id": "movement/zaria-art-society",
+      "uri": "urn:ahn:movement/zaria-art-society",
+      "type": "movement",
+      "kind": "self-declared",
+      "label_ja": "ザリア・アート・ソサエティ",
+      "label_en": "Zaria Art Society",
+      "authority": {
+        "wikidata": "Q98912326",
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": "1958",
+        "end": null,
+        "display": "1958年（結成）〜1960年10月1日（「Natural Synthesis」宣言）以降。解散年は二次資料間で不一致がある（未確認）"
+      },
+      "naming": {
+        "self_identified": true,
+        "named_by": null,
+        "named_when": null,
+        "original_label": "Art Society",
+        "note": "自称の中核は「Art Society」（当事者が結成し、綱領『Natural Synthesis』を自ら書いた）。ただし現在通用する名前「Zaria Art Society」の地名部分と、通称「Zaria Rebels」は当事者の自称ではなく後から付いたことが複数の二次資料で一致している——momaa.orgは『Zaria Rebels』は他者による命名で、当事者は『Zaria Art Society』を名乗ったとするが、Google Arts & Culture（Yemisi Shyllon Museum of Art）は『Zaria Arts Society』という呼び名自体が『known as』（後から知られるようになった）と書き、Smithsonianも『Zaria Rebels』は『popularly called』（通称）としている。地名『Zaria』を冠する具体的な複合名の初出者・初出年は未確認"
+      },
+      "claims": [
+        {
+          "field": "kind",
+          "source": "https://human.libretexts.org/Bookshelves/Art/Art_History_and_Theory/SmartHistory_of_Art_2e/SmartHistory_of_Art_IXb_-_Modernism_1945-1980/06%3A_Colonial_and_postcolonial_modernisms/6.02%3A_Nigeria_Uche_Okeke",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "originated_in",
+          "source": "https://www.wikidata.org/wiki/Q98912326",
+          "certainty": "scholarly"
+        }
+      ],
+      "space": [
+        {
+          "role": "originated_in",
+          "target": "place/zaria"
+        }
+      ],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/uche-okeke"
+        }
+      ],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q98912326",
+        "https://en.wikipedia.org/wiki/Zaria_Art_Society",
+        "https://human.libretexts.org/Bookshelves/Art/Art_History_and_Theory/SmartHistory_of_Art_2e/SmartHistory_of_Art_IXb_-_Modernism_1945-1980/06%3A_Colonial_and_postcolonial_modernisms/6.02%3A_Nigeria_Uche_Okeke",
+        "https://momaa.org/the-zaria-rebels-nigerias-art-revolution-1958-1965/",
+        "https://artsandculture.google.com/story/how-the-zaria-art-society-rebelled-yemisi-shyllon-museum-of-art/WAVh6rlpcI-qoQ",
+        "https://www.si.edu/object/zaria-art-society%3Asiris_sil_504883",
+        "https://artop.bmth.ac.uk/legacies-of-the-zaria-rebels.html",
+        "https://www.rem.routledge.com/articles/zaria-art-society-the"
+      ],
+      "status": "draft",
+      "updated": "2026-08-09",
+      "path": "entities/movements/zaria-art-society.md"
     },
     "movement/zhe-school": {
       "id": "movement/zhe-school",
@@ -529,6 +653,66 @@
       "updated": "2026-08-08",
       "path": "entities/persons/henri-lehmann.md"
     },
+    "person/uche-okeke": {
+      "id": "person/uche-okeke",
+      "uri": "urn:ahn:person/uche-okeke",
+      "type": "person",
+      "label_ja": "ウチェ・オケケ",
+      "label_en": "Uche Okeke",
+      "authority": {
+        "wikidata": "Q15461959",
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": "1933-04-30",
+        "end": "2016-01-05",
+        "display": "1933年4月30日 – 2016年1月5日"
+      },
+      "space": [],
+      "relations": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q15461959",
+        "https://human.libretexts.org/Bookshelves/Art/Art_History_and_Theory/SmartHistory_of_Art_2e/SmartHistory_of_Art_IXb_-_Modernism_1945-1980/06%3A_Colonial_and_postcolonial_modernisms/6.02%3A_Nigeria_Uche_Okeke"
+      ],
+      "status": "stub",
+      "updated": "2026-08-09",
+      "path": "entities/persons/uche-okeke.md"
+    },
+    "place/agra": {
+      "id": "place/agra",
+      "uri": "urn:ahn:place/agra",
+      "type": "place",
+      "label_ja": "アグラ",
+      "label_en": "Agra",
+      "authority": {
+        "wikidata": "Q42941",
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": null,
+        "end": null,
+        "display": null
+      },
+      "region": "asia-south",
+      "coordinates": [
+        27.18,
+        78.02
+      ],
+      "space": [],
+      "relations": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q42941"
+      ],
+      "status": "stub",
+      "updated": "2026-08-09",
+      "path": "entities/places/agra.md"
+    },
     "place/chicago": {
       "id": "place/chicago",
       "uri": "urn:ahn:place/chicago",
@@ -691,6 +875,38 @@
       "updated": "2026-08-08",
       "path": "entities/places/paris.md"
     },
+    "place/zaria": {
+      "id": "place/zaria",
+      "uri": "urn:ahn:place/zaria",
+      "type": "place",
+      "label_ja": "ザリア",
+      "label_en": "Zaria",
+      "authority": {
+        "wikidata": "Q147975",
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": null,
+        "end": null,
+        "display": null
+      },
+      "region": "africa-sub",
+      "coordinates": [
+        11.0667,
+        7.7
+      ],
+      "space": [],
+      "relations": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q147975"
+      ],
+      "status": "stub",
+      "updated": "2026-08-09",
+      "path": "entities/places/zaria.md"
+    },
     "source/seurat-letter-beaubourg-1890": {
       "id": "source/seurat-letter-beaubourg-1890",
       "uri": "urn:ahn:source/seurat-letter-beaubourg-1890",
@@ -802,6 +1018,11 @@
       "to": "place/kyoto"
     },
     {
+      "from": "movement/mughal-painting",
+      "type": "originated_in",
+      "to": "place/agra"
+    },
+    {
       "from": "movement/neo-impressionism",
       "type": "grouped_as",
       "to": "movement/post-impressionism",
@@ -822,6 +1043,18 @@
       "from": "movement/tosa-school",
       "type": "originated_in",
       "to": "place/kyoto"
+    },
+    {
+      "from": "movement/zaria-art-society",
+      "type": "created_by",
+      "to": "person/uche-okeke",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "movement/zaria-art-society",
+      "type": "originated_in",
+      "to": "place/zaria"
     },
     {
       "from": "movement/zhe-school",
@@ -920,6 +1153,12 @@
       "from": "movement/post-impressionism",
       "type": "groups",
       "to": "movement/neo-impressionism",
+      "derived": true
+    },
+    {
+      "from": "person/uche-okeke",
+      "type": "created",
+      "to": "movement/zaria-art-society",
       "derived": true
     },
     {

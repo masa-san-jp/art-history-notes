@@ -14,23 +14,23 @@ depends_on: []
 <!-- generated:coverage:start -->
 データの最新日: 2026-08-09 — `python3 tools/build_graph.py` が生成（手で書き換えない）
 
-movement **4** 件（stub 2件は不算入）／内訳 {'draft': 4, 'stub': 2, 'verified': 0}
+movement **6** 件（stub 2件は不算入）／内訳 {'draft': 6, 'stub': 2, 'verified': 0}
 
-| 文化圏 | 15C | 17C | 年代不明 | 計 |
-|---|---|---|---|---|
-| europe-west（西欧・南欧・北欧） |  |  |  | 0 |
-| europe-east（中東欧・ロシア・ビザンツ圏） |  |  |  | 0 |
-| americas-north（北米） |  |  |  | 0 |
-| mena（中東・北アフリカ） ※非西洋 |  |  |  | 0 |
-| africa-sub（サブサハラ・アフリカ） ※非西洋 |  |  |  | 0 |
-| asia-central（中央アジア・チベット・モンゴル） ※非西洋 |  |  |  | 0 |
-| asia-south（南アジア） ※非西洋 |  |  |  | 0 |
-| asia-southeast（東南アジア） ※非西洋 |  |  |  | 0 |
-| asia-east-china（中国圏） ※非西洋 | 1 |  |  | 1 |
-| asia-east-korea（朝鮮半島） ※非西洋 |  |  |  | 0 |
-| asia-east-japan（日本） ※非西洋 | 2 | 1 |  | 3 |
-| americas-latin（中南米・カリブ） ※非西洋 |  |  |  | 0 |
-| oceania（オセアニア・太平洋） ※非西洋 |  |  |  | 0 |
+| 文化圏 | 15C | 16C | 17C | 20C | 年代不明 | 計 |
+|---|---|---|---|---|---|---|
+| europe-west（西欧・南欧・北欧） |  |  |  |  |  | 0 |
+| europe-east（中東欧・ロシア・ビザンツ圏） |  |  |  |  |  | 0 |
+| americas-north（北米） |  |  |  |  |  | 0 |
+| mena（中東・北アフリカ） ※非西洋 |  |  |  |  |  | 0 |
+| africa-sub（サブサハラ・アフリカ） ※非西洋 |  |  |  | 1 |  | 1 |
+| asia-central（中央アジア・チベット・モンゴル） ※非西洋 |  |  |  |  |  | 0 |
+| asia-south（南アジア） ※非西洋 |  | 1 |  |  |  | 1 |
+| asia-southeast（東南アジア） ※非西洋 |  |  |  |  |  | 0 |
+| asia-east-china（中国圏） ※非西洋 | 1 |  |  |  |  | 1 |
+| asia-east-korea（朝鮮半島） ※非西洋 |  |  |  |  |  | 0 |
+| asia-east-japan（日本） ※非西洋 | 2 |  | 1 |  |  | 3 |
+| americas-latin（中南米・カリブ） ※非西洋 |  |  |  |  |  | 0 |
+| oceania（オセアニア・太平洋） ※非西洋 |  |  |  |  |  | 0 |
 
 **探されたが無かった語**（需要のシグナル。多い順）:
 
@@ -39,10 +39,10 @@ movement **4** 件（stub 2件は不算入）／内訳 {'draft': 4, 'stub': 2, '
 
 受け入れ条件の達成度:
 
-- movement_total: 4/100（stub 2件は不算入）
+- movement_total: 6/100（stub 2件は不算入）
 - non_west_ratio: 1.00/0.5
 - per_bucket_min: 1/13 バケットが 3件以上
-- pre_1800_ratio: 1.00/0.3
+- pre_1800_ratio: 0.83/0.3
 - isolated_ratio: 0.00（上限 0.1）
 <!-- generated:coverage:end -->
 
@@ -60,9 +60,6 @@ movement **4** 件（stub 2件は不算入）／内訳 {'draft': 4, 'stub': 2, '
 形式の検証（`build_graph.py --check`）と違って commit は止めない——次に何を調べるかの材料として出す。
 
 <!-- generated:audit:start -->
-**仮説が未検証**
-- japan-school-types.md の仮説を崩しにいく先 asia-south が空のまま（反証を試していないので仮説のまま止まっている）
-
 **辿れない先**
 - 新印象派 の grouped_as 先 ポスト印象派 が stub のまま（辿れない）
 - ジョルジュ・スーラ の taught_by 先 アンリ・レーマン が stub のまま（辿れない）
