@@ -48,8 +48,36 @@ curl -s -H "User-Agent: art-history-notes/0.1" \
 **Getty AAT**（様式・流派の典拠。非西洋も入っている）: `P1014` にあればそれを使う。無ければ
 <https://www.getty.edu/vow/AATServlet> で名前を検索して ID を拾う。
 
-**日本の対象**なら Japan Search（SPARQL 動作確認済）と Web NDL Authorities も当たる。
-→ <https://jpsearch.go.jp/> / <https://id.ndl.go.jp/>
+**Wikidata の日付は precision を見る（重要）。** `P571`（inception）の値は年に見えても、
+`precision` が世紀や10年代を指していることがある。**値だけ読むと1世紀ずれる。**
+
+| precision | 意味 | EDTF | 例 |
+|---|---|---|---|
+| 11 | 日 | `1884-05-20` | |
+| 10 | 月 | `1884-05` | |
+| 9 | 年 | `1884` | |
+| 8 | 10年代 | `188X` | +1880 / 8 → 1880年代 |
+| 7 | **世紀** | その世紀の `XX` 表記 | **+1500-00-00 / 7 は Wikidata 自身が「15. century」と描画する（＝1401–1500）ので `14XX`** |
+
+precision 7 の解釈に迷ったら、Wikidata 自身に描画させて確かめる:
+
+```bash
+python3 - <<'EOF'
+import json, urllib.parse, urllib.request
+dv = {"value":{"time":"+1500-00-00T00:00:00Z","timezone":0,"before":0,"after":0,
+      "precision":7,"calendarmodel":"http://www.wikidata.org/entity/Q1985727"},"type":"time"}
+q = urllib.parse.urlencode({"action":"wbformatvalue","format":"json","datatype":"time",
+     "generate":"text/plain","datavalue":json.dumps(dv)})
+req = urllib.request.Request("https://www.wikidata.org/w/api.php?"+q,
+     headers={"User-Agent":"art-history-notes/0.1"})
+print(json.load(urllib.request.urlopen(req, timeout=25))["result"])
+EOF
+```
+
+**日本の対象**なら Japan Search と Web NDL Authorities も当たる（→ <https://jpsearch.go.jp/> /
+<https://id.ndl.go.jp/>）。ただし **2026-08-08 時点で両方とも正しい呼び方が未確認**で、
+SPARQL パーサエラーや権限エラーになる。**取れたら足す、取れなければ深追いしない。**
+`wikidata` か `aat` のどちらかが取れていれば `none_reason` は不要。
 
 **1つも見つからないとき**: `authority.none_reason` に「何を検索して見つからなかったか」を書く。
 それでよい。空にしたまま進めると検証で落ちる。
@@ -79,6 +107,11 @@ curl -s -H "User-Agent: art-history-notes/0.1" \
 
 **「movement」という型名が対象に合わない感覚は正しい。** 狩野派は運動ではない。それでも型は1つに
 保つ（理由は `docs/schema.md`）。合わない感覚は本文に書く——それが記録として要る。
+
+**kind は Wikidata の `P31` に引っ張られずに、実体で決める。** 外部データの分類は不均質で、
+同じ性質のものに違うクラスが付いている（狩野派には `family` があるのに土佐派には無い、など・実測）。
+`P31` は判断材料の1つで、根拠にはならない。**継承の形・制度としての実体・自称の有無**を見て決め、
+その判断理由を本文の `## kind の判定` に書く。
 
 #### 関係語彙（この中から選ぶ）
 

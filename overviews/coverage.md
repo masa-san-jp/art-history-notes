@@ -14,9 +14,9 @@ depends_on: []
 <!-- generated:coverage:start -->
 生成: 2026-08-08 — `python3 tools/build_graph.py`（手で書き換えない）
 
-movement 合計 **4** 件
+movement 合計 **5** 件
 
-| 文化圏 | 16C | 17C | 年代不明 | 計 |
+| 文化圏 | 15C | 17C | 年代不明 | 計 |
 |---|---|---|---|---|
 | europe-west（西欧・南欧・北欧） |  |  | 1 | 1 |
 | europe-east（中東欧・ロシア・ビザンツ圏） |  |  |  | 0 |
@@ -28,17 +28,17 @@ movement 合計 **4** 件
 | asia-southeast（東南アジア） ※非西洋 |  |  |  | 0 |
 | asia-east-china（中国圏） ※非西洋 |  |  |  | 0 |
 | asia-east-korea（朝鮮半島） ※非西洋 |  |  |  | 0 |
-| asia-east-japan（日本） ※非西洋 | 1 | 1 |  | 2 |
+| asia-east-japan（日本） ※非西洋 | 2 | 1 |  | 3 |
 | americas-latin（中南米・カリブ） ※非西洋 |  |  |  | 0 |
 | oceania（オセアニア・太平洋） ※非西洋 |  |  |  | 0 |
 | **発生地未確認** |  |  | 1 | 1 |
 
 受け入れ条件の達成度:
 
-- movement_total: 4/100
-- non_west_ratio: 0.50/0.5
-- per_bucket_min: 0/13 バケットが 3件以上
-- pre_1800_ratio: 0.50/0.3
+- movement_total: 5/100
+- non_west_ratio: 0.60/0.5
+- per_bucket_min: 1/13 バケットが 3件以上
+- pre_1800_ratio: 0.60/0.3
 - isolated_ratio: 0.00（上限 0.1）
 <!-- generated:coverage:end -->
 

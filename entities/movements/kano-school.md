@@ -12,9 +12,9 @@ authority:
   jpsearch: null
   none_reason: null
 time:
-  start: "1500~"
+  start: "14XX"
   end: "1868~"
-  display: 15世紀末〜明治維新（Wikidata の inception は1500年、解体は明治期とされる）
+  display: 15世紀（室町後期）〜明治維新。Wikidata の inception は +1500-00-00 / precision 7 ＝「15. century」（1401–1500）で、年ではなく世紀の主張
 naming:
   self_identified: true
   named_by: null
@@ -60,8 +60,10 @@ updated: 2026-08-08
 
 ## 時間
 
-- Wikidata の inception は **1500年**。ただし精度は不明（世紀レベルの丸めの可能性がある）ので
-  EDTF では `1500~`（およそ）として持つ。
+- Wikidata の inception は **+1500-00-00 / precision 7**。これは「1500年」ではなく**世紀の主張**で、
+  Wikidata 自身の描画は「15. century」（＝1401–1500）。だから EDTF は `14XX`。
+  英語記述の "late 15th century" とも一致する。当初 `1500~`（およそ1500年）と書いていたのは
+  precision を見ていなかったための誤り（2026-08-08 に土佐派を調べた際に発覚し、訂正）。
 - 終期は明治期の解体。`1868~` として持つ。**未確認**: 「いつ終わったか」は解体の定義次第で、
   一次資料に当たっていない。
 

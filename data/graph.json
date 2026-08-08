@@ -54,9 +54,9 @@
         "none_reason": null
       },
       "time": {
-        "start": "1500~",
+        "start": "14XX",
         "end": "1868~",
-        "display": "15世紀末〜明治維新（Wikidata の inception は1500年、解体は明治期とされる）"
+        "display": "15世紀（室町後期）〜明治維新。Wikidata の inception は +1500-00-00 / precision 7 ＝「15. century」（1401–1500）で、年ではなく世紀の主張"
       },
       "naming": {
         "self_identified": true,
@@ -233,6 +233,55 @@
       "status": "draft",
       "updated": "2026-08-08",
       "path": "entities/movements/rinpa.md"
+    },
+    "movement/tosa-school": {
+      "id": "movement/tosa-school",
+      "uri": "urn:ahn:movement/tosa-school",
+      "type": "movement",
+      "kind": "lineage-school",
+      "label_ja": "土佐派",
+      "label_en": "Tosa school",
+      "authority": {
+        "wikidata": "Q2915215",
+        "aat": "300018660",
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": "14XX",
+        "end": null,
+        "display": "15世紀（室町期）に成立。Wikidata の inception は +1500-00-00 / precision 7 で、Wikidata 自身は「15. century」と描画する（＝1401–1500）ため EDTF は 14XX"
+      },
+      "naming": {
+        "self_identified": true,
+        "named_by": null,
+        "named_when": null,
+        "original_label": "土佐派",
+        "note": "家名（土佐氏）がそのまま呼称になっており、狩野派と同様に命名という行為が存在しない型"
+      },
+      "claims": [
+        {
+          "field": "kind",
+          "source": "https://www.wikidata.org/wiki/Q2915215",
+          "certainty": "scholarly"
+        }
+      ],
+      "space": [
+        {
+          "role": "originated_in",
+          "target": "place/kyoto"
+        }
+      ],
+      "relations": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q2915215",
+        "https://www.getty.edu/research/tools/vocabularies/aat/",
+        "https://en.wikipedia.org/wiki/Tosa_school"
+      ],
+      "status": "draft",
+      "updated": "2026-08-08",
+      "path": "entities/movements/tosa-school.md"
     },
     "org/art-institute-of-chicago": {
       "id": "org/art-institute-of-chicago",
@@ -577,6 +626,11 @@
     },
     {
       "from": "movement/rinpa",
+      "type": "originated_in",
+      "to": "place/kyoto"
+    },
+    {
+      "from": "movement/tosa-school",
       "type": "originated_in",
       "to": "place/kyoto"
     },
