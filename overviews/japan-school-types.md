@@ -38,6 +38,10 @@ tested:
   - {region: asia-southeast, by: movement/thirteen-moderns, result: revised}
   - {region: oceania, by: movement/iatmul-carving, result: held}
   - {region: asia-east-korea, by: movement/goryeo-buddhist-painting, result: held}
+  - {region: europe-west, by: movement/barbizon-school, result: revised}
+  - {region: americas-north, by: movement/abstract-expressionism, result: revised}
+  - {region: europe-west, by: movement/impressionism, result: held}
+  - {region: europe-east, by: movement/suprematism, result: held}
 tests_regions:            # ここが埋まるまで仮説は仮説のまま（tools/audit.py が指す）
   - asia-east-china
   - asia-east-korea
@@ -108,6 +112,10 @@ tests_regions:            # ここが埋まるまで仮説は仮説のまま（t
 | 東南アジア（3件目） | [Thirteen Moderns](../entities/movements/thirteen-moderns.md) | **自称の核と、名が数える集合の人数が違う** |
 | オセアニア（3件目） | [イアトムルの彫刻](../entities/movements/iatmul-carving.md) | 崩れなかった。**名前が二重に外部由来** |
 | 朝鮮半島（movement 3件目） | [高麗仏画](../entities/movements/goryeo-buddhist-painting.md) | 崩れなかった。**線は画記に残る発願者の記録** |
+| 西欧（3件目） | [バルビゾン派](../entities/movements/barbizon-school.md) | 崩れなかった。**地名由来に8型目（滞在制作地）** |
+| 北米（2件目） | [抽象表現主義](../entities/movements/abstract-expressionism.md) | **名の拒否が2件目になり、項目にした** |
+| 西欧（4件目） | [印象派](../entities/movements/impressionism.md) | 崩れなかった。**命名の記事に転記版で到達** |
+| 東欧・ロシア（2件目） | [シュプレマティスム](../entities/movements/suprematism.md) | 崩れなかった。**自称の一次資料に到達** |
 
 浙派は血縁なし・師弟希薄・官職はあるが世襲でない（各世代が個別に画院へ出入りするだけ）。
 制度としての実体が無く、括りは後世の美術史記述（董其昌『画禅室随筆』）から来ている。
@@ -139,9 +147,13 @@ tests_regions:            # ここが埋まるまで仮説は仮説のまま（t
 | 中心が周辺を呼ぶ名 | 嶺南画派 | 北方（政治・文化の中心）が広東を指す慣用の広域地名。当事者の固有名ではない |
 | （地名ではない）身分・血統の名 | ラージプト絵画 | サンスクリット rājaputra（王の子）＝身分の名。地名由来の型に入らない |
 | 研究者が局所語を一般化した名 | イアトムルの彫刻 | 河口の局所語「Sipik」を民族学者が流域全体に広げた。「イアトムル」も一氏族の名を総称に転用 |
+| 滞在制作地 | バルビゾン派 | 画家が実際に移り住んで描いた村。機関は無い（形成地型と違う）／拠点そのもの（画題の地型と違う） |
 
-まだ残っている問い: 何が「人名から取る」と「地名から取る」を分けるのか。バルビゾン派（制作地の村の名）で
-5型目が出る可能性がある。
+**バルビゾン派で8型目（滞在制作地）が出た。** 予測どおり型が増えた。担い手の出自でもなく、
+拠点から離れた画題の地でもなく（ハドソン・リバー派は拠点がニューヨークで画題だけが離れていた）、
+機関の形成地でもない（学校も協会も無い）。**画家が実際に移り住んで描いた村**という形。
+
+まだ残っている問い: 何が「人名から取る」と「地名から取る」を分けるのか。
 
 ### 朝鮮の図画署 — 「制度」を3つに割る必要が出た
 

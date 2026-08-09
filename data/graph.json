@@ -95,6 +95,78 @@
       "updated": "2026-08-09",
       "path": "entities/concepts/minhwa.md"
     },
+    "movement/abstract-expressionism": {
+      "id": "movement/abstract-expressionism",
+      "uri": "urn:ahn:movement/abstract-expressionism",
+      "type": "movement",
+      "label_ja": "抽象表現主義",
+      "label_en": "Abstract Expressionism",
+      "authority": {
+        "wikidata": "Q177725",
+        "aat": "300022099",
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": "194X",
+        "end": "195X",
+        "display": "1940年代〜1950年代。Getty AAT の scope note が明示する範囲（flourished in the 1940s and 1950s）。出典間で範囲の取り方が割れる（本文参照）"
+      },
+      "kind": "retrospective",
+      "naming": {
+        "self_identified": false,
+        "named_by": "person/robert-coates",
+        "named_when": "1946",
+        "rejected_by": [
+          "マーク・ロスコ（「私は抽象画家ではない」と明言）",
+          "ロバート・マザウェル（「ニューヨーク・スクール」を使用・1949年）",
+          "ハロルド・ローゼンバーグ（「アクション・ペインティング」を使用・1952年）"
+        ],
+        "original_label": "Abstract Expressionism",
+        "note": "英語版Wikipediaによれば、この語自体はコーツの造語ではなく、ドイツで1919年に雑誌『Der Sturm』がドイツ表現主義を指して用いたのが最初とされ、1929年にはアルフレッド・バーがカンディンスキーの作品評で用いたとする。米国の戦後絵画に対して用いた最初期の例が、批評家ロバート・コーツ（person/robert-coates）による1946年『ニューヨーカー』誌のハンス・ホフマン評だとされる。当事者側は別の呼称を持っていた——参加画家ロバート・マザウェルは1949年に「ニューヨーク・スクール」という語を使い、批評家ハロルド・ローゼンバーグは1952年に「アクション・ペインティング」という語を作った。いずれも「abstract expressionism」そのものではなく、当事者がこの名で自らを呼んだ形跡は確認できていない"
+      },
+      "claims": [
+        {
+          "field": "time",
+          "source": "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300022099",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "originated_in",
+          "source": "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300022099",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "kind",
+          "source": "https://en.wikipedia.org/wiki/Abstract_expressionism",
+          "certainty": "scholarly"
+        }
+      ],
+      "space": [
+        {
+          "role": "originated_in",
+          "target": "place/new-york-city"
+        }
+      ],
+      "relations": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q177725",
+        "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300022099",
+        "https://en.wikipedia.org/wiki/Abstract_expressionism",
+        "https://en.wikipedia.org/wiki/Robert_Coates_(critic)",
+        "https://www.tate.org.uk/art/art-terms/a/abstract-expressionism",
+        "https://www.theartstory.org/movement/abstract-expressionism/",
+        "https://www.artforum.com/features/abstract-expressionism-weapon-of-the-cold-war-214234/",
+        "https://en.wikipedia.org/wiki/Congress_for_Cultural_Freedom",
+        "https://www.tate.org.uk/research/publications/modern-american-art-at-tate/essays/new-american-painting",
+        "https://www.moma.org/calendar/exhibitions/1990",
+        "https://www.uapress.ua.edu/9780817352585/advancing-american-art/"
+      ],
+      "status": "draft",
+      "updated": "2026-08-09",
+      "path": "entities/movements/abstract-expressionism.md"
+    },
     "movement/antropofagia": {
       "id": "movement/antropofagia",
       "uri": "urn:ahn:movement/antropofagia",
@@ -240,6 +312,90 @@
       "status": "draft",
       "updated": "2026-08-09",
       "path": "entities/movements/baghdad-modern-art-group.md"
+    },
+    "movement/barbizon-school": {
+      "id": "movement/barbizon-school",
+      "uri": "urn:ahn:movement/barbizon-school",
+      "type": "movement",
+      "label_ja": "バルビゾン派",
+      "label_en": "Barbizon school",
+      "authority": {
+        "wikidata": "Q143357",
+        "aat": "300264658",
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": "1830~",
+        "end": "1875~",
+        "display": "始点・終点とも論者によって数年動く。フランス語版Wikipediaは1825〜1875年、英語版Wikipedia・TheArtStoryは1830〜1870年とする。Getty AATはルソーがフォンテーヌブロー地方に移った1841年と、ミレーの死（1875年）による人気の陰りを具体的な出来事として挙げる"
+      },
+      "kind": "retrospective",
+      "naming": {
+        "self_identified": false,
+        "named_by": null,
+        "named_when": "1891",
+        "original_label": "école de Barbizon",
+        "note": "フランス語版Wikipediaは、英国の美術評論家デイヴィッド・クロアル・トムソン（David Croal Thomson, 1855-1930）が1891年に「école de Barbizon」の呼称を作ったとし、画家たちが自ら何らかの派を名乗ったことは一度もないと明記する（\"de manière artificielle puisque jamais ces peintres ne se revendiquèrent d'une quelconque école\"）。ウェブ検索で得た複数の二次的要約も同じ人物・年を挙げるが、トムソン自身の著作（1890年または1891年刊 The Barbizon School of Painters）の実物には今回到達できておらず、named_byをnullにしたのはこの不確定さのため"
+      },
+      "claims": [
+        {
+          "field": "time",
+          "source": "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300264658",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "originated_in",
+          "source": "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300264658",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "kind",
+          "source": "https://fr.wikipedia.org/wiki/%C3%89cole_de_Barbizon",
+          "certainty": "scholarly"
+        }
+      ],
+      "space": [
+        {
+          "role": "originated_in",
+          "target": "place/barbizon"
+        }
+      ],
+      "relations": [],
+      "images": [
+        {
+          "url": "https://www.artic.edu/iiif/2/6d981a44-bb4a-e577-387d-16fc581b1304/full/843,/0/default.jpg",
+          "source_page": "https://www.artic.edu/artworks/27873",
+          "license": "cc0",
+          "note": "テオドール・ルソー《フォンテーヌブローの森にて（In the Forest of Fontainbleau）》c. 1850年。シカゴ美術館蔵（is_public_domain: true）"
+        },
+        {
+          "url": "https://www.artic.edu/iiif/2/7b0ea6ca-9424-050e-7e0e-3b67d2289480/full/843,/0/default.jpg",
+          "source_page": "https://www.artic.edu/artworks/111648",
+          "license": "cc0",
+          "note": "ジャン＝フランソワ・ミレー《野で生まれた子牛を運ぶ農民たち（Peasants Bringing Home a Calf Born in the Fields）》1864年。シカゴ美術館蔵（is_public_domain: true）"
+        },
+        {
+          "url": "https://www.artic.edu/iiif/2/44c6f2f1-90fc-f386-734b-fbb9427b6ff3/full/843,/0/default.jpg",
+          "source_page": "https://www.artic.edu/artworks/95993",
+          "license": "cc0",
+          "note": "ナルシス・ヴィルジル・ディアズ・ド・ラ・ペーニャ《森の中の池（Pond in the Woods）》。シカゴ美術館蔵（is_public_domain: true）"
+        }
+      ],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q143357",
+        "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300264658",
+        "https://en.wikipedia.org/wiki/Barbizon_school",
+        "https://fr.wikipedia.org/wiki/%C3%89cole_de_Barbizon",
+        "https://www.theartstory.org/movement/barbizon-school/",
+        "https://www.artic.edu/artworks/27873",
+        "https://www.artic.edu/artworks/111648",
+        "https://www.artic.edu/artworks/95993"
+      ],
+      "status": "draft",
+      "updated": "2026-08-09",
+      "path": "entities/movements/barbizon-school.md"
     },
     "movement/bengal-school": {
       "id": "movement/bengal-school",
@@ -408,6 +564,10 @@
         "self_identified": false,
         "named_by": null,
         "named_when": "2000",
+        "rejected_by": [
+          "李康昭（2016年に分類を拒否）",
+          "崔秉昭（同）"
+        ],
         "original_label": "단색화",
         "note": "英語版・韓国語版Wikipedia、MMCA Research(mmcaresearch.kr)の3出典が独立に、批評家・キュレーターの尹晋燮(Yoon Jin Sup)が2000年の光州ビエンナーレ特別展（英語題 A Facet of Modern Korean and Japanese Art、韓国語題は「한일 현대미술의 단면」）のカタログで英語転写「Dansaekhwa」を使い始めたと一致して述べる。named_byをnullにしたのは、docs/schema.mdのperson作成基準（kind/time/originated_inの根拠になる／2つ以上のmovementを繋ぐ／作品を分解して読んだ）のいずれにも尹晋燮個人が単独で当たらないため、本文で名指しするに留めた経緯"
       },
@@ -805,6 +965,102 @@
       "status": "draft",
       "updated": "2026-08-09",
       "path": "entities/movements/iatmul-carving.md"
+    },
+    "movement/impressionism": {
+      "id": "movement/impressionism",
+      "uri": "urn:ahn:movement/impressionism",
+      "type": "movement",
+      "kind": "retrospective",
+      "label_ja": "印象派",
+      "label_en": "Impressionism",
+      "authority": {
+        "wikidata": "Q40415",
+        "aat": "300021503",
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": "1874",
+        "end": "1886",
+        "display": "1874年（第1回展）〜1886年（第8回展）。8回にわたる合同展の期間"
+      },
+      "naming": {
+        "self_identified": true,
+        "named_by": "person/louis-leroy",
+        "named_when": "1874-04-25",
+        "original_label": "Société anonyme des artistes peintres, sculpteurs et graveurs",
+        "note": "命名（外部・1874年）と当事者の呼称（自称）は別の事実。第1回展を主催した団体が自ら選んだ名は「画家・彫刻家・版画家等の匿名協会」で、様式や綱領を掲げる名ではない（org/societe-anonyme-artistes 参照）。「impressionniste」の語は、批評家ルイ・ルロワが1874年4月25日『ル・シャリヴァリ』紙に書いた記事で、モネの出品作《Impression, soleil levant（印象、日の出）》の題名をもじって揶揄として作った。当事者側の引き受けは後から来た——モネ自身が1880年6月、雑誌『La Vie moderne』のエミール・タブローによるインタビューで『Je suis toujours et je veux toujours être impressionniste（私はいつも印象派であったし、これからもそうありたい）』と述べている（二次文献での引用を確認、原記事本文は未確認）。self_identified: true と kind: retrospective はここでも矛盾しない——命名者は当事者ではなく批評家だが、当事者は後にその名を自分のものとして使った"
+      },
+      "claims": [
+        {
+          "field": "time",
+          "source": "https://en.wikipedia.org/wiki/First_Impressionist_Exhibition",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "time",
+          "source": "https://digistore.bib.ulb.ac.be/2008/DL2864764_1886_f.pdf",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "originated_in",
+          "source": "https://www.wikidata.org/wiki/Q3487659",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "kind",
+          "source": "https://www.france-memoire.fr/wp-content/uploads/2022/07/charivari_documentv2.pdf",
+          "certainty": "scholarly"
+        }
+      ],
+      "space": [
+        {
+          "role": "originated_in",
+          "target": "place/paris"
+        }
+      ],
+      "relations": [
+        {
+          "type": "precedes",
+          "target": "movement/neo-impressionism"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "org/societe-anonyme-artistes"
+        }
+      ],
+      "images": [
+        {
+          "url": "https://openaccess-cdn.clevelandart.org/1950.89/1950.89_web.jpg",
+          "source_page": "https://www.clevelandart.org/art/1950.89",
+          "license": "cc0",
+          "note": "ベルト・モリゾ《読書（La Lecture）》1873年、クリーブランド美術館蔵。ルロワが1874年の記事で名指しして揶揄した作品そのもの——同館の展示歴が「Première Exposition. Société Anonyme...(1874)」への出品を記録している"
+        },
+        {
+          "url": "https://www.artic.edu/iiif/2/0f1cc0e0-e42e-be16-3f71-2022da38cb93/full/843,/0/default.jpg",
+          "source_page": "https://www.artic.edu/artworks/16571",
+          "license": "public-domain",
+          "note": "クロード・モネ《サン゠ラザール駅、ノルマンディー列車の到着》1877年、シカゴ美術館蔵。第3回展（1877年）出品作（同館の publication history が catalogue番号97として記録）"
+        }
+      ],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q40415",
+        "https://www.wikidata.org/wiki/Q3487659",
+        "https://www.wikidata.org/wiki/Q50659",
+        "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300021503",
+        "https://gallica.bnf.fr/ark:/12148/bpt6k30708891/f2.item",
+        "https://www.france-memoire.fr/wp-content/uploads/2022/07/charivari_documentv2.pdf",
+        "https://en.wikipedia.org/wiki/First_Impressionist_Exhibition",
+        "https://en.wikipedia.org/wiki/Impressionism",
+        "https://www.clevelandart.org/art/1950.89",
+        "https://www.artic.edu/artworks/16571",
+        "https://api.artic.edu/api/v1/artworks/16571",
+        "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300021505"
+      ],
+      "status": "verified",
+      "updated": "2026-08-09",
+      "path": "entities/movements/impressionism.md"
     },
     "movement/indochina-lacquer-painting": {
       "id": "movement/indochina-lacquer-painting",
@@ -1942,6 +2198,92 @@
       "updated": "2026-08-09",
       "path": "entities/movements/safavid-painting.md"
     },
+    "movement/suprematism": {
+      "id": "movement/suprematism",
+      "uri": "urn:ahn:movement/suprematism",
+      "type": "movement",
+      "label_ja": "シュプレマティスム",
+      "label_en": "Suprematism",
+      "authority": {
+        "wikidata": "Q191970",
+        "aat": "300021405",
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": "1915-12",
+        "end": "1926-12",
+        "display": "1915年6月（小冊子本文の脱稿）〜同年12月19日（『0,10』展初日・小冊子頒布）〜1926年12月（マレーヴィチが率いたГИНХУК〈国立芸術文化研究所〉閉鎖）"
+      },
+      "kind": "self-declared",
+      "naming": {
+        "self_identified": true,
+        "named_by": null,
+        "named_when": null,
+        "original_label": "Супрематизм",
+        "note": "自称の核は一次資料（マレーヴィチ自身の小冊子）で直接確認できる。小冊子末尾は「К.Малевич／Июнь, 1915 г.（1915年6月）」と日付・署名があり、本文は『Считая Кубофутуризм выполнившим свои задания — я перехожу к Супрематизму — к новому живописному реализму, беспредметному творчеству.（キュボフュチュリズムはその任務を果たし終えたと見なし、私はシュプレマティスムへ——新しい絵画的リアリズムへ、非対象的創造へ移る。）』と自らその名を宣言する（[velikanov.ru収録のスキャン再録PDF](https://velikanov.ru/lib/%D0%9C%D0%B0%D0%BB%D0%B5%D0%B2%D0%B8%D1%87.%20%D0%9E%D1%82%20%D0%BA%D1%83%D0%B1%D0%B8%D0%B7%D0%BC%D0%B0%20%D0%BA%20%D1%81%D1%83%D0%BF%D1%80%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%B7%D0%BC%D1%83.pdf)、原本の書誌情報はロシア国立プレジデンシャル・ライブラリの目録記述（下記sources）で確認）。語自体はラテン語 supremus（最高の）に由来し、小冊子本文では『к господству чисто самодельных живописных форм над разумными, к Супрематизму（純粋に自製された絵画的形態が理性的なものに対して持つ господство〈支配・至高性〉へ、シュプレマティスムへ）』という文で導入される。後年マレーヴィチは『Die gegenstandslose Wеlt（1927年、バウハウス叢書）』英訳版で『By 'Suprematism' I mean the supremacy of pure feeling in creative art.（シュプレマティスムとは、創造芸術における純粋な感覚の至高性を意味する）』とより定式化した言い方で再説明しているが、これは1915年の宣言そのものではなく後年の再定式化である。命名者は無く（named_by は null）、名乗ったのはマレーヴィチ本人のみ"
+      },
+      "claims": [
+        {
+          "field": "kind",
+          "source": "https://velikanov.ru/lib/%D0%9C%D0%B0%D0%BB%D0%B5%D0%B2%D0%B8%D1%87.%20%D0%9E%D1%82%20%D0%BA%D1%83%D0%B1%D0%B8%D0%B7%D0%BC%D0%B0%20%D0%BA%20%D1%81%D1%83%D0%BF%D1%80%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%B7%D0%BC%D1%83.pdf",
+          "certainty": "attested"
+        },
+        {
+          "field": "time",
+          "source": "https://en.wikipedia.org/wiki/0,10_Exhibition",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "originated_in",
+          "source": "https://en.wikipedia.org/wiki/0,10_Exhibition",
+          "certainty": "scholarly"
+        }
+      ],
+      "space": [
+        {
+          "role": "originated_in",
+          "target": "place/saint-petersburg"
+        }
+      ],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/kazimir-malevich"
+        }
+      ],
+      "images": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/5/53/Suprematism_by_Malevich_%281915%2C_GRM%29.jpg",
+          "source_page": "https://commons.wikimedia.org/wiki/File:Suprematism_by_Malevich_(1915,_GRM).jpg",
+          "license": "public-domain",
+          "note": "マレーヴィチ《シュプレマティスム（婦人像——4次元と2次元における色彩の塊）》1915年、油彩、ロシア美術館（サンクトペテルブルク）蔵。Wikimedia Commonsが「最後の未来派絵画展『0,10』への出品作」に分類（作者の没年1935年により著作権保護期間満了、PD-old-auto-expired）"
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/d/d0/Suprematism_%28Malevich%2C_1915%29.jpg",
+          "source_page": "https://commons.wikimedia.org/wiki/File:Suprematism_(Malevich,_1915).jpg",
+          "license": "pdm",
+          "note": "マレーヴィチ《シュプレマティスム的構成》1915年、油彩、ルートヴィヒ美術館（ケルン）蔵。同じくWikimedia Commonsが「0,10展出品作」に分類。Commonsの権利表示は著作権保護期間満了（1931年以前の発表につきアメリカ合衆国内でも公有）とCreative Commons Public Domain Mark 1.0の両方を根拠に挙げる"
+        }
+      ],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q191970",
+        "https://velikanov.ru/lib/%D0%9C%D0%B0%D0%BB%D0%B5%D0%B2%D0%B8%D1%87.%20%D0%9E%D1%82%20%D0%BA%D1%83%D0%B1%D0%B8%D0%B7%D0%BC%D0%B0%20%D0%BA%20%D1%81%D1%83%D0%BF%D1%80%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%B7%D0%BC%D1%83.pdf",
+        "https://www.prlib.ru/item/335766",
+        "https://en.wikipedia.org/wiki/0,10_Exhibition",
+        "https://ru.wikipedia.org/wiki/%D0%9F%D0%BE%D1%81%D0%BB%D0%B5%D0%B4%D0%BD%D1%8F%D1%8F_%D1%84%D1%83%D1%82%D1%83%D1%80%D0%B8%D1%81%D1%82%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B0%D1%8F_%D0%B2%D1%8B%D1%81%D1%82%D0%B0%D0%B2%D0%BA%D0%B0_%D0%BA%D0%B0%D1%80%D1%82%D0%B8%D0%BD_%C2%AB0,10%C2%BB",
+        "https://en.wikipedia.org/wiki/UNOVIS",
+        "https://ru.wikipedia.org/wiki/%D0%A3%D0%9D%D0%9E%D0%92%D0%98%D0%A1",
+        "https://en.wikipedia.org/wiki/Suprematism",
+        "https://www.theartstory.org/movement/suprematism/",
+        "https://malevichsociety.org/malevich-biography-a-brief-history/",
+        "https://malevichsociety.org/writings-by-malevich/"
+      ],
+      "status": "draft",
+      "updated": "2026-08-09",
+      "path": "entities/movements/suprematism.md"
+    },
     "movement/thirteen-moderns": {
       "id": "movement/thirteen-moderns",
       "uri": "urn:ahn:movement/thirteen-moderns",
@@ -2433,6 +2775,40 @@
       "updated": "2026-08-09",
       "path": "entities/orgs/igun-eronmwon.md"
     },
+    "org/societe-anonyme-artistes": {
+      "id": "org/societe-anonyme-artistes",
+      "uri": "urn:ahn:org/societe-anonyme-artistes",
+      "type": "org",
+      "label_ja": "画家・彫刻家・版画家等の匿名協会",
+      "label_en": "Société anonyme des artistes peintres, sculpteurs et graveurs",
+      "authority": {
+        "wikidata": "Q3487659",
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": "1873-12-27",
+        "end": null,
+        "display": "1873年12月27日設立。解散時期は未確認"
+      },
+      "space": [
+        {
+          "role": "sited_in",
+          "target": "place/paris"
+        }
+      ],
+      "relations": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q3487659",
+        "https://en.wikipedia.org/wiki/First_Impressionist_Exhibition",
+        "https://www.clevelandart.org/art/1950.89"
+      ],
+      "status": "stub",
+      "updated": "2026-08-09",
+      "path": "entities/orgs/societe-anonyme-artistes.md"
+    },
     "person/abanindranath-tagore": {
       "id": "person/abanindranath-tagore",
       "uri": "urn:ahn:person/abanindranath-tagore",
@@ -2658,6 +3034,68 @@
       "updated": "2026-08-08",
       "path": "entities/persons/henri-lehmann.md"
     },
+    "person/kazimir-malevich": {
+      "id": "person/kazimir-malevich",
+      "uri": "urn:ahn:person/kazimir-malevich",
+      "type": "person",
+      "label_ja": "カジミール・マレーヴィチ",
+      "label_en": "Kazimir Malevich",
+      "authority": {
+        "wikidata": "Q130777",
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": "1879-02-23",
+        "end": "1935-05-15",
+        "display": "1878年または1879年（資料間で不一致）〜1935年5月15日"
+      },
+      "space": [
+        {
+          "role": "died_in",
+          "target": "place/saint-petersburg"
+        }
+      ],
+      "relations": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q130777",
+        "https://velikanov.ru/lib/%D0%9C%D0%B0%D0%BB%D0%B5%D0%B2%D0%B8%D1%87.%20%D0%9E%D1%82%20%D0%BA%D1%83%D0%B1%D0%B8%D0%B7%D0%BC%D0%B0%20%D0%BA%20%D1%81%D1%83%D0%BF%D1%80%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%B7%D0%BC%D1%83.pdf"
+      ],
+      "status": "stub",
+      "updated": "2026-08-09",
+      "path": "entities/persons/kazimir-malevich.md"
+    },
+    "person/louis-leroy": {
+      "id": "person/louis-leroy",
+      "uri": "urn:ahn:person/louis-leroy",
+      "type": "person",
+      "label_ja": "ルイ・ルロワ",
+      "label_en": "Louis Leroy",
+      "authority": {
+        "wikidata": "Q50659",
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": "1812-07-11",
+        "end": "1885-07-30",
+        "display": null
+      },
+      "space": [],
+      "relations": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q50659",
+        "https://www.france-memoire.fr/wp-content/uploads/2022/07/charivari_documentv2.pdf",
+        "https://gallica.bnf.fr/ark:/12148/bpt6k30708891/f2.item"
+      ],
+      "status": "stub",
+      "updated": "2026-08-09",
+      "path": "entities/persons/louis-leroy.md"
+    },
     "person/nguyen-gia-tri": {
       "id": "person/nguyen-gia-tri",
       "uri": "urn:ahn:person/nguyen-gia-tri",
@@ -2714,6 +3152,35 @@
       "status": "stub",
       "updated": "2026-08-09",
       "path": "entities/persons/oswald-de-andrade.md"
+    },
+    "person/robert-coates": {
+      "id": "person/robert-coates",
+      "uri": "urn:ahn:person/robert-coates",
+      "type": "person",
+      "label_ja": "ロバート・コーツ",
+      "label_en": "Robert M. Coates",
+      "authority": {
+        "wikidata": "Q9069789",
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": "1897-04-06",
+        "end": "1973-02-08",
+        "display": null
+      },
+      "space": [],
+      "relations": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q9069789",
+        "https://en.wikipedia.org/wiki/Robert_Coates_(critic)",
+        "https://en.wikipedia.org/wiki/Abstract_expressionism"
+      ],
+      "status": "stub",
+      "updated": "2026-08-09",
+      "path": "entities/persons/robert-coates.md"
     },
     "person/rudolf-bonnet": {
       "id": "person/rudolf-bonnet",
@@ -2920,6 +3387,38 @@
       "status": "stub",
       "updated": "2026-08-09",
       "path": "entities/places/baghdad.md"
+    },
+    "place/barbizon": {
+      "id": "place/barbizon",
+      "uri": "urn:ahn:place/barbizon",
+      "type": "place",
+      "label_ja": "バルビゾン",
+      "label_en": "Barbizon",
+      "authority": {
+        "wikidata": "Q256175",
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": null,
+        "end": null,
+        "display": null
+      },
+      "region": "europe-west",
+      "coordinates": [
+        48.445833,
+        2.605
+      ],
+      "space": [],
+      "relations": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q256175"
+      ],
+      "status": "stub",
+      "updated": "2026-08-09",
+      "path": "entities/places/barbizon.md"
     },
     "place/benin-city": {
       "id": "place/benin-city",
@@ -4115,6 +4614,11 @@
       "to": "place/paris"
     },
     {
+      "from": "movement/abstract-expressionism",
+      "type": "originated_in",
+      "to": "place/new-york-city"
+    },
+    {
       "from": "movement/antropofagia",
       "type": "created_by",
       "to": "person/oswald-de-andrade",
@@ -4137,6 +4641,11 @@
       "from": "movement/baghdad-modern-art-group",
       "type": "originated_in",
       "to": "place/baghdad"
+    },
+    {
+      "from": "movement/barbizon-school",
+      "type": "originated_in",
+      "to": "place/barbizon"
     },
     {
       "from": "movement/bengal-school",
@@ -4212,6 +4721,25 @@
       "from": "movement/iatmul-carving",
       "type": "originated_in",
       "to": "place/sepik"
+    },
+    {
+      "from": "movement/impressionism",
+      "type": "precedes",
+      "to": "movement/neo-impressionism",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "movement/impressionism",
+      "type": "exhibited_at",
+      "to": "org/societe-anonyme-artistes",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "movement/impressionism",
+      "type": "originated_in",
+      "to": "place/paris"
     },
     {
       "from": "movement/indochina-lacquer-painting",
@@ -4384,6 +4912,18 @@
       "to": "place/isfahan"
     },
     {
+      "from": "movement/suprematism",
+      "type": "created_by",
+      "to": "person/kazimir-malevich",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "movement/suprematism",
+      "type": "originated_in",
+      "to": "place/saint-petersburg"
+    },
+    {
       "from": "movement/thirteen-moderns",
       "type": "created_by",
       "to": "person/victorio-edades",
@@ -4448,6 +4988,11 @@
       "to": "place/benin-city"
     },
     {
+      "from": "org/societe-anonyme-artistes",
+      "type": "sited_in",
+      "to": "place/paris"
+    },
+    {
       "from": "person/georges-seurat",
       "type": "belongs_to",
       "to": "movement/neo-impressionism",
@@ -4480,6 +5025,11 @@
       "from": "person/henri-lehmann",
       "type": "active_in",
       "to": "place/paris"
+    },
+    {
+      "from": "person/kazimir-malevich",
+      "type": "died_in",
+      "to": "place/saint-petersburg"
     },
     {
       "from": "source/seurat-letter-beaubourg-1890",
@@ -4568,6 +5118,18 @@
       "derived": true
     },
     {
+      "from": "movement/neo-impressionism",
+      "type": "follows",
+      "to": "movement/impressionism",
+      "derived": true
+    },
+    {
+      "from": "org/societe-anonyme-artistes",
+      "type": "exhibited",
+      "to": "movement/impressionism",
+      "derived": true
+    },
+    {
       "from": "person/victor-tardieu",
       "type": "created",
       "to": "movement/indochina-lacquer-painting",
@@ -4625,6 +5187,12 @@
       "from": "movement/herat-school",
       "type": "influenced",
       "to": "movement/safavid-painting",
+      "derived": true
+    },
+    {
+      "from": "person/kazimir-malevich",
+      "type": "created",
+      "to": "movement/suprematism",
       "derived": true
     },
     {

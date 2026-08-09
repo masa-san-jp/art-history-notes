@@ -19,6 +19,7 @@ naming:
   self_identified: false
   named_by: null
   named_when: "2000"
+  rejected_by: ["李康昭（2016年に分類を拒否）", "崔秉昭（同）"]
   original_label: "단색화"
   note: "英語版・韓国語版Wikipedia、MMCA Research(mmcaresearch.kr)の3出典が独立に、批評家・キュレーターの尹晋燮(Yoon Jin Sup)が2000年の光州ビエンナーレ特別展（英語題 A Facet of Modern Korean and Japanese Art、韓国語題は「한일 현대미술의 단면」）のカタログで英語転写「Dansaekhwa」を使い始めたと一致して述べる。named_byをnullにしたのは、docs/schema.mdのperson作成基準（kind/time/originated_inの根拠になる／2つ以上のmovementを繋ぐ／作品を分解して読んだ）のいずれにも尹晋燮個人が単独で当たらないため、本文で名指しするに留めた経緯"
 claims:

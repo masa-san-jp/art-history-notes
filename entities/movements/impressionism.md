@@ -1,0 +1,175 @@
+---
+id: movement/impressionism
+uri: urn:ahn:movement/impressionism
+type: movement
+kind: retrospective
+label_ja: 印象派
+label_en: Impressionism
+authority:
+  wikidata: Q40415
+  aat: "300021503"
+  ndl: null
+  jpsearch: null
+  none_reason: null
+time:
+  start: "1874"
+  end: "1886"
+  display: "1874年（第1回展）〜1886年（第8回展）。8回にわたる合同展の期間"
+naming:
+  self_identified: true
+  named_by: person/louis-leroy
+  named_when: "1874-04-25"
+  original_label: "Société anonyme des artistes peintres, sculpteurs et graveurs"
+  note: "命名（外部・1874年）と当事者の呼称（自称）は別の事実。第1回展を主催した団体が自ら選んだ名は「画家・彫刻家・版画家等の匿名協会」で、様式や綱領を掲げる名ではない（org/societe-anonyme-artistes 参照）。「impressionniste」の語は、批評家ルイ・ルロワが1874年4月25日『ル・シャリヴァリ』紙に書いた記事で、モネの出品作《Impression, soleil levant（印象、日の出）》の題名をもじって揶揄として作った。当事者側の引き受けは後から来た——モネ自身が1880年6月、雑誌『La Vie moderne』のエミール・タブローによるインタビューで『Je suis toujours et je veux toujours être impressionniste（私はいつも印象派であったし、これからもそうありたい）』と述べている（二次文献での引用を確認、原記事本文は未確認）。self_identified: true と kind: retrospective はここでも矛盾しない——命名者は当事者ではなく批評家だが、当事者は後にその名を自分のものとして使った"
+claims:
+  - {field: time, source: "https://en.wikipedia.org/wiki/First_Impressionist_Exhibition", certainty: scholarly}
+  - {field: time, source: "https://digistore.bib.ulb.ac.be/2008/DL2864764_1886_f.pdf", certainty: scholarly}
+  - {field: originated_in, source: "https://www.wikidata.org/wiki/Q3487659", certainty: scholarly}
+  - {field: kind, source: "https://www.france-memoire.fr/wp-content/uploads/2022/07/charivari_documentv2.pdf", certainty: scholarly}
+space:
+  - {role: originated_in, target: place/paris}
+relations:
+  - {type: precedes, target: movement/neo-impressionism}
+  - {type: exhibited_at, target: org/societe-anonyme-artistes}
+images:
+  - url: https://openaccess-cdn.clevelandart.org/1950.89/1950.89_web.jpg
+    source_page: https://www.clevelandart.org/art/1950.89
+    license: cc0
+    note: "ベルト・モリゾ《読書（La Lecture）》1873年、クリーブランド美術館蔵。ルロワが1874年の記事で名指しして揶揄した作品そのもの——同館の展示歴が「Première Exposition. Société Anonyme...(1874)」への出品を記録している"
+  - url: https://www.artic.edu/iiif/2/0f1cc0e0-e42e-be16-3f71-2022da38cb93/full/843,/0/default.jpg
+    source_page: https://www.artic.edu/artworks/16571
+    license: public-domain
+    note: "クロード・モネ《サン゠ラザール駅、ノルマンディー列車の到着》1877年、シカゴ美術館蔵。第3回展（1877年）出品作（同館の publication history が catalogue番号97として記録）"
+sources:
+  - https://www.wikidata.org/wiki/Q40415
+  - https://www.wikidata.org/wiki/Q3487659
+  - https://www.wikidata.org/wiki/Q50659
+  - https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300021503
+  - https://gallica.bnf.fr/ark:/12148/bpt6k30708891/f2.item
+  - https://www.france-memoire.fr/wp-content/uploads/2022/07/charivari_documentv2.pdf
+  - https://en.wikipedia.org/wiki/First_Impressionist_Exhibition
+  - https://en.wikipedia.org/wiki/Impressionism
+  - https://www.clevelandart.org/art/1950.89
+  - https://www.artic.edu/artworks/16571
+  - https://api.artic.edu/api/v1/artworks/16571
+  - https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300021505
+status: verified
+updated: 2026-08-09
+---
+
+# 印象派 / Impressionism
+
+## 定義と範囲
+
+19世紀フランスで生まれた美術運動・様式。伝統的なアカデミーの教えを退け、色彩の物理科学を
+応用して色・調子・光を正確に再現しようとした。純色の小さな筆触、戸外制作によって移ろう瞬間の
+本質を捉えること、同時代の生活を客観的に描くことを特徴とする（Getty AAT スコープノートの要約）。
+
+典拠: Wikidata [Q40415](https://www.wikidata.org/wiki/Q40415)／Getty AAT
+[300021503](https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300021503)
+（見出し語「Impressionist (style)」）。
+
+このKBでは「印象派」を、パリで審査なしに作品を発表する場として設立された
+[org/societe-anonyme-artistes](../orgs/societe-anonyme-artistes.md)（画家・彫刻家・版画家等の
+匿名協会、1873年12月27日設立）が1874年から1886年にかけて開いた8回の合同展という、
+外形の揃った具体的な出来事の系列で範囲を区切る。この団体自身が選んだ名は様式や綱領を
+名乗らない中立的な組合名であり、「印象派」という呼称は団体名でも自称でもなく、後から外側で
+括られた名前である（下記「kind の判定」）。
+
+## kind の判定
+
+### 1. 軸ごとに見る
+
+| 軸 | 印象派 | 出典 |
+|---|---|---|
+| ①官職・工房・庇護の枠の継続 | **無し**。第1回展（1874年）を主催した「画家・彫刻家・版画家等の匿名協会」は、官職でも工房でも庇護の枠でもない、審査なしで出品する場を確保するための協同組合的な組織だった。会場も写真家ナダルの旧アトリエを借りたもので、常設の工房・機関ではない | [Wikidata Q3487659](https://www.wikidata.org/wiki/Q3487659)／[Wikipedia: First Impressionist Exhibition](https://en.wikipedia.org/wiki/First_Impressionist_Exhibition) |
+| ②血縁の継続 | **無し**。第1回展（クロード・モネ、カミーユ・ピサロ、エドガー・ドガ、ベルト・モリゾ、ポール・セザンヌ、アルフレッド・シスレーら）から第8回展（1886年、ジョルジュ・スーラ、ポール・シニャックらが加わる）まで、血縁が集団の存続原理になった痕跡は確認できない | 同上 |
+| ③様式的同一性 | **当初は強いが、8回の展覧会を通じて緩む**。純色の筆触・戸外制作・光の効果という手つきの共有は第1回展の時点で既に成立していたと批評（ルロワの記事）自体が証言しているが、8回展（1886年）にはスーラら分割主義（新印象派）の一群が同居し、様式の統一は崩れていた。ルロワの記事は皮肉ながら、モネ・ピサロ・シスレー・ドガ・モリゾ・ルノワール・セザンヌが同じ「印象（impression）」という語で括れる何かを共有していたことを、外部の目から逆説的に裏づけている | [France Mémoire 転記PDF](https://www.france-memoire.fr/wp-content/uploads/2022/07/charivari_documentv2.pdf)（Charivari 1874年4月25日号の複製） |
+
+①②が無く③（様式的同一性、ただし経年で緩む）だけで括られている点は、新印象派・ポスト印象派と
+同じ側に立つ（[movement/neo-impressionism](neo-impressionism.md) の判定を参照）。
+
+### 2. 名づけの二重構造 — 団体の自称と、様式の外称は別の行為
+
+第1回展を主催した団体が自ら選んだ名は「Société anonyme des artistes peintres, sculpteurs et
+graveurs（画家・彫刻家・版画家等の匿名協会）」で、審査なし出品という制度上の性質を示す
+中立的な名称であり、様式や綱領の宣言ではない
+（[org/societe-anonyme-artistes](../orgs/societe-anonyme-artistes.md)）。
+
+「impressionniste」という語を最初に書いたのは、この団体の内部者ではなく批評家ルイ・ルロワ
+である。1874年4月25日、パリの風刺新聞『ル・シャリヴァリ』に掲載された記事
+「L'Exposition des impressionnistes」で、架空の人物ジョゼフ・ヴァンサンにモネの出品作
+《Impression, soleil levant（印象、日の出）》（カタログ98番）の前でこう言わせている——
+
+> Impression, j'en étais sûr. Je me disais aussi, puisque je suis impressionné, il doit y avoir
+> de l'impression là-dedans... Et quelle liberté, quelle aisance dans la facture !
+
+（「印象、そうだと思った。私も印象づけられたのだから、これには何か印象があるに違いないと
+思っていたところだ……なんという自由、なんという筆の軽さだ！」）
+
+この記事本文は、フランス学士院（Institut de France）の国家的記念事業「France Mémoire」が
+公開する転記版（[charivari_documentv2.pdf](https://www.france-memoire.fr/wp-content/uploads/2022/07/charivari_documentv2.pdf)、
+タイトル・著者・掲載紙・日付を明記）で確認した。Gallica が保持する当該号の実物
+（[ark:/12148/bpt6k30708891](https://gallica.bnf.fr/ark:/12148/bpt6k30708891/f2.item)、1874年4月25日号）は
+自動アクセス防止（ALTCHA 検証）に阻まれ、ファクシミリそのものは直接確認できていない——この点は
+`movement/neo-impressionism` が『L'Art moderne』で経験した状況と同型である（
+[person/louis-leroy](../persons/louis-leroy.md) 参照）。
+
+当事者側の引き受けは後から来た。英語版Wikipediaは「The term Impressionist quickly gained favour
+with the public. It was also accepted by the artists themselves」（二次情報）と記す。具体的な
+発言としては、モネが1880年6月、雑誌『La Vie moderne』のジャーナリスト、エミール・タブローに
+よるインタビューで「Je suis toujours et je veux toujours être impressionniste（私はいつも
+印象派であったし、これからもそうありたい）」と述べたとされる（複数の二次文献が引用。原記事
+本文そのものは未確認）。**命名（外部・1874年）と引き受け（当事者・1880年ごろ）は別の事実**で
+あり、`naming.self_identified: true` と `kind: retrospective` はここでも矛盾しない。
+
+### 3. 結論
+
+`kind: retrospective` とした。①②が無く③のみで括られ、名は団体の外部（批評家ルロワ）から
+来ている——新印象派・ポスト印象派と同じ側に立つ。枠は当てはまり、型を増やす必要はない。
+
+## 時間
+
+始点は1874年。1873年12月27日に設立された「画家・彫刻家・版画家等の匿名協会」
+（[org/societe-anonyme-artistes](../orgs/societe-anonyme-artistes.md)）が、1874年4月15日〜5月15日、
+パリのブールヴァール・デ・カプシーヌ35番地（写真家ナダルの旧アトリエ）で第1回展を開催し、
+これがルロワの記事によって「印象派」と名指しされた最初の展覧会になった
+（[Wikipedia: First Impressionist Exhibition](https://en.wikipedia.org/wiki/First_Impressionist_Exhibition)）。
+
+終点は1886年。8回目（最後）の合同展が、同年5月15日〜6月15日、パリ rue Laffitte で開かれた。
+この日程は `movement/neo-impressionism` の調査で確認済みの一次資料（『L'Art moderne』
+1886年9月19日号、[digistore.bib.ulb.ac.be](https://digistore.bib.ulb.ac.be/2008/DL2864764_1886_f.pdf)）
+に基づく。この最後の展覧会にジョルジュ・スーラの《グランド・ジャット島の日曜日の午後》が
+分割主義の一室として同居しており、この分岐が新印象派の始点になっている
+（`movement/neo-impressionism` 参照）。
+
+**未確認**: Wikidata Q40415 の `P571`（inception）は precision 8（10年代単位）で値
+`+1860`（＝1860年代）を持つ。これは合同展という公的な括りの始点ではなく、後に「印象派」と
+呼ばれる画家たちが個々に戸外制作や色彩の実験を始めていた、より緩やかな私的活動の時期を
+指していると読める。このKBでは `kind: retrospective` の規約（括られた対象の活動期間を
+start/end に置く）に従い、括りが公に成立した最初の合同展（1874年）を始点とした——
+1860年代説は根拠として別に記録するに留め、確定はしていない。
+
+## 空間
+
+発生地はパリとした。「画家・彫刻家・版画家等の匿名協会」の設立地（[Wikidata Q3487659](https://www.wikidata.org/wiki/Q3487659)、
+所在地パリ）、第1回展の会場ブールヴァール・デ・カプシーヌ（パリ）のいずれもパリである。
+
+**未着手**: 国外への伝播（後年の国際的な受容・拡散）は着手していない。新印象派側で確認した
+ブリュッセルへの伝播（`movement/neo-impressionism` の `diffused_to`）とは別に、印象派自体の
+伝播経路は未調査。
+
+## 未着手
+
+- ルロワの記事のGallicaファクシミリ本体——ALTCHA 検証により直接確認できていない。本文は
+  France Mémoire の転記版で確認した（[person/louis-leroy](../persons/louis-leroy.md) 参照）
+- モネの1880年『La Vie moderne』インタビュー記事の原文——「私は印象派でありたい」という
+  発言は複数の二次文献が引用するが、雑誌記事そのものにはまだ当たれていない
+- 当事者集団がいつ「印象派」を自分たちの呼称として明確に採用したか、その正確な時点——
+  1877年の第3回展でも公式カタログ名は「3e exposition de peinture」（中立的）のままで、
+  同時期の新聞記事（例: シャルル・ビゴ「L'exposition des 'impressionnistes'」1877年）が
+  引用符付きで「impressionnistes」を使っている段階に留まる（[AIC publication history, artwork 16571](https://api.artic.edu/api/v1/artworks/16571)）
+- 第1回展〜第8回展それぞれの会場・出品者・日程の全体像（今回は第1回と第8回のみ確認）
+- モネ・ピサロ・ドガ・モリゾ・ルノワール・セザンヌ・シスレーの person エンティティ化——
+  現状はどの作成基準にも単独で当たらないため本文の名前止まりとした
+- 印象派自体の国外への伝播経路
