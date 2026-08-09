@@ -29,6 +29,7 @@ space:
   - {role: originated_in, target: place/saint-petersburg}
 relations:
   - {type: created_by, target: person/kazimir-malevich}
+  - {type: derives_from, target: movement/cubo-futurism, certainty: attested, source: "https://velikanov.ru/lib/%D0%9C%D0%B0%D0%BB%D0%B5%D0%B2%D0%B8%D1%87.%20%D0%9E%D1%82%20%D0%BA%D1%83%D0%B1%D0%B8%D0%B7%D0%BC%D0%B0%20%D0%BA%20%D1%81%D1%83%D0%BF%D1%80%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%B7%D0%BC%D1%83.pdf"}
 images:
   - url: https://upload.wikimedia.org/wikipedia/commons/5/53/Suprematism_by_Malevich_%281915%2C_GRM%29.jpg
     source_page: https://commons.wikimedia.org/wiki/File:Suprematism_by_Malevich_(1915,_GRM).jpg
@@ -48,6 +49,8 @@ sources:
   - https://ru.wikipedia.org/wiki/%D0%A3%D0%9D%D0%9E%D0%92%D0%98%D0%A1
   - https://en.wikipedia.org/wiki/Suprematism
   - https://www.theartstory.org/movement/suprematism/
+  - https://malevichsociety.org/writings-by-malevich/
+  - https://www.artic.edu/artworks/199128
   - https://malevichsociety.org/malevich-biography-a-brief-history/
   - https://malevichsociety.org/writings-by-malevich/
 status: draft
@@ -205,6 +208,25 @@ Constructivism（ロシア構成主義）は本KBに未収録のため、`reacts
 
 **未確認**: ヴィテプスク（UNOVIS）・モスクワ（構成主義との衝突の場）も活動圏として重要だが、
 これらは名乗りの起点より後の展開であるため`space`には含めず、本文に記すのみとした。
+
+## 立体未来主義からの出口
+
+`derives_from` を[立体未来主義](cubo-futurism.md)に張った。`certainty` は `attested` である——
+根拠は研究の通説ではなく、マレーヴィチ自身の言明だからである。1915年6月付の小冊子本文に
+「Считая Кубофутуризм выполнившим свои задания — я перехожу к Супрематизму — к новому
+живописному реализму, беспредметному творчеству.（キュボフュチュリズムはその任務を果たし終えたと
+見なし、私はシュプレマティスムへ——新しい絵画的リアリズムへ、非対象的創造へ移る。）」とある
+（上の `naming.note` と同じ一次資料）。**出ていく先を名乗る文が、出てくる元の名も同時に書いている。**
+
+小冊子の題は版によって変わり、その変化にもこの関係が残っている。マレーヴィチ協会の書誌では、
+1915年の初版が『Ot kubizma k suprematizmu』、1916年の第2版が『Ot kubizma **i futurizma** k
+suprematizmu』で、第2版で futurizm が題に足されている
+（[The Malevich Society, Writings by Malevich](https://malevichsociety.org/writings-by-malevich/)。
+第2版の実物はシカゴ美術館が所蔵する——[artic.edu/artworks/199128](https://www.artic.edu/artworks/199128)）。
+
+その立体未来主義の側が、イタリアの[未来派](futurism.md)から言葉を受け取っている。西欧から
+ロシアへの経路はこの2本を繋いだ先にあり、シュプレマティスムがイタリア未来派を直接受け取った
+という記述は本KBでは押さえていない。
 
 ## 未着手
 

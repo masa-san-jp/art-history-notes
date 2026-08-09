@@ -179,6 +179,26 @@ Reconstructing the Universe』（2014年）が採る区切りもマリネッテ�
 
 Wikidata Q131221には空間に関するclaimは無い。
 
+## ロシアへ — 言葉は届き、負い目は否定された
+
+[立体未来主義](cubo-futurism.md)側から `influenced_by` が張られている（関係は受け取った側に書く
+規約）。Getty AAT は立体未来主義を "influenced by French Cubism and Italian Futurism" と定義の中で
+書く（[AAT 300021394](https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300021394)）。
+
+動いたのは**言葉**である。1914年、バッラ・カッラ・ボッチョーニ・マリネッティ・ルッソロ・
+セヴェリーニの宣言を集めた『Манифесты итальянского футуризма』が、ヴァジム・シェルシェネーヴィチ
+訳でモスクワの Русского Товарищества から出ている
+（[Bonhams のロット記述](https://www.bonhams.com/auction/22795/lot/238/marinetti-filippo-tommaso-ed-manifesty-italiyanskogo-futurizma-italian-futurism-manifesto-moscow-russkago-tovarishchestva-1914/)）。
+マリネッティ本人もロシアへ渡り、モスクワとサンクトペテルブルクで講演している。
+
+**ただし受け取った側はこの関係を認めなかった。** 英語版Wikipediaは "Filippo Tommaso Marinetti,
+when he arrived in Russia on a proselytizing visit in 1914, was obstructed by most Russian Futurists,
+who did not profess to owe him anything" と書く
+（[Russian Futurism](https://en.wikipedia.org/wiki/Russian_Futurism)、二次情報）。宣言で自らを
+名乗った運動が、同じやり方で名乗った別の土地の運動から、名乗りの出所を否定された形になる。
+経緯と弱点は[立体未来主義側](cubo-futurism.md#イタリア未来派との接続--動いたのは言葉届いた先は否認だった)に
+まとめて書いた。
+
 ## 未着手
 
 - 1909年1月頃ミラノで刊行されたとされる詩集（序文として宣言文を収録）の書誌事項（書名・
@@ -196,5 +216,8 @@ Wikidata Q131221には空間に関するclaimは無い。
 - ボッチョーニ・バッラ・カッラ・ルッソロ・セヴェリーニ・サンテリアら各分野の宣言署名者の
   person化。現状は`docs/schema.md`の作成基準のどれにも単独では当たらないため、本文に
   名前を書くのみに留めた
-- ロシアのクボ・フチュリズムなど、他国で「Futurism」を名乗った／影響を受けた運動との
-  `influenced_by`/`diffused_to`関係——それらがKBに未収録のため、関係線は未着手
+- ロシア以外で「Futurism」を名乗った／影響を受けた運動との`influenced_by`/`diffused_to`関係
+  （ポルトガル、英国のヴォーティシズム、日本の未来派美術協会など）——それらがKBに未収録のため
+  関係線は未着手。ロシアについては[立体未来主義](cubo-futurism.md)を立てて接続した
+- マリネッティのロシア訪問の一次資料——日程・訪問回数（Bonhamsの記述は1910年と1913年、
+  他の記述は1914年の1回とし食い違う）・講演地・現地の記録

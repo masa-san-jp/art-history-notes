@@ -14,12 +14,12 @@ depends_on: []
 <!-- generated:coverage:start -->
 データの最新日: 2026-08-10 — `python3 tools/build_graph.py` が生成（手で書き換えない）
 
-movement **52** 件（stub 0件は不算入）／内訳 {'draft': 50, 'stub': 0, 'verified': 2}
+movement **53** 件（stub 0件は不算入）／内訳 {'draft': 51, 'stub': 0, 'verified': 2}
 
 | 文化圏 | 12C | 13C | 15C | 16C | 17C | 18C | 19C | 20C | 年代不明 | 計 |
 |---|---|---|---|---|---|---|---|---|---|---|
 | europe-west（西欧・南欧・北欧） |  | 1 | 1 |  |  |  | 4 | 2 |  | 8 |
-| europe-east（中東欧・ロシア・ビザンツ圏） | 1 |  |  |  |  |  | 1 | 1 |  | 3 |
+| europe-east（中東欧・ロシア・ビザンツ圏） | 1 |  |  |  |  |  | 1 | 2 |  | 4 |
 | americas-north（北米） |  |  |  |  |  |  | 1 | 3 |  | 4 |
 | mena（中東・北アフリカ） ※非西洋 |  |  | 1 | 1 |  |  |  | 2 |  | 4 |
 | africa-sub（サブサハラ・アフリカ） ※非西洋 |  | 1 |  |  | 1 |  |  | 2 |  | 4 |
@@ -36,8 +36,8 @@ movement **52** 件（stub 0件は不算入）／内訳 {'draft': 50, 'stub': 0,
 
 受け入れ条件の達成度:
 
-- movement_total: 52/100（stub 0件は不算入）
-- non_west_ratio: 0.71/0.5
+- movement_total: 53/100（stub 0件は不算入）
+- non_west_ratio: 0.70/0.5
 - per_bucket_min: 13/13 バケットが 3件以上
 - pre_1800_ratio: 0.40/0.3
 - isolated_ratio: 0.00（上限 0.1）
@@ -58,8 +58,8 @@ movement **52** 件（stub 0件は不算入）／内訳 {'draft': 50, 'stub': 0,
 
 <!-- generated:audit:start -->
 **文化圏を跨ぐ関係が無い**
-- 他の文化圏の movement と1本も繋がっていない movement が 40/52 件。時間だけでなく空間の広がりを体系化するので、影響・伝播・反発を調べる余地
-- europe-west: 6件（バルビゾン派、未来派、印象派、新印象派 ほか）
+- 他の文化圏の movement と1本も繋がっていない movement が 39/53 件。時間だけでなく空間の広がりを体系化するので、影響・伝播・反発を調べる余地
+- europe-west: 5件（バルビゾン派、印象派、新印象派、シエナ派 ほか）
 - asia-southeast: 4件（バンドン派、インドシナ漆絵画（ソンマイ）、ピタ・マハ、ザ・サーティーン・モダンズ）
 - asia-east-japan: 4件（狩野派、もの派、琳派、土佐派）
 - mena: 3件（バグダード近代美術グループ、チュニス派、オスマン朝細密画）
