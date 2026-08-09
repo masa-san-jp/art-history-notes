@@ -68,8 +68,10 @@ Flammarion, 1990, p.165 からの引用として掲載）。同じ一節の異�
 [Sotheby's 2009年カタログ lot 8](https://www.sothebys.com/en/auctions/ecatalogue/2009/impressionist-modern-art-pf9006/lot.8.html)
 にもある（"L'art c'est l'harmonie. L'harmonie c'est l'analogie des contraires. […] Les contraires ce sont
 pour le ton, un plus lumineux (clair) pour un plus sombre."）。
-手紙の原物は Harvard の Houghton Library 所蔵（[HOLLIS の記述](https://hollisarchives.lib.harvard.edu/repositories/9/archival_objects/34640)。
-2026-08-08 時点で当方からは本文を取得できず、記述の存在のみ確認）。
+手紙の原物はハーヴァード美術館アーカイヴの「Papers of Stuart Davis, 1918-1964」（請求記号 1967.79）に
+あり、目録は原物を閲覧不可、複写はホートン図書館のマイクロフィルム（*69M-153）のみと記す
+（[HOLLIS for Archival Discovery](https://hollisarchives.lib.harvard.edu/catalog/art00006_art00006c00846)。
+当方は目録の記述を確認したのみで、本文には到達していない）。
 
 **未確認**: Rewald 版の原文と Sotheby's 版で語順・句読点が違う。どちらが手稿に忠実かは原物か
 校訂版を見るまで確定できない。引用するときは両方の存在を示す。

@@ -20,7 +20,7 @@ relations:
 sources:
   - https://fr.wikiquote.org/wiki/Georges_Seurat
   - https://www.sothebys.com/en/auctions/ecatalogue/2009/impressionist-modern-art-pf9006/lot.8.html
-  - https://hollisarchives.lib.harvard.edu/repositories/9/archival_objects/34640
+  - https://hollisarchives.lib.harvard.edu/catalog/art00006_art00006c00846
 status: draft
 updated: 2026-08-08
 ---
@@ -31,8 +31,14 @@ updated: 2026-08-08
 
 ## 所在
 
-原物は Harvard の Houghton Library（[HOLLIS の記述](https://hollisarchives.lib.harvard.edu/repositories/9/archival_objects/34640)）。
-2026-08-08 時点で当方からは本文を取得できず、記述の存在のみ確認した。
+原物はハーヴァード美術館アーカイヴ（Harvard Art Museums Archives）が持つ「Papers of Stuart Davis,
+1918-1964」（請求記号 1967.79）の中にある。目録の標題は "'Georges Seurat – 1890 Letter' – Seurat to
+Maurice Beaubourg, 28 August 1890. [2 pages]"
+（[HOLLIS for Archival Discovery](https://hollisarchives.lib.harvard.edu/catalog/art00006_art00006c00846)）。
+
+**原物は閲覧できない。** 同目録は "Originals are closed to research. The microfilm of the collection
+is available at Houghton Library, Harvard University (*69M-153)." と書く。読めるのはホートン図書館に
+あるマイクロフィルムの方で、当方はそこにも到達していない。記述の存在のみ確認した。
 
 ## 転記の異同
 
