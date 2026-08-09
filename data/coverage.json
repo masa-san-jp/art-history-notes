@@ -1,9 +1,9 @@
 {
   "as_of": "2026-08-09",
-  "movement_total": 26,
+  "movement_total": 33,
   "movement_stub_excluded": 1,
   "by_status": {
-    "draft": 25,
+    "draft": 32,
     "stub": 1,
     "verified": 1
   },
@@ -11,26 +11,40 @@
     "americas-latin": {
       "20": 3
     },
+    "mena": {
+      "20": 1,
+      "15": 1,
+      "16": 1
+    },
     "asia-south": {
       "20": 1,
+      "18": 1,
       "16": 1
     },
     "africa-sub": {
       "13": 1,
+      "17": 1,
       "20": 1
     },
     "asia-east-korea": {
       "20": 1,
+      "13": 1,
       "18": 1
     },
     "asia-central": {
-      "15": 2
+      "15": 2,
+      "17": 1
     },
     "americas-north": {
       "19": 1
     },
+    "oceania": {
+      "unknown": 1,
+      "19": 1,
+      "20": 1
+    },
     "asia-southeast": {
-      "20": 2
+      "20": 3
     },
     "asia-east-japan": {
       "15": 2,
@@ -43,14 +57,6 @@
     "europe-west": {
       "19": 1
     },
-    "oceania": {
-      "19": 1,
-      "20": 1
-    },
-    "mena": {
-      "15": 1,
-      "16": 1
-    },
     "europe-east": {
       "19": 1
     }
@@ -59,25 +65,25 @@
     "europe-west": 1,
     "europe-east": 1,
     "americas-north": 1,
-    "mena": 2,
-    "africa-sub": 2,
-    "asia-central": 2,
-    "asia-south": 2,
-    "asia-southeast": 2,
+    "mena": 3,
+    "africa-sub": 3,
+    "asia-central": 3,
+    "asia-south": 3,
+    "asia-southeast": 3,
     "asia-east-china": 3,
-    "asia-east-korea": 2,
+    "asia-east-korea": 3,
     "asia-east-japan": 3,
     "americas-latin": 3,
-    "oceania": 2
+    "oceania": 3
   },
   "origin_unknown": [],
   "origin_multiple": [],
   "isolated": [],
   "progress": {
-    "movement_total": "26/100（stub 1件は不算入）",
-    "non_west_ratio": "0.88/0.5",
-    "per_bucket_min": "3/13 バケットが 3件以上",
-    "pre_1800_ratio": "0.46/0.3",
+    "movement_total": "33/100（stub 1件は不算入）",
+    "non_west_ratio": "0.91/0.5",
+    "per_bucket_min": "10/13 バケットが 3件以上",
+    "pre_1800_ratio": "0.48/0.3",
     "isolated_ratio": "0.00（上限 0.1）"
   }
 }

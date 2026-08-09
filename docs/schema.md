@@ -114,6 +114,27 @@ updated: 2026-08-08
 
 判定に迷ったら `shared` を選び、誰が何を担ったのかを本文に書く。空欄でもよい（該当しない対象には書かない）。
 
+### `images`（任意）— パブリックドメインの作品画像への参照
+
+**その括りを目で見られるようにする。** 代表的な作品の画像URLを持つ。
+`movement` なら代表作、`work` ならその作品、`person` なら代表作。
+
+```yaml
+images:
+  - url: https://www.artic.edu/iiif/2/2d484387-.../full/843,/0/default.jpg
+    source_page: https://www.artic.edu/artworks/27992
+    license: public-domain          # public-domain / cc0 / pdm のどれか
+    note: スーラ《グランド・ジャット島の日曜日の午後》
+```
+
+**規律**:
+- **パブリックドメイン相当のものだけ**（`public-domain` / `cc0` / `pdm`）。検証が語彙を強制する
+- **リンクだけ。画像ファイルを repo に置かない**（再配布はしない）
+- `source_page` を必ず添える——所蔵館の作品ページ。ライセンスの根拠がそこにある
+- 権利が不明なものは**入れない**。「たぶん古いから大丈夫」で入れない
+- 出どころの候補: Art Institute of Chicago（CC0）／Metropolitan Museum（Open Access CC0）／
+  Cleveland Museum（CC0）／Rijksmuseum／National Gallery of Art／Wikimedia Commons（ファイル単位で確認）
+
 ### `time` — EDTF（ISO 8601-2）Level 1 サブセット
 
 受ける形: `1884` / `1884-05` / `1884-05-20` / `146X`（1460年代）/ `14XX`（15世紀）/
@@ -179,6 +200,17 @@ updated: 2026-08-08
 `work` は所蔵館 API から引けるものを優先する（Art Institute of Chicago / Metropolitan / Cleveland は
 典拠IDと基本属性が機械で取れ、画像も IIIF で参照できる）。日本側は Japan Search の呼び方が未確認なので、
 当面は文字の典拠のみになる。
+
+## 名前の単位と担い手の単位がずれるとき
+
+**名前の単位でエンティティを作る。担い手の系譜は別のエンティティにして、関係で繋ぐ。**
+
+実例（2026-08-09）: カーングラ派の担い手はパンディト・セウの一族だが、この一族はグレール・ジャスロタ・
+バソーリ・カーングラ・チャンバという独立した複数の宮廷を渡り歩いており、「カーングラ様式」の名は
+一族と無関係な画家も覆っている。真景山水画でも、担い手の一部だけが図画署と重なっていた。
+
+名前と系譜を1つのファイルに押し込むと、どちらかが歪む。**総称に見えるものは、担い手の集合が
+特定できる単位まで降りる**（`movement` と `concept` の切り分けと同じ原則）。
 
 ## 未解決（構造の穴）
 

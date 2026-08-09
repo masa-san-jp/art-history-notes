@@ -31,6 +31,13 @@ tested:
   - {region: asia-central, by: movement/herat-school, result: revised}
   - {region: asia-east-korea, by: movement/jingyeong-sansuhwa, result: gap-found}
   - {region: asia-east-china, by: movement/lingnan-school, result: revised}
+  - {region: mena, by: movement/baghdad-modern-art-group, result: held}
+  - {region: asia-south, by: movement/kangra-painting, result: revised}
+  - {region: asia-central, by: movement/zanabazar-school, result: held}
+  - {region: africa-sub, by: movement/gondarine-church-painting, result: held}
+  - {region: asia-southeast, by: movement/thirteen-moderns, result: revised}
+  - {region: oceania, by: movement/iatmul-carving, result: held}
+  - {region: asia-east-korea, by: movement/goryeo-buddhist-painting, result: held}
 tests_regions:            # ここが埋まるまで仮説は仮説のまま（tools/audit.py が指す）
   - asia-east-china
   - asia-east-korea
@@ -94,6 +101,13 @@ tests_regions:            # ここが埋まるまで仮説は仮説のまま（t
 | 中央アジア（2件目） | [ヘラート派](../entities/movements/herat-school.md) | **線は種類ごとに切れる／③の時間に第4の型** |
 | 朝鮮半島（3件目） | [真景山水画](../entities/movements/jingyeong-sansuhwa.md) | **担い手が身分を跨ぐ形を関係語彙で書けない** |
 | 中国圏（3件目） | [嶺南画派](../entities/movements/lingnan-school.md) | **地名由来に第5型（中心が周辺を呼ぶ名）** |
+| 中東（3件目） | [バグダード近代美術グループ](../entities/movements/baghdad-modern-art-group.md) | 崩れなかった。**自称と現行名が一致した例** |
+| 南アジア（3件目） | [カーングラ派](../entities/movements/kangra-painting.md) | **名前の単位と担い手の系譜の単位がずれる** |
+| 中央アジア（3件目） | [ザナバザル様式](../entities/movements/zanabazar-school.md) | 崩れなかった。**転生による継承は庇護の線として働いた** |
+| サブサハラ（3件目） | [ゴンダール様式の教会絵画](../entities/movements/gondarine-church-painting.md) | 崩れなかった。**影響と `founding_control` の線引きが確定** |
+| 東南アジア（3件目） | [Thirteen Moderns](../entities/movements/thirteen-moderns.md) | **自称の核と、名が数える集合の人数が違う** |
+| オセアニア（3件目） | [イアトムルの彫刻](../entities/movements/iatmul-carving.md) | 崩れなかった。**名前が二重に外部由来** |
+| 朝鮮半島（movement 3件目） | [高麗仏画](../entities/movements/goryeo-buddhist-painting.md) | 崩れなかった。**線は画記に残る発願者の記録** |
 
 浙派は血縁なし・師弟希薄・官職はあるが世襲でない（各世代が個別に画院へ出入りするだけ）。
 制度としての実体が無く、括りは後世の美術史記述（董其昌『画禅室随筆』）から来ている。
@@ -123,6 +137,8 @@ tests_regions:            # ここが埋まるまで仮説は仮説のまま（t
 | 出自＝活動地 | 呉派 | 蘇州の古称。沈周・文徴明の出身地と終生の活動地が一致 |
 | 形成地 | ベンガル派 | 様式が形成された場所。画題はベンガルを描いていない |
 | 中心が周辺を呼ぶ名 | 嶺南画派 | 北方（政治・文化の中心）が広東を指す慣用の広域地名。当事者の固有名ではない |
+| （地名ではない）身分・血統の名 | ラージプト絵画 | サンスクリット rājaputra（王の子）＝身分の名。地名由来の型に入らない |
+| 研究者が局所語を一般化した名 | イアトムルの彫刻 | 河口の局所語「Sipik」を民族学者が流域全体に広げた。「イアトムル」も一氏族の名を総称に転用 |
 
 まだ残っている問い: 何が「人名から取る」と「地名から取る」を分けるのか。バルビゾン派（制作地の村の名）で
 5型目が出る可能性がある。

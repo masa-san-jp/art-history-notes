@@ -39,6 +39,62 @@
       "updated": "2026-08-08",
       "path": "entities/concepts/harmony.md"
     },
+    "concept/minhwa": {
+      "id": "concept/minhwa",
+      "uri": "urn:ahn:concept/minhwa",
+      "type": "concept",
+      "label_ja": "民画",
+      "label_en": "Minhwa",
+      "authority": {
+        "wikidata": "Q204791",
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": "17XX",
+        "end": "19XX",
+        "display": "朝鮮後期（18世紀）に量産の中心を迎え、19世紀に最盛（京城の市場での活発な流通が確認される）。生産がいつまで続いたかは出典によって幅があり、Met所蔵品には20世紀初頭の作例もある"
+      },
+      "space": [],
+      "relations": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q204791",
+        "https://encykorea.aks.ac.kr/Article/E0020370",
+        "https://ko.wikipedia.org/wiki/%EB%AF%BC%ED%99%94",
+        "https://contents.history.go.kr/mobile/kc/view.do?levelId=kc_r300510&code=kc_age_30",
+        "https://encykorea.aks.ac.kr/Article/E0064832",
+        "https://www.tongilnews.com/news/articleView.html?idxno=102045",
+        "https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE11077260",
+        "https://www.metmuseum.org/art/collection/search/929075",
+        "https://www.metmuseum.org/art/collection/search/853891",
+        "https://www.metmuseum.org/art/collection/search/853896"
+      ],
+      "images": [
+        {
+          "url": "https://images.metmuseum.org/CRDImages/as/original/DP-44213-002.jpg",
+          "source_page": "https://www.metmuseum.org/art/collection/search/929075",
+          "license": "cc0",
+          "note": "《葡萄とリス》掛軸、朝鮮・17〜18世紀、絹本墨画、作者不明（Metropolitan Museum of Art, Open Access）。花鳥翎毛系の画題で、リスと葡萄の多産・多子の吉祥図像"
+        },
+        {
+          "url": "https://images.metmuseum.org/CRDImages/as/original/LC-2024_89_2_at-002.jpg",
+          "source_page": "https://www.metmuseum.org/art/collection/search/853891",
+          "license": "cc0",
+          "note": "《山神とトラ》、朝鮮・19世紀後半、作者不明（Metropolitan Museum of Art, Open Access）。巫俗・道教系の画題である山神図"
+        },
+        {
+          "url": "https://images.metmuseum.org/CRDImages/as/original/DP-40204-001.jpg",
+          "source_page": "https://www.metmuseum.org/art/collection/search/853896",
+          "license": "cc0",
+          "note": "《冊架と文房具》二曲屏風、朝鮮・19世紀、作者不明（Metropolitan Museum of Art, Open Access）。冊架図（チェッコリ）——儒教的な学問尊重の象徴として飾られた"
+        }
+      ],
+      "status": "draft",
+      "updated": "2026-08-09",
+      "path": "entities/concepts/minhwa.md"
+    },
     "movement/antropofagia": {
       "id": "movement/antropofagia",
       "uri": "urn:ahn:movement/antropofagia",
@@ -108,6 +164,82 @@
       "status": "draft",
       "updated": "2026-08-09",
       "path": "entities/movements/antropofagia.md"
+    },
+    "movement/baghdad-modern-art-group": {
+      "id": "movement/baghdad-modern-art-group",
+      "uri": "urn:ahn:movement/baghdad-modern-art-group",
+      "type": "movement",
+      "label_ja": "バグダード近代美術グループ",
+      "label_en": "Baghdad Modern Art Group",
+      "authority": {
+        "wikidata": "Q16123956",
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "Getty AAT: getty.edu/vow/AATServlet が既知の正常なクエリに対しても 301/400 を返す状態で到達できず（lingnan-school と同様の既知の障害）。Wikidata の典拠があるため none_reason は補足のみ"
+      },
+      "time": {
+        "start": "1951",
+        "end": null,
+        "display": "1951年（結成・第1回展での宣言文朗読）〜1961年のジャワード・サリーム没後、シャーキル・ハサン・アル=サイードが率いる形で1960年代を通じて活動が続いたとされるが、正式な解散年は出典間で確定しない"
+      },
+      "kind": "self-declared",
+      "founding_control": "internal",
+      "naming": {
+        "self_identified": true,
+        "named_by": null,
+        "named_when": null,
+        "original_label": "جماعة بغداد للفن الحديث（ラテン翻字: Jama'at Baghdad lil-Fann al-Hadith）",
+        "note": "複数の英語圏二次資料（theartwanderer.co.uk、アラビア語版Wikipedia由来の要約）が、当事者自身が結成当初からこのアラビア語名（『バグダードの近代美術のためのグループ』の意）を名乗ったとする。英語の『Baghdad Modern Art Group』『Baghdad Group for Modern Art』はこの原名の直訳表記であり、嶺南画派やザリア・アート・ソサエティのような『自称と現行名の乖離』は今回は確認されていない。ただし宣言文原本・展覧会カタログそのものには到達しておらず、根拠はすべて二次資料である"
+      },
+      "claims": [
+        {
+          "field": "kind",
+          "source": "https://theartwanderer.co.uk/the-baghdad-modern-art-group-birth-of-arabian-modernism/",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "originated_in",
+          "source": "https://www.wikidata.org/wiki/Q16123956",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "time",
+          "source": "https://www.wikidata.org/wiki/Q16123956",
+          "certainty": "scholarly"
+        }
+      ],
+      "space": [
+        {
+          "role": "originated_in",
+          "target": "place/baghdad"
+        }
+      ],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/shakir-hassan-al-said"
+        }
+      ],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q16123956",
+        "https://www.wikidata.org/wiki/Q2720307",
+        "https://www.wikidata.org/wiki/Q7462952",
+        "https://www.wikidata.org/wiki/Q1530",
+        "https://en.wikipedia.org/wiki/Jawad_Saleem",
+        "https://ar.wikipedia.org/wiki/%D8%AC%D9%85%D8%A7%D8%B9%D8%A9_%D8%A8%D8%BA%D8%AF%D8%A7%D8%AF_%D9%84%D9%84%D9%81%D9%86_%D8%A7%D9%84%D8%AD%D8%AF%D9%8A%D8%AB",
+        "https://theartwanderer.co.uk/the-baghdad-modern-art-group-birth-of-arabian-modernism/",
+        "https://mathaf.org.qa/en/encyclopedia/en/bios/Pages/Shakir-Hassan-Al-Said.aspx",
+        "https://www.gqmiddleeast.com/article/how-baghdad-reimagined-modernism",
+        "https://www.fondation-giacometti.fr/en/event/308/the-baghdad-group-for-modern-art-shaping-modernism-in-iraq-through-affinities-and-congruities",
+        "https://www.bard.edu/news/survey-baghdad-group-for-modern-art-june-ccs-bards-hessel-museum-2025-01-30",
+        "https://artcentron.com/2025/07/03/the-baghdad-modern-art-group-a-pivotal-force-in-postcolonial-art/",
+        "https://en.wikipedia.org/wiki/Al-Bu%27d_al-Wahad",
+        "https://en.wikipedia.org/wiki/Mohammed_Ghani_Hikmat"
+      ],
+      "status": "draft",
+      "updated": "2026-08-09",
+      "path": "entities/movements/baghdad-modern-art-group.md"
     },
     "movement/bengal-school": {
       "id": "movement/bengal-school",
@@ -314,6 +446,153 @@
       "updated": "2026-08-09",
       "path": "entities/movements/dansaekhwa.md"
     },
+    "movement/gondarine-church-painting": {
+      "id": "movement/gondarine-church-painting",
+      "uri": "urn:ahn:movement/gondarine-church-painting",
+      "type": "movement",
+      "kind": "period-style",
+      "label_ja": "ゴンダール様式教会絵画",
+      "label_en": "Gondarine church painting",
+      "authority": {
+        "wikidata": null,
+        "aat": "300263018",
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "Wikidataで「Gondarine art」「Gondar style painting」「Ethiopian church painting」「Ethiopian icon painting」を検索したが、この美術様式そのものに一致する項目は見つからなかった。近い項目として『Gondarine period』（Q112649079、『1632–1769 period of Ethiopian history』）があるが、これは政治史上の時代区分の項目であり claims も空（P571/P576 等の時間典拠を持たない）。美術様式の同一性を示す項目ではないため、movement の authority としては採用しなかった（time の参考にのみ使う）。Getty AAT 300263018（Gondar）を kind・様式の典拠とした"
+      },
+      "time": {
+        "start": "1632",
+        "end": "1769",
+        "display": "ゴンダール朝（1632年ファシラダス即位〜1769年イヨアス1世暗殺・ゼメネ・メサフィント突入）。王都ゴンダールの建設自体は1636年"
+      },
+      "founding_control": "internal",
+      "naming": {
+        "self_identified": false,
+        "named_by": null,
+        "named_when": null,
+        "original_label": "Gondar / Gondarine",
+        "note": "Getty AATの優先語は『Gondar』（異形『Gondär』『Gondarene』『gondarien』『Gondarine』を UF として持つ）。これらはいずれも西洋美術史記述による分類名で、制作した画家・教会・修道院自身がこの名で自らの絵画を呼んだ記録は当たった出典に無い。『Gondarine』という英語形をいつ・誰が最初に使ったかは未確認——ジュール・ルロワ『Ethiopian Painting in the Late Middle Ages and During the Gondar Dynasty』（1967年）のような20世紀の西洋美術史研究の書名にこの呼称が定着しているが、これが初出かは確認していない"
+      },
+      "claims": [
+        {
+          "field": "time",
+          "source": "https://en.wikipedia.org/wiki/Gondarine_period",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "originated_in",
+          "source": "https://www.wikidata.org/wiki/Q218861",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "kind",
+          "source": "http://www.getty.edu/vow/AATFullDisplay?find=Gondar&logic=AND&note=&english=Y&subjectid=300263018",
+          "certainty": "scholarly"
+        }
+      ],
+      "space": [
+        {
+          "role": "originated_in",
+          "target": "place/gondar"
+        }
+      ],
+      "relations": [],
+      "sources": [
+        "http://www.getty.edu/vow/AATFullDisplay?find=Gondar&logic=AND&note=&english=Y&subjectid=300263018",
+        "https://en.wikipedia.org/wiki/Gondarine_period",
+        "https://www.wikidata.org/wiki/Q112649079",
+        "https://www.wikidata.org/wiki/Q218861",
+        "https://www.h-net.org/reviews/showpdf.php?id=11894",
+        "https://journal.thewalters.org/volume/78/note/ethiopian-icon-paintings/",
+        "https://www.journal18.org/nq/giulio-romanos-the-little-holy-family-in-africa-identifying-an-18th-century-ethiopian-painting-by-kristen-windmuller-luna/",
+        "https://whc.unesco.org/en/list/19/"
+      ],
+      "status": "draft",
+      "updated": "2026-08-09",
+      "path": "entities/movements/gondarine-church-painting.md"
+    },
+    "movement/goryeo-buddhist-painting": {
+      "id": "movement/goryeo-buddhist-painting",
+      "uri": "urn:ahn:movement/goryeo-buddhist-painting",
+      "type": "movement",
+      "kind": "period-style",
+      "label_ja": "高麗仏画",
+      "label_en": "Goryeo Buddhist painting",
+      "authority": {
+        "wikidata": "Q12584160",
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "Getty AATは「Goryeo Buddhist painting」「Korai Buddhist painting」「Koryo Buddhist painting」でAATServletを検索しようとしたが、コントロールクエリ（「painting」単体）でもHTTP 400/499を返し続け、サービス自体が到達不能な状態だった（2026-08-09確認、curlでも再現）——これは語がAATに無いことの確認ではなく、検索サービスへのアクセス自体が失敗したという意味。Web NDL Authorities（id.ndl.go.jp）は「高麗仏画」の検索でSPARQLパーサエラーを返し、Japan Searchは検索結果が描画されずヒットの有無を確認できなかった——docs/investigation-task.mdが既に記す2026-08-08時点の既知の制約と一致する"
+      },
+      "time": {
+        "start": "12XX",
+        "end": "13XX",
+        "display": "高麗後期・13〜14世紀。年紀が明記された現存最古の作例は金義仁（김의인）発願《五百羅漢図》1235〜36年で、現存する約190点のうち多くは14世紀前半の制作とされる。1392年の高麗滅亡（朝鮮建国）が終期の目安"
+      },
+      "naming": {
+        "self_identified": false,
+        "named_by": null,
+        "named_when": null,
+        "original_label": "고려불화 / 高麗佛畵",
+        "note": "王朝名「高麗」＋画題ジャンル「仏画」の合成による呼称。発願者・画家自身がこの名で自分たちの作を呼んだ記録には当たっていない——高麗時代の人々にとってはただの「仏画」であり、「高麗」を冠する必要が無かったはずである（王朝が交代して初めて弁別が要る名になる）。命名者・最初の使用時期は特定できず、近代の美術史学が王朝の期間で括った便宜的な呼称と見られる。同型の命名構造（王朝名＋媒体・画題）の例としてムガル絵画がある"
+      },
+      "claims": [
+        {
+          "field": "kind",
+          "source": "https://contents.history.go.kr/mobile/kc/view.do?levelId=kc_r200090&code=kc_age_20",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "time",
+          "source": "https://contents.history.go.kr/mobile/eh/view.do?levelId=eh_r0182_0010&code=eh_age_20",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "originated_in",
+          "source": "https://contents.history.go.kr/mobile/kc/view.do?levelId=kc_r200090&code=kc_age_20",
+          "certainty": "scholarly"
+        }
+      ],
+      "space": [
+        {
+          "role": "originated_in",
+          "target": "place/kaesong"
+        }
+      ],
+      "relations": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q12584160",
+        "https://en.wikipedia.org/wiki/Goryeo_Buddhist_paintings",
+        "https://ko.wikipedia.org/wiki/%EA%B3%A0%EB%A0%A4%EB%B6%88%ED%99%94",
+        "https://contents.history.go.kr/mobile/kc/view.do?levelId=kc_r200090&code=kc_age_20",
+        "https://contents.history.go.kr/mobile/eh/view.do?levelId=eh_r0182_0010&code=eh_age_20",
+        "https://www.ijkaa.org/v.4/0/30/89",
+        "https://publications.asia.si.edu/goryeo/en/essay-wilson-goryeo-buddhist-paintings.php",
+        "https://publications.asia.si.edu/goryeo/ko/essay-park-materials-techniques-mounts.php",
+        "https://ko.wikipedia.org/wiki/%EC%88%98%EC%9B%94%EA%B4%80%EC%9D%8C%EB%8F%84_(%EB%B3%B4%EB%AC%BC_%EC%A0%9C1426%ED%98%B8)",
+        "https://encykorea.aks.ac.kr/Article/E0015928",
+        "https://www.metmuseum.org/art/collection/search/36029",
+        "https://www.metmuseum.org/art/collection/search/39882"
+      ],
+      "images": [
+        {
+          "url": "https://images.metmuseum.org/CRDImages/as/original/DP-15580-002.jpg",
+          "source_page": "https://www.metmuseum.org/art/collection/search/36029",
+          "license": "cc0",
+          "note": "《水月観音図（Water-moon Avalokiteshvara）》14世紀前半、絹本著色、掛軸。メトロポリタン美術館蔵（isPublicDomain: true）"
+        },
+        {
+          "url": "https://images.metmuseum.org/CRDImages/as/original/DP-15580-031.jpg",
+          "source_page": "https://www.metmuseum.org/art/collection/search/39882",
+          "license": "cc0",
+          "note": "《阿弥陀三尊図（Amitabha triad）》13世紀頃、絹本著色・金泥、掛軸。メトロポリタン美術館蔵（isPublicDomain: true）"
+        }
+      ],
+      "status": "draft",
+      "updated": "2026-08-09",
+      "path": "entities/movements/goryeo-buddhist-painting.md"
+    },
     "movement/herat-school": {
       "id": "movement/herat-school",
       "uri": "urn:ahn:movement/herat-school",
@@ -448,6 +727,84 @@
       "status": "draft",
       "updated": "2026-08-09",
       "path": "entities/movements/hudson-river-school.md"
+    },
+    "movement/iatmul-carving": {
+      "id": "movement/iatmul-carving",
+      "uri": "urn:ahn:movement/iatmul-carving",
+      "type": "movement",
+      "label_ja": "イアトムルの彫刻",
+      "label_en": "Iatmul carving",
+      "authority": {
+        "wikidata": "Q3147375",
+        "aat": "300021904",
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": null,
+        "end": "..",
+        "display": "彫刻という実践そのものの起源は特定できない（起源は創世神話に置かれ、年代を持たない）。 ヨーロッパ人による組織的な民族誌調査・収集は1912〜13年のドイツ「カイザリン・アウグスタ・フルス 探検隊」に始まり、1929年からのグレゴリー・ベイトソンの調査（1932年論文、1936/1958年『Naven』）で 社会構造とともに詳細に記録された。彫刻の実践自体は現在も続く"
+      },
+      "kind": "lineage-school",
+      "naming": {
+        "self_identified": false,
+        "named_by": null,
+        "named_when": "1932",
+        "original_label": "Iatmul",
+        "note": "「イアトムル」という語は、人類学者グレゴリー・ベイトソンが1920年代末からの現地調査に基づき 1932年の論文（Oceania誌）で「一般的な呼称としてイアトムルという名を採用した。しかしそれが正しいか どうか私は疑わしく思う（I adopted the name Iatmul as a general term for the people. But I doubt whether I am right in so doing）」と記して導入した後付けの総称（Wikipedia \"Iatmul people\"、 出典はBateson, Oceania 2(3), 1932, p.249 fn.2）。ベイトソンはミンディンビト村での聞き取りとして、 現地の人々がこの言語集団全体を「Iatmul-Iambonai」という複合語で呼んでいたと記録するが、 「Iambon」は川最上流の村を指す語であり、「Iatmul」はそのうちの単一の小さな氏族名に過ぎなかった という（同記事）。イアトムル語話者自身は現在も集団全体を「イアトムル」と呼ぶことは稀で、 自らを語るときは氏族・リネージ・村の名、あるいは植民地期に由来する地域名「セピック」を使う （同記事）——self_identified を false とした根拠。当事者による名乗りではなく、外部の研究者による 分類名が学術的に定着した点は、狩野派・土佐派のような当事者の家名とは性格が異なる"
+      },
+      "claims": [
+        {
+          "field": "kind",
+          "source": "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300021904",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "originated_in",
+          "source": "https://en.wikipedia.org/wiki/Iatmul_people",
+          "certainty": "scholarly"
+        }
+      ],
+      "space": [
+        {
+          "role": "originated_in",
+          "target": "place/sepik"
+        }
+      ],
+      "relations": [],
+      "images": [
+        {
+          "url": "https://images.metmuseum.org/CRDImages/ao/original/DP-20791-001.jpg",
+          "source_page": "https://www.metmuseum.org/art/collection/search/311262",
+          "license": "cc0",
+          "note": "《聖なるスリット・ゴング（ワケン）》19世紀、イアトムル、コミンディンビト村、中流セピック川 （The Michael C. Rockefeller Memorial Collection, Metropolitan Museum of Art, Open Access）。 巨木を刳り抜いた太鼓で、把手部分に祖先・トーテム動物の意匠が彫られる"
+        },
+        {
+          "url": "https://images.metmuseum.org/CRDImages/ao/original/DP-20792-001.jpg",
+          "source_page": "https://www.metmuseum.org/art/collection/search/311263",
+          "license": "cc0",
+          "note": "同じくコミンディンビト村出土の《聖なるスリット・ゴング（ワケン）》19世紀（同館蔵、Open Access）。前項と対になる作例——大型のスリット・ゴングは男女一対など複数を儀礼の家の床に 並べて置く慣行が記録されている（factsanddetails.com \"Sepik River Groups\"、二次情報）"
+        }
+      ],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q3147375",
+        "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300021904",
+        "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300021901",
+        "https://en.wikipedia.org/wiki/Iatmul_people",
+        "https://en.wikipedia.org/wiki/Sepik_River",
+        "https://www.wikidata.org/wiki/Q62556769",
+        "https://www.wikidata.org/wiki/Q848308",
+        "https://www.metmuseum.org/art/collection/search/311262",
+        "https://www.metmuseum.org/art/collection/search/311263",
+        "https://ioa.factsanddetails.com/article/entry-563.html",
+        "https://ioa.factsanddetails.com/article/entry-962.html",
+        "https://www.britannica.com/art/Oceanic-art/The-Sepik-River-regions",
+        "https://global.oup.com/academic/product/names-are-thicker-than-blood-9780197264454"
+      ],
+      "status": "draft",
+      "updated": "2026-08-09",
+      "path": "entities/movements/iatmul-carving.md"
     },
     "movement/indochina-lacquer-painting": {
       "id": "movement/indochina-lacquer-painting",
@@ -599,6 +956,76 @@
       "status": "draft",
       "updated": "2026-08-09",
       "path": "entities/movements/jingyeong-sansuhwa.md"
+    },
+    "movement/kangra-painting": {
+      "id": "movement/kangra-painting",
+      "uri": "urn:ahn:movement/kangra-painting",
+      "type": "movement",
+      "kind": "period-style",
+      "label_ja": "カーングラ派",
+      "label_en": "Kangra painting",
+      "authority": {
+        "wikidata": "Q6362867",
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "Getty AATは「Rajput (culture and style)」（300019020）の下に「Pahari」（300018997）→「Kangra」という3階層のNarrower Termとしてカーングラを持つ（Tesaurus d'Art i Arquitectura のミラー、https://aatesaurus.cultura.gencat.cat/aat/getty_en/index.php?%2Frajput=&tema=31367026 で確認）が、カーングラ自身の主題ID（subjectid）はミラー上のNT一覧表示では番号が示されず、Getty本家のAATServletへの文字列検索（find=Kangra）もHTTP 400で応答せず、単独では特定できなかった。親項目のRajput（300019020）・Pahari（300018997）は特定できている"
+      },
+      "time": {
+        "start": "173X",
+        "end": null,
+        "display": "パンディト・スーの息子マナクとナインスクがグレール（Guler）で新様式を確立した1730年代を起点とし、サンサール・チャンド治世下（1775/76〜1824年）のカーングラ宮廷で最盛期を迎えた。1806年のグルカ侵攻で領土の大半を失った後も、サンサール・チャンドはティラー・スジャンプルへの事実上の亡命先で絵師・詩人の庇護を続けたとされ、1824年の彼の死をもって宮廷の庇護がどこまで終わったかは出典間で一致しない"
+      },
+      "naming": {
+        "self_identified": false,
+        "named_by": null,
+        "named_when": "1887",
+        "original_label": "Kangra painting",
+        "note": "「カーングラ派」という呼称そのものは、担い手が自ら名乗った記録がなく、後代の分類名である。theprint.inに掲載された書籍抜粋（二次情報、原文はボット対策でアクセスできず内容を直接確認できていない）は、この呼称を1887年の記事でJohn Lockwood Kipling（メイヨー美術学校初代校長）が最初に用いたと伝えるが、一次資料には未到達で確度は低い。呼称の論理自体は、様式が最も栄えた宮廷の地名（カーングラ）を取ったもので、担い手（マナク・ナインスク一族）の出身地はグレールであり出身地と呼称地が一致しない——ベンガル派と同型の「形成地」由来（`overviews/japan-school-types.md`の地名由来類型）にあたる"
+      },
+      "claims": [
+        {
+          "field": "kind",
+          "source": "https://en.wikipedia.org/wiki/Kangra_painting",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "time",
+          "source": "https://en.wikipedia.org/wiki/Kangra_painting",
+          "certainty": "scholarly"
+        }
+      ],
+      "space": [
+        {
+          "role": "originated_in",
+          "target": "place/kangra"
+        }
+      ],
+      "relations": [
+        {
+          "type": "influenced_by",
+          "target": "movement/mughal-painting",
+          "certainty": "scholarly",
+          "source": "https://en.wikipedia.org/wiki/Kangra_painting"
+        }
+      ],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q6362867",
+        "https://www.wikidata.org/wiki/Q2988788",
+        "https://en.wikipedia.org/wiki/Kangra_painting",
+        "https://en.wikipedia.org/wiki/Nainsukh",
+        "https://en.wikipedia.org/wiki/Manaku_of_Guler",
+        "https://en.wikipedia.org/wiki/Purkhu",
+        "https://en.wikipedia.org/wiki/Sansar_Chand",
+        "https://www.getty.edu/vow/AATFullDisplay?find=300019020&logic=AND&note=&subjectid=300019020",
+        "https://aatesaurus.cultura.gencat.cat/aat/getty_en/index.php?%2Frajput=&tema=31367026",
+        "https://www.livehistoryindia.com/story/snapshort-histories/sansar-chand-the-emperor-of-the-hills",
+        "https://en.wiktionary.org/wiki/Rajput",
+        "https://theprint.in/pageturner/excerpt/how-love-war-and-mughal-fine-art-inspired-kangra-painting/533500/"
+      ],
+      "status": "draft",
+      "updated": "2026-08-09",
+      "path": "entities/movements/kangra-painting.md"
     },
     "movement/kano-school": {
       "id": "movement/kano-school",
@@ -1515,6 +1942,76 @@
       "updated": "2026-08-09",
       "path": "entities/movements/safavid-painting.md"
     },
+    "movement/thirteen-moderns": {
+      "id": "movement/thirteen-moderns",
+      "uri": "urn:ahn:movement/thirteen-moderns",
+      "type": "movement",
+      "kind": "retrospective",
+      "label_ja": "ザ・サーティーン・モダンズ",
+      "label_en": "Thirteen Moderns",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "Wikidata（wbsearchentities、'Thirteen Moderns' / '13 Moderns' / 'Thirteen Moderns art' / 'modernist Philippine art movement' の各語で検索、2026-08-09）・Getty AAT（getty.edu 限定のWeb検索）のいずれにも該当項目が見つからなかった。人物側の Victorio C. Edades（Q2145607）は存在するが、集団『Thirteen Moderns』自体の項目はWikidataに存在しない"
+      },
+      "time": {
+        "start": "1938",
+        "end": "1941",
+        "display": "1938年（マニラのマラテ地区にエダデスが『Atelier of Modern Art』を開設。以後この画家たちが次々と結びついたとされる）〜1941年（12月の日本軍侵攻・第二次世界大戦の勃発により、戦前のこの世代の近代美術の展開が中断された）"
+      },
+      "founding_control": "internal",
+      "naming": {
+        "self_identified": false,
+        "named_by": null,
+        "named_when": null,
+        "original_label": null,
+        "note": "『十三人』という具体的な13名の名簿とその呼称そのものについて、当事者がこの名で自ら名乗ったという記録は見つかっていない。フィリピン大学准教授アリス・G・ギリェルモの論考（国際交流基金の日本語訳、2018年）は『まもなくこの3名に、[10名の名前]が加わって、彼らは「13名の現代人（ザ・サーティーン・モダンズ）」となった』と、歴史叙述としての三人称の地の文でこの語を導入しており、当事者の発言としては引用していない（[jpf.go.jp](https://www.jpf.go.jp/j/publish/asia_exhibition_history/pdf/17_95_modernism_5.pdf) p.70-71、二次情報）。英語版Wikipediaや複数のオンライン解説も同様に三人称の記述でこの語を用いる。この呼称が定着した最初の出版物として確認できる最有力候補は、美術史家ロド・パラス＝ペレスによる文化センター（Cultural Center of the Philippines）の1995年の資料集『Edades and the 13 Moderns』（[worldcat.org](https://search.worldcat.org/title/edades-and-the-13-moderns/oclc/37442639)）だが、これが初出か、それ以前（例えばプリタ・カラウ＝レデスマの1974年の著書『The Struggle for Philippine Art』）から使われていた呼称を追認・定着させたものかは未確認。エダデス自身が発表した文章（『The Case of the Leftist in Art』1935年、Atelier of Modern Artのパンフレット1938年）は自らを『モダン』『Atelier』と呼ぶが、『十三人』という数と名簿を伴う自称ではない。他方、当時の論争そのものは『モダニスト（Moderns）』対『保守派（Conservatives）』という対立の当事者としての自己認識を伴っていたことが複数の資料から窺える——ただしそれは13名という確定した名簿を持つ自称ではなく、より緩い陣営としての呼び方だった"
+      },
+      "claims": [
+        {
+          "field": "kind",
+          "source": "https://www.jpf.go.jp/j/publish/asia_exhibition_history/pdf/17_95_modernism_5.pdf",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "originated_in",
+          "source": "https://cdn.aaa.org.hk/_source/digital_collection/fedora_extracted/45808.pdf",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "time",
+          "source": "https://www.jpf.go.jp/j/publish/asia_exhibition_history/pdf/17_95_modernism_5.pdf",
+          "certainty": "scholarly"
+        }
+      ],
+      "space": [
+        {
+          "role": "originated_in",
+          "target": "place/manila"
+        }
+      ],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/victorio-edades"
+        }
+      ],
+      "sources": [
+        "https://www.jpf.go.jp/j/publish/asia_exhibition_history/pdf/17_95_modernism_5.pdf",
+        "https://cdn.aaa.org.hk/_source/digital_collection/fedora_extracted/45808.pdf",
+        "https://www.wikidata.org/wiki/Q2145607",
+        "https://en.wikipedia.org/wiki/Victorio_Edades",
+        "https://www.britannica.com/topic/Thirteen-Moderns",
+        "https://www.tumblr.com/galeriaderojo-blog-blog/22964738646/philart-101-the-thirteen-moderns",
+        "https://search.worldcat.org/title/edades-and-the-13-moderns/oclc/37442639",
+        "https://www.tatlerasia.com/lifestyle/arts/purita-kalaw-ledesma-the-woman-who-changed-the-history-of-philippine-art"
+      ],
+      "status": "draft",
+      "updated": "2026-08-09",
+      "path": "entities/movements/thirteen-moderns.md"
+    },
     "movement/tosa-school": {
       "id": "movement/tosa-school",
       "uri": "urn:ahn:movement/tosa-school",
@@ -1627,6 +2124,79 @@
       "status": "draft",
       "updated": "2026-08-09",
       "path": "entities/movements/wu-school.md"
+    },
+    "movement/zanabazar-school": {
+      "id": "movement/zanabazar-school",
+      "uri": "urn:ahn:movement/zanabazar-school",
+      "type": "movement",
+      "kind": "period-style",
+      "label_ja": "ザナバザル様式",
+      "label_en": "Zanabazar school",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "Wikidataで「Zanabazar」「Zanabazar school」「Zanabazar movement」「Jebtsundamba Khutuktu」を検索した。「Zanabazar」はQ735871（人物としてのザナバザル本人、P31=Q5=human）が、「Jebtsundamba Khutuktu」はQ1473851（description: lineage、転生の系譜そのもの）がヒットしたが、いずれも様式・流派としてのこの対象を指す項目ではない。「Zanabazar school」「Zanabazar movement」は0件。Getty AATは「Zanabazar」「Mongolian sculpture」「Ikh Khuree」「Mongolian Buddhist」のいずれの検索語でも0件だった"
+      },
+      "time": {
+        "start": "167X",
+        "end": null,
+        "display": "1670年代、トゥブフン寺の工房での制作開始（推定）〜19世紀（現存作の年代）。1930年代のモンゴル仏教弾圧による工房制度の断絶と、その後の継続・再興の有無は未確認"
+      },
+      "naming": {
+        "self_identified": false,
+        "named_by": null,
+        "named_when": null,
+        "original_label": "Zanabazar school（英語圏の美術史・古美術市場での慣行的呼称。モンゴル語の対応する原語表記・最初の使用者は未確認）",
+        "note": "「ザナバザル」自体、本人が生まれ持った名ではなく、1649年に5世ダライ・ラマがターラナータの転生と認定した際に授けたサンスクリット名「ジュニャーナヴァジュラ」のモンゴル語形である。琳派（尾形光琳の一字＋「派」）と同じく人名由来の命名だが、琳派が個人名の一部を切り出す造語であるのに対し、ザナバザル様式は個人名をそのまま使う点、かつその個人名自体が師（ダライ・ラマ）から授けられた宗教称号である点で、命名の構造は異なる。当事者（ザナバザル本人や後代の工房）がこの名で自称した記録は無く、後代の美術史・市場の側からの呼称と判断した"
+      },
+      "claims": [
+        {
+          "field": "kind",
+          "source": "https://en.wikipedia.org/wiki/Jebtsundamba_Khutuktu",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "time",
+          "source": "https://en.wikipedia.org/wiki/Zanabazar",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "originated_in",
+          "source": "https://www.wikidata.org/wiki/Q7857142",
+          "certainty": "scholarly"
+        }
+      ],
+      "space": [
+        {
+          "role": "originated_in",
+          "target": "place/tovkhon-monastery"
+        },
+        {
+          "role": "active_in",
+          "target": "place/ulaanbaatar"
+        }
+      ],
+      "relations": [],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Zanabazar",
+        "https://en.wikipedia.org/wiki/Jebtsundamba_Khutuktu",
+        "https://www.wikidata.org/wiki/Q735871",
+        "https://www.wikidata.org/wiki/Q1473851",
+        "https://www.wikidata.org/wiki/Q7857142",
+        "https://encyclopediaofbuddhism.org/wiki/Zanabazar",
+        "https://www.gauchetexpert.com/en/post/a-gilded-bronze-medicine-buddha-in-the-zanabazar-style-the-golden-age-of-mongolian-buddhist-sculptu",
+        "https://studybuddhism.com/en/advanced-studies/history-culture/buddhism-in-mongolia/buddhist-art-styles-in-the-mongol-regions",
+        "https://www.asianart.com/mongolia/zanabazr.html",
+        "https://www.mongolianz.com/post/2021/05/11/the-sublime-sculptures-of-undur-gegeen-zanabazar/",
+        "https://www.bukowskis.com/en/auctions/669/1248-a-mongolian-gilt-bronze-figure-of-buddha-zanabazar-school-18th-century",
+        "https://en.wikipedia.org/wiki/Stalinist_repressions_in_Mongolia",
+        "https://en.wikipedia.org/wiki/Gankh%C3%BC%C3%BCgiin_P%C3%BCrevbat"
+      ],
+      "status": "draft",
+      "updated": "2026-08-09",
+      "path": "entities/movements/zanabazar-school.md"
     },
     "movement/zaria-art-society": {
       "id": "movement/zaria-art-society",
@@ -2172,6 +2742,35 @@
       "updated": "2026-08-09",
       "path": "entities/persons/rudolf-bonnet.md"
     },
+    "person/shakir-hassan-al-said": {
+      "id": "person/shakir-hassan-al-said",
+      "uri": "urn:ahn:person/shakir-hassan-al-said",
+      "type": "person",
+      "label_ja": "シャーキル・ハサン・アル=サイード",
+      "label_en": "Shakir Hassan Al Said",
+      "authority": {
+        "wikidata": "Q7462952",
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": "1925",
+        "end": "2004",
+        "display": "1925年〜2004年（生没月日はWikidataに記載なし・precision 9＝年単位）"
+      },
+      "space": [],
+      "relations": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q7462952",
+        "https://theartwanderer.co.uk/the-baghdad-modern-art-group-birth-of-arabian-modernism/",
+        "https://mathaf.org.qa/en/encyclopedia/en/bios/Pages/Shakir-Hassan-Al-Said.aspx"
+      ],
+      "status": "stub",
+      "updated": "2026-08-09",
+      "path": "entities/persons/shakir-hassan-al-said.md"
+    },
     "person/uche-okeke": {
       "id": "person/uche-okeke",
       "uri": "urn:ahn:person/uche-okeke",
@@ -2229,6 +2828,35 @@
       "updated": "2026-08-09",
       "path": "entities/persons/victor-tardieu.md"
     },
+    "person/victorio-edades": {
+      "id": "person/victorio-edades",
+      "uri": "urn:ahn:person/victorio-edades",
+      "type": "person",
+      "label_ja": "ビクトリオ・エダデス",
+      "label_en": "Victorio Edades",
+      "authority": {
+        "wikidata": "Q2145607",
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": "1895-12-13",
+        "end": "1985-03-07",
+        "display": "1895年12月13日 – 1985年3月7日"
+      },
+      "space": [],
+      "relations": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q2145607",
+        "https://en.wikipedia.org/wiki/Victorio_Edades",
+        "https://cdn.aaa.org.hk/_source/digital_collection/fedora_extracted/45808.pdf"
+      ],
+      "status": "stub",
+      "updated": "2026-08-09",
+      "path": "entities/persons/victorio-edades.md"
+    },
     "place/agra": {
       "id": "place/agra",
       "uri": "urn:ahn:place/agra",
@@ -2260,6 +2888,38 @@
       "status": "stub",
       "updated": "2026-08-09",
       "path": "entities/places/agra.md"
+    },
+    "place/baghdad": {
+      "id": "place/baghdad",
+      "uri": "urn:ahn:place/baghdad",
+      "type": "place",
+      "label_ja": "バグダード",
+      "label_en": "Baghdad",
+      "authority": {
+        "wikidata": "Q1530",
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": null,
+        "end": null,
+        "display": null
+      },
+      "region": "mena",
+      "coordinates": [
+        33.315277777778,
+        44.366111111111
+      ],
+      "space": [],
+      "relations": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q1530"
+      ],
+      "status": "stub",
+      "updated": "2026-08-09",
+      "path": "entities/places/baghdad.md"
     },
     "place/benin-city": {
       "id": "place/benin-city",
@@ -2357,6 +3017,38 @@
       "status": "stub",
       "updated": "2026-08-08",
       "path": "entities/places/chicago.md"
+    },
+    "place/gondar": {
+      "id": "place/gondar",
+      "uri": "urn:ahn:place/gondar",
+      "type": "place",
+      "label_ja": "ゴンダール",
+      "label_en": "Gondar",
+      "authority": {
+        "wikidata": "Q218861",
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": null,
+        "end": null,
+        "display": null
+      },
+      "region": "africa-sub",
+      "coordinates": [
+        12.6,
+        37.466667
+      ],
+      "space": [],
+      "relations": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q218861"
+      ],
+      "status": "stub",
+      "updated": "2026-08-09",
+      "path": "entities/places/gondar.md"
     },
     "place/guangzhou": {
       "id": "place/guangzhou",
@@ -2615,6 +3307,70 @@
       "updated": "2026-08-09",
       "path": "entities/places/istanbul.md"
     },
+    "place/kaesong": {
+      "id": "place/kaesong",
+      "uri": "urn:ahn:place/kaesong",
+      "type": "place",
+      "label_ja": "開城",
+      "label_en": "Kaesong",
+      "authority": {
+        "wikidata": "Q109079",
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": "0918",
+        "end": "1394",
+        "display": "開京（開城）。高麗王朝の首都（918年建国〜1394年、太祖李成桂による漢陽遷都まで）"
+      },
+      "region": "asia-east-korea",
+      "coordinates": [
+        37.971667,
+        126.552778
+      ],
+      "space": [],
+      "relations": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q109079"
+      ],
+      "status": "stub",
+      "updated": "2026-08-09",
+      "path": "entities/places/kaesong.md"
+    },
+    "place/kangra": {
+      "id": "place/kangra",
+      "uri": "urn:ahn:place/kangra",
+      "type": "place",
+      "label_ja": "カーングラ",
+      "label_en": "Kangra",
+      "authority": {
+        "wikidata": "Q662868",
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": null,
+        "end": null,
+        "display": null
+      },
+      "region": "asia-south",
+      "coordinates": [
+        32.103,
+        76.273
+      ],
+      "space": [],
+      "relations": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q662868"
+      ],
+      "status": "stub",
+      "updated": "2026-08-09",
+      "path": "entities/places/kangra.md"
+    },
     "place/kolkata": {
       "id": "place/kolkata",
       "uri": "urn:ahn:place/kolkata",
@@ -2711,6 +3467,38 @@
       "status": "stub",
       "updated": "2026-08-09",
       "path": "entities/places/lake-okataina.md"
+    },
+    "place/manila": {
+      "id": "place/manila",
+      "uri": "urn:ahn:place/manila",
+      "type": "place",
+      "label_ja": "マニラ",
+      "label_en": "Manila",
+      "authority": {
+        "wikidata": "Q1461",
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": null,
+        "end": null,
+        "display": null
+      },
+      "region": "asia-southeast",
+      "coordinates": [
+        14.595833,
+        120.977222
+      ],
+      "space": [],
+      "relations": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q1461"
+      ],
+      "status": "stub",
+      "updated": "2026-08-09",
+      "path": "entities/places/manila.md"
     },
     "place/mexico-city": {
       "id": "place/mexico-city",
@@ -2968,6 +3756,39 @@
       "updated": "2026-08-09",
       "path": "entities/places/seoul.md"
     },
+    "place/sepik": {
+      "id": "place/sepik",
+      "uri": "urn:ahn:place/sepik",
+      "type": "place",
+      "label_ja": "セピック地方",
+      "label_en": "Sepik",
+      "authority": {
+        "wikidata": "Q62556769",
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": null,
+        "end": null,
+        "display": null
+      },
+      "region": "oceania",
+      "coordinates": [
+        -4.110977,
+        142.883682
+      ],
+      "space": [],
+      "relations": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q62556769",
+        "https://en.wikipedia.org/wiki/Sepik_River"
+      ],
+      "status": "stub",
+      "updated": "2026-08-09",
+      "path": "entities/places/sepik.md"
+    },
     "place/shigatse": {
       "id": "place/shigatse",
       "uri": "urn:ahn:place/shigatse",
@@ -3065,6 +3886,38 @@
       "updated": "2026-08-09",
       "path": "entities/places/tabriz.md"
     },
+    "place/tovkhon-monastery": {
+      "id": "place/tovkhon-monastery",
+      "uri": "urn:ahn:place/tovkhon-monastery",
+      "type": "place",
+      "label_ja": "トゥブフン寺",
+      "label_en": "Tövkhön Monastery",
+      "authority": {
+        "wikidata": "Q7857142",
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": "1648",
+        "end": null,
+        "display": "1648年建立（Wikidata P571、precision 9・年単位）"
+      },
+      "region": "asia-central",
+      "coordinates": [
+        47.01221,
+        102.25499
+      ],
+      "space": [],
+      "relations": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q7857142"
+      ],
+      "status": "stub",
+      "updated": "2026-08-09",
+      "path": "entities/places/tovkhon-monastery.md"
+    },
     "place/ubud": {
       "id": "place/ubud",
       "uri": "urn:ahn:place/ubud",
@@ -3096,6 +3949,38 @@
       "status": "stub",
       "updated": "2026-08-09",
       "path": "entities/places/ubud.md"
+    },
+    "place/ulaanbaatar": {
+      "id": "place/ulaanbaatar",
+      "uri": "urn:ahn:place/ulaanbaatar",
+      "type": "place",
+      "label_ja": "ウランバートル",
+      "label_en": "Ulaanbaatar",
+      "authority": {
+        "wikidata": "Q23430",
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": null,
+        "end": null,
+        "display": null
+      },
+      "region": "asia-central",
+      "coordinates": [
+        47.921357,
+        106.905515
+      ],
+      "space": [],
+      "relations": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q23430"
+      ],
+      "status": "stub",
+      "updated": "2026-08-09",
+      "path": "entities/places/ulaanbaatar.md"
     },
     "place/zaria": {
       "id": "place/zaria",
@@ -3242,6 +4127,18 @@
       "to": "place/sao-paulo"
     },
     {
+      "from": "movement/baghdad-modern-art-group",
+      "type": "created_by",
+      "to": "person/shakir-hassan-al-said",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "movement/baghdad-modern-art-group",
+      "type": "originated_in",
+      "to": "place/baghdad"
+    },
+    {
       "from": "movement/bengal-school",
       "type": "created_by",
       "to": "person/abanindranath-tagore",
@@ -3285,6 +4182,16 @@
       "to": "place/seoul"
     },
     {
+      "from": "movement/gondarine-church-painting",
+      "type": "originated_in",
+      "to": "place/gondar"
+    },
+    {
+      "from": "movement/goryeo-buddhist-painting",
+      "type": "originated_in",
+      "to": "place/kaesong"
+    },
+    {
       "from": "movement/herat-school",
       "type": "diffused_to",
       "to": "place/tabriz",
@@ -3300,6 +4207,11 @@
       "from": "movement/hudson-river-school",
       "type": "originated_in",
       "to": "place/new-york-city"
+    },
+    {
+      "from": "movement/iatmul-carving",
+      "type": "originated_in",
+      "to": "place/sepik"
     },
     {
       "from": "movement/indochina-lacquer-painting",
@@ -3331,6 +4243,18 @@
       "from": "movement/jingyeong-sansuhwa",
       "type": "originated_in",
       "to": "place/hanseong"
+    },
+    {
+      "from": "movement/kangra-painting",
+      "type": "influenced_by",
+      "to": "movement/mughal-painting",
+      "certainty": "scholarly",
+      "source": "https://en.wikipedia.org/wiki/Kangra_painting"
+    },
+    {
+      "from": "movement/kangra-painting",
+      "type": "originated_in",
+      "to": "place/kangra"
     },
     {
       "from": "movement/kano-school",
@@ -3460,6 +4384,18 @@
       "to": "place/isfahan"
     },
     {
+      "from": "movement/thirteen-moderns",
+      "type": "created_by",
+      "to": "person/victorio-edades",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "movement/thirteen-moderns",
+      "type": "originated_in",
+      "to": "place/manila"
+    },
+    {
       "from": "movement/tosa-school",
       "type": "originated_in",
       "to": "place/kyoto"
@@ -3468,6 +4404,16 @@
       "from": "movement/wu-school",
       "type": "originated_in",
       "to": "place/suzhou"
+    },
+    {
+      "from": "movement/zanabazar-school",
+      "type": "originated_in",
+      "to": "place/tovkhon-monastery"
+    },
+    {
+      "from": "movement/zanabazar-school",
+      "type": "active_in",
+      "to": "place/ulaanbaatar"
     },
     {
       "from": "movement/zaria-art-society",
@@ -3586,6 +4532,12 @@
       "derived": true
     },
     {
+      "from": "person/shakir-hassan-al-said",
+      "type": "created",
+      "to": "movement/baghdad-modern-art-group",
+      "derived": true
+    },
+    {
       "from": "person/abanindranath-tagore",
       "type": "created",
       "to": "movement/bengal-school",
@@ -3634,6 +4586,12 @@
       "derived": true
     },
     {
+      "from": "movement/mughal-painting",
+      "type": "influenced",
+      "to": "movement/kangra-painting",
+      "derived": true
+    },
+    {
       "from": "movement/post-impressionism",
       "type": "groups",
       "to": "movement/neo-impressionism",
@@ -3667,6 +4625,12 @@
       "from": "movement/herat-school",
       "type": "influenced",
       "to": "movement/safavid-painting",
+      "derived": true
+    },
+    {
+      "from": "person/victorio-edades",
+      "type": "created",
+      "to": "movement/thirteen-moderns",
       "derived": true
     },
     {

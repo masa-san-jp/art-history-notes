@@ -126,6 +126,24 @@ SPARQL パーサエラーや権限エラーになる。**取れたら足す、�
 - **後付けの括りへの所属は `part_of` ではなく `grouped_as`**（例: 新印象派 → ポスト印象派）
 - **同時代の並行関係は書かない。** 時間と空間から機械が出す
 
+### 4.5 パブリックドメインの画像を1〜3点付ける
+
+その括りを**目で見られるようにする**。代表的な作品の画像を `images` に入れる（任意項目だが、
+所蔵館のオープンアクセスで見つかるなら入れる）。
+
+```bash
+# 例: Art Institute of Chicago（データは CC0）
+curl -s "https://api.artic.edu/api/v1/artworks/search?q=<作品名>&fields=id,title,image_id,is_public_domain" | python3 -m json.tool | head -40
+# image_id が取れたら画像URLは https://www.artic.edu/iiif/2/<image_id>/full/843,/0/default.jpg
+```
+
+**パブリックドメイン相当だけ**（`license: public-domain` / `cc0` / `pdm`）。検証が語彙を強制する。
+`source_page`（所蔵館の作品ページ）を必ず添える——ライセンスの根拠がそこにある。
+**権利が不明なものは入れない。** 「古いから大丈夫」で入れない。**画像ファイルは repo に置かない**（リンクだけ）。
+
+出どころの候補: Art Institute of Chicago（CC0）／Metropolitan Museum（Open Access）／
+Cleveland Museum（CC0）／Rijksmuseum／National Gallery of Art／Wikimedia Commons（ファイル単位で確認）。
+
 ### 5. 本文を書く
 
 見出しは固定（`docs/schema.md` の「本文の型」）。movement は:

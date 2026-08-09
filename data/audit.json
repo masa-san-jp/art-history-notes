@@ -1,16 +1,6 @@
 {
   "findings": [
     {
-      "kind": "kind-bias",
-      "about": "asia-east-korea",
-      "text": "asia-east-korea の movement 2件が全部 retrospective。kind が地域の言い換えになっていないか、別の kind の例を1件探す"
-    },
-    {
-      "kind": "kind-bias",
-      "about": "mena",
-      "text": "mena の movement 2件が全部 period-style。kind が地域の言い換えになっていないか、別の kind の例を1件探す"
-    },
-    {
       "kind": "dead-end",
       "about": "movement/post-impressionism",
       "text": "新印象派 の grouped_as 先 ポスト印象派 が stub のまま（辿れない）"
