@@ -49,6 +49,7 @@ tested:
   - {region: europe-west, by: movement/sienese-school, result: held}
   - {region: asia-east-japan, by: concept/ukiyo-e, result: held}
   - {region: asia-east-japan, by: movement/utagawa-school, result: revised}
+  - {region: americas-north, by: movement/harlem-renaissance, result: revised}
 tests_regions:            # ここが埋まるまで仮説は仮説のまま（tools/audit.py が指す）
   - asia-east-china
   - asia-east-korea
@@ -130,6 +131,7 @@ tests_regions:            # ここが埋まるまで仮説は仮説のまま（t
 | 西欧（5件目） | [シエナ派](../entities/movements/sienese-school.md) | 崩れなかった |
 | 日本（concept） | [浮世絵](../entities/concepts/ukiyo-e.md) | **典拠自身が concept と分類していた** |
 | 日本（4件目） | [歌川派](../entities/movements/utagawa-school.md) | **線を繋ぐものに「名跡の継承」が加わった** |
+| 北米（4件目） | [ハーレム・ルネサンス](../entities/movements/harlem-renaissance.md) | **名の言い換えが対象の範囲を狭めた** |
 
 浙派は血縁なし・師弟希薄・官職はあるが世襲でない（各世代が個別に画院へ出入りするだけ）。
 制度としての実体が無く、括りは後世の美術史記述（董其昌『画禅室随筆』）から来ている。

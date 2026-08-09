@@ -988,6 +988,88 @@
       "updated": "2026-08-09",
       "path": "entities/movements/group-of-seven.md"
     },
+    "movement/harlem-renaissance": {
+      "id": "movement/harlem-renaissance",
+      "uri": "urn:ahn:movement/harlem-renaissance",
+      "type": "movement",
+      "kind": "self-declared",
+      "label_ja": "ハーレム・ルネサンス",
+      "label_en": "Harlem Renaissance",
+      "authority": {
+        "wikidata": "Q829895",
+        "aat": "300121558",
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": "1925-03",
+        "end": "1935",
+        "display": "1925年3月（『Survey Graphic』誌「ハーレム特集号」）〜1935年（3月19日のハーレム暴動を機に「終わった」とする通説）。ただし始期・終期とも出典間で幅がある（本文参照）"
+      },
+      "naming": {
+        "self_identified": true,
+        "named_by": null,
+        "named_when": null,
+        "original_label": "New Negro / Negro Renaissance",
+        "note": "当事者（アラン・ロック）自身が1925年11月付の序文（本KBが直接読んだ一次資料、後掲アーカイブ資料）で『the first fruits of the Negro Renaissance（ニグロ・ルネサンスの初物）』と書いており、当時この現象を指した語は『Negro Renaissance』『New Negro』であって『Harlem Renaissance』ではない。英語版Wikipediaも『At the time, it was known as the \"New Negro Movement\"』とし、Wikidata Q829895のaliasにも『New Negro Movement』が入っている（いずれも本KBが直接確認）。『Harlem Renaissance』への呼び替えの時期・命名者は、当たった範囲では確定できない。研究者Ernest Julius Mitchell II（Amerikastudien/American Studies誌55巻4号, 2010年, pp.641-65、以下Mitchell論文）の要旨（本KBはJSTOR本体を読めておらず検索エンジン経由の複数の独立した要約でのみ確認——二次要約経由）によれば『Harlem Renaissance』という語は1940年より前には印刷物に現れず、1960年代に広く定着したとされる。命名者を named_by に特定できないため null にした"
+      },
+      "claims": [
+        {
+          "field": "kind",
+          "source": "https://archive.org/download/newnegrointerpre00unse/newnegrointerpre00unse_djvu.txt",
+          "certainty": "attested"
+        },
+        {
+          "field": "time",
+          "source": "https://archive.org/download/newnegrointerpre00unse/newnegrointerpre00unse_djvu.txt",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "originated_in",
+          "source": "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300121558",
+          "certainty": "scholarly"
+        }
+      ],
+      "founding_control": "shared",
+      "space": [
+        {
+          "role": "originated_in",
+          "target": "place/new-york-city"
+        }
+      ],
+      "relations": [],
+      "images": [
+        {
+          "url": "https://ids.si.edu/ids/download?id=NPG-9800260B_2.jpg",
+          "source_page": "https://npg.si.edu/object/npg_NPG.98.129.a",
+          "license": "cc0",
+          "note": "ウィノルド・ライス《アラン・ロック》1925年、印刷図版（『The New Negro』掲載）。国立肖像画美術館（スミソニアン協会）所蔵、NPG.98.129.a。Smithsonian Open Access APIでobjectRights=CC0を確認"
+        },
+        {
+          "url": "https://ids.si.edu/ids/download?id=NPG-NPG_72_79DuBois-000001.jpg",
+          "source_page": "https://npg.si.edu/object/npg_NPG.72.79",
+          "license": "cc0",
+          "note": "ウィノルド・ライス《W・E・B・デュボイス》1925年、パステル画（原画。『The New Negro』のために制作された肖像連作の一つ）。国立肖像画美術館（スミソニアン協会）所蔵、NPG.72.79。Smithsonian Open Access APIでobjectRights=CC0を確認"
+        }
+      ],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q829895",
+        "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300121558",
+        "https://archive.org/details/newnegrointerpre00unse",
+        "https://archive.org/download/newnegrointerpre00unse/newnegrointerpre00unse_djvu.txt",
+        "https://en.wikipedia.org/wiki/Harlem_Renaissance",
+        "https://en.wikipedia.org/wiki/New_Negro",
+        "https://en.wikipedia.org/wiki/Charlotte_Osgood_Mason",
+        "https://npg.si.edu/object/npg_NPG.98.129.a",
+        "https://npg.si.edu/object/npg_NPG.72.79",
+        "https://www.jstor.org/stable/i40051482",
+        "https://www.nationalgeographic.com/history/article/harlem-renaissance-dinner"
+      ],
+      "status": "draft",
+      "updated": "2026-08-09",
+      "path": "entities/movements/harlem-renaissance.md"
+    },
     "movement/herat-school": {
       "id": "movement/herat-school",
       "uri": "urn:ahn:movement/herat-school",
@@ -5538,6 +5620,11 @@
       "from": "movement/group-of-seven",
       "type": "originated_in",
       "to": "place/toronto"
+    },
+    {
+      "from": "movement/harlem-renaissance",
+      "type": "originated_in",
+      "to": "place/new-york-city"
     },
     {
       "from": "movement/herat-school",

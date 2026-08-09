@@ -14,13 +14,13 @@ depends_on: []
 <!-- generated:coverage:start -->
 データの最新日: 2026-08-09 — `python3 tools/build_graph.py` が生成（手で書き換えない）
 
-movement **43** 件（stub 1件は不算入）／内訳 {'draft': 41, 'stub': 1, 'verified': 2}
+movement **44** 件（stub 1件は不算入）／内訳 {'draft': 42, 'stub': 1, 'verified': 2}
 
 | 文化圏 | 12C | 13C | 15C | 16C | 17C | 18C | 19C | 20C | 年代不明 | 計 |
 |---|---|---|---|---|---|---|---|---|---|---|
 | europe-west（西欧・南欧・北欧） |  | 1 |  |  |  |  | 3 | 1 |  | 5 |
 | europe-east（中東欧・ロシア・ビザンツ圏） | 1 |  |  |  |  |  | 1 | 1 |  | 3 |
-| americas-north（北米） |  |  |  |  |  |  | 1 | 2 |  | 3 |
+| americas-north（北米） |  |  |  |  |  |  | 1 | 3 |  | 4 |
 | mena（中東・北アフリカ） ※非西洋 |  |  | 1 | 1 |  |  |  | 1 |  | 3 |
 | africa-sub（サブサハラ・アフリカ） ※非西洋 |  | 1 |  |  | 1 |  |  | 1 |  | 3 |
 | asia-central（中央アジア・チベット・モンゴル） ※非西洋 |  |  | 2 |  | 1 |  |  |  |  | 3 |
@@ -39,10 +39,10 @@ movement **43** 件（stub 1件は不算入）／内訳 {'draft': 41, 'stub': 1,
 
 受け入れ条件の達成度:
 
-- movement_total: 43/100（stub 1件は不算入）
-- non_west_ratio: 0.74/0.5
+- movement_total: 44/100（stub 1件は不算入）
+- non_west_ratio: 0.73/0.5
 - per_bucket_min: 13/13 バケットが 3件以上
-- pre_1800_ratio: 0.44/0.3
+- pre_1800_ratio: 0.43/0.3
 - isolated_ratio: 0.00（上限 0.1）
 <!-- generated:coverage:end -->
 
