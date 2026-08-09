@@ -28,6 +28,7 @@ space:
   - {role: originated_in, target: place/kangra}
 relations:
   - {type: influenced_by, target: movement/mughal-painting, certainty: scholarly, source: "https://en.wikipedia.org/wiki/Kangra_painting"}
+  - {type: derives_from, target: movement/basohli-painting, certainty: scholarly, source: "https://en.wikipedia.org/wiki/Basohli"}
 sources:
   - https://www.wikidata.org/wiki/Q6362867
   - https://www.wikidata.org/wiki/Q2988788
@@ -51,7 +52,7 @@ images:
     license: cc0
     note: "マナク《シュカとサラナの羅刹の間者を解き放つラーマ：『ランカー包囲』シリーズ挿画》c.1725年。メトロポリタン美術館蔵（isPublicDomain: true）"
 status: draft
-updated: 2026-08-09
+updated: 2026-08-10
 ---
 
 # カーングラ派 / Kangra painting
@@ -199,6 +200,21 @@ painting"）を踏まえた。ムガル絵画の`155X`と同じ理由で、**様
 **未確認**: グレールとカーングラのどちらを「発生地」とすべきかは、様式の起点（グレール）と
 呼称の由来・最盛期（カーングラ）のどちらを基準にするかで変わる。本ファイルは後者を採ったが、
 一次資料での確認はしていない。
+
+## バソーリ派との接続
+
+Wikipediaは同じパハーリー絵画圏の一派である[movement/basohli-painting](basohli-painting.md)
+（現ジャンムー・カシミール連邦直轄領カトゥア県）について「considered the first school of Pahari
+paintings, and which evolved into the much prolific Kangra paintings school by mid-eighteenth
+century」と記し、バソーリ派を18世紀半ばにかけてカーングラ派へ発展した先行様式として位置づける
+（[Wikipedia "Basohli"](https://en.wikipedia.org/wiki/Basohli)）。
+
+この関係は担い手の移動でも裏付けられる。本ファイルで既に確認した通り、ナインスクは1765年頃から
+その没年（1778年）まで、バソーリのラージャ・アムリト・パルに仕えた（上記「②血縁の継続」参照、
+出典は[Wikipedia "Nainsukh"](https://en.wikipedia.org/wiki/Nainsukh)）。ナインスクとその兄
+マナクを育てたパンディト・スー一族は、グレール・ジャスロータ・バソーリ・チャンバー・カーングラと
+複数の宮廷を渡り歩いており、バソーリはその経路上の一宮廷として位置づけられる。以上から
+`derives_from`を`certainty: scholarly`で張った。
 
 ## 未着手
 

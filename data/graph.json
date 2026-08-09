@@ -285,6 +285,82 @@
       "updated": "2026-08-09",
       "path": "entities/movements/abstract-expressionism.md"
     },
+    "movement/an-gyeon-school": {
+      "id": "movement/an-gyeon-school",
+      "uri": "urn:ahn:movement/an-gyeon-school",
+      "type": "movement",
+      "kind": "retrospective",
+      "label_ja": "安堅派",
+      "label_en": "An Gyeon school",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "Wikidata を「안견파」（ko）「An Gyeon school」（en）で検索したが該当項目なし（安堅本人 Q1036353 は取れたが、流派側の項目は無い）。AAT は www.getty.edu/vow/AATServlet 経由での検索がいずれも 400 Bad Request で到達できず——docs/investigation-task.md が既知の問題として挙げる範囲。NDL は「安堅派」でクエリすると SPARQL パーサエラー、Japan Search は横断検索ページが JS 描画で内容を取得できず、いずれも docs/investigation-task.md が既知の未確認事項として挙げる到達性問題と一致する"
+      },
+      "time": {
+        "start": "14XX",
+        "end": "16XX",
+        "display": "15世紀（世宗代〜世祖代、安堅の画院・画署活動期）に成立し、朝鮮中期（16〜17世紀、金明国ら後継世代の活動期）まで画壇に影響"
+      },
+      "naming": {
+        "self_identified": false,
+        "named_by": "person/ahn-hwi-joon",
+        "named_when": "1980",
+        "original_label": "安堅派",
+        "note": "한국민족문화대백과사전「안견파」（執筆者は安輝濬本人）は「'안견파'라는 용어는 안휘준…에 의해 명명되었다」（「安堅派」という用語は安輝濬によって命名された）と明記する。安輝濬の主著『韓国絵画史』（一志社、1980年）が用語の学術的な確立を示す最も具体的な年代の分かる文献だが、それ以前の1974年論文「安堅과 그의 画風—夢遊桃源図を中心으로」（『震檀学報』38）で既に同語を用いていた可能性があり、named_when を1980年と特定できるかは**未確認**"
+      },
+      "claims": [
+        {
+          "field": "kind",
+          "source": "https://encykorea.aks.ac.kr/Article/E0069639",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "originated_in",
+          "source": "https://encykorea.aks.ac.kr/Article/E0034491",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "time",
+          "source": "https://encykorea.aks.ac.kr/Article/E0069639",
+          "certainty": "scholarly"
+        }
+      ],
+      "space": [
+        {
+          "role": "originated_in",
+          "target": "place/hanseong"
+        },
+        {
+          "role": "active_in",
+          "target": "place/hanseong"
+        }
+      ],
+      "relations": [],
+      "sources": [
+        "https://encykorea.aks.ac.kr/Article/E0069639",
+        "https://encykorea.aks.ac.kr/Article/E0034491",
+        "https://encykorea.aks.ac.kr/Article/E0018824",
+        "https://ko.wikipedia.org/wiki/%EB%AA%BD%EC%9C%A0%EB%8F%84%EC%9B%90%EB%8F%84",
+        "https://www.wikidata.org/wiki/Q1036353",
+        "https://www.wikidata.org/wiki/Q12595455",
+        "https://www.khan.co.kr/article/202607201829001/",
+        "https://commons.wikimedia.org/wiki/File:Mongyudowondo.jpg"
+      ],
+      "images": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/e/e4/Mongyudowondo.jpg",
+          "source_page": "https://commons.wikimedia.org/wiki/File:Mongyudowondo.jpg",
+          "license": "pdm",
+          "note": "安堅《夢遊桃源図（몽유도원도）》1447年、絹本淡彩。安堅派という括りの起点となった安堅自身の代表作。現在は日本・天理大学附属天理図書館蔵。Wikimedia Commons は CC-PD-Mark／PD-old-100-expired を付し、出典を韓国著作権委員会「공유마당」（gongu.copyright.or.kr）および Google Arts & Culture とする"
+        }
+      ],
+      "status": "draft",
+      "updated": "2026-08-10",
+      "path": "entities/movements/an-gyeon-school.md"
+    },
     "movement/antropofagia": {
       "id": "movement/antropofagia",
       "uri": "urn:ahn:movement/antropofagia",
@@ -437,6 +513,90 @@
       "status": "draft",
       "updated": "2026-08-09",
       "path": "entities/movements/baghdad-modern-art-group.md"
+    },
+    "movement/baghdad-school-of-illustration": {
+      "id": "movement/baghdad-school-of-illustration",
+      "uri": "urn:ahn:movement/baghdad-school-of-illustration",
+      "type": "movement",
+      "kind": "retrospective",
+      "label_ja": "バグダード派（写本挿絵）",
+      "label_en": "Baghdad School of manuscript illustration",
+      "authority": {
+        "wikidata": "Q17001345",
+        "aat": "300021542",
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": "11XX",
+        "end": "1300~",
+        "display": "Wikidataの`P571`（inception）は precision 7（世紀単位）で値+1200-00-00＝「12世紀」（1101–1200年、Wikidata自身のwbformatvalueで確認）。文献（英語版Wikipedia「Baghdad School」）は『12世紀後半に成立』としつつ、確実な colophon 年代を持つ現存最古の作例は1209–1210年『動物医術の書』（Kitab al-baytarah）。13世紀前半（1220–30年代）に最盛期を迎え、1258年のモンゴルによるバグダード陥落・アッバース朝滅亡から約50年、14世紀初頭までにほぼ消滅したとされる"
+      },
+      "naming": {
+        "self_identified": false,
+        "named_by": "person/eustache-de-lorey",
+        "named_when": "1938",
+        "original_label": "Baghdad School",
+        "note": "当事者（13世紀の写本工房の書家・画家）がこの名で自称した記録はない。フランスの外交官・美術史家ウスタッシュ・ド・ロレイ（person/eustache-de-lorey）が1938年、パリの国立図書館での展覧会に際し雑誌『イリュストラシオン』のクリスマス号に寄せた記事でこの呼称を用いたのが初出とされる（英語版Wikipedia「Baghdad School」が引く Esanu 2017 経由の二次情報）。現代の研究者・学芸員の一部は地理的限定（バグダード1都市への帰属）に懐疑的で、代替として『メソポタミア派』『アラブ細密画派』を提案している——Getty AATも階層上『Baghdad School』の上位に『Mesopotamian School』を置く"
+      },
+      "claims": [
+        {
+          "field": "kind",
+          "source": "https://en.wikipedia.org/wiki/Baghdad_School",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "time",
+          "source": "https://en.wikipedia.org/wiki/Baghdad_School",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "originated_in",
+          "source": "https://www.wikidata.org/wiki/Q17001345",
+          "certainty": "scholarly"
+        }
+      ],
+      "space": [
+        {
+          "role": "originated_in",
+          "target": "place/baghdad"
+        }
+      ],
+      "relations": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q17001345",
+        "https://www.wikidata.org/wiki/Q1530",
+        "https://www.wikidata.org/wiki/Q472751",
+        "https://www.wikidata.org/wiki/Q125350260",
+        "https://en.wikipedia.org/wiki/Baghdad_School",
+        "https://en.wikipedia.org/wiki/Maqamat_al-Hariri",
+        "https://en.wikipedia.org/wiki/Yahya_ibn_Mahmud_al-Wasiti",
+        "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300021542",
+        "https://www.metmuseum.org/art/collection/search/446288",
+        "https://www.metmuseum.org/art/collection/search/451332",
+        "https://publicdomainreview.org/collection/maqamat/",
+        "https://www.academia.edu/37869572/History_Regained_a_Modern_Artist_in_Baghdad_Encounters_a_Lost_Tradition_of_Painting",
+        "https://www.britannica.com/art/Baghdad-school",
+        "https://www.britannica.com/art/Jalayirid-school"
+      ],
+      "images": [
+        {
+          "url": "https://images.metmuseum.org/CRDImages/is/original/sf13-152-6d.jpg",
+          "source_page": "https://www.metmuseum.org/art/collection/search/446288",
+          "license": "cc0",
+          "note": "「エリクサーを調合する医師」ディオスコリデス『薬物誌』アラビア語訳の1葉、1224年（ヒジュラ暦621年）、アブドゥッラー・イブン・アル=ファドル筆。メトロポリタン美術館蔵（accession 13.152.6、isPublicDomain: true）。Metの帰属は geographyType＝Attributed to、city＝possibly Baghdad、country＝Iraq or Northern Jazira——バグダードへの帰属自体が推定であることをMet自身の記録が示す"
+        },
+        {
+          "url": "https://images.metmuseum.org/CRDImages/is/original/sf56-20r.jpg",
+          "source_page": "https://www.metmuseum.org/art/collection/search/451332",
+          "license": "cc0",
+          "note": "「葡萄を踏む人々」同じ『薬物誌』写本の1葉、1224年、同じくアブドゥッラー・イブン・アル=ファドル筆。メトロポリタン美術館蔵（accession 57.51.23、isPublicDomain: true）。日常生活の一場面を描く点が本様式の特徴として文献に挙げられる例"
+        }
+      ],
+      "status": "draft",
+      "updated": "2026-08-10",
+      "path": "entities/movements/baghdad-school-of-illustration.md"
     },
     "movement/bandung-school": {
       "id": "movement/bandung-school",
@@ -598,6 +758,89 @@
       "status": "draft",
       "updated": "2026-08-09",
       "path": "entities/movements/barbizon-school.md"
+    },
+    "movement/basohli-painting": {
+      "id": "movement/basohli-painting",
+      "uri": "urn:ahn:movement/basohli-painting",
+      "type": "movement",
+      "kind": "period-style",
+      "label_ja": "バソーリ派",
+      "label_en": "Basohli painting",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "Wikidataで「Basohli painting」「Basohli school」「Basohli style」を検索したが、様式そのものを指す項目は見つからなかった（見つかったのはバソーリの町自体のQ711982『Basholi』と、書籍のエディションQ123559951『Basohli paintings of the Rasamanjari』のみ）。Getty AATはTesaurus d'Art i Arquitectura のミラー（https://aatesaurus.cultura.gencat.cat/aat/getty_en/index.php?%2Frajput=&tema=31367026 、kangra-paintingで使用したものと同じページ）上で、Basohliを『Pahari』（300018997）のNarrower Termの1つとして持つことが確認できる（Kangra・Chamba・Guler・Jammu・Mankotなどと並ぶ）が、Basohli自身のsubjectidはミラーの一覧表示では番号が示されず、Getty本家のAATServletへの文字列検索（find=Basohli）もHTTP 400で応答せず、kangra-paintingの調査時と同じ理由で単独では特定できなかった"
+      },
+      "time": {
+        "start": "167X",
+        "end": null,
+        "display": "ラージャ・キルパル・パルの治世（即位1678年、複数の二次資料で一致）下で最盛期を迎え、少なくとも1694/95年紀年のデーヴィーダーサ筆『ラサマンジャリー』連作という確実な年紀を持つ。18世紀半ばにかけてカーングラ派へ移行したとされるが、単一の終息年は特定できない"
+      },
+      "naming": {
+        "self_identified": false,
+        "named_by": null,
+        "named_when": null,
+        "original_label": "Basohli painting",
+        "note": "担い手が自らこの名で名乗った記録は確認できていない。地名（バソーリ）を冠した後代の分類名である。インドの地理的表示（GI）登録では『Basohli school of Pahari painting』の名が用いられている（Wikipedia『Basohli』、二次情報）。学術的な体系化はM.S.ランダーワー（Mohinder Singh Randhawa、1909-1986年）による1950年代のパンジャブ西部丘陵地帯での現地調査と、その成果である著書『Basohli Painting』（出典間で1959年・1968年と刊行年が割れる、二次情報）が大きく寄与したことが複数の二次情報から確認できるが、呼称そのものの初出・最初の命名者は未確認"
+      },
+      "claims": [
+        {
+          "field": "kind",
+          "source": "https://en.wikipedia.org/wiki/Basohli",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "time",
+          "source": "https://www.metmuseum.org/art/collection/search/37941",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "originated_in",
+          "source": "https://en.wikipedia.org/wiki/Basohli",
+          "certainty": "scholarly"
+        }
+      ],
+      "space": [
+        {
+          "role": "originated_in",
+          "target": "place/basohli"
+        }
+      ],
+      "relations": [],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Basohli",
+        "https://www.wikidata.org/wiki/Q711982",
+        "https://www.wikidata.org/wiki/Q123559951",
+        "https://www.metmuseum.org/art/collection/search/37941",
+        "https://www.metmuseum.org/art/collection/search/37942",
+        "https://collectionapi.metmuseum.org/public/collection/v1/objects/37941",
+        "https://www.wikidata.org/wiki/Q77458847",
+        "https://www.wikidata.org/wiki/Q113457574",
+        "https://collections.lacma.org/object/42760",
+        "https://francescagalloway.com/blog/32-a-brief-introduction-to-pahari-painting-extract-from-j.p.-lostys-essay-first-published-in/",
+        "https://aatesaurus.cultura.gencat.cat/aat/getty_en/index.php?%2Frajput=&tema=31367026",
+        "https://www.metmuseum.org/art/collection/search/825657",
+        "https://en.wikipedia.org/wiki/Nainsukh"
+      ],
+      "images": [
+        {
+          "url": "https://images.metmuseum.org/CRDImages/as/original/DP153147.jpg",
+          "source_page": "https://www.metmuseum.org/art/collection/search/37941",
+          "license": "cc0",
+          "note": "デーヴィーダーサ（ヌールプルの）筆《痴話喧嘩で離れた遊女とその恋人》『ラサマンジャリー』連作より、1694-95年紀年。メトロポリタン美術館蔵（isPublicDomain: true）"
+        },
+        {
+          "url": "https://images.metmuseum.org/CRDImages/as/original/DT5245.jpg",
+          "source_page": "https://www.metmuseum.org/art/collection/search/37942",
+          "license": "cc0",
+          "note": "デーヴィーダーサ（ヌールプルの）筆《チャウパルに興じるシヴァとパールヴァティー》『ラサマンジャリー』連作より、1694-95年紀年。メトロポリタン美術館蔵（isPublicDomain: true）"
+        }
+      ],
+      "status": "draft",
+      "updated": "2026-08-10",
+      "path": "entities/movements/basohli-painting.md"
     },
     "movement/bengal-school": {
       "id": "movement/bengal-school",
@@ -933,6 +1176,86 @@
       "updated": "2026-08-10",
       "path": "entities/movements/cubo-futurism.md"
     },
+    "movement/cusco-school": {
+      "id": "movement/cusco-school",
+      "uri": "urn:ahn:movement/cusco-school",
+      "type": "movement",
+      "label_ja": "クスコ派",
+      "label_en": "Cusco School",
+      "authority": {
+        "wikidata": "Q3108623",
+        "aat": "300018086",
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": "1534",
+        "end": null,
+        "display": "1534年（スペインによるインカ帝国征服）〜18世紀。単一の終了年は出典間で確定しない（本文参照）"
+      },
+      "kind": "period-style",
+      "naming": {
+        "self_identified": false,
+        "named_by": null,
+        "named_when": null,
+        "original_label": "Escuela cuzqueña",
+        "note": "ペルーの大学（ウニベルシダー・デル・パシフィコ）の学術用語集は、この呼称を『単一の識別可能な様式を指すのではなく、副王領ペルーの歴史を通じて様々な様式で活動した複数の民族的出自の画家たち』を指す後代の美術史上の分類名だと明記し、当事者の自称ではないとする（二次情報）。呼称そのものの初出者・初出年は特定できていないが、少なくとも1964年刊行のFelipe Cossío del Pomar『Peruvian colonial art: The Cuzco school of painting』の時点で英語での定着した呼び名として使われている（書誌情報のみ確認、内容未読）。なお『1688年のギルド分裂がこの名で呼ばれる様式の誕生を説明する』という因果関係の物語（後述）が学術的な定説として繰り返し引用されるようになった最初の確認可能な事例は、美術史家テレサ・ヒスベルトが1981年にチリの新聞El Mercurioの文化面に寄稿した記事だとする査読論文があり（Fernando A. Valenzuela, \"La debilidad institucional del gremio de pintores de Cusco en el período colonial: un estudio historiográfico,\" Colonial Latin American Historical Review, Fall 2013, pp.381-402）、これは呼称そのものの初出とは別の出来事である"
+      },
+      "claims": [
+        {
+          "field": "originated_in",
+          "source": "https://www.wikidata.org/wiki/Q3108623",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "kind",
+          "source": "https://en.wikipedia.org/wiki/Cusco_school",
+          "certainty": "scholarly"
+        }
+      ],
+      "space": [
+        {
+          "role": "originated_in",
+          "target": "place/cusco"
+        }
+      ],
+      "relations": [],
+      "founding_control": "external",
+      "control_changes": [
+        {
+          "year": "1688",
+          "to": "shared",
+          "trigger": "画家組合（gremio de pintores）内の対立の末、先住民系・メスティーソの画家たちがスペイン系画家と共有していた組合から離脱し、独立した工房で制作するようになったとされる（通説。ただしこの因果関係自体の史料的根拠の薄さが査読研究で指摘されている。本文参照）"
+        }
+      ],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q3108623",
+        "https://www.getty.edu/vow/AATFullDisplay?find=&place=&nation=&logic=&note=&role=&subjectid=300018086",
+        "https://en.wikipedia.org/wiki/Cusco_school",
+        "https://estudiosindianos.up.edu.pe/en/indias-glossary/escuela-cuzquena/",
+        "https://en.wikipedia.org/wiki/Basilio_Santa_Cruz_Pumacallao",
+        "https://www.metmuseum.org/art/collection/search/764091",
+        "https://www.metmuseum.org/art/collection/search/764095"
+      ],
+      "images": [
+        {
+          "url": "https://images.metmuseum.org/CRDImages/ad/original/DP-17034-002.jpg",
+          "source_page": "https://www.metmuseum.org/art/collection/search/764091",
+          "license": "public-domain",
+          "note": "《ヴァルバネーラの聖母》（Our Lady of Valvanera）、作者不明、クスコ、1770年頃〜80年頃、メトロポリタン美術館蔵"
+        },
+        {
+          "url": "https://images.metmuseum.org/CRDImages/ad/original/DP-18755-007.jpg",
+          "source_page": "https://www.metmuseum.org/art/collection/search/764095",
+          "license": "public-domain",
+          "note": "《十字架を担うキリスト（転倒の主）》（Christ Carrying the Cross, called \"The Lord of the Fall\"）、作者不明、クスコ、1770年頃〜75年頃、メトロポリタン美術館蔵"
+        }
+      ],
+      "status": "draft",
+      "updated": "2026-08-10",
+      "path": "entities/movements/cusco-school.md"
+    },
     "movement/dansaekhwa": {
       "id": "movement/dansaekhwa",
       "uri": "urn:ahn:movement/dansaekhwa",
@@ -997,6 +1320,99 @@
       "status": "draft",
       "updated": "2026-08-09",
       "path": "entities/movements/dansaekhwa.md"
+    },
+    "movement/deccan-painting": {
+      "id": "movement/deccan-painting",
+      "uri": "urn:ahn:movement/deccan-painting",
+      "type": "movement",
+      "kind": "retrospective",
+      "label_ja": "デカン絵画",
+      "label_en": "Deccan painting",
+      "authority": {
+        "wikidata": "Q28173212",
+        "aat": "300018979",
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": "156X",
+        "end": null,
+        "display": "アフマドナガル・ビジャープル・ゴールコンダなどデカン・スルターン朝の宮廷で16世紀後半〜17世紀半ばに最盛期を迎え、両都の滅亡（1687年）後もハイダラーバードを中心に18世紀半ば以降まで模作・複製という形で続いたとされる"
+      },
+      "naming": {
+        "self_identified": false,
+        "named_by": null,
+        "named_when": "1926?",
+        "original_label": "Deccan painting",
+        "note": "担い手（宮廷・画家）がこの制作を「デカン絵画」の名で自称した記録はない。英語版Wikipediaは『デカン絵画は独立した画派として認識されておらず、ペルシア・インド＝ペルシア系の一ジャンルとみなされていたが、1926年にエドガー・ブロシェ（Edgar Blochet、記事表記はBlochat）が1526年頃のアフマドナガル君主の肖像画を紹介したことで議論が始まった』と述べる（二次情報、原文の脚注はZebrowski 1983を引く）。年・人物名とも一次資料には未到達で、記述自体が簡潔すぎて経緯の詳細（何を根拠に『独立した画派』と主張したか）を検証できていない。**未確認**のまま named_when に『1926?』を置いた"
+      },
+      "claims": [
+        {
+          "field": "kind",
+          "source": "https://en.wikipedia.org/wiki/Deccan_painting",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "time",
+          "source": "https://en.wikipedia.org/wiki/Deccan_painting",
+          "certainty": "scholarly"
+        }
+      ],
+      "space": [
+        {
+          "role": "originated_in",
+          "target": "place/ahmadnagar"
+        },
+        {
+          "role": "originated_in",
+          "target": "place/bijapur"
+        },
+        {
+          "role": "active_in",
+          "target": "place/golconda"
+        }
+      ],
+      "relations": [
+        {
+          "type": "influenced_by",
+          "target": "movement/safavid-painting",
+          "certainty": "scholarly",
+          "source": "https://en.wikipedia.org/wiki/Deccan_painting"
+        },
+        {
+          "type": "influenced_by",
+          "target": "movement/ottoman-miniature",
+          "certainty": "scholarly",
+          "source": "https://en.wikipedia.org/wiki/Deccan_painting"
+        }
+      ],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q28173212",
+        "https://vocab.getty.edu/aat/300018979",
+        "https://en.wikipedia.org/wiki/Deccan_painting",
+        "https://en.wikipedia.org/wiki/Golconda_painting",
+        "https://www.metmuseum.org/toah/hd/decc/hd_decc.htm",
+        "https://www.metmuseum.org/art/collection/search/453975",
+        "https://www.metmuseum.org/art/collection/search/453334"
+      ],
+      "images": [
+        {
+          "url": "https://images.metmuseum.org/CRDImages/is/original/DT4503.jpg",
+          "source_page": "https://www.metmuseum.org/art/collection/search/453975",
+          "license": "cc0",
+          "note": "《鷹狩りをするチャーンド・ビービーと従者たち》（Chand Bibi Hawking with Attendants in a Landscape）、c.1700年、メトロポリタン美術館蔵（isPublicDomain: true）。チャーンド・ビービーはアフマドナガルの摂政（1596年没）"
+        },
+        {
+          "url": "https://images.metmuseum.org/CRDImages/is/original/DP231324.jpg",
+          "source_page": "https://www.metmuseum.org/art/collection/search/453334",
+          "license": "cc0",
+          "note": "《幻獣ブラーク》（The Fabulous Creature Buraq）、c.1660-80年、メトロポリタン美術館蔵（isPublicDomain: true）。小動物の集合体として大動物を描く『合成動物』はデカン絵画の特色の一つとされる"
+        }
+      ],
+      "status": "draft",
+      "updated": "2026-08-10",
+      "path": "entities/movements/deccan-painting.md"
     },
     "movement/ecole-de-dakar": {
       "id": "movement/ecole-de-dakar",
@@ -1628,6 +2044,12 @@
           "target": "place/tabriz",
           "certainty": "scholarly",
           "source": "https://en.wikipedia.org/wiki/Kam%C4%81l_ud-D%C4%ABn_Behz%C4%81d"
+        },
+        {
+          "type": "influenced_by",
+          "target": "movement/baghdad-school-of-illustration",
+          "certainty": "scholarly",
+          "source": "https://www.britannica.com/art/Jalayirid-school"
         }
       ],
       "sources": [
@@ -2072,6 +2494,94 @@
       "updated": "2026-08-09",
       "path": "entities/movements/jingyeong-sansuhwa.md"
     },
+    "movement/joseon-genre-painting": {
+      "id": "movement/joseon-genre-painting",
+      "uri": "urn:ahn:movement/joseon-genre-painting",
+      "type": "movement",
+      "kind": "period-style",
+      "label_ja": "朝鮮後期風俗画",
+      "label_en": "Late Joseon genre painting",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "Wikidata に朝鮮特有の「풍속화」項目は無い。「풍속화」で検索すると当たるのは世界共通の一般概念 genre painting（Q214127、P31=絵画ジャンル Q16743958、P279=Q5448026/Q1047337）のみで、朝鮮という空間・時間を特定しない——民画（concept/minhwa）が同じ理由で Q204791 は使いつつ朝鮮特有の様式項目が無いのと同型の状況。国・時代を特定しない一般概念を対象の同一性の典拠にすると、他の文化圏の風俗画と混同する。Getty AAT は2026-08-10時点で vocab.getty.edu（301）・AATServlet（400）とも到達不能——docs/investigation-task.md が既知の未確認事項として挙げる範囲。NDL・Japan Search も同文書が挙げる既知の未確認範囲のため深追いしていない"
+      },
+      "time": {
+        "start": "16XX",
+        "end": "18XX",
+        "display": "17世紀末（粛宗朝、尹斗緒らによる先駆的な模索）に「俗画」と呼ばれ始め、18世紀後半（正祖朝、金弘道・申潤福による最盛期）を頂点とし、19世紀（純祖朝以降、劉運弘・劉淑らへ継承されつつ文人的写意画風の台頭で退潮）まで"
+      },
+      "naming": {
+        "self_identified": false,
+        "named_by": null,
+        "named_when": null,
+        "original_label": "俗畵",
+        "note": "国史編纂委員会「신편 한국사」35巻（우리역사넷「풍속화의 확대와 발전」）は「17세기 말경 숙종년간부터 '俗畵'로 불리기 시작했으며、'風俗畵'와 '俚俗圖'로도 지칭되었다」（17世紀末頃、粛宗朝から「俗画」と呼ばれ始め、「風俗画」「俚俗図」とも呼称された）とする（二次情報）。当事者の画家自身がこの名を掲げた形跡はなく、同時代の文人・批評家（例: 尹斗緒を「속화가」と評した南泰膺『청죽화사』）が担い手の作品を指して用いた記述語。19世紀の李圭景『五洲衍文長箋散稿』も「俗畵」の語を使うが、これは民画寄りの装飾画を指す文脈で使われており（concept/minhwa 本文の「定義の変遷」参照）、朝鮮時代の「俗畵」という語自体は本稿の風俗画と民画の両方にまたがる広い当時の呼称だった可能性が高い。特定の命名者・命名年を1件の一次資料に絞り込めないため named_by/named_when は null とした"
+      },
+      "claims": [
+        {
+          "field": "kind",
+          "source": "https://contents.history.go.kr/mobile/nh/view.do?levelId=nh_035_0040_0020_0010_0040",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "time",
+          "source": "https://contents.history.go.kr/mobile/nh/view.do?levelId=nh_035_0040_0020_0010_0040",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "originated_in",
+          "source": "https://encykorea.aks.ac.kr/Article/E0052396",
+          "certainty": "scholarly"
+        }
+      ],
+      "space": [
+        {
+          "role": "originated_in",
+          "target": "place/hanseong"
+        }
+      ],
+      "relations": [
+        {
+          "type": "influenced_by",
+          "target": "movement/jingyeong-sansuhwa",
+          "certainty": "scholarly",
+          "source": "https://contents.history.go.kr/mobile/nh/view.do?levelId=nh_035_0040_0020_0010_0040"
+        }
+      ],
+      "sources": [
+        "https://encykorea.aks.ac.kr/Article/E0060400",
+        "https://contents.history.go.kr/mobile/nh/view.do?levelId=nh_035_0040_0020_0010_0040",
+        "https://encykorea.aks.ac.kr/Article/E0052396",
+        "https://encykorea.aks.ac.kr/Article/E0009036",
+        "https://dh.aks.ac.kr/Korea100/wiki/index.php/%EA%B9%80%ED%99%8D%EB%8F%84%EC%99%80_%EC%8B%A0%EC%9C%A4%EB%B3%B5:_%EC%A1%B0%EC%84%A0_%ED%9B%84%EA%B8%B0%EC%9D%98_%ED%92%8D%EC%86%8D%ED%99%94%EA%B0%80",
+        "https://ko.wikipedia.org/wiki/%EC%9C%A4%EB%91%90%EC%84%9C",
+        "https://ko.wikipedia.org/wiki/%EA%B9%80%ED%99%8D%EB%8F%84",
+        "https://www.wikidata.org/wiki/Q214127",
+        "https://www.wikidata.org/wiki/Q494712",
+        "https://www.wikidata.org/wiki/Q484262",
+        "https://www.wikidata.org/wiki/Q8061186"
+      ],
+      "images": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/d/d0/Danwon-Ssireum.jpg",
+          "source_page": "https://commons.wikimedia.org/wiki/File:Danwon-Ssireum.jpg",
+          "license": "public-domain",
+          "note": "金弘道（檀園）《씨름（相撲）》、『檀園風俗図帖』所収、国立中央博物館蔵、制作年は1780年頃と推定（Wikimedia Commons記載。カテゴリ PD-old-70-expired）"
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/6/69/Hyewon-Miindo.jpg",
+          "source_page": "https://commons.wikimedia.org/wiki/File:Hyewon-Miindo.jpg",
+          "license": "public-domain",
+          "note": "申潤福（蕙園）《미인도（美人図）》、澗松美術館蔵、19世紀初と推定（Wikimedia Commons記載。カテゴリ PD Old）"
+        }
+      ],
+      "status": "draft",
+      "updated": "2026-08-10",
+      "path": "entities/movements/joseon-genre-painting.md"
+    },
     "movement/kangra-painting": {
       "id": "movement/kangra-painting",
       "uri": "urn:ahn:movement/kangra-painting",
@@ -2122,6 +2632,12 @@
           "target": "movement/mughal-painting",
           "certainty": "scholarly",
           "source": "https://en.wikipedia.org/wiki/Kangra_painting"
+        },
+        {
+          "type": "derives_from",
+          "target": "movement/basohli-painting",
+          "certainty": "scholarly",
+          "source": "https://en.wikipedia.org/wiki/Basohli"
         }
       ],
       "sources": [
@@ -2153,7 +2669,7 @@
         }
       ],
       "status": "draft",
-      "updated": "2026-08-09",
+      "updated": "2026-08-10",
       "path": "entities/movements/kangra-painting.md"
     },
     "movement/kano-school": {
@@ -2312,6 +2828,71 @@
       "status": "draft",
       "updated": "2026-08-09",
       "path": "entities/movements/lingnan-school.md"
+    },
+    "movement/maruyama-shijo-school": {
+      "id": "movement/maruyama-shijo-school",
+      "uri": "urn:ahn:movement/maruyama-shijo-school",
+      "type": "movement",
+      "kind": "retrospective",
+      "label_ja": "円山四条派",
+      "label_en": "Maruyama-Shijō School",
+      "authority": {
+        "wikidata": "Q11394761",
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": "17XX",
+        "end": null,
+        "display": "日本語版ウィキペディアは「江戸中期から京都で有名になった」とする。英語版ウィキペディアは四条派の成立を「late 18th century」とする。開祖の生没年は円山応挙 1733–1795、松村呉春 1752–1811。正確な成立年・終期は一次資料で確認していない"
+      },
+      "naming": {
+        "self_identified": false,
+        "named_by": null,
+        "named_when": null,
+        "original_label": "円山四条派",
+        "note": "円山派（祖: 円山応挙）と四条派（祖: 松村呉春）という別々に成立した2つの画派を、後代がまとめて呼ぶようになった名称。Wikidata Q11394761 の説明文（ja）は『円山派と四条派の総称』と明記し、has part（P527）で円山派（Q11394770）・四条派（Q3577704）を別項目として保持する。日本語版ウィキペディアも『後世になってまとめて「円山・四条派」と呼ばれるようになった』と記す（いずれも二次情報）。命名者・命名年は未確認"
+      },
+      "claims": [
+        {
+          "field": "kind",
+          "source": "https://www.wikidata.org/wiki/Q11394761",
+          "certainty": "scholarly"
+        }
+      ],
+      "space": [
+        {
+          "role": "originated_in",
+          "target": "place/kyoto"
+        }
+      ],
+      "relations": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q11394761",
+        "https://www.wikidata.org/wiki/Q11394770",
+        "https://www.wikidata.org/wiki/Q3577704",
+        "https://ja.wikipedia.org/wiki/円山・四条派",
+        "https://en.wikipedia.org/wiki/Shij%C5%8D_school"
+      ],
+      "images": [
+        {
+          "url": "https://www.artic.edu/iiif/2/19669877-89b4-a950-a918-3c3c4af312fa/full/843,/0/default.jpg",
+          "source_page": "https://www.artic.edu/artworks/196928",
+          "license": "public-domain",
+          "note": "円山応挙《応挙習画帖（Okyo Shubi Gafu）》11ページ、1892年（応挙没後の木版複製画帖）。シカゴ美術館蔵（is_public_domain: true）"
+        },
+        {
+          "url": "https://www.artic.edu/iiif/2/0022f3ce-cc71-83c2-542e-30d57d74d9ec/full/843,/0/default.jpg",
+          "source_page": "https://www.artic.edu/artworks/50560",
+          "license": "public-domain",
+          "note": "松村呉春《鍾馗図（Shoki the Demon Queller）》17〜19世紀、シカゴ美術館蔵（is_public_domain: true）"
+        }
+      ],
+      "status": "draft",
+      "updated": "2026-08-10",
+      "path": "entities/movements/maruyama-shijo-school.md"
     },
     "movement/menri-school": {
       "id": "movement/menri-school",
@@ -2964,6 +3545,79 @@
       "updated": "2026-08-10",
       "path": "entities/movements/nihonga.md"
     },
+    "movement/nok-sculpture": {
+      "id": "movement/nok-sculpture",
+      "uri": "urn:ahn:movement/nok-sculpture",
+      "type": "movement",
+      "label_ja": "ノク彫刻",
+      "label_en": "Nok sculpture",
+      "authority": {
+        "wikidata": "Q927291",
+        "aat": "300015822",
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": null,
+        "end": null,
+        "display": "彫刻（テラコッタ像）の年代は出典間で二通りの推定がある。古い推定（フェイグの発掘・初期の熱ルミネッセンス測定に基づく）は紀元前500年頃〜西暦200年頃——メトロポリタン美術館の解説記事の題名『Nok Terracottas (500 B.C.–200 A.D.)』がこれを代表する。2005年以降のゲーテ大学フランクフルトNok Research Project（層位学的発掘と放射性炭素年代測定の大規模データセットに基づく）はより早い年代を示し、ノク文化そのものの成立を紀元前1500年頃、テラコッタ彫刻の出現をその約600年後・紀元前900年頃とし、紀元前900〜紀元前300年頃（最盛期）を経て紀元前400〜300年頃から衰退が始まり、紀元前後（西暦紀元の始まり）までに姿を消したとする（Early 1500–900 BC / Middle 900–300 BC / Late 300–1 BC の三期区分）。クリーブランド美術館の所蔵作例解説は両説を『500 BCE–200 CE or 1500–1 BCE』と並記する。いずれの説でも「彫刻の出現は紀元前900〜500年のどこかで始まり、紀元前後までに終わった」という中心部分は一致する。EDTF（本KBの実装が受ける形式）は西暦紀元前の年を表現できないため time.start / time.end はいずれも null とし、幅と根拠をここに残す"
+      },
+      "kind": "retrospective",
+      "naming": {
+        "self_identified": false,
+        "named_by": "person/bernard-fagg",
+        "named_when": "1959",
+        "original_label": "Nok culture",
+        "note": "担い手自身による自称の記録は無い（文字を持たない社会の出土品であるため、当事者による呼称そのものが存在しない）。イギリスの考古学者バーナード・ファッグが、1943年に中部ナイジェリア・ジョス近郊の錫鉱山で出土したテラコッタ頭部像（通称ジェマ・ヘッド）をきっかけに組織的な収集・発掘を行い、様式的に類似する出土地の1つである村落『ノク』の名を取って『Nok culture』と呼んだ。この呼称を定式化したとされる論文は Fagg, B. (1959) \"The Nok Culture in Prehistory\", Journal of the Historical Society of Nigeria 1(4), 288-293（一次資料には未到達・書誌情報は複数の二次資料が一致）"
+      },
+      "claims": [
+        {
+          "field": "time",
+          "source": "https://clevelandart.org/art/1995.21",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "originated_in",
+          "source": "https://education.nationalgeographic.org/resource/nok-culture/",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "kind",
+          "source": "https://education.nationalgeographic.org/resource/nok-culture/",
+          "certainty": "scholarly"
+        }
+      ],
+      "space": [
+        {
+          "role": "originated_in",
+          "target": "place/nok"
+        }
+      ],
+      "relations": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q927291",
+        "https://www.wikidata.org/wiki/Q108908650",
+        "https://www.metmuseum.org/essays/nok-terracottas-500-b-c-200-a-d",
+        "https://clevelandart.org/art/1995.21",
+        "https://openaccess-api.clevelandart.org/api/artworks/159000",
+        "https://aktuelles.uni-frankfurt.de/en/english/nok-research-project-enters-final-phase/",
+        "https://www.nationalgeographic.com/history/article/nigeria-nok-terra-cotta",
+        "https://education.nationalgeographic.org/resource/nok-culture/",
+        "https://traffickingculture.org/encyclopedia/case-studies/nok-terracottas/"
+      ],
+      "images": [
+        {
+          "url": "https://openaccess-cdn.clevelandart.org/1995.21/1995.21_web.jpg",
+          "source_page": "https://clevelandart.org/art/1995.21",
+          "license": "cc0",
+          "note": "《頭部像》熱ルミネッセンス測定で西暦20〜620年。中部ナイジェリア・ノク文化様式圏、制作者不明の女性陶工。クリーブランド美術館蔵（share_license_status: CC0）。同館解説は『この完全な形で残る頭部像は、大胆な造形・意図的な非対称性・繊細な表情によって、現存するノク彫刻の中でも最良の作例の1つ』とする"
+        }
+      ],
+      "status": "draft",
+      "updated": "2026-08-10",
+      "path": "entities/movements/nok-sculpture.md"
+    },
     "movement/novgorod-school-icon-painting": {
       "id": "movement/novgorod-school-icon-painting",
       "uri": "urn:ahn:movement/novgorod-school-icon-painting",
@@ -3375,6 +4029,248 @@
       "updated": "2026-08-09",
       "path": "entities/movements/post-impressionism.md"
     },
+    "movement/poto-poto-school": {
+      "id": "movement/poto-poto-school",
+      "uri": "urn:ahn:movement/poto-poto-school",
+      "type": "movement",
+      "kind": "lineage-school",
+      "label_ja": "ポト＝ポト絵画学校",
+      "label_en": "École de Poto-Poto",
+      "authority": {
+        "wikidata": "Q114247696",
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": "1951",
+        "end": "..",
+        "display": "1951年（ピエール・ロッズによる創設）〜現在。Wikidata Q114247696 の P571（inception）は precision 9（年単位）で1951年を指す。1962年以降は生徒たちの協同組合として継続し、2021年時点でも操業していることが確認できる（本文『時間』参照）"
+      },
+      "naming": {
+        "self_identified": true,
+        "named_by": null,
+        "named_when": null,
+        "original_label": "École de Poto-Poto / École de peinture de Poto-Poto",
+        "note": "地区名（ポト＝ポト）がそのまま学校の呼称になっており、命名という個別の行為を確認できる記録は無い（狩野派の家名と同型）。今日も学校自身がこの名を名乗っている（現行公式サイトのドメインが ecoledepeinture.cg）ことから self_identified は true と判断したが、この名を最初に用いたのが創設者ロッズ自身か、地区の通称がそのまま定着したのかは**未確認**"
+      },
+      "claims": [
+        {
+          "field": "time",
+          "source": "https://www.wikidata.org/wiki/Q114247696",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "originated_in",
+          "source": "https://www.wikidata.org/wiki/Q114247696",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "kind",
+          "source": "https://sites.rhodes.edu/potopoto/history-poto-poto-school",
+          "certainty": "scholarly"
+        }
+      ],
+      "founding_control": "external",
+      "control_changes": [
+        {
+          "year": "1962",
+          "to": "internal",
+          "trigger": "1960年、ロッズがセネガルへ去り植民地当局の補助金も止まったため、生徒たちが協同組合を結成して運営を引き継ぎ、1962年に元生徒ニコラ・オンドンゴがその代表となった"
+        }
+      ],
+      "space": [
+        {
+          "role": "originated_in",
+          "target": "place/brazzaville"
+        }
+      ],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/pierre-lods"
+        },
+        {
+          "type": "diffused_to",
+          "target": "place/dakar",
+          "certainty": "scholarly",
+          "source": "https://en.wikipedia.org/wiki/Papa_Ibra_Tall"
+        }
+      ],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q114247696",
+        "https://www.wikidata.org/wiki/Q59564370",
+        "https://sites.rhodes.edu/potopoto/history-poto-poto-school",
+        "https://sites.rhodes.edu/potopoto",
+        "https://shs.cairn.info/journal-cahiers-d-etudes-africaines-2012-1-page-259?lang=en",
+        "https://www.africanews.com/2021/07/06/congo-school-of-painting-poto-poto-celebrates-70-years-of-african-art/",
+        "https://en.wikipedia.org/wiki/Poto-Poto",
+        "http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=Poto-Poto&logop=and&notes="
+      ],
+      "status": "draft",
+      "updated": "2026-08-10",
+      "path": "entities/movements/poto-poto-school.md"
+    },
+    "movement/quito-school": {
+      "id": "movement/quito-school",
+      "uri": "urn:ahn:movement/quito-school",
+      "type": "movement",
+      "kind": "period-style",
+      "label_ja": "キト派",
+      "label_en": "Quito School",
+      "authority": {
+        "wikidata": "Q7272667",
+        "aat": "300107841",
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": "155X",
+        "end": "1822~",
+        "display": "16世紀半ば（フランシスコ会サン・アンドレス学院の設立、諸説あり1551〜1565年）〜19世紀初頭（キト副王領の消滅。1822年ピチンチャの戦い・1824年・1830年のどれを終期とするかは出典間で一致しない）。最盛期は17〜18世紀"
+      },
+      "naming": {
+        "self_identified": false,
+        "named_by": null,
+        "named_when": null,
+        "original_label": "Escuela Quiteña",
+        "note": "英語版・スペイン語版Wikipediaのいずれも、植民地期の当事者（画家・彫刻家・発注者）がこの名で自らの活動を呼んだ記録を示していない。「Escuela Quiteña」（スペイン語圏の標準呼称）「Quito School」（英語圏）はいずれも後代の美術史記述が与えた括りである。**未確認**: 最初にこの呼称を用いた研究者・年"
+      },
+      "claims": [
+        {
+          "field": "kind",
+          "source": "https://en.wikipedia.org/wiki/Quito_school",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "originated_in",
+          "source": "https://en.wikipedia.org/wiki/Quito_school",
+          "certainty": "scholarly"
+        }
+      ],
+      "founding_control": "external",
+      "space": [
+        {
+          "role": "originated_in",
+          "target": "place/quito"
+        }
+      ],
+      "relations": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q7272667",
+        "https://www.getty.edu/vow/AATFullDisplay?find=&place=&nation=&logic=&note=&role=&subjectid=300107841",
+        "https://en.wikipedia.org/wiki/Quito_school",
+        "https://es.wikipedia.org/wiki/Escuela_Quite%C3%B1a",
+        "https://www.encyclopedia.com/humanities/encyclopedias-almanacs-transcripts-and-maps/quito-school-sculpture",
+        "https://www.scielo.org.mx/scielo.php?script=sci_arttext&pid=S0185-12762014000200010",
+        "https://cvc.cervantes.es/artes/ciudades_patrimonio/quito/personalidades/goribar.htm",
+        "https://www.metmuseum.org/art/collection/search/204305",
+        "https://www.metmuseum.org/art/collection/search/204326"
+      ],
+      "status": "draft",
+      "updated": "2026-08-10",
+      "images": [
+        {
+          "url": "https://images.metmuseum.org/CRDImages/ad/original/231421.jpg",
+          "source_page": "https://www.metmuseum.org/art/collection/search/204305",
+          "license": "cc0",
+          "note": "カスピカラ（マヌエル・チリ）《幼子キリスト（降誕群像より）》18世紀、彩色・金彩木彫、ガラス製の目。メトロポリタン美術館蔵（isPublicDomain: true）"
+        },
+        {
+          "url": "https://images.metmuseum.org/CRDImages/ad/original/DP105182.jpg",
+          "source_page": "https://www.metmuseum.org/art/collection/search/204326",
+          "license": "cc0",
+          "note": "ベルナルド・デ・レガルダ《キトの聖母》18世紀、彩色・金彩木彫、ガラス製の目、銀製の光輪。メトロポリタン美術館蔵（isPublicDomain: true）"
+        }
+      ],
+      "path": "entities/movements/quito-school.md"
+    },
+    "movement/rattanakosin-mural-painting": {
+      "id": "movement/rattanakosin-mural-painting",
+      "uri": "urn:ahn:movement/rattanakosin-mural-painting",
+      "type": "movement",
+      "kind": "period-style",
+      "label_ja": "ラッタナコーシン様式壁画",
+      "label_en": "Rattanakosin mural painting",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "Wikidataで「Rattanakosin mural painting」「Rattanakosin art」「Thai mural painting」を検索したが、この movement（1782年のバンコク遷都以降、チャクリー朝の王室・寺院の庇護下で制作された仏教寺院壁画）自体を指すQIDは見つからなかった。近い語のQ131199294「Thai painting」はWikimedia Commonsのカテゴリ項目（P31がカテゴリ相当のクラス）で、タイ絵画全体を指し時代・媒体（壁画）を限定しないため採用しなかった。「Rattanakosin style」という英語版Wikipedia記事名は存在するが#REDIRECTでThai_artの一節に統合されており独立のWikidata項目（wikibase_item）を持たない。Getty AATはgetty.edu/vow/AATServletへのクエリが「Rattanakosin」「Thai painting」いずれも一貫してHTTP 400を返し、検索そのものが実行できなかった（docs/investigation-task.mdが既知の問題として記録している症状と同じ）。vocab.getty.eduのLOD側の直接クエリも本調査の環境からは実行できず、確認できていない"
+      },
+      "time": {
+        "start": "1782",
+        "end": null,
+        "display": "1782年（チャクリー朝によるバンコク遷都・建都）〜19世紀末（時期は本文「時間」参照）"
+      },
+      "naming": {
+        "self_identified": false,
+        "named_by": null,
+        "named_when": null,
+        "original_label": "ศิลปะสมัยรัตนโกสินทร์",
+        "note": "「รัตนโกสินทร์（ラッタナコーシン）」はラーマ1世が1782年の建都に際して新都に与えた名（「インドラの宝石」の意、エメラルド仏に由来）で、王朝・時代そのものの名称であり、画家や工房が自らの制作を指して名乗った名称ではない。英語版Wikipedia「Rattanakosin Kingdom」は、ラーマ1世が1785年に新都を「Rattanakosin」と命名したとする記述と、この名が「ラーマ4世（在位1851-68年）の治世下でバンコクの正式名称の一部として初めて造られた」とする記述の両方を持ち、**未確認**（内部で一致していない）。原語表記は、この時代の美術全般を指す学術用語「ศิลปะสมัยรัตนโกสินทร์（ラッタナコーシン時代の美術）」（シラパコーン大学建築学部紀要NAJUA所収、เสนอ นิลเดช 2016）から採った。壁画・絵画に限定した単一の定着したタイ語呼称は今回の調査では確認できなかった"
+      },
+      "claims": [
+        {
+          "field": "time",
+          "source": "https://www.wikidata.org/wiki/Q1155700",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "originated_in",
+          "source": "https://en.wikipedia.org/wiki/Rattanakosin_Kingdom_(1782%E2%80%931932)",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "kind",
+          "source": "https://en.wikipedia.org/wiki/Thai_art",
+          "certainty": "scholarly"
+        }
+      ],
+      "founding_control": "internal",
+      "space": [
+        {
+          "role": "originated_in",
+          "target": "place/bangkok"
+        }
+      ],
+      "relations": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q1155700",
+        "https://en.wikipedia.org/wiki/Rattanakosin_Kingdom_(1782%E2%80%931932)",
+        "https://en.wikipedia.org/wiki/Thai_art",
+        "https://so04.tci-thaijo.org/index.php/NAJUA-Arch/article/view/46202",
+        "https://www.wikidata.org/wiki/Q13013275",
+        "https://en.wikipedia.org/wiki/Khrua_In_Khong",
+        "https://www.jstor.org/stable/26537575",
+        "https://so06.tci-thaijo.org/index.php/pub_jss/article/view/260283",
+        "https://so02.tci-thaijo.org/index.php/jfa/article/view/262633",
+        "https://www.wikidata.org/wiki/Q1861",
+        "https://www.thailandnow.in.th/arts-culture/take-a-closer-look-at-siamese-buddhist-murals/",
+        "https://www.buddhistdoor.net/news/thai-artists-work-to-rescue-170-year-old-buddhist-murals/",
+        "https://www.mynmv.com/thai-national-museums-central"
+      ],
+      "images": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/d/dc/Bangkok_wat_suthat_014.JPG",
+          "source_page": "https://commons.wikimedia.org/wiki/File:Bangkok_wat_suthat_014.JPG",
+          "license": "public-domain",
+          "note": "ワット・スタット（Wat Suthat, วัดสุทัศนเทพวราราม）本堂内の壁画（1840年代、ラーマ3世期）。伝統的なタイの衣装を描いた場面。撮影者Mattanaが撮影と同時にpublic domainとして提供（Wikimedia Commonsカテゴリ「Murals in Wat Suthat」）"
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/a/ab/Bangkok_wat_suthat_021.jpg",
+          "source_page": "https://commons.wikimedia.org/wiki/File:Bangkok_wat_suthat_021.jpg",
+          "license": "public-domain",
+          "note": "同じくワット・スタット本堂の壁画。出産の場面を描いた、王朝期の市井の生活を主題とする一場面。撮影者Mattanaが撮影と同時にpublic domainとして提供"
+        }
+      ],
+      "status": "draft",
+      "updated": "2026-08-10",
+      "path": "entities/movements/rattanakosin-mural-painting.md"
+    },
     "movement/rinpa": {
       "id": "movement/rinpa",
       "uri": "urn:ahn:movement/rinpa",
@@ -3706,6 +4602,94 @@
       ],
       "path": "entities/movements/sienese-school.md"
     },
+    "movement/song-academy-painting": {
+      "id": "movement/song-academy-painting",
+      "uri": "urn:ahn:movement/song-academy-painting",
+      "type": "movement",
+      "kind": "period-style",
+      "label_ja": "院体画",
+      "label_en": "Song Academy Painting",
+      "authority": {
+        "wikidata": "Q11658098",
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": "09XX",
+        "end": "1279",
+        "display": "北宋建国当初（960年）の翰林図画院設立〜南宋滅亡（1279年）。北宋徽宗の宣和年間（1119〜1125年）を最盛期とする"
+      },
+      "naming": {
+        "self_identified": false,
+        "named_by": null,
+        "named_when": null,
+        "original_label": "院体画",
+        "note": "「院体画（院画）」は、翰林図画院に属した宮廷画家たちの作品を指す分析的な呼称。中国語版Wikipediaは『出自院画作家的作品反映了最高統治者的審美標準、謂之院体画』（画院画家の作品が最高統治者の美的基準を反映したものを院体画という）と定義する（二次情報）。画院の画家たち自身が『院体画』という語で自派を名乗った一次記述は見当たらない——語自体は分析・分類のための呼称であり、当事者の自称ではない。**未確認**: 「院体」という語を最初に用いた人物・文献・年代"
+      },
+      "claims": [
+        {
+          "field": "kind",
+          "source": "https://zh.wikipedia.org/wiki/%E9%99%A2%E4%BD%93%E7%94%BB",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "originated_in",
+          "source": "https://zh.wikipedia.org/wiki/%E9%99%A2%E4%BD%93%E7%94%BB",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "time",
+          "source": "https://www.wikidata.org/wiki/Q1147043",
+          "certainty": "scholarly"
+        }
+      ],
+      "space": [
+        {
+          "role": "originated_in",
+          "target": "place/kaifeng"
+        },
+        {
+          "role": "active_in",
+          "target": "place/hangzhou"
+        }
+      ],
+      "relations": [
+        {
+          "type": "precedes",
+          "target": "movement/zhe-school"
+        }
+      ],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q11658098",
+        "https://zh.wikipedia.org/wiki/%E9%99%A2%E4%BD%93%E7%94%BB",
+        "https://ja.wikipedia.org/wiki/%E9%99%A2%E4%BD%93%E7%94%BB",
+        "https://www.wikidata.org/wiki/Q1147043",
+        "https://www.wikidata.org/wiki/Q208471",
+        "https://en.wikipedia.org/wiki/Zhe_school_(painting)",
+        "https://en.wikipedia.org/wiki/Ming_dynasty_painting",
+        "https://www.metmuseum.org/art/collection/search/36005",
+        "https://www.metmuseum.org/art/collection/search/40086"
+      ],
+      "images": [
+        {
+          "url": "https://images.metmuseum.org/CRDImages/as/original/DP154073.jpg",
+          "source_page": "https://www.metmuseum.org/art/collection/search/36005",
+          "license": "public-domain",
+          "note": "夏珪《山市晴嵐図（Mountain Market, Clearing Mist）》13世紀初頭、南宋。メトロポリタン美術館蔵（isPublicDomain: true）"
+        },
+        {
+          "url": "https://images.metmuseum.org/CRDImages/as/original/DP154090.jpg",
+          "source_page": "https://www.metmuseum.org/art/collection/search/40086",
+          "license": "public-domain",
+          "note": "馬遠《滝を見る学者（Scholar Viewing a Waterfall）》13世紀初頭、南宋。メトロポリタン美術館蔵（isPublicDomain: true）"
+        }
+      ],
+      "status": "draft",
+      "updated": "2026-08-10",
+      "path": "entities/movements/song-academy-painting.md"
+    },
     "movement/suprematism": {
       "id": "movement/suprematism",
       "uri": "urn:ahn:movement/suprematism",
@@ -3862,6 +4846,84 @@
       "status": "draft",
       "updated": "2026-08-10",
       "path": "entities/movements/surrealism.md"
+    },
+    "movement/tanjore-painting": {
+      "id": "movement/tanjore-painting",
+      "uri": "urn:ahn:movement/tanjore-painting",
+      "type": "movement",
+      "kind": "period-style",
+      "label_ja": "タンジョール絵画",
+      "label_en": "Tanjore painting",
+      "authority": {
+        "wikidata": "Q3108584",
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "Getty AATServletへの文字列検索（find=Tanjore painting / Thanjavur painting / Tanjore school / Thanjavur school / Tanjore / Thanjavur、logic=AND、いずれも2026-08-10実施）はすべて「0 results」で応答した。対応する主題は見つからなかった"
+      },
+      "time": {
+        "start": "167X",
+        "end": "..",
+        "display": "17世紀初頭（ナーヤカ朝、1600年頃）に前段の様式が興り、英語版Wikipediaが「今日知られる形として成立した（as we know it now, originated）」と明記するタンジャーヴール・マラーター王国の宮廷期（1676〜1855年）に確立・最盛期を迎えた。王国の消滅後もチェッティアール商人層とイギリス人の庇護を受けて同じ担い手が制作を続け、2007〜08年にインド政府の地理的表示（GI）に登録されるなど、様式を保ちながら現在も作られ続けている"
+      },
+      "founding_control": "internal",
+      "naming": {
+        "self_identified": false,
+        "named_by": null,
+        "named_when": null,
+        "original_label": "palagai padam",
+        "note": "英語の呼称「Tanjore painting」「Thanjavur painting」は地名（タンジャーヴール、英語植民地期の音写がTanjore）をそのまま冠した後代の分類名で、担い手（ラージュ・ナイドゥ両共同体）がこの名で自らの制作を呼んだ記録は確認できていない。英語版Wikipedia「Thanjavur painting」は、木の板に描く形式そのものを指す現地の呼称として「palagai padam」（タミル語で palagai=板、padam=絵の意）という語を伝えるが、これは壁画・ガラス絵・象牙細工なども含む様式全体の自称ではなく、板絵という一形式を指す語である。英語の呼称を最初に用いた人物・年は未確認——1806年刊行のチャールズ・ゴールド『Oriental Drawings』は画家を『Moochys or Artists of India』と呼んでおり、少なくともこの時点では『Tanjore painting』という様式名自体は使われていない"
+      },
+      "claims": [
+        {
+          "field": "kind",
+          "source": "https://en.wikipedia.org/wiki/Thanjavur_painting",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "time",
+          "source": "https://en.wikipedia.org/wiki/Thanjavur_painting",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "originated_in",
+          "source": "https://en.wikipedia.org/wiki/Thanjavur_painting",
+          "certainty": "scholarly"
+        }
+      ],
+      "space": [
+        {
+          "role": "originated_in",
+          "target": "place/thanjavur"
+        }
+      ],
+      "relations": [
+        {
+          "type": "patronized_by",
+          "target": "org/thanjavur-maratha-kingdom",
+          "certainty": "scholarly",
+          "source": "https://en.wikipedia.org/wiki/Thanjavur_painting"
+        }
+      ],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q3108584",
+        "https://en.wikipedia.org/wiki/Thanjavur_painting",
+        "https://www.wikidata.org/wiki/Q41496",
+        "https://www.wikidata.org/wiki/Q3530610",
+        "https://en.wikipedia.org/wiki/Serfoji_II",
+        "https://www.metmuseum.org/art/collection/search/850685"
+      ],
+      "images": [
+        {
+          "url": "https://images.metmuseum.org/CRDImages/as/original/DP-22860-001.jpg",
+          "source_page": "https://www.metmuseum.org/art/collection/search/850685",
+          "license": "cc0",
+          "note": "《大臣を伴うマハーラージャ・セルフォージー2世》1800年頃。紙に金箔盛り上げ・不透明水彩。メトロポリタン美術館蔵（isPublicDomain: true）。庇護者セルフォージー2世自身を描いた肖像で、タンジョール絵画の技法（盛り上げ金箔）を用いる"
+        }
+      ],
+      "status": "draft",
+      "updated": "2026-08-10",
+      "path": "entities/movements/tanjore-painting.md"
     },
     "movement/thirteen-moderns": {
       "id": "movement/thirteen-moderns",
@@ -4251,6 +5313,162 @@
       "status": "draft",
       "updated": "2026-08-09",
       "path": "entities/movements/wu-school.md"
+    },
+    "movement/yamato-e": {
+      "id": "movement/yamato-e",
+      "uri": "urn:ahn:movement/yamato-e",
+      "type": "movement",
+      "kind": "period-style",
+      "label_ja": "大和絵",
+      "label_en": "Yamato-e",
+      "authority": {
+        "wikidata": "Q597365",
+        "aat": "300018589",
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": "08XX",
+        "end": null,
+        "display": "Getty AAT は様式としての分岐を9世紀半ばに置くが、語「やまと絵」の文献上の初出は長保元年（999年）10月30日（藤原行成の日記『権記』）。両者は指しているものが違う可能性がある（後述）。終期は特定できず null"
+      },
+      "naming": {
+        "self_identified": true,
+        "named_by": null,
+        "named_when": "999",
+        "original_label": "やまと絵",
+        "note": "後付けの学術用語ではなく、対象が制作されていた同時代（少なくとも999年時点）から当事者（宮廷・貴族社会）が使っていた語。ただし語義は一定ではない——平安時代は「日本の物語・人物・風物を主題とした絵画」という画題の概念で、対義語の「唐絵」は中国の主題を描いた絵を指した（様式・技法の話ではない）。14世紀以降に「様式」を指す概念へ転じ、唐風を基本に据えつつ北宋以降の中国画様式も部分的に取り込んだ伝統的様式を指すようになった（ja.wikipedia「大和絵」、二次情報、秋山光和『平安時代世俗画の研究』に拠るとされるが該当文への脚注番号の対応は確認できていない）"
+      },
+      "claims": [
+        {
+          "field": "kind",
+          "source": "https://www.getty.edu/vow/AATFullDisplay?find=Yamato-e&logic=AND&note=&english=Y&subjectid=300018589",
+          "certainty": "scholarly"
+        }
+      ],
+      "space": [
+        {
+          "role": "originated_in",
+          "target": "place/kyoto"
+        }
+      ],
+      "relations": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q597365",
+        "https://www.getty.edu/vow/AATFullDisplay?find=Yamato-e&logic=AND&note=&english=Y&subjectid=300018589",
+        "https://ja.wikipedia.org/wiki/大和絵",
+        "https://en.wikipedia.org/wiki/Yamato-e",
+        "https://www.metmuseum.org/art/collection/search/45428"
+      ],
+      "images": [
+        {
+          "url": "https://images.metmuseum.org/CRDImages/as/original/DP244667_CRD.jpg",
+          "source_page": "https://www.metmuseum.org/art/collection/search/45428",
+          "license": "cc0",
+          "note": "《北野天神縁起絵巻》（Illustrated Legends of the Kitano Tenjin Shrine）鎌倉時代・13世紀末。メトロポリタン美術館蔵（isPublicDomain: true）。ja.wikipedia「大和絵」が鎌倉時代の社寺縁起絵の代表例として同作を名指しで挙げている"
+        }
+      ],
+      "status": "draft",
+      "updated": "2026-08-10",
+      "path": "entities/movements/yamato-e.md"
+    },
+    "movement/yangzhou-eccentrics": {
+      "id": "movement/yangzhou-eccentrics",
+      "uri": "urn:ahn:movement/yangzhou-eccentrics",
+      "type": "movement",
+      "kind": "retrospective",
+      "label_ja": "揚州八怪",
+      "label_en": "Eight Eccentrics of Yangzhou",
+      "authority": {
+        "wikidata": "Q340808",
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "Getty AAT (https://www.getty.edu/vow/AATServlet) を english=N・find=yangzhou / eight+eccentrics / yang-chou / yangchow の4通りで検索したが該当語彙が見つからなかった。NDL/Web NDL Authorities・Japan Search は docs/investigation-task.md の記載どおり正しい呼び方が未確認のため今回は試していない"
+      },
+      "time": {
+        "start": "17XX",
+        "end": "1799~",
+        "display": "清の乾隆年間（1735年〜1796年、Wikipedia英語版「Qianlong Emperor」）を中心とする18世紀。核とされる8人の生没年は1686年（汪士慎）〜1799年（羅聘）にまたがる"
+      },
+      "naming": {
+        "self_identified": false,
+        "named_by": null,
+        "named_when": null,
+        "original_label": "揚州八怪",
+        "note": "誰が最初に「八怪」と呼んだかは資料間で一致しない。中国語版Wikipediaは、現存する最古の記録は清末の汪鋆『揚州画苑録』（画家2人＝李葂・李鱓のみを挙げる）とし、脚注では金安清または楊鐸がさらに早い可能性を示唆する（いずれも二次情報・未確認）。現在通用する『8人』のリストは、日本語版Wikipediaによれば李玉棻『甌鉢羅室書画過目録』（清末光緒年間、1897年）に由来するとされるが、中国語版Wikipediaは同書を『瓯钵罗室书画过目考』と表記しており、書名の正確な表記は版によって揺れている（二次情報）"
+      },
+      "claims": [
+        {
+          "field": "kind",
+          "source": "https://ja.wikipedia.org/wiki/%E6%8F%9A%E5%B7%9E%E5%85%AB%E6%80%AA",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "kind",
+          "source": "https://zh.wikipedia.org/wiki/%E6%89%AC%E5%B7%9E%E5%85%AB%E6%80%AA",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "originated_in",
+          "source": "https://en.wikipedia.org/wiki/Eight_Eccentrics_of_Yangzhou",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "time",
+          "source": "https://www.wikidata.org/wiki/Q3206010",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "time",
+          "source": "https://www.wikidata.org/wiki/Q32019",
+          "certainty": "scholarly"
+        }
+      ],
+      "space": [
+        {
+          "role": "originated_in",
+          "target": "place/yangzhou"
+        }
+      ],
+      "relations": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q340808",
+        "https://ja.wikipedia.org/wiki/%E6%8F%9A%E5%B7%9E%E5%85%AB%E6%80%AA",
+        "https://en.wikipedia.org/wiki/Eight_Eccentrics_of_Yangzhou",
+        "https://zh.wikipedia.org/wiki/%E6%89%AC%E5%B7%9E%E5%85%AB%E6%80%AA",
+        "https://www.wikidata.org/wiki/Q3206010",
+        "https://www.wikidata.org/wiki/Q32019",
+        "https://www.wikidata.org/wiki/Q710049",
+        "https://en.wikipedia.org/wiki/Qianlong_Emperor",
+        "https://www.artic.edu/artworks/80510",
+        "https://www.metmuseum.org/art/collection/search/52946",
+        "https://www.metmuseum.org/art/collection/search/51894"
+      ],
+      "images": [
+        {
+          "url": "https://www.artic.edu/iiif/2/7967bcfe-1634-19ad-ff6c-48a10cae9a8e/full/843,/0/default.jpg",
+          "source_page": "https://www.artic.edu/artworks/80510",
+          "license": "cc0",
+          "note": "李鱓（伝）《花鳥草虫図》（Birds, Flowers and Insects）、清代18世紀、冊装八葉。シカゴ美術館蔵（is_public_domain: true）"
+        },
+        {
+          "url": "https://images.metmuseum.org/CRDImages/as/original/1985_214_150_O.JPG",
+          "source_page": "https://www.metmuseum.org/art/collection/search/52946",
+          "license": "cc0",
+          "note": "鄭燮《竹石図》（Bamboo and Poem）、掛軸・紙本墨画。メトロポリタン美術館蔵（isPublicDomain: true）"
+        },
+        {
+          "url": "https://images.metmuseum.org/CRDImages/as/original/DP159146.jpg",
+          "source_page": "https://www.metmuseum.org/art/collection/search/51894",
+          "license": "cc0",
+          "note": "金農《画に題す詩冊・馬曰琯のために書す》（Poems on Paintings, Written for Ma Yueguan）、1754年、冊装十一葉。メトロポリタン美術館蔵（isPublicDomain: true）。馬曰琯（マー・ユエグアン）は揚州の塩商で、日本語版Wikipediaが挙げる庇護サロン（小玲瓏山館）の主とされる人物と同名だが、本作の献呈先が同一人物かはメトロポリタン美術館側の目録記載を確認しただけで一次資料には当たっていない"
+        }
+      ],
+      "status": "draft",
+      "updated": "2026-08-10",
+      "path": "entities/movements/yangzhou-eccentrics.md"
     },
     "movement/zanabazar-school": {
       "id": "movement/zanabazar-school",
@@ -4681,6 +5899,34 @@
       "updated": "2026-08-09",
       "path": "entities/orgs/societe-anonyme-artistes.md"
     },
+    "org/thanjavur-maratha-kingdom": {
+      "id": "org/thanjavur-maratha-kingdom",
+      "uri": "urn:ahn:org/thanjavur-maratha-kingdom",
+      "type": "org",
+      "label_ja": "タンジャーヴール・マラーター王国",
+      "label_en": "Thanjavur Maratha kingdom",
+      "authority": {
+        "wikidata": "Q3530610",
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": "1674",
+        "end": "1855",
+        "display": "1674年（Wikidata inception, precision=年）〜1855年（Wikidata dissolution, precision=年）。英語版Wikipedia「Thanjavur painting」は在位年代を「1676–1855」と記し、開始年に2年の食い違いがある（未確認）"
+      },
+      "space": [],
+      "relations": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q3530610",
+        "https://en.wikipedia.org/wiki/Thanjavur_painting"
+      ],
+      "status": "stub",
+      "updated": "2026-08-10",
+      "path": "entities/orgs/thanjavur-maratha-kingdom.md"
+    },
     "person/abanindranath-tagore": {
       "id": "person/abanindranath-tagore",
       "uri": "urn:ahn:person/abanindranath-tagore",
@@ -4708,6 +5954,34 @@
       "status": "stub",
       "updated": "2026-08-09",
       "path": "entities/persons/abanindranath-tagore.md"
+    },
+    "person/ahn-hwi-joon": {
+      "id": "person/ahn-hwi-joon",
+      "uri": "urn:ahn:person/ahn-hwi-joon",
+      "type": "person",
+      "label_ja": "安輝濬",
+      "label_en": "Ahn Hwi-joon",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "Wikidata を「안휘준」（ko）「Ahn Hwi-joon」（en）で検索したが該当なし。AAT は個人名を収録しない語彙（docs/investigation-task.md の説明どおり）。NDL・Japan Search は未到達（docs/investigation-task.md に既知の未確認事項として記載の到達性問題）"
+      },
+      "time": {
+        "start": "1940~",
+        "end": "2026-07-20",
+        "display": "1940年生〜2026年7月20日没（享年86）。生年は没時の年齢からの逆算で、正確な生年月日は当たった出典に明記されていない"
+      },
+      "space": [],
+      "relations": [],
+      "sources": [
+        "https://www.khan.co.kr/article/202607201829001/",
+        "https://encykorea.aks.ac.kr/Article/E0069639"
+      ],
+      "status": "stub",
+      "updated": "2026-08-10",
+      "path": "entities/persons/ahn-hwi-joon.md"
     },
     "person/aime-cesaire": {
       "id": "person/aime-cesaire",
@@ -4737,6 +6011,35 @@
       "status": "draft",
       "updated": "2026-08-09",
       "path": "entities/persons/aime-cesaire.md"
+    },
+    "person/bernard-fagg": {
+      "id": "person/bernard-fagg",
+      "uri": "urn:ahn:person/bernard-fagg",
+      "type": "person",
+      "label_ja": "バーナード・ファッグ",
+      "label_en": "Bernard Fagg",
+      "authority": {
+        "wikidata": "Q822404",
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": "1915",
+        "end": "1987",
+        "display": null
+      },
+      "space": [],
+      "relations": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q822404",
+        "https://www.nationalgeographic.com/history/article/nigeria-nok-terra-cotta",
+        "https://aktuelles.uni-frankfurt.de/en/english/nok-research-project-enters-final-phase/"
+      ],
+      "status": "stub",
+      "updated": "2026-08-10",
+      "path": "entities/persons/bernard-fagg.md"
     },
     "person/david-alfaro-siqueiros": {
       "id": "person/david-alfaro-siqueiros",
@@ -4868,6 +6171,35 @@
       "status": "stub",
       "updated": "2026-08-10",
       "path": "entities/persons/ernest-fenollosa.md"
+    },
+    "person/eustache-de-lorey": {
+      "id": "person/eustache-de-lorey",
+      "uri": "urn:ahn:person/eustache-de-lorey",
+      "type": "person",
+      "label_ja": "ウスタッシュ・ド・ロレイ",
+      "label_en": "Eustache de Lorey",
+      "authority": {
+        "wikidata": "Q125350260",
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": "1875-08-28",
+        "end": "1953-10-30",
+        "display": null
+      },
+      "space": [],
+      "relations": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q125350260",
+        "https://en.wikipedia.org/wiki/Baghdad_School",
+        "https://www.academia.edu/37869572/History_Regained_a_Modern_Artist_in_Baghdad_Encounters_a_Lost_Tradition_of_Painting"
+      ],
+      "status": "stub",
+      "updated": "2026-08-10",
+      "path": "entities/persons/eustache-de-lorey.md"
     },
     "person/felix-feneon": {
       "id": "person/felix-feneon",
@@ -5726,6 +7058,39 @@
       "updated": "2026-08-09",
       "path": "entities/places/agra.md"
     },
+    "place/ahmadnagar": {
+      "id": "place/ahmadnagar",
+      "uri": "urn:ahn:place/ahmadnagar",
+      "type": "place",
+      "label_ja": "アフマドナガル",
+      "label_en": "Ahmadnagar",
+      "authority": {
+        "wikidata": "Q223517",
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": null,
+        "end": null,
+        "display": null
+      },
+      "region": "asia-south",
+      "coordinates": [
+        19.083333,
+        74.733333
+      ],
+      "space": [],
+      "relations": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q223517",
+        "https://en.wikipedia.org/wiki/Ahmednagar"
+      ],
+      "status": "stub",
+      "updated": "2026-08-10",
+      "path": "entities/places/ahmadnagar.md"
+    },
     "place/baghdad": {
       "id": "place/baghdad",
       "uri": "urn:ahn:place/baghdad",
@@ -5790,6 +7155,38 @@
       "updated": "2026-08-09",
       "path": "entities/places/bandung.md"
     },
+    "place/bangkok": {
+      "id": "place/bangkok",
+      "uri": "urn:ahn:place/bangkok",
+      "type": "place",
+      "label_ja": "バンコク",
+      "label_en": "Bangkok",
+      "authority": {
+        "wikidata": "Q1861",
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": null,
+        "end": null,
+        "display": null
+      },
+      "region": "asia-southeast",
+      "coordinates": [
+        13.75,
+        100.51667
+      ],
+      "space": [],
+      "relations": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q1861"
+      ],
+      "status": "stub",
+      "updated": "2026-08-10",
+      "path": "entities/places/bangkok.md"
+    },
     "place/barbizon": {
       "id": "place/barbizon",
       "uri": "urn:ahn:place/barbizon",
@@ -5822,6 +7219,39 @@
       "updated": "2026-08-09",
       "path": "entities/places/barbizon.md"
     },
+    "place/basohli": {
+      "id": "place/basohli",
+      "uri": "urn:ahn:place/basohli",
+      "type": "place",
+      "label_ja": "バソーリ",
+      "label_en": "Basohli",
+      "authority": {
+        "wikidata": "Q711982",
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": "1635",
+        "end": null,
+        "display": "1635年、ラージャ・ブーパト・パルにより建設"
+      },
+      "region": "asia-south",
+      "coordinates": [
+        32.499,
+        75.816
+      ],
+      "space": [],
+      "relations": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q711982",
+        "https://en.wikipedia.org/wiki/Basohli"
+      ],
+      "status": "stub",
+      "updated": "2026-08-10",
+      "path": "entities/places/basohli.md"
+    },
     "place/benin-city": {
       "id": "place/benin-city",
       "uri": "urn:ahn:place/benin-city",
@@ -5853,6 +7283,71 @@
       "status": "stub",
       "updated": "2026-08-09",
       "path": "entities/places/benin-city.md"
+    },
+    "place/bijapur": {
+      "id": "place/bijapur",
+      "uri": "urn:ahn:place/bijapur",
+      "type": "place",
+      "label_ja": "ビジャープル",
+      "label_en": "Bijapur",
+      "authority": {
+        "wikidata": "Q3636023",
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": null,
+        "end": null,
+        "display": null
+      },
+      "region": "asia-south",
+      "coordinates": [
+        16.82442,
+        75.71537
+      ],
+      "space": [],
+      "relations": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q3636023",
+        "https://en.wikipedia.org/wiki/Bijapur"
+      ],
+      "status": "stub",
+      "updated": "2026-08-10",
+      "path": "entities/places/bijapur.md"
+    },
+    "place/brazzaville": {
+      "id": "place/brazzaville",
+      "uri": "urn:ahn:place/brazzaville",
+      "type": "place",
+      "label_ja": "ブラザヴィル",
+      "label_en": "Brazzaville",
+      "authority": {
+        "wikidata": "Q3844",
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": null,
+        "end": null,
+        "display": null
+      },
+      "region": "africa-sub",
+      "coordinates": [
+        -4.269444,
+        15.271111
+      ],
+      "space": [],
+      "relations": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q3844"
+      ],
+      "status": "stub",
+      "updated": "2026-08-10",
+      "path": "entities/places/brazzaville.md"
     },
     "place/brussels": {
       "id": "place/brussels",
@@ -5919,6 +7414,38 @@
       "updated": "2026-08-08",
       "path": "entities/places/chicago.md"
     },
+    "place/cusco": {
+      "id": "place/cusco",
+      "uri": "urn:ahn:place/cusco",
+      "type": "place",
+      "label_ja": "クスコ",
+      "label_en": "Cusco",
+      "authority": {
+        "wikidata": "Q5582862",
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": null,
+        "end": null,
+        "display": null
+      },
+      "region": "americas-latin",
+      "coordinates": [
+        -13.516944,
+        -71.978611
+      ],
+      "space": [],
+      "relations": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q5582862"
+      ],
+      "status": "stub",
+      "updated": "2026-08-10",
+      "path": "entities/places/cusco.md"
+    },
     "place/dakar": {
       "id": "place/dakar",
       "uri": "urn:ahn:place/dakar",
@@ -5950,6 +7477,39 @@
       "status": "stub",
       "updated": "2026-08-09",
       "path": "entities/places/dakar.md"
+    },
+    "place/golconda": {
+      "id": "place/golconda",
+      "uri": "urn:ahn:place/golconda",
+      "type": "place",
+      "label_ja": "ゴールコンダ",
+      "label_en": "Golconda",
+      "authority": {
+        "wikidata": "Q4141623",
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": null,
+        "end": null,
+        "display": null
+      },
+      "region": "asia-south",
+      "coordinates": [
+        17.383336,
+        78.404169
+      ],
+      "space": [],
+      "relations": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q4141623",
+        "https://en.wikipedia.org/wiki/Golconda_painting"
+      ],
+      "status": "stub",
+      "updated": "2026-08-10",
+      "path": "entities/places/golconda.md"
     },
     "place/gondar": {
       "id": "place/gondar",
@@ -6272,6 +7832,38 @@
       "updated": "2026-08-09",
       "path": "entities/places/kaesong.md"
     },
+    "place/kaifeng": {
+      "id": "place/kaifeng",
+      "uri": "urn:ahn:place/kaifeng",
+      "type": "place",
+      "label_ja": "開封",
+      "label_en": "Kaifeng",
+      "authority": {
+        "wikidata": "Q208471",
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": null,
+        "end": null,
+        "display": null
+      },
+      "region": "asia-east-china",
+      "coordinates": [
+        34.795,
+        114.345
+      ],
+      "space": [],
+      "relations": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q208471"
+      ],
+      "status": "stub",
+      "updated": "2026-08-10",
+      "path": "entities/places/kaifeng.md"
+    },
     "place/kangra": {
       "id": "place/kangra",
       "uri": "urn:ahn:place/kangra",
@@ -6561,6 +8153,39 @@
       "updated": "2026-08-09",
       "path": "entities/places/new-york-city.md"
     },
+    "place/nok": {
+      "id": "place/nok",
+      "uri": "urn:ahn:place/nok",
+      "type": "place",
+      "label_ja": "ノク",
+      "label_en": "Nok",
+      "authority": {
+        "wikidata": "Q108908650",
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": null,
+        "end": null,
+        "display": null
+      },
+      "region": "africa-sub",
+      "coordinates": [
+        9.4897,
+        8.0238
+      ],
+      "space": [],
+      "relations": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q108908650",
+        "https://www.nationalgeographic.com/history/article/nigeria-nok-terra-cotta"
+      ],
+      "status": "stub",
+      "updated": "2026-08-10",
+      "path": "entities/places/nok.md"
+    },
     "place/papunya": {
       "id": "place/papunya",
       "uri": "urn:ahn:place/papunya",
@@ -6624,6 +8249,38 @@
       "status": "stub",
       "updated": "2026-08-08",
       "path": "entities/places/paris.md"
+    },
+    "place/quito": {
+      "id": "place/quito",
+      "uri": "urn:ahn:place/quito",
+      "type": "place",
+      "label_ja": "キト",
+      "label_en": "Quito",
+      "authority": {
+        "wikidata": "Q2900",
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": null,
+        "end": null,
+        "display": null
+      },
+      "region": "americas-latin",
+      "coordinates": [
+        -0.22,
+        -78.5125
+      ],
+      "space": [],
+      "relations": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q2900"
+      ],
+      "status": "stub",
+      "updated": "2026-08-10",
+      "path": "entities/places/quito.md"
     },
     "place/rio-de-janeiro": {
       "id": "place/rio-de-janeiro",
@@ -6947,6 +8604,38 @@
       "updated": "2026-08-09",
       "path": "entities/places/tabriz.md"
     },
+    "place/thanjavur": {
+      "id": "place/thanjavur",
+      "uri": "urn:ahn:place/thanjavur",
+      "type": "place",
+      "label_ja": "タンジャーヴール",
+      "label_en": "Thanjavur",
+      "authority": {
+        "wikidata": "Q41496",
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": null,
+        "end": null,
+        "display": null
+      },
+      "region": "asia-south",
+      "coordinates": [
+        10.787,
+        79.137806
+      ],
+      "space": [],
+      "relations": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q41496"
+      ],
+      "status": "stub",
+      "updated": "2026-08-10",
+      "path": "entities/places/thanjavur.md"
+    },
     "place/tokyo": {
       "id": "place/tokyo",
       "uri": "urn:ahn:place/tokyo",
@@ -7210,6 +8899,38 @@
       "updated": "2026-08-09",
       "path": "entities/places/venice.md"
     },
+    "place/yangzhou": {
+      "id": "place/yangzhou",
+      "uri": "urn:ahn:place/yangzhou",
+      "type": "place",
+      "label_ja": "揚州",
+      "label_en": "Yangzhou",
+      "authority": {
+        "wikidata": "Q57906",
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": null,
+        "end": null,
+        "display": null
+      },
+      "region": "asia-east-china",
+      "coordinates": [
+        32.39117,
+        119.43625
+      ],
+      "space": [],
+      "relations": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q57906"
+      ],
+      "status": "stub",
+      "updated": "2026-08-10",
+      "path": "entities/places/yangzhou.md"
+    },
     "place/zaria": {
       "id": "place/zaria",
       "uri": "urn:ahn:place/zaria",
@@ -7367,6 +9088,16 @@
       "to": "place/new-york-city"
     },
     {
+      "from": "movement/an-gyeon-school",
+      "type": "originated_in",
+      "to": "place/hanseong"
+    },
+    {
+      "from": "movement/an-gyeon-school",
+      "type": "active_in",
+      "to": "place/hanseong"
+    },
+    {
       "from": "movement/antropofagia",
       "type": "created_by",
       "to": "person/oswald-de-andrade",
@@ -7398,6 +9129,11 @@
       "to": "place/baghdad"
     },
     {
+      "from": "movement/baghdad-school-of-illustration",
+      "type": "originated_in",
+      "to": "place/baghdad"
+    },
+    {
       "from": "movement/bandung-school",
       "type": "created_by",
       "to": "person/ries-mulder",
@@ -7413,6 +9149,11 @@
       "from": "movement/barbizon-school",
       "type": "originated_in",
       "to": "place/barbizon"
+    },
+    {
+      "from": "movement/basohli-painting",
+      "type": "originated_in",
+      "to": "place/basohli"
     },
     {
       "from": "movement/bengal-school",
@@ -7491,9 +9232,43 @@
       "to": "place/saint-petersburg"
     },
     {
+      "from": "movement/cusco-school",
+      "type": "originated_in",
+      "to": "place/cusco"
+    },
+    {
       "from": "movement/dansaekhwa",
       "type": "originated_in",
       "to": "place/seoul"
+    },
+    {
+      "from": "movement/deccan-painting",
+      "type": "influenced_by",
+      "to": "movement/safavid-painting",
+      "certainty": "scholarly",
+      "source": "https://en.wikipedia.org/wiki/Deccan_painting"
+    },
+    {
+      "from": "movement/deccan-painting",
+      "type": "influenced_by",
+      "to": "movement/ottoman-miniature",
+      "certainty": "scholarly",
+      "source": "https://en.wikipedia.org/wiki/Deccan_painting"
+    },
+    {
+      "from": "movement/deccan-painting",
+      "type": "originated_in",
+      "to": "place/ahmadnagar"
+    },
+    {
+      "from": "movement/deccan-painting",
+      "type": "originated_in",
+      "to": "place/bijapur"
+    },
+    {
+      "from": "movement/deccan-painting",
+      "type": "active_in",
+      "to": "place/golconda"
     },
     {
       "from": "movement/ecole-de-dakar",
@@ -7588,6 +9363,13 @@
     },
     {
       "from": "movement/herat-school",
+      "type": "influenced_by",
+      "to": "movement/baghdad-school-of-illustration",
+      "certainty": "scholarly",
+      "source": "https://www.britannica.com/art/Jalayirid-school"
+    },
+    {
+      "from": "movement/herat-school",
       "type": "originated_in",
       "to": "place/herat"
     },
@@ -7659,11 +9441,30 @@
       "to": "place/hanseong"
     },
     {
+      "from": "movement/joseon-genre-painting",
+      "type": "influenced_by",
+      "to": "movement/jingyeong-sansuhwa",
+      "certainty": "scholarly",
+      "source": "https://contents.history.go.kr/mobile/nh/view.do?levelId=nh_035_0040_0020_0010_0040"
+    },
+    {
+      "from": "movement/joseon-genre-painting",
+      "type": "originated_in",
+      "to": "place/hanseong"
+    },
+    {
       "from": "movement/kangra-painting",
       "type": "influenced_by",
       "to": "movement/mughal-painting",
       "certainty": "scholarly",
       "source": "https://en.wikipedia.org/wiki/Kangra_painting"
+    },
+    {
+      "from": "movement/kangra-painting",
+      "type": "derives_from",
+      "to": "movement/basohli-painting",
+      "certainty": "scholarly",
+      "source": "https://en.wikipedia.org/wiki/Basohli"
     },
     {
       "from": "movement/kangra-painting",
@@ -7691,6 +9492,11 @@
       "from": "movement/lingnan-school",
       "type": "originated_in",
       "to": "place/guangzhou"
+    },
+    {
+      "from": "movement/maruyama-shijo-school",
+      "type": "originated_in",
+      "to": "place/kyoto"
     },
     {
       "from": "movement/menri-school",
@@ -7792,6 +9598,11 @@
       "to": "place/tokyo"
     },
     {
+      "from": "movement/nok-sculpture",
+      "type": "originated_in",
+      "to": "place/nok"
+    },
+    {
       "from": "movement/novgorod-school-icon-painting",
       "type": "originated_in",
       "to": "place/veliky-novgorod"
@@ -7843,6 +9654,35 @@
       "to": "place/paris"
     },
     {
+      "from": "movement/poto-poto-school",
+      "type": "created_by",
+      "to": "person/pierre-lods",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "movement/poto-poto-school",
+      "type": "diffused_to",
+      "to": "place/dakar",
+      "certainty": "scholarly",
+      "source": "https://en.wikipedia.org/wiki/Papa_Ibra_Tall"
+    },
+    {
+      "from": "movement/poto-poto-school",
+      "type": "originated_in",
+      "to": "place/brazzaville"
+    },
+    {
+      "from": "movement/quito-school",
+      "type": "originated_in",
+      "to": "place/quito"
+    },
+    {
+      "from": "movement/rattanakosin-mural-painting",
+      "type": "originated_in",
+      "to": "place/bangkok"
+    },
+    {
       "from": "movement/rinpa",
       "type": "originated_in",
       "to": "place/kyoto"
@@ -7882,6 +9722,23 @@
       "to": "place/siena"
     },
     {
+      "from": "movement/song-academy-painting",
+      "type": "precedes",
+      "to": "movement/zhe-school",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "movement/song-academy-painting",
+      "type": "originated_in",
+      "to": "place/kaifeng"
+    },
+    {
+      "from": "movement/song-academy-painting",
+      "type": "active_in",
+      "to": "place/hangzhou"
+    },
+    {
       "from": "movement/suprematism",
       "type": "created_by",
       "to": "person/kazimir-malevich",
@@ -7904,6 +9761,18 @@
       "from": "movement/surrealism",
       "type": "originated_in",
       "to": "place/paris"
+    },
+    {
+      "from": "movement/tanjore-painting",
+      "type": "patronized_by",
+      "to": "org/thanjavur-maratha-kingdom",
+      "certainty": "scholarly",
+      "source": "https://en.wikipedia.org/wiki/Thanjavur_painting"
+    },
+    {
+      "from": "movement/tanjore-painting",
+      "type": "originated_in",
+      "to": "place/thanjavur"
     },
     {
       "from": "movement/thirteen-moderns",
@@ -7948,6 +9817,16 @@
       "from": "movement/wu-school",
       "type": "originated_in",
       "to": "place/suzhou"
+    },
+    {
+      "from": "movement/yamato-e",
+      "type": "originated_in",
+      "to": "place/kyoto"
+    },
+    {
+      "from": "movement/yangzhou-eccentrics",
+      "type": "originated_in",
+      "to": "place/yangzhou"
     },
     {
       "from": "movement/zanabazar-school",
@@ -8205,6 +10084,18 @@
       "derived": true
     },
     {
+      "from": "movement/safavid-painting",
+      "type": "influenced",
+      "to": "movement/deccan-painting",
+      "derived": true
+    },
+    {
+      "from": "movement/ottoman-miniature",
+      "type": "influenced",
+      "to": "movement/deccan-painting",
+      "derived": true
+    },
+    {
       "from": "movement/negritude",
       "type": "has_part",
       "to": "movement/ecole-de-dakar",
@@ -8253,6 +10144,12 @@
       "derived": true
     },
     {
+      "from": "movement/baghdad-school-of-illustration",
+      "type": "influenced",
+      "to": "movement/herat-school",
+      "derived": true
+    },
+    {
       "from": "movement/neo-impressionism",
       "type": "follows",
       "to": "movement/impressionism",
@@ -8289,8 +10186,20 @@
       "derived": true
     },
     {
+      "from": "movement/jingyeong-sansuhwa",
+      "type": "influenced",
+      "to": "movement/joseon-genre-painting",
+      "derived": true
+    },
+    {
       "from": "movement/mughal-painting",
       "type": "influenced",
+      "to": "movement/kangra-painting",
+      "derived": true
+    },
+    {
+      "from": "movement/basohli-painting",
+      "type": "derived_into",
       "to": "movement/kangra-painting",
       "derived": true
     },
@@ -8361,6 +10270,18 @@
       "derived": true
     },
     {
+      "from": "person/pierre-lods",
+      "type": "created",
+      "to": "movement/poto-poto-school",
+      "derived": true
+    },
+    {
+      "from": "place/dakar",
+      "type": "received",
+      "to": "movement/poto-poto-school",
+      "derived": true
+    },
+    {
       "from": "movement/herat-school",
       "type": "influenced",
       "to": "movement/safavid-painting",
@@ -8373,6 +10294,12 @@
       "derived": true
     },
     {
+      "from": "movement/zhe-school",
+      "type": "follows",
+      "to": "movement/song-academy-painting",
+      "derived": true
+    },
+    {
       "from": "person/kazimir-malevich",
       "type": "created",
       "to": "movement/suprematism",
@@ -8382,6 +10309,12 @@
       "from": "movement/cubo-futurism",
       "type": "derived_into",
       "to": "movement/suprematism",
+      "derived": true
+    },
+    {
+      "from": "org/thanjavur-maratha-kingdom",
+      "type": "patronized",
+      "to": "movement/tanjore-painting",
       "derived": true
     },
     {

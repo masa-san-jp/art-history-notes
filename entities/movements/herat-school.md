@@ -29,6 +29,7 @@ space:
   - {role: originated_in, target: place/herat}
 relations:
   - {type: diffused_to, target: place/tabriz, certainty: scholarly, source: "https://en.wikipedia.org/wiki/Kam%C4%81l_ud-D%C4%ABn_Behz%C4%81d"}
+  - {type: influenced_by, target: movement/baghdad-school-of-illustration, certainty: scholarly, source: "https://www.britannica.com/art/Jalayirid-school"}
 sources:
   - https://www.wikidata.org/wiki/Q5958652
   - https://www.wikidata.org/wiki/Q484195
@@ -219,6 +220,22 @@ atelier, he had a decisive impact on the development of later Safavid painting"�
 がこの向きの実例）でしか成立せず、`safavid-painting.md`側に書く必要がある。本タスクは
 ヘラート派1件のみを仕上げる範囲のため、この向きの関係は`safavid-painting.md`を編集する側
 （本ファイルを扱わない別の機会）に委ねる。**未確認**として残さず、**理由付きで保留**する。
+
+**バグダード派（写本挿絵）との関係**: [movement/baghdad-school-of-illustration](baghdad-school-of-illustration.md)
+（13世紀アッバース朝期バグダードの写本挿絵の様式）は、本ファイルの[定義と範囲](#定義と範囲)節が
+既に引く記述——1421年、バイスングルがタブリーズを制圧した際、当地でジャライル朝アフマド・ジャライルに
+仕えていた画家・書家の一団をヘラートへ連れ帰った（[Baysunghur](https://en.wikipedia.org/wiki/Baysunghur)）
+——を介して、2段階でヘラート派に繋がる。Britannica「Jalāyirid school」の記述（WebSearch経由の
+要約で確認。直接のページ取得は403で不可）は「The Jalāyirid school was influenced by the Baghdad
+school of the 13th century, which was noted for the depiction of expressive, individualized
+faces」とし、ジャライル朝の宮廷様式（14世紀、タブリーズ／バグダード）自体が13世紀バグダード派の
+様式（個別化・表情豊かな顔）の影響下にあったとする。すなわち「バグダード派（13世紀）→ジャライル朝
+様式（14世紀）→1421年にヘラートへ移った画家たち」という、それぞれ別の出典で個別に裏づけられる
+経路が辿れる。このKBの語彙では**より新しい側が古い側を指して張る向き**（[kind の判定](#kind-の判定--継承の線は何本ありどれも単独では繋がらない)
+節で参照した`ottoman-miniature.md`の例と同型）でしか`influenced_by`が成立しないため、`relations`に
+`influenced_by: movement/baghdad-school-of-illustration`を本ファイル側へ追加した。**未確認**:
+ジャライル朝の宮廷様式そのものを独立した movement として立てれば、この2段階は1段階の直接関係に
+書き直せる可能性があるが、今回はその作業を行っていない。
 
 なお、ビフザードの没地はヘラートかタブリーズかで出典間に不一致がある——[Behzād](https://en.wikipedia.org/wiki/Kam%C4%81l_ud-D%C4%ABn_Behz%C4%81d)は
 「1535年没、墓所はヘラートのコーヒ・ムフタール」とする一方、同記事は彼が没するまでサファヴィー朝の
