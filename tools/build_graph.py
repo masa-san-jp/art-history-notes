@@ -20,7 +20,7 @@ from kb import (CERTAINTIES, CLAIM_FIELDS_FOR_VERIFIED, DIR_FOR_TYPE, ENTITIES, 
                 INTERPRETIVE_RELATIONS, MOVEMENT_KINDS, RELATION_TARGET_TYPES, RELATIONS, ROOT,
                 SPACE_ROLES, SPACE_TARGET_TYPES, STATUSES, TYPES, URI_PREFIX, alias_map,
                 build_edges, edtf_ok, edtf_year_range, load_config, load_entities, read_frontmatter,
-                read_queries, regions_of)
+                read_queries, regions_of, search_entities)
 
 OVERVIEWS = ROOT / "overviews"
 MARK_START = "<!-- generated:coverage:start -->"
@@ -247,7 +247,7 @@ def coverage(entities, cfg):
     }
 
 
-def render_coverage(cov, cfg):
+def render_coverage(cov, cfg, entities):
     buckets = cfg["buckets"]
     centuries = sorted({c for row in cov["grid"].values() for c in row if c != "unknown"}, key=int)
     cols = [(c, f"{c}C") for c in centuries] + [("unknown", "年代不明")]
@@ -270,13 +270,19 @@ def render_coverage(cov, cfg):
     if cov["origin_multiple"]:
         lines += ["", "複数起源（どのバケットにも代表させていない）:"] + [
             f"- {m['id']} — {' / '.join(m['regions'])}" for m in cov["origin_multiple"]]
-    misses = {}
+    # 空振りの記録は残すが、**いま当たる語は出さない**。KB が空だった頃に探された語をそのまま
+    # 「無い」と出し続けると、既に入っているものを調べに行かせてしまう。
+    asked = {}
     for q in read_queries():
         if q.get("hits") == 0:
-            misses[q["term"]] = misses.get(q["term"], 0) + 1
+            asked[q["term"]] = asked.get(q["term"], 0) + 1
+    misses = {t: n for t, n in asked.items() if not search_entities(t, entities)}
     if misses:
         lines += ["", "**探されたが無かった語**（需要のシグナル。多い順）:", ""]
         lines += [f"- {term} — {n}回" for term, n in sorted(misses.items(), key=lambda x: -x[1])]
+    filled = sorted(set(asked) - set(misses))
+    if filled:
+        lines += ["", f"探された当時は無く、いまは入っている語: {', '.join(filled)}"]
 
     lines += ["", "受け入れ条件の達成度:", ""]
     lines += [f"- {k}: {v}" for k, v in cov["progress"].items()]
@@ -336,7 +342,7 @@ def main():
     if MARK_START in text and MARK_END in text:
         head, rest = text.split(MARK_START, 1)
         _old, tail = rest.split(MARK_END, 1)
-        cmap.write_text(f"{head}{MARK_START}\n{render_coverage(cov, cfg)}\n{MARK_END}{tail}",
+        cmap.write_text(f"{head}{MARK_START}\n{render_coverage(cov, cfg, entities)}\n{MARK_END}{tail}",
                         encoding="utf-8")
     else:
         errors.append("overviews/coverage.md に生成ブロックのマーカーが無い")

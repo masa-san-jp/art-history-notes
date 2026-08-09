@@ -643,6 +643,20 @@
         "https://en.wikipedia.org/wiki/Igun_Street",
         "https://historicalnigeria.com/benin-bronze-casting-art-power-and-continuity-in-edo-history/"
       ],
+      "images": [
+        {
+          "url": "https://www.artic.edu/iiif/2/fc361495-826f-3ef9-32d3-da3eac34c34a/full/843,/0/default.jpg",
+          "source_page": "https://www.artic.edu/artworks/15457",
+          "license": "cc0",
+          "note": "エド民族《プラーク》16〜17世紀。王宮の柱を飾った浮彫プラークの一例。イグン・エロンムオンによる真鍮鋳造。シカゴ美術館蔵（is_public_domain: true）"
+        },
+        {
+          "url": "https://www.artic.edu/iiif/2/2b923635-7f1b-7034-b0e8-d5a3d3287716/full/843,/0/default.jpg",
+          "source_page": "https://www.artic.edu/artworks/152856",
+          "license": "cc0",
+          "note": "エド民族《記念頭像》おそらく17世紀半ば〜18世紀半ば。歴代オバの記念頭像の一例。シカゴ美術館蔵（is_public_domain: true）"
+        }
+      ],
       "status": "draft",
       "updated": "2026-08-09",
       "path": "entities/movements/benin-court-art.md"
@@ -801,6 +815,83 @@
       "updated": "2026-08-09",
       "path": "entities/movements/dansaekhwa.md"
     },
+    "movement/ecole-de-tunis": {
+      "id": "movement/ecole-de-tunis",
+      "uri": "urn:ahn:movement/ecole-de-tunis",
+      "type": "movement",
+      "kind": "self-declared",
+      "label_ja": "チュニス派",
+      "label_en": "École de Tunis",
+      "authority": {
+        "wikidata": "Q3577825",
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": "1949",
+        "end": null,
+        "display": "1936年（画家4人による『グループ・デ・キャトル』結成）〜1947年（『グループ・デ・ディス』への拡大）〜1949年（『チュニス派』として正式に会長職を置いて発足）。解散年は確認できていない"
+      },
+      "founding_control": "shared",
+      "naming": {
+        "self_identified": true,
+        "named_by": null,
+        "named_when": "1949",
+        "original_label": "École de Tunis",
+        "note": "自称の経緯を『グループ・デ・キャトル』（1936年、画家4人）→『グループ・デ・ディス』（1947年、10人）→『チュニス派』（1949年、正式名称として採用）という段階的な自己形成として複数の二次資料が一致して記す（フランス語版Wikipedia、Pierre Boucherleのフランス語版Wikipedia記事: 『crée...le Groupe des Quatre qui devient rapidement le Groupe des Dix, puis prend le nom d'École de Tunis』＝『グループ・デ・キャトルを作り、それは急速にグループ・デ・ディスとなり、次いでチュニス派の名を取った』）。ただし『École de Tunis』という語そのものを最初に提案した個人は確認できていない（集団的な自己形成として記述される）。原語はフランス語（統治言語・美術批評の言語）。アラビア語形『مدرسة تونس』はWikidataのアラビア語版記事名として確認できるが、結成当時（1949年）に当事者自身がアラビア語名を用いた記録は確認できていない——1948年の予算陳情書簡の宛先はフランス保護領の統領（Résident général）であり、フランス語が使用言語だったことがうかがえる"
+      },
+      "claims": [
+        {
+          "field": "time",
+          "source": "https://www.wikidata.org/wiki/Q3577825",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "originated_in",
+          "source": "https://fr.wikipedia.org/wiki/%C3%89cole_de_Tunis",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "kind",
+          "source": "https://fr.wikipedia.org/wiki/Pierre_Boucherle",
+          "certainty": "scholarly"
+        }
+      ],
+      "space": [
+        {
+          "role": "originated_in",
+          "target": "place/tunis"
+        }
+      ],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/pierre-boucherle"
+        },
+        {
+          "type": "created_by",
+          "target": "person/yahia-turki"
+        }
+      ],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q3577825",
+        "https://fr.wikipedia.org/wiki/%C3%89cole_de_Tunis",
+        "https://fr.wikipedia.org/wiki/Pierre_Boucherle",
+        "https://en.wikipedia.org/wiki/Yahia_Turki",
+        "https://harissa.com/news555/fr/pierre-boucherle-fondateur-de-lecole-de-tunis",
+        "https://www.fikerinstitute.org/publications/lecole-de-tunis-the-arts-in-post-independence-tunisia",
+        "https://fr.wikipedia.org/wiki/Moses_Levy",
+        "http://www.jules-lellouche.fr/biographie.html",
+        "https://en.wikipedia.org/wiki/Antonio_Corpora",
+        "https://www.leaders.com.tn/article/37635-l-ecole-de-tunis-1949-modernite-picturale-pluralisme-culturel-et-decolonisation-du-regard",
+        "https://www.misk.art/lire/abdelaziz-gorgi-hommage-a-l-un-des-pionniers-de-l-art-en-tunisie-au-palais-kheireddine"
+      ],
+      "status": "draft",
+      "updated": "2026-08-09",
+      "path": "entities/movements/ecole-de-tunis.md"
+    },
     "movement/futurism": {
       "id": "movement/futurism",
       "uri": "urn:ahn:movement/futurism",
@@ -952,6 +1043,14 @@
         "https://journal.thewalters.org/volume/78/note/ethiopian-icon-paintings/",
         "https://www.journal18.org/nq/giulio-romanos-the-little-holy-family-in-africa-identifying-an-18th-century-ethiopian-painting-by-kristen-windmuller-luna/",
         "https://whc.unesco.org/en/list/19/"
+      ],
+      "images": [
+        {
+          "url": "https://openaccess-cdn.clevelandart.org/2023.4/2023.4_web.jpg",
+          "source_page": "https://clevelandart.org/art/2023.4",
+          "license": "cc0",
+          "note": "《十二使徒とパウロの二連祭壇画》c.1700年、ワルダ・マルヤム（Wäldä Maryam）の工房または一門作。クリーブランド美術館蔵（画家の活動期は1600年代半ば〜1700年代初頭とされ、本文の聖アバ・アントニウス教会ディプティクの署名画家と同名・同時代）"
+        }
       ],
       "status": "draft",
       "updated": "2026-08-09",
@@ -1276,6 +1375,14 @@
         "https://www.reed.edu/persian-calligraphy/en/jafar-baysonghori/index.html",
         "https://www.britannica.com/art/Herat-school"
       ],
+      "images": [
+        {
+          "url": "https://images.metmuseum.org/CRDImages/is/original/DP231332.jpg",
+          "source_page": "https://www.metmuseum.org/art/collection/search/446892",
+          "license": "cc0",
+          "note": "「踊る托鉢僧」ハーフィズ『ディーワーン』挿画、c.1480年、ヘラート制作。メトロポリタン美術館蔵、constituents＝\"Painting attributed to Bihzad\"（isPublicDomain: true）"
+        }
+      ],
       "status": "draft",
       "updated": "2026-08-09",
       "path": "entities/movements/herat-school.md"
@@ -1334,6 +1441,20 @@
         "https://www.wikidata.org/wiki/Q943853",
         "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300379047",
         "https://en.wikipedia.org/wiki/Hudson_River_School"
+      ],
+      "images": [
+        {
+          "url": "https://www.artic.edu/iiif/2/18092196-50ae-3ff1-9205-1b3110e966c3/full/843,/0/default.jpg",
+          "source_page": "https://www.artic.edu/artworks/90048",
+          "license": "cc0",
+          "note": "トマス・コール《ナイアガラの滝の遠望（Distant View of Niagara Falls）》1830年。シカゴ美術館蔵（is_public_domain: true）"
+        },
+        {
+          "url": "https://www.artic.edu/iiif/2/33fc29fc-097b-576b-c9e6-c3352d9d3f15/full/843,/0/default.jpg",
+          "source_page": "https://www.artic.edu/artworks/76571",
+          "license": "cc0",
+          "note": "フレデリック・エドウィン・チャーチ《コトパクシ山（View of Cotopaxi）》1857年。シカゴ美術館蔵（is_public_domain: true）"
+        }
       ],
       "status": "draft",
       "updated": "2026-08-09",
@@ -1660,6 +1781,14 @@
         "https://en.wikipedia.org/wiki/Dohwaseo",
         "https://www.kci.go.kr/kciportal/landing/article.kci?arti_id=ART001994596"
       ],
+      "images": [
+        {
+          "url": "https://images.metmuseum.org/CRDImages/as/original/DP-44393-002.jpg",
+          "source_page": "https://www.metmuseum.org/art/collection/search/929078",
+          "license": "cc0",
+          "note": "鄭敾《仁王山図（Mt. Inwang / Inwangsan）》18世紀、メトロポリタン美術館蔵。真景山水画を確立したとされる鄭敾自身の手による、実在の山を描いた作品（isPublicDomain: true）"
+        }
+      ],
       "status": "draft",
       "updated": "2026-08-09",
       "path": "entities/movements/jingyeong-sansuhwa.md"
@@ -1730,6 +1859,20 @@
         "https://en.wiktionary.org/wiki/Rajput",
         "https://theprint.in/pageturner/excerpt/how-love-war-and-mughal-fine-art-inspired-kangra-painting/533500/"
       ],
+      "images": [
+        {
+          "url": "https://images.metmuseum.org/CRDImages/as/original/DP166090.jpg",
+          "source_page": "https://www.metmuseum.org/art/collection/search/74675",
+          "license": "cc0",
+          "note": "ナインスク《ラーマとラクシュマナ、苦行者の庵を訪れる》c.1775-80年。メトロポリタン美術館蔵（isPublicDomain: true）"
+        },
+        {
+          "url": "https://images.metmuseum.org/CRDImages/as/original/DP278165.jpg",
+          "source_page": "https://www.metmuseum.org/art/collection/search/37947",
+          "license": "cc0",
+          "note": "マナク《シュカとサラナの羅刹の間者を解き放つラーマ：『ランカー包囲』シリーズ挿画》c.1725年。メトロポリタン美術館蔵（isPublicDomain: true）"
+        }
+      ],
       "status": "draft",
       "updated": "2026-08-09",
       "path": "entities/movements/kangra-painting.md"
@@ -1786,6 +1929,20 @@
       "sources": [
         "https://www.wikidata.org/wiki/Q252801",
         "https://www.getty.edu/research/tools/vocabularies/aat/"
+      ],
+      "images": [
+        {
+          "url": "https://images.metmuseum.org/CRDImages/as/original/LC-29_100_495gh_002.jpg",
+          "source_page": "https://www.metmuseum.org/art/collection/search/45219",
+          "license": "cc0",
+          "note": "狩野永徳《中国の女性たちのいる宮廷庭園（Chinese Women in a Palace Garden）》16世紀後半、メトロポリタン美術館蔵（isPublicDomain: true）"
+        },
+        {
+          "url": "https://images.metmuseum.org/CRDImages/as/original/DP-12434-004.jpg",
+          "source_page": "https://www.metmuseum.org/art/collection/search/53009",
+          "license": "cc0",
+          "note": "狩野探幽《四季山水図（Landscapes of the Four Seasons）》1630年代、メトロポリタン美術館蔵（isPublicDomain: true）"
+        }
       ],
       "status": "draft",
       "updated": "2026-08-08",
@@ -1857,6 +2014,14 @@
         "https://zh.wikipedia.org/wiki/陈树人",
         "https://zh.wikipedia.org/wiki/居廉",
         "https://cn.chinadaily.com.cn/a/202504/07/WS67f37d5ea310e29a7c4a7e8d.html"
+      ],
+      "images": [
+        {
+          "url": "https://images.metmuseum.org/CRDImages/as/original/DP162527.jpg",
+          "source_page": "https://www.metmuseum.org/art/collection/search/36184",
+          "license": "cc0",
+          "note": "居廉《昆虫と花（Insects and Flowers）》1865年、メトロポリタン美術館蔵。高剣父・高奇峰・陳樹人の師で、嶺南画派の様式的源流の一人とされる（isPublicDomain: true）"
+        }
       ],
       "status": "draft",
       "updated": "2026-08-09",
@@ -1984,6 +2149,83 @@
       "updated": "2026-08-09",
       "path": "entities/movements/mexican-muralism.md"
     },
+    "movement/mono-ha": {
+      "id": "movement/mono-ha",
+      "uri": "urn:ahn:movement/mono-ha",
+      "type": "movement",
+      "kind": "retrospective",
+      "label_ja": "もの派",
+      "label_en": "Mono-ha",
+      "authority": {
+        "wikidata": "Q3321083",
+        "aat": "300417405",
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": "1968",
+        "end": "197X",
+        "display": "1968年（関根伸夫《位相—大地》発表、10月・神戸）に始まり、当事者の共同活動としては1970年夏頃から各自の作風へ分散。批評言説の対象としては1973年に美術手帖誌上で名称が定着し、1970年代半ばまで続いたとする概説が多い。Getty AATは「1968年に始まり、狭義には1973年まで、広義には1970年代を通じてそれ以降まで続いた」とする"
+      },
+      "naming": {
+        "self_identified": false,
+        "named_by": null,
+        "named_when": null,
+        "rejected_by": [
+          "高松次郎（生前、自身は「もの派」ではないと述べていたとartscape.jpが記録）"
+        ],
+        "original_label": "もの派",
+        "note": "命名者は不明である。日本語版Wikipediaは「『もの派』の命名者は不明」と明記し、李禹煥自身も日本美術オーラル・ヒストリー・アーカイヴのインタビューで『誰が言ったのか全然分かりません』『たぶん69年終わり頃出た』と述べ、命名者・命名時期を自らも特定できないとする。批評家・峯村敏明は自身の1986年の英文エッセイ『What was MONO-HA?』（鎌倉画廊）で、1970年代初頭に『軽蔑的な無関心のニュアンス』（some connotations of contemptuous indifference）を伴ってこの語が使われ始め、当時『その名はグループの大半の耳にはひどく不快に響いた』と記す。印刷物として確認できる最も早い使用例は藤枝晃雄『「もの派」の錯誤』（美術手帖1973年3月号）と峯村敏明『「くりかえし」と「システム」―「もの派」以後のモラル』（同誌1973年12月号、375号）で、いずれも既存の呼称を批評的に扱う体裁を取っており、その時点で語がすでに流通していたことを前提とする書き方である。李禹煥はオーラルヒストリーで、当時呼ばれた側の実感として『当時言われた当事者としてはすごく嫌だった』とし、その語の意味を『まともにものが作れない連中、表現ができない、絵も描けない、生のものに頼る連中』という蔑称だったと説明する。峯村自身の1986年エッセイも、東京藝大系・日大系の作家の一部からは『李＋多摩美系の作品を指すために作られた語であり、自分たちに当てはめるのは疑わしい』という異論があったと記す。この呼称を当事者が積極的に自分たちのものとして名乗り直した記録は見当たらない。李禹煥は同オーラルヒストリーで『それがいつの間にか定着した』と述べるにとどまり、これは1986年ポンピドゥー・センター『前衛芸術の日本 1910-1970』展や2012年Blum & Poeの回顧展図録（李禹煥自身も寄稿）のように、美術館・市場が呼称を使い続けたことで事後的に定着したことを指しており、当事者が能動的に名乗った証拠ではない"
+      },
+      "claims": [
+        {
+          "field": "kind",
+          "source": "https://en.wikipedia.org/wiki/Mono-ha",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "time",
+          "source": "https://www.getty.edu/vow/AATFullDisplay?find=mono+ha&logic=AND&note=&english=Y&prev_page=1&subjectid=300417405",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "originated_in",
+          "source": "https://en.wikipedia.org/wiki/Mono-ha",
+          "certainty": "scholarly"
+        }
+      ],
+      "space": [
+        {
+          "role": "originated_in",
+          "target": "place/tokyo"
+        }
+      ],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/nobuo-sekine"
+        },
+        {
+          "type": "created_by",
+          "target": "person/lee-ufan"
+        }
+      ],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q3321083",
+        "https://www.getty.edu/vow/AATFullDisplay?find=mono+ha&logic=AND&note=&english=Y&prev_page=1&subjectid=300417405",
+        "https://en.wikipedia.org/wiki/Mono-ha",
+        "https://ja.wikipedia.org/wiki/%E3%82%82%E3%81%AE%E6%B4%BE",
+        "https://artscape.jp/artword/6888/",
+        "https://bijutsutecho.com/artwiki/101",
+        "https://www.kamakura.gallery/mono-ha/minemura-en.html",
+        "https://oralarthistory.org/archives/interviews/lee_u_fan_02/",
+        "https://www.pen-online.jp/article/012230.html"
+      ],
+      "status": "draft",
+      "updated": "2026-08-09",
+      "path": "entities/movements/mono-ha.md"
+    },
     "movement/mughal-painting": {
       "id": "movement/mughal-painting",
       "uri": "urn:ahn:movement/mughal-painting",
@@ -2039,6 +2281,20 @@
         "https://en.wikipedia.org/wiki/Abu%27l-Hasan_(artist)",
         "https://www.dailyartmagazine.com/mughal-art-aurangzeb/",
         "https://www.wikidata.org/wiki/Q42941"
+      ],
+      "images": [
+        {
+          "url": "https://images.metmuseum.org/CRDImages/is/original/DP246561.jpg",
+          "source_page": "https://www.metmuseum.org/art/collection/search/451276",
+          "license": "cc0",
+          "note": "マノーハル筆《ザマーナ・ベグ（マハーバト・ハーン）の肖像》シャー・ジャハーン・アルバムより、c.1610年、メトロポリタン美術館蔵（isPublicDomain: true）"
+        },
+        {
+          "url": "https://images.metmuseum.org/CRDImages/is/original/DP246534.jpg",
+          "source_page": "https://www.metmuseum.org/art/collection/search/454623",
+          "license": "cc0",
+          "note": "アブル・ハサン筆《斑ヒタキ（Spotted Forktail）》シャー・ジャハーン・アルバムより、c.1610-15年、メトロポリタン美術館蔵（isPublicDomain: true）"
+        }
       ],
       "status": "draft",
       "updated": "2026-08-09",
@@ -2119,6 +2375,20 @@
         "https://en.wikipedia.org/wiki/Divisionism",
         "https://en.wikipedia.org/wiki/Les_Vingt",
         "https://www.impressionism.nl/1887-les-xx/"
+      ],
+      "images": [
+        {
+          "url": "https://www.artic.edu/iiif/2/2d484387-2509-5e8e-2c43-22f9981972eb/full/843,/0/default.jpg",
+          "source_page": "https://www.artic.edu/artworks/27992",
+          "license": "cc0",
+          "note": "ジョルジュ・スーラ《グランド・ジャット島の日曜日の午後》1884-86年、シカゴ美術館蔵。新印象派を象徴する代表作（is_public_domain: true）"
+        },
+        {
+          "url": "https://www.artic.edu/iiif/2/3b822392-6509-b739-8ee1-e8e918c43825/full/843,/0/default.jpg",
+          "source_page": "https://www.artic.edu/artworks/135446",
+          "license": "cc0",
+          "note": "ポール・シニャック《調和の時代（In Times of Harmony）》1895-96年、シカゴ美術館蔵（is_public_domain: true）"
+        }
       ],
       "status": "verified",
       "updated": "2026-08-09",
@@ -2512,6 +2782,20 @@
         "https://ru.wikipedia.org/wiki/Передвижники",
         "https://en.wikipedia.org/wiki/Peredvizhniki"
       ],
+      "images": [
+        {
+          "url": "https://images.metmuseum.org/CRDImages/ep/original/DP-23542-001.jpg",
+          "source_page": "https://www.metmuseum.org/art/collection/search/437631",
+          "license": "cc0",
+          "note": "アレクセイ・サヴラーソフ《ヴォルガ川の夜景》1871年。メトロポリタン美術館蔵（isPublicDomain: true）。発起人14人の一人"
+        },
+        {
+          "url": "https://images.metmuseum.org/CRDImages/dp/original/DP835550.jpg",
+          "source_page": "https://www.metmuseum.org/art/collection/search/411170",
+          "license": "cc0",
+          "note": "イワン・シーシキン《嵐の前》1873年。メトロポリタン美術館蔵（isPublicDomain: true）。発起人14人の一人"
+        }
+      ],
       "status": "draft",
       "updated": "2026-08-09",
       "path": "entities/movements/peredvizhniki.md"
@@ -2611,6 +2895,20 @@
       "sources": [
         "https://www.wikidata.org/wiki/Q166713"
       ],
+      "images": [
+        {
+          "url": "https://www.artic.edu/iiif/2/6644829f-f292-c5c4-a73c-0356a6fdbf0d/full/843,/0/default.jpg",
+          "source_page": "https://www.artic.edu/artworks/28560",
+          "license": "cc0",
+          "note": "フィンセント・ファン・ゴッホ《寝室》1889年。ポスト印象派に括られる中心的作家の1点。シカゴ美術館蔵（is_public_domain: true）"
+        },
+        {
+          "url": "https://www.artic.edu/iiif/2/52ac8996-3460-cf71-cb42-5c4d0aa29b74/full/843,/0/default.jpg",
+          "source_page": "https://www.artic.edu/artworks/111436",
+          "license": "cc0",
+          "note": "ポール・セザンヌ《リンゴの籠》c. 1893年。ポスト印象派に括られる中心的作家の1点。シカゴ美術館蔵（is_public_domain: true）"
+        }
+      ],
       "status": "stub",
       "updated": "2026-08-08",
       "path": "entities/movements/post-impressionism.md"
@@ -2663,6 +2961,20 @@
       "sources": [
         "https://www.wikidata.org/wiki/Q3179819",
         "https://www.getty.edu/research/tools/vocabularies/aat/"
+      ],
+      "images": [
+        {
+          "url": "https://images.metmuseum.org/CRDImages/as/original/DT231.jpg",
+          "source_page": "https://www.metmuseum.org/art/collection/search/39664",
+          "license": "cc0",
+          "note": "尾形光琳《八橋図》（Irises at Yatsuhashi）、江戸時代18世紀。メトロポリタン美術館蔵（isPublicDomain: true）"
+        },
+        {
+          "url": "https://www.artic.edu/iiif/2/13c3192f-2844-7eb9-4db5-3cd7ce4eb66a/full/843,/0/default.jpg",
+          "source_page": "https://www.artic.edu/artworks/35620",
+          "license": "cc0",
+          "note": "俵屋宗達《牡丹・木蓮・蒲公英図》（Peonies, Magnolia, and Dandelions）。シカゴ美術館蔵（is_public_domain: true）"
+        }
       ],
       "status": "draft",
       "updated": "2026-08-08",
@@ -2727,6 +3039,20 @@
         "https://en.wikipedia.org/wiki/Safavid_dynasty",
         "https://www.ebsco.com/research-starters/arts-and-entertainment/esfahan-school-painting",
         "https://www.britannica.com/art/Tabriz-school"
+      ],
+      "images": [
+        {
+          "url": "https://images.metmuseum.org/CRDImages/is/original/DP231354.jpg",
+          "source_page": "https://www.metmuseum.org/art/collection/search/453250",
+          "license": "cc0",
+          "note": "レザー・アッバーシー《鳥の習作》（Study of a Bird）、1043 AH/1634年。メトロポリタン美術館蔵（isPublicDomain: true）"
+        },
+        {
+          "url": "https://images.metmuseum.org/CRDImages/is/original/DP-13133-028.jpg",
+          "source_page": "https://www.metmuseum.org/art/collection/search/724722",
+          "license": "cc0",
+          "note": "ムイーン・ムサッヴィル《蓮の葉を囲む幻獣たち》（A Gathering of Mythical Creatures around a Lotus Leaf）、1088 AH/1677年。メトロポリタン美術館蔵（isPublicDomain: true）"
+        }
       ],
       "status": "draft",
       "updated": "2026-08-09",
@@ -3111,6 +3437,14 @@
         "https://www.getty.edu/research/tools/vocabularies/aat/",
         "https://en.wikipedia.org/wiki/Tosa_school"
       ],
+      "images": [
+        {
+          "url": "https://images.metmuseum.org/CRDImages/as/original/DT1607.jpg",
+          "source_page": "https://www.metmuseum.org/art/collection/search/45258",
+          "license": "cc0",
+          "note": "土佐光信《四季竹図》（Bamboo in the Four Seasons）、15世紀末〜16世紀初頭。メトロポリタン美術館蔵（isPublicDomain: true）"
+        }
+      ],
       "status": "draft",
       "updated": "2026-08-08",
       "path": "entities/movements/tosa-school.md"
@@ -3269,6 +3603,20 @@
         "https://zh.wikipedia.org/wiki/%E6%96%87%E5%BE%B5%E6%98%8E",
         "https://www.britannica.com/biography/Dong-Qichang"
       ],
+      "images": [
+        {
+          "url": "https://images.metmuseum.org/CRDImages/as/original/DP-13849-002.jpg",
+          "source_page": "https://www.metmuseum.org/art/collection/search/45682",
+          "license": "cc0",
+          "note": "沈周《秋林漁隠図（Silent Fisherman in an Autumn Wood）》1475年、メトロポリタン美術館蔵。呉派の祖・沈周の作（isPublicDomain: true）"
+        },
+        {
+          "url": "https://images.metmuseum.org/CRDImages/as/original/DP-24654-002_crd.jpg",
+          "source_page": "https://www.metmuseum.org/art/collection/search/45778",
+          "license": "cc0",
+          "note": "文徴明《松林で琴を弾く隠者（Recluse Playing the Zither in a Pine Grove）》c.1540年、メトロポリタン美術館蔵。沈周を継いだ文徴明の作（isPublicDomain: true）"
+        }
+      ],
       "status": "draft",
       "updated": "2026-08-09",
       "path": "entities/movements/wu-school.md"
@@ -3341,6 +3689,14 @@
         "https://www.bukowskis.com/en/auctions/669/1248-a-mongolian-gilt-bronze-figure-of-buddha-zanabazar-school-18th-century",
         "https://en.wikipedia.org/wiki/Stalinist_repressions_in_Mongolia",
         "https://en.wikipedia.org/wiki/Gankh%C3%BC%C3%BCgiin_P%C3%BCrevbat"
+      ],
+      "images": [
+        {
+          "url": "https://www.artic.edu/iiif/2/c9b97cd1-2f45-f0c4-a575-354f12d7e488/full/843,/0/default.jpg",
+          "source_page": "https://www.artic.edu/artworks/158101",
+          "license": "cc0",
+          "note": "《ヴァイローチャナ仏坐像（説法印）》17世紀末〜18世紀初頭、鍍金青銅。シカゴ美術館蔵、artist_display＝\"Mongolia / School of Zanabazar\"（is_public_domain: true）"
+        }
       ],
       "status": "draft",
       "updated": "2026-08-09",
@@ -3462,6 +3818,20 @@
         "https://en.wikipedia.org/wiki/Zhe_school_(painting)",
         "https://www.wikidata.org/wiki/Q741512",
         "https://www.wikidata.org/wiki/Q537211"
+      ],
+      "images": [
+        {
+          "url": "https://www.artic.edu/iiif/2/7739a403-99b6-d151-c892-e93a0b17e4ef/full/843,/0/default.jpg",
+          "source_page": "https://www.artic.edu/artworks/150406",
+          "license": "cc0",
+          "note": "戴進《道士対局図》（Landscape with Daoist Immortals Playing Weiqi）、明代15-16世紀。シカゴ美術館蔵（is_public_domain: true）"
+        },
+        {
+          "url": "https://images.metmuseum.org/CRDImages/as/original/DP204373_CRD.jpg",
+          "source_page": "https://www.metmuseum.org/art/collection/search/45680",
+          "license": "cc0",
+          "note": "蒋嵩《冬景山水図》（Winter landscape）、16世紀前半。メトロポリタン美術館蔵（isPublicDomain: true）"
+        }
       ],
       "status": "draft",
       "updated": "2026-08-09",
@@ -3928,6 +4298,35 @@
       "updated": "2026-08-09",
       "path": "entities/persons/kazimir-malevich.md"
     },
+    "person/lee-ufan": {
+      "id": "person/lee-ufan",
+      "uri": "urn:ahn:person/lee-ufan",
+      "type": "person",
+      "label_ja": "李禹煥",
+      "label_en": "Lee Ufan",
+      "authority": {
+        "wikidata": "Q399775",
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": "1936-06-24",
+        "end": "..",
+        "display": "1936年6月24日 –"
+      },
+      "space": [],
+      "relations": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q399775",
+        "https://oralarthistory.org/archives/interviews/lee_u_fan_02/",
+        "https://www.getty.edu/vow/AATFullDisplay?find=mono+ha&logic=AND&note=&english=Y&prev_page=1&subjectid=300417405"
+      ],
+      "status": "stub",
+      "updated": "2026-08-09",
+      "path": "entities/persons/lee-ufan.md"
+    },
     "person/louis-leroy": {
       "id": "person/louis-leroy",
       "uri": "urn:ahn:person/louis-leroy",
@@ -3986,6 +4385,34 @@
       "updated": "2026-08-09",
       "path": "entities/persons/nguyen-gia-tri.md"
     },
+    "person/nobuo-sekine": {
+      "id": "person/nobuo-sekine",
+      "uri": "urn:ahn:person/nobuo-sekine",
+      "type": "person",
+      "label_ja": "関根伸夫",
+      "label_en": "Nobuo Sekine",
+      "authority": {
+        "wikidata": "Q3342580",
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": "1942-09-19",
+        "end": "2019-05-13",
+        "display": "1942年9月19日 – 2019年5月13日"
+      },
+      "space": [],
+      "relations": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q3342580",
+        "https://www.getty.edu/vow/AATFullDisplay?find=mono+ha&logic=AND&note=&english=Y&prev_page=1&subjectid=300417405"
+      ],
+      "status": "stub",
+      "updated": "2026-08-09",
+      "path": "entities/persons/nobuo-sekine.md"
+    },
     "person/oswald-de-andrade": {
       "id": "person/oswald-de-andrade",
       "uri": "urn:ahn:person/oswald-de-andrade",
@@ -4013,6 +4440,35 @@
       "status": "stub",
       "updated": "2026-08-09",
       "path": "entities/persons/oswald-de-andrade.md"
+    },
+    "person/pierre-boucherle": {
+      "id": "person/pierre-boucherle",
+      "uri": "urn:ahn:person/pierre-boucherle",
+      "type": "person",
+      "label_ja": "ピエール・ボウシェルレ",
+      "label_en": "Pierre Boucherle",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "Wikidataを名前・生没年で検索したが該当項目が見つからなかった（2026-08-09時点）"
+      },
+      "time": {
+        "start": "1894-04-11",
+        "end": "1988-11-22",
+        "display": "1894年4月11日（チュニス生）〜1988年11月22日（シス＝フール＝レ＝プラージュ没）"
+      },
+      "space": [],
+      "relations": [],
+      "sources": [
+        "https://fr.wikipedia.org/wiki/Pierre_Boucherle",
+        "https://harissa.com/news555/fr/pierre-boucherle-fondateur-de-lecole-de-tunis",
+        "https://www.fikerinstitute.org/publications/lecole-de-tunis-the-arts-in-post-independence-tunisia"
+      ],
+      "status": "stub",
+      "updated": "2026-08-09",
+      "path": "entities/persons/pierre-boucherle.md"
     },
     "person/robert-coates": {
       "id": "person/robert-coates",
@@ -4184,6 +4640,34 @@
       "status": "stub",
       "updated": "2026-08-09",
       "path": "entities/persons/victorio-edades.md"
+    },
+    "person/yahia-turki": {
+      "id": "person/yahia-turki",
+      "uri": "urn:ahn:person/yahia-turki",
+      "type": "person",
+      "label_ja": "ヤヒヤ・トゥルキ",
+      "label_en": "Yahia Turki",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "Wikidataを名前・生没年で検索したが該当項目が見つからなかった（2026-08-09時点）"
+      },
+      "time": {
+        "start": "1903",
+        "end": "1969-03-01",
+        "display": "1903年（イスタンブール生）〜1969年3月1日"
+      },
+      "space": [],
+      "relations": [],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Yahia_Turki",
+        "https://www.fikerinstitute.org/publications/lecole-de-tunis-the-arts-in-post-independence-tunisia"
+      ],
+      "status": "stub",
+      "updated": "2026-08-09",
+      "path": "entities/persons/yahia-turki.md"
     },
     "place/agra": {
       "id": "place/agra",
@@ -5477,6 +5961,38 @@
       "updated": "2026-08-09",
       "path": "entities/places/tovkhon-monastery.md"
     },
+    "place/tunis": {
+      "id": "place/tunis",
+      "uri": "urn:ahn:place/tunis",
+      "type": "place",
+      "label_ja": "チュニス",
+      "label_en": "Tunis",
+      "authority": {
+        "wikidata": "Q3572",
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": null,
+        "end": null,
+        "display": null
+      },
+      "region": "mena",
+      "coordinates": [
+        36.800833333333,
+        10.18
+      ],
+      "space": [],
+      "relations": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q3572"
+      ],
+      "status": "stub",
+      "updated": "2026-08-09",
+      "path": "entities/places/tunis.md"
+    },
     "place/ubud": {
       "id": "place/ubud",
       "uri": "urn:ahn:place/ubud",
@@ -5814,6 +6330,25 @@
       "to": "place/seoul"
     },
     {
+      "from": "movement/ecole-de-tunis",
+      "type": "created_by",
+      "to": "person/pierre-boucherle",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "movement/ecole-de-tunis",
+      "type": "created_by",
+      "to": "person/yahia-turki",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "movement/ecole-de-tunis",
+      "type": "originated_in",
+      "to": "place/tunis"
+    },
+    {
       "from": "movement/futurism",
       "type": "created_by",
       "to": "person/filippo-tommaso-marinetti",
@@ -5958,6 +6493,25 @@
       "from": "movement/mexican-muralism",
       "type": "originated_in",
       "to": "place/mexico-city"
+    },
+    {
+      "from": "movement/mono-ha",
+      "type": "created_by",
+      "to": "person/nobuo-sekine",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "movement/mono-ha",
+      "type": "created_by",
+      "to": "person/lee-ufan",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "movement/mono-ha",
+      "type": "originated_in",
+      "to": "place/tokyo"
     },
     {
       "from": "movement/mughal-painting",
@@ -6307,6 +6861,18 @@
       "derived": true
     },
     {
+      "from": "person/pierre-boucherle",
+      "type": "created",
+      "to": "movement/ecole-de-tunis",
+      "derived": true
+    },
+    {
+      "from": "person/yahia-turki",
+      "type": "created",
+      "to": "movement/ecole-de-tunis",
+      "derived": true
+    },
+    {
       "from": "person/filippo-tommaso-marinetti",
       "type": "created",
       "to": "movement/futurism",
@@ -6352,6 +6918,18 @@
       "from": "movement/mughal-painting",
       "type": "influenced",
       "to": "movement/kangra-painting",
+      "derived": true
+    },
+    {
+      "from": "person/nobuo-sekine",
+      "type": "created",
+      "to": "movement/mono-ha",
+      "derived": true
+    },
+    {
+      "from": "person/lee-ufan",
+      "type": "created",
+      "to": "movement/mono-ha",
       "derived": true
     },
     {

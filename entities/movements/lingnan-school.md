@@ -44,6 +44,11 @@ sources:
   - https://zh.wikipedia.org/wiki/陈树人
   - https://zh.wikipedia.org/wiki/居廉
   - https://cn.chinadaily.com.cn/a/202504/07/WS67f37d5ea310e29a7c4a7e8d.html
+images:
+  - url: https://images.metmuseum.org/CRDImages/as/original/DP162527.jpg
+    source_page: https://www.metmuseum.org/art/collection/search/36184
+    license: cc0
+    note: "居廉《昆虫と花（Insects and Flowers）》1865年、メトロポリタン美術館蔵。高剣父・高奇峰・陳樹人の師で、嶺南画派の様式的源流の一人とされる（isPublicDomain: true）"
 status: draft
 updated: 2026-08-09
 ---

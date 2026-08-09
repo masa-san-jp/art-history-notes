@@ -158,6 +158,18 @@ def read_queries():
     return [json.loads(l) for l in QUERY_LOG.read_text(encoding="utf-8").splitlines() if l.strip()]
 
 
+def search_entities(term, entities):
+    """語で当たる id を返す（label と本文を見る）。bundle の --search と被覆マップで同じ結果を使う。"""
+    hits = []
+    needle = term.lower()
+    for eid, meta in sorted(entities.items()):
+        body = read_frontmatter(ROOT / meta["path"])[1]
+        haystack = " ".join(str(meta.get(k) or "") for k in ("label_ja", "label_en", "id")) + body
+        if needle in haystack.lower():
+            hits.append(eid)
+    return hits
+
+
 def regions_of(entity_id, entities):
     """発生地の文化圏を**全部**返す。起源が複数・論争中のものを最初の1つで代表させないため。"""
     meta = entities.get(entity_id) or {}

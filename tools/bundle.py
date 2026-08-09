@@ -16,7 +16,7 @@ import sys
 from pathlib import Path
 
 from kb import (ROOT, alias_map, build_edges, edtf_year_range, load_entities, log_query,
-                read_frontmatter, regions_of, resolve)
+                read_frontmatter, regions_of, resolve, search_entities)
 
 
 def summarize(meta):
@@ -93,12 +93,7 @@ def main():
     edges = build_edges(entities)
 
     if a.search:
-        hits = []
-        for eid, meta in sorted(entities.items()):
-            body = read_frontmatter(ROOT / meta["path"])[1]
-            haystack = " ".join(str(meta.get(k) or "") for k in ("label_ja", "label_en", "id")) + body
-            if a.search.lower() in haystack.lower():
-                hits.append(eid)
+        hits = search_entities(a.search, entities)
         log_query(a.search, len(hits))
         if not hits:
             print(f"該当なし: {a.search}\n（overviews/coverage.md の空欄も見る——まだ無い領域かもしれない）",

@@ -37,6 +37,15 @@ sources:
   - https://en.wikipedia.org/wiki/Abu%27l-Hasan_(artist)
   - https://www.dailyartmagazine.com/mughal-art-aurangzeb/
   - https://www.wikidata.org/wiki/Q42941
+images:
+  - url: https://images.metmuseum.org/CRDImages/is/original/DP246561.jpg
+    source_page: https://www.metmuseum.org/art/collection/search/451276
+    license: cc0
+    note: "マノーハル筆《ザマーナ・ベグ（マハーバト・ハーン）の肖像》シャー・ジャハーン・アルバムより、c.1610年、メトロポリタン美術館蔵（isPublicDomain: true）"
+  - url: https://images.metmuseum.org/CRDImages/is/original/DP246534.jpg
+    source_page: https://www.metmuseum.org/art/collection/search/454623
+    license: cc0
+    note: "アブル・ハサン筆《斑ヒタキ（Spotted Forktail）》シャー・ジャハーン・アルバムより、c.1610-15年、メトロポリタン美術館蔵（isPublicDomain: true）"
 status: draft
 updated: 2026-08-09
 ---

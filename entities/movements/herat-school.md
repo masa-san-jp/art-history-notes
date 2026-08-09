@@ -43,6 +43,11 @@ sources:
   - https://www.ebsco.com/research-starters/visual-arts/herat-school-painting
   - https://www.reed.edu/persian-calligraphy/en/jafar-baysonghori/index.html
   - https://www.britannica.com/art/Herat-school
+images:
+  - url: https://images.metmuseum.org/CRDImages/is/original/DP231332.jpg
+    source_page: https://www.metmuseum.org/art/collection/search/446892
+    license: cc0
+    note: "「踊る托鉢僧」ハーフィズ『ディーワーン』挿画、c.1480年、ヘラート制作。メトロポリタン美術館蔵、constituents＝\"Painting attributed to Bihzad\"（isPublicDomain: true）"
 status: draft
 updated: 2026-08-09
 ---

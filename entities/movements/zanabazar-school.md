@@ -43,6 +43,11 @@ sources:
   - https://www.bukowskis.com/en/auctions/669/1248-a-mongolian-gilt-bronze-figure-of-buddha-zanabazar-school-18th-century
   - https://en.wikipedia.org/wiki/Stalinist_repressions_in_Mongolia
   - https://en.wikipedia.org/wiki/Gankh%C3%BC%C3%BCgiin_P%C3%BCrevbat
+images:
+  - url: https://www.artic.edu/iiif/2/c9b97cd1-2f45-f0c4-a575-354f12d7e488/full/843,/0/default.jpg
+    source_page: https://www.artic.edu/artworks/158101
+    license: cc0
+    note: "《ヴァイローチャナ仏坐像（説法印）》17世紀末〜18世紀初頭、鍍金青銅。シカゴ美術館蔵、artist_display＝\"Mongolia / School of Zanabazar\"（is_public_domain: true）"
 status: draft
 updated: 2026-08-09
 ---

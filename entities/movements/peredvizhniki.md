@@ -32,6 +32,15 @@ sources:
   - https://www.wikidata.org/wiki/Q109260
   - https://ru.wikipedia.org/wiki/Передвижники
   - https://en.wikipedia.org/wiki/Peredvizhniki
+images:
+  - url: https://images.metmuseum.org/CRDImages/ep/original/DP-23542-001.jpg
+    source_page: https://www.metmuseum.org/art/collection/search/437631
+    license: cc0
+    note: "アレクセイ・サヴラーソフ《ヴォルガ川の夜景》1871年。メトロポリタン美術館蔵（isPublicDomain: true）。発起人14人の一人"
+  - url: https://images.metmuseum.org/CRDImages/dp/original/DP835550.jpg
+    source_page: https://www.metmuseum.org/art/collection/search/411170
+    license: cc0
+    note: "イワン・シーシキン《嵐の前》1873年。メトロポリタン美術館蔵（isPublicDomain: true）。発起人14人の一人"
 status: draft
 updated: 2026-08-09
 ---

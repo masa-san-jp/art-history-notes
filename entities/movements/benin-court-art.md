@@ -37,6 +37,15 @@ sources:
   - https://www.penn.museum/sites/expedition/the-art-of-benin/
   - https://en.wikipedia.org/wiki/Igun_Street
   - https://historicalnigeria.com/benin-bronze-casting-art-power-and-continuity-in-edo-history/
+images:
+  - url: https://www.artic.edu/iiif/2/fc361495-826f-3ef9-32d3-da3eac34c34a/full/843,/0/default.jpg
+    source_page: https://www.artic.edu/artworks/15457
+    license: cc0
+    note: "エド民族《プラーク》16〜17世紀。王宮の柱を飾った浮彫プラークの一例。イグン・エロンムオンによる真鍮鋳造。シカゴ美術館蔵（is_public_domain: true）"
+  - url: https://www.artic.edu/iiif/2/2b923635-7f1b-7034-b0e8-d5a3d3287716/full/843,/0/default.jpg
+    source_page: https://www.artic.edu/artworks/152856
+    license: cc0
+    note: "エド民族《記念頭像》おそらく17世紀半ば〜18世紀半ば。歴代オバの記念頭像の一例。シカゴ美術館蔵（is_public_domain: true）"
 status: draft
 updated: 2026-08-09
 ---

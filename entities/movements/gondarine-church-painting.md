@@ -38,6 +38,11 @@ sources:
   - https://journal.thewalters.org/volume/78/note/ethiopian-icon-paintings/
   - https://www.journal18.org/nq/giulio-romanos-the-little-holy-family-in-africa-identifying-an-18th-century-ethiopian-painting-by-kristen-windmuller-luna/
   - https://whc.unesco.org/en/list/19/
+images:
+  - url: https://openaccess-cdn.clevelandart.org/2023.4/2023.4_web.jpg
+    source_page: https://clevelandart.org/art/2023.4
+    license: cc0
+    note: "《十二使徒とパウロの二連祭壇画》c.1700年、ワルダ・マルヤム（Wäldä Maryam）の工房または一門作。クリーブランド美術館蔵（画家の活動期は1600年代半ば〜1700年代初頭とされ、本文の聖アバ・アントニウス教会ディプティクの署名画家と同名・同時代）"
 status: draft
 updated: 2026-08-09
 ---
