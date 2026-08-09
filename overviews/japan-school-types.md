@@ -27,6 +27,9 @@ tested:
   - {region: mena, by: movement/ottoman-miniature, result: held}
   - {region: asia-southeast, by: movement/indochina-lacquer-painting, result: revised}
   - {region: oceania, by: movement/ngati-tarawhai-whakairo, result: revised}
+  - {region: americas-latin, by: movement/neoconcretismo, result: gap-found}
+  - {region: asia-central, by: movement/herat-school, result: revised}
+  - {region: asia-east-korea, by: movement/jingyeong-sansuhwa, result: gap-found}
 tests_regions:            # ここが埋まるまで仮説は仮説のまま（tools/audit.py が指す）
   - asia-east-china
   - asia-east-korea
@@ -86,6 +89,9 @@ tests_regions:            # ここが埋まるまで仮説は仮説のまま（t
 | 中東（2件目） | [オスマン朝細密画](../entities/movements/ottoman-miniature.md) | 崩れなかった。**period-style と lineage-school を分ける軸が確定** |
 | 東南アジア（2件目） | [ベトナムの漆絵画](../entities/movements/indochina-lacquer-painting.md) | **③に「素材と技法の共有」が加わった／shared の3件目** |
 | オセアニア（2件目） | [ンガーティ・タラーワイの彫刻](../entities/movements/ngati-tarawhai-whakairo.md) | **①②の二分を解消させた** |
+| 中南米（3件目） | [ネオコンクレチスモ](../entities/movements/neoconcretismo.md) | **自称しながら「集団ではない」と当事者が否定** |
+| 中央アジア（2件目） | [ヘラート派](../entities/movements/herat-school.md) | **線は種類ごとに切れる／③の時間に第4の型** |
+| 朝鮮半島（3件目） | [真景山水画](../entities/movements/jingyeong-sansuhwa.md) | **担い手が身分を跨ぐ形を関係語彙で書けない** |
 
 浙派は血縁なし・師弟希薄・官職はあるが世襲でない（各世代が個別に画院へ出入りするだけ）。
 制度としての実体が無く、括りは後世の美術史記述（董其昌『画禅室随筆』）から来ている。

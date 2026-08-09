@@ -14,23 +14,23 @@ depends_on: []
 <!-- generated:coverage:start -->
 データの最新日: 2026-08-09 — `python3 tools/build_graph.py` が生成（手で書き換えない）
 
-movement **22** 件（stub 1件は不算入）／内訳 {'draft': 21, 'stub': 1, 'verified': 1}
+movement **26** 件（stub 1件は不算入）／内訳 {'draft': 25, 'stub': 1, 'verified': 1}
 
-| 文化圏 | 13C | 15C | 16C | 17C | 19C | 20C | 年代不明 | 計 |
-|---|---|---|---|---|---|---|---|---|
-| europe-west（西欧・南欧・北欧） |  |  |  |  | 1 |  |  | 1 |
-| europe-east（中東欧・ロシア・ビザンツ圏） |  |  |  |  | 1 |  |  | 1 |
-| americas-north（北米） |  |  |  |  | 1 |  |  | 1 |
-| mena（中東・北アフリカ） ※非西洋 |  | 1 | 1 |  |  |  |  | 2 |
-| africa-sub（サブサハラ・アフリカ） ※非西洋 | 1 |  |  |  |  | 1 |  | 2 |
-| asia-central（中央アジア・チベット・モンゴル） ※非西洋 |  | 1 |  |  |  |  |  | 1 |
-| asia-south（南アジア） ※非西洋 |  |  | 1 |  |  | 1 |  | 2 |
-| asia-southeast（東南アジア） ※非西洋 |  |  |  |  |  | 2 |  | 2 |
-| asia-east-china（中国圏） ※非西洋 |  | 2 |  |  |  |  |  | 2 |
-| asia-east-korea（朝鮮半島） ※非西洋 |  |  |  |  |  | 1 |  | 1 |
-| asia-east-japan（日本） ※非西洋 |  | 2 |  | 1 |  |  |  | 3 |
-| americas-latin（中南米・カリブ） ※非西洋 |  |  |  |  |  | 2 |  | 2 |
-| oceania（オセアニア・太平洋） ※非西洋 |  |  |  |  | 1 | 1 |  | 2 |
+| 文化圏 | 13C | 15C | 16C | 17C | 18C | 19C | 20C | 年代不明 | 計 |
+|---|---|---|---|---|---|---|---|---|---|
+| europe-west（西欧・南欧・北欧） |  |  |  |  |  | 1 |  |  | 1 |
+| europe-east（中東欧・ロシア・ビザンツ圏） |  |  |  |  |  | 1 |  |  | 1 |
+| americas-north（北米） |  |  |  |  |  | 1 |  |  | 1 |
+| mena（中東・北アフリカ） ※非西洋 |  | 1 | 1 |  |  |  |  |  | 2 |
+| africa-sub（サブサハラ・アフリカ） ※非西洋 | 1 |  |  |  |  |  | 1 |  | 2 |
+| asia-central（中央アジア・チベット・モンゴル） ※非西洋 |  | 2 |  |  |  |  |  |  | 2 |
+| asia-south（南アジア） ※非西洋 |  |  | 1 |  |  |  | 1 |  | 2 |
+| asia-southeast（東南アジア） ※非西洋 |  |  |  |  |  |  | 2 |  | 2 |
+| asia-east-china（中国圏） ※非西洋 |  | 2 |  |  |  |  | 1 |  | 3 |
+| asia-east-korea（朝鮮半島） ※非西洋 |  |  |  |  | 1 |  | 1 |  | 2 |
+| asia-east-japan（日本） ※非西洋 |  | 2 |  | 1 |  |  |  |  | 3 |
+| americas-latin（中南米・カリブ） ※非西洋 |  |  |  |  |  |  | 3 |  | 3 |
+| oceania（オセアニア・太平洋） ※非西洋 |  |  |  |  |  | 1 | 1 |  | 2 |
 
 **探されたが無かった語**（需要のシグナル。多い順）:
 
@@ -39,10 +39,10 @@ movement **22** 件（stub 1件は不算入）／内訳 {'draft': 21, 'stub': 1,
 
 受け入れ条件の達成度:
 
-- movement_total: 22/100（stub 1件は不算入）
-- non_west_ratio: 0.86/0.5
-- per_bucket_min: 1/13 バケットが 3件以上
-- pre_1800_ratio: 0.45/0.3
+- movement_total: 26/100（stub 1件は不算入）
+- non_west_ratio: 0.88/0.5
+- per_bucket_min: 3/13 バケットが 3件以上
+- pre_1800_ratio: 0.46/0.3
 - isolated_ratio: 0.00（上限 0.1）
 <!-- generated:coverage:end -->
 
@@ -61,7 +61,7 @@ movement **22** 件（stub 1件は不算入）／内訳 {'draft': 21, 'stub': 1,
 
 <!-- generated:audit:start -->
 **kind の地域偏り**
-- asia-east-china の movement 2件が全部 retrospective。kind が地域の言い換えになっていないか、別の kind の例を1件探す
+- asia-east-korea の movement 2件が全部 retrospective。kind が地域の言い換えになっていないか、別の kind の例を1件探す
 - mena の movement 2件が全部 period-style。kind が地域の言い換えになっていないか、別の kind の例を1件探す
 
 **辿れない先**

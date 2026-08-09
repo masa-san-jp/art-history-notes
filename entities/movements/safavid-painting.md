@@ -25,7 +25,8 @@ claims: []
 space:
   - {role: originated_in, target: place/tabriz}
   - {role: active_in, target: place/isfahan}
-relations: []
+relations:
+  - {type: influenced_by, target: movement/herat-school, certainty: scholarly, source: "https://en.wikipedia.org/wiki/Kamal_ud-Din_Behzad"}
 sources:
   - https://www.wikidata.org/wiki/Q2366921
   - https://www.wikidata.org/wiki/Q18234383
@@ -187,6 +188,13 @@ EBSCO Research Starters（イスファハーン派は「the demise of Safavid dy
 ガズヴィーンについては、本稿では中継地としてのみ言及し、place stubは作らなかった
 （`active_in` に加えるかは、ガズヴィーン期の担い手・作品がこのKBで具体的に必要になった時点で
 判断する）。
+
+## ヘラート派との接続
+
+ビフザードは1522年、シャー・イスマーイール1世に招かれてタブリーズのキタブハーネ長に就任した。
+ティムール朝ヘラートの工房で育った画家が、そのままサファヴィー朝の工房の長になっている——
+王朝が替わっても**担い手を通じて手つきが渡っている**。
+[movement/herat-school](herat-school.md) に `influenced_by` で接続した。
 
 ## 未着手
 

@@ -314,6 +314,82 @@
       "updated": "2026-08-09",
       "path": "entities/movements/dansaekhwa.md"
     },
+    "movement/herat-school": {
+      "id": "movement/herat-school",
+      "uri": "urn:ahn:movement/herat-school",
+      "type": "movement",
+      "label_ja": "ヘラート派",
+      "label_en": "Herat school",
+      "authority": {
+        "wikidata": "Q5958652",
+        "aat": "300021797",
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": "1421",
+        "end": "1507",
+        "display": "ティムール朝ヘラート——バイスングル・ミールザーがタブリーズの画家をヘラートへ招いた1421年から、ウズベク（シャイバーニー朝）によるヘラート陥落・略奪の1507年まで。1433年のバイスングル没後、1469年にスルターン・フサイン・バイカラが即位するまで36年の空白を挟む"
+      },
+      "kind": "period-style",
+      "naming": {
+        "self_identified": false,
+        "named_by": null,
+        "named_when": null,
+        "original_label": "Herat School",
+        "note": "「ヘラート派」は近代の美術史記述による分類名（Wikidata の説明は\"15th century school of Persian miniature painting\"）で、ティムール朝宮廷がこの名で自称した記録はない。命名者・命名年は未確認"
+      },
+      "claims": [
+        {
+          "field": "kind",
+          "source": "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300021797",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "time",
+          "source": "https://www.ebsco.com/research-starters/visual-arts/herat-school-painting",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "originated_in",
+          "source": "https://en.wikipedia.org/wiki/Baysunghur",
+          "certainty": "scholarly"
+        }
+      ],
+      "space": [
+        {
+          "role": "originated_in",
+          "target": "place/herat"
+        }
+      ],
+      "relations": [
+        {
+          "type": "diffused_to",
+          "target": "place/tabriz",
+          "certainty": "scholarly",
+          "source": "https://en.wikipedia.org/wiki/Kam%C4%81l_ud-D%C4%ABn_Behz%C4%81d"
+        }
+      ],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q5958652",
+        "https://www.wikidata.org/wiki/Q484195",
+        "https://www.wikidata.org/wiki/Q2669775",
+        "https://www.wikidata.org/wiki/Q553204",
+        "https://www.wikidata.org/wiki/Q334875",
+        "https://www.wikidata.org/wiki/Q45313",
+        "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300021797",
+        "https://en.wikipedia.org/wiki/Baysunghur",
+        "https://en.wikipedia.org/wiki/Kam%C4%81l_ud-D%C4%ABn_Behz%C4%81d",
+        "https://en.wikipedia.org/wiki/Sultan_Husayn_Bayqara",
+        "https://www.ebsco.com/research-starters/visual-arts/herat-school-painting",
+        "https://www.reed.edu/persian-calligraphy/en/jafar-baysonghori/index.html",
+        "https://www.britannica.com/art/Herat-school"
+      ],
+      "status": "draft",
+      "updated": "2026-08-09",
+      "path": "entities/movements/herat-school.md"
+    },
     "movement/hudson-river-school": {
       "id": "movement/hudson-river-school",
       "uri": "urn:ahn:movement/hudson-river-school",
@@ -450,6 +526,80 @@
       "updated": "2026-08-09",
       "path": "entities/movements/indochina-lacquer-painting.md"
     },
+    "movement/jingyeong-sansuhwa": {
+      "id": "movement/jingyeong-sansuhwa",
+      "uri": "urn:ahn:movement/jingyeong-sansuhwa",
+      "type": "movement",
+      "kind": "retrospective",
+      "label_ja": "真景山水画",
+      "label_en": "True-view landscape painting",
+      "authority": {
+        "wikidata": "Q12618161",
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": "17XX",
+        "end": "18XX",
+        "display": "18世紀初（粛宗朝後半、鄭敾による確立）〜19世紀中頃（金正喜を中心とする写意的文人画風の台頭により衰退）"
+      },
+      "naming": {
+        "self_identified": false,
+        "named_by": null,
+        "named_when": null,
+        "original_label": "眞景山水畵",
+        "note": "우리역사넷「진경산수화」は「조영석이 정선의 산수화에 「진경산수」라는 용어를 붙인 것이 아니고、후대에 만들어진 용어이다」（趙栄祏が鄭敾の山水画に「真景山水」という用語を付けたのではなく、後代に作られた用語である）と明記し、鄭敾と同時代の文人画家・趙栄祏（조영석）が命名したという説を名指しで否定する（二次情報）。一方、鄭敾と同時代の姜世晃（강세황）は批評の中で対象の形を似せて表すほどその対象の「眞境（진경）」が明らかになるという言い方をしており（우리역사넷「진경산수화의 확립과 발흥」）、「眞境」という語自体は18世紀当時すでに対象の真の姿を指す批評概念として存在した。ただし、これは絵画の様式・流派名としての自称ではなく、後代（20世紀の美術史学）が「実景に基づく個人的な再構成」という様式的共通性を括る名として定着させたものである可能性が高い。命名者を単独の個人に特定できないため named_by は null とした"
+      },
+      "claims": [
+        {
+          "field": "kind",
+          "source": "https://contents.history.go.kr/mobile/kc/view.do?levelId=kc_r300825&code=kc_age_30",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "originated_in",
+          "source": "https://www.wikidata.org/wiki/Q489785",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "time",
+          "source": "https://encykorea.aks.ac.kr/Article/E0054575",
+          "certainty": "scholarly"
+        }
+      ],
+      "space": [
+        {
+          "role": "originated_in",
+          "target": "place/hanseong"
+        }
+      ],
+      "relations": [
+        {
+          "type": "influenced_by",
+          "target": "movement/wu-school",
+          "certainty": "scholarly",
+          "source": "https://encykorea.aks.ac.kr/Article/E0050379"
+        }
+      ],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q12618161",
+        "https://www.wikidata.org/wiki/Q489785",
+        "https://ko.wikipedia.org/wiki/%EC%A7%84%EA%B2%BD%EC%82%B0%EC%88%98",
+        "https://ko.wikipedia.org/wiki/%EA%B9%80%ED%99%8D%EB%8F%84",
+        "https://encykorea.aks.ac.kr/Article/E0054575",
+        "https://encykorea.aks.ac.kr/Article/E0050379",
+        "https://encykorea.aks.ac.kr/Article/E0033641",
+        "https://contents.history.go.kr/mobile/kc/view.do?levelId=kc_r300825&code=kc_age_30",
+        "https://contents.history.go.kr/mobile/nh/view.do?levelId=nh_035_0040_0020_0010_0030",
+        "https://en.wikipedia.org/wiki/Dohwaseo",
+        "https://www.kci.go.kr/kciportal/landing/article.kci?arti_id=ART001994596"
+      ],
+      "status": "draft",
+      "updated": "2026-08-09",
+      "path": "entities/movements/jingyeong-sansuhwa.md"
+    },
     "movement/kano-school": {
       "id": "movement/kano-school",
       "uri": "urn:ahn:movement/kano-school",
@@ -506,6 +656,76 @@
       "status": "draft",
       "updated": "2026-08-08",
       "path": "entities/movements/kano-school.md"
+    },
+    "movement/lingnan-school": {
+      "id": "movement/lingnan-school",
+      "uri": "urn:ahn:movement/lingnan-school",
+      "type": "movement",
+      "kind": "self-declared",
+      "label_ja": "嶺南画派",
+      "label_en": "Lingnan School",
+      "authority": {
+        "wikidata": "Q11050078",
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": "190X",
+        "end": "..",
+        "display": "1900年代（1906〜1908年の高剣父・高奇峰・陳樹人の東京美術学校留学、1912〜1913年の『真相画報』での自称『折衷派』の表明）〜現在（4代目の後継者の活動が確認できる）。Wikidata の movement 項目 (Q11050078) の P571（inception）は 1900年・precision 8（10年単位）"
+      },
+      "naming": {
+        "self_identified": false,
+        "named_by": null,
+        "named_when": null,
+        "original_label": "折衷派",
+        "note": "当事者（高剣父・高奇峰・陳樹人）が自ら名乗ったのは『折衷派』（および『新国画』）であり、『嶺南画派』という名称そのものを当事者が自称した記録は見つかっていない。高剣父の弟子・方人定は遺稿で『我在1924年从高剑父学画……都没有听他说过岭南画派的名称』（1924年に高剣父に師事してから1951年の死去まで、岭南画派という名称を彼が口にするのを聞いたことがない）と記す。もう一人の弟子・黎葛民も『高、陈在世时，均未尝以'岭南派'自居』（高剣父・陳樹人が存命中、'岭南派'を自称したことは一度も無い）と明確に否定する（いずれも二次資料 huajia.cc 経由の引用）。命名の経緯には複数の説がある——(1) 同時代人が彼らを『岭南三杰』と呼び習わし、そこから自然に『岭南画派』の呼称が定着したとする説、(2) 三人自身が話し合って『岭南人が創った画派』の略として『岭南派』を名乗ろうとしたが、高剣父が当初同意しなかったとする説（zh.wikipedia『岭南画派』、二次情報）。確認できる最初の活字使用は1935年6月5日『中央日報』の丁衍庸による『素称岭南派画宗高剑父先生』という個人的な言及で、まだ広く定着していなかった。研究者・李偉銘によれば、理論界で『岭南画派』が高剣父・高奇峰・陳樹人とその追随者を指す語として明確に受け入れられたのは1950年代末で、鄭振鐸が1958年の序文で『高崙（剣父）则是岭南派画家的领袖』と書いたことが転機になったとされる（いずれも huajia.cc 経由の二次情報。原論文・原文には未到達）。方人定の記述によれば、名称の由来は『北方人见这种[画风]有与北方人所画有些不同，北方惯称广东为岭南』（北方の人々がこの画風を見て北方の画とやや異なると感じ、北方では広東を慣習的に'岭南'と呼んでいた）——北方（中国の政治・文化的中心）側の慣用語が当てはめられたという説明"
+      },
+      "claims": [
+        {
+          "field": "kind",
+          "source": "https://www.huajia.cc/n/201608/1512142572.html",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "originated_in",
+          "source": "https://news.qq.com/rain/a/20230822A01WD200",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "time",
+          "source": "https://www.wikidata.org/wiki/Q11050078",
+          "certainty": "scholarly"
+        }
+      ],
+      "space": [
+        {
+          "role": "originated_in",
+          "target": "place/guangzhou"
+        }
+      ],
+      "relations": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q11050078",
+        "https://www.wikidata.org/wiki/Q3083171",
+        "https://zh.wikipedia.org/wiki/岭南画派",
+        "https://en.wikipedia.org/wiki/Lingnan_School",
+        "https://zh.wikipedia.org/wiki/高剑父",
+        "https://en.wikipedia.org/wiki/Gao_Jianfu",
+        "https://zh.wikipedia.org/wiki/真相画报",
+        "https://www.huajia.cc/n/201608/1512142572.html",
+        "https://baike.baidu.com/item/岭南画派/197892",
+        "https://news.qq.com/rain/a/20230822A01WD200",
+        "https://news.qq.com/rain/a/20230103A00ARP00",
+        "https://zh.wikipedia.org/wiki/高奇峰",
+        "https://zh.wikipedia.org/wiki/陈树人",
+        "https://cn.chinadaily.com.cn/a/202504/07/WS67f37d5ea310e29a7c4a7e8d.html"
+      ],
+      "status": "draft",
+      "updated": "2026-08-09",
+      "path": "entities/movements/lingnan-school.md"
     },
     "movement/menri-school": {
       "id": "movement/menri-school",
@@ -768,6 +988,73 @@
       "status": "verified",
       "updated": "2026-08-09",
       "path": "entities/movements/neo-impressionism.md"
+    },
+    "movement/neoconcretismo": {
+      "id": "movement/neoconcretismo",
+      "uri": "urn:ahn:movement/neoconcretismo",
+      "type": "movement",
+      "kind": "self-declared",
+      "label_ja": "ネオコンクレチスモ",
+      "label_en": "Neo-Concrete Movement",
+      "authority": {
+        "wikidata": "Q10336205",
+        "aat": "300456752",
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": "1959-03",
+        "end": "1961",
+        "display": "1959年3月（『新具体主義宣言』発表・第1回ネオコンクレト展開幕）〜1961年（第3回展を経て解体、二次情報）"
+      },
+      "naming": {
+        "self_identified": true,
+        "named_by": null,
+        "named_when": "1959-03",
+        "original_label": "neoconcreto",
+        "note": "「neoconcreto」という語自体は宣言文の本文中で参加者が繰り返し使っており（『arte neoconcreta』『poesia neoconcreta』等）、当事者自身が発表と同時に自分たちの実践を名指すために作った語であることは一次資料に近いアーカイブ記録（リジア・クラーク文化協会所蔵の実物スキャン＋全文翻刻）で直接確認できる。誰が最初にこの語を選んだかは特定できず、複数の資料が宣言文の執筆者をフェレイラ・グラールとするが、これは執筆者の特定であって造語者の特定ではないため named_by は null にした。加えて、宣言文自身は『この展覧会の参加者は“グループ”を構成しない』と明言しており、名乗ったのは技法・態度を指す形容語（neoconcreto）であって、結社としての固有名ではない点に注意（詳細は本文『kind の判定』）"
+      },
+      "claims": [
+        {
+          "field": "kind",
+          "source": "https://portal.lygiaclark.org.br/acervo/67348/manifesto-neoconcreto",
+          "certainty": "attested"
+        },
+        {
+          "field": "originated_in",
+          "source": "https://portal.lygiaclark.org.br/acervo/67348/manifesto-neoconcreto",
+          "certainty": "attested"
+        },
+        {
+          "field": "time",
+          "source": "https://portal.lygiaclark.org.br/acervo/1747/1-exposicao-neoconcreta",
+          "certainty": "scholarly"
+        }
+      ],
+      "space": [
+        {
+          "role": "originated_in",
+          "target": "place/rio-de-janeiro"
+        }
+      ],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/ferreira-gullar"
+        }
+      ],
+      "sources": [
+        "https://portal.lygiaclark.org.br/acervo/67348/manifesto-neoconcreto",
+        "https://portal.lygiaclark.org.br/acervo/1747/1-exposicao-neoconcreta",
+        "https://www.wikidata.org/wiki/Q10336205",
+        "https://pt.wikipedia.org/wiki/Neoconcretismo",
+        "https://memorialdademocracia.com.br/card/o-movimento-contra-a-aspereza-na-arte",
+        "https://www.getty.edu/vow/AATFullDisplay?find=neoconcrete&logic=OR&note=&english=Y&prev_page=1&subjectid=300456752"
+      ],
+      "status": "draft",
+      "updated": "2026-08-09",
+      "path": "entities/movements/neoconcretismo.md"
     },
     "movement/ngati-tarawhai-whakairo": {
       "id": "movement/ngati-tarawhai-whakairo",
@@ -1200,7 +1487,14 @@
           "target": "place/isfahan"
         }
       ],
-      "relations": [],
+      "relations": [
+        {
+          "type": "influenced_by",
+          "target": "movement/herat-school",
+          "certainty": "scholarly",
+          "source": "https://en.wikipedia.org/wiki/Kamal_ud-Din_Behzad"
+        }
+      ],
       "sources": [
         "https://www.wikidata.org/wiki/Q2366921",
         "https://www.wikidata.org/wiki/Q18234383",
@@ -1682,6 +1976,34 @@
       "updated": "2026-08-09",
       "path": "entities/persons/felix-feneon.md"
     },
+    "person/ferreira-gullar": {
+      "id": "person/ferreira-gullar",
+      "uri": "urn:ahn:person/ferreira-gullar",
+      "type": "person",
+      "label_ja": "フェレイラ・グラール",
+      "label_en": "Ferreira Gullar",
+      "authority": {
+        "wikidata": "Q722119",
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": "1930-09-10",
+        "end": "2016-12-04",
+        "display": "1930年9月10日 – 2016年12月4日"
+      },
+      "space": [],
+      "relations": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q722119",
+        "https://portal.lygiaclark.org.br/acervo/67348/manifesto-neoconcreto"
+      ],
+      "status": "stub",
+      "updated": "2026-08-09",
+      "path": "entities/persons/ferreira-gullar.md"
+    },
     "person/georges-seurat": {
       "id": "person/georges-seurat",
       "uri": "urn:ahn:person/georges-seurat",
@@ -2035,6 +2357,38 @@
       "updated": "2026-08-08",
       "path": "entities/places/chicago.md"
     },
+    "place/guangzhou": {
+      "id": "place/guangzhou",
+      "uri": "urn:ahn:place/guangzhou",
+      "type": "place",
+      "label_ja": "広州",
+      "label_en": "Guangzhou",
+      "authority": {
+        "wikidata": "Q16572",
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": null,
+        "end": null,
+        "display": null
+      },
+      "region": "asia-east-china",
+      "coordinates": [
+        23.13,
+        113.26
+      ],
+      "space": [],
+      "relations": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q16572"
+      ],
+      "status": "stub",
+      "updated": "2026-08-09",
+      "path": "entities/places/guangzhou.md"
+    },
     "place/gyantse": {
       "id": "place/gyantse",
       "uri": "urn:ahn:place/gyantse",
@@ -2163,6 +2517,38 @@
       "status": "stub",
       "updated": "2026-08-09",
       "path": "entities/places/hanseong.md"
+    },
+    "place/herat": {
+      "id": "place/herat",
+      "uri": "urn:ahn:place/herat",
+      "type": "place",
+      "label_ja": "ヘラート",
+      "label_en": "Herat",
+      "authority": {
+        "wikidata": "Q45313",
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": null,
+        "end": null,
+        "display": null
+      },
+      "region": "asia-central",
+      "coordinates": [
+        34.341944,
+        62.203056
+      ],
+      "space": [],
+      "relations": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q45313"
+      ],
+      "status": "stub",
+      "updated": "2026-08-09",
+      "path": "entities/places/herat.md"
     },
     "place/isfahan": {
       "id": "place/isfahan",
@@ -2452,6 +2838,38 @@
       "status": "stub",
       "updated": "2026-08-08",
       "path": "entities/places/paris.md"
+    },
+    "place/rio-de-janeiro": {
+      "id": "place/rio-de-janeiro",
+      "uri": "urn:ahn:place/rio-de-janeiro",
+      "type": "place",
+      "label_ja": "リオデジャネイロ",
+      "label_en": "Rio de Janeiro",
+      "authority": {
+        "wikidata": "Q8678",
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": null,
+        "end": null,
+        "display": null
+      },
+      "region": "americas-latin",
+      "coordinates": [
+        -22.911111,
+        -43.205556
+      ],
+      "space": [],
+      "relations": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q8678"
+      ],
+      "status": "stub",
+      "updated": "2026-08-09",
+      "path": "entities/places/rio-de-janeiro.md"
     },
     "place/saint-petersburg": {
       "id": "place/saint-petersburg",
@@ -2866,6 +3284,18 @@
       "to": "place/seoul"
     },
     {
+      "from": "movement/herat-school",
+      "type": "diffused_to",
+      "to": "place/tabriz",
+      "certainty": "scholarly",
+      "source": "https://en.wikipedia.org/wiki/Kam%C4%81l_ud-D%C4%ABn_Behz%C4%81d"
+    },
+    {
+      "from": "movement/herat-school",
+      "type": "originated_in",
+      "to": "place/herat"
+    },
+    {
       "from": "movement/hudson-river-school",
       "type": "originated_in",
       "to": "place/new-york-city"
@@ -2890,6 +3320,18 @@
       "to": "place/hanoi"
     },
     {
+      "from": "movement/jingyeong-sansuhwa",
+      "type": "influenced_by",
+      "to": "movement/wu-school",
+      "certainty": "scholarly",
+      "source": "https://encykorea.aks.ac.kr/Article/E0050379"
+    },
+    {
+      "from": "movement/jingyeong-sansuhwa",
+      "type": "originated_in",
+      "to": "place/hanseong"
+    },
+    {
       "from": "movement/kano-school",
       "type": "originated_in",
       "to": "place/kyoto"
@@ -2898,6 +3340,11 @@
       "from": "movement/kano-school",
       "type": "active_in",
       "to": "place/kyoto"
+    },
+    {
+      "from": "movement/lingnan-school",
+      "type": "originated_in",
+      "to": "place/guangzhou"
     },
     {
       "from": "movement/menri-school",
@@ -2937,6 +3384,18 @@
       "from": "movement/neo-impressionism",
       "type": "originated_in",
       "to": "place/paris"
+    },
+    {
+      "from": "movement/neoconcretismo",
+      "type": "created_by",
+      "to": "person/ferreira-gullar",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "movement/neoconcretismo",
+      "type": "originated_in",
+      "to": "place/rio-de-janeiro"
     },
     {
       "from": "movement/ngati-tarawhai-whakairo",
@@ -2981,6 +3440,13 @@
       "from": "movement/rinpa",
       "type": "originated_in",
       "to": "place/kyoto"
+    },
+    {
+      "from": "movement/safavid-painting",
+      "type": "influenced_by",
+      "to": "movement/herat-school",
+      "certainty": "scholarly",
+      "source": "https://en.wikipedia.org/wiki/Kamal_ud-Din_Behzad"
     },
     {
       "from": "movement/safavid-painting",
@@ -3143,6 +3609,12 @@
       "derived": true
     },
     {
+      "from": "place/tabriz",
+      "type": "received",
+      "to": "movement/herat-school",
+      "derived": true
+    },
+    {
       "from": "person/victor-tardieu",
       "type": "created",
       "to": "movement/indochina-lacquer-painting",
@@ -3152,6 +3624,12 @@
       "from": "person/nguyen-gia-tri",
       "type": "created",
       "to": "movement/indochina-lacquer-painting",
+      "derived": true
+    },
+    {
+      "from": "movement/wu-school",
+      "type": "influenced",
+      "to": "movement/jingyeong-sansuhwa",
       "derived": true
     },
     {
@@ -3167,6 +3645,12 @@
       "derived": true
     },
     {
+      "from": "person/ferreira-gullar",
+      "type": "created",
+      "to": "movement/neoconcretismo",
+      "derived": true
+    },
+    {
       "from": "movement/safavid-painting",
       "type": "influenced",
       "to": "movement/ottoman-miniature",
@@ -3176,6 +3660,12 @@
       "from": "person/rudolf-bonnet",
       "type": "created",
       "to": "movement/pita-maha",
+      "derived": true
+    },
+    {
+      "from": "movement/herat-school",
+      "type": "influenced",
+      "to": "movement/safavid-painting",
       "derived": true
     },
     {
