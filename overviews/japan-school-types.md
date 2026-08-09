@@ -30,6 +30,7 @@ tested:
   - {region: americas-latin, by: movement/neoconcretismo, result: gap-found}
   - {region: asia-central, by: movement/herat-school, result: revised}
   - {region: asia-east-korea, by: movement/jingyeong-sansuhwa, result: gap-found}
+  - {region: asia-east-china, by: movement/lingnan-school, result: revised}
 tests_regions:            # ここが埋まるまで仮説は仮説のまま（tools/audit.py が指す）
   - asia-east-china
   - asia-east-korea
@@ -92,6 +93,7 @@ tests_regions:            # ここが埋まるまで仮説は仮説のまま（t
 | 中南米（3件目） | [ネオコンクレチスモ](../entities/movements/neoconcretismo.md) | **自称しながら「集団ではない」と当事者が否定** |
 | 中央アジア（2件目） | [ヘラート派](../entities/movements/herat-school.md) | **線は種類ごとに切れる／③の時間に第4の型** |
 | 朝鮮半島（3件目） | [真景山水画](../entities/movements/jingyeong-sansuhwa.md) | **担い手が身分を跨ぐ形を関係語彙で書けない** |
+| 中国圏（3件目） | [嶺南画派](../entities/movements/lingnan-school.md) | **地名由来に第5型（中心が周辺を呼ぶ名）** |
 
 浙派は血縁なし・師弟希薄・官職はあるが世襲でない（各世代が個別に画院へ出入りするだけ）。
 制度としての実体が無く、括りは後世の美術史記述（董其昌『画禅室随筆』）から来ている。
@@ -120,6 +122,7 @@ tests_regions:            # ここが埋まるまで仮説は仮説のまま（t
 | 画題の地 | ハドソン・リバー派 | 描いた土地。拠点は別（ニューヨーク） |
 | 出自＝活動地 | 呉派 | 蘇州の古称。沈周・文徴明の出身地と終生の活動地が一致 |
 | 形成地 | ベンガル派 | 様式が形成された場所。画題はベンガルを描いていない |
+| 中心が周辺を呼ぶ名 | 嶺南画派 | 北方（政治・文化の中心）が広東を指す慣用の広域地名。当事者の固有名ではない |
 
 まだ残っている問い: 何が「人名から取る」と「地名から取る」を分けるのか。バルビゾン派（制作地の村の名）で
 5型目が出る可能性がある。
