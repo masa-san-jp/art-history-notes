@@ -56,7 +56,7 @@ in the 1930-s", 2017](http://www.iraj.in/journal/journal_file/journal_pdf/14-440
 （毎週の審査によりバリの芸術家の水準を保証し高める）」
 「De verkoop van goede Balinese kunst te bevorderen door het organiseren van
 verkoop-tentoonstellingen buiten Bali（バリ島外での販売展を組織し、良質なバリ美術の販売を
-促進する）」（[kunst-uit-bali.nl](https://www.kunst-uit-bali.nl/list_kunstenaars_eng_pita_maha.aspx)）。
+促進する）」（[kunst-uit-bali.nl](https://www.kunst-uit-bali.nl/list_kunstenaars_ned_pita_maha.aspx)）。
 別の資料は、増大する観光による芸術の劣化・退化を防ぐことを主目的として挙げる
 （houtsnijkunstbali.nl）。
 

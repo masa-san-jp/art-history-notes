@@ -38,7 +38,7 @@ sources:
   - https://en.wikipedia.org/wiki/Jawad_Saleem
   - https://ar.wikipedia.org/wiki/%D8%AC%D9%85%D8%A7%D8%B9%D8%A9_%D8%A8%D8%BA%D8%AF%D8%A7%D8%AF_%D9%84%D9%84%D9%81%D9%86_%D8%A7%D9%84%D8%AD%D8%AF%D9%8A%D8%AB
   - https://theartwanderer.co.uk/the-baghdad-modern-art-group-birth-of-arabian-modernism/
-  - https://mathaf.org.qa/en/encyclopedia/en/bios/Pages/Shakir-Hassan-Al-Said.aspx
+  - https://encyclopedia.mathaf.org.qa/en/bios/Pages/Shakir-Hassan-Al-Said.aspx
   - https://www.gqmiddleeast.com/article/how-baghdad-reimagined-modernism
   - https://www.fondation-giacometti.fr/en/event/308/the-baghdad-group-for-modern-art-shaping-modernism-in-iraq-through-affinities-and-congruities
   - https://www.bard.edu/news/survey-baghdad-group-for-modern-art-june-ccs-bards-hessel-museum-2025-01-30
@@ -71,7 +71,7 @@ updated: 2026-08-09
 **未確認**）。1951年、バグダードの「古代衣装博物館」（Museum of Ancient Costumes）で開いた
 第1回展の場で、アル=サイードが執筆した宣言文が読み上げられた
 （[theartwanderer.co.uk](https://theartwanderer.co.uk/the-baghdad-modern-art-group-birth-of-arabian-modernism/)、
-[Mathaf Encyclopedia](https://mathaf.org.qa/en/encyclopedia/en/bios/Pages/Shakir-Hassan-Al-Said.aspx)、
+[Mathaf Encyclopedia](https://encyclopedia.mathaf.org.qa/en/bios/Pages/Shakir-Hassan-Al-Said.aspx)、
 いずれも二次情報。イラクにおける最初期の美術宣言文の一つとされる）。
 
 宣言文の中心概念は「استلهام التراث（istilham al-turath、『遺産からの着想』）」——ヨーロッパの

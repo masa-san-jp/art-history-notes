@@ -19,7 +19,7 @@ relations: []
 sources:
   - https://www.wikidata.org/wiki/Q7462952
   - https://theartwanderer.co.uk/the-baghdad-modern-art-group-birth-of-arabian-modernism/
-  - https://mathaf.org.qa/en/encyclopedia/en/bios/Pages/Shakir-Hassan-Al-Said.aspx
+  - https://encyclopedia.mathaf.org.qa/en/bios/Pages/Shakir-Hassan-Al-Said.aspx
 status: stub
 updated: 2026-08-09
 ---
@@ -31,7 +31,7 @@ updated: 2026-08-09
 （[movement/baghdad-modern-art-group](../movements/baghdad-modern-art-group.md)）を結成した
 中心人物の一人。同グループの第1回展（1951年）で読み上げられた宣言文を執筆したとされる
 （[theartwanderer.co.uk](https://theartwanderer.co.uk/the-baghdad-modern-art-group-birth-of-arabian-modernism/)、
-[Mathaf Encyclopedia](https://mathaf.org.qa/en/encyclopedia/en/bios/Pages/Shakir-Hassan-Al-Said.aspx)、
+[Mathaf Encyclopedia](https://encyclopedia.mathaf.org.qa/en/bios/Pages/Shakir-Hassan-Al-Said.aspx)、
 いずれも二次情報）。movement の `kind` 判定（宣言文の存在）の根拠人物として置いた stub
 （`docs/schema.md` の person 作成基準1）。1961年のジャワード・サリーム没後は同グループを率いたと
 される。1971年には「一次元グループ」（One Dimension Group、Al-Bu'd al-Wahad）を新たに結成した
