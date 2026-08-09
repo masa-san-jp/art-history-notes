@@ -68,8 +68,10 @@ def status(url):
         with urllib.request.urlopen(req, timeout=25) as r:
             return r.status
     except urllib.error.HTTPError as e:
-        # HEAD を受け付けないサーバがある。GET で確かめ直す
-        if e.code in (400, 405, 501):
+        # HEAD を受け付けないサーバがある。GET で確かめ直す。
+        # 404 も同じ扱いにする——HEAD にだけ 404 を返して GET には 200 を返すサーバが実在し
+        # （mmcaresearch.kr・tongilnews.com で実測）、そのまま信じると生きた出典を殺すことになる。
+        if e.code in (400, 404, 405, 501):
             try:
                 get = urllib.request.Request(url, headers={"User-Agent": UA})
                 with urllib.request.urlopen(get, timeout=25) as r:
