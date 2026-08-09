@@ -5043,10 +5043,18 @@
         "display": "1936年6月24日 –"
       },
       "space": [],
-      "relations": [],
+      "relations": [
+        {
+          "type": "grouped_as",
+          "target": "movement/dansaekhwa",
+          "certainty": "scholarly",
+          "source": "https://mmcaresearch.kr/terms/view.do?fid=2211"
+        }
+      ],
       "sources": [
         "https://www.wikidata.org/wiki/Q399775",
         "https://oralarthistory.org/archives/interviews/lee_u_fan_02/",
+        "https://mmcaresearch.kr/terms/view.do?fid=2211",
         "https://www.getty.edu/vow/AATFullDisplay?find=mono+ha&logic=AND&note=&english=Y&prev_page=1&subjectid=300417405"
       ],
       "status": "stub",
@@ -7924,6 +7932,13 @@
       "to": "place/saint-petersburg"
     },
     {
+      "from": "person/lee-ufan",
+      "type": "grouped_as",
+      "to": "movement/dansaekhwa",
+      "certainty": "scholarly",
+      "source": "https://mmcaresearch.kr/terms/view.do?fid=2211"
+    },
+    {
       "from": "person/vincent-van-gogh",
       "type": "grouped_as",
       "to": "movement/post-impressionism",
@@ -8260,6 +8275,12 @@
       "from": "person/henri-lehmann",
       "type": "taught",
       "to": "person/georges-seurat",
+      "derived": true
+    },
+    {
+      "from": "movement/dansaekhwa",
+      "type": "groups",
+      "to": "person/lee-ufan",
       "derived": true
     },
     {

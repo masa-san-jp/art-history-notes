@@ -15,10 +15,12 @@ time:
   end: ".."
   display: 1936年6月24日 –
 space: []
-relations: []
+relations:
+  - {type: grouped_as, target: movement/dansaekhwa, certainty: scholarly, source: "https://mmcaresearch.kr/terms/view.do?fid=2211"}
 sources:
   - https://www.wikidata.org/wiki/Q399775
   - https://oralarthistory.org/archives/interviews/lee_u_fan_02/
+  - https://mmcaresearch.kr/terms/view.do?fid=2211
   - https://www.getty.edu/vow/AATFullDisplay?find=mono+ha&logic=AND&note=&english=Y&prev_page=1&subjectid=300417405
 status: stub
 updated: 2026-08-09

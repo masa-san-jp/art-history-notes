@@ -135,6 +135,29 @@ Wikipediaの本文冒頭は「1970年代半ばから展示され始めた作品�
 画廊主（山本孝）・批評家（中原佑介）が果たした役割は大きい。単色画を「ソウル発生」と単純化してよいか
 どうかは、日本側の関与の大きさを踏まえるとなお検討の余地がある論点として残す。
 
+## 日本を経由した起点 — 出典が指す年が2つある
+
+**この括りの成立には日本側の人と場所が入っている。** 韓国国立現代美術館の研究ラボ（MMCA Research）は
+起点をこう書く——"the official beginning of Korean Dansaekhwa originated from Lee Ufan and Yamamoto
+Takashi from Tokyo Gallery paying attention to *Situation* by Lee Dongyoub and *Variable Consciousness*
+by Hur Hwang, both of which were submitted to the first Independants in 1972."
+（[mmcaresearch.kr](https://mmcaresearch.kr/terms/view.do?fid=2211)）。同ページはまた、この傾向が
+1960年代の金煥基・郭仁植・李禹煥の作品に既に現れていたとする学芸員の見方も伝える。
+
+**起点の年が出典間で割れる。**
+
+| 出典 | 起点 | 出来事 |
+|---|---|---|
+| [MMCA Research](https://mmcaresearch.kr/terms/view.do?fid=2211) | 1972年 | 第1回アンデパンダン展の2作品に、李禹煥と東京画廊の山本孝が着目した |
+| 本項「時間」節で挙げた出典 | 1975年 | 「五人の韓国作家、五つの白」展（東京画廊） |
+
+どちらも**東京画廊と李禹煥が絡む**点は共通しており、食い違うのは「注目した年」か「展覧会を開いた年」か
+という数えているものである可能性が高い。**未確認**: MMCA の言う「first Independants」（韓国美術協会の
+アンデパンダン展か）の正確な会期と、1972年の着目から1975年の展覧会までの経緯。
+
+[李禹煥](../persons/lee-ufan.md)にはこの括りへの `grouped_as` を張った。同じ人物が
+[もの派](mono-ha.md)の `created_by` にもなっている——**2つの movement を1人が跨いでいる**。
+
 ## 未着手
 
 - 尹晋燮『The World of Dansaekhwa: Spirit, Tactility, and Performance』（2014年、Kukje Gallery
@@ -146,8 +169,12 @@ Wikipediaの本文冒頭は「1970年代半ばから展示され始めた作品�
   （李禹煥・李逸）の役割分担の詳細——`founding_control`を検討する材料になりうるが、今回は
   「そもそも公式な結成行為自体が無い」ため判定を保留した
 - 李康昭・崔秉昭が単色画への分類を拒否した際の具体的な論拠（Ocula, 2016年9月28日インタビュー原文）
-- モノハ（Mono-ha、日本）との関係——尹晋燮が2000年に「単色画とモノハ」として並べて展示したことが
-  国際的な「Dansaekhwa」表記の起点になった経緯があり、モノハが将来movementとしてこのKBに入れば
-  `grouped_as`または`influenced_by`で繋げる候補になる
+- [もの派](mono-ha.md)との movement 同士の関係。**もの派は既にこのKBにある**が、2026-08-10 時点で
+  関係は張っていない。押さえられているのは(1)李禹煥が両方に属すること(2)尹晋燮が2000年の光州
+  ビエンナーレ特別展で「単色画とモノハ」を並べて展示し、それが国際的な「Dansaekhwa」表記の起点に
+  なったこと——の2つで、いずれも**人と場**の事実であって、片方がもう片方から何を受け取ったかを
+  述べた出典ではない。`influenced_by` を張るには「もの派の何が単色画に渡ったか」を書いた出典が要り、
+  `grouped_as` を張るには2000年の展覧会が2つを1つの括りに入れたと言える出典が要る。どちらも
+  未入手なので張らない。次に当たるべきは2000年展の図録（尹晋燮）と、その出品者名簿
 - 図画署（org/dohwaseo、朝鮮王朝の官署）との時間的・空間的な接続——同じ朝鮮半島圏だが約500年の
   空白があり、直接の継承関係は確認できていない
