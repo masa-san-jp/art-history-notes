@@ -50,6 +50,8 @@ tested:
   - {region: asia-east-japan, by: concept/ukiyo-e, result: held}
   - {region: asia-east-japan, by: movement/utagawa-school, result: revised}
   - {region: americas-north, by: movement/harlem-renaissance, result: revised}
+  - {region: mena, by: concept/hurufiyya, result: held}
+  - {region: asia-south, by: movement/company-painting, result: revised}
 tests_regions:            # ここが埋まるまで仮説は仮説のまま（tools/audit.py が指す）
   - asia-east-china
   - asia-east-korea
@@ -132,6 +134,8 @@ tests_regions:            # ここが埋まるまで仮説は仮説のまま（t
 | 日本（concept） | [浮世絵](../entities/concepts/ukiyo-e.md) | **典拠自身が concept と分類していた** |
 | 日本（4件目） | [歌川派](../entities/movements/utagawa-school.md) | **線を繋ぐものに「名跡の継承」が加わった** |
 | 北米（4件目） | [ハーレム・ルネサンス](../entities/movements/harlem-renaissance.md) | **名の言い換えが対象の範囲を狭めた** |
+| 中東（concept） | [フルーフィーヤ](../entities/concepts/hurufiyya.md) | **研究者自身が「運動でも流派でもない」と書いていた** |
+| 南アジア（4件目） | [カンパニー派](../entities/movements/company-painting.md) | **注文主の組織名が派の名になる型が出た**（9型目） |
 
 浙派は血縁なし・師弟希薄・官職はあるが世襲でない（各世代が個別に画院へ出入りするだけ）。
 制度としての実体が無く、括りは後世の美術史記述（董其昌『画禅室随筆』）から来ている。
