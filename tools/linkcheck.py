@@ -28,7 +28,10 @@ import urllib.request
 UA = "Mozilla/5.0 (compatible; art-history-notes/0.1 link-check)"
 # 括弧の組は URL の一部として飲み込む（Wikipedia の曖昧さ回避 …_(painting) を切らないため）。
 # `(` を文字クラスから外さないと、開き括弧だけが単独で食われて閉じ括弧の手前で切れる。
-URL_RE = re.compile(r'https?://(?:[^\s"\'<>\]),(]|\([^\s()]*\))+')
+# カンマは URL の一部として認める（Commons の File:…, 1913 bronze… や『0,10』展のように
+# タイトルにカンマを含む項目が実在し、除外すると生きている URL が 404 として報告される）。
+# 散文中の「URL, つぎの文」は空白で切れ、末尾のカンマは下の rstrip が落とす。
+URL_RE = re.compile(r'https?://(?:[^\s"\'<>\]()]|\([^\s()]*\))+')
 BLOCKED = {403, 429, 999}   # bot 避け・レート制限。存在しないことの証拠にならない
 
 
@@ -77,7 +80,17 @@ def status(url):
                 return 0
         return e.code
     except Exception:
-        return 0   # DNS・TLS・タイムアウト。到達できなかった、であって 404 ではない
+        # HEAD に答えないまま繋ぎっぱなしにするサーバがある（大きな PDF を置いた IIS で実測）。
+        # 先頭1バイトだけ要求して生死を分ける。ここも駄目なら本当に到達できていない。
+        try:
+            rng = urllib.request.Request(
+                url, headers={"User-Agent": UA, "Range": "bytes=0-0"})
+            with urllib.request.urlopen(rng, timeout=25) as r:
+                return 200 if r.status in (200, 206) else r.status
+        except urllib.error.HTTPError as e3:
+            return e3.code
+        except Exception:
+            return 0   # DNS・TLS・タイムアウト。到達できなかった、であって 404 ではない
 
 
 def main():
