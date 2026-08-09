@@ -3,7 +3,7 @@
     {
       "kind": "no-cross-region",
       "about": "all",
-      "text": "他の文化圏の movement と1本も繋がっていない movement が 42/52 件。時間だけでなく空間の広がりを体系化するので、影響・伝播・反発を調べる余地"
+      "text": "他の文化圏の movement と1本も繋がっていない movement が 40/52 件。時間だけでなく空間の広がりを体系化するので、影響・伝播・反発を調べる余地"
     },
     {
       "kind": "no-cross-region",
@@ -19,16 +19,6 @@
       "kind": "no-cross-region",
       "about": "asia-east-japan",
       "text": "asia-east-japan: 4件（狩野派、もの派、琳派、土佐派）"
-    },
-    {
-      "kind": "no-cross-region",
-      "about": "americas-north",
-      "text": "americas-north: 3件（抽象表現主義、グループ・オブ・セブン、ハドソン・リバー派）"
-    },
-    {
-      "kind": "no-cross-region",
-      "about": "americas-latin",
-      "text": "americas-latin: 3件（アントロポファジア、メキシコ壁画運動、ネオコンクレチスモ）"
     },
     {
       "kind": "no-cross-region",
@@ -62,8 +52,18 @@
     },
     {
       "kind": "no-cross-region",
+      "about": "americas-latin",
+      "text": "americas-latin: 2件（アントロポファジア、ネオコンクレチスモ）"
+    },
+    {
+      "kind": "no-cross-region",
       "about": "asia-east-korea",
       "text": "asia-east-korea: 2件（単色画、高麗仏画）"
+    },
+    {
+      "kind": "no-cross-region",
+      "about": "americas-north",
+      "text": "americas-north: 2件（グループ・オブ・セブン、ハドソン・リバー派）"
     },
     {
       "kind": "no-cross-region",

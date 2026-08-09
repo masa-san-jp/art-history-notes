@@ -255,7 +255,14 @@
           "target": "place/new-york-city"
         }
       ],
-      "relations": [],
+      "relations": [
+        {
+          "type": "influenced_by",
+          "target": "movement/mexican-muralism",
+          "certainty": "scholarly",
+          "source": "https://whitney.org/exhibitions/vida-americana"
+        }
+      ],
       "sources": [
         "https://www.wikidata.org/wiki/Q177725",
         "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300022099",
@@ -267,7 +274,12 @@
         "https://en.wikipedia.org/wiki/Congress_for_Cultural_Freedom",
         "https://www.tate.org.uk/research/publications/modern-american-art-at-tate/essays/new-american-painting",
         "https://www.moma.org/calendar/exhibitions/1990",
-        "https://www.uapress.ua.edu/9780817352585/advancing-american-art/"
+        "https://www.uapress.ua.edu/9780817352585/advancing-american-art/",
+        "https://whitney.org/exhibitions/vida-americana",
+        "https://whitney.org/media/46248",
+        "https://en.wikipedia.org/wiki/David_Alfaro_Siqueiros",
+        "https://www.pomona.edu/museum/collections/jos%C3%A9-clemente-orozcos-prometheus/prometheus-mural",
+        "https://www.tandfonline.com/doi/abs/10.1080/00043249.1976.10793284"
       ],
       "status": "draft",
       "updated": "2026-08-09",
@@ -4468,6 +4480,53 @@
       "updated": "2026-08-09",
       "path": "entities/persons/aime-cesaire.md"
     },
+    "person/david-alfaro-siqueiros": {
+      "id": "person/david-alfaro-siqueiros",
+      "uri": "urn:ahn:person/david-alfaro-siqueiros",
+      "type": "person",
+      "label_ja": "ダビッド・アルファロ・シケイロス",
+      "label_en": "David Alfaro Siqueiros",
+      "authority": {
+        "wikidata": "Q315647",
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": "1896-12-29",
+        "end": "1974-01-06",
+        "display": "1896年12月29日 メキシコ・チワワ生まれ – 1974年1月6日 クエルナバカ没（Wikidata Q315647。同項目の説明文は「(1908–1974)」と書いており、生年が説明文と生年月日プロパティで食い違う）"
+      },
+      "space": [
+        {
+          "role": "active_in",
+          "target": "place/mexico-city"
+        },
+        {
+          "role": "active_in",
+          "target": "place/new-york-city"
+        }
+      ],
+      "relations": [
+        {
+          "type": "grouped_as",
+          "target": "movement/mexican-muralism",
+          "certainty": "scholarly",
+          "source": "https://whitney.org/exhibitions/vida-americana"
+        }
+      ],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q315647",
+        "https://en.wikipedia.org/wiki/David_Alfaro_Siqueiros",
+        "https://whitney.org/exhibitions/vida-americana",
+        "https://whitney.org/media/46248",
+        "https://www.tandfonline.com/doi/abs/10.1080/00043249.1976.10793284"
+      ],
+      "status": "draft",
+      "updated": "2026-08-10",
+      "path": "entities/persons/david-alfaro-siqueiros.md"
+    },
     "person/dong-qichang": {
       "id": "person/dong-qichang",
       "uri": "urn:ahn:person/dong-qichang",
@@ -6974,6 +7033,13 @@
     },
     {
       "from": "movement/abstract-expressionism",
+      "type": "influenced_by",
+      "to": "movement/mexican-muralism",
+      "certainty": "scholarly",
+      "source": "https://whitney.org/exhibitions/vida-americana"
+    },
+    {
+      "from": "movement/abstract-expressionism",
       "type": "originated_in",
       "to": "place/new-york-city"
     },
@@ -7549,6 +7615,23 @@
       "to": "place/paris"
     },
     {
+      "from": "person/david-alfaro-siqueiros",
+      "type": "grouped_as",
+      "to": "movement/mexican-muralism",
+      "certainty": "scholarly",
+      "source": "https://whitney.org/exhibitions/vida-americana"
+    },
+    {
+      "from": "person/david-alfaro-siqueiros",
+      "type": "active_in",
+      "to": "place/mexico-city"
+    },
+    {
+      "from": "person/david-alfaro-siqueiros",
+      "type": "active_in",
+      "to": "place/new-york-city"
+    },
+    {
       "from": "person/georges-seurat",
       "type": "belongs_to",
       "to": "movement/neo-impressionism",
@@ -7647,6 +7730,12 @@
       "from": "movement/baghdad-modern-art-group",
       "type": "influenced",
       "to": "concept/hurufiyya",
+      "derived": true
+    },
+    {
+      "from": "movement/mexican-muralism",
+      "type": "influenced",
+      "to": "movement/abstract-expressionism",
       "derived": true
     },
     {
@@ -7875,6 +7964,12 @@
       "from": "person/uche-okeke",
       "type": "created",
       "to": "movement/zaria-art-society",
+      "derived": true
+    },
+    {
+      "from": "movement/mexican-muralism",
+      "type": "groups",
+      "to": "person/david-alfaro-siqueiros",
       "derived": true
     },
     {

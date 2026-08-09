@@ -226,6 +226,21 @@ TheArtStoryは運動の期間を「1920年〜1950年」と表示するが、こ�
 「発生地」とは別の「活動地」（`space.role: active_in`）として張るべき対象かどうかは、都市ごとの
 一次資料に当たっていないため未着手のままにした。
 
+## 合衆国への接続
+
+[抽象表現主義](abstract-expressionism.md)側に `influenced_by` が張られている（関係は受け取った側に
+書く規約）。動いたのは人で、[ダビッド・アルファロ・シケイロス](../persons/david-alfaro-siqueiros.md)が
+1936年にニューヨークで「実験工房」を開き、24歳のジャクソン・ポロックがそこに参加した。工房は
+1937年4月にシケイロスがスペイン内戦へ発つまで続いた。経緯・出典・弱点は
+[抽象表現主義側](abstract-expressionism.md#メキシコとの接続--動いたのは人と材料)にまとめて書いた。
+
+この壁画運動の担い手が合衆国で働いたのはシケイロスだけではない——リベラはニューヨーク近代美術館で
+個展を持ち、オロスコはポモナ・カレッジとダートマス大学に壁画を残している。ホイットニー美術館の
+展覧会「Vida Americana」（2020年）は3人をまとめて扱い、"the profound impact the Mexican muralists
+had on their counterparts in the United States" と書く
+（[whitney.org/exhibitions/vida-americana](https://whitney.org/exhibitions/vida-americana)）。
+本KBが出典で押さえられているのはシケイロスの経路だけである。
+
 ## 未着手
 
 - 宣言文（Manifiesto del Sindicato de Obreros Técnicos, Pintores y Escultores）の一次資料そのもの
@@ -233,9 +248,14 @@ TheArtStoryは運動の期間を「1920年〜1950年」と表示するが、こ�
 - SOTPEを`org`として立てるかどうか。この宣言・組合は kind の判定の直接の根拠だが、`patronized_by`
   相当の関係を張るにはSEP側の`org`も必要になり、孤児 stub の量産を避けるため今回は本文中の
   引用のみに留めた（朝鮮・図画署が礎曹を同様に見送った先例に合わせた）
-- リベラ・オロスコ・シケイロスの`person`エンティティ化。`docs/schema.md`の作成基準
+- リベラ・オロスコの`person`エンティティ化。`docs/schema.md`の作成基準
   （kind/time/originated_inの根拠になる／2movementを繋ぐ／作品を分解して読んだ）のどれにも
-  単独では当たらないため、本文に名前を書くのみに留めた
+  単独では当たらないため、本文に名前を書くのみに留めた。**シケイロスは扱いが変わった**——
+  1936年のニューヨーク実験工房で抽象表現主義と繋がるため作成基準2に当たり、
+  [person/david-alfaro-siqueiros](../persons/david-alfaro-siqueiros.md)として立てた
+- リベラのニューヨーク近代美術館個展（1931年）、オロスコのポモナ・カレッジ《プロメテウス》
+  （1930年）とダートマス大学壁画（1932〜34年）の一次資料。合衆国への経路はシケイロス1人ではないが、
+  本KBが出典で押さえているのはシケイロスの分だけである
 - 「muralismo mexicano」という呼称の初出者・初出言語・初出年（`naming.note`に残した未確認点）
 - 宣言文の発表年（1922年か1923年12月か）の一次資料での確定
 - 単一の終了年の確定。統計的・様式的にどの基準で「終わり」を数えるかという出典間の前提の違いを

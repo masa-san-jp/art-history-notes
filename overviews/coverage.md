@@ -12,7 +12,7 @@ depends_on: []
 受け入れ条件の閾値も同じファイルに置いてある（issue #1 と対応）。
 
 <!-- generated:coverage:start -->
-データの最新日: 2026-08-09 — `python3 tools/build_graph.py` が生成（手で書き換えない）
+データの最新日: 2026-08-10 — `python3 tools/build_graph.py` が生成（手で書き換えない）
 
 movement **52** 件（stub 0件は不算入）／内訳 {'draft': 50, 'stub': 0, 'verified': 2}
 
@@ -58,19 +58,19 @@ movement **52** 件（stub 0件は不算入）／内訳 {'draft': 50, 'stub': 0,
 
 <!-- generated:audit:start -->
 **文化圏を跨ぐ関係が無い**
-- 他の文化圏の movement と1本も繋がっていない movement が 42/52 件。時間だけでなく空間の広がりを体系化するので、影響・伝播・反発を調べる余地
+- 他の文化圏の movement と1本も繋がっていない movement が 40/52 件。時間だけでなく空間の広がりを体系化するので、影響・伝播・反発を調べる余地
 - europe-west: 6件（バルビゾン派、未来派、印象派、新印象派 ほか）
 - asia-southeast: 4件（バンドン派、インドシナ漆絵画（ソンマイ）、ピタ・マハ、ザ・サーティーン・モダンズ）
 - asia-east-japan: 4件（狩野派、もの派、琳派、土佐派）
-- americas-north: 3件（抽象表現主義、グループ・オブ・セブン、ハドソン・リバー派）
-- americas-latin: 3件（アントロポファジア、メキシコ壁画運動、ネオコンクレチスモ）
 - mena: 3件（バグダード近代美術グループ、チュニス派、オスマン朝細密画）
 - asia-south: 3件（ベンガル派、カンパニー派、カーングラ派）
 - africa-sub: 3件（ベニン王国宮廷美術、ゴンダール様式教会絵画、ザリア・アート・ソサエティ）
 - oceania: 3件（イアトムルの彫刻、ンガーティ・タラーワイの彫刻、パプニャ・トゥラ）
 - asia-east-china: 3件（嶺南画派、海上画派、浙派）
 - europe-east: 3件（ノヴゴロド派、移動派、シュプレマティスム）
+- americas-latin: 2件（アントロポファジア、ネオコンクレチスモ）
 - asia-east-korea: 2件（単色画、高麗仏画）
+- americas-north: 2件（グループ・オブ・セブン、ハドソン・リバー派）
 - asia-central: 2件（メンリ派、ザナバザル様式）
 <!-- generated:audit:end -->
 
