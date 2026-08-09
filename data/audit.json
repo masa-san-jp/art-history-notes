@@ -3,17 +3,17 @@
     {
       "kind": "no-cross-region",
       "about": "all",
-      "text": "他の文化圏の movement と1本も繋がっていない movement が 39/53 件。時間だけでなく空間の広がりを体系化するので、影響・伝播・反発を調べる余地"
-    },
-    {
-      "kind": "no-cross-region",
-      "about": "europe-west",
-      "text": "europe-west: 5件（バルビゾン派、印象派、新印象派、シエナ派 ほか）"
+      "text": "他の文化圏の movement と1本も繋がっていない movement が 38/53 件。時間だけでなく空間の広がりを体系化するので、影響・伝播・反発を調べる余地"
     },
     {
       "kind": "no-cross-region",
       "about": "asia-southeast",
       "text": "asia-southeast: 4件（バンドン派、インドシナ漆絵画（ソンマイ）、ピタ・マハ、ザ・サーティーン・モダンズ）"
+    },
+    {
+      "kind": "no-cross-region",
+      "about": "europe-west",
+      "text": "europe-west: 4件（バルビゾン派、新印象派、シエナ派、ヴェネツィア派）"
     },
     {
       "kind": "no-cross-region",

@@ -1856,6 +1856,12 @@
         {
           "type": "exhibited_at",
           "target": "org/societe-anonyme-artistes"
+        },
+        {
+          "type": "influenced_by",
+          "target": "movement/utagawa-school",
+          "certainty": "scholarly",
+          "source": "https://en.wikipedia.org/wiki/Fondation_Monet_in_Giverny"
         }
       ],
       "images": [
@@ -1884,7 +1890,10 @@
         "https://www.clevelandart.org/art/1950.89",
         "https://www.artic.edu/artworks/16571",
         "https://api.artic.edu/api/v1/artworks/16571",
-        "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300021505"
+        "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300021505",
+        "https://en.wikipedia.org/wiki/Fondation_Monet_in_Giverny",
+        "https://en.wikipedia.org/wiki/La_Japonaise_(painting)",
+        "https://collections.mfa.org/objects/33556"
       ],
       "status": "verified",
       "updated": "2026-08-09",
@@ -7397,6 +7406,13 @@
     },
     {
       "from": "movement/impressionism",
+      "type": "influenced_by",
+      "to": "movement/utagawa-school",
+      "certainty": "scholarly",
+      "source": "https://en.wikipedia.org/wiki/Fondation_Monet_in_Giverny"
+    },
+    {
+      "from": "movement/impressionism",
       "type": "originated_in",
       "to": "place/paris"
     },
@@ -7991,6 +8007,12 @@
     {
       "from": "org/societe-anonyme-artistes",
       "type": "exhibited",
+      "to": "movement/impressionism",
+      "derived": true
+    },
+    {
+      "from": "movement/utagawa-school",
+      "type": "influenced",
       "to": "movement/impressionism",
       "derived": true
     },

@@ -31,6 +31,7 @@ space:
 relations:
   - {type: precedes, target: movement/neo-impressionism}
   - {type: exhibited_at, target: org/societe-anonyme-artistes}
+  - {type: influenced_by, target: movement/utagawa-school, certainty: scholarly, source: "https://en.wikipedia.org/wiki/Fondation_Monet_in_Giverny"}
 images:
   - url: https://openaccess-cdn.clevelandart.org/1950.89/1950.89_web.jpg
     source_page: https://www.clevelandart.org/art/1950.89
@@ -53,6 +54,9 @@ sources:
   - https://www.artic.edu/artworks/16571
   - https://api.artic.edu/api/v1/artworks/16571
   - https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300021505
+  - https://en.wikipedia.org/wiki/Fondation_Monet_in_Giverny
+  - https://en.wikipedia.org/wiki/La_Japonaise_(painting)
+  - https://collections.mfa.org/objects/33556
 status: verified
 updated: 2026-08-09
 ---
@@ -159,6 +163,35 @@ start/end に置く）に従い、括りが公に成立した最初の合同展�
 ブリュッセルへの伝播（`movement/neo-impressionism` の `diffused_to`）とは別に、印象派自体の
 伝播経路は未調査。
 
+## 日本の版画との接続 — 壁に掛かっていた48枚
+
+`influenced_by` を[歌川派](utagawa-school.md)に張った。動いたのは**物**である。観念の類似ではなく、
+版画そのものがパリ近郊の家の壁に掛かっていた。
+
+クロード・モネは1883年から1926年に没するまでジヴェルニーの家に住み、そこには浮世絵が
+243点ある（うち211点が展示、残りは収蔵）。内訳は喜多川歌麿46点、葛飾北斎23点、そして
+**歌川広重48点**——3人の中で最も多い（[英語版Wikipedia「Fondation Monet in Giverny」](https://en.wikipedia.org/wiki/Fondation_Monet_in_Giverny)、二次情報）。
+広重は歌川豊広の弟子で、歌川派に連なる。モネの絵画の大半はパリのマルモッタン・モネ美術館に
+移ったが、版画はジヴェルニーの家に残っている。
+
+**未確認**: 総点数は出典によって231点とも243点とも書かれる。フォンダシオン・クロード・モネ
+自身のページ（fondation-monet.com）は当方からの取得を拒否され、所蔵者本人の数字を確認できていない。
+モネがいつ収集を始めたかも確認できていない——ジヴェルニー移住は1883年で、下の《ラ・ジャポネーズ》
+より7年遅い。
+
+集めた側の作品にも日本のものが現れる。《ラ・ジャポネーズ（日本娘）》（1876年）は、赤い打掛を着た
+カミーユ・ドンシューを団扇を並べた壁の前に立たせた油彩で、**1876年の第2回印象派展に出品された**
+（[英語版Wikipedia「La Japonaise (painting)」](https://en.wikipedia.org/wiki/La_Japonaise_(painting))、
+二次情報。同記事は反応が賛否に割れたと記す）。現在はボストン美術館蔵
+（[collections.mfa.org/objects/33556](https://collections.mfa.org/objects/33556)。**当方からは
+403 で読めておらず、所蔵館の記述そのものは確認していない**）。
+
+**この関係の弱点を先に書く。** 記録できているのはモネ1人の家と1点の絵であって、ドガ・ピサロ・
+ルノワール・モリゾがそれぞれ日本の版画から何を受け取ったかは本項では確認していない。しかも
+ジヴェルニーの版画は1883年以降の家にあるもので、1876年の《ラ・ジャポネーズ》の材料である証拠には
+ならない。[ポスト印象派](post-impressionism.md)でも同じ形が出ている——括りの名は複数人を覆うが、
+経路が押さえられているのは1人分である。`certainty` を `scholarly` に置いた理由はここにある。
+
 ## 未着手
 
 - ルロワの記事のGallicaファクシミリ本体——ALTCHA 検証により直接確認できていない。本文は
@@ -173,3 +206,10 @@ start/end に置く）に従い、括りが公に成立した最初の合同展�
 - モネ・ピサロ・ドガ・モリゾ・ルノワール・セザンヌ・シスレーの person エンティティ化——
   現状はどの作成基準にも単独で当たらないため本文の名前止まりとした
 - 印象派自体の国外への伝播経路
+- ドガ・ピサロ・ルノワール・モリゾそれぞれの日本の版画との接触。歌川派への `influenced_by` を
+  括りに張ることの妥当性は、7人のうち何人に経路があるかで変わる
+- フォンダシオン・クロード・モネ（所蔵者本人）による版画コレクションの点数・目録。当方からの
+  取得が拒否され、231点説と243点説のどちらが所蔵者の数字かを確認できていない
+- モネが日本の版画を集め始めた時期の一次資料。ジヴェルニー移住（1883年）より前の収集を示す
+  記録があるかどうかで、《ラ・ジャポネーズ》（1876年）との関係の書き方が変わる
+- ボストン美術館の《ラ・ジャポネーズ》所蔵記録そのもの（当方からは 403）
