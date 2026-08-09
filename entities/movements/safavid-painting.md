@@ -27,6 +27,7 @@ space:
   - {role: active_in, target: place/isfahan}
 relations:
   - {type: influenced_by, target: movement/herat-school, certainty: scholarly, source: "https://en.wikipedia.org/wiki/Kamal_ud-Din_Behzad"}
+  - {type: diffused_to, target: place/agra, certainty: scholarly, source: "https://en.wikipedia.org/wiki/Abd_al-Samad"}
 sources:
   - https://www.wikidata.org/wiki/Q2366921
   - https://www.wikidata.org/wiki/Q18234383
@@ -41,6 +42,8 @@ sources:
   - https://en.wikipedia.org/wiki/Safavid_dynasty
   - https://www.ebsco.com/research-starters/arts-and-entertainment/esfahan-school-painting
   - https://www.britannica.com/art/Tabriz-school
+  - https://en.wikipedia.org/wiki/Mir_Sayyid_Ali
+  - https://en.wikipedia.org/wiki/Abd_al-Samad
 images:
   - url: https://images.metmuseum.org/CRDImages/is/original/DP231354.jpg
     source_page: https://www.metmuseum.org/art/collection/search/453250
@@ -205,6 +208,23 @@ EBSCO Research Starters（イスファハーン派は「the demise of Safavid dy
 王朝が替わっても**担い手を通じて手つきが渡っている**。
 [movement/herat-school](herat-school.md) に `influenced_by` で接続した。
 
+## ムガル絵画への接続
+
+タブリーズの王室工房の画家のうち、ミール・サイイド・アリーとアブド・アッサマドの2人は、亡命中の
+ムガル皇帝フマーユーンに招かれてカーブル（フマーユーンの臨時の宮廷。到着年は出典間で1548〜1550年の
+幅があり、双方の英語版Wikipedia記事は1549年ごろで一致）へ移り、1555年のフマーユーンによるデリー
+再征服にともなってインドへ渡った。アブド・アッサマドはフマーユーンの子アクバルに絵の手ほどきをし、
+2人はアクバル治世下の帝室工房で中心的な画家となった（[Mir Sayyid Ali](https://en.wikipedia.org/wiki/Mir_Sayyid_Ali)、
+[Abd al-Samad](https://en.wikipedia.org/wiki/Abd_al-Samad)）。**担い手を通じて様式がインドへ広がった**
+——[movement/mughal-painting](mughal-painting.md) に `diffused_to` で接続した。`space.target` は
+[place/agra](../places/agra.md) とした——mughal-painting側の`originated_in`と合わせ、アクバルが工房を
+本格的に組織化した宮廷所在地を指す。ただし2人の実際の経路はタブリーズ→カーブル→（1555年の）デリー
+再征服であり、単一の土地へ直接動いたわけではない——**未確認**: アグラの工房に2人が実際にいつ入ったか
+（デリー再征服からアグラでの本格的な組織化までの間の移動）は、今回参照した出典では特定できていない。
+
+詳しい経緯・出典間の不一致（誰が最初に招かれたか、カーブル到着年）は
+[movement/mughal-painting](mughal-painting.md#サファヴィー朝との接続) 側にまとめて書いた。
+
 ## 未着手
 
 - タブリーズ派（サファヴィー朝以前の「タブリーズ派I」との時間的な切り分けを含む）の movement
@@ -216,7 +236,9 @@ EBSCO Research Starters（イスファハーン派は「the demise of Safavid dy
   美術史記述（タブリーズに招かれた）の不一致を解消する一次資料
 - ガズヴィーンからイスファハーンへの遷都・工房移転の正確な年（1589年か1598年か1602年か、
   出典間の不一致）
-- ムガル朝（バーブル朝）への画家の離散（1548年の工房解体後）——`diffused_to` の候補だが、
-  対象側の movement（ムガル絵画）がこのKBに未整備のため張れない
 - レザー・アッバーシーとその弟子（ムイーン・ムサッヴィル、ムハンマド・カースィム）の
   taught_by 関係の person エンティティ化——現状はどの作成基準にも単独で当たらないため保留
+- ミール・サイイド・アリー・アブド・アッサマドの`person`エンティティ化——2movementを繋ぐ基準には
+  該当するが、ビフザードの扱いに合わせ、今回は movement 間の関係と本文の記述に留めた
+- ムガル移住後の2人の一次資料（『アクバル・ナーマ』などムガル宮廷年代記の原文）での裏取り——今回は
+  英語版Wikipediaが引く近代の学術文献（Beach, Titley, Crill and Jariwala, Canby, Welch）に依拠した

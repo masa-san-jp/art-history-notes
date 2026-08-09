@@ -25,9 +25,14 @@ claims:
   - {field: kind, source: "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300021508", certainty: scholarly}
 space:
   - {role: originated_in, target: place/paris}
-relations: []
+relations:
+  - {type: influenced_by, target: movement/utagawa-school, certainty: scholarly, source: "https://www.vangoghmuseum.nl/en/collection/s0114V1962"}
 sources:
   - https://www.wikidata.org/wiki/Q166713
+  - https://www.vangoghmuseum.nl/en/collection/s0114V1962
+  - https://www.vangoghmuseum.nl/en/collection/s0115v1962
+  - https://collectionapi.metmuseum.org/public/collection/v1/objects/55433
+  - https://en.wikipedia.org/wiki/One_Hundred_Famous_Views_of_Edo
   - https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300021508
   - https://www.gutenberg.org/files/54154/54154-h/54154-h.htm
   - https://www.tate.org.uk/art/art-terms/p/post-impressionism
@@ -137,10 +142,43 @@ Getty AAT のノートは「印象派の後に続くが、それとは異なる�
 国境をまたいで離れている。この点は `originated_in` を「発生地」（活動の重心）として立てるか、
 名づけが行われた地として立てるかで結論が変わりうる——本項では前者（活動の重心）を採用した。
 
+### 日本の版画がパリへ運ばれた経路
+
+`influenced_by` を[歌川派](utagawa-school.md)に張った。動いたのは**物**である——観念の類似では
+なく、版画そのものがパリへ渡り、手元に置かれ、模写された。
+
+[フィンセント・ファン・ゴッホ](../persons/vincent-van-gogh.md)は1886〜87年のパリ滞在中、画商
+ジークフリート・ビングの店で日本の木版画を大量に購入し（点数は資料により約660点とされる）、
+1887年2〜3月にカフェ「ル・タンブラン」でその一部を展示したが売れ残った。手元に残った版画から、
+同年10〜11月に2点を油彩で模写している——《雨の橋（広重による）》
+（[ファン・ゴッホ美術館 s0114V1962](https://www.vangoghmuseum.nl/en/collection/s0114V1962)）と
+《花咲く梅の木（広重による）》（[同 s0115v1962](https://www.vangoghmuseum.nl/en/collection/s0115v1962)）。
+
+原作はいずれも歌川広重『名所江戸百景』（1856〜58年刊）の図で、前者は第58図《大はしあたけの
+夕立》にあたる。メトロポリタン美術館の公開APIは同図の作者を "Utagawa Hiroshige"、制作年を
+1857年、受入番号を JP2522、`isPublicDomain` を `true` と返す
+（[collectionapi.metmuseum.org/.../55433](https://collectionapi.metmuseum.org/public/collection/v1/objects/55433)）。
+広重は歌川豊春門下の豊広の弟子であり、歌川派に連なる。
+
+**この関係の弱点を先に書く。** 影響を受けたのは括りではなく、括られた個人である。
+ポスト印象派は1910年にロジャー・フライが名づけた後付けの括りなので、「ポスト印象派が歌川派の
+影響を受けた」という文は、厳密には成り立たない——1887年の時点でその括りはまだ存在しない。
+記録できているのはファン・ゴッホ1人の経路であって、セザンヌ・ゴーガン・スーラそれぞれが日本の
+版画から何を受け取ったかは本項では確認していない。`certainty` を `attested` ではなく `scholarly`
+に置いたのはこのためでもある。**名づけの単位（4人の括り）と、影響を受けた単位（1人）がずれて
+いる**——[カーングラ派](kangra-painting.md)で出た「名前の単位と担い手の単位のずれ」と同じ型が、
+関係の側にも出た形になる。
+
 ## 未着手
 
 - 1910年第1回展の実際の出品目録（スーラ本人の作品が含まれていたか）——目録の実物に当たっていない
-- ゴーガン・ファン・ゴッホの person エンティティ化——現状は本文の名前止まり（`docs/schema.md` の
-  作成基準のどれにも単独では当たらないため）
+- ゴーガンの person エンティティ化——現状は本文の名前止まり（`docs/schema.md` の作成基準の
+  どれにも単独では当たらないため）。ファン・ゴッホは歌川派との経路を持つため作成基準2に当たり、
+  [person/vincent-van-gogh](../persons/vincent-van-gogh.md) として立てた
+- セザンヌ・ゴーガン・スーラそれぞれの日本の版画との接触。ゴーガンについては浮世絵の受容が
+  論じられるが、本項では出典を押さえていない。4人のうち何人に経路があるかで、`influenced_by` を
+  括りに張ることの妥当性が変わる
+- ファン・ゴッホが購入した版画の点数・時期・「ル・タンブラン」展の会期の一次資料。現状はすべて
+  二次情報からの記述
 - 「Post-Impressionism」という語が1910年展以前に使われた例があるかどうかの一次資料での確認
 - フランス語圏・日本語圏での受容史（「後期印象派」という訳語がいつから定着したか）

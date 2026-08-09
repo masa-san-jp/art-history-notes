@@ -2434,7 +2434,14 @@
           "target": "place/agra"
         }
       ],
-      "relations": [],
+      "relations": [
+        {
+          "type": "influenced_by",
+          "target": "movement/safavid-painting",
+          "certainty": "scholarly",
+          "source": "https://en.wikipedia.org/wiki/Mughal_painting"
+        }
+      ],
       "sources": [
         "https://www.wikidata.org/wiki/Q1049336",
         "https://en.wikipedia.org/wiki/Mughal_painting",
@@ -2444,7 +2451,9 @@
         "https://en.wikipedia.org/wiki/Govardhan_(artist)",
         "https://en.wikipedia.org/wiki/Abu%27l-Hasan_(artist)",
         "https://www.dailyartmagazine.com/mughal-art-aurangzeb/",
-        "https://www.wikidata.org/wiki/Q42941"
+        "https://www.wikidata.org/wiki/Q42941",
+        "https://en.wikipedia.org/wiki/Mir_Sayyid_Ali",
+        "https://en.wikipedia.org/wiki/Abd_al-Samad"
       ],
       "images": [
         {
@@ -3128,9 +3137,20 @@
           "target": "place/paris"
         }
       ],
-      "relations": [],
+      "relations": [
+        {
+          "type": "influenced_by",
+          "target": "movement/utagawa-school",
+          "certainty": "scholarly",
+          "source": "https://www.vangoghmuseum.nl/en/collection/s0114V1962"
+        }
+      ],
       "sources": [
         "https://www.wikidata.org/wiki/Q166713",
+        "https://www.vangoghmuseum.nl/en/collection/s0114V1962",
+        "https://www.vangoghmuseum.nl/en/collection/s0115v1962",
+        "https://collectionapi.metmuseum.org/public/collection/v1/objects/55433",
+        "https://en.wikipedia.org/wiki/One_Hundred_Famous_Views_of_Edo",
         "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300021508",
         "https://www.gutenberg.org/files/54154/54154-h/54154-h.htm",
         "https://www.tate.org.uk/art/art-terms/p/post-impressionism",
@@ -3266,6 +3286,12 @@
           "target": "movement/herat-school",
           "certainty": "scholarly",
           "source": "https://en.wikipedia.org/wiki/Kamal_ud-Din_Behzad"
+        },
+        {
+          "type": "diffused_to",
+          "target": "place/agra",
+          "certainty": "scholarly",
+          "source": "https://en.wikipedia.org/wiki/Abd_al-Samad"
         }
       ],
       "sources": [
@@ -3281,7 +3307,9 @@
         "https://en.wikipedia.org/wiki/Persian_miniature",
         "https://en.wikipedia.org/wiki/Safavid_dynasty",
         "https://www.ebsco.com/research-starters/arts-and-entertainment/esfahan-school-painting",
-        "https://www.britannica.com/art/Tabriz-school"
+        "https://www.britannica.com/art/Tabriz-school",
+        "https://en.wikipedia.org/wiki/Mir_Sayyid_Ali",
+        "https://en.wikipedia.org/wiki/Abd_al-Samad"
       ],
       "images": [
         {
@@ -5217,6 +5245,44 @@
       "status": "stub",
       "updated": "2026-08-09",
       "path": "entities/persons/victorio-edades.md"
+    },
+    "person/vincent-van-gogh": {
+      "id": "person/vincent-van-gogh",
+      "uri": "urn:ahn:person/vincent-van-gogh",
+      "type": "person",
+      "label_ja": "フィンセント・ファン・ゴッホ",
+      "label_en": "Vincent van Gogh",
+      "authority": {
+        "wikidata": "Q5582",
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": "1853-03-30",
+        "end": "1890-07-29",
+        "display": "1853年3月30日 オランダ・ズンデルト生まれ – 1890年7月29日 オーヴェル＝シュル＝オワーズ没（Wikidata Q5582・いずれも precision 11＝日単位）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "grouped_as",
+          "target": "movement/post-impressionism",
+          "certainty": "scholarly",
+          "source": "https://www.tate.org.uk/art/art-terms/p/post-impressionism"
+        }
+      ],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q5582",
+        "https://www.tate.org.uk/art/art-terms/p/post-impressionism",
+        "https://www.vangoghmuseum.nl/en/collection/s0114V1962",
+        "https://www.vangoghmuseum.nl/en/collection/s0115v1962",
+        "https://collectionapi.metmuseum.org/public/collection/v1/objects/55433"
+      ],
+      "status": "draft",
+      "updated": "2026-08-09",
+      "path": "entities/persons/vincent-van-gogh.md"
     },
     "person/yahia-turki": {
       "id": "person/yahia-turki",
@@ -7233,6 +7299,13 @@
     },
     {
       "from": "movement/mughal-painting",
+      "type": "influenced_by",
+      "to": "movement/safavid-painting",
+      "certainty": "scholarly",
+      "source": "https://en.wikipedia.org/wiki/Mughal_painting"
+    },
+    {
+      "from": "movement/mughal-painting",
       "type": "originated_in",
       "to": "place/agra"
     },
@@ -7318,6 +7391,13 @@
     },
     {
       "from": "movement/post-impressionism",
+      "type": "influenced_by",
+      "to": "movement/utagawa-school",
+      "certainty": "scholarly",
+      "source": "https://www.vangoghmuseum.nl/en/collection/s0114V1962"
+    },
+    {
+      "from": "movement/post-impressionism",
       "type": "originated_in",
       "to": "place/paris"
     },
@@ -7332,6 +7412,13 @@
       "to": "movement/herat-school",
       "certainty": "scholarly",
       "source": "https://en.wikipedia.org/wiki/Kamal_ud-Din_Behzad"
+    },
+    {
+      "from": "movement/safavid-painting",
+      "type": "diffused_to",
+      "to": "place/agra",
+      "certainty": "scholarly",
+      "source": "https://en.wikipedia.org/wiki/Abd_al-Samad"
     },
     {
       "from": "movement/safavid-painting",
@@ -7504,6 +7591,13 @@
       "from": "person/kazimir-malevich",
       "type": "died_in",
       "to": "place/saint-petersburg"
+    },
+    {
+      "from": "person/vincent-van-gogh",
+      "type": "grouped_as",
+      "to": "movement/post-impressionism",
+      "certainty": "scholarly",
+      "source": "https://www.tate.org.uk/art/art-terms/p/post-impressionism"
     },
     {
       "from": "source/seurat-letter-beaubourg-1890",
@@ -7706,6 +7800,12 @@
       "derived": true
     },
     {
+      "from": "movement/safavid-painting",
+      "type": "influenced",
+      "to": "movement/mughal-painting",
+      "derived": true
+    },
+    {
       "from": "movement/harlem-renaissance",
       "type": "influenced",
       "to": "movement/negritude",
@@ -7736,8 +7836,20 @@
       "derived": true
     },
     {
+      "from": "movement/utagawa-school",
+      "type": "influenced",
+      "to": "movement/post-impressionism",
+      "derived": true
+    },
+    {
       "from": "movement/herat-school",
       "type": "influenced",
+      "to": "movement/safavid-painting",
+      "derived": true
+    },
+    {
+      "from": "place/agra",
+      "type": "received",
       "to": "movement/safavid-painting",
       "derived": true
     },
@@ -7775,6 +7887,12 @@
       "from": "person/henri-lehmann",
       "type": "taught",
       "to": "person/georges-seurat",
+      "derived": true
+    },
+    {
+      "from": "movement/post-impressionism",
+      "type": "groups",
+      "to": "person/vincent-van-gogh",
       "derived": true
     },
     {

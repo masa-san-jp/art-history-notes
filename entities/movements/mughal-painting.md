@@ -26,7 +26,8 @@ claims:
   - {field: time, source: "https://en.wikipedia.org/wiki/Mughal_painting", certainty: scholarly}
 space:
   - {role: originated_in, target: place/agra}
-relations: []
+relations:
+  - {type: influenced_by, target: movement/safavid-painting, certainty: scholarly, source: "https://en.wikipedia.org/wiki/Mughal_painting"}
 sources:
   - https://www.wikidata.org/wiki/Q1049336
   - https://en.wikipedia.org/wiki/Mughal_painting
@@ -37,6 +38,8 @@ sources:
   - https://en.wikipedia.org/wiki/Abu%27l-Hasan_(artist)
   - https://www.dailyartmagazine.com/mughal-art-aurangzeb/
   - https://www.wikidata.org/wiki/Q42941
+  - https://en.wikipedia.org/wiki/Mir_Sayyid_Ali
+  - https://en.wikipedia.org/wiki/Abd_al-Samad
 images:
   - url: https://images.metmuseum.org/CRDImages/is/original/DP246561.jpg
     source_page: https://www.metmuseum.org/art/collection/search/451276
@@ -186,6 +189,51 @@ of northern and central India under the Mughal emperors from the mid-16th to the
 （シャー・ジャハーンが1648年に遷都）と移動を続けた（Web検索結果、二次情報）。単一の起源地に
 固定するのは実態を単純化しすぎている可能性がある。一次資料（宮廷年代記の原文）には当たっていない。
 
+## サファヴィー朝との接続
+
+ミール・サイイド・アリーとアブド・アッサマドは、いずれもサファヴィー朝シャー・タフマースブ1世の
+宮廷（タブリーズ）で絵師として活動していた。ミール・サイイド・アリーは同宮廷の画家ミール・ムサッヴィル
+の息子で、1525–1548年に制作された『シャー・タフマースブ本シャーナーメ』や1539–1543年の
+『ハムセ・ニザーミー』の挿絵の一部を手がけたとされる（[Mir Sayyid Ali](https://en.wikipedia.org/wiki/Mir_Sayyid_Ali)）。
+アブド・アッサマドも同宮廷の工房で熟練画家（"a master in the court workshop of the Safavid Shah,
+Tahmasp I"）だったとされる（[Abd al-Samad](https://en.wikipedia.org/wiki/Abd_al-Samad)）。
+
+フマーユーンは1543年、シェール・シャー・スーリーに敗れて王位を失い、シャー・タフマースブ1世の
+庇護を受けてイランへ逃れた。タブリーズ滞在中に宮廷画家たちの作品に触れ、2人を自らの元へ招くことに
+した（[Mir Sayyid Ali](https://en.wikipedia.org/wiki/Mir_Sayyid_Ali)）。アブド・アッサマド側の記述
+では、フマーユーンとの最初の接触は1544年、タブリーズでのことだったとされ、1546年にはフマーユーンが
+シャー・タフマースブ1世へ2人の解放を正式に要請したとされる（[Abd al-Samad](https://en.wikipedia.org/wiki/Abd_al-Samad)、
+同項目内では出典として Canby, Sheila. *The Golden Age of Persian Art, 1501–1722* が引かれている）。
+
+**出典間の不一致（誰が最初に招かれたか）**: ミール・サイイド・アリー側の記事は「アブド・アッサマドと
+（父の）ミール・ムサッヴィルの2人が招かれたが、何らかの理由でミール・ムサッヴィルの代わりに息子の
+ミール・サイイド・アリーが仕えることになった」とする（同項目が引く Welch, Stuart Cary. *Harvard's
+art museums: 100 years of collecting*, 1996, p.136）。一方アブド・アッサマド側の記事は、1546年に
+フマーユーンが解放を求めたのは「サマドと、同僚のミール・サイイド・アリー」だったとし、最初から
+ミール・サイイド・アリー本人が対象だったとする。どちらが正しいかは、今回参照した2次資料の範囲では
+判定できない。
+
+2人がフマーユーンの臨時の宮廷（当時カーブルに置かれていた）に到着した年も出典間で揺れる——
+アブド・アッサマド側の記事が引く文献では、Titley (1983) は1549年、Crill and Jariwala (2010) は
+「1549〜50年ごろ」、Beach, Blair and Bloom（*Oxford Art Online*所収）は1550年とし、「別の一部の資料は
+さらに早い1548年とする」ともある。ミール・サイイド・アリー側の記事は単に「1549年」とする。
+
+フマーユーンは1555年、シカンダル・シャー（スール朝）の軍を破ってデリーを再征服し王位に復帰した。
+2人はこれに随行してインドへ渡った——アブド・アッサマド側の記事は「フマーユーンが1556年に没する
+7か月前に、彼に随行してインドへ入った」とし（逆算すると1555年半ば、デリー再征服とほぼ同時期になる）、
+ミール・サイイド・アリー側の記事も「1555年の夏、フマーユーンがデリーの王座を取り戻すまでカーブル
+に留まった」とする。フマーユーンは翌1556年1月に死去し、後を継いだ第3代アクバルのもとで2人は
+帝室工房の中心的な画家となった——アブド・アッサマドはアクバルに絵の手ほどきをし、ミール・サイイド・
+アリーは1562年（または以降）から1572年まで『アクバル・ハムザ・ナーマ』プロジェクトの監督を務め、
+アブド・アッサマドが1572年頃にこれを引き継いだ（[Abd al-Samad](https://en.wikipedia.org/wiki/Abd_al-Samad)）。
+
+[movement/safavid-painting](safavid-painting.md) に `influenced_by` で接続した——動いたのは「人」
+（サファヴィー朝タブリーズ宮廷の画家2人が、フマーユーンの招きでカーブルを経てインドへ移った）。
+
+**未確認**: 一次資料（『アクバル・ナーマ』『フマーユーン・ナーマ』などムガル宮廷年代記の原文）
+には当たっていない。上記はすべて英語版Wikipediaが引く近代の学術的な伝記記述（Beach, Titley,
+Crill and Jariwala, Canby, Welch ら）に基づく。
+
 ## 未着手
 
 - アクバル・ジャハーンギール・シャー・ジャハーン各期の様式変化の一次資料（宮廷年代記・作品自体）
@@ -201,3 +249,6 @@ of northern and central India under the Mughal emperors from the mid-16th to the
 - 「Mughal painting」という呼称がいつ・誰によって定着したかの確認（近代の美術史記述であることは
   確からしいが、初出は未確認）
 - ラージプート絵画・デカン絵画などムガル周辺の様式との関係——今回は範囲外とした
+- ミール・サイイド・アリー・アブド・アッサマドの`person`エンティティ化——`docs/schema.md`の作成
+  基準②（2movementを繋ぐ）には該当するが、ヘラート派→サファヴィー朝細密画の接続（ビフザード）に
+  倣い、今回は movement 間の関係と本文の記述に留め、person ファイルは作らなかった

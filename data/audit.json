@@ -1,14 +1,74 @@
 {
   "findings": [
     {
-      "kind": "dead-end",
-      "about": "movement/post-impressionism",
-      "text": "新印象派 の grouped_as 先 ポスト印象派 が stub のまま（辿れない）"
+      "kind": "no-cross-region",
+      "about": "all",
+      "text": "他の文化圏の movement と1本も繋がっていない movement が 42/52 件。時間だけでなく空間の広がりを体系化するので、影響・伝播・反発を調べる余地"
     },
     {
-      "kind": "dead-end",
-      "about": "person/henri-lehmann",
-      "text": "ジョルジュ・スーラ の taught_by 先 アンリ・レーマン が stub のまま（辿れない）"
+      "kind": "no-cross-region",
+      "about": "europe-west",
+      "text": "europe-west: 6件（バルビゾン派、未来派、印象派、新印象派 ほか）"
+    },
+    {
+      "kind": "no-cross-region",
+      "about": "asia-southeast",
+      "text": "asia-southeast: 4件（バンドン派、インドシナ漆絵画（ソンマイ）、ピタ・マハ、ザ・サーティーン・モダンズ）"
+    },
+    {
+      "kind": "no-cross-region",
+      "about": "asia-east-japan",
+      "text": "asia-east-japan: 4件（狩野派、もの派、琳派、土佐派）"
+    },
+    {
+      "kind": "no-cross-region",
+      "about": "americas-north",
+      "text": "americas-north: 3件（抽象表現主義、グループ・オブ・セブン、ハドソン・リバー派）"
+    },
+    {
+      "kind": "no-cross-region",
+      "about": "americas-latin",
+      "text": "americas-latin: 3件（アントロポファジア、メキシコ壁画運動、ネオコンクレチスモ）"
+    },
+    {
+      "kind": "no-cross-region",
+      "about": "mena",
+      "text": "mena: 3件（バグダード近代美術グループ、チュニス派、オスマン朝細密画）"
+    },
+    {
+      "kind": "no-cross-region",
+      "about": "asia-south",
+      "text": "asia-south: 3件（ベンガル派、カンパニー派、カーングラ派）"
+    },
+    {
+      "kind": "no-cross-region",
+      "about": "africa-sub",
+      "text": "africa-sub: 3件（ベニン王国宮廷美術、ゴンダール様式教会絵画、ザリア・アート・ソサエティ）"
+    },
+    {
+      "kind": "no-cross-region",
+      "about": "oceania",
+      "text": "oceania: 3件（イアトムルの彫刻、ンガーティ・タラーワイの彫刻、パプニャ・トゥラ）"
+    },
+    {
+      "kind": "no-cross-region",
+      "about": "asia-east-china",
+      "text": "asia-east-china: 3件（嶺南画派、海上画派、浙派）"
+    },
+    {
+      "kind": "no-cross-region",
+      "about": "europe-east",
+      "text": "europe-east: 3件（ノヴゴロド派、移動派、シュプレマティスム）"
+    },
+    {
+      "kind": "no-cross-region",
+      "about": "asia-east-korea",
+      "text": "asia-east-korea: 2件（単色画、高麗仏画）"
+    },
+    {
+      "kind": "no-cross-region",
+      "about": "asia-central",
+      "text": "asia-central: 2件（メンリ派、ザナバザル様式）"
     }
   ]
 }
