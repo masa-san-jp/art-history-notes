@@ -30,6 +30,7 @@ space:
   - {role: originated_in, target: place/sao-paulo}
 relations:
   - {type: created_by, target: person/oswald-de-andrade}
+  - {type: responds_to, target: movement/surrealism, certainty: scholarly, source: "https://en.wikipedia.org/wiki/Oswald_de_Andrade"}
 sources:
   - https://digital.bbm.usp.br/bitstream/bbm/7064/2/Anno.1_n.01_45000033273.pdf
   - https://digital.bbm.usp.br/handle/bbm/7064
@@ -39,6 +40,7 @@ sources:
   - https://pt.wikipedia.org/wiki/Movimento_antropof%C3%A1gico
   - https://www.moma.org/collection/works/193204
   - https://www.tate.org.uk/art/art-terms/a/anthropophagia
+  - https://en.wikipedia.org/wiki/Oswald_de_Andrade
 status: draft
 updated: 2026-08-09
 ---
@@ -190,6 +192,26 @@ Antropofagia』第2の歯が1929年8月1日に終わったとする（二次情�
 `originated_in` はサンパウロ（[place/sao-paulo](../places/sao-paulo.md)）とした。根拠は創刊号
 一次資料の表紙に発行地として「SÃO PAULO」が直接印刷されていること。
 
+## 食われた側 — 宣言文が名指しした相手
+
+`responds_to` を[シュルレアリスム](surrealism.md)に張った。`influenced_by` ではなく `responds_to`
+なのは、この運動が受け取ったと言っているのではなく、**食うと言っている**からである。関係語彙の
+`responds_to` は賛否を問わない。
+
+動いたのは**言葉**である。英語版Wikipediaは1928年の『食人宣言（Manifesto Antropófago）』について
+"The text is explicitly inspired by Michel de Montaigne, Karl Marx, Sigmund Freud and André Breton,
+and is composed through a procedure of 'deglutition' of some of the most renowned manifestos of the
+Western culture."（この文章はモンテーニュ、マルクス、フロイト、アンドレ・ブルトンに明示的に
+依拠し、西欧文化の最も名高い宣言のいくつかを「嚥下」する手続きで構成されている）と書く
+（[Oswald de Andrade](https://en.wikipedia.org/wiki/Oswald_de_Andrade)、二次情報）。
+名指しされた4人のうち movement として立っているのはブルトン＝シュルレアリスムだけで、
+その宣言は1924年10月15日、この宣言の4年前に出ている。
+
+**この関係の弱点を先に書く。** 依拠の内容が特定できていない——宣言文のどの箇所がブルトンの
+どの文の「嚥下」なのかを、本KBは対照していない。原典（`Revista de Antropofagia` 創刊号）は
+既に読んでいるので、次はブルトンの宣言と並べて読むことになる。マリネッティの側との線は
+出典が読めず張れなかった（下記）。
+
 ## 未着手
 
 - 創刊号（第1号）以外の全25号（第1の歯・残り9号、第2の歯・全号）の一次資料への到達。現時点で
@@ -204,15 +226,12 @@ Antropofagia』第2の歯が1929年8月1日に終わったとする（二次情�
   `docs/schema.md`の作成基準（kind/time/originated_inの根拠になる／2movementを繋ぐ／作品を
   分解して読んだ）のどれにも単独では当たらないため、本文に名前を書くのみに留めた
 - 《アバポル（Abaporu）》を`work`として分解して読むこと。この movement の直接の発端になった作品
-- **文化圏を跨ぐ関係（探したが張れなかった）**: ヨーロッパの前衛を「食う」と宣言した運動なので、
-  食われた側との関係が立つはずだが、2026-08-10 時点で出典を押さえられていない。探したのは
-  [未来派](futurism.md)との線で、マリネッティが1926年にリオデジャネイロとサンパウロで講演し
+- [未来派](futurism.md)との線。マリネッティが1926年にリオデジャネイロとサンパウロで講演し
   拒絶されたという記述には行き当たったが、機関または査読誌の読める本文に到達できなかった
-  （見つかったのは researchgate・academia.edu の PDF 経由の言及のみ）。一方、英語版Wikipedia
-  「Oswald de Andrade」は宣言文が明示的に依拠した相手として "Michel de Montaigne, Karl Marx,
-  Sigmund Freud and André Breton" を挙げる（[同記事](https://en.wikipedia.org/wiki/Oswald_de_Andrade)、
-  二次情報）。ブルトンの側＝シュルレアリスムがこのKBに無いため、線を張る前に立てる必要がある。
-  **同時代に似ているという理由では張らない**ので、今回は張らずに空振りとして残す
+  （見つかったのは researchgate・academia.edu の PDF 経由の言及のみ）。**同時代に似ているという
+  理由では張らない**ので、出典が読めるまで張らない
+- 宣言文が名指しするモンテーニュ・マルクス・フロイトの側。シュルレアリスムには `responds_to` を
+  張ったが、残る3人はいずれも movement ではないため、`concept` として立てるかどうかは未決
   だが、現状は名前を挙げるのみで未着手
 - 1960年代のトロピカリズモとの関係を`grouped_as`または`influenced_by`として張ること。現状
   トロピカリズモはこのKBに無く、孤児 stub を避けるため今回は見送った

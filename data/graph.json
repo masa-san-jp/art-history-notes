@@ -339,6 +339,12 @@
         {
           "type": "created_by",
           "target": "person/oswald-de-andrade"
+        },
+        {
+          "type": "responds_to",
+          "target": "movement/surrealism",
+          "certainty": "scholarly",
+          "source": "https://en.wikipedia.org/wiki/Oswald_de_Andrade"
         }
       ],
       "sources": [
@@ -349,7 +355,8 @@
         "https://en.wikipedia.org/wiki/Anthropophagic_movement",
         "https://pt.wikipedia.org/wiki/Movimento_antropof%C3%A1gico",
         "https://www.moma.org/collection/works/193204",
-        "https://www.tate.org.uk/art/art-terms/a/anthropophagia"
+        "https://www.tate.org.uk/art/art-terms/a/anthropophagia",
+        "https://en.wikipedia.org/wiki/Oswald_de_Andrade"
       ],
       "status": "draft",
       "updated": "2026-08-09",
@@ -2630,13 +2637,20 @@
           "target": "movement/harlem-renaissance",
           "certainty": "scholarly",
           "source": "https://plato.stanford.edu/entries/negritude/"
+        },
+        {
+          "type": "influenced_by",
+          "target": "movement/surrealism",
+          "certainty": "scholarly",
+          "source": "https://www.tate.org.uk/art/art-terms/n/negritude"
         }
       ],
       "sources": [
         "https://www.wikidata.org/wiki/Q852544",
         "https://plato.stanford.edu/entries/negritude/",
         "https://www.tate.org.uk/art/art-terms/n/negritude",
-        "https://poets.org/text/brief-guide-negritude"
+        "https://poets.org/text/brief-guide-negritude",
+        "https://en.wikipedia.org/wiki/Aim%C3%A9_C%C3%A9saire"
       ],
       "status": "draft",
       "updated": "2026-08-09",
@@ -3701,6 +3715,69 @@
       "status": "draft",
       "updated": "2026-08-09",
       "path": "entities/movements/suprematism.md"
+    },
+    "movement/surrealism": {
+      "id": "movement/surrealism",
+      "uri": "urn:ahn:movement/surrealism",
+      "type": "movement",
+      "label_ja": "シュルレアリスム",
+      "label_en": "Surrealism",
+      "authority": {
+        "wikidata": "Q39427",
+        "aat": "300021512",
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": "1924-10-15",
+        "end": "194X",
+        "display": "1924年10月15日（ブルトン『シュルレアリスム宣言』刊行＝自称の起点）〜1940年代後半（Getty AAT が「1920年代から1940年代末まで」とする）。Wikidata Q39427 の P571 は precision 8＝1920年代を指し、宣言の日付ではなく10年単位で始まりを取る"
+      },
+      "kind": "self-declared",
+      "naming": {
+        "self_identified": true,
+        "named_by": null,
+        "named_when": "1924",
+        "original_label": "surréalisme",
+        "note": "宣言文が辞書の体裁で語を定義しており、自称であることが本文で直接読める（『SURRÉALISME, n. m. Automatisme psychique pur par lequel on se propose d'exprimer, soit verbalement, soit par écrit, soit de toute autre manière, le fonctionnement réel de la pensée.』）。ただし**語そのものはブルトンの造語ではない**。ギヨーム・アポリネールが1917年3月、バレエ・リュスの『パラード』（初演5月18日）のプログラム解説で「一種のシュルレアリスム（une sorte de surréalisme）」と書いたのが先行する（英語版Wikipedia、二次情報）。アポリネールが名づけたのは1つの舞台の性質であってこの運動ではないため named_by は null とし、語の先行使用としてここに記した"
+      },
+      "claims": [
+        {
+          "field": "kind",
+          "source": "https://fr.wikipedia.org/wiki/Manifeste_du_surr%C3%A9alisme",
+          "certainty": "attested"
+        },
+        {
+          "field": "time",
+          "source": "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300021512",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "originated_in",
+          "source": "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300021512",
+          "certainty": "scholarly"
+        }
+      ],
+      "space": [
+        {
+          "role": "originated_in",
+          "target": "place/paris"
+        }
+      ],
+      "relations": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q39427",
+        "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300021512",
+        "https://fr.wikipedia.org/wiki/Manifeste_du_surr%C3%A9alisme",
+        "https://en.wikipedia.org/wiki/Surrealism",
+        "https://gallica.bnf.fr/ark:/12148/btv1b525214035",
+        "https://archivesetmanuscrits.bnf.fr/ark:/12148/cc125311h",
+        "https://www.bnf.fr/fr/1924-annee-surrealiste"
+      ],
+      "status": "draft",
+      "updated": "2026-08-10",
+      "path": "entities/movements/surrealism.md"
     },
     "movement/thirteen-moderns": {
       "id": "movement/thirteen-moderns",
@@ -7178,6 +7255,13 @@
     },
     {
       "from": "movement/antropofagia",
+      "type": "responds_to",
+      "to": "movement/surrealism",
+      "certainty": "scholarly",
+      "source": "https://en.wikipedia.org/wiki/Oswald_de_Andrade"
+    },
+    {
+      "from": "movement/antropofagia",
       "type": "originated_in",
       "to": "place/sao-paulo"
     },
@@ -7529,6 +7613,13 @@
     },
     {
       "from": "movement/negritude",
+      "type": "influenced_by",
+      "to": "movement/surrealism",
+      "certainty": "scholarly",
+      "source": "https://www.tate.org.uk/art/art-terms/n/negritude"
+    },
+    {
+      "from": "movement/negritude",
       "type": "originated_in",
       "to": "place/paris"
     },
@@ -7669,6 +7760,11 @@
       "from": "movement/suprematism",
       "type": "originated_in",
       "to": "place/saint-petersburg"
+    },
+    {
+      "from": "movement/surrealism",
+      "type": "originated_in",
+      "to": "place/paris"
     },
     {
       "from": "movement/thirteen-moderns",
@@ -7897,6 +7993,12 @@
       "derived": true
     },
     {
+      "from": "movement/surrealism",
+      "type": "answered_by",
+      "to": "movement/antropofagia",
+      "derived": true
+    },
+    {
       "from": "person/shakir-hassan-al-said",
       "type": "created",
       "to": "movement/baghdad-modern-art-group",
@@ -8060,6 +8162,12 @@
     },
     {
       "from": "movement/harlem-renaissance",
+      "type": "influenced",
+      "to": "movement/negritude",
+      "derived": true
+    },
+    {
+      "from": "movement/surrealism",
       "type": "influenced",
       "to": "movement/negritude",
       "derived": true

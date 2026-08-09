@@ -30,11 +30,13 @@ space:
   - {role: originated_in, target: place/paris}
 relations:
   - {type: influenced_by, target: movement/harlem-renaissance, certainty: scholarly, source: "https://plato.stanford.edu/entries/negritude/"}
+  - {type: influenced_by, target: movement/surrealism, certainty: scholarly, source: "https://www.tate.org.uk/art/art-terms/n/negritude"}
 sources:
   - https://www.wikidata.org/wiki/Q852544
   - https://plato.stanford.edu/entries/negritude/
   - https://www.tate.org.uk/art/art-terms/n/negritude
   - https://poets.org/text/brief-guide-negritude
+  - https://en.wikipedia.org/wiki/Aim%C3%A9_C%C3%A9saire
 status: draft
 updated: 2026-08-09
 ---
@@ -107,6 +109,30 @@ Wikidata Q852544 の `P737`（influenced by）も、ハーレム・ルネサン�
 当たりうるが、本KBが確認できたのは二次資料に引かれた形の要約であって、発言の原典（どの文章の
 どこか）を押さえられていない——**未確認**。原典に届いたら `attested` に上げる。
 
+## シュルレアリスムとの線 — 島に来た一人と、そこで出た雑誌
+
+`influenced_by` を[シュルレアリスム](surrealism.md)にも張った。テートが影響源として名指しし
+（[tate.org.uk](https://www.tate.org.uk/art/art-terms/n/negritude)）、Wikidata `P737` も挙げるが、
+それだけでは「同時代に似ている」と区別がつかない。動いたものを1つ特定する。
+
+**動いたのは人である。** アンドレ・ブルトンは第二次大戦中マルティニークに滞在し、1940年に
+エメ・セゼールと会っている。セゼールとシュザンヌ・ルシは1941年に文芸誌『トロピック（Tropiques）』を
+創刊し、ブルトンはそこに寄稿した。ブルトンは1947年版『帰郷ノート（Cahier d'un retour au pays natal）』に
+序文を寄せ、この詩を "the greatest lyrical monument of our times" と評している
+（[英語版Wikipedia「Aimé Césaire」](https://en.wikipedia.org/wiki/Aim%C3%A9_C%C3%A9saire)、二次情報）。
+
+技法の側の記述もある。スタンフォード哲学百科事典は、ネグリチュードの詩人がシュルレアリスムの
+書法——語を「叩きつけ、慣れた結びつきを壊し、力ずくで組み合わせる」——を用いたとサルトルの評を
+引いて述べる（[plato.stanford.edu](https://plato.stanford.edu/entries/negritude/)、二次情報）。
+
+セゼール本人の言葉も残っている。作風を問われて "Surrealism provided me with what I had been
+confusedly searching for."（シュルレアリスムは、私が漠然と探していたものを与えてくれた）と答えた
+とされる（同英語版Wikipedia）。**`certainty` を `attested` にしなかったのは、この発言の原典
+——どの対話・どの文章か——を押さえられていないためである。** 原典に届いたら上げる。
+
+**未確認**: ブルトンとセゼールの出会いの年は、上の記事の中でも「1940年」と「戦時中の滞在」の
+2つの言い方が並ぶ。マルティニーク滞在の正確な時期と経緯（ヴィシー政権下の移動）は確認していない。
+
 ## 未着手
 
 - サンゴールがクロード・マッケイを「ネグリチュードの精神的な創設者」と呼んだ発言の原典
@@ -117,8 +143,12 @@ Wikidata Q852544 の `P737`（influenced by）も、ハーレム・ルネサン�
   ルネサンスとネグリチュードという2つの運動を実際に繋いだ場であり、`docs/schema.md` の
   person 作成基準2（2つ以上の movement を繋ぐ）に当たる。レオポール・セダール・サンゴール、
   レオン＝ゴントラン・ダマスも同様に未作成（セゼールのみ `named_by` の根拠として立てた）
-- シュルレアリスム、パン・アフリカ主義との関係。Wikidata は影響源として挙げるが、本調査では
-  出典を押さえていないため関係を張っていない
+- パン・アフリカ主義との関係。Wikidata は影響源として挙げるが、出典を押さえていないため
+  関係を張っていない（シュルレアリスムとの線は2026-08-10 に張った）
+- セゼールの "Surrealism provided me with what I had been confusedly searching for." の原典。
+  押さえられればシュルレアリスムへの `influenced_by` を `attested` に上げられる
+- 『トロピック』誌（1941年創刊）の org 化と、ブルトンの寄稿号の特定。ブルトンの寄稿は
+  シュルレアリスムとネグリチュードが同じ誌面に載った直接の証拠になる
 - 雑誌『Présence Africaine』（1947年創刊）の org 化。ネグリチュードの発表媒体であり、
   パパ・イブラ・タルがパリ在学中に挿絵を寄せた先でもある
 - ネグリチュードへの批判（ウォーレ・ショインカ、フランツ・ファノンら）の位置づけ。批判は

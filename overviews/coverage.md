@@ -14,11 +14,11 @@ depends_on: []
 <!-- generated:coverage:start -->
 データの最新日: 2026-08-10 — `python3 tools/build_graph.py` が生成（手で書き換えない）
 
-movement **53** 件（stub 0件は不算入）／内訳 {'draft': 51, 'stub': 0, 'verified': 2}
+movement **54** 件（stub 0件は不算入）／内訳 {'draft': 52, 'stub': 0, 'verified': 2}
 
 | 文化圏 | 12C | 13C | 15C | 16C | 17C | 18C | 19C | 20C | 年代不明 | 計 |
 |---|---|---|---|---|---|---|---|---|---|---|
-| europe-west（西欧・南欧・北欧） |  | 1 | 1 |  |  |  | 4 | 2 |  | 8 |
+| europe-west（西欧・南欧・北欧） |  | 1 | 1 |  |  |  | 4 | 3 |  | 9 |
 | europe-east（中東欧・ロシア・ビザンツ圏） | 1 |  |  |  |  |  | 1 | 2 |  | 4 |
 | americas-north（北米） |  |  |  |  |  |  | 1 | 3 |  | 4 |
 | mena（中東・北アフリカ） ※非西洋 |  |  | 1 | 1 |  |  |  | 2 |  | 4 |
@@ -36,10 +36,10 @@ movement **53** 件（stub 0件は不算入）／内訳 {'draft': 51, 'stub': 0,
 
 受け入れ条件の達成度:
 
-- movement_total: 53/100（stub 0件は不算入）
-- non_west_ratio: 0.70/0.5
+- movement_total: 54/100（stub 0件は不算入）
+- non_west_ratio: 0.69/0.5
 - per_bucket_min: 13/13 バケットが 3件以上
-- pre_1800_ratio: 0.40/0.3
+- pre_1800_ratio: 0.39/0.3
 - isolated_ratio: 0.00（上限 0.1）
 <!-- generated:coverage:end -->
 
@@ -58,7 +58,7 @@ movement **53** 件（stub 0件は不算入）／内訳 {'draft': 51, 'stub': 0,
 
 <!-- generated:audit:start -->
 **文化圏を跨ぐ関係が無い**
-- 他の文化圏の movement と1本も繋がっていない movement が 38/53 件。時間だけでなく空間の広がりを体系化するので、影響・伝播・反発を調べる余地
+- 他の文化圏の movement と1本も繋がっていない movement が 37/54 件。時間だけでなく空間の広がりを体系化するので、影響・伝播・反発を調べる余地
 - asia-southeast: 4件（バンドン派、インドシナ漆絵画（ソンマイ）、ピタ・マハ、ザ・サーティーン・モダンズ）
 - europe-west: 4件（バルビゾン派、新印象派、シエナ派、ヴェネツィア派）
 - asia-east-japan: 4件（狩野派、もの派、琳派、土佐派）
@@ -68,10 +68,10 @@ movement **53** 件（stub 0件は不算入）／内訳 {'draft': 51, 'stub': 0,
 - oceania: 3件（イアトムルの彫刻、ンガーティ・タラーワイの彫刻、パプニャ・トゥラ）
 - asia-east-china: 3件（嶺南画派、海上画派、浙派）
 - europe-east: 3件（ノヴゴロド派、移動派、シュプレマティスム）
-- americas-latin: 2件（アントロポファジア、ネオコンクレチスモ）
 - asia-east-korea: 2件（単色画、高麗仏画）
 - americas-north: 2件（グループ・オブ・セブン、ハドソン・リバー派）
 - asia-central: 2件（メンリ派、ザナバザル様式）
+- americas-latin: 1件（ネオコンクレチスモ）
 <!-- generated:audit:end -->
 
 ## 需要から決める（探されたが無かった語）
