@@ -658,6 +658,12 @@
           "target": "movement/mughal-painting",
           "certainty": "scholarly",
           "source": "https://www.getty.edu/vow/AATFullDisplay?find=Bengal&logic=AND&note=&english=Y&prev_page=1&subjectid=300417404"
+        },
+        {
+          "type": "influenced_by",
+          "target": "movement/nihonga",
+          "certainty": "scholarly",
+          "source": "https://amis-musee-cernuschi.org/en/les-liens-artistiques-et-culturels-entre-linde-et-le-japon-vers-1890-1940-2/"
         }
       ],
       "sources": [
@@ -669,7 +675,8 @@
         "https://en.wikipedia.org/wiki/Abanindranath_Tagore",
         "https://en.wikipedia.org/wiki/Indian_Society_of_Oriental_Art",
         "https://imp-art.org/articles/bengal-school/",
-        "https://digitalcommons.ciis.edu/facultypublications/51/"
+        "https://digitalcommons.ciis.edu/facultypublications/51/",
+        "https://amis-musee-cernuschi.org/en/les-liens-artistiques-et-culturels-entre-linde-et-le-japon-vers-1890-1940-2/"
       ],
       "status": "draft",
       "updated": "2026-08-09",
@@ -2269,7 +2276,14 @@
           "target": "place/guangzhou"
         }
       ],
-      "relations": [],
+      "relations": [
+        {
+          "type": "influenced_by",
+          "target": "movement/nihonga",
+          "certainty": "scholarly",
+          "source": "https://en.wikipedia.org/wiki/Gao_Jianfu"
+        }
+      ],
       "sources": [
         "https://www.wikidata.org/wiki/Q11050078",
         "https://www.wikidata.org/wiki/Q3083171",
@@ -2879,6 +2893,76 @@
       "status": "draft",
       "updated": "2026-08-09",
       "path": "entities/movements/ngati-tarawhai-whakairo.md"
+    },
+    "movement/nihonga": {
+      "id": "movement/nihonga",
+      "uri": "urn:ahn:movement/nihonga",
+      "type": "movement",
+      "label_ja": "日本画",
+      "label_en": "Nihonga",
+      "authority": {
+        "wikidata": "Q1989975",
+        "aat": "300114441",
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": "1882",
+        "end": null,
+        "display": "1882年（明治15年・フェノロサが龍池会で行った講演《美術真説》で「油絵」と「日本画」を対比させた＝語の初出）〜。語が一般に使われ始めるのは明治20年代末から。終期は無い（大学の専攻区分・展覧会の部門名として現在も使われている）。Wikidata Q1989975 の P571 は 1860・precision 8＝1860年代を指し、語の成立より前を取る"
+      },
+      "kind": "retrospective",
+      "naming": {
+        "self_identified": false,
+        "named_by": "person/ernest-fenollosa",
+        "named_when": "1882",
+        "original_label": "日本画",
+        "note": "名づけたのは描いた側ではなく、外から来た一人の講師である。中村賢一（セレネ美術館）の論考は『「日本画」という言葉が使われる契機となったのは、明治15年(1882年)に「龍池会」でフェノロサが行った《美術真説》という講演である。この講演でフェノロサは、｢油絵｣と「日本画」を明確に対比させ、「油絵」よりも「日本画」の方が優れていることを説いた』と書き、さらに『つまり「日本画」は、自然と生じたのでもなく、日本人が危機意識から生み出したのでもなく、まずフェノロサという西洋人の眼によって打ち立てられたのである』と結論する。ただし後代の史家による括りではない——名づけられた時、対象となる絵画は同時代に描かれていた。同論考は語の一般化を『明治20年代末から』とする"
+      },
+      "claims": [
+        {
+          "field": "kind",
+          "source": "http://museums.toyamaken.jp/documents/documents007/",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "time",
+          "source": "http://museums.toyamaken.jp/documents/documents007/",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "originated_in",
+          "source": "https://nihonbijutsuin.or.jp/his_tenshsin.php",
+          "certainty": "scholarly"
+        }
+      ],
+      "space": [
+        {
+          "role": "originated_in",
+          "target": "place/tokyo"
+        }
+      ],
+      "relations": [],
+      "images": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/4/48/Hishida_Shuns%C5%8D_-_Fallen_Leaves_%28Eisei_Bunko_Museum%29_2.jpg",
+          "source_page": "https://commons.wikimedia.org/wiki/File:Hishida_Shuns%C5%8D_-_Fallen_Leaves_(Eisei_Bunko_Museum)_2.jpg",
+          "license": "public-domain",
+          "note": "菱田春草《落葉》1909年、永青文庫蔵。Wikimedia Commons の権利表示は Public domain（春草の没年1911年）。輪郭線を引かずに空気の層を描く手つきが1点で見える——これが批判の側から「朦朧体」と呼ばれた描き方で、1903年にインドへ、1900年代後半に東京へ来た中国人留学生を通じて広東へ渡ったのも、この手つきである"
+        }
+      ],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q1989975",
+        "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300114441",
+        "http://museums.toyamaken.jp/documents/documents007/",
+        "https://nihonbijutsuin.or.jp/his_tenshsin.php",
+        "https://www.wikidata.org/wiki/Q4346814",
+        "https://amis-musee-cernuschi.org/en/les-liens-artistiques-et-culturels-entre-linde-et-le-japon-vers-1890-1940-2/"
+      ],
+      "status": "draft",
+      "updated": "2026-08-10",
+      "path": "entities/movements/nihonga.md"
     },
     "movement/novgorod-school-icon-painting": {
       "id": "movement/novgorod-school-icon-painting",
@@ -4756,6 +4840,34 @@
       "status": "stub",
       "updated": "2026-08-09",
       "path": "entities/persons/e-b-havell.md"
+    },
+    "person/ernest-fenollosa": {
+      "id": "person/ernest-fenollosa",
+      "uri": "urn:ahn:person/ernest-fenollosa",
+      "type": "person",
+      "label_ja": "アーネスト・フェノロサ",
+      "label_en": "Ernest Fenollosa",
+      "authority": {
+        "wikidata": "Q933253",
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": "1853-02-18",
+        "end": "1908-09-21",
+        "display": "1853年2月18日 – 1908年9月21日（Wikidata Q933253・precision 11＝日単位）"
+      },
+      "space": [],
+      "relations": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q933253",
+        "http://museums.toyamaken.jp/documents/documents007/"
+      ],
+      "status": "stub",
+      "updated": "2026-08-10",
+      "path": "entities/persons/ernest-fenollosa.md"
     },
     "person/felix-feneon": {
       "id": "person/felix-feneon",
@@ -7325,6 +7437,13 @@
     },
     {
       "from": "movement/bengal-school",
+      "type": "influenced_by",
+      "to": "movement/nihonga",
+      "certainty": "scholarly",
+      "source": "https://amis-musee-cernuschi.org/en/les-liens-artistiques-et-culturels-entre-linde-et-le-japon-vers-1890-1940-2/"
+    },
+    {
+      "from": "movement/bengal-school",
       "type": "originated_in",
       "to": "place/kolkata"
     },
@@ -7563,6 +7682,13 @@
     },
     {
       "from": "movement/lingnan-school",
+      "type": "influenced_by",
+      "to": "movement/nihonga",
+      "certainty": "scholarly",
+      "source": "https://en.wikipedia.org/wiki/Gao_Jianfu"
+    },
+    {
+      "from": "movement/lingnan-school",
       "type": "originated_in",
       "to": "place/guangzhou"
     },
@@ -7659,6 +7785,11 @@
       "from": "movement/ngati-tarawhai-whakairo",
       "type": "originated_in",
       "to": "place/lake-okataina"
+    },
+    {
+      "from": "movement/nihonga",
+      "type": "originated_in",
+      "to": "place/tokyo"
     },
     {
       "from": "movement/novgorod-school-icon-painting",
@@ -8044,6 +8175,12 @@
       "derived": true
     },
     {
+      "from": "movement/nihonga",
+      "type": "influenced",
+      "to": "movement/bengal-school",
+      "derived": true
+    },
+    {
       "from": "org/igun-eronmwon",
       "type": "created",
       "to": "movement/benin-court-art",
@@ -8155,6 +8292,12 @@
       "from": "movement/mughal-painting",
       "type": "influenced",
       "to": "movement/kangra-painting",
+      "derived": true
+    },
+    {
+      "from": "movement/nihonga",
+      "type": "influenced",
+      "to": "movement/lingnan-school",
       "derived": true
     },
     {

@@ -1,9 +1,9 @@
 {
   "as_of": "2026-08-10",
-  "movement_total": 54,
+  "movement_total": 55,
   "movement_stub_excluded": 0,
   "by_status": {
-    "draft": 52,
+    "draft": 53,
     "stub": 0,
     "verified": 2
   },
@@ -61,6 +61,7 @@
     "asia-east-japan": {
       "15": 2,
       "20": 1,
+      "19": 1,
       "17": 1,
       "18": 1
     },
@@ -81,7 +82,7 @@
     "asia-southeast": 4,
     "asia-east-china": 4,
     "asia-east-korea": 3,
-    "asia-east-japan": 5,
+    "asia-east-japan": 6,
     "americas-latin": 3,
     "oceania": 3
   },
@@ -89,10 +90,10 @@
   "origin_multiple": [],
   "isolated": [],
   "progress": {
-    "movement_total": "54/100（stub 0件は不算入）",
+    "movement_total": "55/100（stub 0件は不算入）",
     "non_west_ratio": "0.69/0.5",
     "per_bucket_min": "13/13 バケットが 3件以上",
-    "pre_1800_ratio": "0.39/0.3",
+    "pre_1800_ratio": "0.38/0.3",
     "isolated_ratio": "0.00（上限 0.1）"
   }
 }

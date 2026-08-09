@@ -27,7 +27,8 @@ claims:
   - {field: time, source: "https://www.wikidata.org/wiki/Q11050078", certainty: scholarly}
 space:
   - {role: originated_in, target: place/guangzhou}
-relations: []
+relations:
+  - {type: influenced_by, target: movement/nihonga, certainty: scholarly, source: "https://en.wikipedia.org/wiki/Gao_Jianfu"}
 sources:
   - https://www.wikidata.org/wiki/Q11050078
   - https://www.wikidata.org/wiki/Q3083171
@@ -71,8 +72,15 @@ updated: 2026-08-09
 二次情報）。
 
 高剣父は1906年に日本へ渡り東京美術学校で学び（1907年からは弟・高奇峰、陳樹人も同行して東京に滞在）、
-1908年に帰国した（英語版Wikipedia「Gao Jianfu」、二次情報）。日本画（当時の「朦朧体」の没骨・
-陰影表現）と西洋画の遠近法・陰影法を学び、これを中国画の伝統的な筆墨と組み合わせる方向を追求した。
+1908年に帰国した（[英語版Wikipedia「Gao Jianfu」](https://en.wikipedia.org/wiki/Gao_Jianfu)、二次情報）。
+日本画（当時の「朦朧体」の没骨・陰影表現）と西洋画の遠近法・陰影法を学び、これを中国画の伝統的な
+筆墨と組み合わせる方向を追求した。
+
+**この経路を関係として立てた。** `influenced_by` を[日本画](nihonga.md)に張っている。動いたのは
+**人**である——高剣父・高奇峰・陳樹人が東京に滞在して学び、持ち帰った。同じ手つき（輪郭線を引かず
+色の層で描く「朦朧体」）は、1903年にインドへも渡っている（[ベンガル派](bengal-school.md)）。
+**未確認**: 3人が東京で誰に学んだか（具体的な教師・在籍記録）は本KBでは押さえておらず、
+記述は英語版Wikipedia経由の二次情報に依拠している。
 
 1912年6月、上海で高奇峰・高剣父兄弟が雑誌『真相画報』を創刊した（[zh.wikipedia「真相画报」]
 (https://zh.wikipedia.org/wiki/真相画报)は「創刊地：上海」「1912年6月至1913年3月或4月間」

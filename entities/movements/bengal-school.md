@@ -31,6 +31,7 @@ relations:
   - {type: created_by, target: person/abanindranath-tagore}
   - {type: created_by, target: person/e-b-havell}
   - {type: influenced_by, target: movement/mughal-painting, certainty: scholarly, source: "https://www.getty.edu/vow/AATFullDisplay?find=Bengal&logic=AND&note=&english=Y&prev_page=1&subjectid=300417404"}
+  - {type: influenced_by, target: movement/nihonga, certainty: scholarly, source: "https://amis-musee-cernuschi.org/en/les-liens-artistiques-et-culturels-entre-linde-et-le-japon-vers-1890-1940-2/"}
 sources:
   - https://www.wikidata.org/wiki/Q948504
   - https://en.wikipedia.org/wiki/Bengal_School_of_Art
@@ -41,6 +42,7 @@ sources:
   - https://en.wikipedia.org/wiki/Indian_Society_of_Oriental_Art
   - https://imp-art.org/articles/bengal-school/
   - https://digitalcommons.ciis.edu/facultypublications/51/
+  - https://amis-musee-cernuschi.org/en/les-liens-artistiques-et-culturels-entre-linde-et-le-japon-vers-1890-1940-2/
 status: draft
 updated: 2026-08-09
 ---
@@ -74,13 +76,26 @@ Art & Craft）で英国人の校長 E.B. ハヴェル（[person/e-b-havell](../p
 Getty AATは様式の内容を "Inspired by Mughal miniatures and Japanese ink wash painting, the Bengal
 school was created in response to European academic teaching as a way to revive Indian traditions
 and create a national art" と記す。ムガル細密画やラージプート絵画・アジャンター壁画の伝統を参照し、
-油彩に代えて水彩・淡彩のウォッシュ技法を用いた。このウォッシュ技法の導入には、日本の美術批評家
-岡倉天心が派遣した日本人画家（横山大観・菱田春草）がシャンティニケトンで指導したという系譜も
-含まれる（複数のWeb検索結果に基づく二次情報、一次資料未確認）。同時代、西洋アカデミズムの技法で
+油彩に代えて水彩・淡彩のウォッシュ技法を用いた。同時代、西洋アカデミズムの技法で
 ヒンドゥー神話を描いたラージャ・ラヴィ・ヴァルマーの大衆的な絵画への批判もこの運動の背景にあったと
-される（同、二次情報）。この文脈は、ムガル絵画（[movement/mughal-painting](mughal-painting.md)）が
-既にこのKBに置いている「インド細密画の様式」を、20世紀の民族主義の文脈で参照し直した動きとして
-接続できる。
+される（[imp-art.org「Bengal School」](https://imp-art.org/articles/bengal-school/)、二次情報）。
+この文脈は、ムガル絵画（[movement/mughal-painting](mughal-painting.md)）が既にこのKBに置いている
+「インド細密画の様式」を、20世紀の民族主義の文脈で参照し直した動きとして接続できる。
+
+**このウォッシュ技法の経路を関係として立てた**——`influenced_by` を[日本画](nihonga.md)に張っている。
+動いたのは**人**である。パリのチェルヌスキ美術館友の会は経緯をこう記す。1901年末、インドを通過した
+岡倉天心（1862-1913）がシスター・ニヴェディタの紹介でラビンドラナート・タゴールに引き合わされた。
+タゴール側の依頼（インドの宮殿装飾に日本人画家を送ってほしい）を受けて岡倉が画家を送り、1903年1月に
+横山大観と菱田春草がカルカッタに着いたが、当初の仕事は中止になった。2人はそのまま滞在し、墨と筆の
+技法（*Sumi-e*）に加えて "their new work of colors without contours to render the atmosphere in
+colored washes and gradients: this style is called *Morotai*"（輪郭線を用いず、色のウォッシュと
+グラデーションで空気を描く新しい仕事＝「朦朧体」）を伝えた。同資料は "This Japanese style marks the
+first production of the School of Bengal." と書く
+（[amis-musee-cernuschi.org](https://amis-musee-cernuschi.org/en/les-liens-artistiques-et-culturels-entre-linde-et-le-japon-vers-1890-1940-2/)、
+二次情報）。Getty AAT が挙げる "Japanese ink wash painting" は、この経路を指している。
+
+**未確認**: 2人の滞在期間・指導の場所（カルカッタのタゴール邸か、シャンティニケトンか、
+資料により記述が揺れる）・指導を受けた側の記録。一次資料には到達していない。
 
 ## kind の判定 — なぜ `retrospective` か
 

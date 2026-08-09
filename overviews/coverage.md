@@ -14,7 +14,7 @@ depends_on: []
 <!-- generated:coverage:start -->
 データの最新日: 2026-08-10 — `python3 tools/build_graph.py` が生成（手で書き換えない）
 
-movement **54** 件（stub 0件は不算入）／内訳 {'draft': 52, 'stub': 0, 'verified': 2}
+movement **55** 件（stub 0件は不算入）／内訳 {'draft': 53, 'stub': 0, 'verified': 2}
 
 | 文化圏 | 12C | 13C | 15C | 16C | 17C | 18C | 19C | 20C | 年代不明 | 計 |
 |---|---|---|---|---|---|---|---|---|---|---|
@@ -28,7 +28,7 @@ movement **54** 件（stub 0件は不算入）／内訳 {'draft': 52, 'stub': 0,
 | asia-southeast（東南アジア） ※非西洋 |  |  |  |  |  |  |  | 4 |  | 4 |
 | asia-east-china（中国圏） ※非西洋 |  |  | 2 |  |  |  | 1 | 1 |  | 4 |
 | asia-east-korea（朝鮮半島） ※非西洋 |  | 1 |  |  |  | 1 |  | 1 |  | 3 |
-| asia-east-japan（日本） ※非西洋 |  |  | 2 |  | 1 | 1 |  | 1 |  | 5 |
+| asia-east-japan（日本） ※非西洋 |  |  | 2 |  | 1 | 1 | 1 | 1 |  | 6 |
 | americas-latin（中南米・カリブ） ※非西洋 |  |  |  |  |  |  |  | 3 |  | 3 |
 | oceania（オセアニア・太平洋） ※非西洋 |  |  |  |  |  |  | 1 | 1 | 1 | 3 |
 
@@ -36,10 +36,10 @@ movement **54** 件（stub 0件は不算入）／内訳 {'draft': 52, 'stub': 0,
 
 受け入れ条件の達成度:
 
-- movement_total: 54/100（stub 0件は不算入）
+- movement_total: 55/100（stub 0件は不算入）
 - non_west_ratio: 0.69/0.5
 - per_bucket_min: 13/13 バケットが 3件以上
-- pre_1800_ratio: 0.39/0.3
+- pre_1800_ratio: 0.38/0.3
 - isolated_ratio: 0.00（上限 0.1）
 <!-- generated:coverage:end -->
 
@@ -58,19 +58,19 @@ movement **54** 件（stub 0件は不算入）／内訳 {'draft': 52, 'stub': 0,
 
 <!-- generated:audit:start -->
 **文化圏を跨ぐ関係が無い**
-- 他の文化圏の movement と1本も繋がっていない movement が 37/54 件。時間だけでなく空間の広がりを体系化するので、影響・伝播・反発を調べる余地
+- 他の文化圏の movement と1本も繋がっていない movement が 35/55 件。時間だけでなく空間の広がりを体系化するので、影響・伝播・反発を調べる余地
 - asia-southeast: 4件（バンドン派、インドシナ漆絵画（ソンマイ）、ピタ・マハ、ザ・サーティーン・モダンズ）
 - europe-west: 4件（バルビゾン派、新印象派、シエナ派、ヴェネツィア派）
 - asia-east-japan: 4件（狩野派、もの派、琳派、土佐派）
 - mena: 3件（バグダード近代美術グループ、チュニス派、オスマン朝細密画）
-- asia-south: 3件（ベンガル派、カンパニー派、カーングラ派）
 - africa-sub: 3件（ベニン王国宮廷美術、ゴンダール様式教会絵画、ザリア・アート・ソサエティ）
 - oceania: 3件（イアトムルの彫刻、ンガーティ・タラーワイの彫刻、パプニャ・トゥラ）
-- asia-east-china: 3件（嶺南画派、海上画派、浙派）
 - europe-east: 3件（ノヴゴロド派、移動派、シュプレマティスム）
+- asia-south: 2件（カンパニー派、カーングラ派）
 - asia-east-korea: 2件（単色画、高麗仏画）
 - americas-north: 2件（グループ・オブ・セブン、ハドソン・リバー派）
 - asia-central: 2件（メンリ派、ザナバザル様式）
+- asia-east-china: 2件（海上画派、浙派）
 - americas-latin: 1件（ネオコンクレチスモ）
 <!-- generated:audit:end -->
 
