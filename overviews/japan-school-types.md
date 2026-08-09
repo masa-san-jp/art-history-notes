@@ -42,6 +42,8 @@ tested:
   - {region: americas-north, by: movement/abstract-expressionism, result: revised}
   - {region: europe-west, by: movement/impressionism, result: held}
   - {region: europe-east, by: movement/suprematism, result: held}
+  - {region: americas-north, by: movement/group-of-seven, result: held}
+  - {region: europe-east, by: movement/novgorod-school-icon-painting, result: held}
 tests_regions:            # ここが埋まるまで仮説は仮説のまま（tools/audit.py が指す）
   - asia-east-china
   - asia-east-korea
@@ -116,6 +118,8 @@ tests_regions:            # ここが埋まるまで仮説は仮説のまま（t
 | 北米（2件目） | [抽象表現主義](../entities/movements/abstract-expressionism.md) | **名の拒否が2件目になり、項目にした** |
 | 西欧（4件目） | [印象派](../entities/movements/impressionism.md) | 崩れなかった。**命名の記事に転記版で到達** |
 | 東欧・ロシア（2件目） | [シュプレマティスム](../entities/movements/suprematism.md) | 崩れなかった。**自称の一次資料に到達** |
+| 北米（3件目） | [グループ・オブ・セブン](../entities/movements/group-of-seven.md) | 崩れなかった。**北米の kind 偏りを実際に崩した** |
+| 東欧・ロシア（3件目） | [ノヴゴロド派のイコン](../entities/movements/novgorod-school-icon-painting.md) | 崩れなかった。**命名が2層に分かれていた** |
 
 浙派は血縁なし・師弟希薄・官職はあるが世襲でない（各世代が個別に画院へ出入りするだけ）。
 制度としての実体が無く、括りは後世の美術史記述（董其昌『画禅室随筆』）から来ている。

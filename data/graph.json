@@ -753,6 +753,89 @@
       "updated": "2026-08-09",
       "path": "entities/movements/goryeo-buddhist-painting.md"
     },
+    "movement/group-of-seven": {
+      "id": "movement/group-of-seven",
+      "uri": "urn:ahn:movement/group-of-seven",
+      "type": "movement",
+      "label_ja": "グループ・オブ・セブン",
+      "label_en": "Group of Seven",
+      "authority": {
+        "wikidata": "Q1547741",
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "Getty AAT（getty.edu/vow/AATServlet、'Group of Seven' で検索、2026-08-09）は「0 results」。'Algonquin School'（後述、結成前の呼称）でも同様に0件。Wikidata Q1547741にもP1014（Getty AAT ID）のclaimは無い"
+      },
+      "time": {
+        "start": "1920",
+        "end": "1933",
+        "display": "1920年5月（アート・ミュージアム・オブ・トロントでの最初の展覧会）〜1933年2月（カナダ・グループ・オブ・ペインターズへの改組）"
+      },
+      "kind": "self-declared",
+      "naming": {
+        "self_identified": true,
+        "named_by": null,
+        "named_when": "1920",
+        "original_label": "the group of seven artists",
+        "note": "1920年5月7日〜27日、アート・ミュージアム・オブ・トロント（現アート・ギャラリー・オブ・オンタリオ）で開催された最初の展覧会のカタログ本文（本KBがInternet Archiveの原資料デジタル化版で直接確認、下記sources）の序文（Foreword）は、'THE group of seven artists whose pictures are here exhibited have for several years held a like vision concerning Art in Canada.'（ここに作品が展示されている7人の画家たちのグループは、数年来カナダの芸術について同じようなビジョンを共有してきた）と書き出す。ここでの表記は小文字の記述句'group of seven artists'であり、固有名としての大文字表記'Group of Seven'がこの版に印刷されていたかは確認できない——カタログの表題部分（本KBが確認できた範囲）は単に'CATALOGUE EXHIBITION OF PAINTINGS, MAY 7th-MAY 27th, 1920 ... ART MUSEUM OF TORONTO'であり、'Group of Seven'という語は登場しない。それでも、この序文は7人の画家たち自身が書き署名した文書であり、自分たちを『7人の画家からなるグループ』として集合的に名指した一次資料としては成立する。英語版Wikipediaは（二次情報として）彼らが1919年の時点で既に自分たちを'Group of Seven'と呼び始めていたとするが、その根拠となる1919年の一次資料そのものには本KBは到達できていない（**未確認**）。命名者は特定の一人ではなく、7人自身による集合的な自己記述であるため named_by は null とした"
+      },
+      "claims": [
+        {
+          "field": "kind",
+          "source": "https://ia903103.us.archive.org/28/items/groupof7catalogu00grou/groupof7catalogu00grou_djvu.txt",
+          "certainty": "attested"
+        },
+        {
+          "field": "time",
+          "source": "https://archive.org/details/groupof7catalogu00grou",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "originated_in",
+          "source": "https://archive.org/details/groupof7catalogu00grou",
+          "certainty": "scholarly"
+        }
+      ],
+      "founding_control": "internal",
+      "space": [
+        {
+          "role": "originated_in",
+          "target": "place/toronto"
+        }
+      ],
+      "relations": [],
+      "images": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/4/43/The_Tangled_Garden.jpg",
+          "source_page": "https://commons.wikimedia.org/wiki/File:The_Tangled_Garden.jpg",
+          "license": "public-domain",
+          "note": "J.E.H.マクドナルド《もつれた庭（The Tangled Garden）》1916年、油彩、カナダ国立美術館蔵。1920年の最初の展覧会カタログの82番として実際に出品された作品（カタログ本文では『not for sale（非売品）』）。作者は1932年没のためカナダで著作権保護期間満了（PD-Canada）"
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Lawren_Harris_North_Shore%2C_Lake_Superior_1926.jpg",
+          "source_page": "https://commons.wikimedia.org/wiki/File:Lawren_Harris_North_Shore,_Lake_Superior_1926.jpg",
+          "license": "public-domain",
+          "note": "ローレン・ハリス《北岸、スペリオル湖（North Shore, Lake Superior）》1926年、油彩、アート・ギャラリー・オブ・オンタリオ蔵。7人のうち最も裕福で、スタジオ・ビルディングの共同出資者でもあったハリスの代表作。作者は1970年没のためカナダで著作権保護期間満了（PD-Canada、創作者が1972年1月1日より前に死去した作品の規定に該当）"
+        }
+      ],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q1547741",
+        "https://archive.org/details/groupof7catalogu00grou",
+        "https://ia903103.us.archive.org/28/items/groupof7catalogu00grou/groupof7catalogu00grou_djvu.txt",
+        "https://en.wikipedia.org/wiki/Group_of_Seven_(artists)",
+        "https://en.wikipedia.org/wiki/Canadian_Group_of_Painters",
+        "https://en.wikipedia.org/wiki/Tom_Thomson",
+        "https://en.wikipedia.org/wiki/A._J._Casson",
+        "https://www.theartstory.org/movement/group-of-seven/",
+        "https://www.parks.canada.ca/culture/designation/evenement-event/groupe-sept-group-seven",
+        "https://commons.wikimedia.org/wiki/File:The_Tangled_Garden.jpg",
+        "https://commons.wikimedia.org/wiki/File:Lawren_Harris_North_Shore,_Lake_Superior_1926.jpg",
+        "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1335089/"
+      ],
+      "status": "draft",
+      "updated": "2026-08-09",
+      "path": "entities/movements/group-of-seven.md"
+    },
     "movement/herat-school": {
       "id": "movement/herat-school",
       "uri": "urn:ahn:movement/herat-school",
@@ -1808,6 +1891,89 @@
       "status": "draft",
       "updated": "2026-08-09",
       "path": "entities/movements/ngati-tarawhai-whakairo.md"
+    },
+    "movement/novgorod-school-icon-painting": {
+      "id": "movement/novgorod-school-icon-painting",
+      "uri": "urn:ahn:movement/novgorod-school-icon-painting",
+      "type": "movement",
+      "kind": "period-style",
+      "label_ja": "ノヴゴロド派",
+      "label_en": "Novgorod school of icon painting",
+      "authority": {
+        "wikidata": "Q2876208",
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "Getty AATServletは「Novgorod」「Novgorod school」の検索でHTTP 400を返し続けた。コントロールクエリ（「painting」単体）でも同様にHTTP 400で、2026-08-09にcurlで再現確認——これは語がAATに無いことの確認ではなく、検索サービス自体が到達不能な状態だったという意味（docs/investigation-task.mdが記す2026-08-08時点の既知の制約と一致する）"
+      },
+      "time": {
+        "start": "11XX",
+        "end": "15XX",
+        "display": "12〜16世紀（Новгородская школа, XII—XVI века）。担い手の交代と様式の変遷を伴いながら、13世紀末〜15世紀に最も特徴的な様式（明るい色面・単純化された構図）が確立したとされ、16世紀にモスクワ派へ主導権が移った"
+      },
+      "naming": {
+        "self_identified": false,
+        "named_by": null,
+        "named_when": null,
+        "original_label": "Новгородская школа",
+        "note": "当事者（中世ノヴゴロドの画家・発注者）がこの名で自らを呼んだ記録は無い。ラザレフ『Русская иконопись от истоков до начала XVI века』第1章「Открытие русской иконы и её изучение」（イコン研究史、二次情報経由の要約）によれば、地域別に「派（школа）」を区別する用法自体は19世紀の旧信仰派系収集家に遡り、D.А.ロヴィンスキー『Обозрение иконописания в России до конца XVII века』（1856年）が既に「ノヴゴロド派・ウスチュグ派・モスクワ派」を区別していたとされる。ただしこれはラザレフの言う「素人的な『писем』（筆致）概念」——収集家の経験則による区分だった。1917年革命後、イーゴリ・グラバーリの指揮下で修復委員会が組織され、出所（伝来元）が正確に分かるイコンをノヴゴロド・プスコフ・キエフなどへの発掘調査で集めたことにより、ラザレフは「素人的な『写り（письмо）』概念を厳密な科学的『学派（школа）』概念に置き換えることができた」と評価する。並行して、批評家パーヴェル・ムラートフが1912年のノヴゴロド訪問を経て早い時期の論考を準備し、1927年の著書『Les icônes russes』で西欧向けに様式面から各「派」を初めて体系的に特徴づけた（Cambridge大学出版に近いOpen Book Publishers刊行物からのWebSearch経由の要約、二次情報、一次資料未確認）。**未確認**: ロヴィンスキー1856年の原文における「ノヴゴロド派」という語の具体的な使用箇所、およびこの呼称を最初に用いたのが誰かの確定——19世紀の収集家の慣用から20世紀の学術概念への移行という経緯はラザレフの記述から読めるが、単一の命名者・命名年は特定できない"
+      },
+      "claims": [
+        {
+          "field": "kind",
+          "source": "https://en.wikipedia.org/wiki/Novgorod_school",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "time",
+          "source": "https://ru.wikipedia.org/wiki/Новгородская_школа_(древнерусское_искусство)",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "originated_in",
+          "source": "https://www.wikidata.org/wiki/Q2876208",
+          "certainty": "scholarly"
+        }
+      ],
+      "space": [
+        {
+          "role": "originated_in",
+          "target": "place/veliky-novgorod"
+        }
+      ],
+      "relations": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q2876208",
+        "https://www.wikidata.org/wiki/Q151536",
+        "https://www.wikidata.org/wiki/Q2235",
+        "https://en.wikipedia.org/wiki/Novgorod_school",
+        "https://ru.wikipedia.org/wiki/Новгородская_школа_(древнерусское_искусство)",
+        "https://ru.wikipedia.org/wiki/Русская_иконопись",
+        "https://gallerix.ru/pedia/history-of-art--novgorod-school-icon-painting/",
+        "https://russianicon.com/schools-of-russian-icon-painting-part-i/",
+        "https://www.icon-art.info/book_contents.php?lng=ru&book_id=7&chap=3&ch_l2=0",
+        "https://ru.wikipedia.org/wiki/Церковь_Спаса_Преображения_на_Ильине_улице",
+        "https://books.openbookpublishers.com/10.11647/obp.0378/ch2.xhtml",
+        "https://www.metmuseum.org/art/collection/search/437578",
+        "https://commons.wikimedia.org/wiki/File:Novgorod_School_-_Saint_Nicholas_of_Zaraysk_with_20_scenes_from_his_life_-_NG.M.01773_-_National_Museum_of_Art,_Architecture_and_Design.jpg"
+      ],
+      "images": [
+        {
+          "url": "https://images.metmuseum.org/CRDImages/ep/original/DT238453.jpg",
+          "source_page": "https://www.metmuseum.org/art/collection/search/437578",
+          "license": "cc0",
+          "note": "《栄光のキリスト（Christ in Glory）》15世紀後半（1470〜1499年）、板にテンペラ。メトロポリタン美術館は作者を「Russian (Novgorod?) Painter」と表記し、ノヴゴロド帰属には「?」を付けている——館自身が確定はしていない（isPublicDomain: true）"
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/6/67/Novgorod_School_-_Saint_Nicholas_of_Zaraysk_with_20_scenes_from_his_life_-_NG.M.01773_-_National_Museum_of_Art%2C_Architecture_and_Design.jpg",
+          "source_page": "https://commons.wikimedia.org/wiki/File:Novgorod_School_-_Saint_Nicholas_of_Zaraysk_with_20_scenes_from_his_life_-_NG.M.01773_-_National_Museum_of_Art,_Architecture_and_Design.jpg",
+          "license": "public-domain",
+          "note": "《生涯の20場面を伴う聖ニコラウス（ザライスクの）》16世紀初頭頃。ノルウェー国立美術館・建築・デザイン博物館（Nasjonalmuseet）蔵、作者を「School of Novgorod」と明記（Wikidata Q2876208をauthorityとして参照）。Wikimedia Commonsのextmetadataは LicenseShortName: Public domain / Copyrighted: false"
+        }
+      ],
+      "status": "draft",
+      "updated": "2026-08-09",
+      "path": "entities/movements/novgorod-school-icon-painting.md"
     },
     "movement/ottoman-miniature": {
       "id": "movement/ottoman-miniature",
@@ -4385,6 +4551,38 @@
       "updated": "2026-08-09",
       "path": "entities/places/tabriz.md"
     },
+    "place/toronto": {
+      "id": "place/toronto",
+      "uri": "urn:ahn:place/toronto",
+      "type": "place",
+      "label_ja": "トロント",
+      "label_en": "Toronto",
+      "authority": {
+        "wikidata": "Q172",
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": null,
+        "end": null,
+        "display": null
+      },
+      "region": "americas-north",
+      "coordinates": [
+        43.653225,
+        -79.383186
+      ],
+      "space": [],
+      "relations": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q172"
+      ],
+      "status": "stub",
+      "updated": "2026-08-09",
+      "path": "entities/places/toronto.md"
+    },
     "place/tovkhon-monastery": {
       "id": "place/tovkhon-monastery",
       "uri": "urn:ahn:place/tovkhon-monastery",
@@ -4480,6 +4678,38 @@
       "status": "stub",
       "updated": "2026-08-09",
       "path": "entities/places/ulaanbaatar.md"
+    },
+    "place/veliky-novgorod": {
+      "id": "place/veliky-novgorod",
+      "uri": "urn:ahn:place/veliky-novgorod",
+      "type": "place",
+      "label_ja": "ノヴゴロド",
+      "label_en": "Veliky Novgorod",
+      "authority": {
+        "wikidata": "Q2235",
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": null,
+        "end": null,
+        "display": null
+      },
+      "region": "europe-east",
+      "coordinates": [
+        58.52099,
+        31.27579
+      ],
+      "space": [],
+      "relations": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q2235"
+      ],
+      "status": "stub",
+      "updated": "2026-08-09",
+      "path": "entities/places/veliky-novgorod.md"
     },
     "place/zaria": {
       "id": "place/zaria",
@@ -4701,6 +4931,11 @@
       "to": "place/kaesong"
     },
     {
+      "from": "movement/group-of-seven",
+      "type": "originated_in",
+      "to": "place/toronto"
+    },
+    {
       "from": "movement/herat-school",
       "type": "diffused_to",
       "to": "place/tabriz",
@@ -4854,6 +5089,11 @@
       "from": "movement/ngati-tarawhai-whakairo",
       "type": "originated_in",
       "to": "place/lake-okataina"
+    },
+    {
+      "from": "movement/novgorod-school-icon-painting",
+      "type": "originated_in",
+      "to": "place/veliky-novgorod"
     },
     {
       "from": "movement/ottoman-miniature",

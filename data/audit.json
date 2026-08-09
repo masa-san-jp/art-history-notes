@@ -2,16 +2,6 @@
   "findings": [
     {
       "kind": "kind-bias",
-      "about": "americas-north",
-      "text": "americas-north の movement 2件が全部 retrospective。kind が地域の言い換えになっていないか、別の kind の例を1件探す"
-    },
-    {
-      "kind": "kind-bias",
-      "about": "europe-east",
-      "text": "europe-east の movement 2件が全部 self-declared。kind が地域の言い換えになっていないか、別の kind の例を1件探す"
-    },
-    {
-      "kind": "kind-bias",
       "about": "europe-west",
       "text": "europe-west の movement 3件が全部 retrospective。kind が地域の言い換えになっていないか、別の kind の例を1件探す"
     },
