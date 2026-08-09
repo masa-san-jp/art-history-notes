@@ -14,6 +14,7 @@
   3. kind の地域偏り — ある文化圏の movement が1種類の kind だけ。kind が地域の言い換えに堕ちている疑い
   4. 仮説の未検証 — 俯瞰が挙げた反証先の文化圏が空のまま（＝崩しに行っていない）
   5. 片側だけの継承 — derives_from の先が stub のまま（辿れる先が空）
+  6. 文化圏を跨ぐ関係の欠如 — 他の文化圏の movement と1本も繋がっていない（島として扱っている）
 
 これらは commit を止めない（壊れてはいないので）。**次に何を調べるかの材料として出す。**
 """
@@ -132,12 +133,50 @@ def check_dangling_lineage(entities, edges, findings):
                                      f"{target['label_ja']} が stub のまま（辿れない）"})
 
 
+def check_cross_region_links(entities, edges, findings):
+    """他の文化圏の movement と1本も繋がっていない movement。
+
+    時間軸だけでなく空間的な広がりと関連性を体系化するのが目的なので、どの文化圏とも繋がっていない
+    ものは「その文化圏を孤立した島として扱っている」状態を意味する。影響・伝播・反発を調べていない
+    可能性が高い。壊れてはいないので commit は止めず、次に何を調べるかの材料として出す。
+    """
+    total, isolated = 0, defaultdict(list)
+    for eid, meta in sorted(entities.items()):
+        if meta.get("type") != "movement" or meta.get("status") == "stub":
+            continue
+        own = set(regions_of(eid, entities))
+        if not own:
+            continue
+        total += 1
+        linked = set()
+        for e in edges:
+            other = e["to"] if e["from"] == eid else (e["from"] if e["to"] == eid else None)
+            if not other or (entities.get(other) or {}).get("type") != "movement":
+                continue
+            linked |= set(regions_of(other, entities))
+        if not (linked - own):
+            for r in own:
+                isolated[r].append(meta["label_ja"])
+    if not isolated:
+        return
+    n = sum(len(v) for v in isolated.values())
+    # 1件ずつ並べると全件が並んで読めなくなるので、文化圏ごとの件数に畳む。
+    findings.append({"kind": "no-cross-region", "about": "all",
+                     "text": f"他の文化圏の movement と1本も繋がっていない movement が {n}/{total} 件。"
+                             "時間だけでなく空間の広がりを体系化するので、影響・伝播・反発を調べる余地"})
+    for region, names in sorted(isolated.items(), key=lambda x: -len(x[1])):
+        findings.append({"kind": "no-cross-region", "about": region,
+                         "text": f"{region}: {len(names)}件（{'、'.join(names[:4])}"
+                                 f"{' ほか' if len(names) > 4 else ''}）"})
+
+
 def render(findings):
     if not findings:
         return "食い違い・偏りの指摘はなし。"
-    order = ["time-order", "type-mismatch", "kind-bias", "hypothesis", "dead-end"]
+    order = ["time-order", "type-mismatch", "kind-bias", "hypothesis", "dead-end", "no-cross-region"]
     label = {"time-order": "時間の矛盾", "type-mismatch": "型の食い違い", "kind-bias": "kind の地域偏り",
-             "hypothesis": "仮説が未検証", "dead-end": "辿れない先"}
+             "hypothesis": "仮説が未検証", "dead-end": "辿れない先",
+             "no-cross-region": "文化圏を跨ぐ関係が無い"}
     lines = []
     for k in order:
         rows = [f for f in findings if f["kind"] == k]
@@ -163,6 +202,7 @@ def main():
     check_kind_bias(entities, cfg, findings)
     check_hypotheses(entities, cfg, findings)
     check_dangling_lineage(entities, edges, findings)
+    check_cross_region_links(entities, edges, findings)
 
     print(render(findings))
     if not a.dry_run:

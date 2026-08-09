@@ -81,6 +81,16 @@ def validate(entities, records, cfg, errors):
         if meta.get("founding_control") and meta["founding_control"] not in FOUNDING_CONTROL:
             err(f"founding_control は {sorted(FOUNDING_CONTROL)} のどれか（今: {meta['founding_control']}）")
 
+        for ch in meta.get("control_changes") or []:
+            if not edtf_ok(ch.get("year")):
+                err(f"control_changes の year が EDTF に合わない: {ch.get('year')!r}")
+            if ch.get("to") not in FOUNDING_CONTROL:
+                err(f"control_changes の to は {sorted(FOUNDING_CONTROL)} のどれか（今: {ch.get('to')}）")
+            if not (ch.get("trigger") or "").strip():
+                err("control_changes には trigger が必須（何が決定者を入れ替えたか）")
+        if meta.get("control_changes") and not meta.get("founding_control"):
+            err("control_changes を書くなら founding_control（成立時点の値）も要る")
+
         for img in meta.get("images") or []:
             if not img.get("url"):
                 err("images の各項目に url が要る")

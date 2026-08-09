@@ -28,7 +28,6 @@ claims:
 space:
   - {role: originated_in, target: place/paris}
 relations:
-  - {type: grouped_as, target: movement/post-impressionism, certainty: scholarly, source: "https://www.wikidata.org/wiki/Q1044742"}
   - {type: diffused_to, target: place/brussels, certainty: scholarly, source: "https://en.wikipedia.org/wiki/Les_Vingt"}
 sources:
   - https://www.wikidata.org/wiki/Q150091
@@ -122,6 +121,25 @@ Gallica収録の実物（[ark:/12148/bpt6k850398w](https://gallica.bnf.fr/ark:/1
 `kind: retrospective` とした（元は `self-declared` としていたが誤りだった——命名者は
 参加者ではなく批評家だったため訂正した）。①②が無く③のみで括られ、名は外部から来ている——
 印象派・ポスト印象派と同じ側に立つ。枠は当てはまり、型を増やす必要はない。
+
+### 4. ポスト印象派に含まれるかどうかは、典拠同士が食い違っている
+
+新印象派を[ポスト印象派](post-impressionism.md)の内側に置くかどうかで、権威ある典拠が真逆を述べている。
+
+- **Getty AAT**（300021508）のスコープノートは、ポスト印象派を「時期としては印象派に続くが、
+  **新印象派とは別のもの**（distinct from Neo-Impressionism）」と明記する。
+- **テート**は、スーラの分割主義をポスト印象派の主要人物たちが広げた方向の一つとして扱い、
+  新印象派を含む側に立つ。
+
+どちらが正しいかは、ポスト印象派という後付けの括りをどこまで広く引くかという線引きの問題で、
+新事実で決まるものではない。**ここでは所属関係としては書かない**——一方の立場を採ると、
+他方を典拠として使えなくなる。
+
+なお、フライが1910年11月の展覧会「Manet and the Post-Impressionists」で名付けた時点で、
+括られた4人（セザンヌ・ゴーガン・ファン・ゴッホ・スーラ）は**全員が既に没している**
+（スーラは1891年没）。スーラ本人がこの括りを引き受ける／拒む機会は無かった。
+**未確認**: 1910年の第1回展にスーラの作品が実際に出品されていたかは二次資料の記述が割れている
+（1912年の第2回展のフランス部門にクロス・リュス・シニャックが含まれたことは確認できた）。
 
 ## 時間
 

@@ -419,6 +419,83 @@
       "updated": "2026-08-09",
       "path": "entities/movements/baghdad-modern-art-group.md"
     },
+    "movement/bandung-school": {
+      "id": "movement/bandung-school",
+      "uri": "urn:ahn:movement/bandung-school",
+      "type": "movement",
+      "kind": "retrospective",
+      "label_ja": "バンドン派",
+      "label_en": "Bandung School",
+      "authority": {
+        "wikidata": "Q65214081",
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": "195X",
+        "end": null,
+        "display": "1947年（オランダ植民地政庁の認可でバンドン工科大学前身に美術教員養成課程が開設）〜1950年代（アフマド・サダリらインドネシア人第一世代の様式的成立、1954年に名称論争）〜1970年代（スナルヨ・A.D.ピロウスらによる第二世代、DECENTA結成）。「バンドン派」という括りそのものの終期を示す資料は確認できていない"
+      },
+      "control_changes": [
+        {
+          "year": "1959",
+          "to": "internal",
+          "trigger": "西ニューギニア紛争でオランダ人教員が国籍選択を迫られて離任し、同年ITBがインドネシアの国立大学として独立、初世代のインドネシア人卒業生が教員となってカリキュラムと人事を担った"
+        }
+      ],
+      "founding_control": "external",
+      "naming": {
+        "self_identified": false,
+        "named_by": "person/trisno-soemardjo",
+        "named_when": "1954",
+        "original_label": "aliran Ries Mulder / laboratorium Eropa（Barat）",
+        "note": "現在通用する「Mazhab Bandung（バンドン派）」という語そのものを最初に使った個人・年は確認できていない。確認できる最初の名づけの行為は、美術批評家トリスノ・スマルジョが1954年、ラジオ番組でバンドン工科大学出身の画家たちの展覧会を批評し「aliran Ries Mulder（ミュルダーの流派）」と呼び、その作風を「laboratorium Eropa（ヨーロッパの実験室）」と評したことである（インドネシア語版Wikipediaは同じ趣旨を『laboratorium Barat（西洋の実験室）』と表現し、年を1953年とする——年について複数の二次資料が1953年説と1954年説に割れる。本KBはスジョコの公開反論の発行日〔1954年12月19日、雑誌シアサット393号〕が確認できることから1954年説を採った）。この名づけは当事者による自称ではなく、批評家による否定的な評価として外部から与えられたものであり、当事者側がバンドン工科大学出身の画家たちを『Mazhab Bandung』と自称した記録は確認できていない"
+      },
+      "claims": [
+        {
+          "field": "kind",
+          "source": "https://sejarahbersama.id/2021/06/04/kritik-kritik-terhadap-pelukis-pelukis-bandung/",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "time",
+          "source": "https://id.wikipedia.org/wiki/Mazhab_Bandung_(seni)",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "originated_in",
+          "source": "https://en.wikipedia.org/wiki/Ries_Mulder",
+          "certainty": "scholarly"
+        }
+      ],
+      "space": [
+        {
+          "role": "originated_in",
+          "target": "place/bandung"
+        }
+      ],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/ries-mulder"
+        }
+      ],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q65214081",
+        "https://id.wikipedia.org/wiki/Mazhab_Bandung_(seni)",
+        "https://en.wikipedia.org/wiki/Ries_Mulder",
+        "https://sejarahbersama.id/2021/06/04/kritik-kritik-terhadap-pelukis-pelukis-bandung/",
+        "https://historia.id/article/mula-pertentangan-dua-kubu",
+        "https://en.wikipedia.org/wiki/Bandung_Institute_of_Technology",
+        "https://www.itb.ac.id/history",
+        "https://en.wikipedia.org/wiki/Mochtar_Apin"
+      ],
+      "status": "draft",
+      "updated": "2026-08-09",
+      "path": "entities/movements/bandung-school.md"
+    },
     "movement/barbizon-school": {
       "id": "movement/barbizon-school",
       "uri": "urn:ahn:movement/barbizon-school",
@@ -815,6 +892,86 @@
       "updated": "2026-08-09",
       "path": "entities/movements/dansaekhwa.md"
     },
+    "movement/ecole-de-dakar": {
+      "id": "movement/ecole-de-dakar",
+      "uri": "urn:ahn:movement/ecole-de-dakar",
+      "type": "movement",
+      "kind": "retrospective",
+      "label_ja": "ダカール派",
+      "label_en": "École de Dakar",
+      "authority": {
+        "wikidata": "Q3577793",
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": "1960",
+        "end": "1974",
+        "display": "1960年（セネガル独立とサンゴール政権の文化政策の開始）〜1974年。Wikidata Q3577793 の P571・P576 はいずれも precision 9（年単位）で1960年・1974年を指し、英語版Wikipediaも『独立の幕開け、1960年から1974年の間』とする。ただし研究側の区切りは一致しておらず、c.1959–1980 とする論文もある（本文『時間』参照）"
+      },
+      "naming": {
+        "self_identified": false,
+        "named_by": null,
+        "named_when": null,
+        "original_label": "École de Dakar",
+        "note": "『École de Dakar（ダカール派）』という語を最初に用いた個人・文献・年は、当たった範囲では確定できなかった——**未確認**。確認できるのは、この語が当事者の自称としてではなく、外から緩くまとめる呼び名として流通しているという点である。当時この人々が自分たちの活動に付けていた名は機関の名（École des Arts du Sénégal、その中の Section Recherches Plastiques Nègres）であり、集団の自称ではない。エリザベス・ハーニー『In Senghor's Shadow』（Duke University Press, 2004）は、この名のもとに緩く括られた作家たちが厳密に規定された芸術的ヴィジョンに従っていたわけではない、と論じるとされる（本KBは同書を未読——書評・紹介文経由の二次要約）。同じ綴りの『École de Dakar』はセネガルで少なくとも他に2つの意味を持ち（歴史学者シェイク・アンタ・ジョップの周辺＝Wikidata Q3577792、および精神科医アンリ・コロン周辺の学派）、フランス語版Wikipediaの該当項目は曖昧さ回避ページになっている"
+      },
+      "founding_control": "internal",
+      "claims": [
+        {
+          "field": "time",
+          "source": "https://en.wikipedia.org/wiki/Dakar_School",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "kind",
+          "source": "https://en.wikipedia.org/wiki/Iba_Ndiaye",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "originated_in",
+          "source": "https://www.wikidata.org/wiki/Q3577793",
+          "certainty": "scholarly"
+        }
+      ],
+      "space": [
+        {
+          "role": "originated_in",
+          "target": "place/dakar"
+        }
+      ],
+      "relations": [
+        {
+          "type": "part_of",
+          "target": "movement/negritude"
+        },
+        {
+          "type": "created_by",
+          "target": "person/papa-ibra-tall"
+        },
+        {
+          "type": "created_by",
+          "target": "person/iba-ndiaye"
+        },
+        {
+          "type": "created_by",
+          "target": "person/pierre-lods"
+        }
+      ],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q3577793",
+        "https://en.wikipedia.org/wiki/Dakar_School",
+        "https://en.wikipedia.org/wiki/Papa_Ibra_Tall",
+        "https://en.wikipedia.org/wiki/Iba_Ndiaye",
+        "https://momaa.org/ecole-de-dakar-senegals-negritude-aesthetic/",
+        "https://www.tate.org.uk/art/art-terms/n/negritude"
+      ],
+      "status": "draft",
+      "updated": "2026-08-09",
+      "path": "entities/movements/ecole-de-dakar.md"
+    },
     "movement/ecole-de-tunis": {
       "id": "movement/ecole-de-tunis",
       "uri": "urn:ahn:movement/ecole-de-tunis",
@@ -834,6 +991,13 @@
         "end": null,
         "display": "1936年（画家4人による『グループ・デ・キャトル』結成）〜1947年（『グループ・デ・ディス』への拡大）〜1949年（『チュニス派』として正式に会長職を置いて発足）。解散年は確認できていない"
       },
+      "control_changes": [
+        {
+          "year": "1956",
+          "to": "internal",
+          "trigger": "チュニジア独立に伴い、会長職がフランス人ブーシェルルからチュニジア人ヤヒア・トゥルキへ引き継がれた"
+        }
+      ],
       "founding_control": "shared",
       "naming": {
         "self_identified": true,
@@ -2300,6 +2464,74 @@
       "updated": "2026-08-09",
       "path": "entities/movements/mughal-painting.md"
     },
+    "movement/negritude": {
+      "id": "movement/negritude",
+      "uri": "urn:ahn:movement/negritude",
+      "type": "movement",
+      "kind": "self-declared",
+      "label_ja": "ネグリチュード",
+      "label_en": "Négritude",
+      "authority": {
+        "wikidata": "Q852544",
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": "1935~",
+        "end": null,
+        "display": "1931年（サンゴール・セゼール・ダマスがパリで出会う）〜1934年または1935年（雑誌『L'Étudiant noir（黒人学生）』創刊、この語の初出）〜。終期を示す資料は確認できていない（本文『時間』参照）"
+      },
+      "naming": {
+        "self_identified": true,
+        "named_by": "person/aime-cesaire",
+        "named_when": "1935~",
+        "original_label": "Négritude",
+        "note": "語をつくったのは当事者自身。エメ・セゼール（マルティニーク出身の詩人）が雑誌『L'Étudiant noir』の創刊にあたって作った語で、フランス語で黒人を指し人種差別語に堕していた『nègre』を、当事者の側からあえて名乗り直したもの（[plato.stanford.edu/entries/negritude/](https://plato.stanford.edu/entries/negritude/)）。年は資料間で割れる——スタンフォード哲学百科事典は『1934–1935』、アメリカ詩人アカデミーは創刊を『1934年』とする。本KBは EDTF で `1935~`（およそ1935年）を採り、幅を display に残した。命名の年が確定しないため named_when も `1935~` にしている"
+      },
+      "founding_control": "internal",
+      "claims": [
+        {
+          "field": "kind",
+          "source": "https://plato.stanford.edu/entries/negritude/",
+          "certainty": "attested"
+        },
+        {
+          "field": "time",
+          "source": "https://poets.org/text/brief-guide-negritude",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "originated_in",
+          "source": "https://www.tate.org.uk/art/art-terms/n/negritude",
+          "certainty": "scholarly"
+        }
+      ],
+      "space": [
+        {
+          "role": "originated_in",
+          "target": "place/paris"
+        }
+      ],
+      "relations": [
+        {
+          "type": "influenced_by",
+          "target": "movement/harlem-renaissance",
+          "certainty": "scholarly",
+          "source": "https://plato.stanford.edu/entries/negritude/"
+        }
+      ],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q852544",
+        "https://plato.stanford.edu/entries/negritude/",
+        "https://www.tate.org.uk/art/art-terms/n/negritude",
+        "https://poets.org/text/brief-guide-negritude"
+      ],
+      "status": "draft",
+      "updated": "2026-08-09",
+      "path": "entities/movements/negritude.md"
+    },
     "movement/neo-impressionism": {
       "id": "movement/neo-impressionism",
       "uri": "urn:ahn:movement/neo-impressionism",
@@ -2350,12 +2582,6 @@
         }
       ],
       "relations": [
-        {
-          "type": "grouped_as",
-          "target": "movement/post-impressionism",
-          "certainty": "scholarly",
-          "source": "https://www.wikidata.org/wiki/Q1044742"
-        },
         {
           "type": "diffused_to",
           "target": "place/brussels",
@@ -2878,39 +3104,56 @@
         "none_reason": null
       },
       "time": {
-        "start": null,
-        "end": null,
-        "display": "括られる対象の活動期はおよそ1880年代〜1900年代（範囲は論者によって動く）"
+        "start": "1886",
+        "end": "1906~",
+        "display": "1886年（第8回印象派展、パリ）〜1906年頃（セザンヌの死）。範囲は論者によって前後に動く"
       },
       "naming": {
         "self_identified": false,
-        "named_by": null,
-        "named_when": "1910?",
-        "original_label": "Post-Impressionism",
-        "note": "1910年ロンドンのグラフトン・ギャラリーズ展（Roger Fry 企画）の展覧会名に由来するとされる。命名者・命名年とも一次資料は未確認。当事者がこの名で名乗った例を確認していない"
+        "named_by": "person/roger-fry",
+        "named_when": "1910",
+        "original_label": "Post-Impressionists",
+        "note": "1910年11月8日〜1911年1月15日、ロンドン・グラフトン・ギャラリーズでロジャー・フライが企画した展覧会「Manet and the Post-Impressionists」の題名に由来する。フライ自身が1920年の評論集『Vision and Design』所収のエッセイ「Retrospect」で命名の経緯を直接書いている（Project Gutenberg全文で確認）——「便宜のため（for purposes of convenience）」「もっとも曖昧で無難な語として（as being the vaguest and most non-committal）」Post-Impressionistの語を選んだ、と本人が明言している。命名者が本人以外（MacCarthy等）だとする説は見当たらず、一次資料はフライ自身の証言のみ。一方『準備が最終日未明4時までかかる突貫作業で、展覧会名も土壇場で決まった』という逸話は複数の二次文献（TheCollector等）が共通して伝えるが、その一次資料（書簡・回想録の該当箇所）には到達できていない——未確認のまま残す。なお Getty AAT のスコープノートは命名者を『art critics Roger Fry, Clive Bell and others』と複数形で記し、フライ単独の命名としていない。named_by はフライ自身の証言があるためフライに置いたが、同時代の批評家集団の中で使われ始めた語である可能性を排除しない"
       },
-      "claims": [],
-      "space": [],
+      "claims": [
+        {
+          "field": "kind",
+          "source": "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300021508",
+          "certainty": "scholarly"
+        }
+      ],
+      "space": [
+        {
+          "role": "originated_in",
+          "target": "place/paris"
+        }
+      ],
       "relations": [],
       "sources": [
-        "https://www.wikidata.org/wiki/Q166713"
+        "https://www.wikidata.org/wiki/Q166713",
+        "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300021508",
+        "https://www.gutenberg.org/files/54154/54154-h/54154-h.htm",
+        "https://www.tate.org.uk/art/art-terms/p/post-impressionism",
+        "https://www.thecollector.com/manet-and-the-post-impressionists-roger-frys-1910-exhibition/",
+        "https://www.metmuseum.org/art/collection/search/435868",
+        "https://www.metmuseum.org/art/collection/search/436535"
       ],
       "images": [
         {
-          "url": "https://www.artic.edu/iiif/2/6644829f-f292-c5c4-a73c-0356a6fdbf0d/full/843,/0/default.jpg",
-          "source_page": "https://www.artic.edu/artworks/28560",
+          "url": "https://images.metmuseum.org/CRDImages/ep/original/DP231550.jpg",
+          "source_page": "https://www.metmuseum.org/art/collection/search/435868",
           "license": "cc0",
-          "note": "フィンセント・ファン・ゴッホ《寝室》1889年。ポスト印象派に括られる中心的作家の1点。シカゴ美術館蔵（is_public_domain: true）"
+          "note": "ポール・セザンヌ《カード遊びをする人々（The Card Players）》1890-92年。メトロポリタン美術館蔵（isPublicDomain: true）"
         },
         {
-          "url": "https://www.artic.edu/iiif/2/52ac8996-3460-cf71-cb42-5c4d0aa29b74/full/843,/0/default.jpg",
-          "source_page": "https://www.artic.edu/artworks/111436",
+          "url": "https://images.metmuseum.org/CRDImages/ep/original/DP-42549-001.jpg",
+          "source_page": "https://www.metmuseum.org/art/collection/search/436535",
           "license": "cc0",
-          "note": "ポール・セザンヌ《リンゴの籠》c. 1893年。ポスト印象派に括られる中心的作家の1点。シカゴ美術館蔵（is_public_domain: true）"
+          "note": "フィンセント・ファン・ゴッホ《糸杉のある麦畑（Wheat Field with Cypresses）》1889年。メトロポリタン美術館蔵（isPublicDomain: true）"
         }
       ],
-      "status": "stub",
-      "updated": "2026-08-08",
+      "status": "draft",
+      "updated": "2026-08-09",
       "path": "entities/movements/post-impressionism.md"
     },
     "movement/rinpa": {
@@ -3543,6 +3786,96 @@
       "updated": "2026-08-09",
       "path": "entities/movements/utagawa-school.md"
     },
+    "movement/venetian-school": {
+      "id": "movement/venetian-school",
+      "uri": "urn:ahn:movement/venetian-school",
+      "type": "movement",
+      "kind": "period-style",
+      "label_ja": "ヴェネツィア派",
+      "label_en": "Venetian School",
+      "authority": {
+        "wikidata": "Q610687",
+        "aat": "300440789",
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": "14XX",
+        "end": "1797",
+        "display": "15世紀後半（ジェンティーレ・ベッリーニ／ジョヴァンニ・ベッリーニの盛期）〜1797年（ヴェネツィア共和国の消滅、その4年前の1793年にフランチェスコ・グアルディが没）。14世紀のパオロ・ヴェネツィアーノは様式的に別系統（ビザンティン＝ゴシック）の先駆者として扱われることが多い"
+      },
+      "naming": {
+        "self_identified": false,
+        "named_by": null,
+        "named_when": null,
+        "original_label": "ヴェネツィア派",
+        "note": "当事者（15〜18世紀ヴェネツィアの画家）がこの名で自らを呼んだ記録は無い。史料上たどれる最初の一歩は、カルロ・リドルフィ『芸術の驚異、あるいはヴェネツィアおよびその領邦の高名な画家たちの生涯』（Le maraviglie dell'arte, overo le vite degli illustri pittori veneti, e dello stato、1648年）——ジョルジョ・ヴァザーリ『美術家列伝』（1550／1568年）がトスカーナの画家を厚く扱いヴェネツィアの画家を手薄にしたことへの意識的な対抗として書かれ、ヴェネツィアの画家たちに「トスカーナの画家と対等な尊厳」を与えることを狙った（Taylor & Francis収録、Julia Dabbsによる紹介）。ただしリドルフィの表題はまだ『pittori veneti（ヴェネツィアの画家たち）』であり『scuola（派）』の語は使っていない。次の一歩はアントン・マリア・ツァネッティ（子）『ヴェネツィア絵画とヴェネツィアの巨匠たちの公共の仕事について』（Della pittura veneziana e delle opere pubbliche de' veneziani maestri、1771年）——ヴェネツィア絵画だけを単独主題に据えた最初期の通史とされる。ルイジ・ランツィ『イタリア絵画史』（Storia pittorica della Italia）は初版（1792年）ではフィレンツェ・シエナ・ローマ・ナポリの4派のみを扱ったが、1796年の完全版で全土に拡張され、その中でヴェネツィアを他の地方（ロンバルディア、ボローニャ、ジェノヴァ等）と並ぶ一つの『scuola veneziana』として体系的に位置づけた。二次情報（Academia.edu掲載論文）はランツィがツァネッティの方法論を明示的に手本にしたと記す。**未確認**: 『scuola veneziana』という語そのものを一次資料上で最初に用いた個人・年——リドルフィ→ツァネッティ→ランツィという史料の連鎖は追えるが、単一の命名者に絞り込む一次資料には当たっていない。もう一点、ヴェネツィアでは『scuola』は同時に在俗信心会（コンフラテルニタ）を指す語でもあり（スクオラ・グランデ・ディ・サン・ロッコ等）、これは絵画を発注した実在の制度であって、後代の様式区分としての『スクオラ・ヴェネツィアーナ（ヴェネツィア派）』とは別の事実である——本文『定義と範囲』で両者を分けて記した"
+      },
+      "claims": [
+        {
+          "field": "kind",
+          "source": "https://en.wikipedia.org/wiki/Scuole_Grandi_di_Venezia",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "time",
+          "source": "https://en.wikipedia.org/wiki/Venetian_painting",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "originated_in",
+          "source": "https://www.wikidata.org/wiki/Q610687",
+          "certainty": "scholarly"
+        }
+      ],
+      "space": [
+        {
+          "role": "originated_in",
+          "target": "place/venice"
+        }
+      ],
+      "relations": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q610687",
+        "https://www.wikidata.org/wiki/Q641",
+        "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&subjectid=300440789",
+        "https://en.wikipedia.org/wiki/Venetian_painting",
+        "https://en.wikipedia.org/wiki/Venetian_School",
+        "https://en.wikipedia.org/wiki/Scuole_Grandi_di_Venezia",
+        "https://en.wikipedia.org/wiki/Scuola_Grande_di_San_Rocco",
+        "https://www.conoscerevenezia.it/?p=25801",
+        "https://en.wikipedia.org/wiki/Paolo_Veneziano",
+        "https://en.wikipedia.org/wiki/Antonio_Vivarini",
+        "https://en.wikipedia.org/wiki/Bartolomeo_Vivarini",
+        "https://en.wikipedia.org/wiki/Alvise_Vivarini",
+        "https://en.wikipedia.org/wiki/Jacopo_Bellini",
+        "https://en.wikipedia.org/wiki/Gentile_Bellini",
+        "https://it.wikipedia.org/wiki/Le_Maraviglie_dell%27arte",
+        "https://www.taylorfrancis.com/chapters/mono/10.4324/9781315091815-10/carlo-ridolfi-1594-lonigo-1658-venice-le-maraviglie-dell-arte-overo-le-vite-de-gl-illustri-pittori-veneti-dello-stato-1648-julia-dabbs",
+        "https://en.wikipedia.org/wiki/Luigi_Lanzi",
+        "https://www.academia.edu/37111049/Luigi_Lanzi_e_le_scuole_pittoriche",
+        "https://www.theartstory.org/movement/venetian-school/",
+        "https://www.ebsco.com/research-starters/visual-arts/venetian-school-painting"
+      ],
+      "status": "draft",
+      "updated": "2026-08-09",
+      "images": [
+        {
+          "url": "https://images.metmuseum.org/CRDImages/ep/original/DP-28918-001.jpg",
+          "source_page": "https://www.metmuseum.org/art/collection/search/437827",
+          "license": "cc0",
+          "note": "ティツィアーノ《ヴィーナスとリュート奏者》（Venus and the Lute Player）1565〜70年頃、カンヴァスに油彩。メトロポリタン美術館蔵（isPublicDomain: true）"
+        },
+        {
+          "url": "https://images.metmuseum.org/CRDImages/ep/original/DP239507.jpg",
+          "source_page": "https://www.metmuseum.org/art/collection/search/437820",
+          "license": "cc0",
+          "note": "ヤコポ・ティントレット（ヤコポ・ロブスティ）《モーセの発見》（The Finding of Moses）1560年代？、カンヴァスに油彩。メトロポリタン美術館蔵（isPublicDomain: true）"
+        }
+      ],
+      "path": "entities/movements/venetian-school.md"
+    },
     "movement/wu-school": {
       "id": "movement/wu-school",
       "uri": "urn:ahn:movement/wu-school",
@@ -3978,6 +4311,44 @@
       "updated": "2026-08-09",
       "path": "entities/orgs/igun-eronmwon.md"
     },
+    "org/itb": {
+      "id": "org/itb",
+      "uri": "urn:ahn:org/itb",
+      "type": "org",
+      "label_ja": "バンドン工科大学",
+      "label_en": "Institut Teknologi Bandung",
+      "authority": {
+        "wikidata": "Q1579397",
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "coordinates": [
+        -6.889852,
+        107.609968
+      ],
+      "time": {
+        "start": "1920",
+        "end": "..",
+        "display": "1920年（オランダ植民地政庁がバンドン工業高等学校 Technische Hoogeschool te Bandoengとして設立）〜1959年3月2日（インドネシア政府によりバンドン工科大学として独立の国立大学に改組）〜現在"
+      },
+      "space": [
+        {
+          "role": "sited_in",
+          "target": "place/bandung"
+        }
+      ],
+      "relations": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q1579397",
+        "https://en.wikipedia.org/wiki/Bandung_Institute_of_Technology",
+        "https://www.itb.ac.id/history"
+      ],
+      "status": "draft",
+      "updated": "2026-08-09",
+      "path": "entities/orgs/itb.md"
+    },
     "org/societe-anonyme-artistes": {
       "id": "org/societe-anonyme-artistes",
       "uri": "urn:ahn:org/societe-anonyme-artistes",
@@ -4039,6 +4410,35 @@
       "status": "stub",
       "updated": "2026-08-09",
       "path": "entities/persons/abanindranath-tagore.md"
+    },
+    "person/aime-cesaire": {
+      "id": "person/aime-cesaire",
+      "uri": "urn:ahn:person/aime-cesaire",
+      "type": "person",
+      "label_ja": "エメ・セゼール",
+      "label_en": "Aimé Césaire",
+      "authority": {
+        "wikidata": "Q223955",
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": "1913-06-26",
+        "end": "2008-04-17",
+        "display": "1913年6月26日 マルティニーク・バス＝ポワント生まれ – 2008年4月17日 フォール＝ド＝フランス没。Wikidata Q223955 は生年月日に 1913-06-26・1913-06-25・1913（年のみ）の3つの値を持つ（本KBは precision 11 で参照点数の多い6月26日を採った）"
+      },
+      "space": [],
+      "relations": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q223955",
+        "https://plato.stanford.edu/entries/negritude/",
+        "https://poets.org/text/brief-guide-negritude"
+      ],
+      "status": "draft",
+      "updated": "2026-08-09",
+      "path": "entities/persons/aime-cesaire.md"
     },
     "person/dong-qichang": {
       "id": "person/dong-qichang",
@@ -4239,6 +4639,9 @@
       "type": "person",
       "label_ja": "アンリ・レーマン",
       "label_en": "Henri Lehmann",
+      "aliases": [
+        "person/heinrich-salem-lehmann"
+      ],
       "authority": {
         "wikidata": "Q240483",
         "ulan": "500032345",
@@ -4249,21 +4652,54 @@
       "time": {
         "start": "1814-04-14",
         "end": "1882-03-30",
-        "display": null
+        "display": "1814年4月14日（キール、当時のホルシュタイン公国）〜1882年3月30日（パリ8区）"
       },
       "space": [
         {
           "role": "active_in",
           "target": "place/paris"
+        },
+        {
+          "role": "died_in",
+          "target": "place/paris"
         }
       ],
       "relations": [],
       "sources": [
-        "https://www.wikidata.org/wiki/Q240483"
+        "https://www.wikidata.org/wiki/Q240483",
+        "https://en.wikipedia.org/wiki/Henri_Lehmann"
       ],
-      "status": "stub",
-      "updated": "2026-08-08",
+      "status": "draft",
+      "updated": "2026-08-09",
       "path": "entities/persons/henri-lehmann.md"
+    },
+    "person/iba-ndiaye": {
+      "id": "person/iba-ndiaye",
+      "uri": "urn:ahn:person/iba-ndiaye",
+      "type": "person",
+      "label_ja": "イバ・ンディアイ",
+      "label_en": "Iba Ndiaye",
+      "authority": {
+        "wikidata": "Q2058575",
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": "1928-05-28",
+        "end": "2008-10",
+        "display": "1928年5月28日 セネガル・サンルイ生まれ – 2008年10月 パリ没。没日は Wikidata Q2058575 が 2008-10-05・2008-10-04・2008-09-27 の3つの値を持ち一致しない（本KBは EDTF を月までに丸めた）"
+      },
+      "space": [],
+      "relations": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q2058575",
+        "https://en.wikipedia.org/wiki/Iba_Ndiaye"
+      ],
+      "status": "draft",
+      "updated": "2026-08-09",
+      "path": "entities/persons/iba-ndiaye.md"
     },
     "person/kazimir-malevich": {
       "id": "person/kazimir-malevich",
@@ -4441,6 +4877,34 @@
       "updated": "2026-08-09",
       "path": "entities/persons/oswald-de-andrade.md"
     },
+    "person/papa-ibra-tall": {
+      "id": "person/papa-ibra-tall",
+      "uri": "urn:ahn:person/papa-ibra-tall",
+      "type": "person",
+      "label_ja": "パパ・イブラ・タル",
+      "label_en": "Papa Ibra Tall",
+      "authority": {
+        "wikidata": "Q3894655",
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": "1935",
+        "end": "2015",
+        "display": "1935年 セネガル・ティバワン生まれ – 2015年 ダカール没（Wikidata Q3894655 の生没はいずれも precision 9＝年単位で、月日は入っていない）"
+      },
+      "space": [],
+      "relations": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q3894655",
+        "https://en.wikipedia.org/wiki/Papa_Ibra_Tall"
+      ],
+      "status": "draft",
+      "updated": "2026-08-09",
+      "path": "entities/persons/papa-ibra-tall.md"
+    },
     "person/pierre-boucherle": {
       "id": "person/pierre-boucherle",
       "uri": "urn:ahn:person/pierre-boucherle",
@@ -4470,6 +4934,63 @@
       "updated": "2026-08-09",
       "path": "entities/persons/pierre-boucherle.md"
     },
+    "person/pierre-lods": {
+      "id": "person/pierre-lods",
+      "uri": "urn:ahn:person/pierre-lods",
+      "type": "person",
+      "label_ja": "ピエール・ロッズ",
+      "label_en": "Pierre Lods",
+      "authority": {
+        "wikidata": "Q131541123",
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": "1921",
+        "end": "1988",
+        "display": "1921年 – 1988年（Wikidata Q131541123 の生没はいずれも precision 9＝年単位）"
+      },
+      "space": [],
+      "relations": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q131541123",
+        "https://www.wikidata.org/wiki/Q114247696",
+        "https://en.wikipedia.org/wiki/Papa_Ibra_Tall"
+      ],
+      "status": "draft",
+      "updated": "2026-08-09",
+      "path": "entities/persons/pierre-lods.md"
+    },
+    "person/ries-mulder": {
+      "id": "person/ries-mulder",
+      "uri": "urn:ahn:person/ries-mulder",
+      "type": "person",
+      "label_ja": "リース・ミュルダー",
+      "label_en": "Ries Mulder",
+      "authority": {
+        "wikidata": "Q14276707",
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": "1909-01-01",
+        "end": "1973-12-19",
+        "display": "1909年1月1日 – 1973年12月19日（いずれもWikidata precision 11＝日単位）"
+      },
+      "space": [],
+      "relations": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q14276707",
+        "https://en.wikipedia.org/wiki/Ries_Mulder"
+      ],
+      "status": "draft",
+      "updated": "2026-08-09",
+      "path": "entities/persons/ries-mulder.md"
+    },
     "person/robert-coates": {
       "id": "person/robert-coates",
       "uri": "urn:ahn:person/robert-coates",
@@ -4498,6 +5019,34 @@
       "status": "stub",
       "updated": "2026-08-09",
       "path": "entities/persons/robert-coates.md"
+    },
+    "person/roger-fry": {
+      "id": "person/roger-fry",
+      "uri": "urn:ahn:person/roger-fry",
+      "type": "person",
+      "label_ja": "ロジャー・フライ",
+      "label_en": "Roger Fry",
+      "authority": {
+        "wikidata": "Q547470",
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": "1866-12-14",
+        "end": "1934-09-09",
+        "display": null
+      },
+      "space": [],
+      "relations": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q547470",
+        "https://www.gutenberg.org/files/54154/54154-h/54154-h.htm"
+      ],
+      "status": "stub",
+      "updated": "2026-08-09",
+      "path": "entities/persons/roger-fry.md"
     },
     "person/rudolf-bonnet": {
       "id": "person/rudolf-bonnet",
@@ -4554,6 +5103,34 @@
       "status": "stub",
       "updated": "2026-08-09",
       "path": "entities/persons/shakir-hassan-al-said.md"
+    },
+    "person/trisno-soemardjo": {
+      "id": "person/trisno-soemardjo",
+      "uri": "urn:ahn:person/trisno-soemardjo",
+      "type": "person",
+      "label_ja": "トリスノ・スマルジョ",
+      "label_en": "Trisno Soemardjo",
+      "authority": {
+        "wikidata": "Q3747081",
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": "1916-12-06",
+        "end": "1969-04-21",
+        "display": "1916年12月6日 – 1969年4月21日（いずれもWikidata precision 11＝日単位）"
+      },
+      "space": [],
+      "relations": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q3747081",
+        "https://sejarahbersama.id/2021/06/04/kritik-kritik-terhadap-pelukis-pelukis-bandung/"
+      ],
+      "status": "draft",
+      "updated": "2026-08-09",
+      "path": "entities/persons/trisno-soemardjo.md"
     },
     "person/uche-okeke": {
       "id": "person/uche-okeke",
@@ -4733,6 +5310,38 @@
       "updated": "2026-08-09",
       "path": "entities/places/baghdad.md"
     },
+    "place/bandung": {
+      "id": "place/bandung",
+      "uri": "urn:ahn:place/bandung",
+      "type": "place",
+      "label_ja": "バンドン",
+      "label_en": "Bandung",
+      "authority": {
+        "wikidata": "Q10389",
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": null,
+        "end": null,
+        "display": null
+      },
+      "region": "asia-southeast",
+      "coordinates": [
+        -6.921845833333333,
+        107.60708305555555
+      ],
+      "space": [],
+      "relations": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q10389"
+      ],
+      "status": "stub",
+      "updated": "2026-08-09",
+      "path": "entities/places/bandung.md"
+    },
     "place/barbizon": {
       "id": "place/barbizon",
       "uri": "urn:ahn:place/barbizon",
@@ -4861,6 +5470,38 @@
       "status": "stub",
       "updated": "2026-08-08",
       "path": "entities/places/chicago.md"
+    },
+    "place/dakar": {
+      "id": "place/dakar",
+      "uri": "urn:ahn:place/dakar",
+      "type": "place",
+      "label_ja": "ダカール",
+      "label_en": "Dakar",
+      "authority": {
+        "wikidata": "Q3718",
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": null,
+        "end": null,
+        "display": null
+      },
+      "region": "africa-sub",
+      "coordinates": [
+        14.672556,
+        -17.432
+      ],
+      "space": [],
+      "relations": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q3718"
+      ],
+      "status": "stub",
+      "updated": "2026-08-09",
+      "path": "entities/places/dakar.md"
     },
     "place/gondar": {
       "id": "place/gondar",
@@ -6089,6 +6730,38 @@
       "updated": "2026-08-09",
       "path": "entities/places/veliky-novgorod.md"
     },
+    "place/venice": {
+      "id": "place/venice",
+      "uri": "urn:ahn:place/venice",
+      "type": "place",
+      "label_ja": "ヴェネツィア",
+      "label_en": "Venice",
+      "authority": {
+        "wikidata": "Q641",
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": null,
+        "end": null,
+        "display": null
+      },
+      "region": "europe-west",
+      "coordinates": [
+        45.439722,
+        12.331944
+      ],
+      "space": [],
+      "relations": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q641"
+      ],
+      "status": "stub",
+      "updated": "2026-08-09",
+      "path": "entities/places/venice.md"
+    },
     "place/zaria": {
       "id": "place/zaria",
       "uri": "urn:ahn:place/zaria",
@@ -6263,6 +6936,18 @@
       "to": "place/baghdad"
     },
     {
+      "from": "movement/bandung-school",
+      "type": "created_by",
+      "to": "person/ries-mulder",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "movement/bandung-school",
+      "type": "originated_in",
+      "to": "place/bandung"
+    },
+    {
       "from": "movement/barbizon-school",
       "type": "originated_in",
       "to": "place/barbizon"
@@ -6328,6 +7013,39 @@
       "from": "movement/dansaekhwa",
       "type": "originated_in",
       "to": "place/seoul"
+    },
+    {
+      "from": "movement/ecole-de-dakar",
+      "type": "part_of",
+      "to": "movement/negritude",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "movement/ecole-de-dakar",
+      "type": "created_by",
+      "to": "person/papa-ibra-tall",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "movement/ecole-de-dakar",
+      "type": "created_by",
+      "to": "person/iba-ndiaye",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "movement/ecole-de-dakar",
+      "type": "created_by",
+      "to": "person/pierre-lods",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "movement/ecole-de-dakar",
+      "type": "originated_in",
+      "to": "place/dakar"
     },
     {
       "from": "movement/ecole-de-tunis",
@@ -6519,11 +7237,16 @@
       "to": "place/agra"
     },
     {
-      "from": "movement/neo-impressionism",
-      "type": "grouped_as",
-      "to": "movement/post-impressionism",
+      "from": "movement/negritude",
+      "type": "influenced_by",
+      "to": "movement/harlem-renaissance",
       "certainty": "scholarly",
-      "source": "https://www.wikidata.org/wiki/Q1044742"
+      "source": "https://plato.stanford.edu/entries/negritude/"
+    },
+    {
+      "from": "movement/negritude",
+      "type": "originated_in",
+      "to": "place/paris"
     },
     {
       "from": "movement/neo-impressionism",
@@ -6592,6 +7315,11 @@
       "from": "movement/pita-maha",
       "type": "originated_in",
       "to": "place/ubud"
+    },
+    {
+      "from": "movement/post-impressionism",
+      "type": "originated_in",
+      "to": "place/paris"
     },
     {
       "from": "movement/rinpa",
@@ -6672,6 +7400,11 @@
       "to": "place/tokyo"
     },
     {
+      "from": "movement/venetian-school",
+      "type": "originated_in",
+      "to": "place/venice"
+    },
+    {
       "from": "movement/wu-school",
       "type": "originated_in",
       "to": "place/suzhou"
@@ -6719,6 +7452,11 @@
       "to": "place/benin-city"
     },
     {
+      "from": "org/itb",
+      "type": "sited_in",
+      "to": "place/bandung"
+    },
+    {
       "from": "org/societe-anonyme-artistes",
       "type": "sited_in",
       "to": "place/paris"
@@ -6755,6 +7493,11 @@
     {
       "from": "person/henri-lehmann",
       "type": "active_in",
+      "to": "place/paris"
+    },
+    {
+      "from": "person/henri-lehmann",
+      "type": "died_in",
       "to": "place/paris"
     },
     {
@@ -6825,6 +7568,12 @@
       "derived": true
     },
     {
+      "from": "person/ries-mulder",
+      "type": "created",
+      "to": "movement/bandung-school",
+      "derived": true
+    },
+    {
       "from": "person/abanindranath-tagore",
       "type": "created",
       "to": "movement/bengal-school",
@@ -6858,6 +7607,30 @@
       "from": "org/east-india-company",
       "type": "patronized",
       "to": "movement/company-painting",
+      "derived": true
+    },
+    {
+      "from": "movement/negritude",
+      "type": "has_part",
+      "to": "movement/ecole-de-dakar",
+      "derived": true
+    },
+    {
+      "from": "person/papa-ibra-tall",
+      "type": "created",
+      "to": "movement/ecole-de-dakar",
+      "derived": true
+    },
+    {
+      "from": "person/iba-ndiaye",
+      "type": "created",
+      "to": "movement/ecole-de-dakar",
+      "derived": true
+    },
+    {
+      "from": "person/pierre-lods",
+      "type": "created",
+      "to": "movement/ecole-de-dakar",
       "derived": true
     },
     {
@@ -6933,9 +7706,9 @@
       "derived": true
     },
     {
-      "from": "movement/post-impressionism",
-      "type": "groups",
-      "to": "movement/neo-impressionism",
+      "from": "movement/harlem-renaissance",
+      "type": "influenced",
+      "to": "movement/negritude",
       "derived": true
     },
     {
