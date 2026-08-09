@@ -44,6 +44,10 @@ tested:
   - {region: europe-east, by: movement/suprematism, result: held}
   - {region: americas-north, by: movement/group-of-seven, result: held}
   - {region: europe-east, by: movement/novgorod-school-icon-painting, result: held}
+  - {region: asia-east-china, by: movement/shanghai-school, result: held}
+  - {region: europe-west, by: movement/futurism, result: held}
+  - {region: europe-west, by: movement/sienese-school, result: held}
+  - {region: asia-east-japan, by: concept/ukiyo-e, result: held}
 tests_regions:            # ここが埋まるまで仮説は仮説のまま（tools/audit.py が指す）
   - asia-east-china
   - asia-east-korea
@@ -120,6 +124,10 @@ tests_regions:            # ここが埋まるまで仮説は仮説のまま（t
 | 東欧・ロシア（2件目） | [シュプレマティスム](../entities/movements/suprematism.md) | 崩れなかった。**自称の一次資料に到達** |
 | 北米（3件目） | [グループ・オブ・セブン](../entities/movements/group-of-seven.md) | 崩れなかった。**北米の kind 偏りを実際に崩した** |
 | 東欧・ロシア（3件目） | [ノヴゴロド派のイコン](../entities/movements/novgorod-school-icon-painting.md) | 崩れなかった。**命名が2層に分かれていた** |
+| 中国圏（4件目） | [海上画派](../entities/movements/shanghai-school.md) | 崩れなかった。**買い手を①に入れない判断を再確認** |
+| 西欧（4件目） | [未来派](../entities/movements/futurism.md) | 崩れなかった。**西欧の kind 偏りを崩した** |
+| 西欧（5件目） | [シエナ派](../entities/movements/sienese-school.md) | 崩れなかった |
+| 日本（concept） | [浮世絵](../entities/concepts/ukiyo-e.md) | **典拠自身が concept と分類していた** |
 
 浙派は血縁なし・師弟希薄・官職はあるが世襲でない（各世代が個別に画院へ出入りするだけ）。
 制度としての実体が無く、括りは後世の美術史記述（董其昌『画禅室随筆』）から来ている。

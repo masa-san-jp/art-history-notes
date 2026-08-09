@@ -14,11 +14,11 @@ depends_on: []
 <!-- generated:coverage:start -->
 データの最新日: 2026-08-09 — `python3 tools/build_graph.py` が生成（手で書き換えない）
 
-movement **39** 件（stub 1件は不算入）／内訳 {'draft': 37, 'stub': 1, 'verified': 2}
+movement **42** 件（stub 1件は不算入）／内訳 {'draft': 40, 'stub': 1, 'verified': 2}
 
 | 文化圏 | 12C | 13C | 15C | 16C | 17C | 18C | 19C | 20C | 年代不明 | 計 |
 |---|---|---|---|---|---|---|---|---|---|---|
-| europe-west（西欧・南欧・北欧） |  |  |  |  |  |  | 3 |  |  | 3 |
+| europe-west（西欧・南欧・北欧） |  | 1 |  |  |  |  | 3 | 1 |  | 5 |
 | europe-east（中東欧・ロシア・ビザンツ圏） | 1 |  |  |  |  |  | 1 | 1 |  | 3 |
 | americas-north（北米） |  |  |  |  |  |  | 1 | 2 |  | 3 |
 | mena（中東・北アフリカ） ※非西洋 |  |  | 1 | 1 |  |  |  | 1 |  | 3 |
@@ -26,7 +26,7 @@ movement **39** 件（stub 1件は不算入）／内訳 {'draft': 37, 'stub': 1,
 | asia-central（中央アジア・チベット・モンゴル） ※非西洋 |  |  | 2 |  | 1 |  |  |  |  | 3 |
 | asia-south（南アジア） ※非西洋 |  |  |  | 1 |  | 1 |  | 1 |  | 3 |
 | asia-southeast（東南アジア） ※非西洋 |  |  |  |  |  |  |  | 3 |  | 3 |
-| asia-east-china（中国圏） ※非西洋 |  |  | 2 |  |  |  |  | 1 |  | 3 |
+| asia-east-china（中国圏） ※非西洋 |  |  | 2 |  |  |  | 1 | 1 |  | 4 |
 | asia-east-korea（朝鮮半島） ※非西洋 |  | 1 |  |  |  | 1 |  | 1 |  | 3 |
 | asia-east-japan（日本） ※非西洋 |  |  | 2 |  | 1 |  |  |  |  | 3 |
 | americas-latin（中南米・カリブ） ※非西洋 |  |  |  |  |  |  |  | 3 |  | 3 |
@@ -39,10 +39,10 @@ movement **39** 件（stub 1件は不算入）／内訳 {'draft': 37, 'stub': 1,
 
 受け入れ条件の達成度:
 
-- movement_total: 39/100（stub 1件は不算入）
-- non_west_ratio: 0.77/0.5
+- movement_total: 42/100（stub 1件は不算入）
+- non_west_ratio: 0.74/0.5
 - per_bucket_min: 13/13 バケットが 3件以上
-- pre_1800_ratio: 0.44/0.3
+- pre_1800_ratio: 0.43/0.3
 - isolated_ratio: 0.00（上限 0.1）
 <!-- generated:coverage:end -->
 
@@ -60,9 +60,6 @@ movement **39** 件（stub 1件は不算入）／内訳 {'draft': 37, 'stub': 1,
 形式の検証（`build_graph.py --check`）と違って commit は止めない——次に何を調べるかの材料として出す。
 
 <!-- generated:audit:start -->
-**kind の地域偏り**
-- europe-west の movement 3件が全部 retrospective。kind が地域の言い換えになっていないか、別の kind の例を1件探す
-
 **辿れない先**
 - 新印象派 の grouped_as 先 ポスト印象派 が stub のまま（辿れない）
 - ジョルジュ・スーラ の taught_by 先 アンリ・レーマン が stub のまま（辿れない）

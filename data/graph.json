@@ -95,6 +95,62 @@
       "updated": "2026-08-09",
       "path": "entities/concepts/minhwa.md"
     },
+    "concept/ukiyo-e": {
+      "id": "concept/ukiyo-e",
+      "uri": "urn:ahn:concept/ukiyo-e",
+      "type": "concept",
+      "label_ja": "浮世絵",
+      "label_en": "Ukiyo-e",
+      "authority": {
+        "wikidata": "Q185905",
+        "aat": "300106769",
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": "16XX",
+        "end": "19XX",
+        "display": "Wikidataのinceptionは+1700-00-00T00:00:00Z / precision 7で、Wikidata自身の描画は「17. century」（1601〜1700年）。実証的な起点は1670年代、菱川師宣が一枚絵として独立させた段階とするのが定説。Getty AAT（300106769）は江戸時代（1600〜1868年）に紐づけて記述するが、ja.wikipediaは明治40年（1907年）の新聞記事が「衰微」を報じつつなお存続していたこと、大正期まで絵草紙屋が存在したことを記しており、実際の生産・流通は幕末以降も続いた。終期は資料によって幅があり確定できない"
+      },
+      "space": [],
+      "relations": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q185905",
+        "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&subjectid=300106769",
+        "https://ja.wikipedia.org/wiki/浮世絵",
+        "https://en.wikipedia.org/wiki/Ukiyo-e",
+        "https://www.wikidata.org/wiki/Q2297646",
+        "https://www.wikidata.org/wiki/Q3066195",
+        "https://www.wikidata.org/wiki/Q1335478",
+        "https://www.artic.edu/artworks/19016",
+        "https://www.artic.edu/artworks/22935",
+        "https://www.artic.edu/artworks/24645"
+      ],
+      "images": [
+        {
+          "url": "https://www.artic.edu/iiif/2/23ad9eea-241f-3af9-df38-875ba8825591/full/843,/0/default.jpg",
+          "source_page": "https://www.artic.edu/artworks/19016",
+          "license": "cc0",
+          "note": "菱川師宣「Flower-Viewing Party with Crest-Bearing Curtain」（連作「上野花見の体（Ueno hanami no tei）」より）、c.1681-84年、墨摺絵（sumizuri-e）。シカゴ美術館蔵（is_public_domain: true）。浮世絵最初期、単色摺りの段階"
+        },
+        {
+          "url": "https://www.artic.edu/iiif/2/dadabea0-c07e-b5b7-f39e-f877d31bb1b4/full/843,/0/default.jpg",
+          "source_page": "https://www.artic.edu/artworks/22935",
+          "license": "cc0",
+          "note": "鈴木春信「Beauty Under an Umbrella in the Snow」（雪の中で傘をさす美人、日本語の慣用タイトルは未確認）、c.1770年、多色摺りの錦絵（nishiki-e）。シカゴ美術館蔵（is_public_domain: true）。1765年前後に確立した多色摺り技法の段階"
+        },
+        {
+          "url": "https://www.artic.edu/iiif/2/b3974542-b9b4-7568-fc4b-966738f61d78/full/843,/0/default.jpg",
+          "source_page": "https://www.artic.edu/artworks/24645",
+          "license": "cc0",
+          "note": "葛飾北斎《神奈川沖浪裏》「冨嶽三十六景」より、1830-33年頃。シカゴ美術館蔵（is_public_domain: true）。19世紀、名所絵（風景画）へ主題が拡大した段階"
+        }
+      ],
+      "status": "draft",
+      "updated": "2026-08-09",
+      "path": "entities/concepts/ukiyo-e.md"
+    },
     "movement/abstract-expressionism": {
       "id": "movement/abstract-expressionism",
       "uri": "urn:ahn:movement/abstract-expressionism",
@@ -605,6 +661,97 @@
       "status": "draft",
       "updated": "2026-08-09",
       "path": "entities/movements/dansaekhwa.md"
+    },
+    "movement/futurism": {
+      "id": "movement/futurism",
+      "uri": "urn:ahn:movement/futurism",
+      "type": "movement",
+      "label_ja": "未来派",
+      "label_en": "Futurism",
+      "authority": {
+        "wikidata": "Q131221",
+        "aat": "300021374",
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": "1909-02",
+        "end": "1944",
+        "display": "1908年秋（草稿執筆、二次情報）〜1909年1月頃（ミラノ、詩集の序文として初出、二次情報）〜1909年2月5日（ボローニャ『ガゼッタ・デッレミリア』紙、二次情報）〜1909年2月20日（パリ『ル・フィガロ』紙1面、一次資料で確認）〜1944年12月2日（マリネッティ没）"
+      },
+      "kind": "self-declared",
+      "naming": {
+        "self_identified": true,
+        "named_by": null,
+        "named_when": "1909-02-20",
+        "original_label": "Futurismo",
+        "note": "自称の核は一次資料で直接確認できる。『ル・フィガロ』1909年2月20日号（パリ）に掲載された仏語版の末尾で、マリネッティ自身が『C'est en Italie que nous lançons ce manifeste de violence culbutante et incendiaire, par lequel nous fondons aujourd'hui le Futurisme（われわれがこの暴力的で放火的な宣言をイタリアで発するのは、これによって今日フチュリズモを創設するからだ）』と、自らその名で運動の創設を宣言する。同テキストを再録した4頁のフランス語小冊子（ミラノ、未来派運動事務局〈Direzione del Movimento Futurista〉刊、1909年2月20日付、伊マルト現代美術文書館〈Mart, Archivio del 900〉所蔵）の末尾には『F. T. Marinetti』の署名と『DIRECTION DU MOUVEMENT FUTURISTE: Corso Venezia, 61 - MILAN』という事務局住所が付されている。命名者は無く（named_by は null）、名乗ったのはマリネッティ本人。二次情報によれば、これに先立ちイタリア語版が1909年1月頃ミラノで詩集の序文として、同年2月5日にボローニャの新聞『ガゼッタ・デッレミリア』紙上でそれぞれ発表されたとされるが、本KBが一次資料で直接確認できたのは2月20日のフランス語版のみ"
+      },
+      "claims": [
+        {
+          "field": "kind",
+          "source": "https://archive.org/details/f.t.-marinetti-manifeste-du-futurism-1909",
+          "certainty": "attested"
+        },
+        {
+          "field": "time",
+          "source": "https://en.wikipedia.org/wiki/Manifesto_of_Futurism",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "originated_in",
+          "source": "https://archive.org/details/f.t.-marinetti-manifeste-du-futurism-1909",
+          "certainty": "attested"
+        }
+      ],
+      "space": [
+        {
+          "role": "originated_in",
+          "target": "place/milan"
+        }
+      ],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/filippo-tommaso-marinetti"
+        }
+      ],
+      "images": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/f/fd/%27Unique_Forms_of_Continuity_in_Space%27%2C_1913_bronze_by_Umberto_Boccioni.jpg",
+          "source_page": "https://commons.wikimedia.org/wiki/File:%27Unique_Forms_of_Continuity_in_Space%27,_1913_bronze_by_Umberto_Boccioni.jpg",
+          "license": "public-domain",
+          "note": "ボッチョーニ《空間における連続性の唯一の形態》1913年（鋳造は1931年または1934年）、ブロンズ、ニューヨーク近代美術館（MoMA）蔵。作者の没年1916年により著作権保護期間満了（PD-old-100-expired／CC-PD-Mark）"
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/b/b4/The_City_Rises_by_Umberto_Boccioni_1910.jpg",
+          "source_page": "https://commons.wikimedia.org/wiki/File:The_City_Rises_by_Umberto_Boccioni_1910.jpg",
+          "license": "public-domain",
+          "note": "ボッチョーニ《立ち上がる都市》1910年、油彩、ニューヨーク近代美術館（MoMA）蔵。同じく著作権保護期間満了（PD-old-100-expired）"
+        }
+      ],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q131221",
+        "https://archive.org/details/f.t.-marinetti-manifeste-du-futurism-1909",
+        "https://archive.org/metadata/f.t.-marinetti-manifeste-du-futurism-1909",
+        "https://gallica.bnf.fr/ark:/12148/bpt6k2883730",
+        "https://gallica.bnf.fr/iiif/ark:/12148/bpt6k2883730/manifest.json",
+        "https://en.wikipedia.org/wiki/Manifesto_of_Futurism",
+        "https://fr.wikipedia.org/wiki/Manifeste_du_futurisme",
+        "https://en.wikipedia.org/wiki/Filippo_Tommaso_Marinetti",
+        "https://en.wikipedia.org/wiki/Futurist_Painting:_Technical_Manifesto",
+        "https://en.wikipedia.org/wiki/Manifesto_of_Futurist_Musicians",
+        "https://en.wikipedia.org/wiki/Futurist_cooking",
+        "https://en.wikipedia.org/wiki/Fasci_Italiani_di_Combattimento",
+        "https://en.wikipedia.org/wiki/Umberto_Boccioni",
+        "https://en.wikipedia.org/wiki/Antonio_Sant%27Elia",
+        "http://exhibitions.guggenheim.org/futurism/manifestos/",
+        "https://www.theartstory.org/movement/futurism/"
+      ],
+      "status": "draft",
+      "updated": "2026-08-09",
+      "path": "entities/movements/futurism.md"
     },
     "movement/gondarine-church-painting": {
       "id": "movement/gondarine-church-painting",
@@ -2364,6 +2511,184 @@
       "updated": "2026-08-09",
       "path": "entities/movements/safavid-painting.md"
     },
+    "movement/shanghai-school": {
+      "id": "movement/shanghai-school",
+      "uri": "urn:ahn:movement/shanghai-school",
+      "type": "movement",
+      "kind": "retrospective",
+      "label_ja": "海上画派",
+      "label_en": "Shanghai School",
+      "authority": {
+        "wikidata": "Q3376676",
+        "aat": "300106504",
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": "185X",
+        "end": "192X",
+        "display": "19世紀半ば（太平天国の乱〔1850〜1864年〕を逃れた画家の上海流入）〜20世紀前半（呉昌碩の代を絶頂期とする）。Getty AATは\"mid-19th century to the early 20th century\"と記す。呉昌碩の没年（1927年）を目安に end を1920年代とした"
+      },
+      "naming": {
+        "self_identified": false,
+        "named_by": null,
+        "named_when": null,
+        "original_label": "海派",
+        "note": "当事者がこの名で自らを組織した記録は無い。中国語版Wikipedia「海派（文芸）」は『「海派」一詞之出典依然待考，一般認為與清末民初的「海上画派」有関』（「海派」という語の出典は依然として未詳だが、清末民初の「海上画派」に由来すると一般に考えられている）とし、単一の命名者・命名年を挙げない。同記事は初期の用法が書画・演劇の世界で「格調の低い上海の画家・役者」を指す蔑称だったとし、左宗棠が「上海」を『江浙無頼文人之末路』（江浙の無頼な文人が行き着く末路）と評したという逸話を引く。この蔑称が中立語に転じたのは、1920年代に北京の文人が上海の西洋化した文人を批判する文脈で「海派」対「京派」という対比を持ち出し、その後の論争を経て美術史・文化史の記述に定着してからである（同記事、二次情報）。**注意**: この1920年代の「海派対京派」論争は上海の文化全般（演劇・文学を含む）を指す広い用法で、19世紀半ばに形成された絵画の集団（本稿の対象）を直接・単独で名指した命名行為ではない——両者の関係は「一般に考えられている」に留まり、確定した一次記述ではない"
+      },
+      "claims": [
+        {
+          "field": "kind",
+          "source": "https://www.getty.edu/vow/AATFullDisplay?find=&place=&nation=&logic=&note=&role=&subjectid=300106504",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "originated_in",
+          "source": "https://www.getty.edu/vow/AATFullDisplay?find=&place=&nation=&logic=&note=&role=&subjectid=300106504",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "time",
+          "source": "https://www.getty.edu/vow/AATFullDisplay?find=&place=&nation=&logic=&note=&role=&subjectid=300106504",
+          "certainty": "scholarly"
+        }
+      ],
+      "space": [
+        {
+          "role": "originated_in",
+          "target": "place/shanghai"
+        }
+      ],
+      "relations": [],
+      "images": [
+        {
+          "url": "https://images.metmuseum.org/CRDImages/as/original/DP161195.jpg",
+          "source_page": "https://www.metmuseum.org/art/collection/search/49447",
+          "license": "public-domain",
+          "note": "任熊《牡丹》19世紀（「四任」の一人・海上画派の核となった画家の一人）"
+        },
+        {
+          "url": "https://images.metmuseum.org/CRDImages/as/original/DP-35707-002.jpg",
+          "source_page": "https://www.metmuseum.org/art/collection/search/37393",
+          "license": "public-domain",
+          "note": "任頤（任伯年）《鍾馗》1883年（Getty AATが「最も影響力があり成功した」と記す画家）"
+        },
+        {
+          "url": "https://www.artic.edu/iiif/2/80d53b0e-5bb0-c19e-ca74-1fb5d829740f/full/843,/0/default.jpg",
+          "source_page": "https://www.artic.edu/artworks/46435",
+          "license": "cc0",
+          "note": "任頤（任伯年）《鴛鴦と蓮》1892年（海上画派で最も多いとされる花鳥画の例）"
+        }
+      ],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q3376676",
+        "https://www.getty.edu/vow/AATFullDisplay?find=&place=&nation=&logic=&note=&role=&subjectid=300106504",
+        "https://en.wikipedia.org/wiki/Ren_Xiong",
+        "https://en.wikipedia.org/wiki/Ren_Xun",
+        "https://en.wikipedia.org/wiki/Ren_Bonian",
+        "https://zh.wikipedia.org/wiki/任伯年",
+        "https://zh.wikipedia.org/wiki/任熊",
+        "https://zh.wikipedia.org/wiki/吴昌硕",
+        "https://zh.wikipedia.org/zh-hans/海上画派",
+        "https://zh.wikipedia.org/zh-hans/海派_(文艺)",
+        "https://www.jiemian.com/article/3563398.html",
+        "https://www.163.com/dy/article/FT1LD5PE0521BMH5.html",
+        "https://www.wikidata.org/wiki/Q8686",
+        "https://www.metmuseum.org/art/collection/search/49447",
+        "https://www.metmuseum.org/art/collection/search/37393",
+        "https://www.artic.edu/artworks/46435"
+      ],
+      "status": "draft",
+      "updated": "2026-08-09",
+      "path": "entities/movements/shanghai-school.md"
+    },
+    "movement/sienese-school": {
+      "id": "movement/sienese-school",
+      "uri": "urn:ahn:movement/sienese-school",
+      "type": "movement",
+      "kind": "period-style",
+      "label_ja": "シエナ派",
+      "label_en": "Sienese school",
+      "authority": {
+        "wikidata": "Q1332178",
+        "aat": "300386004",
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": "12XX",
+        "end": "15XX",
+        "display": "13世紀後半（グイド・ダ・シエナの活動期）〜16世紀（ベッカフーミ、イル・ソドマ）。核心期は14世紀前半（ドゥッチョ・シモーネ・マルティーニ・ロレンツェッティ兄弟）で、1348年のペストで担い手の多くを失う。政体としてのシエナ共和国は1555年のフィレンツェへの降伏で終わる"
+      },
+      "naming": {
+        "self_identified": false,
+        "named_by": null,
+        "named_when": null,
+        "original_label": "シエナ派",
+        "note": "当事者（中世シエナの画家・発注者）がこの名で自らを呼んだ記録は無い。画家組合（Arte dei Pittori）に登録する身分としての「シエナの画家」という当事者的な区分は実在したが、それは様式上の括りとしての「シエナ派」とは別の事実である。CAA Reviews（Emily A. Moerer, 2004年書評）は「19世紀末に、様式分析によって独立した『シエナ派』が初めて明確化された」（in the late nineteenth century first articulated a separate \"Sienese School\"）と記す——ただし命名した個人名・年は特定できない。ジョルジョ・ヴァザーリ『美術家列伝』（1568年改訂版）はドゥッチョに2ページ、フィレンツェのジョットに22ページを割いたとされ（The Brooklyn Rail, David Carrier, 2024年12月）、フィレンツェ中心の美術史記述の中でシエナの画家たちは周辺化された。ヴァザーリはフィレンツェ公国のお抱えで、フィレンツェによるシエナ征服（1555年）と同時代に執筆したことも指摘される（The New York Review of Books, Andrew Butterfield, 2025年）。**未確認**: 19世紀末の「誰が」最初に明確化したかの一次資料"
+      },
+      "claims": [
+        {
+          "field": "kind",
+          "source": "https://en.wikipedia.org/wiki/Sienese_school",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "time",
+          "source": "https://www.wikidata.org/wiki/Q1332178",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "originated_in",
+          "source": "https://www.wikidata.org/wiki/Q1332178",
+          "certainty": "scholarly"
+        }
+      ],
+      "space": [
+        {
+          "role": "originated_in",
+          "target": "place/siena"
+        }
+      ],
+      "relations": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q1332178",
+        "https://en.wikipedia.org/wiki/Sienese_school",
+        "https://en.wikipedia.org/wiki/Duccio",
+        "https://en.wikipedia.org/wiki/Simone_Martini",
+        "https://www.wga.hu/tours/siena/simone.html",
+        "https://www.nybooks.com/articles/2010/10/14/fierce-emotions-siena/",
+        "https://www.nybooks.com/articles/2025/02/13/a-half-century-of-artistic-genius-siena-the-rise-of-painting/",
+        "https://brooklynrail.org/2024/12/artseen/siena-the-rise-of-painting-1300-1350/",
+        "http://www.caareviews.org/reviews/662",
+        "https://www.getty.edu/vow/AATServlet"
+      ],
+      "status": "draft",
+      "updated": "2026-08-09",
+      "images": [
+        {
+          "url": "https://images.metmuseum.org/CRDImages/ep/original/DP142735.jpg",
+          "source_page": "https://www.metmuseum.org/art/collection/search/438754",
+          "license": "cc0",
+          "note": "ドゥッチョ・ディ・ブオニンセーニャ《聖母子》（Madonna and Child）1290〜1300年頃、板にテンペラと金地。メトロポリタン美術館蔵（isPublicDomain: true）。同館は2004年にこの作品を購入した際、寄付者名を列記した長い解説板を付けたことで知られる（The Brooklyn Rail, 2024年）"
+        },
+        {
+          "url": "https://images.metmuseum.org/CRDImages/rl/original/DP-29454-001.jpg",
+          "source_page": "https://www.metmuseum.org/art/collection/search/459136",
+          "license": "cc0",
+          "note": "シモーネ・マルティーニ《聖母子》（Madonna and Child）1326年頃、板にテンペラ、金地。メトロポリタン美術館蔵（Robert Lehman Collection、isPublicDomain: true）"
+        },
+        {
+          "url": "https://images.metmuseum.org/CRDImages/ep/original/DP278472.jpg",
+          "source_page": "https://www.metmuseum.org/art/collection/search/438605",
+          "license": "cc0",
+          "note": "ピエトロ・ロレンツェッティ《磔刑》（The Crucifixion）1340年代、板にテンペラと金箔。メトロポリタン美術館蔵（isPublicDomain: true）。作者は1348年のペストで没したとされる"
+        }
+      ],
+      "path": "entities/movements/sienese-school.md"
+    },
     "movement/suprematism": {
       "id": "movement/suprematism",
       "uri": "urn:ahn:movement/suprematism",
@@ -3116,6 +3441,34 @@
       "status": "stub",
       "updated": "2026-08-09",
       "path": "entities/persons/ferreira-gullar.md"
+    },
+    "person/filippo-tommaso-marinetti": {
+      "id": "person/filippo-tommaso-marinetti",
+      "uri": "urn:ahn:person/filippo-tommaso-marinetti",
+      "type": "person",
+      "label_ja": "フィリッポ・トンマーゾ・マリネッティ",
+      "label_en": "Filippo Tommaso Marinetti",
+      "authority": {
+        "wikidata": "Q216582",
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": "1876-12-22",
+        "end": "1944-12-02",
+        "display": "1876年12月22日〜1944年12月2日"
+      },
+      "space": [],
+      "relations": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q216582",
+        "https://archive.org/details/f.t.-marinetti-manifeste-du-futurism-1909"
+      ],
+      "status": "stub",
+      "updated": "2026-08-09",
+      "path": "entities/persons/filippo-tommaso-marinetti.md"
     },
     "person/georges-seurat": {
       "id": "person/georges-seurat",
@@ -4197,6 +4550,38 @@
       "updated": "2026-08-09",
       "path": "entities/places/mexico-city.md"
     },
+    "place/milan": {
+      "id": "place/milan",
+      "uri": "urn:ahn:place/milan",
+      "type": "place",
+      "label_ja": "ミラノ",
+      "label_en": "Milan",
+      "authority": {
+        "wikidata": "Q490",
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": null,
+        "end": null,
+        "display": null
+      },
+      "region": "europe-west",
+      "coordinates": [
+        45.466944,
+        9.19
+      ],
+      "space": [],
+      "relations": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q490"
+      ],
+      "status": "stub",
+      "updated": "2026-08-09",
+      "path": "entities/places/milan.md"
+    },
     "place/new-york-city": {
       "id": "place/new-york-city",
       "uri": "urn:ahn:place/new-york-city",
@@ -4454,6 +4839,38 @@
       "updated": "2026-08-09",
       "path": "entities/places/sepik.md"
     },
+    "place/shanghai": {
+      "id": "place/shanghai",
+      "uri": "urn:ahn:place/shanghai",
+      "type": "place",
+      "label_ja": "上海",
+      "label_en": "Shanghai",
+      "authority": {
+        "wikidata": "Q8686",
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": null,
+        "end": null,
+        "display": null
+      },
+      "region": "asia-east-china",
+      "coordinates": [
+        31.2325,
+        121.46916666666667
+      ],
+      "space": [],
+      "relations": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q8686"
+      ],
+      "status": "stub",
+      "updated": "2026-08-09",
+      "path": "entities/places/shanghai.md"
+    },
     "place/shigatse": {
       "id": "place/shigatse",
       "uri": "urn:ahn:place/shigatse",
@@ -4486,6 +4903,38 @@
       "status": "stub",
       "updated": "2026-08-09",
       "path": "entities/places/shigatse.md"
+    },
+    "place/siena": {
+      "id": "place/siena",
+      "uri": "urn:ahn:place/siena",
+      "type": "place",
+      "label_ja": "シエナ",
+      "label_en": "Siena",
+      "authority": {
+        "wikidata": "Q2751",
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": null,
+        "end": null,
+        "display": null
+      },
+      "region": "europe-west",
+      "coordinates": [
+        43.318333,
+        11.331389
+      ],
+      "space": [],
+      "relations": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q2751"
+      ],
+      "status": "stub",
+      "updated": "2026-08-09",
+      "path": "entities/places/siena.md"
     },
     "place/suzhou": {
       "id": "place/suzhou",
@@ -4921,6 +5370,18 @@
       "to": "place/seoul"
     },
     {
+      "from": "movement/futurism",
+      "type": "created_by",
+      "to": "person/filippo-tommaso-marinetti",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "movement/futurism",
+      "type": "originated_in",
+      "to": "place/milan"
+    },
+    {
       "from": "movement/gondarine-church-painting",
       "type": "originated_in",
       "to": "place/gondar"
@@ -5152,6 +5613,16 @@
       "to": "place/isfahan"
     },
     {
+      "from": "movement/shanghai-school",
+      "type": "originated_in",
+      "to": "place/shanghai"
+    },
+    {
+      "from": "movement/sienese-school",
+      "type": "originated_in",
+      "to": "place/siena"
+    },
+    {
       "from": "movement/suprematism",
       "type": "created_by",
       "to": "person/kazimir-malevich",
@@ -5349,6 +5820,12 @@
       "from": "org/igun-eronmwon",
       "type": "created",
       "to": "movement/benin-court-art",
+      "derived": true
+    },
+    {
+      "from": "person/filippo-tommaso-marinetti",
+      "type": "created",
+      "to": "movement/futurism",
       "derived": true
     },
     {

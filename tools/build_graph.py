@@ -16,6 +16,7 @@ import yaml
 import re
 
 from kb import (CERTAINTIES, CLAIM_FIELDS_FOR_VERIFIED, DIR_FOR_TYPE, ENTITIES, FOUNDING_CONTROL,
+                IMAGE_LICENSES,
                 INTERPRETIVE_RELATIONS, MOVEMENT_KINDS, RELATION_TARGET_TYPES, RELATIONS, ROOT,
                 SPACE_ROLES, SPACE_TARGET_TYPES, STATUSES, TYPES, URI_PREFIX, alias_map,
                 build_edges, edtf_ok, edtf_year_range, load_config, load_entities, read_frontmatter,
@@ -72,9 +73,22 @@ def validate(entities, records, cfg, errors):
             elif naming.get("self_identified") is False and not naming.get("named_by") \
                     and not (naming.get("note") or "").strip():
                 err("naming.self_identified=false なら named_by か note で命名の経緯を書く")
+            if naming and "rejected_by" in naming:
+                rb = naming.get("rejected_by")
+                if not isinstance(rb, list) or not rb:
+                    err("naming.rejected_by は「誰が拒んだか」の配列にする（空なら項目を消す）")
 
         if meta.get("founding_control") and meta["founding_control"] not in FOUNDING_CONTROL:
             err(f"founding_control は {sorted(FOUNDING_CONTROL)} のどれか（今: {meta['founding_control']}）")
+
+        for img in meta.get("images") or []:
+            if not img.get("url"):
+                err("images の各項目に url が要る")
+            if img.get("license") not in IMAGE_LICENSES:
+                err(f"images の license は {sorted(IMAGE_LICENSES)} のどれか"
+                    f"（パブリックドメイン相当のみ／今: {img.get('license')}）")
+            if not img.get("source_page"):
+                err("images の各項目に source_page（所蔵館の作品ページ）が要る")
 
         if etype == "place" and not meta.get("region"):
             err("place は region が必須（被覆集計のキー。config/regions.yaml のバケット名）")
