@@ -14,7 +14,8 @@ time:
   start: "16XX"
   end: "19XX"
   display: "Wikidataのinceptionは+1700-00-00T00:00:00Z / precision 7で、Wikidata自身の描画は「17. century」（1601〜1700年）。実証的な起点は1670年代、菱川師宣が一枚絵として独立させた段階とするのが定説。Getty AAT（300106769）は江戸時代（1600〜1868年）に紐づけて記述するが、ja.wikipediaは明治40年（1907年）の新聞記事が「衰微」を報じつつなお存続していたこと、大正期まで絵草紙屋が存在したことを記しており、実際の生産・流通は幕末以降も続いた。終期は資料によって幅があり確定できない"
-space: []
+space:
+  - {role: active_in, target: place/tokyo}
 relations: []
 sources:
   - https://www.wikidata.org/wiki/Q185905

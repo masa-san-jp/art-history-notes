@@ -90,6 +90,12 @@ def validate(entities, records, cfg, errors):
             if not img.get("source_page"):
                 err("images の各項目に source_page（所蔵館の作品ページ）が要る")
 
+        for fn in meta.get("former_names") or []:
+            if not fn.get("name"):
+                err("former_names の各項目に name が要る")
+            if not edtf_ok(fn.get("from")) or not edtf_ok(fn.get("until")):
+                err(f"former_names の from/until が EDTF に合わない: {fn}")
+
         if etype == "place" and not meta.get("region"):
             err("place は region が必須（被覆集計のキー。config/regions.yaml のバケット名）")
         if etype == "place" and meta.get("region") and meta["region"] not in cfg["buckets"]:

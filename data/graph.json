@@ -113,7 +113,12 @@
         "end": "19XX",
         "display": "Wikidataのinceptionは+1700-00-00T00:00:00Z / precision 7で、Wikidata自身の描画は「17. century」（1601〜1700年）。実証的な起点は1670年代、菱川師宣が一枚絵として独立させた段階とするのが定説。Getty AAT（300106769）は江戸時代（1600〜1868年）に紐づけて記述するが、ja.wikipediaは明治40年（1907年）の新聞記事が「衰微」を報じつつなお存続していたこと、大正期まで絵草紙屋が存在したことを記しており、実際の生産・流通は幕末以降も続いた。終期は資料によって幅があり確定できない"
       },
-      "space": [],
+      "space": [
+        {
+          "role": "active_in",
+          "target": "place/tokyo"
+        }
+      ],
       "relations": [],
       "sources": [
         "https://www.wikidata.org/wiki/Q185905",
@@ -2894,6 +2899,100 @@
       "updated": "2026-08-08",
       "path": "entities/movements/tosa-school.md"
     },
+    "movement/utagawa-school": {
+      "id": "movement/utagawa-school",
+      "uri": "urn:ahn:movement/utagawa-school",
+      "type": "movement",
+      "kind": "lineage-school",
+      "label_ja": "歌川派",
+      "label_en": "Utagawa school",
+      "authority": {
+        "wikidata": "Q2297646",
+        "aat": "300018662",
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": "178X",
+        "end": null,
+        "display": "18世紀後半（1780年代、歌川豊春による創始）〜終期は未確認。Wikidataのinceptionは+1900-00-00 / precision 7で、Wikidata自身の描画は「19. century」（1801〜1900年）の主張だが、豊春（1735-1814）の現存作（Art Institute of Chicago蔵『Perspective Picture of a Kabuki Theater』c.1776年）や初代豊国の現存最初期作（同館蔵、c.1787年）と整合しない"
+      },
+      "naming": {
+        "self_identified": true,
+        "named_by": null,
+        "named_when": null,
+        "original_label": "歌川",
+        "note": "「歌川」は血縁ではなく、一門の長が技量を認めた弟子に授与した家名・画号で、弟子自身がその名を落款に署名して名乗った（自称の実質を持つ）。一方、これを「歌川派」という一括りの呼称でいつ・誰が最初に呼んだか（当時の自称か後代の呼称か）は英語圏・日本語圏の資料に明記が見当たらず未確認。self_identifiedはあくまで「歌川」という名自体の引き受けを指す"
+      },
+      "claims": [
+        {
+          "field": "time",
+          "source": "https://www.artic.edu/artworks/15804",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "originated_in",
+          "source": "https://www.wikidata.org/wiki/Q1490",
+          "certainty": "hypothesis"
+        },
+        {
+          "field": "kind",
+          "source": "https://kunisada-and-kabuki.fitzmuseum.cam.ac.uk/themes/kunisadas-names",
+          "certainty": "scholarly"
+        }
+      ],
+      "space": [
+        {
+          "role": "originated_in",
+          "target": "place/tokyo"
+        },
+        {
+          "role": "active_in",
+          "target": "place/tokyo"
+        }
+      ],
+      "relations": [
+        {
+          "type": "part_of",
+          "target": "concept/ukiyo-e"
+        }
+      ],
+      "images": [
+        {
+          "url": "https://www.artic.edu/iiif/2/22e03cc0-d3cb-26e5-c024-167f8e22c55f/full/843,/0/default.jpg",
+          "source_page": "https://www.artic.edu/artworks/15804",
+          "license": "cc0",
+          "note": "歌川豊春《Perspective Picture of a Kabuki Theater（浮絵 歌舞伎芝居之図）》c.1776年。シカゴ美術館蔵（is_public_domain: true）。西洋の透視図法を取り入れた「浮絵」で、歌川派創始者・豊春の初期作にあたる"
+        },
+        {
+          "url": "https://www.artic.edu/iiif/2/d338babb-13b0-77ab-b86d-56065ec9ff88/full/843,/0/default.jpg",
+          "source_page": "https://www.artic.edu/artworks/24248",
+          "license": "cc0",
+          "note": "初代歌川豊国《Yamatoya: Iwai Hanshiro IV as Okaru, from the series Portraits of Actors on Stage（役者舞台之姿絵）》1795年。シカゴ美術館蔵（is_public_domain: true）。「豊国」の名を最初に名乗った代の役者絵で、この名跡がのちに国貞（三代豊国）へ襲名される"
+        },
+        {
+          "url": "https://www.artic.edu/iiif/2/6792ccb2-bd96-b6a3-f144-242fd2d1530a/full/843,/0/default.jpg",
+          "source_page": "https://www.artic.edu/artworks/11229",
+          "license": "cc0",
+          "note": "歌川国芳《Snake (Mi): Nitan Shiro, from the series Heroes for the Twelve Animals of the Zodiac（勇武見立十二支）》c.1840年。シカゴ美術館蔵（is_public_domain: true）。国貞と並ぶ豊国門下の大勢力で、武者絵を得意とした系統の作例"
+        }
+      ],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q2297646",
+        "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&subjectid=300018662",
+        "https://en.wikipedia.org/wiki/Utagawa_school",
+        "https://ja.wikipedia.org/wiki/歌川派",
+        "https://kunisada-and-kabuki.fitzmuseum.cam.ac.uk/themes/kunisadas-names",
+        "https://toshidama.wordpress.com/2018/07/06/the-utagawa-lineage-in-japanese-prints/",
+        "https://www.artic.edu/artworks/15804",
+        "https://www.artic.edu/artworks/24248",
+        "https://www.artic.edu/artworks/11229"
+      ],
+      "status": "draft",
+      "updated": "2026-08-09",
+      "path": "entities/movements/utagawa-school.md"
+    },
     "movement/wu-school": {
       "id": "movement/wu-school",
       "uri": "urn:ahn:movement/wu-school",
@@ -5000,6 +5099,45 @@
       "updated": "2026-08-09",
       "path": "entities/places/tabriz.md"
     },
+    "place/tokyo": {
+      "id": "place/tokyo",
+      "uri": "urn:ahn:place/tokyo",
+      "type": "place",
+      "label_ja": "東京",
+      "label_en": "Tokyo",
+      "authority": {
+        "wikidata": "Q1490",
+        "tgn": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "region": "asia-east-japan",
+      "coordinates": [
+        35.689722,
+        139.692222
+      ],
+      "former_names": [
+        {
+          "name": "江戸",
+          "until": "1868"
+        }
+      ],
+      "time": {
+        "start": null,
+        "end": null,
+        "display": "江戸（〜1868年）／東京（1868年〜）"
+      },
+      "space": [],
+      "relations": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q1490"
+      ],
+      "status": "stub",
+      "updated": "2026-08-09",
+      "path": "entities/places/tokyo.md"
+    },
     "place/toronto": {
       "id": "place/toronto",
       "uri": "urn:ahn:place/toronto",
@@ -5291,6 +5429,11 @@
       "from": "concept/harmony",
       "type": "active_in",
       "to": "place/paris"
+    },
+    {
+      "from": "concept/ukiyo-e",
+      "type": "active_in",
+      "to": "place/tokyo"
     },
     {
       "from": "movement/abstract-expressionism",
@@ -5652,6 +5795,23 @@
       "to": "place/kyoto"
     },
     {
+      "from": "movement/utagawa-school",
+      "type": "part_of",
+      "to": "concept/ukiyo-e",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "movement/utagawa-school",
+      "type": "originated_in",
+      "to": "place/tokyo"
+    },
+    {
+      "from": "movement/utagawa-school",
+      "type": "active_in",
+      "to": "place/tokyo"
+    },
+    {
       "from": "movement/wu-school",
       "type": "originated_in",
       "to": "place/suzhou"
@@ -5916,6 +6076,12 @@
       "from": "person/victorio-edades",
       "type": "created",
       "to": "movement/thirteen-moderns",
+      "derived": true
+    },
+    {
+      "from": "concept/ukiyo-e",
+      "type": "has_part",
+      "to": "movement/utagawa-school",
       "derived": true
     },
     {

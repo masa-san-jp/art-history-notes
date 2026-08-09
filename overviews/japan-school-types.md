@@ -48,6 +48,7 @@ tested:
   - {region: europe-west, by: movement/futurism, result: held}
   - {region: europe-west, by: movement/sienese-school, result: held}
   - {region: asia-east-japan, by: concept/ukiyo-e, result: held}
+  - {region: asia-east-japan, by: movement/utagawa-school, result: revised}
 tests_regions:            # ここが埋まるまで仮説は仮説のまま（tools/audit.py が指す）
   - asia-east-china
   - asia-east-korea
@@ -128,6 +129,7 @@ tests_regions:            # ここが埋まるまで仮説は仮説のまま（t
 | 西欧（4件目） | [未来派](../entities/movements/futurism.md) | 崩れなかった。**西欧の kind 偏りを崩した** |
 | 西欧（5件目） | [シエナ派](../entities/movements/sienese-school.md) | 崩れなかった |
 | 日本（concept） | [浮世絵](../entities/concepts/ukiyo-e.md) | **典拠自身が concept と分類していた** |
+| 日本（4件目） | [歌川派](../entities/movements/utagawa-school.md) | **線を繋ぐものに「名跡の継承」が加わった** |
 
 浙派は血縁なし・師弟希薄・官職はあるが世襲でない（各世代が個別に画院へ出入りするだけ）。
 制度としての実体が無く、括りは後世の美術史記述（董其昌『画禅室随筆』）から来ている。
@@ -326,8 +328,11 @@ néo-impressionniste" の語が確認できた。命名が外部で1886年、当
 成立する**）の2件で、①官職／②血縁という切り方が持たなくなった。だから**こう括り直す**。
 
 **継承の線があるか。** あるなら、その線は何で繋がっているか——**血（狩野派）／師弟の指名（メンリ派）／
-その両方が重なる（ンガーティ・タラーワイ）／制度上の職（土佐派・図画署）／庇護の枠（サファヴィー朝）**。
-線が無ければ、括りは後から外側で作られる（琳派・浙派・印象派）。
+その両方が重なる（ンガーティ・タラーワイ）／制度上の職（土佐派・図画署）／庇護の枠（サファヴィー朝・
+ヘラート派）／名跡の継承（歌川派）**。線が無ければ、括りは後から外側で作られる（琳派・浙派・印象派）。
+
+**「血」は生物学的血縁だけを指さない。** 狩野派は養子縁組で血を繋ぎ、歌川派では初代豊国の没後に
+娘婿の豊重が継いでいる。**家の継承としての血**（養子・婚姻を含む）として読む。
 
 この形にすると、これまでの判定はすべて説明できる。血縁の有無で `lineage-school` と `period-style` が
 分かれるのも、「線が血で繋がっているか」の言い換えになる。パプニャ・トゥラは例外的で、
