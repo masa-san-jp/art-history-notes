@@ -3959,6 +3959,110 @@
       "updated": "2026-08-10",
       "path": "entities/movements/kamasan-painting.md"
     },
+    "movement/kanga": {
+      "id": "movement/kanga",
+      "uri": "urn:ahn:movement/kanga",
+      "type": "movement",
+      "label_ja": "漢画",
+      "label_en": "Kanga",
+      "authority": {
+        "wikidata": null,
+        "aat": "300266170",
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "Wikidata を「漢画」「suibokuga」「Japanese ink painting」「Muromachi ink painting」で検索したが、この括りを指す項目は無い。最も近い Q756712 は「ink wash painting（水墨画）」＝技法（painting technique）で、様式・時代の括りではないため充てない。日本語版Wikipediaにも「漢画」の記事は無く（2026-08-10 時点で本文0字）、この対象は通常「水墨画」の記事内の『日本における水墨画』節として扱われている。Getty AAT は Styles and Periods 階層の『Japanese painting styles』の下に Kanga を独立の概念として持つため、authority はこれを採った"
+      },
+      "time": {
+        "start": "12XX",
+        "end": null,
+        "display": "Getty AAT は「13世紀から日本に移入された」とする（EDTF では 12XX＝1200-1299 が13世紀）。日本語版Wikipedia「水墨画」は、12世紀末頃の詫磨派の仏画に既に水墨画風の筆法が見えるが「本格的な水墨画作品が現れるのは13世紀末頃」とし、13世紀末〜14世紀の作を美術史が「初期水墨画」と呼ぶと記す。終期は特定しない——狩野派が漢画系の画法を基礎に据えたまま江戸期を通じて続くため、様式としての切れ目を示す出典に当たれていない"
+      },
+      "kind": "period-style",
+      "naming": {
+        "self_identified": false,
+        "named_by": null,
+        "named_when": null,
+        "original_label": "漢画",
+        "note": "「漢画」は担い手が名乗った集団名ではなく、**大和絵に対して中国風の画を指す対の語**である（日本語版Wikipedia「狩野元信」が「漢画（大和絵に対して中国風の画を指す）」と括弧で定義する）。和と漢という対で領域を割る呼び方であり、特定の工房・血縁・綱領を指さない。Getty AAT は preferred term を英語表記の「Kanga (Japanese painting style)」とし、中国語（繁体）の異形として「漢畫 (日本繪畫風格)」を持つ。**未確認**: 「漢画」という語が日本で最初に使われた文献と年。より古い対の語として「唐絵（からえ）／大和絵」があり、両者の関係（唐絵→漢画への語の移行がいつ起きたか）も未確認。この不確かさのため named_when は null にした"
+      },
+      "claims": [
+        {
+          "field": "kind",
+          "source": "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300266170",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "time",
+          "source": "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300266170",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "originated_in",
+          "source": "https://ja.wikipedia.org/wiki/%E6%B0%B4%E5%A2%A8%E7%94%BB",
+          "certainty": "scholarly"
+        }
+      ],
+      "images": [
+        {
+          "url": "https://openaccess-cdn.clevelandart.org/1976.59/1976.59_web.jpg",
+          "source_page": "https://clevelandart.org/art/1976.59",
+          "license": "cc0",
+          "note": "《破墨山水図（Haboku / Flung-ink Landscape）》1510年頃、室町時代。クリーヴランド美術館蔵"
+        },
+        {
+          "url": "https://openaccess-cdn.clevelandart.org/1976.92.1/1976.92.1_web.jpg",
+          "source_page": "https://clevelandart.org/art/1976.92.1",
+          "license": "cc0",
+          "note": "《四季山水図（Landscape of the Four Seasons）》1400年代後半。クリーヴランド美術館は制作地を『朝鮮・朝鮮王朝期 または 日本・室町期』と併記しており、所蔵館が国を確定できていない作例"
+        },
+        {
+          "url": "https://images.metmuseum.org/CRDImages/as/original/DP361165.jpg",
+          "source_page": "https://www.metmuseum.org/art/collection/search/53219",
+          "license": "public-domain",
+          "note": "牧林愚庵《葡萄に蝉図》14世紀後半〜15世紀初頭、紙本墨画。メトロポリタン美術館蔵（Burke Collection）"
+        }
+      ],
+      "space": [
+        {
+          "role": "originated_in",
+          "target": "place/kyoto"
+        }
+      ],
+      "relations": [
+        {
+          "type": "influenced_by",
+          "target": "movement/song-academy-painting",
+          "certainty": "scholarly",
+          "source": "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300266170"
+        },
+        {
+          "type": "influenced_by",
+          "target": "movement/zhe-school",
+          "certainty": "scholarly",
+          "source": "https://ja.wikipedia.org/wiki/%E6%B5%99%E6%B4%BE"
+        },
+        {
+          "type": "influenced_by",
+          "target": "movement/an-gyeon-school",
+          "certainty": "scholarly",
+          "source": "https://encykorea.aks.ac.kr/Article/E0069639"
+        }
+      ],
+      "sources": [
+        "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300266170",
+        "http://vocab.getty.edu/aat/300266170",
+        "https://ja.wikipedia.org/wiki/%E6%B0%B4%E5%A2%A8%E7%94%BB",
+        "https://ja.wikipedia.org/wiki/%E6%B5%99%E6%B4%BE",
+        "https://ja.wikipedia.org/wiki/%E7%8B%A9%E9%87%8E%E5%85%83%E4%BF%A1",
+        "https://encykorea.aks.ac.kr/Article/E0069639",
+        "https://clevelandart.org/art/1976.59",
+        "https://clevelandart.org/art/1976.92.1",
+        "https://www.metmuseum.org/art/collection/search/53219"
+      ],
+      "status": "draft",
+      "updated": "2026-08-10",
+      "path": "entities/movements/kanga.md"
+    },
     "movement/kangra-painting": {
       "id": "movement/kangra-painting",
       "uri": "urn:ahn:movement/kangra-painting",
@@ -13700,6 +13804,32 @@
       "to": "place/kamasan"
     },
     {
+      "from": "movement/kanga",
+      "type": "influenced_by",
+      "to": "movement/song-academy-painting",
+      "certainty": "scholarly",
+      "source": "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300266170"
+    },
+    {
+      "from": "movement/kanga",
+      "type": "influenced_by",
+      "to": "movement/zhe-school",
+      "certainty": "scholarly",
+      "source": "https://ja.wikipedia.org/wiki/%E6%B5%99%E6%B4%BE"
+    },
+    {
+      "from": "movement/kanga",
+      "type": "influenced_by",
+      "to": "movement/an-gyeon-school",
+      "certainty": "scholarly",
+      "source": "https://encykorea.aks.ac.kr/Article/E0069639"
+    },
+    {
+      "from": "movement/kanga",
+      "type": "originated_in",
+      "to": "place/kyoto"
+    },
+    {
       "from": "movement/kangra-painting",
       "type": "influenced_by",
       "to": "movement/mughal-painting",
@@ -14802,6 +14932,24 @@
       "from": "movement/jingyeong-sansuhwa",
       "type": "influenced",
       "to": "movement/joseon-genre-painting",
+      "derived": true
+    },
+    {
+      "from": "movement/song-academy-painting",
+      "type": "influenced",
+      "to": "movement/kanga",
+      "derived": true
+    },
+    {
+      "from": "movement/zhe-school",
+      "type": "influenced",
+      "to": "movement/kanga",
+      "derived": true
+    },
+    {
+      "from": "movement/an-gyeon-school",
+      "type": "influenced",
+      "to": "movement/kanga",
       "derived": true
     },
     {
