@@ -31,6 +31,8 @@ space:
 relations:
   - {type: created_by, target: person/f-n-souza}
   - {type: reacts_against, target: movement/bengal-school, certainty: scholarly, source: "https://web.archive.org/web/20131214145023/http://www.artnewsnviews.com/view-article.php?article=progressive-artists-group-of-bombay-an-overview&iid=29&articleid=800"}
+  - {type: influenced_by, target: movement/cubism, certainty: scholarly, source: "https://en.wikipedia.org/wiki/Bombay_Progressive_Artists%27_Group"}
+  - {type: influenced_by, target: movement/post-impressionism, certainty: scholarly, source: "https://en.wikipedia.org/wiki/Bombay_Progressive_Artists%27_Group"}
 sources:
   - https://www.wikidata.org/wiki/Q4940574
   - https://en.wikipedia.org/wiki/Bombay_Progressive_Artists%27_Group
@@ -145,6 +147,36 @@ independence」と結成と独立を同年の出来事として位置づける�
 **未確認**: Wikidata Q4940574 の `P17`（country）・`P131`（located in the administrative
 territorial entity）はいずれも「インド」（Q668）を指すのみで、都市単位の情報を持たない
 （`P740`＝location of formation の claim も無い）。空間の典拠は上記の二次資料のみに依っている。
+
+### ヨーロッパからの受容——単一の様式ではなく、複数の筋が同時に入った
+
+`influenced_by` を[キュビスム](cubism.md)と[ポスト印象派](post-impressionism.md)（いずれも
+europe-west）へ2本張った。根拠は同じ一文である——英語版Wikipediaは冒頭で「Though it lacked any
+particular style, there might be said to have been a move towards a synthesis of influences from
+Indian art history together with styles prevalent in Europe and North America during the first half
+of the 20th century, including Post-Impressionism, Cubism and Expressionism」（特定の様式を持たな
+かったが、インド美術史からの影響と、20世紀前半のヨーロッパ・北米で広まっていた様式——ポスト印象派・
+キュビスム・表現主義を含む——との統合へ向かう動きがあったとは言えるかもしれない）と書く
+（[en.wikipedia](https://en.wikipedia.org/wiki/Bombay_Progressive_Artists%27_Group)、二次情報）。
+
+**この一文は3つ目に表現主義も挙げているが、本KBに該当する movement が無いため張れていない。**
+1本の受容ではなく複数の筋が同時に入った対象で、しかも担い手ごとに受け取った筋が違う——スーザは
+ゴアの民俗美術と表現主義、フサインはヒンドゥー神話の主題にキュビスムの原理、ラザは表現主義的な
+風景から幾何学的抽象へ、というように分岐している。`kind` が「特定の様式を持たない」括りである
+ことと、受容が複数線であることは同じ事実の裏表になっている。
+
+経路として押さえられているのは**戦火のヨーロッパから逃れてきた亡命者たち**である。本文
+「`founding_control` の判定」で述べたとおり、美術批評家ラウディ・ヴァン・レイデン、タイムズ・オブ・
+インディア紙の美術監督ヴァルター・ランガマー、後援者シュレジンガーとヘルマン・ゲッツはいずれも
+欧州出身の亡命者で、作品講評などを通じて「ほとんど家庭教師のような」役割を果たしたとされる。
+ただし**かれらは結成・会員選定・綱領の作成という意思決定には入っておらず**、`founding_control` は
+`internal` のままである。**受容の経路が外部者を通っていることと、運動の意思決定が当事者の手に
+あったことは両立する**——この2つを1つの値に潰さないために、経路は本文に、統治は
+`founding_control` に分けて書いた。
+
+**この2本の弱さ**: 典拠の一文自体が「there might be said to have been」と留保付きで書かれており、
+断定していない。またこの一文は3つの様式を並べるだけで、**どの担い手がどの経路でそれに触れたか**
+（パリ留学、複製図版、亡命者の蔵書、展覧会）を述べていない。伝播の実体を1つ特定することが次の課題。
 
 ## 未着手
 

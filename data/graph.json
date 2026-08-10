@@ -1476,6 +1476,18 @@
           "target": "movement/bengal-school",
           "certainty": "scholarly",
           "source": "https://web.archive.org/web/20131214145023/http://www.artnewsnviews.com/view-article.php?article=progressive-artists-group-of-bombay-an-overview&iid=29&articleid=800"
+        },
+        {
+          "type": "influenced_by",
+          "target": "movement/cubism",
+          "certainty": "scholarly",
+          "source": "https://en.wikipedia.org/wiki/Bombay_Progressive_Artists%27_Group"
+        },
+        {
+          "type": "influenced_by",
+          "target": "movement/post-impressionism",
+          "certainty": "scholarly",
+          "source": "https://en.wikipedia.org/wiki/Bombay_Progressive_Artists%27_Group"
         }
       ],
       "sources": [
@@ -13225,6 +13237,20 @@
     },
     {
       "from": "movement/bombay-progressive-artists-group",
+      "type": "influenced_by",
+      "to": "movement/cubism",
+      "certainty": "scholarly",
+      "source": "https://en.wikipedia.org/wiki/Bombay_Progressive_Artists%27_Group"
+    },
+    {
+      "from": "movement/bombay-progressive-artists-group",
+      "type": "influenced_by",
+      "to": "movement/post-impressionism",
+      "certainty": "scholarly",
+      "source": "https://en.wikipedia.org/wiki/Bombay_Progressive_Artists%27_Group"
+    },
+    {
+      "from": "movement/bombay-progressive-artists-group",
       "type": "originated_in",
       "to": "place/mumbai"
     },
@@ -14496,6 +14522,18 @@
     {
       "from": "movement/bengal-school",
       "type": "reacted_against_by",
+      "to": "movement/bombay-progressive-artists-group",
+      "derived": true
+    },
+    {
+      "from": "movement/cubism",
+      "type": "influenced",
+      "to": "movement/bombay-progressive-artists-group",
+      "derived": true
+    },
+    {
+      "from": "movement/post-impressionism",
+      "type": "influenced",
       "to": "movement/bombay-progressive-artists-group",
       "derived": true
     },
