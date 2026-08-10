@@ -28,7 +28,8 @@ claims:
   - {field: kind, source: "http://www.getty.edu/vow/AATFullDisplay?find=Gondar&logic=AND&note=&english=Y&subjectid=300263018", certainty: scholarly}
 space:
   - {role: originated_in, target: place/gondar}
-relations: []
+relations:
+  - {type: influenced_by, target: movement/mannerism, certainty: scholarly, source: "https://www.journal18.org/nq/giulio-romanos-the-little-holy-family-in-africa-identifying-an-18th-century-ethiopian-painting-by-kristen-windmuller-luna/"}
 sources:
   - http://www.getty.edu/vow/AATFullDisplay?find=Gondar&logic=AND&note=&english=Y&subjectid=300263018
   - https://en.wikipedia.org/wiki/Gondarine_period
@@ -139,6 +140,14 @@ Bosc-Tiessé & Wion の著書 *Peintures sacrées d'Éthiopie* の紹介）。�
 ### 4. ヨーロッパ図像の流入は founding_control に当たるか、単なる影響か
 
 **単なる影響であり、founding_control には当たらないと判定した。** 理由を時系列で分ける。
+（2026-08-10 追記: この「影響」の側を [movement/mannerism](mannerism.md) への `influenced_by` として
+1本張った。ウィンドミュラー＝ルナ論考が同定した図像の出どころがジュリオ・ロマーノ——マニエリスムの
+主要な担い手の一人——の構図であることに拠る。**動いたのは版画であり、人ではない。**
+`founding_control` を `internal` のままにしていることと矛盾しない——何を取り入れ何を変えるかを
+決めたのはエチオピア側の宮廷画家だ、という下記の判定がそのまま `influenced_by` と `founding_control`
+の切り分けになっている。**未確認**: ウィエリクスの版画はアントウェルペンの工房の産物で、
+AAT が別概念として持つ「北方マニエリスム」に当たる可能性がある。その場合エッジの張り先は
+見直しになる）
 
 - **様式の起点そのものは、外部者の排除の後に来る。** 皇帝スセニョス（在位1607-32年）が
   1622年にカトリックを国教化しイエズス会の宣教を許した「イエズス会の挿話（1557-1632年）」

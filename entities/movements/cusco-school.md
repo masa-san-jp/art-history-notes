@@ -26,7 +26,8 @@ claims:
   - {field: kind, source: "https://en.wikipedia.org/wiki/Cusco_school", certainty: scholarly}
 space:
   - {role: originated_in, target: place/cusco}
-relations: []
+relations:
+  - {type: influenced_by, target: movement/mannerism, certainty: scholarly, source: "https://en.wikipedia.org/wiki/Bernardo_Bitti"}
 founding_control: external
 control_changes:
   - {year: "1688", to: shared, trigger: "画家組合（gremio de pintores）内の対立の末、先住民系・メスティーソの画家たちがスペイン系画家と共有していた組合から離脱し、独立した工房で制作するようになったとされる（通説。ただしこの因果関係自体の史料的根拠の薄さが査読研究で指摘されている。本文参照）"}
@@ -130,7 +131,9 @@ Letras」欄）に寄稿した一般向け記事だったことを史料的に�
 ### ③様式的同一性
 
 **局面ごとに変化しながらも、一貫して「植民地期クスコにおけるカトリック宗教画」という枠内に留まる。**
-ビッティが持ち込んだイタリア・マニエリスム（1580年代〜）、フランシスコ・デ・スルバランの影響を受けた
+ビッティが持ち込んだイタリア・マニエリスム（1580年代〜、2026-08-10 に
+[movement/mannerism](mannerism.md) へ `influenced_by` を張った——**動いたのは画家本人**で、
+イエズス会という組織がその移動の器になっている）、フランシスコ・デ・スルバランの影響を受けた
 バロック的な明暗表現（17世紀半ば、マルコス・リベーラらに顕著）、17世紀末以降の「遠近法を欠き、
 金泥を多用し、アンデスの動植物を配する」独自様式、18世紀の量産的な「並みの絵」（"ordinary" painting、
 マウリシオ・ガルシーアが7か月で500点の契約を結んだ例が伝わる、二次情報）と、局面ごとに画風は変化する。
