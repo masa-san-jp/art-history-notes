@@ -1,0 +1,63 @@
+version: 1
+dimensions:
+  - id: temporal_orientation
+    index: 0
+    negative_ja: 過去・回帰・継承
+    positive_ja: 未来・新奇・進歩
+  - id: technology_stance
+    index: 1
+    negative_ja: 技術への拒絶・警戒
+    positive_ja: 技術への受容・礼賛
+  - id: change_pace
+    index: 2
+    negative_ja: 持続・熟成・減速
+    positive_ja: 加速・断絶・即時性
+  - id: institution_stance
+    index: 3
+    negative_ja: 制度との整合・権威の承認
+    positive_ja: 反制度・自律・離脱
+  - id: agency_model
+    index: 4
+    negative_ja: 個人・単独作者
+    positive_ja: 集団・ネットワーク
+  - id: boundary_stance
+    index: 5
+    negative_ja: 純粋性・分離
+    positive_ja: 混交・越境・翻案
+  - id: materiality
+    index: 6
+    negative_ja: 物質・身体・現場
+    positive_ja: 情報・非物質・遠隔
+  - id: authorship
+    index: 7
+    negative_ja: 単一作者・意図中心
+    positive_ja: 分散作者・作者の脱中心化
+  - id: reproduction
+    index: 8
+    negative_ja: 原作・希少性
+    positive_ja: 複製・引用・リミックス・大量性
+  - id: control
+    index: 9
+    negative_ja: 作者による制御
+    positive_ja: 偶然・素材・機械・非人間への委譲
+  - id: social_affect
+    index: 10
+    negative_ja: 安定・確信・拡張感
+    positive_ja: 不安・危機・喪失感
+  - id: political_stance
+    index: 11
+    negative_ja: 秩序維持・連続
+    positive_ja: 改革・破壊・革命
+certainty_weights:
+  attested: 1.0
+  scholarly: 0.75
+  hypothesis: 0.25
+holder_roles:
+  - participants
+  - critics
+  - audiences
+  - patrons
+  - institutions
+  - market
+  - state
+  - researchers

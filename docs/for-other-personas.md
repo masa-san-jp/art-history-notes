@@ -48,6 +48,17 @@ python3 -c "import json;g=json.load(open('data/graph.json'));print(len(g['entiti
 `entities` は id → frontmatter、`edges` は `{from, type, to, certainty}`。逆向きは展開済み
 （`derived: true` が付く）。
 
+## 5. 現在と過去の時代文脈を比べる
+
+```bash
+python3 tools/compare_context.py context/ai-art-japan-2026-h2 --kind historical --top 3
+python3 tools/compare_context.py context/ai-art-japan-2026-h2 --kind historical --top 3 --format json
+```
+
+結果は類似度だけでなく、比較できた軸数、類似を強くした軸、相違を強くした軸、方向・顕著性・分極・信頼度と
+根拠URLを返す。これは**次に読む資料を選ぶための候補**であり、歴史的同一性、影響、因果の証拠ではない。
+結果だけを根拠に`relations`を追加したり、外向けの断定文を書いたりしない。
+
 ## 引用するときの約束（aiko-pr は特に）
 
 このKBの記述は3段階に分かれている。**外に出す文章で扱いを変えてください。**

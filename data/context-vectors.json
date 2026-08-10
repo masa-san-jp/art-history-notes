@@ -1,0 +1,406 @@
+{
+  "schema_version": 1,
+  "input_digest": "f81d5bae440cd2753d0478e8f0e5f85e28bc029361675f53bae75a668ae0fcbd",
+  "dimension_order": [
+    "temporal_orientation",
+    "technology_stance",
+    "change_pace",
+    "institution_stance",
+    "agency_model",
+    "boundary_stance",
+    "materiality",
+    "authorship",
+    "reproduction",
+    "control",
+    "social_affect",
+    "political_stance"
+  ],
+  "contexts": {
+    "context/ai-art-japan-2026-h2": {
+      "label_ja": "2026年下半期・日本・AIアート",
+      "kind": "current",
+      "status": "draft",
+      "scope": {
+        "start": "2026-07-01",
+        "end": "2026-12-31",
+        "regions": [
+          "asia-east-japan"
+        ],
+        "domain": "art",
+        "topics": [
+          "ai-art"
+        ]
+      },
+      "about": [],
+      "coverage": 0.333333,
+      "vector": [
+        0.75,
+        null,
+        null,
+        -0.5,
+        0.5,
+        1.0,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "dimensions": {
+        "temporal_orientation": {
+          "value": 0.75,
+          "salience": 0.444444,
+          "polarization": 0.25,
+          "confidence": 0.333333,
+          "signal_count": 2,
+          "source_count": 2,
+          "holder_count": 1,
+          "signal_ids": [
+            "s001",
+            "s002"
+          ]
+        },
+        "technology_stance": null,
+        "change_pace": null,
+        "institution_stance": {
+          "value": -0.5,
+          "salience": 0.444444,
+          "polarization": 0.0,
+          "confidence": 0.333333,
+          "signal_count": 2,
+          "source_count": 2,
+          "holder_count": 1,
+          "signal_ids": [
+            "s003",
+            "s004"
+          ]
+        },
+        "agency_model": {
+          "value": 0.5,
+          "salience": 0.444444,
+          "polarization": 0.0,
+          "confidence": 0.333333,
+          "signal_count": 2,
+          "source_count": 2,
+          "holder_count": 1,
+          "signal_ids": [
+            "s007",
+            "s008"
+          ]
+        },
+        "boundary_stance": {
+          "value": 1.0,
+          "salience": 0.666667,
+          "polarization": 0.0,
+          "confidence": 0.333333,
+          "signal_count": 2,
+          "source_count": 2,
+          "holder_count": 1,
+          "signal_ids": [
+            "s005",
+            "s006"
+          ]
+        },
+        "materiality": null,
+        "authorship": null,
+        "reproduction": null,
+        "control": null,
+        "social_affect": null,
+        "political_stance": null
+      }
+    },
+    "context/antropofagia-1928-1930s": {
+      "label_ja": "1928–1929年・サンパウロのアントロポファジア",
+      "kind": "historical",
+      "status": "draft",
+      "scope": {
+        "start": "1928-05",
+        "end": "1929-08",
+        "regions": [
+          "americas-latin"
+        ],
+        "domain": "art",
+        "topics": [
+          "antropofagia",
+          "brazilian-modernism"
+        ]
+      },
+      "about": [
+        "movement/antropofagia"
+      ],
+      "coverage": 0.333333,
+      "vector": [
+        0.5,
+        null,
+        null,
+        1.0,
+        0.5,
+        1.0,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "dimensions": {
+        "temporal_orientation": {
+          "value": 0.5,
+          "salience": 0.444444,
+          "polarization": 0.0,
+          "confidence": 0.25,
+          "signal_count": 2,
+          "source_count": 2,
+          "holder_count": 1,
+          "signal_ids": [
+            "s001",
+            "s002"
+          ]
+        },
+        "technology_stance": null,
+        "change_pace": null,
+        "institution_stance": {
+          "value": 1.0,
+          "salience": 0.444444,
+          "polarization": 0.0,
+          "confidence": 0.25,
+          "signal_count": 2,
+          "source_count": 2,
+          "holder_count": 1,
+          "signal_ids": [
+            "s003",
+            "s004"
+          ]
+        },
+        "agency_model": {
+          "value": 0.5,
+          "salience": 0.444444,
+          "polarization": 0.0,
+          "confidence": 0.583333,
+          "signal_count": 2,
+          "source_count": 2,
+          "holder_count": 2,
+          "signal_ids": [
+            "s007",
+            "s008"
+          ]
+        },
+        "boundary_stance": {
+          "value": 1.0,
+          "salience": 0.666667,
+          "polarization": 0.0,
+          "confidence": 0.25,
+          "signal_count": 2,
+          "source_count": 2,
+          "holder_count": 1,
+          "signal_ids": [
+            "s005",
+            "s006"
+          ]
+        },
+        "materiality": null,
+        "authorship": null,
+        "reproduction": null,
+        "control": null,
+        "social_affect": null,
+        "political_stance": null
+      }
+    },
+    "context/dada-1916-1924": {
+      "label_ja": "1916–1924年・ダダの国際的展開",
+      "kind": "historical",
+      "status": "draft",
+      "scope": {
+        "start": "1916",
+        "end": "1924",
+        "regions": [
+          "europe-west",
+          "americas-north"
+        ],
+        "domain": "art",
+        "topics": [
+          "dada",
+          "avant-garde"
+        ]
+      },
+      "about": [
+        "movement/dada"
+      ],
+      "coverage": 0.333333,
+      "vector": [
+        0.5,
+        null,
+        null,
+        1.0,
+        1.0,
+        1.0,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "dimensions": {
+        "temporal_orientation": {
+          "value": 0.5,
+          "salience": 0.444444,
+          "polarization": 0.0,
+          "confidence": 0.25,
+          "signal_count": 2,
+          "source_count": 2,
+          "holder_count": 1,
+          "signal_ids": [
+            "s001",
+            "s002"
+          ]
+        },
+        "technology_stance": null,
+        "change_pace": null,
+        "institution_stance": {
+          "value": 1.0,
+          "salience": 0.555556,
+          "polarization": 0.0,
+          "confidence": 0.25,
+          "signal_count": 2,
+          "source_count": 2,
+          "holder_count": 1,
+          "signal_ids": [
+            "s003",
+            "s004"
+          ]
+        },
+        "agency_model": {
+          "value": 1.0,
+          "salience": 0.444444,
+          "polarization": 0.0,
+          "confidence": 0.25,
+          "signal_count": 2,
+          "source_count": 2,
+          "holder_count": 1,
+          "signal_ids": [
+            "s007",
+            "s008"
+          ]
+        },
+        "boundary_stance": {
+          "value": 1.0,
+          "salience": 0.666667,
+          "polarization": 0.0,
+          "confidence": 0.25,
+          "signal_count": 2,
+          "source_count": 2,
+          "holder_count": 1,
+          "signal_ids": [
+            "s005",
+            "s006"
+          ]
+        },
+        "materiality": null,
+        "authorship": null,
+        "reproduction": null,
+        "control": null,
+        "social_affect": null,
+        "political_stance": null
+      }
+    },
+    "context/futurism-1909-1914": {
+      "label_ja": "1909–1914年・イタリア未来派の成立期",
+      "kind": "historical",
+      "status": "draft",
+      "scope": {
+        "start": "1909",
+        "end": "1914",
+        "regions": [
+          "europe-west"
+        ],
+        "domain": "art",
+        "topics": [
+          "futurism",
+          "avant-garde"
+        ]
+      },
+      "about": [
+        "movement/futurism"
+      ],
+      "coverage": 0.333333,
+      "vector": [
+        1.0,
+        null,
+        null,
+        1.0,
+        0.5,
+        1.0,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "dimensions": {
+        "temporal_orientation": {
+          "value": 1.0,
+          "salience": 0.666667,
+          "polarization": 0.0,
+          "confidence": 0.583333,
+          "signal_count": 2,
+          "source_count": 2,
+          "holder_count": 2,
+          "signal_ids": [
+            "s001",
+            "s002"
+          ]
+        },
+        "technology_stance": null,
+        "change_pace": null,
+        "institution_stance": {
+          "value": 1.0,
+          "salience": 0.555556,
+          "polarization": 0.0,
+          "confidence": 0.6,
+          "signal_count": 2,
+          "source_count": 2,
+          "holder_count": 2,
+          "signal_ids": [
+            "s003",
+            "s004"
+          ]
+        },
+        "agency_model": {
+          "value": 0.5,
+          "salience": 0.444444,
+          "polarization": 0.0,
+          "confidence": 0.583333,
+          "signal_count": 2,
+          "source_count": 2,
+          "holder_count": 2,
+          "signal_ids": [
+            "s007",
+            "s008"
+          ]
+        },
+        "boundary_stance": {
+          "value": 1.0,
+          "salience": 0.444444,
+          "polarization": 0.0,
+          "confidence": 0.25,
+          "signal_count": 2,
+          "source_count": 2,
+          "holder_count": 1,
+          "signal_ids": [
+            "s005",
+            "s006"
+          ]
+        },
+        "materiality": null,
+        "authorship": null,
+        "reproduction": null,
+        "control": null,
+        "social_affect": null,
+        "political_stance": null
+      }
+    }
+  }
+}

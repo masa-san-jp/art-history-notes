@@ -17,8 +17,10 @@
 ```
 entities/          1エンティティ1ファイル。frontmatter が唯一の正
   movements/  persons/  works/  orgs/  places/  concepts/  events/  sources/
+contexts/          時期×文化圏×アート領域を限定した、根拠付き時代文脈スナップショット
 overviews/         俯瞰。coverage.md の表は生成物（手で書き換えない）
 config/            regions.yaml = 文化圏13バケットと受け入れ条件の閾値
+                   context-dimensions.yaml = 文脈比較の固定12軸
 docs/
   schema.md            型・必須項目・関係語彙・EDTF・claims。書く前に読む
   investigation-task.md 1件の調査の手順（Sonnet が単独で1件を終えられる粒度）
@@ -29,7 +31,10 @@ tools/
   new_entity.py      必須項目が入った雛形を作る
   build_graph.py     検証 → data/graph.json・data/coverage.json・被覆マップ更新
   bundle.py          知識のまとまりを1文書として取り出す
-data/              生成物（graph.json / coverage.json）
+  context_kb.py      contextの検証・ベクトル計算・比較
+  build_context_vectors.py  context生成物を決定論的に作る
+  compare_context.py context間の類似と相違を根拠付きで表示する
+data/              生成物（graph / coverage / context vectors / context similarity）
 ```
 
 ## 3軸をどう持っているか
@@ -61,9 +66,14 @@ python3 tools/bundle.py movement/kano-school        # 1件とその周辺を1文
 python3 tools/bundle.py --region asia-east-japan    # 文化圏でまとめて
 python3 tools/bundle.py --century 19                # 世紀でまとめて
 python3 tools/audit.py                              # 体系の食い違い・偏り → 次に調べること
+python3 tools/build_context_vectors.py --check      # 時代文脈の検証だけ
+python3 tools/build_context_vectors.py              # ベクトル・類似度を生成
+python3 tools/compare_context.py context/ai-art-japan-2026-h2 --kind historical --top 10
 ```
 
 1件の調査は [docs/investigation-task.md](docs/investigation-task.md) の手順だけで終わる。
+時代文脈は [docs/context-investigation-task.md](docs/context-investigation-task.md) の手順で調査し、
+[docs/context-vectors.md](docs/context-vectors.md) の固定式で比較する。
 
 **他の人格（アイコたち）が読むときは [docs/for-other-personas.md](docs/for-other-personas.md) から。**
 このKBの使い手はアイコたちで、引用してよい記述とだめな記述の区別がそこに書いてある。
