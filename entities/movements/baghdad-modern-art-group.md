@@ -30,6 +30,7 @@ space:
   - {role: originated_in, target: place/baghdad}
 relations:
   - {type: created_by, target: person/shakir-hassan-al-said}
+  - {type: influenced_by, target: movement/baghdad-school-of-illustration, certainty: attested, source: "https://mathaf.org.qa/en/encyclopedia/essays/jewad-selim-on-abstraction-and-symbolism/"}
 sources:
   - https://www.wikidata.org/wiki/Q16123956
   - https://www.wikidata.org/wiki/Q2720307
@@ -157,6 +158,36 @@ claimは無い。
 
 **未確認**: 結成後の活動がバグダード以外の都市（イラク国外の留学先パリ・ローマ・ロンドンなど）
 にどう波及したかは未着手。現状は結成地のみを `originated_in` として張っている。
+
+### 時間をさかのぼる接続——宣言文が700年前の断絶を名指す
+
+`influenced_by` を[バグダード派細密画](baghdad-school-of-illustration.md)へ張った。**空間を横断する
+関係ではなく、同じ土地の700年前へ向かう関係である。**
+
+宣言文はこう述べる——「We will build that which was destroyed in the realm of pictorial art in
+Iraq since the thirteenth-century school of Yahya Al-Wasiti and we will connect the chain that was
+broken when Baghdad fell to the hands of the Mongols」（13世紀のヤヒヤー・アル=ワースィティーの
+派以来イラクの絵画において破壊されたものを、われわれは築き直す。モンゴルによるバグダード陥落で
+断たれた鎖を、われわれは繋ぎ直す）。カタール・アラブ近代美術館（Mathaf）の百科事典に収められた
+ナダ・シャブート博士の論考が引用する
+（[mathaf.org.qa](https://mathaf.org.qa/en/encyclopedia/essays/jewad-selim-on-abstraction-and-symbolism/)）。
+
+`certainty` を `attested` としたのは、この文言が研究者の解釈ではなく**当事者が発表した宣言文の
+言葉**だからである（ただし宣言文原本には未到達で、引用はシャブートの論考を介している——
+この点は下記「未着手」に既載）。**影響元を名指したのが後代の史家ではなく当事者自身であり、
+しかも「断たれた鎖を繋ぎ直す」という形で700年の空白ごと引き受けている**点が、この関係の性格を
+決めている。通常の `influenced_by` が担い手の同時代的な接触を含意するのに対し、ここでは接触の
+経路は存在しない——あるのは意志による接続である。
+
+**ヨーロッパ近代美術の側は、あえて movement のエッジにしなかった。** サリームはパリ（1938-1939年）・
+ローマ（1939-1940年）・イングランド（1946-1948年）で学び、シャブートの論考は彼が「ピカソとヘンリー・
+ムーアの仕事を賞賛し評価した」こと、「印象派・ポスト印象派において色彩を発見した」ことを記す
+（同）。だがこれらはいずれも**サリーム個人の受容についての記述**であり、グループを主語にした
+影響の言明ではない。むしろ同論考は、グループが純粋なヨーロッパ近代美術ではなく中世イスラーム美術に
+拠って自らを位置づけたと整理している。個人の経歴を根拠にグループ単位の `influenced_by` を
+[キュビスム](cubism.md)等へ張ると、宣言文が明示した力点を逆向きに歪めるため、本文の記述に留めた。
+**張るとすれば `person/jewad-selim` を立てて個人の側に張るのが正しい形**——ただし本KBにこの person は
+まだ無い。
 
 ## 未着手
 

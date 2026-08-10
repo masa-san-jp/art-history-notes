@@ -812,6 +812,12 @@
         {
           "type": "created_by",
           "target": "person/shakir-hassan-al-said"
+        },
+        {
+          "type": "influenced_by",
+          "target": "movement/baghdad-school-of-illustration",
+          "certainty": "attested",
+          "source": "https://mathaf.org.qa/en/encyclopedia/essays/jewad-selim-on-abstraction-and-symbolism/"
         }
       ],
       "sources": [
@@ -13127,6 +13133,13 @@
     },
     {
       "from": "movement/baghdad-modern-art-group",
+      "type": "influenced_by",
+      "to": "movement/baghdad-school-of-illustration",
+      "certainty": "attested",
+      "source": "https://mathaf.org.qa/en/encyclopedia/essays/jewad-selim-on-abstraction-and-symbolism/"
+    },
+    {
+      "from": "movement/baghdad-modern-art-group",
       "type": "originated_in",
       "to": "place/baghdad"
     },
@@ -14462,6 +14475,12 @@
     {
       "from": "person/shakir-hassan-al-said",
       "type": "created",
+      "to": "movement/baghdad-modern-art-group",
+      "derived": true
+    },
+    {
+      "from": "movement/baghdad-school-of-illustration",
+      "type": "influenced",
       "to": "movement/baghdad-modern-art-group",
       "derived": true
     },
