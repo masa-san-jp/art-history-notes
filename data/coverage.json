@@ -1,9 +1,9 @@
 {
   "as_of": "2026-08-10",
-  "movement_total": 70,
+  "movement_total": 87,
   "movement_stub_excluded": 0,
   "by_status": {
-    "draft": 68,
+    "draft": 85,
     "stub": 0,
     "verified": 2
   },
@@ -20,14 +20,22 @@
       "17": 1
     },
     "americas-latin": {
-      "20": 3,
+      "20": 5,
       "16": 2
     },
     "mena": {
-      "20": 2,
+      "20": 3,
       "12": 1,
+      "4": 1,
       "15": 1,
-      "16": 1
+      "18": 1,
+      "16": 1,
+      "14": 1
+    },
+    "oceania": {
+      "unknown": 3,
+      "19": 1,
+      "20": 1
     },
     "asia-southeast": {
       "20": 4,
@@ -35,12 +43,12 @@
     },
     "europe-west": {
       "19": 4,
-      "20": 3,
+      "20": 5,
       "13": 1,
       "15": 1
     },
     "asia-south": {
-      "17": 2,
+      "17": 3,
       "20": 1,
       "18": 2,
       "16": 2
@@ -49,6 +57,7 @@
       "13": 1,
       "20": 3,
       "17": 1,
+      "11": 1,
       "unknown": 1
     },
     "europe-east": {
@@ -56,54 +65,57 @@
       "12": 1,
       "19": 1
     },
-    "asia-central": {
-      "15": 2,
-      "17": 1
-    },
-    "oceania": {
-      "unknown": 1,
-      "19": 1,
-      "20": 1
-    },
-    "asia-east-japan": {
-      "15": 2,
-      "18": 2,
-      "20": 1,
-      "19": 1,
-      "17": 1,
-      "9": 1
-    },
     "asia-east-china": {
+      "16": 1,
       "20": 1,
       "19": 1,
       "10": 1,
       "15": 2,
       "18": 1
+    },
+    "asia-east-japan": {
+      "20": 3,
+      "15": 2,
+      "18": 3,
+      "19": 1,
+      "17": 1,
+      "9": 1
+    },
+    "asia-central": {
+      "15": 2,
+      "17": 1
+    },
+    "origin-unknown": {
+      "11": 1
     }
   },
   "per_bucket": {
-    "europe-west": 9,
+    "europe-west": 11,
     "europe-east": 4,
     "americas-north": 4,
-    "mena": 5,
-    "africa-sub": 6,
+    "mena": 9,
+    "africa-sub": 7,
     "asia-central": 3,
-    "asia-south": 7,
+    "asia-south": 8,
     "asia-southeast": 5,
-    "asia-east-china": 6,
+    "asia-east-china": 7,
     "asia-east-korea": 5,
-    "asia-east-japan": 8,
-    "americas-latin": 5,
-    "oceania": 3
+    "asia-east-japan": 11,
+    "americas-latin": 7,
+    "oceania": 5
   },
-  "origin_unknown": [],
+  "origin_unknown": [
+    "movement/literati-painting"
+  ],
   "origin_multiple": [],
-  "isolated": [],
+  "isolated": [
+    "movement/literati-painting"
+  ],
   "progress": {
-    "movement_total": "70/100（stub 0件は不算入）",
-    "non_west_ratio": "0.76/0.5",
+    "movement_total": "87/100（stub 0件は不算入）",
+    "non_west_ratio": "0.77/0.5",
     "per_bucket_min": "13/13 バケットが 3件以上",
-    "pre_1800_ratio": "0.49/0.3",
-    "isolated_ratio": "0.00（上限 0.1）"
+    "pre_1800_ratio": "0.48/0.3",
+    "isolated_ratio": "0.01（上限 0.1）"
   }
 }

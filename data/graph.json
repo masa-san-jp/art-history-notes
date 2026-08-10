@@ -438,6 +438,240 @@
       "updated": "2026-08-09",
       "path": "entities/movements/antropofagia.md"
     },
+    "movement/art-et-liberte": {
+      "id": "movement/art-et-liberte",
+      "uri": "urn:ahn:movement/art-et-liberte",
+      "type": "movement",
+      "label_ja": "アール・エ・リベルテ",
+      "label_en": "Art et Liberté",
+      "authority": {
+        "wikidata": "Q65080389",
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": "1939",
+        "end": "1948",
+        "display": "1938年12月22日（宣言『頽廃芸術万歳（Vive l'Art Dégénéré）』発表）〜1939年1月19日（アール・エ・リベルテの名で正式結成）〜1948年（活動終了。複数の巡回展タイトルが『1938–1948』と区切る）"
+      },
+      "kind": "self-declared",
+      "founding_control": "shared",
+      "naming": {
+        "self_identified": true,
+        "named_by": null,
+        "named_when": "1939",
+        "original_label": "Art et Liberté（アラビア語: جماعة الفن والحرية、ラテン翻字: Jama'at al-Fann wa'l-Hurriya）",
+        "note": "1938年12月22日の宣言文『頽廃芸術万歳』の時点ではまだ『アール・エ・リベルテ』という団体名は確立しておらず（署名は個人名の列挙のみ）、1939年1月19日の正式結成に際してこの名（フランス語）とアラビア語名が採用されたと複数の学術寄りの記述（Tate Etc、英語版Wikipedia）が一致して記す。フランス語とアラビア語の両方で名乗った点は、宣言文自体が仏語・アラビア語の両方で印刷・配布されたことと対応する"
+      },
+      "claims": [
+        {
+          "field": "kind",
+          "source": "https://libcom.org/article/vive-lart-degenere",
+          "certainty": "attested"
+        },
+        {
+          "field": "originated_in",
+          "source": "https://www.wikidata.org/wiki/Q65080389",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "time",
+          "source": "https://www.tate.org.uk/tate-etc/issue-41-autumn-2017/surrealism-egypt-long-live-degenerate-art-clare-davies",
+          "certainty": "scholarly"
+        }
+      ],
+      "space": [
+        {
+          "role": "originated_in",
+          "target": "place/cairo"
+        }
+      ],
+      "relations": [
+        {
+          "type": "influenced_by",
+          "target": "movement/surrealism",
+          "certainty": "scholarly",
+          "source": "https://www.tate.org.uk/tate-etc/issue-41-autumn-2017/surrealism-egypt-long-live-degenerate-art-clare-davies"
+        },
+        {
+          "type": "reacts_against",
+          "target": "movement/futurism",
+          "certainty": "scholarly",
+          "source": "https://universes.art/en/nafas/articles/2016/egyptian-surrealists"
+        },
+        {
+          "type": "created_by",
+          "target": "person/georges-henein"
+        },
+        {
+          "type": "created_by",
+          "target": "person/kamel-el-telmissany"
+        },
+        {
+          "type": "created_by",
+          "target": "person/ramses-younan"
+        }
+      ],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q65080389",
+        "https://en.wikipedia.org/wiki/Art_et_Libert%C3%A9",
+        "https://www.tate.org.uk/tate-etc/issue-41-autumn-2017/surrealism-egypt-long-live-degenerate-art-clare-davies",
+        "https://www.tate.org.uk/whats-on/tate-liverpool/surrealism-egypt-art-et-liberte-1938-1948",
+        "https://www.tate.org.uk/press/press-releases/surrealism-egypt-art-et-liberte-1938-1948",
+        "https://www.centrepompidou.fr/en/program/calendar/event/ce5nBKj",
+        "https://libcom.org/article/vive-lart-degenere",
+        "https://universes.art/en/nafas/articles/2016/egyptian-surrealists",
+        "https://www.sothebys.com/en/articles/the-birth-of-art-and-liberty-egypts-surrealist-art-movement",
+        "https://en.wikipedia.org/wiki/Georges_Henein",
+        "https://en.wikipedia.org/wiki/Kamel_el-Telmissany",
+        "https://en.wikipedia.org/wiki/Ramses_Younan"
+      ],
+      "status": "draft",
+      "updated": "2026-08-10",
+      "path": "entities/movements/art-et-liberte.md"
+    },
+    "movement/arte-madi": {
+      "id": "movement/arte-madi",
+      "uri": "urn:ahn:movement/arte-madi",
+      "type": "movement",
+      "kind": "self-declared",
+      "label_ja": "マディ",
+      "label_en": "Arte Madí",
+      "authority": {
+        "wikidata": "Q692924",
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "Getty AATを「madi」「Madi art」で検索したが、該当する概念（美術運動としてのマディ）は0件だった。ヒットしたのは無関係の3項目のみ（東アフリカ・南スーダンの民族様式Madi〈300263567〉、Ma'di語〈300388757〉、オーストラリア先住民Mutti Mutti様式〈300458774〉）。wikidataが取れているためnone_reasonは必須ではないが、検索した事実として残す（2026-08-10、AATServlet実測）"
+      },
+      "time": {
+        "start": "1946-08",
+        "end": null,
+        "display": "1946年8月（マニフェスト発表・第1回マディ展、ブエノスアイレス）。ただし結成年そのものは資料間で1944・1945・1946と食い違う（本文『時間』参照）"
+      },
+      "naming": {
+        "self_identified": true,
+        "named_by": null,
+        "named_when": "1946",
+        "original_label": "Madí",
+        "note": "「Madí」という語の由来自体が複数の資料間で一致せず、決着していない（詳細は本文『kind の判定』）。英語版Wikipediaは少なくとも4説を並べる: (1) コシツェ自身の言としてスペイン内戦時の共和派のスローガン『¡Madrid, Madrid, no pasarán!』に由来するという説、(2) アルデン・キン自身の名前 Carmelo Arden Quin の頭文字に由来するという説、(3) 『Materialismo Dialéctico（弁証法的唯物論）』の略とする説、(4) 『Movimiento Abstracción Dimensión Invención』の頭字語とする説。同記事はこれらと並べて『実際には意味を持たない語だった可能性』にも触れる（いずれも二次情報、出典は本文）。創始者の誰か1人が最初にこの語を選んだと確定できる一次資料には本KBは到達していないため、named_by は null にした"
+      },
+      "claims": [
+        {
+          "field": "kind",
+          "source": "https://kosice.com.ar/otros-recursos/los-textos/de-kosice/manifiesto-madi/",
+          "certainty": "attested"
+        },
+        {
+          "field": "originated_in",
+          "source": "https://kosice.com.ar/otros-recursos/los-textos/de-kosice/manifiesto-madi/",
+          "certainty": "attested"
+        },
+        {
+          "field": "time",
+          "source": "https://kosice.com.ar/otros-recursos/los-textos/de-kosice/manifiesto-madi/",
+          "certainty": "scholarly"
+        }
+      ],
+      "space": [
+        {
+          "role": "originated_in",
+          "target": "place/buenos-aires"
+        }
+      ],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/gyula-kosice"
+        }
+      ],
+      "sources": [
+        "https://kosice.com.ar/otros-recursos/los-textos/de-kosice/manifiesto-madi/",
+        "https://kosice.com.ar/el-artista/linea-de-tiempo/",
+        "https://www.museoreinasofia.es/en/exhibitions/arte-madi",
+        "https://www.tate.org.uk/art/art-terms/a/arte-madi",
+        "https://en.wikipedia.org/wiki/Mad%C3%AD",
+        "https://en.wikipedia.org/wiki/Carmelo_Arden_Quin",
+        "https://masdearte.com/movimientos/madi/",
+        "https://www.wikidata.org/wiki/Q692924"
+      ],
+      "status": "draft",
+      "updated": "2026-08-10",
+      "path": "entities/movements/arte-madi.md"
+    },
+    "movement/asmat-carving": {
+      "id": "movement/asmat-carving",
+      "uri": "urn:ahn:movement/asmat-carving",
+      "type": "movement",
+      "label_ja": "アスマットの彫刻",
+      "label_en": "Asmat carving",
+      "authority": {
+        "wikidata": "Q643103",
+        "aat": "300021903",
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": null,
+        "end": "..",
+        "display": "彫刻という実践そのものに開始年はない——起源は祖先崇拝と首狩りの宇宙観に置かれ、年代を 持たない。ヨーロッパ人との最初の接触は1623年3月10日、オランダの探検家ヤン・カルステンス （Encyclopedia of World Cultures、二次情報）。恒常的な西洋との接触は、1938年にアガツに 開設されたオランダの行政拠点（第二次大戦で1942年に一時閉鎖）と、1953年に宣教師ヘラルト・ ゼグワールトがアガツを政庁・カトリック布教の拠点として再建したことに始まる（everyculture.com、 二次情報）。彫刻の実践自体は現在もビス儀礼・盾儀礼として続いており、宣教活動はこれを 禁止するのではなく適応させたカトリック典礼に組み込んだ（同記事）"
+      },
+      "kind": "lineage-school",
+      "naming": {
+        "self_identified": false,
+        "named_by": null,
+        "named_when": null,
+        "original_label": "Asmat",
+        "note": "「アスマット」という語の由来は出典間で一致しない。ある記述は「As-amat（われら樹上の 民）」を語源とし、アスマット自身が集団を指して「asmat-ow（真の人間）」と自称すると記す （Encyclopedia of World Cultures、二次情報）。別の記述は「As Akat（正しい人間）」を語源と するアスマット側の説明を伝える一方、隣接するミミカの人々はこの語を「人食い」の意で使うと する（factsanddetails.com、二次情報の孫引き）。**未確認**: いずれの語源説が学術的に確立 しているか、一次資料には未到達。加えてWikipedia \"Asmat people\"は「アスマットは12の異なる 民族下位集団を包括する総称と考えてよい」と記し、下位集団の1つチタック（Citak、別名 Yupmakcain／Brazza）は自らを「Kau」と呼び「別の部族」と考えているという（同記事）。 総称としての「アスマット」が全ての下位集団に自称として通用するとは言えないため、 self_identified は false とした——ただし、この判断はイアトムルの調査で見た 「ベイトソンが自ら疑いつつ導入した」ような明確な単一の命名者・命名事件を伴わない点で 性格が異なる。named_by・named_when を特定できる資料には本調査では到達していない"
+      },
+      "claims": [
+        {
+          "field": "kind",
+          "source": "https://www.wichita.edu/museums/holmes/asmat.php",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "originated_in",
+          "source": "https://www.wikidata.org/wiki/Q27228",
+          "certainty": "scholarly"
+        }
+      ],
+      "space": [
+        {
+          "role": "originated_in",
+          "target": "place/asmat-regency"
+        }
+      ],
+      "relations": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q643103",
+        "https://www.wikidata.org/wiki/Q27228",
+        "https://www.wikidata.org/wiki/Q2074546",
+        "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300021903",
+        "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300264812",
+        "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300264813",
+        "https://en.wikipedia.org/wiki/Asmat_people",
+        "https://en.wikipedia.org/wiki/Bisj_pole",
+        "https://en.wikipedia.org/wiki/Michael_Rockefeller",
+        "https://en.wikipedia.org/wiki/Museum_of_Primitive_Art",
+        "https://en.wikipedia.org/wiki/Dutch_New_Guinea",
+        "https://www.wichita.edu/museums/holmes/asmat.php",
+        "https://www.everyculture.com/wc/Germany-to-Jamaica/Asmat.html",
+        "https://www.everyculture.com/Oceania/Asmat-History-and-Cultural-Relations.html",
+        "https://www.encyclopedia.com/places/australia-and-oceania/pacific-islands-political-geography/asmat",
+        "https://collectionapi.metmuseum.org/public/collection/v1/objects/313830",
+        "https://www.metmuseum.org/art/collection/search/313830",
+        "https://www.metmuseum.org/art/collection/search/311715",
+        "https://anthrosource.onlinelibrary.wiley.com/doi/10.1525/aa.1959.61.6.02a00080",
+        "https://www.degruyterbrill.com/document/doi/10.1515/9783111387505/html"
+      ],
+      "status": "draft",
+      "updated": "2026-08-10",
+      "path": "entities/movements/asmat-carving.md"
+    },
     "movement/baghdad-modern-art-group": {
       "id": "movement/baghdad-modern-art-group",
       "uri": "urn:ahn:movement/baghdad-modern-art-group",
@@ -1007,6 +1241,94 @@
       "updated": "2026-08-09",
       "path": "entities/movements/benin-court-art.md"
     },
+    "movement/byzantine-art": {
+      "id": "movement/byzantine-art",
+      "uri": "urn:ahn:movement/byzantine-art",
+      "type": "movement",
+      "kind": "period-style",
+      "label_ja": "ビザンティン美術",
+      "label_en": "Byzantine art",
+      "authority": {
+        "wikidata": "Q211884",
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "Getty AATServletは「Byzantine art」「Byzantine」の検索でHTTP 400を返し続けた。コントロールクエリ（「painting」単体）でも同様にHTTP 400で、2026-08-10にcurlで再現確認——これは語がAATに無いことの確認ではなく、検索サービス自体が到達不能な状態だったという意味（docs/investigation-task.mdが記す2026-08-08時点の既知の制約と一致する）。SPARQLエンドポイント（vocab.getty.edu/sparql）も「Service temporarily degraded」または301リダイレクトを返し続け、到達できなかった。WikidataのQ211884自身もP1014（Getty AAT ID）のclaimを持たない"
+      },
+      "time": {
+        "start": "0330",
+        "end": "1453",
+        "display": "4世紀（330年、コンスタンティヌス1世によるコンスタンティノープル建設）〜1453年（オスマン帝国のメフメト2世によるコンスタンティノープル陥落）。英語版Wikipediaは初期（Edict of Milan＝313年〜842年）・中期（843〜1204年）・後期（1204〜1453年）・ポスト・ビザンティン（1453年以降）の4区分を挙げる一方、TheArtStory等の別の区分では初期（330年頃〜726/730年、ユスティニアヌス1世治世527〜565年が頂点）・イコノクラスム期（726/730〜843年、787〜815年の聖像復活期を挟む二段階）・中期＝マケドニア朝〜コムネノス朝期（843〜1204年、いわゆる『マケドニア朝ルネサンス』）・ラテン帝国支配期（1204〜1261年）・後期＝パレオロゴス朝期（1261〜1453年）という区分を用いる——出典間で「イコノクラスム期を初期に含めるか、独立した断絶期として切り出すか」が割れている"
+      },
+      "naming": {
+        "self_identified": false,
+        "named_by": null,
+        "named_when": null,
+        "original_label": null,
+        "note": "当事者（東ローマ帝国の住民・美術の担い手）は自らを「Ῥωμαῖοι」（ロマイオイ、ローマ人）と呼び、国家を「Ῥωμανία」（ロマニア、ローマの地）と呼んだ。英語版Wikipedia「Byzantine Empire」の呼称節は、「Byzantine」という語はもともと古代都市ビザンティオン（コンスタンティノープルの旧名）の住民だけを指し、帝国そのものを指す語ではなかったとし、この語の使用が広がった端緒はテオドロス・メトキテスまたはラオニコス・ハルココンディレスに遡るともされ、その用法を広めたのがヒエロニムス・ヴォルフだったと記す。英語版Wikipedia「Hieronymus Wolf」によれば、ヴォルフは1557年に『Corpus Historiae Byzantinae』を著し、東ローマ帝国を『Byzantinae』と呼んだ最初期の人物とされ、この用語はその後西欧の学者の間に広まり、東ローマ帝国自身の呼称（ロマニア）を置き換えていった。ただし、この1557年の命名は帝国そのものの歴史学上の呼称であり、『ビザンティン美術』という美術史上の様式区分としての用法は別段階を踏む——TheArtStory「Byzantine Art and Architecture Overview」は『Byzantine』という語が実践者自身によって用いられたことはなく、美術史家の間で広く採用されたのは19世紀に入ってからだと記す。したがって、帝国名としての命名（16世紀・ヴォルフ）と、美術様式区分としての命名（19世紀・特定不能な複数の美術史家）は別々の出来事であり、後者について単一の命名者・命名年を特定できる一次資料には当たっていない。**未確認**: 『ビザンティン美術』を美術史上の独立した様式区分として最初に用いた人物・年"
+      },
+      "claims": [
+        {
+          "field": "kind",
+          "source": "https://en.wikipedia.org/wiki/Byzantine_art",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "time",
+          "source": "https://en.wikipedia.org/wiki/Byzantine_art",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "originated_in",
+          "source": "https://en.wikipedia.org/wiki/Byzantine_art",
+          "certainty": "scholarly"
+        }
+      ],
+      "space": [
+        {
+          "role": "originated_in",
+          "target": "place/istanbul"
+        }
+      ],
+      "relations": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q211884",
+        "https://www.wikidata.org/wiki/Q12544",
+        "https://www.wikidata.org/wiki/Q928904",
+        "https://en.wikipedia.org/wiki/Byzantine_art",
+        "https://en.wikipedia.org/wiki/Byzantine_Empire",
+        "https://en.wikipedia.org/wiki/Hieronymus_Wolf",
+        "https://www.theartstory.org/movement/byzantine-art/",
+        "https://www.nationalgalleries.org/art-and-artists/glossary-terms/byzantine-art",
+        "https://www.britannica.com/place/Byzantine-Empire/The-age-of-Iconoclasm-717-867",
+        "https://www.metmuseum.org/art/collection/search/469960",
+        "https://www.metmuseum.org/art/collection/search/465946",
+        "https://www.metmuseum.org/art/collection/search/474336"
+      ],
+      "images": [
+        {
+          "url": "https://images.metmuseum.org/CRDImages/md/original/DP-37759-001.jpg",
+          "source_page": "https://www.metmuseum.org/art/collection/search/469960",
+          "license": "cc0",
+          "note": "《クティシス（創建・建設の擬人像）を描く床モザイクの断片》500〜550年頃（近代の修復あり）。大理石とガラス。メトロポリタン美術館蔵、文化区分は「Byzantine」（isPublicDomain: true）。ユスティニアヌス1世期の初期ビザンティン美術の例"
+        },
+        {
+          "url": "https://images.metmuseum.org/CRDImages/cl/original/DT11266.jpg",
+          "source_page": "https://www.metmuseum.org/art/collection/search/465946",
+          "license": "cc0",
+          "note": "《聖デメトリオスのイコン》950〜1000年頃、象牙。メトロポリタン美術館クロイスターズ蔵、文化区分は「Byzantine」（isPublicDomain: true）。マケドニア朝期（中期ビザンティン）の象牙彫刻の例"
+        },
+        {
+          "url": "https://images.metmuseum.org/CRDImages/md/original/DP-38912-001.jpg",
+          "source_page": "https://www.metmuseum.org/art/collection/search/474336",
+          "license": "cc0",
+          "note": "《聖母エレウーサの携帯用イコン》14世紀初頭。木製パネルに蝋で象嵌したミニアチュール・モザイク（金・多色石・鍍金銅）。メトロポリタン美術館蔵、制作地は「probably Constantinople（おそらくコンスタンティノープル）」と明記される（isPublicDomain: true）。パレオロゴス朝期（後期ビザンティン）の例"
+        }
+      ],
+      "status": "draft",
+      "updated": "2026-08-10",
+      "path": "entities/movements/byzantine-art.md"
+    },
     "movement/company-painting": {
       "id": "movement/company-painting",
       "uri": "urn:ahn:movement/company-painting",
@@ -1095,6 +1417,91 @@
       "status": "draft",
       "updated": "2026-08-09",
       "path": "entities/movements/company-painting.md"
+    },
+    "movement/cubism": {
+      "id": "movement/cubism",
+      "uri": "urn:ahn:movement/cubism",
+      "type": "movement",
+      "kind": "retrospective",
+      "label_ja": "キュビスム",
+      "label_en": "Cubism",
+      "authority": {
+        "wikidata": "Q42934",
+        "aat": "300021495",
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": "1907",
+        "end": "1920~",
+        "display": "1907年（ピカソ《アヴィニョンの娘たち》制作、二次情報ではプロト・キュビスムの起点とされる）〜1908年11月14日（ヴォークセルが『Gil Blas』紙でブラック個展評に「cubes」の語を使う）〜1911年（呼称が一般化し、サロン・デ・ザンデパンダン「サル41」の画家群を指すようになる）〜1912年（『Du \"Cubisme\"』刊行、担い手自身による初の理論書）〜1920年代初頭（Getty AATのscope noteが示す終期の目安）"
+      },
+      "naming": {
+        "self_identified": true,
+        "named_by": "person/louis-vauxcelles",
+        "named_when": "1908-11-14",
+        "original_label": "cubisme",
+        "note": "命名の起点は当事者ではなく批評家ルイ・ヴォークセルによる否定的な評言である。1908年11月14日付『Gil Blas』紙付録に掲載されたジョルジュ・ブラックのカーンワイラー画廊での個展評で、ヴォークセルは『Il méprise la forme, réduit tout, sites et figures et maisons, à des schémas géométriques, à des cubes（彼は形を軽蔑し、風景も人物も家屋もすべて幾何学的図式に、立方体に還元する）』と書いた。これが「cubes」の語の最初の使用として複数の二次資料で引用される。翌1909年3月25日、同紙で今度はブラック《レスタックの家々》评（さらに広い展示評）に触れて『bizarreries cubiques（立方体的な奇矯さ）』という句を使い、より名詞的な言い回しへ移った——ただし本KBはいずれも一次紙面そのものには到達できておらず、複数の独立した二次資料（学術書・美術館解説）が一致してこの文言を引用する状態に留まる。**未確認**: Gil Blas紙面そのもの（Gallica等）への到達。なお、ヴォークセル自身が後年語ったとされる『マティスがブラックの1908年サロン・ドートンヌ出品作を「小さな立方体でできた絵」と評した』という逸話も広く流布するが、これもヴォークセル本人の後年の回想に基づく二次的な逸話であり、当時の一次資料での裏付けは確認できていない——**未確認**。さらに遡ると、批評家ルイ・シャスヴァンが1906年、サロン・デ・ザンデパンダン評でジャン・メッツァンジェの技法を評して『a mosaicist like Signac, but ... more precise in his cutting of color cubes, which appear to have been made by a machine（色彩の立方体をより精密に切り出す、シニャックに似たモザイク作家）』と書いており、「cube」の語自体はヴォークセルの1908年評より2年半早く前衛絵画の批評に登場していたとする二次資料もある（後述の英語版Wikipedia各記事）。命名者を単独のヴォークセルに絞るか、シャスヴァンまで遡るかは確定していない——本KBはGetty AATが直接ヴォークセル/ブラック個展を起点と明示することに従い、named_byをヴォークセルに置いた。一方、当事者側の受け止めは一枚岩ではない。語が『一般化』したのは1911年で、当初は運動の中核とされるピカソ・ブラックではなく、サロン・デ・ザンデパンダン『サル41』に出品したメッツァンジェ・グレーズ・ドローネー・レジェ・ル・フォーコニエらを指す語として広まった。この一群のうちグレーズとメッツァンジェは1912年、担い手自身による初の理論書『Du \"Cubisme\"』を刊行し——書名がCubismeを引用符で囲む点は、外部から与えられた語への距離感を保ちつつも、その語を書名として積極的に採用したことを示す。一方ピカソ本人も、命名から15年後の1923年、マリウス・ド・ザヤスとの対話に基づく声明（『The Arts』誌1923年5月号、本人が英訳原稿を承認）の中で自らの制作を『cubism』の語で名指している（person/pablo-picasso参照）。命名の主体は外部（批評家）だが、その後当事者が引き受けた点は新印象派型（`docs/schema.md`）に近い——ただし引き受けが起きたのはピカソ・ブラック自身よりむしろサロン系の別の画家集団が先行しており、担い手の中でも受け止め方に時間差・温度差があった"
+      },
+      "claims": [
+        {
+          "field": "kind",
+          "source": "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300021495",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "time",
+          "source": "https://www.wikidata.org/wiki/Q42934",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "originated_in",
+          "source": "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300021495",
+          "certainty": "scholarly"
+        }
+      ],
+      "space": [
+        {
+          "role": "originated_in",
+          "target": "place/paris"
+        }
+      ],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/pablo-picasso"
+        },
+        {
+          "type": "created_by",
+          "target": "person/georges-braque"
+        },
+        {
+          "type": "influenced_by",
+          "target": "movement/post-impressionism",
+          "certainty": "scholarly",
+          "source": "https://www.theartstory.org/movement/cubism/"
+        }
+      ],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q42934",
+        "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300021495",
+        "https://www.wikidata.org/wiki/Q3006706",
+        "https://www.wikidata.org/wiki/Q3006708",
+        "https://en.wikipedia.org/wiki/Cubism",
+        "https://en.wikipedia.org/wiki/Du_%22Cubisme%22",
+        "https://en.wikipedia.org/wiki/Houses_at_l%27Estaque",
+        "https://en.wikipedia.org/wiki/Louis_Vauxcelles",
+        "https://en.wikipedia.org/wiki/Proto-Cubism",
+        "https://www.theartstory.org/movement/cubism/",
+        "https://www.theartstory.org/movement/salon-cubism/",
+        "https://wist.info/picasso-pablo/3147/",
+        "https://www.moma.org/collection/works/78984",
+        "https://www.tate.org.uk/art/art-terms/p/post-impressionism"
+      ],
+      "status": "draft",
+      "updated": "2026-08-10",
+      "path": "entities/movements/cubism.md"
     },
     "movement/cubo-futurism": {
       "id": "movement/cubo-futurism",
@@ -1255,6 +1662,82 @@
       "status": "draft",
       "updated": "2026-08-10",
       "path": "entities/movements/cusco-school.md"
+    },
+    "movement/dada": {
+      "id": "movement/dada",
+      "uri": "urn:ahn:movement/dada",
+      "type": "movement",
+      "label_ja": "ダダ",
+      "label_en": "Dada",
+      "authority": {
+        "wikidata": "Q6034",
+        "aat": "300021500",
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": "1916-07-14",
+        "end": "1924~",
+        "display": "1916年2月5日（チューリヒ、キャバレー・ヴォルテール開設）〜1916年5月（同館発行の冊子『Cabaret Voltaire』巻頭言に \"DADA\" の名が初出、二次情報。日付は資料により15日/31日で食い違う）〜1916年7月14日（フーゴ・バルがチューリヒのツア・ヴァーグ会館で『ダダ宣言』を朗読）〜1924年頃（パリでシュルレアリスムへ合流、二次情報）"
+      },
+      "kind": "self-declared",
+      "naming": {
+        "self_identified": true,
+        "named_by": null,
+        "named_when": "1916-05",
+        "original_label": "Dada",
+        "note": "命名者は特定できない。最も広く語られる由来譚は、リヒャルト・フーゼンベックとフーゴ・バルが仏独辞典にペーパーナイフを無作為に突き立て、指した語が「dada（フランス語で木馬）」だったというもの（Britannica、二次情報）。ただしフーゼンベックとツァラの間で後年『自分が選んだ』という主導権争いが起きており、単一の命名者は確定しない（英語版Wikipedia、二次情報）。named_by を null とするのはこの争いのためであり、命名の不在を意味しない——グループが1916年5月の巻頭言で自ら \"DADA\" と名乗ったこと自体は複数の資料が一致する"
+      },
+      "claims": [
+        {
+          "field": "kind",
+          "source": "https://writing.upenn.edu/library/Tzara_Dada-Manifesto_1918.pdf",
+          "certainty": "attested"
+        },
+        {
+          "field": "time",
+          "source": "https://en.wikipedia.org/wiki/Cabaret_Voltaire_(Zurich)",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "originated_in",
+          "source": "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300021500",
+          "certainty": "scholarly"
+        }
+      ],
+      "space": [
+        {
+          "role": "originated_in",
+          "target": "place/zurich"
+        },
+        {
+          "role": "active_in",
+          "target": "place/berlin"
+        },
+        {
+          "role": "active_in",
+          "target": "place/paris"
+        },
+        {
+          "role": "active_in",
+          "target": "place/new-york-city"
+        }
+      ],
+      "relations": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q6034",
+        "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300021500",
+        "https://en.wikipedia.org/wiki/Dada",
+        "https://en.wikipedia.org/wiki/Cabaret_Voltaire_(Zurich)",
+        "https://en.wikipedia.org/wiki/Cabaret_Voltaire_(magazine)",
+        "https://en.wikipedia.org/wiki/Dada_Manifesto",
+        "https://writing.upenn.edu/library/Tzara_Dada-Manifesto_1918.pdf",
+        "https://www.britannica.com/art/Dada"
+      ],
+      "status": "draft",
+      "updated": "2026-08-10",
+      "path": "entities/movements/dada.md"
     },
     "movement/dansaekhwa": {
       "id": "movement/dansaekhwa",
@@ -1577,6 +2060,104 @@
       "status": "draft",
       "updated": "2026-08-09",
       "path": "entities/movements/ecole-de-tunis.md"
+    },
+    "movement/four-wangs": {
+      "id": "movement/four-wangs",
+      "uri": "urn:ahn:movement/four-wangs",
+      "type": "movement",
+      "kind": "retrospective",
+      "label_ja": "四王",
+      "label_en": "Four Wangs",
+      "authority": {
+        "wikidata": "Q3099098",
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": "1592",
+        "end": "1717",
+        "display": "1592年（王時敏の生年）〜1717年（王翬の没年）。二世代・四人の生存期間で示す活動期"
+      },
+      "naming": {
+        "self_identified": false,
+        "named_by": null,
+        "named_when": null,
+        "original_label": "四王",
+        "note": "四人が生きた当時、自分たちを『四王』と名乗った一次的記述は見つからない。中国語版Wikipedia『王翬』は『王翬與王時敏、王鑑、王原祁合稱「四王」，四人又與吳歷、惲壽平合稱「四王吳惲」或「清六家」』と書くが、誰が・いつ最初にこの4人をまとめて『四王』と呼んだかは記さない。**未確認**: 命名者・命名年。呉偉業が王時敏・王鑑を含む9人を同時代に『画中九友』と呼んだ記録は別にあるが（王鑑の項参照）、これは『四王』とは異なる括り（董其昌自身とその他5人を含み、王翬・王原祁は生まれる前）であり、同じ命名行為ではない"
+      },
+      "claims": [
+        {
+          "field": "kind",
+          "source": "https://zh.wikipedia.org/wiki/%E5%9B%9B%E7%8E%8B",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "originated_in",
+          "source": "https://zh.wikipedia.org/wiki/%E7%8E%8B%E6%97%B6%E6%95%8F",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "time",
+          "source": "https://zh.wikipedia.org/wiki/%E7%8E%8B%E6%97%B6%E6%95%8F",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "time",
+          "source": "https://zh.wikipedia.org/wiki/%E7%8E%8B%E7%BF%AC",
+          "certainty": "scholarly"
+        }
+      ],
+      "space": [
+        {
+          "role": "originated_in",
+          "target": "place/taicang"
+        }
+      ],
+      "relations": [
+        {
+          "type": "taught_by",
+          "target": "person/dong-qichang",
+          "source": "https://zh.wikipedia.org/wiki/%E7%8E%8B%E6%97%B6%E6%95%8F"
+        }
+      ],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q3099098",
+        "https://zh.wikipedia.org/wiki/%E5%9B%9B%E7%8E%8B",
+        "https://en.wikipedia.org/wiki/Four_Wangs",
+        "https://zh.wikipedia.org/wiki/%E7%8E%8B%E6%97%B6%E6%95%8F",
+        "https://zh.wikipedia.org/wiki/%E7%8E%8B%E9%91%91_%28%E7%95%AB%E5%AE%B6%29",
+        "https://zh.wikipedia.org/wiki/%E7%8E%8B%E7%BF%AC",
+        "https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%8E%9F%E7%A5%81",
+        "https://www.wikidata.org/wiki/Q716184",
+        "https://www.wikidata.org/wiki/Q711481",
+        "https://www.wikidata.org/wiki/Q716222",
+        "https://www.wikidata.org/wiki/Q716338"
+      ],
+      "images": [
+        {
+          "url": "https://www.artic.edu/iiif/2/d2c1e32e-f890-a12a-19e0-f8d638d19bdf/full/843,/0/default.jpg",
+          "source_page": "https://www.artic.edu/artworks/86233",
+          "license": "cc0",
+          "note": "王時敏《倣王蒙山水図（Landscape after Wang Meng）》1664年、シカゴ美術館蔵（is_public_domain: true）"
+        },
+        {
+          "url": "https://www.artic.edu/iiif/2/cd9e4fe1-7404-dbee-522f-8d8e0335a830/full/843,/0/default.jpg",
+          "source_page": "https://www.artic.edu/artworks/84767",
+          "license": "cc0",
+          "note": "王翬《竹坡図（The Bamboo Slope）》1710年、シカゴ美術館蔵（is_public_domain: true）"
+        },
+        {
+          "url": "https://www.artic.edu/iiif/2/ef334713-4300-07e6-3bfa-522290594226/full/843,/0/default.jpg",
+          "source_page": "https://www.artic.edu/artworks/75538",
+          "license": "cc0",
+          "note": "王原祁《倣黄公望山水図（Landscape after Huang Gongwang）》1701年、シカゴ美術館蔵（is_public_domain: true）"
+        }
+      ],
+      "status": "draft",
+      "updated": "2026-08-10",
+      "path": "entities/movements/four-wangs.md"
     },
     "movement/futurism": {
       "id": "movement/futurism",
@@ -1907,6 +2488,78 @@
       "updated": "2026-08-09",
       "path": "entities/movements/group-of-seven.md"
     },
+    "movement/gutai": {
+      "id": "movement/gutai",
+      "uri": "urn:ahn:movement/gutai",
+      "type": "movement",
+      "label_ja": "具体美術協会",
+      "label_en": "Gutai Art Association",
+      "authority": {
+        "wikidata": "Q1028956",
+        "aat": "300417399",
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": "1954",
+        "end": "1972-03-31",
+        "display": "1954年8月頃、兵庫県芦屋市に結成。1972年3月31日、前月（1972年2月10日）の吉原治良死去を受けて解散"
+      },
+      "kind": "self-declared",
+      "founding_control": "internal",
+      "naming": {
+        "self_identified": true,
+        "named_by": null,
+        "named_when": "1954",
+        "original_label": "具体美術協会",
+        "note": "命名者個人は資料間で確認できていない。artscape.jp（執筆・成相肇）は『会名は「精神が自由であることを具体的に提示」という理念に由来』とするのみで、提案者名は記さない。**未確認**: ウェブ上の一部の解説記事は名称の提案者を嶋本昭三とするが、出典として引ける一次資料・学術資料を確認できず採用しなかった"
+      },
+      "claims": [
+        {
+          "field": "kind",
+          "source": "https://www.bunka.go.jp/prmagazine/rensai/diary/diary_097.html",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "time",
+          "source": "https://www.wikidata.org/wiki/Q1028956",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "originated_in",
+          "source": "https://www.getty.edu/vow/AATFullDisplay?find=gutai&logic=AND&note=&english=Y&prev_page=1&subjectid=300417399",
+          "certainty": "scholarly"
+        }
+      ],
+      "space": [
+        {
+          "role": "originated_in",
+          "target": "place/ashiya"
+        }
+      ],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/jiro-yoshihara"
+        }
+      ],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q1028956",
+        "https://www.getty.edu/vow/AATFullDisplay?find=gutai&logic=AND&note=&english=Y&prev_page=1&subjectid=300417399",
+        "https://ja.wikipedia.org/wiki/%E5%85%B7%E4%BD%93%E7%BE%8E%E8%A1%93%E5%8D%94%E4%BC%9A",
+        "https://en.wikipedia.org/wiki/Gutai_group",
+        "https://artscape.jp/artword/5826/",
+        "https://www.bunka.go.jp/prmagazine/rensai/diary/diary_097.html",
+        "https://www.tokyoartbeat.com/articles/-/gutai-3-keywords-2022-10",
+        "https://www.museum.osaka-u.ac.jp/wp/wp-content/uploads/2018/03/kato2017.pdf",
+        "https://www.shozoshimamoto.org/en/critical_essays/the-gutai-manifesto-jiro-yoshihara/",
+        "https://391.org/manifestos/1956-gutai-manifesto-jiro-yoshihara/"
+      ],
+      "status": "draft",
+      "updated": "2026-08-10",
+      "path": "entities/movements/gutai.md"
+    },
     "movement/harlem-renaissance": {
       "id": "movement/harlem-renaissance",
       "uri": "urn:ahn:movement/harlem-renaissance",
@@ -2230,6 +2883,80 @@
       "updated": "2026-08-09",
       "path": "entities/movements/iatmul-carving.md"
     },
+    "movement/ife-art": {
+      "id": "movement/ife-art",
+      "uri": "urn:ahn:movement/ife-art",
+      "type": "movement",
+      "kind": "period-style",
+      "label_ja": "イフェ美術",
+      "label_en": "Ife art",
+      "authority": {
+        "wikidata": null,
+        "aat": "300015795",
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": "10XX",
+        "end": "14XX",
+        "display": "11世紀頃〜15世紀頃。メトロポリタン美術館のヘイルブルン美術史年表は、テラコッタ彫刻を主題とする論考の題名を『Ife Terracottas (1000–1400 A.D.)』とする一方、同館アフリカ・オセアニア・アメリカ美術部門による別の論考は『Between ca. 1200 and 1500, Ife developed into a flourishing artistic center』と記し、起点・終点ともに文献間で200〜300年の幅がある。考古学的な絶対年代の柱は、フランク・ウィレットが1950〜60年代にイタ・イェモオ遺跡で発掘したテラコッタ層の放射性炭素年代（ピーター・ガーレイクによる較正後の数値がオバララズ・ランド遺跡出土彫刻の年代1312〜1420年とほぼ同時期とされる）と、大英博物館所蔵の《ウンモニジェ屋敷出土の頭像》の熱ルミネッセンス年代（14世紀〜15世紀初頭）"
+      },
+      "naming": {
+        "self_identified": false,
+        "named_by": null,
+        "named_when": null,
+        "original_label": "Ife (ancient Nigerian style)",
+        "note": "Getty AATの優先語『Ife (ancient Nigerian style)』（300015795）は『ancient Nigerian styles and periods』の下に置かれた、20世紀の考古学・美術史記述による様式区分名。Wikidataにはこの括りに対応するmovement項目が無く（都市そのものの項目 Q180084『Ile Ife』、政体としての項目 Q110051642『Ife Empire』はあるが、いずれも美術様式の同一性を主張する項目ではない）、AAT単独を典拠とした。制作者自身がこの名で自らの仕事を呼んだ記録は当たった出典に無い。西洋での『発見』の起点は1910年、探検家レオ・フロベニウスがイフェで《オロクン頭像》を入手し『Und Afrika sprach』（1912年）で失われたアトランティスの遺物として紹介した出来事に遡るが、これは対象を広く知らしめた事件であって様式名の命名行為ではなく、『Ife style』という呼称を学術用語として最初に固定したのが誰かは未確認"
+      },
+      "claims": [
+        {
+          "field": "time",
+          "source": "https://web.archive.org/web/20251206081004/https://www.metmuseum.org/essays/ife-terracottas-1000-1400-a-d",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "originated_in",
+          "source": "https://www.wikidata.org/wiki/Q180084",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "kind",
+          "source": "https://www.suzanneprestonblier.com/uploads/1/2/5/9/125984883/blier_art_in_ancient__african_arts_blier.pdf",
+          "certainty": "scholarly"
+        }
+      ],
+      "space": [
+        {
+          "role": "originated_in",
+          "target": "place/ife"
+        }
+      ],
+      "relations": [],
+      "sources": [
+        "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&subjectid=300015795",
+        "https://www.wikidata.org/wiki/Q180084",
+        "https://www.wikidata.org/wiki/Q110051642",
+        "https://web.archive.org/web/20251206081004/https://www.metmuseum.org/essays/ife-terracottas-1000-1400-a-d",
+        "https://web.archive.org/web/20260219020416/https://www.metmuseum.org/essays/ife-from-ca-6th-century",
+        "https://www.suzanneprestonblier.com/uploads/1/2/5/9/125984883/blier_art_in_ancient__african_arts_blier.pdf",
+        "https://en.wikipedia.org/wiki/Bronze_Head_from_Ife",
+        "https://en.wikipedia.org/wiki/Timeline_of_Yoruba_history",
+        "https://en.wikipedia.org/wiki/Oguola",
+        "https://en.wikipedia.org/wiki/Igun_Street"
+      ],
+      "images": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/6/62/Ori_Olokun.jpg",
+          "source_page": "https://commons.wikimedia.org/wiki/File:Ori_Olokun.jpg",
+          "license": "public-domain",
+          "note": "《オロクン頭像（Ori Olokun）》。レオ・フロベニウスの著書『Und Afrika sprach』（1912年、p.311）掲載の写真の切り抜き。フロベニウス（1938年没）が1910年にイフェで入手し、失われたアトランティスの遺物として西洋に紹介したことでイフェ美術が広く知られる契機になった作例。現物の所在について像自体は複数の来歴の議論があり、大英博物館に模造が所蔵される（未確認: フロベニウスが持ち出した個体そのものの現在の所在）"
+        }
+      ],
+      "status": "draft",
+      "updated": "2026-08-10",
+      "path": "entities/movements/ife-art.md"
+    },
     "movement/impressionism": {
       "id": "movement/impressionism",
       "uri": "urn:ahn:movement/impressionism",
@@ -2334,6 +3061,87 @@
       "status": "verified",
       "updated": "2026-08-09",
       "path": "entities/movements/impressionism.md"
+    },
+    "movement/indigenismo": {
+      "id": "movement/indigenismo",
+      "uri": "urn:ahn:movement/indigenismo",
+      "type": "movement",
+      "label_ja": "インディヘニスモ",
+      "label_en": "Indigenismo",
+      "authority": {
+        "wikidata": "Q5602008",
+        "aat": "300107847",
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": "1919",
+        "end": null,
+        "display": "1919年（リマ、カサ・ブランデス画廊でのサボガル展「Impresiones del Ccoscco」＝絵画のインディヘニスモの形式的な始まりとされる）〜終期は出典間で一致せず未確定（本文参照）"
+      },
+      "kind": "retrospective",
+      "naming": {
+        "self_identified": true,
+        "named_by": null,
+        "named_when": null,
+        "original_label": "Indigenismo",
+        "note": "名称の来歴に二段階のねじれがある。①学術資料（Lorenzo 2015）は『インディヘニスモという呼称は、対立した思想潮流イスパニスモ側からの蔑称に由来するにもかかわらず、その名を保持した（conserva ese nombre a pesar de provenir de dichos peyorativos de sus opositores）』と明記する——命名者は特定の個人ではなく反対派（イスパニスモ陣営）一般とされ、named_by は特定できないため null にした。②当事者側の引き受けは、少なくとも二重に確認できる。画家カミロ・ブラス自身が1920年代の心境として『自分の土地と自分の民を描いていた、運動が生まれる前から知らずしてインディヘニスタだった（Pintaba mi tierra y mi pueblo, y sin saberlo era indigenista antes de que el movimiento hubiera surgido）』と後年語ったと伝わる（Zevallos 1991に引用、Villanueva Ccahuana 2021が孫引き、二次情報の孫引き）。サボガル自身も1943年8月21日、リマのレストラン『ラ・カバーニャ』で開かれた歓送会での答辞で『しかし、そうだ、我々は言葉の正しい意味におけるインディヘニスタである、さらに文化的インディヘニスタでもある（somos indigenistas en el justo significado de la palabra, y más aún, indigenistas culturales）』と述べたと複数の二次資料が伝える——ただしこの発言の一次資料（ICAA/MFAH Documents Project item 1140821『Homenaje a José Sabogal』が該当すると推定されるが、Cloudflareの遮断により本KBは本文を直接読めていない）は本KBが直接確認できていない。③一方でカミロ・ブラス自身は1969年、この運動を『誤って「インディヘニスタ」と呼ばれた（mal llamado 'indigenista'）』と後年批判しており、当事者内でも呼称の適否について緊張がある（Villanueva Ccahuana 2021）。以上から、名は外部（反対派）起源だが当事者が後から（1943年時点で明示的に）引き受けたと判断し、self_identified: true・kind: retrospective とした（新印象派の型と同じ構造）"
+      },
+      "founding_control": "external",
+      "claims": [
+        {
+          "field": "time",
+          "source": "https://en.wikipedia.org/wiki/Jos%C3%A9_Sabogal",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "originated_in",
+          "source": "https://www.museoreinasofia.es/en/activities/indigenisms",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "kind",
+          "source": "http://sedici.unlp.edu.ar/handle/10915/151286",
+          "certainty": "scholarly"
+        }
+      ],
+      "space": [
+        {
+          "role": "originated_in",
+          "target": "place/lima"
+        },
+        {
+          "role": "created_in",
+          "target": "place/cusco"
+        }
+      ],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/jose-sabogal"
+        }
+      ],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q5602008",
+        "https://www.getty.edu/vow/AATFullDisplay?find=&place=&nation=&logic=&note=&role=&subjectid=300107847",
+        "https://en.wikipedia.org/wiki/Jos%C3%A9_Sabogal",
+        "https://en.wikipedia.org/wiki/Indigenismo",
+        "https://www.wikidata.org/wiki/Q2093376",
+        "https://www.wikidata.org/wiki/Q5202236",
+        "https://www.wikidata.org/wiki/Q2868",
+        "http://sedici.unlp.edu.ar/handle/10915/151286",
+        "http://sedici.unlp.edu.ar/bitstream/handle/10915/151286/Documento_completo.pdf-PDFA.pdf?sequence=1",
+        "https://revistas.javeriana.edu.co/index.php/cma/article/view/villanueva",
+        "https://www.museoreinasofia.es/actividad/indigenismo-1-redes-vanguardia-amauta-america-latina-1926-1930/",
+        "https://www.museoreinasofia.es/en/activities/indigenisms",
+        "https://www.encyclopedia.com/humanities/encyclopedias-almanacs-transcripts-and-maps/sabogal-jose-1888-1956",
+        "https://repositorio.pucp.edu.pe/items/d84354b6-20b8-4ce4-8553-a1a2d27dd1bc",
+        "https://icaa.mfah.org/s/en/item/1140821"
+      ],
+      "status": "draft",
+      "updated": "2026-08-10",
+      "path": "entities/movements/indigenismo.md"
     },
     "movement/indochina-lacquer-painting": {
       "id": "movement/indochina-lacquer-painting",
@@ -2743,6 +3551,60 @@
       "updated": "2026-08-08",
       "path": "entities/movements/kano-school.md"
     },
+    "movement/kowhaiwhai": {
+      "id": "movement/kowhaiwhai",
+      "uri": "urn:ahn:movement/kowhaiwhai",
+      "type": "movement",
+      "label_ja": "コーワイワイ",
+      "label_en": "Kōwhaiwhai",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "Wikidataを複数の綴り（kowhaiwhai / kōwhaiwhai）で検索したが、ヒットするのはテ・パパ所蔵の個別絵画作品（Q28474182ほか、いずれも\"painting by Unknown\"の個別収蔵品）のみで、様式・技法そのものを指す項目が無い。英語版Wikipedia「Kōwhaiwhai」記事はそもそも存在せず「Koru（渦巻文様）」（Q3108354）へのリダイレクトになっており、Koruはコーワイワイの中心モチーフの1つを指す項目であって、赤黒白の彩色規則・命名された図案の集合・集会所装飾という慣習全体を指す項目ではない。「Whakairo」（Q7990459、彫刻）とも別概念。Getty AATは「kowhaiwhai」「maori painting」の両方で検索したが0件（https://www.getty.edu/vow/AATServlet?english=Y&find=kowhaiwhai&logic=AND&note=&page=1&subjectid=0 ／ 同URLのfind=maori+paintingで0件）。ンガーティ・タラーワイの彫刻調査で見つかった「Maori sculpture styles」(300264803)等の階層も彫刻専用で、絵付けには対応する項目が無い"
+      },
+      "time": {
+        "start": null,
+        "end": "..",
+        "display": "単一の開始年は無い。ヨーロッパ人との接触以前からの慣習と見られ、部族・地域により起源の語りが異なる。記録上最初期の作例は護（hoe・カヌーの櫂）に見られ、ヨーロッパ人が最初にこの意匠を目にしたのは18世紀とされる（二次情報、来歴の原典未確認）。大型装飾集会所（ワレ・ファカイロ）を彩る用途としては1840年代の北島東海岸に始まり、19世紀半ばに定着。1920〜30年代のロトルア彫刻学校、1960〜70年代の現代マオリ美術運動を経て現在も制作が続く"
+      },
+      "kind": "period-style",
+      "naming": {
+        "self_identified": true,
+        "named_by": null,
+        "named_when": null,
+        "original_label": "kōwhaiwhai",
+        "note": "「コーワイワイ」はマオリ語で赤黒白に彩色された渦巻・曲線文様の絵付けそのものを指す固有の語で、後代に外部（美術史家・批評家）が付けた呼称ではない。この語を使って自分たちの実践を語る当事者の言明が現在まで一貫している——マオリの美術サイトmaori.org.nzは「Reading Kowhaiwhai」というページを持ち（現在ドメインは失効、Wikipedia「Koru」記事が参照ページとして引用）、現代の作家による展覧会（Tim Melville Galleryの2019年展\"Kowhaiwhai\"）も同じ語をそのまま展覧会名に使っている。命名者・命名時期を特定できる単一の出来事は無い——**未確認**: 「コーワイワイ」という語自体がいつから使われているかの一次資料"
+      },
+      "claims": [],
+      "space": [
+        {
+          "role": "originated_in",
+          "target": "place/new-zealand"
+        }
+      ],
+      "relations": [],
+      "sources": [
+        "https://teara.govt.nz/en/1966/maori-art/page-8",
+        "https://teara.govt.nz/en/maori-architecture-whare-maori/page-2",
+        "https://teara.govt.nz/en/maori-architecture-whare-maori/page-3",
+        "https://teara.govt.nz/en/maori-architecture-whare-maori/page-4",
+        "https://en.wikipedia.org/wiki/Koru",
+        "https://en.wikipedia.org/wiki/Sandy_Adsett",
+        "https://en.wikipedia.org/wiki/Cliff_Whiting",
+        "https://www.timmelville.com/exhibition/kowhaiwhai/",
+        "http://collections.tepapa.govt.nz/Object/1444297",
+        "https://www.aucklandmuseum.com/collection/object/1207475",
+        "https://www.wikidata.org/wiki/Q3108354",
+        "https://www.wikidata.org/wiki/Q7990459",
+        "https://www.wikidata.org/wiki/Q664",
+        "https://www.getty.edu/vow/AATServlet?english=Y&find=kowhaiwhai&logic=AND&note=&page=1&subjectid=0"
+      ],
+      "status": "draft",
+      "updated": "2026-08-10",
+      "path": "entities/movements/kowhaiwhai.md"
+    },
     "movement/lingnan-school": {
       "id": "movement/lingnan-school",
       "uri": "urn:ahn:movement/lingnan-school",
@@ -2828,6 +3690,74 @@
       "status": "draft",
       "updated": "2026-08-09",
       "path": "entities/movements/lingnan-school.md"
+    },
+    "movement/literati-painting": {
+      "id": "movement/literati-painting",
+      "uri": "urn:ahn:movement/literati-painting",
+      "type": "movement",
+      "kind": "retrospective",
+      "label_ja": "文人画",
+      "label_en": "Literati painting",
+      "authority": {
+        "wikidata": "Q1142000",
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "Getty AAT ID 300106501 は Wikidata Q1142000 の P1014 が指す値だが、AAT 自体のスコープノートを直接引くと「斉白石（1863-1957）が率いた一派の作品」（Southern School (Chinese style)）を指しており、董其昌の南北宗論に基づく文人画／南宗画とは無関係の別対象である（Getty AAT 公式サイトの AATFullDisplay 検索結果、2026-08-10 実測）。誤ったIDを引き継ぐと典拠として機能しないため、aat は null のままにした"
+      },
+      "time": {
+        "start": "10XX",
+        "end": "1911~",
+        "display": "北宋（11世紀、蘇軾らによる理論の起こり）〜清末（1911年、科挙制度・士大夫階層の解体）。唐代の王維は董其昌によって後代から遡及的に「南宗」の祖とされた人物であり、活動の実年代（8世紀）は担い手の集合が自称し始めた時期ではないため time.start には採らなかった"
+      },
+      "naming": {
+        "self_identified": false,
+        "named_by": "person/dong-qichang",
+        "named_when": null,
+        "original_label": "南宗画",
+        "note": "北宋の蘇軾（1037-1101、Wikidata Q36020）が自らと同時代の士大夫による絵画を指す語を最初に用いたとされる（二次情報）。ただし用語そのものについて出典間で食い違いがある——中国語版Wikipedia「文人画」は蘇軾が「士人画」「墨戯」という語を用いたとし、Encyclopaedia Britannica（wenrenhua項、WebSearch経由の要約）は蘇軾（Su Dongpo）が用いた語を「shidafuhua（士夫画）」とする。**未確認**: 蘇軾自身がどちらの語を使ったか、原典（蘇軾の詩文・題跋）には当たっていない。その後、元代の趙孟頫・銭選が「士夫画」を論じ（中国語版Wikipedia、二次情報）、明代に董其昌（1555-1636、[person/dong-qichang](../persons/dong-qichang.md)）が「文人画」という語を提出し唐代の王維を始祖として推した、と中国語版Wikipediaは記す（二次情報）。董其昌はこれとは別に、禅宗の南宗・北宗の分裂という比喩を絵画史に借用して「南北宗論」を立て、画工の系統＝北宗、士大夫の系統＝南宗と分けた（英語版Wikipedia「Southern School」、Britannica「Dong Qichang」、いずれも二次情報）。「文人画」と「南宗画」は董其昌自身の議論の中でほぼ同義に使われているとされる（Britannica wenrenhua項要約）。`original_label` は南北宗論という体系名としての性格が強い「南宗画」を採ったが、董其昌が同じ文脈で「文人画」の語も用いたとされる（Britannica）ため、両者は同一人物の同一議論に由来する呼称と見てよい。蘇軾の時代（11世紀）にはこの体系化された名も、王維を祖とする系譜も存在しなかった——**当事者（蘇軾ら北宋の士大夫）は自らの実践を語る言葉こそ持っていたが、いま通用する『文人画』『南宗画』という体系名・系譜を作ったのは500年以上後の董其昌である**。以上から self_identified は false とした。『画禅室随筆』の成立年は zhe-school.md・dong-qichang.md がいずれも未確認としており、本項でも同様に未確認"
+      },
+      "claims": [
+        {
+          "field": "kind",
+          "source": "https://zh.wikipedia.org/wiki/%E6%96%87%E4%BA%BA%E7%94%BB",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "time",
+          "source": "https://en.wikipedia.org/wiki/Southern_School",
+          "certainty": "scholarly"
+        }
+      ],
+      "space": [],
+      "relations": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q1142000",
+        "https://ja.wikipedia.org/wiki/%E6%96%87%E4%BA%BA%E7%94%BB",
+        "https://zh.wikipedia.org/wiki/%E6%96%87%E4%BA%BA%E7%94%BB",
+        "https://en.wikipedia.org/wiki/Southern_School",
+        "https://www.britannica.com/art/wenrenhua",
+        "https://www.britannica.com/biography/Dong-Qichang",
+        "https://www.wikidata.org/wiki/Q36020",
+        "https://www.wikidata.org/wiki/Q313605"
+      ],
+      "images": [
+        {
+          "url": "https://www.artic.edu/iiif/2/5f28e5c2-9ccf-86f2-58f7-6fa4ca267cba/full/843,/0/default.jpg",
+          "source_page": "https://www.artic.edu/artworks/145677",
+          "license": "cc0",
+          "note": "倪瓚（元末四大家の一人）《林堂詩思図（Poetic Thoughts in a Forest Pavilion）》1371年頃。シカゴ美術館蔵（is_public_domain: true）。董其昌の南宗系譜で元代の要とされる画家の一人"
+        },
+        {
+          "url": "https://images.metmuseum.org/CRDImages/as/original/DP214271_CRD.jpg",
+          "source_page": "https://www.metmuseum.org/art/collection/search/49187",
+          "license": "cc0",
+          "note": "王原祁（清・四王の一人）《輞川図（Wangchuan Villa）》1711年。メトロポリタン美術館蔵（isPublicDomain: true）。王維の別荘「輞川」を主題とし、南宗の遡及的な祖・王維へ清代の正統派が意識的に立ち返っていたことを示す作例"
+        }
+      ],
+      "status": "draft",
+      "updated": "2026-08-10",
+      "path": "entities/movements/literati-painting.md"
     },
     "movement/maruyama-shijo-school": {
       "id": "movement/maruyama-shijo-school",
@@ -2956,6 +3886,101 @@
       "updated": "2026-08-09",
       "path": "entities/movements/menri-school.md"
     },
+    "movement/mewar-painting": {
+      "id": "movement/mewar-painting",
+      "uri": "urn:ahn:movement/mewar-painting",
+      "type": "movement",
+      "kind": "period-style",
+      "label_ja": "メーワール派",
+      "label_en": "Mewar painting",
+      "authority": {
+        "wikidata": null,
+        "aat": "300019040",
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": "1605",
+        "end": null,
+        "display": "現存最古の年紀作『チャーワンド・ラーガマーラー』（1605年）を起点とし、マハーラーナー・ジャガト・シング1世（在位1628〜1652年）治世下で最盛期を迎えた。19世紀前半までマハーラーナーの肖像画・宮廷絵が制作され続けたが（クリーブランド美術館所蔵の1835年作品まで確認）、様式としての単一の終息年は出典間で確認できない"
+      },
+      "naming": {
+        "self_identified": false,
+        "named_by": null,
+        "named_when": null,
+        "original_label": "Mewar painting",
+        "note": "担い手が自らこの名で名乗った記録は確認できていない。上位区分にあたる『ラージプト絵画（Rajput painting）』という呼称自体は、アナンダ・クーマラスワーミー（Ananda Coomaraswamy）が著書『Rajput Painting, Being an Account of the Hindu Paintings of Rajasthan and the Panjab Himalayas』（1916年）で導入したとWikipediaが伝える（同項目はGoswamyを出典として引く、二次情報）が、これは総称の命名であり、『メーワール派』という個別の呼称そのものの初出・命名者は未確認。Getty AATは『Udaipur』を同義語（UF）として持ち、地名（メーワールの主要な宮廷所在地）に由来する分類名であることを示す"
+      },
+      "claims": [
+        {
+          "field": "kind",
+          "source": "https://www.getty.edu/vow/AATFullDisplay?find=300019040&logic=AND&note=&subjectid=300019040",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "time",
+          "source": "https://en.wikipedia.org/wiki/Rajput_painting",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "originated_in",
+          "source": "https://www.getty.edu/vow/AATFullDisplay?find=300019040&logic=AND&note=&subjectid=300019040",
+          "certainty": "scholarly"
+        }
+      ],
+      "space": [
+        {
+          "role": "originated_in",
+          "target": "place/udaipur"
+        }
+      ],
+      "relations": [
+        {
+          "type": "influenced_by",
+          "target": "movement/mughal-painting",
+          "certainty": "scholarly",
+          "source": "https://en.wikipedia.org/wiki/Rajput_painting"
+        },
+        {
+          "type": "reacts_against",
+          "target": "movement/mughal-painting",
+          "certainty": "scholarly",
+          "source": "https://en.wikipedia.org/wiki/Rajput_painting"
+        }
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Rajput_painting",
+        "https://www.wikidata.org/wiki/Q2988788",
+        "https://www.wikidata.org/wiki/Q1518229",
+        "https://www.wikidata.org/wiki/Q17319155",
+        "https://www.wikidata.org/wiki/Q200340",
+        "https://www.getty.edu/vow/AATFullDisplay?find=300019040&logic=AND&note=&subjectid=300019040",
+        "https://aatesaurus.cultura.gencat.cat/aat/getty_en/index.php?%2Frajput=&tema=31367026",
+        "https://aatesaurus.cultura.gencat.cat/aat/getty_en/index.php?%2Fmewar=&tema=31434220",
+        "https://clevelandart.org/art/2018.136",
+        "https://openaccess-api.clevelandart.org/api/artworks/314441",
+        "https://clevelandart.org/art/2003.343",
+        "https://openaccess-api.clevelandart.org/api/artworks/162857"
+      ],
+      "images": [
+        {
+          "url": "https://openaccess-cdn.clevelandart.org/2018.136/2018.136_web.jpg",
+          "source_page": "https://clevelandart.org/art/2018.136",
+          "license": "cc0",
+          "note": "ナースィルッディーン（Nasiruddin）筆と伝わる《恋人を待つ女：グナカリー・ラーギニー》『チャーワンド・ラーガマーラー』連作より、1605年。チャーワンドは当時のメーワールの仮の都。クリーブランド美術館蔵（share_license_status: CC0）。同館はこの連作をメーワール絵画最初期の年紀作の1つとして記録する"
+        },
+        {
+          "url": "https://openaccess-cdn.clevelandart.org/2003.343/2003.343_web.jpg",
+          "source_page": "https://clevelandart.org/art/2003.343",
+          "license": "cc0",
+          "note": "《クリシュナとゴーピー》c.1660年。クリーブランド美術館蔵（share_license_status: CC0）。ジャガト・シング1世没後の時代のクリシュナ信仰主題の作例"
+        }
+      ],
+      "status": "draft",
+      "updated": "2026-08-10",
+      "path": "entities/movements/mewar-painting.md"
+    },
     "movement/mexican-muralism": {
       "id": "movement/mexican-muralism",
       "uri": "urn:ahn:movement/mexican-muralism",
@@ -3015,6 +4040,83 @@
       "status": "draft",
       "updated": "2026-08-09",
       "path": "entities/movements/mexican-muralism.md"
+    },
+    "movement/mingei": {
+      "id": "movement/mingei",
+      "uri": "urn:ahn:movement/mingei",
+      "type": "movement",
+      "label_ja": "民藝運動",
+      "label_en": "Mingei movement",
+      "authority": {
+        "wikidata": "Q3314961",
+        "aat": "300260035",
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": "1926",
+        "end": "..",
+        "display": "1925年末（「民藝」の造語、二次情報）〜1926年（「日本民藝美術館設立趣意書」発表）に始まり、1936年の日本民藝館開館を経て、日本民藝協会・日本民藝館として現在まで継続"
+      },
+      "kind": "self-declared",
+      "naming": {
+        "self_identified": true,
+        "named_by": "person/yanagi-soetsu",
+        "named_when": "1925",
+        "original_label": "民藝",
+        "note": "「民衆的工藝」を略した造語。柳宗悦が河井寬次郎・濱田庄司とともに、木喰仏の全国調査旅行の途上で作ったとされる（時期は複数の二次情報が1925年とするが、月については資料間で差がある）。京都の朝市で使われていた俗語「下手物」に代わる語として必要とされた。1926年、柳・河井・濱田に陶芸家・富本憲吉の賛同を加えた四人連名で「日本民藝美術館設立趣意書」を発表し、この語を公表した。四人の連名文書である以上、命名者を柳個人に単純化はできないが、`named_by`には主導者として柳宗悦を置いた"
+      },
+      "claims": [
+        {
+          "field": "kind",
+          "source": "https://www.wikidata.org/wiki/Q3314961",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "time",
+          "source": "https://mingeikan.or.jp/about/history/",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "originated_in",
+          "source": "https://mingeikan.or.jp/about/history/",
+          "certainty": "scholarly"
+        }
+      ],
+      "space": [
+        {
+          "role": "originated_in",
+          "target": "place/tokyo"
+        }
+      ],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/yanagi-soetsu"
+        }
+      ],
+      "images": [
+        {
+          "url": "https://images.metmuseum.org/CRDImages/as/original/DP-36798-002.jpg",
+          "source_page": "https://www.metmuseum.org/art/collection/search/36115",
+          "license": "cc0",
+          "note": "大津絵《歌舞伎「雁金五人男」の布袋市右衛門を演じる役者絵》、江戸時代・18世紀初頭、肉筆彩色木版、作者不明（Metropolitan Museum of Art所蔵、原題 “Ōtsu-e of Kabuki Actor Playing the Outlaw Hotei Ichiemon, of the ‘Karigane Five’”、Open Access）。柳宗悦は1929年『初期大津絵』で、無名の担い手による量産画である大津絵を「用の美」の実例として高く評価した"
+        }
+      ],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q3314961",
+        "https://www.getty.edu/vow/AATFullDisplay?find=mingei&logic=AND&note=&english=Y&prev_page=1&subjectid=300260035",
+        "https://en.wikipedia.org/wiki/Mingei",
+        "https://ja.wikipedia.org/wiki/%E6%B0%91%E8%97%9D%E9%81%8B%E5%8B%95",
+        "https://mingeikan.or.jp/about/history/",
+        "https://www.wikidata.org/wiki/Q904161",
+        "https://note.com/icingbox/n/n177b484fde56",
+        "https://www.metmuseum.org/art/collection/search/36115"
+      ],
+      "status": "draft",
+      "updated": "2026-08-10",
+      "path": "entities/movements/mingei.md"
     },
     "movement/mono-ha": {
       "id": "movement/mono-ha",
@@ -3175,6 +4277,77 @@
       "status": "draft",
       "updated": "2026-08-09",
       "path": "entities/movements/mughal-painting.md"
+    },
+    "movement/nanga": {
+      "id": "movement/nanga",
+      "uri": "urn:ahn:movement/nanga",
+      "type": "movement",
+      "kind": "retrospective",
+      "label_ja": "南画",
+      "label_en": "Nanga",
+      "authority": {
+        "wikidata": "Q2928221",
+        "aat": "300018580",
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": "17XX",
+        "end": "1887~",
+        "display": "江戸中期（18世紀前半）に興り、明治20年（1887）の東京美術学校開設で「旧派」として制度上排除されるまで。個々の担い手（富岡鉄斎、1924年没）の活動はそれ以降も続いた"
+      },
+      "naming": {
+        "self_identified": false,
+        "named_by": null,
+        "named_when": null,
+        "original_label": "南画",
+        "note": "『南画』という呼称そのものの定着は幕末から明治にかけて（日本語版Wikipedia「南画」、二次情報）。より古い語『文人画』（中国の文人画に由来し、専門画工に対する在野の文人の余技としての絵画を指す語）が先にあり、『南画』はそのうち中国・南宗画の系統を継ぐものを指す語として後から定着した。当事者（池大雅・与謝蕪村ら18世紀の担い手）が自ら『南画』または『文人画』という語で群れを名乗った一次的記述は見つかっていない。英語版Wikipediaは担い手たちが自らを『literati（文人）』とみなしていたと記すが、これは学者・知識人としての自己認識であり、絵画の一括りとしての群れの名称そのものではない——この区別のため self_identified は false とした"
+      },
+      "claims": [],
+      "space": [
+        {
+          "role": "originated_in",
+          "target": "place/kyoto"
+        },
+        {
+          "role": "active_in",
+          "target": "place/tokyo"
+        }
+      ],
+      "relations": [
+        {
+          "type": "influenced_by",
+          "target": "person/dong-qichang",
+          "certainty": "scholarly",
+          "source": "https://en.wikipedia.org/wiki/Nanga_(art)"
+        }
+      ],
+      "sources": [
+        "https://ja.wikipedia.org/wiki/南画",
+        "https://ja.wikipedia.org/wiki/文人画",
+        "https://en.wikipedia.org/wiki/Nanga_(art)",
+        "https://www.wikidata.org/wiki/Q2928221",
+        "https://www.metmuseum.org/art/collection/search/671023",
+        "https://www.artic.edu/artworks/185222"
+      ],
+      "images": [
+        {
+          "url": "https://www.artic.edu/iiif/2/637a65fa-a6f2-8a9f-a6f4-98fcffe2ec92/full/843,/0/default.jpg",
+          "source_page": "https://www.artic.edu/artworks/185222",
+          "license": "public-domain",
+          "note": "池大雅《地蔵尊への集団参詣（Group Pilgrimage to the Jizo Nun）》1755-65年頃、シカゴ美術館蔵（is_public_domain: true）"
+        },
+        {
+          "url": "https://images.metmuseum.org/CRDImages/as/original/DP704972.jpg",
+          "source_page": "https://www.metmuseum.org/art/collection/search/671023",
+          "license": "cc0",
+          "note": "与謝蕪村《山野跋渉図屏風（Travels through Mountains and Fields）》1765年頃、メトロポリタン美術館蔵（isPublicDomain: true）"
+        }
+      ],
+      "status": "draft",
+      "updated": "2026-08-10",
+      "path": "entities/movements/nanga.md"
     },
     "movement/negritude": {
       "id": "movement/negritude",
@@ -4112,6 +5285,81 @@
       "updated": "2026-08-10",
       "path": "entities/movements/poto-poto-school.md"
     },
+    "movement/qajar-painting": {
+      "id": "movement/qajar-painting",
+      "uri": "urn:ahn:movement/qajar-painting",
+      "type": "movement",
+      "kind": "period-style",
+      "label_ja": "カージャール絵画",
+      "label_en": "Qajar painting",
+      "authority": {
+        "wikidata": "Q5964557",
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": "1785",
+        "end": "1925",
+        "display": "カージャール朝時代（建国年に異説あり・1785年建国説を採用〜1925年廃位）。絵画史の枠として「1785–1925年」を書名に掲げるDiba & Ekhtiar, Royal Persian Painting: The Qajar Epoch, 1785-1925（1998年）に従った"
+      },
+      "naming": {
+        "self_identified": false,
+        "named_by": null,
+        "named_when": null,
+        "original_label": "Qajar painting",
+        "note": "「カージャール」はガージャール（Qajar）族という王朝の部族名で、当事者が自分たちの絵画を「カージャール様式」と名乗った記録はない。王朝名をそのまま美術史区分に転用した、後代の学術的な呼称"
+      },
+      "claims": [],
+      "space": [
+        {
+          "role": "originated_in",
+          "target": "place/tehran"
+        }
+      ],
+      "relations": [
+        {
+          "type": "influenced_by",
+          "target": "movement/safavid-painting",
+          "certainty": "scholarly",
+          "source": "https://en.wikipedia.org/wiki/Qajar_art"
+        }
+      ],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q5964557",
+        "https://www.wikidata.org/wiki/Q2864726",
+        "https://www.wikidata.org/wiki/Q189326",
+        "https://en.wikipedia.org/wiki/Qajar_art",
+        "https://en.wikipedia.org/wiki/Mohammad_Sadiq_(painter)",
+        "https://en.wikipedia.org/wiki/Mirza_Baba",
+        "https://en.wikipedia.org/wiki/Mihr_%27Ali",
+        "https://en.wikipedia.org/wiki/Abu%27l-Hasan_Sani_al-Mulk",
+        "https://en.wikipedia.org/wiki/Kamal-ol-molk",
+        "https://en.wikipedia.org/wiki/Tehran",
+        "https://en.wikipedia.org/wiki/Royal_Persian_Paintings:_The_Qajar_Epoch_1785%E2%80%931925",
+        "https://www.sothebys.com/en/auctions/ecatalogue/2010/arts-of-the-islamic-world-l10223/lot.94.html",
+        "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300021708",
+        "https://www.iranicaonline.org/articles/art-in-iran-v-qajar-1-general/"
+      ],
+      "images": [
+        {
+          "url": "https://images.metmuseum.org/CRDImages/is/original/DP-15521-001.jpg",
+          "source_page": "https://www.metmuseum.org/art/collection/search/767842",
+          "license": "cc0",
+          "note": "《鷹を持つ王子》（Prince Holding a Falcon）、油彩・カンヴァス、1820年頃。メトロポリタン美術館蔵（isPublicDomain: true）"
+        },
+        {
+          "url": "https://images.metmuseum.org/CRDImages/is/original/DP345140.jpg",
+          "source_page": "https://www.metmuseum.org/art/collection/search/667859",
+          "license": "cc0",
+          "note": "《ムハンマド・シャー・カージャールとその宰相ハージー・ミールザー・アーガースィーの肖像》、19世紀第2四半期。メトロポリタン美術館蔵（isPublicDomain: true）"
+        }
+      ],
+      "status": "draft",
+      "updated": "2026-08-10",
+      "path": "entities/movements/qajar-painting.md"
+    },
     "movement/quito-school": {
       "id": "movement/quito-school",
       "uri": "urn:ahn:movement/quito-school",
@@ -4515,6 +5763,77 @@
       "status": "draft",
       "updated": "2026-08-09",
       "path": "entities/movements/shanghai-school.md"
+    },
+    "movement/shiraz-school": {
+      "id": "movement/shiraz-school",
+      "uri": "urn:ahn:movement/shiraz-school",
+      "type": "movement",
+      "label_ja": "シーラーズ派",
+      "label_en": "Shiraz school",
+      "authority": {
+        "wikidata": "Q5933050",
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": "1341",
+        "end": "1486",
+        "display": "インジュー朝治下のシーラーズで制作された1341年（741 AH）の『シャー・ナーメ』（メトロポリタン美術館蔵）から、トルクメン（カラ・コユンル／アク・コユンル）期のシーラーズで制作されたc.1476-86年の『ハワラーン・ナーメ』（同）まで。この間にムザッファル朝・ティムール朝の統治を経ており、単一王朝の庇護ではない"
+      },
+      "kind": "period-style",
+      "naming": {
+        "self_identified": false,
+        "named_by": null,
+        "named_when": null,
+        "original_label": "Shiraz school",
+        "note": "「シーラーズ派」は都市名をそのまま用いた近代の美術史区分で、当時の担い手がこの名で自称した記録はない。Wikidata（Q5933050）の説明は\"school of Persian miniature painting\"。ペルシア語版Wikipediaはこの対象を「مکتب شیراز اول（シーラーズ派I、イルハン朝・インジュー朝期＝14世紀）」と「مکتب شیراز دوم（シーラーズ派II、ティムール朝期以降＝15世紀）」の2項目に分けて記述しており（本ファイルの sources 参照）、単一の当事者集団による自称ではなく後代の学術的な期分けであることの傍証になる"
+      },
+      "claims": [],
+      "space": [
+        {
+          "role": "originated_in",
+          "target": "place/shiraz"
+        }
+      ],
+      "relations": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q5933050",
+        "https://www.wikidata.org/wiki/Q5811035",
+        "https://fa.wikipedia.org/wiki/%D9%85%DA%A9%D8%AA%D8%A8_%D8%B4%DB%8C%D8%B1%D8%A7%D8%B2_%D8%A7%D9%88%D9%84",
+        "https://fa.wikipedia.org/wiki/%D9%85%DA%A9%D8%AA%D8%A8_%D8%B4%DB%8C%D8%B1%D8%A7%D8%B2_%D8%AF%D9%88%D9%85",
+        "https://www.metmuseum.org/art/collection/search/448280",
+        "https://www.metmuseum.org/art/collection/search/451324",
+        "https://www.metmuseum.org/art/collection/search/451327",
+        "https://en.wikipedia.org/wiki/Injuids",
+        "https://en.wikipedia.org/wiki/Abu_Ishaq_Inju",
+        "https://en.wikipedia.org/wiki/Muzaffarids_(Iran)",
+        "https://en.wikipedia.org/wiki/Iskandar_Sultan",
+        "https://en.wikipedia.org/wiki/Ibrahim_Sultan_ibn_Shahrukh",
+        "https://en.wikipedia.org/wiki/Timeline_of_Shiraz",
+        "https://en.wikipedia.org/wiki/Persian_miniature",
+        "https://www.britannica.com/art/Shiraz-school",
+        "https://www.iranicaonline.org/articles/art-in-iran-vii-islamic-pre-safavid/",
+        "https://www.wikidata.org/wiki/Q6397066"
+      ],
+      "images": [
+        {
+          "url": "https://images.metmuseum.org/CRDImages/is/original/DT214817.jpg",
+          "source_page": "https://www.metmuseum.org/art/collection/search/448280",
+          "license": "cc0",
+          "note": "「ビジャンがイルマーンの猪を狩る」『シャー・ナーメ』挿画、741 AH/1341年、シーラーズ制作。メトロポリタン美術館蔵（city: Shiraz、isPublicDomain: true、直接APIで確認）"
+        },
+        {
+          "url": "https://images.metmuseum.org/CRDImages/is/original/DP159397.jpg",
+          "source_page": "https://www.metmuseum.org/art/collection/search/451324",
+          "license": "cc0",
+          "note": "「アムルが異教徒を海に投げ込ませる」イブン・フサーム『ハワラーン・ナーメ』挿画、c.1476-86年、シーラーズ制作。メトロポリタン美術館蔵（city: Shiraz、isPublicDomain: true、直接APIで確認）"
+        }
+      ],
+      "status": "draft",
+      "updated": "2026-08-10",
+      "path": "entities/movements/shiraz-school.md"
     },
     "movement/sienese-school": {
       "id": "movement/sienese-school",
@@ -6287,6 +7606,63 @@
       "updated": "2026-08-09",
       "path": "entities/persons/filippo-tommaso-marinetti.md"
     },
+    "person/georges-braque": {
+      "id": "person/georges-braque",
+      "uri": "urn:ahn:person/georges-braque",
+      "type": "person",
+      "label_ja": "ジョルジュ・ブラック",
+      "label_en": "Georges Braque",
+      "authority": {
+        "wikidata": "Q153793",
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": "1882-05-13",
+        "end": "1963-08-31",
+        "display": "1882年〜1963年"
+      },
+      "space": [],
+      "relations": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q153793",
+        "https://archive.org/details/f.t.-marinetti-manifeste-du-futurism-1909"
+      ],
+      "status": "stub",
+      "updated": "2026-08-10",
+      "path": "entities/persons/georges-braque.md"
+    },
+    "person/georges-henein": {
+      "id": "person/georges-henein",
+      "uri": "urn:ahn:person/georges-henein",
+      "type": "person",
+      "label_ja": "ジョルジュ・エネイン",
+      "label_en": "Georges Henein",
+      "authority": {
+        "wikidata": "Q3102865",
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": "1914-01-20",
+        "end": "1973-07-17",
+        "display": "1914年1月20日（カイロ生）〜1973年7月17日（パリ没）"
+      },
+      "space": [],
+      "relations": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q3102865",
+        "https://en.wikipedia.org/wiki/Georges_Henein",
+        "https://www.tate.org.uk/tate-etc/issue-41-autumn-2017/surrealism-egypt-long-live-degenerate-art-clare-davies"
+      ],
+      "status": "stub",
+      "updated": "2026-08-10",
+      "path": "entities/persons/georges-henein.md"
+    },
     "person/georges-seurat": {
       "id": "person/georges-seurat",
       "uri": "urn:ahn:person/georges-seurat",
@@ -6337,6 +7713,35 @@
       "status": "draft",
       "updated": "2026-08-08",
       "path": "entities/persons/georges-seurat.md"
+    },
+    "person/gyula-kosice": {
+      "id": "person/gyula-kosice",
+      "uri": "urn:ahn:person/gyula-kosice",
+      "type": "person",
+      "label_ja": "ジュラ・コシツェ",
+      "label_en": "Gyula Kosice",
+      "authority": {
+        "wikidata": "Q183438",
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": "1924-04-26",
+        "end": "2016-05-25",
+        "display": "1924年4月26日 – 2016年5月25日"
+      },
+      "space": [],
+      "relations": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q183438",
+        "https://kosice.com.ar/otros-recursos/los-textos/de-kosice/manifiesto-madi/",
+        "https://kosice.com.ar/el-artista/linea-de-tiempo/"
+      ],
+      "status": "stub",
+      "updated": "2026-08-10",
+      "path": "entities/persons/gyula-kosice.md"
     },
     "person/henri-lehmann": {
       "id": "person/henri-lehmann",
@@ -6405,6 +7810,96 @@
       "status": "draft",
       "updated": "2026-08-09",
       "path": "entities/persons/iba-ndiaye.md"
+    },
+    "person/jiro-yoshihara": {
+      "id": "person/jiro-yoshihara",
+      "uri": "urn:ahn:person/jiro-yoshihara",
+      "type": "person",
+      "label_ja": "吉原治良",
+      "label_en": "Jiro Yoshihara",
+      "authority": {
+        "wikidata": "Q2303860",
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": "1905-01-01",
+        "end": "1972-02-10",
+        "display": "1905年1月1日（大阪市）〜1972年2月10日（芦屋市、くも膜下出血）"
+      },
+      "space": [
+        {
+          "role": "died_in",
+          "target": "place/ashiya"
+        }
+      ],
+      "relations": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q2303860",
+        "https://ja.wikipedia.org/wiki/%E5%90%89%E5%8E%9F%E6%B2%BB%E8%89%AF",
+        "https://www.museum.osaka-u.ac.jp/wp/wp-content/uploads/2018/03/kato2017.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-10",
+      "path": "entities/persons/jiro-yoshihara.md"
+    },
+    "person/jose-sabogal": {
+      "id": "person/jose-sabogal",
+      "uri": "urn:ahn:person/jose-sabogal",
+      "type": "person",
+      "label_ja": "ホセ・サボガル",
+      "label_en": "José Sabogal",
+      "authority": {
+        "wikidata": "Q2093376",
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": "1888-03-19",
+        "end": "1956-12-15",
+        "display": "1888年3月19日（カハバンバ、カハマルカ県）– 1956年12月15日（リマ）"
+      },
+      "space": [],
+      "relations": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q2093376",
+        "https://en.wikipedia.org/wiki/Jos%C3%A9_Sabogal"
+      ],
+      "status": "stub",
+      "updated": "2026-08-10",
+      "path": "entities/persons/jose-sabogal.md"
+    },
+    "person/kamel-el-telmissany": {
+      "id": "person/kamel-el-telmissany",
+      "uri": "urn:ahn:person/kamel-el-telmissany",
+      "type": "person",
+      "label_ja": "カーメル・エル=テルミサーニ",
+      "label_en": "Kamel El-Telmissany",
+      "authority": {
+        "wikidata": "Q12234337",
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": "1915-05-15",
+        "end": "1972-03-03",
+        "display": "1915年5月15日（カリュービーヤ県生）〜1972年3月3日（ベイルート没）"
+      },
+      "space": [],
+      "relations": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q12234337",
+        "https://en.wikipedia.org/wiki/Kamel_el-Telmissany"
+      ],
+      "status": "stub",
+      "updated": "2026-08-10",
+      "path": "entities/persons/kamel-el-telmissany.md"
     },
     "person/kazimir-malevich": {
       "id": "person/kazimir-malevich",
@@ -6534,6 +8029,35 @@
       "updated": "2026-08-09",
       "path": "entities/persons/louis-leroy.md"
     },
+    "person/louis-vauxcelles": {
+      "id": "person/louis-vauxcelles",
+      "uri": "urn:ahn:person/louis-vauxcelles",
+      "type": "person",
+      "label_ja": "ルイ・ヴォークセル",
+      "label_en": "Louis Vauxcelles",
+      "authority": {
+        "wikidata": "Q1872044",
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": "1870-01-01",
+        "end": "1943-07-21",
+        "display": "1870年〜1943年（Wikidataは生年月日を1月1日とするが、伝記事典類は月日不詳とすることが多く、1月1日はプレースホルダーの可能性がある——未確認）"
+      },
+      "space": [],
+      "relations": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q1872044",
+        "https://en.wikipedia.org/wiki/Cubism",
+        "https://en.wikipedia.org/wiki/Fauvism"
+      ],
+      "status": "stub",
+      "updated": "2026-08-10",
+      "path": "entities/persons/louis-vauxcelles.md"
+    },
     "person/nguyen-gia-tri": {
       "id": "person/nguyen-gia-tri",
       "uri": "urn:ahn:person/nguyen-gia-tri",
@@ -6619,6 +8143,35 @@
       "updated": "2026-08-09",
       "path": "entities/persons/oswald-de-andrade.md"
     },
+    "person/pablo-picasso": {
+      "id": "person/pablo-picasso",
+      "uri": "urn:ahn:person/pablo-picasso",
+      "type": "person",
+      "label_ja": "パブロ・ピカソ",
+      "label_en": "Pablo Picasso",
+      "authority": {
+        "wikidata": "Q5593",
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": "1881-10-25",
+        "end": "1973-04-08",
+        "display": "1881年〜1973年"
+      },
+      "space": [],
+      "relations": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q5593",
+        "https://www.moma.org/collection/works/78984",
+        "https://wist.info/picasso-pablo/3147/"
+      ],
+      "status": "stub",
+      "updated": "2026-08-10",
+      "path": "entities/persons/pablo-picasso.md"
+    },
     "person/papa-ibra-tall": {
       "id": "person/papa-ibra-tall",
       "uri": "urn:ahn:person/papa-ibra-tall",
@@ -6646,6 +8199,34 @@
       "status": "draft",
       "updated": "2026-08-09",
       "path": "entities/persons/papa-ibra-tall.md"
+    },
+    "person/paul-cezanne": {
+      "id": "person/paul-cezanne",
+      "uri": "urn:ahn:person/paul-cezanne",
+      "type": "person",
+      "label_ja": "ポール・セザンヌ",
+      "label_en": "Paul Cézanne",
+      "authority": {
+        "wikidata": "Q35548",
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": "1839-01-19",
+        "end": "1906-10-22",
+        "display": "1839年〜1906年"
+      },
+      "space": [],
+      "relations": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q35548",
+        "https://www.tate.org.uk/art/art-terms/p/post-impressionism"
+      ],
+      "status": "stub",
+      "updated": "2026-08-10",
+      "path": "entities/persons/paul-cezanne.md"
     },
     "person/pierre-boucherle": {
       "id": "person/pierre-boucherle",
@@ -6704,6 +8285,34 @@
       "status": "draft",
       "updated": "2026-08-09",
       "path": "entities/persons/pierre-lods.md"
+    },
+    "person/ramses-younan": {
+      "id": "person/ramses-younan",
+      "uri": "urn:ahn:person/ramses-younan",
+      "type": "person",
+      "label_ja": "ラムセス・ユーナーン",
+      "label_en": "Ramses Younan",
+      "authority": {
+        "wikidata": "Q3418643",
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": "1913",
+        "end": "1966-12-24",
+        "display": "1913年（ミニヤー生、precision 9＝年単位）〜1966年12月24日（カイロ没）"
+      },
+      "space": [],
+      "relations": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q3418643",
+        "https://en.wikipedia.org/wiki/Ramses_Younan"
+      ],
+      "status": "stub",
+      "updated": "2026-08-10",
+      "path": "entities/persons/ramses-younan.md"
     },
     "person/ries-mulder": {
       "id": "person/ries-mulder",
@@ -7026,6 +8635,44 @@
       "updated": "2026-08-09",
       "path": "entities/persons/yahia-turki.md"
     },
+    "person/yanagi-soetsu": {
+      "id": "person/yanagi-soetsu",
+      "uri": "urn:ahn:person/yanagi-soetsu",
+      "type": "person",
+      "label_ja": "柳宗悦",
+      "label_en": "Yanagi Sōetsu",
+      "authority": {
+        "wikidata": "Q904161",
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": "1889",
+        "end": "1961",
+        "display": "1889年3月21日 – 1961年5月3日（日次まではWikidataのprecisionが年〈9〉止まりのため、日本語版Wikipedia記載の日付を二次情報として付す）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "influenced_by",
+          "target": "concept/minhwa",
+          "certainty": "scholarly",
+          "source": "https://www.tongilnews.com/news/articleView.html?idxno=102045"
+        }
+      ],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q904161",
+        "https://en.wikipedia.org/wiki/Yanagi_S%C5%8Detsu",
+        "https://ja.wikipedia.org/wiki/%E6%9F%B3%E5%AE%97%E6%82%A6",
+        "https://mingeikan.or.jp/about/history/",
+        "https://www.tongilnews.com/news/articleView.html?idxno=102045"
+      ],
+      "status": "draft",
+      "updated": "2026-08-10",
+      "path": "entities/persons/yanagi-soetsu.md"
+    },
     "place/agra": {
       "id": "place/agra",
       "uri": "urn:ahn:place/agra",
@@ -7090,6 +8737,70 @@
       "status": "stub",
       "updated": "2026-08-10",
       "path": "entities/places/ahmadnagar.md"
+    },
+    "place/ashiya": {
+      "id": "place/ashiya",
+      "uri": "urn:ahn:place/ashiya",
+      "type": "place",
+      "label_ja": "芦屋",
+      "label_en": "Ashiya",
+      "authority": {
+        "wikidata": "Q725514",
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": null,
+        "end": null,
+        "display": null
+      },
+      "region": "asia-east-japan",
+      "coordinates": [
+        34.727,
+        135.3041111111111
+      ],
+      "space": [],
+      "relations": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q725514"
+      ],
+      "status": "stub",
+      "updated": "2026-08-10",
+      "path": "entities/places/ashiya.md"
+    },
+    "place/asmat-regency": {
+      "id": "place/asmat-regency",
+      "uri": "urn:ahn:place/asmat-regency",
+      "type": "place",
+      "label_ja": "アスマット県",
+      "label_en": "Asmat Regency",
+      "authority": {
+        "wikidata": "Q27228",
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": null,
+        "end": null,
+        "display": null
+      },
+      "region": "oceania",
+      "coordinates": [
+        -5.3795,
+        138.46344
+      ],
+      "space": [],
+      "relations": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q27228"
+      ],
+      "status": "stub",
+      "updated": "2026-08-10",
+      "path": "entities/places/asmat-regency.md"
     },
     "place/baghdad": {
       "id": "place/baghdad",
@@ -7284,6 +8995,38 @@
       "updated": "2026-08-09",
       "path": "entities/places/benin-city.md"
     },
+    "place/berlin": {
+      "id": "place/berlin",
+      "uri": "urn:ahn:place/berlin",
+      "type": "place",
+      "label_ja": "ベルリン",
+      "label_en": "Berlin",
+      "authority": {
+        "wikidata": "Q64",
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": null,
+        "end": null,
+        "display": null
+      },
+      "region": "europe-west",
+      "coordinates": [
+        52.516667,
+        13.383333
+      ],
+      "space": [],
+      "relations": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q64"
+      ],
+      "status": "stub",
+      "updated": "2026-08-10",
+      "path": "entities/places/berlin.md"
+    },
     "place/bijapur": {
       "id": "place/bijapur",
       "uri": "urn:ahn:place/bijapur",
@@ -7380,6 +9123,70 @@
       "status": "stub",
       "updated": "2026-08-09",
       "path": "entities/places/brussels.md"
+    },
+    "place/buenos-aires": {
+      "id": "place/buenos-aires",
+      "uri": "urn:ahn:place/buenos-aires",
+      "type": "place",
+      "label_ja": "ブエノスアイレス",
+      "label_en": "Buenos Aires",
+      "authority": {
+        "wikidata": "Q1486",
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": null,
+        "end": null,
+        "display": null
+      },
+      "region": "americas-latin",
+      "coordinates": [
+        -34.599722,
+        -58.381944
+      ],
+      "space": [],
+      "relations": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q1486"
+      ],
+      "status": "stub",
+      "updated": "2026-08-10",
+      "path": "entities/places/buenos-aires.md"
+    },
+    "place/cairo": {
+      "id": "place/cairo",
+      "uri": "urn:ahn:place/cairo",
+      "type": "place",
+      "label_ja": "カイロ",
+      "label_en": "Cairo",
+      "authority": {
+        "wikidata": "Q85",
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": null,
+        "end": null,
+        "display": null
+      },
+      "region": "mena",
+      "coordinates": [
+        30.044444444444,
+        31.235833333333
+      ],
+      "space": [],
+      "relations": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q85"
+      ],
+      "status": "stub",
+      "updated": "2026-08-10",
+      "path": "entities/places/cairo.md"
     },
     "place/chicago": {
       "id": "place/chicago",
@@ -7736,6 +9543,38 @@
       "updated": "2026-08-09",
       "path": "entities/places/herat.md"
     },
+    "place/ife": {
+      "id": "place/ife",
+      "uri": "urn:ahn:place/ife",
+      "type": "place",
+      "label_ja": "イフェ",
+      "label_en": "Ife",
+      "authority": {
+        "wikidata": "Q180084",
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": null,
+        "end": null,
+        "display": null
+      },
+      "region": "africa-sub",
+      "coordinates": [
+        7.4667,
+        4.5667
+      ],
+      "space": [],
+      "relations": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q180084"
+      ],
+      "status": "stub",
+      "updated": "2026-08-10",
+      "path": "entities/places/ife.md"
+    },
     "place/isfahan": {
       "id": "place/isfahan",
       "uri": "urn:ahn:place/isfahan",
@@ -7787,6 +9626,12 @@
         "display": null
       },
       "region": "mena",
+      "former_names": [
+        {
+          "name": "コンスタンティノープル",
+          "until": "1930"
+        }
+      ],
       "coordinates": [
         41.01,
         28.960277777778
@@ -7993,6 +9838,38 @@
       "updated": "2026-08-09",
       "path": "entities/places/lake-okataina.md"
     },
+    "place/lima": {
+      "id": "place/lima",
+      "uri": "urn:ahn:place/lima",
+      "type": "place",
+      "label_ja": "リマ",
+      "label_en": "Lima",
+      "authority": {
+        "wikidata": "Q2868",
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": null,
+        "end": null,
+        "display": null
+      },
+      "region": "americas-latin",
+      "coordinates": [
+        -12.06,
+        -77.0375
+      ],
+      "space": [],
+      "relations": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q2868"
+      ],
+      "status": "stub",
+      "updated": "2026-08-10",
+      "path": "entities/places/lima.md"
+    },
     "place/manila": {
       "id": "place/manila",
       "uri": "urn:ahn:place/manila",
@@ -8152,6 +10029,38 @@
       "status": "stub",
       "updated": "2026-08-09",
       "path": "entities/places/new-york-city.md"
+    },
+    "place/new-zealand": {
+      "id": "place/new-zealand",
+      "uri": "urn:ahn:place/new-zealand",
+      "type": "place",
+      "label_ja": "ニュージーランド",
+      "label_en": "New Zealand",
+      "authority": {
+        "wikidata": "Q664",
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": null,
+        "end": null,
+        "display": null
+      },
+      "region": "oceania",
+      "coordinates": [
+        -41.2,
+        174
+      ],
+      "space": [],
+      "relations": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q664"
+      ],
+      "status": "stub",
+      "updated": "2026-08-10",
+      "path": "entities/places/new-zealand.md"
     },
     "place/nok": {
       "id": "place/nok",
@@ -8508,6 +10417,38 @@
       "updated": "2026-08-09",
       "path": "entities/places/shigatse.md"
     },
+    "place/shiraz": {
+      "id": "place/shiraz",
+      "uri": "urn:ahn:place/shiraz",
+      "type": "place",
+      "label_ja": "シーラーズ",
+      "label_en": "Shiraz",
+      "authority": {
+        "wikidata": "Q6397066",
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": null,
+        "end": null,
+        "display": null
+      },
+      "region": "mena",
+      "coordinates": [
+        29.61,
+        52.5425
+      ],
+      "space": [],
+      "relations": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q6397066"
+      ],
+      "status": "stub",
+      "updated": "2026-08-10",
+      "path": "entities/places/shiraz.md"
+    },
     "place/siena": {
       "id": "place/siena",
       "uri": "urn:ahn:place/siena",
@@ -8603,6 +10544,70 @@
       "status": "stub",
       "updated": "2026-08-09",
       "path": "entities/places/tabriz.md"
+    },
+    "place/taicang": {
+      "id": "place/taicang",
+      "uri": "urn:ahn:place/taicang",
+      "type": "place",
+      "label_ja": "太倉",
+      "label_en": "Taicang",
+      "authority": {
+        "wikidata": "Q61985",
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": null,
+        "end": null,
+        "display": null
+      },
+      "region": "asia-east-china",
+      "coordinates": [
+        31.45152,
+        121.10435
+      ],
+      "space": [],
+      "relations": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q61985"
+      ],
+      "status": "stub",
+      "updated": "2026-08-10",
+      "path": "entities/places/taicang.md"
+    },
+    "place/tehran": {
+      "id": "place/tehran",
+      "uri": "urn:ahn:place/tehran",
+      "type": "place",
+      "label_ja": "テヘラン",
+      "label_en": "Tehran",
+      "authority": {
+        "wikidata": "Q3616",
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": null,
+        "end": null,
+        "display": null
+      },
+      "region": "mena",
+      "coordinates": [
+        35.6889,
+        51.3897
+      ],
+      "space": [],
+      "relations": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q3616"
+      ],
+      "status": "stub",
+      "updated": "2026-08-10",
+      "path": "entities/places/tehran.md"
     },
     "place/thanjavur": {
       "id": "place/thanjavur",
@@ -8803,6 +10808,39 @@
       "updated": "2026-08-09",
       "path": "entities/places/ubud.md"
     },
+    "place/udaipur": {
+      "id": "place/udaipur",
+      "uri": "urn:ahn:place/udaipur",
+      "type": "place",
+      "label_ja": "ウダイプル",
+      "label_en": "Udaipur",
+      "authority": {
+        "wikidata": "Q200340",
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": "1559",
+        "end": null,
+        "display": "1559年、ウダイ・シング2世により建設"
+      },
+      "region": "asia-south",
+      "coordinates": [
+        24.583,
+        73.683
+      ],
+      "space": [],
+      "relations": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q200340",
+        "https://en.wikipedia.org/wiki/Udaipur"
+      ],
+      "status": "stub",
+      "updated": "2026-08-10",
+      "path": "entities/places/udaipur.md"
+    },
     "place/ulaanbaatar": {
       "id": "place/ulaanbaatar",
       "uri": "urn:ahn:place/ulaanbaatar",
@@ -8963,6 +11001,38 @@
       "updated": "2026-08-09",
       "path": "entities/places/zaria.md"
     },
+    "place/zurich": {
+      "id": "place/zurich",
+      "uri": "urn:ahn:place/zurich",
+      "type": "place",
+      "label_ja": "チューリヒ",
+      "label_en": "Zurich",
+      "authority": {
+        "wikidata": "Q72",
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": null,
+        "end": null,
+        "display": null
+      },
+      "region": "europe-west",
+      "coordinates": [
+        47.374444,
+        8.541111
+      ],
+      "space": [],
+      "relations": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q72"
+      ],
+      "status": "stub",
+      "updated": "2026-08-10",
+      "path": "entities/places/zurich.md"
+    },
     "source/seurat-letter-beaubourg-1890": {
       "id": "source/seurat-letter-beaubourg-1890",
       "uri": "urn:ahn:source/seurat-letter-beaubourg-1890",
@@ -9117,6 +11187,63 @@
       "to": "place/sao-paulo"
     },
     {
+      "from": "movement/art-et-liberte",
+      "type": "influenced_by",
+      "to": "movement/surrealism",
+      "certainty": "scholarly",
+      "source": "https://www.tate.org.uk/tate-etc/issue-41-autumn-2017/surrealism-egypt-long-live-degenerate-art-clare-davies"
+    },
+    {
+      "from": "movement/art-et-liberte",
+      "type": "reacts_against",
+      "to": "movement/futurism",
+      "certainty": "scholarly",
+      "source": "https://universes.art/en/nafas/articles/2016/egyptian-surrealists"
+    },
+    {
+      "from": "movement/art-et-liberte",
+      "type": "created_by",
+      "to": "person/georges-henein",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "movement/art-et-liberte",
+      "type": "created_by",
+      "to": "person/kamel-el-telmissany",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "movement/art-et-liberte",
+      "type": "created_by",
+      "to": "person/ramses-younan",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "movement/art-et-liberte",
+      "type": "originated_in",
+      "to": "place/cairo"
+    },
+    {
+      "from": "movement/arte-madi",
+      "type": "created_by",
+      "to": "person/gyula-kosice",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "movement/arte-madi",
+      "type": "originated_in",
+      "to": "place/buenos-aires"
+    },
+    {
+      "from": "movement/asmat-carving",
+      "type": "originated_in",
+      "to": "place/asmat-regency"
+    },
+    {
       "from": "movement/baghdad-modern-art-group",
       "type": "created_by",
       "to": "person/shakir-hassan-al-said",
@@ -9201,6 +11328,11 @@
       "to": "place/benin-city"
     },
     {
+      "from": "movement/byzantine-art",
+      "type": "originated_in",
+      "to": "place/istanbul"
+    },
+    {
       "from": "movement/company-painting",
       "type": "derives_from",
       "to": "movement/mughal-painting",
@@ -9220,6 +11352,32 @@
       "to": "place/murshidabad"
     },
     {
+      "from": "movement/cubism",
+      "type": "created_by",
+      "to": "person/pablo-picasso",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "movement/cubism",
+      "type": "created_by",
+      "to": "person/georges-braque",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "movement/cubism",
+      "type": "influenced_by",
+      "to": "movement/post-impressionism",
+      "certainty": "scholarly",
+      "source": "https://www.theartstory.org/movement/cubism/"
+    },
+    {
+      "from": "movement/cubism",
+      "type": "originated_in",
+      "to": "place/paris"
+    },
+    {
       "from": "movement/cubo-futurism",
       "type": "influenced_by",
       "to": "movement/futurism",
@@ -9235,6 +11393,26 @@
       "from": "movement/cusco-school",
       "type": "originated_in",
       "to": "place/cusco"
+    },
+    {
+      "from": "movement/dada",
+      "type": "originated_in",
+      "to": "place/zurich"
+    },
+    {
+      "from": "movement/dada",
+      "type": "active_in",
+      "to": "place/berlin"
+    },
+    {
+      "from": "movement/dada",
+      "type": "active_in",
+      "to": "place/paris"
+    },
+    {
+      "from": "movement/dada",
+      "type": "active_in",
+      "to": "place/new-york-city"
     },
     {
       "from": "movement/dansaekhwa",
@@ -9323,6 +11501,18 @@
       "to": "place/tunis"
     },
     {
+      "from": "movement/four-wangs",
+      "type": "taught_by",
+      "to": "person/dong-qichang",
+      "certainty": null,
+      "source": "https://zh.wikipedia.org/wiki/%E7%8E%8B%E6%97%B6%E6%95%8F"
+    },
+    {
+      "from": "movement/four-wangs",
+      "type": "originated_in",
+      "to": "place/taicang"
+    },
+    {
       "from": "movement/futurism",
       "type": "created_by",
       "to": "person/filippo-tommaso-marinetti",
@@ -9348,6 +11538,18 @@
       "from": "movement/group-of-seven",
       "type": "originated_in",
       "to": "place/toronto"
+    },
+    {
+      "from": "movement/gutai",
+      "type": "created_by",
+      "to": "person/jiro-yoshihara",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "movement/gutai",
+      "type": "originated_in",
+      "to": "place/ashiya"
     },
     {
       "from": "movement/harlem-renaissance",
@@ -9384,6 +11586,11 @@
       "to": "place/sepik"
     },
     {
+      "from": "movement/ife-art",
+      "type": "originated_in",
+      "to": "place/ife"
+    },
+    {
       "from": "movement/impressionism",
       "type": "precedes",
       "to": "movement/neo-impressionism",
@@ -9408,6 +11615,23 @@
       "from": "movement/impressionism",
       "type": "originated_in",
       "to": "place/paris"
+    },
+    {
+      "from": "movement/indigenismo",
+      "type": "created_by",
+      "to": "person/jose-sabogal",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "movement/indigenismo",
+      "type": "originated_in",
+      "to": "place/lima"
+    },
+    {
+      "from": "movement/indigenismo",
+      "type": "created_in",
+      "to": "place/cusco"
     },
     {
       "from": "movement/indochina-lacquer-painting",
@@ -9482,6 +11706,11 @@
       "to": "place/kyoto"
     },
     {
+      "from": "movement/kowhaiwhai",
+      "type": "originated_in",
+      "to": "place/new-zealand"
+    },
+    {
       "from": "movement/lingnan-school",
       "type": "influenced_by",
       "to": "movement/nihonga",
@@ -9509,9 +11738,40 @@
       "to": "place/shigatse"
     },
     {
+      "from": "movement/mewar-painting",
+      "type": "influenced_by",
+      "to": "movement/mughal-painting",
+      "certainty": "scholarly",
+      "source": "https://en.wikipedia.org/wiki/Rajput_painting"
+    },
+    {
+      "from": "movement/mewar-painting",
+      "type": "reacts_against",
+      "to": "movement/mughal-painting",
+      "certainty": "scholarly",
+      "source": "https://en.wikipedia.org/wiki/Rajput_painting"
+    },
+    {
+      "from": "movement/mewar-painting",
+      "type": "originated_in",
+      "to": "place/udaipur"
+    },
+    {
       "from": "movement/mexican-muralism",
       "type": "originated_in",
       "to": "place/mexico-city"
+    },
+    {
+      "from": "movement/mingei",
+      "type": "created_by",
+      "to": "person/yanagi-soetsu",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "movement/mingei",
+      "type": "originated_in",
+      "to": "place/tokyo"
     },
     {
       "from": "movement/mono-ha",
@@ -9543,6 +11803,23 @@
       "from": "movement/mughal-painting",
       "type": "originated_in",
       "to": "place/agra"
+    },
+    {
+      "from": "movement/nanga",
+      "type": "influenced_by",
+      "to": "person/dong-qichang",
+      "certainty": "scholarly",
+      "source": "https://en.wikipedia.org/wiki/Nanga_(art)"
+    },
+    {
+      "from": "movement/nanga",
+      "type": "originated_in",
+      "to": "place/kyoto"
+    },
+    {
+      "from": "movement/nanga",
+      "type": "active_in",
+      "to": "place/tokyo"
     },
     {
       "from": "movement/negritude",
@@ -9673,6 +11950,18 @@
       "to": "place/brazzaville"
     },
     {
+      "from": "movement/qajar-painting",
+      "type": "influenced_by",
+      "to": "movement/safavid-painting",
+      "certainty": "scholarly",
+      "source": "https://en.wikipedia.org/wiki/Qajar_art"
+    },
+    {
+      "from": "movement/qajar-painting",
+      "type": "originated_in",
+      "to": "place/tehran"
+    },
+    {
       "from": "movement/quito-school",
       "type": "originated_in",
       "to": "place/quito"
@@ -9715,6 +12004,11 @@
       "from": "movement/shanghai-school",
       "type": "originated_in",
       "to": "place/shanghai"
+    },
+    {
+      "from": "movement/shiraz-school",
+      "type": "originated_in",
+      "to": "place/shiraz"
     },
     {
       "from": "movement/sienese-school",
@@ -9937,6 +12231,11 @@
       "to": "place/paris"
     },
     {
+      "from": "person/jiro-yoshihara",
+      "type": "died_in",
+      "to": "place/ashiya"
+    },
+    {
       "from": "person/kazimir-malevich",
       "type": "died_in",
       "to": "place/saint-petersburg"
@@ -9954,6 +12253,13 @@
       "to": "movement/post-impressionism",
       "certainty": "scholarly",
       "source": "https://www.tate.org.uk/art/art-terms/p/post-impressionism"
+    },
+    {
+      "from": "person/yanagi-soetsu",
+      "type": "influenced_by",
+      "to": "concept/minhwa",
+      "certainty": "scholarly",
+      "source": "https://www.tongilnews.com/news/articleView.html?idxno=102045"
     },
     {
       "from": "source/seurat-letter-beaubourg-1890",
@@ -10024,6 +12330,42 @@
       "derived": true
     },
     {
+      "from": "movement/surrealism",
+      "type": "influenced",
+      "to": "movement/art-et-liberte",
+      "derived": true
+    },
+    {
+      "from": "movement/futurism",
+      "type": "reacted_against_by",
+      "to": "movement/art-et-liberte",
+      "derived": true
+    },
+    {
+      "from": "person/georges-henein",
+      "type": "created",
+      "to": "movement/art-et-liberte",
+      "derived": true
+    },
+    {
+      "from": "person/kamel-el-telmissany",
+      "type": "created",
+      "to": "movement/art-et-liberte",
+      "derived": true
+    },
+    {
+      "from": "person/ramses-younan",
+      "type": "created",
+      "to": "movement/art-et-liberte",
+      "derived": true
+    },
+    {
+      "from": "person/gyula-kosice",
+      "type": "created",
+      "to": "movement/arte-madi",
+      "derived": true
+    },
+    {
       "from": "person/shakir-hassan-al-said",
       "type": "created",
       "to": "movement/baghdad-modern-art-group",
@@ -10075,6 +12417,24 @@
       "from": "org/east-india-company",
       "type": "patronized",
       "to": "movement/company-painting",
+      "derived": true
+    },
+    {
+      "from": "person/pablo-picasso",
+      "type": "created",
+      "to": "movement/cubism",
+      "derived": true
+    },
+    {
+      "from": "person/georges-braque",
+      "type": "created",
+      "to": "movement/cubism",
+      "derived": true
+    },
+    {
+      "from": "movement/post-impressionism",
+      "type": "influenced",
+      "to": "movement/cubism",
       "derived": true
     },
     {
@@ -10132,9 +12492,21 @@
       "derived": true
     },
     {
+      "from": "person/dong-qichang",
+      "type": "taught",
+      "to": "movement/four-wangs",
+      "derived": true
+    },
+    {
       "from": "person/filippo-tommaso-marinetti",
       "type": "created",
       "to": "movement/futurism",
+      "derived": true
+    },
+    {
+      "from": "person/jiro-yoshihara",
+      "type": "created",
+      "to": "movement/gutai",
       "derived": true
     },
     {
@@ -10165,6 +12537,12 @@
       "from": "movement/utagawa-school",
       "type": "influenced",
       "to": "movement/impressionism",
+      "derived": true
+    },
+    {
+      "from": "person/jose-sabogal",
+      "type": "created",
+      "to": "movement/indigenismo",
       "derived": true
     },
     {
@@ -10210,6 +12588,24 @@
       "derived": true
     },
     {
+      "from": "movement/mughal-painting",
+      "type": "influenced",
+      "to": "movement/mewar-painting",
+      "derived": true
+    },
+    {
+      "from": "movement/mughal-painting",
+      "type": "reacted_against_by",
+      "to": "movement/mewar-painting",
+      "derived": true
+    },
+    {
+      "from": "person/yanagi-soetsu",
+      "type": "created",
+      "to": "movement/mingei",
+      "derived": true
+    },
+    {
       "from": "person/nobuo-sekine",
       "type": "created",
       "to": "movement/mono-ha",
@@ -10225,6 +12621,12 @@
       "from": "movement/safavid-painting",
       "type": "influenced",
       "to": "movement/mughal-painting",
+      "derived": true
+    },
+    {
+      "from": "person/dong-qichang",
+      "type": "influenced",
+      "to": "movement/nanga",
       "derived": true
     },
     {
@@ -10279,6 +12681,12 @@
       "from": "place/dakar",
       "type": "received",
       "to": "movement/poto-poto-school",
+      "derived": true
+    },
+    {
+      "from": "movement/safavid-painting",
+      "type": "influenced",
+      "to": "movement/qajar-painting",
       "derived": true
     },
     {
@@ -10363,6 +12771,12 @@
       "from": "movement/post-impressionism",
       "type": "groups",
       "to": "person/vincent-van-gogh",
+      "derived": true
+    },
+    {
+      "from": "concept/minhwa",
+      "type": "influenced",
+      "to": "person/yanagi-soetsu",
       "derived": true
     },
     {
