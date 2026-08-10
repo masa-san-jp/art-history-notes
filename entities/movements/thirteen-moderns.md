@@ -30,6 +30,8 @@ space:
   - {role: originated_in, target: place/manila}
 relations:
   - {type: created_by, target: person/victorio-edades}
+  - {type: influenced_by, target: movement/post-impressionism, certainty: scholarly, source: "https://www.jpf.go.jp/j/publish/asia_exhibition_history/pdf/17_95_modernism_5.pdf"}
+  - {type: influenced_by, target: movement/cubism, certainty: scholarly, source: "https://www.jpf.go.jp/j/publish/asia_exhibition_history/pdf/17_95_modernism_5.pdf"}
 sources:
   - https://www.jpf.go.jp/j/publish/asia_exhibition_history/pdf/17_95_modernism_5.pdf
   - https://cdn.aaa.org.hk/_source/digital_collection/fedora_extracted/45808.pdf
@@ -158,6 +160,28 @@ end を1941年としたのは、ギリェルモの論考が「美術における
 発生地をマニラ（[place/manila](../places/manila.md)）とした。根拠は、Atelier of Modern Art
 の所在地（マラテ地区M.H.デルピラール通り）と、トリウムヴィラーテによる壁画制作地（キャピトル・
 シアター、ステート・シアターなどマニラ市内の劇場）が、いずれもマニラであることによる。
+
+### 西洋モダニズムからの受容——受け取ったのは様式ではなく「接木するという立場」
+
+`influenced_by` を[ポスト印象派](post-impressionism.md)と[キュビスム](cubism.md)（いずれも
+europe-west）へ2本張った。**根拠は上記「③何を共有しているか」で述べたことの言い換えである**
+——13名の手つきも主題も統一されておらず（マナンサラは半透明のキュビズム的作風、H・R・オカンポは
+非対象、レガスピはキュビズム、フランシスコは壁画・歴史画、マグサイサイ・ホーは風俗画）、
+共有されていたのは「西洋のモダニズム（後期印象派・キュビスム・表現主義的な語彙）を自国の主題に
+接木する」という立場・綱領の方だった
+（[jpf.go.jp](https://www.jpf.go.jp/j/publish/asia_exhibition_history/pdf/17_95_modernism_5.pdf)
+p.71-72、二次情報）。
+
+**つまりこの2本が指しているのは、様式の伝播ではなく方法の採用である。** 個々の画家が誰の何を
+模したかではなく、「西洋の近代的な語彙を、フィリピンの主題に接ぐ」という手続きそのものが集団を
+束ねていた。エダデス自身の渡米（1919〜1928年、ワシントン大学）は個人の留学であって、
+[バンドン派](bandung-school.md)や[インドシナ漆絵画](indochina-lacquer-painting.md)のように
+統治側が設置した教育機関が経路になった型とは異なる——**外から来た教師ではなく、外へ出て帰ってきた
+当事者が持ち込んでいる**。`founding_control` を `internal` としたのはこの構造による。
+
+**未確認**: 同じ一文が3つ目に挙げる「表現主義」は、該当する movement が本KBに無いため張れていない。
+また出典は3つの語を並べるだけで、13名の誰がどの経路（留学・複製図版・展覧会）でそれに触れたかを
+述べていない。
 
 ## 未着手
 
