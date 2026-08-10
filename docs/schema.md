@@ -75,8 +75,34 @@ updated: 2026-08-08
 
 ### `kind`（movement 必須・4値）
 
-`self-declared` 当事者が名乗った運動 ／ `retrospective` 後代に外部が付けた括り ／
+`self-declared` 当事者が名乗った運動 ／ `retrospective` **外部が付けた括り** ／
 `lineage-school` 血縁・工房の継承体 ／ `period-style` 王朝・時代に紐づく様式。
+
+#### `retrospective` は「後代かどうか」ではなく「名づけた主体が外部かどうか」で決まる
+
+**「後代に」と書くと時間差の話に読めるが、判定に効いているのは主体の方である。** 同時代に
+名づけられていても、名づけたのが当事者でなければ `retrospective` になる。本KBの実例（すべて
+`naming.named_when` と `time.start` を突き合わせて確認）:
+
+| movement | 対象の開始 | 命名 | 名づけた主体 |
+|---|---|---|---|
+| [日本画](../entities/movements/nihonga.md) | 1882 | **1882（同年）** | フェノロサ（同時代の外国人講師） |
+| [抽象表現主義](../entities/movements/abstract-expressionism.md) | 194X | **1946（対象の期間内）** | ロバート・コーツ（同時代の批評家） |
+| [立体未来主義](../entities/movements/cubo-futurism.md) | 1912 | **1913（翌年）** | チュコフスキー（同時代の批評家） |
+| [金陵八家](../entities/movements/jinling-eight-masters.md) | 1650~ | 1663（方文の詩、**8人の多くが存命中**） | 詩人・鑑識家 |
+| [バマナ彫刻](../entities/movements/bamana-sculpture.md) | — | — | **個人ですらない**（他称を植民地行政が固定し、美術の括りは1960年の美術館の展覧会が定式化） |
+
+**バマナ彫刻が示すとおり、名づけた「主体」は個人とは限らない**——美術館・目録・行政もまた
+外部の名づけ手として働く。Getty AAT が非西洋の対象に与える「◯◯ (culture or style)」という
+分類語自体がこの型に当たる。
+
+逆向きの例も置いておく。[シュルレアリスム](../entities/movements/surrealism.md)は、語としては
+1917年のアポリネールが先行するが、1924年にブルトンが宣言で定義を与えて占めたため
+`self-declared` である。**先に語があったかどうかではなく、当事者が定義を握ったかどうかで分かれる。**
+
+なお[印象派](../entities/movements/impressionism.md)は `retrospective` でありながら
+`naming.self_identified: true` を持つ——批評家ルロワが与えた名を当事者が引き取った型。
+**kind（誰が括ったか）と `self_identified`（当事者が引き受けたか）は別の軸として持つ。**
 
 **なぜ型を分けず kind にするか**: 外部データが型分離の失敗例になっている。Wikidata は狩野派に
 `family`＋`art movement`＋`school of painting` を重ね、琳派は `school of painting` だけ、
