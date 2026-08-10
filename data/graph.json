@@ -8632,6 +8632,7 @@
       "label_en": "Dong Qichang",
       "authority": {
         "wikidata": "Q537211",
+        "ulan": "500125621",
         "aat": null,
         "ndl": null,
         "jpsearch": null,
@@ -8640,16 +8641,45 @@
       "time": {
         "start": "1555",
         "end": "1636",
-        "display": "1555年 – 1636年（明末の文人・書画家・理論家）"
+        "display": "1555年 – 1636年（明末の文人・書画家・理論家。Wikidata Q537211 の P569/P570 はいずれも precision 9＝年単位）"
       },
-      "space": [],
-      "relations": [],
+      "space": [
+        {
+          "role": "born_in",
+          "target": "place/songjiang"
+        }
+      ],
+      "relations": [
+        {
+          "type": "member_of",
+          "target": "movement/songjiang-school"
+        }
+      ],
+      "images": [
+        {
+          "url": "https://openaccess-cdn.clevelandart.org/1980.10/1980.10_web.jpg",
+          "source_page": "https://clevelandart.org/art/1980.10",
+          "license": "cc0",
+          "note": "董其昌《青卞隠居図（Mt. Qingbian）》1617年、クリーブランド美術館蔵"
+        },
+        {
+          "url": "https://openaccess-cdn.clevelandart.org/1959.46/1959.46_web.jpg",
+          "source_page": "https://clevelandart.org/art/1959.46",
+          "license": "cc0",
+          "note": "董其昌《秋興八景図・清秋山水（River and Mountains on a Clear Autumn Day）》1624〜27年頃、クリーブランド美術館蔵"
+        }
+      ],
       "sources": [
         "https://www.wikidata.org/wiki/Q537211",
-        "https://ja.wikipedia.org/wiki/%E6%B5%99%E6%B4%BE"
+        "https://en.wikipedia.org/wiki/Dong_Qichang",
+        "https://ja.wikipedia.org/wiki/%E6%B5%99%E6%B4%BE",
+        "https://zh.wikipedia.org/wiki/%E7%8E%8B%E6%97%B6%E6%95%8F",
+        "https://zh.wikipedia.org/wiki/%E7%8E%8B%E9%91%91_%28%E7%95%AB%E5%AE%B6%29",
+        "https://clevelandart.org/art/1980.10",
+        "https://clevelandart.org/art/1959.46"
       ],
-      "status": "stub",
-      "updated": "2026-08-09",
+      "status": "draft",
+      "updated": "2026-08-10",
       "path": "entities/persons/dong-qichang.md"
     },
     "person/e-b-havell": {
@@ -14293,6 +14323,18 @@
       "to": "place/new-york-city"
     },
     {
+      "from": "person/dong-qichang",
+      "type": "member_of",
+      "to": "movement/songjiang-school",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "person/dong-qichang",
+      "type": "born_in",
+      "to": "place/songjiang"
+    },
+    {
       "from": "person/georges-seurat",
       "type": "belongs_to",
       "to": "movement/neo-impressionism",
@@ -14974,6 +15016,12 @@
       "from": "movement/mexican-muralism",
       "type": "groups",
       "to": "person/david-alfaro-siqueiros",
+      "derived": true
+    },
+    {
+      "from": "movement/songjiang-school",
+      "type": "has_member",
+      "to": "person/dong-qichang",
       "derived": true
     },
     {

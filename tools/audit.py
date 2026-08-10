@@ -58,13 +58,18 @@ def check_time_order(entities, edges, findings):
             findings.append({"kind": "time-order", "about": e["from"],
                              "text": f"{a['label_ja']}（{ya}）が後続とした {b['label_ja']}（{yb}）より後に始まっている"})
 
+    # 名前が対象より先に在るのが矛盾になるのは、名が後付けのとき（retrospective）だけ。
+    # self-declared では造語が結成の宣言に先立つのが普通で（民藝＝1925年の造語／1926年の設立趣意書）、
+    # ここを一律に見ると自称の movement を毎回誤検知する。
     for eid, meta in entities.items():
+        if meta.get("kind") != "retrospective":
+            continue
         naming = meta.get("naming") or {}
         named = edtf_year_range(naming.get("named_when"))[0]
         start = start_year(meta)
         if named and start and named < start:
             findings.append({"kind": "time-order", "about": eid,
-                             "text": f"{meta['label_ja']}: 命名年 {named} が対象の開始 {start} より前"})
+                             "text": f"{meta['label_ja']}: 後付けの命名年 {named} が対象の開始 {start} より前"})
 
 
 def check_grouped_as(entities, edges, findings):
