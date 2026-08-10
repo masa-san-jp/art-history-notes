@@ -1,9 +1,9 @@
 {
   "as_of": "2026-08-10",
-  "movement_total": 100,
+  "movement_total": 101,
   "movement_stub_excluded": 0,
   "by_status": {
-    "draft": 98,
+    "draft": 99,
     "stub": 0,
     "verified": 2
   },
@@ -33,6 +33,12 @@
       "16": 1,
       "14": 1
     },
+    "europe-west": {
+      "19": 5,
+      "20": 5,
+      "13": 1,
+      "15": 1
+    },
     "oceania": {
       "unknown": 4,
       "19": 1,
@@ -51,12 +57,6 @@
       "16": 1,
       "19": 1,
       "18": 1
-    },
-    "europe-west": {
-      "19": 4,
-      "20": 5,
-      "13": 1,
-      "15": 1
     },
     "asia-south": {
       "17": 3,
@@ -97,7 +97,7 @@
     }
   },
   "per_bucket": {
-    "europe-west": 11,
+    "europe-west": 12,
     "europe-east": 4,
     "americas-north": 5,
     "mena": 9,
@@ -119,8 +119,8 @@
     "movement/literati-painting"
   ],
   "progress": {
-    "movement_total": "100/100（stub 0件は不算入）",
-    "non_west_ratio": "0.79/0.5",
+    "movement_total": "101/100（stub 0件は不算入）",
+    "non_west_ratio": "0.78/0.5",
     "per_bucket_min": "13/13 バケットが 3件以上",
     "pre_1800_ratio": "0.49/0.3",
     "isolated_ratio": "0.01（上限 0.1）"

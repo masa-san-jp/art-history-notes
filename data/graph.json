@@ -611,6 +611,82 @@
       "updated": "2026-08-10",
       "path": "entities/movements/arte-madi.md"
     },
+    "movement/arts-and-crafts": {
+      "id": "movement/arts-and-crafts",
+      "uri": "urn:ahn:movement/arts-and-crafts",
+      "type": "movement",
+      "label_ja": "アーツ・アンド・クラフツ運動",
+      "label_en": "Arts and Crafts movement",
+      "authority": {
+        "wikidata": "Q330369",
+        "aat": "300266319",
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": "1887",
+        "end": "1920~",
+        "display": "自称の起点は1887年、ロンドンのアーツ・アンド・クラフツ展覧協会（Arts and Crafts Exhibition Society）の会合でT・J・コブデン＝サンダーソンが「Arts and Crafts」の語を用いた時点。ただし前史はより長く、ウィリアム・モリスらのモリス・マーシャル・フォークナー商会は1861年に設立されており、英語版Wikipediaは「この語が使われる少なくとも20年前からイングランドで原理が育っていた」と記す。終期は明確な解散の記録ではなく、同記事が挙げる「およそ1880年から1920年」という英国での展開期の下端に拠る"
+      },
+      "kind": "self-declared",
+      "naming": {
+        "self_identified": true,
+        "named_by": null,
+        "named_when": "1887",
+        "original_label": "Arts and Crafts",
+        "note": "命名者はT・J・コブデン＝サンダーソン（T. J. Cobden-Sanderson）。1887年、アーツ・アンド・クラフツ展覧協会の会合でこの句を初めて用いたとされる（[英語版Wikipedia](https://en.wikipedia.org/wiki/Arts_and_Crafts_movement)、二次情報）。**命名は外部の批評家ではなく、当事者が集まった協会の場で起きている**——印象派やフォーヴのように揶揄から始まった名ではなく、展覧会を開くための団体が自らを呼ぶために選んだ語である。この点をもって self_identified を true とした。person エンティティは作らず本文に名を記すに留めた（`docs/schema.md` の作成基準に単独では当たらないため）。**未確認**: コブデン＝サンダーソン自身の記録（書簡・日記）による裏取り。1887年の会合の議事そのものには到達していない"
+      },
+      "claims": [
+        {
+          "field": "kind",
+          "source": "https://en.wikipedia.org/wiki/Arts_and_Crafts_movement",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "time",
+          "source": "https://en.wikipedia.org/wiki/Arts_and_Crafts_movement",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "originated_in",
+          "source": "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300266319",
+          "certainty": "scholarly"
+        }
+      ],
+      "images": [
+        {
+          "url": "https://www.artic.edu/iiif/2/2287bfa7-89a3-8c59-78ed-0d8f5f43b199/full/843,/0/default.jpg",
+          "source_page": "https://www.artic.edu/artworks/103918",
+          "license": "public-domain",
+          "note": "ウィリアム・モリス《ピーコック・アンド・ドラゴン（Peacock and Dragon）》1878年意匠。モリス商会（ロンドン）製。シカゴ美術館蔵"
+        },
+        {
+          "url": "https://www.artic.edu/iiif/2/75c9cedb-c001-c22e-cf6c-8bc764e0e638/full/843,/0/default.jpg",
+          "source_page": "https://www.artic.edu/artworks/47947",
+          "license": "public-domain",
+          "note": "ウィリアム・モリス《「スワン・ハウス」絨毯》1883年頃意匠・1887年製。モリス商会（マートン・アビー工房、ロンドン）製。シカゴ美術館蔵"
+        }
+      ],
+      "space": [
+        {
+          "role": "originated_in",
+          "target": "place/london"
+        }
+      ],
+      "relations": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q330369",
+        "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300266319",
+        "http://vocab.getty.edu/aat/300266319",
+        "https://en.wikipedia.org/wiki/Arts_and_Crafts_movement",
+        "https://www.artic.edu/artworks/103918",
+        "https://www.artic.edu/artworks/47947"
+      ],
+      "status": "draft",
+      "updated": "2026-08-10",
+      "path": "entities/movements/arts-and-crafts.md"
+    },
     "movement/asmat-carving": {
       "id": "movement/asmat-carving",
       "uri": "urn:ahn:movement/asmat-carving",
@@ -4952,6 +5028,12 @@
         {
           "type": "created_by",
           "target": "person/yanagi-soetsu"
+        },
+        {
+          "type": "influenced_by",
+          "target": "movement/arts-and-crafts",
+          "certainty": "scholarly",
+          "source": "https://en.wikipedia.org/wiki/Arts_and_Crafts_movement"
         }
       ],
       "images": [
@@ -11192,6 +11274,38 @@
       "updated": "2026-08-10",
       "path": "entities/places/lima.md"
     },
+    "place/london": {
+      "id": "place/london",
+      "uri": "urn:ahn:place/london",
+      "type": "place",
+      "label_ja": "ロンドン",
+      "label_en": "London",
+      "authority": {
+        "wikidata": "Q84",
+        "tgn": "7011781",
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "region": "europe-west",
+      "coordinates": [
+        51.507222,
+        -0.1275
+      ],
+      "time": {
+        "start": null,
+        "end": null,
+        "display": null
+      },
+      "relations": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q84"
+      ],
+      "status": "stub",
+      "updated": "2026-08-10",
+      "path": "entities/places/london.md"
+    },
     "place/mandalay": {
       "id": "place/mandalay",
       "uri": "urn:ahn:place/mandalay",
@@ -12965,6 +13079,11 @@
       "to": "place/buenos-aires"
     },
     {
+      "from": "movement/arts-and-crafts",
+      "type": "originated_in",
+      "to": "place/london"
+    },
+    {
       "from": "movement/asmat-carving",
       "type": "originated_in",
       "to": "place/asmat-regency"
@@ -13621,6 +13740,13 @@
       "to": "person/yanagi-soetsu",
       "certainty": null,
       "source": null
+    },
+    {
+      "from": "movement/mingei",
+      "type": "influenced_by",
+      "to": "movement/arts-and-crafts",
+      "certainty": "scholarly",
+      "source": "https://en.wikipedia.org/wiki/Arts_and_Crafts_movement"
     },
     {
       "from": "movement/mingei",
@@ -14559,6 +14685,12 @@
     {
       "from": "person/yanagi-soetsu",
       "type": "created",
+      "to": "movement/mingei",
+      "derived": true
+    },
+    {
+      "from": "movement/arts-and-crafts",
+      "type": "influenced",
       "to": "movement/mingei",
       "derived": true
     },

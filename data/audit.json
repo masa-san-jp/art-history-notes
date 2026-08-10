@@ -13,17 +13,12 @@
     {
       "kind": "no-cross-region",
       "about": "all",
-      "text": "他の文化圏の movement と1本も繋がっていない movement が 67/99 件。時間だけでなく空間の広がりを体系化するので、影響・伝播・反発を調べる余地"
+      "text": "他の文化圏の movement と1本も繋がっていない movement が 66/100 件。時間だけでなく空間の広がりを体系化するので、影響・伝播・反発を調べる余地"
     },
     {
       "kind": "no-cross-region",
       "about": "africa-sub",
       "text": "africa-sub: 8件（バマナ彫刻、ベニン王国宮廷美術、ゴンダール様式教会絵画、イフェ美術 ほか）"
-    },
-    {
-      "kind": "no-cross-region",
-      "about": "asia-east-japan",
-      "text": "asia-east-japan: 8件（具体美術協会、円山四条派、民藝運動、もの派 ほか）"
     },
     {
       "kind": "no-cross-region",
@@ -34,6 +29,11 @@
       "kind": "no-cross-region",
       "about": "asia-southeast",
       "text": "asia-southeast: 7件（ドンホー版画、インドシナ漆絵画（ソンマイ）、カマサン様式、マンダレー様式 ほか）"
+    },
+    {
+      "kind": "no-cross-region",
+      "about": "asia-east-japan",
+      "text": "asia-east-japan: 7件（具体美術協会、円山四条派、もの派、南画 ほか）"
     },
     {
       "kind": "no-cross-region",

@@ -29,6 +29,7 @@ space:
   - {role: originated_in, target: place/tokyo}
 relations:
   - {type: created_by, target: person/yanagi-soetsu}
+  - {type: influenced_by, target: movement/arts-and-crafts, certainty: scholarly, source: "https://en.wikipedia.org/wiki/Arts_and_Crafts_movement"}
 images:
   - url: https://images.metmuseum.org/CRDImages/as/original/DP-36798-002.jpg
     source_page: https://www.metmuseum.org/art/collection/search/36115
@@ -111,6 +112,27 @@ updated: 2026-08-10
 所在地）を`originated_in`に採った。**未確認**: 「民藝」の語そのものが作られた具体的な土地
 （京都・和歌山・高野山のいずれかとする記事があり、資料間で一致しない）。
 
+### 英国からの受容——動いたのは言葉
+
+`influenced_by` を[アーツ・アンド・クラフツ運動](arts-and-crafts.md)（europe-west）へ1本張った。
+**動いたのは人でも物でもなく、読まれたテキストである。**
+
+英語版Wikipedia「Arts and Crafts movement」は、伝播の節で日本を名指してこう書く——「In Japan,
+Yanagi Sōetsu developed the Mingei movement from the 1920s onward, influenced by the writings of
+Morris and Ruskin」（日本では柳宗悦が1920年代以降、モリスとラスキンの著作に影響を受けて民藝運動を
+展開した）（[en.wikipedia](https://en.wikipedia.org/wiki/Arts_and_Crafts_movement)、二次情報）。
+
+受容の形が「著作を読んだ」であることは、この2つの運動の関係の性質を決めている。柳は英国へ渡って
+モリス商会の工房に入ったのでも、モリスの織物を輸入したのでもなく、**工業化への反動・手仕事の
+復興・無名の作り手の擁護という主張の側を受け取った**。だから民藝運動が向かった先は英国の意匠では
+なく、日本各地の無名の日用品（大津絵・朝鮮の日用陶磁・木喰仏）だった。**様式は渡らず、主張だけが
+渡った**という形になる。
+
+**未確認**: 柳がモリス・ラスキンのどの著作を、いつ、どの版（原書か邦訳か）で読んだか。上記の出典は
+「writings of Morris and Ruskin」としか書いておらず、書名・時期を特定していない。柳自身の著作
+（『工藝の道』1928年ほか）における言及箇所の確認が次の課題。**この1本は現状、英国側の記事が
+日本を名指しているという一方向の記述に依拠しており、柳の側の一次的な言明では裏を取っていない。**
+
 ## 未着手
 
 - 「日本民藝美術館設立趣意書」（1926年）そのものの原文・正確な発表日——現状はいずれも二次情報
@@ -125,8 +147,9 @@ updated: 2026-08-10
 - 河井寬次郎・濱田庄司・富本憲吉の`person`化——docs/schema.mdの作成基準（kind/time/originated_in
   の根拠になる／2movementを繋ぐ／作品を分解して読んだ）のいずれにも単独では当たらないため、
   本文に名前を書くのみに留めた
-- アーツ・アンド・クラフツ運動（英国）との`influenced_by`関係——複数の二次情報が柳の思想への
-  影響を指摘するが、このKBに同運動のmovementが無いため接続は保留した
+- ~~アーツ・アンド・クラフツ運動（英国）との`influenced_by`関係——このKBに同運動のmovementが
+  無いため接続は保留した~~ → 2026-08-10、[arts-and-crafts](arts-and-crafts.md) を立てて接続した
+  （上記「空間」参照）。残る課題は柳の側の一次的な言明（読んだ著作の書名・時期・版）の特定
 - [concept/minhwa](../concepts/minhwa.md)（朝鮮の民画）との関係——柳個人の足跡としては
   [person/yanagi-soetsu](../persons/yanagi-soetsu.md)に`influenced_by`関係を張ったが、運動同士
   （mingei対minhwa）を直接つなぐ関係語彙は無い（`movement`から`concept`への語彙は
