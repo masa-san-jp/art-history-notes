@@ -32,6 +32,7 @@ space:
   - {role: originated_in, target: place/bandung}
 relations:
   - {type: created_by, target: person/ries-mulder}
+  - {type: influenced_by, target: movement/cubism, certainty: scholarly, source: "https://id.wikipedia.org/wiki/Mazhab_Bandung_(seni)"}
 sources:
   - https://www.wikidata.org/wiki/Q65214081
   - https://id.wikipedia.org/wiki/Mazhab_Bandung_(seni)
@@ -171,6 +172,29 @@ Wikidata上の呼称「Mazhab Bandung」自体がいつ・誰によって、批�
 
 `originated_in`は[place/bandung](../places/bandung.md)とした。バンドン工科大学の前身にあたる
 美術教員養成課程が置かれた都市であり、参照した二次資料すべてがバンドンを発祥地として扱う。
+
+### ヨーロッパからの受容——動いたのは教師
+
+`influenced_by` を[キュビスム](cubism.md)（europe-west）へ1本張った。**動いたのは人であり、
+しかも制度に組み込まれた人である。**
+
+1948年にオランダから招かれた[リース・ミュルダー](../persons/ries-mulder.md)が美術教員養成課程で
+教え、その第一世代——アフマド・サダリ、ブット・ムフタル、スリハディ・スダルソノ、ムフタル・アピン、
+ポポ・イスカンダルら——が1950年代にこの課程で育った。インドネシア語版Wikipediaは、かれらの当初の
+作品が「フォーヴィスムとキュビスムの中間に位置するフランスの画家ジャック・ヴィヨンの様式を継承した」
+と記す（[id.wikipedia](https://id.wikipedia.org/wiki/Mazhab_Bandung_(seni))、二次情報）。1954年には
+この課程の助手・学生ら11人による**立体派的な作品**の展覧会がジャカルタで開かれ、大きな論争を呼んだ
+（同）。
+
+受容の経路が個人の旅行や作品の流入ではなく、**植民地期に設置された美術教育課程そのもの**だった点が
+この1本の性格を決めている。批評家トリスノ・スマルジョがこの一派を「laboratorium Eropa（ヨーロッパの
+実験室）」と呼んで攻撃したこと（下記「命名と対立」）は、受け手の側がこの経路を制度的な従属として
+認識していたことを示す。
+
+**この1本の粗さ**: 出典が名指すのはジャック・ヴィヨン個人の様式であって、キュビスムという括りでは
+ない。ヴィヨンはピュトー・グループ／セクション・ドールに連なるキュビスムの画家だが、出典自身が彼を
+「フォーヴィスムとキュビスムの中間」と位置づけている。**未確認**: ミュルダー自身がキュビスムを
+どのように学び、何を教材としたか。person/ries-mulder の本文でも彼の修業歴は追い切れていない。
 
 ## 未着手
 

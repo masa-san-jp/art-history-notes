@@ -986,6 +986,12 @@
         {
           "type": "created_by",
           "target": "person/ries-mulder"
+        },
+        {
+          "type": "influenced_by",
+          "target": "movement/cubism",
+          "certainty": "scholarly",
+          "source": "https://id.wikipedia.org/wiki/Mazhab_Bandung_(seni)"
         }
       ],
       "sources": [
@@ -13001,6 +13007,13 @@
     },
     {
       "from": "movement/bandung-school",
+      "type": "influenced_by",
+      "to": "movement/cubism",
+      "certainty": "scholarly",
+      "source": "https://id.wikipedia.org/wiki/Mazhab_Bandung_(seni)"
+    },
+    {
+      "from": "movement/bandung-school",
       "type": "originated_in",
       "to": "place/bandung"
     },
@@ -14270,6 +14283,12 @@
     {
       "from": "person/ries-mulder",
       "type": "created",
+      "to": "movement/bandung-school",
+      "derived": true
+    },
+    {
+      "from": "movement/cubism",
+      "type": "influenced",
       "to": "movement/bandung-school",
       "derived": true
     },
