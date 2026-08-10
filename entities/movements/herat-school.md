@@ -30,6 +30,7 @@ space:
 relations:
   - {type: diffused_to, target: place/tabriz, certainty: scholarly, source: "https://en.wikipedia.org/wiki/Kam%C4%81l_ud-D%C4%ABn_Behz%C4%81d"}
   - {type: influenced_by, target: movement/baghdad-school-of-illustration, certainty: scholarly, source: "https://www.britannica.com/art/Jalayirid-school"}
+  - {type: influenced_by, target: movement/shiraz-school, certainty: scholarly, source: "https://en.wikipedia.org/wiki/Baysunghur"}
 sources:
   - https://www.wikidata.org/wiki/Q5958652
   - https://www.wikidata.org/wiki/Q484195
@@ -82,6 +83,20 @@ Ahmad Jalayir, who he installed in Herat to add to his existing artists from Shi
 この合流を"They became the most important school of artists in Iran, merging the two styles"と
 評する——タブリーズ（ジャライル朝様式）とシーラーズの2系統の職人が同じ王室工房（キタブハーネ、
 kitabkhana）に統合された年として1421年を起点に置いた。
+
+**この合流は `relations` に2本として書いてある。** タブリーズ側（ジャライル朝様式）は
+[バグダード派細密画](baghdad-school-of-illustration.md)への `influenced_by`、シーラーズ側は
+[シーラーズ派](shiraz-school.md)（mena）への `influenced_by` で、後者は2026-08-10 に追加した。
+**動いたのは人であり、動かしたのは征服である**——タブリーズの一団は制圧した都市から連れ帰られ、
+シーラーズの画家たちはそれ以前に招かれていた。バイスングルの兄弟イブラーヒーム・スルターンが
+シーラーズの工房を率いており（[シーラーズ派](shiraz-school.md)本文参照）、1420年完成の文集を
+バイスングルに献呈している。**2つの工房は敵対する政権のものではなく、同じティムール家の兄弟が
+それぞれ持っていた**。この1本は、様式の伝播であると同時に王家内部の人と物の移動でもある。
+
+**未確認**: シーラーズから招かれた画家が具体的に誰で、いつ来たのか。英語版Wikipedia「Baysunghur」は
+"his existing artists from Shiraz"と書くだけで、名前も年も挙げていない。また、イスカンダル・
+スルターンの処刑（1414年）後にその蔵書・工房の人員がヘラートへ移されたとする記述が二次資料に
+あるが、原典に当たれていない。
 
 工房の実務を統括したのは書家ジャアファル・タブリーズィー（Ja'far al-Bāysonghori）で、1421年頃から
 「バイスングリー」の名で呼ばれ、40人の書家を率いてキタブハーネの長となった

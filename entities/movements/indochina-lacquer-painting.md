@@ -31,6 +31,7 @@ space:
 relations:
   - {type: created_by, target: person/victor-tardieu}
   - {type: created_by, target: person/nguyen-gia-tri}
+  - {type: influenced_by, target: movement/post-impressionism, certainty: scholarly, source: "https://www.rem.routledge.com/articles/nguyen-gia-tri-1908-1993"}
 sources:
   - https://en.wikipedia.org/wiki/Vietnam_University_of_Fine_Arts
   - https://en.wikipedia.org/wiki/Victor_Tardieu
@@ -184,6 +185,26 @@ l'Indochine (1925–45)」と記す（前掲）。
 タルデュー・アングィベルティ・グエン・ザー・チーらの活動拠点であることに基づく
 （[en.wikipedia.org/wiki/Vietnam_University_of_Fine_Arts](https://en.wikipedia.org/wiki/Vietnam_University_of_Fine_Arts)、
 二次情報）。
+
+### フランスからの受容——学校そのものが経路だった
+
+`influenced_by` を[ポスト印象派](post-impressionism.md)（europe-west）へ1本張った。**動いたのは
+人だが、その人は制度として置かれていた。** インドシナ美術学校はフランス植民地政府の総督布告に
+よって設けられ、フランス人画家ヴィクトール・タルデューが初代校長、絵画科を率いたのもフランス人
+教師ジョゼフ・アングィベルティである（本文「定義と範囲」参照）。**受容の経路は個人の留学でも
+作品の輸入でもなく、統治側が設置した教育機関だった**——この構造は
+[バンドン派](bandung-school.md)（オランダ人教師リース・ミュルダーの美術教員養成課程）と同型で、
+`founding_control` がどちらも `shared` になるのも同じ理由による。
+
+Routledge Encyclopedia of Modernism は、グエン・ザー・チーがこの技法群のもとで「後期印象派の影響と
+漆という素材の透明感・光沢の探求を組み合わせた、独自の表現的な様式」を発展させたと記す
+（[rem.routledge.com](https://www.rem.routledge.com/articles/nguyen-gia-tri-1908-1993)、二次情報）。
+
+**この1本の弱さ**: 出典が語っているのは**グエン・ザー・チー個人の様式**であって、movement 全体の
+受容ではない。上記「③様式的同一性」で見たとおり、この括りを1つにしているのは素材と技法群であって
+視覚的な様式ではなく、同時期の他の画家（トラン・ヴァン・カンら）が同じ影響を受けたとは出典に
+書かれていない。**未確認**: タルデュー・アングィベルティが何をどう教えたか（教育課程の内容・
+参照した作例）。フランス側の何が渡ったのかを教育の実務まで降りて確認できていない。
 
 ## 未着手
 

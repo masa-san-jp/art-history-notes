@@ -3049,6 +3049,12 @@
           "target": "movement/baghdad-school-of-illustration",
           "certainty": "scholarly",
           "source": "https://www.britannica.com/art/Jalayirid-school"
+        },
+        {
+          "type": "influenced_by",
+          "target": "movement/shiraz-school",
+          "certainty": "scholarly",
+          "source": "https://en.wikipedia.org/wiki/Baysunghur"
         }
       ],
       "sources": [
@@ -3547,6 +3553,12 @@
         {
           "type": "created_by",
           "target": "person/nguyen-gia-tri"
+        },
+        {
+          "type": "influenced_by",
+          "target": "movement/post-impressionism",
+          "certainty": "scholarly",
+          "source": "https://www.rem.routledge.com/articles/nguyen-gia-tri-1908-1993"
         }
       ],
       "sources": [
@@ -13554,6 +13566,13 @@
     },
     {
       "from": "movement/herat-school",
+      "type": "influenced_by",
+      "to": "movement/shiraz-school",
+      "certainty": "scholarly",
+      "source": "https://en.wikipedia.org/wiki/Baysunghur"
+    },
+    {
+      "from": "movement/herat-school",
       "type": "originated_in",
       "to": "place/herat"
     },
@@ -13628,6 +13647,13 @@
       "to": "person/nguyen-gia-tri",
       "certainty": null,
       "source": null
+    },
+    {
+      "from": "movement/indochina-lacquer-painting",
+      "type": "influenced_by",
+      "to": "movement/post-impressionism",
+      "certainty": "scholarly",
+      "source": "https://www.rem.routledge.com/articles/nguyen-gia-tri-1908-1993"
     },
     {
       "from": "movement/indochina-lacquer-painting",
@@ -14719,6 +14745,12 @@
       "derived": true
     },
     {
+      "from": "movement/shiraz-school",
+      "type": "influenced",
+      "to": "movement/herat-school",
+      "derived": true
+    },
+    {
       "from": "movement/neo-impressionism",
       "type": "follows",
       "to": "movement/impressionism",
@@ -14751,6 +14783,12 @@
     {
       "from": "person/nguyen-gia-tri",
       "type": "created",
+      "to": "movement/indochina-lacquer-painting",
+      "derived": true
+    },
+    {
+      "from": "movement/post-impressionism",
+      "type": "influenced",
       "to": "movement/indochina-lacquer-painting",
       "derived": true
     },
