@@ -28,7 +28,8 @@ claims:
 space:
   - {role: originated_in, target: place/tovkhon-monastery}
   - {role: active_in, target: place/ulaanbaatar}
-relations: []
+relations:
+  - {type: influenced_by, target: movement/newar-art, certainty: scholarly, source: "https://en.wikipedia.org/wiki/Zanabazar"}
 sources:
   - https://en.wikipedia.org/wiki/Zanabazar
   - https://en.wikipedia.org/wiki/Jebtsundamba_Khutuktu
@@ -70,6 +71,12 @@ updated: 2026-08-09
 とされる（同上）。1651年・1656年のチベット留学で、ゲルク派が重んじたネパール（ニューワール）系の
 造形様式を学び、帰国後トゥブフン寺（[place/tovkhon-monastery](../places/tovkhon-monastery.md)）に
 弟子を抱えた工房を構え、「数百点」の作品を制作したとされる（同上、Encyclopedia of Buddhism）。
+2026-08-10、この記述を根拠に[ネワール美術](newar-art.md)（asia-south）への `influenced_by` を
+張った。**動いたのはザナバザル本人だが、行き先はネパールではなくチベットである**——彼が学んだのは
+カトマンズ盆地の工房ではなく、ゲルク派がチベットで重んじていたネワール系の造形様式だった。
+様式が二段階で移動した（ネパール→チベット→モンゴル）ことになるが、中継にあたるチベット側の
+どの流派を経由したかを名指す記述には当たっていない——**未確認**。[メンリ派](menri-school.md)を
+中継として `derives_from` で繋ぐ案は、下記「未着手」のとおり出典が得られず保留のままである。
 もっとも著名とされる作例（白ターラー・ヴァジュラダラなど）は1680年代の作とされ、モンゴル国立美術館
 （旧ザナバザル美術館）所蔵「五智如来」を1683年の作とする記述がある
 （[Mongolianz「The Sublime Sculptures of Undur Gegeen Zanabazar」](https://www.mongolianz.com/post/2021/05/11/the-sublime-sculptures-of-undur-gegeen-zanabazar/)、二次情報）。

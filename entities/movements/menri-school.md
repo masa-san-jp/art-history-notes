@@ -27,7 +27,8 @@ claims:
 space:
   - {role: originated_in, target: place/gyantse}
   - {role: active_in, target: place/shigatse}
-relations: []
+relations:
+  - {type: influenced_by, target: movement/newar-art, certainty: scholarly, source: "https://rubinmuseum.org/projecthimalayanart/essays/murals-of-gongkar-chode/"}
 sources:
   - https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300018855
   - https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300018860
@@ -58,6 +59,14 @@ Rubin Museum Project Himalayan Art の別記事は、メンラ・トンドゥプ
 仏法と衆生の利益になる」と勧められたのが創始の経緯だと記す
 （[Murals of Gongkar Chode](https://rubinmuseum.org/projecthimalayanart/essays/murals-of-gongkar-chode/)、
 二次情報）。**未確認**: 「ラツン」の人物としての正体、この逸話の一次資料での裏付け。
+
+2026-08-10、この記述を根拠に[ネワール美術](newar-art.md)（asia-south）への `influenced_by` を
+張った。**創始の逸話そのものが「ネパール様式と中国の伝統を分析せよ」という指示の形をとっており、
+外から来た2つの様式を意図的に突き合わせることが流派の出発点として語られている**——受け身の影響では
+なく、分析の対象として名指されている点がこの1本の性格である。中国側については、対応する movement が
+本KBに無いため張れていない（下記「未着手」参照）。**未確認**: 同じ15世紀前半に、ネワールの遍歴絵師
+ジーヴァラーマがチベットで施主のために制作していた記録がある（[ネワール美術](newar-art.md)本文参照）
+が、メンラ・トンドゥプとの接点を示す記述には当たっていない。
 
 メンラ・トンドゥプ自身の真筆と確実に同定された作品は現時点で無いとされる一方、図像量度の
 手引書「如意宝珠（Wish-Fulfilling Jewel）」が彼に帰属している

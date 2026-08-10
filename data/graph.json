@@ -5036,7 +5036,14 @@
           "target": "place/shigatse"
         }
       ],
-      "relations": [],
+      "relations": [
+        {
+          "type": "influenced_by",
+          "target": "movement/newar-art",
+          "certainty": "scholarly",
+          "source": "https://rubinmuseum.org/projecthimalayanart/essays/murals-of-gongkar-chode/"
+        }
+      ],
       "sources": [
         "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300018855",
         "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300018860",
@@ -5760,6 +5767,62 @@
       "status": "draft",
       "updated": "2026-08-09",
       "path": "entities/movements/neoconcretismo.md"
+    },
+    "movement/newar-art": {
+      "id": "movement/newar-art",
+      "uri": "urn:ahn:movement/newar-art",
+      "type": "movement",
+      "label_ja": "ネワール美術",
+      "label_en": "Newar art",
+      "authority": {
+        "wikidata": null,
+        "aat": "300018822",
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "Wikidata に「ネワール美術」という括りの項目が無い。近いのは Q1217053『Nepalese art』（ネパールという国の美術全般。ネワールという担い手の単位と一致しない）と Q7148832『Paubha』（ネワールの宗教絵画。絵画に限られ、金工・彫刻を含まない）で、いずれも本項目の範囲とずれるため充てなかった。Getty AAT は Styles and Periods 階層の Himalayan の下に『Nepalese (culture or style)』[300018822] を持つのでこれを採ったが、**この概念に scope note は付いていない**（2026-08-10 に全記録表示で確認）——定義文を持たない典拠であることを明記しておく"
+      },
+      "time": {
+        "start": null,
+        "end": null,
+        "display": "起点・終点とも特定していない。ルービン美術館 Project Himalayan Art の用語集は「ネワールの美術と工人はリッチャヴィ期以来ヒマラヤ世界の全域で称賛されてきた」と記す（リッチャヴィ期はおよそ5〜9世紀）が、これは称賛の起点であって様式の成立年ではない。現在もカトマンズ盆地で制作は続いており、終期を示す出典も無い"
+      },
+      "kind": "retrospective",
+      "naming": {
+        "self_identified": false,
+        "named_by": null,
+        "named_when": null,
+        "original_label": "Newar",
+        "note": "「ネワール美術（Newar art）」は、ネワールという担い手の集団名を冠して外側から与えられた美術史・美術館の分類語である。当事者がこの名で一つの運動・流派を名乗った記録は確認していない。ネワール自身の実践は、パウバ（paubha、ネワールの宗教絵画。チベットのタンカに対応する）や金工といった**媒体ごとの名**と、チトラカール（Chitrakar）・ヴァジュラーチャーリヤ（Vajracharya）・シャーキャ（Shakya）といった**カースト・職能集団の名**で呼ばれてきた。Getty AAT が持つのも民族名ではなく国名由来の『Nepalese (culture or style)』であり、担い手の単位と分類語の単位がずれている点は[バマナ彫刻](bamana-sculpture.md)と同型である。**未確認**: 「Newar art」という英語の括りを最初に用いた研究者・年"
+      },
+      "claims": [
+        {
+          "field": "originated_in",
+          "source": "https://rubinmuseum.org/projecthimalayanart/glossary/newar/",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "kind",
+          "source": "https://rubinmuseum.org/projecthimalayanart/glossary/newar/",
+          "certainty": "scholarly"
+        }
+      ],
+      "space": [
+        {
+          "role": "originated_in",
+          "target": "place/kathmandu"
+        }
+      ],
+      "relations": [],
+      "sources": [
+        "https://rubinmuseum.org/projecthimalayanart/glossary/newar/",
+        "https://rubinmuseum.org/projecthimalayanart/essays/jivaramas-sketchbook/",
+        "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300018822",
+        "https://www.wikidata.org/wiki/Q7148832",
+        "https://www.wikidata.org/wiki/Q1217053"
+      ],
+      "status": "draft",
+      "updated": "2026-08-10",
+      "path": "entities/movements/newar-art.md"
     },
     "movement/ngati-tarawhai-whakairo": {
       "id": "movement/ngati-tarawhai-whakairo",
@@ -8246,7 +8309,14 @@
           "target": "place/ulaanbaatar"
         }
       ],
-      "relations": [],
+      "relations": [
+        {
+          "type": "influenced_by",
+          "target": "movement/newar-art",
+          "certainty": "scholarly",
+          "source": "https://en.wikipedia.org/wiki/Zanabazar"
+        }
+      ],
       "sources": [
         "https://en.wikipedia.org/wiki/Zanabazar",
         "https://en.wikipedia.org/wiki/Jebtsundamba_Khutuktu",
@@ -11436,6 +11506,38 @@
       "updated": "2026-08-09",
       "path": "entities/places/kangra.md"
     },
+    "place/kathmandu": {
+      "id": "place/kathmandu",
+      "uri": "urn:ahn:place/kathmandu",
+      "type": "place",
+      "label_ja": "カトマンズ",
+      "label_en": "Kathmandu",
+      "authority": {
+        "wikidata": "Q3037",
+        "tgn": "1083294",
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "region": "asia-south",
+      "coordinates": [
+        27.71,
+        85.32
+      ],
+      "time": {
+        "start": null,
+        "end": null,
+        "display": null
+      },
+      "relations": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q3037"
+      ],
+      "status": "stub",
+      "updated": "2026-08-10",
+      "path": "entities/places/kathmandu.md"
+    },
     "place/kolkata": {
       "id": "place/kolkata",
       "uri": "urn:ahn:place/kolkata",
@@ -14112,6 +14214,13 @@
     },
     {
       "from": "movement/menri-school",
+      "type": "influenced_by",
+      "to": "movement/newar-art",
+      "certainty": "scholarly",
+      "source": "https://rubinmuseum.org/projecthimalayanart/essays/murals-of-gongkar-chode/"
+    },
+    {
+      "from": "movement/menri-school",
       "type": "originated_in",
       "to": "place/gyantse"
     },
@@ -14267,6 +14376,11 @@
       "from": "movement/neoconcretismo",
       "type": "originated_in",
       "to": "place/rio-de-janeiro"
+    },
+    {
+      "from": "movement/newar-art",
+      "type": "originated_in",
+      "to": "place/kathmandu"
     },
     {
       "from": "movement/ngati-tarawhai-whakairo",
@@ -14584,6 +14698,13 @@
       "from": "movement/yangzhou-eccentrics",
       "type": "originated_in",
       "to": "place/yangzhou"
+    },
+    {
+      "from": "movement/zanabazar-school",
+      "type": "influenced_by",
+      "to": "movement/newar-art",
+      "certainty": "scholarly",
+      "source": "https://en.wikipedia.org/wiki/Zanabazar"
     },
     {
       "from": "movement/zanabazar-school",
@@ -15194,6 +15315,12 @@
       "derived": true
     },
     {
+      "from": "movement/newar-art",
+      "type": "influenced",
+      "to": "movement/menri-school",
+      "derived": true
+    },
+    {
       "from": "movement/mughal-painting",
       "type": "influenced",
       "to": "movement/mewar-painting",
@@ -15401,6 +15528,12 @@
       "from": "concept/ukiyo-e",
       "type": "has_part",
       "to": "movement/utagawa-school",
+      "derived": true
+    },
+    {
+      "from": "movement/newar-art",
+      "type": "influenced",
+      "to": "movement/zanabazar-school",
       "derived": true
     },
     {
