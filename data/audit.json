@@ -13,12 +13,7 @@
     {
       "kind": "no-cross-region",
       "about": "all",
-      "text": "他の文化圏の movement と1本も繋がっていない movement が 73/99 件。時間だけでなく空間の広がりを体系化するので、影響・伝播・反発を調べる余地"
-    },
-    {
-      "kind": "no-cross-region",
-      "about": "asia-east-japan",
-      "text": "asia-east-japan: 9件（具体美術協会、狩野派、円山四条派、民藝運動 ほか）"
+      "text": "他の文化圏の movement と1本も繋がっていない movement が 70/99 件。時間だけでなく空間の広がりを体系化するので、影響・伝播・反発を調べる余地"
     },
     {
       "kind": "no-cross-region",
@@ -29,6 +24,11 @@
       "kind": "no-cross-region",
       "about": "asia-southeast",
       "text": "asia-southeast: 8件（バンドン派、ドンホー版画、インドシナ漆絵画（ソンマイ）、カマサン様式 ほか）"
+    },
+    {
+      "kind": "no-cross-region",
+      "about": "asia-east-japan",
+      "text": "asia-east-japan: 8件（具体美術協会、円山四条派、民藝運動、もの派 ほか）"
     },
     {
       "kind": "no-cross-region",
@@ -58,7 +58,7 @@
     {
       "kind": "no-cross-region",
       "about": "mena",
-      "text": "mena: 5件（バグダード近代美術グループ、ビザンティン美術、チュニス派、カージャール絵画 ほか）"
+      "text": "mena: 4件（バグダード近代美術グループ、チュニス派、カージャール絵画、シーラーズ派）"
     },
     {
       "kind": "no-cross-region",
@@ -78,7 +78,7 @@
     {
       "kind": "no-cross-region",
       "about": "europe-east",
-      "text": "europe-east: 3件（ノヴゴロド派、移動派、シュプレマティスム）"
+      "text": "europe-east: 2件（移動派、シュプレマティスム）"
     }
   ]
 }

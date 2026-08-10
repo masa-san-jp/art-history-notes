@@ -27,9 +27,11 @@ claims:
   - {field: originated_in, source: "https://www.wikidata.org/wiki/Q2876208", certainty: scholarly}
 space:
   - {role: originated_in, target: place/veliky-novgorod}
-relations: []
+relations:
+  - {type: influenced_by, target: movement/byzantine-art, certainty: scholarly, source: "https://www.wikidata.org/wiki/Q2876208"}
 sources:
   - https://www.wikidata.org/wiki/Q2876208
+  - https://www.wikidata.org/wiki/Q319403
   - https://www.wikidata.org/wiki/Q151536
   - https://www.wikidata.org/wiki/Q2235
   - https://en.wikipedia.org/wiki/Novgorod_school
@@ -208,6 +210,28 @@ Wikidata Q2876208の`P276`（location）が同項目を指し、ここで挙げ�
 ノヴゴロドから分離した別の派として扱われる（ロシア語版Wikipedia「Новгородская школа
 （древнерусское искусство）」）ため、本項目の空間からは除外した——ただしイコン画に限定した
 分離の時期・実体は本項目では未確認のまま残す。
+
+### ビザンティンからの受容——動いたのは画家本人
+
+`influenced_by` を[ビザンティン美術](byzantine-art.md)（mena）へ1本張った。**動いたのは人である。**
+
+Wikidata Q2876208 の `P737`（influenced by）は「Byzantine art」と画家「Theophanes the Greek」の
+2つを挙げており、影響元が様式一般と個人の両方で構造化されている
+（<https://www.wikidata.org/wiki/Q2876208>）。この2つは同じ出来事の別の面を指す——上記「定義と範囲」で
+挙げたとおり、1338年に「ギリシャ人イサイア（Isaiah the Greek）とその一党」がエルサレム入城教会の
+フレスコを手がけ、1378年にはビザンティン出身のフェオファン・グレク（[Q319403](https://www.wikidata.org/wiki/Q319403)、
+c.1340–c.1410）が貴族ヴァシーリー・ダニーロヴィチの発注で主の変容聖堂の壁画を描いた。**いずれも
+ノヴゴロドの生え抜きではなく、ビザンティン圏から来た画家である。** 年代記が名前を「ギリシャ人」と
+記していること自体が、当時の受け手が外来の担い手として認識していたことを示す。
+
+移動したのは人だが、定着したのは**規範**の方だった。教会内の図像プログラム——ドームのパントクラトール、
+東壁のオランス型聖母、使徒の聖体拝領、西壁の最後の審判——はビザンティン起源の配置であり、
+ノヴゴロドはこの規範を共有したうえで、平坦で明るい赤の背景・大胆な色面という固有の流儀を重ねた
+（[gallerix.ru](https://gallerix.ru/pedia/history-of-art--novgorod-school-icon-painting/)、二次情報）。
+
+**未確認**: フェオファン・グレクはこの後モスクワへ移り、アンドレイ・ルブリョフと共働したとされる。
+モスクワ派が本KBに無いため、同じ画家を carrier とする2本目のエッジ（ノヴゴロド→モスクワ）は
+張れていない。また `P737` は Wikidata の構造化主張であって、その根拠となった研究文献には到達していない。
 
 ## 未着手
 

@@ -3979,10 +3979,20 @@
           "target": "place/kyoto"
         }
       ],
-      "relations": [],
+      "relations": [
+        {
+          "type": "influenced_by",
+          "target": "movement/song-academy-painting",
+          "certainty": "scholarly",
+          "source": "https://ja.wikipedia.org/wiki/%E7%8B%A9%E9%87%8E%E5%85%83%E4%BF%A1"
+        }
+      ],
       "sources": [
         "https://www.wikidata.org/wiki/Q252801",
-        "https://www.getty.edu/research/tools/vocabularies/aat/"
+        "https://www.getty.edu/research/tools/vocabularies/aat/",
+        "https://ja.wikipedia.org/wiki/%E7%8B%A9%E9%87%8E%E5%85%83%E4%BF%A1",
+        "https://www.metmuseum.org/art/collection/search/36005",
+        "https://www.comuseum.com/painting/schools/zhe-school/"
       ],
       "images": [
         {
@@ -5761,9 +5771,17 @@
           "target": "place/veliky-novgorod"
         }
       ],
-      "relations": [],
+      "relations": [
+        {
+          "type": "influenced_by",
+          "target": "movement/byzantine-art",
+          "certainty": "scholarly",
+          "source": "https://www.wikidata.org/wiki/Q2876208"
+        }
+      ],
       "sources": [
         "https://www.wikidata.org/wiki/Q2876208",
+        "https://www.wikidata.org/wiki/Q319403",
         "https://www.wikidata.org/wiki/Q151536",
         "https://www.wikidata.org/wiki/Q2235",
         "https://en.wikipedia.org/wiki/Novgorod_school",
@@ -13443,6 +13461,13 @@
     },
     {
       "from": "movement/kano-school",
+      "type": "influenced_by",
+      "to": "movement/song-academy-painting",
+      "certainty": "scholarly",
+      "source": "https://ja.wikipedia.org/wiki/%E7%8B%A9%E9%87%8E%E5%85%83%E4%BF%A1"
+    },
+    {
+      "from": "movement/kano-school",
       "type": "originated_in",
       "to": "place/kyoto"
     },
@@ -13692,6 +13717,13 @@
       "from": "movement/northwest-coast-carving",
       "type": "originated_in",
       "to": "place/pacific-northwest-coast"
+    },
+    {
+      "from": "movement/novgorod-school-icon-painting",
+      "type": "influenced_by",
+      "to": "movement/byzantine-art",
+      "certainty": "scholarly",
+      "source": "https://www.wikidata.org/wiki/Q2876208"
     },
     {
       "from": "movement/novgorod-school-icon-painting",
@@ -14444,6 +14476,12 @@
       "derived": true
     },
     {
+      "from": "movement/song-academy-painting",
+      "type": "influenced",
+      "to": "movement/kano-school",
+      "derived": true
+    },
+    {
       "from": "movement/menri-school",
       "type": "derived_into",
       "to": "movement/karma-gardri",
@@ -14537,6 +14575,12 @@
       "from": "person/ferreira-gullar",
       "type": "created",
       "to": "movement/neoconcretismo",
+      "derived": true
+    },
+    {
+      "from": "movement/byzantine-art",
+      "type": "influenced",
+      "to": "movement/novgorod-school-icon-painting",
       "derived": true
     },
     {
