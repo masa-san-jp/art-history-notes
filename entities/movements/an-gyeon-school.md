@@ -28,7 +28,8 @@ claims:
 space:
   - {role: originated_in, target: place/hanseong}
   - {role: active_in, target: place/hanseong}
-relations: []
+relations:
+  - {type: influenced_by, target: movement/song-academy-painting, certainty: scholarly, source: "https://encykorea.aks.ac.kr/Article/E0069639"}
 sources:
   - https://encykorea.aks.ac.kr/Article/E0069639
   - https://encykorea.aks.ac.kr/Article/E0034491
@@ -38,6 +39,9 @@ sources:
   - https://www.wikidata.org/wiki/Q12595455
   - https://www.khan.co.kr/article/202607201829001/
   - https://commons.wikimedia.org/wiki/File:Mongyudowondo.jpg
+  - https://www.metmuseum.org/art/collection/search/36005
+  - https://www.metmuseum.org/essays/mountain-and-water-korean-landscape-painting-1400-1800
+  - https://www.comuseum.com/painting/masters/guo-xi/
 images:
   - url: https://upload.wikimedia.org/wikipedia/commons/e/e4/Mongyudowondo.jpg
     source_page: https://commons.wikimedia.org/wiki/File:Mongyudowondo.jpg
@@ -158,14 +162,47 @@ updated: 2026-08-10
 **未確認**: 追従者（石憼・梁彭孫・申師任堂・金禔・李廷根・李興孝・李澄・金明国）それぞれの活動拠点が
 漢城に限定されるか、地方への広がりがあったか。
 
+### 中国からの受容——動いたのは絵そのもの
+
+`influenced_by` を[院体画](song-academy-painting.md)（中国・翰林図画院の画風、asia-east-china）へ
+1本張った。**動いたのは人ではなく物である。**
+
+한국민족문화대백과사전「안견파」は安堅派の画風を「북송대 곽희파 화풍을 위주로 하고 남송대 마하파
+화풍도 수용하여 절충하면서 한국적 화풍을 창출한 결과물」（北宋・郭熙派の画風を主としつつ、南宋・
+馬夏派の画風も受容し折衷して朝鮮的な画風を創出した結果）と明記する
+（<https://encykorea.aks.ac.kr/Article/E0069639>、二次情報）。ここで名指しされる**馬夏派＝馬遠・
+夏珪は南宋画院の画家**であり、院体画そのものの担い手である。夏珪はメトロポリタン美術館が
+「Chinese, active ca. 1195–1230」とする画院画家で、同館蔵《山市晴嵐図》は本KBの
+[院体画](song-academy-painting.md)が代表図版として持つ作品でもある
+（<https://www.metmuseum.org/art/collection/search/36005>）。
+
+受容の経路として具体的に押さえられるのは、**安平大君（1418-1453）の蔵する中国絵画のコレクション**
+である。한국민족문화대백과사전「안견」は、安堅が安平大君に近侍し「그 소장의 고화를 섭렵한 것이
+자신의 화풍 형성의 토대가 되었다」（その所蔵する古画を渉猟したことが自らの画風形成の土台になった）
+と記す（<https://encykorea.aks.ac.kr/Article/E0034491>、二次情報）。メトロポリタン美術館の解説記事
+「Mountain and Water: Korean Landscape Painting, 1400–1800」は、安平大君が郭熙の絵を少なくとも17点
+所蔵しており、それが安堅に北宋画院様式の作品への直接の接触をもたらしたとする——**未確認**: この記事
+本文には到達できていない（2026-08-10、HTTP 429 が返る）ため、記載は検索結果の要約経由の把握に留まる。
+
+**この1本には粗さがある。** 韓国側の出典が第一に挙げるのは「곽희파」（郭熙派＝郭熙の様式系譜）で
+あって院体画という機関ではない。郭熙は北宋・神宗代の宮廷画家で翰林図画院の待詔に昇ったとされるが
+（[comuseum.com](https://www.comuseum.com/painting/masters/guo-xi/)、二次情報）、「李郭派」と呼ばれる
+様式系譜は金・元代まで続き、画院という制度と範囲が一致しない。**李郭派を指す movement が本KBに
+無いため、出典が並記するもう一方の「馬夏派＝南宋画院」を根拠として院体画へ張った。** 李郭派の
+movement が立った時点で、この1本は張り直す対象になる。
+
 ## 未着手
 
-- **中国・北宋の郭熙様式との関係**: 한국민족문화대백과사전「안견파」は安堅派の画風を「북송대 곽희파
-  화풍을 위주로 하고」（北宋・郭熙派の画風を主として）と明記し、안견自身が安平大君所蔵の郭熙様式の
-  画（真筆ではなく金・元代の李郭派様式作とみられるものを含む、WebSearch経由・二次情報）に接して
-  自らの様式を形成したという記述もある。しかし郭熙・李郭派を指す movement は本KBに存在しないため、
-  `relations` の `influenced_by` としては張らなかった。北宋・李郭派の movement／person エンティティが
-  作られた時点で、この関係を張ることを次の課題とする
+- **李郭派（郭熙の様式系譜）の movement 化**: 2026-08-10 に、出典が並記する「馬夏派＝南宋画院」を
+  根拠として[院体画](song-academy-painting.md)への `influenced_by` を1本張った（上記「空間」参照）。
+  ただし韓国側の出典が第一に挙げるのは「곽희파」であり、金・元代まで続く李郭派の様式系譜は画院という
+  制度と範囲が一致しない。李郭派の movement、および郭熙の person が立った時点で、この1本は張り直す
+  - 郭熙が翰林図画院の待詔に昇ったとする記述の一次確認（現状は
+    [comuseum.com](https://www.comuseum.com/painting/masters/guo-xi/) 等の二次情報のみ）
+  - 安平大君の蔵品目録——申叔舟『画記』が記録する所蔵作の総数と、うち郭熙作とされるものの点数。
+    メトロポリタン美術館の解説記事は「少なくとも17点」とするが記事本文に未到達。Project MUSE の
+    関連論文（Sin Sukju's Record on the Painting Collection of Prince Anpyeong）は CAPTCHA で
+    到達できず（2026-08-10）
 - **日本・周文一派への影響**: 同記事は「15세기 일본의 슈분 일파에 영향」（15世紀日本の周文一派に影響）
   と記すが、周文一派を指す movement も本KBに存在しないため、同様に `relations` へは反映していない
 - 《夢遊桃源図》がいつ・どのように日本へ渡ったかの経緯。ko.wikipedia「몽유도원도」は2つの異なる説を

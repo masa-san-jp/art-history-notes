@@ -338,7 +338,14 @@
           "target": "place/hanseong"
         }
       ],
-      "relations": [],
+      "relations": [
+        {
+          "type": "influenced_by",
+          "target": "movement/song-academy-painting",
+          "certainty": "scholarly",
+          "source": "https://encykorea.aks.ac.kr/Article/E0069639"
+        }
+      ],
       "sources": [
         "https://encykorea.aks.ac.kr/Article/E0069639",
         "https://encykorea.aks.ac.kr/Article/E0034491",
@@ -347,7 +354,10 @@
         "https://www.wikidata.org/wiki/Q1036353",
         "https://www.wikidata.org/wiki/Q12595455",
         "https://www.khan.co.kr/article/202607201829001/",
-        "https://commons.wikimedia.org/wiki/File:Mongyudowondo.jpg"
+        "https://commons.wikimedia.org/wiki/File:Mongyudowondo.jpg",
+        "https://www.metmuseum.org/art/collection/search/36005",
+        "https://www.metmuseum.org/essays/mountain-and-water-korean-landscape-painting-1400-1800",
+        "https://www.comuseum.com/painting/masters/guo-xi/"
       ],
       "images": [
         {
@@ -12837,6 +12847,13 @@
     },
     {
       "from": "movement/an-gyeon-school",
+      "type": "influenced_by",
+      "to": "movement/song-academy-painting",
+      "certainty": "scholarly",
+      "source": "https://encykorea.aks.ac.kr/Article/E0069639"
+    },
+    {
+      "from": "movement/an-gyeon-school",
       "type": "originated_in",
       "to": "place/hanseong"
     },
@@ -14136,6 +14153,12 @@
       "from": "movement/mexican-muralism",
       "type": "influenced",
       "to": "movement/abstract-expressionism",
+      "derived": true
+    },
+    {
+      "from": "movement/song-academy-painting",
+      "type": "influenced",
+      "to": "movement/an-gyeon-school",
       "derived": true
     },
     {
