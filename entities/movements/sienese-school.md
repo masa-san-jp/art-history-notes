@@ -27,7 +27,8 @@ claims:
   - {field: originated_in, source: "https://www.wikidata.org/wiki/Q1332178", certainty: scholarly}
 space:
   - {role: originated_in, target: place/siena}
-relations: []
+relations:
+  - {type: influenced_by, target: movement/byzantine-art, certainty: scholarly, source: "https://en.wikipedia.org/wiki/Sienese_school"}
 sources:
   - https://www.wikidata.org/wiki/Q1332178
   - https://en.wikipedia.org/wiki/Sienese_school
@@ -200,6 +201,25 @@ Wikidataの`12XX`（13世紀、1201〜1300年）を採用したが、これも�
 周辺都市の作例が「シエナ派」に含まれるのか、それとも別の地方的な派として扱われるのか）を
 示す記録には当たっていない。
 
+### ビザンティンからの受容
+
+`influenced_by` を[ビザンティン美術](byzantine-art.md)（mena）へ1本張った。英語版Wikipedia
+「Sienese school」は主要画家を列挙する冒頭で「Its most important artists include Duccio, whose work
+shows Byzantine influence」（最も重要な画家にはドゥッチョが含まれ、その作品はビザンティンの影響を
+示す）と記す（[en.wikipedia](https://en.wikipedia.org/wiki/Sienese_school)、二次情報）。同記事は
+ドゥッチョを「シエナ絵画の父」と位置づけており、影響は派の出発点に当たる。
+
+上記「kind の判定」で述べた**一方向の様式的深化**——ビザンティン風の量感の乏しい聖像的な形式
+（ドゥッチョ）から、フィレンツェの空間表現を取り込んだゴシック様式（シモーネ・マルティーニ、
+ロレンツェッティ兄弟）へ——の起点がこのビザンティン受容であり、派の内部で何が変化したかを測る
+基準線として働いている。
+
+**未確認**: 何がシエナへ渡ったのか（イコン板絵そのものか、ビザンティン圏で修業した画家か、
+コンスタンティノープル陥落以前の交易・十字軍経由の作品流入か）を具体的に述べた出典には当たれて
+いない。ノヴゴロド派（[novgorod-school-icon-painting](novgorod-school-icon-painting.md)）が
+1338年・1378年という**渡来画家の年と名前**でビザンティン受容を押さえられるのに対し、シエナ側は
+現状「様式が似ている」という水準の記述に留まる。伝播の実体を1つ特定することが次の課題。
+
 ## 未着手
 
 - ドゥッチョ、シモーネ・マルティーニ、ロレンツェッティ兄弟の person エンティティ化——
@@ -214,8 +234,9 @@ Wikidataの`12XX`（13世紀、1201〜1300年）を採用したが、これも�
   の制度上の線として使えるが、今回は本文での言及に留めた
 - フィレンツェ派——このKBにはまだ movement として存在せず、ヴァザーリの記述を通じた
   `reacts_against` / `grouped_as`（後付けの括りとしての対比）などの関係を張ることができなかった
-- ビザンティン美術——このKBにはまだ movement／concept として存在せず、`influenced_by`関係を
-  張ることができなかった
+- ~~ビザンティン美術——このKBにはまだ movement／concept として存在せず~~ → 2026-08-10、
+  [byzantine-art](byzantine-art.md) が KB に入ったため `influenced_by` を張った（上記「空間」参照）。
+  残る課題は伝播の実体（何が・誰が・いつシエナへ渡ったか）の特定
 - 「シエナ派」という呼称を最初に用いた人物・年——CAA Reviews（2004年）は「19世紀末に様式分析が
   独立した『シエナ派』を初めて明確化した」と記すが、単一の命名者・命名年を特定できる一次資料には
   当たっていない

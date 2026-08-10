@@ -6823,7 +6823,14 @@
           "target": "place/siena"
         }
       ],
-      "relations": [],
+      "relations": [
+        {
+          "type": "influenced_by",
+          "target": "movement/byzantine-art",
+          "certainty": "scholarly",
+          "source": "https://en.wikipedia.org/wiki/Sienese_school"
+        }
+      ],
       "sources": [
         "https://www.wikidata.org/wiki/Q1332178",
         "https://en.wikipedia.org/wiki/Sienese_school",
@@ -13858,6 +13865,13 @@
     },
     {
       "from": "movement/sienese-school",
+      "type": "influenced_by",
+      "to": "movement/byzantine-art",
+      "certainty": "scholarly",
+      "source": "https://en.wikipedia.org/wiki/Sienese_school"
+    },
+    {
+      "from": "movement/sienese-school",
       "type": "originated_in",
       "to": "place/siena"
     },
@@ -14629,6 +14643,12 @@
       "from": "place/agra",
       "type": "received",
       "to": "movement/safavid-painting",
+      "derived": true
+    },
+    {
+      "from": "movement/byzantine-art",
+      "type": "influenced",
+      "to": "movement/sienese-school",
       "derived": true
     },
     {
