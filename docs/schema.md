@@ -27,6 +27,15 @@
 | `event` | `entities/events/` | 展覧会・サロン・設立・断絶。時間軸の釘 |
 | `source` | `entities/sources/` | 一次資料そのもの。**転記の異同を持つ場所** |
 
+### 時代文脈はentityではない
+
+時代文脈は9番目のエンティティ型にしない。`contexts/`に、時期・文化圏・アート領域を限定した分析
+スナップショットとして置く。保存する正本は根拠付きの`signal`で、固定12軸のベクトル、信頼度、類似度は
+`tools/build_context_vectors.py`が作る生成物である。情報がない軸を中立値0で補わない。
+
+context比較は研究候補の生成にだけ使い、`influenced_by`などの関係や史実・因果関係へ自動変換しない。
+詳細は[context-vectors.md](context-vectors.md)と[context-investigation-task.md](context-investigation-task.md)。
+
 ID は `<型>/<slug>`。**ID は変えない**（表記を変えたいときは `label_*` を直す）。
 `uri` は `urn:ahn:<型>/<slug>` で、外から名指しするための住所。公開先が変わっても URN は変えない。
 

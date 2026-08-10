@@ -1,0 +1,294 @@
+{
+  "schema_version": 1,
+  "input_digest": "f81d5bae440cd2753d0478e8f0e5f85e28bc029361675f53bae75a668ae0fcbd",
+  "pairs": [
+    {
+      "a": "context/ai-art-japan-2026-h2",
+      "b": "context/antropofagia-1928-1930s",
+      "similarity": 0.422414,
+      "raw_similarity": 0.844828,
+      "coverage_factor": 0.5,
+      "comparable_dimension_count": 4,
+      "dimensions": [
+        {
+          "id": "temporal_orientation",
+          "axis_weight": 0.111111,
+          "direction_similarity": 0.875,
+          "polarization_similarity": 0.75,
+          "axis_similarity": 0.85
+        },
+        {
+          "id": "institution_stance",
+          "axis_weight": 0.111111,
+          "direction_similarity": 0.25,
+          "polarization_similarity": 1.0,
+          "axis_similarity": 0.4
+        },
+        {
+          "id": "agency_model",
+          "axis_weight": 0.148148,
+          "direction_similarity": 1.0,
+          "polarization_similarity": 1.0,
+          "axis_similarity": 1.0
+        },
+        {
+          "id": "boundary_stance",
+          "axis_weight": 0.166667,
+          "direction_similarity": 1.0,
+          "polarization_similarity": 1.0,
+          "axis_similarity": 1.0
+        }
+      ],
+      "aligned": [
+        "boundary_stance",
+        "agency_model",
+        "temporal_orientation"
+      ],
+      "divergent": [
+        "institution_stance",
+        "temporal_orientation",
+        "agency_model"
+      ]
+    },
+    {
+      "a": "context/ai-art-japan-2026-h2",
+      "b": "context/dada-1916-1924",
+      "similarity": 0.394445,
+      "raw_similarity": 0.788889,
+      "coverage_factor": 0.5,
+      "comparable_dimension_count": 4,
+      "dimensions": [
+        {
+          "id": "temporal_orientation",
+          "axis_weight": 0.111111,
+          "direction_similarity": 0.875,
+          "polarization_similarity": 0.75,
+          "axis_similarity": 0.85
+        },
+        {
+          "id": "institution_stance",
+          "axis_weight": 0.111111,
+          "direction_similarity": 0.25,
+          "polarization_similarity": 1.0,
+          "axis_similarity": 0.4
+        },
+        {
+          "id": "agency_model",
+          "axis_weight": 0.111111,
+          "direction_similarity": 0.75,
+          "polarization_similarity": 1.0,
+          "axis_similarity": 0.8
+        },
+        {
+          "id": "boundary_stance",
+          "axis_weight": 0.166667,
+          "direction_similarity": 1.0,
+          "polarization_similarity": 1.0,
+          "axis_similarity": 1.0
+        }
+      ],
+      "aligned": [
+        "boundary_stance",
+        "temporal_orientation",
+        "agency_model"
+      ],
+      "divergent": [
+        "institution_stance",
+        "agency_model",
+        "temporal_orientation"
+      ]
+    },
+    {
+      "a": "context/ai-art-japan-2026-h2",
+      "b": "context/futurism-1909-1914",
+      "similarity": 0.4,
+      "raw_similarity": 0.8,
+      "coverage_factor": 0.5,
+      "comparable_dimension_count": 4,
+      "dimensions": [
+        {
+          "id": "temporal_orientation",
+          "axis_weight": 0.148148,
+          "direction_similarity": 0.875,
+          "polarization_similarity": 0.75,
+          "axis_similarity": 0.85
+        },
+        {
+          "id": "institution_stance",
+          "axis_weight": 0.148148,
+          "direction_similarity": 0.25,
+          "polarization_similarity": 1.0,
+          "axis_similarity": 0.4
+        },
+        {
+          "id": "agency_model",
+          "axis_weight": 0.148148,
+          "direction_similarity": 1.0,
+          "polarization_similarity": 1.0,
+          "axis_similarity": 1.0
+        },
+        {
+          "id": "boundary_stance",
+          "axis_weight": 0.111111,
+          "direction_similarity": 1.0,
+          "polarization_similarity": 1.0,
+          "axis_similarity": 1.0
+        }
+      ],
+      "aligned": [
+        "agency_model",
+        "temporal_orientation",
+        "boundary_stance"
+      ],
+      "divergent": [
+        "institution_stance",
+        "temporal_orientation",
+        "agency_model"
+      ]
+    },
+    {
+      "a": "context/antropofagia-1928-1930s",
+      "b": "context/dada-1916-1924",
+      "similarity": 0.477778,
+      "raw_similarity": 0.955556,
+      "coverage_factor": 0.5,
+      "comparable_dimension_count": 4,
+      "dimensions": [
+        {
+          "id": "temporal_orientation",
+          "axis_weight": 0.111111,
+          "direction_similarity": 1.0,
+          "polarization_similarity": 1.0,
+          "axis_similarity": 1.0
+        },
+        {
+          "id": "institution_stance",
+          "axis_weight": 0.111111,
+          "direction_similarity": 1.0,
+          "polarization_similarity": 1.0,
+          "axis_similarity": 1.0
+        },
+        {
+          "id": "agency_model",
+          "axis_weight": 0.111111,
+          "direction_similarity": 0.75,
+          "polarization_similarity": 1.0,
+          "axis_similarity": 0.8
+        },
+        {
+          "id": "boundary_stance",
+          "axis_weight": 0.166667,
+          "direction_similarity": 1.0,
+          "polarization_similarity": 1.0,
+          "axis_similarity": 1.0
+        }
+      ],
+      "aligned": [
+        "boundary_stance",
+        "temporal_orientation",
+        "institution_stance"
+      ],
+      "divergent": [
+        "agency_model",
+        "temporal_orientation",
+        "institution_stance"
+      ]
+    },
+    {
+      "a": "context/antropofagia-1928-1930s",
+      "b": "context/futurism-1909-1914",
+      "similarity": 0.48125,
+      "raw_similarity": 0.9625,
+      "coverage_factor": 0.5,
+      "comparable_dimension_count": 4,
+      "dimensions": [
+        {
+          "id": "temporal_orientation",
+          "axis_weight": 0.111111,
+          "direction_similarity": 0.75,
+          "polarization_similarity": 1.0,
+          "axis_similarity": 0.8
+        },
+        {
+          "id": "institution_stance",
+          "axis_weight": 0.111111,
+          "direction_similarity": 1.0,
+          "polarization_similarity": 1.0,
+          "axis_similarity": 1.0
+        },
+        {
+          "id": "agency_model",
+          "axis_weight": 0.259259,
+          "direction_similarity": 1.0,
+          "polarization_similarity": 1.0,
+          "axis_similarity": 1.0
+        },
+        {
+          "id": "boundary_stance",
+          "axis_weight": 0.111111,
+          "direction_similarity": 1.0,
+          "polarization_similarity": 1.0,
+          "axis_similarity": 1.0
+        }
+      ],
+      "aligned": [
+        "agency_model",
+        "institution_stance",
+        "boundary_stance"
+      ],
+      "divergent": [
+        "temporal_orientation",
+        "institution_stance",
+        "agency_model"
+      ]
+    },
+    {
+      "a": "context/dada-1916-1924",
+      "b": "context/futurism-1909-1914",
+      "similarity": 0.452941,
+      "raw_similarity": 0.905882,
+      "coverage_factor": 0.5,
+      "comparable_dimension_count": 4,
+      "dimensions": [
+        {
+          "id": "temporal_orientation",
+          "axis_weight": 0.111111,
+          "direction_similarity": 0.75,
+          "polarization_similarity": 1.0,
+          "axis_similarity": 0.8
+        },
+        {
+          "id": "institution_stance",
+          "axis_weight": 0.138889,
+          "direction_similarity": 1.0,
+          "polarization_similarity": 1.0,
+          "axis_similarity": 1.0
+        },
+        {
+          "id": "agency_model",
+          "axis_weight": 0.111111,
+          "direction_similarity": 0.75,
+          "polarization_similarity": 1.0,
+          "axis_similarity": 0.8
+        },
+        {
+          "id": "boundary_stance",
+          "axis_weight": 0.111111,
+          "direction_similarity": 1.0,
+          "polarization_similarity": 1.0,
+          "axis_similarity": 1.0
+        }
+      ],
+      "aligned": [
+        "institution_stance",
+        "boundary_stance",
+        "temporal_orientation"
+      ],
+      "divergent": [
+        "temporal_orientation",
+        "agency_model",
+        "institution_stance"
+      ]
+    }
+  ]
+}

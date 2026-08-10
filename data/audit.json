@@ -1,14 +1,49 @@
 {
   "findings": [
     {
+      "kind": "time-order",
+      "about": "movement/mingei",
+      "text": "民藝運動: 命名年 1925 が対象の開始 1926 より前"
+    },
+    {
+      "kind": "dead-end",
+      "about": "person/dong-qichang",
+      "text": "四王 の taught_by 先 董其昌 が stub のまま（辿れない）"
+    },
+    {
       "kind": "no-cross-region",
       "about": "all",
-      "text": "他の文化圏の movement と1本も繋がっていない movement が 47/70 件。時間だけでなく空間の広がりを体系化するので、影響・伝播・反発を調べる余地"
+      "text": "他の文化圏の movement と1本も繋がっていない movement が 62/86 件。時間だけでなく空間の広がりを体系化するので、影響・伝播・反発を調べる余地"
     },
     {
       "kind": "no-cross-region",
       "about": "asia-east-japan",
-      "text": "asia-east-japan: 6件（狩野派、円山四条派、もの派、琳派 ほか）"
+      "text": "asia-east-japan: 9件（具体美術協会、狩野派、円山四条派、民藝運動 ほか）"
+    },
+    {
+      "kind": "no-cross-region",
+      "about": "europe-west",
+      "text": "europe-west: 6件（バルビゾン派、キュビスム、ダダ、新印象派 ほか）"
+    },
+    {
+      "kind": "no-cross-region",
+      "about": "africa-sub",
+      "text": "africa-sub: 6件（ベニン王国宮廷美術、ゴンダール様式教会絵画、イフェ美術、ノク彫刻 ほか）"
+    },
+    {
+      "kind": "no-cross-region",
+      "about": "americas-latin",
+      "text": "americas-latin: 5件（マディ、クスコ派、インディヘニスモ、ネオコンクレチスモ ほか）"
+    },
+    {
+      "kind": "no-cross-region",
+      "about": "oceania",
+      "text": "oceania: 5件（アスマットの彫刻、イアトムルの彫刻、コーワイワイ、ンガーティ・タラーワイの彫刻 ほか）"
+    },
+    {
+      "kind": "no-cross-region",
+      "about": "mena",
+      "text": "mena: 5件（バグダード近代美術グループ、ビザンティン美術、チュニス派、カージャール絵画 ほか）"
     },
     {
       "kind": "no-cross-region",
@@ -17,8 +52,13 @@
     },
     {
       "kind": "no-cross-region",
-      "about": "africa-sub",
-      "text": "africa-sub: 5件（ベニン王国宮廷美術、ゴンダール様式教会絵画、ノク彫刻、ポト＝ポト絵画学校 ほか）"
+      "about": "asia-south",
+      "text": "asia-south: 5件（バソーリ派、カンパニー派、カーングラ派、メーワール派 ほか）"
+    },
+    {
+      "kind": "no-cross-region",
+      "about": "asia-east-china",
+      "text": "asia-east-china: 5件（四王、海上画派、院体画、揚州八怪 ほか）"
     },
     {
       "kind": "no-cross-region",
@@ -27,38 +67,8 @@
     },
     {
       "kind": "no-cross-region",
-      "about": "europe-west",
-      "text": "europe-west: 4件（バルビゾン派、新印象派、シエナ派、ヴェネツィア派）"
-    },
-    {
-      "kind": "no-cross-region",
-      "about": "asia-south",
-      "text": "asia-south: 4件（バソーリ派、カンパニー派、カーングラ派、タンジョール絵画）"
-    },
-    {
-      "kind": "no-cross-region",
-      "about": "asia-east-china",
-      "text": "asia-east-china: 4件（海上画派、院体画、揚州八怪、浙派）"
-    },
-    {
-      "kind": "no-cross-region",
-      "about": "americas-latin",
-      "text": "americas-latin: 3件（クスコ派、ネオコンクレチスモ、キト派）"
-    },
-    {
-      "kind": "no-cross-region",
-      "about": "oceania",
-      "text": "oceania: 3件（イアトムルの彫刻、ンガーティ・タラーワイの彫刻、パプニャ・トゥラ）"
-    },
-    {
-      "kind": "no-cross-region",
       "about": "europe-east",
       "text": "europe-east: 3件（ノヴゴロド派、移動派、シュプレマティスム）"
-    },
-    {
-      "kind": "no-cross-region",
-      "about": "mena",
-      "text": "mena: 2件（バグダード近代美術グループ、チュニス派）"
     },
     {
       "kind": "no-cross-region",

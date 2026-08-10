@@ -16,6 +16,10 @@ jobs:
       - run: pip install pyyaml
       - name: 形式の検証（壊れていないか）
         run: python3 tools/build_graph.py --check
+      - name: 時代文脈の検証
+        run: python3 tools/build_context_vectors.py --check
+      - name: 時代文脈のテスト
+        run: python3 -m unittest discover -s tests -p "test_context*.py"
       - name: 生成物が最新か（entities と graph がずれていないか）
         run: |
           python3 tools/build_graph.py
@@ -24,3 +28,8 @@ jobs:
             || (echo "::error::生成物が古い。python3 tools/build_graph.py && python3 tools/audit.py を実行して commit してください" && exit 1)
       - name: 体系の食い違い（落とさず表示）
         run: python3 tools/audit.py --dry-run
+      - name: 時代文脈生成物が最新か
+        run: |
+          python3 tools/build_context_vectors.py
+          git diff --exit-code -- data/context-vectors.json data/context-similarity.json \
+            || (echo "::error::context生成物が古い。python3 tools/build_context_vectors.py を実行して commit してください" && exit 1)

@@ -20,3 +20,15 @@ if git diff --cached --name-only | grep -q '^entities/'; then
     exit 1
   fi
 fi
+
+# contextの正本・軸・計算実装が変わったときだけ、専用生成物の鮮度を検査する。
+if git diff --cached --name-only \
+    | grep -Eq '^(contexts/.*\.md|config/context-dimensions\.yaml|tools/(context_kb|build_context_vectors)\.py)$'; then
+  python3 tools/build_context_vectors.py --check || exit 1
+  python3 tools/build_context_vectors.py >/dev/null || exit 1
+  if ! git diff --quiet -- data/context-vectors.json data/context-similarity.json; then
+    echo "✋ context生成物が古いままです。次を実行して差分を stage してください:" >&2
+    echo "   python3 tools/build_context_vectors.py && git add data/context-vectors.json data/context-similarity.json" >&2
+    exit 1
+  fi
+fi
