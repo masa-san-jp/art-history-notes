@@ -29,6 +29,7 @@ space:
   - {role: originated_in, target: place/rio-de-janeiro}
 relations:
   - {type: created_by, target: person/ferreira-gullar}
+  - {type: responds_to, target: movement/suprematism, certainty: attested, source: "https://portal.lygiaclark.org.br/acervo/67348/manifesto-neoconcreto"}
 sources:
   - https://portal.lygiaclark.org.br/acervo/67348/manifesto-neoconcreto
   - https://portal.lygiaclark.org.br/acervo/1747/1-exposicao-neoconcreta
@@ -157,6 +158,35 @@ Wikipediaは「1959年3月22日」と記す（二次情報）。「Suplemento Do
 `originated_in` はリオデジャネイロ（[place/rio-de-janeiro](../places/rio-de-janeiro.md)）とした。
 根拠は前掲アーカイブ記録が発表地を「Rio de Janeiro」と記すこと、および第1回展の開催地がリオデ
 ジャネイロ近代美術館（MAM/RJ）であることの2点。
+
+### ヨーロッパへの応答——動いたのは言葉、しかも名指しで
+
+`responds_to` を[シュプレマティスム](suprematism.md)（europe-east）へ1本張った。**宣言文が相手を
+名指ししているので、関係の証拠は当事者自身のテキストそのものである。**
+
+宣言はその立場をこう定義する——「A expressão neoconcreto é uma tomada de posição em face da arte
+não-figurativa 'geométrica' (neoplasticismo, construtivismo, suprematismo, Escola de Ulm)」
+（ネオコンクレトという語は、「幾何学的」非具象芸術（新造形主義・構成主義・シュプレマティスム・
+ウルム造形大学）に対する態度表明である）。**「〜に対する態度表明（tomada de posição em face de）」
+という定式そのものが、この関係の語彙を決めている。**
+
+`reacts_against`（反発して立つ）ではなく `responds_to`（賛否を問わず踏まえて応答する）を選んだのは、
+宣言がマレーヴィチを否定していないためである。宣言は「Malevitch, por ter reconhecido o primado da
+'pura sensibilidade na arte', salvou as suas definições teóricas das limitações do racionalismo」
+（マレーヴィチは「芸術における純粋な感覚の優位」を認めたことによって、自らの理論的定義を合理主義の
+限界から救った）と書き、さらに「Propomos uma reinterpretação do neoplasticismo, do construtivismo
+e dos demais movimentos afins, na base de suas conquistas de expressão」（新造形主義・構成主義
+およびその周辺の運動を、その表現上の達成に基づいて再解釈することを提案する）と続ける。**攻撃の的は
+シュプレマティスムそのものではなく、それを合理主義的に先鋭化させた具体芸術の方**であり、
+マレーヴィチはむしろ味方として引かれている。
+
+`certainty` を `attested` としたのは、この文言が批評家の要約ではなく**署名者7名が発表した宣言文の
+本文**であり、リジア・クラーク文化協会のアーカイブが実物スキャンと全文翻刻を公開していて本KBが
+直接確認しているためである（[portal.lygiaclark.org.br/acervo/67348](https://portal.lygiaclark.org.br/acervo/67348/manifesto-neoconcreto)）。
+
+**未確認**: 署名者たちがマレーヴィチやシュプレマティスムの作品を実際にどこで見たか（リオデジャネイロ
+近代美術館やサンパウロ・ビエンナーレでの展示歴、複製図版の流通）。宣言は名を挙げるが、接触の経路は
+書いていない。
 
 ## 未着手
 

@@ -1805,6 +1805,12 @@
           "target": "movement/futurism",
           "certainty": "scholarly",
           "source": "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300021394"
+        },
+        {
+          "type": "influenced_by",
+          "target": "movement/cubism",
+          "certainty": "scholarly",
+          "source": "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300021394"
         }
       ],
       "images": [
@@ -5505,6 +5511,12 @@
         {
           "type": "created_by",
           "target": "person/ferreira-gullar"
+        },
+        {
+          "type": "responds_to",
+          "target": "movement/suprematism",
+          "certainty": "attested",
+          "source": "https://portal.lygiaclark.org.br/acervo/67348/manifesto-neoconcreto"
         }
       ],
       "sources": [
@@ -13269,6 +13281,13 @@
     },
     {
       "from": "movement/cubo-futurism",
+      "type": "influenced_by",
+      "to": "movement/cubism",
+      "certainty": "scholarly",
+      "source": "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300021394"
+    },
+    {
+      "from": "movement/cubo-futurism",
       "type": "originated_in",
       "to": "place/saint-petersburg"
     },
@@ -13838,6 +13857,13 @@
       "to": "person/ferreira-gullar",
       "certainty": null,
       "source": null
+    },
+    {
+      "from": "movement/neoconcretismo",
+      "type": "responds_to",
+      "to": "movement/suprematism",
+      "certainty": "attested",
+      "source": "https://portal.lygiaclark.org.br/acervo/67348/manifesto-neoconcreto"
     },
     {
       "from": "movement/neoconcretismo",
@@ -14497,6 +14523,12 @@
       "derived": true
     },
     {
+      "from": "movement/cubism",
+      "type": "influenced",
+      "to": "movement/cubo-futurism",
+      "derived": true
+    },
+    {
       "from": "movement/safavid-painting",
       "type": "influenced",
       "to": "movement/deccan-painting",
@@ -14739,6 +14771,12 @@
     {
       "from": "person/ferreira-gullar",
       "type": "created",
+      "to": "movement/neoconcretismo",
+      "derived": true
+    },
+    {
+      "from": "movement/suprematism",
+      "type": "answered_by",
       "to": "movement/neoconcretismo",
       "derived": true
     },

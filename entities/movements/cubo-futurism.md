@@ -29,6 +29,7 @@ space:
   - {role: originated_in, target: place/saint-petersburg}
 relations:
   - {type: influenced_by, target: movement/futurism, certainty: scholarly, source: "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300021394"}
+  - {type: influenced_by, target: movement/cubism, certainty: scholarly, source: "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300021394"}
 images:
   - url: https://upload.wikimedia.org/wikipedia/commons/5/58/The_Knife_Grinder_Principle_of_Glittering_by_Kazimir_Malevich.jpeg
     source_page: https://commons.wikimedia.org/wiki/File:The_Knife_Grinder_Principle_of_Glittering_by_Kazimir_Malevich.jpeg
@@ -155,8 +156,14 @@ obstructed by most Russian Futurists, who did not profess to owe him anything" �
 
 - チュコフスキーの1913年の講演——開催地・月日・演題・記録。現在の記述はAAT の scope note と
   英語版Wikipedia の要約に依拠しており、講演そのものの記録には到達していない
-- フランスのキュビスムとの `influenced_by`——AAT の scope note が未来派と並べて名指しするが、
-  キュビスム自体がこのKBに無いため関係線を張れない。立てる順としては未来派の次に来る
+- ~~フランスのキュビスムとの `influenced_by`——キュビスム自体がこのKBに無いため関係線を張れない~~
+  → 2026-08-10、[cubism](cubism.md) が KB に入ったため張った。根拠は未来派の1本と同じ AAT の
+  scope note の一文（"whose work was influenced by French Cubism and Italian Futurism"）で、
+  2つの源を1つの文が並べて名指している。**残る課題は、未来派の側で押さえたような伝播の実体
+  （1914年の宣言集の露訳・マリネッティの訪露）に相当するものを、キュビスムの側でも1つ特定すること**
+  ——現状この1本は AAT の記述のみに立っており、パリのキュビスムがロシアの担い手にどう届いたか
+  （シチューキン／モロゾフの収集、1912年の『ロバの尻尾』展、レジェやグレーズの著作の露訳など）の
+  具体には到達していない
 - マリネッティの1914年のロシア訪問の一次資料（日程・講演地・入場記録）。回数（1回か複数回か）も
   出典間で食い違う
 - ギレヤ（Гилея）を `org` として立てるかどうか。詩人側の実体はこの集団だが、画家側の担い手とは
