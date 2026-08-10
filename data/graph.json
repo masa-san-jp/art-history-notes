@@ -5267,6 +5267,12 @@
           "target": "person/dong-qichang",
           "certainty": "scholarly",
           "source": "https://en.wikipedia.org/wiki/Nanga_(art)"
+        },
+        {
+          "type": "influenced_by",
+          "target": "movement/literati-painting",
+          "certainty": "scholarly",
+          "source": "https://kotobank.jp/word/%E5%8D%97%E7%94%BB-108723"
         }
       ],
       "sources": [
@@ -13812,6 +13818,13 @@
     },
     {
       "from": "movement/nanga",
+      "type": "influenced_by",
+      "to": "movement/literati-painting",
+      "certainty": "scholarly",
+      "source": "https://kotobank.jp/word/%E5%8D%97%E7%94%BB-108723"
+    },
+    {
+      "from": "movement/nanga",
       "type": "originated_in",
       "to": "place/kyoto"
     },
@@ -14746,6 +14759,12 @@
     },
     {
       "from": "person/dong-qichang",
+      "type": "influenced",
+      "to": "movement/nanga",
+      "derived": true
+    },
+    {
+      "from": "movement/literati-painting",
       "type": "influenced",
       "to": "movement/nanga",
       "derived": true

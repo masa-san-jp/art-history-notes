@@ -27,6 +27,7 @@ space:
   - {role: active_in, target: place/tokyo}
 relations:
   - {type: influenced_by, target: person/dong-qichang, certainty: scholarly, source: "https://en.wikipedia.org/wiki/Nanga_(art)"}
+  - {type: influenced_by, target: movement/literati-painting, certainty: scholarly, source: "https://kotobank.jp/word/%E5%8D%97%E7%94%BB-108723"}
 sources:
   - https://ja.wikipedia.org/wiki/南画
   - https://ja.wikipedia.org/wiki/文人画
@@ -116,6 +117,24 @@ Wikidata Q2928221 には `P571`（inception）・`P576`（dissolved）の claim 
 （二次情報）。これに沿って `originated_in` を京都（[place/kyoto](../places/kyoto.md)）、
 `active_in` を江戸（現在の東京、[place/tokyo](../places/tokyo.md)）とした。
 
+### 中国からの受容——動いたのは版本と、渡ってきた人
+
+`influenced_by` を[文人画](literati-painting.md)（中国側の文人画・南宗画）へ張った。ブリタニカ
+国際大百科事典は南画を「南宗画を中心とした元、明、清の中国絵画の影響を受け」たものと定義する
+（[コトバンク所収](https://kotobank.jp/word/%E5%8D%97%E7%94%BB-108723)、二次情報）。
+
+**渡ってきたのは絵そのものよりも版本だった。** 日本語版Wikipedia「南画」は、南画隆盛の外部的な
+要因として「黄檗宗の伝来・画人、商人の渡来・画譜の伝来」を挙げ、書道史研究家・中田勇次郎による
+時代区分では18世紀後半の盛行期を「『芥子園画伝』翻刻、池大雅、与謝蕪村の活躍」と特徴づける
+（<https://ja.wikipedia.org/wiki/南画>、二次情報）。コトバンク所収の日本大百科全書も、興隆の機を
+「『八種画譜』『芥子園画伝』の木版画譜の翻刻」「黄檗僧のもたらした墨戯」「伊孚九や沈南蘋をはじめと
+する来舶清人が身につけていた画風」の3つに整理する。
+
+同じ日本の画派でも、[狩野派](kano-school.md)が受け取ったのは**中国から渡ってきた絵そのもの**
+（小品が多く大画面に合わなかったため筆様を格付けし直した）であるのに対し、南画が受け取ったのは
+**印刷された手本と、渡来した人が身につけていた画風**である。手本が版本だったことは、原画を見ずに
+様式を学べる状態を作った——この違いは受容の形を分ける軸として残しておく。
+
 **未確認**: 「上方」は京都・大坂を含む広域の呼称で、単一都市への発生地の特定は一次資料での裏が
 取れていない。祇園南海自身は紀州藩（現在の和歌山県）に仕えた儒者で、江戸で学び紀州で活動しており、
 単純な「京都発祥」に収まらない広がりを持つ——この地理的な複数性は本文で明記するにとどめ、
@@ -123,9 +142,19 @@ Wikidata Q2928221 には `P571`（inception）・`P576`（dissolved）の claim 
 
 ## 未着手
 
-- `movement/literati-painting`（中国側の文人画・南宗画）への `influenced_by` — 対象のエンティティが
-  このKBにまだ無いため（他の調査が並行して作成中）、`person/dong-qichang` への関係で代替した。
-  対象movementが揃ったら、より直接の movement 間の関係として張り直せる可能性がある
+- ~~`movement/literati-painting`（中国側の文人画・南宗画）への `influenced_by` — 対象のエンティティが
+  このKBにまだ無いため（他の調査が並行して作成中）、`person/dong-qichang` への関係で代替した~~
+  → 2026-08-10、[literati-painting](literati-painting.md) が KB に入ったため張り直した（下記参照）
+- **模範を「呉派」まで絞り込めるか。** 江戸初期に呉派（沈周・文徴明ら蘇州の一派）の絵画が大量に
+  輸入され、画譜を介して南画家の祖型になったとする記述はある
+  （[shavaspace.com](https://shavaspace.com/art-learning/art-history/east-asia/east-asia-china-ming-qing/shen-zhou-wen-zhengming/)、
+  二次情報）。**しかし日本の主要な事典はこの絞り込みをしていない**——コトバンク所収の
+  日本大百科全書は興隆の要因を「『八種画譜』『芥子園画伝』の木版画譜の翻刻」「黄檗僧のもたらした
+  墨戯」「伊孚九や沈南蘋をはじめとする来舶清人が身につけていた画風」に限って挙げ、呉派・沈周・
+  文徴明の名を出さない。ブリタニカ国際大百科事典も「南宗画を中心とした元、明、清の中国絵画の
+  影響を受け」と書いて画派名まで降りない（<https://kotobank.jp/word/%E5%8D%97%E7%94%BB-108723>）。
+  そのため[呉派](wu-school.md)への `influenced_by` は張らず、事典の記述に合わせて南宗画＝文人画の
+  水準に留めた。呉派まで絞る学術的な典拠が出れば張り直す
 - 桑山玉洲（クワヤマ・ギョクシュウ、1746-1799）——英語版Wikipediaによれば董其昌の理論・文人理念を
   日本の文人画家に適用するよう説いた理論家で、「日本の董其昌」とも評される。`docs/schema.md` の
   person 作成基準への当てはまりを検討する余地があるが、一次資料未確認のため今回は本文言及のみに

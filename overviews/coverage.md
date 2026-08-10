@@ -41,9 +41,7 @@ movement **101** 件（stub 0件は不算入）／内訳 {'draft': 99, 'stub': 0
 - non_west_ratio: 0.78/0.5
 - per_bucket_min: 13/13 バケットが 3件以上
 - pre_1800_ratio: 0.49/0.3
-- isolated_ratio: 0.01（上限 0.1）
-
-関係を持たない movement: movement/literati-painting
+- isolated_ratio: 0.00（上限 0.1）
 <!-- generated:coverage:end -->
 
 ## 空欄の読み方

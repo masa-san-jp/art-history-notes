@@ -115,14 +115,12 @@
     "movement/literati-painting"
   ],
   "origin_multiple": [],
-  "isolated": [
-    "movement/literati-painting"
-  ],
+  "isolated": [],
   "progress": {
     "movement_total": "101/100（stub 0件は不算入）",
     "non_west_ratio": "0.78/0.5",
     "per_bucket_min": "13/13 バケットが 3件以上",
     "pre_1800_ratio": "0.49/0.3",
-    "isolated_ratio": "0.01（上限 0.1）"
+    "isolated_ratio": "0.00（上限 0.1）"
   }
 }
