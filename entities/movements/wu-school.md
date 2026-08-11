@@ -27,7 +27,8 @@ claims:
   - {field: time, source: "https://www.wikidata.org/wiki/Q558863", certainty: scholarly}
 space:
   - {role: originated_in, target: place/suzhou}
-relations: []
+relations:
+  - {type: grouped_as, target: movement/literati-painting, certainty: scholarly, source: "https://www.hkpm.org.hk/en/visit/audio-guide/g4-stories-untold"}
 sources:
   - https://www.wikidata.org/wiki/Q558875
   - https://ja.wikipedia.org/wiki/%E5%91%89%E6%B4%BE
@@ -37,6 +38,7 @@ sources:
   - https://www.wikidata.org/wiki/Q42622
   - https://zh.wikipedia.org/wiki/%E6%96%87%E5%BE%B5%E6%98%8E
   - https://www.britannica.com/biography/Dong-Qichang
+  - https://www.hkpm.org.hk/en/visit/audio-guide/g4-stories-untold
 images:
   - url: https://images.metmuseum.org/CRDImages/as/original/DP-13849-002.jpg
     source_page: https://www.metmuseum.org/art/collection/search/45682
@@ -83,12 +85,14 @@ of Wu」（古代呉国の都）——つまり「呉」は戦国期の呉国以
 「出自のみ」（浙派）「画題の地（担い手の出自と無関係）」（ハドソン・リバー派）「出自＝活動地が一致」
 （呉派）。
 
-文人画（士大夫が官職の余技として描いた、専門画工と対置される絵画観）との関係は直接的。中国語版
-Wikipediaは「一般討論吳派的時候，是與浙派相對，作為文人畫的代稱」（呉派を語るとき一般に浙派と
-対比され、文人画の代称として使われる）と明記する。つまり「呉派」という語は、それ自体が固有の様式
-名というより**「文人画」という広い括りの代理・略称として機能している**という記述が、二次情報だが
-ある。このKBには現時点で `concept/literati-painting`（文人画）に対応するエンティティが無く、
-`grouped_as` を張る先が存在しないため、関係としては張っていない（後述「未着手」）。
+文人画（士大夫が官職の余技として描いた、専門画工と対置される絵画観）との関係は、館公式資料でも
+確認できる。香港故宮文化博物館は、元代の文人画の伝統を継いで呉県で制作した明代の画家たちを、
+「呉派」または「文派」と総称し、後者を文字どおり「文人の派」と説明している
+（[香港故宮文化博物館](https://www.hkpm.org.hk/en/visit/audio-guide/g4-stories-untold)）。
+ここで示されるのは呉派が文人画の伝統を受け継いだという影響の向きだけではなく、呉派を文人画系の
+括りとして呼ぶ分類である。そのため `grouped_as` で[文人画](literati-painting.md)に接続する。
+これは呉派と文人画を完全に同一視するものではなく、呉派という明代蘇州の画派を、より広い文人画の
+歴史的な括りに位置づけるエッジである。
 
 **未確認**: 陳淳・王穀祥・陸治・銭穀ら「絶頂期」の担い手個々の師承関係（誰が誰の弟子か）には
 一次資料で当たっていない。`docs/schema.md` の person 作成基準（kind/time/originated_in の根拠に
@@ -219,8 +223,6 @@ Q558863 の `P19` born in = Q42622 Suzhou）と中国語版Wikipediaの「以蘇
 - 文伯仁が文徴明の甥であるという記述の一次確認（中国語版Wikipedia「文徵明」本文には見当たらな
   かった）
 - 董其昌「南北宗論」が唐代の王維・李思訓を軸にした理論であることと、明代の呉派・浙派への当て
-  はめが誰によって・いつ行われたかの一次資料——この切り分けができれば `relations` に
-  `grouped_as` を張れる可能性がある
-- `concept/literati-painting`（文人画）のエンティティ化。作ればここから `grouped_as` を張れる
-  （中国語版Wikipediaが呉派を「文人畫的代稱」と明記しているため）
+  はめが誰によって・いつ行われたかの一次資料——この切り分けができれば、今回の
+  `grouped_as` エッジの歴史的位置づけをさらに精密化できる
 - 呉派→清代への影響（中国語版Wikipediaが触れている）——対象側の movement/concept が未整備
