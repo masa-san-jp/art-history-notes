@@ -29,6 +29,7 @@ space:
   - {role: originated_in, target: place/florence}
 relations:
   - {type: influenced_by, target: movement/byzantine-art, certainty: scholarly, source: "https://www.metmuseum.org/exhibitions/listings/2004/byzantium-faith-and-power"}
+  - {type: precedes, target: movement/baroque}
 sources:
   - https://www.wikidata.org/wiki/Q1404472
   - https://www.metmuseum.org/essays/anatomy-in-the-renaissance
@@ -64,8 +65,14 @@ updated: 2026-08-12
 ここでの `influenced_by movement/byzantine-art` は、ルネサンスの全作品がビザンティン様式を継承したという
 意味ではなく、ギリシア語の学術・古典学習と東方の美術伝統がイタリアへ届いた形成経路に限定する。
 
+## バロックに先行する広域的な時系列
+
+国立美術館（ワシントン）は、1600年代にルネサンスに続いて、ヨーロッパの芸術・建築・音楽に表現的な
+バロック様式が広がったと整理する。ここでの `precedes` は、地域ごとの重なりやマニエリスムなどの中間的な
+局面を消去せず、広域史の概略的な時間順だけを記録するものである。
+
 ## 未着手
 
 - 初期・盛期・北方ルネサンスの分解
 - フィレンツェの工房、メディチ家、個別作品の関係化
-- マニエリスムおよびバロックへの移行経路の典拠化
+- マニエリスムおよび地域別のバロック移行経路の典拠化
