@@ -7968,6 +7968,55 @@
       "updated": "2026-08-09",
       "path": "entities/persons/e-b-havell.md"
     },
+    "person/el-lissitzky": {
+      "id": "person/el-lissitzky",
+      "uri": "urn:ahn:person/el-lissitzky",
+      "type": "person",
+      "label_ja": "エル・リシツキー",
+      "label_en": "El Lissitzky",
+      "authority": {
+        "wikidata": "Q152233",
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": "1890-11-23",
+        "end": "1941-12-30",
+        "display": "1890年11月23日〜1941年12月30日"
+      },
+      "space": [
+        {
+          "role": "active_in",
+          "target": "place/moscow"
+        },
+        {
+          "role": "active_in",
+          "target": "place/berlin"
+        }
+      ],
+      "relations": [
+        {
+          "type": "belongs_to",
+          "target": "movement/constructivism"
+        },
+        {
+          "type": "member_of",
+          "target": "org/vkhutemas"
+        }
+      ],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q152233",
+        "https://www.moma.org/artists/3569-el-lissitzky",
+        "https://www.moma.org/interactives/objectphoto/artists/3569.html",
+        "https://www.moma.org/interactives/objectphoto/schools/15.html",
+        "https://post.moma.org/magazines-as-sites-of-intersection-a-new-look-at-the-bauhaus-and-vkhutemas/"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/persons/el-lissitzky.md"
+    },
     "person/ernest-fenollosa": {
       "id": "person/ernest-fenollosa",
       "uri": "urn:ahn:person/ernest-fenollosa",
@@ -9209,6 +9258,51 @@
       "status": "draft",
       "updated": "2026-08-09",
       "path": "entities/persons/vincent-van-gogh.md"
+    },
+    "person/vladimir-tatlin": {
+      "id": "person/vladimir-tatlin",
+      "uri": "urn:ahn:person/vladimir-tatlin",
+      "type": "person",
+      "label_ja": "ウラジーミル・タトリン",
+      "label_en": "Vladimir Tatlin",
+      "authority": {
+        "wikidata": "Q310320",
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": "1885",
+        "end": "1953",
+        "display": "1885年〜1953年"
+      },
+      "space": [
+        {
+          "role": "active_in",
+          "target": "place/moscow"
+        }
+      ],
+      "relations": [
+        {
+          "type": "belongs_to",
+          "target": "movement/constructivism"
+        },
+        {
+          "type": "member_of",
+          "target": "org/vkhutemas"
+        }
+      ],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q310320",
+        "https://www.moma.org/artists/5811-vladimir-tatlin",
+        "https://www.moma.org/calendar/exhibitions/5027",
+        "https://www.moma.org/collection/works/13818",
+        "https://www.moma.org/collection/works/38361"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/persons/vladimir-tatlin.md"
     },
     "person/yahia-turki": {
       "id": "person/yahia-turki",
@@ -13238,6 +13332,30 @@
       "to": "place/new-york-city"
     },
     {
+      "from": "person/el-lissitzky",
+      "type": "belongs_to",
+      "to": "movement/constructivism",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "person/el-lissitzky",
+      "type": "member_of",
+      "to": "org/vkhutemas",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "person/el-lissitzky",
+      "type": "active_in",
+      "to": "place/moscow"
+    },
+    {
+      "from": "person/el-lissitzky",
+      "type": "active_in",
+      "to": "place/berlin"
+    },
+    {
       "from": "person/georges-seurat",
       "type": "belongs_to",
       "to": "movement/neo-impressionism",
@@ -13347,6 +13465,25 @@
       "to": "movement/post-impressionism",
       "certainty": "scholarly",
       "source": "https://www.tate.org.uk/art/art-terms/p/post-impressionism"
+    },
+    {
+      "from": "person/vladimir-tatlin",
+      "type": "belongs_to",
+      "to": "movement/constructivism",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "person/vladimir-tatlin",
+      "type": "member_of",
+      "to": "org/vkhutemas",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "person/vladimir-tatlin",
+      "type": "active_in",
+      "to": "place/moscow"
     },
     {
       "from": "person/yanagi-soetsu",
@@ -14042,6 +14179,18 @@
       "derived": true
     },
     {
+      "from": "movement/constructivism",
+      "type": "has_member",
+      "to": "person/el-lissitzky",
+      "derived": true
+    },
+    {
+      "from": "org/vkhutemas",
+      "type": "has_member",
+      "to": "person/el-lissitzky",
+      "derived": true
+    },
+    {
       "from": "movement/neo-impressionism",
       "type": "has_member",
       "to": "person/georges-seurat",
@@ -14087,6 +14236,18 @@
       "from": "movement/post-impressionism",
       "type": "groups",
       "to": "person/vincent-van-gogh",
+      "derived": true
+    },
+    {
+      "from": "movement/constructivism",
+      "type": "has_member",
+      "to": "person/vladimir-tatlin",
+      "derived": true
+    },
+    {
+      "from": "org/vkhutemas",
+      "type": "has_member",
+      "to": "person/vladimir-tatlin",
       "derived": true
     },
     {
