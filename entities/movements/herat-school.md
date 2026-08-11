@@ -30,6 +30,7 @@ space:
 relations:
   - {type: diffused_to, target: place/tabriz, certainty: scholarly, source: "https://en.wikipedia.org/wiki/Kam%C4%81l_ud-D%C4%ABn_Behz%C4%81d"}
   - {type: influenced_by, target: movement/baghdad-school-of-illustration, certainty: scholarly, source: "https://www.britannica.com/art/Jalayirid-school"}
+  - {type: influenced_by, target: movement/shiraz-school, certainty: scholarly, source: "https://resources.metmuseum.org/resources/metpublications/pdf/Masterpieces_from_the_Department_of_Islamic_Art_in_The_Metropolitan_Museum_of_Art.pdf"}
 sources:
   - https://www.wikidata.org/wiki/Q5958652
   - https://www.wikidata.org/wiki/Q484195
@@ -44,6 +45,7 @@ sources:
   - https://www.ebsco.com/research-starters/visual-arts/herat-school-painting
   - https://www.reed.edu/persian-calligraphy/en/jafar-baysonghori/index.html
   - https://www.britannica.com/art/Herat-school
+  - https://resources.metmuseum.org/resources/metpublications/pdf/Masterpieces_from_the_Department_of_Islamic_Art_in_The_Metropolitan_Museum_of_Art.pdf
 images:
   - url: https://images.metmuseum.org/CRDImages/is/original/DP231332.jpg
     source_page: https://www.metmuseum.org/art/collection/search/446892
@@ -82,6 +84,12 @@ Ahmad Jalayir, who he installed in Herat to add to his existing artists from Shi
 この合流を"They became the most important school of artists in Iran, merging the two styles"と
 評する——タブリーズ（ジャライル朝様式）とシーラーズの2系統の職人が同じ王室工房（キタブハーネ、
 kitabkhana）に統合された年として1421年を起点に置いた。
+
+メトロポリタン美術館の概説も、イスカンダル・スルターンが1414年に失脚した後、シーラーズに残った
+画家がイブラーヒーム・スルターンに仕えた一方、別の画家たちはヘラートへ移ってバイスングルに仕えた
+と説明している。ここで確認できるのは様式の類似ではなく、シーラーズで活動していた画家がヘラートの
+王室工房へ移ったという人の移動である。したがって、受け取り側であるヘラート派にシーラーズ派への
+`influenced_by` を張る。
 
 工房の実務を統括したのは書家ジャアファル・タブリーズィー（Ja'far al-Bāysonghori）で、1421年頃から
 「バイスングリー」の名で呼ばれ、40人の書家を率いてキタブハーネの長となった

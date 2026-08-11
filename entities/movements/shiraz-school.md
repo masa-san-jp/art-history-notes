@@ -185,10 +185,6 @@ c.1476–86年の制作でいずれも"city: Shiraz"が構造化データに明�
 
 ## 未着手
 
-- [movement/herat-school](herat-school.md)側に`influenced_by`または`diffused_to`
-  （target: `movement/shiraz-school`、certainty: scholarly、source: herat-school.md自身が既に引く
-  [en.wikipedia.org/wiki/Baysunghur](https://en.wikipedia.org/wiki/Baysunghur)）を追加すること——
-  本タスクはシーラーズ派1件のみの範囲のため、対象ファイルを編集せず保留した
 - Getty AATの典拠ID——`vocab.getty.edu`・`getty.edu/vow`の検索エンドポイントが今回の調査時間帯を
   通じて503/499（サービス低下）を返し続け、確認できなかった。Wikidataの典拠が取得できているため
   `none_reason`は空のままにしていない
