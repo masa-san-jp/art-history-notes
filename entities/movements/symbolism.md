@@ -27,11 +27,13 @@ claims:
   - {field: kind, source: "https://www.wikidata.org/wiki/Q164800", certainty: scholarly}
 space:
   - {role: originated_in, target: place/paris}
-relations: []
+relations:
+  - {type: reacts_against, target: movement/realism, certainty: scholarly, source: "https://www.metmuseum.org/es/essays/symbolism"}
 sources:
   - https://www.wikidata.org/wiki/Q164800
   - https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300021514
   - https://www.britannica.com/art/Symbolism-literary-and-artistic-movement
+  - https://www.metmuseum.org/es/essays/symbolism
 status: draft
 updated: 2026-08-12
 ---
@@ -51,6 +53,12 @@ updated: 2026-08-12
 
 命名と批評の中心として `place/paris` を置くが、ブリュッセルを含むフランス語圏の相互交流を前提とする。
 終点は象徴主義が別の前衛運動へ分岐する20世紀初頭を含む `19XX` とした。
+
+## 写実主義への反発
+
+メトロポリタン美術館は、象徴主義の画家たちが、感情や観念を表すことを重視し、自然界を客観的・
+準科学的に表す写実主義と印象主義の表現を退けたと説明する。ここでの `reacts_against` は、象徴主義の
+すべての作品が写実的描写を拒否したという意味ではなく、1880年代の形成期における芸術観の反発を示す。
 
 ## 未着手
 

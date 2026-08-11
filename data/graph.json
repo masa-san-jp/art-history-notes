@@ -7360,11 +7360,19 @@
           "target": "place/paris"
         }
       ],
-      "relations": [],
+      "relations": [
+        {
+          "type": "reacts_against",
+          "target": "movement/realism",
+          "certainty": "scholarly",
+          "source": "https://www.metmuseum.org/es/essays/symbolism"
+        }
+      ],
       "sources": [
         "https://www.wikidata.org/wiki/Q164800",
         "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300021514",
-        "https://www.britannica.com/art/Symbolism-literary-and-artistic-movement"
+        "https://www.britannica.com/art/Symbolism-literary-and-artistic-movement",
+        "https://www.metmuseum.org/es/essays/symbolism"
       ],
       "status": "draft",
       "updated": "2026-08-12",
@@ -14436,6 +14444,13 @@
     },
     {
       "from": "movement/symbolism",
+      "type": "reacts_against",
+      "to": "movement/realism",
+      "certainty": "scholarly",
+      "source": "https://www.metmuseum.org/es/essays/symbolism"
+    },
+    {
+      "from": "movement/symbolism",
       "type": "originated_in",
       "to": "place/paris"
     },
@@ -15670,6 +15685,12 @@
       "from": "movement/dada",
       "type": "influenced",
       "to": "movement/surrealism",
+      "derived": true
+    },
+    {
+      "from": "movement/realism",
+      "type": "reacted_against_by",
+      "to": "movement/symbolism",
       "derived": true
     },
     {
