@@ -6094,6 +6094,12 @@
           "target": "movement/safavid-painting",
           "certainty": "scholarly",
           "source": "https://en.wikipedia.org/wiki/Qajar_art"
+        },
+        {
+          "type": "influenced_by",
+          "target": "movement/realism",
+          "certainty": "scholarly",
+          "source": "https://scholarworks.sjsu.edu/etd_theses/3019/"
         }
       ],
       "sources": [
@@ -6110,7 +6116,8 @@
         "https://en.wikipedia.org/wiki/Royal_Persian_Paintings:_The_Qajar_Epoch_1785%E2%80%931925",
         "https://www.sothebys.com/en/auctions/ecatalogue/2010/arts-of-the-islamic-world-l10223/lot.94.html",
         "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300021708",
-        "https://www.iranicaonline.org/articles/art-in-iran-v-qajar-1-general/"
+        "https://www.iranicaonline.org/articles/art-in-iran-v-qajar-1-general/",
+        "https://scholarworks.sjsu.edu/etd_theses/3019/"
       ],
       "images": [
         {
@@ -13951,6 +13958,13 @@
     },
     {
       "from": "movement/qajar-painting",
+      "type": "influenced_by",
+      "to": "movement/realism",
+      "certainty": "scholarly",
+      "source": "https://scholarworks.sjsu.edu/etd_theses/3019/"
+    },
+    {
+      "from": "movement/qajar-painting",
       "type": "originated_in",
       "to": "place/tehran"
     },
@@ -15120,6 +15134,12 @@
     },
     {
       "from": "movement/safavid-painting",
+      "type": "influenced",
+      "to": "movement/qajar-painting",
+      "derived": true
+    },
+    {
+      "from": "movement/realism",
       "type": "influenced",
       "to": "movement/qajar-painting",
       "derived": true
