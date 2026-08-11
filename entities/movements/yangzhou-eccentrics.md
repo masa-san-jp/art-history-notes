@@ -29,7 +29,8 @@ claims:
   - {field: time, source: "https://www.wikidata.org/wiki/Q32019", certainty: scholarly}
 space:
   - {role: originated_in, target: place/yangzhou}
-relations: []
+relations:
+  - {type: influenced_by, target: movement/literati-painting, certainty: scholarly, source: "https://www.dejiart.com/en/exhibition/yudetangcangyangzhoubaguaijingpinzhan/"}
 sources:
   - https://www.wikidata.org/wiki/Q340808
   - https://ja.wikipedia.org/wiki/%E6%8F%9A%E5%B7%9E%E5%85%AB%E6%80%AA
@@ -42,6 +43,8 @@ sources:
   - https://www.artic.edu/artworks/80510
   - https://www.metmuseum.org/art/collection/search/52946
   - https://www.metmuseum.org/art/collection/search/51894
+  - https://www.tnm.jp/modules/r_exhibition/index.php?controller=item&id=5882&lang=en
+  - https://www.dejiart.com/en/exhibition/yudetangcangyangzhoubaguaijingpinzhan/
 images:
   - url: https://www.artic.edu/iiif/2/7967bcfe-1634-19ad-ff6c-48a10cae9a8e/full/843,/0/default.jpg
     source_page: https://www.artic.edu/artworks/80510
@@ -100,6 +103,16 @@ updated: 2026-08-10
 とされた画風から大きく外れた作風を理由とする。英語版Wikipediaは「同時代の慣習から外れた強い
 個性」と表現する。3版とも、**技法上の逸脱と、画家個人の生き方・気質の両方**を「怪」の根拠として
 挙げている点で一致する。
+
+## 文人画との関係
+
+東京国立博物館は、塩商人の文化振興を背景に、揚州へ「文人画家たち」が集まったと説明している。
+また徳基美術館は、揚州八怪の書画が伝統的な文人写意画の筆法から影響を受けつつ、各画家の美意識に
+応じて方法を変化させたと記載する。
+
+ここでの関係は、揚州八怪という後代の括りが文人画と同一だという意味ではない。文人画の伝統的な
+写意筆法を受け取り、詩・書・画を組み合わせながら個別化したという、共通する出発点を
+`influenced_by` として記録する。
 
 ## kind の判定
 
