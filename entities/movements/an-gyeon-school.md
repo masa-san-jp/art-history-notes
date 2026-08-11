@@ -28,7 +28,8 @@ claims:
 space:
   - {role: originated_in, target: place/hanseong}
   - {role: active_in, target: place/hanseong}
-relations: []
+relations:
+  - {type: influenced_by, target: movement/song-academy-painting, certainty: scholarly, source: "https://encykorea.aks.ac.kr/Article/E0069639"}
 sources:
   - https://encykorea.aks.ac.kr/Article/E0069639
   - https://encykorea.aks.ac.kr/Article/E0034491
@@ -63,6 +64,14 @@ updated: 2026-08-10
 （同、二次情報）。安堅派は「북송대 곽희파 화풍을 위주로 하고 남송대 마하파 화풍도 수용하여 절충하면서
 한국적 화풍을 창출한 결과물」（北宋・郭熙派の画風を主としつつ、南宋・馬夏派の画風も受容し折衷して
 朝鮮的な画風を創出した結果）とされる（同）。
+
+### 宋代院体画との形成関係
+
+この記述に基づき、本項では安堅派の形成層に限って `influenced_by movement/song-academy-painting`
+を記録する。関係の実体は、安堅が安平大君の所蔵する古画に接し、北宋・郭熙派を主軸に
+南宋・馬夏派を取り入れて朝鮮的な山水画へ折衷したという、画風語彙の受容である。これは
+中国の宋代院体画が安堅派の全作品を一律に規定したという主張でも、安堅が中国の画家から
+直接師事したという主張でもない。
 
 安堅自身の経歴は한국민족문화대백과사전「안견」に詳しい。本貫は池谷（지곡）、字は可度または得守、号は
 朱耕または玄洞子。世宗年間（1418〜1450年）に最も活発に活動し、文宗・端宗を経て世祖代まで画員として
