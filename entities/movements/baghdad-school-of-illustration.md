@@ -216,13 +216,6 @@ individualized faces」、直接ページ取得は403で不可）によれば、
 
 ## 未着手
 
-- 「バグダード近代美術グループ」（[movement/baghdad-modern-art-group](baghdad-modern-art-group.md)）
-  側に`influenced_by`（target: 本エンティティ、certainty: scholarly、source: Saleem al-Bahloly,
-  "History Regained," *Muqarnas* 35, 2018）を追加すること——同ファイルの本文は既に13世紀の
-  「バグダード派細密画」に言及しており、ド・ロレイの1938年の記事に接した1941年のジャワード・
-  サリームの逸話（本項目の`naming`節、`person/eustache-de-lorey`に記載）が両者を繋ぐ具体的な
-  経路になる。本タスクはバグダード派（写本挿絵）1件のみの範囲のため、対象ファイル
-  （`baghdad-modern-art-group.md`）を編集せず保留した
 - 16世紀末オスマン朝統治下のバグダードで栄えたとされる独立の細密画流派（Rachel Milstein,
   *Miniature Painting in Ottoman Baghdad*, 1990）——本項目（13世紀）とは別物であることは
   [定義と範囲](#定義と範囲)節で明記したが、その流派自体を movement として立てるかどうかは

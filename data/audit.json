@@ -3,17 +3,12 @@
     {
       "kind": "no-cross-region",
       "about": "all",
-      "text": "他の文化圏の movement と1本も繋がっていない movement が 62/86 件。時間だけでなく空間の広がりを体系化するので、影響・伝播・反発を調べる余地"
+      "text": "他の文化圏の movement と1本も繋がっていない movement が 60/86 件。時間だけでなく空間の広がりを体系化するので、影響・伝播・反発を調べる余地"
     },
     {
       "kind": "no-cross-region",
       "about": "asia-east-japan",
       "text": "asia-east-japan: 9件（具体美術協会、狩野派、円山四条派、民藝運動 ほか）"
-    },
-    {
-      "kind": "no-cross-region",
-      "about": "europe-west",
-      "text": "europe-west: 6件（バルビゾン派、キュビスム、ダダ、新印象派 ほか）"
     },
     {
       "kind": "no-cross-region",
@@ -32,8 +27,8 @@
     },
     {
       "kind": "no-cross-region",
-      "about": "asia-southeast",
-      "text": "asia-southeast: 5件（バンドン派、インドシナ漆絵画（ソンマイ）、ピタ・マハ、ラッタナコーシン様式壁画 ほか）"
+      "about": "europe-west",
+      "text": "europe-west: 5件（バルビゾン派、ダダ、新印象派、シエナ派 ほか）"
     },
     {
       "kind": "no-cross-region",
@@ -59,6 +54,11 @@
       "kind": "no-cross-region",
       "about": "europe-east",
       "text": "europe-east: 4件（ビザンティン美術、ノヴゴロド派、移動派、シュプレマティスム）"
+    },
+    {
+      "kind": "no-cross-region",
+      "about": "asia-southeast",
+      "text": "asia-southeast: 4件（インドシナ漆絵画（ソンマイ）、ピタ・マハ、ラッタナコーシン様式壁画、ザ・サーティーン・モダンズ）"
     },
     {
       "kind": "no-cross-region",
