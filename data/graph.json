@@ -6549,6 +6549,10 @@
           "target": "movement/byzantine-art",
           "certainty": "scholarly",
           "source": "https://www.metmuseum.org/exhibitions/listings/2004/byzantium-faith-and-power"
+        },
+        {
+          "type": "precedes",
+          "target": "movement/baroque"
         }
       ],
       "sources": [
@@ -14295,6 +14299,13 @@
     },
     {
       "from": "movement/renaissance",
+      "type": "precedes",
+      "to": "movement/baroque",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "movement/renaissance",
       "type": "originated_in",
       "to": "place/florence"
     },
@@ -15592,6 +15603,12 @@
     {
       "from": "movement/byzantine-art",
       "type": "influenced",
+      "to": "movement/renaissance",
+      "derived": true
+    },
+    {
+      "from": "movement/baroque",
+      "type": "follows",
       "to": "movement/renaissance",
       "derived": true
     },
