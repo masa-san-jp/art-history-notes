@@ -6732,7 +6732,14 @@
           "target": "place/suzhou"
         }
       ],
-      "relations": [],
+      "relations": [
+        {
+          "type": "grouped_as",
+          "target": "movement/literati-painting",
+          "certainty": "scholarly",
+          "source": "https://www.hkpm.org.hk/en/visit/audio-guide/g4-stories-untold"
+        }
+      ],
       "sources": [
         "https://www.wikidata.org/wiki/Q558875",
         "https://ja.wikipedia.org/wiki/%E5%91%89%E6%B4%BE",
@@ -6741,7 +6748,8 @@
         "https://www.wikidata.org/wiki/Q558863",
         "https://www.wikidata.org/wiki/Q42622",
         "https://zh.wikipedia.org/wiki/%E6%96%87%E5%BE%B5%E6%98%8E",
-        "https://www.britannica.com/biography/Dong-Qichang"
+        "https://www.britannica.com/biography/Dong-Qichang",
+        "https://www.hkpm.org.hk/en/visit/audio-guide/g4-stories-untold"
       ],
       "images": [
         {
@@ -12358,6 +12366,13 @@
     },
     {
       "from": "movement/wu-school",
+      "type": "grouped_as",
+      "to": "movement/literati-painting",
+      "certainty": "scholarly",
+      "source": "https://www.hkpm.org.hk/en/visit/audio-guide/g4-stories-untold"
+    },
+    {
+      "from": "movement/wu-school",
       "type": "originated_in",
       "to": "place/suzhou"
     },
@@ -13087,6 +13102,12 @@
       "from": "movement/byzantine-art",
       "type": "influenced",
       "to": "movement/venetian-school",
+      "derived": true
+    },
+    {
+      "from": "movement/literati-painting",
+      "type": "groups",
+      "to": "movement/wu-school",
       "derived": true
     },
     {
