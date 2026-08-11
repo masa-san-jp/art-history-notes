@@ -28,13 +28,16 @@ claims:
   - {field: time, source: "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300417394", certainty: scholarly}
 space:
   - {role: originated_in, target: place/seoul}
-relations: []
+relations:
+  - {type: influenced_by, target: movement/mono-ha, certainty: scholarly, source: "https://www.frieze.com/article/skin-surface"}
 sources:
   - https://www.wikidata.org/wiki/Q24988307
   - https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300417394
   - https://en.wikipedia.org/wiki/Dansaekhwa
   - https://ko.wikipedia.org/wiki/%EB%8B%A8%EC%83%89%ED%99%94
   - https://mmcaresearch.kr/terms/view.do?fid=2211
+  - https://www.frieze.com/article/skin-surface
+  - https://m.kukjegallery.com/db_img/mediaCoverage/media_coverage_Dansaekhwa__Collateral_Event_of_the_56th_International_Art_Exhibition_%E2%80%93_La_Biennale_di_Venezia_2015_02_25_e82.pdf
 status: draft
 updated: 2026-08-09
 ---
@@ -158,6 +161,16 @@ by Hur Hwang, both of which were submitted to the first Independants in 1972."
 [李禹煥](../persons/lee-ufan.md)にはこの括りへの `grouped_as` を張った。同じ人物が
 [もの派](mono-ha.md)の `created_by` にもなっている——**2つの movement を1人が跨いでいる**。
 
+## もの派との関係
+
+単色画は、もの派をそのまま継承した単一の後継運動ではないが、李禹煥の韓日往来を通じて、もの派の考え方の一部を受け取った。
+キュレーターの尹晋燮は、李禹煥が韓国と日本を頻繁に行き来したことで「日本のもの派の考え」が韓国に広がり、
+李の地位と人気によってその影響が広範囲に及んだと記している
+（[Yoon Jin Supほか「Skin & Surface」Frieze初出](https://www.frieze.com/article/skin-surface)、
+[Kukje Galleryによる再録PDF](https://m.kukjegallery.com/db_img/mediaCoverage/media_coverage_Dansaekhwa__Collateral_Event_of_the_56th_International_Art_Exhibition_%E2%80%93_La_Biennale_di_Venezia_2015_02_25_e82.pdf)）。
+ここで動いたのは、人（李禹煥）を媒介にした考え方である。この関係は、単色画の成立をもの派だけに還元するものではなく、
+韓国の作家たちが固有の伝統や問題意識のなかで展開したことも含めた、限定的な受容を示す。
+
 ## 未着手
 
 - 尹晋燮『The World of Dansaekhwa: Spirit, Tactility, and Performance』（2014年、Kukje Gallery
@@ -169,12 +182,5 @@ by Hur Hwang, both of which were submitted to the first Independants in 1972."
   （李禹煥・李逸）の役割分担の詳細——`founding_control`を検討する材料になりうるが、今回は
   「そもそも公式な結成行為自体が無い」ため判定を保留した
 - 李康昭・崔秉昭が単色画への分類を拒否した際の具体的な論拠（Ocula, 2016年9月28日インタビュー原文）
-- [もの派](mono-ha.md)との movement 同士の関係。**もの派は既にこのKBにある**が、2026-08-10 時点で
-  関係は張っていない。押さえられているのは(1)李禹煥が両方に属すること(2)尹晋燮が2000年の光州
-  ビエンナーレ特別展で「単色画とモノハ」を並べて展示し、それが国際的な「Dansaekhwa」表記の起点に
-  なったこと——の2つで、いずれも**人と場**の事実であって、片方がもう片方から何を受け取ったかを
-  述べた出典ではない。`influenced_by` を張るには「もの派の何が単色画に渡ったか」を書いた出典が要り、
-  `grouped_as` を張るには2000年の展覧会が2つを1つの括りに入れたと言える出典が要る。どちらも
-  未入手なので張らない。次に当たるべきは2000年展の図録（尹晋燮）と、その出品者名簿
 - 図画署（org/dohwaseo、朝鮮王朝の官署）との時間的・空間的な接続——同じ朝鮮半島圏だが約500年の
   空白があり、直接の継承関係は確認できていない
