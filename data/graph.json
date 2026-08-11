@@ -6406,11 +6406,20 @@
           "target": "place/kyoto"
         }
       ],
-      "relations": [],
+      "relations": [
+        {
+          "type": "derives_from",
+          "target": "movement/yamato-e",
+          "certainty": "scholarly",
+          "source": "https://www.fujibi.or.jp/collection/artwork-artist/a130/"
+        }
+      ],
       "sources": [
         "https://www.wikidata.org/wiki/Q2915215",
         "https://www.getty.edu/research/tools/vocabularies/aat/",
-        "https://en.wikipedia.org/wiki/Tosa_school"
+        "https://en.wikipedia.org/wiki/Tosa_school",
+        "https://www.fujibi.or.jp/collection/artwork-artist/a130/",
+        "https://www.kyohaku.go.jp/old/eng/theme/floor2_4/past/edo_20160614.html"
       ],
       "images": [
         {
@@ -12184,6 +12193,13 @@
     },
     {
       "from": "movement/tosa-school",
+      "type": "derives_from",
+      "to": "movement/yamato-e",
+      "certainty": "scholarly",
+      "source": "https://www.fujibi.or.jp/collection/artwork-artist/a130/"
+    },
+    {
+      "from": "movement/tosa-school",
       "type": "originated_in",
       "to": "place/kyoto"
     },
@@ -12873,6 +12889,12 @@
       "from": "person/victorio-edades",
       "type": "created",
       "to": "movement/thirteen-moderns",
+      "derived": true
+    },
+    {
+      "from": "movement/yamato-e",
+      "type": "derived_into",
+      "to": "movement/tosa-school",
       "derived": true
     },
     {
