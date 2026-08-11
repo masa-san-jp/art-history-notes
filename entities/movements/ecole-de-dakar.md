@@ -30,6 +30,7 @@ space:
   - {role: originated_in, target: place/dakar}
 relations:
   - {type: part_of, target: movement/negritude}
+  - {type: influenced_by, target: movement/poto-poto-school, certainty: scholarly, source: "https://heiup.uni-heidelberg.de/catalog/view/457/679/85134"}
   - {type: created_by, target: person/papa-ibra-tall}
   - {type: created_by, target: person/iba-ndiaye}
   - {type: created_by, target: person/pierre-lods}
@@ -40,8 +41,9 @@ sources:
   - https://en.wikipedia.org/wiki/Iba_Ndiaye
   - https://momaa.org/ecole-de-dakar-senegals-negritude-aesthetic/
   - https://www.tate.org.uk/art/art-terms/n/negritude
+  - https://heiup.uni-heidelberg.de/catalog/view/457/679/85134
 status: draft
-updated: 2026-08-09
+updated: 2026-08-12
 ---
 
 # ダカール派 / École de Dakar
@@ -131,6 +133,17 @@ and Transnational Dimensions to Senegalese Modern Art, c. 1959–1980」（*Afri
 （[movement/negritude](negritude.md)）自体がパリで生まれた運動であり、この重なりを
 `part_of` の関係として持たせている。
 
+### ポト＝ポトからダカールへ——ロッズの教育実践に限定した接続
+
+ハイデルベルク大学出版の論文「The École des Arts du Sénégal in the 1960s」は、ピエール・ロッズを
+ポト＝ポト絵画学校（ブラザヴィル）からダカールへ移った主要な教員として扱い、ダカールでの美術教育と
+芸術家の役割の考え方に大きな影響を与えたと述べている（[論文本文](https://heiup.uni-heidelberg.de/catalog/view/457/679/85134)）。
+ここでの `influenced_by movement/poto-poto-school` は、ダカール派の全作家がポト＝ポトの様式を
+受け継いだという意味ではない。ポト＝ポトでロッズが培った、個人の表現を尊重する非アカデミックな
+教育実践が、ロッズ本人の移動を通じてダカールの制度へ持ち込まれたという、ブラザヴィルからダカール
+への方法・教育の伝播に限定して記録する。ロッズ以外の教員・作家の教育方針や、ポト＝ポトの造形語彙が
+ダカール派全体へどこまで広がったかは、このリンクからは主張しない。
+
 ## 未着手
 
 - 「École de Dakar」という語の初出（文献・年・書き手）。名づけの主体が特定できれば
@@ -141,8 +154,8 @@ and Transnational Dimensions to Senegalese Modern Art, c. 1959–1980」（*Afri
 - *African Arts* 51(3), 2018 の論文本文（MIT Press・Project MUSE いずれも本KBからは取得できず）。
   表題が掲げる「国際的・トランスナショナルな次元」は、この KB が空間軸で必要としている内容そのもの
 - ポト＝ポト絵画学校（Poto-Poto School of Painting、ブラザヴィル、1951年創設、
-  Wikidata Q114247696）の movement 化。ピエール・ロッズを介した方法の移動は、アフリカ内部の
-  伝播として関係を張るべき対象だが、本調査では立てていない
+  Wikidata Q114247696）の movement 化。ピエール・ロッズを介した方法の移動は本項からの
+  `influenced_by` で記録したが、学校そのものの制度史・生徒系譜は未整理
 - École des Arts du Sénégal（1960年代の機関）の org 化。Wikidata Q21281490 は1995年設立の
   後継機関（National School of Arts of Senegal）を指しており、1960年代の機関の典拠IDとしては
   使えない
