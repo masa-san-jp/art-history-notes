@@ -27,11 +27,14 @@ claims:
   - {field: kind, source: "https://www.wikidata.org/wiki/Q1404472", certainty: scholarly}
 space:
   - {role: originated_in, target: place/florence}
-relations: []
+relations:
+  - {type: influenced_by, target: movement/byzantine-art, certainty: scholarly, source: "https://www.metmuseum.org/exhibitions/listings/2004/byzantium-faith-and-power"}
 sources:
   - https://www.wikidata.org/wiki/Q1404472
   - https://www.metmuseum.org/essays/anatomy-in-the-renaissance
   - https://82nd-and-fifth.metmuseum.org/toah/ht/08/eustc.html
+  - https://www.metmuseum.org/exhibitions/listings/2004/byzantium-faith-and-power
+  - https://www.metmuseum.org/press-releases/dazzling-byzantine-treasures-displayed-at-metropolitan-museum-opening-march-23-2004-exhibitions
 status: draft
 updated: 2026-08-12
 ---
@@ -51,6 +54,15 @@ updated: 2026-08-12
 
 本KBでは初期の主要結節点としてフィレンツェを `originated_in` に置く。始点・終点は地域差を吸収するため
 世紀精度に留め、北方ルネサンスやヴェネツィア、ローマの別経路は個別エンティティで分解する。
+
+## ビザンティン美術・東方キリスト教世界との接続
+
+メトロポリタン美術館は、ビザンティン文明の文化的・芸術的影響がラテン語圏の西方に及び、とりわけ
+東方キリスト教世界がルネサンスの発展に影響したと説明している（[展覧会概要](https://www.metmuseum.org/exhibitions/listings/2004/byzantium-faith-and-power)）。
+同館の関連資料は、ギリシアの修道院・文化センターにおける古典学習の復興がイタリア・ルネサンスを刺激し、
+ビザンティン美術の影響がイタリアおよび北方ルネサンスに現れるとも記す（[関連資料](https://www.metmuseum.org/press-releases/dazzling-byzantine-treasures-displayed-at-metropolitan-museum-opening-march-23-2004-exhibitions)）。
+ここでの `influenced_by movement/byzantine-art` は、ルネサンスの全作品がビザンティン様式を継承したという
+意味ではなく、ギリシア語の学術・古典学習と東方の美術伝統がイタリアへ届いた形成経路に限定する。
 
 ## 未着手
 
