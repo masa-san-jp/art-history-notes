@@ -27,11 +27,13 @@ claims:
   - {field: originated_in, source: "https://www.metmuseum.org/de/essays/american-rococo", certainty: scholarly}
 space:
   - {role: originated_in, target: place/paris}
-relations: []
+relations:
+  - {type: influenced_by, target: movement/baroque, certainty: scholarly, source: "https://resources.metmuseum.org/resources/metpublications/pdf/Vienna_Circa_1780_An_Imperial_Silver_Service_Rediscovered.pdf"}
 sources:
   - https://www.wikidata.org/wiki/Q122960
   - https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300021466
   - https://www.metmuseum.org/de/essays/american-rococo
+  - https://resources.metmuseum.org/resources/metpublications/pdf/Vienna_Circa_1780_An_Imperial_Silver_Service_Rediscovered.pdf
 status: draft
 updated: 2026-08-12
 ---
@@ -51,6 +53,13 @@ updated: 2026-08-12
 
 フランス語圏で成立した装飾語彙の主要結節点として `place/paris` を置く。Wikidata の1730年代〜1780年代を
 そのままEDTFで表現した。
+
+## バロックからロココへ
+
+メトロポリタン美術館の出版物は、ウィーンのロココをバロックの「様式上の後継」と位置づけ、マリア・
+テレジア期の宮廷文化について、ハイ・バロックから優雅で軽快なロココへ移行したと説明する。ここでの
+`influenced_by` は、ロココ全体をバロックの単純な置換とみなすものではなく、18世紀の宮廷・装飾文化に
+おける継承と変形を記録するものである。
 
 ## 未着手
 
