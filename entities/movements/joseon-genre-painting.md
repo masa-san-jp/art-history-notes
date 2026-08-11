@@ -29,11 +29,13 @@ space:
   - {role: originated_in, target: place/hanseong}
 relations:
   - {type: influenced_by, target: movement/jingyeong-sansuhwa, certainty: scholarly, source: "https://contents.history.go.kr/mobile/nh/view.do?levelId=nh_035_0040_0020_0010_0040"}
+  - {type: influenced_by, target: movement/zhe-school, certainty: scholarly, source: "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002897801"}
 sources:
   - https://encykorea.aks.ac.kr/Article/E0060400
   - https://contents.history.go.kr/mobile/nh/view.do?levelId=nh_035_0040_0020_0010_0040
   - https://encykorea.aks.ac.kr/Article/E0052396
   - https://encykorea.aks.ac.kr/Article/E0009036
+  - https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002897801
   - https://dh.aks.ac.kr/Korea100/wiki/index.php/%EA%B9%80%ED%99%8D%EB%8F%84%EC%99%80_%EC%8B%A0%EC%9C%A4%EB%B3%B5:_%EC%A1%B0%EC%84%A0_%ED%9B%84%EA%B8%B0%EC%9D%98_%ED%92%8D%EC%86%8D%ED%99%94%EA%B0%80
   - https://ko.wikipedia.org/wiki/%EC%9C%A4%EB%91%90%EC%84%9C
   - https://ko.wikipedia.org/wiki/%EA%B9%80%ED%99%8D%EB%8F%84
@@ -107,6 +109,17 @@ updated: 2026-08-10
 
 つまり担い手は士大夫の文人画家（尹斗緒・趙栄祏）・中人の技術官人（姜熙彦）・図画署の職業画員
 （金弘道・申潤福・金得臣）にまたがり、単一の身分・制度に属さない。
+
+### 尹斗緒一族に残る浙派の表現方法
+
+KCI登録論文「尹斗緒の《采艾図》と文人精神」は、尹斗緒を朝鮮後期風俗画の先駆者の一人と位置づけた
+うえで、典型的な文人画の写意表現ではなく、**浙派の表現方法を積極的に受容した**画家として分析して
+いる（[KCI掲載論文](https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002897801)）。
+対象作品は《采艾図（Chae Ae-do / Women Picking Edible Plants）》で、ここで動いたものは、作品に
+担われた浙派の山水構図・筆法という視覚語彙である。本文では、この関係を朝鮮後期風俗画の全作品が
+浙派から一律に派生したという意味ではなく、尹斗緒とその子・孫へ続く初期の風俗画層に限定して
+`influenced_by movement/zhe-school` と記録する。浙派の個別作品がどの経路で朝鮮へ伝わったかは、
+この論文の抄録からは特定できないため、作品名と受容の事実以上には踏み込まない。
 
 ### 民画（concept/minhwa）との区別
 

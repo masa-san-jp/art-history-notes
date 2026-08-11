@@ -4062,6 +4062,12 @@
           "target": "movement/jingyeong-sansuhwa",
           "certainty": "scholarly",
           "source": "https://contents.history.go.kr/mobile/nh/view.do?levelId=nh_035_0040_0020_0010_0040"
+        },
+        {
+          "type": "influenced_by",
+          "target": "movement/zhe-school",
+          "certainty": "scholarly",
+          "source": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002897801"
         }
       ],
       "sources": [
@@ -4069,6 +4075,7 @@
         "https://contents.history.go.kr/mobile/nh/view.do?levelId=nh_035_0040_0020_0010_0040",
         "https://encykorea.aks.ac.kr/Article/E0052396",
         "https://encykorea.aks.ac.kr/Article/E0009036",
+        "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002897801",
         "https://dh.aks.ac.kr/Korea100/wiki/index.php/%EA%B9%80%ED%99%8D%EB%8F%84%EC%99%80_%EC%8B%A0%EC%9C%A4%EB%B3%B5:_%EC%A1%B0%EC%84%A0_%ED%9B%84%EA%B8%B0%EC%9D%98_%ED%92%8D%EC%86%8D%ED%99%94%EA%B0%80",
         "https://ko.wikipedia.org/wiki/%EC%9C%A4%EB%91%90%EC%84%9C",
         "https://ko.wikipedia.org/wiki/%EA%B9%80%ED%99%8D%EB%8F%84",
@@ -13747,6 +13754,13 @@
     },
     {
       "from": "movement/joseon-genre-painting",
+      "type": "influenced_by",
+      "to": "movement/zhe-school",
+      "certainty": "scholarly",
+      "source": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002897801"
+    },
+    {
+      "from": "movement/joseon-genre-painting",
       "type": "originated_in",
       "to": "place/hanseong"
     },
@@ -15170,6 +15184,12 @@
     },
     {
       "from": "movement/jingyeong-sansuhwa",
+      "type": "influenced",
+      "to": "movement/joseon-genre-painting",
+      "derived": true
+    },
+    {
+      "from": "movement/zhe-school",
       "type": "influenced",
       "to": "movement/joseon-genre-painting",
       "derived": true
