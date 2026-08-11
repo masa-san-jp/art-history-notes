@@ -345,7 +345,14 @@
           "target": "place/hanseong"
         }
       ],
-      "relations": [],
+      "relations": [
+        {
+          "type": "influenced_by",
+          "target": "movement/song-academy-painting",
+          "certainty": "scholarly",
+          "source": "https://encykorea.aks.ac.kr/Article/E0069639"
+        }
+      ],
       "sources": [
         "https://encykorea.aks.ac.kr/Article/E0069639",
         "https://encykorea.aks.ac.kr/Article/E0034491",
@@ -12993,6 +13000,13 @@
     },
     {
       "from": "movement/an-gyeon-school",
+      "type": "influenced_by",
+      "to": "movement/song-academy-painting",
+      "certainty": "scholarly",
+      "source": "https://encykorea.aks.ac.kr/Article/E0069639"
+    },
+    {
+      "from": "movement/an-gyeon-school",
       "type": "originated_in",
       "to": "place/hanseong"
     },
@@ -14733,6 +14747,12 @@
       "from": "movement/expressionism",
       "type": "influenced",
       "to": "movement/abstract-expressionism",
+      "derived": true
+    },
+    {
+      "from": "movement/song-academy-painting",
+      "type": "influenced",
+      "to": "movement/an-gyeon-school",
       "derived": true
     },
     {
