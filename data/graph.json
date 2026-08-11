@@ -3575,10 +3575,18 @@
           "target": "place/kyoto"
         }
       ],
-      "relations": [],
+      "relations": [
+        {
+          "type": "influenced_by",
+          "target": "movement/song-academy-painting",
+          "certainty": "scholarly",
+          "source": "https://www.kyohaku.go.jp/jp/assets/press/2027_kano_press_0608-02ver.pdf"
+        }
+      ],
       "sources": [
         "https://www.wikidata.org/wiki/Q252801",
-        "https://www.getty.edu/research/tools/vocabularies/aat/"
+        "https://www.getty.edu/research/tools/vocabularies/aat/",
+        "https://www.kyohaku.go.jp/jp/assets/press/2027_kano_press_0608-02ver.pdf"
       ],
       "images": [
         {
@@ -11834,6 +11842,13 @@
     },
     {
       "from": "movement/kano-school",
+      "type": "influenced_by",
+      "to": "movement/song-academy-painting",
+      "certainty": "scholarly",
+      "source": "https://www.kyohaku.go.jp/jp/assets/press/2027_kano_press_0608-02ver.pdf"
+    },
+    {
+      "from": "movement/kano-school",
       "type": "originated_in",
       "to": "place/kyoto"
     },
@@ -12794,6 +12809,12 @@
       "from": "movement/basohli-painting",
       "type": "derived_into",
       "to": "movement/kangra-painting",
+      "derived": true
+    },
+    {
+      "from": "movement/song-academy-painting",
+      "type": "influenced",
+      "to": "movement/kano-school",
       "derived": true
     },
     {
