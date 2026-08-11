@@ -31,6 +31,7 @@ space:
 relations:
   - {type: precedes, target: movement/neo-impressionism}
   - {type: exhibited_at, target: org/societe-anonyme-artistes}
+  - {type: influenced_by, target: movement/barbizon-school, certainty: scholarly, source: "https://www.getty.edu/education/for_teachers/curricula/impressionism/background1.html"}
   - {type: influenced_by, target: movement/utagawa-school, certainty: scholarly, source: "https://en.wikipedia.org/wiki/Fondation_Monet_in_Giverny"}
 images:
   - url: https://openaccess-cdn.clevelandart.org/1950.89/1950.89_web.jpg
@@ -54,11 +55,12 @@ sources:
   - https://www.artic.edu/artworks/16571
   - https://api.artic.edu/api/v1/artworks/16571
   - https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300021505
+  - https://www.getty.edu/education/for_teachers/curricula/impressionism/background1.html
   - https://en.wikipedia.org/wiki/Fondation_Monet_in_Giverny
   - https://en.wikipedia.org/wiki/La_Japonaise_(painting)
   - https://collections.mfa.org/objects/33556
 status: verified
-updated: 2026-08-09
+updated: 2026-08-11
 ---
 
 # 印象派 / Impressionism
@@ -72,6 +74,15 @@ updated: 2026-08-09
 典拠: Wikidata [Q40415](https://www.wikidata.org/wiki/Q40415)／Getty AAT
 [300021503](https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300021503)
 （見出し語「Impressionist (style)」）。
+
+## バルビゾン派との関係
+
+Getty Research Instituteの教育資料は、バルビゾン派の画家たちが戸外で自然を直接描き、後に印象派と
+呼ばれる若い画家たちに影響を与えたと説明している
+（[Getty「About Impressionism」](https://www.getty.edu/education/for_teachers/curricula/impressionism/background1.html)）。
+ここで示されるのは、戸外制作と風景画の扱いをめぐる先行例から印象派への技法的・世代的な影響であり、
+両者が同一の運動だったという意味ではない。そのため、印象派から[バルビゾン派](barbizon-school.md)へ
+`influenced_by` を張る。
 
 このKBでは「印象派」を、パリで審査なしに作品を発表する場として設立された
 [org/societe-anonyme-artistes](../orgs/societe-anonyme-artistes.md)（画家・彫刻家・版画家等の
