@@ -3,12 +3,12 @@
     {
       "kind": "no-cross-region",
       "about": "all",
-      "text": "他の文化圏の movement と1本も繋がっていない movement が 63/99 件。時間だけでなく空間の広がりを体系化するので、影響・伝播・反発を調べる余地"
+      "text": "他の文化圏の movement と1本も繋がっていない movement が 58/99 件。時間だけでなく空間の広がりを体系化するので、影響・伝播・反発を調べる余地"
     },
     {
       "kind": "no-cross-region",
       "about": "europe-west",
-      "text": "europe-west: 14件（アール・ヌーヴォー、バロック、バウハウス、ダダ ほか）"
+      "text": "europe-west: 11件（バロック、ダダ、デ・ステイル、フォーヴィスム ほか）"
     },
     {
       "kind": "no-cross-region",
@@ -37,11 +37,6 @@
     },
     {
       "kind": "no-cross-region",
-      "about": "europe-east",
-      "text": "europe-east: 4件（ロシア構成主義、ノヴゴロド派、移動派、シュプレマティスム）"
-    },
-    {
-      "kind": "no-cross-region",
       "about": "asia-east-china",
       "text": "asia-east-china: 4件（四王、海上画派、揚州八怪、浙派）"
     },
@@ -62,13 +57,13 @@
     },
     {
       "kind": "no-cross-region",
-      "about": "asia-central",
-      "text": "asia-central: 2件（メンリ派、ザナバザル様式）"
+      "about": "europe-east",
+      "text": "europe-east: 3件（ノヴゴロド派、移動派、シュプレマティスム）"
     },
     {
       "kind": "no-cross-region",
-      "about": "americas-north",
-      "text": "americas-north: 1件（グループ・オブ・セブン）"
+      "about": "asia-central",
+      "text": "asia-central: 2件（メンリ派、ザナバザル様式）"
     }
   ]
 }

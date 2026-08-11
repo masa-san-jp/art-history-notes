@@ -28,7 +28,8 @@ claims:
 founding_control: internal
 space:
   - {role: originated_in, target: place/toronto}
-relations: []
+relations:
+  - {type: influenced_by, target: movement/post-impressionism, certainty: scholarly, source: "https://boutique.gallery.ca/collections/ngc-publications?page=2"}
 images:
   - url: https://upload.wikimedia.org/wikipedia/commons/4/43/The_Tangled_Garden.jpg
     source_page: https://commons.wikimedia.org/wiki/File:The_Tangled_Garden.jpg
@@ -48,6 +49,7 @@ sources:
   - https://en.wikipedia.org/wiki/A._J._Casson
   - https://www.theartstory.org/movement/group-of-seven/
   - https://www.parks.canada.ca/culture/designation/evenement-event/groupe-sept-group-seven
+  - https://boutique.gallery.ca/collections/ngc-publications?page=2
   - https://commons.wikimedia.org/wiki/File:The_Tangled_Garden.jpg
   - https://commons.wikimedia.org/wiki/File:Lawren_Harris_North_Shore,_Lake_Superior_1926.jpg
   - https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1335089/
