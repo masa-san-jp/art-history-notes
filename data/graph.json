@@ -8095,6 +8095,12 @@
         {
           "type": "created_by",
           "target": "person/uche-okeke"
+        },
+        {
+          "type": "influenced_by",
+          "target": "movement/post-impressionism",
+          "certainty": "scholarly",
+          "source": "https://high.org/sites/onobrakpeya/"
         }
       ],
       "sources": [
@@ -8105,10 +8111,11 @@
         "https://artsandculture.google.com/story/how-the-zaria-art-society-rebelled-yemisi-shyllon-museum-of-art/WAVh6rlpcI-qoQ",
         "https://www.si.edu/object/zaria-art-society%3Asiris_sil_504883",
         "https://artop.bmth.ac.uk/legacies-of-the-zaria-rebels.html",
-        "https://www.rem.routledge.com/articles/zaria-art-society-the"
+        "https://www.rem.routledge.com/articles/zaria-art-society-the",
+        "https://high.org/sites/onobrakpeya/"
       ],
       "status": "draft",
-      "updated": "2026-08-09",
+      "updated": "2026-08-12",
       "path": "entities/movements/zaria-art-society.md"
     },
     "movement/zhe-school": {
@@ -14408,6 +14415,13 @@
     },
     {
       "from": "movement/zaria-art-society",
+      "type": "influenced_by",
+      "to": "movement/post-impressionism",
+      "certainty": "scholarly",
+      "source": "https://high.org/sites/onobrakpeya/"
+    },
+    {
+      "from": "movement/zaria-art-society",
       "type": "originated_in",
       "to": "place/zaria"
     },
@@ -15497,6 +15511,12 @@
     {
       "from": "person/uche-okeke",
       "type": "created",
+      "to": "movement/zaria-art-society",
+      "derived": true
+    },
+    {
+      "from": "movement/post-impressionism",
+      "type": "influenced",
       "to": "movement/zaria-art-society",
       "derived": true
     },
