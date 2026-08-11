@@ -31,6 +31,7 @@ space:
   - {role: created_in, target: place/cusco}
 relations:
   - {type: created_by, target: person/jose-sabogal}
+  - {type: influenced_by, target: movement/post-impressionism, certainty: scholarly, source: "http://sedici.unlp.edu.ar/handle/10915/151286"}
 sources:
   - https://www.wikidata.org/wiki/Q5602008
   - https://www.getty.edu/vow/AATFullDisplay?find=&place=&nation=&logic=&note=&role=&subjectid=300107847
@@ -118,6 +119,11 @@ peruana）」として扱い、クスコ（1909年の大学改革を機に自文
 理想化された過去の先住民」という支配的な図像から離れ、同時代の「アメスティサヘ（混血化）」した
 先住民を描いており、この違いは当時「インディヘニスタ」という一枚のレッテルの下に均されて
 不可視化されたと論じられる。
+
+このため本項では、サボガルの形成期とENBAを通じた継承に限って `influenced_by movement/post-impressionism`
+を記録する。これはペルーのインディヘニスモ全体の画家が後期印象派を共有した、あるいはアンデスの
+主題が欧州様式へ置き換えられたという主張ではない。関係の対象は、スペインでの具体的な画家との接触と、
+そこから弟子へ移った様式語彙である。
 
 ### 判定 — `retrospective`
 

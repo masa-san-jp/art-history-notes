@@ -3797,6 +3797,12 @@
         {
           "type": "created_by",
           "target": "person/jose-sabogal"
+        },
+        {
+          "type": "influenced_by",
+          "target": "movement/post-impressionism",
+          "certainty": "scholarly",
+          "source": "http://sedici.unlp.edu.ar/handle/10915/151286"
         }
       ],
       "sources": [
@@ -13643,6 +13649,13 @@
     },
     {
       "from": "movement/indigenismo",
+      "type": "influenced_by",
+      "to": "movement/post-impressionism",
+      "certainty": "scholarly",
+      "source": "http://sedici.unlp.edu.ar/handle/10915/151286"
+    },
+    {
+      "from": "movement/indigenismo",
       "type": "originated_in",
       "to": "place/lima"
     },
@@ -15067,6 +15080,12 @@
     {
       "from": "person/jose-sabogal",
       "type": "created",
+      "to": "movement/indigenismo",
+      "derived": true
+    },
+    {
+      "from": "movement/post-impressionism",
+      "type": "influenced",
       "to": "movement/indigenismo",
       "derived": true
     },
