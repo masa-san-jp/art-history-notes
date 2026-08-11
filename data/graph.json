@@ -7783,6 +7783,59 @@
       "updated": "2026-08-09",
       "path": "entities/persons/aime-cesaire.md"
     },
+    "person/alexander-rodchenko": {
+      "id": "person/alexander-rodchenko",
+      "uri": "urn:ahn:person/alexander-rodchenko",
+      "type": "person",
+      "label_ja": "アレクサンドル・ロトチェンコ",
+      "label_en": "Aleksandr Rodchenko",
+      "authority": {
+        "wikidata": "Q312631",
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": "1891-12-05",
+        "end": "1956-12-03",
+        "display": "1891年12月5日〜1956年12月3日"
+      },
+      "space": [
+        {
+          "role": "born_in",
+          "target": "place/saint-petersburg"
+        },
+        {
+          "role": "active_in",
+          "target": "place/moscow"
+        },
+        {
+          "role": "died_in",
+          "target": "place/moscow"
+        }
+      ],
+      "relations": [
+        {
+          "type": "belongs_to",
+          "target": "movement/constructivism"
+        },
+        {
+          "type": "member_of",
+          "target": "org/vkhutemas"
+        }
+      ],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q312631",
+        "https://www.moma.org/collection/artists/4975",
+        "https://www.moma.org/interactives/exhibitions/1998/rodchenko/texts/new_cultural.html",
+        "https://www.moma.org/interactives/objectphoto/schools/15.html",
+        "https://www.moma.org/interactives/exhibitions/1998/rodchenko/table.html"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/persons/alexander-rodchenko.md"
+    },
     "person/bernard-fagg": {
       "id": "person/bernard-fagg",
       "uri": "urn:ahn:person/bernard-fagg",
@@ -8962,6 +9015,55 @@
       "status": "stub",
       "updated": "2026-08-09",
       "path": "entities/persons/uche-okeke.md"
+    },
+    "person/varvara-stepanova": {
+      "id": "person/varvara-stepanova",
+      "uri": "urn:ahn:person/varvara-stepanova",
+      "type": "person",
+      "label_ja": "ヴァルヴァラ・ステパノワ",
+      "label_en": "Varvara Stepanova",
+      "authority": {
+        "wikidata": "Q374948",
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": "1894-11-05",
+        "end": "1958-05-20",
+        "display": "1894年11月5日（グレゴリオ暦）〜1958年5月20日"
+      },
+      "space": [
+        {
+          "role": "active_in",
+          "target": "place/moscow"
+        },
+        {
+          "role": "died_in",
+          "target": "place/moscow"
+        }
+      ],
+      "relations": [
+        {
+          "type": "belongs_to",
+          "target": "movement/constructivism"
+        },
+        {
+          "type": "member_of",
+          "target": "org/vkhutemas"
+        }
+      ],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q374948",
+        "https://www.moma.org/artists/5643-varvara-stepanova",
+        "https://www.moma.org/collection/works/102322",
+        "https://www.moma.org/interactives/objectphoto/schools/15.html",
+        "https://museumart.ru/collection/varvara-stepanova"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/persons/varvara-stepanova.md"
     },
     "person/victor-tardieu": {
       "id": "person/victor-tardieu",
@@ -12960,6 +13062,35 @@
       "to": "place/moscow"
     },
     {
+      "from": "person/alexander-rodchenko",
+      "type": "belongs_to",
+      "to": "movement/constructivism",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "person/alexander-rodchenko",
+      "type": "member_of",
+      "to": "org/vkhutemas",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "person/alexander-rodchenko",
+      "type": "born_in",
+      "to": "place/saint-petersburg"
+    },
+    {
+      "from": "person/alexander-rodchenko",
+      "type": "active_in",
+      "to": "place/moscow"
+    },
+    {
+      "from": "person/alexander-rodchenko",
+      "type": "died_in",
+      "to": "place/moscow"
+    },
+    {
       "from": "person/david-alfaro-siqueiros",
       "type": "grouped_as",
       "to": "movement/mexican-muralism",
@@ -13031,6 +13162,30 @@
       "to": "movement/dansaekhwa",
       "certainty": "scholarly",
       "source": "https://mmcaresearch.kr/terms/view.do?fid=2211"
+    },
+    {
+      "from": "person/varvara-stepanova",
+      "type": "belongs_to",
+      "to": "movement/constructivism",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "person/varvara-stepanova",
+      "type": "member_of",
+      "to": "org/vkhutemas",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "person/varvara-stepanova",
+      "type": "active_in",
+      "to": "place/moscow"
+    },
+    {
+      "from": "person/varvara-stepanova",
+      "type": "died_in",
+      "to": "place/moscow"
     },
     {
       "from": "person/vincent-van-gogh",
@@ -13673,6 +13828,18 @@
       "derived": true
     },
     {
+      "from": "movement/constructivism",
+      "type": "has_member",
+      "to": "person/alexander-rodchenko",
+      "derived": true
+    },
+    {
+      "from": "org/vkhutemas",
+      "type": "has_member",
+      "to": "person/alexander-rodchenko",
+      "derived": true
+    },
+    {
       "from": "movement/mexican-muralism",
       "type": "groups",
       "to": "person/david-alfaro-siqueiros",
@@ -13694,6 +13861,18 @@
       "from": "movement/dansaekhwa",
       "type": "groups",
       "to": "person/lee-ufan",
+      "derived": true
+    },
+    {
+      "from": "movement/constructivism",
+      "type": "has_member",
+      "to": "person/varvara-stepanova",
+      "derived": true
+    },
+    {
+      "from": "org/vkhutemas",
+      "type": "has_member",
+      "to": "person/varvara-stepanova",
       "derived": true
     },
     {
