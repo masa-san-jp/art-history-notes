@@ -27,7 +27,8 @@ claims:
   - {field: originated_in, source: "https://contents.history.go.kr/mobile/kc/view.do?levelId=kc_r200090&code=kc_age_20", certainty: scholarly}
 space:
   - {role: originated_in, target: place/kaesong}
-relations: []
+relations:
+  - {type: influenced_by, target: movement/song-academy-painting, certainty: scholarly, source: "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART001609622"}
 sources:
   - https://www.wikidata.org/wiki/Q12584160
   - https://en.wikipedia.org/wiki/Goryeo_Buddhist_paintings
@@ -35,6 +36,7 @@ sources:
   - https://contents.history.go.kr/mobile/kc/view.do?levelId=kc_r200090&code=kc_age_20
   - https://contents.history.go.kr/mobile/eh/view.do?levelId=eh_r0182_0010&code=eh_age_20
   - https://www.ijkaa.org/v.4/0/30/89
+  - https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART001609622
   - https://publications.asia.si.edu/goryeo/en/essay-wilson-goryeo-buddhist-paintings.php
   - https://publications.asia.si.edu/goryeo/ko/essay-park-materials-techniques-mounts.php
   - https://ko.wikipedia.org/wiki/%EC%88%98%EC%9B%94%EA%B4%80%EC%9D%8C%EB%8F%84_(%EB%B3%B4%EB%AC%BC_%EC%A0%9C1426%ED%98%B8)
@@ -79,6 +81,17 @@ Wikidata [Q12584160](https://www.wikidata.org/wiki/Q12584160)「Goryeo Buddhist 
 [essay-park](https://publications.asia.si.edu/goryeo/ko/essay-park-materials-techniques-mounts.php)、
 二次情報）。連花唐草文（蓮華唐草文様）は高麗仏画13〜14世紀の代表的な文様で、中国・日本の仏画には
 使われない高麗独自の文様とされる（WebSearch経由の複数記述、二次情報。一次資料には当たっていない）。
+
+### 宋代院体画との図像の受容・変容
+
+鄭宇澤の査読誌論文は、高麗仏画が中国仏画の直接・間接的な影響のもとで制作されたと整理し、
+宋・遼・金・元の仏画を時代ごとに区別して検討している。その具体例として、14世紀初頭の
+《観音菩薩図》が南宋13世紀の牧谿《白衣観音図》と本質的な図像を同じくしながら、墨画を
+彩色画へ変換して高麗の絵画として成立させたこと、また五百羅漢図が北宋期の記録に対応しつつ
+高麗式に変容したことを挙げる（[KCI掲載論文](https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART001609622)）。
+このため本項では、院体画そのものが高麗仏画全体を一律に規定したとはせず、宋代を含む中国の
+仏画に由来する図像の受容と高麗側での変換に限って `influenced_by movement/song-academy-painting`
+を記録する。
 
 ## kind の判定
 
