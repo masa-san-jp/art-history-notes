@@ -130,8 +130,6 @@ Japanese themes, but also formats and styles considered to be uniquely Japanese"
 - 藤原隆信・藤原信実（似絵）、土佐光信、土佐光起の person エンティティ化。土佐光信・光起は
   [movement/tosa-school](tosa-school.md) の担い手でもあり、大和絵と土佐派という2つの movement を
   繋ぐ根拠になり得る（`docs/schema.md` の person 作成基準2）
-- [movement/tosa-school](tosa-school.md) を大和絵の継承者として関係で結ぶこと。関係は受け取った側の
-  ファイルに書く規約になっており、この作業のスコープ外（土佐派側のファイルの編集は本タスクの範囲外）
 - 唐絵（からえ）を独立したエンティティとして立てるかどうか。今回は大和絵の本文中で対概念として
   説明するに留めた
 - 《北野天神縁起絵巻》を work エンティティとして分解すること（今回は images 参照のみ）

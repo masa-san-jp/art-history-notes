@@ -25,11 +25,14 @@ claims:
   - {field: kind, source: "https://www.wikidata.org/wiki/Q2915215", certainty: scholarly}
 space:
   - {role: originated_in, target: place/kyoto}
-relations: []
+relations:
+  - {type: derives_from, target: movement/yamato-e, certainty: scholarly, source: "https://www.fujibi.or.jp/collection/artwork-artist/a130/"}
 sources:
   - https://www.wikidata.org/wiki/Q2915215
   - https://www.getty.edu/research/tools/vocabularies/aat/
   - https://en.wikipedia.org/wiki/Tosa_school
+  - https://www.fujibi.or.jp/collection/artwork-artist/a130/
+  - https://www.kyohaku.go.jp/old/eng/theme/floor2_4/past/edo_20160614.html
 images:
   - url: https://images.metmuseum.org/CRDImages/as/original/DT1607.jpg
     source_page: https://www.metmuseum.org/art/collection/search/45258
@@ -50,6 +53,13 @@ updated: 2026-08-08
 境界が曖昧になったとも記されている（同）。
 
 典拠: Wikidata [Q2915215](https://www.wikidata.org/wiki/Q2915215)／Getty AAT `300018660`
+
+## 大和絵との系譜
+
+東京富士美術館は、土佐派を「伝統的な大和絵様式を継承した画派」と説明している。京都国立博物館も、
+土佐派が大和絵（日本様式の絵画）を専門としたことを確認している。ここで確認できるのは、土佐派が
+大和絵を単に同時代に併存した様式として参照したということではなく、伝統的な様式を継承する画派として
+位置づけられていることである。したがって、受け取り側である土佐派から大和絵へ `derives_from` を張る。
 
 Wikidata は創始者（`founded by`, P112）として土佐行広 [Q3532591](https://www.wikidata.org/wiki/Q3532591)
 を挙げているが、その項目説明でも「創始とも伝わる（〜と伝わる）」という伝承のトーンで書かれている。

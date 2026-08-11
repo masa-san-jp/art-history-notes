@@ -3,12 +3,12 @@
     {
       "kind": "no-cross-region",
       "about": "all",
-      "text": "他の文化圏の movement と1本も繋がっていない movement が 55/86 件。時間だけでなく空間の広がりを体系化するので、影響・伝播・反発を調べる余地"
+      "text": "他の文化圏の movement と1本も繋がっていない movement が 52/86 件。時間だけでなく空間の広がりを体系化するので、影響・伝播・反発を調べる余地"
     },
     {
       "kind": "no-cross-region",
       "about": "asia-east-japan",
-      "text": "asia-east-japan: 9件（具体美術協会、狩野派、円山四条派、民藝運動 ほか）"
+      "text": "asia-east-japan: 8件（具体美術協会、狩野派、円山四条派、民藝運動 ほか）"
     },
     {
       "kind": "no-cross-region",
@@ -37,13 +37,13 @@
     },
     {
       "kind": "no-cross-region",
-      "about": "asia-east-korea",
-      "text": "asia-east-korea: 4件（安堅派、単色画、高麗仏画、朝鮮後期風俗画）"
+      "about": "asia-southeast",
+      "text": "asia-southeast: 4件（インドシナ漆絵画（ソンマイ）、ピタ・マハ、ラッタナコーシン様式壁画、ザ・サーティーン・モダンズ）"
     },
     {
       "kind": "no-cross-region",
-      "about": "asia-southeast",
-      "text": "asia-southeast: 4件（インドシナ漆絵画（ソンマイ）、ピタ・マハ、ラッタナコーシン様式壁画、ザ・サーティーン・モダンズ）"
+      "about": "asia-east-korea",
+      "text": "asia-east-korea: 3件（安堅派、高麗仏画、朝鮮後期風俗画）"
     },
     {
       "kind": "no-cross-region",
@@ -52,13 +52,13 @@
     },
     {
       "kind": "no-cross-region",
-      "about": "europe-west",
-      "text": "europe-west: 3件（ダダ、新印象派、ヴェネツィア派）"
+      "about": "europe-east",
+      "text": "europe-east: 3件（ノヴゴロド派、移動派、シュプレマティスム）"
     },
     {
       "kind": "no-cross-region",
-      "about": "europe-east",
-      "text": "europe-east: 3件（ノヴゴロド派、移動派、シュプレマティスム）"
+      "about": "europe-west",
+      "text": "europe-west: 2件（ダダ、新印象派）"
     },
     {
       "kind": "no-cross-region",

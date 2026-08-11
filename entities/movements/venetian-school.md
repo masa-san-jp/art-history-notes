@@ -27,7 +27,8 @@ claims:
   - {field: originated_in, source: "https://www.wikidata.org/wiki/Q610687", certainty: scholarly}
 space:
   - {role: originated_in, target: place/venice}
-relations: []
+relations:
+  - {type: influenced_by, target: movement/byzantine-art, certainty: scholarly, source: "https://www.metmuseum.org/de/essays/venice-in-the-eighteenth-century"}
 sources:
   - https://www.wikidata.org/wiki/Q610687
   - https://www.wikidata.org/wiki/Q641
@@ -49,6 +50,7 @@ sources:
   - https://www.academia.edu/37111049/Luigi_Lanzi_e_le_scuole_pittoriche
   - https://www.theartstory.org/movement/venetian-school/
   - https://www.ebsco.com/research-starters/visual-arts/venetian-school-painting
+  - https://www.metmuseum.org/de/essays/venice-in-the-eighteenth-century
 status: draft
 updated: 2026-08-09
 images:
@@ -252,6 +254,17 @@ distinctive Venetian style to an end）と明記する。この終期は、`## k
 
 発生地をヴェネツィア（[place/venice](../places/venice.md)）とした。Wikidata Q610687の
 `P276`（location）が同項目（[Q641](https://www.wikidata.org/wiki/Q641)）を指す。
+
+## ビザンティン美術との関係
+
+ヴェネツィア派はビザンティン美術の単純な継承ではないが、ヴェネツィア絵画の形成には
+ビザンティンの伝統が基層として働いた。Metropolitan Museum は、ヴェネツィアが10世紀には
+コンスタンティノープルと商業関係を築いており、そのためヴェネツィア絵画がビザンティンの伝統から
+生まれたと説明している
+（[Metropolitan Museum of Art「Venice in the Eighteenth Century」](https://www.metmuseum.org/de/essays/venice-in-the-eighteenth-century)）。
+ここで示されるのは、特定の画家が一つの作品を模倣したという単線的な影響ではなく、
+交易と都市の接触を通じた美術的伝統の受容である。したがって、この関係は15世紀後半以降の
+ヴェネツィア派をビザンティン美術へ全面的に還元するものではない。
 
 **未確認**: 英語版Wikipediaは「16世紀の主要なヴェネツィア派の画家は、ヴェネツィア
 生え抜きであることはむしろ稀」と記し、共和国の本土領（テッラフェルマ）——パドヴァ・
