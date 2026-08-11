@@ -3575,10 +3575,18 @@
           "target": "place/kyoto"
         }
       ],
-      "relations": [],
+      "relations": [
+        {
+          "type": "influenced_by",
+          "target": "movement/song-academy-painting",
+          "certainty": "scholarly",
+          "source": "https://www.kyohaku.go.jp/jp/assets/press/2027_kano_press_0608-02ver.pdf"
+        }
+      ],
       "sources": [
         "https://www.wikidata.org/wiki/Q252801",
-        "https://www.getty.edu/research/tools/vocabularies/aat/"
+        "https://www.getty.edu/research/tools/vocabularies/aat/",
+        "https://www.kyohaku.go.jp/jp/assets/press/2027_kano_press_0608-02ver.pdf"
       ],
       "images": [
         {
@@ -4377,6 +4385,12 @@
           "target": "person/dong-qichang",
           "certainty": "scholarly",
           "source": "https://en.wikipedia.org/wiki/Nanga_(art)"
+        },
+        {
+          "type": "influenced_by",
+          "target": "movement/literati-painting",
+          "certainty": "scholarly",
+          "source": "https://eaa.fas.harvard.edu/museum/nanga-painting-feinberg-collection"
         }
       ],
       "sources": [
@@ -4384,6 +4398,9 @@
         "https://ja.wikipedia.org/wiki/文人画",
         "https://en.wikipedia.org/wiki/Nanga_(art)",
         "https://www.wikidata.org/wiki/Q2928221",
+        "https://jpsearch.go.jp/en/gallery/ndl-D6xwaWpaGKiEYVp",
+        "https://www.kyohaku.go.jp/old/eng/theme/floor2_4/past/kinse_20170221.html",
+        "https://eaa.fas.harvard.edu/museum/nanga-painting-feinberg-collection",
         "https://www.metmuseum.org/art/collection/search/671023",
         "https://www.artic.edu/artworks/185222"
       ],
@@ -11834,6 +11851,13 @@
     },
     {
       "from": "movement/kano-school",
+      "type": "influenced_by",
+      "to": "movement/song-academy-painting",
+      "certainty": "scholarly",
+      "source": "https://www.kyohaku.go.jp/jp/assets/press/2027_kano_press_0608-02ver.pdf"
+    },
+    {
+      "from": "movement/kano-school",
       "type": "originated_in",
       "to": "place/kyoto"
     },
@@ -11954,6 +11978,13 @@
       "to": "person/dong-qichang",
       "certainty": "scholarly",
       "source": "https://en.wikipedia.org/wiki/Nanga_(art)"
+    },
+    {
+      "from": "movement/nanga",
+      "type": "influenced_by",
+      "to": "movement/literati-painting",
+      "certainty": "scholarly",
+      "source": "https://eaa.fas.harvard.edu/museum/nanga-painting-feinberg-collection"
     },
     {
       "from": "movement/nanga",
@@ -12797,6 +12828,12 @@
       "derived": true
     },
     {
+      "from": "movement/song-academy-painting",
+      "type": "influenced",
+      "to": "movement/kano-school",
+      "derived": true
+    },
+    {
       "from": "movement/nihonga",
       "type": "influenced",
       "to": "movement/lingnan-school",
@@ -12846,6 +12883,12 @@
     },
     {
       "from": "person/dong-qichang",
+      "type": "influenced",
+      "to": "movement/nanga",
+      "derived": true
+    },
+    {
+      "from": "movement/literati-painting",
       "type": "influenced",
       "to": "movement/nanga",
       "derived": true

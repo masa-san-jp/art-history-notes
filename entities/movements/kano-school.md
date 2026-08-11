@@ -27,10 +27,12 @@ claims:
 space:
   - {role: originated_in, target: place/kyoto}
   - {role: active_in, target: place/kyoto}
-relations: []
+relations:
+  - {type: influenced_by, target: movement/song-academy-painting, certainty: scholarly, source: "https://www.kyohaku.go.jp/jp/assets/press/2027_kano_press_0608-02ver.pdf"}
 sources:
   - https://www.wikidata.org/wiki/Q252801
   - https://www.getty.edu/research/tools/vocabularies/aat/
+  - https://www.kyohaku.go.jp/jp/assets/press/2027_kano_press_0608-02ver.pdf
 images:
   - url: https://images.metmuseum.org/CRDImages/as/original/LC-29_100_495gh_002.jpg
     source_page: https://www.metmuseum.org/art/collection/search/45219
@@ -52,6 +54,17 @@ updated: 2026-08-08
 工房の徒弟制度によって継承された。
 
 典拠: Wikidata [Q252801](https://www.wikidata.org/wiki/Q252801)／Getty AAT `300018653`
+
+## 南宋院体画との関係
+
+京都国立博物館の公式資料は、狩野正信が足利将軍家の所蔵する中国絵画を手本に制作したと説明し、
+図様の類似する模本の存在から、正信がその中の**南宋院体画などに学んだ**と推定している。
+ここで記録するのは、狩野派全体が院体画だけから成立したという意味ではなく、狩野派の始祖・正信が
+日本へ移入されていた南宋院体画を具体的な参照対象として受け取った経路である。
+
+このため、受け取り側である狩野派から[院体画](song-academy-painting.md)へ
+`influenced_by` を張った。根拠は、作品の図様と模本、足利将軍家のコレクションという具体的な
+媒介を挙げた京都国立博物館の資料である。
 
 ## kind の判定 — なぜ `lineage-school` か
 
