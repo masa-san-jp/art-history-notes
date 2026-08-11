@@ -68,9 +68,12 @@ CLAIM_FIELDS_FOR_VERIFIED = {"movement": {"time", "originated_in", "kind"}}
 URI_PREFIX = "urn:ahn:"
 
 # --- EDTF（ISO 8601-2 Level 1 サブセット）--------------------------------------
-# 受ける形: 1884 / 1884-05 / 1884-05-20 / 146X / 18XX / 1503~ / 1884? / 1884%
+# 受ける形: 1884 / -0900 / 1884-05 / 146X / 18XX / -09XX / 1503~ / 1884? / 1884%
 #          .. （開いた端）/ null（不明）
-EDTF_RE = re.compile(r"^(?:\.\.|(\d{4}|\d{3}X|\d{2}XX|\dXXX)(?:-\d{2}(?:-\d{2})?)?[?~%]?)$")
+EDTF_RE = re.compile(
+    r"^(?:\.\.|(?P<year>-?(?:\d{4}|\d{3}X|\d{2}XX|\dXXX))"
+    r"(?:-\d{2}(?:-\d{2})?)?[?~%]?)$"
+)
 
 
 def edtf_ok(value):
@@ -81,12 +84,30 @@ def edtf_year_range(value):
     """EDTF 値から (最小年, 最大年) を返す。開いた端・不明は None。ソートと集計に使う。"""
     if not value or value == "..":
         return (None, None)
-    head = value.split("-")[0].rstrip("?~%")
-    if "X" not in head:
-        return (int(head), int(head))
-    lo = int(head.replace("X", "0"))
-    hi = int(head.replace("X", "9"))
+    match = EDTF_RE.fullmatch(value)
+    if not match:
+        return (None, None)
+    year = match.group("year")
+    sign = -1 if year.startswith("-") else 1
+    digits = year.lstrip("-")
+    if "X" not in digits:
+        exact = sign * int(digits)
+        return (exact, exact)
+    lo = int(digits.replace("X", "0"))
+    hi = int(digits.replace("X", "9"))
+    if sign < 0:
+        # 紀元前は数値が小さいほど後なので、範囲の順序を暦年の順に戻す。
+        return (-hi, -lo)
     return (lo, hi)
+
+
+def century_of_year(year):
+    """暦年を coverage/bundle 用の世紀番号にする。紀元前は負数（-1 = 1 BCE）。"""
+    if year is None:
+        return None
+    if year < 0:
+        return -(abs(year) // 100 + 1)
+    return year // 100 + 1
 
 
 # --- 読み込み -----------------------------------------------------------------
@@ -101,6 +122,15 @@ def read_frontmatter(path):
 
 def load_config():
     return yaml.safe_load((CONFIG / "regions.yaml").read_text(encoding="utf-8"))
+
+
+def load_region_history():
+    """場所ごとの期間付き文化圏辞書を読む。未導入の checkout では空辞書にする。"""
+    path = CONFIG / "place-region-history.yaml"
+    if not path.exists():
+        return {}
+    data = yaml.safe_load(path.read_text(encoding="utf-8")) or {}
+    return data.get("places") or {}
 
 
 def load_entities():
@@ -170,22 +200,51 @@ def search_entities(term, entities):
     return hits
 
 
-def regions_of(entity_id, entities):
-    """発生地の文化圏を**全部**返す。起源が複数・論争中のものを最初の1つで代表させないため。"""
+def _region_history_matches(year_range, entries):
+    """movement の開始年範囲と、[start, end) 区間が重なる辞書項目を返す。"""
+    lo, hi = year_range
+    if lo is None or hi is None:
+        return []
+    matches = []
+    for entry in entries or []:
+        start, _ = edtf_year_range(entry.get("start"))
+        end, _ = edtf_year_range(entry.get("end"))
+        if start is not None and hi < start:
+            continue
+        if end is not None and lo >= end:
+            continue
+        matches.append(entry)
+    return matches
+
+
+def regions_of(entity_id, entities, region_history=None):
+    """発生地の文化圏を**全部**返す。
+
+    起源が複数・論争中のものを最初の1つで代表させない。場所に期間辞書がある場合は、
+    movement の開始時期と重なる区間の region を使う。時期不明・該当区間なしは place の
+    現在の region に戻す。
+    """
     meta = entities.get(entity_id) or {}
+    year_range = edtf_year_range((meta.get("time") or {}).get("start"))
     out = []
     for s in meta.get("space") or []:
         if s.get("role") == "originated_in":
-            place = entities.get(s.get("target")) or {}
-            r = place.get("region")
-            if r and r not in out:
-                out.append(r)
+            place_id = s.get("target")
+            place = entities.get(place_id) or {}
+            entries = (region_history or {}).get(place_id) or []
+            matches = _region_history_matches(year_range, entries)
+            regions = [e.get("region") for e in matches if e.get("region")]
+            if not regions:
+                regions = [place.get("region")]
+            for r in regions:
+                if r and r not in out:
+                    out.append(r)
     return out
 
 
-def region_of(entity_id, entities):
+def region_of(entity_id, entities, region_history=None):
     """後方互換。複数あるときは最初の1つ（集計には regions_of を使う）。"""
-    rs = regions_of(entity_id, entities)
+    rs = regions_of(entity_id, entities, region_history)
     return rs[0] if rs else None
 
 

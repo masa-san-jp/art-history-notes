@@ -15,8 +15,8 @@ import argparse
 import sys
 from pathlib import Path
 
-from kb import (ROOT, alias_map, build_edges, edtf_year_range, load_entities, log_query,
-                read_frontmatter, regions_of, resolve, search_entities)
+from kb import (ROOT, alias_map, build_edges, century_of_year, edtf_year_range, load_entities, log_query,
+                load_region_history, read_frontmatter, regions_of, resolve, search_entities)
 
 
 def summarize(meta):
@@ -91,6 +91,7 @@ def main():
 
     entities, _ = load_entities()
     edges = build_edges(entities)
+    region_history = load_region_history()
 
     if a.search:
         hits = search_entities(a.search, entities)
@@ -118,7 +119,8 @@ def main():
         title = f"{entities[a.center]['label_ja']}（{a.depth}ホップ）"
     elif a.region:
         ids = sorted(i for i, m in entities.items()
-                     if m.get("type") == "movement" and a.region in regions_of(i, entities))
+                     if m.get("type") == "movement"
+                     and a.region in regions_of(i, entities, region_history))
         title = f"文化圏 {a.region}"
     elif a.century:
         ids = []
@@ -126,7 +128,7 @@ def main():
             if m.get("type") != "movement":
                 continue
             lo, _ = edtf_year_range((m.get("time") or {}).get("start"))
-            if lo and lo // 100 + 1 == a.century:
+            if lo is not None and century_of_year(lo) == a.century:
                 ids.append(i)
         ids.sort()
         title = f"{a.century}世紀に始まる movement"

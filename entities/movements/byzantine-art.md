@@ -183,15 +183,15 @@ TheArtStoryと（WebSearch経由で確認した）Britannica系の記述もい�
 明記しており、後期（パレオロゴス朝期）に至るまでコンスタンティノープルが制作の中心地であり
 続けたことを個別の作例からも確認できる。
 
-`place/istanbul`は既存のスタブで、現時点では[movement/ottoman-miniature](ottoman-miniature.md)
-（オスマン朝細密画、1453年以降）の発生地としてのみ参照されており、`region`は`mena`
+`place/istanbul`は既存のスタブで、[movement/ottoman-miniature](ottoman-miniature.md)
+（オスマン朝細密画、1453年以降）と本項目の発生地として参照されており、基準 `region` は`mena`
 （中東・北アフリカ）に設定されている。一方`config/regions.yaml`は`europe-east`バケットを
 「中東欧・ロシア・ビザンツ圏」と定義しており、ビザンティン美術という対象そのものの文化圏としては
-`europe-east`が本来意図されている区分に見える。**同一の場所（コンスタンティノープル／
+`europe-east`が本来意図されている区分に見える。同一の場所（コンスタンティノープル／
 イスタンブール）が、担った movement（オスマン朝細密画かビザンティン美術か）によって異なる文化圏に
-属して見えるという構造的な食い違いがある。** `place`の`region`は場所ごとに1値しか持てない設計
-（`docs/schema.md`）であり、本項目はこの食い違いを`place/istanbul`側の変更によって解消することは
-せず、次に扱う調査への申し送りとして`## 未着手`に残す。
+属して見えるという構造的な食い違いがある。`place`の`region`は場所ごとに1値しか持てない設計
+（`docs/schema.md`）なので、`config/place-region-history.yaml` の `0330`〜`1453` 区間を
+本項目の開始時期に適用し、集計上は `europe-east` として扱う。
 
 ## 未着手
 
@@ -211,11 +211,8 @@ TheArtStoryと（WebSearch経由で確認した）Britannica系の記述もい�
   baghdad-school-of-illustration.md（「ビザンツ・ペルシア・アラブの要素を巧みに融合した意匠」と
   記述）も本文でビザンティン美術に言及しているが、`## 未着手`に明示の待ち状態としては記載されて
   いない。関係を張るかどうかの判断は各ファイル側に委ねる
-- `place/istanbul`の`region`が`mena`のままで、`config/regions.yaml`が定義する`europe-east`
-  （中東欧・ロシア・ビザンツ圏）との食い違いが残る（`## 空間`参照）。また`place/istanbul`には
-  `former_names`（コンスタンティノープル）がまだ無い——`docs/schema.md`の`former_names`節が
-  「コンスタンティノープル／イスタンブール」を同一場所・別名の典型例として明示しているが、
-  本タスクの範囲外のため`place/istanbul`自体は編集していない
+- `place/istanbul`の期間辞書はビザンティン期とオスマン期の大きな区分だけを持つ。都市の文化圏が
+  さらに細かく変わる例が見つかった場合は、同じ辞書に区間を追加する（場所エンティティは分割しない）。
 - クレタ派（Cretan School、16〜17世紀、ポスト・ビザンティンの継続、エル・グレコを輩出）を
   独立のmovementとして立てるかどうか——`## 時間`で触れた終期の様式的な継続を、別エンティティとして
   切り出すか本項目の記述に留めるかは未着手

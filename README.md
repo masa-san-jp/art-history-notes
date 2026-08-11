@@ -39,7 +39,7 @@ data/              生成物（graph / coverage / context vectors / context simi
 
 ## 3軸をどう持っているか
 
-- **時間** — `time.start` / `end` は **EDTF**（`146X`＝1460年代／`1500~`＝およそ／`..`＝継続中／
+- **時間** — `time.start` / `end` は **EDTF**（`-0900`＝紀元前900年／`146X`＝1460年代／`1500~`＝およそ／`..`＝継続中／
   `null`＝不明）。不明を推測で埋めない。原表記（元号・王朝名）は `display` に残す。
 - **空間** — `space` に役割付きの場所参照（`originated_in` / `created_in` / `held_at` / `active_in`…）。
   `place` は文化圏（`region`）と座標を必ず持つので、「1885年に半径◯kmで何が起きていたか」を引ける。

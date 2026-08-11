@@ -1,0 +1,17 @@
+# 場所ごとの期間付き文化圏辞書。
+# 区間は [start, end): start は含み、end は含まない。end: ".." は開放端。
+# ここでの region は movement の起源時期を集計するための文化圏バケットであり、
+# place エンティティ自体を時代ごとに分割するものではない。
+
+places:
+  place/istanbul:
+    - start: "0330"
+      end: "1453"
+      region: europe-east
+      source: https://www.wikidata.org/wiki/Q406
+      note: コンスタンティノープルとして東ローマ帝国の首都だった期間
+    - start: "1453"
+      end: ".."
+      region: mena
+      source: https://www.wikidata.org/wiki/Q406
+      note: オスマン朝以後のイスタンブール／コンスタンティノープル
