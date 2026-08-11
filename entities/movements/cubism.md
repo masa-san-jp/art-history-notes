@@ -220,10 +220,6 @@ gradually flooded everything）」という言葉が複数の二次資料で引�
   している（Getty AAT 300021394のscope noteが"influenced by French Cubism and Italian
   Futurism"と明記）。関係は受け取った側（cubo-futurism側）に書く規約のため、本項からは張らない。
   cubo-futurism.md側の追記を待つ
-- バンドン派（[movement/bandung-school](bandung-school.md)）の本文が、第一世代の様式を
-  「フォーヴィスムとキュビスムの中間に位置するフランスの画家ジャック・ヴィヨンの様式を継承した」
-  と記述している。これも受け取った側（bandung-school側）に書く関係のため、本項からは張らない。
-  bandung-school.md側の追記を待つ
 - 抽象表現主義（[movement/abstract-expressionism](abstract-expressionism.md)）の`## 未着手`が
   「総合的キュビスムとの`influenced_by`関係——Getty AATのscope noteが直接的な典拠だが、この
   movement自体がこのKBにまだ無いため」と本項の不在を明記して待っている。本項が立ったことで、

@@ -30,6 +30,7 @@ space:
   - {role: originated_in, target: place/baghdad}
 relations:
   - {type: created_by, target: person/shakir-hassan-al-said}
+  - {type: influenced_by, target: movement/baghdad-school-of-illustration, certainty: scholarly, source: "https://doi.org/10.1163/22118993_03501P010"}
 sources:
   - https://www.wikidata.org/wiki/Q16123956
   - https://www.wikidata.org/wiki/Q2720307
@@ -134,6 +135,17 @@ Art Group）が当事者の自称の直訳であり、後付けで別の名前�
 結成の自発性（自ら組織し、自ら宣言文を書き、自ら名乗った）についての証拠がそろっており、
 `self-declared` とした。狩野派型の師弟継承や、浙派型の後付けの括りとは異なり、**特定の年に
 特定の場で読み上げられた宣言文**という自称の核がある点が判断の軸になっている。
+
+## バグダード派細密画との関係
+
+[バグダード派細密画](baghdad-school-of-illustration.md)に `influenced_by` を張った。ここでいう
+影響は、写本挿絵の筆致がそのまま近代美術グループへ移ったという意味ではない。グループが、
+モンゴル侵攻後に断絶したとみなしたイラクの絵画的伝統を再発見し、そこから現代のイラク美術の
+アイデンティティを組み立てようとした、という歴史認識・制作方針の影響である。Al-Bahloly は、
+ジャワード・サリームがヤヒヤー・アル=ワースィティーの挿絵を含む失われた中世の伝統に再遭遇した
+ことが、イラクにおける近代美術の実践の基盤になったと論じている（[“History Regained”]
+(https://doi.org/10.1163/22118993_03501P010)、*Muqarnas* 35(1), 2018, pp. 229–272）。
+本項目の宣言文にある「遺産からの着想」は、この研究が示す経路と整合する。
 
 ## 時間
 

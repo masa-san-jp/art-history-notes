@@ -32,6 +32,7 @@ space:
   - {role: originated_in, target: place/bandung}
 relations:
   - {type: created_by, target: person/ries-mulder}
+  - {type: influenced_by, target: movement/cubism, certainty: scholarly, source: "https://doi.org/10.54154/dekonstruksi.v11i01.289"}
 sources:
   - https://www.wikidata.org/wiki/Q65214081
   - https://id.wikipedia.org/wiki/Mazhab_Bandung_(seni)
@@ -41,6 +42,7 @@ sources:
   - https://en.wikipedia.org/wiki/Bandung_Institute_of_Technology
   - https://www.itb.ac.id/history
   - https://en.wikipedia.org/wiki/Mochtar_Apin
+  - https://doi.org/10.54154/dekonstruksi.v11i01.289
 status: draft
 updated: 2026-08-09
 ---
@@ -171,6 +173,19 @@ Wikidata上の呼称「Mazhab Bandung」自体がいつ・誰によって、批�
 
 `originated_in`は[place/bandung](../places/bandung.md)とした。バンドン工科大学の前身にあたる
 美術教員養成課程が置かれた都市であり、参照した二次資料すべてがバンドンを発祥地として扱う。
+
+## キュビスムとの関係
+
+[キュビスム](cubism.md)に `influenced_by` を張った。ここで確認できるのは、ヨーロッパの
+キュビスムがバンドン派全体へ直接移植されたという単純な経路ではなく、オランダ人教師リース・
+ミュルダーを介した様式の伝達である。バンドン派の初期作品は、ミュルダーが好んだフランスの画家
+ジャック・ヴィヨンの幾何学的キュビスムを受け継いだと説明されている。さらに、同派の学生だった
+アフマド・サダリについて、ミュルダーの指導下で作られた1950年代の作品に「ヴィヨン風のキュビスム」
+が現れ、1960年代にはその特徴が薄れたと論じられている（[Seno Joko Suyono, “Ahmad Sadali
+Perintis Seni Lukis Abstrak Indonesia”]
+(https://doi.org/10.54154/dekonstruksi.v11i01.289)、2025年）。
+したがって、関係の実体は「キュビスムの語彙が教師の制作・教育を通って、バンドン派初期作品に
+取り込まれた」という限定された影響であり、後期世代の全作品に一律に当てはめない。
 
 ## 未着手
 
