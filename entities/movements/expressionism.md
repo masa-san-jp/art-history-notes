@@ -27,11 +27,13 @@ claims:
   - {field: kind, source: "https://www.wikidata.org/wiki/Q80113", certainty: scholarly}
 space:
   - {role: originated_in, target: place/dresden}
-relations: []
+relations:
+  - {type: influenced_by, target: movement/symbolism, certainty: scholarly, source: "https://www.moma.org/documents/moma_catalogue_1702_300298262.pdf"}
 sources:
   - https://www.wikidata.org/wiki/Q80113
   - https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300021502
   - https://www.moma.org/collection/terms/expressionism
+  - https://www.moma.org/documents/moma_catalogue_1702_300298262.pdf
 status: draft
 updated: 2026-08-12
 ---
@@ -51,6 +53,13 @@ updated: 2026-08-12
 
 Die Brücke が1905年に結成されたドレスデンを初期形成地の代表ノードとする。ベルリン、ミュンヘン、ウィーン、
 パリなどへの移動と受容は別の `active_in`／`diffused_to` 関係として追加する。
+
+## 象徴主義からの形成的な接続
+
+ニューヨーク近代美術館の象徴主義展カタログは、象徴主義・アール・ヌーヴォー・ユーゲントシュティールが
+20世紀の表現主義を含む運動の基盤を提供し、象徴主義による色彩の表現的な探究が表現主義への道を開いたと
+整理している。ここでの `influenced_by` は、ドイツ表現主義の形成期における色彩・内面表現・象徴的主題の
+継承を示すもので、後続の国際的な表現主義すべてを単一の系譜に還元するものではない。
 
 ## 未着手
 
