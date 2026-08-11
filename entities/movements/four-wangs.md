@@ -30,6 +30,7 @@ space:
   - {role: originated_in, target: place/taicang}
 relations:
   - {type: taught_by, target: person/dong-qichang, source: "https://zh.wikipedia.org/wiki/%E7%8E%8B%E6%97%B6%E6%95%8F"}
+  - {type: influenced_by, target: movement/literati-painting, certainty: scholarly, source: "https://www.shanghaimuseum.net/mu/frontend/pg/article/id/RI00004055"}
 sources:
   - https://www.wikidata.org/wiki/Q3099098
   - https://zh.wikipedia.org/wiki/%E5%9B%9B%E7%8E%8B
@@ -42,6 +43,8 @@ sources:
   - https://www.wikidata.org/wiki/Q711481
   - https://www.wikidata.org/wiki/Q716222
   - https://www.wikidata.org/wiki/Q716338
+  - https://www.kyohaku.go.jp/old/eng/theme/floor2_5/past/chinese_20150512.html
+  - https://www.shanghaimuseum.net/mu/frontend/pg/article/id/RI00004055
 images:
   - url: https://www.artic.edu/iiif/2/d2c1e32e-f890-a12a-19e0-f8d638d19bdf/full/843,/0/default.jpg
     source_page: https://www.artic.edu/artworks/86233
@@ -109,6 +112,15 @@ painters such as Bada Shanren and Shitao」（八大山人・石濤ら『個性�
 （<https://en.wikipedia.org/wiki/Four_Wangs>）。中国語版「四王」も「『四王』遵从晚明董其昌的
 『南北宗論』，倾心师古，精研笔墨，追求文人画意趣」（四王は明末・董其昌の南北宗論に従い、
 古人に学ぶことに専心し、筆墨を精研し、文人画の趣を追求した）と明記する。
+
+上海博物館は、清初の四王が董其昌の画風と画論に深く影響され、清代絵画の正統派になったと説明している。
+また京都国立博物館も、四王が正統的な山水画様式を確立したと位置づける。ここでいう関係は、四王の
+4人が士大夫の余技として描いたという意味ではない——彼らは宮廷にも仕えた専門画家である——が、
+董其昌が整理した文人画・南宗の理論と古典主義的な画法を受け継いだ、清代の正統派としての系譜を指す。
+
+このため、受け取り側である[四王](four-wangs.md)から[文人画](literati-painting.md)へ
+`influenced_by` を張った。既存の董其昌個人への `taught_by` とは別に、人物ではなく理論・様式の
+まとまりを接続する関係である。
 
 王翬・王原祁はそれぞれ独自の一派を立てた。王翬は「王翬從學弟子甚多，是『虞山派』的創始人」
 （王翬は学んだ弟子が非常に多く、虞山派の創始者である）。王時敏については「王時敏開創了山水畫
