@@ -27,7 +27,8 @@ claims:
   - {field: originated_in, source: "https://www.wikidata.org/wiki/Q2876208", certainty: scholarly}
 space:
   - {role: originated_in, target: place/veliky-novgorod}
-relations: []
+relations:
+  - {type: influenced_by, target: movement/byzantine-art, certainty: scholarly, source: "https://gallerix.ru/pedia/history-of-art--novgorod-school-icon-painting/"}
 sources:
   - https://www.wikidata.org/wiki/Q2876208
   - https://www.wikidata.org/wiki/Q151536
@@ -208,6 +209,15 @@ Wikidata Q2876208の`P276`（location）が同項目を指し、ここで挙げ�
 ノヴゴロドから分離した別の派として扱われる（ロシア語版Wikipedia「Новгородская школа
 （древнерусское искусство）」）ため、本項目の空間からは除外した——ただしイコン画に限定した
 分離の時期・実体は本項目では未確認のまま残す。
+
+## ビザンティン美術との関係
+
+ノヴゴロド派は、ビザンティン美術をそのまま複製したものではなく、東方正教会の図像とイコン制作の
+規範を受け取りながら、ノヴゴロド固有の色彩・平坦な形態・リズムへ変換した地域的な様式である。
+WikidataのQ2876208は「Byzantine art」を`P737`（influenced by）に挙げ、Gallerixの解説も、
+ノヴゴロドの画家がビザンティンの伝統の中で制作しつつ、地域固有の表現を発展させたと説明する。
+したがって本関係は、**ビザンティンの図像・宗教画の伝統を基盤とする形成的影響**を示すものであり、
+各時期のノヴゴロド絵画がコンスタンティノープルから直接輸入されたという意味ではない。
 
 ## 未着手
 
