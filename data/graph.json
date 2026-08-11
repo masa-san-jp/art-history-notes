@@ -2473,6 +2473,12 @@
         {
           "type": "created_by",
           "target": "person/yahia-turki"
+        },
+        {
+          "type": "influenced_by",
+          "target": "movement/realism",
+          "certainty": "scholarly",
+          "source": "https://mathaf.org.qa/en/encyclopedia/artists-biographies/safia-farhat/"
         }
       ],
       "sources": [
@@ -2482,6 +2488,7 @@
         "https://en.wikipedia.org/wiki/Yahia_Turki",
         "https://harissa.com/news555/fr/pierre-boucherle-fondateur-de-lecole-de-tunis",
         "https://www.fikerinstitute.org/publications/lecole-de-tunis-the-arts-in-post-independence-tunisia",
+        "https://mathaf.org.qa/en/encyclopedia/artists-biographies/safia-farhat/",
         "https://fr.wikipedia.org/wiki/Moses_Levy",
         "http://www.jules-lellouche.fr/biographie.html",
         "https://en.wikipedia.org/wiki/Antonio_Corpora",
@@ -13407,6 +13414,13 @@
     },
     {
       "from": "movement/ecole-de-tunis",
+      "type": "influenced_by",
+      "to": "movement/realism",
+      "certainty": "scholarly",
+      "source": "https://mathaf.org.qa/en/encyclopedia/artists-biographies/safia-farhat/"
+    },
+    {
+      "from": "movement/ecole-de-tunis",
       "type": "originated_in",
       "to": "place/tunis"
     },
@@ -14901,6 +14915,12 @@
     {
       "from": "person/yahia-turki",
       "type": "created",
+      "to": "movement/ecole-de-tunis",
+      "derived": true
+    },
+    {
+      "from": "movement/realism",
+      "type": "influenced",
       "to": "movement/ecole-de-tunis",
       "derived": true
     },
