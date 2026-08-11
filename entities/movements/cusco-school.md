@@ -26,7 +26,8 @@ claims:
   - {field: kind, source: "https://en.wikipedia.org/wiki/Cusco_school", certainty: scholarly}
 space:
   - {role: originated_in, target: place/cusco}
-relations: []
+relations:
+  - {type: influenced_by, target: movement/baroque, certainty: scholarly, source: "https://ojs.tnkul.pl/index.php/rh/article/view/7120"}
 founding_control: external
 control_changes:
   - {year: "1688", to: shared, trigger: "画家組合（gremio de pintores）内の対立の末、先住民系・メスティーソの画家たちがスペイン系画家と共有していた組合から離脱し、独立した工房で制作するようになったとされる（通説。ただしこの因果関係自体の史料的根拠の薄さが査読研究で指摘されている。本文参照）"}
@@ -34,6 +35,7 @@ sources:
   - https://www.wikidata.org/wiki/Q3108623
   - https://www.getty.edu/vow/AATFullDisplay?find=&place=&nation=&logic=&note=&role=&subjectid=300018086
   - https://en.wikipedia.org/wiki/Cusco_school
+  - https://ojs.tnkul.pl/index.php/rh/article/view/7120
   - https://estudiosindianos.up.edu.pe/en/indias-glossary/escuela-cuzquena/
   - https://en.wikipedia.org/wiki/Basilio_Santa_Cruz_Pumacallao
   - https://www.metmuseum.org/art/collection/search/764091
@@ -137,6 +139,13 @@ Letras」欄）に寄稿した一般向け記事だったことを史料的に�
 だが主題は一貫して宗教画に限定され、庇護者（カトリック教会・司教）と制作の場（クスコおよび周辺の
 教会・大聖堂）も一貫している。狩野派・土佐派のように「一つの画風が工房を通じて保たれる」構造では
 なく、**副王領ペルーという統治期間の枠内で、担い手（画家）が交代しながら様式が推移する**構造である。
+
+17世紀半ばのスルバラン／テネブリスム経由のバロック的な明暗表現は、クスコ派の一局面として
+記録する。University of Lodzの査読誌論文もクスコ派をバロック絵画・植民地美術の文脈で扱っている
+（[Kubiak「Cuzco School Painting」](https://ojs.tnkul.pl/index.php/rh/article/view/7120)）。
+したがって本項の `influenced_by movement/baroque` は、この植民地期の形成・展開層に限定した関係であり、
+17世紀末以降の遠近法を欠く金泥中心の独自様式や、18世紀の量産的な作例まで一律に欧州バロックと
+同一視するものではない。
 
 ### 名称について — 当事者の自称ではない
 

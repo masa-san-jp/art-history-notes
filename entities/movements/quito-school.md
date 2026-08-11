@@ -27,12 +27,14 @@ claims:
 founding_control: external   # 本文「kind の判定」および「founding_control の判定」参照
 space:
   - {role: originated_in, target: place/quito}
-relations: []
+relations:
+  - {type: influenced_by, target: movement/baroque, certainty: scholarly, source: "https://www.encyclopedia.com/humanities/encyclopedias-almanacs-transcripts-and-maps/quito-school-art"}
 sources:
   - https://www.wikidata.org/wiki/Q7272667
   - https://www.getty.edu/vow/AATFullDisplay?find=&place=&nation=&logic=&note=&role=&subjectid=300107841
   - https://en.wikipedia.org/wiki/Quito_school
   - https://es.wikipedia.org/wiki/Escuela_Quite%C3%B1a
+  - https://www.encyclopedia.com/humanities/encyclopedias-almanacs-transcripts-and-maps/quito-school-art
   - https://www.encyclopedia.com/humanities/encyclopedias-almanacs-transcripts-and-maps/quito-school-sculpture
   - https://www.scielo.org.mx/scielo.php?script=sci_arttext&pid=S0185-12762014000200010
   - https://cvc.cervantes.es/artes/ciudades_patrimonio/quito/personalidades/goribar.htm
@@ -86,6 +88,12 @@ imaginería）が特色で、頭部・手・胴体を分業で仕上げる制作
 書評は「伝統的にミゲル・デ・サンティアゴの弟子とされる」("traditionally considered the
 apprentice of Miguel de Santiago") と留保付きで書いており、師弟関係の確からしさの評価は
 出典間で温度差がある）。
+
+Encyclopedia of Latin American History and Culture は、キト派が欧州バロックおよびプラテレスクの
+様式と先住民の構成を混ぜたものだと説明する（[Encyclopedia.com「Quito School of Art」](https://www.encyclopedia.com/humanities/encyclopedias-almanacs-transcripts-and-maps/quito-school-art)）。
+したがって本項の `influenced_by movement/baroque` は、16〜18世紀の形成期・最盛期における
+欧州バロック語彙の受容を指し、ルネサンス／マニエリスムや後期ロココ・新古典主義を含むキト派の
+全期間をバロックへ還元するものではない。
 
 ## kind の判定 — なぜ `period-style` か
 
