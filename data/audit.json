@@ -3,7 +3,7 @@
     {
       "kind": "no-cross-region",
       "about": "all",
-      "text": "他の文化圏の movement と1本も繋がっていない movement が 58/86 件。時間だけでなく空間の広がりを体系化するので、影響・伝播・反発を調べる余地"
+      "text": "他の文化圏の movement と1本も繋がっていない movement が 57/86 件。時間だけでなく空間の広がりを体系化するので、影響・伝播・反発を調べる余地"
     },
     {
       "kind": "no-cross-region",
@@ -47,11 +47,6 @@
     },
     {
       "kind": "no-cross-region",
-      "about": "europe-east",
-      "text": "europe-east: 4件（ビザンティン美術、ノヴゴロド派、移動派、シュプレマティスム）"
-    },
-    {
-      "kind": "no-cross-region",
       "about": "europe-west",
       "text": "europe-west: 4件（ダダ、新印象派、シエナ派、ヴェネツィア派）"
     },
@@ -59,6 +54,11 @@
       "kind": "no-cross-region",
       "about": "asia-southeast",
       "text": "asia-southeast: 4件（インドシナ漆絵画（ソンマイ）、ピタ・マハ、ラッタナコーシン様式壁画、ザ・サーティーン・モダンズ）"
+    },
+    {
+      "kind": "no-cross-region",
+      "about": "europe-east",
+      "text": "europe-east: 3件（ノヴゴロド派、移動派、シュプレマティスム）"
     },
     {
       "kind": "no-cross-region",

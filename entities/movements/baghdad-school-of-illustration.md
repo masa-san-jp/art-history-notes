@@ -27,8 +27,10 @@ claims:
   - {field: originated_in, source: "https://www.wikidata.org/wiki/Q17001345", certainty: scholarly}
 space:
   - {role: originated_in, target: place/baghdad}
-relations: []
+relations:
+  - {type: influenced_by, target: movement/byzantine-art, certainty: scholarly, source: "https://www.metmuseum.org/met-publications/masterpieces-from-the-department-of-islamic-art-in-the-metropolitan-museum-of-art"}
 sources:
+  - https://www.metmuseum.org/met-publications/masterpieces-from-the-department-of-islamic-art-in-the-metropolitan-museum-of-art
   - https://www.wikidata.org/wiki/Q17001345
   - https://www.wikidata.org/wiki/Q1530
   - https://www.wikidata.org/wiki/Q472751
@@ -213,6 +215,15 @@ individualized faces」、直接ページ取得は403で不可）によれば、
 `influenced_by`（target: 本エンティティ、certainty: scholarly）を追記し、`herat-school.md`本文にも
 この2段階の根拠を1段落加えた（本タスクの範囲外だが、`docs/investigation-task.md`が許可する例外
 として実施）。
+
+## ビザンティン美術との関係
+
+バグダード派の挿絵は、ビザンティン・ペルシア・アラブの特徴を融合した視覚語彙として記述される。
+メトロポリタン美術館のイスラーム美術部門のカタログも、バグダード派の典型としてビザンティンと
+アラブの特徴を挙げている。ここでの関係は、バグダードの写本工房がビザンティン作品を一律に模写した
+という意味ではなく、**イスラーム世界の写本制作へ取り込まれたビザンティン系の図像・表現要素**を
+示す。ペルシア系・アラブ系の要素と併存し、バグダード派固有の世俗的主題や個別化された人物表現へ
+再構成された点を含めて扱う。
 
 ## 未着手
 

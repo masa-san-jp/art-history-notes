@@ -804,8 +804,16 @@
           "target": "place/baghdad"
         }
       ],
-      "relations": [],
+      "relations": [
+        {
+          "type": "influenced_by",
+          "target": "movement/byzantine-art",
+          "certainty": "scholarly",
+          "source": "https://www.metmuseum.org/met-publications/masterpieces-from-the-department-of-islamic-art-in-the-metropolitan-museum-of-art"
+        }
+      ],
       "sources": [
+        "https://www.metmuseum.org/met-publications/masterpieces-from-the-department-of-islamic-art-in-the-metropolitan-museum-of-art",
         "https://www.wikidata.org/wiki/Q17001345",
         "https://www.wikidata.org/wiki/Q1530",
         "https://www.wikidata.org/wiki/Q472751",
@@ -4863,7 +4871,14 @@
           "target": "place/veliky-novgorod"
         }
       ],
-      "relations": [],
+      "relations": [
+        {
+          "type": "influenced_by",
+          "target": "movement/byzantine-art",
+          "certainty": "scholarly",
+          "source": "https://gallerix.ru/pedia/history-of-art--novgorod-school-icon-painting/"
+        }
+      ],
       "sources": [
         "https://www.wikidata.org/wiki/Q2876208",
         "https://www.wikidata.org/wiki/Q151536",
@@ -11287,6 +11302,13 @@
     },
     {
       "from": "movement/baghdad-school-of-illustration",
+      "type": "influenced_by",
+      "to": "movement/byzantine-art",
+      "certainty": "scholarly",
+      "source": "https://www.metmuseum.org/met-publications/masterpieces-from-the-department-of-islamic-art-in-the-metropolitan-museum-of-art"
+    },
+    {
+      "from": "movement/baghdad-school-of-illustration",
       "type": "originated_in",
       "to": "place/baghdad"
     },
@@ -11925,6 +11947,13 @@
     },
     {
       "from": "movement/novgorod-school-icon-painting",
+      "type": "influenced_by",
+      "to": "movement/byzantine-art",
+      "certainty": "scholarly",
+      "source": "https://gallerix.ru/pedia/history-of-art--novgorod-school-icon-painting/"
+    },
+    {
+      "from": "movement/novgorod-school-icon-painting",
       "type": "originated_in",
       "to": "place/veliky-novgorod"
     },
@@ -12422,6 +12451,12 @@
       "derived": true
     },
     {
+      "from": "movement/byzantine-art",
+      "type": "influenced",
+      "to": "movement/baghdad-school-of-illustration",
+      "derived": true
+    },
+    {
       "from": "person/ries-mulder",
       "type": "created",
       "to": "movement/bandung-school",
@@ -12713,6 +12748,12 @@
       "from": "person/ferreira-gullar",
       "type": "created",
       "to": "movement/neoconcretismo",
+      "derived": true
+    },
+    {
+      "from": "movement/byzantine-art",
+      "type": "influenced",
+      "to": "movement/novgorod-school-icon-painting",
       "derived": true
     },
     {
