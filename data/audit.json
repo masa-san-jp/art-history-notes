@@ -3,7 +3,7 @@
     {
       "kind": "no-cross-region",
       "about": "all",
-      "text": "他の文化圏の movement と1本も繋がっていない movement が 51/87 件。時間だけでなく空間の広がりを体系化するので、影響・伝播・反発を調べる余地"
+      "text": "他の文化圏の movement と1本も繋がっていない movement が 52/88 件。時間だけでなく空間の広がりを体系化するので、影響・伝播・反発を調べる余地"
     },
     {
       "kind": "no-cross-region",
@@ -32,6 +32,11 @@
     },
     {
       "kind": "no-cross-region",
+      "about": "europe-west",
+      "text": "europe-west: 4件（バウハウス、ダダ、デ・ステイル、新印象派）"
+    },
+    {
+      "kind": "no-cross-region",
       "about": "asia-east-china",
       "text": "asia-east-china: 4件（四王、海上画派、揚州八怪、浙派）"
     },
@@ -49,11 +54,6 @@
       "kind": "no-cross-region",
       "about": "mena",
       "text": "mena: 3件（バグダード近代美術グループ、チュニス派、カージャール絵画）"
-    },
-    {
-      "kind": "no-cross-region",
-      "about": "europe-west",
-      "text": "europe-west: 3件（バウハウス、ダダ、新印象派）"
     },
     {
       "kind": "no-cross-region",

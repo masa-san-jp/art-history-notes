@@ -29,7 +29,8 @@ space:
   - {role: originated_in, target: place/weimar}
   - {role: active_in, target: place/dessau}
   - {role: active_in, target: place/berlin}
-relations: []
+relations:
+  - {type: influenced_by, target: movement/de-stijl, certainty: scholarly, source: "https://www.moma.org/documents/moma_catalogue_1798_300159061.pdf"}
 images:
   - url: "https://commons.wikimedia.org/wiki/Special:FilePath/Anonymous_photograph_of_Bauhaus_masters_on_the_roof_of_the_studio_building,_Bauhaus_Dessau.jpg"
     source_page: "https://commons.wikimedia.org/wiki/File:Anonymous_photograph_of_Bauhaus_masters_on_the_roof_of_the_studio_building,_Bauhaus_Dessau.jpg"
@@ -90,6 +91,13 @@ Bauhaus-Archivは、ヴァルター・グロピウスが1919年4月にワイマ�
 バウハウスは、絵画だけに限定されない学校制度の中で、工房教育、素材研究、建築、舞台、写真、
 タイポグラフィなどを横断した。MoMAは、芸術家・建築家・デザイナーを同じ場に集め、素材と機能を
 実験する教育が後の視覚文化に影響したと整理する。
+
+## デ・ステイルとの関係
+
+デ・ステイルからバウハウスへの影響を記録する。MoMAの展覧会カタログは、ファン・ドゥースブルフの
+ワイマールでの講義、デ・ステイルの直交的な構成、タイポグラフィや家具への波及を、バウハウスとの
+具体的な接点として論じている。ただし、バウハウスはデ・ステイルの幾何学的抽象をそのまま継承した
+のではなく、機能・素材・工房教育の統合へ展開した。
 
 この本文では、特定の教員や作品を「バウハウスの代表」として関係線に固定していない。誰がどの時期に
 どの校舎・工房で何を教え、どの作品が学校の実践を示すかは、人物・組織・作品の典拠を揃えてから追加する。
