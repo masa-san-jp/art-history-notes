@@ -2629,11 +2629,19 @@
           "target": "place/paris"
         }
       ],
-      "relations": [],
+      "relations": [
+        {
+          "type": "influenced_by",
+          "target": "movement/post-impressionism",
+          "certainty": "scholarly",
+          "source": "https://www.metmuseum.org/ja/essays/fauvism"
+        }
+      ],
       "sources": [
         "https://www.wikidata.org/wiki/Q166593",
         "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300021300",
-        "https://shop.tate.org.uk/derain-the-pool-of-london/andder1703.html"
+        "https://shop.tate.org.uk/derain-the-pool-of-london/andder1703.html",
+        "https://www.metmuseum.org/ja/essays/fauvism"
       ],
       "status": "draft",
       "updated": "2026-08-12",
@@ -13524,6 +13532,13 @@
     },
     {
       "from": "movement/fauvism",
+      "type": "influenced_by",
+      "to": "movement/post-impressionism",
+      "certainty": "scholarly",
+      "source": "https://www.metmuseum.org/ja/essays/fauvism"
+    },
+    {
+      "from": "movement/fauvism",
       "type": "originated_in",
       "to": "place/paris"
     },
@@ -15082,6 +15097,12 @@
       "from": "movement/realism",
       "type": "influenced",
       "to": "movement/ecole-de-tunis",
+      "derived": true
+    },
+    {
+      "from": "movement/post-impressionism",
+      "type": "influenced",
+      "to": "movement/fauvism",
       "derived": true
     },
     {
