@@ -1978,7 +1978,14 @@
           "target": "place/cusco"
         }
       ],
-      "relations": [],
+      "relations": [
+        {
+          "type": "influenced_by",
+          "target": "movement/baroque",
+          "certainty": "scholarly",
+          "source": "https://ojs.tnkul.pl/index.php/rh/article/view/7120"
+        }
+      ],
       "founding_control": "external",
       "control_changes": [
         {
@@ -1991,6 +1998,7 @@
         "https://www.wikidata.org/wiki/Q3108623",
         "https://www.getty.edu/vow/AATFullDisplay?find=&place=&nation=&logic=&note=&role=&subjectid=300018086",
         "https://en.wikipedia.org/wiki/Cusco_school",
+        "https://ojs.tnkul.pl/index.php/rh/article/view/7120",
         "https://estudiosindianos.up.edu.pe/en/indias-glossary/escuela-cuzquena/",
         "https://en.wikipedia.org/wiki/Basilio_Santa_Cruz_Pumacallao",
         "https://www.metmuseum.org/art/collection/search/764091",
@@ -6202,12 +6210,20 @@
           "target": "place/quito"
         }
       ],
-      "relations": [],
+      "relations": [
+        {
+          "type": "influenced_by",
+          "target": "movement/baroque",
+          "certainty": "scholarly",
+          "source": "https://www.encyclopedia.com/humanities/encyclopedias-almanacs-transcripts-and-maps/quito-school-art"
+        }
+      ],
       "sources": [
         "https://www.wikidata.org/wiki/Q7272667",
         "https://www.getty.edu/vow/AATFullDisplay?find=&place=&nation=&logic=&note=&role=&subjectid=300107841",
         "https://en.wikipedia.org/wiki/Quito_school",
         "https://es.wikipedia.org/wiki/Escuela_Quite%C3%B1a",
+        "https://www.encyclopedia.com/humanities/encyclopedias-almanacs-transcripts-and-maps/quito-school-art",
         "https://www.encyclopedia.com/humanities/encyclopedias-almanacs-transcripts-and-maps/quito-school-sculpture",
         "https://www.scielo.org.mx/scielo.php?script=sci_arttext&pid=S0185-12762014000200010",
         "https://cvc.cervantes.es/artes/ciudades_patrimonio/quito/personalidades/goribar.htm",
@@ -13303,6 +13319,13 @@
     },
     {
       "from": "movement/cusco-school",
+      "type": "influenced_by",
+      "to": "movement/baroque",
+      "certainty": "scholarly",
+      "source": "https://ojs.tnkul.pl/index.php/rh/article/view/7120"
+    },
+    {
+      "from": "movement/cusco-school",
       "type": "originated_in",
       "to": "place/cusco"
     },
@@ -14023,6 +14046,13 @@
       "from": "movement/qajar-painting",
       "type": "originated_in",
       "to": "place/tehran"
+    },
+    {
+      "from": "movement/quito-school",
+      "type": "influenced_by",
+      "to": "movement/baroque",
+      "certainty": "scholarly",
+      "source": "https://www.encyclopedia.com/humanities/encyclopedias-almanacs-transcripts-and-maps/quito-school-art"
     },
     {
       "from": "movement/quito-school",
@@ -14879,6 +14909,12 @@
       "derived": true
     },
     {
+      "from": "movement/baroque",
+      "type": "influenced",
+      "to": "movement/cusco-school",
+      "derived": true
+    },
+    {
       "from": "movement/mono-ha",
       "type": "influenced",
       "to": "movement/dansaekhwa",
@@ -15230,6 +15266,12 @@
       "from": "movement/realism",
       "type": "influenced",
       "to": "movement/qajar-painting",
+      "derived": true
+    },
+    {
+      "from": "movement/baroque",
+      "type": "influenced",
+      "to": "movement/quito-school",
       "derived": true
     },
     {
