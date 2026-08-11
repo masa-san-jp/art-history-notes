@@ -27,7 +27,8 @@ claims:
   - {field: kind, source: "https://www.wikidata.org/wiki/Q14378", certainty: scholarly}
 space:
   - {role: originated_in, target: place/rome}
-relations: []
+relations:
+  - {type: influenced_by, target: movement/renaissance, certainty: scholarly, source: "https://www.metmuseum.org/fr/essays/neoclassicism"}
 sources:
   - https://www.wikidata.org/wiki/Q14378
   - https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300021474
@@ -51,6 +52,13 @@ updated: 2026-08-12
 
 ローマを重要な形成地として `originated_in` に置くが、パリ、ロンドン、ベルリンなどでも制度と制作が展開した。
 終点は19世紀の地域差を残して `18XX` とした。
+
+## ルネサンスを介した古典回帰
+
+メトロポリタン美術館は、ラファエロからプッサン、クロード・ロランに至るルネサンスの達成が、調和・
+単純性・比例への新たな関心を媒介し、その関心が考古学の進展によって強まったと説明する。ここでの
+`influenced_by` は、ルネサンスの古典理解と作品・理論の蓄積が新古典主義の古代回帰を媒介した経路を示し、
+両者の様式を同一視するものではない。
 
 ## 未着手
 
