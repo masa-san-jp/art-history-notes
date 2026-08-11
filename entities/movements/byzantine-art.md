@@ -55,7 +55,7 @@ images:
     license: cc0
     note: "《聖母エレウーサの携帯用イコン》14世紀初頭。木製パネルに蝋で象嵌したミニアチュール・モザイク（金・多色石・鍍金銅）。メトロポリタン美術館蔵、制作地は「probably Constantinople（おそらくコンスタンティノープル）」と明記される（isPublicDomain: true）。パレオロゴス朝期（後期ビザンティン）の例"
 status: draft
-updated: 2026-08-10
+updated: 2026-08-11
 ---
 
 # ビザンティン美術 / Byzantine art
@@ -195,18 +195,6 @@ TheArtStoryと（WebSearch経由で確認した）Britannica系の記述もい�
 
 ## 未着手
 
-- **novgorod-school-icon-painting.md がこちらを受け取り元として待っている。** 同ファイルの
-  `## 定義と範囲`はWikidataの`P737`（influenced by）が「Byzantine art」と画家フェオファン・グレクを
-  挙げることに言及し、`## kind の判定`でもビザンティン起源の図像プログラムをノヴゴロド派が規範として
-  共有すると記しているが、frontmatterの`relations`は空のままだった（受け取り元が存在しなかった
-  ため）。本項目が立ったことで、同ファイル側に`{type: influenced_by, target:
-  movement/byzantine-art, certainty: scholarly, source: ...}`を追加できる状態になった。
-  **本タスクの範囲外のため、novgorod-school-icon-painting.md自体は編集していない**
-- **sienese-school.md もこちらを受け取り元として待っている。** 同ファイルの`## 未着手`に
-  「ビザンティン美術——このKBにはまだ movement／concept として存在せず、`influenced_by`関係を
-  張ることができなかった」と明記されている（本文はドゥッチョの様式を「ビザンティン美術の影響を
-  示す」と記述済み）。本項目が立ったことで、同ファイル側に`influenced_by`関係を追加できる状態に
-  なった。**こちらも編集していない**
 - venetian-school.md（パオロ・ヴェネツィアーノの様式を「ビザンティン風」と記述）と
   baghdad-school-of-illustration.md（「ビザンツ・ペルシア・アラブの要素を巧みに融合した意匠」と
   記述）も本文でビザンティン美術に言及しているが、`## 未着手`に明示の待ち状態としては記載されて
