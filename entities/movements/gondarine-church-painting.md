@@ -28,7 +28,8 @@ claims:
   - {field: kind, source: "http://www.getty.edu/vow/AATFullDisplay?find=Gondar&logic=AND&note=&english=Y&subjectid=300263018", certainty: scholarly}
 space:
   - {role: originated_in, target: place/gondar}
-relations: []
+relations:
+  - {type: influenced_by, target: movement/byzantine-art, certainty: scholarly, source: "https://www.metmuseum.org/essays/african-christianity-in-ethiopia"}
 sources:
   - http://www.getty.edu/vow/AATFullDisplay?find=Gondar&logic=AND&note=&english=Y&subjectid=300263018
   - https://en.wikipedia.org/wiki/Gondarine_period
@@ -37,6 +38,7 @@ sources:
   - https://www.h-net.org/reviews/showpdf.php?id=11894
   - https://journal.thewalters.org/volume/78/note/ethiopian-icon-paintings/
   - https://www.journal18.org/nq/giulio-romanos-the-little-holy-family-in-africa-identifying-an-18th-century-ethiopian-painting-by-kristen-windmuller-luna/
+  - https://www.metmuseum.org/essays/african-christianity-in-ethiopia
   - https://whc.unesco.org/en/list/19/
 images:
   - url: https://openaccess-cdn.clevelandart.org/2023.4/2023.4_web.jpg
@@ -61,6 +63,12 @@ Getty AAT [300263018](http://www.getty.edu/vow/AATFullDisplay?find=Gondar&logic=
 **AATのこのスコープノートは対象年代を「16世紀半ば〜18世紀半ば」とするが**、これは下記
 「時間」で述べる政治史上のゴンダール朝の年代（1632〜1769年、王都建設は1636年）より半世紀
 以上早く始まる幅を持ち、両者の関係は**未確認**のまま残す。
+
+形成史の広い系譜として、メトロポリタン美術館はエチオピアの教会美術が国際的な接触を通じて新しい
+造形を獲得し、その様式にビザンティンとイタリアのプロトタイプが含まれたと説明する。また17世紀には
+ゴンダールが写本工房と画家工房の中心になったと述べる。本項の `influenced_by` は、ゴンダール期の
+全作品がビザンティンから直接輸入されたという意味ではなく、ゴンダール様式が成立するエチオピア教会
+絵画の長い形成過程にビザンティンの図像・造形語彙が組み込まれていた、という範囲に限定する。
 
 主要な作例として、王都近郊の聖アバ・アントニウス教会の壁画・ディプティク（画家ワルダ・
 マルヤム [Walda Maryam] の署名がある17世紀のディプティクから様式分析により壁画も同筆と
