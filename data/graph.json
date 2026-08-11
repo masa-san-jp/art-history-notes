@@ -7294,6 +7294,12 @@
           "target": "org/thanjavur-maratha-kingdom",
           "certainty": "scholarly",
           "source": "https://en.wikipedia.org/wiki/Thanjavur_painting"
+        },
+        {
+          "type": "influenced_by",
+          "target": "movement/realism",
+          "certainty": "scholarly",
+          "source": "https://imp-art.org/articles/tanjore-painting/"
         }
       ],
       "sources": [
@@ -7302,7 +7308,8 @@
         "https://www.wikidata.org/wiki/Q41496",
         "https://www.wikidata.org/wiki/Q3530610",
         "https://en.wikipedia.org/wiki/Serfoji_II",
-        "https://www.metmuseum.org/art/collection/search/850685"
+        "https://www.metmuseum.org/art/collection/search/850685",
+        "https://imp-art.org/articles/tanjore-painting/"
       ],
       "images": [
         {
@@ -14176,6 +14183,13 @@
     },
     {
       "from": "movement/tanjore-painting",
+      "type": "influenced_by",
+      "to": "movement/realism",
+      "certainty": "scholarly",
+      "source": "https://imp-art.org/articles/tanjore-painting/"
+    },
+    {
+      "from": "movement/tanjore-painting",
       "type": "originated_in",
       "to": "place/thanjavur"
     },
@@ -15281,6 +15295,12 @@
     {
       "from": "org/thanjavur-maratha-kingdom",
       "type": "patronized",
+      "to": "movement/tanjore-painting",
+      "derived": true
+    },
+    {
+      "from": "movement/realism",
+      "type": "influenced",
       "to": "movement/tanjore-painting",
       "derived": true
     },
