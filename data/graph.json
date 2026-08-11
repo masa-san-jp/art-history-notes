@@ -5337,7 +5337,14 @@
           "target": "place/rome"
         }
       ],
-      "relations": [],
+      "relations": [
+        {
+          "type": "influenced_by",
+          "target": "movement/renaissance",
+          "certainty": "scholarly",
+          "source": "https://www.metmuseum.org/fr/essays/neoclassicism"
+        }
+      ],
       "sources": [
         "https://www.wikidata.org/wiki/Q14378",
         "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300021474",
@@ -14060,6 +14067,13 @@
     },
     {
       "from": "movement/neoclassicism",
+      "type": "influenced_by",
+      "to": "movement/renaissance",
+      "certainty": "scholarly",
+      "source": "https://www.metmuseum.org/fr/essays/neoclassicism"
+    },
+    {
+      "from": "movement/neoclassicism",
       "type": "originated_in",
       "to": "place/rome"
     },
@@ -15436,6 +15450,12 @@
       "from": "place/brussels",
       "type": "received",
       "to": "movement/neo-impressionism",
+      "derived": true
+    },
+    {
+      "from": "movement/renaissance",
+      "type": "influenced",
+      "to": "movement/neoclassicism",
       "derived": true
     },
     {
