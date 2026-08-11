@@ -26,13 +26,15 @@ claims:
   - {field: originated_in, source: "https://www.wikidata.org/wiki/Q741512", certainty: scholarly}
 space:
   - {role: originated_in, target: place/hangzhou}
-relations: []
+relations:
+  - {type: influenced_by, target: movement/song-academy-painting, certainty: scholarly, source: "https://www.hkpm.org.hk/en/visit/audio-guide/g4-stories-untold"}
 sources:
   - https://www.wikidata.org/wiki/Q1150941
   - https://ja.wikipedia.org/wiki/%E6%B5%99%E6%B4%BE
   - https://en.wikipedia.org/wiki/Zhe_school_(painting)
   - https://www.wikidata.org/wiki/Q741512
   - https://www.wikidata.org/wiki/Q537211
+  - https://www.hkpm.org.hk/en/visit/audio-guide/g4-stories-untold
 images:
   - url: https://www.artic.edu/iiif/2/7739a403-99b6-d151-c892-e93a0b17e4ef/full/843,/0/default.jpg
     source_page: https://www.artic.edu/artworks/150406
@@ -73,6 +75,16 @@ distinctive style, preferring instead to further the style of the Southern Song"
 (1459-1508、南京で活躍)、王諤、倪端、夏芷（戴進の弟子）。後期は張路(1490-1563?)、鍾礼、
 蒋嵩(1475-1565?)、鄭文林、汪肇、張復陽など。16世紀後期以降の文人批評家からは「狂態邪学」と
 貶められ評価が低かったが、近年再評価されているという（二次情報）。
+
+## 南宋院体画との関係
+
+香港故宮文化博物館は、宮廷で活動した院体画と民間で活動した浙派を別々の担い手として説明しつつ、
+両者の伝統がともに南宋の宮廷絵画にさかのぼるとしている
+（[香港故宮文化博物館](https://www.hkpm.org.hk/en/visit/audio-guide/g4-stories-untold)）。
+同館の整理は、浙派を南宋院体画の単なる同義語とするものではなく、明代の職業画家がその構図・技法の
+伝統を受け継いだという歴史的な系譜を示す。そのため、浙派から宋代の[院体画](song-academy-painting.md)
+へ `influenced_by` を張る。対象となるのは南宋の宮廷画院そのものではなく、そこから継承された画風で
+あり、浙派を宋代の制度の一部とする意味ではない。
 
 **未確認**: これらの担い手個々の一次資料（伝・年譜）には当たっていない。`docs/schema.md` の
 person 作成基準（movement の kind/time/originated_in の根拠になる／2movement を繋ぐ／作品を分解して
