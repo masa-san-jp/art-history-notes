@@ -33,6 +33,7 @@ space:
 relations:
   - {type: created_by, target: person/pierre-boucherle}
   - {type: created_by, target: person/yahia-turki}
+  - {type: influenced_by, target: movement/realism, certainty: scholarly, source: "https://mathaf.org.qa/en/encyclopedia/artists-biographies/safia-farhat/"}
 sources:
   - https://www.wikidata.org/wiki/Q3577825
   - https://fr.wikipedia.org/wiki/%C3%89cole_de_Tunis
@@ -40,6 +41,7 @@ sources:
   - https://en.wikipedia.org/wiki/Yahia_Turki
   - https://harissa.com/news555/fr/pierre-boucherle-fondateur-de-lecole-de-tunis
   - https://www.fikerinstitute.org/publications/lecole-de-tunis-the-arts-in-post-independence-tunisia
+  - https://mathaf.org.qa/en/encyclopedia/artists-biographies/safia-farhat/
   - https://fr.wikipedia.org/wiki/Moses_Levy
   - http://www.jules-lellouche.fr/biographie.html
   - https://en.wikipedia.org/wiki/Antonio_Corpora
@@ -86,6 +88,13 @@ updated: 2026-08-09
 西洋人向けオリエンタリスム絵画（メディナや女性を異国趣味的・牧歌的に描く様式）への対抗という
 文脈である（[leaders.com.tn](https://www.leaders.com.tn/article/37635-l-ecole-de-tunis-1949-modernite-picturale-pluralisme-culturel-et-decolonisation-du-regard)、
 二次情報）。
+
+ただし、この集団を単一の西洋運動へ還元することはできない。Mathaf: Arab Museum of Modern Art は、
+チュニス派のメンバーであるサフィア・ファルハトの1963年頃のチュニジア砂糖会社壁画について、
+社会主義リアリズム（socialist-realist style）から借用した様式と説明している
+（[Mathaf「Safia Farhat」](https://mathaf.org.qa/en/encyclopedia/artists-biographies/safia-farhat/)）。
+したがって本項の `influenced_by movement/realism` は、ファルハトの壁画・社会主義的主題という
+後期の構成要素を、チュニス派の全メンバー・全作品に一般化する関係ではない。
 
 ## kind の判定 — なぜ `self-declared` か
 
