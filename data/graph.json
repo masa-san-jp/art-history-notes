@@ -11807,6 +11807,43 @@
       "status": "verified",
       "updated": "2026-08-08",
       "path": "entities/works/a-sunday-on-la-grande-jatte.md"
+    },
+    "work/spatial-construction-no-12": {
+      "id": "work/spatial-construction-no-12",
+      "uri": "urn:ahn:work/spatial-construction-no-12",
+      "type": "work",
+      "label_ja": "《空間構成 第12番》",
+      "label_en": "Spatial Construction no. 12",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "Wikidata等の作品典拠IDは未確認。MoMA作品番号156.1986を館内識別子として記録"
+      },
+      "time": {
+        "start": "1920~",
+        "end": null,
+        "display": "1920年頃"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/alexander-rodchenko"
+        },
+        {
+          "type": "belongs_to",
+          "target": "movement/constructivism"
+        }
+      ],
+      "sources": [
+        "https://www.moma.org/collection/works/81043",
+        "https://www.moma.org/interactives/exhibitions/1998/rodchenko/texts/spatial_construct.html"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/works/spatial-construction-no-12.md"
     }
   },
   "edges": [
@@ -13240,6 +13277,20 @@
       "to": "org/art-institute-of-chicago"
     },
     {
+      "from": "work/spatial-construction-no-12",
+      "type": "created_by",
+      "to": "person/alexander-rodchenko",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/spatial-construction-no-12",
+      "type": "belongs_to",
+      "to": "movement/constructivism",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "source/seurat-letter-beaubourg-1890",
       "type": "documents",
       "to": "concept/harmony",
@@ -13909,6 +13960,18 @@
       "from": "concept/harmony",
       "type": "depicted_in",
       "to": "work/a-sunday-on-la-grande-jatte",
+      "derived": true
+    },
+    {
+      "from": "person/alexander-rodchenko",
+      "type": "created",
+      "to": "work/spatial-construction-no-12",
+      "derived": true
+    },
+    {
+      "from": "movement/constructivism",
+      "type": "has_member",
+      "to": "work/spatial-construction-no-12",
       "derived": true
     }
   ]
