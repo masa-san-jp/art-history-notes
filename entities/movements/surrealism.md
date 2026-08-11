@@ -27,7 +27,8 @@ claims:
   - {field: originated_in, source: "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300021512", certainty: scholarly}
 space:
   - {role: originated_in, target: place/paris}
-relations: []
+relations:
+  - {type: influenced_by, target: movement/dada, certainty: scholarly, source: "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300021512"}
 sources:
   - https://www.wikidata.org/wiki/Q39427
   - https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300021512
@@ -120,11 +121,16 @@ dreams, in order to create an absolute reality."
 アントロポファジアは「食う」と宣言している。関係語彙を `influenced_by` と `responds_to` で分けたのは
 この違いによる。
 
+## ダダとの関係
+
+シュルレアリスムはダダをそのまま継承した単一の後継運動ではないが、形成期にダダの態度と実験を取り込んだ。
+Getty AAT の scope note は、シュルレアリスムが象徴主義の美学的実験と「ダダの態度」を採用した国際的知的運動だと説明する。
+また、1920年代半ばにパリのダダがシュルレアリスムへ合流した経緯も既存本文に記載されている。
+したがって本関係は、ダダからシュルレアリスムへの態度・実験の受容を示すものであり、
+シュルレアリスムをダダの単純な改名や直線的な継続とみなすものではない。
+
 ## 未着手
 
-- ダダとの `influenced_by`——AAT が scope note で "the attitudes of Dada" を名指しし、Wikidata の
-  `P737`（influenced by）もダダを挙げるが、ダダ自体がこのKBに無いため関係線を張れない。
-  この項目に対して最初に立てるべき隣人はダダである
 - 象徴主義（Symbolism）との関係——同じく AAT が名指しするがKBに無い
 - 形而上絵画（pittura metafisica）との関係——Wikidata `P737` が挙げる。KBに無い
 - 1924年の初版本およびガリカ公開の自筆原稿の本文そのものへの到達。現状の引用は二次情報経由

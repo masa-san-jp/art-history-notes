@@ -6198,7 +6198,14 @@
           "target": "place/paris"
         }
       ],
-      "relations": [],
+      "relations": [
+        {
+          "type": "influenced_by",
+          "target": "movement/dada",
+          "certainty": "scholarly",
+          "source": "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300021512"
+        }
+      ],
       "sources": [
         "https://www.wikidata.org/wiki/Q39427",
         "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300021512",
@@ -12141,6 +12148,13 @@
     },
     {
       "from": "movement/surrealism",
+      "type": "influenced_by",
+      "to": "movement/dada",
+      "certainty": "scholarly",
+      "source": "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300021512"
+    },
+    {
+      "from": "movement/surrealism",
       "type": "originated_in",
       "to": "place/paris"
     },
@@ -12841,6 +12855,12 @@
       "from": "movement/cubo-futurism",
       "type": "derived_into",
       "to": "movement/suprematism",
+      "derived": true
+    },
+    {
+      "from": "movement/dada",
+      "type": "influenced",
+      "to": "movement/surrealism",
       "derived": true
     },
     {
