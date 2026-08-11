@@ -28,7 +28,8 @@ claims:
 founding_control: internal   # 建都・チャン・シップ・ムーの再興・寺院壁画の発注は一貫してチャクリー朝の王自身が担った。ラーマ4世期の西洋技法導入も、外国人教師や植民地行政の介在なしに、王の庇護のもとクルア・イン・コーンら当事者の画僧が版画・写真を通じて自力で吸収した
 space:
   - {role: originated_in, target: place/bangkok}
-relations: []
+relations:
+  - {type: influenced_by, target: movement/realism, certainty: scholarly, source: "https://so02.tci-thaijo.org/index.php/faa/article/view/241763"}
 sources:
   - https://www.wikidata.org/wiki/Q1155700
   - https://en.wikipedia.org/wiki/Rattanakosin_Kingdom_(1782%E2%80%931932)
@@ -38,6 +39,7 @@ sources:
   - https://en.wikipedia.org/wiki/Khrua_In_Khong
   - https://www.jstor.org/stable/26537575
   - https://so06.tci-thaijo.org/index.php/pub_jss/article/view/260283
+  - https://so02.tci-thaijo.org/index.php/faa/article/view/241763
   - https://so02.tci-thaijo.org/index.php/jfa/article/view/262633
   - https://www.wikidata.org/wiki/Q1861
   - https://www.thailandnow.in.th/arts-culture/take-a-closer-look-at-siamese-buddhist-murals/
@@ -136,6 +138,13 @@ Khrua In Khong」[so06.tci-thaijo.org](https://so06.tci-thaijo.org/index.php/pub
 西洋の事物を主題に含み、シャム仏教を西洋近代科学の世界に位置づける視覚的な議論だったと同誌は
 論じる（同上）。
 
+ラーマ4世・5世期（1851〜1910年）の壁画については、チュラロンコン大学系の美術学紀要が、西洋美術、
+とくに写実主義（realism art）の影響を受けたと整理している（[The Faculty of Fine and Applied Arts
+Journal](https://so02.tci-thaijo.org/index.php/faa/article/view/241763)）。したがって本項の
+`influenced_by movement/realism` は、ラッタナコーシン期の全壁画を西洋写実主義に還元する意味ではなく、
+ラーマ4〜5世期に西洋式の遠近法・陰影・肖像表現が導入され、伝統的なタイの主題と併存した後期の層に
+限定する。クルア・イン・コーン個人の技法が欧州のRealismから直接伝来したと断定する関係ではない。
+
 以上から、③様式的同一性は「単一の様式が保たれる」のではなく、ムガル絵画と同様に「王朝という
 時間の枠の中で、治世が変わるごとに様式そのものが更新される」形を取る——ラーマ1〜3世代の
 アユタヤ様式の継承・洗練と、ラーマ4世代以降の西洋技法の導入は、担い手（チャン・シップ・ムーと
@@ -191,11 +200,10 @@ period-style` とした。
 
 ## 未着手
 
-- クルア・イン・コーンによる線遠近法・陰影法の導入について、「西洋のどの絵画運動・流派の影響か」
-  までは出典が特定していない。複数の資料が「シャムへ流入した版画・写真を通じて独学した」とする
-  のみで、特定の運動名（例えばルネサンス絵画やヨーロッパの写実主義）を名指しした記述には
-  当たっていない。この KB に該当する西洋側の movement（ヨーロッパの学院的写実主義・線遠近法の
-  概念に対応するもの）も現時点で存在しないため、`relations` には張らず、ここに留めた
+- クルア・イン・コーン個人による線遠近法・陰影法の導入が、欧州のRealismから直接伝来したとまでは
+  出典が特定していない。複数の資料は、シャムへ流入した版画・写真を通じた独学として説明している。
+  本項のRealismへの関係は、チュラロンコン大学系紀要が写実主義の影響を明記するラーマ4〜5世期の
+  壁画という、より広い後期の層に限定したものである
 - クルア・イン・コーン（[en.wikipedia.org/wiki/Khrua_In_Khong](https://en.wikipedia.org/wiki/Khrua_In_Khong)、
   Wikidata [Q13013275](https://www.wikidata.org/wiki/Q13013275)）、ラーマ1世、チャン・シップ・
   ムーの`person`／`org`エンティティ化。本タスクの範囲では place stub 以外の新規エンティティ

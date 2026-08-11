@@ -6262,7 +6262,14 @@
           "target": "place/bangkok"
         }
       ],
-      "relations": [],
+      "relations": [
+        {
+          "type": "influenced_by",
+          "target": "movement/realism",
+          "certainty": "scholarly",
+          "source": "https://so02.tci-thaijo.org/index.php/faa/article/view/241763"
+        }
+      ],
       "sources": [
         "https://www.wikidata.org/wiki/Q1155700",
         "https://en.wikipedia.org/wiki/Rattanakosin_Kingdom_(1782%E2%80%931932)",
@@ -6272,6 +6279,7 @@
         "https://en.wikipedia.org/wiki/Khrua_In_Khong",
         "https://www.jstor.org/stable/26537575",
         "https://so06.tci-thaijo.org/index.php/pub_jss/article/view/260283",
+        "https://so02.tci-thaijo.org/index.php/faa/article/view/241763",
         "https://so02.tci-thaijo.org/index.php/jfa/article/view/262633",
         "https://www.wikidata.org/wiki/Q1861",
         "https://www.thailandnow.in.th/arts-culture/take-a-closer-look-at-siamese-buddhist-murals/",
@@ -13975,6 +13983,13 @@
     },
     {
       "from": "movement/rattanakosin-mural-painting",
+      "type": "influenced_by",
+      "to": "movement/realism",
+      "certainty": "scholarly",
+      "source": "https://so02.tci-thaijo.org/index.php/faa/article/view/241763"
+    },
+    {
+      "from": "movement/rattanakosin-mural-painting",
       "type": "originated_in",
       "to": "place/bangkok"
     },
@@ -15142,6 +15157,12 @@
       "from": "movement/realism",
       "type": "influenced",
       "to": "movement/qajar-painting",
+      "derived": true
+    },
+    {
+      "from": "movement/realism",
+      "type": "influenced",
+      "to": "movement/rattanakosin-mural-painting",
       "derived": true
     },
     {
