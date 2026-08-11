@@ -29,6 +29,7 @@ space:
   - {role: originated_in, target: place/zaria}
 relations:
   - {type: created_by, target: person/uche-okeke}
+  - {type: influenced_by, target: movement/post-impressionism, certainty: scholarly, source: "https://high.org/sites/onobrakpeya/"}
 sources:
   - https://www.wikidata.org/wiki/Q98912326
   - https://en.wikipedia.org/wiki/Zaria_Art_Society
@@ -38,8 +39,9 @@ sources:
   - https://www.si.edu/object/zaria-art-society%3Asiris_sil_504883
   - https://artop.bmth.ac.uk/legacies-of-the-zaria-rebels.html
   - https://www.rem.routledge.com/articles/zaria-art-society-the
+  - https://high.org/sites/onobrakpeya/
 status: draft
-updated: 2026-08-09
+updated: 2026-08-12
 ---
 
 # ザリア・アート・ソサエティ / Zaria Art Society
@@ -61,6 +63,16 @@ updated: 2026-08-09
 統合して同時代のナイジェリア独自の表現を作るという立場だった（
 [SmartHistory「Nigeria, Uche Okeke」](https://human.libretexts.org/Bookshelves/Art/Art_History_and_Theory/SmartHistory_of_Art_2e/SmartHistory_of_Art_IXb_-_Modernism_1945-1980/06%3A_Colonial_and_postcolonial_modernisms/6.02%3A_Nigeria_Uche_Okeke)、
 [momaa.org](https://momaa.org/the-zaria-rebels-nigerias-art-revolution-1958-1965/)、いずれも二次情報）。
+
+### ポスト印象派との接点（オノブラクペヤに限定）
+
+High Museum of Artのブルース・オノブラクペヤ年譜は、オノブラクペヤをザリア・アート・ソサエティの
+創設メンバーの一人としたうえで、彼がフランスのポスト印象派画家ポール・ゴーギャンに惹かれ、
+その様式と色彩が《Palm Wine Women》（1965）に現れていると説明する（[High Museum of Art
+「Bruce Onobrakpeya: A Timeline」](https://high.org/sites/onobrakpeya/)）。このため、ここでの
+`influenced_by movement/post-impressionism` はソサエティ全員が一様にポスト印象派から影響を受けた
+という意味ではなく、創設メンバーの作品に確認できる受容を、集団の横断的な文化圏接続として記録した
+ものである。ゴーギャン個人や《Palm Wine Women》のエンティティ化は、今回のリンクのためには行わない。
 
 ## kind の判定 — なぜ `self-declared` か
 
