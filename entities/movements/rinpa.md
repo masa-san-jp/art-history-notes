@@ -26,10 +26,12 @@ claims:
   - {field: kind, source: "https://www.wikidata.org/wiki/Q3179819", certainty: hypothesis}
 space:
   - {role: originated_in, target: place/kyoto}
-relations: []
+relations:
+  - {type: influenced_by, target: movement/yamato-e, certainty: scholarly, source: "https://jpsearch.go.jp/en/gallery/ndl-JBpERWwDqYZ"}
 sources:
   - https://www.wikidata.org/wiki/Q3179819
   - https://www.getty.edu/research/tools/vocabularies/aat/
+  - https://jpsearch.go.jp/en/gallery/ndl-JBpERWwDqYZ
 images:
   - url: https://images.metmuseum.org/CRDImages/as/original/DT231.jpg
     source_page: https://www.metmuseum.org/art/collection/search/39664
@@ -51,6 +53,14 @@ updated: 2026-08-08
 （[Wikidata Q3179819](https://www.wikidata.org/wiki/Q3179819) の日本語記述。**二次情報**）。
 
 典拠: Wikidata `Q3179819`（instance of は `school of painting` のみ）／Getty AAT `300106734`
+
+## 大和絵との関係
+
+国立国会図書館のJapan Searchは、琳派が伝統的な大和絵の画風を踏まえながら、大胆な構図、豊かな
+意匠性、装飾性を特徴としたと説明している
+（[Japan Search](https://jpsearch.go.jp/en/gallery/ndl-JBpERWwDqYZ)）。これは大和絵という長期に
+わたる様式全体と琳派を同一視する記述ではなく、琳派が既存の大和絵の画風を参照して独自の装飾表現を
+展開したという関係である。そのため、琳派から[大和絵](yamato-e.md)へ `influenced_by` を張る。
 
 ## kind の判定 — なぜ `lineage-school` ではなく `retrospective` か
 
