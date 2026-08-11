@@ -3,7 +3,7 @@
     {
       "kind": "no-cross-region",
       "about": "all",
-      "text": "他の文化圏の movement と1本も繋がっていない movement が 48/99 件。時間だけでなく空間の広がりを体系化するので、影響・伝播・反発を調べる余地"
+      "text": "他の文化圏の movement と1本も繋がっていない movement が 47/99 件。時間だけでなく空間の広がりを体系化するので、影響・伝播・反発を調べる余地"
     },
     {
       "kind": "no-cross-region",
@@ -47,11 +47,6 @@
     },
     {
       "kind": "no-cross-region",
-      "about": "mena",
-      "text": "mena: 2件（バグダード近代美術グループ、チュニス派）"
-    },
-    {
-      "kind": "no-cross-region",
       "about": "asia-central",
       "text": "asia-central: 2件（メンリ派、ザナバザル様式）"
     },
@@ -59,6 +54,11 @@
       "kind": "no-cross-region",
       "about": "europe-east",
       "text": "europe-east: 2件（ノヴゴロド派、シュプレマティスム）"
+    },
+    {
+      "kind": "no-cross-region",
+      "about": "mena",
+      "text": "mena: 1件（チュニス派）"
     },
     {
       "kind": "no-cross-region",
