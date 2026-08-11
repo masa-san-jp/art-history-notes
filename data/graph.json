@@ -2725,6 +2725,12 @@
           "target": "movement/baghdad-school-of-illustration",
           "certainty": "scholarly",
           "source": "https://www.britannica.com/art/Jalayirid-school"
+        },
+        {
+          "type": "influenced_by",
+          "target": "movement/shiraz-school",
+          "certainty": "scholarly",
+          "source": "https://resources.metmuseum.org/resources/metpublications/pdf/Masterpieces_from_the_Department_of_Islamic_Art_in_The_Metropolitan_Museum_of_Art.pdf"
         }
       ],
       "sources": [
@@ -2740,7 +2746,8 @@
         "https://en.wikipedia.org/wiki/Sultan_Husayn_Bayqara",
         "https://www.ebsco.com/research-starters/visual-arts/herat-school-painting",
         "https://www.reed.edu/persian-calligraphy/en/jafar-baysonghori/index.html",
-        "https://www.britannica.com/art/Herat-school"
+        "https://www.britannica.com/art/Herat-school",
+        "https://resources.metmuseum.org/resources/metpublications/pdf/Masterpieces_from_the_Department_of_Islamic_Art_in_The_Metropolitan_Museum_of_Art.pdf"
       ],
       "images": [
         {
@@ -11646,6 +11653,13 @@
     },
     {
       "from": "movement/herat-school",
+      "type": "influenced_by",
+      "to": "movement/shiraz-school",
+      "certainty": "scholarly",
+      "source": "https://resources.metmuseum.org/resources/metpublications/pdf/Masterpieces_from_the_Department_of_Islamic_Art_in_The_Metropolitan_Museum_of_Art.pdf"
+    },
+    {
+      "from": "movement/herat-school",
       "type": "originated_in",
       "to": "place/herat"
     },
@@ -12637,6 +12651,12 @@
     },
     {
       "from": "movement/baghdad-school-of-illustration",
+      "type": "influenced",
+      "to": "movement/herat-school",
+      "derived": true
+    },
+    {
+      "from": "movement/shiraz-school",
       "type": "influenced",
       "to": "movement/herat-school",
       "derived": true
