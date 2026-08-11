@@ -26,6 +26,7 @@ space:
   - {role: originated_in, target: place/tehran}
 relations:
   - {type: influenced_by, target: movement/safavid-painting, certainty: scholarly, source: "https://en.wikipedia.org/wiki/Qajar_art"}
+  - {type: influenced_by, target: movement/realism, certainty: scholarly, source: "https://scholarworks.sjsu.edu/etd_theses/3019/"}
 sources:
   - https://www.wikidata.org/wiki/Q5964557
   - https://www.wikidata.org/wiki/Q2864726
@@ -41,6 +42,7 @@ sources:
   - https://www.sothebys.com/en/auctions/ecatalogue/2010/arts-of-the-islamic-world-l10223/lot.94.html
   - https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300021708
   - https://www.iranicaonline.org/articles/art-in-iran-v-qajar-1-general/
+  - https://scholarworks.sjsu.edu/etd_theses/3019/
 images:
   - url: https://images.metmuseum.org/CRDImages/is/original/DP-15521-001.jpg
     source_page: https://www.metmuseum.org/art/collection/search/767842
@@ -118,6 +120,11 @@ relief, tilework or painting on canvas. In the latter category, Qajar rulers lik
 の油彩技法を本格的に習得し、帰国後、立憲革命後の時期にサナーイェ・モスタズラフェ美術学校（現在の
 テヘラン大学美術学部の前身）を設立した。ここで宮廷への個人的な師事という継承の形が、学校という
 制度に置き換わった。
+
+後期カージャール絵画の写実化については、マフシード・モダレスの修士論文
+*Qajar painting in the second half of the nineteenth century and realism* がこの主題を直接扱う。
+ここでの `influenced_by` はカージャール絵画全体を19世紀フランスの写実主義へ還元するものではなく、
+カマールッモルクらを経由した後期の自然主義・西洋アカデミズムへの転換を、Realismとの接点として記録する。
 
 この一連の担い手（サーディク・ミールザー・ババー・ミフル・アリー・サニー・アル=モルク・
 カマールッモルクら）個々の一次資料には当たっていない。`docs/schema.md`のperson作成基準の
