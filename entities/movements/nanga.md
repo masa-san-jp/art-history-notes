@@ -28,6 +28,7 @@ space:
 relations:
   - {type: influenced_by, target: person/dong-qichang, certainty: scholarly, source: "https://en.wikipedia.org/wiki/Nanga_(art)"}
   - {type: influenced_by, target: movement/literati-painting, certainty: scholarly, source: "https://eaa.fas.harvard.edu/museum/nanga-painting-feinberg-collection"}
+  - {type: influenced_by, target: movement/four-wangs, certainty: scholarly, source: "https://theme.npm.edu.tw/exh107/NewEra/jp/page-4.html"}
 sources:
   - https://ja.wikipedia.org/wiki/南画
   - https://ja.wikipedia.org/wiki/文人画
@@ -36,6 +37,7 @@ sources:
   - https://jpsearch.go.jp/en/gallery/ndl-D6xwaWpaGKiEYVp
   - https://www.kyohaku.go.jp/old/eng/theme/floor2_4/past/kinse_20170221.html
   - https://eaa.fas.harvard.edu/museum/nanga-painting-feinberg-collection
+  - https://theme.npm.edu.tw/exh107/NewEra/jp/page-4.html
   - https://www.metmuseum.org/art/collection/search/671023
   - https://www.artic.edu/artworks/185222
 images:
@@ -75,6 +77,15 @@ updated: 2026-08-10
 
 この関係で動いたものは**物（中国の木版画譜）**と限定する。日本の南画家の多くが、輸入された中国の
 画譜を参照して筆法や構図を学んだため、南画を受け取り側として中国の文人画へ `influenced_by` を張る。
+
+### 四王の画風を介した清末の伝達
+
+国立故宮博物院は、清末の画家・顧澐が四王の画風を継承して日本へ渡り、その画風が日本で南画の模範に
+なったと説明している（[国立故宮博物院「山水士気」](https://theme.npm.edu.tw/exh107/NewEra/jp/page-4.html)）。
+ここで動いたものは、顧澐という人物の移動と、彼が担った四王系の画風である。本項ではこの媒介を、
+南画の形成全体が四王だけで決まったという意味ではなく、清末に日本へ渡った四王系画風の受容層に限って
+`influenced_by movement/four-wangs` と記録する。顧澐本人の person エンティティは、今回の1本に必要な
+範囲を超えるため作成しない。
 
 ## kind の判定 — なぜ `retrospective` か
 

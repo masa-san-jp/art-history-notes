@@ -5049,6 +5049,12 @@
           "target": "movement/literati-painting",
           "certainty": "scholarly",
           "source": "https://eaa.fas.harvard.edu/museum/nanga-painting-feinberg-collection"
+        },
+        {
+          "type": "influenced_by",
+          "target": "movement/four-wangs",
+          "certainty": "scholarly",
+          "source": "https://theme.npm.edu.tw/exh107/NewEra/jp/page-4.html"
         }
       ],
       "sources": [
@@ -5059,6 +5065,7 @@
         "https://jpsearch.go.jp/en/gallery/ndl-D6xwaWpaGKiEYVp",
         "https://www.kyohaku.go.jp/old/eng/theme/floor2_4/past/kinse_20170221.html",
         "https://eaa.fas.harvard.edu/museum/nanga-painting-feinberg-collection",
+        "https://theme.npm.edu.tw/exh107/NewEra/jp/page-4.html",
         "https://www.metmuseum.org/art/collection/search/671023",
         "https://www.artic.edu/artworks/185222"
       ],
@@ -13901,6 +13908,13 @@
     },
     {
       "from": "movement/nanga",
+      "type": "influenced_by",
+      "to": "movement/four-wangs",
+      "certainty": "scholarly",
+      "source": "https://theme.npm.edu.tw/exh107/NewEra/jp/page-4.html"
+    },
+    {
+      "from": "movement/nanga",
       "type": "originated_in",
       "to": "place/kyoto"
     },
@@ -15234,6 +15248,12 @@
     },
     {
       "from": "movement/literati-painting",
+      "type": "influenced",
+      "to": "movement/nanga",
+      "derived": true
+    },
+    {
+      "from": "movement/four-wangs",
       "type": "influenced",
       "to": "movement/nanga",
       "derived": true
