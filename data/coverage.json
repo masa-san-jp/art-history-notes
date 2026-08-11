@@ -1,9 +1,9 @@
 {
   "as_of": "2026-08-12",
-  "movement_total": 90,
+  "movement_total": 95,
   "movement_stub_excluded": 0,
   "by_status": {
-    "draft": 88,
+    "draft": 93,
     "stub": 0,
     "verified": 2
   },
@@ -41,7 +41,11 @@
     },
     "europe-west": {
       "19": 4,
+      "16": 1,
       "20": 7,
+      "12": 1,
+      "18": 2,
+      "14": 1,
       "13": 1,
       "15": 1
     },
@@ -92,7 +96,7 @@
     }
   },
   "per_bucket": {
-    "europe-west": 13,
+    "europe-west": 18,
     "europe-east": 6,
     "americas-north": 4,
     "mena": 7,
@@ -120,10 +124,10 @@
   ],
   "isolated": [],
   "progress": {
-    "movement_total": "90/100（stub 0件は不算入）",
-    "non_west_ratio": "0.72/0.5",
+    "movement_total": "95/100（stub 0件は不算入）",
+    "non_west_ratio": "0.68/0.5",
     "per_bucket_min": "13/13 バケットが 3件以上",
-    "pre_1800_ratio": "0.48/0.3",
+    "pre_1800_ratio": "0.51/0.3",
     "isolated_ratio": "0.00（上限 0.1）"
   }
 }

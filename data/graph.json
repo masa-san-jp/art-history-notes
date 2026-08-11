@@ -1015,6 +1015,65 @@
       "updated": "2026-08-11",
       "path": "entities/movements/barbizon-school.md"
     },
+    "movement/baroque": {
+      "id": "movement/baroque",
+      "uri": "urn:ahn:movement/baroque",
+      "type": "movement",
+      "kind": "period-style",
+      "label_ja": "バロック",
+      "label_en": "Baroque",
+      "authority": {
+        "wikidata": "Q37853",
+        "aat": "300021147",
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": "15XX",
+        "end": "17XX",
+        "display": "16世紀後半（イタリアでの初期形成）〜18世紀半ば頃"
+      },
+      "naming": {
+        "self_identified": false,
+        "named_by": null,
+        "named_when": null,
+        "original_label": "Baroque",
+        "note": "後世の美術史が、劇的な空間、運動感、光、古典・宗教的伝統の再編を横断して括った文化運動・様式。地域別の実践を一つの均質な作風とはみなさない"
+      },
+      "claims": [
+        {
+          "field": "time",
+          "source": "https://www.wikidata.org/wiki/Q37853",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "originated_in",
+          "source": "https://www.metmuseum.org/ko/essays/baroque-rome",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "kind",
+          "source": "https://www.wikidata.org/wiki/Q37853",
+          "certainty": "scholarly"
+        }
+      ],
+      "space": [
+        {
+          "role": "originated_in",
+          "target": "place/rome"
+        }
+      ],
+      "relations": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q37853",
+        "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300021147",
+        "https://www.metmuseum.org/ko/essays/baroque-rome"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/movements/baroque.md"
+    },
     "movement/basohli-painting": {
       "id": "movement/basohli-painting",
       "uri": "urn:ahn:movement/basohli-painting",
@@ -2683,6 +2742,65 @@
       "status": "draft",
       "updated": "2026-08-09",
       "path": "entities/movements/goryeo-buddhist-painting.md"
+    },
+    "movement/gothic-art": {
+      "id": "movement/gothic-art",
+      "uri": "urn:ahn:movement/gothic-art",
+      "type": "movement",
+      "kind": "period-style",
+      "label_ja": "ゴシック美術",
+      "label_en": "Gothic art",
+      "authority": {
+        "wikidata": "Q46825",
+        "aat": "300020775",
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": "11XX",
+        "end": "15XX",
+        "display": "12世紀前半（北フランスで1140年頃に顕著化）〜15世紀頃。地域により終期は異なる"
+      },
+      "naming": {
+        "self_identified": false,
+        "named_by": null,
+        "named_when": null,
+        "original_label": "Gothic art",
+        "note": "後世の美術史が中世ヨーロッパの建築・彫刻・絵画・工芸を横断して括った時代様式。名称は当事者の自己宣言ではなく、地域差と媒体差を含む広域的な整理として扱う"
+      },
+      "claims": [
+        {
+          "field": "time",
+          "source": "https://www.metmuseum.org/fr/essays/gothic-art",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "originated_in",
+          "source": "https://www.metmuseum.org/fr/essays/gothic-art",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "kind",
+          "source": "https://www.wikidata.org/wiki/Q46825",
+          "certainty": "scholarly"
+        }
+      ],
+      "space": [
+        {
+          "role": "originated_in",
+          "target": "place/paris"
+        }
+      ],
+      "relations": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q46825",
+        "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300020775",
+        "https://www.metmuseum.org/fr/essays/gothic-art"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/movements/gothic-art.md"
     },
     "movement/group-of-seven": {
       "id": "movement/group-of-seven",
@@ -4840,6 +4958,65 @@
       "updated": "2026-08-09",
       "path": "entities/movements/neo-impressionism.md"
     },
+    "movement/neoclassicism": {
+      "id": "movement/neoclassicism",
+      "uri": "urn:ahn:movement/neoclassicism",
+      "type": "movement",
+      "kind": "retrospective",
+      "label_ja": "新古典主義",
+      "label_en": "Neoclassicism",
+      "authority": {
+        "wikidata": "Q14378",
+        "aat": "300021474",
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": "17XX",
+        "end": "18XX",
+        "display": "18世紀半ば〜19世紀前半。地域・媒体により持続期間は異なる"
+      },
+      "naming": {
+        "self_identified": false,
+        "named_by": null,
+        "named_when": null,
+        "original_label": "Neoclassicism",
+        "note": "古代ギリシア・ローマへの関心、考古学、美術アカデミー、啓蒙主義を結びつけて後世に整理された広域的な様式。単一の自称運動や一つの都市のみに還元しない"
+      },
+      "claims": [
+        {
+          "field": "time",
+          "source": "https://www.metmuseum.org/fr/essays/neoclassicism",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "originated_in",
+          "source": "https://www.metmuseum.org/fr/essays/neoclassicism",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "kind",
+          "source": "https://www.wikidata.org/wiki/Q14378",
+          "certainty": "scholarly"
+        }
+      ],
+      "space": [
+        {
+          "role": "originated_in",
+          "target": "place/rome"
+        }
+      ],
+      "relations": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q14378",
+        "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300021474",
+        "https://www.metmuseum.org/fr/essays/neoclassicism"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/movements/neoclassicism.md"
+    },
     "movement/neoconcretismo": {
       "id": "movement/neoconcretismo",
       "uri": "urn:ahn:movement/neoconcretismo",
@@ -5862,6 +6039,65 @@
       "updated": "2026-08-10",
       "path": "entities/movements/rattanakosin-mural-painting.md"
     },
+    "movement/renaissance": {
+      "id": "movement/renaissance",
+      "uri": "urn:ahn:movement/renaissance",
+      "type": "movement",
+      "kind": "period-style",
+      "label_ja": "ルネサンス",
+      "label_en": "Renaissance",
+      "authority": {
+        "wikidata": "Q1404472",
+        "aat": "300021140",
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": "13XX",
+        "end": "16XX",
+        "display": "14世紀頃〜17世紀初頭。地域と分野により時期は異なる"
+      },
+      "naming": {
+        "self_identified": false,
+        "named_by": null,
+        "named_when": null,
+        "original_label": "Renaissance",
+        "note": "古典古代の再発見、人文主義、自然観察、個人の知的能力を結びつけた広域的な文化・芸術史上の括り。単一の自称運動ではなく、イタリアを起点に地域ごとに異なる展開をしたため時代様式として扱う"
+      },
+      "claims": [
+        {
+          "field": "time",
+          "source": "https://82nd-and-fifth.metmuseum.org/toah/ht/08/eustc.html",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "originated_in",
+          "source": "https://82nd-and-fifth.metmuseum.org/toah/ht/08/eustc.html",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "kind",
+          "source": "https://www.wikidata.org/wiki/Q1404472",
+          "certainty": "scholarly"
+        }
+      ],
+      "space": [
+        {
+          "role": "originated_in",
+          "target": "place/florence"
+        }
+      ],
+      "relations": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q1404472",
+        "https://www.metmuseum.org/essays/anatomy-in-the-renaissance",
+        "https://82nd-and-fifth.metmuseum.org/toah/ht/08/eustc.html"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/movements/renaissance.md"
+    },
     "movement/rinpa": {
       "id": "movement/rinpa",
       "uri": "urn:ahn:movement/rinpa",
@@ -5936,6 +6172,65 @@
       "status": "draft",
       "updated": "2026-08-08",
       "path": "entities/movements/rinpa.md"
+    },
+    "movement/rococo": {
+      "id": "movement/rococo",
+      "uri": "urn:ahn:movement/rococo",
+      "type": "movement",
+      "kind": "period-style",
+      "label_ja": "ロココ",
+      "label_en": "Rococo",
+      "authority": {
+        "wikidata": "Q122960",
+        "aat": "300021466",
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": "173X",
+        "end": "178X",
+        "display": "1730年代〜1780年代"
+      },
+      "naming": {
+        "self_identified": false,
+        "named_by": null,
+        "named_when": null,
+        "original_label": "Rococo",
+        "note": "18世紀の芸術運動・様式。絵画、彫刻、建築、室内装飾、工芸を横断するが、地域ごとの宮廷・都市文化と媒体差を残すため後世の様式分類として扱う"
+      },
+      "claims": [
+        {
+          "field": "time",
+          "source": "https://www.wikidata.org/wiki/Q122960",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "kind",
+          "source": "https://www.wikidata.org/wiki/Q122960",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "originated_in",
+          "source": "https://www.metmuseum.org/de/essays/american-rococo",
+          "certainty": "scholarly"
+        }
+      ],
+      "space": [
+        {
+          "role": "originated_in",
+          "target": "place/paris"
+        }
+      ],
+      "relations": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q122960",
+        "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300021466",
+        "https://www.metmuseum.org/de/essays/american-rococo"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/movements/rococo.md"
     },
     "movement/safavid-painting": {
       "id": "movement/safavid-painting",
@@ -10021,6 +10316,39 @@
       "updated": "2026-08-11",
       "path": "entities/places/dessau.md"
     },
+    "place/florence": {
+      "id": "place/florence",
+      "uri": "urn:ahn:place/florence",
+      "type": "place",
+      "label_ja": "フィレンツェ",
+      "label_en": "Florence",
+      "authority": {
+        "wikidata": "Q2044",
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "region": "europe-west",
+      "coordinates": [
+        43.76956,
+        11.25581
+      ],
+      "time": {
+        "start": null,
+        "end": null,
+        "display": null
+      },
+      "space": [],
+      "relations": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q2044",
+        "https://82nd-and-fifth.metmuseum.org/toah/ht/08/eustc.html"
+      ],
+      "status": "stub",
+      "updated": "2026-08-12",
+      "path": "entities/places/florence.md"
+    },
     "place/golconda": {
       "id": "place/golconda",
       "uri": "urn:ahn:place/golconda",
@@ -11022,6 +11350,40 @@
       "status": "stub",
       "updated": "2026-08-09",
       "path": "entities/places/rio-de-janeiro.md"
+    },
+    "place/rome": {
+      "id": "place/rome",
+      "uri": "urn:ahn:place/rome",
+      "type": "place",
+      "label_ja": "ローマ",
+      "label_en": "Rome",
+      "authority": {
+        "wikidata": "Q220",
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "region": "europe-west",
+      "coordinates": [
+        41.89333,
+        12.48278
+      ],
+      "time": {
+        "start": null,
+        "end": null,
+        "display": null
+      },
+      "space": [],
+      "relations": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q220",
+        "https://www.metmuseum.org/ko/essays/baroque-rome",
+        "https://www.metmuseum.org/fr/essays/neoclassicism"
+      ],
+      "status": "stub",
+      "updated": "2026-08-12",
+      "path": "entities/places/rome.md"
     },
     "place/saint-petersburg": {
       "id": "place/saint-petersburg",
@@ -12287,6 +12649,11 @@
       "to": "place/barbizon"
     },
     {
+      "from": "movement/baroque",
+      "type": "originated_in",
+      "to": "place/rome"
+    },
+    {
       "from": "movement/basohli-painting",
       "type": "originated_in",
       "to": "place/basohli"
@@ -12595,6 +12962,11 @@
       "from": "movement/goryeo-buddhist-painting",
       "type": "originated_in",
       "to": "place/kaesong"
+    },
+    {
+      "from": "movement/gothic-art",
+      "type": "originated_in",
+      "to": "place/paris"
     },
     {
       "from": "movement/group-of-seven",
@@ -12957,6 +13329,11 @@
       "to": "place/paris"
     },
     {
+      "from": "movement/neoclassicism",
+      "type": "originated_in",
+      "to": "place/rome"
+    },
+    {
       "from": "movement/neoconcretismo",
       "type": "created_by",
       "to": "person/ferreira-gullar",
@@ -13090,6 +13467,11 @@
       "to": "place/bangkok"
     },
     {
+      "from": "movement/renaissance",
+      "type": "originated_in",
+      "to": "place/florence"
+    },
+    {
       "from": "movement/rinpa",
       "type": "influenced_by",
       "to": "movement/yamato-e",
@@ -13100,6 +13482,11 @@
       "from": "movement/rinpa",
       "type": "originated_in",
       "to": "place/kyoto"
+    },
+    {
+      "from": "movement/rococo",
+      "type": "originated_in",
+      "to": "place/paris"
     },
     {
       "from": "movement/safavid-painting",
