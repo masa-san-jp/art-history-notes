@@ -31,6 +31,7 @@ space:
   - {role: active_in, target: place/berlin}
 relations:
   - {type: influenced_by, target: movement/de-stijl, certainty: scholarly, source: "https://www.moma.org/documents/moma_catalogue_1798_300159061.pdf"}
+  - {type: influenced_by, target: movement/constructivism, certainty: scholarly, source: "https://www.moma.org/documents/moma_catalogue_1733_300062754.pdf"}
 images:
   - url: "https://commons.wikimedia.org/wiki/Special:FilePath/Anonymous_photograph_of_Bauhaus_masters_on_the_roof_of_the_studio_building,_Bauhaus_Dessau.jpg"
     source_page: "https://commons.wikimedia.org/wiki/File:Anonymous_photograph_of_Bauhaus_masters_on_the_roof_of_the_studio_building,_Bauhaus_Dessau.jpg"
@@ -41,6 +42,7 @@ sources:
   - https://www.getty.edu/vow/ULANFullDisplay?find=Gaudez&nation=&page=1&role=&subjectid=500125058
   - https://www.bauhaus.de/en/about-us/
   - https://www.bauhaus.de/en/discover/article/14-years-of-bauhaus/
+  - https://www.moma.org/documents/moma_catalogue_1733_300062754.pdf
   - https://www.bauhaus.de/en/discover/article/idea-and-programme/
   - https://www.moma.org/collection/terms/bauhaus
   - https://commons.wikimedia.org/wiki/File:Anonymous_photograph_of_Bauhaus_masters_on_the_roof_of_the_studio_building,_Bauhaus_Dessau.jpg

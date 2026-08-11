@@ -261,6 +261,12 @@
           "target": "movement/mexican-muralism",
           "certainty": "scholarly",
           "source": "https://whitney.org/exhibitions/vida-americana"
+        },
+        {
+          "type": "influenced_by",
+          "target": "movement/expressionism",
+          "certainty": "scholarly",
+          "source": "https://assets.moma.org/documents/moma_catalogue_1990_300190211.pdf"
         }
       ],
       "sources": [
@@ -273,6 +279,7 @@
         "https://www.artforum.com/features/abstract-expressionism-weapon-of-the-cold-war-214234/",
         "https://en.wikipedia.org/wiki/Congress_for_Cultural_Freedom",
         "https://www.tate.org.uk/research/publications/modern-american-art-at-tate/essays/new-american-painting",
+        "https://assets.moma.org/documents/moma_catalogue_1990_300190211.pdf",
         "https://www.moma.org/calendar/exhibitions/1990",
         "https://www.uapress.ua.edu/9780817352585/advancing-american-art/",
         "https://whitney.org/exhibitions/vida-americana",
@@ -581,11 +588,19 @@
           "target": "place/brussels"
         }
       ],
-      "relations": [],
+      "relations": [
+        {
+          "type": "influenced_by",
+          "target": "movement/utagawa-school",
+          "certainty": "scholarly",
+          "source": "https://www.metmuseum.org/ja/essays/art-nouveau"
+        }
+      ],
       "sources": [
         "https://www.wikidata.org/wiki/Q34636",
         "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300021430",
-        "https://www.vam.ac.uk/articles/art-nouveau-an-international-style"
+        "https://www.vam.ac.uk/articles/art-nouveau-an-international-style",
+        "https://www.metmuseum.org/ja/essays/art-nouveau"
       ],
       "status": "draft",
       "updated": "2026-08-12",
@@ -1279,6 +1294,12 @@
           "target": "movement/de-stijl",
           "certainty": "scholarly",
           "source": "https://www.moma.org/documents/moma_catalogue_1798_300159061.pdf"
+        },
+        {
+          "type": "influenced_by",
+          "target": "movement/constructivism",
+          "certainty": "scholarly",
+          "source": "https://www.moma.org/documents/moma_catalogue_1733_300062754.pdf"
         }
       ],
       "images": [
@@ -1294,6 +1315,7 @@
         "https://www.getty.edu/vow/ULANFullDisplay?find=Gaudez&nation=&page=1&role=&subjectid=500125058",
         "https://www.bauhaus.de/en/about-us/",
         "https://www.bauhaus.de/en/discover/article/14-years-of-bauhaus/",
+        "https://www.moma.org/documents/moma_catalogue_1733_300062754.pdf",
         "https://www.bauhaus.de/en/discover/article/idea-and-programme/",
         "https://www.moma.org/collection/terms/bauhaus",
         "https://commons.wikimedia.org/wiki/File:Anonymous_photograph_of_Bauhaus_masters_on_the_roof_of_the_studio_building,_Bauhaus_Dessau.jpg"
@@ -3029,7 +3051,14 @@
           "target": "place/toronto"
         }
       ],
-      "relations": [],
+      "relations": [
+        {
+          "type": "influenced_by",
+          "target": "movement/post-impressionism",
+          "certainty": "scholarly",
+          "source": "https://boutique.gallery.ca/collections/ngc-publications?page=2"
+        }
+      ],
       "images": [
         {
           "url": "https://upload.wikimedia.org/wikipedia/commons/4/43/The_Tangled_Garden.jpg",
@@ -3054,6 +3083,7 @@
         "https://en.wikipedia.org/wiki/A._J._Casson",
         "https://www.theartstory.org/movement/group-of-seven/",
         "https://www.parks.canada.ca/culture/designation/evenement-event/groupe-sept-group-seven",
+        "https://boutique.gallery.ca/collections/ngc-publications?page=2",
         "https://commons.wikimedia.org/wiki/File:The_Tangled_Garden.jpg",
         "https://commons.wikimedia.org/wiki/File:Lawren_Harris_North_Shore,_Lake_Superior_1926.jpg",
         "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1335089/"
@@ -12832,6 +12862,13 @@
     },
     {
       "from": "movement/abstract-expressionism",
+      "type": "influenced_by",
+      "to": "movement/expressionism",
+      "certainty": "scholarly",
+      "source": "https://assets.moma.org/documents/moma_catalogue_1990_300190211.pdf"
+    },
+    {
+      "from": "movement/abstract-expressionism",
       "type": "originated_in",
       "to": "place/new-york-city"
     },
@@ -12903,6 +12940,13 @@
       "from": "movement/art-et-liberte",
       "type": "originated_in",
       "to": "place/cairo"
+    },
+    {
+      "from": "movement/art-nouveau",
+      "type": "influenced_by",
+      "to": "movement/utagawa-school",
+      "certainty": "scholarly",
+      "source": "https://www.metmuseum.org/ja/essays/art-nouveau"
     },
     {
       "from": "movement/art-nouveau",
@@ -12997,6 +13041,13 @@
       "to": "movement/de-stijl",
       "certainty": "scholarly",
       "source": "https://www.moma.org/documents/moma_catalogue_1798_300159061.pdf"
+    },
+    {
+      "from": "movement/bauhaus",
+      "type": "influenced_by",
+      "to": "movement/constructivism",
+      "certainty": "scholarly",
+      "source": "https://www.moma.org/documents/moma_catalogue_1733_300062754.pdf"
     },
     {
       "from": "movement/bauhaus",
@@ -13310,6 +13361,13 @@
       "from": "movement/gothic-art",
       "type": "originated_in",
       "to": "place/paris"
+    },
+    {
+      "from": "movement/group-of-seven",
+      "type": "influenced_by",
+      "to": "movement/post-impressionism",
+      "certainty": "scholarly",
+      "source": "https://boutique.gallery.ca/collections/ngc-publications?page=2"
     },
     {
       "from": "movement/group-of-seven",
@@ -14434,6 +14492,12 @@
       "derived": true
     },
     {
+      "from": "movement/expressionism",
+      "type": "influenced",
+      "to": "movement/abstract-expressionism",
+      "derived": true
+    },
+    {
       "from": "person/oswald-de-andrade",
       "type": "created",
       "to": "movement/antropofagia",
@@ -14476,6 +14540,12 @@
       "derived": true
     },
     {
+      "from": "movement/utagawa-school",
+      "type": "influenced",
+      "to": "movement/art-nouveau",
+      "derived": true
+    },
+    {
       "from": "person/gyula-kosice",
       "type": "created",
       "to": "movement/arte-madi",
@@ -14513,6 +14583,12 @@
     },
     {
       "from": "movement/de-stijl",
+      "type": "influenced",
+      "to": "movement/bauhaus",
+      "derived": true
+    },
+    {
+      "from": "movement/constructivism",
       "type": "influenced",
       "to": "movement/bauhaus",
       "derived": true
@@ -14659,6 +14735,12 @@
       "from": "person/filippo-tommaso-marinetti",
       "type": "created",
       "to": "movement/futurism",
+      "derived": true
+    },
+    {
+      "from": "movement/post-impressionism",
+      "type": "influenced",
+      "to": "movement/group-of-seven",
       "derived": true
     },
     {

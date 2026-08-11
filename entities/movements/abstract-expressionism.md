@@ -30,6 +30,7 @@ space:
   - {role: originated_in, target: place/new-york-city}
 relations:
   - {type: influenced_by, target: movement/mexican-muralism, certainty: scholarly, source: "https://whitney.org/exhibitions/vida-americana"}
+  - {type: influenced_by, target: movement/expressionism, certainty: scholarly, source: "https://assets.moma.org/documents/moma_catalogue_1990_300190211.pdf"}
 sources:
   - https://www.wikidata.org/wiki/Q177725
   - https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300022099
@@ -40,6 +41,7 @@ sources:
   - https://www.artforum.com/features/abstract-expressionism-weapon-of-the-cold-war-214234/
   - https://en.wikipedia.org/wiki/Congress_for_Cultural_Freedom
   - https://www.tate.org.uk/research/publications/modern-american-art-at-tate/essays/new-american-painting
+  - https://assets.moma.org/documents/moma_catalogue_1990_300190211.pdf
   - https://www.moma.org/calendar/exhibitions/1990
   - https://www.uapress.ua.edu/9780817352585/advancing-american-art/
   - https://whitney.org/exhibitions/vida-americana
