@@ -3064,11 +3064,19 @@
           "target": "place/paris"
         }
       ],
-      "relations": [],
+      "relations": [
+        {
+          "type": "influenced_by",
+          "target": "movement/byzantine-art",
+          "certainty": "scholarly",
+          "source": "https://www.metmuseum.org/pt/met-publications/the-year-1200-a-background-survey"
+        }
+      ],
       "sources": [
         "https://www.wikidata.org/wiki/Q46825",
         "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300020775",
-        "https://www.metmuseum.org/fr/essays/gothic-art"
+        "https://www.metmuseum.org/fr/essays/gothic-art",
+        "https://www.metmuseum.org/pt/met-publications/the-year-1200-a-background-survey"
       ],
       "status": "draft",
       "updated": "2026-08-12",
@@ -13608,6 +13616,13 @@
     },
     {
       "from": "movement/gothic-art",
+      "type": "influenced_by",
+      "to": "movement/byzantine-art",
+      "certainty": "scholarly",
+      "source": "https://www.metmuseum.org/pt/met-publications/the-year-1200-a-background-survey"
+    },
+    {
+      "from": "movement/gothic-art",
       "type": "originated_in",
       "to": "place/paris"
     },
@@ -15149,6 +15164,12 @@
       "from": "movement/song-academy-painting",
       "type": "influenced",
       "to": "movement/goryeo-buddhist-painting",
+      "derived": true
+    },
+    {
+      "from": "movement/byzantine-art",
+      "type": "influenced",
+      "to": "movement/gothic-art",
       "derived": true
     },
     {

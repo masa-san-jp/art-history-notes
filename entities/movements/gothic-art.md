@@ -27,11 +27,13 @@ claims:
   - {field: kind, source: "https://www.wikidata.org/wiki/Q46825", certainty: scholarly}
 space:
   - {role: originated_in, target: place/paris}
-relations: []
+relations:
+  - {type: influenced_by, target: movement/byzantine-art, certainty: scholarly, source: "https://www.metmuseum.org/pt/met-publications/the-year-1200-a-background-survey"}
 sources:
   - https://www.wikidata.org/wiki/Q46825
   - https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300020775
   - https://www.metmuseum.org/fr/essays/gothic-art
+  - https://www.metmuseum.org/pt/met-publications/the-year-1200-a-background-survey
 status: draft
 updated: 2026-08-12
 ---
@@ -52,6 +54,14 @@ updated: 2026-08-12
 
 起源地は北フランスを代表する都市ノードとして `place/paris` に置く。始点は1140年頃の顕著化を含むよう
 `11XX`、終点は地域差を残して15世紀頃を示す `15XX` とした。
+
+## ビザンティン美術からの形成期の受容
+
+メトロポリタン美術館は、ハイ・ゴシックへつながる1180〜1220年頃のフランス美術を、フランス、
+フランドル、モーゼル、ビザンティンの要素が混ざったものと説明している（[The Year 1200: A Background Survey](https://www.metmuseum.org/pt/met-publications/the-year-1200-a-background-survey)）。
+ここで動いたものは、ビザンティンの作品・造形モデルがフランスの形成期の美術へ取り込まれたという範囲の
+受容である。`influenced_by movement/byzantine-art` はゴシック美術全体がビザンティン様式を継承したという
+意味ではなく、ハイ・ゴシックへ至る過渡期に限定して記録する。
 
 ## 未着手
 
