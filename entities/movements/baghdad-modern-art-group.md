@@ -31,6 +31,8 @@ space:
 relations:
   - {type: created_by, target: person/shakir-hassan-al-said}
   - {type: influenced_by, target: movement/baghdad-school-of-illustration, certainty: scholarly, source: "https://doi.org/10.1163/22118993_03501P010"}
+  - {type: influenced_by, target: movement/cubism, certainty: scholarly, source: "https://www.thescopes.org/assets/Uploads/4f5f5f6bb3/03-050-Saad-11-08.pdf"}
+  - {type: influenced_by, target: movement/expressionism, certainty: scholarly, source: "https://www.thescopes.org/assets/Uploads/4f5f5f6bb3/03-050-Saad-11-08.pdf"}
 sources:
   - https://www.wikidata.org/wiki/Q16123956
   - https://www.wikidata.org/wiki/Q2720307
@@ -45,6 +47,7 @@ sources:
   - https://www.bard.edu/news/survey-baghdad-group-for-modern-art-june-ccs-bards-hessel-museum-2025-01-30
   - https://artcentron.com/2025/07/03/the-baghdad-modern-art-group-a-pivotal-force-in-postcolonial-art/
   - https://doi.org/10.1163/22118993_03501P010
+  - https://www.thescopes.org/assets/Uploads/4f5f5f6bb3/03-050-Saad-11-08.pdf
   - https://en.wikipedia.org/wiki/Al-Bu%27d_al-Wahad
   - https://en.wikipedia.org/wiki/Mohammed_Ghani_Hikmat
 status: draft
@@ -87,6 +90,15 @@ updated: 2026-08-09
 ［イラクの］画家たちの足跡をたどることで、私たちの現代の目覚めにおける［芸術的］アイデンティティの
 問題を解決するだろう。新しい世代の芸術家は、祖先の初期の遺産の中に導きの光の始まりを見出す」
 （二次資料による引用で、原文・原典カタログには未到達）。
+
+一方、イラク近代美術の形成過程を扱ったQassim Saadの論文は、第二次大戦期以降のモダニズムの
+アプローチに触発され、ジャワード・サリームらがキュビスムと表現主義を試みたと記録している
+（[Iraqi Art](https://www.thescopes.org/assets/Uploads/4f5f5f6bb3/03-050-Saad-11-08.pdf)）。
+同論文は続けて、サリームが1951年にバグダード近代美術グループを結成し、古代イラクとイスラーム
+黄金期の遺産を現代的な枠組みへ再統合しようとしたと説明する。このため本項の
+`influenced_by movement/cubism` と `influenced_by movement/expressionism` は、グループ全員の
+全作品に共通する様式という意味ではなく、創設者サリームと初期形成期の西洋モダニズム語彙に
+限定する。抽象表現主義との同一視は、現時点では行わない。
 
 ## kind の判定 — なぜ `self-declared` か
 
