@@ -27,7 +27,8 @@ claims:
   - {field: kind, source: "https://www.moma.org/collection/terms/de-stijl?sanity_preview=true&sanity_preview_secret=d51b1526-f689-4f33-b7c5-896dca252e7a", certainty: scholarly}
 space:
   - {role: originated_in, target: place/leiden}
-relations: []
+relations:
+  - {type: influenced_by, target: movement/cubism, certainty: scholarly, source: "https://assets.moma.org/documents/moma_catalogue_2748_300086869.pdf"}
 images:
   - url: "https://commons.wikimedia.org/wiki/Special:FilePath/Stijl_vol_03_nr_01_p_003.jpg"
     source_page: "https://commons.wikimedia.org/wiki/File:Stijl_vol_03_nr_01_p_003.jpg"
@@ -40,6 +41,7 @@ sources:
   - https://www.lakenhal.nl/en/story/de-stijl
   - https://www.moma.org/collection/terms/de-stijl?sanity_preview=true&sanity_preview_secret=d51b1526-f689-4f33-b7c5-896dca252e7a
   - https://www.moma.org/documents/moma_catalogue_1798_300159061.pdf
+  - https://assets.moma.org/documents/moma_catalogue_2748_300086869.pdf
   - https://commons.wikimedia.org/wiki/File:Stijl_vol_03_nr_01_p_003.jpg
 status: draft
 updated: 2026-08-11
@@ -79,6 +81,13 @@ updated: 2026-08-11
 その後の活動はオランダ一都市に閉じず、参加者の移動と雑誌の国際的な寄稿を通じて広がった。ただし、
 本エントリでは未調査の都市を `active_in` として増やしていない。
 
+## キュビスムからネオ・プラスティシスムへ
+
+MoMAの『Cubism and Abstract Art』カタログは、1910年にパリへ移ったピート・モンドリアンがピカソの
+影響を受け、1911年から1915年にかけて構成を抽象化していった経路を示す。これはデ・ステイル全体が
+キュビスムの単純な後継だったという意味ではなく、運動の主要な形成要素であるモンドリアンのネオ・
+プラスティシスムに限定した `influenced_by` である。
+
 ## バウハウスとの関係
 
 デ・ステイルからバウハウスへの影響を記録する。MoMAの展覧会カタログは、テオ・ファン・ドゥースブルフの
@@ -93,5 +102,5 @@ updated: 2026-08-11
 - ファン・ドゥースブルフ、ピート・モンドリアン、バルト・ファン・デル・レック、ヘリット・リートフェルトらの人物エンティティ化
 - 雑誌各号と1918年の宣言・論文の一次資料化
 - ユトレヒト、パリ、ワイマールなど、参加者・講義・建築作品に即した活動地の追加
-- 構成主義、キュビスム、ダダとの関係。類似だけで影響線を増やさない
+- 構成主義、ダダとの関係。類似だけで影響線を増やさない
 - 1931年／1932年の終点の差を、結社・雑誌・理念のどの単位で区切るかの精密化

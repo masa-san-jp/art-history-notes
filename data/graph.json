@@ -2235,7 +2235,14 @@
           "target": "place/leiden"
         }
       ],
-      "relations": [],
+      "relations": [
+        {
+          "type": "influenced_by",
+          "target": "movement/cubism",
+          "certainty": "scholarly",
+          "source": "https://assets.moma.org/documents/moma_catalogue_2748_300086869.pdf"
+        }
+      ],
       "images": [
         {
           "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Stijl_vol_03_nr_01_p_003.jpg",
@@ -2251,6 +2258,7 @@
         "https://www.lakenhal.nl/en/story/de-stijl",
         "https://www.moma.org/collection/terms/de-stijl?sanity_preview=true&sanity_preview_secret=d51b1526-f689-4f33-b7c5-896dca252e7a",
         "https://www.moma.org/documents/moma_catalogue_1798_300159061.pdf",
+        "https://assets.moma.org/documents/moma_catalogue_2748_300086869.pdf",
         "https://commons.wikimedia.org/wiki/File:Stijl_vol_03_nr_01_p_003.jpg"
       ],
       "status": "draft",
@@ -13488,6 +13496,13 @@
     },
     {
       "from": "movement/de-stijl",
+      "type": "influenced_by",
+      "to": "movement/cubism",
+      "certainty": "scholarly",
+      "source": "https://assets.moma.org/documents/moma_catalogue_2748_300086869.pdf"
+    },
+    {
+      "from": "movement/de-stijl",
       "type": "originated_in",
       "to": "place/leiden"
     },
@@ -15146,6 +15161,12 @@
       "from": "movement/mono-ha",
       "type": "influenced",
       "to": "movement/dansaekhwa",
+      "derived": true
+    },
+    {
+      "from": "movement/cubism",
+      "type": "influenced",
+      "to": "movement/de-stijl",
       "derived": true
     },
     {
