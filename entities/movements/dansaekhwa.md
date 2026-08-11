@@ -29,13 +29,14 @@ claims:
 space:
   - {role: originated_in, target: place/seoul}
 relations:
-  - {type: influenced_by, target: movement/mono-ha, certainty: scholarly, source: "https://m.kukjegallery.com/db_img/mediaCoverage/media_coverage_Dansaekhwa__Collateral_Event_of_the_56th_International_Art_Exhibition_%E2%80%93_La_Biennale_di_Venezia_2015_02_25_e82.pdf"}
+  - {type: influenced_by, target: movement/mono-ha, certainty: scholarly, source: "https://www.frieze.com/article/skin-surface"}
 sources:
   - https://www.wikidata.org/wiki/Q24988307
   - https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300417394
   - https://en.wikipedia.org/wiki/Dansaekhwa
   - https://ko.wikipedia.org/wiki/%EB%8B%A8%EC%83%89%ED%99%94
   - https://mmcaresearch.kr/terms/view.do?fid=2211
+  - https://www.frieze.com/article/skin-surface
   - https://m.kukjegallery.com/db_img/mediaCoverage/media_coverage_Dansaekhwa__Collateral_Event_of_the_56th_International_Art_Exhibition_%E2%80%93_La_Biennale_di_Venezia_2015_02_25_e82.pdf
 status: draft
 updated: 2026-08-09
@@ -165,7 +166,8 @@ by Hur Hwang, both of which were submitted to the first Independants in 1972."
 単色画は、もの派をそのまま継承した単一の後継運動ではないが、李禹煥の韓日往来を通じて、もの派の考え方の一部を受け取った。
 キュレーターの尹晋燮は、李禹煥が韓国と日本を頻繁に行き来したことで「日本のもの派の考え」が韓国に広がり、
 李の地位と人気によってその影響が広範囲に及んだと記している
-（[Yoon Jin Sup, Frieze掲載論考](https://m.kukjegallery.com/db_img/mediaCoverage/media_coverage_Dansaekhwa__Collateral_Event_of_the_56th_International_Art_Exhibition_%E2%80%93_La_Biennale_di_Venezia_2015_02_25_e82.pdf)）。
+（[Yoon Jin Supほか「Skin & Surface」Frieze初出](https://www.frieze.com/article/skin-surface)、
+[Kukje Galleryによる再録PDF](https://m.kukjegallery.com/db_img/mediaCoverage/media_coverage_Dansaekhwa__Collateral_Event_of_the_56th_International_Art_Exhibition_%E2%80%93_La_Biennale_di_Venezia_2015_02_25_e82.pdf)）。
 ここで動いたのは、人（李禹煥）を媒介にした考え方である。この関係は、単色画の成立をもの派だけに還元するものではなく、
 韓国の作家たちが固有の伝統や問題意識のなかで展開したことも含めた、限定的な受容を示す。
 
