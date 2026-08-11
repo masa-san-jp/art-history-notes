@@ -25,13 +25,16 @@ claims:
   - {field: kind, source: "https://www.wikidata.org/wiki/Q11394761", certainty: scholarly}
 space:
   - {role: originated_in, target: place/kyoto}
-relations: []
+relations:
+  - {type: influenced_by, target: movement/nanga, certainty: scholarly, source: "https://kyoto-museums.city.kyoto.lg.jp/en/feature-column/painting/"}
 sources:
   - https://www.wikidata.org/wiki/Q11394761
   - https://www.wikidata.org/wiki/Q11394770
   - https://www.wikidata.org/wiki/Q3577704
   - https://ja.wikipedia.org/wiki/円山・四条派
   - https://en.wikipedia.org/wiki/Shij%C5%8D_school
+  - https://kyoto-museums.city.kyoto.lg.jp/en/feature-column/painting/
+  - https://www.fujibi.or.jp/collection/artwork/09092/
 images:
   - url: https://www.artic.edu/iiif/2/19669877-89b4-a950-a918-3c3c4af312fa/full/843,/0/default.jpg
     source_page: https://www.artic.edu/artworks/196928
@@ -69,6 +72,17 @@ updated: 2026-08-10
 「Maruyama School」単体の項目（`300018658`、SPARQLで確認）はあるが、円山四条派という結合した
 括りに対応する AAT 項目は見つかっていない。円山派単体の ID を円山四条派に転用すると対象がずれるため、
 本項の `authority.aat` は空欄のままにした。
+
+## 南画との関係
+
+京都市の博物館協会は、呉春・松村景文らの四条派が円山派の画風に南画（中国の南宗画）を加えたと説明
+している。また東京富士美術館は、呉春が与謝蕪村に師事して画を学んだ後、円山応挙にも学び、蕪村の
+詩情性と応挙の写実性を折衷して四条派の祖となったと記載する。
+
+このエッジが表すのは、円山四条派という総称全体が一様に南画から影響を受けたという主張ではない。
+現在のエンティティが円山派と四条派をまとめているため、**関係の実体はそのうち四条派側にある**。
+将来、両派を別エンティティに分ける場合は、この `influenced_by` を四条派へ移すべきである。
+現段階では、呉春が蕪村から学んだ南画を四条派の形成へ持ち込んだ経路を、総称側に注記付きで記録する。
 
 ## kind の判定 — なぜ `retrospective` か
 

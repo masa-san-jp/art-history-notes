@@ -27,11 +27,15 @@ space:
   - {role: active_in, target: place/tokyo}
 relations:
   - {type: influenced_by, target: person/dong-qichang, certainty: scholarly, source: "https://en.wikipedia.org/wiki/Nanga_(art)"}
+  - {type: influenced_by, target: movement/literati-painting, certainty: scholarly, source: "https://eaa.fas.harvard.edu/museum/nanga-painting-feinberg-collection"}
 sources:
   - https://ja.wikipedia.org/wiki/南画
   - https://ja.wikipedia.org/wiki/文人画
   - https://en.wikipedia.org/wiki/Nanga_(art)
   - https://www.wikidata.org/wiki/Q2928221
+  - https://jpsearch.go.jp/en/gallery/ndl-D6xwaWpaGKiEYVp
+  - https://www.kyohaku.go.jp/old/eng/theme/floor2_4/past/kinse_20170221.html
+  - https://eaa.fas.harvard.edu/museum/nanga-painting-feinberg-collection
   - https://www.metmuseum.org/art/collection/search/671023
   - https://www.artic.edu/artworks/185222
 images:
@@ -61,6 +65,16 @@ updated: 2026-08-10
 初期の担い手として祇園南海（1676-1751）・柳沢淇園（1704-1758）・彭城百川が挙げられ、池大雅
 （1723-1776）・与謝蕪村（1716-1784）の世代で様式が確立したとされる（日本語版Wikipedia「南画」、
 二次情報）。
+
+## 中国の文人画との関係
+
+京都国立博物館は、18〜19世紀の南画家が強い中国の影響を示し、明末の蘇州の画家たちの技法をもとに
+独自の様式を発展させたと説明している。国立国会図書館のJapan Searchも、南画の起源を中国の南宗画に
+置き、その様式が中国から日本へ広がったと整理する。ハーバード大学の解説が具体的に挙げる伝達経路は、
+中国から輸入された絵画、中国人画家が滞在した長崎、そして木版の画譜である。
+
+この関係で動いたものは**物（中国の木版画譜）**と限定する。日本の南画家の多くが、輸入された中国の
+画譜を参照して筆法や構図を学んだため、南画を受け取り側として中国の文人画へ `influenced_by` を張る。
 
 ## kind の判定 — なぜ `retrospective` か
 
@@ -123,9 +137,6 @@ Wikidata Q2928221 には `P571`（inception）・`P576`（dissolved）の claim 
 
 ## 未着手
 
-- `movement/literati-painting`（中国側の文人画・南宗画）への `influenced_by` — 対象のエンティティが
-  このKBにまだ無いため（他の調査が並行して作成中）、`person/dong-qichang` への関係で代替した。
-  対象movementが揃ったら、より直接の movement 間の関係として張り直せる可能性がある
 - 桑山玉洲（クワヤマ・ギョクシュウ、1746-1799）——英語版Wikipediaによれば董其昌の理論・文人理念を
   日本の文人画家に適用するよう説いた理論家で、「日本の董其昌」とも評される。`docs/schema.md` の
   person 作成基準への当てはまりを検討する余地があるが、一次資料未確認のため今回は本文言及のみに
