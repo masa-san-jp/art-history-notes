@@ -1599,11 +1599,14 @@
         "https://www.moma.org/interactives/exhibitions/1998/rodchenko/texts/new_cultural.html",
         "https://nga.gov.au/exhibitions/russian-avant-garde/",
         "https://www.theartstory.org/movement/suprematism/",
+        "https://www.vkhutemas.ru/en/summary/",
+        "https://www.vkhutemas.ru/en/the-history/",
+        "https://www.moma.org/interactives/objectphoto/schools/15.html",
         "https://www.nga.gov/artworks/93943-wendingen",
         "https://commons.wikimedia.org/wiki/File:El_Lissitzky,_Wendingen,_1921_(published_1923),_NGA_93943.jpg"
       ],
       "status": "draft",
-      "updated": "2026-08-11",
+      "updated": "2026-08-12",
       "path": "entities/movements/constructivism.md"
     },
     "movement/cubism": {
@@ -7659,6 +7662,42 @@
       "updated": "2026-08-10",
       "path": "entities/orgs/thanjavur-maratha-kingdom.md"
     },
+    "org/vkhutemas": {
+      "id": "org/vkhutemas",
+      "uri": "urn:ahn:org/vkhutemas",
+      "type": "org",
+      "label_ja": "ヴフテマス",
+      "label_en": "VKhUTEMAS",
+      "authority": {
+        "wikidata": "Q1635293",
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": "1920",
+        "end": "1930",
+        "display": "1920年設立〜1927年VKhUTEMASとして活動、1927/28年にVKhUTEINへ改称〜1930年閉校"
+      },
+      "space": [
+        {
+          "role": "sited_in",
+          "target": "place/moscow"
+        }
+      ],
+      "relations": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q1635293",
+        "https://www.vkhutemas.ru/en/summary/",
+        "https://www.vkhutemas.ru/en/the-history/",
+        "https://www.moma.org/interactives/objectphoto/schools/15.html",
+        "https://www.getty.edu/vow/ULANFullDisplay?find=&nation=&page=&role=&subjectid=500114223"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/orgs/vkhutemas.md"
+    },
     "person/abanindranath-tagore": {
       "id": "person/abanindranath-tagore",
       "uri": "urn:ahn:person/abanindranath-tagore",
@@ -12914,6 +12953,11 @@
       "from": "org/societe-anonyme-artistes",
       "type": "sited_in",
       "to": "place/paris"
+    },
+    {
+      "from": "org/vkhutemas",
+      "type": "sited_in",
+      "to": "place/moscow"
     },
     {
       "from": "person/david-alfaro-siqueiros",
