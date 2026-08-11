@@ -3,7 +3,7 @@
     {
       "kind": "no-cross-region",
       "about": "all",
-      "text": "他の文化圏の movement と1本も繋がっていない movement が 55/99 件。時間だけでなく空間の広がりを体系化するので、影響・伝播・反発を調べる余地"
+      "text": "他の文化圏の movement と1本も繋がっていない movement が 53/99 件。時間だけでなく空間の広がりを体系化するので、影響・伝播・反発を調べる余地"
     },
     {
       "kind": "no-cross-region",
@@ -12,13 +12,13 @@
     },
     {
       "kind": "no-cross-region",
-      "about": "asia-east-japan",
-      "text": "asia-east-japan: 7件（具体美術協会、円山四条派、民藝運動、南画 ほか）"
+      "about": "africa-sub",
+      "text": "africa-sub: 6件（ベニン王国宮廷美術、ゴンダール様式教会絵画、イフェ美術、ノク彫刻 ほか）"
     },
     {
       "kind": "no-cross-region",
-      "about": "africa-sub",
-      "text": "africa-sub: 6件（ベニン王国宮廷美術、ゴンダール様式教会絵画、イフェ美術、ノク彫刻 ほか）"
+      "about": "asia-east-japan",
+      "text": "asia-east-japan: 6件（円山四条派、民藝運動、南画、琳派 ほか）"
     },
     {
       "kind": "no-cross-region",
@@ -42,11 +42,6 @@
     },
     {
       "kind": "no-cross-region",
-      "about": "asia-southeast",
-      "text": "asia-southeast: 4件（インドシナ漆絵画（ソンマイ）、ピタ・マハ、ラッタナコーシン様式壁画、ザ・サーティーン・モダンズ）"
-    },
-    {
-      "kind": "no-cross-region",
       "about": "asia-east-korea",
       "text": "asia-east-korea: 3件（安堅派、高麗仏画、朝鮮後期風俗画）"
     },
@@ -54,6 +49,11 @@
       "kind": "no-cross-region",
       "about": "mena",
       "text": "mena: 3件（バグダード近代美術グループ、チュニス派、カージャール絵画）"
+    },
+    {
+      "kind": "no-cross-region",
+      "about": "asia-southeast",
+      "text": "asia-southeast: 3件（ピタ・マハ、ラッタナコーシン様式壁画、ザ・サーティーン・モダンズ）"
     },
     {
       "kind": "no-cross-region",
