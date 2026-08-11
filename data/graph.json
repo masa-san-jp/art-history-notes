@@ -6498,11 +6498,20 @@
           "target": "place/florence"
         }
       ],
-      "relations": [],
+      "relations": [
+        {
+          "type": "influenced_by",
+          "target": "movement/byzantine-art",
+          "certainty": "scholarly",
+          "source": "https://www.metmuseum.org/exhibitions/listings/2004/byzantium-faith-and-power"
+        }
+      ],
       "sources": [
         "https://www.wikidata.org/wiki/Q1404472",
         "https://www.metmuseum.org/essays/anatomy-in-the-renaissance",
-        "https://82nd-and-fifth.metmuseum.org/toah/ht/08/eustc.html"
+        "https://82nd-and-fifth.metmuseum.org/toah/ht/08/eustc.html",
+        "https://www.metmuseum.org/exhibitions/listings/2004/byzantium-faith-and-power",
+        "https://www.metmuseum.org/press-releases/dazzling-byzantine-treasures-displayed-at-metropolitan-museum-opening-march-23-2004-exhibitions"
       ],
       "status": "draft",
       "updated": "2026-08-12",
@@ -14184,6 +14193,13 @@
     },
     {
       "from": "movement/renaissance",
+      "type": "influenced_by",
+      "to": "movement/byzantine-art",
+      "certainty": "scholarly",
+      "source": "https://www.metmuseum.org/exhibitions/listings/2004/byzantium-faith-and-power"
+    },
+    {
+      "from": "movement/renaissance",
       "type": "originated_in",
       "to": "place/florence"
     },
@@ -15433,6 +15449,12 @@
       "from": "movement/realism",
       "type": "influenced",
       "to": "movement/rattanakosin-mural-painting",
+      "derived": true
+    },
+    {
+      "from": "movement/byzantine-art",
+      "type": "influenced",
+      "to": "movement/renaissance",
       "derived": true
     },
     {
