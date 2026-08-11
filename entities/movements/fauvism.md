@@ -27,11 +27,13 @@ claims:
   - {field: kind, source: "https://www.wikidata.org/wiki/Q166593", certainty: scholarly}
 space:
   - {role: originated_in, target: place/paris}
-relations: []
+relations:
+  - {type: influenced_by, target: movement/post-impressionism, certainty: scholarly, source: "https://www.metmuseum.org/ja/essays/fauvism"}
 sources:
   - https://www.wikidata.org/wiki/Q166593
   - https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300021300
   - https://shop.tate.org.uk/derain-the-pool-of-london/andder1703.html
+  - https://www.metmuseum.org/ja/essays/fauvism
 status: draft
 updated: 2026-08-12
 ---
@@ -51,6 +53,14 @@ updated: 2026-08-12
 
 パリのサロンと画家ネットワークを起点ノードとして置く。マティスとドランが南仏コリウールで制作した経路や、
 セザンヌ・ゴッホ・ゴーギャンからの受容は、人物・作品を追加した段階で別関係にする。
+
+## ポスト印象派からの形成経路
+
+メトロポリタン美術館は、マティスがフォーヴ様式へ到達する前に、ゴッホ、ゴーギャン、セザンヌらの
+ポスト印象派の様式を試みていたと説明する。また、ヴラマンクが1905年にゴッホの回顧展を見たことも
+フォーヴ様式への転換の契機として記録されている（[同館の解説](https://www.metmuseum.org/ja/essays/fauvism)）。
+このため本項では、フォーヴィスム全体がポスト印象派の単一の様式を継承したと一般化せず、中心人物の
+形成経路に限定して `influenced_by movement/post-impressionism` を記録する。
 
 ## 未着手
 
