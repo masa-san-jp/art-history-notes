@@ -2399,6 +2399,12 @@
           "target": "movement/negritude"
         },
         {
+          "type": "influenced_by",
+          "target": "movement/poto-poto-school",
+          "certainty": "scholarly",
+          "source": "https://heiup.uni-heidelberg.de/catalog/view/457/679/85134"
+        },
+        {
           "type": "created_by",
           "target": "person/papa-ibra-tall"
         },
@@ -2417,10 +2423,11 @@
         "https://en.wikipedia.org/wiki/Papa_Ibra_Tall",
         "https://en.wikipedia.org/wiki/Iba_Ndiaye",
         "https://momaa.org/ecole-de-dakar-senegals-negritude-aesthetic/",
-        "https://www.tate.org.uk/art/art-terms/n/negritude"
+        "https://www.tate.org.uk/art/art-terms/n/negritude",
+        "https://heiup.uni-heidelberg.de/catalog/view/457/679/85134"
       ],
       "status": "draft",
-      "updated": "2026-08-09",
+      "updated": "2026-08-12",
       "path": "entities/movements/ecole-de-dakar.md"
     },
     "movement/ecole-de-tunis": {
@@ -13453,6 +13460,13 @@
     },
     {
       "from": "movement/ecole-de-dakar",
+      "type": "influenced_by",
+      "to": "movement/poto-poto-school",
+      "certainty": "scholarly",
+      "source": "https://heiup.uni-heidelberg.de/catalog/view/457/679/85134"
+    },
+    {
+      "from": "movement/ecole-de-dakar",
       "type": "created_by",
       "to": "person/papa-ibra-tall",
       "certainty": null,
@@ -15025,6 +15039,12 @@
     {
       "from": "movement/negritude",
       "type": "has_part",
+      "to": "movement/ecole-de-dakar",
+      "derived": true
+    },
+    {
+      "from": "movement/poto-poto-school",
+      "type": "influenced",
       "to": "movement/ecole-de-dakar",
       "derived": true
     },
