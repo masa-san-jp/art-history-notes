@@ -1814,13 +1814,22 @@
           "target": "place/seoul"
         }
       ],
-      "relations": [],
+      "relations": [
+        {
+          "type": "influenced_by",
+          "target": "movement/mono-ha",
+          "certainty": "scholarly",
+          "source": "https://www.frieze.com/article/skin-surface"
+        }
+      ],
       "sources": [
         "https://www.wikidata.org/wiki/Q24988307",
         "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300417394",
         "https://en.wikipedia.org/wiki/Dansaekhwa",
         "https://ko.wikipedia.org/wiki/%EB%8B%A8%EC%83%89%ED%99%94",
-        "https://mmcaresearch.kr/terms/view.do?fid=2211"
+        "https://mmcaresearch.kr/terms/view.do?fid=2211",
+        "https://www.frieze.com/article/skin-surface",
+        "https://m.kukjegallery.com/db_img/mediaCoverage/media_coverage_Dansaekhwa__Collateral_Event_of_the_56th_International_Art_Exhibition_%E2%80%93_La_Biennale_di_Venezia_2015_02_25_e82.pdf"
       ],
       "status": "draft",
       "updated": "2026-08-09",
@@ -6576,7 +6585,14 @@
           "target": "place/venice"
         }
       ],
-      "relations": [],
+      "relations": [
+        {
+          "type": "influenced_by",
+          "target": "movement/byzantine-art",
+          "certainty": "scholarly",
+          "source": "https://www.metmuseum.org/de/essays/venice-in-the-eighteenth-century"
+        }
+      ],
       "sources": [
         "https://www.wikidata.org/wiki/Q610687",
         "https://www.wikidata.org/wiki/Q641",
@@ -6597,7 +6613,8 @@
         "https://en.wikipedia.org/wiki/Luigi_Lanzi",
         "https://www.academia.edu/37111049/Luigi_Lanzi_e_le_scuole_pittoriche",
         "https://www.theartstory.org/movement/venetian-school/",
-        "https://www.ebsco.com/research-starters/visual-arts/venetian-school-painting"
+        "https://www.ebsco.com/research-starters/visual-arts/venetian-school-painting",
+        "https://www.metmuseum.org/de/essays/venice-in-the-eighteenth-century"
       ],
       "status": "draft",
       "updated": "2026-08-09",
@@ -11499,6 +11516,13 @@
     },
     {
       "from": "movement/dansaekhwa",
+      "type": "influenced_by",
+      "to": "movement/mono-ha",
+      "certainty": "scholarly",
+      "source": "https://www.frieze.com/article/skin-surface"
+    },
+    {
+      "from": "movement/dansaekhwa",
       "type": "originated_in",
       "to": "place/seoul"
     },
@@ -12222,6 +12246,13 @@
     },
     {
       "from": "movement/venetian-school",
+      "type": "influenced_by",
+      "to": "movement/byzantine-art",
+      "certainty": "scholarly",
+      "source": "https://www.metmuseum.org/de/essays/venice-in-the-eighteenth-century"
+    },
+    {
+      "from": "movement/venetian-school",
       "type": "originated_in",
       "to": "place/venice"
     },
@@ -12580,6 +12611,12 @@
       "derived": true
     },
     {
+      "from": "movement/mono-ha",
+      "type": "influenced",
+      "to": "movement/dansaekhwa",
+      "derived": true
+    },
+    {
       "from": "movement/safavid-painting",
       "type": "influenced",
       "to": "movement/deccan-painting",
@@ -12901,6 +12938,12 @@
       "from": "concept/ukiyo-e",
       "type": "has_part",
       "to": "movement/utagawa-school",
+      "derived": true
+    },
+    {
+      "from": "movement/byzantine-art",
+      "type": "influenced",
+      "to": "movement/venetian-school",
       "derived": true
     },
     {
