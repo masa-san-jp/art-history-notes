@@ -7320,6 +7320,18 @@
         {
           "type": "created_by",
           "target": "person/victorio-edades"
+        },
+        {
+          "type": "influenced_by",
+          "target": "movement/post-impressionism",
+          "certainty": "scholarly",
+          "source": "https://www.jpf.go.jp/j/publish/asia_exhibition_history/pdf/17_95_modernism_5.pdf"
+        },
+        {
+          "type": "influenced_by",
+          "target": "movement/cubism",
+          "certainty": "scholarly",
+          "source": "https://www.jpf.go.jp/j/publish/asia_exhibition_history/pdf/17_95_modernism_5.pdf"
         }
       ],
       "sources": [
@@ -14077,6 +14089,20 @@
     },
     {
       "from": "movement/thirteen-moderns",
+      "type": "influenced_by",
+      "to": "movement/post-impressionism",
+      "certainty": "scholarly",
+      "source": "https://www.jpf.go.jp/j/publish/asia_exhibition_history/pdf/17_95_modernism_5.pdf"
+    },
+    {
+      "from": "movement/thirteen-moderns",
+      "type": "influenced_by",
+      "to": "movement/cubism",
+      "certainty": "scholarly",
+      "source": "https://www.jpf.go.jp/j/publish/asia_exhibition_history/pdf/17_95_modernism_5.pdf"
+    },
+    {
+      "from": "movement/thirteen-moderns",
       "type": "originated_in",
       "to": "place/manila"
     },
@@ -15120,6 +15146,18 @@
     {
       "from": "person/victorio-edades",
       "type": "created",
+      "to": "movement/thirteen-moderns",
+      "derived": true
+    },
+    {
+      "from": "movement/post-impressionism",
+      "type": "influenced",
+      "to": "movement/thirteen-moderns",
+      "derived": true
+    },
+    {
+      "from": "movement/cubism",
+      "type": "influenced",
       "to": "movement/thirteen-moderns",
       "derived": true
     },

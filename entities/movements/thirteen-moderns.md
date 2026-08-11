@@ -30,6 +30,8 @@ space:
   - {role: originated_in, target: place/manila}
 relations:
   - {type: created_by, target: person/victorio-edades}
+  - {type: influenced_by, target: movement/post-impressionism, certainty: scholarly, source: "https://www.jpf.go.jp/j/publish/asia_exhibition_history/pdf/17_95_modernism_5.pdf"}
+  - {type: influenced_by, target: movement/cubism, certainty: scholarly, source: "https://www.jpf.go.jp/j/publish/asia_exhibition_history/pdf/17_95_modernism_5.pdf"}
 sources:
   - https://www.jpf.go.jp/j/publish/asia_exhibition_history/pdf/17_95_modernism_5.pdf
   - https://cdn.aaa.org.hk/_source/digital_collection/fedora_extracted/45808.pdf
