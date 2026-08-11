@@ -41,7 +41,7 @@ sources:
   - https://writing.upenn.edu/library/Tzara_Dada-Manifesto_1918.pdf
   - https://www.britannica.com/art/Dada
 status: draft
-updated: 2026-08-10
+updated: 2026-08-11
 ---
 
 # ダダ / Dada
@@ -155,10 +155,6 @@ Zurich" と起点を1都市に絞って書いているためであり、他の�
 
 ## 未着手
 
-- シュルレアリスムとの `influenced_by`（シュルレアリスムがダダから受け取った側の関係）——
-  関係は受け取った側に書く規約のため、ここでは張らない。
-  [entities/movements/surrealism.md](surrealism.md) の `## 未着手` が既にこの関係を
-  名指しており、対応する追記は同ファイル側の未着手として残る（今回このファイルは変更していない）
 - Wikidata `P737`（influenced by）が挙げる相手のうち、キュビスム・表現主義・反戦運動・
   アフリカ美術・『ユビュ王』・バレエ『パラード』はいずれも本KBに未収録で、関係線を
   張れない。次に立てるべき隣人の候補
