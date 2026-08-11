@@ -171,9 +171,9 @@ UNOVISを通じて絵画の外へ分岐する（リシツキーの建築的な�
 関心を持つのに対し、シュプレマティスムは「深く反唯物論的、反功利主義的な哲学」を体現した
 と対比する（en.wikipedia「Suprematism」、二次情報）。
 
-Constructivism（ロシア構成主義）は本KBに未収録のため、`reacts_against`の関係線はここでは
-張らない（相手先が無いため）。将来この対象がKBに入った時点で、上記の対立を根拠に関係を
-検討する。
+構成主義（[movement/constructivism](constructivism.md)）が立項されたため、同運動側から
+`reacts_against → movement/suprematism` を記録した。ここでの関係は、1921年前後の理論的・制度的な
+分岐を指し、両運動に関わった個々の作家の全作品が対立したという意味ではない。
 
 ## 時間
 
@@ -236,8 +236,7 @@ suprematizmu』で、第2版で futurizm が題に足されている
 - 『Supremus』誌が未刊に終わった経緯の一次資料への到達
 - リシツキー・チャシニク・スエーチン・エルモラーエワら弟子たちのperson化。現状は
   `docs/schema.md`の作成基準のどれにも単独では当たらないため、本文に名前を書くのみに留めた
-- Constructivism（ロシア構成主義）のmovementとしての立項、および立項後の`reacts_against`の
-  関係線の追加
+- 構成主義との関係を、個々の作家・作品・学校の経路まで分解すること
 - 『Die gegenstandslose Welt』（1927年）本文そのものへの到達——「supremacy of pure feeling」の
   正確な引用元ページは二次情報間の言及に依っており、原文の該当箇所は未確認
 - マレーヴィチの生年（1878年／1879年）の不一致の解消（person/kazimir-malevichに記録）
