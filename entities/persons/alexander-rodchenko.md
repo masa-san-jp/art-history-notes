@@ -55,6 +55,7 @@ updated: 2026-08-12
 ## 主要作
 
 - [《空間構成 第12番》](../works/spatial-construction-no-12.md)（1920年頃）
+- [『LEF』第2号](../works/lef-no-2-1924.md)（1924年、共同制作）
 
 ## 未着手
 
