@@ -44,6 +44,7 @@ sources:
   - https://www.fondation-giacometti.fr/en/event/308/the-baghdad-group-for-modern-art-shaping-modernism-in-iraq-through-affinities-and-congruities
   - https://www.bard.edu/news/survey-baghdad-group-for-modern-art-june-ccs-bards-hessel-museum-2025-01-30
   - https://artcentron.com/2025/07/03/the-baghdad-modern-art-group-a-pivotal-force-in-postcolonial-art/
+  - https://doi.org/10.1163/22118993_03501P010
   - https://en.wikipedia.org/wiki/Al-Bu%27d_al-Wahad
   - https://en.wikipedia.org/wiki/Mohammed_Ghani_Hikmat
 status: draft
