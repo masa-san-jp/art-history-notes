@@ -5643,10 +5643,18 @@
           "target": "place/kyoto"
         }
       ],
-      "relations": [],
+      "relations": [
+        {
+          "type": "influenced_by",
+          "target": "movement/yamato-e",
+          "certainty": "scholarly",
+          "source": "https://jpsearch.go.jp/en/gallery/ndl-JBpERWwDqYZ"
+        }
+      ],
       "sources": [
         "https://www.wikidata.org/wiki/Q3179819",
-        "https://www.getty.edu/research/tools/vocabularies/aat/"
+        "https://www.getty.edu/research/tools/vocabularies/aat/",
+        "https://jpsearch.go.jp/en/gallery/ndl-JBpERWwDqYZ"
       ],
       "images": [
         {
@@ -12164,6 +12172,13 @@
     },
     {
       "from": "movement/rinpa",
+      "type": "influenced_by",
+      "to": "movement/yamato-e",
+      "certainty": "scholarly",
+      "source": "https://jpsearch.go.jp/en/gallery/ndl-JBpERWwDqYZ"
+    },
+    {
+      "from": "movement/rinpa",
       "type": "originated_in",
       "to": "place/kyoto"
     },
@@ -12973,6 +12988,12 @@
       "from": "movement/safavid-painting",
       "type": "influenced",
       "to": "movement/qajar-painting",
+      "derived": true
+    },
+    {
+      "from": "movement/yamato-e",
+      "type": "influenced",
+      "to": "movement/rinpa",
       "derived": true
     },
     {
