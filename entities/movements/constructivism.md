@@ -42,10 +42,13 @@ sources:
   - https://www.moma.org/interactives/exhibitions/1998/rodchenko/texts/new_cultural.html
   - https://nga.gov.au/exhibitions/russian-avant-garde/
   - https://www.theartstory.org/movement/suprematism/
+  - https://www.vkhutemas.ru/en/summary/
+  - https://www.vkhutemas.ru/en/the-history/
+  - https://www.moma.org/interactives/objectphoto/schools/15.html
   - https://www.nga.gov/artworks/93943-wendingen
   - https://commons.wikimedia.org/wiki/File:El_Lissitzky,_Wendingen,_1921_(published_1923),_NGA_93943.jpg
 status: draft
-updated: 2026-08-11
+updated: 2026-08-12
 ---
 
 # ロシア構成主義 / Constructivism
@@ -82,6 +85,13 @@ updated: 2026-08-11
 発生地はモスクワ。INKhUKで理論的議論が行われ、構成主義者の作業グループが形成された場所である。
 ペトログラード、ヴィテプスク、ベルリンなどにも重要な実践と伝播があるが、都市ごとの人物・学校・作品を
 揃えてから `active_in` として追加する。
+
+### VKhUTEMASという教育基盤
+
+構成主義の教育・生産への接続を読むため、[VKhUTEMAS](../orgs/vkhutemas.md)を別の `org` として追加した。
+1920年にモスクワで設立されたこの学校は、絵画・彫刻・建築と印刷・織物・陶磁・木工・金工を同じ制度内に
+置き、ロトチェンコ、ステパノワ、リシツキー、タトリンらが教員として関わった。学校は運動そのものではなく、
+複数の前衛的実践が交差する教育機関なので、`movement/constructivism` の下位ノードにはしていない。
 
 ## シュプレマティスムとの関係
 
