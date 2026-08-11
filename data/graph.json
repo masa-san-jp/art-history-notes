@@ -11995,6 +11995,45 @@
       "updated": "2026-08-12",
       "path": "entities/works/lef-no-2-1924.md"
     },
+    "work/monument-to-third-international": {
+      "id": "work/monument-to-third-international",
+      "uri": "urn:ahn:work/monument-to-third-international",
+      "type": "work",
+      "label_ja": "《第三インターナショナル記念塔》計画",
+      "label_en": "Monument to the Third International",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "構想・模型・再構成が複数の記録に分かれるため、単一の作品典拠IDは未採用"
+      },
+      "time": {
+        "start": "1920",
+        "end": "1920",
+        "display": "1920年の構想・模型公開"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/vladimir-tatlin"
+        },
+        {
+          "type": "belongs_to",
+          "target": "movement/constructivism"
+        }
+      ],
+      "sources": [
+        "https://www.moma.org/moma_learning/docs/MAI4_full.pdf",
+        "https://www.moma.org/docs/press_archives/4149/releases/MOMA_1968_July-December_0081.pdf",
+        "https://www.moma.org/interactives/exhibitions/2012/inventingabstraction/inventingabstractionchecklist.pdf",
+        "https://www.moma.org/collection/works/13818"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/works/monument-to-third-international.md"
+    },
     "work/proun-19d": {
       "id": "work/proun-19d",
       "uri": "urn:ahn:work/proun-19d",
@@ -13595,6 +13634,20 @@
       "source": null
     },
     {
+      "from": "work/monument-to-third-international",
+      "type": "created_by",
+      "to": "person/vladimir-tatlin",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/monument-to-third-international",
+      "type": "belongs_to",
+      "to": "movement/constructivism",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "work/proun-19d",
       "type": "created_by",
       "to": "person/el-lissitzky",
@@ -14352,6 +14405,18 @@
       "from": "movement/constructivism",
       "type": "has_member",
       "to": "work/lef-no-2-1924",
+      "derived": true
+    },
+    {
+      "from": "person/vladimir-tatlin",
+      "type": "created",
+      "to": "work/monument-to-third-international",
+      "derived": true
+    },
+    {
+      "from": "movement/constructivism",
+      "type": "has_member",
+      "to": "work/monument-to-third-international",
       "derived": true
     },
     {
