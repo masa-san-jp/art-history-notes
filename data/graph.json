@@ -6837,7 +6837,14 @@
           "target": "place/yangzhou"
         }
       ],
-      "relations": [],
+      "relations": [
+        {
+          "type": "influenced_by",
+          "target": "movement/literati-painting",
+          "certainty": "scholarly",
+          "source": "https://www.dejiart.com/en/exhibition/yudetangcangyangzhoubaguaijingpinzhan/"
+        }
+      ],
       "sources": [
         "https://www.wikidata.org/wiki/Q340808",
         "https://ja.wikipedia.org/wiki/%E6%8F%9A%E5%B7%9E%E5%85%AB%E6%80%AA",
@@ -6849,7 +6856,9 @@
         "https://en.wikipedia.org/wiki/Qianlong_Emperor",
         "https://www.artic.edu/artworks/80510",
         "https://www.metmuseum.org/art/collection/search/52946",
-        "https://www.metmuseum.org/art/collection/search/51894"
+        "https://www.metmuseum.org/art/collection/search/51894",
+        "https://www.tnm.jp/modules/r_exhibition/index.php?controller=item&id=5882&lang=en",
+        "https://www.dejiart.com/en/exhibition/yudetangcangyangzhoubaguaijingpinzhan/"
       ],
       "images": [
         {
@@ -12282,6 +12291,13 @@
     },
     {
       "from": "movement/yangzhou-eccentrics",
+      "type": "influenced_by",
+      "to": "movement/literati-painting",
+      "certainty": "scholarly",
+      "source": "https://www.dejiart.com/en/exhibition/yudetangcangyangzhoubaguaijingpinzhan/"
+    },
+    {
+      "from": "movement/yangzhou-eccentrics",
       "type": "originated_in",
       "to": "place/yangzhou"
     },
@@ -12964,6 +12980,12 @@
       "from": "movement/byzantine-art",
       "type": "influenced",
       "to": "movement/venetian-school",
+      "derived": true
+    },
+    {
+      "from": "movement/literati-painting",
+      "type": "influenced",
+      "to": "movement/yangzhou-eccentrics",
       "derived": true
     },
     {
