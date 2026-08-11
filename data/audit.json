@@ -1,16 +1,6 @@
 {
   "findings": [
     {
-      "kind": "time-order",
-      "about": "movement/mingei",
-      "text": "民藝運動: 命名年 1925 が対象の開始 1926 より前"
-    },
-    {
-      "kind": "dead-end",
-      "about": "person/dong-qichang",
-      "text": "四王 の taught_by 先 董其昌 が stub のまま（辿れない）"
-    },
-    {
       "kind": "no-cross-region",
       "about": "all",
       "text": "他の文化圏の movement と1本も繋がっていない movement が 62/86 件。時間だけでなく空間の広がりを体系化するので、影響・伝播・反発を調べる余地"
@@ -42,11 +32,6 @@
     },
     {
       "kind": "no-cross-region",
-      "about": "mena",
-      "text": "mena: 5件（バグダード近代美術グループ、ビザンティン美術、チュニス派、カージャール絵画 ほか）"
-    },
-    {
-      "kind": "no-cross-region",
       "about": "asia-southeast",
       "text": "asia-southeast: 5件（バンドン派、インドシナ漆絵画（ソンマイ）、ピタ・マハ、ラッタナコーシン様式壁画 ほか）"
     },
@@ -67,8 +52,13 @@
     },
     {
       "kind": "no-cross-region",
+      "about": "mena",
+      "text": "mena: 4件（バグダード近代美術グループ、チュニス派、カージャール絵画、シーラーズ派）"
+    },
+    {
+      "kind": "no-cross-region",
       "about": "europe-east",
-      "text": "europe-east: 3件（ノヴゴロド派、移動派、シュプレマティスム）"
+      "text": "europe-east: 4件（ビザンティン美術、ノヴゴロド派、移動派、シュプレマティスム）"
     },
     {
       "kind": "no-cross-region",

@@ -26,7 +26,7 @@ authority:
   jpsearch: null
   none_reason: null      # 典拠が1つも無いときだけ理由を書く
 time:
-  start: null            # EDTF: 1884 / 146X / 1503~ / null
+  start: null            # EDTF: 1884 / -0900 / 146X / 1503~ / null
   end: null              # 継続中は ".."
   display: null          # 原表記（元号など）をそのまま残す
 {extra}space: []

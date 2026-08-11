@@ -26,3 +26,6 @@ thresholds:              # issue #1 の受け入れ条件の機械化。数値�
   per_bucket_min: 3
   pre_1800_ratio: 0.30
   isolated_max_ratio: 0.10
+
+# 場所を分割せず、時代による文化圏の違いは config/place-region-history.yaml の
+# [start, end) 辞書で表す。movement の開始時期が複数区間にまたがる場合、集計は複数地域として保持する。

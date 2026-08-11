@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-08-10",
+  "as_of": "2026-08-11",
   "movement_total": 87,
   "movement_stub_excluded": 0,
   "by_status": {
@@ -26,8 +26,6 @@
     "mena": {
       "20": 3,
       "12": 1,
-      "4": 1,
-      "15": 1,
       "18": 1,
       "16": 1,
       "14": 1
@@ -58,9 +56,10 @@
       "20": 3,
       "17": 1,
       "11": 1,
-      "unknown": 1
+      "-10": 1
     },
     "europe-east": {
+      "4": 1,
       "20": 2,
       "12": 1,
       "19": 1
@@ -87,13 +86,16 @@
     },
     "origin-unknown": {
       "11": 1
+    },
+    "origin-multiple": {
+      "15": 1
     }
   },
   "per_bucket": {
     "europe-west": 11,
-    "europe-east": 4,
+    "europe-east": 5,
     "americas-north": 4,
-    "mena": 9,
+    "mena": 7,
     "africa-sub": 7,
     "asia-central": 3,
     "asia-south": 8,
@@ -107,15 +109,23 @@
   "origin_unknown": [
     "movement/literati-painting"
   ],
-  "origin_multiple": [],
+  "origin_multiple": [
+    {
+      "id": "movement/ottoman-miniature",
+      "regions": [
+        "europe-east",
+        "mena"
+      ]
+    }
+  ],
   "isolated": [
     "movement/literati-painting"
   ],
   "progress": {
     "movement_total": "87/100（stub 0件は不算入）",
-    "non_west_ratio": "0.77/0.5",
+    "non_west_ratio": "0.75/0.5",
     "per_bucket_min": "13/13 バケットが 3件以上",
-    "pre_1800_ratio": "0.48/0.3",
+    "pre_1800_ratio": "0.49/0.3",
     "isolated_ratio": "0.01（上限 0.1）"
   }
 }

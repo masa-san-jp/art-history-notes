@@ -19,8 +19,9 @@ from kb import (CERTAINTIES, CLAIM_FIELDS_FOR_VERIFIED, DIR_FOR_TYPE, ENTITIES, 
                 IMAGE_LICENSES,
                 INTERPRETIVE_RELATIONS, MOVEMENT_KINDS, RELATION_TARGET_TYPES, RELATIONS, ROOT,
                 SPACE_ROLES, SPACE_TARGET_TYPES, STATUSES, TYPES, URI_PREFIX, alias_map,
-                build_edges, edtf_ok, edtf_year_range, load_config, load_entities, read_frontmatter,
-                read_queries, regions_of, search_entities)
+                build_edges, century_of_year, edtf_ok, edtf_year_range, load_config, load_entities,
+                load_region_history,
+                read_frontmatter, read_queries, regions_of, search_entities)
 
 OVERVIEWS = ROOT / "overviews"
 MARK_START = "<!-- generated:coverage:start -->"
@@ -176,6 +177,36 @@ def validate(entities, records, cfg, errors):
             if not (path.parent / rel_link).resolve().exists():
                 errors.append(f"{path.relative_to(ROOT)}: 本文のリンク先が無い {rel_link}")
 
+    history = load_region_history()
+    for place_id, entries in history.items():
+        place = entities.get(place_id)
+        if not place or place.get("type") != "place":
+            errors.append(f"place-region-history: 存在しない place {place_id}")
+            continue
+        previous = []
+        for entry in entries or []:
+            start = entry.get("start")
+            end = entry.get("end")
+            region = entry.get("region")
+            if not edtf_ok(start) or start == "..":
+                errors.append(f"place-region-history {place_id}: start が不正: {start!r}")
+            if not edtf_ok(end):
+                errors.append(f"place-region-history {place_id}: end が不正: {end!r}")
+            if region not in cfg["buckets"]:
+                errors.append(f"place-region-history {place_id}: 未知の region: {region}")
+            start_year, _ = edtf_year_range(start)
+            end_year, _ = edtf_year_range(end)
+            if start_year is not None and end_year is not None and start_year >= end_year:
+                errors.append(f"place-region-history {place_id}: start が end 以後: {entry}")
+            for old in previous:
+                old_start, _ = edtf_year_range(old.get("start"))
+                old_end, _ = edtf_year_range(old.get("end"))
+                overlaps = ((old_end is None or start_year is None or start_year < old_end)
+                            and (end_year is None or old_start is None or end_year > old_start))
+                if overlaps:
+                    errors.append(f"place-region-history {place_id}: 区間が重複: {old} / {entry}")
+            previous.append(entry)
+
 
 def check_overview_freshness(entities, errors):
     """俯瞰の depends_on が as_of より後に更新されていたら STALE として落とす。"""
@@ -207,12 +238,13 @@ def coverage(entities, cfg):
     grid, per_bucket = {}, {b: 0 for b in buckets}
     unknown_origin, multi_origin, pre1800, isolated = [], [], 0, []
     all_edges = build_edges(entities)
+    region_history = load_region_history()
     edge_ends = {e["from"] for e in all_edges} | {e["to"] for e in all_edges}
 
     for mid, meta in counted.items():
-        regions = regions_of(mid, entities)
+        regions = regions_of(mid, entities, region_history)
         lo, _hi = edtf_year_range((meta.get("time") or {}).get("start"))
-        century = str(lo // 100 + 1) if lo else "unknown"
+        century = str(century_of_year(lo)) if lo is not None else "unknown"
         if lo and lo < 1800:
             pre1800 += 1
         if not regions:
@@ -260,7 +292,8 @@ def coverage(entities, cfg):
 def render_coverage(cov, cfg, entities):
     buckets = cfg["buckets"]
     centuries = sorted({c for row in cov["grid"].values() for c in row if c != "unknown"}, key=int)
-    cols = [(c, f"{c}C") for c in centuries] + [("unknown", "年代不明")]
+    cols = [(c, f"{abs(int(c))}BCE" if int(c) < 0 else f"{c}C") for c in centuries]
+    cols += [("unknown", "年代不明")]
     header = "| 文化圏 | " + " | ".join(label for _k, label in cols) + " | 計 |"
     sep = "|---" * (len(cols) + 2) + "|"
     lines = [f"データの最新日: {cov['as_of']} — `python3 tools/build_graph.py` が生成（手で書き換えない）", "",

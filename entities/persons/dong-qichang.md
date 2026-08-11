@@ -19,13 +19,13 @@ relations: []
 sources:
   - https://www.wikidata.org/wiki/Q537211
   - https://ja.wikipedia.org/wiki/%E6%B5%99%E6%B4%BE
-status: stub
-updated: 2026-08-09
+status: draft
+updated: 2026-08-11
 ---
 
 # 董其昌
 
-浙派そのものの担い手ではなく、**浙派という名称を作った側**の人物として置いた stub（movement/zhe-school
+浙派そのものの担い手ではなく、**浙派という名称を作った側**の人物として扱う（movement/zhe-school
 の `kind` 判定の根拠になるため作成——`docs/schema.md` の「person をいつ作るか」基準1）。
 
 生没年は Wikidata [Q537211](https://www.wikidata.org/wiki/Q537211)（precision 9・年単位）。

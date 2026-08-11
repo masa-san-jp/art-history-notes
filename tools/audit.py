@@ -27,7 +27,7 @@ from pathlib import Path
 
 import yaml
 
-from kb import ROOT, build_edges, edtf_year_range, load_config, load_entities, regions_of
+from kb import ROOT, build_edges, edtf_year_range, load_config, load_entities, load_region_history, regions_of
 
 OVERVIEWS = ROOT / "overviews"
 OUT = ROOT / "data" / "audit.json"
@@ -62,7 +62,10 @@ def check_time_order(entities, edges, findings):
         naming = meta.get("naming") or {}
         named = edtf_year_range(naming.get("named_when"))[0]
         start = start_year(meta)
-        if named and start and named < start:
+        # self-declared は、名称を作った後に宣言・制度化されることがある。
+        # 例: 民藝は1925年に語が生まれ、1926年に設立趣意書で公表された。
+        # 後付けの括り（retrospective）だけを、対象開始後の命名という時間順で監査する。
+        if named and start and named < start and meta.get("kind") == "retrospective":
             findings.append({"kind": "time-order", "about": eid,
                              "text": f"{meta['label_ja']}: 命名年 {named} が対象の開始 {start} より前"})
 
@@ -80,13 +83,13 @@ def check_grouped_as(entities, edges, findings):
                                      "（後付けの括りは retrospective のはず。part_of の誤用か、相手の kind が誤り）"})
 
 
-def check_kind_bias(entities, cfg, findings):
+def check_kind_bias(entities, cfg, findings, region_history):
     """kind が文化圏の言い換えになっていないか（非西洋＝lineage-school だけ、等）。"""
     by_region = defaultdict(list)
     for eid, meta in entities.items():
         if meta.get("type") != "movement":
             continue
-        for r in regions_of(eid, entities):
+        for r in regions_of(eid, entities, region_history):
             by_region[r].append(meta.get("kind"))
     for region, kinds in sorted(by_region.items()):
         if len(kinds) >= 2 and len(set(kinds)) == 1:
@@ -95,12 +98,12 @@ def check_kind_bias(entities, cfg, findings):
                                      "kind が地域の言い換えになっていないか、別の kind の例を1件探す"})
 
 
-def check_hypotheses(entities, cfg, findings):
+def check_hypotheses(entities, cfg, findings, region_history):
     """俯瞰が挙げた反証先の文化圏に、まだ1件も入っていないもの。"""
     counts = defaultdict(int)
     for eid, meta in entities.items():
         if meta.get("type") == "movement":
-            for r in regions_of(eid, entities):
+            for r in regions_of(eid, entities, region_history):
                 counts[r] += 1
     for path in sorted(OVERVIEWS.glob("*.md")):
         text = path.read_text(encoding="utf-8")
@@ -133,7 +136,7 @@ def check_dangling_lineage(entities, edges, findings):
                                      f"{target['label_ja']} が stub のまま（辿れない）"})
 
 
-def check_cross_region_links(entities, edges, findings):
+def check_cross_region_links(entities, edges, findings, region_history):
     """他の文化圏の movement と1本も繋がっていない movement。
 
     時間軸だけでなく空間的な広がりと関連性を体系化するのが目的なので、どの文化圏とも繋がっていない
@@ -144,7 +147,7 @@ def check_cross_region_links(entities, edges, findings):
     for eid, meta in sorted(entities.items()):
         if meta.get("type") != "movement" or meta.get("status") == "stub":
             continue
-        own = set(regions_of(eid, entities))
+        own = set(regions_of(eid, entities, region_history))
         if not own:
             continue
         total += 1
@@ -153,7 +156,7 @@ def check_cross_region_links(entities, edges, findings):
             other = e["to"] if e["from"] == eid else (e["from"] if e["to"] == eid else None)
             if not other or (entities.get(other) or {}).get("type") != "movement":
                 continue
-            linked |= set(regions_of(other, entities))
+            linked |= set(regions_of(other, entities, region_history))
         if not (linked - own):
             for r in own:
                 isolated[r].append(meta["label_ja"])
@@ -194,15 +197,16 @@ def main():
 
     cfg = load_config()
     entities, _ = load_entities()
+    region_history = load_region_history()
     edges = build_edges(entities)
     findings = []
 
     check_time_order(entities, edges, findings)
     check_grouped_as(entities, edges, findings)
-    check_kind_bias(entities, cfg, findings)
-    check_hypotheses(entities, cfg, findings)
+    check_kind_bias(entities, cfg, findings, region_history)
+    check_hypotheses(entities, cfg, findings, region_history)
     check_dangling_lineage(entities, edges, findings)
-    check_cross_region_links(entities, edges, findings)
+    check_cross_region_links(entities, edges, findings, region_history)
 
     print(render(findings))
     if not a.dry_run:
