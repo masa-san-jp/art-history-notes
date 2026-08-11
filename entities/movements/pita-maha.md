@@ -29,6 +29,7 @@ space:
   - {role: originated_in, target: place/ubud}
 relations:
   - {type: created_by, target: person/rudolf-bonnet}
+  - {type: influenced_by, target: movement/expressionism, certainty: scholarly, source: "https://www.tandfonline.com/doi/abs/10.1080/13639810701440640"}
 sources:
   - https://www.wikidata.org/wiki/Q56294353
   - https://www.houtsnijkunstbali.nl/verdiepingsinformatie/pita-maha/
@@ -36,6 +37,7 @@ sources:
   - http://www.iraj.in/journal/journal_file/journal_pdf/14-440-152293060021-24.pdf
   - https://www.thejakartapost.com/news/2016/03/31/romantic-agony-soul-pita-maha.html
   - https://parasparas.com/archive/tradition-of-unity-pita-maha-balinese-artist-community-of-the-1930s/
+  - https://www.tandfonline.com/doi/abs/10.1080/13639810701440640
 status: draft
 updated: 2026-08-09
 ---
@@ -169,6 +171,16 @@ opgeheven i.v.m. de tweede wereldoorlog（1942年、第二次世界大戦のた�
 `P740`（location of formation）がウブド（[Q210654](https://www.wikidata.org/wiki/Q210654)）を
 指すこと、加えてThe Jakarta Postが「Founded in Ubud, Bali, on Jan. 29, 1936」と明記することの
 2点。
+
+## シュピースを介した表現主義との接続
+
+ピタ・マハの共同設立者ヴァルター・シュピースについて、論文「Walter Spies and Dresden: The Early
+Formative Years of Bali's Renowned Artist, Author and Tourism Icon」は、ドレスデンでの形成期に
+表現主義とブリュッケの画家たちから影響を受けたことを論じ、その考えをインドネシアで出会った別の
+伝統を探る基盤として用いたと説明している（[論文要旨](https://www.tandfonline.com/doi/abs/10.1080/13639810701440640)）。
+このため本項の `influenced_by movement/expressionism` は、ピタ・マハの約150名の会員が一様に
+表現主義の様式を採用したという主張ではない。シュピースが持ち込んだ形成期の理念と視覚的問題意識が、
+彼の共同設立者・指導者としての活動を通じてピタ・マハの形成環境に接続した範囲に限定する。
 
 **未確認**: 結成後の活動が具体的にどの村・地域まで広がったか。Senokosova(2017)はウブド以外に
 バトゥアン・サヌールなど複数地域に及んだとするが、それぞれの活動開始年は本調査では確認できて
