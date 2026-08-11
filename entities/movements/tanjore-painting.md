@@ -30,6 +30,7 @@ space:
   - {role: originated_in, target: place/thanjavur}
 relations:
   - {type: patronized_by, target: org/thanjavur-maratha-kingdom, certainty: scholarly, source: "https://en.wikipedia.org/wiki/Thanjavur_painting"}
+  - {type: influenced_by, target: movement/realism, certainty: scholarly, source: "https://imp-art.org/articles/tanjore-painting/"}
 sources:
   - https://www.wikidata.org/wiki/Q3108584
   - https://en.wikipedia.org/wiki/Thanjavur_painting
@@ -37,6 +38,7 @@ sources:
   - https://www.wikidata.org/wiki/Q3530610
   - https://en.wikipedia.org/wiki/Serfoji_II
   - https://www.metmuseum.org/art/collection/search/850685
+  - https://imp-art.org/articles/tanjore-painting/
 images:
   - url: https://images.metmuseum.org/CRDImages/as/original/DP-22860-001.jpg
     source_page: https://www.metmuseum.org/art/collection/search/850685
@@ -117,6 +119,13 @@ updated: 2026-08-10
 共有されている。同記事は、同じ起源（ヴィジャヤナガル絵画・ナーヤカ絵画）を持つマイソール
 絵画との対比を通じて、タンジョール絵画に固有の技法的特徴（ガッソが広い面積に高浮彫で使われる
 こと、金メッキ銀箔を多用すること、ガラス玉・宝石の象嵌が頻繁であること）を具体的に記す。
+
+一方、英国支配とCompany Schoolとの接触が進んだ後期には、宗教画の表現にも西洋側の変化が現れる。
+Impartの解説は、タンジョール絵画の硬いポーズが、西洋のAcademic Realismの影響もあって、より
+自然主義的な描写へ移ったと説明している（[Impart「Tanjore Painting」](https://imp-art.org/articles/tanjore-painting/)）。
+したがって本項の `influenced_by movement/realism` は、17世紀以来の金箔・盛り上げ技法や正面性を
+Realismへ還元する関係ではなく、18〜19世紀のCompany School接触後に見られる後期の自然主義的層に
+限定する。
 
 ### kind の判定 — なぜ `period-style` か
 
