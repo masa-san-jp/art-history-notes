@@ -532,6 +532,65 @@
       "updated": "2026-08-10",
       "path": "entities/movements/art-et-liberte.md"
     },
+    "movement/art-nouveau": {
+      "id": "movement/art-nouveau",
+      "uri": "urn:ahn:movement/art-nouveau",
+      "type": "movement",
+      "kind": "retrospective",
+      "label_ja": "アール・ヌーヴォー",
+      "label_en": "Art Nouveau",
+      "authority": {
+        "wikidata": "Q34636",
+        "aat": "300021430",
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": "18XX",
+        "end": "19XX",
+        "display": "19世紀末〜20世紀初頭（およそ1890〜1910年）。国・媒体により呼称と終期は異なる"
+      },
+      "naming": {
+        "self_identified": false,
+        "named_by": null,
+        "named_when": null,
+        "original_label": "Art Nouveau",
+        "note": "植物的な曲線、総合的な装飾、建築と応用芸術の統合を特徴とする国際的な様式。フランス語の名称だけでなく、Jugendstil、Secession、Modernismeなど地域別の名称を持つため後世の総括的な項目とする"
+      },
+      "claims": [
+        {
+          "field": "time",
+          "source": "https://www.wikidata.org/wiki/Q34636",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "originated_in",
+          "source": "https://www.vam.ac.uk/articles/art-nouveau-an-international-style",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "kind",
+          "source": "https://www.wikidata.org/wiki/Q34636",
+          "certainty": "scholarly"
+        }
+      ],
+      "space": [
+        {
+          "role": "originated_in",
+          "target": "place/brussels"
+        }
+      ],
+      "relations": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q34636",
+        "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300021430",
+        "https://www.vam.ac.uk/articles/art-nouveau-an-international-style"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/movements/art-nouveau.md"
+    },
     "movement/arte-madi": {
       "id": "movement/arte-madi",
       "uri": "urn:ahn:movement/arte-madi",
@@ -2390,6 +2449,124 @@
       "status": "draft",
       "updated": "2026-08-09",
       "path": "entities/movements/ecole-de-tunis.md"
+    },
+    "movement/expressionism": {
+      "id": "movement/expressionism",
+      "uri": "urn:ahn:movement/expressionism",
+      "type": "movement",
+      "kind": "retrospective",
+      "label_ja": "表現主義",
+      "label_en": "Expressionism",
+      "authority": {
+        "wikidata": "Q80113",
+        "aat": "300021502",
+        "ndl": "00576716",
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": "190X",
+        "end": "193X",
+        "display": "1900年代〜1930年代。ドイツの初期集団を中心に、国際的な展開と後続形態を含む"
+      },
+      "naming": {
+        "self_identified": false,
+        "named_by": null,
+        "named_when": null,
+        "original_label": "Expressionism",
+        "note": "内面、感情、精神状態を外界の自然主義的再現より強く前面化する実践を、絵画・版画・彫刻・建築・映画などにまたがって後世にまとめた名称。ドイツ表現主義だけに限定しない"
+      },
+      "claims": [
+        {
+          "field": "time",
+          "source": "https://www.wikidata.org/wiki/Q80113",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "originated_in",
+          "source": "https://www.moma.org/collection/terms/expressionism",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "kind",
+          "source": "https://www.wikidata.org/wiki/Q80113",
+          "certainty": "scholarly"
+        }
+      ],
+      "space": [
+        {
+          "role": "originated_in",
+          "target": "place/dresden"
+        }
+      ],
+      "relations": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q80113",
+        "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300021502",
+        "https://www.moma.org/collection/terms/expressionism"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/movements/expressionism.md"
+    },
+    "movement/fauvism": {
+      "id": "movement/fauvism",
+      "uri": "urn:ahn:movement/fauvism",
+      "type": "movement",
+      "kind": "retrospective",
+      "label_ja": "フォーヴィスム",
+      "label_en": "Fauvism",
+      "authority": {
+        "wikidata": "Q166593",
+        "aat": "300021300",
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": "1904",
+        "end": "1908",
+        "display": "1904年頃〜1908年頃。1905年のサロン・ドートンヌで名称が定着し、数年で個別の進路へ分岐"
+      },
+      "naming": {
+        "self_identified": false,
+        "named_by": null,
+        "named_when": "1905",
+        "original_label": "Fauvism",
+        "note": "1905年のサロン・ドートンヌをめぐる批評家ルイ・ヴォークセルの『野獣（les fauves）』という呼称から定着した、短期間のフランス絵画運動。参加者全員が自らを同じ組織名で呼んだわけではないため後世的な分類とする"
+      },
+      "claims": [
+        {
+          "field": "time",
+          "source": "https://www.wikidata.org/wiki/Q166593",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "originated_in",
+          "source": "https://shop.tate.org.uk/derain-the-pool-of-london/andder1703.html",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "kind",
+          "source": "https://www.wikidata.org/wiki/Q166593",
+          "certainty": "scholarly"
+        }
+      ],
+      "space": [
+        {
+          "role": "originated_in",
+          "target": "place/paris"
+        }
+      ],
+      "relations": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q166593",
+        "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300021300",
+        "https://shop.tate.org.uk/derain-the-pool-of-london/andder1703.html"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/movements/fauvism.md"
     },
     "movement/four-wangs": {
       "id": "movement/four-wangs",
@@ -6039,6 +6216,65 @@
       "updated": "2026-08-10",
       "path": "entities/movements/rattanakosin-mural-painting.md"
     },
+    "movement/realism": {
+      "id": "movement/realism",
+      "uri": "urn:ahn:movement/realism",
+      "type": "movement",
+      "kind": "retrospective",
+      "label_ja": "写実主義",
+      "label_en": "Realism",
+      "authority": {
+        "wikidata": "Q2642826",
+        "aat": "300172861",
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": "1848",
+        "end": "18XX",
+        "display": "1848年頃〜19世紀末頃。フランス絵画を中心に、地域ごとに持続期間は異なる"
+      },
+      "naming": {
+        "self_identified": false,
+        "named_by": null,
+        "named_when": null,
+        "original_label": "Realism",
+        "note": "19世紀半ばのフランスを中心に、現代生活・労働・社会階層を理想化せず描く実践を後世にまとめた名称。写実的な表現一般ではなく、近代美術史上の運動として登録する"
+      },
+      "claims": [
+        {
+          "field": "time",
+          "source": "https://www.wikidata.org/wiki/Q2642826",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "originated_in",
+          "source": "https://www.britannica.com/art/Realism-art",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "kind",
+          "source": "https://www.wikidata.org/wiki/Q2642826",
+          "certainty": "scholarly"
+        }
+      ],
+      "space": [
+        {
+          "role": "originated_in",
+          "target": "place/paris"
+        }
+      ],
+      "relations": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q2642826",
+        "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300172861",
+        "https://www.britannica.com/art/Realism-art"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/movements/realism.md"
+    },
     "movement/renaissance": {
       "id": "movement/renaissance",
       "uri": "urn:ahn:movement/renaissance",
@@ -6834,6 +7070,65 @@
       "status": "draft",
       "updated": "2026-08-10",
       "path": "entities/movements/surrealism.md"
+    },
+    "movement/symbolism": {
+      "id": "movement/symbolism",
+      "uri": "urn:ahn:movement/symbolism",
+      "type": "movement",
+      "kind": "retrospective",
+      "label_ja": "象徴主義",
+      "label_en": "Symbolism",
+      "authority": {
+        "wikidata": "Q164800",
+        "aat": "300021514",
+        "ndl": "00572321",
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": "1886",
+        "end": "19XX",
+        "display": "1886年頃（ジャン・モレアスの宣言）〜20世紀初頭。文学・美術・地域により持続期間は異なる"
+      },
+      "naming": {
+        "self_identified": false,
+        "named_by": null,
+        "named_when": "1886",
+        "original_label": "Symbolism",
+        "note": "詩・文学と視覚芸術を横断し、外界の再現より観念、夢、神秘、暗示を重視した運動を後世にまとめた名称。ジャン・モレアスが1886年に『フィガロ』紙で宣言した用法を命名の基準として記録する"
+      },
+      "claims": [
+        {
+          "field": "time",
+          "source": "https://www.wikidata.org/wiki/Q164800",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "originated_in",
+          "source": "https://www.britannica.com/art/Symbolism-literary-and-artistic-movement",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "kind",
+          "source": "https://www.wikidata.org/wiki/Q164800",
+          "certainty": "scholarly"
+        }
+      ],
+      "space": [
+        {
+          "role": "originated_in",
+          "target": "place/paris"
+        }
+      ],
+      "relations": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q164800",
+        "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300021514",
+        "https://www.britannica.com/art/Symbolism-literary-and-artistic-movement"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/movements/symbolism.md"
     },
     "movement/tanjore-painting": {
       "id": "movement/tanjore-painting",
@@ -10316,6 +10611,39 @@
       "updated": "2026-08-11",
       "path": "entities/places/dessau.md"
     },
+    "place/dresden": {
+      "id": "place/dresden",
+      "uri": "urn:ahn:place/dresden",
+      "type": "place",
+      "label_ja": "ドレスデン",
+      "label_en": "Dresden",
+      "authority": {
+        "wikidata": "Q1731",
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "region": "europe-west",
+      "coordinates": [
+        51.05089,
+        13.73832
+      ],
+      "time": {
+        "start": null,
+        "end": null,
+        "display": null
+      },
+      "space": [],
+      "relations": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q1731",
+        "https://www.moma.org/collection/terms/expressionism"
+      ],
+      "status": "stub",
+      "updated": "2026-08-12",
+      "path": "entities/places/dresden.md"
+    },
     "place/florence": {
       "id": "place/florence",
       "uri": "urn:ahn:place/florence",
@@ -12577,6 +12905,11 @@
       "to": "place/cairo"
     },
     {
+      "from": "movement/art-nouveau",
+      "type": "originated_in",
+      "to": "place/brussels"
+    },
+    {
       "from": "movement/arte-madi",
       "type": "created_by",
       "to": "person/gyula-kosice",
@@ -12921,6 +13254,16 @@
       "from": "movement/ecole-de-tunis",
       "type": "originated_in",
       "to": "place/tunis"
+    },
+    {
+      "from": "movement/expressionism",
+      "type": "originated_in",
+      "to": "place/dresden"
+    },
+    {
+      "from": "movement/fauvism",
+      "type": "originated_in",
+      "to": "place/paris"
     },
     {
       "from": "movement/four-wangs",
@@ -13467,6 +13810,11 @@
       "to": "place/bangkok"
     },
     {
+      "from": "movement/realism",
+      "type": "originated_in",
+      "to": "place/paris"
+    },
+    {
       "from": "movement/renaissance",
       "type": "originated_in",
       "to": "place/florence"
@@ -13586,6 +13934,11 @@
     },
     {
       "from": "movement/surrealism",
+      "type": "originated_in",
+      "to": "place/paris"
+    },
+    {
+      "from": "movement/symbolism",
       "type": "originated_in",
       "to": "place/paris"
     },

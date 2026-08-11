@@ -14,11 +14,11 @@ depends_on: []
 <!-- generated:coverage:start -->
 データの最新日: 2026-08-12 — `python3 tools/build_graph.py` が生成（手で書き換えない）
 
-movement **95** 件（stub 0件は不算入）／内訳 {'draft': 93, 'stub': 0, 'verified': 2}
+movement **100** 件（stub 0件は不算入）／内訳 {'draft': 98, 'stub': 0, 'verified': 2}
 
 | 文化圏 | 10BCE | 4C | 9C | 10C | 11C | 12C | 13C | 14C | 15C | 16C | 17C | 18C | 19C | 20C | 年代不明 | 計 |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| europe-west（西欧・南欧・北欧） |  |  |  |  |  | 1 | 1 | 1 | 1 | 1 |  | 2 | 4 | 7 |  | 18 |
+| europe-west（西欧・南欧・北欧） |  |  |  |  |  | 1 | 1 | 1 | 1 | 1 |  | 2 | 7 | 9 |  | 23 |
 | europe-east（中東欧・ロシア・ビザンツ圏） |  | 1 |  |  |  | 1 |  |  |  |  |  |  | 1 | 3 |  | 6 |
 | americas-north（北米） |  |  |  |  |  |  |  |  |  |  |  |  | 1 | 3 |  | 4 |
 | mena（中東・北アフリカ） ※非西洋 |  |  |  |  |  | 1 |  | 1 |  | 1 |  | 1 |  | 3 |  | 7 |
@@ -41,10 +41,10 @@ movement **95** 件（stub 0件は不算入）／内訳 {'draft': 93, 'stub': 0,
 
 受け入れ条件の達成度:
 
-- movement_total: 95/100（stub 0件は不算入）
-- non_west_ratio: 0.68/0.5
+- movement_total: 100/100（stub 0件は不算入）
+- non_west_ratio: 0.65/0.5
 - per_bucket_min: 13/13 バケットが 3件以上
-- pre_1800_ratio: 0.51/0.3
+- pre_1800_ratio: 0.48/0.3
 - isolated_ratio: 0.00（上限 0.1）
 <!-- generated:coverage:end -->
 
@@ -63,8 +63,8 @@ movement **95** 件（stub 0件は不算入）／内訳 {'draft': 93, 'stub': 0,
 
 <!-- generated:audit:start -->
 **文化圏を跨ぐ関係が無い**
-- 他の文化圏の movement と1本も繋がっていない movement が 58/94 件。時間だけでなく空間の広がりを体系化するので、影響・伝播・反発を調べる余地
-- europe-west: 9件（バロック、バウハウス、ダダ、デ・ステイル ほか）
+- 他の文化圏の movement と1本も繋がっていない movement が 63/99 件。時間だけでなく空間の広がりを体系化するので、影響・伝播・反発を調べる余地
+- europe-west: 14件（アール・ヌーヴォー、バロック、バウハウス、ダダ ほか）
 - asia-east-japan: 7件（具体美術協会、円山四条派、民藝運動、南画 ほか）
 - africa-sub: 6件（ベニン王国宮廷美術、ゴンダール様式教会絵画、イフェ美術、ノク彫刻 ほか）
 - americas-latin: 5件（マディ、クスコ派、インディヘニスモ、ネオコンクレチスモ ほか）
