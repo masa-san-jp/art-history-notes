@@ -7100,13 +7100,21 @@
           "target": "place/hangzhou"
         }
       ],
-      "relations": [],
+      "relations": [
+        {
+          "type": "influenced_by",
+          "target": "movement/song-academy-painting",
+          "certainty": "scholarly",
+          "source": "https://www.hkpm.org.hk/en/visit/audio-guide/g4-stories-untold"
+        }
+      ],
       "sources": [
         "https://www.wikidata.org/wiki/Q1150941",
         "https://ja.wikipedia.org/wiki/%E6%B5%99%E6%B4%BE",
         "https://en.wikipedia.org/wiki/Zhe_school_(painting)",
         "https://www.wikidata.org/wiki/Q741512",
-        "https://www.wikidata.org/wiki/Q537211"
+        "https://www.wikidata.org/wiki/Q537211",
+        "https://www.hkpm.org.hk/en/visit/audio-guide/g4-stories-untold"
       ],
       "images": [
         {
@@ -12372,6 +12380,13 @@
     },
     {
       "from": "movement/zhe-school",
+      "type": "influenced_by",
+      "to": "movement/song-academy-painting",
+      "certainty": "scholarly",
+      "source": "https://www.hkpm.org.hk/en/visit/audio-guide/g4-stories-untold"
+    },
+    {
+      "from": "movement/zhe-school",
       "type": "originated_in",
       "to": "place/hangzhou"
     },
@@ -13057,6 +13072,12 @@
       "from": "person/uche-okeke",
       "type": "created",
       "to": "movement/zaria-art-society",
+      "derived": true
+    },
+    {
+      "from": "movement/song-academy-painting",
+      "type": "influenced",
+      "to": "movement/zhe-school",
       "derived": true
     },
     {
