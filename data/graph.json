@@ -2570,11 +2570,19 @@
           "target": "place/dresden"
         }
       ],
-      "relations": [],
+      "relations": [
+        {
+          "type": "influenced_by",
+          "target": "movement/symbolism",
+          "certainty": "scholarly",
+          "source": "https://www.moma.org/documents/moma_catalogue_1702_300298262.pdf"
+        }
+      ],
       "sources": [
         "https://www.wikidata.org/wiki/Q80113",
         "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300021502",
-        "https://www.moma.org/collection/terms/expressionism"
+        "https://www.moma.org/collection/terms/expressionism",
+        "https://www.moma.org/documents/moma_catalogue_1702_300298262.pdf"
       ],
       "status": "draft",
       "updated": "2026-08-12",
@@ -13559,6 +13567,13 @@
     },
     {
       "from": "movement/expressionism",
+      "type": "influenced_by",
+      "to": "movement/symbolism",
+      "certainty": "scholarly",
+      "source": "https://www.moma.org/documents/moma_catalogue_1702_300298262.pdf"
+    },
+    {
+      "from": "movement/expressionism",
       "type": "originated_in",
       "to": "place/dresden"
     },
@@ -15157,6 +15172,12 @@
       "from": "movement/realism",
       "type": "influenced",
       "to": "movement/ecole-de-tunis",
+      "derived": true
+    },
+    {
+      "from": "movement/symbolism",
+      "type": "influenced",
+      "to": "movement/expressionism",
       "derived": true
     },
     {
