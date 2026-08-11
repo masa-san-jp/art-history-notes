@@ -29,6 +29,7 @@ space:
   - {role: originated_in, target: place/rio-de-janeiro}
 relations:
   - {type: created_by, target: person/ferreira-gullar}
+  - {type: reacts_against, target: movement/constructivism, certainty: scholarly, source: "https://smarthistory.org/geometric-abstraction-south-america/"}
 sources:
   - https://portal.lygiaclark.org.br/acervo/67348/manifesto-neoconcreto
   - https://portal.lygiaclark.org.br/acervo/1747/1-exposicao-neoconcreta
@@ -36,6 +37,7 @@ sources:
   - https://pt.wikipedia.org/wiki/Neoconcretismo
   - https://memorialdademocracia.com.br/card/o-movimento-contra-a-aspereza-na-arte
   - https://www.getty.edu/vow/AATFullDisplay?find=neoconcrete&logic=OR&note=&english=Y&prev_page=1&subjectid=300456752
+  - https://smarthistory.org/geometric-abstraction-south-america/
 status: draft
 updated: 2026-08-09
 ---
