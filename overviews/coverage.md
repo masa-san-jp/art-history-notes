@@ -63,7 +63,7 @@ movement **100** 件（stub 0件は不算入）／内訳 {'draft': 98, 'stub': 0
 
 <!-- generated:audit:start -->
 **文化圏を跨ぐ関係が無い**
-- 他の文化圏の movement と1本も繋がっていない movement が 42/99 件。時間だけでなく空間の広がりを体系化するので、影響・伝播・反発を調べる余地
+- 他の文化圏の movement と1本も繋がっていない movement が 41/99 件。時間だけでなく空間の広がりを体系化するので、影響・伝播・反発を調べる余地
 - europe-west: 9件（ダダ、デ・ステイル、フォーヴィスム、ゴシック美術 ほか）
 - asia-east-japan: 6件（円山四条派、民藝運動、南画、琳派 ほか）
 - oceania: 5件（アスマットの彫刻、イアトムルの彫刻、コーワイワイ、ンガーティ・タラーワイの彫刻 ほか）
@@ -71,9 +71,9 @@ movement **100** 件（stub 0件は不算入）／内訳 {'draft': 98, 'stub': 0
 - asia-east-china: 4件（四王、海上画派、揚州八怪、浙派）
 - asia-east-korea: 3件（安堅派、高麗仏画、朝鮮後期風俗画）
 - asia-south: 3件（バソーリ派、カーングラ派、メーワール派）
-- americas-latin: 2件（マディ、インディヘニスモ）
 - asia-central: 2件（メンリ派、ザナバザル様式）
 - europe-east: 2件（ノヴゴロド派、シュプレマティスム）
+- americas-latin: 1件（マディ）
 - asia-southeast: 1件（ピタ・マハ）
 <!-- generated:audit:end -->
 

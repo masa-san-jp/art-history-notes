@@ -3,7 +3,7 @@
     {
       "kind": "no-cross-region",
       "about": "all",
-      "text": "他の文化圏の movement と1本も繋がっていない movement が 42/99 件。時間だけでなく空間の広がりを体系化するので、影響・伝播・反発を調べる余地"
+      "text": "他の文化圏の movement と1本も繋がっていない movement が 41/99 件。時間だけでなく空間の広がりを体系化するので、影響・伝播・反発を調べる余地"
     },
     {
       "kind": "no-cross-region",
@@ -42,11 +42,6 @@
     },
     {
       "kind": "no-cross-region",
-      "about": "americas-latin",
-      "text": "americas-latin: 2件（マディ、インディヘニスモ）"
-    },
-    {
-      "kind": "no-cross-region",
       "about": "asia-central",
       "text": "asia-central: 2件（メンリ派、ザナバザル様式）"
     },
@@ -54,6 +49,11 @@
       "kind": "no-cross-region",
       "about": "europe-east",
       "text": "europe-east: 2件（ノヴゴロド派、シュプレマティスム）"
+    },
+    {
+      "kind": "no-cross-region",
+      "about": "americas-latin",
+      "text": "americas-latin: 1件（マディ）"
     },
     {
       "kind": "no-cross-region",
