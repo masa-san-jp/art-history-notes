@@ -5277,6 +5277,12 @@
         {
           "type": "created_by",
           "target": "person/ferreira-gullar"
+        },
+        {
+          "type": "reacts_against",
+          "target": "movement/constructivism",
+          "certainty": "scholarly",
+          "source": "https://smarthistory.org/geometric-abstraction-south-america/"
         }
       ],
       "sources": [
@@ -5285,7 +5291,8 @@
         "https://www.wikidata.org/wiki/Q10336205",
         "https://pt.wikipedia.org/wiki/Neoconcretismo",
         "https://memorialdademocracia.com.br/card/o-movimento-contra-a-aspereza-na-arte",
-        "https://www.getty.edu/vow/AATFullDisplay?find=neoconcrete&logic=OR&note=&english=Y&prev_page=1&subjectid=300456752"
+        "https://www.getty.edu/vow/AATFullDisplay?find=neoconcrete&logic=OR&note=&english=Y&prev_page=1&subjectid=300456752",
+        "https://smarthistory.org/geometric-abstraction-south-america/"
       ],
       "status": "draft",
       "updated": "2026-08-09",
@@ -5764,11 +5771,18 @@
           "target": "place/saint-petersburg"
         }
       ],
-      "relations": [],
+      "relations": [
+        {
+          "type": "part_of",
+          "target": "movement/realism",
+          "source": "https://www.tretyakovgallery.ru/exhibitions/o/peredvizhniki-/?lang=en"
+        }
+      ],
       "sources": [
         "https://www.wikidata.org/wiki/Q109260",
         "https://ru.wikipedia.org/wiki/Передвижники",
-        "https://en.wikipedia.org/wiki/Peredvizhniki"
+        "https://en.wikipedia.org/wiki/Peredvizhniki",
+        "https://www.tretyakovgallery.ru/exhibitions/o/peredvizhniki-/?lang=en"
       ],
       "images": [
         {
@@ -13743,6 +13757,13 @@
     },
     {
       "from": "movement/neoconcretismo",
+      "type": "reacts_against",
+      "to": "movement/constructivism",
+      "certainty": "scholarly",
+      "source": "https://smarthistory.org/geometric-abstraction-south-america/"
+    },
+    {
+      "from": "movement/neoconcretismo",
       "type": "originated_in",
       "to": "place/rio-de-janeiro"
     },
@@ -13796,6 +13817,13 @@
       "from": "movement/papunya-tula",
       "type": "originated_in",
       "to": "place/papunya"
+    },
+    {
+      "from": "movement/peredvizhniki",
+      "type": "part_of",
+      "to": "movement/realism",
+      "certainty": null,
+      "source": "https://www.tretyakovgallery.ru/exhibitions/o/peredvizhniki-/?lang=en"
     },
     {
       "from": "movement/peredvizhniki",
@@ -14930,6 +14958,12 @@
       "derived": true
     },
     {
+      "from": "movement/constructivism",
+      "type": "reacted_against_by",
+      "to": "movement/neoconcretismo",
+      "derived": true
+    },
+    {
       "from": "movement/yamato-e",
       "type": "influenced",
       "to": "movement/nihonga",
@@ -14945,6 +14979,12 @@
       "from": "movement/safavid-painting",
       "type": "influenced",
       "to": "movement/ottoman-miniature",
+      "derived": true
+    },
+    {
+      "from": "movement/realism",
+      "type": "has_part",
+      "to": "movement/peredvizhniki",
       "derived": true
     },
     {

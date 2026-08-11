@@ -27,11 +27,13 @@ claims:
   - {field: originated_in, source: "https://ru.wikipedia.org/wiki/Передвижники", certainty: scholarly}
 space:
   - {role: originated_in, target: place/saint-petersburg}
-relations: []
+relations:
+  - {type: part_of, target: movement/realism, source: "https://www.tretyakovgallery.ru/exhibitions/o/peredvizhniki-/?lang=en"}
 sources:
   - https://www.wikidata.org/wiki/Q109260
   - https://ru.wikipedia.org/wiki/Передвижники
   - https://en.wikipedia.org/wiki/Peredvizhniki
+  - https://www.tretyakovgallery.ru/exhibitions/o/peredvizhniki-/?lang=en
 images:
   - url: https://images.metmuseum.org/CRDImages/ep/original/DP-23542-001.jpg
     source_page: https://www.metmuseum.org/art/collection/search/437631

@@ -3,12 +3,12 @@
     {
       "kind": "no-cross-region",
       "about": "all",
-      "text": "他の文化圏の movement と1本も繋がっていない movement が 58/99 件。時間だけでなく空間の広がりを体系化するので、影響・伝播・反発を調べる余地"
+      "text": "他の文化圏の movement と1本も繋がっていない movement が 55/99 件。時間だけでなく空間の広がりを体系化するので、影響・伝播・反発を調べる余地"
     },
     {
       "kind": "no-cross-region",
       "about": "europe-west",
-      "text": "europe-west: 11件（バロック、ダダ、デ・ステイル、フォーヴィスム ほか）"
+      "text": "europe-west: 10件（バロック、ダダ、デ・ステイル、フォーヴィスム ほか）"
     },
     {
       "kind": "no-cross-region",
@@ -22,11 +22,6 @@
     },
     {
       "kind": "no-cross-region",
-      "about": "americas-latin",
-      "text": "americas-latin: 5件（マディ、クスコ派、インディヘニスモ、ネオコンクレチスモ ほか）"
-    },
-    {
-      "kind": "no-cross-region",
       "about": "oceania",
       "text": "oceania: 5件（アスマットの彫刻、イアトムルの彫刻、コーワイワイ、ンガーティ・タラーワイの彫刻 ほか）"
     },
@@ -34,6 +29,11 @@
       "kind": "no-cross-region",
       "about": "asia-south",
       "text": "asia-south: 5件（バソーリ派、カンパニー派、カーングラ派、メーワール派 ほか）"
+    },
+    {
+      "kind": "no-cross-region",
+      "about": "americas-latin",
+      "text": "americas-latin: 4件（マディ、クスコ派、インディヘニスモ、キト派）"
     },
     {
       "kind": "no-cross-region",
@@ -57,13 +57,13 @@
     },
     {
       "kind": "no-cross-region",
-      "about": "europe-east",
-      "text": "europe-east: 3件（ノヴゴロド派、移動派、シュプレマティスム）"
+      "about": "asia-central",
+      "text": "asia-central: 2件（メンリ派、ザナバザル様式）"
     },
     {
       "kind": "no-cross-region",
-      "about": "asia-central",
-      "text": "asia-central: 2件（メンリ派、ザナバザル様式）"
+      "about": "europe-east",
+      "text": "europe-east: 2件（ノヴゴロド派、シュプレマティスム）"
     }
   ]
 }
