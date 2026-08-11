@@ -4778,7 +4778,14 @@
           "target": "place/tokyo"
         }
       ],
-      "relations": [],
+      "relations": [
+        {
+          "type": "influenced_by",
+          "target": "movement/yamato-e",
+          "certainty": "scholarly",
+          "source": "https://www.yamatane-museum.jp/en/nihonga/"
+        }
+      ],
       "images": [
         {
           "url": "https://upload.wikimedia.org/wikipedia/commons/4/48/Hishida_Shuns%C5%8D_-_Fallen_Leaves_%28Eisei_Bunko_Museum%29_2.jpg",
@@ -4790,6 +4797,7 @@
       "sources": [
         "https://www.wikidata.org/wiki/Q1989975",
         "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300114441",
+        "https://www.yamatane-museum.jp/en/nihonga/",
         "http://museums.toyamaken.jp/documents/documents007/",
         "https://nihonbijutsuin.or.jp/his_tenshsin.php",
         "https://www.wikidata.org/wiki/Q4346814",
@@ -12102,6 +12110,13 @@
     },
     {
       "from": "movement/nihonga",
+      "type": "influenced_by",
+      "to": "movement/yamato-e",
+      "certainty": "scholarly",
+      "source": "https://www.yamatane-museum.jp/en/nihonga/"
+    },
+    {
+      "from": "movement/nihonga",
       "type": "originated_in",
       "to": "place/tokyo"
     },
@@ -13012,6 +13027,12 @@
       "from": "person/ferreira-gullar",
       "type": "created",
       "to": "movement/neoconcretismo",
+      "derived": true
+    },
+    {
+      "from": "movement/yamato-e",
+      "type": "influenced",
+      "to": "movement/nihonga",
       "derived": true
     },
     {
