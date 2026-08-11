@@ -51,7 +51,7 @@ sources:
   - https://www.artic.edu/artworks/111648
   - https://www.artic.edu/artworks/95993
 status: draft
-updated: 2026-08-09
+updated: 2026-08-11
 ---
 
 # バルビゾン派 / Barbizon school
@@ -145,4 +145,6 @@ Wikipedia・TheArtStoryは1830〜1870年とする。Getty AATのscope noteは正
 - 始点・終点の年号のぶれ（1825/1830〜1870/1875）を、単一の一次資料で確定する作業
 - ルソー・ミレー・ドービニーらのperson化——現状は作成基準
   （`docs/schema.md`「personをいつ作るか」）のどれにも単独で当たらないため本文の名前止まり
-- 印象派への影響（戸外制作の技法的な先行例としての位置づけ）の`relations`化
+- 印象派への影響（戸外制作の技法的な先行例としての位置づけ）は、印象派側の
+  `relations` に `influenced_by → movement/barbizon-school` として記録済み。バルビゾン派側に
+  逆向きのエッジは追加しない

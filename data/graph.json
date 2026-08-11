@@ -1012,7 +1012,7 @@
         "https://www.artic.edu/artworks/95993"
       ],
       "status": "draft",
-      "updated": "2026-08-09",
+      "updated": "2026-08-11",
       "path": "entities/movements/barbizon-school.md"
     },
     "movement/basohli-painting": {
@@ -3077,6 +3077,12 @@
         },
         {
           "type": "influenced_by",
+          "target": "movement/barbizon-school",
+          "certainty": "scholarly",
+          "source": "https://www.getty.edu/education/for_teachers/curricula/impressionism/background1.html"
+        },
+        {
+          "type": "influenced_by",
           "target": "movement/utagawa-school",
           "certainty": "scholarly",
           "source": "https://en.wikipedia.org/wiki/Fondation_Monet_in_Giverny"
@@ -3109,12 +3115,13 @@
         "https://www.artic.edu/artworks/16571",
         "https://api.artic.edu/api/v1/artworks/16571",
         "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300021505",
+        "https://www.getty.edu/education/for_teachers/curricula/impressionism/background1.html",
         "https://en.wikipedia.org/wiki/Fondation_Monet_in_Giverny",
         "https://en.wikipedia.org/wiki/La_Japonaise_(painting)",
         "https://collections.mfa.org/objects/33556"
       ],
       "status": "verified",
-      "updated": "2026-08-09",
+      "updated": "2026-08-11",
       "path": "entities/movements/impressionism.md"
     },
     "movement/indigenismo": {
@@ -11825,6 +11832,13 @@
     {
       "from": "movement/impressionism",
       "type": "influenced_by",
+      "to": "movement/barbizon-school",
+      "certainty": "scholarly",
+      "source": "https://www.getty.edu/education/for_teachers/curricula/impressionism/background1.html"
+    },
+    {
+      "from": "movement/impressionism",
+      "type": "influenced_by",
       "to": "movement/utagawa-school",
       "certainty": "scholarly",
       "source": "https://en.wikipedia.org/wiki/Fondation_Monet_in_Giverny"
@@ -12888,6 +12902,12 @@
     {
       "from": "org/societe-anonyme-artistes",
       "type": "exhibited",
+      "to": "movement/impressionism",
+      "derived": true
+    },
+    {
+      "from": "movement/barbizon-school",
+      "type": "influenced",
       "to": "movement/impressionism",
       "derived": true
     },
