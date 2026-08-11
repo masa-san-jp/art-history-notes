@@ -30,7 +30,8 @@ space:
   - {role: active_in, target: place/berlin}
   - {role: active_in, target: place/paris}
   - {role: active_in, target: place/new-york-city}
-relations: []
+relations:
+  - {type: reacts_against, target: movement/expressionism, certainty: scholarly, source: "https://www.moma.org/documents/moma_catalogue_2823_300061909.pdf"}
 sources:
   - https://www.wikidata.org/wiki/Q6034
   - https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300021500
@@ -153,11 +154,18 @@ Zurich" と起点を1都市に絞って書いているためであり、他の�
 名乗りはチューリヒ発）。この非同期性そのものが、単一の発生地に還元しきれないダダの
 性格を示している。
 
+## 絵画における表現主義への反発
+
+ニューヨーク近代美術館の展覧会カタログは、ダダ絵画がキュビスム・未来派・表現主義のいずれにも
+対抗し、全面的な抽象または構成の純粋性を求めたと記述する。この `reacts_against` は、チューリヒを
+起点とするダダ全体の思想を表現主義の単純な反対物とするものではなく、1910年代のダダ絵画が既存の
+造形言語に向けた反発を示す関係として限定している。
+
 ## 未着手
 
-- Wikidata `P737`（influenced by）が挙げる相手のうち、キュビスム・表現主義・反戦運動・
-  アフリカ美術・『ユビュ王』・バレエ『パラード』はいずれも本KBに未収録で、関係線を
-  張れない。次に立てるべき隣人の候補
+- Wikidata `P737`（influenced by）が挙げる相手のうち、キュビスム・反戦運動・アフリカ美術・
+  『ユビュ王』・バレエ『パラード』はいずれも本KBに未収録で、関係線を張れない。次に立てるべき
+  隣人の候補
 - 1916年5月の冊子『Cabaret Voltaire』巻頭言そのものへの到達（現状は英語版Wikipediaの
   要約経由。国際ダダ・アーカイブ〈アイオワ大学〉のデジタル化資料は403で直接確認できず）
 - バルの『ダダ宣言』（1916年7月14日）・ツァラの『ダダ宣言 1918』の原語テキストとの

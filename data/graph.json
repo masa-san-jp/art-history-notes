@@ -2090,7 +2090,14 @@
           "target": "place/new-york-city"
         }
       ],
-      "relations": [],
+      "relations": [
+        {
+          "type": "reacts_against",
+          "target": "movement/expressionism",
+          "certainty": "scholarly",
+          "source": "https://www.moma.org/documents/moma_catalogue_2823_300061909.pdf"
+        }
+      ],
       "sources": [
         "https://www.wikidata.org/wiki/Q6034",
         "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300021500",
@@ -13442,6 +13449,13 @@
     },
     {
       "from": "movement/dada",
+      "type": "reacts_against",
+      "to": "movement/expressionism",
+      "certainty": "scholarly",
+      "source": "https://www.moma.org/documents/moma_catalogue_2823_300061909.pdf"
+    },
+    {
+      "from": "movement/dada",
       "type": "originated_in",
       "to": "place/zurich"
     },
@@ -15120,6 +15134,12 @@
       "from": "movement/baroque",
       "type": "influenced",
       "to": "movement/cusco-school",
+      "derived": true
+    },
+    {
+      "from": "movement/expressionism",
+      "type": "reacted_against_by",
+      "to": "movement/dada",
       "derived": true
     },
     {
