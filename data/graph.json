@@ -6576,7 +6576,14 @@
           "target": "place/venice"
         }
       ],
-      "relations": [],
+      "relations": [
+        {
+          "type": "influenced_by",
+          "target": "movement/byzantine-art",
+          "certainty": "scholarly",
+          "source": "https://www.metmuseum.org/de/essays/venice-in-the-eighteenth-century"
+        }
+      ],
       "sources": [
         "https://www.wikidata.org/wiki/Q610687",
         "https://www.wikidata.org/wiki/Q641",
@@ -6597,7 +6604,8 @@
         "https://en.wikipedia.org/wiki/Luigi_Lanzi",
         "https://www.academia.edu/37111049/Luigi_Lanzi_e_le_scuole_pittoriche",
         "https://www.theartstory.org/movement/venetian-school/",
-        "https://www.ebsco.com/research-starters/visual-arts/venetian-school-painting"
+        "https://www.ebsco.com/research-starters/visual-arts/venetian-school-painting",
+        "https://www.metmuseum.org/de/essays/venice-in-the-eighteenth-century"
       ],
       "status": "draft",
       "updated": "2026-08-09",
@@ -12222,6 +12230,13 @@
     },
     {
       "from": "movement/venetian-school",
+      "type": "influenced_by",
+      "to": "movement/byzantine-art",
+      "certainty": "scholarly",
+      "source": "https://www.metmuseum.org/de/essays/venice-in-the-eighteenth-century"
+    },
+    {
+      "from": "movement/venetian-school",
       "type": "originated_in",
       "to": "place/venice"
     },
@@ -12901,6 +12916,12 @@
       "from": "concept/ukiyo-e",
       "type": "has_part",
       "to": "movement/utagawa-school",
+      "derived": true
+    },
+    {
+      "from": "movement/byzantine-art",
+      "type": "influenced",
+      "to": "movement/venetian-school",
       "derived": true
     },
     {
