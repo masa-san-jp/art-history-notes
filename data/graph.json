@@ -2151,6 +2151,12 @@
           "type": "taught_by",
           "target": "person/dong-qichang",
           "source": "https://zh.wikipedia.org/wiki/%E7%8E%8B%E6%97%B6%E6%95%8F"
+        },
+        {
+          "type": "influenced_by",
+          "target": "movement/literati-painting",
+          "certainty": "scholarly",
+          "source": "https://www.shanghaimuseum.net/mu/frontend/pg/article/id/RI00004055"
         }
       ],
       "sources": [
@@ -2164,7 +2170,9 @@
         "https://www.wikidata.org/wiki/Q716184",
         "https://www.wikidata.org/wiki/Q711481",
         "https://www.wikidata.org/wiki/Q716222",
-        "https://www.wikidata.org/wiki/Q716338"
+        "https://www.wikidata.org/wiki/Q716338",
+        "https://www.kyohaku.go.jp/old/eng/theme/floor2_5/past/chinese_20150512.html",
+        "https://www.shanghaimuseum.net/mu/frontend/pg/article/id/RI00004055"
       ],
       "images": [
         {
@@ -11658,6 +11666,13 @@
     },
     {
       "from": "movement/four-wangs",
+      "type": "influenced_by",
+      "to": "movement/literati-painting",
+      "certainty": "scholarly",
+      "source": "https://www.shanghaimuseum.net/mu/frontend/pg/article/id/RI00004055"
+    },
+    {
+      "from": "movement/four-wangs",
       "type": "originated_in",
       "to": "place/taicang"
     },
@@ -12744,6 +12759,12 @@
     {
       "from": "person/dong-qichang",
       "type": "taught",
+      "to": "movement/four-wangs",
+      "derived": true
+    },
+    {
+      "from": "movement/literati-painting",
+      "type": "influenced",
       "to": "movement/four-wangs",
       "derived": true
     },
