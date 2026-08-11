@@ -1098,6 +1098,85 @@
       "updated": "2026-08-10",
       "path": "entities/movements/basohli-painting.md"
     },
+    "movement/bauhaus": {
+      "id": "movement/bauhaus",
+      "uri": "urn:ahn:movement/bauhaus",
+      "type": "movement",
+      "kind": "self-declared",
+      "label_ja": "バウハウス",
+      "label_en": "Bauhaus",
+      "authority": {
+        "wikidata": "Q124354",
+        "aat": "300021432",
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": "1919-04",
+        "end": "1933",
+        "display": "1919年4月（ワイマールで開校・名称成立）〜1933年（ベルリン校閉鎖）"
+      },
+      "naming": {
+        "self_identified": true,
+        "named_by": null,
+        "named_when": "1919-04",
+        "original_label": "Staatliches Bauhaus",
+        "note": "Bauhaus-Archivは、1919年4月にヴァルター・グロピウスがワイマールの学校をStaatliches Bauhausと正式に命名したと記録する。ここでは当事者が名乗った学校名を、後世に広がった『バウハウス様式』全体の後付けラベルとは分け、運動の命名イベントとして記録する"
+      },
+      "claims": [
+        {
+          "field": "time",
+          "source": "https://www.bauhaus.de/en/discover/article/14-years-of-bauhaus/",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "originated_in",
+          "source": "https://www.bauhaus.de/en/discover/article/14-years-of-bauhaus/",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "kind",
+          "source": "https://www.bauhaus.de/en/discover/article/14-years-of-bauhaus/",
+          "certainty": "scholarly"
+        }
+      ],
+      "space": [
+        {
+          "role": "originated_in",
+          "target": "place/weimar"
+        },
+        {
+          "role": "active_in",
+          "target": "place/dessau"
+        },
+        {
+          "role": "active_in",
+          "target": "place/berlin"
+        }
+      ],
+      "relations": [],
+      "images": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Anonymous_photograph_of_Bauhaus_masters_on_the_roof_of_the_studio_building,_Bauhaus_Dessau.jpg",
+          "source_page": "https://commons.wikimedia.org/wiki/File:Anonymous_photograph_of_Bauhaus_masters_on_the_roof_of_the_studio_building,_Bauhaus_Dessau.jpg",
+          "license": "public-domain",
+          "note": "1926年、デッサウの校舎屋上に立つバウハウスの教員たちを写した匿名写真。Commonsのファイルページでパブリックドメインと確認できる"
+        }
+      ],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q124354",
+        "https://www.getty.edu/vow/ULANFullDisplay?find=Gaudez&nation=&page=1&role=&subjectid=500125058",
+        "https://www.bauhaus.de/en/about-us/",
+        "https://www.bauhaus.de/en/discover/article/14-years-of-bauhaus/",
+        "https://www.bauhaus.de/en/discover/article/idea-and-programme/",
+        "https://www.moma.org/collection/terms/bauhaus",
+        "https://commons.wikimedia.org/wiki/File:Anonymous_photograph_of_Bauhaus_masters_on_the_roof_of_the_studio_building,_Bauhaus_Dessau.jpg"
+      ],
+      "status": "draft",
+      "updated": "2026-08-11",
+      "path": "entities/movements/bauhaus.md"
+    },
     "movement/bengal-school": {
       "id": "movement/bengal-school",
       "uri": "urn:ahn:movement/bengal-school",
@@ -9461,6 +9540,45 @@
       "updated": "2026-08-09",
       "path": "entities/places/dakar.md"
     },
+    "place/dessau": {
+      "id": "place/dessau",
+      "uri": "urn:ahn:place/dessau",
+      "type": "place",
+      "label_ja": "デッサウ＝ロスラウ",
+      "label_en": "Dessau-Roßlau",
+      "former_names": [
+        {
+          "name": "Dessau",
+          "until": "2007"
+        }
+      ],
+      "authority": {
+        "wikidata": "Q3828",
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": null,
+        "end": null,
+        "display": null
+      },
+      "region": "europe-west",
+      "coordinates": [
+        51.833331,
+        12.233331
+      ],
+      "space": [],
+      "relations": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q3828",
+        "https://www.wikidata.org/wiki/Q487070"
+      ],
+      "status": "stub",
+      "updated": "2026-08-11",
+      "path": "entities/places/dessau.md"
+    },
     "place/golconda": {
       "id": "place/golconda",
       "uri": "urn:ahn:place/golconda",
@@ -11113,6 +11231,38 @@
       "updated": "2026-08-09",
       "path": "entities/places/venice.md"
     },
+    "place/weimar": {
+      "id": "place/weimar",
+      "uri": "urn:ahn:place/weimar",
+      "type": "place",
+      "label_ja": "ワイマール",
+      "label_en": "Weimar",
+      "authority": {
+        "wikidata": "Q3955",
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": null,
+        "end": null,
+        "display": null
+      },
+      "region": "europe-west",
+      "coordinates": [
+        50.981111,
+        11.329444
+      ],
+      "space": [],
+      "relations": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q3955"
+      ],
+      "status": "stub",
+      "updated": "2026-08-11",
+      "path": "entities/places/weimar.md"
+    },
     "place/yangzhou": {
       "id": "place/yangzhou",
       "uri": "urn:ahn:place/yangzhou",
@@ -11478,6 +11628,21 @@
       "from": "movement/basohli-painting",
       "type": "originated_in",
       "to": "place/basohli"
+    },
+    {
+      "from": "movement/bauhaus",
+      "type": "originated_in",
+      "to": "place/weimar"
+    },
+    {
+      "from": "movement/bauhaus",
+      "type": "active_in",
+      "to": "place/dessau"
+    },
+    {
+      "from": "movement/bauhaus",
+      "type": "active_in",
+      "to": "place/berlin"
     },
     {
       "from": "movement/bengal-school",
