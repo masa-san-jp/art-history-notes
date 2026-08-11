@@ -29,6 +29,7 @@ space:
   - {role: originated_in, target: place/murshidabad}
 relations:
   - {type: derives_from, target: movement/mughal-painting, certainty: scholarly, source: "https://www.getty.edu/vow/AATFullDisplay?find=Company+school&logic=AND&note=&english=Y&prev_page=1&subjectid=300018959"}
+  - {type: influenced_by, target: movement/realism, certainty: scholarly, source: "https://criticalcollective.in/CC_ArchiveInner2.aspx?Aid=1407&Eid=1801"}
   - {type: patronized_by, target: org/east-india-company, certainty: scholarly, source: "https://www.getty.edu/vow/AATFullDisplay?find=Company+school&logic=AND&note=&english=Y&prev_page=1&subjectid=300018959"}
 sources:
   - https://www.wikidata.org/wiki/Q861297
@@ -38,6 +39,7 @@ sources:
   - https://en.wikipedia.org/wiki/Sheikh_Zainuddin
   - https://en.banglapedia.org/index.php/Murshidabad_Painting
   - https://www.theheritagelab.in/patna-kalam-artists/
+  - https://criticalcollective.in/CC_ArchiveInner2.aspx?Aid=1407&Eid=1801
   - https://read.dukeupress.edu/archives-of-asian-art/article-abstract/74/1/79/388307/To-Fill-a-Gap-in-Indian-History-An-Archival
   - https://www.metmuseum.org/art/collection/search/454011
   - https://www.metmuseum.org/art/collection/search/457758
