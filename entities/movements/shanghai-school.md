@@ -27,7 +27,8 @@ claims:
   - {field: time, source: "https://www.getty.edu/vow/AATFullDisplay?find=&place=&nation=&logic=&note=&role=&subjectid=300106504", certainty: scholarly}
 space:
   - {role: originated_in, target: place/shanghai}
-relations: []
+relations:
+  - {type: influenced_by, target: movement/yangzhou-eccentrics, certainty: scholarly, source: "https://www.shanghaimuseum.net/mu/frontend/pg/article/id/RI00004055"}
 images:
   - url: https://images.metmuseum.org/CRDImages/as/original/DP161195.jpg
     source_page: https://www.metmuseum.org/art/collection/search/49447
@@ -58,6 +59,7 @@ sources:
   - https://www.metmuseum.org/art/collection/search/49447
   - https://www.metmuseum.org/art/collection/search/37393
   - https://www.artic.edu/artworks/46435
+  - https://www.shanghaimuseum.net/mu/frontend/pg/article/id/RI00004055
 status: draft
 updated: 2026-08-09
 ---
@@ -105,6 +107,17 @@ Getty AATは英語で明確に「the **unrelated** Ren Yi ... from Hangzhou」�
 と助言し、以後「両者は師にして友（亦師亦友）という関係を保ち、非常に頻繁に行き来した」
 （[163.com掲載記事](https://www.163.com/dy/article/FT1LD5PE0521BMH5.html)、二次情報）。「亦師亦友」
 という表現自体が、正式な師弟の名乗り（入門・拝師）ではなかったことを示す。
+
+## 揚州画派との関係
+
+上海博物館は、清代中期の揚州が、絵を生業とする文人や専門画家を集める都市になったと説明し、金農・
+鄭燮・羅聘らをその代表的な画家として挙げている。同じ解説は、清末の上海画派が**揚州画派の伝統**に、
+古代の碑銘・金石の書風を組み合わせたと記載する。
+
+このKBの[揚州八怪](yangzhou-eccentrics.md)は、金農・鄭燮・羅聘を含む最も広く採られる8人の括りを
+対象としている。そのため、ここでの `influenced_by` は「揚州画派」というより広い呼称と八怪の8人が
+完全に同一だという主張ではなく、上海博物館が具体的に挙げる八怪の中核画家とその伝統を、上海画派が
+受け取った経路として記録する。
 
 ## kind の判定
 
