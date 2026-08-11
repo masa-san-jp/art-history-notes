@@ -11995,6 +11995,42 @@
       "updated": "2026-08-12",
       "path": "entities/works/lef-no-2-1924.md"
     },
+    "work/proun-19d": {
+      "id": "work/proun-19d",
+      "uri": "urn:ahn:work/proun-19d",
+      "type": "work",
+      "label_ja": "《Proun 19D》",
+      "label_en": "Proun 19D",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "Wikidata等の作品典拠IDは未確認。MoMA作品番号172.1953を館内識別子として記録"
+      },
+      "time": {
+        "start": "1920",
+        "end": "1921",
+        "display": "1920年または1921年"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/el-lissitzky"
+        },
+        {
+          "type": "belongs_to",
+          "target": "movement/constructivism"
+        }
+      ],
+      "sources": [
+        "https://www.moma.org/collection/works/79040"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/works/proun-19d.md"
+    },
     "work/spatial-construction-no-12": {
       "id": "work/spatial-construction-no-12",
       "uri": "urn:ahn:work/spatial-construction-no-12",
@@ -13559,6 +13595,20 @@
       "source": null
     },
     {
+      "from": "work/proun-19d",
+      "type": "created_by",
+      "to": "person/el-lissitzky",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/proun-19d",
+      "type": "belongs_to",
+      "to": "movement/constructivism",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "work/spatial-construction-no-12",
       "type": "created_by",
       "to": "person/alexander-rodchenko",
@@ -14302,6 +14352,18 @@
       "from": "movement/constructivism",
       "type": "has_member",
       "to": "work/lef-no-2-1924",
+      "derived": true
+    },
+    {
+      "from": "person/el-lissitzky",
+      "type": "created",
+      "to": "work/proun-19d",
+      "derived": true
+    },
+    {
+      "from": "movement/constructivism",
+      "type": "has_member",
+      "to": "work/proun-19d",
       "derived": true
     },
     {
