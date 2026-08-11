@@ -2795,11 +2795,20 @@
           "target": "place/new-york-city"
         }
       ],
-      "relations": [],
+      "relations": [
+        {
+          "type": "influenced_by",
+          "target": "movement/barbizon-school",
+          "certainty": "scholarly",
+          "source": "https://www.metmuseum.org/de/essays/the-hudson-river-school"
+        }
+      ],
       "sources": [
         "https://www.wikidata.org/wiki/Q943853",
         "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300379047",
-        "https://en.wikipedia.org/wiki/Hudson_River_School"
+        "https://en.wikipedia.org/wiki/Hudson_River_School",
+        "https://www.metmuseum.org/de/essays/the-hudson-river-school",
+        "https://www.metmuseum.org/exhibitions/listings/2003/sanford-r-gifford?persisted=true&sc_device=default"
       ],
       "images": [
         {
@@ -11605,6 +11614,13 @@
     },
     {
       "from": "movement/hudson-river-school",
+      "type": "influenced_by",
+      "to": "movement/barbizon-school",
+      "certainty": "scholarly",
+      "source": "https://www.metmuseum.org/de/essays/the-hudson-river-school"
+    },
+    {
+      "from": "movement/hudson-river-school",
       "type": "originated_in",
       "to": "place/new-york-city"
     },
@@ -12559,6 +12575,12 @@
       "from": "movement/baghdad-school-of-illustration",
       "type": "influenced",
       "to": "movement/herat-school",
+      "derived": true
+    },
+    {
+      "from": "movement/barbizon-school",
+      "type": "influenced",
+      "to": "movement/hudson-river-school",
       "derived": true
     },
     {

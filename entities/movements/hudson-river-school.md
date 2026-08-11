@@ -27,11 +27,14 @@ claims:
   - {field: kind, source: "https://en.wikipedia.org/wiki/Hudson_River_School", certainty: scholarly}
 space:
   - {role: originated_in, target: place/new-york-city}
-relations: []
+relations:
+  - {type: influenced_by, target: movement/barbizon-school, certainty: scholarly, source: "https://www.metmuseum.org/de/essays/the-hudson-river-school"}
 sources:
   - https://www.wikidata.org/wiki/Q943853
   - https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300379047
   - https://en.wikipedia.org/wiki/Hudson_River_School
+  - https://www.metmuseum.org/de/essays/the-hudson-river-school
+  - https://www.metmuseum.org/exhibitions/listings/2003/sanford-r-gifford?persisted=true&sc_device=default
 images:
   - url: https://www.artic.edu/iiif/2/18092196-50ae-3ff1-9205-1b3110e966c3/full/843,/0/default.jpg
     source_page: https://www.artic.edu/artworks/90048
@@ -128,6 +131,20 @@ Cole, Sanford Gifford, Albert Bierstadt, Worthington Whittredge, and Thomas Mora
 発生地はニューヨークとした——Getty AAT [300379047] の scope noteが「The group was based in New
 York City」と明記する。呼称の由来となったキャッツキル山地・ハドソン川流域の風景は活動の**主題**
 であり、発生地の根拠としては別に扱った（上記「kindの判定」節参照）。
+
+## バルビゾン派との関係
+
+[バルビゾン派](barbizon-school.md)に `influenced_by` を張った。ただし、これはハドソン・リバー派の
+全期間・全担い手がフランスの様式を受け継いだという意味ではなく、南北戦争後から1870年代にかけての
+アメリカ風景画の転調に限定した関係である。メトロポリタン美術館は、アメリカの美術志向がイギリス
+からフランスへ移るなかで、より柔らかく親密なフランスのバルビゾン様式がジョージ・イネスによって
+アメリカの風景へ最初に適応され、風景画の表情を変えたと説明している。また、ハドソン・リバー派の
+サンフォード・ギフォードも1855年の欧州旅行でバルビゾン派の画家に強い印象を受けたとされる
+（[Kevin J. Avery, “The Hudson River School”]
+(https://www.metmuseum.org/de/essays/the-hudson-river-school)、[“Hudson River School Visions”]
+(https://www.metmuseum.org/exhibitions/listings/2003/sanford-r-gifford?persisted=true&sc_device=default)）。
+したがって、ここでの影響は「ハドソン・リバー派の内部様式が一斉に交代した」という強い主張ではなく、
+その後期に、バルビゾン派の外光・親密な風景表現がアメリカ側の画家と鑑賞者に流入した経路を指す。
 
 ## 未着手
 
