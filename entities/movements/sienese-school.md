@@ -27,8 +27,10 @@ claims:
   - {field: originated_in, source: "https://www.wikidata.org/wiki/Q1332178", certainty: scholarly}
 space:
   - {role: originated_in, target: place/siena}
-relations: []
+relations:
+  - {type: influenced_by, target: movement/byzantine-art, certainty: scholarly, source: "https://www.metmuseum.org/es/essays/sienese-painting"}
 sources:
+  - https://www.metmuseum.org/es/essays/sienese-painting
   - https://www.wikidata.org/wiki/Q1332178
   - https://en.wikipedia.org/wiki/Sienese_school
   - https://en.wikipedia.org/wiki/Duccio
@@ -200,6 +202,14 @@ Wikidataの`12XX`（13世紀、1201〜1300年）を採用したが、これも�
 周辺都市の作例が「シエナ派」に含まれるのか、それとも別の地方的な派として扱われるのか）を
 示す記録には当たっていない。
 
+## ビザンティン美術との関係
+
+シエナ派の形成期、とくにドゥッチョの初期作品には、ビザンティン美術の先例への深い依存が認められる。
+メトロポリタン美術館は、ドゥッチョがシエナ派の父とみなされる一方で、初期作品がビザンティンの先例に
+「profound debt」を負うと説明している。また、シエナ大聖堂の《マエスタ》（1308〜11年）が後続の
+シエナ派画家たちの参照点になったとする。したがって本関係は、シエナ派全体がビザンティン美術の
+単純な延長だったという意味ではなく、**ドゥッチョを媒介にした初期形成への影響**を表す。
+
 ## 未着手
 
 - ドゥッチョ、シモーネ・マルティーニ、ロレンツェッティ兄弟の person エンティティ化——
@@ -214,8 +224,6 @@ Wikidataの`12XX`（13世紀、1201〜1300年）を採用したが、これも�
   の制度上の線として使えるが、今回は本文での言及に留めた
 - フィレンツェ派——このKBにはまだ movement として存在せず、ヴァザーリの記述を通じた
   `reacts_against` / `grouped_as`（後付けの括りとしての対比）などの関係を張ることができなかった
-- ビザンティン美術——このKBにはまだ movement／concept として存在せず、`influenced_by`関係を
-  張ることができなかった
 - 「シエナ派」という呼称を最初に用いた人物・年——CAA Reviews（2004年）は「19世紀末に様式分析が
   独立した『シエナ派』を初めて明確化した」と記すが、単一の命名者・命名年を特定できる一次資料には
   当たっていない

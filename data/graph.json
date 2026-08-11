@@ -5907,8 +5907,16 @@
           "target": "place/siena"
         }
       ],
-      "relations": [],
+      "relations": [
+        {
+          "type": "influenced_by",
+          "target": "movement/byzantine-art",
+          "certainty": "scholarly",
+          "source": "https://www.metmuseum.org/es/essays/sienese-painting"
+        }
+      ],
       "sources": [
+        "https://www.metmuseum.org/es/essays/sienese-painting",
         "https://www.wikidata.org/wiki/Q1332178",
         "https://en.wikipedia.org/wiki/Sienese_school",
         "https://en.wikipedia.org/wiki/Duccio",
@@ -12056,6 +12064,13 @@
     },
     {
       "from": "movement/sienese-school",
+      "type": "influenced_by",
+      "to": "movement/byzantine-art",
+      "certainty": "scholarly",
+      "source": "https://www.metmuseum.org/es/essays/sienese-painting"
+    },
+    {
+      "from": "movement/sienese-school",
       "type": "originated_in",
       "to": "place/siena"
     },
@@ -12761,6 +12776,12 @@
       "from": "place/agra",
       "type": "received",
       "to": "movement/safavid-painting",
+      "derived": true
+    },
+    {
+      "from": "movement/byzantine-art",
+      "type": "influenced",
+      "to": "movement/sienese-school",
       "derived": true
     },
     {
