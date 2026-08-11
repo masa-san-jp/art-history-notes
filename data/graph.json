@@ -3853,13 +3853,22 @@
           "target": "place/kyoto"
         }
       ],
-      "relations": [],
+      "relations": [
+        {
+          "type": "influenced_by",
+          "target": "movement/nanga",
+          "certainty": "scholarly",
+          "source": "https://kyoto-museums.city.kyoto.lg.jp/en/feature-column/painting/"
+        }
+      ],
       "sources": [
         "https://www.wikidata.org/wiki/Q11394761",
         "https://www.wikidata.org/wiki/Q11394770",
         "https://www.wikidata.org/wiki/Q3577704",
         "https://ja.wikipedia.org/wiki/円山・四条派",
-        "https://en.wikipedia.org/wiki/Shij%C5%8D_school"
+        "https://en.wikipedia.org/wiki/Shij%C5%8D_school",
+        "https://kyoto-museums.city.kyoto.lg.jp/en/feature-column/painting/",
+        "https://www.fujibi.or.jp/collection/artwork/09092/"
       ],
       "images": [
         {
@@ -11876,6 +11885,13 @@
     },
     {
       "from": "movement/maruyama-shijo-school",
+      "type": "influenced_by",
+      "to": "movement/nanga",
+      "certainty": "scholarly",
+      "source": "https://kyoto-museums.city.kyoto.lg.jp/en/feature-column/painting/"
+    },
+    {
+      "from": "movement/maruyama-shijo-school",
       "type": "originated_in",
       "to": "place/kyoto"
     },
@@ -12821,6 +12837,12 @@
       "from": "movement/nihonga",
       "type": "influenced",
       "to": "movement/lingnan-school",
+      "derived": true
+    },
+    {
+      "from": "movement/nanga",
+      "type": "influenced",
+      "to": "movement/maruyama-shijo-school",
       "derived": true
     },
     {
