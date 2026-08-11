@@ -31,6 +31,7 @@ space:
 relations:
   - {type: created_by, target: person/victor-tardieu}
   - {type: created_by, target: person/nguyen-gia-tri}
+  - {type: influenced_by, target: movement/post-impressionism, certainty: scholarly, source: "https://www.rem.routledge.com/articles/nguyen-gia-tri-1908-1993"}
 sources:
   - https://en.wikipedia.org/wiki/Vietnam_University_of_Fine_Arts
   - https://en.wikipedia.org/wiki/Victor_Tardieu
@@ -40,6 +41,7 @@ sources:
   - https://www.nationalgallery.sg/sg/en/learn-about-art/magazine/vietnamese-lacquer-painting-between-materiality-and-history.html
   - https://www.rem.routledge.com/articles/modern-lacquer-painting-in-vietnam
   - https://www.rem.routledge.com/articles/nguyen-gia-tri-1908-1993
+  - https://www.rem.routledge.com/articles/post-impressionism
   - https://www.tapchisonglam.vn/di-san-cua-truong-cao-dang-my-thuat-dong-duong/
   - https://goutrends.com/victor-tardieu-nguoi-sang-lap-truong-my-thuat-dong-duong/
   - https://saigoneer.com/saigon-music-art/5121-the-incredible-work-of-l-ecole-beaux-art-l-indochine-artists

@@ -30,6 +30,7 @@ space:
   - {role: originated_in, target: place/ashiya}
 relations:
   - {type: created_by, target: person/jiro-yoshihara}
+  - {type: reacts_against, target: movement/abstract-expressionism, certainty: scholarly, source: "https://hoodmuseum.dartmouth.edu/objects/p.970.20"}
 sources:
   - https://www.wikidata.org/wiki/Q1028956
   - https://www.getty.edu/vow/AATFullDisplay?find=gutai&logic=AND&note=&english=Y&prev_page=1&subjectid=300417399
@@ -41,6 +42,7 @@ sources:
   - https://www.museum.osaka-u.ac.jp/wp/wp-content/uploads/2018/03/kato2017.pdf
   - https://www.shozoshimamoto.org/en/critical_essays/the-gutai-manifesto-jiro-yoshihara/
   - https://391.org/manifestos/1956-gutai-manifesto-jiro-yoshihara/
+  - https://hoodmuseum.dartmouth.edu/objects/p.970.20
 status: draft
 updated: 2026-08-10
 ---

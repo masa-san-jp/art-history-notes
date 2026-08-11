@@ -3146,6 +3146,12 @@
         {
           "type": "created_by",
           "target": "person/jiro-yoshihara"
+        },
+        {
+          "type": "reacts_against",
+          "target": "movement/abstract-expressionism",
+          "certainty": "scholarly",
+          "source": "https://hoodmuseum.dartmouth.edu/objects/p.970.20"
         }
       ],
       "sources": [
@@ -3158,7 +3164,8 @@
         "https://www.tokyoartbeat.com/articles/-/gutai-3-keywords-2022-10",
         "https://www.museum.osaka-u.ac.jp/wp/wp-content/uploads/2018/03/kato2017.pdf",
         "https://www.shozoshimamoto.org/en/critical_essays/the-gutai-manifesto-jiro-yoshihara/",
-        "https://391.org/manifestos/1956-gutai-manifesto-jiro-yoshihara/"
+        "https://391.org/manifestos/1956-gutai-manifesto-jiro-yoshihara/",
+        "https://hoodmuseum.dartmouth.edu/objects/p.970.20"
       ],
       "status": "draft",
       "updated": "2026-08-10",
@@ -3828,6 +3835,12 @@
         {
           "type": "created_by",
           "target": "person/nguyen-gia-tri"
+        },
+        {
+          "type": "influenced_by",
+          "target": "movement/post-impressionism",
+          "certainty": "scholarly",
+          "source": "https://www.rem.routledge.com/articles/nguyen-gia-tri-1908-1993"
         }
       ],
       "sources": [
@@ -3839,6 +3852,7 @@
         "https://www.nationalgallery.sg/sg/en/learn-about-art/magazine/vietnamese-lacquer-painting-between-materiality-and-history.html",
         "https://www.rem.routledge.com/articles/modern-lacquer-painting-in-vietnam",
         "https://www.rem.routledge.com/articles/nguyen-gia-tri-1908-1993",
+        "https://www.rem.routledge.com/articles/post-impressionism",
         "https://www.tapchisonglam.vn/di-san-cua-truong-cao-dang-my-thuat-dong-duong/",
         "https://goutrends.com/victor-tardieu-nguoi-sang-lap-truong-my-thuat-dong-duong/",
         "https://saigoneer.com/saigon-music-art/5121-the-incredible-work-of-l-ecole-beaux-art-l-indochine-artists"
@@ -13397,6 +13411,13 @@
     },
     {
       "from": "movement/gutai",
+      "type": "reacts_against",
+      "to": "movement/abstract-expressionism",
+      "certainty": "scholarly",
+      "source": "https://hoodmuseum.dartmouth.edu/objects/p.970.20"
+    },
+    {
+      "from": "movement/gutai",
       "type": "originated_in",
       "to": "place/ashiya"
     },
@@ -13516,6 +13537,13 @@
       "to": "person/nguyen-gia-tri",
       "certainty": null,
       "source": null
+    },
+    {
+      "from": "movement/indochina-lacquer-painting",
+      "type": "influenced_by",
+      "to": "movement/post-impressionism",
+      "certainty": "scholarly",
+      "source": "https://www.rem.routledge.com/articles/nguyen-gia-tri-1908-1993"
     },
     {
       "from": "movement/indochina-lacquer-painting",
@@ -14778,6 +14806,12 @@
       "derived": true
     },
     {
+      "from": "movement/abstract-expressionism",
+      "type": "reacted_against_by",
+      "to": "movement/gutai",
+      "derived": true
+    },
+    {
       "from": "place/tabriz",
       "type": "received",
       "to": "movement/herat-school",
@@ -14840,6 +14874,12 @@
     {
       "from": "person/nguyen-gia-tri",
       "type": "created",
+      "to": "movement/indochina-lacquer-painting",
+      "derived": true
+    },
+    {
+      "from": "movement/post-impressionism",
+      "type": "influenced",
       "to": "movement/indochina-lacquer-painting",
       "derived": true
     },
