@@ -14554,6 +14554,44 @@
       "updated": "2026-08-12",
       "path": "entities/works/alba-morbelli-1891.md"
     },
+    "work/aube-sur-le-lac-de-garde-focardi-1907": {
+      "id": "work/aube-sur-le-lac-de-garde-focardi-1907",
+      "uri": "urn:ahn:work/aube-sur-le-lac-de-garde-focardi-1907",
+      "type": "work",
+      "label_ja": "ピエロ・フォカルディ《Aube sur le lac de Garde / La punta di Manerba》",
+      "label_en": "Aube sur le lac de Garde / La punta di Manerba",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "独立作品典拠IDは未確認。Pinacoteca il Divisionismoの作品記録と1907年展カタログ記録を用いる"
+      },
+      "time": {
+        "start": "1907",
+        "end": "1907",
+        "display": "1907年制作・1907年パリ展出品"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/piero-focardi"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/salon-divisionnistes-italiens-paris-1907"
+        }
+      ],
+      "sources": [
+        "https://ildivisionismo.it/piero-focardi/",
+        "https://www.ildivisionismo.it/wp-content/uploads/2019/04/Guida-alla-visita-ilDivisionismo.pdf",
+        "https://exhibitions.univie.ac.at/exhibition/125"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/works/aube-sur-le-lac-de-garde-focardi-1907.md"
+    },
     "work/baigneurs-dans-le-lac-focardi-1906": {
       "id": "work/baigneurs-dans-le-lac-focardi-1906",
       "uri": "urn:ahn:work/baigneurs-dans-le-lac-focardi-1906",
@@ -17944,6 +17982,20 @@
       "source": null
     },
     {
+      "from": "work/aube-sur-le-lac-de-garde-focardi-1907",
+      "type": "created_by",
+      "to": "person/piero-focardi",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/aube-sur-le-lac-de-garde-focardi-1907",
+      "type": "exhibited_at",
+      "to": "event/salon-divisionnistes-italiens-paris-1907",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "work/baigneurs-dans-le-lac-focardi-1906",
       "type": "created_by",
       "to": "person/piero-focardi",
@@ -19725,6 +19777,18 @@
       "from": "event/first-brera-triennale-1891",
       "type": "exhibited",
       "to": "work/alba-morbelli-1891",
+      "derived": true
+    },
+    {
+      "from": "person/piero-focardi",
+      "type": "created",
+      "to": "work/aube-sur-le-lac-de-garde-focardi-1907",
+      "derived": true
+    },
+    {
+      "from": "event/salon-divisionnistes-italiens-paris-1907",
+      "type": "exhibited",
+      "to": "work/aube-sur-le-lac-de-garde-focardi-1907",
       "derived": true
     },
     {
