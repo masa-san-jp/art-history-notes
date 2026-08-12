@@ -20,6 +20,7 @@ space:
   - {role: active_in, target: place/paris}
 relations:
   - {type: belongs_to, target: movement/neo-impressionism}
+  - {type: member_of, target: org/societe-artistes-independants}
   - {type: taught_by, target: person/henri-lehmann}
 sources:
   - https://www.wikidata.org/wiki/Q34013
