@@ -33,7 +33,7 @@ relations:
   - {type: exhibited_at, target: org/societe-anonyme-artistes}
   - {type: exhibited_at, target: event/eighth-impressionist-exhibition-1886}
   - {type: influenced_by, target: movement/barbizon-school, certainty: scholarly, source: "https://www.getty.edu/education/for_teachers/curricula/impressionism/background1.html"}
-  - {type: influenced_by, target: movement/utagawa-school, certainty: scholarly, source: "https://en.wikipedia.org/wiki/Fondation_Monet_in_Giverny"}
+  - {type: influenced_by, target: movement/utagawa-school, certainty: scholarly, source: "https://fondation-monet.com/en/decouvrir/les-estampes-japonaises/"}
   - {type: diffused_to, target: place/london, certainty: scholarly, source: "https://www.nationalgallery.org.uk/about-us/press-and-media/press-releases-archive/inventing-impressionism"}
   - {type: diffused_to, target: place/brussels, certainty: scholarly, source: "https://www.musee-orsay.fr/sites/default/files/2022-06/SalonsExpositions_1673-1961_v1_20220707.pdf"}
   - {type: diffused_to, target: place/new-york-city, certainty: scholarly, source: "https://www.metmuseum.org/zh/essays/william-merritt-chase-1849-1916"}
@@ -61,6 +61,7 @@ sources:
   - https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300021505
   - https://www.getty.edu/education/for_teachers/curricula/impressionism/background1.html
   - https://en.wikipedia.org/wiki/Fondation_Monet_in_Giverny
+  - https://fondation-monet.com/en/decouvrir/les-estampes-japonaises/
   - https://en.wikipedia.org/wiki/La_Japonaise_(painting)
   - https://collections.mfa.org/objects/33556
   - https://www.nationalgallery.org.uk/about-us/press-and-media/press-releases-archive/inventing-impressionism
@@ -208,15 +209,16 @@ start/end に置く）に従い、括りが公に成立した最初の合同展�
 `influenced_by` を[歌川派](utagawa-school.md)に張った。動いたのは**物**である。観念の類似ではなく、
 版画そのものがパリ近郊の家の壁に掛かっていた。
 
-クロード・モネは1883年から1926年に没するまでジヴェルニーの家に住み、そこには浮世絵が
-243点ある（うち211点が展示、残りは収蔵）。内訳は喜多川歌麿46点、葛飾北斎23点、そして
-**歌川広重48点**——3人の中で最も多い（[英語版Wikipedia「Fondation Monet in Giverny」](https://en.wikipedia.org/wiki/Fondation_Monet_in_Giverny)、二次情報）。
-広重は歌川豊広の弟子で、歌川派に連なる。モネの絵画の大半はパリのマルモッタン・モネ美術館に
-移ったが、版画はジヴェルニーの家に残っている。
+クロード・モネのジヴェルニーの家には、フォンダシオン・クロード・モネの公式ページによれば、
+日本版画が211点展示され、別に32点が収蔵されている（ページの記載から合計243点と読める）。
+展示中の内訳として喜多川歌麿46点、葛飾北斎23点、**歌川広重48点**（3人で計117点）が挙げられている
+（[フォンダシオン・クロード・モネ「Japanese prints」](https://fondation-monet.com/en/decouvrir/les-estampes-japonaises/)）。
+広重は歌川豊広の弟子で、歌川派に連なる。公式ページ自身も、モネが浮世絵の巨匠たちの視覚を共有し、
+その版画を研究していたと説明しているため、ここでは個人コレクションという物的経路から
+印象派と歌川派の接続を記録する。モネの絵画の大半はパリのマルモッタン・モネ美術館に移ったが、
+版画はジヴェルニーの家に残っている。
 
-**未確認**: 総点数は出典によって231点とも243点とも書かれる。フォンダシオン・クロード・モネ
-自身のページ（fondation-monet.com）は当方からの取得を拒否され、所蔵者本人の数字を確認できていない。
-モネがいつ収集を始めたかも確認できていない——ジヴェルニー移住は1883年で、下の《ラ・ジャポネーズ》
+モネがいつ収集を始めたかは確認できていない——ジヴェルニー移住は1883年で、下の《ラ・ジャポネーズ》
 より7年遅い。
 
 集めた側の作品にも日本のものが現れる。《ラ・ジャポネーズ（日本娘）》（1876年）は、赤い打掛を着た
@@ -248,8 +250,6 @@ start/end に置く）に従い、括りが公に成立した最初の合同展�
 - デュラン＝リュエルの各支店で、上記以外にどの画家・作品がいつ展示されたかの個別展覧会史
 - ドガ・ピサロ・ルノワール・モリゾそれぞれの日本の版画との接触。歌川派への `influenced_by` を
   括りに張ることの妥当性は、7人のうち何人に経路があるかで変わる
-- フォンダシオン・クロード・モネ（所蔵者本人）による版画コレクションの点数・目録。当方からの
-  取得が拒否され、231点説と243点説のどちらが所蔵者の数字かを確認できていない
 - モネが日本の版画を集め始めた時期の一次資料。ジヴェルニー移住（1883年）より前の収集を示す
   記録があるかどうかで、《ラ・ジャポネーズ》（1876年）との関係の書き方が変わる
 - ボストン美術館の《ラ・ジャポネーズ》所蔵記録そのもの（当方からは 403）

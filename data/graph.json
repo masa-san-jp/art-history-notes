@@ -4151,7 +4151,7 @@
           "type": "influenced_by",
           "target": "movement/utagawa-school",
           "certainty": "scholarly",
-          "source": "https://en.wikipedia.org/wiki/Fondation_Monet_in_Giverny"
+          "source": "https://fondation-monet.com/en/decouvrir/les-estampes-japonaises/"
         },
         {
           "type": "diffused_to",
@@ -4201,6 +4201,7 @@
         "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300021505",
         "https://www.getty.edu/education/for_teachers/curricula/impressionism/background1.html",
         "https://en.wikipedia.org/wiki/Fondation_Monet_in_Giverny",
+        "https://fondation-monet.com/en/decouvrir/les-estampes-japonaises/",
         "https://en.wikipedia.org/wiki/La_Japonaise_(painting)",
         "https://collections.mfa.org/objects/33556",
         "https://www.nationalgallery.org.uk/about-us/press-and-media/press-releases-archive/inventing-impressionism",
@@ -56785,7 +56786,7 @@
       "type": "influenced_by",
       "to": "movement/utagawa-school",
       "certainty": "scholarly",
-      "source": "https://en.wikipedia.org/wiki/Fondation_Monet_in_Giverny"
+      "source": "https://fondation-monet.com/en/decouvrir/les-estampes-japonaises/"
     },
     {
       "from": "movement/impressionism",
