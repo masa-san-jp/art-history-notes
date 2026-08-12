@@ -2719,7 +2719,7 @@
           "type": "influenced_by",
           "target": "movement/safavid-painting",
           "certainty": "scholarly",
-          "source": "https://en.wikipedia.org/wiki/Deccan_painting"
+          "source": "https://www.metmuseum.org/essays/islamic-art-of-the-deccan"
         },
         {
           "type": "influenced_by",
@@ -2734,6 +2734,7 @@
         "https://en.wikipedia.org/wiki/Deccan_painting",
         "https://en.wikipedia.org/wiki/Golconda_painting",
         "https://www.metmuseum.org/toah/hd/decc/hd_decc.htm",
+        "https://www.metmuseum.org/essays/islamic-art-of-the-deccan",
         "https://www.metmuseum.org/art/collection/search/453975",
         "https://www.metmuseum.org/art/collection/search/453334"
       ],
@@ -2752,7 +2753,7 @@
         }
       ],
       "status": "draft",
-      "updated": "2026-08-10",
+      "updated": "2026-08-13",
       "path": "entities/movements/deccan-painting.md"
     },
     "movement/ecole-de-dakar": {
@@ -56611,7 +56612,7 @@
       "type": "influenced_by",
       "to": "movement/safavid-painting",
       "certainty": "scholarly",
-      "source": "https://en.wikipedia.org/wiki/Deccan_painting"
+      "source": "https://www.metmuseum.org/essays/islamic-art-of-the-deccan"
     },
     {
       "from": "movement/deccan-painting",

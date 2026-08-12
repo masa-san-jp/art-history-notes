@@ -29,7 +29,7 @@ space:
   - {role: originated_in, target: place/bijapur}
   - {role: active_in, target: place/golconda}
 relations:
-  - {type: influenced_by, target: movement/safavid-painting, certainty: scholarly, source: "https://en.wikipedia.org/wiki/Deccan_painting"}
+  - {type: influenced_by, target: movement/safavid-painting, certainty: scholarly, source: "https://www.metmuseum.org/essays/islamic-art-of-the-deccan"}
   - {type: influenced_by, target: movement/ottoman-miniature, certainty: scholarly, source: "https://en.wikipedia.org/wiki/Deccan_painting"}
 sources:
   - https://www.wikidata.org/wiki/Q28173212
@@ -37,6 +37,7 @@ sources:
   - https://en.wikipedia.org/wiki/Deccan_painting
   - https://en.wikipedia.org/wiki/Golconda_painting
   - https://www.metmuseum.org/toah/hd/decc/hd_decc.htm
+  - https://www.metmuseum.org/essays/islamic-art-of-the-deccan
   - https://www.metmuseum.org/art/collection/search/453975
   - https://www.metmuseum.org/art/collection/search/453334
 images:
@@ -49,7 +50,7 @@ images:
     license: cc0
     note: "《幻獣ブラーク》（The Fabulous Creature Buraq）、c.1660-80年、メトロポリタン美術館蔵（isPublicDomain: true）。小動物の集合体として大動物を描く『合成動物』はデカン絵画の特色の一つとされる"
 status: draft
-updated: 2026-08-10
+updated: 2026-08-13
 ---
 
 # デカン絵画 / Deccan painting
@@ -190,6 +191,15 @@ Wikipediaは「初期の細密画の質の高さは、それ以前に地域の�
 それぞれの宮廷があったとされるが、絵画への具体的な寄与は「征服の前後を問わず不確か」と
 Wikipediaの記事自体が述べており（同記事「Decline」節）、place として立てるだけの根拠が今回
 見つからなかった。
+
+## サファヴィー朝との接続
+
+メトロポリタン美術館は、デカンの宮廷文化がペルシャと強い親和性を持っていたこと、特にゴールコンダが
+イランのサファヴィー朝と密接な関係にあり、同朝から多くの画家がゴールコンダ宮廷へ移ったことを記している。
+さらに、ペルシャ人とインド人の画家の協働が、ゴールコンダの写本に見られる独自の画風を生んだと説明する
+（[The Metropolitan Museum of Art「Islamic Art of the Deccan」](https://www.metmuseum.org/essays/islamic-art-of-the-deccan)）。
+したがって、ここでの `influenced_by` は図像の類似だけでなく、サファヴィー朝からデカンへの画家の移動と
+制作現場での協働を根拠にしている。
 
 ## 未着手
 
