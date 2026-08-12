@@ -31,7 +31,7 @@ relations:
   - {type: part_of, target: concept/divisionism}
   - {type: exhibited_at, target: event/first-brera-triennale-1891, certainty: scholarly, source: "https://collezionedarte.bancaditalia.it/web/guest/-/divisionismo-1"}
   - {type: exhibited_at, target: event/salon-divisionnistes-italiens-paris-1907, certainty: scholarly, source: "https://exhibitions.univie.ac.at/exhibition/125"}
-  - {type: influenced_by, target: movement/neo-impressionism, certainty: scholarly, source: "https://www.treccani.it/enciclopedia/divisionismo/"}
+  - {type: influenced_by, target: movement/neo-impressionism, certainty: scholarly, source: "https://www.mart.tn.it/en/le-collezioni-del-mart"}
   - {type: diffused_to, target: place/london, certainty: scholarly, source: "https://www.mart.tn.it/en/mostre/vittore-grubicy-and-europe-at-the-roots-of-divisionism-138656"}
   - {type: diffused_to, target: place/paris, certainty: scholarly, source: "https://www.mart.tn.it/en/mostre/vittore-grubicy-and-europe-at-the-roots-of-divisionism-138656"}
 sources:
@@ -40,11 +40,12 @@ sources:
   - https://www.treccani.it/enciclopedia/giovanni-segantini_%28Enciclopedia-dei-ragazzi%29/
   - https://collezionedarte.bancaditalia.it/web/guest/-/divisionismo-1
   - https://www.treccani.it/enciclopedia/angelo-morbelli_%28Dizionario-Biografico%29/
+  - https://www.mart.tn.it/en/le-collezioni-del-mart
   - https://www.mart.tn.it/en/mostre/vittore-grubicy-and-europe-at-the-roots-of-divisionism-138656
   - https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf
   - https://obtic.huma-num.fr/obvil-web/corpus/mdf-italie/mercure-italie_1907
 status: draft
-updated: 2026-08-12
+updated: 2026-08-13
 ---
 
 # イタリア分割主義 / Italian Divisionism
@@ -52,6 +53,8 @@ updated: 2026-08-12
 19世紀末から20世紀初頭のイタリアで、純色を分けて置く分割主義の原理を複数の画家がそれぞれの
 主題と筆触へ展開した運動。トレッカーニは、イタリアの分割主義がフランスで先行した技法を受けつつ、
 イタリアでは独自に発展し、象徴主義的な主題や理想化された社会的・政治的関心も取り込んだと説明する。
+トレント・ロヴェレート近現代美術館（MART）も、イタリアの分割主義画家がフランスの例に続いて、
+物理的な混色ではなく光学的な混色を探究したと説明している（[MART Collections](https://www.mart.tn.it/en/le-collezioni-del-mart)）。
 
 ## 成立と担い手
 
@@ -628,9 +631,10 @@ Portico D Dの「Parte 2.ª」で630番まで続く（同一作家の複数出�
 ## 新印象派からの技法上の受容
 
 トレッカーニは、分割主義の手法がフランスのポスト印象派の探究、とりわけ新印象派の主張した技法の中で形成され、
-イタリアでは独自に発展したと説明する。このため本項では、イタリア分割主義が新印象派から技法上の刺激を受けたことを
-`influenced_by` で記録する。ただし、これはイタリアの運動がフランスの運動の単純な組織的継承だったことや、特定作品の
-直接伝播を意味しない。
+イタリアでは独自に発展したと説明する。MARTも、イタリアの分割主義画家が「フランスの例に続いて」光学的な混色を
+研究したと説明する。このため本項では、イタリア分割主義が新印象派から技法上の刺激を受けたことを、MARTの公式解説を
+直接の出典として `influenced_by` で記録する。ただし、これはイタリアの運動がフランスの運動の単純な組織的継承だった
+ことや、特定作品の直接伝播を意味しない。
 
 ## 国外への波及
 
