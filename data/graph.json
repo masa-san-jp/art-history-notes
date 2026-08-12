@@ -10347,6 +10347,7 @@
       ],
       "sources": [
         "https://www.wikidata.org/wiki/Q379300",
+        "https://exhibitions.univie.ac.at/person/ulan/500005029",
         "https://www.treccani.it/enciclopedia/giovanni-segantini_%28Dizionario-Biografico%29/",
         "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
       ],
@@ -14974,6 +14975,43 @@
       "updated": "2026-08-12",
       "path": "entities/works/chevaux-au-joug-magrini-1907.md"
     },
+    "work/chevaux-au-paturage-segantini-1907": {
+      "id": "work/chevaux-au-paturage-segantini-1907",
+      "uri": "urn:ahn:work/chevaux-au-paturage-segantini-1907",
+      "type": "work",
+      "label_ja": "ジョヴァンニ・セガンティーニ《Chevaux au paturage》",
+      "label_en": "Chevaux au paturage",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "独立作品典拠IDは未確認。1907年パリ展カタログ記録を用いる"
+      },
+      "time": {
+        "start": "1907",
+        "end": "1907",
+        "display": "1907年パリ展出品（制作年未確認）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/giovanni-segantini"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/salon-divisionnistes-italiens-paris-1907"
+        }
+      ],
+      "sources": [
+        "https://exhibitions.univie.ac.at/person/ulan/500005029",
+        "https://exhibitions.univie.ac.at/exhibition/125"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/works/chevaux-au-paturage-segantini-1907.md"
+    },
     "work/chouettes-magrini-1907": {
       "id": "work/chouettes-magrini-1907",
       "uri": "urn:ahn:work/chouettes-magrini-1907",
@@ -15345,6 +15383,43 @@
       "status": "draft",
       "updated": "2026-08-12",
       "path": "entities/works/deux-chevaux-magrini-1907.md"
+    },
+    "work/deux-meres-segantini-1907": {
+      "id": "work/deux-meres-segantini-1907",
+      "uri": "urn:ahn:work/deux-meres-segantini-1907",
+      "type": "work",
+      "label_ja": "ジョヴァンニ・セガンティーニ《Deux Mères》",
+      "label_en": "Deux Mères",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "独立作品典拠IDは未確認。1907年パリ展カタログ記録を用いる"
+      },
+      "time": {
+        "start": "1907",
+        "end": "1907",
+        "display": "1907年パリ展出品（制作年未確認）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/giovanni-segantini"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/salon-divisionnistes-italiens-paris-1907"
+        }
+      ],
+      "sources": [
+        "https://exhibitions.univie.ac.at/person/ulan/500005029",
+        "https://exhibitions.univie.ac.at/exhibition/125"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/works/deux-meres-segantini-1907.md"
     },
     "work/dromadaire-magrini-1907": {
       "id": "work/dromadaire-magrini-1907",
@@ -16612,6 +16687,43 @@
       "updated": "2026-08-12",
       "path": "entities/works/la-lutte-pour-la-vie-magrini-1907.md"
     },
+    "work/la-mort-segantini-1907": {
+      "id": "work/la-mort-segantini-1907",
+      "uri": "urn:ahn:work/la-mort-segantini-1907",
+      "type": "work",
+      "label_ja": "ジョヴァンニ・セガンティーニ《La Mort》",
+      "label_en": "La Mort",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "独立作品典拠IDは未確認。1907年パリ展カタログ記録を用いる"
+      },
+      "time": {
+        "start": "1907",
+        "end": "1907",
+        "display": "1907年パリ展出品（制作年未確認）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/giovanni-segantini"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/salon-divisionnistes-italiens-paris-1907"
+        }
+      ],
+      "sources": [
+        "https://exhibitions.univie.ac.at/person/ulan/500005029",
+        "https://exhibitions.univie.ac.at/exhibition/125"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/works/la-mort-segantini-1907.md"
+    },
     "work/la-priere-previati-1907": {
       "id": "work/la-priere-previati-1907",
       "uri": "urn:ahn:work/la-priere-previati-1907",
@@ -16723,6 +16835,43 @@
       "status": "draft",
       "updated": "2026-08-12",
       "path": "entities/works/la-victoire-previati-1907.md"
+    },
+    "work/la-vie-segantini-1907": {
+      "id": "work/la-vie-segantini-1907",
+      "uri": "urn:ahn:work/la-vie-segantini-1907",
+      "type": "work",
+      "label_ja": "ジョヴァンニ・セガンティーニ《La Vie》",
+      "label_en": "La Vie",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "独立作品典拠IDは未確認。1907年パリ展カタログ記録を用いる"
+      },
+      "time": {
+        "start": "1907",
+        "end": "1907",
+        "display": "1907年パリ展出品（制作年未確認）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/giovanni-segantini"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/salon-divisionnistes-italiens-paris-1907"
+        }
+      ],
+      "sources": [
+        "https://exhibitions.univie.ac.at/person/ulan/500005029",
+        "https://exhibitions.univie.ac.at/exhibition/125"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/works/la-vie-segantini-1907.md"
     },
     "work/la-vierge-previati-1907": {
       "id": "work/la-vierge-previati-1907",
@@ -16992,6 +17141,43 @@
       "status": "draft",
       "updated": "2026-08-12",
       "path": "entities/works/le-due-madri-segantini.md"
+    },
+    "work/le-fruit-de-l-amour-segantini-1907": {
+      "id": "work/le-fruit-de-l-amour-segantini-1907",
+      "uri": "urn:ahn:work/le-fruit-de-l-amour-segantini-1907",
+      "type": "work",
+      "label_ja": "ジョヴァンニ・セガンティーニ《Le fruit de l'amour》",
+      "label_en": "Le fruit de l'amour",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "独立作品典拠IDは未確認。1907年パリ展カタログ記録を用いる"
+      },
+      "time": {
+        "start": "1907",
+        "end": "1907",
+        "display": "1907年パリ展出品（制作年未確認）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/giovanni-segantini"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/salon-divisionnistes-italiens-paris-1907"
+        }
+      ],
+      "sources": [
+        "https://exhibitions.univie.ac.at/person/ulan/500005029",
+        "https://exhibitions.univie.ac.at/exhibition/125"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/works/le-fruit-de-l-amour-segantini-1907.md"
     },
     "work/le-gue-magrini-1907": {
       "id": "work/le-gue-magrini-1907",
@@ -17371,6 +17557,43 @@
       "status": "draft",
       "updated": "2026-08-12",
       "path": "entities/works/lef-no-2-1924.md"
+    },
+    "work/les-heures-du-matin-segantini-1907": {
+      "id": "work/les-heures-du-matin-segantini-1907",
+      "uri": "urn:ahn:work/les-heures-du-matin-segantini-1907",
+      "type": "work",
+      "label_ja": "ジョヴァンニ・セガンティーニ《Les Heures du Matin》",
+      "label_en": "Les Heures du Matin",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "独立作品典拠IDは未確認。1907年パリ展カタログ記録を用いる"
+      },
+      "time": {
+        "start": "1907",
+        "end": "1907",
+        "display": "1907年パリ展出品（制作年未確認）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/giovanni-segantini"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/salon-divisionnistes-italiens-paris-1907"
+        }
+      ],
+      "sources": [
+        "https://exhibitions.univie.ac.at/person/ulan/500005029",
+        "https://exhibitions.univie.ac.at/exhibition/125"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/works/les-heures-du-matin-segantini-1907.md"
     },
     "work/les-rois-mages-previati-1907": {
       "id": "work/les-rois-mages-previati-1907",
@@ -19386,6 +19609,80 @@
       "updated": "2026-08-12",
       "path": "entities/works/quies-magrini-1907.md"
     },
+    "work/recolte-des-potirons-segantini-1907": {
+      "id": "work/recolte-des-potirons-segantini-1907",
+      "uri": "urn:ahn:work/recolte-des-potirons-segantini-1907",
+      "type": "work",
+      "label_ja": "ジョヴァンニ・セガンティーニ《Récolte des potirons》",
+      "label_en": "Récolte des potirons",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "独立作品典拠IDは未確認。1907年パリ展カタログ記録を用いる"
+      },
+      "time": {
+        "start": "1907",
+        "end": "1907",
+        "display": "1907年パリ展出品（制作年未確認）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/giovanni-segantini"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/salon-divisionnistes-italiens-paris-1907"
+        }
+      ],
+      "sources": [
+        "https://exhibitions.univie.ac.at/person/ulan/500005029",
+        "https://exhibitions.univie.ac.at/exhibition/125"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/works/recolte-des-potirons-segantini-1907.md"
+    },
+    "work/retour-au-bercail-segantini-1907": {
+      "id": "work/retour-au-bercail-segantini-1907",
+      "uri": "urn:ahn:work/retour-au-bercail-segantini-1907",
+      "type": "work",
+      "label_ja": "ジョヴァンニ・セガンティーニ《Retour au bercail》",
+      "label_en": "Retour au bercail",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "独立作品典拠IDは未確認。1907年パリ展カタログ記録を用いる"
+      },
+      "time": {
+        "start": "1907",
+        "end": "1907",
+        "display": "1907年パリ展出品（制作年未確認）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/giovanni-segantini"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/salon-divisionnistes-italiens-paris-1907"
+        }
+      ],
+      "sources": [
+        "https://exhibitions.univie.ac.at/person/ulan/500005029",
+        "https://exhibitions.univie.ac.at/exhibition/125"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/works/retour-au-bercail-segantini-1907.md"
+    },
     "work/retour-de-la-messe-focardi-1907": {
       "id": "work/retour-de-la-messe-focardi-1907",
       "uri": "urn:ahn:work/retour-de-la-messe-focardi-1907",
@@ -19758,6 +20055,43 @@
       "status": "draft",
       "updated": "2026-08-12",
       "path": "entities/works/spatial-construction-no-12.md"
+    },
+    "work/st-moritz-pendant-la-nuit-segantini-1907": {
+      "id": "work/st-moritz-pendant-la-nuit-segantini-1907",
+      "uri": "urn:ahn:work/st-moritz-pendant-la-nuit-segantini-1907",
+      "type": "work",
+      "label_ja": "ジョヴァンニ・セガンティーニ《St-Moritz pendant la nuit》",
+      "label_en": "St-Moritz pendant la nuit",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "独立作品典拠IDは未確認。1907年パリ展カタログ記録を用いる"
+      },
+      "time": {
+        "start": "1907",
+        "end": "1907",
+        "display": "1907年パリ展出品（制作年未確認）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/giovanni-segantini"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/salon-divisionnistes-italiens-paris-1907"
+        }
+      ],
+      "sources": [
+        "https://exhibitions.univie.ac.at/person/ulan/500005029",
+        "https://exhibitions.univie.ac.at/exhibition/125"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/works/st-moritz-pendant-la-nuit-segantini-1907.md"
     },
     "work/studio-di-mare-la-scogliera-merello-1906": {
       "id": "work/studio-di-mare-la-scogliera-merello-1906",
@@ -22823,6 +23157,20 @@
       "source": null
     },
     {
+      "from": "work/chevaux-au-paturage-segantini-1907",
+      "type": "created_by",
+      "to": "person/giovanni-segantini",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/chevaux-au-paturage-segantini-1907",
+      "type": "exhibited_at",
+      "to": "event/salon-divisionnistes-italiens-paris-1907",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "work/chouettes-magrini-1907",
       "type": "created_by",
       "to": "person/adolphe-magrini",
@@ -22957,6 +23305,20 @@
     },
     {
       "from": "work/deux-chevaux-magrini-1907",
+      "type": "exhibited_at",
+      "to": "event/salon-divisionnistes-italiens-paris-1907",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/deux-meres-segantini-1907",
+      "type": "created_by",
+      "to": "person/giovanni-segantini",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/deux-meres-segantini-1907",
       "type": "exhibited_at",
       "to": "event/salon-divisionnistes-italiens-paris-1907",
       "certainty": null,
@@ -23446,6 +23808,20 @@
       "source": null
     },
     {
+      "from": "work/la-mort-segantini-1907",
+      "type": "created_by",
+      "to": "person/giovanni-segantini",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/la-mort-segantini-1907",
+      "type": "exhibited_at",
+      "to": "event/salon-divisionnistes-italiens-paris-1907",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "work/la-priere-previati-1907",
       "type": "created_by",
       "to": "person/gaetano-previati",
@@ -23482,6 +23858,20 @@
     },
     {
       "from": "work/la-victoire-previati-1907",
+      "type": "exhibited_at",
+      "to": "event/salon-divisionnistes-italiens-paris-1907",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/la-vie-segantini-1907",
+      "type": "created_by",
+      "to": "person/giovanni-segantini",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/la-vie-segantini-1907",
       "type": "exhibited_at",
       "to": "event/salon-divisionnistes-italiens-paris-1907",
       "certainty": null,
@@ -23589,6 +23979,20 @@
       "from": "work/le-due-madri-segantini",
       "type": "exhibited_at",
       "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/le-fruit-de-l-amour-segantini-1907",
+      "type": "created_by",
+      "to": "person/giovanni-segantini",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/le-fruit-de-l-amour-segantini-1907",
+      "type": "exhibited_at",
+      "to": "event/salon-divisionnistes-italiens-paris-1907",
       "certainty": null,
       "source": null
     },
@@ -23743,6 +24147,20 @@
       "from": "work/lef-no-2-1924",
       "type": "belongs_to",
       "to": "movement/constructivism",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/les-heures-du-matin-segantini-1907",
+      "type": "created_by",
+      "to": "person/giovanni-segantini",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/les-heures-du-matin-segantini-1907",
+      "type": "exhibited_at",
+      "to": "event/salon-divisionnistes-italiens-paris-1907",
       "certainty": null,
       "source": null
     },
@@ -24510,6 +24928,34 @@
       "source": null
     },
     {
+      "from": "work/recolte-des-potirons-segantini-1907",
+      "type": "created_by",
+      "to": "person/giovanni-segantini",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/recolte-des-potirons-segantini-1907",
+      "type": "exhibited_at",
+      "to": "event/salon-divisionnistes-italiens-paris-1907",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/retour-au-bercail-segantini-1907",
+      "type": "created_by",
+      "to": "person/giovanni-segantini",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/retour-au-bercail-segantini-1907",
+      "type": "exhibited_at",
+      "to": "event/salon-divisionnistes-italiens-paris-1907",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "work/retour-de-la-messe-focardi-1907",
       "type": "created_by",
       "to": "person/piero-focardi",
@@ -24646,6 +25092,20 @@
       "from": "work/spatial-construction-no-12",
       "type": "belongs_to",
       "to": "movement/constructivism",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/st-moritz-pendant-la-nuit-segantini-1907",
+      "type": "created_by",
+      "to": "person/giovanni-segantini",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/st-moritz-pendant-la-nuit-segantini-1907",
+      "type": "exhibited_at",
+      "to": "event/salon-divisionnistes-italiens-paris-1907",
       "certainty": null,
       "source": null
     },
@@ -26353,6 +26813,18 @@
       "derived": true
     },
     {
+      "from": "person/giovanni-segantini",
+      "type": "created",
+      "to": "work/chevaux-au-paturage-segantini-1907",
+      "derived": true
+    },
+    {
+      "from": "event/salon-divisionnistes-italiens-paris-1907",
+      "type": "exhibited",
+      "to": "work/chevaux-au-paturage-segantini-1907",
+      "derived": true
+    },
+    {
       "from": "person/adolphe-magrini",
       "type": "created",
       "to": "work/chouettes-magrini-1907",
@@ -26470,6 +26942,18 @@
       "from": "event/salon-divisionnistes-italiens-paris-1907",
       "type": "exhibited",
       "to": "work/deux-chevaux-magrini-1907",
+      "derived": true
+    },
+    {
+      "from": "person/giovanni-segantini",
+      "type": "created",
+      "to": "work/deux-meres-segantini-1907",
+      "derived": true
+    },
+    {
+      "from": "event/salon-divisionnistes-italiens-paris-1907",
+      "type": "exhibited",
+      "to": "work/deux-meres-segantini-1907",
       "derived": true
     },
     {
@@ -26887,6 +27371,18 @@
       "derived": true
     },
     {
+      "from": "person/giovanni-segantini",
+      "type": "created",
+      "to": "work/la-mort-segantini-1907",
+      "derived": true
+    },
+    {
+      "from": "event/salon-divisionnistes-italiens-paris-1907",
+      "type": "exhibited",
+      "to": "work/la-mort-segantini-1907",
+      "derived": true
+    },
+    {
       "from": "person/gaetano-previati",
       "type": "created",
       "to": "work/la-priere-previati-1907",
@@ -26920,6 +27416,18 @@
       "from": "event/salon-divisionnistes-italiens-paris-1907",
       "type": "exhibited",
       "to": "work/la-victoire-previati-1907",
+      "derived": true
+    },
+    {
+      "from": "person/giovanni-segantini",
+      "type": "created",
+      "to": "work/la-vie-segantini-1907",
+      "derived": true
+    },
+    {
+      "from": "event/salon-divisionnistes-italiens-paris-1907",
+      "type": "exhibited",
+      "to": "work/la-vie-segantini-1907",
       "derived": true
     },
     {
@@ -27010,6 +27518,18 @@
       "from": "event/first-brera-triennale-1891",
       "type": "exhibited",
       "to": "work/le-due-madri-segantini",
+      "derived": true
+    },
+    {
+      "from": "person/giovanni-segantini",
+      "type": "created",
+      "to": "work/le-fruit-de-l-amour-segantini-1907",
+      "derived": true
+    },
+    {
+      "from": "event/salon-divisionnistes-italiens-paris-1907",
+      "type": "exhibited",
+      "to": "work/le-fruit-de-l-amour-segantini-1907",
       "derived": true
     },
     {
@@ -27142,6 +27662,18 @@
       "from": "movement/constructivism",
       "type": "has_member",
       "to": "work/lef-no-2-1924",
+      "derived": true
+    },
+    {
+      "from": "person/giovanni-segantini",
+      "type": "created",
+      "to": "work/les-heures-du-matin-segantini-1907",
+      "derived": true
+    },
+    {
+      "from": "event/salon-divisionnistes-italiens-paris-1907",
+      "type": "exhibited",
+      "to": "work/les-heures-du-matin-segantini-1907",
       "derived": true
     },
     {
@@ -27799,6 +28331,30 @@
       "derived": true
     },
     {
+      "from": "person/giovanni-segantini",
+      "type": "created",
+      "to": "work/recolte-des-potirons-segantini-1907",
+      "derived": true
+    },
+    {
+      "from": "event/salon-divisionnistes-italiens-paris-1907",
+      "type": "exhibited",
+      "to": "work/recolte-des-potirons-segantini-1907",
+      "derived": true
+    },
+    {
+      "from": "person/giovanni-segantini",
+      "type": "created",
+      "to": "work/retour-au-bercail-segantini-1907",
+      "derived": true
+    },
+    {
+      "from": "event/salon-divisionnistes-italiens-paris-1907",
+      "type": "exhibited",
+      "to": "work/retour-au-bercail-segantini-1907",
+      "derived": true
+    },
+    {
       "from": "person/piero-focardi",
       "type": "created",
       "to": "work/retour-de-la-messe-focardi-1907",
@@ -27916,6 +28472,18 @@
       "from": "movement/constructivism",
       "type": "has_member",
       "to": "work/spatial-construction-no-12",
+      "derived": true
+    },
+    {
+      "from": "person/giovanni-segantini",
+      "type": "created",
+      "to": "work/st-moritz-pendant-la-nuit-segantini-1907",
+      "derived": true
+    },
+    {
+      "from": "event/salon-divisionnistes-italiens-paris-1907",
+      "type": "exhibited",
+      "to": "work/st-moritz-pendant-la-nuit-segantini-1907",
       "derived": true
     },
     {
