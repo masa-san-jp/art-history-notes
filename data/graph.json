@@ -10009,6 +10009,41 @@
       "updated": "2026-08-10",
       "path": "entities/persons/david-alfaro-siqueiros.md"
     },
+    "person/davide-calandra": {
+      "id": "person/davide-calandra",
+      "uri": "urn:ahn:person/davide-calandra",
+      "type": "person",
+      "label_ja": "ダヴィデ・カランドラ",
+      "label_en": "Davide Calandra",
+      "authority": {
+        "wikidata": "Q3703506",
+        "ulan": "500096597",
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": "1856-10-21",
+        "end": "1915-09-08",
+        "display": "1856年10月21日トリノ生まれ — 1915年9月8日同地没"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://www.treccani.it/enciclopedia/davide-calandra/",
+        "https://www.getty.edu/vow/ULANFullDisplay?find=&nation=Indian&role=&subjectid=500096597",
+        "https://www.wikidata.org/wiki/Q3703506",
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/persons/davide-calandra.md"
+    },
     "person/dong-qichang": {
       "id": "person/dong-qichang",
       "uri": "urn:ahn:person/dong-qichang",
@@ -15935,6 +15970,43 @@
       "updated": "2026-08-12",
       "path": "entities/works/bouc-magrini-1907.md"
     },
+    "work/caccia-furtiva-calandra-1891": {
+      "id": "work/caccia-furtiva-calandra-1891",
+      "uri": "urn:ahn:work/caccia-furtiva-calandra-1891",
+      "type": "work",
+      "label_ja": "ダヴィデ・カランドラ《Caccia furtiva》",
+      "label_en": "Caccia furtiva",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "作品の独立典拠IDと現所在は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年展出品"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/davide-calandra"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://www.treccani.it/enciclopedia/davide-calandra/",
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/works/caccia-furtiva-calandra-1891.md"
+    },
     "work/campagna-lombarda-inverno-grubicy-1891": {
       "id": "work/campagna-lombarda-inverno-grubicy-1891",
       "uri": "urn:ahn:work/campagna-lombarda-inverno-grubicy-1891",
@@ -18318,6 +18390,43 @@
       "status": "draft",
       "updated": "2026-08-12",
       "path": "entities/works/l-aquilon-fornara-1907.md"
+    },
+    "work/l-aratro-calandra-1891": {
+      "id": "work/l-aratro-calandra-1891",
+      "uri": "urn:ahn:work/l-aratro-calandra-1891",
+      "type": "work",
+      "label_ja": "ダヴィデ・カランドラ《L’aratro》",
+      "label_en": "L’aratro",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "作品の独立典拠IDと現所在は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年展出品"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/davide-calandra"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://www.treccani.it/enciclopedia/davide-calandra/",
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/works/l-aratro-calandra-1891.md"
     },
     "work/l-assomption-previati-1907": {
       "id": "work/l-assomption-previati-1907",
@@ -21036,6 +21145,43 @@
       "status": "draft",
       "updated": "2026-08-12",
       "path": "entities/works/n-317-conconi-1891.md"
+    },
+    "work/nei-campi-calandra-1891": {
+      "id": "work/nei-campi-calandra-1891",
+      "uri": "urn:ahn:work/nei-campi-calandra-1891",
+      "type": "work",
+      "label_ja": "ダヴィデ・カランドラ《Nei campi》",
+      "label_en": "Nei campi",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "作品の独立典拠IDと現所在は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年展出品"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/davide-calandra"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://www.treccani.it/enciclopedia/davide-calandra/",
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/works/nei-campi-calandra-1891.md"
     },
     "work/nostalgie-fornara-1907": {
       "id": "work/nostalgie-fornara-1907",
@@ -26522,6 +26668,13 @@
       "to": "place/new-york-city"
     },
     {
+      "from": "person/davide-calandra",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "person/el-lissitzky",
       "type": "belongs_to",
       "to": "movement/constructivism",
@@ -27333,6 +27486,20 @@
       "from": "work/bouc-magrini-1907",
       "type": "exhibited_at",
       "to": "event/salon-divisionnistes-italiens-paris-1907",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/caccia-furtiva-calandra-1891",
+      "type": "created_by",
+      "to": "person/davide-calandra",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/caccia-furtiva-calandra-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
       "certainty": null,
       "source": null
     },
@@ -28236,6 +28403,20 @@
       "from": "work/l-aquilon-fornara-1907",
       "type": "exhibited_at",
       "to": "event/salon-divisionnistes-italiens-paris-1907",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/l-aratro-calandra-1891",
+      "type": "created_by",
+      "to": "person/davide-calandra",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/l-aratro-calandra-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
       "certainty": null,
       "source": null
     },
@@ -29284,6 +29465,20 @@
     },
     {
       "from": "work/n-317-conconi-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/nei-campi-calandra-1891",
+      "type": "created_by",
+      "to": "person/davide-calandra",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/nei-campi-calandra-1891",
       "type": "exhibited_at",
       "to": "event/first-brera-triennale-1891",
       "certainty": null,
@@ -31785,6 +31980,12 @@
       "derived": true
     },
     {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "person/davide-calandra",
+      "derived": true
+    },
+    {
       "from": "movement/constructivism",
       "type": "has_member",
       "to": "person/el-lissitzky",
@@ -32382,6 +32583,18 @@
       "from": "event/salon-divisionnistes-italiens-paris-1907",
       "type": "exhibited",
       "to": "work/bouc-magrini-1907",
+      "derived": true
+    },
+    {
+      "from": "person/davide-calandra",
+      "type": "created",
+      "to": "work/caccia-furtiva-calandra-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/caccia-furtiva-calandra-1891",
       "derived": true
     },
     {
@@ -33156,6 +33369,18 @@
       "from": "event/salon-divisionnistes-italiens-paris-1907",
       "type": "exhibited",
       "to": "work/l-aquilon-fornara-1907",
+      "derived": true
+    },
+    {
+      "from": "person/davide-calandra",
+      "type": "created",
+      "to": "work/l-aratro-calandra-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/l-aratro-calandra-1891",
       "derived": true
     },
     {
@@ -34056,6 +34281,18 @@
       "from": "event/first-brera-triennale-1891",
       "type": "exhibited",
       "to": "work/n-317-conconi-1891",
+      "derived": true
+    },
+    {
+      "from": "person/davide-calandra",
+      "type": "created",
+      "to": "work/nei-campi-calandra-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/nei-campi-calandra-1891",
       "derived": true
     },
     {
