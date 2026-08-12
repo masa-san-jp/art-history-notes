@@ -12718,6 +12718,40 @@
       "updated": "2026-08-09",
       "path": "entities/persons/uche-okeke.md"
     },
+    "person/urbano-nono": {
+      "id": "person/urbano-nono",
+      "uri": "urn:ahn:person/urbano-nono",
+      "type": "person",
+      "label_ja": "ウルバーノ・ノーノ",
+      "label_en": "Urbano Nono",
+      "authority": {
+        "wikidata": null,
+        "ulan": "500072579",
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "検証済みの独立人物典拠IDは未確認。Treccani、Getty ULAN、1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": "1849-01-05",
+        "end": "1925-11-05",
+        "display": "1849年1月5日ヴェネツィア生まれ — 1925年11月5日ロンガローネ没"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://www.treccani.it/enciclopedia/urbano-nono_%28Dizionario-Biografico%29/",
+        "https://www.getty.edu/vow/ULANFullDisplay?find=&nation=czech&role=architect&subjectid=500072579",
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/persons/urbano-nono.md"
+    },
     "person/varvara-stepanova": {
       "id": "person/varvara-stepanova",
       "uri": "urn:ahn:person/varvara-stepanova",
@@ -24526,6 +24560,44 @@
       "updated": "2026-08-12",
       "path": "entities/works/st-moritz-pendant-la-nuit-segantini-1907.md"
     },
+    "work/statua-marmo-monumento-funerario-bazzaro-1891": {
+      "id": "work/statua-marmo-monumento-funerario-bazzaro-1891",
+      "uri": "urn:ahn:work/statua-marmo-monumento-funerario-bazzaro-1891",
+      "type": "work",
+      "label_ja": "エルネスト・バッツァーロ《Statua in marmo per monumento funerario》",
+      "label_en": "Statua in marmo per monumento funerario",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "1891年展出品作としての独立典拠IDと現所在は未確認。公式カタログと人物典拠を用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年展出品"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/ernesto-bazzaro"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://www.britishmuseum.org/collection/term/biog186840",
+        "https://www.nga.gov/artists/52184-ernesto-bazzaro",
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/works/statua-marmo-monumento-funerario-bazzaro-1891.md"
+    },
     "work/studio-di-mare-la-scogliera-merello-1906": {
       "id": "work/studio-di-mare-la-scogliera-merello-1906",
       "uri": "urn:ahn:work/studio-di-mare-la-scogliera-merello-1906",
@@ -24602,11 +24674,11 @@
       "updated": "2026-08-12",
       "path": "entities/works/tempo-grigio-tominetti-1891.md"
     },
-    "work/testa-di-vecchio-bazzaro-1891": {
-      "id": "work/testa-di-vecchio-bazzaro-1891",
-      "uri": "urn:ahn:work/testa-di-vecchio-bazzaro-1891",
+    "work/testa-di-vecchio-nono-1891": {
+      "id": "work/testa-di-vecchio-nono-1891",
+      "uri": "urn:ahn:work/testa-di-vecchio-nono-1891",
       "type": "work",
-      "label_ja": "エルネスト・バッツァーロ《Testa di vecchio》",
+      "label_ja": "ウルバーノ・ノーノ《Testa di vecchio》",
       "label_en": "Testa di vecchio",
       "authority": {
         "wikidata": null,
@@ -24624,7 +24696,7 @@
       "relations": [
         {
           "type": "created_by",
-          "target": "person/ernesto-bazzaro"
+          "target": "person/urbano-nono"
         },
         {
           "type": "exhibited_at",
@@ -24632,13 +24704,12 @@
         }
       ],
       "sources": [
-        "https://www.britishmuseum.org/collection/term/biog186840",
-        "https://www.nga.gov/artists/52184-ernesto-bazzaro",
+        "https://www.treccani.it/enciclopedia/urbano-nono_%28Dizionario-Biografico%29/",
         "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
       ],
       "status": "draft",
       "updated": "2026-08-12",
-      "path": "entities/works/testa-di-vecchio-bazzaro-1891.md"
+      "path": "entities/works/testa-di-vecchio-nono-1891.md"
     },
     "work/tigre-royal-au-repos-magrini-1907": {
       "id": "work/tigre-royal-au-repos-magrini-1907",
@@ -28040,6 +28111,13 @@
       "from": "person/sebastiano-de-albertis",
       "type": "active_in",
       "to": "place/milan"
+    },
+    {
+      "from": "person/urbano-nono",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
     },
     {
       "from": "person/varvara-stepanova",
@@ -31528,6 +31606,20 @@
       "source": null
     },
     {
+      "from": "work/statua-marmo-monumento-funerario-bazzaro-1891",
+      "type": "created_by",
+      "to": "person/ernesto-bazzaro",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/statua-marmo-monumento-funerario-bazzaro-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "work/studio-di-mare-la-scogliera-merello-1906",
       "type": "created_by",
       "to": "person/rubaldo-merello",
@@ -31556,14 +31648,14 @@
       "source": null
     },
     {
-      "from": "work/testa-di-vecchio-bazzaro-1891",
+      "from": "work/testa-di-vecchio-nono-1891",
       "type": "created_by",
-      "to": "person/ernesto-bazzaro",
+      "to": "person/urbano-nono",
       "certainty": null,
       "source": null
     },
     {
-      "from": "work/testa-di-vecchio-bazzaro-1891",
+      "from": "work/testa-di-vecchio-nono-1891",
       "type": "exhibited_at",
       "to": "event/first-brera-triennale-1891",
       "certainty": null,
@@ -33457,6 +33549,12 @@
       "from": "event/first-brera-triennale-1891",
       "type": "exhibited",
       "to": "person/sebastiano-de-albertis",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "person/urbano-nono",
       "derived": true
     },
     {
@@ -36418,6 +36516,18 @@
       "derived": true
     },
     {
+      "from": "person/ernesto-bazzaro",
+      "type": "created",
+      "to": "work/statua-marmo-monumento-funerario-bazzaro-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/statua-marmo-monumento-funerario-bazzaro-1891",
+      "derived": true
+    },
+    {
       "from": "person/rubaldo-merello",
       "type": "created",
       "to": "work/studio-di-mare-la-scogliera-merello-1906",
@@ -36442,15 +36552,15 @@
       "derived": true
     },
     {
-      "from": "person/ernesto-bazzaro",
+      "from": "person/urbano-nono",
       "type": "created",
-      "to": "work/testa-di-vecchio-bazzaro-1891",
+      "to": "work/testa-di-vecchio-nono-1891",
       "derived": true
     },
     {
       "from": "event/first-brera-triennale-1891",
       "type": "exhibited",
-      "to": "work/testa-di-vecchio-bazzaro-1891",
+      "to": "work/testa-di-vecchio-nono-1891",
       "derived": true
     },
     {
