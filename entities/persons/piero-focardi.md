@@ -34,3 +34,5 @@ updated: 2026-08-12
 1907年展のカタログでは、Sala A（Rotonde）の1〜9番に《Retour de la Messe》、
 [`《Baigneurs dans le Lac》`](../works/baigneurs-dans-le-lac-focardi-1906.md)、《Midi d'Été》などが掲載される。
 6番の[`《Aube sur le lac de Garde / La punta di Manerba》`](../works/aube-sur-le-lac-de-garde-focardi-1907.md)は、1907年制作の館蔵記録と対応する。
+4番の[`《Le Château de Padenghe》`](../works/le-chateau-de-padenghe-focardi-1907.md)と5番の
+[`《Coucher de Soleil en été》`](../works/coucher-de-soleil-en-ete-focardi-1907.md)は、制作年未確認の展示記録として分離した。
