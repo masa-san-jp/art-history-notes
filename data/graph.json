@@ -8769,6 +8769,12 @@
           "target": "movement/post-impressionism",
           "certainty": "scholarly",
           "source": "https://high.org/sites/onobrakpeya/"
+        },
+        {
+          "type": "influenced_by",
+          "target": "movement/nok-sculpture",
+          "certainty": "scholarly",
+          "source": "https://www.si.edu/object/nationalism-and-rhetoric-modernism-nigeria-art-uche-okeke-and-demas-nwoko-1960-1968-chika-okeke-agulu%3Asiris_sil_898257"
         }
       ],
       "sources": [
@@ -8780,7 +8786,8 @@
         "https://www.si.edu/object/zaria-art-society%3Asiris_sil_504883",
         "https://artop.bmth.ac.uk/legacies-of-the-zaria-rebels.html",
         "https://www.rem.routledge.com/articles/zaria-art-society-the",
-        "https://high.org/sites/onobrakpeya/"
+        "https://high.org/sites/onobrakpeya/",
+        "https://www.si.edu/object/nationalism-and-rhetoric-modernism-nigeria-art-uche-okeke-and-demas-nwoko-1960-1968-chika-okeke-agulu%3Asiris_sil_898257"
       ],
       "status": "draft",
       "updated": "2026-08-12",
@@ -23920,6 +23927,13 @@
     },
     {
       "from": "movement/zaria-art-society",
+      "type": "influenced_by",
+      "to": "movement/nok-sculpture",
+      "certainty": "scholarly",
+      "source": "https://www.si.edu/object/nationalism-and-rhetoric-modernism-nigeria-art-uche-okeke-and-demas-nwoko-1960-1968-chika-okeke-agulu%3Asiris_sil_898257"
+    },
+    {
+      "from": "movement/zaria-art-society",
       "type": "originated_in",
       "to": "place/zaria"
     },
@@ -28452,6 +28466,12 @@
     },
     {
       "from": "movement/post-impressionism",
+      "type": "influenced",
+      "to": "movement/zaria-art-society",
+      "derived": true
+    },
+    {
+      "from": "movement/nok-sculpture",
       "type": "influenced",
       "to": "movement/zaria-art-society",
       "derived": true
