@@ -15068,6 +15068,45 @@
       "updated": "2026-08-12",
       "path": "entities/works/spatial-construction-no-12.md"
     },
+    "work/studio-di-mare-la-scogliera-merello-1906": {
+      "id": "work/studio-di-mare-la-scogliera-merello-1906",
+      "uri": "urn:ahn:work/studio-di-mare-la-scogliera-merello-1906",
+      "type": "work",
+      "label_ja": "ルバルド・メレッロ《Studio di mare. La scogliera》",
+      "label_en": "Studio di mare. La scogliera",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "独立作品典拠IDは未確認。文化財カタログの国コード1200491287と館内番号2567を記録"
+      },
+      "time": {
+        "start": "1906",
+        "end": "1906",
+        "display": "1906年頃制作 — 1907年パリ展出品"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/rubaldo-merello"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/salon-divisionnistes-italiens-paris-1907"
+        }
+      ],
+      "sources": [
+        "https://catalogo.beniculturali.it/detail/HistoricOrArtisticProperty/1200491287",
+        "https://www.treccani.it/enciclopedia/rubaldo-merello_%28Dizionario-Biografico%29/",
+        "https://exhibitions.univie.ac.at/exhibition/125",
+        "https://www1.palazzoducale.genova.it/rubaldo-merello-la-vita/"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/works/studio-di-mare-la-scogliera-merello-1906.md"
+    },
     "work/ultimi-raggi-tominetti-1891": {
       "id": "work/ultimi-raggi-tominetti-1891",
       "uri": "urn:ahn:work/ultimi-raggi-tominetti-1891",
@@ -17748,6 +17787,20 @@
       "source": null
     },
     {
+      "from": "work/studio-di-mare-la-scogliera-merello-1906",
+      "type": "created_by",
+      "to": "person/rubaldo-merello",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/studio-di-mare-la-scogliera-merello-1906",
+      "type": "exhibited_at",
+      "to": "event/salon-divisionnistes-italiens-paris-1907",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "work/ultimi-raggi-tominetti-1891",
       "type": "created_by",
       "to": "person/achille-tominetti",
@@ -19334,6 +19387,18 @@
       "from": "movement/constructivism",
       "type": "has_member",
       "to": "work/spatial-construction-no-12",
+      "derived": true
+    },
+    {
+      "from": "person/rubaldo-merello",
+      "type": "created",
+      "to": "work/studio-di-mare-la-scogliera-merello-1906",
+      "derived": true
+    },
+    {
+      "from": "event/salon-divisionnistes-italiens-paris-1907",
+      "type": "exhibited",
+      "to": "work/studio-di-mare-la-scogliera-merello-1906",
       "derived": true
     },
     {
