@@ -32,7 +32,9 @@ sources:
   - https://www.getty.edu/research/tools/vocabularies/aat/
   - https://en.wikipedia.org/wiki/Tosa_school
   - https://www.fujibi.or.jp/collection/artwork-artist/a130/
+  - https://www.fujibi.or.jp/collection/artwork-artist/a960/
   - https://www.kyohaku.go.jp/old/eng/theme/floor2_4/past/edo_20160614.html
+  - https://www.kyohaku.go.jp/old/jp/theme/floor2_4/f2_4_koremade/kinse_20160614.html
 images:
   - url: https://images.metmuseum.org/CRDImages/as/original/DT1607.jpg
     source_page: https://www.metmuseum.org/art/collection/search/45258
@@ -92,10 +94,15 @@ Wikidata は創始者（`founded by`, P112）として土佐行広 [Q3532591](ht
 **これは通説であり、一次資料・典拠IDでの座標的な裏（Wikidata に都市レベルの情報は無い）は取れていない**。
 Wikidata が持つのは country（日本, `P17`=Q17）までで、狩野派の項目と同じ制約。
 
+桃山期には堺へ拠点を移していたが、江戸時代初期に再び京都へ移り、承応3年（1654）に土佐光起が
+宮廷絵所預へ復帰したと東京富士美術館は説明している。京都国立博物館も、光起が17世紀半ばに同職へ
+返り咲き、以後江戸時代を通じて土佐派がその職を維持したと説明する。これは「江戸へ活動地が移った」
+ことではなく、江戸期に京都の宮廷画壇へ復帰したという再興として記録する。
+
 ## 未着手
 
 - 創始者候補（土佐行広／土佐光信）の person エンティティと、どちらが通説かの一次資料確認
-- 土佐光起による江戸期の再興（伝聞レベルで把握しているが出典未確認）の `event` 化
+- 土佐光起の person エンティティ化と、江戸期の京都復帰を示す `event` 化
 - 作品（証拠）の work エンティティ
 - 狩野派との関係（同時代の並行関係は時間×空間から生成されるため、エッジは張らない。ただし
   Wikipedia の記述にある「17世紀以降は狩野派と作風の境界が曖昧になった」という接触については
