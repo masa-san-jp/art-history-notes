@@ -10633,6 +10633,47 @@
       "updated": "2026-08-12",
       "path": "entities/persons/giovanni-segantini.md"
     },
+    "person/giovanni-sottocornola": {
+      "id": "person/giovanni-sottocornola",
+      "uri": "urn:ahn:person/giovanni-sottocornola",
+      "type": "person",
+      "label_ja": "ジョヴァンニ・ソットコルノラ",
+      "label_en": "Giovanni Sottocornola",
+      "authority": {
+        "wikidata": "Q3768168",
+        "ulan": "500086073",
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": "1855-08-01",
+        "end": "1917-02-12",
+        "display": "1855年8月1日ミラノ生まれ — 1917年2月12日ミラノ没"
+      },
+      "space": [
+        {
+          "role": "active_in",
+          "target": "place/milan"
+        }
+      ],
+      "relations": [
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://www.treccani.it/enciclopedia/giovanni-sottocornola_%28Dizionario-Biografico%29/",
+        "https://www.treccani.it/enciclopedia/giovanni-sottocornola_%28Enciclopedia-Italiana%29/",
+        "https://www.wikidata.org/wiki/Q3768168",
+        "https://www.getty.edu/vow/ULANFullDisplay?find=&nation=&page=1&role=&subjectid=500086073",
+        "https://commons.wikimedia.org/wiki/Category%3AGiovanni_Sottocornola"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/persons/giovanni-sottocornola.md"
+    },
     "person/giuseppe-mentessi": {
       "id": "person/giuseppe-mentessi",
       "uri": "urn:ahn:person/giuseppe-mentessi",
@@ -17187,6 +17228,46 @@
       "updated": "2026-08-12",
       "path": "entities/works/funerailles-d-une-vierge-previati-1907.md"
     },
+    "work/fuori-di-porta-sottocornola-1891": {
+      "id": "work/fuori-di-porta-sottocornola-1891",
+      "uri": "urn:ahn:work/fuori-di-porta-sottocornola-1891",
+      "type": "work",
+      "label_ja": "ジョヴァンニ・ソットコルノラ《Fuori di porta》",
+      "label_en": "Fuori di porta",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "作品の独立典拠IDは未確認。ブレラ展ガイド、1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年（1891年展カタログ207番）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/giovanni-sottocornola"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://galleriemaspes.com/immagini_sito/Cataloghi%20pdf/Brera_Guide.pdf",
+        "https://www.treccani.it/enciclopedia/giovanni-sottocornola_%28Enciclopedia-Italiana%29/",
+        "https://www.treccani.it/enciclopedia/giovanni-sottocornola_%28Dizionario-Biografico%29/",
+        "https://www.wikidata.org/wiki/Q3768168",
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/works/fuori-di-porta-sottocornola-1891.md"
+    },
     "work/georgique-previati-1907": {
       "id": "work/georgique-previati-1907",
       "uri": "urn:ahn:work/georgique-previati-1907",
@@ -20423,6 +20504,46 @@
       "updated": "2026-08-12",
       "path": "entities/works/moutons-au-repos-ramponi-1907.md"
     },
+    "work/muratore-sottocornola-1891": {
+      "id": "work/muratore-sottocornola-1891",
+      "uri": "urn:ahn:work/muratore-sottocornola-1891",
+      "type": "work",
+      "label_ja": "ジョヴァンニ・ソットコルノラ《Muratore (figura al vero)》",
+      "label_en": "Muratore (figura al vero)",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "作品の独立典拠IDは未確認。ブレラ展ガイド、Gallerie d'Italia、1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年（1891年展カタログ89番）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/giovanni-sottocornola"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://galleriemaspes.com/immagini_sito/Cataloghi%20pdf/Brera_Guide.pdf",
+        "https://gallerieditalia.com/it/musei-online/opere/muratore-1759/",
+        "https://www.treccani.it/enciclopedia/giovanni-sottocornola_%28Dizionario-Biografico%29/",
+        "https://www.wikidata.org/wiki/Q3768168",
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/works/muratore-sottocornola-1891.md"
+    },
     "work/n-317-conconi-1891": {
       "id": "work/n-317-conconi-1891",
       "uri": "urn:ahn:work/n-317-conconi-1891",
@@ -23353,6 +23474,45 @@
       "updated": "2026-08-12",
       "path": "entities/works/un-nuage-maggi-1907.md"
     },
+    "work/uva-sottocornola-1891": {
+      "id": "work/uva-sottocornola-1891",
+      "uri": "urn:ahn:work/uva-sottocornola-1891",
+      "type": "work",
+      "label_ja": "ジョヴァンニ・ソットコルノラ《Uva》",
+      "label_en": "Uva",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "作品の独立典拠IDは未確認。ブレラ展ガイド、1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年（1891年展カタログ242番）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/giovanni-sottocornola"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://galleriemaspes.com/immagini_sito/Cataloghi%20pdf/Brera_Guide.pdf",
+        "https://www.treccani.it/enciclopedia/giovanni-sottocornola_%28Dizionario-Biografico%29/",
+        "https://www.wikidata.org/wiki/Q3768168",
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/works/uva-sottocornola-1891.md"
+    },
     "work/vacca-segantini-1891": {
       "id": "work/vacca-segantini-1891",
       "uri": "urn:ahn:work/vacca-segantini-1891",
@@ -25891,6 +26051,18 @@
       "source": null
     },
     {
+      "from": "person/giovanni-sottocornola",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "person/giovanni-sottocornola",
+      "type": "active_in",
+      "to": "place/milan"
+    },
+    {
       "from": "person/giuseppe-mentessi",
       "type": "belongs_to",
       "to": "movement/italian-divisionism",
@@ -27015,6 +27187,20 @@
       "from": "work/funerailles-d-une-vierge-previati-1907",
       "type": "exhibited_at",
       "to": "event/salon-divisionnistes-italiens-paris-1907",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/fuori-di-porta-sottocornola-1891",
+      "type": "created_by",
+      "to": "person/giovanni-sottocornola",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/fuori-di-porta-sottocornola-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
       "certainty": null,
       "source": null
     },
@@ -28265,6 +28451,20 @@
       "source": null
     },
     {
+      "from": "work/muratore-sottocornola-1891",
+      "type": "created_by",
+      "to": "person/giovanni-sottocornola",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/muratore-sottocornola-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "work/n-317-conconi-1891",
       "type": "created_by",
       "to": "person/luigi-conconi",
@@ -29381,6 +29581,20 @@
       "from": "work/un-nuage-maggi-1907",
       "type": "exhibited_at",
       "to": "event/salon-divisionnistes-italiens-paris-1907",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/uva-sottocornola-1891",
+      "type": "created_by",
+      "to": "person/giovanni-sottocornola",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/uva-sottocornola-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
       "certainty": null,
       "source": null
     },
@@ -30778,6 +30992,12 @@
       "derived": true
     },
     {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "person/giovanni-sottocornola",
+      "derived": true
+    },
+    {
       "from": "movement/italian-divisionism",
       "type": "has_member",
       "to": "person/giuseppe-mentessi",
@@ -31669,6 +31889,18 @@
       "from": "event/salon-divisionnistes-italiens-paris-1907",
       "type": "exhibited",
       "to": "work/funerailles-d-une-vierge-previati-1907",
+      "derived": true
+    },
+    {
+      "from": "person/giovanni-sottocornola",
+      "type": "created",
+      "to": "work/fuori-di-porta-sottocornola-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/fuori-di-porta-sottocornola-1891",
       "derived": true
     },
     {
@@ -32740,6 +32972,18 @@
       "derived": true
     },
     {
+      "from": "person/giovanni-sottocornola",
+      "type": "created",
+      "to": "work/muratore-sottocornola-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/muratore-sottocornola-1891",
+      "derived": true
+    },
+    {
       "from": "person/luigi-conconi",
       "type": "created",
       "to": "work/n-317-conconi-1891",
@@ -33697,6 +33941,18 @@
       "from": "event/salon-divisionnistes-italiens-paris-1907",
       "type": "exhibited",
       "to": "work/un-nuage-maggi-1907",
+      "derived": true
+    },
+    {
+      "from": "person/giovanni-sottocornola",
+      "type": "created",
+      "to": "work/uva-sottocornola-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/uva-sottocornola-1891",
       "derived": true
     },
     {
