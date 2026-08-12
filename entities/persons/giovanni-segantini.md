@@ -20,6 +20,7 @@ relations:
   - {type: exhibited_at, target: event/salon-divisionnistes-italiens-paris-1907}
 sources:
   - https://www.wikidata.org/wiki/Q379300
+  - https://exhibitions.univie.ac.at/person/ulan/500005029
   - https://www.treccani.it/enciclopedia/giovanni-segantini_%28Dizionario-Biografico%29/
   - https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf
 status: draft
@@ -34,6 +35,10 @@ updated: 2026-08-12
 1891年の『Prima esposizione triennale 1891』公式カタログでは、Sala Lの出品番号209に
 [`《Le due Madri》`](../works/le-due-madri-segantini.md)が掲載され、索引には209と241の2件が記録されている。
 作品名を特定できた209番だけを作品エンティティ化し、241番は人物ページで番号のみ保持する。
+
+1907年パリ展では、Salle Fの281〜289番に9件を出品した。DoMEのカタログ記録に基づき、各件を媒体と
+カタログ番号を保持する個別の`work`エンティティとして整理した。制作年・寸法・現所在は、作品ごとの
+独立典拠を確認できるまで未確定とする。281番《Deux Mères》は1891年展の同題作との同一性を保留する。
 
 ## 未着手
 
