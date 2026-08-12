@@ -29,6 +29,7 @@ space:
   - {role: originated_in, target: place/buenos-aires}
 relations:
   - {type: created_by, target: person/gyula-kosice}
+  - {type: influenced_by, target: movement/constructivism, certainty: scholarly, source: "https://www.mfah.org/blogs/inside-mfah/gyula-kosice-and-rise-argentinean-avant-garde"}
 sources:
   - https://kosice.com.ar/otros-recursos/los-textos/de-kosice/manifiesto-madi/
   - https://kosice.com.ar/el-artista/linea-de-tiempo/
@@ -37,6 +38,7 @@ sources:
   - https://en.wikipedia.org/wiki/Mad%C3%AD
   - https://en.wikipedia.org/wiki/Carmelo_Arden_Quin
   - https://masdearte.com/movimientos/madi/
+  - https://www.mfah.org/blogs/inside-mfah/gyula-kosice-and-rise-argentinean-avant-garde
   - https://www.wikidata.org/wiki/Q692924
 status: draft
 updated: 2026-08-10
@@ -103,6 +105,14 @@ INVENTA Y CREA.（ゆえにマディは、発明し、創造する。）」で�
 （アソシアシオン・アルテ・コンクレト＝インベンシオン、1945年結成）からの分岐として語られることが
 多いが、この組織は現時点で本KBに存在せず、`derives_from` 等の関係は張らずに事実として残す
 （`未着手` 参照）。
+
+### ヨーロッパ構成主義との形成的接続
+
+MFAHの解説は、マディの前身となる1940年代ブエノスアイレス前衛が、ヨーロッパのネオ・プラスティシスム、
+構成主義、Réalités Nouvellesから刺激を受けたと説明する。ここでの
+`influenced_by movement/constructivism` は、1944年の『Arturo』周辺から1946年のマディ成立に至る
+コシツェ、アルデン・キン、ロトフスらの形成期におけるヨーロッパ構成主義の受容に限定し、マディ全体を
+ロシア構成主義の派生物とはしない。
 
 ## kind の判定
 
@@ -195,7 +205,8 @@ arte en su continuo.」は、後代の批評家が外側から括った名前で
   Galerie Denise René といったヨーロッパの具体芸術サークルと接続しており（[Museo Nacional Centro
   de Arte Reina Sofía](https://www.museoreinasofia.es/en/exhibitions/arte-madi)）、将来的に別の
   movement を繋ぐ人物として立項の対象になりうる
-- movement/neoconcretismo との関係。ある検索結果は「作曲家ハンス゠ヨアヒム・ケルロイターが
+- movement/neoconcretismo との関係。ヨーロッパ構成主義との形成的接続は上記のとおり記録したが、
+  ある検索結果は「作曲家ハンス゠ヨアヒム・ケルロイターが
   1940年代末からマディや、ブラジルに定住したロシア・ヨーロッパ系の構成主義者らと繰り返し交流を
   持った」ことに触れていたが、出典として読める一次・機関資料に到達できず、また同時代のブラジルの
   抽象運動一般（コンクレチスモ）とネオコンクレチスモを区別できていないため、`influenced_by` 等の

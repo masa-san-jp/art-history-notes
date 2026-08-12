@@ -666,6 +666,12 @@
         {
           "type": "created_by",
           "target": "person/gyula-kosice"
+        },
+        {
+          "type": "influenced_by",
+          "target": "movement/constructivism",
+          "certainty": "scholarly",
+          "source": "https://www.mfah.org/blogs/inside-mfah/gyula-kosice-and-rise-argentinean-avant-garde"
         }
       ],
       "sources": [
@@ -676,6 +682,7 @@
         "https://en.wikipedia.org/wiki/Mad%C3%AD",
         "https://en.wikipedia.org/wiki/Carmelo_Arden_Quin",
         "https://masdearte.com/movimientos/madi/",
+        "https://www.mfah.org/blogs/inside-mfah/gyula-kosice-and-rise-argentinean-avant-garde",
         "https://www.wikidata.org/wiki/Q692924"
       ],
       "status": "draft",
@@ -13213,6 +13220,13 @@
     },
     {
       "from": "movement/arte-madi",
+      "type": "influenced_by",
+      "to": "movement/constructivism",
+      "certainty": "scholarly",
+      "source": "https://www.mfah.org/blogs/inside-mfah/gyula-kosice-and-rise-argentinean-avant-garde"
+    },
+    {
+      "from": "movement/arte-madi",
       "type": "originated_in",
       "to": "place/buenos-aires"
     },
@@ -15036,6 +15050,12 @@
     {
       "from": "person/gyula-kosice",
       "type": "created",
+      "to": "movement/arte-madi",
+      "derived": true
+    },
+    {
+      "from": "movement/constructivism",
+      "type": "influenced",
       "to": "movement/arte-madi",
       "derived": true
     },

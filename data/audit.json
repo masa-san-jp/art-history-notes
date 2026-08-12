@@ -3,7 +3,7 @@
     {
       "kind": "no-cross-region",
       "about": "all",
-      "text": "他の文化圏の movement と1本も繋がっていない movement が 31/99 件。時間だけでなく空間の広がりを体系化するので、影響・伝播・反発を調べる余地"
+      "text": "他の文化圏の movement と1本も繋がっていない movement が 30/99 件。時間だけでなく空間の広がりを体系化するので、影響・伝播・反発を調べる余地"
     },
     {
       "kind": "no-cross-region",
@@ -44,11 +44,6 @@
       "kind": "no-cross-region",
       "about": "asia-east-china",
       "text": "asia-east-china: 2件（海上画派、揚州八怪）"
-    },
-    {
-      "kind": "no-cross-region",
-      "about": "americas-latin",
-      "text": "americas-latin: 1件（マディ）"
     }
   ]
 }
