@@ -5309,13 +5309,13 @@
           "type": "influenced_by",
           "target": "movement/mughal-painting",
           "certainty": "scholarly",
-          "source": "https://en.wikipedia.org/wiki/Rajput_painting"
+          "source": "https://resources.metmuseum.org/resources/metpublications/pdf/Wonder_of_the_Age_Master_Painters_of_India_1100_1900.pdf"
         },
         {
           "type": "reacts_against",
           "target": "movement/mughal-painting",
           "certainty": "scholarly",
-          "source": "https://en.wikipedia.org/wiki/Rajput_painting"
+          "source": "https://www.metmuseum.org/exhibitions/listings/2011/lyrical-visions?persisted=true&sc_device=default"
         }
       ],
       "sources": [
@@ -5330,7 +5330,9 @@
         "https://clevelandart.org/art/2018.136",
         "https://openaccess-api.clevelandart.org/api/artworks/314441",
         "https://clevelandart.org/art/2003.343",
-        "https://openaccess-api.clevelandart.org/api/artworks/162857"
+        "https://openaccess-api.clevelandart.org/api/artworks/162857",
+        "https://resources.metmuseum.org/resources/metpublications/pdf/Wonder_of_the_Age_Master_Painters_of_India_1100_1900.pdf",
+        "https://www.metmuseum.org/exhibitions/listings/2011/lyrical-visions?persisted=true&sc_device=default"
       ],
       "images": [
         {
@@ -57073,14 +57075,14 @@
       "type": "influenced_by",
       "to": "movement/mughal-painting",
       "certainty": "scholarly",
-      "source": "https://en.wikipedia.org/wiki/Rajput_painting"
+      "source": "https://resources.metmuseum.org/resources/metpublications/pdf/Wonder_of_the_Age_Master_Painters_of_India_1100_1900.pdf"
     },
     {
       "from": "movement/mewar-painting",
       "type": "reacts_against",
       "to": "movement/mughal-painting",
       "certainty": "scholarly",
-      "source": "https://en.wikipedia.org/wiki/Rajput_painting"
+      "source": "https://www.metmuseum.org/exhibitions/listings/2011/lyrical-visions?persisted=true&sc_device=default"
     },
     {
       "from": "movement/mewar-painting",
