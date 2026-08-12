@@ -133,6 +133,15 @@ def load_region_history():
     return data.get("places") or {}
 
 
+def load_coverage_reviews():
+    """被覆表の「調査済み・該当なし」セルを読む。"""
+    path = CONFIG / "coverage-reviews.yaml"
+    if not path.exists():
+        return []
+    data = yaml.safe_load(path.read_text(encoding="utf-8")) or {}
+    return data.get("cells") or []
+
+
 def load_entities():
     """{id: meta} と、id 順の (path, meta, body) を返す。検証はしない。"""
     entities, records = {}, []

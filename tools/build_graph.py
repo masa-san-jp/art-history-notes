@@ -20,7 +20,7 @@ from kb import (CERTAINTIES, CLAIM_FIELDS_FOR_VERIFIED, DIR_FOR_TYPE, ENTITIES, 
                 INTERPRETIVE_RELATIONS, MOVEMENT_KINDS, RELATION_TARGET_TYPES, RELATIONS, ROOT,
                 SPACE_ROLES, SPACE_TARGET_TYPES, STATUSES, TYPES, URI_PREFIX, alias_map,
                 build_edges, century_of_year, edtf_ok, edtf_year_range, load_config, load_entities,
-                load_region_history,
+                load_coverage_reviews, load_region_history,
                 read_frontmatter, read_queries, regions_of, search_entities)
 
 OVERVIEWS = ROOT / "overviews"
@@ -225,6 +225,44 @@ def check_overview_freshness(entities, errors):
                     f"overviews/{path.name}: STALE — {dep} が {target['updated']} に更新（as_of={as_of}）")
 
 
+def validate_coverage_reviews(reviews, cfg, cov, errors):
+    """被覆表の空セルに対する調査済み記録を検証する。"""
+    seen = set()
+    for index, row in enumerate(reviews, start=1):
+        prefix = f"config/coverage-reviews.yaml: cells[{index}]"
+        if not isinstance(row, dict):
+            errors.append(f"{prefix} はマップで書く")
+            continue
+        region = row.get("region")
+        century = row.get("century")
+        status = row.get("status")
+        if region not in cfg["buckets"]:
+            errors.append(f"{prefix}: 未知の region: {region}")
+        century = str(century) if century is not None else ""
+        if century != "unknown":
+            try:
+                century_number = int(century)
+            except (TypeError, ValueError):
+                century_number = 0
+            if century_number == 0:
+                errors.append(f"{prefix}: century は正の世紀、負の紀元前世紀、unknown のいずれか")
+        if status != "no-known-grouping":
+            errors.append(f"{prefix}: status は no-known-grouping のみ（今: {status}）")
+        if not isinstance(row.get("note"), str) or not row["note"].strip():
+            errors.append(f"{prefix}: note が必要")
+        sources = row.get("sources")
+        if not isinstance(sources, list) or not sources or any(
+                not isinstance(source, str) or not source.startswith(("http://", "https://"))
+                for source in sources):
+            errors.append(f"{prefix}: sources に http(s) URL が1つ以上必要")
+        key = (region, century)
+        if key in seen:
+            errors.append(f"{prefix}: 同じセルが重複している: {region} / {century}")
+        seen.add(key)
+        if cov["grid"].get(region, {}).get(century, 0):
+            errors.append(f"{prefix}: movement が存在するセルは no-known-grouping にできない: {region} / {century}")
+
+
 def coverage(entities, cfg):
     """movement × 文化圏 × 世紀 の被覆と、受け入れ条件の達成度。
 
@@ -240,6 +278,7 @@ def coverage(entities, cfg):
     all_edges = build_edges(entities)
     region_history = load_region_history()
     edge_ends = {e["from"] for e in all_edges} | {e["to"] for e in all_edges}
+    reviews = load_coverage_reviews()
 
     for mid, meta in counted.items():
         regions = regions_of(mid, entities, region_history)
@@ -277,6 +316,7 @@ def coverage(entities, cfg):
         "origin_unknown": unknown_origin,
         "origin_multiple": multi_origin,
         "isolated": isolated,
+        "no_known_grouping": reviews,
         "progress": {
             "movement_total": f"{total}/{th['movement_total']}（stub {len(movements) - total}件は不算入）",
             "non_west_ratio": f"{(non_west / total if total else 0):.2f}/{th['non_west_ratio']}",
@@ -291,7 +331,12 @@ def coverage(entities, cfg):
 
 def render_coverage(cov, cfg, entities):
     buckets = cfg["buckets"]
-    centuries = sorted({c for row in cov["grid"].values() for c in row if c != "unknown"}, key=int)
+    reviewed = {(str(row.get("region")), str(row.get("century"))): row
+                for row in cov["no_known_grouping"]}
+    centuries = {c for row in cov["grid"].values() for c in row if c != "unknown"}
+    centuries |= {str(row.get("century")) for row in cov["no_known_grouping"]
+                  if str(row.get("century")) != "unknown"}
+    centuries = sorted(centuries, key=int)
     cols = [(c, f"{abs(int(c))}BCE" if int(c) < 0 else f"{c}C") for c in centuries]
     cols += [("unknown", "年代不明")]
     header = "| 文化圏 | " + " | ".join(label for _k, label in cols) + " | 計 |"
@@ -301,7 +346,8 @@ def render_coverage(cov, cfg, entities):
              f"／内訳 {cov['by_status']}", "", header, sep]
     for b, conf in buckets.items():
         row = cov["grid"].get(b, {})
-        cells = " | ".join(str(row.get(k, 0) or "") for k, _label in cols)
+        cells = " | ".join("∅" if (b, k) in reviewed else str(row.get(k, 0) or "")
+                           for k, _label in cols)
         mark = "" if conf["west"] else " ※非西洋"
         lines.append(f"| {b}（{conf['label_ja']}）{mark} | {cells} | {cov['per_bucket'].get(b, 0)} |")
     for key, label in (("origin-unknown", "**発生地未確認**"), ("origin-multiple", "**複数起源**")):
@@ -313,6 +359,13 @@ def render_coverage(cov, cfg, entities):
     if cov["origin_multiple"]:
         lines += ["", "複数起源（どのバケットにも代表させていない）:"] + [
             f"- {m['id']} — {' / '.join(m['regions'])}" for m in cov["origin_multiple"]]
+    if cov["no_known_grouping"]:
+        lines += ["", "**調査済み・該当する movement なし**（`no-known-grouping`）:", ""]
+        for row in cov["no_known_grouping"]:
+            century = str(row["century"])
+            label = "年代不明" if century == "unknown" else (
+                f"{abs(int(century))}BCE" if int(century) < 0 else f"{century}C")
+            lines.append(f"- {row['region']} / {label}: {row['note']}（出典: {'、'.join(row['sources'])}）")
     # 空振りの記録は残すが、**いま当たる語は出さない**。KB が空だった頃に探された語をそのまま
     # 「無い」と出し続けると、既に入っているものを調べに行かせてしまう。
     asked = {}
@@ -369,6 +422,12 @@ def main():
 
     edges = build_edges(entities)
     cov = coverage(entities, cfg)
+    validate_coverage_reviews(cov["no_known_grouping"], cfg, cov, errors)
+    if errors:
+        print(f"✗ {len(errors)} 件:", file=sys.stderr)
+        for e in errors:
+            print(f"  - {e}", file=sys.stderr)
+        return 1
     if check_only:
         print(f"✓ {len(entities)} エンティティ / {len(edges)} 関係 — 問題なし")
         return 0
