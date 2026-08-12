@@ -1,11 +1,11 @@
 ---
-id: person/giulio-bonacina
-uri: urn:ahn:person/giulio-bonacina
+id: person/filippo-cabutti
+uri: urn:ahn:person/filippo-cabutti
 type: person
-label_ja: ジュリオ・ボナチーナ
-label_en: Giulio Bonacina
+label_ja: フィリッポ・カブッティ
+label_en: Filippo Cabutti
 aliases:
-  - Bonacina Giulio
+  - Cabutti Filippo
 authority:
   wikidata: null
   ulan: null
@@ -15,7 +15,7 @@ authority:
 time:
   start: null
   end: null
-  display: "19世紀末にミラノで活動"
+  display: "19世紀末にボッソラスコ出身者として活動"
 space: []
 relations:
   - {type: exhibited_at, target: event/first-brera-triennale-1891}
@@ -25,6 +25,6 @@ status: draft
 updated: 2026-08-13
 ---
 
-# ジュリオ・ボナチーナ / Giulio Bonacina
+# フィリッポ・カブッティ / Filippo Cabutti
 
-1891年の第一回ブレラ三年展公式カタログに、ミラノで活動する出品者として掲載される。321番《Ritratto d’uomo》、449番《Ritratto di signora》を出品した。本項は展覧会記録に限定する。
+1891年の第一回ブレラ三年展公式カタログに、ボッソラスコ出身者として掲載される出品者。448番《Sorrisi d’autunno》を出品した。本項は展覧会記録に限定する。

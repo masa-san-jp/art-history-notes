@@ -1,11 +1,11 @@
 ---
-id: person/giulio-bonacina
-uri: urn:ahn:person/giulio-bonacina
+id: person/alessandro-barbieri
+uri: urn:ahn:person/alessandro-barbieri
 type: person
-label_ja: ジュリオ・ボナチーナ
-label_en: Giulio Bonacina
+label_ja: アレッサンドロ・バルビエリ
+label_en: Alessandro Barbieri
 aliases:
-  - Bonacina Giulio
+  - Barbieri Alessandro
 authority:
   wikidata: null
   ulan: null
@@ -25,6 +25,6 @@ status: draft
 updated: 2026-08-13
 ---
 
-# ジュリオ・ボナチーナ / Giulio Bonacina
+# アレッサンドロ・バルビエリ / Alessandro Barbieri
 
-1891年の第一回ブレラ三年展公式カタログに、ミラノで活動する出品者として掲載される。321番《Ritratto d’uomo》、449番《Ritratto di signora》を出品した。本項は展覧会記録に限定する。
+1891年の第一回ブレラ三年展公式カタログに、ミラノ出身者として掲載される出品者。453番《Le pubblicazioni di matrimonio》を出品した。本項は展覧会記録に限定する。

@@ -24,11 +24,10 @@ sources:
   - https://www.dizionariodartesartori.it/artisti/pasini-lazzaro
   - https://galleriemaspes.com/immagini_sito/Cataloghi%20pdf/Brera_Guide.pdf
 status: draft
-updated: 2026-08-12
+updated: 2026-08-13
 ---
 
 # ラッツァーロ・パジーニ / Lazzaro Pasini
 
 レッジョ・エミリア生まれ、ミラノで没した画家。フィレンツェのアカデミーで学び、ジョヴァンニ・ファットーリの画塾にも通った。
-1886年にミラノへ移り、ロンバルディアの自然主義の画家たちと接点を持った。1891年の第一回ブレラ三年展では
-《Impressioni e studi》《Soccorso! Soccorso!》《Scarabocchione》を出品した。ここではイタリア分割主義への所属を推測せず、人物と出品記録に限定して記録する。
+1886年にミラノへ移り、ロンバルディアの自然主義の画家たちと接点を持った。1891年の第一回ブレラ三年展では、398番《Impressioni e studi》、450番《Scarabocchione》、461番《Soccorso! Soccorso!》を出品した。ここではイタリア分割主義への所属を推測せず、人物と出品記録に限定して記録する。

@@ -9802,6 +9802,41 @@
       "updated": "2026-08-12",
       "path": "entities/persons/aleardo-villa.md"
     },
+    "person/alessandro-barbieri": {
+      "id": "person/alessandro-barbieri",
+      "uri": "urn:ahn:person/alessandro-barbieri",
+      "type": "person",
+      "label_ja": "アレッサンドロ・バルビエリ",
+      "label_en": "Alessandro Barbieri",
+      "aliases": [
+        "Barbieri Alessandro"
+      ],
+      "authority": {
+        "wikidata": null,
+        "ulan": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "独立した人物典拠IDと生没年は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": null,
+        "end": null,
+        "display": "19世紀末にミラノで活動"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-13",
+      "path": "entities/persons/alessandro-barbieri.md"
+    },
     "person/alessandro-casetti": {
       "id": "person/alessandro-casetti",
       "uri": "urn:ahn:person/alessandro-casetti",
@@ -13921,6 +13956,41 @@
       "updated": "2026-08-09",
       "path": "entities/persons/felix-feneon.md"
     },
+    "person/ferdinando-bialetti": {
+      "id": "person/ferdinando-bialetti",
+      "uri": "urn:ahn:person/ferdinando-bialetti",
+      "type": "person",
+      "label_ja": "フェルディナンド・ビアレッティ",
+      "label_en": "Ferdinando Bialetti",
+      "aliases": [
+        "Bialetti Ferdinando"
+      ],
+      "authority": {
+        "wikidata": null,
+        "ulan": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "独立した人物典拠IDと生没年は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": null,
+        "end": null,
+        "display": "19世紀末にミラノ出身者として活動"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-13",
+      "path": "entities/persons/ferdinando-bialetti.md"
+    },
     "person/ferdinando-ramponi": {
       "id": "person/ferdinando-ramponi",
       "uri": "urn:ahn:person/ferdinando-ramponi",
@@ -14160,6 +14230,41 @@
       "status": "draft",
       "updated": "2026-08-12",
       "path": "entities/persons/filiberto-petiti.md"
+    },
+    "person/filippo-cabutti": {
+      "id": "person/filippo-cabutti",
+      "uri": "urn:ahn:person/filippo-cabutti",
+      "type": "person",
+      "label_ja": "フィリッポ・カブッティ",
+      "label_en": "Filippo Cabutti",
+      "aliases": [
+        "Cabutti Filippo"
+      ],
+      "authority": {
+        "wikidata": null,
+        "ulan": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "独立した人物典拠IDと生没年は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": null,
+        "end": null,
+        "display": "19世紀末にボッソラスコ出身者として活動"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-13",
+      "path": "entities/persons/filippo-cabutti.md"
     },
     "person/filippo-carcano": {
       "id": "person/filippo-carcano",
@@ -15358,7 +15463,7 @@
         "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
       ],
       "status": "draft",
-      "updated": "2026-08-12",
+      "updated": "2026-08-13",
       "path": "entities/persons/giulio-bonacina.md"
     },
     "person/giulio-prati": {
@@ -16023,6 +16128,41 @@
       "status": "draft",
       "updated": "2026-08-12",
       "path": "entities/persons/giuseppe-ugolini.md"
+    },
+    "person/giuseppe-zanetti": {
+      "id": "person/giuseppe-zanetti",
+      "uri": "urn:ahn:person/giuseppe-zanetti",
+      "type": "person",
+      "label_ja": "ジュゼッペ・ザネッティ",
+      "label_en": "Giuseppe Zanetti",
+      "aliases": [
+        "Zanetti Giuseppe"
+      ],
+      "authority": {
+        "wikidata": null,
+        "ulan": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "独立した人物典拠IDと生没年は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": null,
+        "end": null,
+        "display": "19世紀末にモデナ出身者として活動"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-13",
+      "path": "entities/persons/giuseppe-zanetti.md"
     },
     "person/giuseppe-zannoni": {
       "id": "person/giuseppe-zannoni",
@@ -16727,7 +16867,7 @@
         "https://galleriemaspes.com/immagini_sito/Cataloghi%20pdf/Brera_Guide.pdf"
       ],
       "status": "draft",
-      "updated": "2026-08-12",
+      "updated": "2026-08-13",
       "path": "entities/persons/lazzaro-pasini.md"
     },
     "person/lee-ufan": {
@@ -17388,6 +17528,41 @@
       "status": "draft",
       "updated": "2026-08-12",
       "path": "entities/persons/luigi-contratti.md"
+    },
+    "person/luigi-ferrazzi": {
+      "id": "person/luigi-ferrazzi",
+      "uri": "urn:ahn:person/luigi-ferrazzi",
+      "type": "person",
+      "label_ja": "ルイジ・フェラッツィ",
+      "label_en": "Luigi Ferrazzi",
+      "aliases": [
+        "Ferrazzi Luigi"
+      ],
+      "authority": {
+        "wikidata": null,
+        "ulan": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "独立した人物典拠IDと生没年は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": null,
+        "end": null,
+        "display": "19世紀末にヴェネツィアで活動"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-13",
+      "path": "entities/persons/luigi-ferrazzi.md"
     },
     "person/luigi-gioii": {
       "id": "person/luigi-gioii",
@@ -19701,7 +19876,7 @@
         "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
       ],
       "status": "draft",
-      "updated": "2026-08-12",
+      "updated": "2026-08-13",
       "path": "entities/persons/serafino-de-tivoli.md"
     },
     "person/serafino-grassi": {
@@ -19958,6 +20133,41 @@
       "status": "stub",
       "updated": "2026-08-09",
       "path": "entities/persons/uche-okeke.md"
+    },
+    "person/umberto-bazzoli": {
+      "id": "person/umberto-bazzoli",
+      "uri": "urn:ahn:person/umberto-bazzoli",
+      "type": "person",
+      "label_ja": "ウンベルト・バッツォーリ",
+      "label_en": "Umberto Bazzoli",
+      "aliases": [
+        "Bazzoli Umberto"
+      ],
+      "authority": {
+        "wikidata": null,
+        "ulan": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "独立した人物典拠IDと生没年は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": null,
+        "end": null,
+        "display": "19世紀末にヴェローナで活動"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-13",
+      "path": "entities/persons/umberto-bazzoli.md"
     },
     "person/urbano-nono": {
       "id": "person/urbano-nono",
@@ -24079,6 +24289,42 @@
       "status": "draft",
       "updated": "2026-08-12",
       "path": "entities/works/alla-pesca-giuliano-1891.md"
+    },
+    "work/alla-sveglia-ferrazzi-1891": {
+      "id": "work/alla-sveglia-ferrazzi-1891",
+      "uri": "urn:ahn:work/alla-sveglia-ferrazzi-1891",
+      "type": "work",
+      "label_ja": "ルイジ・フェラッツィ《Alla sveglia》",
+      "label_en": "Alla sveglia",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "作品の独立典拠IDと現所在は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年（1891年展カタログ446番）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/luigi-ferrazzi"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-13",
+      "path": "entities/works/alla-sveglia-ferrazzi-1891.md"
     },
     "work/alla-vanga-ferraguti-1891": {
       "id": "work/alla-vanga-ferraguti-1891",
@@ -28248,6 +28494,42 @@
       "status": "draft",
       "updated": "2026-08-12",
       "path": "entities/works/evviva-beltrami-1891.md"
+    },
+    "work/facciata-san-fermo-bazzoli-1891": {
+      "id": "work/facciata-san-fermo-bazzoli-1891",
+      "uri": "urn:ahn:work/facciata-san-fermo-bazzoli-1891",
+      "type": "work",
+      "label_ja": "ウンベルト・バッツォーリ《Facciata S. Fermo Maggiore - Verona》",
+      "label_en": "Facciata S. Fermo Maggiore - Verona",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "作品の独立典拠IDと現所在は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年（1891年展カタログ447番）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/umberto-bazzoli"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-13",
+      "path": "entities/works/facciata-san-fermo-bazzoli-1891.md"
     },
     "work/fantino-a-cavallo-sarti-1891": {
       "id": "work/fantino-a-cavallo-sarti-1891",
@@ -34824,6 +35106,42 @@
       "updated": "2026-08-12",
       "path": "entities/works/le-presage-fornara-1907.md"
     },
+    "work/le-pubblicazioni-di-matrimonio-barbieri-1891": {
+      "id": "work/le-pubblicazioni-di-matrimonio-barbieri-1891",
+      "uri": "urn:ahn:work/le-pubblicazioni-di-matrimonio-barbieri-1891",
+      "type": "work",
+      "label_ja": "アレッサンドロ・バルビエリ《Le pubblicazioni di matrimonio》",
+      "label_en": "Le pubblicazioni di matrimonio",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "作品の独立典拠IDと現所在は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年（1891年展カタログ453番）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/alessandro-barbieri"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-13",
+      "path": "entities/works/le-pubblicazioni-di-matrimonio-barbieri-1891.md"
+    },
     "work/le-reclute-lancerotto-1891": {
       "id": "work/le-reclute-lancerotto-1891",
       "uri": "urn:ahn:work/le-reclute-lancerotto-1891",
@@ -35007,6 +35325,42 @@
       "status": "draft",
       "updated": "2026-08-12",
       "path": "entities/works/le-verbe-previati-1907.md"
+    },
+    "work/le-vignole-zanetti-1891": {
+      "id": "work/le-vignole-zanetti-1891",
+      "uri": "urn:ahn:work/le-vignole-zanetti-1891",
+      "type": "work",
+      "label_ja": "ジュゼッペ・ザネッティ《Le Vignole.》",
+      "label_en": "Le Vignole.",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "作品の独立典拠IDと現所在は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年（1891年展カタログ452番）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/giuseppe-zanetti"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-13",
+      "path": "entities/works/le-vignole-zanetti-1891.md"
     },
     "work/leda-previati-1907": {
       "id": "work/leda-previati-1907",
@@ -41559,6 +41913,42 @@
       "updated": "2026-08-12",
       "path": "entities/works/ritratto-di-mio-papa-pellizza-1891.md"
     },
+    "work/ritratto-di-signora-bonacina-1891-no449": {
+      "id": "work/ritratto-di-signora-bonacina-1891-no449",
+      "uri": "urn:ahn:work/ritratto-di-signora-bonacina-1891-no449",
+      "type": "work",
+      "label_ja": "ジュリオ・ボナチーナ《Ritratto di signora》（449番）",
+      "label_en": "Ritratto di signora",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "作品の独立典拠IDと現所在は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年（1891年展カタログ449番）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/giulio-bonacina"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-13",
+      "path": "entities/works/ritratto-di-signora-bonacina-1891-no449.md"
+    },
     "work/ritratto-di-signora-cagnoni-1891-no219": {
       "id": "work/ritratto-di-signora-cagnoni-1891-no219",
       "uri": "urn:ahn:work/ritratto-di-signora-cagnoni-1891-no219",
@@ -42980,6 +43370,78 @@
       "updated": "2026-08-12",
       "path": "entities/works/san-carlo-a-catinari-serra-1891.md"
     },
+    "work/santa-cecilia-bialetti-1891": {
+      "id": "work/santa-cecilia-bialetti-1891",
+      "uri": "urn:ahn:work/santa-cecilia-bialetti-1891",
+      "type": "work",
+      "label_ja": "フェルディナンド・ビアレッティ《Santa Cecilia》",
+      "label_en": "Santa Cecilia",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "作品の独立典拠IDと現所在は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年（1891年展カタログ444番）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/ferdinando-bialetti"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-13",
+      "path": "entities/works/santa-cecilia-bialetti-1891.md"
+    },
+    "work/santa-marta-venezia-zanetti-1891": {
+      "id": "work/santa-marta-venezia-zanetti-1891",
+      "uri": "urn:ahn:work/santa-marta-venezia-zanetti-1891",
+      "type": "work",
+      "label_ja": "ジュゼッペ・ザネッティ《Santa Marta (Venezia)》",
+      "label_en": "Santa Marta (Venezia)",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "作品の独立典拠IDと現所在は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年（1891年展カタログ451番）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/giuseppe-zanetti"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-13",
+      "path": "entities/works/santa-marta-venezia-zanetti-1891.md"
+    },
     "work/scarabocchione-pasini-1891": {
       "id": "work/scarabocchione-pasini-1891",
       "uri": "urn:ahn:work/scarabocchione-pasini-1891",
@@ -43566,6 +44028,42 @@
       "status": "draft",
       "updated": "2026-08-12",
       "path": "entities/works/sorpreso-massarenti-1891.md"
+    },
+    "work/sorrisi-dautunno-cabutti-1891": {
+      "id": "work/sorrisi-dautunno-cabutti-1891",
+      "uri": "urn:ahn:work/sorrisi-dautunno-cabutti-1891",
+      "type": "work",
+      "label_ja": "フィリッポ・カブッティ《Sorrisi d’autunno》",
+      "label_en": "Sorrisi d’autunno",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "作品の独立典拠IDと現所在は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年（1891年展カタログ448番）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/filippo-cabutti"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-13",
+      "path": "entities/works/sorrisi-dautunno-cabutti-1891.md"
     },
     "work/sous-la-lune-magrini-1907": {
       "id": "work/sous-la-lune-magrini-1907",
@@ -46025,6 +46523,42 @@
       "updated": "2026-08-13",
       "path": "entities/works/veduta-di-capri-tafuri-1891.md"
     },
+    "work/veduta-nel-pian-di-pisa-tivoli-1891": {
+      "id": "work/veduta-nel-pian-di-pisa-tivoli-1891",
+      "uri": "urn:ahn:work/veduta-nel-pian-di-pisa-tivoli-1891",
+      "type": "work",
+      "label_ja": "セラフィーノ・デ・ティヴォリ《Veduta nel Pian di Pisa》",
+      "label_en": "Veduta nel Pian di Pisa",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "作品の独立典拠IDと現所在は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年（1891年展カタログ445番）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/serafino-de-tivoli"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-13",
+      "path": "entities/works/veduta-nel-pian-di-pisa-tivoli-1891.md"
+    },
     "work/vendemmia-saccardo-1891": {
       "id": "work/vendemmia-saccardo-1891",
       "uri": "urn:ahn:work/vendemmia-saccardo-1891",
@@ -48428,6 +48962,13 @@
       "source": null
     },
     {
+      "from": "person/alessandro-barbieri",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "person/alessandro-casetti",
       "type": "exhibited_at",
       "to": "event/first-brera-triennale-1891",
@@ -49334,6 +49875,13 @@
       "source": null
     },
     {
+      "from": "person/ferdinando-bialetti",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "person/ferdinando-ramponi",
       "type": "belongs_to",
       "to": "movement/italian-divisionism",
@@ -49384,6 +49932,13 @@
     },
     {
       "from": "person/filiberto-petiti",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "person/filippo-cabutti",
       "type": "exhibited_at",
       "to": "event/first-brera-triennale-1891",
       "certainty": null,
@@ -49842,6 +50397,13 @@
       "source": null
     },
     {
+      "from": "person/giuseppe-zanetti",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "person/giuseppe-zannoni",
       "type": "exhibited_at",
       "to": "event/first-brera-triennale-1891",
@@ -50102,6 +50664,13 @@
     },
     {
       "from": "person/luigi-contratti",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "person/luigi-ferrazzi",
       "type": "exhibited_at",
       "to": "event/first-brera-triennale-1891",
       "certainty": null,
@@ -50573,6 +51142,13 @@
       "source": null
     },
     {
+      "from": "person/umberto-bazzoli",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "person/urbano-nono",
       "type": "exhibited_at",
       "to": "event/first-brera-triennale-1891",
@@ -51033,6 +51609,20 @@
     },
     {
       "from": "work/alla-pesca-giuliano-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/alla-sveglia-ferrazzi-1891",
+      "type": "created_by",
+      "to": "person/luigi-ferrazzi",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/alla-sveglia-ferrazzi-1891",
       "type": "exhibited_at",
       "to": "event/first-brera-triennale-1891",
       "certainty": null,
@@ -52645,6 +53235,20 @@
       "source": null
     },
     {
+      "from": "work/facciata-san-fermo-bazzoli-1891",
+      "type": "created_by",
+      "to": "person/umberto-bazzoli",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/facciata-san-fermo-bazzoli-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "work/fantino-a-cavallo-sarti-1891",
       "type": "created_by",
       "to": "person/diego-sarti",
@@ -55172,6 +55776,20 @@
       "source": null
     },
     {
+      "from": "work/le-pubblicazioni-di-matrimonio-barbieri-1891",
+      "type": "created_by",
+      "to": "person/alessandro-barbieri",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/le-pubblicazioni-di-matrimonio-barbieri-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "work/le-reclute-lancerotto-1891",
       "type": "created_by",
       "to": "person/egisto-lancerotto",
@@ -55238,6 +55856,20 @@
       "from": "work/le-verbe-previati-1907",
       "type": "exhibited_at",
       "to": "event/salon-divisionnistes-italiens-paris-1907",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/le-vignole-zanetti-1891",
+      "type": "created_by",
+      "to": "person/giuseppe-zanetti",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/le-vignole-zanetti-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
       "certainty": null,
       "source": null
     },
@@ -57762,6 +58394,20 @@
       "source": null
     },
     {
+      "from": "work/ritratto-di-signora-bonacina-1891-no449",
+      "type": "created_by",
+      "to": "person/giulio-bonacina",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/ritratto-di-signora-bonacina-1891-no449",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "work/ritratto-di-signora-cagnoni-1891-no219",
       "type": "created_by",
       "to": "person/amorino-cagnoni",
@@ -58308,6 +58954,34 @@
       "source": null
     },
     {
+      "from": "work/santa-cecilia-bialetti-1891",
+      "type": "created_by",
+      "to": "person/ferdinando-bialetti",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/santa-cecilia-bialetti-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/santa-marta-venezia-zanetti-1891",
+      "type": "created_by",
+      "to": "person/giuseppe-zanetti",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/santa-marta-venezia-zanetti-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "work/scarabocchione-pasini-1891",
       "type": "created_by",
       "to": "person/lazzaro-pasini",
@@ -58526,6 +59200,20 @@
     },
     {
       "from": "work/sorpreso-massarenti-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/sorrisi-dautunno-cabutti-1891",
+      "type": "created_by",
+      "to": "person/filippo-cabutti",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/sorrisi-dautunno-cabutti-1891",
       "type": "exhibited_at",
       "to": "event/first-brera-triennale-1891",
       "certainty": null,
@@ -59478,6 +60166,20 @@
     },
     {
       "from": "work/veduta-di-capri-tafuri-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/veduta-nel-pian-di-pisa-tivoli-1891",
+      "type": "created_by",
+      "to": "person/serafino-de-tivoli",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/veduta-nel-pian-di-pisa-tivoli-1891",
       "type": "exhibited_at",
       "to": "event/first-brera-triennale-1891",
       "certainty": null,
@@ -60780,6 +61482,12 @@
     {
       "from": "event/first-brera-triennale-1891",
       "type": "exhibited",
+      "to": "person/alessandro-barbieri",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
       "to": "person/alessandro-casetti",
       "derived": true
     },
@@ -61516,6 +62224,12 @@
       "derived": true
     },
     {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "person/ferdinando-bialetti",
+      "derived": true
+    },
+    {
       "from": "movement/italian-divisionism",
       "type": "has_member",
       "to": "person/ferdinando-ramponi",
@@ -61561,6 +62275,12 @@
       "from": "event/first-brera-triennale-1891",
       "type": "exhibited",
       "to": "person/filiberto-petiti",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "person/filippo-cabutti",
       "derived": true
     },
     {
@@ -61932,6 +62652,12 @@
     {
       "from": "event/first-brera-triennale-1891",
       "type": "exhibited",
+      "to": "person/giuseppe-zanetti",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
       "to": "person/giuseppe-zannoni",
       "derived": true
     },
@@ -62125,6 +62851,12 @@
       "from": "event/first-brera-triennale-1891",
       "type": "exhibited",
       "to": "person/luigi-contratti",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "person/luigi-ferrazzi",
       "derived": true
     },
     {
@@ -62520,6 +63252,12 @@
     {
       "from": "event/first-brera-triennale-1891",
       "type": "exhibited",
+      "to": "person/umberto-bazzoli",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
       "to": "person/urbano-nono",
       "derived": true
     },
@@ -62893,6 +63631,18 @@
       "from": "event/first-brera-triennale-1891",
       "type": "exhibited",
       "to": "work/alla-pesca-giuliano-1891",
+      "derived": true
+    },
+    {
+      "from": "person/luigi-ferrazzi",
+      "type": "created",
+      "to": "work/alla-sveglia-ferrazzi-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/alla-sveglia-ferrazzi-1891",
       "derived": true
     },
     {
@@ -64261,6 +65011,18 @@
       "from": "event/first-brera-triennale-1891",
       "type": "exhibited",
       "to": "work/evviva-beltrami-1891",
+      "derived": true
+    },
+    {
+      "from": "person/umberto-bazzoli",
+      "type": "created",
+      "to": "work/facciata-san-fermo-bazzoli-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/facciata-san-fermo-bazzoli-1891",
       "derived": true
     },
     {
@@ -66430,6 +67192,18 @@
       "derived": true
     },
     {
+      "from": "person/alessandro-barbieri",
+      "type": "created",
+      "to": "work/le-pubblicazioni-di-matrimonio-barbieri-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/le-pubblicazioni-di-matrimonio-barbieri-1891",
+      "derived": true
+    },
+    {
       "from": "person/egisto-lancerotto",
       "type": "created",
       "to": "work/le-reclute-lancerotto-1891",
@@ -66487,6 +67261,18 @@
       "from": "event/salon-divisionnistes-italiens-paris-1907",
       "type": "exhibited",
       "to": "work/le-verbe-previati-1907",
+      "derived": true
+    },
+    {
+      "from": "person/giuseppe-zanetti",
+      "type": "created",
+      "to": "work/le-vignole-zanetti-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/le-vignole-zanetti-1891",
       "derived": true
     },
     {
@@ -68650,6 +69436,18 @@
       "derived": true
     },
     {
+      "from": "person/giulio-bonacina",
+      "type": "created",
+      "to": "work/ritratto-di-signora-bonacina-1891-no449",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/ritratto-di-signora-bonacina-1891-no449",
+      "derived": true
+    },
+    {
       "from": "person/amorino-cagnoni",
       "type": "created",
       "to": "work/ritratto-di-signora-cagnoni-1891-no219",
@@ -69118,6 +69916,30 @@
       "derived": true
     },
     {
+      "from": "person/ferdinando-bialetti",
+      "type": "created",
+      "to": "work/santa-cecilia-bialetti-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/santa-cecilia-bialetti-1891",
+      "derived": true
+    },
+    {
+      "from": "person/giuseppe-zanetti",
+      "type": "created",
+      "to": "work/santa-marta-venezia-zanetti-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/santa-marta-venezia-zanetti-1891",
+      "derived": true
+    },
+    {
       "from": "person/lazzaro-pasini",
       "type": "created",
       "to": "work/scarabocchione-pasini-1891",
@@ -69307,6 +70129,18 @@
       "from": "event/first-brera-triennale-1891",
       "type": "exhibited",
       "to": "work/sorpreso-massarenti-1891",
+      "derived": true
+    },
+    {
+      "from": "person/filippo-cabutti",
+      "type": "created",
+      "to": "work/sorrisi-dautunno-cabutti-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/sorrisi-dautunno-cabutti-1891",
       "derived": true
     },
     {
@@ -70123,6 +70957,18 @@
       "from": "event/first-brera-triennale-1891",
       "type": "exhibited",
       "to": "work/veduta-di-capri-tafuri-1891",
+      "derived": true
+    },
+    {
+      "from": "person/serafino-de-tivoli",
+      "type": "created",
+      "to": "work/veduta-nel-pian-di-pisa-tivoli-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/veduta-nel-pian-di-pisa-tivoli-1891",
       "derived": true
     },
     {
