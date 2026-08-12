@@ -6413,7 +6413,32 @@
           "target": "place/papunya"
         }
       ],
-      "relations": [],
+      "relations": [
+        {
+          "type": "diffused_to",
+          "target": "place/new-york-city",
+          "certainty": "scholarly",
+          "source": "https://www.nma.gov.au/defining-moments/resources/papunya-tula"
+        },
+        {
+          "type": "diffused_to",
+          "target": "place/london",
+          "certainty": "scholarly",
+          "source": "https://www.nma.gov.au/defining-moments/resources/papunya-tula"
+        },
+        {
+          "type": "diffused_to",
+          "target": "place/paris",
+          "certainty": "scholarly",
+          "source": "https://www.nma.gov.au/defining-moments/resources/papunya-tula"
+        },
+        {
+          "type": "diffused_to",
+          "target": "place/venice",
+          "certainty": "scholarly",
+          "source": "https://www.nma.gov.au/defining-moments/resources/papunya-tula"
+        }
+      ],
       "sources": [
         "https://www.wikidata.org/wiki/Q18005",
         "https://en.wikipedia.org/wiki/Papunya_Tula",
@@ -6421,10 +6446,11 @@
         "https://en.wikipedia.org/wiki/Geoffrey_Bardon",
         "https://papunyatula.com.au/pages/history",
         "https://oneoftwelve.com/papunya-tula-artists-the-genesis-of-australian-aboriginal-art/",
-        "https://japingkaaboriginalart.com/articles/geoffrey-bardon-influence/"
+        "https://japingkaaboriginalart.com/articles/geoffrey-bardon-influence/",
+        "https://www.nma.gov.au/defining-moments/resources/papunya-tula"
       ],
       "status": "draft",
-      "updated": "2026-08-09",
+      "updated": "2026-08-12",
       "path": "entities/movements/papunya-tula.md"
     },
     "movement/peredvizhniki": {
@@ -23496,6 +23522,34 @@
     },
     {
       "from": "movement/papunya-tula",
+      "type": "diffused_to",
+      "to": "place/new-york-city",
+      "certainty": "scholarly",
+      "source": "https://www.nma.gov.au/defining-moments/resources/papunya-tula"
+    },
+    {
+      "from": "movement/papunya-tula",
+      "type": "diffused_to",
+      "to": "place/london",
+      "certainty": "scholarly",
+      "source": "https://www.nma.gov.au/defining-moments/resources/papunya-tula"
+    },
+    {
+      "from": "movement/papunya-tula",
+      "type": "diffused_to",
+      "to": "place/paris",
+      "certainty": "scholarly",
+      "source": "https://www.nma.gov.au/defining-moments/resources/papunya-tula"
+    },
+    {
+      "from": "movement/papunya-tula",
+      "type": "diffused_to",
+      "to": "place/venice",
+      "certainty": "scholarly",
+      "source": "https://www.nma.gov.au/defining-moments/resources/papunya-tula"
+    },
+    {
+      "from": "movement/papunya-tula",
       "type": "originated_in",
       "to": "place/papunya"
     },
@@ -28240,6 +28294,30 @@
       "from": "movement/safavid-painting",
       "type": "influenced",
       "to": "movement/ottoman-miniature",
+      "derived": true
+    },
+    {
+      "from": "place/new-york-city",
+      "type": "received",
+      "to": "movement/papunya-tula",
+      "derived": true
+    },
+    {
+      "from": "place/london",
+      "type": "received",
+      "to": "movement/papunya-tula",
+      "derived": true
+    },
+    {
+      "from": "place/paris",
+      "type": "received",
+      "to": "movement/papunya-tula",
+      "derived": true
+    },
+    {
+      "from": "place/venice",
+      "type": "received",
+      "to": "movement/papunya-tula",
       "derived": true
     },
     {
