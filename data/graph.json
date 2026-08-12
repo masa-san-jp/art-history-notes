@@ -4716,13 +4716,13 @@
           "type": "influenced_by",
           "target": "movement/mughal-painting",
           "certainty": "scholarly",
-          "source": "https://en.wikipedia.org/wiki/Kangra_painting"
+          "source": "https://www.metmuseum.org/art/collection/search/37950"
         },
         {
           "type": "derives_from",
           "target": "movement/basohli-painting",
           "certainty": "scholarly",
-          "source": "https://en.wikipedia.org/wiki/Basohli"
+          "source": "https://www.metmuseum.org/art/collection/search/37947"
         }
       ],
       "sources": [
@@ -4737,7 +4737,9 @@
         "https://aatesaurus.cultura.gencat.cat/aat/getty_en/index.php?%2Frajput=&tema=31367026",
         "https://www.livehistoryindia.com/story/snapshort-histories/sansar-chand-the-emperor-of-the-hills",
         "https://en.wiktionary.org/wiki/Rajput",
-        "https://theprint.in/pageturner/excerpt/how-love-war-and-mughal-fine-art-inspired-kangra-painting/533500/"
+        "https://theprint.in/pageturner/excerpt/how-love-war-and-mughal-fine-art-inspired-kangra-painting/533500/",
+        "https://www.metmuseum.org/art/collection/search/37950",
+        "https://www.metmuseum.org/art/collection/search/37947"
       ],
       "images": [
         {
@@ -56964,14 +56966,14 @@
       "type": "influenced_by",
       "to": "movement/mughal-painting",
       "certainty": "scholarly",
-      "source": "https://en.wikipedia.org/wiki/Kangra_painting"
+      "source": "https://www.metmuseum.org/art/collection/search/37950"
     },
     {
       "from": "movement/kangra-painting",
       "type": "derives_from",
       "to": "movement/basohli-painting",
       "certainty": "scholarly",
-      "source": "https://en.wikipedia.org/wiki/Basohli"
+      "source": "https://www.metmuseum.org/art/collection/search/37947"
     },
     {
       "from": "movement/kangra-painting",

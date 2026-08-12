@@ -27,8 +27,8 @@ claims:
 space:
   - {role: originated_in, target: place/kangra}
 relations:
-  - {type: influenced_by, target: movement/mughal-painting, certainty: scholarly, source: "https://en.wikipedia.org/wiki/Kangra_painting"}
-  - {type: derives_from, target: movement/basohli-painting, certainty: scholarly, source: "https://en.wikipedia.org/wiki/Basohli"}
+  - {type: influenced_by, target: movement/mughal-painting, certainty: scholarly, source: "https://www.metmuseum.org/art/collection/search/37950"}
+  - {type: derives_from, target: movement/basohli-painting, certainty: scholarly, source: "https://www.metmuseum.org/art/collection/search/37947"}
 sources:
   - https://www.wikidata.org/wiki/Q6362867
   - https://www.wikidata.org/wiki/Q2988788
@@ -42,6 +42,8 @@ sources:
   - https://www.livehistoryindia.com/story/snapshort-histories/sansar-chand-the-emperor-of-the-hills
   - https://en.wiktionary.org/wiki/Rajput
   - https://theprint.in/pageturner/excerpt/how-love-war-and-mughal-fine-art-inspired-kangra-painting/533500/
+  - https://www.metmuseum.org/art/collection/search/37950
+  - https://www.metmuseum.org/art/collection/search/37947
 images:
   - url: https://images.metmuseum.org/CRDImages/as/original/DP166090.jpg
     source_page: https://www.metmuseum.org/art/collection/search/74675
@@ -203,7 +205,12 @@ painting"）を踏まえた。ムガル絵画の`155X`と同じ理由で、**様
 
 ## バソーリ派との接続
 
-Wikipediaは同じパハーリー絵画圏の一派である[movement/basohli-painting](basohli-painting.md)
+メトロポリタン美術館の所蔵解説は、マナクの作品について、初期バソーリ様式に特徴的な平面的な色面と、
+グレール＝カーングラ様式へ向かう自然主義的な要素を対比し、様式の移行を具体的に記録している
+（[Met所蔵品37947](https://www.metmuseum.org/art/collection/search/37947)）。また、同じ一族の
+ナインスクがバソーリで活動したことも記録されており、複数の宮廷を移動した担い手の経路と一致する。
+従来のWikipediaによる「発展した」という整理も、これらの所蔵情報と矛盾しない。同じパハーリー絵画圏の一派である
+[movement/basohli-painting](basohli-painting.md)
 （現ジャンムー・カシミール連邦直轄領カトゥア県）について「considered the first school of Pahari
 paintings, and which evolved into the much prolific Kangra paintings school by mid-eighteenth
 century」と記し、バソーリ派を18世紀半ばにかけてカーングラ派へ発展した先行様式として位置づける
