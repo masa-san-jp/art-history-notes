@@ -21372,6 +21372,43 @@
       "updated": "2026-08-12",
       "path": "entities/works/ritratto-di-signora-rastellini-1891.md"
     },
+    "work/ritratto-di-signora-villani-1891": {
+      "id": "work/ritratto-di-signora-villani-1891",
+      "uri": "urn:ahn:work/ritratto-di-signora-villani-1891",
+      "type": "work",
+      "label_ja": "ピエトロ・ヴィッラーニ《Ritratto di signora》",
+      "label_en": "Ritratto di signora",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "作品の独立典拠IDと現所在は未確認。画家略歴資料と1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年展出品"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/pietro-villani"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://www.galleriarecta.it/autore/villani-pietro/",
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/works/ritratto-di-signora-villani-1891.md"
+    },
     "work/romeo-et-juliette-previati-1907": {
       "id": "work/romeo-et-juliette-previati-1907",
       "uri": "urn:ahn:work/romeo-et-juliette-previati-1907",
@@ -27536,6 +27573,20 @@
       "source": null
     },
     {
+      "from": "work/ritratto-di-signora-villani-1891",
+      "type": "created_by",
+      "to": "person/pietro-villani",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/ritratto-di-signora-villani-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "work/romeo-et-juliette-previati-1907",
       "type": "created_by",
       "to": "person/gaetano-previati",
@@ -31609,6 +31660,18 @@
       "from": "event/first-brera-triennale-1891",
       "type": "exhibited",
       "to": "work/ritratto-di-signora-rastellini-1891",
+      "derived": true
+    },
+    {
+      "from": "person/pietro-villani",
+      "type": "created",
+      "to": "work/ritratto-di-signora-villani-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/ritratto-di-signora-villani-1891",
       "derived": true
     },
     {
