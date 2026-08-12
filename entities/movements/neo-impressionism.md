@@ -30,7 +30,7 @@ space:
 relations:
   - {type: exhibited_at, target: event/eighth-impressionist-exhibition-1886}
   - {type: diffused_to, target: place/brussels, certainty: scholarly, source: "https://en.wikipedia.org/wiki/Les_Vingt"}
-  - {type: influenced_by, target: concept/ukiyo-e, certainty: scholarly, source: "https://www.vangoghmuseum.nl/assets/491dd716-741d-4608-975e-e9652bdfd063?c=2379957789b45233379dcf35054dd324a2f54e39adeb7c20b1481dc08c461b44"}
+  - {type: influenced_by, target: concept/ukiyo-e, certainty: scholarly, source: "https://www.moma.org/documents/moma_catalogue_2792_300190140.pdf"}
   - {type: part_of, target: concept/divisionism}
 sources:
   - https://www.wikidata.org/wiki/Q150091
@@ -38,6 +38,7 @@ sources:
   - https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300021505
   - https://digistore.bib.ulb.ac.be/2008/DL2864764_1886_f.pdf
   - https://www.vangoghmuseum.nl/assets/491dd716-741d-4608-975e-e9652bdfd063?c=2379957789b45233379dcf35054dd324a2f54e39adeb7c20b1481dc08c461b44
+  - https://www.moma.org/documents/moma_catalogue_2792_300190140.pdf
   - https://gallica.bnf.fr/ark:/12148/bpt6k850398w
   - https://catalogue.bnf.fr/ark:/12148/cb30427294w
   - https://fr.wikipedia.org/wiki/N%C3%A9o-impressionnisme
@@ -185,6 +186,11 @@ Gallica収録の実物（[ark:/12148/bpt6k850398w](https://gallica.bnf.fr/ark:/1
 収集版画、スーラ《グランド・ジャット島の日曜日の午後》に見られる平面性と色面、ピサロの《農作業》に
 見られる北斎漫画との関係が挙げられる。一方で、シニャックについては、本人が版画を直接研究したのか、
 日本版画を収集・研究したモネを介した影響なのか確定できないとも記録される。
+
+1958年のシカゴ美術館・ニューヨーク近代美術館共催セウラ展カタログも、セウラが空間を平面化し、
+線と曲線の装飾的な配置へ進んだ過程について、1880年代の日本版画への熱狂の影響を受けた可能性を記す。
+これは新印象派の全画家が同じ版画を見たという主張ではなく、中心人物セウラの制作変化についての研究上の
+接続である。
 
 ここでいう「日本の版画」は、江戸期の木版画を中心とする上位概念として本KBの
 [浮世絵](../concepts/ukiyo-e.md)に対応づける。特定の一派、とくに歌川派から新印象派全体へ直接伝播したと

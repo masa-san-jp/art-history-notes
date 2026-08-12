@@ -5857,7 +5857,7 @@
           "type": "influenced_by",
           "target": "concept/ukiyo-e",
           "certainty": "scholarly",
-          "source": "https://www.vangoghmuseum.nl/assets/491dd716-741d-4608-975e-e9652bdfd063?c=2379957789b45233379dcf35054dd324a2f54e39adeb7c20b1481dc08c461b44"
+          "source": "https://www.moma.org/documents/moma_catalogue_2792_300190140.pdf"
         },
         {
           "type": "part_of",
@@ -5870,6 +5870,7 @@
         "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300021505",
         "https://digistore.bib.ulb.ac.be/2008/DL2864764_1886_f.pdf",
         "https://www.vangoghmuseum.nl/assets/491dd716-741d-4608-975e-e9652bdfd063?c=2379957789b45233379dcf35054dd324a2f54e39adeb7c20b1481dc08c461b44",
+        "https://www.moma.org/documents/moma_catalogue_2792_300190140.pdf",
         "https://gallica.bnf.fr/ark:/12148/bpt6k850398w",
         "https://catalogue.bnf.fr/ark:/12148/cb30427294w",
         "https://fr.wikipedia.org/wiki/N%C3%A9o-impressionnisme",
@@ -23841,7 +23842,7 @@
       "type": "influenced_by",
       "to": "concept/ukiyo-e",
       "certainty": "scholarly",
-      "source": "https://www.vangoghmuseum.nl/assets/491dd716-741d-4608-975e-e9652bdfd063?c=2379957789b45233379dcf35054dd324a2f54e39adeb7c20b1481dc08c461b44"
+      "source": "https://www.moma.org/documents/moma_catalogue_2792_300190140.pdf"
     },
     {
       "from": "movement/neo-impressionism",
