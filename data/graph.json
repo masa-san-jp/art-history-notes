@@ -9271,6 +9271,45 @@
       "updated": "2026-08-12",
       "path": "entities/persons/alexander-rodchenko.md"
     },
+    "person/angelo-morbelli": {
+      "id": "person/angelo-morbelli",
+      "uri": "urn:ahn:person/angelo-morbelli",
+      "type": "person",
+      "label_ja": "アンジェロ・モルベッリ",
+      "label_en": "Angelo Morbelli",
+      "authority": {
+        "wikidata": "Q3617111",
+        "ulan": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": "1853-07-18",
+        "end": "1919-11-07",
+        "display": "1853年7月18日アレッサンドリア生まれ — 1919年11月7日ミラノ没"
+      },
+      "space": [
+        {
+          "role": "active_in",
+          "target": "place/milan"
+        }
+      ],
+      "relations": [
+        {
+          "type": "belongs_to",
+          "target": "movement/italian-divisionism"
+        }
+      ],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q3617111",
+        "https://www.treccani.it/enciclopedia/angelo-morbelli_%28Dizionario-Biografico%29/",
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/persons/angelo-morbelli.md"
+    },
     "person/bernard-fagg": {
       "id": "person/bernard-fagg",
       "uri": "urn:ahn:person/bernard-fagg",
@@ -9595,6 +9634,40 @@
       "updated": "2026-08-09",
       "path": "entities/persons/filippo-tommaso-marinetti.md"
     },
+    "person/gaetano-previati": {
+      "id": "person/gaetano-previati",
+      "uri": "urn:ahn:person/gaetano-previati",
+      "type": "person",
+      "label_ja": "ガエターノ・プレヴィアーティ",
+      "label_en": "Gaetano Previati",
+      "authority": {
+        "wikidata": "Q913979",
+        "ulan": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": "1852-08-31",
+        "end": "1920-06-21",
+        "display": "1852年8月31日フェラーラ生まれ — 1920年6月21日ラヴァーニャ没"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "belongs_to",
+          "target": "movement/italian-divisionism"
+        }
+      ],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q913979",
+        "https://www.treccani.it/enciclopedia/gaetano-previati_%28Dizionario-Biografico%29/",
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/persons/gaetano-previati.md"
+    },
     "person/georges-braque": {
       "id": "person/georges-braque",
       "uri": "urn:ahn:person/georges-braque",
@@ -9710,6 +9783,40 @@
       "status": "draft",
       "updated": "2026-08-08",
       "path": "entities/persons/georges-seurat.md"
+    },
+    "person/giovanni-segantini": {
+      "id": "person/giovanni-segantini",
+      "uri": "urn:ahn:person/giovanni-segantini",
+      "type": "person",
+      "label_ja": "ジョヴァンニ・セガンティーニ",
+      "label_en": "Giovanni Segantini",
+      "authority": {
+        "wikidata": "Q379300",
+        "ulan": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": "1858-01-15",
+        "end": "1899-09-28",
+        "display": "1858年1月15日アルコ生まれ — 1899年9月28日スイス・シャーフベルク没"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "belongs_to",
+          "target": "movement/italian-divisionism"
+        }
+      ],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q379300",
+        "https://www.treccani.it/enciclopedia/giovanni-segantini_%28Dizionario-Biografico%29/",
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/persons/giovanni-segantini.md"
     },
     "person/gyula-kosice": {
       "id": "person/gyula-kosice",
@@ -15545,6 +15652,18 @@
       "to": "place/moscow"
     },
     {
+      "from": "person/angelo-morbelli",
+      "type": "belongs_to",
+      "to": "movement/italian-divisionism",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "person/angelo-morbelli",
+      "type": "active_in",
+      "to": "place/milan"
+    },
+    {
       "from": "person/david-alfaro-siqueiros",
       "type": "grouped_as",
       "to": "movement/mexican-muralism",
@@ -15584,6 +15703,13 @@
       "from": "person/el-lissitzky",
       "type": "active_in",
       "to": "place/berlin"
+    },
+    {
+      "from": "person/gaetano-previati",
+      "type": "belongs_to",
+      "to": "movement/italian-divisionism",
+      "certainty": null,
+      "source": null
     },
     {
       "from": "person/georges-seurat",
@@ -15627,6 +15753,13 @@
       "from": "person/georges-seurat",
       "type": "active_in",
       "to": "place/paris"
+    },
+    {
+      "from": "person/giovanni-segantini",
+      "type": "belongs_to",
+      "to": "movement/italian-divisionism",
+      "certainty": null,
+      "source": null
     },
     {
       "from": "person/henri-lehmann",
@@ -16854,6 +16987,12 @@
       "derived": true
     },
     {
+      "from": "movement/italian-divisionism",
+      "type": "has_member",
+      "to": "person/angelo-morbelli",
+      "derived": true
+    },
+    {
       "from": "movement/mexican-muralism",
       "type": "groups",
       "to": "person/david-alfaro-siqueiros",
@@ -16869,6 +17008,12 @@
       "from": "org/vkhutemas",
       "type": "has_member",
       "to": "person/el-lissitzky",
+      "derived": true
+    },
+    {
+      "from": "movement/italian-divisionism",
+      "type": "has_member",
+      "to": "person/gaetano-previati",
       "derived": true
     },
     {
@@ -16893,6 +17038,12 @@
       "from": "person/henri-lehmann",
       "type": "taught",
       "to": "person/georges-seurat",
+      "derived": true
+    },
+    {
+      "from": "movement/italian-divisionism",
+      "type": "has_member",
+      "to": "person/giovanni-segantini",
       "derived": true
     },
     {
