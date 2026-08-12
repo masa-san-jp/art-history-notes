@@ -31,7 +31,7 @@ updated: 2026-08-12
 ヴェローナに生まれ、ミラノで没した画家。ブレラ美術アカデミーで学び、1902年にアルベルト・グルビーチと契約して、
 海景を中心に分割主義的な光の表現を展開した。
 
-1907年パリ展では、Salle Cの49〜55c番に《Marine》、《Effet de Soleil, le matin》、
-[`《Effet de Soleil, le matin》`](../works/effet-de-soleil-le-matin-minozzi-1907.md)、[`《Marine (Riviera del Ponente)》`](../works/marine-riviera-del-ponente-minozzi-1907.md)、
-[`《Le Jardin de la Duchesse Leed》`](../works/le-jardin-de-la-duchesse-leed-minozzi-1907.md)など9作品を出品した。
-庭園画の注文資料との同定は未確定である。
+1907年パリ展では、Salle Cの49〜55c番に49番[`《Marine》`](../works/marine-minozzi-1907-no49.md)、50番[`《Effet de Soleil, le matin》`](../works/effet-de-soleil-le-matin-minozzi-1907.md)、
+51番[`《Marine (Crépuscule)》`](../works/marine-crepuscule-minozzi-1907.md)、52番[`《Marine》`](../works/marine-minozzi-1907-no52.md)、53番[`《Marine (Riviera del Ponente)》`](../works/marine-riviera-del-ponente-minozzi-1907.md)、
+54番[`《Le Jardin de la Duchesse Leed》`](../works/le-jardin-de-la-duchesse-leed-minozzi-1907.md)、55a番[`《Marine》`](../works/marine-minozzi-1907-no55a.md)、55b番[`《Marine》`](../works/marine-minozzi-1907-no55b.md)、55c番[`《Marine》`](../works/marine-minozzi-1907-no55c.md)の9作品を出品した。
+同題の庭園画の注文資料との同定は未確定である。
