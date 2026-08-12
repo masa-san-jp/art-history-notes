@@ -395,6 +395,41 @@
       "updated": "2026-08-12",
       "path": "entities/events/first-salon-des-independants-1884.md"
     },
+    "event/salon-divisionnistes-italiens-paris-1907": {
+      "id": "event/salon-divisionnistes-italiens-paris-1907",
+      "uri": "urn:ahn:event/salon-divisionnistes-italiens-paris-1907",
+      "type": "event",
+      "label_ja": "パリ・イタリア分割主義者展",
+      "label_en": "Salon des Peintres Divisionnistes Italiens",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "個別展覧会の典拠IDは未確認。1907年カタログとDatabase of Modern Exhibitionsを用いる"
+      },
+      "time": {
+        "start": "1907-09-01",
+        "end": "1907-10-15",
+        "display": "1907年9月1日〜10月15日"
+      },
+      "space": [
+        {
+          "role": "held_at",
+          "target": "place/paris"
+        }
+      ],
+      "relations": [],
+      "sources": [
+        "https://exhibitions.univie.ac.at/exhibition/125",
+        "https://www.bdl.servizirl.it/vufind/Record/BDL-OGGETTO-2295",
+        "https://www.bdl.servizirl.it/bdl/public/rest/srv/item/2295/pdf",
+        "https://search.worldcat.org/es/title/Catalogue-du-salon-des-peintres-divisionnistes-italiens-organise-par-la-Galerie-d'art-A.-Grubicy-de-Milan-1er-Septembre-15-Octobre-1907-%3A-Serre-de-l'Alma/oclc/739207378"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/events/salon-divisionnistes-italiens-paris-1907.md"
+    },
     "event/societe-artistes-independants-founding-1884": {
       "id": "event/societe-artistes-independants-founding-1884",
       "uri": "urn:ahn:event/societe-artistes-independants-founding-1884",
@@ -9218,6 +9253,10 @@
         {
           "type": "belongs_to",
           "target": "movement/italian-divisionism"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/salon-divisionnistes-italiens-paris-1907"
         }
       ],
       "sources": [
@@ -9432,6 +9471,10 @@
         {
           "type": "belongs_to",
           "target": "movement/italian-divisionism"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/salon-divisionnistes-italiens-paris-1907"
         }
       ],
       "sources": [
@@ -9796,6 +9839,10 @@
         {
           "type": "belongs_to",
           "target": "movement/italian-divisionism"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/salon-divisionnistes-italiens-paris-1907"
         }
       ],
       "sources": [
@@ -10023,6 +10070,10 @@
         {
           "type": "belongs_to",
           "target": "movement/italian-divisionism"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/salon-divisionnistes-italiens-paris-1907"
         }
       ],
       "sources": [
@@ -14644,6 +14695,11 @@
       "to": "place/paris"
     },
     {
+      "from": "event/salon-divisionnistes-italiens-paris-1907",
+      "type": "held_at",
+      "to": "place/paris"
+    },
+    {
       "from": "event/societe-artistes-independants-founding-1884",
       "type": "precedes",
       "to": "event/first-salon-des-independants-1884",
@@ -16392,6 +16448,13 @@
       "source": null
     },
     {
+      "from": "person/achille-tominetti",
+      "type": "exhibited_at",
+      "to": "event/salon-divisionnistes-italiens-paris-1907",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "person/alexander-rodchenko",
       "type": "belongs_to",
       "to": "movement/constructivism",
@@ -16436,6 +16499,13 @@
       "from": "person/carlo-fornara",
       "type": "belongs_to",
       "to": "movement/italian-divisionism",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "person/carlo-fornara",
+      "type": "exhibited_at",
+      "to": "event/salon-divisionnistes-italiens-paris-1907",
       "certainty": null,
       "source": null
     },
@@ -16491,6 +16561,13 @@
       "from": "person/gaetano-previati",
       "type": "belongs_to",
       "to": "movement/italian-divisionism",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "person/gaetano-previati",
+      "type": "exhibited_at",
+      "to": "event/salon-divisionnistes-italiens-paris-1907",
       "certainty": null,
       "source": null
     },
@@ -16555,6 +16632,13 @@
       "from": "person/giovanni-segantini",
       "type": "belongs_to",
       "to": "movement/italian-divisionism",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "person/giovanni-segantini",
+      "type": "exhibited_at",
+      "to": "event/salon-divisionnistes-italiens-paris-1907",
       "certainty": null,
       "source": null
     },
@@ -17988,6 +18072,12 @@
       "derived": true
     },
     {
+      "from": "event/salon-divisionnistes-italiens-paris-1907",
+      "type": "exhibited",
+      "to": "person/achille-tominetti",
+      "derived": true
+    },
+    {
       "from": "movement/constructivism",
       "type": "has_member",
       "to": "person/alexander-rodchenko",
@@ -18008,6 +18098,12 @@
     {
       "from": "movement/italian-divisionism",
       "type": "has_member",
+      "to": "person/carlo-fornara",
+      "derived": true
+    },
+    {
+      "from": "event/salon-divisionnistes-italiens-paris-1907",
+      "type": "exhibited",
       "to": "person/carlo-fornara",
       "derived": true
     },
@@ -18038,6 +18134,12 @@
     {
       "from": "movement/italian-divisionism",
       "type": "has_member",
+      "to": "person/gaetano-previati",
+      "derived": true
+    },
+    {
+      "from": "event/salon-divisionnistes-italiens-paris-1907",
+      "type": "exhibited",
       "to": "person/gaetano-previati",
       "derived": true
     },
@@ -18080,6 +18182,12 @@
     {
       "from": "movement/italian-divisionism",
       "type": "has_member",
+      "to": "person/giovanni-segantini",
+      "derived": true
+    },
+    {
+      "from": "event/salon-divisionnistes-italiens-paris-1907",
+      "type": "exhibited",
       "to": "person/giovanni-segantini",
       "derived": true
     },

@@ -17,6 +17,7 @@ time:
 space: []
 relations:
   - {type: belongs_to, target: movement/italian-divisionism}
+  - {type: exhibited_at, target: event/salon-divisionnistes-italiens-paris-1907}
 sources:
   - https://www.wikidata.org/wiki/Q379300
   - https://www.treccani.it/enciclopedia/giovanni-segantini_%28Dizionario-Biografico%29/
