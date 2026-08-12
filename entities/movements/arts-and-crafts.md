@@ -34,7 +34,7 @@ sources:
   - https://www.vam.ac.uk/articles/arts-and-crafts-beyond-the-uk
   - https://www.metmuseum.org/it/essays/design-reform
 status: draft
-updated: 2026-08-12
+updated: 2026-08-13
 ---
 
 # アーツ・アンド・クラフツ運動 / Arts and Crafts movement
@@ -68,6 +68,6 @@ V&Aによれば、運動は1887年にロンドンで設立されたArts and Craf
 
 - ウィリアム・モリス、ジョン・ラスキン、A. W. N. ピュージンらの人物化と、思想・作品を介した関係の分解
 - Arts and Crafts Exhibition Society、Arts Workers Guild、Morris & Co. などの組織化
-- バウハウス、アール・ヌーヴォー、ウィーン工房などへの具体的な伝播経路
-- 英国各地、欧州、米国、日本での地域別展開。特に民藝運動への形成的接続は民藝側に記録したが、人物・
+- アール・ヌーヴォー、ウィーン工房などへの具体的な伝播経路
+- 英国各地、欧州、米国、日本での地域別展開。特に民藝運動への形成的接続は民藝側に記録済みだが、人物・
   出版物・工芸作品を介した経路の分解は未着手

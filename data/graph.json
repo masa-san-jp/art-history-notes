@@ -1046,7 +1046,7 @@
         "https://www.metmuseum.org/it/essays/design-reform"
       ],
       "status": "draft",
-      "updated": "2026-08-12",
+      "updated": "2026-08-13",
       "path": "entities/movements/arts-and-crafts.md"
     },
     "movement/asmat-carving": {
@@ -1695,6 +1695,12 @@
           "target": "movement/constructivism",
           "certainty": "scholarly",
           "source": "https://www.moma.org/documents/moma_catalogue_1733_300062754.pdf"
+        },
+        {
+          "type": "influenced_by",
+          "target": "movement/arts-and-crafts",
+          "certainty": "scholarly",
+          "source": "https://www.moma.org/collection/terms/arts-and-crafts-movement"
         }
       ],
       "images": [
@@ -1713,10 +1719,11 @@
         "https://www.moma.org/documents/moma_catalogue_1733_300062754.pdf",
         "https://www.bauhaus.de/en/discover/article/idea-and-programme/",
         "https://www.moma.org/collection/terms/bauhaus",
+        "https://www.moma.org/collection/terms/arts-and-crafts-movement",
         "https://commons.wikimedia.org/wiki/File:Anonymous_photograph_of_Bauhaus_masters_on_the_roof_of_the_studio_building,_Bauhaus_Dessau.jpg"
       ],
       "status": "draft",
-      "updated": "2026-08-11",
+      "updated": "2026-08-13",
       "path": "entities/movements/bauhaus.md"
     },
     "movement/bengal-school": {
@@ -56335,6 +56342,13 @@
     },
     {
       "from": "movement/bauhaus",
+      "type": "influenced_by",
+      "to": "movement/arts-and-crafts",
+      "certainty": "scholarly",
+      "source": "https://www.moma.org/collection/terms/arts-and-crafts-movement"
+    },
+    {
+      "from": "movement/bauhaus",
       "type": "originated_in",
       "to": "place/weimar"
     },
@@ -72542,6 +72556,12 @@
     },
     {
       "from": "movement/constructivism",
+      "type": "influenced",
+      "to": "movement/bauhaus",
+      "derived": true
+    },
+    {
+      "from": "movement/arts-and-crafts",
       "type": "influenced",
       "to": "movement/bauhaus",
       "derived": true

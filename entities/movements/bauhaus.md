@@ -32,6 +32,7 @@ space:
 relations:
   - {type: influenced_by, target: movement/de-stijl, certainty: scholarly, source: "https://www.moma.org/documents/moma_catalogue_1798_300159061.pdf"}
   - {type: influenced_by, target: movement/constructivism, certainty: scholarly, source: "https://www.moma.org/documents/moma_catalogue_1733_300062754.pdf"}
+  - {type: influenced_by, target: movement/arts-and-crafts, certainty: scholarly, source: "https://www.moma.org/collection/terms/arts-and-crafts-movement"}
 images:
   - url: "https://commons.wikimedia.org/wiki/Special:FilePath/Anonymous_photograph_of_Bauhaus_masters_on_the_roof_of_the_studio_building,_Bauhaus_Dessau.jpg"
     source_page: "https://commons.wikimedia.org/wiki/File:Anonymous_photograph_of_Bauhaus_masters_on_the_roof_of_the_studio_building,_Bauhaus_Dessau.jpg"
@@ -45,9 +46,10 @@ sources:
   - https://www.moma.org/documents/moma_catalogue_1733_300062754.pdf
   - https://www.bauhaus.de/en/discover/article/idea-and-programme/
   - https://www.moma.org/collection/terms/bauhaus
+  - https://www.moma.org/collection/terms/arts-and-crafts-movement
   - https://commons.wikimedia.org/wiki/File:Anonymous_photograph_of_Bauhaus_masters_on_the_roof_of_the_studio_building,_Bauhaus_Dessau.jpg
 status: draft
-updated: 2026-08-11
+updated: 2026-08-13
 ---
 
 # バウハウス / Bauhaus
@@ -103,6 +105,14 @@ Bauhaus-Archivは、ヴァルター・グロピウスが1919年4月にワイマ�
 
 この本文では、特定の教員や作品を「バウハウスの代表」として関係線に固定していない。誰がどの時期に
 どの校舎・工房で何を教え、どの作品が学校の実践を示すかは、人物・組織・作品の典拠を揃えてから追加する。
+
+## アーツ・アンド・クラフツ運動との関係
+
+MoMAは、アーツ・アンド・クラフツ運動から生まれた国際的な知識・技法のネットワークが、ドイツのバウハウスにも
+広く影響したと整理している（[MoMA, *Arts and Crafts movement*](https://www.moma.org/collection/terms/arts-and-crafts-movement)）。
+ここで記録するのは、手仕事・素材・機能を重視する理念と教育上の問題設定がバウハウスの形成に入ったという関係であり、
+バウハウスが英国運動の単純な継承だったという意味ではない。バウハウス自身の教育課程が工房と産業生産をどう接続したかは、
+上の「教育と実践」に記載した内容と分けて扱う。
 
 ## 未着手
 
