@@ -18163,6 +18163,43 @@
       "updated": "2026-08-12",
       "path": "entities/works/la-mort-segantini-1907.md"
     },
+    "work/la-nonna-filippini-1891": {
+      "id": "work/la-nonna-filippini-1891",
+      "uri": "urn:ahn:work/la-nonna-filippini-1891",
+      "type": "work",
+      "label_ja": "フランチェスコ・フィリッピーニ《La nonna》",
+      "label_en": "La nonna",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "作品の独立典拠IDと現所在は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年展出品（1891年展カタログ322番）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/francesco-filippini"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf",
+        "https://www.treccani.it/enciclopedia/francesco-filippini_%28Dizionario-Biografico%29/"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/works/la-nonna-filippini-1891.md"
+    },
     "work/la-nuit-fornara-1907": {
       "id": "work/la-nuit-fornara-1907",
       "uri": "urn:ahn:work/la-nuit-fornara-1907",
@@ -22450,6 +22487,43 @@
       "status": "draft",
       "updated": "2026-08-12",
       "path": "entities/works/sacree-famille-previati-1907.md"
+    },
+    "work/sala-da-pranzo-filippini-1891": {
+      "id": "work/sala-da-pranzo-filippini-1891",
+      "uri": "urn:ahn:work/sala-da-pranzo-filippini-1891",
+      "type": "work",
+      "label_ja": "フランチェスコ・フィリッピーニ《Sala da pranzo》",
+      "label_en": "Sala da pranzo",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "作品の独立典拠IDと現所在は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年展出品（1891年展カタログ318番）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/francesco-filippini"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf",
+        "https://www.treccani.it/enciclopedia/francesco-filippini_%28Dizionario-Biografico%29/"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/works/sala-da-pranzo-filippini-1891.md"
     },
     "work/soccorso-pasini-1891": {
       "id": "work/soccorso-pasini-1891",
@@ -27277,6 +27351,20 @@
       "source": null
     },
     {
+      "from": "work/la-nonna-filippini-1891",
+      "type": "created_by",
+      "to": "person/francesco-filippini",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/la-nonna-filippini-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "work/la-nuit-fornara-1907",
       "type": "created_by",
       "to": "person/carlo-fornara",
@@ -28925,6 +29013,20 @@
       "from": "work/sacree-famille-previati-1907",
       "type": "exhibited_at",
       "to": "event/salon-divisionnistes-italiens-paris-1907",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/sala-da-pranzo-filippini-1891",
+      "type": "created_by",
+      "to": "person/francesco-filippini",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/sala-da-pranzo-filippini-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
       "certainty": null,
       "source": null
     },
@@ -31835,6 +31937,18 @@
       "derived": true
     },
     {
+      "from": "person/francesco-filippini",
+      "type": "created",
+      "to": "work/la-nonna-filippini-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/la-nonna-filippini-1891",
+      "derived": true
+    },
+    {
       "from": "person/carlo-fornara",
       "type": "created",
       "to": "work/la-nuit-fornara-1907",
@@ -33248,6 +33362,18 @@
       "from": "event/salon-divisionnistes-italiens-paris-1907",
       "type": "exhibited",
       "to": "work/sacree-famille-previati-1907",
+      "derived": true
+    },
+    {
+      "from": "person/francesco-filippini",
+      "type": "created",
+      "to": "work/sala-da-pranzo-filippini-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/sala-da-pranzo-filippini-1891",
       "derived": true
     },
     {
