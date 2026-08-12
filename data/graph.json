@@ -9644,6 +9644,47 @@
       "updated": "2026-08-12",
       "path": "entities/persons/arnaldo-ferraguti.md"
     },
+    "person/attilio-pusterla": {
+      "id": "person/attilio-pusterla",
+      "uri": "urn:ahn:person/attilio-pusterla",
+      "type": "person",
+      "label_ja": "アッティリオ・プステルラ",
+      "label_en": "Attilio Pusterla",
+      "authority": {
+        "wikidata": "Q15996495",
+        "ulan": "500089405",
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": "1862-07-10",
+        "end": "1941-04-30",
+        "display": "1862年7月10日ミラノ生まれ — 1941年4月30日ウッドクリフ（ニュージャージー州）没"
+      },
+      "space": [
+        {
+          "role": "active_in",
+          "target": "place/milan"
+        }
+      ],
+      "relations": [
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://www.treccani.it/enciclopedia/attilio-pusterla_%28Dizionario-Biografico%29/",
+        "https://www.wikidata.org/wiki/Q15996495",
+        "https://www.getty.edu/vow/ULANFullDisplay?find=&nation=Finnish&role=&subjectid=500089405",
+        "https://ildivisionismo.it/attilio-pusterla/",
+        "https://commons.wikimedia.org/wiki/Category%3AAttilio_Pusterla"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/persons/attilio-pusterla.md"
+    },
     "person/benvenuto-benvenuti": {
       "id": "person/benvenuto-benvenuti",
       "uri": "urn:ahn:person/benvenuto-benvenuti",
@@ -18008,6 +18049,46 @@
       "updated": "2026-08-12",
       "path": "entities/works/la-bottega-del-calderaio-fornara-1891.md"
     },
+    "work/la-cura-del-sangue-pusterla-1891": {
+      "id": "work/la-cura-del-sangue-pusterla-1891",
+      "uri": "urn:ahn:work/la-cura-del-sangue-pusterla-1891",
+      "type": "work",
+      "label_ja": "アッティリオ・プステルラ《La cura del sangue》",
+      "label_en": "La cura del sangue",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "作品の独立典拠IDは未確認。ブレラ展ガイド、Treccani、1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年（1891年展カタログ217番）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/attilio-pusterla"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://galleriemaspes.com/immagini_sito/Cataloghi%20pdf/Brera_Guide.pdf",
+        "https://www.treccani.it/enciclopedia/attilio-pusterla_%28Dizionario-Biografico%29/",
+        "https://www.getty.edu/vow/ULANFullDisplay?find=&nation=Finnish&role=&subjectid=500089405",
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf",
+        "https://www.wikidata.org/wiki/Q15996495"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/works/la-cura-del-sangue-pusterla-1891.md"
+    },
     "work/la-lutte-pour-la-vie-magrini-1907": {
       "id": "work/la-lutte-pour-la-vie-magrini-1907",
       "uri": "urn:ahn:work/la-lutte-pour-la-vie-magrini-1907",
@@ -25468,6 +25549,18 @@
       "to": "place/milan"
     },
     {
+      "from": "person/attilio-pusterla",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "person/attilio-pusterla",
+      "type": "active_in",
+      "to": "place/milan"
+    },
+    {
       "from": "person/benvenuto-benvenuti",
       "type": "belongs_to",
       "to": "movement/italian-divisionism",
@@ -27136,6 +27229,20 @@
     },
     {
       "from": "work/la-bottega-del-calderaio-fornara-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/la-cura-del-sangue-pusterla-1891",
+      "type": "created_by",
+      "to": "person/attilio-pusterla",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/la-cura-del-sangue-pusterla-1891",
       "type": "exhibited_at",
       "to": "event/first-brera-triennale-1891",
       "certainty": null,
@@ -30354,6 +30461,12 @@
       "derived": true
     },
     {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "person/attilio-pusterla",
+      "derived": true
+    },
+    {
       "from": "movement/italian-divisionism",
       "type": "has_member",
       "to": "person/benvenuto-benvenuti",
@@ -31683,6 +31796,18 @@
       "from": "event/first-brera-triennale-1891",
       "type": "exhibited",
       "to": "work/la-bottega-del-calderaio-fornara-1891",
+      "derived": true
+    },
+    {
+      "from": "person/attilio-pusterla",
+      "type": "created",
+      "to": "work/la-cura-del-sangue-pusterla-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/la-cura-del-sangue-pusterla-1891",
       "derived": true
     },
     {
