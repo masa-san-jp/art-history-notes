@@ -14599,6 +14599,45 @@
       "updated": "2026-08-12",
       "path": "entities/works/bathers-at-asnieres.md"
     },
+    "work/effet-du-soleil-sur-la-neige-maggi-1907": {
+      "id": "work/effet-du-soleil-sur-la-neige-maggi-1907",
+      "uri": "urn:ahn:work/effet-du-soleil-sur-la-neige-maggi-1907",
+      "type": "work",
+      "label_ja": "チェーザレ・マッジ《Effet du soleil sur la neige / Effetto di Neve》",
+      "label_en": "Effet du soleil sur la neige / Effetto di Neve",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "独立作品典拠IDは未確認。1907年カタログ番号100と作品市場記録を用いる"
+      },
+      "time": {
+        "start": "1907",
+        "end": "1907",
+        "display": "1907年パリ展出品（制作年未確認）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/cesare-maggi"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/salon-divisionnistes-italiens-paris-1907"
+        }
+      ],
+      "sources": [
+        "https://www.christies.com/en/lot/lot-6486278",
+        "https://www.dorotheum.com/it/l/1859276/",
+        "https://exhibitions.univie.ac.at/exhibition/125",
+        "https://exhibitions.univie.ac.at/person/ulan/500053429"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/works/effet-du-soleil-sur-la-neige-maggi-1907.md"
+    },
     "work/in-cerca-di-legna-tominetti-1891": {
       "id": "work/in-cerca-di-legna-tominetti-1891",
       "uri": "urn:ahn:work/in-cerca-di-legna-tominetti-1891",
@@ -17624,6 +17663,20 @@
       "to": "org/national-gallery-london"
     },
     {
+      "from": "work/effet-du-soleil-sur-la-neige-maggi-1907",
+      "type": "created_by",
+      "to": "person/cesare-maggi",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/effet-du-soleil-sur-la-neige-maggi-1907",
+      "type": "exhibited_at",
+      "to": "event/salon-divisionnistes-italiens-paris-1907",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "work/in-cerca-di-legna-tominetti-1891",
       "type": "created_by",
       "to": "person/achille-tominetti",
@@ -19267,6 +19320,18 @@
       "from": "event/first-salon-des-independants-1884",
       "type": "exhibited",
       "to": "work/bathers-at-asnieres",
+      "derived": true
+    },
+    {
+      "from": "person/cesare-maggi",
+      "type": "created",
+      "to": "work/effet-du-soleil-sur-la-neige-maggi-1907",
+      "derived": true
+    },
+    {
+      "from": "event/salon-divisionnistes-italiens-paris-1907",
+      "type": "exhibited",
+      "to": "work/effet-du-soleil-sur-la-neige-maggi-1907",
       "derived": true
     },
     {
