@@ -13,7 +13,7 @@ authority:
 time:
   start: "1891"
   end: "1891"
-  display: "1891年展出品（1892年制作の同名レプリカとは分けて扱う）"
+  display: "1891年展出品（1891年展カタログ230番；1892年制作の同名レプリカとは分けて扱う）"
 space: []
 relations:
   - {type: created_by, target: person/carlo-fornara}
