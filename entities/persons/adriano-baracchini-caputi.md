@@ -32,5 +32,5 @@ updated: 2026-08-12
 フィレンツェに生まれ、16歳でリヴォルノへ移った画家。グリエルモ・ミケーリに学び、ヴィットーレ・グルビーチの影響を受け、
 ベンヴェヌート・ベンヴェヌーティらとリヴォルノの分割主義を担った。
 
-1907年パリ展では、Sala A（Rotonde）の27〜31番に4点の《Paysage (étude)》と31番[`《Ferme》`](../works/ferme-baracchini-caputi-1907.md)を出品した。
-同名の《Paysage (étude)》4点は作品の区別が未確認のため、人物側に出品記録を残す。
+1907年パリ展では、Sala A（Rotonde）の27〜31番に27番[`《Paysage (étude)》`](../works/paysage-etude-baracchini-caputi-1907-no27.md)、28番[`《Paysage (étude)》`](../works/paysage-etude-baracchini-caputi-1907-no28.md)、29番[`《Paysage (étude)》`](../works/paysage-etude-baracchini-caputi-1907-no29.md)、30番[`《Paysage (étude)》`](../works/paysage-etude-baracchini-caputi-1907-no30.md)、31番[`《Ferme》`](../works/ferme-baracchini-caputi-1907.md)を出品した。
+同名の《Paysage (étude)》4点は作品固有の資料が未確認のため、カタログ番号で区別して保持する。

@@ -32,4 +32,4 @@ updated: 2026-08-12
 ジョヴァンニ・セガンティーニに接近し、静物や農村風景に分割主義の技法を取り入れた。
 
 1907年パリ展では、Sala A（Rotonde）の22〜26番に[`《Effet de Neige / Sneeuweffect in Lombardije》`](../works/effet-de-neige-cinotti-1907.md)と
-4点の《Marine (étude)》、計5作品を出品した。1912年アムステルダム展では同作に対応する題名が539番に記録される。
+23番[`《Marine (étude)》`](../works/marine-etude-cinotti-1907-no23.md)、24番[`《Marine (étude)》`](../works/marine-etude-cinotti-1907-no24.md)、25番[`《Marine (étude)》`](../works/marine-etude-cinotti-1907-no25.md)、26番[`《Marine (étude)》`](../works/marine-etude-cinotti-1907-no26.md)の計5作品を出品した。1912年アムステルダム展では同作に対応する題名が539番に記録される。
