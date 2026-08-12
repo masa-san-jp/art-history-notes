@@ -9319,6 +9319,40 @@
       "updated": "2026-08-09",
       "path": "entities/persons/abanindranath-tagore.md"
     },
+    "person/achille-alberti": {
+      "id": "person/achille-alberti",
+      "uri": "urn:ahn:person/achille-alberti",
+      "type": "person",
+      "label_ja": "アキッレ・アルベルティ",
+      "label_en": "Achille Alberti",
+      "authority": {
+        "wikidata": null,
+        "ulan": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "独立した人物典拠IDは未確認。Treccani、ロンバルディア文化財カタログ、1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": "1860-03-12",
+        "end": "1943-07-15",
+        "display": "1860年3月12日ミラノ生まれ — 1943年7月15日カムナーゴ没"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://www.treccani.it/enciclopedia/achille-alberti_%28Dizionario-Biografico%29/",
+        "https://www.lombardiabeniculturali.it/opere-arte/schede/3n010-00009/",
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/persons/achille-alberti.md"
+    },
     "person/achille-salata": {
       "id": "person/achille-salata",
       "uri": "urn:ahn:person/achille-salata",
@@ -10419,6 +10453,41 @@
       "status": "stub",
       "updated": "2026-08-10",
       "path": "entities/persons/ernest-fenollosa.md"
+    },
+    "person/ernesto-bazzaro": {
+      "id": "person/ernesto-bazzaro",
+      "uri": "urn:ahn:person/ernesto-bazzaro",
+      "type": "person",
+      "label_ja": "エルネスト・バッツァーロ",
+      "label_en": "Ernesto Bazzaro",
+      "authority": {
+        "wikidata": null,
+        "ulan": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "独立した人物典拠IDは未確認。英国博物館、米国国立美術館、ミラノ市公式資料、1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": "1859",
+        "end": "1937",
+        "display": "1859年ミラノ生まれ — 1937年同地没"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://www.britishmuseum.org/collection/term/biog186840",
+        "https://www.nga.gov/artists/52184-ernesto-bazzaro",
+        "https://monumentale.comune.milano.it/monumenti/monumento-ernesto-bazzaro",
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/persons/ernesto-bazzaro.md"
     },
     "person/eugenio-bellosio": {
       "id": "person/eugenio-bellosio",
@@ -19076,6 +19145,44 @@
       "updated": "2026-08-12",
       "path": "entities/works/l-idolo-bezzola-1891.md"
     },
+    "work/l-ignavia-alberti-1891": {
+      "id": "work/l-ignavia-alberti-1891",
+      "uri": "urn:ahn:work/l-ignavia-alberti-1891",
+      "type": "work",
+      "label_ja": "アキッレ・アルベルティ《L’Ignavia》",
+      "label_en": "L’Ignavia",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "作品の独立典拠IDは未確認。ロンバルディア文化財カタログと1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年展出品"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/achille-alberti"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://www.lombardiabeniculturali.it/opere-arte/schede/3n010-00009/",
+        "https://www.treccani.it/enciclopedia/achille-alberti_%28Dizionario-Biografico%29/",
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/works/l-ignavia-alberti-1891.md"
+    },
     "work/l-oratore-dello-sciopero-longoni-1891": {
       "id": "work/l-oratore-dello-sciopero-longoni-1891",
       "uri": "urn:ahn:work/l-oratore-dello-sciopero-longoni-1891",
@@ -24421,6 +24528,44 @@
       "updated": "2026-08-12",
       "path": "entities/works/tempo-grigio-tominetti-1891.md"
     },
+    "work/testa-di-vecchio-bazzaro-1891": {
+      "id": "work/testa-di-vecchio-bazzaro-1891",
+      "uri": "urn:ahn:work/testa-di-vecchio-bazzaro-1891",
+      "type": "work",
+      "label_ja": "エルネスト・バッツァーロ《Testa di vecchio》",
+      "label_en": "Testa di vecchio",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "1891年展出品作としての独立典拠IDと現所在は未確認。公式カタログと人物典拠を用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年展出品"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/ernesto-bazzaro"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://www.britishmuseum.org/collection/term/biog186840",
+        "https://www.nga.gov/artists/52184-ernesto-bazzaro",
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/works/testa-di-vecchio-bazzaro-1891.md"
+    },
     "work/tigre-royal-au-repos-magrini-1907": {
       "id": "work/tigre-royal-au-repos-magrini-1907",
       "uri": "urn:ahn:work/tigre-royal-au-repos-magrini-1907",
@@ -27064,6 +27209,13 @@
       "to": "place/moscow"
     },
     {
+      "from": "person/achille-alberti",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "person/achille-salata",
       "type": "exhibited_at",
       "to": "event/first-brera-triennale-1891",
@@ -27362,6 +27514,13 @@
     },
     {
       "from": "person/enrico-cassi",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "person/ernesto-bazzaro",
       "type": "exhibited_at",
       "to": "event/first-brera-triennale-1891",
       "certainty": null,
@@ -29237,6 +29396,20 @@
       "source": null
     },
     {
+      "from": "work/l-ignavia-alberti-1891",
+      "type": "created_by",
+      "to": "person/achille-alberti",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/l-ignavia-alberti-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "work/l-oratore-dello-sciopero-longoni-1891",
       "type": "created_by",
       "to": "person/emilio-longoni",
@@ -31288,6 +31461,20 @@
       "source": null
     },
     {
+      "from": "work/testa-di-vecchio-bazzaro-1891",
+      "type": "created_by",
+      "to": "person/ernesto-bazzaro",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/testa-di-vecchio-bazzaro-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "work/tigre-royal-au-repos-magrini-1907",
       "type": "created_by",
       "to": "person/adolphe-magrini",
@@ -32628,6 +32815,12 @@
     {
       "from": "event/first-brera-triennale-1891",
       "type": "exhibited",
+      "to": "person/achille-alberti",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
       "to": "person/achille-salata",
       "derived": true
     },
@@ -32845,6 +33038,12 @@
       "from": "event/first-brera-triennale-1891",
       "type": "exhibited",
       "to": "person/enrico-cassi",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "person/ernesto-bazzaro",
       "derived": true
     },
     {
@@ -34357,6 +34556,18 @@
       "from": "event/first-brera-triennale-1891",
       "type": "exhibited",
       "to": "work/l-idolo-bezzola-1891",
+      "derived": true
+    },
+    {
+      "from": "person/achille-alberti",
+      "type": "created",
+      "to": "work/l-ignavia-alberti-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/l-ignavia-alberti-1891",
       "derived": true
     },
     {
@@ -36115,6 +36326,18 @@
       "from": "event/first-brera-triennale-1891",
       "type": "exhibited",
       "to": "work/tempo-grigio-tominetti-1891",
+      "derived": true
+    },
+    {
+      "from": "person/ernesto-bazzaro",
+      "type": "created",
+      "to": "work/testa-di-vecchio-bazzaro-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/testa-di-vecchio-bazzaro-1891",
       "derived": true
     },
     {
