@@ -10664,6 +10664,38 @@
       "updated": "2026-08-12",
       "path": "entities/persons/angelo-zocchi.md"
     },
+    "person/antonio-argenti": {
+      "id": "person/antonio-argenti",
+      "uri": "urn:ahn:person/antonio-argenti",
+      "type": "person",
+      "label_ja": "アントニオ・アルジェンティ",
+      "label_en": "Antonio Argenti",
+      "authority": {
+        "wikidata": null,
+        "ulan": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "独立した人物典拠IDと生没年は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": null,
+        "end": null,
+        "display": "19世紀末にヴァレーゼ出身者として活動"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-13",
+      "path": "entities/persons/antonio-argenti.md"
+    },
     "person/antonio-bezzola": {
       "id": "person/antonio-bezzola",
       "uri": "urn:ahn:person/antonio-bezzola",
@@ -12282,6 +12314,38 @@
       "updated": "2026-08-13",
       "path": "entities/persons/coriolano-vighi.md"
     },
+    "person/costantino-pandiani": {
+      "id": "person/costantino-pandiani",
+      "uri": "urn:ahn:person/costantino-pandiani",
+      "type": "person",
+      "label_ja": "コスタンティーノ・パンディアーニ",
+      "label_en": "Costantino Pandiani",
+      "authority": {
+        "wikidata": null,
+        "ulan": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "独立した人物典拠IDと生没年は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": null,
+        "end": null,
+        "display": "19世紀末にミラノで活動"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-13",
+      "path": "entities/persons/costantino-pandiani.md"
+    },
     "person/cristoforo-buttafava": {
       "id": "person/cristoforo-buttafava",
       "uri": "urn:ahn:person/cristoforo-buttafava",
@@ -13015,6 +13079,38 @@
       "status": "draft",
       "updated": "2026-08-12",
       "path": "entities/persons/emilio-bianchi.md"
+    },
+    "person/emilio-bisi": {
+      "id": "person/emilio-bisi",
+      "uri": "urn:ahn:person/emilio-bisi",
+      "type": "person",
+      "label_ja": "エミリオ・ビージ",
+      "label_en": "Emilio Bisi",
+      "authority": {
+        "wikidata": null,
+        "ulan": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "独立した人物典拠IDと生没年は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": null,
+        "end": null,
+        "display": "19世紀末にミラノで活動"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-13",
+      "path": "entities/persons/emilio-bisi.md"
     },
     "person/emilio-borsa": {
       "id": "person/emilio-borsa",
@@ -15106,6 +15202,38 @@
       "status": "draft",
       "updated": "2026-08-13",
       "path": "entities/persons/gaetano-capone.md"
+    },
+    "person/gaetano-geraci": {
+      "id": "person/gaetano-geraci",
+      "uri": "urn:ahn:person/gaetano-geraci",
+      "type": "person",
+      "label_ja": "ガエターノ・ジェラーチ",
+      "label_en": "Gaetano Geraci",
+      "authority": {
+        "wikidata": null,
+        "ulan": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "独立した人物典拠IDと生没年は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": null,
+        "end": null,
+        "display": "19世紀末にパレルモ出身者として活動"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-13",
+      "path": "entities/persons/gaetano-geraci.md"
     },
     "person/gaetano-previati": {
       "id": "person/gaetano-previati",
@@ -19181,6 +19309,38 @@
       "updated": "2026-08-13",
       "path": "entities/persons/oreste-da-molin.md"
     },
+    "person/oreste-labo": {
+      "id": "person/oreste-labo",
+      "uri": "urn:ahn:person/oreste-labo",
+      "type": "person",
+      "label_ja": "オレステ・ラボ",
+      "label_en": "Oreste Labò",
+      "authority": {
+        "wikidata": null,
+        "ulan": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "独立した人物典拠IDと生没年は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": null,
+        "end": null,
+        "display": "19世紀末にピアチェンツァ出身者として活動"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-13",
+      "path": "entities/persons/oreste-labo.md"
+    },
     "person/osvaldo-bignami": {
       "id": "person/osvaldo-bignami",
       "uri": "urn:ahn:person/osvaldo-bignami",
@@ -19397,6 +19557,38 @@
       "status": "draft",
       "updated": "2026-08-12",
       "path": "entities/persons/pasquale-cappelli.md"
+    },
+    "person/pasquale-joli": {
+      "id": "person/pasquale-joli",
+      "uri": "urn:ahn:person/pasquale-joli",
+      "type": "person",
+      "label_ja": "パスクアーレ・ジョリ",
+      "label_en": "Pasquale Joli",
+      "authority": {
+        "wikidata": null,
+        "ulan": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "独立した人物典拠IDと生没年は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": null,
+        "end": null,
+        "display": "19世紀末にローディ出身者として活動"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-13",
+      "path": "entities/persons/pasquale-joli.md"
     },
     "person/paul-cezanne": {
       "id": "person/paul-cezanne",
@@ -20313,6 +20505,38 @@
       "updated": "2026-08-12",
       "path": "entities/persons/rinaldo-agazzi.md"
     },
+    "person/rizzardo-galli": {
+      "id": "person/rizzardo-galli",
+      "uri": "urn:ahn:person/rizzardo-galli",
+      "type": "person",
+      "label_ja": "リッツァルド・ガッリ",
+      "label_en": "Rizzardo Galli",
+      "authority": {
+        "wikidata": null,
+        "ulan": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "独立した人物典拠IDと生没年は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": null,
+        "end": null,
+        "display": "19世紀末にミラノで活動"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-13",
+      "path": "entities/persons/rizzardo-galli.md"
+    },
     "person/robert-coates": {
       "id": "person/robert-coates",
       "uri": "urn:ahn:person/robert-coates",
@@ -20717,6 +20941,38 @@
       "status": "draft",
       "updated": "2026-08-13",
       "path": "entities/persons/serafino-grassi.md"
+    },
+    "person/serafino-ramazzotti": {
+      "id": "person/serafino-ramazzotti",
+      "uri": "urn:ahn:person/serafino-ramazzotti",
+      "type": "person",
+      "label_ja": "セラフィーノ・ラマッツォッティ",
+      "label_en": "Serafino Ramazzotti",
+      "authority": {
+        "wikidata": null,
+        "ulan": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "独立した人物典拠IDと生没年は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": null,
+        "end": null,
+        "display": "19世紀末にソッツァーゴ出身者として活動"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-13",
+      "path": "entities/persons/serafino-ramazzotti.md"
     },
     "person/shakir-hassan-al-said": {
       "id": "person/shakir-hassan-al-said",
@@ -28803,6 +29059,42 @@
       "updated": "2026-08-12",
       "path": "entities/works/dromadaire-magrini-1907.md"
     },
+    "work/due-figure-riunite-bisi-1891": {
+      "id": "work/due-figure-riunite-bisi-1891",
+      "uri": "urn:ahn:work/due-figure-riunite-bisi-1891",
+      "type": "work",
+      "label_ja": "エミリオ・ビージ《Due figure riunite - modello in gesso a metà grandezza delle 9 figure per la Chiesa di S. Spiridione a Trieste》",
+      "label_en": "Due figure riunite - modello in gesso a metà grandezza delle 9 figure per la Chiesa di S. Spiridione a Trieste",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "作品の独立典拠IDと現所在は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年（1891年展カタログ501番）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/emilio-bisi"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-13",
+      "path": "entities/works/due-figure-riunite-bisi-1891.md"
+    },
     "work/due-ritratti-riuniti-grosso-1891": {
       "id": "work/due-ritratti-riuniti-grosso-1891",
       "uri": "urn:ahn:work/due-ritratti-riuniti-grosso-1891",
@@ -31293,6 +31585,42 @@
       "updated": "2026-08-12",
       "path": "entities/works/georgique-previati-1907.md"
     },
+    "work/gerbaix-de-sonaz-geraci-1891": {
+      "id": "work/gerbaix-de-sonaz-geraci-1891",
+      "uri": "urn:ahn:work/gerbaix-de-sonaz-geraci-1891",
+      "type": "work",
+      "label_ja": "ガエターノ・ジェラーチ《S. E. il Tenente Generale Gerbaix de Sonaz Comm. Giuseppe (Comandante il 4.° Corpo d’armata), di proprietà del signor Generale Gerbaix De Sonaz Comm. Giuseppe》",
+      "label_en": "S. E. il Tenente Generale Gerbaix de Sonaz Comm. Giuseppe (Comandante il 4.° Corpo d’armata), di proprietà del signor Generale Gerbaix De Sonaz Comm. Giuseppe",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "作品の独立典拠IDと現所在は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年（1891年展カタログ499番）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/gaetano-geraci"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-13",
+      "path": "entities/works/gerbaix-de-sonaz-geraci-1891.md"
+    },
     "work/giornata-di-vento-uboldi-1891": {
       "id": "work/giornata-di-vento-uboldi-1891",
       "uri": "urn:ahn:work/giornata-di-vento-uboldi-1891",
@@ -32717,6 +33045,42 @@
       "status": "draft",
       "updated": "2026-08-12",
       "path": "entities/works/il-principe-amedeo-bezzola-1891.md"
+    },
+    "work/il-pudore-joli-1891": {
+      "id": "work/il-pudore-joli-1891",
+      "uri": "urn:ahn:work/il-pudore-joli-1891",
+      "type": "work",
+      "label_ja": "パスクアーレ・ジョリ《Il Pudore !..》",
+      "label_en": "Il Pudore !..",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "作品の独立典拠IDと現所在は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年（1891年展カタログ495番）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/pasquale-joli"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-13",
+      "path": "entities/works/il-pudore-joli-1891.md"
     },
     "work/il-raccolto-del-fieno-saccardo-1891": {
       "id": "work/il-raccolto-del-fieno-saccardo-1891",
@@ -36315,6 +36679,42 @@
       "updated": "2026-08-12",
       "path": "entities/works/lago-dalserio-cressini-1891.md"
     },
+    "work/larcangelo-michele-bisi-1891": {
+      "id": "work/larcangelo-michele-bisi-1891",
+      "uri": "urn:ahn:work/larcangelo-michele-bisi-1891",
+      "type": "work",
+      "label_ja": "エミリオ・ビージ《L’Arcangelo Michele, figura in gesso - eseguita in marmo per la famiglia Covacevich nel cimitero Illirico a Trieste》",
+      "label_en": "L’Arcangelo Michele, figura in gesso - eseguita in marmo per la famiglia Covacevich nel cimitero Illirico a Trieste",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "作品の独立典拠IDと現所在は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年（1891年展カタログ500番）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/emilio-bisi"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-13",
+      "path": "entities/works/larcangelo-michele-bisi-1891.md"
+    },
     "work/le-calvaire-previati-1907": {
       "id": "work/le-calvaire-previati-1907",
       "uri": "urn:ahn:work/le-calvaire-previati-1907",
@@ -39391,6 +39791,42 @@
       "updated": "2026-08-13",
       "path": "entities/works/monumento-sepolcrale-quadrelli-1891.md"
     },
+    "work/morte-di-torquato-tasso-labo-1891": {
+      "id": "work/morte-di-torquato-tasso-labo-1891",
+      "uri": "urn:ahn:work/morte-di-torquato-tasso-labo-1891",
+      "type": "work",
+      "label_ja": "オレステ・ラボ《Morte di Torquato Tasso》",
+      "label_en": "Morte di Torquato Tasso",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "作品の独立典拠IDと現所在は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年（1891年展カタログ498番）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/oreste-labo"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-13",
+      "path": "entities/works/morte-di-torquato-tasso-labo-1891.md"
+    },
     "work/moufflon-des-alpes-magrini-1907": {
       "id": "work/moufflon-des-alpes-magrini-1907",
       "uri": "urn:ahn:work/moufflon-des-alpes-magrini-1907",
@@ -39945,6 +40381,42 @@
       "updated": "2026-08-13",
       "path": "entities/works/novembre-studio-ermenegildo-agazzi-1891.md"
     },
+    "work/ofelia-ramazzotti-1891": {
+      "id": "work/ofelia-ramazzotti-1891",
+      "uri": "urn:ahn:work/ofelia-ramazzotti-1891",
+      "type": "work",
+      "label_ja": "セラフィーノ・ラマッツォッティ《Ofelia》",
+      "label_en": "Ofelia",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "作品の独立典拠IDと現所在は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年（1891年展カタログ496番）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/serafino-ramazzotti"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-13",
+      "path": "entities/works/ofelia-ramazzotti-1891.md"
+    },
     "work/onda-armoniosa-unknown-1891": {
       "id": "work/onda-armoniosa-unknown-1891",
       "uri": "urn:ahn:work/onda-armoniosa-unknown-1891",
@@ -40440,6 +40912,42 @@
       "status": "draft",
       "updated": "2026-08-12",
       "path": "entities/works/paesaggio-studio-merello-1907.md"
+    },
+    "work/pamela-galli-1891": {
+      "id": "work/pamela-galli-1891",
+      "uri": "urn:ahn:work/pamela-galli-1891",
+      "type": "work",
+      "label_ja": "リッツァルド・ガッリ《Pamela》",
+      "label_en": "Pamela",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "作品の独立典拠IDと現所在は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年（1891年展カタログ503番）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/rizzardo-galli"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-13",
+      "path": "entities/works/pamela-galli-1891.md"
     },
     "work/paradiso-terrestre-ferri-1891": {
       "id": "work/paradiso-terrestre-ferri-1891",
@@ -43750,6 +44258,78 @@
       "status": "draft",
       "updated": "2026-08-12",
       "path": "entities/works/ritratto-del-defunto-cav-pietro-pedoni-pagliano-1891.md"
+    },
+    "work/ritratto-del-fu-alessandro-cimbordi-pandiani-1891": {
+      "id": "work/ritratto-del-fu-alessandro-cimbordi-pandiani-1891",
+      "uri": "urn:ahn:work/ritratto-del-fu-alessandro-cimbordi-pandiani-1891",
+      "type": "work",
+      "label_ja": "コスタンティーノ・パンディアーニ《Ritratto del fu Alessandro Cimbordi, di proprietà del signor Cimbordi Enrico》",
+      "label_en": "Ritratto del fu Alessandro Cimbordi, di proprietà del signor Cimbordi Enrico",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "作品の独立典拠IDと現所在は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年（1891年展カタログ494番）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/costantino-pandiani"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-13",
+      "path": "entities/works/ritratto-del-fu-alessandro-cimbordi-pandiani-1891.md"
+    },
+    "work/ritratto-del-fu-prof-giovanni-rizzi-bisi-1891": {
+      "id": "work/ritratto-del-fu-prof-giovanni-rizzi-bisi-1891",
+      "uri": "urn:ahn:work/ritratto-del-fu-prof-giovanni-rizzi-bisi-1891",
+      "type": "work",
+      "label_ja": "エミリオ・ビージ《Ritratto del fu Prof. Giovanni Rizzi》",
+      "label_en": "Ritratto del fu Prof. Giovanni Rizzi",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "作品の独立典拠IDと現所在は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年（1891年展カタログ502番）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/emilio-bisi"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-13",
+      "path": "entities/works/ritratto-del-fu-prof-giovanni-rizzi-bisi-1891.md"
     },
     "work/ritratto-della-signora-bonacossa-pagliano-1891": {
       "id": "work/ritratto-della-signora-bonacossa-pagliano-1891",
@@ -49095,6 +49675,42 @@
       "updated": "2026-08-12",
       "path": "entities/works/vinto-guidetti-1891.md"
     },
+    "work/visione-del-padre-morente-argenti-1891": {
+      "id": "work/visione-del-padre-morente-argenti-1891",
+      "uri": "urn:ahn:work/visione-del-padre-morente-argenti-1891",
+      "type": "work",
+      "label_ja": "アントニオ・アルジェンティ《Visione del padre morente》",
+      "label_en": "Visione del padre morente",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "作品の独立典拠IDと現所在は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年（1891年展カタログ497番）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/antonio-argenti"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-13",
+      "path": "entities/works/visione-del-padre-morente-argenti-1891.md"
+    },
     "work/vita-campestre-faccioli-1891": {
       "id": "work/vita-campestre-faccioli-1891",
       "uri": "urn:ahn:work/vita-campestre-faccioli-1891",
@@ -51411,6 +52027,13 @@
       "source": null
     },
     {
+      "from": "person/antonio-argenti",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "person/antonio-bezzola",
       "type": "exhibited_at",
       "to": "event/first-brera-triennale-1891",
@@ -51773,6 +52396,13 @@
       "source": null
     },
     {
+      "from": "person/costantino-pandiani",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "person/cristoforo-buttafava",
       "type": "exhibited_at",
       "to": "event/first-brera-triennale-1891",
@@ -51927,6 +52557,13 @@
     },
     {
       "from": "person/emilio-bianchi",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "person/emilio-bisi",
       "type": "exhibited_at",
       "to": "event/first-brera-triennale-1891",
       "certainty": null,
@@ -52347,6 +52984,13 @@
     },
     {
       "from": "person/gaetano-capone",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "person/gaetano-geraci",
       "type": "exhibited_at",
       "to": "event/first-brera-triennale-1891",
       "certainty": null,
@@ -53246,6 +53890,13 @@
       "source": null
     },
     {
+      "from": "person/oreste-labo",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "person/osvaldo-bignami",
       "type": "exhibited_at",
       "to": "event/first-brera-triennale-1891",
@@ -53268,6 +53919,13 @@
     },
     {
       "from": "person/pasquale-cappelli",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "person/pasquale-joli",
       "type": "exhibited_at",
       "to": "event/first-brera-triennale-1891",
       "certainty": null,
@@ -53447,6 +54105,13 @@
       "source": null
     },
     {
+      "from": "person/rizzardo-galli",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "person/roberto-fontana",
       "type": "exhibited_at",
       "to": "event/first-brera-triennale-1891",
@@ -53516,6 +54181,13 @@
     },
     {
       "from": "person/serafino-grassi",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "person/serafino-ramazzotti",
       "type": "exhibited_at",
       "to": "event/first-brera-triennale-1891",
       "certainty": null,
@@ -55454,6 +56126,20 @@
       "source": null
     },
     {
+      "from": "work/due-figure-riunite-bisi-1891",
+      "type": "created_by",
+      "to": "person/emilio-bisi",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/due-figure-riunite-bisi-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "work/due-ritratti-riuniti-grosso-1891",
       "type": "created_by",
       "to": "person/giacomo-grosso",
@@ -56406,6 +57092,20 @@
       "source": null
     },
     {
+      "from": "work/gerbaix-de-sonaz-geraci-1891",
+      "type": "created_by",
+      "to": "person/gaetano-geraci",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/gerbaix-de-sonaz-geraci-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "work/giornata-di-vento-uboldi-1891",
       "type": "created_by",
       "to": "person/carlo-uboldi",
@@ -56946,6 +57646,20 @@
     },
     {
       "from": "work/il-principe-amedeo-bezzola-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/il-pudore-joli-1891",
+      "type": "created_by",
+      "to": "person/pasquale-joli",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/il-pudore-joli-1891",
       "type": "exhibited_at",
       "to": "event/first-brera-triennale-1891",
       "certainty": null,
@@ -58338,6 +59052,20 @@
       "source": null
     },
     {
+      "from": "work/larcangelo-michele-bisi-1891",
+      "type": "created_by",
+      "to": "person/emilio-bisi",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/larcangelo-michele-bisi-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "work/le-calvaire-previati-1907",
       "type": "created_by",
       "to": "person/gaetano-previati",
@@ -59528,6 +60256,20 @@
       "source": null
     },
     {
+      "from": "work/morte-di-torquato-tasso-labo-1891",
+      "type": "created_by",
+      "to": "person/oreste-labo",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/morte-di-torquato-tasso-labo-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "work/moufflon-des-alpes-magrini-1907",
       "type": "created_by",
       "to": "person/adolphe-magrini",
@@ -59738,6 +60480,20 @@
       "source": null
     },
     {
+      "from": "work/ofelia-ramazzotti-1891",
+      "type": "created_by",
+      "to": "person/serafino-ramazzotti",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/ofelia-ramazzotti-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "work/onda-armoniosa-unknown-1891",
       "type": "created_by",
       "to": "person/francesco-pezzali",
@@ -59930,6 +60686,20 @@
       "from": "work/paesaggio-studio-merello-1907",
       "type": "exhibited_at",
       "to": "event/salon-divisionnistes-italiens-paris-1907",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/pamela-galli-1891",
+      "type": "created_by",
+      "to": "person/rizzardo-galli",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/pamela-galli-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
       "certainty": null,
       "source": null
     },
@@ -61195,6 +61965,34 @@
     },
     {
       "from": "work/ritratto-del-defunto-cav-pietro-pedoni-pagliano-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/ritratto-del-fu-alessandro-cimbordi-pandiani-1891",
+      "type": "created_by",
+      "to": "person/costantino-pandiani",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/ritratto-del-fu-alessandro-cimbordi-pandiani-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/ritratto-del-fu-prof-giovanni-rizzi-bisi-1891",
+      "type": "created_by",
+      "to": "person/emilio-bisi",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/ritratto-del-fu-prof-giovanni-rizzi-bisi-1891",
       "type": "exhibited_at",
       "to": "event/first-brera-triennale-1891",
       "certainty": null,
@@ -63259,6 +64057,20 @@
       "source": null
     },
     {
+      "from": "work/visione-del-padre-morente-argenti-1891",
+      "type": "created_by",
+      "to": "person/antonio-argenti",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/visione-del-padre-morente-argenti-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "work/vita-campestre-faccioli-1891",
       "type": "created_by",
       "to": "person/raffaele-faccioli",
@@ -64605,6 +65417,12 @@
     {
       "from": "event/first-brera-triennale-1891",
       "type": "exhibited",
+      "to": "person/antonio-argenti",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
       "to": "person/antonio-bezzola",
       "derived": true
     },
@@ -64911,6 +65729,12 @@
     {
       "from": "event/first-brera-triennale-1891",
       "type": "exhibited",
+      "to": "person/costantino-pandiani",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
       "to": "person/cristoforo-buttafava",
       "derived": true
     },
@@ -65026,6 +65850,12 @@
       "from": "event/first-brera-triennale-1891",
       "type": "exhibited",
       "to": "person/emilio-bianchi",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "person/emilio-bisi",
       "derived": true
     },
     {
@@ -65386,6 +66216,12 @@
       "from": "event/first-brera-triennale-1891",
       "type": "exhibited",
       "to": "person/gaetano-capone",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "person/gaetano-geraci",
       "derived": true
     },
     {
@@ -66105,6 +66941,12 @@
     {
       "from": "event/first-brera-triennale-1891",
       "type": "exhibited",
+      "to": "person/oreste-labo",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
       "to": "person/osvaldo-bignami",
       "derived": true
     },
@@ -66124,6 +66966,12 @@
       "from": "event/first-brera-triennale-1891",
       "type": "exhibited",
       "to": "person/pasquale-cappelli",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "person/pasquale-joli",
       "derived": true
     },
     {
@@ -66273,6 +67121,12 @@
     {
       "from": "event/first-brera-triennale-1891",
       "type": "exhibited",
+      "to": "person/rizzardo-galli",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
       "to": "person/roberto-fontana",
       "derived": true
     },
@@ -66328,6 +67182,12 @@
       "from": "event/first-brera-triennale-1891",
       "type": "exhibited",
       "to": "person/serafino-grassi",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "person/serafino-ramazzotti",
       "derived": true
     },
     {
@@ -67957,6 +68817,18 @@
       "derived": true
     },
     {
+      "from": "person/emilio-bisi",
+      "type": "created",
+      "to": "work/due-figure-riunite-bisi-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/due-figure-riunite-bisi-1891",
+      "derived": true
+    },
+    {
       "from": "person/giacomo-grosso",
       "type": "created",
       "to": "work/due-ritratti-riuniti-grosso-1891",
@@ -68773,6 +69645,18 @@
       "derived": true
     },
     {
+      "from": "person/gaetano-geraci",
+      "type": "created",
+      "to": "work/gerbaix-de-sonaz-geraci-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/gerbaix-de-sonaz-geraci-1891",
+      "derived": true
+    },
+    {
       "from": "person/carlo-uboldi",
       "type": "created",
       "to": "work/giornata-di-vento-uboldi-1891",
@@ -69238,6 +70122,18 @@
       "from": "event/first-brera-triennale-1891",
       "type": "exhibited",
       "to": "work/il-principe-amedeo-bezzola-1891",
+      "derived": true
+    },
+    {
+      "from": "person/pasquale-joli",
+      "type": "created",
+      "to": "work/il-pudore-joli-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/il-pudore-joli-1891",
       "derived": true
     },
     {
@@ -70429,6 +71325,18 @@
       "derived": true
     },
     {
+      "from": "person/emilio-bisi",
+      "type": "created",
+      "to": "work/larcangelo-michele-bisi-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/larcangelo-michele-bisi-1891",
+      "derived": true
+    },
+    {
       "from": "person/gaetano-previati",
       "type": "created",
       "to": "work/le-calvaire-previati-1907",
@@ -71449,6 +72357,18 @@
       "derived": true
     },
     {
+      "from": "person/oreste-labo",
+      "type": "created",
+      "to": "work/morte-di-torquato-tasso-labo-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/morte-di-torquato-tasso-labo-1891",
+      "derived": true
+    },
+    {
       "from": "person/adolphe-magrini",
       "type": "created",
       "to": "work/moufflon-des-alpes-magrini-1907",
@@ -71629,6 +72549,18 @@
       "derived": true
     },
     {
+      "from": "person/serafino-ramazzotti",
+      "type": "created",
+      "to": "work/ofelia-ramazzotti-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/ofelia-ramazzotti-1891",
+      "derived": true
+    },
+    {
       "from": "person/francesco-pezzali",
       "type": "created",
       "to": "work/onda-armoniosa-unknown-1891",
@@ -71794,6 +72726,18 @@
       "from": "event/salon-divisionnistes-italiens-paris-1907",
       "type": "exhibited",
       "to": "work/paesaggio-studio-merello-1907",
+      "derived": true
+    },
+    {
+      "from": "person/rizzardo-galli",
+      "type": "created",
+      "to": "work/pamela-galli-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/pamela-galli-1891",
       "derived": true
     },
     {
@@ -72880,6 +73824,30 @@
       "from": "event/first-brera-triennale-1891",
       "type": "exhibited",
       "to": "work/ritratto-del-defunto-cav-pietro-pedoni-pagliano-1891",
+      "derived": true
+    },
+    {
+      "from": "person/costantino-pandiani",
+      "type": "created",
+      "to": "work/ritratto-del-fu-alessandro-cimbordi-pandiani-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/ritratto-del-fu-alessandro-cimbordi-pandiani-1891",
+      "derived": true
+    },
+    {
+      "from": "person/emilio-bisi",
+      "type": "created",
+      "to": "work/ritratto-del-fu-prof-giovanni-rizzi-bisi-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/ritratto-del-fu-prof-giovanni-rizzi-bisi-1891",
       "derived": true
     },
     {
@@ -74644,6 +75612,18 @@
       "from": "event/first-brera-triennale-1891",
       "type": "exhibited",
       "to": "work/vinto-guidetti-1891",
+      "derived": true
+    },
+    {
+      "from": "person/antonio-argenti",
+      "type": "created",
+      "to": "work/visione-del-padre-morente-argenti-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/visione-del-padre-morente-argenti-1891",
       "derived": true
     },
     {
