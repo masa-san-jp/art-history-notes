@@ -27,6 +27,7 @@ claims:
 space:
   - {role: originated_in, target: place/kyoto}
   - {role: active_in, target: place/kyoto}
+  - {role: active_in, target: place/tokyo}
 relations:
   - {type: influenced_by, target: movement/song-academy-painting, certainty: scholarly, source: "https://www.kyohaku.go.jp/jp/assets/press/2027_kano_press_0608-02ver.pdf"}
 sources:
@@ -86,13 +87,15 @@ updated: 2026-08-08
 
 ## 空間
 
-発生地・活動地を京都とした。**これは通説（狩野正信の活動地）であり、一次資料・典拠IDでの裏は取れていない。**
-Wikidata が持つのは country（日本）までで、都市の情報がない。江戸期には江戸へ移り、
-奥絵師として幕府に仕えた系統が生まれる——**この移動（`diffused_to` / `patronized_by`）は未着手**。
+発生地を京都、活動地を京都と江戸（現在の東京）とした。京都は狩野正信の活動地という通説に基づき、
+一次資料・典拠IDでの都市レベルの裏付けは未確認である。江戸期には活動を江戸へ広げ、狩野探幽を筆頭とする
+一門が幕府御用絵師として活動した。京都国立博物館は、この系統を「江戸狩野」と呼び、幕末まで画壇の中心だったと説明する
+（[京都国立博物館「京都の狩野派―狩野永納・永敬」](https://www.kyohaku.go.jp/jp/exhibitions/collection/2026/02/?date=03)）。
+ここでは都市間の活動拡散を `active_in` で記録する。幕府による具体的な庇護関係の `patronized_by` は、幕府側の組織エンティティと個別の奥絵師職の典拠を確認してから追加する。
 
 ## 未着手
 
 - 担い手（狩野正信・元信・永徳・探幽）の person エンティティ
 - 作品（証拠）の work エンティティ
-- 幕府との関係（`patronized_by`）と、江戸への移動
+- 幕府との関係（`patronized_by`）の組織・職制レベルでの記録
 - 琳派・土佐派との関係（同時代の並行は時間×空間から生成されるので、エッジは張らない）

@@ -4785,6 +4785,10 @@
         {
           "role": "active_in",
           "target": "place/kyoto"
+        },
+        {
+          "role": "active_in",
+          "target": "place/tokyo"
         }
       ],
       "relations": [
@@ -56934,6 +56938,11 @@
       "from": "movement/kano-school",
       "type": "active_in",
       "to": "place/kyoto"
+    },
+    {
+      "from": "movement/kano-school",
+      "type": "active_in",
+      "to": "place/tokyo"
     },
     {
       "from": "movement/kowhaiwhai",
