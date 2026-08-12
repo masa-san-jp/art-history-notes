@@ -1,11 +1,11 @@
 ---
-id: person/bassano-danielli
-uri: urn:ahn:person/bassano-danielli
+id: person/eugenio-maccagnani
+uri: urn:ahn:person/eugenio-maccagnani
 type: person
-label_ja: バッサーノ・ダニエッリ
-label_en: Bassano Danielli
+label_ja: エウジェニオ・マッカニャーニ
+label_en: Eugenio Maccagnani
 aliases:
-  - Danielli Bassano
+  - Maccagnani Eugenio
 authority:
   wikidata: null
   ulan: null
@@ -15,7 +15,7 @@ authority:
 time:
   start: null
   end: null
-  display: "19世紀末にクレーマ出身者として活動"
+  display: "19世紀末にレッチェ出身者として活動"
 space: []
 relations:
   - {type: exhibited_at, target: event/first-brera-triennale-1891}
@@ -25,6 +25,6 @@ status: draft
 updated: 2026-08-13
 ---
 
-# バッサーノ・ダニエッリ / Bassano Danielli
+# エウジェニオ・マッカニャーニ / Eugenio Maccagnani
 
-1891年の第一回ブレラ三年展公式カタログに、クレーマ出身者として掲載される出品者。469番《Saluto al sol morente》、629番《Lotta per la vita》を出品した。本項は展覧会記録に限定する。
+1891年の第一回ブレラ三年展公式カタログに、レッチェ出身者として掲載される彫刻家。627番《La Pompeiana》を出品した。本項は展覧会記録に限定する。
