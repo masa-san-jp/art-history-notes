@@ -9270,6 +9270,45 @@
       "updated": "2026-08-12",
       "path": "entities/persons/achille-tominetti.md"
     },
+    "person/adriano-baracchini-caputi": {
+      "id": "person/adriano-baracchini-caputi",
+      "uri": "urn:ahn:person/adriano-baracchini-caputi",
+      "type": "person",
+      "label_ja": "アドリアーノ・バラッキーニ＝カプーティ",
+      "label_en": "Adriano Baracchini-Caputi",
+      "authority": {
+        "wikidata": "Q23581475",
+        "ulan": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": "1883",
+        "end": "1968",
+        "display": "1883年フィレンツェ生まれ — 1968年リヴォルノ没"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "belongs_to",
+          "target": "movement/italian-divisionism"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/salon-divisionnistes-italiens-paris-1907"
+        }
+      ],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q23581475",
+        "https://exhibitions.univie.ac.at/person/gnd/1186399171",
+        "https://dizionariodartesartori.it/artisti/baracchini-caputi-adriano",
+        "https://fondazionelivorno.it/wp-content/uploads/2020/05/Bilancio-2019.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/persons/adriano-baracchini-caputi.md"
+    },
     "person/ahn-hwi-joon": {
       "id": "person/ahn-hwi-joon",
       "uri": "urn:ahn:person/ahn-hwi-joon",
@@ -9524,6 +9563,45 @@
       "status": "draft",
       "updated": "2026-08-12",
       "path": "entities/persons/carlo-fornara.md"
+    },
+    "person/cesare-maggi": {
+      "id": "person/cesare-maggi",
+      "uri": "urn:ahn:person/cesare-maggi",
+      "type": "person",
+      "label_ja": "チェーザレ・マッジ",
+      "label_en": "Cesare Maggi",
+      "authority": {
+        "wikidata": "Q3665459",
+        "ulan": "500053429",
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": "1881-01-13",
+        "end": "1962",
+        "display": "1881年1月13日ローマ生まれ — 1961/1962年トリノ没（資料に差異）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "belongs_to",
+          "target": "movement/italian-divisionism"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/salon-divisionnistes-italiens-paris-1907"
+        }
+      ],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q3665459",
+        "https://exhibitions.univie.ac.at/person/ulan/500053429",
+        "https://www.treccani.it/enciclopedia/cesare-maggi/",
+        "https://collezionedarte.bancaditalia.it/en/web/guest/-/cesare-maggi"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/persons/cesare-maggi.md"
     },
     "person/david-alfaro-siqueiros": {
       "id": "person/david-alfaro-siqueiros",
@@ -9864,6 +9942,44 @@
       "updated": "2026-08-09",
       "path": "entities/persons/ferreira-gullar.md"
     },
+    "person/filiberto-minozzi": {
+      "id": "person/filiberto-minozzi",
+      "uri": "urn:ahn:person/filiberto-minozzi",
+      "type": "person",
+      "label_ja": "フィリベルト・ミノッツィ",
+      "label_en": "Filiberto Minozzi",
+      "authority": {
+        "wikidata": null,
+        "ulan": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "検証済みの独立典拠IDは未確認。Database of Modern Exhibitionsと専門資料を用いる"
+      },
+      "time": {
+        "start": "1877",
+        "end": "1936",
+        "display": "1877年ヴェローナ生まれ — 1936年ミラノ没"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "belongs_to",
+          "target": "movement/italian-divisionism"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/salon-divisionnistes-italiens-paris-1907"
+        }
+      ],
+      "sources": [
+        "https://exhibitions.univie.ac.at/person/ulan/500164204",
+        "https://ildivisionismo.it/filiberto-minozzi/",
+        "https://www.filibertominozzi.it/"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/persons/filiberto-minozzi.md"
+    },
     "person/filippo-tommaso-marinetti": {
       "id": "person/filippo-tommaso-marinetti",
       "uri": "urn:ahn:person/filippo-tommaso-marinetti",
@@ -10197,6 +10313,44 @@
       "status": "draft",
       "updated": "2026-08-12",
       "path": "entities/persons/giuseppe-pellizza-da-volpedo.md"
+    },
+    "person/guido-cinotti": {
+      "id": "person/guido-cinotti",
+      "uri": "urn:ahn:person/guido-cinotti",
+      "type": "person",
+      "label_ja": "グイド・チノッティ",
+      "label_en": "Guido Cinotti",
+      "authority": {
+        "wikidata": null,
+        "ulan": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "検証済みの独立典拠IDは未確認。Database of Modern Exhibitionsと美術館・専門資料を用いる"
+      },
+      "time": {
+        "start": "1870",
+        "end": "1932",
+        "display": "1870年シエナ生まれ — 1932年ミラノ没"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "belongs_to",
+          "target": "movement/italian-divisionism"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/salon-divisionnistes-italiens-paris-1907"
+        }
+      ],
+      "sources": [
+        "https://exhibitions.univie.ac.at/person/3325",
+        "https://galleriamichelangelo.it/en/artista/297/guido-cinotti/bio",
+        "https://www.lombardiabeniculturali.it/opere-arte/schede/MI120-00012/"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/persons/guido-cinotti.md"
     },
     "person/gyula-kosice": {
       "id": "person/gyula-kosice",
@@ -16608,6 +16762,20 @@
       "source": null
     },
     {
+      "from": "person/adriano-baracchini-caputi",
+      "type": "belongs_to",
+      "to": "movement/italian-divisionism",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "person/adriano-baracchini-caputi",
+      "type": "exhibited_at",
+      "to": "event/salon-divisionnistes-italiens-paris-1907",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "person/alexander-rodchenko",
       "type": "belongs_to",
       "to": "movement/constructivism",
@@ -16677,6 +16845,20 @@
       "source": null
     },
     {
+      "from": "person/cesare-maggi",
+      "type": "belongs_to",
+      "to": "movement/italian-divisionism",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "person/cesare-maggi",
+      "type": "exhibited_at",
+      "to": "event/salon-divisionnistes-italiens-paris-1907",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "person/david-alfaro-siqueiros",
       "type": "grouped_as",
       "to": "movement/mexican-muralism",
@@ -16733,6 +16915,20 @@
     },
     {
       "from": "person/ferdinando-ramponi",
+      "type": "exhibited_at",
+      "to": "event/salon-divisionnistes-italiens-paris-1907",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "person/filiberto-minozzi",
+      "type": "belongs_to",
+      "to": "movement/italian-divisionism",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "person/filiberto-minozzi",
       "type": "exhibited_at",
       "to": "event/salon-divisionnistes-italiens-paris-1907",
       "certainty": null,
@@ -16827,6 +17023,20 @@
       "from": "person/giuseppe-pellizza-da-volpedo",
       "type": "belongs_to",
       "to": "movement/italian-divisionism",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "person/guido-cinotti",
+      "type": "belongs_to",
+      "to": "movement/italian-divisionism",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "person/guido-cinotti",
+      "type": "exhibited_at",
+      "to": "event/salon-divisionnistes-italiens-paris-1907",
       "certainty": null,
       "source": null
     },
@@ -18287,6 +18497,18 @@
       "derived": true
     },
     {
+      "from": "movement/italian-divisionism",
+      "type": "has_member",
+      "to": "person/adriano-baracchini-caputi",
+      "derived": true
+    },
+    {
+      "from": "event/salon-divisionnistes-italiens-paris-1907",
+      "type": "exhibited",
+      "to": "person/adriano-baracchini-caputi",
+      "derived": true
+    },
+    {
       "from": "movement/constructivism",
       "type": "has_member",
       "to": "person/alexander-rodchenko",
@@ -18329,6 +18551,18 @@
       "derived": true
     },
     {
+      "from": "movement/italian-divisionism",
+      "type": "has_member",
+      "to": "person/cesare-maggi",
+      "derived": true
+    },
+    {
+      "from": "event/salon-divisionnistes-italiens-paris-1907",
+      "type": "exhibited",
+      "to": "person/cesare-maggi",
+      "derived": true
+    },
+    {
       "from": "movement/mexican-muralism",
       "type": "groups",
       "to": "person/david-alfaro-siqueiros",
@@ -18362,6 +18596,18 @@
       "from": "event/salon-divisionnistes-italiens-paris-1907",
       "type": "exhibited",
       "to": "person/ferdinando-ramponi",
+      "derived": true
+    },
+    {
+      "from": "movement/italian-divisionism",
+      "type": "has_member",
+      "to": "person/filiberto-minozzi",
+      "derived": true
+    },
+    {
+      "from": "event/salon-divisionnistes-italiens-paris-1907",
+      "type": "exhibited",
+      "to": "person/filiberto-minozzi",
       "derived": true
     },
     {
@@ -18428,6 +18674,18 @@
       "from": "movement/italian-divisionism",
       "type": "has_member",
       "to": "person/giuseppe-pellizza-da-volpedo",
+      "derived": true
+    },
+    {
+      "from": "movement/italian-divisionism",
+      "type": "has_member",
+      "to": "person/guido-cinotti",
+      "derived": true
+    },
+    {
+      "from": "event/salon-divisionnistes-italiens-paris-1907",
+      "type": "exhibited",
+      "to": "person/guido-cinotti",
       "derived": true
     },
     {
