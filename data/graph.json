@@ -12777,6 +12777,41 @@
       "updated": "2026-08-12",
       "path": "entities/persons/enrico-cassi.md"
     },
+    "person/enrico-crespi": {
+      "id": "person/enrico-crespi",
+      "uri": "urn:ahn:person/enrico-crespi",
+      "type": "person",
+      "label_ja": "エンリコ・クレスピ",
+      "label_en": "Enrico Crespi",
+      "aliases": [
+        "Crespi Enrico"
+      ],
+      "authority": {
+        "wikidata": null,
+        "ulan": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "独立した人物典拠IDと生没年は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": null,
+        "end": null,
+        "display": "19世紀末にブスト・アルシーツィオ出身者として活動"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-13",
+      "path": "entities/persons/enrico-crespi.md"
+    },
     "person/enrico-reycend": {
       "id": "person/enrico-reycend",
       "uri": "urn:ahn:person/enrico-reycend",
@@ -15495,6 +15530,41 @@
       "status": "draft",
       "updated": "2026-08-12",
       "path": "entities/persons/guglielmo-ciardi.md"
+    },
+    "person/guglielmo-de-sanctis": {
+      "id": "person/guglielmo-de-sanctis",
+      "uri": "urn:ahn:person/guglielmo-de-sanctis",
+      "type": "person",
+      "label_ja": "グリエルモ・デ・サンクティス",
+      "label_en": "Guglielmo De Sanctis",
+      "aliases": [
+        "De Sanctis Guglielmo"
+      ],
+      "authority": {
+        "wikidata": null,
+        "ulan": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "既存のジュゼッペ・デ・サンクティスとは別の出品者。独立した人物典拠IDと生没年は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": null,
+        "end": null,
+        "display": "19世紀末にローマで活動"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-13",
+      "path": "entities/persons/guglielmo-de-sanctis.md"
     },
     "person/guglielmo-guidetti": {
       "id": "person/guglielmo-guidetti",
@@ -24173,6 +24243,42 @@
       "updated": "2026-08-13",
       "path": "entities/works/come-un-sogno-marchesini-1891.md"
     },
+    "work/conca-aquilana-avanzi-1891": {
+      "id": "work/conca-aquilana-avanzi-1891",
+      "uri": "urn:ahn:work/conca-aquilana-avanzi-1891",
+      "type": "work",
+      "label_ja": "ヴィットリオ・アヴァンツィ《Conca Aquilana》",
+      "label_en": "Conca Aquilana",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "作品の独立典拠IDと現所在は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年（1891年展カタログ360番）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/vittorio-avanzi"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-13",
+      "path": "entities/works/conca-aquilana-avanzi-1891.md"
+    },
     "work/consolatrice-bottinelli-1891": {
       "id": "work/consolatrice-bottinelli-1891",
       "uri": "urn:ahn:work/consolatrice-bottinelli-1891",
@@ -24541,6 +24647,42 @@
       "status": "draft",
       "updated": "2026-08-12",
       "path": "entities/works/coucher-de-soleil-en-hiver-focardi-1907.md"
+    },
+    "work/crepuscolo-ricci-1891": {
+      "id": "work/crepuscolo-ricci-1891",
+      "uri": "urn:ahn:work/crepuscolo-ricci-1891",
+      "type": "work",
+      "label_ja": "グイド・リッチ《Crepuscolo》",
+      "label_en": "Crepuscolo",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "作品の独立典拠IDと現所在は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年（1891年展カタログ356番）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/guido-ricci"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-13",
+      "path": "entities/works/crepuscolo-ricci-1891.md"
     },
     "work/crepuscolo-rosa-1891": {
       "id": "work/crepuscolo-rosa-1891",
@@ -32578,6 +32720,42 @@
       "updated": "2026-08-12",
       "path": "entities/works/lido-bezzi-1891.md"
     },
+    "work/linterrogatorio-crespi-1891": {
+      "id": "work/linterrogatorio-crespi-1891",
+      "uri": "urn:ahn:work/linterrogatorio-crespi-1891",
+      "type": "work",
+      "label_ja": "エンリコ・クレスピ《L’interrogatorio》",
+      "label_en": "L’interrogatorio",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "作品の独立典拠IDと現所在は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年（1891年展カタログ353番）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/enrico-crespi"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-13",
+      "path": "entities/works/linterrogatorio-crespi-1891.md"
+    },
     "work/lion-a-l-affut-magrini-1907": {
       "id": "work/lion-a-l-affut-magrini-1907",
       "uri": "urn:ahn:work/lion-a-l-affut-magrini-1907",
@@ -36114,6 +36292,42 @@
       "updated": "2026-08-12",
       "path": "entities/works/piazza-caricamento-nomellini-1891.md"
     },
+    "work/piazza-mercato-aquila-avanzi-1891": {
+      "id": "work/piazza-mercato-aquila-avanzi-1891",
+      "uri": "urn:ahn:work/piazza-mercato-aquila-avanzi-1891",
+      "type": "work",
+      "label_ja": "ヴィットリオ・アヴァンツィ《Piazza del mercato in Aquila》",
+      "label_en": "Piazza del mercato in Aquila",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "作品の独立典拠IDと現所在は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年（1891年展カタログ359番）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/vittorio-avanzi"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-13",
+      "path": "entities/works/piazza-mercato-aquila-avanzi-1891.md"
+    },
     "work/piccola-pastora-quaranta-1891": {
       "id": "work/piccola-pastora-quaranta-1891",
       "uri": "urn:ahn:work/piccola-pastora-quaranta-1891",
@@ -36222,6 +36436,42 @@
       "status": "draft",
       "updated": "2026-08-12",
       "path": "entities/works/ponte-alla-carraia-gioli-1891.md"
+    },
+    "work/popolana-moretti-1891": {
+      "id": "work/popolana-moretti-1891",
+      "uri": "urn:ahn:work/popolana-moretti-1891",
+      "type": "work",
+      "label_ja": "ジャン・ジャコモ・モレッティ《Popolana》",
+      "label_en": "Popolana",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "作品の独立典拠IDと現所在は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年（1891年展カタログ357番）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/gian-giacomo-moretti"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-13",
+      "path": "entities/works/popolana-moretti-1891.md"
     },
     "work/povera-piccina-massarenti-1891": {
       "id": "work/povera-piccina-massarenti-1891",
@@ -37559,6 +37809,42 @@
       "updated": "2026-08-12",
       "path": "entities/works/ritratto-achini-1891.md"
     },
+    "work/ritratto-adele-castellani-de-sanctis-1891": {
+      "id": "work/ritratto-adele-castellani-de-sanctis-1891",
+      "uri": "urn:ahn:work/ritratto-adele-castellani-de-sanctis-1891",
+      "type": "work",
+      "label_ja": "グリエルモ・デ・サンクティス《Ritratto della Signora Adele Castellani》",
+      "label_en": "Ritratto della Signora Adele Castellani",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "作品の独立典拠IDと現所在は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年（1891年展カタログ362番）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/guglielmo-de-sanctis"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-13",
+      "path": "entities/works/ritratto-adele-castellani-de-sanctis-1891.md"
+    },
     "work/ritratto-astorri-1891": {
       "id": "work/ritratto-astorri-1891",
       "uri": "urn:ahn:work/ritratto-astorri-1891",
@@ -38693,6 +38979,78 @@
       "updated": "2026-08-12",
       "path": "entities/works/ritratto-rietti-1891-no312.md"
     },
+    "work/ritratto-ruggero-bonghi-de-sanctis-1891": {
+      "id": "work/ritratto-ruggero-bonghi-de-sanctis-1891",
+      "uri": "urn:ahn:work/ritratto-ruggero-bonghi-de-sanctis-1891",
+      "type": "work",
+      "label_ja": "グリエルモ・デ・サンクティス《Ritratto di Ruggero Bonghi》",
+      "label_en": "Ritratto di Ruggero Bonghi",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "作品の独立典拠IDと現所在は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年（1891年展カタログ354番）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/guglielmo-de-sanctis"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-13",
+      "path": "entities/works/ritratto-ruggero-bonghi-de-sanctis-1891.md"
+    },
+    "work/ritratto-senatore-maurogordato-de-sanctis-1891": {
+      "id": "work/ritratto-senatore-maurogordato-de-sanctis-1891",
+      "uri": "urn:ahn:work/ritratto-senatore-maurogordato-de-sanctis-1891",
+      "type": "work",
+      "label_ja": "グリエルモ・デ・サンクティス《Ritratto del Senatore Maurogordato》",
+      "label_en": "Ritratto del Senatore Maurogordato",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "作品の独立典拠IDと現所在は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年（1891年展カタログ355番）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/guglielmo-de-sanctis"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-13",
+      "path": "entities/works/ritratto-senatore-maurogordato-de-sanctis-1891.md"
+    },
     "work/ritratto-stolberg-wernigerode-schott-1891": {
       "id": "work/ritratto-stolberg-wernigerode-schott-1891",
       "uri": "urn:ahn:work/ritratto-stolberg-wernigerode-schott-1891",
@@ -38729,6 +39087,42 @@
       "status": "draft",
       "updated": "2026-08-12",
       "path": "entities/works/ritratto-stolberg-wernigerode-schott-1891.md"
+    },
+    "work/ritratto-uomo-agazzi-1891-no358": {
+      "id": "work/ritratto-uomo-agazzi-1891-no358",
+      "uri": "urn:ahn:work/ritratto-uomo-agazzi-1891-no358",
+      "type": "work",
+      "label_ja": "リナルド・アガッツィ《Ritratto d’uomo》",
+      "label_en": "Ritratto d’uomo",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "作品の独立典拠IDと現所在は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年（1891年展カタログ358番）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/rinaldo-agazzi"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-13",
+      "path": "entities/works/ritratto-uomo-agazzi-1891-no358.md"
     },
     "work/ritratto-uomo-agazzi-1891": {
       "id": "work/ritratto-uomo-agazzi-1891",
@@ -41519,6 +41913,42 @@
       "status": "draft",
       "updated": "2026-08-12",
       "path": "entities/works/una-riparazione-carcano-1890.md"
+    },
+    "work/una-via-al-cairo-moretti-1891": {
+      "id": "work/una-via-al-cairo-moretti-1891",
+      "uri": "urn:ahn:work/una-via-al-cairo-moretti-1891",
+      "type": "work",
+      "label_ja": "ジャン・ジャコモ・モレッティ《Una via al Cairo》",
+      "label_en": "Una via al Cairo",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "作品の独立典拠IDと現所在は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年（1891年展カタログ361番）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/gian-giacomo-moretti"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-13",
+      "path": "entities/works/una-via-al-cairo-moretti-1891.md"
     },
     "work/uva-sottocornola-1891": {
       "id": "work/uva-sottocornola-1891",
@@ -44767,6 +45197,13 @@
       "source": null
     },
     {
+      "from": "person/enrico-crespi",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "person/enrico-reycend",
       "type": "exhibited_at",
       "to": "event/first-brera-triennale-1891",
@@ -45388,6 +45825,13 @@
     },
     {
       "from": "person/guglielmo-ciardi",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "person/guglielmo-de-sanctis",
       "type": "exhibited_at",
       "to": "event/first-brera-triennale-1891",
       "certainty": null,
@@ -47007,6 +47451,20 @@
       "source": null
     },
     {
+      "from": "work/conca-aquilana-avanzi-1891",
+      "type": "created_by",
+      "to": "person/vittorio-avanzi",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/conca-aquilana-avanzi-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "work/consolatrice-bottinelli-1891",
       "type": "created_by",
       "to": "person/giuseppe-bottinelli",
@@ -47143,6 +47601,20 @@
       "from": "work/coucher-de-soleil-en-hiver-focardi-1907",
       "type": "exhibited_at",
       "to": "event/salon-divisionnistes-italiens-paris-1907",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/crepuscolo-ricci-1891",
+      "type": "created_by",
+      "to": "person/guido-ricci",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/crepuscolo-ricci-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
       "certainty": null,
       "source": null
     },
@@ -50234,6 +50706,20 @@
       "source": null
     },
     {
+      "from": "work/linterrogatorio-crespi-1891",
+      "type": "created_by",
+      "to": "person/enrico-crespi",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/linterrogatorio-crespi-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "work/lion-a-l-affut-magrini-1907",
       "type": "created_by",
       "to": "person/adolphe-magrini",
@@ -51585,6 +52071,20 @@
       "source": null
     },
     {
+      "from": "work/piazza-mercato-aquila-avanzi-1891",
+      "type": "created_by",
+      "to": "person/vittorio-avanzi",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/piazza-mercato-aquila-avanzi-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "work/piccola-pastora-quaranta-1891",
       "type": "created_by",
       "to": "person/giuseppe-quaranta",
@@ -51621,6 +52121,20 @@
     },
     {
       "from": "work/ponte-alla-carraia-gioli-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/popolana-moretti-1891",
+      "type": "created_by",
+      "to": "person/gian-giacomo-moretti",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/popolana-moretti-1891",
       "type": "exhibited_at",
       "to": "event/first-brera-triennale-1891",
       "certainty": null,
@@ -52138,6 +52652,20 @@
       "source": null
     },
     {
+      "from": "work/ritratto-adele-castellani-de-sanctis-1891",
+      "type": "created_by",
+      "to": "person/guglielmo-de-sanctis",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/ritratto-adele-castellani-de-sanctis-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "work/ritratto-astorri-1891",
       "type": "created_by",
       "to": "person/enrico-astorri",
@@ -52572,6 +53100,34 @@
       "source": null
     },
     {
+      "from": "work/ritratto-ruggero-bonghi-de-sanctis-1891",
+      "type": "created_by",
+      "to": "person/guglielmo-de-sanctis",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/ritratto-ruggero-bonghi-de-sanctis-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/ritratto-senatore-maurogordato-de-sanctis-1891",
+      "type": "created_by",
+      "to": "person/guglielmo-de-sanctis",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/ritratto-senatore-maurogordato-de-sanctis-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "work/ritratto-stolberg-wernigerode-schott-1891",
       "type": "created_by",
       "to": "person/walter-schott",
@@ -52580,6 +53136,20 @@
     },
     {
       "from": "work/ritratto-stolberg-wernigerode-schott-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/ritratto-uomo-agazzi-1891-no358",
+      "type": "created_by",
+      "to": "person/rinaldo-agazzi",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/ritratto-uomo-agazzi-1891-no358",
       "type": "exhibited_at",
       "to": "event/first-brera-triennale-1891",
       "certainty": null,
@@ -53651,6 +54221,20 @@
     },
     {
       "from": "work/una-riparazione-carcano-1890",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/una-via-al-cairo-moretti-1891",
+      "type": "created_by",
+      "to": "person/gian-giacomo-moretti",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/una-via-al-cairo-moretti-1891",
       "type": "exhibited_at",
       "to": "event/first-brera-triennale-1891",
       "certainty": null,
@@ -55568,6 +56152,12 @@
     {
       "from": "event/first-brera-triennale-1891",
       "type": "exhibited",
+      "to": "person/enrico-crespi",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
       "to": "person/enrico-reycend",
       "derived": true
     },
@@ -56079,6 +56669,12 @@
       "from": "event/first-brera-triennale-1891",
       "type": "exhibited",
       "to": "person/guglielmo-ciardi",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "person/guglielmo-de-sanctis",
       "derived": true
     },
     {
@@ -57396,6 +57992,18 @@
       "derived": true
     },
     {
+      "from": "person/vittorio-avanzi",
+      "type": "created",
+      "to": "work/conca-aquilana-avanzi-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/conca-aquilana-avanzi-1891",
+      "derived": true
+    },
+    {
       "from": "person/giuseppe-bottinelli",
       "type": "created",
       "to": "work/consolatrice-bottinelli-1891",
@@ -57513,6 +58121,18 @@
       "from": "event/salon-divisionnistes-italiens-paris-1907",
       "type": "exhibited",
       "to": "work/coucher-de-soleil-en-hiver-focardi-1907",
+      "derived": true
+    },
+    {
+      "from": "person/guido-ricci",
+      "type": "created",
+      "to": "work/crepuscolo-ricci-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/crepuscolo-ricci-1891",
       "derived": true
     },
     {
@@ -60162,6 +60782,18 @@
       "derived": true
     },
     {
+      "from": "person/enrico-crespi",
+      "type": "created",
+      "to": "work/linterrogatorio-crespi-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/linterrogatorio-crespi-1891",
+      "derived": true
+    },
+    {
       "from": "person/adolphe-magrini",
       "type": "created",
       "to": "work/lion-a-l-affut-magrini-1907",
@@ -61320,6 +61952,18 @@
       "derived": true
     },
     {
+      "from": "person/vittorio-avanzi",
+      "type": "created",
+      "to": "work/piazza-mercato-aquila-avanzi-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/piazza-mercato-aquila-avanzi-1891",
+      "derived": true
+    },
+    {
       "from": "person/giuseppe-quaranta",
       "type": "created",
       "to": "work/piccola-pastora-quaranta-1891",
@@ -61353,6 +61997,18 @@
       "from": "event/first-brera-triennale-1891",
       "type": "exhibited",
       "to": "work/ponte-alla-carraia-gioli-1891",
+      "derived": true
+    },
+    {
+      "from": "person/gian-giacomo-moretti",
+      "type": "created",
+      "to": "work/popolana-moretti-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/popolana-moretti-1891",
       "derived": true
     },
     {
@@ -61794,6 +62450,18 @@
       "derived": true
     },
     {
+      "from": "person/guglielmo-de-sanctis",
+      "type": "created",
+      "to": "work/ritratto-adele-castellani-de-sanctis-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/ritratto-adele-castellani-de-sanctis-1891",
+      "derived": true
+    },
+    {
       "from": "person/enrico-astorri",
       "type": "created",
       "to": "work/ritratto-astorri-1891",
@@ -62166,6 +62834,30 @@
       "derived": true
     },
     {
+      "from": "person/guglielmo-de-sanctis",
+      "type": "created",
+      "to": "work/ritratto-ruggero-bonghi-de-sanctis-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/ritratto-ruggero-bonghi-de-sanctis-1891",
+      "derived": true
+    },
+    {
+      "from": "person/guglielmo-de-sanctis",
+      "type": "created",
+      "to": "work/ritratto-senatore-maurogordato-de-sanctis-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/ritratto-senatore-maurogordato-de-sanctis-1891",
+      "derived": true
+    },
+    {
       "from": "person/walter-schott",
       "type": "created",
       "to": "work/ritratto-stolberg-wernigerode-schott-1891",
@@ -62175,6 +62867,18 @@
       "from": "event/first-brera-triennale-1891",
       "type": "exhibited",
       "to": "work/ritratto-stolberg-wernigerode-schott-1891",
+      "derived": true
+    },
+    {
+      "from": "person/rinaldo-agazzi",
+      "type": "created",
+      "to": "work/ritratto-uomo-agazzi-1891-no358",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/ritratto-uomo-agazzi-1891-no358",
       "derived": true
     },
     {
@@ -63093,6 +63797,18 @@
       "from": "event/first-brera-triennale-1891",
       "type": "exhibited",
       "to": "work/una-riparazione-carcano-1890",
+      "derived": true
+    },
+    {
+      "from": "person/gian-giacomo-moretti",
+      "type": "created",
+      "to": "work/una-via-al-cairo-moretti-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/una-via-al-cairo-moretti-1891",
       "derived": true
     },
     {
