@@ -1,11 +1,11 @@
 ---
-id: person/luigi-ferrazzi
-uri: urn:ahn:person/luigi-ferrazzi
+id: person/giuseppe-giobbio
+uri: urn:ahn:person/giuseppe-giobbio
 type: person
-label_ja: ルイジ・フェラッツィ
-label_en: Luigi Ferrazzi
+label_ja: ジュゼッペ・ジョッビオ
+label_en: Giuseppe Giobbio
 aliases:
-  - Ferrazzi Luigi
+  - Giobbio Giuseppe
 authority:
   wikidata: null
   ulan: null
@@ -15,7 +15,7 @@ authority:
 time:
   start: null
   end: null
-  display: "19世紀末にヴェネツィアで活動"
+  display: "19世紀末にロヴェッラスカ出身者として活動"
 space: []
 relations:
   - {type: exhibited_at, target: event/first-brera-triennale-1891}
@@ -25,6 +25,6 @@ status: draft
 updated: 2026-08-13
 ---
 
-# ルイジ・フェラッツィ / Luigi Ferrazzi
+# ジュゼッペ・ジョッビオ / Giuseppe Giobbio
 
-1891年の第一回ブレラ三年展公式カタログに、ヴェネツィア出身者として掲載される出品者。446番《Alla sveglia》、462番《Rialto, mercato erberia (mattino)》を出品した。本項は展覧会記録に限定する。
+1891年の第一回ブレラ三年展公式カタログに、コモ県ロヴェッラスカ出身者として掲載される出品者。454番《Beppina》を出品した。本項は展覧会記録に限定する。
