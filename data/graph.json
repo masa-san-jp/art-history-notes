@@ -10174,6 +10174,34 @@
       "updated": "2026-08-09",
       "path": "entities/persons/filippo-tommaso-marinetti.md"
     },
+    "person/francesco-filippini": {
+      "id": "person/francesco-filippini",
+      "uri": "urn:ahn:person/francesco-filippini",
+      "type": "person",
+      "label_ja": "フランチェスコ・フィリッピーニ",
+      "label_en": "Francesco Filippini",
+      "authority": {
+        "wikidata": null,
+        "ulan": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "独立した典拠IDは未確認。Treccaniとブレラ展ガイドを用いる"
+      },
+      "time": {
+        "start": "1853-09-18",
+        "end": "1895-03-06",
+        "display": "1853年9月18日ブレシア生まれ — 1895年3月6日ミラノ没"
+      },
+      "space": [],
+      "relations": [],
+      "sources": [
+        "https://www.treccani.it/enciclopedia/francesco-filippini_%28Dizionario-Biografico%29/",
+        "https://galleriemaspes.com/immagini_sito/Cataloghi%20pdf/Brera_Guide.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/persons/francesco-filippini.md"
+    },
     "person/gaetano-previati": {
       "id": "person/gaetano-previati",
       "uri": "urn:ahn:person/gaetano-previati",
@@ -17035,6 +17063,46 @@
       "updated": "2026-08-12",
       "path": "entities/works/hutte-alpestre-tominetti-1907.md"
     },
+    "work/il-maglio-filippini-1891": {
+      "id": "work/il-maglio-filippini-1891",
+      "uri": "urn:ahn:work/il-maglio-filippini-1891",
+      "type": "work",
+      "label_ja": "フランチェスコ・フィリッピーニ《Il Maglio》",
+      "label_en": "Il Maglio",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "作品の独立典拠IDは未確認。ブレラの作品記録、文化財カタログ、1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": "1889",
+        "end": "1889",
+        "display": "1889年（1891年展カタログ559番）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/francesco-filippini"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://galleriemaspes.com/immagini_sito/Cataloghi%20pdf/Brera_Guide.pdf",
+        "https://pinacotecabrera.org/wp-content/uploads/2024/11/02-CAPITOLATO.pdf",
+        "https://catalogo.beniculturali.it/Agent/021d71835b4a85e745aae87ee79e1b81",
+        "https://www.treccani.it/enciclopedia/francesco-filippini_%28Dizionario-Biografico%29/",
+        "https://upload.wikimedia.org/wikipedia/commons/2/24/Prima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/works/il-maglio-filippini-1891.md"
+    },
     "work/il-trono-della-bella-mantesca-conconi-1891": {
       "id": "work/il-trono-della-bella-mantesca-conconi-1891",
       "uri": "urn:ahn:work/il-trono-della-bella-mantesca-conconi-1891",
@@ -17783,6 +17851,45 @@
       "status": "draft",
       "updated": "2026-08-12",
       "path": "entities/works/la-priere-previati-1907.md"
+    },
+    "work/la-strigliatura-della-canapa-filippini-1891": {
+      "id": "work/la-strigliatura-della-canapa-filippini-1891",
+      "uri": "urn:ahn:work/la-strigliatura-della-canapa-filippini-1891",
+      "type": "work",
+      "label_ja": "フランチェスコ・フィリッピーニ《La strigliatura della canapa》",
+      "label_en": "La strigliatura della canapa",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "作品の独立典拠IDは未確認。文化財カタログ、ブレラ展ガイド、1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": "1889",
+        "end": "1890",
+        "display": "1889〜1890年頃（1891年展カタログ560番）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/francesco-filippini"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://catalogo.beniculturali.it/detail/HistoricOrArtisticProperty/0300180551",
+        "https://galleriemaspes.com/immagini_sito/Cataloghi%20pdf/Brera_Guide.pdf",
+        "https://www.treccani.it/enciclopedia/francesco-filippini_%28Dizionario-Biografico%29/",
+        "https://upload.wikimedia.org/wikipedia/commons/2/24/Prima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/works/la-strigliatura-della-canapa-filippini-1891.md"
     },
     "work/la-vallee-de-malenco-mario-segantini-1907": {
       "id": "work/la-vallee-de-malenco-mario-segantini-1907",
@@ -22580,6 +22687,44 @@
       "updated": "2026-08-12",
       "path": "entities/works/vers-l-etable-magrini-1907.md"
     },
+    "work/vespro-nevicata-filippini-1891": {
+      "id": "work/vespro-nevicata-filippini-1891",
+      "uri": "urn:ahn:work/vespro-nevicata-filippini-1891",
+      "type": "work",
+      "label_ja": "フランチェスコ・フィリッピーニ《Vespro (Nevicata)》",
+      "label_en": "Vespro (Nevicata)",
+      "authority": {
+        "wikidata": "Q96192056",
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年（1891年展カタログ323番）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/francesco-filippini"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://galleriemaspes.com/immagini_sito/Cataloghi%20pdf/Brera_Guide.pdf",
+        "https://www.wikidata.org/wiki/Q96192056",
+        "https://upload.wikimedia.org/wikipedia/commons/2/24/Prima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/works/vespro-nevicata-filippini-1891.md"
+    },
     "work/via-crucis-previati-1907": {
       "id": "work/via-crucis-previati-1907",
       "uri": "urn:ahn:work/via-crucis-previati-1907",
@@ -26049,6 +26194,20 @@
       "source": null
     },
     {
+      "from": "work/il-maglio-filippini-1891",
+      "type": "created_by",
+      "to": "person/francesco-filippini",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/il-maglio-filippini-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "work/il-trono-della-bella-mantesca-conconi-1891",
       "type": "created_by",
       "to": "person/luigi-conconi",
@@ -26339,6 +26498,20 @@
       "from": "work/la-priere-previati-1907",
       "type": "exhibited_at",
       "to": "event/salon-divisionnistes-italiens-paris-1907",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/la-strigliatura-della-canapa-filippini-1891",
+      "type": "created_by",
+      "to": "person/francesco-filippini",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/la-strigliatura-della-canapa-filippini-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
       "certainty": null,
       "source": null
     },
@@ -28187,6 +28360,20 @@
       "from": "work/vers-l-etable-magrini-1907",
       "type": "exhibited_at",
       "to": "event/salon-divisionnistes-italiens-paris-1907",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/vespro-nevicata-filippini-1891",
+      "type": "created_by",
+      "to": "person/francesco-filippini",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/vespro-nevicata-filippini-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
       "certainty": null,
       "source": null
     },
@@ -30435,6 +30622,18 @@
       "derived": true
     },
     {
+      "from": "person/francesco-filippini",
+      "type": "created",
+      "to": "work/il-maglio-filippini-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/il-maglio-filippini-1891",
+      "derived": true
+    },
+    {
       "from": "person/luigi-conconi",
       "type": "created",
       "to": "work/il-trono-della-bella-mantesca-conconi-1891",
@@ -30684,6 +30883,18 @@
       "from": "event/salon-divisionnistes-italiens-paris-1907",
       "type": "exhibited",
       "to": "work/la-priere-previati-1907",
+      "derived": true
+    },
+    {
+      "from": "person/francesco-filippini",
+      "type": "created",
+      "to": "work/la-strigliatura-della-canapa-filippini-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/la-strigliatura-della-canapa-filippini-1891",
       "derived": true
     },
     {
@@ -32268,6 +32479,18 @@
       "from": "event/salon-divisionnistes-italiens-paris-1907",
       "type": "exhibited",
       "to": "work/vers-l-etable-magrini-1907",
+      "derived": true
+    },
+    {
+      "from": "person/francesco-filippini",
+      "type": "created",
+      "to": "work/vespro-nevicata-filippini-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/vespro-nevicata-filippini-1891",
       "derived": true
     },
     {
