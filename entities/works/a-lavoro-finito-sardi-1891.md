@@ -5,7 +5,7 @@ type: work
 label_ja: チェジーラ・サルディ《A lavoro finito》
 label_en: A lavoro finito
 authority: {wikidata: null, aat: null, ndl: null, jpsearch: null, none_reason: "1891年展出品作の独立典拠IDと現所在は未確認。人物記録と公式カタログを用いる"}
-time: {start: "1891", end: "1891", display: "1891年展出品"}
+time: {start: "1891", end: "1891", display: "1891年（1891年展カタログ200番）"}
 space: []
 relations:
   - {type: created_by, target: person/cesira-sardi}

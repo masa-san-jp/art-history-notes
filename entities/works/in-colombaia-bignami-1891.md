@@ -5,7 +5,7 @@ type: work
 label_ja: オズヴァルド・ビニャーミ《In Colombaia》
 label_en: In Colombaia
 authority: {wikidata: null, aat: null, ndl: null, jpsearch: null, none_reason: "1891年展出品作の独立典拠IDと現所在は未確認。人物記録と公式カタログを用いる"}
-time: {start: "1891", end: "1891", display: "1891年展出品"}
+time: {start: "1891", end: "1891", display: "1891年（1891年展カタログ193番）"}
 space: []
 relations:
   - {type: created_by, target: person/osvaldo-bignami}
