@@ -14455,6 +14455,44 @@
       "updated": "2026-08-08",
       "path": "entities/sources/seurat-letter-beaubourg-1890.md"
     },
+    "work/a-l-ombre-focardi-1907": {
+      "id": "work/a-l-ombre-focardi-1907",
+      "uri": "urn:ahn:work/a-l-ombre-focardi-1907",
+      "type": "work",
+      "label_ja": "ピエロ・フォカルディ《A l'ombre / All'ombra》",
+      "label_en": "A l'ombre / All'ombra",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "独立作品典拠IDは未確認。1907年展カタログと専門資料を用いる"
+      },
+      "time": {
+        "start": "1907",
+        "end": "1907",
+        "display": "1907年パリ展出品（制作年未確認）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/piero-focardi"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/salon-divisionnistes-italiens-paris-1907"
+        }
+      ],
+      "sources": [
+        "https://exhibitions.univie.ac.at/exhibition/125",
+        "https://www.valutazionearte.it/artisti/piero-focardi/",
+        "https://www.enricogallerie.com/index.php?q=print_artist%2F300"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/works/a-l-ombre-focardi-1907.md"
+    },
     "work/a-sunday-on-la-grande-jatte": {
       "id": "work/a-sunday-on-la-grande-jatte",
       "uri": "urn:ahn:work/a-sunday-on-la-grande-jatte",
@@ -14713,6 +14751,44 @@
       "status": "draft",
       "updated": "2026-08-12",
       "path": "entities/works/coucher-de-soleil-en-ete-focardi-1907.md"
+    },
+    "work/coucher-de-soleil-en-hiver-focardi-1907": {
+      "id": "work/coucher-de-soleil-en-hiver-focardi-1907",
+      "uri": "urn:ahn:work/coucher-de-soleil-en-hiver-focardi-1907",
+      "type": "work",
+      "label_ja": "ピエロ・フォカルディ《Coucher de Soleil en hiver / Tramonto d'inverno》",
+      "label_en": "Coucher de Soleil en hiver / Tramonto d'inverno",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "独立作品典拠IDは未確認。1907年展カタログと専門資料を用いる"
+      },
+      "time": {
+        "start": "1907",
+        "end": "1907",
+        "display": "1907年パリ展出品（制作年未確認）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/piero-focardi"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/salon-divisionnistes-italiens-paris-1907"
+        }
+      ],
+      "sources": [
+        "https://exhibitions.univie.ac.at/exhibition/125",
+        "https://www.valutazionearte.it/artisti/piero-focardi/",
+        "https://www.enricogallerie.com/index.php?q=print_artist%2F300"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/works/coucher-de-soleil-en-hiver-focardi-1907.md"
     },
     "work/effet-de-neige-cinotti-1907": {
       "id": "work/effet-de-neige-cinotti-1907",
@@ -15417,6 +15493,44 @@
       "status": "draft",
       "updated": "2026-08-12",
       "path": "entities/works/premiers-rayons-tominetti-1907.md"
+    },
+    "work/printemps-focardi-1907": {
+      "id": "work/printemps-focardi-1907",
+      "uri": "urn:ahn:work/printemps-focardi-1907",
+      "type": "work",
+      "label_ja": "ピエロ・フォカルディ《Printemps / Primavera》",
+      "label_en": "Printemps / Primavera",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "独立作品典拠IDは未確認。1907年展カタログと専門資料を用いる"
+      },
+      "time": {
+        "start": "1907",
+        "end": "1907",
+        "display": "1907年パリ展出品（制作年未確認）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/piero-focardi"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/salon-divisionnistes-italiens-paris-1907"
+        }
+      ],
+      "sources": [
+        "https://exhibitions.univie.ac.at/exhibition/125",
+        "https://www.valutazionearte.it/artisti/piero-focardi/",
+        "https://www.enricogallerie.com/index.php?q=print_artist%2F300"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/works/printemps-focardi-1907.md"
     },
     "work/proun-19d": {
       "id": "work/proun-19d",
@@ -17999,6 +18113,20 @@
       "source": null
     },
     {
+      "from": "work/a-l-ombre-focardi-1907",
+      "type": "created_by",
+      "to": "person/piero-focardi",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/a-l-ombre-focardi-1907",
+      "type": "exhibited_at",
+      "to": "event/salon-divisionnistes-italiens-paris-1907",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "work/a-sunday-on-la-grande-jatte",
       "type": "created_by",
       "to": "person/georges-seurat",
@@ -18118,6 +18246,20 @@
     },
     {
       "from": "work/coucher-de-soleil-en-ete-focardi-1907",
+      "type": "exhibited_at",
+      "to": "event/salon-divisionnistes-italiens-paris-1907",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/coucher-de-soleil-en-hiver-focardi-1907",
+      "type": "created_by",
+      "to": "person/piero-focardi",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/coucher-de-soleil-en-hiver-focardi-1907",
       "type": "exhibited_at",
       "to": "event/salon-divisionnistes-italiens-paris-1907",
       "certainty": null,
@@ -18405,6 +18547,20 @@
     },
     {
       "from": "work/premiers-rayons-tominetti-1907",
+      "type": "exhibited_at",
+      "to": "event/salon-divisionnistes-italiens-paris-1907",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/printemps-focardi-1907",
+      "type": "created_by",
+      "to": "person/piero-focardi",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/printemps-focardi-1907",
       "type": "exhibited_at",
       "to": "event/salon-divisionnistes-italiens-paris-1907",
       "certainty": null,
@@ -19842,6 +19998,18 @@
       "derived": true
     },
     {
+      "from": "person/piero-focardi",
+      "type": "created",
+      "to": "work/a-l-ombre-focardi-1907",
+      "derived": true
+    },
+    {
+      "from": "event/salon-divisionnistes-italiens-paris-1907",
+      "type": "exhibited",
+      "to": "work/a-l-ombre-focardi-1907",
+      "derived": true
+    },
+    {
       "from": "person/georges-seurat",
       "type": "created",
       "to": "work/a-sunday-on-la-grande-jatte",
@@ -19929,6 +20097,18 @@
       "from": "event/salon-divisionnistes-italiens-paris-1907",
       "type": "exhibited",
       "to": "work/coucher-de-soleil-en-ete-focardi-1907",
+      "derived": true
+    },
+    {
+      "from": "person/piero-focardi",
+      "type": "created",
+      "to": "work/coucher-de-soleil-en-hiver-focardi-1907",
+      "derived": true
+    },
+    {
+      "from": "event/salon-divisionnistes-italiens-paris-1907",
+      "type": "exhibited",
+      "to": "work/coucher-de-soleil-en-hiver-focardi-1907",
       "derived": true
     },
     {
@@ -20175,6 +20355,18 @@
       "from": "event/salon-divisionnistes-italiens-paris-1907",
       "type": "exhibited",
       "to": "work/premiers-rayons-tominetti-1907",
+      "derived": true
+    },
+    {
+      "from": "person/piero-focardi",
+      "type": "created",
+      "to": "work/printemps-focardi-1907",
+      "derived": true
+    },
+    {
+      "from": "event/salon-divisionnistes-italiens-paris-1907",
+      "type": "exhibited",
+      "to": "work/printemps-focardi-1907",
       "derived": true
     },
     {
