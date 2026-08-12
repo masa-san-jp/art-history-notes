@@ -12641,6 +12641,41 @@
       "updated": "2026-08-12",
       "path": "entities/persons/emilio-marsili.md"
     },
+    "person/emilio-quadrelli": {
+      "id": "person/emilio-quadrelli",
+      "uri": "urn:ahn:person/emilio-quadrelli",
+      "type": "person",
+      "label_ja": "エミリオ・クアドレッリ",
+      "label_en": "Emilio Quadrelli",
+      "aliases": [
+        "Quadrelli Emilio"
+      ],
+      "authority": {
+        "wikidata": null,
+        "ulan": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "独立した人物典拠IDと生没年は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": null,
+        "end": null,
+        "display": "19世紀末にミラノで活動"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-13",
+      "path": "entities/persons/emilio-quadrelli.md"
+    },
     "person/empedocle-ximenes": {
       "id": "person/empedocle-ximenes",
       "uri": "urn:ahn:person/empedocle-ximenes",
@@ -13239,6 +13274,41 @@
       "status": "draft",
       "updated": "2026-08-12",
       "path": "entities/persons/eugenio-bellosio.md"
+    },
+    "person/eugenio-buono": {
+      "id": "person/eugenio-buono",
+      "uri": "urn:ahn:person/eugenio-buono",
+      "type": "person",
+      "label_ja": "エウジェニオ・ブオーノ",
+      "label_en": "Eugenio Buono",
+      "aliases": [
+        "Buono Eugenio"
+      ],
+      "authority": {
+        "wikidata": null,
+        "ulan": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "独立した人物典拠IDと生没年は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": null,
+        "end": null,
+        "display": "19世紀末にナポリで活動"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-13",
+      "path": "entities/persons/eugenio-buono.md"
     },
     "person/eugenio-cecconi": {
       "id": "person/eugenio-cecconi",
@@ -14038,6 +14108,42 @@
       "status": "draft",
       "updated": "2026-08-12",
       "path": "entities/persons/francesco-tabacchi.md"
+    },
+    "person/gaetano-capone": {
+      "id": "person/gaetano-capone",
+      "uri": "urn:ahn:person/gaetano-capone",
+      "type": "person",
+      "label_ja": "ガエターノ・カポーネ",
+      "label_en": "Gaetano Capone",
+      "aliases": [
+        "Capone Cav. Gaetano",
+        "Capone Gaetano"
+      ],
+      "authority": {
+        "wikidata": null,
+        "ulan": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "独立した人物典拠IDと生没年は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": null,
+        "end": null,
+        "display": "19世紀末にマイオーリで活動"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-13",
+      "path": "entities/persons/gaetano-capone.md"
     },
     "person/gaetano-previati": {
       "id": "person/gaetano-previati",
@@ -16584,6 +16690,41 @@
       "updated": "2026-08-12",
       "path": "entities/persons/luigi-beltrami.md"
     },
+    "person/luigi-bianchi": {
+      "id": "person/luigi-bianchi",
+      "uri": "urn:ahn:person/luigi-bianchi",
+      "type": "person",
+      "label_ja": "ルイジ・ビアンキ",
+      "label_en": "Luigi Bianchi",
+      "aliases": [
+        "Bianchi Luigi"
+      ],
+      "authority": {
+        "wikidata": null,
+        "ulan": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "独立した人物典拠IDと生没年は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": null,
+        "end": null,
+        "display": "19世紀末にミラノで活動"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-13",
+      "path": "entities/persons/luigi-bianchi.md"
+    },
     "person/luigi-buzzi-leone": {
       "id": "person/luigi-buzzi-leone",
       "uri": "urn:ahn:person/luigi-buzzi-leone",
@@ -18086,6 +18227,41 @@
       "updated": "2026-08-12",
       "path": "entities/persons/raffaele-pontremoli.md"
     },
+    "person/raffaele-tafuri": {
+      "id": "person/raffaele-tafuri",
+      "uri": "urn:ahn:person/raffaele-tafuri",
+      "type": "person",
+      "label_ja": "ラッファエレ・タフーリ",
+      "label_en": "Raffaele Tafuri",
+      "aliases": [
+        "Tafuri Raffaele"
+      ],
+      "authority": {
+        "wikidata": null,
+        "ulan": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "独立した人物典拠IDと生没年は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": null,
+        "end": null,
+        "display": "19世紀末にサレルノ出身者として活動"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-13",
+      "path": "entities/persons/raffaele-tafuri.md"
+    },
     "person/raineri-arcaini": {
       "id": "person/raineri-arcaini",
       "uri": "urn:ahn:person/raineri-arcaini",
@@ -19016,6 +19192,41 @@
       "updated": "2026-08-09",
       "path": "entities/persons/vincent-van-gogh.md"
     },
+    "person/vincenzo-caprile": {
+      "id": "person/vincenzo-caprile",
+      "uri": "urn:ahn:person/vincenzo-caprile",
+      "type": "person",
+      "label_ja": "ヴィンチェンツォ・カプリーレ",
+      "label_en": "Vincenzo Caprile",
+      "aliases": [
+        "Caprile Vincenzo"
+      ],
+      "authority": {
+        "wikidata": null,
+        "ulan": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "独立した人物典拠IDと生没年は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": null,
+        "end": null,
+        "display": "19世紀末にナポリで活動"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-13",
+      "path": "entities/persons/vincenzo-caprile.md"
+    },
     "person/vincenzo-de-stefani": {
       "id": "person/vincenzo-de-stefani",
       "uri": "urn:ahn:person/vincenzo-de-stefani",
@@ -19116,6 +19327,41 @@
       "status": "draft",
       "updated": "2026-08-12",
       "path": "entities/persons/vincenzo-rossano.md"
+    },
+    "person/vincenzo-volpe": {
+      "id": "person/vincenzo-volpe",
+      "uri": "urn:ahn:person/vincenzo-volpe",
+      "type": "person",
+      "label_ja": "ヴィンチェンツォ・ヴォルペ",
+      "label_en": "Vincenzo Volpe",
+      "aliases": [
+        "Volpe Vincenzo"
+      ],
+      "authority": {
+        "wikidata": null,
+        "ulan": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "独立した人物典拠IDと生没年は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": null,
+        "end": null,
+        "display": "19世紀末にグロッタミナルダ出身者として活動"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-13",
+      "path": "entities/persons/vincenzo-volpe.md"
     },
     "person/virgilio-ripari": {
       "id": "person/virgilio-ripari",
@@ -23978,6 +24224,42 @@
       "updated": "2026-08-12",
       "path": "entities/works/carica-militare-de-albertis-1891.md"
     },
+    "work/case-bianche-capri-buono-1891": {
+      "id": "work/case-bianche-capri-buono-1891",
+      "uri": "urn:ahn:work/case-bianche-capri-buono-1891",
+      "type": "work",
+      "label_ja": "エウジェニオ・ブオーノ《Case bianche (Capri)》",
+      "label_en": "Case bianche (Capri)",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "作品の独立典拠IDと現所在は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年（1891年展カタログ379番）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/eugenio-buono"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-13",
+      "path": "entities/works/case-bianche-capri-buono-1891.md"
+    },
     "work/cavalier-ancien-magrini-1907": {
       "id": "work/cavalier-ancien-magrini-1907",
       "uri": "urn:ahn:work/cavalier-ancien-magrini-1907",
@@ -28751,6 +29033,42 @@
       "updated": "2026-08-12",
       "path": "entities/works/il-mattino-giuliano-1891.md"
     },
+    "work/il-medico-in-condotta-bianchi-1891": {
+      "id": "work/il-medico-in-condotta-bianchi-1891",
+      "uri": "urn:ahn:work/il-medico-in-condotta-bianchi-1891",
+      "type": "work",
+      "label_ja": "ルイジ・ビアンキ《Il medico in condotta》",
+      "label_en": "Il medico in condotta",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "作品の独立典拠IDと現所在は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年（1891年展カタログ373番）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/luigi-bianchi"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-13",
+      "path": "entities/works/il-medico-in-condotta-bianchi-1891.md"
+    },
     "work/il-miccino-spaurito-monzini-1891": {
       "id": "work/il-miccino-spaurito-monzini-1891",
       "uri": "urn:ahn:work/il-miccino-spaurito-monzini-1891",
@@ -29260,6 +29578,42 @@
       "status": "draft",
       "updated": "2026-08-12",
       "path": "entities/works/il-trovatello-peverada-1891.md"
+    },
+    "work/il-venditore-statuette-capone-1891": {
+      "id": "work/il-venditore-statuette-capone-1891",
+      "uri": "urn:ahn:work/il-venditore-statuette-capone-1891",
+      "type": "work",
+      "label_ja": "ガエターノ・カポーネ《Il venditore di statuette》",
+      "label_en": "Il venditore di statuette",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "作品の独立典拠IDと現所在は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年（1891年展カタログ378番）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/gaetano-capone"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-13",
+      "path": "entities/works/il-venditore-statuette-capone-1891.md"
     },
     "work/impression-d-automne-fornara-1907": {
       "id": "work/impression-d-automne-fornara-1907",
@@ -33549,6 +33903,42 @@
       "updated": "2026-08-12",
       "path": "entities/works/marea-montante-steffani-1891.md"
     },
+    "work/marina-capri-caprile-1891": {
+      "id": "work/marina-capri-caprile-1891",
+      "uri": "urn:ahn:work/marina-capri-caprile-1891",
+      "type": "work",
+      "label_ja": "ヴィンチェンツォ・カプリーレ《Marina di Capri (Impressione del vero)》",
+      "label_en": "Marina di Capri (Impressione del vero)",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "作品の独立典拠IDと現所在は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年（1891年展カタログ380番）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/vincenzo-caprile"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-13",
+      "path": "entities/works/marina-capri-caprile-1891.md"
+    },
     "work/marina-da-rin-1891": {
       "id": "work/marina-da-rin-1891",
       "uri": "urn:ahn:work/marina-da-rin-1891",
@@ -33584,6 +33974,42 @@
       "status": "draft",
       "updated": "2026-08-12",
       "path": "entities/works/marina-da-rin-1891.md"
+    },
+    "work/marina-di-capri-tafuri-1891": {
+      "id": "work/marina-di-capri-tafuri-1891",
+      "uri": "urn:ahn:work/marina-di-capri-tafuri-1891",
+      "type": "work",
+      "label_ja": "ラッファエレ・タフーリ《Marina di Capri》",
+      "label_en": "Marina di Capri",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "作品の独立典拠IDと現所在は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年（1891年展カタログ375番）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/raffaele-tafuri"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-13",
+      "path": "entities/works/marina-di-capri-tafuri-1891.md"
     },
     "work/marine-crepuscule-minozzi-1907": {
       "id": "work/marine-crepuscule-minozzi-1907",
@@ -34706,6 +35132,42 @@
       "updated": "2026-08-12",
       "path": "entities/works/monumento-funerario-in-bronzo-butti-1891.md"
     },
+    "work/monumento-sepolcrale-quadrelli-1891": {
+      "id": "work/monumento-sepolcrale-quadrelli-1891",
+      "uri": "urn:ahn:work/monumento-sepolcrale-quadrelli-1891",
+      "type": "work",
+      "label_ja": "エミリオ・クアドレッリ《Monumento Sepolcrale (Modello in gesso)》",
+      "label_en": "Monumento Sepolcrale (Modello in gesso)",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "作品の独立典拠IDと現所在は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年（1891年展カタログ374番）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/emilio-quadrelli"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-13",
+      "path": "entities/works/monumento-sepolcrale-quadrelli-1891.md"
+    },
     "work/moufflon-des-alpes-magrini-1907": {
       "id": "work/moufflon-des-alpes-magrini-1907",
       "uri": "urn:ahn:work/moufflon-des-alpes-magrini-1907",
@@ -35758,6 +36220,42 @@
       "status": "draft",
       "updated": "2026-08-12",
       "path": "entities/works/parmi-les-rochers-merello-1905.md"
+    },
+    "work/passe-par-tout-capone-1891": {
+      "id": "work/passe-par-tout-capone-1891",
+      "uri": "urn:ahn:work/passe-par-tout-capone-1891",
+      "type": "work",
+      "label_ja": "ガエターノ・カポーネ《Passe par tout》",
+      "label_en": "Passe par tout",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "作品の独立典拠IDと現所在は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年（1891年展カタログ377番）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/gaetano-capone"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-13",
+      "path": "entities/works/passe-par-tout-capone-1891.md"
     },
     "work/paturage-ramponi-1907": {
       "id": "work/paturage-ramponi-1907",
@@ -38089,6 +38587,42 @@
       "status": "draft",
       "updated": "2026-08-12",
       "path": "entities/works/riposo-fragiacomo-1891.md"
+    },
+    "work/ristauro-volpe-1891": {
+      "id": "work/ristauro-volpe-1891",
+      "uri": "urn:ahn:work/ristauro-volpe-1891",
+      "type": "work",
+      "label_ja": "ヴィンチェンツォ・ヴォルペ《Ristauro》",
+      "label_en": "Ristauro",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "作品の独立典拠IDと現所在は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年（1891年展カタログ382番）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/vincenzo-volpe"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-13",
+      "path": "entities/works/ristauro-volpe-1891.md"
     },
     "work/ritorno-in-caserma-fattori-1891": {
       "id": "work/ritorno-in-caserma-fattori-1891",
@@ -42676,6 +43210,78 @@
       "updated": "2026-08-13",
       "path": "entities/works/valle-di-stura-galateri-1891.md"
     },
+    "work/vecchia-canzone-volpe-1891": {
+      "id": "work/vecchia-canzone-volpe-1891",
+      "uri": "urn:ahn:work/vecchia-canzone-volpe-1891",
+      "type": "work",
+      "label_ja": "ヴィンチェンツォ・ヴォルペ《Vecchia canzone》",
+      "label_en": "Vecchia canzone",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "作品の独立典拠IDと現所在は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年（1891年展カタログ381番）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/vincenzo-volpe"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-13",
+      "path": "entities/works/vecchia-canzone-volpe-1891.md"
+    },
+    "work/veduta-di-capri-tafuri-1891": {
+      "id": "work/veduta-di-capri-tafuri-1891",
+      "uri": "urn:ahn:work/veduta-di-capri-tafuri-1891",
+      "type": "work",
+      "label_ja": "ラッファエレ・タフーリ《Veduta di Capri》",
+      "label_en": "Veduta di Capri",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "作品の独立典拠IDと現所在は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年（1891年展カタログ376番）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/raffaele-tafuri"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-13",
+      "path": "entities/works/veduta-di-capri-tafuri-1891.md"
+    },
     "work/vepre-serein-fornara-1907": {
       "id": "work/vepre-serein-fornara-1907",
       "uri": "urn:ahn:work/vepre-serein-fornara-1907",
@@ -45704,6 +46310,13 @@
       "source": null
     },
     {
+      "from": "person/emilio-quadrelli",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "person/empedocle-ximenes",
       "type": "exhibited_at",
       "to": "event/first-brera-triennale-1891",
@@ -45819,6 +46432,13 @@
       "from": "person/eugenio-bellosio",
       "type": "exhibited_at",
       "to": "event/salon-divisionnistes-italiens-paris-1907",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "person/eugenio-buono",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
       "certainty": null,
       "source": null
     },
@@ -45971,6 +46591,13 @@
     },
     {
       "from": "person/francesco-tabacchi",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "person/gaetano-capone",
       "type": "exhibited_at",
       "to": "event/first-brera-triennale-1891",
       "certainty": null,
@@ -46562,6 +47189,13 @@
       "source": null
     },
     {
+      "from": "person/luigi-bianchi",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "person/luigi-buzzi-leone",
       "type": "exhibited_at",
       "to": "event/first-brera-triennale-1891",
@@ -46847,6 +47481,13 @@
       "source": null
     },
     {
+      "from": "person/raffaele-tafuri",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "person/raineri-arcaini",
       "type": "exhibited_at",
       "to": "event/first-brera-triennale-1891",
@@ -47002,6 +47643,13 @@
       "source": "https://www.tate.org.uk/art/art-terms/p/post-impressionism"
     },
     {
+      "from": "person/vincenzo-caprile",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "person/vincenzo-de-stefani",
       "type": "exhibited_at",
       "to": "event/first-brera-triennale-1891",
@@ -47017,6 +47665,13 @@
     },
     {
       "from": "person/vincenzo-rossano",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "person/vincenzo-volpe",
       "type": "exhibited_at",
       "to": "event/first-brera-triennale-1891",
       "certainty": null,
@@ -47847,6 +48502,20 @@
     },
     {
       "from": "work/carica-militare-de-albertis-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/case-bianche-capri-buono-1891",
+      "type": "created_by",
+      "to": "person/eugenio-buono",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/case-bianche-capri-buono-1891",
       "type": "exhibited_at",
       "to": "event/first-brera-triennale-1891",
       "certainty": null,
@@ -49673,6 +50342,20 @@
       "source": null
     },
     {
+      "from": "work/il-medico-in-condotta-bianchi-1891",
+      "type": "created_by",
+      "to": "person/luigi-bianchi",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/il-medico-in-condotta-bianchi-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "work/il-miccino-spaurito-monzini-1891",
       "type": "created_by",
       "to": "person/gelindo-monzini",
@@ -49863,6 +50546,20 @@
     },
     {
       "from": "work/il-trovatello-peverada-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/il-venditore-statuette-capone-1891",
+      "type": "created_by",
+      "to": "person/gaetano-capone",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/il-venditore-statuette-capone-1891",
       "type": "exhibited_at",
       "to": "event/first-brera-triennale-1891",
       "certainty": null,
@@ -51528,6 +52225,20 @@
       "source": null
     },
     {
+      "from": "work/marina-capri-caprile-1891",
+      "type": "created_by",
+      "to": "person/vincenzo-caprile",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/marina-capri-caprile-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "work/marina-da-rin-1891",
       "type": "created_by",
       "to": "person/tommaso-da-rin",
@@ -51536,6 +52247,20 @@
     },
     {
       "from": "work/marina-da-rin-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/marina-di-capri-tafuri-1891",
+      "type": "created_by",
+      "to": "person/raffaele-tafuri",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/marina-di-capri-tafuri-1891",
       "type": "exhibited_at",
       "to": "event/first-brera-triennale-1891",
       "certainty": null,
@@ -51969,6 +52694,20 @@
       "source": null
     },
     {
+      "from": "work/monumento-sepolcrale-quadrelli-1891",
+      "type": "created_by",
+      "to": "person/emilio-quadrelli",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/monumento-sepolcrale-quadrelli-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "work/moufflon-des-alpes-magrini-1907",
       "type": "created_by",
       "to": "person/adolphe-magrini",
@@ -52371,6 +53110,20 @@
       "from": "work/parmi-les-rochers-merello-1905",
       "type": "exhibited_at",
       "to": "event/salon-divisionnistes-italiens-paris-1907",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/passe-par-tout-capone-1891",
+      "type": "created_by",
+      "to": "person/gaetano-capone",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/passe-par-tout-capone-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
       "certainty": null,
       "source": null
     },
@@ -53258,6 +54011,20 @@
     },
     {
       "from": "work/riposo-fragiacomo-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/ristauro-volpe-1891",
+      "type": "created_by",
+      "to": "person/vincenzo-volpe",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/ristauro-volpe-1891",
       "type": "exhibited_at",
       "to": "event/first-brera-triennale-1891",
       "certainty": null,
@@ -55022,6 +55789,34 @@
     },
     {
       "from": "work/valle-di-stura-galateri-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/vecchia-canzone-volpe-1891",
+      "type": "created_by",
+      "to": "person/vincenzo-volpe",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/vecchia-canzone-volpe-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/veduta-di-capri-tafuri-1891",
+      "type": "created_by",
+      "to": "person/raffaele-tafuri",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/veduta-di-capri-tafuri-1891",
       "type": "exhibited_at",
       "to": "event/first-brera-triennale-1891",
       "certainty": null,
@@ -56838,6 +57633,12 @@
     {
       "from": "event/first-brera-triennale-1891",
       "type": "exhibited",
+      "to": "person/emilio-quadrelli",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
       "to": "person/empedocle-ximenes",
       "derived": true
     },
@@ -56935,6 +57736,12 @@
       "from": "event/salon-divisionnistes-italiens-paris-1907",
       "type": "exhibited",
       "to": "person/eugenio-bellosio",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "person/eugenio-buono",
       "derived": true
     },
     {
@@ -57067,6 +57874,12 @@
       "from": "event/first-brera-triennale-1891",
       "type": "exhibited",
       "to": "person/francesco-tabacchi",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "person/gaetano-capone",
       "derived": true
     },
     {
@@ -57522,6 +58335,12 @@
     {
       "from": "event/first-brera-triennale-1891",
       "type": "exhibited",
+      "to": "person/luigi-bianchi",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
       "to": "person/luigi-buzzi-leone",
       "derived": true
     },
@@ -57762,6 +58581,12 @@
     {
       "from": "event/first-brera-triennale-1891",
       "type": "exhibited",
+      "to": "person/raffaele-tafuri",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
       "to": "person/raineri-arcaini",
       "derived": true
     },
@@ -57882,6 +58707,12 @@
     {
       "from": "event/first-brera-triennale-1891",
       "type": "exhibited",
+      "to": "person/vincenzo-caprile",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
       "to": "person/vincenzo-de-stefani",
       "derived": true
     },
@@ -57895,6 +58726,12 @@
       "from": "event/first-brera-triennale-1891",
       "type": "exhibited",
       "to": "person/vincenzo-rossano",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "person/vincenzo-volpe",
       "derived": true
     },
     {
@@ -58585,6 +59422,18 @@
       "from": "event/first-brera-triennale-1891",
       "type": "exhibited",
       "to": "work/carica-militare-de-albertis-1891",
+      "derived": true
+    },
+    {
+      "from": "person/eugenio-buono",
+      "type": "created",
+      "to": "work/case-bianche-capri-buono-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/case-bianche-capri-buono-1891",
       "derived": true
     },
     {
@@ -60148,6 +60997,18 @@
       "derived": true
     },
     {
+      "from": "person/luigi-bianchi",
+      "type": "created",
+      "to": "work/il-medico-in-condotta-bianchi-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/il-medico-in-condotta-bianchi-1891",
+      "derived": true
+    },
+    {
       "from": "person/gelindo-monzini",
       "type": "created",
       "to": "work/il-miccino-spaurito-monzini-1891",
@@ -60313,6 +61174,18 @@
       "from": "event/first-brera-triennale-1891",
       "type": "exhibited",
       "to": "work/il-trovatello-peverada-1891",
+      "derived": true
+    },
+    {
+      "from": "person/gaetano-capone",
+      "type": "created",
+      "to": "work/il-venditore-statuette-capone-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/il-venditore-statuette-capone-1891",
       "derived": true
     },
     {
@@ -61738,6 +62611,18 @@
       "derived": true
     },
     {
+      "from": "person/vincenzo-caprile",
+      "type": "created",
+      "to": "work/marina-capri-caprile-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/marina-capri-caprile-1891",
+      "derived": true
+    },
+    {
       "from": "person/tommaso-da-rin",
       "type": "created",
       "to": "work/marina-da-rin-1891",
@@ -61747,6 +62632,18 @@
       "from": "event/first-brera-triennale-1891",
       "type": "exhibited",
       "to": "work/marina-da-rin-1891",
+      "derived": true
+    },
+    {
+      "from": "person/raffaele-tafuri",
+      "type": "created",
+      "to": "work/marina-di-capri-tafuri-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/marina-di-capri-tafuri-1891",
       "derived": true
     },
     {
@@ -62116,6 +63013,18 @@
       "derived": true
     },
     {
+      "from": "person/emilio-quadrelli",
+      "type": "created",
+      "to": "work/monumento-sepolcrale-quadrelli-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/monumento-sepolcrale-quadrelli-1891",
+      "derived": true
+    },
+    {
       "from": "person/adolphe-magrini",
       "type": "created",
       "to": "work/moufflon-des-alpes-magrini-1907",
@@ -62461,6 +63370,18 @@
       "from": "event/salon-divisionnistes-italiens-paris-1907",
       "type": "exhibited",
       "to": "work/parmi-les-rochers-merello-1905",
+      "derived": true
+    },
+    {
+      "from": "person/gaetano-capone",
+      "type": "created",
+      "to": "work/passe-par-tout-capone-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/passe-par-tout-capone-1891",
       "derived": true
     },
     {
@@ -63223,6 +64144,18 @@
       "from": "event/first-brera-triennale-1891",
       "type": "exhibited",
       "to": "work/riposo-fragiacomo-1891",
+      "derived": true
+    },
+    {
+      "from": "person/vincenzo-volpe",
+      "type": "created",
+      "to": "work/ristauro-volpe-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/ristauro-volpe-1891",
       "derived": true
     },
     {
@@ -64735,6 +65668,30 @@
       "from": "event/first-brera-triennale-1891",
       "type": "exhibited",
       "to": "work/valle-di-stura-galateri-1891",
+      "derived": true
+    },
+    {
+      "from": "person/vincenzo-volpe",
+      "type": "created",
+      "to": "work/vecchia-canzone-volpe-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/vecchia-canzone-volpe-1891",
+      "derived": true
+    },
+    {
+      "from": "person/raffaele-tafuri",
+      "type": "created",
+      "to": "work/veduta-di-capri-tafuri-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/veduta-di-capri-tafuri-1891",
       "derived": true
     },
     {
