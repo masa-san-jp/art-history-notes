@@ -10592,6 +10592,46 @@
       "updated": "2026-08-12",
       "path": "entities/persons/giovanni-segantini.md"
     },
+    "person/giuseppe-mentessi": {
+      "id": "person/giuseppe-mentessi",
+      "uri": "urn:ahn:person/giuseppe-mentessi",
+      "type": "person",
+      "label_ja": "ジュゼッペ・メンテッシ",
+      "label_en": "Giuseppe Mentessi",
+      "authority": {
+        "wikidata": "Q5565457",
+        "ulan": "500006136",
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": "1857-09-29",
+        "end": "1931-06-14",
+        "display": "1857年9月29日フェラーラ生まれ — 1931年6月14日ミラノ没"
+      },
+      "space": [
+        {
+          "role": "active_in",
+          "target": "place/milan"
+        }
+      ],
+      "relations": [
+        {
+          "type": "belongs_to",
+          "target": "movement/italian-divisionism"
+        }
+      ],
+      "sources": [
+        "https://www.treccani.it/enciclopedia/giuseppe-mentessi_%28Dizionario-Biografico%29/",
+        "https://www.wikidata.org/wiki/Q5565457",
+        "https://www.getty.edu/vow/ULANFullDisplay?find=&nation=&page=1&role=&subjectid=500006136",
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/persons/giuseppe-mentessi.md"
+    },
     "person/giuseppe-omio": {
       "id": "person/giuseppe-omio",
       "uri": "urn:ahn:person/giuseppe-omio",
@@ -20117,6 +20157,51 @@
       "updated": "2026-08-12",
       "path": "entities/works/nostalgie-fornara-1907.md"
     },
+    "work/ora-triste-mentessi-1890": {
+      "id": "work/ora-triste-mentessi-1890",
+      "uri": "urn:ahn:work/ora-triste-mentessi-1890",
+      "type": "work",
+      "label_ja": "ジュゼッペ・メンテッシ《Ora triste》",
+      "label_en": "Ora triste",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "作品の独立典拠IDは未確認。文化財カタログ、ブレラ展ガイド、Treccani、1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": "1890",
+        "end": "1890",
+        "display": "1890年（1891年展カタログ257番）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/giuseppe-mentessi"
+        },
+        {
+          "type": "belongs_to",
+          "target": "movement/italian-divisionism"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://catalogo.beniculturali.it/detail/Lombardia/HistoricOrArtisticProperty/SWFR1-00199_R03",
+        "https://www.lombardiabeniculturali.it/opere-arte/schede/SWFR1-00199/",
+        "https://galleriemaspes.com/immagini_sito/Cataloghi%20pdf/Brera_Guide.pdf",
+        "https://www.treccani.it/enciclopedia/giuseppe-mentessi_%28Dizionario-Biografico%29/",
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf",
+        "https://www.wikidata.org/wiki/Q5565457"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/works/ora-triste-mentessi-1890.md"
+    },
     "work/orage-magrini-1907": {
       "id": "work/orage-magrini-1907",
       "uri": "urn:ahn:work/orage-magrini-1907",
@@ -25297,6 +25382,18 @@
       "source": null
     },
     {
+      "from": "person/giuseppe-mentessi",
+      "type": "belongs_to",
+      "to": "movement/italian-divisionism",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "person/giuseppe-mentessi",
+      "type": "active_in",
+      "to": "place/milan"
+    },
+    {
       "from": "person/giuseppe-omio",
       "type": "belongs_to",
       "to": "movement/italian-divisionism",
@@ -27598,6 +27695,27 @@
       "from": "work/nostalgie-fornara-1907",
       "type": "exhibited_at",
       "to": "event/salon-divisionnistes-italiens-paris-1907",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/ora-triste-mentessi-1890",
+      "type": "created_by",
+      "to": "person/giuseppe-mentessi",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/ora-triste-mentessi-1890",
+      "type": "belongs_to",
+      "to": "movement/italian-divisionism",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/ora-triste-mentessi-1890",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
       "certainty": null,
       "source": null
     },
@@ -30006,6 +30124,12 @@
     {
       "from": "movement/italian-divisionism",
       "type": "has_member",
+      "to": "person/giuseppe-mentessi",
+      "derived": true
+    },
+    {
+      "from": "movement/italian-divisionism",
+      "type": "has_member",
       "to": "person/giuseppe-omio",
       "derived": true
     },
@@ -31921,6 +32045,24 @@
       "from": "event/salon-divisionnistes-italiens-paris-1907",
       "type": "exhibited",
       "to": "work/nostalgie-fornara-1907",
+      "derived": true
+    },
+    {
+      "from": "person/giuseppe-mentessi",
+      "type": "created",
+      "to": "work/ora-triste-mentessi-1890",
+      "derived": true
+    },
+    {
+      "from": "movement/italian-divisionism",
+      "type": "has_member",
+      "to": "work/ora-triste-mentessi-1890",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/ora-triste-mentessi-1890",
       "derived": true
     },
     {
