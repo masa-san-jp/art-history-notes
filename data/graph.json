@@ -13097,6 +13097,41 @@
       "updated": "2026-08-12",
       "path": "entities/persons/eugenio-cecconi.md"
     },
+    "person/eugenio-gignous": {
+      "id": "person/eugenio-gignous",
+      "uri": "urn:ahn:person/eugenio-gignous",
+      "type": "person",
+      "label_ja": "エウジェニオ・ジニョー",
+      "label_en": "Eugenio Gignous",
+      "aliases": [
+        "Gignous Eugenio"
+      ],
+      "authority": {
+        "wikidata": null,
+        "ulan": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "独立した人物典拠IDと生没年は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": null,
+        "end": null,
+        "display": "19世紀末にミラノで活動"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/persons/eugenio-gignous.md"
+    },
     "person/eugenio-prati": {
       "id": "person/eugenio-prati",
       "uri": "urn:ahn:person/eugenio-prati",
@@ -17168,6 +17203,41 @@
       "status": "draft",
       "updated": "2026-08-12",
       "path": "entities/persons/pietro-bordini.md"
+    },
+    "person/pietro-bouvier": {
+      "id": "person/pietro-bouvier",
+      "uri": "urn:ahn:person/pietro-bouvier",
+      "type": "person",
+      "label_ja": "ピエトロ・ブーヴィエ",
+      "label_en": "Pietro Bouvier",
+      "aliases": [
+        "Bouvier Pietro"
+      ],
+      "authority": {
+        "wikidata": null,
+        "ulan": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "独立した人物典拠IDと生没年は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": null,
+        "end": null,
+        "display": "19世紀末にミラノで活動"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/persons/pietro-bouvier.md"
     },
     "person/pietro-canonica": {
       "id": "person/pietro-canonica",
@@ -24124,6 +24194,42 @@
       "updated": "2026-08-12",
       "path": "entities/works/crisantemi-masutti-1891.md"
     },
+    "work/cucina-economica-bouvier-1891": {
+      "id": "work/cucina-economica-bouvier-1891",
+      "uri": "urn:ahn:work/cucina-economica-bouvier-1891",
+      "type": "work",
+      "label_ja": "ピエトロ・ブーヴィエ《Cucina economica》",
+      "label_en": "Cucina economica",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "作品の独立典拠IDと現所在は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年（1891年展カタログ332番・Sala T）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/pietro-bouvier"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/works/cucina-economica-bouvier-1891.md"
+    },
     "work/d-apres-une-legende-des-alpes-fornara-1907": {
       "id": "work/d-apres-une-legende-des-alpes-fornara-1907",
       "uri": "urn:ahn:work/d-apres-une-legende-des-alpes-fornara-1907",
@@ -24974,6 +25080,42 @@
       "status": "draft",
       "updated": "2026-08-12",
       "path": "entities/works/el-scigolin-dela-nona-magoni-1891.md"
+    },
+    "work/el-visorin-dell-andrea-bouvier-1891": {
+      "id": "work/el-visorin-dell-andrea-bouvier-1891",
+      "uri": "urn:ahn:work/el-visorin-dell-andrea-bouvier-1891",
+      "type": "work",
+      "label_ja": "ピエトロ・ブーヴィエ《El visorin dell’Andrea》",
+      "label_en": "El visorin dell’Andrea",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "作品の独立典拠IDと現所在は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年（1891年展カタログ331番）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/pietro-bouvier"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/works/el-visorin-dell-andrea-bouvier-1891.md"
     },
     "work/elephant-magrini-1907": {
       "id": "work/elephant-magrini-1907",
@@ -32644,6 +32786,42 @@
       "updated": "2026-08-12",
       "path": "entities/works/marine-riviera-del-ponente-minozzi-1907.md"
     },
+    "work/marzo-gignous-1891": {
+      "id": "work/marzo-gignous-1891",
+      "uri": "urn:ahn:work/marzo-gignous-1891",
+      "type": "work",
+      "label_ja": "エウジェニオ・ジニョー《Marzo》",
+      "label_en": "Marzo",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "作品の独立典拠IDと現所在は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年（1891年展カタログ324番）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/eugenio-gignous"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/works/marzo-gignous-1891.md"
+    },
     "work/maternita-contratti-1891": {
       "id": "work/maternita-contratti-1891",
       "uri": "urn:ahn:work/maternita-contratti-1891",
@@ -35964,6 +36142,42 @@
       "updated": "2026-08-12",
       "path": "entities/works/raccolta-disegni-serra-1891-b.md"
     },
+    "work/raccolta-dodici-studi-serra-1891": {
+      "id": "work/raccolta-dodici-studi-serra-1891",
+      "uri": "urn:ahn:work/raccolta-dodici-studi-serra-1891",
+      "type": "work",
+      "label_ja": "ルイジ・セッラ《Raccolta di dodici studi ad olio》",
+      "label_en": "Raccolta di dodici studi ad olio",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "作品の独立典拠IDと現所在は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年（1891年展カタログ330番）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/luigi-serra"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/works/raccolta-dodici-studi-serra-1891.md"
+    },
     "work/raccolta-mariani-1891-no40": {
       "id": "work/raccolta-mariani-1891-no40",
       "uri": "urn:ahn:work/raccolta-mariani-1891-no40",
@@ -39020,6 +39234,42 @@
       "status": "draft",
       "updated": "2026-08-12",
       "path": "entities/works/studio-dal-vero-bianchi-1891.md"
+    },
+    "work/studio-dal-vero-gignous-1891": {
+      "id": "work/studio-dal-vero-gignous-1891",
+      "uri": "urn:ahn:work/studio-dal-vero-gignous-1891",
+      "type": "work",
+      "label_ja": "エウジェニオ・ジニョー《Studio dal vero》",
+      "label_en": "Studio dal vero",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "作品の独立典拠IDと現所在は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年（1891年展カタログ325番）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/eugenio-gignous"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/works/studio-dal-vero-gignous-1891.md"
     },
     "work/studio-di-mare-la-scogliera-merello-1906": {
       "id": "work/studio-di-mare-la-scogliera-merello-1906",
@@ -43581,6 +43831,13 @@
       "source": null
     },
     {
+      "from": "person/eugenio-gignous",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "person/eugenio-prati",
       "type": "exhibited_at",
       "to": "event/first-brera-triennale-1891",
@@ -44433,6 +44690,13 @@
     },
     {
       "from": "person/pietro-bordini",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "person/pietro-bouvier",
       "type": "exhibited_at",
       "to": "event/first-brera-triennale-1891",
       "certainty": null,
@@ -45814,6 +46078,20 @@
       "source": null
     },
     {
+      "from": "work/cucina-economica-bouvier-1891",
+      "type": "created_by",
+      "to": "person/pietro-bouvier",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/cucina-economica-bouvier-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "work/d-apres-une-legende-des-alpes-fornara-1907",
       "type": "created_by",
       "to": "person/carlo-fornara",
@@ -46130,6 +46408,20 @@
     },
     {
       "from": "work/el-scigolin-dela-nona-magoni-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/el-visorin-dell-andrea-bouvier-1891",
+      "type": "created_by",
+      "to": "person/pietro-bouvier",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/el-visorin-dell-andrea-bouvier-1891",
       "type": "exhibited_at",
       "to": "event/first-brera-triennale-1891",
       "certainty": null,
@@ -49083,6 +49375,20 @@
       "source": null
     },
     {
+      "from": "work/marzo-gignous-1891",
+      "type": "created_by",
+      "to": "person/eugenio-gignous",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/marzo-gignous-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "work/maternita-contratti-1891",
       "type": "created_by",
       "to": "person/luigi-contratti",
@@ -50350,6 +50656,20 @@
       "source": null
     },
     {
+      "from": "work/raccolta-dodici-studi-serra-1891",
+      "type": "created_by",
+      "to": "person/luigi-serra",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/raccolta-dodici-studi-serra-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "work/raccolta-mariani-1891-no40",
       "type": "created_by",
       "to": "person/pompeo-mariani",
@@ -51513,6 +51833,20 @@
     },
     {
       "from": "work/studio-dal-vero-bianchi-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/studio-dal-vero-gignous-1891",
+      "type": "created_by",
+      "to": "person/eugenio-gignous",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/studio-dal-vero-gignous-1891",
       "type": "exhibited_at",
       "to": "event/first-brera-triennale-1891",
       "certainty": null,
@@ -53967,6 +54301,12 @@
     {
       "from": "event/first-brera-triennale-1891",
       "type": "exhibited",
+      "to": "person/eugenio-gignous",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
       "to": "person/eugenio-prati",
       "derived": true
     },
@@ -54646,6 +54986,12 @@
       "from": "event/first-brera-triennale-1891",
       "type": "exhibited",
       "to": "person/pietro-bordini",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "person/pietro-bouvier",
       "derived": true
     },
     {
@@ -55789,6 +56135,18 @@
       "derived": true
     },
     {
+      "from": "person/pietro-bouvier",
+      "type": "created",
+      "to": "work/cucina-economica-bouvier-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/cucina-economica-bouvier-1891",
+      "derived": true
+    },
+    {
       "from": "person/carlo-fornara",
       "type": "created",
       "to": "work/d-apres-une-legende-des-alpes-fornara-1907",
@@ -56062,6 +56420,18 @@
       "from": "event/first-brera-triennale-1891",
       "type": "exhibited",
       "to": "work/el-scigolin-dela-nona-magoni-1891",
+      "derived": true
+    },
+    {
+      "from": "person/pietro-bouvier",
+      "type": "created",
+      "to": "work/el-visorin-dell-andrea-bouvier-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/el-visorin-dell-andrea-bouvier-1891",
       "derived": true
     },
     {
@@ -58591,6 +58961,18 @@
       "derived": true
     },
     {
+      "from": "person/eugenio-gignous",
+      "type": "created",
+      "to": "work/marzo-gignous-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/marzo-gignous-1891",
+      "derived": true
+    },
+    {
       "from": "person/luigi-contratti",
       "type": "created",
       "to": "work/maternita-contratti-1891",
@@ -59677,6 +60059,18 @@
       "derived": true
     },
     {
+      "from": "person/luigi-serra",
+      "type": "created",
+      "to": "work/raccolta-dodici-studi-serra-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/raccolta-dodici-studi-serra-1891",
+      "derived": true
+    },
+    {
       "from": "person/pompeo-mariani",
       "type": "created",
       "to": "work/raccolta-mariani-1891-no40",
@@ -60676,6 +61070,18 @@
       "from": "event/first-brera-triennale-1891",
       "type": "exhibited",
       "to": "work/studio-dal-vero-bianchi-1891",
+      "derived": true
+    },
+    {
+      "from": "person/eugenio-gignous",
+      "type": "created",
+      "to": "work/studio-dal-vero-gignous-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/studio-dal-vero-gignous-1891",
       "derived": true
     },
     {
