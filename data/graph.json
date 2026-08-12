@@ -15245,6 +15245,42 @@
       "updated": "2026-08-12",
       "path": "entities/persons/giuseppe-cantu.md"
     },
+    "person/giuseppe-carozzi": {
+      "id": "person/giuseppe-carozzi",
+      "uri": "urn:ahn:person/giuseppe-carozzi",
+      "type": "person",
+      "label_ja": "ジュゼッペ・カロッツィ",
+      "label_en": "Giuseppe Carozzi",
+      "aliases": [
+        "Carozzi Giuseppe",
+        "Carezzi Giuseppe"
+      ],
+      "authority": {
+        "wikidata": null,
+        "ulan": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "独立した人物典拠IDと生没年は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": null,
+        "end": null,
+        "display": "19世紀末にミラノで活動"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-13",
+      "path": "entities/persons/giuseppe-carozzi.md"
+    },
     "person/giuseppe-catella": {
       "id": "person/giuseppe-catella",
       "uri": "urn:ahn:person/giuseppe-catella",
@@ -18522,6 +18558,41 @@
       "updated": "2026-08-13",
       "path": "entities/persons/roberto-fontana.md"
     },
+    "person/roberto-guastalla": {
+      "id": "person/roberto-guastalla",
+      "uri": "urn:ahn:person/roberto-guastalla",
+      "type": "person",
+      "label_ja": "ロベルト・グアスタッラ",
+      "label_en": "Roberto Guastalla",
+      "aliases": [
+        "Guastalla Roberto"
+      ],
+      "authority": {
+        "wikidata": null,
+        "ulan": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "独立した人物典拠IDと生没年は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": null,
+        "end": null,
+        "display": "19世紀末にパルマで活動"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-13",
+      "path": "entities/persons/roberto-guastalla.md"
+    },
     "person/roger-fry": {
       "id": "person/roger-fry",
       "uri": "urn:ahn:person/roger-fry",
@@ -18792,6 +18863,41 @@
       "status": "draft",
       "updated": "2026-08-12",
       "path": "entities/persons/serafino-de-tivoli.md"
+    },
+    "person/serafino-grassi": {
+      "id": "person/serafino-grassi",
+      "uri": "urn:ahn:person/serafino-grassi",
+      "type": "person",
+      "label_ja": "セラフィーノ・グラッシ",
+      "label_en": "Serafino Grassi",
+      "aliases": [
+        "Grassi Serafino"
+      ],
+      "authority": {
+        "wikidata": null,
+        "ulan": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "独立した人物典拠IDと生没年は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": null,
+        "end": null,
+        "display": "19世紀末にトリノで活動"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-13",
+      "path": "entities/persons/serafino-grassi.md"
     },
     "person/shakir-hassan-al-said": {
       "id": "person/shakir-hassan-al-said",
@@ -24077,6 +24183,42 @@
       "status": "draft",
       "updated": "2026-08-12",
       "path": "entities/works/campagna-lombarda-inverno-grubicy-1891.md"
+    },
+    "work/canale-laveno-carozzi-1891": {
+      "id": "work/canale-laveno-carozzi-1891",
+      "uri": "urn:ahn:work/canale-laveno-carozzi-1891",
+      "type": "work",
+      "label_ja": "ジュゼッペ・カロッツィ《Canale Laveno (Chioggia)》",
+      "label_en": "Canale Laveno (Chioggia)",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "作品の独立典拠IDと現所在は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年（1891年展カタログ385番）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/giuseppe-carozzi"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-13",
+      "path": "entities/works/canale-laveno-carozzi-1891.md"
     },
     "work/cani-da-cinghiale-cecconi-1891": {
       "id": "work/cani-da-cinghiale-cecconi-1891",
@@ -31933,6 +32075,42 @@
       "updated": "2026-08-12",
       "path": "entities/works/la-roggia-borsa-1891.md"
     },
+    "work/la-spiaggia-maiori-capone-1891": {
+      "id": "work/la-spiaggia-maiori-capone-1891",
+      "uri": "urn:ahn:work/la-spiaggia-maiori-capone-1891",
+      "type": "work",
+      "label_ja": "ガエターノ・カポーネ《La spiaggia di Maiori durante l’imbarco dei limoni》",
+      "label_en": "La spiaggia di Maiori durante l’imbarco dei limoni",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "作品の独立典拠IDと現所在は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年（1891年展カタログ383番）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/gaetano-capone"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-13",
+      "path": "entities/works/la-spiaggia-maiori-capone-1891.md"
+    },
     "work/la-strada-bout-du-monde-mion-1891": {
       "id": "work/la-strada-bout-du-monde-mion-1891",
       "uri": "urn:ahn:work/la-strada-bout-du-monde-mion-1891",
@@ -36960,29 +37138,29 @@
       "updated": "2026-08-12",
       "path": "entities/works/perseo-andromeda-argenti-1891.md"
     },
-    "work/pesche-ed-uva-feragutti-visconti-1891": {
-      "id": "work/pesche-ed-uva-feragutti-visconti-1891",
-      "uri": "urn:ahn:work/pesche-ed-uva-feragutti-visconti-1891",
+    "work/pesche-ed-uva-prati-1891": {
+      "id": "work/pesche-ed-uva-prati-1891",
+      "uri": "urn:ahn:work/pesche-ed-uva-prati-1891",
       "type": "work",
-      "label_ja": "アドルフォ・フェラグッティ・ヴィスコンティ《Pesche ed uva》",
+      "label_ja": "エウジェニオ・プラーティ《Pesche ed uva》",
       "label_en": "Pesche ed uva",
       "authority": {
         "wikidata": null,
         "aat": null,
         "ndl": null,
         "jpsearch": null,
-        "none_reason": "作品の独立典拠IDと技法・寸法・現所在は未確認。1891年公式カタログを用いる"
+        "none_reason": "作品の独立典拠IDと現所在は未確認。1891年公式カタログを用いる"
       },
       "time": {
         "start": "1891",
         "end": "1891",
-        "display": "1891年（1891年展カタログ390番）"
+        "display": "1891年（1891年展カタログ389番）"
       },
       "space": [],
       "relations": [
         {
           "type": "created_by",
-          "target": "person/adolfo-feragutti-visconti"
+          "target": "person/eugenio-prati"
         },
         {
           "type": "exhibited_at",
@@ -36990,13 +37168,11 @@
         }
       ],
       "sources": [
-        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf",
-        "https://www.treccani.it/enciclopedia/giuseppe-adolfo-feregutti_%28Dizionario-Biografico%29/",
-        "https://www.wikidata.org/wiki/Q3605437"
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
       ],
       "status": "draft",
-      "updated": "2026-08-12",
-      "path": "entities/works/pesche-ed-uva-feragutti-visconti-1891.md"
+      "updated": "2026-08-13",
+      "path": "entities/works/pesche-ed-uva-prati-1891.md"
     },
     "work/peschiera-sull-adda-formis-1891": {
       "id": "work/peschiera-sull-adda-formis-1891",
@@ -39169,7 +39345,7 @@
         "https://upload.wikimedia.org/wikipedia/commons/2/24/Prima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
       ],
       "status": "draft",
-      "updated": "2026-08-12",
+      "updated": "2026-08-13",
       "path": "entities/works/ritratto-di-giani-giuseppe-pellizza-1891.md"
     },
     "work/ritratto-di-mia-mamma-pellizza-1891": {
@@ -42026,6 +42202,42 @@
       "updated": "2026-08-12",
       "path": "entities/works/tempo-grigio-tominetti-1891.md"
     },
+    "work/tende-fellah-guastalla-1891": {
+      "id": "work/tende-fellah-guastalla-1891",
+      "uri": "urn:ahn:work/tende-fellah-guastalla-1891",
+      "type": "work",
+      "label_ja": "ロベルト・グアスタッラ《Tende di Fellah (Egitto)》",
+      "label_en": "Tende di Fellah (Egitto)",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "作品の独立典拠IDと現所在は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年（1891年展カタログ392番）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/roberto-guastalla"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-13",
+      "path": "entities/works/tende-fellah-guastalla-1891.md"
+    },
     "work/tesoro-mio-cappelli-1891": {
       "id": "work/tesoro-mio-cappelli-1891",
       "uri": "urn:ahn:work/tesoro-mio-cappelli-1891",
@@ -42061,6 +42273,42 @@
       "status": "draft",
       "updated": "2026-08-12",
       "path": "entities/works/tesoro-mio-cappelli-1891.md"
+    },
+    "work/testa-di-un-obeso-feragutti-1891": {
+      "id": "work/testa-di-un-obeso-feragutti-1891",
+      "uri": "urn:ahn:work/testa-di-un-obeso-feragutti-1891",
+      "type": "work",
+      "label_ja": "アドルフォ・フェラグッティ・ヴィスコンティ《Testa di un obeso》",
+      "label_en": "Testa di un obeso",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "作品の独立典拠IDと現所在は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年（1891年展カタログ390番）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/adolfo-feragutti-visconti"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-13",
+      "path": "entities/works/testa-di-un-obeso-feragutti-1891.md"
     },
     "work/testa-di-vecchio-nono-1891": {
       "id": "work/testa-di-vecchio-nono-1891",
@@ -42391,6 +42639,42 @@
       "status": "draft",
       "updated": "2026-08-12",
       "path": "entities/works/tristesse-magrini-1907.md"
+    },
+    "work/tristezza-grassi-1891": {
+      "id": "work/tristezza-grassi-1891",
+      "uri": "urn:ahn:work/tristezza-grassi-1891",
+      "type": "work",
+      "label_ja": "セラフィーノ・グラッシ《Tristezza》",
+      "label_en": "Tristezza",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "作品の独立典拠IDと現所在は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年（1891年展カタログ391番）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/serafino-grassi"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-13",
+      "path": "entities/works/tristezza-grassi-1891.md"
     },
     "work/truie-magrini-1907": {
       "id": "work/truie-magrini-1907",
@@ -46883,6 +47167,13 @@
       "source": null
     },
     {
+      "from": "person/giuseppe-carozzi",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "person/giuseppe-catella",
       "type": "exhibited_at",
       "to": "event/first-brera-triennale-1891",
@@ -47523,6 +47814,13 @@
       "source": null
     },
     {
+      "from": "person/roberto-guastalla",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "person/romolo-del-bo",
       "type": "exhibited_at",
       "to": "event/first-brera-triennale-1891",
@@ -47571,6 +47869,13 @@
     },
     {
       "from": "person/serafino-de-tivoli",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "person/serafino-grassi",
       "type": "exhibited_at",
       "to": "event/first-brera-triennale-1891",
       "certainty": null,
@@ -48446,6 +48751,20 @@
     },
     {
       "from": "work/campagna-lombarda-inverno-grubicy-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/canale-laveno-carozzi-1891",
+      "type": "created_by",
+      "to": "person/giuseppe-carozzi",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/canale-laveno-carozzi-1891",
       "type": "exhibited_at",
       "to": "event/first-brera-triennale-1891",
       "certainty": null,
@@ -51462,6 +51781,20 @@
       "source": null
     },
     {
+      "from": "work/la-spiaggia-maiori-capone-1891",
+      "type": "created_by",
+      "to": "person/gaetano-capone",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/la-spiaggia-maiori-capone-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "work/la-strada-bout-du-monde-mion-1891",
       "type": "created_by",
       "to": "person/luigi-mion",
@@ -53394,14 +53727,14 @@
       "source": null
     },
     {
-      "from": "work/pesche-ed-uva-feragutti-visconti-1891",
+      "from": "work/pesche-ed-uva-prati-1891",
       "type": "created_by",
-      "to": "person/adolfo-feragutti-visconti",
+      "to": "person/eugenio-prati",
       "certainty": null,
       "source": null
     },
     {
-      "from": "work/pesche-ed-uva-feragutti-visconti-1891",
+      "from": "work/pesche-ed-uva-prati-1891",
       "type": "exhibited_at",
       "to": "event/first-brera-triennale-1891",
       "certainty": null,
@@ -55333,6 +55666,20 @@
       "source": null
     },
     {
+      "from": "work/tende-fellah-guastalla-1891",
+      "type": "created_by",
+      "to": "person/roberto-guastalla",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/tende-fellah-guastalla-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "work/tesoro-mio-cappelli-1891",
       "type": "created_by",
       "to": "person/pasquale-cappelli",
@@ -55341,6 +55688,20 @@
     },
     {
       "from": "work/tesoro-mio-cappelli-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/testa-di-un-obeso-feragutti-1891",
+      "type": "created_by",
+      "to": "person/adolfo-feragutti-visconti",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/testa-di-un-obeso-feragutti-1891",
       "type": "exhibited_at",
       "to": "event/first-brera-triennale-1891",
       "certainty": null,
@@ -55469,6 +55830,20 @@
       "from": "work/tristesse-magrini-1907",
       "type": "exhibited_at",
       "to": "event/salon-divisionnistes-italiens-paris-1907",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/tristezza-grassi-1891",
+      "type": "created_by",
+      "to": "person/serafino-grassi",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/tristezza-grassi-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
       "certainty": null,
       "source": null
     },
@@ -58107,6 +58482,12 @@
     {
       "from": "event/first-brera-triennale-1891",
       "type": "exhibited",
+      "to": "person/giuseppe-carozzi",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
       "to": "person/giuseppe-catella",
       "derived": true
     },
@@ -58617,6 +58998,12 @@
     {
       "from": "event/first-brera-triennale-1891",
       "type": "exhibited",
+      "to": "person/roberto-guastalla",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
       "to": "person/romolo-del-bo",
       "derived": true
     },
@@ -58654,6 +59041,12 @@
       "from": "event/first-brera-triennale-1891",
       "type": "exhibited",
       "to": "person/serafino-de-tivoli",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "person/serafino-grassi",
       "derived": true
     },
     {
@@ -59374,6 +59767,18 @@
       "from": "event/first-brera-triennale-1891",
       "type": "exhibited",
       "to": "work/campagna-lombarda-inverno-grubicy-1891",
+      "derived": true
+    },
+    {
+      "from": "person/giuseppe-carozzi",
+      "type": "created",
+      "to": "work/canale-laveno-carozzi-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/canale-laveno-carozzi-1891",
       "derived": true
     },
     {
@@ -61957,6 +62362,18 @@
       "derived": true
     },
     {
+      "from": "person/gaetano-capone",
+      "type": "created",
+      "to": "work/la-spiaggia-maiori-capone-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/la-spiaggia-maiori-capone-1891",
+      "derived": true
+    },
+    {
       "from": "person/luigi-mion",
       "type": "created",
       "to": "work/la-strada-bout-du-monde-mion-1891",
@@ -63613,15 +64030,15 @@
       "derived": true
     },
     {
-      "from": "person/adolfo-feragutti-visconti",
+      "from": "person/eugenio-prati",
       "type": "created",
-      "to": "work/pesche-ed-uva-feragutti-visconti-1891",
+      "to": "work/pesche-ed-uva-prati-1891",
       "derived": true
     },
     {
       "from": "event/first-brera-triennale-1891",
       "type": "exhibited",
-      "to": "work/pesche-ed-uva-feragutti-visconti-1891",
+      "to": "work/pesche-ed-uva-prati-1891",
       "derived": true
     },
     {
@@ -65275,6 +65692,18 @@
       "derived": true
     },
     {
+      "from": "person/roberto-guastalla",
+      "type": "created",
+      "to": "work/tende-fellah-guastalla-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/tende-fellah-guastalla-1891",
+      "derived": true
+    },
+    {
       "from": "person/pasquale-cappelli",
       "type": "created",
       "to": "work/tesoro-mio-cappelli-1891",
@@ -65284,6 +65713,18 @@
       "from": "event/first-brera-triennale-1891",
       "type": "exhibited",
       "to": "work/tesoro-mio-cappelli-1891",
+      "derived": true
+    },
+    {
+      "from": "person/adolfo-feragutti-visconti",
+      "type": "created",
+      "to": "work/testa-di-un-obeso-feragutti-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/testa-di-un-obeso-feragutti-1891",
       "derived": true
     },
     {
@@ -65392,6 +65833,18 @@
       "from": "event/salon-divisionnistes-italiens-paris-1907",
       "type": "exhibited",
       "to": "work/tristesse-magrini-1907",
+      "derived": true
+    },
+    {
+      "from": "person/serafino-grassi",
+      "type": "created",
+      "to": "work/tristezza-grassi-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/tristezza-grassi-1891",
       "derived": true
     },
     {

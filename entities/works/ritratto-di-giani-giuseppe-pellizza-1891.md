@@ -23,7 +23,7 @@ sources:
   - https://collezioni-online.museoscienza.org/detail/IT-MUST-NTR001-005162/il-mediatore-giuseppe-giani
   - https://upload.wikimedia.org/wikipedia/commons/2/24/Prima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf
 status: draft
-updated: 2026-08-12
+updated: 2026-08-13
 ---
 
 # ジュゼッペ・ペリッツァ・ダ・ヴォルペード《Ritratto di Giani Giuseppe mediatore》
