@@ -601,13 +601,20 @@
           "target": "movement/utagawa-school",
           "certainty": "scholarly",
           "source": "https://www.metmuseum.org/ja/essays/art-nouveau"
+        },
+        {
+          "type": "influenced_by",
+          "target": "movement/arts-and-crafts",
+          "certainty": "scholarly",
+          "source": "https://www.metmuseum.org/es/essays/nineteenth-century-european-textile-production"
         }
       ],
       "sources": [
         "https://www.wikidata.org/wiki/Q34636",
         "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300021430",
         "https://www.vam.ac.uk/articles/art-nouveau-an-international-style",
-        "https://www.metmuseum.org/ja/essays/art-nouveau"
+        "https://www.metmuseum.org/ja/essays/art-nouveau",
+        "https://www.metmuseum.org/es/essays/nineteenth-century-european-textile-production"
       ],
       "status": "draft",
       "updated": "2026-08-12",
@@ -13313,6 +13320,13 @@
     },
     {
       "from": "movement/art-nouveau",
+      "type": "influenced_by",
+      "to": "movement/arts-and-crafts",
+      "certainty": "scholarly",
+      "source": "https://www.metmuseum.org/es/essays/nineteenth-century-european-textile-production"
+    },
+    {
+      "from": "movement/art-nouveau",
       "type": "originated_in",
       "to": "place/brussels"
     },
@@ -15167,6 +15181,12 @@
     },
     {
       "from": "movement/utagawa-school",
+      "type": "influenced",
+      "to": "movement/art-nouveau",
+      "derived": true
+    },
+    {
+      "from": "movement/arts-and-crafts",
       "type": "influenced",
       "to": "movement/art-nouveau",
       "derived": true
