@@ -15669,6 +15669,154 @@
       "updated": "2026-08-12",
       "path": "entities/works/marine-crepuscule-minozzi-1907.md"
     },
+    "work/marine-etude-cinotti-1907-no23": {
+      "id": "work/marine-etude-cinotti-1907-no23",
+      "uri": "urn:ahn:work/marine-etude-cinotti-1907-no23",
+      "type": "work",
+      "label_ja": "グイド・チノッティ《Marine (étude)》〔1907年パリ展23番〕",
+      "label_en": "Marine (étude) (Paris 1907, no. 23)",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "独立作品典拠IDは未確認。1907年パリ展カタログ番号23の記録を用いる"
+      },
+      "time": {
+        "start": "1907",
+        "end": "1907",
+        "display": "1907年パリ展出品（制作年未確認）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/guido-cinotti"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/salon-divisionnistes-italiens-paris-1907"
+        }
+      ],
+      "sources": [
+        "https://exhibitions.univie.ac.at/person/3325",
+        "https://exhibitions.univie.ac.at/exhibition/125"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/works/marine-etude-cinotti-1907-no23.md"
+    },
+    "work/marine-etude-cinotti-1907-no24": {
+      "id": "work/marine-etude-cinotti-1907-no24",
+      "uri": "urn:ahn:work/marine-etude-cinotti-1907-no24",
+      "type": "work",
+      "label_ja": "グイド・チノッティ《Marine (étude)》〔1907年パリ展24番〕",
+      "label_en": "Marine (étude) (Paris 1907, no. 24)",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "独立作品典拠IDは未確認。1907年パリ展カタログ番号24の記録を用いる"
+      },
+      "time": {
+        "start": "1907",
+        "end": "1907",
+        "display": "1907年パリ展出品（制作年未確認）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/guido-cinotti"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/salon-divisionnistes-italiens-paris-1907"
+        }
+      ],
+      "sources": [
+        "https://exhibitions.univie.ac.at/person/3325",
+        "https://exhibitions.univie.ac.at/exhibition/125"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/works/marine-etude-cinotti-1907-no24.md"
+    },
+    "work/marine-etude-cinotti-1907-no25": {
+      "id": "work/marine-etude-cinotti-1907-no25",
+      "uri": "urn:ahn:work/marine-etude-cinotti-1907-no25",
+      "type": "work",
+      "label_ja": "グイド・チノッティ《Marine (étude)》〔1907年パリ展25番〕",
+      "label_en": "Marine (étude) (Paris 1907, no. 25)",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "独立作品典拠IDは未確認。1907年パリ展カタログ番号25の記録を用いる"
+      },
+      "time": {
+        "start": "1907",
+        "end": "1907",
+        "display": "1907年パリ展出品（制作年未確認）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/guido-cinotti"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/salon-divisionnistes-italiens-paris-1907"
+        }
+      ],
+      "sources": [
+        "https://exhibitions.univie.ac.at/person/3325",
+        "https://exhibitions.univie.ac.at/exhibition/125"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/works/marine-etude-cinotti-1907-no25.md"
+    },
+    "work/marine-etude-cinotti-1907-no26": {
+      "id": "work/marine-etude-cinotti-1907-no26",
+      "uri": "urn:ahn:work/marine-etude-cinotti-1907-no26",
+      "type": "work",
+      "label_ja": "グイド・チノッティ《Marine (étude)》〔1907年パリ展26番〕",
+      "label_en": "Marine (étude) (Paris 1907, no. 26)",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "独立作品典拠IDは未確認。1907年パリ展カタログ番号26の記録を用いる"
+      },
+      "time": {
+        "start": "1907",
+        "end": "1907",
+        "display": "1907年パリ展出品（制作年未確認）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/guido-cinotti"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/salon-divisionnistes-italiens-paris-1907"
+        }
+      ],
+      "sources": [
+        "https://exhibitions.univie.ac.at/person/3325",
+        "https://exhibitions.univie.ac.at/exhibition/125"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/works/marine-etude-cinotti-1907-no26.md"
+    },
     "work/marine-merello-1905": {
       "id": "work/marine-merello-1905",
       "uri": "urn:ahn:work/marine-merello-1905",
@@ -16424,6 +16572,154 @@
       "status": "draft",
       "updated": "2026-08-12",
       "path": "entities/works/paysage-etude-avec-mouton-ramponi-1907.md"
+    },
+    "work/paysage-etude-baracchini-caputi-1907-no27": {
+      "id": "work/paysage-etude-baracchini-caputi-1907-no27",
+      "uri": "urn:ahn:work/paysage-etude-baracchini-caputi-1907-no27",
+      "type": "work",
+      "label_ja": "アドリアーノ・バラッキーニ＝カプーティ《Paysage (étude)》〔1907年パリ展27番〕",
+      "label_en": "Paysage (étude) (Paris 1907, no. 27)",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "独立作品典拠IDは未確認。1907年パリ展カタログ番号27の記録を用いる"
+      },
+      "time": {
+        "start": "1907",
+        "end": "1907",
+        "display": "1907年パリ展出品（制作年未確認）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/adriano-baracchini-caputi"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/salon-divisionnistes-italiens-paris-1907"
+        }
+      ],
+      "sources": [
+        "https://exhibitions.univie.ac.at/person/gnd/1186399171",
+        "https://exhibitions.univie.ac.at/exhibition/125"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/works/paysage-etude-baracchini-caputi-1907-no27.md"
+    },
+    "work/paysage-etude-baracchini-caputi-1907-no28": {
+      "id": "work/paysage-etude-baracchini-caputi-1907-no28",
+      "uri": "urn:ahn:work/paysage-etude-baracchini-caputi-1907-no28",
+      "type": "work",
+      "label_ja": "アドリアーノ・バラッキーニ＝カプーティ《Paysage (étude)》〔1907年パリ展28番〕",
+      "label_en": "Paysage (étude) (Paris 1907, no. 28)",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "独立作品典拠IDは未確認。1907年パリ展カタログ番号28の記録を用いる"
+      },
+      "time": {
+        "start": "1907",
+        "end": "1907",
+        "display": "1907年パリ展出品（制作年未確認）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/adriano-baracchini-caputi"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/salon-divisionnistes-italiens-paris-1907"
+        }
+      ],
+      "sources": [
+        "https://exhibitions.univie.ac.at/person/gnd/1186399171",
+        "https://exhibitions.univie.ac.at/exhibition/125"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/works/paysage-etude-baracchini-caputi-1907-no28.md"
+    },
+    "work/paysage-etude-baracchini-caputi-1907-no29": {
+      "id": "work/paysage-etude-baracchini-caputi-1907-no29",
+      "uri": "urn:ahn:work/paysage-etude-baracchini-caputi-1907-no29",
+      "type": "work",
+      "label_ja": "アドリアーノ・バラッキーニ＝カプーティ《Paysage (étude)》〔1907年パリ展29番〕",
+      "label_en": "Paysage (étude) (Paris 1907, no. 29)",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "独立作品典拠IDは未確認。1907年パリ展カタログ番号29の記録を用いる"
+      },
+      "time": {
+        "start": "1907",
+        "end": "1907",
+        "display": "1907年パリ展出品（制作年未確認）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/adriano-baracchini-caputi"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/salon-divisionnistes-italiens-paris-1907"
+        }
+      ],
+      "sources": [
+        "https://exhibitions.univie.ac.at/person/gnd/1186399171",
+        "https://exhibitions.univie.ac.at/exhibition/125"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/works/paysage-etude-baracchini-caputi-1907-no29.md"
+    },
+    "work/paysage-etude-baracchini-caputi-1907-no30": {
+      "id": "work/paysage-etude-baracchini-caputi-1907-no30",
+      "uri": "urn:ahn:work/paysage-etude-baracchini-caputi-1907-no30",
+      "type": "work",
+      "label_ja": "アドリアーノ・バラッキーニ＝カプーティ《Paysage (étude)》〔1907年パリ展30番〕",
+      "label_en": "Paysage (étude) (Paris 1907, no. 30)",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "独立作品典拠IDは未確認。1907年パリ展カタログ番号30の記録を用いる"
+      },
+      "time": {
+        "start": "1907",
+        "end": "1907",
+        "display": "1907年パリ展出品（制作年未確認）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/adriano-baracchini-caputi"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/salon-divisionnistes-italiens-paris-1907"
+        }
+      ],
+      "sources": [
+        "https://exhibitions.univie.ac.at/person/gnd/1186399171",
+        "https://exhibitions.univie.ac.at/exhibition/125"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/works/paysage-etude-baracchini-caputi-1907-no30.md"
     },
     "work/paysage-gottardo-segantini-1907": {
       "id": "work/paysage-gottardo-segantini-1907",
@@ -19957,6 +20253,62 @@
       "source": null
     },
     {
+      "from": "work/marine-etude-cinotti-1907-no23",
+      "type": "created_by",
+      "to": "person/guido-cinotti",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/marine-etude-cinotti-1907-no23",
+      "type": "exhibited_at",
+      "to": "event/salon-divisionnistes-italiens-paris-1907",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/marine-etude-cinotti-1907-no24",
+      "type": "created_by",
+      "to": "person/guido-cinotti",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/marine-etude-cinotti-1907-no24",
+      "type": "exhibited_at",
+      "to": "event/salon-divisionnistes-italiens-paris-1907",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/marine-etude-cinotti-1907-no25",
+      "type": "created_by",
+      "to": "person/guido-cinotti",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/marine-etude-cinotti-1907-no25",
+      "type": "exhibited_at",
+      "to": "event/salon-divisionnistes-italiens-paris-1907",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/marine-etude-cinotti-1907-no26",
+      "type": "created_by",
+      "to": "person/guido-cinotti",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/marine-etude-cinotti-1907-no26",
+      "type": "exhibited_at",
+      "to": "event/salon-divisionnistes-italiens-paris-1907",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "work/marine-merello-1905",
       "type": "created_by",
       "to": "person/rubaldo-merello",
@@ -20238,6 +20590,62 @@
     },
     {
       "from": "work/paysage-etude-avec-mouton-ramponi-1907",
+      "type": "exhibited_at",
+      "to": "event/salon-divisionnistes-italiens-paris-1907",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/paysage-etude-baracchini-caputi-1907-no27",
+      "type": "created_by",
+      "to": "person/adriano-baracchini-caputi",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/paysage-etude-baracchini-caputi-1907-no27",
+      "type": "exhibited_at",
+      "to": "event/salon-divisionnistes-italiens-paris-1907",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/paysage-etude-baracchini-caputi-1907-no28",
+      "type": "created_by",
+      "to": "person/adriano-baracchini-caputi",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/paysage-etude-baracchini-caputi-1907-no28",
+      "type": "exhibited_at",
+      "to": "event/salon-divisionnistes-italiens-paris-1907",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/paysage-etude-baracchini-caputi-1907-no29",
+      "type": "created_by",
+      "to": "person/adriano-baracchini-caputi",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/paysage-etude-baracchini-caputi-1907-no29",
+      "type": "exhibited_at",
+      "to": "event/salon-divisionnistes-italiens-paris-1907",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/paysage-etude-baracchini-caputi-1907-no30",
+      "type": "created_by",
+      "to": "person/adriano-baracchini-caputi",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/paysage-etude-baracchini-caputi-1907-no30",
       "type": "exhibited_at",
       "to": "event/salon-divisionnistes-italiens-paris-1907",
       "certainty": null,
@@ -22257,6 +22665,54 @@
       "derived": true
     },
     {
+      "from": "person/guido-cinotti",
+      "type": "created",
+      "to": "work/marine-etude-cinotti-1907-no23",
+      "derived": true
+    },
+    {
+      "from": "event/salon-divisionnistes-italiens-paris-1907",
+      "type": "exhibited",
+      "to": "work/marine-etude-cinotti-1907-no23",
+      "derived": true
+    },
+    {
+      "from": "person/guido-cinotti",
+      "type": "created",
+      "to": "work/marine-etude-cinotti-1907-no24",
+      "derived": true
+    },
+    {
+      "from": "event/salon-divisionnistes-italiens-paris-1907",
+      "type": "exhibited",
+      "to": "work/marine-etude-cinotti-1907-no24",
+      "derived": true
+    },
+    {
+      "from": "person/guido-cinotti",
+      "type": "created",
+      "to": "work/marine-etude-cinotti-1907-no25",
+      "derived": true
+    },
+    {
+      "from": "event/salon-divisionnistes-italiens-paris-1907",
+      "type": "exhibited",
+      "to": "work/marine-etude-cinotti-1907-no25",
+      "derived": true
+    },
+    {
+      "from": "person/guido-cinotti",
+      "type": "created",
+      "to": "work/marine-etude-cinotti-1907-no26",
+      "derived": true
+    },
+    {
+      "from": "event/salon-divisionnistes-italiens-paris-1907",
+      "type": "exhibited",
+      "to": "work/marine-etude-cinotti-1907-no26",
+      "derived": true
+    },
+    {
       "from": "person/rubaldo-merello",
       "type": "created",
       "to": "work/marine-merello-1905",
@@ -22500,6 +22956,54 @@
       "from": "event/salon-divisionnistes-italiens-paris-1907",
       "type": "exhibited",
       "to": "work/paysage-etude-avec-mouton-ramponi-1907",
+      "derived": true
+    },
+    {
+      "from": "person/adriano-baracchini-caputi",
+      "type": "created",
+      "to": "work/paysage-etude-baracchini-caputi-1907-no27",
+      "derived": true
+    },
+    {
+      "from": "event/salon-divisionnistes-italiens-paris-1907",
+      "type": "exhibited",
+      "to": "work/paysage-etude-baracchini-caputi-1907-no27",
+      "derived": true
+    },
+    {
+      "from": "person/adriano-baracchini-caputi",
+      "type": "created",
+      "to": "work/paysage-etude-baracchini-caputi-1907-no28",
+      "derived": true
+    },
+    {
+      "from": "event/salon-divisionnistes-italiens-paris-1907",
+      "type": "exhibited",
+      "to": "work/paysage-etude-baracchini-caputi-1907-no28",
+      "derived": true
+    },
+    {
+      "from": "person/adriano-baracchini-caputi",
+      "type": "created",
+      "to": "work/paysage-etude-baracchini-caputi-1907-no29",
+      "derived": true
+    },
+    {
+      "from": "event/salon-divisionnistes-italiens-paris-1907",
+      "type": "exhibited",
+      "to": "work/paysage-etude-baracchini-caputi-1907-no29",
+      "derived": true
+    },
+    {
+      "from": "person/adriano-baracchini-caputi",
+      "type": "created",
+      "to": "work/paysage-etude-baracchini-caputi-1907-no30",
+      "derived": true
+    },
+    {
+      "from": "event/salon-divisionnistes-italiens-paris-1907",
+      "type": "exhibited",
+      "to": "work/paysage-etude-baracchini-caputi-1907-no30",
       "derived": true
     },
     {
