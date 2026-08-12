@@ -29,6 +29,7 @@ space:
   - {role: originated_in, target: place/milan}
 relations:
   - {type: created_by, target: person/filippo-tommaso-marinetti}
+  - {type: influenced_by, target: movement/italian-divisionism, certainty: scholarly, source: "https://www.nationalgallery.org.uk/about-us/press-and-media/press-releases-archive/radical-light-italy-s-divisionist-painters-1891-1910"}
 images:
   - url: https://upload.wikimedia.org/wikipedia/commons/f/fd/%27Unique_Forms_of_Continuity_in_Space%27%2C_1913_bronze_by_Umberto_Boccioni.jpg
     source_page: https://commons.wikimedia.org/wiki/File:%27Unique_Forms_of_Continuity_in_Space%27,_1913_bronze_by_Umberto_Boccioni.jpg
@@ -55,8 +56,9 @@ sources:
   - https://en.wikipedia.org/wiki/Antonio_Sant%27Elia
   - http://exhibitions.guggenheim.org/futurism/manifestos/
   - https://www.theartstory.org/movement/futurism/
+  - https://www.nationalgallery.org.uk/about-us/press-and-media/press-releases-archive/radical-light-italy-s-divisionist-painters-1891-1910
 status: draft
-updated: 2026-08-09
+updated: 2026-08-13
 ---
 
 # 未来派
@@ -178,6 +180,12 @@ Reconstructing the Universe』（2014年）が採る区切りもマリネッテ�
 `originated_in`には採らなかった。
 
 Wikidata Q131221には空間に関するclaimは無い。
+
+## イタリア分割主義からの形成
+
+ナショナル・ギャラリーは、分割主義からイタリア未来派の形成へ至る進展を展覧会で扱い、未来派が先行する分割主義から有機的に現れたと説明している。
+（[National Gallery, *Radical Light*](https://www.nationalgallery.org.uk/about-us/press-and-media/press-releases-archive/radical-light-italy-s-divisionist-painters-1891-1910)）。
+このため、未来派の形成に対するイタリア分割主義の影響を `influenced_by` として記録する。ただしこれは、未来派の全主張が分割主義から直接導かれたという意味ではなく、主に絵画上の技法・担い手の連続を含む形成史上の関係である。
 
 ## ロシアへ — 言葉は届き、負い目は否定された
 
