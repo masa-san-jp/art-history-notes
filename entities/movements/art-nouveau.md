@@ -29,11 +29,13 @@ space:
   - {role: originated_in, target: place/brussels}
 relations:
   - {type: influenced_by, target: movement/utagawa-school, certainty: scholarly, source: "https://www.metmuseum.org/ja/essays/art-nouveau"}
+  - {type: influenced_by, target: movement/arts-and-crafts, certainty: scholarly, source: "https://www.metmuseum.org/es/essays/nineteenth-century-european-textile-production"}
 sources:
   - https://www.wikidata.org/wiki/Q34636
   - https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300021430
   - https://www.vam.ac.uk/articles/art-nouveau-an-international-style
   - https://www.metmuseum.org/ja/essays/art-nouveau
+  - https://www.metmuseum.org/es/essays/nineteenth-century-european-textile-production
 status: draft
 updated: 2026-08-12
 ---
@@ -56,6 +58,13 @@ Jugendstil、Secession、Modernismeなどの地域名を同一視せず、必要
 アール・ヌーヴォーの構図・装飾語彙の形成に関わったため、歌川派を影響元の代表ノードとして記録する。ただし、
 これは歌川派がアール・ヌーヴォーという名称の運動を直接組織したという意味ではなく、作品・図像・印刷文化を
 介した受容経路の要約である。
+
+## アーツ・アンド・クラフツ運動との関係
+
+メトロポリタン美術館は、ウィリアム・モリスら英国のアーツ・アンド・クラフツ期の仕事がアール・ヌーヴォーの
+発展に特に重要だったと説明する。ここでの `influenced_by` は、アール・ヌーヴォーが英国運動と同一だったと
+いう意味ではなく、モリスらが復興した手仕事・織物・装飾デザインの考えと実作が、19世紀末から20世紀初頭の
+国際的な装飾様式の形成へ入った経路を記録する。
 
 ## 未着手
 
