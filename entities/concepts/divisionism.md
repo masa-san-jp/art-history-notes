@@ -15,8 +15,7 @@ time:
   end: null
   display: "1884年頃以後。スーラが色彩分割の原理を展開し、後にフランスとイタリアで異なる実践を指す語として使われる"
 space: []
-relations:
-  - {type: part_of, target: movement/neo-impressionism}
+relations: []
 sources:
   - https://www.getty.edu/vow/AATFullDisplay?find=divisionism&logic=AND&note=&english=Y&subjectid=300419440
   - https://www.metmuseum.org/art/collection/search/437658

@@ -31,6 +31,7 @@ relations:
   - {type: exhibited_at, target: event/eighth-impressionist-exhibition-1886}
   - {type: diffused_to, target: place/brussels, certainty: scholarly, source: "https://en.wikipedia.org/wiki/Les_Vingt"}
   - {type: influenced_by, target: concept/ukiyo-e, certainty: scholarly, source: "https://www.vangoghmuseum.nl/assets/491dd716-741d-4608-975e-e9652bdfd063?c=2379957789b45233379dcf35054dd324a2f54e39adeb7c20b1481dc08c461b44"}
+  - {type: part_of, target: concept/divisionism}
 sources:
   - https://www.wikidata.org/wiki/Q150091
   - https://api.artic.edu/api/v1/artworks/27992
@@ -194,10 +195,10 @@ Gallica収録の実物（[ark:/12148/bpt6k850398w](https://gallica.bnf.fr/ark:/1
 
 - 『La Vogue』（1886年6月）と『L'Art moderne』（1886年9月19日）のどちらが「néo-impressionnisme」
   の語の初出か——Gallica の実物にアクセスできず確定できていない
-- オランダ・イタリア（分割主義）への広がり
+- オランダへの分割主義の広がり。イタリア側は[イタリア分割主義](italian-divisionism.md)として別の地域運動に切り出したが、1891年の共同出品の目録とフランス側との個別の経路は未確認
 - 「何が新しかったか」——作品を3点以上読んでから書く（未着手のまま）
 - シャルル・アングラン、ポール・シニャック、カミーユ＆リュシアン・ピサロ、アルベール・
   デュボワ＝ピレ、アンリ＝エドモン・クロスの person エンティティ化——現状は
   [person/georges-seurat](../persons/georges-seurat.md) 以外どの作成基準にも単独で当たらないため
   本文の名前止まりとした
-- 分割主義（未着手の movement/concept）との接続
+- 分割主義（[concept/divisionism](../concepts/divisionism.md)）を、フランスとイタリアにまたがる技法・原理としてどこまで一般化できるか
