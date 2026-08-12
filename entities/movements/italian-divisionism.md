@@ -78,7 +78,7 @@ updated: 2026-08-12
 
 公開されている『Prima esposizione triennale 1891: catalogo ufficiale illustrato』は、題紙に
 R. Accademia di Belle Arti di Breraを掲げ、ミラノのProprietà artistica Arturo Demarchiから刊行された
-公式カタログである。索引と本文の対応から、現時点で次の326作家536件を作品エンティティとして個別化している。
+公式カタログである。索引と本文の対応から、現時点で次の329作家543件を作品エンティティとして個別化している。
 
 - セガンティーニ：209《Le due Madri》、241《Vacca》
 - プレヴィアーティ：213《Maternità》
@@ -257,6 +257,13 @@ R. Accademia di Belle Arti di Breraを掲げ、ミラノのProprietà artistica 
 - ポマ：520《Lago di Lecco》、532《La questua. - Cortile a Cargiago》、538《Nel bosco》
 - ペンナシリコ：539《Un portico di fioraia a Genova》、549《Colombi》
 - コンティ：441《Fuori di pericolo》、550《B o Bo》
+- ベルトラーメ：554《L’alba dopo la battaglia. - Premiato nel 1890 al Concorso Mylius - Di proprietà di questa R. Accademia》
+- バルビエリ：453《Le pubblicazioni di matrimonio》、555《Desolata》
+- カヴァレーリ：556《Lerici - Golfo della Spezia》
+- ジョイア：334《Un armatore olandese nel secolo XVII》、558《Tempi passati》
+- カイラーティ：222《Giornata finita》、561《Alba》
+- アナスタージオ：509《Pensieri d’amore (Testa di donna)》、525《Testa di vecchio - Studio dal vero》、562《Non m’ama più (Romanza del Tosti)》
+- エレオノーラ・アルベルティ：563《Un rivo a Venezia》
 - サルトレッリ：456《In Laguna》、540《Venezia》
 - モンテヴェルデ：424《Scogli a Capri》、541《A Davesco》
 - チェッコーニ：542《Quattordici studi dal vero raccolti in una cornice》
@@ -518,7 +525,7 @@ R. Accademia di Belle Arti di Breraを掲げ、ミラノのProprietà artistica 
 - フラジャコモ：223《Pace》、225《Riposo》
 - デ・アルベルティス：224《(Bezzecca) Campagna del 1866》
 
-したがって、1891年展については公式カタログの存在、刊行情報、上記326作家の掲載番号と作品名を個別記録済みである。
+したがって、1891年展については公式カタログの存在、刊行情報、上記329作家の掲載番号と作品名を個別記録済みである。
 カランドラの3件、ブッティの1件、カッシの1件、サルヴィーニの1件、ベッツォラの2件、ギドーニの3件、ラフォレの1件、サラタの1件、アルベルティの1件、ノーノの2件、バッツァーロの1件、ポルツィオの1件、ロッサーノの1件、マルファッティの1件、グイデッティの1件、マイヤーの1件、マルシリの2件、クレスピの1件、チファリエッロの1件は彫刻の出品記録として扱い、これらの作家をイタリア分割主義の構成員とは推定しない。
 マリアーニの2件、フェッラーリの1件、セッラの2件はパステル、エッチング、素描などの出品記録として扱い、個別作品への分解やこれらの作家のイタリア分割主義への所属は推定しない。
 アッティリオ・フェッリの1件、セッラの1件、ドメニコ・フェッリの3件、ヴァイスの1件はパステル、水彩、テンペラ、カートンなどの出品記録として扱い、個別作品への同定やこれらの作家のイタリア分割主義への所属は推定しない。
@@ -582,6 +589,6 @@ Portico D Dの「Parte 2.ª」で630番まで続く（同一作家の複数出�
 
 ## 未着手
 
-- 1891年第一回ブレラ三年展の会場区分ごとの全出品作と出品者の対応を公式資料で整理すること。開催期間は1891年5月6日〜7月12日としてイベント記録に確定済み。現時点では、公式カタログと個別典拠を突き合わせた536件を作品エンティティ化している
+- 1891年第一回ブレラ三年展の会場区分ごとの全出品作と出品者の対応を公式資料で整理すること。開催期間は1891年5月6日〜7月12日としてイベント記録に確定済み。現時点では、公式カタログと個別典拠を突き合わせた543件を作品エンティティ化している
 - 1891年カタログの残りの出品記録について、同名作品の重複を避けながら、独立した作品典拠または十分なカタログ記録が揃うものから作品エンティティ化すること
 - 1907年パリで開かれたイタリア分割主義者展は、イベント、絵画・素描の出品者17人、絵画・素描177件の作品エンティティを整備済み。一次カタログ序文が言及する彫刻家レンブラント・ブガッティとリベロ・アンドレオッティ、本文の展示記述に登場するカルロ・ブガッティ、エウジェニオ・ベッロージオ、パオロ・トルベツコイは、作品番号を未確定のまま人物エンティティ化した。残り113件はDoME上でSalle Bの58〜92番（35件）とSalle Cの147〜224番（78件）に分かれるが、作家名・題名・媒体が空欄のため、個別典拠との照合を続ける。グルビーチ以外の国外での受容経路も調査する

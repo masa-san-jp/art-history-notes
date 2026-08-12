@@ -27,4 +27,4 @@ updated: 2026-08-13
 
 # アレッサンドロ・バルビエリ / Alessandro Barbieri
 
-1891年の第一回ブレラ三年展公式カタログに、ミラノ出身者として掲載される出品者。453番《Le pubblicazioni di matrimonio》を出品した。本項は展覧会記録に限定する。
+1891年の第一回ブレラ三年展公式カタログに、ミラノ出身者として掲載される出品者。453番《Le pubblicazioni di matrimonio》、555番《Desolata》を出品した。本項は展覧会記録に限定する。

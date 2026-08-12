@@ -9353,6 +9353,41 @@
       "updated": "2026-08-12",
       "path": "entities/persons/achille-alberti.md"
     },
+    "person/achille-beltrame": {
+      "id": "person/achille-beltrame",
+      "uri": "urn:ahn:person/achille-beltrame",
+      "type": "person",
+      "label_ja": "アキッレ・ベルトラーメ",
+      "label_en": "Achille Beltrame",
+      "aliases": [
+        "Beltrame Achille"
+      ],
+      "authority": {
+        "wikidata": null,
+        "ulan": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "独立した人物典拠IDと生没年は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": null,
+        "end": null,
+        "display": "19世紀末にアルツィニャーノ出身者として活動"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-13",
+      "path": "entities/persons/achille-beltrame.md"
+    },
     "person/achille-dovera": {
       "id": "person/achille-dovera",
       "uri": "urn:ahn:person/achille-dovera",
@@ -13269,6 +13304,41 @@
       "updated": "2026-08-12",
       "path": "entities/persons/el-lissitzky.md"
     },
+    "person/eleonora-alberti": {
+      "id": "person/eleonora-alberti",
+      "uri": "urn:ahn:person/eleonora-alberti",
+      "type": "person",
+      "label_ja": "エレオノーラ・アルベルティ",
+      "label_en": "Eleonora Alberti",
+      "aliases": [
+        "Alberti Eleonora"
+      ],
+      "authority": {
+        "wikidata": null,
+        "ulan": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "独立した人物典拠IDと生没年は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": null,
+        "end": null,
+        "display": "19世紀末にヴェネツィアで活動"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-13",
+      "path": "entities/persons/eleonora-alberti.md"
+    },
     "person/eleuterio-pagliano": {
       "id": "person/eleuterio-pagliano",
       "uri": "urn:ahn:person/eleuterio-pagliano",
@@ -15906,7 +15976,7 @@
         "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
       ],
       "status": "draft",
-      "updated": "2026-08-12",
+      "updated": "2026-08-13",
       "path": "entities/persons/gerolamo-cairati.md"
     },
     "person/giacomo-ginotti": {
@@ -18443,6 +18513,41 @@
       "status": "draft",
       "updated": "2026-08-12",
       "path": "entities/persons/liubov-popova.md"
+    },
+    "person/lodovico-cavaleri": {
+      "id": "person/lodovico-cavaleri",
+      "uri": "urn:ahn:person/lodovico-cavaleri",
+      "type": "person",
+      "label_ja": "ロドヴィーコ・カヴァレーリ",
+      "label_en": "Lodovico Cavaleri",
+      "aliases": [
+        "Cavaleri Lodovico"
+      ],
+      "authority": {
+        "wikidata": null,
+        "ulan": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "独立した人物典拠IDと生没年は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": null,
+        "end": null,
+        "display": "19世紀末にミラノで活動"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-13",
+      "path": "entities/persons/lodovico-cavaleri.md"
     },
     "person/lorenzo-cecconi": {
       "id": "person/lorenzo-cecconi",
@@ -25973,6 +26078,42 @@
       "updated": "2026-08-12",
       "path": "entities/works/al-santuario-d-orta-fattori-1891.md"
     },
+    "work/alba-cairati-1891": {
+      "id": "work/alba-cairati-1891",
+      "uri": "urn:ahn:work/alba-cairati-1891",
+      "type": "work",
+      "label_ja": "ジェロラモ・カイラーティ《Alba》",
+      "label_en": "Alba",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "作品の独立典拠IDと現所在は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年（1891年展カタログ561番）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/gerolamo-cairati"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-13",
+      "path": "entities/works/alba-cairati-1891.md"
+    },
     "work/alba-morbelli-1891": {
       "id": "work/alba-morbelli-1891",
       "uri": "urn:ahn:work/alba-morbelli-1891",
@@ -29613,6 +29754,42 @@
       "status": "draft",
       "updated": "2026-08-12",
       "path": "entities/works/dautunno-studio-agazzi-1891.md"
+    },
+    "work/desolata-barbieri-1891": {
+      "id": "work/desolata-barbieri-1891",
+      "uri": "urn:ahn:work/desolata-barbieri-1891",
+      "type": "work",
+      "label_ja": "アレッサンドロ・バルビエリ《Desolata》",
+      "label_en": "Desolata",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "作品の独立典拠IDと現所在は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年（1891年展カタログ555番）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/alessandro-barbieri"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-13",
+      "path": "entities/works/desolata-barbieri-1891.md"
     },
     "work/dettagli-s-carlo-serra-1891": {
       "id": "work/dettagli-s-carlo-serra-1891",
@@ -35752,6 +35929,42 @@
       "updated": "2026-08-13",
       "path": "entities/works/l-acqua-pel-pane-ripamonti-1891.md"
     },
+    "work/l-alba-dopo-la-battaglia-beltrame-1891": {
+      "id": "work/l-alba-dopo-la-battaglia-beltrame-1891",
+      "uri": "urn:ahn:work/l-alba-dopo-la-battaglia-beltrame-1891",
+      "type": "work",
+      "label_ja": "アキッレ・ベルトラーメ《L’alba dopo la battaglia. - Premiato nel 1890 al Concorso Mylius - Di proprietà di questa R. Accademia》",
+      "label_en": "L’alba dopo la battaglia. - Premiato nel 1890 al Concorso Mylius - Di proprietà di questa R. Accademia",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "作品の独立典拠IDと現所在は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": "1890",
+        "end": "1890",
+        "display": "1890年（1891年展カタログ554番）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/achille-beltrame"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-13",
+      "path": "entities/works/l-alba-dopo-la-battaglia-beltrame-1891.md"
+    },
     "work/l-amico-dell-uomo-guidetti-1891": {
       "id": "work/l-amico-dell-uomo-guidetti-1891",
       "uri": "urn:ahn:work/l-amico-dell-uomo-guidetti-1891",
@@ -39044,6 +39257,42 @@
       "updated": "2026-08-12",
       "path": "entities/works/leonida-alle-termopili-zocchi-1891.md"
     },
+    "work/lerici-golfo-della-spezia-cavaleri-1891": {
+      "id": "work/lerici-golfo-della-spezia-cavaleri-1891",
+      "uri": "urn:ahn:work/lerici-golfo-della-spezia-cavaleri-1891",
+      "type": "work",
+      "label_ja": "ロドヴィーコ・カヴァレーリ《Lerici - Golfo della Spezia》",
+      "label_en": "Lerici - Golfo della Spezia",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "作品の独立典拠IDと現所在は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年（1891年展カタログ556番）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/lodovico-cavaleri"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-13",
+      "path": "entities/works/lerici-golfo-della-spezia-cavaleri-1891.md"
+    },
     "work/les-heures-du-matin-segantini-1907": {
       "id": "work/les-heures-du-matin-segantini-1907",
       "uri": "urn:ahn:work/les-heures-du-matin-segantini-1907",
@@ -41771,6 +42020,42 @@
       "status": "draft",
       "updated": "2026-08-12",
       "path": "entities/works/nidia-la-cieca-albertini-1891.md"
+    },
+    "work/non-m-ama-piu-anastasio-1891": {
+      "id": "work/non-m-ama-piu-anastasio-1891",
+      "uri": "urn:ahn:work/non-m-ama-piu-anastasio-1891",
+      "type": "work",
+      "label_ja": "ピエトロ・アナスタージオ《Non m’ama più (Romanza del Tosti)》",
+      "label_en": "Non m’ama più (Romanza del Tosti)",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "作品の独立典拠IDと現所在は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年（1891年展カタログ562番）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/pietro-anastasio"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-13",
+      "path": "entities/works/non-m-ama-piu-anastasio-1891.md"
     },
     "work/nostalgie-fornara-1907": {
       "id": "work/nostalgie-fornara-1907",
@@ -49549,6 +49834,42 @@
       "updated": "2026-08-12",
       "path": "entities/works/te-laudamus-domine-vanotti-1891.md"
     },
+    "work/tempi-passati-gioja-1891": {
+      "id": "work/tempi-passati-gioja-1891",
+      "uri": "urn:ahn:work/tempi-passati-gioja-1891",
+      "type": "work",
+      "label_ja": "エドアルド・ジョイア《Tempi passati》",
+      "label_en": "Tempi passati",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "作品の独立典拠IDと現所在は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年（1891年展カタログ558番）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/edoardo-gioja"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-13",
+      "path": "entities/works/tempi-passati-gioja-1891.md"
+    },
     "work/tempo-grigio-a-chioggia-buttafava-1891": {
       "id": "work/tempo-grigio-a-chioggia-buttafava-1891",
       "uri": "urn:ahn:work/tempo-grigio-a-chioggia-buttafava-1891",
@@ -51045,6 +51366,42 @@
       "status": "draft",
       "updated": "2026-08-12",
       "path": "entities/works/un-raggio-di-sole-prati-1891.md"
+    },
+    "work/un-rivo-a-venezia-alberti-1891": {
+      "id": "work/un-rivo-a-venezia-alberti-1891",
+      "uri": "urn:ahn:work/un-rivo-a-venezia-alberti-1891",
+      "type": "work",
+      "label_ja": "エレオノーラ・アルベルティ《Un rivo a Venezia》",
+      "label_en": "Un rivo a Venezia",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "作品の独立典拠IDと現所在は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年（1891年展カタログ563番）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/eleonora-alberti"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-13",
+      "path": "entities/works/un-rivo-a-venezia-alberti-1891.md"
     },
     "work/una-fuga-nel-1700-zezzos-1891": {
       "id": "work/una-fuga-nel-1700-zezzos-1891",
@@ -54005,6 +54362,13 @@
       "source": null
     },
     {
+      "from": "person/achille-beltrame",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "person/achille-dovera",
       "type": "exhibited_at",
       "to": "event/first-brera-triennale-1891",
@@ -54895,6 +55259,13 @@
       "from": "person/el-lissitzky",
       "type": "active_in",
       "to": "place/berlin"
+    },
+    {
+      "from": "person/eleonora-alberti",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
     },
     {
       "from": "person/eleuterio-pagliano",
@@ -56028,6 +56399,13 @@
       "to": "place/moscow"
     },
     {
+      "from": "person/lodovico-cavaleri",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "person/lorenzo-cecconi",
       "type": "exhibited_at",
       "to": "event/first-brera-triennale-1891",
@@ -57100,6 +57478,20 @@
     },
     {
       "from": "work/al-santuario-d-orta-fattori-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/alba-cairati-1891",
+      "type": "created_by",
+      "to": "person/gerolamo-cairati",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/alba-cairati-1891",
       "type": "exhibited_at",
       "to": "event/first-brera-triennale-1891",
       "certainty": null,
@@ -58517,6 +58909,20 @@
     },
     {
       "from": "work/dautunno-studio-agazzi-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/desolata-barbieri-1891",
+      "type": "created_by",
+      "to": "person/alessandro-barbieri",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/desolata-barbieri-1891",
       "type": "exhibited_at",
       "to": "event/first-brera-triennale-1891",
       "certainty": null,
@@ -60875,6 +61281,20 @@
       "source": null
     },
     {
+      "from": "work/l-alba-dopo-la-battaglia-beltrame-1891",
+      "type": "created_by",
+      "to": "person/achille-beltrame",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/l-alba-dopo-la-battaglia-beltrame-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "work/l-amico-dell-uomo-guidetti-1891",
       "type": "created_by",
       "to": "person/guglielmo-guidetti",
@@ -62156,6 +62576,20 @@
       "source": null
     },
     {
+      "from": "work/lerici-golfo-della-spezia-cavaleri-1891",
+      "type": "created_by",
+      "to": "person/lodovico-cavaleri",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/lerici-golfo-della-spezia-cavaleri-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "work/les-heures-du-matin-segantini-1907",
       "type": "created_by",
       "to": "person/giovanni-segantini",
@@ -63193,6 +63627,20 @@
     },
     {
       "from": "work/nidia-la-cieca-albertini-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/non-m-ama-piu-anastasio-1891",
+      "type": "created_by",
+      "to": "person/pietro-anastasio",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/non-m-ama-piu-anastasio-1891",
       "type": "exhibited_at",
       "to": "event/first-brera-triennale-1891",
       "certainty": null,
@@ -66188,6 +66636,20 @@
       "source": null
     },
     {
+      "from": "work/tempi-passati-gioja-1891",
+      "type": "created_by",
+      "to": "person/edoardo-gioja",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/tempi-passati-gioja-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "work/tempo-grigio-a-chioggia-buttafava-1891",
       "type": "created_by",
       "to": "person/cristoforo-buttafava",
@@ -66763,6 +67225,20 @@
     },
     {
       "from": "work/un-raggio-di-sole-prati-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/un-rivo-a-venezia-alberti-1891",
+      "type": "created_by",
+      "to": "person/eleonora-alberti",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/un-rivo-a-venezia-alberti-1891",
       "type": "exhibited_at",
       "to": "event/first-brera-triennale-1891",
       "certainty": null,
@@ -68234,6 +68710,12 @@
     {
       "from": "event/first-brera-triennale-1891",
       "type": "exhibited",
+      "to": "person/achille-beltrame",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
       "to": "person/achille-dovera",
       "derived": true
     },
@@ -68955,6 +69437,12 @@
       "from": "org/vkhutemas",
       "type": "has_member",
       "to": "person/el-lissitzky",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "person/eleonora-alberti",
       "derived": true
     },
     {
@@ -69878,6 +70366,12 @@
     {
       "from": "event/first-brera-triennale-1891",
       "type": "exhibited",
+      "to": "person/lodovico-cavaleri",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
       "to": "person/lorenzo-cecconi",
       "derived": true
     },
@@ -70767,6 +71261,18 @@
       "from": "event/first-brera-triennale-1891",
       "type": "exhibited",
       "to": "work/al-santuario-d-orta-fattori-1891",
+      "derived": true
+    },
+    {
+      "from": "person/gerolamo-cairati",
+      "type": "created",
+      "to": "work/alba-cairati-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/alba-cairati-1891",
       "derived": true
     },
     {
@@ -71973,6 +72479,18 @@
       "from": "event/first-brera-triennale-1891",
       "type": "exhibited",
       "to": "work/dautunno-studio-agazzi-1891",
+      "derived": true
+    },
+    {
+      "from": "person/alessandro-barbieri",
+      "type": "created",
+      "to": "work/desolata-barbieri-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/desolata-barbieri-1891",
       "derived": true
     },
     {
@@ -73992,6 +74510,18 @@
       "derived": true
     },
     {
+      "from": "person/achille-beltrame",
+      "type": "created",
+      "to": "work/l-alba-dopo-la-battaglia-beltrame-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/l-alba-dopo-la-battaglia-beltrame-1891",
+      "derived": true
+    },
+    {
       "from": "person/guglielmo-guidetti",
       "type": "created",
       "to": "work/l-amico-dell-uomo-guidetti-1891",
@@ -75090,6 +75620,18 @@
       "derived": true
     },
     {
+      "from": "person/lodovico-cavaleri",
+      "type": "created",
+      "to": "work/lerici-golfo-della-spezia-cavaleri-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/lerici-golfo-della-spezia-cavaleri-1891",
+      "derived": true
+    },
+    {
       "from": "person/giovanni-segantini",
       "type": "created",
       "to": "work/les-heures-du-matin-segantini-1907",
@@ -75981,6 +76523,18 @@
       "from": "event/first-brera-triennale-1891",
       "type": "exhibited",
       "to": "work/nidia-la-cieca-albertini-1891",
+      "derived": true
+    },
+    {
+      "from": "person/pietro-anastasio",
+      "type": "created",
+      "to": "work/non-m-ama-piu-anastasio-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/non-m-ama-piu-anastasio-1891",
       "derived": true
     },
     {
@@ -78546,6 +79100,18 @@
       "derived": true
     },
     {
+      "from": "person/edoardo-gioja",
+      "type": "created",
+      "to": "work/tempi-passati-gioja-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/tempi-passati-gioja-1891",
+      "derived": true
+    },
+    {
       "from": "person/cristoforo-buttafava",
       "type": "created",
       "to": "work/tempo-grigio-a-chioggia-buttafava-1891",
@@ -79041,6 +79607,18 @@
       "from": "event/first-brera-triennale-1891",
       "type": "exhibited",
       "to": "work/un-raggio-di-sole-prati-1891",
+      "derived": true
+    },
+    {
+      "from": "person/eleonora-alberti",
+      "type": "created",
+      "to": "work/un-rivo-a-venezia-alberti-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/un-rivo-a-venezia-alberti-1891",
       "derived": true
     },
     {
