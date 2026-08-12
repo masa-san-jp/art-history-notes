@@ -32,5 +32,5 @@ updated: 2026-08-12
 ローマに生まれ、トリノを拠点とした画家。ナポリ、パリ、トリノで学び、山岳風景の雪や光の効果を追究し、
 初期には分割主義の方法を用いた。没年はDOME・Treccaniの1962年とWikidata等の1961年に差があるため、確定せず併記する。
 
-1907年パリ展では、Salle Cの93〜100番に《Mélancolie du soleil》や
+1907年パリ展では、Salle Cの93〜100番に[`《La melanconia del sole / Mélancolie du soleil》`](../works/melanconie-du-soleil-maggi-1906.md)や
 [`《Effet du soleil sur la neige / Effetto di Neve》`](../works/effet-du-soleil-sur-la-neige-maggi-1907.md)など8作品を出品した。
