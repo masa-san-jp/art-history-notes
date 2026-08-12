@@ -29,7 +29,7 @@ space:
   - {role: originated_in, target: place/paris}
 relations:
   - {type: exhibited_at, target: event/eighth-impressionist-exhibition-1886}
-  - {type: diffused_to, target: place/brussels, certainty: scholarly, source: "https://en.wikipedia.org/wiki/Les_Vingt"}
+  - {type: diffused_to, target: place/brussels, certainty: scholarly, source: "https://www.musee-orsay.fr/en/program/whats-on/exhibitions/presentation/neo-impressionism-seurat-paul-klee"}
   - {type: influenced_by, target: concept/ukiyo-e, certainty: scholarly, source: "https://www.moma.org/documents/moma_catalogue_2792_300190140.pdf"}
   - {type: part_of, target: concept/divisionism}
 sources:
@@ -46,6 +46,7 @@ sources:
   - https://en.wikipedia.org/wiki/Divisionism
   - https://en.wikipedia.org/wiki/Les_Vingt
   - https://www.impressionism.nl/1887-les-xx/
+  - https://www.musee-orsay.fr/en/program/whats-on/exhibitions/presentation/neo-impressionism-seurat-paul-klee
 images:
   - url: https://www.artic.edu/iiif/2/2d484387-2509-5e8e-2c43-22f9981972eb/full/843,/0/default.jpg
     source_page: https://www.artic.edu/artworks/27992
@@ -171,12 +172,16 @@ Gallica収録の実物（[ark:/12148/bpt6k850398w](https://gallica.bnf.fr/ark:/1
 会場 rue Laffitte（1886年）のいずれもパリである。Wikidata Q150091 は location に「シカゴ美術館」
 を持っているが、これは明らかなデータ誤りで典拠として使えない（変わらず）。
 
-ベルギーへの伝播は確認できた。1887年2月5日〜3月5日、ブリュッセルの Les XX（Les Vingt）第4回展
+ベルギーへの伝播は確認できた。オルセー美術館の展覧会解説は、1887年にスーラとカミーユ・ピサロが
+ブリュッセルのLes XXが組織した展覧会へ招待され、ベルギーではテオ・ファン・レイセルベルゲ、ウィリー・
+フィンチ、アンリ・ファン・デ・ヴェルデ、ジョルジュ・ルメンらの作品に新印象派が特に強く反響したと記録する
+（[オルセー美術館「Neo-Impressionism From Seurat to Paul Klee」](https://www.musee-orsay.fr/en/program/whats-on/exhibitions/presentation/neo-impressionism-seurat-paul-klee)）。
+1887年2月5日〜3月5日、ブリュッセルの Les XX（Les Vingt）第4回展
 （Ancien Musée royal de peinture）にスーラとピサロが招待出品者として参加し、スーラは
 《グランド・ジャット島》と6点の海景を出品した。英語版Wikipedia「Les Vingt」はスーラの参加を
 1887・1889・1891・1892年、ピサロを1887・1889・1891年とする。この展示を機にテオ・ヴァン・
 レイセルベルグらベルギーの画家が分割主義の技法を採り入れたとされる（[impressionism.nl](https://www.impressionism.nl/1887-les-xx/)）。
-これに基づき `diffused_to` を `place/brussels` に張った。**未確認**: オランダ・イタリアへの
+この複数の記録に基づき `diffused_to` を `place/brussels` に張った。**未確認**: オランダ・イタリアへの
 分割主義の広がりは未着手のまま。
 
 ## 日本の版画との関係

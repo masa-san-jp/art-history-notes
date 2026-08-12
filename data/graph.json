@@ -5886,7 +5886,7 @@
           "type": "diffused_to",
           "target": "place/brussels",
           "certainty": "scholarly",
-          "source": "https://en.wikipedia.org/wiki/Les_Vingt"
+          "source": "https://www.musee-orsay.fr/en/program/whats-on/exhibitions/presentation/neo-impressionism-seurat-paul-klee"
         },
         {
           "type": "influenced_by",
@@ -5912,7 +5912,8 @@
         "https://en.wikipedia.org/wiki/Neo-Impressionism",
         "https://en.wikipedia.org/wiki/Divisionism",
         "https://en.wikipedia.org/wiki/Les_Vingt",
-        "https://www.impressionism.nl/1887-les-xx/"
+        "https://www.impressionism.nl/1887-les-xx/",
+        "https://www.musee-orsay.fr/en/program/whats-on/exhibitions/presentation/neo-impressionism-seurat-paul-klee"
       ],
       "images": [
         {
@@ -57216,7 +57217,7 @@
       "type": "diffused_to",
       "to": "place/brussels",
       "certainty": "scholarly",
-      "source": "https://en.wikipedia.org/wiki/Les_Vingt"
+      "source": "https://www.musee-orsay.fr/en/program/whats-on/exhibitions/presentation/neo-impressionism-seurat-paul-klee"
     },
     {
       "from": "movement/neo-impressionism",
