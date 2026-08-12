@@ -9385,6 +9385,41 @@
       "updated": "2026-08-12",
       "path": "entities/persons/achille-dovera.md"
     },
+    "person/achille-formis": {
+      "id": "person/achille-formis",
+      "uri": "urn:ahn:person/achille-formis",
+      "type": "person",
+      "label_ja": "アキッレ・フォルミス",
+      "label_en": "Achille Formis",
+      "aliases": [
+        "Formis Achille"
+      ],
+      "authority": {
+        "wikidata": null,
+        "ulan": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "独立した人物典拠IDと生没年は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": null,
+        "end": null,
+        "display": "19世紀末にナポリ出身者として活動"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/persons/achille-formis.md"
+    },
     "person/achille-salata": {
       "id": "person/achille-salata",
       "uri": "urn:ahn:person/achille-salata",
@@ -15172,6 +15207,41 @@
       "updated": "2026-08-12",
       "path": "entities/persons/luigi-mion.md"
     },
+    "person/luigi-nono": {
+      "id": "person/luigi-nono",
+      "uri": "urn:ahn:person/luigi-nono",
+      "type": "person",
+      "label_ja": "ルイジ・ノーノ",
+      "label_en": "Luigi Nono",
+      "aliases": [
+        "Nono Luigi"
+      ],
+      "authority": {
+        "wikidata": null,
+        "ulan": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "独立した人物典拠IDと生没年は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": null,
+        "end": null,
+        "display": "19世紀末にヴェネツィア出身者として活動"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/persons/luigi-nono.md"
+    },
     "person/luigi-rosa": {
       "id": "person/luigi-rosa",
       "uri": "urn:ahn:person/luigi-rosa",
@@ -20612,6 +20682,42 @@
       "updated": "2026-08-12",
       "path": "entities/works/apres-midi-d-octobre-fornara-1907.md"
     },
+    "work/assediato-quaranta-1891": {
+      "id": "work/assediato-quaranta-1891",
+      "uri": "urn:ahn:work/assediato-quaranta-1891",
+      "type": "work",
+      "label_ja": "ジュゼッペ・クァランタ《Assediato》",
+      "label_en": "Assediato",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "作品の独立典拠IDと現所在は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年（1891年展カタログ226番）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/giuseppe-quaranta"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/works/assediato-quaranta-1891.md"
+    },
     "work/aube-sur-le-lac-de-garde-focardi-1907": {
       "id": "work/aube-sur-le-lac-de-garde-focardi-1907",
       "uri": "urn:ahn:work/aube-sur-le-lac-de-garde-focardi-1907",
@@ -22476,6 +22582,42 @@
       "status": "draft",
       "updated": "2026-08-12",
       "path": "entities/works/deux-meres-segantini-1907.md"
+    },
+    "work/dirupi-in-valle-del-masino-formis-1891": {
+      "id": "work/dirupi-in-valle-del-masino-formis-1891",
+      "uri": "urn:ahn:work/dirupi-in-valle-del-masino-formis-1891",
+      "type": "work",
+      "label_ja": "アキッレ・フォルミス《Dirupi in Valle del Masino》",
+      "label_en": "Dirupi in Valle del Masino",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "作品の独立典拠IDと現所在は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年（1891年展カタログ332番）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/achille-formis"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/works/dirupi-in-valle-del-masino-formis-1891.md"
     },
     "work/disegni-acquarelli-mentessi-1891": {
       "id": "work/disegni-acquarelli-mentessi-1891",
@@ -31772,11 +31914,11 @@
       "updated": "2026-08-12",
       "path": "entities/works/piazza-caricamento-nomellini-1891.md"
     },
-    "work/piccola-pastora-fornara-1891": {
-      "id": "work/piccola-pastora-fornara-1891",
-      "uri": "urn:ahn:work/piccola-pastora-fornara-1891",
+    "work/piccola-pastora-quaranta-1891": {
+      "id": "work/piccola-pastora-quaranta-1891",
+      "uri": "urn:ahn:work/piccola-pastora-quaranta-1891",
       "type": "work",
-      "label_ja": "カルロ・フォルナラ《Piccola pastora》",
+      "label_ja": "ジュゼッペ・クァランタ《Piccola pastora》",
       "label_en": "Piccola pastora",
       "authority": {
         "wikidata": null,
@@ -31788,13 +31930,13 @@
       "time": {
         "start": "1891",
         "end": "1891",
-        "display": "1891年展出品"
+        "display": "1891年（1891年展カタログ229番）"
       },
       "space": [],
       "relations": [
         {
           "type": "created_by",
-          "target": "person/carlo-fornara"
+          "target": "person/giuseppe-quaranta"
         },
         {
           "type": "exhibited_at",
@@ -31802,11 +31944,11 @@
         }
       ],
       "sources": [
-        "https://upload.wikimedia.org/wikipedia/commons/2/24/Prima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
       ],
       "status": "draft",
       "updated": "2026-08-12",
-      "path": "entities/works/piccola-pastora-fornara-1891.md"
+      "path": "entities/works/piccola-pastora-quaranta-1891.md"
     },
     "work/poesia-sassi-1891": {
       "id": "work/poesia-sassi-1891",
@@ -32963,6 +33105,42 @@
       "status": "draft",
       "updated": "2026-08-12",
       "path": "entities/works/ritorno-in-caserma-fattori-1891.md"
+    },
+    "work/ritorno-nono-1891": {
+      "id": "work/ritorno-nono-1891",
+      "uri": "urn:ahn:work/ritorno-nono-1891",
+      "type": "work",
+      "label_ja": "ルイジ・ノーノ《Ritorno》",
+      "label_en": "Ritorno",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "作品の独立典拠IDと現所在は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年（1891年展カタログ227番）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/luigi-nono"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/works/ritorno-nono-1891.md"
     },
     "work/ritratto-abate-stoppani-marai-1891": {
       "id": "work/ritratto-abate-stoppani-marai-1891",
@@ -34958,6 +35136,42 @@
       "status": "draft",
       "updated": "2026-08-12",
       "path": "entities/works/sulla-montagna-bordignon-1891.md"
+    },
+    "work/sulla-piazza-di-talamona-formis-1891": {
+      "id": "work/sulla-piazza-di-talamona-formis-1891",
+      "uri": "urn:ahn:work/sulla-piazza-di-talamona-formis-1891",
+      "type": "work",
+      "label_ja": "アキッレ・フォルミス《Sulla piazza di Talamona (Valtellina)》",
+      "label_en": "Sulla piazza di Talamona (Valtellina)",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "作品の独立典拠IDと現所在は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年（1891年展カタログ231番）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/achille-formis"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/works/sulla-piazza-di-talamona-formis-1891.md"
     },
     "work/sulle-alpi-scotti-1891": {
       "id": "work/sulle-alpi-scotti-1891",
@@ -38198,6 +38412,13 @@
       "source": null
     },
     {
+      "from": "person/achille-formis",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "person/achille-salata",
       "type": "exhibited_at",
       "to": "event/first-brera-triennale-1891",
@@ -39535,6 +39756,13 @@
       "source": null
     },
     {
+      "from": "person/luigi-nono",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "person/luigi-rosa",
       "type": "exhibited_at",
       "to": "event/first-brera-triennale-1891",
@@ -40189,6 +40417,20 @@
       "from": "work/apres-midi-d-octobre-fornara-1907",
       "type": "exhibited_at",
       "to": "event/salon-divisionnistes-italiens-paris-1907",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/assediato-quaranta-1891",
+      "type": "created_by",
+      "to": "person/giuseppe-quaranta",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/assediato-quaranta-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
       "certainty": null,
       "source": null
     },
@@ -40913,6 +41155,20 @@
       "from": "work/deux-meres-segantini-1907",
       "type": "exhibited_at",
       "to": "event/salon-divisionnistes-italiens-paris-1907",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/dirupi-in-valle-del-masino-formis-1891",
+      "type": "created_by",
+      "to": "person/achille-formis",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/dirupi-in-valle-del-masino-formis-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
       "certainty": null,
       "source": null
     },
@@ -44473,14 +44729,14 @@
       "source": null
     },
     {
-      "from": "work/piccola-pastora-fornara-1891",
+      "from": "work/piccola-pastora-quaranta-1891",
       "type": "created_by",
-      "to": "person/carlo-fornara",
+      "to": "person/giuseppe-quaranta",
       "certainty": null,
       "source": null
     },
     {
-      "from": "work/piccola-pastora-fornara-1891",
+      "from": "work/piccola-pastora-quaranta-1891",
       "type": "exhibited_at",
       "to": "event/first-brera-triennale-1891",
       "certainty": null,
@@ -44922,6 +45178,20 @@
     },
     {
       "from": "work/ritorno-in-caserma-fattori-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/ritorno-nono-1891",
+      "type": "created_by",
+      "to": "person/luigi-nono",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/ritorno-nono-1891",
       "type": "exhibited_at",
       "to": "event/first-brera-triennale-1891",
       "certainty": null,
@@ -45678,6 +45948,20 @@
     },
     {
       "from": "work/sulla-montagna-bordignon-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/sulla-piazza-di-talamona-formis-1891",
+      "type": "created_by",
+      "to": "person/achille-formis",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/sulla-piazza-di-talamona-formis-1891",
       "type": "exhibited_at",
       "to": "event/first-brera-triennale-1891",
       "certainty": null,
@@ -47260,6 +47544,12 @@
     {
       "from": "event/first-brera-triennale-1891",
       "type": "exhibited",
+      "to": "person/achille-formis",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
       "to": "person/achille-salata",
       "derived": true
     },
@@ -48316,6 +48606,12 @@
     {
       "from": "event/first-brera-triennale-1891",
       "type": "exhibited",
+      "to": "person/luigi-nono",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
       "to": "person/luigi-rosa",
       "derived": true
     },
@@ -48845,6 +49141,18 @@
       "from": "event/salon-divisionnistes-italiens-paris-1907",
       "type": "exhibited",
       "to": "work/apres-midi-d-octobre-fornara-1907",
+      "derived": true
+    },
+    {
+      "from": "person/giuseppe-quaranta",
+      "type": "created",
+      "to": "work/assediato-quaranta-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/assediato-quaranta-1891",
       "derived": true
     },
     {
@@ -49457,6 +49765,18 @@
       "from": "event/salon-divisionnistes-italiens-paris-1907",
       "type": "exhibited",
       "to": "work/deux-meres-segantini-1907",
+      "derived": true
+    },
+    {
+      "from": "person/achille-formis",
+      "type": "created",
+      "to": "work/dirupi-in-valle-del-masino-formis-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/dirupi-in-valle-del-masino-formis-1891",
       "derived": true
     },
     {
@@ -52508,15 +52828,15 @@
       "derived": true
     },
     {
-      "from": "person/carlo-fornara",
+      "from": "person/giuseppe-quaranta",
       "type": "created",
-      "to": "work/piccola-pastora-fornara-1891",
+      "to": "work/piccola-pastora-quaranta-1891",
       "derived": true
     },
     {
       "from": "event/first-brera-triennale-1891",
       "type": "exhibited",
-      "to": "work/piccola-pastora-fornara-1891",
+      "to": "work/piccola-pastora-quaranta-1891",
       "derived": true
     },
     {
@@ -52895,6 +53215,18 @@
       "from": "event/first-brera-triennale-1891",
       "type": "exhibited",
       "to": "work/ritorno-in-caserma-fattori-1891",
+      "derived": true
+    },
+    {
+      "from": "person/luigi-nono",
+      "type": "created",
+      "to": "work/ritorno-nono-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/ritorno-nono-1891",
       "derived": true
     },
     {
@@ -53543,6 +53875,18 @@
       "from": "event/first-brera-triennale-1891",
       "type": "exhibited",
       "to": "work/sulla-montagna-bordignon-1891",
+      "derived": true
+    },
+    {
+      "from": "person/achille-formis",
+      "type": "created",
+      "to": "work/sulla-piazza-di-talamona-formis-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/sulla-piazza-di-talamona-formis-1891",
       "derived": true
     },
     {

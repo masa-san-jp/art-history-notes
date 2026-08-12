@@ -37,8 +37,7 @@ updated: 2026-08-12
 公式カタログ本文では「Fornara Carlo di Prestinone Val Vigezzo」として、211番の
 [`《Ricordanze》`](../works/ricordanze-fornara-1891.md)と230番
 [`「Bottega di calderajo」`](../works/la-bottega-del-calderaio-fornara-1891.md)が確認できる。後年の資料に現れる作品名
-「La bottega del calderaio」と綴りが異なるため、カタログ表記を残す。さらに同カタログ本文では、
-229番に[`《Piccola pastora》`](../works/piccola-pastora-fornara-1891.md)が掲載される。
+「La bottega del calderaio」と綴りが異なるため、カタログ表記を残す。
 
 1907年パリ展では、Salle Dの225〜252番に28件を出品した。DoMEのカタログ記録に基づき、各件を媒体と
 カタログ番号を保持する個別の`work`エンティティとして整理した。制作年・寸法・現所在は、作品ごとの
