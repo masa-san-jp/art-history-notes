@@ -11553,6 +11553,41 @@
       "updated": "2026-08-09",
       "path": "entities/persons/pierre-lods.md"
     },
+    "person/pietro-fragiacomo": {
+      "id": "person/pietro-fragiacomo",
+      "uri": "urn:ahn:person/pietro-fragiacomo",
+      "type": "person",
+      "label_ja": "ピエトロ・フラジャコモ",
+      "label_en": "Pietro Fragiacomo",
+      "authority": {
+        "wikidata": "Q3903892",
+        "ulan": "500006704",
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": "1856-08-14",
+        "end": "1922-05-18",
+        "display": "1856年8月14日トリエステ生まれ — 1922年5月18日ヴェネツィア没"
+      },
+      "space": [
+        {
+          "role": "active_in",
+          "target": "place/venice"
+        }
+      ],
+      "relations": [],
+      "sources": [
+        "https://www.treccani.it/enciclopedia/pietro-fragiacomo_%28Dizionario-Biografico%29/",
+        "https://www.wikidata.org/wiki/Q3903892",
+        "https://www.getty.edu/vow/ULANFullDisplay?find=&nation=&page=1&role=&subjectid=500006704",
+        "https://www.fondazionecrtrieste.it/wp-content/uploads/2021/06/Pietro_Fragiacomo.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/persons/pietro-fragiacomo.md"
+    },
     "person/pietro-villani": {
       "id": "person/pietro-villani",
       "uri": "urn:ahn:person/pietro-villani",
@@ -17522,6 +17557,46 @@
       "updated": "2026-08-12",
       "path": "entities/works/indivisible-ramponi-1907.md"
     },
+    "work/inverno-fragiacomo-1890": {
+      "id": "work/inverno-fragiacomo-1890",
+      "uri": "urn:ahn:work/inverno-fragiacomo-1890",
+      "type": "work",
+      "label_ja": "ピエトロ・フラジャコモ《Inverno》",
+      "label_en": "Inverno",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "作品の独立典拠IDは未確認。文化財カタログ、ブレラ展ガイド、1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": "1890",
+        "end": "1890",
+        "display": "1890年（1891年展カタログ244番）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/pietro-fragiacomo"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://catalogo.beniculturali.it/detail/HistoricOrArtisticProperty/1200489472",
+        "https://www.fondazionecrtrieste.it/wp-content/uploads/2021/06/Pietro_Fragiacomo.pdf",
+        "https://galleriemaspes.com/immagini_sito/Cataloghi%20pdf/Brera_Guide.pdf",
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf",
+        "https://www.wikidata.org/wiki/Q3903892"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/works/inverno-fragiacomo-1890.md"
+    },
     "work/l-annonceation-previati-1907": {
       "id": "work/l-annonceation-previati-1907",
       "uri": "urn:ahn:work/l-annonceation-previati-1907",
@@ -20350,6 +20425,46 @@
       "updated": "2026-08-12",
       "path": "entities/works/ourson-magrini-1907.md"
     },
+    "work/pace-fragiacomo-1891": {
+      "id": "work/pace-fragiacomo-1891",
+      "uri": "urn:ahn:work/pace-fragiacomo-1891",
+      "type": "work",
+      "label_ja": "ピエトロ・フラジャコモ《Pace》",
+      "label_en": "Pace",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "作品の独立典拠IDは未確認。オークション・カタログ、ブレラ展ガイド、1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年（1891年展カタログ223番）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/pietro-fragiacomo"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://www.dorotheum.com/en/l/6408848/",
+        "https://www.fondazionecrtrieste.it/wp-content/uploads/2021/06/Pietro_Fragiacomo.pdf",
+        "https://galleriemaspes.com/immagini_sito/Cataloghi%20pdf/Brera_Guide.pdf",
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf",
+        "https://www.wikidata.org/wiki/Q3903892"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/works/pace-fragiacomo-1891.md"
+    },
     "work/paesaggio-sole-d-inverno-longoni-1891": {
       "id": "work/paesaggio-sole-d-inverno-longoni-1891",
       "uri": "urn:ahn:work/paesaggio-sole-d-inverno-longoni-1891",
@@ -21731,6 +21846,46 @@
       "status": "draft",
       "updated": "2026-08-12",
       "path": "entities/works/ricordanze-fornara-1891.md"
+    },
+    "work/riposo-fragiacomo-1891": {
+      "id": "work/riposo-fragiacomo-1891",
+      "uri": "urn:ahn:work/riposo-fragiacomo-1891",
+      "type": "work",
+      "label_ja": "ピエトロ・フラジャコモ《Riposo》",
+      "label_en": "Riposo",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "作品の独立典拠IDは未確認。文化財カタログ、ブレラ展ガイド、1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年頃（1891年展カタログ225番）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/pietro-fragiacomo"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://catalogo.beniculturali.it/detail/HistoricOrArtisticProperty/1200489473",
+        "https://cms.lagallerianazionale.com/wp-content/uploads/2023/07/CS-%E2%80%93-Panorama-XIX-%E2%80%93-Galleria-Nazionale-%E2%80%93-ITA.pdf",
+        "https://galleriemaspes.com/immagini_sito/Cataloghi%20pdf/Brera_Guide.pdf",
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf",
+        "https://www.wikidata.org/wiki/Q3903892"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/works/riposo-fragiacomo-1891.md"
     },
     "work/ritratto-costume-albanese-rastellini-1891": {
       "id": "work/ritratto-costume-albanese-rastellini-1891",
@@ -25529,6 +25684,11 @@
       "source": null
     },
     {
+      "from": "person/pietro-fragiacomo",
+      "type": "active_in",
+      "to": "place/venice"
+    },
+    {
       "from": "person/pietro-villani",
       "type": "exhibited_at",
       "to": "event/first-brera-triennale-1891",
@@ -26677,6 +26837,20 @@
       "source": null
     },
     {
+      "from": "work/inverno-fragiacomo-1890",
+      "type": "created_by",
+      "to": "person/pietro-fragiacomo",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/inverno-fragiacomo-1890",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "work/l-annonceation-previati-1907",
       "type": "created_by",
       "to": "person/gaetano-previati",
@@ -27776,6 +27950,20 @@
       "source": null
     },
     {
+      "from": "work/pace-fragiacomo-1891",
+      "type": "created_by",
+      "to": "person/pietro-fragiacomo",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/pace-fragiacomo-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "work/paesaggio-sole-d-inverno-longoni-1891",
       "type": "created_by",
       "to": "person/emilio-longoni",
@@ -28302,6 +28490,20 @@
     },
     {
       "from": "work/ricordanze-fornara-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/riposo-fragiacomo-1891",
+      "type": "created_by",
+      "to": "person/pietro-fragiacomo",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/riposo-fragiacomo-1891",
       "type": "exhibited_at",
       "to": "event/first-brera-triennale-1891",
       "certainty": null,
@@ -31172,6 +31374,18 @@
       "derived": true
     },
     {
+      "from": "person/pietro-fragiacomo",
+      "type": "created",
+      "to": "work/inverno-fragiacomo-1890",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/inverno-fragiacomo-1890",
+      "derived": true
+    },
+    {
       "from": "person/gaetano-previati",
       "type": "created",
       "to": "work/l-annonceation-previati-1907",
@@ -32114,6 +32328,18 @@
       "derived": true
     },
     {
+      "from": "person/pietro-fragiacomo",
+      "type": "created",
+      "to": "work/pace-fragiacomo-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/pace-fragiacomo-1891",
+      "derived": true
+    },
+    {
       "from": "person/emilio-longoni",
       "type": "created",
       "to": "work/paesaggio-sole-d-inverno-longoni-1891",
@@ -32567,6 +32793,18 @@
       "from": "event/first-brera-triennale-1891",
       "type": "exhibited",
       "to": "work/ricordanze-fornara-1891",
+      "derived": true
+    },
+    {
+      "from": "person/pietro-fragiacomo",
+      "type": "created",
+      "to": "work/riposo-fragiacomo-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/riposo-fragiacomo-1891",
       "derived": true
     },
     {
