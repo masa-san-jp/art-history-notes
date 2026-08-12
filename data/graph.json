@@ -9270,6 +9270,45 @@
       "updated": "2026-08-12",
       "path": "entities/persons/achille-tominetti.md"
     },
+    "person/adolphe-magrini": {
+      "id": "person/adolphe-magrini",
+      "uri": "urn:ahn:person/adolphe-magrini",
+      "type": "person",
+      "label_ja": "アドルフ・マグリーニ",
+      "label_en": "Adolphe Magrini",
+      "authority": {
+        "wikidata": null,
+        "ulan": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "検証済みの独立典拠IDは未確認。Database of Modern Exhibitionsと文化財カタログ・専門資料を用いる"
+      },
+      "time": {
+        "start": "1876",
+        "end": "1957",
+        "display": "1876年フェラーラ生まれ — 1957年ミラノ没"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "belongs_to",
+          "target": "movement/italian-divisionism"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/salon-divisionnistes-italiens-paris-1907"
+        }
+      ],
+      "sources": [
+        "https://exhibitions.univie.ac.at/person/3334",
+        "https://catalogo.beniculturali.it/search/Agent/a7301cc409bc5d26bf067eb2443f0265",
+        "https://dizionariodartesartori.it/artisti/magrini-adolfo",
+        "https://www.gonnelli.it/it/asta-0017-1/magrini-adolfo-studio-di-nudo-di-giovinetto-da.asp"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/persons/adolphe-magrini.md"
+    },
     "person/adriano-baracchini-caputi": {
       "id": "person/adriano-baracchini-caputi",
       "uri": "urn:ahn:person/adriano-baracchini-caputi",
@@ -9563,6 +9602,43 @@
       "status": "draft",
       "updated": "2026-08-12",
       "path": "entities/persons/carlo-fornara.md"
+    },
+    "person/carlo-prada": {
+      "id": "person/carlo-prada",
+      "uri": "urn:ahn:person/carlo-prada",
+      "type": "person",
+      "label_ja": "カルロ・プラーダ",
+      "label_en": "Carlo Prada",
+      "authority": {
+        "wikidata": null,
+        "ulan": "500339761",
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "検証器が採用する独立典拠IDは未確認。ULAN参照とDatabase of Modern Exhibitionsを用いる"
+      },
+      "time": {
+        "start": "1884",
+        "end": "1960",
+        "display": "1884年ミラノ生まれ — 1960年没"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "belongs_to",
+          "target": "movement/italian-divisionism"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/salon-divisionnistes-italiens-paris-1907"
+        }
+      ],
+      "sources": [
+        "https://exhibitions.univie.ac.at/person/ulan/500339761",
+        "https://www.santagostinoaste.it/autori/prada-carlo.asp"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/persons/carlo-prada.md"
     },
     "person/cesare-maggi": {
       "id": "person/cesare-maggi",
@@ -10314,6 +10390,45 @@
       "updated": "2026-08-12",
       "path": "entities/persons/giuseppe-pellizza-da-volpedo.md"
     },
+    "person/gottardo-segantini": {
+      "id": "person/gottardo-segantini",
+      "uri": "urn:ahn:person/gottardo-segantini",
+      "type": "person",
+      "label_ja": "ゴッタルド・セガンティーニ",
+      "label_en": "Gottardo Segantini",
+      "authority": {
+        "wikidata": null,
+        "ulan": "500171185",
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "検証器が採用する独立典拠IDは未確認。ULAN参照と美術館・図書館資料を用いる"
+      },
+      "time": {
+        "start": "1882-05-25",
+        "end": "1974-06-16",
+        "display": "1882年5月25日プジアーノ生まれ — 1974年6月16日マローヤ没"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "belongs_to",
+          "target": "movement/italian-divisionism"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/salon-divisionnistes-italiens-paris-1907"
+        }
+      ],
+      "sources": [
+        "https://exhibitions.univie.ac.at/person/ulan/500171185",
+        "https://www.britishmuseum.org/collection/term/BIOG143198",
+        "https://www.nga.gov/artists/36793-gottardo-segantini",
+        "https://www.deutsche-digitale-bibliothek.de/person/gnd/118760572"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/persons/gottardo-segantini.md"
+    },
     "person/guido-cinotti": {
       "id": "person/guido-cinotti",
       "uri": "urn:ahn:person/guido-cinotti",
@@ -10744,6 +10859,45 @@
       "status": "stub",
       "updated": "2026-08-10",
       "path": "entities/persons/louis-vauxcelles.md"
+    },
+    "person/mario-segantini": {
+      "id": "person/mario-segantini",
+      "uri": "urn:ahn:person/mario-segantini",
+      "type": "person",
+      "label_ja": "マリオ・セガンティーニ",
+      "label_en": "Mario Segantini",
+      "authority": {
+        "wikidata": "Q43136835",
+        "ulan": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": "1885-03-31",
+        "end": "1916-02",
+        "display": "1885年3月31日ミラノ生まれ — 1916年2月マローヤ没"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "belongs_to",
+          "target": "movement/italian-divisionism"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/salon-divisionnistes-italiens-paris-1907"
+        }
+      ],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q43136835",
+        "https://exhibitions.univie.ac.at/person/gnd/108964910X",
+        "https://www.berardiarte.it/artisti/mario-segantini/",
+        "https://mageda.de/datenbank/kuenstlerdetails/15125/segantini-mario"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/persons/mario-segantini.md"
     },
     "person/nguyen-gia-tri": {
       "id": "person/nguyen-gia-tri",
@@ -16762,6 +16916,20 @@
       "source": null
     },
     {
+      "from": "person/adolphe-magrini",
+      "type": "belongs_to",
+      "to": "movement/italian-divisionism",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "person/adolphe-magrini",
+      "type": "exhibited_at",
+      "to": "event/salon-divisionnistes-italiens-paris-1907",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "person/adriano-baracchini-caputi",
       "type": "belongs_to",
       "to": "movement/italian-divisionism",
@@ -16839,6 +17007,20 @@
     },
     {
       "from": "person/carlo-fornara",
+      "type": "exhibited_at",
+      "to": "event/salon-divisionnistes-italiens-paris-1907",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "person/carlo-prada",
+      "type": "belongs_to",
+      "to": "movement/italian-divisionism",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "person/carlo-prada",
       "type": "exhibited_at",
       "to": "event/salon-divisionnistes-italiens-paris-1907",
       "certainty": null,
@@ -17027,6 +17209,20 @@
       "source": null
     },
     {
+      "from": "person/gottardo-segantini",
+      "type": "belongs_to",
+      "to": "movement/italian-divisionism",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "person/gottardo-segantini",
+      "type": "exhibited_at",
+      "to": "event/salon-divisionnistes-italiens-paris-1907",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "person/guido-cinotti",
       "type": "belongs_to",
       "to": "movement/italian-divisionism",
@@ -17090,6 +17286,20 @@
       "from": "person/liubov-popova",
       "type": "died_in",
       "to": "place/moscow"
+    },
+    {
+      "from": "person/mario-segantini",
+      "type": "belongs_to",
+      "to": "movement/italian-divisionism",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "person/mario-segantini",
+      "type": "exhibited_at",
+      "to": "event/salon-divisionnistes-italiens-paris-1907",
+      "certainty": null,
+      "source": null
     },
     {
       "from": "person/piero-focardi",
@@ -18499,6 +18709,18 @@
     {
       "from": "movement/italian-divisionism",
       "type": "has_member",
+      "to": "person/adolphe-magrini",
+      "derived": true
+    },
+    {
+      "from": "event/salon-divisionnistes-italiens-paris-1907",
+      "type": "exhibited",
+      "to": "person/adolphe-magrini",
+      "derived": true
+    },
+    {
+      "from": "movement/italian-divisionism",
+      "type": "has_member",
       "to": "person/adriano-baracchini-caputi",
       "derived": true
     },
@@ -18548,6 +18770,18 @@
       "from": "event/salon-divisionnistes-italiens-paris-1907",
       "type": "exhibited",
       "to": "person/carlo-fornara",
+      "derived": true
+    },
+    {
+      "from": "movement/italian-divisionism",
+      "type": "has_member",
+      "to": "person/carlo-prada",
+      "derived": true
+    },
+    {
+      "from": "event/salon-divisionnistes-italiens-paris-1907",
+      "type": "exhibited",
+      "to": "person/carlo-prada",
       "derived": true
     },
     {
@@ -18679,6 +18913,18 @@
     {
       "from": "movement/italian-divisionism",
       "type": "has_member",
+      "to": "person/gottardo-segantini",
+      "derived": true
+    },
+    {
+      "from": "event/salon-divisionnistes-italiens-paris-1907",
+      "type": "exhibited",
+      "to": "person/gottardo-segantini",
+      "derived": true
+    },
+    {
+      "from": "movement/italian-divisionism",
+      "type": "has_member",
       "to": "person/guido-cinotti",
       "derived": true
     },
@@ -18704,6 +18950,18 @@
       "from": "org/vkhutemas",
       "type": "has_member",
       "to": "person/liubov-popova",
+      "derived": true
+    },
+    {
+      "from": "movement/italian-divisionism",
+      "type": "has_member",
+      "to": "person/mario-segantini",
+      "derived": true
+    },
+    {
+      "from": "event/salon-divisionnistes-italiens-paris-1907",
+      "type": "exhibited",
+      "to": "person/mario-segantini",
       "derived": true
     },
     {
