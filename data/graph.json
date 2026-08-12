@@ -4163,13 +4163,13 @@
           "type": "diffused_to",
           "target": "place/brussels",
           "certainty": "scholarly",
-          "source": "https://www.nationalgallery.org.uk/about-us/press-and-media/press-releases-archive/inventing-impressionism"
+          "source": "https://www.musee-orsay.fr/sites/default/files/2022-06/SalonsExpositions_1673-1961_v1_20220707.pdf"
         },
         {
           "type": "diffused_to",
           "target": "place/new-york-city",
           "certainty": "scholarly",
-          "source": "https://www.nationalgallery.org.uk/about-us/press-and-media/press-releases-archive/inventing-impressionism"
+          "source": "https://www.metmuseum.org/zh/essays/william-merritt-chase-1849-1916"
         }
       ],
       "images": [
@@ -4202,7 +4202,10 @@
         "https://www.getty.edu/education/for_teachers/curricula/impressionism/background1.html",
         "https://en.wikipedia.org/wiki/Fondation_Monet_in_Giverny",
         "https://en.wikipedia.org/wiki/La_Japonaise_(painting)",
-        "https://collections.mfa.org/objects/33556"
+        "https://collections.mfa.org/objects/33556",
+        "https://www.nationalgallery.org.uk/about-us/press-and-media/press-releases-archive/inventing-impressionism",
+        "https://www.metmuseum.org/zh/essays/william-merritt-chase-1849-1916",
+        "https://www.musee-orsay.fr/sites/default/files/2022-06/SalonsExpositions_1673-1961_v1_20220707.pdf"
       ],
       "status": "verified",
       "updated": "2026-08-11",
@@ -56796,14 +56799,14 @@
       "type": "diffused_to",
       "to": "place/brussels",
       "certainty": "scholarly",
-      "source": "https://www.nationalgallery.org.uk/about-us/press-and-media/press-releases-archive/inventing-impressionism"
+      "source": "https://www.musee-orsay.fr/sites/default/files/2022-06/SalonsExpositions_1673-1961_v1_20220707.pdf"
     },
     {
       "from": "movement/impressionism",
       "type": "diffused_to",
       "to": "place/new-york-city",
       "certainty": "scholarly",
-      "source": "https://www.nationalgallery.org.uk/about-us/press-and-media/press-releases-archive/inventing-impressionism"
+      "source": "https://www.metmuseum.org/zh/essays/william-merritt-chase-1849-1916"
     },
     {
       "from": "movement/impressionism",

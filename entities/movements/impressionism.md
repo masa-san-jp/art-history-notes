@@ -35,8 +35,8 @@ relations:
   - {type: influenced_by, target: movement/barbizon-school, certainty: scholarly, source: "https://www.getty.edu/education/for_teachers/curricula/impressionism/background1.html"}
   - {type: influenced_by, target: movement/utagawa-school, certainty: scholarly, source: "https://en.wikipedia.org/wiki/Fondation_Monet_in_Giverny"}
   - {type: diffused_to, target: place/london, certainty: scholarly, source: "https://www.nationalgallery.org.uk/about-us/press-and-media/press-releases-archive/inventing-impressionism"}
-  - {type: diffused_to, target: place/brussels, certainty: scholarly, source: "https://www.nationalgallery.org.uk/about-us/press-and-media/press-releases-archive/inventing-impressionism"}
-  - {type: diffused_to, target: place/new-york-city, certainty: scholarly, source: "https://www.nationalgallery.org.uk/about-us/press-and-media/press-releases-archive/inventing-impressionism"}
+  - {type: diffused_to, target: place/brussels, certainty: scholarly, source: "https://www.musee-orsay.fr/sites/default/files/2022-06/SalonsExpositions_1673-1961_v1_20220707.pdf"}
+  - {type: diffused_to, target: place/new-york-city, certainty: scholarly, source: "https://www.metmuseum.org/zh/essays/william-merritt-chase-1849-1916"}
 images:
   - url: https://openaccess-cdn.clevelandart.org/1950.89/1950.89_web.jpg
     source_page: https://www.clevelandart.org/art/1950.89
@@ -63,6 +63,9 @@ sources:
   - https://en.wikipedia.org/wiki/Fondation_Monet_in_Giverny
   - https://en.wikipedia.org/wiki/La_Japonaise_(painting)
   - https://collections.mfa.org/objects/33556
+  - https://www.nationalgallery.org.uk/about-us/press-and-media/press-releases-archive/inventing-impressionism
+  - https://www.metmuseum.org/zh/essays/william-merritt-chase-1849-1916
+  - https://www.musee-orsay.fr/sites/default/files/2022-06/SalonsExpositions_1673-1961_v1_20220707.pdf
 status: verified
 updated: 2026-08-11
 ---
@@ -185,16 +188,16 @@ start/end に置く）に従い、括りが公に成立した最初の合同展�
 
 - **ロンドン（1870〜1874年）**: デュラン＝リュエルは普仏戦争とパリ・コミューンを避けてロンドンにいた
   モネとピサロを知り、メイフェアに開いた画廊で1870〜1874年に作品を展示した。これは国外で最初期に
-  確認できる画商経由の受容経路である。
+  確認できる画商経由の受容経路である（[ナショナル・ギャラリー「Inventing Impressionism」](https://www.nationalgallery.org.uk/about-us/press-and-media/press-releases-archive/inventing-impressionism)）。
 - **ニューヨーク（1886年4月）**: メトロポリタン美術館の解説は、デュラン＝リュエルがパリの主要な
   印象派の画家による約300点の大規模展をニューヨークで開いたと記録する。ウィリアム・メリット・チェイスが
   モネ、ドガ、ピサロ、カイユボットらの作品に接する機会になったと説明されており、単なる支店開設ではなく、
-  現地の画家が作品を見る具体的な受容の場として記録できる。
+  現地の画家が作品を見る具体的な受容の場として記録できる（[メトロポリタン美術館「William Merritt Chase」](https://www.metmuseum.org/zh/essays/william-merritt-chase-1849-1916)）。
 - **ブリュッセル（1894年）**: オルセー美術館の展覧会一覧は、デュラン＝リュエル画廊を経由した
   「Exposition du Cercle “Pour l'Art”」を、ブリュッセルの近代美術館で1894年1〜2月に開催された
-  印象派展として載せている。ここでは新印象派のスーラを中心とした別経路と混同せず、画商の巡回・市場経路として扱う。
+  印象派展として載せている（[オルセー美術館「Salons et expositions 1673–1961」](https://www.musee-orsay.fr/sites/default/files/2022-06/SalonsExpositions_1673-1961_v1_20220707.pdf)）。ここでは新印象派のスーラを中心とした別経路と混同せず、画商の巡回・市場経路として扱う。
 - **ロンドン（1905年）**: ナショナル・ギャラリーは、デュラン＝リュエルがグラフトン・ギャラリーズで
-  315点を展示した1905年の展覧会を、彼の国際的な活動の到達点として紹介している。
+  315点を展示した1905年の展覧会を、彼の国際的な活動の到達点として紹介している（[ナショナル・ギャラリー「Inventing Impressionism」](https://www.nationalgallery.org.uk/about-us/press-and-media/press-releases-archive/inventing-impressionism)）。
 
 これらは、印象派という名称の全担い手が同じ時期に国外へ移動したことを意味しない。画商が作品を買い集め、
 画廊・展覧会・市場を接続した経路である。したがって本項の3本の `diffused_to` は、都市への恒常的な活動拠点
