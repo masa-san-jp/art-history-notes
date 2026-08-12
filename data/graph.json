@@ -669,6 +669,12 @@
         },
         {
           "type": "influenced_by",
+          "target": "movement/de-stijl",
+          "certainty": "scholarly",
+          "source": "https://www.mfah.org/blogs/inside-mfah/gyula-kosice-and-rise-argentinean-avant-garde"
+        },
+        {
+          "type": "influenced_by",
           "target": "movement/constructivism",
           "certainty": "scholarly",
           "source": "https://www.mfah.org/blogs/inside-mfah/gyula-kosice-and-rise-argentinean-avant-garde"
@@ -13221,6 +13227,13 @@
     {
       "from": "movement/arte-madi",
       "type": "influenced_by",
+      "to": "movement/de-stijl",
+      "certainty": "scholarly",
+      "source": "https://www.mfah.org/blogs/inside-mfah/gyula-kosice-and-rise-argentinean-avant-garde"
+    },
+    {
+      "from": "movement/arte-madi",
+      "type": "influenced_by",
       "to": "movement/constructivism",
       "certainty": "scholarly",
       "source": "https://www.mfah.org/blogs/inside-mfah/gyula-kosice-and-rise-argentinean-avant-garde"
@@ -15050,6 +15063,12 @@
     {
       "from": "person/gyula-kosice",
       "type": "created",
+      "to": "movement/arte-madi",
+      "derived": true
+    },
+    {
+      "from": "movement/de-stijl",
+      "type": "influenced",
       "to": "movement/arte-madi",
       "derived": true
     },
