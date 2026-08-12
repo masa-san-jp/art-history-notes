@@ -1,8 +1,8 @@
 ---
-id: work/la-falciatura-rietti-1891
-uri: urn:ahn:work/la-falciatura-rietti-1891
+id: work/la-falciatura-rossi-1891
+uri: urn:ahn:work/la-falciatura-rossi-1891
 type: work
-label_ja: アルトゥーロ・リエッティ《La Falciatura》
+label_ja: ルイジ・ロッシ《La Falciatura》
 label_en: La Falciatura
 authority:
   wikidata: null
@@ -16,7 +16,7 @@ time:
   display: "1891年（1891年展カタログ311番）"
 space: []
 relations:
-  - {type: created_by, target: person/arturo-rietti}
+  - {type: created_by, target: person/luigi-rossi}
   - {type: exhibited_at, target: event/first-brera-triennale-1891}
 sources:
   - https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf
@@ -24,6 +24,6 @@ status: draft
 updated: 2026-08-12
 ---
 
-# アルトゥーロ・リエッティ《La Falciatura》
+# ルイジ・ロッシ《La Falciatura》
 
 1891年の第一回ブレラ三年展公式カタログ本文で、311番に「La Falciatura」と掲載される。作品固有の制作年、現所在、独立した作品典拠は未確認である。

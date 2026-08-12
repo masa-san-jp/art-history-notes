@@ -1,8 +1,8 @@
 ---
-id: work/ritratto-ferrari-1891-no312
-uri: urn:ahn:work/ritratto-ferrari-1891-no312
+id: work/ritratto-rietti-1891-no312
+uri: urn:ahn:work/ritratto-rietti-1891-no312
 type: work
-label_ja: アルトゥーロ・フェッラーリ《Ritratto》
+label_ja: アルトゥーロ・リエッティ《Ritratto》
 label_en: Ritratto
 authority:
   wikidata: null
@@ -16,7 +16,7 @@ time:
   display: "1891年（1891年展カタログ312番）"
 space: []
 relations:
-  - {type: created_by, target: person/arturo-ferrari}
+  - {type: created_by, target: person/arturo-rietti}
   - {type: exhibited_at, target: event/first-brera-triennale-1891}
 sources:
   - https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf
@@ -24,6 +24,6 @@ status: draft
 updated: 2026-08-12
 ---
 
-# アルトゥーロ・フェッラーリ《Ritratto》
+# アルトゥーロ・リエッティ《Ritratto》
 
 1891年の第一回ブレラ三年展公式カタログ本文で、312番に「Ritratto」と掲載される。作品固有の制作年、現所在、独立した作品典拠は未確認である。

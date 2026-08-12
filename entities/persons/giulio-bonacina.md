@@ -1,11 +1,11 @@
 ---
-id: person/arturo-ferrari
-uri: urn:ahn:person/arturo-ferrari
+id: person/giulio-bonacina
+uri: urn:ahn:person/giulio-bonacina
 type: person
-label_ja: アルトゥーロ・フェッラーリ
-label_en: Arturo Ferrari
+label_ja: ジュリオ・ボナチーナ
+label_en: Giulio Bonacina
 aliases:
-  - Ferrari Arturo
+  - Bonacina Giulio
 authority:
   wikidata: null
   ulan: null
@@ -25,6 +25,6 @@ status: draft
 updated: 2026-08-12
 ---
 
-# アルトゥーロ・フェッラーリ / Arturo Ferrari
+# ジュリオ・ボナチーナ / Giulio Bonacina
 
-1891年の第一回ブレラ三年展公式カタログに、ミラノで活動する出品者として掲載される。313番《Il Castello della Bicocca》を出品した。本項は展覧会記録に限定する。
+1891年の第一回ブレラ三年展公式カタログに、ミラノで活動する出品者として掲載される。321番《Ritratto d’uomo》を出品した。本項は展覧会記録に限定する。
