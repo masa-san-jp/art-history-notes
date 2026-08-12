@@ -9560,6 +9560,40 @@
       "updated": "2026-08-12",
       "path": "entities/persons/el-lissitzky.md"
     },
+    "person/emilio-longoni": {
+      "id": "person/emilio-longoni",
+      "uri": "urn:ahn:person/emilio-longoni",
+      "type": "person",
+      "label_ja": "エミリオ・ロンゴーニ",
+      "label_en": "Emilio Longoni",
+      "authority": {
+        "wikidata": "Q661122",
+        "ulan": "500154310",
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": "1859",
+        "end": "1932",
+        "display": "1859年生まれ — 1932年没"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "belongs_to",
+          "target": "movement/italian-divisionism"
+        }
+      ],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q661122",
+        "https://www.treccani.it/enciclopedia/emilio-longoni_%28Dizionario-Biografico%29/",
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/persons/emilio-longoni.md"
+    },
     "person/ernest-fenollosa": {
       "id": "person/ernest-fenollosa",
       "uri": "urn:ahn:person/ernest-fenollosa",
@@ -10545,6 +10579,40 @@
       "updated": "2026-08-09",
       "path": "entities/persons/pierre-lods.md"
     },
+    "person/plinio-nomellini": {
+      "id": "person/plinio-nomellini",
+      "uri": "urn:ahn:person/plinio-nomellini",
+      "type": "person",
+      "label_ja": "プリーニオ・ノメリーニ",
+      "label_en": "Plinio Nomellini",
+      "authority": {
+        "wikidata": "Q589062",
+        "ulan": "500009106",
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": "1866",
+        "end": "1943",
+        "display": "1866年生まれ — 1943年没"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "belongs_to",
+          "target": "movement/italian-divisionism"
+        }
+      ],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q589062",
+        "https://www.treccani.it/enciclopedia/plinio-nomellini_%28Dizionario-Biografico%29/",
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/persons/plinio-nomellini.md"
+    },
     "person/ramses-younan": {
       "id": "person/ramses-younan",
       "uri": "urn:ahn:person/ramses-younan",
@@ -10914,6 +10982,41 @@
       "status": "draft",
       "updated": "2026-08-09",
       "path": "entities/persons/vincent-van-gogh.md"
+    },
+    "person/vittore-grubicy-de-dragon": {
+      "id": "person/vittore-grubicy-de-dragon",
+      "uri": "urn:ahn:person/vittore-grubicy-de-dragon",
+      "type": "person",
+      "label_ja": "ヴィットーレ・グルビーチ・デ・ドラゴン",
+      "label_en": "Vittore Grubicy de Dragon",
+      "authority": {
+        "wikidata": "Q4015187",
+        "ulan": "500026243",
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": "1851",
+        "end": "1920",
+        "display": "1851年生まれ — 1920年没"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "belongs_to",
+          "target": "movement/italian-divisionism"
+        }
+      ],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q4015187",
+        "https://www.treccani.it/enciclopedia/grubicy-de-dragon-vittore_%28Dizionario-Biografico%29/",
+        "https://www.musee-orsay.fr/fr/ressources/repertoire-artistes-personnalites/vittore-grubicy-di-dragon-36289",
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/persons/vittore-grubicy-de-dragon.md"
     },
     "person/vladimir-tatlin": {
       "id": "person/vladimir-tatlin",
@@ -13831,6 +13934,47 @@
       "updated": "2026-08-12",
       "path": "entities/works/bathers-at-asnieres.md"
     },
+    "work/l-oratore-dello-sciopero-longoni-1891": {
+      "id": "work/l-oratore-dello-sciopero-longoni-1891",
+      "uri": "urn:ahn:work/l-oratore-dello-sciopero-longoni-1891",
+      "type": "work",
+      "label_ja": "エミリオ・ロンゴーニ《L'oratore dello sciopero》",
+      "label_en": "L'oratore dello sciopero",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "作品の独立典拠IDと現所在は未確認。Treccaniと1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": "1890",
+        "end": "1891",
+        "display": "1890–1891年"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/emilio-longoni"
+        },
+        {
+          "type": "belongs_to",
+          "target": "movement/italian-divisionism"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://www.treccani.it/enciclopedia/emilio-longoni_%28Dizionario-Biografico%29/",
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/works/l-oratore-dello-sciopero-longoni-1891.md"
+    },
     "work/la-bottega-del-calderaio-fornara-1891": {
       "id": "work/la-bottega-del-calderaio-fornara-1891",
       "uri": "urn:ahn:work/la-bottega-del-calderaio-fornara-1891",
@@ -14036,6 +14180,43 @@
       "status": "draft",
       "updated": "2026-08-12",
       "path": "entities/works/monument-to-third-international.md"
+    },
+    "work/piazza-caricamento-nomellini-1891": {
+      "id": "work/piazza-caricamento-nomellini-1891",
+      "uri": "urn:ahn:work/piazza-caricamento-nomellini-1891",
+      "type": "work",
+      "label_ja": "プリーニオ・ノメリーニ《Piazza Caricamento a Genova》",
+      "label_en": "Piazza Caricamento a Genova",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "作品の独立典拠IDと現所在は未確認。Treccaniと1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年展出品"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/plinio-nomellini"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://www.treccani.it/enciclopedia/plinio-nomellini_%28Dizionario-Biografico%29/",
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/works/piazza-caricamento-nomellini-1891.md"
     },
     "work/proun-19d": {
       "id": "work/proun-19d",
@@ -16068,6 +16249,13 @@
       "to": "place/berlin"
     },
     {
+      "from": "person/emilio-longoni",
+      "type": "belongs_to",
+      "to": "movement/italian-divisionism",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "person/gaetano-previati",
       "type": "belongs_to",
       "to": "movement/italian-divisionism",
@@ -16183,6 +16371,13 @@
       "to": "place/moscow"
     },
     {
+      "from": "person/plinio-nomellini",
+      "type": "belongs_to",
+      "to": "movement/italian-divisionism",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "person/varvara-stepanova",
       "type": "belongs_to",
       "to": "movement/constructivism",
@@ -16212,6 +16407,13 @@
       "to": "movement/post-impressionism",
       "certainty": "scholarly",
       "source": "https://www.tate.org.uk/art/art-terms/p/post-impressionism"
+    },
+    {
+      "from": "person/vittore-grubicy-de-dragon",
+      "type": "belongs_to",
+      "to": "movement/italian-divisionism",
+      "certainty": null,
+      "source": null
     },
     {
       "from": "person/vladimir-tatlin",
@@ -16330,6 +16532,27 @@
       "to": "org/national-gallery-london"
     },
     {
+      "from": "work/l-oratore-dello-sciopero-longoni-1891",
+      "type": "created_by",
+      "to": "person/emilio-longoni",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/l-oratore-dello-sciopero-longoni-1891",
+      "type": "belongs_to",
+      "to": "movement/italian-divisionism",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/l-oratore-dello-sciopero-longoni-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "work/la-bottega-del-calderaio-fornara-1891",
       "type": "created_by",
       "to": "person/carlo-fornara",
@@ -16424,6 +16647,20 @@
       "from": "work/monument-to-third-international",
       "type": "belongs_to",
       "to": "movement/constructivism",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/piazza-caricamento-nomellini-1891",
+      "type": "created_by",
+      "to": "person/plinio-nomellini",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/piazza-caricamento-nomellini-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
       "certainty": null,
       "source": null
     },
@@ -17501,6 +17738,12 @@
     {
       "from": "movement/italian-divisionism",
       "type": "has_member",
+      "to": "person/emilio-longoni",
+      "derived": true
+    },
+    {
+      "from": "movement/italian-divisionism",
+      "type": "has_member",
       "to": "person/gaetano-previati",
       "derived": true
     },
@@ -17559,6 +17802,12 @@
       "derived": true
     },
     {
+      "from": "movement/italian-divisionism",
+      "type": "has_member",
+      "to": "person/plinio-nomellini",
+      "derived": true
+    },
+    {
       "from": "movement/constructivism",
       "type": "has_member",
       "to": "person/varvara-stepanova",
@@ -17574,6 +17823,12 @@
       "from": "movement/post-impressionism",
       "type": "groups",
       "to": "person/vincent-van-gogh",
+      "derived": true
+    },
+    {
+      "from": "movement/italian-divisionism",
+      "type": "has_member",
+      "to": "person/vittore-grubicy-de-dragon",
       "derived": true
     },
     {
@@ -17652,6 +17907,24 @@
       "from": "event/first-salon-des-independants-1884",
       "type": "exhibited",
       "to": "work/bathers-at-asnieres",
+      "derived": true
+    },
+    {
+      "from": "person/emilio-longoni",
+      "type": "created",
+      "to": "work/l-oratore-dello-sciopero-longoni-1891",
+      "derived": true
+    },
+    {
+      "from": "movement/italian-divisionism",
+      "type": "has_member",
+      "to": "work/l-oratore-dello-sciopero-longoni-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/l-oratore-dello-sciopero-longoni-1891",
       "derived": true
     },
     {
@@ -17736,6 +18009,18 @@
       "from": "movement/constructivism",
       "type": "has_member",
       "to": "work/monument-to-third-international",
+      "derived": true
+    },
+    {
+      "from": "person/plinio-nomellini",
+      "type": "created",
+      "to": "work/piazza-caricamento-nomellini-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/piazza-caricamento-nomellini-1891",
       "derived": true
     },
     {

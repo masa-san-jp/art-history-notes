@@ -56,7 +56,8 @@ updated: 2026-08-12
 と《夜明け（Alba）》を出品し、プレヴィアーティとセガンティーニの作品とともにイタリア分割主義の
 公式な初出を構成したと記録する。主要な担い手には、ヴィットーレ・グルビーチ、プレヴィアーティ、
 セガンティーニ、モルベッリ、[`ジュゼッペ・ペリッツァ・ダ・ヴォルペード`](../persons/giuseppe-pellizza-da-volpedo.md)、
-[`カルロ・フォルナラ`](../persons/carlo-fornara.md)らが含まれる。
+[`カルロ・フォルナラ`](../persons/carlo-fornara.md)、[`エミリオ・ロンゴーニ`](../persons/emilio-longoni.md)、
+[`プリーニオ・ノメリーニ`](../persons/plinio-nomellini.md)、[`ヴィットーレ・グルビーチ・デ・ドラゴン`](../persons/vittore-grubicy-de-dragon.md)らが含まれる。
 
 ## 1891年公式カタログ
 
