@@ -15344,6 +15344,44 @@
       "updated": "2026-08-12",
       "path": "entities/works/melanconie-du-soleil-maggi-1906.md"
     },
+    "work/midi-d-ete-focardi-1907": {
+      "id": "work/midi-d-ete-focardi-1907",
+      "uri": "urn:ahn:work/midi-d-ete-focardi-1907",
+      "type": "work",
+      "label_ja": "ピエロ・フォカルディ《Midi d'Été / Giorno di mezza estate》",
+      "label_en": "Midi d'Été / Giorno di mezza estate",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "独立作品典拠IDは未確認。1907年展カタログと専門資料を用いる"
+      },
+      "time": {
+        "start": "1907",
+        "end": "1907",
+        "display": "1907年パリ展出品（制作年未確認）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/piero-focardi"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/salon-divisionnistes-italiens-paris-1907"
+        }
+      ],
+      "sources": [
+        "https://exhibitions.univie.ac.at/exhibition/125",
+        "https://www.valutazionearte.it/artisti/piero-focardi/",
+        "https://www.enricogallerie.com/index.php?q=print_artist%2F300"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/works/midi-d-ete-focardi-1907.md"
+    },
     "work/monument-to-third-international": {
       "id": "work/monument-to-third-international",
       "uri": "urn:ahn:work/monument-to-third-international",
@@ -18497,6 +18535,20 @@
       "source": null
     },
     {
+      "from": "work/midi-d-ete-focardi-1907",
+      "type": "created_by",
+      "to": "person/piero-focardi",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/midi-d-ete-focardi-1907",
+      "type": "exhibited_at",
+      "to": "event/salon-divisionnistes-italiens-paris-1907",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "work/monument-to-third-international",
       "type": "created_by",
       "to": "person/vladimir-tatlin",
@@ -20307,6 +20359,18 @@
       "from": "event/salon-divisionnistes-italiens-paris-1907",
       "type": "exhibited",
       "to": "work/melanconie-du-soleil-maggi-1906",
+      "derived": true
+    },
+    {
+      "from": "person/piero-focardi",
+      "type": "created",
+      "to": "work/midi-d-ete-focardi-1907",
+      "derived": true
+    },
+    {
+      "from": "event/salon-divisionnistes-italiens-paris-1907",
+      "type": "exhibited",
+      "to": "work/midi-d-ete-focardi-1907",
       "derived": true
     },
     {
