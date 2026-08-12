@@ -28,5 +28,5 @@ updated: 2026-08-12
 
 スイス・ティチーノ州プーラ生まれ、ミラノで没した画家。Treccaniの見出しは出生名のGiuseppe Adolfo Fereguttiで、1875〜1880年頃から
 Feragutti、Feragutti di Milano、母方姓を加えたFeragutti Viscontiへ署名を変えたと説明する。1891年の第一回ブレラ三年展では
-《Ritratto di signora》でプリンチペ・ウンベルト賞を受賞した。ここではイタリア分割主義への所属を推測せず、人物と1891年展の出品記録に
+《Ritratto di signora》でプリンチペ・ウンベルト賞を受賞し、《Pesche ed uva》も出品した。ここではイタリア分割主義への所属を推測せず、人物と1891年展の出品記録に
 限定して記録する。

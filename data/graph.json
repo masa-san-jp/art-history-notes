@@ -21711,6 +21711,44 @@
       "updated": "2026-08-12",
       "path": "entities/works/pensive-etude-de-nu-magrini-1907.md"
     },
+    "work/pesche-ed-uva-feragutti-visconti-1891": {
+      "id": "work/pesche-ed-uva-feragutti-visconti-1891",
+      "uri": "urn:ahn:work/pesche-ed-uva-feragutti-visconti-1891",
+      "type": "work",
+      "label_ja": "アドルフォ・フェラグッティ・ヴィスコンティ《Pesche ed uva》",
+      "label_en": "Pesche ed uva",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "作品の独立典拠IDと技法・寸法・現所在は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年（1891年展カタログ390番）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/adolfo-feragutti-visconti"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf",
+        "https://www.treccani.it/enciclopedia/giuseppe-adolfo-feregutti_%28Dizionario-Biografico%29/",
+        "https://www.wikidata.org/wiki/Q3605437"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/works/pesche-ed-uva-feragutti-visconti-1891.md"
+    },
     "work/petit-lac-alpin-fornara-1907": {
       "id": "work/petit-lac-alpin-fornara-1907",
       "uri": "urn:ahn:work/petit-lac-alpin-fornara-1907",
@@ -29097,6 +29135,20 @@
       "source": null
     },
     {
+      "from": "work/pesche-ed-uva-feragutti-visconti-1891",
+      "type": "created_by",
+      "to": "person/adolfo-feragutti-visconti",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/pesche-ed-uva-feragutti-visconti-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "work/petit-lac-alpin-fornara-1907",
       "type": "created_by",
       "to": "person/carlo-fornara",
@@ -33619,6 +33671,18 @@
       "from": "event/salon-divisionnistes-italiens-paris-1907",
       "type": "exhibited",
       "to": "work/pensive-etude-de-nu-magrini-1907",
+      "derived": true
+    },
+    {
+      "from": "person/adolfo-feragutti-visconti",
+      "type": "created",
+      "to": "work/pesche-ed-uva-feragutti-visconti-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/pesche-ed-uva-feragutti-visconti-1891",
       "derived": true
     },
     {
