@@ -231,6 +231,35 @@
       "updated": "2026-08-09",
       "path": "entities/concepts/ukiyo-e.md"
     },
+    "concept/yohaku": {
+      "id": "concept/yohaku",
+      "uri": "urn:ahn:concept/yohaku",
+      "type": "concept",
+      "label_ja": "余白",
+      "label_en": "yohaku (intentional blank space)",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "日本美術の構成語としての『余白』を単一の典拠IDで同定する調査は未了。ここでは複数の美術館解説に現れる構成上の働きを概念として記録する"
+      },
+      "time": {
+        "start": null,
+        "end": null,
+        "display": "日本の絵画・書など複数の時代と媒体にまたがって用いられる。単一の起点は本項では確定しない"
+      },
+      "space": [],
+      "relations": [],
+      "sources": [
+        "https://www.kyohaku.go.jp/jp/learn/home/yomimono_data/0052/",
+        "https://online.bunka.go.jp/db/heritages/detail/593382",
+        "https://www.tnm.jp/modules/rblog/1/2013/08/02/"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/concepts/yohaku.md"
+    },
     "event/eighth-impressionist-exhibition-1886": {
       "id": "event/eighth-impressionist-exhibition-1886",
       "uri": "urn:ahn:event/eighth-impressionist-exhibition-1886",
