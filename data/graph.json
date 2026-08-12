@@ -14714,6 +14714,43 @@
       "updated": "2026-08-12",
       "path": "entities/works/bathers-at-asnieres.md"
     },
+    "work/bison-magrini-1907": {
+      "id": "work/bison-magrini-1907",
+      "uri": "urn:ahn:work/bison-magrini-1907",
+      "type": "work",
+      "label_ja": "アドルフ・マグリーニ《Bison》",
+      "label_en": "Bison",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "独立作品典拠IDは未確認。1907年パリ展カタログ記録を用いる"
+      },
+      "time": {
+        "start": "1907",
+        "end": "1907",
+        "display": "1907年パリ展出品（制作年未確認）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/adolphe-magrini"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/salon-divisionnistes-italiens-paris-1907"
+        }
+      ],
+      "sources": [
+        "https://exhibitions.univie.ac.at/person/3334",
+        "https://exhibitions.univie.ac.at/exhibition/125"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/works/bison-magrini-1907.md"
+    },
     "work/bisons-magrini-1907": {
       "id": "work/bisons-magrini-1907",
       "uri": "urn:ahn:work/bisons-magrini-1907",
@@ -15012,6 +15049,43 @@
       "updated": "2026-08-12",
       "path": "entities/works/dans-l-isolement-magrini-1907.md"
     },
+    "work/dromadaire-magrini-1907": {
+      "id": "work/dromadaire-magrini-1907",
+      "uri": "urn:ahn:work/dromadaire-magrini-1907",
+      "type": "work",
+      "label_ja": "アドルフ・マグリーニ《Dromadaire》",
+      "label_en": "Dromadaire",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "独立作品典拠IDは未確認。1907年パリ展カタログ記録を用いる"
+      },
+      "time": {
+        "start": "1907",
+        "end": "1907",
+        "display": "1907年パリ展出品（制作年未確認）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/adolphe-magrini"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/salon-divisionnistes-italiens-paris-1907"
+        }
+      ],
+      "sources": [
+        "https://exhibitions.univie.ac.at/person/3334",
+        "https://exhibitions.univie.ac.at/exhibition/125"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/works/dromadaire-magrini-1907.md"
+    },
     "work/effet-de-neige-cinotti-1907": {
       "id": "work/effet-de-neige-cinotti-1907",
       "uri": "urn:ahn:work/effet-de-neige-cinotti-1907",
@@ -15163,6 +15237,80 @@
       "updated": "2026-08-12",
       "path": "entities/works/effet-du-soleil-sur-la-neige-maggi-1907.md"
     },
+    "work/elephant-magrini-1907": {
+      "id": "work/elephant-magrini-1907",
+      "uri": "urn:ahn:work/elephant-magrini-1907",
+      "type": "work",
+      "label_ja": "アドルフ・マグリーニ《Eléphant》",
+      "label_en": "Eléphant",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "独立作品典拠IDは未確認。1907年パリ展カタログ記録を用いる"
+      },
+      "time": {
+        "start": "1907",
+        "end": "1907",
+        "display": "1907年パリ展出品（制作年未確認）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/adolphe-magrini"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/salon-divisionnistes-italiens-paris-1907"
+        }
+      ],
+      "sources": [
+        "https://exhibitions.univie.ac.at/person/3334",
+        "https://exhibitions.univie.ac.at/exhibition/125"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/works/elephant-magrini-1907.md"
+    },
+    "work/etude-de-nu-magrini-1907-no123": {
+      "id": "work/etude-de-nu-magrini-1907-no123",
+      "uri": "urn:ahn:work/etude-de-nu-magrini-1907-no123",
+      "type": "work",
+      "label_ja": "アドルフ・マグリーニ《Etude de nu》〔1907年パリ展123番〕",
+      "label_en": "Etude de nu (Paris 1907, no. 123)",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "独立作品典拠IDは未確認。1907年パリ展カタログ番号123の記録を用いる"
+      },
+      "time": {
+        "start": "1907",
+        "end": "1907",
+        "display": "1907年パリ展出品（制作年未確認）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/adolphe-magrini"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/salon-divisionnistes-italiens-paris-1907"
+        }
+      ],
+      "sources": [
+        "https://exhibitions.univie.ac.at/person/3334",
+        "https://exhibitions.univie.ac.at/exhibition/125"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/works/etude-de-nu-magrini-1907-no123.md"
+    },
     "work/etude-de-paysage-maggi-1907": {
       "id": "work/etude-de-paysage-maggi-1907",
       "uri": "urn:ahn:work/etude-de-paysage-maggi-1907",
@@ -15237,6 +15385,43 @@
       "updated": "2026-08-12",
       "path": "entities/works/etude-de-paysage-prada-1907-no48a.md"
     },
+    "work/femme-chouchee-etude-de-nu-magrini-1907": {
+      "id": "work/femme-chouchee-etude-de-nu-magrini-1907",
+      "uri": "urn:ahn:work/femme-chouchee-etude-de-nu-magrini-1907",
+      "type": "work",
+      "label_ja": "アドルフ・マグリーニ《Femme chouchée, Etude de nu》",
+      "label_en": "Femme chouchée, Etude de nu",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "独立作品典拠IDは未確認。1907年パリ展カタログ記録を用いる"
+      },
+      "time": {
+        "start": "1907",
+        "end": "1907",
+        "display": "1907年パリ展出品（制作年未確認）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/adolphe-magrini"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/salon-divisionnistes-italiens-paris-1907"
+        }
+      ],
+      "sources": [
+        "https://exhibitions.univie.ac.at/person/3334",
+        "https://exhibitions.univie.ac.at/exhibition/125"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/works/femme-chouchee-etude-de-nu-magrini-1907.md"
+    },
     "work/femme-tricoteuse-maggi-1907": {
       "id": "work/femme-tricoteuse-maggi-1907",
       "uri": "urn:ahn:work/femme-tricoteuse-maggi-1907",
@@ -15310,6 +15495,43 @@
       "status": "draft",
       "updated": "2026-08-12",
       "path": "entities/works/ferme-baracchini-caputi-1907.md"
+    },
+    "work/figure-de-femme-magrini-1907": {
+      "id": "work/figure-de-femme-magrini-1907",
+      "uri": "urn:ahn:work/figure-de-femme-magrini-1907",
+      "type": "work",
+      "label_ja": "アドルフ・マグリーニ《Figure de femme》",
+      "label_en": "Figure de femme",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "独立作品典拠IDは未確認。1907年パリ展カタログ記録を用いる"
+      },
+      "time": {
+        "start": "1907",
+        "end": "1907",
+        "display": "1907年パリ展出品（制作年未確認）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/adolphe-magrini"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/salon-divisionnistes-italiens-paris-1907"
+        }
+      ],
+      "sources": [
+        "https://exhibitions.univie.ac.at/person/3334",
+        "https://exhibitions.univie.ac.at/exhibition/125"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/works/figure-de-femme-magrini-1907.md"
     },
     "work/hauts-sommets-ramponi-1907": {
       "id": "work/hauts-sommets-ramponi-1907",
@@ -16490,6 +16712,43 @@
       "updated": "2026-08-12",
       "path": "entities/works/matin-sur-les-alpes-omio-1907.md"
     },
+    "work/matinee-intime-etude-de-nu-magrini-1907": {
+      "id": "work/matinee-intime-etude-de-nu-magrini-1907",
+      "uri": "urn:ahn:work/matinee-intime-etude-de-nu-magrini-1907",
+      "type": "work",
+      "label_ja": "アドルフ・マグリーニ《Matinée intime (Etude de nu)》",
+      "label_en": "Matinée intime (Etude de nu)",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "独立作品典拠IDは未確認。1907年パリ展カタログ記録を用いる"
+      },
+      "time": {
+        "start": "1907",
+        "end": "1907",
+        "display": "1907年パリ展出品（制作年未確認）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/adolphe-magrini"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/salon-divisionnistes-italiens-paris-1907"
+        }
+      ],
+      "sources": [
+        "https://exhibitions.univie.ac.at/person/3334",
+        "https://exhibitions.univie.ac.at/exhibition/125"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/works/matinee-intime-etude-de-nu-magrini-1907.md"
+    },
     "work/melanconie-du-soleil-maggi-1906": {
       "id": "work/melanconie-du-soleil-maggi-1906",
       "uri": "urn:ahn:work/melanconie-du-soleil-maggi-1906",
@@ -16717,6 +16976,43 @@
       "status": "draft",
       "updated": "2026-08-12",
       "path": "entities/works/ours-blanc-magrini-1907.md"
+    },
+    "work/ours-noir-magrini-1907": {
+      "id": "work/ours-noir-magrini-1907",
+      "uri": "urn:ahn:work/ours-noir-magrini-1907",
+      "type": "work",
+      "label_ja": "アドルフ・マグリーニ《Ours noir》",
+      "label_en": "Ours noir",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "独立作品典拠IDは未確認。1907年パリ展カタログ記録を用いる"
+      },
+      "time": {
+        "start": "1907",
+        "end": "1907",
+        "display": "1907年パリ展出品（制作年未確認）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/adolphe-magrini"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/salon-divisionnistes-italiens-paris-1907"
+        }
+      ],
+      "sources": [
+        "https://exhibitions.univie.ac.at/person/3334",
+        "https://exhibitions.univie.ac.at/exhibition/125"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/works/ours-noir-magrini-1907.md"
     },
     "work/ourson-magrini-1907": {
       "id": "work/ourson-magrini-1907",
@@ -17350,6 +17646,43 @@
       "updated": "2026-08-12",
       "path": "entities/works/paysage-ramponi-1907.md"
     },
+    "work/pensive-etude-de-nu-magrini-1907": {
+      "id": "work/pensive-etude-de-nu-magrini-1907",
+      "uri": "urn:ahn:work/pensive-etude-de-nu-magrini-1907",
+      "type": "work",
+      "label_ja": "アドルフ・マグリーニ《Pensive, Etude de nu》",
+      "label_en": "Pensive, Etude de nu",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "独立作品典拠IDは未確認。1907年パリ展カタログ記録を用いる"
+      },
+      "time": {
+        "start": "1907",
+        "end": "1907",
+        "display": "1907年パリ展出品（制作年未確認）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/adolphe-magrini"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/salon-divisionnistes-italiens-paris-1907"
+        }
+      ],
+      "sources": [
+        "https://exhibitions.univie.ac.at/person/3334",
+        "https://exhibitions.univie.ac.at/exhibition/125"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/works/pensive-etude-de-nu-magrini-1907.md"
+    },
     "work/piazza-caricamento-nomellini-1891": {
       "id": "work/piazza-caricamento-nomellini-1891",
       "uri": "urn:ahn:work/piazza-caricamento-nomellini-1891",
@@ -17798,6 +18131,43 @@
       "status": "draft",
       "updated": "2026-08-12",
       "path": "entities/works/studio-di-mare-la-scogliera-merello-1906.md"
+    },
+    "work/tigre-royal-au-repos-magrini-1907": {
+      "id": "work/tigre-royal-au-repos-magrini-1907",
+      "uri": "urn:ahn:work/tigre-royal-au-repos-magrini-1907",
+      "type": "work",
+      "label_ja": "アドルフ・マグリーニ《Tigre royal au repos》",
+      "label_en": "Tigre royal au repos",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "独立作品典拠IDは未確認。1907年パリ展カタログ記録を用いる"
+      },
+      "time": {
+        "start": "1907",
+        "end": "1907",
+        "display": "1907年パリ展出品（制作年未確認）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/adolphe-magrini"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/salon-divisionnistes-italiens-paris-1907"
+        }
+      ],
+      "sources": [
+        "https://exhibitions.univie.ac.at/person/3334",
+        "https://exhibitions.univie.ac.at/exhibition/125"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/works/tigre-royal-au-repos-magrini-1907.md"
     },
     "work/ultimi-raggi-tominetti-1891": {
       "id": "work/ultimi-raggi-tominetti-1891",
@@ -20504,6 +20874,20 @@
       "to": "org/national-gallery-london"
     },
     {
+      "from": "work/bison-magrini-1907",
+      "type": "created_by",
+      "to": "person/adolphe-magrini",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/bison-magrini-1907",
+      "type": "exhibited_at",
+      "to": "event/salon-divisionnistes-italiens-paris-1907",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "work/bisons-magrini-1907",
       "type": "created_by",
       "to": "person/adolphe-magrini",
@@ -20616,6 +21000,20 @@
       "source": null
     },
     {
+      "from": "work/dromadaire-magrini-1907",
+      "type": "created_by",
+      "to": "person/adolphe-magrini",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/dromadaire-magrini-1907",
+      "type": "exhibited_at",
+      "to": "event/salon-divisionnistes-italiens-paris-1907",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "work/effet-de-neige-cinotti-1907",
       "type": "created_by",
       "to": "person/guido-cinotti",
@@ -20672,6 +21070,34 @@
       "source": null
     },
     {
+      "from": "work/elephant-magrini-1907",
+      "type": "created_by",
+      "to": "person/adolphe-magrini",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/elephant-magrini-1907",
+      "type": "exhibited_at",
+      "to": "event/salon-divisionnistes-italiens-paris-1907",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/etude-de-nu-magrini-1907-no123",
+      "type": "created_by",
+      "to": "person/adolphe-magrini",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/etude-de-nu-magrini-1907-no123",
+      "type": "exhibited_at",
+      "to": "event/salon-divisionnistes-italiens-paris-1907",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "work/etude-de-paysage-maggi-1907",
       "type": "created_by",
       "to": "person/cesare-maggi",
@@ -20700,6 +21126,20 @@
       "source": null
     },
     {
+      "from": "work/femme-chouchee-etude-de-nu-magrini-1907",
+      "type": "created_by",
+      "to": "person/adolphe-magrini",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/femme-chouchee-etude-de-nu-magrini-1907",
+      "type": "exhibited_at",
+      "to": "event/salon-divisionnistes-italiens-paris-1907",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "work/femme-tricoteuse-maggi-1907",
       "type": "created_by",
       "to": "person/cesare-maggi",
@@ -20722,6 +21162,20 @@
     },
     {
       "from": "work/ferme-baracchini-caputi-1907",
+      "type": "exhibited_at",
+      "to": "event/salon-divisionnistes-italiens-paris-1907",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/figure-de-femme-magrini-1907",
+      "type": "created_by",
+      "to": "person/adolphe-magrini",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/figure-de-femme-magrini-1907",
       "type": "exhibited_at",
       "to": "event/salon-divisionnistes-italiens-paris-1907",
       "certainty": null,
@@ -21197,6 +21651,20 @@
       "source": null
     },
     {
+      "from": "work/matinee-intime-etude-de-nu-magrini-1907",
+      "type": "created_by",
+      "to": "person/adolphe-magrini",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/matinee-intime-etude-de-nu-magrini-1907",
+      "type": "exhibited_at",
+      "to": "event/salon-divisionnistes-italiens-paris-1907",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "work/melanconie-du-soleil-maggi-1906",
       "type": "created_by",
       "to": "person/cesare-maggi",
@@ -21275,6 +21743,20 @@
     },
     {
       "from": "work/ours-blanc-magrini-1907",
+      "type": "exhibited_at",
+      "to": "event/salon-divisionnistes-italiens-paris-1907",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/ours-noir-magrini-1907",
+      "type": "created_by",
+      "to": "person/adolphe-magrini",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/ours-noir-magrini-1907",
       "type": "exhibited_at",
       "to": "event/salon-divisionnistes-italiens-paris-1907",
       "certainty": null,
@@ -21519,6 +22001,20 @@
       "source": null
     },
     {
+      "from": "work/pensive-etude-de-nu-magrini-1907",
+      "type": "created_by",
+      "to": "person/adolphe-magrini",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/pensive-etude-de-nu-magrini-1907",
+      "type": "exhibited_at",
+      "to": "event/salon-divisionnistes-italiens-paris-1907",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "work/piazza-caricamento-nomellini-1891",
       "type": "created_by",
       "to": "person/plinio-nomellini",
@@ -21681,6 +22177,20 @@
     },
     {
       "from": "work/studio-di-mare-la-scogliera-merello-1906",
+      "type": "exhibited_at",
+      "to": "event/salon-divisionnistes-italiens-paris-1907",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/tigre-royal-au-repos-magrini-1907",
+      "type": "created_by",
+      "to": "person/adolphe-magrini",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/tigre-royal-au-repos-magrini-1907",
       "type": "exhibited_at",
       "to": "event/salon-divisionnistes-italiens-paris-1907",
       "certainty": null,
@@ -23210,6 +23720,18 @@
     {
       "from": "person/adolphe-magrini",
       "type": "created",
+      "to": "work/bison-magrini-1907",
+      "derived": true
+    },
+    {
+      "from": "event/salon-divisionnistes-italiens-paris-1907",
+      "type": "exhibited",
+      "to": "work/bison-magrini-1907",
+      "derived": true
+    },
+    {
+      "from": "person/adolphe-magrini",
+      "type": "created",
       "to": "work/bisons-magrini-1907",
       "derived": true
     },
@@ -23304,6 +23826,18 @@
       "derived": true
     },
     {
+      "from": "person/adolphe-magrini",
+      "type": "created",
+      "to": "work/dromadaire-magrini-1907",
+      "derived": true
+    },
+    {
+      "from": "event/salon-divisionnistes-italiens-paris-1907",
+      "type": "exhibited",
+      "to": "work/dromadaire-magrini-1907",
+      "derived": true
+    },
+    {
       "from": "person/guido-cinotti",
       "type": "created",
       "to": "work/effet-de-neige-cinotti-1907",
@@ -23352,6 +23886,30 @@
       "derived": true
     },
     {
+      "from": "person/adolphe-magrini",
+      "type": "created",
+      "to": "work/elephant-magrini-1907",
+      "derived": true
+    },
+    {
+      "from": "event/salon-divisionnistes-italiens-paris-1907",
+      "type": "exhibited",
+      "to": "work/elephant-magrini-1907",
+      "derived": true
+    },
+    {
+      "from": "person/adolphe-magrini",
+      "type": "created",
+      "to": "work/etude-de-nu-magrini-1907-no123",
+      "derived": true
+    },
+    {
+      "from": "event/salon-divisionnistes-italiens-paris-1907",
+      "type": "exhibited",
+      "to": "work/etude-de-nu-magrini-1907-no123",
+      "derived": true
+    },
+    {
       "from": "person/cesare-maggi",
       "type": "created",
       "to": "work/etude-de-paysage-maggi-1907",
@@ -23376,6 +23934,18 @@
       "derived": true
     },
     {
+      "from": "person/adolphe-magrini",
+      "type": "created",
+      "to": "work/femme-chouchee-etude-de-nu-magrini-1907",
+      "derived": true
+    },
+    {
+      "from": "event/salon-divisionnistes-italiens-paris-1907",
+      "type": "exhibited",
+      "to": "work/femme-chouchee-etude-de-nu-magrini-1907",
+      "derived": true
+    },
+    {
       "from": "person/cesare-maggi",
       "type": "created",
       "to": "work/femme-tricoteuse-maggi-1907",
@@ -23397,6 +23967,18 @@
       "from": "event/salon-divisionnistes-italiens-paris-1907",
       "type": "exhibited",
       "to": "work/ferme-baracchini-caputi-1907",
+      "derived": true
+    },
+    {
+      "from": "person/adolphe-magrini",
+      "type": "created",
+      "to": "work/figure-de-femme-magrini-1907",
+      "derived": true
+    },
+    {
+      "from": "event/salon-divisionnistes-italiens-paris-1907",
+      "type": "exhibited",
+      "to": "work/figure-de-femme-magrini-1907",
       "derived": true
     },
     {
@@ -23802,6 +24384,18 @@
       "derived": true
     },
     {
+      "from": "person/adolphe-magrini",
+      "type": "created",
+      "to": "work/matinee-intime-etude-de-nu-magrini-1907",
+      "derived": true
+    },
+    {
+      "from": "event/salon-divisionnistes-italiens-paris-1907",
+      "type": "exhibited",
+      "to": "work/matinee-intime-etude-de-nu-magrini-1907",
+      "derived": true
+    },
+    {
       "from": "person/cesare-maggi",
       "type": "created",
       "to": "work/melanconie-du-soleil-maggi-1906",
@@ -23871,6 +24465,18 @@
       "from": "event/salon-divisionnistes-italiens-paris-1907",
       "type": "exhibited",
       "to": "work/ours-blanc-magrini-1907",
+      "derived": true
+    },
+    {
+      "from": "person/adolphe-magrini",
+      "type": "created",
+      "to": "work/ours-noir-magrini-1907",
+      "derived": true
+    },
+    {
+      "from": "event/salon-divisionnistes-italiens-paris-1907",
+      "type": "exhibited",
+      "to": "work/ours-noir-magrini-1907",
       "derived": true
     },
     {
@@ -24078,6 +24684,18 @@
       "derived": true
     },
     {
+      "from": "person/adolphe-magrini",
+      "type": "created",
+      "to": "work/pensive-etude-de-nu-magrini-1907",
+      "derived": true
+    },
+    {
+      "from": "event/salon-divisionnistes-italiens-paris-1907",
+      "type": "exhibited",
+      "to": "work/pensive-etude-de-nu-magrini-1907",
+      "derived": true
+    },
+    {
       "from": "person/plinio-nomellini",
       "type": "created",
       "to": "work/piazza-caricamento-nomellini-1891",
@@ -24219,6 +24837,18 @@
       "from": "event/salon-divisionnistes-italiens-paris-1907",
       "type": "exhibited",
       "to": "work/studio-di-mare-la-scogliera-merello-1906",
+      "derived": true
+    },
+    {
+      "from": "person/adolphe-magrini",
+      "type": "created",
+      "to": "work/tigre-royal-au-repos-magrini-1907",
+      "derived": true
+    },
+    {
+      "from": "event/salon-divisionnistes-italiens-paris-1907",
+      "type": "exhibited",
+      "to": "work/tigre-royal-au-repos-magrini-1907",
       "derived": true
     },
     {
