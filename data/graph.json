@@ -15126,6 +15126,43 @@
       "updated": "2026-08-12",
       "path": "entities/works/ferme-baracchini-caputi-1907.md"
     },
+    "work/hauts-sommets-ramponi-1907": {
+      "id": "work/hauts-sommets-ramponi-1907",
+      "uri": "urn:ahn:work/hauts-sommets-ramponi-1907",
+      "type": "work",
+      "label_ja": "フェルディナンド・ランポーニ《Hauts sommets》",
+      "label_en": "Hauts sommets",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "独立作品典拠IDは未確認。1907年パリ展のカタログ記録を用いる"
+      },
+      "time": {
+        "start": "1907",
+        "end": "1907",
+        "display": "1907年パリ展出品（制作年未確認）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/ferdinando-ramponi"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/salon-divisionnistes-italiens-paris-1907"
+        }
+      ],
+      "sources": [
+        "https://exhibitions.univie.ac.at/person/gnd/122617517",
+        "https://exhibitions.univie.ac.at/exhibition/125"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/works/hauts-sommets-ramponi-1907.md"
+    },
     "work/in-cerca-di-legna-tominetti-1891": {
       "id": "work/in-cerca-di-legna-tominetti-1891",
       "uri": "urn:ahn:work/in-cerca-di-legna-tominetti-1891",
@@ -15162,6 +15199,43 @@
       "status": "draft",
       "updated": "2026-08-12",
       "path": "entities/works/in-cerca-di-legna-tominetti-1891.md"
+    },
+    "work/indivisible-ramponi-1907": {
+      "id": "work/indivisible-ramponi-1907",
+      "uri": "urn:ahn:work/indivisible-ramponi-1907",
+      "type": "work",
+      "label_ja": "フェルディナンド・ランポーニ《Indivisible》",
+      "label_en": "Indivisible",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "独立作品典拠IDは未確認。1907年パリ展のカタログ記録を用いる"
+      },
+      "time": {
+        "start": "1907",
+        "end": "1907",
+        "display": "1907年パリ展出品（制作年未確認）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/ferdinando-ramponi"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/salon-divisionnistes-italiens-paris-1907"
+        }
+      ],
+      "sources": [
+        "https://exhibitions.univie.ac.at/person/gnd/122617517",
+        "https://exhibitions.univie.ac.at/exhibition/125"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/works/indivisible-ramponi-1907.md"
     },
     "work/l-oratore-dello-sciopero-longoni-1891": {
       "id": "work/l-oratore-dello-sciopero-longoni-1891",
@@ -15980,6 +16054,43 @@
       "updated": "2026-08-12",
       "path": "entities/works/parmi-les-rochers-merello-1905.md"
     },
+    "work/paturage-ramponi-1907": {
+      "id": "work/paturage-ramponi-1907",
+      "uri": "urn:ahn:work/paturage-ramponi-1907",
+      "type": "work",
+      "label_ja": "フェルディナンド・ランポーニ《Paturage》",
+      "label_en": "Paturage",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "独立作品典拠IDは未確認。1907年パリ展のカタログ記録を用いる"
+      },
+      "time": {
+        "start": "1907",
+        "end": "1907",
+        "display": "1907年パリ展出品（制作年未確認）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/ferdinando-ramponi"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/salon-divisionnistes-italiens-paris-1907"
+        }
+      ],
+      "sources": [
+        "https://exhibitions.univie.ac.at/person/gnd/122617517",
+        "https://exhibitions.univie.ac.at/exhibition/125"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/works/paturage-ramponi-1907.md"
+    },
     "work/paysage-en-montagne-prada-1907": {
       "id": "work/paysage-en-montagne-prada-1907",
       "uri": "urn:ahn:work/paysage-en-montagne-prada-1907",
@@ -16017,6 +16128,80 @@
       "status": "draft",
       "updated": "2026-08-12",
       "path": "entities/works/paysage-en-montagne-prada-1907.md"
+    },
+    "work/paysage-etude-avec-mouton-ramponi-1907": {
+      "id": "work/paysage-etude-avec-mouton-ramponi-1907",
+      "uri": "urn:ahn:work/paysage-etude-avec-mouton-ramponi-1907",
+      "type": "work",
+      "label_ja": "フェルディナンド・ランポーニ《Paysage (étude avec mouton)》",
+      "label_en": "Paysage (étude avec mouton)",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "独立作品典拠IDは未確認。1907年パリ展のカタログ記録を用いる"
+      },
+      "time": {
+        "start": "1907",
+        "end": "1907",
+        "display": "1907年パリ展出品（制作年未確認）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/ferdinando-ramponi"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/salon-divisionnistes-italiens-paris-1907"
+        }
+      ],
+      "sources": [
+        "https://exhibitions.univie.ac.at/person/gnd/122617517",
+        "https://exhibitions.univie.ac.at/exhibition/125"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/works/paysage-etude-avec-mouton-ramponi-1907.md"
+    },
+    "work/paysage-ramponi-1907": {
+      "id": "work/paysage-ramponi-1907",
+      "uri": "urn:ahn:work/paysage-ramponi-1907",
+      "type": "work",
+      "label_ja": "フェルディナンド・ランポーニ《Paysage》",
+      "label_en": "Paysage",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "独立作品典拠IDは未確認。1907年パリ展のカタログ記録を用いる"
+      },
+      "time": {
+        "start": "1907",
+        "end": "1907",
+        "display": "1907年パリ展出品（制作年未確認）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/ferdinando-ramponi"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/salon-divisionnistes-italiens-paris-1907"
+        }
+      ],
+      "sources": [
+        "https://exhibitions.univie.ac.at/person/gnd/122617517",
+        "https://exhibitions.univie.ac.at/exhibition/125"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/works/paysage-ramponi-1907.md"
     },
     "work/piazza-caricamento-nomellini-1891": {
       "id": "work/piazza-caricamento-nomellini-1891",
@@ -16545,6 +16730,80 @@
       "status": "draft",
       "updated": "2026-08-12",
       "path": "entities/works/un-nuage-maggi-1907.md"
+    },
+    "work/vache-a-l-abreuvoir-ramponi-1907": {
+      "id": "work/vache-a-l-abreuvoir-ramponi-1907",
+      "uri": "urn:ahn:work/vache-a-l-abreuvoir-ramponi-1907",
+      "type": "work",
+      "label_ja": "フェルディナンド・ランポーニ《Vache à l'abreuvoir》",
+      "label_en": "Vache à l'abreuvoir",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "独立作品典拠IDは未確認。1907年パリ展のカタログ記録を用いる"
+      },
+      "time": {
+        "start": "1907",
+        "end": "1907",
+        "display": "1907年パリ展出品（制作年未確認）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/ferdinando-ramponi"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/salon-divisionnistes-italiens-paris-1907"
+        }
+      ],
+      "sources": [
+        "https://exhibitions.univie.ac.at/person/gnd/122617517",
+        "https://exhibitions.univie.ac.at/exhibition/125"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/works/vache-a-l-abreuvoir-ramponi-1907.md"
+    },
+    "work/vache-dans-le-pre-ramponi-1907": {
+      "id": "work/vache-dans-le-pre-ramponi-1907",
+      "uri": "urn:ahn:work/vache-dans-le-pre-ramponi-1907",
+      "type": "work",
+      "label_ja": "フェルディナンド・ランポーニ《Vache dans le pré》",
+      "label_en": "Vache dans le pré",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "独立作品典拠IDは未確認。1907年パリ展のカタログ記録を用いる"
+      },
+      "time": {
+        "start": "1907",
+        "end": "1907",
+        "display": "1907年パリ展出品（制作年未確認）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/ferdinando-ramponi"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/salon-divisionnistes-italiens-paris-1907"
+        }
+      ],
+      "sources": [
+        "https://exhibitions.univie.ac.at/person/gnd/122617517",
+        "https://exhibitions.univie.ac.at/exhibition/125"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/works/vache-dans-le-pre-ramponi-1907.md"
     },
     "work/village-des-alpes-ramponi-1907": {
       "id": "work/village-des-alpes-ramponi-1907",
@@ -19178,6 +19437,20 @@
       "source": null
     },
     {
+      "from": "work/hauts-sommets-ramponi-1907",
+      "type": "created_by",
+      "to": "person/ferdinando-ramponi",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/hauts-sommets-ramponi-1907",
+      "type": "exhibited_at",
+      "to": "event/salon-divisionnistes-italiens-paris-1907",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "work/in-cerca-di-legna-tominetti-1891",
       "type": "created_by",
       "to": "person/achille-tominetti",
@@ -19188,6 +19461,20 @@
       "from": "work/in-cerca-di-legna-tominetti-1891",
       "type": "exhibited_at",
       "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/indivisible-ramponi-1907",
+      "type": "created_by",
+      "to": "person/ferdinando-ramponi",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/indivisible-ramponi-1907",
+      "type": "exhibited_at",
+      "to": "event/salon-divisionnistes-italiens-paris-1907",
       "certainty": null,
       "source": null
     },
@@ -19521,6 +19808,20 @@
       "source": null
     },
     {
+      "from": "work/paturage-ramponi-1907",
+      "type": "created_by",
+      "to": "person/ferdinando-ramponi",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/paturage-ramponi-1907",
+      "type": "exhibited_at",
+      "to": "event/salon-divisionnistes-italiens-paris-1907",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "work/paysage-en-montagne-prada-1907",
       "type": "created_by",
       "to": "person/carlo-prada",
@@ -19529,6 +19830,34 @@
     },
     {
       "from": "work/paysage-en-montagne-prada-1907",
+      "type": "exhibited_at",
+      "to": "event/salon-divisionnistes-italiens-paris-1907",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/paysage-etude-avec-mouton-ramponi-1907",
+      "type": "created_by",
+      "to": "person/ferdinando-ramponi",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/paysage-etude-avec-mouton-ramponi-1907",
+      "type": "exhibited_at",
+      "to": "event/salon-divisionnistes-italiens-paris-1907",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/paysage-ramponi-1907",
+      "type": "created_by",
+      "to": "person/ferdinando-ramponi",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/paysage-ramponi-1907",
       "type": "exhibited_at",
       "to": "event/salon-divisionnistes-italiens-paris-1907",
       "certainty": null,
@@ -19732,6 +20061,34 @@
     },
     {
       "from": "work/un-nuage-maggi-1907",
+      "type": "exhibited_at",
+      "to": "event/salon-divisionnistes-italiens-paris-1907",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/vache-a-l-abreuvoir-ramponi-1907",
+      "type": "created_by",
+      "to": "person/ferdinando-ramponi",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/vache-a-l-abreuvoir-ramponi-1907",
+      "type": "exhibited_at",
+      "to": "event/salon-divisionnistes-italiens-paris-1907",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/vache-dans-le-pre-ramponi-1907",
+      "type": "created_by",
+      "to": "person/ferdinando-ramponi",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/vache-dans-le-pre-ramponi-1907",
       "type": "exhibited_at",
       "to": "event/salon-divisionnistes-italiens-paris-1907",
       "certainty": null,
@@ -21300,6 +21657,18 @@
       "derived": true
     },
     {
+      "from": "person/ferdinando-ramponi",
+      "type": "created",
+      "to": "work/hauts-sommets-ramponi-1907",
+      "derived": true
+    },
+    {
+      "from": "event/salon-divisionnistes-italiens-paris-1907",
+      "type": "exhibited",
+      "to": "work/hauts-sommets-ramponi-1907",
+      "derived": true
+    },
+    {
       "from": "person/achille-tominetti",
       "type": "created",
       "to": "work/in-cerca-di-legna-tominetti-1891",
@@ -21309,6 +21678,18 @@
       "from": "event/first-brera-triennale-1891",
       "type": "exhibited",
       "to": "work/in-cerca-di-legna-tominetti-1891",
+      "derived": true
+    },
+    {
+      "from": "person/ferdinando-ramponi",
+      "type": "created",
+      "to": "work/indivisible-ramponi-1907",
+      "derived": true
+    },
+    {
+      "from": "event/salon-divisionnistes-italiens-paris-1907",
+      "type": "exhibited",
+      "to": "work/indivisible-ramponi-1907",
       "derived": true
     },
     {
@@ -21594,6 +21975,18 @@
       "derived": true
     },
     {
+      "from": "person/ferdinando-ramponi",
+      "type": "created",
+      "to": "work/paturage-ramponi-1907",
+      "derived": true
+    },
+    {
+      "from": "event/salon-divisionnistes-italiens-paris-1907",
+      "type": "exhibited",
+      "to": "work/paturage-ramponi-1907",
+      "derived": true
+    },
+    {
       "from": "person/carlo-prada",
       "type": "created",
       "to": "work/paysage-en-montagne-prada-1907",
@@ -21603,6 +21996,30 @@
       "from": "event/salon-divisionnistes-italiens-paris-1907",
       "type": "exhibited",
       "to": "work/paysage-en-montagne-prada-1907",
+      "derived": true
+    },
+    {
+      "from": "person/ferdinando-ramponi",
+      "type": "created",
+      "to": "work/paysage-etude-avec-mouton-ramponi-1907",
+      "derived": true
+    },
+    {
+      "from": "event/salon-divisionnistes-italiens-paris-1907",
+      "type": "exhibited",
+      "to": "work/paysage-etude-avec-mouton-ramponi-1907",
+      "derived": true
+    },
+    {
+      "from": "person/ferdinando-ramponi",
+      "type": "created",
+      "to": "work/paysage-ramponi-1907",
+      "derived": true
+    },
+    {
+      "from": "event/salon-divisionnistes-italiens-paris-1907",
+      "type": "exhibited",
+      "to": "work/paysage-ramponi-1907",
       "derived": true
     },
     {
@@ -21777,6 +22194,30 @@
       "from": "event/salon-divisionnistes-italiens-paris-1907",
       "type": "exhibited",
       "to": "work/un-nuage-maggi-1907",
+      "derived": true
+    },
+    {
+      "from": "person/ferdinando-ramponi",
+      "type": "created",
+      "to": "work/vache-a-l-abreuvoir-ramponi-1907",
+      "derived": true
+    },
+    {
+      "from": "event/salon-divisionnistes-italiens-paris-1907",
+      "type": "exhibited",
+      "to": "work/vache-a-l-abreuvoir-ramponi-1907",
+      "derived": true
+    },
+    {
+      "from": "person/ferdinando-ramponi",
+      "type": "created",
+      "to": "work/vache-dans-le-pre-ramponi-1907",
+      "derived": true
+    },
+    {
+      "from": "event/salon-divisionnistes-italiens-paris-1907",
+      "type": "exhibited",
+      "to": "work/vache-dans-le-pre-ramponi-1907",
       "derived": true
     },
     {
