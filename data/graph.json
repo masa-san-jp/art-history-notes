@@ -14906,6 +14906,46 @@
       "updated": "2026-08-12",
       "path": "entities/works/bisons-magrini-1907.md"
     },
+    "work/bosco-schilpario-grubicy-1891": {
+      "id": "work/bosco-schilpario-grubicy-1891",
+      "uri": "urn:ahn:work/bosco-schilpario-grubicy-1891",
+      "type": "work",
+      "label_ja": "ヴィットーレ・グルビーチ・デ・ドラゴン《Bosco (Schilpario - 1891)》",
+      "label_en": "Bosco (Schilpario - 1891)",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "独立作品典拠IDと現所在は未確認。1891年公式カタログの出品記録を用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年展出品（カタログ題名にSchilpario・1891の記載）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/vittore-grubicy-de-dragon"
+        },
+        {
+          "type": "belongs_to",
+          "target": "movement/italian-divisionism"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://upload.wikimedia.org/wikipedia/commons/2/24/Prima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/works/bosco-schilpario-grubicy-1891.md"
+    },
     "work/bouc-magrini-1907": {
       "id": "work/bouc-magrini-1907",
       "uri": "urn:ahn:work/bouc-magrini-1907",
@@ -14942,6 +14982,46 @@
       "status": "draft",
       "updated": "2026-08-12",
       "path": "entities/works/bouc-magrini-1907.md"
+    },
+    "work/campagna-lombarda-inverno-grubicy-1891": {
+      "id": "work/campagna-lombarda-inverno-grubicy-1891",
+      "uri": "urn:ahn:work/campagna-lombarda-inverno-grubicy-1891",
+      "type": "work",
+      "label_ja": "ヴィットーレ・グルビーチ・デ・ドラゴン《Campagna Lombarda (Inverno 1890)》",
+      "label_en": "Campagna Lombarda (Inverno 1890)",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "独立作品典拠IDと現所在は未確認。1891年公式カタログの出品記録を用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年展出品（カタログ題名にInverno 1890の年記載）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/vittore-grubicy-de-dragon"
+        },
+        {
+          "type": "belongs_to",
+          "target": "movement/italian-divisionism"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://upload.wikimedia.org/wikipedia/commons/2/24/Prima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/works/campagna-lombarda-inverno-grubicy-1891.md"
     },
     "work/cavalier-ancien-magrini-1907": {
       "id": "work/cavalier-ancien-magrini-1907",
@@ -20502,6 +20582,46 @@
       "updated": "2026-08-12",
       "path": "entities/works/quies-magrini-1907.md"
     },
+    "work/raccolto-del-fieno-grubicy-1891": {
+      "id": "work/raccolto-del-fieno-grubicy-1891",
+      "uri": "urn:ahn:work/raccolto-del-fieno-grubicy-1891",
+      "type": "work",
+      "label_ja": "ヴィットーレ・グルビーチ・デ・ドラゴン《Raccolto del fieno-crep.-(Valle di Scalve - 1889)》",
+      "label_en": "Raccolto del fieno-crep.-(Valle di Scalve - 1889)",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "独立作品典拠IDと現所在は未確認。1891年公式カタログの出品記録を用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年展出品（カタログ題名にValle di Scalve・1889の記載）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/vittore-grubicy-de-dragon"
+        },
+        {
+          "type": "belongs_to",
+          "target": "movement/italian-divisionism"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://upload.wikimedia.org/wikipedia/commons/2/24/Prima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/works/raccolto-del-fieno-grubicy-1891.md"
+    },
     "work/recolte-des-potirons-segantini-1907": {
       "id": "work/recolte-des-potirons-segantini-1907",
       "uri": "urn:ahn:work/recolte-des-potirons-segantini-1907",
@@ -24288,6 +24408,27 @@
       "source": null
     },
     {
+      "from": "work/bosco-schilpario-grubicy-1891",
+      "type": "created_by",
+      "to": "person/vittore-grubicy-de-dragon",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/bosco-schilpario-grubicy-1891",
+      "type": "belongs_to",
+      "to": "movement/italian-divisionism",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/bosco-schilpario-grubicy-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "work/bouc-magrini-1907",
       "type": "created_by",
       "to": "person/adolphe-magrini",
@@ -24298,6 +24439,27 @@
       "from": "work/bouc-magrini-1907",
       "type": "exhibited_at",
       "to": "event/salon-divisionnistes-italiens-paris-1907",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/campagna-lombarda-inverno-grubicy-1891",
+      "type": "created_by",
+      "to": "person/vittore-grubicy-de-dragon",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/campagna-lombarda-inverno-grubicy-1891",
+      "type": "belongs_to",
+      "to": "movement/italian-divisionism",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/campagna-lombarda-inverno-grubicy-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
       "certainty": null,
       "source": null
     },
@@ -26419,6 +26581,27 @@
       "from": "work/quies-magrini-1907",
       "type": "exhibited_at",
       "to": "event/salon-divisionnistes-italiens-paris-1907",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/raccolto-del-fieno-grubicy-1891",
+      "type": "created_by",
+      "to": "person/vittore-grubicy-de-dragon",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/raccolto-del-fieno-grubicy-1891",
+      "type": "belongs_to",
+      "to": "movement/italian-divisionism",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/raccolto-del-fieno-grubicy-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
       "certainty": null,
       "source": null
     },
@@ -28389,6 +28572,24 @@
       "derived": true
     },
     {
+      "from": "person/vittore-grubicy-de-dragon",
+      "type": "created",
+      "to": "work/bosco-schilpario-grubicy-1891",
+      "derived": true
+    },
+    {
+      "from": "movement/italian-divisionism",
+      "type": "has_member",
+      "to": "work/bosco-schilpario-grubicy-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/bosco-schilpario-grubicy-1891",
+      "derived": true
+    },
+    {
       "from": "person/adolphe-magrini",
       "type": "created",
       "to": "work/bouc-magrini-1907",
@@ -28398,6 +28599,24 @@
       "from": "event/salon-divisionnistes-italiens-paris-1907",
       "type": "exhibited",
       "to": "work/bouc-magrini-1907",
+      "derived": true
+    },
+    {
+      "from": "person/vittore-grubicy-de-dragon",
+      "type": "created",
+      "to": "work/campagna-lombarda-inverno-grubicy-1891",
+      "derived": true
+    },
+    {
+      "from": "movement/italian-divisionism",
+      "type": "has_member",
+      "to": "work/campagna-lombarda-inverno-grubicy-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/campagna-lombarda-inverno-grubicy-1891",
       "derived": true
     },
     {
@@ -30216,6 +30435,24 @@
       "from": "event/salon-divisionnistes-italiens-paris-1907",
       "type": "exhibited",
       "to": "work/quies-magrini-1907",
+      "derived": true
+    },
+    {
+      "from": "person/vittore-grubicy-de-dragon",
+      "type": "created",
+      "to": "work/raccolto-del-fieno-grubicy-1891",
+      "derived": true
+    },
+    {
+      "from": "movement/italian-divisionism",
+      "type": "has_member",
+      "to": "work/raccolto-del-fieno-grubicy-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/raccolto-del-fieno-grubicy-1891",
       "derived": true
     },
     {

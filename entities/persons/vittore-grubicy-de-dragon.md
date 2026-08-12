@@ -33,5 +33,8 @@ updated: 2026-08-12
 
 1891年の公式カタログでは、Portico B Bの551《Campagna Lombarda (Inverno 1890)》、
 552《Bosco (Schilpario - 1891)》、553《Raccolto del fieno-crep.-(Valle di Scalve - 1889)》が
-「Vittore (Grubicy De Dragon Vittore)」名義で掲載される。作品個別の典拠と制作情報は未整理のため、
-現段階では人物側の出品記録に留める。
+「Vittore (Grubicy De Dragon Vittore)」名義で掲載される。これらはそれぞれ
+[`《Campagna Lombarda (Inverno 1890)》`](../works/campagna-lombarda-inverno-grubicy-1891.md)、
+[`《Bosco (Schilpario - 1891)》`](../works/bosco-schilpario-grubicy-1891.md)、
+[`《Raccolto del fieno-crep.-(Valle di Scalve - 1889)》`](../works/raccolto-del-fieno-grubicy-1891.md)
+として作品記録に分離した。作品固有の典拠・制作情報・現所在は未確認のため、各作品では出品年とカタログ表記を確定値として保持する。
