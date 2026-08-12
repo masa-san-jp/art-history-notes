@@ -27,8 +27,9 @@ claims:
   - {field: time, source: "https://www.wikidata.org/wiki/Q11050078", certainty: scholarly}
 space:
   - {role: originated_in, target: place/guangzhou}
+  - {role: active_in, target: place/tokyo}
 relations:
-  - {type: influenced_by, target: movement/nihonga, certainty: scholarly, source: "https://en.wikipedia.org/wiki/Gao_Jianfu"}
+  - {type: influenced_by, target: movement/nihonga, certainty: scholarly, source: "https://www.tnm.jp/modules/r_free_page/index.php?id=1544&lang=ja"}
 sources:
   - https://www.wikidata.org/wiki/Q11050078
   - https://www.wikidata.org/wiki/Q3083171
@@ -45,6 +46,7 @@ sources:
   - https://zh.wikipedia.org/wiki/陈树人
   - https://zh.wikipedia.org/wiki/居廉
   - https://cn.chinadaily.com.cn/a/202504/07/WS67f37d5ea310e29a7c4a7e8d.html
+  - https://www.tnm.jp/modules/r_free_page/index.php?id=1544&lang=ja
 images:
   - url: https://images.metmuseum.org/CRDImages/as/original/DP162527.jpg
     source_page: https://www.metmuseum.org/art/collection/search/36184
@@ -205,6 +207,11 @@ Wikidata の movement 項目（[Q11050078](https://www.wikidata.org/wiki/Q110500
 発生地を広州（[place/guangzhou](../places/guangzhou.md)）とした。根拠は、高剣父・高奇峰・
 陳樹人の出身地（広東省番禺、現在は広州市の一部）と、春睡画院という活動拠点が広州に置かれた
 ことによる。
+
+東京国立博物館は、高剣父が日本留学を通じて竹内栖鳳・山元春挙ら京都画壇の影響を受けたと説明している
+（[「中国山水画の20世紀」](https://www.tnm.jp/modules/r_free_page/index.php?id=1544&lang=ja)）。
+そのため、広州を発生地とする一方、東京を日本画を学んだ活動地として `active_in` に記録する。
+これは嶺南画派全体の発生地を東京へ移すものではない。
 
 **未確認**: 番禺という、広州よりさらに細かい単位の出身地を独立した `place` として立てるかどうか。
 また、1912年の『真相画報』は上海で発行されており、活動が上海にも及んでいたことをどう
