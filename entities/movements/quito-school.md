@@ -29,6 +29,8 @@ space:
   - {role: originated_in, target: place/quito}
 relations:
   - {type: influenced_by, target: movement/baroque, certainty: scholarly, source: "https://www.encyclopedia.com/humanities/encyclopedias-almanacs-transcripts-and-maps/quito-school-art"}
+  - {type: influenced_by, target: movement/rococo, certainty: scholarly, source: "https://fundacionmuseosquito.gob.ec/MDC/Bibliograf%C3%ADa%20Sala%20siglo%20XVI/Pajuelo%20Jonathan-Arte%20de%20la%20Real%20Audiencia%20de%20Quito.pdf"}
+  - {type: influenced_by, target: movement/neoclassicism, certainty: scholarly, source: "https://fundacionmuseosquito.gob.ec/MDC/Bibliograf%C3%ADa%20Sala%20siglo%20XVI/Pajuelo%20Jonathan-Arte%20de%20la%20Real%20Audiencia%20de%20Quito.pdf"}
 sources:
   - https://www.wikidata.org/wiki/Q7272667
   - https://www.getty.edu/vow/AATFullDisplay?find=&place=&nation=&logic=&note=&role=&subjectid=300107841
@@ -36,6 +38,7 @@ sources:
   - https://es.wikipedia.org/wiki/Escuela_Quite%C3%B1a
   - https://www.encyclopedia.com/humanities/encyclopedias-almanacs-transcripts-and-maps/quito-school-art
   - https://www.encyclopedia.com/humanities/encyclopedias-almanacs-transcripts-and-maps/quito-school-sculpture
+  - https://fundacionmuseosquito.gob.ec/MDC/Bibliograf%C3%ADa%20Sala%20siglo%20XVI/Pajuelo%20Jonathan-Arte%20de%20la%20Real%20Audiencia%20de%20Quito.pdf
   - https://www.scielo.org.mx/scielo.php?script=sci_arttext&pid=S0185-12762014000200010
   - https://cvc.cervantes.es/artes/ciudades_patrimonio/quito/personalidades/goribar.htm
   - https://www.metmuseum.org/art/collection/search/204305
@@ -94,6 +97,15 @@ Encyclopedia of Latin American History and Culture は、キト派が欧州バ�
 したがって本項の `influenced_by movement/baroque` は、16〜18世紀の形成期・最盛期における
 欧州バロック語彙の受容を指し、ルネサンス／マニエリスムや後期ロココ・新古典主義を含むキト派の
 全期間をバロックへ還元するものではない。
+
+## ロココと新古典主義の受容
+
+キト市の博物館財団が公開する研究資料は、18世紀のキト彫刻が同時代の欧州美術の特徴を示し、
+バロック・ロココ・新古典主義の各様式が地域的に変形されて現れたと説明する
+（[Arte de la Real Audiencia de Quito](https://fundacionmuseosquito.gob.ec/MDC/Bibliograf%C3%ADa%20Sala%20siglo%20XVI/Pajuelo%20Jonathan-Arte%20de%20la%20Real%20Audiencia%20de%20Quito.pdf)、
+キト市博物館財団公開資料）。ここでの `influenced_by movement/rococo` と
+`influenced_by movement/neoclassicism` は、欧州の様式語彙が植民地期のキトでそのまま複製された
+という意味ではなく、現地の工房が同時代の様式を受け取り、地域的な制作へ変形した経路を記録する。
 
 ## kind の判定 — なぜ `period-style` か
 
