@@ -26,12 +26,14 @@ claims:
   - {field: kind, source: "https://www.wikidata.org/wiki/Q3179819", certainty: hypothesis}
 space:
   - {role: originated_in, target: place/kyoto}
+  - {role: active_in, target: place/tokyo}
 relations:
   - {type: influenced_by, target: movement/yamato-e, certainty: scholarly, source: "https://jpsearch.go.jp/en/gallery/ndl-JBpERWwDqYZ"}
 sources:
   - https://www.wikidata.org/wiki/Q3179819
   - https://www.getty.edu/research/tools/vocabularies/aat/
   - https://jpsearch.go.jp/en/gallery/ndl-JBpERWwDqYZ
+  - https://www.ndl.go.jp/kaleido/entry/20/2.html
 images:
   - url: https://images.metmuseum.org/CRDImages/as/original/DT231.jpg
     source_page: https://www.metmuseum.org/art/collection/search/39664
@@ -94,11 +96,14 @@ Wikidata の inception は1600年。精度は不明なので EDTF では `1600~`
 ## 空間
 
 発生地を京都とした（本阿弥光悦・俵屋宗達の活動地）。**一次資料は未確認。**
-江戸への移動（酒井抱一による江戸琳派）が確認できれば `diffused_to` を張る。**未着手。**
+国立国会図書館は、酒井抱一とその絵画を継承する画家らが活動のフィールドを江戸に置いたため、後に
+「江戸琳派」と呼ばれたと説明している。したがって、江戸（現東京）を `active_in` として記録する
+（[国立国会図書館](https://www.ndl.go.jp/kaleido/entry/20/2.html)）。これは江戸琳派の担い手・作品を
+個別エンティティとして網羅したことを意味しない。
 
 ## 未着手
 
 - 担い手（本阿弥光悦・俵屋宗達・尾形光琳・酒井抱一）の person エンティティ
 - 作品（証拠）——光琳《紅白梅図屏風》は「調和」の観点でも読む価値がある
-- 江戸への伝播（`diffused_to`）と、近代日本画への接続
+- 江戸琳派の担い手・作品（個別エンティティ）と、近代日本画への接続
 - 狩野派との対比は、この2件が揃った時点で overviews 側に書ける（並行関係はエッジにしない）
