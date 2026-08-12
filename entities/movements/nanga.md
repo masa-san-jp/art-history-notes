@@ -28,6 +28,7 @@ space:
 relations:
   - {type: influenced_by, target: person/dong-qichang, certainty: scholarly, source: "https://en.wikipedia.org/wiki/Nanga_(art)"}
   - {type: influenced_by, target: movement/literati-painting, certainty: scholarly, source: "https://eaa.fas.harvard.edu/museum/nanga-painting-feinberg-collection"}
+  - {type: influenced_by, target: movement/zhe-school, certainty: scholarly, source: "https://www.kyohaku.go.jp/jp/learn/home/yomimono_data/0071/"}
   - {type: influenced_by, target: movement/four-wangs, certainty: scholarly, source: "https://theme.npm.edu.tw/exh107/NewEra/jp/page-4.html"}
   - {type: influenced_by, target: movement/shanghai-school, certainty: scholarly, source: "https://theme.npm.edu.tw/exh107/NewEra/en/page-4.html"}
 sources:
@@ -38,6 +39,7 @@ sources:
   - https://jpsearch.go.jp/en/gallery/ndl-D6xwaWpaGKiEYVp
   - https://www.kyohaku.go.jp/old/eng/theme/floor2_4/past/kinse_20170221.html
   - https://eaa.fas.harvard.edu/museum/nanga-painting-feinberg-collection
+  - https://www.kyohaku.go.jp/jp/learn/home/yomimono_data/0071/
   - https://theme.npm.edu.tw/exh107/NewEra/jp/page-4.html
   - https://theme.npm.edu.tw/exh107/NewEra/en/page-4.html
   - https://www.metmuseum.org/art/collection/search/671023
@@ -52,7 +54,7 @@ images:
     license: cc0
     note: "与謝蕪村《山野跋渉図屏風（Travels through Mountains and Fields）》1765年頃、メトロポリタン美術館蔵（isPublicDomain: true）"
 status: draft
-updated: 2026-08-10
+updated: 2026-08-13
 ---
 
 # 南画 / Nanga
@@ -79,6 +81,18 @@ updated: 2026-08-10
 
 この関係で動いたものは**物（中国の木版画譜）**と限定する。日本の南画家の多くが、輸入された中国の
 画譜を参照して筆法や構図を学んだため、南画を受け取り側として中国の文人画へ `influenced_by` を張る。
+
+### 浙派の藍瑛を介した受容
+
+京都国立博物館は、明末清初の画家・藍瑛を浙派の殿軍とみなされる人物として紹介し、その作品が日本へ
+多数舶載され、池大雅をはじめとする江戸時代の南画家に大きな影響を与えたと説明している
+（[京都国立博物館「揚州時代の藍瑛」](https://www.kyohaku.go.jp/jp/learn/home/yomimono_data/0071/)）。
+同館は同時に、藍瑛が浙派の範疇に留まらず、蘇州・松江に由来する文人画風も取り入れたと記す。
+
+このため、南画から[浙派](zhe-school.md)へ `influenced_by` を張る。ここで記録するのは、浙派全体が
+南画へ一様に直接影響したという意味ではない。**藍瑛という浙派と関連づけられた画家の作品が中国から
+日本へ運ばれ、南画家に受容された個別の経路**である。藍瑛の画風が複数の系統を含むことも、同じ出典に
+基づいて本文へ残した。
 
 ### 四王の画風を介した清末の伝達
 
