@@ -10088,6 +10088,40 @@
       "updated": "2026-08-12",
       "path": "entities/persons/carlo-fornara.md"
     },
+    "person/carlo-fossati": {
+      "id": "person/carlo-fossati",
+      "uri": "urn:ahn:person/carlo-fossati",
+      "type": "person",
+      "label_ja": "カルロ・フォッサーティ",
+      "label_en": "Carlo Fossati",
+      "authority": {
+        "wikidata": null,
+        "ulan": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "独立した人物典拠IDは未確認。モンツァ市民博物館資料と1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": "1863",
+        "end": "1894",
+        "display": "1863年モンツァ生まれ — 1894年リオ・デ・ジャネイロ没"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://museicivicimonza.it/en/donazione-opera-di-carlo-fossati/",
+        "https://www.museicivicimonza.it/en/grandi-opere-dellottocento-monzese/",
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/persons/carlo-fossati.md"
+    },
     "person/carlo-prada": {
       "id": "person/carlo-prada",
       "uri": "urn:ahn:person/carlo-prada",
@@ -10439,6 +10473,79 @@
       "status": "stub",
       "updated": "2026-08-09",
       "path": "entities/persons/e-b-havell.md"
+    },
+    "person/edouard-menta": {
+      "id": "person/edouard-menta",
+      "uri": "urn:ahn:person/edouard-menta",
+      "type": "person",
+      "label_ja": "エドゥアール・メンタ",
+      "label_en": "Edouard Menta",
+      "aliases": [
+        "Édouard Mentha"
+      ],
+      "authority": {
+        "wikidata": "Q40551315",
+        "ulan": "500163360",
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": "1858",
+        "end": "1914",
+        "display": "1858年ジュネーヴ生まれ — 1914年または1915年没"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://www.musee-orsay.fr/en/ressources/artists-personalities-catalog/edouard-menta-18164",
+        "https://www.wikidata.org/wiki/Q40551315",
+        "https://exhibitions.univie.ac.at/person/ulan/500163360",
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/persons/edouard-menta.md"
+    },
+    "person/egisto-lancerotto": {
+      "id": "person/egisto-lancerotto",
+      "uri": "urn:ahn:person/egisto-lancerotto",
+      "type": "person",
+      "label_ja": "エジスト・ランチェロット",
+      "label_en": "Egisto Lancerotto",
+      "authority": {
+        "wikidata": null,
+        "ulan": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "独立した人物典拠IDは未確認。Dizionario d'Arte Sartori、地域文化資料、1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": "1847-08-21",
+        "end": "1916-05-31",
+        "display": "1847年8月21日ノアーレ生まれ — 1916年5月31日ヴェネツィア没"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://dizionariodartesartori.it/artisti/lancerotto-egisto",
+        "https://www.larivieradelbrenta.it/en/egisto-lancerotto-the-painter-of-noale/",
+        "https://www.artericerca.com/artisti_italiani_ottocento/L/schede_L/Lancerotto%20Egisto%20biografia.htm",
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/persons/egisto-lancerotto.md"
     },
     "person/el-lissitzky": {
       "id": "person/el-lissitzky",
@@ -11284,6 +11391,40 @@
       "status": "draft",
       "updated": "2026-08-08",
       "path": "entities/persons/georges-seurat.md"
+    },
+    "person/giacomo-grosso": {
+      "id": "person/giacomo-grosso",
+      "uri": "urn:ahn:person/giacomo-grosso",
+      "type": "person",
+      "label_ja": "ジャコモ・グロッソ",
+      "label_en": "Giacomo Grosso",
+      "authority": {
+        "wikidata": null,
+        "ulan": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "独立した人物典拠IDは未確認。Treccani、トリノ市資料、1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": "1860-05-25",
+        "end": "1938-01-14",
+        "display": "1860年5月25日カンビアーノ生まれ — 1938年1月14日トリノ没"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://www.treccani.it/enciclopedia/giacomo-grosso_%28Dizionario-Biografico%29/",
+        "https://www.comune.torino.it/ucstampa/1999/mausoltamagno.htm",
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/persons/giacomo-grosso.md"
     },
     "person/gian-maria-rastellini": {
       "id": "person/gian-maria-rastellini",
@@ -12959,6 +13100,41 @@
       "updated": "2026-08-12",
       "path": "entities/persons/raffaele-pontremoli.md"
     },
+    "person/raineri-arcaini": {
+      "id": "person/raineri-arcaini",
+      "uri": "urn:ahn:person/raineri-arcaini",
+      "type": "person",
+      "label_ja": "ライネリ・アルカイーニ",
+      "label_en": "Raineri Arcaini",
+      "authority": {
+        "wikidata": null,
+        "ulan": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "独立した人物典拠IDは未確認。ロンバルディア文化財カタログ、ブレラ資料、1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": null,
+        "end": null,
+        "display": "19世紀末にミラノで建築家として活動"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://www.lombardiabeniculturali.it/opere-arte/autori/47981/",
+        "https://www.lombardiabeniculturali.it/opere-arte/schede-complete/4t060-03581/",
+        "https://catalogo.cultura.gov.it/detail/PhotographicHeritage/0100442353",
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/persons/raineri-arcaini.md"
+    },
     "person/ramses-younan": {
       "id": "person/ramses-younan",
       "uri": "urn:ahn:person/ramses-younan",
@@ -13049,6 +13225,41 @@
       "status": "draft",
       "updated": "2026-08-09",
       "path": "entities/persons/ries-mulder.md"
+    },
+    "person/rinaldo-agazzi": {
+      "id": "person/rinaldo-agazzi",
+      "uri": "urn:ahn:person/rinaldo-agazzi",
+      "type": "person",
+      "label_ja": "リナルド・アガッツィ",
+      "label_en": "Rinaldo Agazzi",
+      "authority": {
+        "wikidata": "Q3935907",
+        "ulan": "500155978",
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": "1857-10-30",
+        "end": "1939-05-24",
+        "display": "1857年10月30日マペッロ生まれ — 1939年5月24日ベルガモ没"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://www.treccani.it/enciclopedia/rinaldo-agazzi_%28Dizionario-Biografico%29/",
+        "https://www.wikidata.org/wiki/Q3935907",
+        "https://www.galleriarecta.it/autore/agazzi-rinaldo/",
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/persons/rinaldo-agazzi.md"
     },
     "person/robert-coates": {
       "id": "person/robert-coates",
@@ -16415,6 +16626,43 @@
       "updated": "2026-08-08",
       "path": "entities/works/a-sunday-on-la-grande-jatte.md"
     },
+    "work/al-piatto-d-oro-menta-1891": {
+      "id": "work/al-piatto-d-oro-menta-1891",
+      "uri": "urn:ahn:work/al-piatto-d-oro-menta-1891",
+      "type": "work",
+      "label_ja": "エドゥアール・メンタ《Al piatto d’oro》",
+      "label_en": "Al piatto d’oro",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "1891年展出品作としての独立典拠IDと現所在は未確認。公式カタログと人物典拠を用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年展出品"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/edouard-menta"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://www.musee-orsay.fr/en/ressources/artists-personalities-catalog/edouard-menta-18164",
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/works/al-piatto-d-oro-menta-1891.md"
+    },
     "work/alba-morbelli-1891": {
       "id": "work/alba-morbelli-1891",
       "uri": "urn:ahn:work/alba-morbelli-1891",
@@ -18111,6 +18359,43 @@
       "status": "draft",
       "updated": "2026-08-12",
       "path": "entities/works/dromadaire-magrini-1907.md"
+    },
+    "work/due-ritratti-riuniti-grosso-1891": {
+      "id": "work/due-ritratti-riuniti-grosso-1891",
+      "uri": "urn:ahn:work/due-ritratti-riuniti-grosso-1891",
+      "type": "work",
+      "label_ja": "ジャコモ・グロッソ《Due ritratti riuniti》",
+      "label_en": "Due ritratti riuniti",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "1891年展出品作としての独立典拠IDと現所在は未確認。Treccani、公式カタログ、人物典拠を用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年展出品"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/giacomo-grosso"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://www.treccani.it/enciclopedia/giacomo-grosso_%28Dizionario-Biografico%29/",
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/works/due-ritratti-riuniti-grosso-1891.md"
     },
     "work/effet-de-neige-cinotti-1907": {
       "id": "work/effet-de-neige-cinotti-1907",
@@ -20351,6 +20636,43 @@
       "updated": "2026-08-12",
       "path": "entities/works/l-oratore-dello-sciopero-longoni-1891.md"
     },
+    "work/la-barca-di-trajano-arcaini-1891": {
+      "id": "work/la-barca-di-trajano-arcaini-1891",
+      "uri": "urn:ahn:work/la-barca-di-trajano-arcaini-1891",
+      "type": "work",
+      "label_ja": "ライネリ・アルカイーニ《La barca di Trajano (ora sepolta nel lago di Nemi) Ricostruzione ideale》",
+      "label_en": "La barca di Trajano (ora sepolta nel lago di Nemi) Ricostruzione ideale",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "1891年展出品作としての独立典拠IDと現所在は未確認。公式カタログと人物典拠を用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年展出品"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/raineri-arcaini"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://www.lombardiabeniculturali.it/opere-arte/autori/47981/",
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/works/la-barca-di-trajano-arcaini-1891.md"
+    },
     "work/la-bataille-previati-1907": {
       "id": "work/la-bataille-previati-1907",
       "uri": "urn:ahn:work/la-bataille-previati-1907",
@@ -21522,6 +21844,43 @@
       "status": "draft",
       "updated": "2026-08-12",
       "path": "entities/works/le-presage-fornara-1907.md"
+    },
+    "work/le-reclute-lancerotto-1891": {
+      "id": "work/le-reclute-lancerotto-1891",
+      "uri": "urn:ahn:work/le-reclute-lancerotto-1891",
+      "type": "work",
+      "label_ja": "エジスト・ランチェロット《Le Reclute》",
+      "label_en": "Le Reclute",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "1891年展出品作としての独立典拠IDと現所在は未確認。公式カタログと人物典拠を用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年展出品"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/egisto-lancerotto"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://dizionariodartesartori.it/artisti/lancerotto-egisto",
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/works/le-reclute-lancerotto-1891.md"
     },
     "work/le-roi-soleil-previati-1907": {
       "id": "work/le-roi-soleil-previati-1907",
@@ -25506,6 +25865,44 @@
       "updated": "2026-08-12",
       "path": "entities/works/ritratto-di-signora-villani-1891.md"
     },
+    "work/ritratto-uomo-agazzi-1891": {
+      "id": "work/ritratto-uomo-agazzi-1891",
+      "uri": "urn:ahn:work/ritratto-uomo-agazzi-1891",
+      "type": "work",
+      "label_ja": "リナルド・アガッツィ《Ritratto d’uomo》",
+      "label_en": "Ritratto d’uomo",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "1891年展出品作としての独立典拠IDと現所在は未確認。公式カタログと人物典拠を用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年展出品"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/rinaldo-agazzi"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://www.treccani.it/enciclopedia/rinaldo-agazzi_%28Dizionario-Biografico%29/",
+        "https://www.galleriarecta.it/autore/agazzi-rinaldo/",
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/works/ritratto-uomo-agazzi-1891.md"
+    },
     "work/romeo-et-juliette-previati-1907": {
       "id": "work/romeo-et-juliette-previati-1907",
       "uri": "urn:ahn:work/romeo-et-juliette-previati-1907",
@@ -26099,6 +26496,43 @@
       "status": "draft",
       "updated": "2026-08-12",
       "path": "entities/works/speta-mi-bambin-marsili-1891.md"
+    },
+    "work/spiaggia-romana-fossati-1891": {
+      "id": "work/spiaggia-romana-fossati-1891",
+      "uri": "urn:ahn:work/spiaggia-romana-fossati-1891",
+      "type": "work",
+      "label_ja": "カルロ・フォッサーティ《Spiaggia romana》",
+      "label_en": "Spiaggia romana",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "1891年展出品作としての独立典拠IDと現所在は未確認。公式カタログと人物典拠を用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年展出品"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/carlo-fossati"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://museicivicimonza.it/en/donazione-opera-di-carlo-fossati/",
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/works/spiaggia-romana-fossati-1891.md"
     },
     "work/st-moritz-pendant-la-nuit-segantini-1907": {
       "id": "work/st-moritz-pendant-la-nuit-segantini-1907",
@@ -27118,6 +27552,43 @@
       "status": "draft",
       "updated": "2026-08-12",
       "path": "entities/works/village-des-alpes-ramponi-1907.md"
+    },
+    "work/zinevonein-arcaini-1891": {
+      "id": "work/zinevonein-arcaini-1891",
+      "uri": "urn:ahn:work/zinevonein-arcaini-1891",
+      "type": "work",
+      "label_ja": "ライネリ・アルカイーニ《Zinevonein - ora distrutta, ricostruzione ideale》",
+      "label_en": "Zinevonein - ora distrutta, ricostruzione ideale",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "1891年展出品作としての独立典拠IDと現所在は未確認。公式カタログと人物典拠を用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年展出品"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/raineri-arcaini"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://www.lombardiabeniculturali.it/opere-arte/autori/47981/",
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/works/zinevonein-arcaini-1891.md"
     }
   },
   "edges": [
@@ -29219,6 +29690,13 @@
       "source": null
     },
     {
+      "from": "person/carlo-fossati",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "person/carlo-prada",
       "type": "belongs_to",
       "to": "movement/italian-divisionism",
@@ -29293,6 +29771,20 @@
     },
     {
       "from": "person/domenico-ghidoni",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "person/edouard-menta",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "person/egisto-lancerotto",
       "type": "exhibited_at",
       "to": "event/first-brera-triennale-1891",
       "certainty": null,
@@ -29504,6 +29996,13 @@
       "from": "person/georges-seurat",
       "type": "active_in",
       "to": "place/paris"
+    },
+    {
+      "from": "person/giacomo-grosso",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
     },
     {
       "from": "person/gian-maria-rastellini",
@@ -29850,9 +30349,23 @@
       "source": null
     },
     {
+      "from": "person/raineri-arcaini",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "person/rembrandt-bugatti",
       "type": "exhibited_at",
       "to": "event/salon-divisionnistes-italiens-paris-1907",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "person/rinaldo-agazzi",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
       "certainty": null,
       "source": null
     },
@@ -30025,6 +30538,20 @@
       "from": "work/a-sunday-on-la-grande-jatte",
       "type": "held_at",
       "to": "org/art-institute-of-chicago"
+    },
+    {
+      "from": "work/al-piatto-d-oro-menta-1891",
+      "type": "created_by",
+      "to": "person/edouard-menta",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/al-piatto-d-oro-menta-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
     },
     {
       "from": "work/alba-morbelli-1891",
@@ -30684,6 +31211,20 @@
       "from": "work/dromadaire-magrini-1907",
       "type": "exhibited_at",
       "to": "event/salon-divisionnistes-italiens-paris-1907",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/due-ritratti-riuniti-grosso-1891",
+      "type": "created_by",
+      "to": "person/giacomo-grosso",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/due-ritratti-riuniti-grosso-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
       "certainty": null,
       "source": null
     },
@@ -31535,6 +32076,20 @@
       "source": null
     },
     {
+      "from": "work/la-barca-di-trajano-arcaini-1891",
+      "type": "created_by",
+      "to": "person/raineri-arcaini",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/la-barca-di-trajano-arcaini-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "work/la-bataille-previati-1907",
       "type": "created_by",
       "to": "person/gaetano-previati",
@@ -31979,6 +32534,20 @@
       "from": "work/le-presage-fornara-1907",
       "type": "exhibited_at",
       "to": "event/salon-divisionnistes-italiens-paris-1907",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/le-reclute-lancerotto-1891",
+      "type": "created_by",
+      "to": "person/egisto-lancerotto",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/le-reclute-lancerotto-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
       "certainty": null,
       "source": null
     },
@@ -33509,6 +34078,20 @@
       "source": null
     },
     {
+      "from": "work/ritratto-uomo-agazzi-1891",
+      "type": "created_by",
+      "to": "person/rinaldo-agazzi",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/ritratto-uomo-agazzi-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "work/romeo-et-juliette-previati-1907",
       "type": "created_by",
       "to": "person/gaetano-previati",
@@ -33727,6 +34310,20 @@
     },
     {
       "from": "work/speta-mi-bambin-marsili-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/spiaggia-romana-fossati-1891",
+      "type": "created_by",
+      "to": "person/carlo-fossati",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/spiaggia-romana-fossati-1891",
       "type": "exhibited_at",
       "to": "event/first-brera-triennale-1891",
       "certainty": null,
@@ -34121,6 +34718,20 @@
       "from": "work/village-des-alpes-ramponi-1907",
       "type": "exhibited_at",
       "to": "event/salon-divisionnistes-italiens-paris-1907",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/zinevonein-arcaini-1891",
+      "type": "created_by",
+      "to": "person/raineri-arcaini",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/zinevonein-arcaini-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
       "certainty": null,
       "source": null
     },
@@ -35331,6 +35942,12 @@
       "derived": true
     },
     {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "person/carlo-fossati",
+      "derived": true
+    },
+    {
       "from": "movement/italian-divisionism",
       "type": "has_member",
       "to": "person/carlo-prada",
@@ -35388,6 +36005,18 @@
       "from": "event/first-brera-triennale-1891",
       "type": "exhibited",
       "to": "person/domenico-ghidoni",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "person/edouard-menta",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "person/egisto-lancerotto",
       "derived": true
     },
     {
@@ -35544,6 +36173,12 @@
       "from": "person/henri-lehmann",
       "type": "taught",
       "to": "person/georges-seurat",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "person/giacomo-grosso",
       "derived": true
     },
     {
@@ -35799,9 +36434,21 @@
       "derived": true
     },
     {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "person/raineri-arcaini",
+      "derived": true
+    },
+    {
       "from": "event/salon-divisionnistes-italiens-paris-1907",
       "type": "exhibited",
       "to": "person/rembrandt-bugatti",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "person/rinaldo-agazzi",
       "derived": true
     },
     {
@@ -35922,6 +36569,18 @@
       "from": "concept/harmony",
       "type": "depicted_in",
       "to": "work/a-sunday-on-la-grande-jatte",
+      "derived": true
+    },
+    {
+      "from": "person/edouard-menta",
+      "type": "created",
+      "to": "work/al-piatto-d-oro-menta-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/al-piatto-d-oro-menta-1891",
       "derived": true
     },
     {
@@ -36480,6 +37139,18 @@
       "from": "event/salon-divisionnistes-italiens-paris-1907",
       "type": "exhibited",
       "to": "work/dromadaire-magrini-1907",
+      "derived": true
+    },
+    {
+      "from": "person/giacomo-grosso",
+      "type": "created",
+      "to": "work/due-ritratti-riuniti-grosso-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/due-ritratti-riuniti-grosso-1891",
       "derived": true
     },
     {
@@ -37209,6 +37880,18 @@
       "derived": true
     },
     {
+      "from": "person/raineri-arcaini",
+      "type": "created",
+      "to": "work/la-barca-di-trajano-arcaini-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/la-barca-di-trajano-arcaini-1891",
+      "derived": true
+    },
+    {
       "from": "person/gaetano-previati",
       "type": "created",
       "to": "work/la-bataille-previati-1907",
@@ -37590,6 +38273,18 @@
       "from": "event/salon-divisionnistes-italiens-paris-1907",
       "type": "exhibited",
       "to": "work/le-presage-fornara-1907",
+      "derived": true
+    },
+    {
+      "from": "person/egisto-lancerotto",
+      "type": "created",
+      "to": "work/le-reclute-lancerotto-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/le-reclute-lancerotto-1891",
       "derived": true
     },
     {
@@ -38901,6 +39596,18 @@
       "derived": true
     },
     {
+      "from": "person/rinaldo-agazzi",
+      "type": "created",
+      "to": "work/ritratto-uomo-agazzi-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/ritratto-uomo-agazzi-1891",
+      "derived": true
+    },
+    {
       "from": "person/gaetano-previati",
       "type": "created",
       "to": "work/romeo-et-juliette-previati-1907",
@@ -39090,6 +39797,18 @@
       "from": "event/first-brera-triennale-1891",
       "type": "exhibited",
       "to": "work/speta-mi-bambin-marsili-1891",
+      "derived": true
+    },
+    {
+      "from": "person/carlo-fossati",
+      "type": "created",
+      "to": "work/spiaggia-romana-fossati-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/spiaggia-romana-fossati-1891",
       "derived": true
     },
     {
@@ -39426,6 +40145,18 @@
       "from": "event/salon-divisionnistes-italiens-paris-1907",
       "type": "exhibited",
       "to": "work/village-des-alpes-ramponi-1907",
+      "derived": true
+    },
+    {
+      "from": "person/raineri-arcaini",
+      "type": "created",
+      "to": "work/zinevonein-arcaini-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/zinevonein-arcaini-1891",
       "derived": true
     }
   ]
