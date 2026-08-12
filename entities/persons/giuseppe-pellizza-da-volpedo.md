@@ -34,16 +34,21 @@ updated: 2026-08-12
 
 ## 1891年第一回ブレラ三年展
 
-公式カタログ本文は、ペリッツァを次の番号で掲載する。
+公式カタログ本文は、ペリッツァを次の番号で掲載する。確認できた3件は、それぞれ
+[`《Ritratto di Giani Giuseppe mediatore》`](../works/ritratto-di-giani-giuseppe-pellizza-1891.md)、
+[`《Pensieri》`](../works/pensieri-pellizza-1891.md)、
+[`《Ritratto di mia mamma》`](../works/ritratto-di-mia-mamma-pellizza-1891.md)
+として作品記録に分離した。
 
 - 384《Ritratto di Giani Giuseppe mediatore》
 - 440《Pensieri》
 - 557《Ritratto di mia mamma》
 
-一方、Treccaniの伝記は、1891年展の出品として526・531（両親の肖像）、610《Il mediatore (Ritratto di Giuseppe Giani)》、
-608《Pensieri (Teresa)》を挙げる。公式カタログの印刷本文・索引と後年の伝記で番号対応が一致しないため、ここでは両資料の番号を混同せず、作品エンティティ化も保留する。
+一方、MuseoTorinoの伝記は、1891年展の出品として526・531（両親の肖像）、610《Il mediatore (Ritratto di Giuseppe Giani)》、
+608《Pensieri (Teresa)》を挙げる。公式カタログの印刷本文と後年の伝記で番号対応が一致しないため、本項では公式PDFで確認できる番号を採用し、
+後年資料の番号は置換候補として注記に留める。ペリッツァ協会が1891年出品作として挙げる父の肖像は、公式PDF本文で作品名・番号を特定できなかったため、作品エンティティ化を保留する。
 
 ## 未着手
 
-- カタログの版・頁・作品名の異同を確認し、1891年出品作の作品エンティティを特定すること
+- 公式カタログと後年の総合カタログ／伝記で異なる出品番号（526・531・608・610）の版・頁・作品名対応を確定すること
 - 1894年第二回ブレラ三年展の分割主義作品と比較すること
