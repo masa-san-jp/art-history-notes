@@ -29,6 +29,7 @@ space:
   - {role: originated_in, target: place/milan}
 relations:
   - {type: part_of, target: concept/divisionism}
+  - {type: influenced_by, target: movement/neo-impressionism, certainty: scholarly, source: "https://www.treccani.it/enciclopedia/divisionismo/"}
 sources:
   - https://www.treccani.it/enciclopedia/divisionismo/
   - https://www.treccani.it/enciclopedia/divisionismo_%28Enciclopedia-Italiana%29/
@@ -88,6 +89,13 @@ Portico D Dの「Parte 2.ª」で630番まで続く（同一作家の複数出�
 は1886年のパリで形成されたフランスの運動である。イタリア分割主義は同じ原理を共有するが、
 トレッカーニとイタリア銀行美術コレクションの解説が示すように、フランスの pointillisme／新印象派とは
 数年後の別の地域実践として区別される。
+
+## 新印象派からの技法上の受容
+
+トレッカーニは、分割主義の手法がフランスのポスト印象派の探究、とりわけ新印象派の主張した技法の中で形成され、
+イタリアでは独自に発展したと説明する。このため本項では、イタリア分割主義が新印象派から技法上の刺激を受けたことを
+`influenced_by` で記録する。ただし、これはイタリアの運動がフランスの運動の単純な組織的継承だったことや、特定作品の
+直接伝播を意味しない。
 
 ## 未着手
 

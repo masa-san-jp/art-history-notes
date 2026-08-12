@@ -4418,6 +4418,12 @@
         {
           "type": "part_of",
           "target": "concept/divisionism"
+        },
+        {
+          "type": "influenced_by",
+          "target": "movement/neo-impressionism",
+          "certainty": "scholarly",
+          "source": "https://www.treccani.it/enciclopedia/divisionismo/"
         }
       ],
       "sources": [
@@ -23098,6 +23104,13 @@
     },
     {
       "from": "movement/italian-divisionism",
+      "type": "influenced_by",
+      "to": "movement/neo-impressionism",
+      "certainty": "scholarly",
+      "source": "https://www.treccani.it/enciclopedia/divisionismo/"
+    },
+    {
+      "from": "movement/italian-divisionism",
       "type": "originated_in",
       "to": "place/milan"
     },
@@ -28002,6 +28015,12 @@
     {
       "from": "concept/divisionism",
       "type": "has_part",
+      "to": "movement/italian-divisionism",
+      "derived": true
+    },
+    {
+      "from": "movement/neo-impressionism",
+      "type": "influenced",
       "to": "movement/italian-divisionism",
       "derived": true
     },
