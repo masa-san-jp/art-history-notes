@@ -1,11 +1,11 @@
 ---
-id: person/luigi-ferrazzi
-uri: urn:ahn:person/luigi-ferrazzi
+id: person/carlo-stragliati
+uri: urn:ahn:person/carlo-stragliati
 type: person
-label_ja: ルイジ・フェラッツィ
-label_en: Luigi Ferrazzi
+label_ja: カルロ・ストラリアーティ
+label_en: Carlo Stragliati
 aliases:
-  - Ferrazzi Luigi
+  - Stragliati Carlo
 authority:
   wikidata: null
   ulan: null
@@ -15,7 +15,7 @@ authority:
 time:
   start: null
   end: null
-  display: "19世紀末にヴェネツィアで活動"
+  display: "19世紀末にミラノで活動"
 space: []
 relations:
   - {type: exhibited_at, target: event/first-brera-triennale-1891}
@@ -25,6 +25,6 @@ status: draft
 updated: 2026-08-13
 ---
 
-# ルイジ・フェラッツィ / Luigi Ferrazzi
+# カルロ・ストラリアーティ / Carlo Stragliati
 
-1891年の第一回ブレラ三年展公式カタログに、ヴェネツィア出身者として掲載される出品者。446番《Alla sveglia》、462番《Rialto, mercato erberia (mattino)》を出品した。本項は展覧会記録に限定する。
+1891年の第一回ブレラ三年展公式カタログに、ミラノ出身者として掲載される出品者。457番《Tintoretto ritrae sua figlia defunta》を出品した。本項は展覧会記録に限定する。

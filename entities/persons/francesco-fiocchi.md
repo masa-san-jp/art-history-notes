@@ -1,11 +1,11 @@
 ---
-id: person/luigi-ferrazzi
-uri: urn:ahn:person/luigi-ferrazzi
+id: person/francesco-fiocchi
+uri: urn:ahn:person/francesco-fiocchi
 type: person
-label_ja: ルイジ・フェラッツィ
-label_en: Luigi Ferrazzi
+label_ja: フランチェスコ・フィオッキ
+label_en: Francesco Fiocchi
 aliases:
-  - Ferrazzi Luigi
+  - Fiocchi Francesco
 authority:
   wikidata: null
   ulan: null
@@ -15,7 +15,7 @@ authority:
 time:
   start: null
   end: null
-  display: "19世紀末にヴェネツィアで活動"
+  display: "19世紀末にメレニャーノ出身者として活動"
 space: []
 relations:
   - {type: exhibited_at, target: event/first-brera-triennale-1891}
@@ -25,6 +25,6 @@ status: draft
 updated: 2026-08-13
 ---
 
-# ルイジ・フェラッツィ / Luigi Ferrazzi
+# フランチェスコ・フィオッキ / Francesco Fiocchi
 
-1891年の第一回ブレラ三年展公式カタログに、ヴェネツィア出身者として掲載される出品者。446番《Alla sveglia》、462番《Rialto, mercato erberia (mattino)》を出品した。本項は展覧会記録に限定する。
+1891年の第一回ブレラ三年展公式カタログに、メレニャーノ出身者として掲載される出品者。458番《Solo!...》を出品した。本項は展覧会記録に限定する。
