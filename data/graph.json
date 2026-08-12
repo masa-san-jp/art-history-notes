@@ -9736,6 +9736,38 @@
       "updated": "2026-08-09",
       "path": "entities/persons/aime-cesaire.md"
     },
+    "person/alberto-malaspina-marchese": {
+      "id": "person/alberto-malaspina-marchese",
+      "uri": "urn:ahn:person/alberto-malaspina-marchese",
+      "type": "person",
+      "label_ja": "アルベルト・マラスピーナ侯爵",
+      "label_en": "Alberto Malaspina Marchese",
+      "authority": {
+        "wikidata": null,
+        "ulan": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "独立した人物典拠IDと生没年は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": null,
+        "end": null,
+        "display": "19世紀末にピサ出身者として活動"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-13",
+      "path": "entities/persons/alberto-malaspina-marchese.md"
+    },
     "person/alberto-rossi": {
       "id": "person/alberto-rossi",
       "uri": "urn:ahn:person/alberto-rossi",
@@ -10631,6 +10663,38 @@
       "status": "draft",
       "updated": "2026-08-12",
       "path": "entities/persons/angelo-morbelli.md"
+    },
+    "person/angelo-trezzini": {
+      "id": "person/angelo-trezzini",
+      "uri": "urn:ahn:person/angelo-trezzini",
+      "type": "person",
+      "label_ja": "アンジェロ・トレッツィーニ",
+      "label_en": "Angelo Trezzini",
+      "authority": {
+        "wikidata": null,
+        "ulan": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "独立した人物典拠IDと生没年は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": null,
+        "end": null,
+        "display": "19世紀末にミラノで活動"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-13",
+      "path": "entities/persons/angelo-trezzini.md"
     },
     "person/angelo-zocchi": {
       "id": "person/angelo-zocchi",
@@ -17778,6 +17842,38 @@
       "updated": "2026-08-13",
       "path": "entities/persons/leonardo-bazzaro.md"
     },
+    "person/leonia-gastaldi-lescuyer": {
+      "id": "person/leonia-gastaldi-lescuyer",
+      "uri": "urn:ahn:person/leonia-gastaldi-lescuyer",
+      "type": "person",
+      "label_ja": "レオニア・ガスタルディ・レスキュイエ",
+      "label_en": "Leonia Gastaldi Lescuyer",
+      "authority": {
+        "wikidata": null,
+        "ulan": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "独立した人物典拠IDと生没年は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": null,
+        "end": null,
+        "display": "19世紀末にパリで活動"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-13",
+      "path": "entities/persons/leonia-gastaldi-lescuyer.md"
+    },
     "person/leopoldo-burlando": {
       "id": "person/leopoldo-burlando",
       "uri": "urn:ahn:person/leopoldo-burlando",
@@ -19714,6 +19810,38 @@
       "updated": "2026-08-09",
       "path": "entities/persons/pierre-lods.md"
     },
+    "person/pietro-anastasio": {
+      "id": "person/pietro-anastasio",
+      "uri": "urn:ahn:person/pietro-anastasio",
+      "type": "person",
+      "label_ja": "ピエトロ・アナスタージオ",
+      "label_en": "Pietro Anastasio",
+      "authority": {
+        "wikidata": null,
+        "ulan": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "独立した人物典拠IDと生没年は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": null,
+        "end": null,
+        "display": "19世紀末にルガーノ出身者として活動"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-13",
+      "path": "entities/persons/pietro-anastasio.md"
+    },
     "person/pietro-bordini": {
       "id": "person/pietro-bordini",
       "uri": "urn:ahn:person/pietro-bordini",
@@ -20069,6 +20197,38 @@
       "status": "draft",
       "updated": "2026-08-13",
       "path": "entities/persons/raffaele-armenise.md"
+    },
+    "person/raffaele-carbonaro": {
+      "id": "person/raffaele-carbonaro",
+      "uri": "urn:ahn:person/raffaele-carbonaro",
+      "type": "person",
+      "label_ja": "ラッファエレ・カルボナーロ",
+      "label_en": "Raffaele Carbonaro",
+      "authority": {
+        "wikidata": null,
+        "ulan": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "独立した人物典拠IDと生没年は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": null,
+        "end": null,
+        "display": "19世紀末にモーディカ出身者として活動"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-13",
+      "path": "entities/persons/raffaele-carbonaro.md"
     },
     "person/raffaele-faccioli": {
       "id": "person/raffaele-faccioli",
@@ -26644,6 +26804,42 @@
       "updated": "2026-08-12",
       "path": "entities/works/caccia-furtiva-calandra-1891.md"
     },
+    "work/calma-di-mare-malaspina-1891": {
+      "id": "work/calma-di-mare-malaspina-1891",
+      "uri": "urn:ahn:work/calma-di-mare-malaspina-1891",
+      "type": "work",
+      "label_ja": "アルベルト・マラスピーナ侯爵《Calma di mare》",
+      "label_en": "Calma di mare",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "作品の独立典拠IDと現所在は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年（1891年展カタログ506番）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/alberto-malaspina-marchese"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-13",
+      "path": "entities/works/calma-di-mare-malaspina-1891.md"
+    },
     "work/campagna-bellunese-bortoluzzi-1891": {
       "id": "work/campagna-bellunese-bortoluzzi-1891",
       "uri": "urn:ahn:work/campagna-bellunese-bortoluzzi-1891",
@@ -27522,6 +27718,42 @@
       "status": "draft",
       "updated": "2026-08-12",
       "path": "entities/works/cleopatre-previati-1907.md"
+    },
+    "work/colline-toscane-malaspina-1891": {
+      "id": "work/colline-toscane-malaspina-1891",
+      "uri": "urn:ahn:work/colline-toscane-malaspina-1891",
+      "type": "work",
+      "label_ja": "アルベルト・マラスピーナ侯爵《Colline toscane》",
+      "label_en": "Colline toscane",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "作品の独立典拠IDと現所在は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年（1891年展カタログ507番）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/alberto-malaspina-marchese"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-13",
+      "path": "entities/works/colline-toscane-malaspina-1891.md"
     },
     "work/come-un-sogno-marchesini-1891": {
       "id": "work/come-un-sogno-marchesini-1891",
@@ -33190,6 +33422,42 @@
       "updated": "2026-08-12",
       "path": "entities/works/il-rio-della-piata-bertea-1891.md"
     },
+    "work/il-ritorno-degli-sponsali-trezzini-1891": {
+      "id": "work/il-ritorno-degli-sponsali-trezzini-1891",
+      "uri": "urn:ahn:work/il-ritorno-degli-sponsali-trezzini-1891",
+      "type": "work",
+      "label_ja": "アンジェロ・トレッツィーニ《Il ritorno degli sponsali》",
+      "label_en": "Il ritorno degli sponsali",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "作品の独立典拠IDと現所在は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年（1891年展カタログ505番）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/angelo-trezzini"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-13",
+      "path": "entities/works/il-ritorno-degli-sponsali-trezzini-1891.md"
+    },
     "work/il-ritorno-dei-superstiti-quarenghi-1891": {
       "id": "work/il-ritorno-dei-superstiti-quarenghi-1891",
       "uri": "urn:ahn:work/il-ritorno-dei-superstiti-quarenghi-1891",
@@ -33590,6 +33858,42 @@
       "status": "draft",
       "updated": "2026-08-12",
       "path": "entities/works/impressioni-e-studi-pasini-1891.md"
+    },
+    "work/impressioni-primaverili-carbonaro-1891": {
+      "id": "work/impressioni-primaverili-carbonaro-1891",
+      "uri": "urn:ahn:work/impressioni-primaverili-carbonaro-1891",
+      "type": "work",
+      "label_ja": "ラッファエレ・カルボナーロ《Impressioni primaverili》",
+      "label_en": "Impressioni primaverili",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "作品の独立典拠IDと現所在は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年（1891年展カタログ512番）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/raffaele-carbonaro"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-13",
+      "path": "entities/works/impressioni-primaverili-carbonaro-1891.md"
     },
     "work/in-attesa-steffani-1891": {
       "id": "work/in-attesa-steffani-1891",
@@ -35096,6 +35400,42 @@
       "status": "draft",
       "updated": "2026-08-12",
       "path": "entities/works/la-bataille-previati-1907.md"
+    },
+    "work/la-bella-gigogin-trezzini-1891": {
+      "id": "work/la-bella-gigogin-trezzini-1891",
+      "uri": "urn:ahn:work/la-bella-gigogin-trezzini-1891",
+      "type": "work",
+      "label_ja": "アンジェロ・トレッツィーニ《La bella Gigogin》",
+      "label_en": "La bella Gigogin",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "作品の独立典拠IDと現所在は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年（1891年展カタログ504番）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/angelo-trezzini"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-13",
+      "path": "entities/works/la-bella-gigogin-trezzini-1891.md"
     },
     "work/la-bottega-del-calderaio-fornara-1891": {
       "id": "work/la-bottega-del-calderaio-fornara-1891",
@@ -38382,6 +38722,42 @@
       "updated": "2026-08-12",
       "path": "entities/works/marea-montante-steffani-1891.md"
     },
+    "work/marina-a-nervi-malaspina-1891": {
+      "id": "work/marina-a-nervi-malaspina-1891",
+      "uri": "urn:ahn:work/marina-a-nervi-malaspina-1891",
+      "type": "work",
+      "label_ja": "アルベルト・マラスピーナ侯爵《Marina a Nervi》",
+      "label_en": "Marina a Nervi",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "作品の独立典拠IDと現所在は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年（1891年展カタログ508番）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/alberto-malaspina-marchese"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-13",
+      "path": "entities/works/marina-a-nervi-malaspina-1891.md"
+    },
     "work/marina-capri-caprile-1891": {
       "id": "work/marina-capri-caprile-1891",
       "uri": "urn:ahn:work/marina-capri-caprile-1891",
@@ -39383,6 +39759,42 @@
       "updated": "2026-08-13",
       "path": "entities/works/mezza-figura-brunati-1891.md"
     },
+    "work/mezzogiorno-buscaglione-1891": {
+      "id": "work/mezzogiorno-buscaglione-1891",
+      "uri": "urn:ahn:work/mezzogiorno-buscaglione-1891",
+      "type": "work",
+      "label_ja": "ジュゼッペ・ブスカリオーネ《Mezzogiorno》",
+      "label_en": "Mezzogiorno",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "作品の独立典拠IDと現所在は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年（1891年展カタログ510番）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/giuseppe-buscaglione"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-13",
+      "path": "entities/works/mezzogiorno-buscaglione-1891.md"
+    },
     "work/midi-d-ete-focardi-1907": {
       "id": "work/midi-d-ete-focardi-1907",
       "uri": "urn:ahn:work/midi-d-ete-focardi-1907",
@@ -40052,6 +40464,42 @@
       "status": "draft",
       "updated": "2026-08-12",
       "path": "entities/works/natura-morta-pozzi-1891.md"
+    },
+    "work/nei-boschi-gastaldi-lescuyer-1891": {
+      "id": "work/nei-boschi-gastaldi-lescuyer-1891",
+      "uri": "urn:ahn:work/nei-boschi-gastaldi-lescuyer-1891",
+      "type": "work",
+      "label_ja": "レオニア・ガスタルディ・レスキュイエ《Nei boschi》",
+      "label_en": "Nei boschi",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "作品の独立典拠IDと現所在は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年（1891年展カタログ511番）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/leonia-gastaldi-lescuyer"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-13",
+      "path": "entities/works/nei-boschi-gastaldi-lescuyer-1891.md"
     },
     "work/nei-campi-calandra-1891": {
       "id": "work/nei-campi-calandra-1891",
@@ -41759,6 +42207,42 @@
       "status": "draft",
       "updated": "2026-08-13",
       "path": "entities/works/pene-d-amore-pagani-1891.md"
+    },
+    "work/pensieri-d-amore-anastasio-1891": {
+      "id": "work/pensieri-d-amore-anastasio-1891",
+      "uri": "urn:ahn:work/pensieri-d-amore-anastasio-1891",
+      "type": "work",
+      "label_ja": "ピエトロ・アナスタージオ《Pensieri d’amore (Testa di donna)》",
+      "label_en": "Pensieri d’amore (Testa di donna)",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "作品の独立典拠IDと現所在は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年（1891年展カタログ509番）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/pietro-anastasio"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-13",
+      "path": "entities/works/pensieri-d-amore-anastasio-1891.md"
     },
     "work/pensieri-pellizza-1891": {
       "id": "work/pensieri-pellizza-1891",
@@ -48972,6 +49456,42 @@
       "updated": "2026-08-13",
       "path": "entities/works/una-scogliera-vighi-1891.md"
     },
+    "work/una-vecchia-canzone-salvadori-1891": {
+      "id": "work/una-vecchia-canzone-salvadori-1891",
+      "uri": "urn:ahn:work/una-vecchia-canzone-salvadori-1891",
+      "type": "work",
+      "label_ja": "リッカルド・サルヴァドーリ《Una vecchia canzone》",
+      "label_en": "Una vecchia canzone",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "作品の独立典拠IDと現所在は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年（1891年展カタログ513番）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/riccardo-salvadori"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-13",
+      "path": "entities/works/una-vecchia-canzone-salvadori-1891.md"
+    },
     "work/una-via-al-cairo-moretti-1891": {
       "id": "work/una-via-al-cairo-moretti-1891",
       "uri": "urn:ahn:work/una-via-al-cairo-moretti-1891",
@@ -51804,6 +52324,13 @@
       "source": null
     },
     {
+      "from": "person/alberto-malaspina-marchese",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "person/alberto-rossi",
       "type": "exhibited_at",
       "to": "event/first-brera-triennale-1891",
@@ -52018,6 +52545,13 @@
       "from": "person/angelo-morbelli",
       "type": "active_in",
       "to": "place/milan"
+    },
+    {
+      "from": "person/angelo-trezzini",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
     },
     {
       "from": "person/angelo-zocchi",
@@ -53579,6 +54113,13 @@
       "source": null
     },
     {
+      "from": "person/leonia-gastaldi-lescuyer",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "person/leopoldo-burlando",
       "type": "exhibited_at",
       "to": "event/first-brera-triennale-1891",
@@ -53946,6 +54487,13 @@
       "source": null
     },
     {
+      "from": "person/pietro-anastasio",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "person/pietro-bordini",
       "type": "exhibited_at",
       "to": "event/first-brera-triennale-1891",
@@ -54022,6 +54570,13 @@
     },
     {
       "from": "person/raffaele-armenise",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "person/raffaele-carbonaro",
       "type": "exhibited_at",
       "to": "event/first-brera-triennale-1891",
       "certainty": null,
@@ -55195,6 +55750,20 @@
       "source": null
     },
     {
+      "from": "work/calma-di-mare-malaspina-1891",
+      "type": "created_by",
+      "to": "person/alberto-malaspina-marchese",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/calma-di-mare-malaspina-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "work/campagna-bellunese-bortoluzzi-1891",
       "type": "created_by",
       "to": "person/millo-bortoluzzi",
@@ -55534,6 +56103,20 @@
       "from": "work/cleopatre-previati-1907",
       "type": "exhibited_at",
       "to": "event/salon-divisionnistes-italiens-paris-1907",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/colline-toscane-malaspina-1891",
+      "type": "created_by",
+      "to": "person/alberto-malaspina-marchese",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/colline-toscane-malaspina-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
       "certainty": null,
       "source": null
     },
@@ -57708,6 +58291,20 @@
       "source": null
     },
     {
+      "from": "work/il-ritorno-degli-sponsali-trezzini-1891",
+      "type": "created_by",
+      "to": "person/angelo-trezzini",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/il-ritorno-degli-sponsali-trezzini-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "work/il-ritorno-dei-superstiti-quarenghi-1891",
       "type": "created_by",
       "to": "person/federico-quarenghi",
@@ -57856,6 +58453,20 @@
     },
     {
       "from": "work/impressioni-e-studi-pasini-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/impressioni-primaverili-carbonaro-1891",
+      "type": "created_by",
+      "to": "person/raffaele-carbonaro",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/impressioni-primaverili-carbonaro-1891",
       "type": "exhibited_at",
       "to": "event/first-brera-triennale-1891",
       "certainty": null,
@@ -58439,6 +59050,20 @@
       "from": "work/la-bataille-previati-1907",
       "type": "exhibited_at",
       "to": "event/salon-divisionnistes-italiens-paris-1907",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/la-bella-gigogin-trezzini-1891",
+      "type": "created_by",
+      "to": "person/angelo-trezzini",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/la-bella-gigogin-trezzini-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
       "certainty": null,
       "source": null
     },
@@ -59717,6 +60342,20 @@
       "source": null
     },
     {
+      "from": "work/marina-a-nervi-malaspina-1891",
+      "type": "created_by",
+      "to": "person/alberto-malaspina-marchese",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/marina-a-nervi-malaspina-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "work/marina-capri-caprile-1891",
       "type": "created_by",
       "to": "person/vincenzo-caprile",
@@ -60102,6 +60741,20 @@
       "source": null
     },
     {
+      "from": "work/mezzogiorno-buscaglione-1891",
+      "type": "created_by",
+      "to": "person/giuseppe-buscaglione",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/mezzogiorno-buscaglione-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "work/midi-d-ete-focardi-1907",
       "type": "created_by",
       "to": "person/piero-focardi",
@@ -60348,6 +61001,20 @@
     },
     {
       "from": "work/natura-morta-pozzi-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/nei-boschi-gastaldi-lescuyer-1891",
+      "type": "created_by",
+      "to": "person/leonia-gastaldi-lescuyer",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/nei-boschi-gastaldi-lescuyer-1891",
       "type": "exhibited_at",
       "to": "event/first-brera-triennale-1891",
       "certainty": null,
@@ -61006,6 +61673,20 @@
     },
     {
       "from": "work/pene-d-amore-pagani-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/pensieri-d-amore-anastasio-1891",
+      "type": "created_by",
+      "to": "person/pietro-anastasio",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/pensieri-d-amore-anastasio-1891",
       "type": "exhibited_at",
       "to": "event/first-brera-triennale-1891",
       "certainty": null,
@@ -63778,6 +64459,20 @@
     },
     {
       "from": "work/una-scogliera-vighi-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/una-vecchia-canzone-salvadori-1891",
+      "type": "created_by",
+      "to": "person/riccardo-salvadori",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/una-vecchia-canzone-salvadori-1891",
       "type": "exhibited_at",
       "to": "event/first-brera-triennale-1891",
       "certainty": null,
@@ -65243,6 +65938,12 @@
     {
       "from": "event/first-brera-triennale-1891",
       "type": "exhibited",
+      "to": "person/alberto-malaspina-marchese",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
       "to": "person/alberto-rossi",
       "derived": true
     },
@@ -65406,6 +66107,12 @@
       "from": "event/first-brera-triennale-1891",
       "type": "exhibited",
       "to": "person/angelo-morbelli",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "person/angelo-trezzini",
       "derived": true
     },
     {
@@ -66683,6 +67390,12 @@
     {
       "from": "event/first-brera-triennale-1891",
       "type": "exhibited",
+      "to": "person/leonia-gastaldi-lescuyer",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
       "to": "person/leopoldo-burlando",
       "derived": true
     },
@@ -66989,6 +67702,12 @@
     {
       "from": "event/first-brera-triennale-1891",
       "type": "exhibited",
+      "to": "person/pietro-anastasio",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
       "to": "person/pietro-bordini",
       "derived": true
     },
@@ -67050,6 +67769,12 @@
       "from": "event/first-brera-triennale-1891",
       "type": "exhibited",
       "to": "person/raffaele-armenise",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "person/raffaele-carbonaro",
       "derived": true
     },
     {
@@ -68019,6 +68744,18 @@
       "derived": true
     },
     {
+      "from": "person/alberto-malaspina-marchese",
+      "type": "created",
+      "to": "work/calma-di-mare-malaspina-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/calma-di-mare-malaspina-1891",
+      "derived": true
+    },
+    {
       "from": "person/millo-bortoluzzi",
       "type": "created",
       "to": "work/campagna-bellunese-bortoluzzi-1891",
@@ -68310,6 +69047,18 @@
       "from": "event/salon-divisionnistes-italiens-paris-1907",
       "type": "exhibited",
       "to": "work/cleopatre-previati-1907",
+      "derived": true
+    },
+    {
+      "from": "person/alberto-malaspina-marchese",
+      "type": "created",
+      "to": "work/colline-toscane-malaspina-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/colline-toscane-malaspina-1891",
       "derived": true
     },
     {
@@ -70173,6 +70922,18 @@
       "derived": true
     },
     {
+      "from": "person/angelo-trezzini",
+      "type": "created",
+      "to": "work/il-ritorno-degli-sponsali-trezzini-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/il-ritorno-degli-sponsali-trezzini-1891",
+      "derived": true
+    },
+    {
       "from": "person/federico-quarenghi",
       "type": "created",
       "to": "work/il-ritorno-dei-superstiti-quarenghi-1891",
@@ -70302,6 +71063,18 @@
       "from": "event/first-brera-triennale-1891",
       "type": "exhibited",
       "to": "work/impressioni-e-studi-pasini-1891",
+      "derived": true
+    },
+    {
+      "from": "person/raffaele-carbonaro",
+      "type": "created",
+      "to": "work/impressioni-primaverili-carbonaro-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/impressioni-primaverili-carbonaro-1891",
       "derived": true
     },
     {
@@ -70800,6 +71573,18 @@
       "from": "event/salon-divisionnistes-italiens-paris-1907",
       "type": "exhibited",
       "to": "work/la-bataille-previati-1907",
+      "derived": true
+    },
+    {
+      "from": "person/angelo-trezzini",
+      "type": "created",
+      "to": "work/la-bella-gigogin-trezzini-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/la-bella-gigogin-trezzini-1891",
       "derived": true
     },
     {
@@ -71895,6 +72680,18 @@
       "derived": true
     },
     {
+      "from": "person/alberto-malaspina-marchese",
+      "type": "created",
+      "to": "work/marina-a-nervi-malaspina-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/marina-a-nervi-malaspina-1891",
+      "derived": true
+    },
+    {
       "from": "person/vincenzo-caprile",
       "type": "created",
       "to": "work/marina-capri-caprile-1891",
@@ -72225,6 +73022,18 @@
       "derived": true
     },
     {
+      "from": "person/giuseppe-buscaglione",
+      "type": "created",
+      "to": "work/mezzogiorno-buscaglione-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/mezzogiorno-buscaglione-1891",
+      "derived": true
+    },
+    {
       "from": "person/piero-focardi",
       "type": "created",
       "to": "work/midi-d-ete-focardi-1907",
@@ -72438,6 +73247,18 @@
       "from": "event/first-brera-triennale-1891",
       "type": "exhibited",
       "to": "work/natura-morta-pozzi-1891",
+      "derived": true
+    },
+    {
+      "from": "person/leonia-gastaldi-lescuyer",
+      "type": "created",
+      "to": "work/nei-boschi-gastaldi-lescuyer-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/nei-boschi-gastaldi-lescuyer-1891",
       "derived": true
     },
     {
@@ -73002,6 +73823,18 @@
       "from": "event/first-brera-triennale-1891",
       "type": "exhibited",
       "to": "work/pene-d-amore-pagani-1891",
+      "derived": true
+    },
+    {
+      "from": "person/pietro-anastasio",
+      "type": "created",
+      "to": "work/pensieri-d-amore-anastasio-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/pensieri-d-amore-anastasio-1891",
       "derived": true
     },
     {
@@ -75378,6 +76211,18 @@
       "from": "event/first-brera-triennale-1891",
       "type": "exhibited",
       "to": "work/una-scogliera-vighi-1891",
+      "derived": true
+    },
+    {
+      "from": "person/riccardo-salvadori",
+      "type": "created",
+      "to": "work/una-vecchia-canzone-salvadori-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/una-vecchia-canzone-salvadori-1891",
       "derived": true
     },
     {
