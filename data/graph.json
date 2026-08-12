@@ -9595,6 +9595,7 @@
       ],
       "sources": [
         "https://www.wikidata.org/wiki/Q3659361",
+        "https://exhibitions.univie.ac.at/person/ulan/500013414",
         "https://www.treccani.it/enciclopedia/carlo-fornara_%28Dizionario-Biografico%29/",
         "https://www.museodelpaesaggio.it/artista/carlo-fornara/",
         "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
@@ -14594,6 +14595,43 @@
       "updated": "2026-08-12",
       "path": "entities/works/alba-morbelli-1891.md"
     },
+    "work/apres-midi-d-octobre-fornara-1907": {
+      "id": "work/apres-midi-d-octobre-fornara-1907",
+      "uri": "urn:ahn:work/apres-midi-d-octobre-fornara-1907",
+      "type": "work",
+      "label_ja": "カルロ・フォルナラ《Après-midi d'octobre》",
+      "label_en": "Après-midi d'octobre",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "独立作品典拠IDは未確認。1907年パリ展カタログ記録を用いる"
+      },
+      "time": {
+        "start": "1907",
+        "end": "1907",
+        "display": "1907年パリ展出品（制作年未確認）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/carlo-fornara"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/salon-divisionnistes-italiens-paris-1907"
+        }
+      ],
+      "sources": [
+        "https://exhibitions.univie.ac.at/person/ulan/500013414",
+        "https://exhibitions.univie.ac.at/exhibition/125"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/works/apres-midi-d-octobre-fornara-1907.md"
+    },
     "work/aube-sur-le-lac-de-garde-focardi-1907": {
       "id": "work/aube-sur-le-lac-de-garde-focardi-1907",
       "uri": "urn:ahn:work/aube-sur-le-lac-de-garde-focardi-1907",
@@ -14631,6 +14669,80 @@
       "status": "draft",
       "updated": "2026-08-12",
       "path": "entities/works/aube-sur-le-lac-de-garde-focardi-1907.md"
+    },
+    "work/automne-fornara-1907": {
+      "id": "work/automne-fornara-1907",
+      "uri": "urn:ahn:work/automne-fornara-1907",
+      "type": "work",
+      "label_ja": "カルロ・フォルナラ《Automne》",
+      "label_en": "Automne",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "独立作品典拠IDは未確認。1907年パリ展カタログ記録を用いる"
+      },
+      "time": {
+        "start": "1907",
+        "end": "1907",
+        "display": "1907年パリ展出品（制作年未確認）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/carlo-fornara"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/salon-divisionnistes-italiens-paris-1907"
+        }
+      ],
+      "sources": [
+        "https://exhibitions.univie.ac.at/person/ulan/500013414",
+        "https://exhibitions.univie.ac.at/exhibition/125"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/works/automne-fornara-1907.md"
+    },
+    "work/avril-fornara-1907": {
+      "id": "work/avril-fornara-1907",
+      "uri": "urn:ahn:work/avril-fornara-1907",
+      "type": "work",
+      "label_ja": "カルロ・フォルナラ《Avril》",
+      "label_en": "Avril",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "独立作品典拠IDは未確認。1907年パリ展カタログ記録を用いる"
+      },
+      "time": {
+        "start": "1907",
+        "end": "1907",
+        "display": "1907年パリ展出品（制作年未確認）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/carlo-fornara"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/salon-divisionnistes-italiens-paris-1907"
+        }
+      ],
+      "sources": [
+        "https://exhibitions.univie.ac.at/person/ulan/500013414",
+        "https://exhibitions.univie.ac.at/exhibition/125"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/works/avril-fornara-1907.md"
     },
     "work/baigneurs-dans-le-lac-focardi-1906": {
       "id": "work/baigneurs-dans-le-lac-focardi-1906",
@@ -15236,6 +15348,43 @@
       "updated": "2026-08-12",
       "path": "entities/works/coucher-de-soleil-en-hiver-focardi-1907.md"
     },
+    "work/crepuscule-d-hiver-fornara-1907": {
+      "id": "work/crepuscule-d-hiver-fornara-1907",
+      "uri": "urn:ahn:work/crepuscule-d-hiver-fornara-1907",
+      "type": "work",
+      "label_ja": "カルロ・フォルナラ《Crépuscule d'hiver》",
+      "label_en": "Crépuscule d'hiver",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "独立作品典拠IDは未確認。1907年パリ展カタログ記録を用いる"
+      },
+      "time": {
+        "start": "1907",
+        "end": "1907",
+        "display": "1907年パリ展出品（制作年未確認）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/carlo-fornara"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/salon-divisionnistes-italiens-paris-1907"
+        }
+      ],
+      "sources": [
+        "https://exhibitions.univie.ac.at/person/ulan/500013414",
+        "https://exhibitions.univie.ac.at/exhibition/125"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/works/crepuscule-d-hiver-fornara-1907.md"
+    },
     "work/crepuscule-en-montagne-maggi-1907": {
       "id": "work/crepuscule-en-montagne-maggi-1907",
       "uri": "urn:ahn:work/crepuscule-en-montagne-maggi-1907",
@@ -15272,6 +15421,80 @@
       "status": "draft",
       "updated": "2026-08-12",
       "path": "entities/works/crepuscule-en-montagne-maggi-1907.md"
+    },
+    "work/crepuscule-fornara-1907": {
+      "id": "work/crepuscule-fornara-1907",
+      "uri": "urn:ahn:work/crepuscule-fornara-1907",
+      "type": "work",
+      "label_ja": "カルロ・フォルナラ《Crépuscule》",
+      "label_en": "Crépuscule",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "独立作品典拠IDは未確認。1907年パリ展カタログ記録を用いる"
+      },
+      "time": {
+        "start": "1907",
+        "end": "1907",
+        "display": "1907年パリ展出品（制作年未確認）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/carlo-fornara"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/salon-divisionnistes-italiens-paris-1907"
+        }
+      ],
+      "sources": [
+        "https://exhibitions.univie.ac.at/person/ulan/500013414",
+        "https://exhibitions.univie.ac.at/exhibition/125"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/works/crepuscule-fornara-1907.md"
+    },
+    "work/d-apres-une-legende-des-alpes-fornara-1907": {
+      "id": "work/d-apres-une-legende-des-alpes-fornara-1907",
+      "uri": "urn:ahn:work/d-apres-une-legende-des-alpes-fornara-1907",
+      "type": "work",
+      "label_ja": "カルロ・フォルナラ《D'après une légende des Alpes》",
+      "label_en": "D'après une légende des Alpes",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "独立作品典拠IDは未確認。1907年パリ展カタログ記録を用いる"
+      },
+      "time": {
+        "start": "1907",
+        "end": "1907",
+        "display": "1907年パリ展出品（制作年未確認）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/carlo-fornara"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/salon-divisionnistes-italiens-paris-1907"
+        }
+      ],
+      "sources": [
+        "https://exhibitions.univie.ac.at/person/ulan/500013414",
+        "https://exhibitions.univie.ac.at/exhibition/125"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/works/d-apres-une-legende-des-alpes-fornara-1907.md"
     },
     "work/dans-l-isolement-magrini-1907": {
       "id": "work/dans-l-isolement-magrini-1907",
@@ -15496,6 +15719,43 @@
       "updated": "2026-08-12",
       "path": "entities/works/effet-de-neige-cinotti-1907.md"
     },
+    "work/effet-de-neige-fornara-1907": {
+      "id": "work/effet-de-neige-fornara-1907",
+      "uri": "urn:ahn:work/effet-de-neige-fornara-1907",
+      "type": "work",
+      "label_ja": "カルロ・フォルナラ《Effet de Neige》",
+      "label_en": "Effet de Neige",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "独立作品典拠IDは未確認。1907年パリ展カタログ記録を用いる"
+      },
+      "time": {
+        "start": "1907",
+        "end": "1907",
+        "display": "1907年パリ展出品（制作年未確認）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/carlo-fornara"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/salon-divisionnistes-italiens-paris-1907"
+        }
+      ],
+      "sources": [
+        "https://exhibitions.univie.ac.at/person/ulan/500013414",
+        "https://exhibitions.univie.ac.at/exhibition/125"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/works/effet-de-neige-fornara-1907.md"
+    },
     "work/effet-de-soleil-le-matin-minozzi-1907": {
       "id": "work/effet-de-soleil-le-matin-minozzi-1907",
       "uri": "urn:ahn:work/effet-de-soleil-le-matin-minozzi-1907",
@@ -15608,6 +15868,43 @@
       "status": "draft",
       "updated": "2026-08-12",
       "path": "entities/works/effet-du-soleil-sur-la-neige-maggi-1907.md"
+    },
+    "work/effets-de-lune-fornara-1907": {
+      "id": "work/effets-de-lune-fornara-1907",
+      "uri": "urn:ahn:work/effets-de-lune-fornara-1907",
+      "type": "work",
+      "label_ja": "カルロ・フォルナラ《Effets de lune》",
+      "label_en": "Effets de lune",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "独立作品典拠IDは未確認。1907年パリ展カタログ記録を用いる"
+      },
+      "time": {
+        "start": "1907",
+        "end": "1907",
+        "display": "1907年パリ展出品（制作年未確認）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/carlo-fornara"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/salon-divisionnistes-italiens-paris-1907"
+        }
+      ],
+      "sources": [
+        "https://exhibitions.univie.ac.at/person/ulan/500013414",
+        "https://exhibitions.univie.ac.at/exhibition/125"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/works/effets-de-lune-fornara-1907.md"
     },
     "work/elephant-magrini-1907": {
       "id": "work/elephant-magrini-1907",
@@ -15756,6 +16053,43 @@
       "status": "draft",
       "updated": "2026-08-12",
       "path": "entities/works/etude-de-nu-magrini-1907-no144.md"
+    },
+    "work/etude-de-paysage-fornara-1907": {
+      "id": "work/etude-de-paysage-fornara-1907",
+      "uri": "urn:ahn:work/etude-de-paysage-fornara-1907",
+      "type": "work",
+      "label_ja": "カルロ・フォルナラ《Etude de Paysage》",
+      "label_en": "Etude de Paysage",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "独立作品典拠IDは未確認。1907年パリ展カタログ記録を用いる"
+      },
+      "time": {
+        "start": "1907",
+        "end": "1907",
+        "display": "1907年パリ展出品（制作年未確認）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/carlo-fornara"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/salon-divisionnistes-italiens-paris-1907"
+        }
+      ],
+      "sources": [
+        "https://exhibitions.univie.ac.at/person/ulan/500013414",
+        "https://exhibitions.univie.ac.at/exhibition/125"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/works/etude-de-paysage-fornara-1907.md"
     },
     "work/etude-de-paysage-maggi-1907": {
       "id": "work/etude-de-paysage-maggi-1907",
@@ -16349,6 +16683,43 @@
       "updated": "2026-08-12",
       "path": "entities/works/hutte-alpestre-tominetti-1907.md"
     },
+    "work/impression-d-automne-fornara-1907": {
+      "id": "work/impression-d-automne-fornara-1907",
+      "uri": "urn:ahn:work/impression-d-automne-fornara-1907",
+      "type": "work",
+      "label_ja": "カルロ・フォルナラ《Impression d'Automne》",
+      "label_en": "Impression d'Automne",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "独立作品典拠IDは未確認。1907年パリ展カタログ記録を用いる"
+      },
+      "time": {
+        "start": "1907",
+        "end": "1907",
+        "display": "1907年パリ展出品（制作年未確認）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/carlo-fornara"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/salon-divisionnistes-italiens-paris-1907"
+        }
+      ],
+      "sources": [
+        "https://exhibitions.univie.ac.at/person/ulan/500013414",
+        "https://exhibitions.univie.ac.at/exhibition/125"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/works/impression-d-automne-fornara-1907.md"
+    },
     "work/in-cerca-di-legna-tominetti-1891": {
       "id": "work/in-cerca-di-legna-tominetti-1891",
       "uri": "urn:ahn:work/in-cerca-di-legna-tominetti-1891",
@@ -16460,6 +16831,43 @@
       "updated": "2026-08-12",
       "path": "entities/works/l-annonceation-previati-1907.md"
     },
+    "work/l-aquilon-fornara-1907": {
+      "id": "work/l-aquilon-fornara-1907",
+      "uri": "urn:ahn:work/l-aquilon-fornara-1907",
+      "type": "work",
+      "label_ja": "カルロ・フォルナラ《L'Aquilon》",
+      "label_en": "L'Aquilon",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "独立作品典拠IDは未確認。1907年パリ展カタログ記録を用いる"
+      },
+      "time": {
+        "start": "1907",
+        "end": "1907",
+        "display": "1907年パリ展出品（制作年未確認）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/carlo-fornara"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/salon-divisionnistes-italiens-paris-1907"
+        }
+      ],
+      "sources": [
+        "https://exhibitions.univie.ac.at/person/ulan/500013414",
+        "https://exhibitions.univie.ac.at/exhibition/125"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/works/l-aquilon-fornara-1907.md"
+    },
     "work/l-assomption-previati-1907": {
       "id": "work/l-assomption-previati-1907",
       "uri": "urn:ahn:work/l-assomption-previati-1907",
@@ -16496,6 +16904,43 @@
       "status": "draft",
       "updated": "2026-08-12",
       "path": "entities/works/l-assomption-previati-1907.md"
+    },
+    "work/l-hermitage-fornara-1907": {
+      "id": "work/l-hermitage-fornara-1907",
+      "uri": "urn:ahn:work/l-hermitage-fornara-1907",
+      "type": "work",
+      "label_ja": "カルロ・フォルナラ《L'hermitage》",
+      "label_en": "L'hermitage",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "独立作品典拠IDは未確認。1907年パリ展カタログ記録を用いる"
+      },
+      "time": {
+        "start": "1907",
+        "end": "1907",
+        "display": "1907年パリ展出品（制作年未確認）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/carlo-fornara"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/salon-divisionnistes-italiens-paris-1907"
+        }
+      ],
+      "sources": [
+        "https://exhibitions.univie.ac.at/person/ulan/500013414",
+        "https://exhibitions.univie.ac.at/exhibition/125"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/works/l-hermitage-fornara-1907.md"
     },
     "work/l-heroique-previati-1907": {
       "id": "work/l-heroique-previati-1907",
@@ -16723,6 +17168,80 @@
       "status": "draft",
       "updated": "2026-08-12",
       "path": "entities/works/la-mort-segantini-1907.md"
+    },
+    "work/la-nuit-fornara-1907": {
+      "id": "work/la-nuit-fornara-1907",
+      "uri": "urn:ahn:work/la-nuit-fornara-1907",
+      "type": "work",
+      "label_ja": "カルロ・フォルナラ《La Nuit》",
+      "label_en": "La Nuit",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "独立作品典拠IDは未確認。1907年パリ展カタログ記録を用いる"
+      },
+      "time": {
+        "start": "1907",
+        "end": "1907",
+        "display": "1907年パリ展出品（制作年未確認）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/carlo-fornara"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/salon-divisionnistes-italiens-paris-1907"
+        }
+      ],
+      "sources": [
+        "https://exhibitions.univie.ac.at/person/ulan/500013414",
+        "https://exhibitions.univie.ac.at/exhibition/125"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/works/la-nuit-fornara-1907.md"
+    },
+    "work/la-nuit-sur-le-lac-fornara-1907": {
+      "id": "work/la-nuit-sur-le-lac-fornara-1907",
+      "uri": "urn:ahn:work/la-nuit-sur-le-lac-fornara-1907",
+      "type": "work",
+      "label_ja": "カルロ・フォルナラ《La nuit sur le lac》",
+      "label_en": "La nuit sur le lac",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "独立作品典拠IDは未確認。1907年パリ展カタログ記録を用いる"
+      },
+      "time": {
+        "start": "1907",
+        "end": "1907",
+        "display": "1907年パリ展出品（制作年未確認）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/carlo-fornara"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/salon-divisionnistes-italiens-paris-1907"
+        }
+      ],
+      "sources": [
+        "https://exhibitions.univie.ac.at/person/ulan/500013414",
+        "https://exhibitions.univie.ac.at/exhibition/125"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/works/la-nuit-sur-le-lac-fornara-1907.md"
     },
     "work/la-priere-previati-1907": {
       "id": "work/la-priere-previati-1907",
@@ -17365,6 +17884,43 @@
       "status": "draft",
       "updated": "2026-08-12",
       "path": "entities/works/le-pont-levis-previati-1907.md"
+    },
+    "work/le-presage-fornara-1907": {
+      "id": "work/le-presage-fornara-1907",
+      "uri": "urn:ahn:work/le-presage-fornara-1907",
+      "type": "work",
+      "label_ja": "カルロ・フォルナラ《Le Présage》",
+      "label_en": "Le Présage",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "独立作品典拠IDは未確認。1907年パリ展カタログ記録を用いる"
+      },
+      "time": {
+        "start": "1907",
+        "end": "1907",
+        "display": "1907年パリ展出品（制作年未確認）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/carlo-fornara"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/salon-divisionnistes-italiens-paris-1907"
+        }
+      ],
+      "sources": [
+        "https://exhibitions.univie.ac.at/person/ulan/500013414",
+        "https://exhibitions.univie.ac.at/exhibition/125"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/works/le-presage-fornara-1907.md"
     },
     "work/le-roi-soleil-previati-1907": {
       "id": "work/le-roi-soleil-previati-1907",
@@ -18494,6 +19050,80 @@
       "updated": "2026-08-12",
       "path": "entities/works/midi-d-ete-focardi-1907.md"
     },
+    "work/midi-d-hiver-fornara-1907-no235": {
+      "id": "work/midi-d-hiver-fornara-1907-no235",
+      "uri": "urn:ahn:work/midi-d-hiver-fornara-1907-no235",
+      "type": "work",
+      "label_ja": "カルロ・フォルナラ《Midi d'hiver》",
+      "label_en": "Midi d'hiver",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "独立作品典拠IDは未確認。1907年パリ展カタログ記録を用いる"
+      },
+      "time": {
+        "start": "1907",
+        "end": "1907",
+        "display": "1907年パリ展出品（制作年未確認）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/carlo-fornara"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/salon-divisionnistes-italiens-paris-1907"
+        }
+      ],
+      "sources": [
+        "https://exhibitions.univie.ac.at/person/ulan/500013414",
+        "https://exhibitions.univie.ac.at/exhibition/125"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/works/midi-d-hiver-fornara-1907-no235.md"
+    },
+    "work/midi-d-hiver-fornara-1907-no243": {
+      "id": "work/midi-d-hiver-fornara-1907-no243",
+      "uri": "urn:ahn:work/midi-d-hiver-fornara-1907-no243",
+      "type": "work",
+      "label_ja": "カルロ・フォルナラ《Midi d'hiver》",
+      "label_en": "Midi d'hiver",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "独立作品典拠IDは未確認。1907年パリ展カタログ記録を用いる"
+      },
+      "time": {
+        "start": "1907",
+        "end": "1907",
+        "display": "1907年パリ展出品（制作年未確認）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/carlo-fornara"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/salon-divisionnistes-italiens-paris-1907"
+        }
+      ],
+      "sources": [
+        "https://exhibitions.univie.ac.at/person/ulan/500013414",
+        "https://exhibitions.univie.ac.at/exhibition/125"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/works/midi-d-hiver-fornara-1907-no243.md"
+    },
     "work/monument-to-third-international": {
       "id": "work/monument-to-third-international",
       "uri": "urn:ahn:work/monument-to-third-international",
@@ -18606,6 +19236,43 @@
       "status": "draft",
       "updated": "2026-08-12",
       "path": "entities/works/moutons-au-repos-ramponi-1907.md"
+    },
+    "work/nostalgie-fornara-1907": {
+      "id": "work/nostalgie-fornara-1907",
+      "uri": "urn:ahn:work/nostalgie-fornara-1907",
+      "type": "work",
+      "label_ja": "カルロ・フォルナラ《Nostalgie》",
+      "label_en": "Nostalgie",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "独立作品典拠IDは未確認。1907年パリ展カタログ記録を用いる"
+      },
+      "time": {
+        "start": "1907",
+        "end": "1907",
+        "display": "1907年パリ展出品（制作年未確認）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/carlo-fornara"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/salon-divisionnistes-italiens-paris-1907"
+        }
+      ],
+      "sources": [
+        "https://exhibitions.univie.ac.at/person/ulan/500013414",
+        "https://exhibitions.univie.ac.at/exhibition/125"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/works/nostalgie-fornara-1907.md"
     },
     "work/orage-magrini-1907": {
       "id": "work/orage-magrini-1907",
@@ -19165,6 +19832,43 @@
       "updated": "2026-08-12",
       "path": "entities/works/paysage-etude-baracchini-caputi-1907-no30.md"
     },
+    "work/paysage-fornara-1907": {
+      "id": "work/paysage-fornara-1907",
+      "uri": "urn:ahn:work/paysage-fornara-1907",
+      "type": "work",
+      "label_ja": "カルロ・フォルナラ《Paysage》",
+      "label_en": "Paysage",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "独立作品典拠IDは未確認。1907年パリ展カタログ記録を用いる"
+      },
+      "time": {
+        "start": "1907",
+        "end": "1907",
+        "display": "1907年パリ展出品（制作年未確認）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/carlo-fornara"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/salon-divisionnistes-italiens-paris-1907"
+        }
+      ],
+      "sources": [
+        "https://exhibitions.univie.ac.at/person/ulan/500013414",
+        "https://exhibitions.univie.ac.at/exhibition/125"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/works/paysage-fornara-1907.md"
+    },
     "work/paysage-gottardo-segantini-1907": {
       "id": "work/paysage-gottardo-segantini-1907",
       "uri": "urn:ahn:work/paysage-gottardo-segantini-1907",
@@ -19387,6 +20091,43 @@
       "updated": "2026-08-12",
       "path": "entities/works/pensive-etude-de-nu-magrini-1907.md"
     },
+    "work/petit-lac-alpin-fornara-1907": {
+      "id": "work/petit-lac-alpin-fornara-1907",
+      "uri": "urn:ahn:work/petit-lac-alpin-fornara-1907",
+      "type": "work",
+      "label_ja": "カルロ・フォルナラ《Petit lac Alpin》",
+      "label_en": "Petit lac Alpin",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "独立作品典拠IDは未確認。1907年パリ展カタログ記録を用いる"
+      },
+      "time": {
+        "start": "1907",
+        "end": "1907",
+        "display": "1907年パリ展出品（制作年未確認）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/carlo-fornara"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/salon-divisionnistes-italiens-paris-1907"
+        }
+      ],
+      "sources": [
+        "https://exhibitions.univie.ac.at/person/ulan/500013414",
+        "https://exhibitions.univie.ac.at/exhibition/125"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/works/petit-lac-alpin-fornara-1907.md"
+    },
     "work/petite-tete-previati-1907": {
       "id": "work/petite-tete-previati-1907",
       "uri": "urn:ahn:work/petite-tete-previati-1907",
@@ -19461,6 +20202,43 @@
       "updated": "2026-08-12",
       "path": "entities/works/piazza-caricamento-nomellini-1891.md"
     },
+    "work/prelude-printanier-fornara-1907": {
+      "id": "work/prelude-printanier-fornara-1907",
+      "uri": "urn:ahn:work/prelude-printanier-fornara-1907",
+      "type": "work",
+      "label_ja": "カルロ・フォルナラ《Prélude printanier》",
+      "label_en": "Prélude printanier",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "独立作品典拠IDは未確認。1907年パリ展カタログ記録を用いる"
+      },
+      "time": {
+        "start": "1907",
+        "end": "1907",
+        "display": "1907年パリ展出品（制作年未確認）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/carlo-fornara"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/salon-divisionnistes-italiens-paris-1907"
+        }
+      ],
+      "sources": [
+        "https://exhibitions.univie.ac.at/person/ulan/500013414",
+        "https://exhibitions.univie.ac.at/exhibition/125"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/works/prelude-printanier-fornara-1907.md"
+    },
     "work/premiers-rayons-tominetti-1907": {
       "id": "work/premiers-rayons-tominetti-1907",
       "uri": "urn:ahn:work/premiers-rayons-tominetti-1907",
@@ -19497,6 +20275,43 @@
       "status": "draft",
       "updated": "2026-08-12",
       "path": "entities/works/premiers-rayons-tominetti-1907.md"
+    },
+    "work/presage-printanier-fornara-1907": {
+      "id": "work/presage-printanier-fornara-1907",
+      "uri": "urn:ahn:work/presage-printanier-fornara-1907",
+      "type": "work",
+      "label_ja": "カルロ・フォルナラ《Présage printanier》",
+      "label_en": "Présage printanier",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "独立作品典拠IDは未確認。1907年パリ展カタログ記録を用いる"
+      },
+      "time": {
+        "start": "1907",
+        "end": "1907",
+        "display": "1907年パリ展出品（制作年未確認）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/carlo-fornara"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/salon-divisionnistes-italiens-paris-1907"
+        }
+      ],
+      "sources": [
+        "https://exhibitions.univie.ac.at/person/ulan/500013414",
+        "https://exhibitions.univie.ac.at/exhibition/125"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/works/presage-printanier-fornara-1907.md"
     },
     "work/printemps-focardi-1907": {
       "id": "work/printemps-focardi-1907",
@@ -19721,6 +20536,43 @@
       "updated": "2026-08-12",
       "path": "entities/works/retour-de-la-messe-focardi-1907.md"
     },
+    "work/reverie-fornara-1907": {
+      "id": "work/reverie-fornara-1907",
+      "uri": "urn:ahn:work/reverie-fornara-1907",
+      "type": "work",
+      "label_ja": "カルロ・フォルナラ《Rêverie》",
+      "label_en": "Rêverie",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "独立作品典拠IDは未確認。1907年パリ展カタログ記録を用いる"
+      },
+      "time": {
+        "start": "1907",
+        "end": "1907",
+        "display": "1907年パリ展出品（制作年未確認）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/carlo-fornara"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/salon-divisionnistes-italiens-paris-1907"
+        }
+      ],
+      "sources": [
+        "https://exhibitions.univie.ac.at/person/ulan/500013414",
+        "https://exhibitions.univie.ac.at/exhibition/125"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/works/reverie-fornara-1907.md"
+    },
     "work/ricordanze-fornara-1891": {
       "id": "work/ricordanze-fornara-1891",
       "uri": "urn:ahn:work/ricordanze-fornara-1891",
@@ -19943,6 +20795,80 @@
       "status": "draft",
       "updated": "2026-08-12",
       "path": "entities/works/soir-a-la-fin-d-automne-benvenuti-1907.md"
+    },
+    "work/soir-en-montagne-fornara-1907": {
+      "id": "work/soir-en-montagne-fornara-1907",
+      "uri": "urn:ahn:work/soir-en-montagne-fornara-1907",
+      "type": "work",
+      "label_ja": "カルロ・フォルナラ《Soir en montagne》",
+      "label_en": "Soir en montagne",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "独立作品典拠IDは未確認。1907年パリ展カタログ記録を用いる"
+      },
+      "time": {
+        "start": "1907",
+        "end": "1907",
+        "display": "1907年パリ展出品（制作年未確認）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/carlo-fornara"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/salon-divisionnistes-italiens-paris-1907"
+        }
+      ],
+      "sources": [
+        "https://exhibitions.univie.ac.at/person/ulan/500013414",
+        "https://exhibitions.univie.ac.at/exhibition/125"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/works/soir-en-montagne-fornara-1907.md"
+    },
+    "work/songe-d-une-nuit-de-printemps-fornara-1907": {
+      "id": "work/songe-d-une-nuit-de-printemps-fornara-1907",
+      "uri": "urn:ahn:work/songe-d-une-nuit-de-printemps-fornara-1907",
+      "type": "work",
+      "label_ja": "カルロ・フォルナラ《Songe d'une nuit de printemps》",
+      "label_en": "Songe d'une nuit de printemps",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "独立作品典拠IDは未確認。1907年パリ展カタログ記録を用いる"
+      },
+      "time": {
+        "start": "1907",
+        "end": "1907",
+        "display": "1907年パリ展出品（制作年未確認）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/carlo-fornara"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/salon-divisionnistes-italiens-paris-1907"
+        }
+      ],
+      "sources": [
+        "https://exhibitions.univie.ac.at/person/ulan/500013414",
+        "https://exhibitions.univie.ac.at/exhibition/125"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/works/songe-d-une-nuit-de-printemps-fornara-1907.md"
     },
     "work/sous-la-lune-magrini-1907": {
       "id": "work/sous-la-lune-magrini-1907",
@@ -20168,6 +21094,80 @@
       "status": "draft",
       "updated": "2026-08-12",
       "path": "entities/works/tigre-royal-au-repos-magrini-1907.md"
+    },
+    "work/tranquilite-lunaire-fornara-1907": {
+      "id": "work/tranquilite-lunaire-fornara-1907",
+      "uri": "urn:ahn:work/tranquilite-lunaire-fornara-1907",
+      "type": "work",
+      "label_ja": "カルロ・フォルナラ《Tranquilité lunaire》",
+      "label_en": "Tranquilité lunaire",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "独立作品典拠IDは未確認。1907年パリ展カタログ記録を用いる"
+      },
+      "time": {
+        "start": "1907",
+        "end": "1907",
+        "display": "1907年パリ展出品（制作年未確認）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/carlo-fornara"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/salon-divisionnistes-italiens-paris-1907"
+        }
+      ],
+      "sources": [
+        "https://exhibitions.univie.ac.at/person/ulan/500013414",
+        "https://exhibitions.univie.ac.at/exhibition/125"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/works/tranquilite-lunaire-fornara-1907.md"
+    },
+    "work/tristesse-d-hiver-fornara-1907": {
+      "id": "work/tristesse-d-hiver-fornara-1907",
+      "uri": "urn:ahn:work/tristesse-d-hiver-fornara-1907",
+      "type": "work",
+      "label_ja": "カルロ・フォルナラ《Tristesse d'hiver》",
+      "label_en": "Tristesse d'hiver",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "独立作品典拠IDは未確認。1907年パリ展カタログ記録を用いる"
+      },
+      "time": {
+        "start": "1907",
+        "end": "1907",
+        "display": "1907年パリ展出品（制作年未確認）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/carlo-fornara"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/salon-divisionnistes-italiens-paris-1907"
+        }
+      ],
+      "sources": [
+        "https://exhibitions.univie.ac.at/person/ulan/500013414",
+        "https://exhibitions.univie.ac.at/exhibition/125"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/works/tristesse-d-hiver-fornara-1907.md"
     },
     "work/tristesse-magrini-1907": {
       "id": "work/tristesse-magrini-1907",
@@ -20469,6 +21469,43 @@
       "status": "draft",
       "updated": "2026-08-12",
       "path": "entities/works/vache-dans-le-pre-ramponi-1907.md"
+    },
+    "work/vepre-serein-fornara-1907": {
+      "id": "work/vepre-serein-fornara-1907",
+      "uri": "urn:ahn:work/vepre-serein-fornara-1907",
+      "type": "work",
+      "label_ja": "カルロ・フォルナラ《Vêpre serein》",
+      "label_en": "Vêpre serein",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "独立作品典拠IDは未確認。1907年パリ展カタログ記録を用いる"
+      },
+      "time": {
+        "start": "1907",
+        "end": "1907",
+        "display": "1907年パリ展出品（制作年未確認）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/carlo-fornara"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/salon-divisionnistes-italiens-paris-1907"
+        }
+      ],
+      "sources": [
+        "https://exhibitions.univie.ac.at/person/ulan/500013414",
+        "https://exhibitions.univie.ac.at/exhibition/125"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/works/vepre-serein-fornara-1907.md"
     },
     "work/vers-l-etable-magrini-1907": {
       "id": "work/vers-l-etable-magrini-1907",
@@ -23007,6 +24044,20 @@
       "source": null
     },
     {
+      "from": "work/apres-midi-d-octobre-fornara-1907",
+      "type": "created_by",
+      "to": "person/carlo-fornara",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/apres-midi-d-octobre-fornara-1907",
+      "type": "exhibited_at",
+      "to": "event/salon-divisionnistes-italiens-paris-1907",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "work/aube-sur-le-lac-de-garde-focardi-1907",
       "type": "created_by",
       "to": "person/piero-focardi",
@@ -23015,6 +24066,34 @@
     },
     {
       "from": "work/aube-sur-le-lac-de-garde-focardi-1907",
+      "type": "exhibited_at",
+      "to": "event/salon-divisionnistes-italiens-paris-1907",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/automne-fornara-1907",
+      "type": "created_by",
+      "to": "person/carlo-fornara",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/automne-fornara-1907",
+      "type": "exhibited_at",
+      "to": "event/salon-divisionnistes-italiens-paris-1907",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/avril-fornara-1907",
+      "type": "created_by",
+      "to": "person/carlo-fornara",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/avril-fornara-1907",
       "type": "exhibited_at",
       "to": "event/salon-divisionnistes-italiens-paris-1907",
       "certainty": null,
@@ -23255,6 +24334,20 @@
       "source": null
     },
     {
+      "from": "work/crepuscule-d-hiver-fornara-1907",
+      "type": "created_by",
+      "to": "person/carlo-fornara",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/crepuscule-d-hiver-fornara-1907",
+      "type": "exhibited_at",
+      "to": "event/salon-divisionnistes-italiens-paris-1907",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "work/crepuscule-en-montagne-maggi-1907",
       "type": "created_by",
       "to": "person/cesare-maggi",
@@ -23263,6 +24356,34 @@
     },
     {
       "from": "work/crepuscule-en-montagne-maggi-1907",
+      "type": "exhibited_at",
+      "to": "event/salon-divisionnistes-italiens-paris-1907",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/crepuscule-fornara-1907",
+      "type": "created_by",
+      "to": "person/carlo-fornara",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/crepuscule-fornara-1907",
+      "type": "exhibited_at",
+      "to": "event/salon-divisionnistes-italiens-paris-1907",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/d-apres-une-legende-des-alpes-fornara-1907",
+      "type": "created_by",
+      "to": "person/carlo-fornara",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/d-apres-une-legende-des-alpes-fornara-1907",
       "type": "exhibited_at",
       "to": "event/salon-divisionnistes-italiens-paris-1907",
       "certainty": null,
@@ -23353,6 +24474,20 @@
       "source": null
     },
     {
+      "from": "work/effet-de-neige-fornara-1907",
+      "type": "created_by",
+      "to": "person/carlo-fornara",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/effet-de-neige-fornara-1907",
+      "type": "exhibited_at",
+      "to": "event/salon-divisionnistes-italiens-paris-1907",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "work/effet-de-soleil-le-matin-minozzi-1907",
       "type": "created_by",
       "to": "person/filiberto-minozzi",
@@ -23389,6 +24524,20 @@
     },
     {
       "from": "work/effet-du-soleil-sur-la-neige-maggi-1907",
+      "type": "exhibited_at",
+      "to": "event/salon-divisionnistes-italiens-paris-1907",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/effets-de-lune-fornara-1907",
+      "type": "created_by",
+      "to": "person/carlo-fornara",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/effets-de-lune-fornara-1907",
       "type": "exhibited_at",
       "to": "event/salon-divisionnistes-italiens-paris-1907",
       "certainty": null,
@@ -23445,6 +24594,20 @@
     },
     {
       "from": "work/etude-de-nu-magrini-1907-no144",
+      "type": "exhibited_at",
+      "to": "event/salon-divisionnistes-italiens-paris-1907",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/etude-de-paysage-fornara-1907",
+      "type": "created_by",
+      "to": "person/carlo-fornara",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/etude-de-paysage-fornara-1907",
       "type": "exhibited_at",
       "to": "event/salon-divisionnistes-italiens-paris-1907",
       "certainty": null,
@@ -23675,6 +24838,20 @@
       "source": null
     },
     {
+      "from": "work/impression-d-automne-fornara-1907",
+      "type": "created_by",
+      "to": "person/carlo-fornara",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/impression-d-automne-fornara-1907",
+      "type": "exhibited_at",
+      "to": "event/salon-divisionnistes-italiens-paris-1907",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "work/in-cerca-di-legna-tominetti-1891",
       "type": "created_by",
       "to": "person/achille-tominetti",
@@ -23717,6 +24894,20 @@
       "source": null
     },
     {
+      "from": "work/l-aquilon-fornara-1907",
+      "type": "created_by",
+      "to": "person/carlo-fornara",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/l-aquilon-fornara-1907",
+      "type": "exhibited_at",
+      "to": "event/salon-divisionnistes-italiens-paris-1907",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "work/l-assomption-previati-1907",
       "type": "created_by",
       "to": "person/gaetano-previati",
@@ -23725,6 +24916,20 @@
     },
     {
       "from": "work/l-assomption-previati-1907",
+      "type": "exhibited_at",
+      "to": "event/salon-divisionnistes-italiens-paris-1907",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/l-hermitage-fornara-1907",
+      "type": "created_by",
+      "to": "person/carlo-fornara",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/l-hermitage-fornara-1907",
       "type": "exhibited_at",
       "to": "event/salon-divisionnistes-italiens-paris-1907",
       "certainty": null,
@@ -23816,6 +25021,34 @@
     },
     {
       "from": "work/la-mort-segantini-1907",
+      "type": "exhibited_at",
+      "to": "event/salon-divisionnistes-italiens-paris-1907",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/la-nuit-fornara-1907",
+      "type": "created_by",
+      "to": "person/carlo-fornara",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/la-nuit-fornara-1907",
+      "type": "exhibited_at",
+      "to": "event/salon-divisionnistes-italiens-paris-1907",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/la-nuit-sur-le-lac-fornara-1907",
+      "type": "created_by",
+      "to": "person/carlo-fornara",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/la-nuit-sur-le-lac-fornara-1907",
       "type": "exhibited_at",
       "to": "event/salon-divisionnistes-italiens-paris-1907",
       "certainty": null,
@@ -24061,6 +25294,20 @@
     },
     {
       "from": "work/le-pont-levis-previati-1907",
+      "type": "exhibited_at",
+      "to": "event/salon-divisionnistes-italiens-paris-1907",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/le-presage-fornara-1907",
+      "type": "created_by",
+      "to": "person/carlo-fornara",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/le-presage-fornara-1907",
       "type": "exhibited_at",
       "to": "event/salon-divisionnistes-italiens-paris-1907",
       "certainty": null,
@@ -24508,6 +25755,34 @@
       "source": null
     },
     {
+      "from": "work/midi-d-hiver-fornara-1907-no235",
+      "type": "created_by",
+      "to": "person/carlo-fornara",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/midi-d-hiver-fornara-1907-no235",
+      "type": "exhibited_at",
+      "to": "event/salon-divisionnistes-italiens-paris-1907",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/midi-d-hiver-fornara-1907-no243",
+      "type": "created_by",
+      "to": "person/carlo-fornara",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/midi-d-hiver-fornara-1907-no243",
+      "type": "exhibited_at",
+      "to": "event/salon-divisionnistes-italiens-paris-1907",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "work/monument-to-third-international",
       "type": "created_by",
       "to": "person/vladimir-tatlin",
@@ -24544,6 +25819,20 @@
     },
     {
       "from": "work/moutons-au-repos-ramponi-1907",
+      "type": "exhibited_at",
+      "to": "event/salon-divisionnistes-italiens-paris-1907",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/nostalgie-fornara-1907",
+      "type": "created_by",
+      "to": "person/carlo-fornara",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/nostalgie-fornara-1907",
       "type": "exhibited_at",
       "to": "event/salon-divisionnistes-italiens-paris-1907",
       "certainty": null,
@@ -24754,6 +26043,20 @@
     },
     {
       "from": "work/paysage-etude-baracchini-caputi-1907-no30",
+      "type": "exhibited_at",
+      "to": "event/salon-divisionnistes-italiens-paris-1907",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/paysage-fornara-1907",
+      "type": "created_by",
+      "to": "person/carlo-fornara",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/paysage-fornara-1907",
       "type": "exhibited_at",
       "to": "event/salon-divisionnistes-italiens-paris-1907",
       "certainty": null,
@@ -24844,6 +26147,20 @@
       "source": null
     },
     {
+      "from": "work/petit-lac-alpin-fornara-1907",
+      "type": "created_by",
+      "to": "person/carlo-fornara",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/petit-lac-alpin-fornara-1907",
+      "type": "exhibited_at",
+      "to": "event/salon-divisionnistes-italiens-paris-1907",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "work/petite-tete-previati-1907",
       "type": "created_by",
       "to": "person/gaetano-previati",
@@ -24872,6 +26189,20 @@
       "source": null
     },
     {
+      "from": "work/prelude-printanier-fornara-1907",
+      "type": "created_by",
+      "to": "person/carlo-fornara",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/prelude-printanier-fornara-1907",
+      "type": "exhibited_at",
+      "to": "event/salon-divisionnistes-italiens-paris-1907",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "work/premiers-rayons-tominetti-1907",
       "type": "created_by",
       "to": "person/achille-tominetti",
@@ -24880,6 +26211,20 @@
     },
     {
       "from": "work/premiers-rayons-tominetti-1907",
+      "type": "exhibited_at",
+      "to": "event/salon-divisionnistes-italiens-paris-1907",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/presage-printanier-fornara-1907",
+      "type": "created_by",
+      "to": "person/carlo-fornara",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/presage-printanier-fornara-1907",
       "type": "exhibited_at",
       "to": "event/salon-divisionnistes-italiens-paris-1907",
       "certainty": null,
@@ -24970,6 +26315,20 @@
       "source": null
     },
     {
+      "from": "work/reverie-fornara-1907",
+      "type": "created_by",
+      "to": "person/carlo-fornara",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/reverie-fornara-1907",
+      "type": "exhibited_at",
+      "to": "event/salon-divisionnistes-italiens-paris-1907",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "work/ricordanze-fornara-1891",
       "type": "created_by",
       "to": "person/carlo-fornara",
@@ -25054,6 +26413,34 @@
       "source": null
     },
     {
+      "from": "work/soir-en-montagne-fornara-1907",
+      "type": "created_by",
+      "to": "person/carlo-fornara",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/soir-en-montagne-fornara-1907",
+      "type": "exhibited_at",
+      "to": "event/salon-divisionnistes-italiens-paris-1907",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/songe-d-une-nuit-de-printemps-fornara-1907",
+      "type": "created_by",
+      "to": "person/carlo-fornara",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/songe-d-une-nuit-de-printemps-fornara-1907",
+      "type": "exhibited_at",
+      "to": "event/salon-divisionnistes-italiens-paris-1907",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "work/sous-la-lune-magrini-1907",
       "type": "created_by",
       "to": "person/adolphe-magrini",
@@ -25132,6 +26519,34 @@
     },
     {
       "from": "work/tigre-royal-au-repos-magrini-1907",
+      "type": "exhibited_at",
+      "to": "event/salon-divisionnistes-italiens-paris-1907",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/tranquilite-lunaire-fornara-1907",
+      "type": "created_by",
+      "to": "person/carlo-fornara",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/tranquilite-lunaire-fornara-1907",
+      "type": "exhibited_at",
+      "to": "event/salon-divisionnistes-italiens-paris-1907",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/tristesse-d-hiver-fornara-1907",
+      "type": "created_by",
+      "to": "person/carlo-fornara",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/tristesse-d-hiver-fornara-1907",
       "type": "exhibited_at",
       "to": "event/salon-divisionnistes-italiens-paris-1907",
       "certainty": null,
@@ -25251,6 +26666,20 @@
     },
     {
       "from": "work/vache-dans-le-pre-ramponi-1907",
+      "type": "exhibited_at",
+      "to": "event/salon-divisionnistes-italiens-paris-1907",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/vepre-serein-fornara-1907",
+      "type": "created_by",
+      "to": "person/carlo-fornara",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/vepre-serein-fornara-1907",
       "type": "exhibited_at",
       "to": "event/salon-divisionnistes-italiens-paris-1907",
       "certainty": null,
@@ -26693,6 +28122,18 @@
       "derived": true
     },
     {
+      "from": "person/carlo-fornara",
+      "type": "created",
+      "to": "work/apres-midi-d-octobre-fornara-1907",
+      "derived": true
+    },
+    {
+      "from": "event/salon-divisionnistes-italiens-paris-1907",
+      "type": "exhibited",
+      "to": "work/apres-midi-d-octobre-fornara-1907",
+      "derived": true
+    },
+    {
       "from": "person/piero-focardi",
       "type": "created",
       "to": "work/aube-sur-le-lac-de-garde-focardi-1907",
@@ -26702,6 +28143,30 @@
       "from": "event/salon-divisionnistes-italiens-paris-1907",
       "type": "exhibited",
       "to": "work/aube-sur-le-lac-de-garde-focardi-1907",
+      "derived": true
+    },
+    {
+      "from": "person/carlo-fornara",
+      "type": "created",
+      "to": "work/automne-fornara-1907",
+      "derived": true
+    },
+    {
+      "from": "event/salon-divisionnistes-italiens-paris-1907",
+      "type": "exhibited",
+      "to": "work/automne-fornara-1907",
+      "derived": true
+    },
+    {
+      "from": "person/carlo-fornara",
+      "type": "created",
+      "to": "work/avril-fornara-1907",
+      "derived": true
+    },
+    {
+      "from": "event/salon-divisionnistes-italiens-paris-1907",
+      "type": "exhibited",
+      "to": "work/avril-fornara-1907",
       "derived": true
     },
     {
@@ -26897,6 +28362,18 @@
       "derived": true
     },
     {
+      "from": "person/carlo-fornara",
+      "type": "created",
+      "to": "work/crepuscule-d-hiver-fornara-1907",
+      "derived": true
+    },
+    {
+      "from": "event/salon-divisionnistes-italiens-paris-1907",
+      "type": "exhibited",
+      "to": "work/crepuscule-d-hiver-fornara-1907",
+      "derived": true
+    },
+    {
       "from": "person/cesare-maggi",
       "type": "created",
       "to": "work/crepuscule-en-montagne-maggi-1907",
@@ -26906,6 +28383,30 @@
       "from": "event/salon-divisionnistes-italiens-paris-1907",
       "type": "exhibited",
       "to": "work/crepuscule-en-montagne-maggi-1907",
+      "derived": true
+    },
+    {
+      "from": "person/carlo-fornara",
+      "type": "created",
+      "to": "work/crepuscule-fornara-1907",
+      "derived": true
+    },
+    {
+      "from": "event/salon-divisionnistes-italiens-paris-1907",
+      "type": "exhibited",
+      "to": "work/crepuscule-fornara-1907",
+      "derived": true
+    },
+    {
+      "from": "person/carlo-fornara",
+      "type": "created",
+      "to": "work/d-apres-une-legende-des-alpes-fornara-1907",
+      "derived": true
+    },
+    {
+      "from": "event/salon-divisionnistes-italiens-paris-1907",
+      "type": "exhibited",
+      "to": "work/d-apres-une-legende-des-alpes-fornara-1907",
       "derived": true
     },
     {
@@ -26981,6 +28482,18 @@
       "derived": true
     },
     {
+      "from": "person/carlo-fornara",
+      "type": "created",
+      "to": "work/effet-de-neige-fornara-1907",
+      "derived": true
+    },
+    {
+      "from": "event/salon-divisionnistes-italiens-paris-1907",
+      "type": "exhibited",
+      "to": "work/effet-de-neige-fornara-1907",
+      "derived": true
+    },
+    {
       "from": "person/filiberto-minozzi",
       "type": "created",
       "to": "work/effet-de-soleil-le-matin-minozzi-1907",
@@ -27014,6 +28527,18 @@
       "from": "event/salon-divisionnistes-italiens-paris-1907",
       "type": "exhibited",
       "to": "work/effet-du-soleil-sur-la-neige-maggi-1907",
+      "derived": true
+    },
+    {
+      "from": "person/carlo-fornara",
+      "type": "created",
+      "to": "work/effets-de-lune-fornara-1907",
+      "derived": true
+    },
+    {
+      "from": "event/salon-divisionnistes-italiens-paris-1907",
+      "type": "exhibited",
+      "to": "work/effets-de-lune-fornara-1907",
       "derived": true
     },
     {
@@ -27062,6 +28587,18 @@
       "from": "event/salon-divisionnistes-italiens-paris-1907",
       "type": "exhibited",
       "to": "work/etude-de-nu-magrini-1907-no144",
+      "derived": true
+    },
+    {
+      "from": "person/carlo-fornara",
+      "type": "created",
+      "to": "work/etude-de-paysage-fornara-1907",
+      "derived": true
+    },
+    {
+      "from": "event/salon-divisionnistes-italiens-paris-1907",
+      "type": "exhibited",
+      "to": "work/etude-de-paysage-fornara-1907",
       "derived": true
     },
     {
@@ -27257,6 +28794,18 @@
       "derived": true
     },
     {
+      "from": "person/carlo-fornara",
+      "type": "created",
+      "to": "work/impression-d-automne-fornara-1907",
+      "derived": true
+    },
+    {
+      "from": "event/salon-divisionnistes-italiens-paris-1907",
+      "type": "exhibited",
+      "to": "work/impression-d-automne-fornara-1907",
+      "derived": true
+    },
+    {
       "from": "person/achille-tominetti",
       "type": "created",
       "to": "work/in-cerca-di-legna-tominetti-1891",
@@ -27293,6 +28842,18 @@
       "derived": true
     },
     {
+      "from": "person/carlo-fornara",
+      "type": "created",
+      "to": "work/l-aquilon-fornara-1907",
+      "derived": true
+    },
+    {
+      "from": "event/salon-divisionnistes-italiens-paris-1907",
+      "type": "exhibited",
+      "to": "work/l-aquilon-fornara-1907",
+      "derived": true
+    },
+    {
       "from": "person/gaetano-previati",
       "type": "created",
       "to": "work/l-assomption-previati-1907",
@@ -27302,6 +28863,18 @@
       "from": "event/salon-divisionnistes-italiens-paris-1907",
       "type": "exhibited",
       "to": "work/l-assomption-previati-1907",
+      "derived": true
+    },
+    {
+      "from": "person/carlo-fornara",
+      "type": "created",
+      "to": "work/l-hermitage-fornara-1907",
+      "derived": true
+    },
+    {
+      "from": "event/salon-divisionnistes-italiens-paris-1907",
+      "type": "exhibited",
+      "to": "work/l-hermitage-fornara-1907",
       "derived": true
     },
     {
@@ -27380,6 +28953,30 @@
       "from": "event/salon-divisionnistes-italiens-paris-1907",
       "type": "exhibited",
       "to": "work/la-mort-segantini-1907",
+      "derived": true
+    },
+    {
+      "from": "person/carlo-fornara",
+      "type": "created",
+      "to": "work/la-nuit-fornara-1907",
+      "derived": true
+    },
+    {
+      "from": "event/salon-divisionnistes-italiens-paris-1907",
+      "type": "exhibited",
+      "to": "work/la-nuit-fornara-1907",
+      "derived": true
+    },
+    {
+      "from": "person/carlo-fornara",
+      "type": "created",
+      "to": "work/la-nuit-sur-le-lac-fornara-1907",
+      "derived": true
+    },
+    {
+      "from": "event/salon-divisionnistes-italiens-paris-1907",
+      "type": "exhibited",
+      "to": "work/la-nuit-sur-le-lac-fornara-1907",
       "derived": true
     },
     {
@@ -27590,6 +29187,18 @@
       "from": "event/salon-divisionnistes-italiens-paris-1907",
       "type": "exhibited",
       "to": "work/le-pont-levis-previati-1907",
+      "derived": true
+    },
+    {
+      "from": "person/carlo-fornara",
+      "type": "created",
+      "to": "work/le-presage-fornara-1907",
+      "derived": true
+    },
+    {
+      "from": "event/salon-divisionnistes-italiens-paris-1907",
+      "type": "exhibited",
+      "to": "work/le-presage-fornara-1907",
       "derived": true
     },
     {
@@ -27971,6 +29580,30 @@
       "derived": true
     },
     {
+      "from": "person/carlo-fornara",
+      "type": "created",
+      "to": "work/midi-d-hiver-fornara-1907-no235",
+      "derived": true
+    },
+    {
+      "from": "event/salon-divisionnistes-italiens-paris-1907",
+      "type": "exhibited",
+      "to": "work/midi-d-hiver-fornara-1907-no235",
+      "derived": true
+    },
+    {
+      "from": "person/carlo-fornara",
+      "type": "created",
+      "to": "work/midi-d-hiver-fornara-1907-no243",
+      "derived": true
+    },
+    {
+      "from": "event/salon-divisionnistes-italiens-paris-1907",
+      "type": "exhibited",
+      "to": "work/midi-d-hiver-fornara-1907-no243",
+      "derived": true
+    },
+    {
       "from": "person/vladimir-tatlin",
       "type": "created",
       "to": "work/monument-to-third-international",
@@ -28004,6 +29637,18 @@
       "from": "event/salon-divisionnistes-italiens-paris-1907",
       "type": "exhibited",
       "to": "work/moutons-au-repos-ramponi-1907",
+      "derived": true
+    },
+    {
+      "from": "person/carlo-fornara",
+      "type": "created",
+      "to": "work/nostalgie-fornara-1907",
+      "derived": true
+    },
+    {
+      "from": "event/salon-divisionnistes-italiens-paris-1907",
+      "type": "exhibited",
+      "to": "work/nostalgie-fornara-1907",
       "derived": true
     },
     {
@@ -28184,6 +29829,18 @@
       "from": "event/salon-divisionnistes-italiens-paris-1907",
       "type": "exhibited",
       "to": "work/paysage-etude-baracchini-caputi-1907-no30",
+      "derived": true
+    },
+    {
+      "from": "person/carlo-fornara",
+      "type": "created",
+      "to": "work/paysage-fornara-1907",
+      "derived": true
+    },
+    {
+      "from": "event/salon-divisionnistes-italiens-paris-1907",
+      "type": "exhibited",
+      "to": "work/paysage-fornara-1907",
       "derived": true
     },
     {
@@ -28259,6 +29916,18 @@
       "derived": true
     },
     {
+      "from": "person/carlo-fornara",
+      "type": "created",
+      "to": "work/petit-lac-alpin-fornara-1907",
+      "derived": true
+    },
+    {
+      "from": "event/salon-divisionnistes-italiens-paris-1907",
+      "type": "exhibited",
+      "to": "work/petit-lac-alpin-fornara-1907",
+      "derived": true
+    },
+    {
       "from": "person/gaetano-previati",
       "type": "created",
       "to": "work/petite-tete-previati-1907",
@@ -28283,6 +29952,18 @@
       "derived": true
     },
     {
+      "from": "person/carlo-fornara",
+      "type": "created",
+      "to": "work/prelude-printanier-fornara-1907",
+      "derived": true
+    },
+    {
+      "from": "event/salon-divisionnistes-italiens-paris-1907",
+      "type": "exhibited",
+      "to": "work/prelude-printanier-fornara-1907",
+      "derived": true
+    },
+    {
       "from": "person/achille-tominetti",
       "type": "created",
       "to": "work/premiers-rayons-tominetti-1907",
@@ -28292,6 +29973,18 @@
       "from": "event/salon-divisionnistes-italiens-paris-1907",
       "type": "exhibited",
       "to": "work/premiers-rayons-tominetti-1907",
+      "derived": true
+    },
+    {
+      "from": "person/carlo-fornara",
+      "type": "created",
+      "to": "work/presage-printanier-fornara-1907",
+      "derived": true
+    },
+    {
+      "from": "event/salon-divisionnistes-italiens-paris-1907",
+      "type": "exhibited",
+      "to": "work/presage-printanier-fornara-1907",
       "derived": true
     },
     {
@@ -28369,6 +30062,18 @@
     {
       "from": "person/carlo-fornara",
       "type": "created",
+      "to": "work/reverie-fornara-1907",
+      "derived": true
+    },
+    {
+      "from": "event/salon-divisionnistes-italiens-paris-1907",
+      "type": "exhibited",
+      "to": "work/reverie-fornara-1907",
+      "derived": true
+    },
+    {
+      "from": "person/carlo-fornara",
+      "type": "created",
       "to": "work/ricordanze-fornara-1891",
       "derived": true
     },
@@ -28436,6 +30141,30 @@
       "from": "event/salon-divisionnistes-italiens-paris-1907",
       "type": "exhibited",
       "to": "work/soir-a-la-fin-d-automne-benvenuti-1907",
+      "derived": true
+    },
+    {
+      "from": "person/carlo-fornara",
+      "type": "created",
+      "to": "work/soir-en-montagne-fornara-1907",
+      "derived": true
+    },
+    {
+      "from": "event/salon-divisionnistes-italiens-paris-1907",
+      "type": "exhibited",
+      "to": "work/soir-en-montagne-fornara-1907",
+      "derived": true
+    },
+    {
+      "from": "person/carlo-fornara",
+      "type": "created",
+      "to": "work/songe-d-une-nuit-de-printemps-fornara-1907",
+      "derived": true
+    },
+    {
+      "from": "event/salon-divisionnistes-italiens-paris-1907",
+      "type": "exhibited",
+      "to": "work/songe-d-une-nuit-de-printemps-fornara-1907",
       "derived": true
     },
     {
@@ -28508,6 +30237,30 @@
       "from": "event/salon-divisionnistes-italiens-paris-1907",
       "type": "exhibited",
       "to": "work/tigre-royal-au-repos-magrini-1907",
+      "derived": true
+    },
+    {
+      "from": "person/carlo-fornara",
+      "type": "created",
+      "to": "work/tranquilite-lunaire-fornara-1907",
+      "derived": true
+    },
+    {
+      "from": "event/salon-divisionnistes-italiens-paris-1907",
+      "type": "exhibited",
+      "to": "work/tranquilite-lunaire-fornara-1907",
+      "derived": true
+    },
+    {
+      "from": "person/carlo-fornara",
+      "type": "created",
+      "to": "work/tristesse-d-hiver-fornara-1907",
+      "derived": true
+    },
+    {
+      "from": "event/salon-divisionnistes-italiens-paris-1907",
+      "type": "exhibited",
+      "to": "work/tristesse-d-hiver-fornara-1907",
       "derived": true
     },
     {
@@ -28610,6 +30363,18 @@
       "from": "event/salon-divisionnistes-italiens-paris-1907",
       "type": "exhibited",
       "to": "work/vache-dans-le-pre-ramponi-1907",
+      "derived": true
+    },
+    {
+      "from": "person/carlo-fornara",
+      "type": "created",
+      "to": "work/vepre-serein-fornara-1907",
+      "derived": true
+    },
+    {
+      "from": "event/salon-divisionnistes-italiens-paris-1907",
+      "type": "exhibited",
+      "to": "work/vepre-serein-fornara-1907",
       "derived": true
     },
     {
