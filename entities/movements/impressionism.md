@@ -31,6 +31,7 @@ space:
 relations:
   - {type: precedes, target: movement/neo-impressionism}
   - {type: exhibited_at, target: org/societe-anonyme-artistes}
+  - {type: exhibited_at, target: event/eighth-impressionist-exhibition-1886}
   - {type: influenced_by, target: movement/barbizon-school, certainty: scholarly, source: "https://www.getty.edu/education/for_teachers/curricula/impressionism/background1.html"}
   - {type: influenced_by, target: movement/utagawa-school, certainty: scholarly, source: "https://en.wikipedia.org/wiki/Fondation_Monet_in_Giverny"}
 images:

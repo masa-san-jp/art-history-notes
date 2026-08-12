@@ -20,6 +20,7 @@ space:
 relations:
   - {type: created_by, target: person/georges-seurat}
   - {type: belongs_to, target: movement/neo-impressionism}
+  - {type: exhibited_at, target: event/eighth-impressionist-exhibition-1886}
   - {type: depicts, target: concept/harmony}
 sources:
   - https://api.artic.edu/api/v1/artworks/27992
