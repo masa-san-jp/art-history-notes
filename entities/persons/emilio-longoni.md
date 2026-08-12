@@ -32,5 +32,7 @@ updated: 2026-08-12
 分割主義的な実験と社会的関心を明確にしたと記録する。
 
 公式カタログ本文では、101《L'oratore dello sciopero》、328《Paesaggio - Sole d'inverno》、
-329《La piscininna》として掲載される。後二者は作品の同定・表記確認を保留し、101番だけを
-[`《L'oratore dello sciopero》`](../works/l-oratore-dello-sciopero-longoni-1891.md)として作品化した。
+329《La piscininna》として掲載される。後二者はそれぞれ
+[`《Paesaggio - Sole d'inverno》`](../works/paesaggio-sole-d-inverno-longoni-1891.md)、
+[`《La piscininna》`](../works/la-piscininna-longoni-1891.md)として作品化した。329番はTreccaniが
+「La piscinina」と綴るため、公式カタログと伝記資料の表記差を作品側に注記する。
