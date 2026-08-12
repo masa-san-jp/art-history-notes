@@ -7979,13 +7979,20 @@
           "target": "movement/realism",
           "certainty": "scholarly",
           "source": "https://www.metmuseum.org/es/essays/symbolism"
+        },
+        {
+          "type": "diffused_to",
+          "target": "place/brussels",
+          "certainty": "scholarly",
+          "source": "https://www.smb.museum/fileadmin/website/Presse/Pressematerial/2020/09/BS_Presse_EN_04b_Catalogue-Gleis.pdf"
         }
       ],
       "sources": [
         "https://www.wikidata.org/wiki/Q164800",
         "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300021514",
         "https://www.britannica.com/art/Symbolism-literary-and-artistic-movement",
-        "https://www.metmuseum.org/es/essays/symbolism"
+        "https://www.metmuseum.org/es/essays/symbolism",
+        "https://www.smb.museum/fileadmin/website/Presse/Pressematerial/2020/09/BS_Presse_EN_04b_Catalogue-Gleis.pdf"
       ],
       "status": "draft",
       "updated": "2026-08-12",
@@ -23852,6 +23859,13 @@
     },
     {
       "from": "movement/symbolism",
+      "type": "diffused_to",
+      "to": "place/brussels",
+      "certainty": "scholarly",
+      "source": "https://www.smb.museum/fileadmin/website/Presse/Pressematerial/2020/09/BS_Presse_EN_04b_Catalogue-Gleis.pdf"
+    },
+    {
+      "from": "movement/symbolism",
       "type": "originated_in",
       "to": "place/paris"
     },
@@ -28494,6 +28508,12 @@
     {
       "from": "movement/realism",
       "type": "reacted_against_by",
+      "to": "movement/symbolism",
+      "derived": true
+    },
+    {
+      "from": "place/brussels",
+      "type": "received",
       "to": "movement/symbolism",
       "derived": true
     },

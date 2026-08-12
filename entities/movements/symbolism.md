@@ -29,11 +29,13 @@ space:
   - {role: originated_in, target: place/paris}
 relations:
   - {type: reacts_against, target: movement/realism, certainty: scholarly, source: "https://www.metmuseum.org/es/essays/symbolism"}
+  - {type: diffused_to, target: place/brussels, certainty: scholarly, source: "https://www.smb.museum/fileadmin/website/Presse/Pressematerial/2020/09/BS_Presse_EN_04b_Catalogue-Gleis.pdf"}
 sources:
   - https://www.wikidata.org/wiki/Q164800
   - https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300021514
   - https://www.britannica.com/art/Symbolism-literary-and-artistic-movement
   - https://www.metmuseum.org/es/essays/symbolism
+  - https://www.smb.museum/fileadmin/website/Presse/Pressematerial/2020/09/BS_Presse_EN_04b_Catalogue-Gleis.pdf
 status: draft
 updated: 2026-08-12
 ---
@@ -53,6 +55,16 @@ updated: 2026-08-12
 
 命名と批評の中心として `place/paris` を置くが、ブリュッセルを含むフランス語圏の相互交流を前提とする。
 終点は象徴主義が別の前衛運動へ分岐する20世紀初頭を含む `19XX` とした。
+
+## ブリュッセルへの波及
+
+ベルリン国立美術館群のベルギー象徴主義展カタログは、1883年に結成されたブリュッセルの
+Les XXと、1894年に後継となったLa Libre Esthétiqueが、各国の芸術家を招く国際的な展覧会を
+継続したと記録する。同カタログは、世紀末のブリュッセルがヨーロッパの芸術的発展における重要な
+拠点であり、象徴主義者たちの出会いの場になったと位置づける
+（[Staatliche Museen zu Berlin](https://www.smb.museum/fileadmin/website/Presse/Pressematerial/2020/09/BS_Presse_EN_04b_Catalogue-Gleis.pdf)）。
+したがって `diffused_to place/brussels` は、象徴主義の全担い手がブリュッセルへ移住したことではなく、
+国際展と交流を通じて運動が受容・接続された地点を表す。
 
 ## 写実主義への反発
 
