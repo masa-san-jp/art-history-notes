@@ -14554,6 +14554,45 @@
       "updated": "2026-08-12",
       "path": "entities/works/alba-morbelli-1891.md"
     },
+    "work/baigneurs-dans-le-lac-focardi-1906": {
+      "id": "work/baigneurs-dans-le-lac-focardi-1906",
+      "uri": "urn:ahn:work/baigneurs-dans-le-lac-focardi-1906",
+      "type": "work",
+      "label_ja": "ピエロ・フォカルディ《Baigneurs dans le Lac》",
+      "label_en": "Baigneurs dans le Lac",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "独立作品典拠IDは未確認。Il Divisionismoの作品記録と1907年展カタログ記録を用いる"
+      },
+      "time": {
+        "start": "1906",
+        "end": "1906",
+        "display": "1906年制作 — 1907年パリ展出品"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/piero-focardi"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/salon-divisionnistes-italiens-paris-1907"
+        }
+      ],
+      "sources": [
+        "https://ildivisionismo.it/nuove-acquisizioni/",
+        "https://ildivisionismo.it/piero-focardi/",
+        "https://exhibitions.univie.ac.at/person/3322",
+        "https://exhibitions.univie.ac.at/exhibition/125"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/works/baigneurs-dans-le-lac-focardi-1906.md"
+    },
     "work/bathers-at-asnieres": {
       "id": "work/bathers-at-asnieres",
       "uri": "urn:ahn:work/bathers-at-asnieres",
@@ -14754,6 +14793,44 @@
       "updated": "2026-08-12",
       "path": "entities/works/la-bottega-del-calderaio-fornara-1891.md"
     },
+    "work/la-vallee-de-malenco-mario-segantini-1907": {
+      "id": "work/la-vallee-de-malenco-mario-segantini-1907",
+      "uri": "urn:ahn:work/la-vallee-de-malenco-mario-segantini-1907",
+      "type": "work",
+      "label_ja": "マリオ・セガンティーニ《La Vallée de Malenco》",
+      "label_en": "La Vallée de Malenco",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "独立作品典拠IDは未確認。1907年展カタログ記録と同時代画家研究を用いる"
+      },
+      "time": {
+        "start": "1907",
+        "end": "1907",
+        "display": "1907年パリ展出品（制作年未確認）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/mario-segantini"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/salon-divisionnistes-italiens-paris-1907"
+        }
+      ],
+      "sources": [
+        "https://exhibitions.univie.ac.at/person/gnd/108964910X",
+        "https://exhibitions.univie.ac.at/exhibition/125",
+        "https://www.berardiarte.it/artisti/mario-segantini/ritratto-di-william-ritter-1903/"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/works/la-vallee-de-malenco-mario-segantini-1907.md"
+    },
     "work/labour-alpestre-mattino-alpestre-omio-1906": {
       "id": "work/labour-alpestre-mattino-alpestre-omio-1906",
       "uri": "urn:ahn:work/labour-alpestre-mattino-alpestre-omio-1906",
@@ -14922,6 +14999,43 @@
       "status": "draft",
       "updated": "2026-08-12",
       "path": "entities/works/maternita-previati-1891.md"
+    },
+    "work/matin-d-automne-benvenuti-1907": {
+      "id": "work/matin-d-automne-benvenuti-1907",
+      "uri": "urn:ahn:work/matin-d-automne-benvenuti-1907",
+      "type": "work",
+      "label_ja": "ベンヴェヌート・ベンヴェヌーティ《Matin d'Automne》",
+      "label_en": "Matin d'Automne",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "独立作品典拠IDは未確認。1907年展カタログ記録を用いる"
+      },
+      "time": {
+        "start": "1907",
+        "end": "1907",
+        "display": "1907年パリ展出品（制作年未確認）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/benvenuto-benvenuti"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/salon-divisionnistes-italiens-paris-1907"
+        }
+      ],
+      "sources": [
+        "https://exhibitions.univie.ac.at/person/ulan/500585330",
+        "https://exhibitions.univie.ac.at/exhibition/125"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/works/matin-d-automne-benvenuti-1907.md"
     },
     "work/monument-to-third-international": {
       "id": "work/monument-to-third-international",
@@ -17639,6 +17753,20 @@
       "source": null
     },
     {
+      "from": "work/baigneurs-dans-le-lac-focardi-1906",
+      "type": "created_by",
+      "to": "person/piero-focardi",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/baigneurs-dans-le-lac-focardi-1906",
+      "type": "exhibited_at",
+      "to": "event/salon-divisionnistes-italiens-paris-1907",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "work/bathers-at-asnieres",
       "type": "created_by",
       "to": "person/georges-seurat",
@@ -17726,6 +17854,20 @@
       "source": null
     },
     {
+      "from": "work/la-vallee-de-malenco-mario-segantini-1907",
+      "type": "created_by",
+      "to": "person/mario-segantini",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/la-vallee-de-malenco-mario-segantini-1907",
+      "type": "exhibited_at",
+      "to": "event/salon-divisionnistes-italiens-paris-1907",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "work/labour-alpestre-mattino-alpestre-omio-1906",
       "type": "created_by",
       "to": "person/giuseppe-omio",
@@ -17806,6 +17948,20 @@
       "from": "work/maternita-previati-1891",
       "type": "exhibited_at",
       "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/matin-d-automne-benvenuti-1907",
+      "type": "created_by",
+      "to": "person/benvenuto-benvenuti",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/matin-d-automne-benvenuti-1907",
+      "type": "exhibited_at",
+      "to": "event/salon-divisionnistes-italiens-paris-1907",
       "certainty": null,
       "source": null
     },
@@ -19311,6 +19467,18 @@
       "derived": true
     },
     {
+      "from": "person/piero-focardi",
+      "type": "created",
+      "to": "work/baigneurs-dans-le-lac-focardi-1906",
+      "derived": true
+    },
+    {
+      "from": "event/salon-divisionnistes-italiens-paris-1907",
+      "type": "exhibited",
+      "to": "work/baigneurs-dans-le-lac-focardi-1906",
+      "derived": true
+    },
+    {
       "from": "person/georges-seurat",
       "type": "created",
       "to": "work/bathers-at-asnieres",
@@ -19374,6 +19542,18 @@
       "from": "event/first-brera-triennale-1891",
       "type": "exhibited",
       "to": "work/la-bottega-del-calderaio-fornara-1891",
+      "derived": true
+    },
+    {
+      "from": "person/mario-segantini",
+      "type": "created",
+      "to": "work/la-vallee-de-malenco-mario-segantini-1907",
+      "derived": true
+    },
+    {
+      "from": "event/salon-divisionnistes-italiens-paris-1907",
+      "type": "exhibited",
+      "to": "work/la-vallee-de-malenco-mario-segantini-1907",
       "derived": true
     },
     {
@@ -19446,6 +19626,18 @@
       "from": "event/first-brera-triennale-1891",
       "type": "exhibited",
       "to": "work/maternita-previati-1891",
+      "derived": true
+    },
+    {
+      "from": "person/benvenuto-benvenuti",
+      "type": "created",
+      "to": "work/matin-d-automne-benvenuti-1907",
+      "derived": true
+    },
+    {
+      "from": "event/salon-divisionnistes-italiens-paris-1907",
+      "type": "exhibited",
+      "to": "work/matin-d-automne-benvenuti-1907",
       "derived": true
     },
     {

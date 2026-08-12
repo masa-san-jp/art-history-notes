@@ -32,4 +32,5 @@ updated: 2026-08-12
 ジョヴァンニ・セガンティーニの息子で、ゴッタルドの弟。ミラノに生まれ、画家・版画家・彫刻家として活動し、
 1916年にマローヤで没した。
 
-1907年パリ展では、Sala A（Rotonde）の57番《La Vallée de Malenco》を出品した。作品個別の典拠整理は次段で行う。
+1907年パリ展では、Sala A（Rotonde）の57番[`《La Vallée de Malenco》`](../works/la-vallee-de-malenco-mario-segantini-1907.md)を出品した。
+制作年や現所在は未確認である。
