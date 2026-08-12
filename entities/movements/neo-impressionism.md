@@ -29,11 +29,13 @@ space:
   - {role: originated_in, target: place/paris}
 relations:
   - {type: diffused_to, target: place/brussels, certainty: scholarly, source: "https://en.wikipedia.org/wiki/Les_Vingt"}
+  - {type: influenced_by, target: concept/ukiyo-e, certainty: scholarly, source: "https://www.vangoghmuseum.nl/assets/491dd716-741d-4608-975e-e9652bdfd063?c=2379957789b45233379dcf35054dd324a2f54e39adeb7c20b1481dc08c461b44"}
 sources:
   - https://www.wikidata.org/wiki/Q150091
   - https://api.artic.edu/api/v1/artworks/27992
   - https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300021505
   - https://digistore.bib.ulb.ac.be/2008/DL2864764_1886_f.pdf
+  - https://www.vangoghmuseum.nl/assets/491dd716-741d-4608-975e-e9652bdfd063?c=2379957789b45233379dcf35054dd324a2f54e39adeb7c20b1481dc08c461b44
   - https://gallica.bnf.fr/ark:/12148/bpt6k850398w
   - https://catalogue.bnf.fr/ark:/12148/cb30427294w
   - https://fr.wikipedia.org/wiki/N%C3%A9o-impressionnisme
@@ -51,7 +53,7 @@ images:
     license: cc0
     note: "ポール・シニャック《調和の時代（In Times of Harmony）》1895-96年、シカゴ美術館蔵（is_public_domain: true）"
 status: verified
-updated: 2026-08-09
+updated: 2026-08-12
 ---
 
 # 新印象派 / Neo-impressionism
@@ -171,6 +173,19 @@ Gallica収録の実物（[ark:/12148/bpt6k850398w](https://gallica.bnf.fr/ark:/1
 レイセルベルグらベルギーの画家が分割主義の技法を採り入れたとされる（[impressionism.nl](https://www.impressionism.nl/1887-les-xx/)）。
 これに基づき `diffused_to` を `place/brussels` に張った。**未確認**: オランダ・イタリアへの
 分割主義の広がりは未着手のまま。
+
+## 日本の版画との関係
+
+ファン・ゴッホ美術館が開催した研究シンポジウムの記録は、印象派と新印象派の画家たちが日本の版画の
+重要な収集家であり、その影響を強く受けたと整理している。個別には、テオ・ファン・レイセルベルグの
+収集版画、スーラ《グランド・ジャット島の日曜日の午後》に見られる平面性と色面、ピサロの《農作業》に
+見られる北斎漫画との関係が挙げられる。一方で、シニャックについては、本人が版画を直接研究したのか、
+日本版画を収集・研究したモネを介した影響なのか確定できないとも記録される。
+
+ここでいう「日本の版画」は、江戸期の木版画を中心とする上位概念として本KBの
+[浮世絵](../concepts/ukiyo-e.md)に対応づける。特定の一派、とくに歌川派から新印象派全体へ直接伝播したと
+いう主張ではない。そのため、既存の [歌川派](utagawa-school.md) への経路とは分け、作品・収集・図像を
+介した日本版画一般からの受容を `concept/ukiyo-e` への `influenced_by` として記録する。
 
 ## 未着手
 
