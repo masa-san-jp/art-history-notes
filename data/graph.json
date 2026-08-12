@@ -10826,6 +10826,38 @@
       "updated": "2026-08-12",
       "path": "entities/persons/antonio-ferrigno.md"
     },
+    "person/antonio-melchioni": {
+      "id": "person/antonio-melchioni",
+      "uri": "urn:ahn:person/antonio-melchioni",
+      "type": "person",
+      "label_ja": "アントニオ・メルキオーニ",
+      "label_en": "Antonio Melchioni",
+      "authority": {
+        "wikidata": null,
+        "ulan": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "独立した人物典拠IDと生没年は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": null,
+        "end": null,
+        "display": "19世紀末にパッランツァ出身者として活動"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-13",
+      "path": "entities/persons/antonio-melchioni.md"
+    },
     "person/antonio-soldini": {
       "id": "person/antonio-soldini",
       "uri": "urn:ahn:person/antonio-soldini",
@@ -10925,6 +10957,38 @@
       "status": "draft",
       "updated": "2026-08-12",
       "path": "entities/persons/argelia-butti.md"
+    },
+    "person/argentina-bresca": {
+      "id": "person/argentina-bresca",
+      "uri": "urn:ahn:person/argentina-bresca",
+      "type": "person",
+      "label_ja": "アルジェンティーナ・ブレスカ",
+      "label_en": "Argentina Bresca",
+      "authority": {
+        "wikidata": null,
+        "ulan": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "独立した人物典拠IDと生没年は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": null,
+        "end": null,
+        "display": "19世紀末にオネーリア出身者として活動"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-13",
+      "path": "entities/persons/argentina-bresca.md"
     },
     "person/arnaldo-ferraguti": {
       "id": "person/arnaldo-ferraguti",
@@ -12310,6 +12374,38 @@
       "status": "draft",
       "updated": "2026-08-12",
       "path": "entities/persons/cesare-maggi.md"
+    },
+    "person/cesare-spagliardi": {
+      "id": "person/cesare-spagliardi",
+      "uri": "urn:ahn:person/cesare-spagliardi",
+      "type": "person",
+      "label_ja": "チェーザレ・スパリアルディ",
+      "label_en": "Cesare Spagliardi",
+      "authority": {
+        "wikidata": null,
+        "ulan": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "独立した人物典拠IDと生没年は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": null,
+        "end": null,
+        "display": "19世紀末にミラノで活動"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-13",
+      "path": "entities/persons/cesare-spagliardi.md"
     },
     "person/cesira-sardi": {
       "id": "person/cesira-sardi",
@@ -19181,6 +19277,38 @@
       "updated": "2026-08-12",
       "path": "entities/persons/mose-bianchi.md"
     },
+    "person/napoleone-gradi": {
+      "id": "person/napoleone-gradi",
+      "uri": "urn:ahn:person/napoleone-gradi",
+      "type": "person",
+      "label_ja": "ナポレオーネ・グラーディ",
+      "label_en": "Napoleone Gradi",
+      "authority": {
+        "wikidata": null,
+        "ulan": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "独立した人物典拠IDと生没年は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": null,
+        "end": null,
+        "display": "19世紀末にサン・クリスティーナ出身者として活動"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-13",
+      "path": "entities/persons/napoleone-gradi.md"
+    },
     "person/napoleone-nani": {
       "id": "person/napoleone-nani",
       "uri": "urn:ahn:person/napoleone-nani",
@@ -19982,6 +20110,38 @@
       "status": "draft",
       "updated": "2026-08-12",
       "path": "entities/persons/pietro-fragiacomo.md"
+    },
+    "person/pietro-tetar-van-elven": {
+      "id": "person/pietro-tetar-van-elven",
+      "uri": "urn:ahn:person/pietro-tetar-van-elven",
+      "type": "person",
+      "label_ja": "ピエトロ・テタール・ファン・エルフェン",
+      "label_en": "Pietro Tetar van Elven",
+      "authority": {
+        "wikidata": null,
+        "ulan": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "独立した人物典拠IDと生没年は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": null,
+        "end": null,
+        "display": "19世紀末にアムステルダム出身者として活動"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-13",
+      "path": "entities/persons/pietro-tetar-van-elven.md"
     },
     "person/pietro-villani": {
       "id": "person/pietro-villani",
@@ -21162,6 +21322,38 @@
       "status": "stub",
       "updated": "2026-08-09",
       "path": "entities/persons/shakir-hassan-al-said.md"
+    },
+    "person/silvio-poma": {
+      "id": "person/silvio-poma",
+      "uri": "urn:ahn:person/silvio-poma",
+      "type": "person",
+      "label_ja": "シルヴィオ・ポマ",
+      "label_en": "Silvio Poma",
+      "authority": {
+        "wikidata": null,
+        "ulan": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "独立した人物典拠IDと生没年は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": null,
+        "end": null,
+        "display": "19世紀末にミラノで活動"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-13",
+      "path": "entities/persons/silvio-poma.md"
     },
     "person/sofia-di-bricherasio": {
       "id": "person/sofia-di-bricherasio",
@@ -27097,6 +27289,42 @@
       "updated": "2026-08-12",
       "path": "entities/works/capinera-bertea-1891.md"
     },
+    "work/capolungo-nervi-tetar-van-elven-1891": {
+      "id": "work/capolungo-nervi-tetar-van-elven-1891",
+      "uri": "urn:ahn:work/capolungo-nervi-tetar-van-elven-1891",
+      "type": "work",
+      "label_ja": "ピエトロ・テタール・ファン・エルフェン《Capolungo Nervi》",
+      "label_en": "Capolungo Nervi",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "作品の独立典拠IDと現所在は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年（1891年展カタログ523番）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/pietro-tetar-van-elven"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-13",
+      "path": "entities/works/capolungo-nervi-tetar-van-elven-1891.md"
+    },
     "work/carica-militare-de-albertis-1891": {
       "id": "work/carica-militare-de-albertis-1891",
       "uri": "urn:ahn:work/carica-militare-de-albertis-1891",
@@ -29106,6 +29334,42 @@
       "status": "draft",
       "updated": "2026-08-13",
       "path": "entities/works/diversi-studietti-fontana-1891.md"
+    },
+    "work/dolce-abbandono-gradi-1891": {
+      "id": "work/dolce-abbandono-gradi-1891",
+      "uri": "urn:ahn:work/dolce-abbandono-gradi-1891",
+      "type": "work",
+      "label_ja": "ナポレオーネ・グラーディ《Dolce abbandono - Testa》",
+      "label_en": "Dolce abbandono - Testa",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "作品の独立典拠IDと現所在は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年（1891年展カタログ519番）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/napoleone-gradi"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-13",
+      "path": "entities/works/dolce-abbandono-gradi-1891.md"
     },
     "work/domani-in-collegio-follini-1891": {
       "id": "work/domani-in-collegio-follini-1891",
@@ -34658,6 +34922,42 @@
       "updated": "2026-08-13",
       "path": "entities/works/interno-bianchi-1891.md"
     },
+    "work/interno-della-r-galleria-palatina-berta-1891": {
+      "id": "work/interno-della-r-galleria-palatina-berta-1891",
+      "uri": "urn:ahn:work/interno-della-r-galleria-palatina-berta-1891",
+      "type": "work",
+      "label_ja": "エドゥアルド・ベルタ《Interno della R. Galleria Palatina di Firenze — Sala dell’Iliade (Dal vero)》",
+      "label_en": "Interno della R. Galleria Palatina di Firenze — Sala dell’Iliade (Dal vero)",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "作品の独立典拠IDと現所在は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年（1891年展カタログ515番）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/eduardo-berta"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-13",
+      "path": "entities/works/interno-della-r-galleria-palatina-berta-1891.md"
+    },
     "work/inverno-fragiacomo-1890": {
       "id": "work/inverno-fragiacomo-1890",
       "uri": "urn:ahn:work/inverno-fragiacomo-1890",
@@ -37018,6 +37318,42 @@
       "status": "draft",
       "updated": "2026-08-12",
       "path": "entities/works/lago-dalserio-cressini-1891.md"
+    },
+    "work/lago-di-lecco-poma-1891": {
+      "id": "work/lago-di-lecco-poma-1891",
+      "uri": "urn:ahn:work/lago-di-lecco-poma-1891",
+      "type": "work",
+      "label_ja": "シルヴィオ・ポマ《Lago di Lecco》",
+      "label_en": "Lago di Lecco",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "作品の独立典拠IDと現所在は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年（1891年展カタログ520番）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/silvio-poma"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-13",
+      "path": "entities/works/lago-di-lecco-poma-1891.md"
     },
     "work/larcangelo-michele-bisi-1891": {
       "id": "work/larcangelo-michele-bisi-1891",
@@ -45837,6 +46173,42 @@
       "updated": "2026-08-13",
       "path": "entities/works/ritratto-senatore-maurogordato-de-sanctis-1891.md"
     },
+    "work/ritratto-spagliardi-1891": {
+      "id": "work/ritratto-spagliardi-1891",
+      "uri": "urn:ahn:work/ritratto-spagliardi-1891",
+      "type": "work",
+      "label_ja": "チェーザレ・スパリアルディ《Ritratto》",
+      "label_en": "Ritratto",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "作品の独立典拠IDと現所在は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年（1891年展カタログ522番）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/cesare-spagliardi"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-13",
+      "path": "entities/works/ritratto-spagliardi-1891.md"
+    },
     "work/ritratto-stolberg-wernigerode-schott-1891": {
       "id": "work/ritratto-stolberg-wernigerode-schott-1891",
       "uri": "urn:ahn:work/ritratto-stolberg-wernigerode-schott-1891",
@@ -48356,6 +48728,78 @@
       "updated": "2026-08-12",
       "path": "entities/works/testa-di-vecchio-nono-1891.md"
     },
+    "work/testa-di-vecchio-studio-berta-1891": {
+      "id": "work/testa-di-vecchio-studio-berta-1891",
+      "uri": "urn:ahn:work/testa-di-vecchio-studio-berta-1891",
+      "type": "work",
+      "label_ja": "エドゥアルド・ベルタ《Testa di vecchio - Studio dal vero》",
+      "label_en": "Testa di vecchio - Studio dal vero",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "作品の独立典拠IDと現所在は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年（1891年展カタログ516番）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/eduardo-berta"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-13",
+      "path": "entities/works/testa-di-vecchio-studio-berta-1891.md"
+    },
+    "work/testa-studio-melchioni-1891": {
+      "id": "work/testa-studio-melchioni-1891",
+      "uri": "urn:ahn:work/testa-studio-melchioni-1891",
+      "type": "work",
+      "label_ja": "アントニオ・メルキオーニ《Testa - Studio》",
+      "label_en": "Testa - Studio",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "作品の独立典拠IDと現所在は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年（1891年展カタログ521番）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/antonio-melchioni"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-13",
+      "path": "entities/works/testa-studio-melchioni-1891.md"
+    },
     "work/testa-tosi-1891": {
       "id": "work/testa-tosi-1891",
       "uri": "urn:ahn:work/testa-tosi-1891",
@@ -48500,6 +48944,42 @@
       "status": "draft",
       "updated": "2026-08-13",
       "path": "entities/works/tintoretto-figlia-defunta-stragliati-1891.md"
+    },
+    "work/toletta-bresca-1891": {
+      "id": "work/toletta-bresca-1891",
+      "uri": "urn:ahn:work/toletta-bresca-1891",
+      "type": "work",
+      "label_ja": "アルジェンティーナ・ブレスカ《Toletta》",
+      "label_en": "Toletta",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "作品の独立典拠IDと現所在は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年（1891年展カタログ514番）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/argentina-bresca"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-13",
+      "path": "entities/works/toletta-bresca-1891.md"
     },
     "work/tra-le-frondi-nani-1891": {
       "id": "work/tra-le-frondi-nani-1891",
@@ -52582,6 +53062,13 @@
       "source": null
     },
     {
+      "from": "person/antonio-melchioni",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "person/antonio-soldini",
       "type": "exhibited_at",
       "to": "event/first-brera-triennale-1891",
@@ -52597,6 +53084,13 @@
     },
     {
       "from": "person/argelia-butti",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "person/argentina-bresca",
       "type": "exhibited_at",
       "to": "event/first-brera-triennale-1891",
       "certainty": null,
@@ -52912,6 +53406,13 @@
       "from": "person/cesare-maggi",
       "type": "exhibited_at",
       "to": "event/salon-divisionnistes-italiens-paris-1907",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "person/cesare-spagliardi",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
       "certainty": null,
       "source": null
     },
@@ -54396,6 +54897,13 @@
       "source": null
     },
     {
+      "from": "person/napoleone-gradi",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "person/napoleone-nani",
       "type": "exhibited_at",
       "to": "event/first-brera-triennale-1891",
@@ -54525,6 +55033,13 @@
       "from": "person/pietro-fragiacomo",
       "type": "active_in",
       "to": "place/venice"
+    },
+    {
+      "from": "person/pietro-tetar-van-elven",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
     },
     {
       "from": "person/pietro-villani",
@@ -54743,6 +55258,13 @@
     },
     {
       "from": "person/serafino-ramazzotti",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "person/silvio-poma",
       "type": "exhibited_at",
       "to": "event/first-brera-triennale-1891",
       "certainty": null,
@@ -55869,6 +56391,20 @@
       "source": null
     },
     {
+      "from": "work/capolungo-nervi-tetar-van-elven-1891",
+      "type": "created_by",
+      "to": "person/pietro-tetar-van-elven",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/capolungo-nervi-tetar-van-elven-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "work/carica-militare-de-albertis-1891",
       "type": "created_by",
       "to": "person/sebastiano-de-albertis",
@@ -56633,6 +57169,20 @@
     },
     {
       "from": "work/diversi-studietti-fontana-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/dolce-abbandono-gradi-1891",
+      "type": "created_by",
+      "to": "person/napoleone-gradi",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/dolce-abbandono-gradi-1891",
       "type": "exhibited_at",
       "to": "event/first-brera-triennale-1891",
       "certainty": null,
@@ -58767,6 +59317,20 @@
       "source": null
     },
     {
+      "from": "work/interno-della-r-galleria-palatina-berta-1891",
+      "type": "created_by",
+      "to": "person/eduardo-berta",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/interno-della-r-galleria-palatina-berta-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "work/inverno-fragiacomo-1890",
       "type": "created_by",
       "to": "person/pietro-fragiacomo",
@@ -59671,6 +60235,20 @@
     },
     {
       "from": "work/lago-dalserio-cressini-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/lago-di-lecco-poma-1891",
+      "type": "created_by",
+      "to": "person/silvio-poma",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/lago-di-lecco-poma-1891",
       "type": "exhibited_at",
       "to": "event/first-brera-triennale-1891",
       "certainty": null,
@@ -63072,6 +63650,20 @@
       "source": null
     },
     {
+      "from": "work/ritratto-spagliardi-1891",
+      "type": "created_by",
+      "to": "person/cesare-spagliardi",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/ritratto-spagliardi-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "work/ritratto-stolberg-wernigerode-schott-1891",
       "type": "created_by",
       "to": "person/walter-schott",
@@ -64038,6 +64630,34 @@
       "source": null
     },
     {
+      "from": "work/testa-di-vecchio-studio-berta-1891",
+      "type": "created_by",
+      "to": "person/eduardo-berta",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/testa-di-vecchio-studio-berta-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/testa-studio-melchioni-1891",
+      "type": "created_by",
+      "to": "person/antonio-melchioni",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/testa-studio-melchioni-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "work/testa-tosi-1891",
       "type": "created_by",
       "to": "person/arturo-tosi",
@@ -64088,6 +64708,20 @@
     },
     {
       "from": "work/tintoretto-figlia-defunta-stragliati-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/toletta-bresca-1891",
+      "type": "created_by",
+      "to": "person/argentina-bresca",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/toletta-bresca-1891",
       "type": "exhibited_at",
       "to": "event/first-brera-triennale-1891",
       "certainty": null,
@@ -66142,6 +66776,12 @@
     {
       "from": "event/first-brera-triennale-1891",
       "type": "exhibited",
+      "to": "person/antonio-melchioni",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
       "to": "person/antonio-soldini",
       "derived": true
     },
@@ -66155,6 +66795,12 @@
       "from": "event/first-brera-triennale-1891",
       "type": "exhibited",
       "to": "person/argelia-butti",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "person/argentina-bresca",
       "derived": true
     },
     {
@@ -66419,6 +67065,12 @@
       "from": "event/salon-divisionnistes-italiens-paris-1907",
       "type": "exhibited",
       "to": "person/cesare-maggi",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "person/cesare-spagliardi",
       "derived": true
     },
     {
@@ -67624,6 +68276,12 @@
     {
       "from": "event/first-brera-triennale-1891",
       "type": "exhibited",
+      "to": "person/napoleone-gradi",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
       "to": "person/napoleone-nani",
       "derived": true
     },
@@ -67727,6 +68385,12 @@
       "from": "event/first-brera-triennale-1891",
       "type": "exhibited",
       "to": "person/pietro-fragiacomo",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "person/pietro-tetar-van-elven",
       "derived": true
     },
     {
@@ -67913,6 +68577,12 @@
       "from": "event/first-brera-triennale-1891",
       "type": "exhibited",
       "to": "person/serafino-ramazzotti",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "person/silvio-poma",
       "derived": true
     },
     {
@@ -68846,6 +69516,18 @@
       "derived": true
     },
     {
+      "from": "person/pietro-tetar-van-elven",
+      "type": "created",
+      "to": "work/capolungo-nervi-tetar-van-elven-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/capolungo-nervi-tetar-van-elven-1891",
+      "derived": true
+    },
+    {
       "from": "person/sebastiano-de-albertis",
       "type": "created",
       "to": "work/carica-militare-de-albertis-1891",
@@ -69503,6 +70185,18 @@
       "from": "event/first-brera-triennale-1891",
       "type": "exhibited",
       "to": "work/diversi-studietti-fontana-1891",
+      "derived": true
+    },
+    {
+      "from": "person/napoleone-gradi",
+      "type": "created",
+      "to": "work/dolce-abbandono-gradi-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/dolce-abbandono-gradi-1891",
       "derived": true
     },
     {
@@ -71330,6 +72024,18 @@
       "derived": true
     },
     {
+      "from": "person/eduardo-berta",
+      "type": "created",
+      "to": "work/interno-della-r-galleria-palatina-berta-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/interno-della-r-galleria-palatina-berta-1891",
+      "derived": true
+    },
+    {
       "from": "person/pietro-fragiacomo",
       "type": "created",
       "to": "work/inverno-fragiacomo-1890",
@@ -72107,6 +72813,18 @@
       "from": "event/first-brera-triennale-1891",
       "type": "exhibited",
       "to": "work/lago-dalserio-cressini-1891",
+      "derived": true
+    },
+    {
+      "from": "person/silvio-poma",
+      "type": "created",
+      "to": "work/lago-di-lecco-poma-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/lago-di-lecco-poma-1891",
       "derived": true
     },
     {
@@ -75020,6 +75738,18 @@
       "derived": true
     },
     {
+      "from": "person/cesare-spagliardi",
+      "type": "created",
+      "to": "work/ritratto-spagliardi-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/ritratto-spagliardi-1891",
+      "derived": true
+    },
+    {
       "from": "person/walter-schott",
       "type": "created",
       "to": "work/ritratto-stolberg-wernigerode-schott-1891",
@@ -75848,6 +76578,30 @@
       "derived": true
     },
     {
+      "from": "person/eduardo-berta",
+      "type": "created",
+      "to": "work/testa-di-vecchio-studio-berta-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/testa-di-vecchio-studio-berta-1891",
+      "derived": true
+    },
+    {
+      "from": "person/antonio-melchioni",
+      "type": "created",
+      "to": "work/testa-studio-melchioni-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/testa-studio-melchioni-1891",
+      "derived": true
+    },
+    {
       "from": "person/arturo-tosi",
       "type": "created",
       "to": "work/testa-tosi-1891",
@@ -75893,6 +76647,18 @@
       "from": "event/first-brera-triennale-1891",
       "type": "exhibited",
       "to": "work/tintoretto-figlia-defunta-stragliati-1891",
+      "derived": true
+    },
+    {
+      "from": "person/argentina-bresca",
+      "type": "created",
+      "to": "work/toletta-bresca-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/toletta-bresca-1891",
       "derived": true
     },
     {
