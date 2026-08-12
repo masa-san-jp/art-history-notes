@@ -1839,6 +1839,12 @@
         {
           "type": "created_by",
           "target": "org/igun-eronmwon"
+        },
+        {
+          "type": "influenced_by",
+          "target": "movement/ife-art",
+          "certainty": "hypothesis",
+          "source": "https://www.metmuseum.org/fr/essays/origins-and-empire-the-benin-owo-and-ijebu-kingdoms"
         }
       ],
       "sources": [
@@ -22614,6 +22620,13 @@
     },
     {
       "from": "movement/benin-court-art",
+      "type": "influenced_by",
+      "to": "movement/ife-art",
+      "certainty": "hypothesis",
+      "source": "https://www.metmuseum.org/fr/essays/origins-and-empire-the-benin-owo-and-ijebu-kingdoms"
+    },
+    {
+      "from": "movement/benin-court-art",
       "type": "originated_in",
       "to": "place/benin-city"
     },
@@ -27821,6 +27834,12 @@
     {
       "from": "org/igun-eronmwon",
       "type": "created",
+      "to": "movement/benin-court-art",
+      "derived": true
+    },
+    {
+      "from": "movement/ife-art",
+      "type": "influenced",
       "to": "movement/benin-court-art",
       "derived": true
     },
