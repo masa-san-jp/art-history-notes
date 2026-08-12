@@ -27,6 +27,7 @@ claims:
   - {field: originated_in, source: "https://nihonbijutsuin.or.jp/his_tenshsin.php", certainty: scholarly}
 space:
   - {role: originated_in, target: place/tokyo}
+  - {role: active_in, target: place/kyoto}
 relations:
   - {type: influenced_by, target: movement/yamato-e, certainty: scholarly, source: "https://www.yamatane-museum.jp/en/nihonga/"}
 images:
@@ -42,6 +43,7 @@ sources:
   - https://nihonbijutsuin.or.jp/his_tenshsin.php
   - https://www.wikidata.org/wiki/Q4346814
   - https://amis-musee-cernuschi.org/en/les-liens-artistiques-et-culturels-entre-linde-et-le-japon-vers-1890-1940-2/
+  - https://kyoto-museums.city.kyoto.lg.jp/feature-column/painting/
 status: draft
 updated: 2026-08-10
 ---
@@ -117,7 +119,10 @@ and gradients: this style is called *Morotai*" と説明する
 制度化の場（東京美術学校・日本美術院）も東京である。
 
 **未確認**: 京都には円山四条派の系譜を引く別の展開があり、東京だけを発生地とすることが
-適切かどうかは、京都側の一次資料に当たっていない。
+適切かどうかは、京都側の一次資料に当たっていない。京都市の博物館協会は、明治期の京都府画学校と
+竹内栖鳳・上村松園らの京都画壇を近代日本画の展開として説明している（[「日本画の都・京都」](https://kyoto-museums.city.kyoto.lg.jp/feature-column/painting/)）。
+したがって、東京を語の成立・制度化の中心である `originated_in` としつつ、京都を近代日本画が活動した
+主要地として `active_in` に加える。これは京都側を東京の下位系譜とみなすことではない。
 
 ## 外へ出た手つき — 同じ技法が2つの方向へ渡った
 
@@ -146,6 +151,6 @@ and gradients: this style is called *Morotai*" と説明する
   本文の記述に留めた
 - 「朦朧体」を `concept` として立てるかどうか。インドと中国へ渡ったのはこの技法そのものであり、
   2つの関係が共有する実体になっている
-- 京都（円山四条派の系譜・竹内栖鳳ら）の展開と、東京を発生地とすることの妥当性
+- 京都側（円山四条派の系譜・竹内栖鳳ら）の個別担い手・制度の整理と、東京を発生地とすることの妥当性
 - Japan Search・Web NDL Authorities の典拠ID（2026-08-10 時点で本KBは両者の正しい呼び方を
   確認できていない）

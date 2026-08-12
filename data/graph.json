@@ -6166,6 +6166,10 @@
         {
           "role": "originated_in",
           "target": "place/tokyo"
+        },
+        {
+          "role": "active_in",
+          "target": "place/kyoto"
         }
       ],
       "relations": [
@@ -6191,7 +6195,8 @@
         "http://museums.toyamaken.jp/documents/documents007/",
         "https://nihonbijutsuin.or.jp/his_tenshsin.php",
         "https://www.wikidata.org/wiki/Q4346814",
-        "https://amis-musee-cernuschi.org/en/les-liens-artistiques-et-culturels-entre-linde-et-le-japon-vers-1890-1940-2/"
+        "https://amis-musee-cernuschi.org/en/les-liens-artistiques-et-culturels-entre-linde-et-le-japon-vers-1890-1940-2/",
+        "https://kyoto-museums.city.kyoto.lg.jp/feature-column/painting/"
       ],
       "status": "draft",
       "updated": "2026-08-10",
@@ -57234,6 +57239,11 @@
       "from": "movement/nihonga",
       "type": "originated_in",
       "to": "place/tokyo"
+    },
+    {
+      "from": "movement/nihonga",
+      "type": "active_in",
+      "to": "place/kyoto"
     },
     {
       "from": "movement/nok-sculpture",
