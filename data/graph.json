@@ -10718,6 +10718,41 @@
       "updated": "2026-08-09",
       "path": "entities/persons/ferreira-gullar.md"
     },
+    "person/ferruccio-crespi": {
+      "id": "person/ferruccio-crespi",
+      "uri": "urn:ahn:person/ferruccio-crespi",
+      "type": "person",
+      "label_ja": "フェッルッチョ・クレスピ",
+      "label_en": "Ferruccio Crespi",
+      "authority": {
+        "wikidata": null,
+        "ulan": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "独立した人物典拠IDは未確認。ロンバルディア文化財カタログ、Dizionario d'Arte Sartori、1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": "1857",
+        "end": "1891",
+        "display": "1857年ブスト・アルシーツィオ生まれ — 1891年没"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://www.catalogo.beniculturali.it/detail/Lombardia/HistoricOrArtisticProperty/0302118910",
+        "https://www.galleriarecta.it/autore/crespi-ferruccio/",
+        "https://dizionariodartesartori.it/artisti/crespi-ferruccio",
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/persons/ferruccio-crespi.md"
+    },
     "person/filiberto-minozzi": {
       "id": "person/filiberto-minozzi",
       "uri": "urn:ahn:person/filiberto-minozzi",
@@ -10790,6 +10825,41 @@
       "status": "draft",
       "updated": "2026-08-12",
       "path": "entities/persons/filippo-carcano.md"
+    },
+    "person/filippo-cifariello": {
+      "id": "person/filippo-cifariello",
+      "uri": "urn:ahn:person/filippo-cifariello",
+      "type": "person",
+      "label_ja": "フィリッポ・チファリエッロ",
+      "label_en": "Filippo Cifariello",
+      "authority": {
+        "wikidata": null,
+        "ulan": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "独立した人物典拠IDは未確認。Treccani、Museo Borgogna、1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": "1864-07-03",
+        "end": "1936-04-05",
+        "display": "1864年7月3日モルフェッタ生まれ — 1936年4月5日ナポリ没"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://www.treccani.it/enciclopedia/filippo-antonio-cifariello_%28Dizionario-Biografico%29/",
+        "https://www.museoborgogna.it/opere/filippo-cifariello/",
+        "https://catalogo.fondazionezeri.unibo.it/scheda/opera/83512/Cifariello%20Filippo%20Antonio%2C%20Figura%20femminile",
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/persons/filippo-cifariello.md"
     },
     "person/filippo-tommaso-marinetti": {
       "id": "person/filippo-tommaso-marinetti",
@@ -17408,6 +17478,44 @@
       "status": "draft",
       "updated": "2026-08-12",
       "path": "entities/works/disegni-acquarelli-mentessi-1891.md"
+    },
+    "work/dopo-il-ballo-cifariello-1891": {
+      "id": "work/dopo-il-ballo-cifariello-1891",
+      "uri": "urn:ahn:work/dopo-il-ballo-cifariello-1891",
+      "type": "work",
+      "label_ja": "フィリッポ・チファリエッロ《Dopo il ballo》",
+      "label_en": "Dopo il ballo",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "1891年展出品作としての独立典拠IDと現所在は未確認。公式カタログ、ゼーリ財団記録、人物典拠を用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年展出品"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/filippo-cifariello"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://catalogo.fondazionezeri.unibo.it/scheda/opera/83512/Cifariello%20Filippo%20Antonio%2C%20Figura%20femminile",
+        "https://www.treccani.it/enciclopedia/filippo-cifariello_%28Dizionario-Biografico%29/",
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/works/dopo-il-ballo-cifariello-1891.md"
     },
     "work/dromadaire-magrini-1907": {
       "id": "work/dromadaire-magrini-1907",
@@ -24094,6 +24202,44 @@
       "updated": "2026-08-12",
       "path": "entities/works/ritratto-costume-albanese-rastellini-1891.md"
     },
+    "work/ritratto-crespi-1891": {
+      "id": "work/ritratto-crespi-1891",
+      "uri": "urn:ahn:work/ritratto-crespi-1891",
+      "type": "work",
+      "label_ja": "フェッルッチョ・クレスピ《Ritratto》",
+      "label_en": "Ritratto",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "1891年展出品作としての独立典拠IDと現所在は未確認。公式カタログと人物典拠を用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年展出品"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/ferruccio-crespi"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://www.catalogo.beniculturali.it/detail/Lombardia/HistoricOrArtisticProperty/0302118910",
+        "https://www.galleriarecta.it/autore/crespi-ferruccio/",
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/works/ritratto-crespi-1891.md"
+    },
     "work/ritratto-di-giani-giuseppe-pellizza-1891": {
       "id": "work/ritratto-di-giani-giuseppe-pellizza-1891",
       "uri": "urn:ahn:work/ritratto-di-giani-giuseppe-pellizza-1891",
@@ -28097,6 +28243,13 @@
       "source": null
     },
     {
+      "from": "person/ferruccio-crespi",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "person/filiberto-minozzi",
       "type": "belongs_to",
       "to": "movement/italian-divisionism",
@@ -28112,6 +28265,13 @@
     },
     {
       "from": "person/filippo-carcano",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "person/filippo-cifariello",
       "type": "exhibited_at",
       "to": "event/first-brera-triennale-1891",
       "certainty": null,
@@ -29232,6 +29392,20 @@
     },
     {
       "from": "work/disegni-acquarelli-mentessi-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/dopo-il-ballo-cifariello-1891",
+      "type": "created_by",
+      "to": "person/filippo-cifariello",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/dopo-il-ballo-cifariello-1891",
       "type": "exhibited_at",
       "to": "event/first-brera-triennale-1891",
       "certainty": null,
@@ -31787,6 +31961,20 @@
     },
     {
       "from": "work/ritratto-costume-albanese-rastellini-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/ritratto-crespi-1891",
+      "type": "created_by",
+      "to": "person/ferruccio-crespi",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/ritratto-crespi-1891",
       "type": "exhibited_at",
       "to": "event/first-brera-triennale-1891",
       "certainty": null,
@@ -33773,6 +33961,12 @@
       "derived": true
     },
     {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "person/ferruccio-crespi",
+      "derived": true
+    },
+    {
       "from": "movement/italian-divisionism",
       "type": "has_member",
       "to": "person/filiberto-minozzi",
@@ -33788,6 +33982,12 @@
       "from": "event/first-brera-triennale-1891",
       "type": "exhibited",
       "to": "person/filippo-carcano",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "person/filippo-cifariello",
       "derived": true
     },
     {
@@ -34658,6 +34858,18 @@
       "from": "event/first-brera-triennale-1891",
       "type": "exhibited",
       "to": "work/disegni-acquarelli-mentessi-1891",
+      "derived": true
+    },
+    {
+      "from": "person/filippo-cifariello",
+      "type": "created",
+      "to": "work/dopo-il-ballo-cifariello-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/dopo-il-ballo-cifariello-1891",
       "derived": true
     },
     {
@@ -36848,6 +37060,18 @@
       "from": "event/first-brera-triennale-1891",
       "type": "exhibited",
       "to": "work/ritratto-costume-albanese-rastellini-1891",
+      "derived": true
+    },
+    {
+      "from": "person/ferruccio-crespi",
+      "type": "created",
+      "to": "work/ritratto-crespi-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/ritratto-crespi-1891",
       "derived": true
     },
     {
