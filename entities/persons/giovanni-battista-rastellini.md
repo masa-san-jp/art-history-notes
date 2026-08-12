@@ -34,5 +34,5 @@ updated: 2026-08-12
 作品の作者表記には「Rastellini Giovan Battista?」という帰属の留保を付けている。
 
 1891年の公式カタログでは、「Rastellini Giovan Battista di Buttogno」としてPortico B R-C Cの572番に
-「In Val d'Intelvi」を出品したことが確認できる。作品固有の典拠と帰属を追加確認できるまで、
-この出品番号は人物側の記録に留め、workエンティティ化は保留する。
+「In Val d'Intelvi」を出品したことが確認できる。出品記録は[`作品エンティティ`](../works/in-val-d-intelvi-rastellini-1891.md)に分離したが、
+行政文化財記録が同人の作者帰属に「?」を付けているため、本項ではカタログ上の出品者表記と作品の確定作者を同一視しない。
