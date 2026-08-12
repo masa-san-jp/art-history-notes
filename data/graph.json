@@ -10929,6 +10929,41 @@
       "updated": "2026-08-12",
       "path": "entities/persons/bortolo-ravanello.md"
     },
+    "person/carlo-agazzi": {
+      "id": "person/carlo-agazzi",
+      "uri": "urn:ahn:person/carlo-agazzi",
+      "type": "person",
+      "label_ja": "カルロ・アガッツィ",
+      "label_en": "Carlo Agazzi",
+      "aliases": [
+        "Agazzi Carlo"
+      ],
+      "authority": {
+        "wikidata": null,
+        "ulan": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "独立した人物典拠IDと生没年は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": null,
+        "end": null,
+        "display": "19世紀末にミラノ出身者として活動"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/persons/carlo-agazzi.md"
+    },
     "person/carlo-bugatti": {
       "id": "person/carlo-bugatti",
       "uri": "urn:ahn:person/carlo-bugatti",
@@ -11109,6 +11144,41 @@
       "status": "draft",
       "updated": "2026-08-12",
       "path": "entities/persons/carlo-fossati.md"
+    },
+    "person/carlo-grossi": {
+      "id": "person/carlo-grossi",
+      "uri": "urn:ahn:person/carlo-grossi",
+      "type": "person",
+      "label_ja": "カルロ・グロッシ",
+      "label_en": "Carlo Grossi",
+      "aliases": [
+        "Grossi Carlo"
+      ],
+      "authority": {
+        "wikidata": null,
+        "ulan": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "独立した人物典拠IDと生没年は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": null,
+        "end": null,
+        "display": "19世紀末にカルピ（モデナ）出身者として活動"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/persons/carlo-grossi.md"
     },
     "person/carlo-manziana": {
       "id": "person/carlo-manziana",
@@ -11313,6 +11383,41 @@
       "status": "draft",
       "updated": "2026-08-12",
       "path": "entities/persons/cesare-bertolotti.md"
+    },
+    "person/cesare-calchi-novati": {
+      "id": "person/cesare-calchi-novati",
+      "uri": "urn:ahn:person/cesare-calchi-novati",
+      "type": "person",
+      "label_ja": "チェーザレ・カルキ・ノヴァーティ",
+      "label_en": "Cesare Calchi Novati",
+      "aliases": [
+        "Calchi Novati Cesare"
+      ],
+      "authority": {
+        "wikidata": null,
+        "ulan": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "独立した人物典拠IDと生没年は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": null,
+        "end": null,
+        "display": "19世紀末にミラノ出身者として活動"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/persons/cesare-calchi-novati.md"
     },
     "person/cesare-laurenti": {
       "id": "person/cesare-laurenti",
@@ -11762,6 +11867,41 @@
       "status": "draft",
       "updated": "2026-08-12",
       "path": "entities/persons/edouard-menta.md"
+    },
+    "person/eduardo-marchionni": {
+      "id": "person/eduardo-marchionni",
+      "uri": "urn:ahn:person/eduardo-marchionni",
+      "type": "person",
+      "label_ja": "エドゥアルド・マルキオンニ",
+      "label_en": "Eduardo Marchionni",
+      "aliases": [
+        "Marchionni Eduardo"
+      ],
+      "authority": {
+        "wikidata": null,
+        "ulan": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "独立した人物典拠IDと生没年は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": null,
+        "end": null,
+        "display": "19世紀末にフィレンツェ出身者として活動"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/persons/eduardo-marchionni.md"
     },
     "person/egisto-lancerotto": {
       "id": "person/egisto-lancerotto",
@@ -12603,6 +12743,41 @@
       "status": "draft",
       "updated": "2026-08-12",
       "path": "entities/persons/eugenio-prati.md"
+    },
+    "person/eugenio-ravioli": {
+      "id": "person/eugenio-ravioli",
+      "uri": "urn:ahn:person/eugenio-ravioli",
+      "type": "person",
+      "label_ja": "エウジェニオ・ラヴィオーリ",
+      "label_en": "Eugenio Ravioli",
+      "aliases": [
+        "Ravioli Eugenio"
+      ],
+      "authority": {
+        "wikidata": null,
+        "ulan": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "独立した人物典拠IDと生没年は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": null,
+        "end": null,
+        "display": "19世紀末にローマ出身者として活動"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/persons/eugenio-ravioli.md"
     },
     "person/eugenio-spreafico": {
       "id": "person/eugenio-spreafico",
@@ -13533,6 +13708,41 @@
       "status": "draft",
       "updated": "2026-08-12",
       "path": "entities/persons/gian-maria-rastellini.md"
+    },
+    "person/gioachino-galbusera": {
+      "id": "person/gioachino-galbusera",
+      "uri": "urn:ahn:person/gioachino-galbusera",
+      "type": "person",
+      "label_ja": "ジョアッキーノ・ガルブセラ",
+      "label_en": "Gioachino Galbusera",
+      "aliases": [
+        "Galbusera Gioachino"
+      ],
+      "authority": {
+        "wikidata": null,
+        "ulan": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "独立した人物典拠IDと生没年は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": null,
+        "end": null,
+        "display": "19世紀末にミラノ出身者として活動"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/persons/gioachino-galbusera.md"
     },
     "person/giorgio-belloni": {
       "id": "person/giorgio-belloni",
@@ -22782,6 +22992,42 @@
       "updated": "2026-08-12",
       "path": "entities/works/crepuscule-fornara-1907.md"
     },
+    "work/crisantemi-cattaneo-1891": {
+      "id": "work/crisantemi-cattaneo-1891",
+      "uri": "urn:ahn:work/crisantemi-cattaneo-1891",
+      "type": "work",
+      "label_ja": "マリア・カッタネオ・ミキス《Crisantemi (Fiori)》",
+      "label_en": "Crisantemi (Fiori)",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "作品の独立典拠IDと現所在は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年（1891年展カタログ263番）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/maria-cattaneo-michis"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/works/crisantemi-cattaneo-1891.md"
+    },
     "work/d-apres-une-legende-des-alpes-fornara-1907": {
       "id": "work/d-apres-une-legende-des-alpes-fornara-1907",
       "uri": "urn:ahn:work/d-apres-une-legende-des-alpes-fornara-1907",
@@ -24301,6 +24547,78 @@
       "updated": "2026-08-12",
       "path": "entities/works/finalmente-dorme-ghidoni-1891.md"
     },
+    "work/fiori-agazzi-1891": {
+      "id": "work/fiori-agazzi-1891",
+      "uri": "urn:ahn:work/fiori-agazzi-1891",
+      "type": "work",
+      "label_ja": "カルロ・アガッツィ《Fiori》",
+      "label_en": "Fiori",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "作品の独立典拠IDと現所在は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年（1891年展カタログ267番）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/carlo-agazzi"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/works/fiori-agazzi-1891.md"
+    },
+    "work/fiori-calchi-novati-1891": {
+      "id": "work/fiori-calchi-novati-1891",
+      "uri": "urn:ahn:work/fiori-calchi-novati-1891",
+      "type": "work",
+      "label_ja": "チェーザレ・カルキ・ノヴァーティ《Fiori》",
+      "label_en": "Fiori",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "作品の独立典拠IDと現所在は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年（1891年展カタログ261番）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/cesare-calchi-novati"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/works/fiori-calchi-novati-1891.md"
+    },
     "work/fiori-cattaneo-1891": {
       "id": "work/fiori-cattaneo-1891",
       "uri": "urn:ahn:work/fiori-cattaneo-1891",
@@ -24372,6 +24690,222 @@
       "status": "draft",
       "updated": "2026-08-12",
       "path": "entities/works/fiori-e-frutta-lucchesi-1891.md"
+    },
+    "work/fiori-galbusera-1891": {
+      "id": "work/fiori-galbusera-1891",
+      "uri": "urn:ahn:work/fiori-galbusera-1891",
+      "type": "work",
+      "label_ja": "ジョアッキーノ・ガルブセラ《Fiori》",
+      "label_en": "Fiori",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "作品の独立典拠IDと現所在は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年（1891年展カタログ266番）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/gioachino-galbusera"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/works/fiori-galbusera-1891.md"
+    },
+    "work/fiori-grossi-1891": {
+      "id": "work/fiori-grossi-1891",
+      "uri": "urn:ahn:work/fiori-grossi-1891",
+      "type": "work",
+      "label_ja": "カルロ・グロッシ《Fiori》",
+      "label_en": "Fiori",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "作品の独立典拠IDと現所在は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年（1891年展カタログ265番）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/carlo-grossi"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/works/fiori-grossi-1891.md"
+    },
+    "work/fiori-marchionni-1891-no269": {
+      "id": "work/fiori-marchionni-1891-no269",
+      "uri": "urn:ahn:work/fiori-marchionni-1891-no269",
+      "type": "work",
+      "label_ja": "エドゥアルド・マルキオンニ《Fiori》",
+      "label_en": "Fiori",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "作品の独立典拠IDと現所在は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年（1891年展カタログ269番）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/eduardo-marchionni"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/works/fiori-marchionni-1891-no269.md"
+    },
+    "work/fiori-marchionni-1891-no270": {
+      "id": "work/fiori-marchionni-1891-no270",
+      "uri": "urn:ahn:work/fiori-marchionni-1891-no270",
+      "type": "work",
+      "label_ja": "エドゥアルド・マルキオンニ《Fiori》",
+      "label_en": "Fiori",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "作品の独立典拠IDと現所在は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年（1891年展カタログ270番）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/eduardo-marchionni"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/works/fiori-marchionni-1891-no270.md"
+    },
+    "work/fiori-ravioli-1891-no264": {
+      "id": "work/fiori-ravioli-1891-no264",
+      "uri": "urn:ahn:work/fiori-ravioli-1891-no264",
+      "type": "work",
+      "label_ja": "エウジェニオ・ラヴィオーリ《Fiori》",
+      "label_en": "Fiori",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "作品の独立典拠IDと現所在は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年（1891年展カタログ264番）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/eugenio-ravioli"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/works/fiori-ravioli-1891-no264.md"
+    },
+    "work/fiori-ravioli-1891-no268": {
+      "id": "work/fiori-ravioli-1891-no268",
+      "uri": "urn:ahn:work/fiori-ravioli-1891-no268",
+      "type": "work",
+      "label_ja": "エウジェニオ・ラヴィオーリ《Fiori》",
+      "label_en": "Fiori",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "作品の独立典拠IDと現所在は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年（1891年展カタログ268番）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/eugenio-ravioli"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/works/fiori-ravioli-1891-no268.md"
     },
     "work/fleurs-previati-1907": {
       "id": "work/fleurs-previati-1907",
@@ -24742,6 +25276,42 @@
       "status": "draft",
       "updated": "2026-08-12",
       "path": "entities/works/fuori-di-porta-sottocornola-1891.md"
+    },
+    "work/garofani-calchi-novati-1891": {
+      "id": "work/garofani-calchi-novati-1891",
+      "uri": "urn:ahn:work/garofani-calchi-novati-1891",
+      "type": "work",
+      "label_ja": "チェーザレ・カルキ・ノヴァーティ《Garofani》",
+      "label_en": "Garofani",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "作品の独立典拠IDと現所在は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年（1891年展カタログ262番）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/cesare-calchi-novati"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/works/garofani-calchi-novati-1891.md"
     },
     "work/georgique-previati-1907": {
       "id": "work/georgique-previati-1907",
@@ -39993,6 +40563,13 @@
       "source": null
     },
     {
+      "from": "person/carlo-agazzi",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "person/carlo-bugatti",
       "type": "exhibited_at",
       "to": "event/salon-divisionnistes-italiens-paris-1907",
@@ -40042,6 +40619,13 @@
       "source": null
     },
     {
+      "from": "person/carlo-grossi",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "person/carlo-manziana",
       "type": "exhibited_at",
       "to": "event/first-brera-triennale-1891",
@@ -40085,6 +40669,13 @@
     },
     {
       "from": "person/cesare-bertolotti",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "person/cesare-calchi-novati",
       "type": "exhibited_at",
       "to": "event/first-brera-triennale-1891",
       "certainty": null,
@@ -40179,6 +40770,13 @@
     },
     {
       "from": "person/edouard-menta",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "person/eduardo-marchionni",
       "type": "exhibited_at",
       "to": "event/first-brera-triennale-1891",
       "certainty": null,
@@ -40371,6 +40969,13 @@
     },
     {
       "from": "person/eugenio-prati",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "person/eugenio-ravioli",
       "type": "exhibited_at",
       "to": "event/first-brera-triennale-1891",
       "certainty": null,
@@ -40589,6 +41194,13 @@
     },
     {
       "from": "person/gian-maria-rastellini",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "person/gioachino-galbusera",
       "type": "exhibited_at",
       "to": "event/first-brera-triennale-1891",
       "certainty": null,
@@ -42379,6 +42991,20 @@
       "source": null
     },
     {
+      "from": "work/crisantemi-cattaneo-1891",
+      "type": "created_by",
+      "to": "person/maria-cattaneo-michis",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/crisantemi-cattaneo-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "work/d-apres-une-legende-des-alpes-fornara-1907",
       "type": "created_by",
       "to": "person/carlo-fornara",
@@ -42953,6 +43579,34 @@
       "source": null
     },
     {
+      "from": "work/fiori-agazzi-1891",
+      "type": "created_by",
+      "to": "person/carlo-agazzi",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/fiori-agazzi-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/fiori-calchi-novati-1891",
+      "type": "created_by",
+      "to": "person/cesare-calchi-novati",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/fiori-calchi-novati-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "work/fiori-cattaneo-1891",
       "type": "created_by",
       "to": "person/maria-cattaneo-michis",
@@ -42975,6 +43629,90 @@
     },
     {
       "from": "work/fiori-e-frutta-lucchesi-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/fiori-galbusera-1891",
+      "type": "created_by",
+      "to": "person/gioachino-galbusera",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/fiori-galbusera-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/fiori-grossi-1891",
+      "type": "created_by",
+      "to": "person/carlo-grossi",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/fiori-grossi-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/fiori-marchionni-1891-no269",
+      "type": "created_by",
+      "to": "person/eduardo-marchionni",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/fiori-marchionni-1891-no269",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/fiori-marchionni-1891-no270",
+      "type": "created_by",
+      "to": "person/eduardo-marchionni",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/fiori-marchionni-1891-no270",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/fiori-ravioli-1891-no264",
+      "type": "created_by",
+      "to": "person/eugenio-ravioli",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/fiori-ravioli-1891-no264",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/fiori-ravioli-1891-no268",
+      "type": "created_by",
+      "to": "person/eugenio-ravioli",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/fiori-ravioli-1891-no268",
       "type": "exhibited_at",
       "to": "event/first-brera-triennale-1891",
       "certainty": null,
@@ -43115,6 +43853,20 @@
     },
     {
       "from": "work/fuori-di-porta-sottocornola-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/garofani-calchi-novati-1891",
+      "type": "created_by",
+      "to": "person/cesare-calchi-novati",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/garofani-calchi-novati-1891",
       "type": "exhibited_at",
       "to": "event/first-brera-triennale-1891",
       "certainty": null,
@@ -49448,6 +50200,12 @@
       "derived": true
     },
     {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "person/carlo-agazzi",
+      "derived": true
+    },
+    {
       "from": "event/salon-divisionnistes-italiens-paris-1907",
       "type": "exhibited",
       "to": "person/carlo-bugatti",
@@ -49492,6 +50250,12 @@
     {
       "from": "event/first-brera-triennale-1891",
       "type": "exhibited",
+      "to": "person/carlo-grossi",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
       "to": "person/carlo-manziana",
       "derived": true
     },
@@ -49529,6 +50293,12 @@
       "from": "event/first-brera-triennale-1891",
       "type": "exhibited",
       "to": "person/cesare-bertolotti",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "person/cesare-calchi-novati",
       "derived": true
     },
     {
@@ -49601,6 +50371,12 @@
       "from": "event/first-brera-triennale-1891",
       "type": "exhibited",
       "to": "person/edouard-menta",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "person/eduardo-marchionni",
       "derived": true
     },
     {
@@ -49757,6 +50533,12 @@
       "from": "event/first-brera-triennale-1891",
       "type": "exhibited",
       "to": "person/eugenio-prati",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "person/eugenio-ravioli",
       "derived": true
     },
     {
@@ -49931,6 +50713,12 @@
       "from": "event/first-brera-triennale-1891",
       "type": "exhibited",
       "to": "person/gian-maria-rastellini",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "person/gioachino-galbusera",
       "derived": true
     },
     {
@@ -51386,6 +52174,18 @@
       "derived": true
     },
     {
+      "from": "person/maria-cattaneo-michis",
+      "type": "created",
+      "to": "work/crisantemi-cattaneo-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/crisantemi-cattaneo-1891",
+      "derived": true
+    },
+    {
       "from": "person/carlo-fornara",
       "type": "created",
       "to": "work/d-apres-une-legende-des-alpes-fornara-1907",
@@ -51878,6 +52678,30 @@
       "derived": true
     },
     {
+      "from": "person/carlo-agazzi",
+      "type": "created",
+      "to": "work/fiori-agazzi-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/fiori-agazzi-1891",
+      "derived": true
+    },
+    {
+      "from": "person/cesare-calchi-novati",
+      "type": "created",
+      "to": "work/fiori-calchi-novati-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/fiori-calchi-novati-1891",
+      "derived": true
+    },
+    {
       "from": "person/maria-cattaneo-michis",
       "type": "created",
       "to": "work/fiori-cattaneo-1891",
@@ -51899,6 +52723,78 @@
       "from": "event/first-brera-triennale-1891",
       "type": "exhibited",
       "to": "work/fiori-e-frutta-lucchesi-1891",
+      "derived": true
+    },
+    {
+      "from": "person/gioachino-galbusera",
+      "type": "created",
+      "to": "work/fiori-galbusera-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/fiori-galbusera-1891",
+      "derived": true
+    },
+    {
+      "from": "person/carlo-grossi",
+      "type": "created",
+      "to": "work/fiori-grossi-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/fiori-grossi-1891",
+      "derived": true
+    },
+    {
+      "from": "person/eduardo-marchionni",
+      "type": "created",
+      "to": "work/fiori-marchionni-1891-no269",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/fiori-marchionni-1891-no269",
+      "derived": true
+    },
+    {
+      "from": "person/eduardo-marchionni",
+      "type": "created",
+      "to": "work/fiori-marchionni-1891-no270",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/fiori-marchionni-1891-no270",
+      "derived": true
+    },
+    {
+      "from": "person/eugenio-ravioli",
+      "type": "created",
+      "to": "work/fiori-ravioli-1891-no264",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/fiori-ravioli-1891-no264",
+      "derived": true
+    },
+    {
+      "from": "person/eugenio-ravioli",
+      "type": "created",
+      "to": "work/fiori-ravioli-1891-no268",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/fiori-ravioli-1891-no268",
       "derived": true
     },
     {
@@ -52019,6 +52915,18 @@
       "from": "event/first-brera-triennale-1891",
       "type": "exhibited",
       "to": "work/fuori-di-porta-sottocornola-1891",
+      "derived": true
+    },
+    {
+      "from": "person/cesare-calchi-novati",
+      "type": "created",
+      "to": "work/garofani-calchi-novati-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/garofani-calchi-novati-1891",
       "derived": true
     },
     {
