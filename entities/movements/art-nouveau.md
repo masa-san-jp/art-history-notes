@@ -30,12 +30,14 @@ space:
 relations:
   - {type: influenced_by, target: movement/utagawa-school, certainty: scholarly, source: "https://www.metmuseum.org/ja/essays/art-nouveau"}
   - {type: influenced_by, target: movement/arts-and-crafts, certainty: scholarly, source: "https://www.metmuseum.org/es/essays/nineteenth-century-european-textile-production"}
+  - {type: influenced_by, target: movement/rinpa, certainty: scholarly, source: "https://www.ndl.go.jp/kaleido/entry/20/3.html"}
 sources:
   - https://www.wikidata.org/wiki/Q34636
   - https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300021430
   - https://www.vam.ac.uk/articles/art-nouveau-an-international-style
   - https://www.metmuseum.org/ja/essays/art-nouveau
   - https://www.metmuseum.org/es/essays/nineteenth-century-european-textile-production
+  - https://www.ndl.go.jp/kaleido/entry/20/3.html
 status: draft
 updated: 2026-08-12
 ---
@@ -65,6 +67,14 @@ Jugendstil、Secession、Modernismeなどの地域名を同一視せず、必要
 発展に特に重要だったと説明する。ここでの `influenced_by` は、アール・ヌーヴォーが英国運動と同一だったと
 いう意味ではなく、モリスらが復興した手仕事・織物・装飾デザインの考えと実作が、19世紀末から20世紀初頭の
 国際的な装飾様式の形成へ入った経路を記録する。
+
+## 琳派との関係
+
+国立国会図書館は、光琳の図案集などがジャポニスムの流行する欧州で参照され、琳派の装飾性が西洋の
+「新デザイン」すなわちアール・ヌーヴォーへつながったと説明している。ここでの `influenced_by` は、
+琳派が欧州の運動を直接組織したという意味ではなく、図案集・展覧会・日本美術商の活動を介して、琳派の
+植物文様・平面性・装飾的構成がアール・ヌーヴォーの形成に入った受容経路を記録する。歌川派を介した
+浮世絵一般の経路とは別に、光琳図案を中心とする琳派固有の経路として置く。
 
 ## 未着手
 
