@@ -1,9 +1,9 @@
 ---
-id: work/macchiette-d-amici-conconi-1891
-uri: urn:ahn:work/macchiette-d-amici-conconi-1891
+id: work/ritratto-di-signora-conconi-1891
+uri: urn:ahn:work/ritratto-di-signora-conconi-1891
 type: work
-label_ja: ルイージ・コンコーニ《Macchiette d’amici》
-label_en: Macchiette d’amici
+label_ja: ルイージ・コンコーニ《Ritratto di Signora》
+label_en: Ritratto di Signora
 authority:
   wikidata: null
   aat: null
@@ -24,8 +24,9 @@ status: draft
 updated: 2026-08-12
 ---
 
-# ルイージ・コンコーニ《Macchiette d’amici》
+# ルイージ・コンコーニ《Ritratto di Signora》
 
 1891年の第一回ブレラ三年展公式カタログは、ルイージ・コンコーニを「Conconi Luigi di Milano」として、
-327番に「Macchiette d’amici」と掲載する。索引も同人の出品番号を46・317・327と記録する。
-作品固有の制作年、現所在、独立した典拠IDは未確認のため、ここでは展覧会カタログ上の出品記録だけを保持する。
+326番に「Ritratto di Signora」と掲載する。索引は同人の出品番号を46・317・327と記録しており、本文の326番との
+食い違いは未解決である。作品固有の制作年、現所在、独立した典拠IDは未確認のため、ここでは展覧会カタログ上の
+出品記録だけを保持する。
