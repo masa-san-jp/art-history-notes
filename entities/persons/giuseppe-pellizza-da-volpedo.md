@@ -41,6 +41,8 @@ updated: 2026-08-12
 [`《Ritratto di mia mamma》`](../works/ritratto-di-mia-mamma-pellizza-1891.md)
 として作品記録に分離した。
 
+父の肖像[`《Ritratto di mio papà》`](../works/ritratto-di-mio-papa-pellizza-1891.md)も、作者団体資料が1891年展への出品を確認している。
+
 - 384《Ritratto di Giani Giuseppe mediatore》
 - 440《Pensieri》
 - 557《Ritratto di mia mamma》
