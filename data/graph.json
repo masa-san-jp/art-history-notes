@@ -4929,6 +4929,10 @@
         {
           "role": "originated_in",
           "target": "place/guangzhou"
+        },
+        {
+          "role": "active_in",
+          "target": "place/tokyo"
         }
       ],
       "relations": [
@@ -4936,7 +4940,7 @@
           "type": "influenced_by",
           "target": "movement/nihonga",
           "certainty": "scholarly",
-          "source": "https://en.wikipedia.org/wiki/Gao_Jianfu"
+          "source": "https://www.tnm.jp/modules/r_free_page/index.php?id=1544&lang=ja"
         }
       ],
       "sources": [
@@ -4954,7 +4958,8 @@
         "https://zh.wikipedia.org/wiki/高奇峰",
         "https://zh.wikipedia.org/wiki/陈树人",
         "https://zh.wikipedia.org/wiki/居廉",
-        "https://cn.chinadaily.com.cn/a/202504/07/WS67f37d5ea310e29a7c4a7e8d.html"
+        "https://cn.chinadaily.com.cn/a/202504/07/WS67f37d5ea310e29a7c4a7e8d.html",
+        "https://www.tnm.jp/modules/r_free_page/index.php?id=1544&lang=ja"
       ],
       "images": [
         {
@@ -56977,12 +56982,17 @@
       "type": "influenced_by",
       "to": "movement/nihonga",
       "certainty": "scholarly",
-      "source": "https://en.wikipedia.org/wiki/Gao_Jianfu"
+      "source": "https://www.tnm.jp/modules/r_free_page/index.php?id=1544&lang=ja"
     },
     {
       "from": "movement/lingnan-school",
       "type": "originated_in",
       "to": "place/guangzhou"
+    },
+    {
+      "from": "movement/lingnan-school",
+      "type": "active_in",
+      "to": "place/tokyo"
     },
     {
       "from": "movement/maruyama-shijo-school",
