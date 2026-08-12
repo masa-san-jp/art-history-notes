@@ -42,6 +42,7 @@ sources:
   - https://www.treccani.it/enciclopedia/angelo-morbelli_%28Dizionario-Biografico%29/
   - https://www.mart.tn.it/en/mostre/vittore-grubicy-and-europe-at-the-roots-of-divisionism-138656
   - https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf
+  - https://obtic.huma-num.fr/obvil-web/corpus/mdf-italie/mercure-italie_1907
 status: draft
 updated: 2026-08-12
 ---
@@ -134,6 +135,11 @@ Portico D Dの「Parte 2.ª」で630番まで続く（同一作家の複数出�
 という意味ではなく、グルビーチを媒介に確認できる国際画廊・批評・交流の経路を表す。なお、ロンドンで
 2008年に開かれたナショナル・ギャラリー展は「イタリア国外で初めての同種の展覧会」とされるが、これは
 後年の受容史であり、19世紀末の経路とは分けて扱う。
+
+また、1907年11月15日付のフランス語圏の同時代批評『Mercure de France』は、パリ展を相当規模の催しとして取り上げ、
+セガンティーニ、フォルナラ、プレヴィアーティ、ブガッティ、アンドレオッティを個別に論じた。これはグルビーチの
+展覧会開催記録とは別に確認できる、パリでの批評的受容の一次同時代資料である。ただし、批評の存在だけからフランスの
+画家・運動への直接的影響や、他都市への波及を推定しない。
 
 ## 未着手
 
