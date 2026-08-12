@@ -1,9 +1,9 @@
 ---
-id: person/francesco-sassi
-uri: urn:ahn:person/francesco-sassi
+id: person/edoardo-lionetti
+uri: urn:ahn:person/edoardo-lionetti
 type: person
-label_ja: フランチェスコ・サッシ
-label_en: Francesco Sassi
+label_ja: エドアルド・ライオネッティ
+label_en: Edoardo Lionetti
 authority:
   wikidata: null
   ulan: null
@@ -13,7 +13,7 @@ authority:
 time:
   start: null
   end: null
-  display: "19世紀末にトリノで活動"
+  display: "19世紀末にナポリで活動"
 space: []
 relations:
   - {type: exhibited_at, target: event/first-brera-triennale-1891}
@@ -23,6 +23,6 @@ status: draft
 updated: 2026-08-13
 ---
 
-# フランチェスコ・サッシ / Francesco Sassi
+# エドアルド・ライオネッティ / Edoardo Lionetti
 
-1891年の第一回ブレラ三年展公式カタログに、トリノ在住者として掲載される彫刻家。127番《Corpo a corpo》と484番《Miranda: Ella era bella e gentil nome avea》を出品した。本項は展覧会記録に限定する。
+1891年の第一回ブレラ三年展公式カタログに、ナポリ出身者として掲載される彫刻家。486番《Sugli scogli》と488番《Dal Nilo》を出品した。本項は展覧会記録に限定する。

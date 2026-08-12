@@ -1,9 +1,9 @@
 ---
-id: person/francesco-sassi
-uri: urn:ahn:person/francesco-sassi
+id: person/enrico-braga
+uri: urn:ahn:person/enrico-braga
 type: person
-label_ja: フランチェスコ・サッシ
-label_en: Francesco Sassi
+label_ja: エンリコ・ブラガ
+label_en: Enrico Braga
 authority:
   wikidata: null
   ulan: null
@@ -13,7 +13,7 @@ authority:
 time:
   start: null
   end: null
-  display: "19世紀末にトリノで活動"
+  display: "19世紀末にミラノで活動"
 space: []
 relations:
   - {type: exhibited_at, target: event/first-brera-triennale-1891}
@@ -23,6 +23,6 @@ status: draft
 updated: 2026-08-13
 ---
 
-# フランチェスコ・サッシ / Francesco Sassi
+# エンリコ・ブラガ / Enrico Braga
 
-1891年の第一回ブレラ三年展公式カタログに、トリノ在住者として掲載される彫刻家。127番《Corpo a corpo》と484番《Miranda: Ella era bella e gentil nome avea》を出品した。本項は展覧会記録に限定する。
+1891年の第一回ブレラ三年展公式カタログに、ミラノで活動する出品者として掲載される彫刻家。487番《En étudiant》を出品した。本項は展覧会記録に限定する。
