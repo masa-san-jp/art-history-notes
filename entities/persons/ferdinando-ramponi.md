@@ -31,5 +31,6 @@ updated: 2026-08-12
 フランスのレ・ザブレに生まれ、画家・彫刻家として活動した作家。1904〜1906年にブレラ美術アカデミーで学び、
 アルベルト・グルビーチと接点を持った。専門資料は、1907年のパリ展に山岳を主題とする作品を出品したと記録する。
 
-1907年展のカタログでは、Sala A（Rotonde）の10〜18番など、9作品が確認できる。15番は
-[`《Moutons au repos》`](../works/moutons-au-repos-ramponi-1907.md)、18番は[`《Village des Alpes》`](../works/village-des-alpes-ramponi-1907.md)として作品記録に分離した。後者は同時代記録に購入の言及があるが、現所在は未確認である。
+1907年展のカタログでは、Sala A（Rotonde）の10〜18番など、9作品が確認できる。10番[`《Paysage》`](../works/paysage-ramponi-1907.md)、11番[`《Paysage (étude avec mouton)》`](../works/paysage-etude-avec-mouton-ramponi-1907.md)、
+12番[`《Vache dans le pré》`](../works/vache-dans-le-pre-ramponi-1907.md)、13番[`《Paturage》`](../works/paturage-ramponi-1907.md)、14番[`《Hauts sommets》`](../works/hauts-sommets-ramponi-1907.md)、
+15番[`《Moutons au repos》`](../works/moutons-au-repos-ramponi-1907.md)、16番[`《Indivisible》`](../works/indivisible-ramponi-1907.md)、17番[`《Vache à l'abreuvoir》`](../works/vache-a-l-abreuvoir-ramponi-1907.md)、18番[`《Village des Alpes》`](../works/village-des-alpes-ramponi-1907.md)として作品記録に分離した。18番は同時代記録に購入の言及があるが、現所在は未確認である。
