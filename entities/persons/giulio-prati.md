@@ -1,11 +1,11 @@
 ---
-id: person/arturo-ferrari
-uri: urn:ahn:person/arturo-ferrari
+id: person/giulio-prati
+uri: urn:ahn:person/giulio-prati
 type: person
-label_ja: アルトゥーロ・フェッラーリ
-label_en: Arturo Ferrari
+label_ja: ジュリオ・プラーティ
+label_en: Giulio Prati
 aliases:
-  - Ferrari Arturo
+  - Prati Giulio
 authority:
   wikidata: null
   ulan: null
@@ -15,7 +15,7 @@ authority:
 time:
   start: null
   end: null
-  display: "19世紀末にミラノで活動"
+  display: "19世紀末にカルドナッツォ出身者として活動"
 space: []
 relations:
   - {type: exhibited_at, target: event/first-brera-triennale-1891}
@@ -25,6 +25,6 @@ status: draft
 updated: 2026-08-12
 ---
 
-# アルトゥーロ・フェッラーリ / Arturo Ferrari
+# ジュリオ・プラーティ / Giulio Prati
 
-1891年の第一回ブレラ三年展公式カタログに、ミラノで活動する出品者として掲載される。313番《Il Castello della Bicocca》を出品した。本項は展覧会記録に限定する。
+1891年の第一回ブレラ三年展公式カタログに、トレンティーノのカルドナッツォ出身者として掲載される出品者。314番《Tralcio d’uva》を出品した。本項は展覧会記録に限定する。

@@ -1,11 +1,11 @@
 ---
-id: person/arturo-ferrari
-uri: urn:ahn:person/arturo-ferrari
+id: person/vittorio-saccardo
+uri: urn:ahn:person/vittorio-saccardo
 type: person
-label_ja: アルトゥーロ・フェッラーリ
-label_en: Arturo Ferrari
+label_ja: ヴィットリオ・サッカルド
+label_en: Vittorio Saccardo
 aliases:
-  - Ferrari Arturo
+  - Saccardo Vittorio
 authority:
   wikidata: null
   ulan: null
@@ -15,7 +15,7 @@ authority:
 time:
   start: null
   end: null
-  display: "19世紀末にミラノで活動"
+  display: "19世紀末にヴィチェンツァ出身者として活動"
 space: []
 relations:
   - {type: exhibited_at, target: event/first-brera-triennale-1891}
@@ -25,6 +25,6 @@ status: draft
 updated: 2026-08-12
 ---
 
-# アルトゥーロ・フェッラーリ / Arturo Ferrari
+# ヴィットリオ・サッカルド / Vittorio Saccardo
 
-1891年の第一回ブレラ三年展公式カタログに、ミラノで活動する出品者として掲載される。313番《Il Castello della Bicocca》を出品した。本項は展覧会記録に限定する。
+1891年の第一回ブレラ三年展公式カタログに、ヴィチェンツァ出身者として掲載される出品者。319番《Il raccolto del fieno》を出品した。本項は展覧会記録に限定する。

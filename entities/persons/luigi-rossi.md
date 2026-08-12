@@ -27,4 +27,4 @@ updated: 2026-08-12
 
 # ルイジ・ロッシ / Luigi Rossi
 
-1891年の第一回ブレラ三年展公式カタログに、ルガーノ出身者として掲載される出品者。309番《Impressioni di Sicilia》と310番《Impressione di Sicilia》を出品した。本項は展覧会記録に限定する。
+1891年の第一回ブレラ三年展公式カタログに、ルガーノ出身者として掲載される出品者。309番《Impressioni di Sicilia》、310番《Impressione di Sicilia》、311番《La Falciatura》を出品した。本項は展覧会記録に限定する。

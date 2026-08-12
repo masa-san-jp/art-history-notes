@@ -27,4 +27,4 @@ updated: 2026-08-12
 
 # カルロ・クレッシーニ / Carlo Cressini
 
-1891年の第一回ブレラ三年展公式カタログに、ジェノヴァ出身者として掲載される画家。243番《Raggio di sole (Ritratto)》と256番《Ritratto》を出品した。本項は展覧会記録に限定する。
+1891年の第一回ブレラ三年展公式カタログに、ジェノヴァ出身者として掲載される画家。243番《Raggio di sole (Ritratto)》、256番《Ritratto》、316番《Lago d’Alserio》を出品した。本項は展覧会記録に限定する。
