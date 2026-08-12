@@ -36,3 +36,6 @@ updated: 2026-08-12
 6番の[`《Aube sur le lac de Garde / La punta di Manerba》`](../works/aube-sur-le-lac-de-garde-focardi-1907.md)は、1907年制作の館蔵記録と対応する。
 4番の[`《Le Château de Padenghe》`](../works/le-chateau-de-padenghe-focardi-1907.md)と5番の
 [`《Coucher de Soleil en été》`](../works/coucher-de-soleil-en-ete-focardi-1907.md)は、制作年未確認の展示記録として分離した。
+7番の[`《Printemps / Primavera》`](../works/printemps-focardi-1907.md)、8番の
+[`《Coucher de Soleil en hiver / Tramonto d'inverno》`](../works/coucher-de-soleil-en-hiver-focardi-1907.md)、9番の
+[`《A l'ombre / All'ombra》`](../works/a-l-ombre-focardi-1907.md)も同様に作品記録へ分離した。
