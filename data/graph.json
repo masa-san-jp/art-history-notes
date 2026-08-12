@@ -2820,6 +2820,12 @@
           "source": "https://www.metmuseum.org/ja/essays/fauvism"
         },
         {
+          "type": "influenced_by",
+          "target": "movement/neo-impressionism",
+          "certainty": "scholarly",
+          "source": "https://www.metmuseum.org/ja/essays/fauvism"
+        },
+        {
           "type": "diffused_to",
           "target": "place/tokyo",
           "certainty": "scholarly",
@@ -14037,6 +14043,13 @@
     },
     {
       "from": "movement/fauvism",
+      "type": "influenced_by",
+      "to": "movement/neo-impressionism",
+      "certainty": "scholarly",
+      "source": "https://www.metmuseum.org/ja/essays/fauvism"
+    },
+    {
+      "from": "movement/fauvism",
       "type": "diffused_to",
       "to": "place/tokyo",
       "certainty": "scholarly",
@@ -15804,6 +15817,12 @@
     },
     {
       "from": "movement/post-impressionism",
+      "type": "influenced",
+      "to": "movement/fauvism",
+      "derived": true
+    },
+    {
+      "from": "movement/neo-impressionism",
       "type": "influenced",
       "to": "movement/fauvism",
       "derived": true
