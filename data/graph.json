@@ -10348,6 +10348,8 @@
       ],
       "sources": [
         "https://www.wikidata.org/wiki/Q379300",
+        "https://catalogo.fondazionezeri.unibo.it/scheda/opera/99490/Segantini%20Giovanni%2C%20Mucca%20all%27abbeveratoio",
+        "https://galleriemaspes.com/immagini_sito/Cataloghi%20pdf/Brera_Guide.pdf",
         "https://exhibitions.univie.ac.at/person/ulan/500005029",
         "https://www.treccani.it/enciclopedia/giovanni-segantini_%28Dizionario-Biografico%29/",
         "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
@@ -21470,6 +21472,48 @@
       "updated": "2026-08-12",
       "path": "entities/works/un-nuage-maggi-1907.md"
     },
+    "work/vacca-segantini-1891": {
+      "id": "work/vacca-segantini-1891",
+      "uri": "urn:ahn:work/vacca-segantini-1891",
+      "type": "work",
+      "label_ja": "ジョヴァンニ・セガンティーニ《Vacca》",
+      "label_en": "Vacca",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "独立作品典拠IDは未確認。Fondazione Zeri・1891年公式カタログ・展覧会資料を用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年ブレラ三年展出品（制作年は資料に1887年・1890年の差）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/giovanni-segantini"
+        },
+        {
+          "type": "belongs_to",
+          "target": "movement/italian-divisionism"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://catalogo.fondazionezeri.unibo.it/scheda/opera/99490/Segantini%20Giovanni%2C%20Mucca%20all%27abbeveratoio",
+        "https://galleriemaspes.com/immagini_sito/Cataloghi%20pdf/Brera_Guide.pdf",
+        "https://upload.wikimedia.org/wikipedia/commons/2/24/Prima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/works/vacca-segantini-1891.md"
+    },
     "work/vache-a-l-abreuvoir-ramponi-1907": {
       "id": "work/vache-a-l-abreuvoir-ramponi-1907",
       "uri": "urn:ahn:work/vache-a-l-abreuvoir-ramponi-1907",
@@ -26746,6 +26790,27 @@
       "source": null
     },
     {
+      "from": "work/vacca-segantini-1891",
+      "type": "created_by",
+      "to": "person/giovanni-segantini",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/vacca-segantini-1891",
+      "type": "belongs_to",
+      "to": "movement/italian-divisionism",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/vacca-segantini-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "work/vache-a-l-abreuvoir-ramponi-1907",
       "type": "created_by",
       "to": "person/ferdinando-ramponi",
@@ -30465,6 +30530,24 @@
       "from": "event/salon-divisionnistes-italiens-paris-1907",
       "type": "exhibited",
       "to": "work/un-nuage-maggi-1907",
+      "derived": true
+    },
+    {
+      "from": "person/giovanni-segantini",
+      "type": "created",
+      "to": "work/vacca-segantini-1891",
+      "derived": true
+    },
+    {
+      "from": "movement/italian-divisionism",
+      "type": "has_member",
+      "to": "work/vacca-segantini-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/vacca-segantini-1891",
       "derived": true
     },
     {
