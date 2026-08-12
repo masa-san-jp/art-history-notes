@@ -15980,6 +15980,80 @@
       "updated": "2026-08-12",
       "path": "entities/works/enfant-dans-les-pres-previati-1907.md"
     },
+    "work/etude-de-la-mer-merello-1907": {
+      "id": "work/etude-de-la-mer-merello-1907",
+      "uri": "urn:ahn:work/etude-de-la-mer-merello-1907",
+      "type": "work",
+      "label_ja": "ルバルド・メレッロ《Etude de la Mer》",
+      "label_en": "Etude de la Mer",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "独立作品典拠IDは未確認。1907年パリ展カタログ記録を用いる"
+      },
+      "time": {
+        "start": "1907",
+        "end": "1907",
+        "display": "1907年パリ展出品（制作年未確認）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/rubaldo-merello"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/salon-divisionnistes-italiens-paris-1907"
+        }
+      ],
+      "sources": [
+        "https://exhibitions.univie.ac.at/person/gnd/119217643",
+        "https://exhibitions.univie.ac.at/exhibition/125"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/works/etude-de-la-mer-merello-1907.md"
+    },
+    "work/etude-de-la-mer-rochers-merello-1907": {
+      "id": "work/etude-de-la-mer-rochers-merello-1907",
+      "uri": "urn:ahn:work/etude-de-la-mer-rochers-merello-1907",
+      "type": "work",
+      "label_ja": "ルバルド・メレッロ《Etude de la Mer (Rochers)》",
+      "label_en": "Etude de la Mer (Rochers)",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "独立作品典拠IDは未確認。1907年パリ展カタログ記録を用いる"
+      },
+      "time": {
+        "start": "1907",
+        "end": "1907",
+        "display": "1907年パリ展出品（制作年未確認）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/rubaldo-merello"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/salon-divisionnistes-italiens-paris-1907"
+        }
+      ],
+      "sources": [
+        "https://exhibitions.univie.ac.at/person/gnd/119217643",
+        "https://exhibitions.univie.ac.at/exhibition/125"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/works/etude-de-la-mer-rochers-merello-1907.md"
+    },
     "work/etude-de-nu-magrini-1907-no123": {
       "id": "work/etude-de-nu-magrini-1907-no123",
       "uri": "urn:ahn:work/etude-de-nu-magrini-1907-no123",
@@ -24572,6 +24646,34 @@
       "source": null
     },
     {
+      "from": "work/etude-de-la-mer-merello-1907",
+      "type": "created_by",
+      "to": "person/rubaldo-merello",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/etude-de-la-mer-merello-1907",
+      "type": "exhibited_at",
+      "to": "event/salon-divisionnistes-italiens-paris-1907",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/etude-de-la-mer-rochers-merello-1907",
+      "type": "created_by",
+      "to": "person/rubaldo-merello",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/etude-de-la-mer-rochers-merello-1907",
+      "type": "exhibited_at",
+      "to": "event/salon-divisionnistes-italiens-paris-1907",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "work/etude-de-nu-magrini-1907-no123",
       "type": "created_by",
       "to": "person/adolphe-magrini",
@@ -28563,6 +28665,30 @@
       "from": "event/salon-divisionnistes-italiens-paris-1907",
       "type": "exhibited",
       "to": "work/enfant-dans-les-pres-previati-1907",
+      "derived": true
+    },
+    {
+      "from": "person/rubaldo-merello",
+      "type": "created",
+      "to": "work/etude-de-la-mer-merello-1907",
+      "derived": true
+    },
+    {
+      "from": "event/salon-divisionnistes-italiens-paris-1907",
+      "type": "exhibited",
+      "to": "work/etude-de-la-mer-merello-1907",
+      "derived": true
+    },
+    {
+      "from": "person/rubaldo-merello",
+      "type": "created",
+      "to": "work/etude-de-la-mer-rochers-merello-1907",
+      "derived": true
+    },
+    {
+      "from": "event/salon-divisionnistes-italiens-paris-1907",
+      "type": "exhibited",
+      "to": "work/etude-de-la-mer-rochers-merello-1907",
       "derived": true
     },
     {
