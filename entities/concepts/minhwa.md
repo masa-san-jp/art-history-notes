@@ -14,13 +14,15 @@ time:
   start: "17XX"
   end: "19XX"
   display: "朝鮮後期（18世紀）に量産の中心を迎え、19世紀に最盛（京城の市場での活発な流通が確認される）。生産がいつまで続いたかは出典によって幅があり、Met所蔵品には20世紀初頭の作例もある"
-space: []
+space:
+  - {role: active_in, target: place/hanseong}
 relations: []
 sources:
   - https://www.wikidata.org/wiki/Q204791
   - https://encykorea.aks.ac.kr/Article/E0020370
   - https://ko.wikipedia.org/wiki/%EB%AF%BC%ED%99%94
   - https://contents.history.go.kr/mobile/kc/view.do?levelId=kc_r300510&code=kc_age_30
+  - https://contents.history.go.kr/mobile/tt/view.do?levelId=tt_b57
   - https://encykorea.aks.ac.kr/Article/E0064832
   - https://www.tongilnews.com/news/articleView.html?idxno=102045
   - https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE11077260
@@ -52,6 +54,13 @@ Wikidata [Q204791](https://www.wikidata.org/wiki/Q204791) は "Korean folk art" 
 `P1014`（Getty AAT）は無い。Getty AAT の検索サービス（<https://vocab.getty.edu/sparql.json>）は
 2026-08-09 時点で "Service temporarily degraded" を返し確認できなかった——Wikidata の QID が
 取れているため `none_reason` は空欄のままとした。
+
+## 空間
+
+民画は特定の都市だけで制作されたものではないが、韓国史資料は18世紀末以降、漢陽の鍾路・廣通橋周辺に
+画店が現れ、民間の需要と売買の構造とともに広く流通したと説明する（[우리역사넷「民画」](https://contents.history.go.kr/mobile/tt/view.do?levelId=tt_b57)）。
+このため、朝鮮王朝期の漢城（現在のソウル中心部）を主要な活動・流通地として `active_in` に記録する。
+これは民画の制作地・受容地が漢城に限られるという意味ではない。
 
 ## movement か concept か——担い手の集合を特定できるか
 
