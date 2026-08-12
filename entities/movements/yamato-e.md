@@ -33,13 +33,14 @@ sources:
   - https://en.wikipedia.org/wiki/Yamato-e
   - https://www.metmuseum.org/ja/essays/yamato-e-painting
   - https://www.metmuseum.org/art/collection/search/45428
+  - https://www.tnm.jp/modules/r_free_page/index.php?id=570&lang=en
 images:
   - url: https://images.metmuseum.org/CRDImages/as/original/DP244667_CRD.jpg
     source_page: https://www.metmuseum.org/art/collection/search/45428
     license: cc0
     note: "《北野天神縁起絵巻》（Illustrated Legends of the Kitano Tenjin Shrine）鎌倉時代・13世紀末。メトロポリタン美術館蔵（isPublicDomain: true）。ja.wikipedia「大和絵」が鎌倉時代の社寺縁起絵の代表例として同作を名指しで挙げている"
 status: draft
-updated: 2026-08-10
+updated: 2026-08-13
 ---
 
 # 大和絵 / Yamato-e
@@ -60,11 +61,13 @@ updated: 2026-08-10
 『平安時代世俗画の研究』とされるが、この記述に対応する脚注番号は ja.wikipedia の版では確認できず、
 **未確認**）。
 
-メトロポリタン美術館も、室町期には中国から新しい水墨画の様式が入り、古典的な大和絵と競合したと
-説明している（[Yamato-e Painting](https://www.metmuseum.org/ja/essays/yamato-e-painting)）。これは
-大和絵と宋元系の画風が同じ運動だったことや、大和絵全体が一方向に中国画から影響を受けたことを示す
-ものではないため、現段階では `movement/song-academy-painting` への直接エッジは張らず、接触・競合の
-文脈として記録する。
+メトロポリタン美術館は、室町期には中国から新しい水墨画の様式が入り、古典的な大和絵と競合したと
+説明している（[Yamato-e Painting](https://www.metmuseum.org/ja/essays/yamato-e-painting)）。さらに東京国立
+博物館は、鎌倉時代・1299年の一遍上人絵伝について、伝統的な大和絵に中国の宋代絵画の伝統の影響が
+融合した作例と説明する（[東京国立博物館「Three Friends of Winter」](https://www.tnm.jp/modules/r_free_page/index.php?id=570&lang=en)）。
+この個別作例は中国・宋代絵画という広い伝統との接点を示すが、本KBの
+`movement/song-academy-painting` は宋代の宮廷画院に対象を限定しているため、現段階では同movementへの
+直接エッジは張らず、接触・融合の文脈として記録する。
 
 Getty AAT の scope note は "first used in the mid-9th century to describe the works produced by
 Japanese artists that differed at first in subject matter, and latter in style, from paintings

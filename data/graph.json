@@ -8648,7 +8648,8 @@
         "https://ja.wikipedia.org/wiki/大和絵",
         "https://en.wikipedia.org/wiki/Yamato-e",
         "https://www.metmuseum.org/ja/essays/yamato-e-painting",
-        "https://www.metmuseum.org/art/collection/search/45428"
+        "https://www.metmuseum.org/art/collection/search/45428",
+        "https://www.tnm.jp/modules/r_free_page/index.php?id=570&lang=en"
       ],
       "images": [
         {
@@ -8659,7 +8660,7 @@
         }
       ],
       "status": "draft",
-      "updated": "2026-08-10",
+      "updated": "2026-08-13",
       "path": "entities/movements/yamato-e.md"
     },
     "movement/yangzhou-eccentrics": {
