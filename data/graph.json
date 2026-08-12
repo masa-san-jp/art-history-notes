@@ -9532,6 +9532,38 @@
       "updated": "2026-08-13",
       "path": "entities/persons/adelia-sardi.md"
     },
+    "person/adolfo-besozzi": {
+      "id": "person/adolfo-besozzi",
+      "uri": "urn:ahn:person/adolfo-besozzi",
+      "type": "person",
+      "label_ja": "アドルフォ・ベソッツィ",
+      "label_en": "Adolfo Besozzi",
+      "authority": {
+        "wikidata": null,
+        "ulan": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "独立した人物典拠IDと生没年は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": null,
+        "end": null,
+        "display": "19世紀末にミラノで活動"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-13",
+      "path": "entities/persons/adolfo-besozzi.md"
+    },
     "person/adolfo-feragutti-visconti": {
       "id": "person/adolfo-feragutti-visconti",
       "uri": "urn:ahn:person/adolfo-feragutti-visconti",
@@ -15181,6 +15213,38 @@
       "status": "stub",
       "updated": "2026-08-09",
       "path": "entities/persons/filippo-tommaso-marinetti.md"
+    },
+    "person/flavio-bertelli": {
+      "id": "person/flavio-bertelli",
+      "uri": "urn:ahn:person/flavio-bertelli",
+      "type": "person",
+      "label_ja": "フラヴィオ・ベルテッリ",
+      "label_en": "Flavio Bertelli",
+      "authority": {
+        "wikidata": null,
+        "ulan": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "独立した人物典拠IDと生没年は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": null,
+        "end": null,
+        "display": "19世紀末にサン・ラッザロ・ディ・サヴォーナ出身者として活動"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-13",
+      "path": "entities/persons/flavio-bertelli.md"
     },
     "person/francesco-filippini": {
       "id": "person/francesco-filippini",
@@ -26356,6 +26420,42 @@
       "updated": "2026-08-12",
       "path": "entities/works/apres-midi-d-octobre-fornara-1907.md"
     },
+    "work/aspettero-bertelli-1891": {
+      "id": "work/aspettero-bertelli-1891",
+      "uri": "urn:ahn:work/aspettero-bertelli-1891",
+      "type": "work",
+      "label_ja": "フラヴィオ・ベルテッリ《Aspetterò》",
+      "label_en": "Aspetterò",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "作品の独立典拠IDと現所在は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年（1891年展カタログ545番）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/flavio-bertelli"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-13",
+      "path": "entities/works/aspettero-bertelli-1891.md"
+    },
     "work/assediato-quaranta-1891": {
       "id": "work/assediato-quaranta-1891",
       "uri": "urn:ahn:work/assediato-quaranta-1891",
@@ -26577,6 +26677,42 @@
       "status": "draft",
       "updated": "2026-08-12",
       "path": "entities/works/avril-fornara-1907.md"
+    },
+    "work/b-o-bo-conti-1891": {
+      "id": "work/b-o-bo-conti-1891",
+      "uri": "urn:ahn:work/b-o-bo-conti-1891",
+      "type": "work",
+      "label_ja": "ジュゼッペ・エウジェニオ・コンティ《B o Bo》",
+      "label_en": "B o Bo",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "作品の独立典拠IDと現所在は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年（1891年展カタログ550番）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/giuseppe-eugenio-conti"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-13",
+      "path": "entities/works/b-o-bo-conti-1891.md"
     },
     "work/baigneurs-dans-le-lac-focardi-1906": {
       "id": "work/baigneurs-dans-le-lac-focardi-1906",
@@ -26806,6 +26942,42 @@
       "status": "draft",
       "updated": "2026-08-13",
       "path": "entities/works/beppina-giobbio-1891.md"
+    },
+    "work/betulle-a-petrolz-besozzi-1891": {
+      "id": "work/betulle-a-petrolz-besozzi-1891",
+      "uri": "urn:ahn:work/betulle-a-petrolz-besozzi-1891",
+      "type": "work",
+      "label_ja": "アドルフォ・ベソッツィ《Betulle a Petrolz - Svizzera》",
+      "label_en": "Betulle a Petrolz - Svizzera",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "作品の独立典拠IDと現所在は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年（1891年展カタログ547番）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/adolfo-besozzi"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-13",
+      "path": "entities/works/betulle-a-petrolz-besozzi-1891.md"
     },
     "work/bezzecca-campagna-1866-de-albertis-1891": {
       "id": "work/bezzecca-campagna-1866-de-albertis-1891",
@@ -28346,6 +28518,42 @@
       "status": "draft",
       "updated": "2026-08-13",
       "path": "entities/works/colline-toscane-malaspina-1891.md"
+    },
+    "work/colombi-pennasilico-1891": {
+      "id": "work/colombi-pennasilico-1891",
+      "uri": "urn:ahn:work/colombi-pennasilico-1891",
+      "type": "work",
+      "label_ja": "ジュゼッペ・ペンナシリコ《Colombi》",
+      "label_en": "Colombi",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "作品の独立典拠IDと現所在は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年（1891年展カタログ549番）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/giuseppe-pennasilico"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-13",
+      "path": "entities/works/colombi-pennasilico-1891.md"
     },
     "work/come-un-sogno-marchesini-1891": {
       "id": "work/come-un-sogno-marchesini-1891",
@@ -43962,6 +44170,42 @@
       "updated": "2026-08-13",
       "path": "entities/works/primavera-calchi-novati-1891.md"
     },
+    "work/primavera-in-pianura-besozzi-1891": {
+      "id": "work/primavera-in-pianura-besozzi-1891",
+      "uri": "urn:ahn:work/primavera-in-pianura-besozzi-1891",
+      "type": "work",
+      "label_ja": "アドルフォ・ベソッツィ《Primavera in pianura》",
+      "label_en": "Primavera in pianura",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "作品の独立典拠IDと現所在は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年（1891年展カタログ546番）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/adolfo-besozzi"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-13",
+      "path": "entities/works/primavera-in-pianura-besozzi-1891.md"
+    },
     "work/primavera-lancerotto-1891": {
       "id": "work/primavera-lancerotto-1891",
       "uri": "urn:ahn:work/primavera-lancerotto-1891",
@@ -44404,6 +44648,42 @@
       "status": "draft",
       "updated": "2026-08-12",
       "path": "entities/works/quiete-bezzi-1891.md"
+    },
+    "work/quiete-estiva-besozzi-1891": {
+      "id": "work/quiete-estiva-besozzi-1891",
+      "uri": "urn:ahn:work/quiete-estiva-besozzi-1891",
+      "type": "work",
+      "label_ja": "アドルフォ・ベソッツィ《Quiete estiva》",
+      "label_en": "Quiete estiva",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "作品の独立典拠IDと現所在は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年（1891年展カタログ548番）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/adolfo-besozzi"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-13",
+      "path": "entities/works/quiete-estiva-besozzi-1891.md"
     },
     "work/quiete-in-campagna-adelia-sardi-1891": {
       "id": "work/quiete-in-campagna-adelia-sardi-1891",
@@ -49523,6 +49803,42 @@
       "updated": "2026-08-12",
       "path": "entities/works/tesoro-mio-cappelli-1891.md"
     },
+    "work/testa-di-ragazzo-berta-1891": {
+      "id": "work/testa-di-ragazzo-berta-1891",
+      "uri": "urn:ahn:work/testa-di-ragazzo-berta-1891",
+      "type": "work",
+      "label_ja": "エドゥアルド・ベルタ《Testa di ragazzo (Studio dal vero》",
+      "label_en": "Testa di ragazzo (Studio dal vero",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "作品の独立典拠IDと現所在は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年（1891年展カタログ544番）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/eduardo-berta"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-13",
+      "path": "entities/works/testa-di-ragazzo-berta-1891.md"
+    },
     "work/testa-di-un-obeso-feragutti-1891": {
       "id": "work/testa-di-un-obeso-feragutti-1891",
       "uri": "urn:ahn:work/testa-di-un-obeso-feragutti-1891",
@@ -53738,6 +54054,13 @@
       "source": null
     },
     {
+      "from": "person/adolfo-besozzi",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "person/adolfo-feragutti-visconti",
       "type": "exhibited_at",
       "to": "event/first-brera-triennale-1891",
@@ -54960,6 +55283,13 @@
     },
     {
       "from": "person/filippo-cifariello",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "person/flavio-bertelli",
       "type": "exhibited_at",
       "to": "event/first-brera-triennale-1891",
       "certainty": null,
@@ -56951,6 +57281,20 @@
       "source": null
     },
     {
+      "from": "work/aspettero-bertelli-1891",
+      "type": "created_by",
+      "to": "person/flavio-bertelli",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/aspettero-bertelli-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "work/assediato-quaranta-1891",
       "type": "created_by",
       "to": "person/giuseppe-quaranta",
@@ -57031,6 +57375,20 @@
       "from": "work/avril-fornara-1907",
       "type": "exhibited_at",
       "to": "event/salon-divisionnistes-italiens-paris-1907",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/b-o-bo-conti-1891",
+      "type": "created_by",
+      "to": "person/giuseppe-eugenio-conti",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/b-o-bo-conti-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
       "certainty": null,
       "source": null
     },
@@ -57123,6 +57481,20 @@
     },
     {
       "from": "work/beppina-giobbio-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/betulle-a-petrolz-besozzi-1891",
+      "type": "created_by",
+      "to": "person/adolfo-besozzi",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/betulle-a-petrolz-besozzi-1891",
       "type": "exhibited_at",
       "to": "event/first-brera-triennale-1891",
       "certainty": null,
@@ -57725,6 +58097,20 @@
     },
     {
       "from": "work/colline-toscane-malaspina-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/colombi-pennasilico-1891",
+      "type": "created_by",
+      "to": "person/giuseppe-pennasilico",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/colombi-pennasilico-1891",
       "type": "exhibited_at",
       "to": "event/first-brera-triennale-1891",
       "certainty": null,
@@ -63737,6 +64123,20 @@
       "source": null
     },
     {
+      "from": "work/primavera-in-pianura-besozzi-1891",
+      "type": "created_by",
+      "to": "person/adolfo-besozzi",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/primavera-in-pianura-besozzi-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "work/primavera-lancerotto-1891",
       "type": "created_by",
       "to": "person/egisto-lancerotto",
@@ -63899,6 +64299,20 @@
     },
     {
       "from": "work/quiete-bezzi-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/quiete-estiva-besozzi-1891",
+      "type": "created_by",
+      "to": "person/adolfo-besozzi",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/quiete-estiva-besozzi-1891",
       "type": "exhibited_at",
       "to": "event/first-brera-triennale-1891",
       "certainty": null,
@@ -65866,6 +66280,20 @@
     },
     {
       "from": "work/tesoro-mio-cappelli-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/testa-di-ragazzo-berta-1891",
+      "type": "created_by",
+      "to": "person/eduardo-berta",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/testa-di-ragazzo-berta-1891",
       "type": "exhibited_at",
       "to": "event/first-brera-triennale-1891",
       "certainty": null,
@@ -67848,6 +68276,12 @@
     {
       "from": "event/first-brera-triennale-1891",
       "type": "exhibited",
+      "to": "person/adolfo-besozzi",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
       "to": "person/adolfo-feragutti-visconti",
       "derived": true
     },
@@ -68857,6 +69291,12 @@
       "from": "event/first-brera-triennale-1891",
       "type": "exhibited",
       "to": "person/filippo-cifariello",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "person/flavio-bertelli",
       "derived": true
     },
     {
@@ -70480,6 +70920,18 @@
       "derived": true
     },
     {
+      "from": "person/flavio-bertelli",
+      "type": "created",
+      "to": "work/aspettero-bertelli-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/aspettero-bertelli-1891",
+      "derived": true
+    },
+    {
       "from": "person/giuseppe-quaranta",
       "type": "created",
       "to": "work/assediato-quaranta-1891",
@@ -70552,6 +71004,18 @@
       "derived": true
     },
     {
+      "from": "person/giuseppe-eugenio-conti",
+      "type": "created",
+      "to": "work/b-o-bo-conti-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/b-o-bo-conti-1891",
+      "derived": true
+    },
+    {
       "from": "person/piero-focardi",
       "type": "created",
       "to": "work/baigneurs-dans-le-lac-focardi-1906",
@@ -70621,6 +71085,18 @@
       "from": "event/first-brera-triennale-1891",
       "type": "exhibited",
       "to": "work/beppina-giobbio-1891",
+      "derived": true
+    },
+    {
+      "from": "person/adolfo-besozzi",
+      "type": "created",
+      "to": "work/betulle-a-petrolz-besozzi-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/betulle-a-petrolz-besozzi-1891",
       "derived": true
     },
     {
@@ -71137,6 +71613,18 @@
       "from": "event/first-brera-triennale-1891",
       "type": "exhibited",
       "to": "work/colline-toscane-malaspina-1891",
+      "derived": true
+    },
+    {
+      "from": "person/giuseppe-pennasilico",
+      "type": "created",
+      "to": "work/colombi-pennasilico-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/colombi-pennasilico-1891",
       "derived": true
     },
     {
@@ -76288,6 +76776,18 @@
       "derived": true
     },
     {
+      "from": "person/adolfo-besozzi",
+      "type": "created",
+      "to": "work/primavera-in-pianura-besozzi-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/primavera-in-pianura-besozzi-1891",
+      "derived": true
+    },
+    {
       "from": "person/egisto-lancerotto",
       "type": "created",
       "to": "work/primavera-lancerotto-1891",
@@ -76429,6 +76929,18 @@
       "from": "event/first-brera-triennale-1891",
       "type": "exhibited",
       "to": "work/quiete-bezzi-1891",
+      "derived": true
+    },
+    {
+      "from": "person/adolfo-besozzi",
+      "type": "created",
+      "to": "work/quiete-estiva-besozzi-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/quiete-estiva-besozzi-1891",
       "derived": true
     },
     {
@@ -78115,6 +78627,18 @@
       "from": "event/first-brera-triennale-1891",
       "type": "exhibited",
       "to": "work/tesoro-mio-cappelli-1891",
+      "derived": true
+    },
+    {
+      "from": "person/eduardo-berta",
+      "type": "created",
+      "to": "work/testa-di-ragazzo-berta-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/testa-di-ragazzo-berta-1891",
       "derived": true
     },
     {

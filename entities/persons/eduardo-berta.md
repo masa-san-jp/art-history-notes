@@ -27,4 +27,4 @@ updated: 2026-08-13
 
 # エドゥアルド・ベルタ / Eduardo Berta
 
-1891年の第一回ブレラ三年展公式カタログに掲載される出品者。396番《Montanina (Studio di testa)》、515番《Interno della R. Galleria Palatina di Firenze — Sala dell’Iliade (Dal vero)》、516番《Testa di vecchio - Studio dal vero》を出品した。本項は展覧会記録に限定する。
+1891年の第一回ブレラ三年展公式カタログに掲載される出品者。396番《Montanina (Studio di testa)》、515番《Interno della R. Galleria Palatina di Firenze — Sala dell’Iliade (Dal vero)》、516番《Testa di vecchio - Studio dal vero》、544番《Testa di ragazzo (Studio dal vero》を出品した。本項は展覧会記録に限定する。
