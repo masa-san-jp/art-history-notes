@@ -35,4 +35,5 @@ updated: 2026-08-12
 採用しつつ照合課題として残す。
 
 1907年パリ展では、Sala A（Rotonde）の45番《Matin sur les Alpes》と46番《Labour alpestre》を出品した。
-後者は現時点で確認できる公的所蔵作品として言及されるが、作品エンティティ化は固有資料を確認してから行う。
+後者は資料上、1906年作《Mattino alpestre》としても記録されるため、題名を併記した
+[`作品ノード`](../works/labour-alpestre-mattino-alpestre-omio-1906.md)を作成した。現行館内データベースでの所蔵照合は継続する。
