@@ -14952,6 +14952,45 @@
       "updated": "2026-08-12",
       "path": "entities/works/le-due-madri-segantini.md"
     },
+    "work/le-jardin-de-la-duchesse-leed-minozzi-1907": {
+      "id": "work/le-jardin-de-la-duchesse-leed-minozzi-1907",
+      "uri": "urn:ahn:work/le-jardin-de-la-duchesse-leed-minozzi-1907",
+      "type": "work",
+      "label_ja": "フィリベルト・ミノッツィ《Le Jardin de la Duchesse Leed》",
+      "label_en": "Le Jardin de la Duchesse Leed",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "独立作品典拠IDは未確認。1907年展カタログ記録とミノッツィの伝記資料を用いる"
+      },
+      "time": {
+        "start": "1907",
+        "end": "1907",
+        "display": "1907年パリ展出品（制作年未確認）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/filiberto-minozzi"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/salon-divisionnistes-italiens-paris-1907"
+        }
+      ],
+      "sources": [
+        "https://exhibitions.univie.ac.at/person/ulan/500164204",
+        "https://exhibitions.univie.ac.at/exhibition/125",
+        "https://it.wikipedia.org/wiki/Filiberto_Minozzi",
+        "https://it.wikipedia.org/wiki/George_Osborne%2C_X_duca_di_Leeds"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/works/le-jardin-de-la-duchesse-leed-minozzi-1907.md"
+    },
     "work/lef-no-2-1924": {
       "id": "work/lef-no-2-1924",
       "uri": "urn:ahn:work/lef-no-2-1924",
@@ -17995,6 +18034,20 @@
       "source": null
     },
     {
+      "from": "work/le-jardin-de-la-duchesse-leed-minozzi-1907",
+      "type": "created_by",
+      "to": "person/filiberto-minozzi",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/le-jardin-de-la-duchesse-leed-minozzi-1907",
+      "type": "exhibited_at",
+      "to": "event/salon-divisionnistes-italiens-paris-1907",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "work/lef-no-2-1924",
       "type": "created_by",
       "to": "person/liubov-popova",
@@ -19702,6 +19755,18 @@
       "from": "event/first-brera-triennale-1891",
       "type": "exhibited",
       "to": "work/le-due-madri-segantini",
+      "derived": true
+    },
+    {
+      "from": "person/filiberto-minozzi",
+      "type": "created",
+      "to": "work/le-jardin-de-la-duchesse-leed-minozzi-1907",
+      "derived": true
+    },
+    {
+      "from": "event/salon-divisionnistes-italiens-paris-1907",
+      "type": "exhibited",
+      "to": "work/le-jardin-de-la-duchesse-leed-minozzi-1907",
       "derived": true
     },
     {
