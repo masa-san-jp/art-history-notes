@@ -1,11 +1,11 @@
 ---
-id: person/giulio-bonacina
-uri: urn:ahn:person/giulio-bonacina
+id: person/giuseppe-zanetti
+uri: urn:ahn:person/giuseppe-zanetti
 type: person
-label_ja: ジュリオ・ボナチーナ
-label_en: Giulio Bonacina
+label_ja: ジュゼッペ・ザネッティ
+label_en: Giuseppe Zanetti
 aliases:
-  - Bonacina Giulio
+  - Zanetti Giuseppe
 authority:
   wikidata: null
   ulan: null
@@ -15,7 +15,7 @@ authority:
 time:
   start: null
   end: null
-  display: "19世紀末にミラノで活動"
+  display: "19世紀末にモデナ出身者として活動"
 space: []
 relations:
   - {type: exhibited_at, target: event/first-brera-triennale-1891}
@@ -25,6 +25,6 @@ status: draft
 updated: 2026-08-13
 ---
 
-# ジュリオ・ボナチーナ / Giulio Bonacina
+# ジュゼッペ・ザネッティ / Giuseppe Zanetti
 
-1891年の第一回ブレラ三年展公式カタログに、ミラノで活動する出品者として掲載される。321番《Ritratto d’uomo》、449番《Ritratto di signora》を出品した。本項は展覧会記録に限定する。
+1891年の第一回ブレラ三年展公式カタログに、モデナ出身者として掲載される出品者。451番《Santa Marta (Venezia)》、452番《Le Vignole.》を出品した。本項は展覧会記録に限定する。
