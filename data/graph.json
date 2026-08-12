@@ -9897,6 +9897,41 @@
       "updated": "2026-08-12",
       "path": "entities/persons/alessandro-milesi.md"
     },
+    "person/alessandro-vanotti": {
+      "id": "person/alessandro-vanotti",
+      "uri": "urn:ahn:person/alessandro-vanotti",
+      "type": "person",
+      "label_ja": "アレッサンドロ・ヴァノッティ",
+      "label_en": "Alessandro Vanotti",
+      "aliases": [
+        "Vanotti Alessandro"
+      ],
+      "authority": {
+        "wikidata": null,
+        "ulan": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "独立した人物典拠IDと生没年は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": null,
+        "end": null,
+        "display": "19世紀末にミラノ出身者として活動"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/persons/alessandro-vanotti.md"
+    },
     "person/alessandro-zezzos": {
       "id": "person/alessandro-zezzos",
       "uri": "urn:ahn:person/alessandro-zezzos",
@@ -10929,6 +10964,41 @@
       "status": "draft",
       "updated": "2026-08-12",
       "path": "entities/persons/carlo-bugatti.md"
+    },
+    "person/carlo-cressini": {
+      "id": "person/carlo-cressini",
+      "uri": "urn:ahn:person/carlo-cressini",
+      "type": "person",
+      "label_ja": "カルロ・クレッシーニ",
+      "label_en": "Carlo Cressini",
+      "aliases": [
+        "Cressini Carlo"
+      ],
+      "authority": {
+        "wikidata": null,
+        "ulan": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "独立した人物典拠IDと生没年は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": null,
+        "end": null,
+        "display": "19世紀末にジェノヴァ出身者として活動"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/persons/carlo-cressini.md"
     },
     "person/carlo-follini": {
       "id": "person/carlo-follini",
@@ -15557,6 +15627,41 @@
       "updated": "2026-08-12",
       "path": "entities/persons/millo-bortoluzzi.md"
     },
+    "person/mose-bianchi": {
+      "id": "person/mose-bianchi",
+      "uri": "urn:ahn:person/mose-bianchi",
+      "type": "person",
+      "label_ja": "モーゼ・ビアンキ",
+      "label_en": "Mosè Bianchi",
+      "aliases": [
+        "Bianchi Mosè"
+      ],
+      "authority": {
+        "wikidata": null,
+        "ulan": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "独立した人物典拠IDと生没年は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": null,
+        "end": null,
+        "display": "19世紀末にモンツァ出身者として活動"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/persons/mose-bianchi.md"
+    },
     "person/natale-ornati": {
       "id": "person/natale-ornati",
       "uri": "urn:ahn:person/natale-ornati",
@@ -17333,6 +17438,41 @@
       "status": "draft",
       "updated": "2026-08-12",
       "path": "entities/persons/vittore-grubicy-de-dragon.md"
+    },
+    "person/vittorio-avanzi": {
+      "id": "person/vittorio-avanzi",
+      "uri": "urn:ahn:person/vittorio-avanzi",
+      "type": "person",
+      "label_ja": "ヴィットリオ・アヴァンツィ",
+      "label_en": "Vittorio Avanzi",
+      "aliases": [
+        "Avanzi Vittorio"
+      ],
+      "authority": {
+        "wikidata": null,
+        "ulan": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "独立した人物典拠IDと生没年は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": null,
+        "end": null,
+        "display": "19世紀末にヴェローナ出身者として活動"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/persons/vittorio-avanzi.md"
     },
     "person/vittorio-cavalieri": {
       "id": "person/vittorio-cavalieri",
@@ -21500,6 +21640,42 @@
       "status": "draft",
       "updated": "2026-08-12",
       "path": "entities/works/busto-di-bambino-in-gesso-possamai-1891.md"
+    },
+    "work/c-era-una-volta-bianchi-1891": {
+      "id": "work/c-era-una-volta-bianchi-1891",
+      "uri": "urn:ahn:work/c-era-una-volta-bianchi-1891",
+      "type": "work",
+      "label_ja": "モーゼ・ビアンキ《C’era una volta.....》",
+      "label_en": "C’era una volta.....",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "作品の独立典拠IDと現所在は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年（1891年展カタログ245番）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/mose-bianchi"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/works/c-era-una-volta-bianchi-1891.md"
     },
     "work/caccia-furtiva-calandra-1891": {
       "id": "work/caccia-furtiva-calandra-1891",
@@ -30664,6 +30840,42 @@
       "updated": "2026-08-12",
       "path": "entities/works/nei-campi-calandra-1891.md"
     },
+    "work/nel-bosco-avanzi-1891": {
+      "id": "work/nel-bosco-avanzi-1891",
+      "uri": "urn:ahn:work/nel-bosco-avanzi-1891",
+      "type": "work",
+      "label_ja": "ヴィットリオ・アヴァンツィ《Nel bosco》",
+      "label_en": "Nel bosco",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "作品の独立典拠IDと現所在は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年（1891年展カタログ248番）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/vittorio-avanzi"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/works/nel-bosco-avanzi-1891.md"
+    },
     "work/nel-secolo-scorso-calcagni-1891": {
       "id": "work/nel-secolo-scorso-calcagni-1891",
       "uri": "urn:ahn:work/nel-secolo-scorso-calcagni-1891",
@@ -30774,6 +30986,42 @@
       "status": "draft",
       "updated": "2026-08-12",
       "path": "entities/works/nostalgie-fornara-1907.md"
+    },
+    "work/notte-di-primavera-bezzi-1891": {
+      "id": "work/notte-di-primavera-bezzi-1891",
+      "uri": "urn:ahn:work/notte-di-primavera-bezzi-1891",
+      "type": "work",
+      "label_ja": "バルトロメオ・ベッツィ《Notte di primavera》",
+      "label_en": "Notte di primavera",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "作品の独立典拠IDと現所在は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年（1891年展カタログ247番）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/bartolomeo-bezzi"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/works/notte-di-primavera-bezzi-1891.md"
     },
     "work/onda-armoniosa-unknown-1891": {
       "id": "work/onda-armoniosa-unknown-1891",
@@ -33089,6 +33337,42 @@
       "updated": "2026-08-12",
       "path": "entities/works/raggio-di-sole-pellegrini-1891.md"
     },
+    "work/raggio-di-sole-ritratto-cressini-1891": {
+      "id": "work/raggio-di-sole-ritratto-cressini-1891",
+      "uri": "urn:ahn:work/raggio-di-sole-ritratto-cressini-1891",
+      "type": "work",
+      "label_ja": "カルロ・クレッシーニ《Raggio di sole (Ritratto)》",
+      "label_en": "Raggio di sole (Ritratto)",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "作品の独立典拠IDと現所在は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年（1891年展カタログ243番）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/carlo-cressini"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/works/raggio-di-sole-ritratto-cressini-1891.md"
+    },
     "work/recolte-des-potirons-segantini-1907": {
       "id": "work/recolte-des-potirons-segantini-1907",
       "uri": "urn:ahn:work/recolte-des-potirons-segantini-1907",
@@ -33944,6 +34228,78 @@
       "updated": "2026-08-12",
       "path": "entities/works/ritratto-di-signora-feragutti-visconti-1891.md"
     },
+    "work/ritratto-di-signora-ferrari-1891-no250": {
+      "id": "work/ritratto-di-signora-ferrari-1891-no250",
+      "uri": "urn:ahn:work/ritratto-di-signora-ferrari-1891-no250",
+      "type": "work",
+      "label_ja": "ジュゼッペ・フェッラーリ《Ritratto di Signora》",
+      "label_en": "Ritratto di Signora",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "作品の独立典拠IDと現所在は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年（1891年展カタログ250番・水彩）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/giuseppe-ferrari"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/works/ritratto-di-signora-ferrari-1891-no250.md"
+    },
+    "work/ritratto-di-signora-grosso-1891-no246": {
+      "id": "work/ritratto-di-signora-grosso-1891-no246",
+      "uri": "urn:ahn:work/ritratto-di-signora-grosso-1891-no246",
+      "type": "work",
+      "label_ja": "ジャコモ・グロッソ《Ritratto di signora》",
+      "label_en": "Ritratto di signora",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "作品の独立典拠IDと現所在は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年（1891年展カタログ246番）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/giacomo-grosso"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/works/ritratto-di-signora-grosso-1891-no246.md"
+    },
     "work/ritratto-di-signora-rastellini-1891": {
       "id": "work/ritratto-di-signora-rastellini-1891",
       "uri": "urn:ahn:work/ritratto-di-signora-rastellini-1891",
@@ -34015,6 +34371,42 @@
       "status": "draft",
       "updated": "2026-08-12",
       "path": "entities/works/ritratto-di-signora-todeschini-1891-217bis.md"
+    },
+    "work/ritratto-di-signora-vanotti-1891-no251": {
+      "id": "work/ritratto-di-signora-vanotti-1891-no251",
+      "uri": "urn:ahn:work/ritratto-di-signora-vanotti-1891-no251",
+      "type": "work",
+      "label_ja": "アレッサンドロ・ヴァノッティ《Ritratto di Signora》",
+      "label_en": "Ritratto di Signora",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "作品の独立典拠IDと現所在は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年（1891年展カタログ251番）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/alessandro-vanotti"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/works/ritratto-di-signora-vanotti-1891-no251.md"
     },
     "work/ritratto-di-signora-vegetti-1891": {
       "id": "work/ritratto-di-signora-vegetti-1891",
@@ -34347,6 +34739,42 @@
       "status": "draft",
       "updated": "2026-08-12",
       "path": "entities/works/ritratto-uomo-agazzi-1891.md"
+    },
+    "work/ritratto-vanotti-1891-no249": {
+      "id": "work/ritratto-vanotti-1891-no249",
+      "uri": "urn:ahn:work/ritratto-vanotti-1891-no249",
+      "type": "work",
+      "label_ja": "アレッサンドロ・ヴァノッティ《Ritratto》",
+      "label_en": "Ritratto",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "作品の独立典拠IDと現所在は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年（1891年展カタログ249番）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/alessandro-vanotti"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/works/ritratto-vanotti-1891-no249.md"
     },
     "work/ritrovo-di-boscaiuoli-cumbo-1891": {
       "id": "work/ritrovo-di-boscaiuoli-cumbo-1891",
@@ -35672,6 +36100,42 @@
       "status": "draft",
       "updated": "2026-08-12",
       "path": "entities/works/taf-ani-maderna-1891.md"
+    },
+    "work/te-laudamus-domine-vanotti-1891": {
+      "id": "work/te-laudamus-domine-vanotti-1891",
+      "uri": "urn:ahn:work/te-laudamus-domine-vanotti-1891",
+      "type": "work",
+      "label_ja": "アレッサンドロ・ヴァノッティ《Te laudamus Domine》",
+      "label_en": "Te laudamus Domine",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "作品の独立典拠IDと現所在は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年（1891年展カタログ252番）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/alessandro-vanotti"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/works/te-laudamus-domine-vanotti-1891.md"
     },
     "work/tempo-grigio-a-chioggia-buttafava-1891": {
       "id": "work/tempo-grigio-a-chioggia-buttafava-1891",
@@ -38959,6 +39423,13 @@
       "source": null
     },
     {
+      "from": "person/alessandro-vanotti",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "person/alessandro-zezzos",
       "type": "exhibited_at",
       "to": "event/first-brera-triennale-1891",
@@ -39204,6 +39675,13 @@
       "from": "person/carlo-bugatti",
       "type": "exhibited_at",
       "to": "event/salon-divisionnistes-italiens-paris-1907",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "person/carlo-cressini",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
       "certainty": null,
       "source": null
     },
@@ -40261,6 +40739,13 @@
       "source": null
     },
     {
+      "from": "person/mose-bianchi",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "person/natale-ornati",
       "type": "exhibited_at",
       "to": "event/first-brera-triennale-1891",
@@ -40562,6 +41047,13 @@
     },
     {
       "from": "person/vittore-grubicy-de-dragon",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "person/vittorio-avanzi",
       "type": "exhibited_at",
       "to": "event/first-brera-triennale-1891",
       "certainty": null,
@@ -41140,6 +41632,20 @@
     },
     {
       "from": "work/busto-di-bambino-in-gesso-possamai-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/c-era-una-volta-bianchi-1891",
+      "type": "created_by",
+      "to": "person/mose-bianchi",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/c-era-una-volta-bianchi-1891",
       "type": "exhibited_at",
       "to": "event/first-brera-triennale-1891",
       "certainty": null,
@@ -44653,6 +45159,20 @@
       "source": null
     },
     {
+      "from": "work/nel-bosco-avanzi-1891",
+      "type": "created_by",
+      "to": "person/vittorio-avanzi",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/nel-bosco-avanzi-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "work/nel-secolo-scorso-calcagni-1891",
       "type": "created_by",
       "to": "person/sante-calcagni",
@@ -44691,6 +45211,20 @@
       "from": "work/nostalgie-fornara-1907",
       "type": "exhibited_at",
       "to": "event/salon-divisionnistes-italiens-paris-1907",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/notte-di-primavera-bezzi-1891",
+      "type": "created_by",
+      "to": "person/bartolomeo-bezzi",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/notte-di-primavera-bezzi-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
       "certainty": null,
       "source": null
     },
@@ -45584,6 +46118,20 @@
       "source": null
     },
     {
+      "from": "work/raggio-di-sole-ritratto-cressini-1891",
+      "type": "created_by",
+      "to": "person/carlo-cressini",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/raggio-di-sole-ritratto-cressini-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "work/recolte-des-potirons-segantini-1907",
       "type": "created_by",
       "to": "person/giovanni-segantini",
@@ -45906,6 +46454,34 @@
       "source": null
     },
     {
+      "from": "work/ritratto-di-signora-ferrari-1891-no250",
+      "type": "created_by",
+      "to": "person/giuseppe-ferrari",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/ritratto-di-signora-ferrari-1891-no250",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/ritratto-di-signora-grosso-1891-no246",
+      "type": "created_by",
+      "to": "person/giacomo-grosso",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/ritratto-di-signora-grosso-1891-no246",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "work/ritratto-di-signora-rastellini-1891",
       "type": "created_by",
       "to": "person/gian-maria-rastellini",
@@ -45928,6 +46504,20 @@
     },
     {
       "from": "work/ritratto-di-signora-todeschini-1891-217bis",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/ritratto-di-signora-vanotti-1891-no251",
+      "type": "created_by",
+      "to": "person/alessandro-vanotti",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/ritratto-di-signora-vanotti-1891-no251",
       "type": "exhibited_at",
       "to": "event/first-brera-triennale-1891",
       "certainty": null,
@@ -46054,6 +46644,20 @@
     },
     {
       "from": "work/ritratto-uomo-agazzi-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/ritratto-vanotti-1891-no249",
+      "type": "created_by",
+      "to": "person/alessandro-vanotti",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/ritratto-vanotti-1891-no249",
       "type": "exhibited_at",
       "to": "event/first-brera-triennale-1891",
       "certainty": null,
@@ -46558,6 +47162,20 @@
     },
     {
       "from": "work/taf-ani-maderna-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/te-laudamus-domine-vanotti-1891",
+      "type": "created_by",
+      "to": "person/alessandro-vanotti",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/te-laudamus-domine-vanotti-1891",
       "type": "exhibited_at",
       "to": "event/first-brera-triennale-1891",
       "certainty": null,
@@ -48214,6 +48832,12 @@
     {
       "from": "event/first-brera-triennale-1891",
       "type": "exhibited",
+      "to": "person/alessandro-vanotti",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
       "to": "person/alessandro-zezzos",
       "derived": true
     },
@@ -48401,6 +49025,12 @@
       "from": "event/salon-divisionnistes-italiens-paris-1907",
       "type": "exhibited",
       "to": "person/carlo-bugatti",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "person/carlo-cressini",
       "derived": true
     },
     {
@@ -49240,6 +49870,12 @@
     {
       "from": "event/first-brera-triennale-1891",
       "type": "exhibited",
+      "to": "person/mose-bianchi",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
       "to": "person/natale-ornati",
       "derived": true
     },
@@ -49481,6 +50117,12 @@
       "from": "event/first-brera-triennale-1891",
       "type": "exhibited",
       "to": "person/vittore-grubicy-de-dragon",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "person/vittorio-avanzi",
       "derived": true
     },
     {
@@ -49955,6 +50597,18 @@
       "from": "event/first-brera-triennale-1891",
       "type": "exhibited",
       "to": "work/busto-di-bambino-in-gesso-possamai-1891",
+      "derived": true
+    },
+    {
+      "from": "person/mose-bianchi",
+      "type": "created",
+      "to": "work/c-era-una-volta-bianchi-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/c-era-una-volta-bianchi-1891",
       "derived": true
     },
     {
@@ -52964,6 +53618,18 @@
       "derived": true
     },
     {
+      "from": "person/vittorio-avanzi",
+      "type": "created",
+      "to": "work/nel-bosco-avanzi-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/nel-bosco-avanzi-1891",
+      "derived": true
+    },
+    {
       "from": "person/sante-calcagni",
       "type": "created",
       "to": "work/nel-secolo-scorso-calcagni-1891",
@@ -52997,6 +53663,18 @@
       "from": "event/salon-divisionnistes-italiens-paris-1907",
       "type": "exhibited",
       "to": "work/nostalgie-fornara-1907",
+      "derived": true
+    },
+    {
+      "from": "person/bartolomeo-bezzi",
+      "type": "created",
+      "to": "work/notte-di-primavera-bezzi-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/notte-di-primavera-bezzi-1891",
       "derived": true
     },
     {
@@ -53762,6 +54440,18 @@
       "derived": true
     },
     {
+      "from": "person/carlo-cressini",
+      "type": "created",
+      "to": "work/raggio-di-sole-ritratto-cressini-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/raggio-di-sole-ritratto-cressini-1891",
+      "derived": true
+    },
+    {
       "from": "person/giovanni-segantini",
       "type": "created",
       "to": "work/recolte-des-potirons-segantini-1907",
@@ -54038,6 +54728,30 @@
       "derived": true
     },
     {
+      "from": "person/giuseppe-ferrari",
+      "type": "created",
+      "to": "work/ritratto-di-signora-ferrari-1891-no250",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/ritratto-di-signora-ferrari-1891-no250",
+      "derived": true
+    },
+    {
+      "from": "person/giacomo-grosso",
+      "type": "created",
+      "to": "work/ritratto-di-signora-grosso-1891-no246",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/ritratto-di-signora-grosso-1891-no246",
+      "derived": true
+    },
+    {
       "from": "person/gian-maria-rastellini",
       "type": "created",
       "to": "work/ritratto-di-signora-rastellini-1891",
@@ -54059,6 +54773,18 @@
       "from": "event/first-brera-triennale-1891",
       "type": "exhibited",
       "to": "work/ritratto-di-signora-todeschini-1891-217bis",
+      "derived": true
+    },
+    {
+      "from": "person/alessandro-vanotti",
+      "type": "created",
+      "to": "work/ritratto-di-signora-vanotti-1891-no251",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/ritratto-di-signora-vanotti-1891-no251",
       "derived": true
     },
     {
@@ -54167,6 +54893,18 @@
       "from": "event/first-brera-triennale-1891",
       "type": "exhibited",
       "to": "work/ritratto-uomo-agazzi-1891",
+      "derived": true
+    },
+    {
+      "from": "person/alessandro-vanotti",
+      "type": "created",
+      "to": "work/ritratto-vanotti-1891-no249",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/ritratto-vanotti-1891-no249",
       "derived": true
     },
     {
@@ -54599,6 +55337,18 @@
       "from": "event/first-brera-triennale-1891",
       "type": "exhibited",
       "to": "work/taf-ani-maderna-1891",
+      "derived": true
+    },
+    {
+      "from": "person/alessandro-vanotti",
+      "type": "created",
+      "to": "work/te-laudamus-domine-vanotti-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/te-laudamus-domine-vanotti-1891",
       "derived": true
     },
     {
