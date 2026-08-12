@@ -10403,6 +10403,39 @@
       "updated": "2026-08-12",
       "path": "entities/persons/cesare-maggi.md"
     },
+    "person/cristoforo-buttafava": {
+      "id": "person/cristoforo-buttafava",
+      "uri": "urn:ahn:person/cristoforo-buttafava",
+      "type": "person",
+      "label_ja": "クリストーフォロ・ブッタファーヴァ",
+      "label_en": "Cristoforo Buttafava",
+      "authority": {
+        "wikidata": null,
+        "ulan": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "独立した人物典拠IDは未確認。1891年公式カタログと限定的な画家データベースを用いる"
+      },
+      "time": {
+        "start": null,
+        "end": null,
+        "display": "19世紀末のイタリアで活動した画家"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://www.askart.com/artist/artist/C3",
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/persons/cristoforo-buttafava.md"
+    },
     "person/david-alfaro-siqueiros": {
       "id": "person/david-alfaro-siqueiros",
       "uri": "urn:ahn:person/david-alfaro-siqueiros",
@@ -11067,6 +11100,40 @@
       "status": "stub",
       "updated": "2026-08-10",
       "path": "entities/persons/eustache-de-lorey.md"
+    },
+    "person/federico-quarenghi": {
+      "id": "person/federico-quarenghi",
+      "uri": "urn:ahn:person/federico-quarenghi",
+      "type": "person",
+      "label_ja": "フェデリコ・クァレンギ",
+      "label_en": "Federico Quarenghi",
+      "authority": {
+        "wikidata": null,
+        "ulan": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "独立した人物典拠IDは未確認。Dizionario d’Arte Sartori、地域美術資料、1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": "1858",
+        "end": "1940",
+        "display": "1858年ミラノ生まれ — 1940年ミラノ没"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://dizionariodartesartori.it/artisti/quarenghi-federico",
+        "https://www.artericerca.com/artisti_italiani_ottocento/q/schede_q/Quarenghi%20Federico%20biografia.htm",
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/persons/federico-quarenghi.md"
     },
     "person/felix-feneon": {
       "id": "person/felix-feneon",
@@ -11831,6 +11898,40 @@
       "status": "draft",
       "updated": "2026-08-12",
       "path": "entities/persons/giovanni-sottocornola.md"
+    },
+    "person/giuseppe-buscaglione": {
+      "id": "person/giuseppe-buscaglione",
+      "uri": "urn:ahn:person/giuseppe-buscaglione",
+      "type": "person",
+      "label_ja": "ジュゼッペ・ブスカリオーネ",
+      "label_en": "Giuseppe Buscaglione",
+      "authority": {
+        "wikidata": "Q16030307",
+        "ulan": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": "1868",
+        "end": "1928",
+        "display": "1868年アリアーノ・ディ・プーリア生まれ — 1928年リーヴォリ没"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://www.istitutomatteucci.it/en/artisti-censiti/buscaglione-giuseppe",
+        "https://commons.wikimedia.org/wiki/Creator%3AGiuseppe_Buscaglione",
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/persons/giuseppe-buscaglione.md"
     },
     "person/giuseppe-ferrari": {
       "id": "person/giuseppe-ferrari",
@@ -12708,6 +12809,40 @@
       "status": "draft",
       "updated": "2026-08-12",
       "path": "entities/persons/luigi-conconi.md"
+    },
+    "person/luigi-rosa": {
+      "id": "person/luigi-rosa",
+      "uri": "urn:ahn:person/luigi-rosa",
+      "type": "person",
+      "label_ja": "ルイジ・ローザ",
+      "label_en": "Luigi Rosa",
+      "authority": {
+        "wikidata": "Q3840097",
+        "ulan": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": "1850",
+        "end": "1919",
+        "display": "1850年ヴェネツィア生まれ — 1919年ローマ没"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://www.galleriarecta.it/autore/rosa-luigi/",
+        "https://www.wikidata.org/wiki/Q3840097",
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/persons/luigi-rosa.md"
     },
     "person/luigi-serra": {
       "id": "person/luigi-serra",
@@ -14060,6 +14195,40 @@
       "status": "draft",
       "updated": "2026-08-12",
       "path": "entities/persons/vincenzo-rossano.md"
+    },
+    "person/virgilio-ripari": {
+      "id": "person/virgilio-ripari",
+      "uri": "urn:ahn:person/virgilio-ripari",
+      "type": "person",
+      "label_ja": "ヴィルジリオ・リパーリ",
+      "label_en": "Virgilio Ripari",
+      "authority": {
+        "wikidata": null,
+        "ulan": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "独立した人物典拠IDは未確認。Galleria Recta、Dizionario d’Arte Sartori、1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": "1843",
+        "end": "1902",
+        "display": "1843年ボッツォロ生まれ — 1902年ミラノ没"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://www.galleriarecta.it/autore/ripari-virgilio/",
+        "https://dizionariodartesartori.it/artisti/ripari-virgilio",
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/persons/virgilio-ripari.md"
     },
     "person/vittore-grubicy-de-dragon": {
       "id": "person/vittore-grubicy-de-dragon",
@@ -17347,6 +17516,44 @@
       "updated": "2026-08-12",
       "path": "entities/works/automne-fornara-1907.md"
     },
+    "work/ave-maria-rosa-1891": {
+      "id": "work/ave-maria-rosa-1891",
+      "uri": "urn:ahn:work/ave-maria-rosa-1891",
+      "type": "work",
+      "label_ja": "ルイジ・ローザ《Ave Maria》",
+      "label_en": "Ave Maria",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "1891年展出品作としての独立典拠IDと現所在は未確認。人物典拠と公式カタログを用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年展出品"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/luigi-rosa"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://www.galleriarecta.it/autore/rosa-luigi/",
+        "https://www.wikidata.org/wiki/Q3840097",
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/works/ave-maria-rosa-1891.md"
+    },
     "work/avril-fornara-1907": {
       "id": "work/avril-fornara-1907",
       "uri": "urn:ahn:work/avril-fornara-1907",
@@ -18217,6 +18424,43 @@
       "status": "draft",
       "updated": "2026-08-12",
       "path": "entities/works/consolatrix-afflictorum-villa-1891.md"
+    },
+    "work/conti-sbagliati-ripari-1891": {
+      "id": "work/conti-sbagliati-ripari-1891",
+      "uri": "urn:ahn:work/conti-sbagliati-ripari-1891",
+      "type": "work",
+      "label_ja": "ヴィルジリオ・リパーリ《Conti sbagliati》",
+      "label_en": "Conti sbagliati",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "1891年展出品作としての独立典拠IDと現所在は未確認。人物典拠と公式カタログを用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年展出品"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/virgilio-ripari"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://www.galleriarecta.it/autore/ripari-virgilio/",
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/works/conti-sbagliati-ripari-1891.md"
     },
     "work/coucher-de-soleil-a-la-fin-du-printemps-benvenuti-1907": {
       "id": "work/coucher-de-soleil-a-la-fin-du-printemps-benvenuti-1907",
@@ -20338,6 +20582,43 @@
       "status": "draft",
       "updated": "2026-08-12",
       "path": "entities/works/il-generale-bava-porzio-1891.md"
+    },
+    "work/il-lavoro-buscaglione-1891": {
+      "id": "work/il-lavoro-buscaglione-1891",
+      "uri": "urn:ahn:work/il-lavoro-buscaglione-1891",
+      "type": "work",
+      "label_ja": "ジュゼッペ・ブスカリオーネ《Il lavoro》",
+      "label_en": "Il lavoro",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "1891年展出品作としての独立典拠IDと現所在は未確認。人物典拠と公式カタログを用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年展出品"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/giuseppe-buscaglione"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://www.istitutomatteucci.it/en/artisti-censiti/buscaglione-giuseppe",
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/works/il-lavoro-buscaglione-1891.md"
     },
     "work/il-maglio-filippini-1891": {
       "id": "work/il-maglio-filippini-1891",
@@ -25637,6 +25918,43 @@
       "updated": "2026-08-12",
       "path": "entities/works/primavera-lancerotto-1891.md"
     },
+    "work/primavera-spreafico-1891": {
+      "id": "work/primavera-spreafico-1891",
+      "uri": "urn:ahn:work/primavera-spreafico-1891",
+      "type": "work",
+      "label_ja": "エウジェニオ・スプレアフィコ《Primavera》",
+      "label_en": "Primavera",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "1891年展出品作としての独立典拠IDと現所在は未確認。人物典拠と公式カタログを用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年展出品"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/eugenio-spreafico"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://museicivicimonza.it/eugenio-spreafico-reverie/",
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/works/primavera-spreafico-1891.md"
+    },
     "work/printemps-focardi-1907": {
       "id": "work/printemps-focardi-1907",
       "uri": "urn:ahn:work/printemps-focardi-1907",
@@ -26164,6 +26482,43 @@
       "updated": "2026-08-12",
       "path": "entities/works/reverie-fornara-1907.md"
     },
+    "work/reverie-spreafico-1891": {
+      "id": "work/reverie-spreafico-1891",
+      "uri": "urn:ahn:work/reverie-spreafico-1891",
+      "type": "work",
+      "label_ja": "エウジェニオ・スプレアフィコ《Réverie》",
+      "label_en": "Réverie",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "1891年展出品作としての独立典拠IDと現所在は未確認。人物典拠と公式カタログを用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年展出品"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/eugenio-spreafico"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://museicivicimonza.it/eugenio-spreafico-reverie/",
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/works/reverie-spreafico-1891.md"
+    },
     "work/ricordanze-fornara-1891": {
       "id": "work/ricordanze-fornara-1891",
       "uri": "urn:ahn:work/ricordanze-fornara-1891",
@@ -26653,6 +27008,43 @@
       "updated": "2026-08-12",
       "path": "entities/works/ritratto-di-signora-villani-1891.md"
     },
+    "work/ritratto-di-signorina-quarenghi-1891": {
+      "id": "work/ritratto-di-signorina-quarenghi-1891",
+      "uri": "urn:ahn:work/ritratto-di-signorina-quarenghi-1891",
+      "type": "work",
+      "label_ja": "フェデリコ・クァレンギ《Ritratto di signorina》",
+      "label_en": "Ritratto di signorina",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "1891年展出品作としての独立典拠IDと現所在は未確認。人物典拠と公式カタログを用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年展出品"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/federico-quarenghi"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://dizionariodartesartori.it/artisti/quarenghi-federico",
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/works/ritratto-di-signorina-quarenghi-1891.md"
+    },
     "work/ritratto-uomo-agazzi-1891": {
       "id": "work/ritratto-uomo-agazzi-1891",
       "uri": "urn:ahn:work/ritratto-uomo-agazzi-1891",
@@ -27136,6 +27528,43 @@
       "updated": "2026-08-12",
       "path": "entities/works/songe-d-une-nuit-de-printemps-fornara-1907.md"
     },
+    "work/sorelle-spose-ripari-1891": {
+      "id": "work/sorelle-spose-ripari-1891",
+      "uri": "urn:ahn:work/sorelle-spose-ripari-1891",
+      "type": "work",
+      "label_ja": "ヴィルジリオ・リパーリ《Sorelle spose》",
+      "label_en": "Sorelle spose",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "1891年展出品作としての独立典拠IDと現所在は未確認。人物典拠と公式カタログを用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年展出品"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/virgilio-ripari"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://www.galleriarecta.it/autore/ripari-virgilio/",
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/works/sorelle-spose-ripari-1891.md"
+    },
     "work/sous-la-lune-magrini-1907": {
       "id": "work/sous-la-lune-magrini-1907",
       "uri": "urn:ahn:work/sous-la-lune-magrini-1907",
@@ -27435,6 +27864,42 @@
       "status": "draft",
       "updated": "2026-08-12",
       "path": "entities/works/studio-di-mare-la-scogliera-merello-1906.md"
+    },
+    "work/tempo-grigio-a-chioggia-buttafava-1891": {
+      "id": "work/tempo-grigio-a-chioggia-buttafava-1891",
+      "uri": "urn:ahn:work/tempo-grigio-a-chioggia-buttafava-1891",
+      "type": "work",
+      "label_ja": "クリストーフォロ・ブッタファーヴァ《Tempo grigio a Chioggia》",
+      "label_en": "Tempo grigio a Chioggia",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "1891年展出品作としての独立典拠IDと現所在は未確認。人物典拠と公式カタログを用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年展出品"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/cristoforo-buttafava"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/works/tempo-grigio-a-chioggia-buttafava-1891.md"
     },
     "work/tempo-grigio-tominetti-1891": {
       "id": "work/tempo-grigio-tominetti-1891",
@@ -30555,6 +31020,13 @@
       "source": null
     },
     {
+      "from": "person/cristoforo-buttafava",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "person/david-alfaro-siqueiros",
       "type": "grouped_as",
       "to": "movement/mexican-muralism",
@@ -30688,6 +31160,13 @@
     },
     {
       "from": "person/eugenio-spreafico",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "person/federico-quarenghi",
       "type": "exhibited_at",
       "to": "event/first-brera-triennale-1891",
       "certainty": null,
@@ -30896,6 +31375,13 @@
       "to": "place/milan"
     },
     {
+      "from": "person/giuseppe-buscaglione",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "person/giuseppe-ferrari",
       "type": "exhibited_at",
       "to": "event/first-brera-triennale-1891",
@@ -31077,6 +31563,13 @@
     },
     {
       "from": "person/luigi-conconi",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "person/luigi-rosa",
       "type": "exhibited_at",
       "to": "event/first-brera-triennale-1891",
       "certainty": null,
@@ -31293,6 +31786,13 @@
     },
     {
       "from": "person/vincenzo-rossano",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "person/virgilio-ripari",
       "type": "exhibited_at",
       "to": "event/first-brera-triennale-1891",
       "certainty": null,
@@ -31541,6 +32041,20 @@
       "from": "work/automne-fornara-1907",
       "type": "exhibited_at",
       "to": "event/salon-divisionnistes-italiens-paris-1907",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/ave-maria-rosa-1891",
+      "type": "created_by",
+      "to": "person/luigi-rosa",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/ave-maria-rosa-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
       "certainty": null,
       "source": null
     },
@@ -31885,6 +32399,20 @@
     },
     {
       "from": "work/consolatrix-afflictorum-villa-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/conti-sbagliati-ripari-1891",
+      "type": "created_by",
+      "to": "person/virgilio-ripari",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/conti-sbagliati-ripari-1891",
       "type": "exhibited_at",
       "to": "event/first-brera-triennale-1891",
       "certainty": null,
@@ -32683,6 +33211,20 @@
     },
     {
       "from": "work/il-generale-bava-porzio-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/il-lavoro-buscaglione-1891",
+      "type": "created_by",
+      "to": "person/giuseppe-buscaglione",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/il-lavoro-buscaglione-1891",
       "type": "exhibited_at",
       "to": "event/first-brera-triennale-1891",
       "certainty": null,
@@ -34719,6 +35261,20 @@
       "source": null
     },
     {
+      "from": "work/primavera-spreafico-1891",
+      "type": "created_by",
+      "to": "person/eugenio-spreafico",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/primavera-spreafico-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "work/printemps-focardi-1907",
       "type": "created_by",
       "to": "person/piero-focardi",
@@ -34922,6 +35478,20 @@
       "source": null
     },
     {
+      "from": "work/reverie-spreafico-1891",
+      "type": "created_by",
+      "to": "person/eugenio-spreafico",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/reverie-spreafico-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "work/ricordanze-fornara-1891",
       "type": "created_by",
       "to": "person/carlo-fornara",
@@ -35098,6 +35668,20 @@
     },
     {
       "from": "work/ritratto-di-signora-villani-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/ritratto-di-signorina-quarenghi-1891",
+      "type": "created_by",
+      "to": "person/federico-quarenghi",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/ritratto-di-signorina-quarenghi-1891",
       "type": "exhibited_at",
       "to": "event/first-brera-triennale-1891",
       "certainty": null,
@@ -35286,6 +35870,20 @@
       "source": null
     },
     {
+      "from": "work/sorelle-spose-ripari-1891",
+      "type": "created_by",
+      "to": "person/virgilio-ripari",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/sorelle-spose-ripari-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "work/sous-la-lune-magrini-1907",
       "type": "created_by",
       "to": "person/adolphe-magrini",
@@ -35394,6 +35992,20 @@
       "from": "work/studio-di-mare-la-scogliera-merello-1906",
       "type": "exhibited_at",
       "to": "event/salon-divisionnistes-italiens-paris-1907",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/tempo-grigio-a-chioggia-buttafava-1891",
+      "type": "created_by",
+      "to": "person/cristoforo-buttafava",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/tempo-grigio-a-chioggia-buttafava-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
       "certainty": null,
       "source": null
     },
@@ -37034,6 +37646,12 @@
       "derived": true
     },
     {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "person/cristoforo-buttafava",
+      "derived": true
+    },
+    {
       "from": "movement/mexican-muralism",
       "type": "groups",
       "to": "person/david-alfaro-siqueiros",
@@ -37133,6 +37751,12 @@
       "from": "event/first-brera-triennale-1891",
       "type": "exhibited",
       "to": "person/eugenio-spreafico",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "person/federico-quarenghi",
       "derived": true
     },
     {
@@ -37294,6 +37918,12 @@
     {
       "from": "event/first-brera-triennale-1891",
       "type": "exhibited",
+      "to": "person/giuseppe-buscaglione",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
       "to": "person/giuseppe-ferrari",
       "derived": true
     },
@@ -37415,6 +38045,12 @@
       "from": "event/first-brera-triennale-1891",
       "type": "exhibited",
       "to": "person/luigi-conconi",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "person/luigi-rosa",
       "derived": true
     },
     {
@@ -37583,6 +38219,12 @@
       "from": "event/first-brera-triennale-1891",
       "type": "exhibited",
       "to": "person/vincenzo-rossano",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "person/virgilio-ripari",
       "derived": true
     },
     {
@@ -37781,6 +38423,18 @@
       "from": "event/salon-divisionnistes-italiens-paris-1907",
       "type": "exhibited",
       "to": "work/automne-fornara-1907",
+      "derived": true
+    },
+    {
+      "from": "person/luigi-rosa",
+      "type": "created",
+      "to": "work/ave-maria-rosa-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/ave-maria-rosa-1891",
       "derived": true
     },
     {
@@ -38069,6 +38723,18 @@
       "from": "event/first-brera-triennale-1891",
       "type": "exhibited",
       "to": "work/consolatrix-afflictorum-villa-1891",
+      "derived": true
+    },
+    {
+      "from": "person/virgilio-ripari",
+      "type": "created",
+      "to": "work/conti-sbagliati-ripari-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/conti-sbagliati-ripari-1891",
       "derived": true
     },
     {
@@ -38753,6 +39419,18 @@
       "from": "event/first-brera-triennale-1891",
       "type": "exhibited",
       "to": "work/il-generale-bava-porzio-1891",
+      "derived": true
+    },
+    {
+      "from": "person/giuseppe-buscaglione",
+      "type": "created",
+      "to": "work/il-lavoro-buscaglione-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/il-lavoro-buscaglione-1891",
       "derived": true
     },
     {
@@ -40496,6 +41174,18 @@
       "derived": true
     },
     {
+      "from": "person/eugenio-spreafico",
+      "type": "created",
+      "to": "work/primavera-spreafico-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/primavera-spreafico-1891",
+      "derived": true
+    },
+    {
       "from": "person/piero-focardi",
       "type": "created",
       "to": "work/printemps-focardi-1907",
@@ -40670,6 +41360,18 @@
       "derived": true
     },
     {
+      "from": "person/eugenio-spreafico",
+      "type": "created",
+      "to": "work/reverie-spreafico-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/reverie-spreafico-1891",
+      "derived": true
+    },
+    {
       "from": "person/carlo-fornara",
       "type": "created",
       "to": "work/ricordanze-fornara-1891",
@@ -40823,6 +41525,18 @@
       "from": "event/first-brera-triennale-1891",
       "type": "exhibited",
       "to": "work/ritratto-di-signora-villani-1891",
+      "derived": true
+    },
+    {
+      "from": "person/federico-quarenghi",
+      "type": "created",
+      "to": "work/ritratto-di-signorina-quarenghi-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/ritratto-di-signorina-quarenghi-1891",
       "derived": true
     },
     {
@@ -40982,6 +41696,18 @@
       "derived": true
     },
     {
+      "from": "person/virgilio-ripari",
+      "type": "created",
+      "to": "work/sorelle-spose-ripari-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/sorelle-spose-ripari-1891",
+      "derived": true
+    },
+    {
       "from": "person/adolphe-magrini",
       "type": "created",
       "to": "work/sous-la-lune-magrini-1907",
@@ -41075,6 +41801,18 @@
       "from": "event/salon-divisionnistes-italiens-paris-1907",
       "type": "exhibited",
       "to": "work/studio-di-mare-la-scogliera-merello-1906",
+      "derived": true
+    },
+    {
+      "from": "person/cristoforo-buttafava",
+      "type": "created",
+      "to": "work/tempo-grigio-a-chioggia-buttafava-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/tempo-grigio-a-chioggia-buttafava-1891",
       "derived": true
     },
     {
