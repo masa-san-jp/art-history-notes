@@ -23,7 +23,7 @@ sources:
   - https://monumentale.comune.milano.it/monumenti/monumento-ernesto-bazzaro
   - https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf
 status: draft
-updated: 2026-08-12
+updated: 2026-08-13
 ---
 
 # エルネスト・バッツァーロ / Ernesto Bazzaro
@@ -31,5 +31,5 @@ updated: 2026-08-12
 ミラノ生まれ、同地で没したイタリアの彫刻家・版画家。英国博物館は1859〜1937年の彫刻家・メダイリストとして記録し、
 ブレラで学び、ミラノの記念碑彫刻と小型ブロンズに取り組んだと説明する。ミラノ市公式資料も、彼をミラノ彫刻界の重要人物として扱っている。
 
-1891年の第一回ブレラ三年展では、公式カタログの29番《Statua in marmo per monumento funerario》を出品した。本項では、この展覧会での出品関係を記録するが、
+1891年の第一回ブレラ三年展では、公式カタログの29番《Statua in marmo per monumento funerario》、618番《La trovatella》を出品した。本項では、この展覧会での出品関係を記録するが、
 バッツァーロをイタリア分割主義の構成員とは位置づけない。

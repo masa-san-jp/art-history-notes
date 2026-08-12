@@ -1,11 +1,11 @@
 ---
-id: person/luigi-craveri
-uri: urn:ahn:person/luigi-craveri
+id: person/anselmo-galmuzzi
+uri: urn:ahn:person/anselmo-galmuzzi
 type: person
-label_ja: ルイジ・クラヴェーリ
-label_en: Luigi Craveri
+label_ja: アンセルモ・ガルムッツィ
+label_en: Anselmo Galmuzzi
 aliases:
-  - Craveri Luigi
+  - Galmuzzi Anselmo
 authority:
   wikidata: null
   ulan: null
@@ -15,7 +15,7 @@ authority:
 time:
   start: null
   end: null
-  display: "19世紀末にパリで活動"
+  display: "19世紀末にミラノで活動"
 space: []
 relations:
   - {type: exhibited_at, target: event/first-brera-triennale-1891}
@@ -25,6 +25,6 @@ status: draft
 updated: 2026-08-13
 ---
 
-# ルイジ・クラヴェーリ / Luigi Craveri
+# アンセルモ・ガルムッツィ / Anselmo Galmuzzi
 
-1891年の第一回ブレラ三年展公式カタログに、パリ出身者として掲載される出品者。606番《Valle di Polenzo sul Tanaro (Dintorni di Bra)》、614番《Riva sul Garda (Trentino)》を出品した。本項は展覧会記録に限定する。
+1891年の第一回ブレラ三年展公式カタログに、ミラノ出身者として掲載される彫刻家。615番《Indovinami e ti darò un bacio》を出品した。本項は展覧会記録に限定する。
