@@ -15193,6 +15193,43 @@
       "updated": "2026-08-12",
       "path": "entities/works/monument-to-third-international.md"
     },
+    "work/moutons-au-repos-ramponi-1907": {
+      "id": "work/moutons-au-repos-ramponi-1907",
+      "uri": "urn:ahn:work/moutons-au-repos-ramponi-1907",
+      "type": "work",
+      "label_ja": "フェルディナンド・ランポーニ《Moutons au repos》",
+      "label_en": "Moutons au repos",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "独立作品典拠IDは未確認。1907年パリ展カタログ記録を用いる"
+      },
+      "time": {
+        "start": "1907",
+        "end": "1907",
+        "display": "1907年パリ展出品（制作年未確認）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/ferdinando-ramponi"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/salon-divisionnistes-italiens-paris-1907"
+        }
+      ],
+      "sources": [
+        "https://exhibitions.univie.ac.at/person/gnd/122617517",
+        "https://exhibitions.univie.ac.at/exhibition/125"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/works/moutons-au-repos-ramponi-1907.md"
+    },
     "work/piazza-caricamento-nomellini-1891": {
       "id": "work/piazza-caricamento-nomellini-1891",
       "uri": "urn:ahn:work/piazza-caricamento-nomellini-1891",
@@ -15229,6 +15266,43 @@
       "status": "draft",
       "updated": "2026-08-12",
       "path": "entities/works/piazza-caricamento-nomellini-1891.md"
+    },
+    "work/premiers-rayons-tominetti-1907": {
+      "id": "work/premiers-rayons-tominetti-1907",
+      "uri": "urn:ahn:work/premiers-rayons-tominetti-1907",
+      "type": "work",
+      "label_ja": "アキッレ・トミネッティ《Premiers Rayons》",
+      "label_en": "Premiers Rayons",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "独立作品典拠IDは未確認。1907年パリ展カタログ記録を用いる"
+      },
+      "time": {
+        "start": "1907",
+        "end": "1907",
+        "display": "1907年パリ展出品（制作年未確認）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/achille-tominetti"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/salon-divisionnistes-italiens-paris-1907"
+        }
+      ],
+      "sources": [
+        "https://exhibitions.univie.ac.at/person/gnd/141119950",
+        "https://exhibitions.univie.ac.at/exhibition/125"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/works/premiers-rayons-tominetti-1907.md"
     },
     "work/proun-19d": {
       "id": "work/proun-19d",
@@ -18139,6 +18213,20 @@
       "source": null
     },
     {
+      "from": "work/moutons-au-repos-ramponi-1907",
+      "type": "created_by",
+      "to": "person/ferdinando-ramponi",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/moutons-au-repos-ramponi-1907",
+      "type": "exhibited_at",
+      "to": "event/salon-divisionnistes-italiens-paris-1907",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "work/piazza-caricamento-nomellini-1891",
       "type": "created_by",
       "to": "person/plinio-nomellini",
@@ -18149,6 +18237,20 @@
       "from": "work/piazza-caricamento-nomellini-1891",
       "type": "exhibited_at",
       "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/premiers-rayons-tominetti-1907",
+      "type": "created_by",
+      "to": "person/achille-tominetti",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/premiers-rayons-tominetti-1907",
+      "type": "exhibited_at",
+      "to": "event/salon-divisionnistes-italiens-paris-1907",
       "certainty": null,
       "source": null
     },
@@ -19848,6 +19950,18 @@
       "derived": true
     },
     {
+      "from": "person/ferdinando-ramponi",
+      "type": "created",
+      "to": "work/moutons-au-repos-ramponi-1907",
+      "derived": true
+    },
+    {
+      "from": "event/salon-divisionnistes-italiens-paris-1907",
+      "type": "exhibited",
+      "to": "work/moutons-au-repos-ramponi-1907",
+      "derived": true
+    },
+    {
       "from": "person/plinio-nomellini",
       "type": "created",
       "to": "work/piazza-caricamento-nomellini-1891",
@@ -19857,6 +19971,18 @@
       "from": "event/first-brera-triennale-1891",
       "type": "exhibited",
       "to": "work/piazza-caricamento-nomellini-1891",
+      "derived": true
+    },
+    {
+      "from": "person/achille-tominetti",
+      "type": "created",
+      "to": "work/premiers-rayons-tominetti-1907",
+      "derived": true
+    },
+    {
+      "from": "event/salon-divisionnistes-italiens-paris-1907",
+      "type": "exhibited",
+      "to": "work/premiers-rayons-tominetti-1907",
       "derived": true
     },
     {
