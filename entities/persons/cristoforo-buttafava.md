@@ -21,11 +21,11 @@ sources:
   - https://www.askart.com/artist/artist/C3
   - https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf
 status: draft
-updated: 2026-08-12
+updated: 2026-08-13
 ---
 
 # クリストーフォロ・ブッタファーヴァ / Cristoforo Buttafava
 
 ティラーノ出身として1891年の公式カタログに掲載されるイタリアの画家。現時点では、独立した生没年や作品典拠を確定できない。
 
-1891年の第一回ブレラ三年展では、公式カタログの86番《Tempo grigio a Chioggia》を出品した。本項では、確認できる展覧会記録に限定して記録する。
+1891年の第一回ブレラ三年展では、公式カタログの86番《Tempo grigio a Chioggia》、584番《Interno della Chiesa di S. Monaco in Firenze》を出品した。本項では、確認できる展覧会記録に限定して記録する。

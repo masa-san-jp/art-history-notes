@@ -1,11 +1,11 @@
 ---
-id: person/fausto-zonaro
-uri: urn:ahn:person/fausto-zonaro
+id: person/lodovico-accarisi
+uri: urn:ahn:person/lodovico-accarisi
 type: person
-label_ja: ファウスト・ゾナーロ
-label_en: Fausto Zonaro
+label_ja: ロドヴィーコ・アッカリージ
+label_en: Lodovico Accarisi
 aliases:
-  - Zonaro Fausto
+  - Accarisi Lodovico
 authority:
   wikidata: null
   ulan: null
@@ -15,7 +15,7 @@ authority:
 time:
   start: null
   end: null
-  display: "19世紀末にマージ出身者として活動"
+  display: "19世紀末にローマ出身者として活動"
 space: []
 relations:
   - {type: exhibited_at, target: event/first-brera-triennale-1891}
@@ -25,6 +25,6 @@ status: draft
 updated: 2026-08-13
 ---
 
-# ファウスト・ゾナーロ / Fausto Zonaro
+# ロドヴィーコ・アッカリージ / Lodovico Accarisi
 
-1891年の第一回ブレラ三年展公式カタログに、パドヴァ県マージ出身者として掲載される出品者。465番《Festa popolare》、593番《Porta laterale del Duomo di Genova》を出品した。本項は展覧会記録に限定する。
+1891年の第一回ブレラ三年展公式カタログに、ローマ出身者として掲載される出品者。590番《Fioraia di Firenze》を出品した。本項は展覧会記録に限定する。
