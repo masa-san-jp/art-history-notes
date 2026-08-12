@@ -40,4 +40,4 @@ updated: 2026-08-12
 追加確認するまで人物側の出品記録に留める。
 
 1907年パリ展では、Salle A（Rotonde）の19〜21番に出品し、20番《Premiers Rayons》を
-[`作品記録`](../works/premiers-rayons-tominetti-1907.md)に分離した。制作年と現所在は未確認である。
+[`作品記録`](../works/premiers-rayons-tominetti-1907.md)に分離した。19番[`《Sous la neige》`](../works/sous-la-neige-tominetti-1907.md)も作品記録へ分離したが、1905年ヴェネツィア展の同名作との同一性は未確認である。制作年と現所在は未確認である。

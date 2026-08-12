@@ -15756,6 +15756,44 @@
       "updated": "2026-08-12",
       "path": "entities/works/sognando-rastellini-1891.md"
     },
+    "work/sous-la-neige-tominetti-1907": {
+      "id": "work/sous-la-neige-tominetti-1907",
+      "uri": "urn:ahn:work/sous-la-neige-tominetti-1907",
+      "type": "work",
+      "label_ja": "アキッレ・トミネッティ《Sous la neige》",
+      "label_en": "Sous la neige",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "独立作品典拠IDは未確認。1907年パリ展カタログと1905年ヴェネツィア展の関連記録を用いる"
+      },
+      "time": {
+        "start": "1907",
+        "end": "1907",
+        "display": "1907年パリ展出品（制作年未確認）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/achille-tominetti"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/salon-divisionnistes-italiens-paris-1907"
+        }
+      ],
+      "sources": [
+        "https://exhibitions.univie.ac.at/person/gnd/141119950",
+        "https://exhibitions.univie.ac.at/exhibition/125",
+        "https://www.enricogallerie.com/index.php?q=it%2Fartist%2Fpittore_tominetti_achille_544"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/works/sous-la-neige-tominetti-1907.md"
+    },
     "work/spatial-construction-no-12": {
       "id": "work/spatial-construction-no-12",
       "uri": "urn:ahn:work/spatial-construction-no-12",
@@ -18802,6 +18840,20 @@
       "source": null
     },
     {
+      "from": "work/sous-la-neige-tominetti-1907",
+      "type": "created_by",
+      "to": "person/achille-tominetti",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/sous-la-neige-tominetti-1907",
+      "type": "exhibited_at",
+      "to": "event/salon-divisionnistes-italiens-paris-1907",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "work/spatial-construction-no-12",
       "type": "created_by",
       "to": "person/alexander-rodchenko",
@@ -20646,6 +20698,18 @@
       "from": "event/first-brera-triennale-1891",
       "type": "exhibited",
       "to": "work/sognando-rastellini-1891",
+      "derived": true
+    },
+    {
+      "from": "person/achille-tominetti",
+      "type": "created",
+      "to": "work/sous-la-neige-tominetti-1907",
+      "derived": true
+    },
+    {
+      "from": "event/salon-divisionnistes-italiens-paris-1907",
+      "type": "exhibited",
+      "to": "work/sous-la-neige-tominetti-1907",
       "derived": true
     },
     {
