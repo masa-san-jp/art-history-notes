@@ -38,3 +38,6 @@ updated: 2026-08-12
 掲載される。別資料が1891年ブレラ出品作として確認する[`335番《Ultimi raggi》`](../works/ultimi-raggi-tominetti-1891.md)と
 [`404番《In cerca di legna》`](../works/in-cerca-di-legna-tominetti-1891.md)を作品化し、336番は作品固有の対応資料を
 追加確認するまで人物側の出品記録に留める。
+
+1907年パリ展では、Salle A（Rotonde）の19〜21番に出品し、20番《Premiers Rayons》を
+[`作品記録`](../works/premiers-rayons-tominetti-1907.md)に分離した。制作年と現所在は未確認である。
