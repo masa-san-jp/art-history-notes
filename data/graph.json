@@ -10187,6 +10187,41 @@
       "updated": "2026-08-12",
       "path": "entities/persons/emilio-longoni.md"
     },
+    "person/enrico-butti": {
+      "id": "person/enrico-butti",
+      "uri": "urn:ahn:person/enrico-butti",
+      "type": "person",
+      "label_ja": "エンリコ・ブッティ",
+      "label_en": "Enrico Butti",
+      "authority": {
+        "wikidata": "Q761843",
+        "ulan": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": "1847",
+        "end": "1932",
+        "display": "1847年ヴィッジュ生まれ — 1932年同地没"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://www.treccani.it/enciclopedia/enrico-butti/",
+        "https://www.treccani.it/enciclopedia/enrico-butti_%28Enciclopedia-Italiana%29/",
+        "https://www.wikidata.org/wiki/Q761843",
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/persons/enrico-butti.md"
+    },
     "person/ernest-fenollosa": {
       "id": "person/ernest-fenollosa",
       "uri": "urn:ahn:person/ernest-fenollosa",
@@ -20993,6 +21028,44 @@
       "updated": "2026-08-12",
       "path": "entities/works/monument-to-third-international.md"
     },
+    "work/monumento-funerario-in-bronzo-butti-1891": {
+      "id": "work/monumento-funerario-in-bronzo-butti-1891",
+      "uri": "urn:ahn:work/monumento-funerario-in-bronzo-butti-1891",
+      "type": "work",
+      "label_ja": "エンリコ・ブッティ《Monumento funerario in bronzo》",
+      "label_en": "Monumento funerario in bronzo",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "作品の独立典拠IDは未確認。1891年公式カタログと関連する墓碑作品の記録を用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年展出品"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/enrico-butti"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://www.treccani.it/enciclopedia/enrico-butti/",
+        "https://it.wikipedia.org/wiki/Monumento_funebre_a_Isabella_Airoldi_Casati",
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/works/monumento-funerario-in-bronzo-butti-1891.md"
+    },
     "work/moufflon-des-alpes-magrini-1907": {
       "id": "work/moufflon-des-alpes-magrini-1907",
       "uri": "urn:ahn:work/moufflon-des-alpes-magrini-1907",
@@ -26713,6 +26786,13 @@
       "source": null
     },
     {
+      "from": "person/enrico-butti",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "person/eugenio-bellosio",
       "type": "exhibited_at",
       "to": "event/salon-divisionnistes-italiens-paris-1907",
@@ -29415,6 +29495,20 @@
       "source": null
     },
     {
+      "from": "work/monumento-funerario-in-bronzo-butti-1891",
+      "type": "created_by",
+      "to": "person/enrico-butti",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/monumento-funerario-in-bronzo-butti-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "work/moufflon-des-alpes-magrini-1907",
       "type": "created_by",
       "to": "person/adolphe-magrini",
@@ -32010,6 +32104,12 @@
       "derived": true
     },
     {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "person/enrico-butti",
+      "derived": true
+    },
+    {
       "from": "event/salon-divisionnistes-italiens-paris-1907",
       "type": "exhibited",
       "to": "person/eugenio-bellosio",
@@ -34233,6 +34333,18 @@
       "from": "movement/constructivism",
       "type": "has_member",
       "to": "work/monument-to-third-international",
+      "derived": true
+    },
+    {
+      "from": "person/enrico-butti",
+      "type": "created",
+      "to": "work/monumento-funerario-in-bronzo-butti-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/monumento-funerario-in-bronzo-butti-1891",
       "derived": true
     },
     {
