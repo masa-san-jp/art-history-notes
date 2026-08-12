@@ -29,6 +29,7 @@ space:
   - {role: originated_in, target: place/benin-city}
 relations:
   - {type: created_by, target: org/igun-eronmwon}
+  - {type: influenced_by, target: movement/ife-art, certainty: hypothesis, source: "https://www.metmuseum.org/fr/essays/origins-and-empire-the-benin-owo-and-ijebu-kingdoms"}
 sources:
   - https://www.wikidata.org/wiki/Q4888026
   - https://www.wikidata.org/wiki/Q111731632
@@ -139,6 +140,18 @@ Benin）の end time qualifier の両方に1897年を置く。**このKBが `tim
 所有を許すことがあった」と記すが、これは所有の話であり、制作地そのものが移動したという記述は
 当たった出典には無い。
 
+## イフェとの伝承・様式的接続
+
+メトロポリタン美術館は、ベニンの宮廷史が、オバ・オグオラの要請でイフェから来た鋳造師イグエガが
+ベニンの鋳造師に技術を教えたと伝えること、また最初期のベニンの記念頭像がイフェ彫刻の洗練された
+自然主義を反復することを記録している。これはベニン側から見たイフェ美術の技術的・様式的な影響を
+示すため、`influenced_by` を張った。
+
+ただし、この接続は王宮伝承と初期作品の様式比較に基づくもので、技術移転の実証が確定しているわけ
+ではない。イグン・エロンムオン側の伝承を疑問視する研究も紹介されているため、関係の確度は
+`hypothesis` とした。ここで記録するのは「ベニン宮廷美術がイフェ美術から影響を受けた」という
+限定的な接続であり、両地域の鋳造技術全体が一方向に由来するという主張ではない。
+
 ## 未着手
 
 - イグベサンムオン（象牙彫刻ギルド、Wikidata [Q123180104](https://www.wikidata.org/wiki/Q123180104)）
@@ -147,5 +160,4 @@ Benin）の end time qualifier の両方に1897年を置く。**このKBが `tim
   今回の調査範囲外としたが、event として立てれば `precedes` 等の時間軸の釘になる
 - ギルド創設の伝承の出典間不一致（オグオラ13世紀伝承 対 オギソ・エレ1世紀伝承）を解く一次資料
 - ファッグの3期区分（初期・中期・後期）を具体的な作品（work エンティティ）に紐づけて裏取りする作業
-- イフェ（Wikidata上でイグエガの出身地とされる）との関係——`influenced_by` または `diffused_to`
-  に相当するが、今回は関係エッジを張らず本文中の言及に留めた
+- イフェとの技術移転伝承を、デニス・ウィリアムズおよびUsuanlele & Falolaの原論文で再確認すること
