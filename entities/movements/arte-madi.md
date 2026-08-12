@@ -29,6 +29,7 @@ space:
   - {role: originated_in, target: place/buenos-aires}
 relations:
   - {type: created_by, target: person/gyula-kosice}
+  - {type: influenced_by, target: movement/de-stijl, certainty: scholarly, source: "https://www.mfah.org/blogs/inside-mfah/gyula-kosice-and-rise-argentinean-avant-garde"}
   - {type: influenced_by, target: movement/constructivism, certainty: scholarly, source: "https://www.mfah.org/blogs/inside-mfah/gyula-kosice-and-rise-argentinean-avant-garde"}
 sources:
   - https://kosice.com.ar/otros-recursos/los-textos/de-kosice/manifiesto-madi/
@@ -109,10 +110,11 @@ INVENTA Y CREA.（ゆえにマディは、発明し、創造する。）」で�
 ### ヨーロッパ構成主義との形成的接続
 
 MFAHの解説は、マディの前身となる1940年代ブエノスアイレス前衛が、ヨーロッパのネオ・プラスティシスム、
-構成主義、Réalités Nouvellesから刺激を受けたと説明する。ここでの
-`influenced_by movement/constructivism` は、1944年の『Arturo』周辺から1946年のマディ成立に至る
+構成主義、Réalités Nouvellesから刺激を受けたと説明する。本KBではネオ・プラスティシスムを、
+モンドリアンを主要な形成要素として含むデ・ステイルに対応づける。ここでの両方の
+`influenced_by` は、1944年の『Arturo』周辺から1946年のマディ成立に至る
 コシツェ、アルデン・キン、ロトフスらの形成期におけるヨーロッパ構成主義の受容に限定し、マディ全体を
-ロシア構成主義の派生物とはしない。
+デ・ステイルまたはロシア構成主義の単純な派生物とはしない。
 
 ## kind の判定
 
