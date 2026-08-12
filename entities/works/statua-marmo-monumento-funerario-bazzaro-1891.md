@@ -1,9 +1,9 @@
 ---
-id: work/testa-di-vecchio-bazzaro-1891
-uri: urn:ahn:work/testa-di-vecchio-bazzaro-1891
+id: work/statua-marmo-monumento-funerario-bazzaro-1891
+uri: urn:ahn:work/statua-marmo-monumento-funerario-bazzaro-1891
 type: work
-label_ja: エルネスト・バッツァーロ《Testa di vecchio》
-label_en: Testa di vecchio
+label_ja: エルネスト・バッツァーロ《Statua in marmo per monumento funerario》
+label_en: Statua in marmo per monumento funerario
 authority:
   wikidata: null
   aat: null
@@ -26,7 +26,7 @@ status: draft
 updated: 2026-08-12
 ---
 
-# エルネスト・バッツァーロ《Testa di vecchio》
+# エルネスト・バッツァーロ《Statua in marmo per monumento funerario》
 
-1891年の第一回ブレラ三年展公式カタログは、Sala Aの28番に「Testa di vecchio」を「Bazzaro Ernesto di Milano」名義で掲載し、
-媒体を「Bronzo」と記録する。作品固有の現所在、制作年、独立した典拠IDは未確認のため、ここでは展覧会カタログ上の出品記録だけを保持する。
+1891年の第一回ブレラ三年展公式カタログは、Sala Aの29番に「Statua in marmo per monumento funerario」を「Bazzaro Ernesto di Milano」名義で掲載している。
+作品固有の現所在、制作年、独立した典拠IDは未確認のため、ここでは展覧会カタログ上の出品記録だけを保持する。
