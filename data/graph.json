@@ -1584,7 +1584,14 @@
           "target": "place/basohli"
         }
       ],
-      "relations": [],
+      "relations": [
+        {
+          "type": "influenced_by",
+          "target": "movement/mughal-painting",
+          "certainty": "scholarly",
+          "source": "https://resources.metmuseum.org/resources/metpublications/pdf/Divine_Pleasures.pdf"
+        }
+      ],
       "sources": [
         "https://en.wikipedia.org/wiki/Basohli",
         "https://www.wikidata.org/wiki/Q711982",
@@ -1598,7 +1605,8 @@
         "https://francescagalloway.com/blog/32-a-brief-introduction-to-pahari-painting-extract-from-j.p.-lostys-essay-first-published-in/",
         "https://aatesaurus.cultura.gencat.cat/aat/getty_en/index.php?%2Frajput=&tema=31367026",
         "https://www.metmuseum.org/art/collection/search/825657",
-        "https://en.wikipedia.org/wiki/Nainsukh"
+        "https://en.wikipedia.org/wiki/Nainsukh",
+        "https://resources.metmuseum.org/resources/metpublications/pdf/Divine_Pleasures.pdf"
       ],
       "images": [
         {
@@ -56241,6 +56249,13 @@
     },
     {
       "from": "movement/basohli-painting",
+      "type": "influenced_by",
+      "to": "movement/mughal-painting",
+      "certainty": "scholarly",
+      "source": "https://resources.metmuseum.org/resources/metpublications/pdf/Divine_Pleasures.pdf"
+    },
+    {
+      "from": "movement/basohli-painting",
       "type": "originated_in",
       "to": "place/basohli"
     },
@@ -72430,6 +72445,12 @@
       "from": "movement/cubism",
       "type": "influenced",
       "to": "movement/bandung-school",
+      "derived": true
+    },
+    {
+      "from": "movement/mughal-painting",
+      "type": "influenced",
+      "to": "movement/basohli-painting",
       "derived": true
     },
     {

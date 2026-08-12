@@ -27,7 +27,8 @@ claims:
   - {field: originated_in, source: "https://en.wikipedia.org/wiki/Basohli", certainty: scholarly}
 space:
   - {role: originated_in, target: place/basohli}
-relations: []
+relations:
+  - {type: influenced_by, target: movement/mughal-painting, certainty: scholarly, source: "https://resources.metmuseum.org/resources/metpublications/pdf/Divine_Pleasures.pdf"}
 sources:
   - https://en.wikipedia.org/wiki/Basohli
   - https://www.wikidata.org/wiki/Q711982
@@ -42,6 +43,7 @@ sources:
   - https://aatesaurus.cultura.gencat.cat/aat/getty_en/index.php?%2Frajput=&tema=31367026
   - https://www.metmuseum.org/art/collection/search/825657
   - https://en.wikipedia.org/wiki/Nainsukh
+  - https://resources.metmuseum.org/resources/metpublications/pdf/Divine_Pleasures.pdf
 images:
   - url: https://images.metmuseum.org/CRDImages/as/original/DP153147.jpg
     source_page: https://www.metmuseum.org/art/collection/search/37941
@@ -159,11 +161,10 @@ Wikipediaは「18世紀半ばまでにカーングラ派へと発展した（evo
 伝える。
 
 Losty論考は、バソーリ・ヌールプルの様式の起源について「ムガルの様式ではなく、より古いラージプトの
-伝統に由来するとみられる、totally Rajput conceptualisedな様式」だとする一方、別のウェブ検索結果
-（二次情報）は「ヒンドゥー神話に関する民俗芸術の古い伝統とムガルの技法が融合して生まれた様式」だと
-伝えており、ムガルからの技法的影響の有無・程度について出典間で評価が割れている。カーングラ派の
-場合と異なり、ムガル絵画（[movement/mughal-painting](mughal-painting.md)）への`influenced_by`は
-出典の一致を得られなかったため、ここでは関係として張らない。
+伝統に由来するとみられる、totally Rajput conceptualisedな様式」だとする。一方、メトロポリタン美術館の
+研究出版物は、ムガルの様式と技法が中心から周辺へ伝播し、パンジャブ丘陵の初期パハーリー様式にも及んだ
+と整理している。そのため、バソーリ派をムガル絵画の単純な派生とはせず、ラージプト／パハーリーの固有の
+造形を保ちながら、ムガルの様式・技法の伝播を受けたという限定で、ムガル絵画へ`influenced_by`を張る。
 
 ### kind の判定 — なぜ period-style か
 
