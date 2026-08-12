@@ -9319,6 +9319,39 @@
       "updated": "2026-08-09",
       "path": "entities/persons/abanindranath-tagore.md"
     },
+    "person/achille-salata": {
+      "id": "person/achille-salata",
+      "uri": "urn:ahn:person/achille-salata",
+      "type": "person",
+      "label_ja": "アキッレ・サラタ",
+      "label_en": "Achille Salata",
+      "authority": {
+        "wikidata": null,
+        "ulan": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "独立した人物典拠IDは未確認。Dizionario d'Arte Sartori、オスティリアの地域アーカイブ資料、1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": "1850-06-28",
+        "end": null,
+        "display": "1850年6月28日オスティリア生まれ — 1901年以降没時期不詳"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://dizionariodartesartori.it/artisti/salata-achille",
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/persons/achille-salata.md"
+    },
     "person/achille-tominetti": {
       "id": "person/achille-tominetti",
       "uri": "urn:ahn:person/achille-tominetti",
@@ -9531,6 +9564,40 @@
       "status": "draft",
       "updated": "2026-08-09",
       "path": "entities/persons/aime-cesaire.md"
+    },
+    "person/alessandro-laforet": {
+      "id": "person/alessandro-laforet",
+      "uri": "urn:ahn:person/alessandro-laforet",
+      "type": "person",
+      "label_ja": "アレッサンドロ・ラフォレ",
+      "label_en": "Alessandro Laforet",
+      "authority": {
+        "wikidata": null,
+        "ulan": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "独立した人物典拠IDは未確認。オルセー美術館、Dizionario d'Arte Sartori、1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": "1863-03-27",
+        "end": "1937-01-27",
+        "display": "1863年3月27日ミラノ生まれ — 1937年1月27日同地没"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://www.musee-orsay.fr/en/ressources/artists-personalities-catalog/alessandro-laforet-16017",
+        "https://dizionariodartesartori.it/artisti/laforet-alessandro",
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/persons/alessandro-laforet.md"
     },
     "person/alexander-rodchenko": {
       "id": "person/alexander-rodchenko",
@@ -18301,6 +18368,43 @@
       "updated": "2026-08-12",
       "path": "entities/works/hutte-alpestre-tominetti-1907.md"
     },
+    "work/il-bacio-di-santuzza-salata-1891": {
+      "id": "work/il-bacio-di-santuzza-salata-1891",
+      "uri": "urn:ahn:work/il-bacio-di-santuzza-salata-1891",
+      "type": "work",
+      "label_ja": "アキッレ・サラタ《Il bacio di Santuzza》",
+      "label_en": "Il bacio di Santuzza",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "1891年展出品作としての独立典拠IDと現所在は未確認。公式カタログと人物典拠を用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年展出品"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/achille-salata"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://dizionariodartesartori.it/artisti/salata-achille",
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/works/il-bacio-di-santuzza-salata-1891.md"
+    },
     "work/il-generale-bava-ghidoni-1891": {
       "id": "work/il-generale-bava-ghidoni-1891",
       "uri": "urn:ahn:work/il-generale-bava-ghidoni-1891",
@@ -21772,6 +21876,44 @@
       "status": "draft",
       "updated": "2026-08-12",
       "path": "entities/works/orage-magrini-1907.md"
+    },
+    "work/orfanella-laforet-1891": {
+      "id": "work/orfanella-laforet-1891",
+      "uri": "urn:ahn:work/orfanella-laforet-1891",
+      "type": "work",
+      "label_ja": "アレッサンドロ・ラフォレ《Orfanella》",
+      "label_en": "Orfanella",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "1891年展出品作としての独立典拠IDと現所在は未確認。公式カタログと人物典拠を用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年展出品"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/alessandro-laforet"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://www.musee-orsay.fr/en/ressources/artists-personalities-catalog/alessandro-laforet-16017",
+        "https://dizionariodartesartori.it/artisti/laforet-alessandro",
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/works/orfanella-laforet-1891.md"
     },
     "work/ours-blanc-magrini-1907": {
       "id": "work/ours-blanc-magrini-1907",
@@ -26922,6 +27064,13 @@
       "to": "place/moscow"
     },
     {
+      "from": "person/achille-salata",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "person/achille-tominetti",
       "type": "belongs_to",
       "to": "movement/italian-divisionism",
@@ -26974,6 +27123,13 @@
       "from": "person/adriano-baracchini-caputi",
       "type": "exhibited_at",
       "to": "event/salon-divisionnistes-italiens-paris-1907",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "person/alessandro-laforet",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
       "certainty": null,
       "source": null
     },
@@ -28815,6 +28971,20 @@
       "source": null
     },
     {
+      "from": "work/il-bacio-di-santuzza-salata-1891",
+      "type": "created_by",
+      "to": "person/achille-salata",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/il-bacio-di-santuzza-salata-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "work/il-generale-bava-ghidoni-1891",
       "type": "created_by",
       "to": "person/domenico-ghidoni",
@@ -30148,6 +30318,20 @@
       "from": "work/orage-magrini-1907",
       "type": "exhibited_at",
       "to": "event/salon-divisionnistes-italiens-paris-1907",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/orfanella-laforet-1891",
+      "type": "created_by",
+      "to": "person/alessandro-laforet",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/orfanella-laforet-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
       "certainty": null,
       "source": null
     },
@@ -32442,6 +32626,12 @@
       "derived": true
     },
     {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "person/achille-salata",
+      "derived": true
+    },
+    {
       "from": "movement/italian-divisionism",
       "type": "has_member",
       "to": "person/achille-tominetti",
@@ -32487,6 +32677,12 @@
       "from": "event/salon-divisionnistes-italiens-paris-1907",
       "type": "exhibited",
       "to": "person/adriano-baracchini-caputi",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "person/alessandro-laforet",
       "derived": true
     },
     {
@@ -33936,6 +34132,18 @@
       "derived": true
     },
     {
+      "from": "person/achille-salata",
+      "type": "created",
+      "to": "work/il-bacio-di-santuzza-salata-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/il-bacio-di-santuzza-salata-1891",
+      "derived": true
+    },
+    {
       "from": "person/domenico-ghidoni",
       "type": "created",
       "to": "work/il-generale-bava-ghidoni-1891",
@@ -35079,6 +35287,18 @@
       "from": "event/salon-divisionnistes-italiens-paris-1907",
       "type": "exhibited",
       "to": "work/orage-magrini-1907",
+      "derived": true
+    },
+    {
+      "from": "person/alessandro-laforet",
+      "type": "created",
+      "to": "work/orfanella-laforet-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/orfanella-laforet-1891",
       "derived": true
     },
     {
