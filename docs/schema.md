@@ -161,6 +161,26 @@ movement の開始時期が複数区間にまたがる場合は、最初の1つ�
 または辞書に該当項目がない場合は、place の基準 `region` に戻る。辞書のplace ID、region、EDTF、区間の重複は
 `tools/build_graph.py --check` が検証する。
 
+### `coverage-reviews.yaml` — 調査済みの空セル
+
+被覆表の空欄は未着手と調査済みの該当なしを兼ねない。後者は
+`config/coverage-reviews.yaml` に文化圏・世紀単位で記録する。
+
+```yaml
+cells:
+  - region: oceania
+    century: "20"
+    status: no-known-grouping
+    note: "調査した範囲では、この文化圏・世紀に既存の movement として採れる直接の括りは確認できない"
+    sources:
+      - https://www.nma.gov.au/explore/collection/highlights/papunya-collection
+```
+
+`no-known-grouping` は「そのセルに movement が存在しない」という否定命題ではなく、記録した調査範囲で
+このKBの movement として採れる括りが見つからなかった、という調査結果である。`build_graph.py --check`
+は文化圏・世紀・URL・重複を検証し、既に movement があるセルへの記録を拒否する。生成された被覆表では
+`∅` と表示され、通常の空欄（未着手）と区別される。
+
 ### `founding_control`（任意・movement）
 
 **設立・所有・意思決定に、対象文化の外部者が構造的に含まれていたか。** `internal` / `shared` / `external`。
