@@ -14939,6 +14939,43 @@
       "updated": "2026-08-12",
       "path": "entities/works/effet-de-soleil-le-matin-minozzi-1907.md"
     },
+    "work/effet-du-soleil-sur-la-neige-maggi-1907-no94": {
+      "id": "work/effet-du-soleil-sur-la-neige-maggi-1907-no94",
+      "uri": "urn:ahn:work/effet-du-soleil-sur-la-neige-maggi-1907-no94",
+      "type": "work",
+      "label_ja": "チェーザレ・マッジ《Effet du soleil sur la neige》",
+      "label_en": "Effet du soleil sur la neige",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "独立作品典拠IDは未確認。1907年パリ展のカタログ記録を用いる"
+      },
+      "time": {
+        "start": "1907",
+        "end": "1907",
+        "display": "1907年パリ展出品（制作年未確認）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/cesare-maggi"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/salon-divisionnistes-italiens-paris-1907"
+        }
+      ],
+      "sources": [
+        "https://exhibitions.univie.ac.at/person/ulan/500053429",
+        "https://exhibitions.univie.ac.at/exhibition/125"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/works/effet-du-soleil-sur-la-neige-maggi-1907-no94.md"
+    },
     "work/effet-du-soleil-sur-la-neige-maggi-1907": {
       "id": "work/effet-du-soleil-sur-la-neige-maggi-1907",
       "uri": "urn:ahn:work/effet-du-soleil-sur-la-neige-maggi-1907",
@@ -15014,6 +15051,43 @@
       "status": "draft",
       "updated": "2026-08-12",
       "path": "entities/works/etude-de-paysage-maggi-1907.md"
+    },
+    "work/femme-tricoteuse-maggi-1907": {
+      "id": "work/femme-tricoteuse-maggi-1907",
+      "uri": "urn:ahn:work/femme-tricoteuse-maggi-1907",
+      "type": "work",
+      "label_ja": "チェーザレ・マッジ《Femme tricoteuse》",
+      "label_en": "Femme tricoteuse",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "独立作品典拠IDは未確認。1907年パリ展のカタログ記録を用いる"
+      },
+      "time": {
+        "start": "1907",
+        "end": "1907",
+        "display": "1907年パリ展出品（制作年未確認）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/cesare-maggi"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/salon-divisionnistes-italiens-paris-1907"
+        }
+      ],
+      "sources": [
+        "https://exhibitions.univie.ac.at/person/ulan/500053429",
+        "https://exhibitions.univie.ac.at/exhibition/125"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/works/femme-tricoteuse-maggi-1907.md"
     },
     "work/ferme-baracchini-caputi-1907": {
       "id": "work/ferme-baracchini-caputi-1907",
@@ -15365,6 +15439,43 @@
       "status": "draft",
       "updated": "2026-08-12",
       "path": "entities/works/le-jardin-de-la-duchesse-leed-minozzi-1907.md"
+    },
+    "work/le-mont-cervin-maggi-1907": {
+      "id": "work/le-mont-cervin-maggi-1907",
+      "uri": "urn:ahn:work/le-mont-cervin-maggi-1907",
+      "type": "work",
+      "label_ja": "チェーザレ・マッジ《Le mont Cervin》",
+      "label_en": "Le mont Cervin",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "独立作品典拠IDは未確認。1907年パリ展のカタログ記録を用いる"
+      },
+      "time": {
+        "start": "1907",
+        "end": "1907",
+        "display": "1907年パリ展出品（制作年未確認）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/cesare-maggi"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/salon-divisionnistes-italiens-paris-1907"
+        }
+      ],
+      "sources": [
+        "https://exhibitions.univie.ac.at/person/ulan/500053429",
+        "https://exhibitions.univie.ac.at/exhibition/125"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/works/le-mont-cervin-maggi-1907.md"
     },
     "work/lef-no-2-1924": {
       "id": "work/lef-no-2-1924",
@@ -16397,6 +16508,43 @@
       "status": "draft",
       "updated": "2026-08-12",
       "path": "entities/works/un-consiglio-del-nonno-morbelli.md"
+    },
+    "work/un-nuage-maggi-1907": {
+      "id": "work/un-nuage-maggi-1907",
+      "uri": "urn:ahn:work/un-nuage-maggi-1907",
+      "type": "work",
+      "label_ja": "チェーザレ・マッジ《Un nuage》",
+      "label_en": "Un nuage",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "独立作品典拠IDは未確認。1907年パリ展のカタログ記録を用いる"
+      },
+      "time": {
+        "start": "1907",
+        "end": "1907",
+        "display": "1907年パリ展出品（制作年未確認）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/cesare-maggi"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/salon-divisionnistes-italiens-paris-1907"
+        }
+      ],
+      "sources": [
+        "https://exhibitions.univie.ac.at/person/ulan/500053429",
+        "https://exhibitions.univie.ac.at/exhibition/125"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/works/un-nuage-maggi-1907.md"
     },
     "work/village-des-alpes-ramponi-1907": {
       "id": "work/village-des-alpes-ramponi-1907",
@@ -18960,6 +19108,20 @@
       "source": null
     },
     {
+      "from": "work/effet-du-soleil-sur-la-neige-maggi-1907-no94",
+      "type": "created_by",
+      "to": "person/cesare-maggi",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/effet-du-soleil-sur-la-neige-maggi-1907-no94",
+      "type": "exhibited_at",
+      "to": "event/salon-divisionnistes-italiens-paris-1907",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "work/effet-du-soleil-sur-la-neige-maggi-1907",
       "type": "created_by",
       "to": "person/cesare-maggi",
@@ -18982,6 +19144,20 @@
     },
     {
       "from": "work/etude-de-paysage-maggi-1907",
+      "type": "exhibited_at",
+      "to": "event/salon-divisionnistes-italiens-paris-1907",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/femme-tricoteuse-maggi-1907",
+      "type": "created_by",
+      "to": "person/cesare-maggi",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/femme-tricoteuse-maggi-1907",
       "type": "exhibited_at",
       "to": "event/salon-divisionnistes-italiens-paris-1907",
       "certainty": null,
@@ -19122,6 +19298,20 @@
     },
     {
       "from": "work/le-jardin-de-la-duchesse-leed-minozzi-1907",
+      "type": "exhibited_at",
+      "to": "event/salon-divisionnistes-italiens-paris-1907",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/le-mont-cervin-maggi-1907",
+      "type": "created_by",
+      "to": "person/cesare-maggi",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/le-mont-cervin-maggi-1907",
       "type": "exhibited_at",
       "to": "event/salon-divisionnistes-italiens-paris-1907",
       "certainty": null,
@@ -19530,6 +19720,20 @@
       "from": "work/un-consiglio-del-nonno-morbelli",
       "type": "exhibited_at",
       "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/un-nuage-maggi-1907",
+      "type": "created_by",
+      "to": "person/cesare-maggi",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/un-nuage-maggi-1907",
+      "type": "exhibited_at",
+      "to": "event/salon-divisionnistes-italiens-paris-1907",
       "certainty": null,
       "source": null
     },
@@ -21038,6 +21242,18 @@
     {
       "from": "person/cesare-maggi",
       "type": "created",
+      "to": "work/effet-du-soleil-sur-la-neige-maggi-1907-no94",
+      "derived": true
+    },
+    {
+      "from": "event/salon-divisionnistes-italiens-paris-1907",
+      "type": "exhibited",
+      "to": "work/effet-du-soleil-sur-la-neige-maggi-1907-no94",
+      "derived": true
+    },
+    {
+      "from": "person/cesare-maggi",
+      "type": "created",
       "to": "work/effet-du-soleil-sur-la-neige-maggi-1907",
       "derived": true
     },
@@ -21057,6 +21273,18 @@
       "from": "event/salon-divisionnistes-italiens-paris-1907",
       "type": "exhibited",
       "to": "work/etude-de-paysage-maggi-1907",
+      "derived": true
+    },
+    {
+      "from": "person/cesare-maggi",
+      "type": "created",
+      "to": "work/femme-tricoteuse-maggi-1907",
+      "derived": true
+    },
+    {
+      "from": "event/salon-divisionnistes-italiens-paris-1907",
+      "type": "exhibited",
+      "to": "work/femme-tricoteuse-maggi-1907",
       "derived": true
     },
     {
@@ -21177,6 +21405,18 @@
       "from": "event/salon-divisionnistes-italiens-paris-1907",
       "type": "exhibited",
       "to": "work/le-jardin-de-la-duchesse-leed-minozzi-1907",
+      "derived": true
+    },
+    {
+      "from": "person/cesare-maggi",
+      "type": "created",
+      "to": "work/le-mont-cervin-maggi-1907",
+      "derived": true
+    },
+    {
+      "from": "event/salon-divisionnistes-italiens-paris-1907",
+      "type": "exhibited",
+      "to": "work/le-mont-cervin-maggi-1907",
       "derived": true
     },
     {
@@ -21525,6 +21765,18 @@
       "from": "event/first-brera-triennale-1891",
       "type": "exhibited",
       "to": "work/un-consiglio-del-nonno-morbelli",
+      "derived": true
+    },
+    {
+      "from": "person/cesare-maggi",
+      "type": "created",
+      "to": "work/un-nuage-maggi-1907",
+      "derived": true
+    },
+    {
+      "from": "event/salon-divisionnistes-italiens-paris-1907",
+      "type": "exhibited",
+      "to": "work/un-nuage-maggi-1907",
       "derived": true
     },
     {
