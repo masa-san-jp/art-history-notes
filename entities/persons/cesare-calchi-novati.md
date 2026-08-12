@@ -22,9 +22,9 @@ relations:
 sources:
   - https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf
 status: draft
-updated: 2026-08-12
+updated: 2026-08-13
 ---
 
 # チェーザレ・カルキ・ノヴァーティ / Cesare Calchi Novati
 
-1891年の第一回ブレラ三年展公式カタログに、ミラノ出身者として掲載される出品者。本項は展覧会記録に限定する。
+1891年の第一回ブレラ三年展公式カタログに、ミラノ出身者として掲載される出品者。261番《Fiori》、262番《Garofani》、430番《Primavera》を出品した。本項は展覧会記録に限定する。
