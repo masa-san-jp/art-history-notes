@@ -29,6 +29,7 @@ space:
   - {role: originated_in, target: place/paris}
 relations:
   - {type: influenced_by, target: movement/dada, certainty: scholarly, source: "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300021512"}
+  - {type: influenced_by, target: movement/symbolism, certainty: scholarly, source: "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300021512"}
 sources:
   - https://www.wikidata.org/wiki/Q39427
   - https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300021512
@@ -129,9 +130,15 @@ Getty AAT の scope note は、シュルレアリスムが象徴主義の美学�
 したがって本関係は、ダダからシュルレアリスムへの態度・実験の受容を示すものであり、
 シュルレアリスムをダダの単純な改名や直線的な継続とみなすものではない。
 
+## 象徴主義との関係
+
+Getty AATのscope noteは、シュルレアリスムが象徴主義の美学的実験とダダの態度を採用した国際的な
+知的運動だと説明する。ここでいう象徴主義は、夢・神話・暗示・無意識へ向かう美学的な実験の蓄積を
+指す。したがって、`influenced_by movement/symbolism` は象徴主義の画家や作品を一様に直接継承した
+という意味ではなく、シュルレアリスムの形成期に、象徴主義の美学的問題設定が受け取られた経路を示す。
+
 ## 未着手
 
-- 象徴主義（Symbolism）との関係——同じく AAT が名指しするがKBに無い
 - 形而上絵画（pittura metafisica）との関係——Wikidata `P737` が挙げる。KBに無い
 - 1924年の初版本およびガリカ公開の自筆原稿の本文そのものへの到達。現状の引用は二次情報経由
 - イヴァン・ゴルとの主導権争い（1924年に別系統の「シュルレアリスム宣言」が並立した）の一次資料。
