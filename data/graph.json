@@ -3224,6 +3224,12 @@
         {
           "type": "created_by",
           "target": "person/filippo-tommaso-marinetti"
+        },
+        {
+          "type": "influenced_by",
+          "target": "movement/italian-divisionism",
+          "certainty": "scholarly",
+          "source": "https://www.nationalgallery.org.uk/about-us/press-and-media/press-releases-archive/radical-light-italy-s-divisionist-painters-1891-1910"
         }
       ],
       "images": [
@@ -3256,10 +3262,11 @@
         "https://en.wikipedia.org/wiki/Umberto_Boccioni",
         "https://en.wikipedia.org/wiki/Antonio_Sant%27Elia",
         "http://exhibitions.guggenheim.org/futurism/manifestos/",
-        "https://www.theartstory.org/movement/futurism/"
+        "https://www.theartstory.org/movement/futurism/",
+        "https://www.nationalgallery.org.uk/about-us/press-and-media/press-releases-archive/radical-light-italy-s-divisionist-painters-1891-1910"
       ],
       "status": "draft",
-      "updated": "2026-08-09",
+      "updated": "2026-08-13",
       "path": "entities/movements/futurism.md"
     },
     "movement/gondarine-church-painting": {
@@ -56698,6 +56705,13 @@
     },
     {
       "from": "movement/futurism",
+      "type": "influenced_by",
+      "to": "movement/italian-divisionism",
+      "certainty": "scholarly",
+      "source": "https://www.nationalgallery.org.uk/about-us/press-and-media/press-releases-archive/radical-light-italy-s-divisionist-painters-1891-1910"
+    },
+    {
+      "from": "movement/futurism",
       "type": "originated_in",
       "to": "place/milan"
     },
@@ -72739,6 +72753,12 @@
     {
       "from": "person/filippo-tommaso-marinetti",
       "type": "created",
+      "to": "movement/futurism",
+      "derived": true
+    },
+    {
+      "from": "movement/italian-divisionism",
+      "type": "influenced",
       "to": "movement/futurism",
       "derived": true
     },
