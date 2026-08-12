@@ -22,7 +22,7 @@ sources:
   - https://upload.wikimedia.org/wikipedia/commons/c/c5/Esposizione_delle_opere_di_belle_arti_nel_Palazzo_di_Brera_-_Anno_1879_%28IA_esposizionedelle00real%29.pdf
   - https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf
 status: draft
-updated: 2026-08-12
+updated: 2026-08-13
 ---
 
 # アッティリオ・フェッリ / Attilio Ferri
@@ -30,5 +30,5 @@ updated: 2026-08-12
 パルマ出身者として1891年の第一回ブレラ三年展公式カタログに掲載された画家。ロンバルディア文化財カタログは、
 19世紀後半の画家として《Pescatori. Marina con barca di pescatori》を登録しているが、生没年や詳細な人物典拠は未確認である。
 
-1891年展では、公式カタログの45番《L’onda》を出品した。本項では、この展覧会での出品関係を記録するが、
+1891年展では、公式カタログの45番《L’onda》、394番《Parco innondato》を出品した。本項では、この展覧会での出品関係を記録するが、
 フェッリをイタリア分割主義の構成員とは位置づけない。
