@@ -15,7 +15,8 @@ time:
   end: "1936-11-08"
   display: "1854年11月6日メゾラ生まれ — 1936年11月8日ヴェネツィア没"
 space: []
-relations: []
+relations:
+  - {type: exhibited_at, target: event/first-brera-triennale-1891}
 sources:
   - https://www.treccani.it/enciclopedia/cesare-laurenti_%28Dizionario-Biografico%29/
   - https://archivio-capesaro.visitmuve.it/en/mostre-en/archivio-mostre-en/cesare-laurenti-1854-1936-the-rialto-fish-market/2011/07/1346/cesare-laurenti-1/

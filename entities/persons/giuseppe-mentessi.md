@@ -18,6 +18,7 @@ space:
   - {role: active_in, target: place/milan}
 relations:
   - {type: belongs_to, target: movement/italian-divisionism}
+  - {type: exhibited_at, target: event/first-brera-triennale-1891}
 sources:
   - https://www.treccani.it/enciclopedia/giuseppe-mentessi_%28Dizionario-Biografico%29/
   - https://www.wikidata.org/wiki/Q5565457

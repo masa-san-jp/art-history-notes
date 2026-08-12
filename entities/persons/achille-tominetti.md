@@ -17,6 +17,7 @@ time:
 space: []
 relations:
   - {type: belongs_to, target: movement/italian-divisionism}
+  - {type: exhibited_at, target: event/first-brera-triennale-1891}
   - {type: exhibited_at, target: event/salon-divisionnistes-italiens-paris-1907}
 sources:
   - https://www.wikidata.org/wiki/Q3604429

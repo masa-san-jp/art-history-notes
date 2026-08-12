@@ -16,7 +16,8 @@ time:
   display: "1828年1月14日ミラノ生まれ — 1897年11月29日ミラノ没"
 space:
   - {role: active_in, target: place/milan}
-relations: []
+relations:
+  - {type: exhibited_at, target: event/first-brera-triennale-1891}
 sources:
   - https://www.treccani.it/enciclopedia/sebastiano-de-albertis_%28Dizionario-Biografico%29/
   - https://www.wikidata.org/wiki/Q3953749

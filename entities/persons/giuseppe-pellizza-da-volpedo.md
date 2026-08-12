@@ -19,6 +19,7 @@ time:
 space: []
 relations:
   - {type: belongs_to, target: movement/italian-divisionism}
+  - {type: exhibited_at, target: event/first-brera-triennale-1891}
 sources:
   - https://www.wikidata.org/wiki/Q1528580
   - https://www.treccani.it/enciclopedia/pellizza-da-volpedo-giuseppe_%28Dizionario-Biografico%29/

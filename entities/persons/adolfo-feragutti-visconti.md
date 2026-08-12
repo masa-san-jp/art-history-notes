@@ -15,7 +15,8 @@ time:
   end: "1924-03-10"
   display: "1850年3月25日プーラ生まれ — 1924年3月10日ミラノ没"
 space: []
-relations: []
+relations:
+  - {type: exhibited_at, target: event/first-brera-triennale-1891}
 sources:
   - https://www.treccani.it/enciclopedia/giuseppe-adolfo-feregutti_%28Dizionario-Biografico%29/
   - https://www.wikidata.org/wiki/Q3605437

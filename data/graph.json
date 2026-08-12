@@ -9345,6 +9345,10 @@
         },
         {
           "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        },
+        {
+          "type": "exhibited_at",
           "target": "event/salon-divisionnistes-italiens-paris-1907"
         }
       ],
@@ -9378,7 +9382,12 @@
         "display": "1850年3月25日プーラ生まれ — 1924年3月10日ミラノ没"
       },
       "space": [],
-      "relations": [],
+      "relations": [
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
       "sources": [
         "https://www.treccani.it/enciclopedia/giuseppe-adolfo-feregutti_%28Dizionario-Biografico%29/",
         "https://www.wikidata.org/wiki/Q3605437",
@@ -9604,6 +9613,10 @@
         {
           "type": "belongs_to",
           "target": "movement/italian-divisionism"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
         }
       ],
       "sources": [
@@ -9636,7 +9649,12 @@
         "display": "1862年4月17日フェラーラ生まれ — 1925年12月4日フォルリ没"
       },
       "space": [],
-      "relations": [],
+      "relations": [
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
       "sources": [
         "https://www.wikidata.org/wiki/Q3623496",
         "https://www.museodelpaesaggio.it/artista/arnaldo-ferraguti/",
@@ -9816,6 +9834,10 @@
         },
         {
           "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        },
+        {
+          "type": "exhibited_at",
           "target": "event/salon-divisionnistes-italiens-paris-1907"
         }
       ],
@@ -9886,7 +9908,12 @@
         "display": "1854年11月6日メゾラ生まれ — 1936年11月8日ヴェネツィア没"
       },
       "space": [],
-      "relations": [],
+      "relations": [
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
       "sources": [
         "https://www.treccani.it/enciclopedia/cesare-laurenti_%28Dizionario-Biografico%29/",
         "https://archivio-capesaro.visitmuve.it/en/mostre-en/archivio-mostre-en/cesare-laurenti-1854-1936-the-rialto-fish-market/2011/07/1346/cesare-laurenti-1/",
@@ -10110,6 +10137,10 @@
         {
           "type": "belongs_to",
           "target": "movement/italian-divisionism"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
         }
       ],
       "sources": [
@@ -10366,7 +10397,12 @@
         "display": "1840年9月25日ミラノ生まれ — 1914年1月19日ミラノ没"
       },
       "space": [],
-      "relations": [],
+      "relations": [
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
       "sources": [
         "https://www.treccani.it/enciclopedia/filippo-carcano_%28Enciclopedia-Italiana%29/",
         "https://www.treccani.it/enciclopedia/filippo-carcano_%28Dizionario-Biografico%29/",
@@ -10424,7 +10460,12 @@
         "display": "1853年9月18日ブレシア生まれ — 1895年3月6日ミラノ没"
       },
       "space": [],
-      "relations": [],
+      "relations": [
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
       "sources": [
         "https://www.treccani.it/enciclopedia/francesco-filippini_%28Dizionario-Biografico%29/",
         "https://galleriemaspes.com/immagini_sito/Cataloghi%20pdf/Brera_Guide.pdf"
@@ -10456,6 +10497,10 @@
         {
           "type": "belongs_to",
           "target": "movement/italian-divisionism"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
         },
         {
           "type": "exhibited_at",
@@ -10614,6 +10659,10 @@
         {
           "type": "belongs_to",
           "target": "movement/italian-divisionism"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
         }
       ],
       "sources": [
@@ -10688,6 +10737,10 @@
         {
           "type": "belongs_to",
           "target": "movement/italian-divisionism"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
         },
         {
           "type": "exhibited_at",
@@ -10775,6 +10828,10 @@
         {
           "type": "belongs_to",
           "target": "movement/italian-divisionism"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
         }
       ],
       "sources": [
@@ -10853,6 +10910,10 @@
         {
           "type": "belongs_to",
           "target": "movement/italian-divisionism"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
         }
       ],
       "sources": [
@@ -11215,7 +11276,12 @@
           "target": "place/milan"
         }
       ],
-      "relations": [],
+      "relations": [
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
       "sources": [
         "https://www.wikidata.org/wiki/Q3828265",
         "https://archivio-alon.it/autore/pasini-lazzaro/86",
@@ -11366,7 +11432,12 @@
         "display": "1840年1月17日ポッローネ生まれ — 1908年11月13日トリノ没"
       },
       "space": [],
-      "relations": [],
+      "relations": [
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
       "sources": [
         "https://www.wikidata.org/wiki/Q1155252",
         "https://www.treccani.it/enciclopedia/lorenzo-delleani_%28Dizionario-Biografico%29/",
@@ -11838,7 +11909,12 @@
           "target": "place/venice"
         }
       ],
-      "relations": [],
+      "relations": [
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
       "sources": [
         "https://www.treccani.it/enciclopedia/pietro-fragiacomo_%28Dizionario-Biografico%29/",
         "https://www.wikidata.org/wiki/Q3903892",
@@ -11910,6 +11986,10 @@
         {
           "type": "belongs_to",
           "target": "movement/italian-divisionism"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
         }
       ],
       "sources": [
@@ -12159,7 +12239,12 @@
           "target": "place/milan"
         }
       ],
-      "relations": [],
+      "relations": [
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
       "sources": [
         "https://www.treccani.it/enciclopedia/sebastiano-de-albertis_%28Dizionario-Biografico%29/",
         "https://www.wikidata.org/wiki/Q3953749",
@@ -12423,6 +12508,10 @@
         {
           "type": "belongs_to",
           "target": "movement/italian-divisionism"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
         }
       ],
       "sources": [
@@ -26225,7 +26314,21 @@
     {
       "from": "person/achille-tominetti",
       "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "person/achille-tominetti",
+      "type": "exhibited_at",
       "to": "event/salon-divisionnistes-italiens-paris-1907",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "person/adolfo-feragutti-visconti",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
       "certainty": null,
       "source": null
     },
@@ -26295,8 +26398,22 @@
     },
     {
       "from": "person/angelo-morbelli",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "person/angelo-morbelli",
       "type": "active_in",
       "to": "place/milan"
+    },
+    {
+      "from": "person/arnaldo-ferraguti",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
     },
     {
       "from": "person/attilio-pusterla",
@@ -26341,6 +26458,13 @@
     {
       "from": "person/carlo-fornara",
       "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "person/carlo-fornara",
+      "type": "exhibited_at",
       "to": "event/salon-divisionnistes-italiens-paris-1907",
       "certainty": null,
       "source": null
@@ -26356,6 +26480,13 @@
       "from": "person/carlo-prada",
       "type": "exhibited_at",
       "to": "event/salon-divisionnistes-italiens-paris-1907",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "person/cesare-laurenti",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
       "certainty": null,
       "source": null
     },
@@ -26422,6 +26553,13 @@
       "source": null
     },
     {
+      "from": "person/emilio-longoni",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "person/eugenio-bellosio",
       "type": "exhibited_at",
       "to": "event/salon-divisionnistes-italiens-paris-1907",
@@ -26457,9 +26595,30 @@
       "source": null
     },
     {
+      "from": "person/filippo-carcano",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "person/francesco-filippini",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "person/gaetano-previati",
       "type": "belongs_to",
       "to": "movement/italian-divisionism",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "person/gaetano-previati",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
       "certainty": null,
       "source": null
     },
@@ -26521,6 +26680,13 @@
       "source": null
     },
     {
+      "from": "person/gian-maria-rastellini",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "person/giovanni-battista-rastellini",
       "type": "exhibited_at",
       "to": "event/first-brera-triennale-1891",
@@ -26531,6 +26697,13 @@
       "from": "person/giovanni-segantini",
       "type": "belongs_to",
       "to": "movement/italian-divisionism",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "person/giovanni-segantini",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
       "certainty": null,
       "source": null
     },
@@ -26557,6 +26730,13 @@
       "from": "person/giuseppe-mentessi",
       "type": "belongs_to",
       "to": "movement/italian-divisionism",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "person/giuseppe-mentessi",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
       "certainty": null,
       "source": null
     },
@@ -26583,6 +26763,13 @@
       "from": "person/giuseppe-pellizza-da-volpedo",
       "type": "belongs_to",
       "to": "movement/italian-divisionism",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "person/giuseppe-pellizza-da-volpedo",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
       "certainty": null,
       "source": null
     },
@@ -26636,6 +26823,13 @@
     },
     {
       "from": "person/lazzaro-pasini",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "person/lazzaro-pasini",
       "type": "active_in",
       "to": "place/milan"
     },
@@ -26676,6 +26870,13 @@
       "from": "person/liubov-popova",
       "type": "died_in",
       "to": "place/moscow"
+    },
+    {
+      "from": "person/lorenzo-delleani",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
     },
     {
       "from": "person/luigi-conconi",
@@ -26721,6 +26922,13 @@
     },
     {
       "from": "person/pietro-fragiacomo",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "person/pietro-fragiacomo",
       "type": "active_in",
       "to": "place/venice"
     },
@@ -26735,6 +26943,13 @@
       "from": "person/plinio-nomellini",
       "type": "belongs_to",
       "to": "movement/italian-divisionism",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "person/plinio-nomellini",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
       "certainty": null,
       "source": null
     },
@@ -26756,6 +26971,13 @@
       "from": "person/rubaldo-merello",
       "type": "exhibited_at",
       "to": "event/salon-divisionnistes-italiens-paris-1907",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "person/sebastiano-de-albertis",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
       "certainty": null,
       "source": null
     },
@@ -26799,6 +27021,13 @@
       "from": "person/vittore-grubicy-de-dragon",
       "type": "belongs_to",
       "to": "movement/italian-divisionism",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "person/vittore-grubicy-de-dragon",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
       "certainty": null,
       "source": null
     },
@@ -31406,9 +31635,21 @@
       "derived": true
     },
     {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "person/achille-tominetti",
+      "derived": true
+    },
+    {
       "from": "event/salon-divisionnistes-italiens-paris-1907",
       "type": "exhibited",
       "to": "person/achille-tominetti",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "person/adolfo-feragutti-visconti",
       "derived": true
     },
     {
@@ -31456,6 +31697,18 @@
     {
       "from": "event/first-brera-triennale-1891",
       "type": "exhibited",
+      "to": "person/angelo-morbelli",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "person/arnaldo-ferraguti",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
       "to": "person/attilio-pusterla",
       "derived": true
     },
@@ -31484,6 +31737,12 @@
       "derived": true
     },
     {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "person/carlo-fornara",
+      "derived": true
+    },
+    {
       "from": "event/salon-divisionnistes-italiens-paris-1907",
       "type": "exhibited",
       "to": "person/carlo-fornara",
@@ -31499,6 +31758,12 @@
       "from": "event/salon-divisionnistes-italiens-paris-1907",
       "type": "exhibited",
       "to": "person/carlo-prada",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "person/cesare-laurenti",
       "derived": true
     },
     {
@@ -31538,6 +31803,12 @@
       "derived": true
     },
     {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "person/emilio-longoni",
+      "derived": true
+    },
+    {
       "from": "event/salon-divisionnistes-italiens-paris-1907",
       "type": "exhibited",
       "to": "person/eugenio-bellosio",
@@ -31568,8 +31839,26 @@
       "derived": true
     },
     {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "person/filippo-carcano",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "person/francesco-filippini",
+      "derived": true
+    },
+    {
       "from": "movement/italian-divisionism",
       "type": "has_member",
+      "to": "person/gaetano-previati",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
       "to": "person/gaetano-previati",
       "derived": true
     },
@@ -31612,12 +31901,24 @@
     {
       "from": "event/first-brera-triennale-1891",
       "type": "exhibited",
+      "to": "person/gian-maria-rastellini",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
       "to": "person/giovanni-battista-rastellini",
       "derived": true
     },
     {
       "from": "movement/italian-divisionism",
       "type": "has_member",
+      "to": "person/giovanni-segantini",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
       "to": "person/giovanni-segantini",
       "derived": true
     },
@@ -31640,6 +31941,12 @@
       "derived": true
     },
     {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "person/giuseppe-mentessi",
+      "derived": true
+    },
+    {
       "from": "movement/italian-divisionism",
       "type": "has_member",
       "to": "person/giuseppe-omio",
@@ -31654,6 +31961,12 @@
     {
       "from": "movement/italian-divisionism",
       "type": "has_member",
+      "to": "person/giuseppe-pellizza-da-volpedo",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
       "to": "person/giuseppe-pellizza-da-volpedo",
       "derived": true
     },
@@ -31682,6 +31995,12 @@
       "derived": true
     },
     {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "person/lazzaro-pasini",
+      "derived": true
+    },
+    {
       "from": "movement/dansaekhwa",
       "type": "groups",
       "to": "person/lee-ufan",
@@ -31703,6 +32022,12 @@
       "from": "org/vkhutemas",
       "type": "has_member",
       "to": "person/liubov-popova",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "person/lorenzo-delleani",
       "derived": true
     },
     {
@@ -31744,12 +32069,24 @@
     {
       "from": "event/first-brera-triennale-1891",
       "type": "exhibited",
+      "to": "person/pietro-fragiacomo",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
       "to": "person/pietro-villani",
       "derived": true
     },
     {
       "from": "movement/italian-divisionism",
       "type": "has_member",
+      "to": "person/plinio-nomellini",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
       "to": "person/plinio-nomellini",
       "derived": true
     },
@@ -31769,6 +32106,12 @@
       "from": "event/salon-divisionnistes-italiens-paris-1907",
       "type": "exhibited",
       "to": "person/rubaldo-merello",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "person/sebastiano-de-albertis",
       "derived": true
     },
     {
@@ -31792,6 +32135,12 @@
     {
       "from": "movement/italian-divisionism",
       "type": "has_member",
+      "to": "person/vittore-grubicy-de-dragon",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
       "to": "person/vittore-grubicy-de-dragon",
       "derived": true
     },
