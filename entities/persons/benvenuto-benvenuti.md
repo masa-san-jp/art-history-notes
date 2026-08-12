@@ -33,5 +33,5 @@ updated: 2026-08-12
 イタリア分割主義者展へ出品したことを記録する。
 
 1907年展では7作品を出品し、カタログには[`《Matin d'Automne》`](../works/matin-d-automne-benvenuti-1907.md)、[`《Matin d'Été》`](../works/matin-d-ete-benvenuti-1907.md)、
-[`《Soir à la fin d'Automne》`](../works/soir-a-la-fin-d-automne-benvenuti-1907.md)、[`《Coucher de Soleil à la fin du Printemps》`](../works/coucher-de-soleil-a-la-fin-du-printemps-benvenuti-1907.md)などが掲載される。同題の36番は別作品か未確認のため、34番と統合しない。
+[`《Soir à la fin d'Automne》`](../works/soir-a-la-fin-d-automne-benvenuti-1907.md)、35番[`《Paysage》`](../works/paysage-benvenuti-1907-no35.md)、36番[`《Soir à la fin d'Automne》`](../works/soir-a-la-fin-d-automne-benvenuti-1907-no36.md)、37番[`《Paysage》`](../works/paysage-benvenuti-1907-no37.md)、[`《Coucher de Soleil à la fin du Printemps》`](../works/coucher-de-soleil-a-la-fin-du-printemps-benvenuti-1907.md)が掲載される。34番と36番、35番と37番は同題だが、別作品かは未確認のため統合しない。
 制作年や現所在が確認できるまでは、展覧会出品記録として扱う。

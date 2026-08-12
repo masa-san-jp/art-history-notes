@@ -31,4 +31,4 @@ updated: 2026-08-12
 および山岳風景を中心とする活動を記録する。
 
 1907年パリ展では、Sala A（Rotonde）の47番と48a〜48d番に、山岳風景・風景習作の計5作品を出品した。
-47番[`《Paysage en montagne》`](../works/paysage-en-montagne-prada-1907.md)は作品記録に分離した。
+47番[`《Paysage en montagne》`](../works/paysage-en-montagne-prada-1907.md)、48a番[`《Etude de Paysage》`](../works/etude-de-paysage-prada-1907-no48a.md)、48b番[`《Paysage》`](../works/paysage-prada-1907-no48b.md)、48c番[`《Paysage》`](../works/paysage-prada-1907-no48c.md)、48d番[`《Paysage》`](../works/paysage-prada-1907-no48d.md)は作品記録に分離した。同題作品はカタログ番号で区別し、制作年・現所在は未確認である。
