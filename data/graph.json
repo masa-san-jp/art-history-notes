@@ -9419,6 +9419,44 @@
       "updated": "2026-08-12",
       "path": "entities/persons/angelo-morbelli.md"
     },
+    "person/benvenuto-benvenuti": {
+      "id": "person/benvenuto-benvenuti",
+      "uri": "urn:ahn:person/benvenuto-benvenuti",
+      "type": "person",
+      "label_ja": "ベンヴェヌート・ベンヴェヌーティ",
+      "label_en": "Benvenuto Benvenuti",
+      "authority": {
+        "wikidata": null,
+        "ulan": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "検証済みの独立典拠IDは未確認。Database of Modern Exhibitionsと美術館・アーカイブ資料を用いる"
+      },
+      "time": {
+        "start": "1881-10-05",
+        "end": "1959-01-15",
+        "display": "1881年10月5日リヴォルノ生まれ — 1959年1月15日アンティニャーノ没"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "belongs_to",
+          "target": "movement/italian-divisionism"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/salon-divisionnistes-italiens-paris-1907"
+        }
+      ],
+      "sources": [
+        "https://www.museofattori.livorno.it/le-opere/autori/benvenuto-benvenuti/",
+        "https://cim.mart.tn.it/cim/pages/soggetto.jsp?aid=441&authid=72",
+        "https://exhibitions.univie.ac.at/person/ulan/500585330"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/persons/benvenuto-benvenuti.md"
+    },
     "person/bernard-fagg": {
       "id": "person/bernard-fagg",
       "uri": "urn:ahn:person/bernard-fagg",
@@ -9759,6 +9797,44 @@
       "status": "stub",
       "updated": "2026-08-09",
       "path": "entities/persons/felix-feneon.md"
+    },
+    "person/ferdinando-ramponi": {
+      "id": "person/ferdinando-ramponi",
+      "uri": "urn:ahn:person/ferdinando-ramponi",
+      "type": "person",
+      "label_ja": "フェルディナンド・ランポーニ",
+      "label_en": "Ferdinando Ramponi",
+      "authority": {
+        "wikidata": null,
+        "ulan": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "個人の独立典拠IDは未確認。Database of Modern Exhibitionsと専門資料を用いる"
+      },
+      "time": {
+        "start": "1884",
+        "end": "1916",
+        "display": "1884年レ・ザブレ生まれ — 1916年没"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "belongs_to",
+          "target": "movement/italian-divisionism"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/salon-divisionnistes-italiens-paris-1907"
+        }
+      ],
+      "sources": [
+        "https://exhibitions.univie.ac.at/person/gnd/122617517",
+        "https://ildivisionismo.it/ferdinando-ramponi/",
+        "https://catalogo.beniculturali.it/detail/HistoricOrArtisticProperty/1200491294"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/persons/ferdinando-ramponi.md"
     },
     "person/ferreira-gullar": {
       "id": "person/ferreira-gullar",
@@ -10685,6 +10761,44 @@
       "updated": "2026-08-10",
       "path": "entities/persons/paul-cezanne.md"
     },
+    "person/piero-focardi": {
+      "id": "person/piero-focardi",
+      "uri": "urn:ahn:person/piero-focardi",
+      "type": "person",
+      "label_ja": "ピエロ・フォカルディ",
+      "label_en": "Piero Focardi",
+      "authority": {
+        "wikidata": null,
+        "ulan": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "個人の独立典拠IDは未確認。Database of Modern Exhibitionsと専門資料を用いる"
+      },
+      "time": {
+        "start": "1889",
+        "end": "1945",
+        "display": "1889年セッティニャーノ生まれ — 1945年カンヌ没"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "belongs_to",
+          "target": "movement/italian-divisionism"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/salon-divisionnistes-italiens-paris-1907"
+        }
+      ],
+      "sources": [
+        "https://exhibitions.univie.ac.at/person/3322",
+        "https://ildivisionismo.it/piero-focardi/",
+        "https://www.treccani.it/enciclopedia/ruggero-focardi_%28Dizionario-Biografico%29/"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/persons/piero-focardi.md"
+    },
     "person/pierre-boucherle": {
       "id": "person/pierre-boucherle",
       "uri": "urn:ahn:person/pierre-boucherle",
@@ -10889,6 +11003,45 @@
       "status": "stub",
       "updated": "2026-08-09",
       "path": "entities/persons/roger-fry.md"
+    },
+    "person/rubaldo-merello": {
+      "id": "person/rubaldo-merello",
+      "uri": "urn:ahn:person/rubaldo-merello",
+      "type": "person",
+      "label_ja": "ルバルド・メレッロ",
+      "label_en": "Rubaldo Merello",
+      "authority": {
+        "wikidata": "Q3942105",
+        "ulan": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": "1872-07-16",
+        "end": "1922-01-31",
+        "display": "1872年7月16日モンテスプルーガ生まれ — 1922年1月31日サンタ・マルゲリータ・リグーレ没"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "belongs_to",
+          "target": "movement/italian-divisionism"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/salon-divisionnistes-italiens-paris-1907"
+        }
+      ],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q3942105",
+        "https://www.treccani.it/enciclopedia/rubaldo-merello_%28Dizionario-Biografico%29/",
+        "https://exhibitions.univie.ac.at/exhibition/125",
+        "https://commons.wikimedia.org/wiki/Creator%3ARubaldo_Merello"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/persons/rubaldo-merello.md"
     },
     "person/rudolf-bonnet": {
       "id": "person/rudolf-bonnet",
@@ -16496,6 +16649,20 @@
       "to": "place/milan"
     },
     {
+      "from": "person/benvenuto-benvenuti",
+      "type": "belongs_to",
+      "to": "movement/italian-divisionism",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "person/benvenuto-benvenuti",
+      "type": "exhibited_at",
+      "to": "event/salon-divisionnistes-italiens-paris-1907",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "person/carlo-fornara",
       "type": "belongs_to",
       "to": "movement/italian-divisionism",
@@ -16554,6 +16721,20 @@
       "from": "person/emilio-longoni",
       "type": "belongs_to",
       "to": "movement/italian-divisionism",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "person/ferdinando-ramponi",
+      "type": "belongs_to",
+      "to": "movement/italian-divisionism",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "person/ferdinando-ramponi",
+      "type": "exhibited_at",
+      "to": "event/salon-divisionnistes-italiens-paris-1907",
       "certainty": null,
       "source": null
     },
@@ -16701,9 +16882,37 @@
       "to": "place/moscow"
     },
     {
+      "from": "person/piero-focardi",
+      "type": "belongs_to",
+      "to": "movement/italian-divisionism",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "person/piero-focardi",
+      "type": "exhibited_at",
+      "to": "event/salon-divisionnistes-italiens-paris-1907",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "person/plinio-nomellini",
       "type": "belongs_to",
       "to": "movement/italian-divisionism",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "person/rubaldo-merello",
+      "type": "belongs_to",
+      "to": "movement/italian-divisionism",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "person/rubaldo-merello",
+      "type": "exhibited_at",
+      "to": "event/salon-divisionnistes-italiens-paris-1907",
       "certainty": null,
       "source": null
     },
@@ -18098,6 +18307,18 @@
     {
       "from": "movement/italian-divisionism",
       "type": "has_member",
+      "to": "person/benvenuto-benvenuti",
+      "derived": true
+    },
+    {
+      "from": "event/salon-divisionnistes-italiens-paris-1907",
+      "type": "exhibited",
+      "to": "person/benvenuto-benvenuti",
+      "derived": true
+    },
+    {
+      "from": "movement/italian-divisionism",
+      "type": "has_member",
       "to": "person/carlo-fornara",
       "derived": true
     },
@@ -18129,6 +18350,18 @@
       "from": "movement/italian-divisionism",
       "type": "has_member",
       "to": "person/emilio-longoni",
+      "derived": true
+    },
+    {
+      "from": "movement/italian-divisionism",
+      "type": "has_member",
+      "to": "person/ferdinando-ramponi",
+      "derived": true
+    },
+    {
+      "from": "event/salon-divisionnistes-italiens-paris-1907",
+      "type": "exhibited",
+      "to": "person/ferdinando-ramponi",
       "derived": true
     },
     {
@@ -18218,7 +18451,31 @@
     {
       "from": "movement/italian-divisionism",
       "type": "has_member",
+      "to": "person/piero-focardi",
+      "derived": true
+    },
+    {
+      "from": "event/salon-divisionnistes-italiens-paris-1907",
+      "type": "exhibited",
+      "to": "person/piero-focardi",
+      "derived": true
+    },
+    {
+      "from": "movement/italian-divisionism",
+      "type": "has_member",
       "to": "person/plinio-nomellini",
+      "derived": true
+    },
+    {
+      "from": "movement/italian-divisionism",
+      "type": "has_member",
+      "to": "person/rubaldo-merello",
+      "derived": true
+    },
+    {
+      "from": "event/salon-divisionnistes-italiens-paris-1907",
+      "type": "exhibited",
+      "to": "person/rubaldo-merello",
       "derived": true
     },
     {
