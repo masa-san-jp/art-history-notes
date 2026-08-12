@@ -27,4 +27,4 @@ updated: 2026-08-12
 
 # エンリコ・レイチェンド / Enrico Reycend
 
-1891年の第一回ブレラ三年展公式カタログに、トリノ出身者として掲載される出品者。296番《Mattino in montagna》を出品した。本項は展覧会記録に限定する。
+1891年の第一回ブレラ三年展公式カタログに、トリノ出身者として掲載される出品者。296番《Mattino in montagna》、338番《Giornata grigia》、339番《Spiaggia a Varazze》を出品した。本項は展覧会記録に限定する。

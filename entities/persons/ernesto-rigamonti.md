@@ -1,11 +1,11 @@
 ---
-id: person/giuseppe-barbaglia
-uri: urn:ahn:person/giuseppe-barbaglia
+id: person/ernesto-rigamonti
+uri: urn:ahn:person/ernesto-rigamonti
 type: person
-label_ja: ジュゼッペ・バルバリア
-label_en: Giuseppe Barbaglia
+label_ja: エルネスト・リガモンティ
+label_en: Ernesto Rigamonti
 aliases:
-  - Barbaglia Giuseppe
+  - Rigamonti Ernesto
 authority:
   wikidata: null
   ulan: null
@@ -22,9 +22,9 @@ relations:
 sources:
   - https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf
 status: draft
-updated: 2026-08-12
+updated: 2026-08-13
 ---
 
-# ジュゼッペ・バルバリア / Giuseppe Barbaglia
+# エルネスト・リガモンティ / Ernesto Rigamonti
 
-1891年の第一回ブレラ三年展公式カタログに、ミラノで活動する出品者として掲載される。303番《Ritratto d’uomo》と337番《Ritratto》を出品した。本項は展覧会記録に限定する。
+1891年の第一回ブレラ三年展公式カタログに、ミラノで活動する出品者として掲載される。342番《Cucina economica!》を出品した。本項は展覧会記録に限定する。

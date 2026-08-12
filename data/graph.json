@@ -12075,6 +12075,41 @@
       "updated": "2026-08-09",
       "path": "entities/persons/e-b-havell.md"
     },
+    "person/edoardo-gioja": {
+      "id": "person/edoardo-gioja",
+      "uri": "urn:ahn:person/edoardo-gioja",
+      "type": "person",
+      "label_ja": "エドアルド・ジョイア",
+      "label_en": "Edoardo Gioja",
+      "aliases": [
+        "Gioja Edoardo"
+      ],
+      "authority": {
+        "wikidata": null,
+        "ulan": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "独立した人物典拠IDと生没年は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": null,
+        "end": null,
+        "display": "19世紀末にローマで活動"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-13",
+      "path": "entities/persons/edoardo-gioja.md"
+    },
     "person/edouard-menta": {
       "id": "person/edouard-menta",
       "uri": "urn:ahn:person/edouard-menta",
@@ -12963,6 +12998,41 @@
       "status": "draft",
       "updated": "2026-08-12",
       "path": "entities/persons/ernesto-bertea.md"
+    },
+    "person/ernesto-rigamonti": {
+      "id": "person/ernesto-rigamonti",
+      "uri": "urn:ahn:person/ernesto-rigamonti",
+      "type": "person",
+      "label_ja": "エルネスト・リガモンティ",
+      "label_en": "Ernesto Rigamonti",
+      "aliases": [
+        "Rigamonti Ernesto"
+      ],
+      "authority": {
+        "wikidata": null,
+        "ulan": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "独立した人物典拠IDと生没年は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": null,
+        "end": null,
+        "display": "19世紀末にミラノで活動"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-13",
+      "path": "entities/persons/ernesto-rigamonti.md"
     },
     "person/ettore-cogliati": {
       "id": "person/ettore-cogliati",
@@ -15520,6 +15590,77 @@
       "updated": "2026-08-12",
       "path": "entities/persons/idalia-albertini.md"
     },
+    "person/isidoro-farina": {
+      "id": "person/isidoro-farina",
+      "uri": "urn:ahn:person/isidoro-farina",
+      "type": "person",
+      "label_ja": "イシドロ・ファリーナ",
+      "label_en": "Isidoro Farina",
+      "aliases": [
+        "Farina Isidoro"
+      ],
+      "authority": {
+        "wikidata": null,
+        "ulan": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "独立した人物典拠IDと生没年は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": null,
+        "end": null,
+        "display": "19世紀末にナポリ出身者として活動"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-13",
+      "path": "entities/persons/isidoro-farina.md"
+    },
+    "person/isidoro-grunhut": {
+      "id": "person/isidoro-grunhut",
+      "uri": "urn:ahn:person/isidoro-grunhut",
+      "type": "person",
+      "label_ja": "イシドロ・グリュンフート",
+      "label_en": "Isidoro Grünhut",
+      "aliases": [
+        "Grünhut Isidoro",
+        "Gruenhut Isidoro"
+      ],
+      "authority": {
+        "wikidata": null,
+        "ulan": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "独立した人物典拠IDと生没年は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": null,
+        "end": null,
+        "display": "19世紀末にトリエステ出身者として活動"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-13",
+      "path": "entities/persons/isidoro-grunhut.md"
+    },
     "person/jiro-yoshihara": {
       "id": "person/jiro-yoshihara",
       "uri": "urn:ahn:person/jiro-yoshihara",
@@ -17657,6 +17798,41 @@
       "status": "draft",
       "updated": "2026-08-12",
       "path": "entities/persons/rembrandt-bugatti.md"
+    },
+    "person/riccardo-marchesini": {
+      "id": "person/riccardo-marchesini",
+      "uri": "urn:ahn:person/riccardo-marchesini",
+      "type": "person",
+      "label_ja": "リッカルド・マルケジーニ",
+      "label_en": "Riccardo Marchesini",
+      "aliases": [
+        "Marchesini Riccardo"
+      ],
+      "authority": {
+        "wikidata": null,
+        "ulan": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "独立した人物典拠IDと生没年は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": null,
+        "end": null,
+        "display": "19世紀末にボローニャ出身者として活動"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-13",
+      "path": "entities/persons/riccardo-marchesini.md"
     },
     "person/ries-mulder": {
       "id": "person/ries-mulder",
@@ -23642,6 +23818,42 @@
       "updated": "2026-08-12",
       "path": "entities/works/cleopatre-previati-1907.md"
     },
+    "work/come-un-sogno-marchesini-1891": {
+      "id": "work/come-un-sogno-marchesini-1891",
+      "uri": "urn:ahn:work/come-un-sogno-marchesini-1891",
+      "type": "work",
+      "label_ja": "リッカルド・マルケジーニ《Come un sogno》",
+      "label_en": "Come un sogno",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "作品の独立典拠IDと現所在は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年（1891年展カタログ340番）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/riccardo-marchesini"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-13",
+      "path": "entities/works/come-un-sogno-marchesini-1891.md"
+    },
     "work/consolatrice-bottinelli-1891": {
       "id": "work/consolatrice-bottinelli-1891",
       "uri": "urn:ahn:work/consolatrice-bottinelli-1891",
@@ -24229,6 +24441,42 @@
       "status": "draft",
       "updated": "2026-08-12",
       "path": "entities/works/cucina-economica-bouvier-1891.md"
+    },
+    "work/cucina-economica-rigamonti-1891": {
+      "id": "work/cucina-economica-rigamonti-1891",
+      "uri": "urn:ahn:work/cucina-economica-rigamonti-1891",
+      "type": "work",
+      "label_ja": "エルネスト・リガモンティ《Cucina economica!》",
+      "label_en": "Cucina economica!",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "作品の独立典拠IDと現所在は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年（1891年展カタログ342番）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/ernesto-rigamonti"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-13",
+      "path": "entities/works/cucina-economica-rigamonti-1891.md"
     },
     "work/d-apres-une-legende-des-alpes-fornara-1907": {
       "id": "work/d-apres-une-legende-des-alpes-fornara-1907",
@@ -26767,6 +27015,42 @@
       "status": "draft",
       "updated": "2026-08-12",
       "path": "entities/works/giornata-finita-cairati-1891.md"
+    },
+    "work/giornata-grigia-reycend-1891": {
+      "id": "work/giornata-grigia-reycend-1891",
+      "uri": "urn:ahn:work/giornata-grigia-reycend-1891",
+      "type": "work",
+      "label_ja": "エンリコ・レイチェンド《Giornata grigia》",
+      "label_en": "Giornata grigia",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "作品の独立典拠IDと現所在は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年（1891年展カタログ338番）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/enrico-reycend"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-13",
+      "path": "entities/works/giornata-grigia-reycend-1891.md"
     },
     "work/giotto-nono-1891": {
       "id": "work/giotto-nono-1891",
@@ -36848,6 +37132,42 @@
       "updated": "2026-08-12",
       "path": "entities/works/ritratto-astorri-1891.md"
     },
+    "work/ritratto-barbaglia-1891-no337": {
+      "id": "work/ritratto-barbaglia-1891-no337",
+      "uri": "urn:ahn:work/ritratto-barbaglia-1891-no337",
+      "type": "work",
+      "label_ja": "ジュゼッペ・バルバリア《Ritratto》",
+      "label_en": "Ritratto",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "作品の独立典拠IDと現所在は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年（1891年展カタログ337番）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/giuseppe-barbaglia"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-13",
+      "path": "entities/works/ritratto-barbaglia-1891-no337.md"
+    },
     "work/ritratto-bordini-1891": {
       "id": "work/ritratto-bordini-1891",
       "uri": "urn:ahn:work/ritratto-bordini-1891",
@@ -38057,6 +38377,42 @@
       "updated": "2026-08-12",
       "path": "entities/works/ritratto-uomo-bonacina-1891.md"
     },
+    "work/ritratto-uomo-grunhut-1891": {
+      "id": "work/ritratto-uomo-grunhut-1891",
+      "uri": "urn:ahn:work/ritratto-uomo-grunhut-1891",
+      "type": "work",
+      "label_ja": "イシドロ・グリュンフート《Ritratto d’uomo》",
+      "label_en": "Ritratto d’uomo",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "作品の独立典拠IDと現所在は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年（1891年展カタログ341番）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/isidoro-grunhut"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-13",
+      "path": "entities/works/ritratto-uomo-grunhut-1891.md"
+    },
     "work/ritratto-vanotti-1891-no249": {
       "id": "work/ritratto-vanotti-1891-no249",
       "uri": "urn:ahn:work/ritratto-vanotti-1891-no249",
@@ -39050,6 +39406,42 @@
       "status": "draft",
       "updated": "2026-08-12",
       "path": "entities/works/speta-mi-bambin-marsili-1891.md"
+    },
+    "work/spiaggia-a-varazze-reycend-1891": {
+      "id": "work/spiaggia-a-varazze-reycend-1891",
+      "uri": "urn:ahn:work/spiaggia-a-varazze-reycend-1891",
+      "type": "work",
+      "label_ja": "エンリコ・レイチェンド《Spiaggia a Varazze》",
+      "label_en": "Spiaggia a Varazze",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "作品の独立典拠IDと現所在は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年（1891年展カタログ339番）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/enrico-reycend"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-13",
+      "path": "entities/works/spiaggia-a-varazze-reycend-1891.md"
     },
     "work/spiaggia-romana-fossati-1891": {
       "id": "work/spiaggia-romana-fossati-1891",
@@ -40293,6 +40685,42 @@
       "updated": "2026-08-12",
       "path": "entities/works/un-angolo-studio-mantegazza-trzaska-1891.md"
     },
+    "work/un-armatore-olandese-gioja-1891": {
+      "id": "work/un-armatore-olandese-gioja-1891",
+      "uri": "urn:ahn:work/un-armatore-olandese-gioja-1891",
+      "type": "work",
+      "label_ja": "エドアルド・ジョイア《Un armatore olandese nel secolo XVII》",
+      "label_en": "Un armatore olandese nel secolo XVII",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "作品の独立典拠IDと現所在は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年（1891年展カタログ334番）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/edoardo-gioja"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-13",
+      "path": "entities/works/un-armatore-olandese-gioja-1891.md"
+    },
     "work/un-banquier-magrini-1907": {
       "id": "work/un-banquier-magrini-1907",
       "uri": "urn:ahn:work/un-banquier-magrini-1907",
@@ -40711,6 +41139,42 @@
       "status": "draft",
       "updated": "2026-08-12",
       "path": "entities/works/vache-dans-le-pre-ramponi-1907.md"
+    },
+    "work/val-cavargna-farina-1891": {
+      "id": "work/val-cavargna-farina-1891",
+      "uri": "urn:ahn:work/val-cavargna-farina-1891",
+      "type": "work",
+      "label_ja": "イシドロ・ファリーナ《Val Cavargna (Valsolda)》",
+      "label_en": "Val Cavargna (Valsolda)",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "作品の独立典拠IDと現所在は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年（1891年展カタログ333番）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/isidoro-farina"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-13",
+      "path": "entities/works/val-cavargna-farina-1891.md"
     },
     "work/vepre-serein-fornara-1907": {
       "id": "work/vepre-serein-fornara-1907",
@@ -43604,6 +44068,13 @@
       "source": null
     },
     {
+      "from": "person/edoardo-gioja",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "person/edouard-menta",
       "type": "exhibited_at",
       "to": "event/first-brera-triennale-1891",
@@ -43797,6 +44268,13 @@
     },
     {
       "from": "person/ernesto-bertea",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "person/ernesto-rigamonti",
       "type": "exhibited_at",
       "to": "event/first-brera-triennale-1891",
       "certainty": null,
@@ -44398,6 +44876,20 @@
       "source": null
     },
     {
+      "from": "person/isidoro-farina",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "person/isidoro-grunhut",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "person/jiro-yoshihara",
       "type": "died_in",
       "to": "place/ashiya"
@@ -44788,6 +45280,13 @@
       "from": "person/rembrandt-bugatti",
       "type": "exhibited_at",
       "to": "event/salon-divisionnistes-italiens-paris-1907",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "person/riccardo-marchesini",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
       "certainty": null,
       "source": null
     },
@@ -45868,6 +46367,20 @@
       "source": null
     },
     {
+      "from": "work/come-un-sogno-marchesini-1891",
+      "type": "created_by",
+      "to": "person/riccardo-marchesini",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/come-un-sogno-marchesini-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "work/consolatrice-bottinelli-1891",
       "type": "created_by",
       "to": "person/giuseppe-bottinelli",
@@ -46086,6 +46599,20 @@
     },
     {
       "from": "work/cucina-economica-bouvier-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/cucina-economica-rigamonti-1891",
+      "type": "created_by",
+      "to": "person/ernesto-rigamonti",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/cucina-economica-rigamonti-1891",
       "type": "exhibited_at",
       "to": "event/first-brera-triennale-1891",
       "certainty": null,
@@ -47052,6 +47579,20 @@
     },
     {
       "from": "work/giornata-finita-cairati-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/giornata-grigia-reycend-1891",
+      "type": "created_by",
+      "to": "person/enrico-reycend",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/giornata-grigia-reycend-1891",
       "type": "exhibited_at",
       "to": "event/first-brera-triennale-1891",
       "certainty": null,
@@ -50929,6 +51470,20 @@
       "source": null
     },
     {
+      "from": "work/ritratto-barbaglia-1891-no337",
+      "type": "created_by",
+      "to": "person/giuseppe-barbaglia",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/ritratto-barbaglia-1891-no337",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "work/ritratto-bordini-1891",
       "type": "created_by",
       "to": "person/pietro-bordini",
@@ -51391,6 +51946,20 @@
       "source": null
     },
     {
+      "from": "work/ritratto-uomo-grunhut-1891",
+      "type": "created_by",
+      "to": "person/isidoro-grunhut",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/ritratto-uomo-grunhut-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "work/ritratto-vanotti-1891-no249",
       "type": "created_by",
       "to": "person/alessandro-vanotti",
@@ -51763,6 +52332,20 @@
     },
     {
       "from": "work/speta-mi-bambin-marsili-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/spiaggia-a-varazze-reycend-1891",
+      "type": "created_by",
+      "to": "person/enrico-reycend",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/spiaggia-a-varazze-reycend-1891",
       "type": "exhibited_at",
       "to": "event/first-brera-triennale-1891",
       "certainty": null,
@@ -52245,6 +52828,20 @@
       "source": null
     },
     {
+      "from": "work/un-armatore-olandese-gioja-1891",
+      "type": "created_by",
+      "to": "person/edoardo-gioja",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/un-armatore-olandese-gioja-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "work/un-banquier-magrini-1907",
       "type": "created_by",
       "to": "person/adolphe-magrini",
@@ -52409,6 +53006,20 @@
       "from": "work/vache-dans-le-pre-ramponi-1907",
       "type": "exhibited_at",
       "to": "event/salon-divisionnistes-italiens-paris-1907",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/val-cavargna-farina-1891",
+      "type": "created_by",
+      "to": "person/isidoro-farina",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/val-cavargna-farina-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
       "certainty": null,
       "source": null
     },
@@ -54115,6 +54726,12 @@
     {
       "from": "event/first-brera-triennale-1891",
       "type": "exhibited",
+      "to": "person/edoardo-gioja",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
       "to": "person/edouard-menta",
       "derived": true
     },
@@ -54272,6 +54889,12 @@
       "from": "event/first-brera-triennale-1891",
       "type": "exhibited",
       "to": "person/ernesto-bertea",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "person/ernesto-rigamonti",
       "derived": true
     },
     {
@@ -54757,6 +55380,18 @@
     {
       "from": "event/first-brera-triennale-1891",
       "type": "exhibited",
+      "to": "person/isidoro-farina",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "person/isidoro-grunhut",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
       "to": "person/lazzaro-pasini",
       "derived": true
     },
@@ -55064,6 +55699,12 @@
       "from": "event/salon-divisionnistes-italiens-paris-1907",
       "type": "exhibited",
       "to": "person/rembrandt-bugatti",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "person/riccardo-marchesini",
       "derived": true
     },
     {
@@ -55955,6 +56596,18 @@
       "derived": true
     },
     {
+      "from": "person/riccardo-marchesini",
+      "type": "created",
+      "to": "work/come-un-sogno-marchesini-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/come-un-sogno-marchesini-1891",
+      "derived": true
+    },
+    {
       "from": "person/giuseppe-bottinelli",
       "type": "created",
       "to": "work/consolatrice-bottinelli-1891",
@@ -56144,6 +56797,18 @@
       "from": "event/first-brera-triennale-1891",
       "type": "exhibited",
       "to": "work/cucina-economica-bouvier-1891",
+      "derived": true
+    },
+    {
+      "from": "person/ernesto-rigamonti",
+      "type": "created",
+      "to": "work/cucina-economica-rigamonti-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/cucina-economica-rigamonti-1891",
       "derived": true
     },
     {
@@ -56972,6 +57637,18 @@
       "from": "event/first-brera-triennale-1891",
       "type": "exhibited",
       "to": "work/giornata-finita-cairati-1891",
+      "derived": true
+    },
+    {
+      "from": "person/enrico-reycend",
+      "type": "created",
+      "to": "work/giornata-grigia-reycend-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/giornata-grigia-reycend-1891",
       "derived": true
     },
     {
@@ -60293,6 +60970,18 @@
       "derived": true
     },
     {
+      "from": "person/giuseppe-barbaglia",
+      "type": "created",
+      "to": "work/ritratto-barbaglia-1891-no337",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/ritratto-barbaglia-1891-no337",
+      "derived": true
+    },
+    {
       "from": "person/pietro-bordini",
       "type": "created",
       "to": "work/ritratto-bordini-1891",
@@ -60689,6 +61378,18 @@
       "derived": true
     },
     {
+      "from": "person/isidoro-grunhut",
+      "type": "created",
+      "to": "work/ritratto-uomo-grunhut-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/ritratto-uomo-grunhut-1891",
+      "derived": true
+    },
+    {
       "from": "person/alessandro-vanotti",
       "type": "created",
       "to": "work/ritratto-vanotti-1891-no249",
@@ -61010,6 +61711,18 @@
       "from": "event/first-brera-triennale-1891",
       "type": "exhibited",
       "to": "work/speta-mi-bambin-marsili-1891",
+      "derived": true
+    },
+    {
+      "from": "person/enrico-reycend",
+      "type": "created",
+      "to": "work/spiaggia-a-varazze-reycend-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/spiaggia-a-varazze-reycend-1891",
       "derived": true
     },
     {
@@ -61421,6 +62134,18 @@
       "derived": true
     },
     {
+      "from": "person/edoardo-gioja",
+      "type": "created",
+      "to": "work/un-armatore-olandese-gioja-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/un-armatore-olandese-gioja-1891",
+      "derived": true
+    },
+    {
       "from": "person/adolphe-magrini",
       "type": "created",
       "to": "work/un-banquier-magrini-1907",
@@ -61562,6 +62287,18 @@
       "from": "event/salon-divisionnistes-italiens-paris-1907",
       "type": "exhibited",
       "to": "work/vache-dans-le-pre-ramponi-1907",
+      "derived": true
+    },
+    {
+      "from": "person/isidoro-farina",
+      "type": "created",
+      "to": "work/val-cavargna-farina-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/val-cavargna-farina-1891",
       "derived": true
     },
     {
