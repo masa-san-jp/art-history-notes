@@ -27,4 +27,4 @@ updated: 2026-08-13
 
 # エミリオ・クアドレッリ / Emilio Quadrelli
 
-1891年の第一回ブレラ三年展公式カタログに、ミラノ出身者として掲載される出品者。374番《Monumento Sepolcrale (Modello in gesso)》を出品した。本項は展覧会記録に限定する。
+1891年の第一回ブレラ三年展公式カタログに、ミラノ出身者として掲載される出品者。374番《Monumento Sepolcrale (Modello in gesso)》、490番《Testina in bronzo》、491番《Bozzetto per un monumento al poeta Ugo Foscolo》を出品した。本項は展覧会記録に限定する。

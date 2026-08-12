@@ -12693,6 +12693,38 @@
       "updated": "2026-08-13",
       "path": "entities/persons/edoardo-gioja.md"
     },
+    "person/edoardo-lionetti": {
+      "id": "person/edoardo-lionetti",
+      "uri": "urn:ahn:person/edoardo-lionetti",
+      "type": "person",
+      "label_ja": "エドアルド・ライオネッティ",
+      "label_en": "Edoardo Lionetti",
+      "authority": {
+        "wikidata": null,
+        "ulan": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "独立した人物典拠IDと生没年は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": null,
+        "end": null,
+        "display": "19世紀末にナポリで活動"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-13",
+      "path": "entities/persons/edoardo-lionetti.md"
+    },
     "person/edouard-menta": {
       "id": "person/edouard-menta",
       "uri": "urn:ahn:person/edouard-menta",
@@ -13291,6 +13323,38 @@
       "updated": "2026-08-12",
       "path": "entities/persons/enrico-astorri.md"
     },
+    "person/enrico-braga": {
+      "id": "person/enrico-braga",
+      "uri": "urn:ahn:person/enrico-braga",
+      "type": "person",
+      "label_ja": "エンリコ・ブラガ",
+      "label_en": "Enrico Braga",
+      "authority": {
+        "wikidata": null,
+        "ulan": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "独立した人物典拠IDと生没年は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": null,
+        "end": null,
+        "display": "19世紀末にミラノで活動"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-13",
+      "path": "entities/persons/enrico-braga.md"
+    },
     "person/enrico-butti": {
       "id": "person/enrico-butti",
       "uri": "urn:ahn:person/enrico-butti",
@@ -13560,7 +13624,7 @@
         "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
       ],
       "status": "draft",
-      "updated": "2026-08-12",
+      "updated": "2026-08-13",
       "path": "entities/persons/ermenegildo-peverada.md"
     },
     "person/erminia-di-preuschen": {
@@ -14935,7 +14999,7 @@
         "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
       ],
       "status": "draft",
-      "updated": "2026-08-12",
+      "updated": "2026-08-13",
       "path": "entities/persons/francesco-sassi.md"
     },
     "person/francesco-tabacchi": {
@@ -16007,6 +16071,38 @@
       "status": "draft",
       "updated": "2026-08-13",
       "path": "entities/persons/giulio-bonacina.md"
+    },
+    "person/giulio-branca": {
+      "id": "person/giulio-branca",
+      "uri": "urn:ahn:person/giulio-branca",
+      "type": "person",
+      "label_ja": "ジュリオ・ブランカ",
+      "label_en": "Giulio Branca",
+      "authority": {
+        "wikidata": null,
+        "ulan": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "独立した人物典拠IDと生没年は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": null,
+        "end": null,
+        "display": "19世紀末にカンノービオ出身者として活動"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-13",
+      "path": "entities/persons/giulio-branca.md"
     },
     "person/giulio-prati": {
       "id": "person/giulio-prati",
@@ -20753,6 +20849,38 @@
       "status": "draft",
       "updated": "2026-08-12",
       "path": "entities/persons/tancredi-pozzi.md"
+    },
+    "person/tommaso-airaghi": {
+      "id": "person/tommaso-airaghi",
+      "uri": "urn:ahn:person/tommaso-airaghi",
+      "type": "person",
+      "label_ja": "トンマーゾ・アライギ",
+      "label_en": "Tommaso Airaghi",
+      "authority": {
+        "wikidata": null,
+        "ulan": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "独立した人物典拠IDと生没年は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": null,
+        "end": null,
+        "display": "19世紀末にカンピオーネ出身者として活動"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-13",
+      "path": "entities/persons/tommaso-airaghi.md"
     },
     "person/tommaso-da-rin": {
       "id": "person/tommaso-da-rin",
@@ -26042,6 +26170,42 @@
       "updated": "2026-08-12",
       "path": "entities/works/bouc-magrini-1907.md"
     },
+    "work/bozzetto-per-un-monumento-al-poeta-ugo-foscolo-quadrelli-1891": {
+      "id": "work/bozzetto-per-un-monumento-al-poeta-ugo-foscolo-quadrelli-1891",
+      "uri": "urn:ahn:work/bozzetto-per-un-monumento-al-poeta-ugo-foscolo-quadrelli-1891",
+      "type": "work",
+      "label_ja": "エミリオ・クアドレッリ《Bozzetto per un monumento al poeta Ugo Foscolo》",
+      "label_en": "Bozzetto per un monumento al poeta Ugo Foscolo",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "作品の独立典拠IDと現所在は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年（1891年展カタログ491番）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/emilio-quadrelli"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-13",
+      "path": "entities/works/bozzetto-per-un-monumento-al-poeta-ugo-foscolo-quadrelli-1891.md"
+    },
     "work/brr-che-freddo-marsili-1891": {
       "id": "work/brr-che-freddo-marsili-1891",
       "uri": "urn:ahn:work/brr-che-freddo-marsili-1891",
@@ -27503,6 +27667,42 @@
       "updated": "2026-08-12",
       "path": "entities/works/costiera-di-amalfi-campriani-1891.md"
     },
+    "work/costume-brianzolo-airaghi-1891": {
+      "id": "work/costume-brianzolo-airaghi-1891",
+      "uri": "urn:ahn:work/costume-brianzolo-airaghi-1891",
+      "type": "work",
+      "label_ja": "トンマーゾ・アライギ《Costume brianzolo》",
+      "label_en": "Costume brianzolo",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "作品の独立典拠IDと現所在は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年（1891年展カタログ493番）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/tommaso-airaghi"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-13",
+      "path": "entities/works/costume-brianzolo-airaghi-1891.md"
+    },
     "work/coucher-de-soleil-a-la-fin-du-printemps-benvenuti-1907": {
       "id": "work/coucher-de-soleil-a-la-fin-du-printemps-benvenuti-1907",
       "uri": "urn:ahn:work/coucher-de-soleil-a-la-fin-du-printemps-benvenuti-1907",
@@ -27979,6 +28179,42 @@
       "status": "draft",
       "updated": "2026-08-12",
       "path": "entities/works/d-apres-une-legende-des-alpes-fornara-1907.md"
+    },
+    "work/dal-nilo-lionetti-1891": {
+      "id": "work/dal-nilo-lionetti-1891",
+      "uri": "urn:ahn:work/dal-nilo-lionetti-1891",
+      "type": "work",
+      "label_ja": "エドアルド・ライオネッティ《Dal Nilo》",
+      "label_en": "Dal Nilo",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "作品の独立典拠IDと現所在は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年（1891年展カタログ488番）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/edoardo-lionetti"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-13",
+      "path": "entities/works/dal-nilo-lionetti-1891.md"
     },
     "work/dans-l-isolement-magrini-1907": {
       "id": "work/dans-l-isolement-magrini-1907",
@@ -28604,6 +28840,42 @@
       "updated": "2026-08-12",
       "path": "entities/works/due-ritratti-riuniti-grosso-1891.md"
     },
+    "work/ecce-bellum-branca-1891": {
+      "id": "work/ecce-bellum-branca-1891",
+      "uri": "urn:ahn:work/ecce-bellum-branca-1891",
+      "type": "work",
+      "label_ja": "ジュリオ・ブランカ《Ecce Bellum!》",
+      "label_en": "Ecce Bellum!",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "作品の独立典拠IDと現所在は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年（1891年展カタログ492番）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/giulio-branca"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-13",
+      "path": "entities/works/ecce-bellum-branca-1891.md"
+    },
     "work/effet-de-neige-cinotti-1907": {
       "id": "work/effet-de-neige-cinotti-1907",
       "uri": "urn:ahn:work/effet-de-neige-cinotti-1907",
@@ -29014,6 +29286,42 @@
       "status": "draft",
       "updated": "2026-08-12",
       "path": "entities/works/emigrata-cassi-1891.md"
+    },
+    "work/en-etudiant-braga-1891": {
+      "id": "work/en-etudiant-braga-1891",
+      "uri": "urn:ahn:work/en-etudiant-braga-1891",
+      "type": "work",
+      "label_ja": "エンリコ・ブラガ《En étudiant》",
+      "label_en": "En étudiant",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "作品の独立典拠IDと現所在は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年（1891年展カタログ487番）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/enrico-braga"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-13",
+      "path": "entities/works/en-etudiant-braga-1891.md"
     },
     "work/enfant-dans-les-pres-previati-1907": {
       "id": "work/enfant-dans-les-pres-previati-1907",
@@ -31823,6 +32131,42 @@
       "status": "draft",
       "updated": "2026-08-12",
       "path": "entities/works/idillio-pirovano-1891.md"
+    },
+    "work/il-bacio-alla-porta-santa-peverada-1891": {
+      "id": "work/il-bacio-alla-porta-santa-peverada-1891",
+      "uri": "urn:ahn:work/il-bacio-alla-porta-santa-peverada-1891",
+      "type": "work",
+      "label_ja": "エルメネジルド・ペヴェラーダ《Il bacio alla Porta Santa》",
+      "label_en": "Il bacio alla Porta Santa",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "作品の独立典拠IDと現所在は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年（1891年展カタログ485番）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/ermenegildo-peverada"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-13",
+      "path": "entities/works/il-bacio-alla-porta-santa-peverada-1891.md"
     },
     "work/il-bacio-di-santuzza-salata-1891": {
       "id": "work/il-bacio-di-santuzza-salata-1891",
@@ -38824,6 +39168,42 @@
       "status": "draft",
       "updated": "2026-08-12",
       "path": "entities/works/militari-de-albertis-1891.md"
+    },
+    "work/miranda-ella-era-bella-e-gentil-nome-avea-sassi-1891": {
+      "id": "work/miranda-ella-era-bella-e-gentil-nome-avea-sassi-1891",
+      "uri": "urn:ahn:work/miranda-ella-era-bella-e-gentil-nome-avea-sassi-1891",
+      "type": "work",
+      "label_ja": "フランチェスコ・サッシ《Miranda: Ella era bella e gentil nome avea》",
+      "label_en": "Miranda: Ella era bella e gentil nome avea",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "作品の独立典拠IDと現所在は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年（1891年展カタログ484番）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/francesco-sassi"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-13",
+      "path": "entities/works/miranda-ella-era-bella-e-gentil-nome-avea-sassi-1891.md"
     },
     "work/monsignor-teodoro-turletti-1891": {
       "id": "work/monsignor-teodoro-turletti-1891",
@@ -46333,6 +46713,42 @@
       "updated": "2026-08-12",
       "path": "entities/works/studio-rietti-1891-no288.md"
     },
+    "work/sugli-scogli-lionetti-1891": {
+      "id": "work/sugli-scogli-lionetti-1891",
+      "uri": "urn:ahn:work/sugli-scogli-lionetti-1891",
+      "type": "work",
+      "label_ja": "エドアルド・ライオネッティ《Sugli scogli》",
+      "label_en": "Sugli scogli",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "作品の独立典拠IDと現所在は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年（1891年展カタログ486番）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/edoardo-lionetti"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-13",
+      "path": "entities/works/sugli-scogli-lionetti-1891.md"
+    },
     "work/sul-colle-sardi-1891": {
       "id": "work/sul-colle-sardi-1891",
       "uri": "urn:ahn:work/sul-colle-sardi-1891",
@@ -46911,6 +47327,42 @@
       "status": "draft",
       "updated": "2026-08-12",
       "path": "entities/works/testa-tosi-1891.md"
+    },
+    "work/testina-in-bronzo-quadrelli-1891": {
+      "id": "work/testina-in-bronzo-quadrelli-1891",
+      "uri": "urn:ahn:work/testina-in-bronzo-quadrelli-1891",
+      "type": "work",
+      "label_ja": "エミリオ・クアドレッリ《Testina in bronzo》",
+      "label_en": "Testina in bronzo",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "作品の独立典拠IDと現所在は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年（1891年展カタログ490番）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/emilio-quadrelli"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-13",
+      "path": "entities/works/testina-in-bronzo-quadrelli-1891.md"
     },
     "work/tigre-royal-au-repos-magrini-1907": {
       "id": "work/tigre-royal-au-repos-magrini-1907",
@@ -47648,6 +48100,42 @@
       "status": "draft",
       "updated": "2026-08-12",
       "path": "entities/works/un-consiglio-del-nonno-morbelli.md"
+    },
+    "work/un-corvo-cifariello-1891": {
+      "id": "work/un-corvo-cifariello-1891",
+      "uri": "urn:ahn:work/un-corvo-cifariello-1891",
+      "type": "work",
+      "label_ja": "フィリッポ・チファリエッロ《Un corvo》",
+      "label_en": "Un corvo",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "作品の独立典拠IDと現所在は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年（1891年展カタログ489番）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/filippo-cifariello"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-13",
+      "path": "entities/works/un-corvo-cifariello-1891.md"
     },
     "work/un-emigrato-gariboldi-1891": {
       "id": "work/un-emigrato-gariboldi-1891",
@@ -51365,6 +51853,13 @@
       "source": null
     },
     {
+      "from": "person/edoardo-lionetti",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "person/edouard-menta",
       "type": "exhibited_at",
       "to": "event/first-brera-triennale-1891",
@@ -51502,6 +51997,13 @@
     },
     {
       "from": "person/enrico-astorri",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "person/enrico-braga",
       "type": "exhibited_at",
       "to": "event/first-brera-triennale-1891",
       "certainty": null,
@@ -52096,6 +52598,13 @@
     },
     {
       "from": "person/giulio-bonacina",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "person/giulio-branca",
       "type": "exhibited_at",
       "to": "event/first-brera-triennale-1891",
       "certainty": null,
@@ -53034,6 +53543,13 @@
       "source": null
     },
     {
+      "from": "person/tommaso-airaghi",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "person/tommaso-da-rin",
       "type": "exhibited_at",
       "to": "event/first-brera-triennale-1891",
@@ -53923,6 +54439,20 @@
       "source": null
     },
     {
+      "from": "work/bozzetto-per-un-monumento-al-poeta-ugo-foscolo-quadrelli-1891",
+      "type": "created_by",
+      "to": "person/emilio-quadrelli",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/bozzetto-per-un-monumento-al-poeta-ugo-foscolo-quadrelli-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "work/brr-che-freddo-marsili-1891",
       "type": "created_by",
       "to": "person/emilio-marsili",
@@ -54490,6 +55020,20 @@
       "source": null
     },
     {
+      "from": "work/costume-brianzolo-airaghi-1891",
+      "type": "created_by",
+      "to": "person/tommaso-airaghi",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/costume-brianzolo-airaghi-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "work/coucher-de-soleil-a-la-fin-du-printemps-benvenuti-1907",
       "type": "created_by",
       "to": "person/benvenuto-benvenuti",
@@ -54668,6 +55212,20 @@
       "from": "work/d-apres-une-legende-des-alpes-fornara-1907",
       "type": "exhibited_at",
       "to": "event/salon-divisionnistes-italiens-paris-1907",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/dal-nilo-lionetti-1891",
+      "type": "created_by",
+      "to": "person/edoardo-lionetti",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/dal-nilo-lionetti-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
       "certainty": null,
       "source": null
     },
@@ -54910,6 +55468,20 @@
       "source": null
     },
     {
+      "from": "work/ecce-bellum-branca-1891",
+      "type": "created_by",
+      "to": "person/giulio-branca",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/ecce-bellum-branca-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "work/effet-de-neige-cinotti-1907",
       "type": "created_by",
       "to": "person/guido-cinotti",
@@ -55058,6 +55630,20 @@
     },
     {
       "from": "work/emigrata-cassi-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/en-etudiant-braga-1891",
+      "type": "created_by",
+      "to": "person/enrico-braga",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/en-etudiant-braga-1891",
       "type": "exhibited_at",
       "to": "event/first-brera-triennale-1891",
       "certainty": null,
@@ -56136,6 +56722,20 @@
     },
     {
       "from": "work/idillio-pirovano-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/il-bacio-alla-porta-santa-peverada-1891",
+      "type": "created_by",
+      "to": "person/ermenegildo-peverada",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/il-bacio-alla-porta-santa-peverada-1891",
       "type": "exhibited_at",
       "to": "event/first-brera-triennale-1891",
       "certainty": null,
@@ -58838,6 +59438,20 @@
     },
     {
       "from": "work/militari-de-albertis-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/miranda-ella-era-bella-e-gentil-nome-avea-sassi-1891",
+      "type": "created_by",
+      "to": "person/francesco-sassi",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/miranda-ella-era-bella-e-gentil-nome-avea-sassi-1891",
       "type": "exhibited_at",
       "to": "event/first-brera-triennale-1891",
       "certainty": null,
@@ -61721,6 +62335,20 @@
       "source": null
     },
     {
+      "from": "work/sugli-scogli-lionetti-1891",
+      "type": "created_by",
+      "to": "person/edoardo-lionetti",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/sugli-scogli-lionetti-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "work/sul-colle-sardi-1891",
       "type": "created_by",
       "to": "person/cesira-sardi",
@@ -61939,6 +62567,20 @@
     },
     {
       "from": "work/testa-tosi-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/testina-in-bronzo-quadrelli-1891",
+      "type": "created_by",
+      "to": "person/emilio-quadrelli",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/testina-in-bronzo-quadrelli-1891",
       "type": "exhibited_at",
       "to": "event/first-brera-triennale-1891",
       "certainty": null,
@@ -62226,6 +62868,20 @@
     },
     {
       "from": "work/un-consiglio-del-nonno-morbelli",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/un-corvo-cifariello-1891",
+      "type": "created_by",
+      "to": "person/filippo-cifariello",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/un-corvo-cifariello-1891",
       "type": "exhibited_at",
       "to": "event/first-brera-triennale-1891",
       "certainty": null,
@@ -64315,6 +64971,12 @@
     {
       "from": "event/first-brera-triennale-1891",
       "type": "exhibited",
+      "to": "person/edoardo-lionetti",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
       "to": "person/edouard-menta",
       "derived": true
     },
@@ -64424,6 +65086,12 @@
       "from": "event/first-brera-triennale-1891",
       "type": "exhibited",
       "to": "person/enrico-astorri",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "person/enrico-braga",
       "derived": true
     },
     {
@@ -64916,6 +65584,12 @@
       "from": "event/first-brera-triennale-1891",
       "type": "exhibited",
       "to": "person/giulio-bonacina",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "person/giulio-branca",
       "derived": true
     },
     {
@@ -65677,6 +66351,12 @@
     {
       "from": "event/first-brera-triennale-1891",
       "type": "exhibited",
+      "to": "person/tommaso-airaghi",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
       "to": "person/tommaso-da-rin",
       "derived": true
     },
@@ -66407,6 +67087,18 @@
       "derived": true
     },
     {
+      "from": "person/emilio-quadrelli",
+      "type": "created",
+      "to": "work/bozzetto-per-un-monumento-al-poeta-ugo-foscolo-quadrelli-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/bozzetto-per-un-monumento-al-poeta-ugo-foscolo-quadrelli-1891",
+      "derived": true
+    },
+    {
       "from": "person/emilio-marsili",
       "type": "created",
       "to": "work/brr-che-freddo-marsili-1891",
@@ -66893,6 +67585,18 @@
       "derived": true
     },
     {
+      "from": "person/tommaso-airaghi",
+      "type": "created",
+      "to": "work/costume-brianzolo-airaghi-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/costume-brianzolo-airaghi-1891",
+      "derived": true
+    },
+    {
       "from": "person/benvenuto-benvenuti",
       "type": "created",
       "to": "work/coucher-de-soleil-a-la-fin-du-printemps-benvenuti-1907",
@@ -67046,6 +67750,18 @@
       "from": "event/salon-divisionnistes-italiens-paris-1907",
       "type": "exhibited",
       "to": "work/d-apres-une-legende-des-alpes-fornara-1907",
+      "derived": true
+    },
+    {
+      "from": "person/edoardo-lionetti",
+      "type": "created",
+      "to": "work/dal-nilo-lionetti-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/dal-nilo-lionetti-1891",
       "derived": true
     },
     {
@@ -67253,6 +67969,18 @@
       "derived": true
     },
     {
+      "from": "person/giulio-branca",
+      "type": "created",
+      "to": "work/ecce-bellum-branca-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/ecce-bellum-branca-1891",
+      "derived": true
+    },
+    {
       "from": "person/guido-cinotti",
       "type": "created",
       "to": "work/effet-de-neige-cinotti-1907",
@@ -67382,6 +68110,18 @@
       "from": "event/first-brera-triennale-1891",
       "type": "exhibited",
       "to": "work/emigrata-cassi-1891",
+      "derived": true
+    },
+    {
+      "from": "person/enrico-braga",
+      "type": "created",
+      "to": "work/en-etudiant-braga-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/en-etudiant-braga-1891",
       "derived": true
     },
     {
@@ -68306,6 +69046,18 @@
       "from": "event/first-brera-triennale-1891",
       "type": "exhibited",
       "to": "work/idillio-pirovano-1891",
+      "derived": true
+    },
+    {
+      "from": "person/ermenegildo-peverada",
+      "type": "created",
+      "to": "work/il-bacio-alla-porta-santa-peverada-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/il-bacio-alla-porta-santa-peverada-1891",
       "derived": true
     },
     {
@@ -70622,6 +71374,18 @@
       "from": "event/first-brera-triennale-1891",
       "type": "exhibited",
       "to": "work/militari-de-albertis-1891",
+      "derived": true
+    },
+    {
+      "from": "person/francesco-sassi",
+      "type": "created",
+      "to": "work/miranda-ella-era-bella-e-gentil-nome-avea-sassi-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/miranda-ella-era-bella-e-gentil-nome-avea-sassi-1891",
       "derived": true
     },
     {
@@ -73091,6 +73855,18 @@
       "derived": true
     },
     {
+      "from": "person/edoardo-lionetti",
+      "type": "created",
+      "to": "work/sugli-scogli-lionetti-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/sugli-scogli-lionetti-1891",
+      "derived": true
+    },
+    {
       "from": "person/cesira-sardi",
       "type": "created",
       "to": "work/sul-colle-sardi-1891",
@@ -73280,6 +74056,18 @@
       "from": "event/first-brera-triennale-1891",
       "type": "exhibited",
       "to": "work/testa-tosi-1891",
+      "derived": true
+    },
+    {
+      "from": "person/emilio-quadrelli",
+      "type": "created",
+      "to": "work/testina-in-bronzo-quadrelli-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/testina-in-bronzo-quadrelli-1891",
       "derived": true
     },
     {
@@ -73526,6 +74314,18 @@
       "from": "event/first-brera-triennale-1891",
       "type": "exhibited",
       "to": "work/un-consiglio-del-nonno-morbelli",
+      "derived": true
+    },
+    {
+      "from": "person/filippo-cifariello",
+      "type": "created",
+      "to": "work/un-corvo-cifariello-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/un-corvo-cifariello-1891",
       "derived": true
     },
     {
