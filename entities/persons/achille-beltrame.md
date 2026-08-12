@@ -27,4 +27,4 @@ updated: 2026-08-13
 
 # アキッレ・ベルトラーメ / Achille Beltrame
 
-1891年の第一回ブレラ三年展公式カタログに、アルツィニャーノ出身者として掲載される画家。554番《L’alba dopo la battaglia. - Premiato nel 1890 al Concorso Mylius - Di proprietà di questa R. Accademia》を出品した。本項は展覧会記録に限定する。
+1891年の第一回ブレラ三年展公式カタログに、アルツィニャーノ出身者として掲載される画家。554番《L’alba dopo la battaglia. - Premiato nel 1890 al Concorso Mylius - Di proprietà di questa R. Accademia》、598番《PRELVDIVM》を出品した。本項は展覧会記録に限定する。
