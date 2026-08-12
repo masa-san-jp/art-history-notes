@@ -35,9 +35,10 @@ updated: 2026-08-12
 向かったと記録する。
 
 1891年の公式カタログでは、335《Ultimi raggi》、336《Tempo grigio》、404《In cerca di legna》が
-掲載される。別資料が1891年ブレラ出品作として確認する[`335番《Ultimi raggi》`](../works/ultimi-raggi-tominetti-1891.md)と
-[`404番《In cerca di legna》`](../works/in-cerca-di-legna-tominetti-1891.md)を作品化し、336番は作品固有の対応資料を
-追加確認するまで人物側の出品記録に留める。
+掲載される。別資料が1891年ブレラ出品作として確認する[`335番《Ultimi raggi》`](../works/ultimi-raggi-tominetti-1891.md)、
+[`336番《Tempo grigio》`](../works/tempo-grigio-tominetti-1891.md)、
+[`404番《In cerca di legna》`](../works/in-cerca-di-legna-tominetti-1891.md)を作品化した。3件とも、
+作品固有の典拠・制作年・現所在は未確認のため、出品年と公式カタログの題名・番号を保持する。
 
 1907年パリ展では、Salle A（Rotonde）の19〜21番に出品し、20番《Premiers Rayons》を
 [`作品記録`](../works/premiers-rayons-tominetti-1907.md)に分離した。19番[`《Sous la neige》`](../works/sous-la-neige-tominetti-1907.md)と21番[`《Hutte Alpestre》`](../works/hutte-alpestre-tominetti-1907.md)も作品記録へ分離したが、19番と1905年ヴェネツィア展の同名作との同一性は未確認である。制作年と現所在は未確認である。
