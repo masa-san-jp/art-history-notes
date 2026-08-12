@@ -14715,6 +14715,46 @@
       "updated": "2026-08-12",
       "path": "entities/works/la-bottega-del-calderaio-fornara-1891.md"
     },
+    "work/labour-alpestre-mattino-alpestre-omio-1906": {
+      "id": "work/labour-alpestre-mattino-alpestre-omio-1906",
+      "uri": "urn:ahn:work/labour-alpestre-mattino-alpestre-omio-1906",
+      "type": "work",
+      "label_ja": "ジュゼッペ・オーミオ《Labour alpestre / Mattino alpestre》",
+      "label_en": "Labour alpestre / Mattino alpestre",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "独立作品典拠IDは未確認。1906年作品目録の記載番号9381と展覧会カタログを用いる"
+      },
+      "time": {
+        "start": "1906",
+        "end": "1906",
+        "display": "1906年制作 — 1907年パリ展出品"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/giuseppe-omio"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/salon-divisionnistes-italiens-paris-1907"
+        }
+      ],
+      "sources": [
+        "https://exhibitions.univie.ac.at/exhibition/125",
+        "https://exhibitions.univie.ac.at/person/971",
+        "https://upload.wikimedia.org/wikipedia/commons/a/a2/Archivio_fotografico_nazionale_%28opere_d%27arte_-_paesaggio%29%2C_Roma%2C_gallerie_e_musei_I_-_catalogo_%28IA_archiviofotograf00isti%29.pdf",
+        "https://tecadigitale.cai.it/periodici/PDF/CAI-SEM_Le-Prealpi/CAI-SEM_Le-Prealpi_1914_Anno-013_Num-010.pdf",
+        "https://www.flickr.com/photos/tags/ammalato/"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/works/labour-alpestre-mattino-alpestre-omio-1906.md"
+    },
     "work/le-due-madri-segantini": {
       "id": "work/le-due-madri-segantini",
       "uri": "urn:ahn:work/le-due-madri-segantini",
@@ -17633,6 +17673,20 @@
       "source": null
     },
     {
+      "from": "work/labour-alpestre-mattino-alpestre-omio-1906",
+      "type": "created_by",
+      "to": "person/giuseppe-omio",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/labour-alpestre-mattino-alpestre-omio-1906",
+      "type": "exhibited_at",
+      "to": "event/salon-divisionnistes-italiens-paris-1907",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "work/le-due-madri-segantini",
       "type": "created_by",
       "to": "person/giovanni-segantini",
@@ -19255,6 +19309,18 @@
       "from": "event/first-brera-triennale-1891",
       "type": "exhibited",
       "to": "work/la-bottega-del-calderaio-fornara-1891",
+      "derived": true
+    },
+    {
+      "from": "person/giuseppe-omio",
+      "type": "created",
+      "to": "work/labour-alpestre-mattino-alpestre-omio-1906",
+      "derived": true
+    },
+    {
+      "from": "event/salon-divisionnistes-italiens-paris-1907",
+      "type": "exhibited",
+      "to": "work/labour-alpestre-mattino-alpestre-omio-1906",
       "derived": true
     },
     {
