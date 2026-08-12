@@ -22,6 +22,8 @@ relations:
 sources:
   - https://www.museodellacittalivorno.it/evento/vittore-grubicy-un-intellettuale-artista-e-la-sua-eredita-aperture-internazionali-tra-divisionismo-e-simbolismo/112-morbelli-parlatorio-del-pio-albergo-trivulzio/
   - https://archivioangelomorbelli.it/
+  - https://www.fondazionecralessandria.it/wp-content/uploads/2025/06/BilaMISS_24_xsito.pdf
+  - https://galleriemaspes.com/immagini_sito/Cataloghi%20pdf/Brera_Guide.pdf
   - https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf
 status: draft
 updated: 2026-08-12
@@ -32,4 +34,6 @@ updated: 2026-08-12
 1891年の油彩画。リヴォルノ市立博物館の記録は、作品を「Parlatorio del pio albergo Trivulzio –
 Un consiglio del nonno」とし、100×80cm、Fondazione Cassa di Risparmio Alessandriaに帰属させる。
 モルベッリ・アーカイブは、1891年の第一回ブレラ三年展への出品作として挙げている。公式カタログでは
-Portico B Bの518番に掲載され、カタログの綴り「Triulzio」を保持する。
+Portico B Bの518番に掲載され、カタログの綴り「Triulzio」を保持する。別の展覧会資料・図録は本作を
+60×45cmとして掲載しており、寸法表記が一致しないため、本項では両方を出典差として保持する。現所在は
+アレッサンドリア貯蓄財団の記録に基づく。

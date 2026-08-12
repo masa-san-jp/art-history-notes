@@ -21,6 +21,8 @@ relations:
 sources:
   - https://www.wikidata.org/wiki/Q3617111
   - https://www.treccani.it/enciclopedia/angelo-morbelli_%28Dizionario-Biografico%29/
+  - https://archivioangelomorbelli.it/
+  - https://www.fondazionecralessandria.it/wp-content/uploads/2025/06/BilaMISS_24_xsito.pdf
   - https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf
 status: draft
 updated: 2026-08-12
@@ -34,9 +36,6 @@ updated: 2026-08-12
 1891年の『Prima esposizione triennale 1891』公式カタログでは、Portico B Bの出品番号517に
 [`《Alba》`](../works/alba-morbelli-1891.md)、518に
 [`《Un Consiglio del nonno – Parlatorio del luogo Pio Triulzio》`](../works/un-consiglio-del-nonno-morbelli.md)が掲載されている。
-作品名はカタログの綴りを保持し、後世の作品名表記との異同は作品側に注記した。
-
-## 未着手
-
-- 517・518番の作品情報・所蔵館・異綴りを確認し、`work`エンティティに分離すること
-- モルベッリの1890年代の分割主義作品と、ペリッツァらとの関係を一次資料で整理すること
+作品名はカタログの綴りを保持し、後世の作品名表記との異同は作品側に注記した。モルベッリ・アーカイブは、
+この2件を1891年展への出品作として確認し、《Alba》をバルセロナのMNAC、《Parlatorio del luogo Pio Trivulzio》を
+アレッサンドリア貯蓄財団の所蔵として記録する。
