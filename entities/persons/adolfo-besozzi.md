@@ -1,9 +1,9 @@
 ---
-id: person/giuseppe-pennasilico
-uri: urn:ahn:person/giuseppe-pennasilico
+id: person/adolfo-besozzi
+uri: urn:ahn:person/adolfo-besozzi
 type: person
-label_ja: ジュゼッペ・ペンナシリコ
-label_en: Giuseppe Pennasilico
+label_ja: アドルフォ・ベソッツィ
+label_en: Adolfo Besozzi
 authority:
   wikidata: null
   ulan: null
@@ -13,7 +13,7 @@ authority:
 time:
   start: null
   end: null
-  display: "19世紀末にナポリ出身者として活動"
+  display: "19世紀末にミラノで活動"
 space: []
 relations:
   - {type: exhibited_at, target: event/first-brera-triennale-1891}
@@ -23,6 +23,6 @@ status: draft
 updated: 2026-08-13
 ---
 
-# ジュゼッペ・ペンナシリコ / Giuseppe Pennasilico
+# アドルフォ・ベソッツィ / Adolfo Besozzi
 
-1891年の第一回ブレラ三年展公式カタログに、ナポリ出身者として掲載される画家。539番《Un portico di fioraia a Genova》、549番《Colombi》を出品した。本項は展覧会記録に限定する。
+1891年の第一回ブレラ三年展公式カタログに、ミラノ出身者として掲載される画家。546番《Primavera in pianura》、547番《Betulle a Petrolz - Svizzera》、548番《Quiete estiva》を出品した。本項は展覧会記録に限定する。
