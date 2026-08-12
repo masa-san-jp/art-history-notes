@@ -15037,6 +15037,46 @@
       "updated": "2026-08-12",
       "path": "entities/works/matin-d-automne-benvenuti-1907.md"
     },
+    "work/melanconie-du-soleil-maggi-1906": {
+      "id": "work/melanconie-du-soleil-maggi-1906",
+      "uri": "urn:ahn:work/melanconie-du-soleil-maggi-1906",
+      "type": "work",
+      "label_ja": "チェーザレ・マッジ《La melanconia del sole / Mélancolie du soleil》",
+      "label_en": "La melanconia del sole / Mélancolie du soleil",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "独立作品典拠IDは未確認。Pinacoteca il Divisionismoの作品記録と1907年展カタログ記録を用いる"
+      },
+      "time": {
+        "start": "1906",
+        "end": "1906",
+        "display": "1906年制作 — 1907年パリ展出品"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/cesare-maggi"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/salon-divisionnistes-italiens-paris-1907"
+        }
+      ],
+      "sources": [
+        "https://artsupp.com/it/artisti/cesare-maggi/la-melanconia-del-sole",
+        "https://ildivisionismo.it/cesare-maggi/",
+        "https://exhibitions.univie.ac.at/person/ulan/500053429",
+        "https://exhibitions.univie.ac.at/exhibition/125",
+        "https://www.berardiarte.it/artisti/cesare-maggi/alpine-landscape-1915/"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/works/melanconie-du-soleil-maggi-1906.md"
+    },
     "work/monument-to-third-international": {
       "id": "work/monument-to-third-international",
       "uri": "urn:ahn:work/monument-to-third-international",
@@ -17966,6 +18006,20 @@
       "source": null
     },
     {
+      "from": "work/melanconie-du-soleil-maggi-1906",
+      "type": "created_by",
+      "to": "person/cesare-maggi",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/melanconie-du-soleil-maggi-1906",
+      "type": "exhibited_at",
+      "to": "event/salon-divisionnistes-italiens-paris-1907",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "work/monument-to-third-international",
       "type": "created_by",
       "to": "person/vladimir-tatlin",
@@ -19638,6 +19692,18 @@
       "from": "event/salon-divisionnistes-italiens-paris-1907",
       "type": "exhibited",
       "to": "work/matin-d-automne-benvenuti-1907",
+      "derived": true
+    },
+    {
+      "from": "person/cesare-maggi",
+      "type": "created",
+      "to": "work/melanconie-du-soleil-maggi-1906",
+      "derived": true
+    },
+    {
+      "from": "event/salon-divisionnistes-italiens-paris-1907",
+      "type": "exhibited",
+      "to": "work/melanconie-du-soleil-maggi-1906",
       "derived": true
     },
     {
