@@ -20,6 +20,7 @@ relations:
   - {type: exhibited_at, target: event/salon-divisionnistes-italiens-paris-1907}
 sources:
   - https://www.wikidata.org/wiki/Q913979
+  - https://exhibitions.univie.ac.at/person/ulan/500030319
   - https://www.treccani.it/enciclopedia/gaetano-previati_%28Dizionario-Biografico%29/
   - https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf
 status: draft
@@ -36,7 +37,6 @@ updated: 2026-08-12
 [`《Maternità》`](../works/maternita-previati-1891.md)が掲載されている。作品は[`第一回ブレラ三年展`](../events/first-brera-triennale-1891.md)
 への出品として作品側にも記録した。
 
-## 未着手
-
-- 《Maternità》の所蔵館・制作年・作品典拠を確認し、`work`エンティティに分離すること
-- 1905〜06年の理論書の初版本文を確認すること
+1907年パリ展では、Salle Eの253〜280番（269番は欠番）に27件を出品した。DoMEのカタログ記録に基づき、
+各件を媒体とカタログ番号を保持する個別の`work`エンティティとして整理した。制作年・寸法・現所在は、
+作品ごとの独立典拠を確認できるまで未確定とする。

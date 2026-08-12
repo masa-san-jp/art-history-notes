@@ -10115,6 +10115,7 @@
       ],
       "sources": [
         "https://www.wikidata.org/wiki/Q913979",
+        "https://exhibitions.univie.ac.at/person/ulan/500030319",
         "https://www.treccani.it/enciclopedia/gaetano-previati_%28Dizionario-Biografico%29/",
         "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
       ],
@@ -15010,6 +15011,80 @@
       "updated": "2026-08-12",
       "path": "entities/works/chouettes-magrini-1907.md"
     },
+    "work/clair-de-lune-previati-1907": {
+      "id": "work/clair-de-lune-previati-1907",
+      "uri": "urn:ahn:work/clair-de-lune-previati-1907",
+      "type": "work",
+      "label_ja": "ガエターノ・プレヴィアーティ《Clair de Lune》",
+      "label_en": "Clair de Lune",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "独立作品典拠IDは未確認。1907年パリ展カタログ記録を用いる"
+      },
+      "time": {
+        "start": "1907",
+        "end": "1907",
+        "display": "1907年パリ展出品（制作年未確認）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/gaetano-previati"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/salon-divisionnistes-italiens-paris-1907"
+        }
+      ],
+      "sources": [
+        "https://exhibitions.univie.ac.at/person/ulan/500030319",
+        "https://exhibitions.univie.ac.at/exhibition/125"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/works/clair-de-lune-previati-1907.md"
+    },
+    "work/cleopatre-previati-1907": {
+      "id": "work/cleopatre-previati-1907",
+      "uri": "urn:ahn:work/cleopatre-previati-1907",
+      "type": "work",
+      "label_ja": "ガエターノ・プレヴィアーティ《Cléopâtre》",
+      "label_en": "Cléopâtre",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "独立作品典拠IDは未確認。1907年パリ展カタログ記録を用いる"
+      },
+      "time": {
+        "start": "1907",
+        "end": "1907",
+        "display": "1907年パリ展出品（制作年未確認）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/gaetano-previati"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/salon-divisionnistes-italiens-paris-1907"
+        }
+      ],
+      "sources": [
+        "https://exhibitions.univie.ac.at/person/ulan/500030319",
+        "https://exhibitions.univie.ac.at/exhibition/125"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/works/cleopatre-previati-1907.md"
+    },
     "work/coucher-de-soleil-a-la-fin-du-printemps-benvenuti-1907": {
       "id": "work/coucher-de-soleil-a-la-fin-du-printemps-benvenuti-1907",
       "uri": "urn:ahn:work/coucher-de-soleil-a-la-fin-du-printemps-benvenuti-1907",
@@ -15196,6 +15271,43 @@
       "status": "draft",
       "updated": "2026-08-12",
       "path": "entities/works/dans-l-isolement-magrini-1907.md"
+    },
+    "work/dans-le-pre-previati-1907": {
+      "id": "work/dans-le-pre-previati-1907",
+      "uri": "urn:ahn:work/dans-le-pre-previati-1907",
+      "type": "work",
+      "label_ja": "ガエターノ・プレヴィアーティ《Dans le pré》",
+      "label_en": "Dans le pré",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "独立作品典拠IDは未確認。1907年パリ展カタログ記録を用いる"
+      },
+      "time": {
+        "start": "1907",
+        "end": "1907",
+        "display": "1907年パリ展出品（制作年未確認）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/gaetano-previati"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/salon-divisionnistes-italiens-paris-1907"
+        }
+      ],
+      "sources": [
+        "https://exhibitions.univie.ac.at/person/ulan/500030319",
+        "https://exhibitions.univie.ac.at/exhibition/125"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/works/dans-le-pre-previati-1907.md"
     },
     "work/deux-chevaux-magrini-1907": {
       "id": "work/deux-chevaux-magrini-1907",
@@ -15458,6 +15570,43 @@
       "status": "draft",
       "updated": "2026-08-12",
       "path": "entities/works/elephant-magrini-1907.md"
+    },
+    "work/enfant-dans-les-pres-previati-1907": {
+      "id": "work/enfant-dans-les-pres-previati-1907",
+      "uri": "urn:ahn:work/enfant-dans-les-pres-previati-1907",
+      "type": "work",
+      "label_ja": "ガエターノ・プレヴィアーティ《Enfant dans les prés》",
+      "label_en": "Enfant dans les prés",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "独立作品典拠IDは未確認。1907年パリ展カタログ記録を用いる"
+      },
+      "time": {
+        "start": "1907",
+        "end": "1907",
+        "display": "1907年パリ展出品（制作年未確認）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/gaetano-previati"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/salon-divisionnistes-italiens-paris-1907"
+        }
+      ],
+      "sources": [
+        "https://exhibitions.univie.ac.at/person/ulan/500030319",
+        "https://exhibitions.univie.ac.at/exhibition/125"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/works/enfant-dans-les-pres-previati-1907.md"
     },
     "work/etude-de-nu-magrini-1907-no123": {
       "id": "work/etude-de-nu-magrini-1907-no123",
@@ -15755,6 +15904,43 @@
       "updated": "2026-08-12",
       "path": "entities/works/figure-de-femme-magrini-1907.md"
     },
+    "work/fleurs-previati-1907": {
+      "id": "work/fleurs-previati-1907",
+      "uri": "urn:ahn:work/fleurs-previati-1907",
+      "type": "work",
+      "label_ja": "ガエターノ・プレヴィアーティ《Fleurs》",
+      "label_en": "Fleurs",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "独立作品典拠IDは未確認。1907年パリ展カタログ記録を用いる"
+      },
+      "time": {
+        "start": "1907",
+        "end": "1907",
+        "display": "1907年パリ展出品（制作年未確認）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/gaetano-previati"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/salon-divisionnistes-italiens-paris-1907"
+        }
+      ],
+      "sources": [
+        "https://exhibitions.univie.ac.at/person/ulan/500030319",
+        "https://exhibitions.univie.ac.at/exhibition/125"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/works/fleurs-previati-1907.md"
+    },
     "work/flirt-magrini-1907": {
       "id": "work/flirt-magrini-1907",
       "uri": "urn:ahn:work/flirt-magrini-1907",
@@ -15791,6 +15977,80 @@
       "status": "draft",
       "updated": "2026-08-12",
       "path": "entities/works/flirt-magrini-1907.md"
+    },
+    "work/funerailles-d-une-vierge-previati-1907": {
+      "id": "work/funerailles-d-une-vierge-previati-1907",
+      "uri": "urn:ahn:work/funerailles-d-une-vierge-previati-1907",
+      "type": "work",
+      "label_ja": "ガエターノ・プレヴィアーティ《Funérailles d'une Vierge》",
+      "label_en": "Funérailles d'une Vierge",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "独立作品典拠IDは未確認。1907年パリ展カタログ記録を用いる"
+      },
+      "time": {
+        "start": "1907",
+        "end": "1907",
+        "display": "1907年パリ展出品（制作年未確認）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/gaetano-previati"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/salon-divisionnistes-italiens-paris-1907"
+        }
+      ],
+      "sources": [
+        "https://exhibitions.univie.ac.at/person/ulan/500030319",
+        "https://exhibitions.univie.ac.at/exhibition/125"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/works/funerailles-d-une-vierge-previati-1907.md"
+    },
+    "work/georgique-previati-1907": {
+      "id": "work/georgique-previati-1907",
+      "uri": "urn:ahn:work/georgique-previati-1907",
+      "type": "work",
+      "label_ja": "ガエターノ・プレヴィアーティ《Georgique》",
+      "label_en": "Georgique",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "独立作品典拠IDは未確認。1907年パリ展カタログ記録を用いる"
+      },
+      "time": {
+        "start": "1907",
+        "end": "1907",
+        "display": "1907年パリ展出品（制作年未確認）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/gaetano-previati"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/salon-divisionnistes-italiens-paris-1907"
+        }
+      ],
+      "sources": [
+        "https://exhibitions.univie.ac.at/person/ulan/500030319",
+        "https://exhibitions.univie.ac.at/exhibition/125"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/works/georgique-previati-1907.md"
     },
     "work/gnou-magrini-1907": {
       "id": "work/gnou-magrini-1907",
@@ -16088,6 +16348,117 @@
       "updated": "2026-08-12",
       "path": "entities/works/indivisible-ramponi-1907.md"
     },
+    "work/l-annonceation-previati-1907": {
+      "id": "work/l-annonceation-previati-1907",
+      "uri": "urn:ahn:work/l-annonceation-previati-1907",
+      "type": "work",
+      "label_ja": "ガエターノ・プレヴィアーティ《L'Annonciation》",
+      "label_en": "L'Annonciation",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "独立作品典拠IDは未確認。1907年パリ展カタログ記録を用いる"
+      },
+      "time": {
+        "start": "1907",
+        "end": "1907",
+        "display": "1907年パリ展出品（制作年未確認）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/gaetano-previati"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/salon-divisionnistes-italiens-paris-1907"
+        }
+      ],
+      "sources": [
+        "https://exhibitions.univie.ac.at/person/ulan/500030319",
+        "https://exhibitions.univie.ac.at/exhibition/125"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/works/l-annonceation-previati-1907.md"
+    },
+    "work/l-assomption-previati-1907": {
+      "id": "work/l-assomption-previati-1907",
+      "uri": "urn:ahn:work/l-assomption-previati-1907",
+      "type": "work",
+      "label_ja": "ガエターノ・プレヴィアーティ《L'Assomption》",
+      "label_en": "L'Assomption",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "独立作品典拠IDは未確認。1907年パリ展カタログ記録を用いる"
+      },
+      "time": {
+        "start": "1907",
+        "end": "1907",
+        "display": "1907年パリ展出品（制作年未確認）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/gaetano-previati"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/salon-divisionnistes-italiens-paris-1907"
+        }
+      ],
+      "sources": [
+        "https://exhibitions.univie.ac.at/person/ulan/500030319",
+        "https://exhibitions.univie.ac.at/exhibition/125"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/works/l-assomption-previati-1907.md"
+    },
+    "work/l-heroique-previati-1907": {
+      "id": "work/l-heroique-previati-1907",
+      "uri": "urn:ahn:work/l-heroique-previati-1907",
+      "type": "work",
+      "label_ja": "ガエターノ・プレヴィアーティ《L'Héroïque (triptyque)》",
+      "label_en": "L'Héroïque (triptyque)",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "独立作品典拠IDは未確認。1907年パリ展カタログ記録を用いる"
+      },
+      "time": {
+        "start": "1907",
+        "end": "1907",
+        "display": "1907年パリ展出品（制作年未確認）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/gaetano-previati"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/salon-divisionnistes-italiens-paris-1907"
+        }
+      ],
+      "sources": [
+        "https://exhibitions.univie.ac.at/person/ulan/500030319",
+        "https://exhibitions.univie.ac.at/exhibition/125"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/works/l-heroique-previati-1907.md"
+    },
     "work/l-oratore-dello-sciopero-longoni-1891": {
       "id": "work/l-oratore-dello-sciopero-longoni-1891",
       "uri": "urn:ahn:work/l-oratore-dello-sciopero-longoni-1891",
@@ -16128,6 +16499,43 @@
       "status": "draft",
       "updated": "2026-08-12",
       "path": "entities/works/l-oratore-dello-sciopero-longoni-1891.md"
+    },
+    "work/la-bataille-previati-1907": {
+      "id": "work/la-bataille-previati-1907",
+      "uri": "urn:ahn:work/la-bataille-previati-1907",
+      "type": "work",
+      "label_ja": "ガエターノ・プレヴィアーティ《La Bataille》",
+      "label_en": "La Bataille",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "独立作品典拠IDは未確認。1907年パリ展カタログ記録を用いる"
+      },
+      "time": {
+        "start": "1907",
+        "end": "1907",
+        "display": "1907年パリ展出品（制作年未確認）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/gaetano-previati"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/salon-divisionnistes-italiens-paris-1907"
+        }
+      ],
+      "sources": [
+        "https://exhibitions.univie.ac.at/person/ulan/500030319",
+        "https://exhibitions.univie.ac.at/exhibition/125"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/works/la-bataille-previati-1907.md"
     },
     "work/la-bottega-del-calderaio-fornara-1891": {
       "id": "work/la-bottega-del-calderaio-fornara-1891",
@@ -16204,6 +16612,43 @@
       "updated": "2026-08-12",
       "path": "entities/works/la-lutte-pour-la-vie-magrini-1907.md"
     },
+    "work/la-priere-previati-1907": {
+      "id": "work/la-priere-previati-1907",
+      "uri": "urn:ahn:work/la-priere-previati-1907",
+      "type": "work",
+      "label_ja": "ガエターノ・プレヴィアーティ《La Prière》",
+      "label_en": "La Prière",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "独立作品典拠IDは未確認。1907年パリ展カタログ記録を用いる"
+      },
+      "time": {
+        "start": "1907",
+        "end": "1907",
+        "display": "1907年パリ展出品（制作年未確認）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/gaetano-previati"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/salon-divisionnistes-italiens-paris-1907"
+        }
+      ],
+      "sources": [
+        "https://exhibitions.univie.ac.at/person/ulan/500030319",
+        "https://exhibitions.univie.ac.at/exhibition/125"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/works/la-priere-previati-1907.md"
+    },
     "work/la-vallee-de-malenco-mario-segantini-1907": {
       "id": "work/la-vallee-de-malenco-mario-segantini-1907",
       "uri": "urn:ahn:work/la-vallee-de-malenco-mario-segantini-1907",
@@ -16241,6 +16686,80 @@
       "status": "draft",
       "updated": "2026-08-12",
       "path": "entities/works/la-vallee-de-malenco-mario-segantini-1907.md"
+    },
+    "work/la-victoire-previati-1907": {
+      "id": "work/la-victoire-previati-1907",
+      "uri": "urn:ahn:work/la-victoire-previati-1907",
+      "type": "work",
+      "label_ja": "ガエターノ・プレヴィアーティ《La Victoire》",
+      "label_en": "La Victoire",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "独立作品典拠IDは未確認。1907年パリ展カタログ記録を用いる"
+      },
+      "time": {
+        "start": "1907",
+        "end": "1907",
+        "display": "1907年パリ展出品（制作年未確認）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/gaetano-previati"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/salon-divisionnistes-italiens-paris-1907"
+        }
+      ],
+      "sources": [
+        "https://exhibitions.univie.ac.at/person/ulan/500030319",
+        "https://exhibitions.univie.ac.at/exhibition/125"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/works/la-victoire-previati-1907.md"
+    },
+    "work/la-vierge-previati-1907": {
+      "id": "work/la-vierge-previati-1907",
+      "uri": "urn:ahn:work/la-vierge-previati-1907",
+      "type": "work",
+      "label_ja": "ガエターノ・プレヴィアーティ《La Vierge》",
+      "label_en": "La Vierge",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "独立作品典拠IDは未確認。1907年パリ展カタログ記録を用いる"
+      },
+      "time": {
+        "start": "1907",
+        "end": "1907",
+        "display": "1907年パリ展出品（制作年未確認）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/gaetano-previati"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/salon-divisionnistes-italiens-paris-1907"
+        }
+      ],
+      "sources": [
+        "https://exhibitions.univie.ac.at/person/ulan/500030319",
+        "https://exhibitions.univie.ac.at/exhibition/125"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/works/la-vierge-previati-1907.md"
     },
     "work/labour-alpestre-mattino-alpestre-omio-1906": {
       "id": "work/labour-alpestre-mattino-alpestre-omio-1906",
@@ -16318,6 +16837,43 @@
       "status": "draft",
       "updated": "2026-08-12",
       "path": "entities/works/labour-magrini-1907.md"
+    },
+    "work/le-calvaire-previati-1907": {
+      "id": "work/le-calvaire-previati-1907",
+      "uri": "urn:ahn:work/le-calvaire-previati-1907",
+      "type": "work",
+      "label_ja": "ガエターノ・プレヴィアーティ《Le Calvaire (Crucifiement)》",
+      "label_en": "Le Calvaire (Crucifiement)",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "独立作品典拠IDは未確認。1907年パリ展カタログ記録を用いる"
+      },
+      "time": {
+        "start": "1907",
+        "end": "1907",
+        "display": "1907年パリ展出品（制作年未確認）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/gaetano-previati"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/salon-divisionnistes-italiens-paris-1907"
+        }
+      ],
+      "sources": [
+        "https://exhibitions.univie.ac.at/person/ulan/500030319",
+        "https://exhibitions.univie.ac.at/exhibition/125"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/works/le-calvaire-previati-1907.md"
     },
     "work/le-chateau-de-padenghe-focardi-1907": {
       "id": "work/le-chateau-de-padenghe-focardi-1907",
@@ -16513,6 +17069,43 @@
       "updated": "2026-08-12",
       "path": "entities/works/le-jardin-de-la-duchesse-leed-minozzi-1907.md"
     },
+    "work/le-jour-qui-reveille-la-nuit-previati-1907": {
+      "id": "work/le-jour-qui-reveille-la-nuit-previati-1907",
+      "uri": "urn:ahn:work/le-jour-qui-reveille-la-nuit-previati-1907",
+      "type": "work",
+      "label_ja": "ガエターノ・プレヴィアーティ《Le Jour qui réveille la Nuit》",
+      "label_en": "Le Jour qui réveille la Nuit",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "独立作品典拠IDは未確認。1907年パリ展カタログ記録を用いる"
+      },
+      "time": {
+        "start": "1907",
+        "end": "1907",
+        "display": "1907年パリ展出品（制作年未確認）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/gaetano-previati"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/salon-divisionnistes-italiens-paris-1907"
+        }
+      ],
+      "sources": [
+        "https://exhibitions.univie.ac.at/person/ulan/500030319",
+        "https://exhibitions.univie.ac.at/exhibition/125"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/works/le-jour-qui-reveille-la-nuit-previati-1907.md"
+    },
     "work/le-mont-cervin-maggi-1907": {
       "id": "work/le-mont-cervin-maggi-1907",
       "uri": "urn:ahn:work/le-mont-cervin-maggi-1907",
@@ -16550,6 +17143,80 @@
       "updated": "2026-08-12",
       "path": "entities/works/le-mont-cervin-maggi-1907.md"
     },
+    "work/le-pont-levis-previati-1907": {
+      "id": "work/le-pont-levis-previati-1907",
+      "uri": "urn:ahn:work/le-pont-levis-previati-1907",
+      "type": "work",
+      "label_ja": "ガエターノ・プレヴィアーティ《Le Pont levis》",
+      "label_en": "Le Pont levis",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "独立作品典拠IDは未確認。1907年パリ展カタログ記録を用いる"
+      },
+      "time": {
+        "start": "1907",
+        "end": "1907",
+        "display": "1907年パリ展出品（制作年未確認）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/gaetano-previati"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/salon-divisionnistes-italiens-paris-1907"
+        }
+      ],
+      "sources": [
+        "https://exhibitions.univie.ac.at/person/ulan/500030319",
+        "https://exhibitions.univie.ac.at/exhibition/125"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/works/le-pont-levis-previati-1907.md"
+    },
+    "work/le-roi-soleil-previati-1907": {
+      "id": "work/le-roi-soleil-previati-1907",
+      "uri": "urn:ahn:work/le-roi-soleil-previati-1907",
+      "type": "work",
+      "label_ja": "ガエターノ・プレヴィアーティ《Le Roi Soleil》",
+      "label_en": "Le Roi Soleil",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "独立作品典拠IDは未確認。1907年パリ展カタログ記録を用いる"
+      },
+      "time": {
+        "start": "1907",
+        "end": "1907",
+        "display": "1907年パリ展出品（制作年未確認）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/gaetano-previati"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/salon-divisionnistes-italiens-paris-1907"
+        }
+      ],
+      "sources": [
+        "https://exhibitions.univie.ac.at/person/ulan/500030319",
+        "https://exhibitions.univie.ac.at/exhibition/125"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/works/le-roi-soleil-previati-1907.md"
+    },
     "work/le-tigre-magrini-1907": {
       "id": "work/le-tigre-magrini-1907",
       "uri": "urn:ahn:work/le-tigre-magrini-1907",
@@ -16586,6 +17253,80 @@
       "status": "draft",
       "updated": "2026-08-12",
       "path": "entities/works/le-tigre-magrini-1907.md"
+    },
+    "work/le-verbe-previati-1907": {
+      "id": "work/le-verbe-previati-1907",
+      "uri": "urn:ahn:work/le-verbe-previati-1907",
+      "type": "work",
+      "label_ja": "ガエターノ・プレヴィアーティ《Le Verbe》",
+      "label_en": "Le Verbe",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "独立作品典拠IDは未確認。1907年パリ展カタログ記録を用いる"
+      },
+      "time": {
+        "start": "1907",
+        "end": "1907",
+        "display": "1907年パリ展出品（制作年未確認）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/gaetano-previati"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/salon-divisionnistes-italiens-paris-1907"
+        }
+      ],
+      "sources": [
+        "https://exhibitions.univie.ac.at/person/ulan/500030319",
+        "https://exhibitions.univie.ac.at/exhibition/125"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/works/le-verbe-previati-1907.md"
+    },
+    "work/leda-previati-1907": {
+      "id": "work/leda-previati-1907",
+      "uri": "urn:ahn:work/leda-previati-1907",
+      "type": "work",
+      "label_ja": "ガエターノ・プレヴィアーティ《Leda》",
+      "label_en": "Leda",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "独立作品典拠IDは未確認。1907年パリ展カタログ記録を用いる"
+      },
+      "time": {
+        "start": "1907",
+        "end": "1907",
+        "display": "1907年パリ展出品（制作年未確認）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/gaetano-previati"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/salon-divisionnistes-italiens-paris-1907"
+        }
+      ],
+      "sources": [
+        "https://exhibitions.univie.ac.at/person/ulan/500030319",
+        "https://exhibitions.univie.ac.at/exhibition/125"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/works/leda-previati-1907.md"
     },
     "work/lef-no-2-1924": {
       "id": "work/lef-no-2-1924",
@@ -16630,6 +17371,43 @@
       "status": "draft",
       "updated": "2026-08-12",
       "path": "entities/works/lef-no-2-1924.md"
+    },
+    "work/les-rois-mages-previati-1907": {
+      "id": "work/les-rois-mages-previati-1907",
+      "uri": "urn:ahn:work/les-rois-mages-previati-1907",
+      "type": "work",
+      "label_ja": "ガエターノ・プレヴィアーティ《Les Rois Mages》",
+      "label_en": "Les Rois Mages",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "独立作品典拠IDは未確認。1907年パリ展カタログ記録を用いる"
+      },
+      "time": {
+        "start": "1907",
+        "end": "1907",
+        "display": "1907年パリ展出品（制作年未確認）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/gaetano-previati"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/salon-divisionnistes-italiens-paris-1907"
+        }
+      ],
+      "sources": [
+        "https://exhibitions.univie.ac.at/person/ulan/500030319",
+        "https://exhibitions.univie.ac.at/exhibition/125"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/works/les-rois-mages-previati-1907.md"
     },
     "work/lion-a-l-affut-magrini-1907": {
       "id": "work/lion-a-l-affut-magrini-1907",
@@ -17228,6 +18006,43 @@
       "status": "draft",
       "updated": "2026-08-12",
       "path": "entities/works/maternita-previati-1891.md"
+    },
+    "work/maternite-previati-1907": {
+      "id": "work/maternite-previati-1907",
+      "uri": "urn:ahn:work/maternite-previati-1907",
+      "type": "work",
+      "label_ja": "ガエターノ・プレヴィアーティ《Maternité》",
+      "label_en": "Maternité",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "独立作品典拠IDは未確認。1907年パリ展カタログ記録を用いる"
+      },
+      "time": {
+        "start": "1907",
+        "end": "1907",
+        "display": "1907年パリ展出品（制作年未確認）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/gaetano-previati"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/salon-divisionnistes-italiens-paris-1907"
+        }
+      ],
+      "sources": [
+        "https://exhibitions.univie.ac.at/person/ulan/500030319",
+        "https://exhibitions.univie.ac.at/exhibition/125"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/works/maternite-previati-1907.md"
     },
     "work/matin-d-automne-benvenuti-1907": {
       "id": "work/matin-d-automne-benvenuti-1907",
@@ -18349,6 +19164,43 @@
       "updated": "2026-08-12",
       "path": "entities/works/pensive-etude-de-nu-magrini-1907.md"
     },
+    "work/petite-tete-previati-1907": {
+      "id": "work/petite-tete-previati-1907",
+      "uri": "urn:ahn:work/petite-tete-previati-1907",
+      "type": "work",
+      "label_ja": "ガエターノ・プレヴィアーティ《Petite tête》",
+      "label_en": "Petite tête",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "独立作品典拠IDは未確認。1907年パリ展カタログ記録を用いる"
+      },
+      "time": {
+        "start": "1907",
+        "end": "1907",
+        "display": "1907年パリ展出品（制作年未確認）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/gaetano-previati"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/salon-divisionnistes-italiens-paris-1907"
+        }
+      ],
+      "sources": [
+        "https://exhibitions.univie.ac.at/person/ulan/500030319",
+        "https://exhibitions.univie.ac.at/exhibition/125"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/works/petite-tete-previati-1907.md"
+    },
     "work/piazza-caricamento-nomellini-1891": {
       "id": "work/piazza-caricamento-nomellini-1891",
       "uri": "urn:ahn:work/piazza-caricamento-nomellini-1891",
@@ -18608,6 +19460,80 @@
       "status": "draft",
       "updated": "2026-08-12",
       "path": "entities/works/ricordanze-fornara-1891.md"
+    },
+    "work/romeo-et-juliette-previati-1907": {
+      "id": "work/romeo-et-juliette-previati-1907",
+      "uri": "urn:ahn:work/romeo-et-juliette-previati-1907",
+      "type": "work",
+      "label_ja": "ガエターノ・プレヴィアーティ《Roméo et Juliette》",
+      "label_en": "Roméo et Juliette",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "独立作品典拠IDは未確認。1907年パリ展カタログ記録を用いる"
+      },
+      "time": {
+        "start": "1907",
+        "end": "1907",
+        "display": "1907年パリ展出品（制作年未確認）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/gaetano-previati"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/salon-divisionnistes-italiens-paris-1907"
+        }
+      ],
+      "sources": [
+        "https://exhibitions.univie.ac.at/person/ulan/500030319",
+        "https://exhibitions.univie.ac.at/exhibition/125"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/works/romeo-et-juliette-previati-1907.md"
+    },
+    "work/sacree-famille-previati-1907": {
+      "id": "work/sacree-famille-previati-1907",
+      "uri": "urn:ahn:work/sacree-famille-previati-1907",
+      "type": "work",
+      "label_ja": "ガエターノ・プレヴィアーティ《Sacrée famille》",
+      "label_en": "Sacrée famille",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "独立作品典拠IDは未確認。1907年パリ展カタログ記録を用いる"
+      },
+      "time": {
+        "start": "1907",
+        "end": "1907",
+        "display": "1907年パリ展出品（制作年未確認）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/gaetano-previati"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/salon-divisionnistes-italiens-paris-1907"
+        }
+      ],
+      "sources": [
+        "https://exhibitions.univie.ac.at/person/ulan/500030319",
+        "https://exhibitions.univie.ac.at/exhibition/125"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/works/sacree-famille-previati-1907.md"
     },
     "work/sognando-rastellini-1891": {
       "id": "work/sognando-rastellini-1891",
@@ -19246,6 +20172,80 @@
       "status": "draft",
       "updated": "2026-08-12",
       "path": "entities/works/vers-l-etable-magrini-1907.md"
+    },
+    "work/via-crucis-previati-1907": {
+      "id": "work/via-crucis-previati-1907",
+      "uri": "urn:ahn:work/via-crucis-previati-1907",
+      "type": "work",
+      "label_ja": "ガエターノ・プレヴィアーティ《Via Crucis (14 stations)》",
+      "label_en": "Via Crucis (14 stations)",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "独立作品典拠IDは未確認。1907年パリ展カタログ記録を用いる"
+      },
+      "time": {
+        "start": "1907",
+        "end": "1907",
+        "display": "1907年パリ展出品（制作年未確認）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/gaetano-previati"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/salon-divisionnistes-italiens-paris-1907"
+        }
+      ],
+      "sources": [
+        "https://exhibitions.univie.ac.at/person/ulan/500030319",
+        "https://exhibitions.univie.ac.at/exhibition/125"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/works/via-crucis-previati-1907.md"
+    },
+    "work/vierge-a-l-enfant-previati-1907": {
+      "id": "work/vierge-a-l-enfant-previati-1907",
+      "uri": "urn:ahn:work/vierge-a-l-enfant-previati-1907",
+      "type": "work",
+      "label_ja": "ガエターノ・プレヴィアーティ《Vierge à l'Enfant》",
+      "label_en": "Vierge à l'Enfant",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "独立作品典拠IDは未確認。1907年パリ展カタログ記録を用いる"
+      },
+      "time": {
+        "start": "1907",
+        "end": "1907",
+        "display": "1907年パリ展出品（制作年未確認）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/gaetano-previati"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/salon-divisionnistes-italiens-paris-1907"
+        }
+      ],
+      "sources": [
+        "https://exhibitions.univie.ac.at/person/ulan/500030319",
+        "https://exhibitions.univie.ac.at/exhibition/125"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/works/vierge-a-l-enfant-previati-1907.md"
     },
     "work/village-des-alpes-ramponi-1907": {
       "id": "work/village-des-alpes-ramponi-1907",
@@ -21837,6 +22837,34 @@
       "source": null
     },
     {
+      "from": "work/clair-de-lune-previati-1907",
+      "type": "created_by",
+      "to": "person/gaetano-previati",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/clair-de-lune-previati-1907",
+      "type": "exhibited_at",
+      "to": "event/salon-divisionnistes-italiens-paris-1907",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/cleopatre-previati-1907",
+      "type": "created_by",
+      "to": "person/gaetano-previati",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/cleopatre-previati-1907",
+      "type": "exhibited_at",
+      "to": "event/salon-divisionnistes-italiens-paris-1907",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "work/coucher-de-soleil-a-la-fin-du-printemps-benvenuti-1907",
       "type": "created_by",
       "to": "person/benvenuto-benvenuti",
@@ -21901,6 +22929,20 @@
     },
     {
       "from": "work/dans-l-isolement-magrini-1907",
+      "type": "exhibited_at",
+      "to": "event/salon-divisionnistes-italiens-paris-1907",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/dans-le-pre-previati-1907",
+      "type": "created_by",
+      "to": "person/gaetano-previati",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/dans-le-pre-previati-1907",
       "type": "exhibited_at",
       "to": "event/salon-divisionnistes-italiens-paris-1907",
       "certainty": null,
@@ -21999,6 +23041,20 @@
     },
     {
       "from": "work/elephant-magrini-1907",
+      "type": "exhibited_at",
+      "to": "event/salon-divisionnistes-italiens-paris-1907",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/enfant-dans-les-pres-previati-1907",
+      "type": "created_by",
+      "to": "person/gaetano-previati",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/enfant-dans-les-pres-previati-1907",
       "type": "exhibited_at",
       "to": "event/salon-divisionnistes-italiens-paris-1907",
       "certainty": null,
@@ -22117,6 +23173,20 @@
       "source": null
     },
     {
+      "from": "work/fleurs-previati-1907",
+      "type": "created_by",
+      "to": "person/gaetano-previati",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/fleurs-previati-1907",
+      "type": "exhibited_at",
+      "to": "event/salon-divisionnistes-italiens-paris-1907",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "work/flirt-magrini-1907",
       "type": "created_by",
       "to": "person/adolphe-magrini",
@@ -22125,6 +23195,34 @@
     },
     {
       "from": "work/flirt-magrini-1907",
+      "type": "exhibited_at",
+      "to": "event/salon-divisionnistes-italiens-paris-1907",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/funerailles-d-une-vierge-previati-1907",
+      "type": "created_by",
+      "to": "person/gaetano-previati",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/funerailles-d-une-vierge-previati-1907",
+      "type": "exhibited_at",
+      "to": "event/salon-divisionnistes-italiens-paris-1907",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/georgique-previati-1907",
+      "type": "created_by",
+      "to": "person/gaetano-previati",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/georgique-previati-1907",
       "type": "exhibited_at",
       "to": "event/salon-divisionnistes-italiens-paris-1907",
       "certainty": null,
@@ -22237,6 +23335,48 @@
     },
     {
       "from": "work/indivisible-ramponi-1907",
+      "type": "exhibited_at",
+      "to": "event/salon-divisionnistes-italiens-paris-1907",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/l-annonceation-previati-1907",
+      "type": "created_by",
+      "to": "person/gaetano-previati",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/l-annonceation-previati-1907",
+      "type": "exhibited_at",
+      "to": "event/salon-divisionnistes-italiens-paris-1907",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/l-assomption-previati-1907",
+      "type": "created_by",
+      "to": "person/gaetano-previati",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/l-assomption-previati-1907",
+      "type": "exhibited_at",
+      "to": "event/salon-divisionnistes-italiens-paris-1907",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/l-heroique-previati-1907",
+      "type": "created_by",
+      "to": "person/gaetano-previati",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/l-heroique-previati-1907",
       "type": "exhibited_at",
       "to": "event/salon-divisionnistes-italiens-paris-1907",
       "certainty": null,
@@ -22260,6 +23400,20 @@
       "from": "work/l-oratore-dello-sciopero-longoni-1891",
       "type": "exhibited_at",
       "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/la-bataille-previati-1907",
+      "type": "created_by",
+      "to": "person/gaetano-previati",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/la-bataille-previati-1907",
+      "type": "exhibited_at",
+      "to": "event/salon-divisionnistes-italiens-paris-1907",
       "certainty": null,
       "source": null
     },
@@ -22292,6 +23446,20 @@
       "source": null
     },
     {
+      "from": "work/la-priere-previati-1907",
+      "type": "created_by",
+      "to": "person/gaetano-previati",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/la-priere-previati-1907",
+      "type": "exhibited_at",
+      "to": "event/salon-divisionnistes-italiens-paris-1907",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "work/la-vallee-de-malenco-mario-segantini-1907",
       "type": "created_by",
       "to": "person/mario-segantini",
@@ -22300,6 +23468,34 @@
     },
     {
       "from": "work/la-vallee-de-malenco-mario-segantini-1907",
+      "type": "exhibited_at",
+      "to": "event/salon-divisionnistes-italiens-paris-1907",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/la-victoire-previati-1907",
+      "type": "created_by",
+      "to": "person/gaetano-previati",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/la-victoire-previati-1907",
+      "type": "exhibited_at",
+      "to": "event/salon-divisionnistes-italiens-paris-1907",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/la-vierge-previati-1907",
+      "type": "created_by",
+      "to": "person/gaetano-previati",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/la-vierge-previati-1907",
       "type": "exhibited_at",
       "to": "event/salon-divisionnistes-italiens-paris-1907",
       "certainty": null,
@@ -22328,6 +23524,20 @@
     },
     {
       "from": "work/labour-magrini-1907",
+      "type": "exhibited_at",
+      "to": "event/salon-divisionnistes-italiens-paris-1907",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/le-calvaire-previati-1907",
+      "type": "created_by",
+      "to": "person/gaetano-previati",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/le-calvaire-previati-1907",
       "type": "exhibited_at",
       "to": "event/salon-divisionnistes-italiens-paris-1907",
       "certainty": null,
@@ -22411,6 +23621,20 @@
       "source": null
     },
     {
+      "from": "work/le-jour-qui-reveille-la-nuit-previati-1907",
+      "type": "created_by",
+      "to": "person/gaetano-previati",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/le-jour-qui-reveille-la-nuit-previati-1907",
+      "type": "exhibited_at",
+      "to": "event/salon-divisionnistes-italiens-paris-1907",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "work/le-mont-cervin-maggi-1907",
       "type": "created_by",
       "to": "person/cesare-maggi",
@@ -22425,6 +23649,34 @@
       "source": null
     },
     {
+      "from": "work/le-pont-levis-previati-1907",
+      "type": "created_by",
+      "to": "person/gaetano-previati",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/le-pont-levis-previati-1907",
+      "type": "exhibited_at",
+      "to": "event/salon-divisionnistes-italiens-paris-1907",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/le-roi-soleil-previati-1907",
+      "type": "created_by",
+      "to": "person/gaetano-previati",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/le-roi-soleil-previati-1907",
+      "type": "exhibited_at",
+      "to": "event/salon-divisionnistes-italiens-paris-1907",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "work/le-tigre-magrini-1907",
       "type": "created_by",
       "to": "person/adolphe-magrini",
@@ -22433,6 +23685,34 @@
     },
     {
       "from": "work/le-tigre-magrini-1907",
+      "type": "exhibited_at",
+      "to": "event/salon-divisionnistes-italiens-paris-1907",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/le-verbe-previati-1907",
+      "type": "created_by",
+      "to": "person/gaetano-previati",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/le-verbe-previati-1907",
+      "type": "exhibited_at",
+      "to": "event/salon-divisionnistes-italiens-paris-1907",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/leda-previati-1907",
+      "type": "created_by",
+      "to": "person/gaetano-previati",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/leda-previati-1907",
       "type": "exhibited_at",
       "to": "event/salon-divisionnistes-italiens-paris-1907",
       "certainty": null,
@@ -22463,6 +23743,20 @@
       "from": "work/lef-no-2-1924",
       "type": "belongs_to",
       "to": "movement/constructivism",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/les-rois-mages-previati-1907",
+      "type": "created_by",
+      "to": "person/gaetano-previati",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/les-rois-mages-previati-1907",
+      "type": "exhibited_at",
+      "to": "event/salon-divisionnistes-italiens-paris-1907",
       "certainty": null,
       "source": null
     },
@@ -22694,6 +23988,20 @@
       "from": "work/maternita-previati-1891",
       "type": "exhibited_at",
       "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/maternite-previati-1907",
+      "type": "created_by",
+      "to": "person/gaetano-previati",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/maternite-previati-1907",
+      "type": "exhibited_at",
+      "to": "event/salon-divisionnistes-italiens-paris-1907",
       "certainty": null,
       "source": null
     },
@@ -23118,6 +24426,20 @@
       "source": null
     },
     {
+      "from": "work/petite-tete-previati-1907",
+      "type": "created_by",
+      "to": "person/gaetano-previati",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/petite-tete-previati-1907",
+      "type": "exhibited_at",
+      "to": "event/salon-divisionnistes-italiens-paris-1907",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "work/piazza-caricamento-nomellini-1891",
       "type": "created_by",
       "to": "person/plinio-nomellini",
@@ -23212,6 +24534,34 @@
       "from": "work/ricordanze-fornara-1891",
       "type": "exhibited_at",
       "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/romeo-et-juliette-previati-1907",
+      "type": "created_by",
+      "to": "person/gaetano-previati",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/romeo-et-juliette-previati-1907",
+      "type": "exhibited_at",
+      "to": "event/salon-divisionnistes-italiens-paris-1907",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/sacree-famille-previati-1907",
+      "type": "created_by",
+      "to": "person/gaetano-previati",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/sacree-famille-previati-1907",
+      "type": "exhibited_at",
+      "to": "event/salon-divisionnistes-italiens-paris-1907",
       "certainty": null,
       "source": null
     },
@@ -23455,6 +24805,34 @@
     },
     {
       "from": "work/vers-l-etable-magrini-1907",
+      "type": "exhibited_at",
+      "to": "event/salon-divisionnistes-italiens-paris-1907",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/via-crucis-previati-1907",
+      "type": "created_by",
+      "to": "person/gaetano-previati",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/via-crucis-previati-1907",
+      "type": "exhibited_at",
+      "to": "event/salon-divisionnistes-italiens-paris-1907",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/vierge-a-l-enfant-previati-1907",
+      "type": "created_by",
+      "to": "person/gaetano-previati",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/vierge-a-l-enfant-previati-1907",
       "type": "exhibited_at",
       "to": "event/salon-divisionnistes-italiens-paris-1907",
       "certainty": null,
@@ -24987,6 +26365,30 @@
       "derived": true
     },
     {
+      "from": "person/gaetano-previati",
+      "type": "created",
+      "to": "work/clair-de-lune-previati-1907",
+      "derived": true
+    },
+    {
+      "from": "event/salon-divisionnistes-italiens-paris-1907",
+      "type": "exhibited",
+      "to": "work/clair-de-lune-previati-1907",
+      "derived": true
+    },
+    {
+      "from": "person/gaetano-previati",
+      "type": "created",
+      "to": "work/cleopatre-previati-1907",
+      "derived": true
+    },
+    {
+      "from": "event/salon-divisionnistes-italiens-paris-1907",
+      "type": "exhibited",
+      "to": "work/cleopatre-previati-1907",
+      "derived": true
+    },
+    {
       "from": "person/benvenuto-benvenuti",
       "type": "created",
       "to": "work/coucher-de-soleil-a-la-fin-du-printemps-benvenuti-1907",
@@ -25044,6 +26446,18 @@
       "from": "event/salon-divisionnistes-italiens-paris-1907",
       "type": "exhibited",
       "to": "work/dans-l-isolement-magrini-1907",
+      "derived": true
+    },
+    {
+      "from": "person/gaetano-previati",
+      "type": "created",
+      "to": "work/dans-le-pre-previati-1907",
+      "derived": true
+    },
+    {
+      "from": "event/salon-divisionnistes-italiens-paris-1907",
+      "type": "exhibited",
+      "to": "work/dans-le-pre-previati-1907",
       "derived": true
     },
     {
@@ -25128,6 +26542,18 @@
       "from": "event/salon-divisionnistes-italiens-paris-1907",
       "type": "exhibited",
       "to": "work/elephant-magrini-1907",
+      "derived": true
+    },
+    {
+      "from": "person/gaetano-previati",
+      "type": "created",
+      "to": "work/enfant-dans-les-pres-previati-1907",
+      "derived": true
+    },
+    {
+      "from": "event/salon-divisionnistes-italiens-paris-1907",
+      "type": "exhibited",
+      "to": "work/enfant-dans-les-pres-previati-1907",
       "derived": true
     },
     {
@@ -25227,6 +26653,18 @@
       "derived": true
     },
     {
+      "from": "person/gaetano-previati",
+      "type": "created",
+      "to": "work/fleurs-previati-1907",
+      "derived": true
+    },
+    {
+      "from": "event/salon-divisionnistes-italiens-paris-1907",
+      "type": "exhibited",
+      "to": "work/fleurs-previati-1907",
+      "derived": true
+    },
+    {
       "from": "person/adolphe-magrini",
       "type": "created",
       "to": "work/flirt-magrini-1907",
@@ -25236,6 +26674,30 @@
       "from": "event/salon-divisionnistes-italiens-paris-1907",
       "type": "exhibited",
       "to": "work/flirt-magrini-1907",
+      "derived": true
+    },
+    {
+      "from": "person/gaetano-previati",
+      "type": "created",
+      "to": "work/funerailles-d-une-vierge-previati-1907",
+      "derived": true
+    },
+    {
+      "from": "event/salon-divisionnistes-italiens-paris-1907",
+      "type": "exhibited",
+      "to": "work/funerailles-d-une-vierge-previati-1907",
+      "derived": true
+    },
+    {
+      "from": "person/gaetano-previati",
+      "type": "created",
+      "to": "work/georgique-previati-1907",
+      "derived": true
+    },
+    {
+      "from": "event/salon-divisionnistes-italiens-paris-1907",
+      "type": "exhibited",
+      "to": "work/georgique-previati-1907",
       "derived": true
     },
     {
@@ -25332,6 +26794,42 @@
       "from": "event/salon-divisionnistes-italiens-paris-1907",
       "type": "exhibited",
       "to": "work/indivisible-ramponi-1907",
+      "derived": true
+    },
+    {
+      "from": "person/gaetano-previati",
+      "type": "created",
+      "to": "work/l-annonceation-previati-1907",
+      "derived": true
+    },
+    {
+      "from": "event/salon-divisionnistes-italiens-paris-1907",
+      "type": "exhibited",
+      "to": "work/l-annonceation-previati-1907",
+      "derived": true
+    },
+    {
+      "from": "person/gaetano-previati",
+      "type": "created",
+      "to": "work/l-assomption-previati-1907",
+      "derived": true
+    },
+    {
+      "from": "event/salon-divisionnistes-italiens-paris-1907",
+      "type": "exhibited",
+      "to": "work/l-assomption-previati-1907",
+      "derived": true
+    },
+    {
+      "from": "person/gaetano-previati",
+      "type": "created",
+      "to": "work/l-heroique-previati-1907",
+      "derived": true
+    },
+    {
+      "from": "event/salon-divisionnistes-italiens-paris-1907",
+      "type": "exhibited",
+      "to": "work/l-heroique-previati-1907",
       "derived": true
     },
     {
@@ -25350,6 +26848,18 @@
       "from": "event/first-brera-triennale-1891",
       "type": "exhibited",
       "to": "work/l-oratore-dello-sciopero-longoni-1891",
+      "derived": true
+    },
+    {
+      "from": "person/gaetano-previati",
+      "type": "created",
+      "to": "work/la-bataille-previati-1907",
+      "derived": true
+    },
+    {
+      "from": "event/salon-divisionnistes-italiens-paris-1907",
+      "type": "exhibited",
+      "to": "work/la-bataille-previati-1907",
       "derived": true
     },
     {
@@ -25377,6 +26887,18 @@
       "derived": true
     },
     {
+      "from": "person/gaetano-previati",
+      "type": "created",
+      "to": "work/la-priere-previati-1907",
+      "derived": true
+    },
+    {
+      "from": "event/salon-divisionnistes-italiens-paris-1907",
+      "type": "exhibited",
+      "to": "work/la-priere-previati-1907",
+      "derived": true
+    },
+    {
       "from": "person/mario-segantini",
       "type": "created",
       "to": "work/la-vallee-de-malenco-mario-segantini-1907",
@@ -25386,6 +26908,30 @@
       "from": "event/salon-divisionnistes-italiens-paris-1907",
       "type": "exhibited",
       "to": "work/la-vallee-de-malenco-mario-segantini-1907",
+      "derived": true
+    },
+    {
+      "from": "person/gaetano-previati",
+      "type": "created",
+      "to": "work/la-victoire-previati-1907",
+      "derived": true
+    },
+    {
+      "from": "event/salon-divisionnistes-italiens-paris-1907",
+      "type": "exhibited",
+      "to": "work/la-victoire-previati-1907",
+      "derived": true
+    },
+    {
+      "from": "person/gaetano-previati",
+      "type": "created",
+      "to": "work/la-vierge-previati-1907",
+      "derived": true
+    },
+    {
+      "from": "event/salon-divisionnistes-italiens-paris-1907",
+      "type": "exhibited",
+      "to": "work/la-vierge-previati-1907",
       "derived": true
     },
     {
@@ -25410,6 +26956,18 @@
       "from": "event/salon-divisionnistes-italiens-paris-1907",
       "type": "exhibited",
       "to": "work/labour-magrini-1907",
+      "derived": true
+    },
+    {
+      "from": "person/gaetano-previati",
+      "type": "created",
+      "to": "work/le-calvaire-previati-1907",
+      "derived": true
+    },
+    {
+      "from": "event/salon-divisionnistes-italiens-paris-1907",
+      "type": "exhibited",
+      "to": "work/le-calvaire-previati-1907",
       "derived": true
     },
     {
@@ -25479,6 +27037,18 @@
       "derived": true
     },
     {
+      "from": "person/gaetano-previati",
+      "type": "created",
+      "to": "work/le-jour-qui-reveille-la-nuit-previati-1907",
+      "derived": true
+    },
+    {
+      "from": "event/salon-divisionnistes-italiens-paris-1907",
+      "type": "exhibited",
+      "to": "work/le-jour-qui-reveille-la-nuit-previati-1907",
+      "derived": true
+    },
+    {
       "from": "person/cesare-maggi",
       "type": "created",
       "to": "work/le-mont-cervin-maggi-1907",
@@ -25491,6 +27061,30 @@
       "derived": true
     },
     {
+      "from": "person/gaetano-previati",
+      "type": "created",
+      "to": "work/le-pont-levis-previati-1907",
+      "derived": true
+    },
+    {
+      "from": "event/salon-divisionnistes-italiens-paris-1907",
+      "type": "exhibited",
+      "to": "work/le-pont-levis-previati-1907",
+      "derived": true
+    },
+    {
+      "from": "person/gaetano-previati",
+      "type": "created",
+      "to": "work/le-roi-soleil-previati-1907",
+      "derived": true
+    },
+    {
+      "from": "event/salon-divisionnistes-italiens-paris-1907",
+      "type": "exhibited",
+      "to": "work/le-roi-soleil-previati-1907",
+      "derived": true
+    },
+    {
       "from": "person/adolphe-magrini",
       "type": "created",
       "to": "work/le-tigre-magrini-1907",
@@ -25500,6 +27094,30 @@
       "from": "event/salon-divisionnistes-italiens-paris-1907",
       "type": "exhibited",
       "to": "work/le-tigre-magrini-1907",
+      "derived": true
+    },
+    {
+      "from": "person/gaetano-previati",
+      "type": "created",
+      "to": "work/le-verbe-previati-1907",
+      "derived": true
+    },
+    {
+      "from": "event/salon-divisionnistes-italiens-paris-1907",
+      "type": "exhibited",
+      "to": "work/le-verbe-previati-1907",
+      "derived": true
+    },
+    {
+      "from": "person/gaetano-previati",
+      "type": "created",
+      "to": "work/leda-previati-1907",
+      "derived": true
+    },
+    {
+      "from": "event/salon-divisionnistes-italiens-paris-1907",
+      "type": "exhibited",
+      "to": "work/leda-previati-1907",
       "derived": true
     },
     {
@@ -25524,6 +27142,18 @@
       "from": "movement/constructivism",
       "type": "has_member",
       "to": "work/lef-no-2-1924",
+      "derived": true
+    },
+    {
+      "from": "person/gaetano-previati",
+      "type": "created",
+      "to": "work/les-rois-mages-previati-1907",
+      "derived": true
+    },
+    {
+      "from": "event/salon-divisionnistes-italiens-paris-1907",
+      "type": "exhibited",
+      "to": "work/les-rois-mages-previati-1907",
       "derived": true
     },
     {
@@ -25722,6 +27352,18 @@
       "from": "event/first-brera-triennale-1891",
       "type": "exhibited",
       "to": "work/maternita-previati-1891",
+      "derived": true
+    },
+    {
+      "from": "person/gaetano-previati",
+      "type": "created",
+      "to": "work/maternite-previati-1907",
+      "derived": true
+    },
+    {
+      "from": "event/salon-divisionnistes-italiens-paris-1907",
+      "type": "exhibited",
+      "to": "work/maternite-previati-1907",
       "derived": true
     },
     {
@@ -26085,6 +27727,18 @@
       "derived": true
     },
     {
+      "from": "person/gaetano-previati",
+      "type": "created",
+      "to": "work/petite-tete-previati-1907",
+      "derived": true
+    },
+    {
+      "from": "event/salon-divisionnistes-italiens-paris-1907",
+      "type": "exhibited",
+      "to": "work/petite-tete-previati-1907",
+      "derived": true
+    },
+    {
       "from": "person/plinio-nomellini",
       "type": "created",
       "to": "work/piazza-caricamento-nomellini-1891",
@@ -26166,6 +27820,30 @@
       "from": "event/first-brera-triennale-1891",
       "type": "exhibited",
       "to": "work/ricordanze-fornara-1891",
+      "derived": true
+    },
+    {
+      "from": "person/gaetano-previati",
+      "type": "created",
+      "to": "work/romeo-et-juliette-previati-1907",
+      "derived": true
+    },
+    {
+      "from": "event/salon-divisionnistes-italiens-paris-1907",
+      "type": "exhibited",
+      "to": "work/romeo-et-juliette-previati-1907",
+      "derived": true
+    },
+    {
+      "from": "person/gaetano-previati",
+      "type": "created",
+      "to": "work/sacree-famille-previati-1907",
+      "derived": true
+    },
+    {
+      "from": "event/salon-divisionnistes-italiens-paris-1907",
+      "type": "exhibited",
+      "to": "work/sacree-famille-previati-1907",
       "derived": true
     },
     {
@@ -26376,6 +28054,30 @@
       "from": "event/salon-divisionnistes-italiens-paris-1907",
       "type": "exhibited",
       "to": "work/vers-l-etable-magrini-1907",
+      "derived": true
+    },
+    {
+      "from": "person/gaetano-previati",
+      "type": "created",
+      "to": "work/via-crucis-previati-1907",
+      "derived": true
+    },
+    {
+      "from": "event/salon-divisionnistes-italiens-paris-1907",
+      "type": "exhibited",
+      "to": "work/via-crucis-previati-1907",
+      "derived": true
+    },
+    {
+      "from": "person/gaetano-previati",
+      "type": "created",
+      "to": "work/vierge-a-l-enfant-previati-1907",
+      "derived": true
+    },
+    {
+      "from": "event/salon-divisionnistes-italiens-paris-1907",
+      "type": "exhibited",
+      "to": "work/vierge-a-l-enfant-previati-1907",
       "derived": true
     },
     {
