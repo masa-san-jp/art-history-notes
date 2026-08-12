@@ -1,9 +1,11 @@
 ---
-id: person/achille-dovera
-uri: urn:ahn:person/achille-dovera
+id: person/alessandro-zineroni
+uri: urn:ahn:person/alessandro-zineroni
 type: person
-label_ja: アキッレ・ドーヴェラ
-label_en: Achille Dovera
+label_ja: アレッサンドロ・ジネローニ
+label_en: Alessandro Zineroni
+aliases:
+  - Zineroni Alessandro
 authority:
   wikidata: null
   ulan: null
@@ -23,6 +25,6 @@ status: draft
 updated: 2026-08-13
 ---
 
-# アキッレ・ドーヴェラ / Achille Dovera
+# アレッサンドロ・ジネローニ / Alessandro Zineroni
 
-1891年の第一回ブレラ三年展公式カタログに、ミラノ在住者として掲載される画家。571番《I pescatori dell’ oceano》を出品した。本項は展覧会記録に限定する。
+1891年の第一回ブレラ三年展公式カタログに、ミラノ出身者として掲載される出品者。569番《Fantasia su S. Francesco d’Assisi》を出品した。本項は展覧会記録に限定する。

@@ -9417,7 +9417,7 @@
         "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
       ],
       "status": "draft",
-      "updated": "2026-08-12",
+      "updated": "2026-08-13",
       "path": "entities/persons/achille-dovera.md"
     },
     "person/achille-formis": {
@@ -10203,6 +10203,41 @@
       "updated": "2026-08-12",
       "path": "entities/persons/alessandro-zezzos.md"
     },
+    "person/alessandro-zineroni": {
+      "id": "person/alessandro-zineroni",
+      "uri": "urn:ahn:person/alessandro-zineroni",
+      "type": "person",
+      "label_ja": "アレッサンドロ・ジネローニ",
+      "label_en": "Alessandro Zineroni",
+      "aliases": [
+        "Zineroni Alessandro"
+      ],
+      "authority": {
+        "wikidata": null,
+        "ulan": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "独立した人物典拠IDと生没年は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": null,
+        "end": null,
+        "display": "19世紀末にミラノで活動"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-13",
+      "path": "entities/persons/alessandro-zineroni.md"
+    },
     "person/alexander-rodchenko": {
       "id": "person/alexander-rodchenko",
       "uri": "urn:ahn:person/alexander-rodchenko",
@@ -10794,6 +10829,41 @@
       "status": "draft",
       "updated": "2026-08-12",
       "path": "entities/persons/angelo-zocchi.md"
+    },
+    "person/annetta-radowska-borgna": {
+      "id": "person/annetta-radowska-borgna",
+      "uri": "urn:ahn:person/annetta-radowska-borgna",
+      "type": "person",
+      "label_ja": "アネッタ・ボルニャ・ラドフスカ",
+      "label_en": "Annetta Borgna Radowska",
+      "aliases": [
+        "Radowska Annetta Borgna"
+      ],
+      "authority": {
+        "wikidata": null,
+        "ulan": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "独立した人物典拠IDと生没年は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": null,
+        "end": null,
+        "display": "19世紀末にトリエステ出身者として活動"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-13",
+      "path": "entities/persons/annetta-radowska-borgna.md"
     },
     "person/antonio-argenti": {
       "id": "person/antonio-argenti",
@@ -17477,7 +17547,7 @@
         "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
       ],
       "status": "draft",
-      "updated": "2026-08-12",
+      "updated": "2026-08-13",
       "path": "entities/persons/giuseppe-ugolini.md"
     },
     "person/giuseppe-zanetti": {
@@ -21345,6 +21415,41 @@
       "status": "draft",
       "updated": "2026-08-13",
       "path": "entities/persons/roberto-fontana.md"
+    },
+    "person/roberto-galperti": {
+      "id": "person/roberto-galperti",
+      "uri": "urn:ahn:person/roberto-galperti",
+      "type": "person",
+      "label_ja": "ロベルト・ガルペルティ",
+      "label_en": "Roberto Galperti",
+      "aliases": [
+        "Galperti Roberto"
+      ],
+      "authority": {
+        "wikidata": null,
+        "ulan": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "独立した人物典拠IDと生没年は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": null,
+        "end": null,
+        "display": "19世紀末にヴェロラヌオーヴァ出身者として活動"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-13",
+      "path": "entities/persons/roberto-galperti.md"
     },
     "person/roberto-guastalla": {
       "id": "person/roberto-guastalla",
@@ -31372,6 +31477,42 @@
       "updated": "2026-08-13",
       "path": "entities/works/fantasia-contratti-1891.md"
     },
+    "work/fantasia-su-s-francesco-zineroni-1891": {
+      "id": "work/fantasia-su-s-francesco-zineroni-1891",
+      "uri": "urn:ahn:work/fantasia-su-s-francesco-zineroni-1891",
+      "type": "work",
+      "label_ja": "アレッサンドロ・ジネローニ《Fantasia su S. Francesco d’Assisi》",
+      "label_en": "Fantasia su S. Francesco d’Assisi",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "作品の独立典拠IDと現所在は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年（1891年展カタログ569番）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/alessandro-zineroni"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-13",
+      "path": "entities/works/fantasia-su-s-francesco-zineroni-1891.md"
+    },
     "work/fantino-a-cavallo-sarti-1891": {
       "id": "work/fantino-a-cavallo-sarti-1891",
       "uri": "urn:ahn:work/fantino-a-cavallo-sarti-1891",
@@ -33558,6 +33699,42 @@
       "status": "draft",
       "updated": "2026-08-12",
       "path": "entities/works/i-peocci-steffani-1891.md"
+    },
+    "work/i-pescatori-dell-oceano-dovera-1891": {
+      "id": "work/i-pescatori-dell-oceano-dovera-1891",
+      "uri": "urn:ahn:work/i-pescatori-dell-oceano-dovera-1891",
+      "type": "work",
+      "label_ja": "アキッレ・ドーヴェラ《I pescatori dell’ oceano》",
+      "label_en": "I pescatori dell’ oceano",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "作品の独立典拠IDと現所在は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年（1891年展カタログ571番）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/achille-dovera"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-13",
+      "path": "entities/works/i-pescatori-dell-oceano-dovera-1891.md"
     },
     "work/i-racconti-della-nonna-mion-1891": {
       "id": "work/i-racconti-della-nonna-mion-1891",
@@ -41911,6 +42088,42 @@
       "updated": "2026-08-13",
       "path": "entities/works/nel-bosco-poma-1891.md"
     },
+    "work/nel-giardino-presso-varese-pizzi-1891": {
+      "id": "work/nel-giardino-presso-varese-pizzi-1891",
+      "uri": "urn:ahn:work/nel-giardino-presso-varese-pizzi-1891",
+      "type": "work",
+      "label_ja": "カルロ・ピッツィ《Nel giardino presso Varese》",
+      "label_en": "Nel giardino presso Varese",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "作品の独立典拠IDと現所在は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年（1891年展カタログ565番）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/carlo-pizzi"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-13",
+      "path": "entities/works/nel-giardino-presso-varese-pizzi-1891.md"
+    },
     "work/nel-secolo-scorso-calcagni-1891": {
       "id": "work/nel-secolo-scorso-calcagni-1891",
       "uri": "urn:ahn:work/nel-secolo-scorso-calcagni-1891",
@@ -46223,6 +46436,42 @@
       "updated": "2026-08-13",
       "path": "entities/works/ritratto-d-prof-grassi-grunhut-1891.md"
     },
+    "work/ritratto-d-uomo-galperti-1891": {
+      "id": "work/ritratto-d-uomo-galperti-1891",
+      "uri": "urn:ahn:work/ritratto-d-uomo-galperti-1891",
+      "type": "work",
+      "label_ja": "ロベルト・ガルペルティ《Ritratto d’uomo》",
+      "label_en": "Ritratto d’uomo",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "作品の独立典拠IDと現所在は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年（1891年展カタログ567番）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/roberto-galperti"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-13",
+      "path": "entities/works/ritratto-d-uomo-galperti-1891.md"
+    },
     "work/ritratto-del-bo-1891": {
       "id": "work/ritratto-del-bo-1891",
       "uri": "urn:ahn:work/ritratto-del-bo-1891",
@@ -46772,6 +47021,42 @@
       "status": "draft",
       "updated": "2026-08-12",
       "path": "entities/works/ritratto-di-signora-ferrari-1891-no250.md"
+    },
+    "work/ritratto-di-signora-figura-intiera-ugolini-1891": {
+      "id": "work/ritratto-di-signora-figura-intiera-ugolini-1891",
+      "uri": "urn:ahn:work/ritratto-di-signora-figura-intiera-ugolini-1891",
+      "type": "work",
+      "label_ja": "ジュゼッペ・ウゴリーニ《Ritratto di Signora (figura intiera)》",
+      "label_en": "Ritratto di Signora (figura intiera)",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "作品の独立典拠IDと現所在は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年（1891年展カタログ570番）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/giuseppe-ugolini"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-13",
+      "path": "entities/works/ritratto-di-signora-figura-intiera-ugolini-1891.md"
     },
     "work/ritratto-di-signora-fontana-1891": {
       "id": "work/ritratto-di-signora-fontana-1891",
@@ -51258,6 +51543,42 @@
       "updated": "2026-08-12",
       "path": "entities/works/un-emigrato-gariboldi-1891.md"
     },
+    "work/un-fior-al-prediletto-radowska-1891": {
+      "id": "work/un-fior-al-prediletto-radowska-1891",
+      "uri": "urn:ahn:work/un-fior-al-prediletto-radowska-1891",
+      "type": "work",
+      "label_ja": "アネッタ・ボルニャ・ラドフスカ《Un fior al prediletto》",
+      "label_en": "Un fior al prediletto",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "作品の独立典拠IDと現所在は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年（1891年展カタログ566番）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/annetta-radowska-borgna"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-13",
+      "path": "entities/works/un-fior-al-prediletto-radowska-1891.md"
+    },
     "work/un-nuage-maggi-1907": {
       "id": "work/un-nuage-maggi-1907",
       "uri": "urn:ahn:work/un-nuage-maggi-1907",
@@ -54551,6 +54872,13 @@
       "source": null
     },
     {
+      "from": "person/alessandro-zineroni",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "person/alexander-rodchenko",
       "type": "belongs_to",
       "to": "movement/constructivism",
@@ -54698,6 +55026,13 @@
     },
     {
       "from": "person/angelo-zocchi",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "person/annetta-radowska-borgna",
       "type": "exhibited_at",
       "to": "event/first-brera-triennale-1891",
       "certainty": null,
@@ -56923,6 +57258,13 @@
     },
     {
       "from": "person/roberto-fontana",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "person/roberto-galperti",
       "type": "exhibited_at",
       "to": "event/first-brera-triennale-1891",
       "certainty": null,
@@ -59531,6 +59873,20 @@
       "source": null
     },
     {
+      "from": "work/fantasia-su-s-francesco-zineroni-1891",
+      "type": "created_by",
+      "to": "person/alessandro-zineroni",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/fantasia-su-s-francesco-zineroni-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "work/fantino-a-cavallo-sarti-1891",
       "type": "created_by",
       "to": "person/diego-sarti",
@@ -60365,6 +60721,20 @@
     },
     {
       "from": "work/i-peocci-steffani-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/i-pescatori-dell-oceano-dovera-1891",
+      "type": "created_by",
+      "to": "person/achille-dovera",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/i-pescatori-dell-oceano-dovera-1891",
       "type": "exhibited_at",
       "to": "event/first-brera-triennale-1891",
       "certainty": null,
@@ -63591,6 +63961,20 @@
       "source": null
     },
     {
+      "from": "work/nel-giardino-presso-varese-pizzi-1891",
+      "type": "created_by",
+      "to": "person/carlo-pizzi",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/nel-giardino-presso-varese-pizzi-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "work/nel-secolo-scorso-calcagni-1891",
       "type": "created_by",
       "to": "person/sante-calcagni",
@@ -65250,6 +65634,20 @@
       "source": null
     },
     {
+      "from": "work/ritratto-d-uomo-galperti-1891",
+      "type": "created_by",
+      "to": "person/roberto-galperti",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/ritratto-d-uomo-galperti-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "work/ritratto-del-bo-1891",
       "type": "created_by",
       "to": "person/romolo-del-bo",
@@ -65454,6 +65852,20 @@
     },
     {
       "from": "work/ritratto-di-signora-ferrari-1891-no250",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/ritratto-di-signora-figura-intiera-ugolini-1891",
+      "type": "created_by",
+      "to": "person/giuseppe-ugolini",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/ritratto-di-signora-figura-intiera-ugolini-1891",
       "type": "exhibited_at",
       "to": "event/first-brera-triennale-1891",
       "certainty": null,
@@ -67189,6 +67601,20 @@
       "source": null
     },
     {
+      "from": "work/un-fior-al-prediletto-radowska-1891",
+      "type": "created_by",
+      "to": "person/annetta-radowska-borgna",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/un-fior-al-prediletto-radowska-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "work/un-nuage-maggi-1907",
       "type": "created_by",
       "to": "person/cesare-maggi",
@@ -68870,6 +69296,12 @@
       "derived": true
     },
     {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "person/alessandro-zineroni",
+      "derived": true
+    },
+    {
       "from": "movement/constructivism",
       "type": "has_member",
       "to": "person/alexander-rodchenko",
@@ -68981,6 +69413,12 @@
       "from": "event/first-brera-triennale-1891",
       "type": "exhibited",
       "to": "person/angelo-zocchi",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "person/annetta-radowska-borgna",
       "derived": true
     },
     {
@@ -70811,6 +71249,12 @@
       "from": "event/first-brera-triennale-1891",
       "type": "exhibited",
       "to": "person/roberto-fontana",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "person/roberto-galperti",
       "derived": true
     },
     {
@@ -73010,6 +73454,18 @@
       "derived": true
     },
     {
+      "from": "person/alessandro-zineroni",
+      "type": "created",
+      "to": "work/fantasia-su-s-francesco-zineroni-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/fantasia-su-s-francesco-zineroni-1891",
+      "derived": true
+    },
+    {
       "from": "person/diego-sarti",
       "type": "created",
       "to": "work/fantino-a-cavallo-sarti-1891",
@@ -73727,6 +74183,18 @@
       "from": "event/first-brera-triennale-1891",
       "type": "exhibited",
       "to": "work/i-peocci-steffani-1891",
+      "derived": true
+    },
+    {
+      "from": "person/achille-dovera",
+      "type": "created",
+      "to": "work/i-pescatori-dell-oceano-dovera-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/i-pescatori-dell-oceano-dovera-1891",
       "derived": true
     },
     {
@@ -76490,6 +76958,18 @@
       "derived": true
     },
     {
+      "from": "person/carlo-pizzi",
+      "type": "created",
+      "to": "work/nel-giardino-presso-varese-pizzi-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/nel-giardino-presso-varese-pizzi-1891",
+      "derived": true
+    },
+    {
       "from": "person/sante-calcagni",
       "type": "created",
       "to": "work/nel-secolo-scorso-calcagni-1891",
@@ -77912,6 +78392,18 @@
       "derived": true
     },
     {
+      "from": "person/roberto-galperti",
+      "type": "created",
+      "to": "work/ritratto-d-uomo-galperti-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/ritratto-d-uomo-galperti-1891",
+      "derived": true
+    },
+    {
       "from": "person/romolo-del-bo",
       "type": "created",
       "to": "work/ritratto-del-bo-1891",
@@ -78089,6 +78581,18 @@
       "from": "event/first-brera-triennale-1891",
       "type": "exhibited",
       "to": "work/ritratto-di-signora-ferrari-1891-no250",
+      "derived": true
+    },
+    {
+      "from": "person/giuseppe-ugolini",
+      "type": "created",
+      "to": "work/ritratto-di-signora-figura-intiera-ugolini-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/ritratto-di-signora-figura-intiera-ugolini-1891",
       "derived": true
     },
     {
@@ -79571,6 +80075,18 @@
       "from": "event/first-brera-triennale-1891",
       "type": "exhibited",
       "to": "work/un-emigrato-gariboldi-1891",
+      "derived": true
+    },
+    {
+      "from": "person/annetta-radowska-borgna",
+      "type": "created",
+      "to": "work/un-fior-al-prediletto-radowska-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/un-fior-al-prediletto-radowska-1891",
       "derived": true
     },
     {
