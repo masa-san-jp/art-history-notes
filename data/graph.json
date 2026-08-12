@@ -9531,6 +9531,41 @@
       "updated": "2026-08-12",
       "path": "entities/persons/adolfo-feragutti-visconti.md"
     },
+    "person/adolfo-hohenstein": {
+      "id": "person/adolfo-hohenstein",
+      "uri": "urn:ahn:person/adolfo-hohenstein",
+      "type": "person",
+      "label_ja": "アドルフォ・ホーエンシュタイン",
+      "label_en": "Adolfo Hohenstein",
+      "aliases": [
+        "Hohenstein Adolfo"
+      ],
+      "authority": {
+        "wikidata": null,
+        "ulan": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "独立した人物典拠IDと生没年は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": null,
+        "end": null,
+        "display": "19世紀末にペテルブルク出身者として活動"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/persons/adolfo-hohenstein.md"
+    },
     "person/adolphe-magrini": {
       "id": "person/adolphe-magrini",
       "uri": "urn:ahn:person/adolphe-magrini",
@@ -10659,6 +10694,41 @@
       "status": "draft",
       "updated": "2026-08-12",
       "path": "entities/persons/arnaldo-ferraguti.md"
+    },
+    "person/arturo-ferrari": {
+      "id": "person/arturo-ferrari",
+      "uri": "urn:ahn:person/arturo-ferrari",
+      "type": "person",
+      "label_ja": "アルトゥーロ・フェッラーリ",
+      "label_en": "Arturo Ferrari",
+      "aliases": [
+        "Ferrari Arturo"
+      ],
+      "authority": {
+        "wikidata": null,
+        "ulan": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "独立した人物典拠IDと生没年は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": null,
+        "end": null,
+        "display": "19世紀末にミラノで活動"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/persons/arturo-ferrari.md"
     },
     "person/arturo-rietti": {
       "id": "person/arturo-rietti",
@@ -14415,6 +14485,41 @@
       "updated": "2026-08-12",
       "path": "entities/persons/giovanni-sottocornola.md"
     },
+    "person/giuseppe-barbaglia": {
+      "id": "person/giuseppe-barbaglia",
+      "uri": "urn:ahn:person/giuseppe-barbaglia",
+      "type": "person",
+      "label_ja": "ジュゼッペ・バルバリア",
+      "label_en": "Giuseppe Barbaglia",
+      "aliases": [
+        "Barbaglia Giuseppe"
+      ],
+      "authority": {
+        "wikidata": null,
+        "ulan": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "独立した人物典拠IDと生没年は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": null,
+        "end": null,
+        "display": "19世紀末にミラノで活動"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/persons/giuseppe-barbaglia.md"
+    },
     "person/giuseppe-benzoni": {
       "id": "person/giuseppe-benzoni",
       "uri": "urn:ahn:person/giuseppe-benzoni",
@@ -16151,6 +16256,41 @@
       "updated": "2026-08-12",
       "path": "entities/persons/luigi-rosa.md"
     },
+    "person/luigi-rossi": {
+      "id": "person/luigi-rossi",
+      "uri": "urn:ahn:person/luigi-rossi",
+      "type": "person",
+      "label_ja": "ルイジ・ロッシ",
+      "label_en": "Luigi Rossi",
+      "aliases": [
+        "Rossi Luigi"
+      ],
+      "authority": {
+        "wikidata": null,
+        "ulan": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "独立した人物典拠IDと生没年は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": null,
+        "end": null,
+        "display": "19世紀末にルガーノ出身者として活動"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/persons/luigi-rossi.md"
+    },
     "person/luigi-serra": {
       "id": "person/luigi-serra",
       "uri": "urn:ahn:person/luigi-serra",
@@ -17670,6 +17810,41 @@
       "status": "draft",
       "updated": "2026-08-12",
       "path": "entities/persons/sebastiano-de-albertis.md"
+    },
+    "person/serafino-de-tivoli": {
+      "id": "person/serafino-de-tivoli",
+      "uri": "urn:ahn:person/serafino-de-tivoli",
+      "type": "person",
+      "label_ja": "セラフィーノ・デ・ティヴォリ",
+      "label_en": "Serafino De Tivoli",
+      "aliases": [
+        "De Tivoli Serafino"
+      ],
+      "authority": {
+        "wikidata": null,
+        "ulan": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "独立した人物典拠IDと生没年は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": null,
+        "end": null,
+        "display": "19世紀末にフィレンツェで活動"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/persons/serafino-de-tivoli.md"
     },
     "person/shakir-hassan-al-said": {
       "id": "person/shakir-hassan-al-said",
@@ -21336,6 +21511,42 @@
       "updated": "2026-08-12",
       "path": "entities/works/a-lavoro-finito-sardi-1891.md"
     },
+    "work/a-marly-le-roi-de-tivoli-1891": {
+      "id": "work/a-marly-le-roi-de-tivoli-1891",
+      "uri": "urn:ahn:work/a-marly-le-roi-de-tivoli-1891",
+      "type": "work",
+      "label_ja": "セラフィーノ・デ・ティヴォリ《A Marly le roi》",
+      "label_en": "A Marly le roi",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "作品の独立典拠IDと現所在は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年（1891年展カタログ306番）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/serafino-de-tivoli"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/works/a-marly-le-roi-de-tivoli-1891.md"
+    },
     "work/a-passeggio-de-sanctis-1891": {
       "id": "work/a-passeggio-de-sanctis-1891",
       "uri": "urn:ahn:work/a-passeggio-de-sanctis-1891",
@@ -21655,6 +21866,42 @@
       "status": "draft",
       "updated": "2026-08-12",
       "path": "entities/works/alla-banda-dei-giardini-pubblici-carcano-1891.md"
+    },
+    "work/alla-pesca-giuliano-1891": {
+      "id": "work/alla-pesca-giuliano-1891",
+      "uri": "urn:ahn:work/alla-pesca-giuliano-1891",
+      "type": "work",
+      "label_ja": "バルトロメオ・ジュリアーノ《Alla pesca》",
+      "label_en": "Alla pesca",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "作品の独立典拠IDと現所在は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年（1891年展カタログ308番）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/bartolomeo-giuliano"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/works/alla-pesca-giuliano-1891.md"
     },
     "work/alla-vanga-ferraguti-1891": {
       "id": "work/alla-vanga-ferraguti-1891",
@@ -22889,6 +23136,42 @@
       "status": "draft",
       "updated": "2026-08-12",
       "path": "entities/works/cavalier-ancien-magrini-1907.md"
+    },
+    "work/cavalli-maremmani-gioli-1891": {
+      "id": "work/cavalli-maremmani-gioli-1891",
+      "uri": "urn:ahn:work/cavalli-maremmani-gioli-1891",
+      "type": "work",
+      "label_ja": "ルイジ・ジョーリ《Cavalli maremmani》",
+      "label_en": "Cavalli maremmani",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "作品の独立典拠IDと現所在は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年（1891年展カタログ305番）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/luigi-gioli"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/works/cavalli-maremmani-gioli-1891.md"
     },
     "work/chat-sauvage-magrini-1907": {
       "id": "work/chat-sauvage-magrini-1907",
@@ -27561,6 +27844,78 @@
       "updated": "2026-08-12",
       "path": "entities/works/impression-d-automne-fornara-1907.md"
     },
+    "work/impressione-di-sicilia-rossi-1891": {
+      "id": "work/impressione-di-sicilia-rossi-1891",
+      "uri": "urn:ahn:work/impressione-di-sicilia-rossi-1891",
+      "type": "work",
+      "label_ja": "ルイジ・ロッシ《Impressione di Sicilia》",
+      "label_en": "Impressione di Sicilia",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "作品の独立典拠IDと現所在は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年（1891年展カタログ310番）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/luigi-rossi"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/works/impressione-di-sicilia-rossi-1891.md"
+    },
+    "work/impressioni-di-sicilia-rossi-1891": {
+      "id": "work/impressioni-di-sicilia-rossi-1891",
+      "uri": "urn:ahn:work/impressioni-di-sicilia-rossi-1891",
+      "type": "work",
+      "label_ja": "ルイジ・ロッシ《Impressioni di Sicilia》",
+      "label_en": "Impressioni di Sicilia",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "作品の独立典拠IDと現所在は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年（1891年展カタログ309番）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/luigi-rossi"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/works/impressioni-di-sicilia-rossi-1891.md"
+    },
     "work/impressioni-e-studi-pasini-1891": {
       "id": "work/impressioni-e-studi-pasini-1891",
       "uri": "urn:ahn:work/impressioni-e-studi-pasini-1891",
@@ -28928,6 +29283,42 @@
       "status": "draft",
       "updated": "2026-08-12",
       "path": "entities/works/la-cura-del-sangue-pusterla-1891.md"
+    },
+    "work/la-falciatura-rietti-1891": {
+      "id": "work/la-falciatura-rietti-1891",
+      "uri": "urn:ahn:work/la-falciatura-rietti-1891",
+      "type": "work",
+      "label_ja": "アルトゥーロ・リエッティ《La Falciatura》",
+      "label_en": "La Falciatura",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "作品の独立典拠IDと現所在は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年（1891年展カタログ311番）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/arturo-rietti"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/works/la-falciatura-rietti-1891.md"
     },
     "work/la-lutte-pour-la-vie-magrini-1907": {
       "id": "work/la-lutte-pour-la-vie-magrini-1907",
@@ -36840,6 +37231,42 @@
       "updated": "2026-08-12",
       "path": "entities/works/ritratto-di-signorina-quarenghi-1891.md"
     },
+    "work/ritratto-ferrari-1891-no312": {
+      "id": "work/ritratto-ferrari-1891-no312",
+      "uri": "urn:ahn:work/ritratto-ferrari-1891-no312",
+      "type": "work",
+      "label_ja": "アルトゥーロ・フェッラーリ《Ritratto》",
+      "label_en": "Ritratto",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "作品の独立典拠IDと現所在は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年（1891年展カタログ312番）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/arturo-ferrari"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/works/ritratto-ferrari-1891-no312.md"
+    },
     "work/ritratto-foulques-1891": {
       "id": "work/ritratto-foulques-1891",
       "uri": "urn:ahn:work/ritratto-foulques-1891",
@@ -37023,6 +37450,42 @@
       "status": "draft",
       "updated": "2026-08-12",
       "path": "entities/works/ritratto-uomo-agazzi-1891.md"
+    },
+    "work/ritratto-uomo-barbaglia-1891": {
+      "id": "work/ritratto-uomo-barbaglia-1891",
+      "uri": "urn:ahn:work/ritratto-uomo-barbaglia-1891",
+      "type": "work",
+      "label_ja": "ジュゼッペ・バルバリア《Ritratto d’uomo》",
+      "label_en": "Ritratto d’uomo",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "作品の独立典拠IDと現所在は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年（1891年展カタログ303番）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/giuseppe-barbaglia"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/works/ritratto-uomo-barbaglia-1891.md"
     },
     "work/ritratto-vanotti-1891-no249": {
       "id": "work/ritratto-vanotti-1891-no249",
@@ -38092,6 +38555,42 @@
       "updated": "2026-08-12",
       "path": "entities/works/st-moritz-pendant-la-nuit-segantini-1907.md"
     },
+    "work/stalla-hohenstein-1891": {
+      "id": "work/stalla-hohenstein-1891",
+      "uri": "urn:ahn:work/stalla-hohenstein-1891",
+      "type": "work",
+      "label_ja": "アドルフォ・ホーエンシュタイン《Stalla》",
+      "label_en": "Stalla",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "作品の独立典拠IDと現所在は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年（1891年展カタログ304番）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/adolfo-hohenstein"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/works/stalla-hohenstein-1891.md"
+    },
     "work/statua-marmo-monumento-funerario-bazzaro-1891": {
       "id": "work/statua-marmo-monumento-funerario-bazzaro-1891",
       "uri": "urn:ahn:work/statua-marmo-monumento-funerario-bazzaro-1891",
@@ -38276,6 +38775,42 @@
       "status": "draft",
       "updated": "2026-08-12",
       "path": "entities/works/studio-rietti-1891-no288.md"
+    },
+    "work/sul-colle-sardi-1891": {
+      "id": "work/sul-colle-sardi-1891",
+      "uri": "urn:ahn:work/sul-colle-sardi-1891",
+      "type": "work",
+      "label_ja": "チェジーラ・サルディ《Sul colle - Studio dal vero》",
+      "label_en": "Sul colle - Studio dal vero",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "作品の独立典拠IDと現所在は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年（1891年展カタログ307番）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/cesira-sardi"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/works/sul-colle-sardi-1891.md"
     },
     "work/sul-lago-d-orta-rossi-1891": {
       "id": "work/sul-lago-d-orta-rossi-1891",
@@ -41846,6 +42381,13 @@
       "source": null
     },
     {
+      "from": "person/adolfo-hohenstein",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "person/adolphe-magrini",
       "type": "belongs_to",
       "to": "movement/italian-divisionism",
@@ -42105,6 +42647,13 @@
     },
     {
       "from": "person/arnaldo-ferraguti",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "person/arturo-ferrari",
       "type": "exhibited_at",
       "to": "event/first-brera-triennale-1891",
       "certainty": null,
@@ -42968,6 +43517,13 @@
       "to": "place/milan"
     },
     {
+      "from": "person/giuseppe-barbaglia",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "person/giuseppe-benzoni",
       "type": "exhibited_at",
       "to": "event/first-brera-triennale-1891",
@@ -43337,6 +43893,13 @@
       "source": null
     },
     {
+      "from": "person/luigi-rossi",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "person/luigi-serra",
       "type": "exhibited_at",
       "to": "event/first-brera-triennale-1891",
@@ -43606,6 +44169,13 @@
       "to": "place/milan"
     },
     {
+      "from": "person/serafino-de-tivoli",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "person/sofia-di-bricherasio",
       "type": "exhibited_at",
       "to": "event/first-brera-triennale-1891",
@@ -43845,6 +44415,20 @@
       "source": null
     },
     {
+      "from": "work/a-marly-le-roi-de-tivoli-1891",
+      "type": "created_by",
+      "to": "person/serafino-de-tivoli",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/a-marly-le-roi-de-tivoli-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "work/a-passeggio-de-sanctis-1891",
       "type": "created_by",
       "to": "person/giuseppe-de-sanctis",
@@ -43982,6 +44566,20 @@
     },
     {
       "from": "work/alla-banda-dei-giardini-pubblici-carcano-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/alla-pesca-giuliano-1891",
+      "type": "created_by",
+      "to": "person/bartolomeo-giuliano",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/alla-pesca-giuliano-1891",
       "type": "exhibited_at",
       "to": "event/first-brera-triennale-1891",
       "certainty": null,
@@ -44470,6 +45068,20 @@
       "from": "work/cavalier-ancien-magrini-1907",
       "type": "exhibited_at",
       "to": "event/salon-divisionnistes-italiens-paris-1907",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/cavalli-maremmani-gioli-1891",
+      "type": "created_by",
+      "to": "person/luigi-gioli",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/cavalli-maremmani-gioli-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
       "certainty": null,
       "source": null
     },
@@ -46252,6 +46864,34 @@
       "source": null
     },
     {
+      "from": "work/impressione-di-sicilia-rossi-1891",
+      "type": "created_by",
+      "to": "person/luigi-rossi",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/impressione-di-sicilia-rossi-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/impressioni-di-sicilia-rossi-1891",
+      "type": "created_by",
+      "to": "person/luigi-rossi",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/impressioni-di-sicilia-rossi-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "work/impressioni-e-studi-pasini-1891",
       "type": "created_by",
       "to": "person/lazzaro-pasini",
@@ -46771,6 +47411,20 @@
     },
     {
       "from": "work/la-cura-del-sangue-pusterla-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/la-falciatura-rietti-1891",
+      "type": "created_by",
+      "to": "person/arturo-rietti",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/la-falciatura-rietti-1891",
       "type": "exhibited_at",
       "to": "event/first-brera-triennale-1891",
       "certainty": null,
@@ -49815,6 +50469,20 @@
       "source": null
     },
     {
+      "from": "work/ritratto-ferrari-1891-no312",
+      "type": "created_by",
+      "to": "person/arturo-ferrari",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/ritratto-ferrari-1891-no312",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "work/ritratto-foulques-1891",
       "type": "created_by",
       "to": "person/elisa-foulques",
@@ -49879,6 +50547,20 @@
     },
     {
       "from": "work/ritratto-uomo-agazzi-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/ritratto-uomo-barbaglia-1891",
+      "type": "created_by",
+      "to": "person/giuseppe-barbaglia",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/ritratto-uomo-barbaglia-1891",
       "type": "exhibited_at",
       "to": "event/first-brera-triennale-1891",
       "certainty": null,
@@ -50291,6 +50973,20 @@
       "source": null
     },
     {
+      "from": "work/stalla-hohenstein-1891",
+      "type": "created_by",
+      "to": "person/adolfo-hohenstein",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/stalla-hohenstein-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "work/statua-marmo-monumento-funerario-bazzaro-1891",
       "type": "created_by",
       "to": "person/ernesto-bazzaro",
@@ -50355,6 +51051,20 @@
     },
     {
       "from": "work/studio-rietti-1891-no288",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/sul-colle-sardi-1891",
+      "type": "created_by",
+      "to": "person/cesira-sardi",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/sul-colle-sardi-1891",
       "type": "exhibited_at",
       "to": "event/first-brera-triennale-1891",
       "certainty": null,
@@ -52083,6 +52793,12 @@
       "derived": true
     },
     {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "person/adolfo-hohenstein",
+      "derived": true
+    },
+    {
       "from": "movement/italian-divisionism",
       "type": "has_member",
       "to": "person/adolphe-magrini",
@@ -52290,6 +53006,12 @@
       "from": "event/first-brera-triennale-1891",
       "type": "exhibited",
       "to": "person/arnaldo-ferraguti",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "person/arturo-ferrari",
       "derived": true
     },
     {
@@ -52991,6 +53713,12 @@
     {
       "from": "event/first-brera-triennale-1891",
       "type": "exhibited",
+      "to": "person/giuseppe-barbaglia",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
       "to": "person/giuseppe-benzoni",
       "derived": true
     },
@@ -53273,6 +54001,12 @@
     {
       "from": "event/first-brera-triennale-1891",
       "type": "exhibited",
+      "to": "person/luigi-rossi",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
       "to": "person/luigi-serra",
       "derived": true
     },
@@ -53495,6 +54229,12 @@
     {
       "from": "event/first-brera-triennale-1891",
       "type": "exhibited",
+      "to": "person/serafino-de-tivoli",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
       "to": "person/sofia-di-bricherasio",
       "derived": true
     },
@@ -53685,6 +54425,18 @@
       "derived": true
     },
     {
+      "from": "person/serafino-de-tivoli",
+      "type": "created",
+      "to": "work/a-marly-le-roi-de-tivoli-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/a-marly-le-roi-de-tivoli-1891",
+      "derived": true
+    },
+    {
       "from": "person/giuseppe-de-sanctis",
       "type": "created",
       "to": "work/a-passeggio-de-sanctis-1891",
@@ -53796,6 +54548,18 @@
       "from": "event/first-brera-triennale-1891",
       "type": "exhibited",
       "to": "work/alla-banda-dei-giardini-pubblici-carcano-1891",
+      "derived": true
+    },
+    {
+      "from": "person/bartolomeo-giuliano",
+      "type": "created",
+      "to": "work/alla-pesca-giuliano-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/alla-pesca-giuliano-1891",
       "derived": true
     },
     {
@@ -54204,6 +54968,18 @@
       "from": "event/salon-divisionnistes-italiens-paris-1907",
       "type": "exhibited",
       "to": "work/cavalier-ancien-magrini-1907",
+      "derived": true
+    },
+    {
+      "from": "person/luigi-gioli",
+      "type": "created",
+      "to": "work/cavalli-maremmani-gioli-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/cavalli-maremmani-gioli-1891",
       "derived": true
     },
     {
@@ -55731,6 +56507,30 @@
       "derived": true
     },
     {
+      "from": "person/luigi-rossi",
+      "type": "created",
+      "to": "work/impressione-di-sicilia-rossi-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/impressione-di-sicilia-rossi-1891",
+      "derived": true
+    },
+    {
+      "from": "person/luigi-rossi",
+      "type": "created",
+      "to": "work/impressioni-di-sicilia-rossi-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/impressioni-di-sicilia-rossi-1891",
+      "derived": true
+    },
+    {
       "from": "person/lazzaro-pasini",
       "type": "created",
       "to": "work/impressioni-e-studi-pasini-1891",
@@ -56178,6 +56978,18 @@
       "from": "event/first-brera-triennale-1891",
       "type": "exhibited",
       "to": "work/la-cura-del-sangue-pusterla-1891",
+      "derived": true
+    },
+    {
+      "from": "person/arturo-rietti",
+      "type": "created",
+      "to": "work/la-falciatura-rietti-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/la-falciatura-rietti-1891",
       "derived": true
     },
     {
@@ -58785,6 +59597,18 @@
       "derived": true
     },
     {
+      "from": "person/arturo-ferrari",
+      "type": "created",
+      "to": "work/ritratto-ferrari-1891-no312",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/ritratto-ferrari-1891-no312",
+      "derived": true
+    },
+    {
       "from": "person/elisa-foulques",
       "type": "created",
       "to": "work/ritratto-foulques-1891",
@@ -58842,6 +59666,18 @@
       "from": "event/first-brera-triennale-1891",
       "type": "exhibited",
       "to": "work/ritratto-uomo-agazzi-1891",
+      "derived": true
+    },
+    {
+      "from": "person/giuseppe-barbaglia",
+      "type": "created",
+      "to": "work/ritratto-uomo-barbaglia-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/ritratto-uomo-barbaglia-1891",
       "derived": true
     },
     {
@@ -59193,6 +60029,18 @@
       "derived": true
     },
     {
+      "from": "person/adolfo-hohenstein",
+      "type": "created",
+      "to": "work/stalla-hohenstein-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/stalla-hohenstein-1891",
+      "derived": true
+    },
+    {
       "from": "person/ernesto-bazzaro",
       "type": "created",
       "to": "work/statua-marmo-monumento-funerario-bazzaro-1891",
@@ -59250,6 +60098,18 @@
       "from": "event/first-brera-triennale-1891",
       "type": "exhibited",
       "to": "work/studio-rietti-1891-no288",
+      "derived": true
+    },
+    {
+      "from": "person/cesira-sardi",
+      "type": "created",
+      "to": "work/sul-colle-sardi-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/sul-colle-sardi-1891",
       "derived": true
     },
     {

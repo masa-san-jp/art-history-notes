@@ -1,11 +1,11 @@
 ---
-id: person/luigi-gioli
-uri: urn:ahn:person/luigi-gioli
+id: person/serafino-de-tivoli
+uri: urn:ahn:person/serafino-de-tivoli
 type: person
-label_ja: ルイジ・ジョーリ
-label_en: Luigi Gioli
+label_ja: セラフィーノ・デ・ティヴォリ
+label_en: Serafino De Tivoli
 aliases:
-  - Gioli Luigi
+  - De Tivoli Serafino
 authority:
   wikidata: null
   ulan: null
@@ -15,7 +15,7 @@ authority:
 time:
   start: null
   end: null
-  display: "19世紀末にピサ出身者として活動"
+  display: "19世紀末にフィレンツェで活動"
 space: []
 relations:
   - {type: exhibited_at, target: event/first-brera-triennale-1891}
@@ -25,6 +25,6 @@ status: draft
 updated: 2026-08-12
 ---
 
-# ルイジ・ジョーリ / Luigi Gioli
+# セラフィーノ・デ・ティヴォリ / Serafino De Tivoli
 
-1891年の第一回ブレラ三年展公式カタログに、ピサ出身者として掲載される画家。182番《Dopo la scuola》、238番《Ponte alla Carraia (Firenze)》、305番《Cavalli maremmani》を出品した。本項は展覧会記録に限定する。
+1891年の第一回ブレラ三年展公式カタログに、フィレンツェ出身者として掲載される出品者。306番《A Marly le roi》を出品した。本項は展覧会記録に限定する。

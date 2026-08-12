@@ -1,9 +1,11 @@
 ---
-id: person/bartolomeo-giuliano
-uri: urn:ahn:person/bartolomeo-giuliano
+id: person/arturo-ferrari
+uri: urn:ahn:person/arturo-ferrari
 type: person
-label_ja: バルトロメオ・ジュリアーノ
-label_en: Bartolomeo Giuliano
+label_ja: アルトゥーロ・フェッラーリ
+label_en: Arturo Ferrari
+aliases:
+  - Ferrari Arturo
 authority:
   wikidata: null
   ulan: null
@@ -13,7 +15,7 @@ authority:
 time:
   start: null
   end: null
-  display: "19世紀末にスーザ出身者として活動"
+  display: "19世紀末にミラノで活動"
 space: []
 relations:
   - {type: exhibited_at, target: event/first-brera-triennale-1891}
@@ -23,6 +25,6 @@ status: draft
 updated: 2026-08-12
 ---
 
-# バルトロメオ・ジュリアーノ / Bartolomeo Giuliano
+# アルトゥーロ・フェッラーリ / Arturo Ferrari
 
-1891年の第一回ブレラ三年展公式カタログに、スーザ出身者として掲載される画家。199番《Il Mattino》と308番《Alla pesca》を出品した。本項は展覧会記録に限定する。
+1891年の第一回ブレラ三年展公式カタログに、ミラノで活動する出品者として掲載される。312番《Ritratto》を出品した。本項は展覧会記録に限定する。

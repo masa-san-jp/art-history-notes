@@ -1,9 +1,11 @@
 ---
-id: person/bartolomeo-giuliano
-uri: urn:ahn:person/bartolomeo-giuliano
+id: person/luigi-rossi
+uri: urn:ahn:person/luigi-rossi
 type: person
-label_ja: バルトロメオ・ジュリアーノ
-label_en: Bartolomeo Giuliano
+label_ja: ルイジ・ロッシ
+label_en: Luigi Rossi
+aliases:
+  - Rossi Luigi
 authority:
   wikidata: null
   ulan: null
@@ -13,7 +15,7 @@ authority:
 time:
   start: null
   end: null
-  display: "19世紀末にスーザ出身者として活動"
+  display: "19世紀末にルガーノ出身者として活動"
 space: []
 relations:
   - {type: exhibited_at, target: event/first-brera-triennale-1891}
@@ -23,6 +25,6 @@ status: draft
 updated: 2026-08-12
 ---
 
-# バルトロメオ・ジュリアーノ / Bartolomeo Giuliano
+# ルイジ・ロッシ / Luigi Rossi
 
-1891年の第一回ブレラ三年展公式カタログに、スーザ出身者として掲載される画家。199番《Il Mattino》と308番《Alla pesca》を出品した。本項は展覧会記録に限定する。
+1891年の第一回ブレラ三年展公式カタログに、ルガーノ出身者として掲載される出品者。309番《Impressioni di Sicilia》と310番《Impressione di Sicilia》を出品した。本項は展覧会記録に限定する。
