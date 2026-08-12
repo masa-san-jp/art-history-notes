@@ -10898,7 +10898,7 @@
         "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
       ],
       "status": "draft",
-      "updated": "2026-08-12",
+      "updated": "2026-08-13",
       "path": "entities/persons/attilio-ferri.md"
     },
     "person/attilio-pusterla": {
@@ -12218,6 +12218,41 @@
       "updated": "2026-08-12",
       "path": "entities/persons/edouard-menta.md"
     },
+    "person/eduardo-berta": {
+      "id": "person/eduardo-berta",
+      "uri": "urn:ahn:person/eduardo-berta",
+      "type": "person",
+      "label_ja": "エドゥアルド・ベルタ",
+      "label_en": "Eduardo Berta",
+      "aliases": [
+        "Berta Eduardo"
+      ],
+      "authority": {
+        "wikidata": null,
+        "ulan": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "独立した人物典拠IDと生没年は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": null,
+        "end": null,
+        "display": "19世紀末に活動"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-13",
+      "path": "entities/persons/eduardo-berta.md"
+    },
     "person/eduardo-marchionni": {
       "id": "person/eduardo-marchionni",
       "uri": "urn:ahn:person/eduardo-marchionni",
@@ -13239,6 +13274,41 @@
       "status": "draft",
       "updated": "2026-08-12",
       "path": "entities/persons/ettore-cumbo.md"
+    },
+    "person/eugenio-andreasi": {
+      "id": "person/eugenio-andreasi",
+      "uri": "urn:ahn:person/eugenio-andreasi",
+      "type": "person",
+      "label_ja": "エウジェニオ・アンドレアージ",
+      "label_en": "Eugenio Andreasi",
+      "aliases": [
+        "Andreasi Eugenio"
+      ],
+      "authority": {
+        "wikidata": null,
+        "ulan": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "独立した人物典拠IDと生没年は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": null,
+        "end": null,
+        "display": "19世紀末に活動"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-13",
+      "path": "entities/persons/eugenio-andreasi.md"
     },
     "person/eugenio-bellosio": {
       "id": "person/eugenio-bellosio",
@@ -15918,6 +15988,41 @@
       "updated": "2026-08-13",
       "path": "entities/persons/guido-ricci.md"
     },
+    "person/gustavo-nacciarone": {
+      "id": "person/gustavo-nacciarone",
+      "uri": "urn:ahn:person/gustavo-nacciarone",
+      "type": "person",
+      "label_ja": "グスターヴォ・ナッチャローネ",
+      "label_en": "Gustavo Nacciarone",
+      "aliases": [
+        "Nacciarone Gustavo"
+      ],
+      "authority": {
+        "wikidata": null,
+        "ulan": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "独立した人物典拠IDと生没年は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": null,
+        "end": null,
+        "display": "19世紀末に活動"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-13",
+      "path": "entities/persons/gustavo-nacciarone.md"
+    },
     "person/gyula-kosice": {
       "id": "person/gyula-kosice",
       "uri": "urn:ahn:person/gyula-kosice",
@@ -16484,7 +16589,7 @@
         "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
       ],
       "status": "draft",
-      "updated": "2026-08-12",
+      "updated": "2026-08-13",
       "path": "entities/persons/lina-sardi.md"
     },
     "person/liubov-popova": {
@@ -17098,6 +17203,41 @@
       "status": "draft",
       "updated": "2026-08-12",
       "path": "entities/persons/luigi-rossi.md"
+    },
+    "person/luigi-serena": {
+      "id": "person/luigi-serena",
+      "uri": "urn:ahn:person/luigi-serena",
+      "type": "person",
+      "label_ja": "ルイジ・セレーナ",
+      "label_en": "Luigi Serena",
+      "aliases": [
+        "Serena Luigi"
+      ],
+      "authority": {
+        "wikidata": null,
+        "ulan": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "独立した人物典拠IDと生没年は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": null,
+        "end": null,
+        "display": "19世紀末に活動"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-13",
+      "path": "entities/persons/luigi-serena.md"
     },
     "person/luigi-serra": {
       "id": "person/luigi-serra",
@@ -18090,6 +18230,41 @@
       "status": "draft",
       "updated": "2026-08-12",
       "path": "entities/persons/pompeo-mariani.md"
+    },
+    "person/prospero-ricca": {
+      "id": "person/prospero-ricca",
+      "uri": "urn:ahn:person/prospero-ricca",
+      "type": "person",
+      "label_ja": "プロスペロ・リッカ",
+      "label_en": "Prospero Ricca",
+      "aliases": [
+        "Ricca Prospero"
+      ],
+      "authority": {
+        "wikidata": null,
+        "ulan": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "独立した人物典拠IDと生没年は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": null,
+        "end": null,
+        "display": "19世紀末に活動"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-13",
+      "path": "entities/persons/prospero-ricca.md"
     },
     "person/raffaele-armenise": {
       "id": "person/raffaele-armenise",
@@ -19612,6 +19787,41 @@
       "status": "draft",
       "updated": "2026-08-12",
       "path": "entities/persons/vittorio-cavalieri.md"
+    },
+    "person/vittorio-colombo": {
+      "id": "person/vittorio-colombo",
+      "uri": "urn:ahn:person/vittorio-colombo",
+      "type": "person",
+      "label_ja": "ヴィットリオ・コロンボ",
+      "label_en": "Vittorio Colombo",
+      "aliases": [
+        "Colombo Vittorio"
+      ],
+      "authority": {
+        "wikidata": null,
+        "ulan": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "独立した人物典拠IDと生没年は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": null,
+        "end": null,
+        "display": "19世紀末に活動"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-13",
+      "path": "entities/persons/vittorio-colombo.md"
     },
     "person/vittorio-novi": {
       "id": "person/vittorio-novi",
@@ -22797,6 +23007,42 @@
       "updated": "2026-08-08",
       "path": "entities/works/a-sunday-on-la-grande-jatte.md"
     },
+    "work/abbeveraggio-ricca-1891": {
+      "id": "work/abbeveraggio-ricca-1891",
+      "uri": "urn:ahn:work/abbeveraggio-ricca-1891",
+      "type": "work",
+      "label_ja": "プロスペロ・リッカ《Abbeveraggio》",
+      "label_en": "Abbeveraggio",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "作品の独立典拠IDと現所在は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年（1891年展カタログ401番）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/prospero-ricca"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-13",
+      "path": "entities/works/abbeveraggio-ricca-1891.md"
+    },
     "work/agricoltura-novi-1891": {
       "id": "work/agricoltura-novi-1891",
       "uri": "urn:ahn:work/agricoltura-novi-1891",
@@ -23245,6 +23491,42 @@
       "status": "draft",
       "updated": "2026-08-12",
       "path": "entities/works/angurie-ximenes-1891.md"
+    },
+    "work/apennino-studio-dal-vero-sardi-1891": {
+      "id": "work/apennino-studio-dal-vero-sardi-1891",
+      "uri": "urn:ahn:work/apennino-studio-dal-vero-sardi-1891",
+      "type": "work",
+      "label_ja": "リーナ・サルディ《Apennino - Studio dal vero》",
+      "label_en": "Apennino - Studio dal vero",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "作品の独立典拠IDと現所在は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年（1891年展カタログ393番）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/lina-sardi"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-13",
+      "path": "entities/works/apennino-studio-dal-vero-sardi-1891.md"
     },
     "work/apres-midi-d-octobre-fornara-1907": {
       "id": "work/apres-midi-d-octobre-fornara-1907",
@@ -24365,6 +24647,42 @@
       "status": "draft",
       "updated": "2026-08-12",
       "path": "entities/works/carica-militare-de-albertis-1891.md"
+    },
+    "work/cascinale-lombardo-andreasi-1891": {
+      "id": "work/cascinale-lombardo-andreasi-1891",
+      "uri": "urn:ahn:work/cascinale-lombardo-andreasi-1891",
+      "type": "work",
+      "label_ja": "エウジェニオ・アンドレアージ《Cascinale lombardo》",
+      "label_en": "Cascinale lombardo",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "作品の独立典拠IDと現所在は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年（1891年展カタログ402番）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/eugenio-andreasi"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-13",
+      "path": "entities/works/cascinale-lombardo-andreasi-1891.md"
     },
     "work/case-bianche-capri-buono-1891": {
       "id": "work/case-bianche-capri-buono-1891",
@@ -27126,6 +27444,42 @@
       "updated": "2026-08-12",
       "path": "entities/works/femme-tricoteuse-maggi-1907.md"
     },
+    "work/femo-paxe-serena-1891": {
+      "id": "work/femo-paxe-serena-1891",
+      "uri": "urn:ahn:work/femo-paxe-serena-1891",
+      "type": "work",
+      "label_ja": "ルイジ・セレーナ《Femo paxe》",
+      "label_en": "Femo paxe",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "作品の独立典拠IDと現所在は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年（1891年展カタログ399番）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/luigi-serena"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-13",
+      "path": "entities/works/femo-paxe-serena-1891.md"
+    },
     "work/ferme-baracchini-caputi-1907": {
       "id": "work/ferme-baracchini-caputi-1907",
       "uri": "urn:ahn:work/ferme-baracchini-caputi-1907",
@@ -28146,6 +28500,42 @@
       "status": "draft",
       "updated": "2026-08-12",
       "path": "entities/works/fuori-di-porta-sottocornola-1891.md"
+    },
+    "work/garibaldi-colombo-1891": {
+      "id": "work/garibaldi-colombo-1891",
+      "uri": "urn:ahn:work/garibaldi-colombo-1891",
+      "type": "work",
+      "label_ja": "ヴィットリオ・コロンボ《Garibaldi》",
+      "label_en": "Garibaldi",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "作品の独立典拠IDと現所在は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年（1891年展カタログ397番）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/vittorio-colombo"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-13",
+      "path": "entities/works/garibaldi-colombo-1891.md"
     },
     "work/garofani-calchi-novati-1891": {
       "id": "work/garofani-calchi-novati-1891",
@@ -33196,6 +33586,42 @@
       "updated": "2026-08-12",
       "path": "entities/works/le-tigre-magrini-1907.md"
     },
+    "work/le-ultime-ore-pergolese-nacciarone-1891": {
+      "id": "work/le-ultime-ore-pergolese-nacciarone-1891",
+      "uri": "urn:ahn:work/le-ultime-ore-pergolese-nacciarone-1891",
+      "type": "work",
+      "label_ja": "グスターヴォ・ナッチャローネ《Le ultime ore di G. Battista Pergolese》",
+      "label_en": "Le ultime ore di G. Battista Pergolese",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "作品の独立典拠IDと現所在は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年（1891年展カタログ395番）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/gustavo-nacciarone"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-13",
+      "path": "entities/works/le-ultime-ore-pergolese-nacciarone-1891.md"
+    },
     "work/le-verbe-previati-1907": {
       "id": "work/le-verbe-previati-1907",
       "uri": "urn:ahn:work/le-verbe-previati-1907",
@@ -35233,6 +35659,42 @@
       "updated": "2026-08-12",
       "path": "entities/works/monsignor-teodoro-turletti-1891.md"
     },
+    "work/montanina-berta-1891": {
+      "id": "work/montanina-berta-1891",
+      "uri": "urn:ahn:work/montanina-berta-1891",
+      "type": "work",
+      "label_ja": "エドゥアルド・ベルタ《Montanina (Studio di testa)》",
+      "label_en": "Montanina (Studio di testa)",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "作品の独立典拠IDと現所在は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年（1891年展カタログ396番）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/eduardo-berta"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-13",
+      "path": "entities/works/montanina-berta-1891.md"
+    },
     "work/monument-to-third-international": {
       "id": "work/monument-to-third-international",
       "uri": "urn:ahn:work/monument-to-third-international",
@@ -36360,6 +36822,42 @@
       "status": "draft",
       "updated": "2026-08-12",
       "path": "entities/works/paradiso-terrestre-ferri-1891.md"
+    },
+    "work/parco-innondato-ferri-1891": {
+      "id": "work/parco-innondato-ferri-1891",
+      "uri": "urn:ahn:work/parco-innondato-ferri-1891",
+      "type": "work",
+      "label_ja": "アッティリオ・フェッリ《Parco innondato》",
+      "label_en": "Parco innondato",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "作品の独立典拠IDと現所在は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年（1891年展カタログ394番）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/attilio-ferri"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-13",
+      "path": "entities/works/parco-innondato-ferri-1891.md"
     },
     "work/parmi-les-rochers-merello-1905": {
       "id": "work/parmi-les-rochers-merello-1905",
@@ -43458,6 +43956,42 @@
       "updated": "2026-08-13",
       "path": "entities/works/val-cavargna-farina-1891.md"
     },
+    "work/valle-anzasca-galateri-1891": {
+      "id": "work/valle-anzasca-galateri-1891",
+      "uri": "urn:ahn:work/valle-anzasca-galateri-1891",
+      "type": "work",
+      "label_ja": "フィリベルト・ガラテーリ《Valle Anzasca》",
+      "label_en": "Valle Anzasca",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "作品の独立典拠IDと現所在は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年（1891年展カタログ400番）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/filiberto-galateri"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-13",
+      "path": "entities/works/valle-anzasca-galateri-1891.md"
+    },
     "work/valle-di-stura-galateri-1891": {
       "id": "work/valle-di-stura-galateri-1891",
       "uri": "urn:ahn:work/valle-di-stura-galateri-1891",
@@ -46486,6 +47020,13 @@
       "source": null
     },
     {
+      "from": "person/eduardo-berta",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "person/eduardo-marchionni",
       "type": "exhibited_at",
       "to": "event/first-brera-triennale-1891",
@@ -46707,6 +47248,13 @@
     },
     {
       "from": "person/ettore-cumbo",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "person/eugenio-andreasi",
       "type": "exhibited_at",
       "to": "event/first-brera-triennale-1891",
       "certainty": null,
@@ -47340,6 +47888,13 @@
       "source": null
     },
     {
+      "from": "person/gustavo-nacciarone",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "person/henri-lehmann",
       "type": "active_in",
       "to": "place/paris"
@@ -47557,6 +48112,13 @@
       "source": null
     },
     {
+      "from": "person/luigi-serena",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "person/luigi-serra",
       "type": "exhibited_at",
       "to": "event/first-brera-triennale-1891",
@@ -47731,6 +48293,13 @@
     },
     {
       "from": "person/pompeo-mariani",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "person/prospero-ricca",
       "type": "exhibited_at",
       "to": "event/first-brera-triennale-1891",
       "certainty": null,
@@ -48018,6 +48587,13 @@
       "source": null
     },
     {
+      "from": "person/vittorio-colombo",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "person/vittorio-novi",
       "type": "exhibited_at",
       "to": "event/first-brera-triennale-1891",
@@ -48208,6 +48784,20 @@
       "to": "org/art-institute-of-chicago"
     },
     {
+      "from": "work/abbeveraggio-ricca-1891",
+      "type": "created_by",
+      "to": "person/prospero-ricca",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/abbeveraggio-ricca-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "work/agricoltura-novi-1891",
       "type": "created_by",
       "to": "person/vittorio-novi",
@@ -48377,6 +48967,20 @@
     },
     {
       "from": "work/angurie-ximenes-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/apennino-studio-dal-vero-sardi-1891",
+      "type": "created_by",
+      "to": "person/lina-sardi",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/apennino-studio-dal-vero-sardi-1891",
       "type": "exhibited_at",
       "to": "event/first-brera-triennale-1891",
       "certainty": null,
@@ -48821,6 +49425,20 @@
     },
     {
       "from": "work/carica-militare-de-albertis-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/cascinale-lombardo-andreasi-1891",
+      "type": "created_by",
+      "to": "person/eugenio-andreasi",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/cascinale-lombardo-andreasi-1891",
       "type": "exhibited_at",
       "to": "event/first-brera-triennale-1891",
       "certainty": null,
@@ -49877,6 +50495,20 @@
       "source": null
     },
     {
+      "from": "work/femo-paxe-serena-1891",
+      "type": "created_by",
+      "to": "person/luigi-serena",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/femo-paxe-serena-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "work/ferme-baracchini-caputi-1907",
       "type": "created_by",
       "to": "person/adriano-baracchini-caputi",
@@ -50263,6 +50895,20 @@
     },
     {
       "from": "work/fuori-di-porta-sottocornola-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/garibaldi-colombo-1891",
+      "type": "created_by",
+      "to": "person/vittorio-colombo",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/garibaldi-colombo-1891",
       "type": "exhibited_at",
       "to": "event/first-brera-triennale-1891",
       "certainty": null,
@@ -52208,6 +52854,20 @@
       "source": null
     },
     {
+      "from": "work/le-ultime-ore-pergolese-nacciarone-1891",
+      "type": "created_by",
+      "to": "person/gustavo-nacciarone",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/le-ultime-ore-pergolese-nacciarone-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "work/le-verbe-previati-1907",
       "type": "created_by",
       "to": "person/gaetano-previati",
@@ -52999,6 +53659,20 @@
       "source": null
     },
     {
+      "from": "work/montanina-berta-1891",
+      "type": "created_by",
+      "to": "person/eduardo-berta",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/montanina-berta-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "work/monument-to-third-international",
       "type": "created_by",
       "to": "person/vladimir-tatlin",
@@ -53427,6 +54101,20 @@
     },
     {
       "from": "work/paradiso-terrestre-ferri-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/parco-innondato-ferri-1891",
+      "type": "created_by",
+      "to": "person/attilio-ferri",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/parco-innondato-ferri-1891",
       "type": "exhibited_at",
       "to": "event/first-brera-triennale-1891",
       "certainty": null,
@@ -56150,6 +56838,20 @@
     },
     {
       "from": "work/val-cavargna-farina-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/valle-anzasca-galateri-1891",
+      "type": "created_by",
+      "to": "person/filiberto-galateri",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/valle-anzasca-galateri-1891",
       "type": "exhibited_at",
       "to": "event/first-brera-triennale-1891",
       "certainty": null,
@@ -57924,6 +58626,12 @@
     {
       "from": "event/first-brera-triennale-1891",
       "type": "exhibited",
+      "to": "person/eduardo-berta",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
       "to": "person/eduardo-marchionni",
       "derived": true
     },
@@ -58105,6 +58813,12 @@
       "from": "event/first-brera-triennale-1891",
       "type": "exhibited",
       "to": "person/ettore-cumbo",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "person/eugenio-andreasi",
       "derived": true
     },
     {
@@ -58626,6 +59340,12 @@
     {
       "from": "event/first-brera-triennale-1891",
       "type": "exhibited",
+      "to": "person/gustavo-nacciarone",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
       "to": "person/idalia-albertini",
       "derived": true
     },
@@ -58782,6 +59502,12 @@
     {
       "from": "event/first-brera-triennale-1891",
       "type": "exhibited",
+      "to": "person/luigi-serena",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
       "to": "person/luigi-serra",
       "derived": true
     },
@@ -58927,6 +59653,12 @@
       "from": "event/first-brera-triennale-1891",
       "type": "exhibited",
       "to": "person/pompeo-mariani",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "person/prospero-ricca",
       "derived": true
     },
     {
@@ -59160,6 +59892,12 @@
     {
       "from": "event/first-brera-triennale-1891",
       "type": "exhibited",
+      "to": "person/vittorio-colombo",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
       "to": "person/vittorio-novi",
       "derived": true
     },
@@ -59305,6 +60043,18 @@
       "from": "concept/harmony",
       "type": "depicted_in",
       "to": "work/a-sunday-on-la-grande-jatte",
+      "derived": true
+    },
+    {
+      "from": "person/prospero-ricca",
+      "type": "created",
+      "to": "work/abbeveraggio-ricca-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/abbeveraggio-ricca-1891",
       "derived": true
     },
     {
@@ -59455,6 +60205,18 @@
       "from": "event/first-brera-triennale-1891",
       "type": "exhibited",
       "to": "work/angurie-ximenes-1891",
+      "derived": true
+    },
+    {
+      "from": "person/lina-sardi",
+      "type": "created",
+      "to": "work/apennino-studio-dal-vero-sardi-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/apennino-studio-dal-vero-sardi-1891",
       "derived": true
     },
     {
@@ -59827,6 +60589,18 @@
       "from": "event/first-brera-triennale-1891",
       "type": "exhibited",
       "to": "work/carica-militare-de-albertis-1891",
+      "derived": true
+    },
+    {
+      "from": "person/eugenio-andreasi",
+      "type": "created",
+      "to": "work/cascinale-lombardo-andreasi-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/cascinale-lombardo-andreasi-1891",
       "derived": true
     },
     {
@@ -60730,6 +61504,18 @@
       "derived": true
     },
     {
+      "from": "person/luigi-serena",
+      "type": "created",
+      "to": "work/femo-paxe-serena-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/femo-paxe-serena-1891",
+      "derived": true
+    },
+    {
       "from": "person/adriano-baracchini-caputi",
       "type": "created",
       "to": "work/ferme-baracchini-caputi-1907",
@@ -61063,6 +61849,18 @@
       "from": "event/first-brera-triennale-1891",
       "type": "exhibited",
       "to": "work/fuori-di-porta-sottocornola-1891",
+      "derived": true
+    },
+    {
+      "from": "person/vittorio-colombo",
+      "type": "created",
+      "to": "work/garibaldi-colombo-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/garibaldi-colombo-1891",
       "derived": true
     },
     {
@@ -62728,6 +63526,18 @@
       "derived": true
     },
     {
+      "from": "person/gustavo-nacciarone",
+      "type": "created",
+      "to": "work/le-ultime-ore-pergolese-nacciarone-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/le-ultime-ore-pergolese-nacciarone-1891",
+      "derived": true
+    },
+    {
       "from": "person/gaetano-previati",
       "type": "created",
       "to": "work/le-verbe-previati-1907",
@@ -63406,6 +64216,18 @@
       "derived": true
     },
     {
+      "from": "person/eduardo-berta",
+      "type": "created",
+      "to": "work/montanina-berta-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/montanina-berta-1891",
+      "derived": true
+    },
+    {
       "from": "person/vladimir-tatlin",
       "type": "created",
       "to": "work/monument-to-third-international",
@@ -63775,6 +64597,18 @@
       "from": "event/first-brera-triennale-1891",
       "type": "exhibited",
       "to": "work/paradiso-terrestre-ferri-1891",
+      "derived": true
+    },
+    {
+      "from": "person/attilio-ferri",
+      "type": "created",
+      "to": "work/parco-innondato-ferri-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/parco-innondato-ferri-1891",
       "derived": true
     },
     {
@@ -66109,6 +66943,18 @@
       "from": "event/first-brera-triennale-1891",
       "type": "exhibited",
       "to": "work/val-cavargna-farina-1891",
+      "derived": true
+    },
+    {
+      "from": "person/filiberto-galateri",
+      "type": "created",
+      "to": "work/valle-anzasca-galateri-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/valle-anzasca-galateri-1891",
       "derived": true
     },
     {
