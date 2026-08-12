@@ -5712,6 +5712,12 @@
         },
         {
           "type": "influenced_by",
+          "target": "movement/zhe-school",
+          "certainty": "scholarly",
+          "source": "https://www.kyohaku.go.jp/jp/learn/home/yomimono_data/0071/"
+        },
+        {
+          "type": "influenced_by",
           "target": "movement/four-wangs",
           "certainty": "scholarly",
           "source": "https://theme.npm.edu.tw/exh107/NewEra/jp/page-4.html"
@@ -5731,6 +5737,7 @@
         "https://jpsearch.go.jp/en/gallery/ndl-D6xwaWpaGKiEYVp",
         "https://www.kyohaku.go.jp/old/eng/theme/floor2_4/past/kinse_20170221.html",
         "https://eaa.fas.harvard.edu/museum/nanga-painting-feinberg-collection",
+        "https://www.kyohaku.go.jp/jp/learn/home/yomimono_data/0071/",
         "https://theme.npm.edu.tw/exh107/NewEra/jp/page-4.html",
         "https://theme.npm.edu.tw/exh107/NewEra/en/page-4.html",
         "https://www.metmuseum.org/art/collection/search/671023",
@@ -5751,7 +5758,7 @@
         }
       ],
       "status": "draft",
-      "updated": "2026-08-10",
+      "updated": "2026-08-13",
       "path": "entities/movements/nanga.md"
     },
     "movement/negritude": {
@@ -57205,6 +57212,13 @@
     {
       "from": "movement/nanga",
       "type": "influenced_by",
+      "to": "movement/zhe-school",
+      "certainty": "scholarly",
+      "source": "https://www.kyohaku.go.jp/jp/learn/home/yomimono_data/0071/"
+    },
+    {
+      "from": "movement/nanga",
+      "type": "influenced_by",
       "to": "movement/four-wangs",
       "certainty": "scholarly",
       "source": "https://theme.npm.edu.tw/exh107/NewEra/jp/page-4.html"
@@ -73018,6 +73032,12 @@
     },
     {
       "from": "movement/literati-painting",
+      "type": "influenced",
+      "to": "movement/nanga",
+      "derived": true
+    },
+    {
+      "from": "movement/zhe-school",
       "type": "influenced",
       "to": "movement/nanga",
       "derived": true
