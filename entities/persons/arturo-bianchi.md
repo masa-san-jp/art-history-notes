@@ -1,11 +1,11 @@
 ---
-id: person/roberto-fontana
-uri: urn:ahn:person/roberto-fontana
+id: person/arturo-bianchi
+uri: urn:ahn:person/arturo-bianchi
 type: person
-label_ja: ロベルト・フォンターナ
-label_en: Roberto Fontana
+label_ja: アルトゥーロ・ビアンキ
+label_en: Arturo Bianchi
 aliases:
-  - Fontana Roberto
+  - Bianchi Arturo
 authority:
   wikidata: null
   ulan: null
@@ -15,7 +15,7 @@ authority:
 time:
   start: null
   end: null
-  display: "19世紀末にミラノで活動"
+  display: "19世紀末にブレーシャ出身者として活動"
 space: []
 relations:
   - {type: exhibited_at, target: event/first-brera-triennale-1891}
@@ -25,6 +25,6 @@ status: draft
 updated: 2026-08-13
 ---
 
-# ロベルト・フォンターナ / Roberto Fontana
+# アルトゥーロ・ビアンキ / Arturo Bianchi
 
-1891年の第一回ブレラ三年展公式カタログに、ミラノ出身者として掲載される出品者。371番《Ritratto di signora》、422番《Diversi studietti riuniti in una sola cornice》を出品した。本項は展覧会記録に限定する。
+1891年の第一回ブレラ三年展公式カタログに、ブレーシャ出身者として掲載される出品者。420番《Interno》、421番《Sei studi riuniti》を出品した。本項は展覧会記録に限定する。

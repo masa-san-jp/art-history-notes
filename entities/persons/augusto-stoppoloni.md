@@ -1,11 +1,11 @@
 ---
-id: person/roberto-fontana
-uri: urn:ahn:person/roberto-fontana
+id: person/augusto-stoppoloni
+uri: urn:ahn:person/augusto-stoppoloni
 type: person
-label_ja: ロベルト・フォンターナ
-label_en: Roberto Fontana
+label_ja: アウグスト・ストッポローニ
+label_en: Augusto Stoppoloni
 aliases:
-  - Fontana Roberto
+  - Stoppoloni Augusto
 authority:
   wikidata: null
   ulan: null
@@ -15,7 +15,7 @@ authority:
 time:
   start: null
   end: null
-  display: "19世紀末にミラノで活動"
+  display: "19世紀末にローマで活動"
 space: []
 relations:
   - {type: exhibited_at, target: event/first-brera-triennale-1891}
@@ -25,6 +25,6 @@ status: draft
 updated: 2026-08-13
 ---
 
-# ロベルト・フォンターナ / Roberto Fontana
+# アウグスト・ストッポローニ / Augusto Stoppoloni
 
-1891年の第一回ブレラ三年展公式カタログに、ミラノ出身者として掲載される出品者。371番《Ritratto di signora》、422番《Diversi studietti riuniti in una sola cornice》を出品した。本項は展覧会記録に限定する。
+1891年の第一回ブレラ三年展公式カタログに、ローマ出身者として掲載される出品者。423番《La Treggia》を出品した。本項は展覧会記録に限定する。

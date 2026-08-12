@@ -23,7 +23,7 @@ sources:
   - https://dizionariodartesartori.it/artisti/crespi-ferruccio
   - https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf
 status: draft
-updated: 2026-08-12
+updated: 2026-08-13
 ---
 
 # フェッルッチョ・クレスピ / Ferruccio Crespi
@@ -31,5 +31,5 @@ updated: 2026-08-12
 ブスト・アルシーツィオ出身のイタリアの彫刻家。ロンバルディア文化財カタログは1857〜1891年の彫刻家として、
 ブスト・アルシーツィオの市立美術館所蔵作品を登録している。専門資料は肖像彫刻家としての活動も記録する。
 
-1891年の第一回ブレラ三年展では、公式カタログの38番《Ritratto》を出品した。本項では、この展覧会での出品関係を記録するが、
+1891年の第一回ブレラ三年展では、公式カタログの38番《Ritratto》、416番《Cavallo nelle praterie (Bronzo)》を出品した。本項では、この展覧会での出品関係を記録するが、
 クレスピをイタリア分割主義の構成員とは位置づけない。

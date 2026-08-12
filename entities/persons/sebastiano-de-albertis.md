@@ -24,7 +24,7 @@ sources:
   - https://www.getty.edu/vow/ULANFullDisplay?find=bouchet&nation=&page=1&role=porcelain+painter&subjectid=500032440
   - https://commons.wikimedia.org/wiki/Category%3ASebastiano_De_Albertis
 status: draft
-updated: 2026-08-12
+updated: 2026-08-13
 ---
 
 # セバスティアーノ・デ・アルベルティス / Sebastiano De Albertis

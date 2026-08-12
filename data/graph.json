@@ -10730,6 +10730,41 @@
       "updated": "2026-08-12",
       "path": "entities/persons/arnaldo-ferraguti.md"
     },
+    "person/arturo-bianchi": {
+      "id": "person/arturo-bianchi",
+      "uri": "urn:ahn:person/arturo-bianchi",
+      "type": "person",
+      "label_ja": "アルトゥーロ・ビアンキ",
+      "label_en": "Arturo Bianchi",
+      "aliases": [
+        "Bianchi Arturo"
+      ],
+      "authority": {
+        "wikidata": null,
+        "ulan": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "独立した人物典拠IDと生没年は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": null,
+        "end": null,
+        "display": "19世紀末にブレーシャ出身者として活動"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-13",
+      "path": "entities/persons/arturo-bianchi.md"
+    },
     "person/arturo-ferrari": {
       "id": "person/arturo-ferrari",
       "uri": "urn:ahn:person/arturo-ferrari",
@@ -10941,6 +10976,41 @@
       "status": "draft",
       "updated": "2026-08-12",
       "path": "entities/persons/attilio-pusterla.md"
+    },
+    "person/augusto-stoppoloni": {
+      "id": "person/augusto-stoppoloni",
+      "uri": "urn:ahn:person/augusto-stoppoloni",
+      "type": "person",
+      "label_ja": "アウグスト・ストッポローニ",
+      "label_en": "Augusto Stoppoloni",
+      "aliases": [
+        "Stoppoloni Augusto"
+      ],
+      "authority": {
+        "wikidata": null,
+        "ulan": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "独立した人物典拠IDと生没年は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": null,
+        "end": null,
+        "display": "19世紀末にローマで活動"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-13",
+      "path": "entities/persons/augusto-stoppoloni.md"
     },
     "person/bartolomeo-bezzi": {
       "id": "person/bartolomeo-bezzi",
@@ -13482,6 +13552,76 @@
       "updated": "2026-08-12",
       "path": "entities/persons/eugenio-gignous.md"
     },
+    "person/eugenio-guigoni": {
+      "id": "person/eugenio-guigoni",
+      "uri": "urn:ahn:person/eugenio-guigoni",
+      "type": "person",
+      "label_ja": "エウジェニオ・グイゴーニ",
+      "label_en": "Eugenio Guigoni",
+      "aliases": [
+        "Guigoni Eugenio"
+      ],
+      "authority": {
+        "wikidata": null,
+        "ulan": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "独立した人物典拠IDと生没年は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": null,
+        "end": null,
+        "display": "19世紀末に活動"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-13",
+      "path": "entities/persons/eugenio-guigoni.md"
+    },
+    "person/eugenio-pellini": {
+      "id": "person/eugenio-pellini",
+      "uri": "urn:ahn:person/eugenio-pellini",
+      "type": "person",
+      "label_ja": "エウジェニオ・ペッリーニ",
+      "label_en": "Eugenio Pellini",
+      "aliases": [
+        "Pellini Eugenio"
+      ],
+      "authority": {
+        "wikidata": null,
+        "ulan": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "独立した人物典拠IDと生没年は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": null,
+        "end": null,
+        "display": "19世紀末にマルキローロ出身者として活動"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-13",
+      "path": "entities/persons/eugenio-pellini.md"
+    },
     "person/eugenio-prati": {
       "id": "person/eugenio-prati",
       "uri": "urn:ahn:person/eugenio-prati",
@@ -13806,7 +13946,7 @@
         "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
       ],
       "status": "draft",
-      "updated": "2026-08-12",
+      "updated": "2026-08-13",
       "path": "entities/persons/ferruccio-crespi.md"
     },
     "person/filiberto-galateri": {
@@ -18366,7 +18506,7 @@
         "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
       ],
       "status": "draft",
-      "updated": "2026-08-12",
+      "updated": "2026-08-13",
       "path": "entities/persons/pietro-villani.md"
     },
     "person/plinio-nomellini": {
@@ -19211,7 +19351,7 @@
         "https://commons.wikimedia.org/wiki/Category%3ASebastiano_De_Albertis"
       ],
       "status": "draft",
-      "updated": "2026-08-12",
+      "updated": "2026-08-13",
       "path": "entities/persons/sebastiano-de-albertis.md"
     },
     "person/serafino-de-tivoli": {
@@ -24154,6 +24294,42 @@
       "updated": "2026-08-12",
       "path": "entities/works/bathers-at-asnieres.md"
     },
+    "work/battaglia-guigoni-1891": {
+      "id": "work/battaglia-guigoni-1891",
+      "uri": "urn:ahn:work/battaglia-guigoni-1891",
+      "type": "work",
+      "label_ja": "エウジェニオ・グイゴーニ《Battaglia》",
+      "label_en": "Battaglia",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "作品の独立典拠IDと現所在は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年（1891年展カタログ415番）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/eugenio-guigoni"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-13",
+      "path": "entities/works/battaglia-guigoni-1891.md"
+    },
     "work/bezzecca-campagna-1866-de-albertis-1891": {
       "id": "work/bezzecca-campagna-1866-de-albertis-1891",
       "uri": "urn:ahn:work/bezzecca-campagna-1866-de-albertis-1891",
@@ -25110,6 +25286,42 @@
       "status": "draft",
       "updated": "2026-08-12",
       "path": "entities/works/cavalli-maremmani-gioli-1891.md"
+    },
+    "work/cavallo-nelle-praterie-crespi-1891": {
+      "id": "work/cavallo-nelle-praterie-crespi-1891",
+      "uri": "urn:ahn:work/cavallo-nelle-praterie-crespi-1891",
+      "type": "work",
+      "label_ja": "フェッルッチョ・クレスピ《Cavallo nelle praterie (Bronzo)》",
+      "label_en": "Cavallo nelle praterie (Bronzo)",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "作品の独立典拠IDと現所在は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年（1891年展カタログ416番）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/ferruccio-crespi"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-13",
+      "path": "entities/works/cavallo-nelle-praterie-crespi-1891.md"
     },
     "work/chat-sauvage-magrini-1907": {
       "id": "work/chat-sauvage-magrini-1907",
@@ -26649,6 +26861,42 @@
       "status": "draft",
       "updated": "2026-08-12",
       "path": "entities/works/disegni-pontremoli-1891.md"
+    },
+    "work/diversi-studietti-fontana-1891": {
+      "id": "work/diversi-studietti-fontana-1891",
+      "uri": "urn:ahn:work/diversi-studietti-fontana-1891",
+      "type": "work",
+      "label_ja": "ロベルト・フォンターナ《Diversi studietti riuniti in una sola cornice》",
+      "label_en": "Diversi studietti riuniti in una sola cornice",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "作品群の独立典拠IDと個別の寸法・現所在は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年（1891年展カタログ422番）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/roberto-fontana"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-13",
+      "path": "entities/works/diversi-studietti-fontana-1891.md"
     },
     "work/domani-in-collegio-follini-1891": {
       "id": "work/domani-in-collegio-follini-1891",
@@ -31265,6 +31513,42 @@
       "updated": "2026-08-12",
       "path": "entities/works/innocenzo-x-turletti-1891.md"
     },
+    "work/interno-bianchi-1891": {
+      "id": "work/interno-bianchi-1891",
+      "uri": "urn:ahn:work/interno-bianchi-1891",
+      "type": "work",
+      "label_ja": "アルトゥーロ・ビアンキ《Interno》",
+      "label_en": "Interno",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "作品の独立典拠IDと現所在は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年（1891年展カタログ420番）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/arturo-bianchi"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-13",
+      "path": "entities/works/interno-bianchi-1891.md"
+    },
     "work/inverno-fragiacomo-1890": {
       "id": "work/inverno-fragiacomo-1890",
       "uri": "urn:ahn:work/inverno-fragiacomo-1890",
@@ -32602,6 +32886,42 @@
       "updated": "2026-08-12",
       "path": "entities/works/la-piscininna-longoni-1891.md"
     },
+    "work/la-piscinnina-pellini-1891": {
+      "id": "work/la-piscinnina-pellini-1891",
+      "uri": "urn:ahn:work/la-piscinnina-pellini-1891",
+      "type": "work",
+      "label_ja": "エウジェニオ・ペッリーニ《La piscinnina (Bronzo)》",
+      "label_en": "La piscinnina (Bronzo)",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "作品の独立典拠IDと現所在は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年（1891年展カタログ417番）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/eugenio-pellini"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-13",
+      "path": "entities/works/la-piscinnina-pellini-1891.md"
+    },
     "work/la-prediletta-mion-1891": {
       "id": "work/la-prediletta-mion-1891",
       "uri": "urn:ahn:work/la-prediletta-mion-1891",
@@ -33001,6 +33321,42 @@
       "status": "draft",
       "updated": "2026-08-12",
       "path": "entities/works/la-traviata-marai-1891.md"
+    },
+    "work/la-treggia-stoppoloni-1891": {
+      "id": "work/la-treggia-stoppoloni-1891",
+      "uri": "urn:ahn:work/la-treggia-stoppoloni-1891",
+      "type": "work",
+      "label_ja": "アウグスト・ストッポローニ《La Treggia》",
+      "label_en": "La Treggia",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "作品の独立典拠IDと現所在は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年（1891年展カタログ423番）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/augusto-stoppoloni"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-13",
+      "path": "entities/works/la-treggia-stoppoloni-1891.md"
     },
     "work/la-vallee-de-malenco-mario-segantini-1907": {
       "id": "work/la-vallee-de-malenco-mario-segantini-1907",
@@ -41841,6 +42197,42 @@
       "updated": "2026-08-12",
       "path": "entities/works/scarabocchione-pasini-1891.md"
     },
+    "work/sei-studi-riuniti-bianchi-1891": {
+      "id": "work/sei-studi-riuniti-bianchi-1891",
+      "uri": "urn:ahn:work/sei-studi-riuniti-bianchi-1891",
+      "type": "work",
+      "label_ja": "アルトゥーロ・ビアンキ《Sei studi riuniti》",
+      "label_en": "Sei studi riuniti",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "作品群の独立典拠IDと個別の寸法・現所在は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年（1891年展カタログ421番）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/arturo-bianchi"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-13",
+      "path": "entities/works/sei-studi-riuniti-bianchi-1891.md"
+    },
     "work/sito-paludoso-beccaria-1891": {
       "id": "work/sito-paludoso-beccaria-1891",
       "uri": "urn:ahn:work/sito-paludoso-beccaria-1891",
@@ -47260,6 +47652,13 @@
       "source": null
     },
     {
+      "from": "person/arturo-bianchi",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "person/arturo-ferrari",
       "type": "exhibited_at",
       "to": "event/first-brera-triennale-1891",
@@ -47305,6 +47704,13 @@
       "from": "person/attilio-pusterla",
       "type": "active_in",
       "to": "place/milan"
+    },
+    {
+      "from": "person/augusto-stoppoloni",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
     },
     {
       "from": "person/bartolomeo-bezzi",
@@ -47860,6 +48266,20 @@
     },
     {
       "from": "person/eugenio-gignous",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "person/eugenio-guigoni",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "person/eugenio-pellini",
       "type": "exhibited_at",
       "to": "event/first-brera-triennale-1891",
       "certainty": null,
@@ -49763,6 +50183,20 @@
       "to": "org/national-gallery-london"
     },
     {
+      "from": "work/battaglia-guigoni-1891",
+      "type": "created_by",
+      "to": "person/eugenio-guigoni",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/battaglia-guigoni-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "work/bezzecca-campagna-1866-de-albertis-1891",
       "type": "created_by",
       "to": "person/sebastiano-de-albertis",
@@ -50135,6 +50569,20 @@
     },
     {
       "from": "work/cavalli-maremmani-gioli-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/cavallo-nelle-praterie-crespi-1891",
+      "type": "created_by",
+      "to": "person/ferruccio-crespi",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/cavallo-nelle-praterie-crespi-1891",
       "type": "exhibited_at",
       "to": "event/first-brera-triennale-1891",
       "certainty": null,
@@ -50723,6 +51171,20 @@
     },
     {
       "from": "work/disegni-pontremoli-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/diversi-studietti-fontana-1891",
+      "type": "created_by",
+      "to": "person/roberto-fontana",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/diversi-studietti-fontana-1891",
       "type": "exhibited_at",
       "to": "event/first-brera-triennale-1891",
       "certainty": null,
@@ -52493,6 +52955,20 @@
       "source": null
     },
     {
+      "from": "work/interno-bianchi-1891",
+      "type": "created_by",
+      "to": "person/arturo-bianchi",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/interno-bianchi-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "work/inverno-fragiacomo-1890",
       "type": "created_by",
       "to": "person/pietro-fragiacomo",
@@ -53011,6 +53487,20 @@
       "source": null
     },
     {
+      "from": "work/la-piscinnina-pellini-1891",
+      "type": "created_by",
+      "to": "person/eugenio-pellini",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/la-piscinnina-pellini-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "work/la-prediletta-mion-1891",
       "type": "created_by",
       "to": "person/luigi-mion",
@@ -53159,6 +53649,20 @@
     },
     {
       "from": "work/la-traviata-marai-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/la-treggia-stoppoloni-1891",
+      "type": "created_by",
+      "to": "person/augusto-stoppoloni",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/la-treggia-stoppoloni-1891",
       "type": "exhibited_at",
       "to": "event/first-brera-triennale-1891",
       "certainty": null,
@@ -56554,6 +57058,20 @@
     },
     {
       "from": "work/scarabocchione-pasini-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/sei-studi-riuniti-bianchi-1891",
+      "type": "created_by",
+      "to": "person/arturo-bianchi",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/sei-studi-riuniti-bianchi-1891",
       "type": "exhibited_at",
       "to": "event/first-brera-triennale-1891",
       "certainty": null,
@@ -59108,6 +59626,12 @@
     {
       "from": "event/first-brera-triennale-1891",
       "type": "exhibited",
+      "to": "person/arturo-bianchi",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
       "to": "person/arturo-ferrari",
       "derived": true
     },
@@ -59139,6 +59663,12 @@
       "from": "event/first-brera-triennale-1891",
       "type": "exhibited",
       "to": "person/attilio-pusterla",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "person/augusto-stoppoloni",
       "derived": true
     },
     {
@@ -59601,6 +60131,18 @@
       "from": "event/first-brera-triennale-1891",
       "type": "exhibited",
       "to": "person/eugenio-gignous",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "person/eugenio-guigoni",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "person/eugenio-pellini",
       "derived": true
     },
     {
@@ -61140,6 +61682,18 @@
       "derived": true
     },
     {
+      "from": "person/eugenio-guigoni",
+      "type": "created",
+      "to": "work/battaglia-guigoni-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/battaglia-guigoni-1891",
+      "derived": true
+    },
+    {
       "from": "person/sebastiano-de-albertis",
       "type": "created",
       "to": "work/bezzecca-campagna-1866-de-albertis-1891",
@@ -61461,6 +62015,18 @@
       "from": "event/first-brera-triennale-1891",
       "type": "exhibited",
       "to": "work/cavalli-maremmani-gioli-1891",
+      "derived": true
+    },
+    {
+      "from": "person/ferruccio-crespi",
+      "type": "created",
+      "to": "work/cavallo-nelle-praterie-crespi-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/cavallo-nelle-praterie-crespi-1891",
       "derived": true
     },
     {
@@ -61965,6 +62531,18 @@
       "from": "event/first-brera-triennale-1891",
       "type": "exhibited",
       "to": "work/disegni-pontremoli-1891",
+      "derived": true
+    },
+    {
+      "from": "person/roberto-fontana",
+      "type": "created",
+      "to": "work/diversi-studietti-fontana-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/diversi-studietti-fontana-1891",
       "derived": true
     },
     {
@@ -63480,6 +64058,18 @@
       "derived": true
     },
     {
+      "from": "person/arturo-bianchi",
+      "type": "created",
+      "to": "work/interno-bianchi-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/interno-bianchi-1891",
+      "derived": true
+    },
+    {
       "from": "person/pietro-fragiacomo",
       "type": "created",
       "to": "work/inverno-fragiacomo-1890",
@@ -63924,6 +64514,18 @@
       "derived": true
     },
     {
+      "from": "person/eugenio-pellini",
+      "type": "created",
+      "to": "work/la-piscinnina-pellini-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/la-piscinnina-pellini-1891",
+      "derived": true
+    },
+    {
       "from": "person/luigi-mion",
       "type": "created",
       "to": "work/la-prediletta-mion-1891",
@@ -64053,6 +64655,18 @@
       "from": "event/first-brera-triennale-1891",
       "type": "exhibited",
       "to": "work/la-traviata-marai-1891",
+      "derived": true
+    },
+    {
+      "from": "person/augusto-stoppoloni",
+      "type": "created",
+      "to": "work/la-treggia-stoppoloni-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/la-treggia-stoppoloni-1891",
       "derived": true
     },
     {
@@ -66963,6 +67577,18 @@
       "from": "event/first-brera-triennale-1891",
       "type": "exhibited",
       "to": "work/scarabocchione-pasini-1891",
+      "derived": true
+    },
+    {
+      "from": "person/arturo-bianchi",
+      "type": "created",
+      "to": "work/sei-studi-riuniti-bianchi-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/sei-studi-riuniti-bianchi-1891",
       "derived": true
     },
     {
