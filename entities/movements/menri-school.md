@@ -27,7 +27,8 @@ claims:
 space:
   - {role: originated_in, target: place/gyantse}
   - {role: active_in, target: place/shigatse}
-relations: []
+relations:
+  - {type: diffused_to, target: place/new-york-city, certainty: scholarly, source: "https://rubinmuseum.org/exhibitions/the-place-of-provenance/"}
 sources:
   - https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300018855
   - https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300018860
@@ -36,8 +37,9 @@ sources:
   - https://www.himalayanart.org/search/set.cfm?setID=11826
   - https://rubinmuseum.org/projecthimalayanart/glossary/menla-tradition/
   - https://rubinmuseum.org/projecthimalayanart/essays/murals-of-gongkar-chode/
+  - https://rubinmuseum.org/exhibitions/the-place-of-provenance/
 status: draft
-updated: 2026-08-09
+updated: 2026-08-12
 ---
 
 # メンリ派 / Menri school
@@ -197,6 +199,16 @@ Himalayan Art Resourcesは「メンリ様式はその創始画家の名にちな
 「タシルンポ・メンリ」の名の由来でもある（[New Menri](https://www.himalayanart.org/search/set.cfm?setID=250)）。
 その他の地域変種「ツァン・メンリ」「ウー・メンリ」が指すツァン地方・ウー地方の具体的な
 範囲は**未確認**のまま残す。
+
+## 国外での受容
+
+Rubin Museum of Artは、2012年10月〜2013年3月にニューヨークで開催した展覧会
+「The Place of Provenance: Regional Styles in Tibetan Painting」でメンリ派を明示的に扱い、
+同派を15世紀半ばにメンタンパが創始した様式として紹介している
+（[Rubin Museum of Art](https://rubinmuseum.org/exhibitions/the-place-of-provenance/)）。同館は、
+メンリ派の背景に中国風の山水が現れることも説明している。ここでの `diffused_to` は、15世紀の
+チベットからニューヨークへ画家や工房が移転したという意味ではなく、現代の展覧会・研究を通じて
+メンリ派の作品と知識が国外で受容された地点を記録するものである。
 
 ## 未着手
 
