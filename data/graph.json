@@ -9686,6 +9686,41 @@
       "updated": "2026-08-12",
       "path": "entities/persons/alexander-rodchenko.md"
     },
+    "person/andrea-malfatti": {
+      "id": "person/andrea-malfatti",
+      "uri": "urn:ahn:person/andrea-malfatti",
+      "type": "person",
+      "label_ja": "アンドレア・マルファッティ",
+      "label_en": "Andrea Malfatti",
+      "authority": {
+        "wikidata": "Q18507763",
+        "ulan": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": "1832-05-07",
+        "end": "1917-02-07",
+        "display": "1832年5月7日モーリ生まれ — 1917年2月7日トレント没"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://www.treccani.it/enciclopedia/andrea-malfatti_%28Dizionario-Biografico%29/",
+        "https://www.cultura.trentino.it/Approfondimenti/Immagini-della-Belle-Epoque",
+        "https://www.wikidata.org/wiki/Q18507763",
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/persons/andrea-malfatti.md"
+    },
     "person/angelo-morbelli": {
       "id": "person/angelo-morbelli",
       "uri": "urn:ahn:person/angelo-morbelli",
@@ -12896,6 +12931,39 @@
       "status": "draft",
       "updated": "2026-08-09",
       "path": "entities/persons/vincent-van-gogh.md"
+    },
+    "person/vincenzo-rossano": {
+      "id": "person/vincenzo-rossano",
+      "uri": "urn:ahn:person/vincenzo-rossano",
+      "type": "person",
+      "label_ja": "ヴィンチェンツォ・ロッサーノ",
+      "label_en": "Vincenzo Rossano",
+      "authority": {
+        "wikidata": null,
+        "ulan": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "独立した人物典拠IDは未確認。Dizionario d'Arte Sartoriと1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": null,
+        "end": null,
+        "display": "生没年未詳"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://dizionariodartesartori.it/artisti/rossano-vincenzo",
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/persons/vincenzo-rossano.md"
     },
     "person/vittore-grubicy-de-dragon": {
       "id": "person/vittore-grubicy-de-dragon",
@@ -19632,6 +19700,43 @@
       "updated": "2026-08-12",
       "path": "entities/works/la-nuit-sur-le-lac-fornara-1907.md"
     },
+    "work/la-pieta-malfatti-1891": {
+      "id": "work/la-pieta-malfatti-1891",
+      "uri": "urn:ahn:work/la-pieta-malfatti-1891",
+      "type": "work",
+      "label_ja": "アンドレア・マルファッティ《La Pietà》",
+      "label_en": "La Pietà",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "1891年展出品作としての独立典拠IDと現所在は未確認。公式カタログと人物典拠を用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年展出品"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/andrea-malfatti"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://www.treccani.it/enciclopedia/andrea-malfatti_%28Dizionario-Biografico%29/",
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/works/la-pieta-malfatti-1891.md"
+    },
     "work/la-piscininna-longoni-1891": {
       "id": "work/la-piscininna-longoni-1891",
       "uri": "urn:ahn:work/la-piscininna-longoni-1891",
@@ -24785,6 +24890,43 @@
       "updated": "2026-08-12",
       "path": "entities/works/tranquilite-lunaire-fornara-1907.md"
     },
+    "work/triste-ricordo-rossano-1891": {
+      "id": "work/triste-ricordo-rossano-1891",
+      "uri": "urn:ahn:work/triste-ricordo-rossano-1891",
+      "type": "work",
+      "label_ja": "ヴィンチェンツォ・ロッサーノ《Triste ricordo...》",
+      "label_en": "Triste ricordo...",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "1891年展出品作としての独立典拠IDと現所在は未確認。公式カタログと人物典拠を用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年展出品"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/vincenzo-rossano"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://dizionariodartesartori.it/artisti/rossano-vincenzo",
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/works/triste-ricordo-rossano-1891.md"
+    },
     "work/tristesse-d-hiver-fornara-1907": {
       "id": "work/tristesse-d-hiver-fornara-1907",
       "uri": "urn:ahn:work/tristesse-d-hiver-fornara-1907",
@@ -27460,6 +27602,13 @@
       "to": "place/moscow"
     },
     {
+      "from": "person/andrea-malfatti",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "person/angelo-morbelli",
       "type": "belongs_to",
       "to": "movement/italian-divisionism",
@@ -28149,6 +28298,13 @@
       "to": "movement/post-impressionism",
       "certainty": "scholarly",
       "source": "https://www.tate.org.uk/art/art-terms/p/post-impressionism"
+    },
+    {
+      "from": "person/vincenzo-rossano",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
     },
     {
       "from": "person/vittore-grubicy-de-dragon",
@@ -29716,6 +29872,20 @@
       "source": null
     },
     {
+      "from": "work/la-pieta-malfatti-1891",
+      "type": "created_by",
+      "to": "person/andrea-malfatti",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/la-pieta-malfatti-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "work/la-piscininna-longoni-1891",
       "type": "created_by",
       "to": "person/emilio-longoni",
@@ -31686,6 +31856,20 @@
       "from": "work/tranquilite-lunaire-fornara-1907",
       "type": "exhibited_at",
       "to": "event/salon-divisionnistes-italiens-paris-1907",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/triste-ricordo-rossano-1891",
+      "type": "created_by",
+      "to": "person/vincenzo-rossano",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/triste-ricordo-rossano-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
       "certainty": null,
       "source": null
     },
@@ -33078,6 +33262,12 @@
       "derived": true
     },
     {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "person/andrea-malfatti",
+      "derived": true
+    },
+    {
       "from": "movement/italian-divisionism",
       "type": "has_member",
       "to": "person/angelo-morbelli",
@@ -33573,6 +33763,12 @@
       "from": "movement/post-impressionism",
       "type": "groups",
       "to": "person/vincent-van-gogh",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "person/vincenzo-rossano",
       "derived": true
     },
     {
@@ -34893,6 +35089,18 @@
       "from": "event/salon-divisionnistes-italiens-paris-1907",
       "type": "exhibited",
       "to": "work/la-nuit-sur-le-lac-fornara-1907",
+      "derived": true
+    },
+    {
+      "from": "person/andrea-malfatti",
+      "type": "created",
+      "to": "work/la-pieta-malfatti-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/la-pieta-malfatti-1891",
       "derived": true
     },
     {
@@ -36585,6 +36793,18 @@
       "from": "event/salon-divisionnistes-italiens-paris-1907",
       "type": "exhibited",
       "to": "work/tranquilite-lunaire-fornara-1907",
+      "derived": true
+    },
+    {
+      "from": "person/vincenzo-rossano",
+      "type": "created",
+      "to": "work/triste-ricordo-rossano-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/triste-ricordo-rossano-1891",
       "derived": true
     },
     {
