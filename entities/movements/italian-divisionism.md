@@ -29,6 +29,8 @@ space:
   - {role: originated_in, target: place/milan}
 relations:
   - {type: part_of, target: concept/divisionism}
+  - {type: exhibited_at, target: event/first-brera-triennale-1891, certainty: scholarly, source: "https://collezionedarte.bancaditalia.it/web/guest/-/divisionismo-1"}
+  - {type: exhibited_at, target: event/salon-divisionnistes-italiens-paris-1907, certainty: scholarly, source: "https://exhibitions.univie.ac.at/exhibition/125"}
   - {type: influenced_by, target: movement/neo-impressionism, certainty: scholarly, source: "https://www.treccani.it/enciclopedia/divisionismo/"}
   - {type: diffused_to, target: place/london, certainty: scholarly, source: "https://www.mart.tn.it/en/mostre/vittore-grubicy-and-europe-at-the-roots-of-divisionism-138656"}
   - {type: diffused_to, target: place/paris, certainty: scholarly, source: "https://www.mart.tn.it/en/mostre/vittore-grubicy-and-europe-at-the-roots-of-divisionism-138656"}

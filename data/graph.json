@@ -4426,6 +4426,18 @@
           "target": "concept/divisionism"
         },
         {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891",
+          "certainty": "scholarly",
+          "source": "https://collezionedarte.bancaditalia.it/web/guest/-/divisionismo-1"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/salon-divisionnistes-italiens-paris-1907",
+          "certainty": "scholarly",
+          "source": "https://exhibitions.univie.ac.at/exhibition/125"
+        },
+        {
           "type": "influenced_by",
           "target": "movement/neo-impressionism",
           "certainty": "scholarly",
@@ -23509,6 +23521,20 @@
     },
     {
       "from": "movement/italian-divisionism",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": "scholarly",
+      "source": "https://collezionedarte.bancaditalia.it/web/guest/-/divisionismo-1"
+    },
+    {
+      "from": "movement/italian-divisionism",
+      "type": "exhibited_at",
+      "to": "event/salon-divisionnistes-italiens-paris-1907",
+      "certainty": "scholarly",
+      "source": "https://exhibitions.univie.ac.at/exhibition/125"
+    },
+    {
+      "from": "movement/italian-divisionism",
       "type": "influenced_by",
       "to": "movement/neo-impressionism",
       "certainty": "scholarly",
@@ -28601,6 +28627,18 @@
     {
       "from": "concept/divisionism",
       "type": "has_part",
+      "to": "movement/italian-divisionism",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "movement/italian-divisionism",
+      "derived": true
+    },
+    {
+      "from": "event/salon-divisionnistes-italiens-paris-1907",
+      "type": "exhibited",
       "to": "movement/italian-divisionism",
       "derived": true
     },
