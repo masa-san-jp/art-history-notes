@@ -1,9 +1,9 @@
 ---
-id: person/silvio-poma
-uri: urn:ahn:person/silvio-poma
+id: person/enrico-bartezago
+uri: urn:ahn:person/enrico-bartezago
 type: person
-label_ja: シルヴィオ・ポマ
-label_en: Silvio Poma
+label_ja: エンリコ・バルテザーゴ
+label_en: Enrico Bartezago
 authority:
   wikidata: null
   ulan: null
@@ -23,6 +23,6 @@ status: draft
 updated: 2026-08-13
 ---
 
-# シルヴィオ・ポマ / Silvio Poma
+# エンリコ・バルテザーゴ / Enrico Bartezago
 
-1891年の第一回ブレラ三年展公式カタログに、ミラノ出身者として掲載される画家。520番《Lago di Lecco》と532番《La questua. - Cortile a Cargiago》を出品した。本項は展覧会記録に限定する。
+1891年の第一回ブレラ三年展公式カタログに、ミラノ出身者として掲載される画家。528番《Sul campo del lavoro》を出品した。本項は展覧会記録に限定する。
