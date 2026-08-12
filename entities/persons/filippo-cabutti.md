@@ -27,4 +27,4 @@ updated: 2026-08-13
 
 # フィリッポ・カブッティ / Filippo Cabutti
 
-1891年の第一回ブレラ三年展公式カタログに、ボッソラスコ出身者として掲載される出品者。448番《Sorrisi d’autunno》を出品した。本項は展覧会記録に限定する。
+1891年の第一回ブレラ三年展公式カタログに、ボッソラスコ出身者として掲載される出品者。448番《Sorrisi d’autunno》、581番《Ultimi raggi nella valletta in Febbraio》を出品した。本項は展覧会記録に限定する。
