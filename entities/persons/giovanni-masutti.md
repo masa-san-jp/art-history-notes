@@ -1,11 +1,11 @@
 ---
-id: person/eugenio-ravioli
-uri: urn:ahn:person/eugenio-ravioli
+id: person/giovanni-masutti
+uri: urn:ahn:person/giovanni-masutti
 type: person
-label_ja: エウジェニオ・ラヴィオーリ
-label_en: Eugenio Ravioli
+label_ja: ジョヴァンニ・マスッティ
+label_en: Giovanni Masutti
 aliases:
-  - Ravioli Eugenio
+  - Masutti Giovanni
 authority:
   wikidata: null
   ulan: null
@@ -15,7 +15,7 @@ authority:
 time:
   start: null
   end: null
-  display: "19世紀末にローマ出身者として活動"
+  display: "19世紀末にウーディネ出身者として活動"
 space: []
 relations:
   - {type: exhibited_at, target: event/first-brera-triennale-1891}
@@ -25,6 +25,6 @@ status: draft
 updated: 2026-08-12
 ---
 
-# エウジェニオ・ラヴィオーリ / Eugenio Ravioli
+# ジョヴァンニ・マスッティ / Giovanni Masutti
 
-1891年の第一回ブレラ三年展公式カタログに、ローマ出身者として掲載される出品者。264番・268番・272番の《Fiori》を出品した。本項は展覧会記録に限定する。
+1891年の第一回ブレラ三年展公式カタログに、ウーディネ出身者として掲載される出品者。本項は展覧会記録に限定する。

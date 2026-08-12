@@ -11987,6 +11987,41 @@
       "updated": "2026-08-12",
       "path": "entities/persons/el-lissitzky.md"
     },
+    "person/eleuterio-pagliano": {
+      "id": "person/eleuterio-pagliano",
+      "uri": "urn:ahn:person/eleuterio-pagliano",
+      "type": "person",
+      "label_ja": "エレウテリオ・パリアーノ",
+      "label_en": "Eleuterio Pagliano",
+      "aliases": [
+        "Pagliano Eleuterio"
+      ],
+      "authority": {
+        "wikidata": null,
+        "ulan": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "独立した人物典拠IDと生没年は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": null,
+        "end": null,
+        "display": "19世紀末にカザーレ・モンフェッラート出身者として活動"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/persons/eleuterio-pagliano.md"
+    },
     "person/elisa-foulques": {
       "id": "person/elisa-foulques",
       "uri": "urn:ahn:person/elisa-foulques",
@@ -12220,6 +12255,41 @@
       "status": "draft",
       "updated": "2026-08-12",
       "path": "entities/persons/emilio-marsili.md"
+    },
+    "person/empedocle-ximenes": {
+      "id": "person/empedocle-ximenes",
+      "uri": "urn:ahn:person/empedocle-ximenes",
+      "type": "person",
+      "label_ja": "エンペドクレ・ヒメネス",
+      "label_en": "Empedocle Ximenes",
+      "aliases": [
+        "Ximenes Empedocle"
+      ],
+      "authority": {
+        "wikidata": null,
+        "ulan": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "独立した人物典拠IDと生没年は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": null,
+        "end": null,
+        "display": "19世紀末にパレルモ出身者として活動"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/persons/empedocle-ximenes.md"
     },
     "person/enrico-astorri": {
       "id": "person/enrico-astorri",
@@ -13978,6 +14048,41 @@
       "status": "draft",
       "updated": "2026-08-12",
       "path": "entities/persons/giovanni-giani.md"
+    },
+    "person/giovanni-masutti": {
+      "id": "person/giovanni-masutti",
+      "uri": "urn:ahn:person/giovanni-masutti",
+      "type": "person",
+      "label_ja": "ジョヴァンニ・マスッティ",
+      "label_en": "Giovanni Masutti",
+      "aliases": [
+        "Masutti Giovanni"
+      ],
+      "authority": {
+        "wikidata": null,
+        "ulan": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "独立した人物典拠IDと生没年は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": null,
+        "end": null,
+        "display": "19世紀末にウーディネ出身者として活動"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/persons/giovanni-masutti.md"
     },
     "person/giovanni-mayer": {
       "id": "person/giovanni-mayer",
@@ -17244,6 +17349,41 @@
       "status": "stub",
       "updated": "2026-08-09",
       "path": "entities/persons/shakir-hassan-al-said.md"
+    },
+    "person/sofia-di-bricherasio": {
+      "id": "person/sofia-di-bricherasio",
+      "uri": "urn:ahn:person/sofia-di-bricherasio",
+      "type": "person",
+      "label_ja": "ソフィア・ディ・ブリケラージオ",
+      "label_en": "Sofia di Bricherasio",
+      "aliases": [
+        "Di Bricherasio Sofia"
+      ],
+      "authority": {
+        "wikidata": null,
+        "ulan": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "独立した人物典拠IDと生没年は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": null,
+        "end": null,
+        "display": "19世紀末にトリノで活動"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/persons/sofia-di-bricherasio.md"
     },
     "person/spartaco-vela": {
       "id": "person/spartaco-vela",
@@ -21240,6 +21380,42 @@
       "updated": "2026-08-12",
       "path": "entities/works/anche-oggi-si-mangia-salvini-1891.md"
     },
+    "work/angurie-ximenes-1891": {
+      "id": "work/angurie-ximenes-1891",
+      "uri": "urn:ahn:work/angurie-ximenes-1891",
+      "type": "work",
+      "label_ja": "エンペドクレ・ヒメネス《Angurie》",
+      "label_en": "Angurie",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "作品の独立典拠IDと現所在は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年（1891年展カタログ274番）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/empedocle-ximenes"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/works/angurie-ximenes-1891.md"
+    },
     "work/apres-midi-d-octobre-fornara-1907": {
       "id": "work/apres-midi-d-octobre-fornara-1907",
       "uri": "urn:ahn:work/apres-midi-d-octobre-fornara-1907",
@@ -23028,6 +23204,42 @@
       "updated": "2026-08-12",
       "path": "entities/works/crisantemi-cattaneo-1891.md"
     },
+    "work/crisantemi-masutti-1891": {
+      "id": "work/crisantemi-masutti-1891",
+      "uri": "urn:ahn:work/crisantemi-masutti-1891",
+      "type": "work",
+      "label_ja": "ジョヴァンニ・マスッティ《Crisantemi》",
+      "label_en": "Crisantemi",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "作品の独立典拠IDと現所在は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年（1891年展カタログ273番）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/giovanni-masutti"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/works/crisantemi-masutti-1891.md"
+    },
     "work/d-apres-une-legende-des-alpes-fornara-1907": {
       "id": "work/d-apres-une-legende-des-alpes-fornara-1907",
       "uri": "urn:ahn:work/d-apres-une-legende-des-alpes-fornara-1907",
@@ -24727,6 +24939,42 @@
       "updated": "2026-08-12",
       "path": "entities/works/fiori-galbusera-1891.md"
     },
+    "work/fiori-grossi-1891-no275": {
+      "id": "work/fiori-grossi-1891-no275",
+      "uri": "urn:ahn:work/fiori-grossi-1891-no275",
+      "type": "work",
+      "label_ja": "カルロ・グロッシ《Fiori》",
+      "label_en": "Fiori",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "作品の独立典拠IDと現所在は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年（1891年展カタログ275番）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/carlo-grossi"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/works/fiori-grossi-1891-no275.md"
+    },
     "work/fiori-grossi-1891": {
       "id": "work/fiori-grossi-1891",
       "uri": "urn:ahn:work/fiori-grossi-1891",
@@ -24835,6 +25083,42 @@
       "updated": "2026-08-12",
       "path": "entities/works/fiori-marchionni-1891-no270.md"
     },
+    "work/fiori-marchionni-1891-no271": {
+      "id": "work/fiori-marchionni-1891-no271",
+      "uri": "urn:ahn:work/fiori-marchionni-1891-no271",
+      "type": "work",
+      "label_ja": "エドゥアルド・マルキオンニ《Fiori》",
+      "label_en": "Fiori",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "作品の独立典拠IDと現所在は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年（1891年展カタログ271番）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/eduardo-marchionni"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/works/fiori-marchionni-1891-no271.md"
+    },
     "work/fiori-ravioli-1891-no264": {
       "id": "work/fiori-ravioli-1891-no264",
       "uri": "urn:ahn:work/fiori-ravioli-1891-no264",
@@ -24906,6 +25190,42 @@
       "status": "draft",
       "updated": "2026-08-12",
       "path": "entities/works/fiori-ravioli-1891-no268.md"
+    },
+    "work/fiori-ravioli-1891-no272": {
+      "id": "work/fiori-ravioli-1891-no272",
+      "uri": "urn:ahn:work/fiori-ravioli-1891-no272",
+      "type": "work",
+      "label_ja": "エウジェニオ・ラヴィオーリ《Fiori》",
+      "label_en": "Fiori",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "作品の独立典拠IDと現所在は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年（1891年展カタログ272番）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/eugenio-ravioli"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/works/fiori-ravioli-1891-no272.md"
     },
     "work/fleurs-previati-1907": {
       "id": "work/fleurs-previati-1907",
@@ -29003,6 +29323,42 @@
       "status": "draft",
       "updated": "2026-08-12",
       "path": "entities/works/labour-magrini-1907.md"
+    },
+    "work/lago-d-azeglio-di-bricherasio-1891": {
+      "id": "work/lago-d-azeglio-di-bricherasio-1891",
+      "uri": "urn:ahn:work/lago-d-azeglio-di-bricherasio-1891",
+      "type": "work",
+      "label_ja": "ソフィア・ディ・ブリケラージオ《Lago d’Azeglio》",
+      "label_en": "Lago d’Azeglio",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "作品の独立典拠IDと現所在は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年（1891年展カタログ276番）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/sofia-di-bricherasio"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/works/lago-d-azeglio-di-bricherasio-1891.md"
     },
     "work/le-calvaire-previati-1907": {
       "id": "work/le-calvaire-previati-1907",
@@ -34894,6 +35250,78 @@
       "updated": "2026-08-12",
       "path": "entities/works/ritratto-del-bo-1891.md"
     },
+    "work/ritratto-del-defunto-cav-pietro-pedoni-pagliano-1891": {
+      "id": "work/ritratto-del-defunto-cav-pietro-pedoni-pagliano-1891",
+      "uri": "urn:ahn:work/ritratto-del-defunto-cav-pietro-pedoni-pagliano-1891",
+      "type": "work",
+      "label_ja": "エレウテリオ・パリアーノ《Ritratto del defunto Cav. Pietro Pedoni, già Sindaco di Meina》",
+      "label_en": "Ritratto del defunto Cav. Pietro Pedoni, già Sindaco di Meina",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "作品の独立典拠IDと現所在は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年（1891年展カタログ280番）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/eleuterio-pagliano"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/works/ritratto-del-defunto-cav-pietro-pedoni-pagliano-1891.md"
+    },
+    "work/ritratto-della-signora-bonacossa-pagliano-1891": {
+      "id": "work/ritratto-della-signora-bonacossa-pagliano-1891",
+      "uri": "urn:ahn:work/ritratto-della-signora-bonacossa-pagliano-1891",
+      "type": "work",
+      "label_ja": "エレウテリオ・パリアーノ《Ritratto della Signora Bonacossa》",
+      "label_en": "Ritratto della Signora Bonacossa",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "作品の独立典拠IDと現所在は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年（1891年展カタログ278番）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/eleuterio-pagliano"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/works/ritratto-della-signora-bonacossa-pagliano-1891.md"
+    },
     "work/ritratto-di-giani-giuseppe-pellizza-1891": {
       "id": "work/ritratto-di-giani-giuseppe-pellizza-1891",
       "uri": "urn:ahn:work/ritratto-di-giani-giuseppe-pellizza-1891",
@@ -37469,6 +37897,42 @@
       "updated": "2026-08-12",
       "path": "entities/works/truie-magrini-1907.md"
     },
+    "work/ultime-tristezze-di-bricherasio-1891": {
+      "id": "work/ultime-tristezze-di-bricherasio-1891",
+      "uri": "urn:ahn:work/ultime-tristezze-di-bricherasio-1891",
+      "type": "work",
+      "label_ja": "ソフィア・ディ・ブリケラージオ《Ultime Tristezze》",
+      "label_en": "Ultime Tristezze",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "作品の独立典拠IDと現所在は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年（1891年展カタログ277番）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/sofia-di-bricherasio"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/works/ultime-tristezze-di-bricherasio-1891.md"
+    },
     "work/ultimi-raggi-tominetti-1891": {
       "id": "work/ultimi-raggi-tominetti-1891",
       "uri": "urn:ahn:work/ultimi-raggi-tominetti-1891",
@@ -38257,6 +38721,42 @@
       "status": "draft",
       "updated": "2026-08-12",
       "path": "entities/works/vinto-guidetti-1891.md"
+    },
+    "work/zeusi-e-le-donzelle-di-crotona-pagliano-1891": {
+      "id": "work/zeusi-e-le-donzelle-di-crotona-pagliano-1891",
+      "uri": "urn:ahn:work/zeusi-e-le-donzelle-di-crotona-pagliano-1891",
+      "type": "work",
+      "label_ja": "エレウテリオ・パリアーノ《Zeusi e le donzelle di Crotona》",
+      "label_en": "Zeusi e le donzelle di Crotona",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "作品の独立典拠IDと現所在は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年（1891年展カタログ279番）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/eleuterio-pagliano"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/works/zeusi-e-le-donzelle-di-crotona-pagliano-1891.md"
     },
     "work/zinevonein-arcaini-1891": {
       "id": "work/zinevonein-arcaini-1891",
@@ -40814,6 +41314,13 @@
       "to": "place/berlin"
     },
     {
+      "from": "person/eleuterio-pagliano",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "person/elisa-foulques",
       "type": "exhibited_at",
       "to": "event/first-brera-triennale-1891",
@@ -40864,6 +41371,13 @@
     },
     {
       "from": "person/emilio-marsili",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "person/empedocle-ximenes",
       "type": "exhibited_at",
       "to": "event/first-brera-triennale-1891",
       "certainty": null,
@@ -41250,6 +41764,13 @@
     },
     {
       "from": "person/giovanni-giani",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "person/giovanni-masutti",
       "type": "exhibited_at",
       "to": "event/first-brera-triennale-1891",
       "certainty": null,
@@ -41906,6 +42427,13 @@
       "to": "place/milan"
     },
     {
+      "from": "person/sofia-di-bricherasio",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "person/spartaco-vela",
       "type": "exhibited_at",
       "to": "event/first-brera-triennale-1891",
@@ -42303,6 +42831,20 @@
     },
     {
       "from": "work/anche-oggi-si-mangia-salvini-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/angurie-ximenes-1891",
+      "type": "created_by",
+      "to": "person/empedocle-ximenes",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/angurie-ximenes-1891",
       "type": "exhibited_at",
       "to": "event/first-brera-triennale-1891",
       "certainty": null,
@@ -43005,6 +43547,20 @@
       "source": null
     },
     {
+      "from": "work/crisantemi-masutti-1891",
+      "type": "created_by",
+      "to": "person/giovanni-masutti",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/crisantemi-masutti-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "work/d-apres-une-legende-des-alpes-fornara-1907",
       "type": "created_by",
       "to": "person/carlo-fornara",
@@ -43649,6 +44205,20 @@
       "source": null
     },
     {
+      "from": "work/fiori-grossi-1891-no275",
+      "type": "created_by",
+      "to": "person/carlo-grossi",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/fiori-grossi-1891-no275",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "work/fiori-grossi-1891",
       "type": "created_by",
       "to": "person/carlo-grossi",
@@ -43691,6 +44261,20 @@
       "source": null
     },
     {
+      "from": "work/fiori-marchionni-1891-no271",
+      "type": "created_by",
+      "to": "person/eduardo-marchionni",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/fiori-marchionni-1891-no271",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "work/fiori-ravioli-1891-no264",
       "type": "created_by",
       "to": "person/eugenio-ravioli",
@@ -43713,6 +44297,20 @@
     },
     {
       "from": "work/fiori-ravioli-1891-no268",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/fiori-ravioli-1891-no272",
+      "type": "created_by",
+      "to": "person/eugenio-ravioli",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/fiori-ravioli-1891-no272",
       "type": "exhibited_at",
       "to": "event/first-brera-triennale-1891",
       "certainty": null,
@@ -45283,6 +45881,20 @@
       "from": "work/labour-magrini-1907",
       "type": "exhibited_at",
       "to": "event/salon-divisionnistes-italiens-paris-1907",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/lago-d-azeglio-di-bricherasio-1891",
+      "type": "created_by",
+      "to": "person/sofia-di-bricherasio",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/lago-d-azeglio-di-bricherasio-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
       "certainty": null,
       "source": null
     },
@@ -47548,6 +48160,34 @@
       "source": null
     },
     {
+      "from": "work/ritratto-del-defunto-cav-pietro-pedoni-pagliano-1891",
+      "type": "created_by",
+      "to": "person/eleuterio-pagliano",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/ritratto-del-defunto-cav-pietro-pedoni-pagliano-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/ritratto-della-signora-bonacossa-pagliano-1891",
+      "type": "created_by",
+      "to": "person/eleuterio-pagliano",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/ritratto-della-signora-bonacossa-pagliano-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "work/ritratto-di-giani-giuseppe-pellizza-1891",
       "type": "created_by",
       "to": "person/giuseppe-pellizza-da-volpedo",
@@ -48528,6 +49168,20 @@
       "source": null
     },
     {
+      "from": "work/ultime-tristezze-di-bricherasio-1891",
+      "type": "created_by",
+      "to": "person/sofia-di-bricherasio",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/ultime-tristezze-di-bricherasio-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "work/ultimi-raggi-tominetti-1891",
       "type": "created_by",
       "to": "person/achille-tominetti",
@@ -48830,6 +49484,20 @@
     },
     {
       "from": "work/vinto-guidetti-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/zeusi-e-le-donzelle-di-crotona-pagliano-1891",
+      "type": "created_by",
+      "to": "person/eleuterio-pagliano",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/zeusi-e-le-donzelle-di-crotona-pagliano-1891",
       "type": "exhibited_at",
       "to": "event/first-brera-triennale-1891",
       "certainty": null,
@@ -50400,6 +51068,12 @@
     {
       "from": "event/first-brera-triennale-1891",
       "type": "exhibited",
+      "to": "person/eleuterio-pagliano",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
       "to": "person/elisa-foulques",
       "derived": true
     },
@@ -50443,6 +51117,12 @@
       "from": "event/first-brera-triennale-1891",
       "type": "exhibited",
       "to": "person/emilio-marsili",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "person/empedocle-ximenes",
       "derived": true
     },
     {
@@ -50761,6 +51441,12 @@
       "from": "event/first-brera-triennale-1891",
       "type": "exhibited",
       "to": "person/giovanni-giani",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "person/giovanni-masutti",
       "derived": true
     },
     {
@@ -51276,6 +51962,12 @@
     {
       "from": "event/first-brera-triennale-1891",
       "type": "exhibited",
+      "to": "person/sofia-di-bricherasio",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
       "to": "person/spartaco-vela",
       "derived": true
     },
@@ -51595,6 +52287,18 @@
       "from": "event/first-brera-triennale-1891",
       "type": "exhibited",
       "to": "work/anche-oggi-si-mangia-salvini-1891",
+      "derived": true
+    },
+    {
+      "from": "person/empedocle-ximenes",
+      "type": "created",
+      "to": "work/angurie-ximenes-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/angurie-ximenes-1891",
       "derived": true
     },
     {
@@ -52186,6 +52890,18 @@
       "derived": true
     },
     {
+      "from": "person/giovanni-masutti",
+      "type": "created",
+      "to": "work/crisantemi-masutti-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/crisantemi-masutti-1891",
+      "derived": true
+    },
+    {
       "from": "person/carlo-fornara",
       "type": "created",
       "to": "work/d-apres-une-legende-des-alpes-fornara-1907",
@@ -52740,6 +53456,18 @@
     {
       "from": "person/carlo-grossi",
       "type": "created",
+      "to": "work/fiori-grossi-1891-no275",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/fiori-grossi-1891-no275",
+      "derived": true
+    },
+    {
+      "from": "person/carlo-grossi",
+      "type": "created",
       "to": "work/fiori-grossi-1891",
       "derived": true
     },
@@ -52774,6 +53502,18 @@
       "derived": true
     },
     {
+      "from": "person/eduardo-marchionni",
+      "type": "created",
+      "to": "work/fiori-marchionni-1891-no271",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/fiori-marchionni-1891-no271",
+      "derived": true
+    },
+    {
       "from": "person/eugenio-ravioli",
       "type": "created",
       "to": "work/fiori-ravioli-1891-no264",
@@ -52795,6 +53535,18 @@
       "from": "event/first-brera-triennale-1891",
       "type": "exhibited",
       "to": "work/fiori-ravioli-1891-no268",
+      "derived": true
+    },
+    {
+      "from": "person/eugenio-ravioli",
+      "type": "created",
+      "to": "work/fiori-ravioli-1891-no272",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/fiori-ravioli-1891-no272",
       "derived": true
     },
     {
@@ -54139,6 +54891,18 @@
       "from": "event/salon-divisionnistes-italiens-paris-1907",
       "type": "exhibited",
       "to": "work/labour-magrini-1907",
+      "derived": true
+    },
+    {
+      "from": "person/sofia-di-bricherasio",
+      "type": "created",
+      "to": "work/lago-d-azeglio-di-bricherasio-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/lago-d-azeglio-di-bricherasio-1891",
       "derived": true
     },
     {
@@ -56080,6 +56844,30 @@
       "derived": true
     },
     {
+      "from": "person/eleuterio-pagliano",
+      "type": "created",
+      "to": "work/ritratto-del-defunto-cav-pietro-pedoni-pagliano-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/ritratto-del-defunto-cav-pietro-pedoni-pagliano-1891",
+      "derived": true
+    },
+    {
+      "from": "person/eleuterio-pagliano",
+      "type": "created",
+      "to": "work/ritratto-della-signora-bonacossa-pagliano-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/ritratto-della-signora-bonacossa-pagliano-1891",
+      "derived": true
+    },
+    {
       "from": "person/giuseppe-pellizza-da-volpedo",
       "type": "created",
       "to": "work/ritratto-di-giani-giuseppe-pellizza-1891",
@@ -56920,6 +57708,18 @@
       "derived": true
     },
     {
+      "from": "person/sofia-di-bricherasio",
+      "type": "created",
+      "to": "work/ultime-tristezze-di-bricherasio-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/ultime-tristezze-di-bricherasio-1891",
+      "derived": true
+    },
+    {
       "from": "person/achille-tominetti",
       "type": "created",
       "to": "work/ultimi-raggi-tominetti-1891",
@@ -57181,6 +57981,18 @@
       "from": "event/first-brera-triennale-1891",
       "type": "exhibited",
       "to": "work/vinto-guidetti-1891",
+      "derived": true
+    },
+    {
+      "from": "person/eleuterio-pagliano",
+      "type": "created",
+      "to": "work/zeusi-e-le-donzelle-di-crotona-pagliano-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/zeusi-e-le-donzelle-di-crotona-pagliano-1891",
       "derived": true
     },
     {
