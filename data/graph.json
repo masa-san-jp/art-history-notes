@@ -607,6 +607,12 @@
           "target": "movement/arts-and-crafts",
           "certainty": "scholarly",
           "source": "https://www.metmuseum.org/es/essays/nineteenth-century-european-textile-production"
+        },
+        {
+          "type": "influenced_by",
+          "target": "movement/rinpa",
+          "certainty": "scholarly",
+          "source": "https://www.ndl.go.jp/kaleido/entry/20/3.html"
         }
       ],
       "sources": [
@@ -614,7 +620,8 @@
         "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300021430",
         "https://www.vam.ac.uk/articles/art-nouveau-an-international-style",
         "https://www.metmuseum.org/ja/essays/art-nouveau",
-        "https://www.metmuseum.org/es/essays/nineteenth-century-european-textile-production"
+        "https://www.metmuseum.org/es/essays/nineteenth-century-european-textile-production",
+        "https://www.ndl.go.jp/kaleido/entry/20/3.html"
       ],
       "status": "draft",
       "updated": "2026-08-12",
@@ -13327,6 +13334,13 @@
     },
     {
       "from": "movement/art-nouveau",
+      "type": "influenced_by",
+      "to": "movement/rinpa",
+      "certainty": "scholarly",
+      "source": "https://www.ndl.go.jp/kaleido/entry/20/3.html"
+    },
+    {
+      "from": "movement/art-nouveau",
       "type": "originated_in",
       "to": "place/brussels"
     },
@@ -15187,6 +15201,12 @@
     },
     {
       "from": "movement/arts-and-crafts",
+      "type": "influenced",
+      "to": "movement/art-nouveau",
+      "derived": true
+    },
+    {
+      "from": "movement/rinpa",
       "type": "influenced",
       "to": "movement/art-nouveau",
       "derived": true
