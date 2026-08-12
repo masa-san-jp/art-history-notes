@@ -28,4 +28,4 @@ updated: 2026-08-13
 
 # ガエターノ・カポーネ / Gaetano Capone
 
-1891年の第一回ブレラ三年展公式カタログに、マイオーリ出身者として掲載される出品者。377番《Passe par tout》、378番《Il venditore di statuette》を出品した。本項は展覧会記録に限定する。
+1891年の第一回ブレラ三年展公式カタログに、マイオーリ出身者として掲載される出品者。377番《Passe par tout》、378番《Il venditore di statuette》、383番《La spiaggia di Maiori durante l’imbarco dei limoni》を出品した。本項は展覧会記録に限定する。
