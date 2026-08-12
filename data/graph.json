@@ -9834,6 +9834,40 @@
       "updated": "2026-08-12",
       "path": "entities/persons/arnaldo-ferraguti.md"
     },
+    "person/attilio-ferri": {
+      "id": "person/attilio-ferri",
+      "uri": "urn:ahn:person/attilio-ferri",
+      "type": "person",
+      "label_ja": "アッティリオ・フェッリ",
+      "label_en": "Attilio Ferri",
+      "authority": {
+        "wikidata": null,
+        "ulan": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "独立した人物典拠IDと生没年は未確認。ロンバルディア文化財カタログ、1881年資料、1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": null,
+        "end": null,
+        "display": "19世紀後半に活動"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://www.catalogo.beniculturali.it/detail/Lombardia/HistoricOrArtisticProperty/5u050-00197_R03",
+        "https://upload.wikimedia.org/wikipedia/commons/c/c5/Esposizione_delle_opere_di_belle_arti_nel_Palazzo_di_Brera_-_Anno_1879_%28IA_esposizionedelle00real%29.pdf",
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/persons/attilio-ferri.md"
+    },
     "person/attilio-pusterla": {
       "id": "person/attilio-pusterla",
       "uri": "urn:ahn:person/attilio-pusterla",
@@ -10213,6 +10247,40 @@
       "status": "draft",
       "updated": "2026-08-12",
       "path": "entities/persons/davide-calandra.md"
+    },
+    "person/domenico-ferri": {
+      "id": "person/domenico-ferri",
+      "uri": "urn:ahn:person/domenico-ferri",
+      "type": "person",
+      "label_ja": "ドメニコ・フェッリ",
+      "label_en": "Domenico Ferri",
+      "authority": {
+        "wikidata": null,
+        "ulan": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "独立した人物典拠IDは未確認。Treccani、ガレリア・レクタ、1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": "1857",
+        "end": "1940",
+        "display": "1857年4月22日カステル・ディ・ラーマ生まれ — 1940年ボローニャ没"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://www.treccani.it/enciclopedia/domenico-ferri_res-186e4180-87ed-11dc-8e9d-0016357eee51_%28Dizionario-Biografico%29/",
+        "https://www.galleriarecta.it/autore/ferrri-domenico/",
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/persons/domenico-ferri.md"
     },
     "person/domenico-ghidoni": {
       "id": "person/domenico-ghidoni",
@@ -12030,6 +12098,40 @@
       "status": "draft",
       "updated": "2026-08-12",
       "path": "entities/persons/lorenzo-delleani.md"
+    },
+    "person/lorenzo-weiss": {
+      "id": "person/lorenzo-weiss",
+      "uri": "urn:ahn:person/lorenzo-weiss",
+      "type": "person",
+      "label_ja": "ロレンツォ・ヴァイス",
+      "label_en": "Lorenzo Weiss",
+      "authority": {
+        "wikidata": null,
+        "ulan": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "画家としての独立した人物典拠IDと生没年は未確認。トレンティーノ文化資料と1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": null,
+        "end": null,
+        "display": "19世紀後半にトレント出身者として活動"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://www.cultura.trentino.it/Fotografia-Storica/RITRATTO-MEZZOBUSTO-DI-LORENZO-WEISS",
+        "https://www.cultura.trentino.it/layout/set/print/Fotografia-Storica/%28offset%29/23060",
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/persons/lorenzo-weiss.md"
     },
     "person/louis-leroy": {
       "id": "person/louis-leroy",
@@ -16725,6 +16827,43 @@
       "updated": "2026-08-12",
       "path": "entities/works/bouc-magrini-1907.md"
     },
+    "work/brumaio-ferri-1891": {
+      "id": "work/brumaio-ferri-1891",
+      "uri": "urn:ahn:work/brumaio-ferri-1891",
+      "type": "work",
+      "label_ja": "ドメニコ・フェッリ《Brumaio》",
+      "label_en": "Brumaio",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "1891年展出品作としての独立典拠IDと現所在は未確認。公式カタログと人物典拠を用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年展出品"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/domenico-ferri"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://www.treccani.it/enciclopedia/domenico-ferri_res-186e4180-87ed-11dc-8e9d-0016357eee51_%28Dizionario-Biografico%29/",
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/works/brumaio-ferri-1891.md"
+    },
     "work/caccia-furtiva-calandra-1891": {
       "id": "work/caccia-furtiva-calandra-1891",
       "uri": "urn:ahn:work/caccia-furtiva-calandra-1891",
@@ -19743,6 +19882,43 @@
       "updated": "2026-08-12",
       "path": "entities/works/l-ignavia-alberti-1891.md"
     },
+    "work/l-onda-ferri-1891": {
+      "id": "work/l-onda-ferri-1891",
+      "uri": "urn:ahn:work/l-onda-ferri-1891",
+      "type": "work",
+      "label_ja": "アッティリオ・フェッリ《L’onda》",
+      "label_en": "L’onda",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "1891年展出品作としての独立典拠IDと現所在は未確認。公式カタログと人物典拠を用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年展出品"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/attilio-ferri"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://www.catalogo.beniculturali.it/detail/Lombardia/HistoricOrArtisticProperty/5u050-00197_R03",
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/works/l-onda-ferri-1891.md"
+    },
     "work/l-oratore-dello-sciopero-longoni-1891": {
       "id": "work/l-oratore-dello-sciopero-longoni-1891",
       "uri": "urn:ahn:work/l-oratore-dello-sciopero-longoni-1891",
@@ -19935,6 +20111,43 @@
       "status": "draft",
       "updated": "2026-08-12",
       "path": "entities/works/la-lutte-pour-la-vie-magrini-1907.md"
+    },
+    "work/la-mancia-ai-concertisti-ferri-1891": {
+      "id": "work/la-mancia-ai-concertisti-ferri-1891",
+      "uri": "urn:ahn:work/la-mancia-ai-concertisti-ferri-1891",
+      "type": "work",
+      "label_ja": "ドメニコ・フェッリ《La mancia ai concertisti》",
+      "label_en": "La mancia ai concertisti",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "1891年展出品作としての独立典拠IDと現所在は未確認。公式カタログと人物典拠を用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年展出品"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/domenico-ferri"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://www.treccani.it/enciclopedia/domenico-ferri_res-186e4180-87ed-11dc-8e9d-0016357eee51_%28Dizionario-Biografico%29/",
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/works/la-mancia-ai-concertisti-ferri-1891.md"
     },
     "work/la-mort-segantini-1907": {
       "id": "work/la-mort-segantini-1907",
@@ -22886,6 +23099,43 @@
       "updated": "2026-08-12",
       "path": "entities/works/paesaggio-studio-merello-1907.md"
     },
+    "work/paradiso-terrestre-ferri-1891": {
+      "id": "work/paradiso-terrestre-ferri-1891",
+      "uri": "urn:ahn:work/paradiso-terrestre-ferri-1891",
+      "type": "work",
+      "label_ja": "ドメニコ・フェッリ《Paradiso Terrestre》",
+      "label_en": "Paradiso Terrestre",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "1891年展出品作としての独立典拠IDと現所在は未確認。公式カタログと人物典拠を用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年展出品"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/domenico-ferri"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://www.treccani.it/enciclopedia/domenico-ferri_res-186e4180-87ed-11dc-8e9d-0016357eee51_%28Dizionario-Biografico%29/",
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/works/paradiso-terrestre-ferri-1891.md"
+    },
     "work/parmi-les-rochers-merello-1905": {
       "id": "work/parmi-les-rochers-merello-1905",
       "uri": "urn:ahn:work/parmi-les-rochers-merello-1905",
@@ -24828,6 +25078,43 @@
       "updated": "2026-08-12",
       "path": "entities/works/romeo-et-juliette-previati-1907.md"
     },
+    "work/rustico-weiss-1891": {
+      "id": "work/rustico-weiss-1891",
+      "uri": "urn:ahn:work/rustico-weiss-1891",
+      "type": "work",
+      "label_ja": "ロレンツォ・ヴァイス《Rustico》",
+      "label_en": "Rustico",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "1891年展出品作としての独立典拠IDと現所在は未確認。公式カタログと人物典拠を用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年展出品"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/lorenzo-weiss"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://www.cultura.trentino.it/Fotografia-Storica/RITRATTO-MEZZOBUSTO-DI-LORENZO-WEISS",
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/works/rustico-weiss-1891.md"
+    },
     "work/sacree-famille-previati-1907": {
       "id": "work/sacree-famille-previati-1907",
       "uri": "urn:ahn:work/sacree-famille-previati-1907",
@@ -24901,6 +25188,43 @@
       "status": "draft",
       "updated": "2026-08-12",
       "path": "entities/works/sala-da-pranzo-filippini-1891.md"
+    },
+    "work/san-carlo-a-catinari-serra-1891": {
+      "id": "work/san-carlo-a-catinari-serra-1891",
+      "uri": "urn:ahn:work/san-carlo-a-catinari-serra-1891",
+      "type": "work",
+      "label_ja": "ルイジ・セッラ《S. Carlo a Catinari in Roma》",
+      "label_en": "S. Carlo a Catinari in Roma",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "1891年展出品作としての独立典拠IDと現所在は未確認。公式カタログと人物典拠を用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年展出品"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/luigi-serra"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://www.treccani.it/enciclopedia/luigi-serra_%28Dizionario-Biografico%29/",
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/works/san-carlo-a-catinari-serra-1891.md"
     },
     "work/scarabocchione-pasini-1891": {
       "id": "work/scarabocchione-pasini-1891",
@@ -28325,6 +28649,13 @@
       "source": null
     },
     {
+      "from": "person/attilio-ferri",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "person/attilio-pusterla",
       "type": "exhibited_at",
       "to": "event/first-brera-triennale-1891",
@@ -28432,6 +28763,13 @@
     },
     {
       "from": "person/davide-calandra",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "person/domenico-ferri",
       "type": "exhibited_at",
       "to": "event/first-brera-triennale-1891",
       "certainty": null,
@@ -28866,6 +29204,13 @@
     },
     {
       "from": "person/lorenzo-delleani",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "person/lorenzo-weiss",
       "type": "exhibited_at",
       "to": "event/first-brera-triennale-1891",
       "certainty": null,
@@ -29375,6 +29720,20 @@
       "from": "work/bouc-magrini-1907",
       "type": "exhibited_at",
       "to": "event/salon-divisionnistes-italiens-paris-1907",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/brumaio-ferri-1891",
+      "type": "created_by",
+      "to": "person/domenico-ferri",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/brumaio-ferri-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
       "certainty": null,
       "source": null
     },
@@ -30520,6 +30879,20 @@
       "source": null
     },
     {
+      "from": "work/l-onda-ferri-1891",
+      "type": "created_by",
+      "to": "person/attilio-ferri",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/l-onda-ferri-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "work/l-oratore-dello-sciopero-longoni-1891",
       "type": "created_by",
       "to": "person/emilio-longoni",
@@ -30593,6 +30966,20 @@
       "from": "work/la-lutte-pour-la-vie-magrini-1907",
       "type": "exhibited_at",
       "to": "event/salon-divisionnistes-italiens-paris-1907",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/la-mancia-ai-concertisti-ferri-1891",
+      "type": "created_by",
+      "to": "person/domenico-ferri",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/la-mancia-ai-concertisti-ferri-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
       "certainty": null,
       "source": null
     },
@@ -31738,6 +32125,20 @@
       "source": null
     },
     {
+      "from": "work/paradiso-terrestre-ferri-1891",
+      "type": "created_by",
+      "to": "person/domenico-ferri",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/paradiso-terrestre-ferri-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "work/parmi-les-rochers-merello-1905",
       "type": "created_by",
       "to": "person/rubaldo-merello",
@@ -32473,6 +32874,20 @@
       "source": null
     },
     {
+      "from": "work/rustico-weiss-1891",
+      "type": "created_by",
+      "to": "person/lorenzo-weiss",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/rustico-weiss-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "work/sacree-famille-previati-1907",
       "type": "created_by",
       "to": "person/gaetano-previati",
@@ -32495,6 +32910,20 @@
     },
     {
       "from": "work/sala-da-pranzo-filippini-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/san-carlo-a-catinari-serra-1891",
+      "type": "created_by",
+      "to": "person/luigi-serra",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/san-carlo-a-catinari-serra-1891",
       "type": "exhibited_at",
       "to": "event/first-brera-triennale-1891",
       "certainty": null,
@@ -34187,6 +34616,12 @@
     {
       "from": "event/first-brera-triennale-1891",
       "type": "exhibited",
+      "to": "person/attilio-ferri",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
       "to": "person/attilio-pusterla",
       "derived": true
     },
@@ -34266,6 +34701,12 @@
       "from": "event/first-brera-triennale-1891",
       "type": "exhibited",
       "to": "person/davide-calandra",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "person/domenico-ferri",
       "derived": true
     },
     {
@@ -34578,6 +35019,12 @@
       "from": "event/first-brera-triennale-1891",
       "type": "exhibited",
       "to": "person/lorenzo-delleani",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "person/lorenzo-weiss",
       "derived": true
     },
     {
@@ -34974,6 +35421,18 @@
       "from": "event/salon-divisionnistes-italiens-paris-1907",
       "type": "exhibited",
       "to": "work/bouc-magrini-1907",
+      "derived": true
+    },
+    {
+      "from": "person/domenico-ferri",
+      "type": "created",
+      "to": "work/brumaio-ferri-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/brumaio-ferri-1891",
       "derived": true
     },
     {
@@ -35955,6 +36414,18 @@
       "derived": true
     },
     {
+      "from": "person/attilio-ferri",
+      "type": "created",
+      "to": "work/l-onda-ferri-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/l-onda-ferri-1891",
+      "derived": true
+    },
+    {
       "from": "person/emilio-longoni",
       "type": "created",
       "to": "work/l-oratore-dello-sciopero-longoni-1891",
@@ -36018,6 +36489,18 @@
       "from": "event/salon-divisionnistes-italiens-paris-1907",
       "type": "exhibited",
       "to": "work/la-lutte-pour-la-vie-magrini-1907",
+      "derived": true
+    },
+    {
+      "from": "person/domenico-ferri",
+      "type": "created",
+      "to": "work/la-mancia-ai-concertisti-ferri-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/la-mancia-ai-concertisti-ferri-1891",
       "derived": true
     },
     {
@@ -36999,6 +37482,18 @@
       "derived": true
     },
     {
+      "from": "person/domenico-ferri",
+      "type": "created",
+      "to": "work/paradiso-terrestre-ferri-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/paradiso-terrestre-ferri-1891",
+      "derived": true
+    },
+    {
       "from": "person/rubaldo-merello",
       "type": "created",
       "to": "work/parmi-les-rochers-merello-1905",
@@ -37629,6 +38124,18 @@
       "derived": true
     },
     {
+      "from": "person/lorenzo-weiss",
+      "type": "created",
+      "to": "work/rustico-weiss-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/rustico-weiss-1891",
+      "derived": true
+    },
+    {
       "from": "person/gaetano-previati",
       "type": "created",
       "to": "work/sacree-famille-previati-1907",
@@ -37650,6 +38157,18 @@
       "from": "event/first-brera-triennale-1891",
       "type": "exhibited",
       "to": "work/sala-da-pranzo-filippini-1891",
+      "derived": true
+    },
+    {
+      "from": "person/luigi-serra",
+      "type": "created",
+      "to": "work/san-carlo-a-catinari-serra-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/san-carlo-a-catinari-serra-1891",
       "derived": true
     },
     {
