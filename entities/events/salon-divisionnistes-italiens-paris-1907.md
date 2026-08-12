@@ -30,7 +30,7 @@ updated: 2026-08-12
 
 1907年9月1日から10月23日まで、パリのSerres de la Ville de Paris（Cours-la-Reine）で開かれた
 イタリア分割主義者のグループ展。Database of Modern Exhibitionsは、ミラノのGalerie d'Art A. Grubicyを
-主催者として記録し、17人の出品者、290件のカタログ項目（絵画・素描177件、その他の媒体113件）を数える。
+主催者として記録し、絵画・素描の出品者17人、290件のカタログ項目（絵画・素描177件、その他の媒体113件）を数える。
 
 一次カタログの序文は、当初の閉幕予定を10月15日としつつ、都合により8日間延長されたと記録している。
 
@@ -41,8 +41,13 @@ updated: 2026-08-12
 序文を含む。序文は、セガンティーニを中心に、プレヴィアーティ、フォルナラらをイタリア分割主義の系譜として
 フランス語・英語の読者へ紹介し、同展を当時のイタリア美術をパリで提示する場として位置づける。
 
-Database of Modern Exhibitionsの出品者一覧には、[`ピエロ・フォカルディ`](../persons/piero-focardi.md)、[`フェルディナンド・ランポーニ`](../persons/ferdinando-ramponi.md)、
+Database of Modern Exhibitionsの絵画・素描の出品者一覧には、[`ピエロ・フォカルディ`](../persons/piero-focardi.md)、[`フェルディナンド・ランポーニ`](../persons/ferdinando-ramponi.md)、
 [`アキッレ・トミネッティ`](../persons/achille-tominetti.md)、[`グイド・チノッティ`](../persons/guido-cinotti.md)、[`アドリアーノ・バラッキーニ＝カプーティ`](../persons/adriano-baracchini-caputi.md)、
 [`ベンヴェヌート・ベンヴェヌーティ`](../persons/benvenuto-benvenuti.md)、[`ルバルド・メレッロ`](../persons/rubaldo-merello.md)、[`ジュゼッペ・オーミオ`](../persons/giuseppe-omio.md)、[`カルロ・プラーダ`](../persons/carlo-prada.md)、
 [`フィリベルト・ミノッツィ`](../persons/filiberto-minozzi.md)、[`ゴッタルド・セガンティーニ`](../persons/gottardo-segantini.md)、[`マリオ・セガンティーニ`](../persons/mario-segantini.md)、[`チェーザレ・マッジ`](../persons/cesare-maggi.md)、[`アドルフ・マグリーニ`](../persons/adolphe-magrini.md)、カルロ・フォルナラ、ガエターノ・プレヴィアーティ、
-ジョヴァンニ・セガンティーニの17人が挙げられている。未登録の作家は、個別典拠を確認してから人物エンティティ化する。
+[`ジョヴァンニ・セガンティーニ`](../persons/giovanni-segantini.md)の17人が挙げられている。
+
+この17人はDoMEの絵画・素描の出品者数に対応する。一方、一次カタログの序文は、同展に参加する彫刻家として
+[`レンブラント・ブガッティ`](../persons/rembrandt-bugatti.md)と[`リベロ・アンドレオッティ`](../persons/libero-andreotti.md)を挙げている。
+両者の参加は人物エンティティに記録するが、現時点では個別の作品番号・題名を確定できないため、177件および
+「その他の媒体」113件の集計には追加しない。未登録の作家は、個別典拠を確認してから人物エンティティ化する。
