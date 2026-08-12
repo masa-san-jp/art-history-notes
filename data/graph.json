@@ -235,6 +235,45 @@
       "updated": "2026-08-12",
       "path": "entities/events/eighth-impressionist-exhibition-1886.md"
     },
+    "event/societe-artistes-independants-founding-1884": {
+      "id": "event/societe-artistes-independants-founding-1884",
+      "uri": "urn:ahn:event/societe-artistes-independants-founding-1884",
+      "type": "event",
+      "label_ja": "独立芸術家協会の設立過程",
+      "label_en": "Founding of the Société des Artistes Indépendants",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "設立過程をまとめた個別イベントの典拠IDは未確認。フランス文化省・県文書館・団体公式史を用いる"
+      },
+      "time": {
+        "start": "1884-06-11",
+        "end": "1884-06-30",
+        "display": "1884年6月11日（創設）〜6月30日（法的存在）"
+      },
+      "space": [
+        {
+          "role": "held_at",
+          "target": "place/paris"
+        }
+      ],
+      "relations": [
+        {
+          "type": "precedes",
+          "target": "event/eighth-impressionist-exhibition-1886"
+        }
+      ],
+      "sources": [
+        "https://www.culture.gouv.fr/thematiques/musees/Les-musees-en-France/les-collections-des-musees-de-france/decouvrir-les-collections/les-huit-expositions-impressionnistes-1874-1886/1886-huitieme-exposition",
+        "https://archives.valdoise.fr/documents-du-mois/document-d-une-archive-a-une-archive-51/n%3A478",
+        "https://salondesindependants.fr/notre-histoire/"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/events/societe-artistes-independants-founding-1884.md"
+    },
     "movement/abstract-expressionism": {
       "id": "movement/abstract-expressionism",
       "uri": "urn:ahn:movement/abstract-expressionism",
@@ -8738,6 +8777,40 @@
       "updated": "2026-08-09",
       "path": "entities/orgs/societe-anonyme-artistes.md"
     },
+    "org/societe-artistes-independants": {
+      "id": "org/societe-artistes-independants",
+      "uri": "urn:ahn:org/societe-artistes-independants",
+      "type": "org",
+      "label_ja": "独立芸術家協会",
+      "label_en": "Société des Artistes Indépendants",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "団体の典拠IDは未確認。フランス文化省と県文書館の設立記録を用いる"
+      },
+      "time": {
+        "start": "1884-06-11",
+        "end": null,
+        "display": "1884年6月11日創設（同月30日に法的存在）。解散時期は未確認"
+      },
+      "space": [
+        {
+          "role": "sited_in",
+          "target": "place/paris"
+        }
+      ],
+      "relations": [],
+      "sources": [
+        "https://www.culture.gouv.fr/thematiques/musees/Les-musees-en-France/les-collections-des-musees-de-france/decouvrir-les-collections/les-huit-expositions-impressionnistes-1874-1886/1886-huitieme-exposition",
+        "https://archives.valdoise.fr/documents-du-mois/document-d-une-archive-a-une-archive-51/n%3A478",
+        "https://salondesindependants.fr/notre-histoire/"
+      ],
+      "status": "stub",
+      "updated": "2026-08-12",
+      "path": "entities/orgs/societe-artistes-independants.md"
+    },
     "org/thanjavur-maratha-kingdom": {
       "id": "org/thanjavur-maratha-kingdom",
       "uri": "urn:ahn:org/thanjavur-maratha-kingdom",
@@ -9357,6 +9430,10 @@
         {
           "type": "belongs_to",
           "target": "movement/neo-impressionism"
+        },
+        {
+          "type": "member_of",
+          "target": "org/societe-artistes-independants"
         },
         {
           "type": "taught_by",
@@ -13379,6 +13456,18 @@
       "to": "place/paris"
     },
     {
+      "from": "event/societe-artistes-independants-founding-1884",
+      "type": "precedes",
+      "to": "event/eighth-impressionist-exhibition-1886",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "event/societe-artistes-independants-founding-1884",
+      "type": "held_at",
+      "to": "place/paris"
+    },
+    {
       "from": "movement/abstract-expressionism",
       "type": "influenced_by",
       "to": "movement/mexican-muralism",
@@ -15039,6 +15128,11 @@
       "to": "place/paris"
     },
     {
+      "from": "org/societe-artistes-independants",
+      "type": "sited_in",
+      "to": "place/paris"
+    },
+    {
       "from": "org/vkhutemas",
       "type": "sited_in",
       "to": "place/moscow"
@@ -15117,6 +15211,13 @@
       "from": "person/georges-seurat",
       "type": "belongs_to",
       "to": "movement/neo-impressionism",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "person/georges-seurat",
+      "type": "member_of",
+      "to": "org/societe-artistes-independants",
       "certainty": null,
       "source": null
     },
@@ -15375,6 +15476,12 @@
       "from": "movement/baghdad-modern-art-group",
       "type": "influenced",
       "to": "concept/hurufiyya",
+      "derived": true
+    },
+    {
+      "from": "event/eighth-impressionist-exhibition-1886",
+      "type": "follows",
+      "to": "event/societe-artistes-independants-founding-1884",
       "derived": true
     },
     {
@@ -16309,6 +16416,12 @@
     },
     {
       "from": "movement/neo-impressionism",
+      "type": "has_member",
+      "to": "person/georges-seurat",
+      "derived": true
+    },
+    {
+      "from": "org/societe-artistes-independants",
       "type": "has_member",
       "to": "person/georges-seurat",
       "derived": true
