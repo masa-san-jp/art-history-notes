@@ -695,6 +695,66 @@
       "updated": "2026-08-10",
       "path": "entities/movements/arte-madi.md"
     },
+    "movement/arts-and-crafts": {
+      "id": "movement/arts-and-crafts",
+      "uri": "urn:ahn:movement/arts-and-crafts",
+      "type": "movement",
+      "kind": "retrospective",
+      "label_ja": "アーツ・アンド・クラフツ運動",
+      "label_en": "Arts and Crafts movement",
+      "authority": {
+        "wikidata": "Q330369",
+        "aat": "300266319",
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": "1880",
+        "end": "1910",
+        "display": "1880年代（英国で運動の語と結社の枠組みが成立）〜1910年代（英国で中心的な勢いが衰える。海外受容は継続）"
+      },
+      "naming": {
+        "self_identified": false,
+        "named_by": null,
+        "named_when": "1887",
+        "original_label": "Arts and Crafts",
+        "note": "単一の宣言集団が名乗った名称ではなく、英国の複数の結社・工房・作り手を後からまとめる国際的な運動名。V&Aは、1887年にロンドンで設立されたArts and Crafts Exhibition Societyから運動が名を取ったと説明する"
+      },
+      "claims": [
+        {
+          "field": "time",
+          "source": "https://www.vam.ac.uk/articles/arts-and-crafts-an-introduction",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "originated_in",
+          "source": "https://www.vam.ac.uk/articles/arts-and-crafts-an-introduction",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "kind",
+          "source": "https://www.vam.ac.uk/articles/arts-and-crafts-an-introduction",
+          "certainty": "scholarly"
+        }
+      ],
+      "space": [
+        {
+          "role": "originated_in",
+          "target": "place/london"
+        }
+      ],
+      "relations": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q330369",
+        "https://www.vam.ac.uk/articles/arts-and-crafts-an-introduction",
+        "https://www.vam.ac.uk/articles/arts-and-crafts-beyond-the-uk",
+        "https://www.metmuseum.org/it/essays/design-reform"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/movements/arts-and-crafts.md"
+    },
     "movement/asmat-carving": {
       "id": "movement/asmat-carving",
       "uri": "urn:ahn:movement/asmat-carving",
@@ -4882,6 +4942,12 @@
         {
           "type": "created_by",
           "target": "person/yanagi-soetsu"
+        },
+        {
+          "type": "influenced_by",
+          "target": "movement/arts-and-crafts",
+          "certainty": "scholarly",
+          "source": "https://www.vam.ac.uk/articles/arts-and-crafts-beyond-the-uk"
         }
       ],
       "images": [
@@ -4898,6 +4964,7 @@
         "https://en.wikipedia.org/wiki/Mingei",
         "https://ja.wikipedia.org/wiki/%E6%B0%91%E8%97%9D%E9%81%8B%E5%8B%95",
         "https://mingeikan.or.jp/about/history/",
+        "https://www.vam.ac.uk/articles/arts-and-crafts-beyond-the-uk",
         "https://www.wikidata.org/wiki/Q904161",
         "https://note.com/icingbox/n/n177b484fde56",
         "https://www.metmuseum.org/art/collection/search/36115"
@@ -11581,6 +11648,38 @@
       "updated": "2026-08-10",
       "path": "entities/places/lima.md"
     },
+    "place/london": {
+      "id": "place/london",
+      "uri": "urn:ahn:place/london",
+      "type": "place",
+      "label_ja": "ロンドン",
+      "label_en": "London",
+      "authority": {
+        "wikidata": "Q84",
+        "tgn": "7007567",
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "region": "europe-west",
+      "coordinates": [
+        51.507222,
+        -0.1275
+      ],
+      "time": {
+        "start": null,
+        "end": null,
+        "display": null
+      },
+      "relations": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q84"
+      ],
+      "status": "stub",
+      "updated": "2026-08-12",
+      "path": "entities/places/london.md"
+    },
     "place/manila": {
       "id": "place/manila",
       "uri": "urn:ahn:place/manila",
@@ -13244,6 +13343,11 @@
       "to": "place/buenos-aires"
     },
     {
+      "from": "movement/arts-and-crafts",
+      "type": "originated_in",
+      "to": "place/london"
+    },
+    {
       "from": "movement/asmat-carving",
       "type": "originated_in",
       "to": "place/asmat-regency"
@@ -14034,6 +14138,13 @@
       "to": "person/yanagi-soetsu",
       "certainty": null,
       "source": null
+    },
+    {
+      "from": "movement/mingei",
+      "type": "influenced_by",
+      "to": "movement/arts-and-crafts",
+      "certainty": "scholarly",
+      "source": "https://www.vam.ac.uk/articles/arts-and-crafts-beyond-the-uk"
     },
     {
       "from": "movement/mingei",
@@ -15501,6 +15612,12 @@
     {
       "from": "person/yanagi-soetsu",
       "type": "created",
+      "to": "movement/mingei",
+      "derived": true
+    },
+    {
+      "from": "movement/arts-and-crafts",
+      "type": "influenced",
       "to": "movement/mingei",
       "derived": true
     },

@@ -29,6 +29,7 @@ space:
   - {role: originated_in, target: place/tokyo}
 relations:
   - {type: created_by, target: person/yanagi-soetsu}
+  - {type: influenced_by, target: movement/arts-and-crafts, certainty: scholarly, source: "https://www.vam.ac.uk/articles/arts-and-crafts-beyond-the-uk"}
 images:
   - url: https://images.metmuseum.org/CRDImages/as/original/DP-36798-002.jpg
     source_page: https://www.metmuseum.org/art/collection/search/36115
@@ -40,6 +41,7 @@ sources:
   - https://en.wikipedia.org/wiki/Mingei
   - https://ja.wikipedia.org/wiki/%E6%B0%91%E8%97%9D%E9%81%8B%E5%8B%95
   - https://mingeikan.or.jp/about/history/
+  - https://www.vam.ac.uk/articles/arts-and-crafts-beyond-the-uk
   - https://www.wikidata.org/wiki/Q904161
   - https://note.com/icingbox/n/n177b484fde56
   - https://www.metmuseum.org/art/collection/search/36115
@@ -65,6 +67,14 @@ updated: 2026-08-10
 東京・駒場に日本民藝館が開館し柳が初代館長に就任した（開館資金は実業家・大原孫三郎らの寄付に
 よる。[mingeikan.or.jp/about/history/](https://mingeikan.or.jp/about/history/)）。運動は日本民藝
 協会・日本民藝館という制度として現在まで継続している。
+
+## アーツ・アンド・クラフツ運動との関係
+
+V&Aは、英国のアーツ・アンド・クラフツ運動の考えが1920年代半ばに日本へ伝わり、柳宗悦が主導した
+民藝運動の形成を助けたと説明する。同館は、民藝運動が1926年に成立し、ラスキンとウィリアム・モリスが
+主要な影響源だったとも記す。したがって、ここでの `influenced_by` は民藝が英国運動の単純な複製だった
+という意味ではなく、手仕事・日用品・工業化への批判をめぐる思想的接続を、柳らの日本での再構成に限定して
+記録する。
 
 柳は1959年、雑誌『民藝』誌上で朝鮮の冊架図（책거리）の民画を見て「民画」という語を提案したと
 伝えられる（[concept/minhwa](../concepts/minhwa.md)、二次情報）。日本国内で柳自身が大津絵
@@ -125,8 +135,6 @@ updated: 2026-08-10
 - 河井寬次郎・濱田庄司・富本憲吉の`person`化——docs/schema.mdの作成基準（kind/time/originated_in
   の根拠になる／2movementを繋ぐ／作品を分解して読んだ）のいずれにも単独では当たらないため、
   本文に名前を書くのみに留めた
-- アーツ・アンド・クラフツ運動（英国）との`influenced_by`関係——複数の二次情報が柳の思想への
-  影響を指摘するが、このKBに同運動のmovementが無いため接続は保留した
 - [concept/minhwa](../concepts/minhwa.md)（朝鮮の民画）との関係——柳個人の足跡としては
   [person/yanagi-soetsu](../persons/yanagi-soetsu.md)に`influenced_by`関係を張ったが、運動同士
   （mingei対minhwa）を直接つなぐ関係語彙は無い（`movement`から`concept`への語彙は
