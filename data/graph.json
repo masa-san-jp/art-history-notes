@@ -20423,6 +20423,45 @@
       "updated": "2026-08-12",
       "path": "entities/works/moutons-au-repos-ramponi-1907.md"
     },
+    "work/n-317-conconi-1891": {
+      "id": "work/n-317-conconi-1891",
+      "uri": "urn:ahn:work/n-317-conconi-1891",
+      "type": "work",
+      "label_ja": "ルイージ・コンコーニ《N. 317》",
+      "label_en": "N. 317",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "作品の独立典拠IDは未確認。ブレラ展ガイド、1891年公式カタログ、ミラノ市資料を用いる"
+      },
+      "time": {
+        "start": "1890",
+        "end": "1891",
+        "display": "1890–1891年（1891年展カタログ317番）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/luigi-conconi"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://galleriemaspes.com/immagini_sito/Cataloghi%20pdf/Brera_Guide.pdf",
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf",
+        "https://lnx.giovannisalici.com/news/wp-content/uploads/2008/09/7elenco-opere.pdf",
+        "https://www.wikidata.org/wiki/Q748332"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/works/n-317-conconi-1891.md"
+    },
     "work/nostalgie-fornara-1907": {
       "id": "work/nostalgie-fornara-1907",
       "uri": "urn:ahn:work/nostalgie-fornara-1907",
@@ -28226,6 +28265,20 @@
       "source": null
     },
     {
+      "from": "work/n-317-conconi-1891",
+      "type": "created_by",
+      "to": "person/luigi-conconi",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/n-317-conconi-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "work/nostalgie-fornara-1907",
       "type": "created_by",
       "to": "person/carlo-fornara",
@@ -32684,6 +32737,18 @@
       "from": "event/salon-divisionnistes-italiens-paris-1907",
       "type": "exhibited",
       "to": "work/moutons-au-repos-ramponi-1907",
+      "derived": true
+    },
+    {
+      "from": "person/luigi-conconi",
+      "type": "created",
+      "to": "work/n-317-conconi-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/n-317-conconi-1891",
       "derived": true
     },
     {

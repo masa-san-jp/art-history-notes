@@ -37,6 +37,5 @@ updated: 2026-08-12
 
 1891年の第一回ブレラ三年展公式カタログでは、「Conconi Luigi di Milano」として46番の
 [`《Il trono della Bella Mantesca (Fiaba)》`](../works/il-trono-della-bella-mantesca-conconi-1891.md)、
-327番の[`《Macchiette d’amici》`](../works/macchiette-d-amici-conconi-1891.md)を出品したことが確認できる。
-索引もコンコーニの出品番号を46・317・327と記録する。本項では本文で作品名と作者が確認できる46番と327番を
-作品エンティティに分離した。317番は本文で作品名を特定できないため、作品化を保留する。
+327番の[`《Macchiette d’amici》`](../works/macchiette-d-amici-conconi-1891.md)、317番の[`《N. 317》`](../works/n-317-conconi-1891.md)を
+出品したことが確認できる。索引もコンコーニの出品番号を46・317・327と記録する。317番は作者が題名の代わりにカタログ番号を用いた作品である。

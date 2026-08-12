@@ -77,7 +77,7 @@ updated: 2026-08-12
 
 公開されている『Prima esposizione triennale 1891: catalogo ufficiale illustrato』は、題紙に
 R. Accademia di Belle Arti di Breraを掲げ、ミラノのProprietà artistica Arturo Demarchiから刊行された
-公式カタログである。索引と本文の対応から、現時点で次の24作家47件を作品エンティティとして個別化している。
+公式カタログである。索引と本文の対応から、現時点で次の24作家48件を作品エンティティとして個別化している。
 
 - セガンティーニ：209《Le due Madri》、241《Vacca》
 - プレヴィアーティ：213《Maternità》
@@ -99,7 +99,7 @@ R. Accademia di Belle Arti di Breraを掲げ、ミラノのProprietà artistica 
 - ノメリーニ：281《Piazza Caricamento a Genova》
 - グルビーチ：551《Campagna Lombarda (Inverno 1890)》、552《Bosco (Schilpario - 1891)》、553《Raccolto del fieno-crep.-(Valle di Scalve - 1889)》
 - トミネッティ：335《Ultimi raggi》、336《Tempo grigio》、404《In cerca di legna》
-- コンコーニ：46《Il trono della Bella Mantesca (Fiaba)》、327《Macchiette d’amici》
+- コンコーニ：46《Il trono della Bella Mantesca (Fiaba)》、317《N. 317》、327《Macchiette d’amici》
 - ジャン・マリア・ラステッリーニ：326《Ritratto di Signora》、568《Sognando》
 - ジョヴァン・バッティスタ・ラステッリーニ：573《Ritratto - Costume Albanese, di proprietà del Signor De Cristoforis Malachia》
 - ヴィッラーニ：228《Ritratto di signora》、414《Ritratto di Signora》、572《In Val d’Intelvi》
