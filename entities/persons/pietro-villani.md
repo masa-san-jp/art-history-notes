@@ -35,5 +35,6 @@ updated: 2026-08-12
 「In Val d’Intelvi」を出品したと記録する。
 
 1891年の第一回ブレラ三年展公式カタログでは、「Villani Pietro di Nocera Inferiore (Salerno)」として、
-228番の「Ritratto di signora」と572番の「In Val d’Intelvi」を出品したことが確認できる。本項ではこの2件を
-作品エンティティに分離した。
+228番の[`《Ritratto di signora》`](../works/ritratto-di-signora-villani-1891.md)と572番の
+[`《In Val d’Intelvi》`](../works/in-val-d-intelvi-villani-1891.md)を出品したことが確認できる。
+本項ではこの2件を作品エンティティに分離した。

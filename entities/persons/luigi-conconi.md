@@ -36,6 +36,7 @@ updated: 2026-08-12
 輪郭を定めない絵画的効果を特徴としたと説明する。また、エッチングを中心とする重要な版画活動も行った。
 
 1891年の第一回ブレラ三年展公式カタログでは、「Conconi Luigi di Milano」として46番の
-「Il trono della Bella Mantesca (Fiaba)」、327番の「Macchiette d’amici」を出品したことが確認できる。
+[`《Il trono della Bella Mantesca (Fiaba)》`](../works/il-trono-della-bella-mantesca-conconi-1891.md)、
+327番の[`《Macchiette d’amici》`](../works/macchiette-d-amici-conconi-1891.md)を出品したことが確認できる。
 索引もコンコーニの出品番号を46・317・327と記録する。本項では本文で作品名と作者が確認できる46番と327番を
 作品エンティティに分離した。317番は本文で作品名を特定できないため、作品化を保留する。
