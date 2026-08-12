@@ -31,5 +31,6 @@ updated: 2026-08-12
 ヴェローナに生まれ、ミラノで没した画家。ブレラ美術アカデミーで学び、1902年にアルベルト・グルビーチと契約して、
 海景を中心に分割主義的な光の表現を展開した。
 
-1907年パリ展では、Salle Cの49〜55c番に《Marine》《Effet de Soleil, le matin》など9作品を出品した。
-作品個別の典拠整理は次段で行う。
+1907年パリ展では、Salle Cの49〜55c番に《Marine》、《Effet de Soleil, le matin》、
+[`《Le Jardin de la Duchesse Leed》`](../works/le-jardin-de-la-duchesse-leed-minozzi-1907.md)など9作品を出品した。
+庭園画の注文資料との同定は未確定である。
