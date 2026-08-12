@@ -29,6 +29,7 @@ relations:
   - {type: influenced_by, target: person/dong-qichang, certainty: scholarly, source: "https://en.wikipedia.org/wiki/Nanga_(art)"}
   - {type: influenced_by, target: movement/literati-painting, certainty: scholarly, source: "https://eaa.fas.harvard.edu/museum/nanga-painting-feinberg-collection"}
   - {type: influenced_by, target: movement/four-wangs, certainty: scholarly, source: "https://theme.npm.edu.tw/exh107/NewEra/jp/page-4.html"}
+  - {type: influenced_by, target: movement/shanghai-school, certainty: scholarly, source: "https://theme.npm.edu.tw/exh107/NewEra/en/page-4.html"}
 sources:
   - https://ja.wikipedia.org/wiki/南画
   - https://ja.wikipedia.org/wiki/文人画
@@ -38,6 +39,7 @@ sources:
   - https://www.kyohaku.go.jp/old/eng/theme/floor2_4/past/kinse_20170221.html
   - https://eaa.fas.harvard.edu/museum/nanga-painting-feinberg-collection
   - https://theme.npm.edu.tw/exh107/NewEra/jp/page-4.html
+  - https://theme.npm.edu.tw/exh107/NewEra/en/page-4.html
   - https://www.metmuseum.org/art/collection/search/671023
   - https://www.artic.edu/artworks/185222
 images:
@@ -86,6 +88,13 @@ updated: 2026-08-10
 南画の形成全体が四王だけで決まったという意味ではなく、清末に日本へ渡った四王系画風の受容層に限って
 `influenced_by movement/four-wangs` と記録する。顧澐本人の person エンティティは、今回の1本に必要な
 範囲を超えるため作成しない。
+
+顧澐は清末の上海画壇に参加した画家として国立故宮博物院の展示資料に登場し、同資料は、顧澐が日本へ
+渡り、四王の画風を継承した彼の仕事が日本で南画の模範になったと説明する。このため、南画から
+`movement/shanghai-school` へも `influenced_by` を張る。ただし、ここで記録するのは海上画派全体が
+日本の南画を形成したという一般論ではなく、上海画壇に属した顧澐という媒介者を通じた清末の個別経路で
+ある。四王から南画への関係と重なる部分はあるが、四王系画風を運んだ人物の活動基盤が上海にあった点を
+別の地理的・制度的経路として残す。
 
 ## kind の判定 — なぜ `retrospective` か
 
