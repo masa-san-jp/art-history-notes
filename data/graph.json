@@ -9497,6 +9497,41 @@
       "updated": "2026-08-13",
       "path": "entities/persons/achille-tominetti.md"
     },
+    "person/adelia-sardi": {
+      "id": "person/adelia-sardi",
+      "uri": "urn:ahn:person/adelia-sardi",
+      "type": "person",
+      "label_ja": "アデリア・サルディ",
+      "label_en": "Adelia Sardi",
+      "aliases": [
+        "Sardi Adelia"
+      ],
+      "authority": {
+        "wikidata": null,
+        "ulan": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "独立した人物典拠IDと生没年は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": null,
+        "end": null,
+        "display": "19世紀末にヴァラッツェ出身者として活動"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-13",
+      "path": "entities/persons/adelia-sardi.md"
+    },
     "person/adolfo-feragutti-visconti": {
       "id": "person/adolfo-feragutti-visconti",
       "uri": "urn:ahn:person/adolfo-feragutti-visconti",
@@ -11148,6 +11183,41 @@
       "updated": "2026-08-12",
       "path": "entities/persons/bartolomeo-giuliano.md"
     },
+    "person/bassano-danielli": {
+      "id": "person/bassano-danielli",
+      "uri": "urn:ahn:person/bassano-danielli",
+      "type": "person",
+      "label_ja": "バッサーノ・ダニエッリ",
+      "label_en": "Bassano Danielli",
+      "aliases": [
+        "Danielli Bassano"
+      ],
+      "authority": {
+        "wikidata": null,
+        "ulan": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "独立した人物典拠IDと生没年は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": null,
+        "end": null,
+        "display": "19世紀末にクレーマ出身者として活動"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-13",
+      "path": "entities/persons/bassano-danielli.md"
+    },
     "person/battista-costantini": {
       "id": "person/battista-costantini",
       "uri": "urn:ahn:person/battista-costantini",
@@ -12368,6 +12438,41 @@
       "status": "draft",
       "updated": "2026-08-13",
       "path": "entities/persons/domenico-pesenti.md"
+    },
+    "person/donato-barcaglia": {
+      "id": "person/donato-barcaglia",
+      "uri": "urn:ahn:person/donato-barcaglia",
+      "type": "person",
+      "label_ja": "ドナート・バルカッリャ",
+      "label_en": "Donato Barcaglia",
+      "aliases": [
+        "Barcaglia Donato"
+      ],
+      "authority": {
+        "wikidata": null,
+        "ulan": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "独立した人物典拠IDと生没年は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": null,
+        "end": null,
+        "display": "19世紀末にミラノで活動"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-13",
+      "path": "entities/persons/donato-barcaglia.md"
     },
     "person/dong-qichang": {
       "id": "person/dong-qichang",
@@ -13962,6 +14067,41 @@
       "updated": "2026-08-10",
       "path": "entities/persons/eustache-de-lorey.md"
     },
+    "person/fausto-zonaro": {
+      "id": "person/fausto-zonaro",
+      "uri": "urn:ahn:person/fausto-zonaro",
+      "type": "person",
+      "label_ja": "ファウスト・ゾナーロ",
+      "label_en": "Fausto Zonaro",
+      "aliases": [
+        "Zonaro Fausto"
+      ],
+      "authority": {
+        "wikidata": null,
+        "ulan": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "独立した人物典拠IDと生没年は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": null,
+        "end": null,
+        "display": "19世紀末にマージ出身者として活動"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-13",
+      "path": "entities/persons/fausto-zonaro.md"
+    },
     "person/federico-quarenghi": {
       "id": "person/federico-quarenghi",
       "uri": "urn:ahn:person/federico-quarenghi",
@@ -15032,6 +15172,41 @@
       "status": "draft",
       "updated": "2026-08-12",
       "path": "entities/persons/gerolamo-cairati.md"
+    },
+    "person/giacomo-ginotti": {
+      "id": "person/giacomo-ginotti",
+      "uri": "urn:ahn:person/giacomo-ginotti",
+      "type": "person",
+      "label_ja": "ジャコモ・ジノッティ",
+      "label_en": "Giacomo Ginotti",
+      "aliases": [
+        "Ginotti Giacomo"
+      ],
+      "authority": {
+        "wikidata": null,
+        "ulan": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "独立した人物典拠IDと生没年は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": null,
+        "end": null,
+        "display": "19世紀末にトラヴァリアーナ出身者として活動"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-13",
+      "path": "entities/persons/giacomo-ginotti.md"
     },
     "person/giacomo-grosso": {
       "id": "person/giacomo-grosso",
@@ -19173,6 +19348,41 @@
       "status": "draft",
       "updated": "2026-08-13",
       "path": "entities/persons/pietro-villani.md"
+    },
+    "person/pio-sanquirico": {
+      "id": "person/pio-sanquirico",
+      "uri": "urn:ahn:person/pio-sanquirico",
+      "type": "person",
+      "label_ja": "ピオ・サンキリコ",
+      "label_en": "Pio Sanquirico",
+      "aliases": [
+        "Sanquirico Pio"
+      ],
+      "authority": {
+        "wikidata": null,
+        "ulan": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "独立した人物典拠IDと生没年は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": null,
+        "end": null,
+        "display": "19世紀末にミラノで活動"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-13",
+      "path": "entities/persons/pio-sanquirico.md"
     },
     "person/plinio-nomellini": {
       "id": "person/plinio-nomellini",
@@ -25544,6 +25754,42 @@
       "updated": "2026-08-12",
       "path": "entities/works/bouc-magrini-1907.md"
     },
+    "work/brr-che-freddo-marsili-1891": {
+      "id": "work/brr-che-freddo-marsili-1891",
+      "uri": "urn:ahn:work/brr-che-freddo-marsili-1891",
+      "type": "work",
+      "label_ja": "エミリオ・マルシリ《Brr che freddo!》",
+      "label_en": "Brr che freddo!",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "作品の独立典拠IDと現所在は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年（1891年展カタログ472番）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/emilio-marsili"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-13",
+      "path": "entities/works/brr-che-freddo-marsili-1891.md"
+    },
     "work/brumaio-ferri-1891": {
       "id": "work/brumaio-ferri-1891",
       "uri": "urn:ahn:work/brumaio-ferri-1891",
@@ -28777,6 +29023,42 @@
       "updated": "2026-08-12",
       "path": "entities/works/etude-de-paysage-prada-1907-no48a.md"
     },
+    "work/euclide-giovinetto-ginotti-1891": {
+      "id": "work/euclide-giovinetto-ginotti-1891",
+      "uri": "urn:ahn:work/euclide-giovinetto-ginotti-1891",
+      "type": "work",
+      "label_ja": "ジャコモ・ジノッティ《Euclide giovinetto》",
+      "label_en": "Euclide giovinetto",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "作品の独立典拠IDと現所在は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年（1891年展カタログ471番）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/giacomo-ginotti"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-13",
+      "path": "entities/works/euclide-giovinetto-ginotti-1891.md"
+    },
     "work/evviva-beltrami-1891": {
       "id": "work/evviva-beltrami-1891",
       "uri": "urn:ahn:work/evviva-beltrami-1891",
@@ -29069,6 +29351,42 @@
       "status": "draft",
       "updated": "2026-08-12",
       "path": "entities/works/ferme-baracchini-caputi-1907.md"
+    },
+    "work/festa-popolare-zonaro-1891": {
+      "id": "work/festa-popolare-zonaro-1891",
+      "uri": "urn:ahn:work/festa-popolare-zonaro-1891",
+      "type": "work",
+      "label_ja": "ファウスト・ゾナーロ《Festa popolare》",
+      "label_en": "Festa popolare",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "作品の独立典拠IDと現所在は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年（1891年展カタログ465番）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/fausto-zonaro"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-13",
+      "path": "entities/works/festa-popolare-zonaro-1891.md"
     },
     "work/figure-de-femme-magrini-1907": {
       "id": "work/figure-de-femme-magrini-1907",
@@ -30525,6 +30843,42 @@
       "status": "draft",
       "updated": "2026-08-12",
       "path": "entities/works/gnou-magrini-1907.md"
+    },
+    "work/graziella-tafuri-1891": {
+      "id": "work/graziella-tafuri-1891",
+      "uri": "urn:ahn:work/graziella-tafuri-1891",
+      "type": "work",
+      "label_ja": "ラッファエレ・タフーリ《Graziella》",
+      "label_en": "Graziella",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "作品の独立典拠IDと現所在は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年（1891年展カタログ464番）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/raffaele-tafuri"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-13",
+      "path": "entities/works/graziella-tafuri-1891.md"
     },
     "work/guerrier-magrini-1907-no125": {
       "id": "work/guerrier-magrini-1907-no125",
@@ -37225,6 +37579,42 @@
       "updated": "2026-08-12",
       "path": "entities/works/marzo-gignous-1891.md"
     },
+    "work/matelda-bordignon-1891": {
+      "id": "work/matelda-bordignon-1891",
+      "uri": "urn:ahn:work/matelda-bordignon-1891",
+      "type": "work",
+      "label_ja": "ノエ・ボルディニョン《Matelda》",
+      "label_en": "Matelda",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "作品の独立典拠IDと現所在は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年（1891年展カタログ466番）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/noe-bordignon"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-13",
+      "path": "entities/works/matelda-bordignon-1891.md"
+    },
     "work/maternita-contratti-1891": {
       "id": "work/maternita-contratti-1891",
       "uri": "urn:ahn:work/maternita-contratti-1891",
@@ -39095,6 +39485,42 @@
       "status": "draft",
       "updated": "2026-08-13",
       "path": "entities/works/parco-innondato-ferri-1891.md"
+    },
+    "work/parini-a-bosisio-sanquirico-1891": {
+      "id": "work/parini-a-bosisio-sanquirico-1891",
+      "uri": "urn:ahn:work/parini-a-bosisio-sanquirico-1891",
+      "type": "work",
+      "label_ja": "ピオ・サンキリコ《Parini a Bosisio. — Un garzone tipografo, gli porta da Milano la notizia che si richiede subito una ristampa del Giorno.》",
+      "label_en": "Parini a Bosisio. — Un garzone tipografo, gli porta da Milano la notizia che si richiede subito una ristampa del Giorno.",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "作品の独立典拠IDと現所在は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年（1891年展カタログ467番）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/pio-sanquirico"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-13",
+      "path": "entities/works/parini-a-bosisio-sanquirico-1891.md"
     },
     "work/parmi-les-rochers-merello-1905": {
       "id": "work/parmi-les-rochers-merello-1905",
@@ -40971,6 +41397,42 @@
       "updated": "2026-08-12",
       "path": "entities/works/quiete-bezzi-1891.md"
     },
+    "work/quiete-in-campagna-adelia-sardi-1891": {
+      "id": "work/quiete-in-campagna-adelia-sardi-1891",
+      "uri": "urn:ahn:work/quiete-in-campagna-adelia-sardi-1891",
+      "type": "work",
+      "label_ja": "アデリア・サルディ《Quiete in campagna》",
+      "label_en": "Quiete in campagna",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "作品の独立典拠IDと現所在は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年（1891年展カタログ468番）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/adelia-sardi"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-13",
+      "path": "entities/works/quiete-in-campagna-adelia-sardi-1891.md"
+    },
     "work/raccolta-disegni-serra-1891-a": {
       "id": "work/raccolta-disegni-serra-1891-a",
       "uri": "urn:ahn:work/raccolta-disegni-serra-1891-a",
@@ -41968,6 +42430,42 @@
       "status": "draft",
       "updated": "2026-08-13",
       "path": "entities/works/ritratto-barbaglia-1891-no337.md"
+    },
+    "work/ritratto-barcaglia-1891": {
+      "id": "work/ritratto-barcaglia-1891",
+      "uri": "urn:ahn:work/ritratto-barcaglia-1891",
+      "type": "work",
+      "label_ja": "ドナート・バルカッリャ《Ritratto》",
+      "label_en": "Ritratto",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "作品の独立典拠IDと現所在は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年（1891年展カタログ470番）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/donato-barcaglia"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-13",
+      "path": "entities/works/ritratto-barcaglia-1891.md"
     },
     "work/ritratto-bordini-1891": {
       "id": "work/ritratto-bordini-1891",
@@ -43794,6 +44292,42 @@
       "status": "draft",
       "updated": "2026-08-12",
       "path": "entities/works/sala-da-pranzo-filippini-1891.md"
+    },
+    "work/saluto-al-sol-morente-danielli-1891": {
+      "id": "work/saluto-al-sol-morente-danielli-1891",
+      "uri": "urn:ahn:work/saluto-al-sol-morente-danielli-1891",
+      "type": "work",
+      "label_ja": "バッサーノ・ダニエッリ《Saluto al sol morente》",
+      "label_en": "Saluto al sol morente",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "作品の独立典拠IDと現所在は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年（1891年展カタログ469番）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/bassano-danielli"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-13",
+      "path": "entities/works/saluto-al-sol-morente-danielli-1891.md"
     },
     "work/san-carlo-a-catinari-serra-1891": {
       "id": "work/san-carlo-a-catinari-serra-1891",
@@ -49433,6 +49967,13 @@
       "source": null
     },
     {
+      "from": "person/adelia-sardi",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "person/adolfo-feragutti-visconti",
       "type": "exhibited_at",
       "to": "event/first-brera-triennale-1891",
@@ -49808,6 +50349,13 @@
       "source": null
     },
     {
+      "from": "person/bassano-danielli",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "person/battista-costantini",
       "type": "exhibited_at",
       "to": "event/first-brera-triennale-1891",
@@ -50085,6 +50633,13 @@
     },
     {
       "from": "person/domenico-pesenti",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "person/donato-barcaglia",
       "type": "exhibited_at",
       "to": "event/first-brera-triennale-1891",
       "certainty": null,
@@ -50416,6 +50971,13 @@
       "source": null
     },
     {
+      "from": "person/fausto-zonaro",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "person/federico-quarenghi",
       "type": "exhibited_at",
       "to": "event/first-brera-triennale-1891",
@@ -50656,6 +51218,13 @@
     },
     {
       "from": "person/gerolamo-cairati",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "person/giacomo-ginotti",
       "type": "exhibited_at",
       "to": "event/first-brera-triennale-1891",
       "certainty": null,
@@ -51504,6 +52073,13 @@
     },
     {
       "from": "person/pietro-villani",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "person/pio-sanquirico",
       "type": "exhibited_at",
       "to": "event/first-brera-triennale-1891",
       "certainty": null,
@@ -52596,6 +53172,20 @@
       "from": "work/bouc-magrini-1907",
       "type": "exhibited_at",
       "to": "event/salon-divisionnistes-italiens-paris-1907",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/brr-che-freddo-marsili-1891",
+      "type": "created_by",
+      "to": "person/emilio-marsili",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/brr-che-freddo-marsili-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
       "certainty": null,
       "source": null
     },
@@ -53839,6 +54429,20 @@
       "source": null
     },
     {
+      "from": "work/euclide-giovinetto-ginotti-1891",
+      "type": "created_by",
+      "to": "person/giacomo-ginotti",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/euclide-giovinetto-ginotti-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "work/evviva-beltrami-1891",
       "type": "created_by",
       "to": "person/luigi-beltrami",
@@ -53947,6 +54551,20 @@
       "from": "work/ferme-baracchini-caputi-1907",
       "type": "exhibited_at",
       "to": "event/salon-divisionnistes-italiens-paris-1907",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/festa-popolare-zonaro-1891",
+      "type": "created_by",
+      "to": "person/fausto-zonaro",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/festa-popolare-zonaro-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
       "certainty": null,
       "source": null
     },
@@ -54507,6 +55125,20 @@
       "from": "work/gnou-magrini-1907",
       "type": "exhibited_at",
       "to": "event/salon-divisionnistes-italiens-paris-1907",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/graziella-tafuri-1891",
+      "type": "created_by",
+      "to": "person/raffaele-tafuri",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/graziella-tafuri-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
       "certainty": null,
       "source": null
     },
@@ -57094,6 +57726,20 @@
       "source": null
     },
     {
+      "from": "work/matelda-bordignon-1891",
+      "type": "created_by",
+      "to": "person/noe-bordignon",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/matelda-bordignon-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "work/maternita-contratti-1891",
       "type": "created_by",
       "to": "person/luigi-contratti",
@@ -57815,6 +58461,20 @@
       "source": null
     },
     {
+      "from": "work/parini-a-bosisio-sanquirico-1891",
+      "type": "created_by",
+      "to": "person/pio-sanquirico",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/parini-a-bosisio-sanquirico-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "work/parmi-les-rochers-merello-1905",
       "type": "created_by",
       "to": "person/rubaldo-merello",
@@ -58529,6 +59189,20 @@
       "source": null
     },
     {
+      "from": "work/quiete-in-campagna-adelia-sardi-1891",
+      "type": "created_by",
+      "to": "person/adelia-sardi",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/quiete-in-campagna-adelia-sardi-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "work/raccolta-disegni-serra-1891-a",
       "type": "created_by",
       "to": "person/luigi-serra",
@@ -58908,6 +59582,20 @@
     },
     {
       "from": "work/ritratto-barbaglia-1891-no337",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/ritratto-barcaglia-1891",
+      "type": "created_by",
+      "to": "person/donato-barcaglia",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/ritratto-barcaglia-1891",
       "type": "exhibited_at",
       "to": "event/first-brera-triennale-1891",
       "certainty": null,
@@ -59608,6 +60296,20 @@
     },
     {
       "from": "work/sala-da-pranzo-filippini-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/saluto-al-sol-morente-danielli-1891",
+      "type": "created_by",
+      "to": "person/bassano-danielli",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/saluto-al-sol-morente-danielli-1891",
       "type": "exhibited_at",
       "to": "event/first-brera-triennale-1891",
       "certainty": null,
@@ -62130,6 +62832,12 @@
     {
       "from": "event/first-brera-triennale-1891",
       "type": "exhibited",
+      "to": "person/adelia-sardi",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
       "to": "person/adolfo-feragutti-visconti",
       "derived": true
     },
@@ -62430,6 +63138,12 @@
     {
       "from": "event/first-brera-triennale-1891",
       "type": "exhibited",
+      "to": "person/bassano-danielli",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
       "to": "person/battista-costantini",
       "derived": true
     },
@@ -62659,6 +63373,12 @@
       "from": "event/first-brera-triennale-1891",
       "type": "exhibited",
       "to": "person/domenico-pesenti",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "person/donato-barcaglia",
       "derived": true
     },
     {
@@ -62934,6 +63654,12 @@
     {
       "from": "event/first-brera-triennale-1891",
       "type": "exhibited",
+      "to": "person/fausto-zonaro",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
       "to": "person/federico-quarenghi",
       "derived": true
     },
@@ -63127,6 +63853,12 @@
       "from": "event/first-brera-triennale-1891",
       "type": "exhibited",
       "to": "person/gerolamo-cairati",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "person/giacomo-ginotti",
       "derived": true
     },
     {
@@ -63811,6 +64543,12 @@
       "from": "event/first-brera-triennale-1891",
       "type": "exhibited",
       "to": "person/pietro-villani",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "person/pio-sanquirico",
       "derived": true
     },
     {
@@ -64711,6 +65449,18 @@
       "from": "event/salon-divisionnistes-italiens-paris-1907",
       "type": "exhibited",
       "to": "work/bouc-magrini-1907",
+      "derived": true
+    },
+    {
+      "from": "person/emilio-marsili",
+      "type": "created",
+      "to": "work/brr-che-freddo-marsili-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/brr-che-freddo-marsili-1891",
       "derived": true
     },
     {
@@ -65776,6 +66526,18 @@
       "derived": true
     },
     {
+      "from": "person/giacomo-ginotti",
+      "type": "created",
+      "to": "work/euclide-giovinetto-ginotti-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/euclide-giovinetto-ginotti-1891",
+      "derived": true
+    },
+    {
       "from": "person/luigi-beltrami",
       "type": "created",
       "to": "work/evviva-beltrami-1891",
@@ -65869,6 +66631,18 @@
       "from": "event/salon-divisionnistes-italiens-paris-1907",
       "type": "exhibited",
       "to": "work/ferme-baracchini-caputi-1907",
+      "derived": true
+    },
+    {
+      "from": "person/fausto-zonaro",
+      "type": "created",
+      "to": "work/festa-popolare-zonaro-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/festa-popolare-zonaro-1891",
       "derived": true
     },
     {
@@ -66349,6 +67123,18 @@
       "from": "event/salon-divisionnistes-italiens-paris-1907",
       "type": "exhibited",
       "to": "work/gnou-magrini-1907",
+      "derived": true
+    },
+    {
+      "from": "person/raffaele-tafuri",
+      "type": "created",
+      "to": "work/graziella-tafuri-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/graziella-tafuri-1891",
       "derived": true
     },
     {
@@ -68566,6 +69352,18 @@
       "derived": true
     },
     {
+      "from": "person/noe-bordignon",
+      "type": "created",
+      "to": "work/matelda-bordignon-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/matelda-bordignon-1891",
+      "derived": true
+    },
+    {
       "from": "person/luigi-contratti",
       "type": "created",
       "to": "work/maternita-contratti-1891",
@@ -69184,6 +69982,18 @@
       "derived": true
     },
     {
+      "from": "person/pio-sanquirico",
+      "type": "created",
+      "to": "work/parini-a-bosisio-sanquirico-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/parini-a-bosisio-sanquirico-1891",
+      "derived": true
+    },
+    {
       "from": "person/rubaldo-merello",
       "type": "created",
       "to": "work/parmi-les-rochers-merello-1905",
@@ -69796,6 +70606,18 @@
       "derived": true
     },
     {
+      "from": "person/adelia-sardi",
+      "type": "created",
+      "to": "work/quiete-in-campagna-adelia-sardi-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/quiete-in-campagna-adelia-sardi-1891",
+      "derived": true
+    },
+    {
       "from": "person/luigi-serra",
       "type": "created",
       "to": "work/raccolta-disegni-serra-1891-a",
@@ -70123,6 +70945,18 @@
       "from": "event/first-brera-triennale-1891",
       "type": "exhibited",
       "to": "work/ritratto-barbaglia-1891-no337",
+      "derived": true
+    },
+    {
+      "from": "person/donato-barcaglia",
+      "type": "created",
+      "to": "work/ritratto-barcaglia-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/ritratto-barcaglia-1891",
       "derived": true
     },
     {
@@ -70723,6 +71557,18 @@
       "from": "event/first-brera-triennale-1891",
       "type": "exhibited",
       "to": "work/sala-da-pranzo-filippini-1891",
+      "derived": true
+    },
+    {
+      "from": "person/bassano-danielli",
+      "type": "created",
+      "to": "work/saluto-al-sol-morente-danielli-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/saluto-al-sol-morente-danielli-1891",
       "derived": true
     },
     {
