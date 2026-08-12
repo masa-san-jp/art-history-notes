@@ -77,7 +77,7 @@ updated: 2026-08-12
 
 公開されている『Prima esposizione triennale 1891: catalogo ufficiale illustrato』は、題紙に
 R. Accademia di Belle Arti di Breraを掲げ、ミラノのProprietà artistica Arturo Demarchiから刊行された
-公式カタログである。索引と本文の対応から、現時点で次の25作家57件を作品エンティティとして個別化している。
+公式カタログである。索引と本文の対応から、現時点で次の25作家59件を作品エンティティとして個別化している。
 
 - セガンティーニ：209《Le due Madri》、241《Vacca》
 - プレヴィアーティ：213《Maternità》
@@ -92,7 +92,7 @@ R. Accademia di Belle Arti di Breraを掲げ、ミラノのProprietà artistica 
 - メンテッシ：52《Disegni ed acquarelli (schizzi)》、257《Ora triste》
 - フラジャコモ：223《Pace》、225《Riposo》、244《Inverno》
 - パジーニ：398《Impressioni e studi》、450《Scarabocchione》、461《Soccorso! Soccorso!》
-- デ・アルベルティス：224《(Bezzecca) Campagna del 1866》
+- デ・アルベルティス：224《(Bezzecca) Campagna del 1866》、418《Militari》、419《Carica militare》
 - プステルラ：217《La cura del sangue》
 - フォルナラ：211《Ricordanze》、229《Piccola pastora》、230《Bottega di calderajo》
 - ロンゴーニ：101《L'oratore dello sciopero》、328《Paesaggio - Sole d'inverno》、329《La piscininna》
