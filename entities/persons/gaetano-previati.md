@@ -1,0 +1,40 @@
+---
+id: person/gaetano-previati
+uri: urn:ahn:person/gaetano-previati
+type: person
+label_ja: ガエターノ・プレヴィアーティ
+label_en: Gaetano Previati
+authority:
+  wikidata: Q913979
+  ulan: null
+  ndl: null
+  jpsearch: null
+  none_reason: null
+time:
+  start: "1852-08-31"
+  end: "1920-06-21"
+  display: "1852年8月31日フェラーラ生まれ — 1920年6月21日ラヴァーニャ没"
+space: []
+relations:
+  - {type: belongs_to, target: movement/italian-divisionism}
+sources:
+  - https://www.wikidata.org/wiki/Q913979
+  - https://www.treccani.it/enciclopedia/gaetano-previati_%28Dizionario-Biografico%29/
+  - https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf
+status: draft
+updated: 2026-08-12
+---
+
+# ガエターノ・プレヴィアーティ / Gaetano Previati
+
+フェラーラに生まれ、ラヴァーニャで没したイタリアの画家。Treccaniは、分割主義の技法と理論を展開した
+画家として、1905年の『La tecnica della pittura』と1906年の『I principi scientifici del divisionismo』を
+挙げている。
+
+1891年の『Prima esposizione triennale 1891』公式カタログでは、Sala Lの出品番号213に《Maternità》が
+掲載されている。ここでは作品自体を独立エンティティ化せず、人物の展覧会参加記録として番号を保持する。
+
+## 未着手
+
+- 《Maternità》の所蔵館・制作年・作品典拠を確認し、`work`エンティティに分離すること
+- 1905〜06年の理論書の初版本文を確認すること
