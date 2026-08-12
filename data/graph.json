@@ -14714,6 +14714,43 @@
       "updated": "2026-08-12",
       "path": "entities/works/bathers-at-asnieres.md"
     },
+    "work/coucher-de-soleil-a-la-fin-du-printemps-benvenuti-1907": {
+      "id": "work/coucher-de-soleil-a-la-fin-du-printemps-benvenuti-1907",
+      "uri": "urn:ahn:work/coucher-de-soleil-a-la-fin-du-printemps-benvenuti-1907",
+      "type": "work",
+      "label_ja": "ベンヴェヌート・ベンヴェヌーティ《Coucher de Soleil à la fin du Printemps》",
+      "label_en": "Coucher de Soleil à la fin du Printemps",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "独立作品典拠IDは未確認。1907年パリ展カタログ記録を用いる"
+      },
+      "time": {
+        "start": "1907",
+        "end": "1907",
+        "display": "1907年パリ展出品（制作年未確認）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/benvenuto-benvenuti"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/salon-divisionnistes-italiens-paris-1907"
+        }
+      ],
+      "sources": [
+        "https://exhibitions.univie.ac.at/person/ulan/500585330",
+        "https://exhibitions.univie.ac.at/exhibition/125"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/works/coucher-de-soleil-a-la-fin-du-printemps-benvenuti-1907.md"
+    },
     "work/coucher-de-soleil-en-ete-focardi-1907": {
       "id": "work/coucher-de-soleil-en-ete-focardi-1907",
       "uri": "urn:ahn:work/coucher-de-soleil-en-ete-focardi-1907",
@@ -15457,6 +15494,44 @@
       "status": "draft",
       "updated": "2026-08-12",
       "path": "entities/works/moutons-au-repos-ramponi-1907.md"
+    },
+    "work/paysage-en-montagne-prada-1907": {
+      "id": "work/paysage-en-montagne-prada-1907",
+      "uri": "urn:ahn:work/paysage-en-montagne-prada-1907",
+      "type": "work",
+      "label_ja": "カルロ・プラーダ《Paysage en montagne》",
+      "label_en": "Paysage en montagne",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "独立作品典拠IDは未確認。1907年・1912年の展覧会カタログ記録を用いる"
+      },
+      "time": {
+        "start": "1907",
+        "end": "1907",
+        "display": "1907年パリ展出品（制作年未確認）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/carlo-prada"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/salon-divisionnistes-italiens-paris-1907"
+        }
+      ],
+      "sources": [
+        "https://exhibitions.univie.ac.at/person/ulan/500339761",
+        "https://exhibitions.univie.ac.at/exhibition/125",
+        "https://exhibitions.univie.ac.at/exhibition/447"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/works/paysage-en-montagne-prada-1907.md"
     },
     "work/piazza-caricamento-nomellini-1891": {
       "id": "work/piazza-caricamento-nomellini-1891",
@@ -18276,6 +18351,20 @@
       "to": "org/national-gallery-london"
     },
     {
+      "from": "work/coucher-de-soleil-a-la-fin-du-printemps-benvenuti-1907",
+      "type": "created_by",
+      "to": "person/benvenuto-benvenuti",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/coucher-de-soleil-a-la-fin-du-printemps-benvenuti-1907",
+      "type": "exhibited_at",
+      "to": "event/salon-divisionnistes-italiens-paris-1907",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "work/coucher-de-soleil-en-ete-focardi-1907",
       "type": "created_by",
       "to": "person/piero-focardi",
@@ -18571,6 +18660,20 @@
     },
     {
       "from": "work/moutons-au-repos-ramponi-1907",
+      "type": "exhibited_at",
+      "to": "event/salon-divisionnistes-italiens-paris-1907",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/paysage-en-montagne-prada-1907",
+      "type": "created_by",
+      "to": "person/carlo-prada",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/paysage-en-montagne-prada-1907",
       "type": "exhibited_at",
       "to": "event/salon-divisionnistes-italiens-paris-1907",
       "certainty": null,
@@ -20140,6 +20243,18 @@
       "derived": true
     },
     {
+      "from": "person/benvenuto-benvenuti",
+      "type": "created",
+      "to": "work/coucher-de-soleil-a-la-fin-du-printemps-benvenuti-1907",
+      "derived": true
+    },
+    {
+      "from": "event/salon-divisionnistes-italiens-paris-1907",
+      "type": "exhibited",
+      "to": "work/coucher-de-soleil-a-la-fin-du-printemps-benvenuti-1907",
+      "derived": true
+    },
+    {
       "from": "person/piero-focardi",
       "type": "created",
       "to": "work/coucher-de-soleil-en-ete-focardi-1907",
@@ -20395,6 +20510,18 @@
       "from": "event/salon-divisionnistes-italiens-paris-1907",
       "type": "exhibited",
       "to": "work/moutons-au-repos-ramponi-1907",
+      "derived": true
+    },
+    {
+      "from": "person/carlo-prada",
+      "type": "created",
+      "to": "work/paysage-en-montagne-prada-1907",
+      "derived": true
+    },
+    {
+      "from": "event/salon-divisionnistes-italiens-paris-1907",
+      "type": "exhibited",
+      "to": "work/paysage-en-montagne-prada-1907",
       "derived": true
     },
     {
