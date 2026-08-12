@@ -9759,6 +9759,35 @@
       "updated": "2026-08-12",
       "path": "entities/persons/carlo-prada.md"
     },
+    "person/cesare-laurenti": {
+      "id": "person/cesare-laurenti",
+      "uri": "urn:ahn:person/cesare-laurenti",
+      "type": "person",
+      "label_ja": "チェーザレ・ラウレンティ",
+      "label_en": "Cesare Laurenti",
+      "authority": {
+        "wikidata": "Q3665450",
+        "ulan": "500001694",
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": "1854-11-06",
+        "end": "1936-11-08",
+        "display": "1854年11月6日メゾラ生まれ — 1936年11月8日ヴェネツィア没"
+      },
+      "space": [],
+      "relations": [],
+      "sources": [
+        "https://www.treccani.it/enciclopedia/cesare-laurenti_%28Dizionario-Biografico%29/",
+        "https://archivio-capesaro.visitmuve.it/en/mostre-en/archivio-mostre-en/cesare-laurenti-1854-1936-the-rialto-fish-market/2011/07/1346/cesare-laurenti-1/",
+        "https://www.wikidata.org/wiki/Q3665450"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/persons/cesare-laurenti.md"
+    },
     "person/cesare-maggi": {
       "id": "person/cesare-maggi",
       "uri": "urn:ahn:person/cesare-maggi",
@@ -18528,6 +18557,45 @@
       "updated": "2026-08-12",
       "path": "entities/works/le-mont-cervin-maggi-1907.md"
     },
+    "work/le-parche-laurenti-1891": {
+      "id": "work/le-parche-laurenti-1891",
+      "uri": "urn:ahn:work/le-parche-laurenti-1891",
+      "type": "work",
+      "label_ja": "チェーザレ・ラウレンティ《Le parche》",
+      "label_en": "Le parche",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "作品の独立典拠IDは未確認。ブレラ展ガイド、Ca’ Pesaro機関アーカイブ、Treccani、1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年（1891年展カタログ215番）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/cesare-laurenti"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://galleriemaspes.com/immagini_sito/Cataloghi%20pdf/Brera_Guide.pdf",
+        "https://archivio-capesaro.visitmuve.it/en/mostre-en/archivio-mostre-en/cesare-laurenti-1854-1936-the-rialto-fish-market/2011/07/1346/cesare-laurenti-1/",
+        "https://www.treccani.it/enciclopedia/cesare-laurenti_%28Dizionario-Biografico%29/",
+        "https://upload.wikimedia.org/wikipedia/commons/2/24/Prima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/works/le-parche-laurenti-1891.md"
+    },
     "work/le-pont-levis-previati-1907": {
       "id": "work/le-pont-levis-previati-1907",
       "uri": "urn:ahn:work/le-pont-levis-previati-1907",
@@ -26816,6 +26884,20 @@
       "source": null
     },
     {
+      "from": "work/le-parche-laurenti-1891",
+      "type": "created_by",
+      "to": "person/cesare-laurenti",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/le-parche-laurenti-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "work/le-pont-levis-previati-1907",
       "type": "created_by",
       "to": "person/gaetano-previati",
@@ -31176,6 +31258,18 @@
       "from": "event/salon-divisionnistes-italiens-paris-1907",
       "type": "exhibited",
       "to": "work/le-mont-cervin-maggi-1907",
+      "derived": true
+    },
+    {
+      "from": "person/cesare-laurenti",
+      "type": "created",
+      "to": "work/le-parche-laurenti-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/le-parche-laurenti-1891",
       "derived": true
     },
     {
