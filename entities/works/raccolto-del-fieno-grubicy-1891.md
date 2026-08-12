@@ -13,7 +13,7 @@ authority:
 time:
   start: "1891"
   end: "1891"
-  display: "1891年展出品（カタログ題名にValle di Scalve・1889の記載）"
+  display: "1891年展出品（1891年展カタログ553番；題名にValle di Scalve・1889の記載）"
 space: []
 relations:
   - {type: created_by, target: person/vittore-grubicy-de-dragon}

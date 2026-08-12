@@ -13,7 +13,7 @@ authority:
 time:
   start: "1890"
   end: "1891"
-  display: "1890–1891年"
+  display: "1890–1891年（1891年展カタログ517番）"
 space: []
 relations:
   - {type: created_by, target: person/angelo-morbelli}

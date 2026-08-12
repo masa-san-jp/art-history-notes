@@ -13,7 +13,7 @@ authority:
 time:
   start: "1891"
   end: "1891"
-  display: "1891年ブレラ三年展出品（制作年は資料に1887年・1890年の差）"
+  display: "1891年ブレラ三年展出品（1891年展カタログ241番；制作年は資料に1887年・1890年の差）"
 space: []
 relations:
   - {type: created_by, target: person/giovanni-segantini}

@@ -13,7 +13,7 @@ authority:
 time:
   start: "1891"
   end: "1891"
-  display: "1891年展出品（カタログ題名にInverno 1890の年記載）"
+  display: "1891年展出品（1891年展カタログ551番；題名にInverno 1890の年記載）"
 space: []
 relations:
   - {type: created_by, target: person/vittore-grubicy-de-dragon}
