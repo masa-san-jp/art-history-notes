@@ -5172,7 +5172,14 @@
           "target": "place/shigatse"
         }
       ],
-      "relations": [],
+      "relations": [
+        {
+          "type": "diffused_to",
+          "target": "place/new-york-city",
+          "certainty": "scholarly",
+          "source": "https://rubinmuseum.org/exhibitions/the-place-of-provenance/"
+        }
+      ],
       "sources": [
         "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300018855",
         "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300018860",
@@ -5180,10 +5187,11 @@
         "https://www.himalayanart.org/search/set.cfm?setID=250",
         "https://www.himalayanart.org/search/set.cfm?setID=11826",
         "https://rubinmuseum.org/projecthimalayanart/glossary/menla-tradition/",
-        "https://rubinmuseum.org/projecthimalayanart/essays/murals-of-gongkar-chode/"
+        "https://rubinmuseum.org/projecthimalayanart/essays/murals-of-gongkar-chode/",
+        "https://rubinmuseum.org/exhibitions/the-place-of-provenance/"
       ],
       "status": "draft",
-      "updated": "2026-08-09",
+      "updated": "2026-08-12",
       "path": "entities/movements/menri-school.md"
     },
     "movement/mewar-painting": {
@@ -23264,6 +23272,13 @@
     },
     {
       "from": "movement/menri-school",
+      "type": "diffused_to",
+      "to": "place/new-york-city",
+      "certainty": "scholarly",
+      "source": "https://rubinmuseum.org/exhibitions/the-place-of-provenance/"
+    },
+    {
+      "from": "movement/menri-school",
       "type": "originated_in",
       "to": "place/gyantse"
     },
@@ -28150,6 +28165,12 @@
       "from": "movement/constructivism",
       "type": "influenced",
       "to": "movement/mavo",
+      "derived": true
+    },
+    {
+      "from": "place/new-york-city",
+      "type": "received",
+      "to": "movement/menri-school",
       "derived": true
     },
     {
