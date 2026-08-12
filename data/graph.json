@@ -11012,6 +11012,41 @@
       "updated": "2026-08-13",
       "path": "entities/persons/augusto-stoppoloni.md"
     },
+    "person/aurora-gilardelli": {
+      "id": "person/aurora-gilardelli",
+      "uri": "urn:ahn:person/aurora-gilardelli",
+      "type": "person",
+      "label_ja": "アウローラ・ジラルデッリ",
+      "label_en": "Aurora Gilardelli",
+      "aliases": [
+        "Gilardelli Aurora"
+      ],
+      "authority": {
+        "wikidata": null,
+        "ulan": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "独立した人物典拠IDと生没年は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": null,
+        "end": null,
+        "display": "19世紀末にミラノで活動"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-13",
+      "path": "entities/persons/aurora-gilardelli.md"
+    },
     "person/bartolomeo-bezzi": {
       "id": "person/bartolomeo-bezzi",
       "uri": "urn:ahn:person/bartolomeo-bezzi",
@@ -11349,6 +11384,41 @@
       "status": "draft",
       "updated": "2026-08-12",
       "path": "entities/persons/carlo-cressini.md"
+    },
+    "person/carlo-ferrari": {
+      "id": "person/carlo-ferrari",
+      "uri": "urn:ahn:person/carlo-ferrari",
+      "type": "person",
+      "label_ja": "カルロ・フェッラーリ",
+      "label_en": "Carlo Ferrari",
+      "aliases": [
+        "Ferrari Carlo"
+      ],
+      "authority": {
+        "wikidata": null,
+        "ulan": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "独立した人物典拠IDと生没年は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": null,
+        "end": null,
+        "display": "19世紀末にベルガモ出身者として活動"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-13",
+      "path": "entities/persons/carlo-ferrari.md"
     },
     "person/carlo-follini": {
       "id": "person/carlo-follini",
@@ -11766,7 +11836,7 @@
         "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
       ],
       "status": "draft",
-      "updated": "2026-08-12",
+      "updated": "2026-08-13",
       "path": "entities/persons/cesare-calchi-novati.md"
     },
     "person/cesare-laurenti": {
@@ -14827,7 +14897,7 @@
         "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
       ],
       "status": "draft",
-      "updated": "2026-08-12",
+      "updated": "2026-08-13",
       "path": "entities/persons/gioachino-galbusera.md"
     },
     "person/giorgio-belloni": {
@@ -15816,6 +15886,41 @@
       "status": "draft",
       "updated": "2026-08-12",
       "path": "entities/persons/giuseppe-quaranta.md"
+    },
+    "person/giuseppe-rocchi": {
+      "id": "person/giuseppe-rocchi",
+      "uri": "urn:ahn:person/giuseppe-rocchi",
+      "type": "person",
+      "label_ja": "ジュゼッペ・ロッキ",
+      "label_en": "Giuseppe Rocchi",
+      "aliases": [
+        "Rocchi Giuseppe"
+      ],
+      "authority": {
+        "wikidata": null,
+        "ulan": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "独立した人物典拠IDと生没年は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": null,
+        "end": null,
+        "display": "19世紀末にフィレンツェで活動"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-13",
+      "path": "entities/persons/giuseppe-rocchi.md"
     },
     "person/giuseppe-sartori": {
       "id": "person/giuseppe-sartori",
@@ -17345,6 +17450,41 @@
       "updated": "2026-08-12",
       "path": "entities/persons/luigi-mion.md"
     },
+    "person/luigi-monteverde": {
+      "id": "person/luigi-monteverde",
+      "uri": "urn:ahn:person/luigi-monteverde",
+      "type": "person",
+      "label_ja": "ルイジ・モンテヴェルデ",
+      "label_en": "Luigi Monteverde",
+      "aliases": [
+        "Monteverde Luigi"
+      ],
+      "authority": {
+        "wikidata": null,
+        "ulan": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "独立した人物典拠IDと生没年は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": null,
+        "end": null,
+        "display": "19世紀末にルガーノで活動"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-13",
+      "path": "entities/persons/luigi-monteverde.md"
+    },
     "person/luigi-nono": {
       "id": "person/luigi-nono",
       "uri": "urn:ahn:person/luigi-nono",
@@ -17799,6 +17939,41 @@
       "status": "draft",
       "updated": "2026-08-12",
       "path": "entities/persons/mose-bianchi.md"
+    },
+    "person/napoleone-nani": {
+      "id": "person/napoleone-nani",
+      "uri": "urn:ahn:person/napoleone-nani",
+      "type": "person",
+      "label_ja": "ナポレオーネ・ナーニ",
+      "label_en": "Napoleone Nani",
+      "aliases": [
+        "Nani Napoleone"
+      ],
+      "authority": {
+        "wikidata": null,
+        "ulan": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "独立した人物典拠IDと生没年は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": null,
+        "end": null,
+        "display": "19世紀末にヴェネツィアで活動"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-13",
+      "path": "entities/persons/napoleone-nani.md"
     },
     "person/natale-ornati": {
       "id": "person/natale-ornati",
@@ -25836,6 +26011,42 @@
       "updated": "2026-08-12",
       "path": "entities/works/consolatrix-afflictorum-villa-1891.md"
     },
+    "work/contadina-tirolese-rocchi-1891": {
+      "id": "work/contadina-tirolese-rocchi-1891",
+      "uri": "urn:ahn:work/contadina-tirolese-rocchi-1891",
+      "type": "work",
+      "label_ja": "ジュゼッペ・ロッキ《Contadina tirolese (Studio dal vero)》",
+      "label_en": "Contadina tirolese (Studio dal vero)",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "作品の独立典拠IDと現所在は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年（1891年展カタログ428番）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/giuseppe-rocchi"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-13",
+      "path": "entities/works/contadina-tirolese-rocchi-1891.md"
+    },
     "work/conti-sbagliati-ripari-1891": {
       "id": "work/conti-sbagliati-ripari-1891",
       "uri": "urn:ahn:work/conti-sbagliati-ripari-1891",
@@ -28336,6 +28547,42 @@
       "status": "draft",
       "updated": "2026-08-12",
       "path": "entities/works/fiori-e-frutta-lucchesi-1891.md"
+    },
+    "work/fiori-galbusera-1891-no431": {
+      "id": "work/fiori-galbusera-1891-no431",
+      "uri": "urn:ahn:work/fiori-galbusera-1891-no431",
+      "type": "work",
+      "label_ja": "ジョアッキーノ・ガルブセラ《Fiori》（431番）",
+      "label_en": "Fiori",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "作品の独立典拠IDと現所在は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年（1891年展カタログ431番）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/gioachino-galbusera"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-13",
+      "path": "entities/works/fiori-galbusera-1891-no431.md"
     },
     "work/fiori-galbusera-1891": {
       "id": "work/fiori-galbusera-1891",
@@ -34779,6 +35026,42 @@
       "updated": "2026-08-12",
       "path": "entities/works/lido-bezzi-1891.md"
     },
+    "work/lillas-gilardelli-1891": {
+      "id": "work/lillas-gilardelli-1891",
+      "uri": "urn:ahn:work/lillas-gilardelli-1891",
+      "type": "work",
+      "label_ja": "アウローラ・ジラルデッリ《Lillas》",
+      "label_en": "Lillas",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "作品の独立典拠IDと現所在は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年（1891年展カタログ426番）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/aurora-gilardelli"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-13",
+      "path": "entities/works/lillas-gilardelli-1891.md"
+    },
     "work/linterrogatorio-crespi-1891": {
       "id": "work/linterrogatorio-crespi-1891",
       "uri": "urn:ahn:work/linterrogatorio-crespi-1891",
@@ -38746,6 +39029,78 @@
       "updated": "2026-08-12",
       "path": "entities/works/poesia-sassi-1891.md"
     },
+    "work/poesia-senile-rocchi-1891-no427": {
+      "id": "work/poesia-senile-rocchi-1891-no427",
+      "uri": "urn:ahn:work/poesia-senile-rocchi-1891-no427",
+      "type": "work",
+      "label_ja": "ジュゼッペ・ロッキ《Poesia senile》（427番）",
+      "label_en": "Poesia senile",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "作品の独立典拠IDと現所在は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年（1891年展カタログ427番）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/giuseppe-rocchi"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-13",
+      "path": "entities/works/poesia-senile-rocchi-1891-no427.md"
+    },
+    "work/poesia-senile-rocchi-1891-no429": {
+      "id": "work/poesia-senile-rocchi-1891-no429",
+      "uri": "urn:ahn:work/poesia-senile-rocchi-1891-no429",
+      "type": "work",
+      "label_ja": "ジュゼッペ・ロッキ《Poesia senile》（429番）",
+      "label_en": "Poesia senile",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "作品の独立典拠IDと現所在は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年（1891年展カタログ429番）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/giuseppe-rocchi"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-13",
+      "path": "entities/works/poesia-senile-rocchi-1891-no429.md"
+    },
     "work/ponte-alla-carraia-gioli-1891": {
       "id": "work/ponte-alla-carraia-gioli-1891",
       "uri": "urn:ahn:work/ponte-alla-carraia-gioli-1891",
@@ -39036,6 +39391,42 @@
       "status": "draft",
       "updated": "2026-08-12",
       "path": "entities/works/prima-eta-ornati-1891.md"
+    },
+    "work/primavera-calchi-novati-1891": {
+      "id": "work/primavera-calchi-novati-1891",
+      "uri": "urn:ahn:work/primavera-calchi-novati-1891",
+      "type": "work",
+      "label_ja": "チェーザレ・カルキ・ノヴァーティ《Primavera》",
+      "label_en": "Primavera",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "作品の独立典拠IDと現所在は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年（1891年展カタログ430番）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/cesare-calchi-novati"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-13",
+      "path": "entities/works/primavera-calchi-novati-1891.md"
     },
     "work/primavera-lancerotto-1891": {
       "id": "work/primavera-lancerotto-1891",
@@ -40662,6 +41053,42 @@
       "updated": "2026-08-12",
       "path": "entities/works/ritratto-della-signora-bonacossa-pagliano-1891.md"
     },
+    "work/ritratto-di-due-signore-carlo-ferrari-1891": {
+      "id": "work/ritratto-di-due-signore-carlo-ferrari-1891",
+      "uri": "urn:ahn:work/ritratto-di-due-signore-carlo-ferrari-1891",
+      "type": "work",
+      "label_ja": "カルロ・フェッラーリ《Ritratto di due signore》",
+      "label_en": "Ritratto di due signore",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "作品の独立典拠IDと現所在は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年（1891年展カタログ432番）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/carlo-ferrari"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-13",
+      "path": "entities/works/ritratto-di-due-signore-carlo-ferrari-1891.md"
+    },
     "work/ritratto-di-giani-giuseppe-pellizza-1891": {
       "id": "work/ritratto-di-giani-giuseppe-pellizza-1891",
       "uri": "urn:ahn:work/ritratto-di-giani-giuseppe-pellizza-1891",
@@ -41905,6 +42332,42 @@
       "updated": "2026-08-12",
       "path": "entities/works/romeo-et-juliette-previati-1907.md"
     },
+    "work/rose-di-giugno-gilardelli-1891": {
+      "id": "work/rose-di-giugno-gilardelli-1891",
+      "uri": "urn:ahn:work/rose-di-giugno-gilardelli-1891",
+      "type": "work",
+      "label_ja": "アウローラ・ジラルデッリ《Rose di Giugno》",
+      "label_en": "Rose di Giugno",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "作品の独立典拠IDと現所在は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年（1891年展カタログ425番）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/aurora-gilardelli"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-13",
+      "path": "entities/works/rose-di-giugno-gilardelli-1891.md"
+    },
     "work/ruscello-studio-monferrato-beccaria-1891": {
       "id": "work/ruscello-studio-monferrato-beccaria-1891",
       "uri": "urn:ahn:work/ruscello-studio-monferrato-beccaria-1891",
@@ -42196,6 +42659,42 @@
       "status": "draft",
       "updated": "2026-08-12",
       "path": "entities/works/scarabocchione-pasini-1891.md"
+    },
+    "work/scogli-a-capri-monteverde-1891": {
+      "id": "work/scogli-a-capri-monteverde-1891",
+      "uri": "urn:ahn:work/scogli-a-capri-monteverde-1891",
+      "type": "work",
+      "label_ja": "ルイジ・モンテヴェルデ《Scogli a Capri》",
+      "label_en": "Scogli a Capri",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "作品の独立典拠IDと現所在は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年（1891年展カタログ424番）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/luigi-monteverde"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-13",
+      "path": "entities/works/scogli-a-capri-monteverde-1891.md"
     },
     "work/sei-studi-riuniti-bianchi-1891": {
       "id": "work/sei-studi-riuniti-bianchi-1891",
@@ -43807,6 +44306,42 @@
       "status": "draft",
       "updated": "2026-08-12",
       "path": "entities/works/tigre-royal-au-repos-magrini-1907.md"
+    },
+    "work/tra-le-frondi-nani-1891": {
+      "id": "work/tra-le-frondi-nani-1891",
+      "uri": "urn:ahn:work/tra-le-frondi-nani-1891",
+      "type": "work",
+      "label_ja": "ナポレオーネ・ナーニ《Tra le frondi》",
+      "label_en": "Tra le frondi",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "作品の独立典拠IDと現所在は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年（1891年展カタログ433番）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/napoleone-nani"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-13",
+      "path": "entities/works/tra-le-frondi-nani-1891.md"
     },
     "work/tralcio-duva-prati-1891": {
       "id": "work/tralcio-duva-prati-1891",
@@ -47713,6 +48248,13 @@
       "source": null
     },
     {
+      "from": "person/aurora-gilardelli",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "person/bartolomeo-bezzi",
       "type": "exhibited_at",
       "to": "event/first-brera-triennale-1891",
@@ -47777,6 +48319,13 @@
     },
     {
       "from": "person/carlo-cressini",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "person/carlo-ferrari",
       "type": "exhibited_at",
       "to": "event/first-brera-triennale-1891",
       "certainty": null,
@@ -48801,6 +49350,13 @@
       "source": null
     },
     {
+      "from": "person/giuseppe-rocchi",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "person/giuseppe-sartori",
       "type": "exhibited_at",
       "to": "event/first-brera-triennale-1891",
@@ -49102,6 +49658,13 @@
       "source": null
     },
     {
+      "from": "person/luigi-monteverde",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "person/luigi-nono",
       "type": "exhibited_at",
       "to": "event/first-brera-triennale-1891",
@@ -49194,6 +49757,13 @@
     },
     {
       "from": "person/mose-bianchi",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "person/napoleone-nani",
       "type": "exhibited_at",
       "to": "event/first-brera-triennale-1891",
       "certainty": null,
@@ -50785,6 +51355,20 @@
       "source": null
     },
     {
+      "from": "work/contadina-tirolese-rocchi-1891",
+      "type": "created_by",
+      "to": "person/giuseppe-rocchi",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/contadina-tirolese-rocchi-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "work/conti-sbagliati-ripari-1891",
       "type": "created_by",
       "to": "person/virgilio-ripari",
@@ -51731,6 +52315,20 @@
     },
     {
       "from": "work/fiori-e-frutta-lucchesi-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/fiori-galbusera-1891-no431",
+      "type": "created_by",
+      "to": "person/gioachino-galbusera",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/fiori-galbusera-1891-no431",
       "type": "exhibited_at",
       "to": "event/first-brera-triennale-1891",
       "certainty": null,
@@ -54222,6 +54820,20 @@
       "source": null
     },
     {
+      "from": "work/lillas-gilardelli-1891",
+      "type": "created_by",
+      "to": "person/aurora-gilardelli",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/lillas-gilardelli-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "work/linterrogatorio-crespi-1891",
       "type": "created_by",
       "to": "person/enrico-crespi",
@@ -55741,6 +56353,34 @@
       "source": null
     },
     {
+      "from": "work/poesia-senile-rocchi-1891-no427",
+      "type": "created_by",
+      "to": "person/giuseppe-rocchi",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/poesia-senile-rocchi-1891-no427",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/poesia-senile-rocchi-1891-no429",
+      "type": "created_by",
+      "to": "person/giuseppe-rocchi",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/poesia-senile-rocchi-1891-no429",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "work/ponte-alla-carraia-gioli-1891",
       "type": "created_by",
       "to": "person/luigi-gioli",
@@ -55847,6 +56487,20 @@
     },
     {
       "from": "work/prima-eta-ornati-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/primavera-calchi-novati-1891",
+      "type": "created_by",
+      "to": "person/cesare-calchi-novati",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/primavera-calchi-novati-1891",
       "type": "exhibited_at",
       "to": "event/first-brera-triennale-1891",
       "certainty": null,
@@ -56476,6 +57130,20 @@
       "source": null
     },
     {
+      "from": "work/ritratto-di-due-signore-carlo-ferrari-1891",
+      "type": "created_by",
+      "to": "person/carlo-ferrari",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/ritratto-di-due-signore-carlo-ferrari-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "work/ritratto-di-giani-giuseppe-pellizza-1891",
       "type": "created_by",
       "to": "person/giuseppe-pellizza-da-volpedo",
@@ -56952,6 +57620,20 @@
       "source": null
     },
     {
+      "from": "work/rose-di-giugno-gilardelli-1891",
+      "type": "created_by",
+      "to": "person/aurora-gilardelli",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/rose-di-giugno-gilardelli-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "work/ruscello-studio-monferrato-beccaria-1891",
       "type": "created_by",
       "to": "person/angelo-beccaria",
@@ -57058,6 +57740,20 @@
     },
     {
       "from": "work/scarabocchione-pasini-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/scogli-a-capri-monteverde-1891",
+      "type": "created_by",
+      "to": "person/luigi-monteverde",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/scogli-a-capri-monteverde-1891",
       "type": "exhibited_at",
       "to": "event/first-brera-triennale-1891",
       "certainty": null,
@@ -57676,6 +58372,20 @@
       "from": "work/tigre-royal-au-repos-magrini-1907",
       "type": "exhibited_at",
       "to": "event/salon-divisionnistes-italiens-paris-1907",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/tra-le-frondi-nani-1891",
+      "type": "created_by",
+      "to": "person/napoleone-nani",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/tra-le-frondi-nani-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
       "certainty": null,
       "source": null
     },
@@ -59674,6 +60384,12 @@
     {
       "from": "event/first-brera-triennale-1891",
       "type": "exhibited",
+      "to": "person/aurora-gilardelli",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
       "to": "person/bartolomeo-bezzi",
       "derived": true
     },
@@ -59729,6 +60445,12 @@
       "from": "event/first-brera-triennale-1891",
       "type": "exhibited",
       "to": "person/carlo-cressini",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "person/carlo-ferrari",
       "derived": true
     },
     {
@@ -60568,6 +61290,12 @@
     {
       "from": "event/first-brera-triennale-1891",
       "type": "exhibited",
+      "to": "person/giuseppe-rocchi",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
       "to": "person/giuseppe-sartori",
       "derived": true
     },
@@ -60796,6 +61524,12 @@
     {
       "from": "event/first-brera-triennale-1891",
       "type": "exhibited",
+      "to": "person/luigi-monteverde",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
       "to": "person/luigi-nono",
       "derived": true
     },
@@ -60875,6 +61609,12 @@
       "from": "event/first-brera-triennale-1891",
       "type": "exhibited",
       "to": "person/mose-bianchi",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "person/napoleone-nani",
       "derived": true
     },
     {
@@ -62198,6 +62938,18 @@
       "derived": true
     },
     {
+      "from": "person/giuseppe-rocchi",
+      "type": "created",
+      "to": "work/contadina-tirolese-rocchi-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/contadina-tirolese-rocchi-1891",
+      "derived": true
+    },
+    {
       "from": "person/virgilio-ripari",
       "type": "created",
       "to": "work/conti-sbagliati-ripari-1891",
@@ -63011,6 +63763,18 @@
       "from": "event/first-brera-triennale-1891",
       "type": "exhibited",
       "to": "work/fiori-e-frutta-lucchesi-1891",
+      "derived": true
+    },
+    {
+      "from": "person/gioachino-galbusera",
+      "type": "created",
+      "to": "work/fiori-galbusera-1891-no431",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/fiori-galbusera-1891-no431",
       "derived": true
     },
     {
@@ -65144,6 +65908,18 @@
       "derived": true
     },
     {
+      "from": "person/aurora-gilardelli",
+      "type": "created",
+      "to": "work/lillas-gilardelli-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/lillas-gilardelli-1891",
+      "derived": true
+    },
+    {
       "from": "person/enrico-crespi",
       "type": "created",
       "to": "work/linterrogatorio-crespi-1891",
@@ -66446,6 +67222,30 @@
       "derived": true
     },
     {
+      "from": "person/giuseppe-rocchi",
+      "type": "created",
+      "to": "work/poesia-senile-rocchi-1891-no427",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/poesia-senile-rocchi-1891-no427",
+      "derived": true
+    },
+    {
+      "from": "person/giuseppe-rocchi",
+      "type": "created",
+      "to": "work/poesia-senile-rocchi-1891-no429",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/poesia-senile-rocchi-1891-no429",
+      "derived": true
+    },
+    {
       "from": "person/luigi-gioli",
       "type": "created",
       "to": "work/ponte-alla-carraia-gioli-1891",
@@ -66539,6 +67339,18 @@
       "from": "event/first-brera-triennale-1891",
       "type": "exhibited",
       "to": "work/prima-eta-ornati-1891",
+      "derived": true
+    },
+    {
+      "from": "person/cesare-calchi-novati",
+      "type": "created",
+      "to": "work/primavera-calchi-novati-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/primavera-calchi-novati-1891",
       "derived": true
     },
     {
@@ -67076,6 +67888,18 @@
       "derived": true
     },
     {
+      "from": "person/carlo-ferrari",
+      "type": "created",
+      "to": "work/ritratto-di-due-signore-carlo-ferrari-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/ritratto-di-due-signore-carlo-ferrari-1891",
+      "derived": true
+    },
+    {
       "from": "person/giuseppe-pellizza-da-volpedo",
       "type": "created",
       "to": "work/ritratto-di-giani-giuseppe-pellizza-1891",
@@ -67484,6 +68308,18 @@
       "derived": true
     },
     {
+      "from": "person/aurora-gilardelli",
+      "type": "created",
+      "to": "work/rose-di-giugno-gilardelli-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/rose-di-giugno-gilardelli-1891",
+      "derived": true
+    },
+    {
       "from": "person/angelo-beccaria",
       "type": "created",
       "to": "work/ruscello-studio-monferrato-beccaria-1891",
@@ -67577,6 +68413,18 @@
       "from": "event/first-brera-triennale-1891",
       "type": "exhibited",
       "to": "work/scarabocchione-pasini-1891",
+      "derived": true
+    },
+    {
+      "from": "person/luigi-monteverde",
+      "type": "created",
+      "to": "work/scogli-a-capri-monteverde-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/scogli-a-capri-monteverde-1891",
       "derived": true
     },
     {
@@ -68105,6 +68953,18 @@
       "from": "event/salon-divisionnistes-italiens-paris-1907",
       "type": "exhibited",
       "to": "work/tigre-royal-au-repos-magrini-1907",
+      "derived": true
+    },
+    {
+      "from": "person/napoleone-nani",
+      "type": "created",
+      "to": "work/tra-le-frondi-nani-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/tra-le-frondi-nani-1891",
       "derived": true
     },
     {

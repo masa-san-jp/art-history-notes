@@ -1,11 +1,11 @@
 ---
-id: person/gioachino-galbusera
-uri: urn:ahn:person/gioachino-galbusera
+id: person/luigi-monteverde
+uri: urn:ahn:person/luigi-monteverde
 type: person
-label_ja: ジョアッキーノ・ガルブセラ
-label_en: Gioachino Galbusera
+label_ja: ルイジ・モンテヴェルデ
+label_en: Luigi Monteverde
 aliases:
-  - Galbusera Gioachino
+  - Monteverde Luigi
 authority:
   wikidata: null
   ulan: null
@@ -15,7 +15,7 @@ authority:
 time:
   start: null
   end: null
-  display: "19世紀末にミラノ出身者として活動"
+  display: "19世紀末にルガーノで活動"
 space: []
 relations:
   - {type: exhibited_at, target: event/first-brera-triennale-1891}
@@ -25,6 +25,6 @@ status: draft
 updated: 2026-08-13
 ---
 
-# ジョアッキーノ・ガルブセラ / Gioachino Galbusera
+# ルイジ・モンテヴェルデ / Luigi Monteverde
 
-1891年の第一回ブレラ三年展公式カタログに、ミラノ出身者として掲載される出品者。266番《Fiori》、431番《Fiori》を出品した。本項は展覧会記録に限定する。
+1891年の第一回ブレラ三年展公式カタログに、ルガーノ出身者として掲載される出品者。424番《Scogli a Capri》を出品した。本項は展覧会記録に限定する。

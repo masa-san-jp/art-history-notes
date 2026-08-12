@@ -1,11 +1,11 @@
 ---
-id: person/gioachino-galbusera
-uri: urn:ahn:person/gioachino-galbusera
+id: person/napoleone-nani
+uri: urn:ahn:person/napoleone-nani
 type: person
-label_ja: ジョアッキーノ・ガルブセラ
-label_en: Gioachino Galbusera
+label_ja: ナポレオーネ・ナーニ
+label_en: Napoleone Nani
 aliases:
-  - Galbusera Gioachino
+  - Nani Napoleone
 authority:
   wikidata: null
   ulan: null
@@ -15,7 +15,7 @@ authority:
 time:
   start: null
   end: null
-  display: "19世紀末にミラノ出身者として活動"
+  display: "19世紀末にヴェネツィアで活動"
 space: []
 relations:
   - {type: exhibited_at, target: event/first-brera-triennale-1891}
@@ -25,6 +25,6 @@ status: draft
 updated: 2026-08-13
 ---
 
-# ジョアッキーノ・ガルブセラ / Gioachino Galbusera
+# ナポレオーネ・ナーニ / Napoleone Nani
 
-1891年の第一回ブレラ三年展公式カタログに、ミラノ出身者として掲載される出品者。266番《Fiori》、431番《Fiori》を出品した。本項は展覧会記録に限定する。
+1891年の第一回ブレラ三年展公式カタログに、ヴェネツィア出身者として掲載される出品者。433番《Tra le frondi》を出品した。本項は展覧会記録に限定する。
