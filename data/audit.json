@@ -3,17 +3,17 @@
     {
       "kind": "no-cross-region",
       "about": "all",
-      "text": "他の文化圏の movement と1本も繋がっていない movement が 26/100 件。時間だけでなく空間の広がりを体系化するので、影響・伝播・反発を調べる余地"
-    },
-    {
-      "kind": "no-cross-region",
-      "about": "europe-west",
-      "text": "europe-west: 6件（ダダ、フォーヴィスム、新印象派、新古典主義 ほか）"
+      "text": "他の文化圏の movement と1本も繋がっていない movement が 25/101 件。時間だけでなく空間の広がりを体系化するので、影響・伝播・反発を調べる余地"
     },
     {
       "kind": "no-cross-region",
       "about": "oceania",
       "text": "oceania: 5件（アスマットの彫刻、イアトムルの彫刻、コーワイワイ、ンガーティ・タラーワイの彫刻 ほか）"
+    },
+    {
+      "kind": "no-cross-region",
+      "about": "europe-west",
+      "text": "europe-west: 5件（フォーヴィスム、新印象派、新古典主義、ロココ ほか）"
     },
     {
       "kind": "no-cross-region",
