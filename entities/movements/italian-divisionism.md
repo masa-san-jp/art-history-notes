@@ -30,12 +30,15 @@ space:
 relations:
   - {type: part_of, target: concept/divisionism}
   - {type: influenced_by, target: movement/neo-impressionism, certainty: scholarly, source: "https://www.treccani.it/enciclopedia/divisionismo/"}
+  - {type: diffused_to, target: place/london, certainty: scholarly, source: "https://www.mart.tn.it/en/mostre/vittore-grubicy-and-europe-at-the-roots-of-divisionism-138656"}
+  - {type: diffused_to, target: place/paris, certainty: scholarly, source: "https://www.mart.tn.it/en/mostre/vittore-grubicy-and-europe-at-the-roots-of-divisionism-138656"}
 sources:
   - https://www.treccani.it/enciclopedia/divisionismo/
   - https://www.treccani.it/enciclopedia/divisionismo_%28Enciclopedia-Italiana%29/
   - https://www.treccani.it/enciclopedia/giovanni-segantini_%28Enciclopedia-dei-ragazzi%29/
   - https://collezionedarte.bancaditalia.it/web/guest/-/divisionismo-1
   - https://www.treccani.it/enciclopedia/angelo-morbelli_%28Dizionario-Biografico%29/
+  - https://www.mart.tn.it/en/mostre/vittore-grubicy-and-europe-at-the-roots-of-divisionism-138656
   - https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf
 status: draft
 updated: 2026-08-12
@@ -97,8 +100,19 @@ Portico D Dの「Parte 2.ª」で630番まで続く（同一作家の複数出�
 `influenced_by` で記録する。ただし、これはイタリアの運動がフランスの運動の単純な組織的継承だったことや、特定作品の
 直接伝播を意味しない。
 
+## 国外への波及
+
+トレント・ロヴェレート近現代美術館（MART）は、画家・画商・批評家ヴィットーレ・グルビーチが国際美術市場に
+対抗する近代画廊を構想し、ロンドン・パリ・オランダ圏との文化的交流を促したこと、さらにイタリアの画家を
+国外へ紹介しようとしたことを記録している
+（[MART](https://www.mart.tn.it/en/mostre/vittore-grubicy-and-europe-at-the-roots-of-divisionism-138656)）。
+ここでの `diffused_to place/london` と `diffused_to place/paris` は、分割主義の全画家が両都市へ移住した
+という意味ではなく、グルビーチを媒介に確認できる国際画廊・批評・交流の経路を表す。なお、ロンドンで
+2008年に開かれたナショナル・ギャラリー展は「イタリア国外で初めての同種の展覧会」とされるが、これは
+後年の受容史であり、19世紀末の経路とは分けて扱う。
+
 ## 未着手
 
 - 1891年第一回ブレラ三年展の会場区分ごとの全出品作と出品者の対応、開催日を公式資料で整理すること
 - プレヴィアーティ、セガンティーニ、モルベッリの person エンティティは追加済み。次は3人とペリッツァらの個別の work エンティティ化
-- 1907年パリで開かれたイタリア分割主義者展はイベント化済み。次は未登録出品者の人物典拠と作品対応、国外での受容経路を整理する
+- 1907年パリで開かれたイタリア分割主義者展はイベント化済み。次は未登録出品者の人物典拠と作品対応、グルビーチ以外の国外での受容経路を整理する
