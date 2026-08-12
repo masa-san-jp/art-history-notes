@@ -32,4 +32,4 @@ updated: 2026-08-12
 フェラーラに生まれ、ミラノで没した画家・版画家・グラフィックデザイナー。イタリア語資料ではAdolfo Magriniとも表記され、
 絵画、装飾、舞台美術、モノタイプなど幅広い活動を行った。
 
-1907年パリ展では、Salle Cの104〜146番にモノタイプとパステル計43作品を出品した。作品個別の典拠整理は次段で行う。
+1907年パリ展では、Salle Cの104〜146番にモノタイプとパステル計43作品を出品した。104番[`《Bouc》`](../works/bouc-magrini-1907.md)、105番[`《Moufflon des Alpes》`](../works/moufflon-des-alpes-magrini-1907.md)、106番[`《Chouettes》`](../works/chouettes-magrini-1907.md)、107番[`《Bisons》`](../works/bisons-magrini-1907.md)、108番[`《Dans l'Isolement》`](../works/dans-l-isolement-magrini-1907.md)、109番[`《Un banquier》`](../works/un-banquier-magrini-1907.md)、110番[`《Ourson》`](../works/ourson-magrini-1907.md)、111番[`《Lion au repos》`](../works/lion-au-repos-magrini-1907.md)、112番[`《Lion dans l'attente》`](../works/lion-dans-l-attente-magrini-1907.md)、113番[`《Ours blanc》`](../works/ours-blanc-magrini-1907.md)を作品記録に分離した。残る114〜146番は順次整理する。
