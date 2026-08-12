@@ -22,6 +22,7 @@ relations:
 sources:
   - https://www.wikidata.org/wiki/Q1528580
   - https://www.treccani.it/enciclopedia/pellizza-da-volpedo-giuseppe_%28Dizionario-Biografico%29/
+  - https://www.pellizza.it/biografia/
   - https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf
 status: draft
 updated: 2026-08-12
@@ -44,12 +45,14 @@ updated: 2026-08-12
 - 440《Pensieri》
 - 557《Ritratto di mia mamma》
 
-一方、MuseoTorinoの伝記は、1891年展の出品作に対して526・531（両親の肖像）、610《Il mediatore (Ritratto di Giuseppe Giani)》、
-608《Pensieri (Teresa)》という番号を付している。同ページは、この番号をScottiの総合カタログ（1986）の作品番号として説明しており、
-1891年展の公式カタログ番号とは別の体系である。したがって、本項では公式PDFの展覧会番号384・440・557と、総合カタログ番号526・531・608・610を併記するが、
-番号を相互に置き換えない。ペリッツァ協会が1891年出品作として挙げる父の肖像は、公式PDF本文で作品名・番号を特定できなかったため、作品エンティティ化を保留する。
+一方、ペリッツァ協会とMuseoTorinoの伝記は、1891年展の出品作として両親の肖像を挙げ、MuseoTorinoは
+526・531（両親の肖像）、610《Il mediatore (Ritratto di Giuseppe Giani)》、608《Pensieri (Teresa)》という番号を付している。
+同ページは、この番号をScottiの総合カタログ（1986）の作品番号として説明しており、1891年展の公式カタログ番号とは別の体系である。
+実際、公式PDFの526番はPizzi Carloの《La bambola rotta》、531番はPoma Silvioの《Novembre》であり、ペリッツァの父母肖像には対応しない。
+したがって、本項では公式PDFの展覧会番号384・440・557と、総合カタログ番号526・531・608・610を併記するが、番号を相互に置き換えない。
+ペリッツァ協会が1891年出品作として挙げる父の肖像は、公式PDF本文で作品名・番号を特定できなかったため、作品エンティティ化を保留する。
 
 ## 未着手
 
-- 父の肖像に対応する公式展覧会カタログ番号と、総合カタログ番号526・531の作品名対応を確定すること
+- 父の肖像に対応する公式展覧会カタログ番号と、総合カタログ番号526・531の作品名対応を確定すること（公式PDFの526・531は別作家のため、番号を流用しない）
 - 1894年第二回ブレラ三年展の分割主義作品と比較すること
