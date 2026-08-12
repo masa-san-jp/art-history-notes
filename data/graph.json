@@ -5889,6 +5889,12 @@
           "source": "https://www.musee-orsay.fr/en/program/whats-on/exhibitions/presentation/neo-impressionism-seurat-paul-klee"
         },
         {
+          "type": "diffused_to",
+          "target": "place/netherlands",
+          "certainty": "scholarly",
+          "source": "https://www.musee-orsay.fr/en/program/whats-on/exhibitions/presentation/neo-impressionism-seurat-paul-klee"
+        },
+        {
           "type": "influenced_by",
           "target": "concept/ukiyo-e",
           "certainty": "scholarly",
@@ -25512,6 +25518,38 @@
       "status": "stub",
       "updated": "2026-08-09",
       "path": "entities/places/murshidabad.md"
+    },
+    "place/netherlands": {
+      "id": "place/netherlands",
+      "uri": "urn:ahn:place/netherlands",
+      "type": "place",
+      "label_ja": "オランダ",
+      "label_en": "Netherlands",
+      "authority": {
+        "wikidata": "Q55",
+        "tgn": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "region": "europe-west",
+      "coordinates": [
+        52.132633,
+        5.291266
+      ],
+      "time": {
+        "start": null,
+        "end": null,
+        "display": null
+      },
+      "relations": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q55"
+      ],
+      "status": "stub",
+      "updated": "2026-08-13",
+      "path": "entities/places/netherlands.md"
     },
     "place/new-york-city": {
       "id": "place/new-york-city",
@@ -57221,6 +57259,13 @@
     },
     {
       "from": "movement/neo-impressionism",
+      "type": "diffused_to",
+      "to": "place/netherlands",
+      "certainty": "scholarly",
+      "source": "https://www.musee-orsay.fr/en/program/whats-on/exhibitions/presentation/neo-impressionism-seurat-paul-klee"
+    },
+    {
+      "from": "movement/neo-impressionism",
       "type": "influenced_by",
       "to": "concept/ukiyo-e",
       "certainty": "scholarly",
@@ -73007,6 +73052,12 @@
     },
     {
       "from": "place/brussels",
+      "type": "received",
+      "to": "movement/neo-impressionism",
+      "derived": true
+    },
+    {
+      "from": "place/netherlands",
       "type": "received",
       "to": "movement/neo-impressionism",
       "derived": true
