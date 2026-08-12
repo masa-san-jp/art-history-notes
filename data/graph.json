@@ -14865,6 +14865,43 @@
       "updated": "2026-08-12",
       "path": "entities/works/effet-de-neige-cinotti-1907.md"
     },
+    "work/effet-de-soleil-le-matin-minozzi-1907": {
+      "id": "work/effet-de-soleil-le-matin-minozzi-1907",
+      "uri": "urn:ahn:work/effet-de-soleil-le-matin-minozzi-1907",
+      "type": "work",
+      "label_ja": "フィリベルト・ミノッツィ《Effet de Soleil, le matin》",
+      "label_en": "Effet de Soleil, le matin",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "独立作品典拠IDは未確認。1907年パリ展カタログ記録を用いる"
+      },
+      "time": {
+        "start": "1907",
+        "end": "1907",
+        "display": "1907年パリ展出品（制作年未確認）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/filiberto-minozzi"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/salon-divisionnistes-italiens-paris-1907"
+        }
+      ],
+      "sources": [
+        "https://exhibitions.univie.ac.at/person/ulan/500164204",
+        "https://exhibitions.univie.ac.at/exhibition/125"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/works/effet-de-soleil-le-matin-minozzi-1907.md"
+    },
     "work/effet-du-soleil-sur-la-neige-maggi-1907": {
       "id": "work/effet-du-soleil-sur-la-neige-maggi-1907",
       "uri": "urn:ahn:work/effet-du-soleil-sur-la-neige-maggi-1907",
@@ -15261,6 +15298,43 @@
       "status": "draft",
       "updated": "2026-08-12",
       "path": "entities/works/lef-no-2-1924.md"
+    },
+    "work/marine-riviera-del-ponente-minozzi-1907": {
+      "id": "work/marine-riviera-del-ponente-minozzi-1907",
+      "uri": "urn:ahn:work/marine-riviera-del-ponente-minozzi-1907",
+      "type": "work",
+      "label_ja": "フィリベルト・ミノッツィ《Marine (Riviera del Ponente)》",
+      "label_en": "Marine (Riviera del Ponente)",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "独立作品典拠IDは未確認。1907年パリ展カタログ記録を用いる"
+      },
+      "time": {
+        "start": "1907",
+        "end": "1907",
+        "display": "1907年パリ展出品（制作年未確認）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/filiberto-minozzi"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/salon-divisionnistes-italiens-paris-1907"
+        }
+      ],
+      "sources": [
+        "https://exhibitions.univie.ac.at/person/ulan/500164204",
+        "https://exhibitions.univie.ac.at/exhibition/125"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/works/marine-riviera-del-ponente-minozzi-1907.md"
     },
     "work/maternita-previati-1891": {
       "id": "work/maternita-previati-1891",
@@ -18483,6 +18557,20 @@
       "source": null
     },
     {
+      "from": "work/effet-de-soleil-le-matin-minozzi-1907",
+      "type": "created_by",
+      "to": "person/filiberto-minozzi",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/effet-de-soleil-le-matin-minozzi-1907",
+      "type": "exhibited_at",
+      "to": "event/salon-divisionnistes-italiens-paris-1907",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "work/effet-du-soleil-sur-la-neige-maggi-1907",
       "type": "created_by",
       "to": "person/cesare-maggi",
@@ -18647,6 +18735,20 @@
       "from": "work/lef-no-2-1924",
       "type": "belongs_to",
       "to": "movement/constructivism",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/marine-riviera-del-ponente-minozzi-1907",
+      "type": "created_by",
+      "to": "person/filiberto-minozzi",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/marine-riviera-del-ponente-minozzi-1907",
+      "type": "exhibited_at",
+      "to": "event/salon-divisionnistes-italiens-paris-1907",
       "certainty": null,
       "source": null
     },
@@ -20395,6 +20497,18 @@
       "derived": true
     },
     {
+      "from": "person/filiberto-minozzi",
+      "type": "created",
+      "to": "work/effet-de-soleil-le-matin-minozzi-1907",
+      "derived": true
+    },
+    {
+      "from": "event/salon-divisionnistes-italiens-paris-1907",
+      "type": "exhibited",
+      "to": "work/effet-de-soleil-le-matin-minozzi-1907",
+      "derived": true
+    },
+    {
       "from": "person/cesare-maggi",
       "type": "created",
       "to": "work/effet-du-soleil-sur-la-neige-maggi-1907",
@@ -20536,6 +20650,18 @@
       "from": "movement/constructivism",
       "type": "has_member",
       "to": "work/lef-no-2-1924",
+      "derived": true
+    },
+    {
+      "from": "person/filiberto-minozzi",
+      "type": "created",
+      "to": "work/marine-riviera-del-ponente-minozzi-1907",
+      "derived": true
+    },
+    {
+      "from": "event/salon-divisionnistes-italiens-paris-1907",
+      "type": "exhibited",
+      "to": "work/marine-riviera-del-ponente-minozzi-1907",
       "derived": true
     },
     {
