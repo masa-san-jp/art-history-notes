@@ -30,6 +30,7 @@ space:
 relations:
   - {type: created_by, target: person/uche-okeke}
   - {type: influenced_by, target: movement/post-impressionism, certainty: scholarly, source: "https://high.org/sites/onobrakpeya/"}
+  - {type: influenced_by, target: movement/nok-sculpture, certainty: scholarly, source: "https://www.si.edu/object/nationalism-and-rhetoric-modernism-nigeria-art-uche-okeke-and-demas-nwoko-1960-1968-chika-okeke-agulu%3Asiris_sil_898257"}
 sources:
   - https://www.wikidata.org/wiki/Q98912326
   - https://en.wikipedia.org/wiki/Zaria_Art_Society
@@ -40,6 +41,7 @@ sources:
   - https://artop.bmth.ac.uk/legacies-of-the-zaria-rebels.html
   - https://www.rem.routledge.com/articles/zaria-art-society-the
   - https://high.org/sites/onobrakpeya/
+  - https://www.si.edu/object/nationalism-and-rhetoric-modernism-nigeria-art-uche-okeke-and-demas-nwoko-1960-1968-chika-okeke-agulu%3Asiris_sil_898257
 status: draft
 updated: 2026-08-12
 ---
@@ -73,6 +75,16 @@ High Museum of Artのブルース・オノブラクペヤ年譜は、オノブ�
 `influenced_by movement/post-impressionism` はソサエティ全員が一様にポスト印象派から影響を受けた
 という意味ではなく、創設メンバーの作品に確認できる受容を、集団の横断的な文化圏接続として記録した
 ものである。ゴーギャン個人や《Palm Wine Women》のエンティティ化は、今回のリンクのためには行わない。
+
+### ノク彫刻との接点（デマス・ヌォコに限定）
+
+ザリア・アート・ソサエティの全員がノク彫刻を同じように受容したという意味ではなく、創設メンバーの
+デマス・ヌォコがノク彫刻を調査し、その造形から現代の作品を展開したという経路を記録する。
+スミソニアンの書誌解説は、ヌォコが北部ナイジェリアのノク彫刻の研究に基づき、1964年以降、南部
+ナイジェリアの陶土でノク像から形式を展開した人物だと説明する。これは、同時代のナイジェリア人作家が
+自国の過去の造形を調査して現在の制作へ移した具体的な受容であり、ノク彫刻からザリア・アート・ソサエティ
+への `influenced_by` を、概念的な類似ではなくメンバーを介した伝達として置く根拠になる
+（[スミソニアンの書誌解説](https://www.si.edu/object/nationalism-and-rhetoric-modernism-nigeria-art-uche-okeke-and-demas-nwoko-1960-1968-chika-okeke-agulu%3Asiris_sil_898257)）。
 
 ## kind の判定 — なぜ `self-declared` か
 
