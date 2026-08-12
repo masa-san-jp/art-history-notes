@@ -31,6 +31,7 @@ sources:
   - https://www.getty.edu/vow/AATFullDisplay?find=Yamato-e&logic=AND&note=&english=Y&subjectid=300018589
   - https://ja.wikipedia.org/wiki/大和絵
   - https://en.wikipedia.org/wiki/Yamato-e
+  - https://www.metmuseum.org/ja/essays/yamato-e-painting
   - https://www.metmuseum.org/art/collection/search/45428
 images:
   - url: https://images.metmuseum.org/CRDImages/as/original/DP244667_CRD.jpg
@@ -58,6 +59,12 @@ updated: 2026-08-10
 する流派が現れ、流派を指す語としても使われるようになった（同、二次情報。原資料は秋山光和
 『平安時代世俗画の研究』とされるが、この記述に対応する脚注番号は ja.wikipedia の版では確認できず、
 **未確認**）。
+
+メトロポリタン美術館も、室町期には中国から新しい水墨画の様式が入り、古典的な大和絵と競合したと
+説明している（[Yamato-e Painting](https://www.metmuseum.org/ja/essays/yamato-e-painting)）。これは
+大和絵と宋元系の画風が同じ運動だったことや、大和絵全体が一方向に中国画から影響を受けたことを示す
+ものではないため、現段階では `movement/song-academy-painting` への直接エッジは張らず、接触・競合の
+文脈として記録する。
 
 Getty AAT の scope note は "first used in the mid-9th century to describe the works produced by
 Japanese artists that differed at first in subject matter, and latter in style, from paintings
