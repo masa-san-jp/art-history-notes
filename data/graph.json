@@ -9586,6 +9586,35 @@
       "updated": "2026-08-12",
       "path": "entities/persons/angelo-morbelli.md"
     },
+    "person/arnaldo-ferraguti": {
+      "id": "person/arnaldo-ferraguti",
+      "uri": "urn:ahn:person/arnaldo-ferraguti",
+      "type": "person",
+      "label_ja": "アルナルド・フェッラグーティ",
+      "label_en": "Arnaldo Ferraguti",
+      "authority": {
+        "wikidata": "Q3623496",
+        "ulan": "500138399",
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": "1862-04-17",
+        "end": "1925-12-04",
+        "display": "1862年4月17日フェラーラ生まれ — 1925年12月4日フォルリ没"
+      },
+      "space": [],
+      "relations": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q3623496",
+        "https://www.museodelpaesaggio.it/artista/arnaldo-ferraguti/",
+        "https://www.istitutomatteucci.it/en/dictionary-of-artists/ferraguti-arnaldo"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/persons/arnaldo-ferraguti.md"
+    },
     "person/benvenuto-benvenuti": {
       "id": "person/benvenuto-benvenuti",
       "uri": "urn:ahn:person/benvenuto-benvenuti",
@@ -14820,6 +14849,46 @@
       "status": "draft",
       "updated": "2026-08-12",
       "path": "entities/works/alba-morbelli-1891.md"
+    },
+    "work/alla-vanga-ferraguti-1891": {
+      "id": "work/alla-vanga-ferraguti-1891",
+      "uri": "urn:ahn:work/alla-vanga-ferraguti-1891",
+      "type": "work",
+      "label_ja": "アルナルド・フェッラグーティ《Alla vanga》",
+      "label_en": "Alla vanga",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "作品の独立典拠IDは未確認。文化財カタログ、作品館、ブレラ展ガイド、1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": "1890",
+        "end": "1890",
+        "display": "1890年（1891年展カタログ66番）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/arnaldo-ferraguti"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://catalogo.beniculturali.it/detail/HistoricOrArtisticProperty/0100397125",
+        "https://www.museodelpaesaggio.it/artista/arnaldo-ferraguti/",
+        "https://galleriemaspes.com/immagini_sito/Cataloghi%20pdf/Brera_Guide.pdf",
+        "https://www.wikidata.org/wiki/Q3623496",
+        "https://upload.wikimedia.org/wikipedia/commons/2/24/Prima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/works/alla-vanga-ferraguti-1891.md"
     },
     "work/apres-midi-d-octobre-fornara-1907": {
       "id": "work/apres-midi-d-octobre-fornara-1907",
@@ -25330,6 +25399,20 @@
       "source": null
     },
     {
+      "from": "work/alla-vanga-ferraguti-1891",
+      "type": "created_by",
+      "to": "person/arnaldo-ferraguti",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/alla-vanga-ferraguti-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "work/apres-midi-d-octobre-fornara-1907",
       "type": "created_by",
       "to": "person/carlo-fornara",
@@ -29887,6 +29970,18 @@
       "from": "event/first-brera-triennale-1891",
       "type": "exhibited",
       "to": "work/alba-morbelli-1891",
+      "derived": true
+    },
+    {
+      "from": "person/arnaldo-ferraguti",
+      "type": "created",
+      "to": "work/alla-vanga-ferraguti-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/alla-vanga-ferraguti-1891",
       "derived": true
     },
     {
