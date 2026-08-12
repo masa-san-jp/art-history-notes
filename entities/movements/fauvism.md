@@ -29,11 +29,13 @@ space:
   - {role: originated_in, target: place/paris}
 relations:
   - {type: influenced_by, target: movement/post-impressionism, certainty: scholarly, source: "https://www.metmuseum.org/ja/essays/fauvism"}
+  - {type: diffused_to, target: place/tokyo, certainty: scholarly, source: "https://www.momak.go.jp/English/collectionGalleryArchive/2017/collectionGallery2017No05.html"}
 sources:
   - https://www.wikidata.org/wiki/Q166593
   - https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300021300
   - https://shop.tate.org.uk/derain-the-pool-of-london/andder1703.html
   - https://www.metmuseum.org/ja/essays/fauvism
+  - https://www.momak.go.jp/English/collectionGalleryArchive/2017/collectionGallery2017No05.html
 status: draft
 updated: 2026-08-12
 ---
@@ -61,6 +63,14 @@ updated: 2026-08-12
 フォーヴ様式への転換の契機として記録されている（[同館の解説](https://www.metmuseum.org/ja/essays/fauvism)）。
 このため本項では、フォーヴィスム全体がポスト印象派の単一の様式を継承したと一般化せず、中心人物の
 形成経路に限定して `influenced_by movement/post-impressionism` を記録する。
+
+## 日本への波及
+
+京都国立近代美術館は、フォーヴィスムが若い画家たちに大きな影響を与え、日本からの留学生もその例外では
+なかったと説明する。同館は、中川紀元が1919年にマティスに、里見勝蔵が1921年にヴラマンクに師事し、帰国後に
+日本の洋画界で新しい様式を広めた経路を挙げている。したがって、ここで記録するのは日本画（nihonga）への
+影響ではなく、フォーヴィスムが日本の画家・洋画団体へ受容された**場所への波及**である。受け手側の
+movementはまだ本KBに分離していないため、`diffused_to place/tokyo` として記録する。
 
 ## 未着手
 
