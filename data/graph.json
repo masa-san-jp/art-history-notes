@@ -9721,6 +9721,38 @@
       "updated": "2026-08-12",
       "path": "entities/persons/andrea-malfatti.md"
     },
+    "person/angelo-antonio-dellangelo": {
+      "id": "person/angelo-antonio-dellangelo",
+      "uri": "urn:ahn:person/angelo-antonio-dellangelo",
+      "type": "person",
+      "label_ja": "アンジェロ・アントニオ・デッランジェロ",
+      "label_en": "Angelo Antonio Dell'Angelo",
+      "authority": {
+        "wikidata": null,
+        "ulan": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "独立した人物典拠IDと生没年は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": null,
+        "end": null,
+        "display": "19世紀末にクラーウェッジャ周辺で活動"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/persons/angelo-antonio-dellangelo.md"
+    },
     "person/angelo-morbelli": {
       "id": "person/angelo-morbelli",
       "uri": "urn:ahn:person/angelo-morbelli",
@@ -10092,6 +10124,41 @@
       "status": "draft",
       "updated": "2026-08-12",
       "path": "entities/persons/carlo-prada.md"
+    },
+    "person/celestino-turletti": {
+      "id": "person/celestino-turletti",
+      "uri": "urn:ahn:person/celestino-turletti",
+      "type": "person",
+      "label_ja": "チェレスティーノ・トゥルレッティ",
+      "label_en": "Celestino Turletti",
+      "authority": {
+        "wikidata": null,
+        "ulan": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "独立した人物典拠IDは未確認。トリノ文化資料、イタリア文化財カタログ、1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": "1845-02-19",
+        "end": "1904-06-23",
+        "display": "1845年2月19日トリノ生まれ — 1904年6月23日没"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://www.artepiemonte.it/portfolio-articoli/turletti-celestino/",
+        "https://dizionariodartesartori.it/artisti/turletti-celestino?sort=title%3Aasc",
+        "https://catalogo.beniculturali.it/detail/HistoricOrArtisticProperty/0100210780",
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/persons/celestino-turletti.md"
     },
     "person/cesare-laurenti": {
       "id": "person/cesare-laurenti",
@@ -11025,6 +11092,40 @@
       "updated": "2026-08-12",
       "path": "entities/persons/francesco-porzio.md"
     },
+    "person/francesco-tabacchi": {
+      "id": "person/francesco-tabacchi",
+      "uri": "urn:ahn:person/francesco-tabacchi",
+      "type": "person",
+      "label_ja": "フランチェスコ・タバッキ",
+      "label_en": "Francesco Tabacchi",
+      "authority": {
+        "wikidata": null,
+        "ulan": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "独立した人物典拠IDは未確認。フリウリ＝ヴェネツィア・ジュリア文化財資料、作品資料、1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": null,
+        "end": null,
+        "display": "19世紀後半に活動"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://patrimonioculturale.regione.fvg.it/disegno/?s_id=526756",
+        "https://one.bid/en/old-masters-francesco-tabacchi/3499550",
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/persons/francesco-tabacchi.md"
+    },
     "person/gaetano-previati": {
       "id": "person/gaetano-previati",
       "uri": "urn:ahn:person/gaetano-previati",
@@ -11545,6 +11646,39 @@
       "status": "draft",
       "updated": "2026-08-12",
       "path": "entities/persons/giuseppe-pellizza-da-volpedo.md"
+    },
+    "person/giuseppina-trzaska": {
+      "id": "person/giuseppina-trzaska",
+      "uri": "urn:ahn:person/giuseppina-trzaska",
+      "type": "person",
+      "label_ja": "ジュゼッピーナ・トルザスカ",
+      "label_en": "Giuseppina Trzaska",
+      "authority": {
+        "wikidata": null,
+        "ulan": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "独立した人物典拠IDと生没年は未確認。ロンバルディアの美術協会資料と1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": null,
+        "end": null,
+        "display": "19世紀末にミラノで活動"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://www.bdl.servizirl.it/bdl/public/rest/srv/item/2121/pdf",
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/persons/giuseppina-trzaska.md"
     },
     "person/gottardo-segantini": {
       "id": "person/gottardo-segantini",
@@ -12788,6 +12922,42 @@
       "status": "draft",
       "updated": "2026-08-12",
       "path": "entities/persons/pompeo-mariani.md"
+    },
+    "person/raffaele-pontremoli": {
+      "id": "person/raffaele-pontremoli",
+      "uri": "urn:ahn:person/raffaele-pontremoli",
+      "type": "person",
+      "label_ja": "ラッファエレ・ポントレモリ",
+      "label_en": "Raffaele Pontremoli",
+      "authority": {
+        "wikidata": "Q16199158",
+        "ulan": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": "1832-09-17",
+        "end": "1906-05-17",
+        "display": "1832年9月17日キエーリ生まれ — 1906年5月17日ミラノ没"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q16199158",
+        "https://dizionariodartesartori.it/artisti/pontremoli-raffaele",
+        "https://www.calcografica.it/stampe/autore.php?id=pontremoli-raffaele",
+        "https://www.lombardiabeniculturali.it/opere-arte/schede-complete/I0160-00846/",
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/persons/raffaele-pontremoli.md"
     },
     "person/ramses-younan": {
       "id": "person/ramses-younan",
@@ -16750,6 +16920,42 @@
       "updated": "2026-08-12",
       "path": "entities/works/bisons-magrini-1907.md"
     },
+    "work/bosco-faggi-macugnaga-dellangelo-1891": {
+      "id": "work/bosco-faggi-macugnaga-dellangelo-1891",
+      "uri": "urn:ahn:work/bosco-faggi-macugnaga-dellangelo-1891",
+      "type": "work",
+      "label_ja": "アンジェロ・アントニオ・デッランジェロ《Bosco di faggi in Macugnaga》",
+      "label_en": "Bosco di faggi in Macugnaga",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "1891年展出品作としての独立典拠IDと現所在は未確認。公式カタログと人物典拠を用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年展出品"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/angelo-antonio-dellangelo"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/works/bosco-faggi-macugnaga-dellangelo-1891.md"
+    },
     "work/bosco-schilpario-grubicy-1891": {
       "id": "work/bosco-schilpario-grubicy-1891",
       "uri": "urn:ahn:work/bosco-schilpario-grubicy-1891",
@@ -17610,6 +17816,43 @@
       "updated": "2026-08-12",
       "path": "entities/works/dans-le-pre-previati-1907.md"
     },
+    "work/dettagli-s-carlo-serra-1891": {
+      "id": "work/dettagli-s-carlo-serra-1891",
+      "uri": "urn:ahn:work/dettagli-s-carlo-serra-1891",
+      "type": "work",
+      "label_ja": "ルイジ・セッラ《Dettagli in disegno del cartone del S. Carlo a Catinari in Roma》",
+      "label_en": "Dettagli in disegno del cartone del S. Carlo a Catinari in Roma",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "1891年展出品作としての独立典拠IDと現所在は未確認。公式カタログと人物典拠を用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年展出品"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/luigi-serra"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://www.treccani.it/enciclopedia/luigi-serra_%28Dizionario-Biografico%29/",
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/works/dettagli-s-carlo-serra-1891.md"
+    },
     "work/deux-chevaux-magrini-1907": {
       "id": "work/deux-chevaux-magrini-1907",
       "uri": "urn:ahn:work/deux-chevaux-magrini-1907",
@@ -17756,6 +17999,43 @@
       "status": "draft",
       "updated": "2026-08-12",
       "path": "entities/works/disegni-ferrari-1891.md"
+    },
+    "work/disegni-pontremoli-1891": {
+      "id": "work/disegni-pontremoli-1891",
+      "uri": "urn:ahn:work/disegni-pontremoli-1891",
+      "type": "work",
+      "label_ja": "ラッファエレ・ポントレモリ《Disegni》",
+      "label_en": "Disegni",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "1891年展出品作としての独立典拠IDと現所在は未確認。公式カタログと人物典拠を用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年展出品"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/raffaele-pontremoli"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://www.calcografica.it/stampe/autore.php?id=pontremoli-raffaele",
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/works/disegni-pontremoli-1891.md"
     },
     "work/dopo-il-ballo-cifariello-1891": {
       "id": "work/dopo-il-ballo-cifariello-1891",
@@ -19099,6 +19379,43 @@
       "updated": "2026-08-12",
       "path": "entities/works/hutte-alpestre-tominetti-1907.md"
     },
+    "work/i-sacri-esuli-pontremoli-1891": {
+      "id": "work/i-sacri-esuli-pontremoli-1891",
+      "uri": "urn:ahn:work/i-sacri-esuli-pontremoli-1891",
+      "type": "work",
+      "label_ja": "ラッファエレ・ポントレモリ《I sacri Esuli》",
+      "label_en": "I sacri Esuli",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "1891年展出品作としての独立典拠IDと現所在は未確認。公式カタログと人物典拠を用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年展出品"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/raffaele-pontremoli"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://www.calcografica.it/stampe/autore.php?id=pontremoli-raffaele",
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/works/i-sacri-esuli-pontremoli-1891.md"
+    },
     "work/il-bacio-di-santuzza-salata-1891": {
       "id": "work/il-bacio-di-santuzza-salata-1891",
       "uri": "urn:ahn:work/il-bacio-di-santuzza-salata-1891",
@@ -19250,6 +19567,43 @@
       "status": "draft",
       "updated": "2026-08-12",
       "path": "entities/works/il-principe-amedeo-bezzola-1891.md"
+    },
+    "work/il-telefono-tabacchi-1891": {
+      "id": "work/il-telefono-tabacchi-1891",
+      "uri": "urn:ahn:work/il-telefono-tabacchi-1891",
+      "type": "work",
+      "label_ja": "フランチェスコ・タバッキ《Il Telefono》",
+      "label_en": "Il Telefono",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "1891年展出品作としての独立典拠IDと現所在は未確認。公式カタログと人物典拠を用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年展出品"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/francesco-tabacchi"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://patrimonioculturale.regione.fvg.it/disegno/?s_id=526756",
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/works/il-telefono-tabacchi-1891.md"
     },
     "work/il-trono-della-bella-mantesca-conconi-1891": {
       "id": "work/il-trono-della-bella-mantesca-conconi-1891",
@@ -19508,6 +19862,43 @@
       "status": "draft",
       "updated": "2026-08-12",
       "path": "entities/works/indivisible-ramponi-1907.md"
+    },
+    "work/innocenzo-x-turletti-1891": {
+      "id": "work/innocenzo-x-turletti-1891",
+      "uri": "urn:ahn:work/innocenzo-x-turletti-1891",
+      "type": "work",
+      "label_ja": "チェレスティーノ・トゥルレッティ《Innocenzo X (da Velasquez)》",
+      "label_en": "Innocenzo X (da Velasquez)",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "1891年展出品作としての独立典拠IDと現所在は未確認。公式カタログと人物典拠を用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年展出品"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/celestino-turletti"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://www.artepiemonte.it/portfolio-articoli/turletti-celestino/",
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/works/innocenzo-x-turletti-1891.md"
     },
     "work/inverno-fragiacomo-1890": {
       "id": "work/inverno-fragiacomo-1890",
@@ -21546,6 +21937,43 @@
       "updated": "2026-08-12",
       "path": "entities/works/lion-dans-l-attente-magrini-1907.md"
     },
+    "work/macbeth-e-le-streghe-pontremoli-1891": {
+      "id": "work/macbeth-e-le-streghe-pontremoli-1891",
+      "uri": "urn:ahn:work/macbeth-e-le-streghe-pontremoli-1891",
+      "type": "work",
+      "label_ja": "ラッファエレ・ポントレモリ《Macbeth e le streghe》",
+      "label_en": "Macbeth e le streghe",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "1891年展出品作としての独立典拠IDと現所在は未確認。公式カタログと人物典拠を用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年展出品"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/raffaele-pontremoli"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://www.calcografica.it/stampe/autore.php?id=pontremoli-raffaele",
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/works/macbeth-e-le-streghe-pontremoli-1891.md"
+    },
     "work/macchiette-d-amici-conconi-1891": {
       "id": "work/macchiette-d-amici-conconi-1891",
       "uri": "urn:ahn:work/macchiette-d-amici-conconi-1891",
@@ -22444,6 +22872,43 @@
       "status": "draft",
       "updated": "2026-08-12",
       "path": "entities/works/militari-de-albertis-1891.md"
+    },
+    "work/monsignor-teodoro-turletti-1891": {
+      "id": "work/monsignor-teodoro-turletti-1891",
+      "uri": "urn:ahn:work/monsignor-teodoro-turletti-1891",
+      "type": "work",
+      "label_ja": "チェレスティーノ・トゥルレッティ《Monsignor Teodoro dei Conti Valfré di Bonzo》",
+      "label_en": "Monsignor Teodoro dei Conti Valfré di Bonzo",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "1891年展出品作としての独立典拠IDと現所在は未確認。公式カタログと人物典拠を用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年展出品"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/celestino-turletti"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://www.artepiemonte.it/portfolio-articoli/turletti-celestino/",
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/works/monsignor-teodoro-turletti-1891.md"
     },
     "work/monument-to-third-international": {
       "id": "work/monument-to-third-international",
@@ -26082,6 +26547,43 @@
       "updated": "2026-08-12",
       "path": "entities/works/ultimi-raggi-tominetti-1891.md"
     },
+    "work/un-angolo-studio-mantegazza-trzaska-1891": {
+      "id": "work/un-angolo-studio-mantegazza-trzaska-1891",
+      "uri": "urn:ahn:work/un-angolo-studio-mantegazza-trzaska-1891",
+      "type": "work",
+      "label_ja": "ジュゼッピーナ・トルザスカ《Un angolo dello studio del Pittore Giacomo Mantegazza.》",
+      "label_en": "Un angolo dello studio del Pittore Giacomo Mantegazza.",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "1891年展出品作としての独立典拠IDと現所在は未確認。公式カタログと人物典拠を用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年展出品"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/giuseppina-trzaska"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://www.bdl.servizirl.it/bdl/public/rest/srv/item/2121/pdf",
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/works/un-angolo-studio-mantegazza-trzaska-1891.md"
+    },
     "work/un-banquier-magrini-1907": {
       "id": "work/un-banquier-magrini-1907",
       "uri": "urn:ahn:work/un-banquier-magrini-1907",
@@ -28616,6 +29118,13 @@
       "source": null
     },
     {
+      "from": "person/angelo-antonio-dellangelo",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "person/angelo-morbelli",
       "type": "belongs_to",
       "to": "movement/italian-divisionism",
@@ -28720,6 +29229,13 @@
       "from": "person/carlo-prada",
       "type": "exhibited_at",
       "to": "event/salon-divisionnistes-italiens-paris-1907",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "person/celestino-turletti",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
       "certainty": null,
       "source": null
     },
@@ -28919,6 +29435,13 @@
       "source": null
     },
     {
+      "from": "person/francesco-tabacchi",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "person/gaetano-previati",
       "type": "belongs_to",
       "to": "movement/italian-divisionism",
@@ -29092,6 +29615,13 @@
     },
     {
       "from": "person/giuseppe-pellizza-da-volpedo",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "person/giuseppina-trzaska",
       "type": "exhibited_at",
       "to": "event/first-brera-triennale-1891",
       "certainty": null,
@@ -29307,6 +29837,13 @@
     },
     {
       "from": "person/pompeo-mariani",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "person/raffaele-pontremoli",
       "type": "exhibited_at",
       "to": "event/first-brera-triennale-1891",
       "certainty": null,
@@ -29689,6 +30226,20 @@
       "source": null
     },
     {
+      "from": "work/bosco-faggi-macugnaga-dellangelo-1891",
+      "type": "created_by",
+      "to": "person/angelo-antonio-dellangelo",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/bosco-faggi-macugnaga-dellangelo-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "work/bosco-schilpario-grubicy-1891",
       "type": "created_by",
       "to": "person/vittore-grubicy-de-dragon",
@@ -30025,6 +30576,20 @@
       "source": null
     },
     {
+      "from": "work/dettagli-s-carlo-serra-1891",
+      "type": "created_by",
+      "to": "person/luigi-serra",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/dettagli-s-carlo-serra-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "work/deux-chevaux-magrini-1907",
       "type": "created_by",
       "to": "person/adolphe-magrini",
@@ -30075,6 +30640,20 @@
     },
     {
       "from": "work/disegni-ferrari-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/disegni-pontremoli-1891",
+      "type": "created_by",
+      "to": "person/raffaele-pontremoli",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/disegni-pontremoli-1891",
       "type": "exhibited_at",
       "to": "event/first-brera-triennale-1891",
       "certainty": null,
@@ -30585,6 +31164,20 @@
       "source": null
     },
     {
+      "from": "work/i-sacri-esuli-pontremoli-1891",
+      "type": "created_by",
+      "to": "person/raffaele-pontremoli",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/i-sacri-esuli-pontremoli-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "work/il-bacio-di-santuzza-salata-1891",
       "type": "created_by",
       "to": "person/achille-salata",
@@ -30635,6 +31228,20 @@
     },
     {
       "from": "work/il-principe-amedeo-bezzola-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/il-telefono-tabacchi-1891",
+      "type": "created_by",
+      "to": "person/francesco-tabacchi",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/il-telefono-tabacchi-1891",
       "type": "exhibited_at",
       "to": "event/first-brera-triennale-1891",
       "certainty": null,
@@ -30735,6 +31342,20 @@
       "from": "work/indivisible-ramponi-1907",
       "type": "exhibited_at",
       "to": "event/salon-divisionnistes-italiens-paris-1907",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/innocenzo-x-turletti-1891",
+      "type": "created_by",
+      "to": "person/celestino-turletti",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/innocenzo-x-turletti-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
       "certainty": null,
       "source": null
     },
@@ -31530,6 +32151,20 @@
       "source": null
     },
     {
+      "from": "work/macbeth-e-le-streghe-pontremoli-1891",
+      "type": "created_by",
+      "to": "person/raffaele-pontremoli",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/macbeth-e-le-streghe-pontremoli-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "work/macchiette-d-amici-conconi-1891",
       "type": "created_by",
       "to": "person/luigi-conconi",
@@ -31867,6 +32502,20 @@
     },
     {
       "from": "work/militari-de-albertis-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/monsignor-teodoro-turletti-1891",
+      "type": "created_by",
+      "to": "person/celestino-turletti",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/monsignor-teodoro-turletti-1891",
       "type": "exhibited_at",
       "to": "event/first-brera-triennale-1891",
       "certainty": null,
@@ -33246,6 +33895,20 @@
     },
     {
       "from": "work/ultimi-raggi-tominetti-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/un-angolo-studio-mantegazza-trzaska-1891",
+      "type": "created_by",
+      "to": "person/giuseppina-trzaska",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/un-angolo-studio-mantegazza-trzaska-1891",
       "type": "exhibited_at",
       "to": "event/first-brera-triennale-1891",
       "certainty": null,
@@ -34590,6 +35253,12 @@
       "derived": true
     },
     {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "person/angelo-antonio-dellangelo",
+      "derived": true
+    },
+    {
       "from": "movement/italian-divisionism",
       "type": "has_member",
       "to": "person/angelo-morbelli",
@@ -34671,6 +35340,12 @@
       "from": "event/salon-divisionnistes-italiens-paris-1907",
       "type": "exhibited",
       "to": "person/carlo-prada",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "person/celestino-turletti",
       "derived": true
     },
     {
@@ -34824,6 +35499,12 @@
       "derived": true
     },
     {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "person/francesco-tabacchi",
+      "derived": true
+    },
+    {
       "from": "movement/italian-divisionism",
       "type": "has_member",
       "to": "person/gaetano-previati",
@@ -34953,6 +35634,12 @@
       "from": "event/first-brera-triennale-1891",
       "type": "exhibited",
       "to": "person/giuseppe-pellizza-da-volpedo",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "person/giuseppina-trzaska",
       "derived": true
     },
     {
@@ -35103,6 +35790,12 @@
       "from": "event/first-brera-triennale-1891",
       "type": "exhibited",
       "to": "person/pompeo-mariani",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "person/raffaele-pontremoli",
       "derived": true
     },
     {
@@ -35394,6 +36087,18 @@
       "derived": true
     },
     {
+      "from": "person/angelo-antonio-dellangelo",
+      "type": "created",
+      "to": "work/bosco-faggi-macugnaga-dellangelo-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/bosco-faggi-macugnaga-dellangelo-1891",
+      "derived": true
+    },
+    {
       "from": "person/vittore-grubicy-de-dragon",
       "type": "created",
       "to": "work/bosco-schilpario-grubicy-1891",
@@ -35682,6 +36387,18 @@
       "derived": true
     },
     {
+      "from": "person/luigi-serra",
+      "type": "created",
+      "to": "work/dettagli-s-carlo-serra-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/dettagli-s-carlo-serra-1891",
+      "derived": true
+    },
+    {
       "from": "person/adolphe-magrini",
       "type": "created",
       "to": "work/deux-chevaux-magrini-1907",
@@ -35727,6 +36444,18 @@
       "from": "event/first-brera-triennale-1891",
       "type": "exhibited",
       "to": "work/disegni-ferrari-1891",
+      "derived": true
+    },
+    {
+      "from": "person/raffaele-pontremoli",
+      "type": "created",
+      "to": "work/disegni-pontremoli-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/disegni-pontremoli-1891",
       "derived": true
     },
     {
@@ -36162,6 +36891,18 @@
       "derived": true
     },
     {
+      "from": "person/raffaele-pontremoli",
+      "type": "created",
+      "to": "work/i-sacri-esuli-pontremoli-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/i-sacri-esuli-pontremoli-1891",
+      "derived": true
+    },
+    {
       "from": "person/achille-salata",
       "type": "created",
       "to": "work/il-bacio-di-santuzza-salata-1891",
@@ -36207,6 +36948,18 @@
       "from": "event/first-brera-triennale-1891",
       "type": "exhibited",
       "to": "work/il-principe-amedeo-bezzola-1891",
+      "derived": true
+    },
+    {
+      "from": "person/francesco-tabacchi",
+      "type": "created",
+      "to": "work/il-telefono-tabacchi-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/il-telefono-tabacchi-1891",
       "derived": true
     },
     {
@@ -36291,6 +37044,18 @@
       "from": "event/salon-divisionnistes-italiens-paris-1907",
       "type": "exhibited",
       "to": "work/indivisible-ramponi-1907",
+      "derived": true
+    },
+    {
+      "from": "person/celestino-turletti",
+      "type": "created",
+      "to": "work/innocenzo-x-turletti-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/innocenzo-x-turletti-1891",
       "derived": true
     },
     {
@@ -36972,6 +37737,18 @@
       "derived": true
     },
     {
+      "from": "person/raffaele-pontremoli",
+      "type": "created",
+      "to": "work/macbeth-e-le-streghe-pontremoli-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/macbeth-e-le-streghe-pontremoli-1891",
+      "derived": true
+    },
+    {
       "from": "person/luigi-conconi",
       "type": "created",
       "to": "work/macchiette-d-amici-conconi-1891",
@@ -37263,6 +38040,18 @@
       "from": "event/first-brera-triennale-1891",
       "type": "exhibited",
       "to": "work/militari-de-albertis-1891",
+      "derived": true
+    },
+    {
+      "from": "person/celestino-turletti",
+      "type": "created",
+      "to": "work/monsignor-teodoro-turletti-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/monsignor-teodoro-turletti-1891",
       "derived": true
     },
     {
@@ -38445,6 +39234,18 @@
       "from": "event/first-brera-triennale-1891",
       "type": "exhibited",
       "to": "work/ultimi-raggi-tominetti-1891",
+      "derived": true
+    },
+    {
+      "from": "person/giuseppina-trzaska",
+      "type": "created",
+      "to": "work/un-angolo-studio-mantegazza-trzaska-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/un-angolo-studio-mantegazza-trzaska-1891",
       "derived": true
     },
     {
