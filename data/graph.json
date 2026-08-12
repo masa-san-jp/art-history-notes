@@ -11963,6 +11963,38 @@
       "updated": "2026-08-13",
       "path": "entities/persons/carlo-pellegrini.md"
     },
+    "person/carlo-pizzi": {
+      "id": "person/carlo-pizzi",
+      "uri": "urn:ahn:person/carlo-pizzi",
+      "type": "person",
+      "label_ja": "カルロ・ピッツィ",
+      "label_en": "Carlo Pizzi",
+      "authority": {
+        "wikidata": null,
+        "ulan": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "独立した人物典拠IDと生没年は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": null,
+        "end": null,
+        "display": "19世紀末にレッコ出身者として活動"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-13",
+      "path": "entities/persons/carlo-pizzi.md"
+    },
     "person/carlo-pogliani": {
       "id": "person/carlo-pogliani",
       "uri": "urn:ahn:person/carlo-pogliani",
@@ -12301,6 +12333,38 @@
       "status": "draft",
       "updated": "2026-08-13",
       "path": "entities/persons/cesare-calchi-novati.md"
+    },
+    "person/cesare-cavalie": {
+      "id": "person/cesare-cavalie",
+      "uri": "urn:ahn:person/cesare-cavalie",
+      "type": "person",
+      "label_ja": "チェーザレ・カヴァリエ",
+      "label_en": "Cesare Cavalié",
+      "authority": {
+        "wikidata": null,
+        "ulan": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "独立した人物典拠IDと生没年は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": null,
+        "end": null,
+        "display": "19世紀末にベルガモ出身者として活動"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-13",
+      "path": "entities/persons/cesare-cavalie.md"
     },
     "person/cesare-laurenti": {
       "id": "person/cesare-laurenti",
@@ -13578,6 +13642,38 @@
       "status": "draft",
       "updated": "2026-08-12",
       "path": "entities/persons/enrico-astorri.md"
+    },
+    "person/enrico-bartezago": {
+      "id": "person/enrico-bartezago",
+      "uri": "urn:ahn:person/enrico-bartezago",
+      "type": "person",
+      "label_ja": "エンリコ・バルテザーゴ",
+      "label_en": "Enrico Bartezago",
+      "authority": {
+        "wikidata": null,
+        "ulan": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "独立した人物典拠IDと生没年は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": null,
+        "end": null,
+        "display": "19世紀末にミラノで活動"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-13",
+      "path": "entities/persons/enrico-bartezago.md"
     },
     "person/enrico-braga": {
       "id": "person/enrico-braga",
@@ -15291,6 +15387,38 @@
       "status": "draft",
       "updated": "2026-08-12",
       "path": "entities/persons/francesco-tabacchi.md"
+    },
+    "person/francesco-vismara": {
+      "id": "person/francesco-vismara",
+      "uri": "urn:ahn:person/francesco-vismara",
+      "type": "person",
+      "label_ja": "フランチェスコ・ヴィスマーラ",
+      "label_en": "Francesco Vismara",
+      "authority": {
+        "wikidata": null,
+        "ulan": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "独立した人物典拠IDと生没年は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": null,
+        "end": null,
+        "display": "19世紀末にミラノで活動"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-13",
+      "path": "entities/persons/francesco-vismara.md"
     },
     "person/gabriele-brunati": {
       "id": "person/gabriele-brunati",
@@ -17057,6 +17185,38 @@
       "status": "draft",
       "updated": "2026-08-12",
       "path": "entities/persons/giuseppe-sartori.md"
+    },
+    "person/giuseppe-tivoli": {
+      "id": "person/giuseppe-tivoli",
+      "uri": "urn:ahn:person/giuseppe-tivoli",
+      "type": "person",
+      "label_ja": "ジュゼッペ・ティーヴォリ",
+      "label_en": "Giuseppe Tivoli",
+      "authority": {
+        "wikidata": null,
+        "ulan": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "独立した人物典拠IDと生没年は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": null,
+        "end": null,
+        "display": "19世紀末にトリエステ出身者として活動"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-13",
+      "path": "entities/persons/giuseppe-tivoli.md"
     },
     "person/giuseppe-ugolini": {
       "id": "person/giuseppe-ugolini",
@@ -26407,6 +26567,42 @@
       "updated": "2026-08-13",
       "path": "entities/works/battaglia-guigoni-1891.md"
     },
+    "work/battute-d-aspetto-tivoli-1891": {
+      "id": "work/battute-d-aspetto-tivoli-1891",
+      "uri": "urn:ahn:work/battute-d-aspetto-tivoli-1891",
+      "type": "work",
+      "label_ja": "ジュゼッペ・ティーヴォリ《Battute d’aspetto》",
+      "label_en": "Battute d’aspetto",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "作品の独立典拠IDと現所在は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年（1891年展カタログ524番）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/giuseppe-tivoli"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-13",
+      "path": "entities/works/battute-d-aspetto-tivoli-1891.md"
+    },
     "work/beppina-giobbio-1891": {
       "id": "work/beppina-giobbio-1891",
       "uri": "urn:ahn:work/beppina-giobbio-1891",
@@ -33978,6 +34174,42 @@
       "updated": "2026-08-13",
       "path": "entities/works/il-venditore-statuette-capone-1891.md"
     },
+    "work/il-viatico-nel-villaggio-vismara-1891": {
+      "id": "work/il-viatico-nel-villaggio-vismara-1891",
+      "uri": "urn:ahn:work/il-viatico-nel-villaggio-vismara-1891",
+      "type": "work",
+      "label_ja": "フランチェスコ・ヴィスマーラ《Il viatico nel villaggio》",
+      "label_en": "Il viatico nel villaggio",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "作品の独立典拠IDと現所在は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年（1891年展カタログ530番）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/francesco-vismara"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-13",
+      "path": "entities/works/il-viatico-nel-villaggio-vismara-1891.md"
+    },
     "work/impression-d-automne-fornara-1907": {
       "id": "work/impression-d-automne-fornara-1907",
       "uri": "urn:ahn:work/impression-d-automne-fornara-1907",
@@ -35591,6 +35823,42 @@
       "updated": "2026-08-13",
       "path": "entities/works/l-origine-di-roma-secchi-1891.md"
     },
+    "work/la-bambola-rotta-da-rin-1891": {
+      "id": "work/la-bambola-rotta-da-rin-1891",
+      "uri": "urn:ahn:work/la-bambola-rotta-da-rin-1891",
+      "type": "work",
+      "label_ja": "トンマーゾ・ダ・リン《La bambola rotta》",
+      "label_en": "La bambola rotta",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "作品の独立典拠IDと現所在は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年（1891年展カタログ526番）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/tommaso-da-rin"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-13",
+      "path": "entities/works/la-bambola-rotta-da-rin-1891.md"
+    },
     "work/la-barca-del-papa-milesi-1891": {
       "id": "work/la-barca-del-papa-milesi-1891",
       "uri": "urn:ahn:work/la-barca-del-papa-milesi-1891",
@@ -36619,6 +36887,42 @@
       "status": "draft",
       "updated": "2026-08-12",
       "path": "entities/works/la-questione-sociale-cogliati-1891.md"
+    },
+    "work/la-questua-cortile-a-cargiago-poma-1891": {
+      "id": "work/la-questua-cortile-a-cargiago-poma-1891",
+      "uri": "urn:ahn:work/la-questua-cortile-a-cargiago-poma-1891",
+      "type": "work",
+      "label_ja": "シルヴィオ・ポマ《La questua. - Cortile a Cargiago》",
+      "label_en": "La questua. - Cortile a Cargiago",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "作品の独立典拠IDと現所在は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年（1891年展カタログ532番）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/silvio-poma"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-13",
+      "path": "entities/works/la-questua-cortile-a-cargiago-poma-1891.md"
     },
     "work/la-regina-del-mercato-salvadori-1891": {
       "id": "work/la-regina-del-mercato-salvadori-1891",
@@ -38437,6 +38741,42 @@
       "status": "draft",
       "updated": "2026-08-12",
       "path": "entities/works/les-rois-mages-previati-1907.md"
+    },
+    "work/letera-d-amore-zezzos-1891": {
+      "id": "work/letera-d-amore-zezzos-1891",
+      "uri": "urn:ahn:work/letera-d-amore-zezzos-1891",
+      "type": "work",
+      "label_ja": "アレッサンドロ・ゼッツォス《Lettera d’amore》",
+      "label_en": "Lettera d’amore",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "作品の独立典拠IDと現所在は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年（1891年展カタログ529番）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/alessandro-zezzos"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-13",
+      "path": "entities/works/letera-d-amore-zezzos-1891.md"
     },
     "work/libellule-fossati-1891": {
       "id": "work/libellule-fossati-1891",
@@ -41092,6 +41432,42 @@
       "status": "draft",
       "updated": "2026-08-12",
       "path": "entities/works/notte-di-primavera-bezzi-1891.md"
+    },
+    "work/novembre-cavalie-1891": {
+      "id": "work/novembre-cavalie-1891",
+      "uri": "urn:ahn:work/novembre-cavalie-1891",
+      "type": "work",
+      "label_ja": "チェーザレ・カヴァリエ《Novembre》",
+      "label_en": "Novembre",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "作品の独立典拠IDと現所在は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年（1891年展カタログ531番）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/cesare-cavalie"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-13",
+      "path": "entities/works/novembre-cavalie-1891.md"
     },
     "work/novembre-costantini-1891": {
       "id": "work/novembre-costantini-1891",
@@ -47930,6 +48306,42 @@
       "updated": "2026-08-12",
       "path": "entities/works/statua-marmo-monumento-funerario-bazzaro-1891.md"
     },
+    "work/strada-vecchia-pizzi-1891": {
+      "id": "work/strada-vecchia-pizzi-1891",
+      "uri": "urn:ahn:work/strada-vecchia-pizzi-1891",
+      "type": "work",
+      "label_ja": "カルロ・ピッツィ《Strada vecchia》",
+      "label_en": "Strada vecchia",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "作品の独立典拠IDと現所在は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年（1891年展カタログ527番）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/carlo-pizzi"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-13",
+      "path": "entities/works/strada-vecchia-pizzi-1891.md"
+    },
     "work/studio-dal-vero-bianchi-1891": {
       "id": "work/studio-dal-vero-bianchi-1891",
       "uri": "urn:ahn:work/studio-dal-vero-bianchi-1891",
@@ -48185,6 +48597,42 @@
       "updated": "2026-08-13",
       "path": "entities/works/sugli-scogli-lionetti-1891.md"
     },
+    "work/sul-campo-del-lavoro-bartezago-1891": {
+      "id": "work/sul-campo-del-lavoro-bartezago-1891",
+      "uri": "urn:ahn:work/sul-campo-del-lavoro-bartezago-1891",
+      "type": "work",
+      "label_ja": "エンリコ・バルテザーゴ《Sul campo del lavoro》",
+      "label_en": "Sul campo del lavoro",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "作品の独立典拠IDと現所在は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年（1891年展カタログ528番）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/enrico-bartezago"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-13",
+      "path": "entities/works/sul-campo-del-lavoro-bartezago-1891.md"
+    },
     "work/sul-colle-sardi-1891": {
       "id": "work/sul-colle-sardi-1891",
       "uri": "urn:ahn:work/sul-colle-sardi-1891",
@@ -48256,6 +48704,42 @@
       "status": "draft",
       "updated": "2026-08-12",
       "path": "entities/works/sul-lago-d-orta-rossi-1891.md"
+    },
+    "work/sul-piave-bortoluzzi-1891": {
+      "id": "work/sul-piave-bortoluzzi-1891",
+      "uri": "urn:ahn:work/sul-piave-bortoluzzi-1891",
+      "type": "work",
+      "label_ja": "ミッロ・ボルトルッツィ《Sul Piave》",
+      "label_en": "Sul Piave",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "作品の独立典拠IDと現所在は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年（1891年展カタログ533番）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/millo-bortoluzzi"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-13",
+      "path": "entities/works/sul-piave-bortoluzzi-1891.md"
     },
     "work/sulla-montagna-bordignon-1891": {
       "id": "work/sulla-montagna-bordignon-1891",
@@ -48727,6 +49211,42 @@
       "status": "draft",
       "updated": "2026-08-12",
       "path": "entities/works/testa-di-vecchio-nono-1891.md"
+    },
+    "work/testa-di-vecchio-studio-anastasio-1891": {
+      "id": "work/testa-di-vecchio-studio-anastasio-1891",
+      "uri": "urn:ahn:work/testa-di-vecchio-studio-anastasio-1891",
+      "type": "work",
+      "label_ja": "ピエトロ・アナスタージオ《Testa di vecchio - Studio dal vero》",
+      "label_en": "Testa di vecchio - Studio dal vero",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "作品の独立典拠IDと現所在は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年（1891年展カタログ525番）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/pietro-anastasio"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-13",
+      "path": "entities/works/testa-di-vecchio-studio-anastasio-1891.md"
     },
     "work/testa-di-vecchio-studio-berta-1891": {
       "id": "work/testa-di-vecchio-studio-berta-1891",
@@ -53312,6 +53832,13 @@
       "source": null
     },
     {
+      "from": "person/carlo-pizzi",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "person/carlo-pogliani",
       "type": "exhibited_at",
       "to": "event/first-brera-triennale-1891",
@@ -53383,6 +53910,13 @@
     },
     {
       "from": "person/cesare-calchi-novati",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "person/cesare-cavalie",
       "type": "exhibited_at",
       "to": "event/first-brera-triennale-1891",
       "certainty": null,
@@ -53669,6 +54203,13 @@
     },
     {
       "from": "person/enrico-astorri",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "person/enrico-bartezago",
       "type": "exhibited_at",
       "to": "event/first-brera-triennale-1891",
       "certainty": null,
@@ -54005,6 +54546,13 @@
     },
     {
       "from": "person/francesco-tabacchi",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "person/francesco-vismara",
       "type": "exhibited_at",
       "to": "event/first-brera-triennale-1891",
       "certainty": null,
@@ -54443,6 +54991,13 @@
     },
     {
       "from": "person/giuseppe-sartori",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "person/giuseppe-tivoli",
       "type": "exhibited_at",
       "to": "event/first-brera-triennale-1891",
       "certainty": null,
@@ -56035,6 +56590,20 @@
     },
     {
       "from": "work/battaglia-guigoni-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/battute-d-aspetto-tivoli-1891",
+      "type": "created_by",
+      "to": "person/giuseppe-tivoli",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/battute-d-aspetto-tivoli-1891",
       "type": "exhibited_at",
       "to": "event/first-brera-triennale-1891",
       "certainty": null,
@@ -58953,6 +59522,20 @@
       "source": null
     },
     {
+      "from": "work/il-viatico-nel-villaggio-vismara-1891",
+      "type": "created_by",
+      "to": "person/francesco-vismara",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/il-viatico-nel-villaggio-vismara-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "work/impression-d-automne-fornara-1907",
       "type": "created_by",
       "to": "person/carlo-fornara",
@@ -59576,6 +60159,20 @@
       "source": null
     },
     {
+      "from": "work/la-bambola-rotta-da-rin-1891",
+      "type": "created_by",
+      "to": "person/tommaso-da-rin",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/la-bambola-rotta-da-rin-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "work/la-barca-del-papa-milesi-1891",
       "type": "created_by",
       "to": "person/alessandro-milesi",
@@ -59969,6 +60566,20 @@
     },
     {
       "from": "work/la-questione-sociale-cogliati-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/la-questua-cortile-a-cargiago-poma-1891",
+      "type": "created_by",
+      "to": "person/silvio-poma",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/la-questua-cortile-a-cargiago-poma-1891",
       "type": "exhibited_at",
       "to": "event/first-brera-triennale-1891",
       "certainty": null,
@@ -60678,6 +61289,20 @@
       "from": "work/les-rois-mages-previati-1907",
       "type": "exhibited_at",
       "to": "event/salon-divisionnistes-italiens-paris-1907",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/letera-d-amore-zezzos-1891",
+      "type": "created_by",
+      "to": "person/alessandro-zezzos",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/letera-d-amore-zezzos-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
       "certainty": null,
       "source": null
     },
@@ -61691,6 +62316,20 @@
     },
     {
       "from": "work/notte-di-primavera-bezzi-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/novembre-cavalie-1891",
+      "type": "created_by",
+      "to": "person/cesare-cavalie",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/novembre-cavalie-1891",
       "type": "exhibited_at",
       "to": "event/first-brera-triennale-1891",
       "certainty": null,
@@ -64322,6 +64961,20 @@
       "source": null
     },
     {
+      "from": "work/strada-vecchia-pizzi-1891",
+      "type": "created_by",
+      "to": "person/carlo-pizzi",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/strada-vecchia-pizzi-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "work/studio-dal-vero-bianchi-1891",
       "type": "created_by",
       "to": "person/emilio-bianchi",
@@ -64420,6 +65073,20 @@
       "source": null
     },
     {
+      "from": "work/sul-campo-del-lavoro-bartezago-1891",
+      "type": "created_by",
+      "to": "person/enrico-bartezago",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/sul-campo-del-lavoro-bartezago-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "work/sul-colle-sardi-1891",
       "type": "created_by",
       "to": "person/cesira-sardi",
@@ -64442,6 +65109,20 @@
     },
     {
       "from": "work/sul-lago-d-orta-rossi-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/sul-piave-bortoluzzi-1891",
+      "type": "created_by",
+      "to": "person/millo-bortoluzzi",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/sul-piave-bortoluzzi-1891",
       "type": "exhibited_at",
       "to": "event/first-brera-triennale-1891",
       "certainty": null,
@@ -64624,6 +65305,20 @@
     },
     {
       "from": "work/testa-di-vecchio-nono-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/testa-di-vecchio-studio-anastasio-1891",
+      "type": "created_by",
+      "to": "person/pietro-anastasio",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/testa-di-vecchio-studio-anastasio-1891",
       "type": "exhibited_at",
       "to": "event/first-brera-triennale-1891",
       "certainty": null,
@@ -66986,6 +67681,12 @@
     {
       "from": "event/first-brera-triennale-1891",
       "type": "exhibited",
+      "to": "person/carlo-pizzi",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
       "to": "person/carlo-pogliani",
       "derived": true
     },
@@ -67047,6 +67748,12 @@
       "from": "event/first-brera-triennale-1891",
       "type": "exhibited",
       "to": "person/cesare-calchi-novati",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "person/cesare-cavalie",
       "derived": true
     },
     {
@@ -67275,6 +67982,12 @@
       "from": "event/first-brera-triennale-1891",
       "type": "exhibited",
       "to": "person/enrico-astorri",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "person/enrico-bartezago",
       "derived": true
     },
     {
@@ -67563,6 +68276,12 @@
       "from": "event/first-brera-triennale-1891",
       "type": "exhibited",
       "to": "person/francesco-tabacchi",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "person/francesco-vismara",
       "derived": true
     },
     {
@@ -67917,6 +68636,12 @@
       "from": "event/first-brera-triennale-1891",
       "type": "exhibited",
       "to": "person/giuseppe-sartori",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "person/giuseppe-tivoli",
       "derived": true
     },
     {
@@ -69213,6 +69938,18 @@
       "from": "event/first-brera-triennale-1891",
       "type": "exhibited",
       "to": "work/battaglia-guigoni-1891",
+      "derived": true
+    },
+    {
+      "from": "person/giuseppe-tivoli",
+      "type": "created",
+      "to": "work/battute-d-aspetto-tivoli-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/battute-d-aspetto-tivoli-1891",
       "derived": true
     },
     {
@@ -71712,6 +72449,18 @@
       "derived": true
     },
     {
+      "from": "person/francesco-vismara",
+      "type": "created",
+      "to": "work/il-viatico-nel-villaggio-vismara-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/il-viatico-nel-villaggio-vismara-1891",
+      "derived": true
+    },
+    {
       "from": "person/carlo-fornara",
       "type": "created",
       "to": "work/impression-d-automne-fornara-1907",
@@ -72246,6 +72995,18 @@
       "derived": true
     },
     {
+      "from": "person/tommaso-da-rin",
+      "type": "created",
+      "to": "work/la-bambola-rotta-da-rin-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/la-bambola-rotta-da-rin-1891",
+      "derived": true
+    },
+    {
       "from": "person/alessandro-milesi",
       "type": "created",
       "to": "work/la-barca-del-papa-milesi-1891",
@@ -72585,6 +73346,18 @@
       "from": "event/first-brera-triennale-1891",
       "type": "exhibited",
       "to": "work/la-questione-sociale-cogliati-1891",
+      "derived": true
+    },
+    {
+      "from": "person/silvio-poma",
+      "type": "created",
+      "to": "work/la-questua-cortile-a-cargiago-poma-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/la-questua-cortile-a-cargiago-poma-1891",
       "derived": true
     },
     {
@@ -73191,6 +73964,18 @@
       "from": "event/salon-divisionnistes-italiens-paris-1907",
       "type": "exhibited",
       "to": "work/les-rois-mages-previati-1907",
+      "derived": true
+    },
+    {
+      "from": "person/alessandro-zezzos",
+      "type": "created",
+      "to": "work/letera-d-amore-zezzos-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/letera-d-amore-zezzos-1891",
       "derived": true
     },
     {
@@ -74061,6 +74846,18 @@
       "from": "event/first-brera-triennale-1891",
       "type": "exhibited",
       "to": "work/notte-di-primavera-bezzi-1891",
+      "derived": true
+    },
+    {
+      "from": "person/cesare-cavalie",
+      "type": "created",
+      "to": "work/novembre-cavalie-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/novembre-cavalie-1891",
       "derived": true
     },
     {
@@ -76314,6 +77111,18 @@
       "derived": true
     },
     {
+      "from": "person/carlo-pizzi",
+      "type": "created",
+      "to": "work/strada-vecchia-pizzi-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/strada-vecchia-pizzi-1891",
+      "derived": true
+    },
+    {
       "from": "person/emilio-bianchi",
       "type": "created",
       "to": "work/studio-dal-vero-bianchi-1891",
@@ -76398,6 +77207,18 @@
       "derived": true
     },
     {
+      "from": "person/enrico-bartezago",
+      "type": "created",
+      "to": "work/sul-campo-del-lavoro-bartezago-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/sul-campo-del-lavoro-bartezago-1891",
+      "derived": true
+    },
+    {
       "from": "person/cesira-sardi",
       "type": "created",
       "to": "work/sul-colle-sardi-1891",
@@ -76419,6 +77240,18 @@
       "from": "event/first-brera-triennale-1891",
       "type": "exhibited",
       "to": "work/sul-lago-d-orta-rossi-1891",
+      "derived": true
+    },
+    {
+      "from": "person/millo-bortoluzzi",
+      "type": "created",
+      "to": "work/sul-piave-bortoluzzi-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/sul-piave-bortoluzzi-1891",
       "derived": true
     },
     {
@@ -76575,6 +77408,18 @@
       "from": "event/first-brera-triennale-1891",
       "type": "exhibited",
       "to": "work/testa-di-vecchio-nono-1891",
+      "derived": true
+    },
+    {
+      "from": "person/pietro-anastasio",
+      "type": "created",
+      "to": "work/testa-di-vecchio-studio-anastasio-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/testa-di-vecchio-studio-anastasio-1891",
       "derived": true
     },
     {

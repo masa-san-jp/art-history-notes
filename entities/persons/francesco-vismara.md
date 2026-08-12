@@ -1,9 +1,9 @@
 ---
-id: person/silvio-poma
-uri: urn:ahn:person/silvio-poma
+id: person/francesco-vismara
+uri: urn:ahn:person/francesco-vismara
 type: person
-label_ja: シルヴィオ・ポマ
-label_en: Silvio Poma
+label_ja: フランチェスコ・ヴィスマーラ
+label_en: Francesco Vismara
 authority:
   wikidata: null
   ulan: null
@@ -23,6 +23,6 @@ status: draft
 updated: 2026-08-13
 ---
 
-# シルヴィオ・ポマ / Silvio Poma
+# フランチェスコ・ヴィスマーラ / Francesco Vismara
 
-1891年の第一回ブレラ三年展公式カタログに、ミラノ出身者として掲載される画家。520番《Lago di Lecco》と532番《La questua. - Cortile a Cargiago》を出品した。本項は展覧会記録に限定する。
+1891年の第一回ブレラ三年展公式カタログに、ミラノ出身者として掲載される画家。530番《Il viatico nel villaggio》を出品した。本項は展覧会記録に限定する。

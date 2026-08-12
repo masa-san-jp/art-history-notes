@@ -25,4 +25,4 @@ updated: 2026-08-13
 
 # ピエトロ・アナスタージオ / Pietro Anastasio
 
-1891年の第一回ブレラ三年展公式カタログに、ルガーノ出身者として掲載される画家。509番《Pensieri d’amore (Testa di donna)》を出品した。本項は展覧会記録に限定する。
+1891年の第一回ブレラ三年展公式カタログに、ルガーノ出身者として掲載される画家。509番《Pensieri d’amore (Testa di donna)》と525番《Testa di vecchio - Studio dal vero》を出品した。本項は展覧会記録に限定する。

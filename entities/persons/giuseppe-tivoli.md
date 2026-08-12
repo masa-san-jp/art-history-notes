@@ -1,9 +1,9 @@
 ---
-id: person/silvio-poma
-uri: urn:ahn:person/silvio-poma
+id: person/giuseppe-tivoli
+uri: urn:ahn:person/giuseppe-tivoli
 type: person
-label_ja: シルヴィオ・ポマ
-label_en: Silvio Poma
+label_ja: ジュゼッペ・ティーヴォリ
+label_en: Giuseppe Tivoli
 authority:
   wikidata: null
   ulan: null
@@ -13,7 +13,7 @@ authority:
 time:
   start: null
   end: null
-  display: "19世紀末にミラノで活動"
+  display: "19世紀末にトリエステ出身者として活動"
 space: []
 relations:
   - {type: exhibited_at, target: event/first-brera-triennale-1891}
@@ -23,6 +23,6 @@ status: draft
 updated: 2026-08-13
 ---
 
-# シルヴィオ・ポマ / Silvio Poma
+# ジュゼッペ・ティーヴォリ / Giuseppe Tivoli
 
-1891年の第一回ブレラ三年展公式カタログに、ミラノ出身者として掲載される画家。520番《Lago di Lecco》と532番《La questua. - Cortile a Cargiago》を出品した。本項は展覧会記録に限定する。
+1891年の第一回ブレラ三年展公式カタログに、トリエステ出身者として掲載される画家。524番《Battute d’aspetto》を出品した。本項は展覧会記録に限定する。
