@@ -58,7 +58,7 @@ updated: 2026-08-12
 セガンティーニ、モルベッリ、[`ジュゼッペ・ペリッツァ・ダ・ヴォルペード`](../persons/giuseppe-pellizza-da-volpedo.md)、
 [`カルロ・フォルナラ`](../persons/carlo-fornara.md)、[`エミリオ・ロンゴーニ`](../persons/emilio-longoni.md)、
 [`プリーニオ・ノメリーニ`](../persons/plinio-nomellini.md)、[`ヴィットーレ・グルビーチ・デ・ドラゴン`](../persons/vittore-grubicy-de-dragon.md)、
-[`アキッレ・トミネッティ`](../persons/achille-tominetti.md)らが含まれる。
+[`アキッレ・トミネッティ`](../persons/achille-tominetti.md)、[`ジャン・マリア・ラステッリーニ`](../persons/gian-maria-rastellini.md)らが含まれる。
 
 ## 1891年公式カタログ
 
