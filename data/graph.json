@@ -15564,6 +15564,43 @@
       "updated": "2026-08-12",
       "path": "entities/works/matin-d-automne-benvenuti-1907.md"
     },
+    "work/matin-d-ete-benvenuti-1907": {
+      "id": "work/matin-d-ete-benvenuti-1907",
+      "uri": "urn:ahn:work/matin-d-ete-benvenuti-1907",
+      "type": "work",
+      "label_ja": "ベンヴェヌート・ベンヴェヌーティ《Matin d'Été》",
+      "label_en": "Matin d'Été",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "独立作品典拠IDは未確認。1907年パリ展カタログ記録を用いる"
+      },
+      "time": {
+        "start": "1907",
+        "end": "1907",
+        "display": "1907年パリ展出品（制作年未確認）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/benvenuto-benvenuti"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/salon-divisionnistes-italiens-paris-1907"
+        }
+      ],
+      "sources": [
+        "https://exhibitions.univie.ac.at/person/ulan/500585330",
+        "https://exhibitions.univie.ac.at/exhibition/125"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/works/matin-d-ete-benvenuti-1907.md"
+    },
     "work/melanconie-du-soleil-maggi-1906": {
       "id": "work/melanconie-du-soleil-maggi-1906",
       "uri": "urn:ahn:work/melanconie-du-soleil-maggi-1906",
@@ -16054,6 +16091,43 @@
       "status": "draft",
       "updated": "2026-08-12",
       "path": "entities/works/sognando-rastellini-1891.md"
+    },
+    "work/soir-a-la-fin-d-automne-benvenuti-1907": {
+      "id": "work/soir-a-la-fin-d-automne-benvenuti-1907",
+      "uri": "urn:ahn:work/soir-a-la-fin-d-automne-benvenuti-1907",
+      "type": "work",
+      "label_ja": "ベンヴェヌート・ベンヴェヌーティ《Soir à la fin d'Automne》",
+      "label_en": "Soir à la fin d'Automne",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "独立作品典拠IDは未確認。1907年パリ展カタログ記録を用いる"
+      },
+      "time": {
+        "start": "1907",
+        "end": "1907",
+        "display": "1907年パリ展出品（制作年未確認）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/benvenuto-benvenuti"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/salon-divisionnistes-italiens-paris-1907"
+        }
+      ],
+      "sources": [
+        "https://exhibitions.univie.ac.at/person/ulan/500585330",
+        "https://exhibitions.univie.ac.at/exhibition/125"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/works/soir-a-la-fin-d-automne-benvenuti-1907.md"
     },
     "work/sous-la-neige-tominetti-1907": {
       "id": "work/sous-la-neige-tominetti-1907",
@@ -19069,6 +19143,20 @@
       "source": null
     },
     {
+      "from": "work/matin-d-ete-benvenuti-1907",
+      "type": "created_by",
+      "to": "person/benvenuto-benvenuti",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/matin-d-ete-benvenuti-1907",
+      "type": "exhibited_at",
+      "to": "event/salon-divisionnistes-italiens-paris-1907",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "work/melanconie-du-soleil-maggi-1906",
       "type": "created_by",
       "to": "person/cesare-maggi",
@@ -19247,6 +19335,20 @@
       "from": "work/sognando-rastellini-1891",
       "type": "exhibited_at",
       "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/soir-a-la-fin-d-automne-benvenuti-1907",
+      "type": "created_by",
+      "to": "person/benvenuto-benvenuti",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/soir-a-la-fin-d-automne-benvenuti-1907",
+      "type": "exhibited_at",
+      "to": "event/salon-divisionnistes-italiens-paris-1907",
       "certainty": null,
       "source": null
     },
@@ -21052,6 +21154,18 @@
       "derived": true
     },
     {
+      "from": "person/benvenuto-benvenuti",
+      "type": "created",
+      "to": "work/matin-d-ete-benvenuti-1907",
+      "derived": true
+    },
+    {
+      "from": "event/salon-divisionnistes-italiens-paris-1907",
+      "type": "exhibited",
+      "to": "work/matin-d-ete-benvenuti-1907",
+      "derived": true
+    },
+    {
       "from": "person/cesare-maggi",
       "type": "created",
       "to": "work/melanconie-du-soleil-maggi-1906",
@@ -21205,6 +21319,18 @@
       "from": "event/first-brera-triennale-1891",
       "type": "exhibited",
       "to": "work/sognando-rastellini-1891",
+      "derived": true
+    },
+    {
+      "from": "person/benvenuto-benvenuti",
+      "type": "created",
+      "to": "work/soir-a-la-fin-d-automne-benvenuti-1907",
+      "derived": true
+    },
+    {
+      "from": "event/salon-divisionnistes-italiens-paris-1907",
+      "type": "exhibited",
+      "to": "work/soir-a-la-fin-d-automne-benvenuti-1907",
       "derived": true
     },
     {
