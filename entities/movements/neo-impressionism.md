@@ -30,6 +30,7 @@ space:
 relations:
   - {type: exhibited_at, target: event/eighth-impressionist-exhibition-1886}
   - {type: diffused_to, target: place/brussels, certainty: scholarly, source: "https://www.musee-orsay.fr/en/program/whats-on/exhibitions/presentation/neo-impressionism-seurat-paul-klee"}
+  - {type: diffused_to, target: place/netherlands, certainty: scholarly, source: "https://www.musee-orsay.fr/en/program/whats-on/exhibitions/presentation/neo-impressionism-seurat-paul-klee"}
   - {type: influenced_by, target: concept/ukiyo-e, certainty: scholarly, source: "https://www.moma.org/documents/moma_catalogue_2792_300190140.pdf"}
   - {type: part_of, target: concept/divisionism}
 sources:
@@ -182,7 +183,11 @@ Gallica収録の実物（[ark:/12148/bpt6k850398w](https://gallica.bnf.fr/ark:/1
 1887・1889・1891・1892年、ピサロを1887・1889・1891年とする。この展示を機にテオ・ヴァン・
 レイセルベルグらベルギーの画家が分割主義の技法を採り入れたとされる（[impressionism.nl](https://www.impressionism.nl/1887-les-xx/)）。
 この複数の記録に基づき `diffused_to` を `place/brussels` に張った。**未確認**: オランダ・イタリアへの
-分割主義の広がりは未着手のまま。
+分割主義の広がりのうち、オランダについては、同じオルセー美術館の解説が「ヤン・トーロップを介して
+オランダへ移った」と記録しているため、`place/netherlands` への `diffused_to` として追加した。ここでの
+「オランダ」は同解説の Holland に対応する国・地域の場所エンティティであり、オランダ側の個別の作品・
+展覧会まで確認したことを意味しない。イタリア側は[イタリア分割主義](italian-divisionism.md)として別の
+地域運動に切り出したが、1891年の共同出品の目録とフランス側との個別の経路は未確認のままである。
 
 ## 日本の版画との関係
 
@@ -206,7 +211,7 @@ Gallica収録の実物（[ark:/12148/bpt6k850398w](https://gallica.bnf.fr/ark:/1
 
 - 『La Vogue』（1886年6月）と『L'Art moderne』（1886年9月19日）のどちらが「néo-impressionnisme」
   の語の初出か——Gallica の実物にアクセスできず確定できていない
-- オランダへの分割主義の広がり。イタリア側は[イタリア分割主義](italian-divisionism.md)として別の地域運動に切り出したが、1891年の共同出品の目録とフランス側との個別の経路は未確認
+- イタリアへの分割主義の広がり。イタリア側は[イタリア分割主義](italian-divisionism.md)として別の地域運動に切り出したが、1891年の共同出品の目録とフランス側との個別の経路は未確認
 - 「何が新しかったか」——作品を3点以上読んでから書く（未着手のまま）
 - シャルル・アングラン、ポール・シニャック、カミーユ＆リュシアン・ピサロ、アルベール・
   デュボワ＝ピレ、アンリ＝エドモン・クロスの person エンティティ化——現状は
