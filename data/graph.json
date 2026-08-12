@@ -9357,6 +9357,35 @@
       "updated": "2026-08-12",
       "path": "entities/persons/achille-tominetti.md"
     },
+    "person/adolfo-feragutti-visconti": {
+      "id": "person/adolfo-feragutti-visconti",
+      "uri": "urn:ahn:person/adolfo-feragutti-visconti",
+      "type": "person",
+      "label_ja": "アドルフォ・フェラグッティ・ヴィスコンティ",
+      "label_en": "Adolfo Feragutti Visconti",
+      "authority": {
+        "wikidata": "Q3605437",
+        "ulan": "500005993",
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": "1850-03-25",
+        "end": "1924-03-10",
+        "display": "1850年3月25日プーラ生まれ — 1924年3月10日ミラノ没"
+      },
+      "space": [],
+      "relations": [],
+      "sources": [
+        "https://www.treccani.it/enciclopedia/giuseppe-adolfo-feregutti_%28Dizionario-Biografico%29/",
+        "https://www.wikidata.org/wiki/Q3605437",
+        "https://www.getty.edu/vow/ULANFullDisplay?find=&nation=&page=1&role=&subjectid=500005993"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/persons/adolfo-feragutti-visconti.md"
+    },
     "person/adolphe-magrini": {
       "id": "person/adolphe-magrini",
       "uri": "urn:ahn:person/adolphe-magrini",
@@ -21769,6 +21798,45 @@
       "updated": "2026-08-12",
       "path": "entities/works/ritratto-di-mio-papa-pellizza-1891.md"
     },
+    "work/ritratto-di-signora-feragutti-visconti-1891": {
+      "id": "work/ritratto-di-signora-feragutti-visconti-1891",
+      "uri": "urn:ahn:work/ritratto-di-signora-feragutti-visconti-1891",
+      "type": "work",
+      "label_ja": "アドルフォ・フェラグッティ・ヴィスコンティ《Ritratto di Signora》",
+      "label_en": "Ritratto di Signora",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "作品の独立典拠IDは未確認。ブレラ展ガイド、Treccani、1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年（1891年展カタログ254番）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/adolfo-feragutti-visconti"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://galleriemaspes.com/immagini_sito/Cataloghi%20pdf/Brera_Guide.pdf",
+        "https://www.treccani.it/enciclopedia/giuseppe-adolfo-feregutti_%28Dizionario-Biografico%29/",
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf",
+        "https://www.wikidata.org/wiki/Q3605437"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/works/ritratto-di-signora-feragutti-visconti-1891.md"
+    },
     "work/ritratto-di-signora-rastellini-1891": {
       "id": "work/ritratto-di-signora-rastellini-1891",
       "uri": "urn:ahn:work/ritratto-di-signora-rastellini-1891",
@@ -28178,6 +28246,20 @@
       "source": null
     },
     {
+      "from": "work/ritratto-di-signora-feragutti-visconti-1891",
+      "type": "created_by",
+      "to": "person/adolfo-feragutti-visconti",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/ritratto-di-signora-feragutti-visconti-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "work/ritratto-di-signora-rastellini-1891",
       "type": "created_by",
       "to": "person/gian-maria-rastellini",
@@ -32391,6 +32473,18 @@
       "from": "event/first-brera-triennale-1891",
       "type": "exhibited",
       "to": "work/ritratto-di-mio-papa-pellizza-1891",
+      "derived": true
+    },
+    {
+      "from": "person/adolfo-feragutti-visconti",
+      "type": "created",
+      "to": "work/ritratto-di-signora-feragutti-visconti-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/ritratto-di-signora-feragutti-visconti-1891",
       "derived": true
     },
     {
