@@ -15052,6 +15052,43 @@
       "updated": "2026-08-12",
       "path": "entities/works/etude-de-paysage-maggi-1907.md"
     },
+    "work/etude-de-paysage-prada-1907-no48a": {
+      "id": "work/etude-de-paysage-prada-1907-no48a",
+      "uri": "urn:ahn:work/etude-de-paysage-prada-1907-no48a",
+      "type": "work",
+      "label_ja": "カルロ・プラーダ《Etude de Paysage》〔1907年パリ展48a番〕",
+      "label_en": "Etude de Paysage (Paris 1907, no. 48a)",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "独立作品典拠IDは未確認。1907年パリ展カタログ番号48aの記録を用いる"
+      },
+      "time": {
+        "start": "1907",
+        "end": "1907",
+        "display": "1907年パリ展出品（制作年未確認）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/carlo-prada"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/salon-divisionnistes-italiens-paris-1907"
+        }
+      ],
+      "sources": [
+        "https://exhibitions.univie.ac.at/person/ulan/500339761",
+        "https://exhibitions.univie.ac.at/exhibition/125"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/works/etude-de-paysage-prada-1907-no48a.md"
+    },
     "work/femme-tricoteuse-maggi-1907": {
       "id": "work/femme-tricoteuse-maggi-1907",
       "uri": "urn:ahn:work/femme-tricoteuse-maggi-1907",
@@ -16498,6 +16535,80 @@
       "updated": "2026-08-12",
       "path": "entities/works/paturage-ramponi-1907.md"
     },
+    "work/paysage-benvenuti-1907-no35": {
+      "id": "work/paysage-benvenuti-1907-no35",
+      "uri": "urn:ahn:work/paysage-benvenuti-1907-no35",
+      "type": "work",
+      "label_ja": "ベンヴェヌート・ベンヴェヌーティ《Paysage》〔1907年パリ展35番〕",
+      "label_en": "Paysage (Paris 1907, no. 35)",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "独立作品典拠IDは未確認。1907年パリ展カタログ番号35の記録を用いる"
+      },
+      "time": {
+        "start": "1907",
+        "end": "1907",
+        "display": "1907年パリ展出品（制作年未確認）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/benvenuto-benvenuti"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/salon-divisionnistes-italiens-paris-1907"
+        }
+      ],
+      "sources": [
+        "https://exhibitions.univie.ac.at/person/ulan/500585330",
+        "https://exhibitions.univie.ac.at/exhibition/125"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/works/paysage-benvenuti-1907-no35.md"
+    },
+    "work/paysage-benvenuti-1907-no37": {
+      "id": "work/paysage-benvenuti-1907-no37",
+      "uri": "urn:ahn:work/paysage-benvenuti-1907-no37",
+      "type": "work",
+      "label_ja": "ベンヴェヌート・ベンヴェヌーティ《Paysage》〔1907年パリ展37番〕",
+      "label_en": "Paysage (Paris 1907, no. 37)",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "独立作品典拠IDは未確認。1907年パリ展カタログ番号37の記録を用いる"
+      },
+      "time": {
+        "start": "1907",
+        "end": "1907",
+        "display": "1907年パリ展出品（制作年未確認）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/benvenuto-benvenuti"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/salon-divisionnistes-italiens-paris-1907"
+        }
+      ],
+      "sources": [
+        "https://exhibitions.univie.ac.at/person/ulan/500585330",
+        "https://exhibitions.univie.ac.at/exhibition/125"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/works/paysage-benvenuti-1907-no37.md"
+    },
     "work/paysage-en-montagne-prada-1907": {
       "id": "work/paysage-en-montagne-prada-1907",
       "uri": "urn:ahn:work/paysage-en-montagne-prada-1907",
@@ -16757,6 +16868,117 @@
       "status": "draft",
       "updated": "2026-08-12",
       "path": "entities/works/paysage-gottardo-segantini-1907.md"
+    },
+    "work/paysage-prada-1907-no48b": {
+      "id": "work/paysage-prada-1907-no48b",
+      "uri": "urn:ahn:work/paysage-prada-1907-no48b",
+      "type": "work",
+      "label_ja": "カルロ・プラーダ《Paysage》〔1907年パリ展48b番〕",
+      "label_en": "Paysage (Paris 1907, no. 48b)",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "独立作品典拠IDは未確認。1907年パリ展カタログ番号48bの記録を用いる"
+      },
+      "time": {
+        "start": "1907",
+        "end": "1907",
+        "display": "1907年パリ展出品（制作年未確認）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/carlo-prada"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/salon-divisionnistes-italiens-paris-1907"
+        }
+      ],
+      "sources": [
+        "https://exhibitions.univie.ac.at/person/ulan/500339761",
+        "https://exhibitions.univie.ac.at/exhibition/125"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/works/paysage-prada-1907-no48b.md"
+    },
+    "work/paysage-prada-1907-no48c": {
+      "id": "work/paysage-prada-1907-no48c",
+      "uri": "urn:ahn:work/paysage-prada-1907-no48c",
+      "type": "work",
+      "label_ja": "カルロ・プラーダ《Paysage》〔1907年パリ展48c番〕",
+      "label_en": "Paysage (Paris 1907, no. 48c)",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "独立作品典拠IDは未確認。1907年パリ展カタログ番号48cの記録を用いる"
+      },
+      "time": {
+        "start": "1907",
+        "end": "1907",
+        "display": "1907年パリ展出品（制作年未確認）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/carlo-prada"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/salon-divisionnistes-italiens-paris-1907"
+        }
+      ],
+      "sources": [
+        "https://exhibitions.univie.ac.at/person/ulan/500339761",
+        "https://exhibitions.univie.ac.at/exhibition/125"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/works/paysage-prada-1907-no48c.md"
+    },
+    "work/paysage-prada-1907-no48d": {
+      "id": "work/paysage-prada-1907-no48d",
+      "uri": "urn:ahn:work/paysage-prada-1907-no48d",
+      "type": "work",
+      "label_ja": "カルロ・プラーダ《Paysage》〔1907年パリ展48d番〕",
+      "label_en": "Paysage (Paris 1907, no. 48d)",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "独立作品典拠IDは未確認。1907年パリ展カタログ番号48dの記録を用いる"
+      },
+      "time": {
+        "start": "1907",
+        "end": "1907",
+        "display": "1907年パリ展出品（制作年未確認）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/carlo-prada"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/salon-divisionnistes-italiens-paris-1907"
+        }
+      ],
+      "sources": [
+        "https://exhibitions.univie.ac.at/person/ulan/500339761",
+        "https://exhibitions.univie.ac.at/exhibition/125"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/works/paysage-prada-1907-no48d.md"
     },
     "work/paysage-ramponi-1907": {
       "id": "work/paysage-ramponi-1907",
@@ -17055,6 +17277,43 @@
       "status": "draft",
       "updated": "2026-08-12",
       "path": "entities/works/sognando-rastellini-1891.md"
+    },
+    "work/soir-a-la-fin-d-automne-benvenuti-1907-no36": {
+      "id": "work/soir-a-la-fin-d-automne-benvenuti-1907-no36",
+      "uri": "urn:ahn:work/soir-a-la-fin-d-automne-benvenuti-1907-no36",
+      "type": "work",
+      "label_ja": "ベンヴェヌート・ベンヴェヌーティ《Soir à la fin d'Automne》〔1907年パリ展36番〕",
+      "label_en": "Soir à la fin d'Automne (Paris 1907, no. 36)",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "独立作品典拠IDは未確認。1907年パリ展カタログ番号36の記録を用いる"
+      },
+      "time": {
+        "start": "1907",
+        "end": "1907",
+        "display": "1907年パリ展出品（制作年未確認）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/benvenuto-benvenuti"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/salon-divisionnistes-italiens-paris-1907"
+        }
+      ],
+      "sources": [
+        "https://exhibitions.univie.ac.at/person/ulan/500585330",
+        "https://exhibitions.univie.ac.at/exhibition/125"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/works/soir-a-la-fin-d-automne-benvenuti-1907-no36.md"
     },
     "work/soir-a-la-fin-d-automne-benvenuti-1907": {
       "id": "work/soir-a-la-fin-d-automne-benvenuti-1907",
@@ -20001,6 +20260,20 @@
       "source": null
     },
     {
+      "from": "work/etude-de-paysage-prada-1907-no48a",
+      "type": "created_by",
+      "to": "person/carlo-prada",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/etude-de-paysage-prada-1907-no48a",
+      "type": "exhibited_at",
+      "to": "event/salon-divisionnistes-italiens-paris-1907",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "work/femme-tricoteuse-maggi-1907",
       "type": "created_by",
       "to": "person/cesare-maggi",
@@ -20568,6 +20841,34 @@
       "source": null
     },
     {
+      "from": "work/paysage-benvenuti-1907-no35",
+      "type": "created_by",
+      "to": "person/benvenuto-benvenuti",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/paysage-benvenuti-1907-no35",
+      "type": "exhibited_at",
+      "to": "event/salon-divisionnistes-italiens-paris-1907",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/paysage-benvenuti-1907-no37",
+      "type": "created_by",
+      "to": "person/benvenuto-benvenuti",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/paysage-benvenuti-1907-no37",
+      "type": "exhibited_at",
+      "to": "event/salon-divisionnistes-italiens-paris-1907",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "work/paysage-en-montagne-prada-1907",
       "type": "created_by",
       "to": "person/carlo-prada",
@@ -20660,6 +20961,48 @@
     },
     {
       "from": "work/paysage-gottardo-segantini-1907",
+      "type": "exhibited_at",
+      "to": "event/salon-divisionnistes-italiens-paris-1907",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/paysage-prada-1907-no48b",
+      "type": "created_by",
+      "to": "person/carlo-prada",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/paysage-prada-1907-no48b",
+      "type": "exhibited_at",
+      "to": "event/salon-divisionnistes-italiens-paris-1907",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/paysage-prada-1907-no48c",
+      "type": "created_by",
+      "to": "person/carlo-prada",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/paysage-prada-1907-no48c",
+      "type": "exhibited_at",
+      "to": "event/salon-divisionnistes-italiens-paris-1907",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/paysage-prada-1907-no48d",
+      "type": "created_by",
+      "to": "person/carlo-prada",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/paysage-prada-1907-no48d",
       "type": "exhibited_at",
       "to": "event/salon-divisionnistes-italiens-paris-1907",
       "certainty": null,
@@ -20774,6 +21117,20 @@
       "from": "work/sognando-rastellini-1891",
       "type": "exhibited_at",
       "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/soir-a-la-fin-d-automne-benvenuti-1907-no36",
+      "type": "created_by",
+      "to": "person/benvenuto-benvenuti",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/soir-a-la-fin-d-automne-benvenuti-1907-no36",
+      "type": "exhibited_at",
+      "to": "event/salon-divisionnistes-italiens-paris-1907",
       "certainty": null,
       "source": null
     },
@@ -22449,6 +22806,18 @@
       "derived": true
     },
     {
+      "from": "person/carlo-prada",
+      "type": "created",
+      "to": "work/etude-de-paysage-prada-1907-no48a",
+      "derived": true
+    },
+    {
+      "from": "event/salon-divisionnistes-italiens-paris-1907",
+      "type": "exhibited",
+      "to": "work/etude-de-paysage-prada-1907-no48a",
+      "derived": true
+    },
+    {
       "from": "person/cesare-maggi",
       "type": "created",
       "to": "work/femme-tricoteuse-maggi-1907",
@@ -22935,6 +23304,30 @@
       "derived": true
     },
     {
+      "from": "person/benvenuto-benvenuti",
+      "type": "created",
+      "to": "work/paysage-benvenuti-1907-no35",
+      "derived": true
+    },
+    {
+      "from": "event/salon-divisionnistes-italiens-paris-1907",
+      "type": "exhibited",
+      "to": "work/paysage-benvenuti-1907-no35",
+      "derived": true
+    },
+    {
+      "from": "person/benvenuto-benvenuti",
+      "type": "created",
+      "to": "work/paysage-benvenuti-1907-no37",
+      "derived": true
+    },
+    {
+      "from": "event/salon-divisionnistes-italiens-paris-1907",
+      "type": "exhibited",
+      "to": "work/paysage-benvenuti-1907-no37",
+      "derived": true
+    },
+    {
       "from": "person/carlo-prada",
       "type": "created",
       "to": "work/paysage-en-montagne-prada-1907",
@@ -23016,6 +23409,42 @@
       "from": "event/salon-divisionnistes-italiens-paris-1907",
       "type": "exhibited",
       "to": "work/paysage-gottardo-segantini-1907",
+      "derived": true
+    },
+    {
+      "from": "person/carlo-prada",
+      "type": "created",
+      "to": "work/paysage-prada-1907-no48b",
+      "derived": true
+    },
+    {
+      "from": "event/salon-divisionnistes-italiens-paris-1907",
+      "type": "exhibited",
+      "to": "work/paysage-prada-1907-no48b",
+      "derived": true
+    },
+    {
+      "from": "person/carlo-prada",
+      "type": "created",
+      "to": "work/paysage-prada-1907-no48c",
+      "derived": true
+    },
+    {
+      "from": "event/salon-divisionnistes-italiens-paris-1907",
+      "type": "exhibited",
+      "to": "work/paysage-prada-1907-no48c",
+      "derived": true
+    },
+    {
+      "from": "person/carlo-prada",
+      "type": "created",
+      "to": "work/paysage-prada-1907-no48d",
+      "derived": true
+    },
+    {
+      "from": "event/salon-divisionnistes-italiens-paris-1907",
+      "type": "exhibited",
+      "to": "work/paysage-prada-1907-no48d",
       "derived": true
     },
     {
@@ -23112,6 +23541,18 @@
       "from": "event/first-brera-triennale-1891",
       "type": "exhibited",
       "to": "work/sognando-rastellini-1891",
+      "derived": true
+    },
+    {
+      "from": "person/benvenuto-benvenuti",
+      "type": "created",
+      "to": "work/soir-a-la-fin-d-automne-benvenuti-1907-no36",
+      "derived": true
+    },
+    {
+      "from": "event/salon-divisionnistes-italiens-paris-1907",
+      "type": "exhibited",
+      "to": "work/soir-a-la-fin-d-automne-benvenuti-1907-no36",
       "derived": true
     },
     {
