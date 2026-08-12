@@ -9494,7 +9494,7 @@
         "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
       ],
       "status": "draft",
-      "updated": "2026-08-12",
+      "updated": "2026-08-13",
       "path": "entities/persons/achille-tominetti.md"
     },
     "person/adolfo-feragutti-visconti": {
@@ -11803,6 +11803,41 @@
       "status": "draft",
       "updated": "2026-08-12",
       "path": "entities/persons/cesira-sardi.md"
+    },
+    "person/coriolano-vighi": {
+      "id": "person/coriolano-vighi",
+      "uri": "urn:ahn:person/coriolano-vighi",
+      "type": "person",
+      "label_ja": "コリオラーノ・ヴィーギ",
+      "label_en": "Coriolano Vighi",
+      "aliases": [
+        "Vighi Coriolano"
+      ],
+      "authority": {
+        "wikidata": null,
+        "ulan": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "独立した人物典拠IDと生没年は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": null,
+        "end": null,
+        "display": "19世紀末にフィレンツェで活動"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-13",
+      "path": "entities/persons/coriolano-vighi.md"
     },
     "person/cristoforo-buttafava": {
       "id": "person/cristoforo-buttafava",
@@ -16452,6 +16487,41 @@
       "updated": "2026-08-09",
       "path": "entities/persons/lee-ufan.md"
     },
+    "person/leonardo-airaghi": {
+      "id": "person/leonardo-airaghi",
+      "uri": "urn:ahn:person/leonardo-airaghi",
+      "type": "person",
+      "label_ja": "レオナルド・アライギ",
+      "label_en": "Leonardo Airaghi",
+      "aliases": [
+        "Airaghi Leonardo"
+      ],
+      "authority": {
+        "wikidata": null,
+        "ulan": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "独立した人物典拠IDと生没年は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": null,
+        "end": null,
+        "display": "19世紀末にミラノで活動"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-13",
+      "path": "entities/persons/leonardo-airaghi.md"
+    },
     "person/leonardo-bazzaro": {
       "id": "person/leonardo-bazzaro",
       "uri": "urn:ahn:person/leonardo-bazzaro",
@@ -16830,6 +16900,41 @@
       "status": "draft",
       "updated": "2026-08-12",
       "path": "entities/persons/luigi-beltrami.md"
+    },
+    "person/luigi-bertelli": {
+      "id": "person/luigi-bertelli",
+      "uri": "urn:ahn:person/luigi-bertelli",
+      "type": "person",
+      "label_ja": "ルイジ・ベルテッリ",
+      "label_en": "Luigi Bertelli",
+      "aliases": [
+        "Bertelli Luigi"
+      ],
+      "authority": {
+        "wikidata": null,
+        "ulan": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "独立した人物典拠IDと生没年は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": null,
+        "end": null,
+        "display": "19世紀末にサン・ラッザーロ・ディ・ラヴェーナで活動"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-13",
+      "path": "entities/persons/luigi-bertelli.md"
     },
     "person/luigi-bianchi": {
       "id": "person/luigi-bianchi",
@@ -17308,6 +17413,76 @@
       "updated": "2026-08-12",
       "path": "entities/persons/luigi-steffani.md"
     },
+    "person/luigi-tinelli": {
+      "id": "person/luigi-tinelli",
+      "uri": "urn:ahn:person/luigi-tinelli",
+      "type": "person",
+      "label_ja": "ルイジ・ティネッリ",
+      "label_en": "Luigi Tinelli",
+      "aliases": [
+        "Tinelli Luigi"
+      ],
+      "authority": {
+        "wikidata": null,
+        "ulan": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "独立した人物典拠IDと生没年は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": null,
+        "end": null,
+        "display": "19世紀末にミラノで活動"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-13",
+      "path": "entities/persons/luigi-tinelli.md"
+    },
+    "person/marco-calderini": {
+      "id": "person/marco-calderini",
+      "uri": "urn:ahn:person/marco-calderini",
+      "type": "person",
+      "label_ja": "マルコ・カルデリーニ",
+      "label_en": "Marco Calderini",
+      "aliases": [
+        "Calderini Marco"
+      ],
+      "authority": {
+        "wikidata": null,
+        "ulan": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "独立した人物典拠IDと生没年は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": null,
+        "end": null,
+        "display": "19世紀末にトリノで活動"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-13",
+      "path": "entities/persons/marco-calderini.md"
+    },
     "person/maria-cattaneo-michis": {
       "id": "person/maria-cattaneo-michis",
       "uri": "urn:ahn:person/maria-cattaneo-michis",
@@ -17638,6 +17813,41 @@
       "status": "draft",
       "updated": "2026-08-12",
       "path": "entities/persons/orazio-grassoni.md"
+    },
+    "person/oreste-da-molin": {
+      "id": "person/oreste-da-molin",
+      "uri": "urn:ahn:person/oreste-da-molin",
+      "type": "person",
+      "label_ja": "オレステ・ダ・モリン",
+      "label_en": "Oreste Da Molin",
+      "aliases": [
+        "Da Molin Oreste"
+      ],
+      "authority": {
+        "wikidata": null,
+        "ulan": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "独立した人物典拠IDと生没年は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": null,
+        "end": null,
+        "display": "19世紀末にピエーヴェ・ディ・サッコ出身者として活動"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-13",
+      "path": "entities/persons/oreste-da-molin.md"
     },
     "person/osvaldo-bignami": {
       "id": "person/osvaldo-bignami",
@@ -23115,6 +23325,42 @@
       "updated": "2026-08-13",
       "path": "entities/works/al-mercato-zannoni-1891.md"
     },
+    "work/al-monte-di-pieta-da-molin-1891": {
+      "id": "work/al-monte-di-pieta-da-molin-1891",
+      "uri": "urn:ahn:work/al-monte-di-pieta-da-molin-1891",
+      "type": "work",
+      "label_ja": "オレステ・ダ・モリン《Al Monte di Pietà》",
+      "label_en": "Al Monte di Pietà",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "作品の独立典拠IDと現所在は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年（1891年展カタログ411番）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/oreste-da-molin"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-13",
+      "path": "entities/works/al-monte-di-pieta-da-molin-1891.md"
+    },
     "work/al-pascolo-manziana-1891": {
       "id": "work/al-pascolo-manziana-1891",
       "uri": "urn:ahn:work/al-pascolo-manziana-1891",
@@ -24466,6 +24712,42 @@
       "updated": "2026-08-12",
       "path": "entities/works/campagna-lombarda-inverno-grubicy-1891.md"
     },
+    "work/canal-grande-s-geremia-andreasi-1891": {
+      "id": "work/canal-grande-s-geremia-andreasi-1891",
+      "uri": "urn:ahn:work/canal-grande-s-geremia-andreasi-1891",
+      "type": "work",
+      "label_ja": "エウジェニオ・アンドレアージ《Canal Grande a S. Geremia in Venezia》",
+      "label_en": "Canal Grande a S. Geremia in Venezia",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "作品の独立典拠IDと現所在は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年（1891年展カタログ403番）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/eugenio-andreasi"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-13",
+      "path": "entities/works/canal-grande-s-geremia-andreasi-1891.md"
+    },
     "work/canale-laveno-carozzi-1891": {
       "id": "work/canale-laveno-carozzi-1891",
       "uri": "urn:ahn:work/canale-laveno-carozzi-1891",
@@ -24647,6 +24929,42 @@
       "status": "draft",
       "updated": "2026-08-12",
       "path": "entities/works/carica-militare-de-albertis-1891.md"
+    },
+    "work/cascinale-in-alben-tinelli-1891": {
+      "id": "work/cascinale-in-alben-tinelli-1891",
+      "uri": "urn:ahn:work/cascinale-in-alben-tinelli-1891",
+      "type": "work",
+      "label_ja": "ルイジ・ティネッリ《Cascinale in Alben - Valseriana》",
+      "label_en": "Cascinale in Alben - Valseriana",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "作品の独立典拠IDと現所在は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年（1891年展カタログ410番）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/luigi-tinelli"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-13",
+      "path": "entities/works/cascinale-in-alben-tinelli-1891.md"
     },
     "work/cascinale-lombardo-andreasi-1891": {
       "id": "work/cascinale-lombardo-andreasi-1891",
@@ -31841,6 +32159,42 @@
       "updated": "2026-08-12",
       "path": "entities/works/la-lutte-pour-la-vie-magrini-1907.md"
     },
+    "work/la-madonna-del-sasso-colombo-1891": {
+      "id": "work/la-madonna-del-sasso-colombo-1891",
+      "uri": "urn:ahn:work/la-madonna-del-sasso-colombo-1891",
+      "type": "work",
+      "label_ja": "ヴィットリオ・コロンボ《La Madonna del Sasso a Locarno》",
+      "label_en": "La Madonna del Sasso a Locarno",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "作品の独立典拠IDと現所在は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年（1891年展カタログ407番）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/vittorio-colombo"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-13",
+      "path": "entities/works/la-madonna-del-sasso-colombo-1891.md"
+    },
     "work/la-madonna-della-pace-cairati-1891": {
       "id": "work/la-madonna-della-pace-cairati-1891",
       "uri": "urn:ahn:work/la-madonna-della-pace-cairati-1891",
@@ -32465,6 +32819,42 @@
       "updated": "2026-08-12",
       "path": "entities/works/la-roggia-borsa-1891.md"
     },
+    "work/la-schiava-bianca-airaghi-1891": {
+      "id": "work/la-schiava-bianca-airaghi-1891",
+      "uri": "urn:ahn:work/la-schiava-bianca-airaghi-1891",
+      "type": "work",
+      "label_ja": "レオナルド・アライギ《La Schiava Bianca》",
+      "label_en": "La Schiava Bianca",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "作品の独立典拠IDと現所在は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年（1891年展カタログ406番）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/leonardo-airaghi"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-13",
+      "path": "entities/works/la-schiava-bianca-airaghi-1891.md"
+    },
     "work/la-spiaggia-maiori-capone-1891": {
       "id": "work/la-spiaggia-maiori-capone-1891",
       "uri": "urn:ahn:work/la-spiaggia-maiori-capone-1891",
@@ -33058,6 +33448,42 @@
       "status": "draft",
       "updated": "2026-08-12",
       "path": "entities/works/le-chateau-de-padenghe-focardi-1907.md"
+    },
+    "work/le-chiuse-di-carlomagno-calderini-1891": {
+      "id": "work/le-chiuse-di-carlomagno-calderini-1891",
+      "uri": "urn:ahn:work/le-chiuse-di-carlomagno-calderini-1891",
+      "type": "work",
+      "label_ja": "マルコ・カルデリーニ《Le Chiuse di Carlomagno (Valle di Susa)》",
+      "label_en": "Le Chiuse di Carlomagno (Valle di Susa)",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "作品の独立典拠IDと現所在は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年（1891年展カタログ405番）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/marco-calderini"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-13",
+      "path": "entities/works/le-chiuse-di-carlomagno-calderini-1891.md"
     },
     "work/le-couchant-magrini-1907": {
       "id": "work/le-couchant-magrini-1907",
@@ -36145,6 +36571,42 @@
       "updated": "2026-08-12",
       "path": "entities/works/nel-secolo-scorso-calcagni-1891.md"
     },
+    "work/nevicata-bertelli-1891": {
+      "id": "work/nevicata-bertelli-1891",
+      "uri": "urn:ahn:work/nevicata-bertelli-1891",
+      "type": "work",
+      "label_ja": "ルイジ・ベルテッリ《Nevicata》",
+      "label_en": "Nevicata",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "作品の独立典拠IDと現所在は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年（1891年展カタログ413番）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/luigi-bertelli"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-13",
+      "path": "entities/works/nevicata-bertelli-1891.md"
+    },
     "work/nidia-la-cieca-albertini-1891": {
       "id": "work/nidia-la-cieca-albertini-1891",
       "uri": "urn:ahn:work/nidia-la-cieca-albertini-1891",
@@ -37963,6 +38425,42 @@
       "status": "draft",
       "updated": "2026-08-12",
       "path": "entities/works/ponte-alla-carraia-gioli-1891.md"
+    },
+    "work/ponte-della-selva-tinelli-1891": {
+      "id": "work/ponte-della-selva-tinelli-1891",
+      "uri": "urn:ahn:work/ponte-della-selva-tinelli-1891",
+      "type": "work",
+      "label_ja": "ルイジ・ティネッリ《Ponte della Selva - Val Seriana》",
+      "label_en": "Ponte della Selva - Val Seriana",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "作品の独立典拠IDと現所在は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年（1891年展カタログ409番）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/luigi-tinelli"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-13",
+      "path": "entities/works/ponte-della-selva-tinelli-1891.md"
     },
     "work/popolana-moretti-1891": {
       "id": "work/popolana-moretti-1891",
@@ -43247,6 +43745,42 @@
       "updated": "2026-08-13",
       "path": "entities/works/ultima-luce-farina-1891.md"
     },
+    "work/ultima-neve-tinelli-1891": {
+      "id": "work/ultima-neve-tinelli-1891",
+      "uri": "urn:ahn:work/ultima-neve-tinelli-1891",
+      "type": "work",
+      "label_ja": "ルイジ・ティネッリ《Ultima neve》",
+      "label_en": "Ultima neve",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "作品の独立典拠IDと現所在は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年（1891年展カタログ408番）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/luigi-tinelli"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-13",
+      "path": "entities/works/ultima-neve-tinelli-1891.md"
+    },
     "work/ultime-tristezze-di-bricherasio-1891": {
       "id": "work/ultime-tristezze-di-bricherasio-1891",
       "uri": "urn:ahn:work/ultime-tristezze-di-bricherasio-1891",
@@ -43728,6 +44262,42 @@
       "status": "draft",
       "updated": "2026-08-12",
       "path": "entities/works/una-riparazione-carcano-1890.md"
+    },
+    "work/una-scogliera-vighi-1891": {
+      "id": "work/una-scogliera-vighi-1891",
+      "uri": "urn:ahn:work/una-scogliera-vighi-1891",
+      "type": "work",
+      "label_ja": "コリオラーノ・ヴィーギ《Una scogliera》",
+      "label_en": "Una scogliera",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "作品の独立典拠IDと現所在は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年（1891年展カタログ412番）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/coriolano-vighi"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-13",
+      "path": "entities/works/una-scogliera-vighi-1891.md"
     },
     "work/una-via-al-cairo-moretti-1891": {
       "id": "work/una-via-al-cairo-moretti-1891",
@@ -46940,6 +47510,13 @@
       "source": null
     },
     {
+      "from": "person/coriolano-vighi",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "person/cristoforo-buttafava",
       "type": "exhibited_at",
       "to": "event/first-brera-triennale-1891",
@@ -47955,6 +48532,13 @@
       "source": "https://mmcaresearch.kr/terms/view.do?fid=2211"
     },
     {
+      "from": "person/leonardo-airaghi",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "person/leonardo-bazzaro",
       "type": "exhibited_at",
       "to": "event/first-brera-triennale-1891",
@@ -48029,6 +48613,13 @@
     },
     {
       "from": "person/luigi-beltrami",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "person/luigi-bertelli",
       "type": "exhibited_at",
       "to": "event/first-brera-triennale-1891",
       "certainty": null,
@@ -48133,6 +48724,20 @@
       "source": null
     },
     {
+      "from": "person/luigi-tinelli",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "person/marco-calderini",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "person/maria-cattaneo-michis",
       "type": "exhibited_at",
       "to": "event/first-brera-triennale-1891",
@@ -48190,6 +48795,13 @@
     },
     {
       "from": "person/orazio-grassoni",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "person/oreste-da-molin",
       "type": "exhibited_at",
       "to": "event/first-brera-triennale-1891",
       "certainty": null,
@@ -48826,6 +49438,20 @@
       "source": null
     },
     {
+      "from": "work/al-monte-di-pieta-da-molin-1891",
+      "type": "created_by",
+      "to": "person/oreste-da-molin",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/al-monte-di-pieta-da-molin-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "work/al-pascolo-manziana-1891",
       "type": "created_by",
       "to": "person/carlo-manziana",
@@ -49361,6 +49987,20 @@
       "source": null
     },
     {
+      "from": "work/canal-grande-s-geremia-andreasi-1891",
+      "type": "created_by",
+      "to": "person/eugenio-andreasi",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/canal-grande-s-geremia-andreasi-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "work/canale-laveno-carozzi-1891",
       "type": "created_by",
       "to": "person/giuseppe-carozzi",
@@ -49425,6 +50065,20 @@
     },
     {
       "from": "work/carica-militare-de-albertis-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/cascinale-in-alben-tinelli-1891",
+      "type": "created_by",
+      "to": "person/luigi-tinelli",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/cascinale-in-alben-tinelli-1891",
       "type": "exhibited_at",
       "to": "event/first-brera-triennale-1891",
       "certainty": null,
@@ -52182,6 +52836,20 @@
       "source": null
     },
     {
+      "from": "work/la-madonna-del-sasso-colombo-1891",
+      "type": "created_by",
+      "to": "person/vittorio-colombo",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/la-madonna-del-sasso-colombo-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "work/la-madonna-della-pace-cairati-1891",
       "type": "created_by",
       "to": "person/gerolamo-cairati",
@@ -52427,6 +53095,20 @@
       "source": null
     },
     {
+      "from": "work/la-schiava-bianca-airaghi-1891",
+      "type": "created_by",
+      "to": "person/leonardo-airaghi",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/la-schiava-bianca-airaghi-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "work/la-spiaggia-maiori-capone-1891",
       "type": "created_by",
       "to": "person/gaetano-capone",
@@ -52647,6 +53329,20 @@
       "from": "work/le-chateau-de-padenghe-focardi-1907",
       "type": "exhibited_at",
       "to": "event/salon-divisionnistes-italiens-paris-1907",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/le-chiuse-di-carlomagno-calderini-1891",
+      "type": "created_by",
+      "to": "person/marco-calderini",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/le-chiuse-di-carlomagno-calderini-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
       "certainty": null,
       "source": null
     },
@@ -53841,6 +54537,20 @@
       "source": null
     },
     {
+      "from": "work/nevicata-bertelli-1891",
+      "type": "created_by",
+      "to": "person/luigi-bertelli",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/nevicata-bertelli-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "work/nidia-la-cieca-albertini-1891",
       "type": "created_by",
       "to": "person/idalia-albertini",
@@ -54535,6 +55245,20 @@
     },
     {
       "from": "work/ponte-alla-carraia-gioli-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/ponte-della-selva-tinelli-1891",
+      "type": "created_by",
+      "to": "person/luigi-tinelli",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/ponte-della-selva-tinelli-1891",
       "type": "exhibited_at",
       "to": "event/first-brera-triennale-1891",
       "certainty": null,
@@ -56564,6 +57288,20 @@
       "source": null
     },
     {
+      "from": "work/ultima-neve-tinelli-1891",
+      "type": "created_by",
+      "to": "person/luigi-tinelli",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/ultima-neve-tinelli-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "work/ultime-tristezze-di-bricherasio-1891",
       "type": "created_by",
       "to": "person/sofia-di-bricherasio",
@@ -56747,6 +57485,20 @@
     },
     {
       "from": "work/una-riparazione-carcano-1890",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/una-scogliera-vighi-1891",
+      "type": "created_by",
+      "to": "person/coriolano-vighi",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/una-scogliera-vighi-1891",
       "type": "exhibited_at",
       "to": "event/first-brera-triennale-1891",
       "certainty": null,
@@ -58566,6 +59318,12 @@
     {
       "from": "event/first-brera-triennale-1891",
       "type": "exhibited",
+      "to": "person/coriolano-vighi",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
       "to": "person/cristoforo-buttafava",
       "derived": true
     },
@@ -59376,6 +60134,12 @@
     {
       "from": "event/first-brera-triennale-1891",
       "type": "exhibited",
+      "to": "person/leonardo-airaghi",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
       "to": "person/leonardo-bazzaro",
       "derived": true
     },
@@ -59431,6 +60195,12 @@
       "from": "event/first-brera-triennale-1891",
       "type": "exhibited",
       "to": "person/luigi-beltrami",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "person/luigi-bertelli",
       "derived": true
     },
     {
@@ -59520,6 +60290,18 @@
     {
       "from": "event/first-brera-triennale-1891",
       "type": "exhibited",
+      "to": "person/luigi-tinelli",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "person/marco-calderini",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
       "to": "person/maria-cattaneo-michis",
       "derived": true
     },
@@ -59569,6 +60351,12 @@
       "from": "event/first-brera-triennale-1891",
       "type": "exhibited",
       "to": "person/orazio-grassoni",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "person/oreste-da-molin",
       "derived": true
     },
     {
@@ -60082,6 +60870,18 @@
       "derived": true
     },
     {
+      "from": "person/oreste-da-molin",
+      "type": "created",
+      "to": "work/al-monte-di-pieta-da-molin-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/al-monte-di-pieta-da-molin-1891",
+      "derived": true
+    },
+    {
       "from": "person/carlo-manziana",
       "type": "created",
       "to": "work/al-pascolo-manziana-1891",
@@ -60532,6 +61332,18 @@
       "derived": true
     },
     {
+      "from": "person/eugenio-andreasi",
+      "type": "created",
+      "to": "work/canal-grande-s-geremia-andreasi-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/canal-grande-s-geremia-andreasi-1891",
+      "derived": true
+    },
+    {
       "from": "person/giuseppe-carozzi",
       "type": "created",
       "to": "work/canale-laveno-carozzi-1891",
@@ -60589,6 +61401,18 @@
       "from": "event/first-brera-triennale-1891",
       "type": "exhibited",
       "to": "work/carica-militare-de-albertis-1891",
+      "derived": true
+    },
+    {
+      "from": "person/luigi-tinelli",
+      "type": "created",
+      "to": "work/cascinale-in-alben-tinelli-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/cascinale-in-alben-tinelli-1891",
       "derived": true
     },
     {
@@ -62950,6 +63774,18 @@
       "derived": true
     },
     {
+      "from": "person/vittorio-colombo",
+      "type": "created",
+      "to": "work/la-madonna-del-sasso-colombo-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/la-madonna-del-sasso-colombo-1891",
+      "derived": true
+    },
+    {
       "from": "person/gerolamo-cairati",
       "type": "created",
       "to": "work/la-madonna-della-pace-cairati-1891",
@@ -63160,6 +63996,18 @@
       "derived": true
     },
     {
+      "from": "person/leonardo-airaghi",
+      "type": "created",
+      "to": "work/la-schiava-bianca-airaghi-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/la-schiava-bianca-airaghi-1891",
+      "derived": true
+    },
+    {
       "from": "person/gaetano-capone",
       "type": "created",
       "to": "work/la-spiaggia-maiori-capone-1891",
@@ -63349,6 +64197,18 @@
       "from": "event/salon-divisionnistes-italiens-paris-1907",
       "type": "exhibited",
       "to": "work/le-chateau-de-padenghe-focardi-1907",
+      "derived": true
+    },
+    {
+      "from": "person/marco-calderini",
+      "type": "created",
+      "to": "work/le-chiuse-di-carlomagno-calderini-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/le-chiuse-di-carlomagno-calderini-1891",
       "derived": true
     },
     {
@@ -64372,6 +65232,18 @@
       "derived": true
     },
     {
+      "from": "person/luigi-bertelli",
+      "type": "created",
+      "to": "work/nevicata-bertelli-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/nevicata-bertelli-1891",
+      "derived": true
+    },
+    {
       "from": "person/idalia-albertini",
       "type": "created",
       "to": "work/nidia-la-cieca-albertini-1891",
@@ -64969,6 +65841,18 @@
       "from": "event/first-brera-triennale-1891",
       "type": "exhibited",
       "to": "work/ponte-alla-carraia-gioli-1891",
+      "derived": true
+    },
+    {
+      "from": "person/luigi-tinelli",
+      "type": "created",
+      "to": "work/ponte-della-selva-tinelli-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/ponte-della-selva-tinelli-1891",
       "derived": true
     },
     {
@@ -66706,6 +67590,18 @@
       "derived": true
     },
     {
+      "from": "person/luigi-tinelli",
+      "type": "created",
+      "to": "work/ultima-neve-tinelli-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/ultima-neve-tinelli-1891",
+      "derived": true
+    },
+    {
       "from": "person/sofia-di-bricherasio",
       "type": "created",
       "to": "work/ultime-tristezze-di-bricherasio-1891",
@@ -66865,6 +67761,18 @@
       "from": "event/first-brera-triennale-1891",
       "type": "exhibited",
       "to": "work/una-riparazione-carcano-1890",
+      "derived": true
+    },
+    {
+      "from": "person/coriolano-vighi",
+      "type": "created",
+      "to": "work/una-scogliera-vighi-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/una-scogliera-vighi-1891",
       "derived": true
     },
     {

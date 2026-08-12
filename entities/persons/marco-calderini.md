@@ -1,11 +1,11 @@
 ---
-id: person/vittorio-colombo
-uri: urn:ahn:person/vittorio-colombo
+id: person/marco-calderini
+uri: urn:ahn:person/marco-calderini
 type: person
-label_ja: ヴィットリオ・コロンボ
-label_en: Vittorio Colombo
+label_ja: マルコ・カルデリーニ
+label_en: Marco Calderini
 aliases:
-  - Colombo Vittorio
+  - Calderini Marco
 authority:
   wikidata: null
   ulan: null
@@ -15,7 +15,7 @@ authority:
 time:
   start: null
   end: null
-  display: "19世紀末に活動"
+  display: "19世紀末にトリノで活動"
 space: []
 relations:
   - {type: exhibited_at, target: event/first-brera-triennale-1891}
@@ -25,6 +25,6 @@ status: draft
 updated: 2026-08-13
 ---
 
-# ヴィットリオ・コロンボ / Vittorio Colombo
+# マルコ・カルデリーニ / Marco Calderini
 
-1891年の第一回ブレラ三年展公式カタログに掲載される出品者。397番《Garibaldi》、407番《La Madonna del Sasso a Locarno》を出品した。本項は展覧会記録に限定する。
+1891年の第一回ブレラ三年展公式カタログに、トリノ出身者として掲載される出品者。405番《Le Chiuse di Carlomagno (Valle di Susa)》を出品した。本項は展覧会記録に限定する。

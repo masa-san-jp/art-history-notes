@@ -1,11 +1,11 @@
 ---
-id: person/vittorio-colombo
-uri: urn:ahn:person/vittorio-colombo
+id: person/leonardo-airaghi
+uri: urn:ahn:person/leonardo-airaghi
 type: person
-label_ja: ヴィットリオ・コロンボ
-label_en: Vittorio Colombo
+label_ja: レオナルド・アライギ
+label_en: Leonardo Airaghi
 aliases:
-  - Colombo Vittorio
+  - Airaghi Leonardo
 authority:
   wikidata: null
   ulan: null
@@ -15,7 +15,7 @@ authority:
 time:
   start: null
   end: null
-  display: "19世紀末に活動"
+  display: "19世紀末にミラノで活動"
 space: []
 relations:
   - {type: exhibited_at, target: event/first-brera-triennale-1891}
@@ -25,6 +25,6 @@ status: draft
 updated: 2026-08-13
 ---
 
-# ヴィットリオ・コロンボ / Vittorio Colombo
+# レオナルド・アライギ / Leonardo Airaghi
 
-1891年の第一回ブレラ三年展公式カタログに掲載される出品者。397番《Garibaldi》、407番《La Madonna del Sasso a Locarno》を出品した。本項は展覧会記録に限定する。
+1891年の第一回ブレラ三年展公式カタログに、ミラノ出身者として掲載される出品者。406番《La Schiava Bianca》を出品した。本項は展覧会記録に限定する。
