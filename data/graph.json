@@ -9862,6 +9862,41 @@
       "updated": "2026-08-12",
       "path": "entities/persons/alessandro-massarenti.md"
     },
+    "person/alessandro-milesi": {
+      "id": "person/alessandro-milesi",
+      "uri": "urn:ahn:person/alessandro-milesi",
+      "type": "person",
+      "label_ja": "アレッサンドロ・ミレージ",
+      "label_en": "Alessandro Milesi",
+      "aliases": [
+        "Milesi Alessandro"
+      ],
+      "authority": {
+        "wikidata": null,
+        "ulan": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "独立した人物典拠IDと生没年は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": null,
+        "end": null,
+        "display": "19世紀末にヴェネツィア出身者として活動"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/persons/alessandro-milesi.md"
+    },
     "person/alessandro-zezzos": {
       "id": "person/alessandro-zezzos",
       "uri": "urn:ahn:person/alessandro-zezzos",
@@ -14306,6 +14341,41 @@
       "updated": "2026-08-12",
       "path": "entities/persons/gottardo-segantini.md"
     },
+    "person/guglielmo-ciardi": {
+      "id": "person/guglielmo-ciardi",
+      "uri": "urn:ahn:person/guglielmo-ciardi",
+      "type": "person",
+      "label_ja": "グリエルモ・チャルディ",
+      "label_en": "Guglielmo Ciardi",
+      "aliases": [
+        "Ciardi Guglielmo"
+      ],
+      "authority": {
+        "wikidata": null,
+        "ulan": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "独立した人物典拠IDと生没年は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": null,
+        "end": null,
+        "display": "19世紀末にヴェネツィア出身者として活動"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/persons/guglielmo-ciardi.md"
+    },
     "person/guglielmo-guidetti": {
       "id": "person/guglielmo-guidetti",
       "uri": "urn:ahn:person/guglielmo-guidetti",
@@ -14769,6 +14839,41 @@
       "updated": "2026-08-12",
       "path": "entities/persons/libero-andreotti.md"
     },
+    "person/lina-sardi": {
+      "id": "person/lina-sardi",
+      "uri": "urn:ahn:person/lina-sardi",
+      "type": "person",
+      "label_ja": "リーナ・サルディ",
+      "label_en": "Lina Sardi",
+      "aliases": [
+        "Sardi Lina"
+      ],
+      "authority": {
+        "wikidata": null,
+        "ulan": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "独立した人物典拠IDと生没年は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": null,
+        "end": null,
+        "display": "19世紀末にヴァラッツェ出身者として活動"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/persons/lina-sardi.md"
+    },
     "person/liubov-popova": {
       "id": "person/liubov-popova",
       "uri": "urn:ahn:person/liubov-popova",
@@ -15142,6 +15247,41 @@
       "status": "draft",
       "updated": "2026-08-12",
       "path": "entities/persons/luigi-gioii.md"
+    },
+    "person/luigi-gioli": {
+      "id": "person/luigi-gioli",
+      "uri": "urn:ahn:person/luigi-gioli",
+      "type": "person",
+      "label_ja": "ルイジ・ジョーリ",
+      "label_en": "Luigi Gioli",
+      "aliases": [
+        "Gioli Luigi"
+      ],
+      "authority": {
+        "wikidata": null,
+        "ulan": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "独立した人物典拠IDと生没年は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": null,
+        "end": null,
+        "display": "19世紀末にピサ出身者として活動"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/persons/luigi-gioli.md"
     },
     "person/luigi-marai": {
       "id": "person/luigi-marai",
@@ -25790,6 +25930,42 @@
       "updated": "2026-08-12",
       "path": "entities/works/in-marcia-zannoni-1891.md"
     },
+    "work/in-marzo-sardi-1891": {
+      "id": "work/in-marzo-sardi-1891",
+      "uri": "urn:ahn:work/in-marzo-sardi-1891",
+      "type": "work",
+      "label_ja": "リーナ・サルディ《In marzo - Studio dal vero》",
+      "label_en": "In marzo - Studio dal vero",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "作品の独立典拠IDと現所在は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年（1891年展カタログ234番）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/lina-sardi"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/works/in-marzo-sardi-1891.md"
+    },
     "work/in-montagna-benzoni-1891": {
       "id": "work/in-montagna-benzoni-1891",
       "uri": "urn:ahn:work/in-montagna-benzoni-1891",
@@ -26609,6 +26785,42 @@
       "updated": "2026-08-12",
       "path": "entities/works/l-oratore-dello-sciopero-longoni-1891.md"
     },
+    "work/la-barca-del-papa-milesi-1891": {
+      "id": "work/la-barca-del-papa-milesi-1891",
+      "uri": "urn:ahn:work/la-barca-del-papa-milesi-1891",
+      "type": "work",
+      "label_ja": "アレッサンドロ・ミレージ《La Barca del papà》",
+      "label_en": "La Barca del papà",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "作品の独立典拠IDと現所在は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年（1891年展カタログ236番）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/alessandro-milesi"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/works/la-barca-del-papa-milesi-1891.md"
+    },
     "work/la-barca-di-trajano-arcaini-1891": {
       "id": "work/la-barca-di-trajano-arcaini-1891",
       "uri": "urn:ahn:work/la-barca-di-trajano-arcaini-1891",
@@ -26906,6 +27118,42 @@
       "status": "draft",
       "updated": "2026-08-12",
       "path": "entities/works/la-mancia-ai-concertisti-ferri-1891.md"
+    },
+    "work/la-mena-in-maremma-fattori-1891": {
+      "id": "work/la-mena-in-maremma-fattori-1891",
+      "uri": "urn:ahn:work/la-mena-in-maremma-fattori-1891",
+      "type": "work",
+      "label_ja": "ジョヴァンニ・ファットーリ《La mena in Maremma》",
+      "label_en": "La mena in Maremma",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "作品の独立典拠IDと現所在は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年（1891年展カタログ240番）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/giovanni-fattori"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/works/la-mena-in-maremma-fattori-1891.md"
     },
     "work/la-mia-gioia-brusaglino-1891": {
       "id": "work/la-mia-gioia-brusaglino-1891",
@@ -31803,6 +32051,42 @@
       "updated": "2026-08-12",
       "path": "entities/works/pesche-ed-uva-feragutti-visconti-1891.md"
     },
+    "work/peschiera-sull-adda-formis-1891": {
+      "id": "work/peschiera-sull-adda-formis-1891",
+      "uri": "urn:ahn:work/peschiera-sull-adda-formis-1891",
+      "type": "work",
+      "label_ja": "アキッレ・フォルミス《Peschiera sull’Adda (Valtellina)》",
+      "label_en": "Peschiera sull’Adda (Valtellina)",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "作品の独立典拠IDと現所在は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年（1891年展カタログ233番）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/achille-formis"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/works/peschiera-sull-adda-formis-1891.md"
+    },
     "work/petit-lac-alpin-fornara-1907": {
       "id": "work/petit-lac-alpin-fornara-1907",
       "uri": "urn:ahn:work/petit-lac-alpin-fornara-1907",
@@ -31986,6 +32270,42 @@
       "status": "draft",
       "updated": "2026-08-12",
       "path": "entities/works/poesia-sassi-1891.md"
+    },
+    "work/ponte-alla-carraia-gioli-1891": {
+      "id": "work/ponte-alla-carraia-gioli-1891",
+      "uri": "urn:ahn:work/ponte-alla-carraia-gioli-1891",
+      "type": "work",
+      "label_ja": "ルイジ・ジョーリ《Ponte alla Carraia (Firenze)》",
+      "label_en": "Ponte alla Carraia (Firenze)",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "作品の独立典拠IDと現所在は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年（1891年展カタログ238番）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/luigi-gioli"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/works/ponte-alla-carraia-gioli-1891.md"
     },
     "work/povera-piccina-massarenti-1891": {
       "id": "work/povera-piccina-massarenti-1891",
@@ -33807,6 +34127,42 @@
       "updated": "2026-08-12",
       "path": "entities/works/ritratto-di-signora-villani-1891.md"
     },
+    "work/ritratto-di-signorina-belloni-1891": {
+      "id": "work/ritratto-di-signorina-belloni-1891",
+      "uri": "urn:ahn:work/ritratto-di-signorina-belloni-1891",
+      "type": "work",
+      "label_ja": "ジョルジョ・ベッローニ《Ritratto di signorina》",
+      "label_en": "Ritratto di signorina",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "作品の独立典拠IDと現所在は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年（1891年展カタログ239番）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/giorgio-belloni"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/works/ritratto-di-signorina-belloni-1891.md"
+    },
     "work/ritratto-di-signorina-quarenghi-1891": {
       "id": "work/ritratto-di-signorina-quarenghi-1891",
       "uri": "urn:ahn:work/ritratto-di-signorina-quarenghi-1891",
@@ -34580,6 +34936,78 @@
       "status": "draft",
       "updated": "2026-08-12",
       "path": "entities/works/soir-en-montagne-fornara-1907.md"
+    },
+    "work/sole-d-autunno-ciardi-1891": {
+      "id": "work/sole-d-autunno-ciardi-1891",
+      "uri": "urn:ahn:work/sole-d-autunno-ciardi-1891",
+      "type": "work",
+      "label_ja": "グリエルモ・チャルディ《Sole d’Autunno (Sul Sile)》",
+      "label_en": "Sole d’Autunno (Sul Sile)",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "作品の独立典拠IDと現所在は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年（1891年展カタログ237番）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/guglielmo-ciardi"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/works/sole-d-autunno-ciardi-1891.md"
+    },
+    "work/sole-d-estate-ciardi-1891": {
+      "id": "work/sole-d-estate-ciardi-1891",
+      "uri": "urn:ahn:work/sole-d-estate-ciardi-1891",
+      "type": "work",
+      "label_ja": "グリエルモ・チャルディ《Sole d’Estate》",
+      "label_en": "Sole d’Estate",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "作品の独立典拠IDと現所在は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年（1891年展カタログ235番）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/guglielmo-ciardi"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/works/sole-d-estate-ciardi-1891.md"
     },
     "work/songe-d-une-nuit-de-printemps-fornara-1907": {
       "id": "work/songe-d-une-nuit-de-printemps-fornara-1907",
@@ -38524,6 +38952,13 @@
       "source": null
     },
     {
+      "from": "person/alessandro-milesi",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "person/alessandro-zezzos",
       "type": "exhibited_at",
       "to": "event/first-brera-triennale-1891",
@@ -39588,6 +40023,13 @@
       "source": null
     },
     {
+      "from": "person/guglielmo-ciardi",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "person/guglielmo-guidetti",
       "type": "exhibited_at",
       "to": "event/first-brera-triennale-1891",
@@ -39658,6 +40100,13 @@
       "from": "person/libero-andreotti",
       "type": "exhibited_at",
       "to": "event/salon-divisionnistes-italiens-paris-1907",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "person/lina-sardi",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
       "certainty": null,
       "source": null
     },
@@ -39736,6 +40185,13 @@
     },
     {
       "from": "person/luigi-gioii",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "person/luigi-gioli",
       "type": "exhibited_at",
       "to": "event/first-brera-triennale-1891",
       "certainty": null,
@@ -42377,6 +42833,20 @@
       "source": null
     },
     {
+      "from": "work/in-marzo-sardi-1891",
+      "type": "created_by",
+      "to": "person/lina-sardi",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/in-marzo-sardi-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "work/in-montagna-benzoni-1891",
       "type": "created_by",
       "to": "person/giuseppe-benzoni",
@@ -42692,6 +43162,20 @@
       "source": null
     },
     {
+      "from": "work/la-barca-del-papa-milesi-1891",
+      "type": "created_by",
+      "to": "person/alessandro-milesi",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/la-barca-del-papa-milesi-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "work/la-barca-di-trajano-arcaini-1891",
       "type": "created_by",
       "to": "person/raineri-arcaini",
@@ -42798,6 +43282,20 @@
     },
     {
       "from": "work/la-mancia-ai-concertisti-ferri-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/la-mena-in-maremma-fattori-1891",
+      "type": "created_by",
+      "to": "person/giovanni-fattori",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/la-mena-in-maremma-fattori-1891",
       "type": "exhibited_at",
       "to": "event/first-brera-triennale-1891",
       "certainty": null,
@@ -44687,6 +45185,20 @@
       "source": null
     },
     {
+      "from": "work/peschiera-sull-adda-formis-1891",
+      "type": "created_by",
+      "to": "person/achille-formis",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/peschiera-sull-adda-formis-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "work/petit-lac-alpin-fornara-1907",
       "type": "created_by",
       "to": "person/carlo-fornara",
@@ -44751,6 +45263,20 @@
     },
     {
       "from": "work/poesia-sassi-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/ponte-alla-carraia-gioli-1891",
+      "type": "created_by",
+      "to": "person/luigi-gioli",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/ponte-alla-carraia-gioli-1891",
       "type": "exhibited_at",
       "to": "event/first-brera-triennale-1891",
       "certainty": null,
@@ -45450,6 +45976,20 @@
       "source": null
     },
     {
+      "from": "work/ritratto-di-signorina-belloni-1891",
+      "type": "created_by",
+      "to": "person/giorgio-belloni",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/ritratto-di-signorina-belloni-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "work/ritratto-di-signorina-quarenghi-1891",
       "type": "created_by",
       "to": "person/federico-quarenghi",
@@ -45740,6 +46280,34 @@
       "from": "work/soir-en-montagne-fornara-1907",
       "type": "exhibited_at",
       "to": "event/salon-divisionnistes-italiens-paris-1907",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/sole-d-autunno-ciardi-1891",
+      "type": "created_by",
+      "to": "person/guglielmo-ciardi",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/sole-d-autunno-ciardi-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/sole-d-estate-ciardi-1891",
+      "type": "created_by",
+      "to": "person/guglielmo-ciardi",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/sole-d-estate-ciardi-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
       "certainty": null,
       "source": null
     },
@@ -47640,6 +48208,12 @@
     {
       "from": "event/first-brera-triennale-1891",
       "type": "exhibited",
+      "to": "person/alessandro-milesi",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
       "to": "person/alessandro-zezzos",
       "derived": true
     },
@@ -48492,6 +49066,12 @@
     {
       "from": "event/first-brera-triennale-1891",
       "type": "exhibited",
+      "to": "person/guglielmo-ciardi",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
       "to": "person/guglielmo-guidetti",
       "derived": true
     },
@@ -48529,6 +49109,12 @@
       "from": "event/salon-divisionnistes-italiens-paris-1907",
       "type": "exhibited",
       "to": "person/libero-andreotti",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "person/lina-sardi",
       "derived": true
     },
     {
@@ -48589,6 +49175,12 @@
       "from": "event/first-brera-triennale-1891",
       "type": "exhibited",
       "to": "person/luigi-gioii",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "person/luigi-gioli",
       "derived": true
     },
     {
@@ -50812,6 +51404,18 @@
       "derived": true
     },
     {
+      "from": "person/lina-sardi",
+      "type": "created",
+      "to": "work/in-marzo-sardi-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/in-marzo-sardi-1891",
+      "derived": true
+    },
+    {
       "from": "person/giuseppe-benzoni",
       "type": "created",
       "to": "work/in-montagna-benzoni-1891",
@@ -51082,6 +51686,18 @@
       "derived": true
     },
     {
+      "from": "person/alessandro-milesi",
+      "type": "created",
+      "to": "work/la-barca-del-papa-milesi-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/la-barca-del-papa-milesi-1891",
+      "derived": true
+    },
+    {
       "from": "person/raineri-arcaini",
       "type": "created",
       "to": "work/la-barca-di-trajano-arcaini-1891",
@@ -51175,6 +51791,18 @@
       "from": "event/first-brera-triennale-1891",
       "type": "exhibited",
       "to": "work/la-mancia-ai-concertisti-ferri-1891",
+      "derived": true
+    },
+    {
+      "from": "person/giovanni-fattori",
+      "type": "created",
+      "to": "work/la-mena-in-maremma-fattori-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/la-mena-in-maremma-fattori-1891",
       "derived": true
     },
     {
@@ -52792,6 +53420,18 @@
       "derived": true
     },
     {
+      "from": "person/achille-formis",
+      "type": "created",
+      "to": "work/peschiera-sull-adda-formis-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/peschiera-sull-adda-formis-1891",
+      "derived": true
+    },
+    {
       "from": "person/carlo-fornara",
       "type": "created",
       "to": "work/petit-lac-alpin-fornara-1907",
@@ -52849,6 +53489,18 @@
       "from": "event/first-brera-triennale-1891",
       "type": "exhibited",
       "to": "work/poesia-sassi-1891",
+      "derived": true
+    },
+    {
+      "from": "person/luigi-gioli",
+      "type": "created",
+      "to": "work/ponte-alla-carraia-gioli-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/ponte-alla-carraia-gioli-1891",
       "derived": true
     },
     {
@@ -53446,6 +54098,18 @@
       "derived": true
     },
     {
+      "from": "person/giorgio-belloni",
+      "type": "created",
+      "to": "work/ritratto-di-signorina-belloni-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/ritratto-di-signorina-belloni-1891",
+      "derived": true
+    },
+    {
       "from": "person/federico-quarenghi",
       "type": "created",
       "to": "work/ritratto-di-signorina-quarenghi-1891",
@@ -53695,6 +54359,30 @@
       "from": "event/salon-divisionnistes-italiens-paris-1907",
       "type": "exhibited",
       "to": "work/soir-en-montagne-fornara-1907",
+      "derived": true
+    },
+    {
+      "from": "person/guglielmo-ciardi",
+      "type": "created",
+      "to": "work/sole-d-autunno-ciardi-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/sole-d-autunno-ciardi-1891",
+      "derived": true
+    },
+    {
+      "from": "person/guglielmo-ciardi",
+      "type": "created",
+      "to": "work/sole-d-estate-ciardi-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/sole-d-estate-ciardi-1891",
       "derived": true
     },
     {

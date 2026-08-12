@@ -27,4 +27,4 @@ updated: 2026-08-12
 
 # アキッレ・フォルミス / Achille Formis
 
-1891年の第一回ブレラ三年展公式カタログに、ナポリ出身者として掲載される画家。本項は展覧会記録に限定する。
+1891年の第一回ブレラ三年展公式カタログに、ナポリ出身者として掲載される画家。231番《Sulla piazza di Talamona (Valtellina)》、232番相当の索引記載を含む332番《Dirupi in Valle del Masino》、233番《Peschiera sull’Adda (Valtellina)》を出品した。本項は展覧会記録に限定する。
