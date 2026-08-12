@@ -10783,6 +10783,41 @@
       "updated": "2026-08-12",
       "path": "entities/persons/francesco-filippini.md"
     },
+    "person/francesco-porzio": {
+      "id": "person/francesco-porzio",
+      "uri": "urn:ahn:person/francesco-porzio",
+      "type": "person",
+      "label_ja": "フランチェスコ・ポルツィオ",
+      "label_en": "Francesco Porzio",
+      "authority": {
+        "wikidata": "Q29085618",
+        "ulan": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": "1854",
+        "end": "1934-08-23",
+        "display": "1854年ヴェルチェッリ生まれ — 1934年8月23日同地没"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://www.museoborgogna.it/opere/francesco-porzio/",
+        "https://dizionariodartesartori.it/artisti/porzio-francesco",
+        "https://www.wikidata.org/wiki/Q29085618",
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/persons/francesco-porzio.md"
+    },
     "person/gaetano-previati": {
       "id": "person/gaetano-previati",
       "uri": "urn:ahn:person/gaetano-previati",
@@ -18101,6 +18136,44 @@
       "updated": "2026-08-12",
       "path": "entities/works/flirt-magrini-1907.md"
     },
+    "work/friulana-ghidoni-1891": {
+      "id": "work/friulana-ghidoni-1891",
+      "uri": "urn:ahn:work/friulana-ghidoni-1891",
+      "type": "work",
+      "label_ja": "ドメニコ・ギドーニ《Friulana》",
+      "label_en": "Friulana",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "1891年展出品作としての独立典拠IDと現所在は未確認。公式カタログと人物典拠を用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年展出品"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/domenico-ghidoni"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://www.treccani.it/enciclopedia/domenico-ghidoni_%28Dizionario-Biografico%29/",
+        "https://www.comune.ospitaletto.bs.it/sites/default/files/2024-03/23_museo-ghidoni_brochure-a5-esecutivo-stanmpa_compressed.pdf",
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/works/friulana-ghidoni-1891.md"
+    },
     "work/funerailles-d-une-vierge-previati-1907": {
       "id": "work/funerailles-d-une-vierge-previati-1907",
       "uri": "urn:ahn:work/funerailles-d-une-vierge-previati-1907",
@@ -18474,11 +18547,11 @@
       "updated": "2026-08-12",
       "path": "entities/works/il-bacio-di-santuzza-salata-1891.md"
     },
-    "work/il-generale-bava-ghidoni-1891": {
-      "id": "work/il-generale-bava-ghidoni-1891",
-      "uri": "urn:ahn:work/il-generale-bava-ghidoni-1891",
+    "work/il-generale-bava-porzio-1891": {
+      "id": "work/il-generale-bava-porzio-1891",
+      "uri": "urn:ahn:work/il-generale-bava-porzio-1891",
       "type": "work",
-      "label_ja": "ドメニコ・ギドーニ《Il Generale Bava, incaricato da Carlo Alberto, studia un piano di battaglia per la campagna del 1848》",
+      "label_ja": "フランチェスコ・ポルツィオ《Il Generale Bava, incaricato da Carlo Alberto, studia un piano di battaglia per la campagna del 1848》",
       "label_en": "Il Generale Bava, incaricato da Carlo Alberto, studia un piano di battaglia per la campagna del 1848",
       "authority": {
         "wikidata": null,
@@ -18496,7 +18569,7 @@
       "relations": [
         {
           "type": "created_by",
-          "target": "person/domenico-ghidoni"
+          "target": "person/francesco-porzio"
         },
         {
           "type": "exhibited_at",
@@ -18504,12 +18577,13 @@
         }
       ],
       "sources": [
-        "https://www.treccani.it/enciclopedia/domenico-ghidoni_%28Dizionario-Biografico%29/",
+        "https://www.museoborgogna.it/opere/francesco-porzio/",
+        "https://dizionariodartesartori.it/artisti/porzio-francesco",
         "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
       ],
       "status": "draft",
       "updated": "2026-08-12",
-      "path": "entities/works/il-generale-bava-ghidoni-1891.md"
+      "path": "entities/works/il-generale-bava-porzio-1891.md"
     },
     "work/il-maglio-filippini-1891": {
       "id": "work/il-maglio-filippini-1891",
@@ -27576,6 +27650,13 @@
       "source": null
     },
     {
+      "from": "person/francesco-porzio",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "person/gaetano-previati",
       "type": "belongs_to",
       "to": "movement/italian-divisionism",
@@ -29004,6 +29085,20 @@
       "source": null
     },
     {
+      "from": "work/friulana-ghidoni-1891",
+      "type": "created_by",
+      "to": "person/domenico-ghidoni",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/friulana-ghidoni-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "work/funerailles-d-une-vierge-previati-1907",
       "type": "created_by",
       "to": "person/gaetano-previati",
@@ -29144,14 +29239,14 @@
       "source": null
     },
     {
-      "from": "work/il-generale-bava-ghidoni-1891",
+      "from": "work/il-generale-bava-porzio-1891",
       "type": "created_by",
-      "to": "person/domenico-ghidoni",
+      "to": "person/francesco-porzio",
       "certainty": null,
       "source": null
     },
     {
-      "from": "work/il-generale-bava-ghidoni-1891",
+      "from": "work/il-generale-bava-porzio-1891",
       "type": "exhibited_at",
       "to": "event/first-brera-triennale-1891",
       "certainty": null,
@@ -33089,6 +33184,12 @@
       "derived": true
     },
     {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "person/francesco-porzio",
+      "derived": true
+    },
+    {
       "from": "movement/italian-divisionism",
       "type": "has_member",
       "to": "person/gaetano-previati",
@@ -34223,6 +34324,18 @@
       "derived": true
     },
     {
+      "from": "person/domenico-ghidoni",
+      "type": "created",
+      "to": "work/friulana-ghidoni-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/friulana-ghidoni-1891",
+      "derived": true
+    },
+    {
       "from": "person/gaetano-previati",
       "type": "created",
       "to": "work/funerailles-d-une-vierge-previati-1907",
@@ -34343,15 +34456,15 @@
       "derived": true
     },
     {
-      "from": "person/domenico-ghidoni",
+      "from": "person/francesco-porzio",
       "type": "created",
-      "to": "work/il-generale-bava-ghidoni-1891",
+      "to": "work/il-generale-bava-porzio-1891",
       "derived": true
     },
     {
       "from": "event/first-brera-triennale-1891",
       "type": "exhibited",
-      "to": "work/il-generale-bava-ghidoni-1891",
+      "to": "work/il-generale-bava-porzio-1891",
       "derived": true
     },
     {

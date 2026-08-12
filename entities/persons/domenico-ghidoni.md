@@ -32,5 +32,5 @@ updated: 2026-08-12
 1891年のミラノ三年展で同作が展示・受賞した経緯を記録している。オスピタレット市公式資料も、
 《Emigranti》がブレラでの発表によって全国的な認知をもたらした作品であると説明する。
 
-1891年の第一回ブレラ三年展では、公式カタログの3番《Finalmente dorme》、8番《Emigranti》、30番《Il Generale Bava, incaricato da Carlo Alberto, studia un piano di battaglia per la campagna del 1848》を出品した。
+1891年の第一回ブレラ三年展では、公式カタログの3番《Finalmente dorme》、8番《Emigranti》、31番《Friulana》を出品した。
 本項では、この展覧会での出品関係を記録するが、ギドーニをイタリア分割主義の構成員とは位置づけない。
