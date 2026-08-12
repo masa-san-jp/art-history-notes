@@ -1038,12 +1038,20 @@
           "target": "place/london"
         }
       ],
-      "relations": [],
+      "relations": [
+        {
+          "type": "diffused_to",
+          "target": "place/vienna",
+          "certainty": "scholarly",
+          "source": "https://www.mak.at/en/program/exhibitions/vienna_1900"
+        }
+      ],
       "sources": [
         "https://www.wikidata.org/wiki/Q330369",
         "https://www.vam.ac.uk/articles/arts-and-crafts-an-introduction",
         "https://www.vam.ac.uk/articles/arts-and-crafts-beyond-the-uk",
-        "https://www.metmuseum.org/it/essays/design-reform"
+        "https://www.metmuseum.org/it/essays/design-reform",
+        "https://www.mak.at/en/program/exhibitions/vienna_1900"
       ],
       "status": "draft",
       "updated": "2026-08-13",
@@ -26546,6 +26554,38 @@
       "status": "stub",
       "updated": "2026-08-09",
       "path": "entities/places/venice.md"
+    },
+    "place/vienna": {
+      "id": "place/vienna",
+      "uri": "urn:ahn:place/vienna",
+      "type": "place",
+      "label_ja": "ウィーン",
+      "label_en": "Vienna",
+      "authority": {
+        "wikidata": "Q1748",
+        "tgn": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "region": "europe-west",
+      "coordinates": [
+        48.208333,
+        16.3725
+      ],
+      "time": {
+        "start": null,
+        "end": null,
+        "display": null
+      },
+      "relations": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q1748"
+      ],
+      "status": "stub",
+      "updated": "2026-08-13",
+      "path": "entities/places/vienna.md"
     },
     "place/weimar": {
       "id": "place/weimar",
@@ -56232,6 +56272,13 @@
     },
     {
       "from": "movement/arts-and-crafts",
+      "type": "diffused_to",
+      "to": "place/vienna",
+      "certainty": "scholarly",
+      "source": "https://www.mak.at/en/program/exhibitions/vienna_1900"
+    },
+    {
+      "from": "movement/arts-and-crafts",
       "type": "originated_in",
       "to": "place/london"
     },
@@ -72498,6 +72545,12 @@
       "from": "movement/constructivism",
       "type": "influenced",
       "to": "movement/arte-madi",
+      "derived": true
+    },
+    {
+      "from": "place/vienna",
+      "type": "received",
+      "to": "movement/arts-and-crafts",
       "derived": true
     },
     {
