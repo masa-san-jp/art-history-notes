@@ -12,8 +12,8 @@ authority:
   none_reason: "個別展覧会の典拠IDは未確認。1907年カタログとDatabase of Modern Exhibitionsを用いる"
 time:
   start: "1907-09-01"
-  end: "1907-10-15"
-  display: "1907年9月1日〜10月15日"
+  end: "1907-10-23"
+  display: "1907年9月1日〜10月23日"
 space:
   - {role: held_at, target: place/paris}
 relations: []
@@ -28,9 +28,11 @@ updated: 2026-08-12
 
 # パリ・イタリア分割主義者展 / Salon des Peintres Divisionnistes Italiens
 
-1907年9月1日から10月15日まで、パリのSerres de la Ville de Paris（Cours-la-Reine）で開かれた
+1907年9月1日から10月23日まで、パリのSerres de la Ville de Paris（Cours-la-Reine）で開かれた
 イタリア分割主義者のグループ展。Database of Modern Exhibitionsは、ミラノのGalerie d'Art A. Grubicyを
 主催者として記録し、17人の出品者、290件のカタログ項目（絵画・素描177件、その他の媒体113件）を数える。
+
+一次カタログの序文は、当初の閉幕予定を10月15日としつつ、都合により8日間延長されたと記録している。
 
 展覧会カタログは、ソシエテ・ダンテ・アリギエーリのパリ委員会から刊行され、アキッレ・ロカテッリ＝ミレージの
 序文を含む。序文は、セガンティーニを中心に、プレヴィアーティ、フォルナラらをイタリア分割主義の系譜として
