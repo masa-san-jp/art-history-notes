@@ -20,6 +20,7 @@ relations:
   - {type: exhibited_at, target: event/salon-divisionnistes-italiens-paris-1907}
 sources:
   - https://www.wikidata.org/wiki/Q3659361
+  - https://exhibitions.univie.ac.at/person/ulan/500013414
   - https://www.treccani.it/enciclopedia/carlo-fornara_%28Dizionario-Biografico%29/
   - https://www.museodelpaesaggio.it/artista/carlo-fornara/
   - https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf
@@ -36,3 +37,7 @@ updated: 2026-08-12
 [`《Ricordanze》`](../works/ricordanze-fornara-1891.md)と230番
 [`「Bottega di calderajo」`](../works/la-bottega-del-calderaio-fornara-1891.md)が確認できる。後年の資料に現れる作品名
 「La bottega del calderaio」と綴りが異なるため、カタログ表記を残す。
+
+1907年パリ展では、Salle Dの225〜252番に28件を出品した。DoMEのカタログ記録に基づき、各件を媒体と
+カタログ番号を保持する個別の`work`エンティティとして整理した。制作年・寸法・現所在は、作品ごとの
+独立典拠を確認できるまで未確定とする。235番と243番の《Midi d'hiver》は番号が異なるため別記録とした。
