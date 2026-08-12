@@ -32,4 +32,4 @@ updated: 2026-08-12
 アルベルト・グルビーチと接点を持った。専門資料は、1907年のパリ展に山岳を主題とする作品を出品したと記録する。
 
 1907年展のカタログでは、Sala A（Rotonde）の10〜18番など、9作品が確認できる。15番は
-[`《Moutons au repos》`](../works/moutons-au-repos-ramponi-1907.md)として作品記録に分離した。
+[`《Moutons au repos》`](../works/moutons-au-repos-ramponi-1907.md)、18番は[`《Village des Alpes》`](../works/village-des-alpes-ramponi-1907.md)として作品記録に分離した。後者は同時代記録に購入の言及があるが、現所在は未確認である。

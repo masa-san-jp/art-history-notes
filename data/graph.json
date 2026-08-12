@@ -15910,6 +15910,44 @@
       "status": "draft",
       "updated": "2026-08-12",
       "path": "entities/works/un-consiglio-del-nonno-morbelli.md"
+    },
+    "work/village-des-alpes-ramponi-1907": {
+      "id": "work/village-des-alpes-ramponi-1907",
+      "uri": "urn:ahn:work/village-des-alpes-ramponi-1907",
+      "type": "work",
+      "label_ja": "フェルディナンド・ランポーニ《Village des Alpes》",
+      "label_en": "Village des Alpes",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "独立作品典拠IDは未確認。1907年パリ展カタログと同時代記録を用いる"
+      },
+      "time": {
+        "start": "1907",
+        "end": "1907",
+        "display": "1907年パリ展出品（制作年未確認）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/ferdinando-ramponi"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/salon-divisionnistes-italiens-paris-1907"
+        }
+      ],
+      "sources": [
+        "https://exhibitions.univie.ac.at/person/gnd/122617517",
+        "https://exhibitions.univie.ac.at/exhibition/125",
+        "https://www.bdl.servizirl.it/bdl/public/rest/srv/item/2295/pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/works/village-des-alpes-ramponi-1907.md"
     }
   },
   "edges": [
@@ -18827,6 +18865,20 @@
       "source": null
     },
     {
+      "from": "work/village-des-alpes-ramponi-1907",
+      "type": "created_by",
+      "to": "person/ferdinando-ramponi",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/village-des-alpes-ramponi-1907",
+      "type": "exhibited_at",
+      "to": "event/salon-divisionnistes-italiens-paris-1907",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "source/seurat-letter-beaubourg-1890",
       "type": "documents",
       "to": "concept/harmony",
@@ -20648,6 +20700,18 @@
       "from": "event/first-brera-triennale-1891",
       "type": "exhibited",
       "to": "work/un-consiglio-del-nonno-morbelli",
+      "derived": true
+    },
+    {
+      "from": "person/ferdinando-ramponi",
+      "type": "created",
+      "to": "work/village-des-alpes-ramponi-1907",
+      "derived": true
+    },
+    {
+      "from": "event/salon-divisionnistes-italiens-paris-1907",
+      "type": "exhibited",
+      "to": "work/village-des-alpes-ramponi-1907",
       "derived": true
     }
   ]
