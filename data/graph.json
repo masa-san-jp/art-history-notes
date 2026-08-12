@@ -114,6 +114,35 @@
       "updated": "2026-08-09",
       "path": "entities/concepts/hurufiyya.md"
     },
+    "concept/ma": {
+      "id": "concept/ma",
+      "uri": "urn:ahn:concept/ma",
+      "type": "concept",
+      "label_ja": "間",
+      "label_en": "ma (interval / relational spacing)",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "日本美術の構成語としての『間』を単一の典拠IDで同定する調査は未了。ここでは美術館・大学の解説に現れる空間的・時間的・心理的な間隔の働きを記録する"
+      },
+      "time": {
+        "start": null,
+        "end": null,
+        "display": "美術・能・展示など複数の領域と時代にまたがる語。単一の起点や日本文化全体への適用範囲は本項では確定しない"
+      },
+      "space": [],
+      "relations": [],
+      "sources": [
+        "https://www.momat.go.jp/magazine/259",
+        "https://www.momaw.jp/momaw360/2021somitsu/",
+        "https://www.arc.ritsumei.ac.jp/artwiki/index.php/%E9%96%93%E5%90%88%E3%81%84"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/concepts/ma.md"
+    },
     "concept/minhwa": {
       "id": "concept/minhwa",
       "uri": "urn:ahn:concept/minhwa",
