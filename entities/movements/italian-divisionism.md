@@ -78,7 +78,7 @@ updated: 2026-08-12
 
 公開されている『Prima esposizione triennale 1891: catalogo ufficiale illustrato』は、題紙に
 R. Accademia di Belle Arti di Breraを掲げ、ミラノのProprietà artistica Arturo Demarchiから刊行された
-公式カタログである。索引と本文の対応から、現時点で次の26作家62件を作品エンティティとして個別化している。
+公式カタログである。索引と本文の対応から、現時点で次の27作家63件を作品エンティティとして個別化している。
 
 - セガンティーニ：209《Le due Madri》、241《Vacca》
 - プレヴィアーティ：213《Maternità》
@@ -106,9 +106,10 @@ R. Accademia di Belle Arti di Breraを掲げ、ミラノのProprietà artistica 
 - ジョヴァン・バッティスタ・ラステッリーニ：573《Ritratto - Costume Albanese, di proprietà del Signor De Cristoforis Malachia》
 - ヴィッラーニ：228《Ritratto di signora》、414《Ritratto di Signora》、572《In Val d’Intelvi》
 - カランドラ：33《Nei campi》、34《L’aratro》、35《Caccia furtiva》
+- ブッティ：17《Monumento funerario in bronzo》
 
-したがって、1891年展については公式カタログの存在、刊行情報、上記26作家の掲載番号と作品名を個別記録済みである。
-カランドラの3件は彫刻の出品記録として扱い、本人をイタリア分割主義の構成員とは推定しない。
+したがって、1891年展については公式カタログの存在、刊行情報、上記27作家の掲載番号と作品名を個別記録済みである。
+カランドラの3件とブッティの1件は彫刻の出品記録として扱い、両者をイタリア分割主義の構成員とは推定しない。
 カタログ本文はSala Aの1番から始まり、Sala A〜Pなどの展示室と複数のPorticoを区分して掲載し、
 Portico D Dの「Parte 2.ª」で630番まで続く（同一作家の複数出品やbis番号を含むため、作品数とは同一視しない）。
 会場内の全出品作と出品者の対応は引き続き未整理である。開催期間は1891年5月6日〜7月12日としてイベント記録に確定しており、展覧会を単一の組織や宣言の場とは扱わない。
