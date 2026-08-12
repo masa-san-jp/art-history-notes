@@ -77,12 +77,13 @@ updated: 2026-08-12
 
 公開されている『Prima esposizione triennale 1891: catalogo ufficiale illustrato』は、題紙に
 R. Accademia di Belle Arti di Breraを掲げ、ミラノのProprietà artistica Arturo Demarchiから刊行された
-公式カタログである。索引と本文の対応から、現時点で次の13作家30件を作品エンティティとして個別化している。
+公式カタログである。索引と本文の対応から、現時点で次の14作家31件を作品エンティティとして個別化している。
 
 - セガンティーニ：209《Le due Madri》、241《Vacca》
 - プレヴィアーティ：213《Maternità》
 - モルベッリ：517《Alba》、518《Un Consiglio del nonno – Parlatorio del luogo Pio Triulzio》
 - ペリッツァ：384《Ritratto di Giani Giuseppe mediatore》、440《Pensieri》、557《Ritratto di mia mamma》、番号未確定《Ritratto di mio papà》
+- デレアーニ：218《In pieno Maggio》
 - フォルナラ：211《Ricordanze》、229《Piccola pastora》、230《Bottega di calderajo》
 - ロンゴーニ：101《L'oratore dello sciopero》、328《Paesaggio - Sole d'inverno》、329《La piscininna》
 - ノメリーニ：281《Piazza Caricamento a Genova》
