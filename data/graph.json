@@ -9752,6 +9752,42 @@
       "updated": "2026-08-10",
       "path": "entities/persons/bernard-fagg.md"
     },
+    "person/carlo-bugatti": {
+      "id": "person/carlo-bugatti",
+      "uri": "urn:ahn:person/carlo-bugatti",
+      "type": "person",
+      "label_ja": "カルロ・ブガッティ",
+      "label_en": "Carlo Bugatti",
+      "authority": {
+        "wikidata": "Q549250",
+        "ulan": 500006692,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": "1856",
+        "end": "1940",
+        "display": "1856年生まれ — 1940年モルスハイム没"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "exhibited_at",
+          "target": "event/salon-divisionnistes-italiens-paris-1907"
+        }
+      ],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q549250",
+        "https://www.getty.edu/vow/ULANFullDisplay?find=Bugatti&nation=&prev_page=1&role=&subjectid=500006692",
+        "https://www.treccani.it/enciclopedia/carlo-bugatti_%28Enciclopedia-Italiana%29/",
+        "https://www.bugatti-trust.co.uk/ettore-bugatti/carlo-bugatti/",
+        "https://www.bdl.servizirl.it/bdl/public/rest/srv/item/2295/pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/persons/carlo-bugatti.md"
+    },
     "person/carlo-fornara": {
       "id": "person/carlo-fornara",
       "uri": "urn:ahn:person/carlo-fornara",
@@ -10110,6 +10146,41 @@
       "status": "stub",
       "updated": "2026-08-10",
       "path": "entities/persons/ernest-fenollosa.md"
+    },
+    "person/eugenio-bellosio": {
+      "id": "person/eugenio-bellosio",
+      "uri": "urn:ahn:person/eugenio-bellosio",
+      "type": "person",
+      "label_ja": "エウジェニオ・ベッロージオ",
+      "label_en": "Eugenio Bellosio",
+      "authority": {
+        "wikidata": "Q17279862",
+        "ulan": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": "1847",
+        "end": "1927",
+        "display": "1847年ミラノ生まれ — 1927年マグレリオ没"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "exhibited_at",
+          "target": "event/salon-divisionnistes-italiens-paris-1907"
+        }
+      ],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q17279862",
+        "https://catalogo.beniculturali.it/detail/HistoricOrArtisticProperty/0300019771",
+        "https://www.beweb.chiesacattolica.it/persone/persona/14580/Eugenio%2BBellosio",
+        "https://www.bdl.servizirl.it/bdl/public/rest/srv/item/2295/pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/persons/eugenio-bellosio.md"
     },
     "person/eustache-de-lorey": {
       "id": "person/eustache-de-lorey",
@@ -11552,6 +11623,42 @@
       "status": "stub",
       "updated": "2026-08-10",
       "path": "entities/persons/pablo-picasso.md"
+    },
+    "person/paolo-troubetzkoy": {
+      "id": "person/paolo-troubetzkoy",
+      "uri": "urn:ahn:person/paolo-troubetzkoy",
+      "type": "person",
+      "label_ja": "パオロ・トルベツコイ",
+      "label_en": "Paolo Troubetzkoy",
+      "authority": {
+        "wikidata": "Q583534",
+        "ulan": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": "1866-02-15",
+        "end": "1938-02-12",
+        "display": "1866年2月15日イントラ生まれ — 1938年2月12日スーナ没"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "exhibited_at",
+          "target": "event/salon-divisionnistes-italiens-paris-1907"
+        }
+      ],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q583534",
+        "https://www.treccani.it/enciclopedia/pavel-petrovic-trubeckoj/",
+        "https://www.treccani.it/enciclopedia/paul-troubetzkoy_%28Dizionario-Biografico%29/",
+        "https://www.musee-orsay.fr/en/program/whats-on/exhibitions/presentation/paul-troubetzkoy-sculpteur-1866-1938",
+        "https://www.bdl.servizirl.it/bdl/public/rest/srv/item/2295/pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/persons/paolo-troubetzkoy.md"
     },
     "person/papa-ibra-tall": {
       "id": "person/papa-ibra-tall",
@@ -26216,6 +26323,13 @@
       "source": null
     },
     {
+      "from": "person/carlo-bugatti",
+      "type": "exhibited_at",
+      "to": "event/salon-divisionnistes-italiens-paris-1907",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "person/carlo-fornara",
       "type": "belongs_to",
       "to": "movement/italian-divisionism",
@@ -26302,6 +26416,13 @@
       "from": "person/emilio-longoni",
       "type": "belongs_to",
       "to": "movement/italian-divisionism",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "person/eugenio-bellosio",
+      "type": "exhibited_at",
+      "to": "event/salon-divisionnistes-italiens-paris-1907",
       "certainty": null,
       "source": null
     },
@@ -26570,6 +26691,13 @@
     },
     {
       "from": "person/mario-segantini",
+      "type": "exhibited_at",
+      "to": "event/salon-divisionnistes-italiens-paris-1907",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "person/paolo-troubetzkoy",
       "type": "exhibited_at",
       "to": "event/salon-divisionnistes-italiens-paris-1907",
       "certainty": null,
@@ -31342,6 +31470,12 @@
       "derived": true
     },
     {
+      "from": "event/salon-divisionnistes-italiens-paris-1907",
+      "type": "exhibited",
+      "to": "person/carlo-bugatti",
+      "derived": true
+    },
+    {
       "from": "movement/italian-divisionism",
       "type": "has_member",
       "to": "person/carlo-fornara",
@@ -31399,6 +31533,12 @@
       "from": "movement/italian-divisionism",
       "type": "has_member",
       "to": "person/emilio-longoni",
+      "derived": true
+    },
+    {
+      "from": "event/salon-divisionnistes-italiens-paris-1907",
+      "type": "exhibited",
+      "to": "person/eugenio-bellosio",
       "derived": true
     },
     {
@@ -31579,6 +31719,12 @@
       "from": "event/salon-divisionnistes-italiens-paris-1907",
       "type": "exhibited",
       "to": "person/mario-segantini",
+      "derived": true
+    },
+    {
+      "from": "event/salon-divisionnistes-italiens-paris-1907",
+      "type": "exhibited",
+      "to": "person/paolo-troubetzkoy",
       "derived": true
     },
     {
