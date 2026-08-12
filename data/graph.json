@@ -18608,42 +18608,6 @@
       "updated": "2026-08-12",
       "path": "entities/works/lion-dans-l-attente-magrini-1907.md"
     },
-    "work/macchiette-d-amici-longoni-1891": {
-      "id": "work/macchiette-d-amici-longoni-1891",
-      "uri": "urn:ahn:work/macchiette-d-amici-longoni-1891",
-      "type": "work",
-      "label_ja": "エミリオ・ロンゴーニ《Macchiette d’amici》",
-      "label_en": "Macchiette d’amici",
-      "authority": {
-        "wikidata": null,
-        "aat": null,
-        "ndl": null,
-        "jpsearch": null,
-        "none_reason": "作品の独立典拠IDと現所在は未確認。1891年公式カタログを用いる"
-      },
-      "time": {
-        "start": "1891",
-        "end": "1891",
-        "display": "1891年展出品"
-      },
-      "space": [],
-      "relations": [
-        {
-          "type": "created_by",
-          "target": "person/emilio-longoni"
-        },
-        {
-          "type": "exhibited_at",
-          "target": "event/first-brera-triennale-1891"
-        }
-      ],
-      "sources": [
-        "https://upload.wikimedia.org/wikipedia/commons/2/24/Prima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
-      ],
-      "status": "draft",
-      "updated": "2026-08-12",
-      "path": "entities/works/macchiette-d-amici-longoni-1891.md"
-    },
     "work/marine-crepuscule-minozzi-1907": {
       "id": "work/marine-crepuscule-minozzi-1907",
       "uri": "urn:ahn:work/marine-crepuscule-minozzi-1907",
@@ -26343,20 +26307,6 @@
       "source": null
     },
     {
-      "from": "work/macchiette-d-amici-longoni-1891",
-      "type": "created_by",
-      "to": "person/emilio-longoni",
-      "certainty": null,
-      "source": null
-    },
-    {
-      "from": "work/macchiette-d-amici-longoni-1891",
-      "type": "exhibited_at",
-      "to": "event/first-brera-triennale-1891",
-      "certainty": null,
-      "source": null
-    },
-    {
       "from": "work/marine-crepuscule-minozzi-1907",
       "type": "created_by",
       "to": "person/filiberto-minozzi",
@@ -30523,18 +30473,6 @@
       "from": "event/salon-divisionnistes-italiens-paris-1907",
       "type": "exhibited",
       "to": "work/lion-dans-l-attente-magrini-1907",
-      "derived": true
-    },
-    {
-      "from": "person/emilio-longoni",
-      "type": "created",
-      "to": "work/macchiette-d-amici-longoni-1891",
-      "derived": true
-    },
-    {
-      "from": "event/first-brera-triennale-1891",
-      "type": "exhibited",
-      "to": "work/macchiette-d-amici-longoni-1891",
       "derived": true
     },
     {
