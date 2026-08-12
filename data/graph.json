@@ -15165,6 +15165,44 @@
       "updated": "2026-08-12",
       "path": "entities/works/alba-morbelli-1891.md"
     },
+    "work/alla-banda-dei-giardini-pubblici-carcano-1891": {
+      "id": "work/alla-banda-dei-giardini-pubblici-carcano-1891",
+      "uri": "urn:ahn:work/alla-banda-dei-giardini-pubblici-carcano-1891",
+      "type": "work",
+      "label_ja": "フィリッポ・カルカーノ《Alla banda dei giardini pubblici》",
+      "label_en": "Alla banda dei giardini pubblici",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "作品の独立典拠IDは未確認。ブレラ展ガイドと1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年（1891年展カタログ387番）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/filippo-carcano"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://galleriemaspes.com/immagini_sito/Cataloghi%20pdf/Brera_Guide.pdf",
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf",
+        "https://www.wikidata.org/wiki/Q3745131"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/works/alla-banda-dei-giardini-pubblici-carcano-1891.md"
+    },
     "work/alla-vanga-ferraguti-1891": {
       "id": "work/alla-vanga-ferraguti-1891",
       "uri": "urn:ahn:work/alla-vanga-ferraguti-1891",
@@ -23474,6 +23512,44 @@
       "updated": "2026-08-12",
       "path": "entities/works/un-nuage-maggi-1907.md"
     },
+    "work/una-riparazione-carcano-1890": {
+      "id": "work/una-riparazione-carcano-1890",
+      "uri": "urn:ahn:work/una-riparazione-carcano-1890",
+      "type": "work",
+      "label_ja": "フィリッポ・カルカーノ《Una riparazione》",
+      "label_en": "Una riparazione",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "作品の独立典拠IDは未確認。ブレラ展ガイドと1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": "1890",
+        "end": "1890",
+        "display": "1890年制作・1891年展出品（1891年展カタログ386番）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/filippo-carcano"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://galleriemaspes.com/immagini_sito/Cataloghi%20pdf/Brera_Guide.pdf",
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf",
+        "https://www.wikidata.org/wiki/Q3745131"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/works/una-riparazione-carcano-1890.md"
+    },
     "work/uva-sottocornola-1891": {
       "id": "work/uva-sottocornola-1891",
       "uri": "urn:ahn:work/uva-sottocornola-1891",
@@ -26391,6 +26467,20 @@
     },
     {
       "from": "work/alba-morbelli-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/alla-banda-dei-giardini-pubblici-carcano-1891",
+      "type": "created_by",
+      "to": "person/filippo-carcano",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/alla-banda-dei-giardini-pubblici-carcano-1891",
       "type": "exhibited_at",
       "to": "event/first-brera-triennale-1891",
       "certainty": null,
@@ -29585,6 +29675,20 @@
       "source": null
     },
     {
+      "from": "work/una-riparazione-carcano-1890",
+      "type": "created_by",
+      "to": "person/filippo-carcano",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/una-riparazione-carcano-1890",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "work/uva-sottocornola-1891",
       "type": "created_by",
       "to": "person/giovanni-sottocornola",
@@ -31217,6 +31321,18 @@
       "from": "event/first-brera-triennale-1891",
       "type": "exhibited",
       "to": "work/alba-morbelli-1891",
+      "derived": true
+    },
+    {
+      "from": "person/filippo-carcano",
+      "type": "created",
+      "to": "work/alla-banda-dei-giardini-pubblici-carcano-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/alla-banda-dei-giardini-pubblici-carcano-1891",
       "derived": true
     },
     {
@@ -33941,6 +34057,18 @@
       "from": "event/salon-divisionnistes-italiens-paris-1907",
       "type": "exhibited",
       "to": "work/un-nuage-maggi-1907",
+      "derived": true
+    },
+    {
+      "from": "person/filippo-carcano",
+      "type": "created",
+      "to": "work/una-riparazione-carcano-1890",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/una-riparazione-carcano-1890",
       "derived": true
     },
     {
