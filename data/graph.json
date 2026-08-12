@@ -10392,6 +10392,40 @@
       "updated": "2026-08-12",
       "path": "entities/persons/emilio-longoni.md"
     },
+    "person/emilio-marsili": {
+      "id": "person/emilio-marsili",
+      "uri": "urn:ahn:person/emilio-marsili",
+      "type": "person",
+      "label_ja": "エミリオ・マルシリ",
+      "label_en": "Emilio Marsili",
+      "authority": {
+        "wikidata": null,
+        "ulan": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "独立した人物典拠IDは未確認。Treccani、Dizionario d'Arte Sartori、1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": "1841-02-01",
+        "end": "1926-02-02",
+        "display": "1841年2月1日ヴェネツィア生まれ — 1926年2月2日同地没"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://www.treccani.it/enciclopedia/emilio-marsili_%28Dizionario-Biografico%29/",
+        "https://dizionariodartesartori.it/artisti/marsili-emilio",
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/persons/emilio-marsili.md"
+    },
     "person/enrico-butti": {
       "id": "person/enrico-butti",
       "uri": "urn:ahn:person/enrico-butti",
@@ -20830,6 +20864,43 @@
       "updated": "2026-08-12",
       "path": "entities/works/lef-no-2-1924.md"
     },
+    "work/leggendo-marsili-1891": {
+      "id": "work/leggendo-marsili-1891",
+      "uri": "urn:ahn:work/leggendo-marsili-1891",
+      "type": "work",
+      "label_ja": "エミリオ・マルシリ《Leggendo》",
+      "label_en": "Leggendo",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "1891年展出品作としての独立典拠IDと現所在は未確認。公式カタログと人物典拠を用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年展出品"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/emilio-marsili"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://www.treccani.it/enciclopedia/emilio-marsili_%28Dizionario-Biografico%29/",
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/works/leggendo-marsili-1891.md"
+    },
     "work/les-heures-du-matin-segantini-1907": {
       "id": "work/les-heures-du-matin-segantini-1907",
       "uri": "urn:ahn:work/les-heures-du-matin-segantini-1907",
@@ -24768,6 +24839,43 @@
       "updated": "2026-08-12",
       "path": "entities/works/spatial-construction-no-12.md"
     },
+    "work/speta-mi-bambin-marsili-1891": {
+      "id": "work/speta-mi-bambin-marsili-1891",
+      "uri": "urn:ahn:work/speta-mi-bambin-marsili-1891",
+      "type": "work",
+      "label_ja": "エミリオ・マルシリ《Speta mi, bambin!》",
+      "label_en": "Speta mi, bambin!",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "1891年展出品作としての独立典拠IDと現所在は未確認。公式カタログと人物典拠を用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年展出品"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/emilio-marsili"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://www.treccani.it/enciclopedia/emilio-marsili_%28Dizionario-Biografico%29/",
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/works/speta-mi-bambin-marsili-1891.md"
+    },
     "work/st-moritz-pendant-la-nuit-segantini-1907": {
       "id": "work/st-moritz-pendant-la-nuit-segantini-1907",
       "uri": "urn:ahn:work/st-moritz-pendant-la-nuit-segantini-1907",
@@ -27940,6 +28048,13 @@
       "source": null
     },
     {
+      "from": "person/emilio-marsili",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "person/enrico-butti",
       "type": "exhibited_at",
       "to": "event/first-brera-triennale-1891",
@@ -30446,6 +30561,20 @@
       "source": null
     },
     {
+      "from": "work/leggendo-marsili-1891",
+      "type": "created_by",
+      "to": "person/emilio-marsili",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/leggendo-marsili-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "work/les-heures-du-matin-segantini-1907",
       "type": "created_by",
       "to": "person/giovanni-segantini",
@@ -31940,6 +32069,20 @@
       "from": "work/spatial-construction-no-12",
       "type": "belongs_to",
       "to": "movement/constructivism",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/speta-mi-bambin-marsili-1891",
+      "type": "created_by",
+      "to": "person/emilio-marsili",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/speta-mi-bambin-marsili-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
       "certainty": null,
       "source": null
     },
@@ -33585,6 +33728,12 @@
       "from": "event/first-brera-triennale-1891",
       "type": "exhibited",
       "to": "person/emilio-longoni",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "person/emilio-marsili",
       "derived": true
     },
     {
@@ -35646,6 +35795,18 @@
       "derived": true
     },
     {
+      "from": "person/emilio-marsili",
+      "type": "created",
+      "to": "work/leggendo-marsili-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/leggendo-marsili-1891",
+      "derived": true
+    },
+    {
       "from": "person/giovanni-segantini",
       "type": "created",
       "to": "work/les-heures-du-matin-segantini-1907",
@@ -36927,6 +37088,18 @@
       "from": "movement/constructivism",
       "type": "has_member",
       "to": "work/spatial-construction-no-12",
+      "derived": true
+    },
+    {
+      "from": "person/emilio-marsili",
+      "type": "created",
+      "to": "work/speta-mi-bambin-marsili-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/speta-mi-bambin-marsili-1891",
       "derived": true
     },
     {
