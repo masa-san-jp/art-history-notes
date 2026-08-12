@@ -27,4 +27,4 @@ updated: 2026-08-13
 
 # リッカルド・サルヴァドーリ / Riccardo Salvadori
 
-1891年の第一回ブレラ三年展公式カタログに、マントヴァ出身者として掲載される出品者。443番《La regina del mercato》と513番《Una vecchia canzone》を出品した。本項は展覧会記録に限定する。
+1891年の第一回ブレラ三年展公式カタログに、マントヴァ出身者として掲載される出品者。443番《La regina del mercato》、513番《Una vecchia canzone》、609番《Ottobre》を出品した。本項は展覧会記録に限定する。

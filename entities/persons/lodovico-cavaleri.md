@@ -27,4 +27,4 @@ updated: 2026-08-13
 
 # ロドヴィーコ・カヴァレーリ / Lodovico Cavaleri
 
-1891年の第一回ブレラ三年展公式カタログに、ミラノ出身者として掲載される画家。556番《Lerici - Golfo della Spezia》を出品した。本項は展覧会記録に限定する。
+1891年の第一回ブレラ三年展公式カタログに、ミラノ出身者として掲載される画家。556番《Lerici - Golfo della Spezia》、610番《Proxima nox》、611番《Bonaccia (Lerici)》を出品した。本項は展覧会記録に限定する。
