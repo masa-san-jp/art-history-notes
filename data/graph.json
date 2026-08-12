@@ -1783,7 +1783,7 @@
           "type": "influenced_by",
           "target": "movement/nihonga",
           "certainty": "scholarly",
-          "source": "https://amis-musee-cernuschi.org/en/les-liens-artistiques-et-culturels-entre-linde-et-le-japon-vers-1890-1940-2/"
+          "source": "https://faam.city.fukuoka.lg.jp/en/exhibition/11422/"
         }
       ],
       "sources": [
@@ -1796,7 +1796,8 @@
         "https://en.wikipedia.org/wiki/Indian_Society_of_Oriental_Art",
         "https://imp-art.org/articles/bengal-school/",
         "https://digitalcommons.ciis.edu/facultypublications/51/",
-        "https://amis-musee-cernuschi.org/en/les-liens-artistiques-et-culturels-entre-linde-et-le-japon-vers-1890-1940-2/"
+        "https://amis-musee-cernuschi.org/en/les-liens-artistiques-et-culturels-entre-linde-et-le-japon-vers-1890-1940-2/",
+        "https://faam.city.fukuoka.lg.jp/en/exhibition/11422/"
       ],
       "status": "draft",
       "updated": "2026-08-09",
@@ -56318,7 +56319,7 @@
       "type": "influenced_by",
       "to": "movement/nihonga",
       "certainty": "scholarly",
-      "source": "https://amis-musee-cernuschi.org/en/les-liens-artistiques-et-culturels-entre-linde-et-le-japon-vers-1890-1940-2/"
+      "source": "https://faam.city.fukuoka.lg.jp/en/exhibition/11422/"
     },
     {
       "from": "movement/bengal-school",

@@ -31,7 +31,7 @@ relations:
   - {type: created_by, target: person/abanindranath-tagore}
   - {type: created_by, target: person/e-b-havell}
   - {type: influenced_by, target: movement/mughal-painting, certainty: scholarly, source: "https://www.getty.edu/vow/AATFullDisplay?find=Bengal&logic=AND&note=&english=Y&prev_page=1&subjectid=300417404"}
-  - {type: influenced_by, target: movement/nihonga, certainty: scholarly, source: "https://amis-musee-cernuschi.org/en/les-liens-artistiques-et-culturels-entre-linde-et-le-japon-vers-1890-1940-2/"}
+  - {type: influenced_by, target: movement/nihonga, certainty: scholarly, source: "https://faam.city.fukuoka.lg.jp/en/exhibition/11422/"}
 sources:
   - https://www.wikidata.org/wiki/Q948504
   - https://en.wikipedia.org/wiki/Bengal_School_of_Art
@@ -43,6 +43,7 @@ sources:
   - https://imp-art.org/articles/bengal-school/
   - https://digitalcommons.ciis.edu/facultypublications/51/
   - https://amis-musee-cernuschi.org/en/les-liens-artistiques-et-culturels-entre-linde-et-le-japon-vers-1890-1940-2/
+  - https://faam.city.fukuoka.lg.jp/en/exhibition/11422/
 status: draft
 updated: 2026-08-09
 ---
@@ -91,8 +92,10 @@ and create a national art" と記す。ムガル細密画やラージプート�
 colored washes and gradients: this style is called *Morotai*"（輪郭線を用いず、色のウォッシュと
 グラデーションで空気を描く新しい仕事＝「朦朧体」）を伝えた。同資料は "This Japanese style marks the
 first production of the School of Bengal." と書く
-（[amis-musee-cernuschi.org](https://amis-musee-cernuschi.org/en/les-liens-artistiques-et-culturels-entre-linde-et-le-japon-vers-1890-1940-2/)、
-二次情報）。Getty AAT が挙げる "Japanese ink wash painting" は、この経路を指している。
+（[福岡アジア美術館「Bengal School and Japan」](https://faam.city.fukuoka.lg.jp/en/exhibition/11422/)）。
+岡倉・大観・春草を介した具体的な滞在と技法伝達の経路は、補足的に
+[チェルヌスキ美術館友の会の整理](https://amis-musee-cernuschi.org/en/les-liens-artistiques-et-culturels-entre-linde-et-le-japon-vers-1890-1940-2/)
+で確認できる。Getty AAT が挙げる "Japanese ink wash painting" は、この経路を指している。
 
 **未確認**: 2人の滞在期間・指導の場所（カルカッタのタゴール邸か、シャンティニケトンか、
 資料により記述が揺れる）・指導を受けた側の記録。一次資料には到達していない。
