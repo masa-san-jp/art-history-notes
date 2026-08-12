@@ -6189,6 +6189,12 @@
           "target": "movement/yamato-e",
           "certainty": "scholarly",
           "source": "https://www.yamatane-museum.jp/en/nihonga/"
+        },
+        {
+          "type": "influenced_by",
+          "target": "movement/maruyama-shijo-school",
+          "certainty": "scholarly",
+          "source": "https://www.yamatane-museum.jp/en/nihonga/"
         }
       ],
       "images": [
@@ -57259,6 +57265,13 @@
     },
     {
       "from": "movement/nihonga",
+      "type": "influenced_by",
+      "to": "movement/maruyama-shijo-school",
+      "certainty": "scholarly",
+      "source": "https://www.yamatane-museum.jp/en/nihonga/"
+    },
+    {
+      "from": "movement/nihonga",
       "type": "originated_in",
       "to": "place/tokyo"
     },
@@ -73005,6 +73018,12 @@
     },
     {
       "from": "movement/yamato-e",
+      "type": "influenced",
+      "to": "movement/nihonga",
+      "derived": true
+    },
+    {
+      "from": "movement/maruyama-shijo-school",
       "type": "influenced",
       "to": "movement/nihonga",
       "derived": true
