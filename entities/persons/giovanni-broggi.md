@@ -1,0 +1,28 @@
+---
+id: person/giovanni-broggi
+uri: urn:ahn:person/giovanni-broggi
+type: person
+label_ja: ジョヴァンニ・ブロッジ
+label_en: Giovanni Broggi
+authority:
+  wikidata: null
+  ulan: null
+  ndl: null
+  jpsearch: null
+  none_reason: "独立した人物典拠IDと生没年は未確認。1891年公式カタログを用いる"
+time:
+  start: null
+  end: null
+  display: "19世紀末にリグルノ出身者として活動"
+space: []
+relations:
+  - {type: exhibited_at, target: event/first-brera-triennale-1891}
+sources:
+  - https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf
+status: draft
+updated: 2026-08-13
+---
+
+# ジョヴァンニ・ブロッジ / Giovanni Broggi
+
+1891年の第一回ブレラ三年展公式カタログに、リグルノ出身者として掲載される彫刻家。474番《Gruppo di Garibaldini dopo la battaglia di Mentana》を出品した。本項は展覧会記録に限定する。
