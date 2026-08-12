@@ -20,9 +20,9 @@ relations:
 sources:
   - https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf
 status: draft
-updated: 2026-08-12
+updated: 2026-08-13
 ---
 
 # ジュゼッペ・エウジェニオ・コンティ / Giuseppe Eugenio Conti
 
-1891年の第一回ブレラ三年展公式カタログに、クレーマ出身者として掲載される画家。本項は展覧会記録に限定する。
+1891年の第一回ブレラ三年展公式カタログに、クレーマ出身者として掲載される画家。441番《Fuori di pericolo》を出品した。本項は展覧会記録に限定する。
