@@ -12191,7 +12191,7 @@
         "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
       ],
       "status": "draft",
-      "updated": "2026-08-12",
+      "updated": "2026-08-13",
       "path": "entities/persons/domenico-ferri.md"
     },
     "person/domenico-ghidoni": {
@@ -13157,6 +13157,41 @@
       "status": "draft",
       "updated": "2026-08-12",
       "path": "entities/persons/ercole-garbani-nerini.md"
+    },
+    "person/ermenegildo-agazzi": {
+      "id": "person/ermenegildo-agazzi",
+      "uri": "urn:ahn:person/ermenegildo-agazzi",
+      "type": "person",
+      "label_ja": "エルメネジルド・アガッツィ",
+      "label_en": "Ermenegildo Agazzi",
+      "aliases": [
+        "Agazzi Ermenegildo"
+      ],
+      "authority": {
+        "wikidata": null,
+        "ulan": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "独立した人物典拠IDと生没年は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": null,
+        "end": null,
+        "display": "19世紀末にマペッロ出身者として活動"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-13",
+      "path": "entities/persons/ermenegildo-agazzi.md"
     },
     "person/ermenegildo-peverada": {
       "id": "person/ermenegildo-peverada",
@@ -15692,7 +15727,7 @@
         "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
       ],
       "status": "draft",
-      "updated": "2026-08-12",
+      "updated": "2026-08-13",
       "path": "entities/persons/giuseppe-eugenio-conti.md"
     },
     "person/giuseppe-ferrari": {
@@ -15852,7 +15887,7 @@
         "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
       ],
       "status": "draft",
-      "updated": "2026-08-12",
+      "updated": "2026-08-13",
       "path": "entities/persons/giuseppe-pellizza-da-volpedo.md"
     },
     "person/giuseppe-quaranta": {
@@ -17114,6 +17149,41 @@
       "updated": "2026-08-10",
       "path": "entities/persons/louis-vauxcelles.md"
     },
+    "person/ludovico-raymond": {
+      "id": "person/ludovico-raymond",
+      "uri": "urn:ahn:person/ludovico-raymond",
+      "type": "person",
+      "label_ja": "ルドヴィコ・レイモンド",
+      "label_en": "Ludovico Raymond",
+      "aliases": [
+        "Raymond Ludovico"
+      ],
+      "authority": {
+        "wikidata": null,
+        "ulan": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "独立した人物典拠IDと生没年は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": null,
+        "end": null,
+        "display": "19世紀末にトリノで活動"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-13",
+      "path": "entities/persons/ludovico-raymond.md"
+    },
     "person/luigi-beltrami": {
       "id": "person/luigi-beltrami",
       "uri": "urn:ahn:person/luigi-beltrami",
@@ -17447,7 +17517,7 @@
         "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
       ],
       "status": "draft",
-      "updated": "2026-08-12",
+      "updated": "2026-08-13",
       "path": "entities/persons/luigi-mion.md"
     },
     "person/luigi-monteverde": {
@@ -17870,6 +17940,41 @@
       "status": "draft",
       "updated": "2026-08-12",
       "path": "entities/persons/mario-segantini.md"
+    },
+    "person/metello-motelli": {
+      "id": "person/metello-motelli",
+      "uri": "urn:ahn:person/metello-motelli",
+      "type": "person",
+      "label_ja": "メテッロ・モテッリ",
+      "label_en": "Metello Motelli",
+      "aliases": [
+        "Motelli Metello"
+      ],
+      "authority": {
+        "wikidata": null,
+        "ulan": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "独立した人物典拠IDと生没年は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": null,
+        "end": null,
+        "display": "19世紀末にミラノで活動"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-13",
+      "path": "entities/persons/metello-motelli.md"
     },
     "person/millo-bortoluzzi": {
       "id": "person/millo-bortoluzzi",
@@ -19130,6 +19235,41 @@
       "status": "draft",
       "updated": "2026-08-13",
       "path": "entities/persons/riccardo-marchesini.md"
+    },
+    "person/riccardo-salvadori": {
+      "id": "person/riccardo-salvadori",
+      "uri": "urn:ahn:person/riccardo-salvadori",
+      "type": "person",
+      "label_ja": "リッカルド・サルヴァドーリ",
+      "label_en": "Riccardo Salvadori",
+      "aliases": [
+        "Salvadori Riccardo"
+      ],
+      "authority": {
+        "wikidata": null,
+        "ulan": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "独立した人物典拠IDと生没年は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": null,
+        "end": null,
+        "display": "19世紀末にマントヴァ出身者として活動"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-13",
+      "path": "entities/persons/riccardo-salvadori.md"
     },
     "person/ries-mulder": {
       "id": "person/ries-mulder",
@@ -20412,7 +20552,7 @@
         "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
       ],
       "status": "draft",
-      "updated": "2026-08-12",
+      "updated": "2026-08-13",
       "path": "entities/persons/vittorio-saccardo.md"
     },
     "person/vladimir-tatlin": {
@@ -23567,6 +23707,42 @@
       "status": "draft",
       "updated": "2026-08-13",
       "path": "entities/works/abbeveraggio-ricca-1891.md"
+    },
+    "work/affari-di-stato-raymond-1891": {
+      "id": "work/affari-di-stato-raymond-1891",
+      "uri": "urn:ahn:work/affari-di-stato-raymond-1891",
+      "type": "work",
+      "label_ja": "ルドヴィコ・レイモンド《Affari di Stato.》",
+      "label_en": "Affari di Stato.",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "作品の独立典拠IDと現所在は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年（1891年展カタログ437番）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/ludovico-raymond"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-13",
+      "path": "entities/works/affari-di-stato-raymond-1891.md"
     },
     "work/agricoltura-novi-1891": {
       "id": "work/agricoltura-novi-1891",
@@ -28331,6 +28507,42 @@
       "updated": "2026-08-12",
       "path": "entities/works/figure-de-femme-magrini-1907.md"
     },
+    "work/figuretta-in-bronzo-pianissimo-motelli-1891": {
+      "id": "work/figuretta-in-bronzo-pianissimo-motelli-1891",
+      "uri": "urn:ahn:work/figuretta-in-bronzo-pianissimo-motelli-1891",
+      "type": "work",
+      "label_ja": "メテッロ・モテッリ《Figuretta in bronzo con soggetto musicale - Pianissimo》",
+      "label_en": "Figuretta in bronzo con soggetto musicale - Pianissimo",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "作品の独立典拠IDと現所在は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年（1891年展カタログ435番）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/metello-motelli"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-13",
+      "path": "entities/works/figuretta-in-bronzo-pianissimo-motelli-1891.md"
+    },
     "work/finalmente-dorme-ghidoni-1891": {
       "id": "work/finalmente-dorme-ghidoni-1891",
       "uri": "urn:ahn:work/finalmente-dorme-ghidoni-1891",
@@ -29274,6 +29486,42 @@
       "updated": "2026-08-12",
       "path": "entities/works/funerailles-d-une-vierge-previati-1907.md"
     },
+    "work/fuori-di-pericolo-conti-1891": {
+      "id": "work/fuori-di-pericolo-conti-1891",
+      "uri": "urn:ahn:work/fuori-di-pericolo-conti-1891",
+      "type": "work",
+      "label_ja": "ジュゼッペ・エウジェニオ・コンティ《Fuori di pericolo》",
+      "label_en": "Fuori di pericolo",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "作品の独立典拠IDと現所在は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年（1891年展カタログ441番）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/giuseppe-eugenio-conti"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-13",
+      "path": "entities/works/fuori-di-pericolo-conti-1891.md"
+    },
     "work/fuori-di-porta-sottocornola-1891": {
       "id": "work/fuori-di-porta-sottocornola-1891",
       "uri": "urn:ahn:work/fuori-di-porta-sottocornola-1891",
@@ -29971,6 +30219,42 @@
       "status": "draft",
       "updated": "2026-08-12",
       "path": "entities/works/i-peocci-steffani-1891.md"
+    },
+    "work/i-racconti-della-nonna-mion-1891": {
+      "id": "work/i-racconti-della-nonna-mion-1891",
+      "uri": "urn:ahn:work/i-racconti-della-nonna-mion-1891",
+      "type": "work",
+      "label_ja": "ルイジ・ミオン《I racconti della nonna.》",
+      "label_en": "I racconti della nonna.",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "作品の独立典拠IDと現所在は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年（1891年展カタログ438番）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/luigi-mion"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-13",
+      "path": "entities/works/i-racconti-della-nonna-mion-1891.md"
     },
     "work/i-sacri-esuli-pontremoli-1891": {
       "id": "work/i-sacri-esuli-pontremoli-1891",
@@ -33313,6 +33597,42 @@
       "status": "draft",
       "updated": "2026-08-12",
       "path": "entities/works/la-questione-sociale-cogliati-1891.md"
+    },
+    "work/la-regina-del-mercato-salvadori-1891": {
+      "id": "work/la-regina-del-mercato-salvadori-1891",
+      "uri": "urn:ahn:work/la-regina-del-mercato-salvadori-1891",
+      "type": "work",
+      "label_ja": "リッカルド・サルヴァドーリ《La regina del mercato》",
+      "label_en": "La regina del mercato",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "作品の独立典拠IDと現所在は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年（1891年展カタログ443番）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/riccardo-salvadori"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-13",
+      "path": "entities/works/la-regina-del-mercato-salvadori-1891.md"
     },
     "work/la-ripetizione-bianchi-1891": {
       "id": "work/la-ripetizione-bianchi-1891",
@@ -37390,6 +37710,42 @@
       "status": "draft",
       "updated": "2026-08-12",
       "path": "entities/works/novembre-costantini-1891.md"
+    },
+    "work/novembre-studio-ermenegildo-agazzi-1891": {
+      "id": "work/novembre-studio-ermenegildo-agazzi-1891",
+      "uri": "urn:ahn:work/novembre-studio-ermenegildo-agazzi-1891",
+      "type": "work",
+      "label_ja": "エルメネジルド・アガッツィ《Novembre - Studio dal vero》",
+      "label_en": "Novembre - Studio dal vero",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "作品の独立典拠IDと現所在は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年（1891年展カタログ442番）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/ermenegildo-agazzi"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-13",
+      "path": "entities/works/novembre-studio-ermenegildo-agazzi-1891.md"
     },
     "work/onda-armoniosa-unknown-1891": {
       "id": "work/onda-armoniosa-unknown-1891",
@@ -42806,6 +43162,42 @@
       "updated": "2026-08-12",
       "path": "entities/works/soccorso-pasini-1891.md"
     },
+    "work/soggetto-musicale-fortissimo-motelli-1891": {
+      "id": "work/soggetto-musicale-fortissimo-motelli-1891",
+      "uri": "urn:ahn:work/soggetto-musicale-fortissimo-motelli-1891",
+      "type": "work",
+      "label_ja": "メテッロ・モテッリ《Soggetto musicale - Fortissimo》",
+      "label_en": "Soggetto musicale - Fortissimo",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "作品の独立典拠IDと現所在は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年（1891年展カタログ434番）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/metello-motelli"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-13",
+      "path": "entities/works/soggetto-musicale-fortissimo-motelli-1891.md"
+    },
     "work/sognando-rastellini-1891": {
       "id": "work/sognando-rastellini-1891",
       "uri": "urn:ahn:work/sognando-rastellini-1891",
@@ -44124,6 +44516,42 @@
       "status": "draft",
       "updated": "2026-08-13",
       "path": "entities/works/tende-fellah-guastalla-1891.md"
+    },
+    "work/termidoro-ferri-1891": {
+      "id": "work/termidoro-ferri-1891",
+      "uri": "urn:ahn:work/termidoro-ferri-1891",
+      "type": "work",
+      "label_ja": "ドメニコ・フェッリ《Termidoro》",
+      "label_en": "Termidoro",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "作品の独立典拠IDと現所在は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年（1891年展カタログ439番）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/domenico-ferri"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-13",
+      "path": "entities/works/termidoro-ferri-1891.md"
     },
     "work/tesoro-mio-cappelli-1891": {
       "id": "work/tesoro-mio-cappelli-1891",
@@ -45596,6 +46024,42 @@
       "status": "draft",
       "updated": "2026-08-13",
       "path": "entities/works/veduta-di-capri-tafuri-1891.md"
+    },
+    "work/vendemmia-saccardo-1891": {
+      "id": "work/vendemmia-saccardo-1891",
+      "uri": "urn:ahn:work/vendemmia-saccardo-1891",
+      "type": "work",
+      "label_ja": "ヴィットリオ・サッカルド《Vendemmia》",
+      "label_en": "Vendemmia",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "作品の独立典拠IDと現所在は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年（1891年展カタログ436番）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/vittorio-saccardo"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-13",
+      "path": "entities/works/vendemmia-saccardo-1891.md"
     },
     "work/vepre-serein-fornara-1907": {
       "id": "work/vepre-serein-fornara-1907",
@@ -48730,6 +49194,13 @@
       "source": null
     },
     {
+      "from": "person/ermenegildo-agazzi",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "person/ermenegildo-peverada",
       "type": "exhibited_at",
       "to": "event/first-brera-triennale-1891",
@@ -49588,6 +50059,13 @@
       "source": null
     },
     {
+      "from": "person/ludovico-raymond",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "person/luigi-beltrami",
       "type": "exhibited_at",
       "to": "event/first-brera-triennale-1891",
@@ -49745,6 +50223,13 @@
       "from": "person/mario-segantini",
       "type": "exhibited_at",
       "to": "event/salon-divisionnistes-italiens-paris-1907",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "person/metello-motelli",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
       "certainty": null,
       "source": null
     },
@@ -49965,6 +50450,13 @@
     },
     {
       "from": "person/riccardo-marchesini",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "person/riccardo-salvadori",
       "type": "exhibited_at",
       "to": "event/first-brera-triennale-1891",
       "certainty": null,
@@ -50394,6 +50886,20 @@
     },
     {
       "from": "work/abbeveraggio-ricca-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/affari-di-stato-raymond-1891",
+      "type": "created_by",
+      "to": "person/ludovico-raymond",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/affari-di-stato-raymond-1891",
       "type": "exhibited_at",
       "to": "event/first-brera-triennale-1891",
       "certainty": null,
@@ -52237,6 +52743,20 @@
       "source": null
     },
     {
+      "from": "work/figuretta-in-bronzo-pianissimo-motelli-1891",
+      "type": "created_by",
+      "to": "person/metello-motelli",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/figuretta-in-bronzo-pianissimo-motelli-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "work/finalmente-dorme-ghidoni-1891",
       "type": "created_by",
       "to": "person/domenico-ghidoni",
@@ -52601,6 +53121,20 @@
       "source": null
     },
     {
+      "from": "work/fuori-di-pericolo-conti-1891",
+      "type": "created_by",
+      "to": "person/giuseppe-eugenio-conti",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/fuori-di-pericolo-conti-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "work/fuori-di-porta-sottocornola-1891",
       "type": "created_by",
       "to": "person/giovanni-sottocornola",
@@ -52861,6 +53395,20 @@
     },
     {
       "from": "work/i-peocci-steffani-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/i-racconti-della-nonna-mion-1891",
+      "type": "created_by",
+      "to": "person/luigi-mion",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/i-racconti-della-nonna-mion-1891",
       "type": "exhibited_at",
       "to": "event/first-brera-triennale-1891",
       "certainty": null,
@@ -54149,6 +54697,20 @@
     },
     {
       "from": "work/la-questione-sociale-cogliati-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/la-regina-del-mercato-salvadori-1891",
+      "type": "created_by",
+      "to": "person/riccardo-salvadori",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/la-regina-del-mercato-salvadori-1891",
       "type": "exhibited_at",
       "to": "event/first-brera-triennale-1891",
       "certainty": null,
@@ -55717,6 +56279,20 @@
     },
     {
       "from": "work/novembre-costantini-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/novembre-studio-ermenegildo-agazzi-1891",
+      "type": "created_by",
+      "to": "person/ermenegildo-agazzi",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/novembre-studio-ermenegildo-agazzi-1891",
       "type": "exhibited_at",
       "to": "event/first-brera-triennale-1891",
       "certainty": null,
@@ -57802,6 +58378,20 @@
       "source": null
     },
     {
+      "from": "work/soggetto-musicale-fortissimo-motelli-1891",
+      "type": "created_by",
+      "to": "person/metello-motelli",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/soggetto-musicale-fortissimo-motelli-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "work/sognando-rastellini-1891",
       "type": "created_by",
       "to": "person/gian-maria-rastellini",
@@ -58300,6 +58890,20 @@
     },
     {
       "from": "work/tende-fellah-guastalla-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/termidoro-ferri-1891",
+      "type": "created_by",
+      "to": "person/domenico-ferri",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/termidoro-ferri-1891",
       "type": "exhibited_at",
       "to": "event/first-brera-triennale-1891",
       "certainty": null,
@@ -58874,6 +59478,20 @@
     },
     {
       "from": "work/veduta-di-capri-tafuri-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/vendemmia-saccardo-1891",
+      "type": "created_by",
+      "to": "person/vittorio-saccardo",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/vendemmia-saccardo-1891",
       "type": "exhibited_at",
       "to": "event/first-brera-triennale-1891",
       "certainty": null,
@@ -60780,6 +61398,12 @@
     {
       "from": "event/first-brera-triennale-1891",
       "type": "exhibited",
+      "to": "person/ermenegildo-agazzi",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
       "to": "person/ermenegildo-peverada",
       "derived": true
     },
@@ -61464,6 +62088,12 @@
     {
       "from": "event/first-brera-triennale-1891",
       "type": "exhibited",
+      "to": "person/ludovico-raymond",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
       "to": "person/luigi-beltrami",
       "derived": true
     },
@@ -61597,6 +62227,12 @@
       "from": "event/salon-divisionnistes-italiens-paris-1907",
       "type": "exhibited",
       "to": "person/mario-segantini",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "person/metello-motelli",
       "derived": true
     },
     {
@@ -61783,6 +62419,12 @@
       "from": "event/first-brera-triennale-1891",
       "type": "exhibited",
       "to": "person/riccardo-marchesini",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "person/riccardo-salvadori",
       "derived": true
     },
     {
@@ -62125,6 +62767,18 @@
       "from": "event/first-brera-triennale-1891",
       "type": "exhibited",
       "to": "work/abbeveraggio-ricca-1891",
+      "derived": true
+    },
+    {
+      "from": "person/ludovico-raymond",
+      "type": "created",
+      "to": "work/affari-di-stato-raymond-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/affari-di-stato-raymond-1891",
       "derived": true
     },
     {
@@ -63694,6 +64348,18 @@
       "derived": true
     },
     {
+      "from": "person/metello-motelli",
+      "type": "created",
+      "to": "work/figuretta-in-bronzo-pianissimo-motelli-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/figuretta-in-bronzo-pianissimo-motelli-1891",
+      "derived": true
+    },
+    {
       "from": "person/domenico-ghidoni",
       "type": "created",
       "to": "work/finalmente-dorme-ghidoni-1891",
@@ -64006,6 +64672,18 @@
       "derived": true
     },
     {
+      "from": "person/giuseppe-eugenio-conti",
+      "type": "created",
+      "to": "work/fuori-di-pericolo-conti-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/fuori-di-pericolo-conti-1891",
+      "derived": true
+    },
+    {
       "from": "person/giovanni-sottocornola",
       "type": "created",
       "to": "work/fuori-di-porta-sottocornola-1891",
@@ -64231,6 +64909,18 @@
       "from": "event/first-brera-triennale-1891",
       "type": "exhibited",
       "to": "work/i-peocci-steffani-1891",
+      "derived": true
+    },
+    {
+      "from": "person/luigi-mion",
+      "type": "created",
+      "to": "work/i-racconti-della-nonna-mion-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/i-racconti-della-nonna-mion-1891",
       "derived": true
     },
     {
@@ -65335,6 +66025,18 @@
       "from": "event/first-brera-triennale-1891",
       "type": "exhibited",
       "to": "work/la-questione-sociale-cogliati-1891",
+      "derived": true
+    },
+    {
+      "from": "person/riccardo-salvadori",
+      "type": "created",
+      "to": "work/la-regina-del-mercato-salvadori-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/la-regina-del-mercato-salvadori-1891",
       "derived": true
     },
     {
@@ -66679,6 +67381,18 @@
       "from": "event/first-brera-triennale-1891",
       "type": "exhibited",
       "to": "work/novembre-costantini-1891",
+      "derived": true
+    },
+    {
+      "from": "person/ermenegildo-agazzi",
+      "type": "created",
+      "to": "work/novembre-studio-ermenegildo-agazzi-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/novembre-studio-ermenegildo-agazzi-1891",
       "derived": true
     },
     {
@@ -68464,6 +69178,18 @@
       "derived": true
     },
     {
+      "from": "person/metello-motelli",
+      "type": "created",
+      "to": "work/soggetto-musicale-fortissimo-motelli-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/soggetto-musicale-fortissimo-motelli-1891",
+      "derived": true
+    },
+    {
       "from": "person/gian-maria-rastellini",
       "type": "created",
       "to": "work/sognando-rastellini-1891",
@@ -68893,6 +69619,18 @@
       "from": "event/first-brera-triennale-1891",
       "type": "exhibited",
       "to": "work/tende-fellah-guastalla-1891",
+      "derived": true
+    },
+    {
+      "from": "person/domenico-ferri",
+      "type": "created",
+      "to": "work/termidoro-ferri-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/termidoro-ferri-1891",
       "derived": true
     },
     {
@@ -69385,6 +70123,18 @@
       "from": "event/first-brera-triennale-1891",
       "type": "exhibited",
       "to": "work/veduta-di-capri-tafuri-1891",
+      "derived": true
+    },
+    {
+      "from": "person/vittorio-saccardo",
+      "type": "created",
+      "to": "work/vendemmia-saccardo-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/vendemmia-saccardo-1891",
       "derived": true
     },
     {

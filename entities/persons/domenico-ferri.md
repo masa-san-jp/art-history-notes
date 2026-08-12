@@ -22,7 +22,7 @@ sources:
   - https://www.galleriarecta.it/autore/ferrri-domenico/
   - https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf
 status: draft
-updated: 2026-08-12
+updated: 2026-08-13
 ---
 
 # ドメニコ・フェッリ / Domenico Ferri
@@ -31,4 +31,4 @@ updated: 2026-08-12
 フィレンツェのアカデミーで学び、風俗画、宗教画、装飾画などを制作した経歴を記録している。
 
 1891年の第一回ブレラ三年展では、公式カタログの48番《La mancia ai concertisti》、49番《Brumaio》、
-50番《Paradiso Terrestre》を出品した。本項では、この展覧会での出品関係を記録するが、フェッリをイタリア分割主義の構成員とは位置づけない。
+50番《Paradiso Terrestre》、439番《Termidoro》を出品した。本項では、この展覧会での出品関係を記録するが、フェッリをイタリア分割主義の構成員とは位置づけない。
