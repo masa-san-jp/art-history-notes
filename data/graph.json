@@ -15681,6 +15681,44 @@
       "updated": "2026-08-12",
       "path": "entities/works/moutons-au-repos-ramponi-1907.md"
     },
+    "work/paesaggio-studio-merello-1907": {
+      "id": "work/paesaggio-studio-merello-1907",
+      "uri": "urn:ahn:work/paesaggio-studio-merello-1907",
+      "type": "work",
+      "label_ja": "ルバルド・メレッロ《Paesaggio. Studio》",
+      "label_en": "Paesaggio. Studio",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "独立作品典拠IDは未確認。1907年パリ展カタログと専門資料を用いる"
+      },
+      "time": {
+        "start": "1907",
+        "end": "1907",
+        "display": "1907年制作・1907年パリ展出品"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/rubaldo-merello"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/salon-divisionnistes-italiens-paris-1907"
+        }
+      ],
+      "sources": [
+        "https://exhibitions.univie.ac.at/exhibition/125",
+        "https://exhibitions.univie.ac.at/person/gnd/119217643",
+        "https://www.pittoriliguri.info/schede-di-approfondimento/divisionismo-in-liguria/"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/works/paesaggio-studio-merello-1907.md"
+    },
     "work/parmi-les-rochers-merello-1905": {
       "id": "work/parmi-les-rochers-merello-1905",
       "uri": "urn:ahn:work/parmi-les-rochers-merello-1905",
@@ -19036,6 +19074,20 @@
       "source": null
     },
     {
+      "from": "work/paesaggio-studio-merello-1907",
+      "type": "created_by",
+      "to": "person/rubaldo-merello",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/paesaggio-studio-merello-1907",
+      "type": "exhibited_at",
+      "to": "event/salon-divisionnistes-italiens-paris-1907",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "work/parmi-les-rochers-merello-1905",
       "type": "created_by",
       "to": "person/rubaldo-merello",
@@ -20982,6 +21034,18 @@
       "from": "event/salon-divisionnistes-italiens-paris-1907",
       "type": "exhibited",
       "to": "work/moutons-au-repos-ramponi-1907",
+      "derived": true
+    },
+    {
+      "from": "person/rubaldo-merello",
+      "type": "created",
+      "to": "work/paesaggio-studio-merello-1907",
+      "derived": true
+    },
+    {
+      "from": "event/salon-divisionnistes-italiens-paris-1907",
+      "type": "exhibited",
+      "to": "work/paesaggio-studio-merello-1907",
       "derived": true
     },
     {
