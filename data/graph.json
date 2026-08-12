@@ -2745,13 +2745,20 @@
           "target": "movement/post-impressionism",
           "certainty": "scholarly",
           "source": "https://www.metmuseum.org/ja/essays/fauvism"
+        },
+        {
+          "type": "diffused_to",
+          "target": "place/tokyo",
+          "certainty": "scholarly",
+          "source": "https://www.momak.go.jp/English/collectionGalleryArchive/2017/collectionGallery2017No05.html"
         }
       ],
       "sources": [
         "https://www.wikidata.org/wiki/Q166593",
         "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300021300",
         "https://shop.tate.org.uk/derain-the-pool-of-london/andder1703.html",
-        "https://www.metmuseum.org/ja/essays/fauvism"
+        "https://www.metmuseum.org/ja/essays/fauvism",
+        "https://www.momak.go.jp/English/collectionGalleryArchive/2017/collectionGallery2017No05.html"
       ],
       "status": "draft",
       "updated": "2026-08-12",
@@ -13807,6 +13814,13 @@
     },
     {
       "from": "movement/fauvism",
+      "type": "diffused_to",
+      "to": "place/tokyo",
+      "certainty": "scholarly",
+      "source": "https://www.momak.go.jp/English/collectionGalleryArchive/2017/collectionGallery2017No05.html"
+    },
+    {
+      "from": "movement/fauvism",
       "type": "originated_in",
       "to": "place/paris"
     },
@@ -15482,6 +15496,12 @@
     {
       "from": "movement/post-impressionism",
       "type": "influenced",
+      "to": "movement/fauvism",
+      "derived": true
+    },
+    {
+      "from": "place/tokyo",
+      "type": "received",
       "to": "movement/fauvism",
       "derived": true
     },
