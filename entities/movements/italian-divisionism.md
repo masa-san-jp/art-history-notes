@@ -57,7 +57,8 @@ updated: 2026-08-12
 公式な初出を構成したと記録する。主要な担い手には、ヴィットーレ・グルビーチ、プレヴィアーティ、
 セガンティーニ、モルベッリ、[`ジュゼッペ・ペリッツァ・ダ・ヴォルペード`](../persons/giuseppe-pellizza-da-volpedo.md)、
 [`カルロ・フォルナラ`](../persons/carlo-fornara.md)、[`エミリオ・ロンゴーニ`](../persons/emilio-longoni.md)、
-[`プリーニオ・ノメリーニ`](../persons/plinio-nomellini.md)、[`ヴィットーレ・グルビーチ・デ・ドラゴン`](../persons/vittore-grubicy-de-dragon.md)らが含まれる。
+[`プリーニオ・ノメリーニ`](../persons/plinio-nomellini.md)、[`ヴィットーレ・グルビーチ・デ・ドラゴン`](../persons/vittore-grubicy-de-dragon.md)、
+[`アキッレ・トミネッティ`](../persons/achille-tominetti.md)らが含まれる。
 
 ## 1891年公式カタログ
 
