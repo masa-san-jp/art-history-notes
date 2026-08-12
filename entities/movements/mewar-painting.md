@@ -28,8 +28,8 @@ claims:
 space:
   - {role: originated_in, target: place/udaipur}
 relations:
-  - {type: influenced_by, target: movement/mughal-painting, certainty: scholarly, source: "https://en.wikipedia.org/wiki/Rajput_painting"}
-  - {type: reacts_against, target: movement/mughal-painting, certainty: scholarly, source: "https://en.wikipedia.org/wiki/Rajput_painting"}
+  - {type: influenced_by, target: movement/mughal-painting, certainty: scholarly, source: "https://resources.metmuseum.org/resources/metpublications/pdf/Wonder_of_the_Age_Master_Painters_of_India_1100_1900.pdf"}
+  - {type: reacts_against, target: movement/mughal-painting, certainty: scholarly, source: "https://www.metmuseum.org/exhibitions/listings/2011/lyrical-visions?persisted=true&sc_device=default"}
 sources:
   - https://en.wikipedia.org/wiki/Rajput_painting
   - https://www.wikidata.org/wiki/Q2988788
@@ -43,6 +43,8 @@ sources:
   - https://openaccess-api.clevelandart.org/api/artworks/314441
   - https://clevelandart.org/art/2003.343
   - https://openaccess-api.clevelandart.org/api/artworks/162857
+  - https://resources.metmuseum.org/resources/metpublications/pdf/Wonder_of_the_Age_Master_Painters_of_India_1100_1900.pdf
+  - https://www.metmuseum.org/exhibitions/listings/2011/lyrical-visions?persisted=true&sc_device=default
 images:
   - url: https://openaccess-cdn.clevelandart.org/2018.136/2018.136_web.jpg
     source_page: https://clevelandart.org/art/2018.136
@@ -210,12 +212,15 @@ India, Rajasthan, Rajput Kingdom of Mewar, Chawand」とする）。様式その
 
 出典は、メーワール派とムガル絵画の関係を**一方向の単純な影響関係としては描いていない**。
 
-**受容の側**: サーヒブディーンの1628年『ラーガマーラー』は「準帝国的ムガル様式の若干の影響」を
-見せる（[Wikipedia "Rajput painting"](https://en.wikipedia.org/wiki/Rajput_painting)、上記
-`## kind の判定`③参照）。ここから`influenced_by`を`certainty: scholarly`で
-[movement/mughal-painting](mughal-painting.md)へ張った。
+**受容の側**: メトロポリタン美術館の研究出版物は、メーワールの画家サーヒブディーンが早い時期に
+準帝国的なムガル様式に触れ、肖像画の自然主義や細部描写にその吸収が現れたと説明する
+（[Met「Wonder of the Age」](https://resources.metmuseum.org/resources/metpublications/pdf/Wonder_of_the_Age_Master_Painters_of_India_1100_1900.pdf)）。
+ここから`influenced_by`を`certainty: scholarly`で[ムガル絵画](mughal-painting.md)へ張った。
 
-**抵抗の側**: 同時に、この受容は限定的・一時的なものとして記述される。メーワール王国自体が
+**抵抗の側**: 同時に、この受容は限定的・一時的なものとして記述される。メトロポリタン美術館の
+展覧会解説は、17世紀初頭にムガル工房の画家との接触がラージプトの制作に影響した一方、孤立した宮廷では
+古い画風が継続したと整理している（[Met「Lyrical Visions」](https://www.metmuseum.org/exhibitions/listings/2011/lyrical-visions?persisted=true&sc_device=default)）。
+メーワール王国自体が
 「ムガル支配下に入った最後のラージプト諸侯国」で、1615年まで服属を拒み続けたという政治的
 経緯があり（同上）、Getty AATの様式解説は「外部の美術的影響への抵抗」をメーワール様式の
 定義的特徴として挙げる（AATesaurusミラーの要約、二次情報）。様式面でも、1649〜53年の
