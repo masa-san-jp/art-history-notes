@@ -9373,6 +9373,41 @@
       "updated": "2026-08-10",
       "path": "entities/persons/bernard-fagg.md"
     },
+    "person/carlo-fornara": {
+      "id": "person/carlo-fornara",
+      "uri": "urn:ahn:person/carlo-fornara",
+      "type": "person",
+      "label_ja": "カルロ・フォルナラ",
+      "label_en": "Carlo Fornara",
+      "authority": {
+        "wikidata": "Q3659361",
+        "ulan": "500013414",
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": "1871",
+        "end": "1968",
+        "display": "1871年プレジティノーネ生まれ — 1968年同地没"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "belongs_to",
+          "target": "movement/italian-divisionism"
+        }
+      ],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q3659361",
+        "https://www.treccani.it/enciclopedia/carlo-fornara_%28Dizionario-Biografico%29/",
+        "https://www.museodelpaesaggio.it/artista/carlo-fornara/",
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/persons/carlo-fornara.md"
+    },
     "person/david-alfaro-siqueiros": {
       "id": "person/david-alfaro-siqueiros",
       "uri": "urn:ahn:person/david-alfaro-siqueiros",
@@ -13796,6 +13831,44 @@
       "updated": "2026-08-12",
       "path": "entities/works/bathers-at-asnieres.md"
     },
+    "work/la-bottega-del-calderaio-fornara-1891": {
+      "id": "work/la-bottega-del-calderaio-fornara-1891",
+      "uri": "urn:ahn:work/la-bottega-del-calderaio-fornara-1891",
+      "type": "work",
+      "label_ja": "カルロ・フォルナラ《La bottega del calderaio》",
+      "label_en": "La bottega del calderaio",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "1891年展出品作の独立典拠IDと現所在は未確認。文化財カタログ・Treccani・公式カタログを用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年展出品（1892年制作の同名レプリカとは分けて扱う）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/carlo-fornara"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://www.treccani.it/enciclopedia/carlo-fornara_%28Dizionario-Biografico%29/",
+        "https://catalogo.beniculturali.it/detail/Lombardia/HistoricOrArtisticProperty/0302133245",
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/works/la-bottega-del-calderaio-fornara-1891.md"
+    },
     "work/le-due-madri-segantini": {
       "id": "work/le-due-madri-segantini",
       "uri": "urn:ahn:work/le-due-madri-segantini",
@@ -13999,6 +14072,43 @@
       "status": "draft",
       "updated": "2026-08-12",
       "path": "entities/works/proun-19d.md"
+    },
+    "work/ricordanze-fornara-1891": {
+      "id": "work/ricordanze-fornara-1891",
+      "uri": "urn:ahn:work/ricordanze-fornara-1891",
+      "type": "work",
+      "label_ja": "カルロ・フォルナラ《Ricordanze》",
+      "label_en": "Ricordanze",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "作品の独立典拠IDと現所在は未確認。Treccaniと1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年展出品"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/carlo-fornara"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://www.treccani.it/enciclopedia/carlo-fornara_%28Dizionario-Biografico%29/",
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/works/ricordanze-fornara-1891.md"
     },
     "work/spatial-construction-no-12": {
       "id": "work/spatial-construction-no-12",
@@ -15910,6 +16020,13 @@
       "to": "place/milan"
     },
     {
+      "from": "person/carlo-fornara",
+      "type": "belongs_to",
+      "to": "movement/italian-divisionism",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "person/david-alfaro-siqueiros",
       "type": "grouped_as",
       "to": "movement/mexican-muralism",
@@ -16213,6 +16330,20 @@
       "to": "org/national-gallery-london"
     },
     {
+      "from": "work/la-bottega-del-calderaio-fornara-1891",
+      "type": "created_by",
+      "to": "person/carlo-fornara",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/la-bottega-del-calderaio-fornara-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "work/le-due-madri-segantini",
       "type": "created_by",
       "to": "person/giovanni-segantini",
@@ -16307,6 +16438,20 @@
       "from": "work/proun-19d",
       "type": "belongs_to",
       "to": "movement/constructivism",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/ricordanze-fornara-1891",
+      "type": "created_by",
+      "to": "person/carlo-fornara",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/ricordanze-fornara-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
       "certainty": null,
       "source": null
     },
@@ -17330,6 +17475,12 @@
       "derived": true
     },
     {
+      "from": "movement/italian-divisionism",
+      "type": "has_member",
+      "to": "person/carlo-fornara",
+      "derived": true
+    },
+    {
       "from": "movement/mexican-muralism",
       "type": "groups",
       "to": "person/david-alfaro-siqueiros",
@@ -17504,6 +17655,18 @@
       "derived": true
     },
     {
+      "from": "person/carlo-fornara",
+      "type": "created",
+      "to": "work/la-bottega-del-calderaio-fornara-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/la-bottega-del-calderaio-fornara-1891",
+      "derived": true
+    },
+    {
       "from": "person/giovanni-segantini",
       "type": "created",
       "to": "work/le-due-madri-segantini",
@@ -17585,6 +17748,18 @@
       "from": "movement/constructivism",
       "type": "has_member",
       "to": "work/proun-19d",
+      "derived": true
+    },
+    {
+      "from": "person/carlo-fornara",
+      "type": "created",
+      "to": "work/ricordanze-fornara-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/ricordanze-fornara-1891",
       "derived": true
     },
     {
