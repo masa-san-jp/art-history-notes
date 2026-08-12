@@ -9630,6 +9630,40 @@
       "updated": "2026-08-12",
       "path": "entities/persons/angelo-morbelli.md"
     },
+    "person/antonio-bezzola": {
+      "id": "person/antonio-bezzola",
+      "uri": "urn:ahn:person/antonio-bezzola",
+      "type": "person",
+      "label_ja": "アントニオ・ベッツォラ",
+      "label_en": "Antonio Bezzola",
+      "authority": {
+        "wikidata": "Q23818741",
+        "ulan": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": "1846-06-03",
+        "end": "1929-04-20",
+        "display": "1846年6月3日カンピオーネ生まれ — 1929年4月20日ミラノ没"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://www.treccani.it/enciclopedia/antonio-bezzola_%28Dizionario-Biografico%29/",
+        "https://www.wikidata.org/wiki/Q23818741",
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/persons/antonio-bezzola.md"
+    },
     "person/arnaldo-ferraguti": {
       "id": "person/arnaldo-ferraguti",
       "uri": "urn:ahn:person/arnaldo-ferraguti",
@@ -10043,6 +10077,41 @@
       "status": "draft",
       "updated": "2026-08-12",
       "path": "entities/persons/davide-calandra.md"
+    },
+    "person/domenico-ghidoni": {
+      "id": "person/domenico-ghidoni",
+      "uri": "urn:ahn:person/domenico-ghidoni",
+      "type": "person",
+      "label_ja": "ドメニコ・ギドーニ",
+      "label_en": "Domenico Ghidoni",
+      "authority": {
+        "wikidata": null,
+        "ulan": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "独立した人物典拠IDは未確認。Treccani、オスピタレット市公式資料、1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": "1857",
+        "end": "1920",
+        "display": "1857年オスピタレット生まれ — 1920年没"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://www.treccani.it/enciclopedia/domenico-ghidoni_%28Dizionario-Biografico%29/",
+        "https://www.comune.ospitaletto.bs.it/sites/default/files/2024-03/23_museo-ghidoni_brochure-a5-esecutivo-stanmpa_compressed.pdf",
+        "https://www.enciclopediabresciana.it/enciclopedia/index.php?title=GHIDONI_Domenico",
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/persons/domenico-ghidoni.md"
     },
     "person/dong-qichang": {
       "id": "person/dong-qichang",
@@ -17265,6 +17334,44 @@
       "updated": "2026-08-12",
       "path": "entities/works/elephant-magrini-1907.md"
     },
+    "work/emigranti-ghidoni-1891": {
+      "id": "work/emigranti-ghidoni-1891",
+      "uri": "urn:ahn:work/emigranti-ghidoni-1891",
+      "type": "work",
+      "label_ja": "ドメニコ・ギドーニ《Emigranti》",
+      "label_en": "Emigranti",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "1891年出品版の独立典拠IDと現所在は未確認。公式カタログ、Treccani、人物典拠を用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年展出品"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/domenico-ghidoni"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://www.treccani.it/enciclopedia/domenico-ghidoni_%28Dizionario-Biografico%29/",
+        "https://www.comune.ospitaletto.bs.it/sites/default/files/2024-03/23_museo-ghidoni_brochure-a5-esecutivo-stanmpa_compressed.pdf",
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/works/emigranti-ghidoni-1891.md"
+    },
     "work/emigrata-cassi-1891": {
       "id": "work/emigrata-cassi-1891",
       "uri": "urn:ahn:work/emigrata-cassi-1891",
@@ -17747,6 +17854,43 @@
       "updated": "2026-08-12",
       "path": "entities/works/figure-de-femme-magrini-1907.md"
     },
+    "work/finalmente-dorme-ghidoni-1891": {
+      "id": "work/finalmente-dorme-ghidoni-1891",
+      "uri": "urn:ahn:work/finalmente-dorme-ghidoni-1891",
+      "type": "work",
+      "label_ja": "ドメニコ・ギドーニ《Finalmente dorme》",
+      "label_en": "Finalmente dorme",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "1891年展出品作としての独立典拠IDと現所在は未確認。公式カタログと人物典拠を用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年展出品"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/domenico-ghidoni"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://www.treccani.it/enciclopedia/domenico-ghidoni_%28Dizionario-Biografico%29/",
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/works/finalmente-dorme-ghidoni-1891.md"
+    },
     "work/fleurs-previati-1907": {
       "id": "work/fleurs-previati-1907",
       "uri": "urn:ahn:work/fleurs-previati-1907",
@@ -18157,6 +18301,43 @@
       "updated": "2026-08-12",
       "path": "entities/works/hutte-alpestre-tominetti-1907.md"
     },
+    "work/il-generale-bava-ghidoni-1891": {
+      "id": "work/il-generale-bava-ghidoni-1891",
+      "uri": "urn:ahn:work/il-generale-bava-ghidoni-1891",
+      "type": "work",
+      "label_ja": "ドメニコ・ギドーニ《Il Generale Bava, incaricato da Carlo Alberto, studia un piano di battaglia per la campagna del 1848》",
+      "label_en": "Il Generale Bava, incaricato da Carlo Alberto, studia un piano di battaglia per la campagna del 1848",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "1891年展出品作としての独立典拠IDと現所在は未確認。公式カタログと人物典拠を用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年展出品"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/domenico-ghidoni"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://www.treccani.it/enciclopedia/domenico-ghidoni_%28Dizionario-Biografico%29/",
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/works/il-generale-bava-ghidoni-1891.md"
+    },
     "work/il-maglio-filippini-1891": {
       "id": "work/il-maglio-filippini-1891",
       "uri": "urn:ahn:work/il-maglio-filippini-1891",
@@ -18196,6 +18377,43 @@
       "status": "draft",
       "updated": "2026-08-12",
       "path": "entities/works/il-maglio-filippini-1891.md"
+    },
+    "work/il-principe-amedeo-bezzola-1891": {
+      "id": "work/il-principe-amedeo-bezzola-1891",
+      "uri": "urn:ahn:work/il-principe-amedeo-bezzola-1891",
+      "type": "work",
+      "label_ja": "アントニオ・ベッツォラ《Il Principe Amedeo》",
+      "label_en": "Il Principe Amedeo",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "1891年展出品作としての独立典拠IDと現所在は未確認。公式カタログと人物典拠を用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年展出品"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/antonio-bezzola"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://www.treccani.it/enciclopedia/antonio-bezzola_%28Dizionario-Biografico%29/",
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/works/il-principe-amedeo-bezzola-1891.md"
     },
     "work/il-trono-della-bella-mantesca-conconi-1891": {
       "id": "work/il-trono-della-bella-mantesca-conconi-1891",
@@ -18716,6 +18934,43 @@
       "status": "draft",
       "updated": "2026-08-12",
       "path": "entities/works/l-heroique-previati-1907.md"
+    },
+    "work/l-idolo-bezzola-1891": {
+      "id": "work/l-idolo-bezzola-1891",
+      "uri": "urn:ahn:work/l-idolo-bezzola-1891",
+      "type": "work",
+      "label_ja": "アントニオ・ベッツォラ《L’Idolo》",
+      "label_en": "L’Idolo",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "1891年展出品作としての独立典拠IDと現所在は未確認。公式カタログと人物典拠を用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年展出品"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/antonio-bezzola"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://www.treccani.it/enciclopedia/antonio-bezzola_%28Dizionario-Biografico%29/",
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/works/l-idolo-bezzola-1891.md"
     },
     "work/l-oratore-dello-sciopero-longoni-1891": {
       "id": "work/l-oratore-dello-sciopero-longoni-1891",
@@ -26771,6 +27026,13 @@
       "to": "place/milan"
     },
     {
+      "from": "person/antonio-bezzola",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "person/arnaldo-ferraguti",
       "type": "exhibited_at",
       "to": "event/first-brera-triennale-1891",
@@ -26885,6 +27147,13 @@
     },
     {
       "from": "person/davide-calandra",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "person/domenico-ghidoni",
       "type": "exhibited_at",
       "to": "event/first-brera-triennale-1891",
       "certainty": null,
@@ -28182,6 +28451,20 @@
       "source": null
     },
     {
+      "from": "work/emigranti-ghidoni-1891",
+      "type": "created_by",
+      "to": "person/domenico-ghidoni",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/emigranti-ghidoni-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "work/emigrata-cassi-1891",
       "type": "created_by",
       "to": "person/enrico-cassi",
@@ -28364,6 +28647,20 @@
       "source": null
     },
     {
+      "from": "work/finalmente-dorme-ghidoni-1891",
+      "type": "created_by",
+      "to": "person/domenico-ghidoni",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/finalmente-dorme-ghidoni-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "work/fleurs-previati-1907",
       "type": "created_by",
       "to": "person/gaetano-previati",
@@ -28518,6 +28815,20 @@
       "source": null
     },
     {
+      "from": "work/il-generale-bava-ghidoni-1891",
+      "type": "created_by",
+      "to": "person/domenico-ghidoni",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/il-generale-bava-ghidoni-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "work/il-maglio-filippini-1891",
       "type": "created_by",
       "to": "person/francesco-filippini",
@@ -28526,6 +28837,20 @@
     },
     {
       "from": "work/il-maglio-filippini-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/il-principe-amedeo-bezzola-1891",
+      "type": "created_by",
+      "to": "person/antonio-bezzola",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/il-principe-amedeo-bezzola-1891",
       "type": "exhibited_at",
       "to": "event/first-brera-triennale-1891",
       "certainty": null,
@@ -28724,6 +29049,20 @@
       "from": "work/l-heroique-previati-1907",
       "type": "exhibited_at",
       "to": "event/salon-divisionnistes-italiens-paris-1907",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/l-idolo-bezzola-1891",
+      "type": "created_by",
+      "to": "person/antonio-bezzola",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/l-idolo-bezzola-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
       "certainty": null,
       "source": null
     },
@@ -32177,6 +32516,12 @@
     {
       "from": "event/first-brera-triennale-1891",
       "type": "exhibited",
+      "to": "person/antonio-bezzola",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
       "to": "person/arnaldo-ferraguti",
       "derived": true
     },
@@ -32262,6 +32607,12 @@
       "from": "event/first-brera-triennale-1891",
       "type": "exhibited",
       "to": "person/davide-calandra",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "person/domenico-ghidoni",
       "derived": true
     },
     {
@@ -33273,6 +33624,18 @@
       "derived": true
     },
     {
+      "from": "person/domenico-ghidoni",
+      "type": "created",
+      "to": "work/emigranti-ghidoni-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/emigranti-ghidoni-1891",
+      "derived": true
+    },
+    {
       "from": "person/enrico-cassi",
       "type": "created",
       "to": "work/emigrata-cassi-1891",
@@ -33429,6 +33792,18 @@
       "derived": true
     },
     {
+      "from": "person/domenico-ghidoni",
+      "type": "created",
+      "to": "work/finalmente-dorme-ghidoni-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/finalmente-dorme-ghidoni-1891",
+      "derived": true
+    },
+    {
       "from": "person/gaetano-previati",
       "type": "created",
       "to": "work/fleurs-previati-1907",
@@ -33561,6 +33936,18 @@
       "derived": true
     },
     {
+      "from": "person/domenico-ghidoni",
+      "type": "created",
+      "to": "work/il-generale-bava-ghidoni-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/il-generale-bava-ghidoni-1891",
+      "derived": true
+    },
+    {
       "from": "person/francesco-filippini",
       "type": "created",
       "to": "work/il-maglio-filippini-1891",
@@ -33570,6 +33957,18 @@
       "from": "event/first-brera-triennale-1891",
       "type": "exhibited",
       "to": "work/il-maglio-filippini-1891",
+      "derived": true
+    },
+    {
+      "from": "person/antonio-bezzola",
+      "type": "created",
+      "to": "work/il-principe-amedeo-bezzola-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/il-principe-amedeo-bezzola-1891",
       "derived": true
     },
     {
@@ -33738,6 +34137,18 @@
       "from": "event/salon-divisionnistes-italiens-paris-1907",
       "type": "exhibited",
       "to": "work/l-heroique-previati-1907",
+      "derived": true
+    },
+    {
+      "from": "person/antonio-bezzola",
+      "type": "created",
+      "to": "work/l-idolo-bezzola-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/l-idolo-bezzola-1891",
       "derived": true
     },
     {
