@@ -16,7 +16,8 @@ time:
   display: "1856年8月14日トリエステ生まれ — 1922年5月18日ヴェネツィア没"
 space:
   - {role: active_in, target: place/venice}
-relations: []
+relations:
+  - {type: exhibited_at, target: event/first-brera-triennale-1891}
 sources:
   - https://www.treccani.it/enciclopedia/pietro-fragiacomo_%28Dizionario-Biografico%29/
   - https://www.wikidata.org/wiki/Q3903892

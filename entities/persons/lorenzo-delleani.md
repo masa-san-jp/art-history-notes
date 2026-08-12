@@ -15,7 +15,8 @@ time:
   end: "1908-11-13"
   display: "1840年1月17日ポッローネ生まれ — 1908年11月13日トリノ没"
 space: []
-relations: []
+relations:
+  - {type: exhibited_at, target: event/first-brera-triennale-1891}
 sources:
   - https://www.wikidata.org/wiki/Q1155252
   - https://www.treccani.it/enciclopedia/lorenzo-delleani_%28Dizionario-Biografico%29/

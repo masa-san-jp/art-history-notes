@@ -16,7 +16,8 @@ time:
   display: "1861年9月28日レッジョ・エミリア生まれ — 1949年4月29日ミラノ没"
 space:
   - {role: active_in, target: place/milan}
-relations: []
+relations:
+  - {type: exhibited_at, target: event/first-brera-triennale-1891}
 sources:
   - https://www.wikidata.org/wiki/Q3828265
   - https://archivio-alon.it/autore/pasini-lazzaro/86

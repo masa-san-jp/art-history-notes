@@ -17,6 +17,7 @@ time:
 space: []
 relations:
   - {type: belongs_to, target: movement/italian-divisionism}
+  - {type: exhibited_at, target: event/first-brera-triennale-1891}
 sources:
   - https://www.wikidata.org/wiki/Q661122
   - https://www.treccani.it/enciclopedia/emilio-longoni_%28Dizionario-Biografico%29/

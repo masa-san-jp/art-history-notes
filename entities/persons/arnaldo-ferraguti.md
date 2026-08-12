@@ -15,7 +15,8 @@ time:
   end: "1925-12-04"
   display: "1862年4月17日フェラーラ生まれ — 1925年12月4日フォルリ没"
 space: []
-relations: []
+relations:
+  - {type: exhibited_at, target: event/first-brera-triennale-1891}
 sources:
   - https://www.wikidata.org/wiki/Q3623496
   - https://www.museodelpaesaggio.it/artista/arnaldo-ferraguti/

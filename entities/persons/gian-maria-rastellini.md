@@ -19,6 +19,7 @@ time:
 space: []
 relations:
   - {type: belongs_to, target: movement/italian-divisionism}
+  - {type: exhibited_at, target: event/first-brera-triennale-1891}
 sources:
   - https://www.wikidata.org/wiki/Q50322949
   - https://commons.wikimedia.org/wiki/Creator%3AGian_Maria_Rastellini

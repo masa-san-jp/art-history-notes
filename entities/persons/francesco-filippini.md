@@ -15,7 +15,8 @@ time:
   end: "1895-03-06"
   display: "1853年9月18日ブレシア生まれ — 1895年3月6日ミラノ没"
 space: []
-relations: []
+relations:
+  - {type: exhibited_at, target: event/first-brera-triennale-1891}
 sources:
   - https://www.treccani.it/enciclopedia/francesco-filippini_%28Dizionario-Biografico%29/
   - https://galleriemaspes.com/immagini_sito/Cataloghi%20pdf/Brera_Guide.pdf

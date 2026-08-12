@@ -15,7 +15,8 @@ time:
   end: "1914-01-19"
   display: "1840年9月25日ミラノ生まれ — 1914年1月19日ミラノ没"
 space: []
-relations: []
+relations:
+  - {type: exhibited_at, target: event/first-brera-triennale-1891}
 sources:
   - https://www.treccani.it/enciclopedia/filippo-carcano_%28Enciclopedia-Italiana%29/
   - https://www.treccani.it/enciclopedia/filippo-carcano_%28Dizionario-Biografico%29/
