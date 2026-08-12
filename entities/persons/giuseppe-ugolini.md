@@ -20,9 +20,9 @@ relations:
 sources:
   - https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf
 status: draft
-updated: 2026-08-12
+updated: 2026-08-13
 ---
 
 # ジュゼッペ・ウゴリーニ / Giuseppe Ugolini
 
-1891年の第一回ブレラ三年展公式カタログに、レッジョ・エミリア出身者として掲載される彫刻家。本項は展覧会記録に限定する。
+1891年の第一回ブレラ三年展公式カタログに、レッジョ・エミリア出身者として掲載される出品者。136番《Kamir - ammaestrato dal Dirett. Tancredi Pozzi》、570番《Ritratto di Signora (figura intiera)》を出品した。本項は展覧会記録に限定する。
