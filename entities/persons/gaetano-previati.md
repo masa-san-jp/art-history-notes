@@ -31,8 +31,9 @@ updated: 2026-08-12
 画家として、1905年の『La tecnica della pittura』と1906年の『I principi scientifici del divisionismo』を
 挙げている。
 
-1891年の『Prima esposizione triennale 1891』公式カタログでは、Sala Lの出品番号213に《Maternità》が
-掲載されている。ここでは作品自体を独立エンティティ化せず、人物の展覧会参加記録として番号を保持する。
+1891年の『Prima esposizione triennale 1891』公式カタログでは、Sala Lの出品番号213に
+[`《Maternità》`](../works/maternita-previati-1891.md)が掲載されている。作品は[`第一回ブレラ三年展`](../events/first-brera-triennale-1891.md)
+への出品として作品側にも記録した。
 
 ## 未着手
 

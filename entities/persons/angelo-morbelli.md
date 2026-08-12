@@ -31,9 +31,10 @@ updated: 2026-08-12
 アレッサンドリアに生まれ、ミラノで没した画家。Treccaniの伝記は、ブレラで学んだモルベッリがプレヴィアーティ、
 セガンティーニらと同時代に活動したことを記録している。
 
-1891年の『Prima esposizione triennale 1891』公式カタログでは、Portico B Bの出品番号517に《Alba》、518に
-《Un Consiglio del nonno – Parlatorio del luogo Pio Triulzio》が掲載されている。作品名はカタログの綴りを保持し、
-後世の作品名表記との異同は作品エンティティ化の際に確認する。
+1891年の『Prima esposizione triennale 1891』公式カタログでは、Portico B Bの出品番号517に
+[`《Alba》`](../works/alba-morbelli-1891.md)、518に
+[`《Un Consiglio del nonno – Parlatorio del luogo Pio Triulzio》`](../works/un-consiglio-del-nonno-morbelli.md)が掲載されている。
+作品名はカタログの綴りを保持し、後世の作品名表記との異同は作品側に注記した。
 
 ## 未着手
 

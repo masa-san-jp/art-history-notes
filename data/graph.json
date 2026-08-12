@@ -323,6 +323,40 @@
       "updated": "2026-08-12",
       "path": "entities/events/eighth-impressionist-exhibition-1886.md"
     },
+    "event/first-brera-triennale-1891": {
+      "id": "event/first-brera-triennale-1891",
+      "uri": "urn:ahn:event/first-brera-triennale-1891",
+      "type": "event",
+      "label_ja": "第一回ブレラ三年展",
+      "label_en": "First Brera Triennale",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "1891年展そのものの典拠IDは未確認。公式カタログと機関資料を用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年（開催日の月日未確認）"
+      },
+      "space": [
+        {
+          "role": "held_at",
+          "target": "place/milan"
+        }
+      ],
+      "relations": [],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf",
+        "https://collezionedarte.bancaditalia.it/web/guest/-/divisionismo-1",
+        "https://www.treccani.it/enciclopedia/angelo-morbelli_%28Dizionario-Biografico%29/"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/events/first-brera-triennale-1891.md"
+    },
     "event/first-salon-des-independants-1884": {
       "id": "event/first-salon-des-independants-1884",
       "uri": "urn:ahn:event/first-salon-des-independants-1884",
@@ -13637,6 +13671,49 @@
       "updated": "2026-08-08",
       "path": "entities/works/a-sunday-on-la-grande-jatte.md"
     },
+    "work/alba-morbelli-1891": {
+      "id": "work/alba-morbelli-1891",
+      "uri": "urn:ahn:work/alba-morbelli-1891",
+      "type": "work",
+      "label_ja": "アンジェロ・モルベッリ《Alba》",
+      "label_en": "Alba",
+      "authority": {
+        "wikidata": "Q23936426",
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": "1890",
+        "end": "1891",
+        "display": "1890–1891年"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/angelo-morbelli"
+        },
+        {
+          "type": "belongs_to",
+          "target": "movement/italian-divisionism"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://www.museunacional.cat/es/colleccio/alba/angelo-morbelli/011137-000",
+        "https://www.wikidata.org/wiki/Q23936426",
+        "https://archivioangelomorbelli.it/",
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/works/alba-morbelli-1891.md"
+    },
     "work/bathers-at-asnieres": {
       "id": "work/bathers-at-asnieres",
       "uri": "urn:ahn:work/bathers-at-asnieres",
@@ -13682,6 +13759,49 @@
       "updated": "2026-08-12",
       "path": "entities/works/bathers-at-asnieres.md"
     },
+    "work/le-due-madri-segantini": {
+      "id": "work/le-due-madri-segantini",
+      "uri": "urn:ahn:work/le-due-madri-segantini",
+      "type": "work",
+      "label_ja": "ジョヴァンニ・セガンティーニ《Le due Madri》",
+      "label_en": "Le due Madri",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "作品の独立典拠IDは未確認。GAM・セガンティーニ美術館・公式カタログを用いる"
+      },
+      "time": {
+        "start": "1889",
+        "end": "1889",
+        "display": "1889年（1891年展のカタログ掲載番号209）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/giovanni-segantini"
+        },
+        {
+          "type": "belongs_to",
+          "target": "movement/italian-divisionism"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://www.gam-milano.com/it/-/nella-luce-di-segantini-all-ovile",
+        "https://segantini-museum.ch/en/allovile-en/",
+        "https://artsandculture.google.com/asset/the-two-mothers-giovanni-segantini/PQGigEKcsPe4sw?hl=it",
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/works/le-due-madri-segantini.md"
+    },
     "work/lef-no-2-1924": {
       "id": "work/lef-no-2-1924",
       "uri": "urn:ahn:work/lef-no-2-1924",
@@ -13725,6 +13845,48 @@
       "status": "draft",
       "updated": "2026-08-12",
       "path": "entities/works/lef-no-2-1924.md"
+    },
+    "work/maternita-previati-1891": {
+      "id": "work/maternita-previati-1891",
+      "uri": "urn:ahn:work/maternita-previati-1891",
+      "type": "work",
+      "label_ja": "ガエターノ・プレヴィアーティ《Maternità》",
+      "label_en": "Maternità",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "作品の独立典拠IDは未確認。GAMと文化財カタログの所蔵・作品記録を用いる"
+      },
+      "time": {
+        "start": "1890",
+        "end": "1891",
+        "display": "1890–1891年"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/gaetano-previati"
+        },
+        {
+          "type": "belongs_to",
+          "target": "movement/italian-divisionism"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://www.gam-milano.com/it/-/previatimaternita",
+        "https://www.museofattori.livorno.it/le-opere/autori/gaetano-previati/",
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/works/maternita-previati-1891.md"
     },
     "work/monument-to-third-international": {
       "id": "work/monument-to-third-international",
@@ -13837,6 +13999,48 @@
       "status": "draft",
       "updated": "2026-08-12",
       "path": "entities/works/spatial-construction-no-12.md"
+    },
+    "work/un-consiglio-del-nonno-morbelli": {
+      "id": "work/un-consiglio-del-nonno-morbelli",
+      "uri": "urn:ahn:work/un-consiglio-del-nonno-morbelli",
+      "type": "work",
+      "label_ja": "アンジェロ・モルベッリ《Un Consiglio del nonno – Parlatorio del luogo Pio Triulzio》",
+      "label_en": "Un Consiglio del nonno – Parlatorio del luogo Pio Triulzio",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "作品の独立典拠IDは未確認。リヴォルノ市立博物館・モルベッリ・アーカイブ・公式カタログを用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/angelo-morbelli"
+        },
+        {
+          "type": "belongs_to",
+          "target": "movement/italian-divisionism"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://www.museodellacittalivorno.it/evento/vittore-grubicy-un-intellettuale-artista-e-la-sua-eredita-aperture-internazionali-tra-divisionismo-e-simbolismo/112-morbelli-parlatorio-del-pio-albergo-trivulzio/",
+        "https://archivioangelomorbelli.it/",
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/works/un-consiglio-del-nonno-morbelli.md"
     }
   },
   "edges": [
@@ -13868,6 +14072,11 @@
       "from": "event/eighth-impressionist-exhibition-1886",
       "type": "held_at",
       "to": "place/paris"
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "held_at",
+      "to": "place/milan"
     },
     {
       "from": "event/first-salon-des-independants-1884",
@@ -15915,6 +16124,27 @@
       "to": "org/art-institute-of-chicago"
     },
     {
+      "from": "work/alba-morbelli-1891",
+      "type": "created_by",
+      "to": "person/angelo-morbelli",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/alba-morbelli-1891",
+      "type": "belongs_to",
+      "to": "movement/italian-divisionism",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/alba-morbelli-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "work/bathers-at-asnieres",
       "type": "created_by",
       "to": "person/georges-seurat",
@@ -15937,6 +16167,27 @@
       "from": "work/bathers-at-asnieres",
       "type": "held_at",
       "to": "org/national-gallery-london"
+    },
+    {
+      "from": "work/le-due-madri-segantini",
+      "type": "created_by",
+      "to": "person/giovanni-segantini",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/le-due-madri-segantini",
+      "type": "belongs_to",
+      "to": "movement/italian-divisionism",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/le-due-madri-segantini",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
     },
     {
       "from": "work/lef-no-2-1924",
@@ -15963,6 +16214,27 @@
       "from": "work/lef-no-2-1924",
       "type": "belongs_to",
       "to": "movement/constructivism",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/maternita-previati-1891",
+      "type": "created_by",
+      "to": "person/gaetano-previati",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/maternita-previati-1891",
+      "type": "belongs_to",
+      "to": "movement/italian-divisionism",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/maternita-previati-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
       "certainty": null,
       "source": null
     },
@@ -16005,6 +16277,27 @@
       "from": "work/spatial-construction-no-12",
       "type": "belongs_to",
       "to": "movement/constructivism",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/un-consiglio-del-nonno-morbelli",
+      "type": "created_by",
+      "to": "person/angelo-morbelli",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/un-consiglio-del-nonno-morbelli",
+      "type": "belongs_to",
+      "to": "movement/italian-divisionism",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/un-consiglio-del-nonno-morbelli",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
       "certainty": null,
       "source": null
     },
@@ -17131,6 +17424,24 @@
       "derived": true
     },
     {
+      "from": "person/angelo-morbelli",
+      "type": "created",
+      "to": "work/alba-morbelli-1891",
+      "derived": true
+    },
+    {
+      "from": "movement/italian-divisionism",
+      "type": "has_member",
+      "to": "work/alba-morbelli-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/alba-morbelli-1891",
+      "derived": true
+    },
+    {
       "from": "person/georges-seurat",
       "type": "created",
       "to": "work/bathers-at-asnieres",
@@ -17140,6 +17451,24 @@
       "from": "event/first-salon-des-independants-1884",
       "type": "exhibited",
       "to": "work/bathers-at-asnieres",
+      "derived": true
+    },
+    {
+      "from": "person/giovanni-segantini",
+      "type": "created",
+      "to": "work/le-due-madri-segantini",
+      "derived": true
+    },
+    {
+      "from": "movement/italian-divisionism",
+      "type": "has_member",
+      "to": "work/le-due-madri-segantini",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/le-due-madri-segantini",
       "derived": true
     },
     {
@@ -17164,6 +17493,24 @@
       "from": "movement/constructivism",
       "type": "has_member",
       "to": "work/lef-no-2-1924",
+      "derived": true
+    },
+    {
+      "from": "person/gaetano-previati",
+      "type": "created",
+      "to": "work/maternita-previati-1891",
+      "derived": true
+    },
+    {
+      "from": "movement/italian-divisionism",
+      "type": "has_member",
+      "to": "work/maternita-previati-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/maternita-previati-1891",
       "derived": true
     },
     {
@@ -17200,6 +17547,24 @@
       "from": "movement/constructivism",
       "type": "has_member",
       "to": "work/spatial-construction-no-12",
+      "derived": true
+    },
+    {
+      "from": "person/angelo-morbelli",
+      "type": "created",
+      "to": "work/un-consiglio-del-nonno-morbelli",
+      "derived": true
+    },
+    {
+      "from": "movement/italian-divisionism",
+      "type": "has_member",
+      "to": "work/un-consiglio-del-nonno-morbelli",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/un-consiglio-del-nonno-morbelli",
       "derived": true
     }
   ]
