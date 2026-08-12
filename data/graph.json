@@ -10204,6 +10204,36 @@
       "updated": "2026-08-12",
       "path": "entities/persons/filiberto-minozzi.md"
     },
+    "person/filippo-carcano": {
+      "id": "person/filippo-carcano",
+      "uri": "urn:ahn:person/filippo-carcano",
+      "type": "person",
+      "label_ja": "フィリッポ・カルカーノ",
+      "label_en": "Filippo Carcano",
+      "authority": {
+        "wikidata": "Q3745131",
+        "ulan": "500023292",
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": "1840-09-25",
+        "end": "1914-01-19",
+        "display": "1840年9月25日ミラノ生まれ — 1914年1月19日ミラノ没"
+      },
+      "space": [],
+      "relations": [],
+      "sources": [
+        "https://www.treccani.it/enciclopedia/filippo-carcano_%28Enciclopedia-Italiana%29/",
+        "https://www.treccani.it/enciclopedia/filippo-carcano_%28Dizionario-Biografico%29/",
+        "https://www.getty.edu/vow/ULANFullDisplay?find=&nation=&page=1&role=&subjectid=500023292",
+        "https://www.wikidata.org/wiki/Q3745131"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/persons/filippo-carcano.md"
+    },
     "person/filippo-tommaso-marinetti": {
       "id": "person/filippo-tommaso-marinetti",
       "uri": "urn:ahn:person/filippo-tommaso-marinetti",
@@ -21250,6 +21280,45 @@
       "updated": "2026-08-12",
       "path": "entities/works/printemps-focardi-1907.md"
     },
+    "work/progresso-ed-ignoranza-carcano-1891": {
+      "id": "work/progresso-ed-ignoranza-carcano-1891",
+      "uri": "urn:ahn:work/progresso-ed-ignoranza-carcano-1891",
+      "type": "work",
+      "label_ja": "フィリッポ・カルカーノ《Progresso ed ignoranza》",
+      "label_en": "Progresso ed ignoranza",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "1891年展時点の作品典拠IDは未確認。ブレラ展ガイド、1891年公式カタログ、後年の作品記録を用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1899",
+        "display": "1891〜1899年（1891年展カタログ388番）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/filippo-carcano"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://galleriemaspes.com/immagini_sito/Cataloghi%20pdf/Brera_Guide.pdf",
+        "https://www.treccani.it/enciclopedia/filippo-carcano_%28Enciclopedia-Italiana%29/",
+        "https://upload.wikimedia.org/wikipedia/commons/2/24/Prima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf",
+        "https://www.wikidata.org/wiki/Q3745131"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/works/progresso-ed-ignoranza-carcano-1891.md"
+    },
     "work/proun-19d": {
       "id": "work/proun-19d",
       "uri": "urn:ahn:work/proun-19d",
@@ -27920,6 +27989,20 @@
       "source": null
     },
     {
+      "from": "work/progresso-ed-ignoranza-carcano-1891",
+      "type": "created_by",
+      "to": "person/filippo-carcano",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/progresso-ed-ignoranza-carcano-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "work/proun-19d",
       "type": "created_by",
       "to": "person/el-lissitzky",
@@ -32146,6 +32229,18 @@
       "from": "event/salon-divisionnistes-italiens-paris-1907",
       "type": "exhibited",
       "to": "work/printemps-focardi-1907",
+      "derived": true
+    },
+    {
+      "from": "person/filippo-carcano",
+      "type": "created",
+      "to": "work/progresso-ed-ignoranza-carcano-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/progresso-ed-ignoranza-carcano-1891",
       "derived": true
     },
     {
