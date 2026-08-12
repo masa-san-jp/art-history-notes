@@ -28,6 +28,7 @@ claims:
 space:
   - {role: originated_in, target: place/paris}
 relations:
+  - {type: exhibited_at, target: event/eighth-impressionist-exhibition-1886}
   - {type: diffused_to, target: place/brussels, certainty: scholarly, source: "https://en.wikipedia.org/wiki/Les_Vingt"}
   - {type: influenced_by, target: concept/ukiyo-e, certainty: scholarly, source: "https://www.vangoghmuseum.nl/assets/491dd716-741d-4608-975e-e9652bdfd063?c=2379957789b45233379dcf35054dd324a2f54e39adeb7c20b1481dc08c461b44"}
 sources:
