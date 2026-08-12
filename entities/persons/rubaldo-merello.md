@@ -34,4 +34,4 @@ updated: 2026-08-12
 
 同展では6点の風景画を出品し、カタログ番号39〜44に配置された。Treccaniは、そのうち
 [`《Studio di mare. La scogliera》`](../works/studio-di-mare-la-scogliera-merello-1906.md)が後にグルビーチからローマの国立近代美術館へ
-寄贈されたことも記録する。
+寄贈されたことも記録する。42番[`《Parmi les rochers》`](../works/parmi-les-rochers-merello-1905.md)と41番[`《Marine》`](../works/marine-merello-1905.md)は、同展番号に対応するオークション・カタログの作品記録も確認できる。
