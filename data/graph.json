@@ -9599,6 +9599,40 @@
       "updated": "2026-08-09",
       "path": "entities/persons/aime-cesaire.md"
     },
+    "person/aleardo-villa": {
+      "id": "person/aleardo-villa",
+      "uri": "urn:ahn:person/aleardo-villa",
+      "type": "person",
+      "label_ja": "アレアルド・ヴィッラ",
+      "label_en": "Aleardo Villa",
+      "authority": {
+        "wikidata": null,
+        "ulan": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "独立した人物典拠IDは未確認。Treccani、Musée d’Orsay、1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": "1865-02-12",
+        "end": "1906-12-31",
+        "display": "1865年2月12日レヴェッロ生まれ — 1906年12月31日ミラノ没"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://www.treccani.it/enciclopedia/aleardo-giuseppe-giovanni-villa_%28Dizionario-Biografico%29/",
+        "https://www.musee-orsay.fr/en/ressources/artists-personalities-catalog/aleardo-villa-124279",
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/persons/aleardo-villa.md"
+    },
     "person/alessandro-laforet": {
       "id": "person/alessandro-laforet",
       "uri": "urn:ahn:person/alessandro-laforet",
@@ -9832,6 +9866,40 @@
       "updated": "2026-08-12",
       "path": "entities/persons/antonio-bezzola.md"
     },
+    "person/argelia-butti": {
+      "id": "person/argelia-butti",
+      "uri": "urn:ahn:person/argelia-butti",
+      "type": "person",
+      "label_ja": "アルジェリア・ブッティ",
+      "label_en": "Argelia Butti",
+      "authority": {
+        "wikidata": null,
+        "ulan": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "独立した人物典拠IDは未確認。トリエステ市資料、同時代研究資料、1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": "1855",
+        "end": "1924",
+        "display": "1855年トリエステ生まれ — 1924年ローマ没"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://www.openstarts.units.it/bitstream/10077/13112/7/DV_DSU001033.pdf",
+        "https://catalogomusei.comune.trieste.it/samira/data/Archivi/BibHortis/CA/inventario_Rossi.pdf",
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/persons/argelia-butti.md"
+    },
     "person/arnaldo-ferraguti": {
       "id": "person/arnaldo-ferraguti",
       "uri": "urn:ahn:person/arnaldo-ferraguti",
@@ -9940,6 +10008,40 @@
       "status": "draft",
       "updated": "2026-08-12",
       "path": "entities/persons/attilio-pusterla.md"
+    },
+    "person/bartolomeo-bezzi": {
+      "id": "person/bartolomeo-bezzi",
+      "uri": "urn:ahn:person/bartolomeo-bezzi",
+      "type": "person",
+      "label_ja": "バルトロメオ・ベッツィ",
+      "label_en": "Bartolomeo Bezzi",
+      "authority": {
+        "wikidata": null,
+        "ulan": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "独立した人物典拠IDは未確認。Treccani、Trentino Cultura、1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": "1851",
+        "end": "1923",
+        "display": "1851年フチネ・ディ・オッサーナ生まれ — 1923年クレス没"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://www.treccani.it/enciclopedia/bartolomeo-bezzi_%28Dizionario-Biografico%29/",
+        "https://www.cultura.trentino.it/Appuntamenti/Bartolomeo-Bezzi-1851-1923.-Scene-di-vita-quotidiana",
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/persons/bartolomeo-bezzi.md"
     },
     "person/benvenuto-benvenuti": {
       "id": "person/benvenuto-benvenuti",
@@ -10121,6 +10223,40 @@
       "status": "draft",
       "updated": "2026-08-12",
       "path": "entities/persons/carlo-fossati.md"
+    },
+    "person/carlo-manziana": {
+      "id": "person/carlo-manziana",
+      "uri": "urn:ahn:person/carlo-manziana",
+      "type": "person",
+      "label_ja": "カルロ・マンツィアーナ",
+      "label_en": "Carlo Manziana",
+      "authority": {
+        "wikidata": null,
+        "ulan": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "独立した人物典拠IDは未確認。Galleria Recta、地域美術資料、1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": "1850",
+        "end": "1924",
+        "display": "1850年ブレシア生まれ — 1924年ブレシア没"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://www.galleriarecta.it/autore/manziana-carlo/",
+        "https://www.pittoriliguri.info/pittori-liguri/manziana-carlo/",
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/persons/carlo-manziana.md"
     },
     "person/carlo-prada": {
       "id": "person/carlo-prada",
@@ -10737,6 +10873,40 @@
       "updated": "2026-08-12",
       "path": "entities/persons/enrico-cassi.md"
     },
+    "person/enrico-vegetti": {
+      "id": "person/enrico-vegetti",
+      "uri": "urn:ahn:person/enrico-vegetti",
+      "type": "person",
+      "label_ja": "エンリコ・ヴェジェッティ",
+      "label_en": "Enrico Vegetti",
+      "authority": {
+        "wikidata": null,
+        "ulan": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "独立した人物典拠IDは未確認。National Gallery of Art、British Museum、1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": "1863",
+        "end": "1951",
+        "display": "1863年生まれ — 1951年没"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://www.nga.gov/artists/37975-enrico-vegetti",
+        "https://www.britishmuseum.org/collection/term/BIOG83302",
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/persons/enrico-vegetti.md"
+    },
     "person/ernest-fenollosa": {
       "id": "person/ernest-fenollosa",
       "uri": "urn:ahn:person/ernest-fenollosa",
@@ -10834,6 +11004,40 @@
       "status": "draft",
       "updated": "2026-08-12",
       "path": "entities/persons/eugenio-bellosio.md"
+    },
+    "person/eugenio-spreafico": {
+      "id": "person/eugenio-spreafico",
+      "uri": "urn:ahn:person/eugenio-spreafico",
+      "type": "person",
+      "label_ja": "エウジェニオ・スプレアフィコ",
+      "label_en": "Eugenio Spreafico",
+      "authority": {
+        "wikidata": null,
+        "ulan": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "独立した人物典拠IDは未確認。モンツァ市民博物館、Galleria Recta、1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": "1856",
+        "end": "1919",
+        "display": "1856年モンツァ生まれ — 1919年マグレリオ没"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://museicivicimonza.it/eugenio-spreafico-reverie/",
+        "https://www.galleriarecta.it/autore/spreafico-eugenio/",
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/persons/eugenio-spreafico.md"
     },
     "person/eustache-de-lorey": {
       "id": "person/eustache-de-lorey",
@@ -12612,6 +12816,40 @@
       "updated": "2026-08-12",
       "path": "entities/persons/mario-segantini.md"
     },
+    "person/millo-bortoluzzi": {
+      "id": "person/millo-bortoluzzi",
+      "uri": "urn:ahn:person/millo-bortoluzzi",
+      "type": "person",
+      "label_ja": "ミッロ・ボルトルッツィ",
+      "label_en": "Millo Bortoluzzi",
+      "authority": {
+        "wikidata": "Q21288585",
+        "ulan": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": "1868",
+        "end": "1933",
+        "display": "1868年トレヴィーゾ生まれ — 1933年ドーロ没"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q21288585",
+        "https://www.comune.venezia.it/it/content/esposizione-nazionale-artistica-1887",
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/persons/millo-bortoluzzi.md"
+    },
     "person/nguyen-gia-tri": {
       "id": "person/nguyen-gia-tri",
       "uri": "urn:ahn:person/nguyen-gia-tri",
@@ -13064,6 +13302,40 @@
       "updated": "2026-08-12",
       "path": "entities/persons/pompeo-mariani.md"
     },
+    "person/raffaele-grisanti": {
+      "id": "person/raffaele-grisanti",
+      "uri": "urn:ahn:person/raffaele-grisanti",
+      "type": "person",
+      "label_ja": "ラッファエレ・グリザンティ",
+      "label_en": "Raffaele Grisanti",
+      "authority": {
+        "wikidata": null,
+        "ulan": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "独立した人物典拠IDは未確認。Galleria Recta、画家資料、1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": "1856",
+        "end": null,
+        "display": "1856年レッジョ・エミリア生まれ — 没年未詳"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://www.galleriarecta.it/autore/grisanti-raffaele/",
+        "https://www.lucasforziniarte.it/archivio-artisti/emilia-romagna/grisanti-raffaele-reggio-emilia-1856-reggio-emilia-1895-pittore",
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/persons/raffaele-grisanti.md"
+    },
     "person/raffaele-pontremoli": {
       "id": "person/raffaele-pontremoli",
       "uri": "urn:ahn:person/raffaele-pontremoli",
@@ -13318,6 +13590,40 @@
       "updated": "2026-08-09",
       "path": "entities/persons/roger-fry.md"
     },
+    "person/romolo-pellegrini": {
+      "id": "person/romolo-pellegrini",
+      "uri": "urn:ahn:person/romolo-pellegrini",
+      "type": "person",
+      "label_ja": "ロモロ・ペッレグリーニ",
+      "label_en": "Romolo Pellegrini",
+      "authority": {
+        "wikidata": null,
+        "ulan": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "独立した人物典拠IDと生没年は未確認。Lombardia Beni Culturali、DoME、1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": null,
+        "end": null,
+        "display": "19世紀末から20世紀初頭にイタリアで活動した画家"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://www.lombardiabeniculturali.it/opere-arte/schede/C0050-01173/",
+        "https://exhibitions.univie.ac.at/person/12744",
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/persons/romolo-pellegrini.md"
+    },
     "person/rubaldo-merello": {
       "id": "person/rubaldo-merello",
       "uri": "urn:ahn:person/rubaldo-merello",
@@ -13383,6 +13689,40 @@
       "status": "stub",
       "updated": "2026-08-09",
       "path": "entities/persons/rudolf-bonnet.md"
+    },
+    "person/sante-calcagni": {
+      "id": "person/sante-calcagni",
+      "uri": "urn:ahn:person/sante-calcagni",
+      "type": "person",
+      "label_ja": "サンテ・カルカーニ",
+      "label_en": "Sante Calcagni",
+      "authority": {
+        "wikidata": null,
+        "ulan": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "独立した人物典拠IDは未確認。Cierre Edizioni、Wannenes、1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": "1860",
+        "end": "1949",
+        "display": "1860年ロニーゴ生まれ — 1949年ロニーゴ没"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://edizioni.cierrenet.it/volumi/sante-calcagni-da-lonigo-1860-1949/",
+        "https://wannenesgroup.com/lots/306-7770-sante-calcagni-it/",
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/persons/sante-calcagni.md"
     },
     "person/sebastiano-de-albertis": {
       "id": "person/sebastiano-de-albertis",
@@ -16532,6 +16872,43 @@
       "updated": "2026-08-08",
       "path": "entities/sources/seurat-letter-beaubourg-1890.md"
     },
+    "work/a-fulgure-et-tempestate-spreafico-1891": {
+      "id": "work/a-fulgure-et-tempestate-spreafico-1891",
+      "uri": "urn:ahn:work/a-fulgure-et-tempestate-spreafico-1891",
+      "type": "work",
+      "label_ja": "エウジェニオ・スプレアフィコ《A fulgure et tempestate libera nos, Domine》",
+      "label_en": "A fulgure et tempestate libera nos, Domine",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "1891年展出品作としての独立典拠IDと現所在は未確認。人物典拠と公式カタログを用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年展出品"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/eugenio-spreafico"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://museicivicimonza.it/eugenio-spreafico-reverie/",
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/works/a-fulgure-et-tempestate-spreafico-1891.md"
+    },
     "work/a-l-ombre-focardi-1907": {
       "id": "work/a-l-ombre-focardi-1907",
       "uri": "urn:ahn:work/a-l-ombre-focardi-1907",
@@ -16625,6 +17002,43 @@
       "status": "verified",
       "updated": "2026-08-08",
       "path": "entities/works/a-sunday-on-la-grande-jatte.md"
+    },
+    "work/al-pascolo-manziana-1891": {
+      "id": "work/al-pascolo-manziana-1891",
+      "uri": "urn:ahn:work/al-pascolo-manziana-1891",
+      "type": "work",
+      "label_ja": "カルロ・マンツィアーナ《Al pascolo》",
+      "label_en": "Al pascolo",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "1891年展出品作としての独立典拠IDと現所在は未確認。人物典拠と公式カタログを用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年展出品"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/carlo-manziana"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://www.galleriarecta.it/autore/manziana-carlo/",
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/works/al-pascolo-manziana-1891.md"
     },
     "work/al-piatto-d-oro-menta-1891": {
       "id": "work/al-piatto-d-oro-menta-1891",
@@ -17355,6 +17769,43 @@
       "updated": "2026-08-12",
       "path": "entities/works/caccia-furtiva-calandra-1891.md"
     },
+    "work/campagna-bellunese-bortoluzzi-1891": {
+      "id": "work/campagna-bellunese-bortoluzzi-1891",
+      "uri": "urn:ahn:work/campagna-bellunese-bortoluzzi-1891",
+      "type": "work",
+      "label_ja": "ミッロ・ボルトルッツィ《Campagna Bellunese》",
+      "label_en": "Campagna Bellunese",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "1891年展出品作としての独立典拠IDと現所在は未確認。人物典拠と公式カタログを用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年展出品"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/millo-bortoluzzi"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q21288585",
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/works/campagna-bellunese-bortoluzzi-1891.md"
+    },
     "work/campagna-lombarda-inverno-grubicy-1891": {
       "id": "work/campagna-lombarda-inverno-grubicy-1891",
       "uri": "urn:ahn:work/campagna-lombarda-inverno-grubicy-1891",
@@ -17728,6 +18179,44 @@
       "status": "draft",
       "updated": "2026-08-12",
       "path": "entities/works/cleopatre-previati-1907.md"
+    },
+    "work/consolatrix-afflictorum-villa-1891": {
+      "id": "work/consolatrix-afflictorum-villa-1891",
+      "uri": "urn:ahn:work/consolatrix-afflictorum-villa-1891",
+      "type": "work",
+      "label_ja": "アレアルド・ヴィッラ《Consolatrix afflictorum》",
+      "label_en": "Consolatrix afflictorum",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "1891年展出品作としての独立典拠IDと現所在は未確認。人物典拠と公式カタログを用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年展出品"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/aleardo-villa"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://www.treccani.it/enciclopedia/aleardo-giuseppe-giovanni-villa_%28Dizionario-Biografico%29/",
+        "https://www.musee-orsay.fr/en/ressources/artists-personalities-catalog/aleardo-villa-124279",
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/works/consolatrix-afflictorum-villa-1891.md"
     },
     "work/coucher-de-soleil-a-la-fin-du-printemps-benvenuti-1907": {
       "id": "work/coucher-de-soleil-a-la-fin-du-printemps-benvenuti-1907",
@@ -19031,6 +19520,43 @@
       "updated": "2026-08-12",
       "path": "entities/works/etude-de-paysage-prada-1907-no48a.md"
     },
+    "work/fede-ingenua-butti-1891": {
+      "id": "work/fede-ingenua-butti-1891",
+      "uri": "urn:ahn:work/fede-ingenua-butti-1891",
+      "type": "work",
+      "label_ja": "アルジェリア・ブッティ《Fede ingenua》",
+      "label_en": "Fede ingenua",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "1891年展出品作としての独立典拠IDと現所在は未確認。人物典拠と公式カタログを用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年展出品"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/argelia-butti"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://www.openstarts.units.it/bitstream/10077/13112/7/DV_DSU001033.pdf",
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/works/fede-ingenua-butti-1891.md"
+    },
     "work/femme-chouchee-etude-de-nu-magrini-1907": {
       "id": "work/femme-chouchee-etude-de-nu-magrini-1907",
       "uri": "urn:ahn:work/femme-chouchee-etude-de-nu-magrini-1907",
@@ -19327,6 +19853,43 @@
       "status": "draft",
       "updated": "2026-08-12",
       "path": "entities/works/friulana-ghidoni-1891.md"
+    },
+    "work/frutti-dell-istruzione-pubblica-grisanti-1891": {
+      "id": "work/frutti-dell-istruzione-pubblica-grisanti-1891",
+      "uri": "urn:ahn:work/frutti-dell-istruzione-pubblica-grisanti-1891",
+      "type": "work",
+      "label_ja": "ラッファエレ・グリザンティ《Frutti dell’Istruzione Pubblica》",
+      "label_en": "Frutti dell’Istruzione Pubblica",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "1891年展出品作としての独立典拠IDと現所在は未確認。人物典拠と公式カタログを用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年展出品"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/raffaele-grisanti"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://www.galleriarecta.it/autore/grisanti-raffaele/",
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/works/frutti-dell-istruzione-pubblica-grisanti-1891.md"
     },
     "work/funerailles-d-une-vierge-previati-1907": {
       "id": "work/funerailles-d-une-vierge-previati-1907",
@@ -22185,6 +22748,43 @@
       "updated": "2026-08-12",
       "path": "entities/works/les-rois-mages-previati-1907.md"
     },
+    "work/lido-bezzi-1891": {
+      "id": "work/lido-bezzi-1891",
+      "uri": "urn:ahn:work/lido-bezzi-1891",
+      "type": "work",
+      "label_ja": "バルトロメオ・ベッツィ《Lido》",
+      "label_en": "Lido",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "1891年展出品作としての独立典拠IDと現所在は未確認。人物典拠と公式カタログを用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年展出品"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/bartolomeo-bezzi"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://www.treccani.it/enciclopedia/bartolomeo-bezzi_%28Dizionario-Biografico%29/",
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/works/lido-bezzi-1891.md"
+    },
     "work/lion-a-l-affut-magrini-1907": {
       "id": "work/lion-a-l-affut-magrini-1907",
       "uri": "urn:ahn:work/lion-a-l-affut-magrini-1907",
@@ -23536,6 +24136,44 @@
       "updated": "2026-08-12",
       "path": "entities/works/nei-campi-calandra-1891.md"
     },
+    "work/nel-secolo-scorso-calcagni-1891": {
+      "id": "work/nel-secolo-scorso-calcagni-1891",
+      "uri": "urn:ahn:work/nel-secolo-scorso-calcagni-1891",
+      "type": "work",
+      "label_ja": "サンテ・カルカーニ《Nel secolo scorso》",
+      "label_en": "Nel secolo scorso",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "1891年展出品作としての独立典拠IDと現所在は未確認。人物典拠と公式カタログを用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年展出品"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/sante-calcagni"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://edizioni.cierrenet.it/volumi/sante-calcagni-da-lonigo-1860-1949/",
+        "https://wannenesgroup.com/lots/306-7770-sante-calcagni-it/",
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/works/nel-secolo-scorso-calcagni-1891.md"
+    },
     "work/nostalgie-fornara-1907": {
       "id": "work/nostalgie-fornara-1907",
       "uri": "urn:ahn:work/nostalgie-fornara-1907",
@@ -23692,6 +24330,43 @@
       "status": "draft",
       "updated": "2026-08-12",
       "path": "entities/works/orfanella-laforet-1891.md"
+    },
+    "work/orfanelle-grosso-1891": {
+      "id": "work/orfanelle-grosso-1891",
+      "uri": "urn:ahn:work/orfanelle-grosso-1891",
+      "type": "work",
+      "label_ja": "ジャコモ・グロッソ《Orfanelle》",
+      "label_en": "Orfanelle",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "1891年展出品作としての独立典拠IDと現所在は未確認。人物典拠と公式カタログを用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年展出品"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/giacomo-grosso"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://www.treccani.it/enciclopedia/giacomo-grosso_%28Dizionario-Biografico%29/",
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/works/orfanelle-grosso-1891.md"
     },
     "work/ours-blanc-magrini-1907": {
       "id": "work/ours-blanc-magrini-1907",
@@ -24925,6 +25600,43 @@
       "updated": "2026-08-12",
       "path": "entities/works/presage-printanier-fornara-1907.md"
     },
+    "work/primavera-lancerotto-1891": {
+      "id": "work/primavera-lancerotto-1891",
+      "uri": "urn:ahn:work/primavera-lancerotto-1891",
+      "type": "work",
+      "label_ja": "エジスト・ランチェロット《Primavera》",
+      "label_en": "Primavera",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "1891年展出品作としての独立典拠IDと現所在は未確認。人物典拠と公式カタログを用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年展出品"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/egisto-lancerotto"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://dizionariodartesartori.it/artisti/lancerotto-egisto",
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/works/primavera-lancerotto-1891.md"
+    },
     "work/printemps-focardi-1907": {
       "id": "work/printemps-focardi-1907",
       "uri": "urn:ahn:work/printemps-focardi-1907",
@@ -25264,6 +25976,44 @@
       "status": "draft",
       "updated": "2026-08-12",
       "path": "entities/works/raccolto-del-fieno-grubicy-1891.md"
+    },
+    "work/raggio-di-sole-pellegrini-1891": {
+      "id": "work/raggio-di-sole-pellegrini-1891",
+      "uri": "urn:ahn:work/raggio-di-sole-pellegrini-1891",
+      "type": "work",
+      "label_ja": "ロモロ・ペッレグリーニ《Raggio di sole》",
+      "label_en": "Raggio di sole",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "1891年展出品作としての独立典拠IDと現所在は未確認。人物典拠と公式カタログを用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年展出品"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/romolo-pellegrini"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://www.lombardiabeniculturali.it/opere-arte/schede/C0050-01173/",
+        "https://exhibitions.univie.ac.at/person/12744",
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/works/raggio-di-sole-pellegrini-1891.md"
     },
     "work/recolte-des-potirons-segantini-1907": {
       "id": "work/recolte-des-potirons-segantini-1907",
@@ -25791,6 +26541,44 @@
       "status": "draft",
       "updated": "2026-08-12",
       "path": "entities/works/ritratto-di-signora-rastellini-1891.md"
+    },
+    "work/ritratto-di-signora-vegetti-1891": {
+      "id": "work/ritratto-di-signora-vegetti-1891",
+      "uri": "urn:ahn:work/ritratto-di-signora-vegetti-1891",
+      "type": "work",
+      "label_ja": "エンリコ・ヴェジェッティ《Ritratto di Signora》",
+      "label_en": "Ritratto di Signora",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "1891年展出品作としての独立典拠IDと現所在は未確認。人物典拠と公式カタログを用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年展出品"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/enrico-vegetti"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://www.nga.gov/artists/37975-enrico-vegetti",
+        "https://www.britishmuseum.org/collection/term/BIOG83302",
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/works/ritratto-di-signora-vegetti-1891.md"
     },
     "work/ritratto-di-signora-villani-1891-no414": {
       "id": "work/ritratto-di-signora-villani-1891-no414",
@@ -29546,6 +30334,13 @@
       "source": null
     },
     {
+      "from": "person/aleardo-villa",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "person/alessandro-laforet",
       "type": "exhibited_at",
       "to": "event/first-brera-triennale-1891",
@@ -29622,6 +30417,13 @@
       "source": null
     },
     {
+      "from": "person/argelia-butti",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "person/arnaldo-ferraguti",
       "type": "exhibited_at",
       "to": "event/first-brera-triennale-1891",
@@ -29646,6 +30448,13 @@
       "from": "person/attilio-pusterla",
       "type": "active_in",
       "to": "place/milan"
+    },
+    {
+      "from": "person/bartolomeo-bezzi",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
     },
     {
       "from": "person/benvenuto-benvenuti",
@@ -29691,6 +30500,13 @@
     },
     {
       "from": "person/carlo-fossati",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "person/carlo-manziana",
       "type": "exhibited_at",
       "to": "event/first-brera-triennale-1891",
       "certainty": null,
@@ -29850,6 +30666,13 @@
       "source": null
     },
     {
+      "from": "person/enrico-vegetti",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "person/ernesto-bazzaro",
       "type": "exhibited_at",
       "to": "event/first-brera-triennale-1891",
@@ -29860,6 +30683,13 @@
       "from": "person/eugenio-bellosio",
       "type": "exhibited_at",
       "to": "event/salon-divisionnistes-italiens-paris-1907",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "person/eugenio-spreafico",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
       "certainty": null,
       "source": null
     },
@@ -30281,6 +31111,13 @@
       "source": null
     },
     {
+      "from": "person/millo-bortoluzzi",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "person/paolo-troubetzkoy",
       "type": "exhibited_at",
       "to": "event/salon-divisionnistes-italiens-paris-1907",
@@ -30342,6 +31179,13 @@
       "source": null
     },
     {
+      "from": "person/raffaele-grisanti",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "person/raffaele-pontremoli",
       "type": "exhibited_at",
       "to": "event/first-brera-triennale-1891",
@@ -30370,6 +31214,13 @@
       "source": null
     },
     {
+      "from": "person/romolo-pellegrini",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "person/rubaldo-merello",
       "type": "belongs_to",
       "to": "movement/italian-divisionism",
@@ -30380,6 +31231,13 @@
       "from": "person/rubaldo-merello",
       "type": "exhibited_at",
       "to": "event/salon-divisionnistes-italiens-paris-1907",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "person/sante-calcagni",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
       "certainty": null,
       "source": null
     },
@@ -30488,6 +31346,20 @@
       "source": null
     },
     {
+      "from": "work/a-fulgure-et-tempestate-spreafico-1891",
+      "type": "created_by",
+      "to": "person/eugenio-spreafico",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/a-fulgure-et-tempestate-spreafico-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "work/a-l-ombre-focardi-1907",
       "type": "created_by",
       "to": "person/piero-focardi",
@@ -30538,6 +31410,20 @@
       "from": "work/a-sunday-on-la-grande-jatte",
       "type": "held_at",
       "to": "org/art-institute-of-chicago"
+    },
+    {
+      "from": "work/al-pascolo-manziana-1891",
+      "type": "created_by",
+      "to": "person/carlo-manziana",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/al-pascolo-manziana-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
     },
     {
       "from": "work/al-piatto-d-oro-menta-1891",
@@ -30830,6 +31716,20 @@
       "source": null
     },
     {
+      "from": "work/campagna-bellunese-bortoluzzi-1891",
+      "type": "created_by",
+      "to": "person/millo-bortoluzzi",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/campagna-bellunese-bortoluzzi-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "work/campagna-lombarda-inverno-grubicy-1891",
       "type": "created_by",
       "to": "person/vittore-grubicy-de-dragon",
@@ -30973,6 +31873,20 @@
       "from": "work/cleopatre-previati-1907",
       "type": "exhibited_at",
       "to": "event/salon-divisionnistes-italiens-paris-1907",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/consolatrix-afflictorum-villa-1891",
+      "type": "created_by",
+      "to": "person/aleardo-villa",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/consolatrix-afflictorum-villa-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
       "certainty": null,
       "source": null
     },
@@ -31467,6 +32381,20 @@
       "source": null
     },
     {
+      "from": "work/fede-ingenua-butti-1891",
+      "type": "created_by",
+      "to": "person/argelia-butti",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/fede-ingenua-butti-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "work/femme-chouchee-etude-de-nu-magrini-1907",
       "type": "created_by",
       "to": "person/adolphe-magrini",
@@ -31573,6 +32501,20 @@
     },
     {
       "from": "work/friulana-ghidoni-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/frutti-dell-istruzione-pubblica-grisanti-1891",
+      "type": "created_by",
+      "to": "person/raffaele-grisanti",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/frutti-dell-istruzione-pubblica-grisanti-1891",
       "type": "exhibited_at",
       "to": "event/first-brera-triennale-1891",
       "certainty": null,
@@ -32678,6 +33620,20 @@
       "source": null
     },
     {
+      "from": "work/lido-bezzi-1891",
+      "type": "created_by",
+      "to": "person/bartolomeo-bezzi",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/lido-bezzi-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "work/lion-a-l-affut-magrini-1907",
       "type": "created_by",
       "to": "person/adolphe-magrini",
@@ -33189,6 +34145,20 @@
       "source": null
     },
     {
+      "from": "work/nel-secolo-scorso-calcagni-1891",
+      "type": "created_by",
+      "to": "person/sante-calcagni",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/nel-secolo-scorso-calcagni-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "work/nostalgie-fornara-1907",
       "type": "created_by",
       "to": "person/carlo-fornara",
@@ -33246,6 +34216,20 @@
     },
     {
       "from": "work/orfanella-laforet-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/orfanelle-grosso-1891",
+      "type": "created_by",
+      "to": "person/giacomo-grosso",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/orfanelle-grosso-1891",
       "type": "exhibited_at",
       "to": "event/first-brera-triennale-1891",
       "certainty": null,
@@ -33721,6 +34705,20 @@
       "source": null
     },
     {
+      "from": "work/primavera-lancerotto-1891",
+      "type": "created_by",
+      "to": "person/egisto-lancerotto",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/primavera-lancerotto-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "work/printemps-focardi-1907",
       "type": "created_by",
       "to": "person/piero-focardi",
@@ -33848,6 +34846,20 @@
     },
     {
       "from": "work/raccolto-del-fieno-grubicy-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/raggio-di-sole-pellegrini-1891",
+      "type": "created_by",
+      "to": "person/romolo-pellegrini",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/raggio-di-sole-pellegrini-1891",
       "type": "exhibited_at",
       "to": "event/first-brera-triennale-1891",
       "certainty": null,
@@ -34044,6 +35056,20 @@
     },
     {
       "from": "work/ritratto-di-signora-rastellini-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/ritratto-di-signora-vegetti-1891",
+      "type": "created_by",
+      "to": "person/enrico-vegetti",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/ritratto-di-signora-vegetti-1891",
       "type": "exhibited_at",
       "to": "event/first-brera-triennale-1891",
       "certainty": null,
@@ -35842,6 +36868,12 @@
     {
       "from": "event/first-brera-triennale-1891",
       "type": "exhibited",
+      "to": "person/aleardo-villa",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
       "to": "person/alessandro-laforet",
       "derived": true
     },
@@ -35890,6 +36922,12 @@
     {
       "from": "event/first-brera-triennale-1891",
       "type": "exhibited",
+      "to": "person/argelia-butti",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
       "to": "person/arnaldo-ferraguti",
       "derived": true
     },
@@ -35903,6 +36941,12 @@
       "from": "event/first-brera-triennale-1891",
       "type": "exhibited",
       "to": "person/attilio-pusterla",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "person/bartolomeo-bezzi",
       "derived": true
     },
     {
@@ -35945,6 +36989,12 @@
       "from": "event/first-brera-triennale-1891",
       "type": "exhibited",
       "to": "person/carlo-fossati",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "person/carlo-manziana",
       "derived": true
     },
     {
@@ -36064,6 +37114,12 @@
     {
       "from": "event/first-brera-triennale-1891",
       "type": "exhibited",
+      "to": "person/enrico-vegetti",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
       "to": "person/ernesto-bazzaro",
       "derived": true
     },
@@ -36071,6 +37127,12 @@
       "from": "event/salon-divisionnistes-italiens-paris-1907",
       "type": "exhibited",
       "to": "person/eugenio-bellosio",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "person/eugenio-spreafico",
       "derived": true
     },
     {
@@ -36380,6 +37442,12 @@
       "derived": true
     },
     {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "person/millo-bortoluzzi",
+      "derived": true
+    },
+    {
       "from": "event/salon-divisionnistes-italiens-paris-1907",
       "type": "exhibited",
       "to": "person/paolo-troubetzkoy",
@@ -36430,6 +37498,12 @@
     {
       "from": "event/first-brera-triennale-1891",
       "type": "exhibited",
+      "to": "person/raffaele-grisanti",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
       "to": "person/raffaele-pontremoli",
       "derived": true
     },
@@ -36452,6 +37526,12 @@
       "derived": true
     },
     {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "person/romolo-pellegrini",
+      "derived": true
+    },
+    {
       "from": "movement/italian-divisionism",
       "type": "has_member",
       "to": "person/rubaldo-merello",
@@ -36461,6 +37541,12 @@
       "from": "event/salon-divisionnistes-italiens-paris-1907",
       "type": "exhibited",
       "to": "person/rubaldo-merello",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "person/sante-calcagni",
       "derived": true
     },
     {
@@ -36536,6 +37622,18 @@
       "derived": true
     },
     {
+      "from": "person/eugenio-spreafico",
+      "type": "created",
+      "to": "work/a-fulgure-et-tempestate-spreafico-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/a-fulgure-et-tempestate-spreafico-1891",
+      "derived": true
+    },
+    {
       "from": "person/piero-focardi",
       "type": "created",
       "to": "work/a-l-ombre-focardi-1907",
@@ -36569,6 +37667,18 @@
       "from": "concept/harmony",
       "type": "depicted_in",
       "to": "work/a-sunday-on-la-grande-jatte",
+      "derived": true
+    },
+    {
+      "from": "person/carlo-manziana",
+      "type": "created",
+      "to": "work/al-pascolo-manziana-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/al-pascolo-manziana-1891",
       "derived": true
     },
     {
@@ -36812,6 +37922,18 @@
       "derived": true
     },
     {
+      "from": "person/millo-bortoluzzi",
+      "type": "created",
+      "to": "work/campagna-bellunese-bortoluzzi-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/campagna-bellunese-bortoluzzi-1891",
+      "derived": true
+    },
+    {
       "from": "person/vittore-grubicy-de-dragon",
       "type": "created",
       "to": "work/campagna-lombarda-inverno-grubicy-1891",
@@ -36935,6 +38057,18 @@
       "from": "event/salon-divisionnistes-italiens-paris-1907",
       "type": "exhibited",
       "to": "work/cleopatre-previati-1907",
+      "derived": true
+    },
+    {
+      "from": "person/aleardo-villa",
+      "type": "created",
+      "to": "work/consolatrix-afflictorum-villa-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/consolatrix-afflictorum-villa-1891",
       "derived": true
     },
     {
@@ -37358,6 +38492,18 @@
       "derived": true
     },
     {
+      "from": "person/argelia-butti",
+      "type": "created",
+      "to": "work/fede-ingenua-butti-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/fede-ingenua-butti-1891",
+      "derived": true
+    },
+    {
       "from": "person/adolphe-magrini",
       "type": "created",
       "to": "work/femme-chouchee-etude-de-nu-magrini-1907",
@@ -37451,6 +38597,18 @@
       "from": "event/first-brera-triennale-1891",
       "type": "exhibited",
       "to": "work/friulana-ghidoni-1891",
+      "derived": true
+    },
+    {
+      "from": "person/raffaele-grisanti",
+      "type": "created",
+      "to": "work/frutti-dell-istruzione-pubblica-grisanti-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/frutti-dell-istruzione-pubblica-grisanti-1891",
       "derived": true
     },
     {
@@ -38396,6 +39554,18 @@
       "derived": true
     },
     {
+      "from": "person/bartolomeo-bezzi",
+      "type": "created",
+      "to": "work/lido-bezzi-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/lido-bezzi-1891",
+      "derived": true
+    },
+    {
       "from": "person/adolphe-magrini",
       "type": "created",
       "to": "work/lion-a-l-affut-magrini-1907",
@@ -38834,6 +40004,18 @@
       "derived": true
     },
     {
+      "from": "person/sante-calcagni",
+      "type": "created",
+      "to": "work/nel-secolo-scorso-calcagni-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/nel-secolo-scorso-calcagni-1891",
+      "derived": true
+    },
+    {
       "from": "person/carlo-fornara",
       "type": "created",
       "to": "work/nostalgie-fornara-1907",
@@ -38885,6 +40067,18 @@
       "from": "event/first-brera-triennale-1891",
       "type": "exhibited",
       "to": "work/orfanella-laforet-1891",
+      "derived": true
+    },
+    {
+      "from": "person/giacomo-grosso",
+      "type": "created",
+      "to": "work/orfanelle-grosso-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/orfanelle-grosso-1891",
       "derived": true
     },
     {
@@ -39290,6 +40484,18 @@
       "derived": true
     },
     {
+      "from": "person/egisto-lancerotto",
+      "type": "created",
+      "to": "work/primavera-lancerotto-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/primavera-lancerotto-1891",
+      "derived": true
+    },
+    {
       "from": "person/piero-focardi",
       "type": "created",
       "to": "work/printemps-focardi-1907",
@@ -39401,6 +40607,18 @@
       "from": "event/first-brera-triennale-1891",
       "type": "exhibited",
       "to": "work/raccolto-del-fieno-grubicy-1891",
+      "derived": true
+    },
+    {
+      "from": "person/romolo-pellegrini",
+      "type": "created",
+      "to": "work/raggio-di-sole-pellegrini-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/raggio-di-sole-pellegrini-1891",
       "derived": true
     },
     {
@@ -39569,6 +40787,18 @@
       "from": "event/first-brera-triennale-1891",
       "type": "exhibited",
       "to": "work/ritratto-di-signora-rastellini-1891",
+      "derived": true
+    },
+    {
+      "from": "person/enrico-vegetti",
+      "type": "created",
+      "to": "work/ritratto-di-signora-vegetti-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/ritratto-di-signora-vegetti-1891",
       "derived": true
     },
     {
