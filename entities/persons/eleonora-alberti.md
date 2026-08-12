@@ -1,11 +1,11 @@
 ---
-id: person/edoardo-gioja
-uri: urn:ahn:person/edoardo-gioja
+id: person/eleonora-alberti
+uri: urn:ahn:person/eleonora-alberti
 type: person
-label_ja: エドアルド・ジョイア
-label_en: Edoardo Gioja
+label_ja: エレオノーラ・アルベルティ
+label_en: Eleonora Alberti
 aliases:
-  - Gioja Edoardo
+  - Alberti Eleonora
 authority:
   wikidata: null
   ulan: null
@@ -15,7 +15,7 @@ authority:
 time:
   start: null
   end: null
-  display: "19世紀末にローマで活動"
+  display: "19世紀末にヴェネツィアで活動"
 space: []
 relations:
   - {type: exhibited_at, target: event/first-brera-triennale-1891}
@@ -25,6 +25,6 @@ status: draft
 updated: 2026-08-13
 ---
 
-# エドアルド・ジョイア / Edoardo Gioja
+# エレオノーラ・アルベルティ / Eleonora Alberti
 
-1891年の第一回ブレラ三年展公式カタログに、ローマで活動する出品者として掲載される。334番《Un armatore olandese nel secolo XVII》、558番《Tempi passati》を出品した。本項は展覧会記録に限定する。
+1891年の第一回ブレラ三年展公式カタログに、ヴェネツィア出身者として掲載される画家。563番《Un rivo a Venezia》を出品した。本項は展覧会記録に限定する。
