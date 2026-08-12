@@ -21,4 +21,4 @@ updated: 2026-08-12
 
 # ジョルジョ・ベッローニ / Giorgio Belloni
 
-1891年の第一回ブレラ三年展公式カタログに、コドーニョ出身者として掲載される画家。208番《Bosco di faggi》と239番《Ritratto di signorina》を出品した。本項は展覧会記録に限定する。
+1891年の第一回ブレラ三年展公式カタログに、コドーニョ出身者として掲載される画家。208番《Bosco di faggi》、239番《Ritratto di signorina》、253番《Malinconia》を出品した。本項は展覧会記録に限定する。
