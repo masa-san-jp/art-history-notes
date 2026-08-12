@@ -1,11 +1,11 @@
 ---
-id: person/mose-bianchi
-uri: urn:ahn:person/mose-bianchi
+id: person/carlotta-sacchetti
+uri: urn:ahn:person/carlotta-sacchetti
 type: person
-label_ja: モーゼ・ビアンキ
-label_en: Mosè Bianchi
+label_ja: カルロッタ・サッケッティ
+label_en: Carlotta Sacchetti
 aliases:
-  - Bianchi Mosè
+  - Sacchetti Carlotta
 authority:
   wikidata: null
   ulan: null
@@ -15,7 +15,7 @@ authority:
 time:
   start: null
   end: null
-  display: "19世紀末にモンツァ出身者として活動"
+  display: "19世紀末にパヴィア出身者として活動"
 space: []
 relations:
   - {type: exhibited_at, target: event/first-brera-triennale-1891}
@@ -25,6 +25,6 @@ status: draft
 updated: 2026-08-12
 ---
 
-# モーゼ・ビアンキ / Mosè Bianchi
+# カルロッタ・サッケッティ / Carlotta Sacchetti
 
-1891年の第一回ブレラ三年展公式カタログに、モンツァ出身者として掲載される画家。245番《C’era una volta.....》、284番《Madre》、289番《La ripetizione》を出品した。本項は展覧会記録に限定する。
+1891年の第一回ブレラ三年展公式カタログに、パヴィア出身者として掲載される出品者。本項は展覧会記録に限定する。
