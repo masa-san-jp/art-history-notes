@@ -7488,6 +7488,12 @@
           "target": "movement/dada",
           "certainty": "scholarly",
           "source": "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300021512"
+        },
+        {
+          "type": "influenced_by",
+          "target": "movement/symbolism",
+          "certainty": "scholarly",
+          "source": "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300021512"
         }
       ],
       "sources": [
@@ -14764,6 +14770,13 @@
     },
     {
       "from": "movement/surrealism",
+      "type": "influenced_by",
+      "to": "movement/symbolism",
+      "certainty": "scholarly",
+      "source": "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300021512"
+    },
+    {
+      "from": "movement/surrealism",
       "type": "originated_in",
       "to": "place/paris"
     },
@@ -16086,6 +16099,12 @@
     },
     {
       "from": "movement/dada",
+      "type": "influenced",
+      "to": "movement/surrealism",
+      "derived": true
+    },
+    {
+      "from": "movement/symbolism",
       "type": "influenced",
       "to": "movement/surrealism",
       "derived": true
