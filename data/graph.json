@@ -15601,6 +15601,44 @@
       "updated": "2026-08-12",
       "path": "entities/works/matin-d-ete-benvenuti-1907.md"
     },
+    "work/matin-sur-les-alpes-omio-1907": {
+      "id": "work/matin-sur-les-alpes-omio-1907",
+      "uri": "urn:ahn:work/matin-sur-les-alpes-omio-1907",
+      "type": "work",
+      "label_ja": "ジュゼッペ・オーミオ《Matin sur les Alpes》",
+      "label_en": "Matin sur les Alpes",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "独立作品典拠IDは未確認。1907年パリ展のカタログ記録を用いる"
+      },
+      "time": {
+        "start": "1907",
+        "end": "1907",
+        "display": "1907年パリ展出品（制作年未確認）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/giuseppe-omio"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/salon-divisionnistes-italiens-paris-1907"
+        }
+      ],
+      "sources": [
+        "https://exhibitions.univie.ac.at/exhibition/125",
+        "https://exhibitions.univie.ac.at/person/971",
+        "https://www.bdl.servizirl.it/bdl/public/rest/srv/item/2295/pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/works/matin-sur-les-alpes-omio-1907.md"
+    },
     "work/melanconie-du-soleil-maggi-1906": {
       "id": "work/melanconie-du-soleil-maggi-1906",
       "uri": "urn:ahn:work/melanconie-du-soleil-maggi-1906",
@@ -16016,6 +16054,44 @@
       "status": "draft",
       "updated": "2026-08-12",
       "path": "entities/works/proun-19d.md"
+    },
+    "work/retour-de-la-messe-focardi-1907": {
+      "id": "work/retour-de-la-messe-focardi-1907",
+      "uri": "urn:ahn:work/retour-de-la-messe-focardi-1907",
+      "type": "work",
+      "label_ja": "ピエロ・フォカルディ《Retour de la Messe》",
+      "label_en": "Retour de la Messe",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "独立作品典拠IDは未確認。1907年パリ展のカタログ記録を用いる"
+      },
+      "time": {
+        "start": "1907",
+        "end": "1907",
+        "display": "1907年パリ展出品（制作年未確認）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/piero-focardi"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/salon-divisionnistes-italiens-paris-1907"
+        }
+      ],
+      "sources": [
+        "https://exhibitions.univie.ac.at/exhibition/125",
+        "https://exhibitions.univie.ac.at/person/3322",
+        "https://www.bdl.servizirl.it/bdl/public/rest/srv/item/2295/pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/works/retour-de-la-messe-focardi-1907.md"
     },
     "work/ricordanze-fornara-1891": {
       "id": "work/ricordanze-fornara-1891",
@@ -19157,6 +19233,20 @@
       "source": null
     },
     {
+      "from": "work/matin-sur-les-alpes-omio-1907",
+      "type": "created_by",
+      "to": "person/giuseppe-omio",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/matin-sur-les-alpes-omio-1907",
+      "type": "exhibited_at",
+      "to": "event/salon-divisionnistes-italiens-paris-1907",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "work/melanconie-du-soleil-maggi-1906",
       "type": "created_by",
       "to": "person/cesare-maggi",
@@ -19307,6 +19397,20 @@
       "from": "work/proun-19d",
       "type": "belongs_to",
       "to": "movement/constructivism",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/retour-de-la-messe-focardi-1907",
+      "type": "created_by",
+      "to": "person/piero-focardi",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/retour-de-la-messe-focardi-1907",
+      "type": "exhibited_at",
+      "to": "event/salon-divisionnistes-italiens-paris-1907",
       "certainty": null,
       "source": null
     },
@@ -21166,6 +21270,18 @@
       "derived": true
     },
     {
+      "from": "person/giuseppe-omio",
+      "type": "created",
+      "to": "work/matin-sur-les-alpes-omio-1907",
+      "derived": true
+    },
+    {
+      "from": "event/salon-divisionnistes-italiens-paris-1907",
+      "type": "exhibited",
+      "to": "work/matin-sur-les-alpes-omio-1907",
+      "derived": true
+    },
+    {
       "from": "person/cesare-maggi",
       "type": "created",
       "to": "work/melanconie-du-soleil-maggi-1906",
@@ -21295,6 +21411,18 @@
       "from": "movement/constructivism",
       "type": "has_member",
       "to": "work/proun-19d",
+      "derived": true
+    },
+    {
+      "from": "person/piero-focardi",
+      "type": "created",
+      "to": "work/retour-de-la-messe-focardi-1907",
+      "derived": true
+    },
+    {
+      "from": "event/salon-divisionnistes-italiens-paris-1907",
+      "type": "exhibited",
+      "to": "work/retour-de-la-messe-focardi-1907",
       "derived": true
     },
     {
