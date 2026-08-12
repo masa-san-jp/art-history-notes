@@ -17911,7 +17911,7 @@
         "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
       ],
       "status": "draft",
-      "updated": "2026-08-12",
+      "updated": "2026-08-13",
       "path": "entities/persons/luigi-contratti.md"
     },
     "person/luigi-ferrazzi": {
@@ -29130,6 +29130,42 @@
       "status": "draft",
       "updated": "2026-08-13",
       "path": "entities/works/facciata-san-fermo-bazzoli-1891.md"
+    },
+    "work/fantasia-contratti-1891": {
+      "id": "work/fantasia-contratti-1891",
+      "uri": "urn:ahn:work/fantasia-contratti-1891",
+      "type": "work",
+      "label_ja": "ルイジ・コントラッティ《Fantasia》",
+      "label_en": "Fantasia",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "作品の独立典拠IDと現所在は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年（1891年展カタログ473番）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/luigi-contratti"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-13",
+      "path": "entities/works/fantasia-contratti-1891.md"
     },
     "work/fantino-a-cavallo-sarti-1891": {
       "id": "work/fantino-a-cavallo-sarti-1891",
@@ -54471,6 +54507,20 @@
       "source": null
     },
     {
+      "from": "work/fantasia-contratti-1891",
+      "type": "created_by",
+      "to": "person/luigi-contratti",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/fantasia-contratti-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "work/fantino-a-cavallo-sarti-1891",
       "type": "created_by",
       "to": "person/diego-sarti",
@@ -66559,6 +66609,18 @@
       "from": "event/first-brera-triennale-1891",
       "type": "exhibited",
       "to": "work/facciata-san-fermo-bazzoli-1891",
+      "derived": true
+    },
+    {
+      "from": "person/luigi-contratti",
+      "type": "created",
+      "to": "work/fantasia-contratti-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/fantasia-contratti-1891",
       "derived": true
     },
     {
