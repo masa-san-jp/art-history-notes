@@ -11648,6 +11648,40 @@
       "updated": "2026-08-12",
       "path": "entities/persons/luigi-conconi.md"
     },
+    "person/mario-salvini": {
+      "id": "person/mario-salvini",
+      "uri": "urn:ahn:person/mario-salvini",
+      "type": "person",
+      "label_ja": "マリオ・サルヴィーニ",
+      "label_en": "Mario Salvini",
+      "authority": {
+        "wikidata": null,
+        "ulan": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "独立した人物典拠IDは未確認。SIUSA、1891年公式カタログ、人物資料を用いる"
+      },
+      "time": {
+        "start": "1863",
+        "end": "1940",
+        "display": "1863年レッジョ・エミリア生まれ — 1940年フィレンツェ没"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://siusa-archivi.cultura.gov.it/cgi-bin/siusa/pagina.pl?Chiave=91739&TipoPag=prodpersona",
+        "https://www.galleriarecta.it/autore/salvini-mario/",
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/persons/mario-salvini.md"
+    },
     "person/mario-segantini": {
       "id": "person/mario-segantini",
       "uri": "urn:ahn:person/mario-segantini",
@@ -15614,6 +15648,43 @@
       "status": "draft",
       "updated": "2026-08-12",
       "path": "entities/works/alla-vanga-ferraguti-1891.md"
+    },
+    "work/anche-oggi-si-mangia-salvini-1891": {
+      "id": "work/anche-oggi-si-mangia-salvini-1891",
+      "uri": "urn:ahn:work/anche-oggi-si-mangia-salvini-1891",
+      "type": "work",
+      "label_ja": "マリオ・サルヴィーニ《Anche oggi si mangia》",
+      "label_en": "Anche oggi si mangia",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "作品の独立典拠IDと現所在は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年展出品"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/mario-salvini"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://siusa-archivi.cultura.gov.it/cgi-bin/siusa/pagina.pl?Chiave=91739&TipoPag=prodpersona",
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/works/anche-oggi-si-mangia-salvini-1891.md"
     },
     "work/apres-midi-d-octobre-fornara-1907": {
       "id": "work/apres-midi-d-octobre-fornara-1907",
@@ -27198,6 +27269,13 @@
       "source": null
     },
     {
+      "from": "person/mario-salvini",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "person/mario-segantini",
       "type": "belongs_to",
       "to": "movement/italian-divisionism",
@@ -27472,6 +27550,20 @@
     },
     {
       "from": "work/alla-vanga-ferraguti-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/anche-oggi-si-mangia-salvini-1891",
+      "type": "created_by",
+      "to": "person/mario-salvini",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/anche-oggi-si-mangia-salvini-1891",
       "type": "exhibited_at",
       "to": "event/first-brera-triennale-1891",
       "certainty": null,
@@ -32437,6 +32529,12 @@
       "derived": true
     },
     {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "person/mario-salvini",
+      "derived": true
+    },
+    {
       "from": "movement/italian-divisionism",
       "type": "has_member",
       "to": "person/mario-segantini",
@@ -32644,6 +32742,18 @@
       "from": "event/first-brera-triennale-1891",
       "type": "exhibited",
       "to": "work/alla-vanga-ferraguti-1891",
+      "derived": true
+    },
+    {
+      "from": "person/mario-salvini",
+      "type": "created",
+      "to": "work/anche-oggi-si-mangia-salvini-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/anche-oggi-si-mangia-salvini-1891",
       "derived": true
     },
     {
