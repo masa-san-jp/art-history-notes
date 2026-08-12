@@ -1,9 +1,9 @@
 ---
-id: person/luigi-mion
-uri: urn:ahn:person/luigi-mion
+id: person/cesira-sardi
+uri: urn:ahn:person/cesira-sardi
 type: person
-label_ja: ルイジ・ミオン
-label_en: Luigi Mion
+label_ja: チェジーラ・サルディ
+label_en: Cesira Sardi
 authority:
   wikidata: null
   ulan: null
@@ -13,7 +13,7 @@ authority:
 time:
   start: null
   end: null
-  display: "19世紀末にトレヴィーゾ出身者として活動"
+  display: "19世紀末にヴァラッツェ出身者として活動"
 space: []
 relations:
   - {type: exhibited_at, target: event/first-brera-triennale-1891}
@@ -23,6 +23,6 @@ status: draft
 updated: 2026-08-12
 ---
 
-# ルイジ・ミオン / Luigi Mion
+# チェジーラ・サルディ / Cesira Sardi
 
-1891年の第一回ブレラ三年展公式カタログに、トレヴィーゾ出身者として掲載される画家。179番《La strada del Bout du monde (Allevard Savoia)》と189番《La prediletta》を出品した。本項は展覧会記録に限定する。
+1891年の第一回ブレラ三年展公式カタログに、ジェノヴァ県ヴァラッツェ出身者として掲載される画家。本項は展覧会記録に限定する。
