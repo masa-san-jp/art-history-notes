@@ -11071,6 +11071,41 @@
       "updated": "2026-08-12",
       "path": "entities/persons/antonio-bezzola.md"
     },
+    "person/antonio-carminati": {
+      "id": "person/antonio-carminati",
+      "uri": "urn:ahn:person/antonio-carminati",
+      "type": "person",
+      "label_ja": "アントニオ・カルミナーティ",
+      "label_en": "Antonio Carminati",
+      "aliases": [
+        "Carminati Antonio"
+      ],
+      "authority": {
+        "wikidata": null,
+        "ulan": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "独立した人物典拠IDと生没年は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": null,
+        "end": null,
+        "display": "19世紀末にブレンバーテ・ディ・ソット出身者として活動"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-13",
+      "path": "entities/persons/antonio-carminati.md"
+    },
     "person/antonio-ferrigno": {
       "id": "person/antonio-ferrigno",
       "uri": "urn:ahn:person/antonio-ferrigno",
@@ -14996,6 +15031,41 @@
       "status": "draft",
       "updated": "2026-08-13",
       "path": "entities/persons/eugenio-guigoni.md"
+    },
+    "person/eugenio-maccagnani": {
+      "id": "person/eugenio-maccagnani",
+      "uri": "urn:ahn:person/eugenio-maccagnani",
+      "type": "person",
+      "label_ja": "エウジェニオ・マッカニャーニ",
+      "label_en": "Eugenio Maccagnani",
+      "aliases": [
+        "Maccagnani Eugenio"
+      ],
+      "authority": {
+        "wikidata": null,
+        "ulan": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "独立した人物典拠IDと生没年は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": null,
+        "end": null,
+        "display": "19世紀末にレッチェ出身者として活動"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-13",
+      "path": "entities/persons/eugenio-maccagnani.md"
     },
     "person/eugenio-pellini": {
       "id": "person/eugenio-pellini",
@@ -21053,7 +21123,7 @@
         "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
       ],
       "status": "draft",
-      "updated": "2026-08-12",
+      "updated": "2026-08-13",
       "path": "entities/persons/paolo-possamai.md"
     },
     "person/paolo-troubetzkoy": {
@@ -22522,6 +22592,41 @@
       "status": "stub",
       "updated": "2026-08-09",
       "path": "entities/persons/rudolf-bonnet.md"
+    },
+    "person/salvatore-pisani": {
+      "id": "person/salvatore-pisani",
+      "uri": "urn:ahn:person/salvatore-pisani",
+      "type": "person",
+      "label_ja": "サルヴァトーレ・ピサーニ",
+      "label_en": "Salvatore Pisani",
+      "aliases": [
+        "Pisani Salvatore"
+      ],
+      "authority": {
+        "wikidata": null,
+        "ulan": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "独立した人物典拠IDと生没年は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": null,
+        "end": null,
+        "display": "19世紀末にモンジャーナ出身者として活動"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-13",
+      "path": "entities/persons/salvatore-pisani.md"
     },
     "person/sante-calcagni": {
       "id": "person/sante-calcagni",
@@ -27538,6 +27643,42 @@
       "status": "draft",
       "updated": "2026-08-12",
       "path": "entities/works/anche-oggi-si-mangia-salvini-1891.md"
+    },
+    "work/angelus-domini-pisani-1891": {
+      "id": "work/angelus-domini-pisani-1891",
+      "uri": "urn:ahn:work/angelus-domini-pisani-1891",
+      "type": "work",
+      "label_ja": "サルヴァトーレ・ピサーニ《Angelus Domini》",
+      "label_en": "Angelus Domini",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "作品の独立典拠IDと現所在は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年（1891年展カタログ624番）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/salvatore-pisani"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-13",
+      "path": "entities/works/angelus-domini-pisani-1891.md"
     },
     "work/angurie-ximenes-1891": {
       "id": "work/angurie-ximenes-1891",
@@ -39247,6 +39388,42 @@
       "updated": "2026-08-13",
       "path": "entities/works/la-piscinnina-pellini-1891.md"
     },
+    "work/la-pompeiana-maccagnani-1891": {
+      "id": "work/la-pompeiana-maccagnani-1891",
+      "uri": "urn:ahn:work/la-pompeiana-maccagnani-1891",
+      "type": "work",
+      "label_ja": "エウジェニオ・マッカニャーニ《La Pompeiana》",
+      "label_en": "La Pompeiana",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "作品の独立典拠IDと現所在は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年（1891年展カタログ627番）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/eugenio-maccagnani"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-13",
+      "path": "entities/works/la-pompeiana-maccagnani-1891.md"
+    },
     "work/la-prediletta-mion-1891": {
       "id": "work/la-prediletta-mion-1891",
       "uri": "urn:ahn:work/la-prediletta-mion-1891",
@@ -41647,6 +41824,42 @@
       "status": "draft",
       "updated": "2026-08-12",
       "path": "entities/works/locus-olim-publice-veneri-damnatus-vela-1891.md"
+    },
+    "work/lotta-per-la-vita-danielli-1891": {
+      "id": "work/lotta-per-la-vita-danielli-1891",
+      "uri": "urn:ahn:work/lotta-per-la-vita-danielli-1891",
+      "type": "work",
+      "label_ja": "バッサーノ・ダニエッリ《Lotta per la vita》",
+      "label_en": "Lotta per la vita",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "作品の独立典拠IDと現所在は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年（1891年展カタログ629番）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/bassano-danielli"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-13",
+      "path": "entities/works/lotta-per-la-vita-danielli-1891.md"
     },
     "work/lucrezia-benzoni-1891": {
       "id": "work/lucrezia-benzoni-1891",
@@ -46258,6 +46471,42 @@
       "updated": "2026-08-12",
       "path": "entities/works/piccola-pastora-quaranta-1891.md"
     },
+    "work/pittrice-possamai-1891": {
+      "id": "work/pittrice-possamai-1891",
+      "uri": "urn:ahn:work/pittrice-possamai-1891",
+      "type": "work",
+      "label_ja": "パオロ・ポッサマイ《Pittrice》",
+      "label_en": "Pittrice",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "作品の独立典拠IDと現所在は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年（1891年展カタログ628番）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/paolo-possamai"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-13",
+      "path": "entities/works/pittrice-possamai-1891.md"
+    },
     "work/poesia-sassi-1891": {
       "id": "work/poesia-sassi-1891",
       "uri": "urn:ahn:work/poesia-sassi-1891",
@@ -46912,6 +47161,42 @@
       "status": "draft",
       "updated": "2026-08-12",
       "path": "entities/works/prime-riflessioni-trovatello-magoni-1891.md"
+    },
+    "work/primo-viaggio-galmuzzi-1891": {
+      "id": "work/primo-viaggio-galmuzzi-1891",
+      "uri": "urn:ahn:work/primo-viaggio-galmuzzi-1891",
+      "type": "work",
+      "label_ja": "アンセルモ・ガルムッツィ《Primo viaggio》",
+      "label_en": "Primo viaggio",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "作品の独立典拠IDと現所在は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年（1891年展カタログ630番）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/anselmo-galmuzzi"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-13",
+      "path": "entities/works/primo-viaggio-galmuzzi-1891.md"
     },
     "work/printemps-focardi-1907": {
       "id": "work/printemps-focardi-1907",
@@ -49808,6 +50093,42 @@
       "status": "draft",
       "updated": "2026-08-12",
       "path": "entities/works/ritratto-grassoni-1891.md"
+    },
+    "work/ritratto-parrocchetti-crespi-1891": {
+      "id": "work/ritratto-parrocchetti-crespi-1891",
+      "uri": "urn:ahn:work/ritratto-parrocchetti-crespi-1891",
+      "type": "work",
+      "label_ja": "フェッルッチョ・クレスピ《Ritratto del nobile signor A. Parrocchetti》",
+      "label_en": "Ritratto del nobile signor A. Parrocchetti",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "作品の独立典拠IDと現所在は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年（1891年展カタログ625番）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/ferruccio-crespi"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-13",
+      "path": "entities/works/ritratto-parrocchetti-crespi-1891.md"
     },
     "work/ritratto-rietti-1891-no286": {
       "id": "work/ritratto-rietti-1891-no286",
@@ -54218,6 +54539,42 @@
       "updated": "2026-08-12",
       "path": "entities/works/un-nuage-maggi-1907.md"
     },
+    "work/un-panattiere-carminati-1891": {
+      "id": "work/un-panattiere-carminati-1891",
+      "uri": "urn:ahn:work/un-panattiere-carminati-1891",
+      "type": "work",
+      "label_ja": "アントニオ・カルミナーティ《Un panattiere (lavoro notturno)》",
+      "label_en": "Un panattiere (lavoro notturno)",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "作品の独立典拠IDと現所在は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年（1891年展カタログ626番）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/antonio-carminati"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-13",
+      "path": "entities/works/un-panattiere-carminati-1891.md"
+    },
     "work/un-portico-di-fioraia-a-genova-pennasilico-1891": {
       "id": "work/un-portico-di-fioraia-a-genova-pennasilico-1891",
       "uri": "urn:ahn:work/un-portico-di-fioraia-a-genova-pennasilico-1891",
@@ -57827,6 +58184,13 @@
       "source": null
     },
     {
+      "from": "person/antonio-carminati",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "person/antonio-ferrigno",
       "type": "exhibited_at",
       "to": "event/first-brera-triennale-1891",
@@ -58672,6 +59036,13 @@
     },
     {
       "from": "person/eugenio-guigoni",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "person/eugenio-maccagnani",
       "type": "exhibited_at",
       "to": "event/first-brera-triennale-1891",
       "certainty": null,
@@ -60227,6 +60598,13 @@
       "source": null
     },
     {
+      "from": "person/salvatore-pisani",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "person/sante-calcagni",
       "type": "exhibited_at",
       "to": "event/first-brera-triennale-1891",
@@ -60916,6 +61294,20 @@
     },
     {
       "from": "work/anche-oggi-si-mangia-salvini-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/angelus-domini-pisani-1891",
+      "type": "created_by",
+      "to": "person/salvatore-pisani",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/angelus-domini-pisani-1891",
       "type": "exhibited_at",
       "to": "event/first-brera-triennale-1891",
       "certainty": null,
@@ -65440,6 +65832,20 @@
       "source": null
     },
     {
+      "from": "work/la-pompeiana-maccagnani-1891",
+      "type": "created_by",
+      "to": "person/eugenio-maccagnani",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/la-pompeiana-maccagnani-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "work/la-prediletta-mion-1891",
       "type": "created_by",
       "to": "person/luigi-mion",
@@ -66365,6 +66771,20 @@
     },
     {
       "from": "work/locus-olim-publice-veneri-damnatus-vela-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/lotta-per-la-vita-danielli-1891",
+      "type": "created_by",
+      "to": "person/bassano-danielli",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/lotta-per-la-vita-danielli-1891",
       "type": "exhibited_at",
       "to": "event/first-brera-triennale-1891",
       "certainty": null,
@@ -68142,6 +68562,20 @@
       "source": null
     },
     {
+      "from": "work/pittrice-possamai-1891",
+      "type": "created_by",
+      "to": "person/paolo-possamai",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/pittrice-possamai-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "work/poesia-sassi-1891",
       "type": "created_by",
       "to": "person/alfredo-sassi",
@@ -68388,6 +68822,20 @@
     },
     {
       "from": "work/prime-riflessioni-trovatello-magoni-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/primo-viaggio-galmuzzi-1891",
+      "type": "created_by",
+      "to": "person/anselmo-galmuzzi",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/primo-viaggio-galmuzzi-1891",
       "type": "exhibited_at",
       "to": "event/first-brera-triennale-1891",
       "certainty": null,
@@ -69501,6 +69949,20 @@
     },
     {
       "from": "work/ritratto-grassoni-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/ritratto-parrocchetti-crespi-1891",
+      "type": "created_by",
+      "to": "person/ferruccio-crespi",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/ritratto-parrocchetti-crespi-1891",
       "type": "exhibited_at",
       "to": "event/first-brera-triennale-1891",
       "certainty": null,
@@ -71204,6 +71666,20 @@
       "from": "work/un-nuage-maggi-1907",
       "type": "exhibited_at",
       "to": "event/salon-divisionnistes-italiens-paris-1907",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/un-panattiere-carminati-1891",
+      "type": "created_by",
+      "to": "person/antonio-carminati",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/un-panattiere-carminati-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
       "certainty": null,
       "source": null
     },
@@ -73095,6 +73571,12 @@
     {
       "from": "event/first-brera-triennale-1891",
       "type": "exhibited",
+      "to": "person/antonio-carminati",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
       "to": "person/antonio-ferrigno",
       "derived": true
     },
@@ -73798,6 +74280,12 @@
       "from": "event/first-brera-triennale-1891",
       "type": "exhibited",
       "to": "person/eugenio-guigoni",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "person/eugenio-maccagnani",
       "derived": true
     },
     {
@@ -75075,6 +75563,12 @@
     {
       "from": "event/first-brera-triennale-1891",
       "type": "exhibited",
+      "to": "person/salvatore-pisani",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
       "to": "person/sante-calcagni",
       "derived": true
     },
@@ -75640,6 +76134,18 @@
       "from": "event/first-brera-triennale-1891",
       "type": "exhibited",
       "to": "work/anche-oggi-si-mangia-salvini-1891",
+      "derived": true
+    },
+    {
+      "from": "person/salvatore-pisani",
+      "type": "created",
+      "to": "work/angelus-domini-pisani-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/angelus-domini-pisani-1891",
       "derived": true
     },
     {
@@ -79507,6 +80013,18 @@
       "derived": true
     },
     {
+      "from": "person/eugenio-maccagnani",
+      "type": "created",
+      "to": "work/la-pompeiana-maccagnani-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/la-pompeiana-maccagnani-1891",
+      "derived": true
+    },
+    {
       "from": "person/luigi-mion",
       "type": "created",
       "to": "work/la-prediletta-mion-1891",
@@ -80302,6 +80820,18 @@
       "from": "event/first-brera-triennale-1891",
       "type": "exhibited",
       "to": "work/locus-olim-publice-veneri-damnatus-vela-1891",
+      "derived": true
+    },
+    {
+      "from": "person/bassano-danielli",
+      "type": "created",
+      "to": "work/lotta-per-la-vita-danielli-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/lotta-per-la-vita-danielli-1891",
       "derived": true
     },
     {
@@ -81823,6 +82353,18 @@
       "derived": true
     },
     {
+      "from": "person/paolo-possamai",
+      "type": "created",
+      "to": "work/pittrice-possamai-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/pittrice-possamai-1891",
+      "derived": true
+    },
+    {
       "from": "person/alfredo-sassi",
       "type": "created",
       "to": "work/poesia-sassi-1891",
@@ -82036,6 +82578,18 @@
       "from": "event/first-brera-triennale-1891",
       "type": "exhibited",
       "to": "work/prime-riflessioni-trovatello-magoni-1891",
+      "derived": true
+    },
+    {
+      "from": "person/anselmo-galmuzzi",
+      "type": "created",
+      "to": "work/primo-viaggio-galmuzzi-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/primo-viaggio-galmuzzi-1891",
       "derived": true
     },
     {
@@ -82990,6 +83544,18 @@
       "from": "event/first-brera-triennale-1891",
       "type": "exhibited",
       "to": "work/ritratto-grassoni-1891",
+      "derived": true
+    },
+    {
+      "from": "person/ferruccio-crespi",
+      "type": "created",
+      "to": "work/ritratto-parrocchetti-crespi-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/ritratto-parrocchetti-crespi-1891",
       "derived": true
     },
     {
@@ -84448,6 +85014,18 @@
       "from": "event/salon-divisionnistes-italiens-paris-1907",
       "type": "exhibited",
       "to": "work/un-nuage-maggi-1907",
+      "derived": true
+    },
+    {
+      "from": "person/antonio-carminati",
+      "type": "created",
+      "to": "work/un-panattiere-carminati-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/un-panattiere-carminati-1891",
       "derived": true
     },
     {

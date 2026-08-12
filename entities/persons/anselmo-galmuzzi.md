@@ -27,4 +27,4 @@ updated: 2026-08-13
 
 # アンセルモ・ガルムッツィ / Anselmo Galmuzzi
 
-1891年の第一回ブレラ三年展公式カタログに、ミラノ出身者として掲載される彫刻家。615番《Indovinami e ti darò un bacio》を出品した。本項は展覧会記録に限定する。
+1891年の第一回ブレラ三年展公式カタログに、ミラノ出身者として掲載される彫刻家。615番《Indovinami e ti darò un bacio》、630番《Primo viaggio》を出品した。本項は展覧会記録に限定する。
