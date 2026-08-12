@@ -15299,6 +15299,44 @@
       "updated": "2026-08-12",
       "path": "entities/works/lef-no-2-1924.md"
     },
+    "work/marine-merello-1905": {
+      "id": "work/marine-merello-1905",
+      "uri": "urn:ahn:work/marine-merello-1905",
+      "type": "work",
+      "label_ja": "ルバルド・メレッロ《Marine》",
+      "label_en": "Marine",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "独立作品典拠IDは未確認。1907年パリ展カタログとオークション・カタログを用いる"
+      },
+      "time": {
+        "start": "1905",
+        "end": "1906",
+        "display": "1905〜1906年頃制作 — 1907年パリ展出品"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/rubaldo-merello"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/salon-divisionnistes-italiens-paris-1907"
+        }
+      ],
+      "sources": [
+        "https://exhibitions.univie.ac.at/person/gnd/119217643",
+        "https://exhibitions.univie.ac.at/exhibition/125",
+        "https://www.lotsearch.net/lot/rubaldo-merello-1872-1922-51358723"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/works/marine-merello-1905.md"
+    },
     "work/marine-riviera-del-ponente-minozzi-1907": {
       "id": "work/marine-riviera-del-ponente-minozzi-1907",
       "uri": "urn:ahn:work/marine-riviera-del-ponente-minozzi-1907",
@@ -15568,6 +15606,44 @@
       "status": "draft",
       "updated": "2026-08-12",
       "path": "entities/works/moutons-au-repos-ramponi-1907.md"
+    },
+    "work/parmi-les-rochers-merello-1905": {
+      "id": "work/parmi-les-rochers-merello-1905",
+      "uri": "urn:ahn:work/parmi-les-rochers-merello-1905",
+      "type": "work",
+      "label_ja": "ルバルド・メレッロ《Parmi les rochers》",
+      "label_en": "Parmi les rochers",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "独立作品典拠IDは未確認。1907年パリ展カタログとオークション・カタログを用いる"
+      },
+      "time": {
+        "start": "1905",
+        "end": "1906",
+        "display": "1905〜1906年頃制作 — 1907年パリ展出品"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/rubaldo-merello"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/salon-divisionnistes-italiens-paris-1907"
+        }
+      ],
+      "sources": [
+        "https://exhibitions.univie.ac.at/person/gnd/119217643",
+        "https://exhibitions.univie.ac.at/exhibition/125",
+        "https://www.gazette-drouot.com/telechargement/catalogue?venteId=106342"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/works/parmi-les-rochers-merello-1905.md"
     },
     "work/paysage-en-montagne-prada-1907": {
       "id": "work/paysage-en-montagne-prada-1907",
@@ -18739,6 +18815,20 @@
       "source": null
     },
     {
+      "from": "work/marine-merello-1905",
+      "type": "created_by",
+      "to": "person/rubaldo-merello",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/marine-merello-1905",
+      "type": "exhibited_at",
+      "to": "event/salon-divisionnistes-italiens-paris-1907",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "work/marine-riviera-del-ponente-minozzi-1907",
       "type": "created_by",
       "to": "person/filiberto-minozzi",
@@ -18838,6 +18928,20 @@
     },
     {
       "from": "work/moutons-au-repos-ramponi-1907",
+      "type": "exhibited_at",
+      "to": "event/salon-divisionnistes-italiens-paris-1907",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/parmi-les-rochers-merello-1905",
+      "type": "created_by",
+      "to": "person/rubaldo-merello",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/parmi-les-rochers-merello-1905",
       "type": "exhibited_at",
       "to": "event/salon-divisionnistes-italiens-paris-1907",
       "certainty": null,
@@ -20653,6 +20757,18 @@
       "derived": true
     },
     {
+      "from": "person/rubaldo-merello",
+      "type": "created",
+      "to": "work/marine-merello-1905",
+      "derived": true
+    },
+    {
+      "from": "event/salon-divisionnistes-italiens-paris-1907",
+      "type": "exhibited",
+      "to": "work/marine-merello-1905",
+      "derived": true
+    },
+    {
       "from": "person/filiberto-minozzi",
       "type": "created",
       "to": "work/marine-riviera-del-ponente-minozzi-1907",
@@ -20740,6 +20856,18 @@
       "from": "event/salon-divisionnistes-italiens-paris-1907",
       "type": "exhibited",
       "to": "work/moutons-au-repos-ramponi-1907",
+      "derived": true
+    },
+    {
+      "from": "person/rubaldo-merello",
+      "type": "created",
+      "to": "work/parmi-les-rochers-merello-1905",
+      "derived": true
+    },
+    {
+      "from": "event/salon-divisionnistes-italiens-paris-1907",
+      "type": "exhibited",
+      "to": "work/parmi-les-rochers-merello-1905",
       "derived": true
     },
     {
