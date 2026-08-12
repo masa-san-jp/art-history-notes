@@ -11318,6 +11318,40 @@
       "updated": "2026-08-12",
       "path": "entities/persons/giovanni-sottocornola.md"
     },
+    "person/giuseppe-ferrari": {
+      "id": "person/giuseppe-ferrari",
+      "uri": "urn:ahn:person/giuseppe-ferrari",
+      "type": "person",
+      "label_ja": "ジュゼッペ・フェッラーリ",
+      "label_en": "Giuseppe Ferrari",
+      "authority": {
+        "wikidata": null,
+        "ulan": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "独立した人物典拠IDは未確認。Treccani、イタリア文化財カタログ、1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": "1840",
+        "end": "1905",
+        "display": "1840年ローマ生まれ — 1905年リエーティ没"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://www.treccani.it/enciclopedia/giuseppe-ferrari_res-26c5e9bb-86d6-11dc-9a1b-0016357eee51/",
+        "https://www.catalogo.beniculturali.it/detail/HistoricOrArtisticProperty/1200230343A-3",
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/persons/giuseppe-ferrari.md"
+    },
     "person/giuseppe-mentessi": {
       "id": "person/giuseppe-mentessi",
       "uri": "urn:ahn:person/giuseppe-mentessi",
@@ -12094,6 +12128,40 @@
       "updated": "2026-08-12",
       "path": "entities/persons/luigi-conconi.md"
     },
+    "person/luigi-serra": {
+      "id": "person/luigi-serra",
+      "uri": "urn:ahn:person/luigi-serra",
+      "type": "person",
+      "label_ja": "ルイジ・セッラ",
+      "label_en": "Luigi Serra",
+      "authority": {
+        "wikidata": null,
+        "ulan": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "独立した人物典拠IDは未確認。Treccani、国立素描版画研究所、1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": "1846-06-08",
+        "end": "1888-08-11",
+        "display": "1846年6月8日ボローニャ生まれ — 1888年8月11日同地没"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://www.treccani.it/enciclopedia/luigi-serra_%28Dizionario-Biografico%29/",
+        "https://www.calcografica.it/disegni/autore.php?id=serra-luigi",
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/persons/luigi-serra.md"
+    },
     "person/mario-salvini": {
       "id": "person/mario-salvini",
       "uri": "urn:ahn:person/mario-salvini",
@@ -12584,6 +12652,40 @@
       "status": "draft",
       "updated": "2026-08-12",
       "path": "entities/persons/plinio-nomellini.md"
+    },
+    "person/pompeo-mariani": {
+      "id": "person/pompeo-mariani",
+      "uri": "urn:ahn:person/pompeo-mariani",
+      "type": "person",
+      "label_ja": "ポンペオ・マリアーニ",
+      "label_en": "Pompeo Mariani",
+      "authority": {
+        "wikidata": null,
+        "ulan": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "独立した人物典拠IDは未確認。Treccani、モンツァ市資料、1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": "1857-09-09",
+        "end": "1927-01-25",
+        "display": "1857年9月9日モンツァ生まれ — 1927年1月25日ボルディゲーラ没"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://www.treccani.it/enciclopedia/pompeo-mariani_%28Enciclopedia-Italiana%29/",
+        "https://trasparenza.comune.monza.it/export/sites/default/it/DOCUMENTI/comunemonza/bandi_appalti/servizi/2019/elenco-opere-Musei-Civici.pdf",
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/persons/pompeo-mariani.md"
     },
     "person/ramses-younan": {
       "id": "person/ramses-younan",
@@ -17478,6 +17580,43 @@
       "status": "draft",
       "updated": "2026-08-12",
       "path": "entities/works/disegni-acquarelli-mentessi-1891.md"
+    },
+    "work/disegni-ferrari-1891": {
+      "id": "work/disegni-ferrari-1891",
+      "uri": "urn:ahn:work/disegni-ferrari-1891",
+      "type": "work",
+      "label_ja": "ジュゼッペ・フェッラーリ《Disegni》",
+      "label_en": "Disegni",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "1891年展出品作としての独立典拠IDと現所在は未確認。公式カタログと人物典拠を用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年展出品"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/giuseppe-ferrari"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://www.treccani.it/enciclopedia/giuseppe-ferrari_res-26c5e9bb-86d6-11dc-9a1b-0016357eee51/",
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/works/disegni-ferrari-1891.md"
     },
     "work/dopo-il-ballo-cifariello-1891": {
       "id": "work/dopo-il-ballo-cifariello-1891",
@@ -23862,6 +24001,156 @@
       "updated": "2026-08-12",
       "path": "entities/works/quies-magrini-1907.md"
     },
+    "work/raccolta-disegni-serra-1891-a": {
+      "id": "work/raccolta-disegni-serra-1891-a",
+      "uri": "urn:ahn:work/raccolta-disegni-serra-1891-a",
+      "type": "work",
+      "label_ja": "ルイジ・セッラ《Raccolta di disegni (A)》",
+      "label_en": "Raccolta di disegni (A)",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "1891年展出品作としての独立典拠IDと現所在は未確認。公式カタログと人物典拠を用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年展出品"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/luigi-serra"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://www.treccani.it/enciclopedia/luigi-serra_%28Dizionario-Biografico%29/",
+        "https://www.calcografica.it/disegni/autore.php?id=serra-luigi",
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/works/raccolta-disegni-serra-1891-a.md"
+    },
+    "work/raccolta-disegni-serra-1891-b": {
+      "id": "work/raccolta-disegni-serra-1891-b",
+      "uri": "urn:ahn:work/raccolta-disegni-serra-1891-b",
+      "type": "work",
+      "label_ja": "ルイジ・セッラ《Raccolta di disegni (B)》",
+      "label_en": "Raccolta di disegni (B)",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "1891年展出品作としての独立典拠IDと現所在は未確認。公式カタログと人物典拠を用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年展出品"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/luigi-serra"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://www.treccani.it/enciclopedia/luigi-serra_%28Dizionario-Biografico%29/",
+        "https://www.calcografica.it/disegni/autore.php?id=serra-luigi",
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/works/raccolta-disegni-serra-1891-b.md"
+    },
+    "work/raccolta-mariani-1891-no40": {
+      "id": "work/raccolta-mariani-1891-no40",
+      "uri": "urn:ahn:work/raccolta-mariani-1891-no40",
+      "type": "work",
+      "label_ja": "ポンペオ・マリアーニ《Raccolta di pastelli, acque forti, disegni, ecc.》40番",
+      "label_en": "Raccolta di pastelli, acque forti, disegni, ecc.",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "1891年展出品作としての独立典拠IDと現所在は未確認。公式カタログと人物典拠を用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年展出品"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/pompeo-mariani"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://www.treccani.it/enciclopedia/pompeo-mariani_%28Enciclopedia-Italiana%29/",
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/works/raccolta-mariani-1891-no40.md"
+    },
+    "work/raccolta-mariani-1891-no42": {
+      "id": "work/raccolta-mariani-1891-no42",
+      "uri": "urn:ahn:work/raccolta-mariani-1891-no42",
+      "type": "work",
+      "label_ja": "ポンペオ・マリアーニ《Raccolta di pastelli, acque forti, disegni, ecc.》42番",
+      "label_en": "Raccolta di pastelli, acque forti, disegni, ecc.",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "1891年展出品作としての独立典拠IDと現所在は未確認。公式カタログと人物典拠を用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年展出品"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/pompeo-mariani"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://www.treccani.it/enciclopedia/pompeo-mariani_%28Enciclopedia-Italiana%29/",
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/works/raccolta-mariani-1891-no42.md"
+    },
     "work/raccolto-del-fieno-grubicy-1891": {
       "id": "work/raccolto-del-fieno-grubicy-1891",
       "uri": "urn:ahn:work/raccolto-del-fieno-grubicy-1891",
@@ -28417,6 +28706,13 @@
       "to": "place/milan"
     },
     {
+      "from": "person/giuseppe-ferrari",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "person/giuseppe-mentessi",
       "type": "belongs_to",
       "to": "movement/italian-divisionism",
@@ -28583,6 +28879,13 @@
       "source": null
     },
     {
+      "from": "person/luigi-serra",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "person/mario-salvini",
       "type": "exhibited_at",
       "to": "event/first-brera-triennale-1891",
@@ -28652,6 +28955,13 @@
     },
     {
       "from": "person/plinio-nomellini",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "person/pompeo-mariani",
       "type": "exhibited_at",
       "to": "event/first-brera-triennale-1891",
       "certainty": null,
@@ -29392,6 +29702,20 @@
     },
     {
       "from": "work/disegni-acquarelli-mentessi-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/disegni-ferrari-1891",
+      "type": "created_by",
+      "to": "person/giuseppe-ferrari",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/disegni-ferrari-1891",
       "type": "exhibited_at",
       "to": "event/first-brera-triennale-1891",
       "certainty": null,
@@ -31830,6 +32154,62 @@
       "from": "work/quies-magrini-1907",
       "type": "exhibited_at",
       "to": "event/salon-divisionnistes-italiens-paris-1907",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/raccolta-disegni-serra-1891-a",
+      "type": "created_by",
+      "to": "person/luigi-serra",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/raccolta-disegni-serra-1891-a",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/raccolta-disegni-serra-1891-b",
+      "type": "created_by",
+      "to": "person/luigi-serra",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/raccolta-disegni-serra-1891-b",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/raccolta-mariani-1891-no40",
+      "type": "created_by",
+      "to": "person/pompeo-mariani",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/raccolta-mariani-1891-no40",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/raccolta-mariani-1891-no42",
+      "type": "created_by",
+      "to": "person/pompeo-mariani",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/raccolta-mariani-1891-no42",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
       "certainty": null,
       "source": null
     },
@@ -34093,6 +34473,12 @@
       "derived": true
     },
     {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "person/giuseppe-ferrari",
+      "derived": true
+    },
+    {
       "from": "movement/italian-divisionism",
       "type": "has_member",
       "to": "person/giuseppe-mentessi",
@@ -34203,6 +34589,12 @@
     {
       "from": "event/first-brera-triennale-1891",
       "type": "exhibited",
+      "to": "person/luigi-serra",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
       "to": "person/mario-salvini",
       "derived": true
     },
@@ -34258,6 +34650,12 @@
       "from": "event/first-brera-triennale-1891",
       "type": "exhibited",
       "to": "person/plinio-nomellini",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "person/pompeo-mariani",
       "derived": true
     },
     {
@@ -34858,6 +35256,18 @@
       "from": "event/first-brera-triennale-1891",
       "type": "exhibited",
       "to": "work/disegni-acquarelli-mentessi-1891",
+      "derived": true
+    },
+    {
+      "from": "person/giuseppe-ferrari",
+      "type": "created",
+      "to": "work/disegni-ferrari-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/disegni-ferrari-1891",
       "derived": true
     },
     {
@@ -36946,6 +37356,54 @@
       "from": "event/salon-divisionnistes-italiens-paris-1907",
       "type": "exhibited",
       "to": "work/quies-magrini-1907",
+      "derived": true
+    },
+    {
+      "from": "person/luigi-serra",
+      "type": "created",
+      "to": "work/raccolta-disegni-serra-1891-a",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/raccolta-disegni-serra-1891-a",
+      "derived": true
+    },
+    {
+      "from": "person/luigi-serra",
+      "type": "created",
+      "to": "work/raccolta-disegni-serra-1891-b",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/raccolta-disegni-serra-1891-b",
+      "derived": true
+    },
+    {
+      "from": "person/pompeo-mariani",
+      "type": "created",
+      "to": "work/raccolta-mariani-1891-no40",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/raccolta-mariani-1891-no40",
+      "derived": true
+    },
+    {
+      "from": "person/pompeo-mariani",
+      "type": "created",
+      "to": "work/raccolta-mariani-1891-no42",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/raccolta-mariani-1891-no42",
       "derived": true
     },
     {
