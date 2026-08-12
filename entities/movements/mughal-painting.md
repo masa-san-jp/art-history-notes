@@ -27,12 +27,13 @@ claims:
 space:
   - {role: originated_in, target: place/agra}
 relations:
-  - {type: influenced_by, target: movement/safavid-painting, certainty: scholarly, source: "https://en.wikipedia.org/wiki/Mughal_painting"}
+  - {type: influenced_by, target: movement/safavid-painting, certainty: scholarly, source: "https://82nd-and-fifth.metmuseum.org/toah/ht/08/ssa.html"}
 sources:
   - https://www.wikidata.org/wiki/Q1049336
   - https://en.wikipedia.org/wiki/Mughal_painting
   - https://www.encyclopedia.com/international/encyclopedias-almanacs-transcripts-and-maps/mughal-painting
   - https://www.getty.edu/vow/AATFullDisplay?find=Mughal&logic=AND&note=&subjectid=300018939
+  - https://82nd-and-fifth.metmuseum.org/toah/ht/08/ssa.html
   - https://en.wikipedia.org/wiki/Manohar_Das
   - https://en.wikipedia.org/wiki/Govardhan_(artist)
   - https://en.wikipedia.org/wiki/Abu%27l-Hasan_(artist)
@@ -50,7 +51,7 @@ images:
     license: cc0
     note: "アブル・ハサン筆《斑ヒタキ（Spotted Forktail）》シャー・ジャハーン・アルバムより、c.1610-15年、メトロポリタン美術館蔵（isPublicDomain: true）"
 status: draft
-updated: 2026-08-09
+updated: 2026-08-13
 ---
 
 # ムガル絵画 / Mughal painting
@@ -190,6 +191,11 @@ of northern and central India under the Mughal emperors from the mid-16th to the
 固定するのは実態を単純化しすぎている可能性がある。一次資料（宮廷年代記の原文）には当たっていない。
 
 ## サファヴィー朝との接続
+
+関係の核となる経路は、メトロポリタン美術館の年表でも確認できる。同館は、スール朝の中断期に
+ペルシャへ亡命していたフマーユーンがサファヴィー朝の画家ミール・サイイド・アリーとアブド・アッサマドを
+得たこと、さらにアクバルの工房がペルシャ絵画を含む輸入伝統と在地の伝統との対話から独自の「ムガル様式」を
+形成したことを記している（[The Metropolitan Museum of Art「South Asia, 1400–1600 A.D.」](https://82nd-and-fifth.metmuseum.org/toah/ht/08/ssa.html)）。
 
 ミール・サイイド・アリーとアブド・アッサマドは、いずれもサファヴィー朝シャー・タフマースブ1世の
 宮廷（タブリーズ）で絵師として活動していた。ミール・サイイド・アリーは同宮廷の画家ミール・ムサッヴィル
