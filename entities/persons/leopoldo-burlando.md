@@ -1,11 +1,11 @@
 ---
-id: person/carlo-agazzi
-uri: urn:ahn:person/carlo-agazzi
+id: person/leopoldo-burlando
+uri: urn:ahn:person/leopoldo-burlando
 type: person
-label_ja: カルロ・アガッツィ
-label_en: Carlo Agazzi
+label_ja: レオポルド・ブルランド
+label_en: Leopoldo Burlando
 aliases:
-  - Agazzi Carlo
+  - Burlando Leopoldo
 authority:
   wikidata: null
   ulan: null
@@ -25,6 +25,6 @@ status: draft
 updated: 2026-08-12
 ---
 
-# カルロ・アガッツィ / Carlo Agazzi
+# レオポルド・ブルランド / Leopoldo Burlando
 
-1891年の第一回ブレラ三年展公式カタログに、ミラノ出身者として掲載される出品者。267番《Fiori》と295番《D’Autunno - Studio》を出品した。本項は展覧会記録に限定する。既存のリナルド・アガッツィとは別人物として記録する。
+1891年の第一回ブレラ三年展公式カタログに、ミラノ出身者として掲載される出品者。298番《In Duomo a Milano》と299番《In quartiere》を出品した。本項は展覧会記録に限定する。
