@@ -35,7 +35,8 @@ updated: 2026-08-12
 ヴァル・ヴィジェッツォのロゼッティ・ヴァレンティーニ美術学校でエンリコ・カヴァッリに学び、
 カルロ・フォルナラやジョヴァンニ・バッティスタ・チョリーナらと同じ地域の画家ネットワークに属した。
 
-1891年の公式カタログでは、Portico B R-C Cの568番に「Sognando」が掲載される。
-[`《Sognando》`](../works/sognando-rastellini-1891.md)として作品記録に分離した。文化財記録は
-本作を「Sognando (Il Sogno)」として1891年作と記録する。なお、本文の326番「Ritratto di Signora」は
-[ルイージ・コンコーニ](../persons/luigi-conconi.md)作として掲載されており、本項のラステッリーニには帰属させない。
+1891年の公式カタログでは、Sala S-Tの326番に「Ritratto di Signora」、Portico C Cの568番に
+「Sognando」が掲載される。326番は[`《Ritratto di Signora》`](../works/ritratto-di-signora-rastellini-1891.md)、
+568番は[`《Sognando》`](../works/sognando-rastellini-1891.md)として作品記録に分離した。文化財記録は
+後者を「Sognando (Il Sogno)」として1891年作と記録する。なお、索引は本項の出品番号を568番だけに記録しており、
+本文の326番との食い違いは未解決である。
