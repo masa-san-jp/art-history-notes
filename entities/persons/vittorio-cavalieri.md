@@ -4,6 +4,8 @@ uri: urn:ahn:person/vittorio-cavalieri
 type: person
 label_ja: ヴィットリオ・カヴァリエーリ
 label_en: Vittorio Cavalieri
+aliases:
+  - Cavalieri Vittorio
 authority:
   wikidata: null
   ulan: null
@@ -28,4 +30,4 @@ updated: 2026-08-12
 
 トリノで活動したイタリアの画家。地域資料は、風景、風俗、肖像などを描いた画家として紹介している。
 
-1891年の第一回ブレラ三年展では、公式カタログの103番《Baldoria》を出品した。本項では、確認できる展覧会記録に限定して記録する。
+1891年の第一回ブレラ三年展では、公式カタログの103番《Baldoria》と292番《Ritratto di Signora》を出品し、292番はパステルとして記載される。本項では、確認できる展覧会記録に限定して記録する。

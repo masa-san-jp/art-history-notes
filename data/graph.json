@@ -9698,6 +9698,41 @@
       "updated": "2026-08-12",
       "path": "entities/persons/alberto-rossi.md"
     },
+    "person/alceste-campriani": {
+      "id": "person/alceste-campriani",
+      "uri": "urn:ahn:person/alceste-campriani",
+      "type": "person",
+      "label_ja": "アルチェステ・カンプリアーニ",
+      "label_en": "Alceste Campriani",
+      "aliases": [
+        "Campriani Alceste"
+      ],
+      "authority": {
+        "wikidata": null,
+        "ulan": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "独立した人物典拠IDと生没年は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": null,
+        "end": null,
+        "display": "19世紀末にナポリで活動"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/persons/alceste-campriani.md"
+    },
     "person/aleardo-villa": {
       "id": "person/aleardo-villa",
       "uri": "urn:ahn:person/aleardo-villa",
@@ -10625,6 +10660,41 @@
       "updated": "2026-08-12",
       "path": "entities/persons/arnaldo-ferraguti.md"
     },
+    "person/arturo-rietti": {
+      "id": "person/arturo-rietti",
+      "uri": "urn:ahn:person/arturo-rietti",
+      "type": "person",
+      "label_ja": "アルトゥーロ・リエッティ",
+      "label_en": "Arturo Rietti",
+      "aliases": [
+        "Rietti Arturo"
+      ],
+      "authority": {
+        "wikidata": null,
+        "ulan": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "独立した人物典拠IDと生没年は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": null,
+        "end": null,
+        "display": "19世紀末にトリエステ出身者として活動"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/persons/arturo-rietti.md"
+    },
     "person/asdrubale-piccini": {
       "id": "person/asdrubale-piccini",
       "uri": "urn:ahn:person/asdrubale-piccini",
@@ -11282,6 +11352,41 @@
       "status": "draft",
       "updated": "2026-08-12",
       "path": "entities/persons/carlo-prada.md"
+    },
+    "person/carlotta-sacchetti": {
+      "id": "person/carlotta-sacchetti",
+      "uri": "urn:ahn:person/carlotta-sacchetti",
+      "type": "person",
+      "label_ja": "カルロッタ・サッケッティ",
+      "label_en": "Carlotta Sacchetti",
+      "aliases": [
+        "Sacchetti Carlotta"
+      ],
+      "authority": {
+        "wikidata": null,
+        "ulan": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "独立した人物典拠IDと生没年は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": null,
+        "end": null,
+        "display": "19世紀末にパヴィア出身者として活動"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/persons/carlotta-sacchetti.md"
     },
     "person/celestino-fumagalli": {
       "id": "person/celestino-fumagalli",
@@ -12149,6 +12254,41 @@
       "status": "draft",
       "updated": "2026-08-12",
       "path": "entities/persons/emilio-gariboldi.md"
+    },
+    "person/emilio-gola": {
+      "id": "person/emilio-gola",
+      "uri": "urn:ahn:person/emilio-gola",
+      "type": "person",
+      "label_ja": "エミリオ・ゴーラ",
+      "label_en": "Emilio Gola",
+      "aliases": [
+        "Gola Emilio"
+      ],
+      "authority": {
+        "wikidata": null,
+        "ulan": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "独立した人物典拠IDと生没年は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": null,
+        "end": null,
+        "display": "19世紀末にミラノで活動"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/persons/emilio-gola.md"
     },
     "person/emilio-longoni": {
       "id": "person/emilio-longoni",
@@ -17935,6 +18075,9 @@
       "type": "person",
       "label_ja": "ヴィットリオ・カヴァリエーリ",
       "label_en": "Vittorio Cavalieri",
+      "aliases": [
+        "Cavalieri Vittorio"
+      ],
       "authority": {
         "wikidata": null,
         "ulan": null,
@@ -21910,6 +22053,42 @@
       "updated": "2026-08-12",
       "path": "entities/works/bisons-magrini-1907.md"
     },
+    "work/bosco-bozzetto-borsa-1891": {
+      "id": "work/bosco-bozzetto-borsa-1891",
+      "uri": "urn:ahn:work/bosco-bozzetto-borsa-1891",
+      "type": "work",
+      "label_ja": "エミリオ・ボルサ《Bosco (Bozzetto)》",
+      "label_en": "Bosco (Bozzetto)",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "作品の独立典拠IDと現所在は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年（1891年展カタログ282番）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/emilio-borsa"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/works/bosco-bozzetto-borsa-1891.md"
+    },
     "work/bosco-di-faggi-belloni-1891": {
       "id": "work/bosco-di-faggi-belloni-1891",
       "uri": "urn:ahn:work/bosco-di-faggi-belloni-1891",
@@ -22907,6 +23086,42 @@
       "status": "draft",
       "updated": "2026-08-12",
       "path": "entities/works/corpo-a-corpo-sassi-1891.md"
+    },
+    "work/costiera-di-amalfi-campriani-1891": {
+      "id": "work/costiera-di-amalfi-campriani-1891",
+      "uri": "urn:ahn:work/costiera-di-amalfi-campriani-1891",
+      "type": "work",
+      "label_ja": "アルチェステ・カンプリアーニ《Costiera di Amalfi》",
+      "label_en": "Costiera di Amalfi",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "作品の独立典拠IDと現所在は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年（1891年展カタログ290番）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/alceste-campriani"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/works/costiera-di-amalfi-campriani-1891.md"
     },
     "work/coucher-de-soleil-a-la-fin-du-printemps-benvenuti-1907": {
       "id": "work/coucher-de-soleil-a-la-fin-du-printemps-benvenuti-1907",
@@ -28877,6 +29092,42 @@
       "updated": "2026-08-12",
       "path": "entities/works/la-questione-sociale-cogliati-1891.md"
     },
+    "work/la-ripetizione-bianchi-1891": {
+      "id": "work/la-ripetizione-bianchi-1891",
+      "uri": "urn:ahn:work/la-ripetizione-bianchi-1891",
+      "type": "work",
+      "label_ja": "モーゼ・ビアンキ《La ripetizione》",
+      "label_en": "La ripetizione",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "作品の独立典拠IDと現所在は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年（1891年展カタログ289番）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/mose-bianchi"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/works/la-ripetizione-bianchi-1891.md"
+    },
     "work/la-roggia-borsa-1891": {
       "id": "work/la-roggia-borsa-1891",
       "uri": "urn:ahn:work/la-roggia-borsa-1891",
@@ -30557,6 +30808,42 @@
       "updated": "2026-08-12",
       "path": "entities/works/luna-di-miele-preda-1891.md"
     },
+    "work/lungo-il-naviglio-in-milano-gola-1891": {
+      "id": "work/lungo-il-naviglio-in-milano-gola-1891",
+      "uri": "urn:ahn:work/lungo-il-naviglio-in-milano-gola-1891",
+      "type": "work",
+      "label_ja": "エミリオ・ゴーラ《Lungo il Naviglio in Milano》",
+      "label_en": "Lungo il Naviglio in Milano",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "作品の独立典拠IDと現所在は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年（1891年展カタログ285番）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/emilio-gola"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/works/lungo-il-naviglio-in-milano-gola-1891.md"
+    },
     "work/macbeth-e-le-streghe-pontremoli-1891": {
       "id": "work/macbeth-e-le-streghe-pontremoli-1891",
       "uri": "urn:ahn:work/macbeth-e-le-streghe-pontremoli-1891",
@@ -30629,6 +30916,42 @@
       "status": "draft",
       "updated": "2026-08-12",
       "path": "entities/works/macchiette-d-amici-conconi-1891.md"
+    },
+    "work/madre-bianchi-1891": {
+      "id": "work/madre-bianchi-1891",
+      "uri": "urn:ahn:work/madre-bianchi-1891",
+      "type": "work",
+      "label_ja": "モーゼ・ビアンキ《Madre》",
+      "label_en": "Madre",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "作品の独立典拠IDと現所在は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年（1891年展カタログ284番）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/mose-bianchi"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/works/madre-bianchi-1891.md"
     },
     "work/malinconia-belloni-1891": {
       "id": "work/malinconia-belloni-1891",
@@ -32578,6 +32901,42 @@
       "status": "draft",
       "updated": "2026-08-12",
       "path": "entities/works/pace-magistretti-1891.md"
+    },
+    "work/paesaggio-nei-dintorni-di-milano-gola-1891": {
+      "id": "work/paesaggio-nei-dintorni-di-milano-gola-1891",
+      "uri": "urn:ahn:work/paesaggio-nei-dintorni-di-milano-gola-1891",
+      "type": "work",
+      "label_ja": "エミリオ・ゴーラ《Paesaggio nei dintorni di Milano (Impressione)》",
+      "label_en": "Paesaggio nei dintorni di Milano (Impressione)",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "作品の独立典拠IDと現所在は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年（1891年展カタログ287番）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/emilio-gola"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/works/paesaggio-nei-dintorni-di-milano-gola-1891.md"
     },
     "work/paesaggio-sole-d-inverno-longoni-1891": {
       "id": "work/paesaggio-sole-d-inverno-longoni-1891",
@@ -35508,6 +35867,42 @@
       "updated": "2026-08-12",
       "path": "entities/works/ritratto-di-signora-cagnoni-1891-no221.md"
     },
+    "work/ritratto-di-signora-cavalieri-1891-no292": {
+      "id": "work/ritratto-di-signora-cavalieri-1891-no292",
+      "uri": "urn:ahn:work/ritratto-di-signora-cavalieri-1891-no292",
+      "type": "work",
+      "label_ja": "ヴィットリオ・カヴァリエーリ《Ritratto di Signora》",
+      "label_en": "Ritratto di Signora",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "作品の独立典拠IDと現所在は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年（1891年展カタログ292番・パステル）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/vittorio-cavalieri"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/works/ritratto-di-signora-cavalieri-1891-no292.md"
+    },
     "work/ritratto-di-signora-feragutti-visconti-1891": {
       "id": "work/ritratto-di-signora-feragutti-visconti-1891",
       "uri": "urn:ahn:work/ritratto-di-signora-feragutti-visconti-1891",
@@ -35654,6 +36049,42 @@
       "status": "draft",
       "updated": "2026-08-12",
       "path": "entities/works/ritratto-di-signora-rastellini-1891.md"
+    },
+    "work/ritratto-di-signora-sacchetti-1891": {
+      "id": "work/ritratto-di-signora-sacchetti-1891",
+      "uri": "urn:ahn:work/ritratto-di-signora-sacchetti-1891",
+      "type": "work",
+      "label_ja": "カルロッタ・サッケッティ《Ritratto di Signora》",
+      "label_en": "Ritratto di Signora",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "作品の独立典拠IDと現所在は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年（1891年展カタログ291番）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/carlotta-sacchetti"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/works/ritratto-di-signora-sacchetti-1891.md"
     },
     "work/ritratto-di-signora-todeschini-1891-217bis": {
       "id": "work/ritratto-di-signora-todeschini-1891-217bis",
@@ -35983,6 +36414,42 @@
       "status": "draft",
       "updated": "2026-08-12",
       "path": "entities/works/ritratto-grassoni-1891.md"
+    },
+    "work/ritratto-rietti-1891-no286": {
+      "id": "work/ritratto-rietti-1891-no286",
+      "uri": "urn:ahn:work/ritratto-rietti-1891-no286",
+      "type": "work",
+      "label_ja": "アルトゥーロ・リエッティ《Ritratto》",
+      "label_en": "Ritratto",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "作品の独立典拠IDと現所在は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年（1891年展カタログ286番・パステル）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/arturo-rietti"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/works/ritratto-rietti-1891-no286.md"
     },
     "work/ritratto-stolberg-wernigerode-schott-1891": {
       "id": "work/ritratto-stolberg-wernigerode-schott-1891",
@@ -37239,6 +37706,78 @@
       "status": "draft",
       "updated": "2026-08-12",
       "path": "entities/works/studio-di-mare-la-scogliera-merello-1906.md"
+    },
+    "work/studio-gola-1891": {
+      "id": "work/studio-gola-1891",
+      "uri": "urn:ahn:work/studio-gola-1891",
+      "type": "work",
+      "label_ja": "エミリオ・ゴーラ《Studio》",
+      "label_en": "Studio",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "作品の独立典拠IDと現所在は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年（1891年展カタログ283番）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/emilio-gola"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/works/studio-gola-1891.md"
+    },
+    "work/studio-rietti-1891-no288": {
+      "id": "work/studio-rietti-1891-no288",
+      "uri": "urn:ahn:work/studio-rietti-1891-no288",
+      "type": "work",
+      "label_ja": "アルトゥーロ・リエッティ《Studio》",
+      "label_en": "Studio",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "作品の独立典拠IDと現所在は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年（1891年展カタログ288番・パステル）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/arturo-rietti"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/works/studio-rietti-1891-no288.md"
     },
     "work/sul-lago-d-orta-rossi-1891": {
       "id": "work/sul-lago-d-orta-rossi-1891",
@@ -40772,6 +41311,13 @@
       "source": null
     },
     {
+      "from": "person/alceste-campriani",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "person/aleardo-villa",
       "type": "exhibited_at",
       "to": "event/first-brera-triennale-1891",
@@ -40995,6 +41541,13 @@
       "source": null
     },
     {
+      "from": "person/arturo-rietti",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "person/asdrubale-piccini",
       "type": "exhibited_at",
       "to": "event/first-brera-triennale-1891",
@@ -41150,6 +41703,13 @@
       "from": "person/carlo-prada",
       "type": "exhibited_at",
       "to": "event/salon-divisionnistes-italiens-paris-1907",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "person/carlotta-sacchetti",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
       "certainty": null,
       "source": null
     },
@@ -41343,6 +41903,13 @@
     },
     {
       "from": "person/emilio-gariboldi",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "person/emilio-gola",
       "type": "exhibited_at",
       "to": "event/first-brera-triennale-1891",
       "certainty": null,
@@ -43043,6 +43610,20 @@
       "source": null
     },
     {
+      "from": "work/bosco-bozzetto-borsa-1891",
+      "type": "created_by",
+      "to": "person/emilio-borsa",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/bosco-bozzetto-borsa-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "work/bosco-di-faggi-belloni-1891",
       "type": "created_by",
       "to": "person/giorgio-belloni",
@@ -43429,6 +44010,20 @@
     },
     {
       "from": "work/corpo-a-corpo-sassi-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/costiera-di-amalfi-campriani-1891",
+      "type": "created_by",
+      "to": "person/alceste-campriani",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/costiera-di-amalfi-campriani-1891",
       "type": "exhibited_at",
       "to": "event/first-brera-triennale-1891",
       "certainty": null,
@@ -45717,6 +46312,20 @@
       "source": null
     },
     {
+      "from": "work/la-ripetizione-bianchi-1891",
+      "type": "created_by",
+      "to": "person/mose-bianchi",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/la-ripetizione-bianchi-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "work/la-roggia-borsa-1891",
       "type": "created_by",
       "to": "person/emilio-borsa",
@@ -46368,6 +46977,20 @@
       "source": null
     },
     {
+      "from": "work/lungo-il-naviglio-in-milano-gola-1891",
+      "type": "created_by",
+      "to": "person/emilio-gola",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/lungo-il-naviglio-in-milano-gola-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "work/macbeth-e-le-streghe-pontremoli-1891",
       "type": "created_by",
       "to": "person/raffaele-pontremoli",
@@ -46390,6 +47013,20 @@
     },
     {
       "from": "work/macchiette-d-amici-conconi-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/madre-bianchi-1891",
+      "type": "created_by",
+      "to": "person/mose-bianchi",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/madre-bianchi-1891",
       "type": "exhibited_at",
       "to": "event/first-brera-triennale-1891",
       "certainty": null,
@@ -47132,6 +47769,20 @@
     },
     {
       "from": "work/pace-magistretti-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/paesaggio-nei-dintorni-di-milano-gola-1891",
+      "type": "created_by",
+      "to": "person/emilio-gola",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/paesaggio-nei-dintorni-di-milano-gola-1891",
       "type": "exhibited_at",
       "to": "event/first-brera-triennale-1891",
       "certainty": null,
@@ -48258,6 +48909,20 @@
       "source": null
     },
     {
+      "from": "work/ritratto-di-signora-cavalieri-1891-no292",
+      "type": "created_by",
+      "to": "person/vittorio-cavalieri",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/ritratto-di-signora-cavalieri-1891-no292",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "work/ritratto-di-signora-feragutti-visconti-1891",
       "type": "created_by",
       "to": "person/adolfo-feragutti-visconti",
@@ -48308,6 +48973,20 @@
     },
     {
       "from": "work/ritratto-di-signora-rastellini-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/ritratto-di-signora-sacchetti-1891",
+      "type": "created_by",
+      "to": "person/carlotta-sacchetti",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/ritratto-di-signora-sacchetti-1891",
       "type": "exhibited_at",
       "to": "event/first-brera-triennale-1891",
       "certainty": null,
@@ -48434,6 +49113,20 @@
     },
     {
       "from": "work/ritratto-grassoni-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/ritratto-rietti-1891-no286",
+      "type": "created_by",
+      "to": "person/arturo-rietti",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/ritratto-rietti-1891-no286",
       "type": "exhibited_at",
       "to": "event/first-brera-triennale-1891",
       "certainty": null,
@@ -48912,6 +49605,34 @@
       "from": "work/studio-di-mare-la-scogliera-merello-1906",
       "type": "exhibited_at",
       "to": "event/salon-divisionnistes-italiens-paris-1907",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/studio-gola-1891",
+      "type": "created_by",
+      "to": "person/emilio-gola",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/studio-gola-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/studio-rietti-1891-no288",
+      "type": "created_by",
+      "to": "person/arturo-rietti",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/studio-rietti-1891-no288",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
       "certainty": null,
       "source": null
     },
@@ -50642,6 +51363,12 @@
     {
       "from": "event/first-brera-triennale-1891",
       "type": "exhibited",
+      "to": "person/alceste-campriani",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
       "to": "person/aleardo-villa",
       "derived": true
     },
@@ -50816,6 +51543,12 @@
     {
       "from": "event/first-brera-triennale-1891",
       "type": "exhibited",
+      "to": "person/arturo-rietti",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
       "to": "person/asdrubale-piccini",
       "derived": true
     },
@@ -50943,6 +51676,12 @@
       "from": "event/salon-divisionnistes-italiens-paris-1907",
       "type": "exhibited",
       "to": "person/carlo-prada",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "person/carlotta-sacchetti",
       "derived": true
     },
     {
@@ -51093,6 +51832,12 @@
       "from": "event/first-brera-triennale-1891",
       "type": "exhibited",
       "to": "person/emilio-gariboldi",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "person/emilio-gola",
       "derived": true
     },
     {
@@ -52458,6 +53203,18 @@
       "derived": true
     },
     {
+      "from": "person/emilio-borsa",
+      "type": "created",
+      "to": "work/bosco-bozzetto-borsa-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/bosco-bozzetto-borsa-1891",
+      "derived": true
+    },
+    {
       "from": "person/giorgio-belloni",
       "type": "created",
       "to": "work/bosco-di-faggi-belloni-1891",
@@ -52791,6 +53548,18 @@
       "from": "event/first-brera-triennale-1891",
       "type": "exhibited",
       "to": "work/corpo-a-corpo-sassi-1891",
+      "derived": true
+    },
+    {
+      "from": "person/alceste-campriani",
+      "type": "created",
+      "to": "work/costiera-di-amalfi-campriani-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/costiera-di-amalfi-campriani-1891",
       "derived": true
     },
     {
@@ -54750,6 +55519,18 @@
       "derived": true
     },
     {
+      "from": "person/mose-bianchi",
+      "type": "created",
+      "to": "work/la-ripetizione-bianchi-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/la-ripetizione-bianchi-1891",
+      "derived": true
+    },
+    {
       "from": "person/emilio-borsa",
       "type": "created",
       "to": "work/la-roggia-borsa-1891",
@@ -55308,6 +56089,18 @@
       "derived": true
     },
     {
+      "from": "person/emilio-gola",
+      "type": "created",
+      "to": "work/lungo-il-naviglio-in-milano-gola-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/lungo-il-naviglio-in-milano-gola-1891",
+      "derived": true
+    },
+    {
       "from": "person/raffaele-pontremoli",
       "type": "created",
       "to": "work/macbeth-e-le-streghe-pontremoli-1891",
@@ -55329,6 +56122,18 @@
       "from": "event/first-brera-triennale-1891",
       "type": "exhibited",
       "to": "work/macchiette-d-amici-conconi-1891",
+      "derived": true
+    },
+    {
+      "from": "person/mose-bianchi",
+      "type": "created",
+      "to": "work/madre-bianchi-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/madre-bianchi-1891",
       "derived": true
     },
     {
@@ -55965,6 +56770,18 @@
       "from": "event/first-brera-triennale-1891",
       "type": "exhibited",
       "to": "work/pace-magistretti-1891",
+      "derived": true
+    },
+    {
+      "from": "person/emilio-gola",
+      "type": "created",
+      "to": "work/paesaggio-nei-dintorni-di-milano-gola-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/paesaggio-nei-dintorni-di-milano-gola-1891",
       "derived": true
     },
     {
@@ -56928,6 +57745,18 @@
       "derived": true
     },
     {
+      "from": "person/vittorio-cavalieri",
+      "type": "created",
+      "to": "work/ritratto-di-signora-cavalieri-1891-no292",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/ritratto-di-signora-cavalieri-1891-no292",
+      "derived": true
+    },
+    {
       "from": "person/adolfo-feragutti-visconti",
       "type": "created",
       "to": "work/ritratto-di-signora-feragutti-visconti-1891",
@@ -56973,6 +57802,18 @@
       "from": "event/first-brera-triennale-1891",
       "type": "exhibited",
       "to": "work/ritratto-di-signora-rastellini-1891",
+      "derived": true
+    },
+    {
+      "from": "person/carlotta-sacchetti",
+      "type": "created",
+      "to": "work/ritratto-di-signora-sacchetti-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/ritratto-di-signora-sacchetti-1891",
       "derived": true
     },
     {
@@ -57081,6 +57922,18 @@
       "from": "event/first-brera-triennale-1891",
       "type": "exhibited",
       "to": "work/ritratto-grassoni-1891",
+      "derived": true
+    },
+    {
+      "from": "person/arturo-rietti",
+      "type": "created",
+      "to": "work/ritratto-rietti-1891-no286",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/ritratto-rietti-1891-no286",
       "derived": true
     },
     {
@@ -57489,6 +58342,30 @@
       "from": "event/salon-divisionnistes-italiens-paris-1907",
       "type": "exhibited",
       "to": "work/studio-di-mare-la-scogliera-merello-1906",
+      "derived": true
+    },
+    {
+      "from": "person/emilio-gola",
+      "type": "created",
+      "to": "work/studio-gola-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/studio-gola-1891",
+      "derived": true
+    },
+    {
+      "from": "person/arturo-rietti",
+      "type": "created",
+      "to": "work/studio-rietti-1891-no288",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/studio-rietti-1891-no288",
       "derived": true
     },
     {
