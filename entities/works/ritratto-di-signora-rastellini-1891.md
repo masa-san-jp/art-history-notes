@@ -13,7 +13,7 @@ authority:
 time:
   start: "1891"
   end: "1891"
-  display: "1891年展出品"
+  display: "1891年（1891年展カタログ326番；索引568番）"
 space: []
 relations:
   - {type: created_by, target: person/gian-maria-rastellini}
