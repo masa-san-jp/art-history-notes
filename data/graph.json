@@ -9852,6 +9852,43 @@
       "updated": "2026-08-12",
       "path": "entities/persons/giovanni-segantini.md"
     },
+    "person/giuseppe-pellizza-da-volpedo": {
+      "id": "person/giuseppe-pellizza-da-volpedo",
+      "uri": "urn:ahn:person/giuseppe-pellizza-da-volpedo",
+      "type": "person",
+      "label_ja": "ジュゼッペ・ペリッツァ・ダ・ヴォルペード",
+      "label_en": "Giuseppe Pellizza da Volpedo",
+      "aliases": [
+        "person/giuseppe-pellizza"
+      ],
+      "authority": {
+        "wikidata": "Q1528580",
+        "ulan": "500028941",
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": "1868-07-28",
+        "end": "1907-06-14",
+        "display": "1868年7月28日ヴォルペード生まれ — 1907年6月14日同地没"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "belongs_to",
+          "target": "movement/italian-divisionism"
+        }
+      ],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q1528580",
+        "https://www.treccani.it/enciclopedia/pellizza-da-volpedo-giuseppe_%28Dizionario-Biografico%29/",
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/persons/giuseppe-pellizza-da-volpedo.md"
+    },
     "person/gyula-kosice": {
       "id": "person/gyula-kosice",
       "uri": "urn:ahn:person/gyula-kosice",
@@ -15971,6 +16008,13 @@
       "source": null
     },
     {
+      "from": "person/giuseppe-pellizza-da-volpedo",
+      "type": "belongs_to",
+      "to": "movement/italian-divisionism",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "person/henri-lehmann",
       "type": "active_in",
       "to": "place/paris"
@@ -17337,6 +17381,12 @@
       "from": "movement/italian-divisionism",
       "type": "has_member",
       "to": "person/giovanni-segantini",
+      "derived": true
+    },
+    {
+      "from": "movement/italian-divisionism",
+      "type": "has_member",
+      "to": "person/giuseppe-pellizza-da-volpedo",
       "derived": true
     },
     {
