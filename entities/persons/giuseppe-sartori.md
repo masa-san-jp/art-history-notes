@@ -1,11 +1,11 @@
 ---
-id: person/carlo-cressini
-uri: urn:ahn:person/carlo-cressini
+id: person/giuseppe-sartori
+uri: urn:ahn:person/giuseppe-sartori
 type: person
-label_ja: カルロ・クレッシーニ
-label_en: Carlo Cressini
+label_ja: ジュゼッペ・サルトーリ
+label_en: Giuseppe Sartori
 aliases:
-  - Cressini Carlo
+  - Sartori Giuseppe
 authority:
   wikidata: null
   ulan: null
@@ -15,7 +15,7 @@ authority:
 time:
   start: null
   end: null
-  display: "19世紀末にジェノヴァ出身者として活動"
+  display: "19世紀末にヴェネツィア出身者として活動"
 space: []
 relations:
   - {type: exhibited_at, target: event/first-brera-triennale-1891}
@@ -25,6 +25,6 @@ status: draft
 updated: 2026-08-12
 ---
 
-# カルロ・クレッシーニ / Carlo Cressini
+# ジュゼッペ・サルトーリ / Giuseppe Sartori
 
-1891年の第一回ブレラ三年展公式カタログに、ジェノヴァ出身者として掲載される画家。243番《Raggio di sole (Ritratto)》と256番《Ritratto》を出品した。本項は展覧会記録に限定する。
+1891年の第一回ブレラ三年展公式カタログに、ヴェネツィア出身者として掲載される画家。本項は展覧会記録に限定する。

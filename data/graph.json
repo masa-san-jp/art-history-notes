@@ -13566,6 +13566,41 @@
       "updated": "2026-08-12",
       "path": "entities/persons/giorgio-belloni.md"
     },
+    "person/giorgio-lucchesi": {
+      "id": "person/giorgio-lucchesi",
+      "uri": "urn:ahn:person/giorgio-lucchesi",
+      "type": "person",
+      "label_ja": "ジョルジョ・ルッケージ",
+      "label_en": "Giorgio Lucchesi",
+      "aliases": [
+        "Lucchesi Giorgio"
+      ],
+      "authority": {
+        "wikidata": null,
+        "ulan": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "独立した人物典拠IDと生没年は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": null,
+        "end": null,
+        "display": "19世紀末にルッカ出身者として活動"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/persons/giorgio-lucchesi.md"
+    },
     "person/giosue-argenti": {
       "id": "person/giosue-argenti",
       "uri": "urn:ahn:person/giosue-argenti",
@@ -14274,6 +14309,41 @@
       "status": "draft",
       "updated": "2026-08-12",
       "path": "entities/persons/giuseppe-quaranta.md"
+    },
+    "person/giuseppe-sartori": {
+      "id": "person/giuseppe-sartori",
+      "uri": "urn:ahn:person/giuseppe-sartori",
+      "type": "person",
+      "label_ja": "ジュゼッペ・サルトーリ",
+      "label_en": "Giuseppe Sartori",
+      "aliases": [
+        "Sartori Giuseppe"
+      ],
+      "authority": {
+        "wikidata": null,
+        "ulan": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "独立した人物典拠IDと生没年は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": null,
+        "end": null,
+        "display": "19世紀末にヴェネツィア出身者として活動"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/persons/giuseppe-sartori.md"
     },
     "person/giuseppe-ugolini": {
       "id": "person/giuseppe-ugolini",
@@ -15519,6 +15589,41 @@
       "status": "draft",
       "updated": "2026-08-12",
       "path": "entities/persons/luigi-serra.md"
+    },
+    "person/maria-cattaneo-michis": {
+      "id": "person/maria-cattaneo-michis",
+      "uri": "urn:ahn:person/maria-cattaneo-michis",
+      "type": "person",
+      "label_ja": "マリア・カッタネオ・ミキス",
+      "label_en": "Maria Cattaneo Michis",
+      "aliases": [
+        "Cattaneo Michis Maria"
+      ],
+      "authority": {
+        "wikidata": null,
+        "ulan": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "独立した人物典拠IDと生没年は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": null,
+        "end": null,
+        "display": "19世紀末にミラノ出身者として活動"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/persons/maria-cattaneo-michis.md"
     },
     "person/mario-salvini": {
       "id": "person/mario-salvini",
@@ -24196,6 +24301,78 @@
       "updated": "2026-08-12",
       "path": "entities/works/finalmente-dorme-ghidoni-1891.md"
     },
+    "work/fiori-cattaneo-1891": {
+      "id": "work/fiori-cattaneo-1891",
+      "uri": "urn:ahn:work/fiori-cattaneo-1891",
+      "type": "work",
+      "label_ja": "マリア・カッタネオ・ミキス《Fiori》",
+      "label_en": "Fiori",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "作品の独立典拠IDと現所在は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年（1891年展カタログ259番）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/maria-cattaneo-michis"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/works/fiori-cattaneo-1891.md"
+    },
+    "work/fiori-e-frutta-lucchesi-1891": {
+      "id": "work/fiori-e-frutta-lucchesi-1891",
+      "uri": "urn:ahn:work/fiori-e-frutta-lucchesi-1891",
+      "type": "work",
+      "label_ja": "ジョルジョ・ルッケージ《Fiori e frutta》",
+      "label_en": "Fiori e frutta",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "作品の独立典拠IDと現所在は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年（1891年展カタログ260番）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/giorgio-lucchesi"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/works/fiori-e-frutta-lucchesi-1891.md"
+    },
     "work/fleurs-previati-1907": {
       "id": "work/fleurs-previati-1907",
       "uri": "urn:ahn:work/fleurs-previati-1907",
@@ -24341,6 +24518,42 @@
       "status": "draft",
       "updated": "2026-08-12",
       "path": "entities/works/foglie-d-autunno-rossi-1891.md"
+    },
+    "work/fra-cadenabbia-e-tremezzo-sartori-1891": {
+      "id": "work/fra-cadenabbia-e-tremezzo-sartori-1891",
+      "uri": "urn:ahn:work/fra-cadenabbia-e-tremezzo-sartori-1891",
+      "type": "work",
+      "label_ja": "ジュゼッペ・サルトーリ《Fra Cadenabbia e Tremezzo》",
+      "label_en": "Fra Cadenabbia e Tremezzo",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "作品の独立典拠IDと現所在は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年（1891年展カタログ255番）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/giuseppe-sartori"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/works/fra-cadenabbia-e-tremezzo-sartori-1891.md"
     },
     "work/frammento-zocchi-1891": {
       "id": "work/frammento-zocchi-1891",
@@ -29491,6 +29704,42 @@
       "updated": "2026-08-12",
       "path": "entities/works/macchiette-d-amici-conconi-1891.md"
     },
+    "work/malinconia-belloni-1891": {
+      "id": "work/malinconia-belloni-1891",
+      "uri": "urn:ahn:work/malinconia-belloni-1891",
+      "type": "work",
+      "label_ja": "ジョルジョ・ベッローニ《Malinconia》",
+      "label_en": "Malinconia",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "作品の独立典拠IDと現所在は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年（1891年展カタログ253番）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/giorgio-belloni"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/works/malinconia-belloni-1891.md"
+    },
     "work/marco-aurelio-clementissimo-imperante-bottero-1891": {
       "id": "work/marco-aurelio-clementissimo-imperante-bottero-1891",
       "uri": "urn:ahn:work/marco-aurelio-clementissimo-imperante-bottero-1891",
@@ -32924,6 +33173,42 @@
       "updated": "2026-08-12",
       "path": "entities/works/pro-patria-flaibani-1891.md"
     },
+    "work/profumi-fiori-cattaneo-1891": {
+      "id": "work/profumi-fiori-cattaneo-1891",
+      "uri": "urn:ahn:work/profumi-fiori-cattaneo-1891",
+      "type": "work",
+      "label_ja": "マリア・カッタネオ・ミキス《Profumi (Fiori)》",
+      "label_en": "Profumi (Fiori)",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "作品の独立典拠IDと現所在は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年（1891年展カタログ258番）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/maria-cattaneo-michis"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/works/profumi-fiori-cattaneo-1891.md"
+    },
     "work/progresso-ed-ignoranza-carcano-1891": {
       "id": "work/progresso-ed-ignoranza-carcano-1891",
       "uri": "urn:ahn:work/progresso-ed-ignoranza-carcano-1891",
@@ -33965,6 +34250,42 @@
       "status": "draft",
       "updated": "2026-08-12",
       "path": "entities/works/ritratto-crespi-1891.md"
+    },
+    "work/ritratto-cressini-1891-no256": {
+      "id": "work/ritratto-cressini-1891-no256",
+      "uri": "urn:ahn:work/ritratto-cressini-1891-no256",
+      "type": "work",
+      "label_ja": "カルロ・クレッシーニ《Ritratto》",
+      "label_en": "Ritratto",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "作品の独立典拠IDと現所在は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年（1891年展カタログ256番）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/carlo-cressini"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/works/ritratto-cressini-1891-no256.md"
     },
     "work/ritratto-del-bo-1891": {
       "id": "work/ritratto-del-bo-1891",
@@ -40281,6 +40602,13 @@
       "source": null
     },
     {
+      "from": "person/giorgio-lucchesi",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "person/giosue-argenti",
       "type": "exhibited_at",
       "to": "event/first-brera-triennale-1891",
@@ -40460,6 +40788,13 @@
     },
     {
       "from": "person/giuseppe-quaranta",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "person/giuseppe-sartori",
       "type": "exhibited_at",
       "to": "event/first-brera-triennale-1891",
       "certainty": null,
@@ -40705,6 +41040,13 @@
     },
     {
       "from": "person/luigi-serra",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "person/maria-cattaneo-michis",
       "type": "exhibited_at",
       "to": "event/first-brera-triennale-1891",
       "certainty": null,
@@ -42611,6 +42953,34 @@
       "source": null
     },
     {
+      "from": "work/fiori-cattaneo-1891",
+      "type": "created_by",
+      "to": "person/maria-cattaneo-michis",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/fiori-cattaneo-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/fiori-e-frutta-lucchesi-1891",
+      "type": "created_by",
+      "to": "person/giorgio-lucchesi",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/fiori-e-frutta-lucchesi-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "work/fleurs-previati-1907",
       "type": "created_by",
       "to": "person/gaetano-previati",
@@ -42661,6 +43031,20 @@
     },
     {
       "from": "work/foglie-d-autunno-rossi-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/fra-cadenabbia-e-tremezzo-sartori-1891",
+      "type": "created_by",
+      "to": "person/giuseppe-sartori",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/fra-cadenabbia-e-tremezzo-sartori-1891",
       "type": "exhibited_at",
       "to": "event/first-brera-triennale-1891",
       "certainty": null,
@@ -44648,6 +45032,20 @@
       "source": null
     },
     {
+      "from": "work/malinconia-belloni-1891",
+      "type": "created_by",
+      "to": "person/giorgio-belloni",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/malinconia-belloni-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "work/marco-aurelio-clementissimo-imperante-bottero-1891",
       "type": "created_by",
       "to": "person/giuseppe-bottero",
@@ -45957,6 +46355,20 @@
       "source": null
     },
     {
+      "from": "work/profumi-fiori-cattaneo-1891",
+      "type": "created_by",
+      "to": "person/maria-cattaneo-michis",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/profumi-fiori-cattaneo-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "work/progresso-ed-ignoranza-carcano-1891",
       "type": "created_by",
       "to": "person/filippo-carcano",
@@ -46350,6 +46762,20 @@
     },
     {
       "from": "work/ritratto-crespi-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/ritratto-cressini-1891-no256",
+      "type": "created_by",
+      "to": "person/carlo-cressini",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/ritratto-cressini-1891-no256",
       "type": "exhibited_at",
       "to": "event/first-brera-triennale-1891",
       "certainty": null,
@@ -49516,6 +49942,12 @@
     {
       "from": "event/first-brera-triennale-1891",
       "type": "exhibited",
+      "to": "person/giorgio-lucchesi",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
       "to": "person/giosue-argenti",
       "derived": true
     },
@@ -49661,6 +50093,12 @@
       "from": "event/first-brera-triennale-1891",
       "type": "exhibited",
       "to": "person/giuseppe-quaranta",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "person/giuseppe-sartori",
       "derived": true
     },
     {
@@ -49841,6 +50279,12 @@
       "from": "event/first-brera-triennale-1891",
       "type": "exhibited",
       "to": "person/luigi-serra",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "person/maria-cattaneo-michis",
       "derived": true
     },
     {
@@ -51434,6 +51878,30 @@
       "derived": true
     },
     {
+      "from": "person/maria-cattaneo-michis",
+      "type": "created",
+      "to": "work/fiori-cattaneo-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/fiori-cattaneo-1891",
+      "derived": true
+    },
+    {
+      "from": "person/giorgio-lucchesi",
+      "type": "created",
+      "to": "work/fiori-e-frutta-lucchesi-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/fiori-e-frutta-lucchesi-1891",
+      "derived": true
+    },
+    {
       "from": "person/gaetano-previati",
       "type": "created",
       "to": "work/fleurs-previati-1907",
@@ -51479,6 +51947,18 @@
       "from": "event/first-brera-triennale-1891",
       "type": "exhibited",
       "to": "work/foglie-d-autunno-rossi-1891",
+      "derived": true
+    },
+    {
+      "from": "person/giuseppe-sartori",
+      "type": "created",
+      "to": "work/fra-cadenabbia-e-tremezzo-sartori-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/fra-cadenabbia-e-tremezzo-sartori-1891",
       "derived": true
     },
     {
@@ -53180,6 +53660,18 @@
       "derived": true
     },
     {
+      "from": "person/giorgio-belloni",
+      "type": "created",
+      "to": "work/malinconia-belloni-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/malinconia-belloni-1891",
+      "derived": true
+    },
+    {
       "from": "person/giuseppe-bottero",
       "type": "created",
       "to": "work/marco-aurelio-clementissimo-imperante-bottero-1891",
@@ -54302,6 +54794,18 @@
       "derived": true
     },
     {
+      "from": "person/maria-cattaneo-michis",
+      "type": "created",
+      "to": "work/profumi-fiori-cattaneo-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/profumi-fiori-cattaneo-1891",
+      "derived": true
+    },
+    {
       "from": "person/filippo-carcano",
       "type": "created",
       "to": "work/progresso-ed-ignoranza-carcano-1891",
@@ -54641,6 +55145,18 @@
       "from": "event/first-brera-triennale-1891",
       "type": "exhibited",
       "to": "work/ritratto-crespi-1891",
+      "derived": true
+    },
+    {
+      "from": "person/carlo-cressini",
+      "type": "created",
+      "to": "work/ritratto-cressini-1891-no256",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/ritratto-cressini-1891-no256",
       "derived": true
     },
     {
