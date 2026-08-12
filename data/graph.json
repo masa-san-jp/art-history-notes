@@ -11190,6 +11190,41 @@
       "updated": "2026-08-09",
       "path": "entities/persons/lee-ufan.md"
     },
+    "person/libero-andreotti": {
+      "id": "person/libero-andreotti",
+      "uri": "urn:ahn:person/libero-andreotti",
+      "type": "person",
+      "label_ja": "リベロ・アンドレオッティ",
+      "label_en": "Libero Andreotti",
+      "authority": {
+        "wikidata": "Q1347871",
+        "ulan": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": "1875",
+        "end": "1933",
+        "display": "1875年ペーシャ生まれ — 1933年フィレンツェ没"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "exhibited_at",
+          "target": "event/salon-divisionnistes-italiens-paris-1907"
+        }
+      ],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q1347871",
+        "https://www.museoliberoandreotti.it/",
+        "https://www.sistemamusealepistoiese.it/en/museums/libero-andreotti-museum",
+        "https://www.bdl.servizirl.it/bdl/public/rest/srv/item/2295/pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/persons/libero-andreotti.md"
+    },
     "person/liubov-popova": {
       "id": "person/liubov-popova",
       "uri": "urn:ahn:person/liubov-popova",
@@ -11804,6 +11839,41 @@
       "status": "stub",
       "updated": "2026-08-10",
       "path": "entities/persons/ramses-younan.md"
+    },
+    "person/rembrandt-bugatti": {
+      "id": "person/rembrandt-bugatti",
+      "uri": "urn:ahn:person/rembrandt-bugatti",
+      "type": "person",
+      "label_ja": "レンブラント・ブガッティ",
+      "label_en": "Rembrandt Bugatti",
+      "authority": {
+        "wikidata": "Q1300641",
+        "ulan": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": "1884-10-16",
+        "end": "1916-01-08",
+        "display": "1884年10月16日ミラノ生まれ — 1916年1月8日パリ没"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "exhibited_at",
+          "target": "event/salon-divisionnistes-italiens-paris-1907"
+        }
+      ],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q1300641",
+        "https://www.treccani.it/enciclopedia/rembrandt-bugatti_%28Dizionario-Biografico%29/",
+        "https://www.smb.museum/en/exhibitions/detail/rembrandt-bugatti/",
+        "https://www.bdl.servizirl.it/bdl/public/rest/srv/item/2295/pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/persons/rembrandt-bugatti.md"
     },
     "person/ries-mulder": {
       "id": "person/ries-mulder",
@@ -26454,6 +26524,13 @@
       "source": "https://mmcaresearch.kr/terms/view.do?fid=2211"
     },
     {
+      "from": "person/libero-andreotti",
+      "type": "exhibited_at",
+      "to": "event/salon-divisionnistes-italiens-paris-1907",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "person/liubov-popova",
       "type": "belongs_to",
       "to": "movement/constructivism",
@@ -26528,6 +26605,13 @@
       "from": "person/plinio-nomellini",
       "type": "belongs_to",
       "to": "movement/italian-divisionism",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "person/rembrandt-bugatti",
+      "type": "exhibited_at",
+      "to": "event/salon-divisionnistes-italiens-paris-1907",
       "certainty": null,
       "source": null
     },
@@ -31462,6 +31546,12 @@
       "derived": true
     },
     {
+      "from": "event/salon-divisionnistes-italiens-paris-1907",
+      "type": "exhibited",
+      "to": "person/libero-andreotti",
+      "derived": true
+    },
+    {
       "from": "movement/constructivism",
       "type": "has_member",
       "to": "person/liubov-popova",
@@ -31513,6 +31603,12 @@
       "from": "movement/italian-divisionism",
       "type": "has_member",
       "to": "person/plinio-nomellini",
+      "derived": true
+    },
+    {
+      "from": "event/salon-divisionnistes-italiens-paris-1907",
+      "type": "exhibited",
+      "to": "person/rembrandt-bugatti",
       "derived": true
     },
     {
