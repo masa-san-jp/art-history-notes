@@ -27,12 +27,14 @@ claims:
   - {field: kind, source: "https://www.vam.ac.uk/articles/arts-and-crafts-an-introduction", certainty: scholarly}
 space:
   - {role: originated_in, target: place/london}
-relations: []
+relations:
+  - {type: diffused_to, target: place/vienna, certainty: scholarly, source: "https://www.mak.at/en/program/exhibitions/vienna_1900"}
 sources:
   - https://www.wikidata.org/wiki/Q330369
   - https://www.vam.ac.uk/articles/arts-and-crafts-an-introduction
   - https://www.vam.ac.uk/articles/arts-and-crafts-beyond-the-uk
   - https://www.metmuseum.org/it/essays/design-reform
+  - https://www.mak.at/en/program/exhibitions/vienna_1900
 status: draft
 updated: 2026-08-13
 ---
@@ -58,7 +60,8 @@ V&Aによれば、運動は1887年にロンドンで設立されたArts and Craf
 始点は、英国でこの運動が形成された1880年代を代表して1880年とする。終点は、英国で中心的な勢いが
 衰え始めた1910年代を代表して1910年とする。これは手仕事の理念やデザインが1910年以後に消えたことを
 意味しない。V&Aが示すように、運動の考えは欧州・米国へ伝わり、1920年代半ばには日本の民藝運動の形成も
-助けた。
+助けた。MAKは、ウィーン工房が英国のアーツ・アンド・クラフツ運動をモデルに1903年に設立されたと説明しており、
+ウィーンをこの理念が具体的な工芸協同組合へ受容された都市として `diffused_to` に記録する。
 
 ロンドンは運動全体の唯一の発生地ではないが、1887年の展示協会設立と1888年の最初の年次展が行われた
 代表的な形成地として `originated_in` に置く。英国各地の都市・農村工房は、個別の団体と活動地を調査してから
@@ -68,6 +71,6 @@ V&Aによれば、運動は1887年にロンドンで設立されたArts and Craf
 
 - ウィリアム・モリス、ジョン・ラスキン、A. W. N. ピュージンらの人物化と、思想・作品を介した関係の分解
 - Arts and Crafts Exhibition Society、Arts Workers Guild、Morris & Co. などの組織化
-- アール・ヌーヴォー、ウィーン工房などへの具体的な伝播経路
+- アール・ヌーヴォーへの具体的な伝播経路
 - 英国各地、欧州、米国、日本での地域別展開。特に民藝運動への形成的接続は民藝側に記録済みだが、人物・
   出版物・工芸作品を介した経路の分解は未着手
