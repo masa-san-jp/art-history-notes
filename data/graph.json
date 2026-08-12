@@ -10222,6 +10222,40 @@
       "updated": "2026-08-12",
       "path": "entities/persons/enrico-butti.md"
     },
+    "person/enrico-cassi": {
+      "id": "person/enrico-cassi",
+      "uri": "urn:ahn:person/enrico-cassi",
+      "type": "person",
+      "label_ja": "エンリコ・カッシ",
+      "label_en": "Enrico Cassi",
+      "authority": {
+        "wikidata": null,
+        "ulan": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "独立した人物典拠IDは未確認。オルセー美術館の人物資料、イタリア文化財カタログ、1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": "1863",
+        "end": "1913",
+        "display": "1863年クアッソ・アル・モンテ生まれ — 1913年ミラノ没"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://www.musee-orsay.fr/en/ressources/artists-personalities-catalog/enrico-cassi-7218",
+        "https://www.catalogo.beniculturali.it/Agent/57c1d9bc61e7df2ef0dedf97e3bcb8ea",
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/persons/enrico-cassi.md"
+    },
     "person/ernest-fenollosa": {
       "id": "person/ernest-fenollosa",
       "uri": "urn:ahn:person/ernest-fenollosa",
@@ -17159,6 +17193,44 @@
       "status": "draft",
       "updated": "2026-08-12",
       "path": "entities/works/elephant-magrini-1907.md"
+    },
+    "work/emigrata-cassi-1891": {
+      "id": "work/emigrata-cassi-1891",
+      "uri": "urn:ahn:work/emigrata-cassi-1891",
+      "type": "work",
+      "label_ja": "エンリコ・カッシ《Emigrata》",
+      "label_en": "Emigrata",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "作品の独立典拠IDと現所在は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年展出品"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/enrico-cassi"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://www.musee-orsay.fr/en/ressources/artists-personalities-catalog/enrico-cassi-7218",
+        "https://www.catalogo.beniculturali.it/Agent/57c1d9bc61e7df2ef0dedf97e3bcb8ea",
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/works/emigrata-cassi-1891.md"
     },
     "work/enfant-dans-les-pres-previati-1907": {
       "id": "work/enfant-dans-les-pres-previati-1907",
@@ -26793,6 +26865,13 @@
       "source": null
     },
     {
+      "from": "person/enrico-cassi",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "person/eugenio-bellosio",
       "type": "exhibited_at",
       "to": "event/salon-divisionnistes-italiens-paris-1907",
@@ -28007,6 +28086,20 @@
       "from": "work/elephant-magrini-1907",
       "type": "exhibited_at",
       "to": "event/salon-divisionnistes-italiens-paris-1907",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/emigrata-cassi-1891",
+      "type": "created_by",
+      "to": "person/enrico-cassi",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/emigrata-cassi-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
       "certainty": null,
       "source": null
     },
@@ -32110,6 +32203,12 @@
       "derived": true
     },
     {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "person/enrico-cassi",
+      "derived": true
+    },
+    {
       "from": "event/salon-divisionnistes-italiens-paris-1907",
       "type": "exhibited",
       "to": "person/eugenio-bellosio",
@@ -33061,6 +33160,18 @@
       "from": "event/salon-divisionnistes-italiens-paris-1907",
       "type": "exhibited",
       "to": "work/elephant-magrini-1907",
+      "derived": true
+    },
+    {
+      "from": "person/enrico-cassi",
+      "type": "created",
+      "to": "work/emigrata-cassi-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/emigrata-cassi-1891",
       "derived": true
     },
     {
