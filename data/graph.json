@@ -4016,6 +4016,24 @@
           "target": "movement/utagawa-school",
           "certainty": "scholarly",
           "source": "https://en.wikipedia.org/wiki/Fondation_Monet_in_Giverny"
+        },
+        {
+          "type": "diffused_to",
+          "target": "place/london",
+          "certainty": "scholarly",
+          "source": "https://www.nationalgallery.org.uk/about-us/press-and-media/press-releases-archive/inventing-impressionism"
+        },
+        {
+          "type": "diffused_to",
+          "target": "place/brussels",
+          "certainty": "scholarly",
+          "source": "https://www.nationalgallery.org.uk/about-us/press-and-media/press-releases-archive/inventing-impressionism"
+        },
+        {
+          "type": "diffused_to",
+          "target": "place/new-york-city",
+          "certainty": "scholarly",
+          "source": "https://www.nationalgallery.org.uk/about-us/press-and-media/press-releases-archive/inventing-impressionism"
         }
       ],
       "images": [
@@ -14433,6 +14451,27 @@
     },
     {
       "from": "movement/impressionism",
+      "type": "diffused_to",
+      "to": "place/london",
+      "certainty": "scholarly",
+      "source": "https://www.nationalgallery.org.uk/about-us/press-and-media/press-releases-archive/inventing-impressionism"
+    },
+    {
+      "from": "movement/impressionism",
+      "type": "diffused_to",
+      "to": "place/brussels",
+      "certainty": "scholarly",
+      "source": "https://www.nationalgallery.org.uk/about-us/press-and-media/press-releases-archive/inventing-impressionism"
+    },
+    {
+      "from": "movement/impressionism",
+      "type": "diffused_to",
+      "to": "place/new-york-city",
+      "certainty": "scholarly",
+      "source": "https://www.nationalgallery.org.uk/about-us/press-and-media/press-releases-archive/inventing-impressionism"
+    },
+    {
+      "from": "movement/impressionism",
       "type": "originated_in",
       "to": "place/paris"
     },
@@ -16177,6 +16216,24 @@
     {
       "from": "movement/utagawa-school",
       "type": "influenced",
+      "to": "movement/impressionism",
+      "derived": true
+    },
+    {
+      "from": "place/london",
+      "type": "received",
+      "to": "movement/impressionism",
+      "derived": true
+    },
+    {
+      "from": "place/brussels",
+      "type": "received",
+      "to": "movement/impressionism",
+      "derived": true
+    },
+    {
+      "from": "place/new-york-city",
+      "type": "received",
       "to": "movement/impressionism",
       "derived": true
     },

@@ -34,6 +34,9 @@ relations:
   - {type: exhibited_at, target: event/eighth-impressionist-exhibition-1886}
   - {type: influenced_by, target: movement/barbizon-school, certainty: scholarly, source: "https://www.getty.edu/education/for_teachers/curricula/impressionism/background1.html"}
   - {type: influenced_by, target: movement/utagawa-school, certainty: scholarly, source: "https://en.wikipedia.org/wiki/Fondation_Monet_in_Giverny"}
+  - {type: diffused_to, target: place/london, certainty: scholarly, source: "https://www.nationalgallery.org.uk/about-us/press-and-media/press-releases-archive/inventing-impressionism"}
+  - {type: diffused_to, target: place/brussels, certainty: scholarly, source: "https://www.nationalgallery.org.uk/about-us/press-and-media/press-releases-archive/inventing-impressionism"}
+  - {type: diffused_to, target: place/new-york-city, certainty: scholarly, source: "https://www.nationalgallery.org.uk/about-us/press-and-media/press-releases-archive/inventing-impressionism"}
 images:
   - url: https://openaccess-cdn.clevelandart.org/1950.89/1950.89_web.jpg
     source_page: https://www.clevelandart.org/art/1950.89
@@ -171,9 +174,10 @@ start/end に置く）に従い、括りが公に成立した最初の合同展�
 発生地はパリとした。「画家・彫刻家・版画家等の匿名協会」の設立地（[Wikidata Q3487659](https://www.wikidata.org/wiki/Q3487659)、
 所在地パリ）、第1回展の会場ブールヴァール・デ・カプシーヌ（パリ）のいずれもパリである。
 
-**未着手**: 国外への伝播（後年の国際的な受容・拡散）は着手していない。新印象派側で確認した
-ブリュッセルへの伝播（`movement/neo-impressionism` の `diffused_to`）とは別に、印象派自体の
-伝播経路は未調査。
+ナショナル・ギャラリー（ロンドン）の展覧会記録は、印象派を支援した画商ポール・デュラン＝リュエルが
+パリの事業をロンドン、ブリュッセル、ニューヨークへ拡張し、各地で展覧会を開催したと記録する。
+これは個別の画家の移住ではなく、印象派の作品と市場を国外へ運んだ受容経路であるため、3都市への
+`diffused_to` として記録した。新印象派のスーラを中心とするブリュッセル伝播とは、担い手と経路が異なる。
 
 ## 日本の版画との接続 — 壁に掛かっていた48枚
 
@@ -217,7 +221,7 @@ start/end に置く）に従い、括りが公に成立した最初の合同展�
 - 第1回展〜第8回展それぞれの会場・出品者・日程の全体像（今回は第1回と第8回のみ確認）
 - モネ・ピサロ・ドガ・モリゾ・ルノワール・セザンヌ・シスレーの person エンティティ化——
   現状はどの作成基準にも単独で当たらないため本文の名前止まりとした
-- 印象派自体の国外への伝播経路
+- デュラン＝リュエルの各支店で、どの画家・作品がいつ展示されたかの個別展覧会史
 - ドガ・ピサロ・ルノワール・モリゾそれぞれの日本の版画との接触。歌川派への `influenced_by` を
   括りに張ることの妥当性は、7人のうち何人に経路があるかで変わる
 - フォンダシオン・クロード・モネ（所蔵者本人）による版画コレクションの点数・目録。当方からの
