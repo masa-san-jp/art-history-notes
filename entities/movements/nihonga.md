@@ -30,6 +30,7 @@ space:
   - {role: active_in, target: place/kyoto}
 relations:
   - {type: influenced_by, target: movement/yamato-e, certainty: scholarly, source: "https://www.yamatane-museum.jp/en/nihonga/"}
+  - {type: influenced_by, target: movement/maruyama-shijo-school, certainty: scholarly, source: "https://www.yamatane-museum.jp/en/nihonga/"}
 images:
   - url: https://upload.wikimedia.org/wikipedia/commons/4/48/Hishida_Shuns%C5%8D_-_Fallen_Leaves_%28Eisei_Bunko_Museum%29_2.jpg
     source_page: https://commons.wikimedia.org/wiki/File:Hishida_Shuns%C5%8D_-_Fallen_Leaves_(Eisei_Bunko_Museum)_2.jpg
@@ -67,7 +68,10 @@ updated: 2026-08-10
 西洋画の影響が加わって今日の日本画が成立・発展したと説明している
 （[山種美術館「About Nihonga」](https://www.yamatane-museum.jp/en/nihonga/)）。この整理は、近代の
 日本画を大和絵そのものと同一視するものではなく、複数の日本の絵画伝統のうち大和絵系統が日本画の
-形成に接続したことを示す。そのため、日本画から[大和絵](yamato-e.md)へ `influenced_by` を張る。
+形成に接続したことを示す。また、同資料は明治期の美術団体・展覧会を通じて旧来の流派が融合・混合し、
+西洋画の影響と合わせて今日の日本画が成立したと説明する。そのため、日本画から[大和絵](yamato-e.md)
+と[円山四条派](maruyama-shijo-school.md)へ `influenced_by` を張る。これは円山四条派が日本画全体を
+単独で形成したという意味ではなく、複数の旧来流派の一つとして接続したことを示す。
 
 Getty AAT の scope note は範囲をかなり狭く取る——"Refers to the work of a school of painters whose
 careers spanned the Edo period (1600-1868) to the early part of the Meiji period (1868-1912)."
