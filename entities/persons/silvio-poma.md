@@ -25,4 +25,4 @@ updated: 2026-08-13
 
 # シルヴィオ・ポマ / Silvio Poma
 
-1891年の第一回ブレラ三年展公式カタログに、ミラノ出身者として掲載される画家。520番《Lago di Lecco》と532番《La questua. - Cortile a Cargiago》を出品した。本項は展覧会記録に限定する。
+1891年の第一回ブレラ三年展公式カタログに、ミラノ出身者として掲載される画家。520番《Lago di Lecco》、532番《La questua. - Cortile a Cargiago》、538番《Nel bosco》を出品した。本項は展覧会記録に限定する。

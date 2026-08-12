@@ -1,9 +1,9 @@
 ---
-id: person/cesare-spagliardi
-uri: urn:ahn:person/cesare-spagliardi
+id: person/giuseppe-pennasilico
+uri: urn:ahn:person/giuseppe-pennasilico
 type: person
-label_ja: チェーザレ・スパリアルディ
-label_en: Cesare Spagliardi
+label_ja: ジュゼッペ・ペンナシリコ
+label_en: Giuseppe Pennasilico
 authority:
   wikidata: null
   ulan: null
@@ -13,7 +13,7 @@ authority:
 time:
   start: null
   end: null
-  display: "19世紀末にミラノで活動"
+  display: "19世紀末にナポリ出身者として活動"
 space: []
 relations:
   - {type: exhibited_at, target: event/first-brera-triennale-1891}
@@ -23,6 +23,6 @@ status: draft
 updated: 2026-08-13
 ---
 
-# チェーザレ・スパリアルディ / Cesare Spagliardi
+# ジュゼッペ・ペンナシリコ / Giuseppe Pennasilico
 
-1891年の第一回ブレラ三年展公式カタログに、ミラノ出身者として掲載される画家。522番《Ritratto》と537番《Ritratto》を出品した。本項は展覧会記録に限定する。
+1891年の第一回ブレラ三年展公式カタログに、ナポリ出身者として掲載される画家。539番《Un portico di fioraia a Genova》を出品した。本項は展覧会記録に限定する。
