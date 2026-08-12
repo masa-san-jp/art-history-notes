@@ -33,7 +33,11 @@ claims:
   - {field: originated_in, source: "https://www.wikidata.org/wiki/Q18005", certainty: scholarly}
 space:
   - {role: originated_in, target: place/papunya}
-relations: []
+relations:
+  - {type: diffused_to, target: place/new-york-city, certainty: scholarly, source: "https://www.nma.gov.au/defining-moments/resources/papunya-tula"}
+  - {type: diffused_to, target: place/london, certainty: scholarly, source: "https://www.nma.gov.au/defining-moments/resources/papunya-tula"}
+  - {type: diffused_to, target: place/paris, certainty: scholarly, source: "https://www.nma.gov.au/defining-moments/resources/papunya-tula"}
+  - {type: diffused_to, target: place/venice, certainty: scholarly, source: "https://www.nma.gov.au/defining-moments/resources/papunya-tula"}
 sources:
   - https://www.wikidata.org/wiki/Q18005
   - https://en.wikipedia.org/wiki/Papunya_Tula
@@ -42,8 +46,9 @@ sources:
   - https://papunyatula.com.au/pages/history
   - https://oneoftwelve.com/papunya-tula-artists-the-genesis-of-australian-aboriginal-art/
   - https://japingkaaboriginalart.com/articles/geoffrey-bardon-influence/
+  - https://www.nma.gov.au/defining-moments/resources/papunya-tula
 status: draft
-updated: 2026-08-09
+updated: 2026-08-12
 ---
 
 # パプニャ・トゥラ / Papunya Tula
@@ -210,6 +215,16 @@ Wikidata Q18005の`P571`（inception）は+1972-00-00（precision 9・年のみ�
 名称選定・法人化のいずれもパプニャの学校・コミュニティを起点とする（Wikipedia "Papunya Tula"
 記事）。会社は現在アリススプリングスを拠点とするが、これは後年（活動範囲がキントレ・キウィルクラ
 まで西方700kmに拡大した後）の移転であり、発生地としては数えていない。
+
+## 国外への波及
+
+国立オーストラリア博物館は、パプニャ・トゥラが1980年代後半までに国際的な評価を得て、ニューヨーク、
+ロンドン、オークランド、パリ、ヴェネツィアで展覧会が開かれたと記録している
+（[National Museum of Australia](https://www.nma.gov.au/defining-moments/resources/papunya-tula)）。
+これは画家たちが各都市へ恒久的に移転したことを意味せず、作品と運動への認知が展覧会を経由して各地へ
+届いたという受容経路である。そのため、既存の場所ノードがあるニューヨーク、ロンドン、パリ、ヴェネツィア
+に `diffused_to` を張った。資料に挙がるオークランドは、対応する場所エンティティがまだないため、今回の
+グラフには追加していない。
 
 ## 未着手
 
