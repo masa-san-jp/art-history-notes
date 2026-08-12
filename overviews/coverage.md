@@ -14,7 +14,7 @@ depends_on: []
 <!-- generated:coverage:start -->
 データの最新日: 2026-08-12 — `python3 tools/build_graph.py` が生成（手で書き換えない）
 
-movement **101** 件（stub 0件は不算入）／内訳 {'draft': 99, 'stub': 0, 'verified': 2}
+movement **102** 件（stub 0件は不算入）／内訳 {'draft': 100, 'stub': 0, 'verified': 2}
 
 | 文化圏 | 10BCE | 4C | 9C | 10C | 11C | 12C | 13C | 14C | 15C | 16C | 17C | 18C | 19C | 20C | 年代不明 | 計 |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
@@ -28,7 +28,7 @@ movement **101** 件（stub 0件は不算入）／内訳 {'draft': 99, 'stub': 0
 | asia-southeast（東南アジア） ※非西洋 |  |  |  |  |  |  |  |  |  |  |  | 1 |  | 4 |  | 5 |
 | asia-east-china（中国圏） ※非西洋 |  |  |  | 1 |  |  |  |  | 2 | 1 |  | 1 | 1 | 1 |  | 7 |
 | asia-east-korea（朝鮮半島） ※非西洋 |  |  |  |  |  |  | 1 |  | 1 |  | 1 | 1 |  | 1 |  | 5 |
-| asia-east-japan（日本） ※非西洋 |  |  | 1 |  |  |  |  |  | 2 |  | 1 | 3 | 1 | 3 |  | 11 |
+| asia-east-japan（日本） ※非西洋 |  |  | 1 |  |  |  |  |  | 2 |  | 1 | 3 | 1 | 4 |  | 12 |
 | americas-latin（中南米・カリブ） ※非西洋 |  |  |  |  |  |  |  |  |  | 2 |  |  |  | 5 |  | 7 |
 | oceania（オセアニア・太平洋） ※非西洋 |  |  |  |  |  |  |  |  |  |  |  |  | 1 | 1 | 3 | 5 |
 | **発生地未確認** |  |  |  |  | 1 |  |  |  |  |  |  |  |  |  |  | 1 |
@@ -41,10 +41,10 @@ movement **101** 件（stub 0件は不算入）／内訳 {'draft': 99, 'stub': 0
 
 受け入れ条件の達成度:
 
-- movement_total: 101/100（stub 0件は不算入）
-- non_west_ratio: 0.64/0.5
+- movement_total: 102/100（stub 0件は不算入）
+- non_west_ratio: 0.65/0.5
 - per_bucket_min: 13/13 バケットが 3件以上
-- pre_1800_ratio: 0.48/0.3
+- pre_1800_ratio: 0.47/0.3
 - isolated_ratio: 0.00（上限 0.1）
 <!-- generated:coverage:end -->
 
@@ -63,9 +63,9 @@ movement **101** 件（stub 0件は不算入）／内訳 {'draft': 99, 'stub': 0
 
 <!-- generated:audit:start -->
 **文化圏を跨ぐ関係が無い**
-- 他の文化圏の movement と1本も繋がっていない movement が 26/100 件。時間だけでなく空間の広がりを体系化するので、影響・伝播・反発を調べる余地
-- europe-west: 6件（ダダ、フォーヴィスム、新印象派、新古典主義 ほか）
+- 他の文化圏の movement と1本も繋がっていない movement が 25/101 件。時間だけでなく空間の広がりを体系化するので、影響・伝播・反発を調べる余地
 - oceania: 5件（アスマットの彫刻、イアトムルの彫刻、コーワイワイ、ンガーティ・タラーワイの彫刻 ほか）
+- europe-west: 5件（フォーヴィスム、新印象派、新古典主義、ロココ ほか）
 - africa-sub: 4件（ベニン王国宮廷美術、イフェ美術、ノク彫刻、ポト＝ポト絵画学校）
 - asia-south: 3件（バソーリ派、カーングラ派、メーワール派）
 - asia-east-japan: 3件（円山四条派、土佐派、大和絵）
