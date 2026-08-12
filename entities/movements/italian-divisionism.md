@@ -77,13 +77,23 @@ updated: 2026-08-12
 
 公開されている『Prima esposizione triennale 1891: catalogo ufficiale illustrato』は、題紙に
 R. Accademia di Belle Arti di Breraを掲げ、ミラノのProprietà artistica Arturo Demarchiから刊行された
-公式カタログである。索引と本文の対応から、少なくとも次の出品番号・作品名を一次資料で確認できる。
+公式カタログである。索引と本文の対応から、現時点で次の13作家29件を作品エンティティとして個別化している。
 
-- セガンティーニ：209《Le due Madri》、241
+- セガンティーニ：209《Le due Madri》、241《Vacca》
 - プレヴィアーティ：213《Maternità》
 - モルベッリ：517《Alba》、518《Un Consiglio del nonno – Parlatorio del luogo Pio Triulzio》
+- ペリッツァ：384《Ritratto di Giani Giuseppe mediatore》、440《Pensieri》、557《Ritratto di mia mamma》
+- フォルナラ：211《Ricordanze》、229《Piccola pastora》、230《Bottega di calderajo》
+- ロンゴーニ：101《L'oratore dello sciopero》、328《Paesaggio - Sole d'inverno》、329《La piscininna》
+- ノメリーニ：281《Piazza Caricamento a Genova》
+- グルビーチ：551《Campagna Lombarda (Inverno 1890)》、552《Bosco (Schilpario - 1891)》、553《Raccolto del fieno-crep.-(Valle di Scalve - 1889)》
+- トミネッティ：335《Ultimi raggi》、336《Tempo grigio》、404《In cerca di legna》
+- コンコーニ：46《Il trono della Bella Mantesca (Fiaba)》、327《Macchiette d’amici》
+- ジャン・マリア・ラステッリーニ：326《Ritratto di Signora》、568《Sognando》
+- ジョヴァン・バッティスタ・ラステッリーニ：573《Ritratto - Costume Albanese, di proprietà del Signor De Cristoforis Malachia》
+- ヴィッラーニ：228《Ritratto di signora》、414《Ritratto di Signora》、572《In Val d’Intelvi》
 
-したがって、1891年展については公式カタログの存在、刊行情報、上記3作家の掲載番号と一部作品名まで確認済みである。
+したがって、1891年展については公式カタログの存在、刊行情報、上記13作家の掲載番号と作品名を個別記録済みである。
 カタログ本文はSala Aの1番から始まり、Sala A〜Pなどの展示室と複数のPorticoを区分して掲載し、
 Portico D Dの「Parte 2.ª」で630番まで続く（同一作家の複数出品やbis番号を含むため、作品数とは同一視しない）。
 会場内の全出品作と出品者の対応、開催日程は引き続き未整理であり、展覧会を単一の組織や宣言の場とは扱わない。
