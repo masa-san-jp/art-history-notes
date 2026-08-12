@@ -22,7 +22,7 @@ sources:
   - https://www.lombardiabeniculturali.it/opere-arte/schede/3n010-00009/
   - https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf
 status: draft
-updated: 2026-08-12
+updated: 2026-08-13
 ---
 
 # アキッレ・アルベルティ / Achille Alberti
@@ -30,5 +30,5 @@ updated: 2026-08-12
 ミラノ生まれ、カムナーゴで没したイタリアの彫刻家。Treccaniは、ブレラで学び、後に同校で彫刻を教えたことを記録している。
 ロンバルディア文化財カタログは、《Ignavia》をアルベルティの作品として登録し、1891年のブレラ展で展示・受賞した経緯を説明する。
 
-1891年の第一回ブレラ三年展では、公式カタログの25番《L’Ignavia》を出品した。本項では、この展覧会での出品関係を記録するが、
+1891年の第一回ブレラ三年展では、公式カタログの25番《L’Ignavia》、622番《Il nuoto》を出品した。本項では、この展覧会での出品関係を記録するが、
 アルベルティをイタリア分割主義の構成員とは位置づけない。

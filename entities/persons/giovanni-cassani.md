@@ -1,11 +1,11 @@
 ---
-id: person/luigi-craveri
-uri: urn:ahn:person/luigi-craveri
+id: person/giovanni-cassani
+uri: urn:ahn:person/giovanni-cassani
 type: person
-label_ja: ルイジ・クラヴェーリ
-label_en: Luigi Craveri
+label_ja: ジョヴァンニ・カッサーニ
+label_en: Giovanni Cassani
 aliases:
-  - Craveri Luigi
+  - Cassani Giovanni
 authority:
   wikidata: null
   ulan: null
@@ -15,7 +15,7 @@ authority:
 time:
   start: null
   end: null
-  display: "19世紀末にパリで活動"
+  display: "19世紀末にヴィッジュ出身者として活動"
 space: []
 relations:
   - {type: exhibited_at, target: event/first-brera-triennale-1891}
@@ -25,6 +25,6 @@ status: draft
 updated: 2026-08-13
 ---
 
-# ルイジ・クラヴェーリ / Luigi Craveri
+# ジョヴァンニ・カッサーニ / Giovanni Cassani
 
-1891年の第一回ブレラ三年展公式カタログに、パリ出身者として掲載される出品者。606番《Valle di Polenzo sul Tanaro (Dintorni di Bra)》、614番《Riva sul Garda (Trentino)》を出品した。本項は展覧会記録に限定する。
+1891年の第一回ブレラ三年展公式カタログに、ヴィッジュ出身者として掲載される彫刻家。621番《Testa in marmo (Studio)》を出品した。本項は展覧会記録に限定する。

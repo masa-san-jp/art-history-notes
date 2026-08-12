@@ -9350,7 +9350,7 @@
         "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
       ],
       "status": "draft",
-      "updated": "2026-08-12",
+      "updated": "2026-08-13",
       "path": "entities/persons/achille-alberti.md"
     },
     "person/achille-beltrame": {
@@ -10969,6 +10969,41 @@
       "status": "draft",
       "updated": "2026-08-13",
       "path": "entities/persons/annetta-radowska-borgna.md"
+    },
+    "person/anselmo-galmuzzi": {
+      "id": "person/anselmo-galmuzzi",
+      "uri": "urn:ahn:person/anselmo-galmuzzi",
+      "type": "person",
+      "label_ja": "アンセルモ・ガルムッツィ",
+      "label_en": "Anselmo Galmuzzi",
+      "aliases": [
+        "Galmuzzi Anselmo"
+      ],
+      "authority": {
+        "wikidata": null,
+        "ulan": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "独立した人物典拠IDと生没年は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": null,
+        "end": null,
+        "display": "19世紀末にミラノで活動"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-13",
+      "path": "entities/persons/anselmo-galmuzzi.md"
     },
     "person/antonio-argenti": {
       "id": "person/antonio-argenti",
@@ -14054,7 +14089,7 @@
         "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
       ],
       "status": "draft",
-      "updated": "2026-08-12",
+      "updated": "2026-08-13",
       "path": "entities/persons/enrico-astorri.md"
     },
     "person/enrico-bartezago": {
@@ -14584,7 +14619,7 @@
         "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
       ],
       "status": "draft",
-      "updated": "2026-08-12",
+      "updated": "2026-08-13",
       "path": "entities/persons/ernesto-bazzaro.md"
     },
     "person/ernesto-bertea": {
@@ -15126,6 +15161,41 @@
       "status": "stub",
       "updated": "2026-08-10",
       "path": "entities/persons/eustache-de-lorey.md"
+    },
+    "person/ezio-ceccarelli": {
+      "id": "person/ezio-ceccarelli",
+      "uri": "urn:ahn:person/ezio-ceccarelli",
+      "type": "person",
+      "label_ja": "エツィオ・チェッカレッリ",
+      "label_en": "Ezio Ceccarelli",
+      "aliases": [
+        "Ceccarelli Ezio"
+      ],
+      "authority": {
+        "wikidata": null,
+        "ulan": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "独立した人物典拠IDと生没年は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": null,
+        "end": null,
+        "display": "19世紀末にモンテカティーニ（ヴァル・ディ・チェチナ）出身者として活動"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-13",
+      "path": "entities/persons/ezio-ceccarelli.md"
     },
     "person/fausto-zonaro": {
       "id": "person/fausto-zonaro",
@@ -16884,6 +16954,41 @@
       "updated": "2026-08-13",
       "path": "entities/persons/giovanni-broggi.md"
     },
+    "person/giovanni-cassani": {
+      "id": "person/giovanni-cassani",
+      "uri": "urn:ahn:person/giovanni-cassani",
+      "type": "person",
+      "label_ja": "ジョヴァンニ・カッサーニ",
+      "label_en": "Giovanni Cassani",
+      "aliases": [
+        "Cassani Giovanni"
+      ],
+      "authority": {
+        "wikidata": null,
+        "ulan": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "独立した人物典拠IDと生没年は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": null,
+        "end": null,
+        "display": "19世紀末にヴィッジュ出身者として活動"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-13",
+      "path": "entities/persons/giovanni-cassani.md"
+    },
     "person/giovanni-consonni": {
       "id": "person/giovanni-consonni",
       "uri": "urn:ahn:person/giovanni-consonni",
@@ -18517,6 +18622,41 @@
       "status": "draft",
       "updated": "2026-08-12",
       "path": "entities/persons/idalia-albertini.md"
+    },
+    "person/innocente-franceschini": {
+      "id": "person/innocente-franceschini",
+      "uri": "urn:ahn:person/innocente-franceschini",
+      "type": "person",
+      "label_ja": "イノチェンテ・フランチェスキーニ",
+      "label_en": "Innocente Franceschini",
+      "aliases": [
+        "Franceschini Innocente"
+      ],
+      "authority": {
+        "wikidata": null,
+        "ulan": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "独立した人物典拠IDと生没年は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": null,
+        "end": null,
+        "display": "19世紀末にヴィチェンツァで活動"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-13",
+      "path": "entities/persons/innocente-franceschini.md"
     },
     "person/isidoro-farina": {
       "id": "person/isidoro-farina",
@@ -23474,6 +23614,41 @@
       "status": "draft",
       "updated": "2026-08-12",
       "path": "entities/persons/vittorio-novi.md"
+    },
+    "person/vittorio-pusinelli": {
+      "id": "person/vittorio-pusinelli",
+      "uri": "urn:ahn:person/vittorio-pusinelli",
+      "type": "person",
+      "label_ja": "ヴィットリオ・プジネッリ",
+      "label_en": "Vittorio Pusinelli",
+      "aliases": [
+        "Pusinelli Vittorio"
+      ],
+      "authority": {
+        "wikidata": null,
+        "ulan": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "独立した人物典拠IDと生没年は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": null,
+        "end": null,
+        "display": "19世紀末にネッソ出身者として活動"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-13",
+      "path": "entities/persons/vittorio-pusinelli.md"
     },
     "person/vittorio-saccardo": {
       "id": "person/vittorio-saccardo",
@@ -29644,6 +29819,42 @@
       "updated": "2026-08-12",
       "path": "entities/works/cleopatre-previati-1907.md"
     },
+    "work/col-ladro-domestico-pusinelli-1891": {
+      "id": "work/col-ladro-domestico-pusinelli-1891",
+      "uri": "urn:ahn:work/col-ladro-domestico-pusinelli-1891",
+      "type": "work",
+      "label_ja": "ヴィットリオ・プジネッリ《Col ladro domestico》",
+      "label_en": "Col ladro domestico",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "作品の独立典拠IDと現所在は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年（1891年展カタログ620番）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/vittorio-pusinelli"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-13",
+      "path": "entities/works/col-ladro-domestico-pusinelli-1891.md"
+    },
     "work/colline-toscane-malaspina-1891": {
       "id": "work/colline-toscane-malaspina-1891",
       "uri": "urn:ahn:work/colline-toscane-malaspina-1891",
@@ -35561,6 +35772,42 @@
       "updated": "2026-08-12",
       "path": "entities/works/il-miccino-spaurito-monzini-1891.md"
     },
+    "work/il-nuoto-alberti-1891": {
+      "id": "work/il-nuoto-alberti-1891",
+      "uri": "urn:ahn:work/il-nuoto-alberti-1891",
+      "type": "work",
+      "label_ja": "アキッレ・アルベルティ《Il nuoto》",
+      "label_en": "Il nuoto",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "作品の独立典拠IDと現所在は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年（1891年展カタログ622番）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/achille-alberti"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-13",
+      "path": "entities/works/il-nuoto-alberti-1891.md"
+    },
     "work/il-pasto-quaranta-1891": {
       "id": "work/il-pasto-quaranta-1891",
       "uri": "urn:ahn:work/il-pasto-quaranta-1891",
@@ -37048,6 +37295,42 @@
       "status": "draft",
       "updated": "2026-08-12",
       "path": "entities/works/indivisible-ramponi-1907.md"
+    },
+    "work/indovinami-galmuzzi-1891": {
+      "id": "work/indovinami-galmuzzi-1891",
+      "uri": "urn:ahn:work/indovinami-galmuzzi-1891",
+      "type": "work",
+      "label_ja": "アンセルモ・ガルムッツィ《Indovinami e ti darò un bacio》",
+      "label_en": "Indovinami e ti darò un bacio",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "作品の独立典拠IDと現所在は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年（1891年展カタログ615番）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/anselmo-galmuzzi"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-13",
+      "path": "entities/works/indovinami-galmuzzi-1891.md"
     },
     "work/infanzia-trabucco-1891": {
       "id": "work/infanzia-trabucco-1891",
@@ -39471,6 +39754,42 @@
       "status": "draft",
       "updated": "2026-08-13",
       "path": "entities/works/la-treggia-stoppoloni-1891.md"
+    },
+    "work/la-trovatella-bazzaro-1891": {
+      "id": "work/la-trovatella-bazzaro-1891",
+      "uri": "urn:ahn:work/la-trovatella-bazzaro-1891",
+      "type": "work",
+      "label_ja": "エルネスト・バッツァーロ《La trovatella》",
+      "label_en": "La trovatella",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "作品の独立典拠IDと現所在は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年（1891年展カタログ618番）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/ernesto-bazzaro"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-13",
+      "path": "entities/works/la-trovatella-bazzaro-1891.md"
     },
     "work/la-vallee-de-malenco-mario-segantini-1907": {
       "id": "work/la-vallee-de-malenco-mario-segantini-1907",
@@ -42351,6 +42670,42 @@
       "status": "draft",
       "updated": "2026-08-12",
       "path": "entities/works/marzo-gignous-1891.md"
+    },
+    "work/mascherina-mazzucchelli-1891": {
+      "id": "work/mascherina-mazzucchelli-1891",
+      "uri": "urn:ahn:work/mascherina-mazzucchelli-1891",
+      "type": "work",
+      "label_ja": "アルフォンソ・マッズッケッリ《Mascherina》",
+      "label_en": "Mascherina",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "作品の独立典拠IDと現所在は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年（1891年展カタログ619番）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/alfonso-mazzucchelli"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-13",
+      "path": "entities/works/mascherina-mazzucchelli-1891.md"
     },
     "work/matelda-bordignon-1891": {
       "id": "work/matelda-bordignon-1891",
@@ -47629,6 +47984,42 @@
       "updated": "2026-08-12",
       "path": "entities/works/ricordanze-fornara-1891.md"
     },
+    "work/ricreazione-astorri-1891": {
+      "id": "work/ricreazione-astorri-1891",
+      "uri": "urn:ahn:work/ricreazione-astorri-1891",
+      "type": "work",
+      "label_ja": "エンリコ・アストッリ《Ricreazione》",
+      "label_en": "Ricreazione",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "作品の独立典拠IDと現所在は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年（1891年展カタログ616番）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/enrico-astorri"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-13",
+      "path": "entities/works/ricreazione-astorri-1891.md"
+    },
     "work/riflessione-mayer-1891": {
       "id": "work/riflessione-mayer-1891",
       "uri": "urn:ahn:work/riflessione-mayer-1891",
@@ -48103,6 +48494,42 @@
       "status": "draft",
       "updated": "2026-08-12",
       "path": "entities/works/ritratto-bordini-1891.md"
+    },
+    "work/ritratto-ceccarelli-1891-no623": {
+      "id": "work/ritratto-ceccarelli-1891-no623",
+      "uri": "urn:ahn:work/ritratto-ceccarelli-1891-no623",
+      "type": "work",
+      "label_ja": "エツィオ・チェッカレッリ《Ritratto》",
+      "label_en": "Ritratto",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "作品の独立典拠IDと現所在は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年（1891年展カタログ623番）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/ezio-ceccarelli"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-13",
+      "path": "entities/works/ritratto-ceccarelli-1891-no623.md"
     },
     "work/ritratto-costume-albanese-rastellini-1891": {
       "id": "work/ritratto-costume-albanese-rastellini-1891",
@@ -49889,6 +50316,42 @@
       "status": "draft",
       "updated": "2026-08-12",
       "path": "entities/works/ritrovo-di-boscaiuoli-cumbo-1891.md"
+    },
+    "work/riva-sul-garda-craveri-1891": {
+      "id": "work/riva-sul-garda-craveri-1891",
+      "uri": "urn:ahn:work/riva-sul-garda-craveri-1891",
+      "type": "work",
+      "label_ja": "ルイジ・クラヴェーリ《Riva sul Garda (Trentino)》",
+      "label_en": "Riva sul Garda (Trentino)",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "作品の独立典拠IDと現所在は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年（1891年展カタログ614番）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/luigi-craveri"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-13",
+      "path": "entities/works/riva-sul-garda-craveri-1891.md"
     },
     "work/romeo-et-juliette-previati-1907": {
       "id": "work/romeo-et-juliette-previati-1907",
@@ -52513,6 +52976,42 @@
       "updated": "2026-08-13",
       "path": "entities/works/testa-di-vecchio-studio-berta-1891.md"
     },
+    "work/testa-in-marmo-cassani-1891": {
+      "id": "work/testa-in-marmo-cassani-1891",
+      "uri": "urn:ahn:work/testa-in-marmo-cassani-1891",
+      "type": "work",
+      "label_ja": "ジョヴァンニ・カッサーニ《Testa in marmo (Studio)》",
+      "label_en": "Testa in marmo (Studio)",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "作品の独立典拠IDと現所在は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年（1891年展カタログ621番）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/giovanni-cassani"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-13",
+      "path": "entities/works/testa-in-marmo-cassani-1891.md"
+    },
     "work/testa-studio-melchioni-1891": {
       "id": "work/testa-studio-melchioni-1891",
       "uri": "urn:ahn:work/testa-studio-melchioni-1891",
@@ -54451,6 +54950,42 @@
       "status": "draft",
       "updated": "2026-08-13",
       "path": "entities/works/vecchia-canzone-volpe-1891.md"
+    },
+    "work/vecchio-buio-franceschini-1891": {
+      "id": "work/vecchio-buio-franceschini-1891",
+      "uri": "urn:ahn:work/vecchio-buio-franceschini-1891",
+      "type": "work",
+      "label_ja": "イノチェンテ・フランチェスキーニ《Vecchio buio》",
+      "label_en": "Vecchio buio",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "作品の独立典拠IDと現所在は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年（1891年展カタログ617番）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/innocente-franceschini"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-13",
+      "path": "entities/works/vecchio-buio-franceschini-1891.md"
     },
     "work/veduta-di-capri-tafuri-1891": {
       "id": "work/veduta-di-capri-tafuri-1891",
@@ -57271,6 +57806,13 @@
       "source": null
     },
     {
+      "from": "person/anselmo-galmuzzi",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "person/antonio-argenti",
       "type": "exhibited_at",
       "to": "event/first-brera-triennale-1891",
@@ -58164,6 +58706,13 @@
       "source": null
     },
     {
+      "from": "person/ezio-ceccarelli",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "person/fausto-zonaro",
       "type": "exhibited_at",
       "to": "event/first-brera-triennale-1891",
@@ -58557,6 +59106,13 @@
       "source": null
     },
     {
+      "from": "person/giovanni-cassani",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "person/giovanni-consonni",
       "type": "exhibited_at",
       "to": "event/first-brera-triennale-1891",
@@ -58928,6 +59484,13 @@
     },
     {
       "from": "person/idalia-albertini",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "person/innocente-franceschini",
       "type": "exhibited_at",
       "to": "event/first-brera-triennale-1891",
       "certainty": null,
@@ -59876,6 +60439,13 @@
     },
     {
       "from": "person/vittorio-novi",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "person/vittorio-pusinelli",
       "type": "exhibited_at",
       "to": "event/first-brera-triennale-1891",
       "certainty": null,
@@ -61240,6 +61810,20 @@
       "from": "work/cleopatre-previati-1907",
       "type": "exhibited_at",
       "to": "event/salon-divisionnistes-italiens-paris-1907",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/col-ladro-domestico-pusinelli-1891",
+      "type": "created_by",
+      "to": "person/vittorio-pusinelli",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/col-ladro-domestico-pusinelli-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
       "certainty": null,
       "source": null
     },
@@ -63512,6 +64096,20 @@
       "source": null
     },
     {
+      "from": "work/il-nuoto-alberti-1891",
+      "type": "created_by",
+      "to": "person/achille-alberti",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/il-nuoto-alberti-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "work/il-pasto-quaranta-1891",
       "type": "created_by",
       "to": "person/giuseppe-quaranta",
@@ -64082,6 +64680,20 @@
       "from": "work/indivisible-ramponi-1907",
       "type": "exhibited_at",
       "to": "event/salon-divisionnistes-italiens-paris-1907",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/indovinami-galmuzzi-1891",
+      "type": "created_by",
+      "to": "person/anselmo-galmuzzi",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/indovinami-galmuzzi-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
       "certainty": null,
       "source": null
     },
@@ -65018,6 +65630,20 @@
     },
     {
       "from": "work/la-treggia-stoppoloni-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/la-trovatella-bazzaro-1891",
+      "type": "created_by",
+      "to": "person/ernesto-bazzaro",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/la-trovatella-bazzaro-1891",
       "type": "exhibited_at",
       "to": "event/first-brera-triennale-1891",
       "certainty": null,
@@ -66131,6 +66757,20 @@
     },
     {
       "from": "work/marzo-gignous-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/mascherina-mazzucchelli-1891",
+      "type": "created_by",
+      "to": "person/alfonso-mazzucchelli",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/mascherina-mazzucchelli-1891",
       "type": "exhibited_at",
       "to": "event/first-brera-triennale-1891",
       "certainty": null,
@@ -68167,6 +68807,20 @@
       "source": null
     },
     {
+      "from": "work/ricreazione-astorri-1891",
+      "type": "created_by",
+      "to": "person/enrico-astorri",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/ricreazione-astorri-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "work/riflessione-mayer-1891",
       "type": "created_by",
       "to": "person/giovanni-mayer",
@@ -68343,6 +68997,20 @@
     },
     {
       "from": "work/ritratto-bordini-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/ritratto-ceccarelli-1891-no623",
+      "type": "created_by",
+      "to": "person/ezio-ceccarelli",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/ritratto-ceccarelli-1891-no623",
       "type": "exhibited_at",
       "to": "event/first-brera-triennale-1891",
       "certainty": null,
@@ -69029,6 +69697,20 @@
     },
     {
       "from": "work/ritrovo-di-boscaiuoli-cumbo-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/riva-sul-garda-craveri-1891",
+      "type": "created_by",
+      "to": "person/luigi-craveri",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/riva-sul-garda-craveri-1891",
       "type": "exhibited_at",
       "to": "event/first-brera-triennale-1891",
       "certainty": null,
@@ -70043,6 +70725,20 @@
       "source": null
     },
     {
+      "from": "work/testa-in-marmo-cassani-1891",
+      "type": "created_by",
+      "to": "person/giovanni-cassani",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/testa-in-marmo-cassani-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "work/testa-studio-melchioni-1891",
       "type": "created_by",
       "to": "person/antonio-melchioni",
@@ -70793,6 +71489,20 @@
     },
     {
       "from": "work/vecchia-canzone-volpe-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/vecchio-buio-franceschini-1891",
+      "type": "created_by",
+      "to": "person/innocente-franceschini",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/vecchio-buio-franceschini-1891",
       "type": "exhibited_at",
       "to": "event/first-brera-triennale-1891",
       "certainty": null,
@@ -72367,6 +73077,12 @@
     {
       "from": "event/first-brera-triennale-1891",
       "type": "exhibited",
+      "to": "person/anselmo-galmuzzi",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
       "to": "person/antonio-argenti",
       "derived": true
     },
@@ -73111,6 +73827,12 @@
     {
       "from": "event/first-brera-triennale-1891",
       "type": "exhibited",
+      "to": "person/ezio-ceccarelli",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
       "to": "person/fausto-zonaro",
       "derived": true
     },
@@ -73435,6 +74157,12 @@
     {
       "from": "event/first-brera-triennale-1891",
       "type": "exhibited",
+      "to": "person/giovanni-cassani",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
       "to": "person/giovanni-consonni",
       "derived": true
     },
@@ -73736,6 +74464,12 @@
       "from": "event/first-brera-triennale-1891",
       "type": "exhibited",
       "to": "person/idalia-albertini",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "person/innocente-franceschini",
       "derived": true
     },
     {
@@ -74510,6 +75244,12 @@
       "from": "event/first-brera-triennale-1891",
       "type": "exhibited",
       "to": "person/vittorio-novi",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "person/vittorio-pusinelli",
       "derived": true
     },
     {
@@ -75656,6 +76396,18 @@
       "from": "event/salon-divisionnistes-italiens-paris-1907",
       "type": "exhibited",
       "to": "work/cleopatre-previati-1907",
+      "derived": true
+    },
+    {
+      "from": "person/vittorio-pusinelli",
+      "type": "created",
+      "to": "work/col-ladro-domestico-pusinelli-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/col-ladro-domestico-pusinelli-1891",
       "derived": true
     },
     {
@@ -77603,6 +78355,18 @@
       "derived": true
     },
     {
+      "from": "person/achille-alberti",
+      "type": "created",
+      "to": "work/il-nuoto-alberti-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/il-nuoto-alberti-1891",
+      "derived": true
+    },
+    {
       "from": "person/giuseppe-quaranta",
       "type": "created",
       "to": "work/il-pasto-quaranta-1891",
@@ -78092,6 +78856,18 @@
       "from": "event/salon-divisionnistes-italiens-paris-1907",
       "type": "exhibited",
       "to": "work/indivisible-ramponi-1907",
+      "derived": true
+    },
+    {
+      "from": "person/anselmo-galmuzzi",
+      "type": "created",
+      "to": "work/indovinami-galmuzzi-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/indovinami-galmuzzi-1891",
       "derived": true
     },
     {
@@ -78896,6 +79672,18 @@
       "from": "event/first-brera-triennale-1891",
       "type": "exhibited",
       "to": "work/la-treggia-stoppoloni-1891",
+      "derived": true
+    },
+    {
+      "from": "person/ernesto-bazzaro",
+      "type": "created",
+      "to": "work/la-trovatella-bazzaro-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/la-trovatella-bazzaro-1891",
       "derived": true
     },
     {
@@ -79850,6 +80638,18 @@
       "from": "event/first-brera-triennale-1891",
       "type": "exhibited",
       "to": "work/marzo-gignous-1891",
+      "derived": true
+    },
+    {
+      "from": "person/alfonso-mazzucchelli",
+      "type": "created",
+      "to": "work/mascherina-mazzucchelli-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/mascherina-mazzucchelli-1891",
       "derived": true
     },
     {
@@ -81593,6 +82393,18 @@
       "derived": true
     },
     {
+      "from": "person/enrico-astorri",
+      "type": "created",
+      "to": "work/ricreazione-astorri-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/ricreazione-astorri-1891",
+      "derived": true
+    },
+    {
       "from": "person/giovanni-mayer",
       "type": "created",
       "to": "work/riflessione-mayer-1891",
@@ -81746,6 +82558,18 @@
       "from": "event/first-brera-triennale-1891",
       "type": "exhibited",
       "to": "work/ritratto-bordini-1891",
+      "derived": true
+    },
+    {
+      "from": "person/ezio-ceccarelli",
+      "type": "created",
+      "to": "work/ritratto-ceccarelli-1891-no623",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/ritratto-ceccarelli-1891-no623",
       "derived": true
     },
     {
@@ -82334,6 +83158,18 @@
       "from": "event/first-brera-triennale-1891",
       "type": "exhibited",
       "to": "work/ritrovo-di-boscaiuoli-cumbo-1891",
+      "derived": true
+    },
+    {
+      "from": "person/luigi-craveri",
+      "type": "created",
+      "to": "work/riva-sul-garda-craveri-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/riva-sul-garda-craveri-1891",
       "derived": true
     },
     {
@@ -83201,6 +84037,18 @@
       "derived": true
     },
     {
+      "from": "person/giovanni-cassani",
+      "type": "created",
+      "to": "work/testa-in-marmo-cassani-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/testa-in-marmo-cassani-1891",
+      "derived": true
+    },
+    {
       "from": "person/antonio-melchioni",
       "type": "created",
       "to": "work/testa-studio-melchioni-1891",
@@ -83846,6 +84694,18 @@
       "from": "event/first-brera-triennale-1891",
       "type": "exhibited",
       "to": "work/vecchia-canzone-volpe-1891",
+      "derived": true
+    },
+    {
+      "from": "person/innocente-franceschini",
+      "type": "created",
+      "to": "work/vecchio-buio-franceschini-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/vecchio-buio-franceschini-1891",
       "derived": true
     },
     {
