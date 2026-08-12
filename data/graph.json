@@ -15595,6 +15595,43 @@
       "updated": "2026-08-12",
       "path": "entities/works/lef-no-2-1924.md"
     },
+    "work/marine-crepuscule-minozzi-1907": {
+      "id": "work/marine-crepuscule-minozzi-1907",
+      "uri": "urn:ahn:work/marine-crepuscule-minozzi-1907",
+      "type": "work",
+      "label_ja": "フィリベルト・ミノッツィ《Marine (Crépuscule)》",
+      "label_en": "Marine (Crépuscule)",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "独立作品典拠IDは未確認。1907年パリ展のカタログ記録を用いる"
+      },
+      "time": {
+        "start": "1907",
+        "end": "1907",
+        "display": "1907年パリ展出品（制作年未確認）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/filiberto-minozzi"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/salon-divisionnistes-italiens-paris-1907"
+        }
+      ],
+      "sources": [
+        "https://exhibitions.univie.ac.at/person/ulan/500164204",
+        "https://exhibitions.univie.ac.at/exhibition/125"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/works/marine-crepuscule-minozzi-1907.md"
+    },
     "work/marine-merello-1905": {
       "id": "work/marine-merello-1905",
       "uri": "urn:ahn:work/marine-merello-1905",
@@ -15632,6 +15669,191 @@
       "status": "draft",
       "updated": "2026-08-12",
       "path": "entities/works/marine-merello-1905.md"
+    },
+    "work/marine-minozzi-1907-no49": {
+      "id": "work/marine-minozzi-1907-no49",
+      "uri": "urn:ahn:work/marine-minozzi-1907-no49",
+      "type": "work",
+      "label_ja": "フィリベルト・ミノッツィ《Marine》〔1907年パリ展49番〕",
+      "label_en": "Marine (Paris 1907, no. 49)",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "独立作品典拠IDは未確認。1907年パリ展カタログ番号49の記録を用いる"
+      },
+      "time": {
+        "start": "1907",
+        "end": "1907",
+        "display": "1907年パリ展出品（制作年未確認）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/filiberto-minozzi"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/salon-divisionnistes-italiens-paris-1907"
+        }
+      ],
+      "sources": [
+        "https://exhibitions.univie.ac.at/person/ulan/500164204",
+        "https://exhibitions.univie.ac.at/exhibition/125"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/works/marine-minozzi-1907-no49.md"
+    },
+    "work/marine-minozzi-1907-no52": {
+      "id": "work/marine-minozzi-1907-no52",
+      "uri": "urn:ahn:work/marine-minozzi-1907-no52",
+      "type": "work",
+      "label_ja": "フィリベルト・ミノッツィ《Marine》〔1907年パリ展52番〕",
+      "label_en": "Marine (Paris 1907, no. 52)",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "独立作品典拠IDは未確認。1907年パリ展カタログ番号52の記録を用いる"
+      },
+      "time": {
+        "start": "1907",
+        "end": "1907",
+        "display": "1907年パリ展出品（制作年未確認）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/filiberto-minozzi"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/salon-divisionnistes-italiens-paris-1907"
+        }
+      ],
+      "sources": [
+        "https://exhibitions.univie.ac.at/person/ulan/500164204",
+        "https://exhibitions.univie.ac.at/exhibition/125"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/works/marine-minozzi-1907-no52.md"
+    },
+    "work/marine-minozzi-1907-no55a": {
+      "id": "work/marine-minozzi-1907-no55a",
+      "uri": "urn:ahn:work/marine-minozzi-1907-no55a",
+      "type": "work",
+      "label_ja": "フィリベルト・ミノッツィ《Marine》〔1907年パリ展55a番〕",
+      "label_en": "Marine (Paris 1907, no. 55a)",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "独立作品典拠IDは未確認。1907年パリ展カタログ番号55aの記録を用いる"
+      },
+      "time": {
+        "start": "1907",
+        "end": "1907",
+        "display": "1907年パリ展出品（制作年未確認）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/filiberto-minozzi"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/salon-divisionnistes-italiens-paris-1907"
+        }
+      ],
+      "sources": [
+        "https://exhibitions.univie.ac.at/person/ulan/500164204",
+        "https://exhibitions.univie.ac.at/exhibition/125"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/works/marine-minozzi-1907-no55a.md"
+    },
+    "work/marine-minozzi-1907-no55b": {
+      "id": "work/marine-minozzi-1907-no55b",
+      "uri": "urn:ahn:work/marine-minozzi-1907-no55b",
+      "type": "work",
+      "label_ja": "フィリベルト・ミノッツィ《Marine》〔1907年パリ展55b番〕",
+      "label_en": "Marine (Paris 1907, no. 55b)",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "独立作品典拠IDは未確認。1907年パリ展カタログ番号55bの記録を用いる"
+      },
+      "time": {
+        "start": "1907",
+        "end": "1907",
+        "display": "1907年パリ展出品（制作年未確認）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/filiberto-minozzi"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/salon-divisionnistes-italiens-paris-1907"
+        }
+      ],
+      "sources": [
+        "https://exhibitions.univie.ac.at/person/ulan/500164204",
+        "https://exhibitions.univie.ac.at/exhibition/125"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/works/marine-minozzi-1907-no55b.md"
+    },
+    "work/marine-minozzi-1907-no55c": {
+      "id": "work/marine-minozzi-1907-no55c",
+      "uri": "urn:ahn:work/marine-minozzi-1907-no55c",
+      "type": "work",
+      "label_ja": "フィリベルト・ミノッツィ《Marine》〔1907年パリ展55c番〕",
+      "label_en": "Marine (Paris 1907, no. 55c)",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "独立作品典拠IDは未確認。1907年パリ展カタログ番号55cの記録を用いる"
+      },
+      "time": {
+        "start": "1907",
+        "end": "1907",
+        "display": "1907年パリ展出品（制作年未確認）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/filiberto-minozzi"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/salon-divisionnistes-italiens-paris-1907"
+        }
+      ],
+      "sources": [
+        "https://exhibitions.univie.ac.at/person/ulan/500164204",
+        "https://exhibitions.univie.ac.at/exhibition/125"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/works/marine-minozzi-1907-no55c.md"
     },
     "work/marine-riviera-del-ponente-minozzi-1907": {
       "id": "work/marine-riviera-del-ponente-minozzi-1907",
@@ -19633,6 +19855,20 @@
       "source": null
     },
     {
+      "from": "work/marine-crepuscule-minozzi-1907",
+      "type": "created_by",
+      "to": "person/filiberto-minozzi",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/marine-crepuscule-minozzi-1907",
+      "type": "exhibited_at",
+      "to": "event/salon-divisionnistes-italiens-paris-1907",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "work/marine-merello-1905",
       "type": "created_by",
       "to": "person/rubaldo-merello",
@@ -19641,6 +19877,76 @@
     },
     {
       "from": "work/marine-merello-1905",
+      "type": "exhibited_at",
+      "to": "event/salon-divisionnistes-italiens-paris-1907",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/marine-minozzi-1907-no49",
+      "type": "created_by",
+      "to": "person/filiberto-minozzi",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/marine-minozzi-1907-no49",
+      "type": "exhibited_at",
+      "to": "event/salon-divisionnistes-italiens-paris-1907",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/marine-minozzi-1907-no52",
+      "type": "created_by",
+      "to": "person/filiberto-minozzi",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/marine-minozzi-1907-no52",
+      "type": "exhibited_at",
+      "to": "event/salon-divisionnistes-italiens-paris-1907",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/marine-minozzi-1907-no55a",
+      "type": "created_by",
+      "to": "person/filiberto-minozzi",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/marine-minozzi-1907-no55a",
+      "type": "exhibited_at",
+      "to": "event/salon-divisionnistes-italiens-paris-1907",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/marine-minozzi-1907-no55b",
+      "type": "created_by",
+      "to": "person/filiberto-minozzi",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/marine-minozzi-1907-no55b",
+      "type": "exhibited_at",
+      "to": "event/salon-divisionnistes-italiens-paris-1907",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/marine-minozzi-1907-no55c",
+      "type": "created_by",
+      "to": "person/filiberto-minozzi",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/marine-minozzi-1907-no55c",
       "type": "exhibited_at",
       "to": "event/salon-divisionnistes-italiens-paris-1907",
       "certainty": null,
@@ -21825,6 +22131,18 @@
       "derived": true
     },
     {
+      "from": "person/filiberto-minozzi",
+      "type": "created",
+      "to": "work/marine-crepuscule-minozzi-1907",
+      "derived": true
+    },
+    {
+      "from": "event/salon-divisionnistes-italiens-paris-1907",
+      "type": "exhibited",
+      "to": "work/marine-crepuscule-minozzi-1907",
+      "derived": true
+    },
+    {
       "from": "person/rubaldo-merello",
       "type": "created",
       "to": "work/marine-merello-1905",
@@ -21834,6 +22152,66 @@
       "from": "event/salon-divisionnistes-italiens-paris-1907",
       "type": "exhibited",
       "to": "work/marine-merello-1905",
+      "derived": true
+    },
+    {
+      "from": "person/filiberto-minozzi",
+      "type": "created",
+      "to": "work/marine-minozzi-1907-no49",
+      "derived": true
+    },
+    {
+      "from": "event/salon-divisionnistes-italiens-paris-1907",
+      "type": "exhibited",
+      "to": "work/marine-minozzi-1907-no49",
+      "derived": true
+    },
+    {
+      "from": "person/filiberto-minozzi",
+      "type": "created",
+      "to": "work/marine-minozzi-1907-no52",
+      "derived": true
+    },
+    {
+      "from": "event/salon-divisionnistes-italiens-paris-1907",
+      "type": "exhibited",
+      "to": "work/marine-minozzi-1907-no52",
+      "derived": true
+    },
+    {
+      "from": "person/filiberto-minozzi",
+      "type": "created",
+      "to": "work/marine-minozzi-1907-no55a",
+      "derived": true
+    },
+    {
+      "from": "event/salon-divisionnistes-italiens-paris-1907",
+      "type": "exhibited",
+      "to": "work/marine-minozzi-1907-no55a",
+      "derived": true
+    },
+    {
+      "from": "person/filiberto-minozzi",
+      "type": "created",
+      "to": "work/marine-minozzi-1907-no55b",
+      "derived": true
+    },
+    {
+      "from": "event/salon-divisionnistes-italiens-paris-1907",
+      "type": "exhibited",
+      "to": "work/marine-minozzi-1907-no55b",
+      "derived": true
+    },
+    {
+      "from": "person/filiberto-minozzi",
+      "type": "created",
+      "to": "work/marine-minozzi-1907-no55c",
+      "derived": true
+    },
+    {
+      "from": "event/salon-divisionnistes-italiens-paris-1907",
+      "type": "exhibited",
+      "to": "work/marine-minozzi-1907-no55c",
       "derived": true
     },
     {
