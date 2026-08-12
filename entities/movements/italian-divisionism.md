@@ -60,7 +60,9 @@ updated: 2026-08-12
 [`プリーニオ・ノメリーニ`](../persons/plinio-nomellini.md)、[`ヴィットーレ・グルビーチ・デ・ドラゴン`](../persons/vittore-grubicy-de-dragon.md)、
 [`アキッレ・トミネッティ`](../persons/achille-tominetti.md)、[`ジャン・マリア・ラステッリーニ`](../persons/gian-maria-rastellini.md)、
 [`ピエロ・フォカルディ`](../persons/piero-focardi.md)、[`フェルディナンド・ランポーニ`](../persons/ferdinando-ramponi.md)、
-[`ルバルド・メレッロ`](../persons/rubaldo-merello.md)、[`ベンヴェヌート・ベンヴェヌーティ`](../persons/benvenuto-benvenuti.md)らが含まれる。
+[`ルバルド・メレッロ`](../persons/rubaldo-merello.md)、[`ベンヴェヌート・ベンヴェヌーティ`](../persons/benvenuto-benvenuti.md)、
+[`グイド・チノッティ`](../persons/guido-cinotti.md)、[`アドリアーノ・バラッキーニ＝カプーティ`](../persons/adriano-baracchini-caputi.md)、
+[`チェーザレ・マッジ`](../persons/cesare-maggi.md)、[`フィリベルト・ミノッツィ`](../persons/filiberto-minozzi.md)らが含まれる。
 
 ## 1891年公式カタログ
 
