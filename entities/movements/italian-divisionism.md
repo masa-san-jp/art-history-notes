@@ -65,6 +65,7 @@ updated: 2026-08-12
 [`チェーザレ・マッジ`](../persons/cesare-maggi.md)、[`フィリベルト・ミノッツィ`](../persons/filiberto-minozzi.md)らが含まれる。
 1907年展の出品者としては、[`カルロ・プラーダ`](../persons/carlo-prada.md)、[`ゴッタルド・セガンティーニ`](../persons/gottardo-segantini.md)、
 [`マリオ・セガンティーニ`](../persons/mario-segantini.md)、[`アドルフ・マグリーニ`](../persons/adolphe-magrini.md)も確認できる。
+[`ジュゼッペ・オーミオ`](../persons/giuseppe-omio.md)も1907年展の出品者として記録されている。
 
 ## 1891年公式カタログ
 

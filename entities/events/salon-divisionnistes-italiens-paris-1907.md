@@ -38,6 +38,6 @@ updated: 2026-08-12
 
 Database of Modern Exhibitionsの出品者一覧には、[`ピエロ・フォカルディ`](../persons/piero-focardi.md)、[`フェルディナンド・ランポーニ`](../persons/ferdinando-ramponi.md)、
 [`アキッレ・トミネッティ`](../persons/achille-tominetti.md)、[`グイド・チノッティ`](../persons/guido-cinotti.md)、[`アドリアーノ・バラッキーニ＝カプーティ`](../persons/adriano-baracchini-caputi.md)、
-[`ベンヴェヌート・ベンヴェヌーティ`](../persons/benvenuto-benvenuti.md)、[`ルバルド・メレッロ`](../persons/rubaldo-merello.md)、ジュゼッペ・オーミオ、[`カルロ・プラーダ`](../persons/carlo-prada.md)、
+[`ベンヴェヌート・ベンヴェヌーティ`](../persons/benvenuto-benvenuti.md)、[`ルバルド・メレッロ`](../persons/rubaldo-merello.md)、[`ジュゼッペ・オーミオ`](../persons/giuseppe-omio.md)、[`カルロ・プラーダ`](../persons/carlo-prada.md)、
 [`フィリベルト・ミノッツィ`](../persons/filiberto-minozzi.md)、[`ゴッタルド・セガンティーニ`](../persons/gottardo-segantini.md)、[`マリオ・セガンティーニ`](../persons/mario-segantini.md)、[`チェーザレ・マッジ`](../persons/cesare-maggi.md)、[`アドルフ・マグリーニ`](../persons/adolphe-magrini.md)、カルロ・フォルナラ、ガエターノ・プレヴィアーティ、
 ジョヴァンニ・セガンティーニの17人が挙げられている。未登録の作家は、個別典拠を確認してから人物エンティティ化する。

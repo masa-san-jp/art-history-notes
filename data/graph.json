@@ -10353,6 +10353,46 @@
       "updated": "2026-08-12",
       "path": "entities/persons/giovanni-segantini.md"
     },
+    "person/giuseppe-omio": {
+      "id": "person/giuseppe-omio",
+      "uri": "urn:ahn:person/giuseppe-omio",
+      "type": "person",
+      "label_ja": "ジュゼッペ・オーミオ",
+      "label_en": "Giuseppe Omio",
+      "authority": {
+        "wikidata": null,
+        "ulan": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "検証済みの独立典拠IDは未確認。Database of Modern Exhibitionsと専門資料を用いる"
+      },
+      "time": {
+        "start": "1881",
+        "end": "1918",
+        "display": "1881年ローヴェレ生まれ — 1918年ミラノ没（DOME記録。後年資料に1955年表記もあり要照合）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "belongs_to",
+          "target": "movement/italian-divisionism"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/salon-divisionnistes-italiens-paris-1907"
+        }
+      ],
+      "sources": [
+        "https://exhibitions.univie.ac.at/person/971",
+        "https://exhibitions.univie.ac.at/exhibition/125",
+        "https://www.lucasforziniarte.it/archivio-artisti/lombardia/omio-giuseppe-lovere-1881-milano-1918-pittore",
+        "https://www.galleriarecta.it/autore/omio-giuseppe/",
+        "https://www.tesidottorato.depositolegale.it/bitstream/20.500.14242/107121/4/phdunige_4112671.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/persons/giuseppe-omio.md"
+    },
     "person/giuseppe-pellizza-da-volpedo": {
       "id": "person/giuseppe-pellizza-da-volpedo",
       "uri": "urn:ahn:person/giuseppe-pellizza-da-volpedo",
@@ -17202,6 +17242,20 @@
       "source": null
     },
     {
+      "from": "person/giuseppe-omio",
+      "type": "belongs_to",
+      "to": "movement/italian-divisionism",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "person/giuseppe-omio",
+      "type": "exhibited_at",
+      "to": "event/salon-divisionnistes-italiens-paris-1907",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "person/giuseppe-pellizza-da-volpedo",
       "type": "belongs_to",
       "to": "movement/italian-divisionism",
@@ -18902,6 +18956,18 @@
       "from": "event/salon-divisionnistes-italiens-paris-1907",
       "type": "exhibited",
       "to": "person/giovanni-segantini",
+      "derived": true
+    },
+    {
+      "from": "movement/italian-divisionism",
+      "type": "has_member",
+      "to": "person/giuseppe-omio",
+      "derived": true
+    },
+    {
+      "from": "event/salon-divisionnistes-italiens-paris-1907",
+      "type": "exhibited",
+      "to": "person/giuseppe-omio",
       "derived": true
     },
     {
