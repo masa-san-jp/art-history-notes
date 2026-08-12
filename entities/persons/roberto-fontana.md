@@ -1,9 +1,11 @@
 ---
-id: person/lorenzo-cecconi
-uri: urn:ahn:person/lorenzo-cecconi
+id: person/roberto-fontana
+uri: urn:ahn:person/roberto-fontana
 type: person
-label_ja: ロレンツォ・チェッコーニ
-label_en: Lorenzo Cecconi
+label_ja: ロベルト・フォンターナ
+label_en: Roberto Fontana
+aliases:
+  - Fontana Roberto
 authority:
   wikidata: null
   ulan: null
@@ -13,16 +15,16 @@ authority:
 time:
   start: null
   end: null
-  display: "19世紀末にローマで活動"
+  display: "19世紀末にミラノで活動"
 space: []
 relations:
   - {type: exhibited_at, target: event/first-brera-triennale-1891}
 sources:
   - https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf
 status: draft
-updated: 2026-08-12
+updated: 2026-08-13
 ---
 
-# ロレンツォ・チェッコーニ / Lorenzo Cecconi
+# ロベルト・フォンターナ / Roberto Fontana
 
-1891年の第一回ブレラ三年展公式カタログに、ローマ在住者として掲載される画家。204番《Cani da lepre》、369番《Estate》を出品した。本項は展覧会記録に限定する。
+1891年の第一回ブレラ三年展公式カタログに、ミラノ出身者として掲載される出品者。371番《Ritratto di signora》を出品した。本項は展覧会記録に限定する。

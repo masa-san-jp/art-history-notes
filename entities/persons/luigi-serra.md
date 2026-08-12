@@ -30,5 +30,5 @@ updated: 2026-08-12
 ボローニャ生まれ、同地で没したイタリアの画家。Treccaniは、歴史・宗教主題の絵画とともに素描研究を重ねた画家として、
 1846年生まれ、1888年没と記録している。国立素描版画研究所もボローニャ出身の素描家として登録している。
 
-1891年の第一回ブレラ三年展では、故人として公式カタログの43番と44番に「Raccolta di disegni (A)」「Raccolta di disegni (B)」、330番に「Raccolta di dodici studi ad olio」を出品した。
+1891年の第一回ブレラ三年展では、故人として公式カタログの43番と44番に「Raccolta di disegni (A)」「Raccolta di disegni (B)」、47番に「San Carlo a Catinari」、55番に「Dettagli」、330番に「Raccolta di dodici studi ad olio」、364番に「Studio di testa」を出品した。
 本項では、この展覧会での出品関係を記録するが、セッラをイタリア分割主義の構成員とは位置づけない。
