@@ -235,6 +235,44 @@
       "updated": "2026-08-12",
       "path": "entities/events/eighth-impressionist-exhibition-1886.md"
     },
+    "event/first-salon-des-independants-1884": {
+      "id": "event/first-salon-des-independants-1884",
+      "uri": "urn:ahn:event/first-salon-des-independants-1884",
+      "type": "event",
+      "label_ja": "第1回アンデパンダン展",
+      "label_en": "First Salon des Indépendants",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "個別展覧会の典拠IDは未確認。フランス文化省とナショナル・ギャラリーの作品記録を用いる"
+      },
+      "time": {
+        "start": "1884-12-10",
+        "end": "1885-01-17",
+        "display": "1884年12月10日〜1885年1月17日"
+      },
+      "space": [
+        {
+          "role": "held_at",
+          "target": "place/paris"
+        }
+      ],
+      "relations": [
+        {
+          "type": "precedes",
+          "target": "event/eighth-impressionist-exhibition-1886"
+        }
+      ],
+      "sources": [
+        "https://www.culture.gouv.fr/thematiques/musees/Les-musees-en-France/les-collections-des-musees-de-france/decouvrir-les-collections/les-huit-expositions-impressionnistes-1874-1886/1886-huitieme-exposition",
+        "https://www.nationalgallery.org.uk/paintings/georges-seurat-bathers-at-asnieres"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/events/first-salon-des-independants-1884.md"
+    },
     "event/societe-artistes-independants-founding-1884": {
       "id": "event/societe-artistes-independants-founding-1884",
       "uri": "urn:ahn:event/societe-artistes-independants-founding-1884",
@@ -260,6 +298,10 @@
         }
       ],
       "relations": [
+        {
+          "type": "precedes",
+          "target": "event/first-salon-des-independants-1884"
+        },
         {
           "type": "precedes",
           "target": "event/eighth-impressionist-exhibition-1886"
@@ -8749,6 +8791,39 @@
       "updated": "2026-08-09",
       "path": "entities/orgs/itb.md"
     },
+    "org/national-gallery-london": {
+      "id": "org/national-gallery-london",
+      "uri": "urn:ahn:org/national-gallery-london",
+      "type": "org",
+      "label_ja": "ナショナル・ギャラリー（ロンドン）",
+      "label_en": "National Gallery, London",
+      "authority": {
+        "wikidata": "Q180788",
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": "1824",
+        "end": "..",
+        "display": "1824年設立、継続中"
+      },
+      "space": [
+        {
+          "role": "sited_in",
+          "target": "place/london"
+        }
+      ],
+      "relations": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q180788",
+        "https://www.nationalgallery.org.uk/about-us/history"
+      ],
+      "status": "stub",
+      "updated": "2026-08-12",
+      "path": "entities/orgs/national-gallery-london.md"
+    },
     "org/societe-anonyme-artistes": {
       "id": "org/societe-anonyme-artistes",
       "uri": "urn:ahn:org/societe-anonyme-artistes",
@@ -9440,6 +9515,10 @@
         {
           "type": "member_of",
           "target": "org/societe-artistes-independants"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-salon-des-independants-1884"
         },
         {
           "type": "taught_by",
@@ -13274,6 +13353,51 @@
       "updated": "2026-08-08",
       "path": "entities/works/a-sunday-on-la-grande-jatte.md"
     },
+    "work/bathers-at-asnieres": {
+      "id": "work/bathers-at-asnieres",
+      "uri": "urn:ahn:work/bathers-at-asnieres",
+      "type": "work",
+      "label_ja": "アニエールの水浴",
+      "label_en": "Bathers at Asnières",
+      "authority": {
+        "wikidata": "Q1090837",
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": "1884",
+        "end": "1884",
+        "display": "1884年"
+      },
+      "space": [
+        {
+          "role": "created_in",
+          "target": "place/paris"
+        },
+        {
+          "role": "held_at",
+          "target": "org/national-gallery-london"
+        }
+      ],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/georges-seurat"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-salon-des-independants-1884"
+        }
+      ],
+      "sources": [
+        "https://www.nationalgallery.org.uk/paintings/georges-seurat-bathers-at-asnieres"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/works/bathers-at-asnieres.md"
+    },
     "work/lef-no-2-1924": {
       "id": "work/lef-no-2-1924",
       "uri": "urn:ahn:work/lef-no-2-1924",
@@ -13460,6 +13584,25 @@
       "from": "event/eighth-impressionist-exhibition-1886",
       "type": "held_at",
       "to": "place/paris"
+    },
+    {
+      "from": "event/first-salon-des-independants-1884",
+      "type": "precedes",
+      "to": "event/eighth-impressionist-exhibition-1886",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "event/first-salon-des-independants-1884",
+      "type": "held_at",
+      "to": "place/paris"
+    },
+    {
+      "from": "event/societe-artistes-independants-founding-1884",
+      "type": "precedes",
+      "to": "event/first-salon-des-independants-1884",
+      "certainty": null,
+      "source": null
     },
     {
       "from": "event/societe-artistes-independants-founding-1884",
@@ -15136,6 +15279,11 @@
       "to": "place/bandung"
     },
     {
+      "from": "org/national-gallery-london",
+      "type": "sited_in",
+      "to": "place/london"
+    },
+    {
       "from": "org/societe-anonyme-artistes",
       "type": "sited_in",
       "to": "place/paris"
@@ -15231,6 +15379,13 @@
       "from": "person/georges-seurat",
       "type": "member_of",
       "to": "org/societe-artistes-independants",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "person/georges-seurat",
+      "type": "exhibited_at",
+      "to": "event/first-salon-des-independants-1884",
       "certainty": null,
       "source": null
     },
@@ -15410,6 +15565,30 @@
       "to": "org/art-institute-of-chicago"
     },
     {
+      "from": "work/bathers-at-asnieres",
+      "type": "created_by",
+      "to": "person/georges-seurat",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/bathers-at-asnieres",
+      "type": "exhibited_at",
+      "to": "event/first-salon-des-independants-1884",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/bathers-at-asnieres",
+      "type": "created_in",
+      "to": "place/paris"
+    },
+    {
+      "from": "work/bathers-at-asnieres",
+      "type": "held_at",
+      "to": "org/national-gallery-london"
+    },
+    {
       "from": "work/lef-no-2-1924",
       "type": "created_by",
       "to": "person/liubov-popova",
@@ -15489,6 +15668,18 @@
       "from": "movement/baghdad-modern-art-group",
       "type": "influenced",
       "to": "concept/hurufiyya",
+      "derived": true
+    },
+    {
+      "from": "event/eighth-impressionist-exhibition-1886",
+      "type": "follows",
+      "to": "event/first-salon-des-independants-1884",
+      "derived": true
+    },
+    {
+      "from": "event/first-salon-des-independants-1884",
+      "type": "follows",
+      "to": "event/societe-artistes-independants-founding-1884",
       "derived": true
     },
     {
@@ -16446,6 +16637,12 @@
       "derived": true
     },
     {
+      "from": "event/first-salon-des-independants-1884",
+      "type": "exhibited",
+      "to": "person/georges-seurat",
+      "derived": true
+    },
+    {
       "from": "person/henri-lehmann",
       "type": "taught",
       "to": "person/georges-seurat",
@@ -16533,6 +16730,18 @@
       "from": "concept/harmony",
       "type": "depicted_in",
       "to": "work/a-sunday-on-la-grande-jatte",
+      "derived": true
+    },
+    {
+      "from": "person/georges-seurat",
+      "type": "created",
+      "to": "work/bathers-at-asnieres",
+      "derived": true
+    },
+    {
+      "from": "event/first-salon-des-independants-1884",
+      "type": "exhibited",
+      "to": "work/bathers-at-asnieres",
       "derived": true
     },
     {

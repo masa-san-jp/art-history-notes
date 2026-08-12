@@ -21,6 +21,7 @@ space:
 relations:
   - {type: belongs_to, target: movement/neo-impressionism}
   - {type: member_of, target: org/societe-artistes-independants}
+  - {type: exhibited_at, target: event/first-salon-des-independants-1884}
   - {type: taught_by, target: person/henri-lehmann}
 sources:
   - https://www.wikidata.org/wiki/Q34013
