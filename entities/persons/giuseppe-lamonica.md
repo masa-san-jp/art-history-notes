@@ -1,11 +1,11 @@
 ---
-id: person/fausto-zonaro
-uri: urn:ahn:person/fausto-zonaro
+id: person/giuseppe-lamonica
+uri: urn:ahn:person/giuseppe-lamonica
 type: person
-label_ja: ファウスト・ゾナーロ
-label_en: Fausto Zonaro
+label_ja: ジュゼッペ・ラモーニカ
+label_en: Giuseppe Lamonica
 aliases:
-  - Zonaro Fausto
+  - Lamonica Giuseppe
 authority:
   wikidata: null
   ulan: null
@@ -15,7 +15,7 @@ authority:
 time:
   start: null
   end: null
-  display: "19世紀末にマージ出身者として活動"
+  display: "19世紀末にナポリ出身者として活動"
 space: []
 relations:
   - {type: exhibited_at, target: event/first-brera-triennale-1891}
@@ -25,6 +25,6 @@ status: draft
 updated: 2026-08-13
 ---
 
-# ファウスト・ゾナーロ / Fausto Zonaro
+# ジュゼッペ・ラモーニカ / Giuseppe Lamonica
 
-1891年の第一回ブレラ三年展公式カタログに、パドヴァ県マージ出身者として掲載される出品者。465番《Festa popolare》、593番《Porta laterale del Duomo di Genova》を出品した。本項は展覧会記録に限定する。
+1891年の第一回ブレラ三年展公式カタログに、ナポリ出身者として掲載される出品者。591番《Pagine meste》を出品した。本項は展覧会記録に限定する。

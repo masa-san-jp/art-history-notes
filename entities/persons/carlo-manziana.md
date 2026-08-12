@@ -22,12 +22,12 @@ sources:
   - https://www.pittoriliguri.info/pittori-liguri/manziana-carlo/
   - https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf
 status: draft
-updated: 2026-08-12
+updated: 2026-08-13
 ---
 
 # カルロ・マンツィアーナ / Carlo Manziana
 
 ブレシア出身のイタリアの画家。ファウスティーノ・ジョーリやジュゼッペ・ベルティーニに学び、風景画や風俗画を制作した。
 
-1891年の第一回ブレラ三年展では、公式カタログの75番《Al pascolo》を出品した。本項では、この展覧会での出品関係を記録するが、
+1891年の第一回ブレラ三年展では、公式カタログの75番《Al pascolo》、586番《Al Pozzo (Dal vero)》を出品した。本項では、この展覧会での出品関係を記録するが、
 マンツィアーナをイタリア分割主義の構成員とは位置づけない。
