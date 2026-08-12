@@ -14638,6 +14638,44 @@
       "updated": "2026-08-12",
       "path": "entities/works/bathers-at-asnieres.md"
     },
+    "work/effet-de-neige-cinotti-1907": {
+      "id": "work/effet-de-neige-cinotti-1907",
+      "uri": "urn:ahn:work/effet-de-neige-cinotti-1907",
+      "type": "work",
+      "label_ja": "グイド・チノッティ《Effet de Neige / Sneeuweffect in Lombardije》",
+      "label_en": "Effet de Neige / Sneeuweffect in Lombardije",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "独立作品典拠IDは未確認。1907年・1912年の展覧会カタログ記録を用いる"
+      },
+      "time": {
+        "start": "1907",
+        "end": "1907",
+        "display": "1907年パリ展出品（制作年未確認）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/guido-cinotti"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/salon-divisionnistes-italiens-paris-1907"
+        }
+      ],
+      "sources": [
+        "https://exhibitions.univie.ac.at/person/3325",
+        "https://exhibitions.univie.ac.at/exhibition/125",
+        "https://exhibitions.univie.ac.at/exhibition/447"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/works/effet-de-neige-cinotti-1907.md"
+    },
     "work/effet-du-soleil-sur-la-neige-maggi-1907": {
       "id": "work/effet-du-soleil-sur-la-neige-maggi-1907",
       "uri": "urn:ahn:work/effet-du-soleil-sur-la-neige-maggi-1907",
@@ -17831,6 +17869,20 @@
       "to": "org/national-gallery-london"
     },
     {
+      "from": "work/effet-de-neige-cinotti-1907",
+      "type": "created_by",
+      "to": "person/guido-cinotti",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/effet-de-neige-cinotti-1907",
+      "type": "exhibited_at",
+      "to": "event/salon-divisionnistes-italiens-paris-1907",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "work/effet-du-soleil-sur-la-neige-maggi-1907",
       "type": "created_by",
       "to": "person/cesare-maggi",
@@ -19542,6 +19594,18 @@
       "from": "event/first-salon-des-independants-1884",
       "type": "exhibited",
       "to": "work/bathers-at-asnieres",
+      "derived": true
+    },
+    {
+      "from": "person/guido-cinotti",
+      "type": "created",
+      "to": "work/effet-de-neige-cinotti-1907",
+      "derived": true
+    },
+    {
+      "from": "event/salon-divisionnistes-italiens-paris-1907",
+      "type": "exhibited",
+      "to": "work/effet-de-neige-cinotti-1907",
       "derived": true
     },
     {

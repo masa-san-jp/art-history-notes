@@ -31,5 +31,5 @@ updated: 2026-08-12
 シエナに生まれ、ミラノで没した画家。ブレラ美術アカデミーで学び、フィリッポ・カルカーノの影響から
 ジョヴァンニ・セガンティーニに接近し、静物や農村風景に分割主義の技法を取り入れた。
 
-1907年パリ展では、Sala A（Rotonde）の22〜26番に《Effet de Neige》と4点の《Marine (étude)》、計5作品を出品した。
-作品個別の典拠整理は次段で行う。
+1907年パリ展では、Sala A（Rotonde）の22〜26番に[`《Effet de Neige / Sneeuweffect in Lombardije》`](../works/effet-de-neige-cinotti-1907.md)と
+4点の《Marine (étude)》、計5作品を出品した。1912年アムステルダム展では同作に対応する題名が539番に記録される。
