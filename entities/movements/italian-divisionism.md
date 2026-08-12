@@ -35,6 +35,7 @@ sources:
   - https://www.treccani.it/enciclopedia/giovanni-segantini_%28Enciclopedia-dei-ragazzi%29/
   - https://collezionedarte.bancaditalia.it/web/guest/-/divisionismo-1
   - https://www.treccani.it/enciclopedia/angelo-morbelli_%28Dizionario-Biografico%29/
+  - https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf
 status: draft
 updated: 2026-08-12
 ---
@@ -55,8 +56,18 @@ updated: 2026-08-12
 公式な初出を構成したと記録する。主要な担い手には、ヴィットーレ・グルビーチ、プレヴィアーティ、
 セガンティーニ、モルベッリ、ジュゼッペ・ペリッツァ・ダ・ヴォルペード、カルロ・フォルナラらが含まれる。
 
-ここで確認できたのは、展覧会の通称・都市・年と、モルベッリ側の出品作までである。第一回展の公式カタログ
-そのもの、会場内の展示位置、3人以外の全出品作一覧は未確認であり、展覧会を単一の組織や宣言の場とは扱わない。
+## 1891年公式カタログ
+
+公開されている『Prima esposizione triennale 1891: catalogo ufficiale illustrato』は、題紙に
+R. Accademia di Belle Arti di Breraを掲げ、ミラノのProprietà artistica Arturo Demarchiから刊行された
+公式カタログである。索引と本文の対応から、少なくとも次の出品番号・作品名を一次資料で確認できる。
+
+- セガンティーニ：209《Le due Madri》、241
+- プレヴィアーティ：213《Maternità》
+- モルベッリ：517《Alba》、518《Un Consiglio del nonno – Parlatorio del luogo Pio Triulzio》
+
+したがって、1891年展については公式カタログの存在、刊行情報、上記3作家の掲載番号と一部作品名まで確認済みである。
+会場内の展示位置、全出品作と出品者の対応、開催日程は引き続き未整理であり、展覧会を単一の組織や宣言の場とは扱わない。
 
 ## フランスの新印象派との差
 
@@ -67,6 +78,6 @@ updated: 2026-08-12
 
 ## 未着手
 
-- 1891年第一回ブレラ三年展の公式カタログを確認し、会場表記・開催日・全出品作と出品者を一次資料で特定すること
+- 1891年第一回ブレラ三年展の会場表記・開催日・全出品作と出品者を公式カタログで整理すること
 - プレヴィアーティ、セガンティーニ、モルベッリ、ペリッツァらの個別の person / work エンティティ化
 - 1907年パリで開かれたイタリア分割主義者展など、国外での受容経路の整理
