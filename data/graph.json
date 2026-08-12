@@ -11093,6 +11093,41 @@
       "updated": "2026-08-12",
       "path": "entities/persons/giovanni-battista-rastellini.md"
     },
+    "person/giovanni-mayer": {
+      "id": "person/giovanni-mayer",
+      "uri": "urn:ahn:person/giovanni-mayer",
+      "type": "person",
+      "label_ja": "ジョヴァンニ・マイヤー",
+      "label_en": "Giovanni Mayer",
+      "authority": {
+        "wikidata": null,
+        "ulan": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "独立した人物典拠IDは未確認。トリエステ市民博物館、地域文化資料、1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": "1863",
+        "end": "1943",
+        "display": "1863年トリエステ生まれ — 1943年同地没"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://beniculturali.comune.trieste.it/autore/?s_id=36914",
+        "https://www.openstarts.units.it/bitstream/10077/21679/1/LET3778.pdf",
+        "https://dizionariodartesartori.it/artisti/mayer-giovanni",
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/persons/giovanni-mayer.md"
+    },
     "person/giovanni-segantini": {
       "id": "person/giovanni-segantini",
       "uri": "urn:ahn:person/giovanni-segantini",
@@ -11343,6 +11378,38 @@
       "status": "draft",
       "updated": "2026-08-12",
       "path": "entities/persons/gottardo-segantini.md"
+    },
+    "person/guglielmo-guidetti": {
+      "id": "person/guglielmo-guidetti",
+      "uri": "urn:ahn:person/guglielmo-guidetti",
+      "type": "person",
+      "label_ja": "グイリエルモ・グイデッティ",
+      "label_en": "Guglielmo Guidetti",
+      "authority": {
+        "wikidata": null,
+        "ulan": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "独立した人物典拠IDと生没年は未確認。1891年公式カタログを用いる"
+      },
+      "time": {
+        "start": null,
+        "end": null,
+        "display": "生没年未詳"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/persons/guglielmo-guidetti.md"
     },
     "person/guido-cinotti": {
       "id": "person/guido-cinotti",
@@ -19062,6 +19129,42 @@
       "updated": "2026-08-12",
       "path": "entities/works/inverno-fragiacomo-1890.md"
     },
+    "work/l-amico-dell-uomo-guidetti-1891": {
+      "id": "work/l-amico-dell-uomo-guidetti-1891",
+      "uri": "urn:ahn:work/l-amico-dell-uomo-guidetti-1891",
+      "type": "work",
+      "label_ja": "グイリエルモ・グイデッティ《L’amico dell’uomo》",
+      "label_en": "L’amico dell’uomo",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "1891年展出品作としての独立典拠IDと現所在は未確認。公式カタログを用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年展出品"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/guglielmo-guidetti"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/works/l-amico-dell-uomo-guidetti-1891.md"
+    },
     "work/l-annonceation-previati-1907": {
       "id": "work/l-annonceation-previati-1907",
       "uri": "urn:ahn:work/l-annonceation-previati-1907",
@@ -23806,6 +23909,43 @@
       "updated": "2026-08-12",
       "path": "entities/works/ricordanze-fornara-1891.md"
     },
+    "work/riflessione-mayer-1891": {
+      "id": "work/riflessione-mayer-1891",
+      "uri": "urn:ahn:work/riflessione-mayer-1891",
+      "type": "work",
+      "label_ja": "ジョヴァンニ・マイヤー《Riflessione》",
+      "label_en": "Riflessione",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "1891年展出品作としての独立典拠IDと現所在は未確認。公式カタログと人物典拠を用いる"
+      },
+      "time": {
+        "start": "1891",
+        "end": "1891",
+        "display": "1891年展出品"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/giovanni-mayer"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/first-brera-triennale-1891"
+        }
+      ],
+      "sources": [
+        "https://beniculturali.comune.trieste.it/autore/?s_id=36914",
+        "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/works/riflessione-mayer-1891.md"
+    },
     "work/riposo-fragiacomo-1891": {
       "id": "work/riposo-fragiacomo-1891",
       "uri": "urn:ahn:work/riposo-fragiacomo-1891",
@@ -27962,6 +28102,13 @@
       "source": null
     },
     {
+      "from": "person/giovanni-mayer",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "person/giovanni-segantini",
       "type": "belongs_to",
       "to": "movement/italian-divisionism",
@@ -28052,6 +28199,13 @@
       "from": "person/gottardo-segantini",
       "type": "exhibited_at",
       "to": "event/salon-divisionnistes-italiens-paris-1907",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "person/guglielmo-guidetti",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
       "certainty": null,
       "source": null
     },
@@ -29621,6 +29775,20 @@
     },
     {
       "from": "work/inverno-fragiacomo-1890",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/l-amico-dell-uomo-guidetti-1891",
+      "type": "created_by",
+      "to": "person/guglielmo-guidetti",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/l-amico-dell-uomo-guidetti-1891",
       "type": "exhibited_at",
       "to": "event/first-brera-triennale-1891",
       "certainty": null,
@@ -31448,6 +31616,20 @@
     },
     {
       "from": "work/ricordanze-fornara-1891",
+      "type": "exhibited_at",
+      "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/riflessione-mayer-1891",
+      "type": "created_by",
+      "to": "person/giovanni-mayer",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/riflessione-mayer-1891",
       "type": "exhibited_at",
       "to": "event/first-brera-triennale-1891",
       "certainty": null,
@@ -33532,6 +33714,12 @@
       "derived": true
     },
     {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "person/giovanni-mayer",
+      "derived": true
+    },
+    {
       "from": "movement/italian-divisionism",
       "type": "has_member",
       "to": "person/giovanni-segantini",
@@ -33601,6 +33789,12 @@
       "from": "event/salon-divisionnistes-italiens-paris-1907",
       "type": "exhibited",
       "to": "person/gottardo-segantini",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "person/guglielmo-guidetti",
       "derived": true
     },
     {
@@ -34879,6 +35073,18 @@
       "from": "event/first-brera-triennale-1891",
       "type": "exhibited",
       "to": "work/inverno-fragiacomo-1890",
+      "derived": true
+    },
+    {
+      "from": "person/guglielmo-guidetti",
+      "type": "created",
+      "to": "work/l-amico-dell-uomo-guidetti-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/l-amico-dell-uomo-guidetti-1891",
       "derived": true
     },
     {
@@ -36445,6 +36651,18 @@
       "from": "event/first-brera-triennale-1891",
       "type": "exhibited",
       "to": "work/ricordanze-fornara-1891",
+      "derived": true
+    },
+    {
+      "from": "person/giovanni-mayer",
+      "type": "created",
+      "to": "work/riflessione-mayer-1891",
+      "derived": true
+    },
+    {
+      "from": "event/first-brera-triennale-1891",
+      "type": "exhibited",
+      "to": "work/riflessione-mayer-1891",
       "derived": true
     },
     {
