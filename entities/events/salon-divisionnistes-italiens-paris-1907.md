@@ -22,6 +22,7 @@ sources:
   - https://www.bdl.servizirl.it/vufind/Record/BDL-OGGETTO-2295
   - https://www.bdl.servizirl.it/bdl/public/rest/srv/item/2295/pdf
   - https://search.worldcat.org/es/title/Catalogue-du-salon-des-peintres-divisionnistes-italiens-organise-par-la-Galerie-d'art-A.-Grubicy-de-Milan-1er-Septembre-15-Octobre-1907-%3A-Serre-de-l'Alma/oclc/739207378
+  - https://obtic.huma-num.fr/obvil-web/corpus/mdf-italie/mercure-italie_1907
 status: draft
 updated: 2026-08-12
 ---
@@ -59,3 +60,5 @@ Database of Modern Exhibitionsの絵画・素描の出品者一覧には、[`ピ
 [`レンブラント・ブガッティ`](../persons/rembrandt-bugatti.md)と[`リベロ・アンドレオッティ`](../persons/libero-andreotti.md)を挙げている。
 両者の参加は人物エンティティに記録するが、現時点では個別の作品番号・題名を確定できないため、177件および
 「その他の媒体」113件の集計には追加しない。未登録の作家は、個別典拠を確認してから人物エンティティ化する。
+
+パリでの同時代受容については、シャルル・モリスが1907年11月15日付の『Mercure de France』でこの展覧会を相当規模の催しとして論じ、セガンティーニ、フォルナラ、プレヴィアーティ、ブガッティ、アンドレオッティを個別に評価している。これは展覧会のフランス語圏での批評的受容を示すが、各作品番号や「その他の媒体」113件の個別同定を補う資料ではない。
