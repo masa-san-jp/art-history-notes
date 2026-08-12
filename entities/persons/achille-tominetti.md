@@ -26,7 +26,7 @@ sources:
   - https://www.enricogallerie.com/index.php?q=it%2Fartist%2Fpittore_tominetti_achille_544
   - https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf
 status: draft
-updated: 2026-08-12
+updated: 2026-08-13
 ---
 
 # アキッレ・トミネッティ / Achille Tominetti

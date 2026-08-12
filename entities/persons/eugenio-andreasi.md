@@ -27,4 +27,4 @@ updated: 2026-08-13
 
 # エウジェニオ・アンドレアージ / Eugenio Andreasi
 
-1891年の第一回ブレラ三年展公式カタログに掲載される出品者。402番《Cascinale lombardo》を出品した。本項は展覧会記録に限定する。
+1891年の第一回ブレラ三年展公式カタログに掲載される出品者。402番《Cascinale lombardo》、403番《Canal Grande a S. Geremia in Venezia》を出品した。本項は展覧会記録に限定する。
