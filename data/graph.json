@@ -14676,6 +14676,44 @@
       "updated": "2026-08-12",
       "path": "entities/works/bathers-at-asnieres.md"
     },
+    "work/coucher-de-soleil-en-ete-focardi-1907": {
+      "id": "work/coucher-de-soleil-en-ete-focardi-1907",
+      "uri": "urn:ahn:work/coucher-de-soleil-en-ete-focardi-1907",
+      "type": "work",
+      "label_ja": "ピエロ・フォカルディ《Coucher de Soleil en été》",
+      "label_en": "Coucher de Soleil en été",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "独立作品典拠IDは未確認。1907年展カタログと専門画廊資料を用いる"
+      },
+      "time": {
+        "start": "1907",
+        "end": "1907",
+        "display": "1907年パリ展出品（制作年未確認）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/piero-focardi"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/salon-divisionnistes-italiens-paris-1907"
+        }
+      ],
+      "sources": [
+        "https://exhibitions.univie.ac.at/exhibition/125",
+        "https://www.enricogallerie.com/index.php?q=print_artist%2F300",
+        "https://www.valutazionearte.it/artisti/piero-focardi/"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/works/coucher-de-soleil-en-ete-focardi-1907.md"
+    },
     "work/effet-de-neige-cinotti-1907": {
       "id": "work/effet-de-neige-cinotti-1907",
       "uri": "urn:ahn:work/effet-de-neige-cinotti-1907",
@@ -14946,6 +14984,44 @@
       "status": "draft",
       "updated": "2026-08-12",
       "path": "entities/works/labour-alpestre-mattino-alpestre-omio-1906.md"
+    },
+    "work/le-chateau-de-padenghe-focardi-1907": {
+      "id": "work/le-chateau-de-padenghe-focardi-1907",
+      "uri": "urn:ahn:work/le-chateau-de-padenghe-focardi-1907",
+      "type": "work",
+      "label_ja": "ピエロ・フォカルディ《Le Château de Padenghe》",
+      "label_en": "Le Château de Padenghe",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "独立作品典拠IDは未確認。1907年展カタログと専門画廊資料を用いる"
+      },
+      "time": {
+        "start": "1907",
+        "end": "1907",
+        "display": "1907年パリ展出品（制作年未確認）"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/piero-focardi"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/salon-divisionnistes-italiens-paris-1907"
+        }
+      ],
+      "sources": [
+        "https://exhibitions.univie.ac.at/exhibition/125",
+        "https://www.enricogallerie.com/index.php?q=print_artist%2F300",
+        "https://www.valutazionearte.it/artisti/piero-focardi/"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/works/le-chateau-de-padenghe-focardi-1907.md"
     },
     "work/le-due-madri-segantini": {
       "id": "work/le-due-madri-segantini",
@@ -18034,6 +18110,20 @@
       "to": "org/national-gallery-london"
     },
     {
+      "from": "work/coucher-de-soleil-en-ete-focardi-1907",
+      "type": "created_by",
+      "to": "person/piero-focardi",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/coucher-de-soleil-en-ete-focardi-1907",
+      "type": "exhibited_at",
+      "to": "event/salon-divisionnistes-italiens-paris-1907",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "work/effet-de-neige-cinotti-1907",
       "type": "created_by",
       "to": "person/guido-cinotti",
@@ -18133,6 +18223,20 @@
     },
     {
       "from": "work/labour-alpestre-mattino-alpestre-omio-1906",
+      "type": "exhibited_at",
+      "to": "event/salon-divisionnistes-italiens-paris-1907",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/le-chateau-de-padenghe-focardi-1907",
+      "type": "created_by",
+      "to": "person/piero-focardi",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/le-chateau-de-padenghe-focardi-1907",
       "type": "exhibited_at",
       "to": "event/salon-divisionnistes-italiens-paris-1907",
       "certainty": null,
@@ -19816,6 +19920,18 @@
       "derived": true
     },
     {
+      "from": "person/piero-focardi",
+      "type": "created",
+      "to": "work/coucher-de-soleil-en-ete-focardi-1907",
+      "derived": true
+    },
+    {
+      "from": "event/salon-divisionnistes-italiens-paris-1907",
+      "type": "exhibited",
+      "to": "work/coucher-de-soleil-en-ete-focardi-1907",
+      "derived": true
+    },
+    {
       "from": "person/guido-cinotti",
       "type": "created",
       "to": "work/effet-de-neige-cinotti-1907",
@@ -19903,6 +20019,18 @@
       "from": "event/salon-divisionnistes-italiens-paris-1907",
       "type": "exhibited",
       "to": "work/labour-alpestre-mattino-alpestre-omio-1906",
+      "derived": true
+    },
+    {
+      "from": "person/piero-focardi",
+      "type": "created",
+      "to": "work/le-chateau-de-padenghe-focardi-1907",
+      "derived": true
+    },
+    {
+      "from": "event/salon-divisionnistes-italiens-paris-1907",
+      "type": "exhibited",
+      "to": "work/le-chateau-de-padenghe-focardi-1907",
       "derived": true
     },
     {
