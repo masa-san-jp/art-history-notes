@@ -33,5 +33,6 @@ updated: 2026-08-12
 初期には分割主義の方法を用いた。没年はDOME・Treccaniの1962年とWikidata等の1961年に差があるため、確定せず併記する。
 
 1907年パリ展では、Salle Cの93〜100番に[`《La melanconia del sole / Mélancolie du soleil》`](../works/melanconie-du-soleil-maggi-1906.md)、
-[`《Effet du soleil sur la neige / Effetto di Neve》`](../works/effet-du-soleil-sur-la-neige-maggi-1907.md)、[`《Etude de paysage》`](../works/etude-de-paysage-maggi-1907.md)、
-[`《Crépuscule en Montagne》`](../works/crepuscule-en-montagne-maggi-1907.md)など8作品を出品した。
+94番[`《Effet du soleil sur la neige》`](../works/effet-du-soleil-sur-la-neige-maggi-1907-no94.md)、[`《Etude de paysage》`](../works/etude-de-paysage-maggi-1907.md)、
+[`《Crépuscule en Montagne》`](../works/crepuscule-en-montagne-maggi-1907.md)、[`《Un nuage》`](../works/un-nuage-maggi-1907.md)、
+[`《Femme tricoteuse》`](../works/femme-tricoteuse-maggi-1907.md)、[`《Le mont Cervin》`](../works/le-mont-cervin-maggi-1907.md)、100番[`《Effet de neige / Effetto di Neve》`](../works/effet-du-soleil-sur-la-neige-maggi-1907.md)の8作品を出品した。
