@@ -5601,6 +5601,12 @@
           "target": "movement/constructivism",
           "certainty": "scholarly",
           "source": "https://smarthistory.org/geometric-abstraction-south-america/"
+        },
+        {
+          "type": "reacts_against",
+          "target": "movement/suprematism",
+          "certainty": "attested",
+          "source": "https://portal.lygiaclark.org.br/acervo/67348/manifesto-neoconcreto"
         }
       ],
       "sources": [
@@ -14419,6 +14425,13 @@
     },
     {
       "from": "movement/neoconcretismo",
+      "type": "reacts_against",
+      "to": "movement/suprematism",
+      "certainty": "attested",
+      "source": "https://portal.lygiaclark.org.br/acervo/67348/manifesto-neoconcreto"
+    },
+    {
+      "from": "movement/neoconcretismo",
       "type": "originated_in",
       "to": "place/rio-de-janeiro"
     },
@@ -15878,6 +15891,12 @@
     },
     {
       "from": "movement/constructivism",
+      "type": "reacted_against_by",
+      "to": "movement/neoconcretismo",
+      "derived": true
+    },
+    {
+      "from": "movement/suprematism",
       "type": "reacted_against_by",
       "to": "movement/neoconcretismo",
       "derived": true

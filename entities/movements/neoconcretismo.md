@@ -30,6 +30,7 @@ space:
 relations:
   - {type: created_by, target: person/ferreira-gullar}
   - {type: reacts_against, target: movement/constructivism, certainty: scholarly, source: "https://smarthistory.org/geometric-abstraction-south-america/"}
+  - {type: reacts_against, target: movement/suprematism, certainty: attested, source: "https://portal.lygiaclark.org.br/acervo/67348/manifesto-neoconcreto"}
 sources:
   - https://portal.lygiaclark.org.br/acervo/67348/manifesto-neoconcreto
   - https://portal.lygiaclark.org.br/acervo/1747/1-exposicao-neoconcreta
@@ -131,6 +132,16 @@ esgotada）」として運動から離れたと同資料は伝える（二次情
 ただし当事者自身が「グループではない」と明言している点は、この movement の実体——結社ではなく、
 共有された主張と振る舞いの束であること——を理解するうえで本質的な情報として本文に残した。①②は
 無く、③は狭義の様式ではなく主張と媒体横断の実践によって成立している。
+
+## シュプレマティスムとの関係
+
+宣言は、新造形主義・構成主義・シュプレマティスムを含む幾何学的な非具象芸術を列挙し、そこから
+「危険なまでに合理主義的に先鋭化された」具体芸術を批判する。そのうえで、モンドリアンや
+マレーヴィチの作品を、理論上の図式ではなく直接の知覚経験として捉え直そうとする
+（[Manifesto Neoconcreto](https://portal.lygiaclark.org.br/acervo/67348/manifesto-neoconcreto)、
+リジア・クラーク文化協会が公開する実物スキャンと全文翻刻）。したがって、ここでの
+`reacts_against movement/suprematism` はシュプレマティスムの全作品やマレーヴィチ個人を否定する
+という意味ではなく、幾何学的抽象を合理主義的な体系へ還元する読みへの、宣言上の反応を指す。
 
 ## 時間
 
