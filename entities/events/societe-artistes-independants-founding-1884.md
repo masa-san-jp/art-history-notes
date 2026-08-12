@@ -17,6 +17,7 @@ time:
 space:
   - {role: held_at, target: place/paris}
 relations:
+  - {type: precedes, target: event/first-salon-des-independants-1884}
   - {type: precedes, target: event/eighth-impressionist-exhibition-1886}
 sources:
   - https://www.culture.gouv.fr/thematiques/musees/Les-musees-en-France/les-collections-des-musees-de-france/decouvrir-les-collections/les-huit-expositions-impressionnistes-1874-1886/1886-huitieme-exposition
