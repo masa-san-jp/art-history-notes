@@ -28,7 +28,7 @@ updated: 2026-08-12
 # プリーニオ・ノメリーニ / Plinio Nomellini
 
 リヴォルノ出身の画家。Treccaniは、1891年の第一回ブレラ三年展に
-《Piazza Caricamento a Genova》を出品したと記録する。公式カタログ本文でも、Sala Qの281番に
-同名作品が掲載される。
+[`《Piazza Caricamento a Genova》`](../works/piazza-caricamento-nomellini-1891.md)を出品したと記録する。公式カタログ本文でも、
+Sala Qの281番に同名作品が掲載される。
 
 作品の現所在と制作年は未確認のため、作品エンティティでは1891年展への出品情報だけを記録する。
