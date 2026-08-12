@@ -31,4 +31,5 @@ updated: 2026-08-12
 Signor De Cristoforis Malachia」を「Rastellini Giovan Battista di Buttogno」名義で掲載する。索引は同人物の出品番号を326・573と記録する。
 一方、文化財総合カタログは別作品の作者表記を「Rastellini Giovan Battista?」として帰属を留保しているため、
 本項のcreated_by関係は公式カタログの出品者記載に基づく仮置きであり、作品の作者同定・制作年・現所在を確定するものではない。なお、
-同カタログの572番「In Val d'Intelvi」はVillani Pietroの出品作であり、本項のラステッリーニには帰属させない。
+同カタログの572番「In Val d'Intelvi」は[ピエトロ・ヴィッラーニ](../persons/pietro-villani.md)の出品作であり、
+本項のラステッリーニには帰属させない。
