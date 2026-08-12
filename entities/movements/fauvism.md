@@ -29,6 +29,7 @@ space:
   - {role: originated_in, target: place/paris}
 relations:
   - {type: influenced_by, target: movement/post-impressionism, certainty: scholarly, source: "https://www.metmuseum.org/ja/essays/fauvism"}
+  - {type: influenced_by, target: movement/neo-impressionism, certainty: scholarly, source: "https://www.metmuseum.org/ja/essays/fauvism"}
   - {type: diffused_to, target: place/tokyo, certainty: scholarly, source: "https://www.momak.go.jp/English/collectionGalleryArchive/2017/collectionGallery2017No05.html"}
 sources:
   - https://www.wikidata.org/wiki/Q166593
@@ -61,8 +62,9 @@ updated: 2026-08-12
 メトロポリタン美術館は、マティスがフォーヴ様式へ到達する前に、ゴッホ、ゴーギャン、セザンヌらの
 ポスト印象派の様式を試みていたと説明する。また、ヴラマンクが1905年にゴッホの回顧展を見たことも
 フォーヴ様式への転換の契機として記録されている（[同館の解説](https://www.metmuseum.org/ja/essays/fauvism)）。
-このため本項では、フォーヴィスム全体がポスト印象派の単一の様式を継承したと一般化せず、中心人物の
-形成経路に限定して `influenced_by movement/post-impressionism` を記録する。
+同じ解説は、マティスがスーラ、クロス、シニャックの新印象派も試したと記録する。このため本項では、
+フォーヴィスム全体が単一の先行様式を継承したと一般化せず、中心人物の形成経路に限定して
+`influenced_by movement/post-impressionism` と `influenced_by movement/neo-impressionism` を記録する。
 
 ## 日本への波及
 
