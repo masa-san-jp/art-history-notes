@@ -5371,6 +5371,12 @@
           "target": "place/brussels",
           "certainty": "scholarly",
           "source": "https://en.wikipedia.org/wiki/Les_Vingt"
+        },
+        {
+          "type": "influenced_by",
+          "target": "concept/ukiyo-e",
+          "certainty": "scholarly",
+          "source": "https://www.vangoghmuseum.nl/assets/491dd716-741d-4608-975e-e9652bdfd063?c=2379957789b45233379dcf35054dd324a2f54e39adeb7c20b1481dc08c461b44"
         }
       ],
       "sources": [
@@ -5378,6 +5384,7 @@
         "https://api.artic.edu/api/v1/artworks/27992",
         "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300021505",
         "https://digistore.bib.ulb.ac.be/2008/DL2864764_1886_f.pdf",
+        "https://www.vangoghmuseum.nl/assets/491dd716-741d-4608-975e-e9652bdfd063?c=2379957789b45233379dcf35054dd324a2f54e39adeb7c20b1481dc08c461b44",
         "https://gallica.bnf.fr/ark:/12148/bpt6k850398w",
         "https://catalogue.bnf.fr/ark:/12148/cb30427294w",
         "https://fr.wikipedia.org/wiki/N%C3%A9o-impressionnisme",
@@ -5401,7 +5408,7 @@
         }
       ],
       "status": "verified",
-      "updated": "2026-08-09",
+      "updated": "2026-08-12",
       "path": "entities/movements/neo-impressionism.md"
     },
     "movement/neoclassicism": {
@@ -14283,6 +14290,13 @@
     },
     {
       "from": "movement/neo-impressionism",
+      "type": "influenced_by",
+      "to": "concept/ukiyo-e",
+      "certainty": "scholarly",
+      "source": "https://www.vangoghmuseum.nl/assets/491dd716-741d-4608-975e-e9652bdfd063?c=2379957789b45233379dcf35054dd324a2f54e39adeb7c20b1481dc08c461b44"
+    },
+    {
+      "from": "movement/neo-impressionism",
       "type": "originated_in",
       "to": "place/paris"
     },
@@ -15732,6 +15746,12 @@
     {
       "from": "place/brussels",
       "type": "received",
+      "to": "movement/neo-impressionism",
+      "derived": true
+    },
+    {
+      "from": "concept/ukiyo-e",
+      "type": "influenced",
       "to": "movement/neo-impressionism",
       "derived": true
     },
