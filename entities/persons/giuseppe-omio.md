@@ -34,6 +34,6 @@ updated: 2026-08-12
 結びついた若い分割主義者の一人として、山岳と冬景色を描いた。没年は資料に1918年と1955年の差があるため、DOMEの記録を
 採用しつつ照合課題として残す。
 
-1907年パリ展では、Sala A（Rotonde）の45番《Matin sur les Alpes》と46番《Labour alpestre》を出品した。
+1907年パリ展では、Sala A（Rotonde）の45番[`《Matin sur les Alpes》`](../works/matin-sur-les-alpes-omio-1907.md)と46番《Labour alpestre》を出品した。
 後者は資料上、1906年作《Mattino alpestre》としても記録されるため、題名を併記した
 [`作品ノード`](../works/labour-alpestre-mattino-alpestre-omio-1906.md)を作成した。現行館内データベースでの所蔵照合は継続する。

@@ -31,7 +31,7 @@ updated: 2026-08-12
 セッティニャーノに生まれ、カンヌで没した風景画家。専門資料は、色彩分割の技法へ接近したのち、
 アルベルト・グルビーチの画廊に加わり、1907年のパリ・イタリア分割主義者展に9作品を出品したと記録する。
 
-1907年展のカタログでは、Sala A（Rotonde）の1〜9番に《Retour de la Messe》、
+1907年展のカタログでは、Sala A（Rotonde）の1〜9番に[`《Retour de la Messe》`](../works/retour-de-la-messe-focardi-1907.md)、
 [`《Baigneurs dans le Lac》`](../works/baigneurs-dans-le-lac-focardi-1906.md)、
 [`《Midi d'Été / Giorno di mezza estate》`](../works/midi-d-ete-focardi-1907.md)などが掲載される。
 6番の[`《Aube sur le lac de Garde / La punta di Manerba》`](../works/aube-sur-le-lac-de-garde-focardi-1907.md)は、1907年制作の館蔵記録と対応する。
