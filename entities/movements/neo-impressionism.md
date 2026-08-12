@@ -63,7 +63,9 @@ updated: 2026-08-12
 
 印象派の後、色彩を理論（Chevreul『De la loi du contraste simultané des couleurs』(1839)、Charles
 Blanc『Grammaire des arts du dessin』(1860)、Ogden Rood の光学）に基づいて分割して置く方向。
-点描（pointillism, AAT 300067450 / Wikidata Q200034）は技法名で、新印象派は運動名。同一ではない。
+分割主義（[concept/divisionism](../concepts/divisionism.md)）は色を分けて置く原理・技法、点描
+（pointillism, AAT 300067450 / Wikidata Q200034）は点を用いる筆触であり、新印象派はいずれとも
+同一ではない運動名である。
 
 1886年5月15日〜6月15日、パリ・rue Laffitte で開かれた第8回（最後の）印象派展の最後の一室に、
 ジョルジュ・スーラ《グランド・ジャット島の日曜日の午後》を中心に、ポール・シニャック、カミーユ・

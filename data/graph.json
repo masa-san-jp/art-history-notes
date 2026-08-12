@@ -1,5 +1,40 @@
 {
   "entities": {
+    "concept/divisionism": {
+      "id": "concept/divisionism",
+      "uri": "urn:ahn:concept/divisionism",
+      "type": "concept",
+      "label_ja": "分割主義",
+      "label_en": "Divisionism",
+      "authority": {
+        "wikidata": null,
+        "aat": "300419440",
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": "1884",
+        "end": null,
+        "display": "1884年頃以後。スーラが色彩分割の原理を展開し、後にフランスとイタリアで異なる実践を指す語として使われる"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "part_of",
+          "target": "movement/neo-impressionism"
+        }
+      ],
+      "sources": [
+        "https://www.getty.edu/vow/AATFullDisplay?find=divisionism&logic=AND&note=&english=Y&subjectid=300419440",
+        "https://www.metmuseum.org/art/collection/search/437658",
+        "https://www.metmuseum.org/pt/essays/georges-seurat-1859-1891-and-neo-impressionism",
+        "https://www.treccani.it/enciclopedia/divisionismo/"
+      ],
+      "status": "draft",
+      "updated": "2026-08-12",
+      "path": "entities/concepts/divisionism.md"
+    },
     "concept/harmony": {
       "id": "concept/harmony",
       "uri": "urn:ahn:concept/harmony",
@@ -13557,6 +13592,13 @@
   },
   "edges": [
     {
+      "from": "concept/divisionism",
+      "type": "part_of",
+      "to": "movement/neo-impressionism",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "concept/harmony",
       "type": "documented_in",
       "to": "source/seurat-letter-beaubourg-1890",
@@ -15657,6 +15699,12 @@
       "to": "movement/constructivism",
       "certainty": null,
       "source": null
+    },
+    {
+      "from": "movement/neo-impressionism",
+      "type": "has_part",
+      "to": "concept/divisionism",
+      "derived": true
     },
     {
       "from": "source/seurat-letter-beaubourg-1890",
