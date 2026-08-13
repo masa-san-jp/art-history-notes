@@ -19,7 +19,8 @@ from kb import (CERTAINTIES, CLAIM_FIELDS_FOR_VERIFIED, DIR_FOR_TYPE, ENTITIES, 
                 IMAGE_LICENSES,
                 INTERPRETIVE_RELATIONS, MOVEMENT_KINDS, RELATION_TARGET_TYPES, RELATIONS, ROOT,
                 SPACE_ROLES, SPACE_TARGET_TYPES, STATUSES, TYPES, URI_PREFIX, alias_map,
-                build_edges, edtf_ok, edtf_year_range, load_config, load_entities, read_frontmatter,
+                build_edges, century_label, edtf_ok, edtf_year_range, load_config, load_entities,
+                read_frontmatter,
                 read_queries, regions_of, search_entities)
 
 OVERVIEWS = ROOT / "overviews"
@@ -212,8 +213,8 @@ def coverage(entities, cfg):
     for mid, meta in counted.items():
         regions = regions_of(mid, entities)
         lo, _hi = edtf_year_range((meta.get("time") or {}).get("start"))
-        century = str(lo // 100 + 1) if lo else "unknown"
-        if lo and lo < 1800:
+        century = century_label(lo)
+        if lo is not None and lo < 1800:
             pre1800 += 1
         if not regions:
             key = "origin-unknown"

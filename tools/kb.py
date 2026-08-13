@@ -69,8 +69,12 @@ URI_PREFIX = "urn:ahn:"
 
 # --- EDTF（ISO 8601-2 Level 1 サブセット）--------------------------------------
 # 受ける形: 1884 / 1884-05 / 1884-05-20 / 146X / 18XX / 1503~ / 1884? / 1884%
-#          .. （開いた端）/ null（不明）
-EDTF_RE = re.compile(r"^(?:\.\.|(\d{4}|\d{3}X|\d{2}XX|\dXXX)(?:-\d{2}(?:-\d{2})?)?[?~%]?)$")
+#          -0899 / -08XX（紀元前）/ .. （開いた端）/ null（不明）
+#
+# 紀元前は ISO 8601-2 の符号付き年で表す。**年番号は天文学的**——0000 が紀元前1年、
+# -0001 が紀元前2年。したがって「紀元前900年」は -0899 であって -0900 ではない。
+# 1年ずれる規約なので、原表記は必ず time.display に残す（決定: issue #1、2026-08-13）。
+EDTF_RE = re.compile(r"^(?:\.\.|-?(\d{4}|\d{3}X|\d{2}XX|\dXXX)(?:-\d{2}(?:-\d{2})?)?[?~%]?)$")
 
 
 def edtf_ok(value):
@@ -78,15 +82,33 @@ def edtf_ok(value):
 
 
 def edtf_year_range(value):
-    """EDTF 値から (最小年, 最大年) を返す。開いた端・不明は None。ソートと集計に使う。"""
+    """EDTF 値から (最小年, 最大年) を返す。開いた端・不明は None。ソートと集計に使う。
+
+    紀元前は負の整数で返す。**マスクの展開は符号で向きが逆になる**——`09XX` は 900〜999 だが、
+    `-09XX` は -999〜-900 で最小と最大が入れ替わる。
+    """
     if not value or value == "..":
         return (None, None)
-    head = value.split("-")[0].rstrip("?~%")
+    sign = -1 if value.startswith("-") else 1
+    head = value.lstrip("-").split("-")[0].rstrip("?~%")
     if "X" not in head:
-        return (int(head), int(head))
-    lo = int(head.replace("X", "0"))
-    hi = int(head.replace("X", "9"))
-    return (lo, hi)
+        year = sign * int(head)
+        return (year, year)
+    ends = sorted((sign * int(head.replace("X", "0")), sign * int(head.replace("X", "9"))))
+    return (ends[0], ends[1])
+
+
+def century_label(year):
+    """年（符号付き）から被覆マップの世紀キーを作る。不明は "unknown"。
+
+    西暦は "19"（19世紀＝1801-1900）、紀元前は "-10"（前10世紀）のように符号を付けて分ける。
+    **`if year` で判定してはいけない**——西暦0年（＝紀元前1年）が falsy で落ちる。
+    """
+    if year is None:
+        return "unknown"
+    if year >= 0:
+        return str(year // 100 + 1)
+    return str(-(abs(year) // 100 + 1))
 
 
 # --- 読み込み -----------------------------------------------------------------
