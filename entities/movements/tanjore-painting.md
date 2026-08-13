@@ -29,7 +29,7 @@ claims:
 space:
   - {role: originated_in, target: place/thanjavur}
 relations:
-  - {type: patronized_by, target: org/thanjavur-maratha-kingdom, certainty: scholarly, source: "https://en.wikipedia.org/wiki/Thanjavur_painting"}
+  - {type: patronized_by, target: org/thanjavur-maratha-kingdom, certainty: scholarly, source: "https://tnrajbhavantour.tn.gov.in/tnrb-website-archive/Archives/Website1621/PressReleases/2019/PR040419-1.pdf"}
   - {type: influenced_by, target: movement/realism, certainty: scholarly, source: "https://imp-art.org/articles/tanjore-painting/"}
 sources:
   - https://www.wikidata.org/wiki/Q3108584
@@ -39,6 +39,7 @@ sources:
   - https://en.wikipedia.org/wiki/Serfoji_II
   - https://www.metmuseum.org/art/collection/search/850685
   - https://imp-art.org/articles/tanjore-painting/
+  - https://tnrajbhavantour.tn.gov.in/tnrb-website-archive/Archives/Website1621/PressReleases/2019/PR040419-1.pdf
 images:
   - url: https://images.metmuseum.org/CRDImages/as/original/DP-22860-001.jpg
     source_page: https://www.metmuseum.org/art/collection/search/850685
@@ -102,6 +103,12 @@ updated: 2026-08-10
 
 **したがって庇護の主体は、ナーヤカ朝→マラーター王家→チェッティアール商人層／イギリス人という
 形で少なくとも3回入れ替わっており、単一の制度・法人が様式全体を通して存在した記録はない。**
+
+このうち `org/thanjavur-maratha-kingdom` への `patronized_by` は、マラーター王家がタンジャーヴールの
+アトリエを育成し、当地の影響と王家の嗜好を吸収して独自のタンジョール様式が形成されたという局面に
+限定する。タミル・ナードゥ州政府系の公式資料も、ヴィジャヤナガル帝国崩壊後の画家の移住に続いて
+マラーター統治者がアトリエを育成したと説明しており、これは後世のチェッティアール商人層や英国人の
+庇護までマラーター王家に帰属させる主張ではない。
 
 ### ②担い手の継続——共同体単位では辿れるが、単一の血縁の系譜としては辿れない
 
