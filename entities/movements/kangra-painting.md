@@ -29,6 +29,7 @@ space:
 relations:
   - {type: influenced_by, target: movement/mughal-painting, certainty: scholarly, source: "https://www.metmuseum.org/art/collection/search/37950"}
   - {type: derives_from, target: movement/basohli-painting, certainty: scholarly, source: "https://www.metmuseum.org/art/collection/search/37947"}
+  - {type: diffused_to, target: place/london, certainty: scholarly, source: "https://www.britishmuseum.org/collection/object/A_1927-1116-0-2"}
 sources:
   - https://www.wikidata.org/wiki/Q6362867
   - https://www.wikidata.org/wiki/Q2988788
@@ -44,6 +45,7 @@ sources:
   - https://theprint.in/pageturner/excerpt/how-love-war-and-mughal-fine-art-inspired-kangra-painting/533500/
   - https://www.metmuseum.org/art/collection/search/37950
   - https://www.metmuseum.org/art/collection/search/37947
+  - https://www.britishmuseum.org/collection/object/A_1927-1116-0-2
 images:
   - url: https://images.metmuseum.org/CRDImages/as/original/DP166090.jpg
     source_page: https://www.metmuseum.org/art/collection/search/74675
@@ -54,7 +56,7 @@ images:
     license: cc0
     note: "マナク《シュカとサラナの羅刹の間者を解き放つラーマ：『ランカー包囲』シリーズ挿画》c.1725年。メトロポリタン美術館蔵（isPublicDomain: true）"
 status: draft
-updated: 2026-08-10
+updated: 2026-08-13
 ---
 
 # カーングラ派 / Kangra painting
@@ -202,6 +204,16 @@ painting"）を踏まえた。ムガル絵画の`155X`と同じ理由で、**様
 **未確認**: グレールとカーングラのどちらを「発生地」とすべきかは、様式の起点（グレール）と
 呼称の由来・最盛期（カーングラ）のどちらを基準にするかで変わる。本ファイルは後者を採ったが、
 一次資料での確認はしていない。
+
+### ロンドンでの収蔵
+
+カーングラ派の国外受容を示す具体例として、大英博物館は1850年頃にパンジャーブ丘陵で
+制作されたカーングラ様式の絵画を、インドで取得された作品として登録している。作品は
+1927年にMrs Alfred Morrisonから購入され、現在は大英博物館のコレクションにある
+（[大英博物館「painting」](https://www.britishmuseum.org/collection/object/A_1927-1116-0-2)）。
+ここで確認できるのは、**カーングラ派の作品がインドからロンドンの博物館コレクションへ
+移ったこと**であり、購入前の詳細な移動経路や、ロンドンの美術運動への影響ではない。そのため
+`diffused_to place/london` は作品の収蔵地点を記録するにとどめる。
 
 ## バソーリ派との接続
 

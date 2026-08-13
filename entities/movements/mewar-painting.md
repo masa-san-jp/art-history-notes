@@ -30,6 +30,7 @@ space:
 relations:
   - {type: influenced_by, target: movement/mughal-painting, certainty: scholarly, source: "https://resources.metmuseum.org/resources/metpublications/pdf/Wonder_of_the_Age_Master_Painters_of_India_1100_1900.pdf"}
   - {type: reacts_against, target: movement/mughal-painting, certainty: scholarly, source: "https://www.metmuseum.org/exhibitions/listings/2011/lyrical-visions?persisted=true&sc_device=default"}
+  - {type: diffused_to, target: place/london, certainty: scholarly, source: "https://www.britishmuseum.org/collection/object/A_1991-0131-0-1"}
 sources:
   - https://en.wikipedia.org/wiki/Rajput_painting
   - https://www.wikidata.org/wiki/Q2988788
@@ -45,6 +46,7 @@ sources:
   - https://openaccess-api.clevelandart.org/api/artworks/162857
   - https://resources.metmuseum.org/resources/metpublications/pdf/Wonder_of_the_Age_Master_Painters_of_India_1100_1900.pdf
   - https://www.metmuseum.org/exhibitions/listings/2011/lyrical-visions?persisted=true&sc_device=default
+  - https://www.britishmuseum.org/collection/object/A_1991-0131-0-1
 images:
   - url: https://openaccess-cdn.clevelandart.org/2018.136/2018.136_web.jpg
     source_page: https://clevelandart.org/art/2018.136
@@ -55,7 +57,7 @@ images:
     license: cc0
     note: "《クリシュナとゴーピー》c.1660年。クリーブランド美術館蔵（share_license_status: CC0）。ジャガト・シング1世没後の時代のクリシュナ信仰主題の作例"
 status: draft
-updated: 2026-08-10
+updated: 2026-08-13
 ---
 
 # メーワール派 / Mewar painting
@@ -207,6 +209,17 @@ India, Rajasthan, Rajput Kingdom of Mewar, Chawand」とする）。様式その
 ——[movement/kangra-painting](kangra-painting.md)のグレール／カーングラの関係と同型の
 ずれである。本ファイルは後者（ウダイプル）を`originated_in`に採ったが、一次資料での確認は
 していない。
+
+### ロンドンでの収蔵・展示
+
+メーワール派の作品がロンドンで受容された具体的な例として、大英博物館は、ウダイプルで
+1800年頃に制作されたマハーラーナー・カラン・シングの肖像を、1991年にMrs Henrietta Spinkから
+購入した作品として登録している。記録には、1990年12月のジュネーヴでの競売を経たことと、
+2010年にロンドンのナショナル・ポートレート・ギャラリーで展示されたことも残る
+（[大英博物館「Portrait of Maharana Karan Singh of Mewar」](https://www.britishmuseum.org/collection/object/A_1991-0131-0-1)）。
+この経路は、**メーワール派の作品がインドから欧州の市場を経てロンドンの博物館・展覧会へ
+移ったこと**を示すが、作品がロンドンの別の美術運動を変えたという因果ではない。そのため
+`diffused_to place/london` は作品の移動・制度的受容を記録する。
 
 ## ムガル絵画との関係——受容と抵抗の両面
 
