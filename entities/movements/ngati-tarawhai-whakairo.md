@@ -27,7 +27,8 @@ claims:
   - {field: kind, source: "https://www.ngatitarawhaiiwi.org.nz/nga-tohunga", certainty: scholarly}
 space:
   - {role: originated_in, target: place/lake-okataina}
-relations: []
+relations:
+  - {type: diffused_to, target: place/london, certainty: scholarly, source: "https://www.britishmuseum.org/collection/object/E_Oc1993-03-79"}
 sources:
   - https://www.ngatitarawhaiiwi.org.nz/nga-tohunga
   - https://en.wikipedia.org/wiki/Wero_T%C4%81roi
@@ -42,8 +43,9 @@ sources:
   - https://www.teaonews.co.nz/2017/12/21/three-significant-pou-whakairo-represent-te-arawa-style-of-carving/
   - https://www.tepuia.com/nz-maori-arts-crafts/the-national-wood-carving-school/
   - https://aucklanduniversitypress.co.nz/carved-histories-rotorua-ngati-tarawhai-carving/
+  - https://www.britishmuseum.org/collection/object/E_Oc1993-03-79
 status: draft
-updated: 2026-08-09
+updated: 2026-08-13
 ---
 
 # ンガーティ・タラーワイの彫刻 / Ngāti Tarāwhai whakairo
@@ -197,6 +199,20 @@ Histories: Rotorua Ngāti Tarāwhai Woodcarving』、Auckland University Press�
 される（イウィ・トラスト資料）。「学派」としての活動の中心は、その後ロトイティ湖畔のルアトー
 （Ruatō）に移ったと記録されるが、ルアトーそのものの座標典拠が取れていないため、
 `originated_in`にはオーカタイナ湖を置いた。**未確認**: ルアトーの座標典拠。
+
+### ロンドンでの様式受容
+
+ンガーティ・タラーワイの彫刻が国外で受容された経路には、原作の収蔵と、後代の訓練作・様式作例の
+展示を分けて記録する必要がある。ンガーティ・タラーワイ・イウィ・トラストは、同部族の彫刻師の
+作品がアオテアロア以外では、ドイツのハンブルク（《Rauru》）や英国のクラ​​ンドン・エステート
+（《Hinemihi》）に収蔵されていると説明する。一方、大英博物館の収蔵品記録は、1993年にロトルアの
+ニュージーランド・マオリ芸術工芸機構から購入した木彫パネルを、ンガーティ・タラーワイ様式の
+実習作（同機構の彫刻学校の学生トゥーホエ・フアタ作）と記載し、1998年にロンドンで展示したと
+記録する（[大英博物館「figure; wall panel」](https://www.britishmuseum.org/collection/object/E_Oc1993-03-79)）。
+これはウェロ・タロイやテネ・ワイテレら19世紀の師匠の原作がロンドンへ移ったという証拠ではなく、
+**ンガーティ・タラーワイの様式が、ロトルアの制度的な訓練を経た作品によってロンドンの博物館で
+展示されたこと**を示す。そのため `diffused_to place/london` は様式・技法の制度的受容を記録し、
+ロンドンの別の芸術運動への影響は主張しない。
 
 ## 未着手
 
