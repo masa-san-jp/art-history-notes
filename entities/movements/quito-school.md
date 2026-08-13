@@ -28,7 +28,7 @@ founding_control: external   # 本文「kind の判定」および「founding_co
 space:
   - {role: originated_in, target: place/quito}
 relations:
-  - {type: influenced_by, target: movement/baroque, certainty: scholarly, source: "https://www.encyclopedia.com/humanities/encyclopedias-almanacs-transcripts-and-maps/quito-school-art"}
+  - {type: influenced_by, target: movement/baroque, certainty: scholarly, source: "https://whc.unesco.org/en/list/2/"}
   - {type: influenced_by, target: movement/rococo, certainty: scholarly, source: "https://fundacionmuseosquito.gob.ec/MDC/Bibliograf%C3%ADa%20Sala%20siglo%20XVI/Pajuelo%20Jonathan-Arte%20de%20la%20Real%20Audiencia%20de%20Quito.pdf"}
   - {type: influenced_by, target: movement/neoclassicism, certainty: scholarly, source: "https://fundacionmuseosquito.gob.ec/MDC/Bibliograf%C3%ADa%20Sala%20siglo%20XVI/Pajuelo%20Jonathan-Arte%20de%20la%20Real%20Audiencia%20de%20Quito.pdf"}
 sources:
@@ -41,6 +41,7 @@ sources:
   - https://fundacionmuseosquito.gob.ec/MDC/Bibliograf%C3%ADa%20Sala%20siglo%20XVI/Pajuelo%20Jonathan-Arte%20de%20la%20Real%20Audiencia%20de%20Quito.pdf
   - https://www.scielo.org.mx/scielo.php?script=sci_arttext&pid=S0185-12762014000200010
   - https://cvc.cervantes.es/artes/ciudades_patrimonio/quito/personalidades/goribar.htm
+  - https://whc.unesco.org/en/list/2/
   - https://www.metmuseum.org/art/collection/search/204305
   - https://www.metmuseum.org/art/collection/search/204326
 status: draft
@@ -92,8 +93,10 @@ imaginería）が特色で、頭部・手・胴体を分業で仕上げる制作
 apprentice of Miguel de Santiago") と留保付きで書いており、師弟関係の確からしさの評価は
 出典間で温度差がある）。
 
-Encyclopedia of Latin American History and Culture は、キト派が欧州バロックおよびプラテレスクの
-様式と先住民の構成を混ぜたものだと説明する（[Encyclopedia.com「Quito School of Art」](https://www.encyclopedia.com/humanities/encyclopedias-almanacs-transcripts-and-maps/quito-school-art)）。
+UNESCO世界遺産センターは、キトの修道院・教会群を「キトのバロック派の芸術」の例とし、スペイン、
+イタリア、ムデハル、フランドル、先住民の美的影響が融合していると説明する
+（[UNESCO「City of Quito」](https://whc.unesco.org/en/list/2/)）。この公的機関の整理は、キト派を欧州バロックの単純な複製とみなすのではなく、複数の欧州系譜と
+先住民の造形が結合した地域的なバロックとして位置づける根拠になる。
 したがって本項の `influenced_by movement/baroque` は、16〜18世紀の形成期・最盛期における
 欧州バロック語彙の受容を指し、ルネサンス／マニエリスムや後期ロココ・新古典主義を含むキト派の
 全期間をバロックへ還元するものではない。
