@@ -27,7 +27,8 @@ claims:
   - {field: kind, source: "https://www.suzanneprestonblier.com/uploads/1/2/5/9/125984883/blier_art_in_ancient__african_arts_blier.pdf", certainty: scholarly}
 space:
   - {role: originated_in, target: place/ife}
-relations: []
+relations:
+  - {type: diffused_to, target: place/london, certainty: scholarly, source: "https://www.frobenius-institut.de/forschung/beendete-projekte/ife-objects-and-collections-in-and-out-of-africa"}
 sources:
   - https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&subjectid=300015795
   - https://www.wikidata.org/wiki/Q180084
@@ -39,13 +40,14 @@ sources:
   - https://en.wikipedia.org/wiki/Timeline_of_Yoruba_history
   - https://en.wikipedia.org/wiki/Oguola
   - https://en.wikipedia.org/wiki/Igun_Street
+  - https://www.frobenius-institut.de/forschung/beendete-projekte/ife-objects-and-collections-in-and-out-of-africa
 images:
   - url: https://upload.wikimedia.org/wikipedia/commons/6/62/Ori_Olokun.jpg
     source_page: https://commons.wikimedia.org/wiki/File:Ori_Olokun.jpg
     license: public-domain
     note: "《オロクン頭像（Ori Olokun）》。レオ・フロベニウスの著書『Und Afrika sprach』（1912年、p.311）掲載の写真の切り抜き。フロベニウス（1938年没）が1910年にイフェで入手し、失われたアトランティスの遺物として西洋に紹介したことでイフェ美術が広く知られる契機になった作例。現物の所在について像自体は複数の来歴の議論があり、大英博物館に模造が所蔵される（未確認: フロベニウスが持ち出した個体そのものの現在の所在）"
 status: draft
-updated: 2026-08-10
+updated: 2026-08-13
 ---
 
 # イフェ美術 / Ife art
@@ -146,6 +148,20 @@ Wikidataにも時間の主張（P571/P582）が無く、**未確認**のまま�
 制作地として記す。タダ（イフェから北東約200km、ニジェール川沿いの渡河点）出土の純銅座像は
 「イフェ様式の作例がタダの神社にどう伝わったか」自体が学術的な検討対象だとブリアーが記す
 （同論考）——**未確認**: タダでの制作か、イフェで制作されタダへ運ばれたものかは確定していない。
+
+### 1938年発見作例のロンドンへの移動
+
+イフェの作品が国外へ移動した経路は、フロベニウスの1910年の持ち出し未遂と、後年の発掘品の
+移動を分けて記録する必要がある。大英博物館の収蔵品解説によれば、フロベニウスが1910年に
+見た《オロクン頭像》は購入・持ち出しを試みられたものの、イフェのオオニによって回収され、
+現在もその原品はナイジェリアの国立博物館イフェにある。一方、フロベニウス研究所の
+「Ife Objects and Collections in and out of Africa」プロジェクトは、1938年の発掘で見つかった
+18点の銅合金作品の一部が国外へ移動し、そのうち1点がロンドンの大英博物館、25点がドイツへ渡り、
+大部分はイフェに残って新設のイフェ博物館へ入ったと記録する（[フロベニウス研究所
+「Ife Objects and Collections in and out of Africa」](https://www.frobenius-institut.de/forschung/beendete-projekte/ife-objects-and-collections-in-and-out-of-africa)）。
+したがって `diffused_to place/london` は、**1938年発見作例の一部がロンドンの博物館へ移ったこと**を
+記録するものであり、1910年の《オロクン頭像》がロンドンへ運ばれたという意味ではない。作品の
+移動・収蔵地点は確認できるが、ロンドンの特定の近代美術運動への影響はこの資料からは主張しない。
 
 ## 未着手
 

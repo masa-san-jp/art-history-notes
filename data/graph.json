@@ -4122,7 +4122,14 @@
           "target": "place/ife"
         }
       ],
-      "relations": [],
+      "relations": [
+        {
+          "type": "diffused_to",
+          "target": "place/london",
+          "certainty": "scholarly",
+          "source": "https://www.frobenius-institut.de/forschung/beendete-projekte/ife-objects-and-collections-in-and-out-of-africa"
+        }
+      ],
       "sources": [
         "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&subjectid=300015795",
         "https://www.wikidata.org/wiki/Q180084",
@@ -4133,7 +4140,8 @@
         "https://en.wikipedia.org/wiki/Bronze_Head_from_Ife",
         "https://en.wikipedia.org/wiki/Timeline_of_Yoruba_history",
         "https://en.wikipedia.org/wiki/Oguola",
-        "https://en.wikipedia.org/wiki/Igun_Street"
+        "https://en.wikipedia.org/wiki/Igun_Street",
+        "https://www.frobenius-institut.de/forschung/beendete-projekte/ife-objects-and-collections-in-and-out-of-africa"
       ],
       "images": [
         {
@@ -4144,7 +4152,7 @@
         }
       ],
       "status": "draft",
-      "updated": "2026-08-10",
+      "updated": "2026-08-13",
       "path": "entities/movements/ife-art.md"
     },
     "movement/impressionism": {
@@ -56998,6 +57006,13 @@
     },
     {
       "from": "movement/ife-art",
+      "type": "diffused_to",
+      "to": "place/london",
+      "certainty": "scholarly",
+      "source": "https://www.frobenius-institut.de/forschung/beendete-projekte/ife-objects-and-collections-in-and-out-of-africa"
+    },
+    {
+      "from": "movement/ife-art",
       "type": "originated_in",
       "to": "place/ife"
     },
@@ -73036,6 +73051,12 @@
       "from": "place/paris",
       "type": "received",
       "to": "movement/iatmul-carving",
+      "derived": true
+    },
+    {
+      "from": "place/london",
+      "type": "received",
+      "to": "movement/ife-art",
       "derived": true
     },
     {
