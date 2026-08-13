@@ -26,7 +26,7 @@ space:
   - {role: originated_in, target: place/tabriz}
   - {role: active_in, target: place/isfahan}
 relations:
-  - {type: influenced_by, target: movement/herat-school, certainty: scholarly, source: "https://en.wikipedia.org/wiki/Kamal_ud-Din_Behzad"}
+  - {type: influenced_by, target: movement/herat-school, certainty: scholarly, source: "https://resources.metmuseum.org/resources/metpublications/pdf/Masterpieces_from_the_Department_of_Islamic_Art_in_The_Metropolitan_Museum_of_Art.pdf"}
   - {type: diffused_to, target: place/agra, certainty: scholarly, source: "https://en.wikipedia.org/wiki/Abd_al-Samad"}
 sources:
   - https://www.wikidata.org/wiki/Q2366921
@@ -42,6 +42,7 @@ sources:
   - https://en.wikipedia.org/wiki/Safavid_dynasty
   - https://www.ebsco.com/research-starters/arts-and-entertainment/esfahan-school-painting
   - https://www.britannica.com/art/Tabriz-school
+  - https://resources.metmuseum.org/resources/metpublications/pdf/Masterpieces_from_the_Department_of_Islamic_Art_in_The_Metropolitan_Museum_of_Art.pdf
   - https://en.wikipedia.org/wiki/Mir_Sayyid_Ali
   - https://en.wikipedia.org/wiki/Abd_al-Samad
 images:
@@ -54,7 +55,7 @@ images:
     license: cc0
     note: "ムイーン・ムサッヴィル《蓮の葉を囲む幻獣たち》（A Gathering of Mythical Creatures around a Lotus Leaf）、1088 AH/1677年。メトロポリタン美術館蔵（isPublicDomain: true）"
 status: draft
-updated: 2026-08-09
+updated: 2026-08-13
 ---
 
 # サファヴィー朝細密画 / Safavid painting
@@ -207,6 +208,12 @@ EBSCO Research Starters（イスファハーン派は「the demise of Safavid dy
 ティムール朝ヘラートの工房で育った画家が、そのままサファヴィー朝の工房の長になっている——
 王朝が替わっても**担い手を通じて手つきが渡っている**。
 [movement/herat-school](herat-school.md) に `influenced_by` で接続した。
+
+メトロポリタン美術館の刊行物も、サファヴィー朝によるヘラート占領後にビフザードがタブリーズへ移り、
+新王朝の工房で活動した経路を記録している（[The Metropolitan Museum of Art「Masterpieces from the
+Department of Islamic Art」](https://resources.metmuseum.org/resources/metpublications/pdf/Masterpieces_from_the_Department_of_Islamic_Art_in_The_Metropolitan_Museum_of_Art.pdf)）。
+同資料は移動の大枠を裏付けるが、本文で採用している1522年という年次まではこの場では確認できないため、
+年の記述は既存のまま残す。
 
 ## ムガル絵画への接続
 

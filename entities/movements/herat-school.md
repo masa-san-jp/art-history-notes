@@ -28,7 +28,7 @@ claims:
 space:
   - {role: originated_in, target: place/herat}
 relations:
-  - {type: diffused_to, target: place/tabriz, certainty: scholarly, source: "https://en.wikipedia.org/wiki/Kam%C4%81l_ud-D%C4%ABn_Behz%C4%81d"}
+  - {type: diffused_to, target: place/tabriz, certainty: scholarly, source: "https://resources.metmuseum.org/resources/metpublications/pdf/Masterpieces_from_the_Department_of_Islamic_Art_in_The_Metropolitan_Museum_of_Art.pdf"}
   - {type: influenced_by, target: movement/baghdad-school-of-illustration, certainty: scholarly, source: "https://www.britannica.com/art/Jalayirid-school"}
   - {type: influenced_by, target: movement/shiraz-school, certainty: scholarly, source: "https://resources.metmuseum.org/resources/metpublications/pdf/Masterpieces_from_the_Department_of_Islamic_Art_in_The_Metropolitan_Museum_of_Art.pdf"}
 sources:
@@ -52,7 +52,7 @@ images:
     license: cc0
     note: "「踊る托鉢僧」ハーフィズ『ディーワーン』挿画、c.1480年、ヘラート制作。メトロポリタン美術館蔵、constituents＝\"Painting attributed to Bihzad\"（isPublicDomain: true）"
 status: draft
-updated: 2026-08-09
+updated: 2026-08-13
 ---
 
 # ヘラート派 / Herat school
@@ -228,6 +228,11 @@ atelier, he had a decisive impact on the development of later Safavid painting"�
 がこの向きの実例）でしか成立せず、`safavid-painting.md`側に書く必要がある。本タスクは
 ヘラート派1件のみを仕上げる範囲のため、この向きの関係は`safavid-painting.md`を編集する側
 （本ファイルを扱わない別の機会）に委ねる。**未確認**として残さず、**理由付きで保留**する。
+
+メトロポリタン美術館の刊行物も、サファヴィー朝によるヘラート占領後にビフザードがタブリーズへ移った
+ことを記録しており、ヘラート派からサファヴィー朝への担い手の移動という関係の大枠を裏付ける
+（[The Metropolitan Museum of Art「Masterpieces from the Department of Islamic Art」](https://resources.metmuseum.org/resources/metpublications/pdf/Masterpieces_from_the_Department_of_Islamic_Art_in_The_Metropolitan_Museum_of_Art.pdf)）。
+ただし、同資料からは本文で採用した1522年という年次までは確認できないため、年の記述は既存のまま残す。
 
 **バグダード派（写本挿絵）との関係**: [movement/baghdad-school-of-illustration](baghdad-school-of-illustration.md)
 （13世紀アッバース朝期バグダードの写本挿絵の様式）は、本ファイルの[定義と範囲](#定義と範囲)節が
