@@ -30,7 +30,7 @@ space:
   - {role: active_in, target: place/golconda}
 relations:
   - {type: influenced_by, target: movement/safavid-painting, certainty: scholarly, source: "https://www.metmuseum.org/essays/islamic-art-of-the-deccan"}
-  - {type: influenced_by, target: movement/ottoman-miniature, certainty: scholarly, source: "https://en.wikipedia.org/wiki/Deccan_painting"}
+  - {type: influenced_by, target: movement/ottoman-miniature, certainty: scholarly, source: "https://www.metmuseum.org/press-releases/sultans-of-deccan-india-2015-exhibitions"}
 sources:
   - https://www.wikidata.org/wiki/Q28173212
   - https://vocab.getty.edu/aat/300018979
@@ -38,6 +38,7 @@ sources:
   - https://en.wikipedia.org/wiki/Golconda_painting
   - https://www.metmuseum.org/toah/hd/decc/hd_decc.htm
   - https://www.metmuseum.org/essays/islamic-art-of-the-deccan
+  - https://www.metmuseum.org/press-releases/sultans-of-deccan-india-2015-exhibitions
   - https://www.metmuseum.org/art/collection/search/453975
   - https://www.metmuseum.org/art/collection/search/453334
 images:
@@ -200,6 +201,16 @@ Wikipediaの記事自体が述べており（同記事「Decline」節）、plac
 （[The Metropolitan Museum of Art「Islamic Art of the Deccan」](https://www.metmuseum.org/essays/islamic-art-of-the-deccan)）。
 したがって、ここでの `influenced_by` は図像の類似だけでなく、サファヴィー朝からデカンへの画家の移動と
 制作現場での協働を根拠にしている。
+
+## オスマン朝との接続
+
+メトロポリタン美術館の展覧会解説は、16〜17世紀のデカン宮廷において、イラン・トルコ・東アフリカ・
+ヨーロッパからの外来要素が、古くからのインドの伝統と結合して独自のインド・イスラーム文化を形成したと
+説明する。展示の中心には絵画を含むデカンの宮廷美術が置かれ、同館は関連する王室工芸品についても
+サファヴィー朝ペルシャとオスマン朝トルコの美術からの着想を指摘している
+（[The Metropolitan Museum of Art「Sultans of Deccan India, 1500–1700」](https://www.metmuseum.org/press-releases/sultans-of-deccan-india-2015-exhibitions)）。
+したがって、既存の `influenced_by: movement/ottoman-miniature` は、特定作品の直接模倣ではなく、
+デカン宮廷美術におけるトルコ系要素の受容を示す広い関係として扱う。
 
 ## 未着手
 
