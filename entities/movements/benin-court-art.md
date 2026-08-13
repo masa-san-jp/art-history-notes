@@ -30,6 +30,7 @@ space:
 relations:
   - {type: created_by, target: org/igun-eronmwon}
   - {type: influenced_by, target: movement/ife-art, certainty: hypothesis, source: "https://www.metmuseum.org/fr/essays/origins-and-empire-the-benin-owo-and-ijebu-kingdoms"}
+  - {type: diffused_to, target: place/london, certainty: scholarly, source: "https://www.britishmuseum.org/about-us/british-museum-story/contested-objects-collection/benin-bronzes"}
 sources:
   - https://www.wikidata.org/wiki/Q4888026
   - https://www.wikidata.org/wiki/Q111731632
@@ -38,6 +39,7 @@ sources:
   - https://www.penn.museum/sites/expedition/the-art-of-benin/
   - https://en.wikipedia.org/wiki/Igun_Street
   - https://historicalnigeria.com/benin-bronze-casting-art-power-and-continuity-in-edo-history/
+  - https://www.britishmuseum.org/about-us/british-museum-story/contested-objects-collection/benin-bronzes
 images:
   - url: https://www.artic.edu/iiif/2/fc361495-826f-3ef9-32d3-da3eac34c34a/full/843,/0/default.jpg
     source_page: https://www.artic.edu/artworks/15457
@@ -139,6 +141,17 @@ Benin）の end time qualifier の両方に1897年を置く。**このKBが `tim
 **未確認**: 制作範囲がベニンシティの王宮に限定されていたか。ファッグは「王のみが下級首長に祭壇作品の
 所有を許すことがあった」と記すが、これは所有の話であり、制作地そのものが移動したという記述は
 当たった出典には無い。
+
+### 1897年のロンドンへの移動
+
+作品がベニンシティからロンドンへ移動した経路は、大英博物館の公式な収蔵史で確認できる。1897年2月、
+英国軍はベニンシティを占領し、王宮から真鍮・象牙・木などの作品を持ち出した。これは単なる展示のための
+移送ではなく、王国の独立を終わらせた軍事占領と略奪の結果である。同年秋、大英博物館は外務大臣から
+貸し出された304枚のベニン・プラークを展示し、その後203枚を寄贈として受け取った。残りの多くも英国・
+ドイツの美術館や私的なディーラーへ売却された（[大英博物館「Benin Bronzes」](https://www.britishmuseum.org/about-us/british-museum-story/contested-objects-collection/benin-bronzes)）。
+ここで確認できるのは、**王宮にあったベニンの作品が、1897年の植民地軍事行動を介してロンドンの
+博物館制度へ移されたこと**である。そのため `diffused_to place/london` は作品の移動・制度的受容を記録する
+関係として追加し、ロンドンの近代美術運動への影響はこの資料からは主張しない。
 
 ## イフェとの伝承・様式的接続
 
