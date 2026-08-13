@@ -8142,6 +8142,12 @@
           "source": "https://www.metmuseum.org/es/essays/symbolism"
         },
         {
+          "type": "responds_to",
+          "target": "movement/utagawa-school",
+          "certainty": "scholarly",
+          "source": "https://www.musee-orsay.fr/en/exhibitions/japanese-affinities-towards-modern-decoration-196090"
+        },
+        {
           "type": "diffused_to",
           "target": "place/brussels",
           "certainty": "scholarly",
@@ -8153,10 +8159,13 @@
         "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300021514",
         "https://www.britannica.com/art/Symbolism-literary-and-artistic-movement",
         "https://www.metmuseum.org/es/essays/symbolism",
+        "https://www.moma.org/docs/press_archives/4863/releases/MOMA_1972_0092_82A.pdf",
+        "https://www.musee-orsay.fr/en/exhibitions/japanese-affinities-towards-modern-decoration-196090",
+        "https://www.metmuseum.org/pt/essays/japonisme",
         "https://www.smb.museum/fileadmin/website/Presse/Pressematerial/2020/09/BS_Presse_EN_04b_Catalogue-Gleis.pdf"
       ],
       "status": "draft",
-      "updated": "2026-08-12",
+      "updated": "2026-08-13",
       "path": "entities/movements/symbolism.md"
     },
     "movement/tanjore-painting": {
@@ -57852,6 +57861,13 @@
     },
     {
       "from": "movement/symbolism",
+      "type": "responds_to",
+      "to": "movement/utagawa-school",
+      "certainty": "scholarly",
+      "source": "https://www.musee-orsay.fr/en/exhibitions/japanese-affinities-towards-modern-decoration-196090"
+    },
+    {
+      "from": "movement/symbolism",
       "type": "diffused_to",
       "to": "place/brussels",
       "certainty": "scholarly",
@@ -73486,6 +73502,12 @@
     {
       "from": "movement/realism",
       "type": "reacted_against_by",
+      "to": "movement/symbolism",
+      "derived": true
+    },
+    {
+      "from": "movement/utagawa-school",
+      "type": "answered_by",
       "to": "movement/symbolism",
       "derived": true
     },
