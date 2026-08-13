@@ -30,7 +30,7 @@ claims:
 space:
   - {role: originated_in, target: place/yangzhou}
 relations:
-  - {type: influenced_by, target: movement/literati-painting, certainty: scholarly, source: "https://www.dejiart.com/en/exhibition/yudetangcangyangzhoubaguaijingpinzhan/"}
+  - {type: influenced_by, target: movement/literati-painting, certainty: scholarly, source: "https://www.metmuseum.org/pt/essays/the-qing-dynasty-1644-1911-the-courtiers-officials-and-professional-artists"}
 sources:
   - https://www.wikidata.org/wiki/Q340808
   - https://ja.wikipedia.org/wiki/%E6%8F%9A%E5%B7%9E%E5%85%AB%E6%80%AA
@@ -44,6 +44,7 @@ sources:
   - https://www.metmuseum.org/art/collection/search/52946
   - https://www.metmuseum.org/art/collection/search/51894
   - https://www.tnm.jp/modules/r_exhibition/index.php?controller=item&id=5882&lang=en
+  - https://www.metmuseum.org/pt/essays/the-qing-dynasty-1644-1911-the-courtiers-officials-and-professional-artists
   - https://www.dejiart.com/en/exhibition/yudetangcangyangzhoubaguaijingpinzhan/
 images:
   - url: https://www.artic.edu/iiif/2/7967bcfe-1634-19ad-ff6c-48a10cae9a8e/full/843,/0/default.jpg
@@ -107,11 +108,12 @@ updated: 2026-08-10
 ## 文人画との関係
 
 東京国立博物館は、塩商人の文化振興を背景に、揚州へ「文人画家たち」が集まったと説明している。
-また徳基美術館は、揚州八怪の書画が伝統的な文人写意画の筆法から影響を受けつつ、各画家の美意識に
-応じて方法を変化させたと記載する。
+メトロポリタン美術館も、揚州八怪が石濤（Shitao）の非常に個性的な作品から刺激を受け、自己表現的で
+書的な画法を実践したと記載する。また徳基美術館は、揚州八怪の書画が伝統的な文人写意画の筆法から
+影響を受けつつ、各画家の美意識に応じて方法を変化させたと記載する。
 
 ここでの関係は、揚州八怪という後代の括りが文人画と同一だという意味ではない。文人画の伝統的な
-写意筆法を受け取り、詩・書・画を組み合わせながら個別化したという、共通する出発点を
+写意筆法と石濤に代表される個性的な表現を受け取り、詩・書・画を組み合わせながら個別化したという、共通する出発点を
 `influenced_by` として記録する。
 
 ## kind の判定

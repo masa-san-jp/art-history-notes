@@ -8786,7 +8786,7 @@
           "type": "influenced_by",
           "target": "movement/literati-painting",
           "certainty": "scholarly",
-          "source": "https://www.dejiart.com/en/exhibition/yudetangcangyangzhoubaguaijingpinzhan/"
+          "source": "https://www.metmuseum.org/pt/essays/the-qing-dynasty-1644-1911-the-courtiers-officials-and-professional-artists"
         }
       ],
       "sources": [
@@ -8802,6 +8802,7 @@
         "https://www.metmuseum.org/art/collection/search/52946",
         "https://www.metmuseum.org/art/collection/search/51894",
         "https://www.tnm.jp/modules/r_exhibition/index.php?controller=item&id=5882&lang=en",
+        "https://www.metmuseum.org/pt/essays/the-qing-dynasty-1644-1911-the-courtiers-officials-and-professional-artists",
         "https://www.dejiart.com/en/exhibition/yudetangcangyangzhoubaguaijingpinzhan/"
       ],
       "images": [
@@ -57940,7 +57941,7 @@
       "type": "influenced_by",
       "to": "movement/literati-painting",
       "certainty": "scholarly",
-      "source": "https://www.dejiart.com/en/exhibition/yudetangcangyangzhoubaguaijingpinzhan/"
+      "source": "https://www.metmuseum.org/pt/essays/the-qing-dynasty-1644-1911-the-courtiers-officials-and-professional-artists"
     },
     {
       "from": "movement/yangzhou-eccentrics",
