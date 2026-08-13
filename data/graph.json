@@ -3139,9 +3139,10 @@
       ],
       "relations": [
         {
-          "type": "taught_by",
+          "type": "influenced_by",
           "target": "person/dong-qichang",
-          "source": "https://zh.wikipedia.org/wiki/%E7%8E%8B%E6%97%B6%E6%95%8F"
+          "certainty": "scholarly",
+          "source": "https://www.metmuseum.org/ko/essays/wang-hui-1632-1717"
         },
         {
           "type": "influenced_by",
@@ -3163,7 +3164,8 @@
         "https://www.wikidata.org/wiki/Q716222",
         "https://www.wikidata.org/wiki/Q716338",
         "https://www.kyohaku.go.jp/old/eng/theme/floor2_5/past/chinese_20150512.html",
-        "https://www.shanghaimuseum.net/mu/frontend/pg/article/id/RI00004055"
+        "https://www.shanghaimuseum.net/mu/frontend/pg/article/id/RI00004055",
+        "https://www.metmuseum.org/ko/essays/wang-hui-1632-1717"
       ],
       "images": [
         {
@@ -56755,10 +56757,10 @@
     },
     {
       "from": "movement/four-wangs",
-      "type": "taught_by",
+      "type": "influenced_by",
       "to": "person/dong-qichang",
-      "certainty": null,
-      "source": "https://zh.wikipedia.org/wiki/%E7%8E%8B%E6%97%B6%E6%95%8F"
+      "certainty": "scholarly",
+      "source": "https://www.metmuseum.org/ko/essays/wang-hui-1632-1717"
     },
     {
       "from": "movement/four-wangs",
@@ -72828,7 +72830,7 @@
     },
     {
       "from": "person/dong-qichang",
-      "type": "taught",
+      "type": "influenced",
       "to": "movement/four-wangs",
       "derived": true
     },
