@@ -28,7 +28,7 @@ claims:
 space:
   - {role: originated_in, target: place/moscow}
 relations:
-  - {type: reacts_against, target: movement/suprematism, certainty: scholarly, source: "https://www.theartstory.org/movement/suprematism/"}
+  - {type: reacts_against, target: movement/suprematism, certainty: scholarly, source: "https://press.moma.org/wp-content/files_mf/russianavantgarde_pressrelease_final88.pdf"}
 images:
   - url: "https://commons.wikimedia.org/wiki/Special:FilePath/El_Lissitzky,_Wendingen,_1921_(published_1923),_NGA_93943.jpg"
     source_page: https://www.nga.gov/artworks/93943-wendingen
@@ -40,6 +40,7 @@ sources:
   - https://www.moma.org/collection/terms/constructivism
   - https://www.moma.org/explore/inside_out/2014/01/30/new-in-the-galleries-the-russian-avant-garde/
   - https://www.moma.org/interactives/exhibitions/1998/rodchenko/texts/new_cultural.html
+  - https://press.moma.org/wp-content/files_mf/russianavantgarde_pressrelease_final88.pdf
   - https://nga.gov.au/exhibitions/russian-avant-garde/
   - https://www.theartstory.org/movement/suprematism/
   - https://www.vkhutemas.ru/en/summary/
@@ -101,6 +102,12 @@ updated: 2026-08-12
 重視する立場を取った。両者は同じロシア前衛の場から出たが、目指す芸術の社会的位置づけが異なるため、
 ここでは `reacts_against → movement/suprematism` とする。これは全作品が一律に対立したという意味ではなく、
 1921年前後の理論的・制度的な分岐を記録した関係である。
+
+MoMAのロシア前衛展プレス資料も、シュプレマティスムが純粋形態に精神的な方向を持つ一方、構成主義者が
+実用的な物体と幾何学的な設計を重視したと対比している。また、1918年のロトチェンコ《非対象絵画 No. 80
+（黒の上の黒）》を、マレーヴィチの白い絵画群への直接の応答として説明する。この個別の応答と1921年前後の
+理論的分岐を合わせ、ここでの `reacts_against` は運動全体の全面対立ではなく、純粋形態中心の方向に対する
+社会的・物質的な再定位として記録する。
 
 ## バウハウス・デ・ステイルとの距離
 
