@@ -27,7 +27,8 @@ claims:
   - {field: kind, source: "https://education.nationalgeographic.org/resource/nok-culture/", certainty: scholarly}
 space:
   - {role: originated_in, target: place/nok}
-relations: []
+relations:
+  - {type: diffused_to, target: place/paris, certainty: scholarly, source: "https://www.unesco.org/en/articles/restitution-cultural-property-nok-civilization"}
 sources:
   - https://www.wikidata.org/wiki/Q927291
   - https://www.wikidata.org/wiki/Q108908650
@@ -38,13 +39,14 @@ sources:
   - https://www.nationalgeographic.com/history/article/nigeria-nok-terra-cotta
   - https://education.nationalgeographic.org/resource/nok-culture/
   - https://traffickingculture.org/encyclopedia/case-studies/nok-terracottas/
+  - https://www.unesco.org/en/articles/restitution-cultural-property-nok-civilization
 images:
   - url: https://openaccess-cdn.clevelandart.org/1995.21/1995.21_web.jpg
     source_page: https://clevelandart.org/art/1995.21
     license: cc0
     note: "《頭部像》熱ルミネッセンス測定で西暦20〜620年。中部ナイジェリア・ノク文化様式圏、制作者不明の女性陶工。クリーブランド美術館蔵（share_license_status: CC0）。同館解説は『この完全な形で残る頭部像は、大胆な造形・意図的な非対称性・繊細な表情によって、現存するノク彫刻の中でも最良の作例の1つ』とする"
 status: draft
-updated: 2026-08-10
+updated: 2026-08-13
 ---
 
 # ノク彫刻 / Nok sculpture
@@ -140,6 +142,17 @@ Nat Geo記事が指摘する（**未確認**: 真贋判定の具体的な手法�
 『Nok Culture』](https://education.nationalgeographic.org/resource/nok-culture/)：
 「Historians and archaeologists refer to this culture as the Nok culture because artifacts were
 first discovered near the modern Nigerian town of Nok」）。
+
+### 密輸品のパリでの保管と返還
+
+ノク彫刻の国外移動には、正規の美術伝播と略奪・密輸を混同しない注意が必要である。ユネスコは、
+ノク文明の像1点が2012年にフランスで押収され、パリのフランス国立自然史博物館が保管した後、
+2014年2月27日にフランス大統領からナイジェリアへ返還されたと記録する（[ユネスコ
+「Restitution of a cultural property of the Nok civilization」](https://www.unesco.org/en/articles/restitution-cultural-property-nok-civilization)）。
+この資料が直接確認できるのは、**ノク文明の像がフランスで押収され、パリの博物館に保管され、
+ナイジェリアへ返還された経路**である。そのため `diffused_to place/paris` は作品がパリの制度的な
+保管・返還手続きに入った事実を記録するものであり、パリの美術運動への影響や、像が合法的に
+「伝播」したという意味ではない。
 
 ただし実際の出土範囲はノク村周辺に限られない。中部ナイジェリアの約78,000平方キロメートルという広い
 範囲に及び（[National Geographic](https://www.nationalgeographic.com/history/article/nigeria-nok-terra-cotta)、

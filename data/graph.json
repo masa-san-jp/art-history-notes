@@ -6381,7 +6381,14 @@
           "target": "place/nok"
         }
       ],
-      "relations": [],
+      "relations": [
+        {
+          "type": "diffused_to",
+          "target": "place/paris",
+          "certainty": "scholarly",
+          "source": "https://www.unesco.org/en/articles/restitution-cultural-property-nok-civilization"
+        }
+      ],
       "sources": [
         "https://www.wikidata.org/wiki/Q927291",
         "https://www.wikidata.org/wiki/Q108908650",
@@ -6391,7 +6398,8 @@
         "https://aktuelles.uni-frankfurt.de/en/english/nok-research-project-enters-final-phase/",
         "https://www.nationalgeographic.com/history/article/nigeria-nok-terra-cotta",
         "https://education.nationalgeographic.org/resource/nok-culture/",
-        "https://traffickingculture.org/encyclopedia/case-studies/nok-terracottas/"
+        "https://traffickingculture.org/encyclopedia/case-studies/nok-terracottas/",
+        "https://www.unesco.org/en/articles/restitution-cultural-property-nok-civilization"
       ],
       "images": [
         {
@@ -6402,7 +6410,7 @@
         }
       ],
       "status": "draft",
-      "updated": "2026-08-10",
+      "updated": "2026-08-13",
       "path": "entities/movements/nok-sculpture.md"
     },
     "movement/novgorod-school-icon-painting": {
@@ -57570,6 +57578,13 @@
     },
     {
       "from": "movement/nok-sculpture",
+      "type": "diffused_to",
+      "to": "place/paris",
+      "certainty": "scholarly",
+      "source": "https://www.unesco.org/en/articles/restitution-cultural-property-nok-civilization"
+    },
+    {
+      "from": "movement/nok-sculpture",
       "type": "originated_in",
       "to": "place/nok"
     },
@@ -73393,6 +73408,12 @@
       "from": "movement/maruyama-shijo-school",
       "type": "influenced",
       "to": "movement/nihonga",
+      "derived": true
+    },
+    {
+      "from": "place/paris",
+      "type": "received",
+      "to": "movement/nok-sculpture",
       "derived": true
     },
     {
