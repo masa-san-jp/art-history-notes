@@ -7490,7 +7490,7 @@
           "type": "diffused_to",
           "target": "place/agra",
           "certainty": "scholarly",
-          "source": "https://en.wikipedia.org/wiki/Abd_al-Samad"
+          "source": "https://www.britishmuseum.org/collection/term/BIOG12024"
         }
       ],
       "sources": [
@@ -7508,6 +7508,7 @@
         "https://www.ebsco.com/research-starters/arts-and-entertainment/esfahan-school-painting",
         "https://www.britannica.com/art/Tabriz-school",
         "https://resources.metmuseum.org/resources/metpublications/pdf/Masterpieces_from_the_Department_of_Islamic_Art_in_The_Metropolitan_Museum_of_Art.pdf",
+        "https://www.britishmuseum.org/collection/term/BIOG12024",
         "https://en.wikipedia.org/wiki/Mir_Sayyid_Ali",
         "https://en.wikipedia.org/wiki/Abd_al-Samad"
       ],
@@ -57695,7 +57696,7 @@
       "type": "diffused_to",
       "to": "place/agra",
       "certainty": "scholarly",
-      "source": "https://en.wikipedia.org/wiki/Abd_al-Samad"
+      "source": "https://www.britishmuseum.org/collection/term/BIOG12024"
     },
     {
       "from": "movement/safavid-painting",
