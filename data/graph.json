@@ -3829,7 +3829,7 @@
           "type": "diffused_to",
           "target": "place/tabriz",
           "certainty": "scholarly",
-          "source": "https://en.wikipedia.org/wiki/Kam%C4%81l_ud-D%C4%ABn_Behz%C4%81d"
+          "source": "https://resources.metmuseum.org/resources/metpublications/pdf/Masterpieces_from_the_Department_of_Islamic_Art_in_The_Metropolitan_Museum_of_Art.pdf"
         },
         {
           "type": "influenced_by",
@@ -3869,7 +3869,7 @@
         }
       ],
       "status": "draft",
-      "updated": "2026-08-09",
+      "updated": "2026-08-13",
       "path": "entities/movements/herat-school.md"
     },
     "movement/hudson-river-school": {
@@ -7482,7 +7482,7 @@
           "type": "influenced_by",
           "target": "movement/herat-school",
           "certainty": "scholarly",
-          "source": "https://en.wikipedia.org/wiki/Kamal_ud-Din_Behzad"
+          "source": "https://resources.metmuseum.org/resources/metpublications/pdf/Masterpieces_from_the_Department_of_Islamic_Art_in_The_Metropolitan_Museum_of_Art.pdf"
         },
         {
           "type": "diffused_to",
@@ -7505,6 +7505,7 @@
         "https://en.wikipedia.org/wiki/Safavid_dynasty",
         "https://www.ebsco.com/research-starters/arts-and-entertainment/esfahan-school-painting",
         "https://www.britannica.com/art/Tabriz-school",
+        "https://resources.metmuseum.org/resources/metpublications/pdf/Masterpieces_from_the_Department_of_Islamic_Art_in_The_Metropolitan_Museum_of_Art.pdf",
         "https://en.wikipedia.org/wiki/Mir_Sayyid_Ali",
         "https://en.wikipedia.org/wiki/Abd_al-Samad"
       ],
@@ -7523,7 +7524,7 @@
         }
       ],
       "status": "draft",
-      "updated": "2026-08-09",
+      "updated": "2026-08-13",
       "path": "entities/movements/safavid-painting.md"
     },
     "movement/shanghai-school": {
@@ -56858,7 +56859,7 @@
       "type": "diffused_to",
       "to": "place/tabriz",
       "certainty": "scholarly",
-      "source": "https://en.wikipedia.org/wiki/Kam%C4%81l_ud-D%C4%ABn_Behz%C4%81d"
+      "source": "https://resources.metmuseum.org/resources/metpublications/pdf/Masterpieces_from_the_Department_of_Islamic_Art_in_The_Metropolitan_Museum_of_Art.pdf"
     },
     {
       "from": "movement/herat-school",
@@ -57685,7 +57686,7 @@
       "type": "influenced_by",
       "to": "movement/herat-school",
       "certainty": "scholarly",
-      "source": "https://en.wikipedia.org/wiki/Kamal_ud-Din_Behzad"
+      "source": "https://resources.metmuseum.org/resources/metpublications/pdf/Masterpieces_from_the_Department_of_Islamic_Art_in_The_Metropolitan_Museum_of_Art.pdf"
     },
     {
       "from": "movement/safavid-painting",
