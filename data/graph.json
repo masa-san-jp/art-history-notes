@@ -2145,7 +2145,7 @@
           "type": "reacts_against",
           "target": "movement/suprematism",
           "certainty": "scholarly",
-          "source": "https://www.theartstory.org/movement/suprematism/"
+          "source": "https://press.moma.org/wp-content/files_mf/russianavantgarde_pressrelease_final88.pdf"
         }
       ],
       "images": [
@@ -2162,6 +2162,7 @@
         "https://www.moma.org/collection/terms/constructivism",
         "https://www.moma.org/explore/inside_out/2014/01/30/new-in-the-galleries-the-russian-avant-garde/",
         "https://www.moma.org/interactives/exhibitions/1998/rodchenko/texts/new_cultural.html",
+        "https://press.moma.org/wp-content/files_mf/russianavantgarde_pressrelease_final88.pdf",
         "https://nga.gov.au/exhibitions/russian-avant-garde/",
         "https://www.theartstory.org/movement/suprematism/",
         "https://www.vkhutemas.ru/en/summary/",
@@ -56514,7 +56515,7 @@
       "type": "reacts_against",
       "to": "movement/suprematism",
       "certainty": "scholarly",
-      "source": "https://www.theartstory.org/movement/suprematism/"
+      "source": "https://press.moma.org/wp-content/files_mf/russianavantgarde_pressrelease_final88.pdf"
     },
     {
       "from": "movement/constructivism",
