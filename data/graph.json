@@ -8186,7 +8186,7 @@
           "type": "patronized_by",
           "target": "org/thanjavur-maratha-kingdom",
           "certainty": "scholarly",
-          "source": "https://en.wikipedia.org/wiki/Thanjavur_painting"
+          "source": "https://tnrajbhavantour.tn.gov.in/tnrb-website-archive/Archives/Website1621/PressReleases/2019/PR040419-1.pdf"
         },
         {
           "type": "influenced_by",
@@ -8202,7 +8202,8 @@
         "https://www.wikidata.org/wiki/Q3530610",
         "https://en.wikipedia.org/wiki/Serfoji_II",
         "https://www.metmuseum.org/art/collection/search/850685",
-        "https://imp-art.org/articles/tanjore-painting/"
+        "https://imp-art.org/articles/tanjore-painting/",
+        "https://tnrajbhavantour.tn.gov.in/tnrb-website-archive/Archives/Website1621/PressReleases/2019/PR040419-1.pdf"
       ],
       "images": [
         {
@@ -57820,7 +57821,7 @@
       "type": "patronized_by",
       "to": "org/thanjavur-maratha-kingdom",
       "certainty": "scholarly",
-      "source": "https://en.wikipedia.org/wiki/Thanjavur_painting"
+      "source": "https://tnrajbhavantour.tn.gov.in/tnrb-website-archive/Archives/Website1621/PressReleases/2019/PR040419-1.pdf"
     },
     {
       "from": "movement/tanjore-painting",
