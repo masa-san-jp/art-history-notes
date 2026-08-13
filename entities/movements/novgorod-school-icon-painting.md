@@ -28,7 +28,7 @@ claims:
 space:
   - {role: originated_in, target: place/veliky-novgorod}
 relations:
-  - {type: influenced_by, target: movement/byzantine-art, certainty: scholarly, source: "https://gallerix.ru/pedia/history-of-art--novgorod-school-icon-painting/"}
+  - {type: influenced_by, target: movement/byzantine-art, certainty: scholarly, source: "https://www.novgorod.ru/english/read/information/icon-painting/"}
 sources:
   - https://www.wikidata.org/wiki/Q2876208
   - https://www.wikidata.org/wiki/Q151536
@@ -37,6 +37,7 @@ sources:
   - https://ru.wikipedia.org/wiki/Новгородская_школа_(древнерусское_искусство)
   - https://ru.wikipedia.org/wiki/Русская_иконопись
   - https://gallerix.ru/pedia/history-of-art--novgorod-school-icon-painting/
+  - https://www.novgorod.ru/english/read/information/icon-painting/
   - https://russianicon.com/schools-of-russian-icon-painting-part-i/
   - https://www.icon-art.info/book_contents.php?lng=ru&book_id=7&chap=3&ch_l2=0
   - https://ru.wikipedia.org/wiki/Церковь_Спаса_Преображения_на_Ильине_улице
@@ -214,8 +215,10 @@ Wikidata Q2876208の`P276`（location）が同項目を指し、ここで挙げ�
 
 ノヴゴロド派は、ビザンティン美術をそのまま複製したものではなく、東方正教会の図像とイコン制作の
 規範を受け取りながら、ノヴゴロド固有の色彩・平坦な形態・リズムへ変換した地域的な様式である。
-WikidataのQ2876208は「Byzantine art」を`P737`（influenced by）に挙げ、Gallerixの解説も、
-ノヴゴロドの画家がビザンティンの伝統の中で制作しつつ、地域固有の表現を発展させたと説明する。
+WikidataのQ2876208は「Byzantine art」を`P737`（influenced by）に挙げ、ヴェリーキー・ノヴゴロド市の
+公式ポータルも、初期ノヴゴロド・イコンがビザンティンの板絵と共通点を持つ一方、規模などで異なると
+説明する。ノヴゴロドの画家がビザンティンの伝統の中で制作しつつ、地域固有の表現を発展させたという
+関係を、同ポータルの記述から確認できる。
 したがって本関係は、**ビザンティンの図像・宗教画の伝統を基盤とする形成的影響**を示すものであり、
 各時期のノヴゴロド絵画がコンスタンティノープルから直接輸入されたという意味ではない。
 
