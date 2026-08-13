@@ -25,7 +25,7 @@ claims: []
 space:
   - {role: originated_in, target: place/tehran}
 relations:
-  - {type: influenced_by, target: movement/safavid-painting, certainty: scholarly, source: "https://en.wikipedia.org/wiki/Qajar_art"}
+  - {type: influenced_by, target: movement/safavid-painting, certainty: scholarly, source: "https://www.iranicaonline.org/articles/art-in-iran-v-qajar-2-painting/"}
   - {type: influenced_by, target: movement/realism, certainty: scholarly, source: "https://scholarworks.sjsu.edu/etd_theses/3019/"}
 sources:
   - https://www.wikidata.org/wiki/Q5964557
@@ -42,6 +42,7 @@ sources:
   - https://www.sothebys.com/en/auctions/ecatalogue/2010/arts-of-the-islamic-world-l10223/lot.94.html
   - https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300021708
   - https://www.iranicaonline.org/articles/art-in-iran-v-qajar-1-general/
+  - https://www.iranicaonline.org/articles/art-in-iran-v-qajar-2-painting/
   - https://scholarworks.sjsu.edu/etd_theses/3019/
 images:
   - url: https://images.metmuseum.org/CRDImages/is/original/DP-15521-001.jpg
@@ -53,7 +54,7 @@ images:
     license: cc0
     note: "《ムハンマド・シャー・カージャールとその宰相ハージー・ミールザー・アーガースィーの肖像》、19世紀第2四半期。メトロポリタン美術館蔵（isPublicDomain: true）"
 status: draft
-updated: 2026-08-10
+updated: 2026-08-13
 ---
 
 # カージャール絵画 / Qajar painting
@@ -68,6 +69,12 @@ Empire (1785–1925)" と定義される）は英語版Wikipedia記事
 出典とした。
 
 ## 定義と範囲
+
+Encyclopaedia Iranicaは、カージャール様式が後期サファヴィー期に起源を持ち、18世紀初頭までに
+新しいヨーロッパ化された様式が優勢になったと整理している（[「ART IN IRAN x.2 Qajar Painting」](https://www.iranicaonline.org/articles/art-in-iran-v-qajar-2-painting/)）。
+同じ項目は、カージャール期の絵画がサファヴィー期から続く様式的前提を受けつつ、油彩・細密画・漆絵を
+横断して展開したことも記録しており、ここでの `influenced_by` は単なる王朝名の連続ではなく、絵画史上の
+継承関係を指す。
 
 英語版Wikipedia「Qajar art」は "Qajar art was the architecture, paintings, and other art forms produced
 during the Qajar era, from 1781 to 1925, in Iran" と定義する一方、同記事の別節（漆工芸節）は
