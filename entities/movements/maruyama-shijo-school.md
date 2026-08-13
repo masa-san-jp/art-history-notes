@@ -27,6 +27,8 @@ space:
   - {role: originated_in, target: place/kyoto}
 relations:
   - {type: influenced_by, target: movement/nanga, certainty: scholarly, source: "https://kyoto-museums.city.kyoto.lg.jp/en/feature-column/painting/"}
+  - {type: diffused_to, target: place/chicago, certainty: scholarly, source: "https://api.artic.edu/api/v1/artworks/196928"}
+  - {type: diffused_to, target: place/chicago, certainty: scholarly, source: "https://api.artic.edu/api/v1/artworks/50560"}
 sources:
   - https://www.wikidata.org/wiki/Q11394761
   - https://www.wikidata.org/wiki/Q11394770
@@ -35,6 +37,8 @@ sources:
   - https://en.wikipedia.org/wiki/Shij%C5%8D_school
   - https://kyoto-museums.city.kyoto.lg.jp/en/feature-column/painting/
   - https://www.fujibi.or.jp/collection/artwork/09092/
+  - https://api.artic.edu/api/v1/artworks/196928
+  - https://api.artic.edu/api/v1/artworks/50560
 images:
   - url: https://www.artic.edu/iiif/2/19669877-89b4-a950-a918-3c3c4af312fa/full/843,/0/default.jpg
     source_page: https://www.artic.edu/artworks/196928
@@ -45,7 +49,7 @@ images:
     license: public-domain
     note: "松村呉春《鍾馗図（Shoki the Demon Queller）》17〜19世紀、シカゴ美術館蔵（is_public_domain: true）"
 status: draft
-updated: 2026-08-10
+updated: 2026-08-13
 ---
 
 # 円山四条派 / Maruyama-Shijō School
@@ -140,6 +144,15 @@ Wikidata の3項目（円山四条派・円山派・四条派いずれも）に 
 [Q740246](https://www.wikidata.org/wiki/Q740246)、四条派のそれを四条通
 [Q7496525](https://www.wikidata.org/wiki/Q7496525)（京都市内の通り）としており、いずれも京都市内に
 収まる。都市より細かい「四条通」単位の座標は本 KB の `place` エンティティとして持っていない。
+
+### シカゴ美術館での作例
+
+円山派・四条派の国外受容を示す作例として、シカゴ美術館は円山応挙の木版複製画帖と、
+松村呉春の《鍾馗図》を収蔵している。前者は同館の記録で作者を「Maruyama Okyo」とし、
+後者は「Matsumura Goshun」としている（[Art Institute of Chicago「Page 11 from the book Okyo Shubi Gafu」](https://api.artic.edu/api/v1/artworks/196928)、
+[同「Shoki the Demon Queller」](https://api.artic.edu/api/v1/artworks/50560)）。これは、
+**円山・四条派を構成する両系統の作例がシカゴの美術館コレクションに入っていること**を示すが、
+シカゴの別の美術運動への影響を意味しない。そのため `diffused_to place/chicago` は収蔵地点を記録する。
 
 ## 未着手
 

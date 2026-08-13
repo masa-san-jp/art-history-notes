@@ -31,6 +31,7 @@ space:
   - {role: originated_in, target: place/yangzhou}
 relations:
   - {type: influenced_by, target: movement/literati-painting, certainty: scholarly, source: "https://www.metmuseum.org/pt/essays/the-qing-dynasty-1644-1911-the-courtiers-officials-and-professional-artists"}
+  - {type: diffused_to, target: place/chicago, certainty: scholarly, source: "https://api.artic.edu/api/v1/artworks/80510"}
 sources:
   - https://www.wikidata.org/wiki/Q340808
   - https://ja.wikipedia.org/wiki/%E6%8F%9A%E5%B7%9E%E5%85%AB%E6%80%AA
@@ -46,6 +47,7 @@ sources:
   - https://www.tnm.jp/modules/r_exhibition/index.php?controller=item&id=5882&lang=en
   - https://www.metmuseum.org/pt/essays/the-qing-dynasty-1644-1911-the-courtiers-officials-and-professional-artists
   - https://www.dejiart.com/en/exhibition/yudetangcangyangzhoubaguaijingpinzhan/
+  - https://api.artic.edu/api/v1/artworks/80510
 images:
   - url: https://www.artic.edu/iiif/2/7967bcfe-1634-19ad-ff6c-48a10cae9a8e/full/843,/0/default.jpg
     source_page: https://www.artic.edu/artworks/80510
@@ -60,7 +62,7 @@ images:
     license: cc0
     note: "金農《画に題す詩冊・馬曰琯のために書す》（Poems on Paintings, Written for Ma Yueguan）、1754年、冊装十一葉。メトロポリタン美術館蔵（isPublicDomain: true）。馬曰琯（マー・ユエグアン）は揚州の塩商で、日本語版Wikipediaが挙げる庇護サロン（小玲瓏山館）の主とされる人物と同名だが、本作の献呈先が同一人物かはメトロポリタン美術館側の目録記載を確認しただけで一次資料には当たっていない"
 status: draft
-updated: 2026-08-10
+updated: 2026-08-13
 ---
 
 # 揚州八怪 / Eight Eccentrics of Yangzhou
@@ -172,6 +174,15 @@ precision=9）で、これは17世紀にあたる——ただし画家として�
 特定できていない。日本語版Wikipediaが挙げる「小玲瓏山館」については、上記のとおり中国語版
 Wikipediaが同じ具体性で裏付けておらず、メトロポリタン美術館の目録記載（馬曰琯宛の金農作品）
 との突き合わせも未了。
+
+### シカゴ美術館での作例
+
+揚州八怪の作例が国外で受容された具体例として、シカゴ美術館は李鱓に伝える《花鳥草虫図》を
+清代18世紀の作品として収蔵し、作者欄を「Li Shan (Attributed to)」と記録している
+（[Art Institute of Chicago「Birds, Flowers and Insects」](https://api.artic.edu/api/v1/artworks/80510)）。
+「伝」とする帰属の留保は残るが、**揚州八怪の主要画家に帰属される作例がシカゴの美術館
+コレクションに入っていること**は確認できる。そのため `diffused_to place/chicago` は作品の
+制度的受容地点を記録し、シカゴの別の美術運動への影響は主張しない。
 
 ## 未着手
 

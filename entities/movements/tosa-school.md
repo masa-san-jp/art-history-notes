@@ -27,6 +27,7 @@ space:
   - {role: originated_in, target: place/kyoto}
 relations:
   - {type: derives_from, target: movement/yamato-e, certainty: scholarly, source: "https://www.fujibi.or.jp/collection/artwork-artist/a130/"}
+  - {type: diffused_to, target: place/new-york-city, certainty: scholarly, source: "https://www.metmuseum.org/art/collection/search/45258"}
 sources:
   - https://www.wikidata.org/wiki/Q2915215
   - https://www.getty.edu/research/tools/vocabularies/aat/
@@ -36,13 +37,14 @@ sources:
   - https://www.tobunken.go.jp/materials/ekatudo/808641.html
   - https://www.kyohaku.go.jp/old/eng/theme/floor2_4/past/edo_20160614.html
   - https://www.kyohaku.go.jp/old/jp/theme/floor2_4/f2_4_koremade/kinse_20160614.html
+  - https://www.metmuseum.org/art/collection/search/45258
 images:
   - url: https://images.metmuseum.org/CRDImages/as/original/DT1607.jpg
     source_page: https://www.metmuseum.org/art/collection/search/45258
     license: cc0
     note: "土佐光信《四季竹図》（Bamboo in the Four Seasons）、15世紀末〜16世紀初頭。メトロポリタン美術館蔵（isPublicDomain: true）"
 status: draft
-updated: 2026-08-08
+updated: 2026-08-13
 ---
 
 # 土佐派 / Tosa school
@@ -106,6 +108,15 @@ Wikidata が持つのは country（日本, `P17`=Q17）までで、狩野派の�
 宮廷絵所預へ復帰したと東京富士美術館は説明している。京都国立博物館も、光起が17世紀半ばに同職へ
 返り咲き、以後江戸時代を通じて土佐派がその職を維持したと説明する。これは「江戸へ活動地が移った」
 ことではなく、江戸期に京都の宮廷画壇へ復帰したという再興として記録する。
+
+### ニューヨークでの収蔵
+
+土佐派の国外受容を示す具体例として、メトロポリタン美術館は《四季竹図》を、土佐光信に
+「伝」とする作品として収蔵している。記録は作者を「Attributed to Tosa Mitsunobu」、制作地を日本、
+年代を15世紀末〜16世紀初頭とする（[メトロポリタン美術館「Bamboo in the Four Seasons」](https://www.metmuseum.org/art/collection/search/45258)）。
+ここで確認できるのは、**土佐派に帰属される作例がニューヨークの美術館コレクションに入っていること**
+であり、ニューヨークの別の美術運動への影響ではない。そのため `diffused_to place/new-york-city` は
+作品の収蔵地点を記録するにとどめる。
 
 ## 未着手
 

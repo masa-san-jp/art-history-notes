@@ -28,7 +28,8 @@ claims:
 space:
   - {role: originated_in, target: place/tovkhon-monastery}
   - {role: active_in, target: place/ulaanbaatar}
-relations: []
+relations:
+  - {type: diffused_to, target: place/chicago, certainty: scholarly, source: "https://api.artic.edu/api/v1/artworks/158101"}
 sources:
   - https://en.wikipedia.org/wiki/Zanabazar
   - https://en.wikipedia.org/wiki/Jebtsundamba_Khutuktu
@@ -43,13 +44,14 @@ sources:
   - https://www.bukowskis.com/en/auctions/669/1248-a-mongolian-gilt-bronze-figure-of-buddha-zanabazar-school-18th-century
   - https://en.wikipedia.org/wiki/Stalinist_repressions_in_Mongolia
   - https://en.wikipedia.org/wiki/Gankh%C3%BC%C3%BCgiin_P%C3%BCrevbat
+  - https://api.artic.edu/api/v1/artworks/158101
 images:
   - url: https://www.artic.edu/iiif/2/c9b97cd1-2f45-f0c4-a575-354f12d7e488/full/843,/0/default.jpg
     source_page: https://www.artic.edu/artworks/158101
     license: cc0
     note: "《ヴァイローチャナ仏坐像（説法印）》17世紀末〜18世紀初頭、鍍金青銅。シカゴ美術館蔵、artist_display＝\"Mongolia / School of Zanabazar\"（is_public_domain: true）"
 status: draft
-updated: 2026-08-09
+updated: 2026-08-13
 ---
 
 # ザナバザル様式 / Zanabazar school
@@ -204,6 +206,15 @@ G. プレブバト（Gankhүүgiin Pürevbat）など現代の作家がザナバ
 作家・職人が集まり、様式的にまとまりを持つ作の集積地になったとされる（前述、二次情報の要約）。
 **未確認**: イフ・フレーは遊牧する寺院都市であり、定着前の各時代の座標そのものは一次資料で
 確認できていない（[place/ulaanbaatar](../places/ulaanbaatar.md)側にも同じ留保を記した）。
+
+### シカゴ美術館での作例
+
+ザナバザル様式の国外受容を示す具体例として、シカゴ美術館はモンゴル制作の鍍金青銅像を、
+作者・様式欄に「Mongolia / School of Zanabazar」と明記して収蔵している。作品は17世紀末〜
+18世紀初頭の《ヴァイローチャナ仏坐像》で、2001年にニューヨークの人物から同館が購入したと
+記録されている（[Art Institute of Chicago「Vairochana Buddha Seated Giving the First Sermon」](https://api.artic.edu/api/v1/artworks/158101)）。
+この記録は、**ザナバザル様式の作品がシカゴの美術館コレクションに入っていること**を示すが、
+シカゴの別の美術運動への影響は主張しない。そのため `diffused_to place/chicago` は収蔵地点を記録する。
 
 ## 未着手
 
