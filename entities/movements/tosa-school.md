@@ -33,6 +33,7 @@ sources:
   - https://en.wikipedia.org/wiki/Tosa_school
   - https://www.fujibi.or.jp/collection/artwork-artist/a130/
   - https://www.fujibi.or.jp/collection/artwork-artist/a960/
+  - https://www.tobunken.go.jp/materials/ekatudo/808641.html
   - https://www.kyohaku.go.jp/old/eng/theme/floor2_4/past/edo_20160614.html
   - https://www.kyohaku.go.jp/old/jp/theme/floor2_4/f2_4_koremade/kinse_20160614.html
 images:
@@ -62,6 +63,13 @@ updated: 2026-08-08
 土佐派が大和絵（日本様式の絵画）を専門としたことを確認している。ここで確認できるのは、土佐派が
 大和絵を単に同時代に併存した様式として参照したということではなく、伝統的な様式を継承する画派として
 位置づけられていることである。したがって、受け取り側である土佐派から大和絵へ `derives_from` を張る。
+
+ただし、この継承は大和絵を固定的に保存したという意味ではない。東京文化財研究所は、土佐光起が
+伝統的な大和絵に宋元画の画法と粉本を取り入れて、新しい作品を制作したと説明している
+（[東京文化財研究所「Reading Books on the Art of Painting by the Early Modern Tosa School」](https://www.tobunken.go.jp/materials/ekatudo/808641.html)）。
+ここで確認できるのは、土佐派内部の近世的な更新であり、宋代の宮廷画院を指す本KBの
+`movement/song-academy-painting` 全体から土佐派への直接的な影響を意味しない。そのため、宋元画の導入は
+本文の経路として記録するにとどめ、別のmovementエッジは追加しない。
 
 Wikidata は創始者（`founded by`, P112）として土佐行広 [Q3532591](https://www.wikidata.org/wiki/Q3532591)
 を挙げているが、その項目説明でも「創始とも伝わる（〜と伝わる）」という伝承のトーンで書かれている。
