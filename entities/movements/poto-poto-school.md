@@ -32,18 +32,20 @@ space:
   - {role: originated_in, target: place/brazzaville}
 relations:
   - {type: created_by, target: person/pierre-lods}
-  - {type: diffused_to, target: place/dakar, certainty: scholarly, source: "https://en.wikipedia.org/wiki/Papa_Ibra_Tall"}
+  - {type: diffused_to, target: place/dakar, certainty: scholarly, source: "https://heiup.uni-heidelberg.de/catalog/view/457/718/111002"}
 sources:
   - https://www.wikidata.org/wiki/Q114247696
   - https://www.wikidata.org/wiki/Q59564370
   - https://sites.rhodes.edu/potopoto/history-poto-poto-school
   - https://sites.rhodes.edu/potopoto
   - https://shs.cairn.info/journal-cahiers-d-etudes-africaines-2012-1-page-259?lang=en
+  - https://heiup.uni-heidelberg.de/catalog/view/457/718/111002
+  - https://www.si.edu/object/siris_sil_752655
   - https://www.africanews.com/2021/07/06/congo-school-of-painting-poto-poto-celebrates-70-years-of-african-art/
   - https://en.wikipedia.org/wiki/Poto-Poto
   - http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=Poto-Poto&logop=and&notes=
 status: draft
-updated: 2026-08-10
+updated: 2026-08-13
 ---
 
 # ポト＝ポト絵画学校 / École de Poto-Poto
@@ -128,6 +130,12 @@ sites.rhodes.edu、二次情報）、地区レベルの正確な位置は**未�
 1960年前後、ロッズがセネガルのダカールへ招かれ、パパ・イブラ・タル、イバ・ンディアイとともに
 ダカールの美術学校の設立に加わった（[person/pierre-lods](../persons/pierre-lods.md)、
 [en.wikipedia.org/wiki/Papa_Ibra_Tall](https://en.wikipedia.org/wiki/Papa_Ibra_Tall)、二次情報）。
+ハイデルベルク大学出版の研究資料は、ロッズがポト＝ポトでの経験を携えて1961年にダカールへ移り、
+パパ・イブラ・タルと「アフリカ美術研究」部門で教え、自宅にもポト＝ポトの学校と同じ方針の自由工房を
+開いたと記録している（[Heidelberg University Publishing「Drawing Education – Worldwide!」](https://heiup.uni-heidelberg.de/catalog/view/457/718/111002)）。
+スミソニアンの記録も、ロッズが1960年にセネガルへ去った後、元生徒ニコラ・オンドンゴがポト＝ポトの
+校長になったと記載しており、ブラザヴィル側の学校の継承とダカール側への移動を補強する
+（[Smithsonian Libraries and Archives「The Poto-Poto school of painting」](https://www.si.edu/object/siris_sil_752655)）。
 これはロッズ個人を介した、方法・教育の実践の地理的な移動にあたるため、`diffused_to` を
 [place/dakar](../places/dakar.md) に張った。ロッズがブラザヴィルで培った「技法教育を課さず自発性に
 任せる」という指導の方針とダカールでの実際の指導内容が同一だったかどうかは、

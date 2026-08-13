@@ -6876,7 +6876,7 @@
           "type": "diffused_to",
           "target": "place/dakar",
           "certainty": "scholarly",
-          "source": "https://en.wikipedia.org/wiki/Papa_Ibra_Tall"
+          "source": "https://heiup.uni-heidelberg.de/catalog/view/457/718/111002"
         }
       ],
       "sources": [
@@ -6885,12 +6885,14 @@
         "https://sites.rhodes.edu/potopoto/history-poto-poto-school",
         "https://sites.rhodes.edu/potopoto",
         "https://shs.cairn.info/journal-cahiers-d-etudes-africaines-2012-1-page-259?lang=en",
+        "https://heiup.uni-heidelberg.de/catalog/view/457/718/111002",
+        "https://www.si.edu/object/siris_sil_752655",
         "https://www.africanews.com/2021/07/06/congo-school-of-painting-poto-poto-celebrates-70-years-of-african-art/",
         "https://en.wikipedia.org/wiki/Poto-Poto",
         "http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=Poto-Poto&logop=and&notes="
       ],
       "status": "draft",
-      "updated": "2026-08-10",
+      "updated": "2026-08-13",
       "path": "entities/movements/poto-poto-school.md"
     },
     "movement/qajar-painting": {
@@ -57567,7 +57569,7 @@
       "type": "diffused_to",
       "to": "place/dakar",
       "certainty": "scholarly",
-      "source": "https://en.wikipedia.org/wiki/Papa_Ibra_Tall"
+      "source": "https://heiup.uni-heidelberg.de/catalog/view/457/718/111002"
     },
     {
       "from": "movement/poto-poto-school",
