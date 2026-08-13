@@ -5188,6 +5188,18 @@
           "target": "movement/nanga",
           "certainty": "scholarly",
           "source": "https://kyoto-museums.city.kyoto.lg.jp/en/feature-column/painting/"
+        },
+        {
+          "type": "diffused_to",
+          "target": "place/chicago",
+          "certainty": "scholarly",
+          "source": "https://api.artic.edu/api/v1/artworks/196928"
+        },
+        {
+          "type": "diffused_to",
+          "target": "place/chicago",
+          "certainty": "scholarly",
+          "source": "https://api.artic.edu/api/v1/artworks/50560"
         }
       ],
       "sources": [
@@ -5197,7 +5209,9 @@
         "https://ja.wikipedia.org/wiki/円山・四条派",
         "https://en.wikipedia.org/wiki/Shij%C5%8D_school",
         "https://kyoto-museums.city.kyoto.lg.jp/en/feature-column/painting/",
-        "https://www.fujibi.or.jp/collection/artwork/09092/"
+        "https://www.fujibi.or.jp/collection/artwork/09092/",
+        "https://api.artic.edu/api/v1/artworks/196928",
+        "https://api.artic.edu/api/v1/artworks/50560"
       ],
       "images": [
         {
@@ -5214,7 +5228,7 @@
         }
       ],
       "status": "draft",
-      "updated": "2026-08-10",
+      "updated": "2026-08-13",
       "path": "entities/movements/maruyama-shijo-school.md"
     },
     "movement/mavo": {
@@ -8449,6 +8463,12 @@
           "target": "movement/yamato-e",
           "certainty": "scholarly",
           "source": "https://www.fujibi.or.jp/collection/artwork-artist/a130/"
+        },
+        {
+          "type": "diffused_to",
+          "target": "place/new-york-city",
+          "certainty": "scholarly",
+          "source": "https://www.metmuseum.org/art/collection/search/45258"
         }
       ],
       "sources": [
@@ -8459,7 +8479,8 @@
         "https://www.fujibi.or.jp/collection/artwork-artist/a960/",
         "https://www.tobunken.go.jp/materials/ekatudo/808641.html",
         "https://www.kyohaku.go.jp/old/eng/theme/floor2_4/past/edo_20160614.html",
-        "https://www.kyohaku.go.jp/old/jp/theme/floor2_4/f2_4_koremade/kinse_20160614.html"
+        "https://www.kyohaku.go.jp/old/jp/theme/floor2_4/f2_4_koremade/kinse_20160614.html",
+        "https://www.metmuseum.org/art/collection/search/45258"
       ],
       "images": [
         {
@@ -8470,7 +8491,7 @@
         }
       ],
       "status": "draft",
-      "updated": "2026-08-08",
+      "updated": "2026-08-13",
       "path": "entities/movements/tosa-school.md"
     },
     "movement/utagawa-school": {
@@ -8791,7 +8812,14 @@
           "target": "place/kyoto"
         }
       ],
-      "relations": [],
+      "relations": [
+        {
+          "type": "diffused_to",
+          "target": "place/new-york-city",
+          "certainty": "scholarly",
+          "source": "https://www.metmuseum.org/art/collection/search/45428"
+        }
+      ],
       "sources": [
         "https://www.wikidata.org/wiki/Q597365",
         "https://www.getty.edu/vow/AATFullDisplay?find=Yamato-e&logic=AND&note=&english=Y&subjectid=300018589",
@@ -8799,7 +8827,8 @@
         "https://en.wikipedia.org/wiki/Yamato-e",
         "https://www.metmuseum.org/ja/essays/yamato-e-painting",
         "https://www.metmuseum.org/art/collection/search/45428",
-        "https://www.tnm.jp/modules/r_free_page/index.php?id=570&lang=en"
+        "https://www.tnm.jp/modules/r_free_page/index.php?id=570&lang=en",
+        "https://www.metmuseum.org/art/collection/search/45428"
       ],
       "images": [
         {
@@ -8878,6 +8907,12 @@
           "target": "movement/literati-painting",
           "certainty": "scholarly",
           "source": "https://www.metmuseum.org/pt/essays/the-qing-dynasty-1644-1911-the-courtiers-officials-and-professional-artists"
+        },
+        {
+          "type": "diffused_to",
+          "target": "place/chicago",
+          "certainty": "scholarly",
+          "source": "https://api.artic.edu/api/v1/artworks/80510"
         }
       ],
       "sources": [
@@ -8894,7 +8929,8 @@
         "https://www.metmuseum.org/art/collection/search/51894",
         "https://www.tnm.jp/modules/r_exhibition/index.php?controller=item&id=5882&lang=en",
         "https://www.metmuseum.org/pt/essays/the-qing-dynasty-1644-1911-the-courtiers-officials-and-professional-artists",
-        "https://www.dejiart.com/en/exhibition/yudetangcangyangzhoubaguaijingpinzhan/"
+        "https://www.dejiart.com/en/exhibition/yudetangcangyangzhoubaguaijingpinzhan/",
+        "https://api.artic.edu/api/v1/artworks/80510"
       ],
       "images": [
         {
@@ -8917,7 +8953,7 @@
         }
       ],
       "status": "draft",
-      "updated": "2026-08-10",
+      "updated": "2026-08-13",
       "path": "entities/movements/yangzhou-eccentrics.md"
     },
     "movement/zanabazar-school": {
@@ -8973,7 +9009,14 @@
           "target": "place/ulaanbaatar"
         }
       ],
-      "relations": [],
+      "relations": [
+        {
+          "type": "diffused_to",
+          "target": "place/chicago",
+          "certainty": "scholarly",
+          "source": "https://api.artic.edu/api/v1/artworks/158101"
+        }
+      ],
       "sources": [
         "https://en.wikipedia.org/wiki/Zanabazar",
         "https://en.wikipedia.org/wiki/Jebtsundamba_Khutuktu",
@@ -8987,7 +9030,8 @@
         "https://www.mongolianz.com/post/2021/05/11/the-sublime-sculptures-of-undur-gegeen-zanabazar/",
         "https://www.bukowskis.com/en/auctions/669/1248-a-mongolian-gilt-bronze-figure-of-buddha-zanabazar-school-18th-century",
         "https://en.wikipedia.org/wiki/Stalinist_repressions_in_Mongolia",
-        "https://en.wikipedia.org/wiki/Gankh%C3%BC%C3%BCgiin_P%C3%BCrevbat"
+        "https://en.wikipedia.org/wiki/Gankh%C3%BC%C3%BCgiin_P%C3%BCrevbat",
+        "https://api.artic.edu/api/v1/artworks/158101"
       ],
       "images": [
         {
@@ -8998,7 +9042,7 @@
         }
       ],
       "status": "draft",
-      "updated": "2026-08-09",
+      "updated": "2026-08-13",
       "path": "entities/movements/zanabazar-school.md"
     },
     "movement/zaria-art-society": {
@@ -57328,6 +57372,20 @@
     },
     {
       "from": "movement/maruyama-shijo-school",
+      "type": "diffused_to",
+      "to": "place/chicago",
+      "certainty": "scholarly",
+      "source": "https://api.artic.edu/api/v1/artworks/196928"
+    },
+    {
+      "from": "movement/maruyama-shijo-school",
+      "type": "diffused_to",
+      "to": "place/chicago",
+      "certainty": "scholarly",
+      "source": "https://api.artic.edu/api/v1/artworks/50560"
+    },
+    {
+      "from": "movement/maruyama-shijo-school",
       "type": "originated_in",
       "to": "place/kyoto"
     },
@@ -58062,6 +58120,13 @@
     },
     {
       "from": "movement/tosa-school",
+      "type": "diffused_to",
+      "to": "place/new-york-city",
+      "certainty": "scholarly",
+      "source": "https://www.metmuseum.org/art/collection/search/45258"
+    },
+    {
+      "from": "movement/tosa-school",
       "type": "originated_in",
       "to": "place/kyoto"
     },
@@ -58108,6 +58173,13 @@
     },
     {
       "from": "movement/yamato-e",
+      "type": "diffused_to",
+      "to": "place/new-york-city",
+      "certainty": "scholarly",
+      "source": "https://www.metmuseum.org/art/collection/search/45428"
+    },
+    {
+      "from": "movement/yamato-e",
       "type": "originated_in",
       "to": "place/kyoto"
     },
@@ -58120,8 +58192,22 @@
     },
     {
       "from": "movement/yangzhou-eccentrics",
+      "type": "diffused_to",
+      "to": "place/chicago",
+      "certainty": "scholarly",
+      "source": "https://api.artic.edu/api/v1/artworks/80510"
+    },
+    {
+      "from": "movement/yangzhou-eccentrics",
       "type": "originated_in",
       "to": "place/yangzhou"
+    },
+    {
+      "from": "movement/zanabazar-school",
+      "type": "diffused_to",
+      "to": "place/chicago",
+      "certainty": "scholarly",
+      "source": "https://api.artic.edu/api/v1/artworks/158101"
     },
     {
       "from": "movement/zanabazar-school",
@@ -73306,6 +73392,18 @@
       "derived": true
     },
     {
+      "from": "place/chicago",
+      "type": "received",
+      "to": "movement/maruyama-shijo-school",
+      "derived": true
+    },
+    {
+      "from": "place/chicago",
+      "type": "received",
+      "to": "movement/maruyama-shijo-school",
+      "derived": true
+    },
+    {
       "from": "movement/dada",
       "type": "influenced",
       "to": "movement/mavo",
@@ -73738,6 +73836,12 @@
       "derived": true
     },
     {
+      "from": "place/new-york-city",
+      "type": "received",
+      "to": "movement/tosa-school",
+      "derived": true
+    },
+    {
       "from": "concept/ukiyo-e",
       "type": "has_part",
       "to": "movement/utagawa-school",
@@ -73756,9 +73860,27 @@
       "derived": true
     },
     {
+      "from": "place/new-york-city",
+      "type": "received",
+      "to": "movement/yamato-e",
+      "derived": true
+    },
+    {
       "from": "movement/literati-painting",
       "type": "influenced",
       "to": "movement/yangzhou-eccentrics",
+      "derived": true
+    },
+    {
+      "from": "place/chicago",
+      "type": "received",
+      "to": "movement/yangzhou-eccentrics",
+      "derived": true
+    },
+    {
+      "from": "place/chicago",
+      "type": "received",
+      "to": "movement/zanabazar-school",
       "derived": true
     },
     {

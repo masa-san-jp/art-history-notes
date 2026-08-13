@@ -25,7 +25,8 @@ claims:
   - {field: kind, source: "https://www.getty.edu/vow/AATFullDisplay?find=Yamato-e&logic=AND&note=&english=Y&subjectid=300018589", certainty: scholarly}
 space:
   - {role: originated_in, target: place/kyoto}
-relations: []
+relations:
+  - {type: diffused_to, target: place/new-york-city, certainty: scholarly, source: "https://www.metmuseum.org/art/collection/search/45428"}
 sources:
   - https://www.wikidata.org/wiki/Q597365
   - https://www.getty.edu/vow/AATFullDisplay?find=Yamato-e&logic=AND&note=&english=Y&subjectid=300018589
@@ -34,6 +35,7 @@ sources:
   - https://www.metmuseum.org/ja/essays/yamato-e-painting
   - https://www.metmuseum.org/art/collection/search/45428
   - https://www.tnm.jp/modules/r_free_page/index.php?id=570&lang=en
+  - https://www.metmuseum.org/art/collection/search/45428
 images:
   - url: https://images.metmuseum.org/CRDImages/as/original/DP244667_CRD.jpg
     source_page: https://www.metmuseum.org/art/collection/search/45428
@@ -129,6 +131,15 @@ Japanese themes, but also formats and styles considered to be uniquely Japanese"
 宮廷社会の中で書かれている。**未確認**: これは平安京＝現在の京都という理解に基づく通説的な位置づけで
 あり、Wikidata には都市レベルの座標情報は無く（`P17`＝日本の国レベルまで）、一次資料での座標的な
 裏は取れていない。土佐派・狩野派の項目と同じ制約である。
+
+### ニューヨークでの所蔵
+
+大和絵の国外受容を示す具体例として、メトロポリタン美術館は《北野天神縁起絵巻》を日本の
+鎌倉時代・13世紀末の作品として収蔵し、その解説で画中の屏風を「early type of yamato-e」と明記している
+（[メトロポリタン美術館「Illustrated Legends of the Kitano Tenjin Shrine」](https://www.metmuseum.org/art/collection/search/45428)）。
+これは、**大和絵の作例がニューヨークの美術館コレクションに入り、同館の解説で大和絵として
+位置づけられていること**を示すが、ニューヨークの別の美術運動への影響は主張しない。そのため
+`diffused_to place/new-york-city` は制度的な受容地点を記録する。
 
 ## 未着手
 

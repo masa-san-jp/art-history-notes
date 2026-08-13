@@ -1,5 +1,5 @@
 ---
-as_of: 2026-08-09
+as_of: 2026-08-13
 depends_on:
   - movement/kano-school
   - movement/rinpa
