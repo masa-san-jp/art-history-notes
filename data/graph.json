@@ -1326,6 +1326,89 @@
       "updated": "2026-08-10",
       "path": "entities/movements/baghdad-school-of-illustration.md"
     },
+    "movement/bamana-sculpture": {
+      "id": "movement/bamana-sculpture",
+      "uri": "urn:ahn:movement/bamana-sculpture",
+      "type": "movement",
+      "label_ja": "バマナ彫刻",
+      "label_en": "Bamana sculpture",
+      "authority": {
+        "wikidata": null,
+        "aat": "300015848",
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "Wikidata には『バマナ彫刻』という様式・括りの項目が無い。あるのは民族集団（Bambara [Q504685]）と個別の器物（Chiwara [Q4892684]）で、いずれも括りそのものと単位が違うため wikidata は null にした。AAT ID は Q504685 の P1014 から取り、Getty 側の全記録表示で『Bamana（Styles and Periods 階層／core Mande styles）』であることを確認済み"
+      },
+      "time": {
+        "start": null,
+        "end": null,
+        "display": "起点・終点とも特定できない。欧米の所蔵館が年代を与えている実物は19世紀〜20世紀に集中する（メトロポリタン美術館のチワラ頭飾り 1978.412.435 は『19世紀〜20世紀初頭』＝objectBeginDate 1800／objectEndDate 1930、2010.322 は『19〜20世紀』。クリーヴランド美術館 1965.325 は『1900年代初頭〜半ば』、1962.307 は『1900年代初頭』）。ただしこれは収集・寄贈の履歴が届く範囲であって、彫刻の伝統そのものの開始ではない。バマナ国家（セグー王国、Wikidata [Q762084] は1712年〜1861年とする）より遡るのか、国家形成と同時期に整ったのかを述べる出典に当たれていない"
+      },
+      "kind": "retrospective",
+      "naming": {
+        "self_identified": false,
+        "named_by": null,
+        "named_when": null,
+        "original_label": "Bamana",
+        "note": "二段構えの他称である。①民族名の層——『Bambara』は外来の他称で、ニジェール川湾曲部の非イスラム化住民を指してアラブ交易者が用い、のちフランス植民地行政（フランス領スーダン）が民族カテゴリとして固定したとされる。自称は『Bamana』（複数形 Bamananw）で、語源は『主人を拒む者』の意と説明される（[africanarchive.org](https://africanarchive.org/en/staemme/bamana)、二次情報）。Getty AAT も preferred term を『Bamana』とし、『Bambara (culture or style)』を非優先の異形として下に置く（[AAT 300015848](https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300015848)）。②美術の括りの層——これらの彫刻を一つの様式圏として提示したのは欧米の美術館である。1960年2月17日、ニューヨークの Museum of Primitive Art で館長ロバート・ゴールドウォーターが『Antelopes and Queens: Bambara Sculpture from the Western Sudan』を開き、館側はこれを『バンバラ美術について組まれた初の包括的な展覧会』と称した。同名の図録（64頁・写真112点）はバンバラ美術についての最初のカタログ・モノグラフとされる（[メトロポリタン美術館 Heilbrunn Timeline の解説記事](https://www.metmuseum.org/toah/hd/bamb/hd_bamb.htm)）。**未確認**: この Heilbrunn の記事本文には直接到達できていない（2026-08-10、HTTP 429 が返る）ため、記載は検索結果の要約経由の二次的な把握に留まる。ゴールドウォーター以前に『バンバラ彫刻』の語が誰によっていつ使われ始めたかも未確認のため named_when は null にした"
+      },
+      "claims": [
+        {
+          "field": "kind",
+          "source": "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300015848",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "originated_in",
+          "source": "https://en.wikipedia.org/wiki/Chiwara",
+          "certainty": "scholarly"
+        }
+      ],
+      "images": [
+        {
+          "url": "https://openaccess-cdn.clevelandart.org/1965.325/1965.325_web.jpg",
+          "source_page": "https://clevelandart.org/art/1965.325",
+          "license": "cc0",
+          "note": "頭飾り（チワラ）雌。クリーヴランド美術館 1965.325。バマコ以南に多い自然主義的な様式と館が記す"
+        },
+        {
+          "url": "https://openaccess-cdn.clevelandart.org/1962.307/1962.307_web.jpg",
+          "source_page": "https://clevelandart.org/art/1962.307",
+          "license": "cc0",
+          "note": "頭飾り（チワラ）雌。クリーヴランド美術館 1962.307。垂直方向に伸び、背に跪く人物像が付く"
+        }
+      ],
+      "space": [
+        {
+          "role": "originated_in",
+          "target": "place/segou"
+        }
+      ],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "org/bamana-numu"
+        }
+      ],
+      "sources": [
+        "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300015848",
+        "http://vocab.getty.edu/aat/300015848",
+        "https://www.wikidata.org/wiki/Q504685",
+        "https://www.wikidata.org/wiki/Q4892684",
+        "https://www.wikidata.org/wiki/Q762084",
+        "https://en.wikipedia.org/wiki/Chiwara",
+        "https://en.wikipedia.org/wiki/Nyamakala",
+        "https://africanarchive.org/en/staemme/bamana",
+        "https://www.metmuseum.org/art/collection/search/310864",
+        "https://www.metmuseum.org/art/collection/search/318895",
+        "https://clevelandart.org/art/1965.325",
+        "https://clevelandart.org/art/1962.307",
+        "https://www.metmuseum.org/toah/hd/bamb/hd_bamb.htm"
+      ],
+      "status": "draft",
+      "updated": "2026-08-10",
+      "path": "entities/movements/bamana-sculpture.md"
+    },
     "movement/bandung-school": {
       "id": "movement/bandung-school",
       "uri": "urn:ahn:movement/bandung-school",
@@ -2417,6 +2500,12 @@
           "target": "movement/baroque",
           "certainty": "scholarly",
           "source": "https://ojs.tnkul.pl/index.php/rh/article/view/7120"
+        },
+        {
+          "type": "influenced_by",
+          "target": "movement/mannerism",
+          "certainty": "scholarly",
+          "source": "https://en.wikipedia.org/wiki/Bernardo_Bitti"
         }
       ],
       "founding_control": "external",
@@ -3381,6 +3470,12 @@
           "target": "movement/byzantine-art",
           "certainty": "scholarly",
           "source": "https://www.metmuseum.org/essays/african-christianity-in-ethiopia"
+        },
+        {
+          "type": "influenced_by",
+          "target": "movement/mannerism",
+          "certainty": "scholarly",
+          "source": "https://www.journal18.org/nq/giulio-romanos-the-little-holy-family-in-africa-identifying-an-18th-century-ethiopian-painting-by-kristen-windmuller-luna/"
         }
       ],
       "sources": [
@@ -4748,6 +4843,110 @@
       "updated": "2026-08-10",
       "path": "entities/movements/joseon-genre-painting.md"
     },
+    "movement/kanga": {
+      "id": "movement/kanga",
+      "uri": "urn:ahn:movement/kanga",
+      "type": "movement",
+      "label_ja": "漢画",
+      "label_en": "Kanga",
+      "authority": {
+        "wikidata": null,
+        "aat": "300266170",
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "Wikidata を「漢画」「suibokuga」「Japanese ink painting」「Muromachi ink painting」で検索したが、この括りを指す項目は無い。最も近い Q756712 は「ink wash painting（水墨画）」＝技法（painting technique）で、様式・時代の括りではないため充てない。日本語版Wikipediaにも「漢画」の記事は無く（2026-08-10 時点で本文0字）、この対象は通常「水墨画」の記事内の『日本における水墨画』節として扱われている。Getty AAT は Styles and Periods 階層の『Japanese painting styles』の下に Kanga を独立の概念として持つため、authority はこれを採った"
+      },
+      "time": {
+        "start": "12XX",
+        "end": null,
+        "display": "Getty AAT は「13世紀から日本に移入された」とする（EDTF では 12XX＝1200-1299 が13世紀）。日本語版Wikipedia「水墨画」は、12世紀末頃の詫磨派の仏画に既に水墨画風の筆法が見えるが「本格的な水墨画作品が現れるのは13世紀末頃」とし、13世紀末〜14世紀の作を美術史が「初期水墨画」と呼ぶと記す。終期は特定しない——狩野派が漢画系の画法を基礎に据えたまま江戸期を通じて続くため、様式としての切れ目を示す出典に当たれていない"
+      },
+      "kind": "period-style",
+      "naming": {
+        "self_identified": false,
+        "named_by": null,
+        "named_when": null,
+        "original_label": "漢画",
+        "note": "「漢画」は担い手が名乗った集団名ではなく、**大和絵に対して中国風の画を指す対の語**である（日本語版Wikipedia「狩野元信」が「漢画（大和絵に対して中国風の画を指す）」と括弧で定義する）。和と漢という対で領域を割る呼び方であり、特定の工房・血縁・綱領を指さない。Getty AAT は preferred term を英語表記の「Kanga (Japanese painting style)」とし、中国語（繁体）の異形として「漢畫 (日本繪畫風格)」を持つ。**未確認**: 「漢画」という語が日本で最初に使われた文献と年。より古い対の語として「唐絵（からえ）／大和絵」があり、両者の関係（唐絵→漢画への語の移行がいつ起きたか）も未確認。この不確かさのため named_when は null にした"
+      },
+      "claims": [
+        {
+          "field": "kind",
+          "source": "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300266170",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "time",
+          "source": "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300266170",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "originated_in",
+          "source": "https://ja.wikipedia.org/wiki/%E6%B0%B4%E5%A2%A8%E7%94%BB",
+          "certainty": "scholarly"
+        }
+      ],
+      "images": [
+        {
+          "url": "https://openaccess-cdn.clevelandart.org/1976.59/1976.59_web.jpg",
+          "source_page": "https://clevelandart.org/art/1976.59",
+          "license": "cc0",
+          "note": "《破墨山水図（Haboku / Flung-ink Landscape）》1510年頃、室町時代。クリーヴランド美術館蔵"
+        },
+        {
+          "url": "https://openaccess-cdn.clevelandart.org/1976.92.1/1976.92.1_web.jpg",
+          "source_page": "https://clevelandart.org/art/1976.92.1",
+          "license": "cc0",
+          "note": "《四季山水図（Landscape of the Four Seasons）》1400年代後半。クリーヴランド美術館は制作地を『朝鮮・朝鮮王朝期 または 日本・室町期』と併記しており、所蔵館が国を確定できていない作例"
+        },
+        {
+          "url": "https://images.metmuseum.org/CRDImages/as/original/DP361165.jpg",
+          "source_page": "https://www.metmuseum.org/art/collection/search/53219",
+          "license": "public-domain",
+          "note": "牧林愚庵《葡萄に蝉図》14世紀後半〜15世紀初頭、紙本墨画。メトロポリタン美術館蔵（Burke Collection）"
+        }
+      ],
+      "space": [
+        {
+          "role": "originated_in",
+          "target": "place/kyoto"
+        }
+      ],
+      "relations": [
+        {
+          "type": "influenced_by",
+          "target": "movement/song-academy-painting",
+          "certainty": "scholarly",
+          "source": "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300266170"
+        },
+        {
+          "type": "influenced_by",
+          "target": "movement/zhe-school",
+          "certainty": "scholarly",
+          "source": "https://ja.wikipedia.org/wiki/%E6%B5%99%E6%B4%BE"
+        },
+        {
+          "type": "influenced_by",
+          "target": "movement/an-gyeon-school",
+          "certainty": "scholarly",
+          "source": "https://encykorea.aks.ac.kr/Article/E0069639"
+        }
+      ],
+      "sources": [
+        "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300266170",
+        "http://vocab.getty.edu/aat/300266170",
+        "https://ja.wikipedia.org/wiki/%E6%B0%B4%E5%A2%A8%E7%94%BB",
+        "https://ja.wikipedia.org/wiki/%E6%B5%99%E6%B4%BE",
+        "https://ja.wikipedia.org/wiki/%E7%8B%A9%E9%87%8E%E5%85%83%E4%BF%A1",
+        "https://encykorea.aks.ac.kr/Article/E0069639",
+        "https://clevelandart.org/art/1976.59",
+        "https://clevelandart.org/art/1976.92.1",
+        "https://www.metmuseum.org/art/collection/search/53219"
+      ],
+      "status": "draft",
+      "updated": "2026-08-10",
+      "path": "entities/movements/kanga.md"
+    },
     "movement/kangra-painting": {
       "id": "movement/kangra-painting",
       "uri": "urn:ahn:movement/kangra-painting",
@@ -5143,6 +5342,82 @@
       "updated": "2026-08-10",
       "path": "entities/movements/literati-painting.md"
     },
+    "movement/mannerism": {
+      "id": "movement/mannerism",
+      "uri": "urn:ahn:movement/mannerism",
+      "type": "movement",
+      "label_ja": "マニエリスム",
+      "label_en": "Mannerism",
+      "authority": {
+        "wikidata": "Q131808",
+        "aat": "300021144",
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": "152X",
+        "end": "1590",
+        "display": "Getty AAT は「1520年代から1590年まで、主にローマで展開しヨーロッパ各地へ広がった」とする。英語版Wikipedia は成立を1520年頃（盛期ルネサンス末）、広がりを1530年頃、イタリアでの終期を16世紀末とし、様式の発生地を「1510年から1520年の間に、フィレンツェかローマ、あるいは両都市で同時に」と幅を持たせる。EDTF の 152X は1520年代を指す"
+      },
+      "kind": "retrospective",
+      "naming": {
+        "self_identified": false,
+        "named_by": null,
+        "named_when": null,
+        "original_label": "maniera",
+        "note": "語源はイタリア語の maniera（様式・手つき）。ジョルジョ・ヴァザーリは『美術家列伝』（1568年）でこの語を、技法・集団の様式・作品の質という複数の意味で用い、自らの時代を「la maniera moderna（現代の様式）」と呼んだ——**ヴァザーリ自身がこの様式の担い手でもある**が、彼が呼んだのは「現代の様式」であって、後代の「マニエリスム」という括りの名ではない。括りとしての Mannerism は20世紀初頭にドイツ語圏の美術史家によって広められ、1965年にマンチェスター市立美術館でフリッツ・グロスマンが組んだ展覧会を承けて1967年にジョン・シアマンが定義し直したとされる（[英語版Wikipedia](https://en.wikipedia.org/wiki/Mannerism)、二次情報）。当事者の自称ではなく、400年近く後の学術的な括りであるため `retrospective` とし、`named_when` は特定の1年に絞れないため null にした。**未確認**: 20世紀初頭にこの語を最初に様式名として用いた美術史家の特定（ドイツ語圏、とされるが個人名に到達していない）"
+      },
+      "claims": [
+        {
+          "field": "kind",
+          "source": "https://en.wikipedia.org/wiki/Mannerism",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "time",
+          "source": "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300021144",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "originated_in",
+          "source": "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300021144",
+          "certainty": "scholarly"
+        }
+      ],
+      "images": [
+        {
+          "url": "https://www.artic.edu/iiif/2/2b751a0e-a492-7fa9-749c-6667cdd1c928/full/843,/0/default.jpg",
+          "source_page": "https://www.artic.edu/artworks/110759",
+          "license": "public-domain",
+          "note": "ヤコポ・ダ・ポントルモ《アレッサンドロ・デ・メディチ》1534〜35年、シカゴ美術館蔵"
+        },
+        {
+          "url": "https://www.artic.edu/iiif/2/03e8b763-65c3-8b54-2559-8c4ff892d9a4/full/843,/0/default.jpg",
+          "source_page": "https://www.artic.edu/artworks/52668",
+          "license": "public-domain",
+          "note": "パルミジャニーノ《立つ9人の人物群》1524〜27年、シカゴ美術館蔵"
+        }
+      ],
+      "space": [
+        {
+          "role": "originated_in",
+          "target": "place/rome"
+        }
+      ],
+      "relations": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q131808",
+        "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300021144",
+        "http://vocab.getty.edu/aat/300021144",
+        "https://en.wikipedia.org/wiki/Mannerism",
+        "https://www.artic.edu/artworks/110759",
+        "https://www.artic.edu/artworks/52668"
+      ],
+      "status": "draft",
+      "updated": "2026-08-10",
+      "path": "entities/movements/mannerism.md"
+    },
     "movement/maruyama-shijo-school": {
       "id": "movement/maruyama-shijo-school",
       "uri": "urn:ahn:movement/maruyama-shijo-school",
@@ -5343,6 +5618,12 @@
           "target": "place/new-york-city",
           "certainty": "scholarly",
           "source": "https://rubinmuseum.org/exhibitions/the-place-of-provenance/"
+        },
+        {
+          "type": "influenced_by",
+          "target": "movement/newar-art",
+          "certainty": "scholarly",
+          "source": "https://rubinmuseum.org/projecthimalayanart/essays/murals-of-gongkar-chode/"
         }
       ],
       "sources": [
@@ -6208,6 +6489,62 @@
       "status": "draft",
       "updated": "2026-08-09",
       "path": "entities/movements/neoconcretismo.md"
+    },
+    "movement/newar-art": {
+      "id": "movement/newar-art",
+      "uri": "urn:ahn:movement/newar-art",
+      "type": "movement",
+      "label_ja": "ネワール美術",
+      "label_en": "Newar art",
+      "authority": {
+        "wikidata": null,
+        "aat": "300018822",
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "Wikidata に「ネワール美術」という括りの項目が無い。近いのは Q1217053『Nepalese art』（ネパールという国の美術全般。ネワールという担い手の単位と一致しない）と Q7148832『Paubha』（ネワールの宗教絵画。絵画に限られ、金工・彫刻を含まない）で、いずれも本項目の範囲とずれるため充てなかった。Getty AAT は Styles and Periods 階層の Himalayan の下に『Nepalese (culture or style)』[300018822] を持つのでこれを採ったが、**この概念に scope note は付いていない**（2026-08-10 に全記録表示で確認）——定義文を持たない典拠であることを明記しておく"
+      },
+      "time": {
+        "start": null,
+        "end": null,
+        "display": "起点・終点とも特定していない。ルービン美術館 Project Himalayan Art の用語集は「ネワールの美術と工人はリッチャヴィ期以来ヒマラヤ世界の全域で称賛されてきた」と記す（リッチャヴィ期はおよそ5〜9世紀）が、これは称賛の起点であって様式の成立年ではない。現在もカトマンズ盆地で制作は続いており、終期を示す出典も無い"
+      },
+      "kind": "retrospective",
+      "naming": {
+        "self_identified": false,
+        "named_by": null,
+        "named_when": null,
+        "original_label": "Newar",
+        "note": "「ネワール美術（Newar art）」は、ネワールという担い手の集団名を冠して外側から与えられた美術史・美術館の分類語である。当事者がこの名で一つの運動・流派を名乗った記録は確認していない。ネワール自身の実践は、パウバ（paubha、ネワールの宗教絵画。チベットのタンカに対応する）や金工といった**媒体ごとの名**と、チトラカール（Chitrakar）・ヴァジュラーチャーリヤ（Vajracharya）・シャーキャ（Shakya）といった**カースト・職能集団の名**で呼ばれてきた。Getty AAT が持つのも民族名ではなく国名由来の『Nepalese (culture or style)』であり、担い手の単位と分類語の単位がずれている点は[バマナ彫刻](bamana-sculpture.md)と同型である。**未確認**: 「Newar art」という英語の括りを最初に用いた研究者・年"
+      },
+      "claims": [
+        {
+          "field": "originated_in",
+          "source": "https://rubinmuseum.org/projecthimalayanart/glossary/newar/",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "kind",
+          "source": "https://rubinmuseum.org/projecthimalayanart/glossary/newar/",
+          "certainty": "scholarly"
+        }
+      ],
+      "space": [
+        {
+          "role": "originated_in",
+          "target": "place/kathmandu"
+        }
+      ],
+      "relations": [],
+      "sources": [
+        "https://rubinmuseum.org/projecthimalayanart/glossary/newar/",
+        "https://rubinmuseum.org/projecthimalayanart/essays/jivaramas-sketchbook/",
+        "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300018822",
+        "https://www.wikidata.org/wiki/Q7148832",
+        "https://www.wikidata.org/wiki/Q1217053"
+      ],
+      "status": "draft",
+      "updated": "2026-08-10",
+      "path": "entities/movements/newar-art.md"
     },
     "movement/ngati-tarawhai-whakairo": {
       "id": "movement/ngati-tarawhai-whakairo",
@@ -9029,6 +9366,12 @@
           "target": "place/chicago",
           "certainty": "scholarly",
           "source": "https://api.artic.edu/api/v1/artworks/158101"
+        },
+        {
+          "type": "influenced_by",
+          "target": "movement/newar-art",
+          "certainty": "scholarly",
+          "source": "https://en.wikipedia.org/wiki/Zanabazar"
         }
       ],
       "sources": [
@@ -9253,6 +9596,44 @@
       "status": "stub",
       "updated": "2026-08-08",
       "path": "entities/orgs/art-institute-of-chicago.md"
+    },
+    "org/bamana-numu": {
+      "id": "org/bamana-numu",
+      "uri": "urn:ahn:org/bamana-numu",
+      "type": "org",
+      "label_ja": "ヌム（バマナの鍛冶師カースト）",
+      "label_en": "Numu (Bamana blacksmith-carver caste)",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "Wikidata を『Numu』で検索しても該当する項目が出ない（返るのはウクライナの音楽団体・オスマン期の学校・豪州の地名など無関係な項目）。上位のカースト階層である『Nyamakala』には項目がある（[Q28136231](https://www.wikidata.org/wiki/Q28136231)）が、ニャマカラは鍛冶師（ヌム）・語り部（ジェリ）・革職人（ガランケ）を含む総称であって、彫刻の担い手としてのヌムと単位が違うため充てない。Getty AAT 側は 2026-08-10 時点でエンドポイントが 499『Service temporarily degraded』を返し検索できていない——**未確認**"
+      },
+      "time": {
+        "start": null,
+        "end": null,
+        "display": "内婚のカーストとして世代をまたいで継承されるため、組織としての設立年・解散年という形の時間を持たない。バマナ国家（セグー王国、1712年〜1861年）より前から Mande 語圏に広く分布していたとされるが、成立時期を述べる出典には当たれていない"
+      },
+      "space": [
+        {
+          "role": "active_in",
+          "target": "place/segou"
+        }
+      ],
+      "relations": [],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Nyamakala",
+        "https://en.wikipedia.org/wiki/Blacksmiths_of_western_Africa",
+        "https://africanarchive.org/en/staemme/bamana",
+        "https://www.metmuseum.org/art/collection/search/310864",
+        "https://www.metmuseum.org/art/collection/search/312336",
+        "https://clevelandart.org/art/1965.325",
+        "https://www.wikidata.org/wiki/Q28136231"
+      ],
+      "status": "draft",
+      "updated": "2026-08-10",
+      "path": "entities/orgs/bamana-numu.md"
     },
     "org/dohwaseo": {
       "id": "org/dohwaseo",
@@ -25377,6 +25758,38 @@
       "updated": "2026-08-09",
       "path": "entities/places/kangra.md"
     },
+    "place/kathmandu": {
+      "id": "place/kathmandu",
+      "uri": "urn:ahn:place/kathmandu",
+      "type": "place",
+      "label_ja": "カトマンズ",
+      "label_en": "Kathmandu",
+      "authority": {
+        "wikidata": "Q3037",
+        "tgn": "1083294",
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "region": "asia-south",
+      "coordinates": [
+        27.71,
+        85.32
+      ],
+      "time": {
+        "start": null,
+        "end": null,
+        "display": null
+      },
+      "relations": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q3037"
+      ],
+      "status": "stub",
+      "updated": "2026-08-10",
+      "path": "entities/places/kathmandu.md"
+    },
     "place/kolkata": {
       "id": "place/kolkata",
       "uri": "urn:ahn:place/kolkata",
@@ -26084,6 +26497,38 @@
       "status": "stub",
       "updated": "2026-08-09",
       "path": "entities/places/sao-paulo.md"
+    },
+    "place/segou": {
+      "id": "place/segou",
+      "uri": "urn:ahn:place/segou",
+      "type": "place",
+      "label_ja": "セグー",
+      "label_en": "Ségou",
+      "authority": {
+        "wikidata": "Q333476",
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": null,
+        "end": null,
+        "display": null
+      },
+      "region": "africa-sub",
+      "coordinates": [
+        13.4317,
+        -6.2157
+      ],
+      "space": [],
+      "relations": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q333476"
+      ],
+      "status": "stub",
+      "updated": "2026-08-10",
+      "path": "entities/places/segou.md"
     },
     "place/seoul": {
       "id": "place/seoul",
@@ -56520,6 +56965,18 @@
       "to": "place/baghdad"
     },
     {
+      "from": "movement/bamana-sculpture",
+      "type": "created_by",
+      "to": "org/bamana-numu",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "movement/bamana-sculpture",
+      "type": "originated_in",
+      "to": "place/segou"
+    },
+    {
       "from": "movement/bandung-school",
       "type": "created_by",
       "to": "person/ries-mulder",
@@ -56749,6 +57206,13 @@
       "to": "movement/baroque",
       "certainty": "scholarly",
       "source": "https://ojs.tnkul.pl/index.php/rh/article/view/7120"
+    },
+    {
+      "from": "movement/cusco-school",
+      "type": "influenced_by",
+      "to": "movement/mannerism",
+      "certainty": "scholarly",
+      "source": "https://en.wikipedia.org/wiki/Bernardo_Bitti"
     },
     {
       "from": "movement/cusco-school",
@@ -56990,6 +57454,13 @@
       "to": "movement/byzantine-art",
       "certainty": "scholarly",
       "source": "https://www.metmuseum.org/essays/african-christianity-in-ethiopia"
+    },
+    {
+      "from": "movement/gondarine-church-painting",
+      "type": "influenced_by",
+      "to": "movement/mannerism",
+      "certainty": "scholarly",
+      "source": "https://www.journal18.org/nq/giulio-romanos-the-little-holy-family-in-africa-identifying-an-18th-century-ethiopian-painting-by-kristen-windmuller-luna/"
     },
     {
       "from": "movement/gondarine-church-painting",
@@ -57308,6 +57779,32 @@
       "to": "place/hanseong"
     },
     {
+      "from": "movement/kanga",
+      "type": "influenced_by",
+      "to": "movement/song-academy-painting",
+      "certainty": "scholarly",
+      "source": "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300266170"
+    },
+    {
+      "from": "movement/kanga",
+      "type": "influenced_by",
+      "to": "movement/zhe-school",
+      "certainty": "scholarly",
+      "source": "https://ja.wikipedia.org/wiki/%E6%B5%99%E6%B4%BE"
+    },
+    {
+      "from": "movement/kanga",
+      "type": "influenced_by",
+      "to": "movement/an-gyeon-school",
+      "certainty": "scholarly",
+      "source": "https://encykorea.aks.ac.kr/Article/E0069639"
+    },
+    {
+      "from": "movement/kanga",
+      "type": "originated_in",
+      "to": "place/kyoto"
+    },
+    {
       "from": "movement/kangra-painting",
       "type": "influenced_by",
       "to": "movement/mughal-painting",
@@ -57378,6 +57875,11 @@
       "to": "place/tokyo"
     },
     {
+      "from": "movement/mannerism",
+      "type": "originated_in",
+      "to": "place/rome"
+    },
+    {
       "from": "movement/maruyama-shijo-school",
       "type": "influenced_by",
       "to": "movement/nanga",
@@ -57428,6 +57930,13 @@
       "to": "place/new-york-city",
       "certainty": "scholarly",
       "source": "https://rubinmuseum.org/exhibitions/the-place-of-provenance/"
+    },
+    {
+      "from": "movement/menri-school",
+      "type": "influenced_by",
+      "to": "movement/newar-art",
+      "certainty": "scholarly",
+      "source": "https://rubinmuseum.org/projecthimalayanart/essays/murals-of-gongkar-chode/"
     },
     {
       "from": "movement/menri-school",
@@ -57668,6 +58177,11 @@
       "from": "movement/neoconcretismo",
       "type": "originated_in",
       "to": "place/rio-de-janeiro"
+    },
+    {
+      "from": "movement/newar-art",
+      "type": "originated_in",
+      "to": "place/kathmandu"
     },
     {
       "from": "movement/ngati-tarawhai-whakairo",
@@ -58239,6 +58753,13 @@
     },
     {
       "from": "movement/zanabazar-school",
+      "type": "influenced_by",
+      "to": "movement/newar-art",
+      "certainty": "scholarly",
+      "source": "https://en.wikipedia.org/wiki/Zanabazar"
+    },
+    {
+      "from": "movement/zanabazar-school",
       "type": "originated_in",
       "to": "place/tovkhon-monastery"
     },
@@ -58289,6 +58810,11 @@
       "from": "org/art-institute-of-chicago",
       "type": "sited_in",
       "to": "place/chicago"
+    },
+    {
+      "from": "org/bamana-numu",
+      "type": "active_in",
+      "to": "place/segou"
     },
     {
       "from": "org/dohwaseo",
@@ -72910,6 +73436,12 @@
       "derived": true
     },
     {
+      "from": "org/bamana-numu",
+      "type": "created",
+      "to": "movement/bamana-sculpture",
+      "derived": true
+    },
+    {
       "from": "person/ries-mulder",
       "type": "created",
       "to": "movement/bandung-school",
@@ -73048,6 +73580,12 @@
       "derived": true
     },
     {
+      "from": "movement/mannerism",
+      "type": "influenced",
+      "to": "movement/cusco-school",
+      "derived": true
+    },
+    {
       "from": "movement/expressionism",
       "type": "reacted_against_by",
       "to": "movement/dada",
@@ -73181,6 +73719,12 @@
     },
     {
       "from": "movement/byzantine-art",
+      "type": "influenced",
+      "to": "movement/gondarine-church-painting",
+      "derived": true
+    },
+    {
+      "from": "movement/mannerism",
       "type": "influenced",
       "to": "movement/gondarine-church-painting",
       "derived": true
@@ -73384,6 +73928,24 @@
       "derived": true
     },
     {
+      "from": "movement/song-academy-painting",
+      "type": "influenced",
+      "to": "movement/kanga",
+      "derived": true
+    },
+    {
+      "from": "movement/zhe-school",
+      "type": "influenced",
+      "to": "movement/kanga",
+      "derived": true
+    },
+    {
+      "from": "movement/an-gyeon-school",
+      "type": "influenced",
+      "to": "movement/kanga",
+      "derived": true
+    },
+    {
       "from": "movement/mughal-painting",
       "type": "influenced",
       "to": "movement/kangra-painting",
@@ -73446,6 +74008,12 @@
     {
       "from": "place/new-york-city",
       "type": "received",
+      "to": "movement/menri-school",
+      "derived": true
+    },
+    {
+      "from": "movement/newar-art",
+      "type": "influenced",
       "to": "movement/menri-school",
       "derived": true
     },
@@ -73920,6 +74488,12 @@
     {
       "from": "place/chicago",
       "type": "received",
+      "to": "movement/zanabazar-school",
+      "derived": true
+    },
+    {
+      "from": "movement/newar-art",
+      "type": "influenced",
       "to": "movement/zanabazar-school",
       "derived": true
     },

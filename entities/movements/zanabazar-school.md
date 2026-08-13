@@ -30,6 +30,7 @@ space:
   - {role: active_in, target: place/ulaanbaatar}
 relations:
   - {type: diffused_to, target: place/chicago, certainty: scholarly, source: "https://api.artic.edu/api/v1/artworks/158101"}
+  - {type: influenced_by, target: movement/newar-art, certainty: scholarly, source: "https://en.wikipedia.org/wiki/Zanabazar"}
 sources:
   - https://en.wikipedia.org/wiki/Zanabazar
   - https://en.wikipedia.org/wiki/Jebtsundamba_Khutuktu
@@ -239,3 +240,11 @@ G. プレブバト（Gankhүүgiin Pürevbat）など現代の作家がザナバ
   史料に基づく再構築かの確認
 - Getty AAT・Wikidata に対応項目が無いことの再確認——今回は英語名のみで検索した。モンゴル語・
   チベット語表記での再検索は未着手
+
+### ネワール美術からの受容——様式が二段階で動いた
+
+ザナバザルは1651年・1656年のチベット留学で、ゲルク派が重んじた[ネワール美術](newar-art.md)系の
+造形様式を学んだ（[en.wikipedia「Zanabazar」](https://en.wikipedia.org/wiki/Zanabazar)、二次情報）。
+**彼はネパールへ行っていない**——学んだのはカトマンズ盆地の工房ではなく、チベットで重んじられていた
+ネワール系の様式である。ネパール→チベット→モンゴルと二段階で移動したことになるが、
+**未確認**: 中継にあたるチベット側のどの流派を経由したかを名指す記述には当たっていない。

@@ -28,6 +28,7 @@ space:
   - {role: originated_in, target: place/cusco}
 relations:
   - {type: influenced_by, target: movement/baroque, certainty: scholarly, source: "https://ojs.tnkul.pl/index.php/rh/article/view/7120"}
+  - {type: influenced_by, target: movement/mannerism, certainty: scholarly, source: "https://en.wikipedia.org/wiki/Bernardo_Bitti"}
 founding_control: external
 control_changes:
   - {year: "1688", to: shared, trigger: "画家組合（gremio de pintores）内の対立の末、先住民系・メスティーソの画家たちがスペイン系画家と共有していた組合から離脱し、独立した工房で制作するようになったとされる（通説。ただしこの因果関係自体の史料的根拠の薄さが査読研究で指摘されている。本文参照）"}
@@ -233,3 +234,10 @@ kiddle.co）は「約1534〜1773年」という幅を示すが、根拠となる
 - 他のmovementとの`relations`。同時期・同地域の植民地期ラテンアメリカ美術、または後代のラテン
   アメリカ美術運動（メキシコ壁画運動、ネオコンクレチスモ等）との出典に基づく接続は、今回の調査では
   見つけられなかった
+
+### マニエリスムからの受容——動いたのは画家本人
+
+イタリア人イエズス会士ベルナルド・ビッティが1583年にクスコへ着任し、[マニエリスム](mannerism.md)を
+持ち込んだ（[en.wikipedia](https://en.wikipedia.org/wiki/Bernardo_Bitti)、二次情報）。
+**イエズス会という組織が、画家の移動の器になっている。** 既に張られているバロックへの線とは
+別の局面（1580年代〜）を指す。
