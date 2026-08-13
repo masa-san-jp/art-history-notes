@@ -714,7 +714,7 @@
           "type": "responds_to",
           "target": "movement/surrealism",
           "certainty": "scholarly",
-          "source": "https://en.wikipedia.org/wiki/Oswald_de_Andrade"
+          "source": "https://digitalrepository.unm.edu/brazil_slides/762/"
         }
       ],
       "sources": [
@@ -726,7 +726,8 @@
         "https://pt.wikipedia.org/wiki/Movimento_antropof%C3%A1gico",
         "https://www.moma.org/collection/works/193204",
         "https://www.tate.org.uk/art/art-terms/a/anthropophagia",
-        "https://en.wikipedia.org/wiki/Oswald_de_Andrade"
+        "https://en.wikipedia.org/wiki/Oswald_de_Andrade",
+        "https://digitalrepository.unm.edu/brazil_slides/762/"
       ],
       "status": "draft",
       "updated": "2026-08-09",
@@ -56182,7 +56183,7 @@
       "type": "responds_to",
       "to": "movement/surrealism",
       "certainty": "scholarly",
-      "source": "https://en.wikipedia.org/wiki/Oswald_de_Andrade"
+      "source": "https://digitalrepository.unm.edu/brazil_slides/762/"
     },
     {
       "from": "movement/antropofagia",
