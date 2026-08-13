@@ -6511,6 +6511,12 @@
           "target": "movement/byzantine-art",
           "certainty": "scholarly",
           "source": "https://www.nasjonalmuseet.no/en/collection/object/NG.M.01773"
+        },
+        {
+          "type": "diffused_to",
+          "target": "place/new-york-city",
+          "certainty": "scholarly",
+          "source": "https://www.metmuseum.org/art/collection/search/437578"
         }
       ],
       "sources": [
@@ -6528,7 +6534,8 @@
         "https://ru.wikipedia.org/wiki/Церковь_Спаса_Преображения_на_Ильине_улице",
         "https://books.openbookpublishers.com/10.11647/obp.0378/ch2.xhtml",
         "https://www.metmuseum.org/art/collection/search/437578",
-        "https://commons.wikimedia.org/wiki/File:Novgorod_School_-_Saint_Nicholas_of_Zaraysk_with_20_scenes_from_his_life_-_NG.M.01773_-_National_Museum_of_Art,_Architecture_and_Design.jpg"
+        "https://commons.wikimedia.org/wiki/File:Novgorod_School_-_Saint_Nicholas_of_Zaraysk_with_20_scenes_from_his_life_-_NG.M.01773_-_National_Museum_of_Art,_Architecture_and_Design.jpg",
+        "https://www.metmuseum.org/art/collection/search/437578"
       ],
       "images": [
         {
@@ -6545,7 +6552,7 @@
         }
       ],
       "status": "draft",
-      "updated": "2026-08-09",
+      "updated": "2026-08-13",
       "path": "entities/movements/novgorod-school-icon-painting.md"
     },
     "movement/ottoman-miniature": {
@@ -57712,6 +57719,13 @@
     },
     {
       "from": "movement/novgorod-school-icon-painting",
+      "type": "diffused_to",
+      "to": "place/new-york-city",
+      "certainty": "scholarly",
+      "source": "https://www.metmuseum.org/art/collection/search/437578"
+    },
+    {
+      "from": "movement/novgorod-school-icon-painting",
       "type": "originated_in",
       "to": "place/veliky-novgorod"
     },
@@ -73598,6 +73612,12 @@
     {
       "from": "movement/byzantine-art",
       "type": "influenced",
+      "to": "movement/novgorod-school-icon-painting",
+      "derived": true
+    },
+    {
+      "from": "place/new-york-city",
+      "type": "received",
       "to": "movement/novgorod-school-icon-painting",
       "derived": true
     },

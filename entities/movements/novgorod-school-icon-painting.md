@@ -29,6 +29,7 @@ space:
   - {role: originated_in, target: place/veliky-novgorod}
 relations:
   - {type: influenced_by, target: movement/byzantine-art, certainty: scholarly, source: "https://www.nasjonalmuseet.no/en/collection/object/NG.M.01773"}
+  - {type: diffused_to, target: place/new-york-city, certainty: scholarly, source: "https://www.metmuseum.org/art/collection/search/437578"}
 sources:
   - https://www.wikidata.org/wiki/Q2876208
   - https://www.wikidata.org/wiki/Q151536
@@ -45,6 +46,7 @@ sources:
   - https://books.openbookpublishers.com/10.11647/obp.0378/ch2.xhtml
   - https://www.metmuseum.org/art/collection/search/437578
   - https://commons.wikimedia.org/wiki/File:Novgorod_School_-_Saint_Nicholas_of_Zaraysk_with_20_scenes_from_his_life_-_NG.M.01773_-_National_Museum_of_Art,_Architecture_and_Design.jpg
+  - https://www.metmuseum.org/art/collection/search/437578
 images:
   - url: https://images.metmuseum.org/CRDImages/ep/original/DT238453.jpg
     source_page: https://www.metmuseum.org/art/collection/search/437578
@@ -55,7 +57,7 @@ images:
     license: public-domain
     note: "《生涯の20場面を伴う聖ニコラウス（ザライスクの）》16世紀初頭頃。ノルウェー国立美術館・建築・デザイン博物館（Nasjonalmuseet）蔵、作者を「School of Novgorod」と明記（Wikidata Q2876208をauthorityとして参照）。Wikimedia Commonsのextmetadataは LicenseShortName: Public domain / Copyrighted: false"
 status: draft
-updated: 2026-08-09
+updated: 2026-08-13
 ---
 
 # ノヴゴロド派 / Novgorod school of icon painting
@@ -211,6 +213,15 @@ Wikidata Q2876208の`P276`（location）が同項目を指し、ここで挙げ�
 ノヴゴロドから分離した別の派として扱われる（ロシア語版Wikipedia「Новгородская школа
 （древнерусское искусство）」）ため、本項目の空間からは除外した——ただしイコン画に限定した
 分離の時期・実体は本項目では未確認のまま残す。
+
+### ニューヨークでの収蔵
+
+メトロポリタン美術館は《栄光のキリスト》を、15世紀後半の「Russian (Novgorod?) Painter」による
+作品として収蔵している。館自身がノヴゴロド帰属に疑問符を付しているため、これは確定したノヴゴロド派
+作品ではなく、**ノヴゴロド派に帰属候補を持つイコンがニューヨークの美術館コレクションに入っている**
+ことを示す記録として扱う（[メトロポリタン美術館「Christ in Glory」](https://www.metmuseum.org/art/collection/search/437578)）。
+したがって `diffused_to place/new-york-city` は、帰属の留保を保った制度的受容地点の記録であり、
+ニューヨークの別の美術運動への影響を主張するものではない。
 
 ## ビザンティン美術との関係
 
