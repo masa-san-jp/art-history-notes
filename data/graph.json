@@ -1608,6 +1608,12 @@
           "target": "movement/mughal-painting",
           "certainty": "scholarly",
           "source": "https://resources.metmuseum.org/resources/metpublications/pdf/Divine_Pleasures.pdf"
+        },
+        {
+          "type": "diffused_to",
+          "target": "place/london",
+          "certainty": "scholarly",
+          "source": "https://www.britishmuseum.org/collection/term/x25008"
         }
       ],
       "sources": [
@@ -1624,7 +1630,8 @@
         "https://aatesaurus.cultura.gencat.cat/aat/getty_en/index.php?%2Frajput=&tema=31367026",
         "https://www.metmuseum.org/art/collection/search/825657",
         "https://en.wikipedia.org/wiki/Nainsukh",
-        "https://resources.metmuseum.org/resources/metpublications/pdf/Divine_Pleasures.pdf"
+        "https://resources.metmuseum.org/resources/metpublications/pdf/Divine_Pleasures.pdf",
+        "https://www.britishmuseum.org/collection/term/x25008"
       ],
       "images": [
         {
@@ -1641,7 +1648,7 @@
         }
       ],
       "status": "draft",
-      "updated": "2026-08-10",
+      "updated": "2026-08-13",
       "path": "entities/movements/basohli-painting.md"
     },
     "movement/bauhaus": {
@@ -4797,6 +4804,12 @@
           "target": "movement/basohli-painting",
           "certainty": "scholarly",
           "source": "https://www.metmuseum.org/art/collection/search/37947"
+        },
+        {
+          "type": "diffused_to",
+          "target": "place/london",
+          "certainty": "scholarly",
+          "source": "https://www.britishmuseum.org/collection/object/A_1927-1116-0-2"
         }
       ],
       "sources": [
@@ -4813,7 +4826,8 @@
         "https://en.wiktionary.org/wiki/Rajput",
         "https://theprint.in/pageturner/excerpt/how-love-war-and-mughal-fine-art-inspired-kangra-painting/533500/",
         "https://www.metmuseum.org/art/collection/search/37950",
-        "https://www.metmuseum.org/art/collection/search/37947"
+        "https://www.metmuseum.org/art/collection/search/37947",
+        "https://www.britishmuseum.org/collection/object/A_1927-1116-0-2"
       ],
       "images": [
         {
@@ -4830,7 +4844,7 @@
         }
       ],
       "status": "draft",
-      "updated": "2026-08-10",
+      "updated": "2026-08-13",
       "path": "entities/movements/kangra-painting.md"
     },
     "movement/kano-school": {
@@ -5392,6 +5406,12 @@
           "target": "movement/mughal-painting",
           "certainty": "scholarly",
           "source": "https://www.metmuseum.org/exhibitions/listings/2011/lyrical-visions?persisted=true&sc_device=default"
+        },
+        {
+          "type": "diffused_to",
+          "target": "place/london",
+          "certainty": "scholarly",
+          "source": "https://www.britishmuseum.org/collection/object/A_1991-0131-0-1"
         }
       ],
       "sources": [
@@ -5408,7 +5428,8 @@
         "https://clevelandart.org/art/2003.343",
         "https://openaccess-api.clevelandart.org/api/artworks/162857",
         "https://resources.metmuseum.org/resources/metpublications/pdf/Wonder_of_the_Age_Master_Painters_of_India_1100_1900.pdf",
-        "https://www.metmuseum.org/exhibitions/listings/2011/lyrical-visions?persisted=true&sc_device=default"
+        "https://www.metmuseum.org/exhibitions/listings/2011/lyrical-visions?persisted=true&sc_device=default",
+        "https://www.britishmuseum.org/collection/object/A_1991-0131-0-1"
       ],
       "images": [
         {
@@ -5425,7 +5446,7 @@
         }
       ],
       "status": "draft",
-      "updated": "2026-08-10",
+      "updated": "2026-08-13",
       "path": "entities/movements/mewar-painting.md"
     },
     "movement/mexican-muralism": {
@@ -56478,6 +56499,13 @@
     },
     {
       "from": "movement/basohli-painting",
+      "type": "diffused_to",
+      "to": "place/london",
+      "certainty": "scholarly",
+      "source": "https://www.britishmuseum.org/collection/term/x25008"
+    },
+    {
+      "from": "movement/basohli-painting",
       "type": "originated_in",
       "to": "place/basohli"
     },
@@ -57237,6 +57265,13 @@
     },
     {
       "from": "movement/kangra-painting",
+      "type": "diffused_to",
+      "to": "place/london",
+      "certainty": "scholarly",
+      "source": "https://www.britishmuseum.org/collection/object/A_1927-1116-0-2"
+    },
+    {
+      "from": "movement/kangra-painting",
       "type": "originated_in",
       "to": "place/kangra"
     },
@@ -57345,6 +57380,13 @@
       "to": "movement/mughal-painting",
       "certainty": "scholarly",
       "source": "https://www.metmuseum.org/exhibitions/listings/2011/lyrical-visions?persisted=true&sc_device=default"
+    },
+    {
+      "from": "movement/mewar-painting",
+      "type": "diffused_to",
+      "to": "place/london",
+      "certainty": "scholarly",
+      "source": "https://www.britishmuseum.org/collection/object/A_1991-0131-0-1"
     },
     {
       "from": "movement/mewar-painting",
@@ -72772,6 +72814,12 @@
       "derived": true
     },
     {
+      "from": "place/london",
+      "type": "received",
+      "to": "movement/basohli-painting",
+      "derived": true
+    },
+    {
       "from": "movement/de-stijl",
       "type": "influenced",
       "to": "movement/bauhaus",
@@ -73234,6 +73282,12 @@
       "derived": true
     },
     {
+      "from": "place/london",
+      "type": "received",
+      "to": "movement/kangra-painting",
+      "derived": true
+    },
+    {
       "from": "movement/song-academy-painting",
       "type": "influenced",
       "to": "movement/kano-school",
@@ -73278,6 +73332,12 @@
     {
       "from": "movement/mughal-painting",
       "type": "reacted_against_by",
+      "to": "movement/mewar-painting",
+      "derived": true
+    },
+    {
+      "from": "place/london",
+      "type": "received",
       "to": "movement/mewar-painting",
       "derived": true
     },

@@ -29,6 +29,7 @@ space:
   - {role: originated_in, target: place/basohli}
 relations:
   - {type: influenced_by, target: movement/mughal-painting, certainty: scholarly, source: "https://resources.metmuseum.org/resources/metpublications/pdf/Divine_Pleasures.pdf"}
+  - {type: diffused_to, target: place/london, certainty: scholarly, source: "https://www.britishmuseum.org/collection/term/x25008"}
 sources:
   - https://en.wikipedia.org/wiki/Basohli
   - https://www.wikidata.org/wiki/Q711982
@@ -44,6 +45,7 @@ sources:
   - https://www.metmuseum.org/art/collection/search/825657
   - https://en.wikipedia.org/wiki/Nainsukh
   - https://resources.metmuseum.org/resources/metpublications/pdf/Divine_Pleasures.pdf
+  - https://www.britishmuseum.org/collection/term/x25008
 images:
   - url: https://images.metmuseum.org/CRDImages/as/original/DP153147.jpg
     source_page: https://www.metmuseum.org/art/collection/search/37941
@@ -54,7 +56,7 @@ images:
     license: cc0
     note: "デーヴィーダーサ（ヌールプルの）筆《チャウパルに興じるシヴァとパールヴァティー》『ラサマンジャリー』連作より、1694-95年紀年。メトロポリタン美術館蔵（isPublicDomain: true）"
 status: draft
-updated: 2026-08-10
+updated: 2026-08-13
 ---
 
 # バソーリ派 / Basohli painting
@@ -218,6 +220,17 @@ Losty論考は、バソーリ・ヌールプルの様式の起源について「
 示すように、様式・画題・肖像は複数の隣接するパハーリー諸宮廷の間を行き来しており、単一の宮廷への
 固定は実態を単純化している可能性がある。カーングラ派・ムガル絵画の調査で残した同種の留保と同じ
 性質の未確認である。
+
+### ロンドンの大英博物館コレクション
+
+バソーリ派の作品が国外の制度的なコレクションに入っていることは、大英博物館の様式別
+コレクション・ページで確認できる。同館はバソーリ派を「Basohli Style」として登録し、
+1720年作や18世紀の絵画・素描を含む23件の関連作例を、インド（パンジャーブ丘陵・チャンバー）で
+制作・取得されたものとして掲載している（[大英博物館「Basohli Style」](https://www.britishmuseum.org/collection/term/x25008)）。
+この記録から確実に言えるのは、**バソーリ派の作品群がインドからロンドンの大英博物館の
+分類・収蔵環境へ移ったこと**であり、個々の作品がいつ誰によってロンドンへ運ばれたかという
+全経路ではない。そのため `diffused_to place/london` は作品の制度的受容地点を記録し、
+ロンドンの別の美術運動への影響は主張しない。
 
 ## 未着手
 
