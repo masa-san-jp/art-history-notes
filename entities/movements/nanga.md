@@ -26,7 +26,7 @@ space:
   - {role: originated_in, target: place/kyoto}
   - {role: active_in, target: place/tokyo}
 relations:
-  - {type: influenced_by, target: person/dong-qichang, certainty: scholarly, source: "https://en.wikipedia.org/wiki/Nanga_(art)"}
+  - {type: influenced_by, target: person/dong-qichang, certainty: scholarly, source: "https://www.metmuseum.org/exhibitions/listings/2003/great-waves"}
   - {type: influenced_by, target: movement/literati-painting, certainty: scholarly, source: "https://eaa.fas.harvard.edu/museum/nanga-painting-feinberg-collection"}
   - {type: influenced_by, target: movement/zhe-school, certainty: scholarly, source: "https://www.kyohaku.go.jp/jp/learn/home/yomimono_data/0071/"}
   - {type: influenced_by, target: movement/four-wangs, certainty: scholarly, source: "https://theme.npm.edu.tw/exh107/NewEra/jp/page-4.html"}
@@ -44,6 +44,7 @@ sources:
   - https://theme.npm.edu.tw/exh107/NewEra/en/page-4.html
   - https://www.metmuseum.org/art/collection/search/671023
   - https://www.artic.edu/artworks/185222
+  - https://www.metmuseum.org/exhibitions/listings/2003/great-waves
 images:
   - url: https://www.artic.edu/iiif/2/637a65fa-a6f2-8a9f-a6f4-98fcffe2ec92/full/843,/0/default.jpg
     source_page: https://www.artic.edu/artworks/185222
@@ -81,6 +82,11 @@ updated: 2026-08-13
 
 この関係で動いたものは**物（中国の木版画譜）**と限定する。日本の南画家の多くが、輸入された中国の
 画譜を参照して筆法や構図を学んだため、南画を受け取り側として中国の文人画へ `influenced_by` を張る。
+
+董其昌との関係は、個々の南画家が本人から直接教授を受けたという意味ではない。メトロポリタン美術館の
+展覧会解説は、董其昌とその後継者が展開した中国の「南宗派」様式が日本で南画として再解釈されたと説明
+している。このため、ここでの `person/dong-qichang` は、輸入された作品・画譜・理論を介した様式的な系譜の
+起点として記録し、直接の師弟関係とは区別する。
 
 ### 浙派の藍瑛を介した受容
 
