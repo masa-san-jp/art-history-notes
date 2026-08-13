@@ -30,7 +30,7 @@ space:
   - {role: originated_in, target: place/cairo}
 relations:
   - {type: influenced_by, target: movement/surrealism, certainty: scholarly, source: "https://www.tate.org.uk/tate-etc/issue-41-autumn-2017/surrealism-egypt-long-live-degenerate-art-clare-davies"}
-  - {type: reacts_against, target: movement/futurism, certainty: scholarly, source: "https://universes.art/en/nafas/articles/2016/egyptian-surrealists"}
+  - {type: reacts_against, target: movement/futurism, certainty: scholarly, source: "https://www.nybooks.com/online/2018/02/03/art-et-liberte-egypts-surrealists/"}
   - {type: created_by, target: person/georges-henein}
   - {type: created_by, target: person/kamel-el-telmissany}
   - {type: created_by, target: person/ramses-younan}
@@ -43,6 +43,8 @@ sources:
   - https://www.centrepompidou.fr/en/program/calendar/event/ce5nBKj
   - https://libcom.org/article/vive-lart-degenere
   - https://universes.art/en/nafas/articles/2016/egyptian-surrealists
+  - https://www.nybooks.com/online/2018/02/03/art-et-liberte-egypts-surrealists/
+  - https://www.moma.org/interactives/exhibitions/2009/futurism/
   - https://www.sothebys.com/en/articles/the-birth-of-art-and-liberty-egypts-surrealist-art-movement
   - https://en.wikipedia.org/wiki/Georges_Henein
   - https://en.wikipedia.org/wiki/Kamel_el-Telmissany
@@ -66,9 +68,12 @@ artistic movement 1938–1948" と説明する。中心人物はジョルジュ�
 発端は1938年3月24日、カイロの文芸クラブ「レゼセイイスト（Les Essayistes）」で行われた
 イタリア未来派の指導者フィリッポ・トンマーゾ・マリネッティ（[person/filippo-tommaso-marinetti](../persons/filippo-tommaso-marinetti.md)）
 の講演「モーター化された詩（La Poésie Motorizé）」に、当時同クラブの会員だったエネインが公然と
-反論し決別したことにあるとされる（[universes.art, Lucrezia Cippitelli, 2016年10月](https://universes.art/en/nafas/articles/2016/egyptian-surrealists)、
-二次情報）。マリネッティはリビアや東アフリカへのイタリア・ファシズムの拡張と結びついた人物であり、
-エネインの反論はこの植民地主義的拡張への異議でもあったと同記事は記す。
+反論し決別したことにあるとされる（[Charles Shafaieh, The New York Review of Books](https://www.nybooks.com/online/2018/02/03/art-et-liberte-egypts-surrealists/)、
+二次情報）。マリネッティはムッソリーニを公然と支持した未来派の人物であり、MoMAも1920年代から1940年代に
+かけて彼がファシズムと同盟し、未来派を政権の公式芸術にしようとした経緯を整理している
+（[MoMA「Words in Freedom: Futurism at 100」](https://www.moma.org/interactives/exhibitions/2009/futurism/)）。
+したがって、エネインらの反論と決別は、未来派の造形語彙全体を否定したというより、マリネッティの
+政治化された未来派とファシズムへの明確な応答として記録する。
 
 この決別から9か月後の1938年12月22日、エネインらは宣言文「頽廃芸術万歳（Vive l'Art Dégénéré /
 アラビア語: احيا الفن المنحط）」を仏語・アラビア語で印刷・配布した。ナチス・ドイツが1937年の
