@@ -33,6 +33,7 @@ space:
 relations:
   - {type: created_by, target: person/pierre-lods}
   - {type: diffused_to, target: place/dakar, certainty: scholarly, source: "https://heiup.uni-heidelberg.de/catalog/view/457/718/111002"}
+  - {type: diffused_to, target: place/new-york-city, certainty: scholarly, source: "https://sites.rhodes.edu/potopoto/history-poto-poto-school"}
 sources:
   - https://www.wikidata.org/wiki/Q114247696
   - https://www.wikidata.org/wiki/Q59564370
@@ -44,6 +45,7 @@ sources:
   - https://www.africanews.com/2021/07/06/congo-school-of-painting-poto-poto-celebrates-70-years-of-african-art/
   - https://en.wikipedia.org/wiki/Poto-Poto
   - http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=Poto-Poto&logop=and&notes=
+  - https://sites.rhodes.edu/potopoto/history-poto-poto-school
 status: draft
 updated: 2026-08-13
 ---
@@ -140,6 +142,14 @@ sites.rhodes.edu、二次情報）、地区レベルの正確な位置は**未�
 [place/dakar](../places/dakar.md) に張った。ロッズがブラザヴィルで培った「技法教育を課さず自発性に
 任せる」という指導の方針とダカールでの実際の指導内容が同一だったかどうかは、
 [person/pierre-lods](../persons/pierre-lods.md) の本文がすでに記すとおり**未確認**である。
+
+### ニューヨーク近代美術館での受容
+
+ポト＝ポト絵画学校は、1956年にニューヨーク近代美術館（MoMA）で展覧会を開催したと、
+Rhodes Collegeの学校史が記録している（[「History of the Poto-Poto School」](https://sites.rhodes.edu/potopoto/history-poto-poto-school)）。
+これは作品がニューヨークの制度的な展示空間に入ったことを示すが、同時代の欧米の美術運動が
+ポト＝ポト絵画学校へ影響した、または同校がニューヨークの運動を変えたという因果までは示さない。
+そのため `diffused_to place/new-york-city` は展覧会を通じた受容地点として記録する。
 
 ## 未着手
 
