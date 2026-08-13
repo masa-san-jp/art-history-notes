@@ -3074,6 +3074,12 @@
           "source": "https://www.metmuseum.org/ja/essays/fauvism"
         },
         {
+          "type": "responds_to",
+          "target": "movement/utagawa-school",
+          "certainty": "scholarly",
+          "source": "https://artbma.org/press-release/bma-presents-the-art-of-pattern-henri-matisse-and-japanese-woodcut-artists/"
+        },
+        {
           "type": "diffused_to",
           "target": "place/tokyo",
           "certainty": "scholarly",
@@ -3085,10 +3091,11 @@
         "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300021300",
         "https://shop.tate.org.uk/derain-the-pool-of-london/andder1703.html",
         "https://www.metmuseum.org/ja/essays/fauvism",
-        "https://www.momak.go.jp/English/collectionGalleryArchive/2017/collectionGallery2017No05.html"
+        "https://www.momak.go.jp/English/collectionGalleryArchive/2017/collectionGallery2017No05.html",
+        "https://artbma.org/press-release/bma-presents-the-art-of-pattern-henri-matisse-and-japanese-woodcut-artists/"
       ],
       "status": "draft",
-      "updated": "2026-08-12",
+      "updated": "2026-08-13",
       "path": "entities/movements/fauvism.md"
     },
     "movement/four-wangs": {
@@ -56760,6 +56767,13 @@
     },
     {
       "from": "movement/fauvism",
+      "type": "responds_to",
+      "to": "movement/utagawa-school",
+      "certainty": "scholarly",
+      "source": "https://artbma.org/press-release/bma-presents-the-art-of-pattern-henri-matisse-and-japanese-woodcut-artists/"
+    },
+    {
+      "from": "movement/fauvism",
       "type": "diffused_to",
       "to": "place/tokyo",
       "certainty": "scholarly",
@@ -72834,6 +72848,12 @@
     {
       "from": "movement/neo-impressionism",
       "type": "influenced",
+      "to": "movement/fauvism",
+      "derived": true
+    },
+    {
+      "from": "movement/utagawa-school",
+      "type": "answered_by",
       "to": "movement/fauvism",
       "derived": true
     },

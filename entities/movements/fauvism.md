@@ -30,6 +30,7 @@ space:
 relations:
   - {type: influenced_by, target: movement/post-impressionism, certainty: scholarly, source: "https://www.metmuseum.org/ja/essays/fauvism"}
   - {type: influenced_by, target: movement/neo-impressionism, certainty: scholarly, source: "https://www.metmuseum.org/ja/essays/fauvism"}
+  - {type: responds_to, target: movement/utagawa-school, certainty: scholarly, source: "https://artbma.org/press-release/bma-presents-the-art-of-pattern-henri-matisse-and-japanese-woodcut-artists/"}
   - {type: diffused_to, target: place/tokyo, certainty: scholarly, source: "https://www.momak.go.jp/English/collectionGalleryArchive/2017/collectionGallery2017No05.html"}
 sources:
   - https://www.wikidata.org/wiki/Q166593
@@ -37,8 +38,9 @@ sources:
   - https://shop.tate.org.uk/derain-the-pool-of-london/andder1703.html
   - https://www.metmuseum.org/ja/essays/fauvism
   - https://www.momak.go.jp/English/collectionGalleryArchive/2017/collectionGallery2017No05.html
+  - https://artbma.org/press-release/bma-presents-the-art-of-pattern-henri-matisse-and-japanese-woodcut-artists/
 status: draft
-updated: 2026-08-12
+updated: 2026-08-13
 ---
 
 # フォーヴィスム / Fauvism
@@ -73,6 +75,20 @@ updated: 2026-08-12
 日本の洋画界で新しい様式を広めた経路を挙げている。したがって、ここで記録するのは日本画（nihonga）への
 影響ではなく、フォーヴィスムが日本の画家・洋画団体へ受容された**場所への波及**である。受け手側の
 movementはまだ本KBに分離していないため、`diffused_to place/tokyo` として記録する。
+
+## 歌川派への後年の応答
+
+ボルチモア美術館は、マティスの作品14点と菊川英山・渓斎英泉・歌川国貞の木版画を並べた
+2024〜2025年の展覧会を開催した。同館の解説によれば、マティスは生涯を通じて模様と装飾に
+関心を持ち、1920年代の作品では版画や模様を構図に取り入れて、モデルを置く室内空間をつくった
+（[同館の展覧会資料](https://artbma.org/press-release/bma-presents-the-art-of-pattern-henri-matisse-and-japanese-woodcut-artists/)）。
+
+これは1904〜1908年を中心とするフォーヴィスムの**形成要因**を示す資料ではない。時期は運動の
+中心期より後で、資料もマティス個人の制作と日本木版画との視覚的な対応を扱っている。そのため、
+ここではフォーヴィスム全体が浮世絵から影響を受けたとは一般化せず、フォーヴィスムの中心人物が
+後年に歌川国貞らの木版画との視覚的な対応が示される制作を行ったという限定された接続を、`responds_to` として
+記録する。歌川派に直接属する作家として同資料が名指すのは国貞であり、英山・英泉の派は本KBに
+まだ分離していないため、関係先は `movement/utagawa-school` に限定した。
 
 ## 未着手
 
