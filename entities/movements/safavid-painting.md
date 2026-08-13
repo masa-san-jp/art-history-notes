@@ -27,7 +27,7 @@ space:
   - {role: active_in, target: place/isfahan}
 relations:
   - {type: influenced_by, target: movement/herat-school, certainty: scholarly, source: "https://resources.metmuseum.org/resources/metpublications/pdf/Masterpieces_from_the_Department_of_Islamic_Art_in_The_Metropolitan_Museum_of_Art.pdf"}
-  - {type: diffused_to, target: place/agra, certainty: scholarly, source: "https://en.wikipedia.org/wiki/Abd_al-Samad"}
+  - {type: diffused_to, target: place/agra, certainty: scholarly, source: "https://www.britishmuseum.org/collection/term/BIOG12024"}
 sources:
   - https://www.wikidata.org/wiki/Q2366921
   - https://www.wikidata.org/wiki/Q18234383
@@ -43,6 +43,7 @@ sources:
   - https://www.ebsco.com/research-starters/arts-and-entertainment/esfahan-school-painting
   - https://www.britannica.com/art/Tabriz-school
   - https://resources.metmuseum.org/resources/metpublications/pdf/Masterpieces_from_the_Department_of_Islamic_Art_in_The_Metropolitan_Museum_of_Art.pdf
+  - https://www.britishmuseum.org/collection/term/BIOG12024
   - https://en.wikipedia.org/wiki/Mir_Sayyid_Ali
   - https://en.wikipedia.org/wiki/Abd_al-Samad
 images:
@@ -216,6 +217,11 @@ Department of Islamic Art」](https://resources.metmuseum.org/resources/metpubli
 年の記述は既存のまま残す。
 
 ## ムガル絵画への接続
+
+大英博物館の人物記録は、サファヴィー朝期の画家ミール・サイイド・アリーが、亡命中のムガル皇帝
+フマーユーンの招きでインドへ移り、カーブル滞在後にデリーへ定住し、アクバルに絵を教えたと記録している
+（[British Museum「Mír Sayyid `Alí」](https://www.britishmuseum.org/collection/term/BIOG12024)）。
+この個人の移動が、サファヴィー朝細密画からムガル宮廷絵画への `diffused_to` 関係の直接的な根拠である。
 
 タブリーズの王室工房の画家のうち、ミール・サイイド・アリーとアブド・アッサマドの2人は、亡命中の
 ムガル皇帝フマーユーンに招かれてカーブル（フマーユーンの臨時の宮廷。到着年は出典間で1548〜1550年の
