@@ -6108,8 +6108,8 @@
         {
           "type": "reacts_against",
           "target": "movement/constructivism",
-          "certainty": "scholarly",
-          "source": "https://smarthistory.org/geometric-abstraction-south-america/"
+          "certainty": "attested",
+          "source": "https://portal.lygiaclark.org.br/acervo/67348/manifesto-neoconcreto"
         },
         {
           "type": "reacts_against",
@@ -57429,8 +57429,8 @@
       "from": "movement/neoconcretismo",
       "type": "reacts_against",
       "to": "movement/constructivism",
-      "certainty": "scholarly",
-      "source": "https://smarthistory.org/geometric-abstraction-south-america/"
+      "certainty": "attested",
+      "source": "https://portal.lygiaclark.org.br/acervo/67348/manifesto-neoconcreto"
     },
     {
       "from": "movement/neoconcretismo",
