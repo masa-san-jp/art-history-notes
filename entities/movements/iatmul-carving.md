@@ -39,7 +39,8 @@ claims:
   - {field: originated_in, source: "https://en.wikipedia.org/wiki/Iatmul_people", certainty: scholarly}
 space:
   - {role: originated_in, target: place/sepik}
-relations: []
+relations:
+  - {type: diffused_to, target: place/paris, certainty: scholarly, source: "https://www.amisquaibranly.fr/wp-content/uploads/2016/10/fiche-sculpture-iatmul.pdf"}
 images:
   - url: https://images.metmuseum.org/CRDImages/ao/original/DP-20791-001.jpg
     source_page: https://www.metmuseum.org/art/collection/search/311262
@@ -237,6 +238,19 @@ people\"](https://en.wikipedia.org/wiki/Iatmul_people)）。これらはいず�
 とされるガイカロビ村はサウォス語系の村であり（同記事）、イアトムル自身の村ではないことに
 加え座標典拠も見つからないため、発生地としては採用しなかった。**未確認**: この地域単位の
 座標がイアトムルの居住域である中流域を代表する点として適切かどうか。
+
+### パリへ渡った作品——トリスタン・ツァラ旧蔵品
+
+作品そのものがパリへ移動した経路は、ケ・ブランリ＝ジャック・シラク美術館の学芸資料から
+具体的に確認できる。同館が2010年に取得した20世紀初頭の中部セピック産「イアトムルの儀礼彫刻」は、
+ダダの創設者の一人で、非西洋美術を収集したトリスタン・ツァラの旧蔵品である。資料は、彫刻に
+表された鳥と女性像をイアトムルの氏族の起源神話と結びつけ、ツァラやブルトン、エリュアール、
+アラゴンら戦間期の知識人がオセアニア美術に示した関心の証拠として位置づける
+（[ケ・ブランリ美術館「Sculpture iatmul」](https://www.amisquaibranly.fr/wp-content/uploads/2016/10/fiche-sculpture-iatmul.pdf)）。
+ここで確認できるのは、**儀礼彫刻という物がセピックからパリのダダ／シュルレアリスム周辺の
+収集家の環境へ移ったこと**であり、イアトムルの彫刻がダダまたはシュルレアリスムの造形を直接
+変えたという因果ではない。そのため `diffused_to place/paris` は作品の移動・受容地点を記録するに
+とどめ、`movement/dada` や `movement/surrealism` への `influenced_by` は追加しない。
 
 ## 未着手
 
