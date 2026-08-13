@@ -6993,6 +6993,12 @@
           "target": "place/dakar",
           "certainty": "scholarly",
           "source": "https://heiup.uni-heidelberg.de/catalog/view/457/718/111002"
+        },
+        {
+          "type": "diffused_to",
+          "target": "place/new-york-city",
+          "certainty": "scholarly",
+          "source": "https://sites.rhodes.edu/potopoto/history-poto-poto-school"
         }
       ],
       "sources": [
@@ -7005,7 +7011,8 @@
         "https://www.si.edu/object/siris_sil_752655",
         "https://www.africanews.com/2021/07/06/congo-school-of-painting-poto-poto-celebrates-70-years-of-african-art/",
         "https://en.wikipedia.org/wiki/Poto-Poto",
-        "http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=Poto-Poto&logop=and&notes="
+        "http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=Poto-Poto&logop=and&notes=",
+        "https://sites.rhodes.edu/potopoto/history-poto-poto-school"
       ],
       "status": "draft",
       "updated": "2026-08-13",
@@ -57833,6 +57840,13 @@
     },
     {
       "from": "movement/poto-poto-school",
+      "type": "diffused_to",
+      "to": "place/new-york-city",
+      "certainty": "scholarly",
+      "source": "https://sites.rhodes.edu/potopoto/history-poto-poto-school"
+    },
+    {
+      "from": "movement/poto-poto-school",
       "type": "originated_in",
       "to": "place/brazzaville"
     },
@@ -73683,6 +73697,12 @@
     },
     {
       "from": "place/dakar",
+      "type": "received",
+      "to": "movement/poto-poto-school",
+      "derived": true
+    },
+    {
+      "from": "place/new-york-city",
       "type": "received",
       "to": "movement/poto-poto-school",
       "derived": true
