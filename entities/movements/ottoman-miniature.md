@@ -25,18 +25,21 @@ claims: []
 space:
   - {role: originated_in, target: place/istanbul}
 relations:
-  - {type: influenced_by, target: movement/safavid-painting, certainty: scholarly, source: "https://en.wikipedia.org/wiki/Ottoman_miniature"}
+  - {type: influenced_by, target: movement/safavid-painting, certainty: scholarly, source: "https://www.britishmuseum.org/collection/object/W_1930-1112-0-4"}
 sources:
   - https://www.wikidata.org/wiki/Q268639
   - https://www.wikidata.org/wiki/Q406
   - https://www.wikidata.org/wiki/Q63681008
   - https://vocab.getty.edu/aat/300021614
   - https://en.wikipedia.org/wiki/Ottoman_miniature
+  - https://www.metmuseum.org/essays/the-art-of-the-ottomans-before-1600
+  - https://www.metmuseum.org/ja/essays/silks-from-ottoman-turkey
+  - https://www.britishmuseum.org/collection/object/W_1930-1112-0-4
   - https://en.wikipedia.org/wiki/%C5%9Eahkulu_(painter)
   - https://en.wikipedia.org/wiki/Nakka%C5%9F_Osman
   - https://en.wikipedia.org/wiki/Safavid_art
 status: draft
-updated: 2026-08-09
+updated: 2026-08-13
 ---
 
 # オスマン朝細密画 / Ottoman miniature
@@ -148,6 +151,16 @@ miniature」経由の二次引用）が、本稿では宮廷（イスタンブ�
 `active_in`としては加えなかった。バグダード派を独立したmovementとして立てるかは今回の範囲外。
 
 ## サファヴィー朝との関係——画家の移動は確認できたが、示された年（1548年）とは別の事例
+
+メトロポリタン美術館の概説は、1514年のサファヴィー朝との戦いの後、イラン系の画家・知識人が
+オスマン宮廷に増えたと整理している。また、同館のシャークル作《サズ様式の植物文中の龍》の記録は、
+彼をイランから来てスレイマン1世の宮廷に仕えた画家として紹介する（[The Metropolitan Museum of Art
+「The Art of the Ottomans before 1600」](https://www.metmuseum.org/essays/the-art-of-the-ottomans-before-1600)、
+[「Silks from Ottoman Turkey」](https://www.metmuseum.org/ja/essays/silks-from-ottoman-turkey)）。
+大英博物館の同時代作品記録も、シャークルをスレイマン1世の工房を率いたサファヴィー朝の画家として
+記載している（[British Museum「A drawing formerly attributed to Shah Quli」](https://www.britishmuseum.org/collection/object/W_1930-1112-0-4)）。
+これは、サファヴィー朝圏とオスマン朝の間の人の移動を伴う既存の `influenced_by` 関係を、館資料で裏付ける
+根拠になる。
 
 サファヴィー朝細密画のファイル（[movement/safavid-painting](safavid-painting.md)）は、1548年の
 タブリーズ工房の「大部分解体」で画家がムガル朝・オスマン朝へ離散したと記す（英語版Wikipedia

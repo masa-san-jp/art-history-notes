@@ -6476,7 +6476,7 @@
           "type": "influenced_by",
           "target": "movement/safavid-painting",
           "certainty": "scholarly",
-          "source": "https://en.wikipedia.org/wiki/Ottoman_miniature"
+          "source": "https://www.britishmuseum.org/collection/object/W_1930-1112-0-4"
         }
       ],
       "sources": [
@@ -6485,12 +6485,15 @@
         "https://www.wikidata.org/wiki/Q63681008",
         "https://vocab.getty.edu/aat/300021614",
         "https://en.wikipedia.org/wiki/Ottoman_miniature",
+        "https://www.metmuseum.org/essays/the-art-of-the-ottomans-before-1600",
+        "https://www.metmuseum.org/ja/essays/silks-from-ottoman-turkey",
+        "https://www.britishmuseum.org/collection/object/W_1930-1112-0-4",
         "https://en.wikipedia.org/wiki/%C5%9Eahkulu_(painter)",
         "https://en.wikipedia.org/wiki/Nakka%C5%9F_Osman",
         "https://en.wikipedia.org/wiki/Safavid_art"
       ],
       "status": "draft",
-      "updated": "2026-08-09",
+      "updated": "2026-08-13",
       "path": "entities/movements/ottoman-miniature.md"
     },
     "movement/papunya-tula": {
@@ -57465,7 +57468,7 @@
       "type": "influenced_by",
       "to": "movement/safavid-painting",
       "certainty": "scholarly",
-      "source": "https://en.wikipedia.org/wiki/Ottoman_miniature"
+      "source": "https://www.britishmuseum.org/collection/object/W_1930-1112-0-4"
     },
     {
       "from": "movement/ottoman-miniature",
