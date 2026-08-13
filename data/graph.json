@@ -2050,8 +2050,8 @@
         {
           "type": "influenced_by",
           "target": "movement/realism",
-          "certainty": "scholarly",
-          "source": "https://criticalcollective.in/CC_ArchiveInner2.aspx?Aid=1407&Eid=1801"
+          "certainty": "hypothesis",
+          "source": "https://www.metmuseum.org/fr/essays/company-painting-in-nineteenth-century-india"
         },
         {
           "type": "patronized_by",
@@ -2069,6 +2069,8 @@
         "https://en.banglapedia.org/index.php/Murshidabad_Painting",
         "https://www.theheritagelab.in/patna-kalam-artists/",
         "https://criticalcollective.in/CC_ArchiveInner2.aspx?Aid=1407&Eid=1801",
+        "https://www.metmuseum.org/fr/essays/company-painting-in-nineteenth-century-india",
+        "https://www.metmuseum.org/exhibitions/listings/2017/company-school-painting",
         "https://read.dukeupress.edu/archives-of-asian-art/article-abstract/74/1/79/388307/To-Fill-a-Gap-in-Indian-History-An-Archival",
         "https://www.metmuseum.org/art/collection/search/454011",
         "https://www.metmuseum.org/art/collection/search/457758"
@@ -56495,8 +56497,8 @@
       "from": "movement/company-painting",
       "type": "influenced_by",
       "to": "movement/realism",
-      "certainty": "scholarly",
-      "source": "https://criticalcollective.in/CC_ArchiveInner2.aspx?Aid=1407&Eid=1801"
+      "certainty": "hypothesis",
+      "source": "https://www.metmuseum.org/fr/essays/company-painting-in-nineteenth-century-india"
     },
     {
       "from": "movement/company-painting",
