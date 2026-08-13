@@ -8531,7 +8531,7 @@
           "type": "influenced_by",
           "target": "movement/byzantine-art",
           "certainty": "scholarly",
-          "source": "https://www.metmuseum.org/de/essays/venice-in-the-eighteenth-century"
+          "source": "https://www.metmuseum.org/art/collection/search/459020"
         }
       ],
       "sources": [
@@ -8555,7 +8555,8 @@
         "https://www.academia.edu/37111049/Luigi_Lanzi_e_le_scuole_pittoriche",
         "https://www.theartstory.org/movement/venetian-school/",
         "https://www.ebsco.com/research-starters/visual-arts/venetian-school-painting",
-        "https://www.metmuseum.org/de/essays/venice-in-the-eighteenth-century"
+        "https://www.metmuseum.org/de/essays/venice-in-the-eighteenth-century",
+        "https://www.metmuseum.org/art/collection/search/459020"
       ],
       "status": "draft",
       "updated": "2026-08-09",
@@ -57912,7 +57913,7 @@
       "type": "influenced_by",
       "to": "movement/byzantine-art",
       "certainty": "scholarly",
-      "source": "https://www.metmuseum.org/de/essays/venice-in-the-eighteenth-century"
+      "source": "https://www.metmuseum.org/art/collection/search/459020"
     },
     {
       "from": "movement/venetian-school",

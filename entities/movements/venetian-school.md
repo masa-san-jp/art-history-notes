@@ -28,7 +28,7 @@ claims:
 space:
   - {role: originated_in, target: place/venice}
 relations:
-  - {type: influenced_by, target: movement/byzantine-art, certainty: scholarly, source: "https://www.metmuseum.org/de/essays/venice-in-the-eighteenth-century"}
+  - {type: influenced_by, target: movement/byzantine-art, certainty: scholarly, source: "https://www.metmuseum.org/art/collection/search/459020"}
 sources:
   - https://www.wikidata.org/wiki/Q610687
   - https://www.wikidata.org/wiki/Q641
@@ -51,6 +51,7 @@ sources:
   - https://www.theartstory.org/movement/venetian-school/
   - https://www.ebsco.com/research-starters/visual-arts/venetian-school-painting
   - https://www.metmuseum.org/de/essays/venice-in-the-eighteenth-century
+  - https://www.metmuseum.org/art/collection/search/459020
 status: draft
 updated: 2026-08-09
 images:
@@ -258,13 +259,16 @@ distinctive Venetian style to an end）と明記する。この終期は、`## k
 ## ビザンティン美術との関係
 
 ヴェネツィア派はビザンティン美術の単純な継承ではないが、ヴェネツィア絵画の形成には
-ビザンティンの伝統が基層として働いた。Metropolitan Museum は、ヴェネツィアが10世紀には
-コンスタンティノープルと商業関係を築いており、そのためヴェネツィア絵画がビザンティンの伝統から
-生まれたと説明している
+ビザンティンの伝統が基層として働いた。メトロポリタン美術館の作品解説は、14世紀のヴェネツィア画家
+ロレンツォ・ヴェネツィアーノが、ビザンティンの伝統に根ざしたパオロ・ヴェネツィアーノの工房で学んだ
+可能性を記録している（[Metropolitan Museum of Art「Lorenzo Veneziano: Madonna and Child Enthroned with Two Donors」](https://www.metmuseum.org/art/collection/search/459020)）。
+これは、ヴェネツィアの画家が工房を通じてビザンティン系の図像・装飾語彙を受け取ったという、
+都市内の具体的な形成経路である。10世紀以降のコンスタンティノープルとの交易を背景に、
+ビザンティンの伝統がヴェネツィア絵画の形成層になったという同館の概説とも整合する
 （[Metropolitan Museum of Art「Venice in the Eighteenth Century」](https://www.metmuseum.org/de/essays/venice-in-the-eighteenth-century)）。
-ここで示されるのは、特定の画家が一つの作品を模倣したという単線的な影響ではなく、
-交易と都市の接触を通じた美術的伝統の受容である。したがって、この関係は15世紀後半以降の
-ヴェネツィア派をビザンティン美術へ全面的に還元するものではない。
+ただし、作品解説が直接示すのはパオロからロレンツォへ至る14世紀の形成層であり、15世紀後半以降の
+ヴェネツィア派の全画家が同じ経路をたどった、または後世の様式をビザンティン美術へ全面的に還元できる、
+という意味ではない。
 
 **未確認**: 英語版Wikipediaは「16世紀の主要なヴェネツィア派の画家は、ヴェネツィア
 生え抜きであることはむしろ稀」と記し、共和国の本土領（テッラフェルマ）——パドヴァ・
