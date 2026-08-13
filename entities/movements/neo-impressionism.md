@@ -32,6 +32,7 @@ relations:
   - {type: diffused_to, target: place/brussels, certainty: scholarly, source: "https://www.musee-orsay.fr/en/program/whats-on/exhibitions/presentation/neo-impressionism-seurat-paul-klee"}
   - {type: diffused_to, target: place/netherlands, certainty: scholarly, source: "https://www.musee-orsay.fr/en/program/whats-on/exhibitions/presentation/neo-impressionism-seurat-paul-klee"}
   - {type: influenced_by, target: concept/ukiyo-e, certainty: scholarly, source: "https://www.moma.org/documents/moma_catalogue_2792_300190140.pdf"}
+  - {type: responds_to, target: movement/utagawa-school, certainty: scholarly, source: "https://maa.missouri.edu/sites/default/files/image-button/2021-12/on-line_japonisme_in_print-2-_complete.pdf"}
   - {type: part_of, target: concept/divisionism}
 sources:
   - https://www.wikidata.org/wiki/Q150091
@@ -48,6 +49,7 @@ sources:
   - https://en.wikipedia.org/wiki/Les_Vingt
   - https://www.impressionism.nl/1887-les-xx/
   - https://www.musee-orsay.fr/en/program/whats-on/exhibitions/presentation/neo-impressionism-seurat-paul-klee
+  - https://maa.missouri.edu/sites/default/files/image-button/2021-12/on-line_japonisme_in_print-2-_complete.pdf
 images:
   - url: https://www.artic.edu/iiif/2/2d484387-2509-5e8e-2c43-22f9981972eb/full/843,/0/default.jpg
     source_page: https://www.artic.edu/artworks/27992
@@ -58,7 +60,7 @@ images:
     license: cc0
     note: "ポール・シニャック《調和の時代（In Times of Harmony）》1895-96年、シカゴ美術館蔵（is_public_domain: true）"
 status: verified
-updated: 2026-08-12
+updated: 2026-08-13
 ---
 
 # 新印象派 / Neo-impressionism
@@ -206,6 +208,19 @@ Gallica収録の実物（[ark:/12148/bpt6k850398w](https://gallica.bnf.fr/ark:/1
 [浮世絵](../concepts/ukiyo-e.md)に対応づける。特定の一派、とくに歌川派から新印象派全体へ直接伝播したと
 いう主張ではない。そのため、既存の [歌川派](utagawa-school.md) への経路とは分け、作品・収集・図像を
 介した日本版画一般からの受容を `concept/ukiyo-e` への `influenced_by` として記録する。
+
+## 歌川派との限定的な接続
+
+ミズーリ大学美術館の展覧会資料は、テオ・ファン・レイセルベルヘの《海辺》を、歌川広重の版画と
+並べて紹介し、線による形の定義、色面、前景と背景の急な juxtaposition（並置）を通じて日本の
+木版画への負債を示す作品と説明している。同じ資料は、レイセルベルヘが新印象派のポール・シニャックと
+親しく、二人の書簡と批評から日本版画への相互の関心が分かるとも記す（[同館の展覧会資料](https://maa.missouri.edu/sites/default/files/image-button/2021-12/on-line_japonisme_in_print-2-_complete.pdf)）。
+
+これは新印象派の全参加者が歌川派を見たことや、1886年の運動形成が歌川派によって直接決まったことを
+示す資料ではない。歌川広重を名指しし、レイセルベルヘとシニャックという新印象派の参加者に限定して
+日本版画への応答を示す資料なので、既存の `concept/ukiyo-e` への一般的な `influenced_by` とは別に、
+運動間の限定された接続を `responds_to` として記録する。なお、資料が示すレイセルベルヘの制作は
+ベルギーでの新印象派の受容にもまたがるため、この関係を新印象派全体の単線的な因果とは扱わない。
 
 ## 未着手
 
