@@ -30,7 +30,7 @@ space:
   - {role: originated_in, target: place/sao-paulo}
 relations:
   - {type: created_by, target: person/oswald-de-andrade}
-  - {type: responds_to, target: movement/surrealism, certainty: scholarly, source: "https://en.wikipedia.org/wiki/Oswald_de_Andrade"}
+  - {type: responds_to, target: movement/surrealism, certainty: scholarly, source: "https://digitalrepository.unm.edu/brazil_slides/762/"}
 sources:
   - https://digital.bbm.usp.br/bitstream/bbm/7064/2/Anno.1_n.01_45000033273.pdf
   - https://digital.bbm.usp.br/handle/bbm/7064
@@ -41,6 +41,7 @@ sources:
   - https://www.moma.org/collection/works/193204
   - https://www.tate.org.uk/art/art-terms/a/anthropophagia
   - https://en.wikipedia.org/wiki/Oswald_de_Andrade
+  - https://digitalrepository.unm.edu/brazil_slides/762/
 status: draft
 updated: 2026-08-09
 ---
@@ -72,6 +73,12 @@ Antropophaga」、ギリェルメ・ヂ・アルメイダの詩、プリニオ�
 興味がない。人間の法。食人者の法。）がこの立場を要約する。有名な一節「Tupy, or not tupy that is
 the question.」はシェイクスピアの一句を捩ったもので、同じ二重否定（先住民でもなく単純な西欧の
 模倣でもない）を体現する。
+
+この外部文化の取り込み方は、シュルレアリスムとの関係を考える手がかりにもなる。ニューメキシコ大学
+ラテンアメリカ・イベリア研究所の解説は、タルシラ・ド・アマラルの《アバポル》とアントロポファジアの
+「噛みつくようなユーモア」にシュルレアリスムの反響があると説明している。ただし、これは運動全体が
+フランスのシュルレアリスムを直接追随したという意味ではなく、ブラジル固有の文化的主体性へ変換する
+応答として `responds_to` を記録する。
 
 雑誌は自らを刊行する集団の性格について、創刊号末尾の「NOTA INSISTENTE」で「Ella é antropófaga
 como o avestruz é comilão.（このレビューは駝鳥が食い意地が張っているように食人的である。）」
