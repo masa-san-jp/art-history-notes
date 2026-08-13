@@ -8203,8 +8203,8 @@
         {
           "type": "influenced_by",
           "target": "movement/realism",
-          "certainty": "scholarly",
-          "source": "https://imp-art.org/articles/tanjore-painting/"
+          "certainty": "hypothesis",
+          "source": "https://www.britishmuseum.org/collection/object/A_2020-3021-1"
         }
       ],
       "sources": [
@@ -8215,6 +8215,8 @@
         "https://en.wikipedia.org/wiki/Serfoji_II",
         "https://www.metmuseum.org/art/collection/search/850685",
         "https://imp-art.org/articles/tanjore-painting/",
+        "https://www.britishmuseum.org/collection/object/A_2020-3021-1",
+        "https://en.natmus.dk/historical-knowledge/historical-knowledge-the-world/asia/india/tranquebar/collections-in-the-national-museum-of-denmark/south-indian-company-paintings-c-1770-1850/",
         "https://tnrajbhavantour.tn.gov.in/tnrb-website-archive/Archives/Website1621/PressReleases/2019/PR040419-1.pdf"
       ],
       "images": [
@@ -57839,8 +57841,8 @@
       "from": "movement/tanjore-painting",
       "type": "influenced_by",
       "to": "movement/realism",
-      "certainty": "scholarly",
-      "source": "https://imp-art.org/articles/tanjore-painting/"
+      "certainty": "hypothesis",
+      "source": "https://www.britishmuseum.org/collection/object/A_2020-3021-1"
     },
     {
       "from": "movement/tanjore-painting",

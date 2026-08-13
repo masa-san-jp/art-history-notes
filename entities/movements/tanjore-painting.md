@@ -30,7 +30,7 @@ space:
   - {role: originated_in, target: place/thanjavur}
 relations:
   - {type: patronized_by, target: org/thanjavur-maratha-kingdom, certainty: scholarly, source: "https://tnrajbhavantour.tn.gov.in/tnrb-website-archive/Archives/Website1621/PressReleases/2019/PR040419-1.pdf"}
-  - {type: influenced_by, target: movement/realism, certainty: scholarly, source: "https://imp-art.org/articles/tanjore-painting/"}
+  - {type: influenced_by, target: movement/realism, certainty: hypothesis, source: "https://www.britishmuseum.org/collection/object/A_2020-3021-1"}
 sources:
   - https://www.wikidata.org/wiki/Q3108584
   - https://en.wikipedia.org/wiki/Thanjavur_painting
@@ -39,6 +39,8 @@ sources:
   - https://en.wikipedia.org/wiki/Serfoji_II
   - https://www.metmuseum.org/art/collection/search/850685
   - https://imp-art.org/articles/tanjore-painting/
+  - https://www.britishmuseum.org/collection/object/A_2020-3021-1
+  - https://en.natmus.dk/historical-knowledge/historical-knowledge-the-world/asia/india/tranquebar/collections-in-the-national-museum-of-denmark/south-indian-company-paintings-c-1770-1850/
   - https://tnrajbhavantour.tn.gov.in/tnrb-website-archive/Archives/Website1621/PressReleases/2019/PR040419-1.pdf
 images:
   - url: https://images.metmuseum.org/CRDImages/as/original/DP-22860-001.jpg
@@ -128,11 +130,15 @@ updated: 2026-08-10
 こと、金メッキ銀箔を多用すること、ガラス玉・宝石の象嵌が頻繁であること）を具体的に記す。
 
 一方、英国支配とCompany Schoolとの接触が進んだ後期には、宗教画の表現にも西洋側の変化が現れる。
-Impartの解説は、タンジョール絵画の硬いポーズが、西洋のAcademic Realismの影響もあって、より
-自然主義的な描写へ移ったと説明している（[Impart「Tanjore Painting」](https://imp-art.org/articles/tanjore-painting/)）。
+大英博物館は、1830年頃までにタンジョールの画家がカンパニー絵画の他の流派に比べても際立つ
+繊細で写実的な様式を発展させたと記録している。また、デンマーク国立博物館は、南インドの
+カンパニー絵画、とくにセルフォージー2世治下のタンジャーヴールで、欧州の注文主に合わせて
+インド細密画の要素とより自然主義的な欧州の描法が混ざったと説明する（[British Museumの作品記録](https://www.britishmuseum.org/collection/object/A_2020-3021-1)、
+[National Museum of Denmark「South Indian Company Paintings」](https://en.natmus.dk/historical-knowledge/historical-knowledge-the-world/asia/india/tranquebar/collections-in-the-national-museum-of-denmark/south-indian-company-paintings-c-1770-1850/)）。
+ただし、これらの資料は19世紀フランスを中心とする`movement/realism`からの直接の影響系譜を示していない。
 したがって本項の `influenced_by movement/realism` は、17世紀以来の金箔・盛り上げ技法や正面性を
-Realismへ還元する関係ではなく、18〜19世紀のCompany School接触後に見られる後期の自然主義的層に
-限定する。
+Realismへ還元する関係ではなく、18〜19世紀のCompany School接触後に見られる後期の自然主義的層と
+写実主義との対応を記録する**調査仮説**に限定する。
 
 ### kind の判定 — なぜ `period-style` か
 
