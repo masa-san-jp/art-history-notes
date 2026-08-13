@@ -1104,7 +1104,14 @@
           "target": "place/asmat-regency"
         }
       ],
-      "relations": [],
+      "relations": [
+        {
+          "type": "diffused_to",
+          "target": "place/new-york-city",
+          "certainty": "scholarly",
+          "source": "https://www.metmuseum.org/exhibitions/listings/2013/nelson-rockefeller"
+        }
+      ],
       "sources": [
         "https://www.wikidata.org/wiki/Q643103",
         "https://www.wikidata.org/wiki/Q27228",
@@ -1128,7 +1135,7 @@
         "https://www.degruyterbrill.com/document/doi/10.1515/9783111387505/html"
       ],
       "status": "draft",
-      "updated": "2026-08-10",
+      "updated": "2026-08-13",
       "path": "entities/movements/asmat-carving.md"
     },
     "movement/baghdad-modern-art-group": {
@@ -56347,6 +56354,13 @@
     },
     {
       "from": "movement/asmat-carving",
+      "type": "diffused_to",
+      "to": "place/new-york-city",
+      "certainty": "scholarly",
+      "source": "https://www.metmuseum.org/exhibitions/listings/2013/nelson-rockefeller"
+    },
+    {
+      "from": "movement/asmat-carving",
       "type": "originated_in",
       "to": "place/asmat-regency"
     },
@@ -72642,6 +72656,12 @@
       "from": "place/vienna",
       "type": "received",
       "to": "movement/arts-and-crafts",
+      "derived": true
+    },
+    {
+      "from": "place/new-york-city",
+      "type": "received",
+      "to": "movement/asmat-carving",
       "derived": true
     },
     {

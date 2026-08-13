@@ -43,7 +43,8 @@ claims:
   - {field: originated_in, source: "https://www.wikidata.org/wiki/Q27228", certainty: scholarly}
 space:
   - {role: originated_in, target: place/asmat-regency}
-relations: []
+relations:
+  - {type: diffused_to, target: place/new-york-city, certainty: scholarly, source: "https://www.metmuseum.org/exhibitions/listings/2013/nelson-rockefeller"}
 sources:
   - https://www.wikidata.org/wiki/Q643103
   - https://www.wikidata.org/wiki/Q27228
@@ -66,7 +67,7 @@ sources:
   - https://anthrosource.onlinelibrary.wiley.com/doi/10.1525/aa.1959.61.6.02a00080
   - https://www.degruyterbrill.com/document/doi/10.1515/9783111387505/html
 status: draft
-updated: 2026-08-10
+updated: 2026-08-13
 ---
 
 # アスマットの彫刻 / Asmat carving
@@ -242,6 +243,21 @@ A. Rockefeller, 1979」）。ロックフェラーの父ネルソン・A・ロ�
 API）で確認できたビス柱の記録（accession 1978.412.1251、1978.412.1248、1979.206.1611
 など）は、いずれも「isPublicDomain: false」であることが確認できた——本ファイルに画像を
 付けなかった理由である。
+
+### ニューヨークでの収集・展示
+
+作品がアスマットからニューヨークへ移動した経路は、メトロポリタン美術館の公式年表で
+具体的に確認できる。マイケル・C・ロックフェラーは1961年、アスマット地域の複数の村で
+作品を収集し、600点を超えるコレクションを形成した。同コレクションは1962年、ニューヨークの
+ミュージアム・オブ・プリミティヴ・アートが企画した展覧会
+「The Art of the Asmat, New Guinea: Collected by Michael C. Rockefeller」として、
+MoMAの中庭に設けられたパビリオンで公開された。その後、同館のコレクションは1978〜79年に
+メトロポリタン美術館へ移管され、1982年に開館したマイケル・C・ロックフェラー・ウィングの
+中核となった（[メトロポリタン美術館「The Nelson A. Rockefeller Vision」](https://www.metmuseum.org/exhibitions/listings/2013/nelson-rockefeller)）。
+ここで確認できるのは、**アスマットの彫刻作品が収集・展示・美術館移管を通じて
+ニューヨークの制度的な受容環境へ移ったこと**であり、作品がニューヨークの特定の近代美術運動を
+直接変えたという因果ではない。そのため `diffused_to place/new-york-city` は作品の移動・受容地点を
+記録するにとどめ、他の movement への `influenced_by` は追加しない。
 
 一方、アスマットが1962年までオランダ領ニューギニアの一部であった期間には、収集家カレル・
 グルーネフェルトが1951〜58年にトロペンミュージアム（現ヴェレルトミュージアム、アムステルダム）
