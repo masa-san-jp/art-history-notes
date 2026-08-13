@@ -29,7 +29,7 @@ space:
   - {role: originated_in, target: place/murshidabad}
 relations:
   - {type: derives_from, target: movement/mughal-painting, certainty: scholarly, source: "https://www.getty.edu/vow/AATFullDisplay?find=Company+school&logic=AND&note=&english=Y&prev_page=1&subjectid=300018959"}
-  - {type: influenced_by, target: movement/realism, certainty: scholarly, source: "https://criticalcollective.in/CC_ArchiveInner2.aspx?Aid=1407&Eid=1801"}
+  - {type: influenced_by, target: movement/realism, certainty: hypothesis, source: "https://www.metmuseum.org/fr/essays/company-painting-in-nineteenth-century-india"}
   - {type: patronized_by, target: org/east-india-company, certainty: scholarly, source: "https://www.getty.edu/vow/AATFullDisplay?find=Company+school&logic=AND&note=&english=Y&prev_page=1&subjectid=300018959"}
 sources:
   - https://www.wikidata.org/wiki/Q861297
@@ -40,6 +40,8 @@ sources:
   - https://en.banglapedia.org/index.php/Murshidabad_Painting
   - https://www.theheritagelab.in/patna-kalam-artists/
   - https://criticalcollective.in/CC_ArchiveInner2.aspx?Aid=1407&Eid=1801
+  - https://www.metmuseum.org/fr/essays/company-painting-in-nineteenth-century-india
+  - https://www.metmuseum.org/exhibitions/listings/2017/company-school-painting
   - https://read.dukeupress.edu/archives-of-asian-art/article-abstract/74/1/79/388307/To-Fill-a-Gap-in-Indian-History-An-Archival
   - https://www.metmuseum.org/art/collection/search/454011
   - https://www.metmuseum.org/art/collection/search/457758
@@ -219,6 +221,18 @@ Banglapediaが記す1769年の飢饉後の転換の経緯である。
 触れていない。Wikipediaの「後の中心地」という言い回しはムルシダーバードを起点とする時系列を
 示唆するが、これは英語版Wikipedia1本の記述に基づく判断であり、複数の中心地が実際には
 どの程度独立に・並行して立ち上がったのかは、今回の調査では確認できていない。
+
+## 写実主義との関係
+
+メトロポリタン美術館は、カンパニー派が注文主の欧州的な嗜好・科学的関心・発見の欲望に応答し、
+インドの動植物・人物・景観を扱ったこと、また水彩、線遠近法、陰影を特徴とすることを説明する。
+これは西洋的な写実技法・自然研究の導入を裏付けるが、19世紀半ばのフランスを中心とする
+`movement/realism` からの直接の影響関係までは同館資料から確認できない。そのため、ここでの
+`influenced_by → movement/realism` は、カンパニー派の西洋的な写実技法と、別エンティティとして
+定義した写実主義との対応を記録する**調査仮説**であり、画家・作品・出版物を介した直接系譜を
+確定したものではない。初期の注文制作だけでなく、19世紀初頭には観光客向けの定型的な主題群が
+販売されたという市場変化もあるため、今後は「欧州技法の受容」「自然史的記録」「写実主義運動の
+影響」を分離して検証する。
 
 ## 未着手
 
