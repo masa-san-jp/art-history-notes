@@ -794,7 +794,7 @@
           "type": "reacts_against",
           "target": "movement/futurism",
           "certainty": "scholarly",
-          "source": "https://universes.art/en/nafas/articles/2016/egyptian-surrealists"
+          "source": "https://www.nybooks.com/online/2018/02/03/art-et-liberte-egypts-surrealists/"
         },
         {
           "type": "created_by",
@@ -818,6 +818,8 @@
         "https://www.centrepompidou.fr/en/program/calendar/event/ce5nBKj",
         "https://libcom.org/article/vive-lart-degenere",
         "https://universes.art/en/nafas/articles/2016/egyptian-surrealists",
+        "https://www.nybooks.com/online/2018/02/03/art-et-liberte-egypts-surrealists/",
+        "https://www.moma.org/interactives/exhibitions/2009/futurism/",
         "https://www.sothebys.com/en/articles/the-birth-of-art-and-liberty-egypts-surrealist-art-movement",
         "https://en.wikipedia.org/wiki/Georges_Henein",
         "https://en.wikipedia.org/wiki/Kamel_el-Telmissany",
@@ -56213,7 +56215,7 @@
       "type": "reacts_against",
       "to": "movement/futurism",
       "certainty": "scholarly",
-      "source": "https://universes.art/en/nafas/articles/2016/egyptian-surrealists"
+      "source": "https://www.nybooks.com/online/2018/02/03/art-et-liberte-egypts-surrealists/"
     },
     {
       "from": "movement/art-et-liberte",
