@@ -6930,7 +6930,7 @@
           "type": "influenced_by",
           "target": "movement/safavid-painting",
           "certainty": "scholarly",
-          "source": "https://en.wikipedia.org/wiki/Qajar_art"
+          "source": "https://www.iranicaonline.org/articles/art-in-iran-v-qajar-2-painting/"
         },
         {
           "type": "influenced_by",
@@ -6954,6 +6954,7 @@
         "https://www.sothebys.com/en/auctions/ecatalogue/2010/arts-of-the-islamic-world-l10223/lot.94.html",
         "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300021708",
         "https://www.iranicaonline.org/articles/art-in-iran-v-qajar-1-general/",
+        "https://www.iranicaonline.org/articles/art-in-iran-v-qajar-2-painting/",
         "https://scholarworks.sjsu.edu/etd_theses/3019/"
       ],
       "images": [
@@ -6971,7 +6972,7 @@
         }
       ],
       "status": "draft",
-      "updated": "2026-08-10",
+      "updated": "2026-08-13",
       "path": "entities/movements/qajar-painting.md"
     },
     "movement/quito-school": {
@@ -57576,7 +57577,7 @@
       "type": "influenced_by",
       "to": "movement/safavid-painting",
       "certainty": "scholarly",
-      "source": "https://en.wikipedia.org/wiki/Qajar_art"
+      "source": "https://www.iranicaonline.org/articles/art-in-iran-v-qajar-2-painting/"
     },
     {
       "from": "movement/qajar-painting",
