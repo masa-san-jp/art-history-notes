@@ -2013,6 +2013,90 @@
       "updated": "2026-08-09",
       "path": "entities/movements/benin-court-art.md"
     },
+    "movement/bombay-progressive-artists-group": {
+      "id": "movement/bombay-progressive-artists-group",
+      "uri": "urn:ahn:movement/bombay-progressive-artists-group",
+      "type": "movement",
+      "kind": "self-declared",
+      "label_ja": "ボンベイ進歩芸術家グループ",
+      "label_en": "Progressive Artists' Group",
+      "authority": {
+        "wikidata": "Q4940574",
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": "1947",
+        "end": null,
+        "display": "1947年12月（結成の会合）〜活動終息の時期は出典間で不一致（確認できる最後の合同展は1953年。「1956年に解散」とする記述もあるが出典未確認）"
+      },
+      "founding_control": "internal",
+      "naming": {
+        "self_identified": true,
+        "named_by": null,
+        "named_when": null,
+        "original_label": "Progressive Artists' Group",
+        "note": "当事者の自称は地名を含まない「Progressive Artists' Group」。パリムー＆バグワトの概説によれば、名称中の「Progressive」はインド文学のマルクス主義系作家・詩人らが1936年の会議で立ち上げた「Progressive Writers' Movement」から着想を得たと当事者自身が語ったとされる。現在広く使われる複合名「Bombay Progressive Artists' Group」（英語版Wikipediaの項目名・Wikidataのラベル）の「Bombay」部分は、記事本文が一貫して当事者の呼称「The Progressive Artists' Group (PAG)」を使うのと対照的で、いつ・誰が地名を付け加えたかは未確認。他都市の同名の集団と区別するための後付けの可能性がある"
+      },
+      "claims": [
+        {
+          "field": "kind",
+          "source": "https://web.archive.org/web/20131214145023/http://www.artnewsnviews.com/view-article.php?article=progressive-artists-group-of-bombay-an-overview&iid=29&articleid=800",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "originated_in",
+          "source": "https://web.archive.org/web/20131214145023/http://www.artnewsnviews.com/view-article.php?article=progressive-artists-group-of-bombay-an-overview&iid=29&articleid=800",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "time",
+          "source": "https://web.archive.org/web/20131214145023/http://www.artnewsnviews.com/view-article.php?article=progressive-artists-group-of-bombay-an-overview&iid=29&articleid=800",
+          "certainty": "scholarly"
+        }
+      ],
+      "space": [
+        {
+          "role": "originated_in",
+          "target": "place/mumbai"
+        }
+      ],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/f-n-souza"
+        },
+        {
+          "type": "reacts_against",
+          "target": "movement/bengal-school",
+          "certainty": "scholarly",
+          "source": "https://web.archive.org/web/20131214145023/http://www.artnewsnviews.com/view-article.php?article=progressive-artists-group-of-bombay-an-overview&iid=29&articleid=800"
+        },
+        {
+          "type": "influenced_by",
+          "target": "movement/cubism",
+          "certainty": "scholarly",
+          "source": "https://en.wikipedia.org/wiki/Bombay_Progressive_Artists%27_Group"
+        },
+        {
+          "type": "influenced_by",
+          "target": "movement/post-impressionism",
+          "certainty": "scholarly",
+          "source": "https://en.wikipedia.org/wiki/Bombay_Progressive_Artists%27_Group"
+        }
+      ],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q4940574",
+        "https://en.wikipedia.org/wiki/Bombay_Progressive_Artists%27_Group",
+        "https://web.archive.org/web/20131214145023/http://www.artnewsnviews.com/view-article.php?article=progressive-artists-group-of-bombay-an-overview&iid=29&articleid=800",
+        "https://www.tate.org.uk/art/art-terms/b/bombay-progressive-artists-group"
+      ],
+      "status": "draft",
+      "updated": "2026-08-10",
+      "path": "entities/movements/bombay-progressive-artists-group.md"
+    },
     "movement/byzantine-art": {
       "id": "movement/byzantine-art",
       "uri": "urn:ahn:movement/byzantine-art",
@@ -2875,6 +2959,81 @@
       "status": "draft",
       "updated": "2026-08-13",
       "path": "entities/movements/deccan-painting.md"
+    },
+    "movement/dong-ho-painting": {
+      "id": "movement/dong-ho-painting",
+      "uri": "urn:ahn:movement/dong-ho-painting",
+      "type": "movement",
+      "label_ja": "ドンホー版画",
+      "label_en": "Đông Hồ painting",
+      "authority": {
+        "wikidata": "Q1923756",
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "Getty AATはgetty.edu/vow/AATServletで「Dong Ho」「Đông Hồ」「dan gian painting」を検索したが該当語を確認できなかった。WikidataのQIDが取れているためnone_reasonは必須ではないが、AATが無い旨の記録として残す"
+      },
+      "time": {
+        "start": "16XX~",
+        "end": "..",
+        "display": "伝承では11世紀（李朝）、学術的な推定では黎敬宗（レー・キン・トン）代（1600〜1619年）"
+      },
+      "kind": "lineage-school",
+      "naming": {
+        "self_identified": true,
+        "named_by": null,
+        "named_when": null,
+        "original_label": "tranh Đông Hồ（tranh dân gian Đông Hồ）",
+        "note": "村名（ドンホー村）がそのまま呼称になっている。Wikidataもこの項目をP138（〜にちなんで名付けられた）でドンホー村（Q8079936）と結んでおり、後代の批評家・市場が付けた括り名ではなく、産地の村名を当事者側がそのまま名乗っている形"
+      },
+      "founding_control": "internal",
+      "claims": [
+        {
+          "field": "originated_in",
+          "source": "https://www.wikidata.org/wiki/Q1923756",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "kind",
+          "source": "https://ich.unesco.org/en/USL/craft-of-making-dong-ho-folk-woodblock-printings-01737",
+          "certainty": "scholarly"
+        }
+      ],
+      "space": [
+        {
+          "role": "originated_in",
+          "target": "place/dong-ho-village"
+        }
+      ],
+      "relations": [],
+      "images": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/6/61/Dong-ho-rat-wedding.jpg",
+          "source_page": "https://commons.wikimedia.org/wiki/File:Dong-ho-rat-wedding.jpg",
+          "license": "public-domain",
+          "note": "《Đám cưới chuột（鼠の婚礼）》。旧正月に飾られた代表的な画題の一つ"
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/4/44/Hai_ba_trung_Dong_Ho_painting.jpg",
+          "source_page": "https://commons.wikimedia.org/wiki/File:Hai_ba_trung_Dong_Ho_painting.jpg",
+          "license": "public-domain",
+          "note": "徴姉妹（ハイ・バー・チュン）が象に乗る姿を描いた版画。歴史上の人物を主題にした一群の例"
+        }
+      ],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q1923756",
+        "https://www.wikidata.org/wiki/Q8079936",
+        "https://ich.unesco.org/en/decisions/20.COM/7.A.1",
+        "https://ich.unesco.org/en/USL/craft-of-making-dong-ho-folk-woodblock-printings-01737",
+        "https://en.wikipedia.org/wiki/%C4%90%C3%B4ng_H%E1%BB%93_painting",
+        "https://vietnamnews.vn/life-style/1731568/dong-ho-folk-painting-added-to-unesco-s-list-of-culture-in-urgent-need-of-safeguarding.html",
+        "https://vietnamnet.vn/en/dong-ho-folk-painting-recognized-by-unesco-as-intangible-cultural-heritage-2471012.html",
+        "https://commons.wikimedia.org/wiki/File:Dong-ho-rat-wedding.jpg",
+        "https://commons.wikimedia.org/wiki/File:Hai_ba_trung_Dong_Ho_painting.jpg"
+      ],
+      "status": "draft",
+      "updated": "2026-08-10",
+      "path": "entities/movements/dong-ho-painting.md"
     },
     "movement/ecole-de-dakar": {
       "id": "movement/ecole-de-dakar",
@@ -4666,6 +4825,84 @@
       "updated": "2026-08-13",
       "path": "entities/movements/italian-divisionism.md"
     },
+    "movement/jain-manuscript-painting": {
+      "id": "movement/jain-manuscript-painting",
+      "uri": "urn:ahn:movement/jain-manuscript-painting",
+      "type": "movement",
+      "kind": "period-style",
+      "label_ja": "ジャイナ写本絵画",
+      "label_en": "Jain manuscript painting",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "Wikidataで英語表記「Jain manuscript painting」「Western Indian style」「Jain painting」を wbsearchentities で検索したが、いずれも空の結果だった（個別の写本葉1点ごとのQIDは60件以上ヒットするが、様式・movement 自体を指す項目が存在しない）。Getty AATは、カーングラ派の調査時と同じ理由でAATServlet（find=によるテキスト検索）がこの環境からHTTP 400を返して使えず、代替のTemaTresミラー（aatesaurus.cultura.gencat.cat）でも検索インターフェースから該当語彙のsubjectidを特定できなかった。したがって典拠は現時点でゼロ件"
+      },
+      "time": {
+        "start": "1060~",
+        "end": null,
+        "display": "現存する最古の彩飾（挿絵入り）貝葉写本と伝わる『オーガニルユクティ』（1060年、Vikrama暦1117年、ジャイサルメールのバンダール蔵）を起点の目安とする。ただしジャイナ教典籍の写本制作そのものは10〜11世紀のいずれかから存在した可能性が指摘され、彩飾という営みがいつ始まったかは出典間で幅がある。終期は単一の事件・年で語られず、16世紀にかけてムガル美術との接触（正面向きの顔の採用など）を通じて様式が変質・融合していく過程として記述される"
+      },
+      "naming": {
+        "self_identified": false,
+        "named_by": null,
+        "named_when": "1934",
+        "original_label": "Western Indian style",
+        "note": "ジャイナ教徒自身がこの作画伝統を「西インド様式」や「ジャイナ写本絵画」の名で呼んだ記録は確認できていない。この名は近代の美術史記述による分類名で、インド学者W. Norman Brownの1930年の著作『Miniature painting in Western India』、および1934年の写本図録（The Freer Gallery of Art刊）の副題「as executed in the early western Indian style」に見える表現が定着したとみられる（Lahoti 2024が引く書誌情報に基づく確認で、Brown自身の原著テキストには未到達——孫引きの書誌情報を経由した確認にとどまる）。現在も呼び方は割れている——「Western Indian style（西インド様式）」は様式の地理的起源を指す名で、「Jain manuscript painting（ジャイナ写本絵画）」はメトロポリタン美術館（John Guy, 2012）などで使われる、担い手の宗教共同体を指す名。本ファイルは label_en に後者を採用し、original_label には呼称としてより早く定着した前者を残した"
+      },
+      "claims": [
+        {
+          "field": "kind",
+          "source": "https://www.metmuseum.org/essays/jain-manuscript-painting",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "time",
+          "source": "https://chitrolekha.com/ns/v8n1/v8n102.pdf",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "originated_in",
+          "source": "https://www.metmuseum.org/essays/jain-manuscript-painting",
+          "certainty": "scholarly"
+        }
+      ],
+      "space": [
+        {
+          "role": "originated_in",
+          "target": "place/patan"
+        }
+      ],
+      "relations": [],
+      "sources": [
+        "https://www.metmuseum.org/essays/jain-manuscript-painting",
+        "https://chitrolekha.com/ns/v8n1/v8n102.pdf",
+        "https://doi.org/10.21659/cjad.81.v8n102",
+        "https://www.britannica.com/art/Western-Indian-painting",
+        "https://en.wikipedia.org/wiki/Indian_painting",
+        "https://www.wikidata.org/wiki/Q579702",
+        "https://www.metmuseum.org/art/collection/search/74883",
+        "https://www.metmuseum.org/art/collection/search/37788"
+      ],
+      "images": [
+        {
+          "url": "https://images.metmuseum.org/CRDImages/as/original/DP156423.jpg",
+          "source_page": "https://www.metmuseum.org/art/collection/search/74883",
+          "license": "cc0",
+          "note": "《一対のジャイナ写本表紙（パトリー）のうち1点》木に不透明水彩、12世紀前半、グジャラート。メトロポリタン美術館蔵（isPublicDomain: true）。貝葉写本時代の様式を示す（John Guy の Met essay が「インド国外に現存する最古級の写本表紙の一つ」と言及する作例）"
+        },
+        {
+          "url": "https://images.metmuseum.org/CRDImages/as/original/DT6940.jpg",
+          "source_page": "https://www.metmuseum.org/art/collection/search/37788",
+          "license": "cc0",
+          "note": "《デーヴァーナンダーの十四の吉夢》『カルパスートラ』写本葉、不透明水彩・金・紙、c.1465年、グジャラート（ジャウンプル）。メトロポリタン美術館蔵（isPublicDomain: true）。紙への転換後、金とラピスラズリを用いた成熟期の様式を示す（John Guy の Met essay が同一葉に言及）"
+        }
+      ],
+      "status": "draft",
+      "updated": "2026-08-10",
+      "path": "entities/movements/jain-manuscript-painting.md"
+    },
     "movement/jingyeong-sansuhwa": {
       "id": "movement/jingyeong-sansuhwa",
       "uri": "urn:ahn:movement/jingyeong-sansuhwa",
@@ -4747,6 +4984,87 @@
       "status": "draft",
       "updated": "2026-08-09",
       "path": "entities/movements/jingyeong-sansuhwa.md"
+    },
+    "movement/jinling-eight-masters": {
+      "id": "movement/jinling-eight-masters",
+      "uri": "urn:ahn:movement/jinling-eight-masters",
+      "type": "movement",
+      "label_ja": "金陵八家",
+      "label_en": "Eight Masters of Jinling",
+      "authority": {
+        "wikidata": "Q5348995",
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": "1650~",
+        "end": "1708~",
+        "display": "17世紀半ば（1650年代、8人のうち最も早い活動記録を持つ葉欣の活動開始期）〜18世紀初頭（1708年頃、8人のうち最も遅い鄒喆の没年）。Wikidataのmovement項目（Q5348995）はP571（inception）に世紀精度（「17. century」と自己描画される値＝1601〜1700年）のclaimを持つが、鄒喆の没年（1708年頃）はこの範囲を超える"
+      },
+      "kind": "retrospective",
+      "naming": {
+        "self_identified": false,
+        "named_by": null,
+        "named_when": null,
+        "original_label": "金陵八家",
+        "note": "命名者・命名年は史料間で食い違う。中国語版Wikipediaが引く記録では、最古の言及は清の方文の詩（『山続・題樊会公小像』巻五、康熙2年＝1663年作、「繪事江東有八家」＝『長江の東〔金陵〕に絵の八家がいる』）だが、これは個人名を挙げていない。次いで李漁の詩（朱緒曾『国朝金陵詩征』巻四十一所収、樊圻・呉宏に宛てた詩で「金陵有八家之目」＝『金陵に八家という呼び名がある』と記す）も個人名を挙げない。最初に8人の氏名を挙げたのは周亮工とされる（王弘撰『西帰日劄・善画八大家記』が記録）が、その顔ぶれ（張修・謝成・樊沂・高岑・呉宏・樊圻・胡慥・鄒喆）は、現在の美術史で通用する顔ぶれ（張庚『国朝画徴録』による龔賢・樊圻・高岑・鄒喆・呉宏・葉欣・胡造・謝蓀）と4人（樊圻・高岑・呉宏・鄒喆）しか重ならない——最も著名な龔賢が入っていない。さらに乾隆16年（1751年）の『上元県志・方伎』巻二十四は、同じく周亮工が品題したとする顔ぶれを陳卓・呉宏・樊圻・鄒喆・蔡霖滄・李又李・武丹・高岑と記し、これは王弘撰の記録ともまた一致しない——同一人物（周亮工）に帰される名簿が史料によって2通り存在する。当事者がこの名を自称した一次的記述は見つからず、命名者を単一の個人に確定できないため、named_by は null とした。原典（方文・李漁・王弘撰・上元県志・張庚の各書）そのものには当たっておらず、いずれも中国語版Wikipediaが引く記述（二次情報）に拠る"
+      },
+      "claims": [
+        {
+          "field": "kind",
+          "source": "https://zh.wikipedia.org/wiki/%E9%87%91%E9%99%B5%E5%85%AB%E5%AE%B6",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "originated_in",
+          "source": "https://en.wikipedia.org/wiki/Eight_Masters_of_Nanjing",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "time",
+          "source": "https://en.wikipedia.org/wiki/Eight_Masters_of_Nanjing",
+          "certainty": "scholarly"
+        }
+      ],
+      "space": [
+        {
+          "role": "originated_in",
+          "target": "place/nanjing"
+        }
+      ],
+      "relations": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q5348995",
+        "https://en.wikipedia.org/wiki/Eight_Masters_of_Nanjing",
+        "https://zh.wikipedia.org/wiki/%E9%87%91%E9%99%B5%E5%85%AB%E5%AE%B6",
+        "https://www.comuseum.com/painting/schools/eight-masters-of-nanjing/",
+        "https://en.wikipedia.org/wiki/Gong_Xian",
+        "https://en.wikipedia.org/wiki/Gao_Cen",
+        "https://en.wikipedia.org/wiki/Zou_Zhe",
+        "https://kotobank.jp/word/%E9%87%91%E9%99%B5%E5%85%AB%E5%AE%B6-54569",
+        "https://finance.sina.com.cn/roll/2018-12-09/doc-ihprknvt8967421.shtml",
+        "https://www.metmuseum.org/art/collection/search/36130",
+        "https://www.metmuseum.org/art/collection/search/41483"
+      ],
+      "images": [
+        {
+          "url": "https://images.metmuseum.org/CRDImages/as/original/DP161078_crd.jpg",
+          "source_page": "https://www.metmuseum.org/art/collection/search/36130",
+          "license": "cc0",
+          "note": "龔賢《十二月山水図冊（Landscapes of the Twelve Months）》1685年頃、メトロポリタン美術館蔵（isPublicDomain: true）。金陵八家の中で最も著名とされる龔賢の作"
+        },
+        {
+          "url": "https://images.metmuseum.org/CRDImages/as/original/DP154033.jpg",
+          "source_page": "https://www.metmuseum.org/art/collection/search/41483",
+          "license": "cc0",
+          "note": "龔賢《山水樹木図冊（Landscapes and trees）》1679年頃、メトロポリタン美術館蔵（isPublicDomain: true）"
+        }
+      ],
+      "status": "draft",
+      "updated": "2026-08-10",
+      "path": "entities/movements/jinling-eight-masters.md"
     },
     "movement/joseon-genre-painting": {
       "id": "movement/joseon-genre-painting",
@@ -4842,6 +5160,58 @@
       "status": "draft",
       "updated": "2026-08-10",
       "path": "entities/movements/joseon-genre-painting.md"
+    },
+    "movement/kamasan-painting": {
+      "id": "movement/kamasan-painting",
+      "uri": "urn:ahn:movement/kamasan-painting",
+      "type": "movement",
+      "label_ja": "カマサン様式",
+      "label_en": "Kamasan painting",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "Wikidataに様式単位の項目は無い（村の項目 Q6356113 のみ存在し、place/kamasan で使用）。wbsearchentitiesで「Kamasan painting」「Kamasan style」「classical Balinese painting」「lukisan wayang Kamasan」（インドネシア語）を検索したがいずれも0件（2026-08-10）。Getty AATは vocab.getty.edu の SPARQL エンドポイントが終日 502/499（Service temporarily degraded）を返し到達できず、AATServlet 検索も 400 エラーで確認できなかった（2026-08-10、複数回試行）"
+      },
+      "time": {
+        "start": "15XX",
+        "end": "..",
+        "display": "16世紀（グルグル王国期の黄金期、伝承では王ダレム・ワトゥルンゴンの治世）〜現在。クルンクン王国期（17世紀末以降）を経て存続。2015年インドネシア政府無形文化遺産（WBTB）指定、2024年地理的表示（GI）登録"
+      },
+      "kind": "lineage-school",
+      "naming": {
+        "self_identified": true,
+        "named_by": null,
+        "named_when": null,
+        "original_label": "Wayang Kamasan",
+        "note": "村名がそのまま様式名になっており、狩野派と同型で特定の命名行為は確認できない。2024年、インドネシア知的財産総局（DJKI）への地理的表示（GI）登録により、「カマサン」の名を村での伝統的手法による制作物に限る法的な線引きがなされた——共同体自身がこの名を積極的に主張し防御した行為と言える"
+      },
+      "claims": [],
+      "space": [
+        {
+          "role": "originated_in",
+          "target": "place/kamasan"
+        }
+      ],
+      "relations": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q6356113",
+        "https://en.wikipedia.org/wiki/Kamasan",
+        "https://en.wikipedia.org/wiki/Mangku_Muriati",
+        "https://artsofbali.com/kamasan-painting-bali/",
+        "https://wovensouls.com/pages/wovensouls-guide-where-can-one-see-kamasan-paintings",
+        "https://www.endlessjoy.co.uk/journal/kamasan-painting",
+        "http://balitourismjournal.org/ojs/index.php/btj/article/view/74",
+        "https://www.kk-advocates.com/news/read/balinese-kamasan-classical-paintings-registered-as-a-geographical-indication-product",
+        "https://e-museum.klungkungkab.go.id/history-of-klungkung/",
+        "https://www.michaelbackmanltd.com/archived_objects/balinese-temple-textile-ider-ider/",
+        "https://balitra.com/en/cultures/bali-painting",
+        "https://journal.binus.ac.id/index.php/Humaniora/article/view/3599"
+      ],
+      "status": "draft",
+      "updated": "2026-08-10",
+      "path": "entities/movements/kamasan-painting.md"
     },
     "movement/kanga": {
       "id": "movement/kanga",
@@ -5129,6 +5499,141 @@
       "updated": "2026-08-08",
       "path": "entities/movements/kano-school.md"
     },
+    "movement/karma-gardri": {
+      "id": "movement/karma-gardri",
+      "uri": "urn:ahn:movement/karma-gardri",
+      "type": "movement",
+      "label_ja": "カルマ・ガルリ派",
+      "label_en": "Karma Gardri",
+      "authority": {
+        "wikidata": "Q25669748",
+        "aat": "300018861",
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": "1568~",
+        "end": "..",
+        "display": "16世紀後半（ナムカ・タシの活動期、9代カルマパの宮廷）〜現在。Getty AATは「16〜17世紀に隆盛、主に東チベット」とし、Himalayan Art Resourcesは初期（16〜17世紀）・中期（17世紀、第10代カルマパ）・後期（18〜21世紀、シトゥ・パンチェン／パルプン僧院）の3段階の様式を含む一つの伝統として扱う"
+      },
+      "kind": "lineage-school",
+      "naming": {
+        "self_identified": false,
+        "named_by": null,
+        "named_when": null,
+        "original_label": "karma sgar bris（ワイリー転写）/ Karma Gar-ri",
+        "note": "Himalayan Art Resourcesは「『カルマ・ガル』（Karma Gar）＝カルマ・カギュ派に関連する、あるいはそこから生み出された、の意」と語源を説明する。『ガル』はカルマパの宮廷とともに移動した天幕僧院（Great Karmapa Encampment）を指し、創始者個人の名ではなく教団・宮廷という制度に由来する呼称——メンリ派（創始者メンラ・トンドゥプの名に由来）とは呼称の由来の型が異なる。この呼称をいつ・誰が最初に使ったかは未確認"
+      },
+      "claims": [
+        {
+          "field": "kind",
+          "source": "https://www.himalayanart.org/search/set.cfm?setID=248",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "time",
+          "source": "https://rubinmuseum.org/projecthimalayanart/essays/portrait-of-the-ninth-karmapa/",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "originated_in",
+          "source": "https://rubinmuseum.org/projecthimalayanart/essays/portrait-of-the-ninth-karmapa/",
+          "certainty": "scholarly"
+        }
+      ],
+      "space": [
+        {
+          "role": "originated_in",
+          "target": "place/tsurphu-monastery"
+        },
+        {
+          "role": "active_in",
+          "target": "place/palpung-monastery"
+        }
+      ],
+      "relations": [
+        {
+          "type": "derives_from",
+          "target": "movement/menri-school",
+          "certainty": "scholarly",
+          "source": "https://rubinmuseum.org/projecthimalayanart/essays/portrait-of-the-ninth-karmapa/"
+        }
+      ],
+      "sources": [
+        "https://www.getty.edu/vow/AATFullDisplay?find=Karma+Gadri&logic=AND&note=&english=Y&prev_page=1&subjectid=300018861",
+        "https://www.himalayanart.org/search/set.cfm?setID=248",
+        "https://rubinmuseum.org/projecthimalayanart/essays/portrait-of-the-ninth-karmapa/",
+        "https://www.wikidata.org/wiki/Q25669748",
+        "https://baike.baidu.com/en/item/Tibetan%20Thangka%20(Karma%20Gadri%20Painting%20School)/934779"
+      ],
+      "status": "draft",
+      "updated": "2026-08-10",
+      "path": "entities/movements/karma-gardri.md"
+    },
+    "movement/khyenri-school": {
+      "id": "movement/khyenri-school",
+      "uri": "urn:ahn:movement/khyenri-school",
+      "type": "movement",
+      "kind": "lineage-school",
+      "label_ja": "キェンリ派",
+      "label_en": "Khyenri school",
+      "authority": {
+        "wikidata": "Q21550711",
+        "aat": "300264050",
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": "14XX",
+        "end": null,
+        "display": "15世紀初頭〜中期（キェンツェ・チェンモの活動期）。Himalayan Art Resourcesは『キェンリはもはや現存する絵画様式ではなく、過去の伝統を指す』と明記するが、断絶の具体的な年は出典に無い"
+      },
+      "naming": {
+        "self_identified": false,
+        "named_by": null,
+        "named_when": null,
+        "original_label": "mKhyen ris（ワイリー転写）/ Khyen ris（Getty AAT表記）",
+        "note": "『キェン（Khyen）』は創始者キェンツェ・チェンモ（mKhyen brtse chen mo）の名の一部、『リ（ris）』はチベット語で様式・絵画伝統を指す語で、メンリ派（メンラ・トンドゥプの名＋『リ』）と同型の合成語（Rubin Museum Project Himalayan Art「Khyentse tradition」）。この呼称をいつ・誰が最初に使ったかは未確認。フォロワーを指す語として『Khyentsewa』（地名・人名に付く接尾辞paṇ/waで『その伝統の信奉者』を意味する）が文献に現れる（Rubin Museum「Murals of Gongkar Chode」注7）が、これも呼称としての『キェンリ』が定着した時期を示すものではない"
+      },
+      "claims": [
+        {
+          "field": "kind",
+          "source": "https://rubinmuseum.org/projecthimalayanart/essays/murals-of-gongkar-chode/",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "time",
+          "source": "https://rubinmuseum.org/projecthimalayanart/essays/murals-of-gongkar-chode/",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "originated_in",
+          "source": "https://rubinmuseum.org/projecthimalayanart/essays/murals-of-gongkar-chode/",
+          "certainty": "scholarly"
+        }
+      ],
+      "space": [
+        {
+          "role": "originated_in",
+          "target": "place/gongkar-chode-monastery"
+        }
+      ],
+      "relations": [],
+      "sources": [
+        "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300264050",
+        "https://www.wikidata.org/wiki/Q21550711",
+        "https://www.wikidata.org/wiki/Q106789077",
+        "https://rubinmuseum.org/projecthimalayanart/essays/murals-of-gongkar-chode/",
+        "https://rubinmuseum.org/projecthimalayanart/glossary/khyentse-tradition/",
+        "https://www.himalayanart.org/search/set.cfm?setID=250",
+        "https://www.wikidata.org/wiki/Q1253613"
+      ],
+      "status": "draft",
+      "updated": "2026-08-10",
+      "path": "entities/movements/khyenri-school.md"
+    },
     "movement/kowhaiwhai": {
       "id": "movement/kowhaiwhai",
       "uri": "urn:ahn:movement/kowhaiwhai",
@@ -5182,6 +5687,104 @@
       "status": "draft",
       "updated": "2026-08-10",
       "path": "entities/movements/kowhaiwhai.md"
+    },
+    "movement/lapita-pottery": {
+      "id": "movement/lapita-pottery",
+      "uri": "urn:ahn:movement/lapita-pottery",
+      "type": "movement",
+      "label_ja": "ラピタ土器",
+      "label_en": "Lapita pottery",
+      "authority": {
+        "wikidata": "Q1021436",
+        "aat": "300264776",
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": null,
+        "end": null,
+        "display": "紀元前1500年頃〜紀元前500年頃（Wikidata Q1021436のinception/dissolved、precisionは ともに「年」単位で丸められた値）。ただし較正年代を扱う学術文献はより細かい像を示す——起源地 ビスマルク諸島ムッサウ諸島の最古層（タレパケマライ遺跡）は約3500〜3400 cal BP（紀元前1550年頃 〜紀元前1450年頃）、ソロモン諸島・バヌアツ・ニューカレドニアへの拡散は紀元前1200年以降、 フィジー・西ポリネシア（トンガ・サモア）への到達は紀元前1000年頃、サモアでの終息は約2800年前 （紀元前800年頃）、トンガでの終息は約2000年前（起点の取り方次第で紀元前後にかかる）とされる。 地域ごとの終息年代には数百年単位のずれがあり、単一の終点には還元できない"
+      },
+      "kind": "period-style",
+      "naming": {
+        "self_identified": false,
+        "named_by": null,
+        "named_when": "1952",
+        "original_label": "Lapita",
+        "note": "考古学者エドワード・W・ギフォード（Edward W. Gifford）が1952年、ニューカレドニアの フォエ半島（Foué Peninsula）第13遺跡の発掘中に、現地のカナック人インフォーマントに発掘地の ことを尋ねた際の返答——現地ハヴェケ語（Haveke）で「xapeta'a」（『穴を掘る場所』『穴を掘る こと』の意）——を聞き違えて「Lapita」と転記したのが語源とされる（Wikipedia \"Lapita culture\"、Wiktionary \"Lapita\"の語源欄、いずれも二次情報）。発掘はギフォードと リチャード・シャトラー・ジュニア（Richard Shutler Jr.）による共同調査。この語は紀元前の 担い手自身の呼称ではなく、担い手とは無関係な20世紀のカナック人インフォーマントの発言の 聞き違いに由来する——self_identified を false とした根拠。当事者が非文字社会であり 自称そのものが原理的に記録され得ない点も併せて記す"
+      },
+      "claims": [
+        {
+          "field": "kind",
+          "source": "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300264776",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "originated_in",
+          "source": "http://www.ioa.ucla.edu/talepakemalai",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "time",
+          "source": "https://en.wikipedia.org/wiki/Lapita_culture",
+          "certainty": "scholarly"
+        }
+      ],
+      "space": [
+        {
+          "role": "originated_in",
+          "target": "place/bismarck-archipelago"
+        }
+      ],
+      "relations": [
+        {
+          "type": "diffused_to",
+          "target": "place/tonga",
+          "certainty": "scholarly",
+          "source": "https://en.wikipedia.org/wiki/Lapita_culture"
+        },
+        {
+          "type": "diffused_to",
+          "target": "place/samoa",
+          "certainty": "scholarly",
+          "source": "https://en.wikipedia.org/wiki/Lapita_culture"
+        }
+      ],
+      "images": [
+        {
+          "url": "https://images.metmuseum.org/CRDImages/ao/original/vs1980_153_2.jpg",
+          "source_page": "https://www.metmuseum.org/art/collection/search/314215",
+          "license": "cc0",
+          "note": "《土器片の型取り（プラスター・キャスト）》原資料は紀元前1200〜1100年頃、ラピタ文化、 ソロモン諸島サンタクルス諸島出土（Metropolitan Museum of Art, Rogers Fund, 1980, Open Access）。1980年に収蔵された20世紀半ば制作の石膏複製で、実物の土器片そのものでは ない。同館のタグに\"Faces\"（顔面意匠）が付されており、後述する擬人的な顔文様の一例と 見られる"
+        },
+        {
+          "url": "https://images.metmuseum.org/CRDImages/ao/original/vs1980_153_3.jpg",
+          "source_page": "https://www.metmuseum.org/art/collection/search/314216",
+          "license": "cc0",
+          "note": "《皿の型取り（プラスター・キャスト）》同じくソロモン諸島サンタクルス諸島出土、 紀元前1200〜1100年頃の原資料の石膏複製（同館蔵、Open Access）。器形が分かる例"
+        },
+        {
+          "url": "https://images.metmuseum.org/CRDImages/ao/original/1980.153.1.JPG",
+          "source_page": "https://www.metmuseum.org/art/collection/search/314214",
+          "license": "cc0",
+          "note": "《鳥頭部の型取り（プラスター・キャスト）》同じくサンタクルス諸島出土、紀元前1200〜 1100年頃の原資料の石膏複製（同館蔵、Open Access）。幾何学文様だけでなく動物形の意匠も あることを示す例"
+        }
+      ],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q1021436",
+        "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300264776",
+        "https://en.wikipedia.org/wiki/Lapita_culture",
+        "http://www.ioa.ucla.edu/talepakemalai",
+        "https://en.wiktionary.org/wiki/Lapita",
+        "https://human.libretexts.org/Bookshelves/Art/SmartHistory/10:_Oceania/10.01:_Terracotta_fragments_Lapita_people",
+        "https://www.metmuseum.org/art/collection/search/314215",
+        "https://www.metmuseum.org/art/collection/search/314216",
+        "https://www.metmuseum.org/art/collection/search/314214"
+      ],
+      "status": "draft",
+      "updated": "2026-08-10",
+      "path": "entities/movements/lapita-pottery.md"
     },
     "movement/lingnan-school": {
       "id": "movement/lingnan-school",
@@ -5341,6 +5944,164 @@
       "status": "draft",
       "updated": "2026-08-10",
       "path": "entities/movements/literati-painting.md"
+    },
+    "movement/makonde-carving": {
+      "id": "movement/makonde-carving",
+      "uri": "urn:ahn:movement/makonde-carving",
+      "type": "movement",
+      "label_ja": "マコンデ彫刻",
+      "label_en": "Makonde carving",
+      "authority": {
+        "wikidata": "Q17109576",
+        "aat": "300016528",
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": null,
+        "end": "..",
+        "display": "伝統的な彫刻（仮面マピコ等）の起源は伝承としても特定できない（植民地接触以前）。1920年代半ば、モザンビーク側でエボニー（アフリカン・ブラックウッド／ムピンゴ）への転換が起き、1950年代（Kingdon(2002)は1959年とする——**未確認**、他の二次資料は「1950年代初頭」）にダルエスサラームでシェタニ様式が展開。現在まで彫刻家の活動は続く"
+      },
+      "kind": "retrospective",
+      "naming": {
+        "self_identified": false,
+        "named_by": null,
+        "named_when": null,
+        "original_label": "Sanaa ya Wamakonde",
+        "note": "「マコンデ彫刻／マコンデ美術」という括り自体は、担い手（マコンデの彫刻家）が自ら名乗った運動名ではなく、美術史・キュレーション・土産物市場の側が後から与えた分類名と見られる。個々の様式名（シェタニ＝スワヒリ語で『精霊』、ウジャマー＝スワヒリ語で『家族的な結びつき』）は担い手自身が使う語彙に由来するが、それらを束ねて『マコンデ彫刻（Makonde art/carving）』という単一の括りとして学術的に定式化したのはシェア=ボス『Modern Makonde: Discovery in East African Art』（1969年、学術誌African Arts掲載）やキングドン『A Host of Devils』（2002年、学術書）など外部の研究者である。スワヒリ語版Wikipediaの項目名『Sanaa ya Wamakonde（マコンデの人々の美術）』を原語表記として残す。命名者個人・命名年は未確認"
+      },
+      "claims": [
+        {
+          "field": "kind",
+          "source": "https://journals.openedition.org/etudesafricaines/4878",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "originated_in",
+          "source": "https://en.wikipedia.org/wiki/Makonde_people",
+          "certainty": "scholarly"
+        }
+      ],
+      "founding_control": "shared",
+      "space": [
+        {
+          "role": "originated_in",
+          "target": "place/mueda"
+        },
+        {
+          "role": "active_in",
+          "target": "place/dar-es-salaam"
+        }
+      ],
+      "relations": [
+        {
+          "type": "patronized_by",
+          "target": "person/mohamed-peera",
+          "certainty": "scholarly",
+          "source": "https://journals.openedition.org/etudesafricaines/4878"
+        }
+      ],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q17109576",
+        "http://vocab.getty.edu/aat/300016528",
+        "https://en.wikipedia.org/wiki/Makonde_art",
+        "https://en.wikipedia.org/wiki/Makonde_people",
+        "https://en.wikipedia.org/wiki/Shetani",
+        "https://www.blackwoodconservation.org/makonde-art/",
+        "https://the-short-century.eaman.org/unit_titles/modern-art-in-tanzania/",
+        "https://journals.openedition.org/etudesafricaines/4878"
+      ],
+      "status": "draft",
+      "updated": "2026-08-10",
+      "path": "entities/movements/makonde-carving.md"
+    },
+    "movement/mandalay-style": {
+      "id": "movement/mandalay-style",
+      "uri": "urn:ahn:movement/mandalay-style",
+      "type": "movement",
+      "kind": "period-style",
+      "label_ja": "マンダレー様式",
+      "label_en": "Mandalay style",
+      "authority": {
+        "wikidata": null,
+        "aat": "300107052",
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": "1857",
+        "end": "..",
+        "display": "1857年（コンバウン朝ミンドン王によるマンダレー建都）〜1885年（コンバウン朝滅亡・英領化）が王朝としての枠。様式としての生産はそれ以降も続いたと複数の二次資料（骨董・美術商系）が記す（本文「時間」参照）"
+      },
+      "naming": {
+        "self_identified": false,
+        "named_by": null,
+        "named_when": null,
+        "original_label": "Mandalay style",
+        "note": "「マンダレー」は仏教美術の担い手・当事者が名乗った名ではなく、王都の地名をそのまま借用した後代の美術史・古美術市場の分類名。この様式を指すビルマ語の独自の学術用語（例えばラッタナコーシン様式壁画における「ศิลปะสมัยรัตนโกสินทร์」に相当するもの）は今回の調査では確認できず、**未確認**とした。命名者・命名時期も未確認"
+      },
+      "claims": [
+        {
+          "field": "time",
+          "source": "https://www.getty.edu/vow/AATFullDisplay?find=Mandalay&logic=AND&note=&subjectid=300107052",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "originated_in",
+          "source": "https://en.wikipedia.org/wiki/Mandalay",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "kind",
+          "source": "https://www.getty.edu/vow/AATFullDisplay?find=Mandalay&logic=AND&note=&subjectid=300107052",
+          "certainty": "scholarly"
+        }
+      ],
+      "founding_control": "internal",
+      "space": [
+        {
+          "role": "originated_in",
+          "target": "place/mandalay"
+        }
+      ],
+      "relations": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q1062422",
+        "https://www.wikidata.org/wiki/Q185518",
+        "https://www.wikidata.org/wiki/Q574358",
+        "https://www.wikidata.org/wiki/Q470986",
+        "https://www.wikidata.org/wiki/Q2500952",
+        "https://www.wikidata.org/wiki/Q454949",
+        "https://www.getty.edu/vow/AATFullDisplay?find=Mandalay&logic=AND&note=&subjectid=300107052",
+        "https://en.wikipedia.org/wiki/Mandalay",
+        "https://en.wikipedia.org/wiki/Konbaung_dynasty",
+        "https://www.hdasianart.com/blogs/news/how-to-identify-burmese-buddha-statue-styles-ava-shan-mandalay",
+        "https://www.originalbuddhas.com/about-buddha-statues/styles-periods/mandalay-period-buddha-statues",
+        "https://www.originalbuddhas.com/about-buddha-statues/styles-periods/ava-period-buddha-statues",
+        "https://factsanddetails.com/southeast-asia/Myanmar/sub5_5e/entry-3086.html",
+        "https://www.metmuseum.org/art/collection/search/856163",
+        "https://www.metmuseum.org/art/collection/search/744940",
+        "https://collections.vam.ac.uk/item/O49192/standing-figure-of"
+      ],
+      "images": [
+        {
+          "url": "https://images.metmuseum.org/CRDImages/as/original/DP-28256-004_crd.jpg",
+          "source_page": "https://www.metmuseum.org/art/collection/search/856163",
+          "license": "cc0",
+          "note": "《仏陀の生涯の場面》（Scenes from Life of the Buddha）、ミンドン王またはティーボー王の宮廷制作、ビルマ（マンダレー）、1880年代。折本装のパラベイク（parabaik）、桑皮紙に水彩・墨・金。メトロポリタン美術館蔵（isPublicDomain: true）"
+        },
+        {
+          "url": "https://images.metmuseum.org/CRDImages/as/original/DP-14374-040.jpg",
+          "source_page": "https://www.metmuseum.org/art/collection/search/744940",
+          "license": "cc0",
+          "note": "《王室の行列・儀礼・娯楽の場面》（Royal processions, ceremonies and entertainments）、ミンドン王またはティーボー王の宮廷（あるいは関連工房）制作、ビルマ、1870〜80年代。桑皮紙に水彩・金、金塗り漆塗り木製表紙。メトロポリタン美術館蔵（isPublicDomain: true）"
+        }
+      ],
+      "status": "draft",
+      "updated": "2026-08-10",
+      "path": "entities/movements/mandalay-style.md"
     },
     "movement/mannerism": {
       "id": "movement/mannerism",
@@ -6792,6 +7553,85 @@
       "status": "draft",
       "updated": "2026-08-13",
       "path": "entities/movements/nok-sculpture.md"
+    },
+    "movement/northwest-coast-carving": {
+      "id": "movement/northwest-coast-carving",
+      "uri": "urn:ahn:movement/northwest-coast-carving",
+      "type": "movement",
+      "kind": "retrospective",
+      "label_ja": "北西海岸先住民の彫刻",
+      "label_en": "Northwest Coast carving",
+      "authority": {
+        "wikidata": "Q7059995",
+        "aat": "300017594",
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": null,
+        "end": "..",
+        "display": "起源は特定できない（現存する木彫の物証が乏しく、開始点を示す一次資料に本調査では 到達していない）。ヨーロッパ人との接触は18世紀末に始まり、1885〜1951年のカナダ・ポトラッチ 禁止法（米国側にも同種の抑圧があった）による断絶を経て、1950年代以降にビル・リード、 ロバート・デヴィッドソンらを担い手として復興し、現在も継続する"
+      },
+      "naming": {
+        "self_identified": false,
+        "named_by": null,
+        "named_when": null,
+        "original_label": "Northwest Coast art",
+        "note": "「Northwest Coast」はこの海岸に住む個々の民族（ハイダ・トリンギット・ツィムシアン・ クワクワカワクゥほか）が自称する語ではなく、外部の民族学者・美術史家がこの海岸沿いの 文化圏を指すために用いてきた地理的な括り。Wikidata Q7059995は「art style associated with the indigenous peoples of the northwest coast of North America」と記述し、Getty AATは 「Northwest Coast Native American」を『様式・時代・文化』階層の下に置く——いずれも当事者の 自称ではなく分析上のカテゴリとして扱っている。当事者は自分の民族名（トリンギット・ハイダ等） で自らの制作を語り、「北西海岸」を集合的な自称として用いる証拠は本調査では見出せなかった。 様式分析の技術語「フォームライン（formline）」はさらに後年、美術史家ビル・ホルムが1965年の 著書『Northwest Coast Indian Art: An Analysis of Form』で導入した分析概念であり （Wikipedia \"Formline art\"）、これも当事者由来ではない。self_identified を false とした 根拠はこの二重の外部性——地理的な括りの命名も、様式分析の語彙も、外部の研究者に由来する——による"
+      },
+      "claims": [
+        {
+          "field": "kind",
+          "source": "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300017594",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "originated_in",
+          "source": "https://www.ebsco.com/research-starters/social-sciences-and-humanities/northwest-coast-cultural-area-native-american",
+          "certainty": "scholarly"
+        }
+      ],
+      "space": [
+        {
+          "role": "originated_in",
+          "target": "place/pacific-northwest-coast"
+        }
+      ],
+      "relations": [],
+      "images": [
+        {
+          "url": "https://openaccess-cdn.clevelandart.org/1989.89/1989.89_web.jpg",
+          "source_page": "https://clevelandart.org/art/1989.89",
+          "license": "cc0",
+          "note": "《トーテムポール（小型模型）》c. 1880年、トリンギット、彩色木彫（Cleveland Museum of Art、 CC0）。クリーブランド美術館の解説によれば、このポールはコホサケ氏族（レイヴン部族）に属する トリンギットの語り部が所有していたもので、室内保管のため彩色が良好に残る"
+        },
+        {
+          "url": "https://openaccess-cdn.clevelandart.org/1921.1577/1921.1577_web.jpg",
+          "source_page": "https://clevelandart.org/art/1921.1577",
+          "license": "cc0",
+          "note": "《レイヴン・ラトル》19世紀末〜20世紀初頭、ハイダ、木・顔料（Cleveland Museum of Art、 CC0）。ワタリガラスの背に人物像を乗せた形式のガラガラで、シャーマンの儀礼具として始まり、 冬季儀礼で首長も用いたとされる"
+        }
+      ],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q7059995",
+        "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300017594",
+        "https://en.wikipedia.org/wiki/Northwest_Coast_art",
+        "https://en.wikipedia.org/wiki/Formline_art",
+        "https://en.wikipedia.org/wiki/Indigenous_peoples_of_the_Pacific_Northwest_Coast",
+        "https://en.wikipedia.org/wiki/Potlatch_ban",
+        "https://en.wikipedia.org/wiki/Bill_Reid",
+        "https://en.wikipedia.org/wiki/Robert_Davidson_(artist)",
+        "https://www.ebsco.com/research-starters/social-sciences-and-humanities/northwest-coast-cultural-area-native-american",
+        "https://www.ebsco.com/research-starters/social-sciences-and-humanities/totem-poles",
+        "https://content.lib.washington.edu/aipnw/wright.html",
+        "https://open.library.ubc.ca/cIRcle/collections/ubctheses/831/items/1.0089510",
+        "https://clevelandart.org/art/1989.89",
+        "https://clevelandart.org/art/1921.1577"
+      ],
+      "status": "draft",
+      "updated": "2026-08-10",
+      "path": "entities/movements/northwest-coast-carving.md"
     },
     "movement/novgorod-school-icon-painting": {
       "id": "movement/novgorod-school-icon-painting",
@@ -15917,6 +16757,34 @@
       "updated": "2026-08-13",
       "path": "entities/persons/ezio-ceccarelli.md"
     },
+    "person/f-n-souza": {
+      "id": "person/f-n-souza",
+      "uri": "urn:ahn:person/f-n-souza",
+      "type": "person",
+      "label_ja": "F.N. スーザ",
+      "label_en": "Francis Newton Souza",
+      "authority": {
+        "wikidata": "Q5482041",
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": "1924-04-12",
+        "end": "2002-03-28",
+        "display": "1924年4月12日 – 2002年3月28日"
+      },
+      "space": [],
+      "relations": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q5482041",
+        "https://web.archive.org/web/20131214145023/http://www.artnewsnviews.com/view-article.php?article=progressive-artists-group-of-bombay-an-overview&iid=29&articleid=800"
+      ],
+      "status": "stub",
+      "updated": "2026-08-10",
+      "path": "entities/persons/f-n-souza.md"
+    },
     "person/fausto-zonaro": {
       "id": "person/fausto-zonaro",
       "uri": "urn:ahn:person/fausto-zonaro",
@@ -21262,6 +22130,37 @@
       "updated": "2026-08-12",
       "path": "entities/persons/millo-bortoluzzi.md"
     },
+    "person/mohamed-peera": {
+      "id": "person/mohamed-peera",
+      "uri": "urn:ahn:person/mohamed-peera",
+      "type": "person",
+      "label_ja": "モハメド・ペエラ",
+      "label_en": "Mohamed Peera",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "Wikidataで「Mohamed Peera」「Mohammed Peera」を検索したが該当する項目が見つからなかった"
+      },
+      "time": {
+        "start": null,
+        "end": null,
+        "display": null
+      },
+      "space": [],
+      "relations": [],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Shetani",
+        "https://en.wikipedia.org/wiki/Makonde_art",
+        "https://www.blackwoodconservation.org/makonde-art/",
+        "https://the-short-century.eaman.org/unit_titles/modern-art-in-tanzania/",
+        "https://journals.openedition.org/etudesafricaines/4878"
+      ],
+      "status": "stub",
+      "updated": "2026-08-10",
+      "path": "entities/persons/mohamed-peera.md"
+    },
     "person/mose-bianchi-mairago": {
       "id": "person/mose-bianchi-mairago",
       "uri": "urn:ahn:person/mose-bianchi-mairago",
@@ -24972,6 +25871,39 @@
       "updated": "2026-08-10",
       "path": "entities/places/bijapur.md"
     },
+    "place/bismarck-archipelago": {
+      "id": "place/bismarck-archipelago",
+      "uri": "urn:ahn:place/bismarck-archipelago",
+      "type": "place",
+      "label_ja": "ビスマルク諸島",
+      "label_en": "Bismarck Archipelago",
+      "authority": {
+        "wikidata": "Q154628",
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": null,
+        "end": null,
+        "display": null
+      },
+      "region": "oceania",
+      "coordinates": [
+        -5,
+        150.1
+      ],
+      "space": [],
+      "relations": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q154628",
+        "http://www.ioa.ucla.edu/talepakemalai"
+      ],
+      "status": "stub",
+      "updated": "2026-08-10",
+      "path": "entities/places/bismarck-archipelago.md"
+    },
     "place/brazzaville": {
       "id": "place/brazzaville",
       "uri": "urn:ahn:place/brazzaville",
@@ -25197,6 +26129,38 @@
       "updated": "2026-08-09",
       "path": "entities/places/dakar.md"
     },
+    "place/dar-es-salaam": {
+      "id": "place/dar-es-salaam",
+      "uri": "urn:ahn:place/dar-es-salaam",
+      "type": "place",
+      "label_ja": "ダルエスサラーム",
+      "label_en": "Dar es Salaam",
+      "authority": {
+        "wikidata": "Q1960",
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": null,
+        "end": null,
+        "display": null
+      },
+      "region": "africa-sub",
+      "coordinates": [
+        -6.816111,
+        39.280278
+      ],
+      "space": [],
+      "relations": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q1960"
+      ],
+      "status": "stub",
+      "updated": "2026-08-10",
+      "path": "entities/places/dar-es-salaam.md"
+    },
     "place/dessau": {
       "id": "place/dessau",
       "uri": "urn:ahn:place/dessau",
@@ -25235,6 +26199,39 @@
       "status": "stub",
       "updated": "2026-08-11",
       "path": "entities/places/dessau.md"
+    },
+    "place/dong-ho-village": {
+      "id": "place/dong-ho-village",
+      "uri": "urn:ahn:place/dong-ho-village",
+      "type": "place",
+      "label_ja": "ドンホー村",
+      "label_en": "Đông Hồ",
+      "authority": {
+        "wikidata": "Q8079936",
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": null,
+        "end": null,
+        "display": null
+      },
+      "region": "asia-southeast",
+      "coordinates": [
+        21.0656558,
+        106.0768977
+      ],
+      "space": [],
+      "relations": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q8079936",
+        "https://nominatim.openstreetmap.org/search?q=%C4%90%C3%B4ng+H%E1%BB%93%2C+Thu%E1%BA%ADn+Th%C3%A0nh%2C+B%E1%BA%AFc+Ninh%2C+Vietnam&format=json"
+      ],
+      "status": "stub",
+      "updated": "2026-08-10",
+      "path": "entities/places/dong-ho-village.md"
     },
     "place/dresden": {
       "id": "place/dresden",
@@ -25366,6 +26363,39 @@
       "status": "stub",
       "updated": "2026-08-09",
       "path": "entities/places/gondar.md"
+    },
+    "place/gongkar-chode-monastery": {
+      "id": "place/gongkar-chode-monastery",
+      "uri": "urn:ahn:place/gongkar-chode-monastery",
+      "type": "place",
+      "label_ja": "ゴンカル・チョデ僧院",
+      "label_en": "Gongkar Chöde Monastery",
+      "authority": {
+        "wikidata": "Q1253613",
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": "1447",
+        "end": null,
+        "display": "Wikidata P571は1447年建立（precision 9・年単位）とするが、Rubin Museum Project Himalayan Artの論考は1464年にクンガ・ナムゲル（1432–1496年）が建立したと記す。両者は17年の幅で食い違い、今回当たった出典の範囲では解消できない"
+      },
+      "region": "asia-central",
+      "coordinates": [
+        29.267824,
+        90.812828
+      ],
+      "space": [],
+      "relations": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q1253613",
+        "https://rubinmuseum.org/projecthimalayanart/essays/murals-of-gongkar-chode/"
+      ],
+      "status": "stub",
+      "updated": "2026-08-10",
+      "path": "entities/places/gongkar-chode-monastery.md"
     },
     "place/guangzhou": {
       "id": "place/guangzhou",
@@ -25726,6 +26756,39 @@
       "updated": "2026-08-10",
       "path": "entities/places/kaifeng.md"
     },
+    "place/kamasan": {
+      "id": "place/kamasan",
+      "uri": "urn:ahn:place/kamasan",
+      "type": "place",
+      "label_ja": "カマサン",
+      "label_en": "Kamasan",
+      "authority": {
+        "wikidata": "Q6356113",
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": null,
+        "end": null,
+        "display": null
+      },
+      "region": "asia-southeast",
+      "coordinates": [
+        -8.5475023,
+        115.4059567
+      ],
+      "space": [],
+      "relations": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q6356113",
+        "https://en.wikipedia.org/wiki/Kamasan"
+      ],
+      "status": "stub",
+      "updated": "2026-08-10",
+      "path": "entities/places/kamasan.md"
+    },
     "place/kangra": {
       "id": "place/kangra",
       "uri": "urn:ahn:place/kangra",
@@ -25983,6 +27046,39 @@
       "updated": "2026-08-12",
       "path": "entities/places/london.md"
     },
+    "place/mandalay": {
+      "id": "place/mandalay",
+      "uri": "urn:ahn:place/mandalay",
+      "type": "place",
+      "label_ja": "マンダレー",
+      "label_en": "Mandalay",
+      "authority": {
+        "wikidata": "Q185518",
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": "1857",
+        "end": null,
+        "display": "1857年（コンバウン朝ミンドン王による建都）〜1885年（英緬戦争でイギリスに占領されるまで王都）"
+      },
+      "region": "asia-southeast",
+      "coordinates": [
+        21.983056,
+        96.084444
+      ],
+      "space": [],
+      "relations": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q185518",
+        "https://en.wikipedia.org/wiki/Mandalay"
+      ],
+      "status": "stub",
+      "updated": "2026-08-10",
+      "path": "entities/places/mandalay.md"
+    },
     "place/manila": {
       "id": "place/manila",
       "uri": "urn:ahn:place/manila",
@@ -26111,6 +27207,77 @@
       "updated": "2026-08-11",
       "path": "entities/places/moscow.md"
     },
+    "place/mueda": {
+      "id": "place/mueda",
+      "uri": "urn:ahn:place/mueda",
+      "type": "place",
+      "label_ja": "ムエダ",
+      "label_en": "Mueda",
+      "authority": {
+        "wikidata": "Q1807961",
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": null,
+        "end": null,
+        "display": null
+      },
+      "region": "africa-sub",
+      "coordinates": [
+        -11.633333,
+        39.616667
+      ],
+      "space": [],
+      "relations": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q1807961"
+      ],
+      "status": "stub",
+      "updated": "2026-08-10",
+      "path": "entities/places/mueda.md"
+    },
+    "place/mumbai": {
+      "id": "place/mumbai",
+      "uri": "urn:ahn:place/mumbai",
+      "type": "place",
+      "label_ja": "ムンバイ",
+      "label_en": "Mumbai",
+      "authority": {
+        "wikidata": "Q1156",
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": null,
+        "end": null,
+        "display": null
+      },
+      "region": "asia-south",
+      "coordinates": [
+        19.075833,
+        72.8775
+      ],
+      "former_names": [
+        {
+          "name": "ボンベイ（Bombay）",
+          "until": "1995"
+        }
+      ],
+      "space": [],
+      "relations": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q1156",
+        "https://en.wikipedia.org/wiki/Mumbai"
+      ],
+      "status": "stub",
+      "updated": "2026-08-10",
+      "path": "entities/places/mumbai.md"
+    },
     "place/murshidabad": {
       "id": "place/murshidabad",
       "uri": "urn:ahn:place/murshidabad",
@@ -26142,6 +27309,38 @@
       "status": "stub",
       "updated": "2026-08-09",
       "path": "entities/places/murshidabad.md"
+    },
+    "place/nanjing": {
+      "id": "place/nanjing",
+      "uri": "urn:ahn:place/nanjing",
+      "type": "place",
+      "label_ja": "南京",
+      "label_en": "Nanjing",
+      "authority": {
+        "wikidata": "Q16666",
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": null,
+        "end": null,
+        "display": null
+      },
+      "region": "asia-east-china",
+      "coordinates": [
+        32.060833333333335,
+        118.77888888888889
+      ],
+      "space": [],
+      "relations": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q16666"
+      ],
+      "status": "stub",
+      "updated": "2026-08-10",
+      "path": "entities/places/nanjing.md"
     },
     "place/netherlands": {
       "id": "place/netherlands",
@@ -26272,6 +27471,74 @@
       "updated": "2026-08-10",
       "path": "entities/places/nok.md"
     },
+    "place/pacific-northwest-coast": {
+      "id": "place/pacific-northwest-coast",
+      "uri": "urn:ahn:place/pacific-northwest-coast",
+      "type": "place",
+      "label_ja": "北西海岸地域",
+      "label_en": "Northwest Coast",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "Wikidataで「Northwest Coast」を検索。「indigenous peoples of the Pacific Northwest Coast」（Q210561）は人々の集団を指す項目でplace型ではない。「Pacific Northwest」（Q210561とは別のQ12603、\"region of western North America\"）は座標を持つ地理的領域項目だが、内陸（コロンビア川峡谷付近、北緯45.83度・西経120.32度）を中心とするより広い地域を指し、この movement が対象とする海岸沿いの文化圏（ヤクタット湾からメンドシノ岬までの狭い沿岸帯）とは範囲が一致しない。適合する place 項目が見つからなかったため、下記の方法で座標を自前で算出した"
+      },
+      "time": {
+        "start": null,
+        "end": null,
+        "display": null
+      },
+      "region": "americas-north",
+      "coordinates": [
+        50.0859,
+        -132.124
+      ],
+      "space": [],
+      "relations": [],
+      "sources": [
+        "https://www.ebsco.com/research-starters/social-sciences-and-humanities/northwest-coast-cultural-area-native-american",
+        "https://www.wikidata.org/wiki/Q1476323",
+        "https://www.wikidata.org/wiki/Q780339",
+        "https://en.wikipedia.org/wiki/Indigenous_peoples_of_the_Pacific_Northwest_Coast"
+      ],
+      "status": "stub",
+      "updated": "2026-08-10",
+      "path": "entities/places/pacific-northwest-coast.md"
+    },
+    "place/palpung-monastery": {
+      "id": "place/palpung-monastery",
+      "uri": "urn:ahn:place/palpung-monastery",
+      "type": "place",
+      "label_ja": "パルプン僧院",
+      "label_en": "Palpung Monastery",
+      "authority": {
+        "wikidata": "Q2068342",
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "region": "asia-central",
+      "coordinates": [
+        31.64832,
+        98.79603
+      ],
+      "time": {
+        "start": "1727",
+        "end": null,
+        "display": "1727年創建"
+      },
+      "space": [],
+      "relations": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q2068342",
+        "https://www.himalayanart.org/search/set.cfm?setID=248"
+      ],
+      "status": "stub",
+      "updated": "2026-08-10",
+      "path": "entities/places/palpung-monastery.md"
+    },
     "place/papunya": {
       "id": "place/papunya",
       "uri": "urn:ahn:place/papunya",
@@ -26335,6 +27602,38 @@
       "status": "stub",
       "updated": "2026-08-08",
       "path": "entities/places/paris.md"
+    },
+    "place/patan": {
+      "id": "place/patan",
+      "uri": "urn:ahn:place/patan",
+      "type": "place",
+      "label_ja": "パタン",
+      "label_en": "Patan",
+      "authority": {
+        "wikidata": "Q579702",
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": null,
+        "end": null,
+        "display": null
+      },
+      "region": "asia-south",
+      "coordinates": [
+        23.85,
+        72.117
+      ],
+      "space": [],
+      "relations": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q579702"
+      ],
+      "status": "stub",
+      "updated": "2026-08-10",
+      "path": "entities/places/patan.md"
     },
     "place/quito": {
       "id": "place/quito",
@@ -26465,6 +27764,38 @@
       "status": "stub",
       "updated": "2026-08-09",
       "path": "entities/places/saint-petersburg.md"
+    },
+    "place/samoa": {
+      "id": "place/samoa",
+      "uri": "urn:ahn:place/samoa",
+      "type": "place",
+      "label_ja": "サモア",
+      "label_en": "Samoa",
+      "authority": {
+        "wikidata": "Q683",
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": null,
+        "end": null,
+        "display": null
+      },
+      "region": "oceania",
+      "coordinates": [
+        -13.745,
+        -172.2175
+      ],
+      "space": [],
+      "relations": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q683"
+      ],
+      "status": "stub",
+      "updated": "2026-08-10",
+      "path": "entities/places/samoa.md"
     },
     "place/sao-paulo": {
       "id": "place/sao-paulo",
@@ -26923,6 +28254,38 @@
       "updated": "2026-08-09",
       "path": "entities/places/tokyo.md"
     },
+    "place/tonga": {
+      "id": "place/tonga",
+      "uri": "urn:ahn:place/tonga",
+      "type": "place",
+      "label_ja": "トンガ",
+      "label_en": "Tonga",
+      "authority": {
+        "wikidata": "Q678",
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": null,
+        "end": null,
+        "display": null
+      },
+      "region": "oceania",
+      "coordinates": [
+        -20.587778,
+        -174.810278
+      ],
+      "space": [],
+      "relations": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q678"
+      ],
+      "status": "stub",
+      "updated": "2026-08-10",
+      "path": "entities/places/tonga.md"
+    },
     "place/toronto": {
       "id": "place/toronto",
       "uri": "urn:ahn:place/toronto",
@@ -26986,6 +28349,39 @@
       "status": "stub",
       "updated": "2026-08-09",
       "path": "entities/places/tovkhon-monastery.md"
+    },
+    "place/tsurphu-monastery": {
+      "id": "place/tsurphu-monastery",
+      "uri": "urn:ahn:place/tsurphu-monastery",
+      "type": "place",
+      "label_ja": "ツルプ僧院",
+      "label_en": "Tsurphu Monastery",
+      "authority": {
+        "wikidata": "Q927302",
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "region": "asia-central",
+      "coordinates": [
+        29.72639,
+        90.57556
+      ],
+      "time": {
+        "start": null,
+        "end": null,
+        "display": null
+      },
+      "space": [],
+      "relations": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q927302",
+        "https://rubinmuseum.org/projecthimalayanart/essays/portrait-of-the-ninth-karmapa/"
+      ],
+      "status": "stub",
+      "updated": "2026-08-10",
+      "path": "entities/places/tsurphu-monastery.md"
     },
     "place/tunis": {
       "id": "place/tunis",
@@ -57120,6 +58516,39 @@
       "to": "place/benin-city"
     },
     {
+      "from": "movement/bombay-progressive-artists-group",
+      "type": "created_by",
+      "to": "person/f-n-souza",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "movement/bombay-progressive-artists-group",
+      "type": "reacts_against",
+      "to": "movement/bengal-school",
+      "certainty": "scholarly",
+      "source": "https://web.archive.org/web/20131214145023/http://www.artnewsnviews.com/view-article.php?article=progressive-artists-group-of-bombay-an-overview&iid=29&articleid=800"
+    },
+    {
+      "from": "movement/bombay-progressive-artists-group",
+      "type": "influenced_by",
+      "to": "movement/cubism",
+      "certainty": "scholarly",
+      "source": "https://en.wikipedia.org/wiki/Bombay_Progressive_Artists%27_Group"
+    },
+    {
+      "from": "movement/bombay-progressive-artists-group",
+      "type": "influenced_by",
+      "to": "movement/post-impressionism",
+      "certainty": "scholarly",
+      "source": "https://en.wikipedia.org/wiki/Bombay_Progressive_Artists%27_Group"
+    },
+    {
+      "from": "movement/bombay-progressive-artists-group",
+      "type": "originated_in",
+      "to": "place/mumbai"
+    },
+    {
       "from": "movement/byzantine-art",
       "type": "originated_in",
       "to": "place/istanbul"
@@ -57298,6 +58727,11 @@
       "from": "movement/deccan-painting",
       "type": "active_in",
       "to": "place/golconda"
+    },
+    {
+      "from": "movement/dong-ho-painting",
+      "type": "originated_in",
+      "to": "place/dong-ho-village"
     },
     {
       "from": "movement/ecole-de-dakar",
@@ -57748,6 +59182,11 @@
       "to": "place/milan"
     },
     {
+      "from": "movement/jain-manuscript-painting",
+      "type": "originated_in",
+      "to": "place/patan"
+    },
+    {
       "from": "movement/jingyeong-sansuhwa",
       "type": "influenced_by",
       "to": "movement/wu-school",
@@ -57758,6 +59197,11 @@
       "from": "movement/jingyeong-sansuhwa",
       "type": "originated_in",
       "to": "place/hanseong"
+    },
+    {
+      "from": "movement/jinling-eight-masters",
+      "type": "originated_in",
+      "to": "place/nanjing"
     },
     {
       "from": "movement/joseon-genre-painting",
@@ -57777,6 +59221,11 @@
       "from": "movement/joseon-genre-painting",
       "type": "originated_in",
       "to": "place/hanseong"
+    },
+    {
+      "from": "movement/kamasan-painting",
+      "type": "originated_in",
+      "to": "place/kamasan"
     },
     {
       "from": "movement/kanga",
@@ -57853,9 +59302,50 @@
       "to": "place/tokyo"
     },
     {
+      "from": "movement/karma-gardri",
+      "type": "derives_from",
+      "to": "movement/menri-school",
+      "certainty": "scholarly",
+      "source": "https://rubinmuseum.org/projecthimalayanart/essays/portrait-of-the-ninth-karmapa/"
+    },
+    {
+      "from": "movement/karma-gardri",
+      "type": "originated_in",
+      "to": "place/tsurphu-monastery"
+    },
+    {
+      "from": "movement/karma-gardri",
+      "type": "active_in",
+      "to": "place/palpung-monastery"
+    },
+    {
+      "from": "movement/khyenri-school",
+      "type": "originated_in",
+      "to": "place/gongkar-chode-monastery"
+    },
+    {
       "from": "movement/kowhaiwhai",
       "type": "originated_in",
       "to": "place/new-zealand"
+    },
+    {
+      "from": "movement/lapita-pottery",
+      "type": "diffused_to",
+      "to": "place/tonga",
+      "certainty": "scholarly",
+      "source": "https://en.wikipedia.org/wiki/Lapita_culture"
+    },
+    {
+      "from": "movement/lapita-pottery",
+      "type": "diffused_to",
+      "to": "place/samoa",
+      "certainty": "scholarly",
+      "source": "https://en.wikipedia.org/wiki/Lapita_culture"
+    },
+    {
+      "from": "movement/lapita-pottery",
+      "type": "originated_in",
+      "to": "place/bismarck-archipelago"
     },
     {
       "from": "movement/lingnan-school",
@@ -57873,6 +59363,28 @@
       "from": "movement/lingnan-school",
       "type": "active_in",
       "to": "place/tokyo"
+    },
+    {
+      "from": "movement/makonde-carving",
+      "type": "patronized_by",
+      "to": "person/mohamed-peera",
+      "certainty": "scholarly",
+      "source": "https://journals.openedition.org/etudesafricaines/4878"
+    },
+    {
+      "from": "movement/makonde-carving",
+      "type": "originated_in",
+      "to": "place/mueda"
+    },
+    {
+      "from": "movement/makonde-carving",
+      "type": "active_in",
+      "to": "place/dar-es-salaam"
+    },
+    {
+      "from": "movement/mandalay-style",
+      "type": "originated_in",
+      "to": "place/mandalay"
     },
     {
       "from": "movement/mannerism",
@@ -58230,6 +59742,11 @@
       "from": "movement/nok-sculpture",
       "type": "originated_in",
       "to": "place/nok"
+    },
+    {
+      "from": "movement/northwest-coast-carving",
+      "type": "originated_in",
+      "to": "place/pacific-northwest-coast"
     },
     {
       "from": "movement/novgorod-school-icon-painting",
@@ -73526,6 +75043,30 @@
       "derived": true
     },
     {
+      "from": "person/f-n-souza",
+      "type": "created",
+      "to": "movement/bombay-progressive-artists-group",
+      "derived": true
+    },
+    {
+      "from": "movement/bengal-school",
+      "type": "reacted_against_by",
+      "to": "movement/bombay-progressive-artists-group",
+      "derived": true
+    },
+    {
+      "from": "movement/cubism",
+      "type": "influenced",
+      "to": "movement/bombay-progressive-artists-group",
+      "derived": true
+    },
+    {
+      "from": "movement/post-impressionism",
+      "type": "influenced",
+      "to": "movement/bombay-progressive-artists-group",
+      "derived": true
+    },
+    {
       "from": "movement/mughal-painting",
       "type": "derived_into",
       "to": "movement/company-painting",
@@ -73970,9 +75511,33 @@
       "derived": true
     },
     {
+      "from": "movement/menri-school",
+      "type": "derived_into",
+      "to": "movement/karma-gardri",
+      "derived": true
+    },
+    {
+      "from": "place/tonga",
+      "type": "received",
+      "to": "movement/lapita-pottery",
+      "derived": true
+    },
+    {
+      "from": "place/samoa",
+      "type": "received",
+      "to": "movement/lapita-pottery",
+      "derived": true
+    },
+    {
       "from": "movement/nihonga",
       "type": "influenced",
       "to": "movement/lingnan-school",
+      "derived": true
+    },
+    {
+      "from": "person/mohamed-peera",
+      "type": "patronized",
+      "to": "movement/makonde-carving",
       "derived": true
     },
     {
