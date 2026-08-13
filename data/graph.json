@@ -6416,7 +6416,7 @@
           "type": "influenced_by",
           "target": "movement/byzantine-art",
           "certainty": "scholarly",
-          "source": "https://www.novgorod.ru/english/read/information/icon-painting/"
+          "source": "https://www.nasjonalmuseet.no/en/collection/object/NG.M.01773"
         }
       ],
       "sources": [
@@ -6428,6 +6428,7 @@
         "https://ru.wikipedia.org/wiki/Русская_иконопись",
         "https://gallerix.ru/pedia/history-of-art--novgorod-school-icon-painting/",
         "https://www.novgorod.ru/english/read/information/icon-painting/",
+        "https://www.nasjonalmuseet.no/en/collection/object/NG.M.01773",
         "https://russianicon.com/schools-of-russian-icon-painting-part-i/",
         "https://www.icon-art.info/book_contents.php?lng=ru&book_id=7&chap=3&ch_l2=0",
         "https://ru.wikipedia.org/wiki/Церковь_Спаса_Преображения_на_Ильине_улице",
@@ -57480,7 +57481,7 @@
       "type": "influenced_by",
       "to": "movement/byzantine-art",
       "certainty": "scholarly",
-      "source": "https://www.novgorod.ru/english/read/information/icon-painting/"
+      "source": "https://www.nasjonalmuseet.no/en/collection/object/NG.M.01773"
     },
     {
       "from": "movement/novgorod-school-icon-painting",
