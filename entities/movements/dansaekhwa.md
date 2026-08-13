@@ -29,7 +29,7 @@ claims:
 space:
   - {role: originated_in, target: place/seoul}
 relations:
-  - {type: influenced_by, target: movement/mono-ha, certainty: scholarly, source: "https://www.frieze.com/article/skin-surface"}
+  - {type: influenced_by, target: movement/mono-ha, certainty: scholarly, source: "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002692673"}
 sources:
   - https://www.wikidata.org/wiki/Q24988307
   - https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300417394
@@ -37,6 +37,7 @@ sources:
   - https://ko.wikipedia.org/wiki/%EB%8B%A8%EC%83%89%ED%99%94
   - https://mmcaresearch.kr/terms/view.do?fid=2211
   - https://www.frieze.com/article/skin-surface
+  - https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002692673
   - https://m.kukjegallery.com/db_img/mediaCoverage/media_coverage_Dansaekhwa__Collateral_Event_of_the_56th_International_Art_Exhibition_%E2%80%93_La_Biennale_di_Venezia_2015_02_25_e82.pdf
 status: draft
 updated: 2026-08-09
@@ -170,6 +171,12 @@ by Hur Hwang, both of which were submitted to the first Independants in 1972."
 [Kukje Galleryによる再録PDF](https://m.kukjegallery.com/db_img/mediaCoverage/media_coverage_Dansaekhwa__Collateral_Event_of_the_56th_International_Art_Exhibition_%E2%80%93_La_Biennale_di_Venezia_2015_02_25_e82.pdf)）。
 ここで動いたのは、人（李禹煥）を媒介にした考え方である。この関係は、単色画の成立をもの派だけに還元するものではなく、
 韓国の作家たちが固有の伝統や問題意識のなかで展開したことも含めた、限定的な受容を示す。
+
+韓国学術誌『現代美術史研究』の論文要旨も、李禹煥のもの派理論が韓国の単色画へ翻訳され、物質と人間の
+コミュニケーションを重視する方向として受容されたこと、李が韓国の単色画家に大きな影響を与えたことを
+整理している。韓国国立現代美術館も、1970年代に李禹煥が韓国と日本を往来しながら単色画に大きな影響を
+与えたと記録している。したがって、ここでの `influenced_by` は、もの派全体が単色画を
+一方向に生んだという意味ではなく、李禹煥の理論・往来・人的ネットワークを介した限定的な伝播として記録する。
 
 ## 未着手
 
