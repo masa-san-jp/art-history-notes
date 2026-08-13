@@ -2509,6 +2509,12 @@
           "target": "movement/futurism",
           "certainty": "scholarly",
           "source": "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300021394"
+        },
+        {
+          "type": "influenced_by",
+          "target": "movement/cubism",
+          "certainty": "scholarly",
+          "source": "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300021394"
         }
       ],
       "images": [
@@ -7236,6 +7242,12 @@
           "target": "movement/suprematism",
           "certainty": "attested",
           "source": "https://portal.lygiaclark.org.br/acervo/67348/manifesto-neoconcreto"
+        },
+        {
+          "type": "responds_to",
+          "target": "movement/suprematism",
+          "certainty": "attested",
+          "source": "https://portal.lygiaclark.org.br/acervo/67348/manifesto-neoconcreto"
         }
       ],
       "sources": [
@@ -9185,6 +9197,115 @@
       "status": "draft",
       "updated": "2026-08-10",
       "path": "entities/movements/song-academy-painting.md"
+    },
+    "movement/songjiang-school": {
+      "id": "movement/songjiang-school",
+      "uri": "urn:ahn:movement/songjiang-school",
+      "type": "movement",
+      "kind": "retrospective",
+      "label_ja": "松江派",
+      "label_en": "Songjiang school",
+      "authority": {
+        "wikidata": "Q1150568",
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": "15XX",
+        "end": "16XX",
+        "display": "16世紀半ば（莫是龍の生年1539年）〜17世紀前半（陳継儒の没年1639年）。上海博物館は明末（万暦帝即位1573年〜明朝滅亡1644年）を活動期とする（二次情報）"
+      },
+      "naming": {
+        "self_identified": false,
+        "named_by": null,
+        "named_when": null,
+        "original_label": "松江派",
+        "note": "中国語版Wikipedia「松江画派」は范允臨『輸蓼館集』の一節を引く:「此意唯云間諸公知之，故文度、元宰、元慶諸名氏，能力追古人，各自成家。而呉人見而詫曰，松江派耳」（この意〔美意識〕は雲間〔松江〕の諸氏のみが知るところで、文度〔趙左の字〕・元宰〔董其昌の字〕・元慶ら名だたる人々が古人に迫る力を持ち、各々一家をなした。ところが呉〔蘇州〕の人々はこれを見て驚き『松江派にすぎない（松江派耳）』と言った）。**命名者は松江派の当事者ではなく、対抗地域である蘇州側の人々（吳人）**——しかも「耳」は『それだけ・にすぎない』という限定・軽視の語気を持つ文語表現で、賞賛ではなく値踏みの言葉として記録されている。同じく唐志契『絵事微言』（唐志契1579-1651、泰州出身の画家・理論家、二次情報）にも「文人学画山水，易入松江派頭」（文人が山水画を学ぶと、ともすれば『松江派』の型に陥りやすい）という一節があるという（中国語版Wikipedia、二次情報）。いずれも当事者による自称ではなく、同時代の外部（対立地域の観察者・別地域の理論家）が呼んだ名——self_identifiedはfalseとした。**未確認**: 范允臨『輸蓼館集』・唐志契『絵事微言』の原典そのものには当たっていない（中国語版Wikipediaの引用に依拠）。両書の成立年も未確認のため named_when は null。引用中の『元慶』が誰を指すかも未確認（趙左＝文度、董其昌＝元宰〔玄宰とも〕は他の一次情報で裏取り済みだが、元慶は該当する人物を特定できなかった）"
+      },
+      "claims": [
+        {
+          "field": "kind",
+          "source": "https://zh.wikipedia.org/zh-hans/%E6%9D%BE%E6%B1%9F%E7%94%BB%E6%B4%BE",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "originated_in",
+          "source": "https://zh.wikipedia.org/wiki/%E9%A1%A7%E6%AD%A3%E8%AA%BC",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "originated_in",
+          "source": "https://zh.wikipedia.org/wiki/%E8%8E%AB%E6%98%AF%E9%BE%99",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "time",
+          "source": "https://zh.wikipedia.org/wiki/%E8%8E%AB%E6%98%AF%E9%BE%99",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "time",
+          "source": "https://zh.wikipedia.org/wiki/%E9%99%88%E7%BB%A7%E5%84%92",
+          "certainty": "scholarly"
+        }
+      ],
+      "space": [
+        {
+          "role": "originated_in",
+          "target": "place/songjiang"
+        }
+      ],
+      "relations": [
+        {
+          "type": "derives_from",
+          "target": "movement/wu-school",
+          "certainty": "scholarly",
+          "source": "https://ja.wikipedia.org/wiki/%E5%91%89%E6%B4%BE"
+        },
+        {
+          "type": "precedes",
+          "target": "movement/shanghai-school",
+          "certainty": "scholarly",
+          "source": "https://zh.wikipedia.org/zh-hans/%E6%9D%BE%E6%B1%9F%E7%94%BB%E6%B4%BE"
+        }
+      ],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q1150568",
+        "https://zh.wikipedia.org/zh-hans/%E6%9D%BE%E6%B1%9F%E7%94%BB%E6%B4%BE",
+        "https://ja.wikipedia.org/wiki/%E5%91%89%E6%B4%BE",
+        "https://ja.wikipedia.org/wiki/%E8%91%A3%E5%85%B6%E6%98%8C",
+        "https://en.wikipedia.org/wiki/Dong_Qichang",
+        "https://zh.wikipedia.org/wiki/%E9%A1%A7%E6%AD%A3%E8%AA%BC",
+        "https://en.wikipedia.org/wiki/Gu_Zhengyi",
+        "https://zh.wikipedia.org/wiki/%E8%8E%AB%E6%98%AF%E9%BE%99",
+        "https://zh.wikipedia.org/wiki/%E9%99%88%E7%BB%A7%E5%84%92",
+        "https://zh.wikipedia.org/wiki/%E8%B5%B5%E5%B7%A6",
+        "https://zh.wikipedia.org/wiki/%E6%B2%88%E5%A3%AB%E5%85%85",
+        "https://zh.wikipedia.org/wiki/%E7%A8%8B%E5%98%89%E7%87%A7",
+        "https://www.wikidata.org/wiki/Q537211",
+        "https://www.wikidata.org/wiki/Q11665202",
+        "https://www.wikidata.org/wiki/Q662380",
+        "https://www.shanghaimuseum.net/mu/frontend/pg/m/article/id/RI00004055"
+      ],
+      "images": [
+        {
+          "url": "https://openaccess-cdn.clevelandart.org/1980.10/1980.10_web.jpg",
+          "source_page": "https://clevelandart.org/art/1980.10",
+          "license": "cc0",
+          "note": "董其昌《青卞隠居図（Mt. Qingbian）》1617年、クリーブランド美術館蔵（share_license_status: CC0）。松江派の中心人物・董其昌の山水画"
+        },
+        {
+          "url": "https://openaccess-cdn.clevelandart.org/1959.46/1959.46_web.jpg",
+          "source_page": "https://clevelandart.org/art/1959.46",
+          "license": "cc0",
+          "note": "董其昌《秋興八景図・清秋山水（River and Mountains on a Clear Autumn Day）》1624〜27年頃、クリーブランド美術館蔵（share_license_status: CC0）"
+        }
+      ],
+      "status": "draft",
+      "updated": "2026-08-10",
+      "path": "entities/movements/songjiang-school.md"
     },
     "movement/suprematism": {
       "id": "movement/suprematism",
@@ -14848,7 +14969,12 @@
         "display": "1555年 – 1636年（明末の文人・書画家・理論家）"
       },
       "space": [],
-      "relations": [],
+      "relations": [
+        {
+          "type": "member_of",
+          "target": "movement/songjiang-school"
+        }
+      ],
       "sources": [
         "https://www.wikidata.org/wiki/Q537211",
         "https://ja.wikipedia.org/wiki/%E6%B5%99%E6%B4%BE"
@@ -28054,6 +28180,38 @@
       "status": "stub",
       "updated": "2026-08-09",
       "path": "entities/places/siena.md"
+    },
+    "place/songjiang": {
+      "id": "place/songjiang",
+      "uri": "urn:ahn:place/songjiang",
+      "type": "place",
+      "label_ja": "松江",
+      "label_en": "Songjiang",
+      "authority": {
+        "wikidata": "Q662380",
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": null,
+        "end": null,
+        "display": null
+      },
+      "region": "asia-east-china",
+      "coordinates": [
+        31.005833,
+        121.233333
+      ],
+      "space": [],
+      "relations": [],
+      "sources": [
+        "https://www.wikidata.org/wiki/Q662380"
+      ],
+      "status": "stub",
+      "updated": "2026-08-10",
+      "path": "entities/places/songjiang.md"
     },
     "place/suzhou": {
       "id": "place/suzhou",
@@ -58626,6 +58784,13 @@
     },
     {
       "from": "movement/cubo-futurism",
+      "type": "influenced_by",
+      "to": "movement/cubism",
+      "certainty": "scholarly",
+      "source": "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300021394"
+    },
+    {
+      "from": "movement/cubo-futurism",
       "type": "originated_in",
       "to": "place/saint-petersburg"
     },
@@ -59687,6 +59852,13 @@
     },
     {
       "from": "movement/neoconcretismo",
+      "type": "responds_to",
+      "to": "movement/suprematism",
+      "certainty": "attested",
+      "source": "https://portal.lygiaclark.org.br/acervo/67348/manifesto-neoconcreto"
+    },
+    {
+      "from": "movement/neoconcretismo",
       "type": "originated_in",
       "to": "place/rio-de-janeiro"
     },
@@ -60060,6 +60232,25 @@
       "from": "movement/song-academy-painting",
       "type": "active_in",
       "to": "place/hangzhou"
+    },
+    {
+      "from": "movement/songjiang-school",
+      "type": "derives_from",
+      "to": "movement/wu-school",
+      "certainty": "scholarly",
+      "source": "https://ja.wikipedia.org/wiki/%E5%91%89%E6%B4%BE"
+    },
+    {
+      "from": "movement/songjiang-school",
+      "type": "precedes",
+      "to": "movement/shanghai-school",
+      "certainty": "scholarly",
+      "source": "https://zh.wikipedia.org/zh-hans/%E6%9D%BE%E6%B1%9F%E7%94%BB%E6%B4%BE"
+    },
+    {
+      "from": "movement/songjiang-school",
+      "type": "originated_in",
+      "to": "place/songjiang"
     },
     {
       "from": "movement/suprematism",
@@ -61275,6 +61466,13 @@
       "from": "person/donato-barcaglia",
       "type": "exhibited_at",
       "to": "event/first-brera-triennale-1891",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "person/dong-qichang",
+      "type": "member_of",
+      "to": "movement/songjiang-school",
       "certainty": null,
       "source": null
     },
@@ -75115,6 +75313,12 @@
       "derived": true
     },
     {
+      "from": "movement/cubism",
+      "type": "influenced",
+      "to": "movement/cubo-futurism",
+      "derived": true
+    },
+    {
       "from": "movement/baroque",
       "type": "influenced",
       "to": "movement/cusco-school",
@@ -75733,6 +75937,12 @@
       "derived": true
     },
     {
+      "from": "movement/suprematism",
+      "type": "answered_by",
+      "to": "movement/neoconcretismo",
+      "derived": true
+    },
+    {
       "from": "place/london",
       "type": "received",
       "to": "movement/ngati-tarawhai-whakairo",
@@ -75928,6 +76138,18 @@
       "from": "movement/zhe-school",
       "type": "follows",
       "to": "movement/song-academy-painting",
+      "derived": true
+    },
+    {
+      "from": "movement/wu-school",
+      "type": "derived_into",
+      "to": "movement/songjiang-school",
+      "derived": true
+    },
+    {
+      "from": "movement/shanghai-school",
+      "type": "follows",
+      "to": "movement/songjiang-school",
       "derived": true
     },
     {
@@ -76834,6 +77056,12 @@
       "from": "event/first-brera-triennale-1891",
       "type": "exhibited",
       "to": "person/donato-barcaglia",
+      "derived": true
+    },
+    {
+      "from": "movement/songjiang-school",
+      "type": "has_member",
+      "to": "person/dong-qichang",
       "derived": true
     },
     {

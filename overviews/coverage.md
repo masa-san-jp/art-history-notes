@@ -14,7 +14,7 @@ depends_on: []
 <!-- generated:coverage:start -->
 データの最新日: 2026-08-13 — `python3 tools/build_graph.py` が生成（手で書き換えない）
 
-movement **118** 件（stub 0件は不算入）／内訳 {'draft': 116, 'stub': 0, 'verified': 2}
+movement **119** 件（stub 0件は不算入）／内訳 {'draft': 117, 'stub': 0, 'verified': 2}
 
 | 文化圏 | 10BCE | 4C | 9C | 10C | 11C | 12C | 13C | 14C | 15C | 16C | 17C | 18C | 19C | 20C | 年代不明 | 計 |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
@@ -26,7 +26,7 @@ movement **118** 件（stub 0件は不算入）／内訳 {'draft': 116, 'stub': 
 | asia-central（中央アジア・チベット・モンゴル） ※非西洋 |  |  |  |  |  |  |  |  | 3 | 1 | 1 |  |  |  |  | 5 |
 | asia-south（南アジア） ※非西洋 |  |  |  |  | 1 |  |  |  |  | 2 | 3 | 2 |  | 2 | 1 | 11 |
 | asia-southeast（東南アジア） ※非西洋 |  |  |  |  |  |  |  |  |  | 1 | 1 | 1 | 1 | 4 |  | 8 |
-| asia-east-china（中国圏） ※非西洋 |  |  |  | 1 |  |  |  |  | 2 | 1 | 1 | 1 | 1 | 1 |  | 8 |
+| asia-east-china（中国圏） ※非西洋 |  |  |  | 1 |  |  |  |  | 2 | 2 | 1 | 1 | 1 | 1 |  | 9 |
 | asia-east-korea（朝鮮半島） ※非西洋 |  |  |  |  |  |  | 1 |  | 1 |  | 1 | 1 |  | 1 |  | 5 |
 | asia-east-japan（日本） ※非西洋 |  |  | 1 |  |  |  | 1 |  | 2 |  | 1 | 3 | 1 | 4 |  | 13 |
 | americas-latin（中南米・カリブ） ※非西洋 |  |  |  |  |  |  |  |  |  | 2 |  |  |  | 5 |  | 7 |
@@ -41,10 +41,10 @@ movement **118** 件（stub 0件は不算入）／内訳 {'draft': 116, 'stub': 
 
 受け入れ条件の達成度:
 
-- movement_total: 118/100（stub 0件は不算入）
+- movement_total: 119/100（stub 0件は不算入）
 - non_west_ratio: 0.67/0.5
 - per_bucket_min: 13/13 バケットが 3件以上
-- pre_1800_ratio: 0.47/0.3
+- pre_1800_ratio: 0.48/0.3
 - isolated_ratio: 0.00（上限 0.1）
 <!-- generated:coverage:end -->
 
@@ -63,13 +63,13 @@ movement **118** 件（stub 0件は不算入）／内訳 {'draft': 116, 'stub': 
 
 <!-- generated:audit:start -->
 **文化圏を跨ぐ関係が無い**
-- 他の文化圏の movement と1本も繋がっていない movement が 29/117 件。時間だけでなく空間の広がりを体系化するので、影響・伝播・反発を調べる余地
+- 他の文化圏の movement と1本も繋がっていない movement が 30/118 件。時間だけでなく空間の広がりを体系化するので、影響・伝播・反発を調べる余地
 - oceania: 6件（アスマットの彫刻、イアトムルの彫刻、コーワイワイ、ラピタ土器 ほか）
 - africa-sub: 6件（バマナ彫刻、ベニン王国宮廷美術、イフェ美術、マコンデ彫刻 ほか）
 - asia-south: 4件（バソーリ派、ジャイナ写本絵画、カーングラ派、メーワール派）
 - asia-southeast: 3件（ドンホー版画、カマサン様式、マンダレー様式）
+- asia-east-china: 3件（金陵八家、松江派、揚州八怪）
 - asia-east-japan: 3件（円山四条派、土佐派、大和絵）
-- asia-east-china: 2件（金陵八家、揚州八怪）
 - asia-central: 2件（カルマ・ガルリ派、キェンリ派）
 - europe-west: 1件（イタリア分割主義）
 - americas-north: 1件（北西海岸先住民の彫刻）
