@@ -29,7 +29,7 @@ space:
   - {role: originated_in, target: place/herat}
 relations:
   - {type: diffused_to, target: place/tabriz, certainty: scholarly, source: "https://resources.metmuseum.org/resources/metpublications/pdf/Masterpieces_from_the_Department_of_Islamic_Art_in_The_Metropolitan_Museum_of_Art.pdf"}
-  - {type: influenced_by, target: movement/baghdad-school-of-illustration, certainty: scholarly, source: "https://www.britannica.com/art/Jalayirid-school"}
+  - {type: influenced_by, target: movement/baghdad-school-of-illustration, certainty: scholarly, source: "https://resources.metmuseum.org/resources/metpublications/pdf/Masterpieces_from_the_Department_of_Islamic_Art_in_The_Metropolitan_Museum_of_Art.pdf"}
   - {type: influenced_by, target: movement/shiraz-school, certainty: scholarly, source: "https://resources.metmuseum.org/resources/metpublications/pdf/Masterpieces_from_the_Department_of_Islamic_Art_in_The_Metropolitan_Museum_of_Art.pdf"}
 sources:
   - https://www.wikidata.org/wiki/Q5958652
@@ -46,6 +46,7 @@ sources:
   - https://www.reed.edu/persian-calligraphy/en/jafar-baysonghori/index.html
   - https://www.britannica.com/art/Herat-school
   - https://resources.metmuseum.org/resources/metpublications/pdf/Masterpieces_from_the_Department_of_Islamic_Art_in_The_Metropolitan_Museum_of_Art.pdf
+  - https://www.metmuseum.org/art/collection/search/455041
 images:
   - url: https://images.metmuseum.org/CRDImages/is/original/DP231332.jpg
     source_page: https://www.metmuseum.org/art/collection/search/446892
@@ -238,17 +239,22 @@ atelier, he had a decisive impact on the development of later Safavid painting"�
 （13世紀アッバース朝期バグダードの写本挿絵の様式）は、本ファイルの[定義と範囲](#定義と範囲)節が
 既に引く記述——1421年、バイスングルがタブリーズを制圧した際、当地でジャライル朝アフマド・ジャライルに
 仕えていた画家・書家の一団をヘラートへ連れ帰った（[Baysunghur](https://en.wikipedia.org/wiki/Baysunghur)）
-——を介して、2段階でヘラート派に繋がる。Britannica「Jalāyirid school」の記述（WebSearch経由の
-要約で確認。直接のページ取得は403で不可）は「The Jalāyirid school was influenced by the Baghdad
-school of the 13th century, which was noted for the depiction of expressive, individualized
-faces」とし、ジャライル朝の宮廷様式（14世紀、タブリーズ／バグダード）自体が13世紀バグダード派の
-様式（個別化・表情豊かな顔）の影響下にあったとする。すなわち「バグダード派（13世紀）→ジャライル朝
-様式（14世紀）→1421年にヘラートへ移った画家たち」という、それぞれ別の出典で個別に裏づけられる
-経路が辿れる。このKBの語彙では**より新しい側が古い側を指して張る向き**（[kind の判定](#kind-の判定--継承の線は何本ありどれも単独では繋がらない)
+——を介して、2段階でヘラート派に繋がる。メトロポリタン美術館の刊行物は、14世紀末から15世紀初頭の
+ジャライル朝宮廷でタブリーズとバグダードに実践された絵画様式を説明し、イスカンダル・スルターンの失脚後に
+その画家の一部がヘラートへ移ってバイスングルに仕えたことを記録している。さらに同館のバイスングル関連作品の
+解説は、ヘラートでバグダード、タブリーズ、シーラーズ、サマルカンドの画家が集められ、タブリーズとヘラートで
+視覚的な慣習が結晶化したと説明する（[The Metropolitan Museum of Art「Masterpieces from the Department of Islamic Art」](https://resources.metmuseum.org/resources/metpublications/pdf/Masterpieces_from_the_Department_of_Islamic_Art_in_The_Metropolitan_Museum_of_Art.pdf)、
+[Baysunghur Qur'an](https://www.metmuseum.org/art/collection/search/455041)）。したがって、ここで確認できるのは
+バグダード派からヘラート派への単純な様式移植ではなく、ジャライル朝の宮廷・工房ネットワークを経由した画家の移動と
+制作慣行の集積である。すなわち「バグダード派（13世紀）→ジャライル朝のタブリーズ／バグダード（14世紀末–15世紀初頭）
+→1421年以後にヘラートへ移った画家たち」という経路を、複数資料を接続した継承経路として辿れる。このKBの語彙では
+**より新しい側が古い側を指して張る向き**（[kind の判定](#kind-の判定--継承の線は何本ありどれも単独では繋がらない)
 節で参照した`ottoman-miniature.md`の例と同型）でしか`influenced_by`が成立しないため、`relations`に
 `influenced_by: movement/baghdad-school-of-illustration`を本ファイル側へ追加した。**未確認**:
 ジャライル朝の宮廷様式そのものを独立した movement として立てれば、この2段階は1段階の直接関係に
-書き直せる可能性があるが、今回はその作業を行っていない。
+書き直せる可能性があるが、今回はその作業を行っていない。なお、メトロポリタン美術館の資料は画家の移動と
+工房ネットワークを裏づけるが、個々の画家が13世紀バグダード派の特定作品を直接見ていたことまでは示さないため、
+この関係は「バグダード派の様式がそのままヘラートへ移植された」という意味には限定しない。
 
 なお、ビフザードの没地はヘラートかタブリーズかで出典間に不一致がある——[Behzād](https://en.wikipedia.org/wiki/Kam%C4%81l_ud-D%C4%ABn_Behz%C4%81d)は
 「1535年没、墓所はヘラートのコーヒ・ムフタール」とする一方、同記事は彼が没するまでサファヴィー朝の
