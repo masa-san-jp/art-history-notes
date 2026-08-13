@@ -29,15 +29,19 @@ space:
   - {role: originated_in, target: place/paris}
 relations:
   - {type: reacts_against, target: movement/realism, certainty: scholarly, source: "https://www.metmuseum.org/es/essays/symbolism"}
+  - {type: responds_to, target: movement/utagawa-school, certainty: scholarly, source: "https://www.musee-orsay.fr/en/exhibitions/japanese-affinities-towards-modern-decoration-196090"}
   - {type: diffused_to, target: place/brussels, certainty: scholarly, source: "https://www.smb.museum/fileadmin/website/Presse/Pressematerial/2020/09/BS_Presse_EN_04b_Catalogue-Gleis.pdf"}
 sources:
   - https://www.wikidata.org/wiki/Q164800
   - https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300021514
   - https://www.britannica.com/art/Symbolism-literary-and-artistic-movement
   - https://www.metmuseum.org/es/essays/symbolism
+  - https://www.moma.org/docs/press_archives/4863/releases/MOMA_1972_0092_82A.pdf
+  - https://www.musee-orsay.fr/en/exhibitions/japanese-affinities-towards-modern-decoration-196090
+  - https://www.metmuseum.org/pt/essays/japonisme
   - https://www.smb.museum/fileadmin/website/Presse/Pressematerial/2020/09/BS_Presse_EN_04b_Catalogue-Gleis.pdf
 status: draft
-updated: 2026-08-12
+updated: 2026-08-13
 ---
 
 # 象徴主義 / Symbolism
@@ -71,6 +75,20 @@ Les XXと、1894年に後継となったLa Libre Esthétiqueが、各国の芸�
 メトロポリタン美術館は、象徴主義の画家たちが、感情や観念を表すことを重視し、自然界を客観的・
 準科学的に表す写実主義と印象主義の表現を退けたと説明する。ここでの `reacts_against` は、象徴主義の
 すべての作品が写実的描写を拒否したという意味ではなく、1880年代の形成期における芸術観の反発を示す。
+
+## 日本木版画との限定的な接続
+
+オルセー美術館の展覧会資料は、ナビ派とオディロン・ルドンが1890年頃から日本美術に関心を持ち、
+その教えを取り入れながら、楕円的・暗示的な表現、空間の空白と充実の緊張を採用したと説明する。
+同展では彼らの作品を日本の版画・屏風と並べ、この対話が絵画を近代へ動かしたと整理している
+（[オルセー美術館の展覧会資料](https://www.musee-orsay.fr/en/exhibitions/japanese-affinities-towards-modern-decoration-196090)）。
+
+メトロポリタン美術館の解説は、19世紀末の日本の木版画を ukiyo-e の作家たちによるものと説明し、
+その例として歌川広重を挙げている（[同館のJaponisme解説](https://www.metmuseum.org/pt/essays/japonisme)）。
+このため本KBでは、日本美術一般への受容を、既存の日本木版画の代表ノードである歌川派へ限定的に
+対応づける。ただし、これはルドン本人が特定の歌川作品を見たという一次資料でも、象徴主義全体の形成を
+歌川派からの直接影響で説明する資料でもない。版画表現に限った受容・応答を `responds_to` として記録し、
+既存の写実主義への `reacts_against` とは別の経路にする。
 
 ## 未着手
 
