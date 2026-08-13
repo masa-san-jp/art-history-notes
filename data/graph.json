@@ -2725,7 +2725,7 @@
           "type": "influenced_by",
           "target": "movement/ottoman-miniature",
           "certainty": "scholarly",
-          "source": "https://en.wikipedia.org/wiki/Deccan_painting"
+          "source": "https://www.metmuseum.org/press-releases/sultans-of-deccan-india-2015-exhibitions"
         }
       ],
       "sources": [
@@ -2735,6 +2735,7 @@
         "https://en.wikipedia.org/wiki/Golconda_painting",
         "https://www.metmuseum.org/toah/hd/decc/hd_decc.htm",
         "https://www.metmuseum.org/essays/islamic-art-of-the-deccan",
+        "https://www.metmuseum.org/press-releases/sultans-of-deccan-india-2015-exhibitions",
         "https://www.metmuseum.org/art/collection/search/453975",
         "https://www.metmuseum.org/art/collection/search/453334"
       ],
@@ -56624,7 +56625,7 @@
       "type": "influenced_by",
       "to": "movement/ottoman-miniature",
       "certainty": "scholarly",
-      "source": "https://en.wikipedia.org/wiki/Deccan_painting"
+      "source": "https://www.metmuseum.org/press-releases/sultans-of-deccan-india-2015-exhibitions"
     },
     {
       "from": "movement/deccan-painting",
