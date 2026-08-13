@@ -29,6 +29,7 @@ space:
   - {role: active_in, target: place/shigatse}
 relations:
   - {type: diffused_to, target: place/new-york-city, certainty: scholarly, source: "https://rubinmuseum.org/exhibitions/the-place-of-provenance/"}
+  - {type: influenced_by, target: movement/newar-art, certainty: scholarly, source: "https://rubinmuseum.org/projecthimalayanart/essays/murals-of-gongkar-chode/"}
 sources:
   - https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300018855
   - https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300018860
@@ -222,3 +223,14 @@ Rubin Museum of Artは、2012年10月〜2013年3月にニューヨークで開�
   一次資料に当たるかは未着手
 - 「メンリ」という呼称の定着時期・最初の使用者（`naming.named_by` / `named_when`）
 - 影響元をペルシャとするGetty AATと中国とするHAR・Rubin Museumの不一致の解消
+
+### ネワール美術からの受容——創始の逸話が「分析せよ」という指示の形をしている
+
+ルービン美術館 Project Himalayan Art は、メンラ・トンドゥプがネニン僧院でネパール様式の壁画制作に
+立ち会いながら学んでいた際、「ネパール様式と中国の伝統を分析し、新たな様式の絵画を作ることが
+仏法と衆生の利益になる」と勧められたのが創始の経緯だと記す
+（[Murals of Gongkar Chode](https://rubinmuseum.org/projecthimalayanart/essays/murals-of-gongkar-chode/)、二次情報）。
+**受け身の影響ではなく、外から来た2つの様式を意図的に突き合わせることが出発点として語られている。**
+同じ15世紀前半に、ネワールの遍歴絵師ジーヴァラーマがチベットで施主のために制作していた記録がある
+（[ネワール美術](newar-art.md)本文参照）——**未確認**: メンラ・トンドゥプとの接点を示す記述には
+当たっていない。

@@ -31,6 +31,7 @@ relations:
   - {type: created_by, target: person/ferreira-gullar}
   - {type: reacts_against, target: movement/constructivism, certainty: attested, source: "https://portal.lygiaclark.org.br/acervo/67348/manifesto-neoconcreto"}
   - {type: reacts_against, target: movement/suprematism, certainty: attested, source: "https://portal.lygiaclark.org.br/acervo/67348/manifesto-neoconcreto"}
+  - {type: responds_to, target: movement/suprematism, certainty: attested, source: "https://portal.lygiaclark.org.br/acervo/67348/manifesto-neoconcreto"}
 sources:
   - https://portal.lygiaclark.org.br/acervo/67348/manifesto-neoconcreto
   - https://portal.lygiaclark.org.br/acervo/1747/1-exposicao-neoconcreta
@@ -195,3 +196,18 @@ Wikipediaは「1959年3月22日」と記す（二次情報）。「Suplemento Do
 - 宣言文全文の構造分解（`work`としての読み込み）。現状は全文翻刻を読んだ上での要約に留まる
 - エリオ・オイチシカの参加時期。二次資料では中心的な参加者として名を挙げられることがあるが、7名の
   署名者には含まれておらず、参加の時期・形態は未確認
+
+### シュプレマティスムへの応答——宣言文が相手を名指ししている
+
+1959年の宣言文はその立場をこう定義する——「A expressão neoconcreto é uma tomada de posição em face
+da arte não-figurativa 'geométrica' (neoplasticismo, construtivismo, suprematismo, Escola de Ulm)」
+（ネオコンクレトという語は、「幾何学的」非具象芸術に対する態度表明である）。
+**「〜に対する態度表明」という定式そのものが関係の語彙を決めている。**
+
+`reacts_against` ではなく `responds_to` を選んだのは、宣言がマレーヴィチを否定していないため——
+「Malevitch, por ter reconhecido o primado da 'pura sensibilidade na arte', salvou as suas
+definições teóricas das limitações do racionalismo」と書き、さらに新造形主義・構成主義の
+**再解釈を提案**している。攻撃の的はシュプレマティスムそのものではなく、それを合理主義的に
+先鋭化させた具体芸術の方である。`certainty` を `attested` としたのは、この文言が署名者7名の
+宣言文本文であり、リジア・クラーク文化協会のアーカイブが実物スキャンと全文翻刻を公開していて
+直接確認できるため。

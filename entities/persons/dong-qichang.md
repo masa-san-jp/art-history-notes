@@ -15,7 +15,8 @@ time:
   end: "1636"
   display: 1555年 – 1636年（明末の文人・書画家・理論家）
 space: []
-relations: []
+relations:
+  - {type: member_of, target: movement/songjiang-school}
 sources:
   - https://www.wikidata.org/wiki/Q537211
   - https://ja.wikipedia.org/wiki/%E6%B5%99%E6%B4%BE
@@ -43,3 +44,10 @@ movement/zhe-school の `naming.named_by` からこの id を参照している�
 既存の関係語彙（`created_by` / `grouped_as` など）のどれにも当事者性の面で正確には合わないため
 （董其昌は浙派の内部から生まれた括りを作ったのではなく、外部の批評家として後から名付けた）、
 graph の `relations` エッジは張らず、`naming` ブロックのプレーンな参照に留めた。
+
+### 松江派との関係
+
+**彼は名づける側と名づけられる側の両方に立っている。** [浙派](../movements/zhe-school.md)という
+呼称は彼の『画禅室随筆』が出どころだが、彼自身が属する松江派の名は、対抗地域である蘇州（呉）の
+人々が「松江派耳（松江派にすぎない）」と値踏みして呼んだものであり、その場面に「元宰」（董其昌の字）が
+名指しで登場する（中国語版Wikipedia「松江画派」経由・二次情報）。

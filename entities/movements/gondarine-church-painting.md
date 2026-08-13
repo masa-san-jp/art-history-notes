@@ -30,6 +30,7 @@ space:
   - {role: originated_in, target: place/gondar}
 relations:
   - {type: influenced_by, target: movement/byzantine-art, certainty: scholarly, source: "https://www.metmuseum.org/essays/african-christianity-in-ethiopia"}
+  - {type: influenced_by, target: movement/mannerism, certainty: scholarly, source: "https://www.journal18.org/nq/giulio-romanos-the-little-holy-family-in-africa-identifying-an-18th-century-ethiopian-painting-by-kristen-windmuller-luna/"}
 sources:
   - http://www.getty.edu/vow/AATFullDisplay?find=Gondar&logic=AND&note=&english=Y&subjectid=300263018
   - https://en.wikipedia.org/wiki/Gondarine_period
@@ -236,3 +237,12 @@ Ethiopian history」）とした。王都ゴンダールそのものの建設は
 - エチオピア以外の東方キリスト教絵画（コプト正教会の絵画など）との比較——ゴンダール様式が
   他のキリスト教絵画の伝統から何を取り入れ何を独自に保ったかは、コプト側の movement が
   このKBに整備されてから改めて関係を張れる可能性がある
+
+### マニエリスムからの受容——動いたのは版画であり、人ではない
+
+18世紀初頭、フランスの外交使節に同行したイエズス会士が携えたウィエリクスの版画が宮廷の画家たちの
+もとに届き、ジュリオ・ロマーノ——[マニエリスム](mannerism.md)の主要な担い手の一人——の構図に由来する
+図像がエチオピアの絵画に現れた（[Journal18, Windmuller-Luna](https://www.journal18.org/nq/giulio-romanos-the-little-holy-family-in-africa-identifying-an-18th-century-ethiopian-painting-by-kristen-windmuller-luna/)）。
+**何を取り入れ何を変えるかを決めたのはエチオピア側の宮廷画家であり**（襟や袖を慎み深く改めて採用した）、
+影響を受けたことと決定権を渡したことは別である。**未確認**: ウィエリクスの版画はアントウェルペンの
+工房の産物で、AAT が別概念として持つ「北方マニエリスム」に当たる可能性がある。

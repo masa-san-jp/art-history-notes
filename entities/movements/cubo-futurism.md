@@ -29,6 +29,7 @@ space:
   - {role: originated_in, target: place/saint-petersburg}
 relations:
   - {type: influenced_by, target: movement/futurism, certainty: scholarly, source: "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300021394"}
+  - {type: influenced_by, target: movement/cubism, certainty: scholarly, source: "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300021394"}
 images:
   - url: https://upload.wikimedia.org/wikipedia/commons/5/58/The_Knife_Grinder_Principle_of_Glittering_by_Kazimir_Malevich.jpeg
     source_page: https://commons.wikimedia.org/wiki/File:The_Knife_Grinder_Principle_of_Glittering_by_Kazimir_Malevich.jpeg
@@ -165,3 +166,11 @@ obstructed by most Russian Futurists, who did not profess to owe him anything" �
   シェルシェネーヴィチがどの宣言を選び、どう訳したかは、言葉が何に化けて届いたかの直接の証拠になる
 - モスクワ側の活動（ギレヤ、ラリオーノフ・ゴンチャローワ）を `active_in` として張るための
   place/moscow の作成と一次資料
+
+### キュビスムへの1本を張った理由
+
+AAT の scope note はこの括りを "whose work was influenced by French Cubism and Italian Futurism" と
+定義しており、**2つの源を1つの文が並べて名指している**。未来派への線と同じ一文が根拠になる。
+**未確認**: 未来派の側で押さえたような伝播の実体（1914年の宣言集の露訳・マリネッティの訪露）に
+相当するものを、キュビスムの側では特定できていない。パリのキュビスムがロシアの担い手にどう届いたか
+（シチューキン／モロゾフの収集、レジェやグレーズの著作の露訳など）の具体には到達していない。
