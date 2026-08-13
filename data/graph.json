@@ -5954,6 +5954,12 @@
           "source": "https://www.moma.org/documents/moma_catalogue_2792_300190140.pdf"
         },
         {
+          "type": "responds_to",
+          "target": "movement/utagawa-school",
+          "certainty": "scholarly",
+          "source": "https://maa.missouri.edu/sites/default/files/image-button/2021-12/on-line_japonisme_in_print-2-_complete.pdf"
+        },
+        {
           "type": "part_of",
           "target": "concept/divisionism"
         }
@@ -5972,7 +5978,8 @@
         "https://en.wikipedia.org/wiki/Divisionism",
         "https://en.wikipedia.org/wiki/Les_Vingt",
         "https://www.impressionism.nl/1887-les-xx/",
-        "https://www.musee-orsay.fr/en/program/whats-on/exhibitions/presentation/neo-impressionism-seurat-paul-klee"
+        "https://www.musee-orsay.fr/en/program/whats-on/exhibitions/presentation/neo-impressionism-seurat-paul-klee",
+        "https://maa.missouri.edu/sites/default/files/image-button/2021-12/on-line_japonisme_in_print-2-_complete.pdf"
       ],
       "images": [
         {
@@ -5989,7 +5996,7 @@
         }
       ],
       "status": "verified",
-      "updated": "2026-08-12",
+      "updated": "2026-08-13",
       "path": "entities/movements/neo-impressionism.md"
     },
     "movement/neoclassicism": {
@@ -57410,6 +57417,13 @@
     },
     {
       "from": "movement/neo-impressionism",
+      "type": "responds_to",
+      "to": "movement/utagawa-school",
+      "certainty": "scholarly",
+      "source": "https://maa.missouri.edu/sites/default/files/image-button/2021-12/on-line_japonisme_in_print-2-_complete.pdf"
+    },
+    {
+      "from": "movement/neo-impressionism",
       "type": "part_of",
       "to": "concept/divisionism",
       "certainty": null,
@@ -73232,6 +73246,12 @@
     {
       "from": "concept/ukiyo-e",
       "type": "influenced",
+      "to": "movement/neo-impressionism",
+      "derived": true
+    },
+    {
+      "from": "movement/utagawa-school",
+      "type": "answered_by",
       "to": "movement/neo-impressionism",
       "derived": true
     },
