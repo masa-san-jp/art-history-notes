@@ -4018,7 +4018,14 @@
           "target": "place/sepik"
         }
       ],
-      "relations": [],
+      "relations": [
+        {
+          "type": "diffused_to",
+          "target": "place/paris",
+          "certainty": "scholarly",
+          "source": "https://www.amisquaibranly.fr/wp-content/uploads/2016/10/fiche-sculpture-iatmul.pdf"
+        }
+      ],
       "images": [
         {
           "url": "https://images.metmuseum.org/CRDImages/ao/original/DP-20791-001.jpg",
@@ -56951,6 +56958,13 @@
     },
     {
       "from": "movement/iatmul-carving",
+      "type": "diffused_to",
+      "to": "place/paris",
+      "certainty": "scholarly",
+      "source": "https://www.amisquaibranly.fr/wp-content/uploads/2016/10/fiche-sculpture-iatmul.pdf"
+    },
+    {
+      "from": "movement/iatmul-carving",
       "type": "originated_in",
       "to": "place/sepik"
     },
@@ -72976,6 +72990,12 @@
       "from": "movement/barbizon-school",
       "type": "influenced",
       "to": "movement/hudson-river-school",
+      "derived": true
+    },
+    {
+      "from": "place/paris",
+      "type": "received",
+      "to": "movement/iatmul-carving",
       "derived": true
     },
     {
