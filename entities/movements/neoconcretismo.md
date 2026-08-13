@@ -29,7 +29,7 @@ space:
   - {role: originated_in, target: place/rio-de-janeiro}
 relations:
   - {type: created_by, target: person/ferreira-gullar}
-  - {type: reacts_against, target: movement/constructivism, certainty: scholarly, source: "https://smarthistory.org/geometric-abstraction-south-america/"}
+  - {type: reacts_against, target: movement/constructivism, certainty: attested, source: "https://portal.lygiaclark.org.br/acervo/67348/manifesto-neoconcreto"}
   - {type: reacts_against, target: movement/suprematism, certainty: attested, source: "https://portal.lygiaclark.org.br/acervo/67348/manifesto-neoconcreto"}
 sources:
   - https://portal.lygiaclark.org.br/acervo/67348/manifesto-neoconcreto
@@ -140,8 +140,10 @@ esgotada）」として運動から離れたと同資料は伝える（二次情
 マレーヴィチの作品を、理論上の図式ではなく直接の知覚経験として捉え直そうとする
 （[Manifesto Neoconcreto](https://portal.lygiaclark.org.br/acervo/67348/manifesto-neoconcreto)、
 リジア・クラーク文化協会が公開する実物スキャンと全文翻刻）。したがって、ここでの
-`reacts_against movement/suprematism` はシュプレマティスムの全作品やマレーヴィチ個人を否定する
-という意味ではなく、幾何学的抽象を合理主義的な体系へ還元する読みへの、宣言上の反応を指す。
+`reacts_against movement/constructivism` と `reacts_against movement/suprematism` は、両運動の
+全作品や個々の作家を否定するという意味ではなく、幾何学的抽象を合理主義的な体系へ還元する読みへの、
+宣言上の反応を指す。構成主義については宣言文が運動名を列挙したうえで具体芸術の合理主義化を批判して
+いるため、反応の対象としての直接性を`attested`とした。
 
 ## 時間
 
