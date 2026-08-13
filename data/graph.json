@@ -5728,7 +5728,7 @@
           "type": "influenced_by",
           "target": "person/dong-qichang",
           "certainty": "scholarly",
-          "source": "https://en.wikipedia.org/wiki/Nanga_(art)"
+          "source": "https://www.metmuseum.org/exhibitions/listings/2003/great-waves"
         },
         {
           "type": "influenced_by",
@@ -5767,7 +5767,8 @@
         "https://theme.npm.edu.tw/exh107/NewEra/jp/page-4.html",
         "https://theme.npm.edu.tw/exh107/NewEra/en/page-4.html",
         "https://www.metmuseum.org/art/collection/search/671023",
-        "https://www.artic.edu/artworks/185222"
+        "https://www.artic.edu/artworks/185222",
+        "https://www.metmuseum.org/exhibitions/listings/2003/great-waves"
       ],
       "images": [
         {
@@ -57287,7 +57288,7 @@
       "type": "influenced_by",
       "to": "person/dong-qichang",
       "certainty": "scholarly",
-      "source": "https://en.wikipedia.org/wiki/Nanga_(art)"
+      "source": "https://www.metmuseum.org/exhibitions/listings/2003/great-waves"
     },
     {
       "from": "movement/nanga",
