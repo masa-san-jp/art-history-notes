@@ -30,7 +30,7 @@ space:
 relations:
   - {type: created_by, target: person/pablo-picasso}
   - {type: created_by, target: person/georges-braque}
-  - {type: influenced_by, target: movement/post-impressionism, certainty: scholarly, source: "https://www.theartstory.org/movement/cubism/"}
+  - {type: influenced_by, target: movement/post-impressionism, certainty: scholarly, source: "https://www.metmuseum.org/fr/essays/paul-cezanne-1839-1906"}
 sources:
   - https://www.wikidata.org/wiki/Q42934
   - https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300021495
@@ -43,6 +43,8 @@ sources:
   - https://en.wikipedia.org/wiki/Proto-Cubism
   - https://www.theartstory.org/movement/cubism/
   - https://www.theartstory.org/movement/salon-cubism/
+  - https://www.metmuseum.org/fr/essays/paul-cezanne-1839-1906
+  - https://www.moma.org/collection/terms/cubism/before-and-beyond-cubism
   - https://wist.info/picasso-pablo/3147/
   - https://www.moma.org/collection/works/78984
   - https://www.tate.org.uk/art/art-terms/p/post-impressionism
@@ -178,7 +180,10 @@ Wikidata Q42934には空間に関するclaimは無い。
 [ポスト印象派](post-impressionism.md)に`influenced_by`を張った。動いたのは1907年、パリの
 サロン・ドートンヌで開かれたポール・セザンヌの大規模な回顧展である（セザンヌは前年1906年10月
 22日に没した）。この回顧展が、後にキュビスムを形成する若い画家たちの世代に強い衝撃を与えたと
-広く説明される（[TheArtStory「Cubism」](https://www.theartstory.org/movement/cubism/)、二次情報）。
+広く説明される（[メトロポリタン美術館「Paul Cézanne (1839–1906)」](https://www.metmuseum.org/fr/essays/paul-cezanne-1839-1906)）。
+同館はセザンヌをポスト印象派に分類し、その色彩による形態構築と自然への分析的な態度がキュビスムに
+影響したと説明する。また、MoMAもセザンヌの単純化された形態・動的な輪郭・変化する視点がブラックと
+ピカソの初期キュビスム実験に影響したと整理している（[MoMA「Before and Beyond Cubism」](https://www.moma.org/collection/terms/cubism/before-and-beyond-cubism)）。
 ピカソ自身の発言として「セザンヌの影響は次第にすべてを覆い尽くした（Cézanne's influence
 gradually flooded everything）」という言葉が複数の二次資料で引用されるが、本KBは発言の一次資料
 （インタビュー記録・書簡等の原典）には到達できていない——**未確認**。ブラックは特にセザンヌの

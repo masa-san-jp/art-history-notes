@@ -2239,7 +2239,7 @@
           "type": "influenced_by",
           "target": "movement/post-impressionism",
           "certainty": "scholarly",
-          "source": "https://www.theartstory.org/movement/cubism/"
+          "source": "https://www.metmuseum.org/fr/essays/paul-cezanne-1839-1906"
         }
       ],
       "sources": [
@@ -2254,6 +2254,8 @@
         "https://en.wikipedia.org/wiki/Proto-Cubism",
         "https://www.theartstory.org/movement/cubism/",
         "https://www.theartstory.org/movement/salon-cubism/",
+        "https://www.metmuseum.org/fr/essays/paul-cezanne-1839-1906",
+        "https://www.moma.org/collection/terms/cubism/before-and-beyond-cubism",
         "https://wist.info/picasso-pablo/3147/",
         "https://www.moma.org/collection/works/78984",
         "https://www.tate.org.uk/art/art-terms/p/post-impressionism"
@@ -56544,7 +56546,7 @@
       "type": "influenced_by",
       "to": "movement/post-impressionism",
       "certainty": "scholarly",
-      "source": "https://www.theartstory.org/movement/cubism/"
+      "source": "https://www.metmuseum.org/fr/essays/paul-cezanne-1839-1906"
     },
     {
       "from": "movement/cubism",
