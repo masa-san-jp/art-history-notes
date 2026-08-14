@@ -46,8 +46,22 @@ REVALIDATE_DAYS = 365
 
 
 def _head_commit() -> str:
-    return subprocess.run(["git", "-C", str(ROOT), "rev-parse", "HEAD"],
-                          capture_output=True, text=True, check=True).stdout.strip()
+    status = subprocess.run(
+        ["git", "-C", str(ROOT), "status", "--porcelain"],
+        capture_output=True,
+        text=True,
+        check=True,
+    ).stdout.strip()
+    if status:
+        raise RuntimeError(
+            "作業ツリーが dirty のため、HEAD を入力データの provenance として使えない"
+        )
+    return subprocess.run(
+        ["git", "-C", str(ROOT), "rev-parse", "HEAD"],
+        capture_output=True,
+        text=True,
+        check=True,
+    ).stdout.strip()
 
 
 def _iso(dt: datetime) -> str:
@@ -63,12 +77,22 @@ def _time_display(meta: dict) -> str:
     return f"{start or 'unknown'}/{end or 'unknown'}"
 
 
+def _origin_targets(meta: dict) -> list[str]:
+    return [
+        space["target"]
+        for space in meta.get("space") or []
+        if space.get("role") == "originated_in" and space.get("target")
+    ]
+
+
 def _geo(meta: dict, entities: dict) -> str:
-    for space in meta.get("space") or []:
-        if space.get("role") == "originated_in":
-            place = entities.get(space.get("target")) or {}
-            return place.get("region") or "unspecified-region"
-    return "unspecified-region"
+    regions = []
+    for target in _origin_targets(meta):
+        place = entities.get(target) or {}
+        region = place.get("region")
+        if region and region not in regions:
+            regions.append(region)
+    return ",".join(regions) if regions else "unspecified-region"
 
 
 def _relations(meta: dict) -> list[dict]:
@@ -101,8 +125,17 @@ def build_record(meta: dict, entities: dict, commit: str, now: datetime, purpose
     unknowns = []
     if not (meta.get("time") or {}).get("start"):
         unknowns.append("開始時期を単一のEDTF値に確定できていない（time.display に幅と根拠がある）")
-    if meta.get("status") != "verified":
+    verified = meta.get("status") == "verified"
+    if not verified:
         unknowns.append(f"status は {meta.get('status')} であり、verified ではない（項目ごとの根拠付けが未完）")
+    origin_targets = _origin_targets(meta)
+    if not origin_targets:
+        unknowns.append("発生地を特定できていない")
+    elif len(origin_targets) > 1:
+        unknowns.append(
+            "発生地が複数あるため、起源entityを保持する: "
+            + ", ".join(origin_targets)
+        )
 
     return {
         "signal_id": f"art-history:{slug}",
@@ -118,7 +151,7 @@ def build_record(meta: dict, entities: dict, commit: str, now: datetime, purpose
         "statement": f"{meta.get('label_ja')}（{meta.get('label_en')}）は "
                      f"{len(relations)} 件の解釈的関係を根拠付きで持つ",
         "certainty": {
-            "level": "observed" if meta.get("status") == "verified" else "inferred",
+            "level": "observed" if verified else "inferred",
             "basis": f"kind={meta.get('kind')} / status={meta.get('status')}。"
                      "関係ごとの根拠は relations[].evidence_refs にある",
         },
@@ -128,7 +161,10 @@ def build_record(meta: dict, entities: dict, commit: str, now: datetime, purpose
             "解釈を含む関係を事実の関係へ変換しない",
             "正準グラフは複製せず、安定IDと locator で参照する",
         ],
-        "validity": {"status": "valid", "checked_at": _iso(now)},
+        "validity": {
+            "status": "valid" if verified else "unknown",
+            "checked_at": _iso(now),
+        },
         "freshness": {
             "status": "current",
             "retrieved_at": _iso(now),
@@ -153,15 +189,20 @@ def main() -> int:
     args = ap.parse_args()
 
     entities, _records = load_entities()
-    commit = _head_commit()
+    if args.entity and args.entity not in entities:
+        print(f"ERROR: そのIDは無い: {args.entity}", file=sys.stderr)
+        return 1
+
+    try:
+        commit = _head_commit()
+    except (OSError, RuntimeError, subprocess.CalledProcessError) as exc:
+        print(f"ERROR: {exc}", file=sys.stderr)
+        return 1
     now = datetime.now(timezone(timedelta(hours=9))).replace(microsecond=0)
 
     targets = [entities[args.entity]] if args.entity else [
         meta for meta in entities.values() if meta.get("type") == "movement"
     ]
-    if args.entity and args.entity not in entities:
-        print(f"ERROR: そのIDは無い: {args.entity}", file=sys.stderr)
-        return 1
 
     records = []
     for meta in sorted(targets, key=lambda m: m["id"]):
