@@ -28,7 +28,7 @@ try:
 except ModuleNotFoundError:  # tools.export_signals として読まれた場合
     from tools.kb import ROOT, load_entities
 
-CONTRACT = "normalized-research-signal/v1"
+CONTRACT = "research-signal-export/v1"
 ADAPTER_VERSION = "1.0.0"
 SOURCE_REPOSITORY = "art-history"
 
@@ -218,8 +218,8 @@ def main() -> int:
         "source_commit": commit,
         "purpose": args.purpose,
         "generated_at": _iso(now),
-        "record_count": len(records),
-        "records": records,
+        "signal_count": len(records),
+        "signals": records,
     }
     text = json.dumps(payload, ensure_ascii=False, indent=2, sort_keys=True) + "\n"
     if args.output:
