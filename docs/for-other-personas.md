@@ -17,8 +17,8 @@ movement × 文化圏 × 世紀の表。**空欄は「まだ無い」**という
 ## 2. 語で探す（IDを知らなくていい）
 
 ```bash
-python3 tools/bundle.py --search 調和      # 触れているものの一覧
-python3 tools/bundle.py --search 浮世絵    # 該当なしなら「まだ無い」と返る
+uv run --locked python tools/bundle.py --search 調和      # 触れているものの一覧
+uv run --locked python tools/bundle.py --search 浮世絵    # 該当なしなら「まだ無い」と返る
 ```
 
 複数当たれば一覧、1件だけなら束をそのまま出す。**該当なしは「まだ無い」**という答えなので、
@@ -31,28 +31,40 @@ python3 tools/bundle.py --search 浮世絵    # 該当なしなら「まだ無�
 ## 3. 知りたいものを1文書で取り出す
 
 ```bash
-python3 tools/bundle.py movement/kano-school          # 1件＋周辺（担い手・場所・出典）
-python3 tools/bundle.py --region asia-east-japan      # 文化圏でまとめて
-python3 tools/bundle.py --century 19                  # 世紀でまとめて
-python3 tools/bundle.py movement/rinpa -o /tmp/x.md   # ファイルへ
+uv run --locked python tools/bundle.py movement/kano-school          # 1件＋周辺（担い手・場所・出典）
+uv run --locked python tools/bundle.py --region asia-east-japan      # 文化圏でまとめて
+uv run --locked python tools/bundle.py --century 19                  # 世紀でまとめて
+uv run --locked python tools/bundle.py movement/rinpa -o /tmp/x.md   # ファイルへ
 ```
 
 出力は markdown 1本。**出典URLが末尾に集約される**ので、そのまま引用の根拠に使える。
 
-## 4. 機械で引くなら graph.json
+## 4. 時間×空間から同時代の候補を引く
 
 ```bash
-python3 -c "import json;g=json.load(open('data/graph.json'));print(len(g['entities']),len(g['edges']))"
+uv run --locked python tools/query_spacetime.py --at 1885
+uv run --locked python tools/query_spacetime.py --from 1880 --to 1890 --regions europe-west asia-east-japan
+uv run --locked python tools/query_spacetime.py --at 1885 --near place/paris --radius-km 500 --format json
+```
+
+既定の対象はmovement。`--type`でperson/work/eventなども指定できる。年代・場所が不明なものは
+勝手に補間せず、JSON/Markdownの除外欄にIDと理由を出す。これは同時代の候補生成であり、
+**類似・影響・因果の証拠ではない**。結果を根拠にrelationsを追加しない。
+
+## 5. 機械で引くなら graph.json
+
+```bash
+uv run --locked python -c "import json;g=json.load(open('data/graph.json'));print(len(g['entities']),len(g['edges']))"
 ```
 
 `entities` は id → frontmatter、`edges` は `{from, type, to, certainty}`。逆向きは展開済み
 （`derived: true` が付く）。
 
-## 5. 現在と過去の時代文脈を比べる
+## 6. 現在と過去の時代文脈を比べる
 
 ```bash
-python3 tools/compare_context.py context/ai-art-japan-2026-h2 --kind historical --top 3
-python3 tools/compare_context.py context/ai-art-japan-2026-h2 --kind historical --top 3 --format json
+uv run --locked python tools/compare_context.py context/ai-art-japan-2026-h2 --kind historical --top 3
+uv run --locked python tools/compare_context.py context/ai-art-japan-2026-h2 --kind historical --top 3 --format json
 ```
 
 結果は類似度だけでなく、比較できた軸数、類似を強くした軸、相違を強くした軸、方向・顕著性・分極・信頼度と

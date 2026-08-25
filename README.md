@@ -76,6 +76,9 @@ uv run --locked python tools/bundle.py --search 調和               # 語で探
 uv run --locked python tools/bundle.py movement/kano-school        # 1件とその周辺を1文書で
 uv run --locked python tools/bundle.py --region asia-east-japan    # 文化圏でまとめて
 uv run --locked python tools/bundle.py --century 19                # 世紀でまとめて
+uv run --locked python tools/query_spacetime.py --at 1885
+uv run --locked python tools/query_spacetime.py --from 1880 --to 1890 --regions europe-west asia-east-japan
+uv run --locked python tools/query_spacetime.py --at 1885 --near place/paris --radius-km 500 --format json
 uv run --locked python tools/audit.py                              # 体系の食い違い・偏り → 次に調べること
 uv run --locked python tools/build_context_vectors.py --check      # 時代文脈の検証だけ
 uv run --locked python tools/build_context_vectors.py              # ベクトル・類似度を生成
@@ -85,6 +88,10 @@ uv run --locked python tools/compare_context.py context/ai-art-japan-2026-h2 --k
 1件の調査は [docs/investigation-task.md](docs/investigation-task.md) の手順だけで終わる。
 時代文脈は [docs/context-investigation-task.md](docs/context-investigation-task.md) の手順で調査し、
 [docs/context-vectors.md](docs/context-vectors.md) の固定式で比較する。
+
+`query_spacetime.py` は `data/graph.json` の時間・空間条件から同時代の候補を生成する。
+結果は類似性・影響・因果関係の証拠ではなく、年代や場所が不明なentityは補間せず除外理由を表示する。
+`--at` と `--from/--to` は排他で、BCEは天文学的年番号（例: 紀元前900年は `-899`）を使う。
 
 **他の人格（アイコたち）が読むときは [docs/for-other-personas.md](docs/for-other-personas.md) から。**
 このKBの使い手はアイコたちで、引用してよい記述とだめな記述の区別がそこに書いてある。
