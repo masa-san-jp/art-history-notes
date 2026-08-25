@@ -33,21 +33,36 @@ relations:
   - {type: influenced_by, target: movement/literati-painting, certainty: scholarly, source: "https://www.metmuseum.org/pt/essays/the-qing-dynasty-1644-1911-the-courtiers-officials-and-professional-artists"}
   - {type: diffused_to, target: place/chicago, certainty: scholarly, source: "https://api.artic.edu/api/v1/artworks/80510"}
 sources:
-  - https://www.wikidata.org/wiki/Q340808
-  - https://ja.wikipedia.org/wiki/%E6%8F%9A%E5%B7%9E%E5%85%AB%E6%80%AA
-  - https://en.wikipedia.org/wiki/Eight_Eccentrics_of_Yangzhou
-  - https://zh.wikipedia.org/wiki/%E6%89%AC%E5%B7%9E%E5%85%AB%E6%80%AA
-  - https://www.wikidata.org/wiki/Q3206010
-  - https://www.wikidata.org/wiki/Q32019
-  - https://www.wikidata.org/wiki/Q710049
-  - https://en.wikipedia.org/wiki/Qianlong_Emperor
-  - https://www.artic.edu/artworks/80510
-  - https://www.metmuseum.org/art/collection/search/52946
-  - https://www.metmuseum.org/art/collection/search/51894
-  - https://www.tnm.jp/modules/r_exhibition/index.php?controller=item&id=5882&lang=en
-  - https://www.metmuseum.org/pt/essays/the-qing-dynasty-1644-1911-the-courtiers-officials-and-professional-artists
-  - https://www.dejiart.com/en/exhibition/yudetangcangyangzhoubaguaijingpinzhan/
-  - https://api.artic.edu/api/v1/artworks/80510
+  - url: "https://www.wikidata.org/wiki/Q340808"
+    kind: authority
+  - url: "https://ja.wikipedia.org/wiki/%E6%8F%9A%E5%B7%9E%E5%85%AB%E6%80%AA"
+    kind: reference
+  - url: "https://en.wikipedia.org/wiki/Eight_Eccentrics_of_Yangzhou"
+    kind: reference
+  - url: "https://zh.wikipedia.org/wiki/%E6%89%AC%E5%B7%9E%E5%85%AB%E6%80%AA"
+    kind: reference
+  - url: "https://www.wikidata.org/wiki/Q3206010"
+    kind: authority
+  - url: "https://www.wikidata.org/wiki/Q32019"
+    kind: authority
+  - url: "https://www.wikidata.org/wiki/Q710049"
+    kind: authority
+  - url: "https://en.wikipedia.org/wiki/Qianlong_Emperor"
+    kind: reference
+  - url: "https://www.artic.edu/artworks/80510"
+    kind: institutional
+  - url: "https://www.metmuseum.org/art/collection/search/52946"
+    kind: institutional
+  - url: "https://www.metmuseum.org/art/collection/search/51894"
+    kind: institutional
+  - url: "https://www.tnm.jp/modules/r_exhibition/index.php?controller=item&id=5882&lang=en"
+    kind: institutional
+  - url: "https://www.metmuseum.org/pt/essays/the-qing-dynasty-1644-1911-the-courtiers-officials-and-professional-artists"
+    kind: institutional
+  - url: "https://www.dejiart.com/en/exhibition/yudetangcangyangzhoubaguaijingpinzhan/"
+    kind: reference
+  - url: "https://api.artic.edu/api/v1/artworks/80510"
+    kind: institutional
 images:
   - url: https://www.artic.edu/iiif/2/7967bcfe-1634-19ad-ff6c-48a10cae9a8e/full/843,/0/default.jpg
     source_page: https://www.artic.edu/artworks/80510

@@ -32,15 +32,24 @@ relations:
   - {type: influenced_by, target: movement/safavid-painting, certainty: scholarly, source: "https://www.metmuseum.org/essays/islamic-art-of-the-deccan"}
   - {type: influenced_by, target: movement/ottoman-miniature, certainty: scholarly, source: "https://www.metmuseum.org/press-releases/sultans-of-deccan-india-2015-exhibitions"}
 sources:
-  - https://www.wikidata.org/wiki/Q28173212
-  - https://vocab.getty.edu/aat/300018979
-  - https://en.wikipedia.org/wiki/Deccan_painting
-  - https://en.wikipedia.org/wiki/Golconda_painting
-  - https://www.metmuseum.org/toah/hd/decc/hd_decc.htm
-  - https://www.metmuseum.org/essays/islamic-art-of-the-deccan
-  - https://www.metmuseum.org/press-releases/sultans-of-deccan-india-2015-exhibitions
-  - https://www.metmuseum.org/art/collection/search/453975
-  - https://www.metmuseum.org/art/collection/search/453334
+  - url: "https://www.wikidata.org/wiki/Q28173212"
+    kind: authority
+  - url: "https://vocab.getty.edu/aat/300018979"
+    kind: authority
+  - url: "https://en.wikipedia.org/wiki/Deccan_painting"
+    kind: reference
+  - url: "https://en.wikipedia.org/wiki/Golconda_painting"
+    kind: reference
+  - url: "https://www.metmuseum.org/toah/hd/decc/hd_decc.htm"
+    kind: institutional
+  - url: "https://www.metmuseum.org/essays/islamic-art-of-the-deccan"
+    kind: institutional
+  - url: "https://www.metmuseum.org/press-releases/sultans-of-deccan-india-2015-exhibitions"
+    kind: institutional
+  - url: "https://www.metmuseum.org/art/collection/search/453975"
+    kind: institutional
+  - url: "https://www.metmuseum.org/art/collection/search/453334"
+    kind: institutional
 images:
   - url: https://images.metmuseum.org/CRDImages/is/original/DT4503.jpg
     source_page: https://www.metmuseum.org/art/collection/search/453975

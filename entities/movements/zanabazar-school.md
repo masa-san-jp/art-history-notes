@@ -32,20 +32,34 @@ relations:
   - {type: diffused_to, target: place/chicago, certainty: scholarly, source: "https://api.artic.edu/api/v1/artworks/158101"}
   - {type: influenced_by, target: movement/newar-art, certainty: scholarly, source: "https://en.wikipedia.org/wiki/Zanabazar"}
 sources:
-  - https://en.wikipedia.org/wiki/Zanabazar
-  - https://en.wikipedia.org/wiki/Jebtsundamba_Khutuktu
-  - https://www.wikidata.org/wiki/Q735871
-  - https://www.wikidata.org/wiki/Q1473851
-  - https://www.wikidata.org/wiki/Q7857142
-  - https://encyclopediaofbuddhism.org/wiki/Zanabazar
-  - https://www.gauchetexpert.com/en/post/a-gilded-bronze-medicine-buddha-in-the-zanabazar-style-the-golden-age-of-mongolian-buddhist-sculptu
-  - https://studybuddhism.com/en/advanced-studies/history-culture/buddhism-in-mongolia/buddhist-art-styles-in-the-mongol-regions
-  - https://www.asianart.com/mongolia/zanabazr.html
-  - https://www.mongolianz.com/post/2021/05/11/the-sublime-sculptures-of-undur-gegeen-zanabazar/
-  - https://www.bukowskis.com/en/auctions/669/1248-a-mongolian-gilt-bronze-figure-of-buddha-zanabazar-school-18th-century
-  - https://en.wikipedia.org/wiki/Stalinist_repressions_in_Mongolia
-  - https://en.wikipedia.org/wiki/Gankh%C3%BC%C3%BCgiin_P%C3%BCrevbat
-  - https://api.artic.edu/api/v1/artworks/158101
+  - url: "https://en.wikipedia.org/wiki/Zanabazar"
+    kind: reference
+  - url: "https://en.wikipedia.org/wiki/Jebtsundamba_Khutuktu"
+    kind: reference
+  - url: "https://www.wikidata.org/wiki/Q735871"
+    kind: authority
+  - url: "https://www.wikidata.org/wiki/Q1473851"
+    kind: authority
+  - url: "https://www.wikidata.org/wiki/Q7857142"
+    kind: authority
+  - url: "https://encyclopediaofbuddhism.org/wiki/Zanabazar"
+    kind: reference
+  - url: "https://www.gauchetexpert.com/en/post/a-gilded-bronze-medicine-buddha-in-the-zanabazar-style-the-golden-age-of-mongolian-buddhist-sculptu"
+    kind: reference
+  - url: "https://studybuddhism.com/en/advanced-studies/history-culture/buddhism-in-mongolia/buddhist-art-styles-in-the-mongol-regions"
+    kind: reference
+  - url: "https://www.asianart.com/mongolia/zanabazr.html"
+    kind: reference
+  - url: "https://www.mongolianz.com/post/2021/05/11/the-sublime-sculptures-of-undur-gegeen-zanabazar/"
+    kind: reference
+  - url: "https://www.bukowskis.com/en/auctions/669/1248-a-mongolian-gilt-bronze-figure-of-buddha-zanabazar-school-18th-century"
+    kind: reference
+  - url: "https://en.wikipedia.org/wiki/Stalinist_repressions_in_Mongolia"
+    kind: reference
+  - url: "https://en.wikipedia.org/wiki/Gankh%C3%BC%C3%BCgiin_P%C3%BCrevbat"
+    kind: reference
+  - url: "https://api.artic.edu/api/v1/artworks/158101"
+    kind: institutional
 images:
   - url: https://www.artic.edu/iiif/2/c9b97cd1-2f45-f0c4-a575-354f12d7e488/full/843,/0/default.jpg
     source_page: https://www.artic.edu/artworks/158101

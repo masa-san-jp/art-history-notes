@@ -32,16 +32,26 @@ relations:
   - {type: patronized_by, target: org/thanjavur-maratha-kingdom, certainty: scholarly, source: "https://tnrajbhavantour.tn.gov.in/tnrb-website-archive/Archives/Website1621/PressReleases/2019/PR040419-1.pdf"}
   - {type: influenced_by, target: movement/realism, certainty: hypothesis, source: "https://www.britishmuseum.org/collection/object/A_2020-3021-1"}
 sources:
-  - https://www.wikidata.org/wiki/Q3108584
-  - https://en.wikipedia.org/wiki/Thanjavur_painting
-  - https://www.wikidata.org/wiki/Q41496
-  - https://www.wikidata.org/wiki/Q3530610
-  - https://en.wikipedia.org/wiki/Serfoji_II
-  - https://www.metmuseum.org/art/collection/search/850685
-  - https://imp-art.org/articles/tanjore-painting/
-  - https://www.britishmuseum.org/collection/object/A_2020-3021-1
-  - https://en.natmus.dk/historical-knowledge/historical-knowledge-the-world/asia/india/tranquebar/collections-in-the-national-museum-of-denmark/south-indian-company-paintings-c-1770-1850/
-  - https://tnrajbhavantour.tn.gov.in/tnrb-website-archive/Archives/Website1621/PressReleases/2019/PR040419-1.pdf
+  - url: "https://www.wikidata.org/wiki/Q3108584"
+    kind: authority
+  - url: "https://en.wikipedia.org/wiki/Thanjavur_painting"
+    kind: reference
+  - url: "https://www.wikidata.org/wiki/Q41496"
+    kind: authority
+  - url: "https://www.wikidata.org/wiki/Q3530610"
+    kind: authority
+  - url: "https://en.wikipedia.org/wiki/Serfoji_II"
+    kind: reference
+  - url: "https://www.metmuseum.org/art/collection/search/850685"
+    kind: institutional
+  - url: "https://imp-art.org/articles/tanjore-painting/"
+    kind: reference
+  - url: "https://www.britishmuseum.org/collection/object/A_2020-3021-1"
+    kind: institutional
+  - url: "https://en.natmus.dk/historical-knowledge/historical-knowledge-the-world/asia/india/tranquebar/collections-in-the-national-museum-of-denmark/south-indian-company-paintings-c-1770-1850/"
+    kind: reference
+  - url: "https://tnrajbhavantour.tn.gov.in/tnrb-website-archive/Archives/Website1621/PressReleases/2019/PR040419-1.pdf"
+    kind: scholarly
 images:
   - url: https://images.metmuseum.org/CRDImages/as/original/DP-22860-001.jpg
     source_page: https://www.metmuseum.org/art/collection/search/850685

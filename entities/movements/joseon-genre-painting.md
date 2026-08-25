@@ -31,18 +31,30 @@ relations:
   - {type: influenced_by, target: movement/jingyeong-sansuhwa, certainty: scholarly, source: "https://contents.history.go.kr/mobile/nh/view.do?levelId=nh_035_0040_0020_0010_0040"}
   - {type: influenced_by, target: movement/zhe-school, certainty: scholarly, source: "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002897801"}
 sources:
-  - https://encykorea.aks.ac.kr/Article/E0060400
-  - https://contents.history.go.kr/mobile/nh/view.do?levelId=nh_035_0040_0020_0010_0040
-  - https://encykorea.aks.ac.kr/Article/E0052396
-  - https://encykorea.aks.ac.kr/Article/E0009036
-  - https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002897801
-  - https://dh.aks.ac.kr/Korea100/wiki/index.php/%EA%B9%80%ED%99%8D%EB%8F%84%EC%99%80_%EC%8B%A0%EC%9C%A4%EB%B3%B5:_%EC%A1%B0%EC%84%A0_%ED%9B%84%EA%B8%B0%EC%9D%98_%ED%92%8D%EC%86%8D%ED%99%94%EA%B0%80
-  - https://ko.wikipedia.org/wiki/%EC%9C%A4%EB%91%90%EC%84%9C
-  - https://ko.wikipedia.org/wiki/%EA%B9%80%ED%99%8D%EB%8F%84
-  - https://www.wikidata.org/wiki/Q214127
-  - https://www.wikidata.org/wiki/Q494712
-  - https://www.wikidata.org/wiki/Q484262
-  - https://www.wikidata.org/wiki/Q8061186
+  - url: "https://encykorea.aks.ac.kr/Article/E0060400"
+    kind: institutional
+  - url: "https://contents.history.go.kr/mobile/nh/view.do?levelId=nh_035_0040_0020_0010_0040"
+    kind: reference
+  - url: "https://encykorea.aks.ac.kr/Article/E0052396"
+    kind: institutional
+  - url: "https://encykorea.aks.ac.kr/Article/E0009036"
+    kind: institutional
+  - url: "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002897801"
+    kind: scholarly
+  - url: "https://dh.aks.ac.kr/Korea100/wiki/index.php/%EA%B9%80%ED%99%8D%EB%8F%84%EC%99%80_%EC%8B%A0%EC%9C%A4%EB%B3%B5:_%EC%A1%B0%EC%84%A0_%ED%9B%84%EA%B8%B0%EC%9D%98_%ED%92%8D%EC%86%8D%ED%99%94%EA%B0%80"
+    kind: institutional
+  - url: "https://ko.wikipedia.org/wiki/%EC%9C%A4%EB%91%90%EC%84%9C"
+    kind: reference
+  - url: "https://ko.wikipedia.org/wiki/%EA%B9%80%ED%99%8D%EB%8F%84"
+    kind: reference
+  - url: "https://www.wikidata.org/wiki/Q214127"
+    kind: authority
+  - url: "https://www.wikidata.org/wiki/Q494712"
+    kind: authority
+  - url: "https://www.wikidata.org/wiki/Q484262"
+    kind: authority
+  - url: "https://www.wikidata.org/wiki/Q8061186"
+    kind: authority
 images:
   - url: https://upload.wikimedia.org/wikipedia/commons/d/d0/Danwon-Ssireum.jpg
     source_page: https://commons.wikimedia.org/wiki/File:Danwon-Ssireum.jpg

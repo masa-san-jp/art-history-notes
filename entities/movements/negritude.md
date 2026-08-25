@@ -32,11 +32,16 @@ relations:
   - {type: influenced_by, target: movement/harlem-renaissance, certainty: scholarly, source: "https://plato.stanford.edu/entries/negritude/"}
   - {type: influenced_by, target: movement/surrealism, certainty: scholarly, source: "https://www.tate.org.uk/art/art-terms/n/negritude"}
 sources:
-  - https://www.wikidata.org/wiki/Q852544
-  - https://plato.stanford.edu/entries/negritude/
-  - https://www.tate.org.uk/art/art-terms/n/negritude
-  - https://poets.org/text/brief-guide-negritude
-  - https://en.wikipedia.org/wiki/Aim%C3%A9_C%C3%A9saire
+  - url: "https://www.wikidata.org/wiki/Q852544"
+    kind: authority
+  - url: "https://plato.stanford.edu/entries/negritude/"
+    kind: institutional
+  - url: "https://www.tate.org.uk/art/art-terms/n/negritude"
+    kind: institutional
+  - url: "https://poets.org/text/brief-guide-negritude"
+    kind: reference
+  - url: "https://en.wikipedia.org/wiki/Aim%C3%A9_C%C3%A9saire"
+    kind: reference
 status: draft
 updated: 2026-08-09
 ---

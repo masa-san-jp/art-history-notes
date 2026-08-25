@@ -33,14 +33,24 @@ space:
 relations:
   - {type: reacts_against, target: movement/expressionism, certainty: scholarly, source: "https://www.moma.org/documents/moma_catalogue_2823_300061909.pdf"}
 sources:
-  - https://www.wikidata.org/wiki/Q6034
-  - https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300021500
-  - https://en.wikipedia.org/wiki/Dada
-  - https://en.wikipedia.org/wiki/Cabaret_Voltaire_(Zurich)
-  - https://en.wikipedia.org/wiki/Cabaret_Voltaire_(magazine)
-  - https://en.wikipedia.org/wiki/Dada_Manifesto
-  - https://writing.upenn.edu/library/Tzara_Dada-Manifesto_1918.pdf
-  - https://www.britannica.com/art/Dada
+  - url: "https://www.wikidata.org/wiki/Q6034"
+    kind: authority
+  - url: "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300021500"
+    kind: authority
+  - url: "https://en.wikipedia.org/wiki/Dada"
+    kind: reference
+  - url: "https://en.wikipedia.org/wiki/Cabaret_Voltaire_(Zurich)"
+    kind: reference
+  - url: "https://en.wikipedia.org/wiki/Cabaret_Voltaire_(magazine)"
+    kind: reference
+  - url: "https://en.wikipedia.org/wiki/Dada_Manifesto"
+    kind: reference
+  - url: "https://writing.upenn.edu/library/Tzara_Dada-Manifesto_1918.pdf"
+    kind: scholarly
+  - url: "https://www.britannica.com/art/Dada"
+    kind: reference
+  - url: "https://www.moma.org/documents/moma_catalogue_2823_300061909.pdf"
+    kind: scholarly
 status: draft
 updated: 2026-08-11
 ---

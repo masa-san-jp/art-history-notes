@@ -28,15 +28,24 @@ space:
   - {role: originated_in, target: place/mexico-city}
 relations: []
 sources:
-  - https://www.wikidata.org/wiki/Q938864
-  - https://www.getty.edu/vow/AATFullDisplay?find=&place=&nation=&logic=&note=&role=&subjectid=300107850
-  - https://en.wikipedia.org/wiki/Mexican_muralism
-  - https://www.theartstory.org/movement/mexican-muralism/
-  - https://www.wikidata.org/wiki/Q750196
-  - https://www.wikidata.org/wiki/Q1367381
-  - https://www.scielo.org.mx/scielo.php?script=sci_arttext&pid=S2448-83722019000100115
-  - https://lineriderpress.com/siqueiros-1922-art-manifesto-manifesto-del-sindicato-de-obreros-tecnicos-pintores-y-escultores/
-  - https://designmanifestos.org/taller-de-grafica-popular-manifesto-of-the-painters-union/
+  - url: "https://www.wikidata.org/wiki/Q938864"
+    kind: authority
+  - url: "https://www.getty.edu/vow/AATFullDisplay?find=&place=&nation=&logic=&note=&role=&subjectid=300107850"
+    kind: authority
+  - url: "https://en.wikipedia.org/wiki/Mexican_muralism"
+    kind: reference
+  - url: "https://www.theartstory.org/movement/mexican-muralism/"
+    kind: reference
+  - url: "https://www.wikidata.org/wiki/Q750196"
+    kind: authority
+  - url: "https://www.wikidata.org/wiki/Q1367381"
+    kind: authority
+  - url: "https://www.scielo.org.mx/scielo.php?script=sci_arttext&pid=S2448-83722019000100115"
+    kind: scholarly
+  - url: "https://lineriderpress.com/siqueiros-1922-art-manifesto-manifesto-del-sindicato-de-obreros-tecnicos-pintores-y-escultores/"
+    kind: reference
+  - url: "https://designmanifestos.org/taller-de-grafica-popular-manifesto-of-the-painters-union/"
+    kind: reference
 status: draft
 updated: 2026-08-09
 ---

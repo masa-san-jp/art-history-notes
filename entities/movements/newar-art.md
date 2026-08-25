@@ -28,11 +28,16 @@ space:
   - {role: originated_in, target: place/kathmandu}
 relations: []
 sources:
-  - https://rubinmuseum.org/projecthimalayanart/glossary/newar/
-  - https://rubinmuseum.org/projecthimalayanart/essays/jivaramas-sketchbook/
-  - https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300018822
-  - https://www.wikidata.org/wiki/Q7148832
-  - https://www.wikidata.org/wiki/Q1217053
+  - url: "https://rubinmuseum.org/projecthimalayanart/glossary/newar/"
+    kind: institutional
+  - url: "https://rubinmuseum.org/projecthimalayanart/essays/jivaramas-sketchbook/"
+    kind: institutional
+  - url: "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300018822"
+    kind: authority
+  - url: "https://www.wikidata.org/wiki/Q7148832"
+    kind: authority
+  - url: "https://www.wikidata.org/wiki/Q1217053"
+    kind: authority
 status: draft
 updated: 2026-08-10
 ---

@@ -28,11 +28,16 @@ relations:
   - {type: influenced_by, target: movement/dada, certainty: scholarly, source: "https://museum.geidai.ac.jp/exhibit/2005/06/dada.html"}
   - {type: influenced_by, target: movement/constructivism, certainty: scholarly, source: "https://museum.geidai.ac.jp/exhibit/2005/06/dada.html"}
 sources:
-  - https://www.wikidata.org/wiki/Q11231120
-  - https://artplatform.go.jp/ja/artists/A5349
-  - https://museum.geidai.ac.jp/exhibit/2005/06/dada.html
-  - https://artplatform.go.jp/ja/artists/A1970
-  - https://artscape.jp/dictionary/modern/1198381_1637.html
+  - url: "https://www.wikidata.org/wiki/Q11231120"
+    kind: authority
+  - url: "https://artplatform.go.jp/ja/artists/A5349"
+    kind: institutional
+  - url: "https://museum.geidai.ac.jp/exhibit/2005/06/dada.html"
+    kind: institutional
+  - url: "https://artplatform.go.jp/ja/artists/A1970"
+    kind: institutional
+  - url: "https://artscape.jp/dictionary/modern/1198381_1637.html"
+    kind: reference
 status: draft
 updated: 2026-08-12
 ---

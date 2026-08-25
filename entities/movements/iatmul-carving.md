@@ -57,19 +57,34 @@ images:
       Access）。前項と対になる作例——大型のスリット・ゴングは男女一対など複数を儀礼の家の床に
       並べて置く慣行が記録されている（factsanddetails.com \"Sepik River Groups\"、二次情報）"
 sources:
-  - https://www.wikidata.org/wiki/Q3147375
-  - https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300021904
-  - https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300021901
-  - https://en.wikipedia.org/wiki/Iatmul_people
-  - https://en.wikipedia.org/wiki/Sepik_River
-  - https://www.wikidata.org/wiki/Q62556769
-  - https://www.wikidata.org/wiki/Q848308
-  - https://www.metmuseum.org/art/collection/search/311262
-  - https://www.metmuseum.org/art/collection/search/311263
-  - https://ioa.factsanddetails.com/article/entry-563.html
-  - https://ioa.factsanddetails.com/article/entry-962.html
-  - https://www.britannica.com/art/Oceanic-art/The-Sepik-River-regions
-  - https://global.oup.com/academic/product/names-are-thicker-than-blood-9780197264454
+  - url: "https://www.wikidata.org/wiki/Q3147375"
+    kind: authority
+  - url: "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300021904"
+    kind: authority
+  - url: "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300021901"
+    kind: authority
+  - url: "https://en.wikipedia.org/wiki/Iatmul_people"
+    kind: reference
+  - url: "https://en.wikipedia.org/wiki/Sepik_River"
+    kind: reference
+  - url: "https://www.wikidata.org/wiki/Q62556769"
+    kind: authority
+  - url: "https://www.wikidata.org/wiki/Q848308"
+    kind: authority
+  - url: "https://www.metmuseum.org/art/collection/search/311262"
+    kind: institutional
+  - url: "https://www.metmuseum.org/art/collection/search/311263"
+    kind: institutional
+  - url: "https://ioa.factsanddetails.com/article/entry-563.html"
+    kind: reference
+  - url: "https://ioa.factsanddetails.com/article/entry-962.html"
+    kind: reference
+  - url: "https://www.britannica.com/art/Oceanic-art/The-Sepik-River-regions"
+    kind: reference
+  - url: "https://global.oup.com/academic/product/names-are-thicker-than-blood-9780197264454"
+    kind: scholarly
+  - url: "https://www.amisquaibranly.fr/wp-content/uploads/2016/10/fiche-sculpture-iatmul.pdf"
+    kind: scholarly
 status: draft
 updated: 2026-08-25
 ---

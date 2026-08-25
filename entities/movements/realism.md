@@ -29,9 +29,12 @@ space:
   - {role: originated_in, target: place/paris}
 relations: []
 sources:
-  - https://www.wikidata.org/wiki/Q2642826
-  - https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300172861
-  - https://www.britannica.com/art/Realism-art
+  - url: "https://www.wikidata.org/wiki/Q2642826"
+    kind: authority
+  - url: "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300172861"
+    kind: authority
+  - url: "https://www.britannica.com/art/Realism-art"
+    kind: reference
 status: draft
 updated: 2026-08-12
 ---

@@ -30,10 +30,14 @@ space:
 relations:
   - {type: influenced_by, target: movement/byzantine-art, certainty: scholarly, source: "https://www.metmuseum.org/pt/met-publications/the-year-1200-a-background-survey"}
 sources:
-  - https://www.wikidata.org/wiki/Q46825
-  - https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300020775
-  - https://www.metmuseum.org/fr/essays/gothic-art
-  - https://www.metmuseum.org/pt/met-publications/the-year-1200-a-background-survey
+  - url: "https://www.wikidata.org/wiki/Q46825"
+    kind: authority
+  - url: "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300020775"
+    kind: authority
+  - url: "https://www.metmuseum.org/fr/essays/gothic-art"
+    kind: institutional
+  - url: "https://www.metmuseum.org/pt/met-publications/the-year-1200-a-background-survey"
+    kind: institutional
 status: draft
 updated: 2026-08-12
 ---

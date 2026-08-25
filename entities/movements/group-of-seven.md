@@ -40,19 +40,34 @@ images:
     license: public-domain
     note: "ローレン・ハリス《北岸、スペリオル湖（North Shore, Lake Superior）》1926年、油彩、アート・ギャラリー・オブ・オンタリオ蔵。7人のうち最も裕福で、スタジオ・ビルディングの共同出資者でもあったハリスの代表作。作者は1970年没のためカナダで著作権保護期間満了（PD-Canada、創作者が1972年1月1日より前に死去した作品の規定に該当）"
 sources:
-  - https://www.wikidata.org/wiki/Q1547741
-  - https://archive.org/details/groupof7catalogu00grou
-  - https://ia903103.us.archive.org/28/items/groupof7catalogu00grou/groupof7catalogu00grou_djvu.txt
-  - https://en.wikipedia.org/wiki/Group_of_Seven_(artists)
-  - https://en.wikipedia.org/wiki/Canadian_Group_of_Painters
-  - https://en.wikipedia.org/wiki/Tom_Thomson
-  - https://en.wikipedia.org/wiki/A._J._Casson
-  - https://www.theartstory.org/movement/group-of-seven/
-  - https://www.parks.canada.ca/culture/designation/evenement-event/groupe-sept-group-seven
-  - https://boutique.gallery.ca/collections/ngc-publications?page=2
-  - https://commons.wikimedia.org/wiki/File:The_Tangled_Garden.jpg
-  - https://commons.wikimedia.org/wiki/File:Lawren_Harris_North_Shore,_Lake_Superior_1926.jpg
-  - https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1335089/
+  - url: "https://www.wikidata.org/wiki/Q1547741"
+    kind: authority
+  - url: "https://archive.org/details/groupof7catalogu00grou"
+    kind: primary
+    note: "URLの資料パスから一次資料と判定"
+  - url: "https://ia903103.us.archive.org/28/items/groupof7catalogu00grou/groupof7catalogu00grou_djvu.txt"
+    kind: primary
+    note: "URLの資料パスから一次資料と判定"
+  - url: "https://en.wikipedia.org/wiki/Group_of_Seven_(artists)"
+    kind: reference
+  - url: "https://en.wikipedia.org/wiki/Canadian_Group_of_Painters"
+    kind: reference
+  - url: "https://en.wikipedia.org/wiki/Tom_Thomson"
+    kind: reference
+  - url: "https://en.wikipedia.org/wiki/A._J._Casson"
+    kind: reference
+  - url: "https://www.theartstory.org/movement/group-of-seven/"
+    kind: reference
+  - url: "https://www.parks.canada.ca/culture/designation/evenement-event/groupe-sept-group-seven"
+    kind: reference
+  - url: "https://boutique.gallery.ca/collections/ngc-publications?page=2"
+    kind: reference
+  - url: "https://commons.wikimedia.org/wiki/File:The_Tangled_Garden.jpg"
+    kind: reference
+  - url: "https://commons.wikimedia.org/wiki/File:Lawren_Harris_North_Shore,_Lake_Superior_1926.jpg"
+    kind: reference
+  - url: "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1335089/"
+    kind: reference
 status: draft
 updated: 2026-08-09
 ---

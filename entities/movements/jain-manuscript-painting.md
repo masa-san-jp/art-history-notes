@@ -29,14 +29,22 @@ space:
   - {role: originated_in, target: place/patan}
 relations: []
 sources:
-  - https://www.metmuseum.org/essays/jain-manuscript-painting
-  - https://chitrolekha.com/ns/v8n1/v8n102.pdf
-  - https://doi.org/10.21659/cjad.81.v8n102
-  - https://www.britannica.com/art/Western-Indian-painting
-  - https://en.wikipedia.org/wiki/Indian_painting
-  - https://www.wikidata.org/wiki/Q579702
-  - https://www.metmuseum.org/art/collection/search/74883
-  - https://www.metmuseum.org/art/collection/search/37788
+  - url: "https://www.metmuseum.org/essays/jain-manuscript-painting"
+    kind: institutional
+  - url: "https://chitrolekha.com/ns/v8n1/v8n102.pdf"
+    kind: scholarly
+  - url: "https://doi.org/10.21659/cjad.81.v8n102"
+    kind: scholarly
+  - url: "https://www.britannica.com/art/Western-Indian-painting"
+    kind: reference
+  - url: "https://en.wikipedia.org/wiki/Indian_painting"
+    kind: reference
+  - url: "https://www.wikidata.org/wiki/Q579702"
+    kind: authority
+  - url: "https://www.metmuseum.org/art/collection/search/74883"
+    kind: institutional
+  - url: "https://www.metmuseum.org/art/collection/search/37788"
+    kind: institutional
 images:
   - url: https://images.metmuseum.org/CRDImages/as/original/DP156423.jpg
     source_page: https://www.metmuseum.org/art/collection/search/74883

@@ -32,14 +32,22 @@ relations:
   - {type: responds_to, target: movement/utagawa-school, certainty: scholarly, source: "https://www.musee-orsay.fr/en/exhibitions/japanese-affinities-towards-modern-decoration-196090"}
   - {type: diffused_to, target: place/brussels, certainty: scholarly, source: "https://www.smb.museum/fileadmin/website/Presse/Pressematerial/2020/09/BS_Presse_EN_04b_Catalogue-Gleis.pdf"}
 sources:
-  - https://www.wikidata.org/wiki/Q164800
-  - https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300021514
-  - https://www.britannica.com/art/Symbolism-literary-and-artistic-movement
-  - https://www.metmuseum.org/es/essays/symbolism
-  - https://www.moma.org/docs/press_archives/4863/releases/MOMA_1972_0092_82A.pdf
-  - https://www.musee-orsay.fr/en/exhibitions/japanese-affinities-towards-modern-decoration-196090
-  - https://www.metmuseum.org/pt/essays/japonisme
-  - https://www.smb.museum/fileadmin/website/Presse/Pressematerial/2020/09/BS_Presse_EN_04b_Catalogue-Gleis.pdf
+  - url: "https://www.wikidata.org/wiki/Q164800"
+    kind: authority
+  - url: "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300021514"
+    kind: authority
+  - url: "https://www.britannica.com/art/Symbolism-literary-and-artistic-movement"
+    kind: reference
+  - url: "https://www.metmuseum.org/es/essays/symbolism"
+    kind: institutional
+  - url: "https://www.moma.org/docs/press_archives/4863/releases/MOMA_1972_0092_82A.pdf"
+    kind: scholarly
+  - url: "https://www.musee-orsay.fr/en/exhibitions/japanese-affinities-towards-modern-decoration-196090"
+    kind: institutional
+  - url: "https://www.metmuseum.org/pt/essays/japonisme"
+    kind: institutional
+  - url: "https://www.smb.museum/fileadmin/website/Presse/Pressematerial/2020/09/BS_Presse_EN_04b_Catalogue-Gleis.pdf"
+    kind: scholarly
 status: draft
 updated: 2026-08-13
 ---

@@ -30,15 +30,24 @@ space:
 relations:
   - {type: grouped_as, target: movement/literati-painting, certainty: scholarly, source: "https://www.hkpm.org.hk/en/visit/audio-guide/g4-stories-untold"}
 sources:
-  - https://www.wikidata.org/wiki/Q558875
-  - https://ja.wikipedia.org/wiki/%E5%91%89%E6%B4%BE
-  - https://zh.wikipedia.org/wiki/%E5%90%B3%E9%96%80%E7%95%AB%E6%B4%BE
-  - https://en.wikipedia.org/wiki/Wu_School
-  - https://www.wikidata.org/wiki/Q558863
-  - https://www.wikidata.org/wiki/Q42622
-  - https://zh.wikipedia.org/wiki/%E6%96%87%E5%BE%B5%E6%98%8E
-  - https://www.britannica.com/biography/Dong-Qichang
-  - https://www.hkpm.org.hk/en/visit/audio-guide/g4-stories-untold
+  - url: "https://www.wikidata.org/wiki/Q558875"
+    kind: authority
+  - url: "https://ja.wikipedia.org/wiki/%E5%91%89%E6%B4%BE"
+    kind: reference
+  - url: "https://zh.wikipedia.org/wiki/%E5%90%B3%E9%96%80%E7%95%AB%E6%B4%BE"
+    kind: reference
+  - url: "https://en.wikipedia.org/wiki/Wu_School"
+    kind: reference
+  - url: "https://www.wikidata.org/wiki/Q558863"
+    kind: authority
+  - url: "https://www.wikidata.org/wiki/Q42622"
+    kind: authority
+  - url: "https://zh.wikipedia.org/wiki/%E6%96%87%E5%BE%B5%E6%98%8E"
+    kind: reference
+  - url: "https://www.britannica.com/biography/Dong-Qichang"
+    kind: reference
+  - url: "https://www.hkpm.org.hk/en/visit/audio-guide/g4-stories-untold"
+    kind: reference
 images:
   - url: https://images.metmuseum.org/CRDImages/as/original/DP-13849-002.jpg
     source_page: https://www.metmuseum.org/art/collection/search/45682

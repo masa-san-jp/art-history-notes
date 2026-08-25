@@ -33,14 +33,22 @@ relations:
   - {type: influenced_by, target: movement/post-impressionism, certainty: scholarly, source: "https://www.jpf.go.jp/j/publish/asia_exhibition_history/pdf/17_95_modernism_5.pdf"}
   - {type: influenced_by, target: movement/cubism, certainty: scholarly, source: "https://www.jpf.go.jp/j/publish/asia_exhibition_history/pdf/17_95_modernism_5.pdf"}
 sources:
-  - https://www.jpf.go.jp/j/publish/asia_exhibition_history/pdf/17_95_modernism_5.pdf
-  - https://cdn.aaa.org.hk/_source/digital_collection/fedora_extracted/45808.pdf
-  - https://www.wikidata.org/wiki/Q2145607
-  - https://en.wikipedia.org/wiki/Victorio_Edades
-  - https://www.britannica.com/topic/Thirteen-Moderns
-  - https://www.tumblr.com/galeriaderojo-blog-blog/22964738646/philart-101-the-thirteen-moderns
-  - https://search.worldcat.org/title/edades-and-the-13-moderns/oclc/37442639
-  - https://www.tatlerasia.com/lifestyle/arts/purita-kalaw-ledesma-the-woman-who-changed-the-history-of-philippine-art
+  - url: "https://www.jpf.go.jp/j/publish/asia_exhibition_history/pdf/17_95_modernism_5.pdf"
+    kind: scholarly
+  - url: "https://cdn.aaa.org.hk/_source/digital_collection/fedora_extracted/45808.pdf"
+    kind: scholarly
+  - url: "https://www.wikidata.org/wiki/Q2145607"
+    kind: authority
+  - url: "https://en.wikipedia.org/wiki/Victorio_Edades"
+    kind: reference
+  - url: "https://www.britannica.com/topic/Thirteen-Moderns"
+    kind: reference
+  - url: "https://www.tumblr.com/galeriaderojo-blog-blog/22964738646/philart-101-the-thirteen-moderns"
+    kind: reference
+  - url: "https://search.worldcat.org/title/edades-and-the-13-moderns/oclc/37442639"
+    kind: reference
+  - url: "https://www.tatlerasia.com/lifestyle/arts/purita-kalaw-ledesma-the-woman-who-changed-the-history-of-philippine-art"
+    kind: reference
 status: draft
 updated: 2026-08-09
 ---

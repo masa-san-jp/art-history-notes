@@ -47,26 +47,49 @@ images:
     license: public-domain
     note: "クロード・モネ《サン゠ラザール駅、ノルマンディー列車の到着》1877年、シカゴ美術館蔵。第3回展（1877年）出品作（同館の publication history が catalogue番号97として記録）"
 sources:
-  - https://www.wikidata.org/wiki/Q40415
-  - https://www.wikidata.org/wiki/Q3487659
-  - https://www.wikidata.org/wiki/Q50659
-  - https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300021503
-  - https://gallica.bnf.fr/ark:/12148/bpt6k30708891/f2.item
-  - https://www.france-memoire.fr/wp-content/uploads/2022/07/charivari_documentv2.pdf
-  - https://en.wikipedia.org/wiki/First_Impressionist_Exhibition
-  - https://en.wikipedia.org/wiki/Impressionism
-  - https://www.clevelandart.org/art/1950.89
-  - https://www.artic.edu/artworks/16571
-  - https://api.artic.edu/api/v1/artworks/16571
-  - https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300021505
-  - https://www.getty.edu/education/for_teachers/curricula/impressionism/background1.html
-  - https://en.wikipedia.org/wiki/Fondation_Monet_in_Giverny
-  - https://fondation-monet.com/en/decouvrir/les-estampes-japonaises/
-  - https://en.wikipedia.org/wiki/La_Japonaise_(painting)
-  - https://collections.mfa.org/objects/33556
-  - https://www.nationalgallery.org.uk/about-us/press-and-media/press-releases-archive/inventing-impressionism
-  - https://www.metmuseum.org/zh/essays/william-merritt-chase-1849-1916
-  - https://www.musee-orsay.fr/sites/default/files/2022-06/SalonsExpositions_1673-1961_v1_20220707.pdf
+  - url: "https://www.wikidata.org/wiki/Q40415"
+    kind: authority
+  - url: "https://www.wikidata.org/wiki/Q3487659"
+    kind: authority
+  - url: "https://www.wikidata.org/wiki/Q50659"
+    kind: authority
+  - url: "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300021503"
+    kind: authority
+  - url: "https://gallica.bnf.fr/ark:/12148/bpt6k30708891/f2.item"
+    kind: primary
+    note: "URLの資料パスから一次資料と判定"
+  - url: "https://www.france-memoire.fr/wp-content/uploads/2022/07/charivari_documentv2.pdf"
+    kind: scholarly
+  - url: "https://en.wikipedia.org/wiki/First_Impressionist_Exhibition"
+    kind: reference
+  - url: "https://en.wikipedia.org/wiki/Impressionism"
+    kind: reference
+  - url: "https://www.clevelandart.org/art/1950.89"
+    kind: institutional
+  - url: "https://www.artic.edu/artworks/16571"
+    kind: institutional
+  - url: "https://api.artic.edu/api/v1/artworks/16571"
+    kind: institutional
+  - url: "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300021505"
+    kind: authority
+  - url: "https://www.getty.edu/education/for_teachers/curricula/impressionism/background1.html"
+    kind: authority
+  - url: "https://en.wikipedia.org/wiki/Fondation_Monet_in_Giverny"
+    kind: reference
+  - url: "https://fondation-monet.com/en/decouvrir/les-estampes-japonaises/"
+    kind: reference
+  - url: "https://en.wikipedia.org/wiki/La_Japonaise_(painting)"
+    kind: reference
+  - url: "https://collections.mfa.org/objects/33556"
+    kind: reference
+  - url: "https://www.nationalgallery.org.uk/about-us/press-and-media/press-releases-archive/inventing-impressionism"
+    kind: institutional
+  - url: "https://www.metmuseum.org/zh/essays/william-merritt-chase-1849-1916"
+    kind: institutional
+  - url: "https://www.musee-orsay.fr/sites/default/files/2022-06/SalonsExpositions_1673-1961_v1_20220707.pdf"
+    kind: scholarly
+  - url: "https://digistore.bib.ulb.ac.be/2008/DL2864764_1886_f.pdf"
+    kind: scholarly
 status: verified
 updated: 2026-08-11
 ---

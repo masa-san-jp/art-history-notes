@@ -31,15 +31,24 @@ space:
 relations:
   - {type: precedes, target: movement/zhe-school}
 sources:
-  - https://www.wikidata.org/wiki/Q11658098
-  - https://zh.wikipedia.org/wiki/%E9%99%A2%E4%BD%93%E7%94%BB
-  - https://ja.wikipedia.org/wiki/%E9%99%A2%E4%BD%93%E7%94%BB
-  - https://www.wikidata.org/wiki/Q1147043
-  - https://www.wikidata.org/wiki/Q208471
-  - https://en.wikipedia.org/wiki/Zhe_school_(painting)
-  - https://en.wikipedia.org/wiki/Ming_dynasty_painting
-  - https://www.metmuseum.org/art/collection/search/36005
-  - https://www.metmuseum.org/art/collection/search/40086
+  - url: "https://www.wikidata.org/wiki/Q11658098"
+    kind: authority
+  - url: "https://zh.wikipedia.org/wiki/%E9%99%A2%E4%BD%93%E7%94%BB"
+    kind: reference
+  - url: "https://ja.wikipedia.org/wiki/%E9%99%A2%E4%BD%93%E7%94%BB"
+    kind: reference
+  - url: "https://www.wikidata.org/wiki/Q1147043"
+    kind: authority
+  - url: "https://www.wikidata.org/wiki/Q208471"
+    kind: authority
+  - url: "https://en.wikipedia.org/wiki/Zhe_school_(painting)"
+    kind: reference
+  - url: "https://en.wikipedia.org/wiki/Ming_dynasty_painting"
+    kind: reference
+  - url: "https://www.metmuseum.org/art/collection/search/36005"
+    kind: institutional
+  - url: "https://www.metmuseum.org/art/collection/search/40086"
+    kind: institutional
 images:
   - url: https://images.metmuseum.org/CRDImages/as/original/DP154073.jpg
     source_page: https://www.metmuseum.org/art/collection/search/36005

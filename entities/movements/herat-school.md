@@ -34,21 +34,36 @@ relations:
   - {type: influenced_by, target: movement/baghdad-school-of-illustration, certainty: scholarly, source: "https://resources.metmuseum.org/resources/metpublications/pdf/Masterpieces_from_the_Department_of_Islamic_Art_in_The_Metropolitan_Museum_of_Art.pdf"}
   - {type: influenced_by, target: movement/shiraz-school, certainty: scholarly, source: "https://resources.metmuseum.org/resources/metpublications/pdf/Masterpieces_from_the_Department_of_Islamic_Art_in_The_Metropolitan_Museum_of_Art.pdf"}
 sources:
-  - https://www.wikidata.org/wiki/Q5958652
-  - https://www.wikidata.org/wiki/Q484195
-  - https://www.wikidata.org/wiki/Q2669775
-  - https://www.wikidata.org/wiki/Q553204
-  - https://www.wikidata.org/wiki/Q334875
-  - https://www.wikidata.org/wiki/Q45313
-  - https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300021797
-  - https://en.wikipedia.org/wiki/Baysunghur
-  - https://en.wikipedia.org/wiki/Kam%C4%81l_ud-D%C4%ABn_Behz%C4%81d
-  - https://en.wikipedia.org/wiki/Sultan_Husayn_Bayqara
-  - https://www.ebsco.com/research-starters/visual-arts/herat-school-painting
-  - https://www.reed.edu/persian-calligraphy/en/jafar-baysonghori/index.html
-  - https://www.britannica.com/art/Herat-school
-  - https://resources.metmuseum.org/resources/metpublications/pdf/Masterpieces_from_the_Department_of_Islamic_Art_in_The_Metropolitan_Museum_of_Art.pdf
-  - https://www.metmuseum.org/art/collection/search/455041
+  - url: "https://www.wikidata.org/wiki/Q5958652"
+    kind: authority
+  - url: "https://www.wikidata.org/wiki/Q484195"
+    kind: authority
+  - url: "https://www.wikidata.org/wiki/Q2669775"
+    kind: authority
+  - url: "https://www.wikidata.org/wiki/Q553204"
+    kind: authority
+  - url: "https://www.wikidata.org/wiki/Q334875"
+    kind: authority
+  - url: "https://www.wikidata.org/wiki/Q45313"
+    kind: authority
+  - url: "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300021797"
+    kind: authority
+  - url: "https://en.wikipedia.org/wiki/Baysunghur"
+    kind: reference
+  - url: "https://en.wikipedia.org/wiki/Kam%C4%81l_ud-D%C4%ABn_Behz%C4%81d"
+    kind: reference
+  - url: "https://en.wikipedia.org/wiki/Sultan_Husayn_Bayqara"
+    kind: reference
+  - url: "https://www.ebsco.com/research-starters/visual-arts/herat-school-painting"
+    kind: reference
+  - url: "https://www.reed.edu/persian-calligraphy/en/jafar-baysonghori/index.html"
+    kind: institutional
+  - url: "https://www.britannica.com/art/Herat-school"
+    kind: reference
+  - url: "https://resources.metmuseum.org/resources/metpublications/pdf/Masterpieces_from_the_Department_of_Islamic_Art_in_The_Metropolitan_Museum_of_Art.pdf"
+    kind: scholarly
+  - url: "https://www.metmuseum.org/art/collection/search/455041"
+    kind: institutional
 images:
   - url: https://images.metmuseum.org/CRDImages/is/original/DP231332.jpg
     source_page: https://www.metmuseum.org/art/collection/search/446892

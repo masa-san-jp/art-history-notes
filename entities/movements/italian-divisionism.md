@@ -35,15 +35,26 @@ relations:
   - {type: diffused_to, target: place/london, certainty: scholarly, source: "https://www.mart.tn.it/en/mostre/vittore-grubicy-and-europe-at-the-roots-of-divisionism-138656"}
   - {type: diffused_to, target: place/paris, certainty: scholarly, source: "https://www.mart.tn.it/en/mostre/vittore-grubicy-and-europe-at-the-roots-of-divisionism-138656"}
 sources:
-  - https://www.treccani.it/enciclopedia/divisionismo/
-  - https://www.treccani.it/enciclopedia/divisionismo_%28Enciclopedia-Italiana%29/
-  - https://www.treccani.it/enciclopedia/giovanni-segantini_%28Enciclopedia-dei-ragazzi%29/
-  - https://collezionedarte.bancaditalia.it/web/guest/-/divisionismo-1
-  - https://www.treccani.it/enciclopedia/angelo-morbelli_%28Dizionario-Biografico%29/
-  - https://www.mart.tn.it/en/le-collezioni-del-mart
-  - https://www.mart.tn.it/en/mostre/vittore-grubicy-and-europe-at-the-roots-of-divisionism-138656
-  - https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf
-  - https://obtic.huma-num.fr/obvil-web/corpus/mdf-italie/mercure-italie_1907
+  - url: "https://www.treccani.it/enciclopedia/divisionismo/"
+    kind: reference
+  - url: "https://www.treccani.it/enciclopedia/divisionismo_%28Enciclopedia-Italiana%29/"
+    kind: reference
+  - url: "https://www.treccani.it/enciclopedia/giovanni-segantini_%28Enciclopedia-dei-ragazzi%29/"
+    kind: reference
+  - url: "https://collezionedarte.bancaditalia.it/web/guest/-/divisionismo-1"
+    kind: reference
+  - url: "https://www.treccani.it/enciclopedia/angelo-morbelli_%28Dizionario-Biografico%29/"
+    kind: reference
+  - url: "https://www.mart.tn.it/en/le-collezioni-del-mart"
+    kind: reference
+  - url: "https://www.mart.tn.it/en/mostre/vittore-grubicy-and-europe-at-the-roots-of-divisionism-138656"
+    kind: reference
+  - url: "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+    kind: scholarly
+  - url: "https://obtic.huma-num.fr/obvil-web/corpus/mdf-italie/mercure-italie_1907"
+    kind: reference
+  - url: "https://exhibitions.univie.ac.at/exhibition/125"
+    kind: reference
 status: draft
 updated: 2026-08-13
 ---

@@ -38,15 +38,24 @@ images:
     license: public-domain
     note: "徴姉妹（ハイ・バー・チュン）が象に乗る姿を描いた版画。歴史上の人物を主題にした一群の例"
 sources:
-  - https://www.wikidata.org/wiki/Q1923756
-  - https://www.wikidata.org/wiki/Q8079936
-  - https://ich.unesco.org/en/decisions/20.COM/7.A.1
-  - https://ich.unesco.org/en/USL/craft-of-making-dong-ho-folk-woodblock-printings-01737
-  - https://en.wikipedia.org/wiki/%C4%90%C3%B4ng_H%E1%BB%93_painting
-  - https://vietnamnews.vn/life-style/1731568/dong-ho-folk-painting-added-to-unesco-s-list-of-culture-in-urgent-need-of-safeguarding.html
-  - https://vietnamnet.vn/en/dong-ho-folk-painting-recognized-by-unesco-as-intangible-cultural-heritage-2471012.html
-  - https://commons.wikimedia.org/wiki/File:Dong-ho-rat-wedding.jpg
-  - https://commons.wikimedia.org/wiki/File:Hai_ba_trung_Dong_Ho_painting.jpg
+  - url: "https://www.wikidata.org/wiki/Q1923756"
+    kind: authority
+  - url: "https://www.wikidata.org/wiki/Q8079936"
+    kind: authority
+  - url: "https://ich.unesco.org/en/decisions/20.COM/7.A.1"
+    kind: institutional
+  - url: "https://ich.unesco.org/en/USL/craft-of-making-dong-ho-folk-woodblock-printings-01737"
+    kind: institutional
+  - url: "https://en.wikipedia.org/wiki/%C4%90%C3%B4ng_H%E1%BB%93_painting"
+    kind: reference
+  - url: "https://vietnamnews.vn/life-style/1731568/dong-ho-folk-painting-added-to-unesco-s-list-of-culture-in-urgent-need-of-safeguarding.html"
+    kind: reference
+  - url: "https://vietnamnet.vn/en/dong-ho-folk-painting-recognized-by-unesco-as-intangible-cultural-heritage-2471012.html"
+    kind: reference
+  - url: "https://commons.wikimedia.org/wiki/File:Dong-ho-rat-wedding.jpg"
+    kind: reference
+  - url: "https://commons.wikimedia.org/wiki/File:Hai_ba_trung_Dong_Ho_painting.jpg"
+    kind: reference
 status: draft
 updated: 2026-08-10
 ---

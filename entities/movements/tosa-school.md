@@ -29,15 +29,24 @@ relations:
   - {type: derives_from, target: movement/yamato-e, certainty: scholarly, source: "https://www.fujibi.or.jp/collection/artwork-artist/a130/"}
   - {type: diffused_to, target: place/new-york-city, certainty: scholarly, source: "https://www.metmuseum.org/art/collection/search/45258"}
 sources:
-  - https://www.wikidata.org/wiki/Q2915215
-  - https://www.getty.edu/research/tools/vocabularies/aat/
-  - https://en.wikipedia.org/wiki/Tosa_school
-  - https://www.fujibi.or.jp/collection/artwork-artist/a130/
-  - https://www.fujibi.or.jp/collection/artwork-artist/a960/
-  - https://www.tobunken.go.jp/materials/ekatudo/808641.html
-  - https://www.kyohaku.go.jp/old/eng/theme/floor2_4/past/edo_20160614.html
-  - https://www.kyohaku.go.jp/old/jp/theme/floor2_4/f2_4_koremade/kinse_20160614.html
-  - https://www.metmuseum.org/art/collection/search/45258
+  - url: "https://www.wikidata.org/wiki/Q2915215"
+    kind: authority
+  - url: "https://www.getty.edu/research/tools/vocabularies/aat/"
+    kind: authority
+  - url: "https://en.wikipedia.org/wiki/Tosa_school"
+    kind: reference
+  - url: "https://www.fujibi.or.jp/collection/artwork-artist/a130/"
+    kind: institutional
+  - url: "https://www.fujibi.or.jp/collection/artwork-artist/a960/"
+    kind: institutional
+  - url: "https://www.tobunken.go.jp/materials/ekatudo/808641.html"
+    kind: institutional
+  - url: "https://www.kyohaku.go.jp/old/eng/theme/floor2_4/past/edo_20160614.html"
+    kind: institutional
+  - url: "https://www.kyohaku.go.jp/old/jp/theme/floor2_4/f2_4_koremade/kinse_20160614.html"
+    kind: institutional
+  - url: "https://www.metmuseum.org/art/collection/search/45258"
+    kind: institutional
 images:
   - url: https://images.metmuseum.org/CRDImages/as/original/DT1607.jpg
     source_page: https://www.metmuseum.org/art/collection/search/45258

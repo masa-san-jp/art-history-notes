@@ -31,22 +31,36 @@ relations:
   - {type: influenced_by, target: movement/byzantine-art, certainty: scholarly, source: "https://www.nasjonalmuseet.no/en/collection/object/NG.M.01773"}
   - {type: diffused_to, target: place/new-york-city, certainty: scholarly, source: "https://www.metmuseum.org/art/collection/search/437578"}
 sources:
-  - https://www.wikidata.org/wiki/Q2876208
-  - https://www.wikidata.org/wiki/Q151536
-  - https://www.wikidata.org/wiki/Q2235
-  - https://en.wikipedia.org/wiki/Novgorod_school
-  - https://ru.wikipedia.org/wiki/Новгородская_школа_(древнерусское_искусство)
-  - https://ru.wikipedia.org/wiki/Русская_иконопись
-  - https://gallerix.ru/pedia/history-of-art--novgorod-school-icon-painting/
-  - https://www.novgorod.ru/english/read/information/icon-painting/
-  - https://www.nasjonalmuseet.no/en/collection/object/NG.M.01773
-  - https://russianicon.com/schools-of-russian-icon-painting-part-i/
-  - https://www.icon-art.info/book_contents.php?lng=ru&book_id=7&chap=3&ch_l2=0
-  - https://ru.wikipedia.org/wiki/Церковь_Спаса_Преображения_на_Ильине_улице
-  - https://books.openbookpublishers.com/10.11647/obp.0378/ch2.xhtml
-  - https://www.metmuseum.org/art/collection/search/437578
-  - https://commons.wikimedia.org/wiki/File:Novgorod_School_-_Saint_Nicholas_of_Zaraysk_with_20_scenes_from_his_life_-_NG.M.01773_-_National_Museum_of_Art,_Architecture_and_Design.jpg
-  - https://www.metmuseum.org/art/collection/search/437578
+  - url: "https://www.wikidata.org/wiki/Q2876208"
+    kind: authority
+  - url: "https://www.wikidata.org/wiki/Q151536"
+    kind: authority
+  - url: "https://www.wikidata.org/wiki/Q2235"
+    kind: authority
+  - url: "https://en.wikipedia.org/wiki/Novgorod_school"
+    kind: reference
+  - url: "https://ru.wikipedia.org/wiki/Новгородская_школа_(древнерусское_искусство)"
+    kind: reference
+  - url: "https://ru.wikipedia.org/wiki/Русская_иконопись"
+    kind: reference
+  - url: "https://gallerix.ru/pedia/history-of-art--novgorod-school-icon-painting/"
+    kind: reference
+  - url: "https://www.novgorod.ru/english/read/information/icon-painting/"
+    kind: reference
+  - url: "https://www.nasjonalmuseet.no/en/collection/object/NG.M.01773"
+    kind: reference
+  - url: "https://russianicon.com/schools-of-russian-icon-painting-part-i/"
+    kind: reference
+  - url: "https://www.icon-art.info/book_contents.php?lng=ru&book_id=7&chap=3&ch_l2=0"
+    kind: reference
+  - url: "https://ru.wikipedia.org/wiki/Церковь_Спаса_Преображения_на_Ильине_улице"
+    kind: reference
+  - url: "https://books.openbookpublishers.com/10.11647/obp.0378/ch2.xhtml"
+    kind: scholarly
+  - url: "https://www.metmuseum.org/art/collection/search/437578"
+    kind: institutional
+  - url: "https://commons.wikimedia.org/wiki/File:Novgorod_School_-_Saint_Nicholas_of_Zaraysk_with_20_scenes_from_his_life_-_NG.M.01773_-_National_Museum_of_Art,_Architecture_and_Design.jpg"
+    kind: reference
 images:
   - url: https://images.metmuseum.org/CRDImages/ep/original/DT238453.jpg
     source_page: https://www.metmuseum.org/art/collection/search/437578

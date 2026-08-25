@@ -65,15 +65,24 @@ images:
       1100年頃の原資料の石膏複製（同館蔵、Open Access）。幾何学文様だけでなく動物形の意匠も
       あることを示す例"
 sources:
-  - https://www.wikidata.org/wiki/Q1021436
-  - https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300264776
-  - https://en.wikipedia.org/wiki/Lapita_culture
-  - http://www.ioa.ucla.edu/talepakemalai
-  - https://en.wiktionary.org/wiki/Lapita
-  - https://human.libretexts.org/Bookshelves/Art/SmartHistory/10:_Oceania/10.01:_Terracotta_fragments_Lapita_people
-  - https://www.metmuseum.org/art/collection/search/314215
-  - https://www.metmuseum.org/art/collection/search/314216
-  - https://www.metmuseum.org/art/collection/search/314214
+  - url: "https://www.wikidata.org/wiki/Q1021436"
+    kind: authority
+  - url: "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300264776"
+    kind: authority
+  - url: "https://en.wikipedia.org/wiki/Lapita_culture"
+    kind: reference
+  - url: "http://www.ioa.ucla.edu/talepakemalai"
+    kind: institutional
+  - url: "https://en.wiktionary.org/wiki/Lapita"
+    kind: reference
+  - url: "https://human.libretexts.org/Bookshelves/Art/SmartHistory/10:_Oceania/10.01:_Terracotta_fragments_Lapita_people"
+    kind: reference
+  - url: "https://www.metmuseum.org/art/collection/search/314215"
+    kind: institutional
+  - url: "https://www.metmuseum.org/art/collection/search/314216"
+    kind: institutional
+  - url: "https://www.metmuseum.org/art/collection/search/314214"
+    kind: institutional
 status: draft
 updated: 2026-08-10
 ---

@@ -30,15 +30,24 @@ relations:
   - {type: diffused_to, target: place/chicago, certainty: scholarly, source: "https://api.artic.edu/api/v1/artworks/196928"}
   - {type: diffused_to, target: place/chicago, certainty: scholarly, source: "https://api.artic.edu/api/v1/artworks/50560"}
 sources:
-  - https://www.wikidata.org/wiki/Q11394761
-  - https://www.wikidata.org/wiki/Q11394770
-  - https://www.wikidata.org/wiki/Q3577704
-  - https://ja.wikipedia.org/wiki/円山・四条派
-  - https://en.wikipedia.org/wiki/Shij%C5%8D_school
-  - https://kyoto-museums.city.kyoto.lg.jp/en/feature-column/painting/
-  - https://www.fujibi.or.jp/collection/artwork/09092/
-  - https://api.artic.edu/api/v1/artworks/196928
-  - https://api.artic.edu/api/v1/artworks/50560
+  - url: "https://www.wikidata.org/wiki/Q11394761"
+    kind: authority
+  - url: "https://www.wikidata.org/wiki/Q11394770"
+    kind: authority
+  - url: "https://www.wikidata.org/wiki/Q3577704"
+    kind: authority
+  - url: "https://ja.wikipedia.org/wiki/円山・四条派"
+    kind: reference
+  - url: "https://en.wikipedia.org/wiki/Shij%C5%8D_school"
+    kind: reference
+  - url: "https://kyoto-museums.city.kyoto.lg.jp/en/feature-column/painting/"
+    kind: institutional
+  - url: "https://www.fujibi.or.jp/collection/artwork/09092/"
+    kind: institutional
+  - url: "https://api.artic.edu/api/v1/artworks/196928"
+    kind: institutional
+  - url: "https://api.artic.edu/api/v1/artworks/50560"
+    kind: institutional
 images:
   - url: https://www.artic.edu/iiif/2/19669877-89b4-a950-a918-3c3c4af312fa/full/843,/0/default.jpg
     source_page: https://www.artic.edu/artworks/196928

@@ -29,18 +29,30 @@ space:
   - {role: originated_in, target: place/istanbul}
 relations: []
 sources:
-  - https://www.wikidata.org/wiki/Q211884
-  - https://www.wikidata.org/wiki/Q12544
-  - https://www.wikidata.org/wiki/Q928904
-  - https://en.wikipedia.org/wiki/Byzantine_art
-  - https://en.wikipedia.org/wiki/Byzantine_Empire
-  - https://en.wikipedia.org/wiki/Hieronymus_Wolf
-  - https://www.theartstory.org/movement/byzantine-art/
-  - https://www.nationalgalleries.org/art-and-artists/glossary-terms/byzantine-art
-  - https://www.britannica.com/place/Byzantine-Empire/The-age-of-Iconoclasm-717-867
-  - https://www.metmuseum.org/art/collection/search/469960
-  - https://www.metmuseum.org/art/collection/search/465946
-  - https://www.metmuseum.org/art/collection/search/474336
+  - url: "https://www.wikidata.org/wiki/Q211884"
+    kind: authority
+  - url: "https://www.wikidata.org/wiki/Q12544"
+    kind: authority
+  - url: "https://www.wikidata.org/wiki/Q928904"
+    kind: authority
+  - url: "https://en.wikipedia.org/wiki/Byzantine_art"
+    kind: reference
+  - url: "https://en.wikipedia.org/wiki/Byzantine_Empire"
+    kind: reference
+  - url: "https://en.wikipedia.org/wiki/Hieronymus_Wolf"
+    kind: reference
+  - url: "https://www.theartstory.org/movement/byzantine-art/"
+    kind: reference
+  - url: "https://www.nationalgalleries.org/art-and-artists/glossary-terms/byzantine-art"
+    kind: reference
+  - url: "https://www.britannica.com/place/Byzantine-Empire/The-age-of-Iconoclasm-717-867"
+    kind: reference
+  - url: "https://www.metmuseum.org/art/collection/search/469960"
+    kind: institutional
+  - url: "https://www.metmuseum.org/art/collection/search/465946"
+    kind: institutional
+  - url: "https://www.metmuseum.org/art/collection/search/474336"
+    kind: institutional
 images:
   - url: https://images.metmuseum.org/CRDImages/md/original/DP-37759-001.jpg
     source_page: https://www.metmuseum.org/art/collection/search/469960

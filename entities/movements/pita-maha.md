@@ -31,13 +31,20 @@ relations:
   - {type: created_by, target: person/rudolf-bonnet}
   - {type: influenced_by, target: movement/expressionism, certainty: scholarly, source: "https://www.tandfonline.com/doi/abs/10.1080/13639810701440640"}
 sources:
-  - https://www.wikidata.org/wiki/Q56294353
-  - https://www.houtsnijkunstbali.nl/verdiepingsinformatie/pita-maha/
-  - https://www.kunst-uit-bali.nl/list_kunstenaars_ned_pita_maha.aspx
-  - http://www.iraj.in/journal/journal_file/journal_pdf/14-440-152293060021-24.pdf
-  - https://www.thejakartapost.com/news/2016/03/31/romantic-agony-soul-pita-maha.html
-  - https://parasparas.com/archive/tradition-of-unity-pita-maha-balinese-artist-community-of-the-1930s/
-  - https://www.tandfonline.com/doi/abs/10.1080/13639810701440640
+  - url: "https://www.wikidata.org/wiki/Q56294353"
+    kind: authority
+  - url: "https://www.houtsnijkunstbali.nl/verdiepingsinformatie/pita-maha/"
+    kind: reference
+  - url: "https://www.kunst-uit-bali.nl/list_kunstenaars_ned_pita_maha.aspx"
+    kind: reference
+  - url: "http://www.iraj.in/journal/journal_file/journal_pdf/14-440-152293060021-24.pdf"
+    kind: scholarly
+  - url: "https://www.thejakartapost.com/news/2016/03/31/romantic-agony-soul-pita-maha.html"
+    kind: reference
+  - url: "https://parasparas.com/archive/tradition-of-unity-pita-maha-balinese-artist-community-of-the-1930s/"
+    kind: reference
+  - url: "https://www.tandfonline.com/doi/abs/10.1080/13639810701440640"
+    kind: scholarly
 status: draft
 updated: 2026-08-09
 ---

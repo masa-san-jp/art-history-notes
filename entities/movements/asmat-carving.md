@@ -46,26 +46,48 @@ space:
 relations:
   - {type: diffused_to, target: place/new-york-city, certainty: scholarly, source: "https://www.metmuseum.org/exhibitions/listings/2013/nelson-rockefeller"}
 sources:
-  - https://www.wikidata.org/wiki/Q643103
-  - https://www.wikidata.org/wiki/Q27228
-  - https://www.wikidata.org/wiki/Q2074546
-  - https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300021903
-  - https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300264812
-  - https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300264813
-  - https://en.wikipedia.org/wiki/Asmat_people
-  - https://en.wikipedia.org/wiki/Bisj_pole
-  - https://en.wikipedia.org/wiki/Michael_Rockefeller
-  - https://en.wikipedia.org/wiki/Museum_of_Primitive_Art
-  - https://en.wikipedia.org/wiki/Dutch_New_Guinea
-  - https://www.wichita.edu/museums/holmes/asmat.php
-  - https://www.everyculture.com/wc/Germany-to-Jamaica/Asmat.html
-  - https://www.everyculture.com/Oceania/Asmat-History-and-Cultural-Relations.html
-  - https://www.encyclopedia.com/places/australia-and-oceania/pacific-islands-political-geography/asmat
-  - https://collectionapi.metmuseum.org/public/collection/v1/objects/313830
-  - https://www.metmuseum.org/art/collection/search/313830
-  - https://www.metmuseum.org/art/collection/search/311715
-  - https://anthrosource.onlinelibrary.wiley.com/doi/10.1525/aa.1959.61.6.02a00080
-  - https://www.degruyterbrill.com/document/doi/10.1515/9783111387505/html
+  - url: "https://www.wikidata.org/wiki/Q643103"
+    kind: authority
+  - url: "https://www.wikidata.org/wiki/Q27228"
+    kind: authority
+  - url: "https://www.wikidata.org/wiki/Q2074546"
+    kind: authority
+  - url: "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300021903"
+    kind: authority
+  - url: "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300264812"
+    kind: authority
+  - url: "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300264813"
+    kind: authority
+  - url: "https://en.wikipedia.org/wiki/Asmat_people"
+    kind: reference
+  - url: "https://en.wikipedia.org/wiki/Bisj_pole"
+    kind: reference
+  - url: "https://en.wikipedia.org/wiki/Michael_Rockefeller"
+    kind: reference
+  - url: "https://en.wikipedia.org/wiki/Museum_of_Primitive_Art"
+    kind: reference
+  - url: "https://en.wikipedia.org/wiki/Dutch_New_Guinea"
+    kind: reference
+  - url: "https://www.wichita.edu/museums/holmes/asmat.php"
+    kind: institutional
+  - url: "https://www.everyculture.com/wc/Germany-to-Jamaica/Asmat.html"
+    kind: reference
+  - url: "https://www.everyculture.com/Oceania/Asmat-History-and-Cultural-Relations.html"
+    kind: reference
+  - url: "https://www.encyclopedia.com/places/australia-and-oceania/pacific-islands-political-geography/asmat"
+    kind: reference
+  - url: "https://collectionapi.metmuseum.org/public/collection/v1/objects/313830"
+    kind: institutional
+  - url: "https://www.metmuseum.org/art/collection/search/313830"
+    kind: institutional
+  - url: "https://www.metmuseum.org/art/collection/search/311715"
+    kind: institutional
+  - url: "https://anthrosource.onlinelibrary.wiley.com/doi/10.1525/aa.1959.61.6.02a00080"
+    kind: reference
+  - url: "https://www.degruyterbrill.com/document/doi/10.1515/9783111387505/html"
+    kind: reference
+  - url: "https://www.metmuseum.org/exhibitions/listings/2013/nelson-rockefeller"
+    kind: institutional
 status: draft
 updated: 2026-08-13
 ---

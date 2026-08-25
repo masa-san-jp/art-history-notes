@@ -31,20 +31,34 @@ space:
 relations:
   - {type: influenced_by, target: movement/realism, certainty: scholarly, source: "https://so02.tci-thaijo.org/index.php/faa/article/view/241763"}
 sources:
-  - https://www.wikidata.org/wiki/Q1155700
-  - https://en.wikipedia.org/wiki/Rattanakosin_Kingdom_(1782%E2%80%931932)
-  - https://en.wikipedia.org/wiki/Thai_art
-  - https://so04.tci-thaijo.org/index.php/NAJUA-Arch/article/view/46202
-  - https://www.wikidata.org/wiki/Q13013275
-  - https://en.wikipedia.org/wiki/Khrua_In_Khong
-  - https://www.jstor.org/stable/26537575
-  - https://so06.tci-thaijo.org/index.php/pub_jss/article/view/260283
-  - https://so02.tci-thaijo.org/index.php/faa/article/view/241763
-  - https://so02.tci-thaijo.org/index.php/jfa/article/view/262633
-  - https://www.wikidata.org/wiki/Q1861
-  - https://www.thailandnow.in.th/arts-culture/take-a-closer-look-at-siamese-buddhist-murals/
-  - https://www.buddhistdoor.net/news/thai-artists-work-to-rescue-170-year-old-buddhist-murals/
-  - https://www.mynmv.com/thai-national-museums-central
+  - url: "https://www.wikidata.org/wiki/Q1155700"
+    kind: authority
+  - url: "https://en.wikipedia.org/wiki/Rattanakosin_Kingdom_(1782%E2%80%931932)"
+    kind: reference
+  - url: "https://en.wikipedia.org/wiki/Thai_art"
+    kind: reference
+  - url: "https://so04.tci-thaijo.org/index.php/NAJUA-Arch/article/view/46202"
+    kind: reference
+  - url: "https://www.wikidata.org/wiki/Q13013275"
+    kind: authority
+  - url: "https://en.wikipedia.org/wiki/Khrua_In_Khong"
+    kind: reference
+  - url: "https://www.jstor.org/stable/26537575"
+    kind: scholarly
+  - url: "https://so06.tci-thaijo.org/index.php/pub_jss/article/view/260283"
+    kind: reference
+  - url: "https://so02.tci-thaijo.org/index.php/faa/article/view/241763"
+    kind: reference
+  - url: "https://so02.tci-thaijo.org/index.php/jfa/article/view/262633"
+    kind: reference
+  - url: "https://www.wikidata.org/wiki/Q1861"
+    kind: authority
+  - url: "https://www.thailandnow.in.th/arts-culture/take-a-closer-look-at-siamese-buddhist-murals/"
+    kind: reference
+  - url: "https://www.buddhistdoor.net/news/thai-artists-work-to-rescue-170-year-old-buddhist-murals/"
+    kind: reference
+  - url: "https://www.mynmv.com/thai-national-museums-central"
+    kind: reference
 images:
   - url: https://upload.wikimedia.org/wikipedia/commons/d/dc/Bangkok_wat_suthat_014.JPG
     source_page: https://commons.wikimedia.org/wiki/File:Bangkok_wat_suthat_014.JPG

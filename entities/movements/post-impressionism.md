@@ -28,17 +28,28 @@ space:
 relations:
   - {type: influenced_by, target: movement/utagawa-school, certainty: scholarly, source: "https://www.vangoghmuseum.nl/en/collection/s0114V1962"}
 sources:
-  - https://www.wikidata.org/wiki/Q166713
-  - https://www.vangoghmuseum.nl/en/collection/s0114V1962
-  - https://www.vangoghmuseum.nl/en/collection/s0115v1962
-  - https://collectionapi.metmuseum.org/public/collection/v1/objects/55433
-  - https://en.wikipedia.org/wiki/One_Hundred_Famous_Views_of_Edo
-  - https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300021508
-  - https://www.gutenberg.org/files/54154/54154-h/54154-h.htm
-  - https://www.tate.org.uk/art/art-terms/p/post-impressionism
-  - https://www.thecollector.com/manet-and-the-post-impressionists-roger-frys-1910-exhibition/
-  - https://www.metmuseum.org/art/collection/search/435868
-  - https://www.metmuseum.org/art/collection/search/436535
+  - url: "https://www.wikidata.org/wiki/Q166713"
+    kind: authority
+  - url: "https://www.vangoghmuseum.nl/en/collection/s0114V1962"
+    kind: institutional
+  - url: "https://www.vangoghmuseum.nl/en/collection/s0115v1962"
+    kind: institutional
+  - url: "https://collectionapi.metmuseum.org/public/collection/v1/objects/55433"
+    kind: institutional
+  - url: "https://en.wikipedia.org/wiki/One_Hundred_Famous_Views_of_Edo"
+    kind: reference
+  - url: "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300021508"
+    kind: authority
+  - url: "https://www.gutenberg.org/files/54154/54154-h/54154-h.htm"
+    kind: reference
+  - url: "https://www.tate.org.uk/art/art-terms/p/post-impressionism"
+    kind: institutional
+  - url: "https://www.thecollector.com/manet-and-the-post-impressionists-roger-frys-1910-exhibition/"
+    kind: reference
+  - url: "https://www.metmuseum.org/art/collection/search/435868"
+    kind: institutional
+  - url: "https://www.metmuseum.org/art/collection/search/436535"
+    kind: institutional
 images:
   - url: https://images.metmuseum.org/CRDImages/ep/original/DP231550.jpg
     source_page: https://www.metmuseum.org/art/collection/search/435868

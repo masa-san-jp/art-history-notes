@@ -28,14 +28,20 @@ space:
 relations:
   - {type: diffused_to, target: place/new-york-city, certainty: scholarly, source: "https://www.metmuseum.org/art/collection/search/45428"}
 sources:
-  - https://www.wikidata.org/wiki/Q597365
-  - https://www.getty.edu/vow/AATFullDisplay?find=Yamato-e&logic=AND&note=&english=Y&subjectid=300018589
-  - https://ja.wikipedia.org/wiki/大和絵
-  - https://en.wikipedia.org/wiki/Yamato-e
-  - https://www.metmuseum.org/ja/essays/yamato-e-painting
-  - https://www.metmuseum.org/art/collection/search/45428
-  - https://www.tnm.jp/modules/r_free_page/index.php?id=570&lang=en
-  - https://www.metmuseum.org/art/collection/search/45428
+  - url: "https://www.wikidata.org/wiki/Q597365"
+    kind: authority
+  - url: "https://www.getty.edu/vow/AATFullDisplay?find=Yamato-e&logic=AND&note=&english=Y&subjectid=300018589"
+    kind: authority
+  - url: "https://ja.wikipedia.org/wiki/大和絵"
+    kind: reference
+  - url: "https://en.wikipedia.org/wiki/Yamato-e"
+    kind: reference
+  - url: "https://www.metmuseum.org/ja/essays/yamato-e-painting"
+    kind: institutional
+  - url: "https://www.metmuseum.org/art/collection/search/45428"
+    kind: institutional
+  - url: "https://www.tnm.jp/modules/r_free_page/index.php?id=570&lang=en"
+    kind: institutional
 images:
   - url: https://images.metmuseum.org/CRDImages/as/original/DP244667_CRD.jpg
     source_page: https://www.metmuseum.org/art/collection/search/45428

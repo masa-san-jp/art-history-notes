@@ -32,21 +32,36 @@ relations:
   - {type: reacts_against, target: movement/mughal-painting, certainty: scholarly, source: "https://www.metmuseum.org/exhibitions/listings/2011/lyrical-visions?persisted=true&sc_device=default"}
   - {type: diffused_to, target: place/london, certainty: scholarly, source: "https://www.britishmuseum.org/collection/object/A_1991-0131-0-1"}
 sources:
-  - https://en.wikipedia.org/wiki/Rajput_painting
-  - https://www.wikidata.org/wiki/Q2988788
-  - https://www.wikidata.org/wiki/Q1518229
-  - https://www.wikidata.org/wiki/Q17319155
-  - https://www.wikidata.org/wiki/Q200340
-  - https://www.getty.edu/vow/AATFullDisplay?find=300019040&logic=AND&note=&subjectid=300019040
-  - https://aatesaurus.cultura.gencat.cat/aat/getty_en/index.php?%2Frajput=&tema=31367026
-  - https://aatesaurus.cultura.gencat.cat/aat/getty_en/index.php?%2Fmewar=&tema=31434220
-  - https://clevelandart.org/art/2018.136
-  - https://openaccess-api.clevelandart.org/api/artworks/314441
-  - https://clevelandart.org/art/2003.343
-  - https://openaccess-api.clevelandart.org/api/artworks/162857
-  - https://resources.metmuseum.org/resources/metpublications/pdf/Wonder_of_the_Age_Master_Painters_of_India_1100_1900.pdf
-  - https://www.metmuseum.org/exhibitions/listings/2011/lyrical-visions?persisted=true&sc_device=default
-  - https://www.britishmuseum.org/collection/object/A_1991-0131-0-1
+  - url: "https://en.wikipedia.org/wiki/Rajput_painting"
+    kind: reference
+  - url: "https://www.wikidata.org/wiki/Q2988788"
+    kind: authority
+  - url: "https://www.wikidata.org/wiki/Q1518229"
+    kind: authority
+  - url: "https://www.wikidata.org/wiki/Q17319155"
+    kind: authority
+  - url: "https://www.wikidata.org/wiki/Q200340"
+    kind: authority
+  - url: "https://www.getty.edu/vow/AATFullDisplay?find=300019040&logic=AND&note=&subjectid=300019040"
+    kind: authority
+  - url: "https://aatesaurus.cultura.gencat.cat/aat/getty_en/index.php?%2Frajput=&tema=31367026"
+    kind: reference
+  - url: "https://aatesaurus.cultura.gencat.cat/aat/getty_en/index.php?%2Fmewar=&tema=31434220"
+    kind: reference
+  - url: "https://clevelandart.org/art/2018.136"
+    kind: institutional
+  - url: "https://openaccess-api.clevelandart.org/api/artworks/314441"
+    kind: institutional
+  - url: "https://clevelandart.org/art/2003.343"
+    kind: institutional
+  - url: "https://openaccess-api.clevelandart.org/api/artworks/162857"
+    kind: institutional
+  - url: "https://resources.metmuseum.org/resources/metpublications/pdf/Wonder_of_the_Age_Master_Painters_of_India_1100_1900.pdf"
+    kind: scholarly
+  - url: "https://www.metmuseum.org/exhibitions/listings/2011/lyrical-visions?persisted=true&sc_device=default"
+    kind: institutional
+  - url: "https://www.britishmuseum.org/collection/object/A_1991-0131-0-1"
+    kind: institutional
 images:
   - url: https://openaccess-cdn.clevelandart.org/2018.136/2018.136_web.jpg
     source_page: https://clevelandart.org/art/2018.136

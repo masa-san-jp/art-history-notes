@@ -42,14 +42,22 @@ images:
     license: cc0
     note: "ナルシス・ヴィルジル・ディアズ・ド・ラ・ペーニャ《森の中の池（Pond in the Woods）》。シカゴ美術館蔵（is_public_domain: true）"
 sources:
-  - https://www.wikidata.org/wiki/Q143357
-  - https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300264658
-  - https://en.wikipedia.org/wiki/Barbizon_school
-  - https://fr.wikipedia.org/wiki/%C3%89cole_de_Barbizon
-  - https://www.theartstory.org/movement/barbizon-school/
-  - https://www.artic.edu/artworks/27873
-  - https://www.artic.edu/artworks/111648
-  - https://www.artic.edu/artworks/95993
+  - url: "https://www.wikidata.org/wiki/Q143357"
+    kind: authority
+  - url: "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300264658"
+    kind: authority
+  - url: "https://en.wikipedia.org/wiki/Barbizon_school"
+    kind: reference
+  - url: "https://fr.wikipedia.org/wiki/%C3%89cole_de_Barbizon"
+    kind: reference
+  - url: "https://www.theartstory.org/movement/barbizon-school/"
+    kind: reference
+  - url: "https://www.artic.edu/artworks/27873"
+    kind: institutional
+  - url: "https://www.artic.edu/artworks/111648"
+    kind: institutional
+  - url: "https://www.artic.edu/artworks/95993"
+    kind: institutional
 status: draft
 updated: 2026-08-11
 ---

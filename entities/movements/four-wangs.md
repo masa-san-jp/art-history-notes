@@ -32,20 +32,34 @@ relations:
   - {type: influenced_by, target: person/dong-qichang, certainty: scholarly, source: "https://www.metmuseum.org/ko/essays/wang-hui-1632-1717"}
   - {type: influenced_by, target: movement/literati-painting, certainty: scholarly, source: "https://www.shanghaimuseum.net/mu/frontend/pg/article/id/RI00004055"}
 sources:
-  - https://www.wikidata.org/wiki/Q3099098
-  - https://zh.wikipedia.org/wiki/%E5%9B%9B%E7%8E%8B
-  - https://en.wikipedia.org/wiki/Four_Wangs
-  - https://zh.wikipedia.org/wiki/%E7%8E%8B%E6%97%B6%E6%95%8F
-  - https://zh.wikipedia.org/wiki/%E7%8E%8B%E9%91%91_%28%E7%95%AB%E5%AE%B6%29
-  - https://zh.wikipedia.org/wiki/%E7%8E%8B%E7%BF%AC
-  - https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%8E%9F%E7%A5%81
-  - https://www.wikidata.org/wiki/Q716184
-  - https://www.wikidata.org/wiki/Q711481
-  - https://www.wikidata.org/wiki/Q716222
-  - https://www.wikidata.org/wiki/Q716338
-  - https://www.kyohaku.go.jp/old/eng/theme/floor2_5/past/chinese_20150512.html
-  - https://www.shanghaimuseum.net/mu/frontend/pg/article/id/RI00004055
-  - https://www.metmuseum.org/ko/essays/wang-hui-1632-1717
+  - url: "https://www.wikidata.org/wiki/Q3099098"
+    kind: authority
+  - url: "https://zh.wikipedia.org/wiki/%E5%9B%9B%E7%8E%8B"
+    kind: reference
+  - url: "https://en.wikipedia.org/wiki/Four_Wangs"
+    kind: reference
+  - url: "https://zh.wikipedia.org/wiki/%E7%8E%8B%E6%97%B6%E6%95%8F"
+    kind: reference
+  - url: "https://zh.wikipedia.org/wiki/%E7%8E%8B%E9%91%91_%28%E7%95%AB%E5%AE%B6%29"
+    kind: reference
+  - url: "https://zh.wikipedia.org/wiki/%E7%8E%8B%E7%BF%AC"
+    kind: reference
+  - url: "https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%8E%9F%E7%A5%81"
+    kind: reference
+  - url: "https://www.wikidata.org/wiki/Q716184"
+    kind: authority
+  - url: "https://www.wikidata.org/wiki/Q711481"
+    kind: authority
+  - url: "https://www.wikidata.org/wiki/Q716222"
+    kind: authority
+  - url: "https://www.wikidata.org/wiki/Q716338"
+    kind: authority
+  - url: "https://www.kyohaku.go.jp/old/eng/theme/floor2_5/past/chinese_20150512.html"
+    kind: institutional
+  - url: "https://www.shanghaimuseum.net/mu/frontend/pg/article/id/RI00004055"
+    kind: institutional
+  - url: "https://www.metmuseum.org/ko/essays/wang-hui-1632-1717"
+    kind: institutional
 images:
   - url: https://www.artic.edu/iiif/2/d2c1e32e-f890-a12a-19e0-f8d638d19bdf/full/843,/0/default.jpg
     source_page: https://www.artic.edu/artworks/86233

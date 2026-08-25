@@ -30,16 +30,26 @@ space:
 relations:
   - {type: diffused_to, target: place/paris, certainty: scholarly, source: "https://www.unesco.org/en/articles/restitution-cultural-property-nok-civilization"}
 sources:
-  - https://www.wikidata.org/wiki/Q927291
-  - https://www.wikidata.org/wiki/Q108908650
-  - https://www.metmuseum.org/essays/nok-terracottas-500-b-c-200-a-d
-  - https://clevelandart.org/art/1995.21
-  - https://openaccess-api.clevelandart.org/api/artworks/159000
-  - https://aktuelles.uni-frankfurt.de/en/english/nok-research-project-enters-final-phase/
-  - https://www.nationalgeographic.com/history/article/nigeria-nok-terra-cotta
-  - https://education.nationalgeographic.org/resource/nok-culture/
-  - https://traffickingculture.org/encyclopedia/case-studies/nok-terracottas/
-  - https://www.unesco.org/en/articles/restitution-cultural-property-nok-civilization
+  - url: "https://www.wikidata.org/wiki/Q927291"
+    kind: authority
+  - url: "https://www.wikidata.org/wiki/Q108908650"
+    kind: authority
+  - url: "https://www.metmuseum.org/essays/nok-terracottas-500-b-c-200-a-d"
+    kind: institutional
+  - url: "https://clevelandart.org/art/1995.21"
+    kind: institutional
+  - url: "https://openaccess-api.clevelandart.org/api/artworks/159000"
+    kind: institutional
+  - url: "https://aktuelles.uni-frankfurt.de/en/english/nok-research-project-enters-final-phase/"
+    kind: reference
+  - url: "https://www.nationalgeographic.com/history/article/nigeria-nok-terra-cotta"
+    kind: reference
+  - url: "https://education.nationalgeographic.org/resource/nok-culture/"
+    kind: institutional
+  - url: "https://traffickingculture.org/encyclopedia/case-studies/nok-terracottas/"
+    kind: reference
+  - url: "https://www.unesco.org/en/articles/restitution-cultural-property-nok-civilization"
+    kind: institutional
 images:
   - url: https://openaccess-cdn.clevelandart.org/1995.21/1995.21_web.jpg
     source_page: https://clevelandart.org/art/1995.21

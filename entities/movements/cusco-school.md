@@ -33,14 +33,24 @@ founding_control: external
 control_changes:
   - {year: "1688", to: shared, trigger: "画家組合（gremio de pintores）内の対立の末、先住民系・メスティーソの画家たちがスペイン系画家と共有していた組合から離脱し、独立した工房で制作するようになったとされる（通説。ただしこの因果関係自体の史料的根拠の薄さが査読研究で指摘されている。本文参照）"}
 sources:
-  - https://www.wikidata.org/wiki/Q3108623
-  - https://www.getty.edu/vow/AATFullDisplay?find=&place=&nation=&logic=&note=&role=&subjectid=300018086
-  - https://en.wikipedia.org/wiki/Cusco_school
-  - https://ojs.tnkul.pl/index.php/rh/article/view/7120
-  - https://estudiosindianos.up.edu.pe/en/indias-glossary/escuela-cuzquena/
-  - https://en.wikipedia.org/wiki/Basilio_Santa_Cruz_Pumacallao
-  - https://www.metmuseum.org/art/collection/search/764091
-  - https://www.metmuseum.org/art/collection/search/764095
+  - url: "https://www.wikidata.org/wiki/Q3108623"
+    kind: authority
+  - url: "https://www.getty.edu/vow/AATFullDisplay?find=&place=&nation=&logic=&note=&role=&subjectid=300018086"
+    kind: authority
+  - url: "https://en.wikipedia.org/wiki/Cusco_school"
+    kind: reference
+  - url: "https://ojs.tnkul.pl/index.php/rh/article/view/7120"
+    kind: scholarly
+  - url: "https://estudiosindianos.up.edu.pe/en/indias-glossary/escuela-cuzquena/"
+    kind: institutional
+  - url: "https://en.wikipedia.org/wiki/Basilio_Santa_Cruz_Pumacallao"
+    kind: reference
+  - url: "https://www.metmuseum.org/art/collection/search/764091"
+    kind: institutional
+  - url: "https://www.metmuseum.org/art/collection/search/764095"
+    kind: institutional
+  - url: "https://en.wikipedia.org/wiki/Bernardo_Bitti"
+    kind: reference
 images:
   - url: https://images.metmuseum.org/CRDImages/ad/original/DP-17034-002.jpg
     source_page: https://www.metmuseum.org/art/collection/search/764091

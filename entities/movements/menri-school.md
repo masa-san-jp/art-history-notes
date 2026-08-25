@@ -31,14 +31,22 @@ relations:
   - {type: diffused_to, target: place/new-york-city, certainty: scholarly, source: "https://rubinmuseum.org/exhibitions/the-place-of-provenance/"}
   - {type: influenced_by, target: movement/newar-art, certainty: scholarly, source: "https://rubinmuseum.org/projecthimalayanart/essays/murals-of-gongkar-chode/"}
 sources:
-  - https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300018855
-  - https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300018860
-  - https://www.himalayanart.org/search/set.cfm?setID=4163
-  - https://www.himalayanart.org/search/set.cfm?setID=250
-  - https://www.himalayanart.org/search/set.cfm?setID=11826
-  - https://rubinmuseum.org/projecthimalayanart/glossary/menla-tradition/
-  - https://rubinmuseum.org/projecthimalayanart/essays/murals-of-gongkar-chode/
-  - https://rubinmuseum.org/exhibitions/the-place-of-provenance/
+  - url: "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300018855"
+    kind: authority
+  - url: "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300018860"
+    kind: authority
+  - url: "https://www.himalayanart.org/search/set.cfm?setID=4163"
+    kind: reference
+  - url: "https://www.himalayanart.org/search/set.cfm?setID=250"
+    kind: reference
+  - url: "https://www.himalayanart.org/search/set.cfm?setID=11826"
+    kind: reference
+  - url: "https://rubinmuseum.org/projecthimalayanart/glossary/menla-tradition/"
+    kind: institutional
+  - url: "https://rubinmuseum.org/projecthimalayanart/essays/murals-of-gongkar-chode/"
+    kind: institutional
+  - url: "https://rubinmuseum.org/exhibitions/the-place-of-provenance/"
+    kind: institutional
 status: draft
 updated: 2026-08-12
 ---

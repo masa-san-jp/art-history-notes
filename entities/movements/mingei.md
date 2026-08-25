@@ -36,15 +36,24 @@ images:
     license: cc0
     note: "大津絵《歌舞伎「雁金五人男」の布袋市右衛門を演じる役者絵》、江戸時代・18世紀初頭、肉筆彩色木版、作者不明（Metropolitan Museum of Art所蔵、原題 “Ōtsu-e of Kabuki Actor Playing the Outlaw Hotei Ichiemon, of the ‘Karigane Five’”、Open Access）。柳宗悦は1929年『初期大津絵』で、無名の担い手による量産画である大津絵を「用の美」の実例として高く評価した"
 sources:
-  - https://www.wikidata.org/wiki/Q3314961
-  - https://www.getty.edu/vow/AATFullDisplay?find=mingei&logic=AND&note=&english=Y&prev_page=1&subjectid=300260035
-  - https://en.wikipedia.org/wiki/Mingei
-  - https://ja.wikipedia.org/wiki/%E6%B0%91%E8%97%9D%E9%81%8B%E5%8B%95
-  - https://mingeikan.or.jp/about/history/
-  - https://www.vam.ac.uk/articles/arts-and-crafts-beyond-the-uk
-  - https://www.wikidata.org/wiki/Q904161
-  - https://note.com/icingbox/n/n177b484fde56
-  - https://www.metmuseum.org/art/collection/search/36115
+  - url: "https://www.wikidata.org/wiki/Q3314961"
+    kind: authority
+  - url: "https://www.getty.edu/vow/AATFullDisplay?find=mingei&logic=AND&note=&english=Y&prev_page=1&subjectid=300260035"
+    kind: authority
+  - url: "https://en.wikipedia.org/wiki/Mingei"
+    kind: reference
+  - url: "https://ja.wikipedia.org/wiki/%E6%B0%91%E8%97%9D%E9%81%8B%E5%8B%95"
+    kind: reference
+  - url: "https://mingeikan.or.jp/about/history/"
+    kind: reference
+  - url: "https://www.vam.ac.uk/articles/arts-and-crafts-beyond-the-uk"
+    kind: reference
+  - url: "https://www.wikidata.org/wiki/Q904161"
+    kind: authority
+  - url: "https://note.com/icingbox/n/n177b484fde56"
+    kind: reference
+  - url: "https://www.metmuseum.org/art/collection/search/36115"
+    kind: institutional
 status: draft
 updated: 2026-08-10
 ---

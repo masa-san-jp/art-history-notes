@@ -30,17 +30,30 @@ space:
 relations:
   - {type: diffused_to, target: place/london, certainty: scholarly, source: "https://www.frobenius-institut.de/forschung/beendete-projekte/ife-objects-and-collections-in-and-out-of-africa"}
 sources:
-  - https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&subjectid=300015795
-  - https://www.wikidata.org/wiki/Q180084
-  - https://www.wikidata.org/wiki/Q110051642
-  - https://web.archive.org/web/20251206081004/https://www.metmuseum.org/essays/ife-terracottas-1000-1400-a-d
-  - https://web.archive.org/web/20260219020416/https://www.metmuseum.org/essays/ife-from-ca-6th-century
-  - https://www.suzanneprestonblier.com/uploads/1/2/5/9/125984883/blier_art_in_ancient__african_arts_blier.pdf
-  - https://en.wikipedia.org/wiki/Bronze_Head_from_Ife
-  - https://en.wikipedia.org/wiki/Timeline_of_Yoruba_history
-  - https://en.wikipedia.org/wiki/Oguola
-  - https://en.wikipedia.org/wiki/Igun_Street
-  - https://www.frobenius-institut.de/forschung/beendete-projekte/ife-objects-and-collections-in-and-out-of-africa
+  - url: "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&subjectid=300015795"
+    kind: authority
+  - url: "https://www.wikidata.org/wiki/Q180084"
+    kind: authority
+  - url: "https://www.wikidata.org/wiki/Q110051642"
+    kind: authority
+  - url: "https://web.archive.org/web/20251206081004/https://www.metmuseum.org/essays/ife-terracottas-1000-1400-a-d"
+    kind: primary
+    note: "URLの資料パスから一次資料と判定"
+  - url: "https://web.archive.org/web/20260219020416/https://www.metmuseum.org/essays/ife-from-ca-6th-century"
+    kind: primary
+    note: "URLの資料パスから一次資料と判定"
+  - url: "https://www.suzanneprestonblier.com/uploads/1/2/5/9/125984883/blier_art_in_ancient__african_arts_blier.pdf"
+    kind: scholarly
+  - url: "https://en.wikipedia.org/wiki/Bronze_Head_from_Ife"
+    kind: reference
+  - url: "https://en.wikipedia.org/wiki/Timeline_of_Yoruba_history"
+    kind: reference
+  - url: "https://en.wikipedia.org/wiki/Oguola"
+    kind: reference
+  - url: "https://en.wikipedia.org/wiki/Igun_Street"
+    kind: reference
+  - url: "https://www.frobenius-institut.de/forschung/beendete-projekte/ife-objects-and-collections-in-and-out-of-africa"
+    kind: reference
 images:
   - url: https://upload.wikimedia.org/wikipedia/commons/6/62/Ori_Olokun.jpg
     source_page: https://commons.wikimedia.org/wiki/File:Ori_Olokun.jpg

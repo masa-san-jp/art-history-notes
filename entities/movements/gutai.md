@@ -32,17 +32,28 @@ relations:
   - {type: created_by, target: person/jiro-yoshihara}
   - {type: reacts_against, target: movement/abstract-expressionism, certainty: scholarly, source: "https://hoodmuseum.dartmouth.edu/objects/p.970.20"}
 sources:
-  - https://www.wikidata.org/wiki/Q1028956
-  - https://www.getty.edu/vow/AATFullDisplay?find=gutai&logic=AND&note=&english=Y&prev_page=1&subjectid=300417399
-  - https://ja.wikipedia.org/wiki/%E5%85%B7%E4%BD%93%E7%BE%8E%E8%A1%93%E5%8D%94%E4%BC%9A
-  - https://en.wikipedia.org/wiki/Gutai_group
-  - https://artscape.jp/artword/5826/
-  - https://www.bunka.go.jp/prmagazine/rensai/diary/diary_097.html
-  - https://www.tokyoartbeat.com/articles/-/gutai-3-keywords-2022-10
-  - https://www.museum.osaka-u.ac.jp/wp/wp-content/uploads/2018/03/kato2017.pdf
-  - https://www.shozoshimamoto.org/en/critical_essays/the-gutai-manifesto-jiro-yoshihara/
-  - https://391.org/manifestos/1956-gutai-manifesto-jiro-yoshihara/
-  - https://hoodmuseum.dartmouth.edu/objects/p.970.20
+  - url: "https://www.wikidata.org/wiki/Q1028956"
+    kind: authority
+  - url: "https://www.getty.edu/vow/AATFullDisplay?find=gutai&logic=AND&note=&english=Y&prev_page=1&subjectid=300417399"
+    kind: authority
+  - url: "https://ja.wikipedia.org/wiki/%E5%85%B7%E4%BD%93%E7%BE%8E%E8%A1%93%E5%8D%94%E4%BC%9A"
+    kind: reference
+  - url: "https://en.wikipedia.org/wiki/Gutai_group"
+    kind: reference
+  - url: "https://artscape.jp/artword/5826/"
+    kind: reference
+  - url: "https://www.bunka.go.jp/prmagazine/rensai/diary/diary_097.html"
+    kind: institutional
+  - url: "https://www.tokyoartbeat.com/articles/-/gutai-3-keywords-2022-10"
+    kind: reference
+  - url: "https://www.museum.osaka-u.ac.jp/wp/wp-content/uploads/2018/03/kato2017.pdf"
+    kind: scholarly
+  - url: "https://www.shozoshimamoto.org/en/critical_essays/the-gutai-manifesto-jiro-yoshihara/"
+    kind: reference
+  - url: "https://391.org/manifestos/1956-gutai-manifesto-jiro-yoshihara/"
+    kind: reference
+  - url: "https://hoodmuseum.dartmouth.edu/objects/p.970.20"
+    kind: institutional
 status: draft
 updated: 2026-08-10
 ---

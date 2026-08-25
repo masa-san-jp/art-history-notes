@@ -32,22 +32,38 @@ relations:
   - {type: created_by, target: person/georges-braque}
   - {type: influenced_by, target: movement/post-impressionism, certainty: scholarly, source: "https://www.metmuseum.org/fr/essays/paul-cezanne-1839-1906"}
 sources:
-  - https://www.wikidata.org/wiki/Q42934
-  - https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300021495
-  - https://www.wikidata.org/wiki/Q3006706
-  - https://www.wikidata.org/wiki/Q3006708
-  - https://en.wikipedia.org/wiki/Cubism
-  - https://en.wikipedia.org/wiki/Du_%22Cubisme%22
-  - https://en.wikipedia.org/wiki/Houses_at_l%27Estaque
-  - https://en.wikipedia.org/wiki/Louis_Vauxcelles
-  - https://en.wikipedia.org/wiki/Proto-Cubism
-  - https://www.theartstory.org/movement/cubism/
-  - https://www.theartstory.org/movement/salon-cubism/
-  - https://www.metmuseum.org/fr/essays/paul-cezanne-1839-1906
-  - https://www.moma.org/collection/terms/cubism/before-and-beyond-cubism
-  - https://wist.info/picasso-pablo/3147/
-  - https://www.moma.org/collection/works/78984
-  - https://www.tate.org.uk/art/art-terms/p/post-impressionism
+  - url: "https://www.wikidata.org/wiki/Q42934"
+    kind: authority
+  - url: "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300021495"
+    kind: authority
+  - url: "https://www.wikidata.org/wiki/Q3006706"
+    kind: authority
+  - url: "https://www.wikidata.org/wiki/Q3006708"
+    kind: authority
+  - url: "https://en.wikipedia.org/wiki/Cubism"
+    kind: reference
+  - url: "https://en.wikipedia.org/wiki/Du_%22Cubisme%22"
+    kind: reference
+  - url: "https://en.wikipedia.org/wiki/Houses_at_l%27Estaque"
+    kind: reference
+  - url: "https://en.wikipedia.org/wiki/Louis_Vauxcelles"
+    kind: reference
+  - url: "https://en.wikipedia.org/wiki/Proto-Cubism"
+    kind: reference
+  - url: "https://www.theartstory.org/movement/cubism/"
+    kind: reference
+  - url: "https://www.theartstory.org/movement/salon-cubism/"
+    kind: reference
+  - url: "https://www.metmuseum.org/fr/essays/paul-cezanne-1839-1906"
+    kind: institutional
+  - url: "https://www.moma.org/collection/terms/cubism/before-and-beyond-cubism"
+    kind: institutional
+  - url: "https://wist.info/picasso-pablo/3147/"
+    kind: reference
+  - url: "https://www.moma.org/collection/works/78984"
+    kind: institutional
+  - url: "https://www.tate.org.uk/art/art-terms/p/post-impressionism"
+    kind: institutional
 status: draft
 updated: 2026-08-10
 ---

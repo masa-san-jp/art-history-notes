@@ -29,13 +29,20 @@ space:
   - {role: originated_in, target: place/gongkar-chode-monastery}
 relations: []
 sources:
-  - https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300264050
-  - https://www.wikidata.org/wiki/Q21550711
-  - https://www.wikidata.org/wiki/Q106789077
-  - https://rubinmuseum.org/projecthimalayanart/essays/murals-of-gongkar-chode/
-  - https://rubinmuseum.org/projecthimalayanart/glossary/khyentse-tradition/
-  - https://www.himalayanart.org/search/set.cfm?setID=250
-  - https://www.wikidata.org/wiki/Q1253613
+  - url: "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300264050"
+    kind: authority
+  - url: "https://www.wikidata.org/wiki/Q21550711"
+    kind: authority
+  - url: "https://www.wikidata.org/wiki/Q106789077"
+    kind: authority
+  - url: "https://rubinmuseum.org/projecthimalayanart/essays/murals-of-gongkar-chode/"
+    kind: institutional
+  - url: "https://rubinmuseum.org/projecthimalayanart/glossary/khyentse-tradition/"
+    kind: institutional
+  - url: "https://www.himalayanart.org/search/set.cfm?setID=250"
+    kind: reference
+  - url: "https://www.wikidata.org/wiki/Q1253613"
+    kind: authority
 status: draft
 updated: 2026-08-10
 ---

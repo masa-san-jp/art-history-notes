@@ -31,14 +31,22 @@ space:
 relations:
   - {type: influenced_by, target: movement/mono-ha, certainty: scholarly, source: "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002692673"}
 sources:
-  - https://www.wikidata.org/wiki/Q24988307
-  - https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300417394
-  - https://en.wikipedia.org/wiki/Dansaekhwa
-  - https://ko.wikipedia.org/wiki/%EB%8B%A8%EC%83%89%ED%99%94
-  - https://mmcaresearch.kr/terms/view.do?fid=2211
-  - https://www.frieze.com/article/skin-surface
-  - https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002692673
-  - https://m.kukjegallery.com/db_img/mediaCoverage/media_coverage_Dansaekhwa__Collateral_Event_of_the_56th_International_Art_Exhibition_%E2%80%93_La_Biennale_di_Venezia_2015_02_25_e82.pdf
+  - url: "https://www.wikidata.org/wiki/Q24988307"
+    kind: authority
+  - url: "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300417394"
+    kind: authority
+  - url: "https://en.wikipedia.org/wiki/Dansaekhwa"
+    kind: reference
+  - url: "https://ko.wikipedia.org/wiki/%EB%8B%A8%EC%83%89%ED%99%94"
+    kind: reference
+  - url: "https://mmcaresearch.kr/terms/view.do?fid=2211"
+    kind: reference
+  - url: "https://www.frieze.com/article/skin-surface"
+    kind: reference
+  - url: "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002692673"
+    kind: scholarly
+  - url: "https://m.kukjegallery.com/db_img/mediaCoverage/media_coverage_Dansaekhwa__Collateral_Event_of_the_56th_International_Art_Exhibition_%E2%80%93_La_Biennale_di_Venezia_2015_02_25_e82.pdf"
+    kind: scholarly
 status: draft
 updated: 2026-08-09
 ---

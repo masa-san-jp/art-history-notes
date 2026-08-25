@@ -34,10 +34,15 @@ relations:
   - {type: influenced_by, target: movement/cubism, certainty: scholarly, source: "https://en.wikipedia.org/wiki/Bombay_Progressive_Artists%27_Group"}
   - {type: influenced_by, target: movement/post-impressionism, certainty: scholarly, source: "https://en.wikipedia.org/wiki/Bombay_Progressive_Artists%27_Group"}
 sources:
-  - https://www.wikidata.org/wiki/Q4940574
-  - https://en.wikipedia.org/wiki/Bombay_Progressive_Artists%27_Group
-  - https://web.archive.org/web/20131214145023/http://www.artnewsnviews.com/view-article.php?article=progressive-artists-group-of-bombay-an-overview&iid=29&articleid=800
-  - https://www.tate.org.uk/art/art-terms/b/bombay-progressive-artists-group
+  - url: "https://www.wikidata.org/wiki/Q4940574"
+    kind: authority
+  - url: "https://en.wikipedia.org/wiki/Bombay_Progressive_Artists%27_Group"
+    kind: reference
+  - url: "https://web.archive.org/web/20131214145023/http://www.artnewsnviews.com/view-article.php?article=progressive-artists-group-of-bombay-an-overview&iid=29&articleid=800"
+    kind: primary
+    note: "URLの資料パスから一次資料と判定"
+  - url: "https://www.tate.org.uk/art/art-terms/b/bombay-progressive-artists-group"
+    kind: institutional
 status: draft
 updated: 2026-08-10
 ---

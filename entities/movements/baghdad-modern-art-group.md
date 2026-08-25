@@ -34,22 +34,38 @@ relations:
   - {type: influenced_by, target: movement/cubism, certainty: scholarly, source: "https://www.thescopes.org/assets/Uploads/4f5f5f6bb3/03-050-Saad-11-08.pdf"}
   - {type: influenced_by, target: movement/expressionism, certainty: scholarly, source: "https://www.thescopes.org/assets/Uploads/4f5f5f6bb3/03-050-Saad-11-08.pdf"}
 sources:
-  - https://www.wikidata.org/wiki/Q16123956
-  - https://www.wikidata.org/wiki/Q2720307
-  - https://www.wikidata.org/wiki/Q7462952
-  - https://www.wikidata.org/wiki/Q1530
-  - https://en.wikipedia.org/wiki/Jawad_Saleem
-  - https://ar.wikipedia.org/wiki/%D8%AC%D9%85%D8%A7%D8%B9%D8%A9_%D8%A8%D8%BA%D8%AF%D8%A7%D8%AF_%D9%84%D9%84%D9%81%D9%86_%D8%A7%D9%84%D8%AD%D8%AF%D9%8A%D8%AB
-  - https://theartwanderer.co.uk/the-baghdad-modern-art-group-birth-of-arabian-modernism/
-  - https://encyclopedia.mathaf.org.qa/en/bios/Pages/Shakir-Hassan-Al-Said.aspx
-  - https://www.gqmiddleeast.com/article/how-baghdad-reimagined-modernism
-  - https://www.fondation-giacometti.fr/en/event/308/the-baghdad-group-for-modern-art-shaping-modernism-in-iraq-through-affinities-and-congruities
-  - https://www.bard.edu/news/survey-baghdad-group-for-modern-art-june-ccs-bards-hessel-museum-2025-01-30
-  - https://artcentron.com/2025/07/03/the-baghdad-modern-art-group-a-pivotal-force-in-postcolonial-art/
-  - https://doi.org/10.1163/22118993_03501P010
-  - https://www.thescopes.org/assets/Uploads/4f5f5f6bb3/03-050-Saad-11-08.pdf
-  - https://en.wikipedia.org/wiki/Al-Bu%27d_al-Wahad
-  - https://en.wikipedia.org/wiki/Mohammed_Ghani_Hikmat
+  - url: "https://www.wikidata.org/wiki/Q16123956"
+    kind: authority
+  - url: "https://www.wikidata.org/wiki/Q2720307"
+    kind: authority
+  - url: "https://www.wikidata.org/wiki/Q7462952"
+    kind: authority
+  - url: "https://www.wikidata.org/wiki/Q1530"
+    kind: authority
+  - url: "https://en.wikipedia.org/wiki/Jawad_Saleem"
+    kind: reference
+  - url: "https://ar.wikipedia.org/wiki/%D8%AC%D9%85%D8%A7%D8%B9%D8%A9_%D8%A8%D8%BA%D8%AF%D8%A7%D8%AF_%D9%84%D9%84%D9%81%D9%86_%D8%A7%D9%84%D8%AD%D8%AF%D9%8A%D8%AB"
+    kind: reference
+  - url: "https://theartwanderer.co.uk/the-baghdad-modern-art-group-birth-of-arabian-modernism/"
+    kind: reference
+  - url: "https://encyclopedia.mathaf.org.qa/en/bios/Pages/Shakir-Hassan-Al-Said.aspx"
+    kind: reference
+  - url: "https://www.gqmiddleeast.com/article/how-baghdad-reimagined-modernism"
+    kind: reference
+  - url: "https://www.fondation-giacometti.fr/en/event/308/the-baghdad-group-for-modern-art-shaping-modernism-in-iraq-through-affinities-and-congruities"
+    kind: reference
+  - url: "https://www.bard.edu/news/survey-baghdad-group-for-modern-art-june-ccs-bards-hessel-museum-2025-01-30"
+    kind: institutional
+  - url: "https://artcentron.com/2025/07/03/the-baghdad-modern-art-group-a-pivotal-force-in-postcolonial-art/"
+    kind: reference
+  - url: "https://doi.org/10.1163/22118993_03501P010"
+    kind: scholarly
+  - url: "https://www.thescopes.org/assets/Uploads/4f5f5f6bb3/03-050-Saad-11-08.pdf"
+    kind: scholarly
+  - url: "https://en.wikipedia.org/wiki/Al-Bu%27d_al-Wahad"
+    kind: reference
+  - url: "https://en.wikipedia.org/wiki/Mohammed_Ghani_Hikmat"
+    kind: reference
 status: draft
 updated: 2026-08-09
 ---

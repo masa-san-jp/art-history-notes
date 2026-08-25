@@ -32,23 +32,40 @@ relations:
   - {type: influenced_by, target: movement/mexican-muralism, certainty: scholarly, source: "https://whitney.org/exhibitions/vida-americana"}
   - {type: influenced_by, target: movement/expressionism, certainty: scholarly, source: "https://assets.moma.org/documents/moma_catalogue_1990_300190211.pdf"}
 sources:
-  - https://www.wikidata.org/wiki/Q177725
-  - https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300022099
-  - https://en.wikipedia.org/wiki/Abstract_expressionism
-  - https://en.wikipedia.org/wiki/Robert_Coates_(critic)
-  - https://www.tate.org.uk/art/art-terms/a/abstract-expressionism
-  - https://www.theartstory.org/movement/abstract-expressionism/
-  - https://www.artforum.com/features/abstract-expressionism-weapon-of-the-cold-war-214234/
-  - https://en.wikipedia.org/wiki/Congress_for_Cultural_Freedom
-  - https://www.tate.org.uk/research/publications/modern-american-art-at-tate/essays/new-american-painting
-  - https://assets.moma.org/documents/moma_catalogue_1990_300190211.pdf
-  - https://www.moma.org/calendar/exhibitions/1990
-  - https://www.uapress.ua.edu/9780817352585/advancing-american-art/
-  - https://whitney.org/exhibitions/vida-americana
-  - https://whitney.org/media/46248
-  - https://en.wikipedia.org/wiki/David_Alfaro_Siqueiros
-  - https://www.pomona.edu/museum/collections/jos%C3%A9-clemente-orozcos-prometheus/prometheus-mural
-  - https://www.tandfonline.com/doi/abs/10.1080/00043249.1976.10793284
+  - url: "https://www.wikidata.org/wiki/Q177725"
+    kind: authority
+  - url: "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300022099"
+    kind: authority
+  - url: "https://en.wikipedia.org/wiki/Abstract_expressionism"
+    kind: reference
+  - url: "https://en.wikipedia.org/wiki/Robert_Coates_(critic)"
+    kind: reference
+  - url: "https://www.tate.org.uk/art/art-terms/a/abstract-expressionism"
+    kind: institutional
+  - url: "https://www.theartstory.org/movement/abstract-expressionism/"
+    kind: reference
+  - url: "https://www.artforum.com/features/abstract-expressionism-weapon-of-the-cold-war-214234/"
+    kind: reference
+  - url: "https://en.wikipedia.org/wiki/Congress_for_Cultural_Freedom"
+    kind: reference
+  - url: "https://www.tate.org.uk/research/publications/modern-american-art-at-tate/essays/new-american-painting"
+    kind: institutional
+  - url: "https://assets.moma.org/documents/moma_catalogue_1990_300190211.pdf"
+    kind: scholarly
+  - url: "https://www.moma.org/calendar/exhibitions/1990"
+    kind: institutional
+  - url: "https://www.uapress.ua.edu/9780817352585/advancing-american-art/"
+    kind: institutional
+  - url: "https://whitney.org/exhibitions/vida-americana"
+    kind: reference
+  - url: "https://whitney.org/media/46248"
+    kind: reference
+  - url: "https://en.wikipedia.org/wiki/David_Alfaro_Siqueiros"
+    kind: reference
+  - url: "https://www.pomona.edu/museum/collections/jos%C3%A9-clemente-orozcos-prometheus/prometheus-mural"
+    kind: institutional
+  - url: "https://www.tandfonline.com/doi/abs/10.1080/00043249.1976.10793284"
+    kind: scholarly
 status: draft
 updated: 2026-08-09
 ---

@@ -29,12 +29,18 @@ space:
 relations:
   - {type: influenced_by, target: movement/song-academy-painting, certainty: scholarly, source: "https://www.hkpm.org.hk/en/visit/audio-guide/g4-stories-untold"}
 sources:
-  - https://www.wikidata.org/wiki/Q1150941
-  - https://ja.wikipedia.org/wiki/%E6%B5%99%E6%B4%BE
-  - https://en.wikipedia.org/wiki/Zhe_school_(painting)
-  - https://www.wikidata.org/wiki/Q741512
-  - https://www.wikidata.org/wiki/Q537211
-  - https://www.hkpm.org.hk/en/visit/audio-guide/g4-stories-untold
+  - url: "https://www.wikidata.org/wiki/Q1150941"
+    kind: authority
+  - url: "https://ja.wikipedia.org/wiki/%E6%B5%99%E6%B4%BE"
+    kind: reference
+  - url: "https://en.wikipedia.org/wiki/Zhe_school_(painting)"
+    kind: reference
+  - url: "https://www.wikidata.org/wiki/Q741512"
+    kind: authority
+  - url: "https://www.wikidata.org/wiki/Q537211"
+    kind: authority
+  - url: "https://www.hkpm.org.hk/en/visit/audio-guide/g4-stories-untold"
+    kind: reference
 images:
   - url: https://www.artic.edu/iiif/2/7739a403-99b6-d151-c892-e93a0b17e4ef/full/843,/0/default.jpg
     source_page: https://www.artic.edu/artworks/150406

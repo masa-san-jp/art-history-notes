@@ -33,17 +33,28 @@ relations:
   - {type: influenced_by, target: movement/mughal-painting, certainty: scholarly, source: "https://www.getty.edu/vow/AATFullDisplay?find=Bengal&logic=AND&note=&english=Y&prev_page=1&subjectid=300417404"}
   - {type: influenced_by, target: movement/nihonga, certainty: scholarly, source: "https://faam.city.fukuoka.lg.jp/en/exhibition/11422/"}
 sources:
-  - https://www.wikidata.org/wiki/Q948504
-  - https://en.wikipedia.org/wiki/Bengal_School_of_Art
-  - https://www.getty.edu/vow/AATFullDisplay?find=Bengal&logic=AND&note=&english=Y&prev_page=1&subjectid=300417404
-  - https://en.wikipedia.org/wiki/Government_College_of_Art_%26_Craft
-  - https://en.wikipedia.org/wiki/Ernest_Binfield_Havell
-  - https://en.wikipedia.org/wiki/Abanindranath_Tagore
-  - https://en.wikipedia.org/wiki/Indian_Society_of_Oriental_Art
-  - https://imp-art.org/articles/bengal-school/
-  - https://digitalcommons.ciis.edu/facultypublications/51/
-  - https://amis-musee-cernuschi.org/en/les-liens-artistiques-et-culturels-entre-linde-et-le-japon-vers-1890-1940-2/
-  - https://faam.city.fukuoka.lg.jp/en/exhibition/11422/
+  - url: "https://www.wikidata.org/wiki/Q948504"
+    kind: authority
+  - url: "https://en.wikipedia.org/wiki/Bengal_School_of_Art"
+    kind: reference
+  - url: "https://www.getty.edu/vow/AATFullDisplay?find=Bengal&logic=AND&note=&english=Y&prev_page=1&subjectid=300417404"
+    kind: authority
+  - url: "https://en.wikipedia.org/wiki/Government_College_of_Art_%26_Craft"
+    kind: reference
+  - url: "https://en.wikipedia.org/wiki/Ernest_Binfield_Havell"
+    kind: reference
+  - url: "https://en.wikipedia.org/wiki/Abanindranath_Tagore"
+    kind: reference
+  - url: "https://en.wikipedia.org/wiki/Indian_Society_of_Oriental_Art"
+    kind: reference
+  - url: "https://imp-art.org/articles/bengal-school/"
+    kind: reference
+  - url: "https://digitalcommons.ciis.edu/facultypublications/51/"
+    kind: scholarly
+  - url: "https://amis-musee-cernuschi.org/en/les-liens-artistiques-et-culturels-entre-linde-et-le-japon-vers-1890-1940-2/"
+    kind: reference
+  - url: "https://faam.city.fukuoka.lg.jp/en/exhibition/11422/"
+    kind: reference
 status: draft
 updated: 2026-08-09
 ---

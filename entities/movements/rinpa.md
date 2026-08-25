@@ -30,10 +30,14 @@ space:
 relations:
   - {type: influenced_by, target: movement/yamato-e, certainty: scholarly, source: "https://jpsearch.go.jp/en/gallery/ndl-JBpERWwDqYZ"}
 sources:
-  - https://www.wikidata.org/wiki/Q3179819
-  - https://www.getty.edu/research/tools/vocabularies/aat/
-  - https://jpsearch.go.jp/en/gallery/ndl-JBpERWwDqYZ
-  - https://www.ndl.go.jp/kaleido/entry/20/2.html
+  - url: "https://www.wikidata.org/wiki/Q3179819"
+    kind: authority
+  - url: "https://www.getty.edu/research/tools/vocabularies/aat/"
+    kind: authority
+  - url: "https://jpsearch.go.jp/en/gallery/ndl-JBpERWwDqYZ"
+    kind: authority
+  - url: "https://www.ndl.go.jp/kaleido/entry/20/2.html"
+    kind: authority
 images:
   - url: https://images.metmuseum.org/CRDImages/as/original/DT231.jpg
     source_page: https://www.metmuseum.org/art/collection/search/39664

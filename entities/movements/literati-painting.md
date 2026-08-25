@@ -27,14 +27,22 @@ claims:
 space: []
 relations: []
 sources:
-  - https://www.wikidata.org/wiki/Q1142000
-  - https://ja.wikipedia.org/wiki/%E6%96%87%E4%BA%BA%E7%94%BB
-  - https://zh.wikipedia.org/wiki/%E6%96%87%E4%BA%BA%E7%94%BB
-  - https://en.wikipedia.org/wiki/Southern_School
-  - https://www.britannica.com/art/wenrenhua
-  - https://www.britannica.com/biography/Dong-Qichang
-  - https://www.wikidata.org/wiki/Q36020
-  - https://www.wikidata.org/wiki/Q313605
+  - url: "https://www.wikidata.org/wiki/Q1142000"
+    kind: authority
+  - url: "https://ja.wikipedia.org/wiki/%E6%96%87%E4%BA%BA%E7%94%BB"
+    kind: reference
+  - url: "https://zh.wikipedia.org/wiki/%E6%96%87%E4%BA%BA%E7%94%BB"
+    kind: reference
+  - url: "https://en.wikipedia.org/wiki/Southern_School"
+    kind: reference
+  - url: "https://www.britannica.com/art/wenrenhua"
+    kind: reference
+  - url: "https://www.britannica.com/biography/Dong-Qichang"
+    kind: reference
+  - url: "https://www.wikidata.org/wiki/Q36020"
+    kind: authority
+  - url: "https://www.wikidata.org/wiki/Q313605"
+    kind: authority
 images:
   - url: https://www.artic.edu/iiif/2/5f28e5c2-9ccf-86f2-58f7-6fa4ca267cba/full/843,/0/default.jpg
     source_page: https://www.artic.edu/artworks/145677

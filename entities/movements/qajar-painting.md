@@ -28,22 +28,38 @@ relations:
   - {type: influenced_by, target: movement/safavid-painting, certainty: scholarly, source: "https://www.iranicaonline.org/articles/art-in-iran-v-qajar-2-painting/"}
   - {type: influenced_by, target: movement/realism, certainty: scholarly, source: "https://scholarworks.sjsu.edu/etd_theses/3019/"}
 sources:
-  - https://www.wikidata.org/wiki/Q5964557
-  - https://www.wikidata.org/wiki/Q2864726
-  - https://www.wikidata.org/wiki/Q189326
-  - https://en.wikipedia.org/wiki/Qajar_art
-  - https://en.wikipedia.org/wiki/Mohammad_Sadiq_(painter)
-  - https://en.wikipedia.org/wiki/Mirza_Baba
-  - https://en.wikipedia.org/wiki/Mihr_%27Ali
-  - https://en.wikipedia.org/wiki/Abu%27l-Hasan_Sani_al-Mulk
-  - https://en.wikipedia.org/wiki/Kamal-ol-molk
-  - https://en.wikipedia.org/wiki/Tehran
-  - "https://en.wikipedia.org/wiki/Royal_Persian_Paintings:_The_Qajar_Epoch_1785%E2%80%931925"
-  - https://www.sothebys.com/en/auctions/ecatalogue/2010/arts-of-the-islamic-world-l10223/lot.94.html
-  - https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300021708
-  - https://www.iranicaonline.org/articles/art-in-iran-v-qajar-1-general/
-  - https://www.iranicaonline.org/articles/art-in-iran-v-qajar-2-painting/
-  - https://scholarworks.sjsu.edu/etd_theses/3019/
+  - url: "https://www.wikidata.org/wiki/Q5964557"
+    kind: authority
+  - url: "https://www.wikidata.org/wiki/Q2864726"
+    kind: authority
+  - url: "https://www.wikidata.org/wiki/Q189326"
+    kind: authority
+  - url: "https://en.wikipedia.org/wiki/Qajar_art"
+    kind: reference
+  - url: "https://en.wikipedia.org/wiki/Mohammad_Sadiq_(painter)"
+    kind: reference
+  - url: "https://en.wikipedia.org/wiki/Mirza_Baba"
+    kind: reference
+  - url: "https://en.wikipedia.org/wiki/Mihr_%27Ali"
+    kind: reference
+  - url: "https://en.wikipedia.org/wiki/Abu%27l-Hasan_Sani_al-Mulk"
+    kind: reference
+  - url: "https://en.wikipedia.org/wiki/Kamal-ol-molk"
+    kind: reference
+  - url: "https://en.wikipedia.org/wiki/Tehran"
+    kind: reference
+  - url: "https://en.wikipedia.org/wiki/Royal_Persian_Paintings:_The_Qajar_Epoch_1785%E2%80%931925"
+    kind: reference
+  - url: "https://www.sothebys.com/en/auctions/ecatalogue/2010/arts-of-the-islamic-world-l10223/lot.94.html"
+    kind: reference
+  - url: "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300021708"
+    kind: authority
+  - url: "https://www.iranicaonline.org/articles/art-in-iran-v-qajar-1-general/"
+    kind: reference
+  - url: "https://www.iranicaonline.org/articles/art-in-iran-v-qajar-2-painting/"
+    kind: reference
+  - url: "https://scholarworks.sjsu.edu/etd_theses/3019/"
+    kind: scholarly
 images:
   - url: https://images.metmuseum.org/CRDImages/is/original/DP-15521-001.jpg
     source_page: https://www.metmuseum.org/art/collection/search/767842

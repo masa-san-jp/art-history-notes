@@ -45,12 +45,22 @@ def _paths(entity_type: str) -> list[Path]:
     return paths
 
 
+def _source_url(value):
+    if isinstance(value, str):
+        return value
+    if isinstance(value, dict):
+        return value.get("url")
+    return None
+
+
 def report(entity_type: str) -> dict:
     files = []
     legacy_files = []
     parse_errors = []
     source_count = 0
     legacy_count = 0
+    reference_count = 0
+    missing_references = []
     for path in _paths(entity_type):
         try:
             relative = path.relative_to(ROOT).as_posix()
@@ -71,14 +81,30 @@ def report(entity_type: str) -> dict:
         if strings:
             legacy_files.append(relative)
             legacy_count += strings
+        source_urls = {_source_url(source) for source in sources}
+        for field in ("claims", "relations", "signals"):
+            for index, item in enumerate(meta.get(field) or [], start=1):
+                if not isinstance(item, dict) or not item.get("source"):
+                    continue
+                reference_count += 1
+                if item["source"] not in source_urls:
+                    missing_references.append({
+                        "path": relative,
+                        "field": field,
+                        "index": index,
+                        "source": item["source"],
+                    })
     return {
         "type": entity_type,
         "file_count": len(files),
         "source_count": source_count,
         "legacy_file_count": len(legacy_files),
         "legacy_item_count": legacy_count,
+        "reference_count": reference_count,
+        "missing_reference_count": len(missing_references),
         "files": files,
         "legacy_files": legacy_files,
+        "missing_references": missing_references,
         "parse_errors": parse_errors,
     }
 
@@ -103,6 +129,12 @@ def render_markdown(payload: dict) -> str:
             lines.extend(f"- `{path}`" for path in item["legacy_files"])
         for error in item["parse_errors"]:
             lines.append(f"- **読み込みエラー** `{error['path']}`: {error['error']}")
+        if item["missing_references"]:
+            lines += ["", "親sourcesにない根拠参照:", ""]
+            lines.extend(
+                f"- `{row['path']}` {row['field']}[{row['index']}]: `{row['source']}`"
+                for row in item["missing_references"]
+            )
     return "\n".join(lines) + "\n"
 
 
@@ -112,15 +144,17 @@ def main(argv=None) -> int:
                         help="指定型にlegacyが残っていれば非0（複数指定可）")
     parser.add_argument("--format", choices=("json", "markdown"), default="json")
     parser.add_argument("--output", help="出力先。省略時は標準出力")
+    parser.add_argument("--quiet", action="store_true", help="check-typeのゲート用途でレポートを表示しない")
     args = parser.parse_args(argv)
     payload = build_report(args.check_type)
     text = (render_markdown(payload) if args.format == "markdown"
             else json.dumps(payload, ensure_ascii=False, indent=2, sort_keys=False) + "\n")
     if args.output:
         Path(args.output).write_text(text, encoding="utf-8")
-    else:
+    elif not args.quiet:
         sys.stdout.write(text)
-    failed = any(item["legacy_file_count"] or item["parse_errors"] for item in payload["reports"])
+    failed = any(item["legacy_file_count"] or item["parse_errors"] or item["missing_reference_count"]
+                 for item in payload["reports"])
     return 1 if args.check_type and failed else 0
 
 

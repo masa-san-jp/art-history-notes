@@ -26,20 +26,34 @@ space:
   - {role: originated_in, target: place/new-zealand}
 relations: []
 sources:
-  - https://teara.govt.nz/en/1966/maori-art/page-8
-  - https://teara.govt.nz/en/maori-architecture-whare-maori/page-2
-  - https://teara.govt.nz/en/maori-architecture-whare-maori/page-3
-  - https://teara.govt.nz/en/maori-architecture-whare-maori/page-4
-  - https://en.wikipedia.org/wiki/Koru
-  - https://en.wikipedia.org/wiki/Sandy_Adsett
-  - https://en.wikipedia.org/wiki/Cliff_Whiting
-  - https://www.timmelville.com/exhibition/kowhaiwhai/
-  - http://collections.tepapa.govt.nz/Object/1444297
-  - https://www.aucklandmuseum.com/collection/object/1207475
-  - https://www.wikidata.org/wiki/Q3108354
-  - https://www.wikidata.org/wiki/Q7990459
-  - https://www.wikidata.org/wiki/Q664
-  - https://www.getty.edu/vow/AATServlet?english=Y&find=kowhaiwhai&logic=AND&note=&page=1&subjectid=0
+  - url: "https://teara.govt.nz/en/1966/maori-art/page-8"
+    kind: reference
+  - url: "https://teara.govt.nz/en/maori-architecture-whare-maori/page-2"
+    kind: reference
+  - url: "https://teara.govt.nz/en/maori-architecture-whare-maori/page-3"
+    kind: reference
+  - url: "https://teara.govt.nz/en/maori-architecture-whare-maori/page-4"
+    kind: reference
+  - url: "https://en.wikipedia.org/wiki/Koru"
+    kind: reference
+  - url: "https://en.wikipedia.org/wiki/Sandy_Adsett"
+    kind: reference
+  - url: "https://en.wikipedia.org/wiki/Cliff_Whiting"
+    kind: reference
+  - url: "https://www.timmelville.com/exhibition/kowhaiwhai/"
+    kind: reference
+  - url: "http://collections.tepapa.govt.nz/Object/1444297"
+    kind: reference
+  - url: "https://www.aucklandmuseum.com/collection/object/1207475"
+    kind: institutional
+  - url: "https://www.wikidata.org/wiki/Q3108354"
+    kind: authority
+  - url: "https://www.wikidata.org/wiki/Q7990459"
+    kind: authority
+  - url: "https://www.wikidata.org/wiki/Q664"
+    kind: authority
+  - url: "https://www.getty.edu/vow/AATServlet?english=Y&find=kowhaiwhai&logic=AND&note=&page=1&subjectid=0"
+    kind: authority
 status: draft
 updated: 2026-08-10
 ---

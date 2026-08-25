@@ -33,18 +33,30 @@ relations:
   - {type: created_by, target: person/nguyen-gia-tri}
   - {type: influenced_by, target: movement/post-impressionism, certainty: scholarly, source: "https://www.rem.routledge.com/articles/nguyen-gia-tri-1908-1993"}
 sources:
-  - https://en.wikipedia.org/wiki/Vietnam_University_of_Fine_Arts
-  - https://en.wikipedia.org/wiki/Victor_Tardieu
-  - https://en.wikipedia.org/wiki/Nguy%E1%BB%85n_Gia_Tr%C3%AD
-  - https://aap.art/lecole-des-beaux-arts-indochine/
-  - https://www.hoasen.edu.vn/son-mai-tu-my-nghe-den-hoi-hoa/
-  - https://www.nationalgallery.sg/sg/en/learn-about-art/magazine/vietnamese-lacquer-painting-between-materiality-and-history.html
-  - https://www.rem.routledge.com/articles/modern-lacquer-painting-in-vietnam
-  - https://www.rem.routledge.com/articles/nguyen-gia-tri-1908-1993
-  - https://www.rem.routledge.com/articles/post-impressionism
-  - https://www.tapchisonglam.vn/di-san-cua-truong-cao-dang-my-thuat-dong-duong/
-  - https://goutrends.com/victor-tardieu-nguoi-sang-lap-truong-my-thuat-dong-duong/
-  - https://saigoneer.com/saigon-music-art/5121-the-incredible-work-of-l-ecole-beaux-art-l-indochine-artists
+  - url: "https://en.wikipedia.org/wiki/Vietnam_University_of_Fine_Arts"
+    kind: scholarly
+  - url: "https://en.wikipedia.org/wiki/Victor_Tardieu"
+    kind: reference
+  - url: "https://en.wikipedia.org/wiki/Nguy%E1%BB%85n_Gia_Tr%C3%AD"
+    kind: reference
+  - url: "https://aap.art/lecole-des-beaux-arts-indochine/"
+    kind: reference
+  - url: "https://www.hoasen.edu.vn/son-mai-tu-my-nghe-den-hoi-hoa/"
+    kind: institutional
+  - url: "https://www.nationalgallery.sg/sg/en/learn-about-art/magazine/vietnamese-lacquer-painting-between-materiality-and-history.html"
+    kind: institutional
+  - url: "https://www.rem.routledge.com/articles/modern-lacquer-painting-in-vietnam"
+    kind: scholarly
+  - url: "https://www.rem.routledge.com/articles/nguyen-gia-tri-1908-1993"
+    kind: scholarly
+  - url: "https://www.rem.routledge.com/articles/post-impressionism"
+    kind: scholarly
+  - url: "https://www.tapchisonglam.vn/di-san-cua-truong-cao-dang-my-thuat-dong-duong/"
+    kind: reference
+  - url: "https://goutrends.com/victor-tardieu-nguoi-sang-lap-truong-my-thuat-dong-duong/"
+    kind: reference
+  - url: "https://saigoneer.com/saigon-music-art/5121-the-incredible-work-of-l-ecole-beaux-art-l-indochine-artists"
+    kind: reference
 status: draft
 updated: 2026-08-09
 ---

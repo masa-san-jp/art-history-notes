@@ -56,20 +56,34 @@ images:
       CC0）。ワタリガラスの背に人物像を乗せた形式のガラガラで、シャーマンの儀礼具として始まり、
       冬季儀礼で首長も用いたとされる"
 sources:
-  - https://www.wikidata.org/wiki/Q7059995
-  - https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300017594
-  - https://en.wikipedia.org/wiki/Northwest_Coast_art
-  - https://en.wikipedia.org/wiki/Formline_art
-  - https://en.wikipedia.org/wiki/Indigenous_peoples_of_the_Pacific_Northwest_Coast
-  - https://en.wikipedia.org/wiki/Potlatch_ban
-  - https://en.wikipedia.org/wiki/Bill_Reid
-  - https://en.wikipedia.org/wiki/Robert_Davidson_(artist)
-  - https://www.ebsco.com/research-starters/social-sciences-and-humanities/northwest-coast-cultural-area-native-american
-  - https://www.ebsco.com/research-starters/social-sciences-and-humanities/totem-poles
-  - https://content.lib.washington.edu/aipnw/wright.html
-  - https://open.library.ubc.ca/cIRcle/collections/ubctheses/831/items/1.0089510
-  - https://clevelandart.org/art/1989.89
-  - https://clevelandart.org/art/1921.1577
+  - url: "https://www.wikidata.org/wiki/Q7059995"
+    kind: authority
+  - url: "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300017594"
+    kind: authority
+  - url: "https://en.wikipedia.org/wiki/Northwest_Coast_art"
+    kind: reference
+  - url: "https://en.wikipedia.org/wiki/Formline_art"
+    kind: reference
+  - url: "https://en.wikipedia.org/wiki/Indigenous_peoples_of_the_Pacific_Northwest_Coast"
+    kind: reference
+  - url: "https://en.wikipedia.org/wiki/Potlatch_ban"
+    kind: reference
+  - url: "https://en.wikipedia.org/wiki/Bill_Reid"
+    kind: reference
+  - url: "https://en.wikipedia.org/wiki/Robert_Davidson_(artist)"
+    kind: reference
+  - url: "https://www.ebsco.com/research-starters/social-sciences-and-humanities/northwest-coast-cultural-area-native-american"
+    kind: reference
+  - url: "https://www.ebsco.com/research-starters/social-sciences-and-humanities/totem-poles"
+    kind: reference
+  - url: "https://content.lib.washington.edu/aipnw/wright.html"
+    kind: institutional
+  - url: "https://open.library.ubc.ca/cIRcle/collections/ubctheses/831/items/1.0089510"
+    kind: reference
+  - url: "https://clevelandart.org/art/1989.89"
+    kind: institutional
+  - url: "https://clevelandart.org/art/1921.1577"
+    kind: institutional
 status: draft
 updated: 2026-08-25
 ---

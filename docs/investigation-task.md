@@ -110,7 +110,8 @@ sources:
 資料種別がURLから明白でない `primary` には、何が一次資料なのかを `note` に書く。
 判断できないものは `reference` にする。旧形式のURL文字列も移行期間中は読めるが、新規ファイルでは
 object形式だけを使う。移行残数は `uv run --locked python tools/audit_source_migration.py` で確認し、
-型別移行issueの完了後に `--check-type movement` または `--check-type context` をCIへ追加する。
+movement と context は移行済みで、`--check-type movement` と `--check-type context` をCIの退行ゲートにしている。
+他のentity型のlegacy移行は後続issueで行う。
 
 #### kind の判定表
 

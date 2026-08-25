@@ -35,14 +35,22 @@ images:
     license: public-domain
     note: "テオ・ファン・ドゥースブルフが編集した『De Stijl』1919年11月号のページ。Commonsのファイルページでパブリックドメインと確認できる"
 sources:
-  - https://www.wikidata.org/wiki/Q207445
-  - https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300021259
-  - https://sammlung.staedelmuseum.de/en/person/de-stijl
-  - https://www.lakenhal.nl/en/story/de-stijl
-  - https://www.moma.org/collection/terms/de-stijl?sanity_preview=true&sanity_preview_secret=d51b1526-f689-4f33-b7c5-896dca252e7a
-  - https://www.moma.org/documents/moma_catalogue_1798_300159061.pdf
-  - https://assets.moma.org/documents/moma_catalogue_2748_300086869.pdf
-  - https://commons.wikimedia.org/wiki/File:Stijl_vol_03_nr_01_p_003.jpg
+  - url: "https://www.wikidata.org/wiki/Q207445"
+    kind: authority
+  - url: "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300021259"
+    kind: authority
+  - url: "https://sammlung.staedelmuseum.de/en/person/de-stijl"
+    kind: institutional
+  - url: "https://www.lakenhal.nl/en/story/de-stijl"
+    kind: reference
+  - url: "https://www.moma.org/collection/terms/de-stijl?sanity_preview=true&sanity_preview_secret=d51b1526-f689-4f33-b7c5-896dca252e7a"
+    kind: institutional
+  - url: "https://www.moma.org/documents/moma_catalogue_1798_300159061.pdf"
+    kind: scholarly
+  - url: "https://assets.moma.org/documents/moma_catalogue_2748_300086869.pdf"
+    kind: scholarly
+  - url: "https://commons.wikimedia.org/wiki/File:Stijl_vol_03_nr_01_p_003.jpg"
+    kind: reference
 status: draft
 updated: 2026-08-11
 ---

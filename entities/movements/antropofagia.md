@@ -32,16 +32,26 @@ relations:
   - {type: created_by, target: person/oswald-de-andrade}
   - {type: responds_to, target: movement/surrealism, certainty: scholarly, source: "https://digitalrepository.unm.edu/brazil_slides/762/"}
 sources:
-  - https://digital.bbm.usp.br/bitstream/bbm/7064/2/Anno.1_n.01_45000033273.pdf
-  - https://digital.bbm.usp.br/handle/bbm/7064
-  - https://www.wikidata.org/wiki/Q2907232
-  - https://en.wikipedia.org/wiki/Manifesto_Antrop%C3%B3fago
-  - https://en.wikipedia.org/wiki/Anthropophagic_movement
-  - https://pt.wikipedia.org/wiki/Movimento_antropof%C3%A1gico
-  - https://www.moma.org/collection/works/193204
-  - https://www.tate.org.uk/art/art-terms/a/anthropophagia
-  - https://en.wikipedia.org/wiki/Oswald_de_Andrade
-  - https://digitalrepository.unm.edu/brazil_slides/762/
+  - url: "https://digital.bbm.usp.br/bitstream/bbm/7064/2/Anno.1_n.01_45000033273.pdf"
+    kind: scholarly
+  - url: "https://digital.bbm.usp.br/handle/bbm/7064"
+    kind: reference
+  - url: "https://www.wikidata.org/wiki/Q2907232"
+    kind: authority
+  - url: "https://en.wikipedia.org/wiki/Manifesto_Antrop%C3%B3fago"
+    kind: reference
+  - url: "https://en.wikipedia.org/wiki/Anthropophagic_movement"
+    kind: reference
+  - url: "https://pt.wikipedia.org/wiki/Movimento_antropof%C3%A1gico"
+    kind: reference
+  - url: "https://www.moma.org/collection/works/193204"
+    kind: institutional
+  - url: "https://www.tate.org.uk/art/art-terms/a/anthropophagia"
+    kind: institutional
+  - url: "https://en.wikipedia.org/wiki/Oswald_de_Andrade"
+    kind: reference
+  - url: "https://digitalrepository.unm.edu/brazil_slides/762/"
+    kind: scholarly
 status: draft
 updated: 2026-08-09
 ---

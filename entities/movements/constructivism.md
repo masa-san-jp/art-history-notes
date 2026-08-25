@@ -37,19 +37,32 @@ images:
     license: cc0
     note: "エル・リシツキー《Wendingen》1921年（1923年刊）、国立美術館蔵。構成主義のグラフィック実践を示す代表的な公開画像として、NGAの作品ページとCC0画像を参照"
 sources:
-  - https://www.wikidata.org/wiki/Q207103
-  - https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300021393
-  - https://www.moma.org/collection/terms/constructivism
-  - https://www.moma.org/explore/inside_out/2014/01/30/new-in-the-galleries-the-russian-avant-garde/
-  - https://www.moma.org/interactives/exhibitions/1998/rodchenko/texts/new_cultural.html
-  - https://press.moma.org/wp-content/files_mf/russianavantgarde_pressrelease_final88.pdf
-  - https://nga.gov.au/exhibitions/russian-avant-garde/
-  - https://www.theartstory.org/movement/suprematism/
-  - https://www.vkhutemas.ru/en/summary/
-  - https://www.vkhutemas.ru/en/the-history/
-  - https://www.moma.org/interactives/objectphoto/schools/15.html
-  - https://www.nga.gov/artworks/93943-wendingen
-  - https://commons.wikimedia.org/wiki/File:El_Lissitzky,_Wendingen,_1921_(published_1923),_NGA_93943.jpg
+  - url: "https://www.wikidata.org/wiki/Q207103"
+    kind: authority
+  - url: "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300021393"
+    kind: authority
+  - url: "https://www.moma.org/collection/terms/constructivism"
+    kind: institutional
+  - url: "https://www.moma.org/explore/inside_out/2014/01/30/new-in-the-galleries-the-russian-avant-garde/"
+    kind: institutional
+  - url: "https://www.moma.org/interactives/exhibitions/1998/rodchenko/texts/new_cultural.html"
+    kind: institutional
+  - url: "https://press.moma.org/wp-content/files_mf/russianavantgarde_pressrelease_final88.pdf"
+    kind: scholarly
+  - url: "https://nga.gov.au/exhibitions/russian-avant-garde/"
+    kind: institutional
+  - url: "https://www.theartstory.org/movement/suprematism/"
+    kind: reference
+  - url: "https://www.vkhutemas.ru/en/summary/"
+    kind: reference
+  - url: "https://www.vkhutemas.ru/en/the-history/"
+    kind: reference
+  - url: "https://www.moma.org/interactives/objectphoto/schools/15.html"
+    kind: institutional
+  - url: "https://www.nga.gov/artworks/93943-wendingen"
+    kind: reference
+  - url: "https://commons.wikimedia.org/wiki/File:El_Lissitzky,_Wendingen,_1921_(published_1923),_NGA_93943.jpg"
+    kind: reference
 status: draft
 updated: 2026-08-25
 ---

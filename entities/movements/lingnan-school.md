@@ -31,22 +31,38 @@ space:
 relations:
   - {type: influenced_by, target: movement/nihonga, certainty: scholarly, source: "https://www.tnm.jp/modules/r_free_page/index.php?id=1544&lang=ja"}
 sources:
-  - https://www.wikidata.org/wiki/Q11050078
-  - https://www.wikidata.org/wiki/Q3083171
-  - https://zh.wikipedia.org/wiki/岭南画派
-  - https://en.wikipedia.org/wiki/Lingnan_School
-  - https://zh.wikipedia.org/wiki/高剑父
-  - https://en.wikipedia.org/wiki/Gao_Jianfu
-  - https://zh.wikipedia.org/wiki/真相画报
-  - https://www.huajia.cc/n/201608/1512142572.html
-  - https://baike.baidu.com/item/岭南画派/197892
-  - https://news.qq.com/rain/a/20230822A01WD200
-  - https://news.qq.com/rain/a/20230103A00ARP00
-  - https://zh.wikipedia.org/wiki/高奇峰
-  - https://zh.wikipedia.org/wiki/陈树人
-  - https://zh.wikipedia.org/wiki/居廉
-  - https://cn.chinadaily.com.cn/a/202504/07/WS67f37d5ea310e29a7c4a7e8d.html
-  - https://www.tnm.jp/modules/r_free_page/index.php?id=1544&lang=ja
+  - url: "https://www.wikidata.org/wiki/Q11050078"
+    kind: authority
+  - url: "https://www.wikidata.org/wiki/Q3083171"
+    kind: authority
+  - url: "https://zh.wikipedia.org/wiki/岭南画派"
+    kind: reference
+  - url: "https://en.wikipedia.org/wiki/Lingnan_School"
+    kind: reference
+  - url: "https://zh.wikipedia.org/wiki/高剑父"
+    kind: reference
+  - url: "https://en.wikipedia.org/wiki/Gao_Jianfu"
+    kind: reference
+  - url: "https://zh.wikipedia.org/wiki/真相画报"
+    kind: reference
+  - url: "https://www.huajia.cc/n/201608/1512142572.html"
+    kind: reference
+  - url: "https://baike.baidu.com/item/岭南画派/197892"
+    kind: reference
+  - url: "https://news.qq.com/rain/a/20230822A01WD200"
+    kind: reference
+  - url: "https://news.qq.com/rain/a/20230103A00ARP00"
+    kind: reference
+  - url: "https://zh.wikipedia.org/wiki/高奇峰"
+    kind: reference
+  - url: "https://zh.wikipedia.org/wiki/陈树人"
+    kind: reference
+  - url: "https://zh.wikipedia.org/wiki/居廉"
+    kind: reference
+  - url: "https://cn.chinadaily.com.cn/a/202504/07/WS67f37d5ea310e29a7c4a7e8d.html"
+    kind: reference
+  - url: "https://www.tnm.jp/modules/r_free_page/index.php?id=1544&lang=ja"
+    kind: institutional
 images:
   - url: https://images.metmuseum.org/CRDImages/as/original/DP162527.jpg
     source_page: https://www.metmuseum.org/art/collection/search/36184

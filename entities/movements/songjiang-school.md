@@ -33,22 +33,38 @@ relations:
   - {type: derives_from, target: movement/wu-school, certainty: scholarly, source: "https://ja.wikipedia.org/wiki/%E5%91%89%E6%B4%BE"}
   - {type: precedes, target: movement/shanghai-school, certainty: scholarly, source: "https://zh.wikipedia.org/zh-hans/%E6%9D%BE%E6%B1%9F%E7%94%BB%E6%B4%BE"}
 sources:
-  - https://www.wikidata.org/wiki/Q1150568
-  - https://zh.wikipedia.org/zh-hans/%E6%9D%BE%E6%B1%9F%E7%94%BB%E6%B4%BE
-  - https://ja.wikipedia.org/wiki/%E5%91%89%E6%B4%BE
-  - https://ja.wikipedia.org/wiki/%E8%91%A3%E5%85%B6%E6%98%8C
-  - https://en.wikipedia.org/wiki/Dong_Qichang
-  - https://zh.wikipedia.org/wiki/%E9%A1%A7%E6%AD%A3%E8%AA%BC
-  - https://en.wikipedia.org/wiki/Gu_Zhengyi
-  - https://zh.wikipedia.org/wiki/%E8%8E%AB%E6%98%AF%E9%BE%99
-  - https://zh.wikipedia.org/wiki/%E9%99%88%E7%BB%A7%E5%84%92
-  - https://zh.wikipedia.org/wiki/%E8%B5%B5%E5%B7%A6
-  - https://zh.wikipedia.org/wiki/%E6%B2%88%E5%A3%AB%E5%85%85
-  - https://zh.wikipedia.org/wiki/%E7%A8%8B%E5%98%89%E7%87%A7
-  - https://www.wikidata.org/wiki/Q537211
-  - https://www.wikidata.org/wiki/Q11665202
-  - https://www.wikidata.org/wiki/Q662380
-  - https://www.shanghaimuseum.net/mu/frontend/pg/m/article/id/RI00004055
+  - url: "https://www.wikidata.org/wiki/Q1150568"
+    kind: authority
+  - url: "https://zh.wikipedia.org/zh-hans/%E6%9D%BE%E6%B1%9F%E7%94%BB%E6%B4%BE"
+    kind: reference
+  - url: "https://ja.wikipedia.org/wiki/%E5%91%89%E6%B4%BE"
+    kind: reference
+  - url: "https://ja.wikipedia.org/wiki/%E8%91%A3%E5%85%B6%E6%98%8C"
+    kind: reference
+  - url: "https://en.wikipedia.org/wiki/Dong_Qichang"
+    kind: reference
+  - url: "https://zh.wikipedia.org/wiki/%E9%A1%A7%E6%AD%A3%E8%AA%BC"
+    kind: reference
+  - url: "https://en.wikipedia.org/wiki/Gu_Zhengyi"
+    kind: reference
+  - url: "https://zh.wikipedia.org/wiki/%E8%8E%AB%E6%98%AF%E9%BE%99"
+    kind: reference
+  - url: "https://zh.wikipedia.org/wiki/%E9%99%88%E7%BB%A7%E5%84%92"
+    kind: reference
+  - url: "https://zh.wikipedia.org/wiki/%E8%B5%B5%E5%B7%A6"
+    kind: reference
+  - url: "https://zh.wikipedia.org/wiki/%E6%B2%88%E5%A3%AB%E5%85%85"
+    kind: reference
+  - url: "https://zh.wikipedia.org/wiki/%E7%A8%8B%E5%98%89%E7%87%A7"
+    kind: reference
+  - url: "https://www.wikidata.org/wiki/Q537211"
+    kind: authority
+  - url: "https://www.wikidata.org/wiki/Q11665202"
+    kind: authority
+  - url: "https://www.wikidata.org/wiki/Q662380"
+    kind: authority
+  - url: "https://www.shanghaimuseum.net/mu/frontend/pg/m/article/id/RI00004055"
+    kind: institutional
 images:
   - url: https://openaccess-cdn.clevelandart.org/1980.10/1980.10_web.jpg
     source_page: https://clevelandart.org/art/1980.10

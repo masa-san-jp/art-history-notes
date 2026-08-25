@@ -31,9 +31,12 @@ space:
 relations:
   - {type: influenced_by, target: movement/song-academy-painting, certainty: scholarly, source: "https://www.kyohaku.go.jp/jp/assets/press/2027_kano_press_0608-02ver.pdf"}
 sources:
-  - https://www.wikidata.org/wiki/Q252801
-  - https://www.getty.edu/research/tools/vocabularies/aat/
-  - https://www.kyohaku.go.jp/jp/assets/press/2027_kano_press_0608-02ver.pdf
+  - url: "https://www.wikidata.org/wiki/Q252801"
+    kind: authority
+  - url: "https://www.getty.edu/research/tools/vocabularies/aat/"
+    kind: authority
+  - url: "https://www.kyohaku.go.jp/jp/assets/press/2027_kano_press_0608-02ver.pdf"
+    kind: scholarly
 images:
   - url: https://images.metmuseum.org/CRDImages/as/original/LC-29_100_495gh_002.jpg
     source_page: https://www.metmuseum.org/art/collection/search/45219

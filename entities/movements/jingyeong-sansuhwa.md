@@ -30,17 +30,28 @@ space:
 relations:
   - {type: influenced_by, target: movement/wu-school, certainty: scholarly, source: "https://encykorea.aks.ac.kr/Article/E0050379"}
 sources:
-  - https://www.wikidata.org/wiki/Q12618161
-  - https://www.wikidata.org/wiki/Q489785
-  - https://ko.wikipedia.org/wiki/%EC%A7%84%EA%B2%BD%EC%82%B0%EC%88%98
-  - https://ko.wikipedia.org/wiki/%EA%B9%80%ED%99%8D%EB%8F%84
-  - https://encykorea.aks.ac.kr/Article/E0054575
-  - https://encykorea.aks.ac.kr/Article/E0050379
-  - https://encykorea.aks.ac.kr/Article/E0033641
-  - https://contents.history.go.kr/mobile/kc/view.do?levelId=kc_r300825&code=kc_age_30
-  - https://contents.history.go.kr/mobile/nh/view.do?levelId=nh_035_0040_0020_0010_0030
-  - https://en.wikipedia.org/wiki/Dohwaseo
-  - https://www.kci.go.kr/kciportal/landing/article.kci?arti_id=ART001994596
+  - url: "https://www.wikidata.org/wiki/Q12618161"
+    kind: authority
+  - url: "https://www.wikidata.org/wiki/Q489785"
+    kind: authority
+  - url: "https://ko.wikipedia.org/wiki/%EC%A7%84%EA%B2%BD%EC%82%B0%EC%88%98"
+    kind: reference
+  - url: "https://ko.wikipedia.org/wiki/%EA%B9%80%ED%99%8D%EB%8F%84"
+    kind: reference
+  - url: "https://encykorea.aks.ac.kr/Article/E0054575"
+    kind: institutional
+  - url: "https://encykorea.aks.ac.kr/Article/E0050379"
+    kind: institutional
+  - url: "https://encykorea.aks.ac.kr/Article/E0033641"
+    kind: institutional
+  - url: "https://contents.history.go.kr/mobile/kc/view.do?levelId=kc_r300825&code=kc_age_30"
+    kind: reference
+  - url: "https://contents.history.go.kr/mobile/nh/view.do?levelId=nh_035_0040_0020_0010_0030"
+    kind: reference
+  - url: "https://en.wikipedia.org/wiki/Dohwaseo"
+    kind: reference
+  - url: "https://www.kci.go.kr/kciportal/landing/article.kci?arti_id=ART001994596"
+    kind: scholarly
 images:
   - url: https://images.metmuseum.org/CRDImages/as/original/DP-44393-002.jpg
     source_page: https://www.metmuseum.org/art/collection/search/929078

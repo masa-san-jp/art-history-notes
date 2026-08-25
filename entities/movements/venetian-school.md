@@ -30,28 +30,50 @@ space:
 relations:
   - {type: influenced_by, target: movement/byzantine-art, certainty: scholarly, source: "https://www.metmuseum.org/art/collection/search/459020"}
 sources:
-  - https://www.wikidata.org/wiki/Q610687
-  - https://www.wikidata.org/wiki/Q641
-  - https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&subjectid=300440789
-  - https://en.wikipedia.org/wiki/Venetian_painting
-  - https://en.wikipedia.org/wiki/Venetian_School
-  - https://en.wikipedia.org/wiki/Scuole_Grandi_di_Venezia
-  - https://en.wikipedia.org/wiki/Scuola_Grande_di_San_Rocco
-  - https://www.conoscerevenezia.it/?p=25801
-  - https://en.wikipedia.org/wiki/Paolo_Veneziano
-  - https://en.wikipedia.org/wiki/Antonio_Vivarini
-  - https://en.wikipedia.org/wiki/Bartolomeo_Vivarini
-  - https://en.wikipedia.org/wiki/Alvise_Vivarini
-  - https://en.wikipedia.org/wiki/Jacopo_Bellini
-  - https://en.wikipedia.org/wiki/Gentile_Bellini
-  - https://it.wikipedia.org/wiki/Le_Maraviglie_dell%27arte
-  - https://www.taylorfrancis.com/chapters/mono/10.4324/9781315091815-10/carlo-ridolfi-1594-lonigo-1658-venice-le-maraviglie-dell-arte-overo-le-vite-de-gl-illustri-pittori-veneti-dello-stato-1648-julia-dabbs
-  - https://en.wikipedia.org/wiki/Luigi_Lanzi
-  - https://www.academia.edu/37111049/Luigi_Lanzi_e_le_scuole_pittoriche
-  - https://www.theartstory.org/movement/venetian-school/
-  - https://www.ebsco.com/research-starters/visual-arts/venetian-school-painting
-  - https://www.metmuseum.org/de/essays/venice-in-the-eighteenth-century
-  - https://www.metmuseum.org/art/collection/search/459020
+  - url: "https://www.wikidata.org/wiki/Q610687"
+    kind: authority
+  - url: "https://www.wikidata.org/wiki/Q641"
+    kind: authority
+  - url: "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&subjectid=300440789"
+    kind: authority
+  - url: "https://en.wikipedia.org/wiki/Venetian_painting"
+    kind: reference
+  - url: "https://en.wikipedia.org/wiki/Venetian_School"
+    kind: reference
+  - url: "https://en.wikipedia.org/wiki/Scuole_Grandi_di_Venezia"
+    kind: reference
+  - url: "https://en.wikipedia.org/wiki/Scuola_Grande_di_San_Rocco"
+    kind: reference
+  - url: "https://www.conoscerevenezia.it/?p=25801"
+    kind: reference
+  - url: "https://en.wikipedia.org/wiki/Paolo_Veneziano"
+    kind: reference
+  - url: "https://en.wikipedia.org/wiki/Antonio_Vivarini"
+    kind: reference
+  - url: "https://en.wikipedia.org/wiki/Bartolomeo_Vivarini"
+    kind: reference
+  - url: "https://en.wikipedia.org/wiki/Alvise_Vivarini"
+    kind: reference
+  - url: "https://en.wikipedia.org/wiki/Jacopo_Bellini"
+    kind: reference
+  - url: "https://en.wikipedia.org/wiki/Gentile_Bellini"
+    kind: reference
+  - url: "https://it.wikipedia.org/wiki/Le_Maraviglie_dell%27arte"
+    kind: reference
+  - url: "https://www.taylorfrancis.com/chapters/mono/10.4324/9781315091815-10/carlo-ridolfi-1594-lonigo-1658-venice-le-maraviglie-dell-arte-overo-le-vite-de-gl-illustri-pittori-veneti-dello-stato-1648-julia-dabbs"
+    kind: reference
+  - url: "https://en.wikipedia.org/wiki/Luigi_Lanzi"
+    kind: reference
+  - url: "https://www.academia.edu/37111049/Luigi_Lanzi_e_le_scuole_pittoriche"
+    kind: institutional
+  - url: "https://www.theartstory.org/movement/venetian-school/"
+    kind: reference
+  - url: "https://www.ebsco.com/research-starters/visual-arts/venetian-school-painting"
+    kind: reference
+  - url: "https://www.metmuseum.org/de/essays/venice-in-the-eighteenth-century"
+    kind: institutional
+  - url: "https://www.metmuseum.org/art/collection/search/459020"
+    kind: institutional
 status: draft
 updated: 2026-08-09
 images:

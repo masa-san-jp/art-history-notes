@@ -45,23 +45,40 @@ images:
     license: cc0
     note: "任頤（任伯年）《鴛鴦と蓮》1892年（海上画派で最も多いとされる花鳥画の例）"
 sources:
-  - https://www.wikidata.org/wiki/Q3376676
-  - https://www.getty.edu/vow/AATFullDisplay?find=&place=&nation=&logic=&note=&role=&subjectid=300106504
-  - https://en.wikipedia.org/wiki/Ren_Xiong
-  - https://en.wikipedia.org/wiki/Ren_Xun
-  - https://en.wikipedia.org/wiki/Ren_Bonian
-  - https://zh.wikipedia.org/wiki/任伯年
-  - https://zh.wikipedia.org/wiki/任熊
-  - https://zh.wikipedia.org/wiki/吴昌硕
-  - https://zh.wikipedia.org/zh-hans/海上画派
-  - https://zh.wikipedia.org/zh-hans/海派_(文艺)
-  - https://www.jiemian.com/article/3563398.html
-  - https://www.163.com/dy/article/FT1LD5PE0521BMH5.html
-  - https://www.wikidata.org/wiki/Q8686
-  - https://www.metmuseum.org/art/collection/search/49447
-  - https://www.metmuseum.org/art/collection/search/37393
-  - https://www.artic.edu/artworks/46435
-  - https://www.shanghaimuseum.net/mu/frontend/pg/article/id/RI00004055
+  - url: "https://www.wikidata.org/wiki/Q3376676"
+    kind: authority
+  - url: "https://www.getty.edu/vow/AATFullDisplay?find=&place=&nation=&logic=&note=&role=&subjectid=300106504"
+    kind: authority
+  - url: "https://en.wikipedia.org/wiki/Ren_Xiong"
+    kind: reference
+  - url: "https://en.wikipedia.org/wiki/Ren_Xun"
+    kind: reference
+  - url: "https://en.wikipedia.org/wiki/Ren_Bonian"
+    kind: reference
+  - url: "https://zh.wikipedia.org/wiki/任伯年"
+    kind: reference
+  - url: "https://zh.wikipedia.org/wiki/任熊"
+    kind: reference
+  - url: "https://zh.wikipedia.org/wiki/吴昌硕"
+    kind: reference
+  - url: "https://zh.wikipedia.org/zh-hans/海上画派"
+    kind: reference
+  - url: "https://zh.wikipedia.org/zh-hans/海派_(文艺)"
+    kind: reference
+  - url: "https://www.jiemian.com/article/3563398.html"
+    kind: reference
+  - url: "https://www.163.com/dy/article/FT1LD5PE0521BMH5.html"
+    kind: reference
+  - url: "https://www.wikidata.org/wiki/Q8686"
+    kind: authority
+  - url: "https://www.metmuseum.org/art/collection/search/49447"
+    kind: institutional
+  - url: "https://www.metmuseum.org/art/collection/search/37393"
+    kind: institutional
+  - url: "https://www.artic.edu/artworks/46435"
+    kind: institutional
+  - url: "https://www.shanghaimuseum.net/mu/frontend/pg/article/id/RI00004055"
+    kind: institutional
 status: draft
 updated: 2026-08-25
 ---

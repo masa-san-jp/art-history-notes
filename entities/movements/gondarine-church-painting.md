@@ -32,15 +32,24 @@ relations:
   - {type: influenced_by, target: movement/byzantine-art, certainty: scholarly, source: "https://www.metmuseum.org/essays/african-christianity-in-ethiopia"}
   - {type: influenced_by, target: movement/mannerism, certainty: scholarly, source: "https://www.journal18.org/nq/giulio-romanos-the-little-holy-family-in-africa-identifying-an-18th-century-ethiopian-painting-by-kristen-windmuller-luna/"}
 sources:
-  - http://www.getty.edu/vow/AATFullDisplay?find=Gondar&logic=AND&note=&english=Y&subjectid=300263018
-  - https://en.wikipedia.org/wiki/Gondarine_period
-  - https://www.wikidata.org/wiki/Q112649079
-  - https://www.wikidata.org/wiki/Q218861
-  - https://www.h-net.org/reviews/showpdf.php?id=11894
-  - https://journal.thewalters.org/volume/78/note/ethiopian-icon-paintings/
-  - https://www.journal18.org/nq/giulio-romanos-the-little-holy-family-in-africa-identifying-an-18th-century-ethiopian-painting-by-kristen-windmuller-luna/
-  - https://www.metmuseum.org/essays/african-christianity-in-ethiopia
-  - https://whc.unesco.org/en/list/19/
+  - url: "http://www.getty.edu/vow/AATFullDisplay?find=Gondar&logic=AND&note=&english=Y&subjectid=300263018"
+    kind: authority
+  - url: "https://en.wikipedia.org/wiki/Gondarine_period"
+    kind: reference
+  - url: "https://www.wikidata.org/wiki/Q112649079"
+    kind: authority
+  - url: "https://www.wikidata.org/wiki/Q218861"
+    kind: authority
+  - url: "https://www.h-net.org/reviews/showpdf.php?id=11894"
+    kind: reference
+  - url: "https://journal.thewalters.org/volume/78/note/ethiopian-icon-paintings/"
+    kind: scholarly
+  - url: "https://www.journal18.org/nq/giulio-romanos-the-little-holy-family-in-africa-identifying-an-18th-century-ethiopian-painting-by-kristen-windmuller-luna/"
+    kind: reference
+  - url: "https://www.metmuseum.org/essays/african-christianity-in-ethiopia"
+    kind: institutional
+  - url: "https://whc.unesco.org/en/list/19/"
+    kind: institutional
 images:
   - url: https://openaccess-cdn.clevelandart.org/2023.4/2023.4_web.jpg
     source_page: https://clevelandart.org/art/2023.4

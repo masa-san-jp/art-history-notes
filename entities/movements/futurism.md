@@ -40,23 +40,44 @@ images:
     license: public-domain
     note: "ボッチョーニ《立ち上がる都市》1910年、油彩、ニューヨーク近代美術館（MoMA）蔵。同じく著作権保護期間満了（PD-old-100-expired）"
 sources:
-  - https://www.wikidata.org/wiki/Q131221
-  - https://archive.org/details/f.t.-marinetti-manifeste-du-futurism-1909
-  - https://archive.org/metadata/f.t.-marinetti-manifeste-du-futurism-1909
-  - https://gallica.bnf.fr/ark:/12148/bpt6k2883730
-  - https://gallica.bnf.fr/iiif/ark:/12148/bpt6k2883730/manifest.json
-  - https://en.wikipedia.org/wiki/Manifesto_of_Futurism
-  - https://fr.wikipedia.org/wiki/Manifeste_du_futurisme
-  - https://en.wikipedia.org/wiki/Filippo_Tommaso_Marinetti
-  - https://en.wikipedia.org/wiki/Futurist_Painting:_Technical_Manifesto
-  - https://en.wikipedia.org/wiki/Manifesto_of_Futurist_Musicians
-  - https://en.wikipedia.org/wiki/Futurist_cooking
-  - https://en.wikipedia.org/wiki/Fasci_Italiani_di_Combattimento
-  - https://en.wikipedia.org/wiki/Umberto_Boccioni
-  - https://en.wikipedia.org/wiki/Antonio_Sant%27Elia
-  - http://exhibitions.guggenheim.org/futurism/manifestos/
-  - https://www.theartstory.org/movement/futurism/
-  - https://www.nationalgallery.org.uk/about-us/press-and-media/press-releases-archive/radical-light-italy-s-divisionist-painters-1891-1910
+  - url: "https://www.wikidata.org/wiki/Q131221"
+    kind: authority
+  - url: "https://archive.org/details/f.t.-marinetti-manifeste-du-futurism-1909"
+    kind: primary
+    note: "URLの資料パスから一次資料と判定"
+  - url: "https://archive.org/metadata/f.t.-marinetti-manifeste-du-futurism-1909"
+    kind: primary
+    note: "URLの資料パスから一次資料と判定"
+  - url: "https://gallica.bnf.fr/ark:/12148/bpt6k2883730"
+    kind: primary
+    note: "URLの資料パスから一次資料と判定"
+  - url: "https://gallica.bnf.fr/iiif/ark:/12148/bpt6k2883730/manifest.json"
+    kind: primary
+    note: "URLの資料パスから一次資料と判定"
+  - url: "https://en.wikipedia.org/wiki/Manifesto_of_Futurism"
+    kind: reference
+  - url: "https://fr.wikipedia.org/wiki/Manifeste_du_futurisme"
+    kind: reference
+  - url: "https://en.wikipedia.org/wiki/Filippo_Tommaso_Marinetti"
+    kind: reference
+  - url: "https://en.wikipedia.org/wiki/Futurist_Painting:_Technical_Manifesto"
+    kind: reference
+  - url: "https://en.wikipedia.org/wiki/Manifesto_of_Futurist_Musicians"
+    kind: reference
+  - url: "https://en.wikipedia.org/wiki/Futurist_cooking"
+    kind: reference
+  - url: "https://en.wikipedia.org/wiki/Fasci_Italiani_di_Combattimento"
+    kind: reference
+  - url: "https://en.wikipedia.org/wiki/Umberto_Boccioni"
+    kind: reference
+  - url: "https://en.wikipedia.org/wiki/Antonio_Sant%27Elia"
+    kind: reference
+  - url: "http://exhibitions.guggenheim.org/futurism/manifestos/"
+    kind: reference
+  - url: "https://www.theartstory.org/movement/futurism/"
+    kind: reference
+  - url: "https://www.nationalgallery.org.uk/about-us/press-and-media/press-releases-archive/radical-light-italy-s-divisionist-painters-1891-1910"
+    kind: institutional
 status: draft
 updated: 2026-08-13
 ---

@@ -35,13 +35,20 @@ relations:
   - {type: created_by, target: person/iba-ndiaye}
   - {type: created_by, target: person/pierre-lods}
 sources:
-  - https://www.wikidata.org/wiki/Q3577793
-  - https://en.wikipedia.org/wiki/Dakar_School
-  - https://en.wikipedia.org/wiki/Papa_Ibra_Tall
-  - https://en.wikipedia.org/wiki/Iba_Ndiaye
-  - https://momaa.org/ecole-de-dakar-senegals-negritude-aesthetic/
-  - https://www.tate.org.uk/art/art-terms/n/negritude
-  - https://heiup.uni-heidelberg.de/catalog/view/457/679/85134
+  - url: "https://www.wikidata.org/wiki/Q3577793"
+    kind: authority
+  - url: "https://en.wikipedia.org/wiki/Dakar_School"
+    kind: reference
+  - url: "https://en.wikipedia.org/wiki/Papa_Ibra_Tall"
+    kind: reference
+  - url: "https://en.wikipedia.org/wiki/Iba_Ndiaye"
+    kind: reference
+  - url: "https://momaa.org/ecole-de-dakar-senegals-negritude-aesthetic/"
+    kind: reference
+  - url: "https://www.tate.org.uk/art/art-terms/n/negritude"
+    kind: institutional
+  - url: "https://heiup.uni-heidelberg.de/catalog/view/457/679/85134"
+    kind: reference
 status: draft
 updated: 2026-08-12
 ---

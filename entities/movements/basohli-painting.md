@@ -33,21 +33,36 @@ relations:
   - {type: influenced_by, target: movement/mughal-painting, certainty: scholarly, source: "https://resources.metmuseum.org/resources/metpublications/pdf/Divine_Pleasures.pdf"}
   - {type: diffused_to, target: place/london, certainty: scholarly, source: "https://www.britishmuseum.org/collection/term/x25008"}
 sources:
-  - https://en.wikipedia.org/wiki/Basohli
-  - https://www.wikidata.org/wiki/Q711982
-  - https://www.wikidata.org/wiki/Q123559951
-  - https://www.metmuseum.org/art/collection/search/37941
-  - https://www.metmuseum.org/art/collection/search/37942
-  - https://collectionapi.metmuseum.org/public/collection/v1/objects/37941
-  - https://www.wikidata.org/wiki/Q77458847
-  - https://www.wikidata.org/wiki/Q113457574
-  - https://collections.lacma.org/object/42760
-  - https://francescagalloway.com/blog/32-a-brief-introduction-to-pahari-painting-extract-from-j.p.-lostys-essay-first-published-in/
-  - https://aatesaurus.cultura.gencat.cat/aat/getty_en/index.php?%2Frajput=&tema=31367026
-  - https://www.metmuseum.org/art/collection/search/825657
-  - https://en.wikipedia.org/wiki/Nainsukh
-  - https://resources.metmuseum.org/resources/metpublications/pdf/Divine_Pleasures.pdf
-  - https://www.britishmuseum.org/collection/term/x25008
+  - url: "https://en.wikipedia.org/wiki/Basohli"
+    kind: reference
+  - url: "https://www.wikidata.org/wiki/Q711982"
+    kind: authority
+  - url: "https://www.wikidata.org/wiki/Q123559951"
+    kind: authority
+  - url: "https://www.metmuseum.org/art/collection/search/37941"
+    kind: institutional
+  - url: "https://www.metmuseum.org/art/collection/search/37942"
+    kind: institutional
+  - url: "https://collectionapi.metmuseum.org/public/collection/v1/objects/37941"
+    kind: institutional
+  - url: "https://www.wikidata.org/wiki/Q77458847"
+    kind: authority
+  - url: "https://www.wikidata.org/wiki/Q113457574"
+    kind: authority
+  - url: "https://collections.lacma.org/object/42760"
+    kind: reference
+  - url: "https://francescagalloway.com/blog/32-a-brief-introduction-to-pahari-painting-extract-from-j.p.-lostys-essay-first-published-in/"
+    kind: reference
+  - url: "https://aatesaurus.cultura.gencat.cat/aat/getty_en/index.php?%2Frajput=&tema=31367026"
+    kind: reference
+  - url: "https://www.metmuseum.org/art/collection/search/825657"
+    kind: institutional
+  - url: "https://en.wikipedia.org/wiki/Nainsukh"
+    kind: reference
+  - url: "https://resources.metmuseum.org/resources/metpublications/pdf/Divine_Pleasures.pdf"
+    kind: scholarly
+  - url: "https://www.britishmuseum.org/collection/term/x25008"
+    kind: institutional
 images:
   - url: https://images.metmuseum.org/CRDImages/as/original/DP153147.jpg
     source_page: https://www.metmuseum.org/art/collection/search/37941

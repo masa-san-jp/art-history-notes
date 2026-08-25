@@ -33,13 +33,20 @@ relations:
   - {type: reacts_against, target: movement/suprematism, certainty: attested, source: "https://portal.lygiaclark.org.br/acervo/67348/manifesto-neoconcreto"}
   - {type: responds_to, target: movement/suprematism, certainty: attested, source: "https://portal.lygiaclark.org.br/acervo/67348/manifesto-neoconcreto"}
 sources:
-  - https://portal.lygiaclark.org.br/acervo/67348/manifesto-neoconcreto
-  - https://portal.lygiaclark.org.br/acervo/1747/1-exposicao-neoconcreta
-  - https://www.wikidata.org/wiki/Q10336205
-  - https://pt.wikipedia.org/wiki/Neoconcretismo
-  - https://memorialdademocracia.com.br/card/o-movimento-contra-a-aspereza-na-arte
-  - https://www.getty.edu/vow/AATFullDisplay?find=neoconcrete&logic=OR&note=&english=Y&prev_page=1&subjectid=300456752
-  - https://smarthistory.org/geometric-abstraction-south-america/
+  - url: "https://portal.lygiaclark.org.br/acervo/67348/manifesto-neoconcreto"
+    kind: reference
+  - url: "https://portal.lygiaclark.org.br/acervo/1747/1-exposicao-neoconcreta"
+    kind: reference
+  - url: "https://www.wikidata.org/wiki/Q10336205"
+    kind: authority
+  - url: "https://pt.wikipedia.org/wiki/Neoconcretismo"
+    kind: reference
+  - url: "https://memorialdademocracia.com.br/card/o-movimento-contra-a-aspereza-na-arte"
+    kind: reference
+  - url: "https://www.getty.edu/vow/AATFullDisplay?find=neoconcrete&logic=OR&note=&english=Y&prev_page=1&subjectid=300456752"
+    kind: authority
+  - url: "https://smarthistory.org/geometric-abstraction-south-america/"
+    kind: reference
 status: draft
 updated: 2026-08-09
 ---

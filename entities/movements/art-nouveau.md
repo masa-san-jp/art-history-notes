@@ -32,12 +32,18 @@ relations:
   - {type: influenced_by, target: movement/arts-and-crafts, certainty: scholarly, source: "https://www.metmuseum.org/es/essays/nineteenth-century-european-textile-production"}
   - {type: influenced_by, target: movement/rinpa, certainty: scholarly, source: "https://www.ndl.go.jp/kaleido/entry/20/3.html"}
 sources:
-  - https://www.wikidata.org/wiki/Q34636
-  - https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300021430
-  - https://www.vam.ac.uk/articles/art-nouveau-an-international-style
-  - https://www.metmuseum.org/ja/essays/art-nouveau
-  - https://www.metmuseum.org/es/essays/nineteenth-century-european-textile-production
-  - https://www.ndl.go.jp/kaleido/entry/20/3.html
+  - url: "https://www.wikidata.org/wiki/Q34636"
+    kind: authority
+  - url: "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300021430"
+    kind: authority
+  - url: "https://www.vam.ac.uk/articles/art-nouveau-an-international-style"
+    kind: reference
+  - url: "https://www.metmuseum.org/ja/essays/art-nouveau"
+    kind: institutional
+  - url: "https://www.metmuseum.org/es/essays/nineteenth-century-european-textile-production"
+    kind: institutional
+  - url: "https://www.ndl.go.jp/kaleido/entry/20/3.html"
+    kind: authority
 status: draft
 updated: 2026-08-12
 ---

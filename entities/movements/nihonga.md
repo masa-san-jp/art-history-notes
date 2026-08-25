@@ -37,14 +37,22 @@ images:
     license: public-domain
     note: "菱田春草《落葉》1909年、永青文庫蔵。Wikimedia Commons の権利表示は Public domain（春草の没年1911年）。輪郭線を引かずに空気の層を描く手つきが1点で見える——これが批判の側から「朦朧体」と呼ばれた描き方で、1903年にインドへ、1900年代後半に東京へ来た中国人留学生を通じて広東へ渡ったのも、この手つきである"
 sources:
-  - https://www.wikidata.org/wiki/Q1989975
-  - https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300114441
-  - https://www.yamatane-museum.jp/en/nihonga/
-  - http://museums.toyamaken.jp/documents/documents007/
-  - https://nihonbijutsuin.or.jp/his_tenshsin.php
-  - https://www.wikidata.org/wiki/Q4346814
-  - https://amis-musee-cernuschi.org/en/les-liens-artistiques-et-culturels-entre-linde-et-le-japon-vers-1890-1940-2/
-  - https://kyoto-museums.city.kyoto.lg.jp/feature-column/painting/
+  - url: "https://www.wikidata.org/wiki/Q1989975"
+    kind: authority
+  - url: "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300114441"
+    kind: authority
+  - url: "https://www.yamatane-museum.jp/en/nihonga/"
+    kind: institutional
+  - url: "http://museums.toyamaken.jp/documents/documents007/"
+    kind: institutional
+  - url: "https://nihonbijutsuin.or.jp/his_tenshsin.php"
+    kind: reference
+  - url: "https://www.wikidata.org/wiki/Q4346814"
+    kind: authority
+  - url: "https://amis-musee-cernuschi.org/en/les-liens-artistiques-et-culturels-entre-linde-et-le-japon-vers-1890-1940-2/"
+    kind: reference
+  - url: "https://kyoto-museums.city.kyoto.lg.jp/feature-column/painting/"
+    kind: institutional
 status: draft
 updated: 2026-08-10
 ---

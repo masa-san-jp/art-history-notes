@@ -44,15 +44,26 @@ images:
     license: cc0
     note: "歌川国芳《Snake (Mi): Nitan Shiro, from the series Heroes for the Twelve Animals of the Zodiac（勇武見立十二支）》c.1840年。シカゴ美術館蔵（is_public_domain: true）。国貞と並ぶ豊国門下の大勢力で、武者絵を得意とした系統の作例"
 sources:
-  - https://www.wikidata.org/wiki/Q2297646
-  - https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&subjectid=300018662
-  - https://en.wikipedia.org/wiki/Utagawa_school
-  - https://ja.wikipedia.org/wiki/歌川派
-  - https://kunisada-and-kabuki.fitzmuseum.cam.ac.uk/themes/kunisadas-names
-  - https://toshidama.wordpress.com/2018/07/06/the-utagawa-lineage-in-japanese-prints/
-  - https://www.artic.edu/artworks/15804
-  - https://www.artic.edu/artworks/24248
-  - https://www.artic.edu/artworks/11229
+  - url: "https://www.wikidata.org/wiki/Q2297646"
+    kind: authority
+  - url: "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&subjectid=300018662"
+    kind: authority
+  - url: "https://en.wikipedia.org/wiki/Utagawa_school"
+    kind: reference
+  - url: "https://ja.wikipedia.org/wiki/歌川派"
+    kind: reference
+  - url: "https://kunisada-and-kabuki.fitzmuseum.cam.ac.uk/themes/kunisadas-names"
+    kind: institutional
+  - url: "https://toshidama.wordpress.com/2018/07/06/the-utagawa-lineage-in-japanese-prints/"
+    kind: reference
+  - url: "https://www.artic.edu/artworks/15804"
+    kind: institutional
+  - url: "https://www.artic.edu/artworks/24248"
+    kind: institutional
+  - url: "https://www.artic.edu/artworks/11229"
+    kind: institutional
+  - url: "https://www.wikidata.org/wiki/Q1490"
+    kind: authority
 status: draft
 updated: 2026-08-09
 ---

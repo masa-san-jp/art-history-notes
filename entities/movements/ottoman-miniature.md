@@ -27,17 +27,28 @@ space:
 relations:
   - {type: influenced_by, target: movement/safavid-painting, certainty: scholarly, source: "https://www.britishmuseum.org/collection/object/W_1930-1112-0-4"}
 sources:
-  - https://www.wikidata.org/wiki/Q268639
-  - https://www.wikidata.org/wiki/Q406
-  - https://www.wikidata.org/wiki/Q63681008
-  - https://vocab.getty.edu/aat/300021614
-  - https://en.wikipedia.org/wiki/Ottoman_miniature
-  - https://www.metmuseum.org/essays/the-art-of-the-ottomans-before-1600
-  - https://www.metmuseum.org/ja/essays/silks-from-ottoman-turkey
-  - https://www.britishmuseum.org/collection/object/W_1930-1112-0-4
-  - https://en.wikipedia.org/wiki/%C5%9Eahkulu_(painter)
-  - https://en.wikipedia.org/wiki/Nakka%C5%9F_Osman
-  - https://en.wikipedia.org/wiki/Safavid_art
+  - url: "https://www.wikidata.org/wiki/Q268639"
+    kind: authority
+  - url: "https://www.wikidata.org/wiki/Q406"
+    kind: authority
+  - url: "https://www.wikidata.org/wiki/Q63681008"
+    kind: authority
+  - url: "https://vocab.getty.edu/aat/300021614"
+    kind: authority
+  - url: "https://en.wikipedia.org/wiki/Ottoman_miniature"
+    kind: reference
+  - url: "https://www.metmuseum.org/essays/the-art-of-the-ottomans-before-1600"
+    kind: institutional
+  - url: "https://www.metmuseum.org/ja/essays/silks-from-ottoman-turkey"
+    kind: institutional
+  - url: "https://www.britishmuseum.org/collection/object/W_1930-1112-0-4"
+    kind: institutional
+  - url: "https://en.wikipedia.org/wiki/%C5%9Eahkulu_(painter)"
+    kind: reference
+  - url: "https://en.wikipedia.org/wiki/Nakka%C5%9F_Osman"
+    kind: reference
+  - url: "https://en.wikipedia.org/wiki/Safavid_art"
+    kind: reference
 status: draft
 updated: 2026-08-13
 ---

@@ -35,17 +35,26 @@ relations:
   - {type: diffused_to, target: place/dakar, certainty: scholarly, source: "https://heiup.uni-heidelberg.de/catalog/view/457/718/111002"}
   - {type: diffused_to, target: place/new-york-city, certainty: scholarly, source: "https://sites.rhodes.edu/potopoto/history-poto-poto-school"}
 sources:
-  - https://www.wikidata.org/wiki/Q114247696
-  - https://www.wikidata.org/wiki/Q59564370
-  - https://sites.rhodes.edu/potopoto/history-poto-poto-school
-  - https://sites.rhodes.edu/potopoto
-  - https://shs.cairn.info/journal-cahiers-d-etudes-africaines-2012-1-page-259?lang=en
-  - https://heiup.uni-heidelberg.de/catalog/view/457/718/111002
-  - https://www.si.edu/object/siris_sil_752655
-  - https://www.africanews.com/2021/07/06/congo-school-of-painting-poto-poto-celebrates-70-years-of-african-art/
-  - https://en.wikipedia.org/wiki/Poto-Poto
-  - http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=Poto-Poto&logop=and&notes=
-  - https://sites.rhodes.edu/potopoto/history-poto-poto-school
+  - url: "https://www.wikidata.org/wiki/Q114247696"
+    kind: authority
+  - url: "https://www.wikidata.org/wiki/Q59564370"
+    kind: authority
+  - url: "https://sites.rhodes.edu/potopoto/history-poto-poto-school"
+    kind: institutional
+  - url: "https://sites.rhodes.edu/potopoto"
+    kind: institutional
+  - url: "https://shs.cairn.info/journal-cahiers-d-etudes-africaines-2012-1-page-259?lang=en"
+    kind: reference
+  - url: "https://heiup.uni-heidelberg.de/catalog/view/457/718/111002"
+    kind: reference
+  - url: "https://www.si.edu/object/siris_sil_752655"
+    kind: institutional
+  - url: "https://www.africanews.com/2021/07/06/congo-school-of-painting-poto-poto-celebrates-70-years-of-african-art/"
+    kind: reference
+  - url: "https://en.wikipedia.org/wiki/Poto-Poto"
+    kind: reference
+  - url: "http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=Poto-Poto&logop=and&notes="
+    kind: authority
 status: draft
 updated: 2026-08-13
 ---

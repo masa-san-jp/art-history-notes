@@ -31,21 +31,36 @@ relations:
   - {type: derives_from, target: movement/basohli-painting, certainty: scholarly, source: "https://www.metmuseum.org/art/collection/search/37947"}
   - {type: diffused_to, target: place/london, certainty: scholarly, source: "https://www.britishmuseum.org/collection/object/A_1927-1116-0-2"}
 sources:
-  - https://www.wikidata.org/wiki/Q6362867
-  - https://www.wikidata.org/wiki/Q2988788
-  - https://en.wikipedia.org/wiki/Kangra_painting
-  - https://en.wikipedia.org/wiki/Nainsukh
-  - https://en.wikipedia.org/wiki/Manaku_of_Guler
-  - https://en.wikipedia.org/wiki/Purkhu
-  - https://en.wikipedia.org/wiki/Sansar_Chand
-  - https://www.getty.edu/vow/AATFullDisplay?find=300019020&logic=AND&note=&subjectid=300019020
-  - https://aatesaurus.cultura.gencat.cat/aat/getty_en/index.php?%2Frajput=&tema=31367026
-  - https://www.livehistoryindia.com/story/snapshort-histories/sansar-chand-the-emperor-of-the-hills
-  - https://en.wiktionary.org/wiki/Rajput
-  - https://theprint.in/pageturner/excerpt/how-love-war-and-mughal-fine-art-inspired-kangra-painting/533500/
-  - https://www.metmuseum.org/art/collection/search/37950
-  - https://www.metmuseum.org/art/collection/search/37947
-  - https://www.britishmuseum.org/collection/object/A_1927-1116-0-2
+  - url: "https://www.wikidata.org/wiki/Q6362867"
+    kind: authority
+  - url: "https://www.wikidata.org/wiki/Q2988788"
+    kind: authority
+  - url: "https://en.wikipedia.org/wiki/Kangra_painting"
+    kind: reference
+  - url: "https://en.wikipedia.org/wiki/Nainsukh"
+    kind: reference
+  - url: "https://en.wikipedia.org/wiki/Manaku_of_Guler"
+    kind: reference
+  - url: "https://en.wikipedia.org/wiki/Purkhu"
+    kind: reference
+  - url: "https://en.wikipedia.org/wiki/Sansar_Chand"
+    kind: reference
+  - url: "https://www.getty.edu/vow/AATFullDisplay?find=300019020&logic=AND&note=&subjectid=300019020"
+    kind: authority
+  - url: "https://aatesaurus.cultura.gencat.cat/aat/getty_en/index.php?%2Frajput=&tema=31367026"
+    kind: reference
+  - url: "https://www.livehistoryindia.com/story/snapshort-histories/sansar-chand-the-emperor-of-the-hills"
+    kind: reference
+  - url: "https://en.wiktionary.org/wiki/Rajput"
+    kind: reference
+  - url: "https://theprint.in/pageturner/excerpt/how-love-war-and-mughal-fine-art-inspired-kangra-painting/533500/"
+    kind: reference
+  - url: "https://www.metmuseum.org/art/collection/search/37950"
+    kind: institutional
+  - url: "https://www.metmuseum.org/art/collection/search/37947"
+    kind: institutional
+  - url: "https://www.britishmuseum.org/collection/object/A_1927-1116-0-2"
+    kind: institutional
 images:
   - url: https://images.metmuseum.org/CRDImages/as/original/DP166090.jpg
     source_page: https://www.metmuseum.org/art/collection/search/74675

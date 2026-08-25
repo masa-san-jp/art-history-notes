@@ -30,20 +30,34 @@ space:
 relations:
   - {type: diffused_to, target: place/london, certainty: scholarly, source: "https://www.britishmuseum.org/collection/object/E_Oc1993-03-79"}
 sources:
-  - https://www.ngatitarawhaiiwi.org.nz/nga-tohunga
-  - https://en.wikipedia.org/wiki/Wero_T%C4%81roi
-  - https://en.wikipedia.org/wiki/Tene_Waitere
-  - https://en.wikipedia.org/wiki/Whakairo
-  - https://en.wikipedia.org/wiki/Tohunga
-  - https://www.wikidata.org/wiki/Q7990459
-  - https://www.wikidata.org/wiki/Q7023277
-  - https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300021960
-  - https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300264803
-  - https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300021962
-  - https://www.teaonews.co.nz/2017/12/21/three-significant-pou-whakairo-represent-te-arawa-style-of-carving/
-  - https://www.tepuia.com/nz-maori-arts-crafts/the-national-wood-carving-school/
-  - https://aucklanduniversitypress.co.nz/carved-histories-rotorua-ngati-tarawhai-carving/
-  - https://www.britishmuseum.org/collection/object/E_Oc1993-03-79
+  - url: "https://www.ngatitarawhaiiwi.org.nz/nga-tohunga"
+    kind: reference
+  - url: "https://en.wikipedia.org/wiki/Wero_T%C4%81roi"
+    kind: reference
+  - url: "https://en.wikipedia.org/wiki/Tene_Waitere"
+    kind: reference
+  - url: "https://en.wikipedia.org/wiki/Whakairo"
+    kind: reference
+  - url: "https://en.wikipedia.org/wiki/Tohunga"
+    kind: reference
+  - url: "https://www.wikidata.org/wiki/Q7990459"
+    kind: authority
+  - url: "https://www.wikidata.org/wiki/Q7023277"
+    kind: authority
+  - url: "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300021960"
+    kind: authority
+  - url: "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300264803"
+    kind: authority
+  - url: "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300021962"
+    kind: authority
+  - url: "https://www.teaonews.co.nz/2017/12/21/three-significant-pou-whakairo-represent-te-arawa-style-of-carving/"
+    kind: reference
+  - url: "https://www.tepuia.com/nz-maori-arts-crafts/the-national-wood-carving-school/"
+    kind: reference
+  - url: "https://aucklanduniversitypress.co.nz/carved-histories-rotorua-ngati-tarawhai-carving/"
+    kind: scholarly
+  - url: "https://www.britishmuseum.org/collection/object/E_Oc1993-03-79"
+    kind: institutional
 status: draft
 updated: 2026-08-13
 ---

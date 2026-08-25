@@ -33,12 +33,18 @@ relations:
   - {type: responds_to, target: movement/utagawa-school, certainty: scholarly, source: "https://artbma.org/press-release/bma-presents-the-art-of-pattern-henri-matisse-and-japanese-woodcut-artists/"}
   - {type: diffused_to, target: place/tokyo, certainty: scholarly, source: "https://www.momak.go.jp/English/collectionGalleryArchive/2017/collectionGallery2017No05.html"}
 sources:
-  - https://www.wikidata.org/wiki/Q166593
-  - https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300021300
-  - https://shop.tate.org.uk/derain-the-pool-of-london/andder1703.html
-  - https://www.metmuseum.org/ja/essays/fauvism
-  - https://www.momak.go.jp/English/collectionGalleryArchive/2017/collectionGallery2017No05.html
-  - https://artbma.org/press-release/bma-presents-the-art-of-pattern-henri-matisse-and-japanese-woodcut-artists/
+  - url: "https://www.wikidata.org/wiki/Q166593"
+    kind: authority
+  - url: "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300021300"
+    kind: authority
+  - url: "https://shop.tate.org.uk/derain-the-pool-of-london/andder1703.html"
+    kind: institutional
+  - url: "https://www.metmuseum.org/ja/essays/fauvism"
+    kind: institutional
+  - url: "https://www.momak.go.jp/English/collectionGalleryArchive/2017/collectionGallery2017No05.html"
+    kind: institutional
+  - url: "https://artbma.org/press-release/bma-presents-the-art-of-pattern-henri-matisse-and-japanese-woodcut-artists/"
+    kind: reference
 status: draft
 updated: 2026-08-13
 ---

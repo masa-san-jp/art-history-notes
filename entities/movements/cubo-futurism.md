@@ -36,15 +36,24 @@ images:
     license: public-domain
     note: "マレーヴィチ《研ぎ師（きらめきの原理）》1913年、油彩、イェール大学美術館蔵。Wikimedia Commons の権利表示は「Public domain」、クレジットは Yale University Art Gallery。反復する刃と手が同一画面に何度も現れる——キュビスムの面の分割にフュチュリズムの運動の反復を重ねた形が1点で見える"
 sources:
-  - https://www.wikidata.org/wiki/Q1400843
-  - https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300021394
-  - https://en.wikipedia.org/wiki/Cubo-Futurism
-  - https://en.wikipedia.org/wiki/Russian_Futurism
-  - https://en.wikipedia.org/wiki/Victory_over_the_Sun
-  - https://en.wikipedia.org/wiki/0,10_Exhibition
-  - https://www.bonhams.com/auction/22795/lot/238/marinetti-filippo-tommaso-ed-manifesty-italiyanskogo-futurizma-italian-futurism-manifesto-moscow-russkago-tovarishchestva-1914/
-  - https://www.artic.edu/artworks/199128
-  - https://malevichsociety.org/writings-by-malevich/
+  - url: "https://www.wikidata.org/wiki/Q1400843"
+    kind: authority
+  - url: "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300021394"
+    kind: authority
+  - url: "https://en.wikipedia.org/wiki/Cubo-Futurism"
+    kind: reference
+  - url: "https://en.wikipedia.org/wiki/Russian_Futurism"
+    kind: reference
+  - url: "https://en.wikipedia.org/wiki/Victory_over_the_Sun"
+    kind: reference
+  - url: "https://en.wikipedia.org/wiki/0,10_Exhibition"
+    kind: reference
+  - url: "https://www.bonhams.com/auction/22795/lot/238/marinetti-filippo-tommaso-ed-manifesty-italiyanskogo-futurizma-italian-futurism-manifesto-moscow-russkago-tovarishchestva-1914/"
+    kind: reference
+  - url: "https://www.artic.edu/artworks/199128"
+    kind: institutional
+  - url: "https://malevichsociety.org/writings-by-malevich/"
+    kind: reference
 status: draft
 updated: 2026-08-10
 ---

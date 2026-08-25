@@ -33,21 +33,36 @@ relations:
   - {type: created_by, target: person/jose-sabogal}
   - {type: influenced_by, target: movement/post-impressionism, certainty: scholarly, source: "http://sedici.unlp.edu.ar/handle/10915/151286"}
 sources:
-  - https://www.wikidata.org/wiki/Q5602008
-  - https://www.getty.edu/vow/AATFullDisplay?find=&place=&nation=&logic=&note=&role=&subjectid=300107847
-  - https://en.wikipedia.org/wiki/Jos%C3%A9_Sabogal
-  - https://en.wikipedia.org/wiki/Indigenismo
-  - https://www.wikidata.org/wiki/Q2093376
-  - https://www.wikidata.org/wiki/Q5202236
-  - https://www.wikidata.org/wiki/Q2868
-  - http://sedici.unlp.edu.ar/handle/10915/151286
-  - http://sedici.unlp.edu.ar/bitstream/handle/10915/151286/Documento_completo.pdf-PDFA.pdf?sequence=1
-  - https://revistas.javeriana.edu.co/index.php/cma/article/view/villanueva
-  - https://www.museoreinasofia.es/actividad/indigenismo-1-redes-vanguardia-amauta-america-latina-1926-1930/
-  - https://www.museoreinasofia.es/en/activities/indigenisms
-  - https://www.encyclopedia.com/humanities/encyclopedias-almanacs-transcripts-and-maps/sabogal-jose-1888-1956
-  - https://repositorio.pucp.edu.pe/items/d84354b6-20b8-4ce4-8553-a1a2d27dd1bc
-  - https://icaa.mfah.org/s/en/item/1140821
+  - url: "https://www.wikidata.org/wiki/Q5602008"
+    kind: authority
+  - url: "https://www.getty.edu/vow/AATFullDisplay?find=&place=&nation=&logic=&note=&role=&subjectid=300107847"
+    kind: authority
+  - url: "https://en.wikipedia.org/wiki/Jos%C3%A9_Sabogal"
+    kind: reference
+  - url: "https://en.wikipedia.org/wiki/Indigenismo"
+    kind: reference
+  - url: "https://www.wikidata.org/wiki/Q2093376"
+    kind: authority
+  - url: "https://www.wikidata.org/wiki/Q5202236"
+    kind: authority
+  - url: "https://www.wikidata.org/wiki/Q2868"
+    kind: authority
+  - url: "http://sedici.unlp.edu.ar/handle/10915/151286"
+    kind: institutional
+  - url: "http://sedici.unlp.edu.ar/bitstream/handle/10915/151286/Documento_completo.pdf-PDFA.pdf?sequence=1"
+    kind: scholarly
+  - url: "https://revistas.javeriana.edu.co/index.php/cma/article/view/villanueva"
+    kind: institutional
+  - url: "https://www.museoreinasofia.es/actividad/indigenismo-1-redes-vanguardia-amauta-america-latina-1926-1930/"
+    kind: reference
+  - url: "https://www.museoreinasofia.es/en/activities/indigenisms"
+    kind: reference
+  - url: "https://www.encyclopedia.com/humanities/encyclopedias-almanacs-transcripts-and-maps/sabogal-jose-1888-1956"
+    kind: reference
+  - url: "https://repositorio.pucp.edu.pe/items/d84354b6-20b8-4ce4-8553-a1a2d27dd1bc"
+    kind: scholarly
+  - url: "https://icaa.mfah.org/s/en/item/1140821"
+    kind: reference
 status: draft
 updated: 2026-08-10
 ---

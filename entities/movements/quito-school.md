@@ -34,18 +34,30 @@ relations:
   - {type: influenced_by, target: movement/rococo, certainty: scholarly, source: "https://fundacionmuseosquito.gob.ec/MDC/Bibliograf%C3%ADa%20Sala%20siglo%20XVI/Pajuelo%20Jonathan-Arte%20de%20la%20Real%20Audiencia%20de%20Quito.pdf"}
   - {type: influenced_by, target: movement/neoclassicism, certainty: scholarly, source: "https://fundacionmuseosquito.gob.ec/MDC/Bibliograf%C3%ADa%20Sala%20siglo%20XVI/Pajuelo%20Jonathan-Arte%20de%20la%20Real%20Audiencia%20de%20Quito.pdf"}
 sources:
-  - https://www.wikidata.org/wiki/Q7272667
-  - https://www.getty.edu/vow/AATFullDisplay?find=&place=&nation=&logic=&note=&role=&subjectid=300107841
-  - https://en.wikipedia.org/wiki/Quito_school
-  - https://es.wikipedia.org/wiki/Escuela_Quite%C3%B1a
-  - https://www.encyclopedia.com/humanities/encyclopedias-almanacs-transcripts-and-maps/quito-school-art
-  - https://www.encyclopedia.com/humanities/encyclopedias-almanacs-transcripts-and-maps/quito-school-sculpture
-  - https://fundacionmuseosquito.gob.ec/MDC/Bibliograf%C3%ADa%20Sala%20siglo%20XVI/Pajuelo%20Jonathan-Arte%20de%20la%20Real%20Audiencia%20de%20Quito.pdf
-  - https://www.scielo.org.mx/scielo.php?script=sci_arttext&pid=S0185-12762014000200010
-  - https://cvc.cervantes.es/artes/ciudades_patrimonio/quito/personalidades/goribar.htm
-  - https://whc.unesco.org/en/list/2/
-  - https://www.metmuseum.org/art/collection/search/204305
-  - https://www.metmuseum.org/art/collection/search/204326
+  - url: "https://www.wikidata.org/wiki/Q7272667"
+    kind: authority
+  - url: "https://www.getty.edu/vow/AATFullDisplay?find=&place=&nation=&logic=&note=&role=&subjectid=300107841"
+    kind: authority
+  - url: "https://en.wikipedia.org/wiki/Quito_school"
+    kind: reference
+  - url: "https://es.wikipedia.org/wiki/Escuela_Quite%C3%B1a"
+    kind: reference
+  - url: "https://www.encyclopedia.com/humanities/encyclopedias-almanacs-transcripts-and-maps/quito-school-art"
+    kind: reference
+  - url: "https://www.encyclopedia.com/humanities/encyclopedias-almanacs-transcripts-and-maps/quito-school-sculpture"
+    kind: reference
+  - url: "https://fundacionmuseosquito.gob.ec/MDC/Bibliograf%C3%ADa%20Sala%20siglo%20XVI/Pajuelo%20Jonathan-Arte%20de%20la%20Real%20Audiencia%20de%20Quito.pdf"
+    kind: scholarly
+  - url: "https://www.scielo.org.mx/scielo.php?script=sci_arttext&pid=S0185-12762014000200010"
+    kind: scholarly
+  - url: "https://cvc.cervantes.es/artes/ciudades_patrimonio/quito/personalidades/goribar.htm"
+    kind: reference
+  - url: "https://whc.unesco.org/en/list/2/"
+    kind: institutional
+  - url: "https://www.metmuseum.org/art/collection/search/204305"
+    kind: institutional
+  - url: "https://www.metmuseum.org/art/collection/search/204326"
+    kind: institutional
 status: draft
 updated: 2026-08-25
 images:

@@ -29,17 +29,28 @@ space:
   - {role: originated_in, target: place/nanjing}
 relations: []
 sources:
-  - https://www.wikidata.org/wiki/Q5348995
-  - https://en.wikipedia.org/wiki/Eight_Masters_of_Nanjing
-  - https://zh.wikipedia.org/wiki/%E9%87%91%E9%99%B5%E5%85%AB%E5%AE%B6
-  - https://www.comuseum.com/painting/schools/eight-masters-of-nanjing/
-  - https://en.wikipedia.org/wiki/Gong_Xian
-  - https://en.wikipedia.org/wiki/Gao_Cen
-  - https://en.wikipedia.org/wiki/Zou_Zhe
-  - https://kotobank.jp/word/%E9%87%91%E9%99%B5%E5%85%AB%E5%AE%B6-54569
-  - https://finance.sina.com.cn/roll/2018-12-09/doc-ihprknvt8967421.shtml
-  - https://www.metmuseum.org/art/collection/search/36130
-  - https://www.metmuseum.org/art/collection/search/41483
+  - url: "https://www.wikidata.org/wiki/Q5348995"
+    kind: authority
+  - url: "https://en.wikipedia.org/wiki/Eight_Masters_of_Nanjing"
+    kind: reference
+  - url: "https://zh.wikipedia.org/wiki/%E9%87%91%E9%99%B5%E5%85%AB%E5%AE%B6"
+    kind: reference
+  - url: "https://www.comuseum.com/painting/schools/eight-masters-of-nanjing/"
+    kind: institutional
+  - url: "https://en.wikipedia.org/wiki/Gong_Xian"
+    kind: reference
+  - url: "https://en.wikipedia.org/wiki/Gao_Cen"
+    kind: reference
+  - url: "https://en.wikipedia.org/wiki/Zou_Zhe"
+    kind: reference
+  - url: "https://kotobank.jp/word/%E9%87%91%E9%99%B5%E5%85%AB%E5%AE%B6-54569"
+    kind: reference
+  - url: "https://finance.sina.com.cn/roll/2018-12-09/doc-ihprknvt8967421.shtml"
+    kind: reference
+  - url: "https://www.metmuseum.org/art/collection/search/36130"
+    kind: institutional
+  - url: "https://www.metmuseum.org/art/collection/search/41483"
+    kind: institutional
 images:
   - url: https://images.metmuseum.org/CRDImages/as/original/DP161078_crd.jpg
     source_page: https://www.metmuseum.org/art/collection/search/36130

@@ -32,15 +32,24 @@ relations:
   - {type: created_by, target: person/nobuo-sekine}
   - {type: created_by, target: person/lee-ufan}
 sources:
-  - https://www.wikidata.org/wiki/Q3321083
-  - https://www.getty.edu/vow/AATFullDisplay?find=mono+ha&logic=AND&note=&english=Y&prev_page=1&subjectid=300417405
-  - https://en.wikipedia.org/wiki/Mono-ha
-  - https://ja.wikipedia.org/wiki/%E3%82%82%E3%81%AE%E6%B4%BE
-  - https://artscape.jp/artword/6888/
-  - https://bijutsutecho.com/artwiki/101
-  - https://www.kamakura.gallery/mono-ha/minemura-en.html
-  - https://oralarthistory.org/archives/interviews/lee_u_fan_02/
-  - https://www.pen-online.jp/article/012230.html
+  - url: "https://www.wikidata.org/wiki/Q3321083"
+    kind: authority
+  - url: "https://www.getty.edu/vow/AATFullDisplay?find=mono+ha&logic=AND&note=&english=Y&prev_page=1&subjectid=300417405"
+    kind: authority
+  - url: "https://en.wikipedia.org/wiki/Mono-ha"
+    kind: reference
+  - url: "https://ja.wikipedia.org/wiki/%E3%82%82%E3%81%AE%E6%B4%BE"
+    kind: reference
+  - url: "https://artscape.jp/artword/6888/"
+    kind: reference
+  - url: "https://bijutsutecho.com/artwiki/101"
+    kind: reference
+  - url: "https://www.kamakura.gallery/mono-ha/minemura-en.html"
+    kind: reference
+  - url: "https://oralarthistory.org/archives/interviews/lee_u_fan_02/"
+    kind: reference
+  - url: "https://www.pen-online.jp/article/012230.html"
+    kind: reference
 status: draft
 updated: 2026-08-09
 ---

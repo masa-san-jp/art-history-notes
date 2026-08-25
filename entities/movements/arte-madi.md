@@ -32,15 +32,24 @@ relations:
   - {type: influenced_by, target: movement/de-stijl, certainty: scholarly, source: "https://www.mfah.org/blogs/inside-mfah/gyula-kosice-and-rise-argentinean-avant-garde"}
   - {type: influenced_by, target: movement/constructivism, certainty: scholarly, source: "https://www.mfah.org/blogs/inside-mfah/gyula-kosice-and-rise-argentinean-avant-garde"}
 sources:
-  - https://kosice.com.ar/otros-recursos/los-textos/de-kosice/manifiesto-madi/
-  - https://kosice.com.ar/el-artista/linea-de-tiempo/
-  - https://www.museoreinasofia.es/en/exhibitions/arte-madi
-  - https://www.tate.org.uk/art/art-terms/a/arte-madi
-  - https://en.wikipedia.org/wiki/Mad%C3%AD
-  - https://en.wikipedia.org/wiki/Carmelo_Arden_Quin
-  - https://masdearte.com/movimientos/madi/
-  - https://www.mfah.org/blogs/inside-mfah/gyula-kosice-and-rise-argentinean-avant-garde
-  - https://www.wikidata.org/wiki/Q692924
+  - url: "https://kosice.com.ar/otros-recursos/los-textos/de-kosice/manifiesto-madi/"
+    kind: reference
+  - url: "https://kosice.com.ar/el-artista/linea-de-tiempo/"
+    kind: reference
+  - url: "https://www.museoreinasofia.es/en/exhibitions/arte-madi"
+    kind: reference
+  - url: "https://www.tate.org.uk/art/art-terms/a/arte-madi"
+    kind: institutional
+  - url: "https://en.wikipedia.org/wiki/Mad%C3%AD"
+    kind: reference
+  - url: "https://en.wikipedia.org/wiki/Carmelo_Arden_Quin"
+    kind: reference
+  - url: "https://masdearte.com/movimientos/madi/"
+    kind: reference
+  - url: "https://www.mfah.org/blogs/inside-mfah/gyula-kosice-and-rise-argentinean-avant-garde"
+    kind: reference
+  - url: "https://www.wikidata.org/wiki/Q692924"
+    kind: authority
 status: draft
 updated: 2026-08-10
 ---

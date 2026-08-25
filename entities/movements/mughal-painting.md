@@ -29,18 +29,30 @@ space:
 relations:
   - {type: influenced_by, target: movement/safavid-painting, certainty: scholarly, source: "https://82nd-and-fifth.metmuseum.org/toah/ht/08/ssa.html"}
 sources:
-  - https://www.wikidata.org/wiki/Q1049336
-  - https://en.wikipedia.org/wiki/Mughal_painting
-  - https://www.encyclopedia.com/international/encyclopedias-almanacs-transcripts-and-maps/mughal-painting
-  - https://www.getty.edu/vow/AATFullDisplay?find=Mughal&logic=AND&note=&subjectid=300018939
-  - https://82nd-and-fifth.metmuseum.org/toah/ht/08/ssa.html
-  - https://en.wikipedia.org/wiki/Manohar_Das
-  - https://en.wikipedia.org/wiki/Govardhan_(artist)
-  - https://en.wikipedia.org/wiki/Abu%27l-Hasan_(artist)
-  - https://www.dailyartmagazine.com/mughal-art-aurangzeb/
-  - https://www.wikidata.org/wiki/Q42941
-  - https://en.wikipedia.org/wiki/Mir_Sayyid_Ali
-  - https://en.wikipedia.org/wiki/Abd_al-Samad
+  - url: "https://www.wikidata.org/wiki/Q1049336"
+    kind: authority
+  - url: "https://en.wikipedia.org/wiki/Mughal_painting"
+    kind: reference
+  - url: "https://www.encyclopedia.com/international/encyclopedias-almanacs-transcripts-and-maps/mughal-painting"
+    kind: reference
+  - url: "https://www.getty.edu/vow/AATFullDisplay?find=Mughal&logic=AND&note=&subjectid=300018939"
+    kind: authority
+  - url: "https://82nd-and-fifth.metmuseum.org/toah/ht/08/ssa.html"
+    kind: institutional
+  - url: "https://en.wikipedia.org/wiki/Manohar_Das"
+    kind: reference
+  - url: "https://en.wikipedia.org/wiki/Govardhan_(artist)"
+    kind: reference
+  - url: "https://en.wikipedia.org/wiki/Abu%27l-Hasan_(artist)"
+    kind: reference
+  - url: "https://www.dailyartmagazine.com/mughal-art-aurangzeb/"
+    kind: reference
+  - url: "https://www.wikidata.org/wiki/Q42941"
+    kind: authority
+  - url: "https://en.wikipedia.org/wiki/Mir_Sayyid_Ali"
+    kind: reference
+  - url: "https://en.wikipedia.org/wiki/Abd_al-Samad"
+    kind: reference
 images:
   - url: https://images.metmuseum.org/CRDImages/is/original/DP246561.jpg
     source_page: https://www.metmuseum.org/art/collection/search/451276

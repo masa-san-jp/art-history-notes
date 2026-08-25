@@ -31,14 +31,22 @@ space:
 relations:
   - {type: patronized_by, target: person/mohamed-peera, certainty: scholarly, source: "https://journals.openedition.org/etudesafricaines/4878"}
 sources:
-  - https://www.wikidata.org/wiki/Q17109576
-  - http://vocab.getty.edu/aat/300016528
-  - https://en.wikipedia.org/wiki/Makonde_art
-  - https://en.wikipedia.org/wiki/Makonde_people
-  - https://en.wikipedia.org/wiki/Shetani
-  - https://www.blackwoodconservation.org/makonde-art/
-  - https://the-short-century.eaman.org/unit_titles/modern-art-in-tanzania/
-  - https://journals.openedition.org/etudesafricaines/4878
+  - url: "https://www.wikidata.org/wiki/Q17109576"
+    kind: authority
+  - url: "http://vocab.getty.edu/aat/300016528"
+    kind: authority
+  - url: "https://en.wikipedia.org/wiki/Makonde_art"
+    kind: reference
+  - url: "https://en.wikipedia.org/wiki/Makonde_people"
+    kind: reference
+  - url: "https://en.wikipedia.org/wiki/Shetani"
+    kind: reference
+  - url: "https://www.blackwoodconservation.org/makonde-art/"
+    kind: reference
+  - url: "https://the-short-century.eaman.org/unit_titles/modern-art-in-tanzania/"
+    kind: reference
+  - url: "https://journals.openedition.org/etudesafricaines/4878"
+    kind: scholarly
 status: draft
 updated: 2026-08-10
 ---

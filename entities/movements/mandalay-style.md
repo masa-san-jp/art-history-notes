@@ -32,22 +32,38 @@ space:
   - {role: originated_in, target: place/mandalay}
 relations: []
 sources:
-  - https://www.wikidata.org/wiki/Q1062422
-  - https://www.wikidata.org/wiki/Q185518
-  - https://www.wikidata.org/wiki/Q574358
-  - https://www.wikidata.org/wiki/Q470986
-  - https://www.wikidata.org/wiki/Q2500952
-  - https://www.wikidata.org/wiki/Q454949
-  - https://www.getty.edu/vow/AATFullDisplay?find=Mandalay&logic=AND&note=&subjectid=300107052
-  - https://en.wikipedia.org/wiki/Mandalay
-  - https://en.wikipedia.org/wiki/Konbaung_dynasty
-  - https://www.hdasianart.com/blogs/news/how-to-identify-burmese-buddha-statue-styles-ava-shan-mandalay
-  - https://www.originalbuddhas.com/about-buddha-statues/styles-periods/mandalay-period-buddha-statues
-  - https://www.originalbuddhas.com/about-buddha-statues/styles-periods/ava-period-buddha-statues
-  - https://factsanddetails.com/southeast-asia/Myanmar/sub5_5e/entry-3086.html
-  - https://www.metmuseum.org/art/collection/search/856163
-  - https://www.metmuseum.org/art/collection/search/744940
-  - https://collections.vam.ac.uk/item/O49192/standing-figure-of
+  - url: "https://www.wikidata.org/wiki/Q1062422"
+    kind: authority
+  - url: "https://www.wikidata.org/wiki/Q185518"
+    kind: authority
+  - url: "https://www.wikidata.org/wiki/Q574358"
+    kind: authority
+  - url: "https://www.wikidata.org/wiki/Q470986"
+    kind: authority
+  - url: "https://www.wikidata.org/wiki/Q2500952"
+    kind: authority
+  - url: "https://www.wikidata.org/wiki/Q454949"
+    kind: authority
+  - url: "https://www.getty.edu/vow/AATFullDisplay?find=Mandalay&logic=AND&note=&subjectid=300107052"
+    kind: authority
+  - url: "https://en.wikipedia.org/wiki/Mandalay"
+    kind: reference
+  - url: "https://en.wikipedia.org/wiki/Konbaung_dynasty"
+    kind: reference
+  - url: "https://www.hdasianart.com/blogs/news/how-to-identify-burmese-buddha-statue-styles-ava-shan-mandalay"
+    kind: reference
+  - url: "https://www.originalbuddhas.com/about-buddha-statues/styles-periods/mandalay-period-buddha-statues"
+    kind: reference
+  - url: "https://www.originalbuddhas.com/about-buddha-statues/styles-periods/ava-period-buddha-statues"
+    kind: reference
+  - url: "https://factsanddetails.com/southeast-asia/Myanmar/sub5_5e/entry-3086.html"
+    kind: reference
+  - url: "https://www.metmuseum.org/art/collection/search/856163"
+    kind: institutional
+  - url: "https://www.metmuseum.org/art/collection/search/744940"
+    kind: institutional
+  - url: "https://collections.vam.ac.uk/item/O49192/standing-figure-of"
+    kind: reference
 images:
   - url: https://images.metmuseum.org/CRDImages/as/original/DP-28256-004_crd.jpg
     source_page: https://www.metmuseum.org/art/collection/search/856163

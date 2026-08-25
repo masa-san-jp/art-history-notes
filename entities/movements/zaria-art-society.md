@@ -32,16 +32,26 @@ relations:
   - {type: influenced_by, target: movement/post-impressionism, certainty: scholarly, source: "https://high.org/sites/onobrakpeya/"}
   - {type: influenced_by, target: movement/nok-sculpture, certainty: scholarly, source: "https://www.si.edu/object/nationalism-and-rhetoric-modernism-nigeria-art-uche-okeke-and-demas-nwoko-1960-1968-chika-okeke-agulu%3Asiris_sil_898257"}
 sources:
-  - https://www.wikidata.org/wiki/Q98912326
-  - https://en.wikipedia.org/wiki/Zaria_Art_Society
-  - https://human.libretexts.org/Bookshelves/Art/Art_History_and_Theory/SmartHistory_of_Art_2e/SmartHistory_of_Art_IXb_-_Modernism_1945-1980/06%3A_Colonial_and_postcolonial_modernisms/6.02%3A_Nigeria_Uche_Okeke
-  - https://momaa.org/the-zaria-rebels-nigerias-art-revolution-1958-1965/
-  - https://artsandculture.google.com/story/how-the-zaria-art-society-rebelled-yemisi-shyllon-museum-of-art/WAVh6rlpcI-qoQ
-  - https://www.si.edu/object/zaria-art-society%3Asiris_sil_504883
-  - https://artop.bmth.ac.uk/legacies-of-the-zaria-rebels.html
-  - https://www.rem.routledge.com/articles/zaria-art-society-the
-  - https://high.org/sites/onobrakpeya/
-  - https://www.si.edu/object/nationalism-and-rhetoric-modernism-nigeria-art-uche-okeke-and-demas-nwoko-1960-1968-chika-okeke-agulu%3Asiris_sil_898257
+  - url: "https://www.wikidata.org/wiki/Q98912326"
+    kind: authority
+  - url: "https://en.wikipedia.org/wiki/Zaria_Art_Society"
+    kind: reference
+  - url: "https://human.libretexts.org/Bookshelves/Art/Art_History_and_Theory/SmartHistory_of_Art_2e/SmartHistory_of_Art_IXb_-_Modernism_1945-1980/06%3A_Colonial_and_postcolonial_modernisms/6.02%3A_Nigeria_Uche_Okeke"
+    kind: reference
+  - url: "https://momaa.org/the-zaria-rebels-nigerias-art-revolution-1958-1965/"
+    kind: reference
+  - url: "https://artsandculture.google.com/story/how-the-zaria-art-society-rebelled-yemisi-shyllon-museum-of-art/WAVh6rlpcI-qoQ"
+    kind: reference
+  - url: "https://www.si.edu/object/zaria-art-society%3Asiris_sil_504883"
+    kind: institutional
+  - url: "https://artop.bmth.ac.uk/legacies-of-the-zaria-rebels.html"
+    kind: reference
+  - url: "https://www.rem.routledge.com/articles/zaria-art-society-the"
+    kind: scholarly
+  - url: "https://high.org/sites/onobrakpeya/"
+    kind: reference
+  - url: "https://www.si.edu/object/nationalism-and-rhetoric-modernism-nigeria-art-uche-okeke-and-demas-nwoko-1960-1968-chika-okeke-agulu%3Asiris_sil_898257"
+    kind: institutional
 status: draft
 updated: 2026-08-12
 ---

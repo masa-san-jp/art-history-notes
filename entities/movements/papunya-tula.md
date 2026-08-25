@@ -39,14 +39,22 @@ relations:
   - {type: diffused_to, target: place/paris, certainty: scholarly, source: "https://www.nma.gov.au/defining-moments/resources/papunya-tula"}
   - {type: diffused_to, target: place/venice, certainty: scholarly, source: "https://www.nma.gov.au/defining-moments/resources/papunya-tula"}
 sources:
-  - https://www.wikidata.org/wiki/Q18005
-  - https://en.wikipedia.org/wiki/Papunya_Tula
-  - https://en.wikipedia.org/wiki/Kaapa_Tjampitjinpa
-  - https://en.wikipedia.org/wiki/Geoffrey_Bardon
-  - https://papunyatula.com.au/pages/history
-  - https://oneoftwelve.com/papunya-tula-artists-the-genesis-of-australian-aboriginal-art/
-  - https://japingkaaboriginalart.com/articles/geoffrey-bardon-influence/
-  - https://www.nma.gov.au/defining-moments/resources/papunya-tula
+  - url: "https://www.wikidata.org/wiki/Q18005"
+    kind: authority
+  - url: "https://en.wikipedia.org/wiki/Papunya_Tula"
+    kind: reference
+  - url: "https://en.wikipedia.org/wiki/Kaapa_Tjampitjinpa"
+    kind: reference
+  - url: "https://en.wikipedia.org/wiki/Geoffrey_Bardon"
+    kind: reference
+  - url: "https://papunyatula.com.au/pages/history"
+    kind: reference
+  - url: "https://oneoftwelve.com/papunya-tula-artists-the-genesis-of-australian-aboriginal-art/"
+    kind: reference
+  - url: "https://japingkaaboriginalart.com/articles/geoffrey-bardon-influence/"
+    kind: reference
+  - url: "https://www.nma.gov.au/defining-moments/resources/papunya-tula"
+    kind: institutional
 status: draft
 updated: 2026-08-12
 ---

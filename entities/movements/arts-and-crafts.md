@@ -30,11 +30,16 @@ space:
 relations:
   - {type: diffused_to, target: place/vienna, certainty: scholarly, source: "https://www.mak.at/en/program/exhibitions/vienna_1900"}
 sources:
-  - https://www.wikidata.org/wiki/Q330369
-  - https://www.vam.ac.uk/articles/arts-and-crafts-an-introduction
-  - https://www.vam.ac.uk/articles/arts-and-crafts-beyond-the-uk
-  - https://www.metmuseum.org/it/essays/design-reform
-  - https://www.mak.at/en/program/exhibitions/vienna_1900
+  - url: "https://www.wikidata.org/wiki/Q330369"
+    kind: authority
+  - url: "https://www.vam.ac.uk/articles/arts-and-crafts-an-introduction"
+    kind: reference
+  - url: "https://www.vam.ac.uk/articles/arts-and-crafts-beyond-the-uk"
+    kind: reference
+  - url: "https://www.metmuseum.org/it/essays/design-reform"
+    kind: institutional
+  - url: "https://www.mak.at/en/program/exhibitions/vienna_1900"
+    kind: reference
 status: draft
 updated: 2026-08-13
 ---

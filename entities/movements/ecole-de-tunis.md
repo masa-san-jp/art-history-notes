@@ -35,18 +35,30 @@ relations:
   - {type: created_by, target: person/yahia-turki}
   - {type: influenced_by, target: movement/realism, certainty: scholarly, source: "https://mathaf.org.qa/en/encyclopedia/artists-biographies/safia-farhat/"}
 sources:
-  - https://www.wikidata.org/wiki/Q3577825
-  - https://fr.wikipedia.org/wiki/%C3%89cole_de_Tunis
-  - https://fr.wikipedia.org/wiki/Pierre_Boucherle
-  - https://en.wikipedia.org/wiki/Yahia_Turki
-  - https://harissa.com/news555/fr/pierre-boucherle-fondateur-de-lecole-de-tunis
-  - https://www.fikerinstitute.org/publications/lecole-de-tunis-the-arts-in-post-independence-tunisia
-  - https://mathaf.org.qa/en/encyclopedia/artists-biographies/safia-farhat/
-  - https://fr.wikipedia.org/wiki/Moses_Levy
-  - http://www.jules-lellouche.fr/biographie.html
-  - https://en.wikipedia.org/wiki/Antonio_Corpora
-  - https://www.leaders.com.tn/article/37635-l-ecole-de-tunis-1949-modernite-picturale-pluralisme-culturel-et-decolonisation-du-regard
-  - https://www.misk.art/lire/abdelaziz-gorgi-hommage-a-l-un-des-pionniers-de-l-art-en-tunisie-au-palais-kheireddine
+  - url: "https://www.wikidata.org/wiki/Q3577825"
+    kind: authority
+  - url: "https://fr.wikipedia.org/wiki/%C3%89cole_de_Tunis"
+    kind: reference
+  - url: "https://fr.wikipedia.org/wiki/Pierre_Boucherle"
+    kind: reference
+  - url: "https://en.wikipedia.org/wiki/Yahia_Turki"
+    kind: reference
+  - url: "https://harissa.com/news555/fr/pierre-boucherle-fondateur-de-lecole-de-tunis"
+    kind: reference
+  - url: "https://www.fikerinstitute.org/publications/lecole-de-tunis-the-arts-in-post-independence-tunisia"
+    kind: reference
+  - url: "https://mathaf.org.qa/en/encyclopedia/artists-biographies/safia-farhat/"
+    kind: reference
+  - url: "https://fr.wikipedia.org/wiki/Moses_Levy"
+    kind: reference
+  - url: "http://www.jules-lellouche.fr/biographie.html"
+    kind: reference
+  - url: "https://en.wikipedia.org/wiki/Antonio_Corpora"
+    kind: reference
+  - url: "https://www.leaders.com.tn/article/37635-l-ecole-de-tunis-1949-modernite-picturale-pluralisme-culturel-et-decolonisation-du-regard"
+    kind: reference
+  - url: "https://www.misk.art/lire/abdelaziz-gorgi-hommage-a-l-un-des-pionniers-de-l-art-en-tunisie-au-palais-kheireddine"
+    kind: reference
 status: draft
 updated: 2026-08-09
 ---

@@ -109,7 +109,8 @@ uv run --locked python tools/audit_source_migration.py --check-type movement
 uv run --locked python tools/audit_source_migration.py --check-type context
 ```
 
-型別移行issueが完了した後は、対象型の `--check-type` をCIのゲートにする。
+movement と context は構造化形式への移行を完了しており、対象型の `--check-type` をCIのゲートにしている。
+person / work / place / event / org / group のlegacy移行は後続issueの対象である。
 
 ### `kind`（movement 必須・4値）
 

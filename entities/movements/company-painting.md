@@ -32,19 +32,32 @@ relations:
   - {type: influenced_by, target: movement/realism, certainty: hypothesis, source: "https://www.metmuseum.org/fr/essays/company-painting-in-nineteenth-century-india"}
   - {type: patronized_by, target: org/east-india-company, certainty: scholarly, source: "https://www.getty.edu/vow/AATFullDisplay?find=Company+school&logic=AND&note=&english=Y&prev_page=1&subjectid=300018959"}
 sources:
-  - https://www.wikidata.org/wiki/Q861297
-  - https://www.getty.edu/vow/AATFullDisplay?find=Company+school&logic=AND&note=&english=Y&prev_page=1&subjectid=300018959
-  - https://en.wikipedia.org/wiki/Company_style
-  - https://en.wikipedia.org/wiki/Impey_Album
-  - https://en.wikipedia.org/wiki/Sheikh_Zainuddin
-  - https://en.banglapedia.org/index.php/Murshidabad_Painting
-  - https://www.theheritagelab.in/patna-kalam-artists/
-  - https://criticalcollective.in/CC_ArchiveInner2.aspx?Aid=1407&Eid=1801
-  - https://www.metmuseum.org/fr/essays/company-painting-in-nineteenth-century-india
-  - https://www.metmuseum.org/exhibitions/listings/2017/company-school-painting
-  - https://read.dukeupress.edu/archives-of-asian-art/article-abstract/74/1/79/388307/To-Fill-a-Gap-in-Indian-History-An-Archival
-  - https://www.metmuseum.org/art/collection/search/454011
-  - https://www.metmuseum.org/art/collection/search/457758
+  - url: "https://www.wikidata.org/wiki/Q861297"
+    kind: authority
+  - url: "https://www.getty.edu/vow/AATFullDisplay?find=Company+school&logic=AND&note=&english=Y&prev_page=1&subjectid=300018959"
+    kind: authority
+  - url: "https://en.wikipedia.org/wiki/Company_style"
+    kind: reference
+  - url: "https://en.wikipedia.org/wiki/Impey_Album"
+    kind: reference
+  - url: "https://en.wikipedia.org/wiki/Sheikh_Zainuddin"
+    kind: reference
+  - url: "https://en.banglapedia.org/index.php/Murshidabad_Painting"
+    kind: reference
+  - url: "https://www.theheritagelab.in/patna-kalam-artists/"
+    kind: reference
+  - url: "https://criticalcollective.in/CC_ArchiveInner2.aspx?Aid=1407&Eid=1801"
+    kind: reference
+  - url: "https://www.metmuseum.org/fr/essays/company-painting-in-nineteenth-century-india"
+    kind: institutional
+  - url: "https://www.metmuseum.org/exhibitions/listings/2017/company-school-painting"
+    kind: institutional
+  - url: "https://read.dukeupress.edu/archives-of-asian-art/article-abstract/74/1/79/388307/To-Fill-a-Gap-in-Indian-History-An-Archival"
+    kind: scholarly
+  - url: "https://www.metmuseum.org/art/collection/search/454011"
+    kind: institutional
+  - url: "https://www.metmuseum.org/art/collection/search/457758"
+    kind: institutional
 images:
   - url: https://images.metmuseum.org/CRDImages/is/original/DP261704.jpg
     source_page: https://www.metmuseum.org/art/collection/search/457758

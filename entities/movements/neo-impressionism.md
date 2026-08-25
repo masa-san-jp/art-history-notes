@@ -37,21 +37,37 @@ relations:
   - {type: responds_to, target: movement/utagawa-school, certainty: scholarly, source: "https://maa.missouri.edu/sites/default/files/image-button/2021-12/on-line_japonisme_in_print-2-_complete.pdf"}
   - {type: part_of, target: concept/divisionism}
 sources:
-  - https://www.wikidata.org/wiki/Q150091
-  - https://api.artic.edu/api/v1/artworks/27992
-  - https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300021505
-  - https://digistore.bib.ulb.ac.be/2008/DL2864764_1886_f.pdf
-  - https://www.vangoghmuseum.nl/assets/491dd716-741d-4608-975e-e9652bdfd063?c=2379957789b45233379dcf35054dd324a2f54e39adeb7c20b1481dc08c461b44
-  - https://www.moma.org/documents/moma_catalogue_2792_300190140.pdf
-  - https://gallica.bnf.fr/ark:/12148/bpt6k850398w
-  - https://catalogue.bnf.fr/ark:/12148/cb30427294w
-  - https://fr.wikipedia.org/wiki/N%C3%A9o-impressionnisme
-  - https://en.wikipedia.org/wiki/Neo-Impressionism
-  - https://en.wikipedia.org/wiki/Divisionism
-  - https://en.wikipedia.org/wiki/Les_Vingt
-  - https://www.impressionism.nl/1887-les-xx/
-  - https://www.musee-orsay.fr/en/program/whats-on/exhibitions/presentation/neo-impressionism-seurat-paul-klee
-  - https://maa.missouri.edu/sites/default/files/image-button/2021-12/on-line_japonisme_in_print-2-_complete.pdf
+  - url: "https://www.wikidata.org/wiki/Q150091"
+    kind: authority
+  - url: "https://api.artic.edu/api/v1/artworks/27992"
+    kind: institutional
+  - url: "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300021505"
+    kind: authority
+  - url: "https://digistore.bib.ulb.ac.be/2008/DL2864764_1886_f.pdf"
+    kind: scholarly
+  - url: "https://www.vangoghmuseum.nl/assets/491dd716-741d-4608-975e-e9652bdfd063?c=2379957789b45233379dcf35054dd324a2f54e39adeb7c20b1481dc08c461b44"
+    kind: institutional
+  - url: "https://www.moma.org/documents/moma_catalogue_2792_300190140.pdf"
+    kind: scholarly
+  - url: "https://gallica.bnf.fr/ark:/12148/bpt6k850398w"
+    kind: primary
+    note: "URLの資料パスから一次資料と判定"
+  - url: "https://catalogue.bnf.fr/ark:/12148/cb30427294w"
+    kind: reference
+  - url: "https://fr.wikipedia.org/wiki/N%C3%A9o-impressionnisme"
+    kind: reference
+  - url: "https://en.wikipedia.org/wiki/Neo-Impressionism"
+    kind: reference
+  - url: "https://en.wikipedia.org/wiki/Divisionism"
+    kind: reference
+  - url: "https://en.wikipedia.org/wiki/Les_Vingt"
+    kind: reference
+  - url: "https://www.impressionism.nl/1887-les-xx/"
+    kind: reference
+  - url: "https://www.musee-orsay.fr/en/program/whats-on/exhibitions/presentation/neo-impressionism-seurat-paul-klee"
+    kind: institutional
+  - url: "https://maa.missouri.edu/sites/default/files/image-button/2021-12/on-line_japonisme_in_print-2-_complete.pdf"
+    kind: scholarly
 images:
   - url: https://www.artic.edu/iiif/2/2d484387-2509-5e8e-2c43-22f9981972eb/full/843,/0/default.jpg
     source_page: https://www.artic.edu/artworks/27992

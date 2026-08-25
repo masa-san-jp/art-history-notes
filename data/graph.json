@@ -741,11 +741,11 @@
       "sources": [
         {
           "url": "https://www.wikidata.org/wiki/Q177725",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300022099",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://en.wikipedia.org/wiki/Abstract_expressionism",
@@ -757,7 +757,7 @@
         },
         {
           "url": "https://www.tate.org.uk/art/art-terms/a/abstract-expressionism",
-          "kind": "reference"
+          "kind": "institutional"
         },
         {
           "url": "https://www.theartstory.org/movement/abstract-expressionism/",
@@ -773,19 +773,19 @@
         },
         {
           "url": "https://www.tate.org.uk/research/publications/modern-american-art-at-tate/essays/new-american-painting",
-          "kind": "reference"
+          "kind": "institutional"
         },
         {
           "url": "https://assets.moma.org/documents/moma_catalogue_1990_300190211.pdf",
-          "kind": "reference"
+          "kind": "scholarly"
         },
         {
           "url": "https://www.moma.org/calendar/exhibitions/1990",
-          "kind": "reference"
+          "kind": "institutional"
         },
         {
           "url": "https://www.uapress.ua.edu/9780817352585/advancing-american-art/",
-          "kind": "reference"
+          "kind": "institutional"
         },
         {
           "url": "https://whitney.org/exhibitions/vida-americana",
@@ -801,11 +801,11 @@
         },
         {
           "url": "https://www.pomona.edu/museum/collections/jos%C3%A9-clemente-orozcos-prometheus/prometheus-mural",
-          "kind": "reference"
+          "kind": "institutional"
         },
         {
           "url": "https://www.tandfonline.com/doi/abs/10.1080/00043249.1976.10793284",
-          "kind": "reference"
+          "kind": "scholarly"
         }
       ],
       "status": "draft",
@@ -876,15 +876,15 @@
       "sources": [
         {
           "url": "https://encykorea.aks.ac.kr/Article/E0069639",
-          "kind": "reference"
+          "kind": "institutional"
         },
         {
           "url": "https://encykorea.aks.ac.kr/Article/E0034491",
-          "kind": "reference"
+          "kind": "institutional"
         },
         {
           "url": "https://encykorea.aks.ac.kr/Article/E0018824",
-          "kind": "reference"
+          "kind": "institutional"
         },
         {
           "url": "https://ko.wikipedia.org/wiki/%EB%AA%BD%EC%9C%A0%EB%8F%84%EC%9B%90%EB%8F%84",
@@ -892,11 +892,11 @@
         },
         {
           "url": "https://www.wikidata.org/wiki/Q1036353",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://www.wikidata.org/wiki/Q12595455",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://www.khan.co.kr/article/202607201829001/",
@@ -984,7 +984,7 @@
       "sources": [
         {
           "url": "https://digital.bbm.usp.br/bitstream/bbm/7064/2/Anno.1_n.01_45000033273.pdf",
-          "kind": "reference"
+          "kind": "scholarly"
         },
         {
           "url": "https://digital.bbm.usp.br/handle/bbm/7064",
@@ -992,7 +992,7 @@
         },
         {
           "url": "https://www.wikidata.org/wiki/Q2907232",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://en.wikipedia.org/wiki/Manifesto_Antrop%C3%B3fago",
@@ -1008,11 +1008,11 @@
         },
         {
           "url": "https://www.moma.org/collection/works/193204",
-          "kind": "reference"
+          "kind": "institutional"
         },
         {
           "url": "https://www.tate.org.uk/art/art-terms/a/anthropophagia",
-          "kind": "reference"
+          "kind": "institutional"
         },
         {
           "url": "https://en.wikipedia.org/wiki/Oswald_de_Andrade",
@@ -1020,7 +1020,7 @@
         },
         {
           "url": "https://digitalrepository.unm.edu/brazil_slides/762/",
-          "kind": "reference"
+          "kind": "scholarly"
         }
       ],
       "status": "draft",
@@ -1106,7 +1106,7 @@
       "sources": [
         {
           "url": "https://www.wikidata.org/wiki/Q65080389",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://en.wikipedia.org/wiki/Art_et_Libert%C3%A9",
@@ -1114,15 +1114,15 @@
         },
         {
           "url": "https://www.tate.org.uk/tate-etc/issue-41-autumn-2017/surrealism-egypt-long-live-degenerate-art-clare-davies",
-          "kind": "reference"
+          "kind": "institutional"
         },
         {
           "url": "https://www.tate.org.uk/whats-on/tate-liverpool/surrealism-egypt-art-et-liberte-1938-1948",
-          "kind": "reference"
+          "kind": "institutional"
         },
         {
           "url": "https://www.tate.org.uk/press/press-releases/surrealism-egypt-art-et-liberte-1938-1948",
-          "kind": "reference"
+          "kind": "institutional"
         },
         {
           "url": "https://www.centrepompidou.fr/en/program/calendar/event/ce5nBKj",
@@ -1142,7 +1142,7 @@
         },
         {
           "url": "https://www.moma.org/interactives/exhibitions/2009/futurism/",
-          "kind": "reference"
+          "kind": "institutional"
         },
         {
           "url": "https://www.sothebys.com/en/articles/the-birth-of-art-and-liberty-egypts-surrealist-art-movement",
@@ -1237,11 +1237,11 @@
       "sources": [
         {
           "url": "https://www.wikidata.org/wiki/Q34636",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300021430",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://www.vam.ac.uk/articles/art-nouveau-an-international-style",
@@ -1249,15 +1249,15 @@
         },
         {
           "url": "https://www.metmuseum.org/ja/essays/art-nouveau",
-          "kind": "reference"
+          "kind": "institutional"
         },
         {
           "url": "https://www.metmuseum.org/es/essays/nineteenth-century-european-textile-production",
-          "kind": "reference"
+          "kind": "institutional"
         },
         {
           "url": "https://www.ndl.go.jp/kaleido/entry/20/3.html",
-          "kind": "reference"
+          "kind": "authority"
         }
       ],
       "status": "draft",
@@ -1346,7 +1346,7 @@
         },
         {
           "url": "https://www.tate.org.uk/art/art-terms/a/arte-madi",
-          "kind": "reference"
+          "kind": "institutional"
         },
         {
           "url": "https://en.wikipedia.org/wiki/Mad%C3%AD",
@@ -1366,7 +1366,7 @@
         },
         {
           "url": "https://www.wikidata.org/wiki/Q692924",
-          "kind": "reference"
+          "kind": "authority"
         }
       ],
       "status": "draft",
@@ -1433,7 +1433,7 @@
       "sources": [
         {
           "url": "https://www.wikidata.org/wiki/Q330369",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://www.vam.ac.uk/articles/arts-and-crafts-an-introduction",
@@ -1445,7 +1445,7 @@
         },
         {
           "url": "https://www.metmuseum.org/it/essays/design-reform",
-          "kind": "reference"
+          "kind": "institutional"
         },
         {
           "url": "https://www.mak.at/en/program/exhibitions/vienna_1900",
@@ -1511,27 +1511,27 @@
       "sources": [
         {
           "url": "https://www.wikidata.org/wiki/Q643103",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://www.wikidata.org/wiki/Q27228",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://www.wikidata.org/wiki/Q2074546",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300021903",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300264812",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300264813",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://en.wikipedia.org/wiki/Asmat_people",
@@ -1555,7 +1555,7 @@
         },
         {
           "url": "https://www.wichita.edu/museums/holmes/asmat.php",
-          "kind": "reference"
+          "kind": "institutional"
         },
         {
           "url": "https://www.everyculture.com/wc/Germany-to-Jamaica/Asmat.html",
@@ -1571,15 +1571,15 @@
         },
         {
           "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/313830",
-          "kind": "reference"
+          "kind": "institutional"
         },
         {
           "url": "https://www.metmuseum.org/art/collection/search/313830",
-          "kind": "reference"
+          "kind": "institutional"
         },
         {
           "url": "https://www.metmuseum.org/art/collection/search/311715",
-          "kind": "reference"
+          "kind": "institutional"
         },
         {
           "url": "https://anthrosource.onlinelibrary.wiley.com/doi/10.1525/aa.1959.61.6.02a00080",
@@ -1588,6 +1588,10 @@
         {
           "url": "https://www.degruyterbrill.com/document/doi/10.1515/9783111387505/html",
           "kind": "reference"
+        },
+        {
+          "url": "https://www.metmuseum.org/exhibitions/listings/2013/nelson-rockefeller",
+          "kind": "institutional"
         }
       ],
       "status": "draft",
@@ -1671,19 +1675,19 @@
       "sources": [
         {
           "url": "https://www.wikidata.org/wiki/Q16123956",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://www.wikidata.org/wiki/Q2720307",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://www.wikidata.org/wiki/Q7462952",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://www.wikidata.org/wiki/Q1530",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://en.wikipedia.org/wiki/Jawad_Saleem",
@@ -1711,7 +1715,7 @@
         },
         {
           "url": "https://www.bard.edu/news/survey-baghdad-group-for-modern-art-june-ccs-bards-hessel-museum-2025-01-30",
-          "kind": "reference"
+          "kind": "institutional"
         },
         {
           "url": "https://artcentron.com/2025/07/03/the-baghdad-modern-art-group-a-pivotal-force-in-postcolonial-art/",
@@ -1719,11 +1723,11 @@
         },
         {
           "url": "https://doi.org/10.1163/22118993_03501P010",
-          "kind": "reference"
+          "kind": "scholarly"
         },
         {
           "url": "https://www.thescopes.org/assets/Uploads/4f5f5f6bb3/03-050-Saad-11-08.pdf",
-          "kind": "reference"
+          "kind": "scholarly"
         },
         {
           "url": "https://en.wikipedia.org/wiki/Al-Bu%27d_al-Wahad",
@@ -1798,23 +1802,23 @@
       "sources": [
         {
           "url": "https://www.metmuseum.org/met-publications/masterpieces-from-the-department-of-islamic-art-in-the-metropolitan-museum-of-art",
-          "kind": "reference"
+          "kind": "institutional"
         },
         {
           "url": "https://www.wikidata.org/wiki/Q17001345",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://www.wikidata.org/wiki/Q1530",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://www.wikidata.org/wiki/Q472751",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://www.wikidata.org/wiki/Q125350260",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://en.wikipedia.org/wiki/Baghdad_School",
@@ -1830,15 +1834,15 @@
         },
         {
           "url": "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300021542",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://www.metmuseum.org/art/collection/search/446288",
-          "kind": "reference"
+          "kind": "institutional"
         },
         {
           "url": "https://www.metmuseum.org/art/collection/search/451332",
-          "kind": "reference"
+          "kind": "institutional"
         },
         {
           "url": "https://publicdomainreview.org/collection/maqamat/",
@@ -1846,7 +1850,7 @@
         },
         {
           "url": "https://www.academia.edu/37869572/History_Regained_a_Modern_Artist_in_Baghdad_Encounters_a_Lost_Tradition_of_Painting",
-          "kind": "reference"
+          "kind": "institutional"
         },
         {
           "url": "https://www.britannica.com/art/Baghdad-school",
@@ -1951,23 +1955,23 @@
       "sources": [
         {
           "url": "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300015848",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "http://vocab.getty.edu/aat/300015848",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://www.wikidata.org/wiki/Q504685",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://www.wikidata.org/wiki/Q4892684",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://www.wikidata.org/wiki/Q762084",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://en.wikipedia.org/wiki/Chiwara",
@@ -1979,27 +1983,28 @@
         },
         {
           "url": "https://africanarchive.org/en/staemme/bamana",
-          "kind": "reference"
+          "kind": "primary",
+          "note": "URLの資料パスから一次資料と判定"
         },
         {
           "url": "https://www.metmuseum.org/art/collection/search/310864",
-          "kind": "reference"
+          "kind": "institutional"
         },
         {
           "url": "https://www.metmuseum.org/art/collection/search/318895",
-          "kind": "reference"
+          "kind": "institutional"
         },
         {
           "url": "https://clevelandart.org/art/1965.325",
-          "kind": "reference"
+          "kind": "institutional"
         },
         {
           "url": "https://clevelandart.org/art/1962.307",
-          "kind": "reference"
+          "kind": "institutional"
         },
         {
           "url": "https://www.metmuseum.org/toah/hd/bamb/hd_bamb.htm",
-          "kind": "reference"
+          "kind": "institutional"
         }
       ],
       "status": "draft",
@@ -2078,7 +2083,7 @@
       "sources": [
         {
           "url": "https://www.wikidata.org/wiki/Q65214081",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://id.wikipedia.org/wiki/Mazhab_Bandung_(seni)",
@@ -2102,7 +2107,7 @@
         },
         {
           "url": "https://www.itb.ac.id/history",
-          "kind": "reference"
+          "kind": "institutional"
         },
         {
           "url": "https://en.wikipedia.org/wiki/Mochtar_Apin",
@@ -2110,7 +2115,7 @@
         },
         {
           "url": "https://doi.org/10.54154/dekonstruksi.v11i01.289",
-          "kind": "reference"
+          "kind": "scholarly"
         }
       ],
       "status": "draft",
@@ -2190,11 +2195,11 @@
       "sources": [
         {
           "url": "https://www.wikidata.org/wiki/Q143357",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300264658",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://en.wikipedia.org/wiki/Barbizon_school",
@@ -2210,15 +2215,15 @@
         },
         {
           "url": "https://www.artic.edu/artworks/27873",
-          "kind": "reference"
+          "kind": "institutional"
         },
         {
           "url": "https://www.artic.edu/artworks/111648",
-          "kind": "reference"
+          "kind": "institutional"
         },
         {
           "url": "https://www.artic.edu/artworks/95993",
-          "kind": "reference"
+          "kind": "institutional"
         }
       ],
       "status": "draft",
@@ -2278,15 +2283,15 @@
       "sources": [
         {
           "url": "https://www.wikidata.org/wiki/Q37853",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300021147",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://www.metmuseum.org/ko/essays/baroque-rome",
-          "kind": "reference"
+          "kind": "institutional"
         }
       ],
       "status": "draft",
@@ -2373,31 +2378,31 @@
         },
         {
           "url": "https://www.wikidata.org/wiki/Q711982",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://www.wikidata.org/wiki/Q123559951",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://www.metmuseum.org/art/collection/search/37941",
-          "kind": "reference"
+          "kind": "institutional"
         },
         {
           "url": "https://www.metmuseum.org/art/collection/search/37942",
-          "kind": "reference"
+          "kind": "institutional"
         },
         {
           "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/37941",
-          "kind": "reference"
+          "kind": "institutional"
         },
         {
           "url": "https://www.wikidata.org/wiki/Q77458847",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://www.wikidata.org/wiki/Q113457574",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://collections.lacma.org/object/42760",
@@ -2413,7 +2418,7 @@
         },
         {
           "url": "https://www.metmuseum.org/art/collection/search/825657",
-          "kind": "reference"
+          "kind": "institutional"
         },
         {
           "url": "https://en.wikipedia.org/wiki/Nainsukh",
@@ -2421,11 +2426,11 @@
         },
         {
           "url": "https://resources.metmuseum.org/resources/metpublications/pdf/Divine_Pleasures.pdf",
-          "kind": "reference"
+          "kind": "scholarly"
         },
         {
           "url": "https://www.britishmuseum.org/collection/term/x25008",
-          "kind": "reference"
+          "kind": "institutional"
         }
       ],
       "images": [
@@ -2534,11 +2539,11 @@
       "sources": [
         {
           "url": "https://www.wikidata.org/wiki/Q124354",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://www.getty.edu/vow/ULANFullDisplay?find=Gaudez&nation=&page=1&role=&subjectid=500125058",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://www.bauhaus.de/en/about-us/",
@@ -2550,7 +2555,7 @@
         },
         {
           "url": "https://www.moma.org/documents/moma_catalogue_1733_300062754.pdf",
-          "kind": "reference"
+          "kind": "scholarly"
         },
         {
           "url": "https://www.bauhaus.de/en/discover/article/idea-and-programme/",
@@ -2558,15 +2563,19 @@
         },
         {
           "url": "https://www.moma.org/collection/terms/bauhaus",
-          "kind": "reference"
+          "kind": "institutional"
         },
         {
           "url": "https://www.moma.org/collection/terms/arts-and-crafts-movement",
-          "kind": "reference"
+          "kind": "institutional"
         },
         {
           "url": "https://commons.wikimedia.org/wiki/File:Anonymous_photograph_of_Bauhaus_masters_on_the_roof_of_the_studio_building,_Bauhaus_Dessau.jpg",
           "kind": "reference"
+        },
+        {
+          "url": "https://www.moma.org/documents/moma_catalogue_1798_300159061.pdf",
+          "kind": "scholarly"
         }
       ],
       "status": "draft",
@@ -2643,7 +2652,7 @@
       "sources": [
         {
           "url": "https://www.wikidata.org/wiki/Q948504",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://en.wikipedia.org/wiki/Bengal_School_of_Art",
@@ -2651,7 +2660,7 @@
         },
         {
           "url": "https://www.getty.edu/vow/AATFullDisplay?find=Bengal&logic=AND&note=&english=Y&prev_page=1&subjectid=300417404",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://en.wikipedia.org/wiki/Government_College_of_Art_%26_Craft",
@@ -2675,7 +2684,7 @@
         },
         {
           "url": "https://digitalcommons.ciis.edu/facultypublications/51/",
-          "kind": "reference"
+          "kind": "scholarly"
         },
         {
           "url": "https://amis-musee-cernuschi.org/en/les-liens-artistiques-et-culturels-entre-linde-et-le-japon-vers-1890-1940-2/",
@@ -2760,23 +2769,23 @@
       "sources": [
         {
           "url": "https://www.wikidata.org/wiki/Q4888026",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://www.wikidata.org/wiki/Q111731632",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://www.wikidata.org/wiki/Q171203",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://www.wikidata.org/wiki/Q123180104",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://www.penn.museum/sites/expedition/the-art-of-benin/",
-          "kind": "reference"
+          "kind": "institutional"
         },
         {
           "url": "https://en.wikipedia.org/wiki/Igun_Street",
@@ -2788,7 +2797,11 @@
         },
         {
           "url": "https://www.britishmuseum.org/about-us/british-museum-story/contested-objects-collection/benin-bronzes",
-          "kind": "reference"
+          "kind": "institutional"
+        },
+        {
+          "url": "https://www.metmuseum.org/fr/essays/origins-and-empire-the-benin-owo-and-ijebu-kingdoms",
+          "kind": "institutional"
         }
       ],
       "images": [
@@ -2886,7 +2899,7 @@
       "sources": [
         {
           "url": "https://www.wikidata.org/wiki/Q4940574",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://en.wikipedia.org/wiki/Bombay_Progressive_Artists%27_Group",
@@ -2894,11 +2907,12 @@
         },
         {
           "url": "https://web.archive.org/web/20131214145023/http://www.artnewsnviews.com/view-article.php?article=progressive-artists-group-of-bombay-an-overview&iid=29&articleid=800",
-          "kind": "reference"
+          "kind": "primary",
+          "note": "URLの資料パスから一次資料と判定"
         },
         {
           "url": "https://www.tate.org.uk/art/art-terms/b/bombay-progressive-artists-group",
-          "kind": "reference"
+          "kind": "institutional"
         }
       ],
       "status": "draft",
@@ -2958,15 +2972,15 @@
       "sources": [
         {
           "url": "https://www.wikidata.org/wiki/Q211884",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://www.wikidata.org/wiki/Q12544",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://www.wikidata.org/wiki/Q928904",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://en.wikipedia.org/wiki/Byzantine_art",
@@ -2994,15 +3008,15 @@
         },
         {
           "url": "https://www.metmuseum.org/art/collection/search/469960",
-          "kind": "reference"
+          "kind": "institutional"
         },
         {
           "url": "https://www.metmuseum.org/art/collection/search/465946",
-          "kind": "reference"
+          "kind": "institutional"
         },
         {
           "url": "https://www.metmuseum.org/art/collection/search/474336",
-          "kind": "reference"
+          "kind": "institutional"
         }
       ],
       "images": [
@@ -3097,11 +3111,11 @@
       "sources": [
         {
           "url": "https://www.wikidata.org/wiki/Q861297",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://www.getty.edu/vow/AATFullDisplay?find=Company+school&logic=AND&note=&english=Y&prev_page=1&subjectid=300018959",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://en.wikipedia.org/wiki/Company_style",
@@ -3129,23 +3143,23 @@
         },
         {
           "url": "https://www.metmuseum.org/fr/essays/company-painting-in-nineteenth-century-india",
-          "kind": "reference"
+          "kind": "institutional"
         },
         {
           "url": "https://www.metmuseum.org/exhibitions/listings/2017/company-school-painting",
-          "kind": "reference"
+          "kind": "institutional"
         },
         {
           "url": "https://read.dukeupress.edu/archives-of-asian-art/article-abstract/74/1/79/388307/To-Fill-a-Gap-in-Indian-History-An-Archival",
-          "kind": "reference"
+          "kind": "scholarly"
         },
         {
           "url": "https://www.metmuseum.org/art/collection/search/454011",
-          "kind": "reference"
+          "kind": "institutional"
         },
         {
           "url": "https://www.metmuseum.org/art/collection/search/457758",
-          "kind": "reference"
+          "kind": "institutional"
         }
       ],
       "images": [
@@ -3244,31 +3258,31 @@
       "sources": [
         {
           "url": "https://www.wikidata.org/wiki/Q207103",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300021393",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://www.moma.org/collection/terms/constructivism",
-          "kind": "reference"
+          "kind": "institutional"
         },
         {
           "url": "https://www.moma.org/explore/inside_out/2014/01/30/new-in-the-galleries-the-russian-avant-garde/",
-          "kind": "reference"
+          "kind": "institutional"
         },
         {
           "url": "https://www.moma.org/interactives/exhibitions/1998/rodchenko/texts/new_cultural.html",
-          "kind": "reference"
+          "kind": "institutional"
         },
         {
           "url": "https://press.moma.org/wp-content/files_mf/russianavantgarde_pressrelease_final88.pdf",
-          "kind": "reference"
+          "kind": "scholarly"
         },
         {
           "url": "https://nga.gov.au/exhibitions/russian-avant-garde/",
-          "kind": "reference"
+          "kind": "institutional"
         },
         {
           "url": "https://www.theartstory.org/movement/suprematism/",
@@ -3284,7 +3298,7 @@
         },
         {
           "url": "https://www.moma.org/interactives/objectphoto/schools/15.html",
-          "kind": "reference"
+          "kind": "institutional"
         },
         {
           "url": "https://www.nga.gov/artworks/93943-wendingen",
@@ -3367,19 +3381,19 @@
       "sources": [
         {
           "url": "https://www.wikidata.org/wiki/Q42934",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300021495",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://www.wikidata.org/wiki/Q3006706",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://www.wikidata.org/wiki/Q3006708",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://en.wikipedia.org/wiki/Cubism",
@@ -3411,11 +3425,11 @@
         },
         {
           "url": "https://www.metmuseum.org/fr/essays/paul-cezanne-1839-1906",
-          "kind": "reference"
+          "kind": "institutional"
         },
         {
           "url": "https://www.moma.org/collection/terms/cubism/before-and-beyond-cubism",
-          "kind": "reference"
+          "kind": "institutional"
         },
         {
           "url": "https://wist.info/picasso-pablo/3147/",
@@ -3423,11 +3437,11 @@
         },
         {
           "url": "https://www.moma.org/collection/works/78984",
-          "kind": "reference"
+          "kind": "institutional"
         },
         {
           "url": "https://www.tate.org.uk/art/art-terms/p/post-impressionism",
-          "kind": "reference"
+          "kind": "institutional"
         }
       ],
       "status": "draft",
@@ -3508,11 +3522,11 @@
       "sources": [
         {
           "url": "https://www.wikidata.org/wiki/Q1400843",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300021394",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://en.wikipedia.org/wiki/Cubo-Futurism",
@@ -3536,7 +3550,7 @@
         },
         {
           "url": "https://www.artic.edu/artworks/199128",
-          "kind": "reference"
+          "kind": "institutional"
         },
         {
           "url": "https://malevichsociety.org/writings-by-malevich/",
@@ -3616,11 +3630,11 @@
       "sources": [
         {
           "url": "https://www.wikidata.org/wiki/Q3108623",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://www.getty.edu/vow/AATFullDisplay?find=&place=&nation=&logic=&note=&role=&subjectid=300018086",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://en.wikipedia.org/wiki/Cusco_school",
@@ -3628,11 +3642,11 @@
         },
         {
           "url": "https://ojs.tnkul.pl/index.php/rh/article/view/7120",
-          "kind": "reference"
+          "kind": "scholarly"
         },
         {
           "url": "https://estudiosindianos.up.edu.pe/en/indias-glossary/escuela-cuzquena/",
-          "kind": "reference"
+          "kind": "institutional"
         },
         {
           "url": "https://en.wikipedia.org/wiki/Basilio_Santa_Cruz_Pumacallao",
@@ -3640,10 +3654,14 @@
         },
         {
           "url": "https://www.metmuseum.org/art/collection/search/764091",
-          "kind": "reference"
+          "kind": "institutional"
         },
         {
           "url": "https://www.metmuseum.org/art/collection/search/764095",
+          "kind": "institutional"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Bernardo_Bitti",
           "kind": "reference"
         }
       ],
@@ -3737,11 +3755,11 @@
       "sources": [
         {
           "url": "https://www.wikidata.org/wiki/Q6034",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300021500",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://en.wikipedia.org/wiki/Dada",
@@ -3761,11 +3779,15 @@
         },
         {
           "url": "https://writing.upenn.edu/library/Tzara_Dada-Manifesto_1918.pdf",
-          "kind": "reference"
+          "kind": "scholarly"
         },
         {
           "url": "https://www.britannica.com/art/Dada",
           "kind": "reference"
+        },
+        {
+          "url": "https://www.moma.org/documents/moma_catalogue_2823_300061909.pdf",
+          "kind": "scholarly"
         }
       ],
       "status": "draft",
@@ -3836,11 +3858,11 @@
       "sources": [
         {
           "url": "https://www.wikidata.org/wiki/Q24988307",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300417394",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://en.wikipedia.org/wiki/Dansaekhwa",
@@ -3860,11 +3882,11 @@
         },
         {
           "url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002692673",
-          "kind": "reference"
+          "kind": "scholarly"
         },
         {
           "url": "https://m.kukjegallery.com/db_img/mediaCoverage/media_coverage_Dansaekhwa__Collateral_Event_of_the_56th_International_Art_Exhibition_%E2%80%93_La_Biennale_di_Venezia_2015_02_25_e82.pdf",
-          "kind": "reference"
+          "kind": "scholarly"
         }
       ],
       "status": "draft",
@@ -3939,15 +3961,15 @@
       "sources": [
         {
           "url": "https://www.wikidata.org/wiki/Q207445",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300021259",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://sammlung.staedelmuseum.de/en/person/de-stijl",
-          "kind": "reference"
+          "kind": "institutional"
         },
         {
           "url": "https://www.lakenhal.nl/en/story/de-stijl",
@@ -3955,15 +3977,15 @@
         },
         {
           "url": "https://www.moma.org/collection/terms/de-stijl?sanity_preview=true&sanity_preview_secret=d51b1526-f689-4f33-b7c5-896dca252e7a",
-          "kind": "reference"
+          "kind": "institutional"
         },
         {
           "url": "https://www.moma.org/documents/moma_catalogue_1798_300159061.pdf",
-          "kind": "reference"
+          "kind": "scholarly"
         },
         {
           "url": "https://assets.moma.org/documents/moma_catalogue_2748_300086869.pdf",
-          "kind": "reference"
+          "kind": "scholarly"
         },
         {
           "url": "https://commons.wikimedia.org/wiki/File:Stijl_vol_03_nr_01_p_003.jpg",
@@ -4043,11 +4065,11 @@
       "sources": [
         {
           "url": "https://www.wikidata.org/wiki/Q28173212",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://vocab.getty.edu/aat/300018979",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://en.wikipedia.org/wiki/Deccan_painting",
@@ -4059,23 +4081,23 @@
         },
         {
           "url": "https://www.metmuseum.org/toah/hd/decc/hd_decc.htm",
-          "kind": "reference"
+          "kind": "institutional"
         },
         {
           "url": "https://www.metmuseum.org/essays/islamic-art-of-the-deccan",
-          "kind": "reference"
+          "kind": "institutional"
         },
         {
           "url": "https://www.metmuseum.org/press-releases/sultans-of-deccan-india-2015-exhibitions",
-          "kind": "reference"
+          "kind": "institutional"
         },
         {
           "url": "https://www.metmuseum.org/art/collection/search/453975",
-          "kind": "reference"
+          "kind": "institutional"
         },
         {
           "url": "https://www.metmuseum.org/art/collection/search/453334",
-          "kind": "reference"
+          "kind": "institutional"
         }
       ],
       "images": [
@@ -4159,19 +4181,19 @@
       "sources": [
         {
           "url": "https://www.wikidata.org/wiki/Q1923756",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://www.wikidata.org/wiki/Q8079936",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://ich.unesco.org/en/decisions/20.COM/7.A.1",
-          "kind": "reference"
+          "kind": "institutional"
         },
         {
           "url": "https://ich.unesco.org/en/USL/craft-of-making-dong-ho-folk-woodblock-printings-01737",
-          "kind": "reference"
+          "kind": "institutional"
         },
         {
           "url": "https://en.wikipedia.org/wiki/%C4%90%C3%B4ng_H%E1%BB%93_painting",
@@ -4275,7 +4297,7 @@
       "sources": [
         {
           "url": "https://www.wikidata.org/wiki/Q3577793",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://en.wikipedia.org/wiki/Dakar_School",
@@ -4295,7 +4317,7 @@
         },
         {
           "url": "https://www.tate.org.uk/art/art-terms/n/negritude",
-          "kind": "reference"
+          "kind": "institutional"
         },
         {
           "url": "https://heiup.uni-heidelberg.de/catalog/view/457/679/85134",
@@ -4382,7 +4404,7 @@
       "sources": [
         {
           "url": "https://www.wikidata.org/wiki/Q3577825",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://fr.wikipedia.org/wiki/%C3%89cole_de_Tunis",
@@ -4493,19 +4515,19 @@
       "sources": [
         {
           "url": "https://www.wikidata.org/wiki/Q80113",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300021502",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://www.moma.org/collection/terms/expressionism",
-          "kind": "reference"
+          "kind": "institutional"
         },
         {
           "url": "https://www.moma.org/documents/moma_catalogue_1702_300298262.pdf",
-          "kind": "reference"
+          "kind": "scholarly"
         }
       ],
       "status": "draft",
@@ -4590,23 +4612,23 @@
       "sources": [
         {
           "url": "https://www.wikidata.org/wiki/Q166593",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300021300",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://shop.tate.org.uk/derain-the-pool-of-london/andder1703.html",
-          "kind": "reference"
+          "kind": "institutional"
         },
         {
           "url": "https://www.metmuseum.org/ja/essays/fauvism",
-          "kind": "reference"
+          "kind": "institutional"
         },
         {
           "url": "https://www.momak.go.jp/English/collectionGalleryArchive/2017/collectionGallery2017No05.html",
-          "kind": "reference"
+          "kind": "institutional"
         },
         {
           "url": "https://artbma.org/press-release/bma-presents-the-art-of-pattern-henri-matisse-and-japanese-woodcut-artists/",
@@ -4688,7 +4710,7 @@
       "sources": [
         {
           "url": "https://www.wikidata.org/wiki/Q3099098",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://zh.wikipedia.org/wiki/%E5%9B%9B%E7%8E%8B",
@@ -4716,31 +4738,31 @@
         },
         {
           "url": "https://www.wikidata.org/wiki/Q716184",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://www.wikidata.org/wiki/Q711481",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://www.wikidata.org/wiki/Q716222",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://www.wikidata.org/wiki/Q716338",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://www.kyohaku.go.jp/old/eng/theme/floor2_5/past/chinese_20150512.html",
-          "kind": "reference"
+          "kind": "institutional"
         },
         {
           "url": "https://www.shanghaimuseum.net/mu/frontend/pg/article/id/RI00004055",
-          "kind": "reference"
+          "kind": "institutional"
         },
         {
           "url": "https://www.metmuseum.org/ko/essays/wang-hui-1632-1717",
-          "kind": "reference"
+          "kind": "institutional"
         }
       ],
       "images": [
@@ -4845,23 +4867,27 @@
       "sources": [
         {
           "url": "https://www.wikidata.org/wiki/Q131221",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://archive.org/details/f.t.-marinetti-manifeste-du-futurism-1909",
-          "kind": "reference"
+          "kind": "primary",
+          "note": "URLの資料パスから一次資料と判定"
         },
         {
           "url": "https://archive.org/metadata/f.t.-marinetti-manifeste-du-futurism-1909",
-          "kind": "reference"
+          "kind": "primary",
+          "note": "URLの資料パスから一次資料と判定"
         },
         {
           "url": "https://gallica.bnf.fr/ark:/12148/bpt6k2883730",
-          "kind": "reference"
+          "kind": "primary",
+          "note": "URLの資料パスから一次資料と判定"
         },
         {
           "url": "https://gallica.bnf.fr/iiif/ark:/12148/bpt6k2883730/manifest.json",
-          "kind": "reference"
+          "kind": "primary",
+          "note": "URLの資料パスから一次資料と判定"
         },
         {
           "url": "https://en.wikipedia.org/wiki/Manifesto_of_Futurism",
@@ -4909,7 +4935,7 @@
         },
         {
           "url": "https://www.nationalgallery.org.uk/about-us/press-and-media/press-releases-archive/radical-light-italy-s-divisionist-painters-1891-1910",
-          "kind": "reference"
+          "kind": "institutional"
         }
       ],
       "status": "draft",
@@ -4983,7 +5009,7 @@
       "sources": [
         {
           "url": "http://www.getty.edu/vow/AATFullDisplay?find=Gondar&logic=AND&note=&english=Y&subjectid=300263018",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://en.wikipedia.org/wiki/Gondarine_period",
@@ -4991,11 +5017,11 @@
         },
         {
           "url": "https://www.wikidata.org/wiki/Q112649079",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://www.wikidata.org/wiki/Q218861",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://www.h-net.org/reviews/showpdf.php?id=11894",
@@ -5003,7 +5029,7 @@
         },
         {
           "url": "https://journal.thewalters.org/volume/78/note/ethiopian-icon-paintings/",
-          "kind": "reference"
+          "kind": "scholarly"
         },
         {
           "url": "https://www.journal18.org/nq/giulio-romanos-the-little-holy-family-in-africa-identifying-an-18th-century-ethiopian-painting-by-kristen-windmuller-luna/",
@@ -5011,11 +5037,11 @@
         },
         {
           "url": "https://www.metmuseum.org/essays/african-christianity-in-ethiopia",
-          "kind": "reference"
+          "kind": "institutional"
         },
         {
           "url": "https://whc.unesco.org/en/list/19/",
-          "kind": "reference"
+          "kind": "institutional"
         }
       ],
       "images": [
@@ -5099,7 +5125,7 @@
       "sources": [
         {
           "url": "https://www.wikidata.org/wiki/Q12584160",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://en.wikipedia.org/wiki/Goryeo_Buddhist_paintings",
@@ -5123,15 +5149,15 @@
         },
         {
           "url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART001609622",
-          "kind": "reference"
+          "kind": "scholarly"
         },
         {
           "url": "https://publications.asia.si.edu/goryeo/en/essay-wilson-goryeo-buddhist-paintings.php",
-          "kind": "reference"
+          "kind": "institutional"
         },
         {
           "url": "https://publications.asia.si.edu/goryeo/ko/essay-park-materials-techniques-mounts.php",
-          "kind": "reference"
+          "kind": "institutional"
         },
         {
           "url": "https://ko.wikipedia.org/wiki/%EC%88%98%EC%9B%94%EA%B4%80%EC%9D%8C%EB%8F%84_(%EB%B3%B4%EB%AC%BC_%EC%A0%9C1426%ED%98%B8)",
@@ -5139,15 +5165,15 @@
         },
         {
           "url": "https://encykorea.aks.ac.kr/Article/E0015928",
-          "kind": "reference"
+          "kind": "institutional"
         },
         {
           "url": "https://www.metmuseum.org/art/collection/search/36029",
-          "kind": "reference"
+          "kind": "institutional"
         },
         {
           "url": "https://www.metmuseum.org/art/collection/search/39882",
-          "kind": "reference"
+          "kind": "institutional"
         }
       ],
       "images": [
@@ -5228,19 +5254,19 @@
       "sources": [
         {
           "url": "https://www.wikidata.org/wiki/Q46825",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300020775",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://www.metmuseum.org/fr/essays/gothic-art",
-          "kind": "reference"
+          "kind": "institutional"
         },
         {
           "url": "https://www.metmuseum.org/pt/met-publications/the-year-1200-a-background-survey",
-          "kind": "reference"
+          "kind": "institutional"
         }
       ],
       "status": "draft",
@@ -5322,15 +5348,17 @@
       "sources": [
         {
           "url": "https://www.wikidata.org/wiki/Q1547741",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://archive.org/details/groupof7catalogu00grou",
-          "kind": "reference"
+          "kind": "primary",
+          "note": "URLの資料パスから一次資料と判定"
         },
         {
           "url": "https://ia903103.us.archive.org/28/items/groupof7catalogu00grou/groupof7catalogu00grou_djvu.txt",
-          "kind": "reference"
+          "kind": "primary",
+          "note": "URLの資料パスから一次資料と判定"
         },
         {
           "url": "https://en.wikipedia.org/wiki/Group_of_Seven_(artists)",
@@ -5442,11 +5470,11 @@
       "sources": [
         {
           "url": "https://www.wikidata.org/wiki/Q1028956",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://www.getty.edu/vow/AATFullDisplay?find=gutai&logic=AND&note=&english=Y&prev_page=1&subjectid=300417399",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://ja.wikipedia.org/wiki/%E5%85%B7%E4%BD%93%E7%BE%8E%E8%A1%93%E5%8D%94%E4%BC%9A",
@@ -5462,7 +5490,7 @@
         },
         {
           "url": "https://www.bunka.go.jp/prmagazine/rensai/diary/diary_097.html",
-          "kind": "reference"
+          "kind": "institutional"
         },
         {
           "url": "https://www.tokyoartbeat.com/articles/-/gutai-3-keywords-2022-10",
@@ -5470,7 +5498,7 @@
         },
         {
           "url": "https://www.museum.osaka-u.ac.jp/wp/wp-content/uploads/2018/03/kato2017.pdf",
-          "kind": "reference"
+          "kind": "scholarly"
         },
         {
           "url": "https://www.shozoshimamoto.org/en/critical_essays/the-gutai-manifesto-jiro-yoshihara/",
@@ -5482,7 +5510,7 @@
         },
         {
           "url": "https://hoodmuseum.dartmouth.edu/objects/p.970.20",
-          "kind": "reference"
+          "kind": "institutional"
         }
       ],
       "status": "draft",
@@ -5557,19 +5585,21 @@
       "sources": [
         {
           "url": "https://www.wikidata.org/wiki/Q829895",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300121558",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://archive.org/details/newnegrointerpre00unse",
-          "kind": "reference"
+          "kind": "primary",
+          "note": "URLの資料パスから一次資料と判定"
         },
         {
           "url": "https://archive.org/download/newnegrointerpre00unse/newnegrointerpre00unse_djvu.txt",
-          "kind": "reference"
+          "kind": "primary",
+          "note": "URLの資料パスから一次資料と判定"
         },
         {
           "url": "https://en.wikipedia.org/wiki/Harlem_Renaissance",
@@ -5585,15 +5615,15 @@
         },
         {
           "url": "https://npg.si.edu/object/npg_NPG.98.129.a",
-          "kind": "reference"
+          "kind": "institutional"
         },
         {
           "url": "https://npg.si.edu/object/npg_NPG.72.79",
-          "kind": "reference"
+          "kind": "institutional"
         },
         {
           "url": "https://www.jstor.org/stable/i40051482",
-          "kind": "reference"
+          "kind": "scholarly"
         },
         {
           "url": "https://www.nationalgeographic.com/history/article/harlem-renaissance-dinner",
@@ -5686,31 +5716,31 @@
       "sources": [
         {
           "url": "https://www.wikidata.org/wiki/Q5958652",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://www.wikidata.org/wiki/Q484195",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://www.wikidata.org/wiki/Q2669775",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://www.wikidata.org/wiki/Q553204",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://www.wikidata.org/wiki/Q334875",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://www.wikidata.org/wiki/Q45313",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300021797",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://en.wikipedia.org/wiki/Baysunghur",
@@ -5730,7 +5760,7 @@
         },
         {
           "url": "https://www.reed.edu/persian-calligraphy/en/jafar-baysonghori/index.html",
-          "kind": "reference"
+          "kind": "institutional"
         },
         {
           "url": "https://www.britannica.com/art/Herat-school",
@@ -5738,11 +5768,11 @@
         },
         {
           "url": "https://resources.metmuseum.org/resources/metpublications/pdf/Masterpieces_from_the_Department_of_Islamic_Art_in_The_Metropolitan_Museum_of_Art.pdf",
-          "kind": "reference"
+          "kind": "scholarly"
         },
         {
           "url": "https://www.metmuseum.org/art/collection/search/455041",
-          "kind": "reference"
+          "kind": "institutional"
         }
       ],
       "images": [
@@ -5817,11 +5847,11 @@
       "sources": [
         {
           "url": "https://www.wikidata.org/wiki/Q943853",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300379047",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://en.wikipedia.org/wiki/Hudson_River_School",
@@ -5829,11 +5859,11 @@
         },
         {
           "url": "https://www.metmuseum.org/de/essays/the-hudson-river-school",
-          "kind": "reference"
+          "kind": "institutional"
         },
         {
           "url": "https://www.metmuseum.org/exhibitions/listings/2003/sanford-r-gifford?persisted=true&sc_device=default",
-          "kind": "reference"
+          "kind": "institutional"
         }
       ],
       "images": [
@@ -5932,15 +5962,15 @@
       "sources": [
         {
           "url": "https://www.wikidata.org/wiki/Q3147375",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300021904",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300021901",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://en.wikipedia.org/wiki/Iatmul_people",
@@ -5952,19 +5982,19 @@
         },
         {
           "url": "https://www.wikidata.org/wiki/Q62556769",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://www.wikidata.org/wiki/Q848308",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://www.metmuseum.org/art/collection/search/311262",
-          "kind": "reference"
+          "kind": "institutional"
         },
         {
           "url": "https://www.metmuseum.org/art/collection/search/311263",
-          "kind": "reference"
+          "kind": "institutional"
         },
         {
           "url": "https://ioa.factsanddetails.com/article/entry-563.html",
@@ -5980,7 +6010,11 @@
         },
         {
           "url": "https://global.oup.com/academic/product/names-are-thicker-than-blood-9780197264454",
-          "kind": "reference"
+          "kind": "scholarly"
+        },
+        {
+          "url": "https://www.amisquaibranly.fr/wp-content/uploads/2016/10/fiche-sculpture-iatmul.pdf",
+          "kind": "scholarly"
         }
       ],
       "status": "draft",
@@ -6047,27 +6081,29 @@
       "sources": [
         {
           "url": "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&subjectid=300015795",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://www.wikidata.org/wiki/Q180084",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://www.wikidata.org/wiki/Q110051642",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://web.archive.org/web/20251206081004/https://www.metmuseum.org/essays/ife-terracottas-1000-1400-a-d",
-          "kind": "reference"
+          "kind": "primary",
+          "note": "URLの資料パスから一次資料と判定"
         },
         {
           "url": "https://web.archive.org/web/20260219020416/https://www.metmuseum.org/essays/ife-from-ca-6th-century",
-          "kind": "reference"
+          "kind": "primary",
+          "note": "URLの資料パスから一次資料と判定"
         },
         {
           "url": "https://www.suzanneprestonblier.com/uploads/1/2/5/9/125984883/blier_art_in_ancient__african_arts_blier.pdf",
-          "kind": "reference"
+          "kind": "scholarly"
         },
         {
           "url": "https://en.wikipedia.org/wiki/Bronze_Head_from_Ife",
@@ -6217,27 +6253,28 @@
       "sources": [
         {
           "url": "https://www.wikidata.org/wiki/Q40415",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://www.wikidata.org/wiki/Q3487659",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://www.wikidata.org/wiki/Q50659",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300021503",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://gallica.bnf.fr/ark:/12148/bpt6k30708891/f2.item",
-          "kind": "reference"
+          "kind": "primary",
+          "note": "URLの資料パスから一次資料と判定"
         },
         {
           "url": "https://www.france-memoire.fr/wp-content/uploads/2022/07/charivari_documentv2.pdf",
-          "kind": "reference"
+          "kind": "scholarly"
         },
         {
           "url": "https://en.wikipedia.org/wiki/First_Impressionist_Exhibition",
@@ -6249,23 +6286,23 @@
         },
         {
           "url": "https://www.clevelandart.org/art/1950.89",
-          "kind": "reference"
+          "kind": "institutional"
         },
         {
           "url": "https://www.artic.edu/artworks/16571",
-          "kind": "reference"
+          "kind": "institutional"
         },
         {
           "url": "https://api.artic.edu/api/v1/artworks/16571",
-          "kind": "reference"
+          "kind": "institutional"
         },
         {
           "url": "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300021505",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://www.getty.edu/education/for_teachers/curricula/impressionism/background1.html",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://en.wikipedia.org/wiki/Fondation_Monet_in_Giverny",
@@ -6285,15 +6322,19 @@
         },
         {
           "url": "https://www.nationalgallery.org.uk/about-us/press-and-media/press-releases-archive/inventing-impressionism",
-          "kind": "reference"
+          "kind": "institutional"
         },
         {
           "url": "https://www.metmuseum.org/zh/essays/william-merritt-chase-1849-1916",
-          "kind": "reference"
+          "kind": "institutional"
         },
         {
           "url": "https://www.musee-orsay.fr/sites/default/files/2022-06/SalonsExpositions_1673-1961_v1_20220707.pdf",
-          "kind": "reference"
+          "kind": "scholarly"
+        },
+        {
+          "url": "https://digistore.bib.ulb.ac.be/2008/DL2864764_1886_f.pdf",
+          "kind": "scholarly"
         }
       ],
       "status": "verified",
@@ -6369,11 +6410,11 @@
       "sources": [
         {
           "url": "https://www.wikidata.org/wiki/Q5602008",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://www.getty.edu/vow/AATFullDisplay?find=&place=&nation=&logic=&note=&role=&subjectid=300107847",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://en.wikipedia.org/wiki/Jos%C3%A9_Sabogal",
@@ -6385,27 +6426,27 @@
         },
         {
           "url": "https://www.wikidata.org/wiki/Q2093376",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://www.wikidata.org/wiki/Q5202236",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://www.wikidata.org/wiki/Q2868",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "http://sedici.unlp.edu.ar/handle/10915/151286",
-          "kind": "reference"
+          "kind": "institutional"
         },
         {
           "url": "http://sedici.unlp.edu.ar/bitstream/handle/10915/151286/Documento_completo.pdf-PDFA.pdf?sequence=1",
-          "kind": "reference"
+          "kind": "scholarly"
         },
         {
           "url": "https://revistas.javeriana.edu.co/index.php/cma/article/view/villanueva",
-          "kind": "reference"
+          "kind": "institutional"
         },
         {
           "url": "https://www.museoreinasofia.es/actividad/indigenismo-1-redes-vanguardia-amauta-america-latina-1926-1930/",
@@ -6421,7 +6462,7 @@
         },
         {
           "url": "https://repositorio.pucp.edu.pe/items/d84354b6-20b8-4ce4-8553-a1a2d27dd1bc",
-          "kind": "reference"
+          "kind": "scholarly"
         },
         {
           "url": "https://icaa.mfah.org/s/en/item/1140821",
@@ -6501,7 +6542,7 @@
       "sources": [
         {
           "url": "https://en.wikipedia.org/wiki/Vietnam_University_of_Fine_Arts",
-          "kind": "reference"
+          "kind": "scholarly"
         },
         {
           "url": "https://en.wikipedia.org/wiki/Victor_Tardieu",
@@ -6517,23 +6558,23 @@
         },
         {
           "url": "https://www.hoasen.edu.vn/son-mai-tu-my-nghe-den-hoi-hoa/",
-          "kind": "reference"
+          "kind": "institutional"
         },
         {
           "url": "https://www.nationalgallery.sg/sg/en/learn-about-art/magazine/vietnamese-lacquer-painting-between-materiality-and-history.html",
-          "kind": "reference"
+          "kind": "institutional"
         },
         {
           "url": "https://www.rem.routledge.com/articles/modern-lacquer-painting-in-vietnam",
-          "kind": "reference"
+          "kind": "scholarly"
         },
         {
           "url": "https://www.rem.routledge.com/articles/nguyen-gia-tri-1908-1993",
-          "kind": "reference"
+          "kind": "scholarly"
         },
         {
           "url": "https://www.rem.routledge.com/articles/post-impressionism",
-          "kind": "reference"
+          "kind": "scholarly"
         },
         {
           "url": "https://www.tapchisonglam.vn/di-san-cua-truong-cao-dang-my-thuat-dong-duong/",
@@ -6668,10 +6709,14 @@
         },
         {
           "url": "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf",
-          "kind": "reference"
+          "kind": "scholarly"
         },
         {
           "url": "https://obtic.huma-num.fr/obvil-web/corpus/mdf-italie/mercure-italie_1907",
+          "kind": "reference"
+        },
+        {
+          "url": "https://exhibitions.univie.ac.at/exhibition/125",
           "kind": "reference"
         }
       ],
@@ -6732,15 +6777,15 @@
       "sources": [
         {
           "url": "https://www.metmuseum.org/essays/jain-manuscript-painting",
-          "kind": "reference"
+          "kind": "institutional"
         },
         {
           "url": "https://chitrolekha.com/ns/v8n1/v8n102.pdf",
-          "kind": "reference"
+          "kind": "scholarly"
         },
         {
           "url": "https://doi.org/10.21659/cjad.81.v8n102",
-          "kind": "reference"
+          "kind": "scholarly"
         },
         {
           "url": "https://www.britannica.com/art/Western-Indian-painting",
@@ -6752,15 +6797,15 @@
         },
         {
           "url": "https://www.wikidata.org/wiki/Q579702",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://www.metmuseum.org/art/collection/search/74883",
-          "kind": "reference"
+          "kind": "institutional"
         },
         {
           "url": "https://www.metmuseum.org/art/collection/search/37788",
-          "kind": "reference"
+          "kind": "institutional"
         }
       ],
       "images": [
@@ -6841,11 +6886,11 @@
       "sources": [
         {
           "url": "https://www.wikidata.org/wiki/Q12618161",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://www.wikidata.org/wiki/Q489785",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://ko.wikipedia.org/wiki/%EC%A7%84%EA%B2%BD%EC%82%B0%EC%88%98",
@@ -6857,15 +6902,15 @@
         },
         {
           "url": "https://encykorea.aks.ac.kr/Article/E0054575",
-          "kind": "reference"
+          "kind": "institutional"
         },
         {
           "url": "https://encykorea.aks.ac.kr/Article/E0050379",
-          "kind": "reference"
+          "kind": "institutional"
         },
         {
           "url": "https://encykorea.aks.ac.kr/Article/E0033641",
-          "kind": "reference"
+          "kind": "institutional"
         },
         {
           "url": "https://contents.history.go.kr/mobile/kc/view.do?levelId=kc_r300825&code=kc_age_30",
@@ -6881,7 +6926,7 @@
         },
         {
           "url": "https://www.kci.go.kr/kciportal/landing/article.kci?arti_id=ART001994596",
-          "kind": "reference"
+          "kind": "scholarly"
         }
       ],
       "images": [
@@ -6949,7 +6994,7 @@
       "sources": [
         {
           "url": "https://www.wikidata.org/wiki/Q5348995",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://en.wikipedia.org/wiki/Eight_Masters_of_Nanjing",
@@ -6961,7 +7006,7 @@
         },
         {
           "url": "https://www.comuseum.com/painting/schools/eight-masters-of-nanjing/",
-          "kind": "reference"
+          "kind": "institutional"
         },
         {
           "url": "https://en.wikipedia.org/wiki/Gong_Xian",
@@ -6985,11 +7030,11 @@
         },
         {
           "url": "https://www.metmuseum.org/art/collection/search/36130",
-          "kind": "reference"
+          "kind": "institutional"
         },
         {
           "url": "https://www.metmuseum.org/art/collection/search/41483",
-          "kind": "reference"
+          "kind": "institutional"
         }
       ],
       "images": [
@@ -7076,7 +7121,7 @@
       "sources": [
         {
           "url": "https://encykorea.aks.ac.kr/Article/E0060400",
-          "kind": "reference"
+          "kind": "institutional"
         },
         {
           "url": "https://contents.history.go.kr/mobile/nh/view.do?levelId=nh_035_0040_0020_0010_0040",
@@ -7084,19 +7129,19 @@
         },
         {
           "url": "https://encykorea.aks.ac.kr/Article/E0052396",
-          "kind": "reference"
+          "kind": "institutional"
         },
         {
           "url": "https://encykorea.aks.ac.kr/Article/E0009036",
-          "kind": "reference"
+          "kind": "institutional"
         },
         {
           "url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002897801",
-          "kind": "reference"
+          "kind": "scholarly"
         },
         {
           "url": "https://dh.aks.ac.kr/Korea100/wiki/index.php/%EA%B9%80%ED%99%8D%EB%8F%84%EC%99%80_%EC%8B%A0%EC%9C%A4%EB%B3%B5:_%EC%A1%B0%EC%84%A0_%ED%9B%84%EA%B8%B0%EC%9D%98_%ED%92%8D%EC%86%8D%ED%99%94%EA%B0%80",
-          "kind": "reference"
+          "kind": "institutional"
         },
         {
           "url": "https://ko.wikipedia.org/wiki/%EC%9C%A4%EB%91%90%EC%84%9C",
@@ -7108,19 +7153,19 @@
         },
         {
           "url": "https://www.wikidata.org/wiki/Q214127",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://www.wikidata.org/wiki/Q494712",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://www.wikidata.org/wiki/Q484262",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://www.wikidata.org/wiki/Q8061186",
-          "kind": "reference"
+          "kind": "authority"
         }
       ],
       "images": [
@@ -7178,7 +7223,7 @@
       "sources": [
         {
           "url": "https://www.wikidata.org/wiki/Q6356113",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://en.wikipedia.org/wiki/Kamasan",
@@ -7202,7 +7247,7 @@
         },
         {
           "url": "http://balitourismjournal.org/ojs/index.php/btj/article/view/74",
-          "kind": "reference"
+          "kind": "scholarly"
         },
         {
           "url": "https://www.kk-advocates.com/news/read/balinese-kamasan-classical-paintings-registered-as-a-geographical-indication-product",
@@ -7210,7 +7255,7 @@
         },
         {
           "url": "https://e-museum.klungkungkab.go.id/history-of-klungkung/",
-          "kind": "reference"
+          "kind": "institutional"
         },
         {
           "url": "https://www.michaelbackmanltd.com/archived_objects/balinese-temple-textile-ider-ider/",
@@ -7222,7 +7267,7 @@
         },
         {
           "url": "https://journal.binus.ac.id/index.php/Humaniora/article/view/3599",
-          "kind": "reference"
+          "kind": "scholarly"
         }
       ],
       "status": "draft",
@@ -7321,11 +7366,11 @@
       "sources": [
         {
           "url": "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300266170",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "http://vocab.getty.edu/aat/300266170",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://ja.wikipedia.org/wiki/%E6%B0%B4%E5%A2%A8%E7%94%BB",
@@ -7341,19 +7386,19 @@
         },
         {
           "url": "https://encykorea.aks.ac.kr/Article/E0069639",
-          "kind": "reference"
+          "kind": "institutional"
         },
         {
           "url": "https://clevelandart.org/art/1976.59",
-          "kind": "reference"
+          "kind": "institutional"
         },
         {
           "url": "https://clevelandart.org/art/1976.92.1",
-          "kind": "reference"
+          "kind": "institutional"
         },
         {
           "url": "https://www.metmuseum.org/art/collection/search/53219",
-          "kind": "reference"
+          "kind": "institutional"
         }
       ],
       "status": "draft",
@@ -7427,11 +7472,11 @@
       "sources": [
         {
           "url": "https://www.wikidata.org/wiki/Q6362867",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://www.wikidata.org/wiki/Q2988788",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://en.wikipedia.org/wiki/Kangra_painting",
@@ -7455,7 +7500,7 @@
         },
         {
           "url": "https://www.getty.edu/vow/AATFullDisplay?find=300019020&logic=AND&note=&subjectid=300019020",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://aatesaurus.cultura.gencat.cat/aat/getty_en/index.php?%2Frajput=&tema=31367026",
@@ -7475,15 +7520,15 @@
         },
         {
           "url": "https://www.metmuseum.org/art/collection/search/37950",
-          "kind": "reference"
+          "kind": "institutional"
         },
         {
           "url": "https://www.metmuseum.org/art/collection/search/37947",
-          "kind": "reference"
+          "kind": "institutional"
         },
         {
           "url": "https://www.britishmuseum.org/collection/object/A_1927-1116-0-2",
-          "kind": "reference"
+          "kind": "institutional"
         }
       ],
       "images": [
@@ -7567,15 +7612,15 @@
       "sources": [
         {
           "url": "https://www.wikidata.org/wiki/Q252801",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://www.getty.edu/research/tools/vocabularies/aat/",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://www.kyohaku.go.jp/jp/assets/press/2027_kano_press_0608-02ver.pdf",
-          "kind": "reference"
+          "kind": "scholarly"
         }
       ],
       "images": [
@@ -7660,7 +7705,7 @@
       "sources": [
         {
           "url": "https://www.getty.edu/vow/AATFullDisplay?find=Karma+Gadri&logic=AND&note=&english=Y&prev_page=1&subjectid=300018861",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://www.himalayanart.org/search/set.cfm?setID=248",
@@ -7668,11 +7713,11 @@
         },
         {
           "url": "https://rubinmuseum.org/projecthimalayanart/essays/portrait-of-the-ninth-karmapa/",
-          "kind": "reference"
+          "kind": "institutional"
         },
         {
           "url": "https://www.wikidata.org/wiki/Q25669748",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://baike.baidu.com/en/item/Tibetan%20Thangka%20(Karma%20Gadri%20Painting%20School)/934779",
@@ -7736,23 +7781,23 @@
       "sources": [
         {
           "url": "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300264050",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://www.wikidata.org/wiki/Q21550711",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://www.wikidata.org/wiki/Q106789077",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://rubinmuseum.org/projecthimalayanart/essays/murals-of-gongkar-chode/",
-          "kind": "reference"
+          "kind": "institutional"
         },
         {
           "url": "https://rubinmuseum.org/projecthimalayanart/glossary/khyentse-tradition/",
-          "kind": "reference"
+          "kind": "institutional"
         },
         {
           "url": "https://www.himalayanart.org/search/set.cfm?setID=250",
@@ -7760,7 +7805,7 @@
         },
         {
           "url": "https://www.wikidata.org/wiki/Q1253613",
-          "kind": "reference"
+          "kind": "authority"
         }
       ],
       "status": "draft",
@@ -7840,23 +7885,23 @@
         },
         {
           "url": "https://www.aucklandmuseum.com/collection/object/1207475",
-          "kind": "reference"
+          "kind": "institutional"
         },
         {
           "url": "https://www.wikidata.org/wiki/Q3108354",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://www.wikidata.org/wiki/Q7990459",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://www.wikidata.org/wiki/Q664",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://www.getty.edu/vow/AATServlet?english=Y&find=kowhaiwhai&logic=AND&note=&page=1&subjectid=0",
-          "kind": "reference"
+          "kind": "authority"
         }
       ],
       "status": "draft",
@@ -7949,11 +7994,11 @@
       "sources": [
         {
           "url": "https://www.wikidata.org/wiki/Q1021436",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300264776",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://en.wikipedia.org/wiki/Lapita_culture",
@@ -7961,7 +8006,7 @@
         },
         {
           "url": "http://www.ioa.ucla.edu/talepakemalai",
-          "kind": "reference"
+          "kind": "institutional"
         },
         {
           "url": "https://en.wiktionary.org/wiki/Lapita",
@@ -7973,15 +8018,15 @@
         },
         {
           "url": "https://www.metmuseum.org/art/collection/search/314215",
-          "kind": "reference"
+          "kind": "institutional"
         },
         {
           "url": "https://www.metmuseum.org/art/collection/search/314216",
-          "kind": "reference"
+          "kind": "institutional"
         },
         {
           "url": "https://www.metmuseum.org/art/collection/search/314214",
-          "kind": "reference"
+          "kind": "institutional"
         }
       ],
       "status": "draft",
@@ -8052,11 +8097,11 @@
       "sources": [
         {
           "url": "https://www.wikidata.org/wiki/Q11050078",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://www.wikidata.org/wiki/Q3083171",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://zh.wikipedia.org/wiki/岭南画派",
@@ -8112,7 +8157,7 @@
         },
         {
           "url": "https://www.tnm.jp/modules/r_free_page/index.php?id=1544&lang=ja",
-          "kind": "reference"
+          "kind": "institutional"
         }
       ],
       "images": [
@@ -8170,7 +8215,7 @@
       "sources": [
         {
           "url": "https://www.wikidata.org/wiki/Q1142000",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://ja.wikipedia.org/wiki/%E6%96%87%E4%BA%BA%E7%94%BB",
@@ -8194,11 +8239,11 @@
         },
         {
           "url": "https://www.wikidata.org/wiki/Q36020",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://www.wikidata.org/wiki/Q313605",
-          "kind": "reference"
+          "kind": "authority"
         }
       ],
       "images": [
@@ -8279,11 +8324,11 @@
       "sources": [
         {
           "url": "https://www.wikidata.org/wiki/Q17109576",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "http://vocab.getty.edu/aat/300016528",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://en.wikipedia.org/wiki/Makonde_art",
@@ -8307,7 +8352,7 @@
         },
         {
           "url": "https://journals.openedition.org/etudesafricaines/4878",
-          "kind": "reference"
+          "kind": "scholarly"
         }
       ],
       "status": "draft",
@@ -8377,31 +8422,31 @@
       "sources": [
         {
           "url": "https://www.wikidata.org/wiki/Q1062422",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://www.wikidata.org/wiki/Q185518",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://www.wikidata.org/wiki/Q574358",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://www.wikidata.org/wiki/Q470986",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://www.wikidata.org/wiki/Q2500952",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://www.wikidata.org/wiki/Q454949",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://www.getty.edu/vow/AATFullDisplay?find=Mandalay&logic=AND&note=&subjectid=300107052",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://en.wikipedia.org/wiki/Mandalay",
@@ -8429,11 +8474,11 @@
         },
         {
           "url": "https://www.metmuseum.org/art/collection/search/856163",
-          "kind": "reference"
+          "kind": "institutional"
         },
         {
           "url": "https://www.metmuseum.org/art/collection/search/744940",
-          "kind": "reference"
+          "kind": "institutional"
         },
         {
           "url": "https://collections.vam.ac.uk/item/O49192/standing-figure-of",
@@ -8525,15 +8570,15 @@
       "sources": [
         {
           "url": "https://www.wikidata.org/wiki/Q131808",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300021144",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "http://vocab.getty.edu/aat/300021144",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://en.wikipedia.org/wiki/Mannerism",
@@ -8541,11 +8586,11 @@
         },
         {
           "url": "https://www.artic.edu/artworks/110759",
-          "kind": "reference"
+          "kind": "institutional"
         },
         {
           "url": "https://www.artic.edu/artworks/52668",
-          "kind": "reference"
+          "kind": "institutional"
         }
       ],
       "status": "draft",
@@ -8614,15 +8659,15 @@
       "sources": [
         {
           "url": "https://www.wikidata.org/wiki/Q11394761",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://www.wikidata.org/wiki/Q11394770",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://www.wikidata.org/wiki/Q3577704",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://ja.wikipedia.org/wiki/円山・四条派",
@@ -8634,19 +8679,19 @@
         },
         {
           "url": "https://kyoto-museums.city.kyoto.lg.jp/en/feature-column/painting/",
-          "kind": "reference"
+          "kind": "institutional"
         },
         {
           "url": "https://www.fujibi.or.jp/collection/artwork/09092/",
-          "kind": "reference"
+          "kind": "institutional"
         },
         {
           "url": "https://api.artic.edu/api/v1/artworks/196928",
-          "kind": "reference"
+          "kind": "institutional"
         },
         {
           "url": "https://api.artic.edu/api/v1/artworks/50560",
-          "kind": "reference"
+          "kind": "institutional"
         }
       ],
       "images": [
@@ -8717,19 +8762,19 @@
       "sources": [
         {
           "url": "https://www.wikidata.org/wiki/Q11231120",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://artplatform.go.jp/ja/artists/A5349",
-          "kind": "reference"
+          "kind": "institutional"
         },
         {
           "url": "https://museum.geidai.ac.jp/exhibit/2005/06/dada.html",
-          "kind": "reference"
+          "kind": "institutional"
         },
         {
           "url": "https://artplatform.go.jp/ja/artists/A1970",
-          "kind": "reference"
+          "kind": "institutional"
         },
         {
           "url": "https://artscape.jp/dictionary/modern/1198381_1637.html",
@@ -8805,11 +8850,11 @@
       "sources": [
         {
           "url": "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300018855",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300018860",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://www.himalayanart.org/search/set.cfm?setID=4163",
@@ -8825,15 +8870,15 @@
         },
         {
           "url": "https://rubinmuseum.org/projecthimalayanart/glossary/menla-tradition/",
-          "kind": "reference"
+          "kind": "institutional"
         },
         {
           "url": "https://rubinmuseum.org/projecthimalayanart/essays/murals-of-gongkar-chode/",
-          "kind": "reference"
+          "kind": "institutional"
         },
         {
           "url": "https://rubinmuseum.org/exhibitions/the-place-of-provenance/",
-          "kind": "reference"
+          "kind": "institutional"
         }
       ],
       "status": "draft",
@@ -8916,23 +8961,23 @@
         },
         {
           "url": "https://www.wikidata.org/wiki/Q2988788",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://www.wikidata.org/wiki/Q1518229",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://www.wikidata.org/wiki/Q17319155",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://www.wikidata.org/wiki/Q200340",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://www.getty.edu/vow/AATFullDisplay?find=300019040&logic=AND&note=&subjectid=300019040",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://aatesaurus.cultura.gencat.cat/aat/getty_en/index.php?%2Frajput=&tema=31367026",
@@ -8944,31 +8989,31 @@
         },
         {
           "url": "https://clevelandart.org/art/2018.136",
-          "kind": "reference"
+          "kind": "institutional"
         },
         {
           "url": "https://openaccess-api.clevelandart.org/api/artworks/314441",
-          "kind": "reference"
+          "kind": "institutional"
         },
         {
           "url": "https://clevelandart.org/art/2003.343",
-          "kind": "reference"
+          "kind": "institutional"
         },
         {
           "url": "https://openaccess-api.clevelandart.org/api/artworks/162857",
-          "kind": "reference"
+          "kind": "institutional"
         },
         {
           "url": "https://resources.metmuseum.org/resources/metpublications/pdf/Wonder_of_the_Age_Master_Painters_of_India_1100_1900.pdf",
-          "kind": "reference"
+          "kind": "scholarly"
         },
         {
           "url": "https://www.metmuseum.org/exhibitions/listings/2011/lyrical-visions?persisted=true&sc_device=default",
-          "kind": "reference"
+          "kind": "institutional"
         },
         {
           "url": "https://www.britishmuseum.org/collection/object/A_1991-0131-0-1",
-          "kind": "reference"
+          "kind": "institutional"
         }
       ],
       "images": [
@@ -9037,11 +9082,11 @@
       "sources": [
         {
           "url": "https://www.wikidata.org/wiki/Q938864",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://www.getty.edu/vow/AATFullDisplay?find=&place=&nation=&logic=&note=&role=&subjectid=300107850",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://en.wikipedia.org/wiki/Mexican_muralism",
@@ -9053,15 +9098,15 @@
         },
         {
           "url": "https://www.wikidata.org/wiki/Q750196",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://www.wikidata.org/wiki/Q1367381",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://www.scielo.org.mx/scielo.php?script=sci_arttext&pid=S2448-83722019000100115",
-          "kind": "reference"
+          "kind": "scholarly"
         },
         {
           "url": "https://lineriderpress.com/siqueiros-1922-art-manifesto-manifesto-del-sindicato-de-obreros-tecnicos-pintores-y-escultores/",
@@ -9148,11 +9193,11 @@
       "sources": [
         {
           "url": "https://www.wikidata.org/wiki/Q3314961",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://www.getty.edu/vow/AATFullDisplay?find=mingei&logic=AND&note=&english=Y&prev_page=1&subjectid=300260035",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://en.wikipedia.org/wiki/Mingei",
@@ -9172,7 +9217,7 @@
         },
         {
           "url": "https://www.wikidata.org/wiki/Q904161",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://note.com/icingbox/n/n177b484fde56",
@@ -9180,7 +9225,7 @@
         },
         {
           "url": "https://www.metmuseum.org/art/collection/search/36115",
-          "kind": "reference"
+          "kind": "institutional"
         }
       ],
       "status": "draft",
@@ -9252,11 +9297,11 @@
       "sources": [
         {
           "url": "https://www.wikidata.org/wiki/Q3321083",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://www.getty.edu/vow/AATFullDisplay?find=mono+ha&logic=AND&note=&english=Y&prev_page=1&subjectid=300417405",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://en.wikipedia.org/wiki/Mono-ha",
@@ -9346,7 +9391,7 @@
       "sources": [
         {
           "url": "https://www.wikidata.org/wiki/Q1049336",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://en.wikipedia.org/wiki/Mughal_painting",
@@ -9358,11 +9403,11 @@
         },
         {
           "url": "https://www.getty.edu/vow/AATFullDisplay?find=Mughal&logic=AND&note=&subjectid=300018939",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://82nd-and-fifth.metmuseum.org/toah/ht/08/ssa.html",
-          "kind": "reference"
+          "kind": "institutional"
         },
         {
           "url": "https://en.wikipedia.org/wiki/Manohar_Das",
@@ -9382,7 +9427,7 @@
         },
         {
           "url": "https://www.wikidata.org/wiki/Q42941",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://en.wikipedia.org/wiki/Mir_Sayyid_Ali",
@@ -9505,43 +9550,43 @@
         },
         {
           "url": "https://www.wikidata.org/wiki/Q2928221",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://jpsearch.go.jp/en/gallery/ndl-D6xwaWpaGKiEYVp",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://www.kyohaku.go.jp/old/eng/theme/floor2_4/past/kinse_20170221.html",
-          "kind": "reference"
+          "kind": "institutional"
         },
         {
           "url": "https://eaa.fas.harvard.edu/museum/nanga-painting-feinberg-collection",
-          "kind": "reference"
+          "kind": "institutional"
         },
         {
           "url": "https://www.kyohaku.go.jp/jp/learn/home/yomimono_data/0071/",
-          "kind": "reference"
+          "kind": "institutional"
         },
         {
           "url": "https://theme.npm.edu.tw/exh107/NewEra/jp/page-4.html",
-          "kind": "reference"
+          "kind": "institutional"
         },
         {
           "url": "https://theme.npm.edu.tw/exh107/NewEra/en/page-4.html",
-          "kind": "reference"
+          "kind": "institutional"
         },
         {
           "url": "https://www.metmuseum.org/art/collection/search/671023",
-          "kind": "reference"
+          "kind": "institutional"
         },
         {
           "url": "https://www.artic.edu/artworks/185222",
-          "kind": "reference"
+          "kind": "institutional"
         },
         {
           "url": "https://www.metmuseum.org/exhibitions/listings/2003/great-waves",
-          "kind": "reference"
+          "kind": "institutional"
         }
       ],
       "images": [
@@ -9629,15 +9674,15 @@
       "sources": [
         {
           "url": "https://www.wikidata.org/wiki/Q852544",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://plato.stanford.edu/entries/negritude/",
-          "kind": "reference"
+          "kind": "institutional"
         },
         {
           "url": "https://www.tate.org.uk/art/art-terms/n/negritude",
-          "kind": "reference"
+          "kind": "institutional"
         },
         {
           "url": "https://poets.org/text/brief-guide-negritude",
@@ -9748,31 +9793,32 @@
       "sources": [
         {
           "url": "https://www.wikidata.org/wiki/Q150091",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://api.artic.edu/api/v1/artworks/27992",
-          "kind": "reference"
+          "kind": "institutional"
         },
         {
           "url": "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300021505",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://digistore.bib.ulb.ac.be/2008/DL2864764_1886_f.pdf",
-          "kind": "reference"
+          "kind": "scholarly"
         },
         {
           "url": "https://www.vangoghmuseum.nl/assets/491dd716-741d-4608-975e-e9652bdfd063?c=2379957789b45233379dcf35054dd324a2f54e39adeb7c20b1481dc08c461b44",
-          "kind": "reference"
+          "kind": "institutional"
         },
         {
           "url": "https://www.moma.org/documents/moma_catalogue_2792_300190140.pdf",
-          "kind": "reference"
+          "kind": "scholarly"
         },
         {
           "url": "https://gallica.bnf.fr/ark:/12148/bpt6k850398w",
-          "kind": "reference"
+          "kind": "primary",
+          "note": "URLの資料パスから一次資料と判定"
         },
         {
           "url": "https://catalogue.bnf.fr/ark:/12148/cb30427294w",
@@ -9800,11 +9846,11 @@
         },
         {
           "url": "https://www.musee-orsay.fr/en/program/whats-on/exhibitions/presentation/neo-impressionism-seurat-paul-klee",
-          "kind": "reference"
+          "kind": "institutional"
         },
         {
           "url": "https://maa.missouri.edu/sites/default/files/image-button/2021-12/on-line_japonisme_in_print-2-_complete.pdf",
-          "kind": "reference"
+          "kind": "scholarly"
         }
       ],
       "images": [
@@ -9885,15 +9931,15 @@
       "sources": [
         {
           "url": "https://www.wikidata.org/wiki/Q14378",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300021474",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://www.metmuseum.org/fr/essays/neoclassicism",
-          "kind": "reference"
+          "kind": "institutional"
         }
       ],
       "status": "draft",
@@ -9984,7 +10030,7 @@
         },
         {
           "url": "https://www.wikidata.org/wiki/Q10336205",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://pt.wikipedia.org/wiki/Neoconcretismo",
@@ -9996,7 +10042,7 @@
         },
         {
           "url": "https://www.getty.edu/vow/AATFullDisplay?find=neoconcrete&logic=OR&note=&english=Y&prev_page=1&subjectid=300456752",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://smarthistory.org/geometric-abstraction-south-america/",
@@ -10055,23 +10101,23 @@
       "sources": [
         {
           "url": "https://rubinmuseum.org/projecthimalayanart/glossary/newar/",
-          "kind": "reference"
+          "kind": "institutional"
         },
         {
           "url": "https://rubinmuseum.org/projecthimalayanart/essays/jivaramas-sketchbook/",
-          "kind": "reference"
+          "kind": "institutional"
         },
         {
           "url": "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300018822",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://www.wikidata.org/wiki/Q7148832",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://www.wikidata.org/wiki/Q1217053",
-          "kind": "reference"
+          "kind": "authority"
         }
       ],
       "status": "draft",
@@ -10158,23 +10204,23 @@
         },
         {
           "url": "https://www.wikidata.org/wiki/Q7990459",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://www.wikidata.org/wiki/Q7023277",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300021960",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300264803",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300021962",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://www.teaonews.co.nz/2017/12/21/three-significant-pou-whakairo-represent-te-arawa-style-of-carving/",
@@ -10186,11 +10232,11 @@
         },
         {
           "url": "https://aucklanduniversitypress.co.nz/carved-histories-rotorua-ngati-tarawhai-carving/",
-          "kind": "reference"
+          "kind": "scholarly"
         },
         {
           "url": "https://www.britishmuseum.org/collection/object/E_Oc1993-03-79",
-          "kind": "reference"
+          "kind": "institutional"
         }
       ],
       "status": "draft",
@@ -10275,19 +10321,19 @@
       "sources": [
         {
           "url": "https://www.wikidata.org/wiki/Q1989975",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300114441",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://www.yamatane-museum.jp/en/nihonga/",
-          "kind": "reference"
+          "kind": "institutional"
         },
         {
           "url": "http://museums.toyamaken.jp/documents/documents007/",
-          "kind": "reference"
+          "kind": "institutional"
         },
         {
           "url": "https://nihonbijutsuin.or.jp/his_tenshsin.php",
@@ -10295,7 +10341,7 @@
         },
         {
           "url": "https://www.wikidata.org/wiki/Q4346814",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://amis-musee-cernuschi.org/en/les-liens-artistiques-et-culturels-entre-linde-et-le-japon-vers-1890-1940-2/",
@@ -10303,7 +10349,7 @@
         },
         {
           "url": "https://kyoto-museums.city.kyoto.lg.jp/feature-column/painting/",
-          "kind": "reference"
+          "kind": "institutional"
         }
       ],
       "status": "draft",
@@ -10370,23 +10416,23 @@
       "sources": [
         {
           "url": "https://www.wikidata.org/wiki/Q927291",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://www.wikidata.org/wiki/Q108908650",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://www.metmuseum.org/essays/nok-terracottas-500-b-c-200-a-d",
-          "kind": "reference"
+          "kind": "institutional"
         },
         {
           "url": "https://clevelandart.org/art/1995.21",
-          "kind": "reference"
+          "kind": "institutional"
         },
         {
           "url": "https://openaccess-api.clevelandart.org/api/artworks/159000",
-          "kind": "reference"
+          "kind": "institutional"
         },
         {
           "url": "https://aktuelles.uni-frankfurt.de/en/english/nok-research-project-enters-final-phase/",
@@ -10398,7 +10444,7 @@
         },
         {
           "url": "https://education.nationalgeographic.org/resource/nok-culture/",
-          "kind": "reference"
+          "kind": "institutional"
         },
         {
           "url": "https://traffickingculture.org/encyclopedia/case-studies/nok-terracottas/",
@@ -10406,7 +10452,7 @@
         },
         {
           "url": "https://www.unesco.org/en/articles/restitution-cultural-property-nok-civilization",
-          "kind": "reference"
+          "kind": "institutional"
         }
       ],
       "images": [
@@ -10493,11 +10539,11 @@
       "sources": [
         {
           "url": "https://www.wikidata.org/wiki/Q7059995",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300017594",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://en.wikipedia.org/wiki/Northwest_Coast_art",
@@ -10533,7 +10579,7 @@
         },
         {
           "url": "https://content.lib.washington.edu/aipnw/wright.html",
-          "kind": "reference"
+          "kind": "institutional"
         },
         {
           "url": "https://open.library.ubc.ca/cIRcle/collections/ubctheses/831/items/1.0089510",
@@ -10541,11 +10587,11 @@
         },
         {
           "url": "https://clevelandart.org/art/1989.89",
-          "kind": "reference"
+          "kind": "institutional"
         },
         {
           "url": "https://clevelandart.org/art/1921.1577",
-          "kind": "reference"
+          "kind": "institutional"
         }
       ],
       "status": "draft",
@@ -10618,15 +10664,15 @@
       "sources": [
         {
           "url": "https://www.wikidata.org/wiki/Q2876208",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://www.wikidata.org/wiki/Q151536",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://www.wikidata.org/wiki/Q2235",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://en.wikipedia.org/wiki/Novgorod_school",
@@ -10666,18 +10712,14 @@
         },
         {
           "url": "https://books.openbookpublishers.com/10.11647/obp.0378/ch2.xhtml",
-          "kind": "reference"
+          "kind": "scholarly"
         },
         {
           "url": "https://www.metmuseum.org/art/collection/search/437578",
-          "kind": "reference"
+          "kind": "institutional"
         },
         {
           "url": "https://commons.wikimedia.org/wiki/File:Novgorod_School_-_Saint_Nicholas_of_Zaraysk_with_20_scenes_from_his_life_-_NG.M.01773_-_National_Museum_of_Art,_Architecture_and_Design.jpg",
-          "kind": "reference"
-        },
-        {
-          "url": "https://www.metmuseum.org/art/collection/search/437578",
           "kind": "reference"
         }
       ],
@@ -10743,19 +10785,19 @@
       "sources": [
         {
           "url": "https://www.wikidata.org/wiki/Q268639",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://www.wikidata.org/wiki/Q406",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://www.wikidata.org/wiki/Q63681008",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://vocab.getty.edu/aat/300021614",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://en.wikipedia.org/wiki/Ottoman_miniature",
@@ -10763,15 +10805,15 @@
         },
         {
           "url": "https://www.metmuseum.org/essays/the-art-of-the-ottomans-before-1600",
-          "kind": "reference"
+          "kind": "institutional"
         },
         {
           "url": "https://www.metmuseum.org/ja/essays/silks-from-ottoman-turkey",
-          "kind": "reference"
+          "kind": "institutional"
         },
         {
           "url": "https://www.britishmuseum.org/collection/object/W_1930-1112-0-4",
-          "kind": "reference"
+          "kind": "institutional"
         },
         {
           "url": "https://en.wikipedia.org/wiki/%C5%9Eahkulu_(painter)",
@@ -10864,7 +10906,7 @@
       "sources": [
         {
           "url": "https://www.wikidata.org/wiki/Q18005",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://en.wikipedia.org/wiki/Papunya_Tula",
@@ -10892,7 +10934,7 @@
         },
         {
           "url": "https://www.nma.gov.au/defining-moments/resources/papunya-tula",
-          "kind": "reference"
+          "kind": "institutional"
         }
       ],
       "status": "draft",
@@ -10958,7 +11000,7 @@
       "sources": [
         {
           "url": "https://www.wikidata.org/wiki/Q109260",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://ru.wikipedia.org/wiki/Передвижники",
@@ -11051,7 +11093,7 @@
       "sources": [
         {
           "url": "https://www.wikidata.org/wiki/Q56294353",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://www.houtsnijkunstbali.nl/verdiepingsinformatie/pita-maha/",
@@ -11063,7 +11105,7 @@
         },
         {
           "url": "http://www.iraj.in/journal/journal_file/journal_pdf/14-440-152293060021-24.pdf",
-          "kind": "reference"
+          "kind": "scholarly"
         },
         {
           "url": "https://www.thejakartapost.com/news/2016/03/31/romantic-agony-soul-pita-maha.html",
@@ -11075,7 +11117,7 @@
         },
         {
           "url": "https://www.tandfonline.com/doi/abs/10.1080/13639810701440640",
-          "kind": "reference"
+          "kind": "scholarly"
         }
       ],
       "status": "draft",
@@ -11132,19 +11174,19 @@
       "sources": [
         {
           "url": "https://www.wikidata.org/wiki/Q166713",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://www.vangoghmuseum.nl/en/collection/s0114V1962",
-          "kind": "reference"
+          "kind": "institutional"
         },
         {
           "url": "https://www.vangoghmuseum.nl/en/collection/s0115v1962",
-          "kind": "reference"
+          "kind": "institutional"
         },
         {
           "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/55433",
-          "kind": "reference"
+          "kind": "institutional"
         },
         {
           "url": "https://en.wikipedia.org/wiki/One_Hundred_Famous_Views_of_Edo",
@@ -11152,7 +11194,7 @@
         },
         {
           "url": "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300021508",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://www.gutenberg.org/files/54154/54154-h/54154-h.htm",
@@ -11160,7 +11202,7 @@
         },
         {
           "url": "https://www.tate.org.uk/art/art-terms/p/post-impressionism",
-          "kind": "reference"
+          "kind": "institutional"
         },
         {
           "url": "https://www.thecollector.com/manet-and-the-post-impressionists-roger-frys-1910-exhibition/",
@@ -11168,11 +11210,11 @@
         },
         {
           "url": "https://www.metmuseum.org/art/collection/search/435868",
-          "kind": "reference"
+          "kind": "institutional"
         },
         {
           "url": "https://www.metmuseum.org/art/collection/search/436535",
-          "kind": "reference"
+          "kind": "institutional"
         }
       ],
       "images": [
@@ -11271,19 +11313,19 @@
       "sources": [
         {
           "url": "https://www.wikidata.org/wiki/Q114247696",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://www.wikidata.org/wiki/Q59564370",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://sites.rhodes.edu/potopoto/history-poto-poto-school",
-          "kind": "reference"
+          "kind": "institutional"
         },
         {
           "url": "https://sites.rhodes.edu/potopoto",
-          "kind": "reference"
+          "kind": "institutional"
         },
         {
           "url": "https://shs.cairn.info/journal-cahiers-d-etudes-africaines-2012-1-page-259?lang=en",
@@ -11295,7 +11337,7 @@
         },
         {
           "url": "https://www.si.edu/object/siris_sil_752655",
-          "kind": "reference"
+          "kind": "institutional"
         },
         {
           "url": "https://www.africanews.com/2021/07/06/congo-school-of-painting-poto-poto-celebrates-70-years-of-african-art/",
@@ -11307,11 +11349,7 @@
         },
         {
           "url": "http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=Poto-Poto&logop=and&notes=",
-          "kind": "reference"
-        },
-        {
-          "url": "https://sites.rhodes.edu/potopoto/history-poto-poto-school",
-          "kind": "reference"
+          "kind": "authority"
         }
       ],
       "status": "draft",
@@ -11368,15 +11406,15 @@
       "sources": [
         {
           "url": "https://www.wikidata.org/wiki/Q5964557",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://www.wikidata.org/wiki/Q2864726",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://www.wikidata.org/wiki/Q189326",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://en.wikipedia.org/wiki/Qajar_art",
@@ -11416,7 +11454,7 @@
         },
         {
           "url": "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300021708",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://www.iranicaonline.org/articles/art-in-iran-v-qajar-1-general/",
@@ -11428,7 +11466,7 @@
         },
         {
           "url": "https://scholarworks.sjsu.edu/etd_theses/3019/",
-          "kind": "reference"
+          "kind": "scholarly"
         }
       ],
       "images": [
@@ -11526,11 +11564,11 @@
       "sources": [
         {
           "url": "https://www.wikidata.org/wiki/Q7272667",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://www.getty.edu/vow/AATFullDisplay?find=&place=&nation=&logic=&note=&role=&subjectid=300107841",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://en.wikipedia.org/wiki/Quito_school",
@@ -11550,11 +11588,11 @@
         },
         {
           "url": "https://fundacionmuseosquito.gob.ec/MDC/Bibliograf%C3%ADa%20Sala%20siglo%20XVI/Pajuelo%20Jonathan-Arte%20de%20la%20Real%20Audiencia%20de%20Quito.pdf",
-          "kind": "reference"
+          "kind": "scholarly"
         },
         {
           "url": "https://www.scielo.org.mx/scielo.php?script=sci_arttext&pid=S0185-12762014000200010",
-          "kind": "reference"
+          "kind": "scholarly"
         },
         {
           "url": "https://cvc.cervantes.es/artes/ciudades_patrimonio/quito/personalidades/goribar.htm",
@@ -11562,15 +11600,15 @@
         },
         {
           "url": "https://whc.unesco.org/en/list/2/",
-          "kind": "reference"
+          "kind": "institutional"
         },
         {
           "url": "https://www.metmuseum.org/art/collection/search/204305",
-          "kind": "reference"
+          "kind": "institutional"
         },
         {
           "url": "https://www.metmuseum.org/art/collection/search/204326",
-          "kind": "reference"
+          "kind": "institutional"
         }
       ],
       "status": "draft",
@@ -11652,7 +11690,7 @@
       "sources": [
         {
           "url": "https://www.wikidata.org/wiki/Q1155700",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://en.wikipedia.org/wiki/Rattanakosin_Kingdom_(1782%E2%80%931932)",
@@ -11668,7 +11706,7 @@
         },
         {
           "url": "https://www.wikidata.org/wiki/Q13013275",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://en.wikipedia.org/wiki/Khrua_In_Khong",
@@ -11676,7 +11714,7 @@
         },
         {
           "url": "https://www.jstor.org/stable/26537575",
-          "kind": "reference"
+          "kind": "scholarly"
         },
         {
           "url": "https://so06.tci-thaijo.org/index.php/pub_jss/article/view/260283",
@@ -11692,7 +11730,7 @@
         },
         {
           "url": "https://www.wikidata.org/wiki/Q1861",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://www.thailandnow.in.th/arts-culture/take-a-closer-look-at-siamese-buddhist-murals/",
@@ -11778,11 +11816,11 @@
       "sources": [
         {
           "url": "https://www.wikidata.org/wiki/Q2642826",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300172861",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://www.britannica.com/art/Realism-art",
@@ -11857,23 +11895,23 @@
       "sources": [
         {
           "url": "https://www.wikidata.org/wiki/Q1404472",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://www.metmuseum.org/essays/anatomy-in-the-renaissance",
-          "kind": "reference"
+          "kind": "institutional"
         },
         {
           "url": "https://82nd-and-fifth.metmuseum.org/toah/ht/08/eustc.html",
-          "kind": "reference"
+          "kind": "institutional"
         },
         {
           "url": "https://www.metmuseum.org/exhibitions/listings/2004/byzantium-faith-and-power",
-          "kind": "reference"
+          "kind": "institutional"
         },
         {
           "url": "https://www.metmuseum.org/press-releases/dazzling-byzantine-treasures-displayed-at-metropolitan-museum-opening-march-23-2004-exhibitions",
-          "kind": "reference"
+          "kind": "institutional"
         }
       ],
       "status": "draft",
@@ -11939,19 +11977,19 @@
       "sources": [
         {
           "url": "https://www.wikidata.org/wiki/Q3179819",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://www.getty.edu/research/tools/vocabularies/aat/",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://jpsearch.go.jp/en/gallery/ndl-JBpERWwDqYZ",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://www.ndl.go.jp/kaleido/entry/20/2.html",
-          "kind": "reference"
+          "kind": "authority"
         }
       ],
       "images": [
@@ -12032,19 +12070,19 @@
       "sources": [
         {
           "url": "https://www.wikidata.org/wiki/Q122960",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300021466",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://www.metmuseum.org/de/essays/american-rococo",
-          "kind": "reference"
+          "kind": "institutional"
         },
         {
           "url": "https://resources.metmuseum.org/resources/metpublications/pdf/Vienna_Circa_1780_An_Imperial_Silver_Service_Rediscovered.pdf",
-          "kind": "reference"
+          "kind": "scholarly"
         }
       ],
       "status": "draft",
@@ -12115,35 +12153,35 @@
       "sources": [
         {
           "url": "https://www.wikidata.org/wiki/Q2366921",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://www.wikidata.org/wiki/Q18234383",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://www.wikidata.org/wiki/Q80053",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://www.wikidata.org/wiki/Q42053",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://www.wikidata.org/wiki/Q334875",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://www.wikidata.org/wiki/Q380726",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://www.wikidata.org/wiki/Q4453623",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300021713",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://en.wikipedia.org/wiki/Safavid_art",
@@ -12167,11 +12205,11 @@
         },
         {
           "url": "https://resources.metmuseum.org/resources/metpublications/pdf/Masterpieces_from_the_Department_of_Islamic_Art_in_The_Metropolitan_Museum_of_Art.pdf",
-          "kind": "reference"
+          "kind": "scholarly"
         },
         {
           "url": "https://www.britishmuseum.org/collection/term/BIOG12024",
-          "kind": "reference"
+          "kind": "institutional"
         },
         {
           "url": "https://en.wikipedia.org/wiki/Mir_Sayyid_Ali",
@@ -12289,11 +12327,11 @@
       "sources": [
         {
           "url": "https://www.wikidata.org/wiki/Q3376676",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://www.getty.edu/vow/AATFullDisplay?find=&place=&nation=&logic=&note=&role=&subjectid=300106504",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://en.wikipedia.org/wiki/Ren_Xiong",
@@ -12337,23 +12375,23 @@
         },
         {
           "url": "https://www.wikidata.org/wiki/Q8686",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://www.metmuseum.org/art/collection/search/49447",
-          "kind": "reference"
+          "kind": "institutional"
         },
         {
           "url": "https://www.metmuseum.org/art/collection/search/37393",
-          "kind": "reference"
+          "kind": "institutional"
         },
         {
           "url": "https://www.artic.edu/artworks/46435",
-          "kind": "reference"
+          "kind": "institutional"
         },
         {
           "url": "https://www.shanghaimuseum.net/mu/frontend/pg/article/id/RI00004055",
-          "kind": "reference"
+          "kind": "institutional"
         }
       ],
       "status": "draft",
@@ -12397,11 +12435,11 @@
       "sources": [
         {
           "url": "https://www.wikidata.org/wiki/Q5933050",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://www.wikidata.org/wiki/Q5811035",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://fa.wikipedia.org/wiki/%D9%85%DA%A9%D8%AA%D8%A8_%D8%B4%DB%8C%D8%B1%D8%A7%D8%B2_%D8%A7%D9%88%D9%84",
@@ -12413,15 +12451,15 @@
         },
         {
           "url": "https://www.metmuseum.org/art/collection/search/448280",
-          "kind": "reference"
+          "kind": "institutional"
         },
         {
           "url": "https://www.metmuseum.org/art/collection/search/451324",
-          "kind": "reference"
+          "kind": "institutional"
         },
         {
           "url": "https://www.metmuseum.org/art/collection/search/451327",
-          "kind": "reference"
+          "kind": "institutional"
         },
         {
           "url": "https://en.wikipedia.org/wiki/Injuids",
@@ -12461,7 +12499,7 @@
         },
         {
           "url": "https://www.wikidata.org/wiki/Q6397066",
-          "kind": "reference"
+          "kind": "authority"
         }
       ],
       "images": [
@@ -12542,11 +12580,11 @@
       "sources": [
         {
           "url": "https://www.metmuseum.org/es/essays/sienese-painting",
-          "kind": "reference"
+          "kind": "institutional"
         },
         {
           "url": "https://www.wikidata.org/wiki/Q1332178",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://en.wikipedia.org/wiki/Sienese_school",
@@ -12582,7 +12620,7 @@
         },
         {
           "url": "https://www.getty.edu/vow/AATServlet",
-          "kind": "reference"
+          "kind": "authority"
         }
       ],
       "status": "draft",
@@ -12671,7 +12709,7 @@
       "sources": [
         {
           "url": "https://www.wikidata.org/wiki/Q11658098",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://zh.wikipedia.org/wiki/%E9%99%A2%E4%BD%93%E7%94%BB",
@@ -12683,11 +12721,11 @@
         },
         {
           "url": "https://www.wikidata.org/wiki/Q1147043",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://www.wikidata.org/wiki/Q208471",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://en.wikipedia.org/wiki/Zhe_school_(painting)",
@@ -12699,11 +12737,11 @@
         },
         {
           "url": "https://www.metmuseum.org/art/collection/search/36005",
-          "kind": "reference"
+          "kind": "institutional"
         },
         {
           "url": "https://www.metmuseum.org/art/collection/search/40086",
-          "kind": "reference"
+          "kind": "institutional"
         }
       ],
       "images": [
@@ -12800,7 +12838,7 @@
       "sources": [
         {
           "url": "https://www.wikidata.org/wiki/Q1150568",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://zh.wikipedia.org/zh-hans/%E6%9D%BE%E6%B1%9F%E7%94%BB%E6%B4%BE",
@@ -12848,19 +12886,19 @@
         },
         {
           "url": "https://www.wikidata.org/wiki/Q537211",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://www.wikidata.org/wiki/Q11665202",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://www.wikidata.org/wiki/Q662380",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://www.shanghaimuseum.net/mu/frontend/pg/m/article/id/RI00004055",
-          "kind": "reference"
+          "kind": "institutional"
         }
       ],
       "images": [
@@ -12959,11 +12997,11 @@
       "sources": [
         {
           "url": "https://www.wikidata.org/wiki/Q191970",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://velikanov.ru/lib/%D0%9C%D0%B0%D0%BB%D0%B5%D0%B2%D0%B8%D1%87.%20%D0%9E%D1%82%20%D0%BA%D1%83%D0%B1%D0%B8%D0%B7%D0%BC%D0%B0%20%D0%BA%20%D1%81%D1%83%D0%BF%D1%80%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%B7%D0%BC%D1%83.pdf",
-          "kind": "reference"
+          "kind": "scholarly"
         },
         {
           "url": "https://www.prlib.ru/item/335766",
@@ -12999,14 +13037,10 @@
         },
         {
           "url": "https://www.artic.edu/artworks/199128",
-          "kind": "reference"
+          "kind": "institutional"
         },
         {
           "url": "https://malevichsociety.org/malevich-biography-a-brief-history/",
-          "kind": "reference"
-        },
-        {
-          "url": "https://malevichsociety.org/writings-by-malevich/",
           "kind": "reference"
         }
       ],
@@ -13080,11 +13114,11 @@
       "sources": [
         {
           "url": "https://www.wikidata.org/wiki/Q39427",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300021512",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://fr.wikipedia.org/wiki/Manifeste_du_surr%C3%A9alisme",
@@ -13096,11 +13130,13 @@
         },
         {
           "url": "https://gallica.bnf.fr/ark:/12148/btv1b525214035",
-          "kind": "reference"
+          "kind": "primary",
+          "note": "URLの資料パスから一次資料と判定"
         },
         {
           "url": "https://archivesetmanuscrits.bnf.fr/ark:/12148/cc125311h",
-          "kind": "reference"
+          "kind": "primary",
+          "note": "URLの資料パスから一次資料と判定"
         },
         {
           "url": "https://www.bnf.fr/fr/1924-annee-surrealiste",
@@ -13183,11 +13219,11 @@
       "sources": [
         {
           "url": "https://www.wikidata.org/wiki/Q164800",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300021514",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://www.britannica.com/art/Symbolism-literary-and-artistic-movement",
@@ -13195,23 +13231,23 @@
         },
         {
           "url": "https://www.metmuseum.org/es/essays/symbolism",
-          "kind": "reference"
+          "kind": "institutional"
         },
         {
           "url": "https://www.moma.org/docs/press_archives/4863/releases/MOMA_1972_0092_82A.pdf",
-          "kind": "reference"
+          "kind": "scholarly"
         },
         {
           "url": "https://www.musee-orsay.fr/en/exhibitions/japanese-affinities-towards-modern-decoration-196090",
-          "kind": "reference"
+          "kind": "institutional"
         },
         {
           "url": "https://www.metmuseum.org/pt/essays/japonisme",
-          "kind": "reference"
+          "kind": "institutional"
         },
         {
           "url": "https://www.smb.museum/fileadmin/website/Presse/Pressematerial/2020/09/BS_Presse_EN_04b_Catalogue-Gleis.pdf",
-          "kind": "reference"
+          "kind": "scholarly"
         }
       ],
       "status": "draft",
@@ -13285,7 +13321,7 @@
       "sources": [
         {
           "url": "https://www.wikidata.org/wiki/Q3108584",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://en.wikipedia.org/wiki/Thanjavur_painting",
@@ -13293,11 +13329,11 @@
         },
         {
           "url": "https://www.wikidata.org/wiki/Q41496",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://www.wikidata.org/wiki/Q3530610",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://en.wikipedia.org/wiki/Serfoji_II",
@@ -13305,7 +13341,7 @@
         },
         {
           "url": "https://www.metmuseum.org/art/collection/search/850685",
-          "kind": "reference"
+          "kind": "institutional"
         },
         {
           "url": "https://imp-art.org/articles/tanjore-painting/",
@@ -13313,7 +13349,7 @@
         },
         {
           "url": "https://www.britishmuseum.org/collection/object/A_2020-3021-1",
-          "kind": "reference"
+          "kind": "institutional"
         },
         {
           "url": "https://en.natmus.dk/historical-knowledge/historical-knowledge-the-world/asia/india/tranquebar/collections-in-the-national-museum-of-denmark/south-indian-company-paintings-c-1770-1850/",
@@ -13321,7 +13357,7 @@
         },
         {
           "url": "https://tnrajbhavantour.tn.gov.in/tnrb-website-archive/Archives/Website1621/PressReleases/2019/PR040419-1.pdf",
-          "kind": "reference"
+          "kind": "scholarly"
         }
       ],
       "images": [
@@ -13407,15 +13443,15 @@
       "sources": [
         {
           "url": "https://www.jpf.go.jp/j/publish/asia_exhibition_history/pdf/17_95_modernism_5.pdf",
-          "kind": "reference"
+          "kind": "scholarly"
         },
         {
           "url": "https://cdn.aaa.org.hk/_source/digital_collection/fedora_extracted/45808.pdf",
-          "kind": "reference"
+          "kind": "scholarly"
         },
         {
           "url": "https://www.wikidata.org/wiki/Q2145607",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://en.wikipedia.org/wiki/Victorio_Edades",
@@ -13498,11 +13534,11 @@
       "sources": [
         {
           "url": "https://www.wikidata.org/wiki/Q2915215",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://www.getty.edu/research/tools/vocabularies/aat/",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://en.wikipedia.org/wiki/Tosa_school",
@@ -13510,27 +13546,27 @@
         },
         {
           "url": "https://www.fujibi.or.jp/collection/artwork-artist/a130/",
-          "kind": "reference"
+          "kind": "institutional"
         },
         {
           "url": "https://www.fujibi.or.jp/collection/artwork-artist/a960/",
-          "kind": "reference"
+          "kind": "institutional"
         },
         {
           "url": "https://www.tobunken.go.jp/materials/ekatudo/808641.html",
-          "kind": "reference"
+          "kind": "institutional"
         },
         {
           "url": "https://www.kyohaku.go.jp/old/eng/theme/floor2_4/past/edo_20160614.html",
-          "kind": "reference"
+          "kind": "institutional"
         },
         {
           "url": "https://www.kyohaku.go.jp/old/jp/theme/floor2_4/f2_4_koremade/kinse_20160614.html",
-          "kind": "reference"
+          "kind": "institutional"
         },
         {
           "url": "https://www.metmuseum.org/art/collection/search/45258",
-          "kind": "reference"
+          "kind": "institutional"
         }
       ],
       "images": [
@@ -13627,11 +13663,11 @@
       "sources": [
         {
           "url": "https://www.wikidata.org/wiki/Q2297646",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&subjectid=300018662",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://en.wikipedia.org/wiki/Utagawa_school",
@@ -13643,7 +13679,7 @@
         },
         {
           "url": "https://kunisada-and-kabuki.fitzmuseum.cam.ac.uk/themes/kunisadas-names",
-          "kind": "reference"
+          "kind": "institutional"
         },
         {
           "url": "https://toshidama.wordpress.com/2018/07/06/the-utagawa-lineage-in-japanese-prints/",
@@ -13651,15 +13687,19 @@
         },
         {
           "url": "https://www.artic.edu/artworks/15804",
-          "kind": "reference"
+          "kind": "institutional"
         },
         {
           "url": "https://www.artic.edu/artworks/24248",
-          "kind": "reference"
+          "kind": "institutional"
         },
         {
           "url": "https://www.artic.edu/artworks/11229",
-          "kind": "reference"
+          "kind": "institutional"
+        },
+        {
+          "url": "https://www.wikidata.org/wiki/Q1490",
+          "kind": "authority"
         }
       ],
       "status": "draft",
@@ -13726,15 +13766,15 @@
       "sources": [
         {
           "url": "https://www.wikidata.org/wiki/Q610687",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://www.wikidata.org/wiki/Q641",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&subjectid=300440789",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://en.wikipedia.org/wiki/Venetian_painting",
@@ -13794,7 +13834,7 @@
         },
         {
           "url": "https://www.academia.edu/37111049/Luigi_Lanzi_e_le_scuole_pittoriche",
-          "kind": "reference"
+          "kind": "institutional"
         },
         {
           "url": "https://www.theartstory.org/movement/venetian-school/",
@@ -13806,11 +13846,11 @@
         },
         {
           "url": "https://www.metmuseum.org/de/essays/venice-in-the-eighteenth-century",
-          "kind": "reference"
+          "kind": "institutional"
         },
         {
           "url": "https://www.metmuseum.org/art/collection/search/459020",
-          "kind": "reference"
+          "kind": "institutional"
         }
       ],
       "status": "draft",
@@ -13891,7 +13931,7 @@
       "sources": [
         {
           "url": "https://www.wikidata.org/wiki/Q558875",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://ja.wikipedia.org/wiki/%E5%91%89%E6%B4%BE",
@@ -13907,11 +13947,11 @@
         },
         {
           "url": "https://www.wikidata.org/wiki/Q558863",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://www.wikidata.org/wiki/Q42622",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://zh.wikipedia.org/wiki/%E6%96%87%E5%BE%B5%E6%98%8E",
@@ -13994,11 +14034,11 @@
       "sources": [
         {
           "url": "https://www.wikidata.org/wiki/Q597365",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://www.getty.edu/vow/AATFullDisplay?find=Yamato-e&logic=AND&note=&english=Y&subjectid=300018589",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://ja.wikipedia.org/wiki/大和絵",
@@ -14010,19 +14050,15 @@
         },
         {
           "url": "https://www.metmuseum.org/ja/essays/yamato-e-painting",
-          "kind": "reference"
+          "kind": "institutional"
         },
         {
           "url": "https://www.metmuseum.org/art/collection/search/45428",
-          "kind": "reference"
+          "kind": "institutional"
         },
         {
           "url": "https://www.tnm.jp/modules/r_free_page/index.php?id=570&lang=en",
-          "kind": "reference"
-        },
-        {
-          "url": "https://www.metmuseum.org/art/collection/search/45428",
-          "kind": "reference"
+          "kind": "institutional"
         }
       ],
       "images": [
@@ -14113,7 +14149,7 @@
       "sources": [
         {
           "url": "https://www.wikidata.org/wiki/Q340808",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://ja.wikipedia.org/wiki/%E6%8F%9A%E5%B7%9E%E5%85%AB%E6%80%AA",
@@ -14129,15 +14165,15 @@
         },
         {
           "url": "https://www.wikidata.org/wiki/Q3206010",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://www.wikidata.org/wiki/Q32019",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://www.wikidata.org/wiki/Q710049",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://en.wikipedia.org/wiki/Qianlong_Emperor",
@@ -14145,23 +14181,23 @@
         },
         {
           "url": "https://www.artic.edu/artworks/80510",
-          "kind": "reference"
+          "kind": "institutional"
         },
         {
           "url": "https://www.metmuseum.org/art/collection/search/52946",
-          "kind": "reference"
+          "kind": "institutional"
         },
         {
           "url": "https://www.metmuseum.org/art/collection/search/51894",
-          "kind": "reference"
+          "kind": "institutional"
         },
         {
           "url": "https://www.tnm.jp/modules/r_exhibition/index.php?controller=item&id=5882&lang=en",
-          "kind": "reference"
+          "kind": "institutional"
         },
         {
           "url": "https://www.metmuseum.org/pt/essays/the-qing-dynasty-1644-1911-the-courtiers-officials-and-professional-artists",
-          "kind": "reference"
+          "kind": "institutional"
         },
         {
           "url": "https://www.dejiart.com/en/exhibition/yudetangcangyangzhoubaguaijingpinzhan/",
@@ -14169,7 +14205,7 @@
         },
         {
           "url": "https://api.artic.edu/api/v1/artworks/80510",
-          "kind": "reference"
+          "kind": "institutional"
         }
       ],
       "images": [
@@ -14274,15 +14310,15 @@
         },
         {
           "url": "https://www.wikidata.org/wiki/Q735871",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://www.wikidata.org/wiki/Q1473851",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://www.wikidata.org/wiki/Q7857142",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://encyclopediaofbuddhism.org/wiki/Zanabazar",
@@ -14318,7 +14354,7 @@
         },
         {
           "url": "https://api.artic.edu/api/v1/artworks/158101",
-          "kind": "reference"
+          "kind": "institutional"
         }
       ],
       "images": [
@@ -14399,7 +14435,7 @@
       "sources": [
         {
           "url": "https://www.wikidata.org/wiki/Q98912326",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://en.wikipedia.org/wiki/Zaria_Art_Society",
@@ -14419,7 +14455,7 @@
         },
         {
           "url": "https://www.si.edu/object/zaria-art-society%3Asiris_sil_504883",
-          "kind": "reference"
+          "kind": "institutional"
         },
         {
           "url": "https://artop.bmth.ac.uk/legacies-of-the-zaria-rebels.html",
@@ -14427,7 +14463,7 @@
         },
         {
           "url": "https://www.rem.routledge.com/articles/zaria-art-society-the",
-          "kind": "reference"
+          "kind": "scholarly"
         },
         {
           "url": "https://high.org/sites/onobrakpeya/",
@@ -14435,7 +14471,7 @@
         },
         {
           "url": "https://www.si.edu/object/nationalism-and-rhetoric-modernism-nigeria-art-uche-okeke-and-demas-nwoko-1960-1968-chika-okeke-agulu%3Asiris_sil_898257",
-          "kind": "reference"
+          "kind": "institutional"
         }
       ],
       "status": "draft",
@@ -14497,7 +14533,7 @@
       "sources": [
         {
           "url": "https://www.wikidata.org/wiki/Q1150941",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://ja.wikipedia.org/wiki/%E6%B5%99%E6%B4%BE",
@@ -14509,11 +14545,11 @@
         },
         {
           "url": "https://www.wikidata.org/wiki/Q741512",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://www.wikidata.org/wiki/Q537211",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://www.hkpm.org.hk/en/visit/audio-guide/g4-stories-untold",

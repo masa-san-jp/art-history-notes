@@ -26,23 +26,40 @@ space:
   - {role: originated_in, target: place/shiraz}
 relations: []
 sources:
-  - https://www.wikidata.org/wiki/Q5933050
-  - https://www.wikidata.org/wiki/Q5811035
-  - https://fa.wikipedia.org/wiki/%D9%85%DA%A9%D8%AA%D8%A8_%D8%B4%DB%8C%D8%B1%D8%A7%D8%B2_%D8%A7%D9%88%D9%84
-  - https://fa.wikipedia.org/wiki/%D9%85%DA%A9%D8%AA%D8%A8_%D8%B4%DB%8C%D8%B1%D8%A7%D8%B2_%D8%AF%D9%88%D9%85
-  - https://www.metmuseum.org/art/collection/search/448280
-  - https://www.metmuseum.org/art/collection/search/451324
-  - https://www.metmuseum.org/art/collection/search/451327
-  - https://en.wikipedia.org/wiki/Injuids
-  - https://en.wikipedia.org/wiki/Abu_Ishaq_Inju
-  - https://en.wikipedia.org/wiki/Muzaffarids_(Iran)
-  - https://en.wikipedia.org/wiki/Iskandar_Sultan
-  - https://en.wikipedia.org/wiki/Ibrahim_Sultan_ibn_Shahrukh
-  - https://en.wikipedia.org/wiki/Timeline_of_Shiraz
-  - https://en.wikipedia.org/wiki/Persian_miniature
-  - https://www.britannica.com/art/Shiraz-school
-  - https://www.iranicaonline.org/articles/art-in-iran-vii-islamic-pre-safavid/
-  - https://www.wikidata.org/wiki/Q6397066
+  - url: "https://www.wikidata.org/wiki/Q5933050"
+    kind: authority
+  - url: "https://www.wikidata.org/wiki/Q5811035"
+    kind: authority
+  - url: "https://fa.wikipedia.org/wiki/%D9%85%DA%A9%D8%AA%D8%A8_%D8%B4%DB%8C%D8%B1%D8%A7%D8%B2_%D8%A7%D9%88%D9%84"
+    kind: reference
+  - url: "https://fa.wikipedia.org/wiki/%D9%85%DA%A9%D8%AA%D8%A8_%D8%B4%DB%8C%D8%B1%D8%A7%D8%B2_%D8%AF%D9%88%D9%85"
+    kind: reference
+  - url: "https://www.metmuseum.org/art/collection/search/448280"
+    kind: institutional
+  - url: "https://www.metmuseum.org/art/collection/search/451324"
+    kind: institutional
+  - url: "https://www.metmuseum.org/art/collection/search/451327"
+    kind: institutional
+  - url: "https://en.wikipedia.org/wiki/Injuids"
+    kind: reference
+  - url: "https://en.wikipedia.org/wiki/Abu_Ishaq_Inju"
+    kind: reference
+  - url: "https://en.wikipedia.org/wiki/Muzaffarids_(Iran)"
+    kind: reference
+  - url: "https://en.wikipedia.org/wiki/Iskandar_Sultan"
+    kind: reference
+  - url: "https://en.wikipedia.org/wiki/Ibrahim_Sultan_ibn_Shahrukh"
+    kind: reference
+  - url: "https://en.wikipedia.org/wiki/Timeline_of_Shiraz"
+    kind: reference
+  - url: "https://en.wikipedia.org/wiki/Persian_miniature"
+    kind: reference
+  - url: "https://www.britannica.com/art/Shiraz-school"
+    kind: reference
+  - url: "https://www.iranicaonline.org/articles/art-in-iran-vii-islamic-pre-safavid/"
+    kind: reference
+  - url: "https://www.wikidata.org/wiki/Q6397066"
+    kind: authority
 images:
   - url: https://images.metmuseum.org/CRDImages/is/original/DT214817.jpg
     source_page: https://www.metmuseum.org/art/collection/search/448280

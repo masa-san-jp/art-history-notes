@@ -35,20 +35,34 @@ relations:
   - {type: created_by, target: person/kamel-el-telmissany}
   - {type: created_by, target: person/ramses-younan}
 sources:
-  - https://www.wikidata.org/wiki/Q65080389
-  - https://en.wikipedia.org/wiki/Art_et_Libert%C3%A9
-  - https://www.tate.org.uk/tate-etc/issue-41-autumn-2017/surrealism-egypt-long-live-degenerate-art-clare-davies
-  - https://www.tate.org.uk/whats-on/tate-liverpool/surrealism-egypt-art-et-liberte-1938-1948
-  - https://www.tate.org.uk/press/press-releases/surrealism-egypt-art-et-liberte-1938-1948
-  - https://www.centrepompidou.fr/en/program/calendar/event/ce5nBKj
-  - https://libcom.org/article/vive-lart-degenere
-  - https://universes.art/en/nafas/articles/2016/egyptian-surrealists
-  - https://www.nybooks.com/online/2018/02/03/art-et-liberte-egypts-surrealists/
-  - https://www.moma.org/interactives/exhibitions/2009/futurism/
-  - https://www.sothebys.com/en/articles/the-birth-of-art-and-liberty-egypts-surrealist-art-movement
-  - https://en.wikipedia.org/wiki/Georges_Henein
-  - https://en.wikipedia.org/wiki/Kamel_el-Telmissany
-  - https://en.wikipedia.org/wiki/Ramses_Younan
+  - url: "https://www.wikidata.org/wiki/Q65080389"
+    kind: authority
+  - url: "https://en.wikipedia.org/wiki/Art_et_Libert%C3%A9"
+    kind: reference
+  - url: "https://www.tate.org.uk/tate-etc/issue-41-autumn-2017/surrealism-egypt-long-live-degenerate-art-clare-davies"
+    kind: institutional
+  - url: "https://www.tate.org.uk/whats-on/tate-liverpool/surrealism-egypt-art-et-liberte-1938-1948"
+    kind: institutional
+  - url: "https://www.tate.org.uk/press/press-releases/surrealism-egypt-art-et-liberte-1938-1948"
+    kind: institutional
+  - url: "https://www.centrepompidou.fr/en/program/calendar/event/ce5nBKj"
+    kind: reference
+  - url: "https://libcom.org/article/vive-lart-degenere"
+    kind: reference
+  - url: "https://universes.art/en/nafas/articles/2016/egyptian-surrealists"
+    kind: reference
+  - url: "https://www.nybooks.com/online/2018/02/03/art-et-liberte-egypts-surrealists/"
+    kind: reference
+  - url: "https://www.moma.org/interactives/exhibitions/2009/futurism/"
+    kind: institutional
+  - url: "https://www.sothebys.com/en/articles/the-birth-of-art-and-liberty-egypts-surrealist-art-movement"
+    kind: reference
+  - url: "https://en.wikipedia.org/wiki/Georges_Henein"
+    kind: reference
+  - url: "https://en.wikipedia.org/wiki/Kamel_el-Telmissany"
+    kind: reference
+  - url: "https://en.wikipedia.org/wiki/Ramses_Younan"
+    kind: reference
 status: draft
 updated: 2026-08-10
 ---

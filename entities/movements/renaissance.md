@@ -31,11 +31,16 @@ relations:
   - {type: influenced_by, target: movement/byzantine-art, certainty: scholarly, source: "https://www.metmuseum.org/exhibitions/listings/2004/byzantium-faith-and-power"}
   - {type: precedes, target: movement/baroque}
 sources:
-  - https://www.wikidata.org/wiki/Q1404472
-  - https://www.metmuseum.org/essays/anatomy-in-the-renaissance
-  - https://82nd-and-fifth.metmuseum.org/toah/ht/08/eustc.html
-  - https://www.metmuseum.org/exhibitions/listings/2004/byzantium-faith-and-power
-  - https://www.metmuseum.org/press-releases/dazzling-byzantine-treasures-displayed-at-metropolitan-museum-opening-march-23-2004-exhibitions
+  - url: "https://www.wikidata.org/wiki/Q1404472"
+    kind: authority
+  - url: "https://www.metmuseum.org/essays/anatomy-in-the-renaissance"
+    kind: institutional
+  - url: "https://82nd-and-fifth.metmuseum.org/toah/ht/08/eustc.html"
+    kind: institutional
+  - url: "https://www.metmuseum.org/exhibitions/listings/2004/byzantium-faith-and-power"
+    kind: institutional
+  - url: "https://www.metmuseum.org/press-releases/dazzling-byzantine-treasures-displayed-at-metropolitan-museum-opening-march-23-2004-exhibitions"
+    kind: institutional
 status: draft
 updated: 2026-08-12
 ---

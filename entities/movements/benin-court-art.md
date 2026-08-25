@@ -32,14 +32,24 @@ relations:
   - {type: influenced_by, target: movement/ife-art, certainty: hypothesis, source: "https://www.metmuseum.org/fr/essays/origins-and-empire-the-benin-owo-and-ijebu-kingdoms"}
   - {type: diffused_to, target: place/london, certainty: scholarly, source: "https://www.britishmuseum.org/about-us/british-museum-story/contested-objects-collection/benin-bronzes"}
 sources:
-  - https://www.wikidata.org/wiki/Q4888026
-  - https://www.wikidata.org/wiki/Q111731632
-  - https://www.wikidata.org/wiki/Q171203
-  - https://www.wikidata.org/wiki/Q123180104
-  - https://www.penn.museum/sites/expedition/the-art-of-benin/
-  - https://en.wikipedia.org/wiki/Igun_Street
-  - https://historicalnigeria.com/benin-bronze-casting-art-power-and-continuity-in-edo-history/
-  - https://www.britishmuseum.org/about-us/british-museum-story/contested-objects-collection/benin-bronzes
+  - url: "https://www.wikidata.org/wiki/Q4888026"
+    kind: authority
+  - url: "https://www.wikidata.org/wiki/Q111731632"
+    kind: authority
+  - url: "https://www.wikidata.org/wiki/Q171203"
+    kind: authority
+  - url: "https://www.wikidata.org/wiki/Q123180104"
+    kind: authority
+  - url: "https://www.penn.museum/sites/expedition/the-art-of-benin/"
+    kind: institutional
+  - url: "https://en.wikipedia.org/wiki/Igun_Street"
+    kind: reference
+  - url: "https://historicalnigeria.com/benin-bronze-casting-art-power-and-continuity-in-edo-history/"
+    kind: reference
+  - url: "https://www.britishmuseum.org/about-us/british-museum-story/contested-objects-collection/benin-bronzes"
+    kind: institutional
+  - url: "https://www.metmuseum.org/fr/essays/origins-and-empire-the-benin-owo-and-ijebu-kingdoms"
+    kind: institutional
 images:
   - url: https://www.artic.edu/iiif/2/fc361495-826f-3ef9-32d3-da3eac34c34a/full/843,/0/default.jpg
     source_page: https://www.artic.edu/artworks/15457

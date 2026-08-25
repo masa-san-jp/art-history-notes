@@ -30,10 +30,14 @@ space:
 relations:
   - {type: influenced_by, target: movement/symbolism, certainty: scholarly, source: "https://www.moma.org/documents/moma_catalogue_1702_300298262.pdf"}
 sources:
-  - https://www.wikidata.org/wiki/Q80113
-  - https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300021502
-  - https://www.moma.org/collection/terms/expressionism
-  - https://www.moma.org/documents/moma_catalogue_1702_300298262.pdf
+  - url: "https://www.wikidata.org/wiki/Q80113"
+    kind: authority
+  - url: "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300021502"
+    kind: authority
+  - url: "https://www.moma.org/collection/terms/expressionism"
+    kind: institutional
+  - url: "https://www.moma.org/documents/moma_catalogue_1702_300298262.pdf"
+    kind: scholarly
 status: draft
 updated: 2026-08-12
 ---

@@ -32,19 +32,32 @@ space:
 relations:
   - {type: influenced_by, target: movement/song-academy-painting, certainty: scholarly, source: "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART001609622"}
 sources:
-  - https://www.wikidata.org/wiki/Q12584160
-  - https://en.wikipedia.org/wiki/Goryeo_Buddhist_paintings
-  - https://ko.wikipedia.org/wiki/%EA%B3%A0%EB%A0%A4%EB%B6%88%ED%99%94
-  - https://contents.history.go.kr/mobile/kc/view.do?levelId=kc_r200090&code=kc_age_20
-  - https://contents.history.go.kr/mobile/eh/view.do?levelId=eh_r0182_0010&code=eh_age_20
-  - https://www.ijkaa.org/v.4/0/30/89
-  - https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART001609622
-  - https://publications.asia.si.edu/goryeo/en/essay-wilson-goryeo-buddhist-paintings.php
-  - https://publications.asia.si.edu/goryeo/ko/essay-park-materials-techniques-mounts.php
-  - https://ko.wikipedia.org/wiki/%EC%88%98%EC%9B%94%EA%B4%80%EC%9D%8C%EB%8F%84_(%EB%B3%B4%EB%AC%BC_%EC%A0%9C1426%ED%98%B8)
-  - https://encykorea.aks.ac.kr/Article/E0015928
-  - https://www.metmuseum.org/art/collection/search/36029
-  - https://www.metmuseum.org/art/collection/search/39882
+  - url: "https://www.wikidata.org/wiki/Q12584160"
+    kind: authority
+  - url: "https://en.wikipedia.org/wiki/Goryeo_Buddhist_paintings"
+    kind: reference
+  - url: "https://ko.wikipedia.org/wiki/%EA%B3%A0%EB%A0%A4%EB%B6%88%ED%99%94"
+    kind: reference
+  - url: "https://contents.history.go.kr/mobile/kc/view.do?levelId=kc_r200090&code=kc_age_20"
+    kind: reference
+  - url: "https://contents.history.go.kr/mobile/eh/view.do?levelId=eh_r0182_0010&code=eh_age_20"
+    kind: reference
+  - url: "https://www.ijkaa.org/v.4/0/30/89"
+    kind: reference
+  - url: "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART001609622"
+    kind: scholarly
+  - url: "https://publications.asia.si.edu/goryeo/en/essay-wilson-goryeo-buddhist-paintings.php"
+    kind: institutional
+  - url: "https://publications.asia.si.edu/goryeo/ko/essay-park-materials-techniques-mounts.php"
+    kind: institutional
+  - url: "https://ko.wikipedia.org/wiki/%EC%88%98%EC%9B%94%EA%B4%80%EC%9D%8C%EB%8F%84_(%EB%B3%B4%EB%AC%BC_%EC%A0%9C1426%ED%98%B8)"
+    kind: reference
+  - url: "https://encykorea.aks.ac.kr/Article/E0015928"
+    kind: institutional
+  - url: "https://www.metmuseum.org/art/collection/search/36029"
+    kind: institutional
+  - url: "https://www.metmuseum.org/art/collection/search/39882"
+    kind: institutional
 images:
   - url: https://images.metmuseum.org/CRDImages/as/original/DP-15580-002.jpg
     source_page: https://www.metmuseum.org/art/collection/search/36029

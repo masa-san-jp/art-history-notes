@@ -29,9 +29,12 @@ space:
   - {role: originated_in, target: place/rome}
 relations: []
 sources:
-  - https://www.wikidata.org/wiki/Q37853
-  - https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300021147
-  - https://www.metmuseum.org/ko/essays/baroque-rome
+  - url: "https://www.wikidata.org/wiki/Q37853"
+    kind: authority
+  - url: "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300021147"
+    kind: authority
+  - url: "https://www.metmuseum.org/ko/essays/baroque-rome"
+    kind: institutional
 status: draft
 updated: 2026-08-12
 ---

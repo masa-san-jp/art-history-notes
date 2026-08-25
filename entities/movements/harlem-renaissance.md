@@ -39,17 +39,30 @@ images:
     license: cc0
     note: "ウィノルド・ライス《W・E・B・デュボイス》1925年、パステル画（原画。『The New Negro』のために制作された肖像連作の一つ）。国立肖像画美術館（スミソニアン協会）所蔵、NPG.72.79。Smithsonian Open Access APIでobjectRights=CC0を確認"
 sources:
-  - https://www.wikidata.org/wiki/Q829895
-  - https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300121558
-  - https://archive.org/details/newnegrointerpre00unse
-  - https://archive.org/download/newnegrointerpre00unse/newnegrointerpre00unse_djvu.txt
-  - https://en.wikipedia.org/wiki/Harlem_Renaissance
-  - https://en.wikipedia.org/wiki/New_Negro
-  - https://en.wikipedia.org/wiki/Charlotte_Osgood_Mason
-  - https://npg.si.edu/object/npg_NPG.98.129.a
-  - https://npg.si.edu/object/npg_NPG.72.79
-  - https://www.jstor.org/stable/i40051482
-  - https://www.nationalgeographic.com/history/article/harlem-renaissance-dinner
+  - url: "https://www.wikidata.org/wiki/Q829895"
+    kind: authority
+  - url: "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300121558"
+    kind: authority
+  - url: "https://archive.org/details/newnegrointerpre00unse"
+    kind: primary
+    note: "URLの資料パスから一次資料と判定"
+  - url: "https://archive.org/download/newnegrointerpre00unse/newnegrointerpre00unse_djvu.txt"
+    kind: primary
+    note: "URLの資料パスから一次資料と判定"
+  - url: "https://en.wikipedia.org/wiki/Harlem_Renaissance"
+    kind: reference
+  - url: "https://en.wikipedia.org/wiki/New_Negro"
+    kind: reference
+  - url: "https://en.wikipedia.org/wiki/Charlotte_Osgood_Mason"
+    kind: reference
+  - url: "https://npg.si.edu/object/npg_NPG.98.129.a"
+    kind: institutional
+  - url: "https://npg.si.edu/object/npg_NPG.72.79"
+    kind: institutional
+  - url: "https://www.jstor.org/stable/i40051482"
+    kind: scholarly
+  - url: "https://www.nationalgeographic.com/history/article/harlem-renaissance-dinner"
+    kind: reference
 status: draft
 updated: 2026-08-09
 ---

@@ -39,15 +39,26 @@ images:
     license: public-domain
     note: "1926年、デッサウの校舎屋上に立つバウハウスの教員たちを写した匿名写真。Commonsのファイルページでパブリックドメインと確認できる"
 sources:
-  - https://www.wikidata.org/wiki/Q124354
-  - https://www.getty.edu/vow/ULANFullDisplay?find=Gaudez&nation=&page=1&role=&subjectid=500125058
-  - https://www.bauhaus.de/en/about-us/
-  - https://www.bauhaus.de/en/discover/article/14-years-of-bauhaus/
-  - https://www.moma.org/documents/moma_catalogue_1733_300062754.pdf
-  - https://www.bauhaus.de/en/discover/article/idea-and-programme/
-  - https://www.moma.org/collection/terms/bauhaus
-  - https://www.moma.org/collection/terms/arts-and-crafts-movement
-  - https://commons.wikimedia.org/wiki/File:Anonymous_photograph_of_Bauhaus_masters_on_the_roof_of_the_studio_building,_Bauhaus_Dessau.jpg
+  - url: "https://www.wikidata.org/wiki/Q124354"
+    kind: authority
+  - url: "https://www.getty.edu/vow/ULANFullDisplay?find=Gaudez&nation=&page=1&role=&subjectid=500125058"
+    kind: authority
+  - url: "https://www.bauhaus.de/en/about-us/"
+    kind: reference
+  - url: "https://www.bauhaus.de/en/discover/article/14-years-of-bauhaus/"
+    kind: reference
+  - url: "https://www.moma.org/documents/moma_catalogue_1733_300062754.pdf"
+    kind: scholarly
+  - url: "https://www.bauhaus.de/en/discover/article/idea-and-programme/"
+    kind: reference
+  - url: "https://www.moma.org/collection/terms/bauhaus"
+    kind: institutional
+  - url: "https://www.moma.org/collection/terms/arts-and-crafts-movement"
+    kind: institutional
+  - url: "https://commons.wikimedia.org/wiki/File:Anonymous_photograph_of_Bauhaus_masters_on_the_roof_of_the_studio_building,_Bauhaus_Dessau.jpg"
+    kind: reference
+  - url: "https://www.moma.org/documents/moma_catalogue_1798_300159061.pdf"
+    kind: scholarly
 status: draft
 updated: 2026-08-13
 ---

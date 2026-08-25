@@ -30,17 +30,28 @@ space:
 relations:
   - {type: influenced_by, target: movement/byzantine-art, certainty: scholarly, source: "https://www.metmuseum.org/es/essays/sienese-painting"}
 sources:
-  - https://www.metmuseum.org/es/essays/sienese-painting
-  - https://www.wikidata.org/wiki/Q1332178
-  - https://en.wikipedia.org/wiki/Sienese_school
-  - https://en.wikipedia.org/wiki/Duccio
-  - https://en.wikipedia.org/wiki/Simone_Martini
-  - https://www.wga.hu/tours/siena/simone.html
-  - https://www.nybooks.com/articles/2010/10/14/fierce-emotions-siena/
-  - https://www.nybooks.com/articles/2025/02/13/a-half-century-of-artistic-genius-siena-the-rise-of-painting/
-  - https://brooklynrail.org/2024/12/artseen/siena-the-rise-of-painting-1300-1350/
-  - http://www.caareviews.org/reviews/662
-  - https://www.getty.edu/vow/AATServlet
+  - url: "https://www.metmuseum.org/es/essays/sienese-painting"
+    kind: institutional
+  - url: "https://www.wikidata.org/wiki/Q1332178"
+    kind: authority
+  - url: "https://en.wikipedia.org/wiki/Sienese_school"
+    kind: reference
+  - url: "https://en.wikipedia.org/wiki/Duccio"
+    kind: reference
+  - url: "https://en.wikipedia.org/wiki/Simone_Martini"
+    kind: reference
+  - url: "https://www.wga.hu/tours/siena/simone.html"
+    kind: reference
+  - url: "https://www.nybooks.com/articles/2010/10/14/fierce-emotions-siena/"
+    kind: reference
+  - url: "https://www.nybooks.com/articles/2025/02/13/a-half-century-of-artistic-genius-siena-the-rise-of-painting/"
+    kind: reference
+  - url: "https://brooklynrail.org/2024/12/artseen/siena-the-rise-of-painting-1300-1350/"
+    kind: reference
+  - url: "http://www.caareviews.org/reviews/662"
+    kind: reference
+  - url: "https://www.getty.edu/vow/AATServlet"
+    kind: authority
 status: draft
 updated: 2026-08-09
 images:

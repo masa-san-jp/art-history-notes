@@ -34,19 +34,32 @@ relations:
   - {type: influenced_by, target: movement/four-wangs, certainty: scholarly, source: "https://theme.npm.edu.tw/exh107/NewEra/jp/page-4.html"}
   - {type: influenced_by, target: movement/shanghai-school, certainty: scholarly, source: "https://theme.npm.edu.tw/exh107/NewEra/en/page-4.html"}
 sources:
-  - https://ja.wikipedia.org/wiki/南画
-  - https://ja.wikipedia.org/wiki/文人画
-  - https://en.wikipedia.org/wiki/Nanga_(art)
-  - https://www.wikidata.org/wiki/Q2928221
-  - https://jpsearch.go.jp/en/gallery/ndl-D6xwaWpaGKiEYVp
-  - https://www.kyohaku.go.jp/old/eng/theme/floor2_4/past/kinse_20170221.html
-  - https://eaa.fas.harvard.edu/museum/nanga-painting-feinberg-collection
-  - https://www.kyohaku.go.jp/jp/learn/home/yomimono_data/0071/
-  - https://theme.npm.edu.tw/exh107/NewEra/jp/page-4.html
-  - https://theme.npm.edu.tw/exh107/NewEra/en/page-4.html
-  - https://www.metmuseum.org/art/collection/search/671023
-  - https://www.artic.edu/artworks/185222
-  - https://www.metmuseum.org/exhibitions/listings/2003/great-waves
+  - url: "https://ja.wikipedia.org/wiki/南画"
+    kind: reference
+  - url: "https://ja.wikipedia.org/wiki/文人画"
+    kind: reference
+  - url: "https://en.wikipedia.org/wiki/Nanga_(art)"
+    kind: reference
+  - url: "https://www.wikidata.org/wiki/Q2928221"
+    kind: authority
+  - url: "https://jpsearch.go.jp/en/gallery/ndl-D6xwaWpaGKiEYVp"
+    kind: authority
+  - url: "https://www.kyohaku.go.jp/old/eng/theme/floor2_4/past/kinse_20170221.html"
+    kind: institutional
+  - url: "https://eaa.fas.harvard.edu/museum/nanga-painting-feinberg-collection"
+    kind: institutional
+  - url: "https://www.kyohaku.go.jp/jp/learn/home/yomimono_data/0071/"
+    kind: institutional
+  - url: "https://theme.npm.edu.tw/exh107/NewEra/jp/page-4.html"
+    kind: institutional
+  - url: "https://theme.npm.edu.tw/exh107/NewEra/en/page-4.html"
+    kind: institutional
+  - url: "https://www.metmuseum.org/art/collection/search/671023"
+    kind: institutional
+  - url: "https://www.artic.edu/artworks/185222"
+    kind: institutional
+  - url: "https://www.metmuseum.org/exhibitions/listings/2003/great-waves"
+    kind: institutional
 images:
   - url: https://www.artic.edu/iiif/2/637a65fa-a6f2-8a9f-a6f4-98fcffe2ec92/full/843,/0/default.jpg
     source_page: https://www.artic.edu/artworks/185222

@@ -26,18 +26,30 @@ space:
   - {role: originated_in, target: place/kamasan}
 relations: []
 sources:
-  - https://www.wikidata.org/wiki/Q6356113
-  - https://en.wikipedia.org/wiki/Kamasan
-  - https://en.wikipedia.org/wiki/Mangku_Muriati
-  - https://artsofbali.com/kamasan-painting-bali/
-  - https://wovensouls.com/pages/wovensouls-guide-where-can-one-see-kamasan-paintings
-  - https://www.endlessjoy.co.uk/journal/kamasan-painting
-  - http://balitourismjournal.org/ojs/index.php/btj/article/view/74
-  - https://www.kk-advocates.com/news/read/balinese-kamasan-classical-paintings-registered-as-a-geographical-indication-product
-  - https://e-museum.klungkungkab.go.id/history-of-klungkung/
-  - https://www.michaelbackmanltd.com/archived_objects/balinese-temple-textile-ider-ider/
-  - https://balitra.com/en/cultures/bali-painting
-  - https://journal.binus.ac.id/index.php/Humaniora/article/view/3599
+  - url: "https://www.wikidata.org/wiki/Q6356113"
+    kind: authority
+  - url: "https://en.wikipedia.org/wiki/Kamasan"
+    kind: reference
+  - url: "https://en.wikipedia.org/wiki/Mangku_Muriati"
+    kind: reference
+  - url: "https://artsofbali.com/kamasan-painting-bali/"
+    kind: reference
+  - url: "https://wovensouls.com/pages/wovensouls-guide-where-can-one-see-kamasan-paintings"
+    kind: reference
+  - url: "https://www.endlessjoy.co.uk/journal/kamasan-painting"
+    kind: reference
+  - url: "http://balitourismjournal.org/ojs/index.php/btj/article/view/74"
+    kind: scholarly
+  - url: "https://www.kk-advocates.com/news/read/balinese-kamasan-classical-paintings-registered-as-a-geographical-indication-product"
+    kind: reference
+  - url: "https://e-museum.klungkungkab.go.id/history-of-klungkung/"
+    kind: institutional
+  - url: "https://www.michaelbackmanltd.com/archived_objects/balinese-temple-textile-ider-ider/"
+    kind: reference
+  - url: "https://balitra.com/en/cultures/bali-painting"
+    kind: reference
+  - url: "https://journal.binus.ac.id/index.php/Humaniora/article/view/3599"
+    kind: scholarly
 status: draft
 updated: 2026-08-10
 ---

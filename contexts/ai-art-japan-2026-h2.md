@@ -83,11 +83,16 @@ signals:
     source: https://www.genai-expo.com/
     note: 主催者が示す参加構造であり、参加者同士の継続的ネットワークを実証しない
 sources:
-  - https://www.aiartgrandprix.com/
-  - https://art-marche.jp/exhibitors/ai-art-meets-art-fair/
-  - https://www.genai-expo.com/
-  - https://www.aifestival.jp/market/entry-2026
-  - https://www.bunka.go.jp/seisaku/chosakuken/aiandcopyright.html
+  - url: "https://www.aiartgrandprix.com/"
+    kind: reference
+  - url: "https://art-marche.jp/exhibitors/ai-art-meets-art-fair/"
+    kind: reference
+  - url: "https://www.genai-expo.com/"
+    kind: reference
+  - url: "https://www.aifestival.jp/market/entry-2026"
+    kind: reference
+  - url: "https://www.bunka.go.jp/seisaku/chosakuken/aiandcopyright.html"
+    kind: institutional
 status: draft
 updated: 2026-08-10
 ---

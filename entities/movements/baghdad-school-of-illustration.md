@@ -30,21 +30,36 @@ space:
 relations:
   - {type: influenced_by, target: movement/byzantine-art, certainty: scholarly, source: "https://www.metmuseum.org/met-publications/masterpieces-from-the-department-of-islamic-art-in-the-metropolitan-museum-of-art"}
 sources:
-  - https://www.metmuseum.org/met-publications/masterpieces-from-the-department-of-islamic-art-in-the-metropolitan-museum-of-art
-  - https://www.wikidata.org/wiki/Q17001345
-  - https://www.wikidata.org/wiki/Q1530
-  - https://www.wikidata.org/wiki/Q472751
-  - https://www.wikidata.org/wiki/Q125350260
-  - https://en.wikipedia.org/wiki/Baghdad_School
-  - https://en.wikipedia.org/wiki/Maqamat_al-Hariri
-  - https://en.wikipedia.org/wiki/Yahya_ibn_Mahmud_al-Wasiti
-  - https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300021542
-  - https://www.metmuseum.org/art/collection/search/446288
-  - https://www.metmuseum.org/art/collection/search/451332
-  - https://publicdomainreview.org/collection/maqamat/
-  - https://www.academia.edu/37869572/History_Regained_a_Modern_Artist_in_Baghdad_Encounters_a_Lost_Tradition_of_Painting
-  - https://www.britannica.com/art/Baghdad-school
-  - https://www.britannica.com/art/Jalayirid-school
+  - url: "https://www.metmuseum.org/met-publications/masterpieces-from-the-department-of-islamic-art-in-the-metropolitan-museum-of-art"
+    kind: institutional
+  - url: "https://www.wikidata.org/wiki/Q17001345"
+    kind: authority
+  - url: "https://www.wikidata.org/wiki/Q1530"
+    kind: authority
+  - url: "https://www.wikidata.org/wiki/Q472751"
+    kind: authority
+  - url: "https://www.wikidata.org/wiki/Q125350260"
+    kind: authority
+  - url: "https://en.wikipedia.org/wiki/Baghdad_School"
+    kind: reference
+  - url: "https://en.wikipedia.org/wiki/Maqamat_al-Hariri"
+    kind: reference
+  - url: "https://en.wikipedia.org/wiki/Yahya_ibn_Mahmud_al-Wasiti"
+    kind: reference
+  - url: "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300021542"
+    kind: authority
+  - url: "https://www.metmuseum.org/art/collection/search/446288"
+    kind: institutional
+  - url: "https://www.metmuseum.org/art/collection/search/451332"
+    kind: institutional
+  - url: "https://publicdomainreview.org/collection/maqamat/"
+    kind: reference
+  - url: "https://www.academia.edu/37869572/History_Regained_a_Modern_Artist_in_Baghdad_Encounters_a_Lost_Tradition_of_Painting"
+    kind: institutional
+  - url: "https://www.britannica.com/art/Baghdad-school"
+    kind: reference
+  - url: "https://www.britannica.com/art/Jalayirid-school"
+    kind: reference
 images:
   - url: https://images.metmuseum.org/CRDImages/is/original/sf13-152-6d.jpg
     source_page: https://www.metmuseum.org/art/collection/search/446288

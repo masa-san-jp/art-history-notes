@@ -31,23 +31,40 @@ relations:
   - {type: influenced_by, target: movement/herat-school, certainty: scholarly, source: "https://resources.metmuseum.org/resources/metpublications/pdf/Masterpieces_from_the_Department_of_Islamic_Art_in_The_Metropolitan_Museum_of_Art.pdf"}
   - {type: diffused_to, target: place/agra, certainty: scholarly, source: "https://www.britishmuseum.org/collection/term/BIOG12024"}
 sources:
-  - https://www.wikidata.org/wiki/Q2366921
-  - https://www.wikidata.org/wiki/Q18234383
-  - https://www.wikidata.org/wiki/Q80053
-  - https://www.wikidata.org/wiki/Q42053
-  - https://www.wikidata.org/wiki/Q334875
-  - https://www.wikidata.org/wiki/Q380726
-  - https://www.wikidata.org/wiki/Q4453623
-  - https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300021713
-  - https://en.wikipedia.org/wiki/Safavid_art
-  - https://en.wikipedia.org/wiki/Persian_miniature
-  - https://en.wikipedia.org/wiki/Safavid_dynasty
-  - https://www.ebsco.com/research-starters/arts-and-entertainment/esfahan-school-painting
-  - https://www.britannica.com/art/Tabriz-school
-  - https://resources.metmuseum.org/resources/metpublications/pdf/Masterpieces_from_the_Department_of_Islamic_Art_in_The_Metropolitan_Museum_of_Art.pdf
-  - https://www.britishmuseum.org/collection/term/BIOG12024
-  - https://en.wikipedia.org/wiki/Mir_Sayyid_Ali
-  - https://en.wikipedia.org/wiki/Abd_al-Samad
+  - url: "https://www.wikidata.org/wiki/Q2366921"
+    kind: authority
+  - url: "https://www.wikidata.org/wiki/Q18234383"
+    kind: authority
+  - url: "https://www.wikidata.org/wiki/Q80053"
+    kind: authority
+  - url: "https://www.wikidata.org/wiki/Q42053"
+    kind: authority
+  - url: "https://www.wikidata.org/wiki/Q334875"
+    kind: authority
+  - url: "https://www.wikidata.org/wiki/Q380726"
+    kind: authority
+  - url: "https://www.wikidata.org/wiki/Q4453623"
+    kind: authority
+  - url: "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300021713"
+    kind: authority
+  - url: "https://en.wikipedia.org/wiki/Safavid_art"
+    kind: reference
+  - url: "https://en.wikipedia.org/wiki/Persian_miniature"
+    kind: reference
+  - url: "https://en.wikipedia.org/wiki/Safavid_dynasty"
+    kind: reference
+  - url: "https://www.ebsco.com/research-starters/arts-and-entertainment/esfahan-school-painting"
+    kind: reference
+  - url: "https://www.britannica.com/art/Tabriz-school"
+    kind: reference
+  - url: "https://resources.metmuseum.org/resources/metpublications/pdf/Masterpieces_from_the_Department_of_Islamic_Art_in_The_Metropolitan_Museum_of_Art.pdf"
+    kind: scholarly
+  - url: "https://www.britishmuseum.org/collection/term/BIOG12024"
+    kind: institutional
+  - url: "https://en.wikipedia.org/wiki/Mir_Sayyid_Ali"
+    kind: reference
+  - url: "https://en.wikipedia.org/wiki/Abd_al-Samad"
+    kind: reference
 images:
   - url: https://images.metmuseum.org/CRDImages/is/original/DP231354.jpg
     source_page: https://www.metmuseum.org/art/collection/search/453250

@@ -83,10 +83,14 @@ signals:
     source: https://www.moma.org/collection/works/193204
     note: サンパウロの知識人ネットワークに限定し、先住民当事者の参加を仮定しない
 sources:
-  - https://digital.bbm.usp.br/handle/bbm/7064
-  - https://www.moma.org/audio/735
-  - https://www.moma.org/artists/50079-oswald-de-andrade
-  - https://www.moma.org/collection/works/193204
+  - url: "https://digital.bbm.usp.br/handle/bbm/7064"
+    kind: reference
+  - url: "https://www.moma.org/audio/735"
+    kind: institutional
+  - url: "https://www.moma.org/artists/50079-oswald-de-andrade"
+    kind: institutional
+  - url: "https://www.moma.org/collection/works/193204"
+    kind: institutional
 status: draft
 updated: 2026-08-10
 ---

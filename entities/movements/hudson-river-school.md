@@ -30,11 +30,16 @@ space:
 relations:
   - {type: influenced_by, target: movement/barbizon-school, certainty: scholarly, source: "https://www.metmuseum.org/de/essays/the-hudson-river-school"}
 sources:
-  - https://www.wikidata.org/wiki/Q943853
-  - https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300379047
-  - https://en.wikipedia.org/wiki/Hudson_River_School
-  - https://www.metmuseum.org/de/essays/the-hudson-river-school
-  - https://www.metmuseum.org/exhibitions/listings/2003/sanford-r-gifford?persisted=true&sc_device=default
+  - url: "https://www.wikidata.org/wiki/Q943853"
+    kind: authority
+  - url: "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300379047"
+    kind: authority
+  - url: "https://en.wikipedia.org/wiki/Hudson_River_School"
+    kind: reference
+  - url: "https://www.metmuseum.org/de/essays/the-hudson-river-school"
+    kind: institutional
+  - url: "https://www.metmuseum.org/exhibitions/listings/2003/sanford-r-gifford?persisted=true&sc_device=default"
+    kind: institutional
 images:
   - url: https://www.artic.edu/iiif/2/18092196-50ae-3ff1-9205-1b3110e966c3/full/843,/0/default.jpg
     source_page: https://www.artic.edu/artworks/90048

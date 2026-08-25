@@ -38,12 +38,18 @@ space:
   - {role: originated_in, target: place/rome}
 relations: []
 sources:
-  - https://www.wikidata.org/wiki/Q131808
-  - https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300021144
-  - http://vocab.getty.edu/aat/300021144
-  - https://en.wikipedia.org/wiki/Mannerism
-  - https://www.artic.edu/artworks/110759
-  - https://www.artic.edu/artworks/52668
+  - url: "https://www.wikidata.org/wiki/Q131808"
+    kind: authority
+  - url: "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300021144"
+    kind: authority
+  - url: "http://vocab.getty.edu/aat/300021144"
+    kind: authority
+  - url: "https://en.wikipedia.org/wiki/Mannerism"
+    kind: reference
+  - url: "https://www.artic.edu/artworks/110759"
+    kind: institutional
+  - url: "https://www.artic.edu/artworks/52668"
+    kind: institutional
 status: draft
 updated: 2026-08-10
 ---

@@ -34,15 +34,24 @@ relations:
   - {type: created_by, target: person/ries-mulder}
   - {type: influenced_by, target: movement/cubism, certainty: scholarly, source: "https://doi.org/10.54154/dekonstruksi.v11i01.289"}
 sources:
-  - https://www.wikidata.org/wiki/Q65214081
-  - https://id.wikipedia.org/wiki/Mazhab_Bandung_(seni)
-  - https://en.wikipedia.org/wiki/Ries_Mulder
-  - https://sejarahbersama.id/2021/06/04/kritik-kritik-terhadap-pelukis-pelukis-bandung/
-  - https://historia.id/article/mula-pertentangan-dua-kubu
-  - https://en.wikipedia.org/wiki/Bandung_Institute_of_Technology
-  - https://www.itb.ac.id/history
-  - https://en.wikipedia.org/wiki/Mochtar_Apin
-  - https://doi.org/10.54154/dekonstruksi.v11i01.289
+  - url: "https://www.wikidata.org/wiki/Q65214081"
+    kind: authority
+  - url: "https://id.wikipedia.org/wiki/Mazhab_Bandung_(seni)"
+    kind: reference
+  - url: "https://en.wikipedia.org/wiki/Ries_Mulder"
+    kind: reference
+  - url: "https://sejarahbersama.id/2021/06/04/kritik-kritik-terhadap-pelukis-pelukis-bandung/"
+    kind: reference
+  - url: "https://historia.id/article/mula-pertentangan-dua-kubu"
+    kind: reference
+  - url: "https://en.wikipedia.org/wiki/Bandung_Institute_of_Technology"
+    kind: reference
+  - url: "https://www.itb.ac.id/history"
+    kind: institutional
+  - url: "https://en.wikipedia.org/wiki/Mochtar_Apin"
+    kind: reference
+  - url: "https://doi.org/10.54154/dekonstruksi.v11i01.289"
+    kind: scholarly
 status: draft
 updated: 2026-08-09
 ---

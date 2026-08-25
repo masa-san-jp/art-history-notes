@@ -31,13 +31,22 @@ relations:
   - {type: influenced_by, target: movement/dada, certainty: scholarly, source: "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300021512"}
   - {type: influenced_by, target: movement/symbolism, certainty: scholarly, source: "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300021512"}
 sources:
-  - https://www.wikidata.org/wiki/Q39427
-  - https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300021512
-  - https://fr.wikipedia.org/wiki/Manifeste_du_surr%C3%A9alisme
-  - https://en.wikipedia.org/wiki/Surrealism
-  - https://gallica.bnf.fr/ark:/12148/btv1b525214035
-  - https://archivesetmanuscrits.bnf.fr/ark:/12148/cc125311h
-  - https://www.bnf.fr/fr/1924-annee-surrealiste
+  - url: "https://www.wikidata.org/wiki/Q39427"
+    kind: authority
+  - url: "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300021512"
+    kind: authority
+  - url: "https://fr.wikipedia.org/wiki/Manifeste_du_surr%C3%A9alisme"
+    kind: reference
+  - url: "https://en.wikipedia.org/wiki/Surrealism"
+    kind: reference
+  - url: "https://gallica.bnf.fr/ark:/12148/btv1b525214035"
+    kind: primary
+    note: "URLの資料パスから一次資料と判定"
+  - url: "https://archivesetmanuscrits.bnf.fr/ark:/12148/cc125311h"
+    kind: primary
+    note: "URLの資料パスから一次資料と判定"
+  - url: "https://www.bnf.fr/fr/1924-annee-surrealiste"
+    kind: reference
 status: draft
 updated: 2026-08-10
 ---

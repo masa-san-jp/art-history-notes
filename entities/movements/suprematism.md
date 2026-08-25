@@ -40,19 +40,30 @@ images:
     license: pdm
     note: "マレーヴィチ《シュプレマティスム的構成》1915年、油彩、ルートヴィヒ美術館（ケルン）蔵。同じくWikimedia Commonsが「0,10展出品作」に分類。Commonsの権利表示は著作権保護期間満了（1931年以前の発表につきアメリカ合衆国内でも公有）とCreative Commons Public Domain Mark 1.0の両方を根拠に挙げる"
 sources:
-  - https://www.wikidata.org/wiki/Q191970
-  - https://velikanov.ru/lib/%D0%9C%D0%B0%D0%BB%D0%B5%D0%B2%D0%B8%D1%87.%20%D0%9E%D1%82%20%D0%BA%D1%83%D0%B1%D0%B8%D0%B7%D0%BC%D0%B0%20%D0%BA%20%D1%81%D1%83%D0%BF%D1%80%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%B7%D0%BC%D1%83.pdf
-  - https://www.prlib.ru/item/335766
-  - https://en.wikipedia.org/wiki/0,10_Exhibition
-  - https://ru.wikipedia.org/wiki/%D0%9F%D0%BE%D1%81%D0%BB%D0%B5%D0%B4%D0%BD%D1%8F%D1%8F_%D1%84%D1%83%D1%82%D1%83%D1%80%D0%B8%D1%81%D1%82%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B0%D1%8F_%D0%B2%D1%8B%D1%81%D1%82%D0%B0%D0%B2%D0%BA%D0%B0_%D0%BA%D0%B0%D1%80%D1%82%D0%B8%D0%BD_%C2%AB0,10%C2%BB
-  - https://en.wikipedia.org/wiki/UNOVIS
-  - https://ru.wikipedia.org/wiki/%D0%A3%D0%9D%D0%9E%D0%92%D0%98%D0%A1
-  - https://en.wikipedia.org/wiki/Suprematism
-  - https://www.theartstory.org/movement/suprematism/
-  - https://malevichsociety.org/writings-by-malevich/
-  - https://www.artic.edu/artworks/199128
-  - https://malevichsociety.org/malevich-biography-a-brief-history/
-  - https://malevichsociety.org/writings-by-malevich/
+  - url: "https://www.wikidata.org/wiki/Q191970"
+    kind: authority
+  - url: "https://velikanov.ru/lib/%D0%9C%D0%B0%D0%BB%D0%B5%D0%B2%D0%B8%D1%87.%20%D0%9E%D1%82%20%D0%BA%D1%83%D0%B1%D0%B8%D0%B7%D0%BC%D0%B0%20%D0%BA%20%D1%81%D1%83%D0%BF%D1%80%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%B7%D0%BC%D1%83.pdf"
+    kind: scholarly
+  - url: "https://www.prlib.ru/item/335766"
+    kind: reference
+  - url: "https://en.wikipedia.org/wiki/0,10_Exhibition"
+    kind: reference
+  - url: "https://ru.wikipedia.org/wiki/%D0%9F%D0%BE%D1%81%D0%BB%D0%B5%D0%B4%D0%BD%D1%8F%D1%8F_%D1%84%D1%83%D1%82%D1%83%D1%80%D0%B8%D1%81%D1%82%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B0%D1%8F_%D0%B2%D1%8B%D1%81%D1%82%D0%B0%D0%B2%D0%BA%D0%B0_%D0%BA%D0%B0%D1%80%D1%82%D0%B8%D0%BD_%C2%AB0,10%C2%BB"
+    kind: reference
+  - url: "https://en.wikipedia.org/wiki/UNOVIS"
+    kind: reference
+  - url: "https://ru.wikipedia.org/wiki/%D0%A3%D0%9D%D0%9E%D0%92%D0%98%D0%A1"
+    kind: reference
+  - url: "https://en.wikipedia.org/wiki/Suprematism"
+    kind: reference
+  - url: "https://www.theartstory.org/movement/suprematism/"
+    kind: reference
+  - url: "https://malevichsociety.org/writings-by-malevich/"
+    kind: reference
+  - url: "https://www.artic.edu/artworks/199128"
+    kind: institutional
+  - url: "https://malevichsociety.org/malevich-biography-a-brief-history/"
+    kind: reference
 status: draft
 updated: 2026-08-09
 ---

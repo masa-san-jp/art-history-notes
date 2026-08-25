@@ -30,10 +30,14 @@ space:
 relations:
   - {type: influenced_by, target: movement/baroque, certainty: scholarly, source: "https://resources.metmuseum.org/resources/metpublications/pdf/Vienna_Circa_1780_An_Imperial_Silver_Service_Rediscovered.pdf"}
 sources:
-  - https://www.wikidata.org/wiki/Q122960
-  - https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300021466
-  - https://www.metmuseum.org/de/essays/american-rococo
-  - https://resources.metmuseum.org/resources/metpublications/pdf/Vienna_Circa_1780_An_Imperial_Silver_Service_Rediscovered.pdf
+  - url: "https://www.wikidata.org/wiki/Q122960"
+    kind: authority
+  - url: "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300021466"
+    kind: authority
+  - url: "https://www.metmuseum.org/de/essays/american-rococo"
+    kind: institutional
+  - url: "https://resources.metmuseum.org/resources/metpublications/pdf/Vienna_Circa_1780_An_Imperial_Silver_Service_Rediscovered.pdf"
+    kind: scholarly
 status: draft
 updated: 2026-08-12
 ---

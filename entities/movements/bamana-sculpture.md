@@ -40,19 +40,33 @@ space:
 relations:
   - {type: created_by, target: org/bamana-numu}
 sources:
-  - https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300015848
-  - http://vocab.getty.edu/aat/300015848
-  - https://www.wikidata.org/wiki/Q504685
-  - https://www.wikidata.org/wiki/Q4892684
-  - https://www.wikidata.org/wiki/Q762084
-  - https://en.wikipedia.org/wiki/Chiwara
-  - https://en.wikipedia.org/wiki/Nyamakala
-  - https://africanarchive.org/en/staemme/bamana
-  - https://www.metmuseum.org/art/collection/search/310864
-  - https://www.metmuseum.org/art/collection/search/318895
-  - https://clevelandart.org/art/1965.325
-  - https://clevelandart.org/art/1962.307
-  - https://www.metmuseum.org/toah/hd/bamb/hd_bamb.htm
+  - url: "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300015848"
+    kind: authority
+  - url: "http://vocab.getty.edu/aat/300015848"
+    kind: authority
+  - url: "https://www.wikidata.org/wiki/Q504685"
+    kind: authority
+  - url: "https://www.wikidata.org/wiki/Q4892684"
+    kind: authority
+  - url: "https://www.wikidata.org/wiki/Q762084"
+    kind: authority
+  - url: "https://en.wikipedia.org/wiki/Chiwara"
+    kind: reference
+  - url: "https://en.wikipedia.org/wiki/Nyamakala"
+    kind: reference
+  - url: "https://africanarchive.org/en/staemme/bamana"
+    kind: primary
+    note: "URLの資料パスから一次資料と判定"
+  - url: "https://www.metmuseum.org/art/collection/search/310864"
+    kind: institutional
+  - url: "https://www.metmuseum.org/art/collection/search/318895"
+    kind: institutional
+  - url: "https://clevelandart.org/art/1965.325"
+    kind: institutional
+  - url: "https://clevelandart.org/art/1962.307"
+    kind: institutional
+  - url: "https://www.metmuseum.org/toah/hd/bamb/hd_bamb.htm"
+    kind: institutional
 status: draft
 updated: 2026-08-25
 ---

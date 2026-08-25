@@ -31,11 +31,16 @@ space:
 relations:
   - {type: derives_from, target: movement/menri-school, certainty: scholarly, source: "https://rubinmuseum.org/projecthimalayanart/essays/portrait-of-the-ninth-karmapa/"}
 sources:
-  - https://www.getty.edu/vow/AATFullDisplay?find=Karma+Gadri&logic=AND&note=&english=Y&prev_page=1&subjectid=300018861
-  - https://www.himalayanart.org/search/set.cfm?setID=248
-  - https://rubinmuseum.org/projecthimalayanart/essays/portrait-of-the-ninth-karmapa/
-  - https://www.wikidata.org/wiki/Q25669748
-  - https://baike.baidu.com/en/item/Tibetan%20Thangka%20(Karma%20Gadri%20Painting%20School)/934779
+  - url: "https://www.getty.edu/vow/AATFullDisplay?find=Karma+Gadri&logic=AND&note=&english=Y&prev_page=1&subjectid=300018861"
+    kind: authority
+  - url: "https://www.himalayanart.org/search/set.cfm?setID=248"
+    kind: reference
+  - url: "https://rubinmuseum.org/projecthimalayanart/essays/portrait-of-the-ninth-karmapa/"
+    kind: institutional
+  - url: "https://www.wikidata.org/wiki/Q25669748"
+    kind: authority
+  - url: "https://baike.baidu.com/en/item/Tibetan%20Thangka%20(Karma%20Gadri%20Painting%20School)/934779"
+    kind: reference
 status: draft
 updated: 2026-08-10
 ---

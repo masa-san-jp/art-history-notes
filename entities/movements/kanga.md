@@ -45,15 +45,24 @@ relations:
   - {type: influenced_by, target: movement/zhe-school, certainty: scholarly, source: "https://ja.wikipedia.org/wiki/%E6%B5%99%E6%B4%BE"}
   - {type: influenced_by, target: movement/an-gyeon-school, certainty: scholarly, source: "https://encykorea.aks.ac.kr/Article/E0069639"}
 sources:
-  - https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300266170
-  - http://vocab.getty.edu/aat/300266170
-  - https://ja.wikipedia.org/wiki/%E6%B0%B4%E5%A2%A8%E7%94%BB
-  - https://ja.wikipedia.org/wiki/%E6%B5%99%E6%B4%BE
-  - https://ja.wikipedia.org/wiki/%E7%8B%A9%E9%87%8E%E5%85%83%E4%BF%A1
-  - https://encykorea.aks.ac.kr/Article/E0069639
-  - https://clevelandart.org/art/1976.59
-  - https://clevelandart.org/art/1976.92.1
-  - https://www.metmuseum.org/art/collection/search/53219
+  - url: "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300266170"
+    kind: authority
+  - url: "http://vocab.getty.edu/aat/300266170"
+    kind: authority
+  - url: "https://ja.wikipedia.org/wiki/%E6%B0%B4%E5%A2%A8%E7%94%BB"
+    kind: reference
+  - url: "https://ja.wikipedia.org/wiki/%E6%B5%99%E6%B4%BE"
+    kind: reference
+  - url: "https://ja.wikipedia.org/wiki/%E7%8B%A9%E9%87%8E%E5%85%83%E4%BF%A1"
+    kind: reference
+  - url: "https://encykorea.aks.ac.kr/Article/E0069639"
+    kind: institutional
+  - url: "https://clevelandart.org/art/1976.59"
+    kind: institutional
+  - url: "https://clevelandart.org/art/1976.92.1"
+    kind: institutional
+  - url: "https://www.metmuseum.org/art/collection/search/53219"
+    kind: institutional
 status: draft
 updated: 2026-08-10
 ---

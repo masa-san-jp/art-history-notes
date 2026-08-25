@@ -31,14 +31,22 @@ space:
 relations:
   - {type: influenced_by, target: movement/song-academy-painting, certainty: scholarly, source: "https://encykorea.aks.ac.kr/Article/E0069639"}
 sources:
-  - https://encykorea.aks.ac.kr/Article/E0069639
-  - https://encykorea.aks.ac.kr/Article/E0034491
-  - https://encykorea.aks.ac.kr/Article/E0018824
-  - https://ko.wikipedia.org/wiki/%EB%AA%BD%EC%9C%A0%EB%8F%84%EC%9B%90%EB%8F%84
-  - https://www.wikidata.org/wiki/Q1036353
-  - https://www.wikidata.org/wiki/Q12595455
-  - https://www.khan.co.kr/article/202607201829001/
-  - https://commons.wikimedia.org/wiki/File:Mongyudowondo.jpg
+  - url: "https://encykorea.aks.ac.kr/Article/E0069639"
+    kind: institutional
+  - url: "https://encykorea.aks.ac.kr/Article/E0034491"
+    kind: institutional
+  - url: "https://encykorea.aks.ac.kr/Article/E0018824"
+    kind: institutional
+  - url: "https://ko.wikipedia.org/wiki/%EB%AA%BD%EC%9C%A0%EB%8F%84%EC%9B%90%EB%8F%84"
+    kind: reference
+  - url: "https://www.wikidata.org/wiki/Q1036353"
+    kind: authority
+  - url: "https://www.wikidata.org/wiki/Q12595455"
+    kind: authority
+  - url: "https://www.khan.co.kr/article/202607201829001/"
+    kind: reference
+  - url: "https://commons.wikimedia.org/wiki/File:Mongyudowondo.jpg"
+    kind: reference
 images:
   - url: https://upload.wikimedia.org/wikipedia/commons/e/e4/Mongyudowondo.jpg
     source_page: https://commons.wikimedia.org/wiki/File:Mongyudowondo.jpg

@@ -30,9 +30,12 @@ space:
 relations:
   - {type: influenced_by, target: movement/renaissance, certainty: scholarly, source: "https://www.metmuseum.org/fr/essays/neoclassicism"}
 sources:
-  - https://www.wikidata.org/wiki/Q14378
-  - https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300021474
-  - https://www.metmuseum.org/fr/essays/neoclassicism
+  - url: "https://www.wikidata.org/wiki/Q14378"
+    kind: authority
+  - url: "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300021474"
+    kind: authority
+  - url: "https://www.metmuseum.org/fr/essays/neoclassicism"
+    kind: institutional
 status: draft
 updated: 2026-08-12
 ---
