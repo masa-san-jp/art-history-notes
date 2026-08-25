@@ -4,7 +4,7 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "tools"))
 
-from cross_region import audit_cross_region, validate_reviews
+from cross_region import audit_cross_region, validate_baseline, validate_reviews
 
 
 def place(entity_id, region):
@@ -77,7 +77,13 @@ class CrossRegionAuditTests(unittest.TestCase):
                 "movement/connected",
                 relations=[{"type": "diffused_to", "target": "place/new-york-city"}],
             ),
-            "movement/reviewed": movement("movement/reviewed"),
+            "movement/reviewed": dict(
+                movement("movement/reviewed"),
+                sources=[
+                    {"url": "https://example.test/a", "kind": "reference"},
+                    {"url": "https://example.org/b", "kind": "reference"},
+                ],
+            ),
             "movement/unreviewed": movement("movement/unreviewed"),
             "place/paris": place("place/paris", "europe-west"),
             "place/new-york-city": place("place/new-york-city", "americas-north"),
@@ -87,7 +93,7 @@ class CrossRegionAuditTests(unittest.TestCase):
             "status": "no-documented-cross-region-relation",
             "checked": "2026-08-25",
             "note": "対象範囲の資料では域外接続を確認できない",
-            "sources": ["https://example.test/a", "https://example.test/b"],
+            "sources": ["https://example.test/a", "https://example.org/b"],
         }]
         result = audit_cross_region(entities, reviews=reviews)
         errors = validate_reviews(reviews, entities, result)
@@ -105,6 +111,31 @@ class CrossRegionAuditTests(unittest.TestCase):
         connected_review = [dict(reviews[0], movement_id="movement/connected")]
         connected_result = audit_cross_region(entities, reviews=connected_review)
         self.assertIn("既にconnected", "\n".join(validate_reviews(connected_review, entities, connected_result)))
+
+    def test_baseline_rejects_duplicates_unknown_ids_and_new_unreviewed_ids(self):
+        entities = {
+            "movement/one": movement("movement/one"),
+            "movement/two": movement("movement/two"),
+            "place/paris": place("place/paris", "europe-west"),
+        }
+        audit = audit_cross_region(entities)
+        baseline = {
+            "schema_version": 1,
+            "source_commit": "a" * 40,
+            "movement_count": 1,
+            "movement_ids": ["movement/one"],
+        }
+        errors = validate_baseline(baseline, entities, audit)
+        self.assertIn("baselineにない未調査movement", "\n".join(errors))
+
+        bad = dict(baseline, movement_count=3,
+                   movement_ids=["movement/one", "movement/one"])
+        errors = "\n".join(validate_baseline(bad, entities))
+        self.assertIn("件数が不一致", errors)
+        self.assertIn("重複", errors)
+
+        unknown = dict(baseline, movement_count=1, movement_ids=["movement/missing"])
+        self.assertIn("存在しないmovement_id", "\n".join(validate_baseline(unknown, entities)))
 
 
 if __name__ == "__main__":

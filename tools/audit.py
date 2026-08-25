@@ -29,7 +29,14 @@ from pathlib import Path
 import yaml
 
 from detail_baseline import BASELINE_PATH
-from cross_region import audit_cross_region, load_reviews, render_overview, validate_reviews
+from cross_region import (
+    audit_cross_region,
+    load_baseline,
+    load_reviews,
+    render_overview,
+    validate_baseline,
+    validate_reviews,
+)
 from kb import ROOT, build_edges, edtf_year_range, load_config, load_entities, load_region_history, regions_of
 
 OVERVIEWS = ROOT / "overviews"
@@ -175,7 +182,7 @@ def check_detail_baseline(entities, findings):
                                  "text": f"baseline movement {movement_id} のevidenceが未充足"})
 
 
-def render(findings, cross_region=None):
+def render(findings, cross_region=None, baseline=None):
     if not findings:
         return "食い違い・偏りの指摘はなし。"
     order = ["time-order", "type-mismatch", "kind-bias", "hypothesis", "dead-end",
@@ -192,7 +199,7 @@ def render(findings, cross_region=None):
             lines += [f"- {f['text']}" for f in rows]
             lines.append("")
     if cross_region is not None:
-        lines += [render_overview(cross_region), ""]
+        lines += [render_overview(cross_region, baseline), ""]
     return "\n".join(lines).rstrip()
 
 
@@ -206,13 +213,22 @@ def main():
     region_history = load_region_history()
     edges = build_edges(entities)
     reviews, review_errors = load_reviews()
+    baseline, baseline_errors = load_baseline()
     cross_region = audit_cross_region(entities, region_history, reviews)
     review_errors.extend(validate_reviews(reviews, entities, cross_region))
-    if review_errors:
-        print("✗ cross-region review config:", file=sys.stderr)
-        for error in review_errors:
+    baseline_errors.extend(validate_baseline(baseline, entities, cross_region))
+    config_errors = review_errors + baseline_errors
+    if config_errors:
+        print("✗ cross-region audit config:", file=sys.stderr)
+        for error in config_errors:
             print(f"  - {error}", file=sys.stderr)
         return 1
+    baseline_report = dict(baseline)
+    baseline_ids = set(baseline["movement_ids"])
+    baseline_report["remaining_unreviewed"] = sorted(
+        baseline_ids.intersection(cross_region["unreviewed"])
+    )
+    baseline_report["current_unreviewed"] = cross_region["unreviewed"]
     findings = []
 
     check_time_order(entities, edges, findings)
@@ -223,18 +239,20 @@ def main():
     check_detail_baseline(entities, findings)
     check_cross_region_links(entities, edges, findings, region_history, cross_region)
 
-    print(render(findings, cross_region))
+    print(render(findings, cross_region, baseline_report))
     if not a.dry_run:
         OUT.parent.mkdir(exist_ok=True)
         OUT.write_text(json.dumps({"schema_version": 1, "findings": findings,
-                                   "cross_region": cross_region},
+                                   "cross_region": cross_region,
+                                   "cross_region_baseline": baseline_report},
                                   ensure_ascii=False, indent=2) + "\n",
                        encoding="utf-8")
         text = COVERAGE.read_text(encoding="utf-8")
         if MARK_START in text and MARK_END in text:
             head, rest = text.split(MARK_START, 1)
             _old, tail = rest.split(MARK_END, 1)
-            COVERAGE.write_text(f"{head}{MARK_START}\n{render(findings, cross_region)}\n{MARK_END}{tail}",
+            COVERAGE.write_text(
+                f"{head}{MARK_START}\n{render(findings, cross_region, baseline_report)}\n{MARK_END}{tail}",
                                 encoding="utf-8")
         else:
             print("overviews/coverage.md に監査の生成ブロックが無い", file=sys.stderr)

@@ -280,6 +280,12 @@ reviews:
 `data/audit.json` の `cross_region` は全movementを一度だけ、`connected` /
 `reviewed-no-documented-link` / `unreviewed` の排他的3区分で返し、各接続の経路・edge列・到達regionを含む。
 
+`config/cross-region-baseline-v1.yaml` は、調査開始時点の `unreviewed` IDを固定するSSOTである。
+`source_commit`、件数、ID配列を持ち、重複・存在しないmovement・件数不一致を拒否する。監査時点で
+baselineにない新しい `unreviewed` が発生した場合も失敗するため、作業中に追加された未調査件は
+manifestへ追記してからレビューを進める。`data/audit.json` の `cross_region_baseline` は
+baselineと、そこから残っている `remaining_unreviewed` を出力する。
+
 ### `founding_control`（任意・movement）
 
 **設立・所有・意思決定に、対象文化の外部者が構造的に含まれていたか。** `internal` / `shared` / `external`。

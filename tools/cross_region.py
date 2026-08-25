@@ -6,12 +6,14 @@ from __future__ import annotations
 import re
 from datetime import date
 from pathlib import Path
+from urllib.parse import urlparse
 
 import yaml
 
 from kb import edtf_year_range, is_http_url, regions_of
 
 REVIEW_PATH = Path(__file__).resolve().parents[1] / "config" / "cross-region-reviews.yaml"
+BASELINE_PATH = Path(__file__).resolve().parents[1] / "config" / "cross-region-baseline-v1.yaml"
 REVIEW_STATUS = "no-documented-cross-region-relation"
 ROUTE_KINDS = {
     "movement-relation",
@@ -20,6 +22,7 @@ ROUTE_KINDS = {
     "exhibited-at-place",
 }
 DATE_RE = re.compile(r"^\d{4}-\d{2}-\d{2}$")
+COMMIT_RE = re.compile(r"^[0-9a-f]{40}$")
 
 
 def _period_matches(year_range, entries):
@@ -168,6 +171,20 @@ def load_reviews(path=REVIEW_PATH):
     return reviews, []
 
 
+def load_baseline(path=BASELINE_PATH):
+    """起票時点の未調査movement manifestを読み込む。"""
+    path = Path(path)
+    if not path.exists():
+        return {}, [f"{path}: cross-region baselineがない"]
+    try:
+        data = yaml.safe_load(path.read_text(encoding="utf-8")) or {}
+    except (OSError, yaml.YAMLError) as exc:
+        return {}, [f"{path}: cross-region baselineを読めない: {exc}"]
+    if not isinstance(data, dict):
+        return {}, [f"{path}: cross-region baselineはobjectが必要"]
+    return data, []
+
+
 def audit_cross_region(entities, region_history=None, reviews=None):
     movements = {
         entity_id: meta for entity_id, meta in entities.items()
@@ -255,12 +272,60 @@ def validate_reviews(reviews, entities, audit):
             errors.append(f"{prefix}: sourcesはhttp(s) URL 2件以上が必要")
         elif any(not is_http_url(source) for source in sources):
             errors.append(f"{prefix}: sourcesはhttp(s) URLだけが必要")
+        elif len(set(sources)) != len(sources):
+            errors.append(f"{prefix}: sourcesに重複URLがある")
+        elif len({urlparse(source).netloc for source in sources}) < 2:
+            errors.append(f"{prefix}: sourcesは独立したhostを2つ以上含む必要がある")
+        else:
+            known_sources = {
+                item.get("url") for item in (entities.get(movement_id, {}).get("sources") or [])
+                if isinstance(item, dict) and item.get("url")
+            }
+            unknown_sources = sorted(set(sources) - known_sources)
+            if unknown_sources:
+                errors.append(
+                    f"{prefix}: movementのsourcesに登録されていないURL: "
+                    f"{', '.join(unknown_sources)}"
+                )
         if movement_id in connected:
             errors.append(f"{prefix}: 既にconnectedなmovementはreviewできない: {movement_id}")
     return errors
 
 
-def render_overview(audit):
+def validate_baseline(baseline, entities, audit=None):
+    """baselineの完全性と、作業中に増えた未調査IDの取りこぼしを検証する。"""
+    errors = []
+    prefix = "config/cross-region-baseline-v1.yaml"
+    if not isinstance(baseline, dict):
+        return [f"{prefix}: objectが必要"]
+    if baseline.get("schema_version") != 1:
+        errors.append(f"{prefix}: schema_versionは1固定")
+    source_commit = baseline.get("source_commit")
+    if not isinstance(source_commit, str) or not COMMIT_RE.fullmatch(source_commit):
+        errors.append(f"{prefix}: source_commitは40桁の小文字hexが必要")
+    movement_ids = baseline.get("movement_ids")
+    if not isinstance(movement_ids, list) or any(not isinstance(item, str) for item in movement_ids):
+        errors.append(f"{prefix}: movement_idsは文字列配列が必要")
+        movement_ids = []
+    if baseline.get("movement_count") != len(movement_ids):
+        errors.append(f"{prefix}: movement_countとmovement_idsの件数が不一致")
+    if len(set(movement_ids)) != len(movement_ids):
+        errors.append(f"{prefix}: movement_idsに重複がある")
+    movement_ids_set = set(movement_ids)
+    for movement_id in movement_ids:
+        if (entities.get(movement_id) or {}).get("type") != "movement":
+            errors.append(f"{prefix}: 存在しないmovement_id: {movement_id}")
+    if audit is not None:
+        current_unreviewed = set(audit.get("unreviewed") or [])
+        outside = sorted(current_unreviewed - movement_ids_set)
+        if outside:
+            errors.append(
+                f"{prefix}: baselineにない未調査movementがある: {', '.join(outside)}"
+            )
+    return errors
+
+
+def render_overview(audit, baseline=None):
     counts = audit["counts"]
     lines = [
         "**文化圏間接続監査（4経路）**",
@@ -268,6 +333,11 @@ def render_overview(audit):
         f"- reviewed-no-documented-link: {counts['reviewed-no-documented-link']}件",
         f"- unreviewed: {counts['unreviewed']}件",
     ]
+    if baseline is not None:
+        lines.append(
+            f"- baseline: {baseline['movement_count']}件 / 残り未調査: "
+            f"{len(baseline.get('remaining_unreviewed') or [])}件"
+        )
     if audit["unreviewed"]:
         lines.append("- unreviewed ID: " + ", ".join(f"`{item}`" for item in audit["unreviewed"]))
     return "\n".join(lines)

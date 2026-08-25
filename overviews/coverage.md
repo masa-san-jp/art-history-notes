@@ -62,14 +62,7 @@ movement **119** 件（stub 0件は不算入）／内訳 {'draft': 117, 'stub': 
 形式の検証（`build_graph.py --check`）と違って commit は止めない——次に何を調べるかの材料として出す。
 
 <!-- generated:audit:start -->
-**文化圏を跨ぐ関係が無い**
-- 4経路でconnectedにもreviewedにもなっていないmovementが 44/119 件
-
-**文化圏間接続監査（4経路）**
-- connected: 75件
-- reviewed-no-documented-link: 0件
-- unreviewed: 44件
-- unreviewed ID: `movement/arts-and-crafts`, `movement/bamana-sculpture`, `movement/barbizon-school`, `movement/baroque`, `movement/byzantine-art`, `movement/constructivism`, `movement/cubism`, `movement/de-stijl`, `movement/dong-ho-painting`, `movement/expressionism`, `movement/four-wangs`, `movement/futurism`, `movement/harlem-renaissance`, `movement/italian-divisionism`, `movement/jain-manuscript-painting`, `movement/jinling-eight-masters`, `movement/kamasan-painting`, `movement/karma-gardri`, `movement/khyenri-school`, `movement/kowhaiwhai`, `movement/lapita-pottery`, `movement/literati-painting`, `movement/makonde-carving`, `movement/mandalay-style`, `movement/mannerism`, `movement/mexican-muralism`, `movement/mono-ha`, `movement/neoclassicism`, `movement/newar-art`, `movement/nihonga`, `movement/northwest-coast-carving`, `movement/ottoman-miniature`, `movement/realism`, `movement/rinpa`, `movement/rococo`, `movement/shanghai-school`, `movement/shiraz-school`, `movement/song-academy-painting`, `movement/songjiang-school`, `movement/suprematism`, `movement/surrealism`, `movement/utagawa-school`, `movement/wu-school`, `movement/zhe-school`
+食い違い・偏りの指摘はなし。
 <!-- generated:audit:end -->
 
 ## 需要から決める（探されたが無かった語）

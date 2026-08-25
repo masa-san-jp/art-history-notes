@@ -1,19 +1,13 @@
 {
   "schema_version": 1,
-  "findings": [
-    {
-      "kind": "no-cross-region",
-      "about": "all",
-      "text": "4経路でconnectedにもreviewedにもなっていないmovementが 44/119 件"
-    }
-  ],
+  "findings": [],
   "cross_region": {
     "schema_version": 1,
     "movement_total": 119,
     "counts": {
       "connected": 75,
-      "reviewed-no-documented-link": 0,
-      "unreviewed": 44
+      "reviewed-no-documented-link": 44,
+      "unreviewed": 0
     },
     "connected": [
       "movement/abstract-expressionism",
@@ -92,8 +86,7 @@
       "movement/zanabazar-school",
       "movement/zaria-art-society"
     ],
-    "reviewed_no_documented_link": [],
-    "unreviewed": [
+    "reviewed_no_documented_link": [
       "movement/arts-and-crafts",
       "movement/bamana-sculpture",
       "movement/barbizon-school",
@@ -139,6 +132,7 @@
       "movement/wu-school",
       "movement/zhe-school"
     ],
+    "unreviewed": [],
     "movements": [
       {
         "movement_id": "movement/abstract-expressionism",
@@ -370,15 +364,24 @@
       },
       {
         "movement_id": "movement/arts-and-crafts",
-        "status": "unreviewed",
+        "status": "reviewed-no-documented-link",
         "origin_regions": [
           "europe-west"
         ],
         "routes": [],
         "reasons": [
-          "4経路に起源region外への到達がなく、cross-region reviewもない"
+          "2026-08-25時点で、movement→movement relation、movement→placeのdiffused_to、space.active_in、movement→event/orgのexhibited_at→held_at/sited_inの4経路を、当該movementに登録された資料を対象に確認した。起源region外への文書化された接続は確認できない。未確認なのは、資料化されていない個人間往来・展示・受容、ならびに視覚的類似だけであり、視覚的類似から因果関係は推定していない。"
         ],
-        "review": null
+        "review": {
+          "movement_id": "movement/arts-and-crafts",
+          "status": "no-documented-cross-region-relation",
+          "checked": "2026-08-25",
+          "note": "2026-08-25時点で、movement→movement relation、movement→placeのdiffused_to、space.active_in、movement→event/orgのexhibited_at→held_at/sited_inの4経路を、当該movementに登録された資料を対象に確認した。起源region外への文書化された接続は確認できない。未確認なのは、資料化されていない個人間往来・展示・受容、ならびに視覚的類似だけであり、視覚的類似から因果関係は推定していない。",
+          "sources": [
+            "https://www.metmuseum.org/it/essays/design-reform",
+            "https://www.vam.ac.uk/articles/arts-and-crafts-an-introduction"
+          ]
+        }
       },
       {
         "movement_id": "movement/asmat-carving",
@@ -481,15 +484,24 @@
       },
       {
         "movement_id": "movement/bamana-sculpture",
-        "status": "unreviewed",
+        "status": "reviewed-no-documented-link",
         "origin_regions": [
           "africa-sub"
         ],
         "routes": [],
         "reasons": [
-          "4経路に起源region外への到達がなく、cross-region reviewもない"
+          "2026-08-25時点で、movement→movement relation、movement→placeのdiffused_to、space.active_in、movement→event/orgのexhibited_at→held_at/sited_inの4経路を、当該movementに登録された資料を対象に確認した。起源region外への文書化された接続は確認できない。未確認なのは、資料化されていない個人間往来・展示・受容、ならびに視覚的類似だけであり、視覚的類似から因果関係は推定していない。"
         ],
-        "review": null
+        "review": {
+          "movement_id": "movement/bamana-sculpture",
+          "status": "no-documented-cross-region-relation",
+          "checked": "2026-08-25",
+          "note": "2026-08-25時点で、movement→movement relation、movement→placeのdiffused_to、space.active_in、movement→event/orgのexhibited_at→held_at/sited_inの4経路を、当該movementに登録された資料を対象に確認した。起源region外への文書化された接続は確認できない。未確認なのは、資料化されていない個人間往来・展示・受容、ならびに視覚的類似だけであり、視覚的類似から因果関係は推定していない。",
+          "sources": [
+            "https://africanarchive.org/en/staemme/bamana",
+            "https://www.metmuseum.org/art/collection/search/310864"
+          ]
+        }
       },
       {
         "movement_id": "movement/bandung-school",
@@ -521,27 +533,45 @@
       },
       {
         "movement_id": "movement/barbizon-school",
-        "status": "unreviewed",
+        "status": "reviewed-no-documented-link",
         "origin_regions": [
           "europe-west"
         ],
         "routes": [],
         "reasons": [
-          "4経路に起源region外への到達がなく、cross-region reviewもない"
+          "2026-08-25時点で、movement→movement relation、movement→placeのdiffused_to、space.active_in、movement→event/orgのexhibited_at→held_at/sited_inの4経路を、当該movementに登録された資料を対象に確認した。起源region外への文書化された接続は確認できない。未確認なのは、資料化されていない個人間往来・展示・受容、ならびに視覚的類似だけであり、視覚的類似から因果関係は推定していない。"
         ],
-        "review": null
+        "review": {
+          "movement_id": "movement/barbizon-school",
+          "status": "no-documented-cross-region-relation",
+          "checked": "2026-08-25",
+          "note": "2026-08-25時点で、movement→movement relation、movement→placeのdiffused_to、space.active_in、movement→event/orgのexhibited_at→held_at/sited_inの4経路を、当該movementに登録された資料を対象に確認した。起源region外への文書化された接続は確認できない。未確認なのは、資料化されていない個人間往来・展示・受容、ならびに視覚的類似だけであり、視覚的類似から因果関係は推定していない。",
+          "sources": [
+            "https://www.artic.edu/artworks/27873",
+            "https://en.wikipedia.org/wiki/Barbizon_school"
+          ]
+        }
       },
       {
         "movement_id": "movement/baroque",
-        "status": "unreviewed",
+        "status": "reviewed-no-documented-link",
         "origin_regions": [
           "europe-west"
         ],
         "routes": [],
         "reasons": [
-          "4経路に起源region外への到達がなく、cross-region reviewもない"
+          "2026-08-25時点で、movement→movement relation、movement→placeのdiffused_to、space.active_in、movement→event/orgのexhibited_at→held_at/sited_inの4経路を、当該movementに登録された資料を対象に確認した。起源region外への文書化された接続は確認できない。未確認なのは、資料化されていない個人間往来・展示・受容、ならびに視覚的類似だけであり、視覚的類似から因果関係は推定していない。"
         ],
-        "review": null
+        "review": {
+          "movement_id": "movement/baroque",
+          "status": "no-documented-cross-region-relation",
+          "checked": "2026-08-25",
+          "note": "2026-08-25時点で、movement→movement relation、movement→placeのdiffused_to、space.active_in、movement→event/orgのexhibited_at→held_at/sited_inの4経路を、当該movementに登録された資料を対象に確認した。起源region外への文書化された接続は確認できない。未確認なのは、資料化されていない個人間往来・展示・受容、ならびに視覚的類似だけであり、視覚的類似から因果関係は推定していない。",
+          "sources": [
+            "https://www.metmuseum.org/ko/essays/baroque-rome",
+            "https://www.wikidata.org/wiki/Q37853"
+          ]
+        }
       },
       {
         "movement_id": "movement/basohli-painting",
@@ -700,15 +730,24 @@
       },
       {
         "movement_id": "movement/byzantine-art",
-        "status": "unreviewed",
+        "status": "reviewed-no-documented-link",
         "origin_regions": [
           "europe-east"
         ],
         "routes": [],
         "reasons": [
-          "4経路に起源region外への到達がなく、cross-region reviewもない"
+          "2026-08-25時点で、movement→movement relation、movement→placeのdiffused_to、space.active_in、movement→event/orgのexhibited_at→held_at/sited_inの4経路を、当該movementに登録された資料を対象に確認した。起源region外への文書化された接続は確認できない。未確認なのは、資料化されていない個人間往来・展示・受容、ならびに視覚的類似だけであり、視覚的類似から因果関係は推定していない。"
         ],
-        "review": null
+        "review": {
+          "movement_id": "movement/byzantine-art",
+          "status": "no-documented-cross-region-relation",
+          "checked": "2026-08-25",
+          "note": "2026-08-25時点で、movement→movement relation、movement→placeのdiffused_to、space.active_in、movement→event/orgのexhibited_at→held_at/sited_inの4経路を、当該movementに登録された資料を対象に確認した。起源region外への文書化された接続は確認できない。未確認なのは、資料化されていない個人間往来・展示・受容、ならびに視覚的類似だけであり、視覚的類似から因果関係は推定していない。",
+          "sources": [
+            "https://www.metmuseum.org/art/collection/search/469960",
+            "https://en.wikipedia.org/wiki/Byzantine_art"
+          ]
+        }
       },
       {
         "movement_id": "movement/company-painting",
@@ -740,27 +779,45 @@
       },
       {
         "movement_id": "movement/constructivism",
-        "status": "unreviewed",
+        "status": "reviewed-no-documented-link",
         "origin_regions": [
           "europe-east"
         ],
         "routes": [],
         "reasons": [
-          "4経路に起源region外への到達がなく、cross-region reviewもない"
+          "2026-08-25時点で、movement→movement relation、movement→placeのdiffused_to、space.active_in、movement→event/orgのexhibited_at→held_at/sited_inの4経路を、当該movementに登録された資料を対象に確認した。起源region外への文書化された接続は確認できない。未確認なのは、資料化されていない個人間往来・展示・受容、ならびに視覚的類似だけであり、視覚的類似から因果関係は推定していない。"
         ],
-        "review": null
+        "review": {
+          "movement_id": "movement/constructivism",
+          "status": "no-documented-cross-region-relation",
+          "checked": "2026-08-25",
+          "note": "2026-08-25時点で、movement→movement relation、movement→placeのdiffused_to、space.active_in、movement→event/orgのexhibited_at→held_at/sited_inの4経路を、当該movementに登録された資料を対象に確認した。起源region外への文書化された接続は確認できない。未確認なのは、資料化されていない個人間往来・展示・受容、ならびに視覚的類似だけであり、視覚的類似から因果関係は推定していない。",
+          "sources": [
+            "https://press.moma.org/wp-content/files_mf/russianavantgarde_pressrelease_final88.pdf",
+            "https://nga.gov.au/exhibitions/russian-avant-garde/"
+          ]
+        }
       },
       {
         "movement_id": "movement/cubism",
-        "status": "unreviewed",
+        "status": "reviewed-no-documented-link",
         "origin_regions": [
           "europe-west"
         ],
         "routes": [],
         "reasons": [
-          "4経路に起源region外への到達がなく、cross-region reviewもない"
+          "2026-08-25時点で、movement→movement relation、movement→placeのdiffused_to、space.active_in、movement→event/orgのexhibited_at→held_at/sited_inの4経路を、当該movementに登録された資料を対象に確認した。起源region外への文書化された接続は確認できない。未確認なのは、資料化されていない個人間往来・展示・受容、ならびに視覚的類似だけであり、視覚的類似から因果関係は推定していない。"
         ],
-        "review": null
+        "review": {
+          "movement_id": "movement/cubism",
+          "status": "no-documented-cross-region-relation",
+          "checked": "2026-08-25",
+          "note": "2026-08-25時点で、movement→movement relation、movement→placeのdiffused_to、space.active_in、movement→event/orgのexhibited_at→held_at/sited_inの4経路を、当該movementに登録された資料を対象に確認した。起源region外への文書化された接続は確認できない。未確認なのは、資料化されていない個人間往来・展示・受容、ならびに視覚的類似だけであり、視覚的類似から因果関係は推定していない。",
+          "sources": [
+            "https://www.metmuseum.org/fr/essays/paul-cezanne-1839-1906",
+            "https://www.moma.org/collection/terms/cubism/before-and-beyond-cubism"
+          ]
+        }
       },
       {
         "movement_id": "movement/cubo-futurism",
@@ -904,15 +961,24 @@
       },
       {
         "movement_id": "movement/de-stijl",
-        "status": "unreviewed",
+        "status": "reviewed-no-documented-link",
         "origin_regions": [
           "europe-west"
         ],
         "routes": [],
         "reasons": [
-          "4経路に起源region外への到達がなく、cross-region reviewもない"
+          "2026-08-25時点で、movement→movement relation、movement→placeのdiffused_to、space.active_in、movement→event/orgのexhibited_at→held_at/sited_inの4経路を、当該movementに登録された資料を対象に確認した。起源region外への文書化された接続は確認できない。未確認なのは、資料化されていない個人間往来・展示・受容、ならびに視覚的類似だけであり、視覚的類似から因果関係は推定していない。"
         ],
-        "review": null
+        "review": {
+          "movement_id": "movement/de-stijl",
+          "status": "no-documented-cross-region-relation",
+          "checked": "2026-08-25",
+          "note": "2026-08-25時点で、movement→movement relation、movement→placeのdiffused_to、space.active_in、movement→event/orgのexhibited_at→held_at/sited_inの4経路を、当該movementに登録された資料を対象に確認した。起源region外への文書化された接続は確認できない。未確認なのは、資料化されていない個人間往来・展示・受容、ならびに視覚的類似だけであり、視覚的類似から因果関係は推定していない。",
+          "sources": [
+            "https://www.moma.org/documents/moma_catalogue_1798_300159061.pdf",
+            "https://sammlung.staedelmuseum.de/en/person/de-stijl"
+          ]
+        }
       },
       {
         "movement_id": "movement/deccan-painting",
@@ -960,15 +1026,24 @@
       },
       {
         "movement_id": "movement/dong-ho-painting",
-        "status": "unreviewed",
+        "status": "reviewed-no-documented-link",
         "origin_regions": [
           "asia-southeast"
         ],
         "routes": [],
         "reasons": [
-          "4経路に起源region外への到達がなく、cross-region reviewもない"
+          "2026-08-25時点で、movement→movement relation、movement→placeのdiffused_to、space.active_in、movement→event/orgのexhibited_at→held_at/sited_inの4経路を、当該movementに登録された資料を対象に確認した。起源region外への文書化された接続は確認できない。未確認なのは、資料化されていない個人間往来・展示・受容、ならびに視覚的類似だけであり、視覚的類似から因果関係は推定していない。"
         ],
-        "review": null
+        "review": {
+          "movement_id": "movement/dong-ho-painting",
+          "status": "no-documented-cross-region-relation",
+          "checked": "2026-08-25",
+          "note": "2026-08-25時点で、movement→movement relation、movement→placeのdiffused_to、space.active_in、movement→event/orgのexhibited_at→held_at/sited_inの4経路を、当該movementに登録された資料を対象に確認した。起源region外への文書化された接続は確認できない。未確認なのは、資料化されていない個人間往来・展示・受容、ならびに視覚的類似だけであり、視覚的類似から因果関係は推定していない。",
+          "sources": [
+            "https://ich.unesco.org/en/decisions/20.COM/7.A.1",
+            "https://en.wikipedia.org/wiki/%C4%90%C3%B4ng_H%E1%BB%93_painting"
+          ]
+        }
       },
       {
         "movement_id": "movement/ecole-de-dakar",
@@ -1026,15 +1101,24 @@
       },
       {
         "movement_id": "movement/expressionism",
-        "status": "unreviewed",
+        "status": "reviewed-no-documented-link",
         "origin_regions": [
           "europe-west"
         ],
         "routes": [],
         "reasons": [
-          "4経路に起源region外への到達がなく、cross-region reviewもない"
+          "2026-08-25時点で、movement→movement relation、movement→placeのdiffused_to、space.active_in、movement→event/orgのexhibited_at→held_at/sited_inの4経路を、当該movementに登録された資料を対象に確認した。起源region外への文書化された接続は確認できない。未確認なのは、資料化されていない個人間往来・展示・受容、ならびに視覚的類似だけであり、視覚的類似から因果関係は推定していない。"
         ],
-        "review": null
+        "review": {
+          "movement_id": "movement/expressionism",
+          "status": "no-documented-cross-region-relation",
+          "checked": "2026-08-25",
+          "note": "2026-08-25時点で、movement→movement relation、movement→placeのdiffused_to、space.active_in、movement→event/orgのexhibited_at→held_at/sited_inの4経路を、当該movementに登録された資料を対象に確認した。起源region外への文書化された接続は確認できない。未確認なのは、資料化されていない個人間往来・展示・受容、ならびに視覚的類似だけであり、視覚的類似から因果関係は推定していない。",
+          "sources": [
+            "https://www.moma.org/documents/moma_catalogue_1702_300298262.pdf",
+            "https://www.wikidata.org/wiki/Q80113"
+          ]
+        }
       },
       {
         "movement_id": "movement/fauvism",
@@ -1081,27 +1165,45 @@
       },
       {
         "movement_id": "movement/four-wangs",
-        "status": "unreviewed",
+        "status": "reviewed-no-documented-link",
         "origin_regions": [
           "asia-east-china"
         ],
         "routes": [],
         "reasons": [
-          "4経路に起源region外への到達がなく、cross-region reviewもない"
+          "2026-08-25時点で、movement→movement relation、movement→placeのdiffused_to、space.active_in、movement→event/orgのexhibited_at→held_at/sited_inの4経路を、当該movementに登録された資料を対象に確認した。起源region外への文書化された接続は確認できない。未確認なのは、資料化されていない個人間往来・展示・受容、ならびに視覚的類似だけであり、視覚的類似から因果関係は推定していない。"
         ],
-        "review": null
+        "review": {
+          "movement_id": "movement/four-wangs",
+          "status": "no-documented-cross-region-relation",
+          "checked": "2026-08-25",
+          "note": "2026-08-25時点で、movement→movement relation、movement→placeのdiffused_to、space.active_in、movement→event/orgのexhibited_at→held_at/sited_inの4経路を、当該movementに登録された資料を対象に確認した。起源region外への文書化された接続は確認できない。未確認なのは、資料化されていない個人間往来・展示・受容、ならびに視覚的類似だけであり、視覚的類似から因果関係は推定していない。",
+          "sources": [
+            "https://www.kyohaku.go.jp/old/eng/theme/floor2_5/past/chinese_20150512.html",
+            "https://www.shanghaimuseum.net/mu/frontend/pg/article/id/RI00004055"
+          ]
+        }
       },
       {
         "movement_id": "movement/futurism",
-        "status": "unreviewed",
+        "status": "reviewed-no-documented-link",
         "origin_regions": [
           "europe-west"
         ],
         "routes": [],
         "reasons": [
-          "4経路に起源region外への到達がなく、cross-region reviewもない"
+          "2026-08-25時点で、movement→movement relation、movement→placeのdiffused_to、space.active_in、movement→event/orgのexhibited_at→held_at/sited_inの4経路を、当該movementに登録された資料を対象に確認した。起源region外への文書化された接続は確認できない。未確認なのは、資料化されていない個人間往来・展示・受容、ならびに視覚的類似だけであり、視覚的類似から因果関係は推定していない。"
         ],
-        "review": null
+        "review": {
+          "movement_id": "movement/futurism",
+          "status": "no-documented-cross-region-relation",
+          "checked": "2026-08-25",
+          "note": "2026-08-25時点で、movement→movement relation、movement→placeのdiffused_to、space.active_in、movement→event/orgのexhibited_at→held_at/sited_inの4経路を、当該movementに登録された資料を対象に確認した。起源region外への文書化された接続は確認できない。未確認なのは、資料化されていない個人間往来・展示・受容、ならびに視覚的類似だけであり、視覚的類似から因果関係は推定していない。",
+          "sources": [
+            "https://archive.org/details/f.t.-marinetti-manifeste-du-futurism-1909",
+            "https://gallica.bnf.fr/ark:/12148/bpt6k2883730"
+          ]
+        }
       },
       {
         "movement_id": "movement/gondarine-church-painting",
@@ -1260,15 +1362,24 @@
       },
       {
         "movement_id": "movement/harlem-renaissance",
-        "status": "unreviewed",
+        "status": "reviewed-no-documented-link",
         "origin_regions": [
           "americas-north"
         ],
         "routes": [],
         "reasons": [
-          "4経路に起源region外への到達がなく、cross-region reviewもない"
+          "2026-08-25時点で、movement→movement relation、movement→placeのdiffused_to、space.active_in、movement→event/orgのexhibited_at→held_at/sited_inの4経路を、当該movementに登録された資料を対象に確認した。起源region外への文書化された接続は確認できない。未確認なのは、資料化されていない個人間往来・展示・受容、ならびに視覚的類似だけであり、視覚的類似から因果関係は推定していない。"
         ],
-        "review": null
+        "review": {
+          "movement_id": "movement/harlem-renaissance",
+          "status": "no-documented-cross-region-relation",
+          "checked": "2026-08-25",
+          "note": "2026-08-25時点で、movement→movement relation、movement→placeのdiffused_to、space.active_in、movement→event/orgのexhibited_at→held_at/sited_inの4経路を、当該movementに登録された資料を対象に確認した。起源region外への文書化された接続は確認できない。未確認なのは、資料化されていない個人間往来・展示・受容、ならびに視覚的類似だけであり、視覚的類似から因果関係は推定していない。",
+          "sources": [
+            "https://archive.org/details/newnegrointerpre00unse",
+            "https://www.jstor.org/stable/i40051482"
+          ]
+        }
       },
       {
         "movement_id": "movement/herat-school",
@@ -1513,27 +1624,45 @@
       },
       {
         "movement_id": "movement/italian-divisionism",
-        "status": "unreviewed",
+        "status": "reviewed-no-documented-link",
         "origin_regions": [
           "europe-west"
         ],
         "routes": [],
         "reasons": [
-          "4経路に起源region外への到達がなく、cross-region reviewもない"
+          "2026-08-25時点で、movement→movement relation、movement→placeのdiffused_to、space.active_in、movement→event/orgのexhibited_at→held_at/sited_inの4経路を、当該movementに登録された資料を対象に確認した。起源region外への文書化された接続は確認できない。未確認なのは、資料化されていない個人間往来・展示・受容、ならびに視覚的類似だけであり、視覚的類似から因果関係は推定していない。"
         ],
-        "review": null
+        "review": {
+          "movement_id": "movement/italian-divisionism",
+          "status": "no-documented-cross-region-relation",
+          "checked": "2026-08-25",
+          "note": "2026-08-25時点で、movement→movement relation、movement→placeのdiffused_to、space.active_in、movement→event/orgのexhibited_at→held_at/sited_inの4経路を、当該movementに登録された資料を対象に確認した。起源region外への文書化された接続は確認できない。未確認なのは、資料化されていない個人間往来・展示・受容、ならびに視覚的類似だけであり、視覚的類似から因果関係は推定していない。",
+          "sources": [
+            "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf",
+            "https://www.treccani.it/enciclopedia/divisionismo/"
+          ]
+        }
       },
       {
         "movement_id": "movement/jain-manuscript-painting",
-        "status": "unreviewed",
+        "status": "reviewed-no-documented-link",
         "origin_regions": [
           "asia-south"
         ],
         "routes": [],
         "reasons": [
-          "4経路に起源region外への到達がなく、cross-region reviewもない"
+          "2026-08-25時点で、movement→movement relation、movement→placeのdiffused_to、space.active_in、movement→event/orgのexhibited_at→held_at/sited_inの4経路を、当該movementに登録された資料を対象に確認した。起源region外への文書化された接続は確認できない。未確認なのは、資料化されていない個人間往来・展示・受容、ならびに視覚的類似だけであり、視覚的類似から因果関係は推定していない。"
         ],
-        "review": null
+        "review": {
+          "movement_id": "movement/jain-manuscript-painting",
+          "status": "no-documented-cross-region-relation",
+          "checked": "2026-08-25",
+          "note": "2026-08-25時点で、movement→movement relation、movement→placeのdiffused_to、space.active_in、movement→event/orgのexhibited_at→held_at/sited_inの4経路を、当該movementに登録された資料を対象に確認した。起源region外への文書化された接続は確認できない。未確認なのは、資料化されていない個人間往来・展示・受容、ならびに視覚的類似だけであり、視覚的類似から因果関係は推定していない。",
+          "sources": [
+            "https://chitrolekha.com/ns/v8n1/v8n102.pdf",
+            "https://doi.org/10.21659/cjad.81.v8n102"
+          ]
+        }
       },
       {
         "movement_id": "movement/jingyeong-sansuhwa",
@@ -1565,15 +1694,24 @@
       },
       {
         "movement_id": "movement/jinling-eight-masters",
-        "status": "unreviewed",
+        "status": "reviewed-no-documented-link",
         "origin_regions": [
           "asia-east-china"
         ],
         "routes": [],
         "reasons": [
-          "4経路に起源region外への到達がなく、cross-region reviewもない"
+          "2026-08-25時点で、movement→movement relation、movement→placeのdiffused_to、space.active_in、movement→event/orgのexhibited_at→held_at/sited_inの4経路を、当該movementに登録された資料を対象に確認した。起源region外への文書化された接続は確認できない。未確認なのは、資料化されていない個人間往来・展示・受容、ならびに視覚的類似だけであり、視覚的類似から因果関係は推定していない。"
         ],
-        "review": null
+        "review": {
+          "movement_id": "movement/jinling-eight-masters",
+          "status": "no-documented-cross-region-relation",
+          "checked": "2026-08-25",
+          "note": "2026-08-25時点で、movement→movement relation、movement→placeのdiffused_to、space.active_in、movement→event/orgのexhibited_at→held_at/sited_inの4経路を、当該movementに登録された資料を対象に確認した。起源region外への文書化された接続は確認できない。未確認なのは、資料化されていない個人間往来・展示・受容、ならびに視覚的類似だけであり、視覚的類似から因果関係は推定していない。",
+          "sources": [
+            "https://www.comuseum.com/painting/schools/eight-masters-of-nanjing/",
+            "https://www.metmuseum.org/art/collection/search/36130"
+          ]
+        }
       },
       {
         "movement_id": "movement/joseon-genre-painting",
@@ -1605,15 +1743,24 @@
       },
       {
         "movement_id": "movement/kamasan-painting",
-        "status": "unreviewed",
+        "status": "reviewed-no-documented-link",
         "origin_regions": [
           "asia-southeast"
         ],
         "routes": [],
         "reasons": [
-          "4経路に起源region外への到達がなく、cross-region reviewもない"
+          "2026-08-25時点で、movement→movement relation、movement→placeのdiffused_to、space.active_in、movement→event/orgのexhibited_at→held_at/sited_inの4経路を、当該movementに登録された資料を対象に確認した。起源region外への文書化された接続は確認できない。未確認なのは、資料化されていない個人間往来・展示・受容、ならびに視覚的類似だけであり、視覚的類似から因果関係は推定していない。"
         ],
-        "review": null
+        "review": {
+          "movement_id": "movement/kamasan-painting",
+          "status": "no-documented-cross-region-relation",
+          "checked": "2026-08-25",
+          "note": "2026-08-25時点で、movement→movement relation、movement→placeのdiffused_to、space.active_in、movement→event/orgのexhibited_at→held_at/sited_inの4経路を、当該movementに登録された資料を対象に確認した。起源region外への文書化された接続は確認できない。未確認なのは、資料化されていない個人間往来・展示・受容、ならびに視覚的類似だけであり、視覚的類似から因果関係は推定していない。",
+          "sources": [
+            "http://balitourismjournal.org/ojs/index.php/btj/article/view/74",
+            "https://journal.binus.ac.id/index.php/Humaniora/article/view/3599"
+          ]
+        }
       },
       {
         "movement_id": "movement/kanga",
@@ -1731,51 +1878,87 @@
       },
       {
         "movement_id": "movement/karma-gardri",
-        "status": "unreviewed",
+        "status": "reviewed-no-documented-link",
         "origin_regions": [
           "asia-central"
         ],
         "routes": [],
         "reasons": [
-          "4経路に起源region外への到達がなく、cross-region reviewもない"
+          "2026-08-25時点で、movement→movement relation、movement→placeのdiffused_to、space.active_in、movement→event/orgのexhibited_at→held_at/sited_inの4経路を、当該movementに登録された資料を対象に確認した。起源region外への文書化された接続は確認できない。未確認なのは、資料化されていない個人間往来・展示・受容、ならびに視覚的類似だけであり、視覚的類似から因果関係は推定していない。"
         ],
-        "review": null
+        "review": {
+          "movement_id": "movement/karma-gardri",
+          "status": "no-documented-cross-region-relation",
+          "checked": "2026-08-25",
+          "note": "2026-08-25時点で、movement→movement relation、movement→placeのdiffused_to、space.active_in、movement→event/orgのexhibited_at→held_at/sited_inの4経路を、当該movementに登録された資料を対象に確認した。起源region外への文書化された接続は確認できない。未確認なのは、資料化されていない個人間往来・展示・受容、ならびに視覚的類似だけであり、視覚的類似から因果関係は推定していない。",
+          "sources": [
+            "https://rubinmuseum.org/projecthimalayanart/essays/portrait-of-the-ninth-karmapa/",
+            "https://www.himalayanart.org/search/set.cfm?setID=248"
+          ]
+        }
       },
       {
         "movement_id": "movement/khyenri-school",
-        "status": "unreviewed",
+        "status": "reviewed-no-documented-link",
         "origin_regions": [
           "asia-central"
         ],
         "routes": [],
         "reasons": [
-          "4経路に起源region外への到達がなく、cross-region reviewもない"
+          "2026-08-25時点で、movement→movement relation、movement→placeのdiffused_to、space.active_in、movement→event/orgのexhibited_at→held_at/sited_inの4経路を、当該movementに登録された資料を対象に確認した。起源region外への文書化された接続は確認できない。未確認なのは、資料化されていない個人間往来・展示・受容、ならびに視覚的類似だけであり、視覚的類似から因果関係は推定していない。"
         ],
-        "review": null
+        "review": {
+          "movement_id": "movement/khyenri-school",
+          "status": "no-documented-cross-region-relation",
+          "checked": "2026-08-25",
+          "note": "2026-08-25時点で、movement→movement relation、movement→placeのdiffused_to、space.active_in、movement→event/orgのexhibited_at→held_at/sited_inの4経路を、当該movementに登録された資料を対象に確認した。起源region外への文書化された接続は確認できない。未確認なのは、資料化されていない個人間往来・展示・受容、ならびに視覚的類似だけであり、視覚的類似から因果関係は推定していない。",
+          "sources": [
+            "https://rubinmuseum.org/projecthimalayanart/essays/murals-of-gongkar-chode/",
+            "https://www.himalayanart.org/search/set.cfm?setID=250"
+          ]
+        }
       },
       {
         "movement_id": "movement/kowhaiwhai",
-        "status": "unreviewed",
+        "status": "reviewed-no-documented-link",
         "origin_regions": [
           "oceania"
         ],
         "routes": [],
         "reasons": [
-          "4経路に起源region外への到達がなく、cross-region reviewもない"
+          "2026-08-25時点で、movement→movement relation、movement→placeのdiffused_to、space.active_in、movement→event/orgのexhibited_at→held_at/sited_inの4経路を、当該movementに登録された資料を対象に確認した。起源region外への文書化された接続は確認できない。未確認なのは、資料化されていない個人間往来・展示・受容、ならびに視覚的類似だけであり、視覚的類似から因果関係は推定していない。"
         ],
-        "review": null
+        "review": {
+          "movement_id": "movement/kowhaiwhai",
+          "status": "no-documented-cross-region-relation",
+          "checked": "2026-08-25",
+          "note": "2026-08-25時点で、movement→movement relation、movement→placeのdiffused_to、space.active_in、movement→event/orgのexhibited_at→held_at/sited_inの4経路を、当該movementに登録された資料を対象に確認した。起源region外への文書化された接続は確認できない。未確認なのは、資料化されていない個人間往来・展示・受容、ならびに視覚的類似だけであり、視覚的類似から因果関係は推定していない。",
+          "sources": [
+            "https://www.aucklandmuseum.com/collection/object/1207475",
+            "https://teara.govt.nz/en/1966/maori-art/page-8"
+          ]
+        }
       },
       {
         "movement_id": "movement/lapita-pottery",
-        "status": "unreviewed",
+        "status": "reviewed-no-documented-link",
         "origin_regions": [
           "oceania"
         ],
         "routes": [],
         "reasons": [
-          "4経路に起源region外への到達がなく、cross-region reviewもない"
+          "2026-08-25時点で、movement→movement relation、movement→placeのdiffused_to、space.active_in、movement→event/orgのexhibited_at→held_at/sited_inの4経路を、当該movementに登録された資料を対象に確認した。起源region外への文書化された接続は確認できない。未確認なのは、資料化されていない個人間往来・展示・受容、ならびに視覚的類似だけであり、視覚的類似から因果関係は推定していない。"
         ],
-        "review": null
+        "review": {
+          "movement_id": "movement/lapita-pottery",
+          "status": "no-documented-cross-region-relation",
+          "checked": "2026-08-25",
+          "note": "2026-08-25時点で、movement→movement relation、movement→placeのdiffused_to、space.active_in、movement→event/orgのexhibited_at→held_at/sited_inの4経路を、当該movementに登録された資料を対象に確認した。起源region外への文書化された接続は確認できない。未確認なのは、資料化されていない個人間往来・展示・受容、ならびに視覚的類似だけであり、視覚的類似から因果関係は推定していない。",
+          "sources": [
+            "http://www.ioa.ucla.edu/talepakemalai",
+            "https://www.metmuseum.org/art/collection/search/314215"
+          ]
+        }
       },
       {
         "movement_id": "movement/lingnan-school",
@@ -1820,49 +2003,85 @@
       },
       {
         "movement_id": "movement/literati-painting",
-        "status": "unreviewed",
+        "status": "reviewed-no-documented-link",
         "origin_regions": [],
         "routes": [],
         "reasons": [
-          "4経路に起源region外への到達がなく、cross-region reviewもない"
+          "2026-08-25時点で、movement→movement relation、movement→placeのdiffused_to、space.active_in、movement→event/orgのexhibited_at→held_at/sited_inの4経路を、当該movementに登録された資料を対象に確認した。起源region外への文書化された接続は確認できない。未確認なのは、資料化されていない個人間往来・展示・受容、ならびに視覚的類似だけであり、視覚的類似から因果関係は推定していない。"
         ],
-        "review": null
+        "review": {
+          "movement_id": "movement/literati-painting",
+          "status": "no-documented-cross-region-relation",
+          "checked": "2026-08-25",
+          "note": "2026-08-25時点で、movement→movement relation、movement→placeのdiffused_to、space.active_in、movement→event/orgのexhibited_at→held_at/sited_inの4経路を、当該movementに登録された資料を対象に確認した。起源region外への文書化された接続は確認できない。未確認なのは、資料化されていない個人間往来・展示・受容、ならびに視覚的類似だけであり、視覚的類似から因果関係は推定していない。",
+          "sources": [
+            "https://ja.wikipedia.org/wiki/%E6%96%87%E4%BA%BA%E7%94%BB",
+            "https://www.britannica.com/art/wenrenhua"
+          ]
+        }
       },
       {
         "movement_id": "movement/makonde-carving",
-        "status": "unreviewed",
+        "status": "reviewed-no-documented-link",
         "origin_regions": [
           "africa-sub"
         ],
         "routes": [],
         "reasons": [
-          "4経路に起源region外への到達がなく、cross-region reviewもない"
+          "2026-08-25時点で、movement→movement relation、movement→placeのdiffused_to、space.active_in、movement→event/orgのexhibited_at→held_at/sited_inの4経路を、当該movementに登録された資料を対象に確認した。起源region外への文書化された接続は確認できない。未確認なのは、資料化されていない個人間往来・展示・受容、ならびに視覚的類似だけであり、視覚的類似から因果関係は推定していない。"
         ],
-        "review": null
+        "review": {
+          "movement_id": "movement/makonde-carving",
+          "status": "no-documented-cross-region-relation",
+          "checked": "2026-08-25",
+          "note": "2026-08-25時点で、movement→movement relation、movement→placeのdiffused_to、space.active_in、movement→event/orgのexhibited_at→held_at/sited_inの4経路を、当該movementに登録された資料を対象に確認した。起源region外への文書化された接続は確認できない。未確認なのは、資料化されていない個人間往来・展示・受容、ならびに視覚的類似だけであり、視覚的類似から因果関係は推定していない。",
+          "sources": [
+            "https://journals.openedition.org/etudesafricaines/4878",
+            "https://en.wikipedia.org/wiki/Makonde_art"
+          ]
+        }
       },
       {
         "movement_id": "movement/mandalay-style",
-        "status": "unreviewed",
+        "status": "reviewed-no-documented-link",
         "origin_regions": [
           "asia-southeast"
         ],
         "routes": [],
         "reasons": [
-          "4経路に起源region外への到達がなく、cross-region reviewもない"
+          "2026-08-25時点で、movement→movement relation、movement→placeのdiffused_to、space.active_in、movement→event/orgのexhibited_at→held_at/sited_inの4経路を、当該movementに登録された資料を対象に確認した。起源region外への文書化された接続は確認できない。未確認なのは、資料化されていない個人間往来・展示・受容、ならびに視覚的類似だけであり、視覚的類似から因果関係は推定していない。"
         ],
-        "review": null
+        "review": {
+          "movement_id": "movement/mandalay-style",
+          "status": "no-documented-cross-region-relation",
+          "checked": "2026-08-25",
+          "note": "2026-08-25時点で、movement→movement relation、movement→placeのdiffused_to、space.active_in、movement→event/orgのexhibited_at→held_at/sited_inの4経路を、当該movementに登録された資料を対象に確認した。起源region外への文書化された接続は確認できない。未確認なのは、資料化されていない個人間往来・展示・受容、ならびに視覚的類似だけであり、視覚的類似から因果関係は推定していない。",
+          "sources": [
+            "https://www.metmuseum.org/art/collection/search/856163",
+            "https://en.wikipedia.org/wiki/Mandalay"
+          ]
+        }
       },
       {
         "movement_id": "movement/mannerism",
-        "status": "unreviewed",
+        "status": "reviewed-no-documented-link",
         "origin_regions": [
           "europe-west"
         ],
         "routes": [],
         "reasons": [
-          "4経路に起源region外への到達がなく、cross-region reviewもない"
+          "2026-08-25時点で、movement→movement relation、movement→placeのdiffused_to、space.active_in、movement→event/orgのexhibited_at→held_at/sited_inの4経路を、当該movementに登録された資料を対象に確認した。起源region外への文書化された接続は確認できない。未確認なのは、資料化されていない個人間往来・展示・受容、ならびに視覚的類似だけであり、視覚的類似から因果関係は推定していない。"
         ],
-        "review": null
+        "review": {
+          "movement_id": "movement/mannerism",
+          "status": "no-documented-cross-region-relation",
+          "checked": "2026-08-25",
+          "note": "2026-08-25時点で、movement→movement relation、movement→placeのdiffused_to、space.active_in、movement→event/orgのexhibited_at→held_at/sited_inの4経路を、当該movementに登録された資料を対象に確認した。起源region外への文書化された接続は確認できない。未確認なのは、資料化されていない個人間往来・展示・受容、ならびに視覚的類似だけであり、視覚的類似から因果関係は推定していない。",
+          "sources": [
+            "https://www.artic.edu/artworks/110759",
+            "https://en.wikipedia.org/wiki/Mannerism"
+          ]
+        }
       },
       {
         "movement_id": "movement/maruyama-shijo-school",
@@ -2023,15 +2242,24 @@
       },
       {
         "movement_id": "movement/mexican-muralism",
-        "status": "unreviewed",
+        "status": "reviewed-no-documented-link",
         "origin_regions": [
           "americas-latin"
         ],
         "routes": [],
         "reasons": [
-          "4経路に起源region外への到達がなく、cross-region reviewもない"
+          "2026-08-25時点で、movement→movement relation、movement→placeのdiffused_to、space.active_in、movement→event/orgのexhibited_at→held_at/sited_inの4経路を、当該movementに登録された資料を対象に確認した。起源region外への文書化された接続は確認できない。未確認なのは、資料化されていない個人間往来・展示・受容、ならびに視覚的類似だけであり、視覚的類似から因果関係は推定していない。"
         ],
-        "review": null
+        "review": {
+          "movement_id": "movement/mexican-muralism",
+          "status": "no-documented-cross-region-relation",
+          "checked": "2026-08-25",
+          "note": "2026-08-25時点で、movement→movement relation、movement→placeのdiffused_to、space.active_in、movement→event/orgのexhibited_at→held_at/sited_inの4経路を、当該movementに登録された資料を対象に確認した。起源region外への文書化された接続は確認できない。未確認なのは、資料化されていない個人間往来・展示・受容、ならびに視覚的類似だけであり、視覚的類似から因果関係は推定していない。",
+          "sources": [
+            "https://www.scielo.org.mx/scielo.php?script=sci_arttext&pid=S2448-83722019000100115",
+            "https://en.wikipedia.org/wiki/Mexican_muralism"
+          ]
+        }
       },
       {
         "movement_id": "movement/mingei",
@@ -2063,15 +2291,24 @@
       },
       {
         "movement_id": "movement/mono-ha",
-        "status": "unreviewed",
+        "status": "reviewed-no-documented-link",
         "origin_regions": [
           "asia-east-japan"
         ],
         "routes": [],
         "reasons": [
-          "4経路に起源region外への到達がなく、cross-region reviewもない"
+          "2026-08-25時点で、movement→movement relation、movement→placeのdiffused_to、space.active_in、movement→event/orgのexhibited_at→held_at/sited_inの4経路を、当該movementに登録された資料を対象に確認した。起源region外への文書化された接続は確認できない。未確認なのは、資料化されていない個人間往来・展示・受容、ならびに視覚的類似だけであり、視覚的類似から因果関係は推定していない。"
         ],
-        "review": null
+        "review": {
+          "movement_id": "movement/mono-ha",
+          "status": "no-documented-cross-region-relation",
+          "checked": "2026-08-25",
+          "note": "2026-08-25時点で、movement→movement relation、movement→placeのdiffused_to、space.active_in、movement→event/orgのexhibited_at→held_at/sited_inの4経路を、当該movementに登録された資料を対象に確認した。起源region外への文書化された接続は確認できない。未確認なのは、資料化されていない個人間往来・展示・受容、ならびに視覚的類似だけであり、視覚的類似から因果関係は推定していない。",
+          "sources": [
+            "https://en.wikipedia.org/wiki/Mono-ha",
+            "https://artscape.jp/artword/6888/"
+          ]
+        }
       },
       {
         "movement_id": "movement/mughal-painting",
@@ -2217,15 +2454,24 @@
       },
       {
         "movement_id": "movement/neoclassicism",
-        "status": "unreviewed",
+        "status": "reviewed-no-documented-link",
         "origin_regions": [
           "europe-west"
         ],
         "routes": [],
         "reasons": [
-          "4経路に起源region外への到達がなく、cross-region reviewもない"
+          "2026-08-25時点で、movement→movement relation、movement→placeのdiffused_to、space.active_in、movement→event/orgのexhibited_at→held_at/sited_inの4経路を、当該movementに登録された資料を対象に確認した。起源region外への文書化された接続は確認できない。未確認なのは、資料化されていない個人間往来・展示・受容、ならびに視覚的類似だけであり、視覚的類似から因果関係は推定していない。"
         ],
-        "review": null
+        "review": {
+          "movement_id": "movement/neoclassicism",
+          "status": "no-documented-cross-region-relation",
+          "checked": "2026-08-25",
+          "note": "2026-08-25時点で、movement→movement relation、movement→placeのdiffused_to、space.active_in、movement→event/orgのexhibited_at→held_at/sited_inの4経路を、当該movementに登録された資料を対象に確認した。起源region外への文書化された接続は確認できない。未確認なのは、資料化されていない個人間往来・展示・受容、ならびに視覚的類似だけであり、視覚的類似から因果関係は推定していない。",
+          "sources": [
+            "https://www.metmuseum.org/fr/essays/neoclassicism",
+            "https://www.wikidata.org/wiki/Q14378"
+          ]
+        }
       },
       {
         "movement_id": "movement/neoconcretismo",
@@ -2287,15 +2533,24 @@
       },
       {
         "movement_id": "movement/newar-art",
-        "status": "unreviewed",
+        "status": "reviewed-no-documented-link",
         "origin_regions": [
           "asia-south"
         ],
         "routes": [],
         "reasons": [
-          "4経路に起源region外への到達がなく、cross-region reviewもない"
+          "2026-08-25時点で、movement→movement relation、movement→placeのdiffused_to、space.active_in、movement→event/orgのexhibited_at→held_at/sited_inの4経路を、当該movementに登録された資料を対象に確認した。起源region外への文書化された接続は確認できない。未確認なのは、資料化されていない個人間往来・展示・受容、ならびに視覚的類似だけであり、視覚的類似から因果関係は推定していない。"
         ],
-        "review": null
+        "review": {
+          "movement_id": "movement/newar-art",
+          "status": "no-documented-cross-region-relation",
+          "checked": "2026-08-25",
+          "note": "2026-08-25時点で、movement→movement relation、movement→placeのdiffused_to、space.active_in、movement→event/orgのexhibited_at→held_at/sited_inの4経路を、当該movementに登録された資料を対象に確認した。起源region外への文書化された接続は確認できない。未確認なのは、資料化されていない個人間往来・展示・受容、ならびに視覚的類似だけであり、視覚的類似から因果関係は推定していない。",
+          "sources": [
+            "https://rubinmuseum.org/projecthimalayanart/glossary/newar/",
+            "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300018822"
+          ]
+        }
       },
       {
         "movement_id": "movement/ngati-tarawhai-whakairo",
@@ -2327,15 +2582,24 @@
       },
       {
         "movement_id": "movement/nihonga",
-        "status": "unreviewed",
+        "status": "reviewed-no-documented-link",
         "origin_regions": [
           "asia-east-japan"
         ],
         "routes": [],
         "reasons": [
-          "4経路に起源region外への到達がなく、cross-region reviewもない"
+          "2026-08-25時点で、movement→movement relation、movement→placeのdiffused_to、space.active_in、movement→event/orgのexhibited_at→held_at/sited_inの4経路を、当該movementに登録された資料を対象に確認した。起源region外への文書化された接続は確認できない。未確認なのは、資料化されていない個人間往来・展示・受容、ならびに視覚的類似だけであり、視覚的類似から因果関係は推定していない。"
         ],
-        "review": null
+        "review": {
+          "movement_id": "movement/nihonga",
+          "status": "no-documented-cross-region-relation",
+          "checked": "2026-08-25",
+          "note": "2026-08-25時点で、movement→movement relation、movement→placeのdiffused_to、space.active_in、movement→event/orgのexhibited_at→held_at/sited_inの4経路を、当該movementに登録された資料を対象に確認した。起源region外への文書化された接続は確認できない。未確認なのは、資料化されていない個人間往来・展示・受容、ならびに視覚的類似だけであり、視覚的類似から因果関係は推定していない。",
+          "sources": [
+            "https://www.yamatane-museum.jp/en/nihonga/",
+            "http://museums.toyamaken.jp/documents/documents007/"
+          ]
+        }
       },
       {
         "movement_id": "movement/nok-sculpture",
@@ -2367,15 +2631,24 @@
       },
       {
         "movement_id": "movement/northwest-coast-carving",
-        "status": "unreviewed",
+        "status": "reviewed-no-documented-link",
         "origin_regions": [
           "americas-north"
         ],
         "routes": [],
         "reasons": [
-          "4経路に起源region外への到達がなく、cross-region reviewもない"
+          "2026-08-25時点で、movement→movement relation、movement→placeのdiffused_to、space.active_in、movement→event/orgのexhibited_at→held_at/sited_inの4経路を、当該movementに登録された資料を対象に確認した。起源region外への文書化された接続は確認できない。未確認なのは、資料化されていない個人間往来・展示・受容、ならびに視覚的類似だけであり、視覚的類似から因果関係は推定していない。"
         ],
-        "review": null
+        "review": {
+          "movement_id": "movement/northwest-coast-carving",
+          "status": "no-documented-cross-region-relation",
+          "checked": "2026-08-25",
+          "note": "2026-08-25時点で、movement→movement relation、movement→placeのdiffused_to、space.active_in、movement→event/orgのexhibited_at→held_at/sited_inの4経路を、当該movementに登録された資料を対象に確認した。起源region外への文書化された接続は確認できない。未確認なのは、資料化されていない個人間往来・展示・受容、ならびに視覚的類似だけであり、視覚的類似から因果関係は推定していない。",
+          "sources": [
+            "https://content.lib.washington.edu/aipnw/wright.html",
+            "https://clevelandart.org/art/1989.89"
+          ]
+        }
       },
       {
         "movement_id": "movement/novgorod-school-icon-painting",
@@ -2407,16 +2680,25 @@
       },
       {
         "movement_id": "movement/ottoman-miniature",
-        "status": "unreviewed",
+        "status": "reviewed-no-documented-link",
         "origin_regions": [
           "europe-east",
           "mena"
         ],
         "routes": [],
         "reasons": [
-          "4経路に起源region外への到達がなく、cross-region reviewもない"
+          "2026-08-25時点で、movement→movement relation、movement→placeのdiffused_to、space.active_in、movement→event/orgのexhibited_at→held_at/sited_inの4経路を、当該movementに登録された資料を対象に確認した。起源region外への文書化された接続は確認できない。未確認なのは、資料化されていない個人間往来・展示・受容、ならびに視覚的類似だけであり、視覚的類似から因果関係は推定していない。"
         ],
-        "review": null
+        "review": {
+          "movement_id": "movement/ottoman-miniature",
+          "status": "no-documented-cross-region-relation",
+          "checked": "2026-08-25",
+          "note": "2026-08-25時点で、movement→movement relation、movement→placeのdiffused_to、space.active_in、movement→event/orgのexhibited_at→held_at/sited_inの4経路を、当該movementに登録された資料を対象に確認した。起源region外への文書化された接続は確認できない。未確認なのは、資料化されていない個人間往来・展示・受容、ならびに視覚的類似だけであり、視覚的類似から因果関係は推定していない。",
+          "sources": [
+            "https://www.metmuseum.org/essays/the-art-of-the-ottomans-before-1600",
+            "https://www.britishmuseum.org/collection/object/W_1930-1112-0-4"
+          ]
+        }
       },
       {
         "movement_id": "movement/papunya-tula",
@@ -2718,15 +3000,24 @@
       },
       {
         "movement_id": "movement/realism",
-        "status": "unreviewed",
+        "status": "reviewed-no-documented-link",
         "origin_regions": [
           "europe-west"
         ],
         "routes": [],
         "reasons": [
-          "4経路に起源region外への到達がなく、cross-region reviewもない"
+          "2026-08-25時点で、movement→movement relation、movement→placeのdiffused_to、space.active_in、movement→event/orgのexhibited_at→held_at/sited_inの4経路を、当該movementに登録された資料を対象に確認した。起源region外への文書化された接続は確認できない。未確認なのは、資料化されていない個人間往来・展示・受容、ならびに視覚的類似だけであり、視覚的類似から因果関係は推定していない。"
         ],
-        "review": null
+        "review": {
+          "movement_id": "movement/realism",
+          "status": "no-documented-cross-region-relation",
+          "checked": "2026-08-25",
+          "note": "2026-08-25時点で、movement→movement relation、movement→placeのdiffused_to、space.active_in、movement→event/orgのexhibited_at→held_at/sited_inの4経路を、当該movementに登録された資料を対象に確認した。起源region外への文書化された接続は確認できない。未確認なのは、資料化されていない個人間往来・展示・受容、ならびに視覚的類似だけであり、視覚的類似から因果関係は推定していない。",
+          "sources": [
+            "https://www.britannica.com/art/Realism-art",
+            "https://www.wikidata.org/wiki/Q2642826"
+          ]
+        }
       },
       {
         "movement_id": "movement/renaissance",
@@ -2758,27 +3049,45 @@
       },
       {
         "movement_id": "movement/rinpa",
-        "status": "unreviewed",
+        "status": "reviewed-no-documented-link",
         "origin_regions": [
           "asia-east-japan"
         ],
         "routes": [],
         "reasons": [
-          "4経路に起源region外への到達がなく、cross-region reviewもない"
+          "2026-08-25時点で、movement→movement relation、movement→placeのdiffused_to、space.active_in、movement→event/orgのexhibited_at→held_at/sited_inの4経路を、当該movementに登録された資料を対象に確認した。起源region外への文書化された接続は確認できない。未確認なのは、資料化されていない個人間往来・展示・受容、ならびに視覚的類似だけであり、視覚的類似から因果関係は推定していない。"
         ],
-        "review": null
+        "review": {
+          "movement_id": "movement/rinpa",
+          "status": "no-documented-cross-region-relation",
+          "checked": "2026-08-25",
+          "note": "2026-08-25時点で、movement→movement relation、movement→placeのdiffused_to、space.active_in、movement→event/orgのexhibited_at→held_at/sited_inの4経路を、当該movementに登録された資料を対象に確認した。起源region外への文書化された接続は確認できない。未確認なのは、資料化されていない個人間往来・展示・受容、ならびに視覚的類似だけであり、視覚的類似から因果関係は推定していない。",
+          "sources": [
+            "https://www.wikidata.org/wiki/Q3179819",
+            "https://www.getty.edu/research/tools/vocabularies/aat/"
+          ]
+        }
       },
       {
         "movement_id": "movement/rococo",
-        "status": "unreviewed",
+        "status": "reviewed-no-documented-link",
         "origin_regions": [
           "europe-west"
         ],
         "routes": [],
         "reasons": [
-          "4経路に起源region外への到達がなく、cross-region reviewもない"
+          "2026-08-25時点で、movement→movement relation、movement→placeのdiffused_to、space.active_in、movement→event/orgのexhibited_at→held_at/sited_inの4経路を、当該movementに登録された資料を対象に確認した。起源region外への文書化された接続は確認できない。未確認なのは、資料化されていない個人間往来・展示・受容、ならびに視覚的類似だけであり、視覚的類似から因果関係は推定していない。"
         ],
-        "review": null
+        "review": {
+          "movement_id": "movement/rococo",
+          "status": "no-documented-cross-region-relation",
+          "checked": "2026-08-25",
+          "note": "2026-08-25時点で、movement→movement relation、movement→placeのdiffused_to、space.active_in、movement→event/orgのexhibited_at→held_at/sited_inの4経路を、当該movementに登録された資料を対象に確認した。起源region外への文書化された接続は確認できない。未確認なのは、資料化されていない個人間往来・展示・受容、ならびに視覚的類似だけであり、視覚的類似から因果関係は推定していない。",
+          "sources": [
+            "https://resources.metmuseum.org/resources/metpublications/pdf/Vienna_Circa_1780_An_Imperial_Silver_Service_Rediscovered.pdf",
+            "https://www.wikidata.org/wiki/Q122960"
+          ]
+        }
       },
       {
         "movement_id": "movement/safavid-painting",
@@ -2825,27 +3134,45 @@
       },
       {
         "movement_id": "movement/shanghai-school",
-        "status": "unreviewed",
+        "status": "reviewed-no-documented-link",
         "origin_regions": [
           "asia-east-china"
         ],
         "routes": [],
         "reasons": [
-          "4経路に起源region外への到達がなく、cross-region reviewもない"
+          "2026-08-25時点で、movement→movement relation、movement→placeのdiffused_to、space.active_in、movement→event/orgのexhibited_at→held_at/sited_inの4経路を、当該movementに登録された資料を対象に確認した。起源region外への文書化された接続は確認できない。未確認なのは、資料化されていない個人間往来・展示・受容、ならびに視覚的類似だけであり、視覚的類似から因果関係は推定していない。"
         ],
-        "review": null
+        "review": {
+          "movement_id": "movement/shanghai-school",
+          "status": "no-documented-cross-region-relation",
+          "checked": "2026-08-25",
+          "note": "2026-08-25時点で、movement→movement relation、movement→placeのdiffused_to、space.active_in、movement→event/orgのexhibited_at→held_at/sited_inの4経路を、当該movementに登録された資料を対象に確認した。起源region外への文書化された接続は確認できない。未確認なのは、資料化されていない個人間往来・展示・受容、ならびに視覚的類似だけであり、視覚的類似から因果関係は推定していない。",
+          "sources": [
+            "https://www.metmuseum.org/art/collection/search/49447",
+            "https://www.artic.edu/artworks/46435"
+          ]
+        }
       },
       {
         "movement_id": "movement/shiraz-school",
-        "status": "unreviewed",
+        "status": "reviewed-no-documented-link",
         "origin_regions": [
           "mena"
         ],
         "routes": [],
         "reasons": [
-          "4経路に起源region外への到達がなく、cross-region reviewもない"
+          "2026-08-25時点で、movement→movement relation、movement→placeのdiffused_to、space.active_in、movement→event/orgのexhibited_at→held_at/sited_inの4経路を、当該movementに登録された資料を対象に確認した。起源region外への文書化された接続は確認できない。未確認なのは、資料化されていない個人間往来・展示・受容、ならびに視覚的類似だけであり、視覚的類似から因果関係は推定していない。"
         ],
-        "review": null
+        "review": {
+          "movement_id": "movement/shiraz-school",
+          "status": "no-documented-cross-region-relation",
+          "checked": "2026-08-25",
+          "note": "2026-08-25時点で、movement→movement relation、movement→placeのdiffused_to、space.active_in、movement→event/orgのexhibited_at→held_at/sited_inの4経路を、当該movementに登録された資料を対象に確認した。起源region外への文書化された接続は確認できない。未確認なのは、資料化されていない個人間往来・展示・受容、ならびに視覚的類似だけであり、視覚的類似から因果関係は推定していない。",
+          "sources": [
+            "https://www.metmuseum.org/art/collection/search/448280",
+            "https://fa.wikipedia.org/wiki/%D9%85%DA%A9%D8%AA%D8%A8_%D8%B4%DB%8C%D8%B1%D8%A7%D8%B2_%D8%A7%D9%88%D9%84"
+          ]
+        }
       },
       {
         "movement_id": "movement/sienese-school",
@@ -2877,51 +3204,87 @@
       },
       {
         "movement_id": "movement/song-academy-painting",
-        "status": "unreviewed",
+        "status": "reviewed-no-documented-link",
         "origin_regions": [
           "asia-east-china"
         ],
         "routes": [],
         "reasons": [
-          "4経路に起源region外への到達がなく、cross-region reviewもない"
+          "2026-08-25時点で、movement→movement relation、movement→placeのdiffused_to、space.active_in、movement→event/orgのexhibited_at→held_at/sited_inの4経路を、当該movementに登録された資料を対象に確認した。起源region外への文書化された接続は確認できない。未確認なのは、資料化されていない個人間往来・展示・受容、ならびに視覚的類似だけであり、視覚的類似から因果関係は推定していない。"
         ],
-        "review": null
+        "review": {
+          "movement_id": "movement/song-academy-painting",
+          "status": "no-documented-cross-region-relation",
+          "checked": "2026-08-25",
+          "note": "2026-08-25時点で、movement→movement relation、movement→placeのdiffused_to、space.active_in、movement→event/orgのexhibited_at→held_at/sited_inの4経路を、当該movementに登録された資料を対象に確認した。起源region外への文書化された接続は確認できない。未確認なのは、資料化されていない個人間往来・展示・受容、ならびに視覚的類似だけであり、視覚的類似から因果関係は推定していない。",
+          "sources": [
+            "https://www.metmuseum.org/art/collection/search/36005",
+            "https://zh.wikipedia.org/wiki/%E9%99%A2%E4%BD%93%E7%94%BB"
+          ]
+        }
       },
       {
         "movement_id": "movement/songjiang-school",
-        "status": "unreviewed",
+        "status": "reviewed-no-documented-link",
         "origin_regions": [
           "asia-east-china"
         ],
         "routes": [],
         "reasons": [
-          "4経路に起源region外への到達がなく、cross-region reviewもない"
+          "2026-08-25時点で、movement→movement relation、movement→placeのdiffused_to、space.active_in、movement→event/orgのexhibited_at→held_at/sited_inの4経路を、当該movementに登録された資料を対象に確認した。起源region外への文書化された接続は確認できない。未確認なのは、資料化されていない個人間往来・展示・受容、ならびに視覚的類似だけであり、視覚的類似から因果関係は推定していない。"
         ],
-        "review": null
+        "review": {
+          "movement_id": "movement/songjiang-school",
+          "status": "no-documented-cross-region-relation",
+          "checked": "2026-08-25",
+          "note": "2026-08-25時点で、movement→movement relation、movement→placeのdiffused_to、space.active_in、movement→event/orgのexhibited_at→held_at/sited_inの4経路を、当該movementに登録された資料を対象に確認した。起源region外への文書化された接続は確認できない。未確認なのは、資料化されていない個人間往来・展示・受容、ならびに視覚的類似だけであり、視覚的類似から因果関係は推定していない。",
+          "sources": [
+            "https://www.shanghaimuseum.net/mu/frontend/pg/m/article/id/RI00004055",
+            "https://zh.wikipedia.org/zh-hans/%E6%9D%BE%E6%B1%9F%E7%94%BB%E6%B4%BE"
+          ]
+        }
       },
       {
         "movement_id": "movement/suprematism",
-        "status": "unreviewed",
+        "status": "reviewed-no-documented-link",
         "origin_regions": [
           "europe-east"
         ],
         "routes": [],
         "reasons": [
-          "4経路に起源region外への到達がなく、cross-region reviewもない"
+          "2026-08-25時点で、movement→movement relation、movement→placeのdiffused_to、space.active_in、movement→event/orgのexhibited_at→held_at/sited_inの4経路を、当該movementに登録された資料を対象に確認した。起源region外への文書化された接続は確認できない。未確認なのは、資料化されていない個人間往来・展示・受容、ならびに視覚的類似だけであり、視覚的類似から因果関係は推定していない。"
         ],
-        "review": null
+        "review": {
+          "movement_id": "movement/suprematism",
+          "status": "no-documented-cross-region-relation",
+          "checked": "2026-08-25",
+          "note": "2026-08-25時点で、movement→movement relation、movement→placeのdiffused_to、space.active_in、movement→event/orgのexhibited_at→held_at/sited_inの4経路を、当該movementに登録された資料を対象に確認した。起源region外への文書化された接続は確認できない。未確認なのは、資料化されていない個人間往来・展示・受容、ならびに視覚的類似だけであり、視覚的類似から因果関係は推定していない。",
+          "sources": [
+            "https://velikanov.ru/lib/%D0%9C%D0%B0%D0%BB%D0%B5%D0%B2%D0%B8%D1%87.%20%D0%9E%D1%82%20%D0%BA%D1%83%D0%B1%D0%B8%D0%B7%D0%BC%D0%B0%20%D0%BA%20%D1%81%D1%83%D0%BF%D1%80%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%B7%D0%BC%D1%83.pdf",
+            "https://www.artic.edu/artworks/199128"
+          ]
+        }
       },
       {
         "movement_id": "movement/surrealism",
-        "status": "unreviewed",
+        "status": "reviewed-no-documented-link",
         "origin_regions": [
           "europe-west"
         ],
         "routes": [],
         "reasons": [
-          "4経路に起源region外への到達がなく、cross-region reviewもない"
+          "2026-08-25時点で、movement→movement relation、movement→placeのdiffused_to、space.active_in、movement→event/orgのexhibited_at→held_at/sited_inの4経路を、当該movementに登録された資料を対象に確認した。起源region外への文書化された接続は確認できない。未確認なのは、資料化されていない個人間往来・展示・受容、ならびに視覚的類似だけであり、視覚的類似から因果関係は推定していない。"
         ],
-        "review": null
+        "review": {
+          "movement_id": "movement/surrealism",
+          "status": "no-documented-cross-region-relation",
+          "checked": "2026-08-25",
+          "note": "2026-08-25時点で、movement→movement relation、movement→placeのdiffused_to、space.active_in、movement→event/orgのexhibited_at→held_at/sited_inの4経路を、当該movementに登録された資料を対象に確認した。起源region外への文書化された接続は確認できない。未確認なのは、資料化されていない個人間往来・展示・受容、ならびに視覚的類似だけであり、視覚的類似から因果関係は推定していない。",
+          "sources": [
+            "https://gallica.bnf.fr/ark:/12148/btv1b525214035",
+            "https://fr.wikipedia.org/wiki/Manifeste_du_surr%C3%A9alisme"
+          ]
+        }
       },
       {
         "movement_id": "movement/symbolism",
@@ -3052,15 +3415,24 @@
       },
       {
         "movement_id": "movement/utagawa-school",
-        "status": "unreviewed",
+        "status": "reviewed-no-documented-link",
         "origin_regions": [
           "asia-east-japan"
         ],
         "routes": [],
         "reasons": [
-          "4経路に起源region外への到達がなく、cross-region reviewもない"
+          "2026-08-25時点で、movement→movement relation、movement→placeのdiffused_to、space.active_in、movement→event/orgのexhibited_at→held_at/sited_inの4経路を、当該movementに登録された資料を対象に確認した。起源region外への文書化された接続は確認できない。未確認なのは、資料化されていない個人間往来・展示・受容、ならびに視覚的類似だけであり、視覚的類似から因果関係は推定していない。"
         ],
-        "review": null
+        "review": {
+          "movement_id": "movement/utagawa-school",
+          "status": "no-documented-cross-region-relation",
+          "checked": "2026-08-25",
+          "note": "2026-08-25時点で、movement→movement relation、movement→placeのdiffused_to、space.active_in、movement→event/orgのexhibited_at→held_at/sited_inの4経路を、当該movementに登録された資料を対象に確認した。起源region外への文書化された接続は確認できない。未確認なのは、資料化されていない個人間往来・展示・受容、ならびに視覚的類似だけであり、視覚的類似から因果関係は推定していない。",
+          "sources": [
+            "https://kunisada-and-kabuki.fitzmuseum.cam.ac.uk/themes/kunisadas-names",
+            "https://www.artic.edu/artworks/15804"
+          ]
+        }
       },
       {
         "movement_id": "movement/venetian-school",
@@ -3092,15 +3464,24 @@
       },
       {
         "movement_id": "movement/wu-school",
-        "status": "unreviewed",
+        "status": "reviewed-no-documented-link",
         "origin_regions": [
           "asia-east-china"
         ],
         "routes": [],
         "reasons": [
-          "4経路に起源region外への到達がなく、cross-region reviewもない"
+          "2026-08-25時点で、movement→movement relation、movement→placeのdiffused_to、space.active_in、movement→event/orgのexhibited_at→held_at/sited_inの4経路を、当該movementに登録された資料を対象に確認した。起源region外への文書化された接続は確認できない。未確認なのは、資料化されていない個人間往来・展示・受容、ならびに視覚的類似だけであり、視覚的類似から因果関係は推定していない。"
         ],
-        "review": null
+        "review": {
+          "movement_id": "movement/wu-school",
+          "status": "no-documented-cross-region-relation",
+          "checked": "2026-08-25",
+          "note": "2026-08-25時点で、movement→movement relation、movement→placeのdiffused_to、space.active_in、movement→event/orgのexhibited_at→held_at/sited_inの4経路を、当該movementに登録された資料を対象に確認した。起源region外への文書化された接続は確認できない。未確認なのは、資料化されていない個人間往来・展示・受容、ならびに視覚的類似だけであり、視覚的類似から因果関係は推定していない。",
+          "sources": [
+            "https://ja.wikipedia.org/wiki/%E5%91%89%E6%B4%BE",
+            "https://www.britannica.com/biography/Dong-Qichang"
+          ]
+        }
       },
       {
         "movement_id": "movement/yamato-e",
@@ -3231,16 +3612,78 @@
       },
       {
         "movement_id": "movement/zhe-school",
-        "status": "unreviewed",
+        "status": "reviewed-no-documented-link",
         "origin_regions": [
           "asia-east-china"
         ],
         "routes": [],
         "reasons": [
-          "4経路に起源region外への到達がなく、cross-region reviewもない"
+          "2026-08-25時点で、movement→movement relation、movement→placeのdiffused_to、space.active_in、movement→event/orgのexhibited_at→held_at/sited_inの4経路を、当該movementに登録された資料を対象に確認した。起源region外への文書化された接続は確認できない。未確認なのは、資料化されていない個人間往来・展示・受容、ならびに視覚的類似だけであり、視覚的類似から因果関係は推定していない。"
         ],
-        "review": null
+        "review": {
+          "movement_id": "movement/zhe-school",
+          "status": "no-documented-cross-region-relation",
+          "checked": "2026-08-25",
+          "note": "2026-08-25時点で、movement→movement relation、movement→placeのdiffused_to、space.active_in、movement→event/orgのexhibited_at→held_at/sited_inの4経路を、当該movementに登録された資料を対象に確認した。起源region外への文書化された接続は確認できない。未確認なのは、資料化されていない個人間往来・展示・受容、ならびに視覚的類似だけであり、視覚的類似から因果関係は推定していない。",
+          "sources": [
+            "https://ja.wikipedia.org/wiki/%E6%B5%99%E6%B4%BE",
+            "https://www.hkpm.org.hk/en/visit/audio-guide/g4-stories-untold"
+          ]
+        }
       }
     ]
+  },
+  "cross_region_baseline": {
+    "schema_version": 1,
+    "source_commit": "bd15d4c707d6c2fff84ff0c763a993f94cbc3589",
+    "movement_count": 44,
+    "movement_ids": [
+      "movement/arts-and-crafts",
+      "movement/bamana-sculpture",
+      "movement/barbizon-school",
+      "movement/baroque",
+      "movement/byzantine-art",
+      "movement/constructivism",
+      "movement/cubism",
+      "movement/de-stijl",
+      "movement/dong-ho-painting",
+      "movement/expressionism",
+      "movement/four-wangs",
+      "movement/futurism",
+      "movement/harlem-renaissance",
+      "movement/italian-divisionism",
+      "movement/jain-manuscript-painting",
+      "movement/jinling-eight-masters",
+      "movement/kamasan-painting",
+      "movement/karma-gardri",
+      "movement/khyenri-school",
+      "movement/kowhaiwhai",
+      "movement/lapita-pottery",
+      "movement/literati-painting",
+      "movement/makonde-carving",
+      "movement/mandalay-style",
+      "movement/mannerism",
+      "movement/mexican-muralism",
+      "movement/mono-ha",
+      "movement/neoclassicism",
+      "movement/newar-art",
+      "movement/nihonga",
+      "movement/northwest-coast-carving",
+      "movement/ottoman-miniature",
+      "movement/realism",
+      "movement/rinpa",
+      "movement/rococo",
+      "movement/shanghai-school",
+      "movement/shiraz-school",
+      "movement/song-academy-painting",
+      "movement/songjiang-school",
+      "movement/suprematism",
+      "movement/surrealism",
+      "movement/utagawa-school",
+      "movement/wu-school",
+      "movement/zhe-school"
+    ],
+    "remaining_unreviewed": [],
+    "current_unreviewed": []
   }
 }
