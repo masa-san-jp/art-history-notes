@@ -17,8 +17,10 @@ time:
 space: []
 relations: []
 sources:
-  - https://en.wikipedia.org/wiki/Yahia_Turki
-  - https://www.fikerinstitute.org/publications/lecole-de-tunis-the-arts-in-post-independence-tunisia
+  - url: "https://en.wikipedia.org/wiki/Yahia_Turki"
+    kind: reference
+  - url: "https://www.fikerinstitute.org/publications/lecole-de-tunis-the-arts-in-post-independence-tunisia"
+    kind: reference
 status: stub
 updated: 2026-08-09
 ---

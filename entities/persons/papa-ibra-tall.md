@@ -17,8 +17,10 @@ time:
 space: []
 relations: []
 sources:
-  - https://www.wikidata.org/wiki/Q3894655
-  - https://en.wikipedia.org/wiki/Papa_Ibra_Tall
+  - url: "https://www.wikidata.org/wiki/Q3894655"
+    kind: authority
+  - url: "https://en.wikipedia.org/wiki/Papa_Ibra_Tall"
+    kind: reference
 status: draft
 updated: 2026-08-09
 ---

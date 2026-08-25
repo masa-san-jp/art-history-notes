@@ -18,8 +18,10 @@ space: []
 relations:
   - {type: member_of, target: movement/songjiang-school}
 sources:
-  - https://www.wikidata.org/wiki/Q537211
-  - https://ja.wikipedia.org/wiki/%E6%B5%99%E6%B4%BE
+  - url: "https://www.wikidata.org/wiki/Q537211"
+    kind: authority
+  - url: "https://ja.wikipedia.org/wiki/%E6%B5%99%E6%B4%BE"
+    kind: reference
 status: draft
 updated: 2026-08-11
 ---

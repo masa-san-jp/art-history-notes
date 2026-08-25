@@ -18,11 +18,16 @@ space: []
 relations:
   - {type: exhibited_at, target: event/first-brera-triennale-1891}
 sources:
-  - https://www.wikidata.org/wiki/Q16199158
-  - https://dizionariodartesartori.it/artisti/pontremoli-raffaele
-  - https://www.calcografica.it/stampe/autore.php?id=pontremoli-raffaele
-  - https://www.lombardiabeniculturali.it/opere-arte/schede-complete/I0160-00846/
-  - https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf
+  - url: "https://www.wikidata.org/wiki/Q16199158"
+    kind: authority
+  - url: "https://dizionariodartesartori.it/artisti/pontremoli-raffaele"
+    kind: reference
+  - url: "https://www.calcografica.it/stampe/autore.php?id=pontremoli-raffaele"
+    kind: reference
+  - url: "https://www.lombardiabeniculturali.it/opere-arte/schede-complete/I0160-00846/"
+    kind: reference
+  - url: "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+    kind: scholarly
 status: draft
 updated: 2026-08-12
 ---

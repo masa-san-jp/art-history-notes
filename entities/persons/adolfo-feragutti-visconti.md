@@ -18,9 +18,12 @@ space: []
 relations:
   - {type: exhibited_at, target: event/first-brera-triennale-1891}
 sources:
-  - https://www.treccani.it/enciclopedia/giuseppe-adolfo-feregutti_%28Dizionario-Biografico%29/
-  - https://www.wikidata.org/wiki/Q3605437
-  - https://www.getty.edu/vow/ULANFullDisplay?find=&nation=&page=1&role=&subjectid=500005993
+  - url: "https://www.treccani.it/enciclopedia/giuseppe-adolfo-feregutti_%28Dizionario-Biografico%29/"
+    kind: reference
+  - url: "https://www.wikidata.org/wiki/Q3605437"
+    kind: authority
+  - url: "https://www.getty.edu/vow/ULANFullDisplay?find=&nation=&page=1&role=&subjectid=500005993"
+    kind: authority
 status: draft
 updated: 2026-08-12
 ---

@@ -22,11 +22,16 @@ relations:
   - {type: belongs_to, target: movement/constructivism}
   - {type: member_of, target: org/vkhutemas}
 sources:
-  - https://www.wikidata.org/wiki/Q312631
-  - https://www.moma.org/collection/artists/4975
-  - https://www.moma.org/interactives/exhibitions/1998/rodchenko/texts/new_cultural.html
-  - https://www.moma.org/interactives/objectphoto/schools/15.html
-  - https://www.moma.org/interactives/exhibitions/1998/rodchenko/table.html
+  - url: "https://www.wikidata.org/wiki/Q312631"
+    kind: authority
+  - url: "https://www.moma.org/collection/artists/4975"
+    kind: institutional
+  - url: "https://www.moma.org/interactives/exhibitions/1998/rodchenko/texts/new_cultural.html"
+    kind: institutional
+  - url: "https://www.moma.org/interactives/objectphoto/schools/15.html"
+    kind: institutional
+  - url: "https://www.moma.org/interactives/exhibitions/1998/rodchenko/table.html"
+    kind: institutional
 status: draft
 updated: 2026-08-12
 ---

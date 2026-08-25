@@ -20,8 +20,12 @@ import yaml
 
 
 ROOT = Path(__file__).resolve().parents[1]
-TYPE_DIRS = {"movement": ROOT / "entities" / "movements", "context": ROOT / "contexts"}
-TYPE_ORDER = ("movement", "context")
+TYPE_DIRS = {
+    "movement": ROOT / "entities" / "movements",
+    "context": ROOT / "contexts",
+    "person": ROOT / "entities" / "persons",
+}
+TYPE_ORDER = ("movement", "context", "person")
 
 
 def _parse(path: Path) -> dict:

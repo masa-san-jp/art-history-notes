@@ -24,9 +24,12 @@ relations:
   - {type: exhibited_at, target: event/first-salon-des-independants-1884}
   - {type: taught_by, target: person/henri-lehmann}
 sources:
-  - https://www.wikidata.org/wiki/Q34013
-  - https://api.artic.edu/api/v1/artworks/27992
-  - https://fr.wikiquote.org/wiki/Georges_Seurat
+  - url: "https://www.wikidata.org/wiki/Q34013"
+    kind: authority
+  - url: "https://api.artic.edu/api/v1/artworks/27992"
+    kind: institutional
+  - url: "https://fr.wikiquote.org/wiki/Georges_Seurat"
+    kind: reference
 status: draft
 updated: 2026-08-08
 ---

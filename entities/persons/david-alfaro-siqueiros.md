@@ -20,11 +20,16 @@ space:
 relations:
   - {type: grouped_as, target: movement/mexican-muralism, certainty: scholarly, source: "https://whitney.org/exhibitions/vida-americana"}
 sources:
-  - https://www.wikidata.org/wiki/Q315647
-  - https://en.wikipedia.org/wiki/David_Alfaro_Siqueiros
-  - https://whitney.org/exhibitions/vida-americana
-  - https://whitney.org/media/46248
-  - https://www.tandfonline.com/doi/abs/10.1080/00043249.1976.10793284
+  - url: "https://www.wikidata.org/wiki/Q315647"
+    kind: authority
+  - url: "https://en.wikipedia.org/wiki/David_Alfaro_Siqueiros"
+    kind: reference
+  - url: "https://whitney.org/exhibitions/vida-americana"
+    kind: reference
+  - url: "https://whitney.org/media/46248"
+    kind: reference
+  - url: "https://www.tandfonline.com/doi/abs/10.1080/00043249.1976.10793284"
+    kind: scholarly
 status: draft
 updated: 2026-08-10
 ---

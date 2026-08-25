@@ -18,10 +18,14 @@ space: []
 relations:
   - {type: exhibited_at, target: event/first-brera-triennale-1891}
 sources:
-  - https://www.treccani.it/enciclopedia/domenico-ghidoni_%28Dizionario-Biografico%29/
-  - https://www.comune.ospitaletto.bs.it/sites/default/files/2024-03/23_museo-ghidoni_brochure-a5-esecutivo-stanmpa_compressed.pdf
-  - https://www.enciclopediabresciana.it/enciclopedia/index.php?title=GHIDONI_Domenico
-  - https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf
+  - url: "https://www.treccani.it/enciclopedia/domenico-ghidoni_%28Dizionario-Biografico%29/"
+    kind: reference
+  - url: "https://www.comune.ospitaletto.bs.it/sites/default/files/2024-03/23_museo-ghidoni_brochure-a5-esecutivo-stanmpa_compressed.pdf"
+    kind: scholarly
+  - url: "https://www.enciclopediabresciana.it/enciclopedia/index.php?title=GHIDONI_Domenico"
+    kind: reference
+  - url: "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+    kind: scholarly
 status: draft
 updated: 2026-08-12
 ---

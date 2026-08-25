@@ -21,11 +21,16 @@ relations:
   - {type: belongs_to, target: movement/constructivism}
   - {type: member_of, target: org/vkhutemas}
 sources:
-  - https://www.wikidata.org/wiki/Q259594
-  - https://www.moma.org/artists/4694-liubov-popova
-  - https://www.moma.org/interactives/objectphoto/schools/15.html
-  - https://www.moma.org/collection/works/15163
-  - https://www.moma.org/calendar/exhibitions/328
+  - url: "https://www.wikidata.org/wiki/Q259594"
+    kind: authority
+  - url: "https://www.moma.org/artists/4694-liubov-popova"
+    kind: institutional
+  - url: "https://www.moma.org/interactives/objectphoto/schools/15.html"
+    kind: institutional
+  - url: "https://www.moma.org/collection/works/15163"
+    kind: institutional
+  - url: "https://www.moma.org/calendar/exhibitions/328"
+    kind: institutional
 status: draft
 updated: 2026-08-12
 ---

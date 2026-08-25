@@ -17,7 +17,8 @@ time:
 space: []
 relations: []
 sources:
-  - https://www.wikidata.org/wiki/Q2528956
+  - url: "https://www.wikidata.org/wiki/Q2528956"
+    kind: authority
 status: stub
 updated: 2026-08-09
 ---

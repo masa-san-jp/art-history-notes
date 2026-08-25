@@ -19,8 +19,10 @@ relations:
   - {type: belongs_to, target: movement/italian-divisionism}
   - {type: exhibited_at, target: event/salon-divisionnistes-italiens-paris-1907}
 sources:
-  - https://exhibitions.univie.ac.at/person/ulan/500339761
-  - https://www.santagostinoaste.it/autori/prada-carlo.asp
+  - url: "https://exhibitions.univie.ac.at/person/ulan/500339761"
+    kind: reference
+  - url: "https://www.santagostinoaste.it/autori/prada-carlo.asp"
+    kind: reference
 status: draft
 updated: 2026-08-12
 ---

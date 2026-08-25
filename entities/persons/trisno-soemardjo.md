@@ -17,8 +17,10 @@ time:
 space: []
 relations: []
 sources:
-  - https://www.wikidata.org/wiki/Q3747081
-  - https://sejarahbersama.id/2021/06/04/kritik-kritik-terhadap-pelukis-pelukis-bandung/
+  - url: "https://www.wikidata.org/wiki/Q3747081"
+    kind: authority
+  - url: "https://sejarahbersama.id/2021/06/04/kritik-kritik-terhadap-pelukis-pelukis-bandung/"
+    kind: reference
 status: draft
 updated: 2026-08-09
 ---

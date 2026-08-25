@@ -17,9 +17,12 @@ time:
 space: []
 relations: []
 sources:
-  - https://fr.wikipedia.org/wiki/Pierre_Boucherle
-  - https://harissa.com/news555/fr/pierre-boucherle-fondateur-de-lecole-de-tunis
-  - https://www.fikerinstitute.org/publications/lecole-de-tunis-the-arts-in-post-independence-tunisia
+  - url: "https://fr.wikipedia.org/wiki/Pierre_Boucherle"
+    kind: reference
+  - url: "https://harissa.com/news555/fr/pierre-boucherle-fondateur-de-lecole-de-tunis"
+    kind: reference
+  - url: "https://www.fikerinstitute.org/publications/lecole-de-tunis-the-arts-in-post-independence-tunisia"
+    kind: reference
 status: stub
 updated: 2026-08-09
 ---

@@ -19,10 +19,14 @@ relations:
   - {type: belongs_to, target: movement/italian-divisionism}
   - {type: exhibited_at, target: event/salon-divisionnistes-italiens-paris-1907}
 sources:
-  - https://www.wikidata.org/wiki/Q3942105
-  - https://www.treccani.it/enciclopedia/rubaldo-merello_%28Dizionario-Biografico%29/
-  - https://exhibitions.univie.ac.at/exhibition/125
-  - https://commons.wikimedia.org/wiki/Creator%3ARubaldo_Merello
+  - url: "https://www.wikidata.org/wiki/Q3942105"
+    kind: authority
+  - url: "https://www.treccani.it/enciclopedia/rubaldo-merello_%28Dizionario-Biografico%29/"
+    kind: reference
+  - url: "https://exhibitions.univie.ac.at/exhibition/125"
+    kind: reference
+  - url: "https://commons.wikimedia.org/wiki/Creator%3ARubaldo_Merello"
+    kind: reference
 status: draft
 updated: 2026-08-12
 ---

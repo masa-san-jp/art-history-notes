@@ -18,9 +18,12 @@ space: []
 relations:
   - {type: exhibited_at, target: event/first-brera-triennale-1891}
 sources:
-  - https://www.lucasforziniarte.it/archivio-artisti/piemonte/zoppi-antonio-novara-1860-firenze-1926-pittore
-  - https://www.pandolfini.it/it/artisti/antonio-zoppi-5416
-  - https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf
+  - url: "https://www.lucasforziniarte.it/archivio-artisti/piemonte/zoppi-antonio-novara-1860-firenze-1926-pittore"
+    kind: reference
+  - url: "https://www.pandolfini.it/it/artisti/antonio-zoppi-5416"
+    kind: reference
+  - url: "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+    kind: scholarly
 status: draft
 updated: 2026-08-12
 ---

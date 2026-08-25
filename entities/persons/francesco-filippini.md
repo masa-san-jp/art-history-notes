@@ -18,8 +18,10 @@ space: []
 relations:
   - {type: exhibited_at, target: event/first-brera-triennale-1891}
 sources:
-  - https://www.treccani.it/enciclopedia/francesco-filippini_%28Dizionario-Biografico%29/
-  - https://galleriemaspes.com/immagini_sito/Cataloghi%20pdf/Brera_Guide.pdf
+  - url: "https://www.treccani.it/enciclopedia/francesco-filippini_%28Dizionario-Biografico%29/"
+    kind: reference
+  - url: "https://galleriemaspes.com/immagini_sito/Cataloghi%20pdf/Brera_Guide.pdf"
+    kind: scholarly
 status: draft
 updated: 2026-08-12
 ---

@@ -17,11 +17,16 @@ time:
 space: []
 relations: []
 sources:
-  - https://en.wikipedia.org/wiki/Shetani
-  - https://en.wikipedia.org/wiki/Makonde_art
-  - https://www.blackwoodconservation.org/makonde-art/
-  - https://the-short-century.eaman.org/unit_titles/modern-art-in-tanzania/
-  - https://journals.openedition.org/etudesafricaines/4878
+  - url: "https://en.wikipedia.org/wiki/Shetani"
+    kind: reference
+  - url: "https://en.wikipedia.org/wiki/Makonde_art"
+    kind: reference
+  - url: "https://www.blackwoodconservation.org/makonde-art/"
+    kind: reference
+  - url: "https://the-short-century.eaman.org/unit_titles/modern-art-in-tanzania/"
+    kind: reference
+  - url: "https://journals.openedition.org/etudesafricaines/4878"
+    kind: scholarly
 status: stub
 updated: 2026-08-10
 ---

@@ -18,9 +18,12 @@ space: []
 relations:
   - {type: exhibited_at, target: event/first-brera-triennale-1891}
 sources:
-  - https://www.wikidata.org/wiki/Q3623496
-  - https://www.museodelpaesaggio.it/artista/arnaldo-ferraguti/
-  - https://www.istitutomatteucci.it/en/dictionary-of-artists/ferraguti-arnaldo
+  - url: "https://www.wikidata.org/wiki/Q3623496"
+    kind: authority
+  - url: "https://www.museodelpaesaggio.it/artista/arnaldo-ferraguti/"
+    kind: reference
+  - url: "https://www.istitutomatteucci.it/en/dictionary-of-artists/ferraguti-arnaldo"
+    kind: reference
 status: draft
 updated: 2026-08-12
 ---

@@ -19,9 +19,12 @@ relations:
   - {type: belongs_to, target: movement/italian-divisionism}
   - {type: exhibited_at, target: event/salon-divisionnistes-italiens-paris-1907}
 sources:
-  - https://www.museofattori.livorno.it/le-opere/autori/benvenuto-benvenuti/
-  - https://cim.mart.tn.it/cim/pages/soggetto.jsp?aid=441&authid=72
-  - https://exhibitions.univie.ac.at/person/ulan/500585330
+  - url: "https://www.museofattori.livorno.it/le-opere/autori/benvenuto-benvenuti/"
+    kind: reference
+  - url: "https://cim.mart.tn.it/cim/pages/soggetto.jsp?aid=441&authid=72"
+    kind: reference
+  - url: "https://exhibitions.univie.ac.at/person/ulan/500585330"
+    kind: reference
 status: draft
 updated: 2026-08-12
 ---

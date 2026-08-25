@@ -17,8 +17,10 @@ time:
 space: []
 relations: []
 sources:
-  - https://www.wikidata.org/wiki/Q5392799
-  - https://en.wikipedia.org/wiki/Ernest_Binfield_Havell
+  - url: "https://www.wikidata.org/wiki/Q5392799"
+    kind: authority
+  - url: "https://en.wikipedia.org/wiki/Ernest_Binfield_Havell"
+    kind: reference
 status: stub
 updated: 2026-08-09
 ---

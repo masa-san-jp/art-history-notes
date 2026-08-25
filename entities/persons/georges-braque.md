@@ -17,8 +17,11 @@ time:
 space: []
 relations: []
 sources:
-  - https://www.wikidata.org/wiki/Q153793
-  - https://archive.org/details/f.t.-marinetti-manifeste-du-futurism-1909
+  - url: "https://www.wikidata.org/wiki/Q153793"
+    kind: authority
+  - url: "https://archive.org/details/f.t.-marinetti-manifeste-du-futurism-1909"
+    kind: primary
+    note: "URLの資料パスから一次資料と判定"
 status: stub
 updated: 2026-08-10
 ---

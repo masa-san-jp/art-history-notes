@@ -18,9 +18,12 @@ space:
   - {role: died_in, target: place/ashiya}
 relations: []
 sources:
-  - https://www.wikidata.org/wiki/Q2303860
-  - https://ja.wikipedia.org/wiki/%E5%90%89%E5%8E%9F%E6%B2%BB%E8%89%AF
-  - https://www.museum.osaka-u.ac.jp/wp/wp-content/uploads/2018/03/kato2017.pdf
+  - url: "https://www.wikidata.org/wiki/Q2303860"
+    kind: authority
+  - url: "https://ja.wikipedia.org/wiki/%E5%90%89%E5%8E%9F%E6%B2%BB%E8%89%AF"
+    kind: reference
+  - url: "https://www.museum.osaka-u.ac.jp/wp/wp-content/uploads/2018/03/kato2017.pdf"
+    kind: scholarly
 status: draft
 updated: 2026-08-10
 ---

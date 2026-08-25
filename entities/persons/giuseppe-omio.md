@@ -19,11 +19,16 @@ relations:
   - {type: belongs_to, target: movement/italian-divisionism}
   - {type: exhibited_at, target: event/salon-divisionnistes-italiens-paris-1907}
 sources:
-  - https://exhibitions.univie.ac.at/person/971
-  - https://exhibitions.univie.ac.at/exhibition/125
-  - https://www.lucasforziniarte.it/archivio-artisti/lombardia/omio-giuseppe-lovere-1881-milano-1918-pittore
-  - https://www.galleriarecta.it/autore/omio-giuseppe/
-  - https://www.tesidottorato.depositolegale.it/bitstream/20.500.14242/107121/4/phdunige_4112671.pdf
+  - url: "https://exhibitions.univie.ac.at/person/971"
+    kind: reference
+  - url: "https://exhibitions.univie.ac.at/exhibition/125"
+    kind: reference
+  - url: "https://www.lucasforziniarte.it/archivio-artisti/lombardia/omio-giuseppe-lovere-1881-milano-1918-pittore"
+    kind: reference
+  - url: "https://www.galleriarecta.it/autore/omio-giuseppe/"
+    kind: reference
+  - url: "https://www.tesidottorato.depositolegale.it/bitstream/20.500.14242/107121/4/phdunige_4112671.pdf"
+    kind: scholarly
 status: draft
 updated: 2026-08-12
 ---

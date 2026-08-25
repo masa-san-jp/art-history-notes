@@ -17,8 +17,10 @@ time:
 space: []
 relations: []
 sources:
-  - https://www.wikidata.org/wiki/Q14276707
-  - https://en.wikipedia.org/wiki/Ries_Mulder
+  - url: "https://www.wikidata.org/wiki/Q14276707"
+    kind: authority
+  - url: "https://en.wikipedia.org/wiki/Ries_Mulder"
+    kind: reference
 status: draft
 updated: 2026-08-09
 ---

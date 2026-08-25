@@ -19,9 +19,12 @@ relations:
   - {type: belongs_to, target: movement/italian-divisionism}
   - {type: exhibited_at, target: event/first-brera-triennale-1891}
 sources:
-  - https://www.wikidata.org/wiki/Q589062
-  - https://www.treccani.it/enciclopedia/plinio-nomellini_%28Dizionario-Biografico%29/
-  - https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf
+  - url: "https://www.wikidata.org/wiki/Q589062"
+    kind: authority
+  - url: "https://www.treccani.it/enciclopedia/plinio-nomellini_%28Dizionario-Biografico%29/"
+    kind: reference
+  - url: "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+    kind: scholarly
 status: draft
 updated: 2026-08-12
 ---

@@ -18,9 +18,12 @@ space: []
 relations:
   - {type: exhibited_at, target: event/first-brera-triennale-1891}
 sources:
-  - https://www.umanitaria.it/storia-umanitaria/i-protagonisti/alfredo-sassi/
-  - https://commons.wikimedia.org/wiki/Category%3AAlfredo_Sassi
-  - https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf
+  - url: "https://www.umanitaria.it/storia-umanitaria/i-protagonisti/alfredo-sassi/"
+    kind: reference
+  - url: "https://commons.wikimedia.org/wiki/Category%3AAlfredo_Sassi"
+    kind: reference
+  - url: "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+    kind: scholarly
 status: draft
 updated: 2026-08-12
 ---

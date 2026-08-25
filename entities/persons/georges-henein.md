@@ -17,9 +17,12 @@ time:
 space: []
 relations: []
 sources:
-  - https://www.wikidata.org/wiki/Q3102865
-  - https://en.wikipedia.org/wiki/Georges_Henein
-  - https://www.tate.org.uk/tate-etc/issue-41-autumn-2017/surrealism-egypt-long-live-degenerate-art-clare-davies
+  - url: "https://www.wikidata.org/wiki/Q3102865"
+    kind: authority
+  - url: "https://en.wikipedia.org/wiki/Georges_Henein"
+    kind: reference
+  - url: "https://www.tate.org.uk/tate-etc/issue-41-autumn-2017/surrealism-egypt-long-live-degenerate-art-clare-davies"
+    kind: institutional
 status: stub
 updated: 2026-08-10
 ---

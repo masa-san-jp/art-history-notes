@@ -17,8 +17,10 @@ time:
 space: []
 relations: []
 sources:
-  - https://www.wikidata.org/wiki/Q2093376
-  - https://en.wikipedia.org/wiki/Jos%C3%A9_Sabogal
+  - url: "https://www.wikidata.org/wiki/Q2093376"
+    kind: authority
+  - url: "https://en.wikipedia.org/wiki/Jos%C3%A9_Sabogal"
+    kind: reference
 status: stub
 updated: 2026-08-10
 ---

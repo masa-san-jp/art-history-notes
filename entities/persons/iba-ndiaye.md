@@ -17,8 +17,10 @@ time:
 space: []
 relations: []
 sources:
-  - https://www.wikidata.org/wiki/Q2058575
-  - https://en.wikipedia.org/wiki/Iba_Ndiaye
+  - url: "https://www.wikidata.org/wiki/Q2058575"
+    kind: authority
+  - url: "https://en.wikipedia.org/wiki/Iba_Ndiaye"
+    kind: reference
 status: draft
 updated: 2026-08-09
 ---

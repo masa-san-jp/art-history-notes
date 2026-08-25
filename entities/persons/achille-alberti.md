@@ -18,9 +18,12 @@ space: []
 relations:
   - {type: exhibited_at, target: event/first-brera-triennale-1891}
 sources:
-  - https://www.treccani.it/enciclopedia/achille-alberti_%28Dizionario-Biografico%29/
-  - https://www.lombardiabeniculturali.it/opere-arte/schede/3n010-00009/
-  - https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf
+  - url: "https://www.treccani.it/enciclopedia/achille-alberti_%28Dizionario-Biografico%29/"
+    kind: reference
+  - url: "https://www.lombardiabeniculturali.it/opere-arte/schede/3n010-00009/"
+    kind: reference
+  - url: "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+    kind: scholarly
 status: draft
 updated: 2026-08-13
 ---

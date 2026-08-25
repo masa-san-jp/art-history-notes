@@ -18,10 +18,14 @@ space: []
 relations:
   - {type: exhibited_at, target: event/first-brera-triennale-1891}
 sources:
-  - https://www.treccani.it/enciclopedia/filippo-carcano_%28Enciclopedia-Italiana%29/
-  - https://www.treccani.it/enciclopedia/filippo-carcano_%28Dizionario-Biografico%29/
-  - https://www.getty.edu/vow/ULANFullDisplay?find=&nation=&page=1&role=&subjectid=500023292
-  - https://www.wikidata.org/wiki/Q3745131
+  - url: "https://www.treccani.it/enciclopedia/filippo-carcano_%28Enciclopedia-Italiana%29/"
+    kind: reference
+  - url: "https://www.treccani.it/enciclopedia/filippo-carcano_%28Dizionario-Biografico%29/"
+    kind: reference
+  - url: "https://www.getty.edu/vow/ULANFullDisplay?find=&nation=&page=1&role=&subjectid=500023292"
+    kind: authority
+  - url: "https://www.wikidata.org/wiki/Q3745131"
+    kind: authority
 status: draft
 updated: 2026-08-12
 ---

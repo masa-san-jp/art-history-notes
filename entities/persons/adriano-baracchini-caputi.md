@@ -19,10 +19,14 @@ relations:
   - {type: belongs_to, target: movement/italian-divisionism}
   - {type: exhibited_at, target: event/salon-divisionnistes-italiens-paris-1907}
 sources:
-  - https://www.wikidata.org/wiki/Q23581475
-  - https://exhibitions.univie.ac.at/person/gnd/1186399171
-  - https://dizionariodartesartori.it/artisti/baracchini-caputi-adriano
-  - https://fondazionelivorno.it/wp-content/uploads/2020/05/Bilancio-2019.pdf
+  - url: "https://www.wikidata.org/wiki/Q23581475"
+    kind: authority
+  - url: "https://exhibitions.univie.ac.at/person/gnd/1186399171"
+    kind: reference
+  - url: "https://dizionariodartesartori.it/artisti/baracchini-caputi-adriano"
+    kind: reference
+  - url: "https://fondazionelivorno.it/wp-content/uploads/2020/05/Bilancio-2019.pdf"
+    kind: scholarly
 status: draft
 updated: 2026-08-12
 ---

@@ -17,8 +17,10 @@ time:
 space: []
 relations: []
 sources:
-  - https://www.khan.co.kr/article/202607201829001/
-  - https://encykorea.aks.ac.kr/Article/E0069639
+  - url: "https://www.khan.co.kr/article/202607201829001/"
+    kind: reference
+  - url: "https://encykorea.aks.ac.kr/Article/E0069639"
+    kind: institutional
 status: stub
 updated: 2026-08-10
 ---

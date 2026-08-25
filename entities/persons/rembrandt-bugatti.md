@@ -18,10 +18,14 @@ space: []
 relations:
   - {type: exhibited_at, target: event/salon-divisionnistes-italiens-paris-1907}
 sources:
-  - https://www.wikidata.org/wiki/Q1300641
-  - https://www.treccani.it/enciclopedia/rembrandt-bugatti_%28Dizionario-Biografico%29/
-  - https://www.smb.museum/en/exhibitions/detail/rembrandt-bugatti/
-  - https://www.bdl.servizirl.it/bdl/public/rest/srv/item/2295/pdf
+  - url: "https://www.wikidata.org/wiki/Q1300641"
+    kind: authority
+  - url: "https://www.treccani.it/enciclopedia/rembrandt-bugatti_%28Dizionario-Biografico%29/"
+    kind: reference
+  - url: "https://www.smb.museum/en/exhibitions/detail/rembrandt-bugatti/"
+    kind: institutional
+  - url: "https://www.bdl.servizirl.it/bdl/public/rest/srv/item/2295/pdf"
+    kind: reference
 status: draft
 updated: 2026-08-12
 ---

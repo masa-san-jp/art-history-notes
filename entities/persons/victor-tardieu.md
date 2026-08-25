@@ -17,9 +17,12 @@ time:
 space: []
 relations: []
 sources:
-  - https://www.wikidata.org/wiki/Q3557606
-  - https://en.wikipedia.org/wiki/Victor_Tardieu
-  - https://en.wikipedia.org/wiki/Vietnam_University_of_Fine_Arts
+  - url: "https://www.wikidata.org/wiki/Q3557606"
+    kind: authority
+  - url: "https://en.wikipedia.org/wiki/Victor_Tardieu"
+    kind: reference
+  - url: "https://en.wikipedia.org/wiki/Vietnam_University_of_Fine_Arts"
+    kind: scholarly
 status: stub
 updated: 2026-08-09
 ---

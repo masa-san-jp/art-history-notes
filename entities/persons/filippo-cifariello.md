@@ -18,10 +18,14 @@ space: []
 relations:
   - {type: exhibited_at, target: event/first-brera-triennale-1891}
 sources:
-  - https://www.treccani.it/enciclopedia/filippo-antonio-cifariello_%28Dizionario-Biografico%29/
-  - https://www.museoborgogna.it/opere/filippo-cifariello/
-  - https://catalogo.fondazionezeri.unibo.it/scheda/opera/83512/Cifariello%20Filippo%20Antonio%2C%20Figura%20femminile
-  - https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf
+  - url: "https://www.treccani.it/enciclopedia/filippo-antonio-cifariello_%28Dizionario-Biografico%29/"
+    kind: reference
+  - url: "https://www.museoborgogna.it/opere/filippo-cifariello/"
+    kind: reference
+  - url: "https://catalogo.fondazionezeri.unibo.it/scheda/opera/83512/Cifariello%20Filippo%20Antonio%2C%20Figura%20femminile"
+    kind: reference
+  - url: "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+    kind: scholarly
 status: draft
 updated: 2026-08-12
 ---

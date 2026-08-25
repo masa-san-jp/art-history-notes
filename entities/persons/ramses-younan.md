@@ -17,8 +17,10 @@ time:
 space: []
 relations: []
 sources:
-  - https://www.wikidata.org/wiki/Q3418643
-  - https://en.wikipedia.org/wiki/Ramses_Younan
+  - url: "https://www.wikidata.org/wiki/Q3418643"
+    kind: authority
+  - url: "https://en.wikipedia.org/wiki/Ramses_Younan"
+    kind: reference
 status: stub
 updated: 2026-08-10
 ---

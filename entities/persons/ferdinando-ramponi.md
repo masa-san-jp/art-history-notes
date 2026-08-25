@@ -19,9 +19,12 @@ relations:
   - {type: belongs_to, target: movement/italian-divisionism}
   - {type: exhibited_at, target: event/salon-divisionnistes-italiens-paris-1907}
 sources:
-  - https://exhibitions.univie.ac.at/person/gnd/122617517
-  - https://ildivisionismo.it/ferdinando-ramponi/
-  - https://catalogo.beniculturali.it/detail/HistoricOrArtisticProperty/1200491294
+  - url: "https://exhibitions.univie.ac.at/person/gnd/122617517"
+    kind: reference
+  - url: "https://ildivisionismo.it/ferdinando-ramponi/"
+    kind: reference
+  - url: "https://catalogo.beniculturali.it/detail/HistoricOrArtisticProperty/1200491294"
+    kind: reference
 status: draft
 updated: 2026-08-12
 ---

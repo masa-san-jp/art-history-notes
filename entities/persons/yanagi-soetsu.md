@@ -18,11 +18,16 @@ space: []
 relations:
   - {type: influenced_by, target: concept/minhwa, certainty: scholarly, source: "https://www.tongilnews.com/news/articleView.html?idxno=102045"}
 sources:
-  - https://www.wikidata.org/wiki/Q904161
-  - https://en.wikipedia.org/wiki/Yanagi_S%C5%8Detsu
-  - https://ja.wikipedia.org/wiki/%E6%9F%B3%E5%AE%97%E6%82%A6
-  - https://mingeikan.or.jp/about/history/
-  - https://www.tongilnews.com/news/articleView.html?idxno=102045
+  - url: "https://www.wikidata.org/wiki/Q904161"
+    kind: authority
+  - url: "https://en.wikipedia.org/wiki/Yanagi_S%C5%8Detsu"
+    kind: reference
+  - url: "https://ja.wikipedia.org/wiki/%E6%9F%B3%E5%AE%97%E6%82%A6"
+    kind: reference
+  - url: "https://mingeikan.or.jp/about/history/"
+    kind: reference
+  - url: "https://www.tongilnews.com/news/articleView.html?idxno=102045"
+    kind: reference
 status: draft
 updated: 2026-08-10
 ---

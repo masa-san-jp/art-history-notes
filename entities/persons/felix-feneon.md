@@ -18,9 +18,13 @@ time:
 space: []
 relations: []
 sources:
-  - https://www.wikidata.org/wiki/Q432101
-  - https://digistore.bib.ulb.ac.be/2008/DL2864764_1886_f.pdf
-  - https://gallica.bnf.fr/ark:/12148/bpt6k850398w
+  - url: "https://www.wikidata.org/wiki/Q432101"
+    kind: authority
+  - url: "https://digistore.bib.ulb.ac.be/2008/DL2864764_1886_f.pdf"
+    kind: scholarly
+  - url: "https://gallica.bnf.fr/ark:/12148/bpt6k850398w"
+    kind: primary
+    note: "URLの資料パスから一次資料と判定"
 status: stub
 updated: 2026-08-09
 ---

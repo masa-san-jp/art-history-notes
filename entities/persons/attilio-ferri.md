@@ -18,9 +18,12 @@ space: []
 relations:
   - {type: exhibited_at, target: event/first-brera-triennale-1891}
 sources:
-  - https://www.catalogo.beniculturali.it/detail/Lombardia/HistoricOrArtisticProperty/5u050-00197_R03
-  - https://upload.wikimedia.org/wikipedia/commons/c/c5/Esposizione_delle_opere_di_belle_arti_nel_Palazzo_di_Brera_-_Anno_1879_%28IA_esposizionedelle00real%29.pdf
-  - https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf
+  - url: "https://www.catalogo.beniculturali.it/detail/Lombardia/HistoricOrArtisticProperty/5u050-00197_R03"
+    kind: reference
+  - url: "https://upload.wikimedia.org/wikipedia/commons/c/c5/Esposizione_delle_opere_di_belle_arti_nel_Palazzo_di_Brera_-_Anno_1879_%28IA_esposizionedelle00real%29.pdf"
+    kind: scholarly
+  - url: "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+    kind: scholarly
 status: draft
 updated: 2026-08-13
 ---

@@ -18,9 +18,12 @@ space: []
 relations:
   - {type: exhibited_at, target: event/first-brera-triennale-1891}
 sources:
-  - https://museicivicimonza.it/en/donazione-opera-di-carlo-fossati/
-  - https://www.museicivicimonza.it/en/grandi-opere-dellottocento-monzese/
-  - https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf
+  - url: "https://museicivicimonza.it/en/donazione-opera-di-carlo-fossati/"
+    kind: reference
+  - url: "https://www.museicivicimonza.it/en/grandi-opere-dellottocento-monzese/"
+    kind: reference
+  - url: "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+    kind: scholarly
 status: draft
 updated: 2026-08-12
 ---

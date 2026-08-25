@@ -17,8 +17,10 @@ time:
 space: []
 relations: []
 sources:
-  - https://www.wikidata.org/wiki/Q561169
-  - https://digital.bbm.usp.br/bitstream/bbm/7064/2/Anno.1_n.01_45000033273.pdf
+  - url: "https://www.wikidata.org/wiki/Q561169"
+    kind: authority
+  - url: "https://digital.bbm.usp.br/bitstream/bbm/7064/2/Anno.1_n.01_45000033273.pdf"
+    kind: scholarly
 status: stub
 updated: 2026-08-09
 ---

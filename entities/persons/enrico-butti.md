@@ -18,10 +18,14 @@ space: []
 relations:
   - {type: exhibited_at, target: event/first-brera-triennale-1891}
 sources:
-  - https://www.treccani.it/enciclopedia/enrico-butti/
-  - https://www.treccani.it/enciclopedia/enrico-butti_%28Enciclopedia-Italiana%29/
-  - https://www.wikidata.org/wiki/Q761843
-  - https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf
+  - url: "https://www.treccani.it/enciclopedia/enrico-butti/"
+    kind: reference
+  - url: "https://www.treccani.it/enciclopedia/enrico-butti_%28Enciclopedia-Italiana%29/"
+    kind: reference
+  - url: "https://www.wikidata.org/wiki/Q761843"
+    kind: authority
+  - url: "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+    kind: scholarly
 status: draft
 updated: 2026-08-12
 ---

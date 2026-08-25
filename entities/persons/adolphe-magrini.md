@@ -19,10 +19,14 @@ relations:
   - {type: belongs_to, target: movement/italian-divisionism}
   - {type: exhibited_at, target: event/salon-divisionnistes-italiens-paris-1907}
 sources:
-  - https://exhibitions.univie.ac.at/person/3334
-  - https://catalogo.beniculturali.it/search/Agent/a7301cc409bc5d26bf067eb2443f0265
-  - https://dizionariodartesartori.it/artisti/magrini-adolfo
-  - https://www.gonnelli.it/it/asta-0017-1/magrini-adolfo-studio-di-nudo-di-giovinetto-da.asp
+  - url: "https://exhibitions.univie.ac.at/person/3334"
+    kind: reference
+  - url: "https://catalogo.beniculturali.it/search/Agent/a7301cc409bc5d26bf067eb2443f0265"
+    kind: reference
+  - url: "https://dizionariodartesartori.it/artisti/magrini-adolfo"
+    kind: reference
+  - url: "https://www.gonnelli.it/it/asta-0017-1/magrini-adolfo-studio-di-nudo-di-giovinetto-da.asp"
+    kind: reference
 status: draft
 updated: 2026-08-12
 ---

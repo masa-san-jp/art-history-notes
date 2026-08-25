@@ -17,8 +17,10 @@ time:
 space: []
 relations: []
 sources:
-  - https://www.wikidata.org/wiki/Q722119
-  - https://portal.lygiaclark.org.br/acervo/67348/manifesto-neoconcreto
+  - url: "https://www.wikidata.org/wiki/Q722119"
+    kind: authority
+  - url: "https://portal.lygiaclark.org.br/acervo/67348/manifesto-neoconcreto"
+    kind: reference
 status: stub
 updated: 2026-08-09
 ---

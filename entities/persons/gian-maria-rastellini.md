@@ -21,11 +21,16 @@ relations:
   - {type: belongs_to, target: movement/italian-divisionism}
   - {type: exhibited_at, target: event/first-brera-triennale-1891}
 sources:
-  - https://www.wikidata.org/wiki/Q50322949
-  - https://commons.wikimedia.org/wiki/Creator%3AGian_Maria_Rastellini
-  - https://www.fondazionerossettivalentini.it/en/archives/the-seven-masters-of-vigezzo-painting/
-  - https://www.lombardiabeniculturali.it/fotografie/schede-complete/IMM-2y010-0005660/
-  - https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf
+  - url: "https://www.wikidata.org/wiki/Q50322949"
+    kind: authority
+  - url: "https://commons.wikimedia.org/wiki/Creator%3AGian_Maria_Rastellini"
+    kind: reference
+  - url: "https://www.fondazionerossettivalentini.it/en/archives/the-seven-masters-of-vigezzo-painting/"
+    kind: reference
+  - url: "https://www.lombardiabeniculturali.it/fotografie/schede-complete/IMM-2y010-0005660/"
+    kind: reference
+  - url: "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+    kind: scholarly
 status: draft
 updated: 2026-08-12
 ---

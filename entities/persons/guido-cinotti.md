@@ -19,9 +19,12 @@ relations:
   - {type: belongs_to, target: movement/italian-divisionism}
   - {type: exhibited_at, target: event/salon-divisionnistes-italiens-paris-1907}
 sources:
-  - https://exhibitions.univie.ac.at/person/3325
-  - https://galleriamichelangelo.it/en/artista/297/guido-cinotti/bio
-  - https://www.lombardiabeniculturali.it/opere-arte/schede/MI120-00012/
+  - url: "https://exhibitions.univie.ac.at/person/3325"
+    kind: reference
+  - url: "https://galleriamichelangelo.it/en/artista/297/guido-cinotti/bio"
+    kind: reference
+  - url: "https://www.lombardiabeniculturali.it/opere-arte/schede/MI120-00012/"
+    kind: reference
 status: draft
 updated: 2026-08-12
 ---

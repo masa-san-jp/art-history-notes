@@ -20,10 +20,14 @@ space: []
 relations:
   - {type: exhibited_at, target: event/first-brera-triennale-1891}
 sources:
-  - https://www.musee-orsay.fr/en/ressources/artists-personalities-catalog/edouard-menta-18164
-  - https://www.wikidata.org/wiki/Q40551315
-  - https://exhibitions.univie.ac.at/person/ulan/500163360
-  - https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf
+  - url: "https://www.musee-orsay.fr/en/ressources/artists-personalities-catalog/edouard-menta-18164"
+    kind: institutional
+  - url: "https://www.wikidata.org/wiki/Q40551315"
+    kind: authority
+  - url: "https://exhibitions.univie.ac.at/person/ulan/500163360"
+    kind: reference
+  - url: "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+    kind: scholarly
 status: draft
 updated: 2026-08-12
 ---

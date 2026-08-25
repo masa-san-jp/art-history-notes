@@ -17,8 +17,10 @@ time:
 space: []
 relations: []
 sources:
-  - https://www.wikidata.org/wiki/Q933253
-  - http://museums.toyamaken.jp/documents/documents007/
+  - url: "https://www.wikidata.org/wiki/Q933253"
+    kind: authority
+  - url: "http://museums.toyamaken.jp/documents/documents007/"
+    kind: institutional
 status: stub
 updated: 2026-08-10
 ---

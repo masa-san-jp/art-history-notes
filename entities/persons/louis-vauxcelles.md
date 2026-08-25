@@ -17,9 +17,12 @@ time:
 space: []
 relations: []
 sources:
-  - https://www.wikidata.org/wiki/Q1872044
-  - https://en.wikipedia.org/wiki/Cubism
-  - https://en.wikipedia.org/wiki/Fauvism
+  - url: "https://www.wikidata.org/wiki/Q1872044"
+    kind: authority
+  - url: "https://en.wikipedia.org/wiki/Cubism"
+    kind: reference
+  - url: "https://en.wikipedia.org/wiki/Fauvism"
+    kind: reference
 status: stub
 updated: 2026-08-10
 ---

@@ -17,9 +17,12 @@ time:
 space: []
 relations: []
 sources:
-  - https://www.wikidata.org/wiki/Q7462952
-  - https://theartwanderer.co.uk/the-baghdad-modern-art-group-birth-of-arabian-modernism/
-  - https://encyclopedia.mathaf.org.qa/en/bios/Pages/Shakir-Hassan-Al-Said.aspx
+  - url: "https://www.wikidata.org/wiki/Q7462952"
+    kind: authority
+  - url: "https://theartwanderer.co.uk/the-baghdad-modern-art-group-birth-of-arabian-modernism/"
+    kind: reference
+  - url: "https://encyclopedia.mathaf.org.qa/en/bios/Pages/Shakir-Hassan-Al-Said.aspx"
+    kind: reference
 status: stub
 updated: 2026-08-09
 ---

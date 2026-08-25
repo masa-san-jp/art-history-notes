@@ -20,12 +20,18 @@ relations:
   - {type: exhibited_at, target: event/first-brera-triennale-1891}
   - {type: exhibited_at, target: event/salon-divisionnistes-italiens-paris-1907}
 sources:
-  - https://www.wikidata.org/wiki/Q379300
-  - https://catalogo.fondazionezeri.unibo.it/scheda/opera/99490/Segantini%20Giovanni%2C%20Mucca%20all%27abbeveratoio
-  - https://galleriemaspes.com/immagini_sito/Cataloghi%20pdf/Brera_Guide.pdf
-  - https://exhibitions.univie.ac.at/person/ulan/500005029
-  - https://www.treccani.it/enciclopedia/giovanni-segantini_%28Dizionario-Biografico%29/
-  - https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf
+  - url: "https://www.wikidata.org/wiki/Q379300"
+    kind: authority
+  - url: "https://catalogo.fondazionezeri.unibo.it/scheda/opera/99490/Segantini%20Giovanni%2C%20Mucca%20all%27abbeveratoio"
+    kind: reference
+  - url: "https://galleriemaspes.com/immagini_sito/Cataloghi%20pdf/Brera_Guide.pdf"
+    kind: scholarly
+  - url: "https://exhibitions.univie.ac.at/person/ulan/500005029"
+    kind: reference
+  - url: "https://www.treccani.it/enciclopedia/giovanni-segantini_%28Dizionario-Biografico%29/"
+    kind: reference
+  - url: "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+    kind: scholarly
 status: draft
 updated: 2026-08-12
 ---

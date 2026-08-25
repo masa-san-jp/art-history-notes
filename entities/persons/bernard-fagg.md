@@ -17,9 +17,12 @@ time:
 space: []
 relations: []
 sources:
-  - https://www.wikidata.org/wiki/Q822404
-  - https://www.nationalgeographic.com/history/article/nigeria-nok-terra-cotta
-  - https://aktuelles.uni-frankfurt.de/en/english/nok-research-project-enters-final-phase/
+  - url: "https://www.wikidata.org/wiki/Q822404"
+    kind: authority
+  - url: "https://www.nationalgeographic.com/history/article/nigeria-nok-terra-cotta"
+    kind: reference
+  - url: "https://aktuelles.uni-frankfurt.de/en/english/nok-research-project-enters-final-phase/"
+    kind: reference
 status: stub
 updated: 2026-08-10
 ---

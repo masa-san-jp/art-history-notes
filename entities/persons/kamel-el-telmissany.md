@@ -17,8 +17,10 @@ time:
 space: []
 relations: []
 sources:
-  - https://www.wikidata.org/wiki/Q12234337
-  - https://en.wikipedia.org/wiki/Kamel_el-Telmissany
+  - url: "https://www.wikidata.org/wiki/Q12234337"
+    kind: authority
+  - url: "https://en.wikipedia.org/wiki/Kamel_el-Telmissany"
+    kind: reference
 status: stub
 updated: 2026-08-10
 ---

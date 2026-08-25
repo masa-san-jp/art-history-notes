@@ -19,10 +19,14 @@ space:
 relations:
   - {type: exhibited_at, target: event/first-brera-triennale-1891}
 sources:
-  - https://www.wikidata.org/wiki/Q3828265
-  - https://archivio-alon.it/autore/pasini-lazzaro/86
-  - https://www.dizionariodartesartori.it/artisti/pasini-lazzaro
-  - https://galleriemaspes.com/immagini_sito/Cataloghi%20pdf/Brera_Guide.pdf
+  - url: "https://www.wikidata.org/wiki/Q3828265"
+    kind: authority
+  - url: "https://archivio-alon.it/autore/pasini-lazzaro/86"
+    kind: reference
+  - url: "https://www.dizionariodartesartori.it/artisti/pasini-lazzaro"
+    kind: reference
+  - url: "https://galleriemaspes.com/immagini_sito/Cataloghi%20pdf/Brera_Guide.pdf"
+    kind: scholarly
 status: draft
 updated: 2026-08-13
 ---

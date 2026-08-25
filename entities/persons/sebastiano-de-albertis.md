@@ -19,10 +19,14 @@ space:
 relations:
   - {type: exhibited_at, target: event/first-brera-triennale-1891}
 sources:
-  - https://www.treccani.it/enciclopedia/sebastiano-de-albertis_%28Dizionario-Biografico%29/
-  - https://www.wikidata.org/wiki/Q3953749
-  - https://www.getty.edu/vow/ULANFullDisplay?find=bouchet&nation=&page=1&role=porcelain+painter&subjectid=500032440
-  - https://commons.wikimedia.org/wiki/Category%3ASebastiano_De_Albertis
+  - url: "https://www.treccani.it/enciclopedia/sebastiano-de-albertis_%28Dizionario-Biografico%29/"
+    kind: reference
+  - url: "https://www.wikidata.org/wiki/Q3953749"
+    kind: authority
+  - url: "https://www.getty.edu/vow/ULANFullDisplay?find=bouchet&nation=&page=1&role=porcelain+painter&subjectid=500032440"
+    kind: authority
+  - url: "https://commons.wikimedia.org/wiki/Category%3ASebastiano_De_Albertis"
+    kind: reference
 status: draft
 updated: 2026-08-13
 ---

@@ -17,9 +17,13 @@ time:
 space: []
 relations: []
 sources:
-  - https://www.wikidata.org/wiki/Q50659
-  - https://www.france-memoire.fr/wp-content/uploads/2022/07/charivari_documentv2.pdf
-  - https://gallica.bnf.fr/ark:/12148/bpt6k30708891/f2.item
+  - url: "https://www.wikidata.org/wiki/Q50659"
+    kind: authority
+  - url: "https://www.france-memoire.fr/wp-content/uploads/2022/07/charivari_documentv2.pdf"
+    kind: scholarly
+  - url: "https://gallica.bnf.fr/ark:/12148/bpt6k30708891/f2.item"
+    kind: primary
+    note: "URLの資料パスから一次資料と判定"
 status: stub
 updated: 2026-08-09
 ---

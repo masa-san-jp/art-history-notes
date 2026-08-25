@@ -17,9 +17,12 @@ time:
 space: []
 relations: []
 sources:
-  - https://www.wikidata.org/wiki/Q125350260
-  - https://en.wikipedia.org/wiki/Baghdad_School
-  - https://www.academia.edu/37869572/History_Regained_a_Modern_Artist_in_Baghdad_Encounters_a_Lost_Tradition_of_Painting
+  - url: "https://www.wikidata.org/wiki/Q125350260"
+    kind: authority
+  - url: "https://en.wikipedia.org/wiki/Baghdad_School"
+    kind: reference
+  - url: "https://www.academia.edu/37869572/History_Regained_a_Modern_Artist_in_Baghdad_Encounters_a_Lost_Tradition_of_Painting"
+    kind: institutional
 status: stub
 updated: 2026-08-10
 ---

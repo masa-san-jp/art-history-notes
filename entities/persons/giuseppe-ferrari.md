@@ -18,9 +18,12 @@ space: []
 relations:
   - {type: exhibited_at, target: event/first-brera-triennale-1891}
 sources:
-  - https://www.treccani.it/enciclopedia/giuseppe-ferrari_res-26c5e9bb-86d6-11dc-9a1b-0016357eee51/
-  - https://www.catalogo.beniculturali.it/detail/HistoricOrArtisticProperty/1200230343A-3
-  - https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf
+  - url: "https://www.treccani.it/enciclopedia/giuseppe-ferrari_res-26c5e9bb-86d6-11dc-9a1b-0016357eee51/"
+    kind: reference
+  - url: "https://www.catalogo.beniculturali.it/detail/HistoricOrArtisticProperty/1200230343A-3"
+    kind: reference
+  - url: "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+    kind: scholarly
 status: draft
 updated: 2026-08-12
 ---

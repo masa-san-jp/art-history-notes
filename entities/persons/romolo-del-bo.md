@@ -18,9 +18,12 @@ space: []
 relations:
   - {type: exhibited_at, target: event/first-brera-triennale-1891}
 sources:
-  - https://www.musee-orsay.fr/en/ressources/artists-personalities-catalog/romolo-del-bo-10534
-  - https://dizionariodartesartori.it/artisti/del-bo-romolo
-  - https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf
+  - url: "https://www.musee-orsay.fr/en/ressources/artists-personalities-catalog/romolo-del-bo-10534"
+    kind: institutional
+  - url: "https://dizionariodartesartori.it/artisti/del-bo-romolo"
+    kind: reference
+  - url: "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+    kind: scholarly
 status: draft
 updated: 2026-08-12
 ---

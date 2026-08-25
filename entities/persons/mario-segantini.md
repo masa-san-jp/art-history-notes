@@ -19,10 +19,14 @@ relations:
   - {type: belongs_to, target: movement/italian-divisionism}
   - {type: exhibited_at, target: event/salon-divisionnistes-italiens-paris-1907}
 sources:
-  - https://www.wikidata.org/wiki/Q43136835
-  - https://exhibitions.univie.ac.at/person/gnd/108964910X
-  - https://www.berardiarte.it/artisti/mario-segantini/
-  - https://mageda.de/datenbank/kuenstlerdetails/15125/segantini-mario
+  - url: "https://www.wikidata.org/wiki/Q43136835"
+    kind: authority
+  - url: "https://exhibitions.univie.ac.at/person/gnd/108964910X"
+    kind: reference
+  - url: "https://www.berardiarte.it/artisti/mario-segantini/"
+    kind: reference
+  - url: "https://mageda.de/datenbank/kuenstlerdetails/15125/segantini-mario"
+    kind: reference
 status: draft
 updated: 2026-08-12
 ---

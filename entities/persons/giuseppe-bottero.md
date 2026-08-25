@@ -18,9 +18,12 @@ space: []
 relations:
   - {type: exhibited_at, target: event/first-brera-triennale-1891}
 sources:
-  - https://dizionariodartesartori.it/artisti/bottero-giuseppe
-  - https://www.cr.piemonte.it/dwd/pubblicazioni/tascabili/tascabile_52_web.pdf
-  - https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf
+  - url: "https://dizionariodartesartori.it/artisti/bottero-giuseppe"
+    kind: reference
+  - url: "https://www.cr.piemonte.it/dwd/pubblicazioni/tascabili/tascabile_52_web.pdf"
+    kind: scholarly
+  - url: "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+    kind: scholarly
 status: draft
 updated: 2026-08-12
 ---

@@ -19,11 +19,16 @@ space:
 relations:
   - {type: exhibited_at, target: event/first-brera-triennale-1891}
 sources:
-  - https://www.treccani.it/enciclopedia/attilio-pusterla_%28Dizionario-Biografico%29/
-  - https://www.wikidata.org/wiki/Q15996495
-  - https://www.getty.edu/vow/ULANFullDisplay?find=&nation=Finnish&role=&subjectid=500089405
-  - https://ildivisionismo.it/attilio-pusterla/
-  - https://commons.wikimedia.org/wiki/Category%3AAttilio_Pusterla
+  - url: "https://www.treccani.it/enciclopedia/attilio-pusterla_%28Dizionario-Biografico%29/"
+    kind: reference
+  - url: "https://www.wikidata.org/wiki/Q15996495"
+    kind: authority
+  - url: "https://www.getty.edu/vow/ULANFullDisplay?find=&nation=Finnish&role=&subjectid=500089405"
+    kind: authority
+  - url: "https://ildivisionismo.it/attilio-pusterla/"
+    kind: reference
+  - url: "https://commons.wikimedia.org/wiki/Category%3AAttilio_Pusterla"
+    kind: reference
 status: draft
 updated: 2026-08-12
 ---

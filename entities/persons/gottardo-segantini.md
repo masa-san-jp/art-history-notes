@@ -19,10 +19,14 @@ relations:
   - {type: belongs_to, target: movement/italian-divisionism}
   - {type: exhibited_at, target: event/salon-divisionnistes-italiens-paris-1907}
 sources:
-  - https://exhibitions.univie.ac.at/person/ulan/500171185
-  - https://www.britishmuseum.org/collection/term/BIOG143198
-  - https://www.nga.gov/artists/36793-gottardo-segantini
-  - https://www.deutsche-digitale-bibliothek.de/person/gnd/118760572
+  - url: "https://exhibitions.univie.ac.at/person/ulan/500171185"
+    kind: reference
+  - url: "https://www.britishmuseum.org/collection/term/BIOG143198"
+    kind: institutional
+  - url: "https://www.nga.gov/artists/36793-gottardo-segantini"
+    kind: reference
+  - url: "https://www.deutsche-digitale-bibliothek.de/person/gnd/118760572"
+    kind: reference
 status: draft
 updated: 2026-08-12
 ---

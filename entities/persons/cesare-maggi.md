@@ -19,10 +19,14 @@ relations:
   - {type: belongs_to, target: movement/italian-divisionism}
   - {type: exhibited_at, target: event/salon-divisionnistes-italiens-paris-1907}
 sources:
-  - https://www.wikidata.org/wiki/Q3665459
-  - https://exhibitions.univie.ac.at/person/ulan/500053429
-  - https://www.treccani.it/enciclopedia/cesare-maggi/
-  - https://collezionedarte.bancaditalia.it/en/web/guest/-/cesare-maggi
+  - url: "https://www.wikidata.org/wiki/Q3665459"
+    kind: authority
+  - url: "https://exhibitions.univie.ac.at/person/ulan/500053429"
+    kind: reference
+  - url: "https://www.treccani.it/enciclopedia/cesare-maggi/"
+    kind: reference
+  - url: "https://collezionedarte.bancaditalia.it/en/web/guest/-/cesare-maggi"
+    kind: reference
 status: draft
 updated: 2026-08-12
 ---

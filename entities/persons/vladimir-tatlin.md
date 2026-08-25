@@ -20,11 +20,16 @@ relations:
   - {type: belongs_to, target: movement/constructivism}
   - {type: member_of, target: org/vkhutemas}
 sources:
-  - https://www.wikidata.org/wiki/Q310320
-  - https://www.moma.org/artists/5811-vladimir-tatlin
-  - https://www.moma.org/calendar/exhibitions/5027
-  - https://www.moma.org/collection/works/13818
-  - https://www.moma.org/collection/works/38361
+  - url: "https://www.wikidata.org/wiki/Q310320"
+    kind: authority
+  - url: "https://www.moma.org/artists/5811-vladimir-tatlin"
+    kind: institutional
+  - url: "https://www.moma.org/calendar/exhibitions/5027"
+    kind: institutional
+  - url: "https://www.moma.org/collection/works/13818"
+    kind: institutional
+  - url: "https://www.moma.org/collection/works/38361"
+    kind: institutional
 status: draft
 updated: 2026-08-12
 ---

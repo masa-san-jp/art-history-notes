@@ -17,9 +17,12 @@ time:
 space: []
 relations: []
 sources:
-  - https://www.wikidata.org/wiki/Q9069789
-  - https://en.wikipedia.org/wiki/Robert_Coates_(critic)
-  - https://en.wikipedia.org/wiki/Abstract_expressionism
+  - url: "https://www.wikidata.org/wiki/Q9069789"
+    kind: authority
+  - url: "https://en.wikipedia.org/wiki/Robert_Coates_(critic)"
+    kind: reference
+  - url: "https://en.wikipedia.org/wiki/Abstract_expressionism"
+    kind: reference
 status: stub
 updated: 2026-08-09
 ---

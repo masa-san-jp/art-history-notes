@@ -21,11 +21,16 @@ relations:
   - {type: belongs_to, target: movement/constructivism}
   - {type: member_of, target: org/vkhutemas}
 sources:
-  - https://www.wikidata.org/wiki/Q374948
-  - https://www.moma.org/artists/5643-varvara-stepanova
-  - https://www.moma.org/collection/works/102322
-  - https://www.moma.org/interactives/objectphoto/schools/15.html
-  - https://museumart.ru/collection/varvara-stepanova
+  - url: "https://www.wikidata.org/wiki/Q374948"
+    kind: authority
+  - url: "https://www.moma.org/artists/5643-varvara-stepanova"
+    kind: institutional
+  - url: "https://www.moma.org/collection/works/102322"
+    kind: institutional
+  - url: "https://www.moma.org/interactives/objectphoto/schools/15.html"
+    kind: institutional
+  - url: "https://museumart.ru/collection/varvara-stepanova"
+    kind: institutional
 status: draft
 updated: 2026-08-12
 ---

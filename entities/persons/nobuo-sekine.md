@@ -17,8 +17,10 @@ time:
 space: []
 relations: []
 sources:
-  - https://www.wikidata.org/wiki/Q3342580
-  - https://www.getty.edu/vow/AATFullDisplay?find=mono+ha&logic=AND&note=&english=Y&prev_page=1&subjectid=300417405
+  - url: "https://www.wikidata.org/wiki/Q3342580"
+    kind: authority
+  - url: "https://www.getty.edu/vow/AATFullDisplay?find=mono+ha&logic=AND&note=&english=Y&prev_page=1&subjectid=300417405"
+    kind: authority
 status: stub
 updated: 2026-08-09
 ---

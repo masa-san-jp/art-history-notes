@@ -17,8 +17,11 @@ time:
 space: []
 relations: []
 sources:
-  - https://www.wikidata.org/wiki/Q5482041
-  - https://web.archive.org/web/20131214145023/http://www.artnewsnviews.com/view-article.php?article=progressive-artists-group-of-bombay-an-overview&iid=29&articleid=800
+  - url: "https://www.wikidata.org/wiki/Q5482041"
+    kind: authority
+  - url: "https://web.archive.org/web/20131214145023/http://www.artnewsnviews.com/view-article.php?article=progressive-artists-group-of-bombay-an-overview&iid=29&articleid=800"
+    kind: primary
+    note: "URLの資料パスから一次資料と判定"
 status: stub
 updated: 2026-08-10
 ---

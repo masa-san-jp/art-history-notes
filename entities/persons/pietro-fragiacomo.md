@@ -19,10 +19,14 @@ space:
 relations:
   - {type: exhibited_at, target: event/first-brera-triennale-1891}
 sources:
-  - https://www.treccani.it/enciclopedia/pietro-fragiacomo_%28Dizionario-Biografico%29/
-  - https://www.wikidata.org/wiki/Q3903892
-  - https://www.getty.edu/vow/ULANFullDisplay?find=&nation=&page=1&role=&subjectid=500006704
-  - https://www.fondazionecrtrieste.it/wp-content/uploads/2021/06/Pietro_Fragiacomo.pdf
+  - url: "https://www.treccani.it/enciclopedia/pietro-fragiacomo_%28Dizionario-Biografico%29/"
+    kind: reference
+  - url: "https://www.wikidata.org/wiki/Q3903892"
+    kind: authority
+  - url: "https://www.getty.edu/vow/ULANFullDisplay?find=&nation=&page=1&role=&subjectid=500006704"
+    kind: authority
+  - url: "https://www.fondazionecrtrieste.it/wp-content/uploads/2021/06/Pietro_Fragiacomo.pdf"
+    kind: scholarly
 status: draft
 updated: 2026-08-12
 ---

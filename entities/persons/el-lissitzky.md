@@ -21,11 +21,16 @@ relations:
   - {type: belongs_to, target: movement/constructivism}
   - {type: member_of, target: org/vkhutemas}
 sources:
-  - https://www.wikidata.org/wiki/Q152233
-  - https://www.moma.org/artists/3569-el-lissitzky
-  - https://www.moma.org/interactives/objectphoto/artists/3569.html
-  - https://www.moma.org/interactives/objectphoto/schools/15.html
-  - https://post.moma.org/magazines-as-sites-of-intersection-a-new-look-at-the-bauhaus-and-vkhutemas/
+  - url: "https://www.wikidata.org/wiki/Q152233"
+    kind: authority
+  - url: "https://www.moma.org/artists/3569-el-lissitzky"
+    kind: institutional
+  - url: "https://www.moma.org/interactives/objectphoto/artists/3569.html"
+    kind: institutional
+  - url: "https://www.moma.org/interactives/objectphoto/schools/15.html"
+    kind: institutional
+  - url: "https://post.moma.org/magazines-as-sites-of-intersection-a-new-look-at-the-bauhaus-and-vkhutemas/"
+    kind: institutional
 status: draft
 updated: 2026-08-12
 ---

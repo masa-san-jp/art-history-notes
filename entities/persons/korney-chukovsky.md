@@ -17,9 +17,12 @@ time:
 space: []
 relations: []
 sources:
-  - https://www.wikidata.org/wiki/Q347685
-  - https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300021394
-  - https://en.wikipedia.org/wiki/Cubo-Futurism
+  - url: "https://www.wikidata.org/wiki/Q347685"
+    kind: authority
+  - url: "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300021394"
+    kind: authority
+  - url: "https://en.wikipedia.org/wiki/Cubo-Futurism"
+    kind: reference
 status: stub
 updated: 2026-08-10
 ---

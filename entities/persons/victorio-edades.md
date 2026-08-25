@@ -17,9 +17,12 @@ time:
 space: []
 relations: []
 sources:
-  - https://www.wikidata.org/wiki/Q2145607
-  - https://en.wikipedia.org/wiki/Victorio_Edades
-  - https://cdn.aaa.org.hk/_source/digital_collection/fedora_extracted/45808.pdf
+  - url: "https://www.wikidata.org/wiki/Q2145607"
+    kind: authority
+  - url: "https://en.wikipedia.org/wiki/Victorio_Edades"
+    kind: reference
+  - url: "https://cdn.aaa.org.hk/_source/digital_collection/fedora_extracted/45808.pdf"
+    kind: scholarly
 status: stub
 updated: 2026-08-09
 ---

@@ -19,11 +19,16 @@ space:
 relations:
   - {type: exhibited_at, target: event/first-brera-triennale-1891}
 sources:
-  - https://www.treccani.it/enciclopedia/giovanni-sottocornola_%28Dizionario-Biografico%29/
-  - https://www.treccani.it/enciclopedia/giovanni-sottocornola_%28Enciclopedia-Italiana%29/
-  - https://www.wikidata.org/wiki/Q3768168
-  - https://www.getty.edu/vow/ULANFullDisplay?find=&nation=&page=1&role=&subjectid=500086073
-  - https://commons.wikimedia.org/wiki/Category%3AGiovanni_Sottocornola
+  - url: "https://www.treccani.it/enciclopedia/giovanni-sottocornola_%28Dizionario-Biografico%29/"
+    kind: reference
+  - url: "https://www.treccani.it/enciclopedia/giovanni-sottocornola_%28Enciclopedia-Italiana%29/"
+    kind: reference
+  - url: "https://www.wikidata.org/wiki/Q3768168"
+    kind: authority
+  - url: "https://www.getty.edu/vow/ULANFullDisplay?find=&nation=&page=1&role=&subjectid=500086073"
+    kind: authority
+  - url: "https://commons.wikimedia.org/wiki/Category%3AGiovanni_Sottocornola"
+    kind: reference
 status: draft
 updated: 2026-08-12
 ---

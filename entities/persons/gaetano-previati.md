@@ -20,10 +20,14 @@ relations:
   - {type: exhibited_at, target: event/first-brera-triennale-1891}
   - {type: exhibited_at, target: event/salon-divisionnistes-italiens-paris-1907}
 sources:
-  - https://www.wikidata.org/wiki/Q913979
-  - https://exhibitions.univie.ac.at/person/ulan/500030319
-  - https://www.treccani.it/enciclopedia/gaetano-previati_%28Dizionario-Biografico%29/
-  - https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf
+  - url: "https://www.wikidata.org/wiki/Q913979"
+    kind: authority
+  - url: "https://exhibitions.univie.ac.at/person/ulan/500030319"
+    kind: reference
+  - url: "https://www.treccani.it/enciclopedia/gaetano-previati_%28Dizionario-Biografico%29/"
+    kind: reference
+  - url: "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+    kind: scholarly
 status: draft
 updated: 2026-08-12
 ---

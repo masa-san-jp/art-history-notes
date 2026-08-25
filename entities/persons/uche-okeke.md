@@ -17,8 +17,10 @@ time:
 space: []
 relations: []
 sources:
-  - https://www.wikidata.org/wiki/Q15461959
-  - https://human.libretexts.org/Bookshelves/Art/Art_History_and_Theory/SmartHistory_of_Art_2e/SmartHistory_of_Art_IXb_-_Modernism_1945-1980/06%3A_Colonial_and_postcolonial_modernisms/6.02%3A_Nigeria_Uche_Okeke
+  - url: "https://www.wikidata.org/wiki/Q15461959"
+    kind: authority
+  - url: "https://human.libretexts.org/Bookshelves/Art/Art_History_and_Theory/SmartHistory_of_Art_2e/SmartHistory_of_Art_IXb_-_Modernism_1945-1980/06%3A_Colonial_and_postcolonial_modernisms/6.02%3A_Nigeria_Uche_Okeke"
+    kind: reference
 status: stub
 updated: 2026-08-09
 ---

@@ -21,8 +21,10 @@ space:
   - {role: died_in, target: place/paris}
 relations: []
 sources:
-  - https://www.wikidata.org/wiki/Q240483
-  - https://en.wikipedia.org/wiki/Henri_Lehmann
+  - url: "https://www.wikidata.org/wiki/Q240483"
+    kind: authority
+  - url: "https://en.wikipedia.org/wiki/Henri_Lehmann"
+    kind: reference
 status: draft
 updated: 2026-08-09
 ---

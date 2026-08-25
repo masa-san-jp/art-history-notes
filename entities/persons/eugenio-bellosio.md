@@ -18,10 +18,14 @@ space: []
 relations:
   - {type: exhibited_at, target: event/salon-divisionnistes-italiens-paris-1907}
 sources:
-  - https://www.wikidata.org/wiki/Q17279862
-  - https://catalogo.beniculturali.it/detail/HistoricOrArtisticProperty/0300019771
-  - https://www.beweb.chiesacattolica.it/persone/persona/14580/Eugenio%2BBellosio
-  - https://www.bdl.servizirl.it/bdl/public/rest/srv/item/2295/pdf
+  - url: "https://www.wikidata.org/wiki/Q17279862"
+    kind: authority
+  - url: "https://catalogo.beniculturali.it/detail/HistoricOrArtisticProperty/0300019771"
+    kind: reference
+  - url: "https://www.beweb.chiesacattolica.it/persone/persona/14580/Eugenio%2BBellosio"
+    kind: reference
+  - url: "https://www.bdl.servizirl.it/bdl/public/rest/srv/item/2295/pdf"
+    kind: reference
 status: draft
 updated: 2026-08-12
 ---

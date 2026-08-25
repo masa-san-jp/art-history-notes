@@ -17,8 +17,10 @@ time:
 space: []
 relations: []
 sources:
-  - https://www.wikidata.org/wiki/Q691796
-  - https://en.wikipedia.org/wiki/Abanindranath_Tagore
+  - url: "https://www.wikidata.org/wiki/Q691796"
+    kind: authority
+  - url: "https://en.wikipedia.org/wiki/Abanindranath_Tagore"
+    kind: reference
 status: stub
 updated: 2026-08-09
 ---

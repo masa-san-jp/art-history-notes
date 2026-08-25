@@ -18,9 +18,12 @@ space: []
 relations:
   - {type: exhibited_at, target: event/first-brera-triennale-1891}
 sources:
-  - https://www.wikidata.org/wiki/Q1155252
-  - https://www.treccani.it/enciclopedia/lorenzo-delleani_%28Dizionario-Biografico%29/
-  - https://www.treccani.it/enciclopedia/lorenzo-delleani
+  - url: "https://www.wikidata.org/wiki/Q1155252"
+    kind: authority
+  - url: "https://www.treccani.it/enciclopedia/lorenzo-delleani_%28Dizionario-Biografico%29/"
+    kind: reference
+  - url: "https://www.treccani.it/enciclopedia/lorenzo-delleani"
+    kind: reference
 status: draft
 updated: 2026-08-12
 ---

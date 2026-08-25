@@ -17,9 +17,12 @@ time:
 space: []
 relations: []
 sources:
-  - https://www.wikidata.org/wiki/Q5593
-  - https://www.moma.org/collection/works/78984
-  - https://wist.info/picasso-pablo/3147/
+  - url: "https://www.wikidata.org/wiki/Q5593"
+    kind: authority
+  - url: "https://www.moma.org/collection/works/78984"
+    kind: institutional
+  - url: "https://wist.info/picasso-pablo/3147/"
+    kind: reference
 status: stub
 updated: 2026-08-10
 ---

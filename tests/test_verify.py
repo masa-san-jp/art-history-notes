@@ -23,7 +23,8 @@ class VerifySequenceTests(unittest.TestCase):
         self.assertEqual(["tools/build_graph.py", "--check"], commands[0][1:])
         self.assertEqual(["tools/audit_source_migration.py", "--check-type", "movement", "--quiet"], commands[2][1:])
         self.assertEqual(["tools/audit_source_migration.py", "--check-type", "context", "--quiet"], commands[3][1:])
-        self.assertEqual(["-m", "unittest", "discover", "-s", "tests", "-p", "test*.py"], commands[4][1:])
+        self.assertEqual(["tools/audit_source_migration.py", "--check-type", "person", "--quiet"], commands[4][1:])
+        self.assertEqual(["-m", "unittest", "discover", "-s", "tests", "-p", "test*.py"], commands[5][1:])
         self.assertEqual(["git", "diff", "--exit-code", "--", "data/", "overviews/coverage.md"], commands[-1])
         self.assertTrue(all(call.kwargs == {"cwd": verify.ROOT, "check": False}
                              for call in run.call_args_list))

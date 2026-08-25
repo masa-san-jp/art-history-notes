@@ -17,9 +17,12 @@ time:
 space: []
 relations: []
 sources:
-  - https://www.wikidata.org/wiki/Q3460141
-  - https://en.wikipedia.org/wiki/Nguy%E1%BB%85n_Gia_Tr%C3%AD
-  - https://www.tapchisonglam.vn/di-san-cua-truong-cao-dang-my-thuat-dong-duong/
+  - url: "https://www.wikidata.org/wiki/Q3460141"
+    kind: authority
+  - url: "https://en.wikipedia.org/wiki/Nguy%E1%BB%85n_Gia_Tr%C3%AD"
+    kind: reference
+  - url: "https://www.tapchisonglam.vn/di-san-cua-truong-cao-dang-my-thuat-dong-duong/"
+    kind: reference
 status: stub
 updated: 2026-08-09
 ---

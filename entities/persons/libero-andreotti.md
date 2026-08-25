@@ -18,10 +18,14 @@ space: []
 relations:
   - {type: exhibited_at, target: event/salon-divisionnistes-italiens-paris-1907}
 sources:
-  - https://www.wikidata.org/wiki/Q1347871
-  - https://www.museoliberoandreotti.it/
-  - https://www.sistemamusealepistoiese.it/en/museums/libero-andreotti-museum
-  - https://www.bdl.servizirl.it/bdl/public/rest/srv/item/2295/pdf
+  - url: "https://www.wikidata.org/wiki/Q1347871"
+    kind: authority
+  - url: "https://www.museoliberoandreotti.it/"
+    kind: reference
+  - url: "https://www.sistemamusealepistoiese.it/en/museums/libero-andreotti-museum"
+    kind: reference
+  - url: "https://www.bdl.servizirl.it/bdl/public/rest/srv/item/2295/pdf"
+    kind: reference
 status: draft
 updated: 2026-08-12
 ---

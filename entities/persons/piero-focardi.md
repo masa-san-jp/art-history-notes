@@ -19,9 +19,12 @@ relations:
   - {type: belongs_to, target: movement/italian-divisionism}
   - {type: exhibited_at, target: event/salon-divisionnistes-italiens-paris-1907}
 sources:
-  - https://exhibitions.univie.ac.at/person/3322
-  - https://ildivisionismo.it/piero-focardi/
-  - https://www.treccani.it/enciclopedia/ruggero-focardi_%28Dizionario-Biografico%29/
+  - url: "https://exhibitions.univie.ac.at/person/3322"
+    kind: reference
+  - url: "https://ildivisionismo.it/piero-focardi/"
+    kind: reference
+  - url: "https://www.treccani.it/enciclopedia/ruggero-focardi_%28Dizionario-Biografico%29/"
+    kind: reference
 status: draft
 updated: 2026-08-12
 ---

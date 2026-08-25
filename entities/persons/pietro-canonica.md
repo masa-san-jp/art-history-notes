@@ -18,9 +18,12 @@ space: []
 relations:
   - {type: exhibited_at, target: event/first-brera-triennale-1891}
 sources:
-  - https://www.museotorino.it/view/s/66141b46f4d445f4b61935b95279fd03
-  - https://www.museocanonica.it/sites/default/files/f_file/Comunicato%20Stampa.pdf
-  - https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf
+  - url: "https://www.museotorino.it/view/s/66141b46f4d445f4b61935b95279fd03"
+    kind: reference
+  - url: "https://www.museocanonica.it/sites/default/files/f_file/Comunicato%20Stampa.pdf"
+    kind: scholarly
+  - url: "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+    kind: scholarly
 status: draft
 updated: 2026-08-12
 ---

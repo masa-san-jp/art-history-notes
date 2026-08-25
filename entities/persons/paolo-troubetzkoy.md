@@ -18,11 +18,16 @@ space: []
 relations:
   - {type: exhibited_at, target: event/salon-divisionnistes-italiens-paris-1907}
 sources:
-  - https://www.wikidata.org/wiki/Q583534
-  - https://www.treccani.it/enciclopedia/pavel-petrovic-trubeckoj/
-  - https://www.treccani.it/enciclopedia/paul-troubetzkoy_%28Dizionario-Biografico%29/
-  - https://www.musee-orsay.fr/en/program/whats-on/exhibitions/presentation/paul-troubetzkoy-sculpteur-1866-1938
-  - https://www.bdl.servizirl.it/bdl/public/rest/srv/item/2295/pdf
+  - url: "https://www.wikidata.org/wiki/Q583534"
+    kind: authority
+  - url: "https://www.treccani.it/enciclopedia/pavel-petrovic-trubeckoj/"
+    kind: reference
+  - url: "https://www.treccani.it/enciclopedia/paul-troubetzkoy_%28Dizionario-Biografico%29/"
+    kind: reference
+  - url: "https://www.musee-orsay.fr/en/program/whats-on/exhibitions/presentation/paul-troubetzkoy-sculpteur-1866-1938"
+    kind: institutional
+  - url: "https://www.bdl.servizirl.it/bdl/public/rest/srv/item/2295/pdf"
+    kind: reference
 status: draft
 updated: 2026-08-12
 ---

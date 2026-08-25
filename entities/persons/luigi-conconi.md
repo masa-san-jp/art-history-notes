@@ -20,11 +20,16 @@ space: []
 relations:
   - {type: exhibited_at, target: event/first-brera-triennale-1891}
 sources:
-  - https://www.wikidata.org/wiki/Q748332
-  - https://www.treccani.it/enciclopedia/luigi-conconi/
-  - https://www.treccani.it/enciclopedia/luigi-conconi_%28Dizionario-Biografico%29/
-  - https://www.nga.gov/artists/37533-luigi-conconi
-  - https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf
+  - url: "https://www.wikidata.org/wiki/Q748332"
+    kind: authority
+  - url: "https://www.treccani.it/enciclopedia/luigi-conconi/"
+    kind: reference
+  - url: "https://www.treccani.it/enciclopedia/luigi-conconi_%28Dizionario-Biografico%29/"
+    kind: reference
+  - url: "https://www.nga.gov/artists/37533-luigi-conconi"
+    kind: reference
+  - url: "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+    kind: scholarly
 status: draft
 updated: 2026-08-12
 ---

@@ -18,10 +18,14 @@ space: []
 relations:
   - {type: exhibited_at, target: event/first-brera-triennale-1891}
 sources:
-  - https://www.lombardiabeniculturali.it/opere-arte/autori/47981/
-  - https://www.lombardiabeniculturali.it/opere-arte/schede-complete/4t060-03581/
-  - https://catalogo.cultura.gov.it/detail/PhotographicHeritage/0100442353
-  - https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf
+  - url: "https://www.lombardiabeniculturali.it/opere-arte/autori/47981/"
+    kind: reference
+  - url: "https://www.lombardiabeniculturali.it/opere-arte/schede-complete/4t060-03581/"
+    kind: reference
+  - url: "https://catalogo.cultura.gov.it/detail/PhotographicHeritage/0100442353"
+    kind: institutional
+  - url: "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+    kind: scholarly
 status: draft
 updated: 2026-08-12
 ---

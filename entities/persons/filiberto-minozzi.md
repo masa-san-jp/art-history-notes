@@ -19,9 +19,12 @@ relations:
   - {type: belongs_to, target: movement/italian-divisionism}
   - {type: exhibited_at, target: event/salon-divisionnistes-italiens-paris-1907}
 sources:
-  - https://exhibitions.univie.ac.at/person/ulan/500164204
-  - https://ildivisionismo.it/filiberto-minozzi/
-  - https://www.filibertominozzi.it/
+  - url: "https://exhibitions.univie.ac.at/person/ulan/500164204"
+    kind: reference
+  - url: "https://ildivisionismo.it/filiberto-minozzi/"
+    kind: reference
+  - url: "https://www.filibertominozzi.it/"
+    kind: reference
 status: draft
 updated: 2026-08-12
 ---

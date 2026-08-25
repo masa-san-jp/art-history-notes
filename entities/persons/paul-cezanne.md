@@ -17,8 +17,10 @@ time:
 space: []
 relations: []
 sources:
-  - https://www.wikidata.org/wiki/Q35548
-  - https://www.tate.org.uk/art/art-terms/p/post-impressionism
+  - url: "https://www.wikidata.org/wiki/Q35548"
+    kind: authority
+  - url: "https://www.tate.org.uk/art/art-terms/p/post-impressionism"
+    kind: institutional
 status: stub
 updated: 2026-08-10
 ---

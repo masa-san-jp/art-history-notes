@@ -18,11 +18,16 @@ space: []
 relations:
   - {type: grouped_as, target: movement/post-impressionism, certainty: scholarly, source: "https://www.tate.org.uk/art/art-terms/p/post-impressionism"}
 sources:
-  - https://www.wikidata.org/wiki/Q5582
-  - https://www.tate.org.uk/art/art-terms/p/post-impressionism
-  - https://www.vangoghmuseum.nl/en/collection/s0114V1962
-  - https://www.vangoghmuseum.nl/en/collection/s0115v1962
-  - https://collectionapi.metmuseum.org/public/collection/v1/objects/55433
+  - url: "https://www.wikidata.org/wiki/Q5582"
+    kind: authority
+  - url: "https://www.tate.org.uk/art/art-terms/p/post-impressionism"
+    kind: institutional
+  - url: "https://www.vangoghmuseum.nl/en/collection/s0114V1962"
+    kind: institutional
+  - url: "https://www.vangoghmuseum.nl/en/collection/s0115v1962"
+    kind: institutional
+  - url: "https://collectionapi.metmuseum.org/public/collection/v1/objects/55433"
+    kind: institutional
 status: draft
 updated: 2026-08-09
 ---

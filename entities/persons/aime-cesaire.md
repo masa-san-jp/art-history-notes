@@ -17,9 +17,12 @@ time:
 space: []
 relations: []
 sources:
-  - https://www.wikidata.org/wiki/Q223955
-  - https://plato.stanford.edu/entries/negritude/
-  - https://poets.org/text/brief-guide-negritude
+  - url: "https://www.wikidata.org/wiki/Q223955"
+    kind: authority
+  - url: "https://plato.stanford.edu/entries/negritude/"
+    kind: institutional
+  - url: "https://poets.org/text/brief-guide-negritude"
+    kind: reference
 status: draft
 updated: 2026-08-09
 ---

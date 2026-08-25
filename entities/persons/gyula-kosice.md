@@ -17,9 +17,12 @@ time:
 space: []
 relations: []
 sources:
-  - https://www.wikidata.org/wiki/Q183438
-  - https://kosice.com.ar/otros-recursos/los-textos/de-kosice/manifiesto-madi/
-  - https://kosice.com.ar/el-artista/linea-de-tiempo/
+  - url: "https://www.wikidata.org/wiki/Q183438"
+    kind: authority
+  - url: "https://kosice.com.ar/otros-recursos/los-textos/de-kosice/manifiesto-madi/"
+    kind: reference
+  - url: "https://kosice.com.ar/el-artista/linea-de-tiempo/"
+    kind: reference
 status: stub
 updated: 2026-08-10
 ---

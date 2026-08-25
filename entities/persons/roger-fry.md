@@ -17,8 +17,10 @@ time:
 space: []
 relations: []
 sources:
-  - https://www.wikidata.org/wiki/Q547470
-  - https://www.gutenberg.org/files/54154/54154-h/54154-h.htm
+  - url: "https://www.wikidata.org/wiki/Q547470"
+    kind: authority
+  - url: "https://www.gutenberg.org/files/54154/54154-h/54154-h.htm"
+    kind: reference
 status: stub
 updated: 2026-08-09
 ---

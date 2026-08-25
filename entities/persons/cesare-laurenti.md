@@ -18,9 +18,12 @@ space: []
 relations:
   - {type: exhibited_at, target: event/first-brera-triennale-1891}
 sources:
-  - https://www.treccani.it/enciclopedia/cesare-laurenti_%28Dizionario-Biografico%29/
-  - https://archivio-capesaro.visitmuve.it/en/mostre-en/archivio-mostre-en/cesare-laurenti-1854-1936-the-rialto-fish-market/2011/07/1346/cesare-laurenti-1/
-  - https://www.wikidata.org/wiki/Q3665450
+  - url: "https://www.treccani.it/enciclopedia/cesare-laurenti_%28Dizionario-Biografico%29/"
+    kind: reference
+  - url: "https://archivio-capesaro.visitmuve.it/en/mostre-en/archivio-mostre-en/cesare-laurenti-1854-1936-the-rialto-fish-market/2011/07/1346/cesare-laurenti-1/"
+    kind: reference
+  - url: "https://www.wikidata.org/wiki/Q3665450"
+    kind: authority
 status: draft
 updated: 2026-08-12
 ---
