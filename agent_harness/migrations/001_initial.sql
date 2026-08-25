@@ -1,0 +1,3 @@
+-- Schema version 1 is applied transactionally by agent_harness.store.RunStore.
+-- This file is the reviewable migration record; the runtime keeps the same
+-- SQL inline so a clean clone has no migration-discovery dependency.

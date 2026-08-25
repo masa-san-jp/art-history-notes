@@ -1,0 +1,13 @@
+enabled: false
+base_branch: main
+worktree_root: .agent-harness/worktrees
+state_db: .agent-harness/state.sqlite3
+policy:
+  allowed_commands: [git, python, python3, uv, codex, claude]
+  allowed_env: [PATH]
+  max_timeout_seconds: 14400
+  max_output_bytes: 10485760
+backends:
+  default:
+    type: command
+    argv: [codex, exec, --cd, "{worktree}", --, "{prompt_file}"]

@@ -1,0 +1,15 @@
+- name: agent-task
+  color: "1D76DB"
+  description: "A machine-readable task eligible for the agent harness"
+- name: agent-running
+  color: "FBCA04"
+  description: "An agent task currently being executed"
+- name: agent-review
+  color: "5319E7"
+  description: "An agent task delivered for review"
+- name: agent-blocked
+  color: "D93F0B"
+  description: "An agent task blocked pending operator action"
+- name: agent-done
+  color: "0E8A16"
+  description: "An agent task completed and verified"
