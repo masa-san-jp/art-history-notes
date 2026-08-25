@@ -5,6 +5,7 @@
 """
 
 import re
+from urllib.parse import urlparse
 from pathlib import Path
 
 import yaml
@@ -36,6 +37,11 @@ FOUNDING_CONTROL = {"internal", "shared", "external"}
 IMAGE_LICENSES = {"public-domain", "cc0", "pdm"}
 STATUSES = {"stub", "draft", "verified"}
 CERTAINTIES = {"attested", "scholarly", "hypothesis"}
+
+# 出典は移行期間中、URL文字列と構造化objectの両方を読む。新形式のkindは
+# ここだけで定義し、validator・bundle・exportがそれぞれ独自の変換を持たない。
+SOURCE_KINDS = {"primary", "scholarly", "institutional", "authority", "reference"}
+SOURCE_KEYS = {"url", "kind", "note"}
 
 # 構造的な関係（出典なしで書ける）
 STRUCTURAL_RELATIONS = {
@@ -144,6 +150,90 @@ def human_year_to_astronomical(year, era):
 def bce_year_to_astronomical(year):
     """人間向けのBCE年を天文学的年番号へ変換する短縮形。"""
     return human_year_to_astronomical(year, "BCE")
+
+
+# --- 出典 --------------------------------------------------------------------
+
+def is_http_url(value):
+    """scheme と host を持つ http(s) URLだけを受け入れる。ネットワークには接続しない。"""
+    if not isinstance(value, str) or not value.strip() or any(char.isspace() for char in value):
+        return False
+    parsed = urlparse(value)
+    return parsed.scheme.lower() in {"http", "https"} and bool(parsed.netloc)
+
+
+def normalize_source(value):
+    """legacy URLまたは構造化sourceを共通の内部表現にする。"""
+    if isinstance(value, str):
+        return {"url": value, "kind": "reference"}
+    if isinstance(value, dict):
+        normalized = {key: value[key] for key in ("url", "kind", "note") if key in value}
+        return normalized
+    return {}
+
+
+def normalize_sources(values):
+    """source配列を正規化する（入力を変更しない）。"""
+    if not isinstance(values, list):
+        return []
+    return [normalize_source(value) for value in values]
+
+
+def sources_are_structured(values):
+    """source配列が空でなく、全件新形式objectかを返す。"""
+    return isinstance(values, list) and bool(values) and all(isinstance(value, dict) for value in values)
+
+
+def source_urls(values):
+    """source配列からURLだけを決定的な順序で取り出す。"""
+    return [source["url"] for source in normalize_sources(values) if source.get("url")]
+
+
+def source_validation_errors(values, prefix, *, allow_legacy=True):
+    """source配列の構造・URL・kindを検証する。旧文字列は互換期間中許可する。"""
+    errors = []
+    if not isinstance(values, list):
+        return [f"{prefix}: sources は配列が必要"]
+    structured_urls = []
+    for index, value in enumerate(values, start=1):
+        item_prefix = f"{prefix}: sources[{index}]"
+        if isinstance(value, str):
+            if not allow_legacy:
+                errors.append(f"{item_prefix} は構造化objectが必要")
+            if not is_http_url(value):
+                errors.append(f"{item_prefix}.url はscheme/hostを持つhttp(s) URLが必要: {value!r}")
+            continue
+        if not isinstance(value, dict):
+            errors.append(f"{item_prefix} はURL文字列またはobjectが必要")
+            continue
+        unknown = set(value) - SOURCE_KEYS
+        if unknown:
+            errors.append(f"{item_prefix} に未知のkey: {sorted(unknown)}")
+        url = value.get("url")
+        kind = value.get("kind")
+        if not is_http_url(url):
+            errors.append(f"{item_prefix}.url はscheme/hostを持つhttp(s) URLが必要: {url!r}")
+        if kind not in SOURCE_KINDS:
+            errors.append(f"{item_prefix}.kind が語彙外: {kind!r}")
+        note = value.get("note")
+        if note is not None and (not isinstance(note, str) or not note.strip()):
+            errors.append(f"{item_prefix}.note は空でない文字列または省略が必要")
+        if kind == "primary" and (not isinstance(note, str) or not note.strip()):
+            errors.append(f"{item_prefix}: primary には資料種別を説明するnoteが必要")
+        structured_urls.append(url)
+    if all(isinstance(value, dict) for value in values):
+        duplicates = sorted({url for url in structured_urls if structured_urls.count(url) > 1})
+        for url in duplicates:
+            errors.append(f"{prefix}: sources のURLが重複: {url}")
+    return errors
+
+
+def normalized_meta(meta):
+    """生成物用のentity mapを共通内部表現にする。"""
+    output = dict(meta)
+    if isinstance(meta.get("sources"), list):
+        output["sources"] = normalize_sources(meta["sources"])
+    return output
 
 
 # --- 読み込み -----------------------------------------------------------------

@@ -10,7 +10,8 @@ from pathlib import Path
 
 import yaml
 
-from kb import edtf_ok
+from kb import (edtf_ok, is_http_url, source_urls, source_validation_errors,
+                sources_are_structured)
 
 
 CONTEXT_KINDS = {"historical", "current"}
@@ -177,6 +178,10 @@ def validate_contexts(contexts, entities, config):
         if not isinstance(sources, list):
             err("sources は配列にする")
             sources = []
+        structured_sources = sources_are_structured(sources)
+        if structured_sources:
+            errors.extend(source_validation_errors(sources, rel))
+        source_url_set = set(source_urls(sources))
         signals = context.get("signals")
         if not isinstance(signals, list):
             err("signals は配列にする")
@@ -232,12 +237,16 @@ def validate_contexts(contexts, entities, config):
                     err(f"{field} は空でない文章にする", shown_id)
             source = signal.get("source")
             source_valid = isinstance(source, str) and (
-                HTTP_RE.match(source)
-                or (source in entities and entities[source].get("type") == "source")
+                (is_http_url(source) if structured_sources else HTTP_RE.match(source))
+                or (not structured_sources and source in entities
+                    and entities[source].get("type") == "source")
             )
             if not source_valid:
-                err(f"source は既存 source ID または http/https URL: {source!r}", shown_id)
-            if source not in sources:
+                if structured_sources:
+                    err(f"source はhttp(s) URL: {source!r}", shown_id)
+                else:
+                    err(f"source は既存 source ID または http/https URL: {source!r}", shown_id)
+            if (source not in source_url_set if structured_sources else source not in sources):
                 err("signal.source が context の sources にない", shown_id)
             all_signal_sources.add(source)
             duplicate_key = (dimension, source, signal.get("claim"))

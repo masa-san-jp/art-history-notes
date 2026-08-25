@@ -16,7 +16,8 @@ import sys
 from pathlib import Path
 
 from kb import (ROOT, alias_map, build_edges, century_of_year, edtf_year_range, load_entities, log_query,
-                load_region_history, read_frontmatter, regions_of, resolve, search_entities)
+                load_region_history, normalize_source, normalize_sources, read_frontmatter, regions_of,
+                resolve, search_entities)
 
 
 def summarize(meta):
@@ -43,7 +44,17 @@ def neighbors(center, edges, depth):
 def render(centers, entities, edges, title):
     lines = [f"# 知識バンドル: {title}", "",
              "生成物（`tools/bundle.py`）。編集しても KB には戻らない。正は `entities/` 側。", ""]
-    sources = []
+    sources = {}
+
+    def add_source(value):
+        source = normalize_source(value)
+        url = source.get("url")
+        if not url:
+            return
+        previous = sources.get(url)
+        if previous is None or (previous.get("kind") == "reference" and source.get("kind") != "reference") \
+                or (not previous.get("note") and source.get("note")):
+            sources[url] = source
     for cid in centers:
         meta = entities.get(cid)
         if not meta:
@@ -68,7 +79,9 @@ def render(centers, entities, edges, title):
             ]
         out_edges = [e for e in edges if e["from"] == cid and not e.get("derived")]
         in_edges = [e for e in edges if e["to"] == cid and not e.get("derived")]
-        sources += [e["source"] for e in out_edges + in_edges if e.get("source")]
+        for edge in out_edges + in_edges:
+            if edge.get("source"):
+                add_source(edge["source"])
         if out_edges:
             lines += ["", "関係（この節から出る）:"] + [
                 f"- {e['type']} → {summarize(entities[e['to']]) if e['to'] in entities else e['to']}"
@@ -79,9 +92,16 @@ def render(centers, entities, edges, title):
                 f"- {summarize(entities[e['from']]) if e['from'] in entities else e['from']}"
                 f" — {e['type']} →" for e in in_edges]
         lines += ["", body, ""]
-        sources += meta.get("sources") or []
+        for source in normalize_sources(meta.get("sources") or []):
+            add_source(source)
     if sources:
-        lines += ["## 出典（このバンドル全体）", ""] + [f"- {s}" for s in dict.fromkeys(sources)]
+        lines += ["## 出典（このバンドル全体）", ""]
+        for source in sources.values():
+            detail = f"（kind: {source.get('kind')}"
+            if source.get("note"):
+                detail += f" / {source['note']}"
+            detail += ")"
+            lines.append(f"- {source['url']}{detail}")
     return "\n".join(lines) + "\n"
 
 

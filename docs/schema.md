@@ -76,11 +76,40 @@ space:
 relations:
   - {type: patronized_by, target: org/..., certainty: scholarly, source: "https://..."}
 sources:
-  - https://...                # 本文で使った出典。1本以上
+  - url: https://example.org/catalogue
+    kind: scholarly         # primary / scholarly / institutional / authority / reference
+    note: 研究書・展覧会カタログなど、資料の位置づけ
 status: draft                  # stub | draft | verified
 updated: 2026-08-08
 ---
 ```
+
+### `sources` — 構造化出典（互換期間あり）
+
+正準形式は `url`、`kind`、任意の `note` を持つobject配列である。`kind` は次の5値に限定する。
+
+| kind | 判断基準 |
+|---|---|
+| `primary` | 同時代の宣言、書簡、作品そのもの、当時の記録。資料種別がURLだけで明白でないときは `note` を必須にする |
+| `scholarly` | 研究書、査読論文、研究者による展覧会カタログ・論考 |
+| `institutional` | 美術館・大学・公的機関の解説やコレクションページ |
+| `authority` | Wikidata、Getty、NDLなどの典拠レコード |
+| `reference` | 上記に分類できない概説、百科事典、検索入口 |
+
+移行期間中は旧形式の `- https://...` も読み込むが、内部では
+`{url: https://..., kind: reference}` として扱う。新形式ではURLのscheme/host、kind、同一entity内の
+重複URLを検証し、全件objectの文書では `claims[].source` と解釈系 `relations[].source` が
+`sources[].url` に存在することを検証する。`context` の `signals[].source` も同じ規則で扱う。
+移行残数は次でJSONまたはMarkdownに再現できる。
+
+```bash
+uv run --locked python tools/audit_source_migration.py
+uv run --locked python tools/audit_source_migration.py --format markdown
+uv run --locked python tools/audit_source_migration.py --check-type movement
+uv run --locked python tools/audit_source_migration.py --check-type context
+```
+
+型別移行issueが完了した後は、対象型の `--check-type` をCIのゲートにする。
 
 ### `kind`（movement 必須・4値）
 

@@ -23,7 +23,8 @@ from kb import (AUTHORITY_ID_PATTERNS, AUTHORITY_KEYS, CERTAINTIES, CLAIM_FIELDS
                 SPACE_ROLES, SPACE_TARGET_TYPES, STATUSES, TYPES, URI_PREFIX, alias_map,
                 build_edges, century_of_year, edtf_ok, edtf_year_range, load_config, load_entities,
                 load_coverage_reviews, load_region_history,
-                read_frontmatter, read_queries, regions_of, search_entities)
+                is_http_url, normalized_meta, read_frontmatter, read_queries, regions_of,
+                search_entities, source_urls, source_validation_errors, sources_are_structured)
 from detail_baseline import validate_manifest
 
 OVERVIEWS = ROOT / "overviews"
@@ -48,6 +49,9 @@ def validate(entities, records, cfg, errors):
                 err(f"必須項目 {key} が空")
         if any("TODO" in str(s) for s in meta.get("sources") or []):
             err("sources に TODO が残っている（出典URLを入れる）")
+        errors.extend(source_validation_errors(meta.get("sources"), rel))
+        structured_sources = sources_are_structured(meta.get("sources"))
+        normalized_source_urls = set(source_urls(meta.get("sources")))
 
         etype = meta.get("type")
         if etype not in TYPES:
@@ -280,6 +284,11 @@ def validate(entities, records, cfg, errors):
                     err(f"{rtype} は certainty が必須（{sorted(CERTAINTIES)}／今: {r.get('certainty')}）")
                 if not r.get("source"):
                     err(f"{rtype} は source が必須（解釈を含む関係）")
+            if structured_sources and r.get("source"):
+                if not is_http_url(r.get("source")):
+                    err(f"{rtype}.source はhttp(s) URLが必要: {r.get('source')!r}")
+                elif r["source"] not in normalized_source_urls:
+                    err(f"{rtype}.source がsourcesにない: {r['source']}")
         for s in meta.get("space") or []:
             role = s.get("role")
             if role not in SPACE_ROLES:
@@ -306,6 +315,11 @@ def validate(entities, records, cfg, errors):
                 err("claims の field が無い")
             if not c.get("source"):
                 err(f"claims の {field} に source が無い")
+            elif structured_sources:
+                if not is_http_url(c.get("source")):
+                    err(f"claims の {field}.source はhttp(s) URLが必要: {c.get('source')!r}")
+                elif c["source"] not in normalized_source_urls:
+                    err(f"claims の {field}.source がsourcesにない: {c['source']}")
             if c.get("certainty") not in CERTAINTIES:
                 err(f"claims の {field} の certainty が語彙外: {c.get('certainty')}")
             claim_key = json.dumps(c, ensure_ascii=False, sort_keys=True, default=str)
@@ -731,8 +745,9 @@ def main():
         return 0
 
     (ROOT / "data").mkdir(exist_ok=True)
+    graph_entities = {entity_id: normalized_meta(meta) for entity_id, meta in entities.items()}
     (ROOT / "data" / "graph.json").write_text(
-        json.dumps({"entities": entities, "edges": edges}, ensure_ascii=False, indent=2, default=str) + "\n",
+        json.dumps({"entities": graph_entities, "edges": edges}, ensure_ascii=False, indent=2, default=str) + "\n",
         encoding="utf-8")
     (ROOT / "data" / "coverage.json").write_text(
         json.dumps(cov, ensure_ascii=False, indent=2, default=str) + "\n", encoding="utf-8")

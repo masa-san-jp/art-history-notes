@@ -24,9 +24,9 @@ from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
 try:
-    from kb import ROOT, load_entities
+    from kb import ROOT, load_entities, normalize_source, normalize_sources
 except ModuleNotFoundError:  # tools.export_signals として読まれた場合
-    from tools.kb import ROOT, load_entities
+    from tools.kb import ROOT, load_entities, normalize_source, normalize_sources
 
 CONTRACT = "research-signal-export/v1"
 ADAPTER_VERSION = "1.0.0"
@@ -115,11 +115,23 @@ def _relations(meta: dict) -> list[dict]:
     return out
 
 
+def _source_details(meta: dict, relations: list[dict]) -> tuple[list[dict], list[dict]]:
+    """source URLを正規化し、relationの参照にもkind/noteを添える。"""
+    sources = normalize_sources(meta.get("sources") or [])
+    by_url = {source.get("url"): source for source in sources if source.get("url")}
+    evidence_sources = []
+    for relation in relations:
+        for url in relation.get("evidence_refs") or []:
+            evidence_sources.append(by_url.get(url, normalize_source(url)))
+    return sources, evidence_sources
+
+
 def build_record(meta: dict, entities: dict, commit: str, now: datetime, purpose: str) -> dict | None:
     """1つの movement を境界DTOへ変換する。解釈関係が無いものは None（出さない）。"""
     relations = _relations(meta)
     if not relations:
         return None
+    sources, evidence_sources = _source_details(meta, relations)
 
     slug = meta["id"].split("/", 1)[1]
     unknowns = []
@@ -144,6 +156,8 @@ def build_record(meta: dict, entities: dict, commit: str, now: datetime, purpose
         "entity_id": meta["id"],
         "source_locator": meta["path"],
         "evidence_locator": f"{meta['path']}#sources",
+        "sources": sources,
+        "evidence_sources": evidence_sources,
         # 出典の種類。このKBの本文は大半を「二次情報」と明記しており、一次資料への到達は
         # 各ファイルの「未着手」に残っている状態なので、既定は secondary にする。
         # 一次・二次を frontmatter で機械可読に持っていないため、ここで個別判定はしない。

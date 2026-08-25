@@ -96,6 +96,22 @@ SPARQL パーサエラーや権限エラーになる。**取れたら足す、�
 | `claims` | `verified` を名乗るときだけ。`time` / `originated_in` / `kind` の3つに出典を付ける |
 | `status` | `stub`（枠だけ）/ `draft`（書いたが出典が薄い）/ `verified`（一次情報で裏が取れた） |
 
+#### 出典の記録
+
+出典は次の構造化形式で追加する。URLだけでは資料の性質が失われるため、5分類のどれかを必ず選ぶ。
+
+```yaml
+sources:
+  - url: https://example.org/catalogue
+    kind: scholarly
+    note: 研究書・展覧会カタログなど、資料の位置づけ
+```
+
+資料種別がURLから明白でない `primary` には、何が一次資料なのかを `note` に書く。
+判断できないものは `reference` にする。旧形式のURL文字列も移行期間中は読めるが、新規ファイルでは
+object形式だけを使う。移行残数は `uv run --locked python tools/audit_source_migration.py` で確認し、
+型別移行issueの完了後に `--check-type movement` または `--check-type context` をCIへ追加する。
+
 #### kind の判定表
 
 | kind | 判定の目安 | 例 |

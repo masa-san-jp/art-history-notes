@@ -34,7 +34,9 @@ time:
 {extra}space: []
 relations: []
 sources:
-  - TODO: 出典URLを1本以上
+  - url: https://example.org/source
+    kind: reference
+    note: TODO: 資料の位置づけを記す
 status: stub
 updated: {today}
 ---
