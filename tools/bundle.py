@@ -63,6 +63,7 @@ def render(centers, entities, edges, title):
             lines.append("命名: " + "／".join(bits))
         out_edges = [e for e in edges if e["from"] == cid and not e.get("derived")]
         in_edges = [e for e in edges if e["to"] == cid and not e.get("derived")]
+        sources += [e["source"] for e in out_edges + in_edges if e.get("source")]
         if out_edges:
             lines += ["", "関係（この節から出る）:"] + [
                 f"- {e['type']} → {summarize(entities[e['to']]) if e['to'] in entities else e['to']}"
