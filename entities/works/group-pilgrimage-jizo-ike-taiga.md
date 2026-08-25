@@ -28,6 +28,7 @@ sources:
 images:
   - url: https://www.artic.edu/iiif/2/637a65fa-a6f2-8a9f-a6f4-98fcffe2ec92/full/843,/0/default.jpg
     source_page: https://www.artic.edu/artworks/185222
+    rights_source: https://www.artic.edu/artworks/185222
     license: public-domain
     note: "Art Institute of Chicagoの作品ページにis_public_domain: trueと記載された画像。"
 status: draft

@@ -64,10 +64,12 @@ sources:
 images:
   - url: https://images.metmuseum.org/CRDImages/ep/original/DT238453.jpg
     source_page: https://www.metmuseum.org/art/collection/search/437578
+    rights_source: https://www.metmuseum.org/art/collection/search/437578
     license: cc0
     note: "《栄光のキリスト（Christ in Glory）》15世紀後半（1470〜1499年）、板にテンペラ。メトロポリタン美術館は作者を「Russian (Novgorod?) Painter」と表記し、ノヴゴロド帰属には「?」を付けている——館自身が確定はしていない（isPublicDomain: true）"
   - url: https://upload.wikimedia.org/wikipedia/commons/6/67/Novgorod_School_-_Saint_Nicholas_of_Zaraysk_with_20_scenes_from_his_life_-_NG.M.01773_-_National_Museum_of_Art%2C_Architecture_and_Design.jpg
     source_page: https://commons.wikimedia.org/wiki/File:Novgorod_School_-_Saint_Nicholas_of_Zaraysk_with_20_scenes_from_his_life_-_NG.M.01773_-_National_Museum_of_Art,_Architecture_and_Design.jpg
+    rights_source: https://commons.wikimedia.org/wiki/File:Novgorod_School_-_Saint_Nicholas_of_Zaraysk_with_20_scenes_from_his_life_-_NG.M.01773_-_National_Museum_of_Art,_Architecture_and_Design.jpg
     license: public-domain
     note: "《生涯の20場面を伴う聖ニコラウス（ザライスクの）》16世紀初頭頃。ノルウェー国立美術館・建築・デザイン博物館（Nasjonalmuseet）蔵、作者を「School of Novgorod」と明記（Wikidata Q2876208をauthorityとして参照）。Wikimedia Commonsのextmetadataは LicenseShortName: Public domain / Copyrighted: false"
 status: draft

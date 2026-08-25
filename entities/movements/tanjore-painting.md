@@ -55,6 +55,7 @@ sources:
 images:
   - url: https://images.metmuseum.org/CRDImages/as/original/DP-22860-001.jpg
     source_page: https://www.metmuseum.org/art/collection/search/850685
+    rights_source: https://www.metmuseum.org/art/collection/search/850685
     license: cc0
     note: "《大臣を伴うマハーラージャ・セルフォージー2世》1800年頃。紙に金箔盛り上げ・不透明水彩。メトロポリタン美術館蔵（isPublicDomain: true）。庇護者セルフォージー2世自身を描いた肖像で、タンジョール絵画の技法（盛り上げ金箔）を用いる"
 status: draft

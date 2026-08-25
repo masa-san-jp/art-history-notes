@@ -28,6 +28,7 @@ sources:
 images:
   - url: https://openaccess-cdn.clevelandart.org/1965.325/1965.325_web.jpg
     source_page: https://clevelandart.org/art/1965.325
+    rights_source: https://clevelandart.org/art/1965.325
     license: cc0
     note: "Cleveland Museum of ArtのCC0画像。館の作品番号1965.325。"
 status: draft

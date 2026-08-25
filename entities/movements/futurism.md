@@ -33,10 +33,12 @@ relations:
 images:
   - url: https://upload.wikimedia.org/wikipedia/commons/f/fd/%27Unique_Forms_of_Continuity_in_Space%27%2C_1913_bronze_by_Umberto_Boccioni.jpg
     source_page: https://commons.wikimedia.org/wiki/File:%27Unique_Forms_of_Continuity_in_Space%27,_1913_bronze_by_Umberto_Boccioni.jpg
+    rights_source: https://commons.wikimedia.org/wiki/File:%27Unique_Forms_of_Continuity_in_Space%27,_1913_bronze_by_Umberto_Boccioni.jpg
     license: public-domain
     note: "ボッチョーニ《空間における連続性の唯一の形態》1913年（鋳造は1931年または1934年）、ブロンズ、ニューヨーク近代美術館（MoMA）蔵。作者の没年1916年により著作権保護期間満了（PD-old-100-expired／CC-PD-Mark）"
   - url: https://upload.wikimedia.org/wikipedia/commons/b/b4/The_City_Rises_by_Umberto_Boccioni_1910.jpg
     source_page: https://commons.wikimedia.org/wiki/File:The_City_Rises_by_Umberto_Boccioni_1910.jpg
+    rights_source: https://commons.wikimedia.org/wiki/File:The_City_Rises_by_Umberto_Boccioni_1910.jpg
     license: public-domain
     note: "ボッチョーニ《立ち上がる都市》1910年、油彩、ニューヨーク近代美術館（MoMA）蔵。同じく著作権保護期間満了（PD-old-100-expired）"
 sources:

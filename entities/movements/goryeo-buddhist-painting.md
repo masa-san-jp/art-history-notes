@@ -61,10 +61,12 @@ sources:
 images:
   - url: https://images.metmuseum.org/CRDImages/as/original/DP-15580-002.jpg
     source_page: https://www.metmuseum.org/art/collection/search/36029
+    rights_source: https://www.metmuseum.org/art/collection/search/36029
     license: cc0
     note: "《水月観音図（Water-moon Avalokiteshvara）》14世紀前半、絹本著色、掛軸。メトロポリタン美術館蔵（isPublicDomain: true）"
   - url: https://images.metmuseum.org/CRDImages/as/original/DP-15580-031.jpg
     source_page: https://www.metmuseum.org/art/collection/search/39882
+    rights_source: https://www.metmuseum.org/art/collection/search/39882
     license: cc0
     note: "《阿弥陀三尊図（Amitabha triad）》13世紀頃、絹本著色・金泥、掛軸。メトロポリタン美術館蔵（isPublicDomain: true）"
 status: draft

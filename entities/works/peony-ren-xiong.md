@@ -26,6 +26,7 @@ sources:
 images:
   - url: https://images.metmuseum.org/CRDImages/as/original/DP161195.jpg
     source_page: https://www.metmuseum.org/art/collection/search/49447
+    rights_source: https://www.metmuseum.org/art/collection/search/49447
     license: public-domain
     note: "Metropolitan Museum of ArtのOpen Access画像。"
 status: draft

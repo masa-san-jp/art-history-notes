@@ -46,12 +46,14 @@ relations:
 images:
   - url: https://images.metmuseum.org/CRDImages/ao/original/DP-20791-001.jpg
     source_page: https://www.metmuseum.org/art/collection/search/311262
+    rights_source: https://www.metmuseum.org/art/collection/search/311262
     license: cc0
     note: "《聖なるスリット・ゴング（ワケン）》19世紀、イアトムル、コミンディンビト村、中流セピック川
       （The Michael C. Rockefeller Memorial Collection, Metropolitan Museum of Art, Open Access）。
       巨木を刳り抜いた太鼓で、把手部分に祖先・トーテム動物の意匠が彫られる"
   - url: https://images.metmuseum.org/CRDImages/ao/original/DP-20792-001.jpg
     source_page: https://www.metmuseum.org/art/collection/search/311263
+    rights_source: https://www.metmuseum.org/art/collection/search/311263
     license: cc0
     note: "同じくコミンディンビト村出土の《聖なるスリット・ゴング（ワケン）》19世紀（同館蔵、Open
       Access）。前項と対になる作例——大型のスリット・ゴングは男女一対など複数を儀礼の家の床に

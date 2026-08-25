@@ -37,6 +37,7 @@ def has_pd_image(meta):
         and image.get("license") in PD_LICENSES
         and image.get("url")
         and image.get("source_page")
+        and image.get("rights_source")
         for image in meta.get("images") or []
     )
 

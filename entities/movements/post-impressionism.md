@@ -53,10 +53,12 @@ sources:
 images:
   - url: https://images.metmuseum.org/CRDImages/ep/original/DP231550.jpg
     source_page: https://www.metmuseum.org/art/collection/search/435868
+    rights_source: https://www.metmuseum.org/art/collection/search/435868
     license: cc0
     note: "ポール・セザンヌ《カード遊びをする人々（The Card Players）》1890-92年。メトロポリタン美術館蔵（isPublicDomain: true）"
   - url: https://images.metmuseum.org/CRDImages/ep/original/DP-42549-001.jpg
     source_page: https://www.metmuseum.org/art/collection/search/436535
+    rights_source: https://www.metmuseum.org/art/collection/search/436535
     license: cc0
     note: "フィンセント・ファン・ゴッホ《糸杉のある麦畑（Wheat Field with Cypresses）》1889年。メトロポリタン美術館蔵（isPublicDomain: true）"
 status: draft

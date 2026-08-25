@@ -43,14 +43,17 @@ sources:
 images:
   - url: https://images.metmuseum.org/CRDImages/as/original/DP-44213-002.jpg
     source_page: https://www.metmuseum.org/art/collection/search/929075
+    rights_source: https://www.metmuseum.org/art/collection/search/929075
     license: cc0
     note: "《葡萄とリス》掛軸、朝鮮・17〜18世紀、絹本墨画、作者不明（Metropolitan Museum of Art, Open Access）。花鳥翎毛系の画題で、リスと葡萄の多産・多子の吉祥図像"
   - url: https://images.metmuseum.org/CRDImages/as/original/LC-2024_89_2_at-002.jpg
     source_page: https://www.metmuseum.org/art/collection/search/853891
+    rights_source: https://www.metmuseum.org/art/collection/search/853891
     license: cc0
     note: "《山神とトラ》、朝鮮・19世紀後半、作者不明（Metropolitan Museum of Art, Open Access）。巫俗・道教系の画題である山神図"
   - url: https://images.metmuseum.org/CRDImages/as/original/DP-40204-001.jpg
     source_page: https://www.metmuseum.org/art/collection/search/853896
+    rights_source: https://www.metmuseum.org/art/collection/search/853896
     license: cc0
     note: "《冊架と文房具》二曲屏風、朝鮮・19世紀、作者不明（Metropolitan Museum of Art, Open Access）。冊架図（チェッコリ）——儒教的な学問尊重の象徴として飾られた"
 status: draft

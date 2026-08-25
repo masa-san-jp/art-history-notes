@@ -29,6 +29,7 @@ sources:
 images:
   - url: "https://commons.wikimedia.org/wiki/Special:FilePath/El_Lissitzky,_Wendingen,_1921_(published_1923),_NGA_93943.jpg"
     source_page: https://www.nga.gov/artworks/93943-wendingen
+    rights_source: https://www.nga.gov/artworks/93943-wendingen
     license: cc0
     note: "National Gallery of Artの作品ページとCC0公開画像。"
 status: draft

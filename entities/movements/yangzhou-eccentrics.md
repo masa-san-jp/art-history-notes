@@ -66,14 +66,17 @@ sources:
 images:
   - url: https://www.artic.edu/iiif/2/7967bcfe-1634-19ad-ff6c-48a10cae9a8e/full/843,/0/default.jpg
     source_page: https://www.artic.edu/artworks/80510
+    rights_source: https://www.artic.edu/artworks/80510
     license: cc0
     note: "李鱓（伝）《花鳥草虫図》（Birds, Flowers and Insects）、清代18世紀、冊装八葉。シカゴ美術館蔵（is_public_domain: true）"
   - url: https://images.metmuseum.org/CRDImages/as/original/1985_214_150_O.JPG
     source_page: https://www.metmuseum.org/art/collection/search/52946
+    rights_source: https://www.metmuseum.org/art/collection/search/52946
     license: cc0
     note: "鄭燮《竹石図》（Bamboo and Poem）、掛軸・紙本墨画。メトロポリタン美術館蔵（isPublicDomain: true）"
   - url: https://images.metmuseum.org/CRDImages/as/original/DP159146.jpg
     source_page: https://www.metmuseum.org/art/collection/search/51894
+    rights_source: https://www.metmuseum.org/art/collection/search/51894
     license: cc0
     note: "金農《画に題す詩冊・馬曰琯のために書す》（Poems on Paintings, Written for Ma Yueguan）、1754年、冊装十一葉。メトロポリタン美術館蔵（isPublicDomain: true）。馬曰琯（マー・ユエグアン）は揚州の塩商で、日本語版Wikipediaが挙げる庇護サロン（小玲瓏山館）の主とされる人物と同名だが、本作の献呈先が同一人物かはメトロポリタン美術館側の目録記載を確認しただけで一次資料には当たっていない"
 status: draft

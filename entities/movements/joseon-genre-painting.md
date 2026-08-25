@@ -58,10 +58,12 @@ sources:
 images:
   - url: https://upload.wikimedia.org/wikipedia/commons/d/d0/Danwon-Ssireum.jpg
     source_page: https://commons.wikimedia.org/wiki/File:Danwon-Ssireum.jpg
+    rights_source: https://commons.wikimedia.org/wiki/File:Danwon-Ssireum.jpg
     license: public-domain
     note: "金弘道（檀園）《씨름（相撲）》、『檀園風俗図帖』所収、国立中央博物館蔵、制作年は1780年頃と推定（Wikimedia Commons記載。カテゴリ PD-old-70-expired）"
   - url: https://upload.wikimedia.org/wikipedia/commons/6/69/Hyewon-Miindo.jpg
     source_page: https://commons.wikimedia.org/wiki/File:Hyewon-Miindo.jpg
+    rights_source: https://commons.wikimedia.org/wiki/File:Hyewon-Miindo.jpg
     license: public-domain
     note: "申潤福（蕙園）《미인도（美人図）》、澗松美術館蔵、19世紀初と推定（Wikimedia Commons記載。カテゴリ PD Old）"
 status: draft

@@ -63,10 +63,12 @@ sources:
 images:
   - url: https://www.artic.edu/iiif/2/637a65fa-a6f2-8a9f-a6f4-98fcffe2ec92/full/843,/0/default.jpg
     source_page: https://www.artic.edu/artworks/185222
+    rights_source: https://www.artic.edu/artworks/185222
     license: public-domain
     note: "池大雅《地蔵尊への集団参詣（Group Pilgrimage to the Jizo Nun）》1755-65年頃、シカゴ美術館蔵（is_public_domain: true）"
   - url: https://images.metmuseum.org/CRDImages/as/original/DP704972.jpg
     source_page: https://www.metmuseum.org/art/collection/search/671023
+    rights_source: https://www.metmuseum.org/art/collection/search/671023
     license: cc0
     note: "与謝蕪村《山野跋渉図屏風（Travels through Mountains and Fields）》1765年頃、メトロポリタン美術館蔵（isPublicDomain: true）"
 status: draft

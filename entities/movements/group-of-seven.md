@@ -33,10 +33,12 @@ relations:
 images:
   - url: https://upload.wikimedia.org/wikipedia/commons/4/43/The_Tangled_Garden.jpg
     source_page: https://commons.wikimedia.org/wiki/File:The_Tangled_Garden.jpg
+    rights_source: https://commons.wikimedia.org/wiki/File:The_Tangled_Garden.jpg
     license: public-domain
     note: "J.E.H.マクドナルド《もつれた庭（The Tangled Garden）》1916年、油彩、カナダ国立美術館蔵。1920年の最初の展覧会カタログの82番として実際に出品された作品（カタログ本文では『not for sale（非売品）』）。作者は1932年没のためカナダで著作権保護期間満了（PD-Canada）"
   - url: https://upload.wikimedia.org/wikipedia/commons/0/0b/Lawren_Harris_North_Shore%2C_Lake_Superior_1926.jpg
     source_page: https://commons.wikimedia.org/wiki/File:Lawren_Harris_North_Shore,_Lake_Superior_1926.jpg
+    rights_source: https://commons.wikimedia.org/wiki/File:Lawren_Harris_North_Shore,_Lake_Superior_1926.jpg
     license: public-domain
     note: "ローレン・ハリス《北岸、スペリオル湖（North Shore, Lake Superior）》1926年、油彩、アート・ギャラリー・オブ・オンタリオ蔵。7人のうち最も裕福で、スタジオ・ビルディングの共同出資者でもあったハリスの代表作。作者は1970年没のためカナダで著作権保護期間満了（PD-Canada、創作者が1972年1月1日より前に死去した作品の規定に該当）"
 sources:

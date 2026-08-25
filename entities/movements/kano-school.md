@@ -40,10 +40,12 @@ sources:
 images:
   - url: https://images.metmuseum.org/CRDImages/as/original/LC-29_100_495gh_002.jpg
     source_page: https://www.metmuseum.org/art/collection/search/45219
+    rights_source: https://www.metmuseum.org/art/collection/search/45219
     license: cc0
     note: "狩野永徳《中国の女性たちのいる宮廷庭園（Chinese Women in a Palace Garden）》16世紀後半、メトロポリタン美術館蔵（isPublicDomain: true）"
   - url: https://images.metmuseum.org/CRDImages/as/original/DP-12434-004.jpg
     source_page: https://www.metmuseum.org/art/collection/search/53009
+    rights_source: https://www.metmuseum.org/art/collection/search/53009
     license: cc0
     note: "狩野探幽《四季山水図（Landscapes of the Four Seasons）》1630年代、メトロポリタン美術館蔵（isPublicDomain: true）"
 status: draft

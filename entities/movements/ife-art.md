@@ -57,6 +57,7 @@ sources:
 images:
   - url: https://upload.wikimedia.org/wikipedia/commons/6/62/Ori_Olokun.jpg
     source_page: https://commons.wikimedia.org/wiki/File:Ori_Olokun.jpg
+    rights_source: https://commons.wikimedia.org/wiki/File:Ori_Olokun.jpg
     license: public-domain
     note: "《オロクン頭像（Ori Olokun）》。レオ・フロベニウスの著書『Und Afrika sprach』（1912年、p.311）掲載の写真の切り抜き。フロベニウス（1938年没）が1910年にイフェで入手し、失われたアトランティスの遺物として西洋に紹介したことでイフェ美術が広く知られる契機になった作例。現物の所在について像自体は複数の来歴の議論があり、大英博物館に模造が所蔵される（未確認: フロベニウスが持ち出した個体そのものの現在の所在）"
 status: draft

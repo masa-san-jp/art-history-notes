@@ -18,7 +18,7 @@ space: []
 relations:
   - {type: exhibited_at, target: event/first-brera-triennale-1891}
 sources:
-  - url: "https://www.uffizi.it/en/artworks/the-battle-of-magenta"
+  - url: "https://www.uffizi.it/en/artworks/fattori-magenta-en"
     kind: reference
   - url: "https://www.treccani.it/enciclopedia/giovanni-fattori_%28Dizionario-Biografico%29/"
     kind: reference

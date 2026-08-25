@@ -28,6 +28,7 @@ sources:
 images:
   - url: https://images.metmuseum.org/CRDImages/as/original/DP153147.jpg
     source_page: https://www.metmuseum.org/art/collection/search/37941
+    rights_source: https://www.metmuseum.org/art/collection/search/37941
     license: cc0
     note: "Metropolitan Museum of ArtのOpen Access画像。isPublicDomain: true。"
 status: draft

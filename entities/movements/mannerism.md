@@ -28,10 +28,12 @@ claims:
 images:
   - url: https://www.artic.edu/iiif/2/2b751a0e-a492-7fa9-749c-6667cdd1c928/full/843,/0/default.jpg
     source_page: https://www.artic.edu/artworks/110759
+    rights_source: https://www.artic.edu/artworks/110759
     license: public-domain
     note: "ヤコポ・ダ・ポントルモ《アレッサンドロ・デ・メディチ》1534〜35年、シカゴ美術館蔵"
   - url: https://www.artic.edu/iiif/2/03e8b763-65c3-8b54-2559-8c4ff892d9a4/full/843,/0/default.jpg
     source_page: https://www.artic.edu/artworks/52668
+    rights_source: https://www.artic.edu/artworks/52668
     license: public-domain
     note: "パルミジャニーノ《立つ9人の人物群》1524〜27年、シカゴ美術館蔵"
 space:

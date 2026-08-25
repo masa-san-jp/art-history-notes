@@ -53,6 +53,7 @@ sources:
 images:
   - url: https://openaccess-cdn.clevelandart.org/2023.4/2023.4_web.jpg
     source_page: https://clevelandart.org/art/2023.4
+    rights_source: https://clevelandart.org/art/2023.4
     license: cc0
     note: "《十二使徒とパウロの二連祭壇画》c.1700年、ワルダ・マルヤム（Wäldä Maryam）の工房または一門作。クリーブランド美術館蔵（画家の活動期は1600年代半ば〜1700年代初頭とされ、本文の聖アバ・アントニウス教会ディプティクの署名画家と同名・同時代）"
 status: draft

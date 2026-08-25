@@ -57,7 +57,11 @@ class ConsumerTests(unittest.TestCase):
         entities = {
             "movement/example": {"id": "movement/example", "path": "entities/movements/example.md",
                                  "type": "movement", "label_ja": "例", "status": "draft",
-                                 "sources": [{"url": "https://example.org/source", "kind": "primary", "note": "同時代資料"}]},
+                                 "sources": [{"url": "https://example.org/source", "kind": "primary", "note": "同時代資料"}],
+                                 "images": [{"url": "https://example.org/image.jpg",
+                                             "source_page": "https://example.org/work",
+                                             "rights_source": "https://example.org/work",
+                                             "license": "cc0"}]},
         }
         with tempfile.TemporaryDirectory() as directory:
             root = Path(directory)
@@ -68,6 +72,7 @@ class ConsumerTests(unittest.TestCase):
                 text = bundle.render(["movement/example"], entities, [], "例")
         self.assertIn("kind: primary", text)
         self.assertIn("同時代資料", text)
+        self.assertIn("rights_source: https://example.org/work", text)
 
     def test_new_entity_template_uses_object_source(self):
         with tempfile.TemporaryDirectory() as directory:

@@ -55,6 +55,7 @@ sources:
 images:
   - url: https://images.metmuseum.org/CRDImages/as/original/DP-44393-002.jpg
     source_page: https://www.metmuseum.org/art/collection/search/929078
+    rights_source: https://www.metmuseum.org/art/collection/search/929078
     license: cc0
     note: "鄭敾《仁王山図（Mt. Inwang / Inwangsan）》18世紀、メトロポリタン美術館蔵。真景山水画を確立したとされる鄭敾自身の手による、実在の山を描いた作品（isPublicDomain: true）"
 status: draft

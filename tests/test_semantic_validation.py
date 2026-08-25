@@ -75,6 +75,27 @@ class SemanticValidationTests(unittest.TestCase):
     def test_valid_movement_and_place_pass(self):
         self.assertEqual([], self.validate(valid_meta(), valid_meta("place/tokyo", "place")))
 
+    def test_images_require_rights_source_and_http_urls(self):
+        movement = valid_meta()
+        movement["images"] = [{
+            "url": "https://images.example.test/example.jpg",
+            "source_page": "https://example.test/work",
+            "rights_source": "https://example.test/work",
+            "license": "cc0",
+        }]
+        self.assertEqual([], self.validate(movement))
+
+        missing = copy.deepcopy(movement)
+        del missing["images"][0]["rights_source"]
+        self.assertTrue(any("rights_source" in error for error in self.validate(missing)))
+
+        invalid = copy.deepcopy(movement)
+        invalid["images"][0]["rights_source"] = "not-a-url"
+        invalid["images"][0]["license"] = "copyright"
+        errors = self.validate(invalid)
+        self.assertTrue(any("rights_source" in error for error in errors))
+        self.assertTrue(any("license" in error for error in errors))
+
     def test_coordinates_reject_shape_nonfinite_and_range(self):
         place = valid_meta("place/example", "place")
         del place["coordinates"]

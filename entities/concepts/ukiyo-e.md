@@ -41,14 +41,17 @@ sources:
 images:
   - url: https://www.artic.edu/iiif/2/23ad9eea-241f-3af9-df38-875ba8825591/full/843,/0/default.jpg
     source_page: https://www.artic.edu/artworks/19016
+    rights_source: https://www.artic.edu/artworks/19016
     license: cc0
     note: "菱川師宣「Flower-Viewing Party with Crest-Bearing Curtain」（連作「上野花見の体（Ueno hanami no tei）」より）、c.1681-84年、墨摺絵（sumizuri-e）。シカゴ美術館蔵（is_public_domain: true）。浮世絵最初期、単色摺りの段階"
   - url: https://www.artic.edu/iiif/2/dadabea0-c07e-b5b7-f39e-f877d31bb1b4/full/843,/0/default.jpg
     source_page: https://www.artic.edu/artworks/22935
+    rights_source: https://www.artic.edu/artworks/22935
     license: cc0
     note: "鈴木春信「Beauty Under an Umbrella in the Snow」（雪の中で傘をさす美人、日本語の慣用タイトルは未確認）、c.1770年、多色摺りの錦絵（nishiki-e）。シカゴ美術館蔵（is_public_domain: true）。1765年前後に確立した多色摺り技法の段階"
   - url: https://www.artic.edu/iiif/2/b3974542-b9b4-7568-fc4b-966738f61d78/full/843,/0/default.jpg
     source_page: https://www.artic.edu/artworks/24645
+    rights_source: https://www.artic.edu/artworks/24645
     license: cc0
     note: "葛飾北斎《神奈川沖浪裏》「冨嶽三十六景」より、1830-33年頃。シカゴ美術館蔵（is_public_domain: true）。19世紀、名所絵（風景画）へ主題が拡大した段階"
 status: draft

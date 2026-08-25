@@ -33,6 +33,7 @@ relations:
 images:
   - url: https://upload.wikimedia.org/wikipedia/commons/5/58/The_Knife_Grinder_Principle_of_Glittering_by_Kazimir_Malevich.jpeg
     source_page: https://commons.wikimedia.org/wiki/File:The_Knife_Grinder_Principle_of_Glittering_by_Kazimir_Malevich.jpeg
+    rights_source: https://commons.wikimedia.org/wiki/File:The_Knife_Grinder_Principle_of_Glittering_by_Kazimir_Malevich.jpeg
     license: public-domain
     note: "マレーヴィチ《研ぎ師（きらめきの原理）》1913年、油彩、イェール大学美術館蔵。Wikimedia Commons の権利表示は「Public domain」、クレジットは Yale University Art Gallery。反復する刃と手が同一画面に何度も現れる——キュビスムの面の分割にフュチュリズムの運動の反復を重ねた形が1点で見える"
 sources:

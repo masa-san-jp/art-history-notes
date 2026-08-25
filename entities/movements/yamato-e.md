@@ -45,6 +45,7 @@ sources:
 images:
   - url: https://images.metmuseum.org/CRDImages/as/original/DP244667_CRD.jpg
     source_page: https://www.metmuseum.org/art/collection/search/45428
+    rights_source: https://www.metmuseum.org/art/collection/search/45428
     license: cc0
     note: "《北野天神縁起絵巻》（Illustrated Legends of the Kitano Tenjin Shrine）鎌倉時代・13世紀末。メトロポリタン美術館蔵（isPublicDomain: true）。ja.wikipedia「大和絵」が鎌倉時代の社寺縁起絵の代表例として同作を名指しで挙げている"
 status: draft

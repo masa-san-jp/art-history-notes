@@ -28,6 +28,7 @@ sources:
 images:
   - url: https://images.metmuseum.org/CRDImages/ao/original/DP-20791-001.jpg
     source_page: https://www.metmuseum.org/art/collection/search/311262
+    rights_source: https://www.metmuseum.org/art/collection/search/311262
     license: cc0
     note: "Metropolitan Museum of ArtのOpen Access画像。"
 status: draft

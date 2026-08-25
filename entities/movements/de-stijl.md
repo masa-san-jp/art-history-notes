@@ -32,6 +32,7 @@ relations:
 images:
   - url: "https://commons.wikimedia.org/wiki/Special:FilePath/Stijl_vol_03_nr_01_p_003.jpg"
     source_page: "https://commons.wikimedia.org/wiki/File:Stijl_vol_03_nr_01_p_003.jpg"
+    rights_source: "https://commons.wikimedia.org/wiki/File:Stijl_vol_03_nr_01_p_003.jpg"
     license: public-domain
     note: "テオ・ファン・ドゥースブルフが編集した『De Stijl』1919年11月号のページ。Commonsのファイルページでパブリックドメインと確認できる"
 sources:

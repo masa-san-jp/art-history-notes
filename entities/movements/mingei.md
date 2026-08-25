@@ -33,6 +33,7 @@ relations:
 images:
   - url: https://images.metmuseum.org/CRDImages/as/original/DP-36798-002.jpg
     source_page: https://www.metmuseum.org/art/collection/search/36115
+    rights_source: https://www.metmuseum.org/art/collection/search/36115
     license: cc0
     note: "大津絵《歌舞伎「雁金五人男」の布袋市右衛門を演じる役者絵》、江戸時代・18世紀初頭、肉筆彩色木版、作者不明（Metropolitan Museum of Art所蔵、原題 “Ōtsu-e of Kabuki Actor Playing the Outlaw Hotei Ichiemon, of the ‘Karigane Five’”、Open Access）。柳宗悦は1929年『初期大津絵』で、無名の担い手による量産画である大津絵を「用の美」の実例として高く評価した"
 sources:

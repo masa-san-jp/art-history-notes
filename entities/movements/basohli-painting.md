@@ -66,10 +66,12 @@ sources:
 images:
   - url: https://images.metmuseum.org/CRDImages/as/original/DP153147.jpg
     source_page: https://www.metmuseum.org/art/collection/search/37941
+    rights_source: https://www.metmuseum.org/art/collection/search/37941
     license: cc0
     note: "デーヴィーダーサ（ヌールプルの）筆《痴話喧嘩で離れた遊女とその恋人》『ラサマンジャリー』連作より、1694-95年紀年。メトロポリタン美術館蔵（isPublicDomain: true）"
   - url: https://images.metmuseum.org/CRDImages/as/original/DT5245.jpg
     source_page: https://www.metmuseum.org/art/collection/search/37942
+    rights_source: https://www.metmuseum.org/art/collection/search/37942
     license: cc0
     note: "デーヴィーダーサ（ヌールプルの）筆《チャウパルに興じるシヴァとパールヴァティー》『ラサマンジャリー』連作より、1694-95年紀年。メトロポリタン美術館蔵（isPublicDomain: true）"
 status: draft

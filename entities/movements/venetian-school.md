@@ -79,10 +79,12 @@ updated: 2026-08-09
 images:
   - url: https://images.metmuseum.org/CRDImages/ep/original/DP-28918-001.jpg
     source_page: https://www.metmuseum.org/art/collection/search/437827
+    rights_source: https://www.metmuseum.org/art/collection/search/437827
     license: cc0
     note: "ティツィアーノ《ヴィーナスとリュート奏者》（Venus and the Lute Player）1565〜70年頃、カンヴァスに油彩。メトロポリタン美術館蔵（isPublicDomain: true）"
   - url: https://images.metmuseum.org/CRDImages/ep/original/DP239507.jpg
     source_page: https://www.metmuseum.org/art/collection/search/437820
+    rights_source: https://www.metmuseum.org/art/collection/search/437820
     license: cc0
     note: "ヤコポ・ティントレット（ヤコポ・ロブスティ）《モーセの発見》（The Finding of Moses）1560年代？、カンヴァスに油彩。メトロポリタン美術館蔵（isPublicDomain: true）"
 ---

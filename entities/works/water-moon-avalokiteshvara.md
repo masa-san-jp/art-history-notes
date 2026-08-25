@@ -28,6 +28,7 @@ sources:
 images:
   - url: https://images.metmuseum.org/CRDImages/as/original/DP-15580-002.jpg
     source_page: https://www.metmuseum.org/art/collection/search/36029
+    rights_source: https://www.metmuseum.org/art/collection/search/36029
     license: cc0
     note: "Metropolitan Museum of ArtのOpen Access画像。isPublicDomain: true。"
 status: draft

@@ -62,10 +62,12 @@ sources:
 images:
   - url: https://upload.wikimedia.org/wikipedia/commons/d/dc/Bangkok_wat_suthat_014.JPG
     source_page: https://commons.wikimedia.org/wiki/File:Bangkok_wat_suthat_014.JPG
+    rights_source: https://commons.wikimedia.org/wiki/File:Bangkok_wat_suthat_014.JPG
     license: public-domain
     note: "ワット・スタット（Wat Suthat, วัดสุทัศนเทพวราราม）本堂内の壁画（1840年代、ラーマ3世期）。伝統的なタイの衣装を描いた場面。撮影者Mattanaが撮影と同時にpublic domainとして提供（Wikimedia Commonsカテゴリ「Murals in Wat Suthat」）"
   - url: https://upload.wikimedia.org/wikipedia/commons/a/ab/Bangkok_wat_suthat_021.jpg
     source_page: https://commons.wikimedia.org/wiki/File:Bangkok_wat_suthat_021.jpg
+    rights_source: https://commons.wikimedia.org/wiki/File:Bangkok_wat_suthat_021.jpg
     license: public-domain
     note: "同じくワット・スタット本堂の壁画。出産の場面を描いた、王朝期の市井の生活を主題とする一場面。撮影者Mattanaが撮影と同時にpublic domainとして提供"
 status: draft

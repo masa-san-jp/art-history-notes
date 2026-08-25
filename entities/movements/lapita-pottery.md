@@ -47,6 +47,7 @@ relations:
 images:
   - url: https://images.metmuseum.org/CRDImages/ao/original/vs1980_153_2.jpg
     source_page: https://www.metmuseum.org/art/collection/search/314215
+    rights_source: https://www.metmuseum.org/art/collection/search/314215
     license: cc0
     note: "《土器片の型取り（プラスター・キャスト）》原資料は紀元前1200〜1100年頃、ラピタ文化、
       ソロモン諸島サンタクルス諸島出土（Metropolitan Museum of Art, Rogers Fund, 1980,
@@ -55,11 +56,13 @@ images:
       見られる"
   - url: https://images.metmuseum.org/CRDImages/ao/original/vs1980_153_3.jpg
     source_page: https://www.metmuseum.org/art/collection/search/314216
+    rights_source: https://www.metmuseum.org/art/collection/search/314216
     license: cc0
     note: "《皿の型取り（プラスター・キャスト）》同じくソロモン諸島サンタクルス諸島出土、
       紀元前1200〜1100年頃の原資料の石膏複製（同館蔵、Open Access）。器形が分かる例"
   - url: https://images.metmuseum.org/CRDImages/ao/original/1980.153.1.JPG
     source_page: https://www.metmuseum.org/art/collection/search/314214
+    rights_source: https://www.metmuseum.org/art/collection/search/314214
     license: cc0
     note: "《鳥頭部の型取り（プラスター・キャスト）》同じくサンタクルス諸島出土、紀元前1200〜
       1100年頃の原資料の石膏複製（同館蔵、Open Access）。幾何学文様だけでなく動物形の意匠も

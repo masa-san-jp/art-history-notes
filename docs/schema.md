@@ -299,6 +299,7 @@ control_changes:
 images:
   - url: https://www.artic.edu/iiif/2/2d484387-.../full/843,/0/default.jpg
     source_page: https://www.artic.edu/artworks/27992
+    rights_source: https://www.artic.edu/artworks/27992
     license: public-domain          # public-domain / cc0 / pdm のどれか
     note: スーラ《グランド・ジャット島の日曜日の午後》
 ```
@@ -306,7 +307,8 @@ images:
 **規律**:
 - **パブリックドメイン相当のものだけ**（`public-domain` / `cc0` / `pdm`）。検証が語彙を強制する
 - **リンクだけ。画像ファイルを repo に置かない**（再配布はしない）
-- `source_page` を必ず添える——所蔵館の作品ページ。ライセンスの根拠がそこにある
+- `source_page` と `rights_source` は必須の http(s) URL。権利表示が作品ページにある場合は同じURLでよい
+- `rights_source` は画像単体または所蔵機関の権利表示を直接確認できるページにする
 - 権利が不明なものは**入れない**。「たぶん古いから大丈夫」で入れない
 - 出どころの候補: Art Institute of Chicago（CC0）／Metropolitan Museum（Open Access CC0）／
   Cleveland Museum（CC0）／Rijksmuseum／National Gallery of Art／Wikimedia Commons（ファイル単位で確認）

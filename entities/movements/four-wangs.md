@@ -63,14 +63,17 @@ sources:
 images:
   - url: https://www.artic.edu/iiif/2/d2c1e32e-f890-a12a-19e0-f8d638d19bdf/full/843,/0/default.jpg
     source_page: https://www.artic.edu/artworks/86233
+    rights_source: https://www.artic.edu/artworks/86233
     license: cc0
     note: "王時敏《倣王蒙山水図（Landscape after Wang Meng）》1664年、シカゴ美術館蔵（is_public_domain: true）"
   - url: https://www.artic.edu/iiif/2/cd9e4fe1-7404-dbee-522f-8d8e0335a830/full/843,/0/default.jpg
     source_page: https://www.artic.edu/artworks/84767
+    rights_source: https://www.artic.edu/artworks/84767
     license: cc0
     note: "王翬《竹坡図（The Bamboo Slope）》1710年、シカゴ美術館蔵（is_public_domain: true）"
   - url: https://www.artic.edu/iiif/2/ef334713-4300-07e6-3bfa-522290594226/full/843,/0/default.jpg
     source_page: https://www.artic.edu/artworks/75538
+    rights_source: https://www.artic.edu/artworks/75538
     license: cc0
     note: "王原祁《倣黄公望山水図（Landscape after Huang Gongwang）》1701年、シカゴ美術館蔵（is_public_domain: true）"
 status: draft

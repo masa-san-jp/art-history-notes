@@ -54,10 +54,12 @@ sources:
 images:
   - url: https://images.metmuseum.org/CRDImages/ad/original/DP-17034-002.jpg
     source_page: https://www.metmuseum.org/art/collection/search/764091
+    rights_source: https://www.metmuseum.org/art/collection/search/764091
     license: public-domain
     note: "《ヴァルバネーラの聖母》（Our Lady of Valvanera）、作者不明、クスコ、1770年頃〜80年頃、メトロポリタン美術館蔵"
   - url: https://images.metmuseum.org/CRDImages/ad/original/DP-18755-007.jpg
     source_page: https://www.metmuseum.org/art/collection/search/764095
+    rights_source: https://www.metmuseum.org/art/collection/search/764095
     license: public-domain
     note: "《十字架を担うキリスト（転倒の主）》（Christ Carrying the Cross, called \"The Lord of the Fall\"）、作者不明、クスコ、1770年頃〜75年頃、メトロポリタン美術館蔵"
 status: draft

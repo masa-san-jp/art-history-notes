@@ -25,6 +25,7 @@ relations:
 images:
   - url: https://www.artic.edu/iiif/2/2d484387-2509-5e8e-2c43-22f9981972eb/full/843,/0/default.jpg
     source_page: https://www.artic.edu/artworks/27992
+    rights_source: https://www.artic.edu/artworks/27992
     license: cc0
     note: "Art Institute of Chicagoの作品ページにis_public_domain: trueと記載された画像。"
 sources:

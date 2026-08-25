@@ -31,10 +31,12 @@ relations: []
 images:
   - url: https://upload.wikimedia.org/wikipedia/commons/6/61/Dong-ho-rat-wedding.jpg
     source_page: https://commons.wikimedia.org/wiki/File:Dong-ho-rat-wedding.jpg
+    rights_source: https://commons.wikimedia.org/wiki/File:Dong-ho-rat-wedding.jpg
     license: public-domain
     note: "《Đám cưới chuột（鼠の婚礼）》。旧正月に飾られた代表的な画題の一つ"
   - url: https://upload.wikimedia.org/wikipedia/commons/4/44/Hai_ba_trung_Dong_Ho_painting.jpg
     source_page: https://commons.wikimedia.org/wiki/File:Hai_ba_trung_Dong_Ho_painting.jpg
+    rights_source: https://commons.wikimedia.org/wiki/File:Hai_ba_trung_Dong_Ho_painting.jpg
     license: public-domain
     note: "徴姉妹（ハイ・バー・チュン）が象に乗る姿を描いた版画。歴史上の人物を主題にした一群の例"
 sources:

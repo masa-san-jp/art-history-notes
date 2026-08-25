@@ -48,7 +48,7 @@ sources:
     kind: reference
   - url: "https://theartwanderer.co.uk/the-baghdad-modern-art-group-birth-of-arabian-modernism/"
     kind: reference
-  - url: "https://encyclopedia.mathaf.org.qa/en/bios/Pages/Shakir-Hassan-Al-Said.aspx"
+  - url: "https://mathaf.org.qa/en/calendar/shakir-hassan-al-said/"
     kind: reference
   - url: "https://www.gqmiddleeast.com/article/how-baghdad-reimagined-modernism"
     kind: reference
@@ -92,7 +92,7 @@ updated: 2026-08-09
 **未確認**）。1951年、バグダードの「古代衣装博物館」（Museum of Ancient Costumes）で開いた
 第1回展の場で、アル=サイードが執筆した宣言文が読み上げられた
 （[theartwanderer.co.uk](https://theartwanderer.co.uk/the-baghdad-modern-art-group-birth-of-arabian-modernism/)、
-[Mathaf Encyclopedia](https://encyclopedia.mathaf.org.qa/en/bios/Pages/Shakir-Hassan-Al-Said.aspx)、
+[Mathaf Encyclopedia](https://mathaf.org.qa/en/calendar/shakir-hassan-al-said/)、
 いずれも二次情報。イラクにおける最初期の美術宣言文の一つとされる）。
 
 宣言文の中心概念は「استلهام التراث（istilham al-turath、『遺産からの着想』）」——ヨーロッパの

@@ -51,10 +51,12 @@ sources:
 images:
   - url: https://images.metmuseum.org/CRDImages/as/original/DP-13849-002.jpg
     source_page: https://www.metmuseum.org/art/collection/search/45682
+    rights_source: https://www.metmuseum.org/art/collection/search/45682
     license: cc0
     note: "沈周《秋林漁隠図（Silent Fisherman in an Autumn Wood）》1475年、メトロポリタン美術館蔵。呉派の祖・沈周の作（isPublicDomain: true）"
   - url: https://images.metmuseum.org/CRDImages/as/original/DP-24654-002_crd.jpg
     source_page: https://www.metmuseum.org/art/collection/search/45778
+    rights_source: https://www.metmuseum.org/art/collection/search/45778
     license: cc0
     note: "文徴明《松林で琴を弾く隠者（Recluse Playing the Zither in a Pine Grove）》c.1540年、メトロポリタン美術館蔵。沈周を継いだ文徴明の作（isPublicDomain: true）"
 status: draft

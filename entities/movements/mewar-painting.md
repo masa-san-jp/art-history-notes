@@ -65,10 +65,12 @@ sources:
 images:
   - url: https://openaccess-cdn.clevelandart.org/2018.136/2018.136_web.jpg
     source_page: https://clevelandart.org/art/2018.136
+    rights_source: https://clevelandart.org/art/2018.136
     license: cc0
     note: "ナースィルッディーン（Nasiruddin）筆と伝わる《恋人を待つ女：グナカリー・ラーギニー》『チャーワンド・ラーガマーラー』連作より、1605年。チャーワンドは当時のメーワールの仮の都。クリーブランド美術館蔵（share_license_status: CC0）。同館はこの連作をメーワール絵画最初期の年紀作の1つとして記録する"
   - url: https://openaccess-cdn.clevelandart.org/2003.343/2003.343_web.jpg
     source_page: https://clevelandart.org/art/2003.343
+    rights_source: https://clevelandart.org/art/2003.343
     license: cc0
     note: "《クリシュナとゴーピー》c.1660年。クリーブランド美術館蔵（share_license_status: CC0）。ジャガト・シング1世没後の時代のクリシュナ信仰主題の作例"
 status: draft

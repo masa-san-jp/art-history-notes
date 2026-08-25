@@ -56,14 +56,17 @@ sources:
 images:
   - url: https://images.metmuseum.org/CRDImages/md/original/DP-37759-001.jpg
     source_page: https://www.metmuseum.org/art/collection/search/469960
+    rights_source: https://www.metmuseum.org/art/collection/search/469960
     license: cc0
     note: "《クティシス（創建・建設の擬人像）を描く床モザイクの断片》500〜550年頃（近代の修復あり）。大理石とガラス。メトロポリタン美術館蔵、文化区分は「Byzantine」（isPublicDomain: true）。ユスティニアヌス1世期の初期ビザンティン美術の例"
   - url: https://images.metmuseum.org/CRDImages/cl/original/DT11266.jpg
     source_page: https://www.metmuseum.org/art/collection/search/465946
+    rights_source: https://www.metmuseum.org/art/collection/search/465946
     license: cc0
     note: "《聖デメトリオスのイコン》950〜1000年頃、象牙。メトロポリタン美術館クロイスターズ蔵、文化区分は「Byzantine」（isPublicDomain: true）。マケドニア朝期（中期ビザンティン）の象牙彫刻の例"
   - url: https://images.metmuseum.org/CRDImages/md/original/DP-38912-001.jpg
     source_page: https://www.metmuseum.org/art/collection/search/474336
+    rights_source: https://www.metmuseum.org/art/collection/search/474336
     license: cc0
     note: "《聖母エレウーサの携帯用イコン》14世紀初頭。木製パネルに蝋で象嵌したミニアチュール・モザイク（金・多色石・鍍金銅）。メトロポリタン美術館蔵、制作地は「probably Constantinople（おそらくコンスタンティノープル）」と明記される（isPublicDomain: true）。パレオロゴス朝期（後期ビザンティン）の例"
 status: draft

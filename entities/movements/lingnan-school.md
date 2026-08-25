@@ -66,6 +66,7 @@ sources:
 images:
   - url: https://images.metmuseum.org/CRDImages/as/original/DP162527.jpg
     source_page: https://www.metmuseum.org/art/collection/search/36184
+    rights_source: https://www.metmuseum.org/art/collection/search/36184
     license: cc0
     note: "居廉《昆虫と花（Insects and Flowers）》1865年、メトロポリタン美術館蔵。高剣父・高奇峰・陳樹人の師で、嶺南画派の様式的源流の一人とされる（isPublicDomain: true）"
 status: draft

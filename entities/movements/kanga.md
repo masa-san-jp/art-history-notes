@@ -28,14 +28,17 @@ claims:
 images:
   - url: https://openaccess-cdn.clevelandart.org/1976.59/1976.59_web.jpg
     source_page: https://clevelandart.org/art/1976.59
+    rights_source: https://clevelandart.org/art/1976.59
     license: cc0
     note: "《破墨山水図（Haboku / Flung-ink Landscape）》1510年頃、室町時代。クリーヴランド美術館蔵"
   - url: https://openaccess-cdn.clevelandart.org/1976.92.1/1976.92.1_web.jpg
     source_page: https://clevelandart.org/art/1976.92.1
+    rights_source: https://clevelandart.org/art/1976.92.1
     license: cc0
     note: "《四季山水図（Landscape of the Four Seasons）》1400年代後半。クリーヴランド美術館は制作地を『朝鮮・朝鮮王朝期 または 日本・室町期』と併記しており、所蔵館が国を確定できていない作例"
   - url: https://images.metmuseum.org/CRDImages/as/original/DP361165.jpg
     source_page: https://www.metmuseum.org/art/collection/search/53219
+    rights_source: https://www.metmuseum.org/art/collection/search/53219
     license: public-domain
     note: "牧林愚庵《葡萄に蝉図》14世紀後半〜15世紀初頭、紙本墨画。メトロポリタン美術館蔵（Burke Collection）"
 space:

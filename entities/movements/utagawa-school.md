@@ -33,14 +33,17 @@ relations:
 images:
   - url: https://www.artic.edu/iiif/2/22e03cc0-d3cb-26e5-c024-167f8e22c55f/full/843,/0/default.jpg
     source_page: https://www.artic.edu/artworks/15804
+    rights_source: https://www.artic.edu/artworks/15804
     license: cc0
     note: "歌川豊春《Perspective Picture of a Kabuki Theater（浮絵 歌舞伎芝居之図）》c.1776年。シカゴ美術館蔵（is_public_domain: true）。西洋の透視図法を取り入れた「浮絵」で、歌川派創始者・豊春の初期作にあたる"
   - url: https://www.artic.edu/iiif/2/d338babb-13b0-77ab-b86d-56065ec9ff88/full/843,/0/default.jpg
     source_page: https://www.artic.edu/artworks/24248
+    rights_source: https://www.artic.edu/artworks/24248
     license: cc0
     note: "初代歌川豊国《Yamatoya: Iwai Hanshiro IV as Okaru, from the series Portraits of Actors on Stage（役者舞台之姿絵）》1795年。シカゴ美術館蔵（is_public_domain: true）。「豊国」の名を最初に名乗った代の役者絵で、この名跡がのちに国貞（三代豊国）へ襲名される"
   - url: https://www.artic.edu/iiif/2/6792ccb2-bd96-b6a3-f144-242fd2d1530a/full/843,/0/default.jpg
     source_page: https://www.artic.edu/artworks/11229
+    rights_source: https://www.artic.edu/artworks/11229
     license: cc0
     note: "歌川国芳《Snake (Mi): Nitan Shiro, from the series Heroes for the Twelve Animals of the Zodiac（勇武見立十二支）》c.1840年。シカゴ美術館蔵（is_public_domain: true）。国貞と並ぶ豊国門下の大勢力で、武者絵を得意とした系統の作例"
 sources:

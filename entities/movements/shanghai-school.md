@@ -34,14 +34,17 @@ relations:
 images:
   - url: https://images.metmuseum.org/CRDImages/as/original/DP161195.jpg
     source_page: https://www.metmuseum.org/art/collection/search/49447
+    rights_source: https://www.metmuseum.org/art/collection/search/49447
     license: public-domain
     note: "任熊《牡丹》19世紀（「四任」の一人・海上画派の核となった画家の一人）"
   - url: https://images.metmuseum.org/CRDImages/as/original/DP-35707-002.jpg
     source_page: https://www.metmuseum.org/art/collection/search/37393
+    rights_source: https://www.metmuseum.org/art/collection/search/37393
     license: public-domain
     note: "任頤（任伯年）《鍾馗》1883年（Getty AATが「最も影響力があり成功した」と記す画家）"
   - url: https://www.artic.edu/iiif/2/80d53b0e-5bb0-c19e-ca74-1fb5d829740f/full/843,/0/default.jpg
     source_page: https://www.artic.edu/artworks/46435
+    rights_source: https://www.artic.edu/artworks/46435
     license: cc0
     note: "任頤（任伯年）《鴛鴦と蓮》1892年（海上画派で最も多いとされる花鳥画の例）"
 sources:

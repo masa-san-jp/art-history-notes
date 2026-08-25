@@ -11,14 +11,18 @@
 
     python3 tools/linkcheck.py                 # 全部
     python3 tools/linkcheck.py entities/movements/pita-maha.md   # 指定ファイルだけ
-    python3 tools/linkcheck.py --json          # 機械可読
+    python3 tools/linkcheck.py --json          # 機械可読（標準出力）
+    python3 tools/linkcheck.py --output /tmp/linkcheck.json
 
-**403 と 429 は「無い」ではない。** bot 避けとレート制限で、ブラウザでは開く。分けて出す。
+**403 と 429 は「無い」ではない。** bot 避けとレート制限で、ブラウザでは開く。`blocked` として記録し、非0終了にはしない。
+404/410だけを `dead` として非0終了にする。DNS・TLS・timeoutも `blocked` としてJSONに残す。
 """
 import argparse
 import concurrent.futures
+from datetime import datetime, timezone
 import glob
 import json
+from pathlib import Path
 import re
 import sys
 import urllib.error
@@ -33,6 +37,7 @@ UA = "Mozilla/5.0 (compatible; art-history-notes/0.1 link-check)"
 # 散文中の「URL, つぎの文」は空白で切れ、末尾のカンマは下の rstrip が落とす。
 URL_RE = re.compile(r'https?://(?:[^\s"\'<>\]()]|\([^\s()]*\))+')
 BLOCKED = {403, 429, 999}   # bot 避け・レート制限。存在しないことの証拠にならない
+DEAD = {404, 410}
 
 
 def collect(paths):
@@ -95,10 +100,43 @@ def status(url):
             return 0   # DNS・TLS・タイムアウト。到達できなかった、であって 404 ではない
 
 
+def result_for(code):
+    """HTTP結果を監査区分へ写像する。blocked は非0 status と到達不能を含む。"""
+    if code in DEAD:
+        return "dead"
+    if code == 0 or code in BLOCKED:
+        return "blocked"
+    return "ok"
+
+
+def report(found, codes, checked_at=None):
+    """URL結果を決定的なJSON payloadへ変換する（checked_atだけは実行時刻）。"""
+    checked_at = checked_at or datetime.now(timezone.utc).replace(microsecond=0).isoformat().replace("+00:00", "Z")
+    results = []
+    for url in sorted(codes):
+        code = codes[url]
+        results.append({
+            "url": url,
+            "result": result_for(code),
+            "http_status": code or None,
+            "files": sorted(found[url]),
+        })
+    counts = {result: sum(item["result"] == result for item in results)
+              for result in ("ok", "dead", "blocked")}
+    return {
+        "schema_version": 1,
+        "checked_at": checked_at,
+        "total": len(results),
+        "counts": counts,
+        "results": results,
+    }
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("paths", nargs="*", help="省略時は entities/ 配下すべて")
     ap.add_argument("--json", action="store_true")
+    ap.add_argument("--output", help="監査結果JSONの書き出し先")
     ap.add_argument("--workers", type=int, default=16)
     a = ap.parse_args()
 
@@ -111,28 +149,20 @@ def main():
     with concurrent.futures.ThreadPoolExecutor(max_workers=a.workers) as pool:
         codes = dict(zip(found, pool.map(status, found)))
 
-    dead = {u: c for u, c in codes.items() if c == 404}
-    unreachable = {u: c for u, c in codes.items() if c == 0}
-    blocked = {u: c for u, c in codes.items() if c in BLOCKED}
-    ok = len(codes) - len(dead) - len(unreachable) - len(blocked)
+    payload = report(found, codes)
+    if a.output:
+        output = Path(a.output)
+        output.parent.mkdir(parents=True, exist_ok=True)
+        output.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 
-    if a.json:
-        print(json.dumps({"total": len(codes), "ok": ok,
-                          "dead": {u: found[u] for u in dead},
-                          "unreachable": {u: found[u] for u in unreachable},
-                          "blocked": sorted(blocked)}, ensure_ascii=False, indent=2))
-        return 1 if dead else 0
-
-    print(f"{len(codes)} 本 — 生きている {ok} / 404 {len(dead)} / "
-          f"到達できず {len(unreachable)} / bot避け・レート制限 {len(blocked)}")
-    for label, group in (("404（ページが無い。URLを組み立てていないか疑う）", dead),
-                         ("到達できず（サイト側の不調かもしれない。時間を置いて再実行）", unreachable)):
-        if not group:
-            continue
-        print(f"\n**{label}**")
-        for url in sorted(group):
-            print(f"- {url}\n  ← {'、'.join(found[url])}")
-    return 1 if dead else 0
+    counts = payload["counts"]
+    print(f"{len(codes)} 本 — 生きている {counts['ok']} / 404・410 {counts['dead']} / blocked {counts['blocked']}")
+    for item in payload["results"]:
+        if item["result"] == "dead":
+            print(f"- {item['http_status']}: {item['url']}\n  ← {'、'.join(item['files'])}")
+    if a.json and not a.output:
+        print(json.dumps(payload, ensure_ascii=False, indent=2))
+    return 1 if counts["dead"] else 0
 
 
 if __name__ == "__main__":

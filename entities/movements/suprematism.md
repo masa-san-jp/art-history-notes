@@ -33,10 +33,12 @@ relations:
 images:
   - url: https://upload.wikimedia.org/wikipedia/commons/5/53/Suprematism_by_Malevich_%281915%2C_GRM%29.jpg
     source_page: https://commons.wikimedia.org/wiki/File:Suprematism_by_Malevich_(1915,_GRM).jpg
+    rights_source: https://commons.wikimedia.org/wiki/File:Suprematism_by_Malevich_(1915,_GRM).jpg
     license: public-domain
     note: "マレーヴィチ《シュプレマティスム（婦人像——4次元と2次元における色彩の塊）》1915年、油彩、ロシア美術館（サンクトペテルブルク）蔵。Wikimedia Commonsが「最後の未来派絵画展『0,10』への出品作」に分類（作者の没年1935年により著作権保護期間満了、PD-old-auto-expired）"
   - url: https://upload.wikimedia.org/wikipedia/commons/d/d0/Suprematism_%28Malevich%2C_1915%29.jpg
     source_page: https://commons.wikimedia.org/wiki/File:Suprematism_(Malevich,_1915).jpg
+    rights_source: https://commons.wikimedia.org/wiki/File:Suprematism_(Malevich,_1915).jpg
     license: pdm
     note: "マレーヴィチ《シュプレマティスム的構成》1915年、油彩、ルートヴィヒ美術館（ケルン）蔵。同じくWikimedia Commonsが「0,10展出品作」に分類。Commonsの権利表示は著作権保護期間満了（1931年以前の発表につきアメリカ合衆国内でも公有）とCreative Commons Public Domain Mark 1.0の両方を根拠に挙げる"
 sources:

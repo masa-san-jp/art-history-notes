@@ -41,10 +41,12 @@ sources:
 images:
   - url: https://images.metmuseum.org/CRDImages/as/original/DT231.jpg
     source_page: https://www.metmuseum.org/art/collection/search/39664
+    rights_source: https://www.metmuseum.org/art/collection/search/39664
     license: cc0
     note: "尾形光琳《八橋図》（Irises at Yatsuhashi）、江戸時代18世紀。メトロポリタン美術館蔵（isPublicDomain: true）"
   - url: https://www.artic.edu/iiif/2/13c3192f-2844-7eb9-4db5-3cd7ce4eb66a/full/843,/0/default.jpg
     source_page: https://www.artic.edu/artworks/35620
+    rights_source: https://www.artic.edu/artworks/35620
     license: cc0
     note: "俵屋宗達《牡丹・木蓮・蒲公英図》（Peonies, Magnolia, and Dandelions）。シカゴ美術館蔵（is_public_domain: true）"
 status: draft

@@ -63,10 +63,12 @@ updated: 2026-08-25
 images:
   - url: https://images.metmuseum.org/CRDImages/ad/original/231421.jpg
     source_page: https://www.metmuseum.org/art/collection/search/204305
+    rights_source: https://www.metmuseum.org/art/collection/search/204305
     license: cc0
     note: "カスピカラ（マヌエル・チリ）《幼子キリスト（降誕群像より）》18世紀、彩色・金彩木彫、ガラス製の目。メトロポリタン美術館蔵（isPublicDomain: true）"
   - url: https://images.metmuseum.org/CRDImages/ad/original/DP105182.jpg
     source_page: https://www.metmuseum.org/art/collection/search/204326
+    rights_source: https://www.metmuseum.org/art/collection/search/204326
     license: cc0
     note: "ベルナルド・デ・レガルダ《キトの聖母》18世紀、彩色・金彩木彫、ガラス製の目、銀製の光輪。メトロポリタン美術館蔵（isPublicDomain: true）"
 ---

@@ -32,10 +32,12 @@ relations: []
 images:
   - url: "https://ids.si.edu/ids/download?id=NPG-9800260B_2.jpg"
     source_page: "https://npg.si.edu/object/npg_NPG.98.129.a"
+    rights_source: "https://npg.si.edu/object/npg_NPG.98.129.a"
     license: cc0
     note: "ウィノルド・ライス《アラン・ロック》1925年、印刷図版（『The New Negro』掲載）。国立肖像画美術館（スミソニアン協会）所蔵、NPG.98.129.a。Smithsonian Open Access APIでobjectRights=CC0を確認"
   - url: "https://ids.si.edu/ids/download?id=NPG-NPG_72_79DuBois-000001.jpg"
     source_page: "https://npg.si.edu/object/npg_NPG.72.79"
+    rights_source: "https://npg.si.edu/object/npg_NPG.72.79"
     license: cc0
     note: "ウィノルド・ライス《W・E・B・デュボイス》1925年、パステル画（原画。『The New Negro』のために制作された肖像連作の一つ）。国立肖像画美術館（スミソニアン協会）所蔵、NPG.72.79。Smithsonian Open Access APIでobjectRights=CC0を確認"
 sources:

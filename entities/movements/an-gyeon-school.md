@@ -50,6 +50,7 @@ sources:
 images:
   - url: https://upload.wikimedia.org/wikipedia/commons/e/e4/Mongyudowondo.jpg
     source_page: https://commons.wikimedia.org/wiki/File:Mongyudowondo.jpg
+    rights_source: https://commons.wikimedia.org/wiki/File:Mongyudowondo.jpg
     license: pdm
     note: "安堅《夢遊桃源図（몽유도원도）》1447年、絹本淡彩。安堅派という括りの起点となった安堅自身の代表作。現在は日本・天理大学附属天理図書館蔵。Wikimedia Commons は CC-PD-Mark／PD-old-100-expired を付し、出典を韓国著作権委員会「공유마당」（gongu.copyright.or.kr）および Google Arts & Culture とする"
 status: draft

@@ -63,10 +63,12 @@ sources:
 images:
   - url: https://images.metmuseum.org/CRDImages/is/original/DP-15521-001.jpg
     source_page: https://www.metmuseum.org/art/collection/search/767842
+    rights_source: https://www.metmuseum.org/art/collection/search/767842
     license: cc0
     note: "《鷹を持つ王子》（Prince Holding a Falcon）、油彩・カンヴァス、1820年頃。メトロポリタン美術館蔵（isPublicDomain: true）"
   - url: https://images.metmuseum.org/CRDImages/is/original/DP345140.jpg
     source_page: https://www.metmuseum.org/art/collection/search/667859
+    rights_source: https://www.metmuseum.org/art/collection/search/667859
     license: cc0
     note: "《ムハンマド・シャー・カージャールとその宰相ハージー・ミールザー・アーガースィーの肖像》、19世紀第2四半期。メトロポリタン美術館蔵（isPublicDomain: true）"
 status: draft

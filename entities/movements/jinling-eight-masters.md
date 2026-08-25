@@ -54,10 +54,12 @@ sources:
 images:
   - url: https://images.metmuseum.org/CRDImages/as/original/DP161078_crd.jpg
     source_page: https://www.metmuseum.org/art/collection/search/36130
+    rights_source: https://www.metmuseum.org/art/collection/search/36130
     license: cc0
     note: "龔賢《十二月山水図冊（Landscapes of the Twelve Months）》1685年頃、メトロポリタン美術館蔵（isPublicDomain: true）。金陵八家の中で最も著名とされる龔賢の作"
   - url: https://images.metmuseum.org/CRDImages/as/original/DP154033.jpg
     source_page: https://www.metmuseum.org/art/collection/search/41483
+    rights_source: https://www.metmuseum.org/art/collection/search/41483
     license: cc0
     note: "龔賢《山水樹木図冊（Landscapes and trees）》1679年頃、メトロポリタン美術館蔵（isPublicDomain: true）"
 status: draft

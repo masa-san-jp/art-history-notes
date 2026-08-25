@@ -28,6 +28,7 @@ sources:
 images:
   - url: https://images.metmuseum.org/CRDImages/as/original/DP-28256-004_crd.jpg
     source_page: https://www.metmuseum.org/art/collection/search/856163
+    rights_source: https://www.metmuseum.org/art/collection/search/856163
     license: cc0
     note: "Metropolitan Museum of ArtのOpen Access画像。isPublicDomain: true。"
 status: draft

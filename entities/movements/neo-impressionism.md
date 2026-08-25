@@ -71,10 +71,12 @@ sources:
 images:
   - url: https://www.artic.edu/iiif/2/2d484387-2509-5e8e-2c43-22f9981972eb/full/843,/0/default.jpg
     source_page: https://www.artic.edu/artworks/27992
+    rights_source: https://www.artic.edu/artworks/27992
     license: cc0
     note: "ジョルジュ・スーラ《グランド・ジャット島の日曜日の午後》1884-86年、シカゴ美術館蔵。新印象派を象徴する代表作（is_public_domain: true）"
   - url: https://www.artic.edu/iiif/2/3b822392-6509-b739-8ee1-e8e918c43825/full/843,/0/default.jpg
     source_page: https://www.artic.edu/artworks/135446
+    rights_source: https://www.artic.edu/artworks/135446
     license: cc0
     note: "ポール・シニャック《調和の時代（In Times of Harmony）》1895-96年、シカゴ美術館蔵（is_public_domain: true）"
 status: verified

@@ -31,14 +31,17 @@ relations: []
 images:
   - url: https://www.artic.edu/iiif/2/6d981a44-bb4a-e577-387d-16fc581b1304/full/843,/0/default.jpg
     source_page: https://www.artic.edu/artworks/27873
+    rights_source: https://www.artic.edu/artworks/27873
     license: cc0
     note: "テオドール・ルソー《フォンテーヌブローの森にて（In the Forest of Fontainbleau）》c. 1850年。シカゴ美術館蔵（is_public_domain: true）"
   - url: https://www.artic.edu/iiif/2/7b0ea6ca-9424-050e-7e0e-3b67d2289480/full/843,/0/default.jpg
     source_page: https://www.artic.edu/artworks/111648
+    rights_source: https://www.artic.edu/artworks/111648
     license: cc0
     note: "ジャン＝フランソワ・ミレー《野で生まれた子牛を運ぶ農民たち（Peasants Bringing Home a Calf Born in the Fields）》1864年。シカゴ美術館蔵（is_public_domain: true）"
   - url: https://www.artic.edu/iiif/2/44c6f2f1-90fc-f386-734b-fbb9427b6ff3/full/843,/0/default.jpg
     source_page: https://www.artic.edu/artworks/95993
+    rights_source: https://www.artic.edu/artworks/95993
     license: cc0
     note: "ナルシス・ヴィルジル・ディアズ・ド・ラ・ペーニャ《森の中の池（Pond in the Woods）》。シカゴ美術館蔵（is_public_domain: true）"
 sources:

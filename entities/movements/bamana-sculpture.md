@@ -27,10 +27,12 @@ claims:
 images:
   - url: https://openaccess-cdn.clevelandart.org/1965.325/1965.325_web.jpg
     source_page: https://clevelandart.org/art/1965.325
+    rights_source: https://clevelandart.org/art/1965.325
     license: cc0
     note: 頭飾り（チワラ）雌。クリーヴランド美術館 1965.325。バマコ以南に多い自然主義的な様式と館が記す
   - url: https://openaccess-cdn.clevelandart.org/1962.307/1962.307_web.jpg
     source_page: https://clevelandart.org/art/1962.307
+    rights_source: https://clevelandart.org/art/1962.307
     license: cc0
     note: 頭飾り（チワラ）雌。クリーヴランド美術館 1962.307。垂直方向に伸び、背に跪く人物像が付く
 evidence:

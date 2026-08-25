@@ -61,10 +61,12 @@ sources:
 images:
   - url: https://images.metmuseum.org/CRDImages/is/original/DP261704.jpg
     source_page: https://www.metmuseum.org/art/collection/search/457758
+    rights_source: https://www.metmuseum.org/art/collection/search/457758
     license: cc0
     note: "シャイフ・ザイン・アル＝ディーン《オオヒタキとシャクガの止まる紫檀の枝》1778年、コルカタ。メアリー・インペイの依嘱による博物画（インペイ・アルバム）の1点"
   - url: https://images.metmuseum.org/CRDImages/is/original/DP234080.jpg
     source_page: https://www.metmuseum.org/art/collection/search/454011
+    rights_source: https://www.metmuseum.org/art/collection/search/454011
     license: cc0
     note: "《風景の中のクロコウノトリ》1780年頃、ルクナウ。クロード・マーティンが依嘱した658点の鳥類画のうちの1点とされる（画家名は未詳）"
 status: draft

@@ -67,10 +67,12 @@ sources:
 images:
   - url: https://images.metmuseum.org/CRDImages/as/original/DP-28256-004_crd.jpg
     source_page: https://www.metmuseum.org/art/collection/search/856163
+    rights_source: https://www.metmuseum.org/art/collection/search/856163
     license: cc0
     note: "《仏陀の生涯の場面》（Scenes from Life of the Buddha）、ミンドン王またはティーボー王の宮廷制作、ビルマ（マンダレー）、1880年代。折本装のパラベイク（parabaik）、桑皮紙に水彩・墨・金。メトロポリタン美術館蔵（isPublicDomain: true）"
   - url: https://images.metmuseum.org/CRDImages/as/original/DP-14374-040.jpg
     source_page: https://www.metmuseum.org/art/collection/search/744940
+    rights_source: https://www.metmuseum.org/art/collection/search/744940
     license: cc0
     note: "《王室の行列・儀礼・娯楽の場面》（Royal processions, ceremonies and entertainments）、ミンドン王またはティーボー王の宮廷（あるいは関連工房）制作、ビルマ、1870〜80年代。桑皮紙に水彩・金、金塗り漆塗り木製表紙。メトロポリタン美術館蔵（isPublicDomain: true）"
 status: draft

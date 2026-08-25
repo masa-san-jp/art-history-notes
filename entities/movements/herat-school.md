@@ -67,6 +67,7 @@ sources:
 images:
   - url: https://images.metmuseum.org/CRDImages/is/original/DP231332.jpg
     source_page: https://www.metmuseum.org/art/collection/search/446892
+    rights_source: https://www.metmuseum.org/art/collection/search/446892
     license: cc0
     note: "「踊る托鉢僧」ハーフィズ『ディーワーン』挿画、c.1480年、ヘラート制作。メトロポリタン美術館蔵、constituents＝\"Painting attributed to Bihzad\"（isPublicDomain: true）"
 status: draft

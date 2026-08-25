@@ -77,6 +77,13 @@ def render(centers, entities, edges, title):
                 f"- `{item.get('target')}`（supports: {', '.join(item.get('supports') or [])}）"
                 for item in meta["evidence"]
             ]
+        if meta.get("images"):
+            lines += ["", "画像（権利根拠）:"] + [
+                f"- {image['url']}（license: {image['license']} / "
+                f"source_page: {image['source_page']} / "
+                f"rights_source: {image['rights_source']}）"
+                for image in meta["images"]
+            ]
         out_edges = [e for e in edges if e["from"] == cid and not e.get("derived")]
         in_edges = [e for e in edges if e["to"] == cid and not e.get("derived")]
         for edge in out_edges + in_edges:

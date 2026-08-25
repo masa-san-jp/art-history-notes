@@ -44,10 +44,12 @@ sources:
 images:
   - url: https://www.artic.edu/iiif/2/7739a403-99b6-d151-c892-e93a0b17e4ef/full/843,/0/default.jpg
     source_page: https://www.artic.edu/artworks/150406
+    rights_source: https://www.artic.edu/artworks/150406
     license: cc0
     note: "戴進《道士対局図》（Landscape with Daoist Immortals Playing Weiqi）、明代15-16世紀。シカゴ美術館蔵（is_public_domain: true）"
   - url: https://images.metmuseum.org/CRDImages/as/original/DP204373_CRD.jpg
     source_page: https://www.metmuseum.org/art/collection/search/45680
+    rights_source: https://www.metmuseum.org/art/collection/search/45680
     license: cc0
     note: "蒋嵩《冬景山水図》（Winter landscape）、16世紀前半。メトロポリタン美術館蔵（isPublicDomain: true）"
 status: draft

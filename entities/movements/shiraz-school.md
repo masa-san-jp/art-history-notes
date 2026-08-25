@@ -63,10 +63,12 @@ sources:
 images:
   - url: https://images.metmuseum.org/CRDImages/is/original/DT214817.jpg
     source_page: https://www.metmuseum.org/art/collection/search/448280
+    rights_source: https://www.metmuseum.org/art/collection/search/448280
     license: cc0
     note: "「ビジャンがイルマーンの猪を狩る」『シャー・ナーメ』挿画、741 AH/1341年、シーラーズ制作。メトロポリタン美術館蔵（city: Shiraz、isPublicDomain: true、直接APIで確認）"
   - url: https://images.metmuseum.org/CRDImages/is/original/DP159397.jpg
     source_page: https://www.metmuseum.org/art/collection/search/451324
+    rights_source: https://www.metmuseum.org/art/collection/search/451324
     license: cc0
     note: "「アムルが異教徒を海に投げ込ませる」イブン・フサーム『ハワラーン・ナーメ』挿画、c.1476-86年、シーラーズ制作。メトロポリタン美術館蔵（city: Shiraz、isPublicDomain: true、直接APIで確認）"
 status: draft

@@ -28,6 +28,7 @@ sources:
 images:
   - url: https://openaccess-cdn.clevelandart.org/1989.89/1989.89_web.jpg
     source_page: https://clevelandart.org/art/1989.89
+    rights_source: https://clevelandart.org/art/1989.89
     license: cc0
     note: "Cleveland Museum of Artが公開するCC0画像。館の作品番号1989.89。"
 status: draft

@@ -165,14 +165,17 @@ def validate(entities, records, cfg, errors):
         if meta.get("control_changes") and not meta.get("founding_control"):
             err("control_changes を書くなら founding_control（成立時点の値）も要る")
 
-        for img in meta.get("images") or []:
-            if not img.get("url"):
-                err("images の各項目に url が要る")
+        for index, img in enumerate(meta.get("images") or [], start=1):
+            prefix = f"images[{index}]"
+            if not isinstance(img, dict):
+                err(f"{prefix} はobjectが必要")
+                continue
+            for field in ("url", "source_page", "rights_source"):
+                if not is_http_url(img.get(field)):
+                    err(f"{prefix}.{field} はhttp(s) URLが必要")
             if img.get("license") not in IMAGE_LICENSES:
-                err(f"images の license は {sorted(IMAGE_LICENSES)} のどれか"
+                err(f"{prefix}.license は {sorted(IMAGE_LICENSES)} のどれか"
                     f"（パブリックドメイン相当のみ／今: {img.get('license')}）")
-            if not img.get("source_page"):
-                err("images の各項目に source_page（所蔵館の作品ページ）が要る")
 
         for fn in meta.get("former_names") or []:
             if not fn.get("name"):

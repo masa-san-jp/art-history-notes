@@ -1,0 +1,31 @@
+name: external-linkcheck
+
+on:
+  schedule:
+    - cron: "0 3 * * 1"
+  workflow_dispatch:
+
+jobs:
+  linkcheck:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - uses: astral-sh/setup-uv@v6
+        with:
+          version: "0.11.19"
+          enable-cache: true
+          cache-dependency-glob: "uv.lock"
+      - name: 依存関係をlockどおりに準備
+        run: uv sync --locked
+      - name: 外部URLを監査
+        run: uv run --locked python tools/linkcheck.py --output linkcheck-results.json
+      - name: 監査結果をartifactへ保存
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: linkcheck-results
+          path: linkcheck-results.json
+          if-no-files-found: error

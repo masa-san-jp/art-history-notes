@@ -68,10 +68,12 @@ sources:
 images:
   - url: https://openaccess-cdn.clevelandart.org/1980.10/1980.10_web.jpg
     source_page: https://clevelandart.org/art/1980.10
+    rights_source: https://clevelandart.org/art/1980.10
     license: cc0
     note: "董其昌《青卞隠居図（Mt. Qingbian）》1617年、クリーブランド美術館蔵（share_license_status: CC0）。松江派の中心人物・董其昌の山水画"
   - url: https://openaccess-cdn.clevelandart.org/1959.46/1959.46_web.jpg
     source_page: https://clevelandart.org/art/1959.46
+    rights_source: https://clevelandart.org/art/1959.46
     license: cc0
     note: "董其昌《秋興八景図・清秋山水（River and Mountains on a Clear Autumn Day）》1624〜27年頃、クリーブランド美術館蔵（share_license_status: CC0）"
 status: draft

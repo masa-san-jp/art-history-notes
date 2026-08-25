@@ -45,12 +45,14 @@ relations: []
 images:
   - url: https://openaccess-cdn.clevelandart.org/1989.89/1989.89_web.jpg
     source_page: https://clevelandart.org/art/1989.89
+    rights_source: https://clevelandart.org/art/1989.89
     license: cc0
     note: "《トーテムポール（小型模型）》c. 1880年、トリンギット、彩色木彫（Cleveland Museum of Art、
       CC0）。クリーブランド美術館の解説によれば、このポールはコホサケ氏族（レイヴン部族）に属する
       トリンギットの語り部が所有していたもので、室内保管のため彩色が良好に残る"
   - url: https://openaccess-cdn.clevelandart.org/1921.1577/1921.1577_web.jpg
     source_page: https://clevelandart.org/art/1921.1577
+    rights_source: https://clevelandart.org/art/1921.1577
     license: cc0
     note: "《レイヴン・ラトル》19世紀末〜20世紀初頭、ハイダ、木・顔料（Cleveland Museum of Art、
       CC0）。ワタリガラスの背に人物像を乗せた形式のガラガラで、シャーマンの儀礼具として始まり、

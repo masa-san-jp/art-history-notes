@@ -34,6 +34,7 @@ relations:
 images:
   - url: https://upload.wikimedia.org/wikipedia/commons/4/48/Hishida_Shuns%C5%8D_-_Fallen_Leaves_%28Eisei_Bunko_Museum%29_2.jpg
     source_page: https://commons.wikimedia.org/wiki/File:Hishida_Shuns%C5%8D_-_Fallen_Leaves_(Eisei_Bunko_Museum)_2.jpg
+    rights_source: https://commons.wikimedia.org/wiki/File:Hishida_Shuns%C5%8D_-_Fallen_Leaves_(Eisei_Bunko_Museum)_2.jpg
     license: public-domain
     note: "菱田春草《落葉》1909年、永青文庫蔵。Wikimedia Commons の権利表示は Public domain（春草の没年1911年）。輪郭線を引かずに空気の層を描く手つきが1点で見える——これが批判の側から「朦朧体」と呼ばれた描き方で、1903年にインドへ、1900年代後半に東京へ来た中国人留学生を通じて広東へ渡ったのも、この手つきである"
 sources:

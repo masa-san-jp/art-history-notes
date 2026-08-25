@@ -63,10 +63,12 @@ sources:
 images:
   - url: https://images.metmuseum.org/CRDImages/is/original/sf13-152-6d.jpg
     source_page: https://www.metmuseum.org/art/collection/search/446288
+    rights_source: https://www.metmuseum.org/art/collection/search/446288
     license: cc0
     note: "「エリクサーを調合する医師」ディオスコリデス『薬物誌』アラビア語訳の1葉、1224年（ヒジュラ暦621年）、アブドゥッラー・イブン・アル=ファドル筆。メトロポリタン美術館蔵（accession 13.152.6、isPublicDomain: true）。Metの帰属は geographyType＝Attributed to、city＝possibly Baghdad、country＝Iraq or Northern Jazira——バグダードへの帰属自体が推定であることをMet自身の記録が示す"
   - url: https://images.metmuseum.org/CRDImages/is/original/sf56-20r.jpg
     source_page: https://www.metmuseum.org/art/collection/search/451332
+    rights_source: https://www.metmuseum.org/art/collection/search/451332
     license: cc0
     note: "「葡萄を踏む人々」同じ『薬物誌』写本の1葉、1224年、同じくアブドゥッラー・イブン・アル=ファドル筆。メトロポリタン美術館蔵（accession 57.51.23、isPublicDomain: true）。日常生活の一場面を描く点が本様式の特徴として文献に挙げられる例"
 status: draft

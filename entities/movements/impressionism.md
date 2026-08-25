@@ -40,10 +40,12 @@ relations:
 images:
   - url: https://openaccess-cdn.clevelandart.org/1950.89/1950.89_web.jpg
     source_page: https://www.clevelandart.org/art/1950.89
+    rights_source: https://www.clevelandart.org/art/1950.89
     license: cc0
     note: "ベルト・モリゾ《読書（La Lecture）》1873年、クリーブランド美術館蔵。ルロワが1874年の記事で名指しして揶揄した作品そのもの——同館の展示歴が「Première Exposition. Société Anonyme...(1874)」への出品を記録している"
   - url: https://www.artic.edu/iiif/2/0f1cc0e0-e42e-be16-3f71-2022da38cb93/full/843,/0/default.jpg
     source_page: https://www.artic.edu/artworks/16571
+    rights_source: https://www.artic.edu/artworks/16571
     license: public-domain
     note: "クロード・モネ《サン゠ラザール駅、ノルマンディー列車の到着》1877年、シカゴ美術館蔵。第3回展（1877年）出品作（同館の publication history が catalogue番号97として記録）"
 sources:

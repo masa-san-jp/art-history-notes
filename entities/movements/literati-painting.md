@@ -46,10 +46,12 @@ sources:
 images:
   - url: https://www.artic.edu/iiif/2/5f28e5c2-9ccf-86f2-58f7-6fa4ca267cba/full/843,/0/default.jpg
     source_page: https://www.artic.edu/artworks/145677
+    rights_source: https://www.artic.edu/artworks/145677
     license: cc0
     note: "倪瓚（元末四大家の一人）《林堂詩思図（Poetic Thoughts in a Forest Pavilion）》1371年頃。シカゴ美術館蔵（is_public_domain: true）。董其昌の南宗系譜で元代の要とされる画家の一人"
   - url: https://images.metmuseum.org/CRDImages/as/original/DP214271_CRD.jpg
     source_page: https://www.metmuseum.org/art/collection/search/49187
+    rights_source: https://www.metmuseum.org/art/collection/search/49187
     license: cc0
     note: "王原祁（清・四王の一人）《輞川図（Wangchuan Villa）》1711年。メトロポリタン美術館蔵（isPublicDomain: true）。王維の別荘「輞川」を主題とし、南宗の遡及的な祖・王維へ清代の正統派が意識的に立ち返っていたことを示す作例"
 status: draft

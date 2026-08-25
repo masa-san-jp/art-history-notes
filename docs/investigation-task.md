@@ -153,7 +153,8 @@ curl -s "https://api.artic.edu/api/v1/artworks/search?q=<作品名>&fields=id,ti
 ```
 
 **パブリックドメイン相当だけ**（`license: public-domain` / `cc0` / `pdm`）。検証が語彙を強制する。
-`source_page`（所蔵館の作品ページ）を必ず添える——ライセンスの根拠がそこにある。
+`source_page`（所蔵館の作品ページ）と `rights_source`（画像または所蔵機関の権利表示ページ）を必ず添える。
+権利表示が `source_page` に明示されている場合は `rights_source` に同じURLを入れてよい。
 **権利が不明なものは入れない。** 「古いから大丈夫」で入れない。**画像ファイルは repo に置かない**（リンクだけ）。
 
 出どころの候補: Art Institute of Chicago（CC0）／Metropolitan Museum（Open Access）／

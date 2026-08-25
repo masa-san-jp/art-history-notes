@@ -43,10 +43,12 @@ sources:
 images:
   - url: https://www.artic.edu/iiif/2/18092196-50ae-3ff1-9205-1b3110e966c3/full/843,/0/default.jpg
     source_page: https://www.artic.edu/artworks/90048
+    rights_source: https://www.artic.edu/artworks/90048
     license: cc0
     note: "トマス・コール《ナイアガラの滝の遠望（Distant View of Niagara Falls）》1830年。シカゴ美術館蔵（is_public_domain: true）"
   - url: https://www.artic.edu/iiif/2/33fc29fc-097b-576b-c9e6-c3352d9d3f15/full/843,/0/default.jpg
     source_page: https://www.artic.edu/artworks/76571
+    rights_source: https://www.artic.edu/artworks/76571
     license: cc0
     note: "フレデリック・エドウィン・チャーチ《コトパクシ山（View of Cotopaxi）》1857年。シカゴ美術館蔵（is_public_domain: true）"
 status: draft

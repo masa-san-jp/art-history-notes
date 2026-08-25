@@ -57,14 +57,17 @@ updated: 2026-08-09
 images:
   - url: https://images.metmuseum.org/CRDImages/ep/original/DP142735.jpg
     source_page: https://www.metmuseum.org/art/collection/search/438754
+    rights_source: https://www.metmuseum.org/art/collection/search/438754
     license: cc0
     note: "ドゥッチョ・ディ・ブオニンセーニャ《聖母子》（Madonna and Child）1290〜1300年頃、板にテンペラと金地。メトロポリタン美術館蔵（isPublicDomain: true）。同館は2004年にこの作品を購入した際、寄付者名を列記した長い解説板を付けたことで知られる（The Brooklyn Rail, 2024年）"
   - url: https://images.metmuseum.org/CRDImages/rl/original/DP-29454-001.jpg
     source_page: https://www.metmuseum.org/art/collection/search/459136
+    rights_source: https://www.metmuseum.org/art/collection/search/459136
     license: cc0
     note: "シモーネ・マルティーニ《聖母子》（Madonna and Child）1326年頃、板にテンペラ、金地。メトロポリタン美術館蔵（Robert Lehman Collection、isPublicDomain: true）"
   - url: https://images.metmuseum.org/CRDImages/ep/original/DP278472.jpg
     source_page: https://www.metmuseum.org/art/collection/search/438605
+    rights_source: https://www.metmuseum.org/art/collection/search/438605
     license: cc0
     note: "ピエトロ・ロレンツェッティ《磔刑》（The Crucifixion）1340年代、板にテンペラと金箔。メトロポリタン美術館蔵（isPublicDomain: true）。作者は1348年のペストで没したとされる"
 ---

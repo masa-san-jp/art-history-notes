@@ -68,10 +68,12 @@ sources:
 images:
   - url: https://images.metmuseum.org/CRDImages/is/original/DP231354.jpg
     source_page: https://www.metmuseum.org/art/collection/search/453250
+    rights_source: https://www.metmuseum.org/art/collection/search/453250
     license: cc0
     note: "レザー・アッバーシー《鳥の習作》（Study of a Bird）、1043 AH/1634年。メトロポリタン美術館蔵（isPublicDomain: true）"
   - url: https://images.metmuseum.org/CRDImages/is/original/DP-13133-028.jpg
     source_page: https://www.metmuseum.org/art/collection/search/724722
+    rights_source: https://www.metmuseum.org/art/collection/search/724722
     license: cc0
     note: "ムイーン・ムサッヴィル《蓮の葉を囲む幻獣たち》（A Gathering of Mythical Creatures around a Lotus Leaf）、1088 AH/1677年。メトロポリタン美術館蔵（isPublicDomain: true）"
 status: draft

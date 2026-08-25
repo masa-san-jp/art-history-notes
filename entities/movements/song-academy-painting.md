@@ -52,10 +52,12 @@ sources:
 images:
   - url: https://images.metmuseum.org/CRDImages/as/original/DP154073.jpg
     source_page: https://www.metmuseum.org/art/collection/search/36005
+    rights_source: https://www.metmuseum.org/art/collection/search/36005
     license: public-domain
     note: "夏珪《山市晴嵐図（Mountain Market, Clearing Mist）》13世紀初頭、南宋。メトロポリタン美術館蔵（isPublicDomain: true）"
   - url: https://images.metmuseum.org/CRDImages/as/original/DP154090.jpg
     source_page: https://www.metmuseum.org/art/collection/search/40086
+    rights_source: https://www.metmuseum.org/art/collection/search/40086
     license: public-domain
     note: "馬遠《滝を見る学者（Scholar Viewing a Waterfall）》13世紀初頭、南宋。メトロポリタン美術館蔵（isPublicDomain: true）"
 status: draft

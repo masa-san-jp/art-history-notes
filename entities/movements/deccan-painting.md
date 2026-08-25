@@ -53,10 +53,12 @@ sources:
 images:
   - url: https://images.metmuseum.org/CRDImages/is/original/DT4503.jpg
     source_page: https://www.metmuseum.org/art/collection/search/453975
+    rights_source: https://www.metmuseum.org/art/collection/search/453975
     license: cc0
     note: "《鷹狩りをするチャーンド・ビービーと従者たち》（Chand Bibi Hawking with Attendants in a Landscape）、c.1700年、メトロポリタン美術館蔵（isPublicDomain: true）。チャーンド・ビービーはアフマドナガルの摂政（1596年没）"
   - url: https://images.metmuseum.org/CRDImages/is/original/DP231324.jpg
     source_page: https://www.metmuseum.org/art/collection/search/453334
+    rights_source: https://www.metmuseum.org/art/collection/search/453334
     license: cc0
     note: "《幻獣ブラーク》（The Fabulous Creature Buraq）、c.1660-80年、メトロポリタン美術館蔵（isPublicDomain: true）。小動物の集合体として大動物を描く『合成動物』はデカン絵画の特色の一つとされる"
 status: draft

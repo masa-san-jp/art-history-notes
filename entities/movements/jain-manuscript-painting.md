@@ -48,10 +48,12 @@ sources:
 images:
   - url: https://images.metmuseum.org/CRDImages/as/original/DP156423.jpg
     source_page: https://www.metmuseum.org/art/collection/search/74883
+    rights_source: https://www.metmuseum.org/art/collection/search/74883
     license: cc0
     note: "《一対のジャイナ写本表紙（パトリー）のうち1点》木に不透明水彩、12世紀前半、グジャラート。メトロポリタン美術館蔵（isPublicDomain: true）。貝葉写本時代の様式を示す（John Guy の Met essay が「インド国外に現存する最古級の写本表紙の一つ」と言及する作例）"
   - url: https://images.metmuseum.org/CRDImages/as/original/DT6940.jpg
     source_page: https://www.metmuseum.org/art/collection/search/37788
+    rights_source: https://www.metmuseum.org/art/collection/search/37788
     license: cc0
     note: "《デーヴァーナンダーの十四の吉夢》『カルパスートラ』写本葉、不透明水彩・金・紙、c.1465年、グジャラート（ジャウンプル）。メトロポリタン美術館蔵（isPublicDomain: true）。紙への転換後、金とラピスラズリを用いた成熟期の様式を示す（John Guy の Met essay が同一葉に言及）"
 status: draft

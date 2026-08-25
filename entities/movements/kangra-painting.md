@@ -64,10 +64,12 @@ sources:
 images:
   - url: https://images.metmuseum.org/CRDImages/as/original/DP166090.jpg
     source_page: https://www.metmuseum.org/art/collection/search/74675
+    rights_source: https://www.metmuseum.org/art/collection/search/74675
     license: cc0
     note: "ナインスク《ラーマとラクシュマナ、苦行者の庵を訪れる》c.1775-80年。メトロポリタン美術館蔵（isPublicDomain: true）"
   - url: https://images.metmuseum.org/CRDImages/as/original/DP278165.jpg
     source_page: https://www.metmuseum.org/art/collection/search/37947
+    rights_source: https://www.metmuseum.org/art/collection/search/37947
     license: cc0
     note: "マナク《シュカとサラナの羅刹の間者を解き放つラーマ：『ランカー包囲』シリーズ挿画》c.1725年。メトロポリタン美術館蔵（isPublicDomain: true）"
 status: draft

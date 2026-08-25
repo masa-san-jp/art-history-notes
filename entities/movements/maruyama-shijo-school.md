@@ -51,10 +51,12 @@ sources:
 images:
   - url: https://www.artic.edu/iiif/2/19669877-89b4-a950-a918-3c3c4af312fa/full/843,/0/default.jpg
     source_page: https://www.artic.edu/artworks/196928
+    rights_source: https://www.artic.edu/artworks/196928
     license: public-domain
     note: "円山応挙《応挙習画帖（Okyo Shubi Gafu）》11ページ、1892年（応挙没後の木版複製画帖）。シカゴ美術館蔵（is_public_domain: true）"
   - url: https://www.artic.edu/iiif/2/0022f3ce-cc71-83c2-542e-30d57d74d9ec/full/843,/0/default.jpg
     source_page: https://www.artic.edu/artworks/50560
+    rights_source: https://www.artic.edu/artworks/50560
     license: public-domain
     note: "松村呉春《鍾馗図（Shoki the Demon Queller）》17〜19世紀、シカゴ美術館蔵（is_public_domain: true）"
 status: draft

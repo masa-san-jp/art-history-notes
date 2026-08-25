@@ -158,6 +158,7 @@ def build_record(meta: dict, entities: dict, commit: str, now: datetime, purpose
         "evidence_locator": f"{meta['path']}#sources",
         "sources": sources,
         "evidence_sources": evidence_sources,
+        "images": [dict(image) for image in meta.get("images") or [] if isinstance(image, dict)],
         # 出典の種類。このKBの本文は大半を「二次情報」と明記しており、一次資料への到達は
         # 各ファイルの「未着手」に残っている状態なので、既定は secondary にする。
         # 一次・二次を frontmatter で機械可読に持っていないため、ここで個別判定はしない。

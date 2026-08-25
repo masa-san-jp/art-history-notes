@@ -34,6 +34,7 @@ relations:
 images:
   - url: "https://commons.wikimedia.org/wiki/Special:FilePath/El_Lissitzky,_Wendingen,_1921_(published_1923),_NGA_93943.jpg"
     source_page: https://www.nga.gov/artworks/93943-wendingen
+    rights_source: https://www.nga.gov/artworks/93943-wendingen
     license: cc0
     note: "エル・リシツキー《Wendingen》1921年（1923年刊）、国立美術館蔵。構成主義のグラフィック実践を示す代表的な公開画像として、NGAの作品ページとCC0画像を参照"
 sources:

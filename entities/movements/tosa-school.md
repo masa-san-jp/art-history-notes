@@ -50,6 +50,7 @@ sources:
 images:
   - url: https://images.metmuseum.org/CRDImages/as/original/DT1607.jpg
     source_page: https://www.metmuseum.org/art/collection/search/45258
+    rights_source: https://www.metmuseum.org/art/collection/search/45258
     license: cc0
     note: "土佐光信《四季竹図》（Bamboo in the Four Seasons）、15世紀末〜16世紀初頭。メトロポリタン美術館蔵（isPublicDomain: true）"
 status: draft

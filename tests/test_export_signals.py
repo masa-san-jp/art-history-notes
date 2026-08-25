@@ -61,6 +61,20 @@ class ExportSignalsTests(unittest.TestCase):
         self.assertEqual("europe-west,asia-east-japan", record["geo"])
         self.assertTrue(any("place/a" in item and "place/b" in item for item in record["unknowns"]))
 
+    def test_image_rights_source_is_preserved(self):
+        source = "https://example.test/work"
+        meta = movement()
+        meta["images"] = [{"url": "https://example.test/image.jpg", "source_page": source,
+                            "rights_source": source, "license": "cc0"}]
+        record = export_signals.build_record(
+            meta,
+            {"place/a": {"region": "europe-west"}},
+            "a" * 40,
+            datetime(2026, 8, 14, tzinfo=timezone.utc),
+            "artistic-research",
+        )
+        self.assertEqual(source, record["images"][0]["rights_source"])
+
     def test_unknown_entity_returns_clean_error(self):
         stderr = io.StringIO()
         with mock.patch.object(sys, "argv", ["export_signals.py", "--purpose", "test", "--entity", "movement/missing"]), contextlib.redirect_stderr(stderr):

@@ -36,6 +36,7 @@ relations:
 images:
   - url: "https://commons.wikimedia.org/wiki/Special:FilePath/Anonymous_photograph_of_Bauhaus_masters_on_the_roof_of_the_studio_building,_Bauhaus_Dessau.jpg"
     source_page: "https://commons.wikimedia.org/wiki/File:Anonymous_photograph_of_Bauhaus_masters_on_the_roof_of_the_studio_building,_Bauhaus_Dessau.jpg"
+    rights_source: "https://commons.wikimedia.org/wiki/File:Anonymous_photograph_of_Bauhaus_masters_on_the_roof_of_the_studio_building,_Bauhaus_Dessau.jpg"
     license: public-domain
     note: "1926年、デッサウの校舎屋上に立つバウハウスの教員たちを写した匿名写真。Commonsのファイルページでパブリックドメインと確認できる"
 sources:
