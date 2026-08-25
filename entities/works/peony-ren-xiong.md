@@ -21,8 +21,8 @@ space:
 relations:
   - {type: belongs_to, target: movement/shanghai-school}
 sources:
-  - https://www.metmuseum.org/art/collection/search/49447
-  - https://www.metmuseum.org/art/collection/search/49447
+  - url: "https://www.metmuseum.org/art/collection/search/49447"
+    kind: institutional
 images:
   - url: https://images.metmuseum.org/CRDImages/as/original/DP161195.jpg
     source_page: https://www.metmuseum.org/art/collection/search/49447

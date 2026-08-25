@@ -24,8 +24,9 @@ TYPE_DIRS = {
     "movement": ROOT / "entities" / "movements",
     "context": ROOT / "contexts",
     "person": ROOT / "entities" / "persons",
+    "work": ROOT / "entities" / "works",
 }
-TYPE_ORDER = ("movement", "context", "person")
+TYPE_ORDER = ("movement", "context", "person", "work")
 
 
 def _parse(path: Path) -> dict:

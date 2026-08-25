@@ -19,11 +19,16 @@ relations:
   - {type: created_by, target: person/pietro-fragiacomo}
   - {type: exhibited_at, target: event/first-brera-triennale-1891}
 sources:
-  - https://www.dorotheum.com/en/l/6408848/
-  - https://www.fondazionecrtrieste.it/wp-content/uploads/2021/06/Pietro_Fragiacomo.pdf
-  - https://galleriemaspes.com/immagini_sito/Cataloghi%20pdf/Brera_Guide.pdf
-  - https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf
-  - https://www.wikidata.org/wiki/Q3903892
+  - url: "https://www.dorotheum.com/en/l/6408848/"
+    kind: reference
+  - url: "https://www.fondazionecrtrieste.it/wp-content/uploads/2021/06/Pietro_Fragiacomo.pdf"
+    kind: scholarly
+  - url: "https://galleriemaspes.com/immagini_sito/Cataloghi%20pdf/Brera_Guide.pdf"
+    kind: scholarly
+  - url: "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+    kind: scholarly
+  - url: "https://www.wikidata.org/wiki/Q3903892"
+    kind: authority
 status: draft
 updated: 2026-08-12
 ---

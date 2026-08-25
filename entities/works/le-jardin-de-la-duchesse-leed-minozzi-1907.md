@@ -19,10 +19,14 @@ relations:
   - {type: created_by, target: person/filiberto-minozzi}
   - {type: exhibited_at, target: event/salon-divisionnistes-italiens-paris-1907}
 sources:
-  - https://exhibitions.univie.ac.at/person/ulan/500164204
-  - https://exhibitions.univie.ac.at/exhibition/125
-  - https://it.wikipedia.org/wiki/Filiberto_Minozzi
-  - https://it.wikipedia.org/wiki/George_Osborne%2C_X_duca_di_Leeds
+  - url: "https://exhibitions.univie.ac.at/person/ulan/500164204"
+    kind: reference
+  - url: "https://exhibitions.univie.ac.at/exhibition/125"
+    kind: reference
+  - url: "https://it.wikipedia.org/wiki/Filiberto_Minozzi"
+    kind: reference
+  - url: "https://it.wikipedia.org/wiki/George_Osborne%2C_X_duca_di_Leeds"
+    kind: reference
 status: draft
 updated: 2026-08-12
 ---

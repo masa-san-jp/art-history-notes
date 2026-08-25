@@ -21,8 +21,10 @@ space:
 relations:
   - {type: belongs_to, target: movement/basohli-painting}
 sources:
-  - https://www.metmuseum.org/art/collection/search/37941
-  - https://www.metmuseum.org/art/collection/search/37942
+  - url: "https://www.metmuseum.org/art/collection/search/37941"
+    kind: institutional
+  - url: "https://www.metmuseum.org/art/collection/search/37942"
+    kind: institutional
 images:
   - url: https://images.metmuseum.org/CRDImages/as/original/DP153147.jpg
     source_page: https://www.metmuseum.org/art/collection/search/37941

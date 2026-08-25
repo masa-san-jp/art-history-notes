@@ -21,8 +21,10 @@ space:
 relations:
   - {type: belongs_to, target: movement/mandalay-style}
 sources:
-  - https://www.metmuseum.org/art/collection/search/856163
-  - https://www.metmuseum.org/art/collection/search/744940
+  - url: "https://www.metmuseum.org/art/collection/search/856163"
+    kind: institutional
+  - url: "https://www.metmuseum.org/art/collection/search/744940"
+    kind: institutional
 images:
   - url: https://images.metmuseum.org/CRDImages/as/original/DP-28256-004_crd.jpg
     source_page: https://www.metmuseum.org/art/collection/search/856163

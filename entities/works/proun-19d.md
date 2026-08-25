@@ -19,7 +19,8 @@ relations:
   - {type: created_by, target: person/el-lissitzky}
   - {type: belongs_to, target: movement/constructivism}
 sources:
-  - https://www.moma.org/collection/works/79040
+  - url: "https://www.moma.org/collection/works/79040"
+    kind: institutional
 status: draft
 updated: 2026-08-12
 ---

@@ -19,9 +19,12 @@ relations:
   - {type: created_by, target: person/sante-calcagni}
   - {type: exhibited_at, target: event/first-brera-triennale-1891}
 sources:
-  - https://edizioni.cierrenet.it/volumi/sante-calcagni-da-lonigo-1860-1949/
-  - https://wannenesgroup.com/lots/306-7770-sante-calcagni-it/
-  - https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf
+  - url: "https://edizioni.cierrenet.it/volumi/sante-calcagni-da-lonigo-1860-1949/"
+    kind: reference
+  - url: "https://wannenesgroup.com/lots/306-7770-sante-calcagni-it/"
+    kind: reference
+  - url: "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+    kind: scholarly
 status: draft
 updated: 2026-08-12
 ---

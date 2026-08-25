@@ -19,8 +19,10 @@ relations:
   - {type: created_by, target: person/alexander-rodchenko}
   - {type: belongs_to, target: movement/constructivism}
 sources:
-  - https://www.moma.org/collection/works/81043
-  - https://www.moma.org/interactives/exhibitions/1998/rodchenko/texts/spatial_construct.html
+  - url: "https://www.moma.org/collection/works/81043"
+    kind: institutional
+  - url: "https://www.moma.org/interactives/exhibitions/1998/rodchenko/texts/spatial_construct.html"
+    kind: institutional
 status: draft
 updated: 2026-08-12
 ---

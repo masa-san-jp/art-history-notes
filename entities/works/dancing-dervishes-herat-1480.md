@@ -21,8 +21,8 @@ space:
 relations:
   - {type: belongs_to, target: movement/herat-school}
 sources:
-  - https://www.metmuseum.org/art/collection/search/446892
-  - https://www.metmuseum.org/art/collection/search/446892
+  - url: "https://www.metmuseum.org/art/collection/search/446892"
+    kind: institutional
 images:
   - url: https://images.metmuseum.org/CRDImages/is/original/DP231332.jpg
     source_page: https://www.metmuseum.org/art/collection/search/446892

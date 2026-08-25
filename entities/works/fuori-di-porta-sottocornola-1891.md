@@ -19,11 +19,16 @@ relations:
   - {type: created_by, target: person/giovanni-sottocornola}
   - {type: exhibited_at, target: event/first-brera-triennale-1891}
 sources:
-  - https://galleriemaspes.com/immagini_sito/Cataloghi%20pdf/Brera_Guide.pdf
-  - https://www.treccani.it/enciclopedia/giovanni-sottocornola_%28Enciclopedia-Italiana%29/
-  - https://www.treccani.it/enciclopedia/giovanni-sottocornola_%28Dizionario-Biografico%29/
-  - https://www.wikidata.org/wiki/Q3768168
-  - https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf
+  - url: "https://galleriemaspes.com/immagini_sito/Cataloghi%20pdf/Brera_Guide.pdf"
+    kind: scholarly
+  - url: "https://www.treccani.it/enciclopedia/giovanni-sottocornola_%28Enciclopedia-Italiana%29/"
+    kind: reference
+  - url: "https://www.treccani.it/enciclopedia/giovanni-sottocornola_%28Dizionario-Biografico%29/"
+    kind: reference
+  - url: "https://www.wikidata.org/wiki/Q3768168"
+    kind: authority
+  - url: "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+    kind: scholarly
 status: draft
 updated: 2026-08-12
 ---

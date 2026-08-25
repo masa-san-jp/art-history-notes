@@ -20,11 +20,16 @@ relations:
   - {type: belongs_to, target: movement/italian-divisionism}
   - {type: exhibited_at, target: event/first-brera-triennale-1891}
 sources:
-  - https://www.museodellacittalivorno.it/evento/vittore-grubicy-un-intellettuale-artista-e-la-sua-eredita-aperture-internazionali-tra-divisionismo-e-simbolismo/112-morbelli-parlatorio-del-pio-albergo-trivulzio/
-  - https://archivioangelomorbelli.it/
-  - https://www.fondazionecralessandria.it/wp-content/uploads/2025/06/BilaMISS_24_xsito.pdf
-  - https://galleriemaspes.com/immagini_sito/Cataloghi%20pdf/Brera_Guide.pdf
-  - https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf
+  - url: "https://www.museodellacittalivorno.it/evento/vittore-grubicy-un-intellettuale-artista-e-la-sua-eredita-aperture-internazionali-tra-divisionismo-e-simbolismo/112-morbelli-parlatorio-del-pio-albergo-trivulzio/"
+    kind: reference
+  - url: "https://archivioangelomorbelli.it/"
+    kind: reference
+  - url: "https://www.fondazionecralessandria.it/wp-content/uploads/2025/06/BilaMISS_24_xsito.pdf"
+    kind: scholarly
+  - url: "https://galleriemaspes.com/immagini_sito/Cataloghi%20pdf/Brera_Guide.pdf"
+    kind: scholarly
+  - url: "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+    kind: scholarly
 status: draft
 updated: 2026-08-12
 ---

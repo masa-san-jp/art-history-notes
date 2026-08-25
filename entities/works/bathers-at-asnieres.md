@@ -21,7 +21,8 @@ relations:
   - {type: created_by, target: person/georges-seurat}
   - {type: exhibited_at, target: event/first-salon-des-independants-1884}
 sources:
-  - https://www.nationalgallery.org.uk/paintings/georges-seurat-bathers-at-asnieres
+  - url: "https://www.nationalgallery.org.uk/paintings/georges-seurat-bathers-at-asnieres"
+    kind: institutional
 status: draft
 updated: 2026-08-12
 ---

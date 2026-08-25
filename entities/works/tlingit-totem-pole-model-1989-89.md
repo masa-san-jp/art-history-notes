@@ -21,8 +21,10 @@ space:
 relations:
   - {type: belongs_to, target: movement/northwest-coast-carving}
 sources:
-  - https://clevelandart.org/art/1989.89
-  - https://content.lib.washington.edu/aipnw/wright.html
+  - url: "https://clevelandart.org/art/1989.89"
+    kind: institutional
+  - url: "https://content.lib.washington.edu/aipnw/wright.html"
+    kind: institutional
 images:
   - url: https://openaccess-cdn.clevelandart.org/1989.89/1989.89_web.jpg
     source_page: https://clevelandart.org/art/1989.89

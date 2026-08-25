@@ -21,8 +21,10 @@ space:
 relations:
   - {type: belongs_to, target: movement/quito-school}
 sources:
-  - https://www.metmuseum.org/art/collection/search/204305
-  - https://www.metmuseum.org/art/collection/search/204326
+  - url: "https://www.metmuseum.org/art/collection/search/204305"
+    kind: institutional
+  - url: "https://www.metmuseum.org/art/collection/search/204326"
+    kind: institutional
 images:
   - url: https://images.metmuseum.org/CRDImages/ad/original/231421.jpg
     source_page: https://www.metmuseum.org/art/collection/search/204305

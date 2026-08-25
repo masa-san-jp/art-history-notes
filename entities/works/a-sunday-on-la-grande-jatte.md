@@ -28,10 +28,14 @@ images:
     license: cc0
     note: "Art Institute of Chicagoの作品ページにis_public_domain: trueと記載された画像。"
 sources:
-  - https://api.artic.edu/api/v1/artworks/27992
-  - https://www.artic.edu/artworks/27992
-  - https://fr.wikiquote.org/wiki/Georges_Seurat
-  - https://www.sothebys.com/en/auctions/ecatalogue/2009/impressionist-modern-art-pf9006/lot.8.html
+  - url: "https://api.artic.edu/api/v1/artworks/27992"
+    kind: institutional
+  - url: "https://www.artic.edu/artworks/27992"
+    kind: institutional
+  - url: "https://fr.wikiquote.org/wiki/Georges_Seurat"
+    kind: reference
+  - url: "https://www.sothebys.com/en/auctions/ecatalogue/2009/impressionist-modern-art-pf9006/lot.8.html"
+    kind: reference
 status: verified
 updated: 2026-08-08
 ---

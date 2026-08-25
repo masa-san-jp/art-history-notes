@@ -20,10 +20,14 @@ relations:
   - {type: belongs_to, target: movement/italian-divisionism}
   - {type: exhibited_at, target: event/first-brera-triennale-1891}
 sources:
-  - https://www.gam-milano.com/it/-/nella-luce-di-segantini-all-ovile
-  - https://segantini-museum.ch/en/allovile-en/
-  - https://artsandculture.google.com/asset/the-two-mothers-giovanni-segantini/PQGigEKcsPe4sw?hl=it
-  - https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf
+  - url: "https://www.gam-milano.com/it/-/nella-luce-di-segantini-all-ovile"
+    kind: reference
+  - url: "https://segantini-museum.ch/en/allovile-en/"
+    kind: institutional
+  - url: "https://artsandculture.google.com/asset/the-two-mothers-giovanni-segantini/PQGigEKcsPe4sw?hl=it"
+    kind: reference
+  - url: "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+    kind: scholarly
 status: draft
 updated: 2026-08-12
 ---

@@ -19,11 +19,16 @@ relations:
   - {type: created_by, target: person/arnaldo-ferraguti}
   - {type: exhibited_at, target: event/first-brera-triennale-1891}
 sources:
-  - https://catalogo.beniculturali.it/detail/HistoricOrArtisticProperty/0100397125
-  - https://www.museodelpaesaggio.it/artista/arnaldo-ferraguti/
-  - https://galleriemaspes.com/immagini_sito/Cataloghi%20pdf/Brera_Guide.pdf
-  - https://www.wikidata.org/wiki/Q3623496
-  - https://upload.wikimedia.org/wikipedia/commons/2/24/Prima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf
+  - url: "https://catalogo.beniculturali.it/detail/HistoricOrArtisticProperty/0100397125"
+    kind: reference
+  - url: "https://www.museodelpaesaggio.it/artista/arnaldo-ferraguti/"
+    kind: reference
+  - url: "https://galleriemaspes.com/immagini_sito/Cataloghi%20pdf/Brera_Guide.pdf"
+    kind: scholarly
+  - url: "https://www.wikidata.org/wiki/Q3623496"
+    kind: authority
+  - url: "https://upload.wikimedia.org/wikipedia/commons/2/24/Prima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+    kind: scholarly
 status: draft
 updated: 2026-08-12
 ---

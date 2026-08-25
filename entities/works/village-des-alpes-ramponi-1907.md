@@ -19,9 +19,12 @@ relations:
   - {type: created_by, target: person/ferdinando-ramponi}
   - {type: exhibited_at, target: event/salon-divisionnistes-italiens-paris-1907}
 sources:
-  - https://exhibitions.univie.ac.at/person/gnd/122617517
-  - https://exhibitions.univie.ac.at/exhibition/125
-  - https://www.bdl.servizirl.it/bdl/public/rest/srv/item/2295/pdf
+  - url: "https://exhibitions.univie.ac.at/person/gnd/122617517"
+    kind: reference
+  - url: "https://exhibitions.univie.ac.at/exhibition/125"
+    kind: reference
+  - url: "https://www.bdl.servizirl.it/bdl/public/rest/srv/item/2295/pdf"
+    kind: reference
 status: draft
 updated: 2026-08-12
 ---

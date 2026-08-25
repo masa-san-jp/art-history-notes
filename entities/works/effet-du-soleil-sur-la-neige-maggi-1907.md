@@ -19,10 +19,14 @@ relations:
   - {type: created_by, target: person/cesare-maggi}
   - {type: exhibited_at, target: event/salon-divisionnistes-italiens-paris-1907}
 sources:
-  - https://www.christies.com/en/lot/lot-6486278
-  - https://www.dorotheum.com/it/l/1859276/
-  - https://exhibitions.univie.ac.at/exhibition/125
-  - https://exhibitions.univie.ac.at/person/ulan/500053429
+  - url: "https://www.christies.com/en/lot/lot-6486278"
+    kind: reference
+  - url: "https://www.dorotheum.com/it/l/1859276/"
+    kind: reference
+  - url: "https://exhibitions.univie.ac.at/exhibition/125"
+    kind: reference
+  - url: "https://exhibitions.univie.ac.at/person/ulan/500053429"
+    kind: reference
 status: draft
 updated: 2026-08-12
 ---

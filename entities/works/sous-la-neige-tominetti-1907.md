@@ -19,9 +19,12 @@ relations:
   - {type: created_by, target: person/achille-tominetti}
   - {type: exhibited_at, target: event/salon-divisionnistes-italiens-paris-1907}
 sources:
-  - https://exhibitions.univie.ac.at/person/gnd/141119950
-  - https://exhibitions.univie.ac.at/exhibition/125
-  - https://www.enricogallerie.com/index.php?q=it%2Fartist%2Fpittore_tominetti_achille_544
+  - url: "https://exhibitions.univie.ac.at/person/gnd/141119950"
+    kind: reference
+  - url: "https://exhibitions.univie.ac.at/exhibition/125"
+    kind: reference
+  - url: "https://www.enricogallerie.com/index.php?q=it%2Fartist%2Fpittore_tominetti_achille_544"
+    kind: reference
 status: draft
 updated: 2026-08-12
 ---

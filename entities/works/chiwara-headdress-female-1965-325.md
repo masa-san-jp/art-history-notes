@@ -21,8 +21,10 @@ space:
 relations:
   - {type: belongs_to, target: movement/bamana-sculpture}
 sources:
-  - https://clevelandart.org/art/1965.325
-  - https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300015848
+  - url: "https://clevelandart.org/art/1965.325"
+    kind: institutional
+  - url: "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300015848"
+    kind: authority
 images:
   - url: https://openaccess-cdn.clevelandart.org/1965.325/1965.325_web.jpg
     source_page: https://clevelandart.org/art/1965.325

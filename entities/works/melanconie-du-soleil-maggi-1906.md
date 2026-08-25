@@ -19,11 +19,16 @@ relations:
   - {type: created_by, target: person/cesare-maggi}
   - {type: exhibited_at, target: event/salon-divisionnistes-italiens-paris-1907}
 sources:
-  - https://artsupp.com/it/artisti/cesare-maggi/la-melanconia-del-sole
-  - https://ildivisionismo.it/cesare-maggi/
-  - https://exhibitions.univie.ac.at/person/ulan/500053429
-  - https://exhibitions.univie.ac.at/exhibition/125
-  - https://www.berardiarte.it/artisti/cesare-maggi/alpine-landscape-1915/
+  - url: "https://artsupp.com/it/artisti/cesare-maggi/la-melanconia-del-sole"
+    kind: reference
+  - url: "https://ildivisionismo.it/cesare-maggi/"
+    kind: reference
+  - url: "https://exhibitions.univie.ac.at/person/ulan/500053429"
+    kind: reference
+  - url: "https://exhibitions.univie.ac.at/exhibition/125"
+    kind: reference
+  - url: "https://www.berardiarte.it/artisti/cesare-maggi/alpine-landscape-1915/"
+    kind: reference
 status: draft
 updated: 2026-08-12
 ---

@@ -19,9 +19,12 @@ relations:
   - {type: created_by, target: person/carlo-prada}
   - {type: exhibited_at, target: event/salon-divisionnistes-italiens-paris-1907}
 sources:
-  - https://exhibitions.univie.ac.at/person/ulan/500339761
-  - https://exhibitions.univie.ac.at/exhibition/125
-  - https://exhibitions.univie.ac.at/exhibition/447
+  - url: "https://exhibitions.univie.ac.at/person/ulan/500339761"
+    kind: reference
+  - url: "https://exhibitions.univie.ac.at/exhibition/125"
+    kind: reference
+  - url: "https://exhibitions.univie.ac.at/exhibition/447"
+    kind: reference
 status: draft
 updated: 2026-08-12
 ---

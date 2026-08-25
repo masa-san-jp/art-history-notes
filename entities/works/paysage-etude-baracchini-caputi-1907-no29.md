@@ -19,8 +19,10 @@ relations:
   - {type: created_by, target: person/adriano-baracchini-caputi}
   - {type: exhibited_at, target: event/salon-divisionnistes-italiens-paris-1907}
 sources:
-  - https://exhibitions.univie.ac.at/person/gnd/1186399171
-  - https://exhibitions.univie.ac.at/exhibition/125
+  - url: "https://exhibitions.univie.ac.at/person/gnd/1186399171"
+    kind: reference
+  - url: "https://exhibitions.univie.ac.at/exhibition/125"
+    kind: reference
 status: draft
 updated: 2026-08-12
 ---

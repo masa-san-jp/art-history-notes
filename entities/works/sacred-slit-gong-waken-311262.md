@@ -21,8 +21,10 @@ space:
 relations:
   - {type: belongs_to, target: movement/iatmul-carving}
 sources:
-  - https://www.metmuseum.org/art/collection/search/311262
-  - https://www.metmuseum.org/art/collection/search/311263
+  - url: "https://www.metmuseum.org/art/collection/search/311262"
+    kind: institutional
+  - url: "https://www.metmuseum.org/art/collection/search/311263"
+    kind: institutional
 images:
   - url: https://images.metmuseum.org/CRDImages/ao/original/DP-20791-001.jpg
     source_page: https://www.metmuseum.org/art/collection/search/311262

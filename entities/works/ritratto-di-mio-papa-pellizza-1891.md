@@ -19,9 +19,12 @@ relations:
   - {type: created_by, target: person/giuseppe-pellizza-da-volpedo}
   - {type: exhibited_at, target: event/first-brera-triennale-1891}
 sources:
-  - https://www.pellizza.it/ritratto-di-mio-papa/
-  - https://www.pellizza.it/lo-studio-del-pittore/
-  - https://www.pellizza.it/biografia/
+  - url: "https://www.pellizza.it/ritratto-di-mio-papa/"
+    kind: reference
+  - url: "https://www.pellizza.it/lo-studio-del-pittore/"
+    kind: reference
+  - url: "https://www.pellizza.it/biografia/"
+    kind: reference
 status: draft
 updated: 2026-08-12
 ---

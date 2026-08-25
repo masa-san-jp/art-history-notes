@@ -19,11 +19,16 @@ relations:
   - {type: created_by, target: person/giuseppe-omio}
   - {type: exhibited_at, target: event/salon-divisionnistes-italiens-paris-1907}
 sources:
-  - https://exhibitions.univie.ac.at/exhibition/125
-  - https://exhibitions.univie.ac.at/person/971
-  - https://upload.wikimedia.org/wikipedia/commons/a/a2/Archivio_fotografico_nazionale_%28opere_d%27arte_-_paesaggio%29%2C_Roma%2C_gallerie_e_musei_I_-_catalogo_%28IA_archiviofotograf00isti%29.pdf
-  - https://tecadigitale.cai.it/periodici/PDF/CAI-SEM_Le-Prealpi/CAI-SEM_Le-Prealpi_1914_Anno-013_Num-010.pdf
-  - https://www.flickr.com/photos/tags/ammalato/
+  - url: "https://exhibitions.univie.ac.at/exhibition/125"
+    kind: reference
+  - url: "https://exhibitions.univie.ac.at/person/971"
+    kind: reference
+  - url: "https://upload.wikimedia.org/wikipedia/commons/a/a2/Archivio_fotografico_nazionale_%28opere_d%27arte_-_paesaggio%29%2C_Roma%2C_gallerie_e_musei_I_-_catalogo_%28IA_archiviofotograf00isti%29.pdf"
+    kind: scholarly
+  - url: "https://tecadigitale.cai.it/periodici/PDF/CAI-SEM_Le-Prealpi/CAI-SEM_Le-Prealpi_1914_Anno-013_Num-010.pdf"
+    kind: scholarly
+  - url: "https://www.flickr.com/photos/tags/ammalato/"
+    kind: reference
 status: draft
 updated: 2026-08-12
 ---

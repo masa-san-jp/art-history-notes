@@ -19,9 +19,12 @@ relations:
   - {type: created_by, target: person/ernesto-bazzaro}
   - {type: exhibited_at, target: event/first-brera-triennale-1891}
 sources:
-  - https://www.britishmuseum.org/collection/term/biog186840
-  - https://www.nga.gov/artists/52184-ernesto-bazzaro
-  - https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf
+  - url: "https://www.britishmuseum.org/collection/term/biog186840"
+    kind: institutional
+  - url: "https://www.nga.gov/artists/52184-ernesto-bazzaro"
+    kind: reference
+  - url: "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+    kind: scholarly
 status: draft
 updated: 2026-08-12
 ---

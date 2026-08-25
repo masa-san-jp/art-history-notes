@@ -21,8 +21,10 @@ space:
 relations:
   - {type: belongs_to, target: movement/nanga}
 sources:
-  - https://www.artic.edu/artworks/185222
-  - https://api.artic.edu/api/v1/artworks/185222
+  - url: "https://www.artic.edu/artworks/185222"
+    kind: institutional
+  - url: "https://api.artic.edu/api/v1/artworks/185222"
+    kind: institutional
 images:
   - url: https://www.artic.edu/iiif/2/637a65fa-a6f2-8a9f-a6f4-98fcffe2ec92/full/843,/0/default.jpg
     source_page: https://www.artic.edu/artworks/185222

@@ -22,8 +22,10 @@ relations:
   - {type: created_by, target: person/el-lissitzky}
   - {type: belongs_to, target: movement/constructivism}
 sources:
-  - https://www.nga.gov/artworks/93943-wendingen
-  - https://commons.wikimedia.org/wiki/File:El_Lissitzky,_Wendingen,_1921_(published_1923),_NGA_93943.jpg
+  - url: "https://www.nga.gov/artworks/93943-wendingen"
+    kind: reference
+  - url: "https://commons.wikimedia.org/wiki/File:El_Lissitzky,_Wendingen,_1921_(published_1923),_NGA_93943.jpg"
+    kind: reference
 images:
   - url: "https://commons.wikimedia.org/wiki/Special:FilePath/El_Lissitzky,_Wendingen,_1921_(published_1923),_NGA_93943.jpg"
     source_page: https://www.nga.gov/artworks/93943-wendingen

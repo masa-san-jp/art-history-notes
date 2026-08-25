@@ -19,9 +19,12 @@ relations:
   - {type: created_by, target: person/piero-focardi}
   - {type: exhibited_at, target: event/salon-divisionnistes-italiens-paris-1907}
 sources:
-  - https://ildivisionismo.it/piero-focardi/
-  - https://www.ildivisionismo.it/wp-content/uploads/2019/04/Guida-alla-visita-ilDivisionismo.pdf
-  - https://exhibitions.univie.ac.at/exhibition/125
+  - url: "https://ildivisionismo.it/piero-focardi/"
+    kind: reference
+  - url: "https://www.ildivisionismo.it/wp-content/uploads/2019/04/Guida-alla-visita-ilDivisionismo.pdf"
+    kind: scholarly
+  - url: "https://exhibitions.univie.ac.at/exhibition/125"
+    kind: reference
 status: draft
 updated: 2026-08-12
 ---

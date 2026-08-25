@@ -21,8 +21,10 @@ space:
 relations:
   - {type: belongs_to, target: movement/goryeo-buddhist-painting}
 sources:
-  - https://www.metmuseum.org/art/collection/search/36029
-  - https://www.metmuseum.org/art/collection/search/39882
+  - url: "https://www.metmuseum.org/art/collection/search/36029"
+    kind: institutional
+  - url: "https://www.metmuseum.org/art/collection/search/39882"
+    kind: institutional
 images:
   - url: https://images.metmuseum.org/CRDImages/as/original/DP-15580-002.jpg
     source_page: https://www.metmuseum.org/art/collection/search/36029

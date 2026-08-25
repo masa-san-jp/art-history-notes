@@ -19,9 +19,12 @@ relations:
   - {type: created_by, target: person/piero-focardi}
   - {type: exhibited_at, target: event/salon-divisionnistes-italiens-paris-1907}
 sources:
-  - https://exhibitions.univie.ac.at/exhibition/125
-  - https://www.enricogallerie.com/index.php?q=print_artist%2F300
-  - https://www.valutazionearte.it/artisti/piero-focardi/
+  - url: "https://exhibitions.univie.ac.at/exhibition/125"
+    kind: reference
+  - url: "https://www.enricogallerie.com/index.php?q=print_artist%2F300"
+    kind: reference
+  - url: "https://www.valutazionearte.it/artisti/piero-focardi/"
+    kind: reference
 status: draft
 updated: 2026-08-12
 ---

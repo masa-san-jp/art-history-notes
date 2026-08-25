@@ -21,8 +21,8 @@ space:
 relations:
   - {type: belongs_to, target: movement/safavid-painting}
 sources:
-  - https://www.metmuseum.org/art/collection/search/453250
-  - https://www.metmuseum.org/art/collection/search/453250
+  - url: "https://www.metmuseum.org/art/collection/search/453250"
+    kind: institutional
 images:
   - url: https://images.metmuseum.org/CRDImages/is/original/DP231354.jpg
     source_page: https://www.metmuseum.org/art/collection/search/453250

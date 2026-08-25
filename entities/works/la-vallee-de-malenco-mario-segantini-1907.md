@@ -19,9 +19,12 @@ relations:
   - {type: created_by, target: person/mario-segantini}
   - {type: exhibited_at, target: event/salon-divisionnistes-italiens-paris-1907}
 sources:
-  - https://exhibitions.univie.ac.at/person/gnd/108964910X
-  - https://exhibitions.univie.ac.at/exhibition/125
-  - https://www.berardiarte.it/artisti/mario-segantini/ritratto-di-william-ritter-1903/
+  - url: "https://exhibitions.univie.ac.at/person/gnd/108964910X"
+    kind: reference
+  - url: "https://exhibitions.univie.ac.at/exhibition/125"
+    kind: reference
+  - url: "https://www.berardiarte.it/artisti/mario-segantini/ritratto-di-william-ritter-1903/"
+    kind: reference
 status: draft
 updated: 2026-08-12
 ---

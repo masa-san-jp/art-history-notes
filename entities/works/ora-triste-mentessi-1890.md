@@ -20,12 +20,18 @@ relations:
   - {type: belongs_to, target: movement/italian-divisionism}
   - {type: exhibited_at, target: event/first-brera-triennale-1891}
 sources:
-  - https://catalogo.beniculturali.it/detail/Lombardia/HistoricOrArtisticProperty/SWFR1-00199_R03
-  - https://www.lombardiabeniculturali.it/opere-arte/schede/SWFR1-00199/
-  - https://galleriemaspes.com/immagini_sito/Cataloghi%20pdf/Brera_Guide.pdf
-  - https://www.treccani.it/enciclopedia/giuseppe-mentessi_%28Dizionario-Biografico%29/
-  - https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf
-  - https://www.wikidata.org/wiki/Q5565457
+  - url: "https://catalogo.beniculturali.it/detail/Lombardia/HistoricOrArtisticProperty/SWFR1-00199_R03"
+    kind: reference
+  - url: "https://www.lombardiabeniculturali.it/opere-arte/schede/SWFR1-00199/"
+    kind: reference
+  - url: "https://galleriemaspes.com/immagini_sito/Cataloghi%20pdf/Brera_Guide.pdf"
+    kind: scholarly
+  - url: "https://www.treccani.it/enciclopedia/giuseppe-mentessi_%28Dizionario-Biografico%29/"
+    kind: reference
+  - url: "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+    kind: scholarly
+  - url: "https://www.wikidata.org/wiki/Q5565457"
+    kind: authority
 status: draft
 updated: 2026-08-12
 ---

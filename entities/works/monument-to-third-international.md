@@ -19,10 +19,14 @@ relations:
   - {type: created_by, target: person/vladimir-tatlin}
   - {type: belongs_to, target: movement/constructivism}
 sources:
-  - https://www.moma.org/moma_learning/docs/MAI4_full.pdf
-  - https://www.moma.org/docs/press_archives/4149/releases/MOMA_1968_July-December_0081.pdf
-  - https://www.moma.org/interactives/exhibitions/2012/inventingabstraction/inventingabstractionchecklist.pdf
-  - https://www.moma.org/collection/works/13818
+  - url: "https://www.moma.org/moma_learning/docs/MAI4_full.pdf"
+    kind: scholarly
+  - url: "https://www.moma.org/docs/press_archives/4149/releases/MOMA_1968_July-December_0081.pdf"
+    kind: scholarly
+  - url: "https://www.moma.org/interactives/exhibitions/2012/inventingabstraction/inventingabstractionchecklist.pdf"
+    kind: scholarly
+  - url: "https://www.moma.org/collection/works/13818"
+    kind: institutional
 status: draft
 updated: 2026-08-12
 ---

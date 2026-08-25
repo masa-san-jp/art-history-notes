@@ -26,6 +26,7 @@ def steps() -> list[list[str]]:
         [python, "tools/audit_source_migration.py", "--check-type", "movement", "--quiet"],
         [python, "tools/audit_source_migration.py", "--check-type", "context", "--quiet"],
         [python, "tools/audit_source_migration.py", "--check-type", "person", "--quiet"],
+        [python, "tools/audit_source_migration.py", "--check-type", "work", "--quiet"],
         [python, "-m", "unittest", "discover", "-s", "tests", "-p", "test*.py"],
         [python, "tools/build_graph.py"],
         [python, "tools/audit.py"],

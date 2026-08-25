@@ -19,10 +19,14 @@ relations:
   - {type: created_by, target: person/piero-focardi}
   - {type: exhibited_at, target: event/salon-divisionnistes-italiens-paris-1907}
 sources:
-  - https://ildivisionismo.it/nuove-acquisizioni/
-  - https://ildivisionismo.it/piero-focardi/
-  - https://exhibitions.univie.ac.at/person/3322
-  - https://exhibitions.univie.ac.at/exhibition/125
+  - url: "https://ildivisionismo.it/nuove-acquisizioni/"
+    kind: reference
+  - url: "https://ildivisionismo.it/piero-focardi/"
+    kind: reference
+  - url: "https://exhibitions.univie.ac.at/person/3322"
+    kind: reference
+  - url: "https://exhibitions.univie.ac.at/exhibition/125"
+    kind: reference
 status: draft
 updated: 2026-08-12
 ---

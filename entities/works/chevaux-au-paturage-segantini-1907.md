@@ -19,8 +19,10 @@ relations:
   - {type: created_by, target: person/giovanni-segantini}
   - {type: exhibited_at, target: event/salon-divisionnistes-italiens-paris-1907}
 sources:
-  - https://exhibitions.univie.ac.at/person/ulan/500005029
-  - https://exhibitions.univie.ac.at/exhibition/125
+  - url: "https://exhibitions.univie.ac.at/person/ulan/500005029"
+    kind: reference
+  - url: "https://exhibitions.univie.ac.at/exhibition/125"
+    kind: reference
 status: draft
 updated: 2026-08-12
 ---

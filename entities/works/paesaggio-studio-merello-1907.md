@@ -19,9 +19,12 @@ relations:
   - {type: created_by, target: person/rubaldo-merello}
   - {type: exhibited_at, target: event/salon-divisionnistes-italiens-paris-1907}
 sources:
-  - https://exhibitions.univie.ac.at/exhibition/125
-  - https://exhibitions.univie.ac.at/person/gnd/119217643
-  - https://www.pittoriliguri.info/schede-di-approfondimento/divisionismo-in-liguria/
+  - url: "https://exhibitions.univie.ac.at/exhibition/125"
+    kind: reference
+  - url: "https://exhibitions.univie.ac.at/person/gnd/119217643"
+    kind: reference
+  - url: "https://www.pittoriliguri.info/schede-di-approfondimento/divisionismo-in-liguria/"
+    kind: reference
 status: draft
 updated: 2026-08-12
 ---

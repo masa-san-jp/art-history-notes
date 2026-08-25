@@ -19,8 +19,10 @@ relations:
   - {type: created_by, target: person/francesco-filippini}
   - {type: exhibited_at, target: event/first-brera-triennale-1891}
 sources:
-  - https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf
-  - https://www.treccani.it/enciclopedia/francesco-filippini_%28Dizionario-Biografico%29/
+  - url: "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+    kind: scholarly
+  - url: "https://www.treccani.it/enciclopedia/francesco-filippini_%28Dizionario-Biografico%29/"
+    kind: reference
 status: draft
 updated: 2026-08-12
 ---

@@ -20,10 +20,14 @@ relations:
   - {type: belongs_to, target: movement/italian-divisionism}
   - {type: exhibited_at, target: event/first-brera-triennale-1891}
 sources:
-  - https://www.museunacional.cat/es/colleccio/alba/angelo-morbelli/011137-000
-  - https://www.wikidata.org/wiki/Q23936426
-  - https://archivioangelomorbelli.it/
-  - https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf
+  - url: "https://www.museunacional.cat/es/colleccio/alba/angelo-morbelli/011137-000"
+    kind: reference
+  - url: "https://www.wikidata.org/wiki/Q23936426"
+    kind: authority
+  - url: "https://archivioangelomorbelli.it/"
+    kind: reference
+  - url: "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+    kind: scholarly
 status: draft
 updated: 2026-08-12
 ---

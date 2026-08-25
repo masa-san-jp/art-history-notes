@@ -19,11 +19,16 @@ relations:
   - {type: created_by, target: person/francesco-filippini}
   - {type: exhibited_at, target: event/first-brera-triennale-1891}
 sources:
-  - https://galleriemaspes.com/immagini_sito/Cataloghi%20pdf/Brera_Guide.pdf
-  - https://pinacotecabrera.org/wp-content/uploads/2024/11/02-CAPITOLATO.pdf
-  - https://catalogo.beniculturali.it/Agent/021d71835b4a85e745aae87ee79e1b81
-  - https://www.treccani.it/enciclopedia/francesco-filippini_%28Dizionario-Biografico%29/
-  - https://upload.wikimedia.org/wikipedia/commons/2/24/Prima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf
+  - url: "https://galleriemaspes.com/immagini_sito/Cataloghi%20pdf/Brera_Guide.pdf"
+    kind: scholarly
+  - url: "https://pinacotecabrera.org/wp-content/uploads/2024/11/02-CAPITOLATO.pdf"
+    kind: scholarly
+  - url: "https://catalogo.beniculturali.it/Agent/021d71835b4a85e745aae87ee79e1b81"
+    kind: reference
+  - url: "https://www.treccani.it/enciclopedia/francesco-filippini_%28Dizionario-Biografico%29/"
+    kind: reference
+  - url: "https://upload.wikimedia.org/wikipedia/commons/2/24/Prima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+    kind: scholarly
 status: draft
 updated: 2026-08-12
 ---

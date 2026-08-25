@@ -19,10 +19,14 @@ relations:
   - {type: created_by, target: person/rubaldo-merello}
   - {type: exhibited_at, target: event/salon-divisionnistes-italiens-paris-1907}
 sources:
-  - https://catalogo.beniculturali.it/detail/HistoricOrArtisticProperty/1200491287
-  - https://www.treccani.it/enciclopedia/rubaldo-merello_%28Dizionario-Biografico%29/
-  - https://exhibitions.univie.ac.at/exhibition/125
-  - https://www1.palazzoducale.genova.it/rubaldo-merello-la-vita/
+  - url: "https://catalogo.beniculturali.it/detail/HistoricOrArtisticProperty/1200491287"
+    kind: reference
+  - url: "https://www.treccani.it/enciclopedia/rubaldo-merello_%28Dizionario-Biografico%29/"
+    kind: reference
+  - url: "https://exhibitions.univie.ac.at/exhibition/125"
+    kind: reference
+  - url: "https://www1.palazzoducale.genova.it/rubaldo-merello-la-vita/"
+    kind: reference
 status: draft
 updated: 2026-08-12
 ---

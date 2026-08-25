@@ -19,10 +19,14 @@ relations:
   - {type: created_by, target: person/cesare-laurenti}
   - {type: exhibited_at, target: event/first-brera-triennale-1891}
 sources:
-  - https://galleriemaspes.com/immagini_sito/Cataloghi%20pdf/Brera_Guide.pdf
-  - https://archivio-capesaro.visitmuve.it/en/mostre-en/archivio-mostre-en/cesare-laurenti-1854-1936-the-rialto-fish-market/2011/07/1346/cesare-laurenti-1/
-  - https://www.treccani.it/enciclopedia/cesare-laurenti_%28Dizionario-Biografico%29/
-  - https://upload.wikimedia.org/wikipedia/commons/2/24/Prima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf
+  - url: "https://galleriemaspes.com/immagini_sito/Cataloghi%20pdf/Brera_Guide.pdf"
+    kind: scholarly
+  - url: "https://archivio-capesaro.visitmuve.it/en/mostre-en/archivio-mostre-en/cesare-laurenti-1854-1936-the-rialto-fish-market/2011/07/1346/cesare-laurenti-1/"
+    kind: reference
+  - url: "https://www.treccani.it/enciclopedia/cesare-laurenti_%28Dizionario-Biografico%29/"
+    kind: reference
+  - url: "https://upload.wikimedia.org/wikipedia/commons/2/24/Prima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+    kind: scholarly
 status: draft
 updated: 2026-08-12
 ---

@@ -19,11 +19,16 @@ relations:
   - {type: created_by, target: person/attilio-pusterla}
   - {type: exhibited_at, target: event/first-brera-triennale-1891}
 sources:
-  - https://galleriemaspes.com/immagini_sito/Cataloghi%20pdf/Brera_Guide.pdf
-  - https://www.treccani.it/enciclopedia/attilio-pusterla_%28Dizionario-Biografico%29/
-  - https://www.getty.edu/vow/ULANFullDisplay?find=&nation=Finnish&role=&subjectid=500089405
-  - https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf
-  - https://www.wikidata.org/wiki/Q15996495
+  - url: "https://galleriemaspes.com/immagini_sito/Cataloghi%20pdf/Brera_Guide.pdf"
+    kind: scholarly
+  - url: "https://www.treccani.it/enciclopedia/attilio-pusterla_%28Dizionario-Biografico%29/"
+    kind: reference
+  - url: "https://www.getty.edu/vow/ULANFullDisplay?find=&nation=Finnish&role=&subjectid=500089405"
+    kind: authority
+  - url: "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+    kind: scholarly
+  - url: "https://www.wikidata.org/wiki/Q15996495"
+    kind: authority
 status: draft
 updated: 2026-08-12
 ---
