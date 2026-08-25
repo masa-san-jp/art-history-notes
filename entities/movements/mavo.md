@@ -21,7 +21,10 @@ naming:
   named_when: "1923-06"
   original_label: "マヴォ / MAVO"
   note: "村山知義を中心とするグループがこの名を掲げ、同名の機関誌を刊行した。語の最初の選択者・命名行為の詳細は未確認"
-claims: []
+claims:
+  - {field: time, source: "https://artplatform.go.jp/ja/artists/A5349", certainty: scholarly}
+  - {field: originated_in, source: "https://artplatform.go.jp/ja/artists/A5349", certainty: scholarly}
+  - {field: kind, source: "https://artplatform.go.jp/ja/artists/A5349", certainty: scholarly}
 space:
   - {role: originated_in, target: place/tokyo}
 relations:
@@ -38,8 +41,8 @@ sources:
     kind: institutional
   - url: "https://artscape.jp/dictionary/modern/1198381_1637.html"
     kind: reference
-status: draft
-updated: 2026-08-12
+status: verified
+updated: 2026-08-25
 ---
 
 # マヴォ / Mavo

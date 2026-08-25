@@ -22,9 +22,9 @@ naming:
   original_label: "日本画"
   note: "名づけたのは描いた側ではなく、外から来た一人の講師である。中村賢一（セレネ美術館）の論考は『「日本画」という言葉が使われる契機となったのは、明治15年(1882年)に「龍池会」でフェノロサが行った《美術真説》という講演である。この講演でフェノロサは、｢油絵｣と「日本画」を明確に対比させ、「油絵」よりも「日本画」の方が優れていることを説いた』と書き、さらに『つまり「日本画」は、自然と生じたのでもなく、日本人が危機意識から生み出したのでもなく、まずフェノロサという西洋人の眼によって打ち立てられたのである』と結論する。ただし後代の史家による括りではない——名づけられた時、対象となる絵画は同時代に描かれていた。同論考は語の一般化を『明治20年代末から』とする"
 claims:
-  - {field: kind, source: "http://museums.toyamaken.jp/documents/documents007/", certainty: scholarly}
   - {field: time, source: "http://museums.toyamaken.jp/documents/documents007/", certainty: scholarly}
-  - {field: originated_in, source: "https://nihonbijutsuin.or.jp/his_tenshsin.php", certainty: scholarly}
+  - {field: originated_in, source: "https://www.yamatane-museum.jp/en/nihonga/", certainty: scholarly}
+  - {field: kind, source: "http://museums.toyamaken.jp/documents/documents007/", certainty: scholarly}
 space:
   - {role: originated_in, target: place/tokyo}
   - {role: active_in, target: place/kyoto}
@@ -54,8 +54,8 @@ sources:
     kind: reference
   - url: "https://kyoto-museums.city.kyoto.lg.jp/feature-column/painting/"
     kind: institutional
-status: draft
-updated: 2026-08-10
+status: verified
+updated: 2026-08-25
 ---
 
 # 日本画 / Nihonga

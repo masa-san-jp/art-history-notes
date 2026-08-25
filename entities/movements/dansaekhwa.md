@@ -23,9 +23,9 @@ naming:
   original_label: "단색화"
   note: "英語版・韓国語版Wikipedia、MMCA Research(mmcaresearch.kr)の3出典が独立に、批評家・キュレーターの尹晋燮(Yoon Jin Sup)が2000年の光州ビエンナーレ特別展（英語題 A Facet of Modern Korean and Japanese Art、韓国語題は「한일 현대미술의 단면」）のカタログで英語転写「Dansaekhwa」を使い始めたと一致して述べる。named_byをnullにしたのは、docs/schema.mdのperson作成基準（kind/time/originated_inの根拠になる／2つ以上のmovementを繋ぐ／作品を分解して読んだ）のいずれにも尹晋燮個人が単独で当たらないため、本文で名指しするに留めた経緯"
 claims:
-  - {field: kind, source: "https://en.wikipedia.org/wiki/Dansaekhwa", certainty: scholarly}
-  - {field: originated_in, source: "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300417394", certainty: scholarly}
-  - {field: time, source: "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300417394", certainty: scholarly}
+  - {field: time, source: "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002692673", certainty: scholarly}
+  - {field: originated_in, source: "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002692673", certainty: scholarly}
+  - {field: kind, source: "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002692673", certainty: scholarly}
 space:
   - {role: originated_in, target: place/seoul}
 relations:
@@ -47,8 +47,8 @@ sources:
     kind: scholarly
   - url: "https://m.kukjegallery.com/db_img/mediaCoverage/media_coverage_Dansaekhwa__Collateral_Event_of_the_56th_International_Art_Exhibition_%E2%80%93_La_Biennale_di_Venezia_2015_02_25_e82.pdf"
     kind: scholarly
-status: draft
-updated: 2026-08-09
+status: verified
+updated: 2026-08-25
 ---
 
 # 単色画 / Dansaekhwa

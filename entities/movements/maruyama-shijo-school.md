@@ -22,7 +22,9 @@ naming:
   original_label: 円山四条派
   note: "円山派（祖: 円山応挙）と四条派（祖: 松村呉春）という別々に成立した2つの画派を、後代がまとめて呼ぶようになった名称。Wikidata Q11394761 の説明文（ja）は『円山派と四条派の総称』と明記し、has part（P527）で円山派（Q11394770）・四条派（Q3577704）を別項目として保持する。日本語版ウィキペディアも『後世になってまとめて「円山・四条派」と呼ばれるようになった』と記す（いずれも二次情報）。命名者・命名年は未確認"
 claims:
-  - {field: kind, source: "https://www.wikidata.org/wiki/Q11394761", certainty: scholarly}
+  - {field: time, source: "https://kyoto-museums.city.kyoto.lg.jp/en/feature-column/painting/", certainty: scholarly}
+  - {field: originated_in, source: "https://kyoto-museums.city.kyoto.lg.jp/en/feature-column/painting/", certainty: scholarly}
+  - {field: kind, source: "https://kyoto-museums.city.kyoto.lg.jp/en/feature-column/painting/", certainty: scholarly}
 space:
   - {role: originated_in, target: place/kyoto}
 relations:
@@ -59,8 +61,8 @@ images:
     rights_source: https://www.artic.edu/artworks/50560
     license: public-domain
     note: "松村呉春《鍾馗図（Shoki the Demon Queller）》17〜19世紀、シカゴ美術館蔵（is_public_domain: true）"
-status: draft
-updated: 2026-08-13
+status: verified
+updated: 2026-08-25
 ---
 
 # 円山四条派 / Maruyama-Shijō School

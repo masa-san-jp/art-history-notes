@@ -22,9 +22,9 @@ naming:
   original_label: "ศิลปะสมัยรัตนโกสินทร์"
   note: "「รัตนโกสินทร์（ラッタナコーシン）」はラーマ1世が1782年の建都に際して新都に与えた名（「インドラの宝石」の意、エメラルド仏に由来）で、王朝・時代そのものの名称であり、画家や工房が自らの制作を指して名乗った名称ではない。英語版Wikipedia「Rattanakosin Kingdom」は、ラーマ1世が1785年に新都を「Rattanakosin」と命名したとする記述と、この名が「ラーマ4世（在位1851-68年）の治世下でバンコクの正式名称の一部として初めて造られた」とする記述の両方を持ち、**未確認**（内部で一致していない）。原語表記は、この時代の美術全般を指す学術用語「ศิลปะสมัยรัตนโกสินทร์（ラッタナコーシン時代の美術）」（シラパコーン大学建築学部紀要NAJUA所収、เสนอ นิลเดช 2016）から採った。壁画・絵画に限定した単一の定着したタイ語呼称は今回の調査では確認できなかった"
 claims:
-  - {field: time, source: "https://www.wikidata.org/wiki/Q1155700", certainty: scholarly}
-  - {field: originated_in, source: "https://en.wikipedia.org/wiki/Rattanakosin_Kingdom_(1782%E2%80%931932)", certainty: scholarly}
-  - {field: kind, source: "https://en.wikipedia.org/wiki/Thai_art", certainty: scholarly}
+  - {field: time, source: "https://www.jstor.org/stable/26537575", certainty: scholarly}
+  - {field: originated_in, source: "https://www.jstor.org/stable/26537575", certainty: scholarly}
+  - {field: kind, source: "https://www.jstor.org/stable/26537575", certainty: scholarly}
 founding_control: internal   # 建都・チャン・シップ・ムーの再興・寺院壁画の発注は一貫してチャクリー朝の王自身が担った。ラーマ4世期の西洋技法導入も、外国人教師や植民地行政の介在なしに、王の庇護のもとクルア・イン・コーンら当事者の画僧が版画・写真を通じて自力で吸収した
 space:
   - {role: originated_in, target: place/bangkok}
@@ -70,8 +70,8 @@ images:
     rights_source: https://commons.wikimedia.org/wiki/File:Bangkok_wat_suthat_021.jpg
     license: public-domain
     note: "同じくワット・スタット本堂の壁画。出産の場面を描いた、王朝期の市井の生活を主題とする一場面。撮影者Mattanaが撮影と同時にpublic domainとして提供"
-status: draft
-updated: 2026-08-10
+status: verified
+updated: 2026-08-25
 ---
 
 # ラッタナコーシン様式壁画 / Rattanakosin mural painting

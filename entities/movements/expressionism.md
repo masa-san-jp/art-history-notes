@@ -22,9 +22,9 @@ naming:
   original_label: "Expressionism"
   note: "内面、感情、精神状態を外界の自然主義的再現より強く前面化する実践を、絵画・版画・彫刻・建築・映画などにまたがって後世にまとめた名称。ドイツ表現主義だけに限定しない"
 claims:
-  - {field: time, source: "https://www.wikidata.org/wiki/Q80113", certainty: scholarly}
+  - {field: time, source: "https://www.moma.org/documents/moma_catalogue_1702_300298262.pdf", certainty: scholarly}
   - {field: originated_in, source: "https://www.moma.org/collection/terms/expressionism", certainty: scholarly}
-  - {field: kind, source: "https://www.wikidata.org/wiki/Q80113", certainty: scholarly}
+  - {field: kind, source: "https://www.moma.org/documents/moma_catalogue_1702_300298262.pdf", certainty: scholarly}
 space:
   - {role: originated_in, target: place/dresden}
 relations:
@@ -38,8 +38,8 @@ sources:
     kind: institutional
   - url: "https://www.moma.org/documents/moma_catalogue_1702_300298262.pdf"
     kind: scholarly
-status: draft
-updated: 2026-08-12
+status: verified
+updated: 2026-08-25
 ---
 
 # 表現主義 / Expressionism

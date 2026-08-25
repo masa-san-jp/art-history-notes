@@ -22,9 +22,9 @@ naming:
   original_label: null
   note: "当事者（東ローマ帝国の住民・美術の担い手）は自らを「Ῥωμαῖοι」（ロマイオイ、ローマ人）と呼び、国家を「Ῥωμανία」（ロマニア、ローマの地）と呼んだ。英語版Wikipedia「Byzantine Empire」の呼称節は、「Byzantine」という語はもともと古代都市ビザンティオン（コンスタンティノープルの旧名）の住民だけを指し、帝国そのものを指す語ではなかったとし、この語の使用が広がった端緒はテオドロス・メトキテスまたはラオニコス・ハルココンディレスに遡るともされ、その用法を広めたのがヒエロニムス・ヴォルフだったと記す。英語版Wikipedia「Hieronymus Wolf」によれば、ヴォルフは1557年に『Corpus Historiae Byzantinae』を著し、東ローマ帝国を『Byzantinae』と呼んだ最初期の人物とされ、この用語はその後西欧の学者の間に広まり、東ローマ帝国自身の呼称（ロマニア）を置き換えていった。ただし、この1557年の命名は帝国そのものの歴史学上の呼称であり、『ビザンティン美術』という美術史上の様式区分としての用法は別段階を踏む——TheArtStory「Byzantine Art and Architecture Overview」は『Byzantine』という語が実践者自身によって用いられたことはなく、美術史家の間で広く採用されたのは19世紀に入ってからだと記す。したがって、帝国名としての命名（16世紀・ヴォルフ）と、美術様式区分としての命名（19世紀・特定不能な複数の美術史家）は別々の出来事であり、後者について単一の命名者・命名年を特定できる一次資料には当たっていない。**未確認**: 『ビザンティン美術』を美術史上の独立した様式区分として最初に用いた人物・年"
 claims:
-  - {field: kind, source: "https://en.wikipedia.org/wiki/Byzantine_art", certainty: scholarly}
-  - {field: time, source: "https://en.wikipedia.org/wiki/Byzantine_art", certainty: scholarly}
-  - {field: originated_in, source: "https://en.wikipedia.org/wiki/Byzantine_art", certainty: scholarly}
+  - {field: time, source: "https://www.metmuseum.org/art/collection/search/469960", certainty: scholarly}
+  - {field: originated_in, source: "https://www.metmuseum.org/art/collection/search/469960", certainty: scholarly}
+  - {field: kind, source: "https://www.metmuseum.org/art/collection/search/469960", certainty: scholarly}
 space:
   - {role: originated_in, target: place/istanbul}
 relations: []
@@ -69,8 +69,8 @@ images:
     rights_source: https://www.metmuseum.org/art/collection/search/474336
     license: cc0
     note: "《聖母エレウーサの携帯用イコン》14世紀初頭。木製パネルに蝋で象嵌したミニアチュール・モザイク（金・多色石・鍍金銅）。メトロポリタン美術館蔵、制作地は「probably Constantinople（おそらくコンスタンティノープル）」と明記される（isPublicDomain: true）。パレオロゴス朝期（後期ビザンティン）の例"
-status: draft
-updated: 2026-08-11
+status: verified
+updated: 2026-08-25
 ---
 
 # ビザンティン美術 / Byzantine art

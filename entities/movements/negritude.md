@@ -23,9 +23,9 @@ naming:
   note: "語をつくったのは当事者自身。エメ・セゼール（マルティニーク出身の詩人）が雑誌『L'Étudiant noir』の創刊にあたって作った語で、フランス語で黒人を指し人種差別語に堕していた『nègre』を、当事者の側からあえて名乗り直したもの（[plato.stanford.edu/entries/negritude/](https://plato.stanford.edu/entries/negritude/)）。年は資料間で割れる——スタンフォード哲学百科事典は『1934–1935』、アメリカ詩人アカデミーは創刊を『1934年』とする。本KBは EDTF で `1935~`（およそ1935年）を採り、幅を display に残した。命名の年が確定しないため named_when も `1935~` にしている"
 founding_control: internal   # パリ在学中の当事者（セゼール＝マルティニーク、サンゴール＝セネガル、ダマス＝仏領ギアナ）自身が語をつくり雑誌を出した。宗主国の機関が設けた枠組みではない
 claims:
-  - {field: kind, source: "https://plato.stanford.edu/entries/negritude/", certainty: attested}
-  - {field: time, source: "https://poets.org/text/brief-guide-negritude", certainty: scholarly}
+  - {field: time, source: "https://plato.stanford.edu/entries/negritude/", certainty: scholarly}
   - {field: originated_in, source: "https://www.tate.org.uk/art/art-terms/n/negritude", certainty: scholarly}
+  - {field: kind, source: "https://plato.stanford.edu/entries/negritude/", certainty: attested}
 space:
   - {role: originated_in, target: place/paris}
 relations:
@@ -42,8 +42,8 @@ sources:
     kind: reference
   - url: "https://en.wikipedia.org/wiki/Aim%C3%A9_C%C3%A9saire"
     kind: reference
-status: draft
-updated: 2026-08-09
+status: verified
+updated: 2026-08-25
 ---
 
 # ネグリチュード / Négritude

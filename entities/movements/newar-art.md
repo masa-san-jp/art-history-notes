@@ -22,6 +22,7 @@ naming:
   original_label: Newar
   note: "「ネワール美術（Newar art）」は、ネワールという担い手の集団名を冠して外側から与えられた美術史・美術館の分類語である。当事者がこの名で一つの運動・流派を名乗った記録は確認していない。ネワール自身の実践は、パウバ（paubha、ネワールの宗教絵画。チベットのタンカに対応する）や金工といった**媒体ごとの名**と、チトラカール（Chitrakar）・ヴァジュラーチャーリヤ（Vajracharya）・シャーキャ（Shakya）といった**カースト・職能集団の名**で呼ばれてきた。Getty AAT が持つのも民族名ではなく国名由来の『Nepalese (culture or style)』であり、担い手の単位と分類語の単位がずれている点は[バマナ彫刻](bamana-sculpture.md)と同型である。**未確認**: 「Newar art」という英語の括りを最初に用いた研究者・年"
 claims:
+  - {field: time, source: "https://rubinmuseum.org/projecthimalayanart/glossary/newar/", certainty: scholarly}
   - {field: originated_in, source: "https://rubinmuseum.org/projecthimalayanart/glossary/newar/", certainty: scholarly}
   - {field: kind, source: "https://rubinmuseum.org/projecthimalayanart/glossary/newar/", certainty: scholarly}
 space:
@@ -38,8 +39,8 @@ sources:
     kind: authority
   - url: "https://www.wikidata.org/wiki/Q1217053"
     kind: authority
-status: draft
-updated: 2026-08-10
+status: verified
+updated: 2026-08-25
 ---
 
 # ネワール美術 / Newar art

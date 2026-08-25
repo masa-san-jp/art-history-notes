@@ -39,8 +39,9 @@ naming:
     「ベイトソンが自ら疑いつつ導入した」ような明確な単一の命名者・命名事件を伴わない点で
     性格が異なる。named_by・named_when を特定できる資料には本調査では到達していない"
 claims:
+  - {field: time, source: "https://www.wichita.edu/museums/holmes/asmat.php", certainty: scholarly}
+  - {field: originated_in, source: "https://www.wichita.edu/museums/holmes/asmat.php", certainty: scholarly}
   - {field: kind, source: "https://www.wichita.edu/museums/holmes/asmat.php", certainty: scholarly}
-  - {field: originated_in, source: "https://www.wikidata.org/wiki/Q27228", certainty: scholarly}
 space:
   - {role: originated_in, target: place/asmat-regency}
 relations:
@@ -88,8 +89,8 @@ sources:
     kind: reference
   - url: "https://www.metmuseum.org/exhibitions/listings/2013/nelson-rockefeller"
     kind: institutional
-status: draft
-updated: 2026-08-13
+status: verified
+updated: 2026-08-25
 ---
 
 # アスマットの彫刻 / Asmat carving

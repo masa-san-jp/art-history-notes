@@ -23,8 +23,9 @@ naming:
   original_label: "Art Society"
   note: "自称の中核は「Art Society」（当事者が結成し、綱領『Natural Synthesis』を自ら書いた）。ただし現在通用する名前「Zaria Art Society」の地名部分と、通称「Zaria Rebels」は当事者の自称ではなく後から付いたことが複数の二次資料で一致している——momaa.orgは『Zaria Rebels』は他者による命名で、当事者は『Zaria Art Society』を名乗ったとするが、Google Arts & Culture（Yemisi Shyllon Museum of Art）は『Zaria Arts Society』という呼び名自体が『known as』（後から知られるようになった）と書き、Smithsonianも『Zaria Rebels』は『popularly called』（通称）としている。地名『Zaria』を冠する具体的な複合名の初出者・初出年は未確認"
 claims:
-  - {field: kind, source: "https://human.libretexts.org/Bookshelves/Art/Art_History_and_Theory/SmartHistory_of_Art_2e/SmartHistory_of_Art_IXb_-_Modernism_1945-1980/06%3A_Colonial_and_postcolonial_modernisms/6.02%3A_Nigeria_Uche_Okeke", certainty: scholarly}
-  - {field: originated_in, source: "https://www.wikidata.org/wiki/Q98912326", certainty: scholarly}
+  - {field: time, source: "https://www.rem.routledge.com/articles/zaria-art-society-the", certainty: scholarly}
+  - {field: originated_in, source: "https://www.rem.routledge.com/articles/zaria-art-society-the", certainty: scholarly}
+  - {field: kind, source: "https://www.rem.routledge.com/articles/zaria-art-society-the", certainty: scholarly}
 space:
   - {role: originated_in, target: place/zaria}
 relations:
@@ -52,8 +53,8 @@ sources:
     kind: reference
   - url: "https://www.si.edu/object/nationalism-and-rhetoric-modernism-nigeria-art-uche-okeke-and-demas-nwoko-1960-1968-chika-okeke-agulu%3Asiris_sil_898257"
     kind: institutional
-status: draft
-updated: 2026-08-12
+status: verified
+updated: 2026-08-25
 ---
 
 # ザリア・アート・ソサエティ / Zaria Art Society

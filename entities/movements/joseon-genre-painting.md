@@ -22,9 +22,9 @@ naming:
   original_label: 俗畵
   note: "国史編纂委員会「신편 한국사」35巻（우리역사넷「풍속화의 확대와 발전」）は「17세기 말경 숙종년간부터 '俗畵'로 불리기 시작했으며、'風俗畵'와 '俚俗圖'로도 지칭되었다」（17世紀末頃、粛宗朝から「俗画」と呼ばれ始め、「風俗画」「俚俗図」とも呼称された）とする（二次情報）。当事者の画家自身がこの名を掲げた形跡はなく、同時代の文人・批評家（例: 尹斗緒を「속화가」と評した南泰膺『청죽화사』）が担い手の作品を指して用いた記述語。19世紀の李圭景『五洲衍文長箋散稿』も「俗畵」の語を使うが、これは民画寄りの装飾画を指す文脈で使われており（concept/minhwa 本文の「定義の変遷」参照）、朝鮮時代の「俗畵」という語自体は本稿の風俗画と民画の両方にまたがる広い当時の呼称だった可能性が高い。特定の命名者・命名年を1件の一次資料に絞り込めないため named_by/named_when は null とした"
 claims:
-  - {field: kind, source: "https://contents.history.go.kr/mobile/nh/view.do?levelId=nh_035_0040_0020_0010_0040", certainty: scholarly}
-  - {field: time, source: "https://contents.history.go.kr/mobile/nh/view.do?levelId=nh_035_0040_0020_0010_0040", certainty: scholarly}
+  - {field: time, source: "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002897801", certainty: scholarly}
   - {field: originated_in, source: "https://encykorea.aks.ac.kr/Article/E0052396", certainty: scholarly}
+  - {field: kind, source: "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002897801", certainty: scholarly}
 space:
   - {role: originated_in, target: place/hanseong}
 relations:
@@ -66,8 +66,8 @@ images:
     rights_source: https://commons.wikimedia.org/wiki/File:Hyewon-Miindo.jpg
     license: public-domain
     note: "申潤福（蕙園）《미인도（美人図）》、澗松美術館蔵、19世紀初と推定（Wikimedia Commons記載。カテゴリ PD Old）"
-status: draft
-updated: 2026-08-10
+status: verified
+updated: 2026-08-25
 ---
 
 # 朝鮮後期風俗画 / Late Joseon genre painting

@@ -14,7 +14,7 @@ depends_on: []
 <!-- generated:coverage:start -->
 データの最新日: 2026-08-25 — `uv run --locked python tools/build_graph.py` が生成（手で書き換えない）
 
-movement **119** 件（stub 0件は不算入）／内訳 {'draft': 117, 'stub': 0, 'verified': 2}
+movement **119** 件（stub 0件は不算入）／内訳 {'draft': 0, 'stub': 0, 'verified': 119}
 
 | 文化圏 | 9BCE | 4C | 9C | 10C | 11C | 12C | 13C | 14C | 15C | 16C | 17C | 18C | 19C | 20C | 年代不明 | 計 |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
@@ -46,6 +46,10 @@ movement **119** 件（stub 0件は不算入）／内訳 {'draft': 117, 'stub': 
 - per_bucket_min: 13/13 バケットが 3件以上
 - pre_1800_ratio: 0.48/0.3
 - isolated_ratio: 0.00（上限 0.1）
+
+基準movementの根拠付きverified化:
+- verified: 119/119
+- enforce_complete: true
 <!-- generated:coverage:end -->
 
 ## 空欄の読み方

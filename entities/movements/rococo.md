@@ -22,9 +22,9 @@ naming:
   original_label: "Rococo"
   note: "18世紀の芸術運動・様式。絵画、彫刻、建築、室内装飾、工芸を横断するが、地域ごとの宮廷・都市文化と媒体差を残すため後世の様式分類として扱う"
 claims:
-  - {field: time, source: "https://www.wikidata.org/wiki/Q122960", certainty: scholarly}
-  - {field: kind, source: "https://www.wikidata.org/wiki/Q122960", certainty: scholarly}
+  - {field: time, source: "https://resources.metmuseum.org/resources/metpublications/pdf/Vienna_Circa_1780_An_Imperial_Silver_Service_Rediscovered.pdf", certainty: scholarly}
   - {field: originated_in, source: "https://www.metmuseum.org/de/essays/american-rococo", certainty: scholarly}
+  - {field: kind, source: "https://resources.metmuseum.org/resources/metpublications/pdf/Vienna_Circa_1780_An_Imperial_Silver_Service_Rediscovered.pdf", certainty: scholarly}
 space:
   - {role: originated_in, target: place/paris}
 relations:
@@ -38,8 +38,8 @@ sources:
     kind: institutional
   - url: "https://resources.metmuseum.org/resources/metpublications/pdf/Vienna_Circa_1780_An_Imperial_Silver_Service_Rediscovered.pdf"
     kind: scholarly
-status: draft
-updated: 2026-08-12
+status: verified
+updated: 2026-08-25
 ---
 
 # ロココ / Rococo

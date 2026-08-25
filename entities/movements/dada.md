@@ -22,9 +22,9 @@ naming:
   original_label: "Dada"
   note: "命名者は特定できない。最も広く語られる由来譚は、リヒャルト・フーゼンベックとフーゴ・バルが仏独辞典にペーパーナイフを無作為に突き立て、指した語が「dada（フランス語で木馬）」だったというもの（Britannica、二次情報）。ただしフーゼンベックとツァラの間で後年『自分が選んだ』という主導権争いが起きており、単一の命名者は確定しない（英語版Wikipedia、二次情報）。named_by を null とするのはこの争いのためであり、命名の不在を意味しない——グループが1916年5月の巻頭言で自ら \"DADA\" と名乗ったこと自体は複数の資料が一致する"
 claims:
+  - {field: time, source: "https://writing.upenn.edu/library/Tzara_Dada-Manifesto_1918.pdf", certainty: scholarly}
+  - {field: originated_in, source: "https://writing.upenn.edu/library/Tzara_Dada-Manifesto_1918.pdf", certainty: scholarly}
   - {field: kind, source: "https://writing.upenn.edu/library/Tzara_Dada-Manifesto_1918.pdf", certainty: attested}
-  - {field: time, source: "https://en.wikipedia.org/wiki/Cabaret_Voltaire_(Zurich)", certainty: scholarly}
-  - {field: originated_in, source: "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300021500", certainty: scholarly}
 space:
   - {role: originated_in, target: place/zurich}
   - {role: active_in, target: place/berlin}
@@ -51,8 +51,8 @@ sources:
     kind: reference
   - url: "https://www.moma.org/documents/moma_catalogue_2823_300061909.pdf"
     kind: scholarly
-status: draft
-updated: 2026-08-11
+status: verified
+updated: 2026-08-25
 ---
 
 # ダダ / Dada

@@ -22,8 +22,9 @@ naming:
   original_label: "Sanaa ya Wamakonde"
   note: "「マコンデ彫刻／マコンデ美術」という括り自体は、担い手（マコンデの彫刻家）が自ら名乗った運動名ではなく、美術史・キュレーション・土産物市場の側が後から与えた分類名と見られる。個々の様式名（シェタニ＝スワヒリ語で『精霊』、ウジャマー＝スワヒリ語で『家族的な結びつき』）は担い手自身が使う語彙に由来するが、それらを束ねて『マコンデ彫刻（Makonde art/carving）』という単一の括りとして学術的に定式化したのはシェア=ボス『Modern Makonde: Discovery in East African Art』（1969年、学術誌African Arts掲載）やキングドン『A Host of Devils』（2002年、学術書）など外部の研究者である。スワヒリ語版Wikipediaの項目名『Sanaa ya Wamakonde（マコンデの人々の美術）』を原語表記として残す。命名者個人・命名年は未確認"
 claims:
+  - {field: time, source: "https://journals.openedition.org/etudesafricaines/4878", certainty: scholarly}
+  - {field: originated_in, source: "https://journals.openedition.org/etudesafricaines/4878", certainty: scholarly}
   - {field: kind, source: "https://journals.openedition.org/etudesafricaines/4878", certainty: scholarly}
-  - {field: originated_in, source: "https://en.wikipedia.org/wiki/Makonde_people", certainty: scholarly}
 founding_control: shared   # ダルエスサラームでのシェタニ様式の展開は、南アジア系の画商モハメド・ペエラの工房という市場インフラの中で起きた。ペエラは技法や図像を指図せず「模倣するな・各自の独創性を追求せよ」と促し独創的な作品に高値を付けるという市場側の誘因構造を設計した一方、様式そのものの創案（サマキ・リカンコアの精霊表現）と実制作は当事者側が担った。キングドン(2002)の書評はペエラを「助産師（accoucheur）」と評し、様式の誕生を「反抗と自己主張の行為」（彫刻家サマキ自身の）と解釈する。伝統的な仮面彫刻（マピコ等）の側には外部者の構造的関与は確認できていない——`founding_control` はシェタニ／ウジャマー等の市場化した近代の局面についての判定であり、movement全体の判定ではない（詳細は本文「kind の判定」）
 space:
   - {role: originated_in, target: place/mueda}
@@ -47,8 +48,8 @@ sources:
     kind: reference
   - url: "https://journals.openedition.org/etudesafricaines/4878"
     kind: scholarly
-status: draft
-updated: 2026-08-10
+status: verified
+updated: 2026-08-25
 ---
 
 # マコンデ彫刻 / Makonde carving

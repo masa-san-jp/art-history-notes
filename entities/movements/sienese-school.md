@@ -22,9 +22,9 @@ naming:
   original_label: シエナ派
   note: "当事者（中世シエナの画家・発注者）がこの名で自らを呼んだ記録は無い。画家組合（Arte dei Pittori）に登録する身分としての「シエナの画家」という当事者的な区分は実在したが、それは様式上の括りとしての「シエナ派」とは別の事実である。CAA Reviews（Emily A. Moerer, 2004年書評）は「19世紀末に、様式分析によって独立した『シエナ派』が初めて明確化された」（in the late nineteenth century first articulated a separate \"Sienese School\"）と記す——ただし命名した個人名・年は特定できない。ジョルジョ・ヴァザーリ『美術家列伝』（1568年改訂版）はドゥッチョに2ページ、フィレンツェのジョットに22ページを割いたとされ（The Brooklyn Rail, David Carrier, 2024年12月）、フィレンツェ中心の美術史記述の中でシエナの画家たちは周辺化された。ヴァザーリはフィレンツェ公国のお抱えで、フィレンツェによるシエナ征服（1555年）と同時代に執筆したことも指摘される（The New York Review of Books, Andrew Butterfield, 2025年）。**未確認**: 19世紀末の「誰が」最初に明確化したかの一次資料"
 claims:
-  - {field: kind, source: "https://en.wikipedia.org/wiki/Sienese_school", certainty: scholarly}
-  - {field: time, source: "https://www.wikidata.org/wiki/Q1332178", certainty: scholarly}
-  - {field: originated_in, source: "https://www.wikidata.org/wiki/Q1332178", certainty: scholarly}
+  - {field: time, source: "https://www.metmuseum.org/es/essays/sienese-painting", certainty: scholarly}
+  - {field: originated_in, source: "https://www.metmuseum.org/es/essays/sienese-painting", certainty: scholarly}
+  - {field: kind, source: "https://www.metmuseum.org/es/essays/sienese-painting", certainty: scholarly}
 space:
   - {role: originated_in, target: place/siena}
 relations:
@@ -52,8 +52,8 @@ sources:
     kind: reference
   - url: "https://www.getty.edu/vow/AATServlet"
     kind: authority
-status: draft
-updated: 2026-08-09
+status: verified
+updated: 2026-08-25
 images:
   - url: https://images.metmuseum.org/CRDImages/ep/original/DP142735.jpg
     source_page: https://www.metmuseum.org/art/collection/search/438754

@@ -24,7 +24,7 @@ naming:
 claims:
   - {field: time, source: "https://www.metmuseum.org/fr/essays/gothic-art", certainty: scholarly}
   - {field: originated_in, source: "https://www.metmuseum.org/fr/essays/gothic-art", certainty: scholarly}
-  - {field: kind, source: "https://www.wikidata.org/wiki/Q46825", certainty: scholarly}
+  - {field: kind, source: "https://www.metmuseum.org/fr/essays/gothic-art", certainty: scholarly}
 space:
   - {role: originated_in, target: place/paris}
 relations:
@@ -38,8 +38,8 @@ sources:
     kind: institutional
   - url: "https://www.metmuseum.org/pt/met-publications/the-year-1200-a-background-survey"
     kind: institutional
-status: draft
-updated: 2026-08-12
+status: verified
+updated: 2026-08-25
 ---
 
 # ゴシック美術 / Gothic art

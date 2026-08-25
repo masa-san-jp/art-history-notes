@@ -22,9 +22,9 @@ naming:
   original_label: "Staatliches Bauhaus"
   note: "Bauhaus-Archivは、1919年4月にヴァルター・グロピウスがワイマールの学校をStaatliches Bauhausと正式に命名したと記録する。ここでは当事者が名乗った学校名を、後世に広がった『バウハウス様式』全体の後付けラベルとは分け、運動の命名イベントとして記録する"
 claims:
-  - {field: time, source: "https://www.bauhaus.de/en/discover/article/14-years-of-bauhaus/", certainty: scholarly}
-  - {field: originated_in, source: "https://www.bauhaus.de/en/discover/article/14-years-of-bauhaus/", certainty: scholarly}
-  - {field: kind, source: "https://www.bauhaus.de/en/discover/article/14-years-of-bauhaus/", certainty: scholarly}
+  - {field: time, source: "https://www.moma.org/documents/moma_catalogue_1733_300062754.pdf", certainty: scholarly}
+  - {field: originated_in, source: "https://www.moma.org/documents/moma_catalogue_1733_300062754.pdf", certainty: scholarly}
+  - {field: kind, source: "https://www.moma.org/documents/moma_catalogue_1733_300062754.pdf", certainty: scholarly}
 space:
   - {role: originated_in, target: place/weimar}
   - {role: active_in, target: place/dessau}
@@ -60,8 +60,8 @@ sources:
     kind: reference
   - url: "https://www.moma.org/documents/moma_catalogue_1798_300159061.pdf"
     kind: scholarly
-status: draft
-updated: 2026-08-13
+status: verified
+updated: 2026-08-25
 ---
 
 # バウハウス / Bauhaus

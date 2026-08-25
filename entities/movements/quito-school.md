@@ -22,8 +22,9 @@ naming:
   original_label: "Escuela Quiteña"
   note: "英語版・スペイン語版Wikipediaのいずれも、植民地期の当事者（画家・彫刻家・発注者）がこの名で自らの活動を呼んだ記録を示していない。「Escuela Quiteña」（スペイン語圏の標準呼称）「Quito School」（英語圏）はいずれも後代の美術史記述が与えた括りである。**未確認**: 最初にこの呼称を用いた研究者・年"
 claims:
-  - {field: kind, source: "https://en.wikipedia.org/wiki/Quito_school", certainty: scholarly}
-  - {field: originated_in, source: "https://en.wikipedia.org/wiki/Quito_school", certainty: scholarly}
+  - {field: time, source: "https://fundacionmuseosquito.gob.ec/MDC/Bibliograf%C3%ADa%20Sala%20siglo%20XVI/Pajuelo%20Jonathan-Arte%20de%20la%20Real%20Audiencia%20de%20Quito.pdf", certainty: scholarly}
+  - {field: originated_in, source: "https://fundacionmuseosquito.gob.ec/MDC/Bibliograf%C3%ADa%20Sala%20siglo%20XVI/Pajuelo%20Jonathan-Arte%20de%20la%20Real%20Audiencia%20de%20Quito.pdf", certainty: scholarly}
+  - {field: kind, source: "https://fundacionmuseosquito.gob.ec/MDC/Bibliograf%C3%ADa%20Sala%20siglo%20XVI/Pajuelo%20Jonathan-Arte%20de%20la%20Real%20Audiencia%20de%20Quito.pdf", certainty: scholarly}
 founding_control: external   # 本文「kind の判定」および「founding_control の判定」参照
 evidence:
   - {target: work/child-christ-caspicara, supports: [kind, visual-character]}
@@ -58,7 +59,7 @@ sources:
     kind: institutional
   - url: "https://www.metmuseum.org/art/collection/search/204326"
     kind: institutional
-status: draft
+status: verified
 updated: 2026-08-25
 images:
   - url: https://images.metmuseum.org/CRDImages/ad/original/231421.jpg

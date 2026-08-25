@@ -23,9 +23,9 @@ naming:
   original_label: "Progressive Artists' Group"
   note: "当事者の自称は地名を含まない「Progressive Artists' Group」。パリムー＆バグワトの概説によれば、名称中の「Progressive」はインド文学のマルクス主義系作家・詩人らが1936年の会議で立ち上げた「Progressive Writers' Movement」から着想を得たと当事者自身が語ったとされる。現在広く使われる複合名「Bombay Progressive Artists' Group」（英語版Wikipediaの項目名・Wikidataのラベル）の「Bombay」部分は、記事本文が一貫して当事者の呼称「The Progressive Artists' Group (PAG)」を使うのと対照的で、いつ・誰が地名を付け加えたかは未確認。他都市の同名の集団と区別するための後付けの可能性がある"
 claims:
-  - {field: kind, source: "https://web.archive.org/web/20131214145023/http://www.artnewsnviews.com/view-article.php?article=progressive-artists-group-of-bombay-an-overview&iid=29&articleid=800", certainty: scholarly}
-  - {field: originated_in, source: "https://web.archive.org/web/20131214145023/http://www.artnewsnviews.com/view-article.php?article=progressive-artists-group-of-bombay-an-overview&iid=29&articleid=800", certainty: scholarly}
   - {field: time, source: "https://web.archive.org/web/20131214145023/http://www.artnewsnviews.com/view-article.php?article=progressive-artists-group-of-bombay-an-overview&iid=29&articleid=800", certainty: scholarly}
+  - {field: originated_in, source: "https://web.archive.org/web/20131214145023/http://www.artnewsnviews.com/view-article.php?article=progressive-artists-group-of-bombay-an-overview&iid=29&articleid=800", certainty: scholarly}
+  - {field: kind, source: "https://web.archive.org/web/20131214145023/http://www.artnewsnviews.com/view-article.php?article=progressive-artists-group-of-bombay-an-overview&iid=29&articleid=800", certainty: scholarly}
 space:
   - {role: originated_in, target: place/mumbai}
 relations:
@@ -43,8 +43,8 @@ sources:
     note: "URLの資料パスから一次資料と判定"
   - url: "https://www.tate.org.uk/art/art-terms/b/bombay-progressive-artists-group"
     kind: institutional
-status: draft
-updated: 2026-08-10
+status: verified
+updated: 2026-08-25
 ---
 
 # ボンベイ進歩芸術家グループ / Progressive Artists' Group

@@ -21,7 +21,10 @@ naming:
   named_when: null
   original_label: 南画
   note: "『南画』という呼称そのものの定着は幕末から明治にかけて（日本語版Wikipedia「南画」、二次情報）。より古い語『文人画』（中国の文人画に由来し、専門画工に対する在野の文人の余技としての絵画を指す語）が先にあり、『南画』はそのうち中国・南宗画の系統を継ぐものを指す語として後から定着した。当事者（池大雅・与謝蕪村ら18世紀の担い手）が自ら『南画』または『文人画』という語で群れを名乗った一次的記述は見つかっていない。英語版Wikipediaは担い手たちが自らを『literati（文人）』とみなしていたと記すが、これは学者・知識人としての自己認識であり、絵画の一括りとしての群れの名称そのものではない——この区別のため self_identified は false とした"
-claims: []
+claims:
+  - {field: time, source: "https://www.kyohaku.go.jp/old/eng/theme/floor2_4/past/kinse_20170221.html", certainty: scholarly}
+  - {field: originated_in, source: "https://www.kyohaku.go.jp/old/eng/theme/floor2_4/past/kinse_20170221.html", certainty: scholarly}
+  - {field: kind, source: "https://www.kyohaku.go.jp/old/eng/theme/floor2_4/past/kinse_20170221.html", certainty: scholarly}
 evidence:
   - {target: work/group-pilgrimage-jizo-ike-taiga, supports: [kind, origin, visual-character]}
 space:
@@ -71,7 +74,7 @@ images:
     rights_source: https://www.metmuseum.org/art/collection/search/671023
     license: cc0
     note: "与謝蕪村《山野跋渉図屏風（Travels through Mountains and Fields）》1765年頃、メトロポリタン美術館蔵（isPublicDomain: true）"
-status: draft
+status: verified
 updated: 2026-08-25
 ---
 

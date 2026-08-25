@@ -23,9 +23,9 @@ naming:
   original_label: "Antropofagia"
   note: "自称の核（『antropófago』『movimento antropophago』という語そのものを参加者自身が創刊号内で使ったこと）は、本KBが直接読んだ一次資料（Revista de Antropofagia創刊号のPDF）で確認できる。一方、誰が最初に『antropofagia』という語を選んだかは資料間で一致しない――ポルトガル語版Wikipediaは『antropofagiaという隠喩を作ったのはプリニオ・サルガードで、オズワルド・デ・アンドラーデがそれを自分の企画のために転用した』と記すが、この記述の一次資料には当たれておらず未確認。雑誌名（Revista de Antropofagia）自体は『オズワルド・デ・アンドラーデとラウル・ボップが企画した』とするサンパウロ大学ブラジリアーナ図書館のカタログ記述もあるが、これも図書館側の付帯情報であり創刊号本文自体には編集主体として『Direção de ANTÔNIO DE ALCÂNTARA MACHADO / Gerencia de RAUL BOPP』としか印刷されていない。命名者の特定は保留し named_by は null にした"
 claims:
-  - {field: kind, source: "https://digital.bbm.usp.br/bitstream/bbm/7064/2/Anno.1_n.01_45000033273.pdf", certainty: attested}
-  - {field: originated_in, source: "https://digital.bbm.usp.br/bitstream/bbm/7064/2/Anno.1_n.01_45000033273.pdf", certainty: attested}
   - {field: time, source: "https://digital.bbm.usp.br/bitstream/bbm/7064/2/Anno.1_n.01_45000033273.pdf", certainty: scholarly}
+  - {field: originated_in, source: "https://digital.bbm.usp.br/bitstream/bbm/7064/2/Anno.1_n.01_45000033273.pdf", certainty: attested}
+  - {field: kind, source: "https://digital.bbm.usp.br/bitstream/bbm/7064/2/Anno.1_n.01_45000033273.pdf", certainty: attested}
 space:
   - {role: originated_in, target: place/sao-paulo}
 relations:
@@ -52,8 +52,8 @@ sources:
     kind: reference
   - url: "https://digitalrepository.unm.edu/brazil_slides/762/"
     kind: scholarly
-status: draft
-updated: 2026-08-09
+status: verified
+updated: 2026-08-25
 ---
 
 # アントロポファジア / Antropofagia

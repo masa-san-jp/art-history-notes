@@ -22,8 +22,9 @@ naming:
   original_label: "Muralismo mexicano"
   note: "英語版Wikipediaは「Mexican muralism」も「ロス・トレス・グランデス」もいずれも当事者の自称ではなく後世に付与された呼称だと明記する。当事者（リベラ・オロスコ・シケイロスらが結成した画家組合）が実際に発表した宣言文は「革命的芸術」「記念碑的芸術」を掲げるが、「壁画運動（muralismo）」という語で自らを呼んだ形跡は確認できていない。命名者・命名年（誰が最初に「muralismo mexicano」と呼んだか、どの言語で最初に定着したか）は未確認"
 claims:
-  - {field: kind, source: "https://en.wikipedia.org/wiki/Mexican_muralism", certainty: scholarly}
-  - {field: originated_in, source: "https://www.wikidata.org/wiki/Q1367381", certainty: scholarly}
+  - {field: time, source: "https://www.scielo.org.mx/scielo.php?script=sci_arttext&pid=S2448-83722019000100115", certainty: scholarly}
+  - {field: originated_in, source: "https://www.scielo.org.mx/scielo.php?script=sci_arttext&pid=S2448-83722019000100115", certainty: scholarly}
+  - {field: kind, source: "https://www.scielo.org.mx/scielo.php?script=sci_arttext&pid=S2448-83722019000100115", certainty: scholarly}
 space:
   - {role: originated_in, target: place/mexico-city}
 relations: []
@@ -46,8 +47,8 @@ sources:
     kind: reference
   - url: "https://designmanifestos.org/taller-de-grafica-popular-manifesto-of-the-painters-union/"
     kind: reference
-status: draft
-updated: 2026-08-09
+status: verified
+updated: 2026-08-25
 ---
 
 # メキシコ壁画運動 / Mexican muralism

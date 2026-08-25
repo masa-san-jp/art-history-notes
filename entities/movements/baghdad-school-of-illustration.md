@@ -22,9 +22,9 @@ naming:
   original_label: "Baghdad School"
   note: "当事者（13世紀の写本工房の書家・画家）がこの名で自称した記録はない。フランスの外交官・美術史家ウスタッシュ・ド・ロレイ（person/eustache-de-lorey）が1938年、パリの国立図書館での展覧会に際し雑誌『イリュストラシオン』のクリスマス号に寄せた記事でこの呼称を用いたのが初出とされる（英語版Wikipedia「Baghdad School」が引く Esanu 2017 経由の二次情報）。現代の研究者・学芸員の一部は地理的限定（バグダード1都市への帰属）に懐疑的で、代替として『メソポタミア派』『アラブ細密画派』を提案している——Getty AATも階層上『Baghdad School』の上位に『Mesopotamian School』を置く"
 claims:
-  - {field: kind, source: "https://en.wikipedia.org/wiki/Baghdad_School", certainty: scholarly}
-  - {field: time, source: "https://en.wikipedia.org/wiki/Baghdad_School", certainty: scholarly}
-  - {field: originated_in, source: "https://www.wikidata.org/wiki/Q17001345", certainty: scholarly}
+  - {field: time, source: "https://www.metmuseum.org/met-publications/masterpieces-from-the-department-of-islamic-art-in-the-metropolitan-museum-of-art", certainty: scholarly}
+  - {field: originated_in, source: "https://www.metmuseum.org/met-publications/masterpieces-from-the-department-of-islamic-art-in-the-metropolitan-museum-of-art", certainty: scholarly}
+  - {field: kind, source: "https://www.metmuseum.org/met-publications/masterpieces-from-the-department-of-islamic-art-in-the-metropolitan-museum-of-art", certainty: scholarly}
 space:
   - {role: originated_in, target: place/baghdad}
 relations:
@@ -71,8 +71,8 @@ images:
     rights_source: https://www.metmuseum.org/art/collection/search/451332
     license: cc0
     note: "「葡萄を踏む人々」同じ『薬物誌』写本の1葉、1224年、同じくアブドゥッラー・イブン・アル=ファドル筆。メトロポリタン美術館蔵（accession 57.51.23、isPublicDomain: true）。日常生活の一場面を描く点が本様式の特徴として文献に挙げられる例"
-status: draft
-updated: 2026-08-10
+status: verified
+updated: 2026-08-25
 ---
 
 # バグダード派（写本挿絵） / Baghdad School of manuscript illustration

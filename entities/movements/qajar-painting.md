@@ -21,7 +21,10 @@ naming:
   named_when: null
   original_label: "Qajar painting"
   note: "「カージャール」はガージャール（Qajar）族という王朝の部族名で、当事者が自分たちの絵画を「カージャール様式」と名乗った記録はない。王朝名をそのまま美術史区分に転用した、後代の学術的な呼称"
-claims: []
+claims:
+  - {field: time, source: "https://scholarworks.sjsu.edu/etd_theses/3019/", certainty: scholarly}
+  - {field: originated_in, source: "https://scholarworks.sjsu.edu/etd_theses/3019/", certainty: scholarly}
+  - {field: kind, source: "https://scholarworks.sjsu.edu/etd_theses/3019/", certainty: scholarly}
 space:
   - {role: originated_in, target: place/tehran}
 relations:
@@ -71,8 +74,8 @@ images:
     rights_source: https://www.metmuseum.org/art/collection/search/667859
     license: cc0
     note: "《ムハンマド・シャー・カージャールとその宰相ハージー・ミールザー・アーガースィーの肖像》、19世紀第2四半期。メトロポリタン美術館蔵（isPublicDomain: true）"
-status: draft
-updated: 2026-08-13
+status: verified
+updated: 2026-08-25
 ---
 
 # カージャール絵画 / Qajar painting

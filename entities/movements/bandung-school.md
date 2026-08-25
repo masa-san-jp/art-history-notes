@@ -25,9 +25,9 @@ naming:
   original_label: "aliran Ries Mulder / laboratorium Eropa（Barat）"
   note: "現在通用する「Mazhab Bandung（バンドン派）」という語そのものを最初に使った個人・年は確認できていない。確認できる最初の名づけの行為は、美術批評家トリスノ・スマルジョが1954年、ラジオ番組でバンドン工科大学出身の画家たちの展覧会を批評し「aliran Ries Mulder（ミュルダーの流派）」と呼び、その作風を「laboratorium Eropa（ヨーロッパの実験室）」と評したことである（インドネシア語版Wikipediaは同じ趣旨を『laboratorium Barat（西洋の実験室）』と表現し、年を1953年とする——年について複数の二次資料が1953年説と1954年説に割れる。本KBはスジョコの公開反論の発行日〔1954年12月19日、雑誌シアサット393号〕が確認できることから1954年説を採った）。この名づけは当事者による自称ではなく、批評家による否定的な評価として外部から与えられたものであり、当事者側がバンドン工科大学出身の画家たちを『Mazhab Bandung』と自称した記録は確認できていない"
 claims:
-  - {field: kind, source: "https://sejarahbersama.id/2021/06/04/kritik-kritik-terhadap-pelukis-pelukis-bandung/", certainty: scholarly}
-  - {field: time, source: "https://id.wikipedia.org/wiki/Mazhab_Bandung_(seni)", certainty: scholarly}
-  - {field: originated_in, source: "https://en.wikipedia.org/wiki/Ries_Mulder", certainty: scholarly}
+  - {field: time, source: "https://doi.org/10.54154/dekonstruksi.v11i01.289", certainty: scholarly}
+  - {field: originated_in, source: "https://doi.org/10.54154/dekonstruksi.v11i01.289", certainty: scholarly}
+  - {field: kind, source: "https://doi.org/10.54154/dekonstruksi.v11i01.289", certainty: scholarly}
 space:
   - {role: originated_in, target: place/bandung}
 relations:
@@ -52,8 +52,8 @@ sources:
     kind: reference
   - url: "https://doi.org/10.54154/dekonstruksi.v11i01.289"
     kind: scholarly
-status: draft
-updated: 2026-08-09
+status: verified
+updated: 2026-08-25
 ---
 
 # バンドン派 / Bandung School (Mazhab Bandung)

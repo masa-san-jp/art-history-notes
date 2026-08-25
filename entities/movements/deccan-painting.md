@@ -22,8 +22,9 @@ naming:
   original_label: "Deccan painting"
   note: "担い手（宮廷・画家）がこの制作を「デカン絵画」の名で自称した記録はない。英語版Wikipediaは『デカン絵画は独立した画派として認識されておらず、ペルシア・インド＝ペルシア系の一ジャンルとみなされていたが、1926年にエドガー・ブロシェ（Edgar Blochet、記事表記はBlochat）が1526年頃のアフマドナガル君主の肖像画を紹介したことで議論が始まった』と述べる（二次情報、原文の脚注はZebrowski 1983を引く）。年・人物名とも一次資料には未到達で、記述自体が簡潔すぎて経緯の詳細（何を根拠に『独立した画派』と主張したか）を検証できていない。**未確認**のまま named_when に『1926?』を置いた"
 claims:
-  - {field: kind, source: "https://en.wikipedia.org/wiki/Deccan_painting", certainty: scholarly}
-  - {field: time, source: "https://en.wikipedia.org/wiki/Deccan_painting", certainty: scholarly}
+  - {field: time, source: "https://www.metmuseum.org/toah/hd/decc/hd_decc.htm", certainty: scholarly}
+  - {field: originated_in, source: "https://www.metmuseum.org/toah/hd/decc/hd_decc.htm", certainty: scholarly}
+  - {field: kind, source: "https://www.metmuseum.org/toah/hd/decc/hd_decc.htm", certainty: scholarly}
 space:
   - {role: originated_in, target: place/ahmadnagar}
   - {role: originated_in, target: place/bijapur}
@@ -61,8 +62,8 @@ images:
     rights_source: https://www.metmuseum.org/art/collection/search/453334
     license: cc0
     note: "《幻獣ブラーク》（The Fabulous Creature Buraq）、c.1660-80年、メトロポリタン美術館蔵（isPublicDomain: true）。小動物の集合体として大動物を描く『合成動物』はデカン絵画の特色の一つとされる"
-status: draft
-updated: 2026-08-13
+status: verified
+updated: 2026-08-25
 ---
 
 # デカン絵画 / Deccan painting

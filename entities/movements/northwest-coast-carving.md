@@ -35,8 +35,9 @@ naming:
     （Wikipedia \"Formline art\"）、これも当事者由来ではない。self_identified を false とした
     根拠はこの二重の外部性——地理的な括りの命名も、様式分析の語彙も、外部の研究者に由来する——による"
 claims:
-  - {field: kind, source: "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300017594", certainty: scholarly}
-  - {field: originated_in, source: "https://www.ebsco.com/research-starters/social-sciences-and-humanities/northwest-coast-cultural-area-native-american", certainty: scholarly}
+  - {field: time, source: "https://content.lib.washington.edu/aipnw/wright.html", certainty: scholarly}
+  - {field: originated_in, source: "https://content.lib.washington.edu/aipnw/wright.html", certainty: scholarly}
+  - {field: kind, source: "https://content.lib.washington.edu/aipnw/wright.html", certainty: scholarly}
 evidence:
   - {target: work/tlingit-totem-pole-model-1989-89, supports: [kind, origin, visual-character]}
 space:
@@ -86,7 +87,7 @@ sources:
     kind: institutional
   - url: "https://clevelandart.org/art/1921.1577"
     kind: institutional
-status: draft
+status: verified
 updated: 2026-08-25
 ---
 

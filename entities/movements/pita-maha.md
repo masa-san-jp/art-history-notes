@@ -23,8 +23,9 @@ naming:
   original_label: "Pita Maha"
   note: "結成の当事者としてバリ王族・バリの芸術家・ヨーロッパ人画家の3系統が資料に現れるが、「Pita Maha」という語そのものを誰が提案したかは資料間で明示されず未確認。名称の意味についても訳が資料間で割れる——houtsnijkunstbali.nlは「grootvader（祖父）」、kunst-uit-bali.nlは「grote geest（偉大な精神）」、Paras（英語二次資料）は古カウィ語で「the great ancestor(s)」（ブラフマー神の性シャクティ・サラスワティを指す称号）とするが、Senokosova（学術論文）は「The Great light」と訳し他資料と一致しない（未確認）"
 claims:
-  - {field: time, source: "https://www.wikidata.org/wiki/Q56294353", certainty: scholarly}
-  - {field: originated_in, source: "https://www.wikidata.org/wiki/Q56294353", certainty: scholarly}
+  - {field: time, source: "http://www.iraj.in/journal/journal_file/journal_pdf/14-440-152293060021-24.pdf", certainty: scholarly}
+  - {field: originated_in, source: "http://www.iraj.in/journal/journal_file/journal_pdf/14-440-152293060021-24.pdf", certainty: scholarly}
+  - {field: kind, source: "http://www.iraj.in/journal/journal_file/journal_pdf/14-440-152293060021-24.pdf", certainty: scholarly}
 space:
   - {role: originated_in, target: place/ubud}
 relations:
@@ -45,8 +46,8 @@ sources:
     kind: reference
   - url: "https://www.tandfonline.com/doi/abs/10.1080/13639810701440640"
     kind: scholarly
-status: draft
-updated: 2026-08-09
+status: verified
+updated: 2026-08-25
 ---
 
 # ピタ・マハ / Pita Maha

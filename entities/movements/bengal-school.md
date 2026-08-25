@@ -23,8 +23,9 @@ naming:
   original_label: "Indian Society of Oriental Art"
   note: "当事者が1907年に自ら結成し名乗った組織は「Indian Society of Oriental Art」であり、「Bengal School」という呼称そのものを当事者が名乗った記録は見つかっていない。Debashish Banerjiの著書解説はタゴールを『the founder of the national school of Indian painting, popularly known as the Bengal School of Art』と表現し、『popularly known as』という言い回しは通称としての性格を示す。Getty AATも『a style of art in India developed by Abanindranath Tagore and his followers』と、様式の創出者は記すが呼称の命名者は記していない。命名者・命名年は未確認"
 claims:
-  - {field: kind, source: "https://www.getty.edu/vow/AATFullDisplay?find=Bengal&logic=AND&note=&english=Y&prev_page=1&subjectid=300417404", certainty: scholarly}
-  - {field: originated_in, source: "https://en.wikipedia.org/wiki/Government_College_of_Art_%26_Craft", certainty: scholarly}
+  - {field: time, source: "https://digitalcommons.ciis.edu/facultypublications/51/", certainty: scholarly}
+  - {field: originated_in, source: "https://digitalcommons.ciis.edu/facultypublications/51/", certainty: scholarly}
+  - {field: kind, source: "https://digitalcommons.ciis.edu/facultypublications/51/", certainty: scholarly}
 space:
   - {role: originated_in, target: place/kolkata}
 relations:
@@ -55,8 +56,8 @@ sources:
     kind: reference
   - url: "https://faam.city.fukuoka.lg.jp/en/exhibition/11422/"
     kind: reference
-status: draft
-updated: 2026-08-09
+status: verified
+updated: 2026-08-25
 ---
 
 # ベンガル派 / Bengal School of Art

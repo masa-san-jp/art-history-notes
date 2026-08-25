@@ -21,7 +21,10 @@ naming:
   named_when: null
   original_label: "Wayang Kamasan"
   note: "村名がそのまま様式名になっており、狩野派と同型で特定の命名行為は確認できない。2024年、インドネシア知的財産総局（DJKI）への地理的表示（GI）登録により、「カマサン」の名を村での伝統的手法による制作物に限る法的な線引きがなされた——共同体自身がこの名を積極的に主張し防御した行為と言える"
-claims: []
+claims:
+  - {field: time, source: "http://balitourismjournal.org/ojs/index.php/btj/article/view/74", certainty: scholarly}
+  - {field: originated_in, source: "http://balitourismjournal.org/ojs/index.php/btj/article/view/74", certainty: scholarly}
+  - {field: kind, source: "http://balitourismjournal.org/ojs/index.php/btj/article/view/74", certainty: scholarly}
 space:
   - {role: originated_in, target: place/kamasan}
 relations: []
@@ -50,8 +53,8 @@ sources:
     kind: reference
   - url: "https://journal.binus.ac.id/index.php/Humaniora/article/view/3599"
     kind: scholarly
-status: draft
-updated: 2026-08-10
+status: verified
+updated: 2026-08-25
 ---
 
 # カマサン様式 / Kamasan painting

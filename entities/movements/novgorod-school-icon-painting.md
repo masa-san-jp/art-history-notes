@@ -22,9 +22,9 @@ naming:
   original_label: "Новгородская школа"
   note: "当事者（中世ノヴゴロドの画家・発注者）がこの名で自らを呼んだ記録は無い。ラザレフ『Русская иконопись от истоков до начала XVI века』第1章「Открытие русской иконы и её изучение」（イコン研究史、二次情報経由の要約）によれば、地域別に「派（школа）」を区別する用法自体は19世紀の旧信仰派系収集家に遡り、D.А.ロヴィンスキー『Обозрение иконописания в России до конца XVII века』（1856年）が既に「ノヴゴロド派・ウスチュグ派・モスクワ派」を区別していたとされる。ただしこれはラザレフの言う「素人的な『писем』（筆致）概念」——収集家の経験則による区分だった。1917年革命後、イーゴリ・グラバーリの指揮下で修復委員会が組織され、出所（伝来元）が正確に分かるイコンをノヴゴロド・プスコフ・キエフなどへの発掘調査で集めたことにより、ラザレフは「素人的な『写り（письмо）』概念を厳密な科学的『学派（школа）』概念に置き換えることができた」と評価する。並行して、批評家パーヴェル・ムラートフが1912年のノヴゴロド訪問を経て早い時期の論考を準備し、1927年の著書『Les icônes russes』で西欧向けに様式面から各「派」を初めて体系的に特徴づけた（Cambridge大学出版に近いOpen Book Publishers刊行物からのWebSearch経由の要約、二次情報、一次資料未確認）。**未確認**: ロヴィンスキー1856年の原文における「ノヴゴロド派」という語の具体的な使用箇所、およびこの呼称を最初に用いたのが誰かの確定——19世紀の収集家の慣用から20世紀の学術概念への移行という経緯はラザレフの記述から読めるが、単一の命名者・命名年は特定できない"
 claims:
-  - {field: kind, source: "https://en.wikipedia.org/wiki/Novgorod_school", certainty: scholarly}
-  - {field: time, source: "https://ru.wikipedia.org/wiki/Новгородская_школа_(древнерусское_искусство)", certainty: scholarly}
-  - {field: originated_in, source: "https://www.wikidata.org/wiki/Q2876208", certainty: scholarly}
+  - {field: time, source: "https://books.openbookpublishers.com/10.11647/obp.0378/ch2.xhtml", certainty: scholarly}
+  - {field: originated_in, source: "https://books.openbookpublishers.com/10.11647/obp.0378/ch2.xhtml", certainty: scholarly}
+  - {field: kind, source: "https://books.openbookpublishers.com/10.11647/obp.0378/ch2.xhtml", certainty: scholarly}
 space:
   - {role: originated_in, target: place/veliky-novgorod}
 relations:
@@ -72,8 +72,8 @@ images:
     rights_source: https://commons.wikimedia.org/wiki/File:Novgorod_School_-_Saint_Nicholas_of_Zaraysk_with_20_scenes_from_his_life_-_NG.M.01773_-_National_Museum_of_Art,_Architecture_and_Design.jpg
     license: public-domain
     note: "《生涯の20場面を伴う聖ニコラウス（ザライスクの）》16世紀初頭頃。ノルウェー国立美術館・建築・デザイン博物館（Nasjonalmuseet）蔵、作者を「School of Novgorod」と明記（Wikidata Q2876208をauthorityとして参照）。Wikimedia Commonsのextmetadataは LicenseShortName: Public domain / Copyrighted: false"
-status: draft
-updated: 2026-08-13
+status: verified
+updated: 2026-08-25
 ---
 
 # ノヴゴロド派 / Novgorod school of icon painting

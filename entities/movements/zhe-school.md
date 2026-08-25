@@ -22,8 +22,9 @@ naming:
   original_label: 浙派
   note: "董其昌『画禅室随筆』に由来するとされる（二次情報、日本語版Wikipedia）。浙派の画家が活動していた時代（15〜16世紀）には「浙派」という名称自体が存在しなかった。命名者・董其昌（1555-1636）は浙派が「16世紀中葉にはほとんど消滅した」とされる時期にまだ生まれてすらいない。『画禅室随筆』の成立年は未確認"
 claims:
-  - {field: kind, source: "https://ja.wikipedia.org/wiki/%E6%B5%99%E6%B4%BE", certainty: scholarly}
-  - {field: originated_in, source: "https://www.wikidata.org/wiki/Q741512", certainty: scholarly}
+  - {field: time, source: "https://www.hkpm.org.hk/en/visit/audio-guide/g4-stories-untold", certainty: scholarly}
+  - {field: originated_in, source: "https://www.hkpm.org.hk/en/visit/audio-guide/g4-stories-untold", certainty: scholarly}
+  - {field: kind, source: "https://www.hkpm.org.hk/en/visit/audio-guide/g4-stories-untold", certainty: scholarly}
 space:
   - {role: originated_in, target: place/hangzhou}
 relations:
@@ -40,7 +41,7 @@ sources:
   - url: "https://www.wikidata.org/wiki/Q537211"
     kind: authority
   - url: "https://www.hkpm.org.hk/en/visit/audio-guide/g4-stories-untold"
-    kind: reference
+    kind: institutional
 images:
   - url: https://www.artic.edu/iiif/2/7739a403-99b6-d151-c892-e93a0b17e4ef/full/843,/0/default.jpg
     source_page: https://www.artic.edu/artworks/150406
@@ -52,8 +53,8 @@ images:
     rights_source: https://www.metmuseum.org/art/collection/search/45680
     license: cc0
     note: "蒋嵩《冬景山水図》（Winter landscape）、16世紀前半。メトロポリタン美術館蔵（isPublicDomain: true）"
-status: draft
-updated: 2026-08-09
+status: verified
+updated: 2026-08-25
 ---
 
 # 浙派 / Zhe school

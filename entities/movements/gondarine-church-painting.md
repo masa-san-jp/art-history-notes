@@ -23,9 +23,9 @@ naming:
   original_label: "Gondar / Gondarine"
   note: "Getty AATの優先語は『Gondar』（異形『Gondär』『Gondarene』『gondarien』『Gondarine』を UF として持つ）。これらはいずれも西洋美術史記述による分類名で、制作した画家・教会・修道院自身がこの名で自らの絵画を呼んだ記録は当たった出典に無い。『Gondarine』という英語形をいつ・誰が最初に使ったかは未確認——ジュール・ルロワ『Ethiopian Painting in the Late Middle Ages and During the Gondar Dynasty』（1967年）のような20世紀の西洋美術史研究の書名にこの呼称が定着しているが、これが初出かは確認していない"
 claims:
-  - {field: time, source: "https://en.wikipedia.org/wiki/Gondarine_period", certainty: scholarly}
-  - {field: originated_in, source: "https://www.wikidata.org/wiki/Q218861", certainty: scholarly}
-  - {field: kind, source: "http://www.getty.edu/vow/AATFullDisplay?find=Gondar&logic=AND&note=&english=Y&subjectid=300263018", certainty: scholarly}
+  - {field: time, source: "https://journal.thewalters.org/volume/78/note/ethiopian-icon-paintings/", certainty: scholarly}
+  - {field: originated_in, source: "https://journal.thewalters.org/volume/78/note/ethiopian-icon-paintings/", certainty: scholarly}
+  - {field: kind, source: "https://journal.thewalters.org/volume/78/note/ethiopian-icon-paintings/", certainty: scholarly}
 space:
   - {role: originated_in, target: place/gondar}
 relations:
@@ -56,8 +56,8 @@ images:
     rights_source: https://clevelandart.org/art/2023.4
     license: cc0
     note: "《十二使徒とパウロの二連祭壇画》c.1700年、ワルダ・マルヤム（Wäldä Maryam）の工房または一門作。クリーブランド美術館蔵（画家の活動期は1600年代半ば〜1700年代初頭とされ、本文の聖アバ・アントニウス教会ディプティクの署名画家と同名・同時代）"
-status: draft
-updated: 2026-08-09
+status: verified
+updated: 2026-08-25
 ---
 
 # ゴンダール様式教会絵画 / Gondarine church painting

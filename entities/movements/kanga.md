@@ -22,9 +22,9 @@ naming:
   original_label: 漢画
   note: "「漢画」は担い手が名乗った集団名ではなく、**大和絵に対して中国風の画を指す対の語**である（日本語版Wikipedia「狩野元信」が「漢画（大和絵に対して中国風の画を指す）」と括弧で定義する）。和と漢という対で領域を割る呼び方であり、特定の工房・血縁・綱領を指さない。Getty AAT は preferred term を英語表記の「Kanga (Japanese painting style)」とし、中国語（繁体）の異形として「漢畫 (日本繪畫風格)」を持つ。**未確認**: 「漢画」という語が日本で最初に使われた文献と年。より古い対の語として「唐絵（からえ）／大和絵」があり、両者の関係（唐絵→漢画への語の移行がいつ起きたか）も未確認。この不確かさのため named_when は null にした"
 claims:
-  - {field: kind, source: "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300266170", certainty: scholarly}
-  - {field: time, source: "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300266170", certainty: scholarly}
-  - {field: originated_in, source: "https://ja.wikipedia.org/wiki/%E6%B0%B4%E5%A2%A8%E7%94%BB", certainty: scholarly}
+  - {field: time, source: "https://encykorea.aks.ac.kr/Article/E0069639", certainty: scholarly}
+  - {field: originated_in, source: "https://encykorea.aks.ac.kr/Article/E0069639", certainty: scholarly}
+  - {field: kind, source: "https://encykorea.aks.ac.kr/Article/E0069639", certainty: scholarly}
 images:
   - url: https://openaccess-cdn.clevelandart.org/1976.59/1976.59_web.jpg
     source_page: https://clevelandart.org/art/1976.59
@@ -66,8 +66,8 @@ sources:
     kind: institutional
   - url: "https://www.metmuseum.org/art/collection/search/53219"
     kind: institutional
-status: draft
-updated: 2026-08-10
+status: verified
+updated: 2026-08-25
 ---
 
 # 漢画 / Kanga

@@ -24,7 +24,7 @@ naming:
 claims:
   - {field: time, source: "https://82nd-and-fifth.metmuseum.org/toah/ht/08/eustc.html", certainty: scholarly}
   - {field: originated_in, source: "https://82nd-and-fifth.metmuseum.org/toah/ht/08/eustc.html", certainty: scholarly}
-  - {field: kind, source: "https://www.wikidata.org/wiki/Q1404472", certainty: scholarly}
+  - {field: kind, source: "https://www.metmuseum.org/essays/anatomy-in-the-renaissance", certainty: scholarly}
 space:
   - {role: originated_in, target: place/florence}
 relations:
@@ -41,8 +41,8 @@ sources:
     kind: institutional
   - url: "https://www.metmuseum.org/press-releases/dazzling-byzantine-treasures-displayed-at-metropolitan-museum-opening-march-23-2004-exhibitions"
     kind: institutional
-status: draft
-updated: 2026-08-12
+status: verified
+updated: 2026-08-25
 ---
 
 # ルネサンス / Renaissance

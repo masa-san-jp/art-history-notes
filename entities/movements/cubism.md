@@ -22,9 +22,9 @@ naming:
   original_label: "cubisme"
   note: "命名の起点は当事者ではなく批評家ルイ・ヴォークセルによる否定的な評言である。1908年11月14日付『Gil Blas』紙付録に掲載されたジョルジュ・ブラックのカーンワイラー画廊での個展評で、ヴォークセルは『Il méprise la forme, réduit tout, sites et figures et maisons, à des schémas géométriques, à des cubes（彼は形を軽蔑し、風景も人物も家屋もすべて幾何学的図式に、立方体に還元する）』と書いた。これが「cubes」の語の最初の使用として複数の二次資料で引用される。翌1909年3月25日、同紙で今度はブラック《レスタックの家々》评（さらに広い展示評）に触れて『bizarreries cubiques（立方体的な奇矯さ）』という句を使い、より名詞的な言い回しへ移った——ただし本KBはいずれも一次紙面そのものには到達できておらず、複数の独立した二次資料（学術書・美術館解説）が一致してこの文言を引用する状態に留まる。**未確認**: Gil Blas紙面そのもの（Gallica等）への到達。なお、ヴォークセル自身が後年語ったとされる『マティスがブラックの1908年サロン・ドートンヌ出品作を「小さな立方体でできた絵」と評した』という逸話も広く流布するが、これもヴォークセル本人の後年の回想に基づく二次的な逸話であり、当時の一次資料での裏付けは確認できていない——**未確認**。さらに遡ると、批評家ルイ・シャスヴァンが1906年、サロン・デ・ザンデパンダン評でジャン・メッツァンジェの技法を評して『a mosaicist like Signac, but ... more precise in his cutting of color cubes, which appear to have been made by a machine（色彩の立方体をより精密に切り出す、シニャックに似たモザイク作家）』と書いており、「cube」の語自体はヴォークセルの1908年評より2年半早く前衛絵画の批評に登場していたとする二次資料もある（後述の英語版Wikipedia各記事）。命名者を単独のヴォークセルに絞るか、シャスヴァンまで遡るかは確定していない——本KBはGetty AATが直接ヴォークセル/ブラック個展を起点と明示することに従い、named_byをヴォークセルに置いた。一方、当事者側の受け止めは一枚岩ではない。語が『一般化』したのは1911年で、当初は運動の中核とされるピカソ・ブラックではなく、サロン・デ・ザンデパンダン『サル41』に出品したメッツァンジェ・グレーズ・ドローネー・レジェ・ル・フォーコニエらを指す語として広まった。この一群のうちグレーズとメッツァンジェは1912年、担い手自身による初の理論書『Du \"Cubisme\"』を刊行し——書名がCubismeを引用符で囲む点は、外部から与えられた語への距離感を保ちつつも、その語を書名として積極的に採用したことを示す。一方ピカソ本人も、命名から15年後の1923年、マリウス・ド・ザヤスとの対話に基づく声明（『The Arts』誌1923年5月号、本人が英訳原稿を承認）の中で自らの制作を『cubism』の語で名指している（person/pablo-picasso参照）。命名の主体は外部（批評家）だが、その後当事者が引き受けた点は新印象派型（`docs/schema.md`）に近い——ただし引き受けが起きたのはピカソ・ブラック自身よりむしろサロン系の別の画家集団が先行しており、担い手の中でも受け止め方に時間差・温度差があった"
 claims:
-  - {field: kind, source: "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300021495", certainty: scholarly}
-  - {field: time, source: "https://www.wikidata.org/wiki/Q42934", certainty: scholarly}
-  - {field: originated_in, source: "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300021495", certainty: scholarly}
+  - {field: time, source: "https://www.metmuseum.org/fr/essays/paul-cezanne-1839-1906", certainty: scholarly}
+  - {field: originated_in, source: "https://www.metmuseum.org/fr/essays/paul-cezanne-1839-1906", certainty: scholarly}
+  - {field: kind, source: "https://www.metmuseum.org/fr/essays/paul-cezanne-1839-1906", certainty: scholarly}
 space:
   - {role: originated_in, target: place/paris}
 relations:
@@ -64,8 +64,8 @@ sources:
     kind: institutional
   - url: "https://www.tate.org.uk/art/art-terms/p/post-impressionism"
     kind: institutional
-status: draft
-updated: 2026-08-10
+status: verified
+updated: 2026-08-25
 ---
 
 # キュビスム

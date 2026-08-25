@@ -64,7 +64,7 @@ sources:
     kind: reference
   - url: "https://commons.wikimedia.org/wiki/File:El_Lissitzky,_Wendingen,_1921_(published_1923),_NGA_93943.jpg"
     kind: reference
-status: draft
+status: verified
 updated: 2026-08-25
 ---
 

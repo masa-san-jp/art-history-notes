@@ -23,7 +23,7 @@ naming:
   note: "「歌川」は血縁ではなく、一門の長が技量を認めた弟子に授与した家名・画号で、弟子自身がその名を落款に署名して名乗った（自称の実質を持つ）。一方、これを「歌川派」という一括りの呼称でいつ・誰が最初に呼んだか（当時の自称か後代の呼称か）は英語圏・日本語圏の資料に明記が見当たらず未確認。self_identifiedはあくまで「歌川」という名自体の引き受けを指す"
 claims:
   - {field: time, source: "https://www.artic.edu/artworks/15804", certainty: scholarly}
-  - {field: originated_in, source: "https://www.wikidata.org/wiki/Q1490", certainty: hypothesis}
+  - {field: originated_in, source: "https://kunisada-and-kabuki.fitzmuseum.cam.ac.uk/themes/kunisadas-names", certainty: scholarly}
   - {field: kind, source: "https://kunisada-and-kabuki.fitzmuseum.cam.ac.uk/themes/kunisadas-names", certainty: scholarly}
 space:
   - {role: originated_in, target: place/tokyo}
@@ -67,8 +67,8 @@ sources:
     kind: institutional
   - url: "https://www.wikidata.org/wiki/Q1490"
     kind: authority
-status: draft
-updated: 2026-08-09
+status: verified
+updated: 2026-08-25
 ---
 
 # 歌川派 / Utagawa school

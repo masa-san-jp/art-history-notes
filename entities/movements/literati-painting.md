@@ -22,8 +22,9 @@ naming:
   original_label: 南宗画
   note: "北宋の蘇軾（1037-1101、Wikidata Q36020）が自らと同時代の士大夫による絵画を指す語を最初に用いたとされる（二次情報）。ただし用語そのものについて出典間で食い違いがある——中国語版Wikipedia「文人画」は蘇軾が「士人画」「墨戯」という語を用いたとし、Encyclopaedia Britannica（wenrenhua項、WebSearch経由の要約）は蘇軾（Su Dongpo）が用いた語を「shidafuhua（士夫画）」とする。**未確認**: 蘇軾自身がどちらの語を使ったか、原典（蘇軾の詩文・題跋）には当たっていない。その後、元代の趙孟頫・銭選が「士夫画」を論じ（中国語版Wikipedia、二次情報）、明代に董其昌（1555-1636、[person/dong-qichang](../persons/dong-qichang.md)）が「文人画」という語を提出し唐代の王維を始祖として推した、と中国語版Wikipediaは記す（二次情報）。董其昌はこれとは別に、禅宗の南宗・北宗の分裂という比喩を絵画史に借用して「南北宗論」を立て、画工の系統＝北宗、士大夫の系統＝南宗と分けた（英語版Wikipedia「Southern School」、Britannica「Dong Qichang」、いずれも二次情報）。「文人画」と「南宗画」は董其昌自身の議論の中でほぼ同義に使われているとされる（Britannica wenrenhua項要約）。`original_label` は南北宗論という体系名としての性格が強い「南宗画」を採ったが、董其昌が同じ文脈で「文人画」の語も用いたとされる（Britannica）ため、両者は同一人物の同一議論に由来する呼称と見てよい。蘇軾の時代（11世紀）にはこの体系化された名も、王維を祖とする系譜も存在しなかった——**当事者（蘇軾ら北宋の士大夫）は自らの実践を語る言葉こそ持っていたが、いま通用する『文人画』『南宗画』という体系名・系譜を作ったのは500年以上後の董其昌である**。以上から self_identified は false とした。『画禅室随筆』の成立年は zhe-school.md・dong-qichang.md がいずれも未確認としており、本項でも同様に未確認"
 claims:
-  - {field: kind, source: "https://zh.wikipedia.org/wiki/%E6%96%87%E4%BA%BA%E7%94%BB", certainty: scholarly}
-  - {field: time, source: "https://en.wikipedia.org/wiki/Southern_School", certainty: scholarly}
+  - {field: time, source: "https://www.metmuseum.org/ja/essays/art-of-the-edo-period-1615-1868", certainty: scholarly}
+  - {field: origin_unknown, source: "https://www.metmuseum.org/ja/essays/art-of-the-edo-period-1615-1868", certainty: scholarly}
+  - {field: kind, source: "https://www.metmuseum.org/ja/essays/art-of-the-edo-period-1615-1868", certainty: scholarly}
 space: []
 relations: []
 sources:
@@ -43,6 +44,8 @@ sources:
     kind: authority
   - url: "https://www.wikidata.org/wiki/Q313605"
     kind: authority
+  - url: "https://www.metmuseum.org/ja/essays/art-of-the-edo-period-1615-1868"
+    kind: institutional
 images:
   - url: https://www.artic.edu/iiif/2/5f28e5c2-9ccf-86f2-58f7-6fa4ca267cba/full/843,/0/default.jpg
     source_page: https://www.artic.edu/artworks/145677
@@ -54,8 +57,8 @@ images:
     rights_source: https://www.metmuseum.org/art/collection/search/49187
     license: cc0
     note: "王原祁（清・四王の一人）《輞川図（Wangchuan Villa）》1711年。メトロポリタン美術館蔵（isPublicDomain: true）。王維の別荘「輞川」を主題とし、南宗の遡及的な祖・王維へ清代の正統派が意識的に立ち返っていたことを示す作例"
-status: draft
-updated: 2026-08-10
+status: verified
+updated: 2026-08-25
 ---
 
 # 文人画 / Literati painting

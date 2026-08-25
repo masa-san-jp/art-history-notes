@@ -22,9 +22,9 @@ naming:
   original_label: "Symbolism"
   note: "詩・文学と視覚芸術を横断し、外界の再現より観念、夢、神秘、暗示を重視した運動を後世にまとめた名称。ジャン・モレアスが1886年に『フィガロ』紙で宣言した用法を命名の基準として記録する"
 claims:
-  - {field: time, source: "https://www.wikidata.org/wiki/Q164800", certainty: scholarly}
-  - {field: originated_in, source: "https://www.britannica.com/art/Symbolism-literary-and-artistic-movement", certainty: scholarly}
-  - {field: kind, source: "https://www.wikidata.org/wiki/Q164800", certainty: scholarly}
+  - {field: time, source: "https://www.moma.org/docs/press_archives/4863/releases/MOMA_1972_0092_82A.pdf", certainty: scholarly}
+  - {field: originated_in, source: "https://www.moma.org/docs/press_archives/4863/releases/MOMA_1972_0092_82A.pdf", certainty: scholarly}
+  - {field: kind, source: "https://www.moma.org/docs/press_archives/4863/releases/MOMA_1972_0092_82A.pdf", certainty: scholarly}
 space:
   - {role: originated_in, target: place/paris}
 relations:
@@ -48,8 +48,8 @@ sources:
     kind: institutional
   - url: "https://www.smb.museum/fileadmin/website/Presse/Pressematerial/2020/09/BS_Presse_EN_04b_Catalogue-Gleis.pdf"
     kind: scholarly
-status: draft
-updated: 2026-08-13
+status: verified
+updated: 2026-08-25
 ---
 
 # 象徴主義 / Symbolism

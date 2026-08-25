@@ -22,9 +22,9 @@ naming:
   original_label: "Art Nouveau"
   note: "植物的な曲線、総合的な装飾、建築と応用芸術の統合を特徴とする国際的な様式。フランス語の名称だけでなく、Jugendstil、Secession、Modernismeなど地域別の名称を持つため後世の総括的な項目とする"
 claims:
-  - {field: time, source: "https://www.wikidata.org/wiki/Q34636", certainty: scholarly}
-  - {field: originated_in, source: "https://www.vam.ac.uk/articles/art-nouveau-an-international-style", certainty: scholarly}
-  - {field: kind, source: "https://www.wikidata.org/wiki/Q34636", certainty: scholarly}
+  - {field: time, source: "https://www.metmuseum.org/ja/essays/art-nouveau", certainty: scholarly}
+  - {field: originated_in, source: "https://www.metmuseum.org/ja/essays/art-nouveau", certainty: scholarly}
+  - {field: kind, source: "https://www.metmuseum.org/ja/essays/art-nouveau", certainty: scholarly}
 space:
   - {role: originated_in, target: place/brussels}
 relations:
@@ -44,8 +44,8 @@ sources:
     kind: institutional
   - url: "https://www.ndl.go.jp/kaleido/entry/20/3.html"
     kind: authority
-status: draft
-updated: 2026-08-12
+status: verified
+updated: 2026-08-25
 ---
 
 # アール・ヌーヴォー / Art Nouveau

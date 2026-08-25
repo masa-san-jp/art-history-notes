@@ -56,8 +56,8 @@ images:
     rights_source: https://clevelandart.org/art/1995.21
     license: cc0
     note: "《頭部像》熱ルミネッセンス測定で西暦20〜620年。中部ナイジェリア・ノク文化様式圏、制作者不明の女性陶工。クリーブランド美術館蔵（share_license_status: CC0）。同館解説は『この完全な形で残る頭部像は、大胆な造形・意図的な非対称性・繊細な表情によって、現存するノク彫刻の中でも最良の作例の1つ』とする"
-status: draft
-updated: 2026-08-13
+status: verified
+updated: 2026-08-25
 ---
 
 # ノク彫刻 / Nok sculpture

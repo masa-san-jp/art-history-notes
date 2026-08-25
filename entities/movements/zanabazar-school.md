@@ -22,9 +22,9 @@ naming:
   original_label: "Zanabazar school（英語圏の美術史・古美術市場での慣行的呼称。モンゴル語の対応する原語表記・最初の使用者は未確認）"
   note: "「ザナバザル」自体、本人が生まれ持った名ではなく、1649年に5世ダライ・ラマがターラナータの転生と認定した際に授けたサンスクリット名「ジュニャーナヴァジュラ」のモンゴル語形である。琳派（尾形光琳の一字＋「派」）と同じく人名由来の命名だが、琳派が個人名の一部を切り出す造語であるのに対し、ザナバザル様式は個人名をそのまま使う点、かつその個人名自体が師（ダライ・ラマ）から授けられた宗教称号である点で、命名の構造は異なる。当事者（ザナバザル本人や後代の工房）がこの名で自称した記録は無く、後代の美術史・市場の側からの呼称と判断した"
 claims:
-  - {field: kind, source: "https://en.wikipedia.org/wiki/Jebtsundamba_Khutuktu", certainty: scholarly}
-  - {field: time, source: "https://en.wikipedia.org/wiki/Zanabazar", certainty: scholarly}
-  - {field: originated_in, source: "https://www.wikidata.org/wiki/Q7857142", certainty: scholarly}
+  - {field: time, source: "https://api.artic.edu/api/v1/artworks/158101", certainty: scholarly}
+  - {field: originated_in, source: "https://api.artic.edu/api/v1/artworks/158101", certainty: scholarly}
+  - {field: kind, source: "https://api.artic.edu/api/v1/artworks/158101", certainty: scholarly}
 space:
   - {role: originated_in, target: place/tovkhon-monastery}
   - {role: active_in, target: place/ulaanbaatar}
@@ -66,8 +66,8 @@ images:
     rights_source: https://www.artic.edu/artworks/158101
     license: cc0
     note: "《ヴァイローチャナ仏坐像（説法印）》17世紀末〜18世紀初頭、鍍金青銅。シカゴ美術館蔵、artist_display＝\"Mongolia / School of Zanabazar\"（is_public_domain: true）"
-status: draft
-updated: 2026-08-13
+status: verified
+updated: 2026-08-25
 ---
 
 # ザナバザル様式 / Zanabazar school

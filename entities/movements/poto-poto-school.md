@@ -22,8 +22,8 @@ naming:
   original_label: "École de Poto-Poto / École de peinture de Poto-Poto"
   note: "地区名（ポト＝ポト）がそのまま学校の呼称になっており、命名という個別の行為を確認できる記録は無い（狩野派の家名と同型）。今日も学校自身がこの名を名乗っている（現行公式サイトのドメインが ecoledepeinture.cg）ことから self_identified は true と判断したが、この名を最初に用いたのが創設者ロッズ自身か、地区の通称がそのまま定着したのかは**未確認**"
 claims:
-  - {field: time, source: "https://www.wikidata.org/wiki/Q114247696", certainty: scholarly}
-  - {field: originated_in, source: "https://www.wikidata.org/wiki/Q114247696", certainty: scholarly}
+  - {field: time, source: "https://sites.rhodes.edu/potopoto/history-poto-poto-school", certainty: scholarly}
+  - {field: originated_in, source: "https://sites.rhodes.edu/potopoto/history-poto-poto-school", certainty: scholarly}
   - {field: kind, source: "https://sites.rhodes.edu/potopoto/history-poto-poto-school", certainty: scholarly}
 founding_control: external   # 創設者ロッズはフランス人で単独の発意により学校を興し、運営資金はフランス植民地当局の補助金に拠ったとされる（本文『kind の判定』参照）
 control_changes:
@@ -55,8 +55,8 @@ sources:
     kind: reference
   - url: "http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=Poto-Poto&logop=and&notes="
     kind: authority
-status: draft
-updated: 2026-08-13
+status: verified
+updated: 2026-08-25
 ---
 
 # ポト＝ポト絵画学校 / École de Poto-Poto

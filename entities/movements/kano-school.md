@@ -22,8 +22,9 @@ naming:
   original_label: 狩野派
   note: 家名がそのまま呼称になっており、命名という行為が存在しない型。西洋の -ism のように誰かが名付けた運動ではない
 claims:
-  - {field: time, source: "https://www.wikidata.org/wiki/Q252801", certainty: scholarly}
-  - {field: kind, source: "https://www.wikidata.org/wiki/Q252801", certainty: scholarly}
+  - {field: time, source: "https://www.kyohaku.go.jp/jp/assets/press/2027_kano_press_0608-02ver.pdf", certainty: scholarly}
+  - {field: originated_in, source: "https://www.kyohaku.go.jp/jp/assets/press/2027_kano_press_0608-02ver.pdf", certainty: scholarly}
+  - {field: kind, source: "https://www.kyohaku.go.jp/jp/assets/press/2027_kano_press_0608-02ver.pdf", certainty: scholarly}
 space:
   - {role: originated_in, target: place/kyoto}
   - {role: active_in, target: place/kyoto}
@@ -48,8 +49,8 @@ images:
     rights_source: https://www.metmuseum.org/art/collection/search/53009
     license: cc0
     note: "狩野探幽《四季山水図（Landscapes of the Four Seasons）》1630年代、メトロポリタン美術館蔵（isPublicDomain: true）"
-status: draft
-updated: 2026-08-08
+status: verified
+updated: 2026-08-25
 ---
 
 # 狩野派 / Kanō school

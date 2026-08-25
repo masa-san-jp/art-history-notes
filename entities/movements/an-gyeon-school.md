@@ -22,9 +22,9 @@ naming:
   original_label: 安堅派
   note: "한국민족문화대백과사전「안견파」（執筆者は安輝濬本人）は「'안견파'라는 용어는 안휘준…에 의해 명명되었다」（「安堅派」という用語は安輝濬によって命名された）と明記する。安輝濬の主著『韓国絵画史』（一志社、1980年）が用語の学術的な確立を示す最も具体的な年代の分かる文献だが、それ以前の1974年論文「安堅과 그의 画風—夢遊桃源図を中心으로」（『震檀学報』38）で既に同語を用いていた可能性があり、named_when を1980年と特定できるかは**未確認**"
 claims:
-  - {field: kind, source: "https://encykorea.aks.ac.kr/Article/E0069639", certainty: scholarly}
-  - {field: originated_in, source: "https://encykorea.aks.ac.kr/Article/E0034491", certainty: scholarly}
   - {field: time, source: "https://encykorea.aks.ac.kr/Article/E0069639", certainty: scholarly}
+  - {field: originated_in, source: "https://encykorea.aks.ac.kr/Article/E0034491", certainty: scholarly}
+  - {field: kind, source: "https://encykorea.aks.ac.kr/Article/E0069639", certainty: scholarly}
 space:
   - {role: originated_in, target: place/hanseong}
   - {role: active_in, target: place/hanseong}
@@ -53,8 +53,8 @@ images:
     rights_source: https://commons.wikimedia.org/wiki/File:Mongyudowondo.jpg
     license: pdm
     note: "安堅《夢遊桃源図（몽유도원도）》1447年、絹本淡彩。安堅派という括りの起点となった安堅自身の代表作。現在は日本・天理大学附属天理図書館蔵。Wikimedia Commons は CC-PD-Mark／PD-old-100-expired を付し、出典を韓国著作権委員会「공유마당」（gongu.copyright.or.kr）および Google Arts & Culture とする"
-status: draft
-updated: 2026-08-10
+status: verified
+updated: 2026-08-25
 ---
 
 # 安堅派 / An Gyeon school

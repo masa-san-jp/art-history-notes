@@ -22,9 +22,9 @@ naming:
   original_label: 民藝
   note: "「民衆的工藝」を略した造語。柳宗悦が河井寬次郎・濱田庄司とともに、木喰仏の全国調査旅行の途上で作ったとされる（時期は複数の二次情報が1925年とするが、月については資料間で差がある）。京都の朝市で使われていた俗語「下手物」に代わる語として必要とされた。1926年、柳・河井・濱田に陶芸家・富本憲吉の賛同を加えた四人連名で「日本民藝美術館設立趣意書」を発表し、この語を公表した。四人の連名文書である以上、命名者を柳個人に単純化はできないが、`named_by`には主導者として柳宗悦を置いた"
 claims:
-  - {field: kind, source: "https://www.wikidata.org/wiki/Q3314961", certainty: scholarly}
-  - {field: time, source: "https://mingeikan.or.jp/about/history/", certainty: scholarly}
-  - {field: originated_in, source: "https://mingeikan.or.jp/about/history/", certainty: scholarly}
+  - {field: time, source: "https://www.metmuseum.org/art/collection/search/36115", certainty: scholarly}
+  - {field: originated_in, source: "https://www.metmuseum.org/art/collection/search/36115", certainty: scholarly}
+  - {field: kind, source: "https://www.metmuseum.org/art/collection/search/36115", certainty: scholarly}
 space:
   - {role: originated_in, target: place/tokyo}
 relations:
@@ -55,8 +55,8 @@ sources:
     kind: reference
   - url: "https://www.metmuseum.org/art/collection/search/36115"
     kind: institutional
-status: draft
-updated: 2026-08-10
+status: verified
+updated: 2026-08-25
 ---
 
 # 民藝運動 / Mingei movement

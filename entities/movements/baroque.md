@@ -22,9 +22,9 @@ naming:
   original_label: "Baroque"
   note: "後世の美術史が、劇的な空間、運動感、光、古典・宗教的伝統の再編を横断して括った文化運動・様式。地域別の実践を一つの均質な作風とはみなさない"
 claims:
-  - {field: time, source: "https://www.wikidata.org/wiki/Q37853", certainty: scholarly}
+  - {field: time, source: "https://www.metmuseum.org/ko/essays/baroque-rome", certainty: scholarly}
   - {field: originated_in, source: "https://www.metmuseum.org/ko/essays/baroque-rome", certainty: scholarly}
-  - {field: kind, source: "https://www.wikidata.org/wiki/Q37853", certainty: scholarly}
+  - {field: kind, source: "https://www.metmuseum.org/ko/essays/baroque-rome", certainty: scholarly}
 space:
   - {role: originated_in, target: place/rome}
 relations: []
@@ -35,8 +35,8 @@ sources:
     kind: authority
   - url: "https://www.metmuseum.org/ko/essays/baroque-rome"
     kind: institutional
-status: draft
-updated: 2026-08-12
+status: verified
+updated: 2026-08-25
 ---
 
 # バロック / Baroque

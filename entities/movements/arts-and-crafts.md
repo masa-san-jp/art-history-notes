@@ -22,9 +22,9 @@ naming:
   original_label: "Arts and Crafts"
   note: "単一の宣言集団が名乗った名称ではなく、英国の複数の結社・工房・作り手を後からまとめる国際的な運動名。V&Aは、1887年にロンドンで設立されたArts and Crafts Exhibition Societyから運動が名を取ったと説明する"
 claims:
-  - {field: time, source: "https://www.vam.ac.uk/articles/arts-and-crafts-an-introduction", certainty: scholarly}
-  - {field: originated_in, source: "https://www.vam.ac.uk/articles/arts-and-crafts-an-introduction", certainty: scholarly}
-  - {field: kind, source: "https://www.vam.ac.uk/articles/arts-and-crafts-an-introduction", certainty: scholarly}
+  - {field: time, source: "https://www.metmuseum.org/it/essays/design-reform", certainty: scholarly}
+  - {field: originated_in, source: "https://www.metmuseum.org/it/essays/design-reform", certainty: scholarly}
+  - {field: kind, source: "https://www.metmuseum.org/it/essays/design-reform", certainty: scholarly}
 space:
   - {role: originated_in, target: place/london}
 relations:
@@ -40,8 +40,8 @@ sources:
     kind: institutional
   - url: "https://www.mak.at/en/program/exhibitions/vienna_1900"
     kind: reference
-status: draft
-updated: 2026-08-13
+status: verified
+updated: 2026-08-25
 ---
 
 # アーツ・アンド・クラフツ運動 / Arts and Crafts movement

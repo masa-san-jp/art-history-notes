@@ -22,8 +22,9 @@ naming:
   original_label: 琳派
   note: 尾形光琳の一字から作られた呼称で、当事者が名乗った名ではない。光琳派・宗達光琳派とも呼ばれる（Wikidata Q3179819 の日本語記述）。Getty AAT の見出し語は Sōtatsu-Kōrin School（300106734）。「琳派」という語がいつ誰によって定着したかは未確認
 claims:
-  - {field: time, source: "https://www.wikidata.org/wiki/Q3179819", certainty: scholarly}
-  - {field: kind, source: "https://www.wikidata.org/wiki/Q3179819", certainty: hypothesis}
+  - {field: time, source: "https://www.metmuseum.org/it/essays/rinpa-painting-style", certainty: scholarly}
+  - {field: originated_in, source: "https://www.metmuseum.org/it/essays/rinpa-painting-style", certainty: scholarly}
+  - {field: kind, source: "https://www.metmuseum.org/it/essays/rinpa-painting-style", certainty: scholarly}
 space:
   - {role: originated_in, target: place/kyoto}
   - {role: active_in, target: place/tokyo}
@@ -38,6 +39,8 @@ sources:
     kind: authority
   - url: "https://www.ndl.go.jp/kaleido/entry/20/2.html"
     kind: authority
+  - url: "https://www.metmuseum.org/it/essays/rinpa-painting-style"
+    kind: institutional
 images:
   - url: https://images.metmuseum.org/CRDImages/as/original/DT231.jpg
     source_page: https://www.metmuseum.org/art/collection/search/39664
@@ -49,8 +52,8 @@ images:
     rights_source: https://www.artic.edu/artworks/35620
     license: cc0
     note: "俵屋宗達《牡丹・木蓮・蒲公英図》（Peonies, Magnolia, and Dandelions）。シカゴ美術館蔵（is_public_domain: true）"
-status: draft
-updated: 2026-08-08
+status: verified
+updated: 2026-08-25
 ---
 
 # 琳派 / Rimpa school

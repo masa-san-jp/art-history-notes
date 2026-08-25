@@ -22,9 +22,9 @@ naming:
   original_label: "New Negro / Negro Renaissance"
   note: "当事者（アラン・ロック）自身が1925年11月付の序文（本KBが直接読んだ一次資料、後掲アーカイブ資料）で『the first fruits of the Negro Renaissance（ニグロ・ルネサンスの初物）』と書いており、当時この現象を指した語は『Negro Renaissance』『New Negro』であって『Harlem Renaissance』ではない。英語版Wikipediaも『At the time, it was known as the \"New Negro Movement\"』とし、Wikidata Q829895のaliasにも『New Negro Movement』が入っている（いずれも本KBが直接確認）。『Harlem Renaissance』への呼び替えの時期・命名者は、当たった範囲では確定できない。研究者Ernest Julius Mitchell II（Amerikastudien/American Studies誌55巻4号, 2010年, pp.641-65、以下Mitchell論文）の要旨（本KBはJSTOR本体を読めておらず検索エンジン経由の複数の独立した要約でのみ確認——二次要約経由）によれば『Harlem Renaissance』という語は1940年より前には印刷物に現れず、1960年代に広く定着したとされる。命名者を named_by に特定できないため null にした"
 claims:
-  - {field: kind, source: "https://archive.org/download/newnegrointerpre00unse/newnegrointerpre00unse_djvu.txt", certainty: attested}
   - {field: time, source: "https://archive.org/download/newnegrointerpre00unse/newnegrointerpre00unse_djvu.txt", certainty: scholarly}
-  - {field: originated_in, source: "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300121558", certainty: scholarly}
+  - {field: originated_in, source: "https://archive.org/details/newnegrointerpre00unse", certainty: attested}
+  - {field: kind, source: "https://archive.org/download/newnegrointerpre00unse/newnegrointerpre00unse_djvu.txt", certainty: attested}
 founding_control: shared
 space:
   - {role: originated_in, target: place/new-york-city}
@@ -65,8 +65,8 @@ sources:
     kind: scholarly
   - url: "https://www.nationalgeographic.com/history/article/harlem-renaissance-dinner"
     kind: reference
-status: draft
-updated: 2026-08-09
+status: verified
+updated: 2026-08-25
 ---
 
 # ハーレム・ルネサンス / Harlem Renaissance

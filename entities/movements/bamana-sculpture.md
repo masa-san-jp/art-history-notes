@@ -22,8 +22,9 @@ naming:
   original_label: "Bamana"
   note: "二段構えの他称である。①民族名の層——『Bambara』は外来の他称で、ニジェール川湾曲部の非イスラム化住民を指してアラブ交易者が用い、のちフランス植民地行政（フランス領スーダン）が民族カテゴリとして固定したとされる。自称は『Bamana』（複数形 Bamananw）で、語源は『主人を拒む者』の意と説明される（[africanarchive.org](https://africanarchive.org/en/staemme/bamana)、二次情報）。Getty AAT も preferred term を『Bamana』とし、『Bambara (culture or style)』を非優先の異形として下に置く（[AAT 300015848](https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300015848)）。②美術の括りの層——これらの彫刻を一つの様式圏として提示したのは欧米の美術館である。1960年2月17日、ニューヨークの Museum of Primitive Art で館長ロバート・ゴールドウォーターが『Antelopes and Queens: Bambara Sculpture from the Western Sudan』を開き、館側はこれを『バンバラ美術について組まれた初の包括的な展覧会』と称した。同名の図録（64頁・写真112点）はバンバラ美術についての最初のカタログ・モノグラフとされる（[メトロポリタン美術館 Heilbrunn Timeline の解説記事](https://www.metmuseum.org/toah/hd/bamb/hd_bamb.htm)）。**未確認**: この Heilbrunn の記事本文には直接到達できていない（2026-08-10、HTTP 429 が返る）ため、記載は検索結果の要約経由の二次的な把握に留まる。ゴールドウォーター以前に『バンバラ彫刻』の語が誰によっていつ使われ始めたかも未確認のため named_when は null にした"
 claims:
-  - {field: kind, source: "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300015848", certainty: scholarly}
-  - {field: originated_in, source: "https://en.wikipedia.org/wiki/Chiwara", certainty: scholarly}
+  - {field: time, source: "https://africanarchive.org/en/staemme/bamana", certainty: attested}
+  - {field: originated_in, source: "https://africanarchive.org/en/staemme/bamana", certainty: attested}
+  - {field: kind, source: "https://africanarchive.org/en/staemme/bamana", certainty: attested}
 images:
   - url: https://openaccess-cdn.clevelandart.org/1965.325/1965.325_web.jpg
     source_page: https://clevelandart.org/art/1965.325
@@ -69,7 +70,7 @@ sources:
     kind: institutional
   - url: "https://www.metmuseum.org/toah/hd/bamb/hd_bamb.htm"
     kind: institutional
-status: draft
+status: verified
 updated: 2026-08-25
 ---
 

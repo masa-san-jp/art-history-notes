@@ -22,9 +22,9 @@ naming:
   original_label: "Western Indian style"
   note: "ジャイナ教徒自身がこの作画伝統を「西インド様式」や「ジャイナ写本絵画」の名で呼んだ記録は確認できていない。この名は近代の美術史記述による分類名で、インド学者W. Norman Brownの1930年の著作『Miniature painting in Western India』、および1934年の写本図録（The Freer Gallery of Art刊）の副題「as executed in the early western Indian style」に見える表現が定着したとみられる（Lahoti 2024が引く書誌情報に基づく確認で、Brown自身の原著テキストには未到達——孫引きの書誌情報を経由した確認にとどまる）。現在も呼び方は割れている——「Western Indian style（西インド様式）」は様式の地理的起源を指す名で、「Jain manuscript painting（ジャイナ写本絵画）」はメトロポリタン美術館（John Guy, 2012）などで使われる、担い手の宗教共同体を指す名。本ファイルは label_en に後者を採用し、original_label には呼称としてより早く定着した前者を残した"
 claims:
-  - {field: kind, source: "https://www.metmuseum.org/essays/jain-manuscript-painting", certainty: scholarly}
   - {field: time, source: "https://chitrolekha.com/ns/v8n1/v8n102.pdf", certainty: scholarly}
   - {field: originated_in, source: "https://www.metmuseum.org/essays/jain-manuscript-painting", certainty: scholarly}
+  - {field: kind, source: "https://www.metmuseum.org/essays/jain-manuscript-painting", certainty: scholarly}
 space:
   - {role: originated_in, target: place/patan}
 relations: []
@@ -56,8 +56,8 @@ images:
     rights_source: https://www.metmuseum.org/art/collection/search/37788
     license: cc0
     note: "《デーヴァーナンダーの十四の吉夢》『カルパスートラ』写本葉、不透明水彩・金・紙、c.1465年、グジャラート（ジャウンプル）。メトロポリタン美術館蔵（isPublicDomain: true）。紙への転換後、金とラピスラズリを用いた成熟期の様式を示す（John Guy の Met essay が同一葉に言及）"
-status: draft
-updated: 2026-08-10
+status: verified
+updated: 2026-08-25
 ---
 
 # ジャイナ写本絵画 / Jain manuscript painting

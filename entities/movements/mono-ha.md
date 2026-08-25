@@ -23,9 +23,9 @@ naming:
   original_label: もの派
   note: "命名者は不明である。日本語版Wikipediaは「『もの派』の命名者は不明」と明記し、李禹煥自身も日本美術オーラル・ヒストリー・アーカイヴのインタビューで『誰が言ったのか全然分かりません』『たぶん69年終わり頃出た』と述べ、命名者・命名時期を自らも特定できないとする。批評家・峯村敏明は自身の1986年の英文エッセイ『What was MONO-HA?』（鎌倉画廊）で、1970年代初頭に『軽蔑的な無関心のニュアンス』（some connotations of contemptuous indifference）を伴ってこの語が使われ始め、当時『その名はグループの大半の耳にはひどく不快に響いた』と記す。印刷物として確認できる最も早い使用例は藤枝晃雄『「もの派」の錯誤』（美術手帖1973年3月号）と峯村敏明『「くりかえし」と「システム」―「もの派」以後のモラル』（同誌1973年12月号、375号）で、いずれも既存の呼称を批評的に扱う体裁を取っており、その時点で語がすでに流通していたことを前提とする書き方である。李禹煥はオーラルヒストリーで、当時呼ばれた側の実感として『当時言われた当事者としてはすごく嫌だった』とし、その語の意味を『まともにものが作れない連中、表現ができない、絵も描けない、生のものに頼る連中』という蔑称だったと説明する。峯村自身の1986年エッセイも、東京藝大系・日大系の作家の一部からは『李＋多摩美系の作品を指すために作られた語であり、自分たちに当てはめるのは疑わしい』という異論があったと記す。この呼称を当事者が積極的に自分たちのものとして名乗り直した記録は見当たらない。李禹煥は同オーラルヒストリーで『それがいつの間にか定着した』と述べるにとどまり、これは1986年ポンピドゥー・センター『前衛芸術の日本 1910-1970』展や2012年Blum & Poeの回顧展図録（李禹煥自身も寄稿）のように、美術館・市場が呼称を使い続けたことで事後的に定着したことを指しており、当事者が能動的に名乗った証拠ではない"
 claims:
-  - {field: kind, source: "https://en.wikipedia.org/wiki/Mono-ha", certainty: scholarly}
-  - {field: time, source: "https://www.getty.edu/vow/AATFullDisplay?find=mono+ha&logic=AND&note=&english=Y&prev_page=1&subjectid=300417405", certainty: scholarly}
-  - {field: originated_in, source: "https://en.wikipedia.org/wiki/Mono-ha", certainty: scholarly}
+  - {field: time, source: "https://oralarthistory.org/archives/interviews/lee_u_fan_02/", certainty: scholarly}
+  - {field: originated_in, source: "https://oralarthistory.org/archives/interviews/lee_u_fan_02/", certainty: scholarly}
+  - {field: kind, source: "https://oralarthistory.org/archives/interviews/lee_u_fan_02/", certainty: scholarly}
 space:
   - {role: originated_in, target: place/tokyo}
 relations:
@@ -47,11 +47,11 @@ sources:
   - url: "https://www.kamakura.gallery/mono-ha/minemura-en.html"
     kind: reference
   - url: "https://oralarthistory.org/archives/interviews/lee_u_fan_02/"
-    kind: reference
+    kind: scholarly
   - url: "https://www.pen-online.jp/article/012230.html"
     kind: reference
-status: draft
-updated: 2026-08-09
+status: verified
+updated: 2026-08-25
 ---
 
 # もの派 / Mono-ha

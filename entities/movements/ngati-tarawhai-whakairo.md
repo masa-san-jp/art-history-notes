@@ -22,9 +22,9 @@ naming:
   original_label: "whakairo（彫刻）／tohunga whakairo（彫刻の達人・彫刻師）。当事者自身の英語表記では \"the Ngāti Tarāwhai school of carving\"（Ngāti Tarāwhai Iwi Trust）"
   note: "「whakairo」はマオリ全体で使われる彫刻一般の語で、部族名を持たない（Wikipedia \"Whakairo\"）。ンガーティ・タラーワイ自身の子孫団体であるNgāti Tarāwhai Iwi Trustは、自らのウェブサイトでウェロ・タロイを\"the originator of carving design and leader of carvers at the Ngāti Tarāwhai school of carving at Ruatō\"（彫刻意匠の創始者・ルアトーにおけるンガーティ・タラーワイ彫刻学派の彫刻師の頭）と記し、当事者自身が「学派（school）」の語を使って自分たちの系譜を語っている（self_identified: true とした根拠）。一方、この学派を他のテ・アラワ系部族（ンガーティ・ワカウエ、ンガーティ・ピカオ）の様式と並べて比較・命名する行為は、ロジャー・ナイチ（Roger Neich）の学術研究（2001年『Carved Histories』）やニュージーランド・マオリ芸術工芸機構（NZMACI）による2017年の公式な様式認定に負っている部分が大きい——「学派」としての自己認識と、「様式」として他と比較分類する行為は、当事者と外部（学者・機関）の両方が担っている"
 claims:
-  - {field: time, source: "https://www.ngatitarawhaiiwi.org.nz/nga-tohunga", certainty: attested}
-  - {field: originated_in, source: "https://www.ngatitarawhaiiwi.org.nz/nga-tohunga", certainty: attested}
-  - {field: kind, source: "https://www.ngatitarawhaiiwi.org.nz/nga-tohunga", certainty: scholarly}
+  - {field: time, source: "https://aucklanduniversitypress.co.nz/carved-histories-rotorua-ngati-tarawhai-carving/", certainty: scholarly}
+  - {field: originated_in, source: "https://aucklanduniversitypress.co.nz/carved-histories-rotorua-ngati-tarawhai-carving/", certainty: scholarly}
+  - {field: kind, source: "https://aucklanduniversitypress.co.nz/carved-histories-rotorua-ngati-tarawhai-carving/", certainty: scholarly}
 space:
   - {role: originated_in, target: place/lake-okataina}
 relations:
@@ -58,8 +58,8 @@ sources:
     kind: scholarly
   - url: "https://www.britishmuseum.org/collection/object/E_Oc1993-03-79"
     kind: institutional
-status: draft
-updated: 2026-08-13
+status: verified
+updated: 2026-08-25
 ---
 
 # ンガーティ・タラーワイの彫刻 / Ngāti Tarāwhai whakairo

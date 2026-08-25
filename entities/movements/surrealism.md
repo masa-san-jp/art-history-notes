@@ -22,9 +22,9 @@ naming:
   original_label: "surréalisme"
   note: "宣言文が辞書の体裁で語を定義しており、自称であることが本文で直接読める（『SURRÉALISME, n. m. Automatisme psychique pur par lequel on se propose d'exprimer, soit verbalement, soit par écrit, soit de toute autre manière, le fonctionnement réel de la pensée.』）。ただし**語そのものはブルトンの造語ではない**。ギヨーム・アポリネールが1917年3月、バレエ・リュスの『パラード』（初演5月18日）のプログラム解説で「一種のシュルレアリスム（une sorte de surréalisme）」と書いたのが先行する（英語版Wikipedia、二次情報）。アポリネールが名づけたのは1つの舞台の性質であってこの運動ではないため named_by は null とし、語の先行使用としてここに記した"
 claims:
-  - {field: kind, source: "https://fr.wikipedia.org/wiki/Manifeste_du_surr%C3%A9alisme", certainty: attested}
-  - {field: time, source: "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300021512", certainty: scholarly}
-  - {field: originated_in, source: "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300021512", certainty: scholarly}
+  - {field: time, source: "https://gallica.bnf.fr/ark:/12148/btv1b525214035", certainty: attested}
+  - {field: originated_in, source: "https://gallica.bnf.fr/ark:/12148/btv1b525214035", certainty: attested}
+  - {field: kind, source: "https://gallica.bnf.fr/ark:/12148/btv1b525214035", certainty: attested}
 space:
   - {role: originated_in, target: place/paris}
 relations:
@@ -47,8 +47,8 @@ sources:
     note: "URLの資料パスから一次資料と判定"
   - url: "https://www.bnf.fr/fr/1924-annee-surrealiste"
     kind: reference
-status: draft
-updated: 2026-08-10
+status: verified
+updated: 2026-08-25
 ---
 
 # シュルレアリスム / Surrealism

@@ -111,6 +111,16 @@ uv run --locked python tools/audit_source_migration.py --check-type work
 
 全8 entity型が構造化形式へ移行済みで、各型の `--check-type` をCIのゲートにしている。
 
+### `verified-movement-baseline-v1.yaml` — 119 movementの根拠付きverified gate
+
+基準commit `1c0c1734e97f3c56c58a90ba93bc02638a62b947` の辞書順119 IDをmanifestに固定する。
+`tools/build_graph.py --check` は、manifestの件数・重複・存在・型・source commit形式を検証し、
+`enforce_complete: true` のとき全対象が `verified` であることを要求する。movementの厳格条件は
+`time`、`kind`、`originated_in` または `origin_unknown` の排他的claim、親sourcesに登録された
+http(s) URL、certainty、Wikidata以外の一次・学術・機関資料である。manifest外の新規movementは
+通常schema検証だけを受ける。完了gateを `true` から `false` へ戻す退行はテストで拒否する。
+進捗とregion別件数は `data/coverage.json` と `overviews/coverage.md` に生成する。
+
 ### `kind`（movement 必須・4値）
 
 `self-declared` 当事者が名乗った運動 ／ `retrospective` 後代に外部が付けた括り ／

@@ -22,9 +22,9 @@ naming:
   original_label: "Fauvism"
   note: "1905年のサロン・ドートンヌをめぐる批評家ルイ・ヴォークセルの『野獣（les fauves）』という呼称から定着した、短期間のフランス絵画運動。参加者全員が自らを同じ組織名で呼んだわけではないため後世的な分類とする"
 claims:
-  - {field: time, source: "https://www.wikidata.org/wiki/Q166593", certainty: scholarly}
+  - {field: time, source: "https://shop.tate.org.uk/derain-the-pool-of-london/andder1703.html", certainty: scholarly}
   - {field: originated_in, source: "https://shop.tate.org.uk/derain-the-pool-of-london/andder1703.html", certainty: scholarly}
-  - {field: kind, source: "https://www.wikidata.org/wiki/Q166593", certainty: scholarly}
+  - {field: kind, source: "https://shop.tate.org.uk/derain-the-pool-of-london/andder1703.html", certainty: scholarly}
 space:
   - {role: originated_in, target: place/paris}
 relations:
@@ -45,8 +45,8 @@ sources:
     kind: institutional
   - url: "https://artbma.org/press-release/bma-presents-the-art-of-pattern-henri-matisse-and-japanese-woodcut-artists/"
     kind: reference
-status: draft
-updated: 2026-08-13
+status: verified
+updated: 2026-08-25
 ---
 
 # フォーヴィスム / Fauvism

@@ -21,7 +21,10 @@ naming:
   named_when: null
   original_label: "Safavid painting"
   note: "「サファヴィー」は王朝名（教団創始者サフィー・アッディーン・アルダビリーに由来）で、当事者が自分たちの絵画を「サファヴィー様式」と名乗った記録はない。王朝名をそのまま美術史区分に転用した、後代の学術的な期分け用語"
-claims: []
+claims:
+  - {field: time, source: "https://resources.metmuseum.org/resources/metpublications/pdf/Masterpieces_from_the_Department_of_Islamic_Art_in_The_Metropolitan_Museum_of_Art.pdf", certainty: scholarly}
+  - {field: originated_in, source: "https://resources.metmuseum.org/resources/metpublications/pdf/Masterpieces_from_the_Department_of_Islamic_Art_in_The_Metropolitan_Museum_of_Art.pdf", certainty: scholarly}
+  - {field: kind, source: "https://resources.metmuseum.org/resources/metpublications/pdf/Masterpieces_from_the_Department_of_Islamic_Art_in_The_Metropolitan_Museum_of_Art.pdf", certainty: scholarly}
 evidence:
   - {target: work/study-of-a-bird-reza-abbasi-1634, supports: [kind, time, visual-character]}
 space:
@@ -76,7 +79,7 @@ images:
     rights_source: https://www.metmuseum.org/art/collection/search/724722
     license: cc0
     note: "ムイーン・ムサッヴィル《蓮の葉を囲む幻獣たち》（A Gathering of Mythical Creatures around a Lotus Leaf）、1088 AH/1677年。メトロポリタン美術館蔵（isPublicDomain: true）"
-status: draft
+status: verified
 updated: 2026-08-25
 ---
 

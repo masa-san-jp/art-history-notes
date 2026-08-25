@@ -22,7 +22,9 @@ naming:
   original_label: Post-Impressionists
   note: "1910年11月8日〜1911年1月15日、ロンドン・グラフトン・ギャラリーズでロジャー・フライが企画した展覧会「Manet and the Post-Impressionists」の題名に由来する。フライ自身が1920年の評論集『Vision and Design』所収のエッセイ「Retrospect」で命名の経緯を直接書いている（Project Gutenberg全文で確認）——「便宜のため（for purposes of convenience）」「もっとも曖昧で無難な語として（as being the vaguest and most non-committal）」Post-Impressionistの語を選んだ、と本人が明言している。命名者が本人以外（MacCarthy等）だとする説は見当たらず、一次資料はフライ自身の証言のみ。一方『準備が最終日未明4時までかかる突貫作業で、展覧会名も土壇場で決まった』という逸話は複数の二次文献（TheCollector等）が共通して伝えるが、その一次資料（書簡・回想録の該当箇所）には到達できていない——未確認のまま残す。なお Getty AAT のスコープノートは命名者を『art critics Roger Fry, Clive Bell and others』と複数形で記し、フライ単独の命名としていない。named_by はフライ自身の証言があるためフライに置いたが、同時代の批評家集団の中で使われ始めた語である可能性を排除しない"
 claims:
-  - {field: kind, source: "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300021508", certainty: scholarly}
+  - {field: time, source: "https://www.vangoghmuseum.nl/en/collection/s0114V1962", certainty: scholarly}
+  - {field: originated_in, source: "https://www.vangoghmuseum.nl/en/collection/s0114V1962", certainty: scholarly}
+  - {field: kind, source: "https://www.vangoghmuseum.nl/en/collection/s0114V1962", certainty: scholarly}
 space:
   - {role: originated_in, target: place/paris}
 relations:
@@ -61,8 +63,8 @@ images:
     rights_source: https://www.metmuseum.org/art/collection/search/436535
     license: cc0
     note: "フィンセント・ファン・ゴッホ《糸杉のある麦畑（Wheat Field with Cypresses）》1889年。メトロポリタン美術館蔵（isPublicDomain: true）"
-status: draft
-updated: 2026-08-09
+status: verified
+updated: 2026-08-25
 ---
 
 # ポスト印象派 / Post-impressionism

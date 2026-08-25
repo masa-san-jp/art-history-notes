@@ -22,9 +22,9 @@ naming:
   original_label: "Realism"
   note: "19世紀半ばのフランスを中心に、現代生活・労働・社会階層を理想化せず描く実践を後世にまとめた名称。写実的な表現一般ではなく、近代美術史上の運動として登録する"
 claims:
-  - {field: time, source: "https://www.wikidata.org/wiki/Q2642826", certainty: scholarly}
-  - {field: originated_in, source: "https://www.britannica.com/art/Realism-art", certainty: scholarly}
-  - {field: kind, source: "https://www.wikidata.org/wiki/Q2642826", certainty: scholarly}
+  - {field: time, source: "https://www.metmuseum.org/ru/essays/nineteenth-century-french-realism", certainty: scholarly}
+  - {field: originated_in, source: "https://www.metmuseum.org/ru/essays/nineteenth-century-french-realism", certainty: scholarly}
+  - {field: kind, source: "https://www.metmuseum.org/ru/essays/nineteenth-century-french-realism", certainty: scholarly}
 space:
   - {role: originated_in, target: place/paris}
 relations: []
@@ -35,8 +35,10 @@ sources:
     kind: authority
   - url: "https://www.britannica.com/art/Realism-art"
     kind: reference
-status: draft
-updated: 2026-08-12
+  - url: "https://www.metmuseum.org/ru/essays/nineteenth-century-french-realism"
+    kind: institutional
+status: verified
+updated: 2026-08-25
 ---
 
 # 写実主義 / Realism

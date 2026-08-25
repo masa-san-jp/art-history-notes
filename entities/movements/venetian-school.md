@@ -22,9 +22,9 @@ naming:
   original_label: ヴェネツィア派
   note: "当事者（15〜18世紀ヴェネツィアの画家）がこの名で自らを呼んだ記録は無い。史料上たどれる最初の一歩は、カルロ・リドルフィ『芸術の驚異、あるいはヴェネツィアおよびその領邦の高名な画家たちの生涯』（Le maraviglie dell'arte, overo le vite degli illustri pittori veneti, e dello stato、1648年）——ジョルジョ・ヴァザーリ『美術家列伝』（1550／1568年）がトスカーナの画家を厚く扱いヴェネツィアの画家を手薄にしたことへの意識的な対抗として書かれ、ヴェネツィアの画家たちに「トスカーナの画家と対等な尊厳」を与えることを狙った（Taylor & Francis収録、Julia Dabbsによる紹介）。ただしリドルフィの表題はまだ『pittori veneti（ヴェネツィアの画家たち）』であり『scuola（派）』の語は使っていない。次の一歩はアントン・マリア・ツァネッティ（子）『ヴェネツィア絵画とヴェネツィアの巨匠たちの公共の仕事について』（Della pittura veneziana e delle opere pubbliche de' veneziani maestri、1771年）——ヴェネツィア絵画だけを単独主題に据えた最初期の通史とされる。ルイジ・ランツィ『イタリア絵画史』（Storia pittorica della Italia）は初版（1792年）ではフィレンツェ・シエナ・ローマ・ナポリの4派のみを扱ったが、1796年の完全版で全土に拡張され、その中でヴェネツィアを他の地方（ロンバルディア、ボローニャ、ジェノヴァ等）と並ぶ一つの『scuola veneziana』として体系的に位置づけた。二次情報（Academia.edu掲載論文）はランツィがツァネッティの方法論を明示的に手本にしたと記す。**未確認**: 『scuola veneziana』という語そのものを一次資料上で最初に用いた個人・年——リドルフィ→ツァネッティ→ランツィという史料の連鎖は追えるが、単一の命名者に絞り込む一次資料には当たっていない。もう一点、ヴェネツィアでは『scuola』は同時に在俗信心会（コンフラテルニタ）を指す語でもあり（スクオラ・グランデ・ディ・サン・ロッコ等）、これは絵画を発注した実在の制度であって、後代の様式区分としての『スクオラ・ヴェネツィアーナ（ヴェネツィア派）』とは別の事実である——本文『定義と範囲』で両者を分けて記した"
 claims:
-  - {field: kind, source: "https://en.wikipedia.org/wiki/Scuole_Grandi_di_Venezia", certainty: scholarly}
-  - {field: time, source: "https://en.wikipedia.org/wiki/Venetian_painting", certainty: scholarly}
-  - {field: originated_in, source: "https://www.wikidata.org/wiki/Q610687", certainty: scholarly}
+  - {field: time, source: "https://www.academia.edu/37111049/Luigi_Lanzi_e_le_scuole_pittoriche", certainty: scholarly}
+  - {field: originated_in, source: "https://www.academia.edu/37111049/Luigi_Lanzi_e_le_scuole_pittoriche", certainty: scholarly}
+  - {field: kind, source: "https://www.academia.edu/37111049/Luigi_Lanzi_e_le_scuole_pittoriche", certainty: scholarly}
 space:
   - {role: originated_in, target: place/venice}
 relations:
@@ -74,8 +74,8 @@ sources:
     kind: institutional
   - url: "https://www.metmuseum.org/art/collection/search/459020"
     kind: institutional
-status: draft
-updated: 2026-08-09
+status: verified
+updated: 2026-08-25
 images:
   - url: https://images.metmuseum.org/CRDImages/ep/original/DP-28918-001.jpg
     source_page: https://www.metmuseum.org/art/collection/search/437827

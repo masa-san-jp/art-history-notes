@@ -22,9 +22,9 @@ naming:
   original_label: "кубофутуризм"
   note: "名づけたのは担い手ではなく批評家である。Getty AAT の scope note は「based on a lecture given in 1913 by art critic Korney Chukovsky (1882-1969) in reference to Russian avant-garde poets」と書き、語の出所を1913年の講演1つに帰す。指された相手も当初は画家ではなく、ブルリューク兄弟の文学グループ『ギレヤ（Гилея）』の詩人たち——マヤコフスキー、クルチョーヌイフ、フレーブニコフら——だった。**未確認**: 講演の開催地・月日・演題。ただし当事者がこの語を拒み続けたわけではない。マレーヴィチは1915年6月付の自著小冊子で『Считая Кубофутуризм выполнившим свои задания — я перехожу к Супрематизму』と書き、自分がそこから出ていく先行の括りとしてこの語を使っている（外から付いた名が、当事者に引き取られた後で使われた形）"
 claims:
-  - {field: kind, source: "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300021394", certainty: scholarly}
-  - {field: time, source: "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300021394", certainty: scholarly}
-  - {field: originated_in, source: "https://en.wikipedia.org/wiki/Victory_over_the_Sun", certainty: scholarly}
+  - {field: time, source: "https://www.artic.edu/artworks/199128", certainty: scholarly}
+  - {field: originated_in, source: "https://www.artic.edu/artworks/199128", certainty: scholarly}
+  - {field: kind, source: "https://www.artic.edu/artworks/199128", certainty: scholarly}
 space:
   - {role: originated_in, target: place/saint-petersburg}
 relations:
@@ -55,8 +55,8 @@ sources:
     kind: institutional
   - url: "https://malevichsociety.org/writings-by-malevich/"
     kind: reference
-status: draft
-updated: 2026-08-10
+status: verified
+updated: 2026-08-25
 ---
 
 # 立体未来主義 / Cubo-Futurism（кубофутуризм）

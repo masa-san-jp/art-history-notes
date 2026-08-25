@@ -21,7 +21,10 @@ naming:
   named_when: null
   original_label: "Shiraz school"
   note: "「シーラーズ派」は都市名をそのまま用いた近代の美術史区分で、当時の担い手がこの名で自称した記録はない。Wikidata（Q5933050）の説明は\"school of Persian miniature painting\"。ペルシア語版Wikipediaはこの対象を「مکتب شیراز اول（シーラーズ派I、イルハン朝・インジュー朝期＝14世紀）」と「مکتب شیراز دوم（シーラーズ派II、ティムール朝期以降＝15世紀）」の2項目に分けて記述しており（本ファイルの sources 参照）、単一の当事者集団による自称ではなく後代の学術的な期分けであることの傍証になる"
-claims: []
+claims:
+  - {field: time, source: "https://www.metmuseum.org/art/collection/search/448280", certainty: scholarly}
+  - {field: originated_in, source: "https://www.metmuseum.org/art/collection/search/448280", certainty: scholarly}
+  - {field: kind, source: "https://www.metmuseum.org/art/collection/search/448280", certainty: scholarly}
 space:
   - {role: originated_in, target: place/shiraz}
 relations: []
@@ -71,8 +74,8 @@ images:
     rights_source: https://www.metmuseum.org/art/collection/search/451324
     license: cc0
     note: "「アムルが異教徒を海に投げ込ませる」イブン・フサーム『ハワラーン・ナーメ』挿画、c.1476-86年、シーラーズ制作。メトロポリタン美術館蔵（city: Shiraz、isPublicDomain: true、直接APIで確認）"
-status: draft
-updated: 2026-08-11
+status: verified
+updated: 2026-08-25
 ---
 
 # シーラーズ派 / Shiraz school

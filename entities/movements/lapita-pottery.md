@@ -36,9 +36,9 @@ naming:
     聞き違いに由来する——self_identified を false とした根拠。当事者が非文字社会であり
     自称そのものが原理的に記録され得ない点も併せて記す"
 claims:
-  - {field: kind, source: "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300264776", certainty: scholarly}
+  - {field: time, source: "http://www.ioa.ucla.edu/talepakemalai", certainty: scholarly}
   - {field: originated_in, source: "http://www.ioa.ucla.edu/talepakemalai", certainty: scholarly}
-  - {field: time, source: "https://en.wikipedia.org/wiki/Lapita_culture", certainty: scholarly}
+  - {field: kind, source: "http://www.ioa.ucla.edu/talepakemalai", certainty: scholarly}
 space:
   - {role: originated_in, target: place/bismarck-archipelago}
 relations:
@@ -86,8 +86,8 @@ sources:
     kind: institutional
   - url: "https://www.metmuseum.org/art/collection/search/314214"
     kind: institutional
-status: draft
-updated: 2026-08-10
+status: verified
+updated: 2026-08-25
 ---
 
 # ラピタ土器 / Lapita pottery

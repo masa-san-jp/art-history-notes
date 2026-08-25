@@ -710,17 +710,17 @@
       "claims": [
         {
           "field": "time",
-          "source": "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300022099",
+          "source": "https://assets.moma.org/documents/moma_catalogue_1990_300190211.pdf",
           "certainty": "scholarly"
         },
         {
           "field": "originated_in",
-          "source": "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300022099",
+          "source": "https://assets.moma.org/documents/moma_catalogue_1990_300190211.pdf",
           "certainty": "scholarly"
         },
         {
           "field": "kind",
-          "source": "https://en.wikipedia.org/wiki/Abstract_expressionism",
+          "source": "https://assets.moma.org/documents/moma_catalogue_1990_300190211.pdf",
           "certainty": "scholarly"
         }
       ],
@@ -814,8 +814,8 @@
           "kind": "scholarly"
         }
       ],
-      "status": "draft",
-      "updated": "2026-08-09",
+      "status": "verified",
+      "updated": "2026-08-25",
       "path": "entities/movements/abstract-expressionism.md"
     },
     "movement/an-gyeon-school": {
@@ -846,7 +846,7 @@
       },
       "claims": [
         {
-          "field": "kind",
+          "field": "time",
           "source": "https://encykorea.aks.ac.kr/Article/E0069639",
           "certainty": "scholarly"
         },
@@ -856,7 +856,7 @@
           "certainty": "scholarly"
         },
         {
-          "field": "time",
+          "field": "kind",
           "source": "https://encykorea.aks.ac.kr/Article/E0069639",
           "certainty": "scholarly"
         }
@@ -922,8 +922,8 @@
           "note": "安堅《夢遊桃源図（몽유도원도）》1447年、絹本淡彩。安堅派という括りの起点となった安堅自身の代表作。現在は日本・天理大学附属天理図書館蔵。Wikimedia Commons は CC-PD-Mark／PD-old-100-expired を付し、出典を韓国著作権委員会「공유마당」（gongu.copyright.or.kr）および Google Arts & Culture とする"
         }
       ],
-      "status": "draft",
-      "updated": "2026-08-10",
+      "status": "verified",
+      "updated": "2026-08-25",
       "path": "entities/movements/an-gyeon-school.md"
     },
     "movement/antropofagia": {
@@ -955,9 +955,9 @@
       },
       "claims": [
         {
-          "field": "kind",
+          "field": "time",
           "source": "https://digital.bbm.usp.br/bitstream/bbm/7064/2/Anno.1_n.01_45000033273.pdf",
-          "certainty": "attested"
+          "certainty": "scholarly"
         },
         {
           "field": "originated_in",
@@ -965,9 +965,9 @@
           "certainty": "attested"
         },
         {
-          "field": "time",
+          "field": "kind",
           "source": "https://digital.bbm.usp.br/bitstream/bbm/7064/2/Anno.1_n.01_45000033273.pdf",
-          "certainty": "scholarly"
+          "certainty": "attested"
         }
       ],
       "space": [
@@ -1030,8 +1030,8 @@
           "kind": "scholarly"
         }
       ],
-      "status": "draft",
-      "updated": "2026-08-09",
+      "status": "verified",
+      "updated": "2026-08-25",
       "path": "entities/movements/antropofagia.md"
     },
     "movement/art-et-liberte": {
@@ -1063,17 +1063,17 @@
       },
       "claims": [
         {
-          "field": "kind",
-          "source": "https://libcom.org/article/vive-lart-degenere",
-          "certainty": "attested"
-        },
-        {
-          "field": "originated_in",
-          "source": "https://www.wikidata.org/wiki/Q65080389",
+          "field": "time",
+          "source": "https://www.tate.org.uk/tate-etc/issue-41-autumn-2017/surrealism-egypt-long-live-degenerate-art-clare-davies",
           "certainty": "scholarly"
         },
         {
-          "field": "time",
+          "field": "originated_in",
+          "source": "https://www.tate.org.uk/tate-etc/issue-41-autumn-2017/surrealism-egypt-long-live-degenerate-art-clare-davies",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "kind",
           "source": "https://www.tate.org.uk/tate-etc/issue-41-autumn-2017/surrealism-egypt-long-live-degenerate-art-clare-davies",
           "certainty": "scholarly"
         }
@@ -1168,8 +1168,8 @@
           "kind": "reference"
         }
       ],
-      "status": "draft",
-      "updated": "2026-08-10",
+      "status": "verified",
+      "updated": "2026-08-25",
       "path": "entities/movements/art-et-liberte.md"
     },
     "movement/art-nouveau": {
@@ -1201,17 +1201,17 @@
       "claims": [
         {
           "field": "time",
-          "source": "https://www.wikidata.org/wiki/Q34636",
+          "source": "https://www.metmuseum.org/ja/essays/art-nouveau",
           "certainty": "scholarly"
         },
         {
           "field": "originated_in",
-          "source": "https://www.vam.ac.uk/articles/art-nouveau-an-international-style",
+          "source": "https://www.metmuseum.org/ja/essays/art-nouveau",
           "certainty": "scholarly"
         },
         {
           "field": "kind",
-          "source": "https://www.wikidata.org/wiki/Q34636",
+          "source": "https://www.metmuseum.org/ja/essays/art-nouveau",
           "certainty": "scholarly"
         }
       ],
@@ -1267,8 +1267,8 @@
           "kind": "authority"
         }
       ],
-      "status": "draft",
-      "updated": "2026-08-12",
+      "status": "verified",
+      "updated": "2026-08-25",
       "path": "entities/movements/art-nouveau.md"
     },
     "movement/arte-madi": {
@@ -1299,18 +1299,18 @@
       },
       "claims": [
         {
-          "field": "kind",
-          "source": "https://kosice.com.ar/otros-recursos/los-textos/de-kosice/manifiesto-madi/",
-          "certainty": "attested"
+          "field": "time",
+          "source": "https://www.tate.org.uk/art/art-terms/a/arte-madi",
+          "certainty": "scholarly"
         },
         {
           "field": "originated_in",
-          "source": "https://kosice.com.ar/otros-recursos/los-textos/de-kosice/manifiesto-madi/",
-          "certainty": "attested"
+          "source": "https://www.tate.org.uk/art/art-terms/a/arte-madi",
+          "certainty": "scholarly"
         },
         {
-          "field": "time",
-          "source": "https://kosice.com.ar/otros-recursos/los-textos/de-kosice/manifiesto-madi/",
+          "field": "kind",
+          "source": "https://www.tate.org.uk/art/art-terms/a/arte-madi",
           "certainty": "scholarly"
         }
       ],
@@ -1376,8 +1376,8 @@
           "kind": "authority"
         }
       ],
-      "status": "draft",
-      "updated": "2026-08-10",
+      "status": "verified",
+      "updated": "2026-08-25",
       "path": "entities/movements/arte-madi.md"
     },
     "movement/arts-and-crafts": {
@@ -1409,17 +1409,17 @@
       "claims": [
         {
           "field": "time",
-          "source": "https://www.vam.ac.uk/articles/arts-and-crafts-an-introduction",
+          "source": "https://www.metmuseum.org/it/essays/design-reform",
           "certainty": "scholarly"
         },
         {
           "field": "originated_in",
-          "source": "https://www.vam.ac.uk/articles/arts-and-crafts-an-introduction",
+          "source": "https://www.metmuseum.org/it/essays/design-reform",
           "certainty": "scholarly"
         },
         {
           "field": "kind",
-          "source": "https://www.vam.ac.uk/articles/arts-and-crafts-an-introduction",
+          "source": "https://www.metmuseum.org/it/essays/design-reform",
           "certainty": "scholarly"
         }
       ],
@@ -1459,8 +1459,8 @@
           "kind": "reference"
         }
       ],
-      "status": "draft",
-      "updated": "2026-08-13",
+      "status": "verified",
+      "updated": "2026-08-25",
       "path": "entities/movements/arts-and-crafts.md"
     },
     "movement/asmat-carving": {
@@ -1491,13 +1491,18 @@
       },
       "claims": [
         {
-          "field": "kind",
+          "field": "time",
           "source": "https://www.wichita.edu/museums/holmes/asmat.php",
           "certainty": "scholarly"
         },
         {
           "field": "originated_in",
-          "source": "https://www.wikidata.org/wiki/Q27228",
+          "source": "https://www.wichita.edu/museums/holmes/asmat.php",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "kind",
+          "source": "https://www.wichita.edu/museums/holmes/asmat.php",
           "certainty": "scholarly"
         }
       ],
@@ -1601,8 +1606,8 @@
           "kind": "institutional"
         }
       ],
-      "status": "draft",
-      "updated": "2026-08-13",
+      "status": "verified",
+      "updated": "2026-08-25",
       "path": "entities/movements/asmat-carving.md"
     },
     "movement/baghdad-modern-art-group": {
@@ -1634,18 +1639,18 @@
       },
       "claims": [
         {
-          "field": "kind",
-          "source": "https://theartwanderer.co.uk/the-baghdad-modern-art-group-birth-of-arabian-modernism/",
+          "field": "time",
+          "source": "https://doi.org/10.1163/22118993_03501P010",
           "certainty": "scholarly"
         },
         {
           "field": "originated_in",
-          "source": "https://www.wikidata.org/wiki/Q16123956",
+          "source": "https://doi.org/10.1163/22118993_03501P010",
           "certainty": "scholarly"
         },
         {
-          "field": "time",
-          "source": "https://www.wikidata.org/wiki/Q16123956",
+          "field": "kind",
+          "source": "https://doi.org/10.1163/22118993_03501P010",
           "certainty": "scholarly"
         }
       ],
@@ -1745,8 +1750,8 @@
           "kind": "reference"
         }
       ],
-      "status": "draft",
-      "updated": "2026-08-09",
+      "status": "verified",
+      "updated": "2026-08-25",
       "path": "entities/movements/baghdad-modern-art-group.md"
     },
     "movement/baghdad-school-of-illustration": {
@@ -1777,18 +1782,18 @@
       },
       "claims": [
         {
-          "field": "kind",
-          "source": "https://en.wikipedia.org/wiki/Baghdad_School",
-          "certainty": "scholarly"
-        },
-        {
           "field": "time",
-          "source": "https://en.wikipedia.org/wiki/Baghdad_School",
+          "source": "https://www.metmuseum.org/met-publications/masterpieces-from-the-department-of-islamic-art-in-the-metropolitan-museum-of-art",
           "certainty": "scholarly"
         },
         {
           "field": "originated_in",
-          "source": "https://www.wikidata.org/wiki/Q17001345",
+          "source": "https://www.metmuseum.org/met-publications/masterpieces-from-the-department-of-islamic-art-in-the-metropolitan-museum-of-art",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "kind",
+          "source": "https://www.metmuseum.org/met-publications/masterpieces-from-the-department-of-islamic-art-in-the-metropolitan-museum-of-art",
           "certainty": "scholarly"
         }
       ],
@@ -1884,8 +1889,8 @@
           "note": "「葡萄を踏む人々」同じ『薬物誌』写本の1葉、1224年、同じくアブドゥッラー・イブン・アル=ファドル筆。メトロポリタン美術館蔵（accession 57.51.23、isPublicDomain: true）。日常生活の一場面を描く点が本様式の特徴として文献に挙げられる例"
         }
       ],
-      "status": "draft",
-      "updated": "2026-08-10",
+      "status": "verified",
+      "updated": "2026-08-25",
       "path": "entities/movements/baghdad-school-of-illustration.md"
     },
     "movement/bamana-sculpture": {
@@ -1916,14 +1921,19 @@
       },
       "claims": [
         {
-          "field": "kind",
-          "source": "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300015848",
-          "certainty": "scholarly"
+          "field": "time",
+          "source": "https://africanarchive.org/en/staemme/bamana",
+          "certainty": "attested"
         },
         {
           "field": "originated_in",
-          "source": "https://en.wikipedia.org/wiki/Chiwara",
-          "certainty": "scholarly"
+          "source": "https://africanarchive.org/en/staemme/bamana",
+          "certainty": "attested"
+        },
+        {
+          "field": "kind",
+          "source": "https://africanarchive.org/en/staemme/bamana",
+          "certainty": "attested"
         }
       ],
       "images": [
@@ -2018,7 +2028,7 @@
           "kind": "institutional"
         }
       ],
-      "status": "draft",
+      "status": "verified",
       "updated": "2026-08-25",
       "path": "entities/movements/bamana-sculpture.md"
     },
@@ -2058,18 +2068,18 @@
       },
       "claims": [
         {
-          "field": "kind",
-          "source": "https://sejarahbersama.id/2021/06/04/kritik-kritik-terhadap-pelukis-pelukis-bandung/",
-          "certainty": "scholarly"
-        },
-        {
           "field": "time",
-          "source": "https://id.wikipedia.org/wiki/Mazhab_Bandung_(seni)",
+          "source": "https://doi.org/10.54154/dekonstruksi.v11i01.289",
           "certainty": "scholarly"
         },
         {
           "field": "originated_in",
-          "source": "https://en.wikipedia.org/wiki/Ries_Mulder",
+          "source": "https://doi.org/10.54154/dekonstruksi.v11i01.289",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "kind",
+          "source": "https://doi.org/10.54154/dekonstruksi.v11i01.289",
           "certainty": "scholarly"
         }
       ],
@@ -2129,8 +2139,8 @@
           "kind": "scholarly"
         }
       ],
-      "status": "draft",
-      "updated": "2026-08-09",
+      "status": "verified",
+      "updated": "2026-08-25",
       "path": "entities/movements/bandung-school.md"
     },
     "movement/barbizon-school": {
@@ -2162,17 +2172,17 @@
       "claims": [
         {
           "field": "time",
-          "source": "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300264658",
+          "source": "https://www.artic.edu/artworks/27873",
           "certainty": "scholarly"
         },
         {
           "field": "originated_in",
-          "source": "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300264658",
+          "source": "https://www.artic.edu/artworks/27873",
           "certainty": "scholarly"
         },
         {
           "field": "kind",
-          "source": "https://fr.wikipedia.org/wiki/%C3%89cole_de_Barbizon",
+          "source": "https://www.artic.edu/artworks/27873",
           "certainty": "scholarly"
         }
       ],
@@ -2240,8 +2250,8 @@
           "kind": "institutional"
         }
       ],
-      "status": "draft",
-      "updated": "2026-08-11",
+      "status": "verified",
+      "updated": "2026-08-25",
       "path": "entities/movements/barbizon-school.md"
     },
     "movement/baroque": {
@@ -2273,7 +2283,7 @@
       "claims": [
         {
           "field": "time",
-          "source": "https://www.wikidata.org/wiki/Q37853",
+          "source": "https://www.metmuseum.org/ko/essays/baroque-rome",
           "certainty": "scholarly"
         },
         {
@@ -2283,7 +2293,7 @@
         },
         {
           "field": "kind",
-          "source": "https://www.wikidata.org/wiki/Q37853",
+          "source": "https://www.metmuseum.org/ko/essays/baroque-rome",
           "certainty": "scholarly"
         }
       ],
@@ -2308,8 +2318,8 @@
           "kind": "institutional"
         }
       ],
-      "status": "draft",
-      "updated": "2026-08-12",
+      "status": "verified",
+      "updated": "2026-08-25",
       "path": "entities/movements/baroque.md"
     },
     "movement/basohli-painting": {
@@ -2340,18 +2350,18 @@
       },
       "claims": [
         {
-          "field": "kind",
-          "source": "https://en.wikipedia.org/wiki/Basohli",
-          "certainty": "scholarly"
-        },
-        {
           "field": "time",
           "source": "https://www.metmuseum.org/art/collection/search/37941",
           "certainty": "scholarly"
         },
         {
           "field": "originated_in",
-          "source": "https://en.wikipedia.org/wiki/Basohli",
+          "source": "https://resources.metmuseum.org/resources/metpublications/pdf/Divine_Pleasures.pdf",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "kind",
+          "source": "https://resources.metmuseum.org/resources/metpublications/pdf/Divine_Pleasures.pdf",
           "certainty": "scholarly"
         }
       ],
@@ -2463,7 +2473,7 @@
           "note": "デーヴィーダーサ（ヌールプルの）筆《チャウパルに興じるシヴァとパールヴァティー》『ラサマンジャリー』連作より、1694-95年紀年。メトロポリタン美術館蔵（isPublicDomain: true）"
         }
       ],
-      "status": "draft",
+      "status": "verified",
       "updated": "2026-08-25",
       "path": "entities/movements/basohli-painting.md"
     },
@@ -2496,17 +2506,17 @@
       "claims": [
         {
           "field": "time",
-          "source": "https://www.bauhaus.de/en/discover/article/14-years-of-bauhaus/",
+          "source": "https://www.moma.org/documents/moma_catalogue_1733_300062754.pdf",
           "certainty": "scholarly"
         },
         {
           "field": "originated_in",
-          "source": "https://www.bauhaus.de/en/discover/article/14-years-of-bauhaus/",
+          "source": "https://www.moma.org/documents/moma_catalogue_1733_300062754.pdf",
           "certainty": "scholarly"
         },
         {
           "field": "kind",
-          "source": "https://www.bauhaus.de/en/discover/article/14-years-of-bauhaus/",
+          "source": "https://www.moma.org/documents/moma_catalogue_1733_300062754.pdf",
           "certainty": "scholarly"
         }
       ],
@@ -2595,8 +2605,8 @@
           "kind": "scholarly"
         }
       ],
-      "status": "draft",
-      "updated": "2026-08-13",
+      "status": "verified",
+      "updated": "2026-08-25",
       "path": "entities/movements/bauhaus.md"
     },
     "movement/bengal-school": {
@@ -2628,13 +2638,18 @@
       },
       "claims": [
         {
-          "field": "kind",
-          "source": "https://www.getty.edu/vow/AATFullDisplay?find=Bengal&logic=AND&note=&english=Y&prev_page=1&subjectid=300417404",
+          "field": "time",
+          "source": "https://digitalcommons.ciis.edu/facultypublications/51/",
           "certainty": "scholarly"
         },
         {
           "field": "originated_in",
-          "source": "https://en.wikipedia.org/wiki/Government_College_of_Art_%26_Craft",
+          "source": "https://digitalcommons.ciis.edu/facultypublications/51/",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "kind",
+          "source": "https://digitalcommons.ciis.edu/facultypublications/51/",
           "certainty": "scholarly"
         }
       ],
@@ -2712,8 +2727,8 @@
           "kind": "reference"
         }
       ],
-      "status": "draft",
-      "updated": "2026-08-09",
+      "status": "verified",
+      "updated": "2026-08-25",
       "path": "entities/movements/bengal-school.md"
     },
     "movement/benin-court-art": {
@@ -2745,7 +2760,7 @@
       "claims": [
         {
           "field": "time",
-          "source": "https://www.wikidata.org/wiki/Q4888026",
+          "source": "https://www.penn.museum/sites/expedition/the-art-of-benin/",
           "certainty": "scholarly"
         },
         {
@@ -2837,8 +2852,8 @@
           "note": "エド民族《記念頭像》おそらく17世紀半ば〜18世紀半ば。歴代オバの記念頭像の一例。シカゴ美術館蔵（is_public_domain: true）"
         }
       ],
-      "status": "draft",
-      "updated": "2026-08-09",
+      "status": "verified",
+      "updated": "2026-08-25",
       "path": "entities/movements/benin-court-art.md"
     },
     "movement/bombay-progressive-artists-group": {
@@ -2870,7 +2885,7 @@
       },
       "claims": [
         {
-          "field": "kind",
+          "field": "time",
           "source": "https://web.archive.org/web/20131214145023/http://www.artnewsnviews.com/view-article.php?article=progressive-artists-group-of-bombay-an-overview&iid=29&articleid=800",
           "certainty": "scholarly"
         },
@@ -2880,7 +2895,7 @@
           "certainty": "scholarly"
         },
         {
-          "field": "time",
+          "field": "kind",
           "source": "https://web.archive.org/web/20131214145023/http://www.artnewsnviews.com/view-article.php?article=progressive-artists-group-of-bombay-an-overview&iid=29&articleid=800",
           "certainty": "scholarly"
         }
@@ -2934,8 +2949,8 @@
           "kind": "institutional"
         }
       ],
-      "status": "draft",
-      "updated": "2026-08-10",
+      "status": "verified",
+      "updated": "2026-08-25",
       "path": "entities/movements/bombay-progressive-artists-group.md"
     },
     "movement/byzantine-art": {
@@ -2966,18 +2981,18 @@
       },
       "claims": [
         {
-          "field": "kind",
-          "source": "https://en.wikipedia.org/wiki/Byzantine_art",
-          "certainty": "scholarly"
-        },
-        {
           "field": "time",
-          "source": "https://en.wikipedia.org/wiki/Byzantine_art",
+          "source": "https://www.metmuseum.org/art/collection/search/469960",
           "certainty": "scholarly"
         },
         {
           "field": "originated_in",
-          "source": "https://en.wikipedia.org/wiki/Byzantine_art",
+          "source": "https://www.metmuseum.org/art/collection/search/469960",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "kind",
+          "source": "https://www.metmuseum.org/art/collection/search/469960",
           "certainty": "scholarly"
         }
       ],
@@ -3061,8 +3076,8 @@
           "note": "《聖母エレウーサの携帯用イコン》14世紀初頭。木製パネルに蝋で象嵌したミニアチュール・モザイク（金・多色石・鍍金銅）。メトロポリタン美術館蔵、制作地は「probably Constantinople（おそらくコンスタンティノープル）」と明記される（isPublicDomain: true）。パレオロゴス朝期（後期ビザンティン）の例"
         }
       ],
-      "status": "draft",
-      "updated": "2026-08-11",
+      "status": "verified",
+      "updated": "2026-08-25",
       "path": "entities/movements/byzantine-art.md"
     },
     "movement/company-painting": {
@@ -3094,13 +3109,18 @@
       },
       "claims": [
         {
-          "field": "kind",
-          "source": "https://en.wikipedia.org/wiki/Company_style",
+          "field": "time",
+          "source": "https://read.dukeupress.edu/archives-of-asian-art/article-abstract/74/1/79/388307/To-Fill-a-Gap-in-Indian-History-An-Archival",
           "certainty": "scholarly"
         },
         {
           "field": "originated_in",
-          "source": "https://en.banglapedia.org/index.php/Murshidabad_Painting",
+          "source": "https://read.dukeupress.edu/archives-of-asian-art/article-abstract/74/1/79/388307/To-Fill-a-Gap-in-Indian-History-An-Archival",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "kind",
+          "source": "https://read.dukeupress.edu/archives-of-asian-art/article-abstract/74/1/79/388307/To-Fill-a-Gap-in-Indian-History-An-Archival",
           "certainty": "scholarly"
         }
       ],
@@ -3200,8 +3220,8 @@
           "note": "《風景の中のクロコウノトリ》1780年頃、ルクナウ。クロード・マーティンが依嘱した658点の鳥類画のうちの1点とされる（画家名は未詳）"
         }
       ],
-      "status": "draft",
-      "updated": "2026-08-09",
+      "status": "verified",
+      "updated": "2026-08-25",
       "path": "entities/movements/company-painting.md"
     },
     "movement/constructivism": {
@@ -3334,7 +3354,7 @@
           "kind": "reference"
         }
       ],
-      "status": "draft",
+      "status": "verified",
       "updated": "2026-08-25",
       "path": "entities/movements/constructivism.md"
     },
@@ -3366,18 +3386,18 @@
       },
       "claims": [
         {
-          "field": "kind",
-          "source": "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300021495",
-          "certainty": "scholarly"
-        },
-        {
           "field": "time",
-          "source": "https://www.wikidata.org/wiki/Q42934",
+          "source": "https://www.metmuseum.org/fr/essays/paul-cezanne-1839-1906",
           "certainty": "scholarly"
         },
         {
           "field": "originated_in",
-          "source": "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300021495",
+          "source": "https://www.metmuseum.org/fr/essays/paul-cezanne-1839-1906",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "kind",
+          "source": "https://www.metmuseum.org/fr/essays/paul-cezanne-1839-1906",
           "certainty": "scholarly"
         }
       ],
@@ -3469,8 +3489,8 @@
           "kind": "institutional"
         }
       ],
-      "status": "draft",
-      "updated": "2026-08-10",
+      "status": "verified",
+      "updated": "2026-08-25",
       "path": "entities/movements/cubism.md"
     },
     "movement/cubo-futurism": {
@@ -3501,18 +3521,18 @@
       },
       "claims": [
         {
-          "field": "kind",
-          "source": "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300021394",
-          "certainty": "scholarly"
-        },
-        {
           "field": "time",
-          "source": "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300021394",
+          "source": "https://www.artic.edu/artworks/199128",
           "certainty": "scholarly"
         },
         {
           "field": "originated_in",
-          "source": "https://en.wikipedia.org/wiki/Victory_over_the_Sun",
+          "source": "https://www.artic.edu/artworks/199128",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "kind",
+          "source": "https://www.artic.edu/artworks/199128",
           "certainty": "scholarly"
         }
       ],
@@ -3583,8 +3603,8 @@
           "kind": "reference"
         }
       ],
-      "status": "draft",
-      "updated": "2026-08-10",
+      "status": "verified",
+      "updated": "2026-08-25",
       "path": "entities/movements/cubo-futurism.md"
     },
     "movement/cusco-school": {
@@ -3615,13 +3635,18 @@
       },
       "claims": [
         {
+          "field": "time",
+          "source": "https://ojs.tnkul.pl/index.php/rh/article/view/7120",
+          "certainty": "scholarly"
+        },
+        {
           "field": "originated_in",
-          "source": "https://www.wikidata.org/wiki/Q3108623",
+          "source": "https://ojs.tnkul.pl/index.php/rh/article/view/7120",
           "certainty": "scholarly"
         },
         {
           "field": "kind",
-          "source": "https://en.wikipedia.org/wiki/Cusco_school",
+          "source": "https://ojs.tnkul.pl/index.php/rh/article/view/7120",
           "certainty": "scholarly"
         }
       ],
@@ -3707,8 +3732,8 @@
           "note": "《十字架を担うキリスト（転倒の主）》（Christ Carrying the Cross, called \"The Lord of the Fall\"）、作者不明、クスコ、1770年頃〜75年頃、メトロポリタン美術館蔵"
         }
       ],
-      "status": "draft",
-      "updated": "2026-08-10",
+      "status": "verified",
+      "updated": "2026-08-25",
       "path": "entities/movements/cusco-school.md"
     },
     "movement/dada": {
@@ -3739,19 +3764,19 @@
       },
       "claims": [
         {
-          "field": "kind",
-          "source": "https://writing.upenn.edu/library/Tzara_Dada-Manifesto_1918.pdf",
-          "certainty": "attested"
-        },
-        {
           "field": "time",
-          "source": "https://en.wikipedia.org/wiki/Cabaret_Voltaire_(Zurich)",
+          "source": "https://writing.upenn.edu/library/Tzara_Dada-Manifesto_1918.pdf",
           "certainty": "scholarly"
         },
         {
           "field": "originated_in",
-          "source": "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300021500",
+          "source": "https://writing.upenn.edu/library/Tzara_Dada-Manifesto_1918.pdf",
           "certainty": "scholarly"
+        },
+        {
+          "field": "kind",
+          "source": "https://writing.upenn.edu/library/Tzara_Dada-Manifesto_1918.pdf",
+          "certainty": "attested"
         }
       ],
       "space": [
@@ -3818,8 +3843,8 @@
           "kind": "scholarly"
         }
       ],
-      "status": "draft",
-      "updated": "2026-08-11",
+      "status": "verified",
+      "updated": "2026-08-25",
       "path": "entities/movements/dada.md"
     },
     "movement/dansaekhwa": {
@@ -3854,18 +3879,18 @@
       },
       "claims": [
         {
-          "field": "kind",
-          "source": "https://en.wikipedia.org/wiki/Dansaekhwa",
+          "field": "time",
+          "source": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002692673",
           "certainty": "scholarly"
         },
         {
           "field": "originated_in",
-          "source": "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300417394",
+          "source": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002692673",
           "certainty": "scholarly"
         },
         {
-          "field": "time",
-          "source": "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300417394",
+          "field": "kind",
+          "source": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002692673",
           "certainty": "scholarly"
         }
       ],
@@ -3917,8 +3942,8 @@
           "kind": "scholarly"
         }
       ],
-      "status": "draft",
-      "updated": "2026-08-09",
+      "status": "verified",
+      "updated": "2026-08-25",
       "path": "entities/movements/dansaekhwa.md"
     },
     "movement/de-stijl": {
@@ -3955,7 +3980,7 @@
         },
         {
           "field": "originated_in",
-          "source": "https://www.lakenhal.nl/en/story/de-stijl",
+          "source": "https://www.moma.org/documents/moma_catalogue_1798_300159061.pdf",
           "certainty": "scholarly"
         },
         {
@@ -4021,8 +4046,8 @@
           "kind": "reference"
         }
       ],
-      "status": "draft",
-      "updated": "2026-08-11",
+      "status": "verified",
+      "updated": "2026-08-25",
       "path": "entities/movements/de-stijl.md"
     },
     "movement/deccan-painting": {
@@ -4053,13 +4078,18 @@
       },
       "claims": [
         {
-          "field": "kind",
-          "source": "https://en.wikipedia.org/wiki/Deccan_painting",
+          "field": "time",
+          "source": "https://www.metmuseum.org/toah/hd/decc/hd_decc.htm",
           "certainty": "scholarly"
         },
         {
-          "field": "time",
-          "source": "https://en.wikipedia.org/wiki/Deccan_painting",
+          "field": "originated_in",
+          "source": "https://www.metmuseum.org/toah/hd/decc/hd_decc.htm",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "kind",
+          "source": "https://www.metmuseum.org/toah/hd/decc/hd_decc.htm",
           "certainty": "scholarly"
         }
       ],
@@ -4145,8 +4175,8 @@
           "note": "《幻獣ブラーク》（The Fabulous Creature Buraq）、c.1660-80年、メトロポリタン美術館蔵（isPublicDomain: true）。小動物の集合体として大動物を描く『合成動物』はデカン絵画の特色の一つとされる"
         }
       ],
-      "status": "draft",
-      "updated": "2026-08-13",
+      "status": "verified",
+      "updated": "2026-08-25",
       "path": "entities/movements/deccan-painting.md"
     },
     "movement/dong-ho-painting": {
@@ -4178,8 +4208,13 @@
       "founding_control": "internal",
       "claims": [
         {
+          "field": "time",
+          "source": "https://ich.unesco.org/en/decisions/20.COM/7.A.1",
+          "certainty": "scholarly"
+        },
+        {
           "field": "originated_in",
-          "source": "https://www.wikidata.org/wiki/Q1923756",
+          "source": "https://ich.unesco.org/en/decisions/20.COM/7.A.1",
           "certainty": "scholarly"
         },
         {
@@ -4249,8 +4284,8 @@
           "kind": "reference"
         }
       ],
-      "status": "draft",
-      "updated": "2026-08-10",
+      "status": "verified",
+      "updated": "2026-08-25",
       "path": "entities/movements/dong-ho-painting.md"
     },
     "movement/ecole-de-dakar": {
@@ -4283,17 +4318,17 @@
       "claims": [
         {
           "field": "time",
-          "source": "https://en.wikipedia.org/wiki/Dakar_School",
-          "certainty": "scholarly"
-        },
-        {
-          "field": "kind",
-          "source": "https://en.wikipedia.org/wiki/Iba_Ndiaye",
+          "source": "https://www.tate.org.uk/art/art-terms/n/negritude",
           "certainty": "scholarly"
         },
         {
           "field": "originated_in",
-          "source": "https://www.wikidata.org/wiki/Q3577793",
+          "source": "https://www.tate.org.uk/art/art-terms/n/negritude",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "kind",
+          "source": "https://www.tate.org.uk/art/art-terms/n/negritude",
           "certainty": "scholarly"
         }
       ],
@@ -4357,8 +4392,8 @@
           "kind": "reference"
         }
       ],
-      "status": "draft",
-      "updated": "2026-08-12",
+      "status": "verified",
+      "updated": "2026-08-25",
       "path": "entities/movements/ecole-de-dakar.md"
     },
     "movement/ecole-de-tunis": {
@@ -4398,17 +4433,17 @@
       "claims": [
         {
           "field": "time",
-          "source": "https://www.wikidata.org/wiki/Q3577825",
+          "source": "https://www.fikerinstitute.org/publications/lecole-de-tunis-the-arts-in-post-independence-tunisia",
           "certainty": "scholarly"
         },
         {
           "field": "originated_in",
-          "source": "https://fr.wikipedia.org/wiki/%C3%89cole_de_Tunis",
+          "source": "https://www.fikerinstitute.org/publications/lecole-de-tunis-the-arts-in-post-independence-tunisia",
           "certainty": "scholarly"
         },
         {
           "field": "kind",
-          "source": "https://fr.wikipedia.org/wiki/Pierre_Boucherle",
+          "source": "https://www.fikerinstitute.org/publications/lecole-de-tunis-the-arts-in-post-independence-tunisia",
           "certainty": "scholarly"
         }
       ],
@@ -4457,11 +4492,11 @@
         },
         {
           "url": "https://www.fikerinstitute.org/publications/lecole-de-tunis-the-arts-in-post-independence-tunisia",
-          "kind": "reference"
+          "kind": "scholarly"
         },
         {
           "url": "https://mathaf.org.qa/en/encyclopedia/artists-biographies/safia-farhat/",
-          "kind": "reference"
+          "kind": "institutional"
         },
         {
           "url": "https://fr.wikipedia.org/wiki/Moses_Levy",
@@ -4481,11 +4516,11 @@
         },
         {
           "url": "https://www.misk.art/lire/abdelaziz-gorgi-hommage-a-l-un-des-pionniers-de-l-art-en-tunisie-au-palais-kheireddine",
-          "kind": "reference"
+          "kind": "institutional"
         }
       ],
-      "status": "draft",
-      "updated": "2026-08-09",
+      "status": "verified",
+      "updated": "2026-08-25",
       "path": "entities/movements/ecole-de-tunis.md"
     },
     "movement/expressionism": {
@@ -4517,7 +4552,7 @@
       "claims": [
         {
           "field": "time",
-          "source": "https://www.wikidata.org/wiki/Q80113",
+          "source": "https://www.moma.org/documents/moma_catalogue_1702_300298262.pdf",
           "certainty": "scholarly"
         },
         {
@@ -4527,7 +4562,7 @@
         },
         {
           "field": "kind",
-          "source": "https://www.wikidata.org/wiki/Q80113",
+          "source": "https://www.moma.org/documents/moma_catalogue_1702_300298262.pdf",
           "certainty": "scholarly"
         }
       ],
@@ -4563,8 +4598,8 @@
           "kind": "scholarly"
         }
       ],
-      "status": "draft",
-      "updated": "2026-08-12",
+      "status": "verified",
+      "updated": "2026-08-25",
       "path": "entities/movements/expressionism.md"
     },
     "movement/fauvism": {
@@ -4596,7 +4631,7 @@
       "claims": [
         {
           "field": "time",
-          "source": "https://www.wikidata.org/wiki/Q166593",
+          "source": "https://shop.tate.org.uk/derain-the-pool-of-london/andder1703.html",
           "certainty": "scholarly"
         },
         {
@@ -4606,7 +4641,7 @@
         },
         {
           "field": "kind",
-          "source": "https://www.wikidata.org/wiki/Q166593",
+          "source": "https://shop.tate.org.uk/derain-the-pool-of-london/andder1703.html",
           "certainty": "scholarly"
         }
       ],
@@ -4668,8 +4703,8 @@
           "kind": "reference"
         }
       ],
-      "status": "draft",
-      "updated": "2026-08-13",
+      "status": "verified",
+      "updated": "2026-08-25",
       "path": "entities/movements/fauvism.md"
     },
     "movement/four-wangs": {
@@ -4700,23 +4735,18 @@
       },
       "claims": [
         {
-          "field": "kind",
-          "source": "https://zh.wikipedia.org/wiki/%E5%9B%9B%E7%8E%8B",
+          "field": "time",
+          "source": "https://www.kyohaku.go.jp/old/eng/theme/floor2_5/past/chinese_20150512.html",
           "certainty": "scholarly"
         },
         {
           "field": "originated_in",
-          "source": "https://zh.wikipedia.org/wiki/%E7%8E%8B%E6%97%B6%E6%95%8F",
+          "source": "https://www.kyohaku.go.jp/old/eng/theme/floor2_5/past/chinese_20150512.html",
           "certainty": "scholarly"
         },
         {
-          "field": "time",
-          "source": "https://zh.wikipedia.org/wiki/%E7%8E%8B%E6%97%B6%E6%95%8F",
-          "certainty": "scholarly"
-        },
-        {
-          "field": "time",
-          "source": "https://zh.wikipedia.org/wiki/%E7%8E%8B%E7%BF%AC",
+          "field": "kind",
+          "source": "https://www.kyohaku.go.jp/old/eng/theme/floor2_5/past/chinese_20150512.html",
           "certainty": "scholarly"
         }
       ],
@@ -4821,8 +4851,8 @@
           "note": "王原祁《倣黄公望山水図（Landscape after Huang Gongwang）》1701年、シカゴ美術館蔵（is_public_domain: true）"
         }
       ],
-      "status": "draft",
-      "updated": "2026-08-10",
+      "status": "verified",
+      "updated": "2026-08-25",
       "path": "entities/movements/four-wangs.md"
     },
     "movement/futurism": {
@@ -4853,17 +4883,17 @@
       },
       "claims": [
         {
-          "field": "kind",
+          "field": "time",
           "source": "https://archive.org/details/f.t.-marinetti-manifeste-du-futurism-1909",
           "certainty": "attested"
         },
         {
-          "field": "time",
-          "source": "https://en.wikipedia.org/wiki/Manifesto_of_Futurism",
-          "certainty": "scholarly"
+          "field": "originated_in",
+          "source": "https://archive.org/details/f.t.-marinetti-manifeste-du-futurism-1909",
+          "certainty": "attested"
         },
         {
-          "field": "originated_in",
+          "field": "kind",
           "source": "https://archive.org/details/f.t.-marinetti-manifeste-du-futurism-1909",
           "certainty": "attested"
         }
@@ -4976,8 +5006,8 @@
           "kind": "institutional"
         }
       ],
-      "status": "draft",
-      "updated": "2026-08-13",
+      "status": "verified",
+      "updated": "2026-08-25",
       "path": "entities/movements/futurism.md"
     },
     "movement/gondarine-church-painting": {
@@ -5010,17 +5040,17 @@
       "claims": [
         {
           "field": "time",
-          "source": "https://en.wikipedia.org/wiki/Gondarine_period",
+          "source": "https://journal.thewalters.org/volume/78/note/ethiopian-icon-paintings/",
           "certainty": "scholarly"
         },
         {
           "field": "originated_in",
-          "source": "https://www.wikidata.org/wiki/Q218861",
+          "source": "https://journal.thewalters.org/volume/78/note/ethiopian-icon-paintings/",
           "certainty": "scholarly"
         },
         {
           "field": "kind",
-          "source": "http://www.getty.edu/vow/AATFullDisplay?find=Gondar&logic=AND&note=&english=Y&subjectid=300263018",
+          "source": "https://journal.thewalters.org/volume/78/note/ethiopian-icon-paintings/",
           "certainty": "scholarly"
         }
       ],
@@ -5091,8 +5121,8 @@
           "note": "《十二使徒とパウロの二連祭壇画》c.1700年、ワルダ・マルヤム（Wäldä Maryam）の工房または一門作。クリーブランド美術館蔵（画家の活動期は1600年代半ば〜1700年代初頭とされ、本文の聖アバ・アントニウス教会ディプティクの署名画家と同名・同時代）"
         }
       ],
-      "status": "draft",
-      "updated": "2026-08-09",
+      "status": "verified",
+      "updated": "2026-08-25",
       "path": "entities/movements/gondarine-church-painting.md"
     },
     "movement/goryeo-buddhist-painting": {
@@ -5123,18 +5153,18 @@
       },
       "claims": [
         {
-          "field": "kind",
-          "source": "https://contents.history.go.kr/mobile/kc/view.do?levelId=kc_r200090&code=kc_age_20",
-          "certainty": "scholarly"
-        },
-        {
           "field": "time",
-          "source": "https://contents.history.go.kr/mobile/eh/view.do?levelId=eh_r0182_0010&code=eh_age_20",
+          "source": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART001609622",
           "certainty": "scholarly"
         },
         {
           "field": "originated_in",
-          "source": "https://contents.history.go.kr/mobile/kc/view.do?levelId=kc_r200090&code=kc_age_20",
+          "source": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART001609622",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "kind",
+          "source": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART001609622",
           "certainty": "scholarly"
         }
       ],
@@ -5231,7 +5261,7 @@
           "note": "《阿弥陀三尊図（Amitabha triad）》13世紀頃、絹本著色・金泥、掛軸。メトロポリタン美術館蔵（isPublicDomain: true）"
         }
       ],
-      "status": "draft",
+      "status": "verified",
       "updated": "2026-08-25",
       "path": "entities/movements/goryeo-buddhist-painting.md"
     },
@@ -5274,7 +5304,7 @@
         },
         {
           "field": "kind",
-          "source": "https://www.wikidata.org/wiki/Q46825",
+          "source": "https://www.metmuseum.org/fr/essays/gothic-art",
           "certainty": "scholarly"
         }
       ],
@@ -5310,8 +5340,8 @@
           "kind": "institutional"
         }
       ],
-      "status": "draft",
-      "updated": "2026-08-12",
+      "status": "verified",
+      "updated": "2026-08-25",
       "path": "entities/movements/gothic-art.md"
     },
     "movement/group-of-seven": {
@@ -5342,11 +5372,6 @@
       },
       "claims": [
         {
-          "field": "kind",
-          "source": "https://ia903103.us.archive.org/28/items/groupof7catalogu00grou/groupof7catalogu00grou_djvu.txt",
-          "certainty": "attested"
-        },
-        {
           "field": "time",
           "source": "https://archive.org/details/groupof7catalogu00grou",
           "certainty": "scholarly"
@@ -5355,6 +5380,11 @@
           "field": "originated_in",
           "source": "https://archive.org/details/groupof7catalogu00grou",
           "certainty": "scholarly"
+        },
+        {
+          "field": "kind",
+          "source": "https://ia903103.us.archive.org/28/items/groupof7catalogu00grou/groupof7catalogu00grou_djvu.txt",
+          "certainty": "attested"
         }
       ],
       "founding_control": "internal",
@@ -5444,8 +5474,8 @@
           "kind": "reference"
         }
       ],
-      "status": "draft",
-      "updated": "2026-08-09",
+      "status": "verified",
+      "updated": "2026-08-25",
       "path": "entities/movements/group-of-seven.md"
     },
     "movement/gutai": {
@@ -5477,18 +5507,18 @@
       },
       "claims": [
         {
-          "field": "kind",
-          "source": "https://www.bunka.go.jp/prmagazine/rensai/diary/diary_097.html",
-          "certainty": "scholarly"
-        },
-        {
           "field": "time",
-          "source": "https://www.wikidata.org/wiki/Q1028956",
+          "source": "https://www.museum.osaka-u.ac.jp/wp/wp-content/uploads/2018/03/kato2017.pdf",
           "certainty": "scholarly"
         },
         {
           "field": "originated_in",
-          "source": "https://www.getty.edu/vow/AATFullDisplay?find=gutai&logic=AND&note=&english=Y&prev_page=1&subjectid=300417399",
+          "source": "https://www.museum.osaka-u.ac.jp/wp/wp-content/uploads/2018/03/kato2017.pdf",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "kind",
+          "source": "https://www.bunka.go.jp/prmagazine/rensai/diary/diary_097.html",
           "certainty": "scholarly"
         }
       ],
@@ -5556,8 +5586,8 @@
           "kind": "institutional"
         }
       ],
-      "status": "draft",
-      "updated": "2026-08-10",
+      "status": "verified",
+      "updated": "2026-08-25",
       "path": "entities/movements/gutai.md"
     },
     "movement/harlem-renaissance": {
@@ -5588,19 +5618,19 @@
       },
       "claims": [
         {
-          "field": "kind",
-          "source": "https://archive.org/download/newnegrointerpre00unse/newnegrointerpre00unse_djvu.txt",
-          "certainty": "attested"
-        },
-        {
           "field": "time",
           "source": "https://archive.org/download/newnegrointerpre00unse/newnegrointerpre00unse_djvu.txt",
           "certainty": "scholarly"
         },
         {
           "field": "originated_in",
-          "source": "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300121558",
-          "certainty": "scholarly"
+          "source": "https://archive.org/details/newnegrointerpre00unse",
+          "certainty": "attested"
+        },
+        {
+          "field": "kind",
+          "source": "https://archive.org/download/newnegrointerpre00unse/newnegrointerpre00unse_djvu.txt",
+          "certainty": "attested"
         }
       ],
       "founding_control": "shared",
@@ -5675,8 +5705,8 @@
           "kind": "reference"
         }
       ],
-      "status": "draft",
-      "updated": "2026-08-09",
+      "status": "verified",
+      "updated": "2026-08-25",
       "path": "entities/movements/harlem-renaissance.md"
     },
     "movement/herat-school": {
@@ -5707,18 +5737,18 @@
       },
       "claims": [
         {
-          "field": "kind",
-          "source": "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300021797",
-          "certainty": "scholarly"
-        },
-        {
           "field": "time",
-          "source": "https://www.ebsco.com/research-starters/visual-arts/herat-school-painting",
+          "source": "https://resources.metmuseum.org/resources/metpublications/pdf/Masterpieces_from_the_Department_of_Islamic_Art_in_The_Metropolitan_Museum_of_Art.pdf",
           "certainty": "scholarly"
         },
         {
           "field": "originated_in",
-          "source": "https://en.wikipedia.org/wiki/Baysunghur",
+          "source": "https://resources.metmuseum.org/resources/metpublications/pdf/Masterpieces_from_the_Department_of_Islamic_Art_in_The_Metropolitan_Museum_of_Art.pdf",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "kind",
+          "source": "https://resources.metmuseum.org/resources/metpublications/pdf/Masterpieces_from_the_Department_of_Islamic_Art_in_The_Metropolitan_Museum_of_Art.pdf",
           "certainty": "scholarly"
         }
       ],
@@ -5829,7 +5859,7 @@
           "note": "「踊る托鉢僧」ハーフィズ『ディーワーン』挿画、c.1480年、ヘラート制作。メトロポリタン美術館蔵、constituents＝\"Painting attributed to Bihzad\"（isPublicDomain: true）"
         }
       ],
-      "status": "draft",
+      "status": "verified",
       "updated": "2026-08-25",
       "path": "entities/movements/herat-school.md"
     },
@@ -5862,17 +5892,17 @@
       "claims": [
         {
           "field": "time",
-          "source": "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300379047",
+          "source": "https://www.metmuseum.org/de/essays/the-hudson-river-school",
           "certainty": "scholarly"
         },
         {
           "field": "originated_in",
-          "source": "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300379047",
+          "source": "https://www.metmuseum.org/de/essays/the-hudson-river-school",
           "certainty": "scholarly"
         },
         {
           "field": "kind",
-          "source": "https://en.wikipedia.org/wiki/Hudson_River_School",
+          "source": "https://www.metmuseum.org/de/essays/the-hudson-river-school",
           "certainty": "scholarly"
         }
       ],
@@ -5928,8 +5958,8 @@
           "note": "フレデリック・エドウィン・チャーチ《コトパクシ山（View of Cotopaxi）》1857年。シカゴ美術館蔵（is_public_domain: true）"
         }
       ],
-      "status": "draft",
-      "updated": "2026-08-09",
+      "status": "verified",
+      "updated": "2026-08-25",
       "path": "entities/movements/hudson-river-school.md"
     },
     "movement/iatmul-carving": {
@@ -5960,13 +5990,18 @@
       },
       "claims": [
         {
-          "field": "kind",
-          "source": "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300021904",
+          "field": "time",
+          "source": "https://global.oup.com/academic/product/names-are-thicker-than-blood-9780197264454",
           "certainty": "scholarly"
         },
         {
           "field": "originated_in",
-          "source": "https://en.wikipedia.org/wiki/Iatmul_people",
+          "source": "https://global.oup.com/academic/product/names-are-thicker-than-blood-9780197264454",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "kind",
+          "source": "https://global.oup.com/academic/product/names-are-thicker-than-blood-9780197264454",
           "certainty": "scholarly"
         }
       ],
@@ -6067,7 +6102,7 @@
           "kind": "scholarly"
         }
       ],
-      "status": "draft",
+      "status": "verified",
       "updated": "2026-08-25",
       "path": "entities/movements/iatmul-carving.md"
     },
@@ -6105,8 +6140,8 @@
         },
         {
           "field": "originated_in",
-          "source": "https://www.wikidata.org/wiki/Q180084",
-          "certainty": "scholarly"
+          "source": "https://web.archive.org/web/20251206081004/https://www.metmuseum.org/essays/ife-terracottas-1000-1400-a-d",
+          "certainty": "attested"
         },
         {
           "field": "kind",
@@ -6185,8 +6220,8 @@
           "note": "《オロクン頭像（Ori Olokun）》。レオ・フロベニウスの著書『Und Afrika sprach』（1912年、p.311）掲載の写真の切り抜き。フロベニウス（1938年没）が1910年にイフェで入手し、失われたアトランティスの遺物として西洋に紹介したことでイフェ美術が広く知られる契機になった作例。現物の所在について像自体は複数の来歴の議論があり、大英博物館に模造が所蔵される（未確認: フロベニウスが持ち出した個体そのものの現在の所在）"
         }
       ],
-      "status": "draft",
-      "updated": "2026-08-13",
+      "status": "verified",
+      "updated": "2026-08-25",
       "path": "entities/movements/ife-art.md"
     },
     "movement/impressionism": {
@@ -6218,17 +6253,12 @@
       "claims": [
         {
           "field": "time",
-          "source": "https://en.wikipedia.org/wiki/First_Impressionist_Exhibition",
-          "certainty": "scholarly"
-        },
-        {
-          "field": "time",
           "source": "https://digistore.bib.ulb.ac.be/2008/DL2864764_1886_f.pdf",
           "certainty": "scholarly"
         },
         {
           "field": "originated_in",
-          "source": "https://www.wikidata.org/wiki/Q3487659",
+          "source": "https://www.clevelandart.org/art/1950.89",
           "certainty": "scholarly"
         },
         {
@@ -6391,7 +6421,7 @@
         }
       ],
       "status": "verified",
-      "updated": "2026-08-11",
+      "updated": "2026-08-25",
       "path": "entities/movements/impressionism.md"
     },
     "movement/indigenismo": {
@@ -6424,12 +6454,12 @@
       "claims": [
         {
           "field": "time",
-          "source": "https://en.wikipedia.org/wiki/Jos%C3%A9_Sabogal",
+          "source": "http://sedici.unlp.edu.ar/bitstream/handle/10915/151286/Documento_completo.pdf-PDFA.pdf?sequence=1",
           "certainty": "scholarly"
         },
         {
           "field": "originated_in",
-          "source": "https://www.museoreinasofia.es/en/activities/indigenisms",
+          "source": "http://sedici.unlp.edu.ar/bitstream/handle/10915/151286/Documento_completo.pdf-PDFA.pdf?sequence=1",
           "certainty": "scholarly"
         },
         {
@@ -6522,8 +6552,8 @@
           "kind": "reference"
         }
       ],
-      "status": "draft",
-      "updated": "2026-08-10",
+      "status": "verified",
+      "updated": "2026-08-25",
       "path": "entities/movements/indigenismo.md"
     },
     "movement/indochina-lacquer-painting": {
@@ -6642,8 +6672,8 @@
           "kind": "reference"
         }
       ],
-      "status": "draft",
-      "updated": "2026-08-09",
+      "status": "verified",
+      "updated": "2026-08-25",
       "path": "entities/movements/indochina-lacquer-painting.md"
     },
     "movement/italian-divisionism": {
@@ -6675,17 +6705,17 @@
       "claims": [
         {
           "field": "time",
-          "source": "https://www.treccani.it/enciclopedia/divisionismo/",
+          "source": "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf",
           "certainty": "scholarly"
         },
         {
           "field": "originated_in",
-          "source": "https://www.treccani.it/enciclopedia/giovanni-segantini_%28Enciclopedia-dei-ragazzi%29/",
+          "source": "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf",
           "certainty": "scholarly"
         },
         {
           "field": "kind",
-          "source": "https://www.treccani.it/enciclopedia/divisionismo/",
+          "source": "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf",
           "certainty": "scholarly"
         }
       ],
@@ -6773,8 +6803,8 @@
           "kind": "reference"
         }
       ],
-      "status": "draft",
-      "updated": "2026-08-13",
+      "status": "verified",
+      "updated": "2026-08-25",
       "path": "entities/movements/italian-divisionism.md"
     },
     "movement/jain-manuscript-painting": {
@@ -6805,17 +6835,17 @@
       },
       "claims": [
         {
-          "field": "kind",
-          "source": "https://www.metmuseum.org/essays/jain-manuscript-painting",
-          "certainty": "scholarly"
-        },
-        {
           "field": "time",
           "source": "https://chitrolekha.com/ns/v8n1/v8n102.pdf",
           "certainty": "scholarly"
         },
         {
           "field": "originated_in",
+          "source": "https://www.metmuseum.org/essays/jain-manuscript-painting",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "kind",
           "source": "https://www.metmuseum.org/essays/jain-manuscript-painting",
           "certainty": "scholarly"
         }
@@ -6877,8 +6907,8 @@
           "note": "《デーヴァーナンダーの十四の吉夢》『カルパスートラ』写本葉、不透明水彩・金・紙、c.1465年、グジャラート（ジャウンプル）。メトロポリタン美術館蔵（isPublicDomain: true）。紙への転換後、金とラピスラズリを用いた成熟期の様式を示す（John Guy の Met essay が同一葉に言及）"
         }
       ],
-      "status": "draft",
-      "updated": "2026-08-10",
+      "status": "verified",
+      "updated": "2026-08-25",
       "path": "entities/movements/jain-manuscript-painting.md"
     },
     "movement/jingyeong-sansuhwa": {
@@ -6909,18 +6939,18 @@
       },
       "claims": [
         {
-          "field": "kind",
-          "source": "https://contents.history.go.kr/mobile/kc/view.do?levelId=kc_r300825&code=kc_age_30",
+          "field": "time",
+          "source": "https://encykorea.aks.ac.kr/Article/E0054575",
           "certainty": "scholarly"
         },
         {
           "field": "originated_in",
-          "source": "https://www.wikidata.org/wiki/Q489785",
+          "source": "https://www.kci.go.kr/kciportal/landing/article.kci?arti_id=ART001994596",
           "certainty": "scholarly"
         },
         {
-          "field": "time",
-          "source": "https://encykorea.aks.ac.kr/Article/E0054575",
+          "field": "kind",
+          "source": "https://www.kci.go.kr/kciportal/landing/article.kci?arti_id=ART001994596",
           "certainty": "scholarly"
         }
       ],
@@ -6993,8 +7023,8 @@
           "note": "鄭敾《仁王山図（Mt. Inwang / Inwangsan）》18世紀、メトロポリタン美術館蔵。真景山水画を確立したとされる鄭敾自身の手による、実在の山を描いた作品（isPublicDomain: true）"
         }
       ],
-      "status": "draft",
-      "updated": "2026-08-09",
+      "status": "verified",
+      "updated": "2026-08-25",
       "path": "entities/movements/jingyeong-sansuhwa.md"
     },
     "movement/jinling-eight-masters": {
@@ -7025,18 +7055,18 @@
       },
       "claims": [
         {
-          "field": "kind",
-          "source": "https://zh.wikipedia.org/wiki/%E9%87%91%E9%99%B5%E5%85%AB%E5%AE%B6",
+          "field": "time",
+          "source": "https://www.comuseum.com/painting/schools/eight-masters-of-nanjing/",
           "certainty": "scholarly"
         },
         {
           "field": "originated_in",
-          "source": "https://en.wikipedia.org/wiki/Eight_Masters_of_Nanjing",
+          "source": "https://www.comuseum.com/painting/schools/eight-masters-of-nanjing/",
           "certainty": "scholarly"
         },
         {
-          "field": "time",
-          "source": "https://en.wikipedia.org/wiki/Eight_Masters_of_Nanjing",
+          "field": "kind",
+          "source": "https://www.comuseum.com/painting/schools/eight-masters-of-nanjing/",
           "certainty": "scholarly"
         }
       ],
@@ -7109,8 +7139,8 @@
           "note": "龔賢《山水樹木図冊（Landscapes and trees）》1679年頃、メトロポリタン美術館蔵（isPublicDomain: true）"
         }
       ],
-      "status": "draft",
-      "updated": "2026-08-10",
+      "status": "verified",
+      "updated": "2026-08-25",
       "path": "entities/movements/jinling-eight-masters.md"
     },
     "movement/joseon-genre-painting": {
@@ -7141,18 +7171,18 @@
       },
       "claims": [
         {
-          "field": "kind",
-          "source": "https://contents.history.go.kr/mobile/nh/view.do?levelId=nh_035_0040_0020_0010_0040",
-          "certainty": "scholarly"
-        },
-        {
           "field": "time",
-          "source": "https://contents.history.go.kr/mobile/nh/view.do?levelId=nh_035_0040_0020_0010_0040",
+          "source": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002897801",
           "certainty": "scholarly"
         },
         {
           "field": "originated_in",
           "source": "https://encykorea.aks.ac.kr/Article/E0052396",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "kind",
+          "source": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002897801",
           "certainty": "scholarly"
         }
       ],
@@ -7242,8 +7272,8 @@
           "note": "申潤福（蕙園）《미인도（美人図）》、澗松美術館蔵、19世紀初と推定（Wikimedia Commons記載。カテゴリ PD Old）"
         }
       ],
-      "status": "draft",
-      "updated": "2026-08-10",
+      "status": "verified",
+      "updated": "2026-08-25",
       "path": "entities/movements/joseon-genre-painting.md"
     },
     "movement/kamasan-painting": {
@@ -7272,7 +7302,23 @@
         "original_label": "Wayang Kamasan",
         "note": "村名がそのまま様式名になっており、狩野派と同型で特定の命名行為は確認できない。2024年、インドネシア知的財産総局（DJKI）への地理的表示（GI）登録により、「カマサン」の名を村での伝統的手法による制作物に限る法的な線引きがなされた——共同体自身がこの名を積極的に主張し防御した行為と言える"
       },
-      "claims": [],
+      "claims": [
+        {
+          "field": "time",
+          "source": "http://balitourismjournal.org/ojs/index.php/btj/article/view/74",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "originated_in",
+          "source": "http://balitourismjournal.org/ojs/index.php/btj/article/view/74",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "kind",
+          "source": "http://balitourismjournal.org/ojs/index.php/btj/article/view/74",
+          "certainty": "scholarly"
+        }
+      ],
       "space": [
         {
           "role": "originated_in",
@@ -7330,8 +7376,8 @@
           "kind": "scholarly"
         }
       ],
-      "status": "draft",
-      "updated": "2026-08-10",
+      "status": "verified",
+      "updated": "2026-08-25",
       "path": "entities/movements/kamasan-painting.md"
     },
     "movement/kanga": {
@@ -7362,18 +7408,18 @@
       },
       "claims": [
         {
-          "field": "kind",
-          "source": "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300266170",
-          "certainty": "scholarly"
-        },
-        {
           "field": "time",
-          "source": "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300266170",
+          "source": "https://encykorea.aks.ac.kr/Article/E0069639",
           "certainty": "scholarly"
         },
         {
           "field": "originated_in",
-          "source": "https://ja.wikipedia.org/wiki/%E6%B0%B4%E5%A2%A8%E7%94%BB",
+          "source": "https://encykorea.aks.ac.kr/Article/E0069639",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "kind",
+          "source": "https://encykorea.aks.ac.kr/Article/E0069639",
           "certainty": "scholarly"
         }
       ],
@@ -7464,8 +7510,8 @@
           "kind": "institutional"
         }
       ],
-      "status": "draft",
-      "updated": "2026-08-10",
+      "status": "verified",
+      "updated": "2026-08-25",
       "path": "entities/movements/kanga.md"
     },
     "movement/kangra-painting": {
@@ -7496,13 +7542,18 @@
       },
       "claims": [
         {
-          "field": "kind",
-          "source": "https://en.wikipedia.org/wiki/Kangra_painting",
+          "field": "time",
+          "source": "https://www.metmuseum.org/art/collection/search/37950",
           "certainty": "scholarly"
         },
         {
-          "field": "time",
-          "source": "https://en.wikipedia.org/wiki/Kangra_painting",
+          "field": "originated_in",
+          "source": "https://www.metmuseum.org/art/collection/search/37950",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "kind",
+          "source": "https://www.metmuseum.org/art/collection/search/37950",
           "certainty": "scholarly"
         }
       ],
@@ -7610,8 +7661,8 @@
           "note": "マナク《シュカとサラナの羅刹の間者を解き放つラーマ：『ランカー包囲』シリーズ挿画》c.1725年。メトロポリタン美術館蔵（isPublicDomain: true）"
         }
       ],
-      "status": "draft",
-      "updated": "2026-08-13",
+      "status": "verified",
+      "updated": "2026-08-25",
       "path": "entities/movements/kangra-painting.md"
     },
     "movement/kano-school": {
@@ -7643,12 +7694,17 @@
       "claims": [
         {
           "field": "time",
-          "source": "https://www.wikidata.org/wiki/Q252801",
+          "source": "https://www.kyohaku.go.jp/jp/assets/press/2027_kano_press_0608-02ver.pdf",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "originated_in",
+          "source": "https://www.kyohaku.go.jp/jp/assets/press/2027_kano_press_0608-02ver.pdf",
           "certainty": "scholarly"
         },
         {
           "field": "kind",
-          "source": "https://www.wikidata.org/wiki/Q252801",
+          "source": "https://www.kyohaku.go.jp/jp/assets/press/2027_kano_press_0608-02ver.pdf",
           "certainty": "scholarly"
         }
       ],
@@ -7704,8 +7760,8 @@
           "note": "狩野探幽《四季山水図（Landscapes of the Four Seasons）》1630年代、メトロポリタン美術館蔵（isPublicDomain: true）"
         }
       ],
-      "status": "draft",
-      "updated": "2026-08-08",
+      "status": "verified",
+      "updated": "2026-08-25",
       "path": "entities/movements/kano-school.md"
     },
     "movement/karma-gardri": {
@@ -7736,17 +7792,17 @@
       },
       "claims": [
         {
-          "field": "kind",
-          "source": "https://www.himalayanart.org/search/set.cfm?setID=248",
-          "certainty": "scholarly"
-        },
-        {
           "field": "time",
           "source": "https://rubinmuseum.org/projecthimalayanart/essays/portrait-of-the-ninth-karmapa/",
           "certainty": "scholarly"
         },
         {
           "field": "originated_in",
+          "source": "https://rubinmuseum.org/projecthimalayanart/essays/portrait-of-the-ninth-karmapa/",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "kind",
           "source": "https://rubinmuseum.org/projecthimalayanart/essays/portrait-of-the-ninth-karmapa/",
           "certainty": "scholarly"
         }
@@ -7791,8 +7847,8 @@
           "kind": "reference"
         }
       ],
-      "status": "draft",
-      "updated": "2026-08-10",
+      "status": "verified",
+      "updated": "2026-08-25",
       "path": "entities/movements/karma-gardri.md"
     },
     "movement/khyenri-school": {
@@ -7823,17 +7879,17 @@
       },
       "claims": [
         {
-          "field": "kind",
-          "source": "https://rubinmuseum.org/projecthimalayanart/essays/murals-of-gongkar-chode/",
-          "certainty": "scholarly"
-        },
-        {
           "field": "time",
           "source": "https://rubinmuseum.org/projecthimalayanart/essays/murals-of-gongkar-chode/",
           "certainty": "scholarly"
         },
         {
           "field": "originated_in",
+          "source": "https://rubinmuseum.org/projecthimalayanart/essays/murals-of-gongkar-chode/",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "kind",
           "source": "https://rubinmuseum.org/projecthimalayanart/essays/murals-of-gongkar-chode/",
           "certainty": "scholarly"
         }
@@ -7875,8 +7931,8 @@
           "kind": "authority"
         }
       ],
-      "status": "draft",
-      "updated": "2026-08-10",
+      "status": "verified",
+      "updated": "2026-08-25",
       "path": "entities/movements/khyenri-school.md"
     },
     "movement/kowhaiwhai": {
@@ -7905,7 +7961,23 @@
         "original_label": "kōwhaiwhai",
         "note": "「コーワイワイ」はマオリ語で赤黒白に彩色された渦巻・曲線文様の絵付けそのものを指す固有の語で、後代に外部（美術史家・批評家）が付けた呼称ではない。この語を使って自分たちの実践を語る当事者の言明が現在まで一貫している——マオリの美術サイトmaori.org.nzは「Reading Kowhaiwhai」というページを持ち（現在ドメインは失効、Wikipedia「Koru」記事が参照ページとして引用）、現代の作家による展覧会（Tim Melville Galleryの2019年展\"Kowhaiwhai\"）も同じ語をそのまま展覧会名に使っている。命名者・命名時期を特定できる単一の出来事は無い——**未確認**: 「コーワイワイ」という語自体がいつから使われているかの一次資料"
       },
-      "claims": [],
+      "claims": [
+        {
+          "field": "time",
+          "source": "https://www.aucklandmuseum.com/collection/object/1207475",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "originated_in",
+          "source": "https://www.aucklandmuseum.com/collection/object/1207475",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "kind",
+          "source": "https://www.aucklandmuseum.com/collection/object/1207475",
+          "certainty": "scholarly"
+        }
+      ],
       "space": [
         {
           "role": "originated_in",
@@ -7971,8 +8043,8 @@
           "kind": "authority"
         }
       ],
-      "status": "draft",
-      "updated": "2026-08-10",
+      "status": "verified",
+      "updated": "2026-08-25",
       "path": "entities/movements/kowhaiwhai.md"
     },
     "movement/lapita-pottery": {
@@ -8003,8 +8075,8 @@
       },
       "claims": [
         {
-          "field": "kind",
-          "source": "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300264776",
+          "field": "time",
+          "source": "http://www.ioa.ucla.edu/talepakemalai",
           "certainty": "scholarly"
         },
         {
@@ -8013,8 +8085,8 @@
           "certainty": "scholarly"
         },
         {
-          "field": "time",
-          "source": "https://en.wikipedia.org/wiki/Lapita_culture",
+          "field": "kind",
+          "source": "http://www.ioa.ucla.edu/talepakemalai",
           "certainty": "scholarly"
         }
       ],
@@ -8099,8 +8171,8 @@
           "kind": "institutional"
         }
       ],
-      "status": "draft",
-      "updated": "2026-08-10",
+      "status": "verified",
+      "updated": "2026-08-25",
       "path": "entities/movements/lapita-pottery.md"
     },
     "movement/lingnan-school": {
@@ -8131,18 +8203,18 @@
       },
       "claims": [
         {
-          "field": "kind",
-          "source": "https://www.huajia.cc/n/201608/1512142572.html",
+          "field": "time",
+          "source": "https://www.tnm.jp/modules/r_free_page/index.php?id=1544&lang=ja",
           "certainty": "scholarly"
         },
         {
           "field": "originated_in",
-          "source": "https://news.qq.com/rain/a/20230822A01WD200",
+          "source": "https://www.tnm.jp/modules/r_free_page/index.php?id=1544&lang=ja",
           "certainty": "scholarly"
         },
         {
-          "field": "time",
-          "source": "https://www.wikidata.org/wiki/Q11050078",
+          "field": "kind",
+          "source": "https://www.tnm.jp/modules/r_free_page/index.php?id=1544&lang=ja",
           "certainty": "scholarly"
         }
       ],
@@ -8239,8 +8311,8 @@
           "note": "居廉《昆虫と花（Insects and Flowers）》1865年、メトロポリタン美術館蔵。高剣父・高奇峰・陳樹人の師で、嶺南画派の様式的源流の一人とされる（isPublicDomain: true）"
         }
       ],
-      "status": "draft",
-      "updated": "2026-08-09",
+      "status": "verified",
+      "updated": "2026-08-25",
       "path": "entities/movements/lingnan-school.md"
     },
     "movement/literati-painting": {
@@ -8271,13 +8343,18 @@
       },
       "claims": [
         {
-          "field": "kind",
-          "source": "https://zh.wikipedia.org/wiki/%E6%96%87%E4%BA%BA%E7%94%BB",
+          "field": "time",
+          "source": "https://www.metmuseum.org/ja/essays/art-of-the-edo-period-1615-1868",
           "certainty": "scholarly"
         },
         {
-          "field": "time",
-          "source": "https://en.wikipedia.org/wiki/Southern_School",
+          "field": "origin_unknown",
+          "source": "https://www.metmuseum.org/ja/essays/art-of-the-edo-period-1615-1868",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "kind",
+          "source": "https://www.metmuseum.org/ja/essays/art-of-the-edo-period-1615-1868",
           "certainty": "scholarly"
         }
       ],
@@ -8315,6 +8392,10 @@
         {
           "url": "https://www.wikidata.org/wiki/Q313605",
           "kind": "authority"
+        },
+        {
+          "url": "https://www.metmuseum.org/ja/essays/art-of-the-edo-period-1615-1868",
+          "kind": "institutional"
         }
       ],
       "images": [
@@ -8333,8 +8414,8 @@
           "note": "王原祁（清・四王の一人）《輞川図（Wangchuan Villa）》1711年。メトロポリタン美術館蔵（isPublicDomain: true）。王維の別荘「輞川」を主題とし、南宗の遡及的な祖・王維へ清代の正統派が意識的に立ち返っていたことを示す作例"
         }
       ],
-      "status": "draft",
-      "updated": "2026-08-10",
+      "status": "verified",
+      "updated": "2026-08-25",
       "path": "entities/movements/literati-painting.md"
     },
     "movement/makonde-carving": {
@@ -8365,13 +8446,18 @@
       },
       "claims": [
         {
-          "field": "kind",
+          "field": "time",
           "source": "https://journals.openedition.org/etudesafricaines/4878",
           "certainty": "scholarly"
         },
         {
           "field": "originated_in",
-          "source": "https://en.wikipedia.org/wiki/Makonde_people",
+          "source": "https://journals.openedition.org/etudesafricaines/4878",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "kind",
+          "source": "https://journals.openedition.org/etudesafricaines/4878",
           "certainty": "scholarly"
         }
       ],
@@ -8428,8 +8514,8 @@
           "kind": "scholarly"
         }
       ],
-      "status": "draft",
-      "updated": "2026-08-10",
+      "status": "verified",
+      "updated": "2026-08-25",
       "path": "entities/movements/makonde-carving.md"
     },
     "movement/mandalay-style": {
@@ -8461,17 +8547,17 @@
       "claims": [
         {
           "field": "time",
-          "source": "https://www.getty.edu/vow/AATFullDisplay?find=Mandalay&logic=AND&note=&subjectid=300107052",
+          "source": "https://www.metmuseum.org/art/collection/search/856163",
           "certainty": "scholarly"
         },
         {
           "field": "originated_in",
-          "source": "https://en.wikipedia.org/wiki/Mandalay",
+          "source": "https://www.metmuseum.org/art/collection/search/856163",
           "certainty": "scholarly"
         },
         {
           "field": "kind",
-          "source": "https://www.getty.edu/vow/AATFullDisplay?find=Mandalay&logic=AND&note=&subjectid=300107052",
+          "source": "https://www.metmuseum.org/art/collection/search/856163",
           "certainty": "scholarly"
         }
       ],
@@ -8574,7 +8660,7 @@
           "note": "《王室の行列・儀礼・娯楽の場面》（Royal processions, ceremonies and entertainments）、ミンドン王またはティーボー王の宮廷（あるいは関連工房）制作、ビルマ、1870〜80年代。桑皮紙に水彩・金、金塗り漆塗り木製表紙。メトロポリタン美術館蔵（isPublicDomain: true）"
         }
       ],
-      "status": "draft",
+      "status": "verified",
       "updated": "2026-08-25",
       "path": "entities/movements/mandalay-style.md"
     },
@@ -8606,18 +8692,18 @@
       },
       "claims": [
         {
-          "field": "kind",
-          "source": "https://en.wikipedia.org/wiki/Mannerism",
-          "certainty": "scholarly"
-        },
-        {
           "field": "time",
-          "source": "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300021144",
+          "source": "https://www.artic.edu/artworks/110759",
           "certainty": "scholarly"
         },
         {
           "field": "originated_in",
-          "source": "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300021144",
+          "source": "https://www.artic.edu/artworks/110759",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "kind",
+          "source": "https://www.artic.edu/artworks/110759",
           "certainty": "scholarly"
         }
       ],
@@ -8670,8 +8756,8 @@
           "kind": "institutional"
         }
       ],
-      "status": "draft",
-      "updated": "2026-08-10",
+      "status": "verified",
+      "updated": "2026-08-25",
       "path": "entities/movements/mannerism.md"
     },
     "movement/maruyama-shijo-school": {
@@ -8702,8 +8788,18 @@
       },
       "claims": [
         {
+          "field": "time",
+          "source": "https://kyoto-museums.city.kyoto.lg.jp/en/feature-column/painting/",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "originated_in",
+          "source": "https://kyoto-museums.city.kyoto.lg.jp/en/feature-column/painting/",
+          "certainty": "scholarly"
+        },
+        {
           "field": "kind",
-          "source": "https://www.wikidata.org/wiki/Q11394761",
+          "source": "https://kyoto-museums.city.kyoto.lg.jp/en/feature-column/painting/",
           "certainty": "scholarly"
         }
       ],
@@ -8787,8 +8883,8 @@
           "note": "松村呉春《鍾馗図（Shoki the Demon Queller）》17〜19世紀、シカゴ美術館蔵（is_public_domain: true）"
         }
       ],
-      "status": "draft",
-      "updated": "2026-08-13",
+      "status": "verified",
+      "updated": "2026-08-25",
       "path": "entities/movements/maruyama-shijo-school.md"
     },
     "movement/mavo": {
@@ -8817,7 +8913,23 @@
         "original_label": "マヴォ / MAVO",
         "note": "村山知義を中心とするグループがこの名を掲げ、同名の機関誌を刊行した。語の最初の選択者・命名行為の詳細は未確認"
       },
-      "claims": [],
+      "claims": [
+        {
+          "field": "time",
+          "source": "https://artplatform.go.jp/ja/artists/A5349",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "originated_in",
+          "source": "https://artplatform.go.jp/ja/artists/A5349",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "kind",
+          "source": "https://artplatform.go.jp/ja/artists/A5349",
+          "certainty": "scholarly"
+        }
+      ],
       "space": [
         {
           "role": "originated_in",
@@ -8860,8 +8972,8 @@
           "kind": "reference"
         }
       ],
-      "status": "draft",
-      "updated": "2026-08-12",
+      "status": "verified",
+      "updated": "2026-08-25",
       "path": "entities/movements/mavo.md"
     },
     "movement/menri-school": {
@@ -8892,13 +9004,18 @@
       },
       "claims": [
         {
-          "field": "kind",
-          "source": "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300018855",
+          "field": "time",
+          "source": "https://rubinmuseum.org/projecthimalayanart/glossary/menla-tradition/",
           "certainty": "scholarly"
         },
         {
-          "field": "time",
-          "source": "https://www.himalayanart.org/search/set.cfm?setID=4163",
+          "field": "originated_in",
+          "source": "https://rubinmuseum.org/projecthimalayanart/glossary/menla-tradition/",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "kind",
+          "source": "https://rubinmuseum.org/projecthimalayanart/glossary/menla-tradition/",
           "certainty": "scholarly"
         }
       ],
@@ -8960,8 +9077,8 @@
           "kind": "institutional"
         }
       ],
-      "status": "draft",
-      "updated": "2026-08-12",
+      "status": "verified",
+      "updated": "2026-08-25",
       "path": "entities/movements/menri-school.md"
     },
     "movement/mewar-painting": {
@@ -8992,18 +9109,18 @@
       },
       "claims": [
         {
-          "field": "kind",
-          "source": "https://www.getty.edu/vow/AATFullDisplay?find=300019040&logic=AND&note=&subjectid=300019040",
-          "certainty": "scholarly"
-        },
-        {
           "field": "time",
-          "source": "https://en.wikipedia.org/wiki/Rajput_painting",
+          "source": "https://resources.metmuseum.org/resources/metpublications/pdf/Wonder_of_the_Age_Master_Painters_of_India_1100_1900.pdf",
           "certainty": "scholarly"
         },
         {
           "field": "originated_in",
-          "source": "https://www.getty.edu/vow/AATFullDisplay?find=300019040&logic=AND&note=&subjectid=300019040",
+          "source": "https://resources.metmuseum.org/resources/metpublications/pdf/Wonder_of_the_Age_Master_Painters_of_India_1100_1900.pdf",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "kind",
+          "source": "https://resources.metmuseum.org/resources/metpublications/pdf/Wonder_of_the_Age_Master_Painters_of_India_1100_1900.pdf",
           "certainty": "scholarly"
         }
       ],
@@ -9111,8 +9228,8 @@
           "note": "《クリシュナとゴーピー》c.1660年。クリーブランド美術館蔵（share_license_status: CC0）。ジャガト・シング1世没後の時代のクリシュナ信仰主題の作例"
         }
       ],
-      "status": "draft",
-      "updated": "2026-08-13",
+      "status": "verified",
+      "updated": "2026-08-25",
       "path": "entities/movements/mewar-painting.md"
     },
     "movement/mexican-muralism": {
@@ -9143,13 +9260,18 @@
       },
       "claims": [
         {
-          "field": "kind",
-          "source": "https://en.wikipedia.org/wiki/Mexican_muralism",
+          "field": "time",
+          "source": "https://www.scielo.org.mx/scielo.php?script=sci_arttext&pid=S2448-83722019000100115",
           "certainty": "scholarly"
         },
         {
           "field": "originated_in",
-          "source": "https://www.wikidata.org/wiki/Q1367381",
+          "source": "https://www.scielo.org.mx/scielo.php?script=sci_arttext&pid=S2448-83722019000100115",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "kind",
+          "source": "https://www.scielo.org.mx/scielo.php?script=sci_arttext&pid=S2448-83722019000100115",
           "certainty": "scholarly"
         }
       ],
@@ -9198,8 +9320,8 @@
           "kind": "reference"
         }
       ],
-      "status": "draft",
-      "updated": "2026-08-09",
+      "status": "verified",
+      "updated": "2026-08-25",
       "path": "entities/movements/mexican-muralism.md"
     },
     "movement/mingei": {
@@ -9230,18 +9352,18 @@
       },
       "claims": [
         {
-          "field": "kind",
-          "source": "https://www.wikidata.org/wiki/Q3314961",
-          "certainty": "scholarly"
-        },
-        {
           "field": "time",
-          "source": "https://mingeikan.or.jp/about/history/",
+          "source": "https://www.metmuseum.org/art/collection/search/36115",
           "certainty": "scholarly"
         },
         {
           "field": "originated_in",
-          "source": "https://mingeikan.or.jp/about/history/",
+          "source": "https://www.metmuseum.org/art/collection/search/36115",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "kind",
+          "source": "https://www.metmuseum.org/art/collection/search/36115",
           "certainty": "scholarly"
         }
       ],
@@ -9310,8 +9432,8 @@
           "kind": "institutional"
         }
       ],
-      "status": "draft",
-      "updated": "2026-08-10",
+      "status": "verified",
+      "updated": "2026-08-25",
       "path": "entities/movements/mingei.md"
     },
     "movement/mono-ha": {
@@ -9345,18 +9467,18 @@
       },
       "claims": [
         {
-          "field": "kind",
-          "source": "https://en.wikipedia.org/wiki/Mono-ha",
-          "certainty": "scholarly"
-        },
-        {
           "field": "time",
-          "source": "https://www.getty.edu/vow/AATFullDisplay?find=mono+ha&logic=AND&note=&english=Y&prev_page=1&subjectid=300417405",
+          "source": "https://oralarthistory.org/archives/interviews/lee_u_fan_02/",
           "certainty": "scholarly"
         },
         {
           "field": "originated_in",
-          "source": "https://en.wikipedia.org/wiki/Mono-ha",
+          "source": "https://oralarthistory.org/archives/interviews/lee_u_fan_02/",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "kind",
+          "source": "https://oralarthistory.org/archives/interviews/lee_u_fan_02/",
           "certainty": "scholarly"
         }
       ],
@@ -9407,15 +9529,15 @@
         },
         {
           "url": "https://oralarthistory.org/archives/interviews/lee_u_fan_02/",
-          "kind": "reference"
+          "kind": "scholarly"
         },
         {
           "url": "https://www.pen-online.jp/article/012230.html",
           "kind": "reference"
         }
       ],
-      "status": "draft",
-      "updated": "2026-08-09",
+      "status": "verified",
+      "updated": "2026-08-25",
       "path": "entities/movements/mono-ha.md"
     },
     "movement/mughal-painting": {
@@ -9446,13 +9568,18 @@
       },
       "claims": [
         {
-          "field": "kind",
-          "source": "https://www.getty.edu/vow/AATFullDisplay?find=Mughal&logic=AND&note=&subjectid=300018939",
+          "field": "time",
+          "source": "https://82nd-and-fifth.metmuseum.org/toah/ht/08/ssa.html",
           "certainty": "scholarly"
         },
         {
-          "field": "time",
-          "source": "https://en.wikipedia.org/wiki/Mughal_painting",
+          "field": "originated_in",
+          "source": "https://82nd-and-fifth.metmuseum.org/toah/ht/08/ssa.html",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "kind",
+          "source": "https://82nd-and-fifth.metmuseum.org/toah/ht/08/ssa.html",
           "certainty": "scholarly"
         }
       ],
@@ -9536,8 +9663,8 @@
           "note": "アブル・ハサン筆《斑ヒタキ（Spotted Forktail）》シャー・ジャハーン・アルバムより、c.1610-15年、メトロポリタン美術館蔵（isPublicDomain: true）"
         }
       ],
-      "status": "draft",
-      "updated": "2026-08-13",
+      "status": "verified",
+      "updated": "2026-08-25",
       "path": "entities/movements/mughal-painting.md"
     },
     "movement/nanga": {
@@ -9566,7 +9693,23 @@
         "original_label": "南画",
         "note": "『南画』という呼称そのものの定着は幕末から明治にかけて（日本語版Wikipedia「南画」、二次情報）。より古い語『文人画』（中国の文人画に由来し、専門画工に対する在野の文人の余技としての絵画を指す語）が先にあり、『南画』はそのうち中国・南宗画の系統を継ぐものを指す語として後から定着した。当事者（池大雅・与謝蕪村ら18世紀の担い手）が自ら『南画』または『文人画』という語で群れを名乗った一次的記述は見つかっていない。英語版Wikipediaは担い手たちが自らを『literati（文人）』とみなしていたと記すが、これは学者・知識人としての自己認識であり、絵画の一括りとしての群れの名称そのものではない——この区別のため self_identified は false とした"
       },
-      "claims": [],
+      "claims": [
+        {
+          "field": "time",
+          "source": "https://www.kyohaku.go.jp/old/eng/theme/floor2_4/past/kinse_20170221.html",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "originated_in",
+          "source": "https://www.kyohaku.go.jp/old/eng/theme/floor2_4/past/kinse_20170221.html",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "kind",
+          "source": "https://www.kyohaku.go.jp/old/eng/theme/floor2_4/past/kinse_20170221.html",
+          "certainty": "scholarly"
+        }
+      ],
       "evidence": [
         {
           "target": "work/group-pilgrimage-jizo-ike-taiga",
@@ -9689,7 +9832,7 @@
           "note": "与謝蕪村《山野跋渉図屏風（Travels through Mountains and Fields）》1765年頃、メトロポリタン美術館蔵（isPublicDomain: true）"
         }
       ],
-      "status": "draft",
+      "status": "verified",
       "updated": "2026-08-25",
       "path": "entities/movements/nanga.md"
     },
@@ -9722,19 +9865,19 @@
       "founding_control": "internal",
       "claims": [
         {
-          "field": "kind",
-          "source": "https://plato.stanford.edu/entries/negritude/",
-          "certainty": "attested"
-        },
-        {
           "field": "time",
-          "source": "https://poets.org/text/brief-guide-negritude",
+          "source": "https://plato.stanford.edu/entries/negritude/",
           "certainty": "scholarly"
         },
         {
           "field": "originated_in",
           "source": "https://www.tate.org.uk/art/art-terms/n/negritude",
           "certainty": "scholarly"
+        },
+        {
+          "field": "kind",
+          "source": "https://plato.stanford.edu/entries/negritude/",
+          "certainty": "attested"
         }
       ],
       "space": [
@@ -9779,8 +9922,8 @@
           "kind": "reference"
         }
       ],
-      "status": "draft",
-      "updated": "2026-08-09",
+      "status": "verified",
+      "updated": "2026-08-25",
       "path": "entities/movements/negritude.md"
     },
     "movement/neo-impressionism": {
@@ -9812,7 +9955,7 @@
       "claims": [
         {
           "field": "time",
-          "source": "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300021505",
+          "source": "https://digistore.bib.ulb.ac.be/2008/DL2864764_1886_f.pdf",
           "certainty": "scholarly"
         },
         {
@@ -9822,7 +9965,7 @@
         },
         {
           "field": "kind",
-          "source": "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300021505",
+          "source": "https://digistore.bib.ulb.ac.be/2008/DL2864764_1886_f.pdf",
           "certainty": "scholarly"
         }
       ],
@@ -9998,7 +10141,7 @@
         },
         {
           "field": "kind",
-          "source": "https://www.wikidata.org/wiki/Q14378",
+          "source": "https://www.metmuseum.org/fr/essays/neoclassicism",
           "certainty": "scholarly"
         }
       ],
@@ -10030,8 +10173,8 @@
           "kind": "institutional"
         }
       ],
-      "status": "draft",
-      "updated": "2026-08-12",
+      "status": "verified",
+      "updated": "2026-08-25",
       "path": "entities/movements/neoclassicism.md"
     },
     "movement/neoconcretismo": {
@@ -10062,9 +10205,9 @@
       },
       "claims": [
         {
-          "field": "kind",
-          "source": "https://portal.lygiaclark.org.br/acervo/67348/manifesto-neoconcreto",
-          "certainty": "attested"
+          "field": "time",
+          "source": "https://portal.lygiaclark.org.br/acervo/1747/1-exposicao-neoconcreta",
+          "certainty": "scholarly"
         },
         {
           "field": "originated_in",
@@ -10072,9 +10215,9 @@
           "certainty": "attested"
         },
         {
-          "field": "time",
-          "source": "https://portal.lygiaclark.org.br/acervo/1747/1-exposicao-neoconcreta",
-          "certainty": "scholarly"
+          "field": "kind",
+          "source": "https://portal.lygiaclark.org.br/acervo/67348/manifesto-neoconcreto",
+          "certainty": "attested"
         }
       ],
       "space": [
@@ -10110,11 +10253,13 @@
       "sources": [
         {
           "url": "https://portal.lygiaclark.org.br/acervo/67348/manifesto-neoconcreto",
-          "kind": "reference"
+          "kind": "primary",
+          "note": "同時代のネオコン具体派マニフェスト原文を収録する作家アーカイブ"
         },
         {
           "url": "https://portal.lygiaclark.org.br/acervo/1747/1-exposicao-neoconcreta",
-          "kind": "reference"
+          "kind": "primary",
+          "note": "同時代展覧会の記録を収録する作家アーカイブ"
         },
         {
           "url": "https://www.wikidata.org/wiki/Q10336205",
@@ -10134,11 +10279,11 @@
         },
         {
           "url": "https://smarthistory.org/geometric-abstraction-south-america/",
-          "kind": "reference"
+          "kind": "scholarly"
         }
       ],
-      "status": "draft",
-      "updated": "2026-08-09",
+      "status": "verified",
+      "updated": "2026-08-25",
       "path": "entities/movements/neoconcretismo.md"
     },
     "movement/newar-art": {
@@ -10168,6 +10313,11 @@
         "note": "「ネワール美術（Newar art）」は、ネワールという担い手の集団名を冠して外側から与えられた美術史・美術館の分類語である。当事者がこの名で一つの運動・流派を名乗った記録は確認していない。ネワール自身の実践は、パウバ（paubha、ネワールの宗教絵画。チベットのタンカに対応する）や金工といった**媒体ごとの名**と、チトラカール（Chitrakar）・ヴァジュラーチャーリヤ（Vajracharya）・シャーキャ（Shakya）といった**カースト・職能集団の名**で呼ばれてきた。Getty AAT が持つのも民族名ではなく国名由来の『Nepalese (culture or style)』であり、担い手の単位と分類語の単位がずれている点は[バマナ彫刻](bamana-sculpture.md)と同型である。**未確認**: 「Newar art」という英語の括りを最初に用いた研究者・年"
       },
       "claims": [
+        {
+          "field": "time",
+          "source": "https://rubinmuseum.org/projecthimalayanart/glossary/newar/",
+          "certainty": "scholarly"
+        },
         {
           "field": "originated_in",
           "source": "https://rubinmuseum.org/projecthimalayanart/glossary/newar/",
@@ -10208,8 +10358,8 @@
           "kind": "authority"
         }
       ],
-      "status": "draft",
-      "updated": "2026-08-10",
+      "status": "verified",
+      "updated": "2026-08-25",
       "path": "entities/movements/newar-art.md"
     },
     "movement/ngati-tarawhai-whakairo": {
@@ -10241,17 +10391,17 @@
       "claims": [
         {
           "field": "time",
-          "source": "https://www.ngatitarawhaiiwi.org.nz/nga-tohunga",
-          "certainty": "attested"
+          "source": "https://aucklanduniversitypress.co.nz/carved-histories-rotorua-ngati-tarawhai-carving/",
+          "certainty": "scholarly"
         },
         {
           "field": "originated_in",
-          "source": "https://www.ngatitarawhaiiwi.org.nz/nga-tohunga",
-          "certainty": "attested"
+          "source": "https://aucklanduniversitypress.co.nz/carved-histories-rotorua-ngati-tarawhai-carving/",
+          "certainty": "scholarly"
         },
         {
           "field": "kind",
-          "source": "https://www.ngatitarawhaiiwi.org.nz/nga-tohunga",
+          "source": "https://aucklanduniversitypress.co.nz/carved-histories-rotorua-ngati-tarawhai-carving/",
           "certainty": "scholarly"
         }
       ],
@@ -10327,8 +10477,8 @@
           "kind": "institutional"
         }
       ],
-      "status": "draft",
-      "updated": "2026-08-13",
+      "status": "verified",
+      "updated": "2026-08-25",
       "path": "entities/movements/ngati-tarawhai-whakairo.md"
     },
     "movement/nihonga": {
@@ -10359,18 +10509,18 @@
       },
       "claims": [
         {
-          "field": "kind",
-          "source": "http://museums.toyamaken.jp/documents/documents007/",
-          "certainty": "scholarly"
-        },
-        {
           "field": "time",
           "source": "http://museums.toyamaken.jp/documents/documents007/",
           "certainty": "scholarly"
         },
         {
           "field": "originated_in",
-          "source": "https://nihonbijutsuin.or.jp/his_tenshsin.php",
+          "source": "https://www.yamatane-museum.jp/en/nihonga/",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "kind",
+          "source": "http://museums.toyamaken.jp/documents/documents007/",
           "certainty": "scholarly"
         }
       ],
@@ -10441,8 +10591,8 @@
           "kind": "institutional"
         }
       ],
-      "status": "draft",
-      "updated": "2026-08-10",
+      "status": "verified",
+      "updated": "2026-08-25",
       "path": "entities/movements/nihonga.md"
     },
     "movement/nok-sculpture": {
@@ -10553,8 +10703,8 @@
           "note": "《頭部像》熱ルミネッセンス測定で西暦20〜620年。中部ナイジェリア・ノク文化様式圏、制作者不明の女性陶工。クリーブランド美術館蔵（share_license_status: CC0）。同館解説は『この完全な形で残る頭部像は、大胆な造形・意図的な非対称性・繊細な表情によって、現存するノク彫刻の中でも最良の作例の1つ』とする"
         }
       ],
-      "status": "draft",
-      "updated": "2026-08-13",
+      "status": "verified",
+      "updated": "2026-08-25",
       "path": "entities/movements/nok-sculpture.md"
     },
     "movement/northwest-coast-carving": {
@@ -10585,13 +10735,18 @@
       },
       "claims": [
         {
-          "field": "kind",
-          "source": "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300017594",
+          "field": "time",
+          "source": "https://content.lib.washington.edu/aipnw/wright.html",
           "certainty": "scholarly"
         },
         {
           "field": "originated_in",
-          "source": "https://www.ebsco.com/research-starters/social-sciences-and-humanities/northwest-coast-cultural-area-native-american",
+          "source": "https://content.lib.washington.edu/aipnw/wright.html",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "kind",
+          "source": "https://content.lib.washington.edu/aipnw/wright.html",
           "certainty": "scholarly"
         }
       ],
@@ -10686,7 +10841,7 @@
           "kind": "institutional"
         }
       ],
-      "status": "draft",
+      "status": "verified",
       "updated": "2026-08-25",
       "path": "entities/movements/northwest-coast-carving.md"
     },
@@ -10718,18 +10873,18 @@
       },
       "claims": [
         {
-          "field": "kind",
-          "source": "https://en.wikipedia.org/wiki/Novgorod_school",
-          "certainty": "scholarly"
-        },
-        {
           "field": "time",
-          "source": "https://ru.wikipedia.org/wiki/Новгородская_школа_(древнерусское_искусство)",
+          "source": "https://books.openbookpublishers.com/10.11647/obp.0378/ch2.xhtml",
           "certainty": "scholarly"
         },
         {
           "field": "originated_in",
-          "source": "https://www.wikidata.org/wiki/Q2876208",
+          "source": "https://books.openbookpublishers.com/10.11647/obp.0378/ch2.xhtml",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "kind",
+          "source": "https://books.openbookpublishers.com/10.11647/obp.0378/ch2.xhtml",
           "certainty": "scholarly"
         }
       ],
@@ -10831,8 +10986,8 @@
           "note": "《生涯の20場面を伴う聖ニコラウス（ザライスクの）》16世紀初頭頃。ノルウェー国立美術館・建築・デザイン博物館（Nasjonalmuseet）蔵、作者を「School of Novgorod」と明記（Wikidata Q2876208をauthorityとして参照）。Wikimedia Commonsのextmetadataは LicenseShortName: Public domain / Copyrighted: false"
         }
       ],
-      "status": "draft",
-      "updated": "2026-08-13",
+      "status": "verified",
+      "updated": "2026-08-25",
       "path": "entities/movements/novgorod-school-icon-painting.md"
     },
     "movement/ottoman-miniature": {
@@ -10861,7 +11016,23 @@
         "original_label": "Osmanlı minyatürü",
         "note": "「オスマン」は王朝名で、当事者がこの名で自分たちの絵画を名乗った記録はない。オスマン語で当時使われたのは taswir・nakış（『描く』『装飾する』の意）という技法一般の語で、王朝名を冠した呼称ではなかった。王朝名を美術史区分に転用した、後代の学術的な呼称"
       },
-      "claims": [],
+      "claims": [
+        {
+          "field": "time",
+          "source": "https://www.metmuseum.org/essays/the-art-of-the-ottomans-before-1600",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "originated_in",
+          "source": "https://www.metmuseum.org/essays/the-art-of-the-ottomans-before-1600",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "kind",
+          "source": "https://www.metmuseum.org/essays/the-art-of-the-ottomans-before-1600",
+          "certainty": "scholarly"
+        }
+      ],
       "space": [
         {
           "role": "originated_in",
@@ -10922,8 +11093,8 @@
           "kind": "reference"
         }
       ],
-      "status": "draft",
-      "updated": "2026-08-13",
+      "status": "verified",
+      "updated": "2026-08-25",
       "path": "entities/movements/ottoman-miniature.md"
     },
     "movement/papunya-tula": {
@@ -10956,12 +11127,17 @@
       "claims": [
         {
           "field": "time",
-          "source": "https://www.wikidata.org/wiki/Q18005",
+          "source": "https://www.nma.gov.au/defining-moments/resources/papunya-tula",
           "certainty": "scholarly"
         },
         {
           "field": "originated_in",
-          "source": "https://www.wikidata.org/wiki/Q18005",
+          "source": "https://www.nma.gov.au/defining-moments/resources/papunya-tula",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "kind",
+          "source": "https://www.nma.gov.au/defining-moments/resources/papunya-tula",
           "certainty": "scholarly"
         }
       ],
@@ -11031,8 +11207,8 @@
           "kind": "institutional"
         }
       ],
-      "status": "draft",
-      "updated": "2026-08-12",
+      "status": "verified",
+      "updated": "2026-08-25",
       "path": "entities/movements/papunya-tula.md"
     },
     "movement/peredvizhniki": {
@@ -11063,18 +11239,18 @@
       },
       "claims": [
         {
-          "field": "kind",
-          "source": "https://ru.wikipedia.org/wiki/Передвижники",
-          "certainty": "scholarly"
-        },
-        {
           "field": "time",
-          "source": "https://www.wikidata.org/wiki/Q109260",
+          "source": "https://www.tretyakovgallery.ru/exhibitions/o/peredvizhniki-/?lang=en",
           "certainty": "scholarly"
         },
         {
           "field": "originated_in",
-          "source": "https://ru.wikipedia.org/wiki/Передвижники",
+          "source": "https://www.tretyakovgallery.ru/exhibitions/o/peredvizhniki-/?lang=en",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "kind",
+          "source": "https://www.tretyakovgallery.ru/exhibitions/o/peredvizhniki-/?lang=en",
           "certainty": "scholarly"
         }
       ],
@@ -11106,7 +11282,7 @@
         },
         {
           "url": "https://www.tretyakovgallery.ru/exhibitions/o/peredvizhniki-/?lang=en",
-          "kind": "reference"
+          "kind": "institutional"
         }
       ],
       "images": [
@@ -11125,8 +11301,8 @@
           "note": "イワン・シーシキン《嵐の前》1873年。メトロポリタン美術館蔵（isPublicDomain: true）。発起人14人の一人"
         }
       ],
-      "status": "draft",
-      "updated": "2026-08-09",
+      "status": "verified",
+      "updated": "2026-08-25",
       "path": "entities/movements/peredvizhniki.md"
     },
     "movement/pita-maha": {
@@ -11159,12 +11335,17 @@
       "claims": [
         {
           "field": "time",
-          "source": "https://www.wikidata.org/wiki/Q56294353",
+          "source": "http://www.iraj.in/journal/journal_file/journal_pdf/14-440-152293060021-24.pdf",
           "certainty": "scholarly"
         },
         {
           "field": "originated_in",
-          "source": "https://www.wikidata.org/wiki/Q56294353",
+          "source": "http://www.iraj.in/journal/journal_file/journal_pdf/14-440-152293060021-24.pdf",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "kind",
+          "source": "http://www.iraj.in/journal/journal_file/journal_pdf/14-440-152293060021-24.pdf",
           "certainty": "scholarly"
         }
       ],
@@ -11216,8 +11397,8 @@
           "kind": "scholarly"
         }
       ],
-      "status": "draft",
-      "updated": "2026-08-09",
+      "status": "verified",
+      "updated": "2026-08-25",
       "path": "entities/movements/pita-maha.md"
     },
     "movement/post-impressionism": {
@@ -11248,8 +11429,18 @@
       },
       "claims": [
         {
+          "field": "time",
+          "source": "https://www.vangoghmuseum.nl/en/collection/s0114V1962",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "originated_in",
+          "source": "https://www.vangoghmuseum.nl/en/collection/s0114V1962",
+          "certainty": "scholarly"
+        },
+        {
           "field": "kind",
-          "source": "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300021508",
+          "source": "https://www.vangoghmuseum.nl/en/collection/s0114V1962",
           "certainty": "scholarly"
         }
       ],
@@ -11329,8 +11520,8 @@
           "note": "フィンセント・ファン・ゴッホ《糸杉のある麦畑（Wheat Field with Cypresses）》1889年。メトロポリタン美術館蔵（isPublicDomain: true）"
         }
       ],
-      "status": "draft",
-      "updated": "2026-08-09",
+      "status": "verified",
+      "updated": "2026-08-25",
       "path": "entities/movements/post-impressionism.md"
     },
     "movement/poto-poto-school": {
@@ -11362,12 +11553,12 @@
       "claims": [
         {
           "field": "time",
-          "source": "https://www.wikidata.org/wiki/Q114247696",
+          "source": "https://sites.rhodes.edu/potopoto/history-poto-poto-school",
           "certainty": "scholarly"
         },
         {
           "field": "originated_in",
-          "source": "https://www.wikidata.org/wiki/Q114247696",
+          "source": "https://sites.rhodes.edu/potopoto/history-poto-poto-school",
           "certainty": "scholarly"
         },
         {
@@ -11450,8 +11641,8 @@
           "kind": "authority"
         }
       ],
-      "status": "draft",
-      "updated": "2026-08-13",
+      "status": "verified",
+      "updated": "2026-08-25",
       "path": "entities/movements/poto-poto-school.md"
     },
     "movement/qajar-painting": {
@@ -11480,7 +11671,23 @@
         "original_label": "Qajar painting",
         "note": "「カージャール」はガージャール（Qajar）族という王朝の部族名で、当事者が自分たちの絵画を「カージャール様式」と名乗った記録はない。王朝名をそのまま美術史区分に転用した、後代の学術的な呼称"
       },
-      "claims": [],
+      "claims": [
+        {
+          "field": "time",
+          "source": "https://scholarworks.sjsu.edu/etd_theses/3019/",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "originated_in",
+          "source": "https://scholarworks.sjsu.edu/etd_theses/3019/",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "kind",
+          "source": "https://scholarworks.sjsu.edu/etd_theses/3019/",
+          "certainty": "scholarly"
+        }
+      ],
       "space": [
         {
           "role": "originated_in",
@@ -11583,8 +11790,8 @@
           "note": "《ムハンマド・シャー・カージャールとその宰相ハージー・ミールザー・アーガースィーの肖像》、19世紀第2四半期。メトロポリタン美術館蔵（isPublicDomain: true）"
         }
       ],
-      "status": "draft",
-      "updated": "2026-08-13",
+      "status": "verified",
+      "updated": "2026-08-25",
       "path": "entities/movements/qajar-painting.md"
     },
     "movement/quito-school": {
@@ -11615,13 +11822,18 @@
       },
       "claims": [
         {
-          "field": "kind",
-          "source": "https://en.wikipedia.org/wiki/Quito_school",
+          "field": "time",
+          "source": "https://fundacionmuseosquito.gob.ec/MDC/Bibliograf%C3%ADa%20Sala%20siglo%20XVI/Pajuelo%20Jonathan-Arte%20de%20la%20Real%20Audiencia%20de%20Quito.pdf",
           "certainty": "scholarly"
         },
         {
           "field": "originated_in",
-          "source": "https://en.wikipedia.org/wiki/Quito_school",
+          "source": "https://fundacionmuseosquito.gob.ec/MDC/Bibliograf%C3%ADa%20Sala%20siglo%20XVI/Pajuelo%20Jonathan-Arte%20de%20la%20Real%20Audiencia%20de%20Quito.pdf",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "kind",
+          "source": "https://fundacionmuseosquito.gob.ec/MDC/Bibliograf%C3%ADa%20Sala%20siglo%20XVI/Pajuelo%20Jonathan-Arte%20de%20la%20Real%20Audiencia%20de%20Quito.pdf",
           "certainty": "scholarly"
         }
       ],
@@ -11711,7 +11923,7 @@
           "kind": "institutional"
         }
       ],
-      "status": "draft",
+      "status": "verified",
       "updated": "2026-08-25",
       "images": [
         {
@@ -11760,17 +11972,17 @@
       "claims": [
         {
           "field": "time",
-          "source": "https://www.wikidata.org/wiki/Q1155700",
+          "source": "https://www.jstor.org/stable/26537575",
           "certainty": "scholarly"
         },
         {
           "field": "originated_in",
-          "source": "https://en.wikipedia.org/wiki/Rattanakosin_Kingdom_(1782%E2%80%931932)",
+          "source": "https://www.jstor.org/stable/26537575",
           "certainty": "scholarly"
         },
         {
           "field": "kind",
-          "source": "https://en.wikipedia.org/wiki/Thai_art",
+          "source": "https://www.jstor.org/stable/26537575",
           "certainty": "scholarly"
         }
       ],
@@ -11863,8 +12075,8 @@
           "note": "同じくワット・スタット本堂の壁画。出産の場面を描いた、王朝期の市井の生活を主題とする一場面。撮影者Mattanaが撮影と同時にpublic domainとして提供"
         }
       ],
-      "status": "draft",
-      "updated": "2026-08-10",
+      "status": "verified",
+      "updated": "2026-08-25",
       "path": "entities/movements/rattanakosin-mural-painting.md"
     },
     "movement/realism": {
@@ -11896,17 +12108,17 @@
       "claims": [
         {
           "field": "time",
-          "source": "https://www.wikidata.org/wiki/Q2642826",
+          "source": "https://www.metmuseum.org/ru/essays/nineteenth-century-french-realism",
           "certainty": "scholarly"
         },
         {
           "field": "originated_in",
-          "source": "https://www.britannica.com/art/Realism-art",
+          "source": "https://www.metmuseum.org/ru/essays/nineteenth-century-french-realism",
           "certainty": "scholarly"
         },
         {
           "field": "kind",
-          "source": "https://www.wikidata.org/wiki/Q2642826",
+          "source": "https://www.metmuseum.org/ru/essays/nineteenth-century-french-realism",
           "certainty": "scholarly"
         }
       ],
@@ -11929,10 +12141,14 @@
         {
           "url": "https://www.britannica.com/art/Realism-art",
           "kind": "reference"
+        },
+        {
+          "url": "https://www.metmuseum.org/ru/essays/nineteenth-century-french-realism",
+          "kind": "institutional"
         }
       ],
-      "status": "draft",
-      "updated": "2026-08-12",
+      "status": "verified",
+      "updated": "2026-08-25",
       "path": "entities/movements/realism.md"
     },
     "movement/renaissance": {
@@ -11974,7 +12190,7 @@
         },
         {
           "field": "kind",
-          "source": "https://www.wikidata.org/wiki/Q1404472",
+          "source": "https://www.metmuseum.org/essays/anatomy-in-the-renaissance",
           "certainty": "scholarly"
         }
       ],
@@ -12018,8 +12234,8 @@
           "kind": "institutional"
         }
       ],
-      "status": "draft",
-      "updated": "2026-08-12",
+      "status": "verified",
+      "updated": "2026-08-25",
       "path": "entities/movements/renaissance.md"
     },
     "movement/rinpa": {
@@ -12051,13 +12267,18 @@
       "claims": [
         {
           "field": "time",
-          "source": "https://www.wikidata.org/wiki/Q3179819",
+          "source": "https://www.metmuseum.org/it/essays/rinpa-painting-style",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "originated_in",
+          "source": "https://www.metmuseum.org/it/essays/rinpa-painting-style",
           "certainty": "scholarly"
         },
         {
           "field": "kind",
-          "source": "https://www.wikidata.org/wiki/Q3179819",
-          "certainty": "hypothesis"
+          "source": "https://www.metmuseum.org/it/essays/rinpa-painting-style",
+          "certainty": "scholarly"
         }
       ],
       "space": [
@@ -12094,6 +12315,10 @@
         {
           "url": "https://www.ndl.go.jp/kaleido/entry/20/2.html",
           "kind": "authority"
+        },
+        {
+          "url": "https://www.metmuseum.org/it/essays/rinpa-painting-style",
+          "kind": "institutional"
         }
       ],
       "images": [
@@ -12112,8 +12337,8 @@
           "note": "俵屋宗達《牡丹・木蓮・蒲公英図》（Peonies, Magnolia, and Dandelions）。シカゴ美術館蔵（is_public_domain: true）"
         }
       ],
-      "status": "draft",
-      "updated": "2026-08-08",
+      "status": "verified",
+      "updated": "2026-08-25",
       "path": "entities/movements/rinpa.md"
     },
     "movement/rococo": {
@@ -12145,17 +12370,17 @@
       "claims": [
         {
           "field": "time",
-          "source": "https://www.wikidata.org/wiki/Q122960",
-          "certainty": "scholarly"
-        },
-        {
-          "field": "kind",
-          "source": "https://www.wikidata.org/wiki/Q122960",
+          "source": "https://resources.metmuseum.org/resources/metpublications/pdf/Vienna_Circa_1780_An_Imperial_Silver_Service_Rediscovered.pdf",
           "certainty": "scholarly"
         },
         {
           "field": "originated_in",
           "source": "https://www.metmuseum.org/de/essays/american-rococo",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "kind",
+          "source": "https://resources.metmuseum.org/resources/metpublications/pdf/Vienna_Circa_1780_An_Imperial_Silver_Service_Rediscovered.pdf",
           "certainty": "scholarly"
         }
       ],
@@ -12191,8 +12416,8 @@
           "kind": "scholarly"
         }
       ],
-      "status": "draft",
-      "updated": "2026-08-12",
+      "status": "verified",
+      "updated": "2026-08-25",
       "path": "entities/movements/rococo.md"
     },
     "movement/safavid-painting": {
@@ -12221,7 +12446,23 @@
         "original_label": "Safavid painting",
         "note": "「サファヴィー」は王朝名（教団創始者サフィー・アッディーン・アルダビリーに由来）で、当事者が自分たちの絵画を「サファヴィー様式」と名乗った記録はない。王朝名をそのまま美術史区分に転用した、後代の学術的な期分け用語"
       },
-      "claims": [],
+      "claims": [
+        {
+          "field": "time",
+          "source": "https://resources.metmuseum.org/resources/metpublications/pdf/Masterpieces_from_the_Department_of_Islamic_Art_in_The_Metropolitan_Museum_of_Art.pdf",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "originated_in",
+          "source": "https://resources.metmuseum.org/resources/metpublications/pdf/Masterpieces_from_the_Department_of_Islamic_Art_in_The_Metropolitan_Museum_of_Art.pdf",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "kind",
+          "source": "https://resources.metmuseum.org/resources/metpublications/pdf/Masterpieces_from_the_Department_of_Islamic_Art_in_The_Metropolitan_Museum_of_Art.pdf",
+          "certainty": "scholarly"
+        }
+      ],
       "evidence": [
         {
           "target": "work/study-of-a-bird-reza-abbasi-1634",
@@ -12342,7 +12583,7 @@
           "note": "ムイーン・ムサッヴィル《蓮の葉を囲む幻獣たち》（A Gathering of Mythical Creatures around a Lotus Leaf）、1088 AH/1677年。メトロポリタン美術館蔵（isPublicDomain: true）"
         }
       ],
-      "status": "draft",
+      "status": "verified",
       "updated": "2026-08-25",
       "path": "entities/movements/safavid-painting.md"
     },
@@ -12374,18 +12615,18 @@
       },
       "claims": [
         {
-          "field": "kind",
-          "source": "https://www.getty.edu/vow/AATFullDisplay?find=&place=&nation=&logic=&note=&role=&subjectid=300106504",
+          "field": "time",
+          "source": "https://www.metmuseum.org/art/collection/search/49447",
           "certainty": "scholarly"
         },
         {
           "field": "originated_in",
-          "source": "https://www.getty.edu/vow/AATFullDisplay?find=&place=&nation=&logic=&note=&role=&subjectid=300106504",
+          "source": "https://www.metmuseum.org/art/collection/search/49447",
           "certainty": "scholarly"
         },
         {
-          "field": "time",
-          "source": "https://www.getty.edu/vow/AATFullDisplay?find=&place=&nation=&logic=&note=&role=&subjectid=300106504",
+          "field": "kind",
+          "source": "https://www.metmuseum.org/art/collection/search/49447",
           "certainty": "scholarly"
         }
       ],
@@ -12505,7 +12746,7 @@
           "kind": "institutional"
         }
       ],
-      "status": "draft",
+      "status": "verified",
       "updated": "2026-08-25",
       "path": "entities/movements/shanghai-school.md"
     },
@@ -12535,7 +12776,23 @@
         "original_label": "Shiraz school",
         "note": "「シーラーズ派」は都市名をそのまま用いた近代の美術史区分で、当時の担い手がこの名で自称した記録はない。Wikidata（Q5933050）の説明は\"school of Persian miniature painting\"。ペルシア語版Wikipediaはこの対象を「مکتب شیراز اول（シーラーズ派I、イルハン朝・インジュー朝期＝14世紀）」と「مکتب شیراز دوم（シーラーズ派II、ティムール朝期以降＝15世紀）」の2項目に分けて記述しており（本ファイルの sources 参照）、単一の当事者集団による自称ではなく後代の学術的な期分けであることの傍証になる"
       },
-      "claims": [],
+      "claims": [
+        {
+          "field": "time",
+          "source": "https://www.metmuseum.org/art/collection/search/448280",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "originated_in",
+          "source": "https://www.metmuseum.org/art/collection/search/448280",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "kind",
+          "source": "https://www.metmuseum.org/art/collection/search/448280",
+          "certainty": "scholarly"
+        }
+      ],
       "space": [
         {
           "role": "originated_in",
@@ -12629,8 +12886,8 @@
           "note": "「アムルが異教徒を海に投げ込ませる」イブン・フサーム『ハワラーン・ナーメ』挿画、c.1476-86年、シーラーズ制作。メトロポリタン美術館蔵（city: Shiraz、isPublicDomain: true、直接APIで確認）"
         }
       ],
-      "status": "draft",
-      "updated": "2026-08-11",
+      "status": "verified",
+      "updated": "2026-08-25",
       "path": "entities/movements/shiraz-school.md"
     },
     "movement/sienese-school": {
@@ -12661,18 +12918,18 @@
       },
       "claims": [
         {
-          "field": "kind",
-          "source": "https://en.wikipedia.org/wiki/Sienese_school",
-          "certainty": "scholarly"
-        },
-        {
           "field": "time",
-          "source": "https://www.wikidata.org/wiki/Q1332178",
+          "source": "https://www.metmuseum.org/es/essays/sienese-painting",
           "certainty": "scholarly"
         },
         {
           "field": "originated_in",
-          "source": "https://www.wikidata.org/wiki/Q1332178",
+          "source": "https://www.metmuseum.org/es/essays/sienese-painting",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "kind",
+          "source": "https://www.metmuseum.org/es/essays/sienese-painting",
           "certainty": "scholarly"
         }
       ],
@@ -12736,8 +12993,8 @@
           "kind": "authority"
         }
       ],
-      "status": "draft",
-      "updated": "2026-08-09",
+      "status": "verified",
+      "updated": "2026-08-25",
       "images": [
         {
           "url": "https://images.metmuseum.org/CRDImages/ep/original/DP142735.jpg",
@@ -12791,18 +13048,18 @@
       },
       "claims": [
         {
-          "field": "kind",
-          "source": "https://zh.wikipedia.org/wiki/%E9%99%A2%E4%BD%93%E7%94%BB",
+          "field": "time",
+          "source": "https://www.metmuseum.org/art/collection/search/36005",
           "certainty": "scholarly"
         },
         {
           "field": "originated_in",
-          "source": "https://zh.wikipedia.org/wiki/%E9%99%A2%E4%BD%93%E7%94%BB",
+          "source": "https://www.metmuseum.org/art/collection/search/36005",
           "certainty": "scholarly"
         },
         {
-          "field": "time",
-          "source": "https://www.wikidata.org/wiki/Q1147043",
+          "field": "kind",
+          "source": "https://www.metmuseum.org/art/collection/search/36005",
           "certainty": "scholarly"
         }
       ],
@@ -12876,8 +13133,8 @@
           "note": "馬遠《滝を見る学者（Scholar Viewing a Waterfall）》13世紀初頭、南宋。メトロポリタン美術館蔵（isPublicDomain: true）"
         }
       ],
-      "status": "draft",
-      "updated": "2026-08-10",
+      "status": "verified",
+      "updated": "2026-08-25",
       "path": "entities/movements/song-academy-painting.md"
     },
     "movement/songjiang-school": {
@@ -12908,28 +13165,18 @@
       },
       "claims": [
         {
+          "field": "time",
+          "source": "https://www.shanghaimuseum.net/mu/frontend/pg/m/article/id/RI00004055",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "originated_in",
+          "source": "https://www.shanghaimuseum.net/mu/frontend/pg/m/article/id/RI00004055",
+          "certainty": "scholarly"
+        },
+        {
           "field": "kind",
-          "source": "https://zh.wikipedia.org/zh-hans/%E6%9D%BE%E6%B1%9F%E7%94%BB%E6%B4%BE",
-          "certainty": "scholarly"
-        },
-        {
-          "field": "originated_in",
-          "source": "https://zh.wikipedia.org/wiki/%E9%A1%A7%E6%AD%A3%E8%AA%BC",
-          "certainty": "scholarly"
-        },
-        {
-          "field": "originated_in",
-          "source": "https://zh.wikipedia.org/wiki/%E8%8E%AB%E6%98%AF%E9%BE%99",
-          "certainty": "scholarly"
-        },
-        {
-          "field": "time",
-          "source": "https://zh.wikipedia.org/wiki/%E8%8E%AB%E6%98%AF%E9%BE%99",
-          "certainty": "scholarly"
-        },
-        {
-          "field": "time",
-          "source": "https://zh.wikipedia.org/wiki/%E9%99%88%E7%BB%A7%E5%84%92",
+          "source": "https://www.shanghaimuseum.net/mu/frontend/pg/m/article/id/RI00004055",
           "certainty": "scholarly"
         }
       ],
@@ -13035,8 +13282,8 @@
           "note": "董其昌《秋興八景図・清秋山水（River and Mountains on a Clear Autumn Day）》1624〜27年頃、クリーブランド美術館蔵（share_license_status: CC0）"
         }
       ],
-      "status": "draft",
-      "updated": "2026-08-10",
+      "status": "verified",
+      "updated": "2026-08-25",
       "path": "entities/movements/songjiang-school.md"
     },
     "movement/suprematism": {
@@ -13067,19 +13314,19 @@
       },
       "claims": [
         {
-          "field": "kind",
-          "source": "https://velikanov.ru/lib/%D0%9C%D0%B0%D0%BB%D0%B5%D0%B2%D0%B8%D1%87.%20%D0%9E%D1%82%20%D0%BA%D1%83%D0%B1%D0%B8%D0%B7%D0%BC%D0%B0%20%D0%BA%20%D1%81%D1%83%D0%BF%D1%80%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%B7%D0%BC%D1%83.pdf",
-          "certainty": "attested"
-        },
-        {
           "field": "time",
-          "source": "https://en.wikipedia.org/wiki/0,10_Exhibition",
+          "source": "https://velikanov.ru/lib/%D0%9C%D0%B0%D0%BB%D0%B5%D0%B2%D0%B8%D1%87.%20%D0%9E%D1%82%20%D0%BA%D1%83%D0%B1%D0%B8%D0%B7%D0%BC%D0%B0%20%D0%BA%20%D1%81%D1%83%D0%BF%D1%80%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%B7%D0%BC%D1%83.pdf",
           "certainty": "scholarly"
         },
         {
           "field": "originated_in",
-          "source": "https://en.wikipedia.org/wiki/0,10_Exhibition",
+          "source": "https://velikanov.ru/lib/%D0%9C%D0%B0%D0%BB%D0%B5%D0%B2%D0%B8%D1%87.%20%D0%9E%D1%82%20%D0%BA%D1%83%D0%B1%D0%B8%D0%B7%D0%BC%D0%B0%20%D0%BA%20%D1%81%D1%83%D0%BF%D1%80%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%B7%D0%BC%D1%83.pdf",
           "certainty": "scholarly"
+        },
+        {
+          "field": "kind",
+          "source": "https://velikanov.ru/lib/%D0%9C%D0%B0%D0%BB%D0%B5%D0%B2%D0%B8%D1%87.%20%D0%9E%D1%82%20%D0%BA%D1%83%D0%B1%D0%B8%D0%B7%D0%BC%D0%B0%20%D0%BA%20%D1%81%D1%83%D0%BF%D1%80%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%B7%D0%BC%D1%83.pdf",
+          "certainty": "attested"
         }
       ],
       "space": [
@@ -13166,8 +13413,8 @@
           "kind": "reference"
         }
       ],
-      "status": "draft",
-      "updated": "2026-08-09",
+      "status": "verified",
+      "updated": "2026-08-25",
       "path": "entities/movements/suprematism.md"
     },
     "movement/surrealism": {
@@ -13198,19 +13445,19 @@
       },
       "claims": [
         {
-          "field": "kind",
-          "source": "https://fr.wikipedia.org/wiki/Manifeste_du_surr%C3%A9alisme",
+          "field": "time",
+          "source": "https://gallica.bnf.fr/ark:/12148/btv1b525214035",
           "certainty": "attested"
         },
         {
-          "field": "time",
-          "source": "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300021512",
-          "certainty": "scholarly"
+          "field": "originated_in",
+          "source": "https://gallica.bnf.fr/ark:/12148/btv1b525214035",
+          "certainty": "attested"
         },
         {
-          "field": "originated_in",
-          "source": "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300021512",
-          "certainty": "scholarly"
+          "field": "kind",
+          "source": "https://gallica.bnf.fr/ark:/12148/btv1b525214035",
+          "certainty": "attested"
         }
       ],
       "space": [
@@ -13265,8 +13512,8 @@
           "kind": "reference"
         }
       ],
-      "status": "draft",
-      "updated": "2026-08-10",
+      "status": "verified",
+      "updated": "2026-08-25",
       "path": "entities/movements/surrealism.md"
     },
     "movement/symbolism": {
@@ -13298,17 +13545,17 @@
       "claims": [
         {
           "field": "time",
-          "source": "https://www.wikidata.org/wiki/Q164800",
+          "source": "https://www.moma.org/docs/press_archives/4863/releases/MOMA_1972_0092_82A.pdf",
           "certainty": "scholarly"
         },
         {
           "field": "originated_in",
-          "source": "https://www.britannica.com/art/Symbolism-literary-and-artistic-movement",
+          "source": "https://www.moma.org/docs/press_archives/4863/releases/MOMA_1972_0092_82A.pdf",
           "certainty": "scholarly"
         },
         {
           "field": "kind",
-          "source": "https://www.wikidata.org/wiki/Q164800",
+          "source": "https://www.moma.org/docs/press_archives/4863/releases/MOMA_1972_0092_82A.pdf",
           "certainty": "scholarly"
         }
       ],
@@ -13372,8 +13619,8 @@
           "kind": "scholarly"
         }
       ],
-      "status": "draft",
-      "updated": "2026-08-13",
+      "status": "verified",
+      "updated": "2026-08-25",
       "path": "entities/movements/symbolism.md"
     },
     "movement/tanjore-painting": {
@@ -13405,18 +13652,18 @@
       },
       "claims": [
         {
-          "field": "kind",
-          "source": "https://en.wikipedia.org/wiki/Thanjavur_painting",
-          "certainty": "scholarly"
-        },
-        {
           "field": "time",
-          "source": "https://en.wikipedia.org/wiki/Thanjavur_painting",
+          "source": "https://tnrajbhavantour.tn.gov.in/tnrb-website-archive/Archives/Website1621/PressReleases/2019/PR040419-1.pdf",
           "certainty": "scholarly"
         },
         {
           "field": "originated_in",
-          "source": "https://en.wikipedia.org/wiki/Thanjavur_painting",
+          "source": "https://tnrajbhavantour.tn.gov.in/tnrb-website-archive/Archives/Website1621/PressReleases/2019/PR040419-1.pdf",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "kind",
+          "source": "https://tnrajbhavantour.tn.gov.in/tnrb-website-archive/Archives/Website1621/PressReleases/2019/PR040419-1.pdf",
           "certainty": "scholarly"
         }
       ],
@@ -13491,8 +13738,8 @@
           "note": "《大臣を伴うマハーラージャ・セルフォージー2世》1800年頃。紙に金箔盛り上げ・不透明水彩。メトロポリタン美術館蔵（isPublicDomain: true）。庇護者セルフォージー2世自身を描いた肖像で、タンジョール絵画の技法（盛り上げ金箔）を用いる"
         }
       ],
-      "status": "draft",
-      "updated": "2026-08-10",
+      "status": "verified",
+      "updated": "2026-08-25",
       "path": "entities/movements/tanjore-painting.md"
     },
     "movement/thirteen-moderns": {
@@ -13524,7 +13771,7 @@
       },
       "claims": [
         {
-          "field": "kind",
+          "field": "time",
           "source": "https://www.jpf.go.jp/j/publish/asia_exhibition_history/pdf/17_95_modernism_5.pdf",
           "certainty": "scholarly"
         },
@@ -13534,7 +13781,7 @@
           "certainty": "scholarly"
         },
         {
-          "field": "time",
+          "field": "kind",
           "source": "https://www.jpf.go.jp/j/publish/asia_exhibition_history/pdf/17_95_modernism_5.pdf",
           "certainty": "scholarly"
         }
@@ -13597,8 +13844,8 @@
           "kind": "reference"
         }
       ],
-      "status": "draft",
-      "updated": "2026-08-09",
+      "status": "verified",
+      "updated": "2026-08-25",
       "path": "entities/movements/thirteen-moderns.md"
     },
     "movement/tosa-school": {
@@ -13629,8 +13876,18 @@
       },
       "claims": [
         {
+          "field": "time",
+          "source": "https://www.fujibi.or.jp/collection/artwork-artist/a130/",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "originated_in",
+          "source": "https://www.fujibi.or.jp/collection/artwork-artist/a130/",
+          "certainty": "scholarly"
+        },
+        {
           "field": "kind",
-          "source": "https://www.wikidata.org/wiki/Q2915215",
+          "source": "https://www.fujibi.or.jp/collection/artwork-artist/a130/",
           "certainty": "scholarly"
         }
       ],
@@ -13701,8 +13958,8 @@
           "note": "土佐光信《四季竹図》（Bamboo in the Four Seasons）、15世紀末〜16世紀初頭。メトロポリタン美術館蔵（isPublicDomain: true）"
         }
       ],
-      "status": "draft",
-      "updated": "2026-08-13",
+      "status": "verified",
+      "updated": "2026-08-25",
       "path": "entities/movements/tosa-school.md"
     },
     "movement/utagawa-school": {
@@ -13739,8 +13996,8 @@
         },
         {
           "field": "originated_in",
-          "source": "https://www.wikidata.org/wiki/Q1490",
-          "certainty": "hypothesis"
+          "source": "https://kunisada-and-kabuki.fitzmuseum.cam.ac.uk/themes/kunisadas-names",
+          "certainty": "scholarly"
         },
         {
           "field": "kind",
@@ -13829,8 +14086,8 @@
           "kind": "authority"
         }
       ],
-      "status": "draft",
-      "updated": "2026-08-09",
+      "status": "verified",
+      "updated": "2026-08-25",
       "path": "entities/movements/utagawa-school.md"
     },
     "movement/venetian-school": {
@@ -13861,18 +14118,18 @@
       },
       "claims": [
         {
-          "field": "kind",
-          "source": "https://en.wikipedia.org/wiki/Scuole_Grandi_di_Venezia",
-          "certainty": "scholarly"
-        },
-        {
           "field": "time",
-          "source": "https://en.wikipedia.org/wiki/Venetian_painting",
+          "source": "https://www.academia.edu/37111049/Luigi_Lanzi_e_le_scuole_pittoriche",
           "certainty": "scholarly"
         },
         {
           "field": "originated_in",
-          "source": "https://www.wikidata.org/wiki/Q610687",
+          "source": "https://www.academia.edu/37111049/Luigi_Lanzi_e_le_scuole_pittoriche",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "kind",
+          "source": "https://www.academia.edu/37111049/Luigi_Lanzi_e_le_scuole_pittoriche",
           "certainty": "scholarly"
         }
       ],
@@ -13980,8 +14237,8 @@
           "kind": "institutional"
         }
       ],
-      "status": "draft",
-      "updated": "2026-08-09",
+      "status": "verified",
+      "updated": "2026-08-25",
       "images": [
         {
           "url": "https://images.metmuseum.org/CRDImages/ep/original/DP-28918-001.jpg",
@@ -14028,18 +14285,18 @@
       },
       "claims": [
         {
-          "field": "kind",
-          "source": "https://zh.wikipedia.org/wiki/%E5%90%B3%E9%96%80%E7%95%AB%E6%B4%BE",
+          "field": "time",
+          "source": "https://www.hkpm.org.hk/en/visit/audio-guide/g4-stories-untold",
           "certainty": "scholarly"
         },
         {
           "field": "originated_in",
-          "source": "https://www.wikidata.org/wiki/Q558863",
+          "source": "https://www.hkpm.org.hk/en/visit/audio-guide/g4-stories-untold",
           "certainty": "scholarly"
         },
         {
-          "field": "time",
-          "source": "https://www.wikidata.org/wiki/Q558863",
+          "field": "kind",
+          "source": "https://www.hkpm.org.hk/en/visit/audio-guide/g4-stories-untold",
           "certainty": "scholarly"
         }
       ],
@@ -14092,7 +14349,7 @@
         },
         {
           "url": "https://www.hkpm.org.hk/en/visit/audio-guide/g4-stories-untold",
-          "kind": "reference"
+          "kind": "institutional"
         }
       ],
       "images": [
@@ -14111,8 +14368,8 @@
           "note": "文徴明《松林で琴を弾く隠者（Recluse Playing the Zither in a Pine Grove）》c.1540年、メトロポリタン美術館蔵。沈周を継いだ文徴明の作（isPublicDomain: true）"
         }
       ],
-      "status": "draft",
-      "updated": "2026-08-09",
+      "status": "verified",
+      "updated": "2026-08-25",
       "path": "entities/movements/wu-school.md"
     },
     "movement/yamato-e": {
@@ -14143,8 +14400,18 @@
       },
       "claims": [
         {
+          "field": "time",
+          "source": "https://www.metmuseum.org/ja/essays/yamato-e-painting",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "originated_in",
+          "source": "https://www.metmuseum.org/ja/essays/yamato-e-painting",
+          "certainty": "scholarly"
+        },
+        {
           "field": "kind",
-          "source": "https://www.getty.edu/vow/AATFullDisplay?find=Yamato-e&logic=AND&note=&english=Y&subjectid=300018589",
+          "source": "https://www.metmuseum.org/ja/essays/yamato-e-painting",
           "certainty": "scholarly"
         }
       ],
@@ -14201,8 +14468,8 @@
           "note": "《北野天神縁起絵巻》（Illustrated Legends of the Kitano Tenjin Shrine）鎌倉時代・13世紀末。メトロポリタン美術館蔵（isPublicDomain: true）。ja.wikipedia「大和絵」が鎌倉時代の社寺縁起絵の代表例として同作を名指しで挙げている"
         }
       ],
-      "status": "draft",
-      "updated": "2026-08-13",
+      "status": "verified",
+      "updated": "2026-08-25",
       "path": "entities/movements/yamato-e.md"
     },
     "movement/yangzhou-eccentrics": {
@@ -14233,28 +14500,18 @@
       },
       "claims": [
         {
-          "field": "kind",
-          "source": "https://ja.wikipedia.org/wiki/%E6%8F%9A%E5%B7%9E%E5%85%AB%E6%80%AA",
-          "certainty": "scholarly"
-        },
-        {
-          "field": "kind",
-          "source": "https://zh.wikipedia.org/wiki/%E6%89%AC%E5%B7%9E%E5%85%AB%E6%80%AA",
+          "field": "time",
+          "source": "https://www.artic.edu/artworks/80510",
           "certainty": "scholarly"
         },
         {
           "field": "originated_in",
-          "source": "https://en.wikipedia.org/wiki/Eight_Eccentrics_of_Yangzhou",
+          "source": "https://www.artic.edu/artworks/80510",
           "certainty": "scholarly"
         },
         {
-          "field": "time",
-          "source": "https://www.wikidata.org/wiki/Q3206010",
-          "certainty": "scholarly"
-        },
-        {
-          "field": "time",
-          "source": "https://www.wikidata.org/wiki/Q32019",
+          "field": "kind",
+          "source": "https://www.artic.edu/artworks/80510",
           "certainty": "scholarly"
         }
       ],
@@ -14363,8 +14620,8 @@
           "note": "金農《画に題す詩冊・馬曰琯のために書す》（Poems on Paintings, Written for Ma Yueguan）、1754年、冊装十一葉。メトロポリタン美術館蔵（isPublicDomain: true）。馬曰琯（マー・ユエグアン）は揚州の塩商で、日本語版Wikipediaが挙げる庇護サロン（小玲瓏山館）の主とされる人物と同名だが、本作の献呈先が同一人物かはメトロポリタン美術館側の目録記載を確認しただけで一次資料には当たっていない"
         }
       ],
-      "status": "draft",
-      "updated": "2026-08-13",
+      "status": "verified",
+      "updated": "2026-08-25",
       "path": "entities/movements/yangzhou-eccentrics.md"
     },
     "movement/zanabazar-school": {
@@ -14395,18 +14652,18 @@
       },
       "claims": [
         {
-          "field": "kind",
-          "source": "https://en.wikipedia.org/wiki/Jebtsundamba_Khutuktu",
-          "certainty": "scholarly"
-        },
-        {
           "field": "time",
-          "source": "https://en.wikipedia.org/wiki/Zanabazar",
+          "source": "https://api.artic.edu/api/v1/artworks/158101",
           "certainty": "scholarly"
         },
         {
           "field": "originated_in",
-          "source": "https://www.wikidata.org/wiki/Q7857142",
+          "source": "https://api.artic.edu/api/v1/artworks/158101",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "kind",
+          "source": "https://api.artic.edu/api/v1/artworks/158101",
           "certainty": "scholarly"
         }
       ],
@@ -14501,8 +14758,8 @@
           "note": "《ヴァイローチャナ仏坐像（説法印）》17世紀末〜18世紀初頭、鍍金青銅。シカゴ美術館蔵、artist_display＝\"Mongolia / School of Zanabazar\"（is_public_domain: true）"
         }
       ],
-      "status": "draft",
-      "updated": "2026-08-13",
+      "status": "verified",
+      "updated": "2026-08-25",
       "path": "entities/movements/zanabazar-school.md"
     },
     "movement/zaria-art-society": {
@@ -14534,13 +14791,18 @@
       },
       "claims": [
         {
-          "field": "kind",
-          "source": "https://human.libretexts.org/Bookshelves/Art/Art_History_and_Theory/SmartHistory_of_Art_2e/SmartHistory_of_Art_IXb_-_Modernism_1945-1980/06%3A_Colonial_and_postcolonial_modernisms/6.02%3A_Nigeria_Uche_Okeke",
+          "field": "time",
+          "source": "https://www.rem.routledge.com/articles/zaria-art-society-the",
           "certainty": "scholarly"
         },
         {
           "field": "originated_in",
-          "source": "https://www.wikidata.org/wiki/Q98912326",
+          "source": "https://www.rem.routledge.com/articles/zaria-art-society-the",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "kind",
+          "source": "https://www.rem.routledge.com/articles/zaria-art-society-the",
           "certainty": "scholarly"
         }
       ],
@@ -14610,8 +14872,8 @@
           "kind": "institutional"
         }
       ],
-      "status": "draft",
-      "updated": "2026-08-12",
+      "status": "verified",
+      "updated": "2026-08-25",
       "path": "entities/movements/zaria-art-society.md"
     },
     "movement/zhe-school": {
@@ -14642,13 +14904,18 @@
       },
       "claims": [
         {
-          "field": "kind",
-          "source": "https://ja.wikipedia.org/wiki/%E6%B5%99%E6%B4%BE",
+          "field": "time",
+          "source": "https://www.hkpm.org.hk/en/visit/audio-guide/g4-stories-untold",
           "certainty": "scholarly"
         },
         {
           "field": "originated_in",
-          "source": "https://www.wikidata.org/wiki/Q741512",
+          "source": "https://www.hkpm.org.hk/en/visit/audio-guide/g4-stories-untold",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "kind",
+          "source": "https://www.hkpm.org.hk/en/visit/audio-guide/g4-stories-untold",
           "certainty": "scholarly"
         }
       ],
@@ -14689,7 +14956,7 @@
         },
         {
           "url": "https://www.hkpm.org.hk/en/visit/audio-guide/g4-stories-untold",
-          "kind": "reference"
+          "kind": "institutional"
         }
       ],
       "images": [
@@ -14708,8 +14975,8 @@
           "note": "蒋嵩《冬景山水図》（Winter landscape）、16世紀前半。メトロポリタン美術館蔵（isPublicDomain: true）"
         }
       ],
-      "status": "draft",
-      "updated": "2026-08-09",
+      "status": "verified",
+      "updated": "2026-08-25",
       "path": "entities/movements/zhe-school.md"
     },
     "org/art-institute-of-chicago": {

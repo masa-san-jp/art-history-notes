@@ -26,6 +26,7 @@ from kb import (AUTHORITY_ID_PATTERNS, AUTHORITY_KEYS, CERTAINTIES, CLAIM_FIELDS
                 is_http_url, normalized_meta, read_frontmatter, read_queries, regions_of,
                 search_entities, source_urls, source_validation_errors)
 from detail_baseline import validate_manifest
+from verified_movement import audit_manifest, load_manifest, render_progress
 
 OVERVIEWS = ROOT / "overviews"
 MARK_START = "<!-- generated:coverage:start -->"
@@ -307,6 +308,8 @@ def validate(entities, records, cfg, errors):
             have = {c.get("field") for c in meta.get("claims") or []}
             for field in sorted(need - have):
                 err(f"verified を名乗るには claims に {field} の根拠が要る")
+            if etype == "movement" and not ({"originated_in", "origin_unknown"} & have):
+                err("verified movementには originated_in または origin_unknown の根拠が要る")
         claim_keys = set()
         for c in meta.get("claims") or []:
             if not isinstance(c, dict):
@@ -575,7 +578,7 @@ def validate_coverage_reviews(reviews, cfg, cov, errors):
             errors.append(f"{prefix}: movement が存在するセルは no-known-grouping にできない: {region} / {century}")
 
 
-def coverage(entities, cfg):
+def coverage(entities, cfg, verified_movement=None):
     """movement × 文化圏 × 世紀 の被覆と、受け入れ条件の達成度。
 
     **stub は実績に数えない。** 枠だけのファイルで件数を満たせてしまうと、受け入れ条件が意味を失う。
@@ -638,6 +641,7 @@ def coverage(entities, cfg):
             "isolated_ratio": f"{(len(isolated) / total if total else 0):.2f}"
                               f"（上限 {th['isolated_max_ratio']}）",
         },
+        "verified_movement": verified_movement,
     }
 
 
@@ -694,6 +698,8 @@ def render_coverage(cov, cfg, entities):
 
     lines += ["", "受け入れ条件の達成度:", ""]
     lines += [f"- {k}: {v}" for k, v in cov["progress"].items()]
+    if cov.get("verified_movement"):
+        lines += ["", render_progress(cov["verified_movement"])]
     if cov["isolated"]:
         lines += ["", f"関係を持たない movement: {', '.join(cov['isolated'])}"]
     return "\n".join(lines)
@@ -727,6 +733,10 @@ def main():
     check_overview_freshness(entities, errors)
     validate_overviews(entities, errors)
     errors.extend(validate_manifest(entities, cfg))
+    verified_manifest, verified_load_errors = load_manifest()
+    errors.extend(verified_load_errors)
+    verified_report, verified_errors = audit_manifest(verified_manifest, entities)
+    errors.extend(verified_errors)
 
     if errors:
         print(f"✗ {len(errors)} 件:", file=sys.stderr)
@@ -735,7 +745,7 @@ def main():
         return 1
 
     edges = build_edges(entities)
-    cov = coverage(entities, cfg)
+    cov = coverage(entities, cfg, verified_report)
     validate_coverage_reviews(cov["no_known_grouping"], cfg, cov, errors)
     if errors:
         print(f"✗ {len(errors)} 件:", file=sys.stderr)
@@ -766,6 +776,7 @@ def main():
 
     print(f"✓ {len(entities)} エンティティ / {len(edges)} 関係")
     print(f"  movement {cov['movement_total']} 件 / " + " / ".join(f"{k}={v}" for k, v in cov["progress"].items()))
+    print(render_progress(verified_report))
     return 0
 
 

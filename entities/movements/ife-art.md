@@ -23,7 +23,7 @@ naming:
   note: "Getty AATの優先語『Ife (ancient Nigerian style)』（300015795）は『ancient Nigerian styles and periods』の下に置かれた、20世紀の考古学・美術史記述による様式区分名。Wikidataにはこの括りに対応するmovement項目が無く（都市そのものの項目 Q180084『Ile Ife』、政体としての項目 Q110051642『Ife Empire』はあるが、いずれも美術様式の同一性を主張する項目ではない）、AAT単独を典拠とした。制作者自身がこの名で自らの仕事を呼んだ記録は当たった出典に無い。西洋での『発見』の起点は1910年、探検家レオ・フロベニウスがイフェで《オロクン頭像》を入手し『Und Afrika sprach』（1912年）で失われたアトランティスの遺物として紹介した出来事に遡るが、これは対象を広く知らしめた事件であって様式名の命名行為ではなく、『Ife style』という呼称を学術用語として最初に固定したのが誰かは未確認"
 claims:
   - {field: time, source: "https://web.archive.org/web/20251206081004/https://www.metmuseum.org/essays/ife-terracottas-1000-1400-a-d", certainty: scholarly}
-  - {field: originated_in, source: "https://www.wikidata.org/wiki/Q180084", certainty: scholarly}
+  - {field: originated_in, source: "https://web.archive.org/web/20251206081004/https://www.metmuseum.org/essays/ife-terracottas-1000-1400-a-d", certainty: attested}
   - {field: kind, source: "https://www.suzanneprestonblier.com/uploads/1/2/5/9/125984883/blier_art_in_ancient__african_arts_blier.pdf", certainty: scholarly}
 space:
   - {role: originated_in, target: place/ife}
@@ -60,8 +60,8 @@ images:
     rights_source: https://commons.wikimedia.org/wiki/File:Ori_Olokun.jpg
     license: public-domain
     note: "《オロクン頭像（Ori Olokun）》。レオ・フロベニウスの著書『Und Afrika sprach』（1912年、p.311）掲載の写真の切り抜き。フロベニウス（1938年没）が1910年にイフェで入手し、失われたアトランティスの遺物として西洋に紹介したことでイフェ美術が広く知られる契機になった作例。現物の所在について像自体は複数の来歴の議論があり、大英博物館に模造が所蔵される（未確認: フロベニウスが持ち出した個体そのものの現在の所在）"
-status: draft
-updated: 2026-08-13
+status: verified
+updated: 2026-08-25
 ---
 
 # イフェ美術 / Ife art

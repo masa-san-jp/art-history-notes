@@ -22,9 +22,9 @@ naming:
   original_label: "karma sgar bris（ワイリー転写）/ Karma Gar-ri"
   note: "Himalayan Art Resourcesは「『カルマ・ガル』（Karma Gar）＝カルマ・カギュ派に関連する、あるいはそこから生み出された、の意」と語源を説明する。『ガル』はカルマパの宮廷とともに移動した天幕僧院（Great Karmapa Encampment）を指し、創始者個人の名ではなく教団・宮廷という制度に由来する呼称——メンリ派（創始者メンラ・トンドゥプの名に由来）とは呼称の由来の型が異なる。この呼称をいつ・誰が最初に使ったかは未確認"
 claims:
-  - {field: kind, source: "https://www.himalayanart.org/search/set.cfm?setID=248", certainty: scholarly}
   - {field: time, source: "https://rubinmuseum.org/projecthimalayanart/essays/portrait-of-the-ninth-karmapa/", certainty: scholarly}
   - {field: originated_in, source: "https://rubinmuseum.org/projecthimalayanart/essays/portrait-of-the-ninth-karmapa/", certainty: scholarly}
+  - {field: kind, source: "https://rubinmuseum.org/projecthimalayanart/essays/portrait-of-the-ninth-karmapa/", certainty: scholarly}
 space:
   - {role: originated_in, target: place/tsurphu-monastery}
   - {role: active_in, target: place/palpung-monastery}
@@ -41,8 +41,8 @@ sources:
     kind: authority
   - url: "https://baike.baidu.com/en/item/Tibetan%20Thangka%20(Karma%20Gadri%20Painting%20School)/934779"
     kind: reference
-status: draft
-updated: 2026-08-10
+status: verified
+updated: 2026-08-25
 ---
 
 # カルマ・ガルリ派 / Karma Gardri

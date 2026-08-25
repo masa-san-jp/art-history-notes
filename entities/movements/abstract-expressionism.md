@@ -23,9 +23,9 @@ naming:
   original_label: "Abstract Expressionism"
   note: "英語版Wikipediaによれば、この語自体はコーツの造語ではなく、ドイツで1919年に雑誌『Der Sturm』がドイツ表現主義を指して用いたのが最初とされ、1929年にはアルフレッド・バーがカンディンスキーの作品評で用いたとする。米国の戦後絵画に対して用いた最初期の例が、批評家ロバート・コーツ（person/robert-coates）による1946年『ニューヨーカー』誌のハンス・ホフマン評だとされる。当事者側は別の呼称を持っていた——参加画家ロバート・マザウェルは1949年に「ニューヨーク・スクール」という語を使い、批評家ハロルド・ローゼンバーグは1952年に「アクション・ペインティング」という語を作った。いずれも「abstract expressionism」そのものではなく、当事者がこの名で自らを呼んだ形跡は確認できていない"
 claims:
-  - {field: time, source: "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300022099", certainty: scholarly}
-  - {field: originated_in, source: "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300022099", certainty: scholarly}
-  - {field: kind, source: "https://en.wikipedia.org/wiki/Abstract_expressionism", certainty: scholarly}
+  - {field: time, source: "https://assets.moma.org/documents/moma_catalogue_1990_300190211.pdf", certainty: scholarly}
+  - {field: originated_in, source: "https://assets.moma.org/documents/moma_catalogue_1990_300190211.pdf", certainty: scholarly}
+  - {field: kind, source: "https://assets.moma.org/documents/moma_catalogue_1990_300190211.pdf", certainty: scholarly}
 space:
   - {role: originated_in, target: place/new-york-city}
 relations:
@@ -66,8 +66,8 @@ sources:
     kind: institutional
   - url: "https://www.tandfonline.com/doi/abs/10.1080/00043249.1976.10793284"
     kind: scholarly
-status: draft
-updated: 2026-08-09
+status: verified
+updated: 2026-08-25
 ---
 
 # 抽象表現主義 / Abstract Expressionism

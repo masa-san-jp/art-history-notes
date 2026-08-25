@@ -22,9 +22,9 @@ naming:
   original_label: "折衷派"
   note: "当事者（高剣父・高奇峰・陳樹人）が自ら名乗ったのは『折衷派』（および『新国画』）であり、『嶺南画派』という名称そのものを当事者が自称した記録は見つかっていない。高剣父の弟子・方人定は遺稿で『我在1924年从高剑父学画……都没有听他说过岭南画派的名称』（1924年に高剣父に師事してから1951年の死去まで、岭南画派という名称を彼が口にするのを聞いたことがない）と記す。もう一人の弟子・黎葛民も『高、陈在世时，均未尝以'岭南派'自居』（高剣父・陳樹人が存命中、'岭南派'を自称したことは一度も無い）と明確に否定する（いずれも二次資料 huajia.cc 経由の引用）。命名の経緯には複数の説がある——(1) 同時代人が彼らを『岭南三杰』と呼び習わし、そこから自然に『岭南画派』の呼称が定着したとする説、(2) 三人自身が話し合って『岭南人が創った画派』の略として『岭南派』を名乗ろうとしたが、高剣父が当初同意しなかったとする説（zh.wikipedia『岭南画派』、二次情報）。確認できる最初の活字使用は1935年6月5日『中央日報』の丁衍庸による『素称岭南派画宗高剑父先生』という個人的な言及で、まだ広く定着していなかった。研究者・李偉銘によれば、理論界で『岭南画派』が高剣父・高奇峰・陳樹人とその追随者を指す語として明確に受け入れられたのは1950年代末で、鄭振鐸が1958年の序文で『高崙（剣父）则是岭南派画家的领袖』と書いたことが転機になったとされる（いずれも huajia.cc 経由の二次情報。原論文・原文には未到達）。方人定の記述によれば、名称の由来は『北方人见这种[画风]有与北方人所画有些不同，北方惯称广东为岭南』（北方の人々がこの画風を見て北方の画とやや異なると感じ、北方では広東を慣習的に'岭南'と呼んでいた）——北方（中国の政治・文化的中心）側の慣用語が当てはめられたという説明"
 claims:
-  - {field: kind, source: "https://www.huajia.cc/n/201608/1512142572.html", certainty: scholarly}
-  - {field: originated_in, source: "https://news.qq.com/rain/a/20230822A01WD200", certainty: scholarly}
-  - {field: time, source: "https://www.wikidata.org/wiki/Q11050078", certainty: scholarly}
+  - {field: time, source: "https://www.tnm.jp/modules/r_free_page/index.php?id=1544&lang=ja", certainty: scholarly}
+  - {field: originated_in, source: "https://www.tnm.jp/modules/r_free_page/index.php?id=1544&lang=ja", certainty: scholarly}
+  - {field: kind, source: "https://www.tnm.jp/modules/r_free_page/index.php?id=1544&lang=ja", certainty: scholarly}
 space:
   - {role: originated_in, target: place/guangzhou}
   - {role: active_in, target: place/tokyo}
@@ -69,8 +69,8 @@ images:
     rights_source: https://www.metmuseum.org/art/collection/search/36184
     license: cc0
     note: "居廉《昆虫と花（Insects and Flowers）》1865年、メトロポリタン美術館蔵。高剣父・高奇峰・陳樹人の師で、嶺南画派の様式的源流の一人とされる（isPublicDomain: true）"
-status: draft
-updated: 2026-08-09
+status: verified
+updated: 2026-08-25
 ---
 
 # 嶺南画派 / Lingnan School

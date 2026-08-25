@@ -21,7 +21,10 @@ naming:
   named_when: null
   original_label: "kōwhaiwhai"
   note: "「コーワイワイ」はマオリ語で赤黒白に彩色された渦巻・曲線文様の絵付けそのものを指す固有の語で、後代に外部（美術史家・批評家）が付けた呼称ではない。この語を使って自分たちの実践を語る当事者の言明が現在まで一貫している——マオリの美術サイトmaori.org.nzは「Reading Kowhaiwhai」というページを持ち（現在ドメインは失効、Wikipedia「Koru」記事が参照ページとして引用）、現代の作家による展覧会（Tim Melville Galleryの2019年展\"Kowhaiwhai\"）も同じ語をそのまま展覧会名に使っている。命名者・命名時期を特定できる単一の出来事は無い——**未確認**: 「コーワイワイ」という語自体がいつから使われているかの一次資料"
-claims: []
+claims:
+  - {field: time, source: "https://www.aucklandmuseum.com/collection/object/1207475", certainty: scholarly}
+  - {field: originated_in, source: "https://www.aucklandmuseum.com/collection/object/1207475", certainty: scholarly}
+  - {field: kind, source: "https://www.aucklandmuseum.com/collection/object/1207475", certainty: scholarly}
 space:
   - {role: originated_in, target: place/new-zealand}
 relations: []
@@ -54,8 +57,8 @@ sources:
     kind: authority
   - url: "https://www.getty.edu/vow/AATServlet?english=Y&find=kowhaiwhai&logic=AND&note=&page=1&subjectid=0"
     kind: authority
-status: draft
-updated: 2026-08-10
+status: verified
+updated: 2026-08-25
 ---
 
 # コーワイワイ / Kōwhaiwhai

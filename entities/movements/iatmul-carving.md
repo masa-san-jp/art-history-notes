@@ -35,8 +35,9 @@ naming:
     （同記事）——self_identified を false とした根拠。当事者による名乗りではなく、外部の研究者による
     分類名が学術的に定着した点は、狩野派・土佐派のような当事者の家名とは性格が異なる"
 claims:
-  - {field: kind, source: "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300021904", certainty: scholarly}
-  - {field: originated_in, source: "https://en.wikipedia.org/wiki/Iatmul_people", certainty: scholarly}
+  - {field: time, source: "https://global.oup.com/academic/product/names-are-thicker-than-blood-9780197264454", certainty: scholarly}
+  - {field: originated_in, source: "https://global.oup.com/academic/product/names-are-thicker-than-blood-9780197264454", certainty: scholarly}
+  - {field: kind, source: "https://global.oup.com/academic/product/names-are-thicker-than-blood-9780197264454", certainty: scholarly}
 evidence:
   - {target: work/sacred-slit-gong-waken-311262, supports: [kind, visual-character]}
 space:
@@ -87,7 +88,7 @@ sources:
     kind: scholarly
   - url: "https://www.amisquaibranly.fr/wp-content/uploads/2016/10/fiche-sculpture-iatmul.pdf"
     kind: scholarly
-status: draft
+status: verified
 updated: 2026-08-25
 ---
 

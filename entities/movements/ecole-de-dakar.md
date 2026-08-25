@@ -23,9 +23,9 @@ naming:
   note: "『École de Dakar（ダカール派）』という語を最初に用いた個人・文献・年は、当たった範囲では確定できなかった——**未確認**。確認できるのは、この語が当事者の自称としてではなく、外から緩くまとめる呼び名として流通しているという点である。当時この人々が自分たちの活動に付けていた名は機関の名（École des Arts du Sénégal、その中の Section Recherches Plastiques Nègres）であり、集団の自称ではない。エリザベス・ハーニー『In Senghor's Shadow』（Duke University Press, 2004）は、この名のもとに緩く括られた作家たちが厳密に規定された芸術的ヴィジョンに従っていたわけではない、と論じるとされる（本KBは同書を未読——書評・紹介文経由の二次要約）。同じ綴りの『École de Dakar』はセネガルで少なくとも他に2つの意味を持ち（歴史学者シェイク・アンタ・ジョップの周辺＝Wikidata Q3577792、および精神科医アンリ・コロン周辺の学派）、フランス語版Wikipediaの該当項目は曖昧さ回避ページになっている"
 founding_control: internal   # 1960年の独立後、セネガル共和国大統領レオポール・セダール・サンゴール自身の文化政策として、国家の予算・機関・人事によって設けられた。教員には仏人ピエール・ロッズが含まれるが、機関を設け予算を付け方針を定めた主体はセネガル国家である
 claims:
-  - {field: time, source: "https://en.wikipedia.org/wiki/Dakar_School", certainty: scholarly}
-  - {field: kind, source: "https://en.wikipedia.org/wiki/Iba_Ndiaye", certainty: scholarly}
-  - {field: originated_in, source: "https://www.wikidata.org/wiki/Q3577793", certainty: scholarly}
+  - {field: time, source: "https://www.tate.org.uk/art/art-terms/n/negritude", certainty: scholarly}
+  - {field: originated_in, source: "https://www.tate.org.uk/art/art-terms/n/negritude", certainty: scholarly}
+  - {field: kind, source: "https://www.tate.org.uk/art/art-terms/n/negritude", certainty: scholarly}
 space:
   - {role: originated_in, target: place/dakar}
 relations:
@@ -49,8 +49,8 @@ sources:
     kind: institutional
   - url: "https://heiup.uni-heidelberg.de/catalog/view/457/679/85134"
     kind: reference
-status: draft
-updated: 2026-08-12
+status: verified
+updated: 2026-08-25
 ---
 
 # ダカール派 / École de Dakar

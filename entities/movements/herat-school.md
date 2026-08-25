@@ -22,9 +22,9 @@ naming:
   original_label: "Herat School"
   note: "「ヘラート派」は近代の美術史記述による分類名（Wikidata の説明は\"15th century school of Persian miniature painting\"）で、ティムール朝宮廷がこの名で自称した記録はない。命名者・命名年は未確認"
 claims:
-  - {field: kind, source: "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300021797", certainty: scholarly}
-  - {field: time, source: "https://www.ebsco.com/research-starters/visual-arts/herat-school-painting", certainty: scholarly}
-  - {field: originated_in, source: "https://en.wikipedia.org/wiki/Baysunghur", certainty: scholarly}
+  - {field: time, source: "https://resources.metmuseum.org/resources/metpublications/pdf/Masterpieces_from_the_Department_of_Islamic_Art_in_The_Metropolitan_Museum_of_Art.pdf", certainty: scholarly}
+  - {field: originated_in, source: "https://resources.metmuseum.org/resources/metpublications/pdf/Masterpieces_from_the_Department_of_Islamic_Art_in_The_Metropolitan_Museum_of_Art.pdf", certainty: scholarly}
+  - {field: kind, source: "https://resources.metmuseum.org/resources/metpublications/pdf/Masterpieces_from_the_Department_of_Islamic_Art_in_The_Metropolitan_Museum_of_Art.pdf", certainty: scholarly}
 evidence:
   - {target: work/dancing-dervishes-herat-1480, supports: [kind, time, visual-character]}
 space:
@@ -70,7 +70,7 @@ images:
     rights_source: https://www.metmuseum.org/art/collection/search/446892
     license: cc0
     note: "「踊る托鉢僧」ハーフィズ『ディーワーン』挿画、c.1480年、ヘラート制作。メトロポリタン美術館蔵、constituents＝\"Painting attributed to Bihzad\"（isPublicDomain: true）"
-status: draft
+status: verified
 updated: 2026-08-25
 ---
 

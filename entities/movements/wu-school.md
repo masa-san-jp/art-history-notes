@@ -22,9 +22,9 @@ naming:
   original_label: 呉派
   note: "中国語版Wikipedia「吳門畫派」は「『吳派』一詞自明代末期開始出現」（『呉派』という語は明代末期から現れた）とし、特定の命名者を記録していない（二次情報）。日本語版Wikipediaは『董其昌や陳継儒によって体系化された』と書くが、これは呼称の考案者としての記述ではなく理論的な整理者としての記述である。浙派の場合は董其昌が『画禅室随筆』で命名したと日本語版Wikipediaに明記されるのに対し、呉派には対応する一次記述が見つからない——同じ人物が両方を命名したとは確認できない"
 claims:
-  - {field: kind, source: "https://zh.wikipedia.org/wiki/%E5%90%B3%E9%96%80%E7%95%AB%E6%B4%BE", certainty: scholarly}
-  - {field: originated_in, source: "https://www.wikidata.org/wiki/Q558863", certainty: scholarly}
-  - {field: time, source: "https://www.wikidata.org/wiki/Q558863", certainty: scholarly}
+  - {field: time, source: "https://www.hkpm.org.hk/en/visit/audio-guide/g4-stories-untold", certainty: scholarly}
+  - {field: originated_in, source: "https://www.hkpm.org.hk/en/visit/audio-guide/g4-stories-untold", certainty: scholarly}
+  - {field: kind, source: "https://www.hkpm.org.hk/en/visit/audio-guide/g4-stories-untold", certainty: scholarly}
 space:
   - {role: originated_in, target: place/suzhou}
 relations:
@@ -47,7 +47,7 @@ sources:
   - url: "https://www.britannica.com/biography/Dong-Qichang"
     kind: reference
   - url: "https://www.hkpm.org.hk/en/visit/audio-guide/g4-stories-untold"
-    kind: reference
+    kind: institutional
 images:
   - url: https://images.metmuseum.org/CRDImages/as/original/DP-13849-002.jpg
     source_page: https://www.metmuseum.org/art/collection/search/45682
@@ -59,8 +59,8 @@ images:
     rights_source: https://www.metmuseum.org/art/collection/search/45778
     license: cc0
     note: "文徴明《松林で琴を弾く隠者（Recluse Playing the Zither in a Pine Grove）》c.1540年、メトロポリタン美術館蔵。沈周を継いだ文徴明の作（isPublicDomain: true）"
-status: draft
-updated: 2026-08-09
+status: verified
+updated: 2026-08-25
 ---
 
 # 呉派 / Wu School

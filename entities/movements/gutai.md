@@ -23,9 +23,9 @@ naming:
   original_label: 具体美術協会
   note: "命名者個人は資料間で確認できていない。artscape.jp（執筆・成相肇）は『会名は「精神が自由であることを具体的に提示」という理念に由来』とするのみで、提案者名は記さない。**未確認**: ウェブ上の一部の解説記事は名称の提案者を嶋本昭三とするが、出典として引ける一次資料・学術資料を確認できず採用しなかった"
 claims:
+  - {field: time, source: "https://www.museum.osaka-u.ac.jp/wp/wp-content/uploads/2018/03/kato2017.pdf", certainty: scholarly}
+  - {field: originated_in, source: "https://www.museum.osaka-u.ac.jp/wp/wp-content/uploads/2018/03/kato2017.pdf", certainty: scholarly}
   - {field: kind, source: "https://www.bunka.go.jp/prmagazine/rensai/diary/diary_097.html", certainty: scholarly}
-  - {field: time, source: "https://www.wikidata.org/wiki/Q1028956", certainty: scholarly}
-  - {field: originated_in, source: "https://www.getty.edu/vow/AATFullDisplay?find=gutai&logic=AND&note=&english=Y&prev_page=1&subjectid=300417399", certainty: scholarly}
 space:
   - {role: originated_in, target: place/ashiya}
 relations:
@@ -54,8 +54,8 @@ sources:
     kind: reference
   - url: "https://hoodmuseum.dartmouth.edu/objects/p.970.20"
     kind: institutional
-status: draft
-updated: 2026-08-10
+status: verified
+updated: 2026-08-25
 ---
 
 # 具体美術協会 / Gutai Art Association

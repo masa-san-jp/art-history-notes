@@ -22,7 +22,7 @@ naming:
   original_label: "art of the Kingdom of Benin"
   note: "「ベニン宮廷美術（art of the Kingdom of Benin）」は英語圏美術史記述による分類名で、Wikidataのラベル表記そのもの。制作を直接担ったギルド自身は自らを『イグン・エロンムオン（真鍮鋳造）』『イグベサンムオン（象牙彫刻）』というギルド名で名乗ったが、両ギルドの生産物を総称する『ベニン宮廷美術』という括り自体は後代の美術史記述による総称と見られる。命名者・命名年は未確認"
 claims:
-  - {field: time, source: "https://www.wikidata.org/wiki/Q4888026", certainty: scholarly}
+  - {field: time, source: "https://www.penn.museum/sites/expedition/the-art-of-benin/", certainty: scholarly}
   - {field: originated_in, source: "https://www.penn.museum/sites/expedition/the-art-of-benin/", certainty: scholarly}
   - {field: kind, source: "https://www.penn.museum/sites/expedition/the-art-of-benin/", certainty: scholarly}
 space:
@@ -61,8 +61,8 @@ images:
     rights_source: https://www.artic.edu/artworks/152856
     license: cc0
     note: "エド民族《記念頭像》おそらく17世紀半ば〜18世紀半ば。歴代オバの記念頭像の一例。シカゴ美術館蔵（is_public_domain: true）"
-status: draft
-updated: 2026-08-09
+status: verified
+updated: 2026-08-25
 ---
 
 # ベニン王国宮廷美術 / Art of the Kingdom of Benin

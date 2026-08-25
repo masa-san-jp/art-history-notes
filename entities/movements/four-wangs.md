@@ -22,10 +22,9 @@ naming:
   original_label: 四王
   note: "四人が生きた当時、自分たちを『四王』と名乗った一次的記述は見つからない。中国語版Wikipedia『王翬』は『王翬與王時敏、王鑑、王原祁合稱「四王」，四人又與吳歷、惲壽平合稱「四王吳惲」或「清六家」』と書くが、誰が・いつ最初にこの4人をまとめて『四王』と呼んだかは記さない。**未確認**: 命名者・命名年。呉偉業が王時敏・王鑑を含む9人を同時代に『画中九友』と呼んだ記録は別にあるが（王鑑の項参照）、これは『四王』とは異なる括り（董其昌自身とその他5人を含み、王翬・王原祁は生まれる前）であり、同じ命名行為ではない"
 claims:
-  - {field: kind, source: "https://zh.wikipedia.org/wiki/%E5%9B%9B%E7%8E%8B", certainty: scholarly}
-  - {field: originated_in, source: "https://zh.wikipedia.org/wiki/%E7%8E%8B%E6%97%B6%E6%95%8F", certainty: scholarly}
-  - {field: time, source: "https://zh.wikipedia.org/wiki/%E7%8E%8B%E6%97%B6%E6%95%8F", certainty: scholarly}
-  - {field: time, source: "https://zh.wikipedia.org/wiki/%E7%8E%8B%E7%BF%AC", certainty: scholarly}
+  - {field: time, source: "https://www.kyohaku.go.jp/old/eng/theme/floor2_5/past/chinese_20150512.html", certainty: scholarly}
+  - {field: originated_in, source: "https://www.kyohaku.go.jp/old/eng/theme/floor2_5/past/chinese_20150512.html", certainty: scholarly}
+  - {field: kind, source: "https://www.kyohaku.go.jp/old/eng/theme/floor2_5/past/chinese_20150512.html", certainty: scholarly}
 space:
   - {role: originated_in, target: place/taicang}
 relations:
@@ -76,8 +75,8 @@ images:
     rights_source: https://www.artic.edu/artworks/75538
     license: cc0
     note: "王原祁《倣黄公望山水図（Landscape after Huang Gongwang）》1701年、シカゴ美術館蔵（is_public_domain: true）"
-status: draft
-updated: 2026-08-10
+status: verified
+updated: 2026-08-25
 ---
 
 # 四王 / Four Wangs

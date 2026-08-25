@@ -22,9 +22,9 @@ naming:
   original_label: "Товарищество передвижных художественных выставок"
   note: "自称の核は正式名称「Товарищество передвижных художественных выставок（移動美術展協会、略称ТПХВ）」——発起人自身が請願し内務大臣が承認した定款を持つ団体としての自称である。日本語で定着している「移動派」およびロシア語の通称「передвижники」は、この団体自身の活動（передвижные выставки＝移動する展覧会）を指す語から直接派生した形容詞的な呼称で、ロシア語版Wikipediaは infobox で「передвижники」を協会名の「альтернативное（代替）」名として扱っており、印象派やフォーヴのような批評家による揶揄的な命名譚は出典に見当たらない。ただし「передвижники」という語を最初に使ったのが誰で、いつからかは出典に明記が無く未確認"
 claims:
-  - {field: kind, source: "https://ru.wikipedia.org/wiki/Передвижники", certainty: scholarly}
-  - {field: time, source: "https://www.wikidata.org/wiki/Q109260", certainty: scholarly}
-  - {field: originated_in, source: "https://ru.wikipedia.org/wiki/Передвижники", certainty: scholarly}
+  - {field: time, source: "https://www.tretyakovgallery.ru/exhibitions/o/peredvizhniki-/?lang=en", certainty: scholarly}
+  - {field: originated_in, source: "https://www.tretyakovgallery.ru/exhibitions/o/peredvizhniki-/?lang=en", certainty: scholarly}
+  - {field: kind, source: "https://www.tretyakovgallery.ru/exhibitions/o/peredvizhniki-/?lang=en", certainty: scholarly}
 space:
   - {role: originated_in, target: place/saint-petersburg}
 relations:
@@ -37,7 +37,7 @@ sources:
   - url: "https://en.wikipedia.org/wiki/Peredvizhniki"
     kind: reference
   - url: "https://www.tretyakovgallery.ru/exhibitions/o/peredvizhniki-/?lang=en"
-    kind: reference
+    kind: institutional
 images:
   - url: https://images.metmuseum.org/CRDImages/ep/original/DP-23542-001.jpg
     source_page: https://www.metmuseum.org/art/collection/search/437631
@@ -49,8 +49,8 @@ images:
     rights_source: https://www.metmuseum.org/art/collection/search/411170
     license: cc0
     note: "イワン・シーシキン《嵐の前》1873年。メトロポリタン美術館蔵（isPublicDomain: true）。発起人14人の一人"
-status: draft
-updated: 2026-08-09
+status: verified
+updated: 2026-08-25
 ---
 
 # 移動派 / Peredvizhniki

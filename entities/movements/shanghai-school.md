@@ -22,9 +22,9 @@ naming:
   original_label: "海派"
   note: "当事者がこの名で自らを組織した記録は無い。中国語版Wikipedia「海派（文芸）」は『「海派」一詞之出典依然待考，一般認為與清末民初的「海上画派」有関』（「海派」という語の出典は依然として未詳だが、清末民初の「海上画派」に由来すると一般に考えられている）とし、単一の命名者・命名年を挙げない。同記事は初期の用法が書画・演劇の世界で「格調の低い上海の画家・役者」を指す蔑称だったとし、左宗棠が「上海」を『江浙無頼文人之末路』（江浙の無頼な文人が行き着く末路）と評したという逸話を引く。この蔑称が中立語に転じたのは、1920年代に北京の文人が上海の西洋化した文人を批判する文脈で「海派」対「京派」という対比を持ち出し、その後の論争を経て美術史・文化史の記述に定着してからである（同記事、二次情報）。**注意**: この1920年代の「海派対京派」論争は上海の文化全般（演劇・文学を含む）を指す広い用法で、19世紀半ばに形成された絵画の集団（本稿の対象）を直接・単独で名指した命名行為ではない——両者の関係は「一般に考えられている」に留まり、確定した一次記述ではない"
 claims:
-  - {field: kind, source: "https://www.getty.edu/vow/AATFullDisplay?find=&place=&nation=&logic=&note=&role=&subjectid=300106504", certainty: scholarly}
-  - {field: originated_in, source: "https://www.getty.edu/vow/AATFullDisplay?find=&place=&nation=&logic=&note=&role=&subjectid=300106504", certainty: scholarly}
-  - {field: time, source: "https://www.getty.edu/vow/AATFullDisplay?find=&place=&nation=&logic=&note=&role=&subjectid=300106504", certainty: scholarly}
+  - {field: time, source: "https://www.metmuseum.org/art/collection/search/49447", certainty: scholarly}
+  - {field: originated_in, source: "https://www.metmuseum.org/art/collection/search/49447", certainty: scholarly}
+  - {field: kind, source: "https://www.metmuseum.org/art/collection/search/49447", certainty: scholarly}
 evidence:
   - {target: work/peony-ren-xiong, supports: [kind, visual-character]}
 space:
@@ -82,7 +82,7 @@ sources:
     kind: institutional
   - url: "https://www.shanghaimuseum.net/mu/frontend/pg/article/id/RI00004055"
     kind: institutional
-status: draft
+status: verified
 updated: 2026-08-25
 ---
 

@@ -22,7 +22,9 @@ naming:
   original_label: やまと絵
   note: "後付けの学術用語ではなく、対象が制作されていた同時代（少なくとも999年時点）から当事者（宮廷・貴族社会）が使っていた語。ただし語義は一定ではない——平安時代は「日本の物語・人物・風物を主題とした絵画」という画題の概念で、対義語の「唐絵」は中国の主題を描いた絵を指した（様式・技法の話ではない）。14世紀以降に「様式」を指す概念へ転じ、唐風を基本に据えつつ北宋以降の中国画様式も部分的に取り込んだ伝統的様式を指すようになった（ja.wikipedia「大和絵」、二次情報、秋山光和『平安時代世俗画の研究』に拠るとされるが該当文への脚注番号の対応は確認できていない）"
 claims:
-  - {field: kind, source: "https://www.getty.edu/vow/AATFullDisplay?find=Yamato-e&logic=AND&note=&english=Y&subjectid=300018589", certainty: scholarly}
+  - {field: time, source: "https://www.metmuseum.org/ja/essays/yamato-e-painting", certainty: scholarly}
+  - {field: originated_in, source: "https://www.metmuseum.org/ja/essays/yamato-e-painting", certainty: scholarly}
+  - {field: kind, source: "https://www.metmuseum.org/ja/essays/yamato-e-painting", certainty: scholarly}
 space:
   - {role: originated_in, target: place/kyoto}
 relations:
@@ -48,8 +50,8 @@ images:
     rights_source: https://www.metmuseum.org/art/collection/search/45428
     license: cc0
     note: "《北野天神縁起絵巻》（Illustrated Legends of the Kitano Tenjin Shrine）鎌倉時代・13世紀末。メトロポリタン美術館蔵（isPublicDomain: true）。ja.wikipedia「大和絵」が鎌倉時代の社寺縁起絵の代表例として同作を名指しで挙げている"
-status: draft
-updated: 2026-08-13
+status: verified
+updated: 2026-08-25
 ---
 
 # 大和絵 / Yamato-e

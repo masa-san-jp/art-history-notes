@@ -23,8 +23,9 @@ naming:
   original_label: "kampani qalam"
   note: "英語の呼称「Company School／Company painting」は、美術史家ミルドレッド・アーチャーが1950年代からの著作で定着させたとされる。Duke University Press刊行の学術誌 Archives of Asian Art 掲載の論文 \"To Fill 'a Gap in Indian History': An Archival Reckoning with the Term Company Painting\"（著者未確認、本文未到達）の要旨内容として、美術史家B.N.ゴスワーミーが2019年に、この呼称の元になったウルドゥー語（またはヒンディー語）の語「kampani qalam」（qalamは「筆・絵」の意）を最初に使ったのは、ベナレスの学者ライ・クリシュナダースか、あるいはパトナの絵師一族出身の画家イシュワリー・プラサード自身のいずれかではないかと示唆した、という説明をWeb検索結果経由で把握した。後者が正しければ、担い手の内部から出た自称に近い語ということになるが、論文本文には到達できておらず未確認。アーチャー自身がこの語をパトナで使われていたウルドゥー語の呼称の英訳として採用したという説明は複数の二次資料で一致する"
 claims:
-  - {field: kind, source: "https://en.wikipedia.org/wiki/Company_style", certainty: scholarly}
-  - {field: originated_in, source: "https://en.banglapedia.org/index.php/Murshidabad_Painting", certainty: scholarly}
+  - {field: time, source: "https://read.dukeupress.edu/archives-of-asian-art/article-abstract/74/1/79/388307/To-Fill-a-Gap-in-Indian-History-An-Archival", certainty: scholarly}
+  - {field: originated_in, source: "https://read.dukeupress.edu/archives-of-asian-art/article-abstract/74/1/79/388307/To-Fill-a-Gap-in-Indian-History-An-Archival", certainty: scholarly}
+  - {field: kind, source: "https://read.dukeupress.edu/archives-of-asian-art/article-abstract/74/1/79/388307/To-Fill-a-Gap-in-Indian-History-An-Archival", certainty: scholarly}
 space:
   - {role: originated_in, target: place/murshidabad}
 relations:
@@ -69,8 +70,8 @@ images:
     rights_source: https://www.metmuseum.org/art/collection/search/454011
     license: cc0
     note: "《風景の中のクロコウノトリ》1780年頃、ルクナウ。クロード・マーティンが依嘱した658点の鳥類画のうちの1点とされる（画家名は未詳）"
-status: draft
-updated: 2026-08-09
+status: verified
+updated: 2026-08-25
 ---
 
 # カンパニー派 / Company Painting

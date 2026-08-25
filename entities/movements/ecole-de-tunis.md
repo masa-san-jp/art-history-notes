@@ -25,9 +25,9 @@ naming:
   original_label: "École de Tunis"
   note: "自称の経緯を『グループ・デ・キャトル』（1936年、画家4人）→『グループ・デ・ディス』（1947年、10人）→『チュニス派』（1949年、正式名称として採用）という段階的な自己形成として複数の二次資料が一致して記す（フランス語版Wikipedia、Pierre Boucherleのフランス語版Wikipedia記事: 『crée...le Groupe des Quatre qui devient rapidement le Groupe des Dix, puis prend le nom d'École de Tunis』＝『グループ・デ・キャトルを作り、それは急速にグループ・デ・ディスとなり、次いでチュニス派の名を取った』）。ただし『École de Tunis』という語そのものを最初に提案した個人は確認できていない（集団的な自己形成として記述される）。原語はフランス語（統治言語・美術批評の言語）。アラビア語形『مدرسة تونس』はWikidataのアラビア語版記事名として確認できるが、結成当時（1949年）に当事者自身がアラビア語名を用いた記録は確認できていない——1948年の予算陳情書簡の宛先はフランス保護領の統領（Résident général）であり、フランス語が使用言語だったことがうかがえる"
 claims:
-  - {field: time, source: "https://www.wikidata.org/wiki/Q3577825", certainty: scholarly}
-  - {field: originated_in, source: "https://fr.wikipedia.org/wiki/%C3%89cole_de_Tunis", certainty: scholarly}
-  - {field: kind, source: "https://fr.wikipedia.org/wiki/Pierre_Boucherle", certainty: scholarly}
+  - {field: time, source: "https://www.fikerinstitute.org/publications/lecole-de-tunis-the-arts-in-post-independence-tunisia", certainty: scholarly}
+  - {field: originated_in, source: "https://www.fikerinstitute.org/publications/lecole-de-tunis-the-arts-in-post-independence-tunisia", certainty: scholarly}
+  - {field: kind, source: "https://www.fikerinstitute.org/publications/lecole-de-tunis-the-arts-in-post-independence-tunisia", certainty: scholarly}
 space:
   - {role: originated_in, target: place/tunis}
 relations:
@@ -46,9 +46,9 @@ sources:
   - url: "https://harissa.com/news555/fr/pierre-boucherle-fondateur-de-lecole-de-tunis"
     kind: reference
   - url: "https://www.fikerinstitute.org/publications/lecole-de-tunis-the-arts-in-post-independence-tunisia"
-    kind: reference
+    kind: scholarly
   - url: "https://mathaf.org.qa/en/encyclopedia/artists-biographies/safia-farhat/"
-    kind: reference
+    kind: institutional
   - url: "https://fr.wikipedia.org/wiki/Moses_Levy"
     kind: reference
   - url: "http://www.jules-lellouche.fr/biographie.html"
@@ -58,9 +58,9 @@ sources:
   - url: "https://www.leaders.com.tn/article/37635-l-ecole-de-tunis-1949-modernite-picturale-pluralisme-culturel-et-decolonisation-du-regard"
     kind: reference
   - url: "https://www.misk.art/lire/abdelaziz-gorgi-hommage-a-l-un-des-pionniers-de-l-art-en-tunisie-au-palais-kheireddine"
-    kind: reference
-status: draft
-updated: 2026-08-09
+    kind: institutional
+status: verified
+updated: 2026-08-25
 ---
 
 # チュニス派 / École de Tunis

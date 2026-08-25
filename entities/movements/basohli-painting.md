@@ -22,9 +22,9 @@ naming:
   original_label: "Basohli painting"
   note: "担い手が自らこの名で名乗った記録は確認できていない。地名（バソーリ）を冠した後代の分類名である。インドの地理的表示（GI）登録では『Basohli school of Pahari painting』の名が用いられている（Wikipedia『Basohli』、二次情報）。学術的な体系化はM.S.ランダーワー（Mohinder Singh Randhawa、1909-1986年）による1950年代のパンジャブ西部丘陵地帯での現地調査と、その成果である著書『Basohli Painting』（出典間で1959年・1968年と刊行年が割れる、二次情報）が大きく寄与したことが複数の二次情報から確認できるが、呼称そのものの初出・最初の命名者は未確認"
 claims:
-  - {field: kind, source: "https://en.wikipedia.org/wiki/Basohli", certainty: scholarly}
   - {field: time, source: "https://www.metmuseum.org/art/collection/search/37941", certainty: scholarly}
-  - {field: originated_in, source: "https://en.wikipedia.org/wiki/Basohli", certainty: scholarly}
+  - {field: originated_in, source: "https://resources.metmuseum.org/resources/metpublications/pdf/Divine_Pleasures.pdf", certainty: scholarly}
+  - {field: kind, source: "https://resources.metmuseum.org/resources/metpublications/pdf/Divine_Pleasures.pdf", certainty: scholarly}
 evidence:
   - {target: work/rasamanjari-separated-lovers-1694, supports: [kind, time, visual-character]}
 space:
@@ -74,7 +74,7 @@ images:
     rights_source: https://www.metmuseum.org/art/collection/search/37942
     license: cc0
     note: "デーヴィーダーサ（ヌールプルの）筆《チャウパルに興じるシヴァとパールヴァティー》『ラサマンジャリー』連作より、1694-95年紀年。メトロポリタン美術館蔵（isPublicDomain: true）"
-status: draft
+status: verified
 updated: 2026-08-25
 ---
 

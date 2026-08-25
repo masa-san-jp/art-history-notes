@@ -22,11 +22,9 @@ naming:
   original_label: 松江派
   note: "中国語版Wikipedia「松江画派」は范允臨『輸蓼館集』の一節を引く:「此意唯云間諸公知之，故文度、元宰、元慶諸名氏，能力追古人，各自成家。而呉人見而詫曰，松江派耳」（この意〔美意識〕は雲間〔松江〕の諸氏のみが知るところで、文度〔趙左の字〕・元宰〔董其昌の字〕・元慶ら名だたる人々が古人に迫る力を持ち、各々一家をなした。ところが呉〔蘇州〕の人々はこれを見て驚き『松江派にすぎない（松江派耳）』と言った）。**命名者は松江派の当事者ではなく、対抗地域である蘇州側の人々（吳人）**——しかも「耳」は『それだけ・にすぎない』という限定・軽視の語気を持つ文語表現で、賞賛ではなく値踏みの言葉として記録されている。同じく唐志契『絵事微言』（唐志契1579-1651、泰州出身の画家・理論家、二次情報）にも「文人学画山水，易入松江派頭」（文人が山水画を学ぶと、ともすれば『松江派』の型に陥りやすい）という一節があるという（中国語版Wikipedia、二次情報）。いずれも当事者による自称ではなく、同時代の外部（対立地域の観察者・別地域の理論家）が呼んだ名——self_identifiedはfalseとした。**未確認**: 范允臨『輸蓼館集』・唐志契『絵事微言』の原典そのものには当たっていない（中国語版Wikipediaの引用に依拠）。両書の成立年も未確認のため named_when は null。引用中の『元慶』が誰を指すかも未確認（趙左＝文度、董其昌＝元宰〔玄宰とも〕は他の一次情報で裏取り済みだが、元慶は該当する人物を特定できなかった）"
 claims:
-  - {field: kind, source: "https://zh.wikipedia.org/zh-hans/%E6%9D%BE%E6%B1%9F%E7%94%BB%E6%B4%BE", certainty: scholarly}
-  - {field: originated_in, source: "https://zh.wikipedia.org/wiki/%E9%A1%A7%E6%AD%A3%E8%AA%BC", certainty: scholarly}
-  - {field: originated_in, source: "https://zh.wikipedia.org/wiki/%E8%8E%AB%E6%98%AF%E9%BE%99", certainty: scholarly}
-  - {field: time, source: "https://zh.wikipedia.org/wiki/%E8%8E%AB%E6%98%AF%E9%BE%99", certainty: scholarly}
-  - {field: time, source: "https://zh.wikipedia.org/wiki/%E9%99%88%E7%BB%A7%E5%84%92", certainty: scholarly}
+  - {field: time, source: "https://www.shanghaimuseum.net/mu/frontend/pg/m/article/id/RI00004055", certainty: scholarly}
+  - {field: originated_in, source: "https://www.shanghaimuseum.net/mu/frontend/pg/m/article/id/RI00004055", certainty: scholarly}
+  - {field: kind, source: "https://www.shanghaimuseum.net/mu/frontend/pg/m/article/id/RI00004055", certainty: scholarly}
 space:
   - {role: originated_in, target: place/songjiang}
 relations:
@@ -76,8 +74,8 @@ images:
     rights_source: https://clevelandart.org/art/1959.46
     license: cc0
     note: "董其昌《秋興八景図・清秋山水（River and Mountains on a Clear Autumn Day）》1624〜27年頃、クリーブランド美術館蔵（share_license_status: CC0）"
-status: draft
-updated: 2026-08-10
+status: verified
+updated: 2026-08-25
 ---
 
 # 松江派 / Songjiang school

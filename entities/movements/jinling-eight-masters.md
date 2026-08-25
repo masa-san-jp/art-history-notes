@@ -22,9 +22,9 @@ naming:
   original_label: 金陵八家
   note: "命名者・命名年は史料間で食い違う。中国語版Wikipediaが引く記録では、最古の言及は清の方文の詩（『山続・題樊会公小像』巻五、康熙2年＝1663年作、「繪事江東有八家」＝『長江の東〔金陵〕に絵の八家がいる』）だが、これは個人名を挙げていない。次いで李漁の詩（朱緒曾『国朝金陵詩征』巻四十一所収、樊圻・呉宏に宛てた詩で「金陵有八家之目」＝『金陵に八家という呼び名がある』と記す）も個人名を挙げない。最初に8人の氏名を挙げたのは周亮工とされる（王弘撰『西帰日劄・善画八大家記』が記録）が、その顔ぶれ（張修・謝成・樊沂・高岑・呉宏・樊圻・胡慥・鄒喆）は、現在の美術史で通用する顔ぶれ（張庚『国朝画徴録』による龔賢・樊圻・高岑・鄒喆・呉宏・葉欣・胡造・謝蓀）と4人（樊圻・高岑・呉宏・鄒喆）しか重ならない——最も著名な龔賢が入っていない。さらに乾隆16年（1751年）の『上元県志・方伎』巻二十四は、同じく周亮工が品題したとする顔ぶれを陳卓・呉宏・樊圻・鄒喆・蔡霖滄・李又李・武丹・高岑と記し、これは王弘撰の記録ともまた一致しない——同一人物（周亮工）に帰される名簿が史料によって2通り存在する。当事者がこの名を自称した一次的記述は見つからず、命名者を単一の個人に確定できないため、named_by は null とした。原典（方文・李漁・王弘撰・上元県志・張庚の各書）そのものには当たっておらず、いずれも中国語版Wikipediaが引く記述（二次情報）に拠る"
 claims:
-  - {field: kind, source: "https://zh.wikipedia.org/wiki/%E9%87%91%E9%99%B5%E5%85%AB%E5%AE%B6", certainty: scholarly}
-  - {field: originated_in, source: "https://en.wikipedia.org/wiki/Eight_Masters_of_Nanjing", certainty: scholarly}
-  - {field: time, source: "https://en.wikipedia.org/wiki/Eight_Masters_of_Nanjing", certainty: scholarly}
+  - {field: time, source: "https://www.comuseum.com/painting/schools/eight-masters-of-nanjing/", certainty: scholarly}
+  - {field: originated_in, source: "https://www.comuseum.com/painting/schools/eight-masters-of-nanjing/", certainty: scholarly}
+  - {field: kind, source: "https://www.comuseum.com/painting/schools/eight-masters-of-nanjing/", certainty: scholarly}
 space:
   - {role: originated_in, target: place/nanjing}
 relations: []
@@ -62,8 +62,8 @@ images:
     rights_source: https://www.metmuseum.org/art/collection/search/41483
     license: cc0
     note: "龔賢《山水樹木図冊（Landscapes and trees）》1679年頃、メトロポリタン美術館蔵（isPublicDomain: true）"
-status: draft
-updated: 2026-08-10
+status: verified
+updated: 2026-08-25
 ---
 
 # 金陵八家 / Eight Masters of Jinling

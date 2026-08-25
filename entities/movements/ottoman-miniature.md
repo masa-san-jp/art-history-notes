@@ -21,7 +21,10 @@ naming:
   named_when: null
   original_label: "Osmanlı minyatürü"
   note: "「オスマン」は王朝名で、当事者がこの名で自分たちの絵画を名乗った記録はない。オスマン語で当時使われたのは taswir・nakış（『描く』『装飾する』の意）という技法一般の語で、王朝名を冠した呼称ではなかった。王朝名を美術史区分に転用した、後代の学術的な呼称"
-claims: []
+claims:
+  - {field: time, source: "https://www.metmuseum.org/essays/the-art-of-the-ottomans-before-1600", certainty: scholarly}
+  - {field: originated_in, source: "https://www.metmuseum.org/essays/the-art-of-the-ottomans-before-1600", certainty: scholarly}
+  - {field: kind, source: "https://www.metmuseum.org/essays/the-art-of-the-ottomans-before-1600", certainty: scholarly}
 space:
   - {role: originated_in, target: place/istanbul}
 relations:
@@ -49,8 +52,8 @@ sources:
     kind: reference
   - url: "https://en.wikipedia.org/wiki/Safavid_art"
     kind: reference
-status: draft
-updated: 2026-08-13
+status: verified
+updated: 2026-08-25
 ---
 
 # オスマン朝細密画 / Ottoman miniature

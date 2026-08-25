@@ -23,8 +23,8 @@ naming:
   note: "名称の来歴に二段階のねじれがある。①学術資料（Lorenzo 2015）は『インディヘニスモという呼称は、対立した思想潮流イスパニスモ側からの蔑称に由来するにもかかわらず、その名を保持した（conserva ese nombre a pesar de provenir de dichos peyorativos de sus opositores）』と明記する——命名者は特定の個人ではなく反対派（イスパニスモ陣営）一般とされ、named_by は特定できないため null にした。②当事者側の引き受けは、少なくとも二重に確認できる。画家カミロ・ブラス自身が1920年代の心境として『自分の土地と自分の民を描いていた、運動が生まれる前から知らずしてインディヘニスタだった（Pintaba mi tierra y mi pueblo, y sin saberlo era indigenista antes de que el movimiento hubiera surgido）』と後年語ったと伝わる（Zevallos 1991に引用、Villanueva Ccahuana 2021が孫引き、二次情報の孫引き）。サボガル自身も1943年8月21日、リマのレストラン『ラ・カバーニャ』で開かれた歓送会での答辞で『しかし、そうだ、我々は言葉の正しい意味におけるインディヘニスタである、さらに文化的インディヘニスタでもある（somos indigenistas en el justo significado de la palabra, y más aún, indigenistas culturales）』と述べたと複数の二次資料が伝える——ただしこの発言の一次資料（ICAA/MFAH Documents Project item 1140821『Homenaje a José Sabogal』が該当すると推定されるが、Cloudflareの遮断により本KBは本文を直接読めていない）は本KBが直接確認できていない。③一方でカミロ・ブラス自身は1969年、この運動を『誤って「インディヘニスタ」と呼ばれた（mal llamado 'indigenista'）』と後年批判しており、当事者内でも呼称の適否について緊張がある（Villanueva Ccahuana 2021）。以上から、名は外部（反対派）起源だが当事者が後から（1943年時点で明示的に）引き受けたと判断し、self_identified: true・kind: retrospective とした（新印象派の型と同じ構造）"
 founding_control: external
 claims:
-  - {field: time, source: "https://en.wikipedia.org/wiki/Jos%C3%A9_Sabogal", certainty: scholarly}
-  - {field: originated_in, source: "https://www.museoreinasofia.es/en/activities/indigenisms", certainty: scholarly}
+  - {field: time, source: "http://sedici.unlp.edu.ar/bitstream/handle/10915/151286/Documento_completo.pdf-PDFA.pdf?sequence=1", certainty: scholarly}
+  - {field: originated_in, source: "http://sedici.unlp.edu.ar/bitstream/handle/10915/151286/Documento_completo.pdf-PDFA.pdf?sequence=1", certainty: scholarly}
   - {field: kind, source: "http://sedici.unlp.edu.ar/handle/10915/151286", certainty: scholarly}
 space:
   - {role: originated_in, target: place/lima}
@@ -63,8 +63,8 @@ sources:
     kind: scholarly
   - url: "https://icaa.mfah.org/s/en/item/1140821"
     kind: reference
-status: draft
-updated: 2026-08-10
+status: verified
+updated: 2026-08-25
 ---
 
 # インディヘニスモ / Indigenismo

@@ -24,7 +24,7 @@ naming:
 claims:
   - {field: time, source: "https://www.metmuseum.org/fr/essays/neoclassicism", certainty: scholarly}
   - {field: originated_in, source: "https://www.metmuseum.org/fr/essays/neoclassicism", certainty: scholarly}
-  - {field: kind, source: "https://www.wikidata.org/wiki/Q14378", certainty: scholarly}
+  - {field: kind, source: "https://www.metmuseum.org/fr/essays/neoclassicism", certainty: scholarly}
 space:
   - {role: originated_in, target: place/rome}
 relations:
@@ -36,8 +36,8 @@ sources:
     kind: authority
   - url: "https://www.metmuseum.org/fr/essays/neoclassicism"
     kind: institutional
-status: draft
-updated: 2026-08-12
+status: verified
+updated: 2026-08-25
 ---
 
 # 新古典主義 / Neoclassicism

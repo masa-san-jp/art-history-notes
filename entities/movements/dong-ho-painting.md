@@ -23,7 +23,8 @@ naming:
   note: "村名（ドンホー村）がそのまま呼称になっている。Wikidataもこの項目をP138（〜にちなんで名付けられた）でドンホー村（Q8079936）と結んでおり、後代の批評家・市場が付けた括り名ではなく、産地の村名を当事者側がそのまま名乗っている形"
 founding_control: internal
 claims:
-  - {field: originated_in, source: "https://www.wikidata.org/wiki/Q1923756", certainty: scholarly}
+  - {field: time, source: "https://ich.unesco.org/en/decisions/20.COM/7.A.1", certainty: scholarly}
+  - {field: originated_in, source: "https://ich.unesco.org/en/decisions/20.COM/7.A.1", certainty: scholarly}
   - {field: kind, source: "https://ich.unesco.org/en/USL/craft-of-making-dong-ho-folk-woodblock-printings-01737", certainty: scholarly}
 space:
   - {role: originated_in, target: place/dong-ho-village}
@@ -58,8 +59,8 @@ sources:
     kind: reference
   - url: "https://commons.wikimedia.org/wiki/File:Hai_ba_trung_Dong_Ho_painting.jpg"
     kind: reference
-status: draft
-updated: 2026-08-10
+status: verified
+updated: 2026-08-25
 ---
 
 # ドンホー版画 / Đông Hồ painting

@@ -23,9 +23,9 @@ naming:
   original_label: "palagai padam"
   note: "英語の呼称「Tanjore painting」「Thanjavur painting」は地名（タンジャーヴール、英語植民地期の音写がTanjore）をそのまま冠した後代の分類名で、担い手（ラージュ・ナイドゥ両共同体）がこの名で自らの制作を呼んだ記録は確認できていない。英語版Wikipedia「Thanjavur painting」は、木の板に描く形式そのものを指す現地の呼称として「palagai padam」（タミル語で palagai=板、padam=絵の意）という語を伝えるが、これは壁画・ガラス絵・象牙細工なども含む様式全体の自称ではなく、板絵という一形式を指す語である。英語の呼称を最初に用いた人物・年は未確認——1806年刊行のチャールズ・ゴールド『Oriental Drawings』は画家を『Moochys or Artists of India』と呼んでおり、少なくともこの時点では『Tanjore painting』という様式名自体は使われていない"
 claims:
-  - {field: kind, source: "https://en.wikipedia.org/wiki/Thanjavur_painting", certainty: scholarly}
-  - {field: time, source: "https://en.wikipedia.org/wiki/Thanjavur_painting", certainty: scholarly}
-  - {field: originated_in, source: "https://en.wikipedia.org/wiki/Thanjavur_painting", certainty: scholarly}
+  - {field: time, source: "https://tnrajbhavantour.tn.gov.in/tnrb-website-archive/Archives/Website1621/PressReleases/2019/PR040419-1.pdf", certainty: scholarly}
+  - {field: originated_in, source: "https://tnrajbhavantour.tn.gov.in/tnrb-website-archive/Archives/Website1621/PressReleases/2019/PR040419-1.pdf", certainty: scholarly}
+  - {field: kind, source: "https://tnrajbhavantour.tn.gov.in/tnrb-website-archive/Archives/Website1621/PressReleases/2019/PR040419-1.pdf", certainty: scholarly}
 space:
   - {role: originated_in, target: place/thanjavur}
 relations:
@@ -58,8 +58,8 @@ images:
     rights_source: https://www.metmuseum.org/art/collection/search/850685
     license: cc0
     note: "《大臣を伴うマハーラージャ・セルフォージー2世》1800年頃。紙に金箔盛り上げ・不透明水彩。メトロポリタン美術館蔵（isPublicDomain: true）。庇護者セルフォージー2世自身を描いた肖像で、タンジョール絵画の技法（盛り上げ金箔）を用いる"
-status: draft
-updated: 2026-08-10
+status: verified
+updated: 2026-08-25
 ---
 
 # タンジョール絵画 / Tanjore painting

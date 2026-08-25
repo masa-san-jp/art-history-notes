@@ -29,8 +29,9 @@ naming:
     （oneoftwelve.com、二次情報）。命名の発案者個人（チャーリー・タラワ）は資料上分かるが、
     命名という行為そのものは外部の後付けではなく当事者による自称なので、self_identified: true とした"
 claims:
-  - {field: time, source: "https://www.wikidata.org/wiki/Q18005", certainty: scholarly}
-  - {field: originated_in, source: "https://www.wikidata.org/wiki/Q18005", certainty: scholarly}
+  - {field: time, source: "https://www.nma.gov.au/defining-moments/resources/papunya-tula", certainty: scholarly}
+  - {field: originated_in, source: "https://www.nma.gov.au/defining-moments/resources/papunya-tula", certainty: scholarly}
+  - {field: kind, source: "https://www.nma.gov.au/defining-moments/resources/papunya-tula", certainty: scholarly}
 space:
   - {role: originated_in, target: place/papunya}
 relations:
@@ -55,8 +56,8 @@ sources:
     kind: reference
   - url: "https://www.nma.gov.au/defining-moments/resources/papunya-tula"
     kind: institutional
-status: draft
-updated: 2026-08-12
+status: verified
+updated: 2026-08-25
 ---
 
 # パプニャ・トゥラ / Papunya Tula

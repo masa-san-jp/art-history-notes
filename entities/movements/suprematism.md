@@ -22,9 +22,9 @@ naming:
   original_label: "Супрематизм"
   note: "自称の核は一次資料（マレーヴィチ自身の小冊子）で直接確認できる。小冊子末尾は「К.Малевич／Июнь, 1915 г.（1915年6月）」と日付・署名があり、本文は『Считая Кубофутуризм выполнившим свои задания — я перехожу к Супрематизму — к новому живописному реализму, беспредметному творчеству.（キュボフュチュリズムはその任務を果たし終えたと見なし、私はシュプレマティスムへ——新しい絵画的リアリズムへ、非対象的創造へ移る。）』と自らその名を宣言する（[velikanov.ru収録のスキャン再録PDF](https://velikanov.ru/lib/%D0%9C%D0%B0%D0%BB%D0%B5%D0%B2%D0%B8%D1%87.%20%D0%9E%D1%82%20%D0%BA%D1%83%D0%B1%D0%B8%D0%B7%D0%BC%D0%B0%20%D0%BA%20%D1%81%D1%83%D0%BF%D1%80%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%B7%D0%BC%D1%83.pdf)、原本の書誌情報はロシア国立プレジデンシャル・ライブラリの目録記述（下記sources）で確認）。語自体はラテン語 supremus（最高の）に由来し、小冊子本文では『к господству чисто самодельных живописных форм над разумными, к Супрематизму（純粋に自製された絵画的形態が理性的なものに対して持つ господство〈支配・至高性〉へ、シュプレマティスムへ）』という文で導入される。後年マレーヴィチは『Die gegenstandslose Wеlt（1927年、バウハウス叢書）』英訳版で『By 'Suprematism' I mean the supremacy of pure feeling in creative art.（シュプレマティスムとは、創造芸術における純粋な感覚の至高性を意味する）』とより定式化した言い方で再説明しているが、これは1915年の宣言そのものではなく後年の再定式化である。命名者は無く（named_by は null）、名乗ったのはマレーヴィチ本人のみ"
 claims:
+  - {field: time, source: "https://velikanov.ru/lib/%D0%9C%D0%B0%D0%BB%D0%B5%D0%B2%D0%B8%D1%87.%20%D0%9E%D1%82%20%D0%BA%D1%83%D0%B1%D0%B8%D0%B7%D0%BC%D0%B0%20%D0%BA%20%D1%81%D1%83%D0%BF%D1%80%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%B7%D0%BC%D1%83.pdf", certainty: scholarly}
+  - {field: originated_in, source: "https://velikanov.ru/lib/%D0%9C%D0%B0%D0%BB%D0%B5%D0%B2%D0%B8%D1%87.%20%D0%9E%D1%82%20%D0%BA%D1%83%D0%B1%D0%B8%D0%B7%D0%BC%D0%B0%20%D0%BA%20%D1%81%D1%83%D0%BF%D1%80%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%B7%D0%BC%D1%83.pdf", certainty: scholarly}
   - {field: kind, source: "https://velikanov.ru/lib/%D0%9C%D0%B0%D0%BB%D0%B5%D0%B2%D0%B8%D1%87.%20%D0%9E%D1%82%20%D0%BA%D1%83%D0%B1%D0%B8%D0%B7%D0%BC%D0%B0%20%D0%BA%20%D1%81%D1%83%D0%BF%D1%80%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%B7%D0%BC%D1%83.pdf", certainty: attested}
-  - {field: time, source: "https://en.wikipedia.org/wiki/0,10_Exhibition", certainty: scholarly}
-  - {field: originated_in, source: "https://en.wikipedia.org/wiki/0,10_Exhibition", certainty: scholarly}
 space:
   - {role: originated_in, target: place/saint-petersburg}
 relations:
@@ -66,8 +66,8 @@ sources:
     kind: institutional
   - url: "https://malevichsociety.org/malevich-biography-a-brief-history/"
     kind: reference
-status: draft
-updated: 2026-08-09
+status: verified
+updated: 2026-08-25
 ---
 
 # シュプレマティスム

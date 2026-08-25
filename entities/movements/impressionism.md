@@ -22,9 +22,8 @@ naming:
   original_label: "Société anonyme des artistes peintres, sculpteurs et graveurs"
   note: "命名（外部・1874年）と当事者の呼称（自称）は別の事実。第1回展を主催した団体が自ら選んだ名は「画家・彫刻家・版画家等の匿名協会」で、様式や綱領を掲げる名ではない（org/societe-anonyme-artistes 参照）。「impressionniste」の語は、批評家ルイ・ルロワが1874年4月25日『ル・シャリヴァリ』紙に書いた記事で、モネの出品作《Impression, soleil levant（印象、日の出）》の題名をもじって揶揄として作った。当事者側の引き受けは後から来た——モネ自身が1880年6月、雑誌『La Vie moderne』のエミール・タブローによるインタビューで『Je suis toujours et je veux toujours être impressionniste（私はいつも印象派であったし、これからもそうありたい）』と述べている（二次文献での引用を確認、原記事本文は未確認）。self_identified: true と kind: retrospective はここでも矛盾しない——命名者は当事者ではなく批評家だが、当事者は後にその名を自分のものとして使った"
 claims:
-  - {field: time, source: "https://en.wikipedia.org/wiki/First_Impressionist_Exhibition", certainty: scholarly}
   - {field: time, source: "https://digistore.bib.ulb.ac.be/2008/DL2864764_1886_f.pdf", certainty: scholarly}
-  - {field: originated_in, source: "https://www.wikidata.org/wiki/Q3487659", certainty: scholarly}
+  - {field: originated_in, source: "https://www.clevelandart.org/art/1950.89", certainty: scholarly}
   - {field: kind, source: "https://www.france-memoire.fr/wp-content/uploads/2022/07/charivari_documentv2.pdf", certainty: scholarly}
 space:
   - {role: originated_in, target: place/paris}
@@ -93,7 +92,7 @@ sources:
   - url: "https://digistore.bib.ulb.ac.be/2008/DL2864764_1886_f.pdf"
     kind: scholarly
 status: verified
-updated: 2026-08-11
+updated: 2026-08-25
 ---
 
 # 印象派 / Impressionism

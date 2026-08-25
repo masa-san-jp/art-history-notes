@@ -23,7 +23,7 @@ naming:
   note: "テオ・ファン・ドゥースブルフが1917年にライデンで創刊した雑誌の名称が、その周囲に形成された芸術家・建築家・デザイナーの運動名になった。雑誌名と運動名のどちらも当事者の公的な活動基盤として使われたため、自称として扱う"
 claims:
   - {field: time, source: "https://sammlung.staedelmuseum.de/en/person/de-stijl", certainty: scholarly}
-  - {field: originated_in, source: "https://www.lakenhal.nl/en/story/de-stijl", certainty: scholarly}
+  - {field: originated_in, source: "https://www.moma.org/documents/moma_catalogue_1798_300159061.pdf", certainty: scholarly}
   - {field: kind, source: "https://www.moma.org/collection/terms/de-stijl?sanity_preview=true&sanity_preview_secret=d51b1526-f689-4f33-b7c5-896dca252e7a", certainty: scholarly}
 space:
   - {role: originated_in, target: place/leiden}
@@ -52,8 +52,8 @@ sources:
     kind: scholarly
   - url: "https://commons.wikimedia.org/wiki/File:Stijl_vol_03_nr_01_p_003.jpg"
     kind: reference
-status: draft
-updated: 2026-08-11
+status: verified
+updated: 2026-08-25
 ---
 
 # デ・ステイル / De Stijl

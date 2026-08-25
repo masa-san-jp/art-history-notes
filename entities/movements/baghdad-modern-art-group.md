@@ -23,9 +23,9 @@ naming:
   original_label: "جماعة بغداد للفن الحديث（ラテン翻字: Jama'at Baghdad lil-Fann al-Hadith）"
   note: "複数の英語圏二次資料（theartwanderer.co.uk、アラビア語版Wikipedia由来の要約）が、当事者自身が結成当初からこのアラビア語名（『バグダードの近代美術のためのグループ』の意）を名乗ったとする。英語の『Baghdad Modern Art Group』『Baghdad Group for Modern Art』はこの原名の直訳表記であり、嶺南画派やザリア・アート・ソサエティのような『自称と現行名の乖離』は今回は確認されていない。ただし宣言文原本・展覧会カタログそのものには到達しておらず、根拠はすべて二次資料である"
 claims:
-  - {field: kind, source: "https://theartwanderer.co.uk/the-baghdad-modern-art-group-birth-of-arabian-modernism/", certainty: scholarly}
-  - {field: originated_in, source: "https://www.wikidata.org/wiki/Q16123956", certainty: scholarly}
-  - {field: time, source: "https://www.wikidata.org/wiki/Q16123956", certainty: scholarly}
+  - {field: time, source: "https://doi.org/10.1163/22118993_03501P010", certainty: scholarly}
+  - {field: originated_in, source: "https://doi.org/10.1163/22118993_03501P010", certainty: scholarly}
+  - {field: kind, source: "https://doi.org/10.1163/22118993_03501P010", certainty: scholarly}
 space:
   - {role: originated_in, target: place/baghdad}
 relations:
@@ -66,8 +66,8 @@ sources:
     kind: reference
   - url: "https://en.wikipedia.org/wiki/Mohammed_Ghani_Hikmat"
     kind: reference
-status: draft
-updated: 2026-08-09
+status: verified
+updated: 2026-08-25
 ---
 
 # バグダード近代美術グループ / Baghdad Modern Art Group

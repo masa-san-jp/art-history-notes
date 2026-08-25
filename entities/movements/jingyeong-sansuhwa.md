@@ -22,9 +22,9 @@ naming:
   original_label: 眞景山水畵
   note: "우리역사넷「진경산수화」は「조영석이 정선의 산수화에 「진경산수」라는 용어를 붙인 것이 아니고、후대에 만들어진 용어이다」（趙栄祏が鄭敾の山水画に「真景山水」という用語を付けたのではなく、後代に作られた用語である）と明記し、鄭敾と同時代の文人画家・趙栄祏（조영석）が命名したという説を名指しで否定する（二次情報）。一方、鄭敾と同時代の姜世晃（강세황）は批評の中で対象の形を似せて表すほどその対象の「眞境（진경）」が明らかになるという言い方をしており（우리역사넷「진경산수화의 확립과 발흥」）、「眞境」という語自体は18世紀当時すでに対象の真の姿を指す批評概念として存在した。ただし、これは絵画の様式・流派名としての自称ではなく、後代（20世紀の美術史学）が「実景に基づく個人的な再構成」という様式的共通性を括る名として定着させたものである可能性が高い。命名者を単独の個人に特定できないため named_by は null とした"
 claims:
-  - {field: kind, source: "https://contents.history.go.kr/mobile/kc/view.do?levelId=kc_r300825&code=kc_age_30", certainty: scholarly}
-  - {field: originated_in, source: "https://www.wikidata.org/wiki/Q489785", certainty: scholarly}
   - {field: time, source: "https://encykorea.aks.ac.kr/Article/E0054575", certainty: scholarly}
+  - {field: originated_in, source: "https://www.kci.go.kr/kciportal/landing/article.kci?arti_id=ART001994596", certainty: scholarly}
+  - {field: kind, source: "https://www.kci.go.kr/kciportal/landing/article.kci?arti_id=ART001994596", certainty: scholarly}
 space:
   - {role: originated_in, target: place/hanseong}
 relations:
@@ -58,8 +58,8 @@ images:
     rights_source: https://www.metmuseum.org/art/collection/search/929078
     license: cc0
     note: "鄭敾《仁王山図（Mt. Inwang / Inwangsan）》18世紀、メトロポリタン美術館蔵。真景山水画を確立したとされる鄭敾自身の手による、実在の山を描いた作品（isPublicDomain: true）"
-status: draft
-updated: 2026-08-09
+status: verified
+updated: 2026-08-25
 ---
 
 # 真景山水画 / Jingyeong sansuhwa

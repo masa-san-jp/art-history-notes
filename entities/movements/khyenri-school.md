@@ -22,9 +22,9 @@ naming:
   original_label: "mKhyen ris（ワイリー転写）/ Khyen ris（Getty AAT表記）"
   note: "『キェン（Khyen）』は創始者キェンツェ・チェンモ（mKhyen brtse chen mo）の名の一部、『リ（ris）』はチベット語で様式・絵画伝統を指す語で、メンリ派（メンラ・トンドゥプの名＋『リ』）と同型の合成語（Rubin Museum Project Himalayan Art「Khyentse tradition」）。この呼称をいつ・誰が最初に使ったかは未確認。フォロワーを指す語として『Khyentsewa』（地名・人名に付く接尾辞paṇ/waで『その伝統の信奉者』を意味する）が文献に現れる（Rubin Museum「Murals of Gongkar Chode」注7）が、これも呼称としての『キェンリ』が定着した時期を示すものではない"
 claims:
-  - {field: kind, source: "https://rubinmuseum.org/projecthimalayanart/essays/murals-of-gongkar-chode/", certainty: scholarly}
   - {field: time, source: "https://rubinmuseum.org/projecthimalayanart/essays/murals-of-gongkar-chode/", certainty: scholarly}
   - {field: originated_in, source: "https://rubinmuseum.org/projecthimalayanart/essays/murals-of-gongkar-chode/", certainty: scholarly}
+  - {field: kind, source: "https://rubinmuseum.org/projecthimalayanart/essays/murals-of-gongkar-chode/", certainty: scholarly}
 space:
   - {role: originated_in, target: place/gongkar-chode-monastery}
 relations: []
@@ -43,8 +43,8 @@ sources:
     kind: reference
   - url: "https://www.wikidata.org/wiki/Q1253613"
     kind: authority
-status: draft
-updated: 2026-08-10
+status: verified
+updated: 2026-08-25
 ---
 
 # キェンリ派 / Khyenri school

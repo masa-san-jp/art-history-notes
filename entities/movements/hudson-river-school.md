@@ -22,9 +22,9 @@ naming:
   original_label: "Hudson River School"
   note: "英語版WikipediaはHowat『American Paradise: The World of the Hudson River School』(Metropolitan Museum of Art, 1987, pp.3-4)を典拠に、命名者をニューヨーク・トリビューン紙の批評家クラレンス・クックか画家ホーマー・ドッジ・マーティンのいずれかとし確定していないとする。named_byをnullにしたのはこの不確定さのため。named_whenの1879年はJackson『The Encyclopedia of New York City』(Yale University Press, 1995, p.172)を典拠に活字での初出年としている。いずれも今回は原典（トリビューン紙記事そのもの）にはアクセスできず、Wikipediaの記述を介した確認"
 claims:
-  - {field: time, source: "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300379047", certainty: scholarly}
-  - {field: originated_in, source: "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300379047", certainty: scholarly}
-  - {field: kind, source: "https://en.wikipedia.org/wiki/Hudson_River_School", certainty: scholarly}
+  - {field: time, source: "https://www.metmuseum.org/de/essays/the-hudson-river-school", certainty: scholarly}
+  - {field: originated_in, source: "https://www.metmuseum.org/de/essays/the-hudson-river-school", certainty: scholarly}
+  - {field: kind, source: "https://www.metmuseum.org/de/essays/the-hudson-river-school", certainty: scholarly}
 space:
   - {role: originated_in, target: place/new-york-city}
 relations:
@@ -51,8 +51,8 @@ images:
     rights_source: https://www.artic.edu/artworks/76571
     license: cc0
     note: "フレデリック・エドウィン・チャーチ《コトパクシ山（View of Cotopaxi）》1857年。シカゴ美術館蔵（is_public_domain: true）"
-status: draft
-updated: 2026-08-09
+status: verified
+updated: 2026-08-25
 ---
 
 # ハドソン・リバー派 / Hudson River School

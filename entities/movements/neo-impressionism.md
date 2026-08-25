@@ -22,9 +22,9 @@ naming:
   original_label: néo-impressionnisme
   note: "批評家フェネオンによる命名を、ブリュッセル『L'Art moderne』1886年9月19日号（6年目38号）掲載記事「L'Impressionnisme aux Tuileries」の実物（ULB Digithèque のデジタル化PDF）で直接確認した——「la méthode néo-impressionniste」の語がある。当事者側の自称としては、参加者 Paul Signac の著書『D'Eugène Delacroix au néo-impressionnisme』(1899) が題名に用いている。つまり命名は外部（批評家）が先、当事者による引き受けは13年後——この2つは別の事実であり、self_identified:true と kind:retrospective は矛盾しない（person/felix-feneon 参照）"
 claims:
-  - {field: time, source: "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300021505", certainty: scholarly}
+  - {field: time, source: "https://digistore.bib.ulb.ac.be/2008/DL2864764_1886_f.pdf", certainty: scholarly}
   - {field: originated_in, source: "https://digistore.bib.ulb.ac.be/2008/DL2864764_1886_f.pdf", certainty: scholarly}
-  - {field: kind, source: "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300021505", certainty: scholarly}
+  - {field: kind, source: "https://digistore.bib.ulb.ac.be/2008/DL2864764_1886_f.pdf", certainty: scholarly}
 evidence:
   - {target: work/a-sunday-on-la-grande-jatte, supports: [kind, time, visual-character]}
 space:

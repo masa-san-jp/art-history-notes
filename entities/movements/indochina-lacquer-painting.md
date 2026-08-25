@@ -57,8 +57,8 @@ sources:
     kind: reference
   - url: "https://saigoneer.com/saigon-music-art/5121-the-incredible-work-of-l-ecole-beaux-art-l-indochine-artists"
     kind: reference
-status: draft
-updated: 2026-08-09
+status: verified
+updated: 2026-08-25
 ---
 
 # インドシナ漆絵画（ソンマイ） / Sơn mài (Vietnamese Lacquer Painting)

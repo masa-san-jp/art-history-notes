@@ -22,8 +22,9 @@ naming:
   original_label: "Kangra painting"
   note: "「カーングラ派」という呼称そのものは、担い手が自ら名乗った記録がなく、後代の分類名である。theprint.inに掲載された書籍抜粋（二次情報、原文はボット対策でアクセスできず内容を直接確認できていない）は、この呼称を1887年の記事でJohn Lockwood Kipling（メイヨー美術学校初代校長）が最初に用いたと伝えるが、一次資料には未到達で確度は低い。呼称の論理自体は、様式が最も栄えた宮廷の地名（カーングラ）を取ったもので、担い手（マナク・ナインスク一族）の出身地はグレールであり出身地と呼称地が一致しない——ベンガル派と同型の「形成地」由来（`overviews/japan-school-types.md`の地名由来類型）にあたる"
 claims:
-  - {field: kind, source: "https://en.wikipedia.org/wiki/Kangra_painting", certainty: scholarly}
-  - {field: time, source: "https://en.wikipedia.org/wiki/Kangra_painting", certainty: scholarly}
+  - {field: time, source: "https://www.metmuseum.org/art/collection/search/37950", certainty: scholarly}
+  - {field: originated_in, source: "https://www.metmuseum.org/art/collection/search/37950", certainty: scholarly}
+  - {field: kind, source: "https://www.metmuseum.org/art/collection/search/37950", certainty: scholarly}
 space:
   - {role: originated_in, target: place/kangra}
 relations:
@@ -72,8 +73,8 @@ images:
     rights_source: https://www.metmuseum.org/art/collection/search/37947
     license: cc0
     note: "マナク《シュカとサラナの羅刹の間者を解き放つラーマ：『ランカー包囲』シリーズ挿画》c.1725年。メトロポリタン美術館蔵（isPublicDomain: true）"
-status: draft
-updated: 2026-08-13
+status: verified
+updated: 2026-08-25
 ---
 
 # カーングラ派 / Kangra painting

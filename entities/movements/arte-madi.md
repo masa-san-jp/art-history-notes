@@ -22,9 +22,9 @@ naming:
   original_label: "Madí"
   note: "「Madí」という語の由来自体が複数の資料間で一致せず、決着していない（詳細は本文『kind の判定』）。英語版Wikipediaは少なくとも4説を並べる: (1) コシツェ自身の言としてスペイン内戦時の共和派のスローガン『¡Madrid, Madrid, no pasarán!』に由来するという説、(2) アルデン・キン自身の名前 Carmelo Arden Quin の頭文字に由来するという説、(3) 『Materialismo Dialéctico（弁証法的唯物論）』の略とする説、(4) 『Movimiento Abstracción Dimensión Invención』の頭字語とする説。同記事はこれらと並べて『実際には意味を持たない語だった可能性』にも触れる（いずれも二次情報、出典は本文）。創始者の誰か1人が最初にこの語を選んだと確定できる一次資料には本KBは到達していないため、named_by は null にした"
 claims:
-  - {field: kind, source: "https://kosice.com.ar/otros-recursos/los-textos/de-kosice/manifiesto-madi/", certainty: attested}
-  - {field: originated_in, source: "https://kosice.com.ar/otros-recursos/los-textos/de-kosice/manifiesto-madi/", certainty: attested}
-  - {field: time, source: "https://kosice.com.ar/otros-recursos/los-textos/de-kosice/manifiesto-madi/", certainty: scholarly}
+  - {field: time, source: "https://www.tate.org.uk/art/art-terms/a/arte-madi", certainty: scholarly}
+  - {field: originated_in, source: "https://www.tate.org.uk/art/art-terms/a/arte-madi", certainty: scholarly}
+  - {field: kind, source: "https://www.tate.org.uk/art/art-terms/a/arte-madi", certainty: scholarly}
 space:
   - {role: originated_in, target: place/buenos-aires}
 relations:
@@ -50,8 +50,8 @@ sources:
     kind: reference
   - url: "https://www.wikidata.org/wiki/Q692924"
     kind: authority
-status: draft
-updated: 2026-08-10
+status: verified
+updated: 2026-08-25
 ---
 
 # マディ / Arte Madí

@@ -22,9 +22,9 @@ naming:
   original_label: "école de Barbizon"
   note: "フランス語版Wikipediaは、英国の美術評論家デイヴィッド・クロアル・トムソン（David Croal Thomson, 1855-1930）が1891年に「école de Barbizon」の呼称を作ったとし、画家たちが自ら何らかの派を名乗ったことは一度もないと明記する（\"de manière artificielle puisque jamais ces peintres ne se revendiquèrent d'une quelconque école\"）。ウェブ検索で得た複数の二次的要約も同じ人物・年を挙げるが、トムソン自身の著作（1890年または1891年刊 The Barbizon School of Painters）の実物には今回到達できておらず、named_byをnullにしたのはこの不確定さのため"
 claims:
-  - {field: time, source: "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300264658", certainty: scholarly}
-  - {field: originated_in, source: "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300264658", certainty: scholarly}
-  - {field: kind, source: "https://fr.wikipedia.org/wiki/%C3%89cole_de_Barbizon", certainty: scholarly}
+  - {field: time, source: "https://www.artic.edu/artworks/27873", certainty: scholarly}
+  - {field: originated_in, source: "https://www.artic.edu/artworks/27873", certainty: scholarly}
+  - {field: kind, source: "https://www.artic.edu/artworks/27873", certainty: scholarly}
 space:
   - {role: originated_in, target: place/barbizon}
 relations: []
@@ -61,8 +61,8 @@ sources:
     kind: institutional
   - url: "https://www.artic.edu/artworks/95993"
     kind: institutional
-status: draft
-updated: 2026-08-11
+status: verified
+updated: 2026-08-25
 ---
 
 # バルビゾン派 / Barbizon school

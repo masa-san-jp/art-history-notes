@@ -22,8 +22,9 @@ naming:
   original_label: "sMan-ris（ワイリー転写）/ Menri"
   note: "「メンリ」は創始者メンラ・トンドゥプ（Menla Döndrup）の名の一部「メン（Men）」と、様式・伝統を意味する「リ（ris）」の合成とされる（Himalayan Art Resources: \"Men-ri style is called after its founding painter\"）。ただしこの呼称をいつ・誰が最初に使ったかは未確認——メンラ・トンドゥプ自身が名乗った record ではなく、後継者・後代の記述の中で定着したと見られる。琳派（尾形光琳の一字＋「派」）と同型の命名構造だが、琳派は宗達と光琳の間に約100年の私淑の隔たりがあるのに対し、メンリ派は創始者の直弟子（トレンカパ・ロドロ・サンポ）が既にその名で継承したとされる点が異なる（詳細は「kind の判定」）"
 claims:
-  - {field: kind, source: "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300018855", certainty: scholarly}
-  - {field: time, source: "https://www.himalayanart.org/search/set.cfm?setID=4163", certainty: scholarly}
+  - {field: time, source: "https://rubinmuseum.org/projecthimalayanart/glossary/menla-tradition/", certainty: scholarly}
+  - {field: originated_in, source: "https://rubinmuseum.org/projecthimalayanart/glossary/menla-tradition/", certainty: scholarly}
+  - {field: kind, source: "https://rubinmuseum.org/projecthimalayanart/glossary/menla-tradition/", certainty: scholarly}
 space:
   - {role: originated_in, target: place/gyantse}
   - {role: active_in, target: place/shigatse}
@@ -47,8 +48,8 @@ sources:
     kind: institutional
   - url: "https://rubinmuseum.org/exhibitions/the-place-of-provenance/"
     kind: institutional
-status: draft
-updated: 2026-08-12
+status: verified
+updated: 2026-08-25
 ---
 
 # メンリ派 / Menri school

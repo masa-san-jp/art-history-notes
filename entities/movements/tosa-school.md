@@ -22,7 +22,9 @@ naming:
   original_label: 土佐派
   note: 家名（土佐氏）がそのまま呼称になっており、狩野派と同様に命名という行為が存在しない型
 claims:
-  - {field: kind, source: "https://www.wikidata.org/wiki/Q2915215", certainty: scholarly}
+  - {field: time, source: "https://www.fujibi.or.jp/collection/artwork-artist/a130/", certainty: scholarly}
+  - {field: originated_in, source: "https://www.fujibi.or.jp/collection/artwork-artist/a130/", certainty: scholarly}
+  - {field: kind, source: "https://www.fujibi.or.jp/collection/artwork-artist/a130/", certainty: scholarly}
 space:
   - {role: originated_in, target: place/kyoto}
 relations:
@@ -53,8 +55,8 @@ images:
     rights_source: https://www.metmuseum.org/art/collection/search/45258
     license: cc0
     note: "土佐光信《四季竹図》（Bamboo in the Four Seasons）、15世紀末〜16世紀初頭。メトロポリタン美術館蔵（isPublicDomain: true）"
-status: draft
-updated: 2026-08-13
+status: verified
+updated: 2026-08-25
 ---
 
 # 土佐派 / Tosa school

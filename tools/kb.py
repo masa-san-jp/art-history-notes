@@ -76,7 +76,9 @@ SPACE_TARGET_TYPES = {
 }
 
 # verified を名乗るとき、項目ごとの根拠が要る field（claims ブロック）
-CLAIM_FIELDS_FOR_VERIFIED = {"movement": {"time", "originated_in", "kind"}}
+# movementの起源は `originated_in` と `origin_unknown` の排他的な代替を許すため、
+# 共通必須集合には入れず build_graph の意味検証で扱う。
+CLAIM_FIELDS_FOR_VERIFIED = {"movement": {"time", "kind"}}
 
 URI_PREFIX = "urn:ahn:"
 

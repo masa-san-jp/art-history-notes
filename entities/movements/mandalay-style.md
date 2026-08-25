@@ -22,9 +22,9 @@ naming:
   original_label: "Mandalay style"
   note: "「マンダレー」は仏教美術の担い手・当事者が名乗った名ではなく、王都の地名をそのまま借用した後代の美術史・古美術市場の分類名。この様式を指すビルマ語の独自の学術用語（例えばラッタナコーシン様式壁画における「ศิลปะสมัยรัตนโกสินทร์」に相当するもの）は今回の調査では確認できず、**未確認**とした。命名者・命名時期も未確認"
 claims:
-  - {field: time, source: "https://www.getty.edu/vow/AATFullDisplay?find=Mandalay&logic=AND&note=&subjectid=300107052", certainty: scholarly}
-  - {field: originated_in, source: "https://en.wikipedia.org/wiki/Mandalay", certainty: scholarly}
-  - {field: kind, source: "https://www.getty.edu/vow/AATFullDisplay?find=Mandalay&logic=AND&note=&subjectid=300107052", certainty: scholarly}
+  - {field: time, source: "https://www.metmuseum.org/art/collection/search/856163", certainty: scholarly}
+  - {field: originated_in, source: "https://www.metmuseum.org/art/collection/search/856163", certainty: scholarly}
+  - {field: kind, source: "https://www.metmuseum.org/art/collection/search/856163", certainty: scholarly}
 founding_control: internal   # マンダレーの建都・王宮造営・仏像/仏教美術の発注は一貫してコンバウン朝の王（ミンドン、ティーボー）自身が担った。外部の政府・宣教師・植民地行政が制度の設立や運営を担ったという証拠は今回の調査では見つからなかった
 evidence:
   - {target: work/scenes-life-buddha-parabaik-1880s, supports: [kind, visual-character]}
@@ -75,7 +75,7 @@ images:
     rights_source: https://www.metmuseum.org/art/collection/search/744940
     license: cc0
     note: "《王室の行列・儀礼・娯楽の場面》（Royal processions, ceremonies and entertainments）、ミンドン王またはティーボー王の宮廷（あるいは関連工房）制作、ビルマ、1870〜80年代。桑皮紙に水彩・金、金塗り漆塗り木製表紙。メトロポリタン美術館蔵（isPublicDomain: true）"
-status: draft
+status: verified
 updated: 2026-08-25
 ---
 

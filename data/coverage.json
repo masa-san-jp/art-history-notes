@@ -3,9 +3,9 @@
   "movement_total": 119,
   "movement_stub_excluded": 0,
   "by_status": {
-    "draft": 117,
+    "draft": 0,
     "stub": 0,
-    "verified": 2
+    "verified": 119
   },
   "grid": {
     "americas-north": {
@@ -140,5 +140,28 @@
     "per_bucket_min": "13/13 バケットが 3件以上",
     "pre_1800_ratio": "0.48/0.3",
     "isolated_ratio": "0.00（上限 0.1）"
+  },
+  "verified_movement": {
+    "schema_version": 1,
+    "source_commit": "1c0c1734e97f3c56c58a90ba93bc02638a62b947",
+    "movement_total": 119,
+    "verified": 119,
+    "incomplete": [],
+    "enforce_complete": true,
+    "by_region": {
+      "africa-sub": 9,
+      "americas-latin": 7,
+      "americas-north": 5,
+      "asia-central": 5,
+      "asia-east-china": 9,
+      "asia-east-japan": 13,
+      "asia-east-korea": 5,
+      "asia-south": 11,
+      "asia-southeast": 8,
+      "europe-east": 5,
+      "europe-west": 26,
+      "mena": 9,
+      "oceania": 6
+    }
   }
 }

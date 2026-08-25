@@ -23,9 +23,9 @@ naming:
   original_label: "Art et Liberté（アラビア語: جماعة الفن والحرية、ラテン翻字: Jama'at al-Fann wa'l-Hurriya）"
   note: "1938年12月22日の宣言文『頽廃芸術万歳』の時点ではまだ『アール・エ・リベルテ』という団体名は確立しておらず（署名は個人名の列挙のみ）、1939年1月19日の正式結成に際してこの名（フランス語）とアラビア語名が採用されたと複数の学術寄りの記述（Tate Etc、英語版Wikipedia）が一致して記す。フランス語とアラビア語の両方で名乗った点は、宣言文自体が仏語・アラビア語の両方で印刷・配布されたことと対応する"
 claims:
-  - {field: kind, source: "https://libcom.org/article/vive-lart-degenere", certainty: attested}
-  - {field: originated_in, source: "https://www.wikidata.org/wiki/Q65080389", certainty: scholarly}
   - {field: time, source: "https://www.tate.org.uk/tate-etc/issue-41-autumn-2017/surrealism-egypt-long-live-degenerate-art-clare-davies", certainty: scholarly}
+  - {field: originated_in, source: "https://www.tate.org.uk/tate-etc/issue-41-autumn-2017/surrealism-egypt-long-live-degenerate-art-clare-davies", certainty: scholarly}
+  - {field: kind, source: "https://www.tate.org.uk/tate-etc/issue-41-autumn-2017/surrealism-egypt-long-live-degenerate-art-clare-davies", certainty: scholarly}
 space:
   - {role: originated_in, target: place/cairo}
 relations:
@@ -63,8 +63,8 @@ sources:
     kind: reference
   - url: "https://en.wikipedia.org/wiki/Ramses_Younan"
     kind: reference
-status: draft
-updated: 2026-08-10
+status: verified
+updated: 2026-08-25
 ---
 
 # アール・エ・リベルテ / Art et Liberté

@@ -22,9 +22,9 @@ naming:
   original_label: "Divisionismo italiano"
   note: "複数の画家が色彩分割の原理を採用したイタリアの実践を、後代の美術史が一つの運動名で括っている。当事者が単一の組織名として宣言した運動ではない"
 claims:
-  - {field: time, source: "https://www.treccani.it/enciclopedia/divisionismo/", certainty: scholarly}
-  - {field: originated_in, source: "https://www.treccani.it/enciclopedia/giovanni-segantini_%28Enciclopedia-dei-ragazzi%29/", certainty: scholarly}
-  - {field: kind, source: "https://www.treccani.it/enciclopedia/divisionismo/", certainty: scholarly}
+  - {field: time, source: "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf", certainty: scholarly}
+  - {field: originated_in, source: "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf", certainty: scholarly}
+  - {field: kind, source: "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf", certainty: scholarly}
 space:
   - {role: originated_in, target: place/milan}
 relations:
@@ -55,8 +55,8 @@ sources:
     kind: reference
   - url: "https://exhibitions.univie.ac.at/exhibition/125"
     kind: reference
-status: draft
-updated: 2026-08-13
+status: verified
+updated: 2026-08-25
 ---
 
 # イタリア分割主義 / Italian Divisionism

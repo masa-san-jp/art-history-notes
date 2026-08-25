@@ -22,8 +22,9 @@ naming:
   original_label: "Mughal painting"
   note: "「ムガル」はムガル王朝自身の呼称を借用した、近代の美術史記述による分類名。画家自身がこの制作を「ムガル」の名で呼んだ記録は確認できていない。命名者・命名年は未確認"
 claims:
-  - {field: kind, source: "https://www.getty.edu/vow/AATFullDisplay?find=Mughal&logic=AND&note=&subjectid=300018939", certainty: scholarly}
-  - {field: time, source: "https://en.wikipedia.org/wiki/Mughal_painting", certainty: scholarly}
+  - {field: time, source: "https://82nd-and-fifth.metmuseum.org/toah/ht/08/ssa.html", certainty: scholarly}
+  - {field: originated_in, source: "https://82nd-and-fifth.metmuseum.org/toah/ht/08/ssa.html", certainty: scholarly}
+  - {field: kind, source: "https://82nd-and-fifth.metmuseum.org/toah/ht/08/ssa.html", certainty: scholarly}
 space:
   - {role: originated_in, target: place/agra}
 relations:
@@ -64,8 +65,8 @@ images:
     rights_source: https://www.metmuseum.org/art/collection/search/454623
     license: cc0
     note: "アブル・ハサン筆《斑ヒタキ（Spotted Forktail）》シャー・ジャハーン・アルバムより、c.1610-15年、メトロポリタン美術館蔵（isPublicDomain: true）"
-status: draft
-updated: 2026-08-13
+status: verified
+updated: 2026-08-25
 ---
 
 # ムガル絵画 / Mughal painting

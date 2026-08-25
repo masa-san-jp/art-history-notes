@@ -22,9 +22,9 @@ naming:
   original_label: "Futurismo"
   note: "自称の核は一次資料で直接確認できる。『ル・フィガロ』1909年2月20日号（パリ）に掲載された仏語版の末尾で、マリネッティ自身が『C'est en Italie que nous lançons ce manifeste de violence culbutante et incendiaire, par lequel nous fondons aujourd'hui le Futurisme（われわれがこの暴力的で放火的な宣言をイタリアで発するのは、これによって今日フチュリズモを創設するからだ）』と、自らその名で運動の創設を宣言する。同テキストを再録した4頁のフランス語小冊子（ミラノ、未来派運動事務局〈Direzione del Movimento Futurista〉刊、1909年2月20日付、伊マルト現代美術文書館〈Mart, Archivio del 900〉所蔵）の末尾には『F. T. Marinetti』の署名と『DIRECTION DU MOUVEMENT FUTURISTE: Corso Venezia, 61 - MILAN』という事務局住所が付されている。命名者は無く（named_by は null）、名乗ったのはマリネッティ本人。二次情報によれば、これに先立ちイタリア語版が1909年1月頃ミラノで詩集の序文として、同年2月5日にボローニャの新聞『ガゼッタ・デッレミリア』紙上でそれぞれ発表されたとされるが、本KBが一次資料で直接確認できたのは2月20日のフランス語版のみ"
 claims:
-  - {field: kind, source: "https://archive.org/details/f.t.-marinetti-manifeste-du-futurism-1909", certainty: attested}
-  - {field: time, source: "https://en.wikipedia.org/wiki/Manifesto_of_Futurism", certainty: scholarly}
+  - {field: time, source: "https://archive.org/details/f.t.-marinetti-manifeste-du-futurism-1909", certainty: attested}
   - {field: originated_in, source: "https://archive.org/details/f.t.-marinetti-manifeste-du-futurism-1909", certainty: attested}
+  - {field: kind, source: "https://archive.org/details/f.t.-marinetti-manifeste-du-futurism-1909", certainty: attested}
 space:
   - {role: originated_in, target: place/milan}
 relations:
@@ -80,8 +80,8 @@ sources:
     kind: reference
   - url: "https://www.nationalgallery.org.uk/about-us/press-and-media/press-releases-archive/radical-light-italy-s-divisionist-painters-1891-1910"
     kind: institutional
-status: draft
-updated: 2026-08-13
+status: verified
+updated: 2026-08-25
 ---
 
 # 未来派

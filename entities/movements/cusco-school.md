@@ -22,8 +22,9 @@ naming:
   original_label: "Escuela cuzqueña"
   note: "ペルーの大学（ウニベルシダー・デル・パシフィコ）の学術用語集は、この呼称を『単一の識別可能な様式を指すのではなく、副王領ペルーの歴史を通じて様々な様式で活動した複数の民族的出自の画家たち』を指す後代の美術史上の分類名だと明記し、当事者の自称ではないとする（二次情報）。呼称そのものの初出者・初出年は特定できていないが、少なくとも1964年刊行のFelipe Cossío del Pomar『Peruvian colonial art: The Cuzco school of painting』の時点で英語での定着した呼び名として使われている（書誌情報のみ確認、内容未読）。なお『1688年のギルド分裂がこの名で呼ばれる様式の誕生を説明する』という因果関係の物語（後述）が学術的な定説として繰り返し引用されるようになった最初の確認可能な事例は、美術史家テレサ・ヒスベルトが1981年にチリの新聞El Mercurioの文化面に寄稿した記事だとする査読論文があり（Fernando A. Valenzuela, \"La debilidad institucional del gremio de pintores de Cusco en el período colonial: un estudio historiográfico,\" Colonial Latin American Historical Review, Fall 2013, pp.381-402）、これは呼称そのものの初出とは別の出来事である"
 claims:
-  - {field: originated_in, source: "https://www.wikidata.org/wiki/Q3108623", certainty: scholarly}
-  - {field: kind, source: "https://en.wikipedia.org/wiki/Cusco_school", certainty: scholarly}
+  - {field: time, source: "https://ojs.tnkul.pl/index.php/rh/article/view/7120", certainty: scholarly}
+  - {field: originated_in, source: "https://ojs.tnkul.pl/index.php/rh/article/view/7120", certainty: scholarly}
+  - {field: kind, source: "https://ojs.tnkul.pl/index.php/rh/article/view/7120", certainty: scholarly}
 space:
   - {role: originated_in, target: place/cusco}
 relations:
@@ -62,8 +63,8 @@ images:
     rights_source: https://www.metmuseum.org/art/collection/search/764095
     license: public-domain
     note: "《十字架を担うキリスト（転倒の主）》（Christ Carrying the Cross, called \"The Lord of the Fall\"）、作者不明、クスコ、1770年頃〜75年頃、メトロポリタン美術館蔵"
-status: draft
-updated: 2026-08-10
+status: verified
+updated: 2026-08-25
 ---
 
 # クスコ派 / Cusco School

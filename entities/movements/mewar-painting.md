@@ -22,9 +22,9 @@ naming:
   original_label: "Mewar painting"
   note: "担い手が自らこの名で名乗った記録は確認できていない。上位区分にあたる『ラージプト絵画（Rajput painting）』という呼称自体は、アナンダ・クーマラスワーミー（Ananda Coomaraswamy）が著書『Rajput Painting, Being an Account of the Hindu Paintings of Rajasthan and the Panjab Himalayas』（1916年）で導入したとWikipediaが伝える（同項目はGoswamyを出典として引く、二次情報）が、これは総称の命名であり、『メーワール派』という個別の呼称そのものの初出・命名者は未確認。Getty AATは『Udaipur』を同義語（UF）として持ち、地名（メーワールの主要な宮廷所在地）に由来する分類名であることを示す"
 claims:
-  - {field: kind, source: "https://www.getty.edu/vow/AATFullDisplay?find=300019040&logic=AND&note=&subjectid=300019040", certainty: scholarly}
-  - {field: time, source: "https://en.wikipedia.org/wiki/Rajput_painting", certainty: scholarly}
-  - {field: originated_in, source: "https://www.getty.edu/vow/AATFullDisplay?find=300019040&logic=AND&note=&subjectid=300019040", certainty: scholarly}
+  - {field: time, source: "https://resources.metmuseum.org/resources/metpublications/pdf/Wonder_of_the_Age_Master_Painters_of_India_1100_1900.pdf", certainty: scholarly}
+  - {field: originated_in, source: "https://resources.metmuseum.org/resources/metpublications/pdf/Wonder_of_the_Age_Master_Painters_of_India_1100_1900.pdf", certainty: scholarly}
+  - {field: kind, source: "https://resources.metmuseum.org/resources/metpublications/pdf/Wonder_of_the_Age_Master_Painters_of_India_1100_1900.pdf", certainty: scholarly}
 space:
   - {role: originated_in, target: place/udaipur}
 relations:
@@ -73,8 +73,8 @@ images:
     rights_source: https://clevelandart.org/art/2003.343
     license: cc0
     note: "《クリシュナとゴーピー》c.1660年。クリーブランド美術館蔵（share_license_status: CC0）。ジャガト・シング1世没後の時代のクリシュナ信仰主題の作例"
-status: draft
-updated: 2026-08-13
+status: verified
+updated: 2026-08-25
 ---
 
 # メーワール派 / Mewar painting

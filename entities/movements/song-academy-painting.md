@@ -22,9 +22,9 @@ naming:
   original_label: 院体画
   note: "「院体画（院画）」は、翰林図画院に属した宮廷画家たちの作品を指す分析的な呼称。中国語版Wikipediaは『出自院画作家的作品反映了最高統治者的審美標準、謂之院体画』（画院画家の作品が最高統治者の美的基準を反映したものを院体画という）と定義する（二次情報）。画院の画家たち自身が『院体画』という語で自派を名乗った一次記述は見当たらない——語自体は分析・分類のための呼称であり、当事者の自称ではない。**未確認**: 「院体」という語を最初に用いた人物・文献・年代"
 claims:
-  - {field: kind, source: "https://zh.wikipedia.org/wiki/%E9%99%A2%E4%BD%93%E7%94%BB", certainty: scholarly}
-  - {field: originated_in, source: "https://zh.wikipedia.org/wiki/%E9%99%A2%E4%BD%93%E7%94%BB", certainty: scholarly}
-  - {field: time, source: "https://www.wikidata.org/wiki/Q1147043", certainty: scholarly}
+  - {field: time, source: "https://www.metmuseum.org/art/collection/search/36005", certainty: scholarly}
+  - {field: originated_in, source: "https://www.metmuseum.org/art/collection/search/36005", certainty: scholarly}
+  - {field: kind, source: "https://www.metmuseum.org/art/collection/search/36005", certainty: scholarly}
 space:
   - {role: originated_in, target: place/kaifeng}
   - {role: active_in, target: place/hangzhou}
@@ -60,8 +60,8 @@ images:
     rights_source: https://www.metmuseum.org/art/collection/search/40086
     license: public-domain
     note: "馬遠《滝を見る学者（Scholar Viewing a Waterfall）》13世紀初頭、南宋。メトロポリタン美術館蔵（isPublicDomain: true）"
-status: draft
-updated: 2026-08-10
+status: verified
+updated: 2026-08-25
 ---
 
 # 院体画 / Song Academy Painting

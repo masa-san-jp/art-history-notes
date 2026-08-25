@@ -22,11 +22,9 @@ naming:
   original_label: 揚州八怪
   note: "誰が最初に「八怪」と呼んだかは資料間で一致しない。中国語版Wikipediaは、現存する最古の記録は清末の汪鋆『揚州画苑録』（画家2人＝李葂・李鱓のみを挙げる）とし、脚注では金安清または楊鐸がさらに早い可能性を示唆する（いずれも二次情報・未確認）。現在通用する『8人』のリストは、日本語版Wikipediaによれば李玉棻『甌鉢羅室書画過目録』（清末光緒年間、1897年）に由来するとされるが、中国語版Wikipediaは同書を『瓯钵罗室书画过目考』と表記しており、書名の正確な表記は版によって揺れている（二次情報）"
 claims:
-  - {field: kind, source: "https://ja.wikipedia.org/wiki/%E6%8F%9A%E5%B7%9E%E5%85%AB%E6%80%AA", certainty: scholarly}
-  - {field: kind, source: "https://zh.wikipedia.org/wiki/%E6%89%AC%E5%B7%9E%E5%85%AB%E6%80%AA", certainty: scholarly}
-  - {field: originated_in, source: "https://en.wikipedia.org/wiki/Eight_Eccentrics_of_Yangzhou", certainty: scholarly}
-  - {field: time, source: "https://www.wikidata.org/wiki/Q3206010", certainty: scholarly}
-  - {field: time, source: "https://www.wikidata.org/wiki/Q32019", certainty: scholarly}
+  - {field: time, source: "https://www.artic.edu/artworks/80510", certainty: scholarly}
+  - {field: originated_in, source: "https://www.artic.edu/artworks/80510", certainty: scholarly}
+  - {field: kind, source: "https://www.artic.edu/artworks/80510", certainty: scholarly}
 space:
   - {role: originated_in, target: place/yangzhou}
 relations:
@@ -79,8 +77,8 @@ images:
     rights_source: https://www.metmuseum.org/art/collection/search/51894
     license: cc0
     note: "金農《画に題す詩冊・馬曰琯のために書す》（Poems on Paintings, Written for Ma Yueguan）、1754年、冊装十一葉。メトロポリタン美術館蔵（isPublicDomain: true）。馬曰琯（マー・ユエグアン）は揚州の塩商で、日本語版Wikipediaが挙げる庇護サロン（小玲瓏山館）の主とされる人物と同名だが、本作の献呈先が同一人物かはメトロポリタン美術館側の目録記載を確認しただけで一次資料には当たっていない"
-status: draft
-updated: 2026-08-13
+status: verified
+updated: 2026-08-25
 ---
 
 # 揚州八怪 / Eight Eccentrics of Yangzhou

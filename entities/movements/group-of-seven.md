@@ -22,9 +22,9 @@ naming:
   original_label: "the group of seven artists"
   note: "1920年5月7日〜27日、アート・ミュージアム・オブ・トロント（現アート・ギャラリー・オブ・オンタリオ）で開催された最初の展覧会のカタログ本文（本KBがInternet Archiveの原資料デジタル化版で直接確認、下記sources）の序文（Foreword）は、'THE group of seven artists whose pictures are here exhibited have for several years held a like vision concerning Art in Canada.'（ここに作品が展示されている7人の画家たちのグループは、数年来カナダの芸術について同じようなビジョンを共有してきた）と書き出す。ここでの表記は小文字の記述句'group of seven artists'であり、固有名としての大文字表記'Group of Seven'がこの版に印刷されていたかは確認できない——カタログの表題部分（本KBが確認できた範囲）は単に'CATALOGUE EXHIBITION OF PAINTINGS, MAY 7th-MAY 27th, 1920 ... ART MUSEUM OF TORONTO'であり、'Group of Seven'という語は登場しない。それでも、この序文は7人の画家たち自身が書き署名した文書であり、自分たちを『7人の画家からなるグループ』として集合的に名指した一次資料としては成立する。英語版Wikipediaは（二次情報として）彼らが1919年の時点で既に自分たちを'Group of Seven'と呼び始めていたとするが、その根拠となる1919年の一次資料そのものには本KBは到達できていない（**未確認**）。命名者は特定の一人ではなく、7人自身による集合的な自己記述であるため named_by は null とした"
 claims:
-  - {field: kind, source: "https://ia903103.us.archive.org/28/items/groupof7catalogu00grou/groupof7catalogu00grou_djvu.txt", certainty: attested}
   - {field: time, source: "https://archive.org/details/groupof7catalogu00grou", certainty: scholarly}
   - {field: originated_in, source: "https://archive.org/details/groupof7catalogu00grou", certainty: scholarly}
+  - {field: kind, source: "https://ia903103.us.archive.org/28/items/groupof7catalogu00grou/groupof7catalogu00grou_djvu.txt", certainty: attested}
 founding_control: internal
 space:
   - {role: originated_in, target: place/toronto}
@@ -70,8 +70,8 @@ sources:
     kind: reference
   - url: "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1335089/"
     kind: reference
-status: draft
-updated: 2026-08-09
+status: verified
+updated: 2026-08-25
 ---
 
 # グループ・オブ・セブン / Group of Seven

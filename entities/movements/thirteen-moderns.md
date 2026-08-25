@@ -23,9 +23,9 @@ naming:
   original_label: null
   note: "『十三人』という具体的な13名の名簿とその呼称そのものについて、当事者がこの名で自ら名乗ったという記録は見つかっていない。フィリピン大学准教授アリス・G・ギリェルモの論考（国際交流基金の日本語訳、2018年）は『まもなくこの3名に、[10名の名前]が加わって、彼らは「13名の現代人（ザ・サーティーン・モダンズ）」となった』と、歴史叙述としての三人称の地の文でこの語を導入しており、当事者の発言としては引用していない（[jpf.go.jp](https://www.jpf.go.jp/j/publish/asia_exhibition_history/pdf/17_95_modernism_5.pdf) p.70-71、二次情報）。英語版Wikipediaや複数のオンライン解説も同様に三人称の記述でこの語を用いる。この呼称が定着した最初の出版物として確認できる最有力候補は、美術史家ロド・パラス＝ペレスによる文化センター（Cultural Center of the Philippines）の1995年の資料集『Edades and the 13 Moderns』（[worldcat.org](https://search.worldcat.org/title/edades-and-the-13-moderns/oclc/37442639)）だが、これが初出か、それ以前（例えばプリタ・カラウ＝レデスマの1974年の著書『The Struggle for Philippine Art』）から使われていた呼称を追認・定着させたものかは未確認。エダデス自身が発表した文章（『The Case of the Leftist in Art』1935年、Atelier of Modern Artのパンフレット1938年）は自らを『モダン』『Atelier』と呼ぶが、『十三人』という数と名簿を伴う自称ではない。他方、当時の論争そのものは『モダニスト（Moderns）』対『保守派（Conservatives）』という対立の当事者としての自己認識を伴っていたことが複数の資料から窺える——ただしそれは13名という確定した名簿を持つ自称ではなく、より緩い陣営としての呼び方だった"
 claims:
-  - {field: kind, source: "https://www.jpf.go.jp/j/publish/asia_exhibition_history/pdf/17_95_modernism_5.pdf", certainty: scholarly}
-  - {field: originated_in, source: "https://cdn.aaa.org.hk/_source/digital_collection/fedora_extracted/45808.pdf", certainty: scholarly}
   - {field: time, source: "https://www.jpf.go.jp/j/publish/asia_exhibition_history/pdf/17_95_modernism_5.pdf", certainty: scholarly}
+  - {field: originated_in, source: "https://cdn.aaa.org.hk/_source/digital_collection/fedora_extracted/45808.pdf", certainty: scholarly}
+  - {field: kind, source: "https://www.jpf.go.jp/j/publish/asia_exhibition_history/pdf/17_95_modernism_5.pdf", certainty: scholarly}
 space:
   - {role: originated_in, target: place/manila}
 relations:
@@ -49,8 +49,8 @@ sources:
     kind: reference
   - url: "https://www.tatlerasia.com/lifestyle/arts/purita-kalaw-ledesma-the-woman-who-changed-the-history-of-philippine-art"
     kind: reference
-status: draft
-updated: 2026-08-09
+status: verified
+updated: 2026-08-25
 ---
 
 # ザ・サーティーン・モダンズ / Thirteen Moderns

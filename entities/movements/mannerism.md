@@ -22,9 +22,9 @@ naming:
   original_label: maniera
   note: "語源はイタリア語の maniera（様式・手つき）。ジョルジョ・ヴァザーリは『美術家列伝』（1568年）でこの語を、技法・集団の様式・作品の質という複数の意味で用い、自らの時代を「la maniera moderna（現代の様式）」と呼んだ——**ヴァザーリ自身がこの様式の担い手でもある**が、彼が呼んだのは「現代の様式」であって、後代の「マニエリスム」という括りの名ではない。括りとしての Mannerism は20世紀初頭にドイツ語圏の美術史家によって広められ、1965年にマンチェスター市立美術館でフリッツ・グロスマンが組んだ展覧会を承けて1967年にジョン・シアマンが定義し直したとされる（[英語版Wikipedia](https://en.wikipedia.org/wiki/Mannerism)、二次情報）。当事者の自称ではなく、400年近く後の学術的な括りであるため `retrospective` とし、`named_when` は特定の1年に絞れないため null にした。**未確認**: 20世紀初頭にこの語を最初に様式名として用いた美術史家の特定（ドイツ語圏、とされるが個人名に到達していない）"
 claims:
-  - {field: kind, source: "https://en.wikipedia.org/wiki/Mannerism", certainty: scholarly}
-  - {field: time, source: "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300021144", certainty: scholarly}
-  - {field: originated_in, source: "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300021144", certainty: scholarly}
+  - {field: time, source: "https://www.artic.edu/artworks/110759", certainty: scholarly}
+  - {field: originated_in, source: "https://www.artic.edu/artworks/110759", certainty: scholarly}
+  - {field: kind, source: "https://www.artic.edu/artworks/110759", certainty: scholarly}
 images:
   - url: https://www.artic.edu/iiif/2/2b751a0e-a492-7fa9-749c-6667cdd1c928/full/843,/0/default.jpg
     source_page: https://www.artic.edu/artworks/110759
@@ -52,8 +52,8 @@ sources:
     kind: institutional
   - url: "https://www.artic.edu/artworks/52668"
     kind: institutional
-status: draft
-updated: 2026-08-10
+status: verified
+updated: 2026-08-25
 ---
 
 # マニエリスム / Mannerism

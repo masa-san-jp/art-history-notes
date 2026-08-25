@@ -22,9 +22,9 @@ naming:
   original_label: "neoconcreto"
   note: "「neoconcreto」という語自体は宣言文の本文中で参加者が繰り返し使っており（『arte neoconcreta』『poesia neoconcreta』等）、当事者自身が発表と同時に自分たちの実践を名指すために作った語であることは一次資料に近いアーカイブ記録（リジア・クラーク文化協会所蔵の実物スキャン＋全文翻刻）で直接確認できる。誰が最初にこの語を選んだかは特定できず、複数の資料が宣言文の執筆者をフェレイラ・グラールとするが、これは執筆者の特定であって造語者の特定ではないため named_by は null にした。加えて、宣言文自身は『この展覧会の参加者は“グループ”を構成しない』と明言しており、名乗ったのは技法・態度を指す形容語（neoconcreto）であって、結社としての固有名ではない点に注意（詳細は本文『kind の判定』）"
 claims:
-  - {field: kind, source: "https://portal.lygiaclark.org.br/acervo/67348/manifesto-neoconcreto", certainty: attested}
-  - {field: originated_in, source: "https://portal.lygiaclark.org.br/acervo/67348/manifesto-neoconcreto", certainty: attested}
   - {field: time, source: "https://portal.lygiaclark.org.br/acervo/1747/1-exposicao-neoconcreta", certainty: scholarly}
+  - {field: originated_in, source: "https://portal.lygiaclark.org.br/acervo/67348/manifesto-neoconcreto", certainty: attested}
+  - {field: kind, source: "https://portal.lygiaclark.org.br/acervo/67348/manifesto-neoconcreto", certainty: attested}
 space:
   - {role: originated_in, target: place/rio-de-janeiro}
 relations:
@@ -34,9 +34,11 @@ relations:
   - {type: responds_to, target: movement/suprematism, certainty: attested, source: "https://portal.lygiaclark.org.br/acervo/67348/manifesto-neoconcreto"}
 sources:
   - url: "https://portal.lygiaclark.org.br/acervo/67348/manifesto-neoconcreto"
-    kind: reference
+    kind: primary
+    note: "同時代のネオコン具体派マニフェスト原文を収録する作家アーカイブ"
   - url: "https://portal.lygiaclark.org.br/acervo/1747/1-exposicao-neoconcreta"
-    kind: reference
+    kind: primary
+    note: "同時代展覧会の記録を収録する作家アーカイブ"
   - url: "https://www.wikidata.org/wiki/Q10336205"
     kind: authority
   - url: "https://pt.wikipedia.org/wiki/Neoconcretismo"
@@ -46,9 +48,9 @@ sources:
   - url: "https://www.getty.edu/vow/AATFullDisplay?find=neoconcrete&logic=OR&note=&english=Y&prev_page=1&subjectid=300456752"
     kind: authority
   - url: "https://smarthistory.org/geometric-abstraction-south-america/"
-    kind: reference
-status: draft
-updated: 2026-08-09
+    kind: scholarly
+status: verified
+updated: 2026-08-25
 ---
 
 # ネオコンクレチスモ / Neoconcretismo

@@ -22,9 +22,9 @@ naming:
   original_label: "고려불화 / 高麗佛畵"
   note: "王朝名「高麗」＋画題ジャンル「仏画」の合成による呼称。発願者・画家自身がこの名で自分たちの作を呼んだ記録には当たっていない——高麗時代の人々にとってはただの「仏画」であり、「高麗」を冠する必要が無かったはずである（王朝が交代して初めて弁別が要る名になる）。命名者・最初の使用時期は特定できず、近代の美術史学が王朝の期間で括った便宜的な呼称と見られる。同型の命名構造（王朝名＋媒体・画題）の例としてムガル絵画がある"
 claims:
-  - {field: kind, source: "https://contents.history.go.kr/mobile/kc/view.do?levelId=kc_r200090&code=kc_age_20", certainty: scholarly}
-  - {field: time, source: "https://contents.history.go.kr/mobile/eh/view.do?levelId=eh_r0182_0010&code=eh_age_20", certainty: scholarly}
-  - {field: originated_in, source: "https://contents.history.go.kr/mobile/kc/view.do?levelId=kc_r200090&code=kc_age_20", certainty: scholarly}
+  - {field: time, source: "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART001609622", certainty: scholarly}
+  - {field: originated_in, source: "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART001609622", certainty: scholarly}
+  - {field: kind, source: "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART001609622", certainty: scholarly}
 evidence:
   - {target: work/water-moon-avalokiteshvara, supports: [kind, visual-character]}
 space:
@@ -69,7 +69,7 @@ images:
     rights_source: https://www.metmuseum.org/art/collection/search/39882
     license: cc0
     note: "《阿弥陀三尊図（Amitabha triad）》13世紀頃、絹本著色・金泥、掛軸。メトロポリタン美術館蔵（isPublicDomain: true）"
-status: draft
+status: verified
 updated: 2026-08-25
 ---
 
