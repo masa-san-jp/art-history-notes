@@ -131,6 +131,83 @@ class HarnessController:
 
         return heartbeat
 
+    def execute_issue(self, issue_number: int) -> ControllerResult:
+        """Execute one explicitly selected ready Issue."""
+        issue = self.client.get_issue(issue_number)
+        decision = TaskQueue(self.client).next([issue])
+        if decision is None or decision.issue.number != issue_number:
+            return ControllerResult("blocked", issue_number=issue_number, reason="issue is not ready")
+        contract = parse_contract(issue.body)
+        environment = os.environ.copy()
+        environment.pop("GIT_INDEX_FILE", None)
+        base = subprocess.run(["git", "rev-parse", f"origin/{self.config.base_branch}"], cwd=self.root, env=environment, capture_output=True, text=True, check=False, timeout=10)
+        if base.returncode:
+            return ControllerResult("blocked", issue_number=issue_number, reason=base.stderr.strip() or "base branch is unavailable")
+        base_sha = base.stdout.strip()
+        run_id = new_run_id()
+        lease_manager = None
+        lease_holder: list[Any] = []
+        if isinstance(self.client, GhClient):
+            acquired = self._acquire_lease(issue_number=issue.number, run_id=run_id, base_sha=base_sha)
+            if acquired is None:
+                return ControllerResult("contended", issue_number=issue.number, reason="another runner owns the lease")
+            lease_manager, lease = acquired
+            lease_holder.append(lease)
+        try:
+            run = self.store.create_run(repository=getattr(self.client, "repository", "local/repository"), issue_number=issue.number, contract_hash=self.store.hash_contract(normalized_json(contract)), base_sha=base_sha, branch=f"agent/issue-{issue.number}/{run_id[:8]}", worktree=str(self.config.worktree_root / run_id), backend="default", run_id=run_id)
+            if lease_holder:
+                self.store.record_lease(run.run_id, owner_id=lease_holder[0].owner_id, token_hash=lease_holder[0].token_hash or hashlib.sha256(lease_holder[0].token.encode()).hexdigest(), acquired_at=lease_holder[0].acquired_at, heartbeat_at=lease_holder[0].heartbeat_at, expires_at=lease_holder[0].expires_at)
+            self.client.add_label(issue.number, "agent-running")
+            heartbeat = self._lease_heartbeat(lease_manager, lease_holder, run_id=run.run_id, base_sha=run.base_sha) if lease_manager else None
+            outcome = self._executor(lease_heartbeat=heartbeat).execute(run.run_id, contract)
+            return ControllerResult("completed", issue.number, run.run_id, outcome)
+        except Exception as exc:
+            try:
+                current = self.store.get_run(run_id)
+                if current.state not in {RunState.SUCCEEDED, RunState.BLOCKED, RunState.FAILED, RunState.CANCELLED}:
+                    self.store.transition(run_id, RunState.BLOCKED, expected_state=current.state, reason_code="internal_error", reason_detail=str(exc)[:4096])
+            except Exception:
+                pass
+            return ControllerResult("blocked", issue.number, run_id, reason=str(exc))
+        finally:
+            if lease_manager and lease_holder:
+                try:
+                    lease_manager.release(lease_holder[0])
+                    self.store.release_lease(run_id, owner_id=lease_holder[0].owner_id, token_hash=lease_holder[0].token_hash or hashlib.sha256(lease_holder[0].token.encode()).hexdigest())
+                except GitHubError:
+                    pass
+
+    def execute_run(self, run_id: str) -> ControllerResult:
+        """Execute a previously claimed run while preserving its identity."""
+        run = self.store.get_run(run_id)
+        if run.state not in {RunState.DISCOVERED, RunState.PREPARING, RunState.RETRY_WAIT}:
+            return ControllerResult("blocked", run.issue_number, run_id, reason=f"run state {run.state.value} is not executable")
+        issue = self.client.get_issue(run.issue_number)
+        contract = parse_contract(issue.body)
+        lease_manager = None
+        lease_holder: list[Any] = []
+        if isinstance(self.client, GhClient):
+            lease_manager = LeaseManager(self.client, owner_id=self.owner_id, ttl_seconds=self.config.lease_ttl_seconds)
+            lease = lease_manager.load_owned(issue_number=run.issue_number, run_id=run_id)
+            if lease is None:
+                acquired = self._acquire_lease(issue_number=run.issue_number, run_id=run_id, base_sha=run.base_sha)
+                if acquired is None:
+                    return ControllerResult("contended", run.issue_number, run_id, reason="another runner owns the lease")
+                lease_manager, lease = acquired
+            lease_holder.append(lease)
+            self.store.record_lease(run_id, owner_id=lease.owner_id, token_hash=lease.token_hash or hashlib.sha256(lease.token.encode()).hexdigest(), acquired_at=lease.acquired_at, heartbeat_at=lease.heartbeat_at, expires_at=lease.expires_at)
+        try:
+            heartbeat = self._lease_heartbeat(lease_manager, lease_holder, run_id=run_id, base_sha=run.base_sha) if lease_manager else None
+            outcome = self._executor(lease_heartbeat=heartbeat).execute(run_id, contract)
+            return ControllerResult("completed", run.issue_number, run_id, outcome)
+        finally:
+            if lease_manager and lease_holder:
+                try:
+                    lease_manager.release(lease_holder[0])
+                    self.store.release_lease(run_id, owner_id=lease_holder[0].owner_id, token_hash=lease_holder[0].token_hash or hashlib.sha256(lease_holder[0].token.encode()).hexdigest())
+                except GitHubError:
+                    pass
+
     def run_once(self) -> ControllerResult:
         if not self.config.enabled:
             return ControllerResult("disabled", reason="config enabled is false")
@@ -164,46 +241,7 @@ class HarnessController:
         decision = TaskQueue(self.client).next()
         if decision is None:
             return ControllerResult("idle", reason="no ready task")
-        issue = decision.issue
-        contract = parse_contract(issue.body)
-        environment = os.environ.copy()
-        environment.pop("GIT_INDEX_FILE", None)
-        base_sha = subprocess.check_output(["git", "rev-parse", f"origin/{self.config.base_branch}"], cwd=self.root, text=True, env=environment).strip()
-        run_id = new_run_id()
-        lease_manager = None
-        lease_holder: list[Any] = []
-        if isinstance(self.client, GhClient):
-            acquired = self._acquire_lease(issue_number=issue.number, run_id=run_id, base_sha=base_sha)
-            if acquired is None:
-                return ControllerResult("contended", issue_number=issue.number, reason="another runner owns the lease")
-            lease_manager, lease = acquired
-            lease_holder.append(lease)
-        branch = f"agent/issue-{issue.number}/{run_id[:8]}"
-        worktree_path = self.config.worktree_root / run_id
-        try:
-            run = self.store.create_run(repository=getattr(self.client, "repository", "local/repository"), issue_number=issue.number, contract_hash=self.store.hash_contract(normalized_json(contract)), base_sha=base_sha, branch=branch, worktree=str(worktree_path), backend="default", run_id=run_id)
-            if lease_holder:
-                self.store.record_lease(run.run_id, owner_id=lease_holder[0].owner_id, token_hash=hashlib.sha256(lease_holder[0].token.encode()).hexdigest(), acquired_at=lease_holder[0].acquired_at, heartbeat_at=lease_holder[0].heartbeat_at, expires_at=lease_holder[0].expires_at)
-            self.client.add_label(issue.number, "agent-running")
-            heartbeat = self._lease_heartbeat(lease_manager, lease_holder, run_id=run.run_id, base_sha=run.base_sha) if lease_manager else None
-            outcome = self._executor(lease_heartbeat=heartbeat).execute(run.run_id, contract)
-            return ControllerResult("completed", issue.number, run.run_id, outcome)
-        except Exception as exc:
-            if run_id:
-                try:
-                    current = self.store.get_run(run_id)
-                    if current.state not in {RunState.SUCCEEDED, RunState.BLOCKED, RunState.FAILED, RunState.CANCELLED}:
-                        self.store.transition(run_id, RunState.BLOCKED, expected_state=current.state, reason_code="internal_error", reason_detail=str(exc)[:4096])
-                except Exception:
-                    pass
-            return ControllerResult("blocked", issue.number, run_id, reason=str(exc))
-        finally:
-            if lease_manager and lease_holder:
-                try:
-                    lease_manager.release(lease_holder[0])
-                    self.store.release_lease(run_id, owner_id=lease_holder[0].owner_id, token_hash=hashlib.sha256(lease_holder[0].token.encode()).hexdigest())
-                except GitHubError:
-                    pass
+        return self.execute_issue(decision.issue.number)
 
 
 def doctor(root: Path, config: HarnessConfig) -> dict[str, Any]:

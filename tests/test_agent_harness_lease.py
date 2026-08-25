@@ -60,3 +60,14 @@ class LeaseTests(unittest.TestCase):
         lease = LeaseManager(client, owner_id="new").takeover_if_expired(issue_number=1, run_id="run-2", base_sha="base")
         self.assertEqual(lease.run_id, "run-2")
         self.assertNotEqual(lease.commit_sha, "old")
+
+    def test_owner_can_reconstruct_and_heartbeat_without_raw_token(self) -> None:
+        client = FakeLeaseClient()
+        manager = LeaseManager(client, owner_id="one")
+        acquired = manager.acquire(issue_number=2, run_id="run-1", base_sha="base")
+        self.assertIsNotNone(acquired)
+        loaded = manager.load_owned(issue_number=2, run_id="run-1")
+        self.assertIsNotNone(loaded)
+        self.assertEqual(loaded.token, "")
+        heartbeat = manager.heartbeat(loaded, base_sha="base")
+        self.assertEqual(heartbeat.token_hash, loaded.token_hash)

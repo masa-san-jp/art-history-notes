@@ -33,4 +33,6 @@ uv run --locked python -m agent_harness run show RUN_ID --json
 uv run --locked python -m agent_harness run events RUN_ID --jsonl
 uv run --locked python -m agent_harness run resume RUN_ID --reason "operator confirmed the dependency"
 uv run --locked python -m agent_harness run cancel RUN_ID --reason "stop the deployment"
+uv run --locked python -m agent_harness run execute --run-id RUN_ID --runner-id RUNNER_ID
+uv run --locked python -m agent_harness run execute --issue ISSUE_NUMBER --runner-id RUNNER_ID
 ```

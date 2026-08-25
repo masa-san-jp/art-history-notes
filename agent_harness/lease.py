@@ -24,6 +24,7 @@ class Lease:
     acquired_at: str
     heartbeat_at: str
     expires_at: str
+    token_hash: str | None = None
 
 
 def _now() -> datetime:
@@ -79,17 +80,53 @@ class LeaseManager:
         self.client.delete_ref(ref)
         return self.acquire(issue_number=issue_number, run_id=run_id, base_sha=base_sha)
 
+    def load_owned(self, *, issue_number: int, run_id: str) -> Lease | None:
+        """Reconstruct an owner lease from its public ref without a raw token."""
+        ref = f"refs/heads/agent-harness/leases/issue-{issue_number}"
+        current = self.client.get_ref(ref)
+        sha = current.get("object", {}).get("sha") if current else None
+        if not sha:
+            return None
+        try:
+            payload = json.loads(self.client.get_commit_message(sha))
+            if int(payload["issue"]) != issue_number or payload["run_id"] != run_id or payload["owner_id"] != self.owner_id:
+                return None
+            expires_at = datetime.fromisoformat(str(payload["expires_at"]).replace("Z", "+00:00"))
+            if expires_at <= _now():
+                return None
+            return Lease(
+                self.client.repository,
+                issue_number,
+                run_id,
+                self.owner_id,
+                "",
+                ref,
+                sha,
+                str(payload["acquired_at"]),
+                str(payload["heartbeat_at"]),
+                str(payload["expires_at"]),
+                str(payload["token_sha256"]),
+            )
+        except (KeyError, TypeError, ValueError, json.JSONDecodeError):
+            return None
+
     def heartbeat(self, lease: Lease, *, base_sha: str) -> Lease:
         current = self.client.get_ref(lease.ref)
         if not current or current.get("object", {}).get("sha") != lease.commit_sha:
             raise GitHubError("lease ownership was lost")
+        try:
+            if datetime.fromisoformat(lease.expires_at.replace("Z", "+00:00")) <= _now():
+                raise GitHubError("lease has expired")
+        except ValueError as exc:
+            raise GitHubError("lease expiry is invalid") from exc
         now = _now()
         expires = now + timedelta(seconds=self.ttl_seconds)
         tree = self.client.get_commit_tree(base_sha)
-        message = json.dumps({"version": 1, "issue": lease.issue_number, "run_id": lease.run_id, "owner_id": lease.owner_id, "token_sha256": hashlib.sha256(lease.token.encode()).hexdigest(), "acquired_at": lease.acquired_at, "heartbeat_at": _stamp(now), "expires_at": _stamp(expires), "base_sha": base_sha}, sort_keys=True)
+        token_hash = lease.token_hash or hashlib.sha256(lease.token.encode()).hexdigest()
+        message = json.dumps({"version": 1, "issue": lease.issue_number, "run_id": lease.run_id, "owner_id": lease.owner_id, "token_sha256": token_hash, "acquired_at": lease.acquired_at, "heartbeat_at": _stamp(now), "expires_at": _stamp(expires), "base_sha": base_sha}, sort_keys=True)
         commit_sha = self.client.create_commit(message=message, tree=tree, parent=lease.commit_sha)
         self.client.update_ref(lease.ref, commit_sha, force=False)
-        return Lease(lease.repository, lease.issue_number, lease.run_id, lease.owner_id, lease.token, lease.ref, commit_sha, lease.acquired_at, _stamp(now), _stamp(expires))
+        return Lease(lease.repository, lease.issue_number, lease.run_id, lease.owner_id, lease.token, lease.ref, commit_sha, lease.acquired_at, _stamp(now), _stamp(expires), token_hash)
 
     def release(self, lease: Lease) -> None:
         current = self.client.get_ref(lease.ref)

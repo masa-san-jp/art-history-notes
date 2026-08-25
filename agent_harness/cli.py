@@ -3,8 +3,11 @@
 from __future__ import annotations
 
 import argparse
+import hashlib
 import json
+import os
 from pathlib import Path
+import socket
 import subprocess
 import sys
 import signal
@@ -17,9 +20,11 @@ import yaml
 from .models import RunState, RunStoreError
 from .controller import HarnessConfig, HarnessController, doctor
 from .github import GhClient, GitHubError
+from .ids import new_run_id
+from .lease import LeaseManager
 from .queue import TaskQueue
 from .store import RunStore
-from .task_contract import ContractValidationError, load_contract, normalized_json
+from .task_contract import ContractValidationError, load_contract, normalized_json, parse_contract
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -129,6 +134,8 @@ def _run_output(run: Any, as_json: bool) -> None:
 
 
 def _run_command(args: argparse.Namespace) -> int:
+    if args.run_command == "execute":
+        return _execute_command(args)
     store = _store(args)
     try:
         if args.run_command == "list":
@@ -158,7 +165,30 @@ def _run_command(args: argparse.Namespace) -> int:
     return 2
 
 
+def _execute_command(args: argparse.Namespace) -> int:
+    config = HarnessConfig.load(ROOT / "config" / "agent-harness.yaml", root=ROOT)
+    if not config.enabled:
+        _print_json({"status": "disabled", "reason": "config enabled is false"})
+        return 5
+    try:
+        client = GhClient()
+        controller = HarnessController(root=ROOT, client=client, config=config, store=_store(args), owner_id=args.runner_id)
+        result = controller.execute_issue(args.issue) if args.issue is not None else controller.execute_run(args.run_id)
+        payload: dict[str, Any] = {"status": result.status, "issue_number": result.issue_number, "run_id": result.run_id, "reason": result.reason}
+        if result.outcome is not None:
+            payload["outcome"] = {"state": result.outcome.state.value, "attempts": result.outcome.attempts, "failure_code": result.outcome.failure_code.value if result.outcome.failure_code else None}
+        _print_json(payload)
+        return 0 if result.status in {"completed", "recovered", "idle"} and (result.outcome is None or result.outcome.state == RunState.SUCCEEDED) else 4
+    except (GitHubError, RunStoreError, OSError, ValueError) as exc:
+        _print_json({"status": "blocked", "reason": str(exc)})
+        return 4
+
+
 def _queue_command(args: argparse.Namespace) -> int:
+    if args.queue_command == "claim":
+        return _queue_claim(args)
+    if args.queue_command in {"heartbeat", "release"}:
+        return _queue_lease_action(args)
     try:
         decisions = TaskQueue(GhClient()).decisions()
     except GitHubError as exc:
@@ -173,6 +203,88 @@ def _queue_command(args: argparse.Namespace) -> int:
         for value in values:
             print(f"#{value['issue']} {value['status']} {value['title']}")
     return 0
+
+
+def _queue_claim(args: argparse.Namespace) -> int:
+    root = ROOT
+    config = HarnessConfig.load(root / "config" / "agent-harness.yaml", root=root)
+    store = _store(args)
+    try:
+        client = GhClient()
+        issue = client.get_issue(args.issue)
+        decision = TaskQueue(client).next([issue])
+        if decision is None:
+            _print_json({"ok": False, "status": "contended", "issue": args.issue, "reason": "issue is not ready"})
+            return 4
+        contract = parse_contract(issue.body)
+        environment = os.environ.copy()
+        environment.pop("GIT_INDEX_FILE", None)
+        base = subprocess.run(["git", "rev-parse", f"origin/{config.base_branch}"], cwd=root, env=environment, capture_output=True, text=True, check=False, timeout=10)
+        if base.returncode:
+            raise GitHubError(base.stderr.strip() or "base branch is unavailable")
+        base_sha = base.stdout.strip()
+        run_id = new_run_id()
+        owner_id = args.runner_id
+        manager = LeaseManager(client, owner_id=owner_id, ttl_seconds=config.lease_ttl_seconds)
+        lease = manager.acquire(issue_number=issue.number, run_id=run_id, base_sha=base_sha)
+        if lease is None:
+            _print_json({"ok": False, "status": "contended", "issue": issue.number, "reason": "another runner owns the lease"})
+            return 4
+        try:
+            run = store.create_run(
+                repository=client.repository,
+                issue_number=issue.number,
+                contract_hash=store.hash_contract(normalized_json(contract)),
+                base_sha=base_sha,
+                branch=f"agent/issue-{issue.number}/{run_id[:8]}",
+                worktree=str(config.worktree_root / run_id),
+                backend="default",
+                run_id=run_id,
+            )
+            store.record_lease(run_id, owner_id=owner_id, token_hash=lease.token_hash or hashlib.sha256(lease.token.encode()).hexdigest(), acquired_at=lease.acquired_at, heartbeat_at=lease.heartbeat_at, expires_at=lease.expires_at)
+            client.add_label(issue.number, "agent-running")
+        except Exception:
+            manager.release(lease)
+            if "run" in locals():
+                current = store.get_run(run.run_id)
+                if current.state not in {RunState.SUCCEEDED, RunState.BLOCKED, RunState.FAILED, RunState.CANCELLED}:
+                    store.transition(run.run_id, RunState.BLOCKED, expected_state=current.state, reason_code="claim_failed", reason_detail="claim side effect could not be completed")
+            raise
+        _print_json({"ok": True, "status": "claimed", "run": run.as_dict()})
+        return 0
+    except (GitHubError, OSError, ValueError) as exc:
+        _print_json({"ok": False, "error": {"code": "claim_failed", "message": str(exc)}})
+        return 3
+
+
+def _queue_lease_action(args: argparse.Namespace) -> int:
+    root = ROOT
+    config = HarnessConfig.load(root / "config" / "agent-harness.yaml", root=root)
+    store = _store(args)
+    try:
+        client = GhClient()
+        run = store.get_run(args.run_id)
+        manager = LeaseManager(client, owner_id=args.runner_id, ttl_seconds=config.lease_ttl_seconds)
+        lease = manager.load_owned(issue_number=run.issue_number, run_id=run.run_id)
+        if lease is None:
+            raise GitHubError("the requested runner does not own the Issue lease")
+        token_hash = lease.token_hash or hashlib.sha256(lease.token.encode()).hexdigest()
+        if args.queue_command == "heartbeat":
+            lease = manager.heartbeat(lease, base_sha=run.base_sha)
+            store.heartbeat(run.run_id, lease_expires_at=lease.expires_at)
+            store.heartbeat_lease(run.run_id, heartbeat_at=lease.heartbeat_at, expires_at=lease.expires_at)
+            _print_json({"ok": True, "status": "heartbeated", "run_id": run.run_id, "expires_at": lease.expires_at})
+            return 0
+        manager.release(lease)
+        store.release_lease(run.run_id, owner_id=args.runner_id, token_hash=token_hash)
+        current = store.get_run(run.run_id)
+        if current.state not in {RunState.SUCCEEDED, RunState.BLOCKED, RunState.FAILED, RunState.CANCELLED}:
+            current = store.transition(run.run_id, RunState.BLOCKED, expected_state=current.state, reason_code="lease_released", reason_detail="lease released by operator")
+        _print_json({"ok": True, "status": "released", "run": current.as_dict()})
+        return 0
+    except (GitHubError, RunStoreError, OSError, ValueError) as exc:
+        _print_json({"ok": False, "error": {"code": "lease_action_failed", "message": str(exc)}})
+        return 4
 
 
 def _controller_command(args: argparse.Namespace) -> int:
@@ -264,11 +376,26 @@ def build_parser() -> argparse.ArgumentParser:
         action.add_argument("run_id")
         action.add_argument("--reason", required=True)
         action.add_argument("--json", action="store_true")
+    execute = run_subparsers.add_parser("execute")
+    execute_source = execute.add_mutually_exclusive_group(required=True)
+    execute_source.add_argument("--issue", type=int)
+    execute_source.add_argument("--run-id")
+    execute.add_argument("--runner-id", default=f"{socket.gethostname()}:{os.getpid()}")
+    execute.add_argument("--json", action="store_true")
 
     queue = subparsers.add_parser("queue")
     queue_subparsers = queue.add_subparsers(dest="queue_command", required=True)
     for command in ("list", "next"):
         action = queue_subparsers.add_parser(command)
+        action.add_argument("--json", action="store_true")
+    claim = queue_subparsers.add_parser("claim")
+    claim.add_argument("issue", type=int)
+    claim.add_argument("--runner-id", default=f"{socket.gethostname()}:{os.getpid()}")
+    claim.add_argument("--json", action="store_true")
+    for command in ("heartbeat", "release"):
+        action = queue_subparsers.add_parser(command)
+        action.add_argument("run_id")
+        action.add_argument("--runner-id", required=True)
         action.add_argument("--json", action="store_true")
 
     controller = subparsers.add_parser("controller")

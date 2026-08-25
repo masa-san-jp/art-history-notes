@@ -39,6 +39,9 @@ uv run --locked python -m agent_harness run show RUN_ID --json
 uv run --locked python -m agent_harness run events RUN_ID --jsonl
 uv run --locked python -m agent_harness run resume RUN_ID --reason "operator resolution"
 uv run --locked python -m agent_harness run cancel RUN_ID --reason "stop execution"
+uv run --locked python -m agent_harness queue claim ISSUE_NUMBER --runner-id RUNNER_ID
+uv run --locked python -m agent_harness queue heartbeat RUN_ID --runner-id RUNNER_ID
+uv run --locked python -m agent_harness queue release RUN_ID --runner-id RUNNER_ID
 ```
 
 For a local polling controller, use `controller serve --poll-seconds 60`.

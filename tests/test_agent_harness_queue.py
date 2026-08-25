@@ -70,3 +70,10 @@ class QueueTests(unittest.TestCase):
         dependency = self.issue(1, state="closed", labels=frozenset({"agent-done"}))
         client = FakeClient([dependent, dependency])
         self.assertEqual(TaskQueue(client).next().issue.number, 2)
+
+    def test_dependency_cycle_is_blocked(self) -> None:
+        first = self.issue(10, dependencies=[11])
+        second = self.issue(11, dependencies=[10])
+        decisions = TaskQueue(FakeClient([first, second])).decisions()
+        self.assertEqual({decision.status for decision in decisions}, {"blocked"})
+        self.assertTrue(all("cycle" in (decision.reason or "") for decision in decisions))
