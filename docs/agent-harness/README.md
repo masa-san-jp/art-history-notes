@@ -26,3 +26,14 @@ The `agent-harness-ci` workflow runs local harness tests with no model or
 secret. The production workflow requires the repository variable
 `AGENT_HARNESS_ENABLED=true` and uses one dispatcher concurrency group plus
 the per-Issue Git lease.
+
+Component references:
+
+- [task contract](task-contract.md)
+- [backends](backends.md)
+- [security boundary](security.md)
+- [queue and leases](queue-and-leases.md)
+- [failure and recovery](failure-and-recovery.md)
+- [delivery](delivery.md)
+- [run lifecycle](run-lifecycle.md)
+- [operations runbook](runbook.md)

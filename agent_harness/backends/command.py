@@ -26,8 +26,11 @@ class CommandHandle:
 
 
 class CommandBackend:
-    def __init__(self, argv_template: list[str], *, policy: ExecutionPolicy | None = None, env_names: set[str] | None = None, secrets: list[str] | None = None) -> None:
+    def __init__(self, argv_template: list[str], *, prompt_mode: str = "file", policy: ExecutionPolicy | None = None, env_names: set[str] | None = None, secrets: list[str] | None = None) -> None:
         self.argv_template = tuple(argv_template)
+        if prompt_mode not in {"file", "stdin"}:
+            raise ValueError("backend prompt_mode must be 'file' or 'stdin'")
+        self.prompt_mode = prompt_mode
         self.policy = policy or ExecutionPolicy()
         self.env_names = env_names or set()
         self.redactor = Redactor(secrets or self.policy.secrets)
@@ -66,7 +69,7 @@ class CommandBackend:
 
     def wait(self, handle: CommandHandle) -> BackendResult:
         request = handle.request
-        environment = collect_allowed_environment(os.environ, self.env_names)
+        environment = collect_allowed_environment(request.env if request.env is not None else os.environ, self.env_names)
         result = run_argv(
             self._argv(request),
             cwd=request.worktree,
@@ -76,6 +79,7 @@ class CommandBackend:
             env=environment,
             redactor=self.redactor,
             cancel_event=request.cancel_event,
+            stdin_data=request.prompt.encode("utf-8") if self.prompt_mode == "stdin" else None,
         )
         handle.result = result
         handoff = None

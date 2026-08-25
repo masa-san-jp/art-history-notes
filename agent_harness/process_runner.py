@@ -10,6 +10,7 @@ import signal
 import subprocess
 import time
 import threading
+import tempfile
 
 from .policy import ExecutionPolicy, PolicyViolation, Redactor
 
@@ -58,6 +59,7 @@ def run_argv(
     env: dict[str, str] | None = None,
     redactor: Redactor | None = None,
     cancel_event: threading.Event | None = None,
+    stdin_data: bytes | None = None,
 ) -> ProcessResult:
     policy = policy or ExecutionPolicy(max_output_bytes=max_output_bytes)
     policy.validate_argv(list(argv))
@@ -65,16 +67,26 @@ def run_argv(
     if max_output_bytes < 1:
         raise PolicyViolation("max_output_bytes must be positive")
     started = time.monotonic()
-    process = subprocess.Popen(
-        list(argv),
-        cwd=cwd,
-        env=env,
-        shell=False,
-        stdin=subprocess.DEVNULL,
-        stdout=subprocess.PIPE,
-        stderr=subprocess.PIPE,
-        start_new_session=os.name == "posix",
-    )
+    stdin_stream = None
+    if stdin_data is not None:
+        stdin_stream = tempfile.TemporaryFile()
+        stdin_stream.write(stdin_data)
+        stdin_stream.seek(0)
+    try:
+        process = subprocess.Popen(
+            list(argv),
+            cwd=cwd,
+            env=env,
+            shell=False,
+            stdin=stdin_stream if stdin_stream is not None else subprocess.DEVNULL,
+            stdout=subprocess.PIPE,
+            stderr=subprocess.PIPE,
+            start_new_session=os.name == "posix",
+        )
+    except Exception:
+        if stdin_stream is not None:
+            stdin_stream.close()
+        raise
     selector = selectors.DefaultSelector()
     assert process.stdout is not None
     assert process.stderr is not None
@@ -136,6 +148,8 @@ def run_argv(
             process.stdout.close()
         if process.stderr is not None:
             process.stderr.close()
+        if stdin_stream is not None:
+            stdin_stream.close()
     redactor = redactor or Redactor()
     return ProcessResult(
         argv=tuple(argv),

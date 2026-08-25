@@ -7,6 +7,8 @@ import json
 from pathlib import Path
 import subprocess
 import sys
+import signal
+import threading
 import time
 from typing import Any
 
@@ -188,24 +190,44 @@ def _controller_command(args: argparse.Namespace) -> int:
             return 4
         _print_json(result)
         return 0
+    if args.controller_command == "reconcile-closed":
+        try:
+            result = GhClient().finalize_closed_pr(args.pr)
+        except GitHubError as exc:
+            _print_json({"status": "blocked", "reason": str(exc)})
+            return 4
+        _print_json(result)
+        return 0
     if not config.enabled:
         _print_json({"status": "disabled", "reason": "config enabled is false"})
         return 0
     controller = HarnessController(root=root, client=GhClient(), config=config)
     poll_seconds = getattr(args, "poll_seconds", None)
-    while True:
-        try:
-            result = controller.run_once()
-        except (GitHubError, OSError, ValueError) as exc:
-            _print_json({"status": "blocked", "reason": str(exc)})
-            return 4
-        _print_json({"status": result.status, "issue_number": result.issue_number, "run_id": result.run_id, "reason": result.reason})
-        if args.controller_command == "serve-once" or getattr(args, "once", False) or poll_seconds is None:
-            return 0
+    stop_requested = threading.Event()
+    previous_handlers = {}
+    if poll_seconds is not None:
         if poll_seconds < 1:
             print("--poll-seconds must be positive", file=sys.stderr)
             return 2
-        time.sleep(poll_seconds)
+        for signum in (signal.SIGINT, signal.SIGTERM):
+            previous_handlers[signum] = signal.getsignal(signum)
+            signal.signal(signum, lambda _signum, _frame: stop_requested.set())
+    try:
+        while True:
+            try:
+                result = controller.run_once()
+            except (GitHubError, OSError, ValueError) as exc:
+                _print_json({"status": "blocked", "reason": str(exc)})
+                return 4
+            _print_json({"status": result.status, "issue_number": result.issue_number, "run_id": result.run_id, "reason": result.reason})
+            if args.controller_command == "serve-once" or getattr(args, "once", False) or poll_seconds is None:
+                return 0
+            if stop_requested.wait(poll_seconds):
+                _print_json({"status": "stopped", "reason": "shutdown requested; no new claim will be started"})
+                return 0
+    finally:
+        for signum, handler in previous_handlers.items():
+            signal.signal(signum, handler)
 
 
 def build_parser() -> argparse.ArgumentParser:
@@ -258,6 +280,8 @@ def build_parser() -> argparse.ArgumentParser:
     controller_subparsers.add_parser("serve-once")
     finalize = controller_subparsers.add_parser("finalize")
     finalize.add_argument("--pr", type=int, required=True)
+    reconcile_closed = controller_subparsers.add_parser("reconcile-closed")
+    reconcile_closed.add_argument("--pr", type=int, required=True)
     doctor_parser = controller_subparsers.add_parser("doctor")
     doctor_parser.add_argument("--json", action="store_true")
     return parser

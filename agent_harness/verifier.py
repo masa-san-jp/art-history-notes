@@ -4,11 +4,12 @@ from __future__ import annotations
 
 from dataclasses import dataclass, field
 from pathlib import Path
+import threading
 from typing import Any
 
 from .failure import FailureCode
 from .handoff import HandoffError, validate_handoff
-from .policy import ExecutionPolicy, PolicyViolation
+from .policy import ExecutionPolicy, PolicyViolation, SecretDetector
 from .process_runner import ProcessResult, run_argv
 from .task_contract import normalized_json
 from .worktree import Worktree, WorktreeManager
@@ -49,6 +50,7 @@ class VerificationPipeline:
         contract: dict[str, Any],
         handoff: dict[str, Any] | None,
         run_canonical: bool = True,
+        cancel_event: threading.Event | None = None,
     ) -> VerificationResult:
         stages: list[VerificationStage] = []
         if handoff is None:
@@ -71,8 +73,14 @@ class VerificationPipeline:
             return VerificationResult(False, tuple(stages), handoff=normalized_handoff)
         stages.append(VerificationStage("scope", True, 0.0))
 
+        secret = self._scan_secrets(worktree, manifest)
+        if secret is not None:
+            stages.append(VerificationStage("secret_scan", False, 0.0, diagnostic=secret, failure_code=FailureCode.SECRET_DETECTED))
+            return VerificationResult(False, tuple(stages), tuple(manifest), normalized_handoff)
+        stages.append(VerificationStage("secret_scan", True, 0.0))
+
         for index, check in enumerate(contract["checks"]):
-            result = run_argv(check["argv"], cwd=worktree.path, timeout_seconds=check["timeout_seconds"], max_output_bytes=contract["limits"]["max_output_bytes"], policy=self.policy)
+            result = run_argv(check["argv"], cwd=worktree.path, timeout_seconds=check["timeout_seconds"], max_output_bytes=contract["limits"]["max_output_bytes"], policy=self.policy, cancel_event=cancel_event)
             stage = self._process_stage(f"task_check_{index}", result, FailureCode.TASK_CHECK_FAILED)
             stages.append(stage)
             if not stage.ok:
@@ -85,6 +93,7 @@ class VerificationPipeline:
                 timeout_seconds=contract["limits"]["timeout_minutes"] * 60,
                 max_output_bytes=contract["limits"]["max_output_bytes"],
                 policy=self.policy,
+                cancel_event=cancel_event,
             )
             stage = self._process_stage("canonical_verify", result, FailureCode.CANONICAL_VERIFY_FAILED)
             stages.append(stage)
@@ -92,6 +101,25 @@ class VerificationPipeline:
                 return VerificationResult(False, tuple(stages), tuple(manifest), normalized_handoff)
         stages.append(VerificationStage("final_manifest", True, 0.0, diagnostic=normalized_json({"paths": manifest})))
         return VerificationResult(True, tuple(stages), tuple(manifest), normalized_handoff)
+
+    def _scan_secrets(self, worktree: Worktree, manifest: list[str]) -> str | None:
+        detector = SecretDetector(self.policy.secrets)
+        for relative in manifest:
+            path = worktree.path / relative
+            if not path.is_file() or path.is_symlink():
+                continue
+            try:
+                with path.open("rb") as handle:
+                    carry = ""
+                    while chunk := handle.read(64 * 1024):
+                        text = carry + chunk.decode("utf-8", errors="replace")
+                        finding = detector.finding(text)
+                        if finding:
+                            return f"{finding} in {relative}"
+                        carry = text[-256:]
+            except OSError as exc:
+                return f"secret scan could not read {relative}: {exc.__class__.__name__}"
+        return None
 
     @staticmethod
     def _process_stage(name: str, result: ProcessResult, failure: FailureCode) -> VerificationStage:

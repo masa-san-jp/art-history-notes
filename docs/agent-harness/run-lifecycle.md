@@ -16,6 +16,10 @@ to `running`. Any non-terminal state can become `blocked`, `failed`, or
 operator action that moves a `blocked` or `failed` run to `preparing` while
 keeping the original run ID.
 
+Retry waits use bounded exponential delays (`2, 4, 8, ...` seconds, capped by
+policy), while the current run heartbeat remains active. Lease loss or a
+cancel request stops backend/verification work before delivery.
+
 The ledger stores the Issue number, contract hash, base SHA, branch, worktree,
 backend, attempt, heartbeat, lease deadline, reason, pull request number, and
 all event/artifact references. A partial unique index prevents more than one

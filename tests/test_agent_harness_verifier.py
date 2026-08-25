@@ -68,6 +68,38 @@ class VerifierTests(unittest.TestCase):
             manager.cleanup(worktree, allow=True)
             directory.cleanup()
 
+    def test_secret_scan_blocks_before_checks_without_recording_value(self) -> None:
+        directory, root, manager, worktree = self.make_repo()
+        try:
+            (worktree.path / "docs").mkdir()
+            (worktree.path / "docs" / "secret.txt").write_text("api_key=0123456789abcdef0123\n", encoding="utf-8")
+            handoff = {"version": 1, "status": "completed", "summary": "secret", "changed_paths": ["docs/secret.txt"], "checks_run": [], "remaining_risks": [], "blockers": []}
+            pipeline = VerificationPipeline(worktrees=manager, canonical_argv=[sys.executable, "-c", "raise SystemExit(1)"])
+            result = pipeline.verify(worktree=worktree, contract=CONTRACT, handoff=handoff)
+            self.assertFalse(result.ok)
+            self.assertEqual(result.failure_code, FailureCode.SECRET_DETECTED)
+            self.assertEqual([stage.name for stage in result.stages], ["handoff", "scope", "secret_scan"])
+            self.assertNotIn("0123456789abcdef0123", result.stages[-1].diagnostic)
+        finally:
+            manager.cleanup(worktree, allow=True)
+            directory.cleanup()
+
+    def test_symlink_escape_is_rejected(self) -> None:
+        directory, root, manager, worktree = self.make_repo()
+        outside = Path(directory.name).parent / f"outside-{worktree.branch.replace('/', '-')}.txt"
+        try:
+            outside.write_text("outside\n", encoding="utf-8")
+            (worktree.path / "docs").mkdir()
+            (worktree.path / "docs" / "escape.txt").symlink_to(outside)
+            handoff = {"version": 1, "status": "completed", "summary": "escape", "changed_paths": [], "checks_run": [], "remaining_risks": [], "blockers": []}
+            result = VerificationPipeline(worktrees=manager, canonical_argv=[sys.executable, "-c", "print('canonical')"]).verify(worktree=worktree, contract=CONTRACT, handoff=handoff)
+            self.assertFalse(result.ok)
+            self.assertEqual(result.failure_code, FailureCode.POLICY_VIOLATION)
+        finally:
+            manager.cleanup(worktree, allow=True)
+            outside.unlink(missing_ok=True)
+            directory.cleanup()
+
     def test_retry_policy_is_finite(self) -> None:
         self.assertTrue(retry_allowed(FailureCode.CANONICAL_VERIFY_FAILED, attempt=1, max_attempts=3))
         self.assertFalse(retry_allowed(FailureCode.POLICY_VIOLATION, attempt=1, max_attempts=3))

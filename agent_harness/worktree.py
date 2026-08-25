@@ -66,6 +66,12 @@ class WorktreeManager:
         values = [item for item in (tracked + untracked).split("\x00") if item]
         if any("\x00" in item or os.path.isabs(item) or ".." in Path(item).parts for item in values):
             raise PolicyViolation("git returned an unsafe changed path")
+        root = worktree.path.resolve()
+        for relative in values:
+            candidate = worktree.path / relative
+            resolved = candidate.resolve(strict=False)
+            if root not in resolved.parents and resolved != root:
+                raise PolicyViolation("changed path resolves outside the worktree")
         return sorted(set(values))
 
     def manifest(self, worktree: Worktree, *, include: list[str], exclude: list[str]) -> list[str]:

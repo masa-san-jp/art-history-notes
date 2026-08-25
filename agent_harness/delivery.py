@@ -73,7 +73,13 @@ class GitHubDelivery:
                 _git(["-c", "user.name=agent-harness", "-c", "user.email=agent-harness@localhost", "commit", "-m", subject, "-m", body], cwd=worktree)
                 commit_sha = _git(["rev-parse", "HEAD"], cwd=worktree).stdout.strip()
             if self.auto_push:
-                _git(["push", "--set-upstream", "origin", run.branch], cwd=worktree)
+                remote = _git(["ls-remote", "--heads", "origin", run.branch], cwd=worktree).stdout.strip()
+                if remote:
+                    remote_sha = remote.split()[0]
+                    if remote_sha != commit_sha:
+                        raise DeliveryError("remote branch exists at a different commit; refusing to overwrite")
+                else:
+                    _git(["push", "--set-upstream", "origin", run.branch], cwd=worktree)
             pr = self.client.find_or_create_pr(run, objective=objective, base_branch=base_branch)
             self.client.sync_issue(run.issue_number, status="review", pr=pr, message=f"Verified run {run.run_id} delivered in PR #{pr['number']}.")
             return DeliveryResult("review", commit_sha, int(pr["number"]), "PR ready for review")

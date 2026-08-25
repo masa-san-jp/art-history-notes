@@ -53,3 +53,18 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
         run: uv run --locked python -m agent_harness controller finalize --pr ${{ github.event.pull_request.number }}
+
+  reconcile-closed:
+    if: vars.AGENT_HARNESS_ENABLED == 'true' && github.event_name == 'pull_request' && github.event.pull_request.merged == false
+    runs-on: ubuntu-latest
+    environment: agent-harness
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v5
+        with:
+          version: latest
+      - run: uv sync --frozen
+      - name: Reconcile closed unmerged agent PR
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: uv run --locked python -m agent_harness controller reconcile-closed --pr ${{ github.event.pull_request.number }}

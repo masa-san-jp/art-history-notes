@@ -5,6 +5,7 @@ from __future__ import annotations
 from dataclasses import dataclass
 import json
 import re
+import time
 from typing import Any, Protocol
 import subprocess
 
@@ -187,15 +188,38 @@ class GhClient:
         self.close_issue(issue_number)
         return {"pr_number": number, "issue_number": issue_number, "status": "done"}
 
+    def finalize_closed_pr(self, number: int) -> dict[str, Any]:
+        raw = _run(["gh", "pr", "view", str(number), "--json", "number,url,state,mergedAt,body"])
+        value = json.loads(raw)
+        if value.get("state") != "CLOSED" or value.get("mergedAt"):
+            raise GitHubError(f"PR #{number} is not a closed-unmerged PR")
+        body = value.get("body") or ""
+        match = re.search(r"<!-- agent-harness:run=.*?;issue=(\d+) -->", body)
+        if not match:
+            raise GitHubError(f"PR #{number} has no valid agent-harness marker")
+        issue_number = int(match.group(1))
+        self.sync_issue(issue_number, status="blocked", pr=value, message=f"PR #{number} was closed without merge; run is blocked and remains resumable.")
+        return {"pr_number": number, "issue_number": issue_number, "status": "blocked"}
+
 
 def _run(argv: list[str], *, input_text: str | None = None) -> str:
-    try:
-        result = subprocess.run(argv, input=input_text, capture_output=True, text=True, check=False, timeout=30)
-    except (OSError, subprocess.TimeoutExpired) as exc:
-        raise GitHubError(f"GitHub command failed to start: {exc}") from exc
-    if result.returncode:
-        status = None
-        if "HTTP 404" in result.stderr or "HTTP 404" in result.stdout:
-            status = 404
-        raise GitHubError(result.stderr.strip() or result.stdout.strip() or "GitHub command failed", status=status)
-    return result.stdout
+    for attempt in range(3):
+        try:
+            result = subprocess.run(argv, input=input_text, capture_output=True, text=True, check=False, timeout=30)
+        except subprocess.TimeoutExpired as exc:
+            if attempt == 2:
+                raise GitHubError(f"GitHub command timed out after 3 attempts: {exc}") from exc
+            time.sleep(2**attempt)
+            continue
+        except OSError as exc:
+            raise GitHubError(f"GitHub command failed to start: {exc}") from exc
+        if result.returncode:
+            message = result.stderr.strip() or result.stdout.strip() or "GitHub command failed"
+            match = re.search(r"HTTP\s+(\d{3})", message, flags=re.IGNORECASE)
+            status = int(match.group(1)) if match else None
+            if status in {429, 500, 502, 503, 504} and attempt < 2:
+                time.sleep(2**attempt)
+                continue
+            raise GitHubError(message, status=status)
+        return result.stdout
+    raise GitHubError("GitHub command failed after bounded retries")

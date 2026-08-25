@@ -369,6 +369,26 @@ class RunStore:
                 raise
         return self.get_run(run_id)
 
+    def record_lease(self, run_id: str, *, owner_id: str, token_hash: str, acquired_at: str, heartbeat_at: str, expires_at: str) -> None:
+        run = self.get_run(run_id)
+        with self._connection() as connection:
+            connection.execute(
+                """INSERT INTO leases(repository, issue_number, run_id, owner_id, token_hash, acquired_at, heartbeat_at, expires_at)
+                   VALUES (?, ?, ?, ?, ?, ?, ?, ?)
+                   ON CONFLICT(repository, issue_number) DO UPDATE SET run_id=excluded.run_id, owner_id=excluded.owner_id,
+                     token_hash=excluded.token_hash, acquired_at=excluded.acquired_at, heartbeat_at=excluded.heartbeat_at,
+                     expires_at=excluded.expires_at""",
+                (run.repository, run.issue_number, run_id, owner_id, token_hash, acquired_at, heartbeat_at, expires_at),
+            )
+
+    def heartbeat_lease(self, run_id: str, *, heartbeat_at: str, expires_at: str) -> None:
+        with self._connection() as connection:
+            connection.execute("UPDATE leases SET heartbeat_at = ?, expires_at = ? WHERE run_id = ?", (heartbeat_at, expires_at, run_id))
+
+    def release_lease(self, run_id: str, *, owner_id: str, token_hash: str) -> None:
+        with self._connection() as connection:
+            connection.execute("DELETE FROM leases WHERE run_id = ? AND owner_id = ? AND token_hash = ?", (run_id, owner_id, token_hash))
+
     def recover_run(self, run_id: str, *, reason: str) -> Run:
         """Move a stale non-terminal run back to preparation without changing its ID."""
         with self._connection() as connection:
@@ -406,6 +426,22 @@ class RunStore:
             }
             for row in rows
         ]
+
+    def record_event(self, run_id: str, event_type: str, payload: dict[str, Any] | None = None) -> None:
+        """Append an observational event without changing run state."""
+        with self._connection() as connection:
+            connection.execute("BEGIN IMMEDIATE")
+            try:
+                row = connection.execute("SELECT state, attempt FROM runs WHERE run_id = ?", (run_id,)).fetchone()
+                if row is None:
+                    raise RunNotFoundError(run_id)
+                now = utc_now()
+                state = RunState(row["state"])
+                self._insert_event(connection, run_id, event_type, state, state, row["attempt"], now, payload or {})
+                connection.execute("COMMIT")
+            except Exception:
+                connection.execute("ROLLBACK")
+                raise
 
     @staticmethod
     def _insert_event(

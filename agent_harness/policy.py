@@ -87,6 +87,28 @@ class Redactor:
         return self.text(value.decode("utf-8", errors="replace")).encode("utf-8")
 
 
+class SecretDetector:
+    """Detect configured secrets and high-confidence credential patterns."""
+
+    _PATTERNS = (
+        re.compile(r"\bghp_[A-Za-z0-9]{20,}\b"),
+        re.compile(r"\bgithub_pat_[A-Za-z0-9_]{20,}\b"),
+        re.compile(r"\bsk-[A-Za-z0-9_-]{20,}\b"),
+        re.compile(r"\bxox[baprs]-[A-Za-z0-9-]{16,}\b"),
+        re.compile(r"\b(?:api[_-]?key|access[_-]?token|secret|password)\s*[:=]\s*['\"]?[A-Za-z0-9_./+=-]{16,}" , re.IGNORECASE),
+    )
+
+    def __init__(self, configured: Iterable[str] = ()) -> None:
+        self._configured = tuple(secret for secret in configured if secret)
+
+    def finding(self, text: str) -> str | None:
+        if any(secret in text for secret in self._configured):
+            return "configured secret detected"
+        if any(pattern.search(text) for pattern in self._PATTERNS):
+            return "credential-shaped value detected"
+        return None
+
+
 def collect_allowed_environment(source: dict[str, str], names: Iterable[str]) -> dict[str, str]:
     allowed = set(names)
     return {key: value for key, value in source.items() if key in allowed}

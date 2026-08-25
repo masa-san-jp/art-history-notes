@@ -28,7 +28,7 @@ class BackendRequest:
     prompt: str
     timeout_seconds: int
     max_output_bytes: int
-    env: dict[str, str] = field(default_factory=dict)
+    env: dict[str, str] | None = None
     cancel_event: threading.Event | None = None
 
 

@@ -60,6 +60,19 @@ class BackendTests(unittest.TestCase):
             self.assertEqual(result.status, "completed")
             self.assertEqual(result.handoff["summary"], "ok")
 
+    def test_command_backend_can_feed_prompt_via_stdin(self) -> None:
+        with tempfile.TemporaryDirectory() as directory:
+            request = self.request(directory)
+            command = [
+                sys.executable,
+                "-c",
+                "import json,sys; assert sys.stdin.read() == 'prompt'; json.dump({'version': 1, 'status': 'completed', 'summary': 'stdin', 'changed_paths': [], 'checks_run': [], 'remaining_risks': [], 'blockers': []}, open(r'{handoff_file}', 'w'))",
+            ]
+            backend = CommandBackend(command, prompt_mode="stdin", policy=ExecutionPolicy(allowed_commands=frozenset({Path(sys.executable).name}), max_output_bytes=4096))
+            result = backend.wait(backend.start(request))
+            self.assertEqual(result.status, "completed")
+            self.assertEqual(result.handoff["summary"], "stdin")
+
     def test_handoff_rejects_unknown_or_missing_keys(self) -> None:
         with self.assertRaises(HandoffError):
             validate_handoff({"version": 1})
