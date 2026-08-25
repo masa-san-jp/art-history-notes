@@ -19,8 +19,10 @@ space:
 relations:
   - {type: precedes, target: event/eighth-impressionist-exhibition-1886}
 sources:
-  - https://www.culture.gouv.fr/thematiques/musees/Les-musees-en-France/les-collections-des-musees-de-france/decouvrir-les-collections/les-huit-expositions-impressionnistes-1874-1886/1886-huitieme-exposition
-  - https://www.nationalgallery.org.uk/paintings/georges-seurat-bathers-at-asnieres
+  - url: "https://www.culture.gouv.fr/thematiques/musees/Les-musees-en-France/les-collections-des-musees-de-france/decouvrir-les-collections/les-huit-expositions-impressionnistes-1874-1886/1886-huitieme-exposition"
+    kind: reference
+  - url: "https://www.nationalgallery.org.uk/paintings/georges-seurat-bathers-at-asnieres"
+    kind: institutional
 status: draft
 updated: 2026-08-12
 ---

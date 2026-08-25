@@ -19,7 +19,8 @@ coordinates: [23.85, 72.117]
 space: []
 relations: []
 sources:
-  - https://www.wikidata.org/wiki/Q579702
+  - url: "https://www.wikidata.org/wiki/Q579702"
+    kind: authority
 status: stub
 updated: 2026-08-10
 ---

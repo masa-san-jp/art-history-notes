@@ -19,10 +19,14 @@ coordinates: [50.0859, -132.124]
 space: []
 relations: []
 sources:
-  - https://www.ebsco.com/research-starters/social-sciences-and-humanities/northwest-coast-cultural-area-native-american
-  - https://www.wikidata.org/wiki/Q1476323
-  - https://www.wikidata.org/wiki/Q780339
-  - https://en.wikipedia.org/wiki/Indigenous_peoples_of_the_Pacific_Northwest_Coast
+  - url: "https://www.ebsco.com/research-starters/social-sciences-and-humanities/northwest-coast-cultural-area-native-american"
+    kind: reference
+  - url: "https://www.wikidata.org/wiki/Q1476323"
+    kind: authority
+  - url: "https://www.wikidata.org/wiki/Q780339"
+    kind: authority
+  - url: "https://en.wikipedia.org/wiki/Indigenous_peoples_of_the_Pacific_Northwest_Coast"
+    kind: reference
 status: stub
 updated: 2026-08-10
 ---

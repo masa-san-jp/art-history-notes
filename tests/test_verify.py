@@ -25,7 +25,12 @@ class VerifySequenceTests(unittest.TestCase):
         self.assertEqual(["tools/audit_source_migration.py", "--check-type", "context", "--quiet"], commands[3][1:])
         self.assertEqual(["tools/audit_source_migration.py", "--check-type", "person", "--quiet"], commands[4][1:])
         self.assertEqual(["tools/audit_source_migration.py", "--check-type", "work", "--quiet"], commands[5][1:])
-        self.assertEqual(["-m", "unittest", "discover", "-s", "tests", "-p", "test*.py"], commands[6][1:])
+        self.assertEqual(["tools/audit_source_migration.py", "--check-type", "place", "--quiet"], commands[6][1:])
+        self.assertEqual(["tools/audit_source_migration.py", "--check-type", "event", "--quiet"], commands[7][1:])
+        self.assertEqual(["tools/audit_source_migration.py", "--check-type", "org", "--quiet"], commands[8][1:])
+        self.assertEqual(["tools/audit_source_migration.py", "--check-type", "concept", "--quiet"], commands[9][1:])
+        self.assertEqual(["tools/audit_source_migration.py", "--check-type", "source", "--quiet"], commands[10][1:])
+        self.assertEqual(["-m", "unittest", "discover", "-s", "tests", "-p", "test*.py"], commands[11][1:])
         self.assertEqual(["git", "diff", "--exit-code", "--", "data/", "overviews/coverage.md"], commands[-1])
         self.assertTrue(all(call.kwargs == {"cwd": verify.ROOT, "check": False}
                              for call in run.call_args_list))

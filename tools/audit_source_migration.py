@@ -5,8 +5,8 @@
     uv run --locked python tools/audit_source_migration.py --format markdown
     uv run --locked python tools/audit_source_migration.py --check-type movement
 
-``--check-type`` は指定型にlegacy URL文字列が残っていれば非0で終了する。
-通常の正準検証は互換期間中もlegacyを読み込めるため、この監査を移行完了時のゲートにする。
+``--check-type`` は指定型にlegacy URL文字列、親sourcesにない根拠参照、読み込みエラーが残っていれば非0で終了する。
+全型の移行完了をCIのゲートとして再現する。
 """
 
 from __future__ import annotations
@@ -25,8 +25,13 @@ TYPE_DIRS = {
     "context": ROOT / "contexts",
     "person": ROOT / "entities" / "persons",
     "work": ROOT / "entities" / "works",
+    "place": ROOT / "entities" / "places",
+    "event": ROOT / "entities" / "events",
+    "org": ROOT / "entities" / "orgs",
+    "concept": ROOT / "entities" / "concepts",
+    "source": ROOT / "entities" / "sources",
 }
-TYPE_ORDER = ("movement", "context", "person", "work")
+TYPE_ORDER = ("movement", "context", "person", "work", "place", "event", "org", "concept", "source")
 
 
 def _parse(path: Path) -> dict:

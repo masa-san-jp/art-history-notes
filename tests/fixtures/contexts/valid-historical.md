@@ -19,7 +19,9 @@ signals:
     certainty: attested
     source: https://example.org/historical
     note: 宣言の署名者の立場に限定する
-sources: [https://example.org/historical]
+sources:
+  - url: https://example.org/historical
+    kind: reference
 status: draft
 updated: 2026-08-10
 ---

@@ -19,7 +19,8 @@ coordinates: [14.595833, 120.977222]
 space: []
 relations: []
 sources:
-  - https://www.wikidata.org/wiki/Q1461
+  - url: "https://www.wikidata.org/wiki/Q1461"
+    kind: authority
 status: stub
 updated: 2026-08-09
 ---

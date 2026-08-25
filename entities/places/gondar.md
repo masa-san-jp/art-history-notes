@@ -19,7 +19,8 @@ coordinates: [12.6, 37.466667]
 space: []
 relations: []
 sources:
-  - https://www.wikidata.org/wiki/Q218861
+  - url: "https://www.wikidata.org/wiki/Q218861"
+    kind: authority
 status: stub
 updated: 2026-08-09
 ---

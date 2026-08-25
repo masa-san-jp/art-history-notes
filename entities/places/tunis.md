@@ -19,7 +19,8 @@ coordinates: [36.800833333333, 10.18]
 space: []
 relations: []
 sources:
-  - https://www.wikidata.org/wiki/Q3572
+  - url: "https://www.wikidata.org/wiki/Q3572"
+    kind: authority
 status: stub
 updated: 2026-08-09
 ---

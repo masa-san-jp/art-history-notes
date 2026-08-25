@@ -19,8 +19,10 @@ coordinates: [21.983056, 96.084444]
 space: []
 relations: []
 sources:
-  - https://www.wikidata.org/wiki/Q185518
-  - https://en.wikipedia.org/wiki/Mandalay
+  - url: "https://www.wikidata.org/wiki/Q185518"
+    kind: authority
+  - url: "https://en.wikipedia.org/wiki/Mandalay"
+    kind: reference
 status: stub
 updated: 2026-08-10
 ---

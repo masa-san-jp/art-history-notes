@@ -17,10 +17,14 @@ time:
 space: []
 relations: []
 sources:
-  - https://www.getty.edu/vow/AATFullDisplay?find=divisionism&logic=AND&note=&english=Y&subjectid=300419440
-  - https://www.metmuseum.org/art/collection/search/437658
-  - https://www.metmuseum.org/pt/essays/georges-seurat-1859-1891-and-neo-impressionism
-  - https://www.treccani.it/enciclopedia/divisionismo/
+  - url: "https://www.getty.edu/vow/AATFullDisplay?find=divisionism&logic=AND&note=&english=Y&subjectid=300419440"
+    kind: authority
+  - url: "https://www.metmuseum.org/art/collection/search/437658"
+    kind: institutional
+  - url: "https://www.metmuseum.org/pt/essays/georges-seurat-1859-1891-and-neo-impressionism"
+    kind: institutional
+  - url: "https://www.treccani.it/enciclopedia/divisionismo/"
+    kind: reference
 status: draft
 updated: 2026-08-12
 ---

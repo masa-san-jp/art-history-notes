@@ -19,7 +19,8 @@ coordinates: [13.75, 100.51667]
 space: []
 relations: []
 sources:
-  - https://www.wikidata.org/wiki/Q1861
+  - url: "https://www.wikidata.org/wiki/Q1861"
+    kind: authority
 status: stub
 updated: 2026-08-10
 ---

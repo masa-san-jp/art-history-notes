@@ -21,7 +21,8 @@ coordinates: [41.01, 28.960277777778]
 space: []
 relations: []
 sources:
-  - https://www.wikidata.org/wiki/Q406
+  - url: "https://www.wikidata.org/wiki/Q406"
+    kind: authority
 status: stub
 updated: 2026-08-09
 ---

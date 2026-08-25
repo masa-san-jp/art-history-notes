@@ -19,7 +19,8 @@ coordinates: [6.3176, 5.6145]
 space: []
 relations: []
 sources:
-  - https://www.wikidata.org/wiki/Q320704
+  - url: "https://www.wikidata.org/wiki/Q320704"
+    kind: authority
 status: stub
 updated: 2026-08-09
 ---

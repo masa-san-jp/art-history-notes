@@ -19,7 +19,8 @@ coordinates: [35.6889, 51.3897]
 space: []
 relations: []
 sources:
-  - https://www.wikidata.org/wiki/Q3616
+  - url: "https://www.wikidata.org/wiki/Q3616"
+    kind: authority
 status: stub
 updated: 2026-08-10
 ---

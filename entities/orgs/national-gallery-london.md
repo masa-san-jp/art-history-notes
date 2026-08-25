@@ -18,8 +18,10 @@ space:
   - {role: sited_in, target: place/london}
 relations: []
 sources:
-  - https://www.wikidata.org/wiki/Q180788
-  - https://www.nationalgallery.org.uk/about-us/history
+  - url: "https://www.wikidata.org/wiki/Q180788"
+    kind: authority
+  - url: "https://www.nationalgallery.org.uk/about-us/history"
+    kind: institutional
 status: stub
 updated: 2026-08-12
 ---

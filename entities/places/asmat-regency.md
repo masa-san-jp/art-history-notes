@@ -19,7 +19,8 @@ coordinates: [-5.3795, 138.46344]
 space: []
 relations: []
 sources:
-  - https://www.wikidata.org/wiki/Q27228
+  - url: "https://www.wikidata.org/wiki/Q27228"
+    kind: authority
 status: stub
 updated: 2026-08-10
 ---

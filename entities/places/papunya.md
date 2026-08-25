@@ -19,7 +19,8 @@ coordinates: [-23.2167, 131.9]
 space: []
 relations: []
 sources:
-  - https://www.wikidata.org/wiki/Q18003
+  - url: "https://www.wikidata.org/wiki/Q18003"
+    kind: authority
 status: stub
 updated: 2026-08-09
 ---

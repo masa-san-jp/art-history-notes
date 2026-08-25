@@ -18,9 +18,12 @@ space:
   - {role: sited_in, target: place/paris}
 relations: []
 sources:
-  - https://www.wikidata.org/wiki/Q3487659
-  - https://en.wikipedia.org/wiki/First_Impressionist_Exhibition
-  - https://www.clevelandart.org/art/1950.89
+  - url: "https://www.wikidata.org/wiki/Q3487659"
+    kind: authority
+  - url: "https://en.wikipedia.org/wiki/First_Impressionist_Exhibition"
+    kind: reference
+  - url: "https://www.clevelandart.org/art/1950.89"
+    kind: institutional
 status: stub
 updated: 2026-08-09
 ---

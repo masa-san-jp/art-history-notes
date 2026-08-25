@@ -38,8 +38,7 @@ IMAGE_LICENSES = {"public-domain", "cc0", "pdm"}
 STATUSES = {"stub", "draft", "verified"}
 CERTAINTIES = {"attested", "scholarly", "hypothesis"}
 
-# 出典は移行期間中、URL文字列と構造化objectの両方を読む。新形式のkindは
-# ここだけで定義し、validator・bundle・exportがそれぞれ独自の変換を持たない。
+# sourceのkindはここだけで定義し、validator・bundle・exportがそれぞれ独自の変換を持たない。
 SOURCE_KINDS = {"primary", "scholarly", "institutional", "authority", "reference"}
 SOURCE_KEYS = {"url", "kind", "note"}
 
@@ -163,13 +162,17 @@ def is_http_url(value):
 
 
 def normalize_source(value):
-    """legacy URLまたは構造化sourceを共通の内部表現にする。"""
-    if isinstance(value, str):
-        return {"url": value, "kind": "reference"}
-    if isinstance(value, dict):
-        normalized = {key: value[key] for key in ("url", "kind", "note") if key in value}
-        return normalized
-    return {}
+    """構造化sourceを共通の内部表現にする。legacy URLは受理しない。"""
+    if not isinstance(value, dict):
+        raise TypeError("source は構造化objectが必要")
+    return {key: value[key] for key in ("url", "kind", "note") if key in value}
+
+
+def normalize_reference(value):
+    """claim/relationのURL参照をsource metadataのないreferenceとしてDTO化する。"""
+    if not isinstance(value, str):
+        raise TypeError("source参照はURL文字列が必要")
+    return {"url": value, "kind": "reference"}
 
 
 def normalize_sources(values):
@@ -179,18 +182,16 @@ def normalize_sources(values):
     return [normalize_source(value) for value in values]
 
 
-def sources_are_structured(values):
-    """source配列が空でなく、全件新形式objectかを返す。"""
-    return isinstance(values, list) and bool(values) and all(isinstance(value, dict) for value in values)
-
-
 def source_urls(values):
     """source配列からURLだけを決定的な順序で取り出す。"""
-    return [source["url"] for source in normalize_sources(values) if source.get("url")]
+    if not isinstance(values, list):
+        return []
+    return [source.get("url") for source in values
+            if isinstance(source, dict) and source.get("url")]
 
 
-def source_validation_errors(values, prefix, *, allow_legacy=True):
-    """source配列の構造・URL・kindを検証する。旧文字列は互換期間中許可する。"""
+def source_validation_errors(values, prefix):
+    """source配列の構造・URL・kindを検証する。legacy URL文字列は拒否する。"""
     errors = []
     if not isinstance(values, list):
         return [f"{prefix}: sources は配列が必要"]
@@ -198,13 +199,10 @@ def source_validation_errors(values, prefix, *, allow_legacy=True):
     for index, value in enumerate(values, start=1):
         item_prefix = f"{prefix}: sources[{index}]"
         if isinstance(value, str):
-            if not allow_legacy:
-                errors.append(f"{item_prefix} は構造化objectが必要")
-            if not is_http_url(value):
-                errors.append(f"{item_prefix}.url はscheme/hostを持つhttp(s) URLが必要: {value!r}")
+            errors.append(f"{item_prefix} は構造化objectが必要（legacy URL文字列は禁止）")
             continue
         if not isinstance(value, dict):
-            errors.append(f"{item_prefix} はURL文字列またはobjectが必要")
+            errors.append(f"{item_prefix} は構造化objectが必要")
             continue
         unknown = set(value) - SOURCE_KEYS
         if unknown:

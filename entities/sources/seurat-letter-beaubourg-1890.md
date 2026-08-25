@@ -18,9 +18,12 @@ space: []
 relations:
   - {type: created_by, target: person/georges-seurat}
 sources:
-  - https://fr.wikiquote.org/wiki/Georges_Seurat
-  - https://www.sothebys.com/en/auctions/ecatalogue/2009/impressionist-modern-art-pf9006/lot.8.html
-  - https://hollisarchives.lib.harvard.edu/catalog/art00006_art00006c00846
+  - url: "https://fr.wikiquote.org/wiki/Georges_Seurat"
+    kind: reference
+  - url: "https://www.sothebys.com/en/auctions/ecatalogue/2009/impressionist-modern-art-pf9006/lot.8.html"
+    kind: reference
+  - url: "https://hollisarchives.lib.harvard.edu/catalog/art00006_art00006c00846"
+    kind: institutional
 status: draft
 updated: 2026-08-08
 ---

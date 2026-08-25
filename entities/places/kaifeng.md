@@ -19,7 +19,8 @@ coordinates: [34.795, 114.345]
 space: []
 relations: []
 sources:
-  - https://www.wikidata.org/wiki/Q208471
+  - url: "https://www.wikidata.org/wiki/Q208471"
+    kind: authority
 status: stub
 updated: 2026-08-10
 ---

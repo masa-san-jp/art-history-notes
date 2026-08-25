@@ -19,7 +19,8 @@ coordinates: [31.3, 120.61944444444444]
 space: []
 relations: []
 sources:
-  - https://www.wikidata.org/wiki/Q42622
+  - url: "https://www.wikidata.org/wiki/Q42622"
+    kind: authority
 status: stub
 updated: 2026-08-09
 ---

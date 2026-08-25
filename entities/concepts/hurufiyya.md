@@ -18,18 +18,30 @@ space: []
 relations:
   - {type: influenced_by, target: movement/baghdad-modern-art-group, certainty: scholarly, source: "https://en.wikipedia.org/wiki/Al-Bu%27d_al-Wahad"}
 sources:
-  - https://www.wikidata.org/wiki/Q55614094
-  - https://www.wikidata.org/wiki/Q2418110
-  - https://en.wikipedia.org/wiki/Hurufiyya_movement
-  - https://en.wikipedia.org/wiki/Al-Bu%27d_al-Wahad
-  - https://www.wikidata.org/wiki/Q96312264
-  - https://www.wikidata.org/wiki/Q55627574
-  - https://www.wikidata.org/wiki/Q5963937
-  - https://dubaicollection.ae/en/story/hurufiyya-and-the-inspiration-of-arabic-letters
-  - https://mjmes.wordpress.com/2013/03/08/article-5/
-  - https://charbeldagher.com/cd/index.php/nakd-alfan/kotob-fi-alfan-alhadis/165-2014-02-26-14-21-08
-  - https://www.barjeelartfoundation.org/exhibitions/hurufiyya/
-  - http://english.ahram.org.eg/NewsContent/5/25/253331/Arts--Culture/Visual-Art/Alexandria-exhibition-celebrates-Hurufiyya-art-mov.aspx
+  - url: "https://www.wikidata.org/wiki/Q55614094"
+    kind: authority
+  - url: "https://www.wikidata.org/wiki/Q2418110"
+    kind: authority
+  - url: "https://en.wikipedia.org/wiki/Hurufiyya_movement"
+    kind: reference
+  - url: "https://en.wikipedia.org/wiki/Al-Bu%27d_al-Wahad"
+    kind: reference
+  - url: "https://www.wikidata.org/wiki/Q96312264"
+    kind: authority
+  - url: "https://www.wikidata.org/wiki/Q55627574"
+    kind: authority
+  - url: "https://www.wikidata.org/wiki/Q5963937"
+    kind: authority
+  - url: "https://dubaicollection.ae/en/story/hurufiyya-and-the-inspiration-of-arabic-letters"
+    kind: reference
+  - url: "https://mjmes.wordpress.com/2013/03/08/article-5/"
+    kind: reference
+  - url: "https://charbeldagher.com/cd/index.php/nakd-alfan/kotob-fi-alfan-alhadis/165-2014-02-26-14-21-08"
+    kind: reference
+  - url: "https://www.barjeelartfoundation.org/exhibitions/hurufiyya/"
+    kind: reference
+  - url: "http://english.ahram.org.eg/NewsContent/5/25/253331/Arts--Culture/Visual-Art/Alexandria-exhibition-celebrates-Hurufiyya-art-mov.aspx"
+    kind: reference
 status: draft
 updated: 2026-08-09
 ---

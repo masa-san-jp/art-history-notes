@@ -19,8 +19,10 @@ time:
 space: []
 relations: []
 sources:
-  - https://www.wikidata.org/wiki/Q1731
-  - https://www.moma.org/collection/terms/expressionism
+  - url: "https://www.wikidata.org/wiki/Q1731"
+    kind: authority
+  - url: "https://www.moma.org/collection/terms/expressionism"
+    kind: institutional
 status: stub
 updated: 2026-08-12
 ---

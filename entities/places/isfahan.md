@@ -19,7 +19,8 @@ coordinates: [32.6525, 51.675]
 space: []
 relations: []
 sources:
-  - https://www.wikidata.org/wiki/Q42053
+  - url: "https://www.wikidata.org/wiki/Q42053"
+    kind: authority
 status: stub
 updated: 2026-08-09
 ---

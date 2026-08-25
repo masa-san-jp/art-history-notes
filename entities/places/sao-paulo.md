@@ -19,7 +19,8 @@ coordinates: [-23.550394, -46.633947]
 space: []
 relations: []
 sources:
-  - https://www.wikidata.org/wiki/Q174
+  - url: "https://www.wikidata.org/wiki/Q174"
+    kind: authority
 status: stub
 updated: 2026-08-09
 ---

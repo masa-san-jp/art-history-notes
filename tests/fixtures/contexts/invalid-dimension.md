@@ -6,7 +6,9 @@ scope: {start: "2026", end: "2026", regions: [asia-east-japan], domain: art, top
 about: []
 signals:
   - {id: s001, dimension: unknown_axis, direction: 1, salience: 1, holders: [participants], claim: 未知軸を使う, certainty: attested, source: "https://example.org/a", note: テスト範囲のみ}
-sources: [https://example.org/a]
+sources:
+  - url: https://example.org/a
+    kind: reference
 status: draft
 updated: 2026-08-10
 ---

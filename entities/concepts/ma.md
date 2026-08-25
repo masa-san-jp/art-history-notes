@@ -17,9 +17,12 @@ time:
 space: []
 relations: []
 sources:
-  - https://www.momat.go.jp/magazine/259
-  - https://www.momaw.jp/momaw360/2021somitsu/
-  - https://www.arc.ritsumei.ac.jp/artwiki/index.php/%E9%96%93%E5%90%88%E3%81%84
+  - url: "https://www.momat.go.jp/magazine/259"
+    kind: institutional
+  - url: "https://www.momaw.jp/momaw360/2021somitsu/"
+    kind: reference
+  - url: "https://www.arc.ritsumei.ac.jp/artwiki/index.php/%E9%96%93%E5%90%88%E3%81%84"
+    kind: reference
 status: draft
 updated: 2026-08-12
 ---

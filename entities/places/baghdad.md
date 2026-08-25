@@ -19,7 +19,8 @@ coordinates: [33.315277777778, 44.366111111111]
 space: []
 relations: []
 sources:
-  - https://www.wikidata.org/wiki/Q1530
+  - url: "https://www.wikidata.org/wiki/Q1530"
+    kind: authority
 status: stub
 updated: 2026-08-09
 ---

@@ -19,7 +19,8 @@ coordinates: [52.516667, 13.383333]
 space: []
 relations: []
 sources:
-  - https://www.wikidata.org/wiki/Q64
+  - url: "https://www.wikidata.org/wiki/Q64"
+    kind: authority
 status: stub
 updated: 2026-08-10
 ---

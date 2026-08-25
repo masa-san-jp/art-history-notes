@@ -19,8 +19,10 @@ coordinates: [-5, 150.1]
 space: []
 relations: []
 sources:
-  - https://www.wikidata.org/wiki/Q154628
-  - http://www.ioa.ucla.edu/talepakemalai
+  - url: "https://www.wikidata.org/wiki/Q154628"
+    kind: authority
+  - url: "http://www.ioa.ucla.edu/talepakemalai"
+    kind: institutional
 status: stub
 updated: 2026-08-10
 ---

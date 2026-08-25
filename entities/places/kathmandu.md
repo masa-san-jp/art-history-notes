@@ -19,7 +19,8 @@ time:
   display: null
 relations: []
 sources:
-  - https://www.wikidata.org/wiki/Q3037
+  - url: "https://www.wikidata.org/wiki/Q3037"
+    kind: authority
 status: stub
 updated: 2026-08-10
 ---

@@ -19,8 +19,10 @@ coordinates: [9.4897, 8.0238]
 space: []
 relations: []
 sources:
-  - https://www.wikidata.org/wiki/Q108908650
-  - https://www.nationalgeographic.com/history/article/nigeria-nok-terra-cotta
+  - url: "https://www.wikidata.org/wiki/Q108908650"
+    kind: authority
+  - url: "https://www.nationalgeographic.com/history/article/nigeria-nok-terra-cotta"
+    kind: reference
 status: stub
 updated: 2026-08-10
 ---

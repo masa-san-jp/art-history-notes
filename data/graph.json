@@ -23,15 +23,15 @@
       "sources": [
         {
           "url": "https://www.getty.edu/vow/AATFullDisplay?find=divisionism&logic=AND&note=&english=Y&subjectid=300419440",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://www.metmuseum.org/art/collection/search/437658",
-          "kind": "reference"
+          "kind": "institutional"
         },
         {
           "url": "https://www.metmuseum.org/pt/essays/georges-seurat-1859-1891-and-neo-impressionism",
-          "kind": "reference"
+          "kind": "institutional"
         },
         {
           "url": "https://www.treccani.it/enciclopedia/divisionismo/",
@@ -120,11 +120,11 @@
       "sources": [
         {
           "url": "https://www.wikidata.org/wiki/Q55614094",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://www.wikidata.org/wiki/Q2418110",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://en.wikipedia.org/wiki/Hurufiyya_movement",
@@ -136,15 +136,15 @@
         },
         {
           "url": "https://www.wikidata.org/wiki/Q96312264",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://www.wikidata.org/wiki/Q55627574",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://www.wikidata.org/wiki/Q5963937",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://dubaicollection.ae/en/story/hurufiyya-and-the-inspiration-of-arabic-letters",
@@ -194,7 +194,7 @@
       "sources": [
         {
           "url": "https://www.momat.go.jp/magazine/259",
-          "kind": "reference"
+          "kind": "institutional"
         },
         {
           "url": "https://www.momaw.jp/momaw360/2021somitsu/",
@@ -237,11 +237,11 @@
       "sources": [
         {
           "url": "https://www.wikidata.org/wiki/Q204791",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://encykorea.aks.ac.kr/Article/E0020370",
-          "kind": "reference"
+          "kind": "institutional"
         },
         {
           "url": "https://ko.wikipedia.org/wiki/%EB%AF%BC%ED%99%94",
@@ -257,7 +257,7 @@
         },
         {
           "url": "https://encykorea.aks.ac.kr/Article/E0064832",
-          "kind": "reference"
+          "kind": "institutional"
         },
         {
           "url": "https://www.tongilnews.com/news/articleView.html?idxno=102045",
@@ -265,19 +265,19 @@
         },
         {
           "url": "https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE11077260",
-          "kind": "reference"
+          "kind": "scholarly"
         },
         {
           "url": "https://www.metmuseum.org/art/collection/search/929075",
-          "kind": "reference"
+          "kind": "institutional"
         },
         {
           "url": "https://www.metmuseum.org/art/collection/search/853891",
-          "kind": "reference"
+          "kind": "institutional"
         },
         {
           "url": "https://www.metmuseum.org/art/collection/search/853896",
-          "kind": "reference"
+          "kind": "institutional"
         }
       ],
       "images": [
@@ -332,11 +332,11 @@
       "sources": [
         {
           "url": "https://www.wikidata.org/wiki/Q185905",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&subjectid=300106769",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://ja.wikipedia.org/wiki/浮世絵",
@@ -348,27 +348,27 @@
         },
         {
           "url": "https://www.wikidata.org/wiki/Q2297646",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://www.wikidata.org/wiki/Q3066195",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://www.wikidata.org/wiki/Q1335478",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://www.artic.edu/artworks/19016",
-          "kind": "reference"
+          "kind": "institutional"
         },
         {
           "url": "https://www.artic.edu/artworks/22935",
-          "kind": "reference"
+          "kind": "institutional"
         },
         {
           "url": "https://www.artic.edu/artworks/24645",
-          "kind": "reference"
+          "kind": "institutional"
         }
       ],
       "images": [
@@ -418,15 +418,15 @@
       "sources": [
         {
           "url": "https://www.kyohaku.go.jp/jp/learn/home/yomimono_data/0052/",
-          "kind": "reference"
+          "kind": "institutional"
         },
         {
           "url": "https://online.bunka.go.jp/db/heritages/detail/593382",
-          "kind": "reference"
+          "kind": "institutional"
         },
         {
           "url": "https://www.tnm.jp/modules/rblog/1/2013/08/02/",
-          "kind": "reference"
+          "kind": "institutional"
         }
       ],
       "status": "draft",
@@ -465,7 +465,7 @@
         },
         {
           "url": "https://salons.musee-orsay.fr/Detail/occurrences/90",
-          "kind": "reference"
+          "kind": "institutional"
         },
         {
           "url": "https://catalogue.bnf.fr/ark:/12148/cb30427294w",
@@ -504,11 +504,11 @@
       "sources": [
         {
           "url": "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf",
-          "kind": "reference"
+          "kind": "scholarly"
         },
         {
           "url": "https://galleriemaspes.com/immagini_sito/Cataloghi%20pdf/Brera_Guide.pdf",
-          "kind": "reference"
+          "kind": "scholarly"
         },
         {
           "url": "https://collezionedarte.bancaditalia.it/web/guest/-/divisionismo-1",
@@ -560,7 +560,7 @@
         },
         {
           "url": "https://www.nationalgallery.org.uk/paintings/georges-seurat-bathers-at-asnieres",
-          "kind": "reference"
+          "kind": "institutional"
         }
       ],
       "status": "draft",
@@ -14607,11 +14607,11 @@
       "sources": [
         {
           "url": "https://www.wikidata.org/wiki/Q239303",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://api.artic.edu/api/v1/artworks/27992",
-          "kind": "reference"
+          "kind": "institutional"
         }
       ],
       "status": "stub",
@@ -14654,23 +14654,24 @@
         },
         {
           "url": "https://africanarchive.org/en/staemme/bamana",
-          "kind": "reference"
+          "kind": "primary",
+          "note": "URLの資料パスから一次資料と判定"
         },
         {
           "url": "https://www.metmuseum.org/art/collection/search/310864",
-          "kind": "reference"
+          "kind": "institutional"
         },
         {
           "url": "https://www.metmuseum.org/art/collection/search/312336",
-          "kind": "reference"
+          "kind": "institutional"
         },
         {
           "url": "https://clevelandart.org/art/1965.325",
-          "kind": "reference"
+          "kind": "institutional"
         },
         {
           "url": "https://www.wikidata.org/wiki/Q28136231",
-          "kind": "reference"
+          "kind": "authority"
         }
       ],
       "status": "draft",
@@ -14705,11 +14706,11 @@
       "sources": [
         {
           "url": "https://www.wikidata.org/wiki/Q16181137",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://www.wikidata.org/wiki/Q17192768",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://ko.wikipedia.org/wiki/%EB%8F%84%ED%99%94%EC%84%9C",
@@ -14725,11 +14726,11 @@
         },
         {
           "url": "https://encykorea.aks.ac.kr/Article/E0015927",
-          "kind": "reference"
+          "kind": "institutional"
         },
         {
           "url": "https://encykorea.aks.ac.kr/Article/E0064832",
-          "kind": "reference"
+          "kind": "institutional"
         },
         {
           "url": "https://contents.history.go.kr/mobile/kc/view.do?levelId=kc_n301410",
@@ -14741,7 +14742,7 @@
         },
         {
           "url": "https://dh.aks.ac.kr/sillokwiki/index.php/%EB%8F%84%ED%99%94%EC%84%9C(%E5%9C%96%E7%95%B5%E7%BD%B2)",
-          "kind": "reference"
+          "kind": "institutional"
         }
       ],
       "status": "draft",
@@ -14771,7 +14772,7 @@
       "sources": [
         {
           "url": "https://www.wikidata.org/wiki/Q83164",
-          "kind": "reference"
+          "kind": "authority"
         }
       ],
       "status": "stub",
@@ -14806,11 +14807,11 @@
       "sources": [
         {
           "url": "https://www.wikidata.org/wiki/Q111731632",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://www.penn.museum/sites/expedition/the-art-of-benin/",
-          "kind": "reference"
+          "kind": "institutional"
         },
         {
           "url": "https://en.wikipedia.org/wiki/Igun_Street",
@@ -14818,7 +14819,7 @@
         },
         {
           "url": "https://www.metmuseum.org/perspectives/bronze-casters-igun-street",
-          "kind": "reference"
+          "kind": "institutional"
         }
       ],
       "status": "draft",
@@ -14857,7 +14858,7 @@
       "sources": [
         {
           "url": "https://www.wikidata.org/wiki/Q1579397",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://en.wikipedia.org/wiki/Bandung_Institute_of_Technology",
@@ -14865,7 +14866,7 @@
         },
         {
           "url": "https://www.itb.ac.id/history",
-          "kind": "reference"
+          "kind": "institutional"
         }
       ],
       "status": "draft",
@@ -14900,11 +14901,11 @@
       "sources": [
         {
           "url": "https://www.wikidata.org/wiki/Q180788",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://www.nationalgallery.org.uk/about-us/history",
-          "kind": "reference"
+          "kind": "institutional"
         }
       ],
       "status": "stub",
@@ -14939,7 +14940,7 @@
       "sources": [
         {
           "url": "https://www.wikidata.org/wiki/Q3487659",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://en.wikipedia.org/wiki/First_Impressionist_Exhibition",
@@ -14947,7 +14948,7 @@
         },
         {
           "url": "https://www.clevelandart.org/art/1950.89",
-          "kind": "reference"
+          "kind": "institutional"
         }
       ],
       "status": "stub",
@@ -15020,7 +15021,7 @@
       "sources": [
         {
           "url": "https://www.wikidata.org/wiki/Q3530610",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://en.wikipedia.org/wiki/Thanjavur_painting",
@@ -15059,7 +15060,7 @@
       "sources": [
         {
           "url": "https://www.wikidata.org/wiki/Q1635293",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://www.vkhutemas.ru/en/summary/",
@@ -15071,11 +15072,11 @@
         },
         {
           "url": "https://www.moma.org/interactives/objectphoto/schools/15.html",
-          "kind": "reference"
+          "kind": "institutional"
         },
         {
           "url": "https://www.getty.edu/vow/ULANFullDisplay?find=&nation=&page=&role=&subjectid=500114223",
-          "kind": "reference"
+          "kind": "authority"
         }
       ],
       "status": "draft",
@@ -32253,7 +32254,7 @@
       "sources": [
         {
           "url": "https://www.wikidata.org/wiki/Q42941",
-          "kind": "reference"
+          "kind": "authority"
         }
       ],
       "status": "stub",
@@ -32288,7 +32289,7 @@
       "sources": [
         {
           "url": "https://www.wikidata.org/wiki/Q223517",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://en.wikipedia.org/wiki/Ahmednagar",
@@ -32327,7 +32328,7 @@
       "sources": [
         {
           "url": "https://www.wikidata.org/wiki/Q725514",
-          "kind": "reference"
+          "kind": "authority"
         }
       ],
       "status": "stub",
@@ -32362,7 +32363,7 @@
       "sources": [
         {
           "url": "https://www.wikidata.org/wiki/Q27228",
-          "kind": "reference"
+          "kind": "authority"
         }
       ],
       "status": "stub",
@@ -32397,7 +32398,7 @@
       "sources": [
         {
           "url": "https://www.wikidata.org/wiki/Q1530",
-          "kind": "reference"
+          "kind": "authority"
         }
       ],
       "status": "stub",
@@ -32432,7 +32433,7 @@
       "sources": [
         {
           "url": "https://www.wikidata.org/wiki/Q10389",
-          "kind": "reference"
+          "kind": "authority"
         }
       ],
       "status": "stub",
@@ -32467,7 +32468,7 @@
       "sources": [
         {
           "url": "https://www.wikidata.org/wiki/Q1861",
-          "kind": "reference"
+          "kind": "authority"
         }
       ],
       "status": "stub",
@@ -32502,7 +32503,7 @@
       "sources": [
         {
           "url": "https://www.wikidata.org/wiki/Q256175",
-          "kind": "reference"
+          "kind": "authority"
         }
       ],
       "status": "stub",
@@ -32537,7 +32538,7 @@
       "sources": [
         {
           "url": "https://www.wikidata.org/wiki/Q711982",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://en.wikipedia.org/wiki/Basohli",
@@ -32576,7 +32577,7 @@
       "sources": [
         {
           "url": "https://www.wikidata.org/wiki/Q320704",
-          "kind": "reference"
+          "kind": "authority"
         }
       ],
       "status": "stub",
@@ -32611,7 +32612,7 @@
       "sources": [
         {
           "url": "https://www.wikidata.org/wiki/Q64",
-          "kind": "reference"
+          "kind": "authority"
         }
       ],
       "status": "stub",
@@ -32646,7 +32647,7 @@
       "sources": [
         {
           "url": "https://www.wikidata.org/wiki/Q3636023",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://en.wikipedia.org/wiki/Bijapur",
@@ -32685,11 +32686,11 @@
       "sources": [
         {
           "url": "https://www.wikidata.org/wiki/Q154628",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "http://www.ioa.ucla.edu/talepakemalai",
-          "kind": "reference"
+          "kind": "institutional"
         }
       ],
       "status": "stub",
@@ -32724,7 +32725,7 @@
       "sources": [
         {
           "url": "https://www.wikidata.org/wiki/Q3844",
-          "kind": "reference"
+          "kind": "authority"
         }
       ],
       "status": "stub",
@@ -32759,7 +32760,7 @@
       "sources": [
         {
           "url": "https://www.wikidata.org/wiki/Q239",
-          "kind": "reference"
+          "kind": "authority"
         }
       ],
       "status": "stub",
@@ -32794,7 +32795,7 @@
       "sources": [
         {
           "url": "https://www.wikidata.org/wiki/Q1486",
-          "kind": "reference"
+          "kind": "authority"
         }
       ],
       "status": "stub",
@@ -32829,7 +32830,7 @@
       "sources": [
         {
           "url": "https://www.wikidata.org/wiki/Q85",
-          "kind": "reference"
+          "kind": "authority"
         }
       ],
       "status": "stub",
@@ -32865,7 +32866,7 @@
       "sources": [
         {
           "url": "https://www.wikidata.org/wiki/Q1297",
-          "kind": "reference"
+          "kind": "authority"
         }
       ],
       "status": "stub",
@@ -32900,7 +32901,7 @@
       "sources": [
         {
           "url": "https://www.wikidata.org/wiki/Q5582862",
-          "kind": "reference"
+          "kind": "authority"
         }
       ],
       "status": "stub",
@@ -32935,7 +32936,7 @@
       "sources": [
         {
           "url": "https://www.wikidata.org/wiki/Q3718",
-          "kind": "reference"
+          "kind": "authority"
         }
       ],
       "status": "stub",
@@ -32970,7 +32971,7 @@
       "sources": [
         {
           "url": "https://www.wikidata.org/wiki/Q1960",
-          "kind": "reference"
+          "kind": "authority"
         }
       ],
       "status": "stub",
@@ -33011,11 +33012,11 @@
       "sources": [
         {
           "url": "https://www.wikidata.org/wiki/Q3828",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://www.wikidata.org/wiki/Q487070",
-          "kind": "reference"
+          "kind": "authority"
         }
       ],
       "status": "stub",
@@ -33050,7 +33051,7 @@
       "sources": [
         {
           "url": "https://www.wikidata.org/wiki/Q8079936",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://nominatim.openstreetmap.org/search?q=%C4%90%C3%B4ng+H%E1%BB%93%2C+Thu%E1%BA%ADn+Th%C3%A0nh%2C+B%E1%BA%AFc+Ninh%2C+Vietnam&format=json",
@@ -33089,11 +33090,11 @@
       "sources": [
         {
           "url": "https://www.wikidata.org/wiki/Q1731",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://www.moma.org/collection/terms/expressionism",
-          "kind": "reference"
+          "kind": "institutional"
         }
       ],
       "status": "stub",
@@ -33128,11 +33129,11 @@
       "sources": [
         {
           "url": "https://www.wikidata.org/wiki/Q2044",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://82nd-and-fifth.metmuseum.org/toah/ht/08/eustc.html",
-          "kind": "reference"
+          "kind": "institutional"
         }
       ],
       "status": "stub",
@@ -33167,7 +33168,7 @@
       "sources": [
         {
           "url": "https://www.wikidata.org/wiki/Q4141623",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://en.wikipedia.org/wiki/Golconda_painting",
@@ -33206,7 +33207,7 @@
       "sources": [
         {
           "url": "https://www.wikidata.org/wiki/Q218861",
-          "kind": "reference"
+          "kind": "authority"
         }
       ],
       "status": "stub",
@@ -33241,11 +33242,11 @@
       "sources": [
         {
           "url": "https://www.wikidata.org/wiki/Q1253613",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://rubinmuseum.org/projecthimalayanart/essays/murals-of-gongkar-chode/",
-          "kind": "reference"
+          "kind": "institutional"
         }
       ],
       "status": "stub",
@@ -33280,7 +33281,7 @@
       "sources": [
         {
           "url": "https://www.wikidata.org/wiki/Q16572",
-          "kind": "reference"
+          "kind": "authority"
         }
       ],
       "status": "stub",
@@ -33315,11 +33316,11 @@
       "sources": [
         {
           "url": "https://www.wikidata.org/wiki/Q1999606",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://rubinmuseum.org/projecthimalayanart/essays/murals-of-gongkar-chode/",
-          "kind": "reference"
+          "kind": "institutional"
         }
       ],
       "status": "stub",
@@ -33354,7 +33355,7 @@
       "sources": [
         {
           "url": "https://www.wikidata.org/wiki/Q4970",
-          "kind": "reference"
+          "kind": "authority"
         }
       ],
       "status": "stub",
@@ -33389,7 +33390,7 @@
       "sources": [
         {
           "url": "https://www.wikidata.org/wiki/Q1858",
-          "kind": "reference"
+          "kind": "authority"
         }
       ],
       "status": "stub",
@@ -33424,7 +33425,7 @@
       "sources": [
         {
           "url": "https://www.wikidata.org/wiki/Q624467",
-          "kind": "reference"
+          "kind": "authority"
         }
       ],
       "status": "stub",
@@ -33459,7 +33460,7 @@
       "sources": [
         {
           "url": "https://www.wikidata.org/wiki/Q45313",
-          "kind": "reference"
+          "kind": "authority"
         }
       ],
       "status": "stub",
@@ -33494,7 +33495,7 @@
       "sources": [
         {
           "url": "https://www.wikidata.org/wiki/Q180084",
-          "kind": "reference"
+          "kind": "authority"
         }
       ],
       "status": "stub",
@@ -33529,7 +33530,7 @@
       "sources": [
         {
           "url": "https://www.wikidata.org/wiki/Q42053",
-          "kind": "reference"
+          "kind": "authority"
         }
       ],
       "status": "stub",
@@ -33570,7 +33571,7 @@
       "sources": [
         {
           "url": "https://www.wikidata.org/wiki/Q406",
-          "kind": "reference"
+          "kind": "authority"
         }
       ],
       "status": "stub",
@@ -33605,7 +33606,7 @@
       "sources": [
         {
           "url": "https://www.wikidata.org/wiki/Q109079",
-          "kind": "reference"
+          "kind": "authority"
         }
       ],
       "status": "stub",
@@ -33640,7 +33641,7 @@
       "sources": [
         {
           "url": "https://www.wikidata.org/wiki/Q208471",
-          "kind": "reference"
+          "kind": "authority"
         }
       ],
       "status": "stub",
@@ -33675,7 +33676,7 @@
       "sources": [
         {
           "url": "https://www.wikidata.org/wiki/Q6356113",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://en.wikipedia.org/wiki/Kamasan",
@@ -33714,7 +33715,7 @@
       "sources": [
         {
           "url": "https://www.wikidata.org/wiki/Q662868",
-          "kind": "reference"
+          "kind": "authority"
         }
       ],
       "status": "stub",
@@ -33749,7 +33750,7 @@
       "sources": [
         {
           "url": "https://www.wikidata.org/wiki/Q3037",
-          "kind": "reference"
+          "kind": "authority"
         }
       ],
       "status": "stub",
@@ -33784,7 +33785,7 @@
       "sources": [
         {
           "url": "https://www.wikidata.org/wiki/Q1348",
-          "kind": "reference"
+          "kind": "authority"
         }
       ],
       "status": "stub",
@@ -33820,7 +33821,7 @@
       "sources": [
         {
           "url": "https://www.wikidata.org/wiki/Q34600",
-          "kind": "reference"
+          "kind": "authority"
         }
       ],
       "status": "stub",
@@ -33855,7 +33856,7 @@
       "sources": [
         {
           "url": "https://www.wikidata.org/wiki/Q1801031",
-          "kind": "reference"
+          "kind": "authority"
         }
       ],
       "status": "stub",
@@ -33890,7 +33891,7 @@
       "sources": [
         {
           "url": "https://www.wikidata.org/wiki/Q43631",
-          "kind": "reference"
+          "kind": "authority"
         }
       ],
       "status": "stub",
@@ -33925,7 +33926,7 @@
       "sources": [
         {
           "url": "https://www.wikidata.org/wiki/Q2868",
-          "kind": "reference"
+          "kind": "authority"
         }
       ],
       "status": "stub",
@@ -33960,7 +33961,7 @@
       "sources": [
         {
           "url": "https://www.wikidata.org/wiki/Q84",
-          "kind": "reference"
+          "kind": "authority"
         }
       ],
       "status": "stub",
@@ -33995,7 +33996,7 @@
       "sources": [
         {
           "url": "https://www.wikidata.org/wiki/Q185518",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://en.wikipedia.org/wiki/Mandalay",
@@ -34034,7 +34035,7 @@
       "sources": [
         {
           "url": "https://www.wikidata.org/wiki/Q1461",
-          "kind": "reference"
+          "kind": "authority"
         }
       ],
       "status": "stub",
@@ -34069,7 +34070,7 @@
       "sources": [
         {
           "url": "https://www.wikidata.org/wiki/Q1489",
-          "kind": "reference"
+          "kind": "authority"
         }
       ],
       "status": "stub",
@@ -34104,7 +34105,7 @@
       "sources": [
         {
           "url": "https://www.wikidata.org/wiki/Q490",
-          "kind": "reference"
+          "kind": "authority"
         }
       ],
       "status": "stub",
@@ -34139,7 +34140,7 @@
       "sources": [
         {
           "url": "https://www.wikidata.org/wiki/Q649",
-          "kind": "reference"
+          "kind": "authority"
         }
       ],
       "status": "stub",
@@ -34174,7 +34175,7 @@
       "sources": [
         {
           "url": "https://www.wikidata.org/wiki/Q1807961",
-          "kind": "reference"
+          "kind": "authority"
         }
       ],
       "status": "stub",
@@ -34215,7 +34216,7 @@
       "sources": [
         {
           "url": "https://www.wikidata.org/wiki/Q1156",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://en.wikipedia.org/wiki/Mumbai",
@@ -34254,7 +34255,7 @@
       "sources": [
         {
           "url": "https://www.wikidata.org/wiki/Q1017175",
-          "kind": "reference"
+          "kind": "authority"
         }
       ],
       "status": "stub",
@@ -34289,7 +34290,7 @@
       "sources": [
         {
           "url": "https://www.wikidata.org/wiki/Q16666",
-          "kind": "reference"
+          "kind": "authority"
         }
       ],
       "status": "stub",
@@ -34324,7 +34325,7 @@
       "sources": [
         {
           "url": "https://www.wikidata.org/wiki/Q55",
-          "kind": "reference"
+          "kind": "authority"
         }
       ],
       "status": "stub",
@@ -34359,7 +34360,7 @@
       "sources": [
         {
           "url": "https://www.wikidata.org/wiki/Q60",
-          "kind": "reference"
+          "kind": "authority"
         }
       ],
       "status": "stub",
@@ -34394,7 +34395,7 @@
       "sources": [
         {
           "url": "https://www.wikidata.org/wiki/Q664",
-          "kind": "reference"
+          "kind": "authority"
         }
       ],
       "status": "stub",
@@ -34429,7 +34430,7 @@
       "sources": [
         {
           "url": "https://www.wikidata.org/wiki/Q108908650",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://www.nationalgeographic.com/history/article/nigeria-nok-terra-cotta",
@@ -34472,11 +34473,11 @@
         },
         {
           "url": "https://www.wikidata.org/wiki/Q1476323",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://www.wikidata.org/wiki/Q780339",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://en.wikipedia.org/wiki/Indigenous_peoples_of_the_Pacific_Northwest_Coast",
@@ -34515,7 +34516,7 @@
       "sources": [
         {
           "url": "https://www.wikidata.org/wiki/Q2068342",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://www.himalayanart.org/search/set.cfm?setID=248",
@@ -34554,7 +34555,7 @@
       "sources": [
         {
           "url": "https://www.wikidata.org/wiki/Q18003",
-          "kind": "reference"
+          "kind": "authority"
         }
       ],
       "status": "stub",
@@ -34589,7 +34590,7 @@
       "sources": [
         {
           "url": "https://www.wikidata.org/wiki/Q90",
-          "kind": "reference"
+          "kind": "authority"
         }
       ],
       "status": "stub",
@@ -34624,7 +34625,7 @@
       "sources": [
         {
           "url": "https://www.wikidata.org/wiki/Q579702",
-          "kind": "reference"
+          "kind": "authority"
         }
       ],
       "status": "stub",
@@ -34659,7 +34660,7 @@
       "sources": [
         {
           "url": "https://www.wikidata.org/wiki/Q2900",
-          "kind": "reference"
+          "kind": "authority"
         }
       ],
       "status": "stub",
@@ -34694,7 +34695,7 @@
       "sources": [
         {
           "url": "https://www.wikidata.org/wiki/Q8678",
-          "kind": "reference"
+          "kind": "authority"
         }
       ],
       "status": "stub",
@@ -34729,15 +34730,15 @@
       "sources": [
         {
           "url": "https://www.wikidata.org/wiki/Q220",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://www.metmuseum.org/ko/essays/baroque-rome",
-          "kind": "reference"
+          "kind": "institutional"
         },
         {
           "url": "https://www.metmuseum.org/fr/essays/neoclassicism",
-          "kind": "reference"
+          "kind": "institutional"
         }
       ],
       "status": "stub",
@@ -34772,7 +34773,7 @@
       "sources": [
         {
           "url": "https://www.wikidata.org/wiki/Q656",
-          "kind": "reference"
+          "kind": "authority"
         }
       ],
       "status": "stub",
@@ -34807,7 +34808,7 @@
       "sources": [
         {
           "url": "https://www.wikidata.org/wiki/Q683",
-          "kind": "reference"
+          "kind": "authority"
         }
       ],
       "status": "stub",
@@ -34842,7 +34843,7 @@
       "sources": [
         {
           "url": "https://www.wikidata.org/wiki/Q174",
-          "kind": "reference"
+          "kind": "authority"
         }
       ],
       "status": "stub",
@@ -34877,7 +34878,7 @@
       "sources": [
         {
           "url": "https://www.wikidata.org/wiki/Q333476",
-          "kind": "reference"
+          "kind": "authority"
         }
       ],
       "status": "stub",
@@ -34912,7 +34913,7 @@
       "sources": [
         {
           "url": "https://www.wikidata.org/wiki/Q8684",
-          "kind": "reference"
+          "kind": "authority"
         }
       ],
       "status": "stub",
@@ -34947,7 +34948,7 @@
       "sources": [
         {
           "url": "https://www.wikidata.org/wiki/Q62556769",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://en.wikipedia.org/wiki/Sepik_River",
@@ -34986,7 +34987,7 @@
       "sources": [
         {
           "url": "https://www.wikidata.org/wiki/Q8686",
-          "kind": "reference"
+          "kind": "authority"
         }
       ],
       "status": "stub",
@@ -35021,7 +35022,7 @@
       "sources": [
         {
           "url": "https://www.wikidata.org/wiki/Q1211183",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://www.himalayanart.org/search/set.cfm?setID=250",
@@ -35060,7 +35061,7 @@
       "sources": [
         {
           "url": "https://www.wikidata.org/wiki/Q6397066",
-          "kind": "reference"
+          "kind": "authority"
         }
       ],
       "status": "stub",
@@ -35095,7 +35096,7 @@
       "sources": [
         {
           "url": "https://www.wikidata.org/wiki/Q2751",
-          "kind": "reference"
+          "kind": "authority"
         }
       ],
       "status": "stub",
@@ -35130,7 +35131,7 @@
       "sources": [
         {
           "url": "https://www.wikidata.org/wiki/Q662380",
-          "kind": "reference"
+          "kind": "authority"
         }
       ],
       "status": "stub",
@@ -35165,7 +35166,7 @@
       "sources": [
         {
           "url": "https://www.wikidata.org/wiki/Q42622",
-          "kind": "reference"
+          "kind": "authority"
         }
       ],
       "status": "stub",
@@ -35200,7 +35201,7 @@
       "sources": [
         {
           "url": "https://www.wikidata.org/wiki/Q80053",
-          "kind": "reference"
+          "kind": "authority"
         }
       ],
       "status": "stub",
@@ -35235,7 +35236,7 @@
       "sources": [
         {
           "url": "https://www.wikidata.org/wiki/Q61985",
-          "kind": "reference"
+          "kind": "authority"
         }
       ],
       "status": "stub",
@@ -35270,7 +35271,7 @@
       "sources": [
         {
           "url": "https://www.wikidata.org/wiki/Q3616",
-          "kind": "reference"
+          "kind": "authority"
         }
       ],
       "status": "stub",
@@ -35305,7 +35306,7 @@
       "sources": [
         {
           "url": "https://www.wikidata.org/wiki/Q41496",
-          "kind": "reference"
+          "kind": "authority"
         }
       ],
       "status": "stub",
@@ -35347,7 +35348,7 @@
       "sources": [
         {
           "url": "https://www.wikidata.org/wiki/Q1490",
-          "kind": "reference"
+          "kind": "authority"
         }
       ],
       "status": "stub",
@@ -35382,7 +35383,7 @@
       "sources": [
         {
           "url": "https://www.wikidata.org/wiki/Q678",
-          "kind": "reference"
+          "kind": "authority"
         }
       ],
       "status": "stub",
@@ -35417,7 +35418,7 @@
       "sources": [
         {
           "url": "https://www.wikidata.org/wiki/Q172",
-          "kind": "reference"
+          "kind": "authority"
         }
       ],
       "status": "stub",
@@ -35452,7 +35453,7 @@
       "sources": [
         {
           "url": "https://www.wikidata.org/wiki/Q7857142",
-          "kind": "reference"
+          "kind": "authority"
         }
       ],
       "status": "stub",
@@ -35487,11 +35488,11 @@
       "sources": [
         {
           "url": "https://www.wikidata.org/wiki/Q927302",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://rubinmuseum.org/projecthimalayanart/essays/portrait-of-the-ninth-karmapa/",
-          "kind": "reference"
+          "kind": "institutional"
         }
       ],
       "status": "stub",
@@ -35526,7 +35527,7 @@
       "sources": [
         {
           "url": "https://www.wikidata.org/wiki/Q3572",
-          "kind": "reference"
+          "kind": "authority"
         }
       ],
       "status": "stub",
@@ -35561,7 +35562,7 @@
       "sources": [
         {
           "url": "https://www.wikidata.org/wiki/Q210654",
-          "kind": "reference"
+          "kind": "authority"
         }
       ],
       "status": "stub",
@@ -35596,7 +35597,7 @@
       "sources": [
         {
           "url": "https://www.wikidata.org/wiki/Q200340",
-          "kind": "reference"
+          "kind": "authority"
         },
         {
           "url": "https://en.wikipedia.org/wiki/Udaipur",
@@ -35635,7 +35636,7 @@
       "sources": [
         {
           "url": "https://www.wikidata.org/wiki/Q23430",
-          "kind": "reference"
+          "kind": "authority"
         }
       ],
       "status": "stub",
@@ -35670,7 +35671,7 @@
       "sources": [
         {
           "url": "https://www.wikidata.org/wiki/Q2235",
-          "kind": "reference"
+          "kind": "authority"
         }
       ],
       "status": "stub",
@@ -35705,7 +35706,7 @@
       "sources": [
         {
           "url": "https://www.wikidata.org/wiki/Q641",
-          "kind": "reference"
+          "kind": "authority"
         }
       ],
       "status": "stub",
@@ -35740,7 +35741,7 @@
       "sources": [
         {
           "url": "https://www.wikidata.org/wiki/Q1748",
-          "kind": "reference"
+          "kind": "authority"
         }
       ],
       "status": "stub",
@@ -35775,7 +35776,7 @@
       "sources": [
         {
           "url": "https://www.wikidata.org/wiki/Q3955",
-          "kind": "reference"
+          "kind": "authority"
         }
       ],
       "status": "stub",
@@ -35810,7 +35811,7 @@
       "sources": [
         {
           "url": "https://www.wikidata.org/wiki/Q57906",
-          "kind": "reference"
+          "kind": "authority"
         }
       ],
       "status": "stub",
@@ -35845,7 +35846,7 @@
       "sources": [
         {
           "url": "https://www.wikidata.org/wiki/Q147975",
-          "kind": "reference"
+          "kind": "authority"
         }
       ],
       "status": "stub",
@@ -35880,7 +35881,7 @@
       "sources": [
         {
           "url": "https://www.wikidata.org/wiki/Q72",
-          "kind": "reference"
+          "kind": "authority"
         }
       ],
       "status": "stub",
@@ -35923,7 +35924,7 @@
         },
         {
           "url": "https://hollisarchives.lib.harvard.edu/catalog/art00006_art00006c00846",
-          "kind": "reference"
+          "kind": "institutional"
         }
       ],
       "status": "draft",

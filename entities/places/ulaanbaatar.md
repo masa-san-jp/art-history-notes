@@ -19,7 +19,8 @@ coordinates: [47.921357, 106.905515]
 space: []
 relations: []
 sources:
-  - https://www.wikidata.org/wiki/Q23430
+  - url: "https://www.wikidata.org/wiki/Q23430"
+    kind: authority
 status: stub
 updated: 2026-08-09
 ---

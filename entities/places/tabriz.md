@@ -19,7 +19,8 @@ coordinates: [38.073889, 46.296111]
 space: []
 relations: []
 sources:
-  - https://www.wikidata.org/wiki/Q80053
+  - url: "https://www.wikidata.org/wiki/Q80053"
+    kind: authority
 status: stub
 updated: 2026-08-09
 ---

@@ -19,7 +19,8 @@ coordinates: [40.712778, -74.006111]
 space: []
 relations: []
 sources:
-  - https://www.wikidata.org/wiki/Q60
+  - url: "https://www.wikidata.org/wiki/Q60"
+    kind: authority
 status: stub
 updated: 2026-08-09
 ---

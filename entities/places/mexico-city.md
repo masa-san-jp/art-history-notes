@@ -19,7 +19,8 @@ coordinates: [19.353773, -99.13589]
 space: []
 relations: []
 sources:
-  - https://www.wikidata.org/wiki/Q1489
+  - url: "https://www.wikidata.org/wiki/Q1489"
+    kind: authority
 status: stub
 updated: 2026-08-09
 ---

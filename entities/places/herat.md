@@ -19,7 +19,8 @@ coordinates: [34.341944, 62.203056]
 space: []
 relations: []
 sources:
-  - https://www.wikidata.org/wiki/Q45313
+  - url: "https://www.wikidata.org/wiki/Q45313"
+    kind: authority
 status: stub
 updated: 2026-08-09
 ---

@@ -19,7 +19,8 @@ coordinates: [43.318333, 11.331389]
 space: []
 relations: []
 sources:
-  - https://www.wikidata.org/wiki/Q2751
+  - url: "https://www.wikidata.org/wiki/Q2751"
+    kind: authority
 status: stub
 updated: 2026-08-09
 ---

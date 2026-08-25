@@ -68,7 +68,8 @@ def context(context_id="context/example", kind="current", signals=None):
         },
         "about": [] if kind == "current" else ["movement/example"],
         "signals": signals,
-        "sources": list(dict.fromkeys(item["source"] for item in signals)),
+        "sources": [{"url": source, "kind": "reference"}
+                    for source in dict.fromkeys(item["source"] for item in signals)],
         "status": "draft",
         "updated": "2026-08-10",
         "_path": ROOT / "contexts" / f"{context_id.split('/', 1)[1]}.md",
@@ -204,15 +205,15 @@ class ValidationTests(unittest.TestCase):
     def test_source_must_be_url_or_source_entity(self):
         item = context()
         item["signals"][0]["source"] = "source/missing"
-        item["sources"] = ["source/missing"]
-        self.assert_error(item, "既存 source ID")
-        item["signals"][0]["source"] = "source/example"
-        item["sources"] = ["source/example"]
+        item["sources"] = [{"url": "source/missing", "kind": "reference"}]
+        self.assert_error(item, "http(s) URL")
+        item["signals"][0]["source"] = "https://example.org/source"
+        item["sources"] = [{"url": "https://example.org/source", "kind": "reference"}]
         self.assertEqual([], self.errors(item))
 
     def test_signal_source_must_be_listed(self):
         item = context()
-        item["sources"] = ["https://example.org/other"]
+        item["sources"] = [{"url": "https://example.org/other", "kind": "reference"}]
         self.assert_error(item, "context の sources にない")
 
     def test_duplicate_signal_claim(self):

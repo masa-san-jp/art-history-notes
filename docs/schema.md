@@ -84,7 +84,7 @@ updated: 2026-08-08
 ---
 ```
 
-### `sources` — 構造化出典（互換期間あり）
+### `sources` — 構造化出典
 
 正準形式は `url`、`kind`、任意の `note` を持つobject配列である。`kind` は次の5値に限定する。
 
@@ -96,21 +96,20 @@ updated: 2026-08-08
 | `authority` | Wikidata、Getty、NDLなどの典拠レコード |
 | `reference` | 上記に分類できない概説、百科事典、検索入口 |
 
-移行期間中は旧形式の `- https://...` も読み込むが、内部では
-`{url: https://..., kind: reference}` として扱う。新形式ではURLのscheme/host、kind、同一entity内の
-重複URLを検証し、全件objectの文書では `claims[].source` と解釈系 `relations[].source` が
-`sources[].url` に存在することを検証する。`context` の `signals[].source` も同じ規則で扱う。
-移行残数は次でJSONまたはMarkdownに再現できる。
+旧形式のURL文字列は受理しない。URLのscheme/host、kind、同一entity内の重複URLを検証し、
+`claims[].source` と解釈系 `relations[].source` が `sources[].url` に存在することを検証する。
+`context` の `signals[].source` も同じ規則で扱う。全型の移行残数は次でJSONまたはMarkdownに再現できる。
 
 ```bash
 uv run --locked python tools/audit_source_migration.py
 uv run --locked python tools/audit_source_migration.py --format markdown
 uv run --locked python tools/audit_source_migration.py --check-type movement
 uv run --locked python tools/audit_source_migration.py --check-type context
+uv run --locked python tools/audit_source_migration.py --check-type person
+uv run --locked python tools/audit_source_migration.py --check-type work
 ```
 
-movement と context は構造化形式への移行を完了しており、対象型の `--check-type` をCIのゲートにしている。
-person / work / place / event / org / group のlegacy移行は後続issueの対象である。
+全8 entity型が構造化形式へ移行済みで、各型の `--check-type` をCIのゲートにしている。
 
 ### `kind`（movement 必須・4値）
 

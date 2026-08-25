@@ -19,7 +19,8 @@ coordinates: [11.0667, 7.7]
 space: []
 relations: []
 sources:
-  - https://www.wikidata.org/wiki/Q147975
+  - url: "https://www.wikidata.org/wiki/Q147975"
+    kind: authority
 status: stub
 updated: 2026-08-09
 ---

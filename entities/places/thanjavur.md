@@ -19,7 +19,8 @@ coordinates: [10.787, 79.137806]
 space: []
 relations: []
 sources:
-  - https://www.wikidata.org/wiki/Q41496
+  - url: "https://www.wikidata.org/wiki/Q41496"
+    kind: authority
 status: stub
 updated: 2026-08-10
 ---

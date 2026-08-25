@@ -19,7 +19,8 @@ coordinates: [-41.2, 174]
 space: []
 relations: []
 sources:
-  - https://www.wikidata.org/wiki/Q664
+  - url: "https://www.wikidata.org/wiki/Q664"
+    kind: authority
 status: stub
 updated: 2026-08-10
 ---

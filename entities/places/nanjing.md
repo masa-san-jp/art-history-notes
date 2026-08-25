@@ -19,7 +19,8 @@ coordinates: [32.060833333333335, 118.77888888888889]
 space: []
 relations: []
 sources:
-  - https://www.wikidata.org/wiki/Q16666
+  - url: "https://www.wikidata.org/wiki/Q16666"
+    kind: authority
 status: stub
 updated: 2026-08-10
 ---

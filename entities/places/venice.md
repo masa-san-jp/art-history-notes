@@ -19,7 +19,8 @@ coordinates: [45.439722, 12.331944]
 space: []
 relations: []
 sources:
-  - https://www.wikidata.org/wiki/Q641
+  - url: "https://www.wikidata.org/wiki/Q641"
+    kind: authority
 status: stub
 updated: 2026-08-09
 ---

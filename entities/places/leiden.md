@@ -19,7 +19,8 @@ coordinates: [52.16, 4.49]
 space: []
 relations: []
 sources:
-  - https://www.wikidata.org/wiki/Q43631
+  - url: "https://www.wikidata.org/wiki/Q43631"
+    kind: authority
 status: stub
 updated: 2026-08-11
 ---

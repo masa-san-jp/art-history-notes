@@ -19,8 +19,10 @@ time:
 space: []
 relations: []
 sources:
-  - https://www.wikidata.org/wiki/Q2044
-  - https://82nd-and-fifth.metmuseum.org/toah/ht/08/eustc.html
+  - url: "https://www.wikidata.org/wiki/Q2044"
+    kind: authority
+  - url: "https://82nd-and-fifth.metmuseum.org/toah/ht/08/eustc.html"
+    kind: institutional
 status: stub
 updated: 2026-08-12
 ---

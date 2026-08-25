@@ -13,18 +13,22 @@ sys.path.insert(0, str(ROOT / "tools"))
 import audit_source_migration
 import bundle
 import new_entity
-from kb import (normalize_source, normalize_sources, normalized_meta,
+from kb import (DIR_FOR_TYPE, normalize_source, normalize_sources, normalized_meta,
                 source_validation_errors)
 
 
 class SourceNormalizationTests(unittest.TestCase):
-    def test_legacy_and_object_share_url_internal_representation(self):
-        legacy = normalize_source("https://example.org/source")
+    def test_structured_source_has_stable_internal_representation(self):
         structured = normalize_source({"url": "https://example.org/source", "kind": "primary",
                                        "note": "同時代資料"})
-        self.assertEqual(legacy["url"], structured["url"])
-        self.assertEqual("reference", legacy["kind"])
+        self.assertEqual("https://example.org/source", structured["url"])
         self.assertEqual("primary", structured["kind"])
+
+    def test_legacy_source_is_rejected(self):
+        with self.assertRaises(TypeError):
+            normalize_source("https://example.org/source")
+        self.assertIn("legacy URL文字列は禁止", "\n".join(
+            source_validation_errors(["https://example.org/source"], "fixture")))
 
     def test_new_source_rejects_unknown_kind_invalid_url_and_duplicate(self):
         sources = [
@@ -42,10 +46,10 @@ class SourceNormalizationTests(unittest.TestCase):
         self.assertTrue(any("primary" in error and "note" in error for error in errors))
 
     def test_normalized_meta_does_not_modify_input(self):
-        meta = {"sources": ["https://example.org/source"]}
+        meta = {"sources": [{"url": "https://example.org/source", "kind": "reference"}]}
         normalized = normalized_meta(meta)
-        self.assertEqual("https://example.org/source", meta["sources"][0])
-        self.assertEqual({"url": "https://example.org/source", "kind": "reference"}, normalized["sources"][0])
+        self.assertEqual("https://example.org/source", meta["sources"][0]["url"])
+        self.assertEqual(meta["sources"], normalized["sources"])
 
 
 class ConsumerTests(unittest.TestCase):
@@ -80,6 +84,9 @@ class ConsumerTests(unittest.TestCase):
 
 
 class AuditTests(unittest.TestCase):
+    def test_audit_covers_all_entity_types(self):
+        self.assertEqual(set(DIR_FOR_TYPE), set(audit_source_migration.TYPE_DIRS) - {"context"})
+
     def test_audit_counts_fixture_files_and_check_type_exit_code(self):
         with tempfile.TemporaryDirectory() as directory:
             root = Path(directory)

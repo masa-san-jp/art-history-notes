@@ -19,7 +19,8 @@ coordinates: [-8.507, 115.262]
 space: []
 relations: []
 sources:
-  - https://www.wikidata.org/wiki/Q210654
+  - url: "https://www.wikidata.org/wiki/Q210654"
+    kind: authority
 status: stub
 updated: 2026-08-09
 ---

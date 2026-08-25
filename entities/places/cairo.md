@@ -19,7 +19,8 @@ coordinates: [30.044444444444, 31.235833333333]
 space: []
 relations: []
 sources:
-  - https://www.wikidata.org/wiki/Q85
+  - url: "https://www.wikidata.org/wiki/Q85"
+    kind: authority
 status: stub
 updated: 2026-08-10
 ---

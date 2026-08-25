@@ -19,7 +19,8 @@ coordinates: [31.2325, 121.46916666666667]
 space: []
 relations: []
 sources:
-  - https://www.wikidata.org/wiki/Q8686
+  - url: "https://www.wikidata.org/wiki/Q8686"
+    kind: authority
 status: stub
 updated: 2026-08-09
 ---

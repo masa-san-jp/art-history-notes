@@ -18,16 +18,26 @@ space:
   - {role: sited_in, target: place/hanseong}
 relations: []
 sources:
-  - https://www.wikidata.org/wiki/Q16181137
-  - https://www.wikidata.org/wiki/Q17192768
-  - https://ko.wikipedia.org/wiki/%EB%8F%84%ED%99%94%EC%84%9C
-  - https://en.wikipedia.org/wiki/Dohwaseo
-  - https://contents.history.go.kr/mobile/nh/view.do?levelId=nh_027_0050_0040_0030
-  - https://encykorea.aks.ac.kr/Article/E0015927
-  - https://encykorea.aks.ac.kr/Article/E0064832
-  - https://contents.history.go.kr/mobile/kc/view.do?levelId=kc_n301410
-  - https://monthlyart.com/encyclopedia/%EB%8F%84%ED%99%94%EC%84%9C/
-  - https://dh.aks.ac.kr/sillokwiki/index.php/%EB%8F%84%ED%99%94%EC%84%9C(%E5%9C%96%E7%95%B5%E7%BD%B2)
+  - url: "https://www.wikidata.org/wiki/Q16181137"
+    kind: authority
+  - url: "https://www.wikidata.org/wiki/Q17192768"
+    kind: authority
+  - url: "https://ko.wikipedia.org/wiki/%EB%8F%84%ED%99%94%EC%84%9C"
+    kind: reference
+  - url: "https://en.wikipedia.org/wiki/Dohwaseo"
+    kind: reference
+  - url: "https://contents.history.go.kr/mobile/nh/view.do?levelId=nh_027_0050_0040_0030"
+    kind: reference
+  - url: "https://encykorea.aks.ac.kr/Article/E0015927"
+    kind: institutional
+  - url: "https://encykorea.aks.ac.kr/Article/E0064832"
+    kind: institutional
+  - url: "https://contents.history.go.kr/mobile/kc/view.do?levelId=kc_n301410"
+    kind: reference
+  - url: "https://monthlyart.com/encyclopedia/%EB%8F%84%ED%99%94%EC%84%9C/"
+    kind: reference
+  - url: "https://dh.aks.ac.kr/sillokwiki/index.php/%EB%8F%84%ED%99%94%EC%84%9C(%E5%9C%96%E7%95%B5%E7%BD%B2)"
+    kind: institutional
 status: draft
 updated: 2026-08-09
 ---

@@ -24,7 +24,7 @@ from kb import (AUTHORITY_ID_PATTERNS, AUTHORITY_KEYS, CERTAINTIES, CLAIM_FIELDS
                 build_edges, century_of_year, edtf_ok, edtf_year_range, load_config, load_entities,
                 load_coverage_reviews, load_region_history,
                 is_http_url, normalized_meta, read_frontmatter, read_queries, regions_of,
-                search_entities, source_urls, source_validation_errors, sources_are_structured)
+                search_entities, source_urls, source_validation_errors)
 from detail_baseline import validate_manifest
 
 OVERVIEWS = ROOT / "overviews"
@@ -50,7 +50,6 @@ def validate(entities, records, cfg, errors):
         if any("TODO" in str(s) for s in meta.get("sources") or []):
             err("sources に TODO が残っている（出典URLを入れる）")
         errors.extend(source_validation_errors(meta.get("sources"), rel))
-        structured_sources = sources_are_structured(meta.get("sources"))
         normalized_source_urls = set(source_urls(meta.get("sources")))
 
         etype = meta.get("type")
@@ -284,7 +283,7 @@ def validate(entities, records, cfg, errors):
                     err(f"{rtype} は certainty が必須（{sorted(CERTAINTIES)}／今: {r.get('certainty')}）")
                 if not r.get("source"):
                     err(f"{rtype} は source が必須（解釈を含む関係）")
-            if structured_sources and r.get("source"):
+            if r.get("source"):
                 if not is_http_url(r.get("source")):
                     err(f"{rtype}.source はhttp(s) URLが必要: {r.get('source')!r}")
                 elif r["source"] not in normalized_source_urls:
@@ -315,7 +314,7 @@ def validate(entities, records, cfg, errors):
                 err("claims の field が無い")
             if not c.get("source"):
                 err(f"claims の {field} に source が無い")
-            elif structured_sources:
+            else:
                 if not is_http_url(c.get("source")):
                     err(f"claims の {field}.source はhttp(s) URLが必要: {c.get('source')!r}")
                 elif c["source"] not in normalized_source_urls:

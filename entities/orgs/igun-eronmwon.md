@@ -18,10 +18,14 @@ space:
   - {role: sited_in, target: place/benin-city}
 relations: []
 sources:
-  - https://www.wikidata.org/wiki/Q111731632
-  - https://www.penn.museum/sites/expedition/the-art-of-benin/
-  - https://en.wikipedia.org/wiki/Igun_Street
-  - https://www.metmuseum.org/perspectives/bronze-casters-igun-street
+  - url: "https://www.wikidata.org/wiki/Q111731632"
+    kind: authority
+  - url: "https://www.penn.museum/sites/expedition/the-art-of-benin/"
+    kind: institutional
+  - url: "https://en.wikipedia.org/wiki/Igun_Street"
+    kind: reference
+  - url: "https://www.metmuseum.org/perspectives/bronze-casters-igun-street"
+    kind: institutional
 status: draft
 updated: 2026-08-09
 ---

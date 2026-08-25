@@ -19,7 +19,8 @@ coordinates: [47.01221, 102.25499]
 space: []
 relations: []
 sources:
-  - https://www.wikidata.org/wiki/Q7857142
+  - url: "https://www.wikidata.org/wiki/Q7857142"
+    kind: authority
 status: stub
 updated: 2026-08-09
 ---

@@ -19,7 +19,8 @@ coordinates: [13.4317, -6.2157]
 space: []
 relations: []
 sources:
-  - https://www.wikidata.org/wiki/Q333476
+  - url: "https://www.wikidata.org/wiki/Q333476"
+    kind: authority
 status: stub
 updated: 2026-08-10
 ---

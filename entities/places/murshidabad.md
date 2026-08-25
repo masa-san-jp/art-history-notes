@@ -19,7 +19,8 @@ coordinates: [24.18, 88.27]
 space: []
 relations: []
 sources:
-  - https://www.wikidata.org/wiki/Q1017175
+  - url: "https://www.wikidata.org/wiki/Q1017175"
+    kind: authority
 status: stub
 updated: 2026-08-09
 ---

@@ -20,8 +20,10 @@ space:
   - {role: sited_in, target: place/chicago}
 relations: []
 sources:
-  - https://www.wikidata.org/wiki/Q239303
-  - https://api.artic.edu/api/v1/artworks/27992
+  - url: "https://www.wikidata.org/wiki/Q239303"
+    kind: authority
+  - url: "https://api.artic.edu/api/v1/artworks/27992"
+    kind: institutional
 status: stub
 updated: 2026-08-08
 ---

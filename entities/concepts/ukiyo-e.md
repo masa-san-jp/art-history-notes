@@ -18,16 +18,26 @@ space:
   - {role: active_in, target: place/tokyo}
 relations: []
 sources:
-  - https://www.wikidata.org/wiki/Q185905
-  - https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&subjectid=300106769
-  - https://ja.wikipedia.org/wiki/浮世絵
-  - https://en.wikipedia.org/wiki/Ukiyo-e
-  - https://www.wikidata.org/wiki/Q2297646
-  - https://www.wikidata.org/wiki/Q3066195
-  - https://www.wikidata.org/wiki/Q1335478
-  - https://www.artic.edu/artworks/19016
-  - https://www.artic.edu/artworks/22935
-  - https://www.artic.edu/artworks/24645
+  - url: "https://www.wikidata.org/wiki/Q185905"
+    kind: authority
+  - url: "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&subjectid=300106769"
+    kind: authority
+  - url: "https://ja.wikipedia.org/wiki/浮世絵"
+    kind: reference
+  - url: "https://en.wikipedia.org/wiki/Ukiyo-e"
+    kind: reference
+  - url: "https://www.wikidata.org/wiki/Q2297646"
+    kind: authority
+  - url: "https://www.wikidata.org/wiki/Q3066195"
+    kind: authority
+  - url: "https://www.wikidata.org/wiki/Q1335478"
+    kind: authority
+  - url: "https://www.artic.edu/artworks/19016"
+    kind: institutional
+  - url: "https://www.artic.edu/artworks/22935"
+    kind: institutional
+  - url: "https://www.artic.edu/artworks/24645"
+    kind: institutional
 images:
   - url: https://www.artic.edu/iiif/2/23ad9eea-241f-3af9-df38-875ba8825591/full/843,/0/default.jpg
     source_page: https://www.artic.edu/artworks/19016

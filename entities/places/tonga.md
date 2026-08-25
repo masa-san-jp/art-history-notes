@@ -19,7 +19,8 @@ coordinates: [-20.587778, -174.810278]
 space: []
 relations: []
 sources:
-  - https://www.wikidata.org/wiki/Q678
+  - url: "https://www.wikidata.org/wiki/Q678"
+    kind: authority
 status: stub
 updated: 2026-08-10
 ---

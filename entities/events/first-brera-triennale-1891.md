@@ -18,10 +18,14 @@ space:
   - {role: held_at, target: place/milan}
 relations: []
 sources:
-  - https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf
-  - https://galleriemaspes.com/immagini_sito/Cataloghi%20pdf/Brera_Guide.pdf
-  - https://collezionedarte.bancaditalia.it/web/guest/-/divisionismo-1
-  - https://www.treccani.it/enciclopedia/angelo-morbelli_%28Dizionario-Biografico%29/
+  - url: "https://commons.wikimedia.org/wiki/File%3APrima_esposizione_triennale_1891_-_catalogo_ufficiale_illustrato_%28IA_primaesposizione00trie%29.pdf"
+    kind: scholarly
+  - url: "https://galleriemaspes.com/immagini_sito/Cataloghi%20pdf/Brera_Guide.pdf"
+    kind: scholarly
+  - url: "https://collezionedarte.bancaditalia.it/web/guest/-/divisionismo-1"
+    kind: reference
+  - url: "https://www.treccani.it/enciclopedia/angelo-morbelli_%28Dizionario-Biografico%29/"
+    kind: reference
 status: draft
 updated: 2026-08-12
 ---

@@ -19,7 +19,8 @@ coordinates: [31.005833, 121.233333]
 space: []
 relations: []
 sources:
-  - https://www.wikidata.org/wiki/Q662380
+  - url: "https://www.wikidata.org/wiki/Q662380"
+    kind: authority
 status: stub
 updated: 2026-08-10
 ---

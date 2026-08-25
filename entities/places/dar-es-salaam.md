@@ -19,7 +19,8 @@ coordinates: [-6.816111, 39.280278]
 space: []
 relations: []
 sources:
-  - https://www.wikidata.org/wiki/Q1960
+  - url: "https://www.wikidata.org/wiki/Q1960"
+    kind: authority
 status: stub
 updated: 2026-08-10
 ---

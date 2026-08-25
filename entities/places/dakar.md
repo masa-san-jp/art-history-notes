@@ -19,7 +19,8 @@ coordinates: [14.672556, -17.432]
 space: []
 relations: []
 sources:
-  - https://www.wikidata.org/wiki/Q3718
+  - url: "https://www.wikidata.org/wiki/Q3718"
+    kind: authority
 status: stub
 updated: 2026-08-09
 ---

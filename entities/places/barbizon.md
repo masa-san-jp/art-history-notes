@@ -19,7 +19,8 @@ coordinates: [48.445833, 2.605]
 space: []
 relations: []
 sources:
-  - https://www.wikidata.org/wiki/Q256175
+  - url: "https://www.wikidata.org/wiki/Q256175"
+    kind: authority
 status: stub
 updated: 2026-08-09
 ---

@@ -19,7 +19,8 @@ coordinates: [21.0245, 105.84117]
 space: []
 relations: []
 sources:
-  - https://www.wikidata.org/wiki/Q1858
+  - url: "https://www.wikidata.org/wiki/Q1858"
+    kind: authority
 status: stub
 updated: 2026-08-09
 ---

@@ -19,7 +19,8 @@ coordinates: [22.5675, 88.37]
 space: []
 relations: []
 sources:
-  - https://www.wikidata.org/wiki/Q1348
+  - url: "https://www.wikidata.org/wiki/Q1348"
+    kind: authority
 status: stub
 updated: 2026-08-09
 ---

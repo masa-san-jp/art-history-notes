@@ -19,8 +19,10 @@ coordinates: [21.0656558, 106.0768977]
 space: []
 relations: []
 sources:
-  - https://www.wikidata.org/wiki/Q8079936
-  - https://nominatim.openstreetmap.org/search?q=%C4%90%C3%B4ng+H%E1%BB%93%2C+Thu%E1%BA%ADn+Th%C3%A0nh%2C+B%E1%BA%AFc+Ninh%2C+Vietnam&format=json
+  - url: "https://www.wikidata.org/wiki/Q8079936"
+    kind: authority
+  - url: "https://nominatim.openstreetmap.org/search?q=%C4%90%C3%B4ng+H%E1%BB%93%2C+Thu%E1%BA%ADn+Th%C3%A0nh%2C+B%E1%BA%AFc+Ninh%2C+Vietnam&format=json"
+    kind: reference
 status: stub
 updated: 2026-08-10
 ---

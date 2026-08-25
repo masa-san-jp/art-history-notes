@@ -19,9 +19,12 @@ space:
 relations:
   - {type: documented_in, target: source/seurat-letter-beaubourg-1890}
 sources:
-  - https://fr.wikiquote.org/wiki/Georges_Seurat
-  - https://www.newworldencyclopedia.org/entry/Georges-Pierre_Seurat
-  - https://www.sothebys.com/en/auctions/ecatalogue/2009/impressionist-modern-art-pf9006/lot.8.html
+  - url: "https://fr.wikiquote.org/wiki/Georges_Seurat"
+    kind: reference
+  - url: "https://www.newworldencyclopedia.org/entry/Georges-Pierre_Seurat"
+    kind: reference
+  - url: "https://www.sothebys.com/en/auctions/ecatalogue/2009/impressionist-modern-art-pf9006/lot.8.html"
+    kind: reference
 status: draft
 updated: 2026-08-08
 ---

@@ -19,7 +19,8 @@ coordinates: [55.750556, 37.6175]
 space: []
 relations: []
 sources:
-  - https://www.wikidata.org/wiki/Q649
+  - url: "https://www.wikidata.org/wiki/Q649"
+    kind: authority
 status: stub
 updated: 2026-08-11
 ---

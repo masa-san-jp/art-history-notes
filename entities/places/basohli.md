@@ -19,8 +19,10 @@ coordinates: [32.499, 75.816]
 space: []
 relations: []
 sources:
-  - https://www.wikidata.org/wiki/Q711982
-  - https://en.wikipedia.org/wiki/Basohli
+  - url: "https://www.wikidata.org/wiki/Q711982"
+    kind: authority
+  - url: "https://en.wikipedia.org/wiki/Basohli"
+    kind: reference
 status: stub
 updated: 2026-08-10
 ---

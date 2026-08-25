@@ -19,7 +19,8 @@ coordinates: [37.56, 126.99]
 space: []
 relations: []
 sources:
-  - https://www.wikidata.org/wiki/Q8684
+  - url: "https://www.wikidata.org/wiki/Q8684"
+    kind: authority
 status: stub
 updated: 2026-08-09
 ---

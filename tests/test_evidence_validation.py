@@ -29,6 +29,7 @@ def related_fixture():
         {"type": "influenced_by", "target": person["id"],
          "certainty": "scholarly", "source": "https://example.test/relation"},
     ]
+    movement["sources"].append({"url": "https://example.test/relation", "kind": "reference"})
     return movement, person, work
 
 

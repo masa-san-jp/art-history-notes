@@ -17,8 +17,10 @@ time:
 space: []
 relations: []
 sources:
-  - https://www.wikidata.org/wiki/Q3530610
-  - https://en.wikipedia.org/wiki/Thanjavur_painting
+  - url: "https://www.wikidata.org/wiki/Q3530610"
+    kind: authority
+  - url: "https://en.wikipedia.org/wiki/Thanjavur_painting"
+    kind: reference
 status: stub
 updated: 2026-08-10
 ---

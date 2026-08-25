@@ -19,7 +19,8 @@ coordinates: [-12.06, -77.0375]
 space: []
 relations: []
 sources:
-  - https://www.wikidata.org/wiki/Q2868
+  - url: "https://www.wikidata.org/wiki/Q2868"
+    kind: authority
 status: stub
 updated: 2026-08-10
 ---

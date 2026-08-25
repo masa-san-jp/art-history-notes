@@ -19,7 +19,8 @@ coordinates: [58.52099, 31.27579]
 space: []
 relations: []
 sources:
-  - https://www.wikidata.org/wiki/Q2235
+  - url: "https://www.wikidata.org/wiki/Q2235"
+    kind: authority
 status: stub
 updated: 2026-08-09
 ---

@@ -19,8 +19,10 @@ coordinates: [-4.110977, 142.883682]
 space: []
 relations: []
 sources:
-  - https://www.wikidata.org/wiki/Q62556769
-  - https://en.wikipedia.org/wiki/Sepik_River
+  - url: "https://www.wikidata.org/wiki/Q62556769"
+    kind: authority
+  - url: "https://en.wikipedia.org/wiki/Sepik_River"
+    kind: reference
 status: stub
 updated: 2026-08-09
 ---

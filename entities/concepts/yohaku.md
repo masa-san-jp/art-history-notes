@@ -17,9 +17,12 @@ time:
 space: []
 relations: []
 sources:
-  - https://www.kyohaku.go.jp/jp/learn/home/yomimono_data/0052/
-  - https://online.bunka.go.jp/db/heritages/detail/593382
-  - https://www.tnm.jp/modules/rblog/1/2013/08/02/
+  - url: "https://www.kyohaku.go.jp/jp/learn/home/yomimono_data/0052/"
+    kind: institutional
+  - url: "https://online.bunka.go.jp/db/heritages/detail/593382"
+    kind: institutional
+  - url: "https://www.tnm.jp/modules/rblog/1/2013/08/02/"
+    kind: institutional
 status: draft
 updated: 2026-08-12
 ---

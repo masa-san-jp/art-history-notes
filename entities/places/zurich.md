@@ -19,7 +19,8 @@ coordinates: [47.374444, 8.541111]
 space: []
 relations: []
 sources:
-  - https://www.wikidata.org/wiki/Q72
+  - url: "https://www.wikidata.org/wiki/Q72"
+    kind: authority
 status: stub
 updated: 2026-08-10
 ---

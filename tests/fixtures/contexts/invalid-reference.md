@@ -6,7 +6,9 @@ scope: {start: "1900", end: "1901", regions: [europe-west], domain: art, topics:
 about: [movement/missing]
 signals:
   - {id: s001, dimension: change_pace, direction: 1, salience: 1, holders: [participants], claim: 変化を主張する, certainty: attested, source: "https://example.org/a", note: テスト範囲のみ}
-sources: [https://example.org/a]
+sources:
+  - url: https://example.org/a
+    kind: reference
 status: draft
 updated: 2026-08-10
 ---

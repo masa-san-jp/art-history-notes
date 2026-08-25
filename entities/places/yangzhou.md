@@ -19,7 +19,8 @@ coordinates: [32.39117, 119.43625]
 space: []
 relations: []
 sources:
-  - https://www.wikidata.org/wiki/Q57906
+  - url: "https://www.wikidata.org/wiki/Q57906"
+    kind: authority
 status: stub
 updated: 2026-08-10
 ---

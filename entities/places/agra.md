@@ -19,7 +19,8 @@ coordinates: [27.18, 78.02]
 space: []
 relations: []
 sources:
-  - https://www.wikidata.org/wiki/Q42941
+  - url: "https://www.wikidata.org/wiki/Q42941"
+    kind: authority
 status: stub
 updated: 2026-08-09
 ---

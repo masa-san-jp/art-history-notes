@@ -24,9 +24,9 @@ from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
 try:
-    from kb import ROOT, load_entities, normalize_source, normalize_sources
+    from kb import ROOT, load_entities, normalize_reference, normalize_sources
 except ModuleNotFoundError:  # tools.export_signals として読まれた場合
-    from tools.kb import ROOT, load_entities, normalize_source, normalize_sources
+    from tools.kb import ROOT, load_entities, normalize_reference, normalize_sources
 
 CONTRACT = "research-signal-export/v1"
 ADAPTER_VERSION = "1.0.0"
@@ -122,7 +122,7 @@ def _source_details(meta: dict, relations: list[dict]) -> tuple[list[dict], list
     evidence_sources = []
     for relation in relations:
         for url in relation.get("evidence_refs") or []:
-            evidence_sources.append(by_url.get(url, normalize_source(url)))
+            evidence_sources.append(by_url.get(url, normalize_reference(url)))
     return sources, evidence_sources
 
 

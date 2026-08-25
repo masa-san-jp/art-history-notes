@@ -19,8 +19,10 @@ time:
 space: []
 relations: []
 sources:
-  - https://www.wikidata.org/wiki/Q1999606
-  - https://rubinmuseum.org/projecthimalayanart/essays/murals-of-gongkar-chode/
+  - url: "https://www.wikidata.org/wiki/Q1999606"
+    kind: authority
+  - url: "https://rubinmuseum.org/projecthimalayanart/essays/murals-of-gongkar-chode/"
+    kind: institutional
 status: stub
 updated: 2026-08-09
 ---

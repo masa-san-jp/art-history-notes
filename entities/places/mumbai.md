@@ -21,8 +21,10 @@ former_names:
 space: []
 relations: []
 sources:
-  - https://www.wikidata.org/wiki/Q1156
-  - https://en.wikipedia.org/wiki/Mumbai
+  - url: "https://www.wikidata.org/wiki/Q1156"
+    kind: authority
+  - url: "https://en.wikipedia.org/wiki/Mumbai"
+    kind: reference
 status: stub
 updated: 2026-08-10
 ---

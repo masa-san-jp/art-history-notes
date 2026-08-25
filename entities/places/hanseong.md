@@ -19,7 +19,8 @@ coordinates: [37.583333, 127]
 space: []
 relations: []
 sources:
-  - https://www.wikidata.org/wiki/Q624467
+  - url: "https://www.wikidata.org/wiki/Q624467"
+    kind: authority
 status: stub
 updated: 2026-08-09
 ---

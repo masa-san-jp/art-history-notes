@@ -19,7 +19,9 @@ signals:
     certainty: attested
     source: https://example.org/current
     note: この参加者群を越えて一般化しない
-sources: [https://example.org/current]
+sources:
+  - url: https://example.org/current
+    kind: reference
 status: draft
 updated: 2026-08-10
 ---

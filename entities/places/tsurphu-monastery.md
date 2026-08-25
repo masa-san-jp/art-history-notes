@@ -19,8 +19,10 @@ time:
 space: []
 relations: []
 sources:
-  - https://www.wikidata.org/wiki/Q927302
-  - https://rubinmuseum.org/projecthimalayanart/essays/portrait-of-the-ninth-karmapa/
+  - url: "https://www.wikidata.org/wiki/Q927302"
+    kind: authority
+  - url: "https://rubinmuseum.org/projecthimalayanart/essays/portrait-of-the-ninth-karmapa/"
+    kind: institutional
 status: stub
 updated: 2026-08-10
 ---

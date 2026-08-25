@@ -19,7 +19,8 @@ coordinates: [23.13, 113.26]
 space: []
 relations: []
 sources:
-  - https://www.wikidata.org/wiki/Q16572
+  - url: "https://www.wikidata.org/wiki/Q16572"
+    kind: authority
 status: stub
 updated: 2026-08-09
 ---

@@ -19,7 +19,8 @@ time:
   display: null
 relations: []
 sources:
-  - https://www.wikidata.org/wiki/Q84
+  - url: "https://www.wikidata.org/wiki/Q84"
+    kind: authority
 status: stub
 updated: 2026-08-12
 ---

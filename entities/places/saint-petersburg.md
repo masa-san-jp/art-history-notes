@@ -19,7 +19,8 @@ coordinates: [59.95, 30.316667]
 space: []
 relations: []
 sources:
-  - https://www.wikidata.org/wiki/Q656
+  - url: "https://www.wikidata.org/wiki/Q656"
+    kind: authority
 status: stub
 updated: 2026-08-09
 ---

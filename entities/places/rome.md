@@ -19,9 +19,12 @@ time:
 space: []
 relations: []
 sources:
-  - https://www.wikidata.org/wiki/Q220
-  - https://www.metmuseum.org/ko/essays/baroque-rome
-  - https://www.metmuseum.org/fr/essays/neoclassicism
+  - url: "https://www.wikidata.org/wiki/Q220"
+    kind: authority
+  - url: "https://www.metmuseum.org/ko/essays/baroque-rome"
+    kind: institutional
+  - url: "https://www.metmuseum.org/fr/essays/neoclassicism"
+    kind: institutional
 status: stub
 updated: 2026-08-12
 ---

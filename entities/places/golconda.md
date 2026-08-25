@@ -19,8 +19,10 @@ coordinates: [17.383336, 78.404169]
 space: []
 relations: []
 sources:
-  - https://www.wikidata.org/wiki/Q4141623
-  - https://en.wikipedia.org/wiki/Golconda_painting
+  - url: "https://www.wikidata.org/wiki/Q4141623"
+    kind: authority
+  - url: "https://en.wikipedia.org/wiki/Golconda_painting"
+    kind: reference
 status: stub
 updated: 2026-08-10
 ---

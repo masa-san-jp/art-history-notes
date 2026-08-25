@@ -18,11 +18,16 @@ space:
   - {role: sited_in, target: place/moscow}
 relations: []
 sources:
-  - https://www.wikidata.org/wiki/Q1635293
-  - https://www.vkhutemas.ru/en/summary/
-  - https://www.vkhutemas.ru/en/the-history/
-  - https://www.moma.org/interactives/objectphoto/schools/15.html
-  - https://www.getty.edu/vow/ULANFullDisplay?find=&nation=&page=&role=&subjectid=500114223
+  - url: "https://www.wikidata.org/wiki/Q1635293"
+    kind: authority
+  - url: "https://www.vkhutemas.ru/en/summary/"
+    kind: reference
+  - url: "https://www.vkhutemas.ru/en/the-history/"
+    kind: reference
+  - url: "https://www.moma.org/interactives/objectphoto/schools/15.html"
+    kind: institutional
+  - url: "https://www.getty.edu/vow/ULANFullDisplay?find=&nation=&page=&role=&subjectid=500114223"
+    kind: authority
 status: draft
 updated: 2026-08-12
 ---

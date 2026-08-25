@@ -19,9 +19,12 @@ space:
   - {role: sited_in, target: place/bandung}
 relations: []
 sources:
-  - https://www.wikidata.org/wiki/Q1579397
-  - https://en.wikipedia.org/wiki/Bandung_Institute_of_Technology
-  - https://www.itb.ac.id/history
+  - url: "https://www.wikidata.org/wiki/Q1579397"
+    kind: authority
+  - url: "https://en.wikipedia.org/wiki/Bandung_Institute_of_Technology"
+    kind: reference
+  - url: "https://www.itb.ac.id/history"
+    kind: institutional
 status: draft
 updated: 2026-08-09
 ---

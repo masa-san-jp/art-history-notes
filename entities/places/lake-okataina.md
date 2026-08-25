@@ -19,7 +19,8 @@ coordinates: [-38.134, 176.41]
 space: []
 relations: []
 sources:
-  - https://www.wikidata.org/wiki/Q1801031
+  - url: "https://www.wikidata.org/wiki/Q1801031"
+    kind: authority
 status: stub
 updated: 2026-08-09
 ---

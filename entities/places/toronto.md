@@ -19,7 +19,8 @@ coordinates: [43.653225, -79.383186]
 space: []
 relations: []
 sources:
-  - https://www.wikidata.org/wiki/Q172
+  - url: "https://www.wikidata.org/wiki/Q172"
+    kind: authority
 status: stub
 updated: 2026-08-09
 ---

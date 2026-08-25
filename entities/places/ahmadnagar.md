@@ -19,8 +19,10 @@ coordinates: [19.083333, 74.733333]
 space: []
 relations: []
 sources:
-  - https://www.wikidata.org/wiki/Q223517
-  - https://en.wikipedia.org/wiki/Ahmednagar
+  - url: "https://www.wikidata.org/wiki/Q223517"
+    kind: authority
+  - url: "https://en.wikipedia.org/wiki/Ahmednagar"
+    kind: reference
 status: stub
 updated: 2026-08-10
 ---

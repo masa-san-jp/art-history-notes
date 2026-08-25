@@ -19,7 +19,8 @@ coordinates: [7.4667, 4.5667]
 space: []
 relations: []
 sources:
-  - https://www.wikidata.org/wiki/Q180084
+  - url: "https://www.wikidata.org/wiki/Q180084"
+    kind: authority
 status: stub
 updated: 2026-08-10
 ---

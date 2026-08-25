@@ -18,9 +18,12 @@ space:
   - {role: sited_in, target: place/paris}
 relations: []
 sources:
-  - https://www.culture.gouv.fr/thematiques/musees/Les-musees-en-France/les-collections-des-musees-de-france/decouvrir-les-collections/les-huit-expositions-impressionnistes-1874-1886/1886-huitieme-exposition
-  - https://archives.valdoise.fr/documents-du-mois/document-d-une-archive-a-une-archive-51/n%3A478
-  - https://salondesindependants.fr/notre-histoire/
+  - url: "https://www.culture.gouv.fr/thematiques/musees/Les-musees-en-France/les-collections-des-musees-de-france/decouvrir-les-collections/les-huit-expositions-impressionnistes-1874-1886/1886-huitieme-exposition"
+    kind: reference
+  - url: "https://archives.valdoise.fr/documents-du-mois/document-d-une-archive-a-une-archive-51/n%3A478"
+    kind: reference
+  - url: "https://salondesindependants.fr/notre-histoire/"
+    kind: reference
 status: stub
 updated: 2026-08-12
 ---

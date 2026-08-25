@@ -19,8 +19,10 @@ coordinates: [29.267824, 90.812828]
 space: []
 relations: []
 sources:
-  - https://www.wikidata.org/wiki/Q1253613
-  - https://rubinmuseum.org/projecthimalayanart/essays/murals-of-gongkar-chode/
+  - url: "https://www.wikidata.org/wiki/Q1253613"
+    kind: authority
+  - url: "https://rubinmuseum.org/projecthimalayanart/essays/murals-of-gongkar-chode/"
+    kind: institutional
 status: stub
 updated: 2026-08-10
 ---

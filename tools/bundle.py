@@ -16,7 +16,7 @@ import sys
 from pathlib import Path
 
 from kb import (ROOT, alias_map, build_edges, century_of_year, edtf_year_range, load_entities, log_query,
-                load_region_history, normalize_source, normalize_sources, read_frontmatter, regions_of,
+                load_region_history, normalize_reference, normalize_source, normalize_sources, read_frontmatter, regions_of,
                 resolve, search_entities)
 
 
@@ -47,7 +47,7 @@ def render(centers, entities, edges, title):
     sources = {}
 
     def add_source(value):
-        source = normalize_source(value)
+        source = normalize_source(value) if isinstance(value, dict) else normalize_reference(value)
         url = source.get("url")
         if not url:
             return

@@ -19,7 +19,8 @@ coordinates: [31.45152, 121.10435]
 space: []
 relations: []
 sources:
-  - https://www.wikidata.org/wiki/Q61985
+  - url: "https://www.wikidata.org/wiki/Q61985"
+    kind: authority
 status: stub
 updated: 2026-08-10
 ---

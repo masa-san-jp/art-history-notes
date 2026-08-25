@@ -19,7 +19,8 @@ time:
   display: null
 relations: []
 sources:
-  - https://www.wikidata.org/wiki/Q55
+  - url: "https://www.wikidata.org/wiki/Q55"
+    kind: authority
 status: stub
 updated: 2026-08-13
 ---

@@ -19,7 +19,8 @@ coordinates: [-0.22, -78.5125]
 space: []
 relations: []
 sources:
-  - https://www.wikidata.org/wiki/Q2900
+  - url: "https://www.wikidata.org/wiki/Q2900"
+    kind: authority
 status: stub
 updated: 2026-08-10
 ---

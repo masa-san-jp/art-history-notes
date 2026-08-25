@@ -19,7 +19,8 @@ coordinates: [-13.745, -172.2175]
 space: []
 relations: []
 sources:
-  - https://www.wikidata.org/wiki/Q683
+  - url: "https://www.wikidata.org/wiki/Q683"
+    kind: authority
 status: stub
 updated: 2026-08-10
 ---

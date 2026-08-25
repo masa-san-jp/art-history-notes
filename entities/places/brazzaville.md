@@ -19,7 +19,8 @@ coordinates: [-4.269444, 15.271111]
 space: []
 relations: []
 sources:
-  - https://www.wikidata.org/wiki/Q3844
+  - url: "https://www.wikidata.org/wiki/Q3844"
+    kind: authority
 status: stub
 updated: 2026-08-10
 ---

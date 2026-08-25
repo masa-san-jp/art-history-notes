@@ -18,13 +18,21 @@ space:
   - {role: active_in, target: place/segou}
 relations: []
 sources:
-  - https://en.wikipedia.org/wiki/Nyamakala
-  - https://en.wikipedia.org/wiki/Blacksmiths_of_western_Africa
-  - https://africanarchive.org/en/staemme/bamana
-  - https://www.metmuseum.org/art/collection/search/310864
-  - https://www.metmuseum.org/art/collection/search/312336
-  - https://clevelandart.org/art/1965.325
-  - https://www.wikidata.org/wiki/Q28136231
+  - url: "https://en.wikipedia.org/wiki/Nyamakala"
+    kind: reference
+  - url: "https://en.wikipedia.org/wiki/Blacksmiths_of_western_Africa"
+    kind: reference
+  - url: "https://africanarchive.org/en/staemme/bamana"
+    kind: primary
+    note: "URLの資料パスから一次資料と判定"
+  - url: "https://www.metmuseum.org/art/collection/search/310864"
+    kind: institutional
+  - url: "https://www.metmuseum.org/art/collection/search/312336"
+    kind: institutional
+  - url: "https://clevelandart.org/art/1965.325"
+    kind: institutional
+  - url: "https://www.wikidata.org/wiki/Q28136231"
+    kind: authority
 status: draft
 updated: 2026-08-10
 ---

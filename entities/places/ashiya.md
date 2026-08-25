@@ -19,7 +19,8 @@ coordinates: [34.727, 135.3041111111111]
 space: []
 relations: []
 sources:
-  - https://www.wikidata.org/wiki/Q725514
+  - url: "https://www.wikidata.org/wiki/Q725514"
+    kind: authority
 status: stub
 updated: 2026-08-10
 ---

@@ -31,7 +31,7 @@ def valid_meta(entity_id="movement/example", entity_type="movement"):
         "relations": [],
         "space": [],
         "claims": [],
-        "sources": ["https://example.test/source"],
+        "sources": [{"url": "https://example.test/source", "kind": "reference"}],
         "status": "draft",
         "updated": "2026-08-13",
         "aliases": [],

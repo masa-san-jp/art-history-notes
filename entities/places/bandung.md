@@ -19,7 +19,8 @@ coordinates: [-6.921845833333333, 107.60708305555555]
 space: []
 relations: []
 sources:
-  - https://www.wikidata.org/wiki/Q10389
+  - url: "https://www.wikidata.org/wiki/Q10389"
+    kind: authority
 status: stub
 updated: 2026-08-09
 ---

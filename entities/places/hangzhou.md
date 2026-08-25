@@ -19,7 +19,8 @@ coordinates: [30.25, 120.1675]
 space: []
 relations: []
 sources:
-  - https://www.wikidata.org/wiki/Q4970
+  - url: "https://www.wikidata.org/wiki/Q4970"
+    kind: authority
 status: stub
 updated: 2026-08-09
 ---

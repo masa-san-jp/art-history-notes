@@ -18,9 +18,12 @@ space:
   - {role: held_at, target: place/paris}
 relations: []
 sources:
-  - https://www.culture.gouv.fr/thematiques/musees/Les-musees-en-France/les-collections-des-musees-de-france/decouvrir-les-collections/les-huit-expositions-impressionnistes-1874-1886/1886-huitieme-exposition
-  - https://salons.musee-orsay.fr/Detail/occurrences/90
-  - https://catalogue.bnf.fr/ark:/12148/cb30427294w
+  - url: "https://www.culture.gouv.fr/thematiques/musees/Les-musees-en-France/les-collections-des-musees-de-france/decouvrir-les-collections/les-huit-expositions-impressionnistes-1874-1886/1886-huitieme-exposition"
+    kind: reference
+  - url: "https://salons.musee-orsay.fr/Detail/occurrences/90"
+    kind: institutional
+  - url: "https://catalogue.bnf.fr/ark:/12148/cb30427294w"
+    kind: reference
 status: draft
 updated: 2026-08-12
 ---

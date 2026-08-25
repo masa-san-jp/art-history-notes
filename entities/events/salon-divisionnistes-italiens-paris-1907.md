@@ -18,11 +18,16 @@ space:
   - {role: held_at, target: place/paris}
 relations: []
 sources:
-  - https://exhibitions.univie.ac.at/exhibition/125
-  - https://www.bdl.servizirl.it/vufind/Record/BDL-OGGETTO-2295
-  - https://www.bdl.servizirl.it/bdl/public/rest/srv/item/2295/pdf
-  - https://search.worldcat.org/es/title/Catalogue-du-salon-des-peintres-divisionnistes-italiens-organise-par-la-Galerie-d'art-A.-Grubicy-de-Milan-1er-Septembre-15-Octobre-1907-%3A-Serre-de-l'Alma/oclc/739207378
-  - https://obtic.huma-num.fr/obvil-web/corpus/mdf-italie/mercure-italie_1907
+  - url: "https://exhibitions.univie.ac.at/exhibition/125"
+    kind: reference
+  - url: "https://www.bdl.servizirl.it/vufind/Record/BDL-OGGETTO-2295"
+    kind: reference
+  - url: "https://www.bdl.servizirl.it/bdl/public/rest/srv/item/2295/pdf"
+    kind: reference
+  - url: "https://search.worldcat.org/es/title/Catalogue-du-salon-des-peintres-divisionnistes-italiens-organise-par-la-Galerie-d'art-A.-Grubicy-de-Milan-1er-Septembre-15-Octobre-1907-%3A-Serre-de-l'Alma/oclc/739207378"
+    kind: reference
+  - url: "https://obtic.huma-num.fr/obvil-web/corpus/mdf-italie/mercure-italie_1907"
+    kind: reference
 status: draft
 updated: 2026-08-12
 ---

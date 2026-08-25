@@ -19,8 +19,10 @@ coordinates: [24.583, 73.683]
 space: []
 relations: []
 sources:
-  - https://www.wikidata.org/wiki/Q200340
-  - https://en.wikipedia.org/wiki/Udaipur
+  - url: "https://www.wikidata.org/wiki/Q200340"
+    kind: authority
+  - url: "https://en.wikipedia.org/wiki/Udaipur"
+    kind: reference
 status: stub
 updated: 2026-08-10
 ---

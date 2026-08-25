@@ -19,7 +19,8 @@ coordinates: [50.981111, 11.329444]
 space: []
 relations: []
 sources:
-  - https://www.wikidata.org/wiki/Q3955
+  - url: "https://www.wikidata.org/wiki/Q3955"
+    kind: authority
 status: stub
 updated: 2026-08-11
 ---

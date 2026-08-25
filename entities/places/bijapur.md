@@ -19,8 +19,10 @@ coordinates: [16.82442, 75.71537]
 space: []
 relations: []
 sources:
-  - https://www.wikidata.org/wiki/Q3636023
-  - https://en.wikipedia.org/wiki/Bijapur
+  - url: "https://www.wikidata.org/wiki/Q3636023"
+    kind: authority
+  - url: "https://en.wikipedia.org/wiki/Bijapur"
+    kind: reference
 status: stub
 updated: 2026-08-10
 ---

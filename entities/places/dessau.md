@@ -21,8 +21,10 @@ coordinates: [51.833331, 12.233331]
 space: []
 relations: []
 sources:
-  - https://www.wikidata.org/wiki/Q3828
-  - https://www.wikidata.org/wiki/Q487070
+  - url: "https://www.wikidata.org/wiki/Q3828"
+    kind: authority
+  - url: "https://www.wikidata.org/wiki/Q487070"
+    kind: authority
 status: stub
 updated: 2026-08-11
 ---

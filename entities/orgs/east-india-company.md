@@ -17,7 +17,8 @@ time:
 space: []
 relations: []
 sources:
-  - https://www.wikidata.org/wiki/Q83164
+  - url: "https://www.wikidata.org/wiki/Q83164"
+    kind: authority
 status: stub
 updated: 2026-08-09
 ---

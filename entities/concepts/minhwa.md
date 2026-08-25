@@ -18,17 +18,28 @@ space:
   - {role: active_in, target: place/hanseong}
 relations: []
 sources:
-  - https://www.wikidata.org/wiki/Q204791
-  - https://encykorea.aks.ac.kr/Article/E0020370
-  - https://ko.wikipedia.org/wiki/%EB%AF%BC%ED%99%94
-  - https://contents.history.go.kr/mobile/kc/view.do?levelId=kc_r300510&code=kc_age_30
-  - https://contents.history.go.kr/mobile/tt/view.do?levelId=tt_b57
-  - https://encykorea.aks.ac.kr/Article/E0064832
-  - https://www.tongilnews.com/news/articleView.html?idxno=102045
-  - https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE11077260
-  - https://www.metmuseum.org/art/collection/search/929075
-  - https://www.metmuseum.org/art/collection/search/853891
-  - https://www.metmuseum.org/art/collection/search/853896
+  - url: "https://www.wikidata.org/wiki/Q204791"
+    kind: authority
+  - url: "https://encykorea.aks.ac.kr/Article/E0020370"
+    kind: institutional
+  - url: "https://ko.wikipedia.org/wiki/%EB%AF%BC%ED%99%94"
+    kind: reference
+  - url: "https://contents.history.go.kr/mobile/kc/view.do?levelId=kc_r300510&code=kc_age_30"
+    kind: reference
+  - url: "https://contents.history.go.kr/mobile/tt/view.do?levelId=tt_b57"
+    kind: reference
+  - url: "https://encykorea.aks.ac.kr/Article/E0064832"
+    kind: institutional
+  - url: "https://www.tongilnews.com/news/articleView.html?idxno=102045"
+    kind: reference
+  - url: "https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE11077260"
+    kind: scholarly
+  - url: "https://www.metmuseum.org/art/collection/search/929075"
+    kind: institutional
+  - url: "https://www.metmuseum.org/art/collection/search/853891"
+    kind: institutional
+  - url: "https://www.metmuseum.org/art/collection/search/853896"
+    kind: institutional
 images:
   - url: https://images.metmuseum.org/CRDImages/as/original/DP-44213-002.jpg
     source_page: https://www.metmuseum.org/art/collection/search/929075

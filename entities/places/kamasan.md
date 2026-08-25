@@ -19,8 +19,10 @@ coordinates: [-8.5475023, 115.4059567]
 space: []
 relations: []
 sources:
-  - https://www.wikidata.org/wiki/Q6356113
-  - https://en.wikipedia.org/wiki/Kamasan
+  - url: "https://www.wikidata.org/wiki/Q6356113"
+    kind: authority
+  - url: "https://en.wikipedia.org/wiki/Kamasan"
+    kind: reference
 status: stub
 updated: 2026-08-10
 ---

@@ -19,7 +19,8 @@ coordinates: [29.61, 52.5425]
 space: []
 relations: []
 sources:
-  - https://www.wikidata.org/wiki/Q6397066
+  - url: "https://www.wikidata.org/wiki/Q6397066"
+    kind: authority
 status: stub
 updated: 2026-08-10
 ---

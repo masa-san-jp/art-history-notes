@@ -19,8 +19,10 @@ time:
 space: []
 relations: []
 sources:
-  - https://www.wikidata.org/wiki/Q2068342
-  - https://www.himalayanart.org/search/set.cfm?setID=248
+  - url: "https://www.wikidata.org/wiki/Q2068342"
+    kind: authority
+  - url: "https://www.himalayanart.org/search/set.cfm?setID=248"
+    kind: reference
 status: stub
 updated: 2026-08-10
 ---
