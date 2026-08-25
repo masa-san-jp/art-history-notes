@@ -1,14 +1,14 @@
 {
   "schema_version": 1,
-  "input_digest": "d84e4a41e11e954d26d6b2f3b575c961698682d610acf533aa1a5ee5fa33d1a8",
+  "input_digest": "215adef2fe62f44886b7fd8219ec5083dd968fe82131ff4daf3ad150f5a83e1d",
   "pairs": [
     {
       "a": "context/ai-art-japan-2026-h2",
       "b": "context/antropofagia-1928-1930s",
-      "similarity": 0.422414,
-      "raw_similarity": 0.844828,
-      "coverage_factor": 0.5,
-      "comparable_dimension_count": 4,
+      "similarity": 0.653572,
+      "raw_similarity": 0.871429,
+      "coverage_factor": 0.75,
+      "comparable_dimension_count": 6,
       "dimensions": [
         {
           "id": "temporal_orientation",
@@ -37,6 +37,20 @@
           "direction_similarity": 1.0,
           "polarization_similarity": 1.0,
           "axis_similarity": 1.0
+        },
+        {
+          "id": "authorship",
+          "axis_weight": 0.055556,
+          "direction_similarity": 1.0,
+          "polarization_similarity": 1.0,
+          "axis_similarity": 1.0
+        },
+        {
+          "id": "reproduction",
+          "axis_weight": 0.055556,
+          "direction_similarity": 1.0,
+          "polarization_similarity": 1.0,
+          "axis_similarity": 1.0
         }
       ],
       "aligned": [
@@ -53,10 +67,10 @@
     {
       "a": "context/ai-art-japan-2026-h2",
       "b": "context/dada-1916-1924",
-      "similarity": 0.394445,
-      "raw_similarity": 0.788889,
-      "coverage_factor": 0.5,
-      "comparable_dimension_count": 4,
+      "similarity": 0.742,
+      "raw_similarity": 0.848,
+      "coverage_factor": 0.875,
+      "comparable_dimension_count": 7,
       "dimensions": [
         {
           "id": "temporal_orientation",
@@ -85,6 +99,27 @@
           "direction_similarity": 1.0,
           "polarization_similarity": 1.0,
           "axis_similarity": 1.0
+        },
+        {
+          "id": "authorship",
+          "axis_weight": 0.055556,
+          "direction_similarity": 1.0,
+          "polarization_similarity": 1.0,
+          "axis_similarity": 1.0
+        },
+        {
+          "id": "reproduction",
+          "axis_weight": 0.055556,
+          "direction_similarity": 1.0,
+          "polarization_similarity": 1.0,
+          "axis_similarity": 1.0
+        },
+        {
+          "id": "social_affect",
+          "axis_weight": 0.083333,
+          "direction_similarity": 1.0,
+          "polarization_similarity": 1.0,
+          "axis_similarity": 1.0
         }
       ],
       "aligned": [
@@ -101,10 +136,10 @@
     {
       "a": "context/ai-art-japan-2026-h2",
       "b": "context/futurism-1909-1914",
-      "similarity": 0.4,
-      "raw_similarity": 0.8,
-      "coverage_factor": 0.5,
-      "comparable_dimension_count": 4,
+      "similarity": 0.751471,
+      "raw_similarity": 0.858823,
+      "coverage_factor": 0.875,
+      "comparable_dimension_count": 7,
       "dimensions": [
         {
           "id": "temporal_orientation",
@@ -130,6 +165,27 @@
         {
           "id": "boundary_stance",
           "axis_weight": 0.111111,
+          "direction_similarity": 1.0,
+          "polarization_similarity": 1.0,
+          "axis_similarity": 1.0
+        },
+        {
+          "id": "authorship",
+          "axis_weight": 0.074074,
+          "direction_similarity": 1.0,
+          "polarization_similarity": 1.0,
+          "axis_similarity": 1.0
+        },
+        {
+          "id": "reproduction",
+          "axis_weight": 0.074074,
+          "direction_similarity": 1.0,
+          "polarization_similarity": 1.0,
+          "axis_similarity": 1.0
+        },
+        {
+          "id": "social_affect",
+          "axis_weight": 0.083333,
           "direction_similarity": 1.0,
           "polarization_similarity": 1.0,
           "axis_similarity": 1.0
@@ -149,10 +205,10 @@
     {
       "a": "context/antropofagia-1928-1930s",
       "b": "context/dada-1916-1924",
-      "similarity": 0.477778,
-      "raw_similarity": 0.955556,
-      "coverage_factor": 0.5,
-      "comparable_dimension_count": 4,
+      "similarity": 0.722727,
+      "raw_similarity": 0.963636,
+      "coverage_factor": 0.75,
+      "comparable_dimension_count": 6,
       "dimensions": [
         {
           "id": "temporal_orientation",
@@ -181,6 +237,20 @@
           "direction_similarity": 1.0,
           "polarization_similarity": 1.0,
           "axis_similarity": 1.0
+        },
+        {
+          "id": "authorship",
+          "axis_weight": 0.055556,
+          "direction_similarity": 1.0,
+          "polarization_similarity": 1.0,
+          "axis_similarity": 1.0
+        },
+        {
+          "id": "reproduction",
+          "axis_weight": 0.055556,
+          "direction_similarity": 1.0,
+          "polarization_similarity": 1.0,
+          "axis_similarity": 1.0
         }
       ],
       "aligned": [
@@ -197,10 +267,10 @@
     {
       "a": "context/antropofagia-1928-1930s",
       "b": "context/futurism-1909-1914",
-      "similarity": 0.48125,
-      "raw_similarity": 0.9625,
-      "coverage_factor": 0.5,
-      "comparable_dimension_count": 4,
+      "similarity": 0.726316,
+      "raw_similarity": 0.968421,
+      "coverage_factor": 0.75,
+      "comparable_dimension_count": 6,
       "dimensions": [
         {
           "id": "temporal_orientation",
@@ -229,6 +299,20 @@
           "direction_similarity": 1.0,
           "polarization_similarity": 1.0,
           "axis_similarity": 1.0
+        },
+        {
+          "id": "authorship",
+          "axis_weight": 0.055556,
+          "direction_similarity": 1.0,
+          "polarization_similarity": 1.0,
+          "axis_similarity": 1.0
+        },
+        {
+          "id": "reproduction",
+          "axis_weight": 0.055556,
+          "direction_similarity": 1.0,
+          "polarization_similarity": 1.0,
+          "axis_similarity": 1.0
         }
       ],
       "aligned": [
@@ -245,10 +329,10 @@
     {
       "a": "context/dada-1916-1924",
       "b": "context/futurism-1909-1914",
-      "similarity": 0.452941,
-      "raw_similarity": 0.905882,
-      "coverage_factor": 0.5,
-      "comparable_dimension_count": 4,
+      "similarity": 0.938462,
+      "raw_similarity": 0.938462,
+      "coverage_factor": 1,
+      "comparable_dimension_count": 8,
       "dimensions": [
         {
           "id": "temporal_orientation",
@@ -274,6 +358,34 @@
         {
           "id": "boundary_stance",
           "axis_weight": 0.111111,
+          "direction_similarity": 1.0,
+          "polarization_similarity": 1.0,
+          "axis_similarity": 1.0
+        },
+        {
+          "id": "materiality",
+          "axis_weight": 0.055556,
+          "direction_similarity": 1.0,
+          "polarization_similarity": 1.0,
+          "axis_similarity": 1.0
+        },
+        {
+          "id": "authorship",
+          "axis_weight": 0.055556,
+          "direction_similarity": 1.0,
+          "polarization_similarity": 1.0,
+          "axis_similarity": 1.0
+        },
+        {
+          "id": "reproduction",
+          "axis_weight": 0.055556,
+          "direction_similarity": 1.0,
+          "polarization_similarity": 1.0,
+          "axis_similarity": 1.0
+        },
+        {
+          "id": "social_affect",
+          "axis_weight": 0.083333,
           "direction_similarity": 1.0,
           "polarization_similarity": 1.0,
           "axis_similarity": 1.0

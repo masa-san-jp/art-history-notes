@@ -82,6 +82,42 @@ signals:
     certainty: scholarly
     source: https://www.moma.org/collection/works/193204
     note: サンパウロの知識人ネットワークに限定し、先住民当事者の参加を仮定しない
+  - id: s009
+    dimension: materiality
+    direction: -1
+    salience: 2
+    holders: [participants]
+    claim: 雑誌の物理的な刊行と絵画作品の掲載が、運動の主張を印刷物と作品へ結び付けた
+    certainty: attested
+    source: https://digital.bbm.usp.br/handle/bbm/7064
+    note: 残存する雑誌と掲載作品に基づく観測で、刊行物を読まない参加者の実践までは示さない
+  - id: s010
+    dimension: authorship
+    direction: 1
+    salience: 2
+    holders: [participants, critics]
+    claim: 運動はオズワルド・デ・アンドラーデだけでなくラウル・ボップ、アントニオ・デ・アルカンタラ・マシャード、画家タルシラらの複数主体で記録されている
+    certainty: scholarly
+    source: https://icaa.mfah.org/s/en/item/771303
+    note: 複数の記録主体を示すが、各人の影響力や参加時期を均等化しない
+  - id: s011
+    dimension: reproduction
+    direction: 1
+    salience: 2
+    holders: [institutions, critics]
+    claim: 『アントロポファジア宣言』と雑誌の反復刊行が、外来要素を翻案して広める媒体になった
+    certainty: scholarly
+    source: https://www.museoreinasofia.es/en/collections/artwork/abaporu-vi/
+    note: 後代の美術館解説による整理であり、1928年当時の流通量や読者層を確定しない
+  - id: s012
+    dimension: social_affect
+    direction: 1
+    salience: 2
+    holders: [critics]
+    claim: 研究上は、宇宙論的な文化革命の語彙と実際の脱植民地化・先住民抵抗との距離が論点になっている
+    certainty: scholarly
+    source: https://cultureandhistory.revistas.csic.es/index.php/cultureandhistory/article/download/82/274?inline=1
+    note: 後代研究の批判的論点であり、当時の参加者全員の自己理解を示さない
 sources:
   - url: "https://digital.bbm.usp.br/handle/bbm/7064"
     kind: reference
@@ -91,8 +127,14 @@ sources:
     kind: institutional
   - url: "https://www.moma.org/collection/works/193204"
     kind: institutional
-status: draft
-updated: 2026-08-10
+  - url: "https://icaa.mfah.org/s/en/item/771303"
+    kind: institutional
+  - url: "https://www.museoreinasofia.es/en/collections/artwork/abaporu-vi/"
+    kind: institutional
+  - url: "https://cultureandhistory.revistas.csic.es/index.php/cultureandhistory/article/download/82/274?inline=1"
+    kind: scholarly
+status: verified
+updated: 2026-08-25
 ---
 
 # 1928–1929年・サンパウロのアントロポファジア
@@ -103,7 +145,8 @@ updated: 2026-08-10
 
 ## 根拠の読み方
 
-USP所蔵誌面を一次資料、MoMAの作品・人物解説を研究的整理として区別する。
+USP所蔵誌面を一次資料、MoMA・ICAA・Museo Reina Sofíaの作品・人物解説を研究的整理として区別する。
+参加者の自己記述、機関による後代の整理、批評的研究を同じ主体の発言としてまとめない。
 
 ## 反対証拠・内部差
 
@@ -111,4 +154,4 @@ USP所蔵誌面を一次資料、MoMAの作品・人物解説を研究的整理�
 
 ## 未確認
 
-創刊号以外の寄稿者間の対立、先住民当事者の受け止め、1930年代への継続範囲は未確認。
+創刊号以外の寄稿者間の対立、先住民当事者の受け止め、1930年代への継続範囲、雑誌の実際の読者層は未確認。
