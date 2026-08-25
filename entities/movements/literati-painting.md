@@ -10,7 +10,7 @@ authority:
   aat: null
   ndl: null
   jpsearch: null
-  none_reason: "Getty AAT ID 300106501 は Wikidata Q1142000 の P1014 が指す値だが、AAT 自体のスコープノートを直接引くと「斉白石（1863-1957）が率いた一派の作品」（Southern School (Chinese style)）を指しており、董其昌の南北宗論に基づく文人画／南宗画とは無関係の別対象である（Getty AAT 公式サイトの AATFullDisplay 検索結果、2026-08-10 実測）。誤ったIDを引き継ぐと典拠として機能しないため、aat は null のままにした"
+  none_reason: null
 time:
   start: "10XX"
   end: "1911~"

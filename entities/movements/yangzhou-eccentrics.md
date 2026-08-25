@@ -10,7 +10,7 @@ authority:
   aat: null
   ndl: null
   jpsearch: null
-  none_reason: "Getty AAT (https://www.getty.edu/vow/AATServlet) を english=N・find=yangzhou / eight+eccentrics / yang-chou / yangchow の4通りで検索したが該当語彙が見つからなかった。NDL/Web NDL Authorities・Japan Search は docs/investigation-task.md の記載どおり正しい呼び方が未確認のため今回は試していない"
+  none_reason: null
 time:
   start: "17XX"
   end: "1799~"

@@ -13,23 +13,12 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - run: pip install pyyaml
-      - name: 形式の検証（壊れていないか）
-        run: python3 tools/build_graph.py --check
-      - name: 時代文脈の検証
-        run: python3 tools/build_context_vectors.py --check
-      - name: 全テスト
-        run: python3 -m unittest discover -s tests -p "test*.py"
-      - name: 生成物が最新か（entities と graph がずれていないか）
-        run: |
-          python3 tools/build_graph.py
-          python3 tools/audit.py
-          git diff --exit-code -- data/ overviews/coverage.md \
-            || (echo "::error::生成物が古い。python3 tools/build_graph.py && python3 tools/audit.py を実行して commit してください" && exit 1)
-      - name: 体系の食い違い（落とさず表示）
-        run: python3 tools/audit.py --dry-run
-      - name: 時代文脈生成物が最新か
-        run: |
-          python3 tools/build_context_vectors.py
-          git diff --exit-code -- data/context-vectors.json data/context-similarity.json \
-            || (echo "::error::context生成物が古い。python3 tools/build_context_vectors.py を実行して commit してください" && exit 1)
+      - uses: astral-sh/setup-uv@v6
+        with:
+          version: "0.11.19"
+          enable-cache: true
+          cache-dependency-glob: "uv.lock"
+      - name: 依存関係をlockどおりに準備
+        run: uv sync --locked
+      - name: 正準検証
+        run: uv run --locked python tools/verify.py

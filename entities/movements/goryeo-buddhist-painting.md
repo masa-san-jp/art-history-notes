@@ -10,7 +10,7 @@ authority:
   aat: null
   ndl: null
   jpsearch: null
-  none_reason: "Getty AATは「Goryeo Buddhist painting」「Korai Buddhist painting」「Koryo Buddhist painting」でAATServletを検索しようとしたが、コントロールクエリ（「painting」単体）でもHTTP 400/499を返し続け、サービス自体が到達不能な状態だった（2026-08-09確認、curlでも再現）——これは語がAATに無いことの確認ではなく、検索サービスへのアクセス自体が失敗したという意味。Web NDL Authorities（id.ndl.go.jp）は「高麗仏画」の検索でSPARQLパーサエラーを返し、Japan Searchは検索結果が描画されずヒットの有無を確認できなかった——docs/investigation-task.mdが既に記す2026-08-08時点の既知の制約と一致する"
+  none_reason: null
 time:
   start: "12XX"
   end: "13XX"

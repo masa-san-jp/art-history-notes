@@ -22,6 +22,14 @@ DIR_FOR_TYPE = {
 TYPES = set(DIR_FOR_TYPE)
 
 MOVEMENT_KINDS = {"self-declared", "retrospective", "lineage-school", "period-style"}
+AUTHORITY_KEYS = {"wikidata", "aat", "ulan", "tgn", "ndl", "jpsearch", "none_reason"}
+AUTHORITY_ID_PATTERNS = {
+    "wikidata": re.compile(r"^Q[1-9][0-9]*$"),
+    "aat": re.compile(r"^[0-9]{9}$"),
+    "ulan": re.compile(r"^[0-9]{9}$"),
+    "tgn": re.compile(r"^[0-9]{7,8}$"),
+    "ndl": re.compile(r"^[0-9]{8}$"),
+}
 # 設立・所有・意思決定に、対象文化の外部者が構造的に含まれていたか（任意項目）
 FOUNDING_CONTROL = {"internal", "shared", "external"}
 # 画像は「パブリックドメイン相当のものだけ」を参照する。再配布はしない（リンクのみ）
@@ -68,7 +76,7 @@ CLAIM_FIELDS_FOR_VERIFIED = {"movement": {"time", "originated_in", "kind"}}
 URI_PREFIX = "urn:ahn:"
 
 # --- EDTF（ISO 8601-2 Level 1 サブセット）--------------------------------------
-# 受ける形: 1884 / -0900 / 1884-05 / 146X / 18XX / -09XX / 1503~ / 1884? / 1884%
+# 受ける形: 1884 / 0000 / -0899 / 1884-05 / 146X / 18XX / -08XX / 1503~ / 1884? / 1884%
 #          .. （開いた端）/ null（不明）
 EDTF_RE = re.compile(
     r"^(?:\.\.|(?P<year>-?(?:\d{4}|\d{3}X|\d{2}XX|\dXXX))"
@@ -82,7 +90,7 @@ def edtf_ok(value):
 
 def edtf_year_range(value):
     """EDTF 値から (最小年, 最大年) を返す。開いた端・不明は None。ソートと集計に使う。"""
-    if not value or value == "..":
+    if not isinstance(value, str) or not value or value == "..":
         return (None, None)
     match = EDTF_RE.fullmatch(value)
     if not match:
@@ -102,12 +110,40 @@ def edtf_year_range(value):
 
 
 def century_of_year(year):
-    """暦年を coverage/bundle 用の世紀番号にする。紀元前は負数（-1 = 1 BCE）。"""
+    """暦年をcoverage/bundle用の世紀番号にする（天文学的年番号）。"""
     if year is None:
         return None
-    if year < 0:
-        return -(abs(year) // 100 + 1)
+    if year <= 0:
+        # year 0 = 1 BCE。BCEの人間向け年へ直してから世紀を求める。
+        bce_year = 1 - year
+        return -((bce_year + 99) // 100)
     return year // 100 + 1
+
+
+def astronomical_year_to_label(year):
+    """天文学的年番号を表示用の ``N BCE`` / ``N CE`` に変換する。"""
+    if not isinstance(year, int) or isinstance(year, bool):
+        raise TypeError("year は整数が必要")
+    if year <= 0:
+        return f"{1 - year}BCE"
+    return f"{year}CE"
+
+
+def human_year_to_astronomical(year, era):
+    """人間向けのBCE/CE年を天文学的年番号へ変換する。"""
+    if not isinstance(year, int) or isinstance(year, bool) or year < 1:
+        raise ValueError("year は1以上の整数が必要")
+    normalized = str(era).upper()
+    if normalized == "BCE":
+        return 1 - year
+    if normalized == "CE":
+        return year
+    raise ValueError("era は BCE または CE が必要")
+
+
+def bce_year_to_astronomical(year):
+    """人間向けのBCE年を天文学的年番号へ変換する短縮形。"""
+    return human_year_to_astronomical(year, "BCE")
 
 
 # --- 読み込み -----------------------------------------------------------------

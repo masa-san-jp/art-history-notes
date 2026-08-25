@@ -10,7 +10,7 @@ authority:
   aat: null
   ndl: null
   jpsearch: null
-  none_reason: "Getty AATを「madi」「Madi art」で検索したが、該当する概念（美術運動としてのマディ）は0件だった。ヒットしたのは無関係の3項目のみ（東アフリカ・南スーダンの民族様式Madi〈300263567〉、Ma'di語〈300388757〉、オーストラリア先住民Mutti Mutti様式〈300458774〉）。wikidataが取れているためnone_reasonは必須ではないが、検索した事実として残す（2026-08-10、AATServlet実測）"
+  none_reason: null
 time:
   start: "1946-08"
   end: null

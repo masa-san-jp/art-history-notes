@@ -9,7 +9,7 @@ authority:
   aat: "300018822"
   ndl: null
   jpsearch: null
-  none_reason: "Wikidata に「ネワール美術」という括りの項目が無い。近いのは Q1217053『Nepalese art』（ネパールという国の美術全般。ネワールという担い手の単位と一致しない）と Q7148832『Paubha』（ネワールの宗教絵画。絵画に限られ、金工・彫刻を含まない）で、いずれも本項目の範囲とずれるため充てなかった。Getty AAT は Styles and Periods 階層の Himalayan の下に『Nepalese (culture or style)』[300018822] を持つのでこれを採ったが、**この概念に scope note は付いていない**（2026-08-10 に全記録表示で確認）——定義文を持たない典拠であることを明記しておく"
+  none_reason: null
 time:
   start: null
   end: null

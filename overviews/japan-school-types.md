@@ -1,9 +1,64 @@
 ---
 as_of: 2026-08-13
 depends_on:
+  - concept/hurufiyya
+  - concept/ukiyo-e
+  - movement/abstract-expressionism
+  - movement/antropofagia
+  - movement/baghdad-modern-art-group
+  - movement/bandung-school
+  - movement/barbizon-school
+  - movement/bengal-school
+  - movement/benin-court-art
+  - movement/company-painting
+  - movement/dansaekhwa
+  - movement/ecole-de-dakar
+  - movement/ecole-de-tunis
+  - movement/futurism
+  - movement/gondarine-church-painting
+  - movement/goryeo-buddhist-painting
+  - movement/group-of-seven
+  - movement/harlem-renaissance
+  - movement/herat-school
+  - movement/hudson-river-school
+  - movement/iatmul-carving
+  - movement/impressionism
+  - movement/indochina-lacquer-painting
+  - movement/jingyeong-sansuhwa
+  - movement/kangra-painting
   - movement/kano-school
+  - movement/lingnan-school
+  - movement/menri-school
+  - movement/mexican-muralism
+  - movement/mono-ha
+  - movement/mughal-painting
+  - movement/negritude
+  - movement/neo-impressionism
+  - movement/neoconcretismo
+  - movement/ngati-tarawhai-whakairo
+  - movement/novgorod-school-icon-painting
+  - movement/ottoman-miniature
+  - movement/papunya-tula
+  - movement/peredvizhniki
+  - movement/pita-maha
   - movement/rinpa
+  - movement/safavid-painting
+  - movement/shanghai-school
+  - movement/sienese-school
+  - movement/suprematism
+  - movement/thirteen-moderns
   - movement/tosa-school
+  - movement/utagawa-school
+  - movement/venetian-school
+  - movement/wu-school
+  - movement/zanabazar-school
+  - movement/zaria-art-society
+  - movement/zhe-school
+  - org/dohwaseo
+assertions:
+  - {subject: movement/kano-school, field: kind, equals: lineage-school}
+  - {subject: movement/rinpa, field: kind, equals: retrospective}
+  - {subject: movement/tosa-school, field: kind, equals: lineage-school}
 hypothesis: "「派」が成立するのは様式的同一性があるときで、その上で官職・血縁の継続があれば lineage-school、無ければ retrospective。官職と血縁だけあって様式的同一性が無いものは派にならず組織にとどまる。様式的同一性は静的（保たれる）／周期変化（王朝・時代の区分ごとに変わる）／無し の3状態を取り、周期変化のときは period-style になる（ムガル絵画1件のみで検証中）"
 hypothesis_revised: 2026-08-09  # 朝鮮の図画署で「制度」を3軸に分ける必要が判明し改訂。ムガル絵画で③軸が二値では足りないことが判明し追加改訂
 tested:

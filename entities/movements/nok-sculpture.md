@@ -11,7 +11,7 @@ authority:
   jpsearch: null
   none_reason: null
 time:
-  start: "-09XX"
+  start: "-08XX"
   end: "0200"
   display: "彫刻（テラコッタ像）の年代は出典間で二通りの推定がある。古い推定は紀元前500年頃〜西暦200年頃、近年の研究は紀元前900年頃〜紀元前後とする。クリーブランド美術館も『500 BCE–200 CE or 1500–1 BCE』と両説を併記しているため、start/end には両説を包含する外側の範囲（紀元前900年代〜西暦200年）を置き、詳細な幅と根拠は本文に残す"
 kind: retrospective

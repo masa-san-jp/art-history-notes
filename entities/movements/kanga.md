@@ -9,7 +9,7 @@ authority:
   aat: "300266170"
   ndl: null
   jpsearch: null
-  none_reason: "Wikidata を「漢画」「suibokuga」「Japanese ink painting」「Muromachi ink painting」で検索したが、この括りを指す項目は無い。最も近い Q756712 は「ink wash painting（水墨画）」＝技法（painting technique）で、様式・時代の括りではないため充てない。日本語版Wikipediaにも「漢画」の記事は無く（2026-08-10 時点で本文0字）、この対象は通常「水墨画」の記事内の『日本における水墨画』節として扱われている。Getty AAT は Styles and Periods 階層の『Japanese painting styles』の下に Kanga を独立の概念として持つため、authority はこれを採った"
+  none_reason: null
 time:
   start: "12XX"
   end: null

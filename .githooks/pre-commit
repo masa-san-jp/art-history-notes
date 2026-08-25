@@ -1,45 +1,12 @@
 #!/usr/bin/env bash
 # 検証を通っていないものを commit させない。
 # 手で走らせる規律に頼ると、走らせ忘れた1回で壊れたまま履歴に入る。
-set -uo pipefail
+set -euo pipefail
 cd "$(git rev-parse --show-toplevel)" || exit 1
 
-# Homebrew の Python は外部パッケージを直接入れられないことがある。
-# PyYAML が無い場合は uv の一時環境で実行し、Python 本体は変更しない。
-if python3 -c 'import yaml' >/dev/null 2>&1; then
-  run_python() { python3 "$@"; }
-elif command -v uv >/dev/null 2>&1; then
-  run_python() { uv run --with pyyaml -- python3 "$@"; }
-else
-  echo "✋ PyYAML がありません。python3 tools/build_graph.py を実行する前に PyYAML を用意してください。" >&2
+if ! command -v uv >/dev/null 2>&1; then
+  echo "✋ uv がありません。READMEの手順でuvをインストールしてください。" >&2
   exit 1
 fi
 
-if ! run_python tools/build_graph.py --check; then
-  echo "" >&2
-  echo "✋ commit を止めました。上の指摘を直してから再度 commit してください。" >&2
-  echo "   直したら: python3 tools/build_graph.py（生成物も更新）" >&2
-  exit 1
-fi
-
-# 生成物が古いまま commit されるのも防ぐ（entities を変えたのに graph を更新していない場合）
-if git diff --cached --name-only | grep -q '^entities/'; then
-  run_python tools/build_graph.py >/dev/null || exit 1
-  if ! git diff --quiet -- data/ overviews/coverage.md; then
-    echo "✋ 生成物が古いままです。次を実行して差分を stage してから commit してください:" >&2
-    echo "   python3 tools/build_graph.py && git add data/ overviews/coverage.md" >&2
-    exit 1
-  fi
-fi
-
-# contextの正本・軸・計算実装が変わったときだけ、専用生成物の鮮度を検査する。
-if git diff --cached --name-only \
-    | grep -Eq '^(contexts/.*\.md|config/context-dimensions\.yaml|tools/(context_kb|build_context_vectors)\.py)$'; then
-  run_python tools/build_context_vectors.py --check || exit 1
-  run_python tools/build_context_vectors.py >/dev/null || exit 1
-  if ! git diff --quiet -- data/context-vectors.json data/context-similarity.json; then
-    echo "✋ context生成物が古いままです。次を実行して差分を stage してください:" >&2
-    echo "   python3 tools/build_context_vectors.py && git add data/context-vectors.json data/context-similarity.json" >&2
-    exit 1
-  fi
-fi
+uv run --locked python tools/verify.py

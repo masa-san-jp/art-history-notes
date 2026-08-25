@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 """必須項目が埋まった雛形を作る。調査する側が「何を書くか」を思い出さなくて済むようにするため。
 
-    python3 tools/new_entity.py movement kano-school --ja 狩野派 --en "Kano School"
-    python3 tools/new_entity.py place kyoto --ja 京都 --en Kyoto --region asia-east-japan
+    uv run --locked python tools/new_entity.py movement kano-school --ja 狩野派 --en "Kano School"
+    uv run --locked python tools/new_entity.py place kyoto --ja 京都 --en Kyoto --region asia-east-japan
 
 TODO: が1つでも残っていると build_graph.py が落ちる（必須項目が空だから）。埋めれば通る。
 """
@@ -22,11 +22,13 @@ label_en: {en}
 authority:
   wikidata: null
   aat: null
+  ulan: null
+  tgn: null
   ndl: null
   jpsearch: null
   none_reason: null      # 典拠が1つも無いときだけ理由を書く
 time:
-  start: null            # EDTF: 1884 / -0900 / 146X / 1503~ / null
+  start: null            # EDTF: 1884 / 0000 (1 BCE) / -0899 (900 BCE) / 146X / 1503~ / null
   end: null              # 継続中は ".."
   display: null          # 原表記（元号など）をそのまま残す
 {extra}space: []
@@ -79,7 +81,7 @@ def main():
     path.write_text(COMMON.format(eid=eid, uri=URI_PREFIX + eid, etype=a.type, ja=a.ja, en=a.en,
                                  extra=extra, today=date.today().isoformat()), encoding="utf-8")
     print(f"✓ {path.relative_to(path.parents[2])} を作った。TODO を埋めて "
-          f"`python3 tools/build_graph.py --check` を通す")
+          f"`uv run --locked python tools/build_graph.py --check` を通す")
     return 0
 
 

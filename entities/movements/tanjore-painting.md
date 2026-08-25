@@ -10,7 +10,7 @@ authority:
   aat: null
   ndl: null
   jpsearch: null
-  none_reason: "Getty AATServletへの文字列検索（find=Tanjore painting / Thanjavur painting / Tanjore school / Thanjavur school / Tanjore / Thanjavur、logic=AND、いずれも2026-08-10実施）はすべて「0 results」で応答した。対応する主題は見つからなかった"
+  none_reason: null
 time:
   start: "167X"
   end: ".."

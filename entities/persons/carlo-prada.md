@@ -9,7 +9,7 @@ authority:
   ulan: "500339761"
   ndl: null
   jpsearch: null
-  none_reason: "検証器が採用する独立典拠IDは未確認。ULAN参照とDatabase of Modern Exhibitionsを用いる"
+  none_reason: null
 time:
   start: "1884"
   end: "1960"

@@ -124,6 +124,25 @@ naming:
 付いた」場合は `kind: self-declared` で `original_label` に当事者の呼称を残す（ザリア・アート・
 ソサエティ——名乗ったのは "Art Society"）。**成り立ち（kind）と呼称の来歴（naming）は独立に動く。**
 
+### frontmatter の意味制約
+
+`tools/build_graph.py --check` は、YAMLとして読めるだけでは通さず、次の意味制約も検証する。
+
+- `place.coordinates` は `[latitude, longitude]` の有限な数値2要素。緯度は `-90..90`、経度は `-180..180`
+- `time` は `start` と `end` を持つマップ。両方ともEDTF Level 1サブセットで、`start: ".."` は不可。
+  startの最小年がendの最大年より後の区間は不可だが、世紀表記などの曖昧な区間の重なりは許す
+- movement の `naming.self_identified` はbool。`false` なら `named_by` または `note` が必要。
+  `original_label` は必須で、nullにする場合はnoteに未確認理由を書く。`named_when` はEDTF、
+  `named_by` は存在するperson/org IDにする
+- `authority` のキーは `wikidata` / `aat` / `ulan` / `tgn` / `ndl` / `jpsearch` / `none_reason` に限定する。
+  ID形式はそれぞれ Wikidata QID、AAT/ULAN 9桁、TGN 7–8桁、NDL 8桁。IDが1つでもあれば
+  `none_reason` はnull、IDが無ければ空でない理由が必要
+- `updated` は実在する `YYYY-MM-DD`。`aliases` は空でない文字列で、既存ID・他entityのaliasと衝突させない。
+  型付きalias（`movement/old-slug`）は小文字slug、旧名などの人間向け文字列aliasは許可する
+- `claims` の各項目は空でない `field`、`source`、`certainty` を持ち、同じclaimを完全重複させない
+
+この検証の異常系fixtureは `tests/test_semantic_validation.py` に置く。仕様変更時はfixtureと本文を同じ変更で更新する。
+
 ### `former_names`（任意・place）— 土地の名前が時代で変わるとき
 
 **土地1つにエンティティ1つ。名前の変化は `former_names` に持つ。** 別エンティティに分けない。
@@ -160,6 +179,31 @@ places:
 movement の開始時期が複数区間にまたがる場合は、最初の1つに丸めず複数起源として扱う。開始時期が不明、
 または辞書に該当項目がない場合は、place の基準 `region` に戻る。辞書のplace ID、region、EDTF、区間の重複は
 `tools/build_graph.py --check` が検証する。
+
+### overview frontmatter — 俯瞰の機械検証
+
+手書きの `overviews/*.md` は、自由文を残したまま機械判定できる事実だけを `assertions` に置く。
+`coverage.md` は生成物なので `assertions` を持たず、frontmatter の `as_of` と生成ブロックの最新日が
+entityの `updated` の最大値と一致することを検証する。
+
+```yaml
+as_of: 2026-08-13
+depends_on: [movement/kano-school, movement/rinpa]
+assertions:
+  - {subject: movement/kano-school, field: kind, equals: lineage-school}
+  - {subject: movement/kano-school, relation: derives_from, target: movement/other}
+  - {subject: movement/kano-school, space_role: originated_in, target: place/tokyo}
+```
+
+`assertions` の判定対象は次の3種類だけ。
+
+- `field`: ドット区切りで辿れるscalar値との一致。配列・マップ・自由文は対象外。
+- `relation`: entityの `relations` に同じ `type` と `target` が存在すること。
+- `space_role`: entityの `space` に同じ `role` と `target` が存在すること。
+
+`subject`、`target`、`tested[].by`、本文の相対entityリンクはすべて `depends_on` に含める。
+存在しない参照、assertionとの不一致、依存漏れ、重複、古い `as_of` は
+`uv run --locked python tools/build_graph.py --check` が止める。自由文全体の真偽は検証対象にしない。
 
 ### `coverage-reviews.yaml` — 調査済みの空セル
 
@@ -240,9 +284,11 @@ images:
 
 ### `time` — EDTF（ISO 8601-2）Level 1 サブセット
 
-受ける形: `1884` / `-0900`（紀元前900年）/ `1884-05` / `1884-05-20` /
-`146X`（1460年代）/ `14XX`（15世紀）/ `-09XX`（紀元前900年代）/ `1500~`
+受ける形: `1884` / `0000`（紀元前1年）/ `-0001`（紀元前2年）/ `-0899`（紀元前900年）/ `1884-05` / `1884-05-20` /
+`146X`（1460年代）/ `14XX`（15世紀）/ `-08XX`（紀元前900年代）/ `1500~`
 （およそ1500年）/ `1884?`（不確か）/ `..`（開いた端）/ `null`（不明）。
+年の符号は天文学的年番号で統一する。`0000` は紀元前1年、`-0001` は紀元前2年、
+紀元前900年は `-0899` になる。表示用ラベルは `astronomical_year_to_label` で `1BCE` のように作り、
 被覆マップの世紀列では紀元前を `10BCE` のように表示する。
 
 **Wikidata の日付は `precision` を見てから写す。** 値が `+1500-00-00` でも precision 7 なら
@@ -347,11 +393,11 @@ images:
 ## 道具
 
 ```bash
-python3 tools/new_entity.py movement <slug> --ja "<名前>"   # 必須項目が入った雛形
-python3 tools/build_graph.py --check                       # 検証のみ（CI 用）
-python3 tools/build_graph.py                               # 検証 + graph.json + coverage.json + 被覆マップ更新
-python3 tools/bundle.py movement/<slug>                     # 知識のまとまりを1文書で取り出す
-python3 tools/bundle.py --region asia-east-japan            # 文化圏でまとめて取り出す
+uv run --locked python tools/new_entity.py movement <slug> --ja "<名前>"   # 必須項目が入った雛形
+uv run --locked python tools/build_graph.py --check                       # 検証のみ（CI 用）
+uv run --locked python tools/build_graph.py                               # 検証 + graph.json + coverage.json + 被覆マップ更新
+uv run --locked python tools/bundle.py movement/<slug>                     # 知識のまとまりを1文書で取り出す
+uv run --locked python tools/bundle.py --region asia-east-japan            # 文化圏でまとめて取り出す
 ```
 
 検証が落とすもの: 必須項目の欠落／雛形の TODO 残り／ID・URI とパスの不一致／ID 重複／
@@ -373,6 +419,7 @@ EDTF 違反／解釈系の関係の `certainty`・`source` 欠落／`verified` �
 ### `aliases`（任意）
 
 slug を変えたときに古い id で参照が切れないように、旧 id を `aliases` に残せる。
-`aliases: [movement/old-slug]`。検証が id との衝突を落とし、`bundle.py` は alias でも引ける。
+`aliases: [movement/old-slug, "旧称"]` のように、型付き旧IDと人間向けの旧名を併記できる。
+型付きaliasだけは `<type>/<小文字slug>` の形式にする。検証がid・alias同士の衝突を落とし、`bundle.py` は aliasでも引ける。
 
 外部データとの対応関係は [interop-mapping.md](interop-mapping.md)。

@@ -10,7 +10,7 @@ authority:
   aat: null
   ndl: null
   jpsearch: null
-  none_reason: "Getty AATは「Rajput (culture and style)」（300019020）の下に「Pahari」（300018997）→「Kangra」という3階層のNarrower Termとしてカーングラを持つ（Tesaurus d'Art i Arquitectura のミラー、https://aatesaurus.cultura.gencat.cat/aat/getty_en/index.php?%2Frajput=&tema=31367026 で確認）が、カーングラ自身の主題ID（subjectid）はミラー上のNT一覧表示では番号が示されず、Getty本家のAATServletへの文字列検索（find=Kangra）もHTTP 400で応答せず、単独では特定できなかった。親項目のRajput（300019020）・Pahari（300018997）は特定できている"
+  none_reason: null
 time:
   start: "173X"
   end: null

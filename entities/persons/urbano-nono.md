@@ -9,7 +9,7 @@ authority:
   ulan: "500072579"
   ndl: null
   jpsearch: null
-  none_reason: "検証済みの独立人物典拠IDは未確認。Treccani、Getty ULAN、1891年公式カタログを用いる"
+  none_reason: null
 time:
   start: "1849-01-05"
   end: "1925-11-05"

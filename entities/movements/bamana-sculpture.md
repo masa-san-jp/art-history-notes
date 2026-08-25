@@ -9,7 +9,7 @@ authority:
   aat: "300015848"
   ndl: null
   jpsearch: null
-  none_reason: "Wikidata には『バマナ彫刻』という様式・括りの項目が無い。あるのは民族集団（Bambara [Q504685]）と個別の器物（Chiwara [Q4892684]）で、いずれも括りそのものと単位が違うため wikidata は null にした。AAT ID は Q504685 の P1014 から取り、Getty 側の全記録表示で『Bamana（Styles and Periods 階層／core Mande styles）』であることを確認済み"
+  none_reason: null
 time:
   start: null
   end: null

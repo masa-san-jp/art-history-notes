@@ -9,7 +9,7 @@ authority:
   ulan: null
   ndl: null
   jpsearch: null
-  none_reason: "確実に対応するULANレコードは未確認"
+  none_reason: null
 time:
   start: "1861-09-28"
   end: "1949-04-29"

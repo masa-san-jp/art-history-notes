@@ -9,7 +9,7 @@ authority:
   aat: null
   ndl: null
   jpsearch: null
-  none_reason: "Getty AAT（getty.edu/vow/AATServlet、'Group of Seven' で検索、2026-08-09）は「0 results」。'Algonquin School'（後述、結成前の呼称）でも同様に0件。Wikidata Q1547741にもP1014（Getty AAT ID）のclaimは無い"
+  none_reason: null
 time:
   start: "1920"
   end: "1933"

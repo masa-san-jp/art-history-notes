@@ -10,7 +10,7 @@ authority:
   aat: null
   ndl: null
   jpsearch: null
-  none_reason: "Getty AATを英語(anthropophagism / anthropophagy / anthropophagic)・ポルトガル語(antropofagia)いずれでも検索したが該当語彙が0件だった（2026-08-09、AATServlet実測）。wikidataが取れているためnone_reasonは必須ではないが、検索した事実として残す"
+  none_reason: null
 time:
   start: "1928-05"
   end: "1929-08"

@@ -667,7 +667,7 @@
         "aat": null,
         "ndl": null,
         "jpsearch": null,
-        "none_reason": "Getty AATを英語(anthropophagism / anthropophagy / anthropophagic)・ポルトガル語(antropofagia)いずれでも検索したが該当語彙が0件だった（2026-08-09、AATServlet実測）。wikidataが取れているためnone_reasonは必須ではないが、検索した事実として残す"
+        "none_reason": null
       },
       "time": {
         "start": "1928-05",
@@ -922,7 +922,7 @@
         "aat": null,
         "ndl": null,
         "jpsearch": null,
-        "none_reason": "Getty AATを「madi」「Madi art」で検索したが、該当する概念（美術運動としてのマディ）は0件だった。ヒットしたのは無関係の3項目のみ（東アフリカ・南スーダンの民族様式Madi〈300263567〉、Ma'di語〈300388757〉、オーストラリア先住民Mutti Mutti様式〈300458774〉）。wikidataが取れているためnone_reasonは必須ではないが、検索した事実として残す（2026-08-10、AATServlet実測）"
+        "none_reason": null
       },
       "time": {
         "start": "1946-08",
@@ -1149,7 +1149,7 @@
         "aat": null,
         "ndl": null,
         "jpsearch": null,
-        "none_reason": "Getty AAT: getty.edu/vow/AATServlet が既知の正常なクエリに対しても 301/400 を返す状態で到達できず（lingnan-school と同様の既知の障害）。Wikidata の典拠があるため none_reason は補足のみ"
+        "none_reason": null
       },
       "time": {
         "start": "1951",
@@ -1337,7 +1337,7 @@
         "aat": "300015848",
         "ndl": null,
         "jpsearch": null,
-        "none_reason": "Wikidata には『バマナ彫刻』という様式・括りの項目が無い。あるのは民族集団（Bambara [Q504685]）と個別の器物（Chiwara [Q4892684]）で、いずれも括りそのものと単位が違うため wikidata は null にした。AAT ID は Q504685 の P1014 から取り、Getty 側の全記録表示で『Bamana（Styles and Periods 階層／core Mande styles）』であることを確認済み"
+        "none_reason": null
       },
       "time": {
         "start": null,
@@ -2109,7 +2109,7 @@
         "aat": null,
         "ndl": null,
         "jpsearch": null,
-        "none_reason": "Getty AATServletは「Byzantine art」「Byzantine」の検索でHTTP 400を返し続けた。コントロールクエリ（「painting」単体）でも同様にHTTP 400で、2026-08-10にcurlで再現確認——これは語がAATに無いことの確認ではなく、検索サービス自体が到達不能な状態だったという意味（docs/investigation-task.mdが記す2026-08-08時点の既知の制約と一致する）。SPARQLエンドポイント（vocab.getty.edu/sparql）も「Service temporarily degraded」または301リダイレクトを返し続け、到達できなかった。WikidataのQ211884自身もP1014（Getty AAT ID）のclaimを持たない"
+        "none_reason": null
       },
       "time": {
         "start": "0330",
@@ -2977,7 +2977,7 @@
         "aat": null,
         "ndl": null,
         "jpsearch": null,
-        "none_reason": "Getty AATはgetty.edu/vow/AATServletで「Dong Ho」「Đông Hồ」「dan gian painting」を検索したが該当語を確認できなかった。WikidataのQIDが取れているためnone_reasonは必須ではないが、AATが無い旨の記録として残す"
+        "none_reason": null
       },
       "time": {
         "start": "16XX~",
@@ -3591,7 +3591,7 @@
         "aat": "300263018",
         "ndl": null,
         "jpsearch": null,
-        "none_reason": "Wikidataで「Gondarine art」「Gondar style painting」「Ethiopian church painting」「Ethiopian icon painting」を検索したが、この美術様式そのものに一致する項目は見つからなかった。近い項目として『Gondarine period』（Q112649079、『1632–1769 period of Ethiopian history』）があるが、これは政治史上の時代区分の項目であり claims も空（P571/P576 等の時間典拠を持たない）。美術様式の同一性を示す項目ではないため、movement の authority としては採用しなかった（time の参考にのみ使う）。Getty AAT 300263018（Gondar）を kind・様式の典拠とした"
+        "none_reason": null
       },
       "time": {
         "start": "1632",
@@ -3678,7 +3678,7 @@
         "aat": null,
         "ndl": null,
         "jpsearch": null,
-        "none_reason": "Getty AATは「Goryeo Buddhist painting」「Korai Buddhist painting」「Koryo Buddhist painting」でAATServletを検索しようとしたが、コントロールクエリ（「painting」単体）でもHTTP 400/499を返し続け、サービス自体が到達不能な状態だった（2026-08-09確認、curlでも再現）——これは語がAATに無いことの確認ではなく、検索サービスへのアクセス自体が失敗したという意味。Web NDL Authorities（id.ndl.go.jp）は「高麗仏画」の検索でSPARQLパーサエラーを返し、Japan Searchは検索結果が描画されずヒットの有無を確認できなかった——docs/investigation-task.mdが既に記す2026-08-08時点の既知の制約と一致する"
+        "none_reason": null
       },
       "time": {
         "start": "12XX",
@@ -3834,7 +3834,7 @@
         "aat": null,
         "ndl": null,
         "jpsearch": null,
-        "none_reason": "Getty AAT（getty.edu/vow/AATServlet、'Group of Seven' で検索、2026-08-09）は「0 results」。'Algonquin School'（後述、結成前の呼称）でも同様に0件。Wikidata Q1547741にもP1014（Getty AAT ID）のclaimは無い"
+        "none_reason": null
       },
       "time": {
         "start": "1920",
@@ -5230,7 +5230,7 @@
         "aat": "300266170",
         "ndl": null,
         "jpsearch": null,
-        "none_reason": "Wikidata を「漢画」「suibokuga」「Japanese ink painting」「Muromachi ink painting」で検索したが、この括りを指す項目は無い。最も近い Q756712 は「ink wash painting（水墨画）」＝技法（painting technique）で、様式・時代の括りではないため充てない。日本語版Wikipediaにも「漢画」の記事は無く（2026-08-10 時点で本文0字）、この対象は通常「水墨画」の記事内の『日本における水墨画』節として扱われている。Getty AAT は Styles and Periods 階層の『Japanese painting styles』の下に Kanga を独立の概念として持つため、authority はこれを採った"
+        "none_reason": null
       },
       "time": {
         "start": "12XX",
@@ -5335,7 +5335,7 @@
         "aat": null,
         "ndl": null,
         "jpsearch": null,
-        "none_reason": "Getty AATは「Rajput (culture and style)」（300019020）の下に「Pahari」（300018997）→「Kangra」という3階層のNarrower Termとしてカーングラを持つ（Tesaurus d'Art i Arquitectura のミラー、https://aatesaurus.cultura.gencat.cat/aat/getty_en/index.php?%2Frajput=&tema=31367026 で確認）が、カーングラ自身の主題ID（subjectid）はミラー上のNT一覧表示では番号が示されず、Getty本家のAATServletへの文字列検索（find=Kangra）もHTTP 400で応答せず、単独では特定できなかった。親項目のRajput（300019020）・Pahari（300018997）は特定できている"
+        "none_reason": null
       },
       "time": {
         "start": "173X",
@@ -5895,7 +5895,7 @@
         "aat": null,
         "ndl": null,
         "jpsearch": null,
-        "none_reason": "Getty AAT ID 300106501 は Wikidata Q1142000 の P1014 が指す値だが、AAT 自体のスコープノートを直接引くと「斉白石（1863-1957）が率いた一派の作品」（Southern School (Chinese style)）を指しており、董其昌の南北宗論に基づく文人画／南宗画とは無関係の別対象である（Getty AAT 公式サイトの AATFullDisplay 検索結果、2026-08-10 実測）。誤ったIDを引き継ぐと典拠として機能しないため、aat は null のままにした"
+        "none_reason": null
       },
       "time": {
         "start": "10XX",
@@ -6343,7 +6343,7 @@
         "aat": "300018855",
         "ndl": null,
         "jpsearch": null,
-        "none_reason": "Wikidataで「Menri」「Menri school」「Menla Dondrub」「sMan-ris」「Menri style」を検索したが、この画派・創始者に一致する項目は見つからなかった。「Menri」の検索結果は無関係な同名対象のみ（Menri Monastery Q1920706=ナムリン県のボン教寺院、Menriv Park=米国の地名など）。「Menla Dondrub」の唯一のヒットQ97267005「Kongrong Menla Döndrub」はP569（誕生日）が+1675年で、P106（職業）もwriter系（Q36180）——15世紀の画派創始者とは生年が200年以上ずれる別人と判定し不採用。AAT ID 300018855（P1014）に対応するWikidata項目もSPARQLで0件だった"
+        "none_reason": null
       },
       "time": {
         "start": "14XX",
@@ -7274,7 +7274,7 @@
         "aat": "300018822",
         "ndl": null,
         "jpsearch": null,
-        "none_reason": "Wikidata に「ネワール美術」という括りの項目が無い。近いのは Q1217053『Nepalese art』（ネパールという国の美術全般。ネワールという担い手の単位と一致しない）と Q7148832『Paubha』（ネワールの宗教絵画。絵画に限られ、金工・彫刻を含まない）で、いずれも本項目の範囲とずれるため充てなかった。Getty AAT は Styles and Periods 階層の Himalayan の下に『Nepalese (culture or style)』[300018822] を持つのでこれを採ったが、**この概念に scope note は付いていない**（2026-08-10 に全記録表示で確認）——定義文を持たない典拠であることを明記しておく"
+        "none_reason": null
       },
       "time": {
         "start": null,
@@ -7499,7 +7499,7 @@
         "none_reason": null
       },
       "time": {
-        "start": "-09XX",
+        "start": "-08XX",
         "end": "0200",
         "display": "彫刻（テラコッタ像）の年代は出典間で二通りの推定がある。古い推定は紀元前500年頃〜西暦200年頃、近年の研究は紀元前900年頃〜紀元前後とする。クリーブランド美術館も『500 BCE–200 CE or 1500–1 BCE』と両説を併記しているため、start/end には両説を包含する外側の範囲（紀元前900年代〜西暦200年）を置き、詳細な幅と根拠は本文に残す"
       },
@@ -7657,7 +7657,7 @@
         "aat": null,
         "ndl": null,
         "jpsearch": null,
-        "none_reason": "Getty AATServletは「Novgorod」「Novgorod school」の検索でHTTP 400を返し続けた。コントロールクエリ（「painting」単体）でも同様にHTTP 400で、2026-08-09にcurlで再現確認——これは語がAATに無いことの確認ではなく、検索サービス自体が到達不能な状態だったという意味（docs/investigation-task.mdが記す2026-08-08時点の既知の制約と一致する）"
+        "none_reason": null
       },
       "time": {
         "start": "11XX",
@@ -9572,7 +9572,7 @@
         "aat": null,
         "ndl": null,
         "jpsearch": null,
-        "none_reason": "Getty AATServletへの文字列検索（find=Tanjore painting / Thanjavur painting / Tanjore school / Thanjavur school / Tanjore / Thanjavur、logic=AND、いずれも2026-08-10実施）はすべて「0 results」で応答した。対応する主題は見つからなかった"
+        "none_reason": null
       },
       "time": {
         "start": "167X",
@@ -10107,7 +10107,7 @@
       "naming": {
         "self_identified": true,
         "named_by": null,
-        "named_when": "999",
+        "named_when": "0999",
         "original_label": "やまと絵",
         "note": "後付けの学術用語ではなく、対象が制作されていた同時代（少なくとも999年時点）から当事者（宮廷・貴族社会）が使っていた語。ただし語義は一定ではない——平安時代は「日本の物語・人物・風物を主題とした絵画」という画題の概念で、対義語の「唐絵」は中国の主題を描いた絵を指した（様式・技法の話ではない）。14世紀以降に「様式」を指す概念へ転じ、唐風を基本に据えつつ北宋以降の中国画様式も部分的に取り込んだ伝統的様式を指すようになった（ja.wikipedia「大和絵」、二次情報、秋山光和『平安時代世俗画の研究』に拠るとされるが該当文への脚注番号の対応は確認できていない）"
       },
@@ -10166,7 +10166,7 @@
         "aat": null,
         "ndl": null,
         "jpsearch": null,
-        "none_reason": "Getty AAT (https://www.getty.edu/vow/AATServlet) を english=N・find=yangzhou / eight+eccentrics / yang-chou / yangchow の4通りで検索したが該当語彙が見つからなかった。NDL/Web NDL Authorities・Japan Search は docs/investigation-task.md の記載どおり正しい呼び方が未確認のため今回は試していない"
+        "none_reason": null
       },
       "time": {
         "start": "17XX",
@@ -14063,7 +14063,7 @@
         "ulan": "500339761",
         "ndl": null,
         "jpsearch": null,
-        "none_reason": "検証器が採用する独立典拠IDは未確認。ULAN参照とDatabase of Modern Exhibitionsを用いる"
+        "none_reason": null
       },
       "time": {
         "start": "1884",
@@ -19970,7 +19970,7 @@
         "ulan": "500171185",
         "ndl": null,
         "jpsearch": null,
-        "none_reason": "検証器が採用する独立典拠IDは未確認。ULAN参照と美術館・図書館資料を用いる"
+        "none_reason": null
       },
       "time": {
         "start": "1882-05-25",
@@ -20641,7 +20641,7 @@
         "ulan": null,
         "ndl": null,
         "jpsearch": null,
-        "none_reason": "確実に対応するULANレコードは未確認"
+        "none_reason": null
       },
       "time": {
         "start": "1861-09-28",
@@ -24809,7 +24809,7 @@
         "ulan": "500072579",
         "ndl": null,
         "jpsearch": null,
-        "none_reason": "検証済みの独立人物典拠IDは未確認。Treccani、Getty ULAN、1891年公式カタログを用いる"
+        "none_reason": null
       },
       "time": {
         "start": "1849-01-05",

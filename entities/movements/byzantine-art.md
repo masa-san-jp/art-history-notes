@@ -10,7 +10,7 @@ authority:
   aat: null
   ndl: null
   jpsearch: null
-  none_reason: "Getty AATServletは「Byzantine art」「Byzantine」の検索でHTTP 400を返し続けた。コントロールクエリ（「painting」単体）でも同様にHTTP 400で、2026-08-10にcurlで再現確認——これは語がAATに無いことの確認ではなく、検索サービス自体が到達不能な状態だったという意味（docs/investigation-task.mdが記す2026-08-08時点の既知の制約と一致する）。SPARQLエンドポイント（vocab.getty.edu/sparql）も「Service temporarily degraded」または301リダイレクトを返し続け、到達できなかった。WikidataのQ211884自身もP1014（Getty AAT ID）のclaimを持たない"
+  none_reason: null
 time:
   start: "0330"
   end: "1453"

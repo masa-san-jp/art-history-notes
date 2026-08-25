@@ -9,7 +9,7 @@ authority:
   aat: null
   ndl: null
   jpsearch: null
-  none_reason: "Getty AATはgetty.edu/vow/AATServletで「Dong Ho」「Đông Hồ」「dan gian painting」を検索したが該当語を確認できなかった。WikidataのQIDが取れているためnone_reasonは必須ではないが、AATが無い旨の記録として残す"
+  none_reason: null
 time:
   start: "16XX~"
   end: ".."

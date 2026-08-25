@@ -28,6 +28,7 @@ docs/
   design-fable-draft.md 設計の草案と、その根拠になった実測
 tools/
   kb.py              スキーマ定義と共通部品（1箇所）
+  verify.py          全検証・生成物鮮度確認の正準エントリポイント
   new_entity.py      必須項目が入った雛形を作る
   build_graph.py     検証 → data/graph.json・data/coverage.json・被覆マップ更新
   bundle.py          知識のまとまりを1文書として取り出す
@@ -39,8 +40,8 @@ data/              生成物（graph / coverage / context vectors / context simi
 
 ## 3軸をどう持っているか
 
-- **時間** — `time.start` / `end` は **EDTF**（`-0900`＝紀元前900年／`146X`＝1460年代／`1500~`＝およそ／`..`＝継続中／
-  `null`＝不明）。不明を推測で埋めない。原表記（元号・王朝名）は `display` に残す。
+- **時間** — `time.start` / `end` は **EDTF**（`0000`＝紀元前1年／`-0001`＝紀元前2年／`-0899`＝紀元前900年／
+  `146X`＝1460年代／`1500~`＝およそ／`..`＝継続中／`null`＝不明）。不明を推測で埋めない。原表記（元号・王朝名）は `display` に残す。
 - **空間** — `space` に役割付きの場所参照（`originated_in` / `created_in` / `held_at` / `active_in`…）。
   `place` は文化圏（`region`）と座標を必ず持つので、「1885年に半径◯kmで何が起きていたか」を引ける。
 - **関係** — `relations` は閉じた語彙。解釈を含むもの（`influenced_by` / `derives_from` /
@@ -57,18 +58,28 @@ data/              生成物（graph / coverage / context vectors / context simi
 
 ## 使う
 
+前提は Python 3.12 と [uv](https://docs.astral.sh/uv/)。clone直後に依存関係をlockどおり準備する。
+
 ```bash
-python3 tools/new_entity.py movement kano-school --ja 狩野派 --en "Kanō school"
-python3 tools/build_graph.py --check     # 検証だけ（CI 用）
-python3 tools/build_graph.py             # 検証 + グラフ・被覆マップの生成
-python3 tools/bundle.py --search 調和               # 語で探す（IDを知らなくていい）
-python3 tools/bundle.py movement/kano-school        # 1件とその周辺を1文書で
-python3 tools/bundle.py --region asia-east-japan    # 文化圏でまとめて
-python3 tools/bundle.py --century 19                # 世紀でまとめて
-python3 tools/audit.py                              # 体系の食い違い・偏り → 次に調べること
-python3 tools/build_context_vectors.py --check      # 時代文脈の検証だけ
-python3 tools/build_context_vectors.py              # ベクトル・類似度を生成
-python3 tools/compare_context.py context/ai-art-japan-2026-h2 --kind historical --top 10
+uv sync --locked
+uv run --locked python tools/verify.py
+git config core.hooksPath .githooks
+```
+
+個別のCLIを試すときも、同じuv環境を使う。
+
+```bash
+uv run --locked python tools/new_entity.py movement kano-school --ja 狩野派 --en "Kanō school"
+uv run --locked python tools/build_graph.py --check     # 検証だけ（CI 用）
+uv run --locked python tools/build_graph.py             # 検証 + グラフ・被覆マップの生成
+uv run --locked python tools/bundle.py --search 調和               # 語で探す（IDを知らなくていい）
+uv run --locked python tools/bundle.py movement/kano-school        # 1件とその周辺を1文書で
+uv run --locked python tools/bundle.py --region asia-east-japan    # 文化圏でまとめて
+uv run --locked python tools/bundle.py --century 19                # 世紀でまとめて
+uv run --locked python tools/audit.py                              # 体系の食い違い・偏り → 次に調べること
+uv run --locked python tools/build_context_vectors.py --check      # 時代文脈の検証だけ
+uv run --locked python tools/build_context_vectors.py              # ベクトル・類似度を生成
+uv run --locked python tools/compare_context.py context/ai-art-japan-2026-h2 --kind historical --top 10
 ```
 
 1件の調査は [docs/investigation-task.md](docs/investigation-task.md) の手順だけで終わる。
@@ -85,7 +96,7 @@ commit を止める。**`audit.py` は「噛み合っていないか」**（時�
 仮説が未検証・継承の先が辿れない）を見て、止めずに**次に調べることとして出す**。
 形が正しいだけの体系は、機械が黙っているうちに静かに矛盾を溜める。
 
-`.githooks/pre-commit` が commit のたびに `build_graph.py --check` を走らせ、通らないものを止める。
+`.githooks/pre-commit` が commit のたびに `uv run --locked python tools/verify.py` を走らせ、通らないものを止める。
 生成物（`data/` と被覆マップ）が古いままの commit も止める。
 
 **clone した直後に1回だけ**（これをしないとフックは動かない）:
@@ -94,8 +105,7 @@ commit を止める。**`audit.py` は「噛み合っていないか」**（時�
 git config core.hooksPath .githooks
 ```
 
-忘れても気づけるようにしてある——設定されていない状態で `build_graph.py` を走らせると警告が出る。
-手で走らせる規律に頼ると、走らせ忘れた1回で壊れたまま履歴に入る。
+忘れてもCIの同じ正準コマンドで検出できる。手で走らせる規律に頼ると、走らせ忘れた1回で壊れたまま履歴に入る。
 
 ## 書くときの規律
 
@@ -109,7 +119,7 @@ git config core.hooksPath .githooks
 
 ## いま入っているもの
 
-`python3 tools/build_graph.py` の出力が正確な現在地（件数をここに書き写すと必ず古くなる）。
+`uv run --locked python tools/build_graph.py` の出力が正確な現在地（件数をここに書き写すと必ず古くなる）。
 空白の全体像は [overviews/coverage.md](overviews/coverage.md)。
 
 ## 制作との接続

@@ -4,7 +4,8 @@ import unittest
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "tools"))
 
-from kb import century_of_year, edtf_ok, edtf_year_range, regions_of
+from kb import (astronomical_year_to_label, bce_year_to_astronomical, century_of_year,
+                edtf_ok, edtf_year_range, human_year_to_astronomical, regions_of)
 
 
 class KbTimeAndRegionTests(unittest.TestCase):
@@ -13,10 +14,28 @@ class KbTimeAndRegionTests(unittest.TestCase):
         self.assertTrue(edtf_ok("-09XX"))
         self.assertEqual((-900, -900), edtf_year_range("-0900"))
         self.assertEqual((-999, -900), edtf_year_range("-09XX"))
+        self.assertEqual((-899, -800), edtf_year_range("-08XX"))
+        self.assertEqual((0, 0), edtf_year_range("0000"))
+        self.assertEqual((-1, -1), edtf_year_range("-0001"))
         self.assertEqual(-10, century_of_year(-900))
         self.assertEqual(-1, century_of_year(-1))
+        self.assertEqual(-1, century_of_year(0))
+        self.assertEqual(-1, century_of_year(-99))
+        self.assertEqual(-2, century_of_year(-100))
         self.assertEqual(1, century_of_year(1))
         self.assertFalse(edtf_ok("-900"))
+
+    def test_astronomical_year_labels_and_conversion(self):
+        self.assertEqual("1BCE", astronomical_year_to_label(0))
+        self.assertEqual("2BCE", astronomical_year_to_label(-1))
+        self.assertEqual("1CE", astronomical_year_to_label(1))
+        self.assertEqual(-899, bce_year_to_astronomical(900))
+        self.assertEqual(-899, human_year_to_astronomical(900, "BCE"))
+        self.assertEqual(2026, human_year_to_astronomical(2026, "CE"))
+        with self.assertRaises(ValueError):
+            human_year_to_astronomical(0, "BCE")
+        with self.assertRaises(ValueError):
+            human_year_to_astronomical(1, "BAD")
 
     def test_region_history_uses_movement_start(self):
         entities = {

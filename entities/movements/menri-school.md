@@ -10,7 +10,7 @@ authority:
   aat: "300018855"
   ndl: null
   jpsearch: null
-  none_reason: "Wikidataで「Menri」「Menri school」「Menla Dondrub」「sMan-ris」「Menri style」を検索したが、この画派・創始者に一致する項目は見つからなかった。「Menri」の検索結果は無関係な同名対象のみ（Menri Monastery Q1920706=ナムリン県のボン教寺院、Menriv Park=米国の地名など）。「Menla Dondrub」の唯一のヒットQ97267005「Kongrong Menla Döndrub」はP569（誕生日）が+1675年で、P106（職業）もwriter系（Q36180）——15世紀の画派創始者とは生年が200年以上ずれる別人と判定し不採用。AAT ID 300018855（P1014）に対応するWikidata項目もSPARQLで0件だった"
+  none_reason: null
 time:
   start: "14XX"
   end: ".."

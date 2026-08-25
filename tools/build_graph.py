@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 """frontmatter を検証し、グラフと被覆集計を生成する。
 
-    python3 tools/build_graph.py            # 検証 + data/graph.json + data/coverage.json + 被覆マップ更新
-    python3 tools/build_graph.py --check    # 検証のみ（CI 用・書き込みなし）
+    uv run --locked python tools/build_graph.py            # 検証 + data/graph.json + data/coverage.json + 被覆マップ更新
+    uv run --locked python tools/build_graph.py --check    # 検証のみ（CI 用・書き込みなし）
 
 検証で落ちるもの: 必須項目の欠落／id・uri とパスの不一致／id 重複／存在しない参照／語彙外の型・関係・役割／
 EDTF 違反／解釈系の関係で certainty・source の欠落／verified なのに項目ごとの根拠がない／
@@ -10,13 +10,15 @@ place の region 欠落／俯瞰の依存先が更新されたのに as_of が�
 """
 
 import json
+import math
 import sys
 import yaml
 
 import re
+from datetime import date
 
-from kb import (CERTAINTIES, CLAIM_FIELDS_FOR_VERIFIED, DIR_FOR_TYPE, ENTITIES, FOUNDING_CONTROL,
-                IMAGE_LICENSES,
+from kb import (AUTHORITY_ID_PATTERNS, AUTHORITY_KEYS, CERTAINTIES, CLAIM_FIELDS_FOR_VERIFIED,
+                DIR_FOR_TYPE, ENTITIES, FOUNDING_CONTROL, IMAGE_LICENSES,
                 INTERPRETIVE_RELATIONS, MOVEMENT_KINDS, RELATION_TARGET_TYPES, RELATIONS, ROOT,
                 SPACE_ROLES, SPACE_TARGET_TYPES, STATUSES, TYPES, URI_PREFIX, alias_map,
                 build_edges, century_of_year, edtf_ok, edtf_year_range, load_config, load_entities,
@@ -26,10 +28,13 @@ from kb import (CERTAINTIES, CLAIM_FIELDS_FOR_VERIFIED, DIR_FOR_TYPE, ENTITIES, 
 OVERVIEWS = ROOT / "overviews"
 MARK_START = "<!-- generated:coverage:start -->"
 MARK_END = "<!-- generated:coverage:end -->"
+OVERVIEW_LINK_RE = re.compile(r"\]\((\.\./entities/[^)\s]+\.md)(?:#[^)]*)?\)")
+OVERVIEW_ASSERTION_KEYS = {"subject", "field", "equals", "relation", "target", "space_role"}
 
 
 def validate(entities, records, cfg, errors):
     seen = {}
+    seen_aliases = {}
     for path, meta, _body in records:
         rel = meta["path"]
 
@@ -71,10 +76,29 @@ def validate(entities, records, cfg, errors):
             naming = meta.get("naming")
             if not isinstance(naming, dict) or "self_identified" not in naming:
                 err("movement は naming.self_identified が必須（後付けの命名と自己認識の区別）")
-            elif naming.get("self_identified") is False and not naming.get("named_by") \
-                    and not (naming.get("note") or "").strip():
-                err("naming.self_identified=false なら named_by か note で命名の経緯を書く")
-            if naming and "rejected_by" in naming:
+            elif not isinstance(naming.get("self_identified"), bool):
+                err("naming.self_identified はboolが必要")
+            else:
+                if naming.get("self_identified") is False and not naming.get("named_by") \
+                        and not (naming.get("note") or "").strip():
+                    err("naming.self_identified=false なら named_by か note で命名の経緯を書く")
+                if "original_label" not in naming:
+                    err("naming.original_label が必須")
+                elif naming.get("original_label") is None:
+                    if not (naming.get("note") or "").strip():
+                        err("naming.original_label=null なら note に未確認理由が必要")
+                elif not isinstance(naming.get("original_label"), str) \
+                        or not naming["original_label"].strip():
+                    err("naming.original_label は空でない文字列またはnullが必要")
+                named_when = naming.get("named_when")
+                if named_when is not None and not edtf_ok(named_when):
+                    err(f"naming.named_when がEDTFに合わない: {named_when!r}")
+                named_by = naming.get("named_by")
+                if named_by is not None:
+                    named_by_meta = entities.get(named_by)
+                    if not named_by_meta or named_by_meta.get("type") not in {"person", "org"}:
+                        err("naming.named_by は存在するpersonまたはorg IDが必要")
+            if isinstance(naming, dict) and "rejected_by" in naming:
                 rb = naming.get("rejected_by")
                 if not isinstance(rb, list) or not rb:
                     err("naming.rejected_by は「誰が拒んだか」の配列にする（空なら項目を消す）")
@@ -111,20 +135,89 @@ def validate(entities, records, cfg, errors):
             err("place は region が必須（被覆集計のキー。config/regions.yaml のバケット名）")
         if etype == "place" and meta.get("region") and meta["region"] not in cfg["buckets"]:
             err(f"未知の region: {meta['region']}")
+        if etype == "place":
+            coordinates = meta.get("coordinates")
+            if not isinstance(coordinates, list) or len(coordinates) != 2:
+                err("place.coordinates は [latitude, longitude] の2要素配列が必須")
+            else:
+                for index, value in enumerate(coordinates):
+                    axis = "latitude" if index == 0 else "longitude"
+                    if isinstance(value, bool) or not isinstance(value, (int, float)) \
+                            or not math.isfinite(value):
+                        err(f"place.coordinates.{axis} は有限の数値が必要")
+                    elif (index == 0 and not -90 <= value <= 90) \
+                            or (index == 1 and not -180 <= value <= 180):
+                        err(f"place.coordinates.{axis} が範囲外: {value}")
 
-        t = meta.get("time") or {}
+        time = meta.get("time")
+        if not isinstance(time, dict):
+            err("time はstart/endを持つマップが必須")
+            time = {}
         for field in ("start", "end"):
-            if not edtf_ok(t.get(field)):
-                err(f"time.{field} が EDTF Level 1 サブセットに合わない: {t.get(field)!r}")
+            if field not in time:
+                err(f"time.{field} が必須（不明ならnull）")
+            elif not edtf_ok(time.get(field)):
+                err(f"time.{field} が EDTF Level 1 サブセットに合わない: {time.get(field)!r}")
+        if time.get("start") == "..":
+            err("time.start に開いた端 '..' は使えない（開いた端はendだけ）")
+        start_lo, _start_hi = edtf_year_range(time.get("start"))
+        _end_lo, end_hi = edtf_year_range(time.get("end"))
+        if start_lo is not None and end_hi is not None and start_lo > end_hi:
+            err(f"time.start がtime.endより後: {time.get('start')!r} > {time.get('end')!r}")
 
-        auth = meta.get("authority") or {}
-        if not any(auth.get(k) for k in ("wikidata", "aat", "ndl", "jpsearch")) \
-                and not auth.get("none_reason"):
-            err("典拠が1つも無いときは authority.none_reason に理由を書く")
+        auth = meta.get("authority")
+        if not isinstance(auth, dict):
+            err("authority は典拠keyを持つマップが必須")
+            auth = {}
+        unknown_authority_keys = set(auth) - AUTHORITY_KEYS
+        if unknown_authority_keys:
+            err(f"authority に未知のkey: {sorted(unknown_authority_keys)}")
+        authority_ids = []
+        for key, pattern in AUTHORITY_ID_PATTERNS.items():
+            value = auth.get(key)
+            if value is None or value == "":
+                continue
+            if isinstance(value, bool) or not pattern.fullmatch(str(value)):
+                err(f"authority.{key} の形式が不正: {value!r}")
+            else:
+                authority_ids.append(key)
+        jpsearch = auth.get("jpsearch")
+        if jpsearch is not None and (not isinstance(jpsearch, str) or not jpsearch.strip()):
+            err(f"authority.jpsearch は空でない文字列またはURLが必要: {jpsearch!r}")
+        if jpsearch:
+            authority_ids.append("jpsearch")
+        none_reason = auth.get("none_reason")
+        if authority_ids and none_reason not in (None, ""):
+            err("authorityにIDがある場合、none_reasonはnullにする")
+        if not authority_ids and (not isinstance(none_reason, str) or not none_reason.strip()):
+            err("典拠が1つも無いときはauthority.none_reasonに理由を書く")
 
-        for a in meta.get("aliases") or []:
-            if a in entities:
-                err(f"alias {a} が既存の id と衝突している")
+        updated = meta.get("updated")
+        try:
+            if not re.fullmatch(r"\d{4}-\d{2}-\d{2}", str(updated)):
+                raise ValueError
+            date.fromisoformat(str(updated))
+        except ValueError:
+            err(f"updated は実在するYYYY-MM-DDが必要: {updated!r}")
+
+        aliases = meta.get("aliases") or []
+        if not isinstance(aliases, list):
+            err("aliases は文字列の配列が必要")
+            aliases = []
+        for alias in aliases:
+            if not isinstance(alias, str) or not alias.strip():
+                err(f"alias は空でない文字列が必要: {alias!r}")
+                continue
+            if alias in entities:
+                err(f"alias {alias} が既存の id と衝突している")
+            if alias in seen_aliases:
+                err(f"alias {alias} が重複している（{seen_aliases[alias]} と {meta.get('id')}）")
+            else:
+                seen_aliases[alias] = meta.get("id")
+            if "/" in alias:
+                alias_type, _, alias_slug = alias.partition("/")
+                if alias_type not in TYPES or not re.fullmatch(r"[a-z0-9][a-z0-9-]*", alias_slug):
+                    err(f"型付きaliasの形式が不正: {alias}")
 
         for r in meta.get("relations") or []:
             rtype = r.get("type")
@@ -157,11 +250,22 @@ def validate(entities, records, cfg, errors):
             have = {c.get("field") for c in meta.get("claims") or []}
             for field in sorted(need - have):
                 err(f"verified を名乗るには claims に {field} の根拠が要る")
+        claim_keys = set()
         for c in meta.get("claims") or []:
+            if not isinstance(c, dict):
+                err(f"claims の各項目はマップが必要: {c!r}")
+                continue
+            field = c.get("field")
+            if not isinstance(field, str) or not field.strip():
+                err("claims の field が無い")
             if not c.get("source"):
-                err(f"claims の {c.get('field')} に source が無い")
+                err(f"claims の {field} に source が無い")
             if c.get("certainty") not in CERTAINTIES:
-                err(f"claims の {c.get('field')} の certainty が語彙外: {c.get('certainty')}")
+                err(f"claims の {field} の certainty が語彙外: {c.get('certainty')}")
+            claim_key = json.dumps(c, ensure_ascii=False, sort_keys=True, default=str)
+            if claim_key in claim_keys:
+                err(f"claims に完全重複がある: {c}")
+            claim_keys.add(claim_key)
 
     aliases = alias_map(entities)
     for edge in build_edges(entities):
@@ -225,6 +329,152 @@ def check_overview_freshness(entities, errors):
                     f"overviews/{path.name}: STALE — {dep} が {target['updated']} に更新（as_of={as_of}）")
 
 
+def _scalar_field(meta, field):
+    value = meta
+    for part in field.split("."):
+        if not isinstance(value, dict) or part not in value:
+            return False, None
+        value = value[part]
+    if isinstance(value, (dict, list)):
+        return False, value
+    return True, value
+
+
+def _overview_link_ids(path, body, entities):
+    path_to_id = {
+        str((ROOT / meta["path"]).resolve()): entity_id
+        for entity_id, meta in entities.items() if meta.get("path")
+    }
+    ids = set()
+    for relative in OVERVIEW_LINK_RE.findall(body):
+        target = (path.parent / relative).resolve()
+        entity_id = path_to_id.get(str(target))
+        if entity_id:
+            ids.add(entity_id)
+    return ids
+
+
+def validate_overviews(entities, errors):
+    """Validate machine-readable overview assertions and dependency closure."""
+    latest_updated = max((str(meta.get("updated") or "") for meta in entities.values()), default="")
+    for path in sorted(OVERVIEWS.glob("*.md")):
+        try:
+            text = path.read_text(encoding="utf-8")
+            if not text.startswith("---\n"):
+                errors.append(f"overviews/{path.name}: frontmatter がない")
+                continue
+            meta = yaml.safe_load(text.split("---\n", 2)[1]) or {}
+            body = text.split("---\n", 2)[2]
+        except Exception as exc:
+            errors.append(f"overviews/{path.name}: frontmatterを読めない: {exc}")
+            continue
+
+        as_of = str(meta.get("as_of") or "")
+        try:
+            date.fromisoformat(as_of)
+        except ValueError:
+            errors.append(f"overviews/{path.name}: as_of は実在するYYYY-MM-DDが必要: {as_of!r}")
+
+        depends_on = meta.get("depends_on")
+        if not isinstance(depends_on, list):
+            errors.append(f"overviews/{path.name}: depends_on は配列が必要")
+            depends_on = []
+        dependency_ids = []
+        for index, entity_id in enumerate(depends_on, start=1):
+            if not isinstance(entity_id, str):
+                errors.append(f"overviews/{path.name}: depends_on[{index}] はentity ID文字列が必要")
+                continue
+            dependency_ids.append(entity_id)
+        if len(dependency_ids) != len(set(dependency_ids)):
+            errors.append(f"overviews/{path.name}: depends_on に重複がある")
+        for entity_id in dependency_ids:
+            if entity_id not in entities:
+                errors.append(f"overviews/{path.name}: depends_on に存在しない {entity_id}")
+
+        if path.name == "coverage.md":
+            generated = re.search(r"データの最新日: (\d{4}-\d{2}-\d{2})", body)
+            if as_of != latest_updated:
+                errors.append(f"overviews/{path.name}: as_of={as_of} がentityの最新日 {latest_updated} と不一致")
+            if not generated or generated.group(1) != latest_updated:
+                errors.append(f"overviews/{path.name}: 生成ブロックの最新日がentityの最新日 {latest_updated} と不一致")
+            continue
+
+        assertions = meta.get("assertions")
+        if not isinstance(assertions, list):
+            errors.append(f"overviews/{path.name}: assertions は配列が必要")
+            assertions = []
+        required = set()
+        for index, assertion in enumerate(assertions, start=1):
+            prefix = f"overviews/{path.name}: assertions[{index}]"
+            if not isinstance(assertion, dict):
+                errors.append(f"{prefix} はマップで書く")
+                continue
+            unknown = set(assertion) - OVERVIEW_ASSERTION_KEYS
+            if unknown:
+                errors.append(f"{prefix}: 未知のキー {sorted(unknown)}")
+            subject = assertion.get("subject")
+            if subject not in entities:
+                errors.append(f"{prefix}: subjectが存在しない {subject}")
+            else:
+                required.add(subject)
+            kinds = [key for key in ("field", "relation", "space_role") if key in assertion]
+            if len(kinds) != 1:
+                errors.append(f"{prefix}: field/relation/space_roleのいずれか1つが必要")
+                continue
+            kind = kinds[0]
+            if kind == "field":
+                field = assertion.get("field")
+                if not isinstance(field, str) or not field:
+                    errors.append(f"{prefix}: fieldは空でない文字列が必要")
+                    continue
+                if "equals" not in assertion or isinstance(assertion.get("equals"), (dict, list)):
+                    errors.append(f"{prefix}: scalar fieldにはscalarのequalsが必要")
+                    continue
+                if subject in entities:
+                    exists, actual = _scalar_field(entities[subject], field)
+                    if not exists:
+                        errors.append(f"{prefix}: scalar fieldが存在しない {field}")
+                    elif actual != assertion["equals"]:
+                        errors.append(f"{prefix}: {subject}.{field}={actual!r}（期待値 {assertion['equals']!r}）")
+            else:
+                relation_or_role = assertion.get(kind)
+                target = assertion.get("target")
+                if not isinstance(relation_or_role, str):
+                    errors.append(f"{prefix}: {kind}は文字列が必要")
+                elif kind == "relation" and relation_or_role not in RELATIONS:
+                    errors.append(f"{prefix}: 未知のrelation {relation_or_role}")
+                elif kind == "space_role" and relation_or_role not in SPACE_ROLES:
+                    errors.append(f"{prefix}: 未知のspace_role {relation_or_role}")
+                if target not in entities:
+                    errors.append(f"{prefix}: targetが存在しない {target}")
+                else:
+                    required.add(target)
+                if subject in entities and isinstance(relation_or_role, str):
+                    if kind == "relation":
+                        found = any(r.get("type") == relation_or_role and r.get("target") == target
+                                    for r in entities[subject].get("relations") or [])
+                    else:
+                        found = any(s.get("role") == relation_or_role and s.get("target") == target
+                                    for s in entities[subject].get("space") or [])
+                    if not found:
+                        errors.append(f"{prefix}: entityに対応する{kind}がない")
+
+        for index, row in enumerate(meta.get("tested") or [], start=1):
+            if not isinstance(row, dict):
+                errors.append(f"overviews/{path.name}: tested[{index}] はマップで書く")
+                continue
+            tested_by = row.get("by")
+            if tested_by not in entities:
+                errors.append(f"overviews/{path.name}: tested[{index}].byが存在しない {tested_by}")
+            else:
+                required.add(tested_by)
+
+        required |= _overview_link_ids(path, body, entities)
+        missing = sorted(required - set(dependency_ids))
+        if missing:
+            errors.append(f"overviews/{path.name}: depends_onに参照先が不足 {', '.join(missing)}")
+
+
 def validate_coverage_reviews(reviews, cfg, cov, errors):
     """被覆表の空セルに対する調査済み記録を検証する。"""
     seen = set()
@@ -284,7 +534,7 @@ def coverage(entities, cfg):
         regions = regions_of(mid, entities, region_history)
         lo, _hi = edtf_year_range((meta.get("time") or {}).get("start"))
         century = str(century_of_year(lo)) if lo is not None else "unknown"
-        if lo and lo < 1800:
+        if lo is not None and lo < 1800:
             pre1800 += 1
         if not regions:
             key = "origin-unknown"
@@ -341,7 +591,7 @@ def render_coverage(cov, cfg, entities):
     cols += [("unknown", "年代不明")]
     header = "| 文化圏 | " + " | ".join(label for _k, label in cols) + " | 計 |"
     sep = "|---" * (len(cols) + 2) + "|"
-    lines = [f"データの最新日: {cov['as_of']} — `python3 tools/build_graph.py` が生成（手で書き換えない）", "",
+    lines = [f"データの最新日: {cov['as_of']} — `uv run --locked python tools/build_graph.py` が生成（手で書き換えない）", "",
              f"movement **{cov['movement_total']}** 件（stub {cov['movement_stub_excluded']}件は不算入）"
              f"／内訳 {cov['by_status']}", "", header, sep]
     for b, conf in buckets.items():
@@ -413,6 +663,7 @@ def main():
 
     validate(entities, records, cfg, errors)
     check_overview_freshness(entities, errors)
+    validate_overviews(entities, errors)
 
     if errors:
         print(f"✗ {len(errors)} 件:", file=sys.stderr)

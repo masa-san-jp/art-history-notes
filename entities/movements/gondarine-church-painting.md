@@ -10,7 +10,7 @@ authority:
   aat: "300263018"
   ndl: null
   jpsearch: null
-  none_reason: "Wikidataで「Gondarine art」「Gondar style painting」「Ethiopian church painting」「Ethiopian icon painting」を検索したが、この美術様式そのものに一致する項目は見つからなかった。近い項目として『Gondarine period』（Q112649079、『1632–1769 period of Ethiopian history』）があるが、これは政治史上の時代区分の項目であり claims も空（P571/P576 等の時間典拠を持たない）。美術様式の同一性を示す項目ではないため、movement の authority としては採用しなかった（time の参考にのみ使う）。Getty AAT 300263018（Gondar）を kind・様式の典拠とした"
+  none_reason: null
 time:
   start: "1632"
   end: "1769"

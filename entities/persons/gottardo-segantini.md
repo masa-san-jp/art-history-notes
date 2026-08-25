@@ -9,7 +9,7 @@ authority:
   ulan: "500171185"
   ndl: null
   jpsearch: null
-  none_reason: "検証器が採用する独立典拠IDは未確認。ULAN参照と美術館・図書館資料を用いる"
+  none_reason: null
 time:
   start: "1882-05-25"
   end: "1974-06-16"

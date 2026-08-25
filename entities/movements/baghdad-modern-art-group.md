@@ -9,7 +9,7 @@ authority:
   aat: null
   ndl: null
   jpsearch: null
-  none_reason: "Getty AAT: getty.edu/vow/AATServlet が既知の正常なクエリに対しても 301/400 を返す状態で到達できず（lingnan-school と同様の既知の障害）。Wikidata の典拠があるため none_reason は補足のみ"
+  none_reason: null
 time:
   start: "1951"
   end: null
