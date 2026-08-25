@@ -82,6 +82,51 @@ signals:
     certainty: attested
     source: https://www.genai-expo.com/
     note: 主催者が示す参加構造であり、参加者同士の継続的ネットワークを実証しない
+  - id: s009
+    dimension: technology_stance
+    direction: 2
+    salience: 2
+    holders: [participants]
+    claim: 生成AIを制作手段として使う参加者を、技術の利用を前提とする出展枠へ受け入れている
+    certainty: attested
+    source: https://www.aifestival.jp/market/entry-2026
+    note: 募集枠の設計であり、参加者全員がAIを同じ方法で使うことを示さない
+  - id: s010
+    dimension: authorship
+    direction: 1
+    salience: 2
+    holders: [participants, institutions]
+    claim: AIと人間の共生を掲げる公募は、制作主体を人間だけに限定しない表現者像を提示している
+    certainty: attested
+    source: https://www.aiartgrandprix.com/
+    note: 公募の理念であり、作品ごとの人間の創作的寄与や権利帰属を確定しない
+  - id: s011
+    dimension: reproduction
+    direction: 1
+    salience: 2
+    holders: [market, institutions]
+    claim: AI作品を展示・販売機会の候補として扱う募集枠が、デジタル画像の反復的な提示を前提にしている
+    certainty: attested
+    source: https://art-marche.jp/exhibitors/ai-art-meets-art-fair/
+    note: 募集・展示形式からの観測で、販売点数や複製条件までは確認していない
+  - id: s012
+    dimension: social_affect
+    direction: 1
+    salience: 3
+    holders: [critics, institutions]
+    claim: 文化庁は生成AIと著作権について懸念の解消と権利保護の整理を継続課題として扱っている
+    certainty: attested
+    source: https://www.bunka.go.jp/seisaku/chosakuken/aiandcopyright.html
+    note: 法制度上の懸念を示す行政資料であり、AIアート参加者の感情や評価を直接測定しない
+  - id: s013
+    dimension: technology_stance
+    direction: -1
+    salience: 2
+    holders: [critics, institutions]
+    claim: 経済産業省のガイドブックはAI生成物の利用に既存著作物との類似による侵害リスクがあると注意している
+    certainty: attested
+    source: https://www.meti.go.jp/policy/mono_info_service/contents/ai_guidebook_set.pdf
+    note: 利用上のリスク説明であり、生成AI技術全体の拒絶や個別作品の違法性を断定しない
 sources:
   - url: "https://www.aiartgrandprix.com/"
     kind: reference
@@ -93,8 +138,10 @@ sources:
     kind: reference
   - url: "https://www.bunka.go.jp/seisaku/chosakuken/aiandcopyright.html"
     kind: institutional
-status: draft
-updated: 2026-08-10
+  - url: "https://www.meti.go.jp/policy/mono_info_service/contents/ai_guidebook_set.pdf"
+    kind: institutional
+status: verified
+updated: 2026-08-25
 ---
 
 # 2026年下半期・日本・AIアート
@@ -102,17 +149,18 @@ updated: 2026-08-10
 ## 範囲
 
 2026年7月1日から12月31日までに日本で募集・開催されるAIアート関連の公募、展示、販売機会を扱う。
-これは**2026-08-10時点の暫定スナップショット**で、期間後半の結果はまだ観測していない。
+これは**2026-08-25時点の暫定スナップショット**で、期間後半の結果はまだ観測していない。
 
 ## 根拠の読み方
 
-主催者の募集要項は制度の立場を示す。応募者、観客、日本社会全体の態度へ一般化しない。
+主催者の募集要項は制度・市場・参加者募集の立場を示す。応募者、観客、日本社会全体の態度へ一般化しない。
+文化庁・経済産業省の資料は権利・利用上の制度的懸念を示す行政資料として、主催者の前向きな受容と分けて読む。
 
 ## 反対証拠・内部差
 
 文化庁はAIと著作権をめぐる懸念とリスク低減策を継続して提示している。制度的な展示機会の増加と、
-権利・創作者保護の不確実性は同時に存在する。
+権利・創作者保護の不確実性は同時に存在する（s009 / s013）。
 
 ## 未確認
 
-応募・来場実績、選外作品の傾向、観客評価、売上、2026年末までの追加イベントは未確認。
+応募・来場実績、選外作品の傾向、観客評価、売上、2026年末までの追加イベント、各作品の人間の創作的寄与は未確認。
