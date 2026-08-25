@@ -1,0 +1,3 @@
+# 4経路の監査で接続を確認できなかったmovementを、調査範囲付きで記録する。
+# connectedなmovement、重複ID、2件未満のURLは tools/cross_region.py が拒否する。
+reviews: []

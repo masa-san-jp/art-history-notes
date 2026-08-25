@@ -14,7 +14,8 @@
   3. kind の地域偏り — ある文化圏の movement が1種類の kind だけ。kind が地域の言い換えに堕ちている疑い
   4. 仮説の未検証 — 俯瞰が挙げた反証先の文化圏が空のまま（＝崩しに行っていない）
   5. 片側だけの継承 — derives_from の先が stub のまま（辿れる先が空）
-  6. 文化圏を跨ぐ関係の欠如 — 他の文化圏の movement と1本も繋がっていない（島として扱っている）
+  6. 文化圏間接続 — movement relation / diffused_to / active_in / exhibited_at→location の4経路を監査し、
+     connected / reviewed-no-documented-link / unreviewed の3区分にする
 
 これらは commit を止めない（壊れてはいないので）。**次に何を調べるかの材料として出す。**
 """
@@ -28,6 +29,7 @@ from pathlib import Path
 import yaml
 
 from detail_baseline import BASELINE_PATH
+from cross_region import audit_cross_region, load_reviews, render_overview, validate_reviews
 from kb import ROOT, build_edges, edtf_year_range, load_config, load_entities, load_region_history, regions_of
 
 OVERVIEWS = ROOT / "overviews"
@@ -137,41 +139,14 @@ def check_dangling_lineage(entities, edges, findings):
                                      f"{target['label_ja']} が stub のまま（辿れない）"})
 
 
-def check_cross_region_links(entities, edges, findings, region_history):
-    """他の文化圏の movement と1本も繋がっていない movement。
-
-    時間軸だけでなく空間的な広がりと関連性を体系化するのが目的なので、どの文化圏とも繋がっていない
-    ものは「その文化圏を孤立した島として扱っている」状態を意味する。影響・伝播・反発を調べていない
-    可能性が高い。壊れてはいないので commit は止めず、次に何を調べるかの材料として出す。
-    """
-    total, isolated = 0, defaultdict(list)
-    for eid, meta in sorted(entities.items()):
-        if meta.get("type") != "movement" or meta.get("status") == "stub":
-            continue
-        own = set(regions_of(eid, entities, region_history))
-        if not own:
-            continue
-        total += 1
-        linked = set()
-        for e in edges:
-            other = e["to"] if e["from"] == eid else (e["from"] if e["to"] == eid else None)
-            if not other or (entities.get(other) or {}).get("type") != "movement":
-                continue
-            linked |= set(regions_of(other, entities, region_history))
-        if not (linked - own):
-            for r in own:
-                isolated[r].append(meta["label_ja"])
-    if not isolated:
-        return
-    n = sum(len(v) for v in isolated.values())
-    # 1件ずつ並べると全件が並んで読めなくなるので、文化圏ごとの件数に畳む。
-    findings.append({"kind": "no-cross-region", "about": "all",
-                     "text": f"他の文化圏の movement と1本も繋がっていない movement が {n}/{total} 件。"
-                             "時間だけでなく空間の広がりを体系化するので、影響・伝播・反発を調べる余地"})
-    for region, names in sorted(isolated.items(), key=lambda x: -len(x[1])):
-        findings.append({"kind": "no-cross-region", "about": region,
-                         "text": f"{region}: {len(names)}件（{'、'.join(names[:4])}"
-                                 f"{' ほか' if len(names) > 4 else ''}）"})
+def check_cross_region_links(entities, edges, findings, region_history, cross_region=None):
+    """4経路監査のunreviewed件数を既存audit findingsへ反映する。"""
+    cross_region = cross_region or audit_cross_region(entities, region_history)
+    unreviewed = cross_region["unreviewed"]
+    if unreviewed:
+        findings.append({"kind": "no-cross-region", "about": "all",
+                         "text": f"4経路でconnectedにもreviewedにもなっていないmovementが "
+                                 f"{len(unreviewed)}/{cross_region['movement_total']} 件"})
 
 
 def check_detail_baseline(entities, findings):
@@ -200,7 +175,7 @@ def check_detail_baseline(entities, findings):
                                  "text": f"baseline movement {movement_id} のevidenceが未充足"})
 
 
-def render(findings):
+def render(findings, cross_region=None):
     if not findings:
         return "食い違い・偏りの指摘はなし。"
     order = ["time-order", "type-mismatch", "kind-bias", "hypothesis", "dead-end",
@@ -216,6 +191,8 @@ def render(findings):
             lines.append(f"**{label[k]}**")
             lines += [f"- {f['text']}" for f in rows]
             lines.append("")
+    if cross_region is not None:
+        lines += [render_overview(cross_region), ""]
     return "\n".join(lines).rstrip()
 
 
@@ -228,6 +205,14 @@ def main():
     entities, _ = load_entities()
     region_history = load_region_history()
     edges = build_edges(entities)
+    reviews, review_errors = load_reviews()
+    cross_region = audit_cross_region(entities, region_history, reviews)
+    review_errors.extend(validate_reviews(reviews, entities, cross_region))
+    if review_errors:
+        print("✗ cross-region review config:", file=sys.stderr)
+        for error in review_errors:
+            print(f"  - {error}", file=sys.stderr)
+        return 1
     findings = []
 
     check_time_order(entities, edges, findings)
@@ -236,18 +221,20 @@ def main():
     check_hypotheses(entities, cfg, findings, region_history)
     check_dangling_lineage(entities, edges, findings)
     check_detail_baseline(entities, findings)
-    check_cross_region_links(entities, edges, findings, region_history)
+    check_cross_region_links(entities, edges, findings, region_history, cross_region)
 
-    print(render(findings))
+    print(render(findings, cross_region))
     if not a.dry_run:
         OUT.parent.mkdir(exist_ok=True)
-        OUT.write_text(json.dumps({"findings": findings}, ensure_ascii=False, indent=2) + "\n",
+        OUT.write_text(json.dumps({"schema_version": 1, "findings": findings,
+                                   "cross_region": cross_region},
+                                  ensure_ascii=False, indent=2) + "\n",
                        encoding="utf-8")
         text = COVERAGE.read_text(encoding="utf-8")
         if MARK_START in text and MARK_END in text:
             head, rest = text.split(MARK_START, 1)
             _old, tail = rest.split(MARK_END, 1)
-            COVERAGE.write_text(f"{head}{MARK_START}\n{render(findings)}\n{MARK_END}{tail}",
+            COVERAGE.write_text(f"{head}{MARK_START}\n{render(findings, cross_region)}\n{MARK_END}{tail}",
                                 encoding="utf-8")
         else:
             print("overviews/coverage.md に監査の生成ブロックが無い", file=sys.stderr)

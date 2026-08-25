@@ -1,59 +1,3246 @@
 {
+  "schema_version": 1,
   "findings": [
     {
       "kind": "no-cross-region",
       "about": "all",
-      "text": "他の文化圏の movement と1本も繋がっていない movement が 30/118 件。時間だけでなく空間の広がりを体系化するので、影響・伝播・反発を調べる余地"
-    },
-    {
-      "kind": "no-cross-region",
-      "about": "oceania",
-      "text": "oceania: 6件（アスマットの彫刻、イアトムルの彫刻、コーワイワイ、ラピタ土器 ほか）"
-    },
-    {
-      "kind": "no-cross-region",
-      "about": "africa-sub",
-      "text": "africa-sub: 6件（バマナ彫刻、ベニン王国宮廷美術、イフェ美術、マコンデ彫刻 ほか）"
-    },
-    {
-      "kind": "no-cross-region",
-      "about": "asia-south",
-      "text": "asia-south: 4件（バソーリ派、ジャイナ写本絵画、カーングラ派、メーワール派）"
-    },
-    {
-      "kind": "no-cross-region",
-      "about": "asia-southeast",
-      "text": "asia-southeast: 3件（ドンホー版画、カマサン様式、マンダレー様式）"
-    },
-    {
-      "kind": "no-cross-region",
-      "about": "asia-east-china",
-      "text": "asia-east-china: 3件（金陵八家、松江派、揚州八怪）"
-    },
-    {
-      "kind": "no-cross-region",
-      "about": "asia-east-japan",
-      "text": "asia-east-japan: 3件（円山四条派、土佐派、大和絵）"
-    },
-    {
-      "kind": "no-cross-region",
-      "about": "asia-central",
-      "text": "asia-central: 2件（カルマ・ガルリ派、キェンリ派）"
-    },
-    {
-      "kind": "no-cross-region",
-      "about": "europe-west",
-      "text": "europe-west: 1件（イタリア分割主義）"
-    },
-    {
-      "kind": "no-cross-region",
-      "about": "americas-north",
-      "text": "americas-north: 1件（北西海岸先住民の彫刻）"
-    },
-    {
-      "kind": "no-cross-region",
-      "about": "europe-east",
-      "text": "europe-east: 1件（ノヴゴロド派）"
+      "text": "4経路でconnectedにもreviewedにもなっていないmovementが 44/119 件"
     }
-  ]
+  ],
+  "cross_region": {
+    "schema_version": 1,
+    "movement_total": 119,
+    "counts": {
+      "connected": 75,
+      "reviewed-no-documented-link": 0,
+      "unreviewed": 44
+    },
+    "connected": [
+      "movement/abstract-expressionism",
+      "movement/an-gyeon-school",
+      "movement/antropofagia",
+      "movement/art-et-liberte",
+      "movement/art-nouveau",
+      "movement/arte-madi",
+      "movement/asmat-carving",
+      "movement/baghdad-modern-art-group",
+      "movement/baghdad-school-of-illustration",
+      "movement/bandung-school",
+      "movement/basohli-painting",
+      "movement/bauhaus",
+      "movement/bengal-school",
+      "movement/benin-court-art",
+      "movement/bombay-progressive-artists-group",
+      "movement/company-painting",
+      "movement/cubo-futurism",
+      "movement/cusco-school",
+      "movement/dada",
+      "movement/dansaekhwa",
+      "movement/deccan-painting",
+      "movement/ecole-de-dakar",
+      "movement/ecole-de-tunis",
+      "movement/fauvism",
+      "movement/gondarine-church-painting",
+      "movement/goryeo-buddhist-painting",
+      "movement/gothic-art",
+      "movement/group-of-seven",
+      "movement/gutai",
+      "movement/herat-school",
+      "movement/hudson-river-school",
+      "movement/iatmul-carving",
+      "movement/ife-art",
+      "movement/impressionism",
+      "movement/indigenismo",
+      "movement/indochina-lacquer-painting",
+      "movement/jingyeong-sansuhwa",
+      "movement/joseon-genre-painting",
+      "movement/kanga",
+      "movement/kangra-painting",
+      "movement/kano-school",
+      "movement/lingnan-school",
+      "movement/maruyama-shijo-school",
+      "movement/mavo",
+      "movement/menri-school",
+      "movement/mewar-painting",
+      "movement/mingei",
+      "movement/mughal-painting",
+      "movement/nanga",
+      "movement/negritude",
+      "movement/neo-impressionism",
+      "movement/neoconcretismo",
+      "movement/ngati-tarawhai-whakairo",
+      "movement/nok-sculpture",
+      "movement/novgorod-school-icon-painting",
+      "movement/papunya-tula",
+      "movement/peredvizhniki",
+      "movement/pita-maha",
+      "movement/post-impressionism",
+      "movement/poto-poto-school",
+      "movement/qajar-painting",
+      "movement/quito-school",
+      "movement/rattanakosin-mural-painting",
+      "movement/renaissance",
+      "movement/safavid-painting",
+      "movement/sienese-school",
+      "movement/symbolism",
+      "movement/tanjore-painting",
+      "movement/thirteen-moderns",
+      "movement/tosa-school",
+      "movement/venetian-school",
+      "movement/yamato-e",
+      "movement/yangzhou-eccentrics",
+      "movement/zanabazar-school",
+      "movement/zaria-art-society"
+    ],
+    "reviewed_no_documented_link": [],
+    "unreviewed": [
+      "movement/arts-and-crafts",
+      "movement/bamana-sculpture",
+      "movement/barbizon-school",
+      "movement/baroque",
+      "movement/byzantine-art",
+      "movement/constructivism",
+      "movement/cubism",
+      "movement/de-stijl",
+      "movement/dong-ho-painting",
+      "movement/expressionism",
+      "movement/four-wangs",
+      "movement/futurism",
+      "movement/harlem-renaissance",
+      "movement/italian-divisionism",
+      "movement/jain-manuscript-painting",
+      "movement/jinling-eight-masters",
+      "movement/kamasan-painting",
+      "movement/karma-gardri",
+      "movement/khyenri-school",
+      "movement/kowhaiwhai",
+      "movement/lapita-pottery",
+      "movement/literati-painting",
+      "movement/makonde-carving",
+      "movement/mandalay-style",
+      "movement/mannerism",
+      "movement/mexican-muralism",
+      "movement/mono-ha",
+      "movement/neoclassicism",
+      "movement/newar-art",
+      "movement/nihonga",
+      "movement/northwest-coast-carving",
+      "movement/ottoman-miniature",
+      "movement/realism",
+      "movement/rinpa",
+      "movement/rococo",
+      "movement/shanghai-school",
+      "movement/shiraz-school",
+      "movement/song-academy-painting",
+      "movement/songjiang-school",
+      "movement/suprematism",
+      "movement/surrealism",
+      "movement/utagawa-school",
+      "movement/wu-school",
+      "movement/zhe-school"
+    ],
+    "movements": [
+      {
+        "movement_id": "movement/abstract-expressionism",
+        "status": "connected",
+        "origin_regions": [
+          "americas-north"
+        ],
+        "routes": [
+          {
+            "kind": "movement-relation",
+            "edges": [
+              {
+                "from": "movement/abstract-expressionism",
+                "type": "influenced_by",
+                "to": "movement/expressionism",
+                "certainty": "scholarly",
+                "source": "https://assets.moma.org/documents/moma_catalogue_1990_300190211.pdf"
+              }
+            ],
+            "destination_regions": [
+              "europe-west"
+            ]
+          },
+          {
+            "kind": "movement-relation",
+            "edges": [
+              {
+                "from": "movement/abstract-expressionism",
+                "type": "influenced_by",
+                "to": "movement/mexican-muralism",
+                "certainty": "scholarly",
+                "source": "https://whitney.org/exhibitions/vida-americana"
+              }
+            ],
+            "destination_regions": [
+              "americas-latin"
+            ]
+          }
+        ],
+        "reasons": [
+          "2経路で起源region外へ到達"
+        ],
+        "review": null
+      },
+      {
+        "movement_id": "movement/an-gyeon-school",
+        "status": "connected",
+        "origin_regions": [
+          "asia-east-korea"
+        ],
+        "routes": [
+          {
+            "kind": "movement-relation",
+            "edges": [
+              {
+                "from": "movement/an-gyeon-school",
+                "type": "influenced_by",
+                "to": "movement/song-academy-painting",
+                "certainty": "scholarly",
+                "source": "https://encykorea.aks.ac.kr/Article/E0069639"
+              }
+            ],
+            "destination_regions": [
+              "asia-east-china"
+            ]
+          }
+        ],
+        "reasons": [
+          "1経路で起源region外へ到達"
+        ],
+        "review": null
+      },
+      {
+        "movement_id": "movement/antropofagia",
+        "status": "connected",
+        "origin_regions": [
+          "americas-latin"
+        ],
+        "routes": [
+          {
+            "kind": "movement-relation",
+            "edges": [
+              {
+                "from": "movement/antropofagia",
+                "type": "responds_to",
+                "to": "movement/surrealism",
+                "certainty": "scholarly",
+                "source": "https://digitalrepository.unm.edu/brazil_slides/762/"
+              }
+            ],
+            "destination_regions": [
+              "europe-west"
+            ]
+          }
+        ],
+        "reasons": [
+          "1経路で起源region外へ到達"
+        ],
+        "review": null
+      },
+      {
+        "movement_id": "movement/art-et-liberte",
+        "status": "connected",
+        "origin_regions": [
+          "mena"
+        ],
+        "routes": [
+          {
+            "kind": "movement-relation",
+            "edges": [
+              {
+                "from": "movement/art-et-liberte",
+                "type": "influenced_by",
+                "to": "movement/surrealism",
+                "certainty": "scholarly",
+                "source": "https://www.tate.org.uk/tate-etc/issue-41-autumn-2017/surrealism-egypt-long-live-degenerate-art-clare-davies"
+              }
+            ],
+            "destination_regions": [
+              "europe-west"
+            ]
+          },
+          {
+            "kind": "movement-relation",
+            "edges": [
+              {
+                "from": "movement/art-et-liberte",
+                "type": "reacts_against",
+                "to": "movement/futurism",
+                "certainty": "scholarly",
+                "source": "https://www.nybooks.com/online/2018/02/03/art-et-liberte-egypts-surrealists/"
+              }
+            ],
+            "destination_regions": [
+              "europe-west"
+            ]
+          }
+        ],
+        "reasons": [
+          "2経路で起源region外へ到達"
+        ],
+        "review": null
+      },
+      {
+        "movement_id": "movement/art-nouveau",
+        "status": "connected",
+        "origin_regions": [
+          "europe-west"
+        ],
+        "routes": [
+          {
+            "kind": "movement-relation",
+            "edges": [
+              {
+                "from": "movement/art-nouveau",
+                "type": "influenced_by",
+                "to": "movement/rinpa",
+                "certainty": "scholarly",
+                "source": "https://www.ndl.go.jp/kaleido/entry/20/3.html"
+              }
+            ],
+            "destination_regions": [
+              "asia-east-japan"
+            ]
+          },
+          {
+            "kind": "movement-relation",
+            "edges": [
+              {
+                "from": "movement/art-nouveau",
+                "type": "influenced_by",
+                "to": "movement/utagawa-school",
+                "certainty": "scholarly",
+                "source": "https://www.metmuseum.org/ja/essays/art-nouveau"
+              }
+            ],
+            "destination_regions": [
+              "asia-east-japan"
+            ]
+          }
+        ],
+        "reasons": [
+          "2経路で起源region外へ到達"
+        ],
+        "review": null
+      },
+      {
+        "movement_id": "movement/arte-madi",
+        "status": "connected",
+        "origin_regions": [
+          "americas-latin"
+        ],
+        "routes": [
+          {
+            "kind": "movement-relation",
+            "edges": [
+              {
+                "from": "movement/arte-madi",
+                "type": "influenced_by",
+                "to": "movement/constructivism",
+                "certainty": "scholarly",
+                "source": "https://www.mfah.org/blogs/inside-mfah/gyula-kosice-and-rise-argentinean-avant-garde"
+              }
+            ],
+            "destination_regions": [
+              "europe-east"
+            ]
+          },
+          {
+            "kind": "movement-relation",
+            "edges": [
+              {
+                "from": "movement/arte-madi",
+                "type": "influenced_by",
+                "to": "movement/de-stijl",
+                "certainty": "scholarly",
+                "source": "https://www.mfah.org/blogs/inside-mfah/gyula-kosice-and-rise-argentinean-avant-garde"
+              }
+            ],
+            "destination_regions": [
+              "europe-west"
+            ]
+          }
+        ],
+        "reasons": [
+          "2経路で起源region外へ到達"
+        ],
+        "review": null
+      },
+      {
+        "movement_id": "movement/arts-and-crafts",
+        "status": "unreviewed",
+        "origin_regions": [
+          "europe-west"
+        ],
+        "routes": [],
+        "reasons": [
+          "4経路に起源region外への到達がなく、cross-region reviewもない"
+        ],
+        "review": null
+      },
+      {
+        "movement_id": "movement/asmat-carving",
+        "status": "connected",
+        "origin_regions": [
+          "oceania"
+        ],
+        "routes": [
+          {
+            "kind": "diffused-to-place",
+            "edges": [
+              {
+                "from": "movement/asmat-carving",
+                "type": "diffused_to",
+                "to": "place/new-york-city",
+                "certainty": "scholarly",
+                "source": "https://www.metmuseum.org/exhibitions/listings/2013/nelson-rockefeller"
+              }
+            ],
+            "destination_regions": [
+              "americas-north"
+            ]
+          }
+        ],
+        "reasons": [
+          "1経路で起源region外へ到達"
+        ],
+        "review": null
+      },
+      {
+        "movement_id": "movement/baghdad-modern-art-group",
+        "status": "connected",
+        "origin_regions": [
+          "mena"
+        ],
+        "routes": [
+          {
+            "kind": "movement-relation",
+            "edges": [
+              {
+                "from": "movement/baghdad-modern-art-group",
+                "type": "influenced_by",
+                "to": "movement/cubism",
+                "certainty": "scholarly",
+                "source": "https://www.thescopes.org/assets/Uploads/4f5f5f6bb3/03-050-Saad-11-08.pdf"
+              }
+            ],
+            "destination_regions": [
+              "europe-west"
+            ]
+          },
+          {
+            "kind": "movement-relation",
+            "edges": [
+              {
+                "from": "movement/baghdad-modern-art-group",
+                "type": "influenced_by",
+                "to": "movement/expressionism",
+                "certainty": "scholarly",
+                "source": "https://www.thescopes.org/assets/Uploads/4f5f5f6bb3/03-050-Saad-11-08.pdf"
+              }
+            ],
+            "destination_regions": [
+              "europe-west"
+            ]
+          }
+        ],
+        "reasons": [
+          "2経路で起源region外へ到達"
+        ],
+        "review": null
+      },
+      {
+        "movement_id": "movement/baghdad-school-of-illustration",
+        "status": "connected",
+        "origin_regions": [
+          "mena"
+        ],
+        "routes": [
+          {
+            "kind": "movement-relation",
+            "edges": [
+              {
+                "from": "movement/baghdad-school-of-illustration",
+                "type": "influenced_by",
+                "to": "movement/byzantine-art",
+                "certainty": "scholarly",
+                "source": "https://www.metmuseum.org/met-publications/masterpieces-from-the-department-of-islamic-art-in-the-metropolitan-museum-of-art"
+              }
+            ],
+            "destination_regions": [
+              "europe-east"
+            ]
+          }
+        ],
+        "reasons": [
+          "1経路で起源region外へ到達"
+        ],
+        "review": null
+      },
+      {
+        "movement_id": "movement/bamana-sculpture",
+        "status": "unreviewed",
+        "origin_regions": [
+          "africa-sub"
+        ],
+        "routes": [],
+        "reasons": [
+          "4経路に起源region外への到達がなく、cross-region reviewもない"
+        ],
+        "review": null
+      },
+      {
+        "movement_id": "movement/bandung-school",
+        "status": "connected",
+        "origin_regions": [
+          "asia-southeast"
+        ],
+        "routes": [
+          {
+            "kind": "movement-relation",
+            "edges": [
+              {
+                "from": "movement/bandung-school",
+                "type": "influenced_by",
+                "to": "movement/cubism",
+                "certainty": "scholarly",
+                "source": "https://doi.org/10.54154/dekonstruksi.v11i01.289"
+              }
+            ],
+            "destination_regions": [
+              "europe-west"
+            ]
+          }
+        ],
+        "reasons": [
+          "1経路で起源region外へ到達"
+        ],
+        "review": null
+      },
+      {
+        "movement_id": "movement/barbizon-school",
+        "status": "unreviewed",
+        "origin_regions": [
+          "europe-west"
+        ],
+        "routes": [],
+        "reasons": [
+          "4経路に起源region外への到達がなく、cross-region reviewもない"
+        ],
+        "review": null
+      },
+      {
+        "movement_id": "movement/baroque",
+        "status": "unreviewed",
+        "origin_regions": [
+          "europe-west"
+        ],
+        "routes": [],
+        "reasons": [
+          "4経路に起源region外への到達がなく、cross-region reviewもない"
+        ],
+        "review": null
+      },
+      {
+        "movement_id": "movement/basohli-painting",
+        "status": "connected",
+        "origin_regions": [
+          "asia-south"
+        ],
+        "routes": [
+          {
+            "kind": "diffused-to-place",
+            "edges": [
+              {
+                "from": "movement/basohli-painting",
+                "type": "diffused_to",
+                "to": "place/london",
+                "certainty": "scholarly",
+                "source": "https://www.britishmuseum.org/collection/term/x25008"
+              }
+            ],
+            "destination_regions": [
+              "europe-west"
+            ]
+          }
+        ],
+        "reasons": [
+          "1経路で起源region外へ到達"
+        ],
+        "review": null
+      },
+      {
+        "movement_id": "movement/bauhaus",
+        "status": "connected",
+        "origin_regions": [
+          "europe-west"
+        ],
+        "routes": [
+          {
+            "kind": "movement-relation",
+            "edges": [
+              {
+                "from": "movement/bauhaus",
+                "type": "influenced_by",
+                "to": "movement/constructivism",
+                "certainty": "scholarly",
+                "source": "https://www.moma.org/documents/moma_catalogue_1733_300062754.pdf"
+              }
+            ],
+            "destination_regions": [
+              "europe-east"
+            ]
+          }
+        ],
+        "reasons": [
+          "1経路で起源region外へ到達"
+        ],
+        "review": null
+      },
+      {
+        "movement_id": "movement/bengal-school",
+        "status": "connected",
+        "origin_regions": [
+          "asia-south"
+        ],
+        "routes": [
+          {
+            "kind": "movement-relation",
+            "edges": [
+              {
+                "from": "movement/bengal-school",
+                "type": "influenced_by",
+                "to": "movement/nihonga",
+                "certainty": "scholarly",
+                "source": "https://faam.city.fukuoka.lg.jp/en/exhibition/11422/"
+              }
+            ],
+            "destination_regions": [
+              "asia-east-japan"
+            ]
+          }
+        ],
+        "reasons": [
+          "1経路で起源region外へ到達"
+        ],
+        "review": null
+      },
+      {
+        "movement_id": "movement/benin-court-art",
+        "status": "connected",
+        "origin_regions": [
+          "africa-sub"
+        ],
+        "routes": [
+          {
+            "kind": "diffused-to-place",
+            "edges": [
+              {
+                "from": "movement/benin-court-art",
+                "type": "diffused_to",
+                "to": "place/london",
+                "certainty": "scholarly",
+                "source": "https://www.britishmuseum.org/about-us/british-museum-story/contested-objects-collection/benin-bronzes"
+              }
+            ],
+            "destination_regions": [
+              "europe-west"
+            ]
+          }
+        ],
+        "reasons": [
+          "1経路で起源region外へ到達"
+        ],
+        "review": null
+      },
+      {
+        "movement_id": "movement/bombay-progressive-artists-group",
+        "status": "connected",
+        "origin_regions": [
+          "asia-south"
+        ],
+        "routes": [
+          {
+            "kind": "movement-relation",
+            "edges": [
+              {
+                "from": "movement/bombay-progressive-artists-group",
+                "type": "influenced_by",
+                "to": "movement/cubism",
+                "certainty": "scholarly",
+                "source": "https://en.wikipedia.org/wiki/Bombay_Progressive_Artists%27_Group"
+              }
+            ],
+            "destination_regions": [
+              "europe-west"
+            ]
+          },
+          {
+            "kind": "movement-relation",
+            "edges": [
+              {
+                "from": "movement/bombay-progressive-artists-group",
+                "type": "influenced_by",
+                "to": "movement/post-impressionism",
+                "certainty": "scholarly",
+                "source": "https://en.wikipedia.org/wiki/Bombay_Progressive_Artists%27_Group"
+              }
+            ],
+            "destination_regions": [
+              "europe-west"
+            ]
+          }
+        ],
+        "reasons": [
+          "2経路で起源region外へ到達"
+        ],
+        "review": null
+      },
+      {
+        "movement_id": "movement/byzantine-art",
+        "status": "unreviewed",
+        "origin_regions": [
+          "europe-east"
+        ],
+        "routes": [],
+        "reasons": [
+          "4経路に起源region外への到達がなく、cross-region reviewもない"
+        ],
+        "review": null
+      },
+      {
+        "movement_id": "movement/company-painting",
+        "status": "connected",
+        "origin_regions": [
+          "asia-south"
+        ],
+        "routes": [
+          {
+            "kind": "movement-relation",
+            "edges": [
+              {
+                "from": "movement/company-painting",
+                "type": "influenced_by",
+                "to": "movement/realism",
+                "certainty": "hypothesis",
+                "source": "https://www.metmuseum.org/fr/essays/company-painting-in-nineteenth-century-india"
+              }
+            ],
+            "destination_regions": [
+              "europe-west"
+            ]
+          }
+        ],
+        "reasons": [
+          "1経路で起源region外へ到達"
+        ],
+        "review": null
+      },
+      {
+        "movement_id": "movement/constructivism",
+        "status": "unreviewed",
+        "origin_regions": [
+          "europe-east"
+        ],
+        "routes": [],
+        "reasons": [
+          "4経路に起源region外への到達がなく、cross-region reviewもない"
+        ],
+        "review": null
+      },
+      {
+        "movement_id": "movement/cubism",
+        "status": "unreviewed",
+        "origin_regions": [
+          "europe-west"
+        ],
+        "routes": [],
+        "reasons": [
+          "4経路に起源region外への到達がなく、cross-region reviewもない"
+        ],
+        "review": null
+      },
+      {
+        "movement_id": "movement/cubo-futurism",
+        "status": "connected",
+        "origin_regions": [
+          "europe-east"
+        ],
+        "routes": [
+          {
+            "kind": "movement-relation",
+            "edges": [
+              {
+                "from": "movement/cubo-futurism",
+                "type": "influenced_by",
+                "to": "movement/cubism",
+                "certainty": "scholarly",
+                "source": "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300021394"
+              }
+            ],
+            "destination_regions": [
+              "europe-west"
+            ]
+          },
+          {
+            "kind": "movement-relation",
+            "edges": [
+              {
+                "from": "movement/cubo-futurism",
+                "type": "influenced_by",
+                "to": "movement/futurism",
+                "certainty": "scholarly",
+                "source": "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300021394"
+              }
+            ],
+            "destination_regions": [
+              "europe-west"
+            ]
+          }
+        ],
+        "reasons": [
+          "2経路で起源region外へ到達"
+        ],
+        "review": null
+      },
+      {
+        "movement_id": "movement/cusco-school",
+        "status": "connected",
+        "origin_regions": [
+          "americas-latin"
+        ],
+        "routes": [
+          {
+            "kind": "movement-relation",
+            "edges": [
+              {
+                "from": "movement/cusco-school",
+                "type": "influenced_by",
+                "to": "movement/baroque",
+                "certainty": "scholarly",
+                "source": "https://ojs.tnkul.pl/index.php/rh/article/view/7120"
+              }
+            ],
+            "destination_regions": [
+              "europe-west"
+            ]
+          },
+          {
+            "kind": "movement-relation",
+            "edges": [
+              {
+                "from": "movement/cusco-school",
+                "type": "influenced_by",
+                "to": "movement/mannerism",
+                "certainty": "scholarly",
+                "source": "https://en.wikipedia.org/wiki/Bernardo_Bitti"
+              }
+            ],
+            "destination_regions": [
+              "europe-west"
+            ]
+          }
+        ],
+        "reasons": [
+          "2経路で起源region外へ到達"
+        ],
+        "review": null
+      },
+      {
+        "movement_id": "movement/dada",
+        "status": "connected",
+        "origin_regions": [
+          "europe-west"
+        ],
+        "routes": [
+          {
+            "kind": "active-in-place",
+            "edges": [
+              {
+                "from": "movement/dada",
+                "type": "active_in",
+                "to": "place/new-york-city"
+              }
+            ],
+            "destination_regions": [
+              "americas-north"
+            ]
+          }
+        ],
+        "reasons": [
+          "1経路で起源region外へ到達"
+        ],
+        "review": null
+      },
+      {
+        "movement_id": "movement/dansaekhwa",
+        "status": "connected",
+        "origin_regions": [
+          "asia-east-korea"
+        ],
+        "routes": [
+          {
+            "kind": "movement-relation",
+            "edges": [
+              {
+                "from": "movement/dansaekhwa",
+                "type": "influenced_by",
+                "to": "movement/mono-ha",
+                "certainty": "scholarly",
+                "source": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002692673"
+              }
+            ],
+            "destination_regions": [
+              "asia-east-japan"
+            ]
+          }
+        ],
+        "reasons": [
+          "1経路で起源region外へ到達"
+        ],
+        "review": null
+      },
+      {
+        "movement_id": "movement/de-stijl",
+        "status": "unreviewed",
+        "origin_regions": [
+          "europe-west"
+        ],
+        "routes": [],
+        "reasons": [
+          "4経路に起源region外への到達がなく、cross-region reviewもない"
+        ],
+        "review": null
+      },
+      {
+        "movement_id": "movement/deccan-painting",
+        "status": "connected",
+        "origin_regions": [
+          "asia-south"
+        ],
+        "routes": [
+          {
+            "kind": "movement-relation",
+            "edges": [
+              {
+                "from": "movement/deccan-painting",
+                "type": "influenced_by",
+                "to": "movement/ottoman-miniature",
+                "certainty": "scholarly",
+                "source": "https://www.metmuseum.org/press-releases/sultans-of-deccan-india-2015-exhibitions"
+              }
+            ],
+            "destination_regions": [
+              "europe-east",
+              "mena"
+            ]
+          },
+          {
+            "kind": "movement-relation",
+            "edges": [
+              {
+                "from": "movement/deccan-painting",
+                "type": "influenced_by",
+                "to": "movement/safavid-painting",
+                "certainty": "scholarly",
+                "source": "https://www.metmuseum.org/essays/islamic-art-of-the-deccan"
+              }
+            ],
+            "destination_regions": [
+              "mena"
+            ]
+          }
+        ],
+        "reasons": [
+          "2経路で起源region外へ到達"
+        ],
+        "review": null
+      },
+      {
+        "movement_id": "movement/dong-ho-painting",
+        "status": "unreviewed",
+        "origin_regions": [
+          "asia-southeast"
+        ],
+        "routes": [],
+        "reasons": [
+          "4経路に起源region外への到達がなく、cross-region reviewもない"
+        ],
+        "review": null
+      },
+      {
+        "movement_id": "movement/ecole-de-dakar",
+        "status": "connected",
+        "origin_regions": [
+          "africa-sub"
+        ],
+        "routes": [
+          {
+            "kind": "movement-relation",
+            "edges": [
+              {
+                "from": "movement/ecole-de-dakar",
+                "type": "part_of",
+                "to": "movement/negritude"
+              }
+            ],
+            "destination_regions": [
+              "europe-west"
+            ]
+          }
+        ],
+        "reasons": [
+          "1経路で起源region外へ到達"
+        ],
+        "review": null
+      },
+      {
+        "movement_id": "movement/ecole-de-tunis",
+        "status": "connected",
+        "origin_regions": [
+          "mena"
+        ],
+        "routes": [
+          {
+            "kind": "movement-relation",
+            "edges": [
+              {
+                "from": "movement/ecole-de-tunis",
+                "type": "influenced_by",
+                "to": "movement/realism",
+                "certainty": "scholarly",
+                "source": "https://mathaf.org.qa/en/encyclopedia/artists-biographies/safia-farhat/"
+              }
+            ],
+            "destination_regions": [
+              "europe-west"
+            ]
+          }
+        ],
+        "reasons": [
+          "1経路で起源region外へ到達"
+        ],
+        "review": null
+      },
+      {
+        "movement_id": "movement/expressionism",
+        "status": "unreviewed",
+        "origin_regions": [
+          "europe-west"
+        ],
+        "routes": [],
+        "reasons": [
+          "4経路に起源region外への到達がなく、cross-region reviewもない"
+        ],
+        "review": null
+      },
+      {
+        "movement_id": "movement/fauvism",
+        "status": "connected",
+        "origin_regions": [
+          "europe-west"
+        ],
+        "routes": [
+          {
+            "kind": "diffused-to-place",
+            "edges": [
+              {
+                "from": "movement/fauvism",
+                "type": "diffused_to",
+                "to": "place/tokyo",
+                "certainty": "scholarly",
+                "source": "https://www.momak.go.jp/English/collectionGalleryArchive/2017/collectionGallery2017No05.html"
+              }
+            ],
+            "destination_regions": [
+              "asia-east-japan"
+            ]
+          },
+          {
+            "kind": "movement-relation",
+            "edges": [
+              {
+                "from": "movement/fauvism",
+                "type": "responds_to",
+                "to": "movement/utagawa-school",
+                "certainty": "scholarly",
+                "source": "https://artbma.org/press-release/bma-presents-the-art-of-pattern-henri-matisse-and-japanese-woodcut-artists/"
+              }
+            ],
+            "destination_regions": [
+              "asia-east-japan"
+            ]
+          }
+        ],
+        "reasons": [
+          "2経路で起源region外へ到達"
+        ],
+        "review": null
+      },
+      {
+        "movement_id": "movement/four-wangs",
+        "status": "unreviewed",
+        "origin_regions": [
+          "asia-east-china"
+        ],
+        "routes": [],
+        "reasons": [
+          "4経路に起源region外への到達がなく、cross-region reviewもない"
+        ],
+        "review": null
+      },
+      {
+        "movement_id": "movement/futurism",
+        "status": "unreviewed",
+        "origin_regions": [
+          "europe-west"
+        ],
+        "routes": [],
+        "reasons": [
+          "4経路に起源region外への到達がなく、cross-region reviewもない"
+        ],
+        "review": null
+      },
+      {
+        "movement_id": "movement/gondarine-church-painting",
+        "status": "connected",
+        "origin_regions": [
+          "africa-sub"
+        ],
+        "routes": [
+          {
+            "kind": "movement-relation",
+            "edges": [
+              {
+                "from": "movement/gondarine-church-painting",
+                "type": "influenced_by",
+                "to": "movement/byzantine-art",
+                "certainty": "scholarly",
+                "source": "https://www.metmuseum.org/essays/african-christianity-in-ethiopia"
+              }
+            ],
+            "destination_regions": [
+              "europe-east"
+            ]
+          },
+          {
+            "kind": "movement-relation",
+            "edges": [
+              {
+                "from": "movement/gondarine-church-painting",
+                "type": "influenced_by",
+                "to": "movement/mannerism",
+                "certainty": "scholarly",
+                "source": "https://www.journal18.org/nq/giulio-romanos-the-little-holy-family-in-africa-identifying-an-18th-century-ethiopian-painting-by-kristen-windmuller-luna/"
+              }
+            ],
+            "destination_regions": [
+              "europe-west"
+            ]
+          }
+        ],
+        "reasons": [
+          "2経路で起源region外へ到達"
+        ],
+        "review": null
+      },
+      {
+        "movement_id": "movement/goryeo-buddhist-painting",
+        "status": "connected",
+        "origin_regions": [
+          "asia-east-korea"
+        ],
+        "routes": [
+          {
+            "kind": "movement-relation",
+            "edges": [
+              {
+                "from": "movement/goryeo-buddhist-painting",
+                "type": "influenced_by",
+                "to": "movement/song-academy-painting",
+                "certainty": "scholarly",
+                "source": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART001609622"
+              }
+            ],
+            "destination_regions": [
+              "asia-east-china"
+            ]
+          }
+        ],
+        "reasons": [
+          "1経路で起源region外へ到達"
+        ],
+        "review": null
+      },
+      {
+        "movement_id": "movement/gothic-art",
+        "status": "connected",
+        "origin_regions": [
+          "europe-west"
+        ],
+        "routes": [
+          {
+            "kind": "movement-relation",
+            "edges": [
+              {
+                "from": "movement/gothic-art",
+                "type": "influenced_by",
+                "to": "movement/byzantine-art",
+                "certainty": "scholarly",
+                "source": "https://www.metmuseum.org/pt/met-publications/the-year-1200-a-background-survey"
+              }
+            ],
+            "destination_regions": [
+              "europe-east"
+            ]
+          }
+        ],
+        "reasons": [
+          "1経路で起源region外へ到達"
+        ],
+        "review": null
+      },
+      {
+        "movement_id": "movement/group-of-seven",
+        "status": "connected",
+        "origin_regions": [
+          "americas-north"
+        ],
+        "routes": [
+          {
+            "kind": "movement-relation",
+            "edges": [
+              {
+                "from": "movement/group-of-seven",
+                "type": "influenced_by",
+                "to": "movement/post-impressionism",
+                "certainty": "scholarly",
+                "source": "https://boutique.gallery.ca/collections/ngc-publications?page=2"
+              }
+            ],
+            "destination_regions": [
+              "europe-west"
+            ]
+          }
+        ],
+        "reasons": [
+          "1経路で起源region外へ到達"
+        ],
+        "review": null
+      },
+      {
+        "movement_id": "movement/gutai",
+        "status": "connected",
+        "origin_regions": [
+          "asia-east-japan"
+        ],
+        "routes": [
+          {
+            "kind": "movement-relation",
+            "edges": [
+              {
+                "from": "movement/gutai",
+                "type": "reacts_against",
+                "to": "movement/abstract-expressionism",
+                "certainty": "scholarly",
+                "source": "https://hoodmuseum.dartmouth.edu/objects/p.970.20"
+              }
+            ],
+            "destination_regions": [
+              "americas-north"
+            ]
+          }
+        ],
+        "reasons": [
+          "1経路で起源region外へ到達"
+        ],
+        "review": null
+      },
+      {
+        "movement_id": "movement/harlem-renaissance",
+        "status": "unreviewed",
+        "origin_regions": [
+          "americas-north"
+        ],
+        "routes": [],
+        "reasons": [
+          "4経路に起源region外への到達がなく、cross-region reviewもない"
+        ],
+        "review": null
+      },
+      {
+        "movement_id": "movement/herat-school",
+        "status": "connected",
+        "origin_regions": [
+          "asia-central"
+        ],
+        "routes": [
+          {
+            "kind": "diffused-to-place",
+            "edges": [
+              {
+                "from": "movement/herat-school",
+                "type": "diffused_to",
+                "to": "place/tabriz",
+                "certainty": "scholarly",
+                "source": "https://resources.metmuseum.org/resources/metpublications/pdf/Masterpieces_from_the_Department_of_Islamic_Art_in_The_Metropolitan_Museum_of_Art.pdf"
+              }
+            ],
+            "destination_regions": [
+              "mena"
+            ]
+          },
+          {
+            "kind": "movement-relation",
+            "edges": [
+              {
+                "from": "movement/herat-school",
+                "type": "influenced_by",
+                "to": "movement/baghdad-school-of-illustration",
+                "certainty": "scholarly",
+                "source": "https://resources.metmuseum.org/resources/metpublications/pdf/Masterpieces_from_the_Department_of_Islamic_Art_in_The_Metropolitan_Museum_of_Art.pdf"
+              }
+            ],
+            "destination_regions": [
+              "mena"
+            ]
+          },
+          {
+            "kind": "movement-relation",
+            "edges": [
+              {
+                "from": "movement/herat-school",
+                "type": "influenced_by",
+                "to": "movement/shiraz-school",
+                "certainty": "scholarly",
+                "source": "https://resources.metmuseum.org/resources/metpublications/pdf/Masterpieces_from_the_Department_of_Islamic_Art_in_The_Metropolitan_Museum_of_Art.pdf"
+              }
+            ],
+            "destination_regions": [
+              "mena"
+            ]
+          }
+        ],
+        "reasons": [
+          "3経路で起源region外へ到達"
+        ],
+        "review": null
+      },
+      {
+        "movement_id": "movement/hudson-river-school",
+        "status": "connected",
+        "origin_regions": [
+          "americas-north"
+        ],
+        "routes": [
+          {
+            "kind": "movement-relation",
+            "edges": [
+              {
+                "from": "movement/hudson-river-school",
+                "type": "influenced_by",
+                "to": "movement/barbizon-school",
+                "certainty": "scholarly",
+                "source": "https://www.metmuseum.org/de/essays/the-hudson-river-school"
+              }
+            ],
+            "destination_regions": [
+              "europe-west"
+            ]
+          }
+        ],
+        "reasons": [
+          "1経路で起源region外へ到達"
+        ],
+        "review": null
+      },
+      {
+        "movement_id": "movement/iatmul-carving",
+        "status": "connected",
+        "origin_regions": [
+          "oceania"
+        ],
+        "routes": [
+          {
+            "kind": "diffused-to-place",
+            "edges": [
+              {
+                "from": "movement/iatmul-carving",
+                "type": "diffused_to",
+                "to": "place/paris",
+                "certainty": "scholarly",
+                "source": "https://www.amisquaibranly.fr/wp-content/uploads/2016/10/fiche-sculpture-iatmul.pdf"
+              }
+            ],
+            "destination_regions": [
+              "europe-west"
+            ]
+          }
+        ],
+        "reasons": [
+          "1経路で起源region外へ到達"
+        ],
+        "review": null
+      },
+      {
+        "movement_id": "movement/ife-art",
+        "status": "connected",
+        "origin_regions": [
+          "africa-sub"
+        ],
+        "routes": [
+          {
+            "kind": "diffused-to-place",
+            "edges": [
+              {
+                "from": "movement/ife-art",
+                "type": "diffused_to",
+                "to": "place/london",
+                "certainty": "scholarly",
+                "source": "https://www.frobenius-institut.de/forschung/beendete-projekte/ife-objects-and-collections-in-and-out-of-africa"
+              }
+            ],
+            "destination_regions": [
+              "europe-west"
+            ]
+          }
+        ],
+        "reasons": [
+          "1経路で起源region外へ到達"
+        ],
+        "review": null
+      },
+      {
+        "movement_id": "movement/impressionism",
+        "status": "connected",
+        "origin_regions": [
+          "europe-west"
+        ],
+        "routes": [
+          {
+            "kind": "diffused-to-place",
+            "edges": [
+              {
+                "from": "movement/impressionism",
+                "type": "diffused_to",
+                "to": "place/new-york-city",
+                "certainty": "scholarly",
+                "source": "https://www.metmuseum.org/zh/essays/william-merritt-chase-1849-1916"
+              }
+            ],
+            "destination_regions": [
+              "americas-north"
+            ]
+          },
+          {
+            "kind": "movement-relation",
+            "edges": [
+              {
+                "from": "movement/impressionism",
+                "type": "influenced_by",
+                "to": "movement/utagawa-school",
+                "certainty": "scholarly",
+                "source": "https://fondation-monet.com/en/decouvrir/les-estampes-japonaises/"
+              }
+            ],
+            "destination_regions": [
+              "asia-east-japan"
+            ]
+          }
+        ],
+        "reasons": [
+          "2経路で起源region外へ到達"
+        ],
+        "review": null
+      },
+      {
+        "movement_id": "movement/indigenismo",
+        "status": "connected",
+        "origin_regions": [
+          "americas-latin"
+        ],
+        "routes": [
+          {
+            "kind": "movement-relation",
+            "edges": [
+              {
+                "from": "movement/indigenismo",
+                "type": "influenced_by",
+                "to": "movement/post-impressionism",
+                "certainty": "scholarly",
+                "source": "http://sedici.unlp.edu.ar/handle/10915/151286"
+              }
+            ],
+            "destination_regions": [
+              "europe-west"
+            ]
+          }
+        ],
+        "reasons": [
+          "1経路で起源region外へ到達"
+        ],
+        "review": null
+      },
+      {
+        "movement_id": "movement/indochina-lacquer-painting",
+        "status": "connected",
+        "origin_regions": [
+          "asia-southeast"
+        ],
+        "routes": [
+          {
+            "kind": "movement-relation",
+            "edges": [
+              {
+                "from": "movement/indochina-lacquer-painting",
+                "type": "influenced_by",
+                "to": "movement/post-impressionism",
+                "certainty": "scholarly",
+                "source": "https://www.rem.routledge.com/articles/nguyen-gia-tri-1908-1993"
+              }
+            ],
+            "destination_regions": [
+              "europe-west"
+            ]
+          }
+        ],
+        "reasons": [
+          "1経路で起源region外へ到達"
+        ],
+        "review": null
+      },
+      {
+        "movement_id": "movement/italian-divisionism",
+        "status": "unreviewed",
+        "origin_regions": [
+          "europe-west"
+        ],
+        "routes": [],
+        "reasons": [
+          "4経路に起源region外への到達がなく、cross-region reviewもない"
+        ],
+        "review": null
+      },
+      {
+        "movement_id": "movement/jain-manuscript-painting",
+        "status": "unreviewed",
+        "origin_regions": [
+          "asia-south"
+        ],
+        "routes": [],
+        "reasons": [
+          "4経路に起源region外への到達がなく、cross-region reviewもない"
+        ],
+        "review": null
+      },
+      {
+        "movement_id": "movement/jingyeong-sansuhwa",
+        "status": "connected",
+        "origin_regions": [
+          "asia-east-korea"
+        ],
+        "routes": [
+          {
+            "kind": "movement-relation",
+            "edges": [
+              {
+                "from": "movement/jingyeong-sansuhwa",
+                "type": "influenced_by",
+                "to": "movement/wu-school",
+                "certainty": "scholarly",
+                "source": "https://encykorea.aks.ac.kr/Article/E0050379"
+              }
+            ],
+            "destination_regions": [
+              "asia-east-china"
+            ]
+          }
+        ],
+        "reasons": [
+          "1経路で起源region外へ到達"
+        ],
+        "review": null
+      },
+      {
+        "movement_id": "movement/jinling-eight-masters",
+        "status": "unreviewed",
+        "origin_regions": [
+          "asia-east-china"
+        ],
+        "routes": [],
+        "reasons": [
+          "4経路に起源region外への到達がなく、cross-region reviewもない"
+        ],
+        "review": null
+      },
+      {
+        "movement_id": "movement/joseon-genre-painting",
+        "status": "connected",
+        "origin_regions": [
+          "asia-east-korea"
+        ],
+        "routes": [
+          {
+            "kind": "movement-relation",
+            "edges": [
+              {
+                "from": "movement/joseon-genre-painting",
+                "type": "influenced_by",
+                "to": "movement/zhe-school",
+                "certainty": "scholarly",
+                "source": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002897801"
+              }
+            ],
+            "destination_regions": [
+              "asia-east-china"
+            ]
+          }
+        ],
+        "reasons": [
+          "1経路で起源region外へ到達"
+        ],
+        "review": null
+      },
+      {
+        "movement_id": "movement/kamasan-painting",
+        "status": "unreviewed",
+        "origin_regions": [
+          "asia-southeast"
+        ],
+        "routes": [],
+        "reasons": [
+          "4経路に起源region外への到達がなく、cross-region reviewもない"
+        ],
+        "review": null
+      },
+      {
+        "movement_id": "movement/kanga",
+        "status": "connected",
+        "origin_regions": [
+          "asia-east-japan"
+        ],
+        "routes": [
+          {
+            "kind": "movement-relation",
+            "edges": [
+              {
+                "from": "movement/kanga",
+                "type": "influenced_by",
+                "to": "movement/an-gyeon-school",
+                "certainty": "scholarly",
+                "source": "https://encykorea.aks.ac.kr/Article/E0069639"
+              }
+            ],
+            "destination_regions": [
+              "asia-east-korea"
+            ]
+          },
+          {
+            "kind": "movement-relation",
+            "edges": [
+              {
+                "from": "movement/kanga",
+                "type": "influenced_by",
+                "to": "movement/song-academy-painting",
+                "certainty": "scholarly",
+                "source": "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300266170"
+              }
+            ],
+            "destination_regions": [
+              "asia-east-china"
+            ]
+          },
+          {
+            "kind": "movement-relation",
+            "edges": [
+              {
+                "from": "movement/kanga",
+                "type": "influenced_by",
+                "to": "movement/zhe-school",
+                "certainty": "scholarly",
+                "source": "https://ja.wikipedia.org/wiki/%E6%B5%99%E6%B4%BE"
+              }
+            ],
+            "destination_regions": [
+              "asia-east-china"
+            ]
+          }
+        ],
+        "reasons": [
+          "3経路で起源region外へ到達"
+        ],
+        "review": null
+      },
+      {
+        "movement_id": "movement/kangra-painting",
+        "status": "connected",
+        "origin_regions": [
+          "asia-south"
+        ],
+        "routes": [
+          {
+            "kind": "diffused-to-place",
+            "edges": [
+              {
+                "from": "movement/kangra-painting",
+                "type": "diffused_to",
+                "to": "place/london",
+                "certainty": "scholarly",
+                "source": "https://www.britishmuseum.org/collection/object/A_1927-1116-0-2"
+              }
+            ],
+            "destination_regions": [
+              "europe-west"
+            ]
+          }
+        ],
+        "reasons": [
+          "1経路で起源region外へ到達"
+        ],
+        "review": null
+      },
+      {
+        "movement_id": "movement/kano-school",
+        "status": "connected",
+        "origin_regions": [
+          "asia-east-japan"
+        ],
+        "routes": [
+          {
+            "kind": "movement-relation",
+            "edges": [
+              {
+                "from": "movement/kano-school",
+                "type": "influenced_by",
+                "to": "movement/song-academy-painting",
+                "certainty": "scholarly",
+                "source": "https://www.kyohaku.go.jp/jp/assets/press/2027_kano_press_0608-02ver.pdf"
+              }
+            ],
+            "destination_regions": [
+              "asia-east-china"
+            ]
+          }
+        ],
+        "reasons": [
+          "1経路で起源region外へ到達"
+        ],
+        "review": null
+      },
+      {
+        "movement_id": "movement/karma-gardri",
+        "status": "unreviewed",
+        "origin_regions": [
+          "asia-central"
+        ],
+        "routes": [],
+        "reasons": [
+          "4経路に起源region外への到達がなく、cross-region reviewもない"
+        ],
+        "review": null
+      },
+      {
+        "movement_id": "movement/khyenri-school",
+        "status": "unreviewed",
+        "origin_regions": [
+          "asia-central"
+        ],
+        "routes": [],
+        "reasons": [
+          "4経路に起源region外への到達がなく、cross-region reviewもない"
+        ],
+        "review": null
+      },
+      {
+        "movement_id": "movement/kowhaiwhai",
+        "status": "unreviewed",
+        "origin_regions": [
+          "oceania"
+        ],
+        "routes": [],
+        "reasons": [
+          "4経路に起源region外への到達がなく、cross-region reviewもない"
+        ],
+        "review": null
+      },
+      {
+        "movement_id": "movement/lapita-pottery",
+        "status": "unreviewed",
+        "origin_regions": [
+          "oceania"
+        ],
+        "routes": [],
+        "reasons": [
+          "4経路に起源region外への到達がなく、cross-region reviewもない"
+        ],
+        "review": null
+      },
+      {
+        "movement_id": "movement/lingnan-school",
+        "status": "connected",
+        "origin_regions": [
+          "asia-east-china"
+        ],
+        "routes": [
+          {
+            "kind": "active-in-place",
+            "edges": [
+              {
+                "from": "movement/lingnan-school",
+                "type": "active_in",
+                "to": "place/tokyo"
+              }
+            ],
+            "destination_regions": [
+              "asia-east-japan"
+            ]
+          },
+          {
+            "kind": "movement-relation",
+            "edges": [
+              {
+                "from": "movement/lingnan-school",
+                "type": "influenced_by",
+                "to": "movement/nihonga",
+                "certainty": "scholarly",
+                "source": "https://www.tnm.jp/modules/r_free_page/index.php?id=1544&lang=ja"
+              }
+            ],
+            "destination_regions": [
+              "asia-east-japan"
+            ]
+          }
+        ],
+        "reasons": [
+          "2経路で起源region外へ到達"
+        ],
+        "review": null
+      },
+      {
+        "movement_id": "movement/literati-painting",
+        "status": "unreviewed",
+        "origin_regions": [],
+        "routes": [],
+        "reasons": [
+          "4経路に起源region外への到達がなく、cross-region reviewもない"
+        ],
+        "review": null
+      },
+      {
+        "movement_id": "movement/makonde-carving",
+        "status": "unreviewed",
+        "origin_regions": [
+          "africa-sub"
+        ],
+        "routes": [],
+        "reasons": [
+          "4経路に起源region外への到達がなく、cross-region reviewもない"
+        ],
+        "review": null
+      },
+      {
+        "movement_id": "movement/mandalay-style",
+        "status": "unreviewed",
+        "origin_regions": [
+          "asia-southeast"
+        ],
+        "routes": [],
+        "reasons": [
+          "4経路に起源region外への到達がなく、cross-region reviewもない"
+        ],
+        "review": null
+      },
+      {
+        "movement_id": "movement/mannerism",
+        "status": "unreviewed",
+        "origin_regions": [
+          "europe-west"
+        ],
+        "routes": [],
+        "reasons": [
+          "4経路に起源region外への到達がなく、cross-region reviewもない"
+        ],
+        "review": null
+      },
+      {
+        "movement_id": "movement/maruyama-shijo-school",
+        "status": "connected",
+        "origin_regions": [
+          "asia-east-japan"
+        ],
+        "routes": [
+          {
+            "kind": "diffused-to-place",
+            "edges": [
+              {
+                "from": "movement/maruyama-shijo-school",
+                "type": "diffused_to",
+                "to": "place/chicago",
+                "certainty": "scholarly",
+                "source": "https://api.artic.edu/api/v1/artworks/196928"
+              }
+            ],
+            "destination_regions": [
+              "americas-north"
+            ]
+          },
+          {
+            "kind": "diffused-to-place",
+            "edges": [
+              {
+                "from": "movement/maruyama-shijo-school",
+                "type": "diffused_to",
+                "to": "place/chicago",
+                "certainty": "scholarly",
+                "source": "https://api.artic.edu/api/v1/artworks/50560"
+              }
+            ],
+            "destination_regions": [
+              "americas-north"
+            ]
+          }
+        ],
+        "reasons": [
+          "2経路で起源region外へ到達"
+        ],
+        "review": null
+      },
+      {
+        "movement_id": "movement/mavo",
+        "status": "connected",
+        "origin_regions": [
+          "asia-east-japan"
+        ],
+        "routes": [
+          {
+            "kind": "movement-relation",
+            "edges": [
+              {
+                "from": "movement/mavo",
+                "type": "influenced_by",
+                "to": "movement/constructivism",
+                "certainty": "scholarly",
+                "source": "https://museum.geidai.ac.jp/exhibit/2005/06/dada.html"
+              }
+            ],
+            "destination_regions": [
+              "europe-east"
+            ]
+          },
+          {
+            "kind": "movement-relation",
+            "edges": [
+              {
+                "from": "movement/mavo",
+                "type": "influenced_by",
+                "to": "movement/dada",
+                "certainty": "scholarly",
+                "source": "https://museum.geidai.ac.jp/exhibit/2005/06/dada.html"
+              }
+            ],
+            "destination_regions": [
+              "europe-west"
+            ]
+          }
+        ],
+        "reasons": [
+          "2経路で起源region外へ到達"
+        ],
+        "review": null
+      },
+      {
+        "movement_id": "movement/menri-school",
+        "status": "connected",
+        "origin_regions": [
+          "asia-central"
+        ],
+        "routes": [
+          {
+            "kind": "diffused-to-place",
+            "edges": [
+              {
+                "from": "movement/menri-school",
+                "type": "diffused_to",
+                "to": "place/new-york-city",
+                "certainty": "scholarly",
+                "source": "https://rubinmuseum.org/exhibitions/the-place-of-provenance/"
+              }
+            ],
+            "destination_regions": [
+              "americas-north"
+            ]
+          },
+          {
+            "kind": "movement-relation",
+            "edges": [
+              {
+                "from": "movement/menri-school",
+                "type": "influenced_by",
+                "to": "movement/newar-art",
+                "certainty": "scholarly",
+                "source": "https://rubinmuseum.org/projecthimalayanart/essays/murals-of-gongkar-chode/"
+              }
+            ],
+            "destination_regions": [
+              "asia-south"
+            ]
+          }
+        ],
+        "reasons": [
+          "2経路で起源region外へ到達"
+        ],
+        "review": null
+      },
+      {
+        "movement_id": "movement/mewar-painting",
+        "status": "connected",
+        "origin_regions": [
+          "asia-south"
+        ],
+        "routes": [
+          {
+            "kind": "diffused-to-place",
+            "edges": [
+              {
+                "from": "movement/mewar-painting",
+                "type": "diffused_to",
+                "to": "place/london",
+                "certainty": "scholarly",
+                "source": "https://www.britishmuseum.org/collection/object/A_1991-0131-0-1"
+              }
+            ],
+            "destination_regions": [
+              "europe-west"
+            ]
+          }
+        ],
+        "reasons": [
+          "1経路で起源region外へ到達"
+        ],
+        "review": null
+      },
+      {
+        "movement_id": "movement/mexican-muralism",
+        "status": "unreviewed",
+        "origin_regions": [
+          "americas-latin"
+        ],
+        "routes": [],
+        "reasons": [
+          "4経路に起源region外への到達がなく、cross-region reviewもない"
+        ],
+        "review": null
+      },
+      {
+        "movement_id": "movement/mingei",
+        "status": "connected",
+        "origin_regions": [
+          "asia-east-japan"
+        ],
+        "routes": [
+          {
+            "kind": "movement-relation",
+            "edges": [
+              {
+                "from": "movement/mingei",
+                "type": "influenced_by",
+                "to": "movement/arts-and-crafts",
+                "certainty": "scholarly",
+                "source": "https://www.vam.ac.uk/articles/arts-and-crafts-beyond-the-uk"
+              }
+            ],
+            "destination_regions": [
+              "europe-west"
+            ]
+          }
+        ],
+        "reasons": [
+          "1経路で起源region外へ到達"
+        ],
+        "review": null
+      },
+      {
+        "movement_id": "movement/mono-ha",
+        "status": "unreviewed",
+        "origin_regions": [
+          "asia-east-japan"
+        ],
+        "routes": [],
+        "reasons": [
+          "4経路に起源region外への到達がなく、cross-region reviewもない"
+        ],
+        "review": null
+      },
+      {
+        "movement_id": "movement/mughal-painting",
+        "status": "connected",
+        "origin_regions": [
+          "asia-south"
+        ],
+        "routes": [
+          {
+            "kind": "movement-relation",
+            "edges": [
+              {
+                "from": "movement/mughal-painting",
+                "type": "influenced_by",
+                "to": "movement/safavid-painting",
+                "certainty": "scholarly",
+                "source": "https://82nd-and-fifth.metmuseum.org/toah/ht/08/ssa.html"
+              }
+            ],
+            "destination_regions": [
+              "mena"
+            ]
+          }
+        ],
+        "reasons": [
+          "1経路で起源region外へ到達"
+        ],
+        "review": null
+      },
+      {
+        "movement_id": "movement/nanga",
+        "status": "connected",
+        "origin_regions": [
+          "asia-east-japan"
+        ],
+        "routes": [
+          {
+            "kind": "movement-relation",
+            "edges": [
+              {
+                "from": "movement/nanga",
+                "type": "influenced_by",
+                "to": "movement/four-wangs",
+                "certainty": "scholarly",
+                "source": "https://theme.npm.edu.tw/exh107/NewEra/jp/page-4.html"
+              }
+            ],
+            "destination_regions": [
+              "asia-east-china"
+            ]
+          },
+          {
+            "kind": "movement-relation",
+            "edges": [
+              {
+                "from": "movement/nanga",
+                "type": "influenced_by",
+                "to": "movement/shanghai-school",
+                "certainty": "scholarly",
+                "source": "https://theme.npm.edu.tw/exh107/NewEra/en/page-4.html"
+              }
+            ],
+            "destination_regions": [
+              "asia-east-china"
+            ]
+          },
+          {
+            "kind": "movement-relation",
+            "edges": [
+              {
+                "from": "movement/nanga",
+                "type": "influenced_by",
+                "to": "movement/zhe-school",
+                "certainty": "scholarly",
+                "source": "https://www.kyohaku.go.jp/jp/learn/home/yomimono_data/0071/"
+              }
+            ],
+            "destination_regions": [
+              "asia-east-china"
+            ]
+          }
+        ],
+        "reasons": [
+          "3経路で起源region外へ到達"
+        ],
+        "review": null
+      },
+      {
+        "movement_id": "movement/negritude",
+        "status": "connected",
+        "origin_regions": [
+          "europe-west"
+        ],
+        "routes": [
+          {
+            "kind": "movement-relation",
+            "edges": [
+              {
+                "from": "movement/negritude",
+                "type": "influenced_by",
+                "to": "movement/harlem-renaissance",
+                "certainty": "scholarly",
+                "source": "https://plato.stanford.edu/entries/negritude/"
+              }
+            ],
+            "destination_regions": [
+              "americas-north"
+            ]
+          }
+        ],
+        "reasons": [
+          "1経路で起源region外へ到達"
+        ],
+        "review": null
+      },
+      {
+        "movement_id": "movement/neo-impressionism",
+        "status": "connected",
+        "origin_regions": [
+          "europe-west"
+        ],
+        "routes": [
+          {
+            "kind": "movement-relation",
+            "edges": [
+              {
+                "from": "movement/neo-impressionism",
+                "type": "responds_to",
+                "to": "movement/utagawa-school",
+                "certainty": "scholarly",
+                "source": "https://maa.missouri.edu/sites/default/files/image-button/2021-12/on-line_japonisme_in_print-2-_complete.pdf"
+              }
+            ],
+            "destination_regions": [
+              "asia-east-japan"
+            ]
+          }
+        ],
+        "reasons": [
+          "1経路で起源region外へ到達"
+        ],
+        "review": null
+      },
+      {
+        "movement_id": "movement/neoclassicism",
+        "status": "unreviewed",
+        "origin_regions": [
+          "europe-west"
+        ],
+        "routes": [],
+        "reasons": [
+          "4経路に起源region外への到達がなく、cross-region reviewもない"
+        ],
+        "review": null
+      },
+      {
+        "movement_id": "movement/neoconcretismo",
+        "status": "connected",
+        "origin_regions": [
+          "americas-latin"
+        ],
+        "routes": [
+          {
+            "kind": "movement-relation",
+            "edges": [
+              {
+                "from": "movement/neoconcretismo",
+                "type": "reacts_against",
+                "to": "movement/constructivism",
+                "certainty": "attested",
+                "source": "https://portal.lygiaclark.org.br/acervo/67348/manifesto-neoconcreto"
+              }
+            ],
+            "destination_regions": [
+              "europe-east"
+            ]
+          },
+          {
+            "kind": "movement-relation",
+            "edges": [
+              {
+                "from": "movement/neoconcretismo",
+                "type": "reacts_against",
+                "to": "movement/suprematism",
+                "certainty": "attested",
+                "source": "https://portal.lygiaclark.org.br/acervo/67348/manifesto-neoconcreto"
+              }
+            ],
+            "destination_regions": [
+              "europe-east"
+            ]
+          },
+          {
+            "kind": "movement-relation",
+            "edges": [
+              {
+                "from": "movement/neoconcretismo",
+                "type": "responds_to",
+                "to": "movement/suprematism",
+                "certainty": "attested",
+                "source": "https://portal.lygiaclark.org.br/acervo/67348/manifesto-neoconcreto"
+              }
+            ],
+            "destination_regions": [
+              "europe-east"
+            ]
+          }
+        ],
+        "reasons": [
+          "3経路で起源region外へ到達"
+        ],
+        "review": null
+      },
+      {
+        "movement_id": "movement/newar-art",
+        "status": "unreviewed",
+        "origin_regions": [
+          "asia-south"
+        ],
+        "routes": [],
+        "reasons": [
+          "4経路に起源region外への到達がなく、cross-region reviewもない"
+        ],
+        "review": null
+      },
+      {
+        "movement_id": "movement/ngati-tarawhai-whakairo",
+        "status": "connected",
+        "origin_regions": [
+          "oceania"
+        ],
+        "routes": [
+          {
+            "kind": "diffused-to-place",
+            "edges": [
+              {
+                "from": "movement/ngati-tarawhai-whakairo",
+                "type": "diffused_to",
+                "to": "place/london",
+                "certainty": "scholarly",
+                "source": "https://www.britishmuseum.org/collection/object/E_Oc1993-03-79"
+              }
+            ],
+            "destination_regions": [
+              "europe-west"
+            ]
+          }
+        ],
+        "reasons": [
+          "1経路で起源region外へ到達"
+        ],
+        "review": null
+      },
+      {
+        "movement_id": "movement/nihonga",
+        "status": "unreviewed",
+        "origin_regions": [
+          "asia-east-japan"
+        ],
+        "routes": [],
+        "reasons": [
+          "4経路に起源region外への到達がなく、cross-region reviewもない"
+        ],
+        "review": null
+      },
+      {
+        "movement_id": "movement/nok-sculpture",
+        "status": "connected",
+        "origin_regions": [
+          "africa-sub"
+        ],
+        "routes": [
+          {
+            "kind": "diffused-to-place",
+            "edges": [
+              {
+                "from": "movement/nok-sculpture",
+                "type": "diffused_to",
+                "to": "place/paris",
+                "certainty": "scholarly",
+                "source": "https://www.unesco.org/en/articles/restitution-cultural-property-nok-civilization"
+              }
+            ],
+            "destination_regions": [
+              "europe-west"
+            ]
+          }
+        ],
+        "reasons": [
+          "1経路で起源region外へ到達"
+        ],
+        "review": null
+      },
+      {
+        "movement_id": "movement/northwest-coast-carving",
+        "status": "unreviewed",
+        "origin_regions": [
+          "americas-north"
+        ],
+        "routes": [],
+        "reasons": [
+          "4経路に起源region外への到達がなく、cross-region reviewもない"
+        ],
+        "review": null
+      },
+      {
+        "movement_id": "movement/novgorod-school-icon-painting",
+        "status": "connected",
+        "origin_regions": [
+          "europe-east"
+        ],
+        "routes": [
+          {
+            "kind": "diffused-to-place",
+            "edges": [
+              {
+                "from": "movement/novgorod-school-icon-painting",
+                "type": "diffused_to",
+                "to": "place/new-york-city",
+                "certainty": "scholarly",
+                "source": "https://www.metmuseum.org/art/collection/search/437578"
+              }
+            ],
+            "destination_regions": [
+              "americas-north"
+            ]
+          }
+        ],
+        "reasons": [
+          "1経路で起源region外へ到達"
+        ],
+        "review": null
+      },
+      {
+        "movement_id": "movement/ottoman-miniature",
+        "status": "unreviewed",
+        "origin_regions": [
+          "europe-east",
+          "mena"
+        ],
+        "routes": [],
+        "reasons": [
+          "4経路に起源region外への到達がなく、cross-region reviewもない"
+        ],
+        "review": null
+      },
+      {
+        "movement_id": "movement/papunya-tula",
+        "status": "connected",
+        "origin_regions": [
+          "oceania"
+        ],
+        "routes": [
+          {
+            "kind": "diffused-to-place",
+            "edges": [
+              {
+                "from": "movement/papunya-tula",
+                "type": "diffused_to",
+                "to": "place/london",
+                "certainty": "scholarly",
+                "source": "https://www.nma.gov.au/defining-moments/resources/papunya-tula"
+              }
+            ],
+            "destination_regions": [
+              "europe-west"
+            ]
+          },
+          {
+            "kind": "diffused-to-place",
+            "edges": [
+              {
+                "from": "movement/papunya-tula",
+                "type": "diffused_to",
+                "to": "place/new-york-city",
+                "certainty": "scholarly",
+                "source": "https://www.nma.gov.au/defining-moments/resources/papunya-tula"
+              }
+            ],
+            "destination_regions": [
+              "americas-north"
+            ]
+          },
+          {
+            "kind": "diffused-to-place",
+            "edges": [
+              {
+                "from": "movement/papunya-tula",
+                "type": "diffused_to",
+                "to": "place/paris",
+                "certainty": "scholarly",
+                "source": "https://www.nma.gov.au/defining-moments/resources/papunya-tula"
+              }
+            ],
+            "destination_regions": [
+              "europe-west"
+            ]
+          },
+          {
+            "kind": "diffused-to-place",
+            "edges": [
+              {
+                "from": "movement/papunya-tula",
+                "type": "diffused_to",
+                "to": "place/venice",
+                "certainty": "scholarly",
+                "source": "https://www.nma.gov.au/defining-moments/resources/papunya-tula"
+              }
+            ],
+            "destination_regions": [
+              "europe-west"
+            ]
+          }
+        ],
+        "reasons": [
+          "4経路で起源region外へ到達"
+        ],
+        "review": null
+      },
+      {
+        "movement_id": "movement/peredvizhniki",
+        "status": "connected",
+        "origin_regions": [
+          "europe-east"
+        ],
+        "routes": [
+          {
+            "kind": "movement-relation",
+            "edges": [
+              {
+                "from": "movement/peredvizhniki",
+                "type": "part_of",
+                "to": "movement/realism",
+                "source": "https://www.tretyakovgallery.ru/exhibitions/o/peredvizhniki-/?lang=en"
+              }
+            ],
+            "destination_regions": [
+              "europe-west"
+            ]
+          }
+        ],
+        "reasons": [
+          "1経路で起源region外へ到達"
+        ],
+        "review": null
+      },
+      {
+        "movement_id": "movement/pita-maha",
+        "status": "connected",
+        "origin_regions": [
+          "asia-southeast"
+        ],
+        "routes": [
+          {
+            "kind": "movement-relation",
+            "edges": [
+              {
+                "from": "movement/pita-maha",
+                "type": "influenced_by",
+                "to": "movement/expressionism",
+                "certainty": "scholarly",
+                "source": "https://www.tandfonline.com/doi/abs/10.1080/13639810701440640"
+              }
+            ],
+            "destination_regions": [
+              "europe-west"
+            ]
+          }
+        ],
+        "reasons": [
+          "1経路で起源region外へ到達"
+        ],
+        "review": null
+      },
+      {
+        "movement_id": "movement/post-impressionism",
+        "status": "connected",
+        "origin_regions": [
+          "europe-west"
+        ],
+        "routes": [
+          {
+            "kind": "movement-relation",
+            "edges": [
+              {
+                "from": "movement/post-impressionism",
+                "type": "influenced_by",
+                "to": "movement/utagawa-school",
+                "certainty": "scholarly",
+                "source": "https://www.vangoghmuseum.nl/en/collection/s0114V1962"
+              }
+            ],
+            "destination_regions": [
+              "asia-east-japan"
+            ]
+          }
+        ],
+        "reasons": [
+          "1経路で起源region外へ到達"
+        ],
+        "review": null
+      },
+      {
+        "movement_id": "movement/poto-poto-school",
+        "status": "connected",
+        "origin_regions": [
+          "africa-sub"
+        ],
+        "routes": [
+          {
+            "kind": "diffused-to-place",
+            "edges": [
+              {
+                "from": "movement/poto-poto-school",
+                "type": "diffused_to",
+                "to": "place/new-york-city",
+                "certainty": "scholarly",
+                "source": "https://sites.rhodes.edu/potopoto/history-poto-poto-school"
+              }
+            ],
+            "destination_regions": [
+              "americas-north"
+            ]
+          }
+        ],
+        "reasons": [
+          "1経路で起源region外へ到達"
+        ],
+        "review": null
+      },
+      {
+        "movement_id": "movement/qajar-painting",
+        "status": "connected",
+        "origin_regions": [
+          "mena"
+        ],
+        "routes": [
+          {
+            "kind": "movement-relation",
+            "edges": [
+              {
+                "from": "movement/qajar-painting",
+                "type": "influenced_by",
+                "to": "movement/realism",
+                "certainty": "scholarly",
+                "source": "https://scholarworks.sjsu.edu/etd_theses/3019/"
+              }
+            ],
+            "destination_regions": [
+              "europe-west"
+            ]
+          }
+        ],
+        "reasons": [
+          "1経路で起源region外へ到達"
+        ],
+        "review": null
+      },
+      {
+        "movement_id": "movement/quito-school",
+        "status": "connected",
+        "origin_regions": [
+          "americas-latin"
+        ],
+        "routes": [
+          {
+            "kind": "movement-relation",
+            "edges": [
+              {
+                "from": "movement/quito-school",
+                "type": "influenced_by",
+                "to": "movement/baroque",
+                "certainty": "scholarly",
+                "source": "https://whc.unesco.org/en/list/2/"
+              }
+            ],
+            "destination_regions": [
+              "europe-west"
+            ]
+          },
+          {
+            "kind": "movement-relation",
+            "edges": [
+              {
+                "from": "movement/quito-school",
+                "type": "influenced_by",
+                "to": "movement/neoclassicism",
+                "certainty": "scholarly",
+                "source": "https://fundacionmuseosquito.gob.ec/MDC/Bibliograf%C3%ADa%20Sala%20siglo%20XVI/Pajuelo%20Jonathan-Arte%20de%20la%20Real%20Audiencia%20de%20Quito.pdf"
+              }
+            ],
+            "destination_regions": [
+              "europe-west"
+            ]
+          },
+          {
+            "kind": "movement-relation",
+            "edges": [
+              {
+                "from": "movement/quito-school",
+                "type": "influenced_by",
+                "to": "movement/rococo",
+                "certainty": "scholarly",
+                "source": "https://fundacionmuseosquito.gob.ec/MDC/Bibliograf%C3%ADa%20Sala%20siglo%20XVI/Pajuelo%20Jonathan-Arte%20de%20la%20Real%20Audiencia%20de%20Quito.pdf"
+              }
+            ],
+            "destination_regions": [
+              "europe-west"
+            ]
+          }
+        ],
+        "reasons": [
+          "3経路で起源region外へ到達"
+        ],
+        "review": null
+      },
+      {
+        "movement_id": "movement/rattanakosin-mural-painting",
+        "status": "connected",
+        "origin_regions": [
+          "asia-southeast"
+        ],
+        "routes": [
+          {
+            "kind": "movement-relation",
+            "edges": [
+              {
+                "from": "movement/rattanakosin-mural-painting",
+                "type": "influenced_by",
+                "to": "movement/realism",
+                "certainty": "scholarly",
+                "source": "https://so02.tci-thaijo.org/index.php/faa/article/view/241763"
+              }
+            ],
+            "destination_regions": [
+              "europe-west"
+            ]
+          }
+        ],
+        "reasons": [
+          "1経路で起源region外へ到達"
+        ],
+        "review": null
+      },
+      {
+        "movement_id": "movement/realism",
+        "status": "unreviewed",
+        "origin_regions": [
+          "europe-west"
+        ],
+        "routes": [],
+        "reasons": [
+          "4経路に起源region外への到達がなく、cross-region reviewもない"
+        ],
+        "review": null
+      },
+      {
+        "movement_id": "movement/renaissance",
+        "status": "connected",
+        "origin_regions": [
+          "europe-west"
+        ],
+        "routes": [
+          {
+            "kind": "movement-relation",
+            "edges": [
+              {
+                "from": "movement/renaissance",
+                "type": "influenced_by",
+                "to": "movement/byzantine-art",
+                "certainty": "scholarly",
+                "source": "https://www.metmuseum.org/exhibitions/listings/2004/byzantium-faith-and-power"
+              }
+            ],
+            "destination_regions": [
+              "europe-east"
+            ]
+          }
+        ],
+        "reasons": [
+          "1経路で起源region外へ到達"
+        ],
+        "review": null
+      },
+      {
+        "movement_id": "movement/rinpa",
+        "status": "unreviewed",
+        "origin_regions": [
+          "asia-east-japan"
+        ],
+        "routes": [],
+        "reasons": [
+          "4経路に起源region外への到達がなく、cross-region reviewもない"
+        ],
+        "review": null
+      },
+      {
+        "movement_id": "movement/rococo",
+        "status": "unreviewed",
+        "origin_regions": [
+          "europe-west"
+        ],
+        "routes": [],
+        "reasons": [
+          "4経路に起源region外への到達がなく、cross-region reviewもない"
+        ],
+        "review": null
+      },
+      {
+        "movement_id": "movement/safavid-painting",
+        "status": "connected",
+        "origin_regions": [
+          "mena"
+        ],
+        "routes": [
+          {
+            "kind": "diffused-to-place",
+            "edges": [
+              {
+                "from": "movement/safavid-painting",
+                "type": "diffused_to",
+                "to": "place/agra",
+                "certainty": "scholarly",
+                "source": "https://www.britishmuseum.org/collection/term/BIOG12024"
+              }
+            ],
+            "destination_regions": [
+              "asia-south"
+            ]
+          },
+          {
+            "kind": "movement-relation",
+            "edges": [
+              {
+                "from": "movement/safavid-painting",
+                "type": "influenced_by",
+                "to": "movement/herat-school",
+                "certainty": "scholarly",
+                "source": "https://resources.metmuseum.org/resources/metpublications/pdf/Masterpieces_from_the_Department_of_Islamic_Art_in_The_Metropolitan_Museum_of_Art.pdf"
+              }
+            ],
+            "destination_regions": [
+              "asia-central"
+            ]
+          }
+        ],
+        "reasons": [
+          "2経路で起源region外へ到達"
+        ],
+        "review": null
+      },
+      {
+        "movement_id": "movement/shanghai-school",
+        "status": "unreviewed",
+        "origin_regions": [
+          "asia-east-china"
+        ],
+        "routes": [],
+        "reasons": [
+          "4経路に起源region外への到達がなく、cross-region reviewもない"
+        ],
+        "review": null
+      },
+      {
+        "movement_id": "movement/shiraz-school",
+        "status": "unreviewed",
+        "origin_regions": [
+          "mena"
+        ],
+        "routes": [],
+        "reasons": [
+          "4経路に起源region外への到達がなく、cross-region reviewもない"
+        ],
+        "review": null
+      },
+      {
+        "movement_id": "movement/sienese-school",
+        "status": "connected",
+        "origin_regions": [
+          "europe-west"
+        ],
+        "routes": [
+          {
+            "kind": "movement-relation",
+            "edges": [
+              {
+                "from": "movement/sienese-school",
+                "type": "influenced_by",
+                "to": "movement/byzantine-art",
+                "certainty": "scholarly",
+                "source": "https://www.metmuseum.org/es/essays/sienese-painting"
+              }
+            ],
+            "destination_regions": [
+              "europe-east"
+            ]
+          }
+        ],
+        "reasons": [
+          "1経路で起源region外へ到達"
+        ],
+        "review": null
+      },
+      {
+        "movement_id": "movement/song-academy-painting",
+        "status": "unreviewed",
+        "origin_regions": [
+          "asia-east-china"
+        ],
+        "routes": [],
+        "reasons": [
+          "4経路に起源region外への到達がなく、cross-region reviewもない"
+        ],
+        "review": null
+      },
+      {
+        "movement_id": "movement/songjiang-school",
+        "status": "unreviewed",
+        "origin_regions": [
+          "asia-east-china"
+        ],
+        "routes": [],
+        "reasons": [
+          "4経路に起源region外への到達がなく、cross-region reviewもない"
+        ],
+        "review": null
+      },
+      {
+        "movement_id": "movement/suprematism",
+        "status": "unreviewed",
+        "origin_regions": [
+          "europe-east"
+        ],
+        "routes": [],
+        "reasons": [
+          "4経路に起源region外への到達がなく、cross-region reviewもない"
+        ],
+        "review": null
+      },
+      {
+        "movement_id": "movement/surrealism",
+        "status": "unreviewed",
+        "origin_regions": [
+          "europe-west"
+        ],
+        "routes": [],
+        "reasons": [
+          "4経路に起源region外への到達がなく、cross-region reviewもない"
+        ],
+        "review": null
+      },
+      {
+        "movement_id": "movement/symbolism",
+        "status": "connected",
+        "origin_regions": [
+          "europe-west"
+        ],
+        "routes": [
+          {
+            "kind": "movement-relation",
+            "edges": [
+              {
+                "from": "movement/symbolism",
+                "type": "responds_to",
+                "to": "movement/utagawa-school",
+                "certainty": "scholarly",
+                "source": "https://www.musee-orsay.fr/en/exhibitions/japanese-affinities-towards-modern-decoration-196090"
+              }
+            ],
+            "destination_regions": [
+              "asia-east-japan"
+            ]
+          }
+        ],
+        "reasons": [
+          "1経路で起源region外へ到達"
+        ],
+        "review": null
+      },
+      {
+        "movement_id": "movement/tanjore-painting",
+        "status": "connected",
+        "origin_regions": [
+          "asia-south"
+        ],
+        "routes": [
+          {
+            "kind": "movement-relation",
+            "edges": [
+              {
+                "from": "movement/tanjore-painting",
+                "type": "influenced_by",
+                "to": "movement/realism",
+                "certainty": "hypothesis",
+                "source": "https://www.britishmuseum.org/collection/object/A_2020-3021-1"
+              }
+            ],
+            "destination_regions": [
+              "europe-west"
+            ]
+          }
+        ],
+        "reasons": [
+          "1経路で起源region外へ到達"
+        ],
+        "review": null
+      },
+      {
+        "movement_id": "movement/thirteen-moderns",
+        "status": "connected",
+        "origin_regions": [
+          "asia-southeast"
+        ],
+        "routes": [
+          {
+            "kind": "movement-relation",
+            "edges": [
+              {
+                "from": "movement/thirteen-moderns",
+                "type": "influenced_by",
+                "to": "movement/cubism",
+                "certainty": "scholarly",
+                "source": "https://www.jpf.go.jp/j/publish/asia_exhibition_history/pdf/17_95_modernism_5.pdf"
+              }
+            ],
+            "destination_regions": [
+              "europe-west"
+            ]
+          },
+          {
+            "kind": "movement-relation",
+            "edges": [
+              {
+                "from": "movement/thirteen-moderns",
+                "type": "influenced_by",
+                "to": "movement/post-impressionism",
+                "certainty": "scholarly",
+                "source": "https://www.jpf.go.jp/j/publish/asia_exhibition_history/pdf/17_95_modernism_5.pdf"
+              }
+            ],
+            "destination_regions": [
+              "europe-west"
+            ]
+          }
+        ],
+        "reasons": [
+          "2経路で起源region外へ到達"
+        ],
+        "review": null
+      },
+      {
+        "movement_id": "movement/tosa-school",
+        "status": "connected",
+        "origin_regions": [
+          "asia-east-japan"
+        ],
+        "routes": [
+          {
+            "kind": "diffused-to-place",
+            "edges": [
+              {
+                "from": "movement/tosa-school",
+                "type": "diffused_to",
+                "to": "place/new-york-city",
+                "certainty": "scholarly",
+                "source": "https://www.metmuseum.org/art/collection/search/45258"
+              }
+            ],
+            "destination_regions": [
+              "americas-north"
+            ]
+          }
+        ],
+        "reasons": [
+          "1経路で起源region外へ到達"
+        ],
+        "review": null
+      },
+      {
+        "movement_id": "movement/utagawa-school",
+        "status": "unreviewed",
+        "origin_regions": [
+          "asia-east-japan"
+        ],
+        "routes": [],
+        "reasons": [
+          "4経路に起源region外への到達がなく、cross-region reviewもない"
+        ],
+        "review": null
+      },
+      {
+        "movement_id": "movement/venetian-school",
+        "status": "connected",
+        "origin_regions": [
+          "europe-west"
+        ],
+        "routes": [
+          {
+            "kind": "movement-relation",
+            "edges": [
+              {
+                "from": "movement/venetian-school",
+                "type": "influenced_by",
+                "to": "movement/byzantine-art",
+                "certainty": "scholarly",
+                "source": "https://www.metmuseum.org/art/collection/search/459020"
+              }
+            ],
+            "destination_regions": [
+              "europe-east"
+            ]
+          }
+        ],
+        "reasons": [
+          "1経路で起源region外へ到達"
+        ],
+        "review": null
+      },
+      {
+        "movement_id": "movement/wu-school",
+        "status": "unreviewed",
+        "origin_regions": [
+          "asia-east-china"
+        ],
+        "routes": [],
+        "reasons": [
+          "4経路に起源region外への到達がなく、cross-region reviewもない"
+        ],
+        "review": null
+      },
+      {
+        "movement_id": "movement/yamato-e",
+        "status": "connected",
+        "origin_regions": [
+          "asia-east-japan"
+        ],
+        "routes": [
+          {
+            "kind": "diffused-to-place",
+            "edges": [
+              {
+                "from": "movement/yamato-e",
+                "type": "diffused_to",
+                "to": "place/new-york-city",
+                "certainty": "scholarly",
+                "source": "https://www.metmuseum.org/art/collection/search/45428"
+              }
+            ],
+            "destination_regions": [
+              "americas-north"
+            ]
+          }
+        ],
+        "reasons": [
+          "1経路で起源region外へ到達"
+        ],
+        "review": null
+      },
+      {
+        "movement_id": "movement/yangzhou-eccentrics",
+        "status": "connected",
+        "origin_regions": [
+          "asia-east-china"
+        ],
+        "routes": [
+          {
+            "kind": "diffused-to-place",
+            "edges": [
+              {
+                "from": "movement/yangzhou-eccentrics",
+                "type": "diffused_to",
+                "to": "place/chicago",
+                "certainty": "scholarly",
+                "source": "https://api.artic.edu/api/v1/artworks/80510"
+              }
+            ],
+            "destination_regions": [
+              "americas-north"
+            ]
+          }
+        ],
+        "reasons": [
+          "1経路で起源region外へ到達"
+        ],
+        "review": null
+      },
+      {
+        "movement_id": "movement/zanabazar-school",
+        "status": "connected",
+        "origin_regions": [
+          "asia-central"
+        ],
+        "routes": [
+          {
+            "kind": "diffused-to-place",
+            "edges": [
+              {
+                "from": "movement/zanabazar-school",
+                "type": "diffused_to",
+                "to": "place/chicago",
+                "certainty": "scholarly",
+                "source": "https://api.artic.edu/api/v1/artworks/158101"
+              }
+            ],
+            "destination_regions": [
+              "americas-north"
+            ]
+          },
+          {
+            "kind": "movement-relation",
+            "edges": [
+              {
+                "from": "movement/zanabazar-school",
+                "type": "influenced_by",
+                "to": "movement/newar-art",
+                "certainty": "scholarly",
+                "source": "https://en.wikipedia.org/wiki/Zanabazar"
+              }
+            ],
+            "destination_regions": [
+              "asia-south"
+            ]
+          }
+        ],
+        "reasons": [
+          "2経路で起源region外へ到達"
+        ],
+        "review": null
+      },
+      {
+        "movement_id": "movement/zaria-art-society",
+        "status": "connected",
+        "origin_regions": [
+          "africa-sub"
+        ],
+        "routes": [
+          {
+            "kind": "movement-relation",
+            "edges": [
+              {
+                "from": "movement/zaria-art-society",
+                "type": "influenced_by",
+                "to": "movement/post-impressionism",
+                "certainty": "scholarly",
+                "source": "https://high.org/sites/onobrakpeya/"
+              }
+            ],
+            "destination_regions": [
+              "europe-west"
+            ]
+          }
+        ],
+        "reasons": [
+          "1経路で起源region外へ到達"
+        ],
+        "review": null
+      },
+      {
+        "movement_id": "movement/zhe-school",
+        "status": "unreviewed",
+        "origin_regions": [
+          "asia-east-china"
+        ],
+        "routes": [],
+        "reasons": [
+          "4経路に起源region外への到達がなく、cross-region reviewもない"
+        ],
+        "review": null
+      }
+    ]
+  }
 }

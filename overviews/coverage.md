@@ -63,17 +63,13 @@ movement **119** 件（stub 0件は不算入）／内訳 {'draft': 117, 'stub': 
 
 <!-- generated:audit:start -->
 **文化圏を跨ぐ関係が無い**
-- 他の文化圏の movement と1本も繋がっていない movement が 30/118 件。時間だけでなく空間の広がりを体系化するので、影響・伝播・反発を調べる余地
-- oceania: 6件（アスマットの彫刻、イアトムルの彫刻、コーワイワイ、ラピタ土器 ほか）
-- africa-sub: 6件（バマナ彫刻、ベニン王国宮廷美術、イフェ美術、マコンデ彫刻 ほか）
-- asia-south: 4件（バソーリ派、ジャイナ写本絵画、カーングラ派、メーワール派）
-- asia-southeast: 3件（ドンホー版画、カマサン様式、マンダレー様式）
-- asia-east-china: 3件（金陵八家、松江派、揚州八怪）
-- asia-east-japan: 3件（円山四条派、土佐派、大和絵）
-- asia-central: 2件（カルマ・ガルリ派、キェンリ派）
-- europe-west: 1件（イタリア分割主義）
-- americas-north: 1件（北西海岸先住民の彫刻）
-- europe-east: 1件（ノヴゴロド派）
+- 4経路でconnectedにもreviewedにもなっていないmovementが 44/119 件
+
+**文化圏間接続監査（4経路）**
+- connected: 75件
+- reviewed-no-documented-link: 0件
+- unreviewed: 44件
+- unreviewed ID: `movement/arts-and-crafts`, `movement/bamana-sculpture`, `movement/barbizon-school`, `movement/baroque`, `movement/byzantine-art`, `movement/constructivism`, `movement/cubism`, `movement/de-stijl`, `movement/dong-ho-painting`, `movement/expressionism`, `movement/four-wangs`, `movement/futurism`, `movement/harlem-renaissance`, `movement/italian-divisionism`, `movement/jain-manuscript-painting`, `movement/jinling-eight-masters`, `movement/kamasan-painting`, `movement/karma-gardri`, `movement/khyenri-school`, `movement/kowhaiwhai`, `movement/lapita-pottery`, `movement/literati-painting`, `movement/makonde-carving`, `movement/mandalay-style`, `movement/mannerism`, `movement/mexican-muralism`, `movement/mono-ha`, `movement/neoclassicism`, `movement/newar-art`, `movement/nihonga`, `movement/northwest-coast-carving`, `movement/ottoman-miniature`, `movement/realism`, `movement/rinpa`, `movement/rococo`, `movement/shanghai-school`, `movement/shiraz-school`, `movement/song-academy-painting`, `movement/songjiang-school`, `movement/suprematism`, `movement/surrealism`, `movement/utagawa-school`, `movement/wu-school`, `movement/zhe-school`
 <!-- generated:audit:end -->
 
 ## 需要から決める（探されたが無かった語）

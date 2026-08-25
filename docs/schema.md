@@ -254,6 +254,32 @@ cells:
 は文化圏・世紀・URL・重複を検証し、既に movement があるセルへの記録を拒否する。生成された被覆表では
 `∅` と表示され、通常の空欄（未着手）と区別される。
 
+### `cross-region-reviews.yaml` — 4経路で接続を確認できないmovementの調査記録
+
+`tools/audit.py` は movement 起源regionから外部regionへ到達する次の4経路だけを監査する。
+
+1. movement→movement relation
+2. movement→place の `diffused_to`
+3. `space.active_in`
+4. movement→event/org の `exhibited_at` から `held_at` / `sited_in` place への1 hop
+
+接続が確認できないものを調査済みとして閉じる場合だけ、次の記録を追加する。`status` は固定値で、
+URL 2件以上、重複・既接続movement・存在しないIDは監査が拒否する。
+
+```yaml
+reviews:
+  - movement_id: movement/example
+    status: no-documented-cross-region-relation
+    checked: "2026-08-25"
+    note: "調査範囲の資料では4経路による域外接続を確認できない"
+    sources:
+      - https://example.org/catalogue
+      - https://example.org/institution
+```
+
+`data/audit.json` の `cross_region` は全movementを一度だけ、`connected` /
+`reviewed-no-documented-link` / `unreviewed` の排他的3区分で返し、各接続の経路・edge列・到達regionを含む。
+
 ### `founding_control`（任意・movement）
 
 **設立・所有・意思決定に、対象文化の外部者が構造的に含まれていたか。** `internal` / `shared` / `external`。
