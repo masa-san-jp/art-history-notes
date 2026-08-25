@@ -27,6 +27,7 @@ from pathlib import Path
 
 import yaml
 
+from detail_baseline import BASELINE_PATH
 from kb import ROOT, build_edges, edtf_year_range, load_config, load_entities, load_region_history, regions_of
 
 OVERVIEWS = ROOT / "overviews"
@@ -173,12 +174,40 @@ def check_cross_region_links(entities, edges, findings, region_history):
                                  f"{' ほか' if len(names) > 4 else ''}）"})
 
 
+def check_detail_baseline(entities, findings):
+    """baselineの代表movementにperson/workの証拠接続があるか監査する。"""
+    if not BASELINE_PATH.exists():
+        findings.append({"kind": "evidence-missing", "about": str(BASELINE_PATH),
+                         "text": "詳細baseline manifestがない"})
+        return
+    try:
+        manifest = yaml.safe_load(BASELINE_PATH.read_text(encoding="utf-8")) or {}
+    except (OSError, yaml.YAMLError) as exc:
+        findings.append({"kind": "evidence-missing", "about": str(BASELINE_PATH),
+                         "text": f"詳細baseline manifestを読めない: {exc}"})
+        return
+    for entry in manifest.get("entries") or []:
+        movement_id = entry.get("movement") if isinstance(entry, dict) else None
+        meta = entities.get(movement_id) or {}
+        evidence = meta.get("evidence") or []
+        if not evidence:
+            findings.append({"kind": "evidence-missing", "about": movement_id,
+                             "text": f"baseline movement {movement_id} にevidenceがない"})
+            continue
+        for item in evidence:
+            if not isinstance(item, dict) or not item.get("target") or not item.get("supports"):
+                findings.append({"kind": "evidence-missing", "about": movement_id,
+                                 "text": f"baseline movement {movement_id} のevidenceが未充足"})
+
+
 def render(findings):
     if not findings:
         return "食い違い・偏りの指摘はなし。"
-    order = ["time-order", "type-mismatch", "kind-bias", "hypothesis", "dead-end", "no-cross-region"]
+    order = ["time-order", "type-mismatch", "kind-bias", "hypothesis", "dead-end",
+             "evidence-missing", "no-cross-region"]
     label = {"time-order": "時間の矛盾", "type-mismatch": "型の食い違い", "kind-bias": "kind の地域偏り",
              "hypothesis": "仮説が未検証", "dead-end": "辿れない先",
+             "evidence-missing": "baselineの証拠不足",
              "no-cross-region": "文化圏を跨ぐ関係が無い"}
     lines = []
     for k in order:
@@ -206,6 +235,7 @@ def main():
     check_kind_bias(entities, cfg, findings, region_history)
     check_hypotheses(entities, cfg, findings, region_history)
     check_dangling_lineage(entities, edges, findings)
+    check_detail_baseline(entities, findings)
     check_cross_region_links(entities, edges, findings, region_history)
 
     print(render(findings))

@@ -25,6 +25,8 @@ claims:
   - {field: time, source: "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300021505", certainty: scholarly}
   - {field: originated_in, source: "https://digistore.bib.ulb.ac.be/2008/DL2864764_1886_f.pdf", certainty: scholarly}
   - {field: kind, source: "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300021505", certainty: scholarly}
+evidence:
+  - {target: work/a-sunday-on-la-grande-jatte, supports: [kind, time, visual-character]}
 space:
   - {role: originated_in, target: place/paris}
 relations:
@@ -60,7 +62,7 @@ images:
     license: cc0
     note: "ポール・シニャック《調和の時代（In Times of Harmony）》1895-96年、シカゴ美術館蔵（is_public_domain: true）"
 status: verified
-updated: 2026-08-13
+updated: 2026-08-25
 ---
 
 # 新印象派 / Neo-impressionism

@@ -52,6 +52,7 @@ naming:
   original_label: {ja}
   note: null
 claims: []               # verified を名乗るとき time / originated_in / kind の根拠が要る
+evidence: []              # movementのperson/work根拠（target / supports）
 """
 
 

@@ -25,6 +25,8 @@ claims:
   - {field: kind, source: "https://en.wikipedia.org/wiki/Quito_school", certainty: scholarly}
   - {field: originated_in, source: "https://en.wikipedia.org/wiki/Quito_school", certainty: scholarly}
 founding_control: external   # 本文「kind の判定」および「founding_control の判定」参照
+evidence:
+  - {target: work/child-christ-caspicara, supports: [kind, visual-character]}
 space:
   - {role: originated_in, target: place/quito}
 relations:
@@ -45,7 +47,7 @@ sources:
   - https://www.metmuseum.org/art/collection/search/204305
   - https://www.metmuseum.org/art/collection/search/204326
 status: draft
-updated: 2026-08-10
+updated: 2026-08-25
 images:
   - url: https://images.metmuseum.org/CRDImages/ad/original/231421.jpg
     source_page: https://www.metmuseum.org/art/collection/search/204305

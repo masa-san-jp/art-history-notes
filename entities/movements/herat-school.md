@@ -25,6 +25,8 @@ claims:
   - {field: kind, source: "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300021797", certainty: scholarly}
   - {field: time, source: "https://www.ebsco.com/research-starters/visual-arts/herat-school-painting", certainty: scholarly}
   - {field: originated_in, source: "https://en.wikipedia.org/wiki/Baysunghur", certainty: scholarly}
+evidence:
+  - {target: work/dancing-dervishes-herat-1480, supports: [kind, time, visual-character]}
 space:
   - {role: originated_in, target: place/herat}
 relations:
@@ -53,7 +55,7 @@ images:
     license: cc0
     note: "「踊る托鉢僧」ハーフィズ『ディーワーン』挿画、c.1480年、ヘラート制作。メトロポリタン美術館蔵、constituents＝\"Painting attributed to Bihzad\"（isPublicDomain: true）"
 status: draft
-updated: 2026-08-13
+updated: 2026-08-25
 ---
 
 # ヘラート派 / Herat school

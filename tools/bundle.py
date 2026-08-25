@@ -61,6 +61,11 @@ def render(centers, entities, edges, title):
             if n.get("original_label"):
                 bits.append(f"原語 {n['original_label']}")
             lines.append("命名: " + "／".join(bits))
+        if meta.get("evidence"):
+            lines += ["", "証拠接続:"] + [
+                f"- `{item.get('target')}`（supports: {', '.join(item.get('supports') or [])}）"
+                for item in meta["evidence"]
+            ]
         out_edges = [e for e in edges if e["from"] == cid and not e.get("derived")]
         in_edges = [e for e in edges if e["to"] == cid and not e.get("derived")]
         sources += [e["source"] for e in out_edges + in_edges if e.get("source")]

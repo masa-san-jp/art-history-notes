@@ -33,6 +33,8 @@ images:
     source_page: https://clevelandart.org/art/1962.307
     license: cc0
     note: 頭飾り（チワラ）雌。クリーヴランド美術館 1962.307。垂直方向に伸び、背に跪く人物像が付く
+evidence:
+  - {target: work/chiwara-headdress-female-1965-325, supports: [kind, visual-character]}
 space:
   - {role: originated_in, target: place/segou}
 relations:
@@ -52,7 +54,7 @@ sources:
   - https://clevelandart.org/art/1962.307
   - https://www.metmuseum.org/toah/hd/bamb/hd_bamb.htm
 status: draft
-updated: 2026-08-10
+updated: 2026-08-25
 ---
 
 # バマナ彫刻 / Bamana sculpture

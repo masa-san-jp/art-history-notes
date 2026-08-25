@@ -24,12 +24,14 @@ from kb import (AUTHORITY_ID_PATTERNS, AUTHORITY_KEYS, CERTAINTIES, CLAIM_FIELDS
                 build_edges, century_of_year, edtf_ok, edtf_year_range, load_config, load_entities,
                 load_coverage_reviews, load_region_history,
                 read_frontmatter, read_queries, regions_of, search_entities)
+from detail_baseline import validate_manifest
 
 OVERVIEWS = ROOT / "overviews"
 MARK_START = "<!-- generated:coverage:start -->"
 MARK_END = "<!-- generated:coverage:end -->"
 OVERVIEW_LINK_RE = re.compile(r"\]\((\.\./entities/[^)\s]+\.md)(?:#[^)]*)?\)")
 OVERVIEW_ASSERTION_KEYS = {"subject", "field", "equals", "relation", "target", "space_role"}
+EVIDENCE_SUPPORTS = {"kind", "time", "origin", "naming", "relation", "visual-character"}
 
 
 def validate(entities, records, cfg, errors):
@@ -102,6 +104,50 @@ def validate(entities, records, cfg, errors):
                 rb = naming.get("rejected_by")
                 if not isinstance(rb, list) or not rb:
                     err("naming.rejected_by は「誰が拒んだか」の配列にする（空なら項目を消す）")
+
+            evidence = meta.get("evidence")
+            if evidence is not None:
+                if not isinstance(evidence, list):
+                    err("evidence は配列が必要")
+                else:
+                    for index, item in enumerate(evidence, start=1):
+                        prefix = f"evidence[{index}]"
+                        if not isinstance(item, dict):
+                            err(f"{prefix} はmapが必要")
+                            continue
+                        target_id = item.get("target")
+                        target = entities.get(target_id)
+                        if not target or target.get("type") not in {"person", "work"}:
+                            err(f"{prefix}.target は存在するperson/work IDが必要: {target_id}")
+                        else:
+                            direct = any(
+                                relation.get("target") == target_id
+                                for relation in meta.get("relations") or []
+                            )
+                            reverse = any(
+                                relation.get("target") == meta.get("id")
+                                for relation in target.get("relations") or []
+                            )
+                            if not (direct or reverse):
+                                err(f"{prefix}.targetへの既存relationが必要: {target_id}")
+                        supports = item.get("supports")
+                        if not isinstance(supports, list) or not supports:
+                            err(f"{prefix}.supports は1件以上の配列が必要")
+                            supports = []
+                        if len(supports) != len({repr(support) for support in supports}):
+                            err(f"{prefix}.supports に重複がある")
+                        for support in supports:
+                            if support not in EVIDENCE_SUPPORTS:
+                                err(f"{prefix}.supports の語彙外: {support}")
+                        if target and target.get("type") == "work" \
+                                and "visual-character" in supports:
+                            try:
+                                target_body = read_frontmatter(ROOT / target["path"])[1]
+                            except (OSError, ValueError) as exc:
+                                err(f"{prefix}.target work本文を読めない: {exc}")
+                            else:
+                                if not re.search(r"^## どう成立しているか\s*$", target_body, re.MULTILINE):
+                                    err(f"{prefix}.visual-characterにはwork本文の ## どう成立しているか が必要")
 
         if meta.get("founding_control") and meta["founding_control"] not in FOUNDING_CONTROL:
             err(f"founding_control は {sorted(FOUNDING_CONTROL)} のどれか（今: {meta['founding_control']}）")
@@ -664,6 +710,7 @@ def main():
     validate(entities, records, cfg, errors)
     check_overview_freshness(entities, errors)
     validate_overviews(entities, errors)
+    errors.extend(validate_manifest(entities, cfg))
 
     if errors:
         print(f"✗ {len(errors)} 件:", file=sys.stderr)

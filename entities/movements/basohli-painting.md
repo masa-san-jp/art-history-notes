@@ -25,6 +25,8 @@ claims:
   - {field: kind, source: "https://en.wikipedia.org/wiki/Basohli", certainty: scholarly}
   - {field: time, source: "https://www.metmuseum.org/art/collection/search/37941", certainty: scholarly}
   - {field: originated_in, source: "https://en.wikipedia.org/wiki/Basohli", certainty: scholarly}
+evidence:
+  - {target: work/rasamanjari-separated-lovers-1694, supports: [kind, time, visual-character]}
 space:
   - {role: originated_in, target: place/basohli}
 relations:
@@ -56,7 +58,7 @@ images:
     license: cc0
     note: "デーヴィーダーサ（ヌールプルの）筆《チャウパルに興じるシヴァとパールヴァティー》『ラサマンジャリー』連作より、1694-95年紀年。メトロポリタン美術館蔵（isPublicDomain: true）"
 status: draft
-updated: 2026-08-13
+updated: 2026-08-25
 ---
 
 # バソーリ派 / Basohli painting

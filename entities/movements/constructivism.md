@@ -25,6 +25,8 @@ claims:
   - {field: time, source: "https://nga.gov.au/exhibitions/russian-avant-garde/", certainty: scholarly}
   - {field: originated_in, source: "https://www.moma.org/explore/inside_out/2014/01/30/new-in-the-galleries-the-russian-avant-garde/", certainty: scholarly}
   - {field: kind, source: "https://www.moma.org/interactives/exhibitions/1998/rodchenko/texts/new_cultural.html", certainty: scholarly}
+evidence:
+  - {target: work/wendingen-1921, supports: [kind, relation, visual-character]}
 space:
   - {role: originated_in, target: place/moscow}
 relations:
@@ -49,7 +51,7 @@ sources:
   - https://www.nga.gov/artworks/93943-wendingen
   - https://commons.wikimedia.org/wiki/File:El_Lissitzky,_Wendingen,_1921_(published_1923),_NGA_93943.jpg
 status: draft
-updated: 2026-08-12
+updated: 2026-08-25
 ---
 
 # ロシア構成主義 / Constructivism

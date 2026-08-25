@@ -37,6 +37,8 @@ naming:
 claims:
   - {field: kind, source: "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300021904", certainty: scholarly}
   - {field: originated_in, source: "https://en.wikipedia.org/wiki/Iatmul_people", certainty: scholarly}
+evidence:
+  - {target: work/sacred-slit-gong-waken-311262, supports: [kind, visual-character]}
 space:
   - {role: originated_in, target: place/sepik}
 relations:
@@ -69,7 +71,7 @@ sources:
   - https://www.britannica.com/art/Oceanic-art/The-Sepik-River-regions
   - https://global.oup.com/academic/product/names-are-thicker-than-blood-9780197264454
 status: draft
-updated: 2026-08-09
+updated: 2026-08-25
 ---
 
 # イアトムルの彫刻 / Iatmul carving

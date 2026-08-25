@@ -25,6 +25,8 @@ claims:
   - {field: kind, source: "https://www.getty.edu/vow/AATFullDisplay?find=&place=&nation=&logic=&note=&role=&subjectid=300106504", certainty: scholarly}
   - {field: originated_in, source: "https://www.getty.edu/vow/AATFullDisplay?find=&place=&nation=&logic=&note=&role=&subjectid=300106504", certainty: scholarly}
   - {field: time, source: "https://www.getty.edu/vow/AATFullDisplay?find=&place=&nation=&logic=&note=&role=&subjectid=300106504", certainty: scholarly}
+evidence:
+  - {target: work/peony-ren-xiong, supports: [kind, visual-character]}
 space:
   - {role: originated_in, target: place/shanghai}
 relations:
@@ -61,7 +63,7 @@ sources:
   - https://www.artic.edu/artworks/46435
   - https://www.shanghaimuseum.net/mu/frontend/pg/article/id/RI00004055
 status: draft
-updated: 2026-08-09
+updated: 2026-08-25
 ---
 
 # 海上画派 / Shanghai School

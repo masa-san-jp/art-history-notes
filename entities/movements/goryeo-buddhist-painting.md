@@ -25,6 +25,8 @@ claims:
   - {field: kind, source: "https://contents.history.go.kr/mobile/kc/view.do?levelId=kc_r200090&code=kc_age_20", certainty: scholarly}
   - {field: time, source: "https://contents.history.go.kr/mobile/eh/view.do?levelId=eh_r0182_0010&code=eh_age_20", certainty: scholarly}
   - {field: originated_in, source: "https://contents.history.go.kr/mobile/kc/view.do?levelId=kc_r200090&code=kc_age_20", certainty: scholarly}
+evidence:
+  - {target: work/water-moon-avalokiteshvara, supports: [kind, visual-character]}
 space:
   - {role: originated_in, target: place/kaesong}
 relations:
@@ -53,7 +55,7 @@ images:
     license: cc0
     note: "《阿弥陀三尊図（Amitabha triad）》13世紀頃、絹本著色・金泥、掛軸。メトロポリタン美術館蔵（isPublicDomain: true）"
 status: draft
-updated: 2026-08-09
+updated: 2026-08-25
 ---
 
 # 高麗仏画 / Goryeo Buddhist painting

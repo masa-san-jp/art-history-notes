@@ -327,6 +327,23 @@ images:
 出典をファイル単位で持つと「この開始年の根拠はどれか」が辿れない。`status: verified` を名乗るには
 `time` / `originated_in` / `kind` の3項目に `{field, source, certainty}` を付ける（検証が強制する）。
 
+### `evidence` — movementと詳細の接続
+
+movementの俯瞰を、根拠として読んだperson/workへ構造化して接続する。targetへの既存relationが必要で、
+supportsは次の閉じた語彙だけを使う。
+
+```yaml
+evidence:
+  - target: work/a-sunday-on-la-grande-jatte
+    supports: [kind, time, visual-character]
+```
+
+`target` は存在するpersonまたはwork。`visual-character` を含むworkは本文に
+`## どう成立しているか`を置き、素材・工程、構図または形態、鑑賞時の作用、実物未見の有無を記述する。
+evidence自体は新しいrelationを作らず、既存relationと本文の根拠を明示するだけである。
+13文化圏の代表選定は [config/detail-baseline-v1.yaml](../config/detail-baseline-v1.yaml) に固定し、
+`tools/audit.py` が未接続のbaseline movementをIDで報告する。
+
 ## person / work / event をいつ作るか
 
 **網羅しない。証拠として入れる。** 狩野派だけで絵師は数百人いる。全員を入れれば体系ではなく名簿になり、

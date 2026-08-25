@@ -1378,6 +1378,15 @@
           "note": "頭飾り（チワラ）雌。クリーヴランド美術館 1962.307。垂直方向に伸び、背に跪く人物像が付く"
         }
       ],
+      "evidence": [
+        {
+          "target": "work/chiwara-headdress-female-1965-325",
+          "supports": [
+            "kind",
+            "visual-character"
+          ]
+        }
+      ],
       "space": [
         {
           "role": "originated_in",
@@ -1406,7 +1415,7 @@
         "https://www.metmuseum.org/toah/hd/bamb/hd_bamb.htm"
       ],
       "status": "draft",
-      "updated": "2026-08-10",
+      "updated": "2026-08-25",
       "path": "entities/movements/bamana-sculpture.md"
     },
     "movement/bandung-school": {
@@ -1679,6 +1688,16 @@
           "certainty": "scholarly"
         }
       ],
+      "evidence": [
+        {
+          "target": "work/rasamanjari-separated-lovers-1694",
+          "supports": [
+            "kind",
+            "time",
+            "visual-character"
+          ]
+        }
+      ],
       "space": [
         {
           "role": "originated_in",
@@ -1731,7 +1750,7 @@
         }
       ],
       "status": "draft",
-      "updated": "2026-08-13",
+      "updated": "2026-08-25",
       "path": "entities/movements/basohli-painting.md"
     },
     "movement/bauhaus": {
@@ -2326,6 +2345,16 @@
           "certainty": "scholarly"
         }
       ],
+      "evidence": [
+        {
+          "target": "work/wendingen-1921",
+          "supports": [
+            "kind",
+            "relation",
+            "visual-character"
+          ]
+        }
+      ],
       "space": [
         {
           "role": "originated_in",
@@ -2364,7 +2393,7 @@
         "https://commons.wikimedia.org/wiki/File:El_Lissitzky,_Wendingen,_1921_(published_1923),_NGA_93943.jpg"
       ],
       "status": "draft",
-      "updated": "2026-08-12",
+      "updated": "2026-08-25",
       "path": "entities/movements/constructivism.md"
     },
     "movement/cubism": {
@@ -3709,6 +3738,15 @@
           "certainty": "scholarly"
         }
       ],
+      "evidence": [
+        {
+          "target": "work/water-moon-avalokiteshvara",
+          "supports": [
+            "kind",
+            "visual-character"
+          ]
+        }
+      ],
       "space": [
         {
           "role": "originated_in",
@@ -3753,7 +3791,7 @@
         }
       ],
       "status": "draft",
-      "updated": "2026-08-09",
+      "updated": "2026-08-25",
       "path": "entities/movements/goryeo-buddhist-painting.md"
     },
     "movement/gothic-art": {
@@ -4118,6 +4156,16 @@
           "certainty": "scholarly"
         }
       ],
+      "evidence": [
+        {
+          "target": "work/dancing-dervishes-herat-1480",
+          "supports": [
+            "kind",
+            "time",
+            "visual-character"
+          ]
+        }
+      ],
       "space": [
         {
           "role": "originated_in",
@@ -4170,7 +4218,7 @@
         }
       ],
       "status": "draft",
-      "updated": "2026-08-13",
+      "updated": "2026-08-25",
       "path": "entities/movements/herat-school.md"
     },
     "movement/hudson-river-school": {
@@ -4293,6 +4341,15 @@
           "certainty": "scholarly"
         }
       ],
+      "evidence": [
+        {
+          "target": "work/sacred-slit-gong-waken-311262",
+          "supports": [
+            "kind",
+            "visual-character"
+          ]
+        }
+      ],
       "space": [
         {
           "role": "originated_in",
@@ -4337,7 +4394,7 @@
         "https://global.oup.com/academic/product/names-are-thicker-than-blood-9780197264454"
       ],
       "status": "draft",
-      "updated": "2026-08-09",
+      "updated": "2026-08-25",
       "path": "entities/movements/iatmul-carving.md"
     },
     "movement/ife-art": {
@@ -6066,6 +6123,15 @@
         }
       ],
       "founding_control": "internal",
+      "evidence": [
+        {
+          "target": "work/scenes-life-buddha-parabaik-1880s",
+          "supports": [
+            "kind",
+            "visual-character"
+          ]
+        }
+      ],
       "space": [
         {
           "role": "originated_in",
@@ -6106,7 +6172,7 @@
         }
       ],
       "status": "draft",
-      "updated": "2026-08-10",
+      "updated": "2026-08-25",
       "path": "entities/movements/mandalay-style.md"
     },
     "movement/mannerism": {
@@ -6843,6 +6909,16 @@
         "note": "『南画』という呼称そのものの定着は幕末から明治にかけて（日本語版Wikipedia「南画」、二次情報）。より古い語『文人画』（中国の文人画に由来し、専門画工に対する在野の文人の余技としての絵画を指す語）が先にあり、『南画』はそのうち中国・南宗画の系統を継ぐものを指す語として後から定着した。当事者（池大雅・与謝蕪村ら18世紀の担い手）が自ら『南画』または『文人画』という語で群れを名乗った一次的記述は見つかっていない。英語版Wikipediaは担い手たちが自らを『literati（文人）』とみなしていたと記すが、これは学者・知識人としての自己認識であり、絵画の一括りとしての群れの名称そのものではない——この区別のため self_identified は false とした"
       },
       "claims": [],
+      "evidence": [
+        {
+          "target": "work/group-pilgrimage-jizo-ike-taiga",
+          "supports": [
+            "kind",
+            "origin",
+            "visual-character"
+          ]
+        }
+      ],
       "space": [
         {
           "role": "originated_in",
@@ -6915,7 +6991,7 @@
         }
       ],
       "status": "draft",
-      "updated": "2026-08-13",
+      "updated": "2026-08-25",
       "path": "entities/movements/nanga.md"
     },
     "movement/negritude": {
@@ -7036,6 +7112,16 @@
           "certainty": "scholarly"
         }
       ],
+      "evidence": [
+        {
+          "target": "work/a-sunday-on-la-grande-jatte",
+          "supports": [
+            "kind",
+            "time",
+            "visual-character"
+          ]
+        }
+      ],
       "space": [
         {
           "role": "originated_in",
@@ -7108,7 +7194,7 @@
         }
       ],
       "status": "verified",
-      "updated": "2026-08-13",
+      "updated": "2026-08-25",
       "path": "entities/movements/neo-impressionism.md"
     },
     "movement/neoclassicism": {
@@ -7604,6 +7690,16 @@
           "certainty": "scholarly"
         }
       ],
+      "evidence": [
+        {
+          "target": "work/tlingit-totem-pole-model-1989-89",
+          "supports": [
+            "kind",
+            "origin",
+            "visual-character"
+          ]
+        }
+      ],
       "space": [
         {
           "role": "originated_in",
@@ -7642,7 +7738,7 @@
         "https://clevelandart.org/art/1921.1577"
       ],
       "status": "draft",
-      "updated": "2026-08-10",
+      "updated": "2026-08-25",
       "path": "entities/movements/northwest-coast-carving.md"
     },
     "movement/novgorod-school-icon-painting": {
@@ -8329,6 +8425,15 @@
         }
       ],
       "founding_control": "external",
+      "evidence": [
+        {
+          "target": "work/child-christ-caspicara",
+          "supports": [
+            "kind",
+            "visual-character"
+          ]
+        }
+      ],
       "space": [
         {
           "role": "originated_in",
@@ -8370,7 +8475,7 @@
         "https://www.metmuseum.org/art/collection/search/204326"
       ],
       "status": "draft",
-      "updated": "2026-08-10",
+      "updated": "2026-08-25",
       "images": [
         {
           "url": "https://images.metmuseum.org/CRDImages/ad/original/231421.jpg",
@@ -8784,6 +8889,16 @@
         "note": "「サファヴィー」は王朝名（教団創始者サフィー・アッディーン・アルダビリーに由来）で、当事者が自分たちの絵画を「サファヴィー様式」と名乗った記録はない。王朝名をそのまま美術史区分に転用した、後代の学術的な期分け用語"
       },
       "claims": [],
+      "evidence": [
+        {
+          "target": "work/study-of-a-bird-reza-abbasi-1634",
+          "supports": [
+            "kind",
+            "time",
+            "visual-character"
+          ]
+        }
+      ],
       "space": [
         {
           "role": "originated_in",
@@ -8842,7 +8957,7 @@
         }
       ],
       "status": "draft",
-      "updated": "2026-08-13",
+      "updated": "2026-08-25",
       "path": "entities/movements/safavid-painting.md"
     },
     "movement/shanghai-school": {
@@ -8886,6 +9001,15 @@
           "field": "time",
           "source": "https://www.getty.edu/vow/AATFullDisplay?find=&place=&nation=&logic=&note=&role=&subjectid=300106504",
           "certainty": "scholarly"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "work/peony-ren-xiong",
+          "supports": [
+            "kind",
+            "visual-character"
+          ]
         }
       ],
       "space": [
@@ -8942,7 +9066,7 @@
         "https://www.shanghaimuseum.net/mu/frontend/pg/article/id/RI00004055"
       ],
       "status": "draft",
-      "updated": "2026-08-09",
+      "updated": "2026-08-25",
       "path": "entities/movements/shanghai-school.md"
     },
     "movement/shiraz-school": {
@@ -29265,6 +29389,14 @@
           "target": "concept/harmony"
         }
       ],
+      "images": [
+        {
+          "url": "https://www.artic.edu/iiif/2/2d484387-2509-5e8e-2c43-22f9981972eb/full/843,/0/default.jpg",
+          "source_page": "https://www.artic.edu/artworks/27992",
+          "license": "cc0",
+          "note": "Art Institute of Chicagoの作品ページにis_public_domain: trueと記載された画像。"
+        }
+      ],
       "sources": [
         "https://api.artic.edu/api/v1/artworks/27992",
         "https://www.artic.edu/artworks/27992",
@@ -32073,6 +32205,54 @@
       "updated": "2026-08-12",
       "path": "entities/works/chevaux-au-paturage-segantini-1907.md"
     },
+    "work/child-christ-caspicara": {
+      "id": "work/child-christ-caspicara",
+      "uri": "urn:ahn:work/child-christ-caspicara",
+      "type": "work",
+      "label_ja": "カスピカラ《幼子キリスト》",
+      "label_en": "Child Christ",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ulan": null,
+        "tgn": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "作品固有の典拠IDは未確認。Metropolitan Museum 1979.206.1を館内識別子として記録"
+      },
+      "time": {
+        "start": "18XX",
+        "end": "18XX",
+        "display": "18世紀"
+      },
+      "space": [
+        {
+          "role": "created_in",
+          "target": "place/quito"
+        }
+      ],
+      "relations": [
+        {
+          "type": "belongs_to",
+          "target": "movement/quito-school"
+        }
+      ],
+      "sources": [
+        "https://www.metmuseum.org/art/collection/search/204305",
+        "https://www.metmuseum.org/art/collection/search/204326"
+      ],
+      "images": [
+        {
+          "url": "https://images.metmuseum.org/CRDImages/ad/original/231421.jpg",
+          "source_page": "https://www.metmuseum.org/art/collection/search/204305",
+          "license": "cc0",
+          "note": "Metropolitan Museum of ArtのOpen Access画像。isPublicDomain: true。"
+        }
+      ],
+      "status": "draft",
+      "updated": "2026-08-25",
+      "path": "entities/works/child-christ-caspicara.md"
+    },
     "work/chioggia-bazzaro-1891": {
       "id": "work/chioggia-bazzaro-1891",
       "uri": "urn:ahn:work/chioggia-bazzaro-1891",
@@ -32180,6 +32360,54 @@
       "status": "draft",
       "updated": "2026-08-13",
       "path": "entities/works/chioggia-ponte-vigo-bazzaro-1891.md"
+    },
+    "work/chiwara-headdress-female-1965-325": {
+      "id": "work/chiwara-headdress-female-1965-325",
+      "uri": "urn:ahn:work/chiwara-headdress-female-1965-325",
+      "type": "work",
+      "label_ja": "バマナのチワラ頭飾り（雌）",
+      "label_en": "Female Chiwara Headdress",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ulan": null,
+        "tgn": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "作品固有の典拠IDは未確認。Cleveland Museum of Art 1965.325を館内識別子として記録"
+      },
+      "time": {
+        "start": "1965",
+        "end": "1965",
+        "display": "収蔵登録1965年。制作年代は未確定"
+      },
+      "space": [
+        {
+          "role": "created_in",
+          "target": "place/segou"
+        }
+      ],
+      "relations": [
+        {
+          "type": "belongs_to",
+          "target": "movement/bamana-sculpture"
+        }
+      ],
+      "sources": [
+        "https://clevelandart.org/art/1965.325",
+        "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300015848"
+      ],
+      "images": [
+        {
+          "url": "https://openaccess-cdn.clevelandart.org/1965.325/1965.325_web.jpg",
+          "source_page": "https://clevelandart.org/art/1965.325",
+          "license": "cc0",
+          "note": "Cleveland Museum of ArtのCC0画像。館の作品番号1965.325。"
+        }
+      ],
+      "status": "draft",
+      "updated": "2026-08-25",
+      "path": "entities/works/chiwara-headdress-female-1965-325.md"
     },
     "work/chouettes-magrini-1907": {
       "id": "work/chouettes-magrini-1907",
@@ -33420,6 +33648,54 @@
       "status": "draft",
       "updated": "2026-08-13",
       "path": "entities/works/dal-nilo-lionetti-1891.md"
+    },
+    "work/dancing-dervishes-herat-1480": {
+      "id": "work/dancing-dervishes-herat-1480",
+      "uri": "urn:ahn:work/dancing-dervishes-herat-1480",
+      "type": "work",
+      "label_ja": "《踊る托鉢僧》ヘラート写本挿画",
+      "label_en": "Dancing Dervishes",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ulan": null,
+        "tgn": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "写本挿画固有の典拠IDは未確認。Metropolitan Museum 13.228.5を館内識別子として記録"
+      },
+      "time": {
+        "start": "1480",
+        "end": "1480",
+        "display": "c. 1480年"
+      },
+      "space": [
+        {
+          "role": "created_in",
+          "target": "place/herat"
+        }
+      ],
+      "relations": [
+        {
+          "type": "belongs_to",
+          "target": "movement/herat-school"
+        }
+      ],
+      "sources": [
+        "https://www.metmuseum.org/art/collection/search/446892",
+        "https://www.metmuseum.org/art/collection/search/446892"
+      ],
+      "images": [
+        {
+          "url": "https://images.metmuseum.org/CRDImages/is/original/DP231332.jpg",
+          "source_page": "https://www.metmuseum.org/art/collection/search/446892",
+          "license": "cc0",
+          "note": "Metropolitan Museum of ArtのOpen Access画像。isPublicDomain: true。"
+        }
+      ],
+      "status": "draft",
+      "updated": "2026-08-25",
+      "path": "entities/works/dancing-dervishes-herat-1480.md"
     },
     "work/dans-l-isolement-magrini-1907": {
       "id": "work/dans-l-isolement-magrini-1907",
@@ -37256,6 +37532,54 @@
       "status": "draft",
       "updated": "2026-08-13",
       "path": "entities/works/graziella-tafuri-1891.md"
+    },
+    "work/group-pilgrimage-jizo-ike-taiga": {
+      "id": "work/group-pilgrimage-jizo-ike-taiga",
+      "uri": "urn:ahn:work/group-pilgrimage-jizo-ike-taiga",
+      "type": "work",
+      "label_ja": "池大雅《地蔵尊への集団参詣》",
+      "label_en": "Group Pilgrimage to the Jizo Nun",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ulan": null,
+        "tgn": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "作品固有の典拠IDは未確認。Art Institute of Chicago 1947.104を館内識別子として記録"
+      },
+      "time": {
+        "start": "1755",
+        "end": "1765",
+        "display": "1755–65年頃"
+      },
+      "space": [
+        {
+          "role": "created_in",
+          "target": "place/kyoto"
+        }
+      ],
+      "relations": [
+        {
+          "type": "belongs_to",
+          "target": "movement/nanga"
+        }
+      ],
+      "sources": [
+        "https://www.artic.edu/artworks/185222",
+        "https://api.artic.edu/api/v1/artworks/185222"
+      ],
+      "images": [
+        {
+          "url": "https://www.artic.edu/iiif/2/637a65fa-a6f2-8a9f-a6f4-98fcffe2ec92/full/843,/0/default.jpg",
+          "source_page": "https://www.artic.edu/artworks/185222",
+          "license": "public-domain",
+          "note": "Art Institute of Chicagoの作品ページにis_public_domain: trueと記載された画像。"
+        }
+      ],
+      "status": "draft",
+      "updated": "2026-08-25",
+      "path": "entities/works/group-pilgrimage-jizo-ike-taiga.md"
     },
     "work/gruppo-di-garibaldini-dopo-la-battaglia-di-mentana-broggi-1891": {
       "id": "work/gruppo-di-garibaldini-dopo-la-battaglia-di-mentana-broggi-1891",
@@ -48512,6 +48836,54 @@
       "updated": "2026-08-12",
       "path": "entities/works/pensive-etude-de-nu-magrini-1907.md"
     },
+    "work/peony-ren-xiong": {
+      "id": "work/peony-ren-xiong",
+      "uri": "urn:ahn:work/peony-ren-xiong",
+      "type": "work",
+      "label_ja": "任熊《牡丹》",
+      "label_en": "Peony",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ulan": null,
+        "tgn": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "作品固有の典拠IDは未確認。Metropolitan Museum 1986.267.1を館内識別子として記録"
+      },
+      "time": {
+        "start": "18XX",
+        "end": "18XX",
+        "display": "19世紀"
+      },
+      "space": [
+        {
+          "role": "created_in",
+          "target": "place/shanghai"
+        }
+      ],
+      "relations": [
+        {
+          "type": "belongs_to",
+          "target": "movement/shanghai-school"
+        }
+      ],
+      "sources": [
+        "https://www.metmuseum.org/art/collection/search/49447",
+        "https://www.metmuseum.org/art/collection/search/49447"
+      ],
+      "images": [
+        {
+          "url": "https://images.metmuseum.org/CRDImages/as/original/DP161195.jpg",
+          "source_page": "https://www.metmuseum.org/art/collection/search/49447",
+          "license": "public-domain",
+          "note": "Metropolitan Museum of ArtのOpen Access画像。"
+        }
+      ],
+      "status": "draft",
+      "updated": "2026-08-25",
+      "path": "entities/works/peony-ren-xiong.md"
+    },
     "work/perseo-andromeda-argenti-1891": {
       "id": "work/perseo-andromeda-argenti-1891",
       "uri": "urn:ahn:work/perseo-andromeda-argenti-1891",
@@ -50341,6 +50713,54 @@
       "status": "draft",
       "updated": "2026-08-12",
       "path": "entities/works/raggio-di-sole-ritratto-cressini-1891.md"
+    },
+    "work/rasamanjari-separated-lovers-1694": {
+      "id": "work/rasamanjari-separated-lovers-1694",
+      "uri": "urn:ahn:work/rasamanjari-separated-lovers-1694",
+      "type": "work",
+      "label_ja": "デーヴィーダーサ《痴話喧嘩で離れた遊女とその恋人》",
+      "label_en": "Separated Lovers from the Rasamanjari",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ulan": null,
+        "tgn": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "作品固有の典拠IDは未確認。Metropolitan Museum 1996.239.1を館内識別子として記録"
+      },
+      "time": {
+        "start": "1694",
+        "end": "1695",
+        "display": "1694–95年"
+      },
+      "space": [
+        {
+          "role": "created_in",
+          "target": "place/basohli"
+        }
+      ],
+      "relations": [
+        {
+          "type": "belongs_to",
+          "target": "movement/basohli-painting"
+        }
+      ],
+      "sources": [
+        "https://www.metmuseum.org/art/collection/search/37941",
+        "https://www.metmuseum.org/art/collection/search/37942"
+      ],
+      "images": [
+        {
+          "url": "https://images.metmuseum.org/CRDImages/as/original/DP153147.jpg",
+          "source_page": "https://www.metmuseum.org/art/collection/search/37941",
+          "license": "cc0",
+          "note": "Metropolitan Museum of ArtのOpen Access画像。isPublicDomain: true。"
+        }
+      ],
+      "status": "draft",
+      "updated": "2026-08-25",
+      "path": "entities/works/rasamanjari-separated-lovers-1694.md"
     },
     "work/recolte-des-potirons-segantini-1907": {
       "id": "work/recolte-des-potirons-segantini-1907",
@@ -53224,6 +53644,54 @@
       "updated": "2026-08-12",
       "path": "entities/works/s-m-umberto-catella-1891.md"
     },
+    "work/sacred-slit-gong-waken-311262": {
+      "id": "work/sacred-slit-gong-waken-311262",
+      "uri": "urn:ahn:work/sacred-slit-gong-waken-311262",
+      "type": "work",
+      "label_ja": "イアトムル《聖なるスリット・ゴング（ワケン）》",
+      "label_en": "Sacred Slit Gong (Waken)",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ulan": null,
+        "tgn": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "作品固有の典拠IDは未確認。Metropolitan Museum 1978.412.1を館内識別子として記録"
+      },
+      "time": {
+        "start": "19XX",
+        "end": "19XX",
+        "display": "19世紀"
+      },
+      "space": [
+        {
+          "role": "created_in",
+          "target": "place/sepik"
+        }
+      ],
+      "relations": [
+        {
+          "type": "belongs_to",
+          "target": "movement/iatmul-carving"
+        }
+      ],
+      "sources": [
+        "https://www.metmuseum.org/art/collection/search/311262",
+        "https://www.metmuseum.org/art/collection/search/311263"
+      ],
+      "images": [
+        {
+          "url": "https://images.metmuseum.org/CRDImages/ao/original/DP-20791-001.jpg",
+          "source_page": "https://www.metmuseum.org/art/collection/search/311262",
+          "license": "cc0",
+          "note": "Metropolitan Museum of ArtのOpen Access画像。"
+        }
+      ],
+      "status": "draft",
+      "updated": "2026-08-25",
+      "path": "entities/works/sacred-slit-gong-waken-311262.md"
+    },
     "work/sacree-famille-previati-1907": {
       "id": "work/sacree-famille-previati-1907",
       "uri": "urn:ahn:work/sacree-famille-previati-1907",
@@ -53478,6 +53946,54 @@
       "status": "draft",
       "updated": "2026-08-12",
       "path": "entities/works/scarabocchione-pasini-1891.md"
+    },
+    "work/scenes-life-buddha-parabaik-1880s": {
+      "id": "work/scenes-life-buddha-parabaik-1880s",
+      "uri": "urn:ahn:work/scenes-life-buddha-parabaik-1880s",
+      "type": "work",
+      "label_ja": "《仏陀の生涯の場面》パラベイク",
+      "label_en": "Scenes from the Life of the Buddha",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ulan": null,
+        "tgn": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "作品固有の典拠IDは未確認。Metropolitan Museum 1994.35a–hを館内識別子として記録"
+      },
+      "time": {
+        "start": "188X",
+        "end": "188X",
+        "display": "1880年代"
+      },
+      "space": [
+        {
+          "role": "created_in",
+          "target": "place/mandalay"
+        }
+      ],
+      "relations": [
+        {
+          "type": "belongs_to",
+          "target": "movement/mandalay-style"
+        }
+      ],
+      "sources": [
+        "https://www.metmuseum.org/art/collection/search/856163",
+        "https://www.metmuseum.org/art/collection/search/744940"
+      ],
+      "images": [
+        {
+          "url": "https://images.metmuseum.org/CRDImages/as/original/DP-28256-004_crd.jpg",
+          "source_page": "https://www.metmuseum.org/art/collection/search/856163",
+          "license": "cc0",
+          "note": "Metropolitan Museum of ArtのOpen Access画像。isPublicDomain: true。"
+        }
+      ],
+      "status": "draft",
+      "updated": "2026-08-25",
+      "path": "entities/works/scenes-life-buddha-parabaik-1880s.md"
     },
     "work/scogli-a-capri-monteverde-1891": {
       "id": "work/scogli-a-capri-monteverde-1891",
@@ -54798,6 +55314,54 @@
       "updated": "2026-08-12",
       "path": "entities/works/studio-rietti-1891-no288.md"
     },
+    "work/study-of-a-bird-reza-abbasi-1634": {
+      "id": "work/study-of-a-bird-reza-abbasi-1634",
+      "uri": "urn:ahn:work/study-of-a-bird-reza-abbasi-1634",
+      "type": "work",
+      "label_ja": "レザー・アッバーシー《鳥の習作》",
+      "label_en": "Study of a Bird",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ulan": null,
+        "tgn": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "作品固有の典拠IDは未確認。Metropolitan Museum 1978.60を館内識別子として記録"
+      },
+      "time": {
+        "start": "1634",
+        "end": "1634",
+        "display": "1043 AH / 1634年"
+      },
+      "space": [
+        {
+          "role": "created_in",
+          "target": "place/isfahan"
+        }
+      ],
+      "relations": [
+        {
+          "type": "belongs_to",
+          "target": "movement/safavid-painting"
+        }
+      ],
+      "sources": [
+        "https://www.metmuseum.org/art/collection/search/453250",
+        "https://www.metmuseum.org/art/collection/search/453250"
+      ],
+      "images": [
+        {
+          "url": "https://images.metmuseum.org/CRDImages/is/original/DP231354.jpg",
+          "source_page": "https://www.metmuseum.org/art/collection/search/453250",
+          "license": "cc0",
+          "note": "Metropolitan Museum of ArtのOpen Access画像。isPublicDomain: true。"
+        }
+      ],
+      "status": "draft",
+      "updated": "2026-08-25",
+      "path": "entities/works/study-of-a-bird-reza-abbasi-1634.md"
+    },
     "work/sugli-scogli-lionetti-1891": {
       "id": "work/sugli-scogli-lionetti-1891",
       "uri": "urn:ahn:work/sugli-scogli-lionetti-1891",
@@ -55845,6 +56409,54 @@
       "status": "draft",
       "updated": "2026-08-13",
       "path": "entities/works/tintoretto-figlia-defunta-stragliati-1891.md"
+    },
+    "work/tlingit-totem-pole-model-1989-89": {
+      "id": "work/tlingit-totem-pole-model-1989-89",
+      "uri": "urn:ahn:work/tlingit-totem-pole-model-1989-89",
+      "type": "work",
+      "label_ja": "トリンギットのトーテムポール（小型模型）",
+      "label_en": "Tlingit Totem Pole Model",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ulan": null,
+        "tgn": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "作品固有の典拠IDは未確認。Cleveland Museum of Art 1989.89を館内識別子として記録"
+      },
+      "time": {
+        "start": "1880~",
+        "end": "1880~",
+        "display": "19世紀末頃"
+      },
+      "space": [
+        {
+          "role": "created_in",
+          "target": "place/pacific-northwest-coast"
+        }
+      ],
+      "relations": [
+        {
+          "type": "belongs_to",
+          "target": "movement/northwest-coast-carving"
+        }
+      ],
+      "sources": [
+        "https://clevelandart.org/art/1989.89",
+        "https://content.lib.washington.edu/aipnw/wright.html"
+      ],
+      "images": [
+        {
+          "url": "https://openaccess-cdn.clevelandart.org/1989.89/1989.89_web.jpg",
+          "source_page": "https://clevelandart.org/art/1989.89",
+          "license": "cc0",
+          "note": "Cleveland Museum of Artが公開するCC0画像。館の作品番号1989.89。"
+        }
+      ],
+      "status": "draft",
+      "updated": "2026-08-25",
+      "path": "entities/works/tlingit-totem-pole-model-1989-89.md"
     },
     "work/toletta-bresca-1891": {
       "id": "work/toletta-bresca-1891",
@@ -58151,6 +58763,106 @@
       "status": "draft",
       "updated": "2026-08-12",
       "path": "entities/works/vita-campestre-faccioli-1891.md"
+    },
+    "work/water-moon-avalokiteshvara": {
+      "id": "work/water-moon-avalokiteshvara",
+      "uri": "urn:ahn:work/water-moon-avalokiteshvara",
+      "type": "work",
+      "label_ja": "《水月観音図》",
+      "label_en": "Water-moon Avalokiteshvara",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ulan": null,
+        "tgn": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "作品固有の典拠IDは未確認。Metropolitan Museum 1997.34を館内識別子として記録"
+      },
+      "time": {
+        "start": "13XX",
+        "end": "13XX",
+        "display": "14世紀前半"
+      },
+      "space": [
+        {
+          "role": "created_in",
+          "target": "place/kaesong"
+        }
+      ],
+      "relations": [
+        {
+          "type": "belongs_to",
+          "target": "movement/goryeo-buddhist-painting"
+        }
+      ],
+      "sources": [
+        "https://www.metmuseum.org/art/collection/search/36029",
+        "https://www.metmuseum.org/art/collection/search/39882"
+      ],
+      "images": [
+        {
+          "url": "https://images.metmuseum.org/CRDImages/as/original/DP-15580-002.jpg",
+          "source_page": "https://www.metmuseum.org/art/collection/search/36029",
+          "license": "cc0",
+          "note": "Metropolitan Museum of ArtのOpen Access画像。isPublicDomain: true。"
+        }
+      ],
+      "status": "draft",
+      "updated": "2026-08-25",
+      "path": "entities/works/water-moon-avalokiteshvara.md"
+    },
+    "work/wendingen-1921": {
+      "id": "work/wendingen-1921",
+      "uri": "urn:ahn:work/wendingen-1921",
+      "type": "work",
+      "label_ja": "エル・リシツキー《Wendingen》",
+      "label_en": "Wendingen",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ulan": null,
+        "tgn": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "作品固有の典拠IDは未確認。National Gallery of Art 93943を館内識別子として記録"
+      },
+      "time": {
+        "start": "1921",
+        "end": "1923",
+        "display": "1921年制作・1923年刊行"
+      },
+      "space": [
+        {
+          "role": "created_in",
+          "target": "place/moscow"
+        }
+      ],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/el-lissitzky"
+        },
+        {
+          "type": "belongs_to",
+          "target": "movement/constructivism"
+        }
+      ],
+      "sources": [
+        "https://www.nga.gov/artworks/93943-wendingen",
+        "https://commons.wikimedia.org/wiki/File:El_Lissitzky,_Wendingen,_1921_(published_1923),_NGA_93943.jpg"
+      ],
+      "images": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/El_Lissitzky,_Wendingen,_1921_(published_1923),_NGA_93943.jpg",
+          "source_page": "https://www.nga.gov/artworks/93943-wendingen",
+          "license": "cc0",
+          "note": "National Gallery of Artの作品ページとCC0公開画像。"
+        }
+      ],
+      "status": "draft",
+      "updated": "2026-08-25",
+      "path": "entities/works/wendingen-1921.md"
     },
     "work/zeusi-e-le-donzelle-di-crotona-pagliano-1891": {
       "id": "work/zeusi-e-le-donzelle-di-crotona-pagliano-1891",
@@ -64910,6 +65622,18 @@
       "source": null
     },
     {
+      "from": "work/child-christ-caspicara",
+      "type": "belongs_to",
+      "to": "movement/quito-school",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/child-christ-caspicara",
+      "type": "created_in",
+      "to": "place/quito"
+    },
+    {
       "from": "work/chioggia-bazzaro-1891",
       "type": "created_by",
       "to": "person/leonardo-bazzaro",
@@ -64950,6 +65674,18 @@
       "to": "event/first-brera-triennale-1891",
       "certainty": null,
       "source": null
+    },
+    {
+      "from": "work/chiwara-headdress-female-1965-325",
+      "type": "belongs_to",
+      "to": "movement/bamana-sculpture",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/chiwara-headdress-female-1965-325",
+      "type": "created_in",
+      "to": "place/segou"
     },
     {
       "from": "work/chouettes-magrini-1907",
@@ -65426,6 +66162,18 @@
       "to": "event/first-brera-triennale-1891",
       "certainty": null,
       "source": null
+    },
+    {
+      "from": "work/dancing-dervishes-herat-1480",
+      "type": "belongs_to",
+      "to": "movement/herat-school",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/dancing-dervishes-herat-1480",
+      "type": "created_in",
+      "to": "place/herat"
     },
     {
       "from": "work/dans-l-isolement-magrini-1907",
@@ -66896,6 +67644,18 @@
       "to": "event/first-brera-triennale-1891",
       "certainty": null,
       "source": null
+    },
+    {
+      "from": "work/group-pilgrimage-jizo-ike-taiga",
+      "type": "belongs_to",
+      "to": "movement/nanga",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/group-pilgrimage-jizo-ike-taiga",
+      "type": "created_in",
+      "to": "place/kyoto"
     },
     {
       "from": "work/gruppo-di-garibaldini-dopo-la-battaglia-di-mentana-broggi-1891",
@@ -71238,6 +71998,18 @@
       "source": null
     },
     {
+      "from": "work/peony-ren-xiong",
+      "type": "belongs_to",
+      "to": "movement/shanghai-school",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/peony-ren-xiong",
+      "type": "created_in",
+      "to": "place/shanghai"
+    },
+    {
       "from": "work/perseo-andromeda-argenti-1891",
       "type": "created_by",
       "to": "person/giosue-argenti",
@@ -71943,6 +72715,18 @@
       "to": "event/first-brera-triennale-1891",
       "certainty": null,
       "source": null
+    },
+    {
+      "from": "work/rasamanjari-separated-lovers-1694",
+      "type": "belongs_to",
+      "to": "movement/basohli-painting",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/rasamanjari-separated-lovers-1694",
+      "type": "created_in",
+      "to": "place/basohli"
     },
     {
       "from": "work/recolte-des-potirons-segantini-1907",
@@ -73051,6 +73835,18 @@
       "source": null
     },
     {
+      "from": "work/sacred-slit-gong-waken-311262",
+      "type": "belongs_to",
+      "to": "movement/iatmul-carving",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/sacred-slit-gong-waken-311262",
+      "type": "created_in",
+      "to": "place/sepik"
+    },
+    {
       "from": "work/sacree-famille-previati-1907",
       "type": "created_by",
       "to": "person/gaetano-previati",
@@ -73147,6 +73943,18 @@
       "to": "event/first-brera-triennale-1891",
       "certainty": null,
       "source": null
+    },
+    {
+      "from": "work/scenes-life-buddha-parabaik-1880s",
+      "type": "belongs_to",
+      "to": "movement/mandalay-style",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/scenes-life-buddha-parabaik-1880s",
+      "type": "created_in",
+      "to": "place/mandalay"
     },
     {
       "from": "work/scogli-a-capri-monteverde-1891",
@@ -73653,6 +74461,18 @@
       "source": null
     },
     {
+      "from": "work/study-of-a-bird-reza-abbasi-1634",
+      "type": "belongs_to",
+      "to": "movement/safavid-painting",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/study-of-a-bird-reza-abbasi-1634",
+      "type": "created_in",
+      "to": "place/isfahan"
+    },
+    {
       "from": "work/sugli-scogli-lionetti-1891",
       "type": "created_by",
       "to": "person/edoardo-lionetti",
@@ -74057,6 +74877,18 @@
       "to": "event/first-brera-triennale-1891",
       "certainty": null,
       "source": null
+    },
+    {
+      "from": "work/tlingit-totem-pole-model-1989-89",
+      "type": "belongs_to",
+      "to": "movement/northwest-coast-carving",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/tlingit-totem-pole-model-1989-89",
+      "type": "created_in",
+      "to": "place/pacific-northwest-coast"
     },
     {
       "from": "work/toletta-bresca-1891",
@@ -74953,6 +75785,37 @@
       "to": "event/first-brera-triennale-1891",
       "certainty": null,
       "source": null
+    },
+    {
+      "from": "work/water-moon-avalokiteshvara",
+      "type": "belongs_to",
+      "to": "movement/goryeo-buddhist-painting",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/water-moon-avalokiteshvara",
+      "type": "created_in",
+      "to": "place/kaesong"
+    },
+    {
+      "from": "work/wendingen-1921",
+      "type": "created_by",
+      "to": "person/el-lissitzky",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/wendingen-1921",
+      "type": "belongs_to",
+      "to": "movement/constructivism",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "work/wendingen-1921",
+      "type": "created_in",
+      "to": "place/moscow"
     },
     {
       "from": "work/zeusi-e-le-donzelle-di-crotona-pagliano-1891",
@@ -79909,6 +80772,12 @@
       "derived": true
     },
     {
+      "from": "movement/quito-school",
+      "type": "has_member",
+      "to": "work/child-christ-caspicara",
+      "derived": true
+    },
+    {
       "from": "person/leonardo-bazzaro",
       "type": "created",
       "to": "work/chioggia-bazzaro-1891",
@@ -79942,6 +80811,12 @@
       "from": "event/first-brera-triennale-1891",
       "type": "exhibited",
       "to": "work/chioggia-ponte-vigo-bazzaro-1891",
+      "derived": true
+    },
+    {
+      "from": "movement/bamana-sculpture",
+      "type": "has_member",
+      "to": "work/chiwara-headdress-female-1965-325",
       "derived": true
     },
     {
@@ -80350,6 +81225,12 @@
       "from": "event/first-brera-triennale-1891",
       "type": "exhibited",
       "to": "work/dal-nilo-lionetti-1891",
+      "derived": true
+    },
+    {
+      "from": "movement/herat-school",
+      "type": "has_member",
+      "to": "work/dancing-dervishes-herat-1480",
       "derived": true
     },
     {
@@ -81610,6 +82491,12 @@
       "from": "event/first-brera-triennale-1891",
       "type": "exhibited",
       "to": "work/graziella-tafuri-1891",
+      "derived": true
+    },
+    {
+      "from": "movement/nanga",
+      "type": "has_member",
+      "to": "work/group-pilgrimage-jizo-ike-taiga",
       "derived": true
     },
     {
@@ -85333,6 +86220,12 @@
       "derived": true
     },
     {
+      "from": "movement/shanghai-school",
+      "type": "has_member",
+      "to": "work/peony-ren-xiong",
+      "derived": true
+    },
+    {
       "from": "person/giosue-argenti",
       "type": "created",
       "to": "work/perseo-andromeda-argenti-1891",
@@ -85936,6 +86829,12 @@
       "from": "event/first-brera-triennale-1891",
       "type": "exhibited",
       "to": "work/raggio-di-sole-ritratto-cressini-1891",
+      "derived": true
+    },
+    {
+      "from": "movement/basohli-painting",
+      "type": "has_member",
+      "to": "work/rasamanjari-separated-lovers-1694",
       "derived": true
     },
     {
@@ -86887,6 +87786,12 @@
       "derived": true
     },
     {
+      "from": "movement/iatmul-carving",
+      "type": "has_member",
+      "to": "work/sacred-slit-gong-waken-311262",
+      "derived": true
+    },
+    {
       "from": "person/gaetano-previati",
       "type": "created",
       "to": "work/sacree-famille-previati-1907",
@@ -86968,6 +87873,12 @@
       "from": "event/first-brera-triennale-1891",
       "type": "exhibited",
       "to": "work/scarabocchione-pasini-1891",
+      "derived": true
+    },
+    {
+      "from": "movement/mandalay-style",
+      "type": "has_member",
+      "to": "work/scenes-life-buddha-parabaik-1880s",
       "derived": true
     },
     {
@@ -87403,6 +88314,12 @@
       "derived": true
     },
     {
+      "from": "movement/safavid-painting",
+      "type": "has_member",
+      "to": "work/study-of-a-bird-reza-abbasi-1634",
+      "derived": true
+    },
+    {
       "from": "person/edoardo-lionetti",
       "type": "created",
       "to": "work/sugli-scogli-lionetti-1891",
@@ -87748,6 +88665,12 @@
       "from": "event/first-brera-triennale-1891",
       "type": "exhibited",
       "to": "work/tintoretto-figlia-defunta-stragliati-1891",
+      "derived": true
+    },
+    {
+      "from": "movement/northwest-coast-carving",
+      "type": "has_member",
+      "to": "work/tlingit-totem-pole-model-1989-89",
       "derived": true
     },
     {
@@ -88516,6 +89439,24 @@
       "from": "event/first-brera-triennale-1891",
       "type": "exhibited",
       "to": "work/vita-campestre-faccioli-1891",
+      "derived": true
+    },
+    {
+      "from": "movement/goryeo-buddhist-painting",
+      "type": "has_member",
+      "to": "work/water-moon-avalokiteshvara",
+      "derived": true
+    },
+    {
+      "from": "person/el-lissitzky",
+      "type": "created",
+      "to": "work/wendingen-1921",
+      "derived": true
+    },
+    {
+      "from": "movement/constructivism",
+      "type": "has_member",
+      "to": "work/wendingen-1921",
       "derived": true
     },
     {

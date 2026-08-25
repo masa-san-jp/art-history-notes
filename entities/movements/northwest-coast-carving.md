@@ -37,6 +37,8 @@ naming:
 claims:
   - {field: kind, source: "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300017594", certainty: scholarly}
   - {field: originated_in, source: "https://www.ebsco.com/research-starters/social-sciences-and-humanities/northwest-coast-cultural-area-native-american", certainty: scholarly}
+evidence:
+  - {target: work/tlingit-totem-pole-model-1989-89, supports: [kind, origin, visual-character]}
 space:
   - {role: originated_in, target: place/pacific-northwest-coast}
 relations: []
@@ -69,7 +71,7 @@ sources:
   - https://clevelandart.org/art/1989.89
   - https://clevelandart.org/art/1921.1577
 status: draft
-updated: 2026-08-10
+updated: 2026-08-25
 ---
 
 # 北西海岸先住民の彫刻 / Northwest Coast carving

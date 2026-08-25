@@ -1,0 +1,20 @@
+source_commit: 1c0c1734e97f3c56c58a90ba93bc02638a62b947
+selection:
+  - work adjacency
+  - public-domain image reference
+  - source count
+  - movement ID ascending
+entries:
+  - {region: europe-west, movement: movement/neo-impressionism, work: work/a-sunday-on-la-grande-jatte}
+  - {region: europe-east, movement: movement/constructivism, work: work/wendingen-1921}
+  - {region: americas-north, movement: movement/northwest-coast-carving, work: work/tlingit-totem-pole-model-1989-89}
+  - {region: mena, movement: movement/safavid-painting, work: work/study-of-a-bird-reza-abbasi-1634}
+  - {region: africa-sub, movement: movement/bamana-sculpture, work: work/chiwara-headdress-female-1965-325}
+  - {region: asia-central, movement: movement/herat-school, work: work/dancing-dervishes-herat-1480}
+  - {region: asia-south, movement: movement/basohli-painting, work: work/rasamanjari-separated-lovers-1694}
+  - {region: asia-southeast, movement: movement/mandalay-style, work: work/scenes-life-buddha-parabaik-1880s}
+  - {region: asia-east-china, movement: movement/shanghai-school, work: work/peony-ren-xiong}
+  - {region: asia-east-korea, movement: movement/goryeo-buddhist-painting, work: work/water-moon-avalokiteshvara}
+  - {region: asia-east-japan, movement: movement/nanga, work: work/group-pilgrimage-jizo-ike-taiga}
+  - {region: americas-latin, movement: movement/quito-school, work: work/child-christ-caspicara}
+  - {region: oceania, movement: movement/iatmul-carving, work: work/sacred-slit-gong-waken-311262}
