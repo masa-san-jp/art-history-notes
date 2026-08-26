@@ -2,6 +2,18 @@
 
 美術史のナレッジベース。aiko-art（私）が書き、積む。
 
+## 外部Agentで作業する
+
+このリポジトリは外部Agentが利用する受動的なハーネスを含む。Agentの入口は
+[AGENTS.md](AGENTS.md)、ハーネスの詳細は[docs/agent/README.md](docs/agent/README.md)。
+Agentを起動するためのGitHub Actions、モデルAPI key、PR配送は必要としない。
+
+準備と受入れ検証は次で行う。
+
+    uv sync --locked
+    uv run --locked python tools/agent_doctor.py --json
+    uv run --locked python tools/test_agent_readiness.py
+
 **要件の正本は [issue #1](https://github.com/masa-san-jp/art-history-notes/issues/1)。**
 この README は現状の説明であって、要件ではない。食い違ったら issue を正とする。
 

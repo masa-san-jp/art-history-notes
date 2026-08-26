@@ -1,0 +1,28 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/masa-san-jp/art-history-notes/agent-session.schema.json",
+  "title": "art-history-notes external agent baseline session v1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["version", "created_at", "repository_root", "task_hash", "base_sha", "baseline_entries"],
+  "properties": {
+    "version": {"const": 1},
+    "created_at": {"type": "string", "minLength": 1},
+    "repository_root": {"type": "string", "minLength": 1},
+    "task_hash": {"type": "string", "pattern": "^[a-f0-9]{64}$"},
+    "base_sha": {"type": "string", "pattern": "^[a-f0-9]{40,64}$"},
+    "baseline_entries": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["path", "kind", "content_sha256"],
+        "properties": {
+          "path": {"type": "string", "minLength": 1},
+          "kind": {"enum": ["file", "symlink", "missing"]},
+          "content_sha256": {"type": ["string", "null"], "pattern": "^[a-f0-9]{64}$"}
+        }
+      }
+    }
+  }
+}

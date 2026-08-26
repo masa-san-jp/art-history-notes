@@ -1,0 +1,5 @@
+checks:
+  canonical:
+    description: "Run the repository's canonical deterministic verification."
+    argv: [uv, run, --locked, python, tools/verify.py]
+    timeout_seconds: 1800
