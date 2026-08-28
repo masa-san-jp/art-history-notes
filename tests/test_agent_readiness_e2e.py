@@ -173,10 +173,10 @@ class AgentReadinessE2ETests(unittest.TestCase):
 
     def test_failed_check_still_runs_canonical_last(self) -> None:
         (self.repo / "config" / "agent-checks.yaml").write_text(
-            """checks:
+            f"""checks:
   preflight:
     description: \"Intentional fixture failure.\"
-    argv: [python, -c, \"import sys; sys.exit(3)\"]
+    argv: [{json.dumps(sys.executable)}, -c, \"import sys; sys.exit(3)\"]
     timeout_seconds: 10
   canonical:
     description: \"fixture check\"
