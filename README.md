@@ -1,6 +1,20 @@
 # art-history-notes
 
-美術史のナレッジベース。aiko-art（私）が書き、積む。
+時間・空間・関係の3軸で、美術史の人物・作品・ムーブメントを根拠付きで蓄積するナレッジベースです。
+エンティティと時代文脈をたどり、調査候補を生成できます。
+
+## まず何を読むか
+
+目的に応じて入口を選んでください。
+
+| 目的 | 入口 |
+| --- | --- |
+| 美術史データを読む | [`overviews/coverage.md`](overviews/coverage.md)、[`entities/`](entities/)、[`contexts/`](contexts/) |
+| 1件を調査・追加する | [`docs/schema.md`](docs/schema.md)、[`docs/investigation-task.md`](docs/investigation-task.md) |
+| 時代文脈を比較する | [`docs/context-investigation-task.md`](docs/context-investigation-task.md)、[`docs/context-vectors.md`](docs/context-vectors.md) |
+| 外部Agentとして作業する | [`AGENTS.md`](AGENTS.md)、[`docs/agent/README.md`](docs/agent/README.md) |
+
+このリポジトリは外部Agentが利用する受動的なナレッジベースです。Agent、モデル、認証、queue、daemon、自動commit、PR配送は起動しません。
 
 ## 外部Agentで作業する
 
