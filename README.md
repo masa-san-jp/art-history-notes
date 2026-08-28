@@ -1,149 +1,143 @@
 # art-history-notes
 
-美術史のナレッジベース。aiko-art（私）が書き、積む。
+時間・空間・関係の3軸で、美術史のムーブメントを根拠付きで蓄積するナレッジベースです。
+個別の人物・作品・場所・組織などを `entities/` に、時期×文化圏×領域のスナップショットを
+`contexts/` に保存し、関係をたどったり、時間と場所から調査候補を生成したりできます。
 
-## 外部Agentで作業する
+このリポジトリには、外部Agentが安全に作業するための受動的なハーネスも含まれます。
+リポジトリ自身はAgent、モデル、認証、queue、daemon、自動commit、PR配送を起動しません。
 
-このリポジトリは外部Agentが利用する受動的なハーネスを含む。Agentの入口は
-[AGENTS.md](AGENTS.md)、ハーネスの詳細は[docs/agent/README.md](docs/agent/README.md)。
-Agentを起動するためのGitHub Actions、モデルAPI key、PR配送は必要としない。
+## まず何を読むか
 
-準備と受入れ検証は次で行う。
+目的に応じて入口を選んでください。
 
-    uv sync --locked
-    uv run --locked python tools/agent_doctor.py --json
-    uv run --locked python tools/test_agent_readiness.py
+| 目的 | 入口 |
+| --- | --- |
+| 美術史データを読む | [`overviews/coverage.md`](overviews/coverage.md)、[`entities/`](entities/)、[`contexts/`](contexts/) |
+| 1件のエンティティを調査・追加する | [`docs/schema.md`](docs/schema.md)、[`docs/investigation-task.md`](docs/investigation-task.md) |
+| 時代文脈を調査・比較する | [`docs/context-investigation-task.md`](docs/context-investigation-task.md)、[`docs/context-vectors.md`](docs/context-vectors.md) |
+| 外部Agentとして作業する | [AGENTS.md](AGENTS.md)、[docs/agent/README.md](docs/agent/README.md) |
+| 外部標準へ対応付ける | [`docs/interop-mapping.md`](docs/interop-mapping.md) |
 
-**要件の正本は [issue #1](https://github.com/masa-san-jp/art-history-notes/issues/1)。**
-この README は現状の説明であって、要件ではない。食い違ったら issue を正とする。
+要件の正本は [Issue #1](https://github.com/masa-san-jp/art-history-notes/issues/1)、データ形式の正本は
+[`docs/schema.md`](docs/schema.md) です。このREADMEは利用方法の案内であり、仕様と食い違う場合は正本を優先します。
 
-**俯瞰と細部を同じ形式で持ち、時間・空間・関係の3軸で構造化する。** 年表だけでは
-「同じ年にパリと京都で別々に何が起きていたか」が見えない。作家の評伝だけでは「その手つきが
-誰から来て誰へ渡ったか」が見えない。だから3軸を最初から持つ。
+## 最短手順
 
-読んで終わりにしない。**その作品がどう成立しているかを、自分の手で再現できる粒度まで分解する。**
-分解できたものだけが次に作る作品に効く。
-
-## 構造
-
-```
-entities/          1エンティティ1ファイル。frontmatter が唯一の正
-  movements/  persons/  works/  orgs/  places/  concepts/  events/  sources/
-contexts/          時期×文化圏×アート領域を限定した、根拠付き時代文脈スナップショット
-overviews/         俯瞰。coverage.md の表は生成物（手で書き換えない）
-config/            regions.yaml = 文化圏13バケットと受け入れ条件の閾値
-                   context-dimensions.yaml = 文脈比較の固定12軸
-docs/
-  schema.md            型・必須項目・関係語彙・EDTF・claims。書く前に読む
-  investigation-task.md 1件の調査の手順（Sonnet が単独で1件を終えられる粒度）
-  interop-mapping.md    外部標準（CIDOC-CRM / Linked Art / Getty）との対応表
-  design-fable-draft.md 設計の草案と、その根拠になった実測
-tools/
-  kb.py              スキーマ定義と共通部品（1箇所）
-  verify.py          全検証・生成物鮮度確認の正準エントリポイント
-  new_entity.py      必須項目が入った雛形を作る
-  build_graph.py     検証 → data/graph.json・data/coverage.json・被覆マップ更新
-  bundle.py          知識のまとまりを1文書として取り出す
-  context_kb.py      contextの検証・ベクトル計算・比較
-  build_context_vectors.py  context生成物を決定論的に作る
-  compare_context.py context間の類似と相違を根拠付きで表示する
-data/              生成物（graph / coverage / context vectors / context similarity）
-```
-
-## 3軸をどう持っているか
-
-- **時間** — `time.start` / `end` は **EDTF**（`0000`＝紀元前1年／`-0001`＝紀元前2年／`-0899`＝紀元前900年／
-  `146X`＝1460年代／`1500~`＝およそ／`..`＝継続中／`null`＝不明）。不明を推測で埋めない。原表記（元号・王朝名）は `display` に残す。
-- **空間** — `space` に役割付きの場所参照（`originated_in` / `created_in` / `held_at` / `active_in`…）。
-  `place` は文化圏（`region`）と座標を必ず持つので、「1885年に半径◯kmで何が起きていたか」を引ける。
-- **関係** — `relations` は閉じた語彙。解釈を含むもの（`influenced_by` / `derives_from` /
-  `grouped_as` / `diffused_to`…）は **確度（`certainty`）と出典が必須**で、当事者の言明・研究の通説・
-  自分の仮説を区別する。同時代の並行は保存せず、時間×空間から生成する。
-
-主役は `movement`。**単一の型に保ち、必須の `kind`**（当事者が名乗った運動／後付けの括り／
-血縁・工房の継承／時代様式）で性質を区別する。後付けの命名と当事者の自己認識は `naming` で分けて持つ。
-
-外部の典拠ID（Wikidata QID・Getty AAT / ULAN / TGN・Japan Search・NDL）を各エンティティに持たせ、
-無いときは理由（`none_reason`）を書く。`uri`（`urn:ahn:...`）で外から名指しでき、`claims` で
-**主張ごとの根拠**を持つ。これが「ノートの山」と「接続可能なデータ」を分ける三点。外部標準との
-対応は [docs/interop-mapping.md](docs/interop-mapping.md)。
-
-## 使う
-
-前提は Python 3.12 と [uv](https://docs.astral.sh/uv/)。clone直後に依存関係をlockどおり準備する。
+前提は Python 3.12 と [uv](https://docs.astral.sh/uv/) です。Python本体や依存パッケージを直接呼ばず、
+リポジトリ内のPythonコマンドは次の形式で実行してください。
 
 ```bash
 uv sync --locked
+uv run --locked python tools/agent_doctor.py --json
+uv run --locked python tools/test_agent_readiness.py
+```
+
+`test_agent_readiness.py` は外部Agent向けのunit/integration/E2Eと、最後に正準検証をまとめて実行します。
+データだけを検証する場合は次を使います。
+
+```bash
 uv run --locked python tools/verify.py
+```
+
+commit前にも同じ検証を自動実行するには、cloneごとに一度だけhookを有効化します。
+
+```bash
 git config core.hooksPath .githooks
 ```
 
-個別のCLIを試すときも、同じuv環境を使う。
+## よく使う操作
+
+### データを読む・探す
 
 ```bash
-uv run --locked python tools/new_entity.py movement kano-school --ja 狩野派 --en "Kanō school"
-uv run --locked python tools/build_graph.py --check     # 検証だけ（CI 用）
-uv run --locked python tools/build_graph.py             # 検証 + グラフ・被覆マップの生成
-uv run --locked python tools/bundle.py --search 調和               # 語で探す（IDを知らなくていい）
-uv run --locked python tools/bundle.py movement/kano-school        # 1件とその周辺を1文書で
-uv run --locked python tools/bundle.py --region asia-east-japan    # 文化圏でまとめて
-uv run --locked python tools/bundle.py --century 19                # 世紀でまとめて
+# キーワード、型、関係を含むまとまりを読む
+uv run --locked python tools/bundle.py --search 調和
+uv run --locked python tools/bundle.py movement/kano-school
+
+# 時間・地域・距離から同時代の候補を探す
 uv run --locked python tools/query_spacetime.py --at 1885
-uv run --locked python tools/query_spacetime.py --from 1880 --to 1890 --regions europe-west asia-east-japan
 uv run --locked python tools/query_spacetime.py --at 1885 --near place/paris --radius-km 500 --format json
-uv run --locked python tools/audit.py                              # 体系の食い違い・偏り → 次に調べること
-uv run --locked python tools/build_context_vectors.py --check      # 時代文脈の検証だけ
-uv run --locked python tools/build_context_vectors.py              # ベクトル・類似度を生成
+
+# 文脈間の類似と相違を比較する
 uv run --locked python tools/compare_context.py context/ai-art-japan-2026-h2 --kind historical --top 10
 ```
 
-1件の調査は [docs/investigation-task.md](docs/investigation-task.md) の手順だけで終わる。
-時代文脈は [docs/context-investigation-task.md](docs/context-investigation-task.md) の手順で調査し、
-[docs/context-vectors.md](docs/context-vectors.md) の固定式で比較する。
+`query_spacetime.py` の結果は年代や場所が一致する候補です。類似性・影響・因果関係の証拠ではありません。
+`--at` と `--from/--to` は排他で、BCEは天文学的年番号（紀元前900年は `-899`）を使います。
 
-`query_spacetime.py` は `data/graph.json` の時間・空間条件から同時代の候補を生成する。
-結果は類似性・影響・因果関係の証拠ではなく、年代や場所が不明なentityは補間せず除外理由を表示する。
-`--at` と `--from/--to` は排他で、BCEは天文学的年番号（例: 紀元前900年は `-899`）を使う。
+### データを書く・生成する
 
-**他の人格（アイコたち）が読むときは [docs/for-other-personas.md](docs/for-other-personas.md) から。**
-このKBの使い手はアイコたちで、引用してよい記述とだめな記述の区別がそこに書いてある。
-
-## 検証が自動で走る
-
-検査は2層。**`build_graph.py --check` は「壊れているか」**（必須項目・参照先・語彙・EDTF）を見て
-commit を止める。**`audit.py` は「噛み合っていないか」**（時間の矛盾・型の食い違い・kind の地域偏り・
-仮説が未検証・継承の先が辿れない）を見て、止めずに**次に調べることとして出す**。
-形が正しいだけの体系は、機械が黙っているうちに静かに矛盾を溜める。
-
-`.githooks/pre-commit` が commit のたびに `uv run --locked python tools/verify.py` を走らせ、通らないものを止める。
-生成物（`data/` と被覆マップ）が古いままの commit も止める。
-
-**clone した直後に1回だけ**（これをしないとフックは動かない）:
+1. [`docs/schema.md`](docs/schema.md) と該当する調査手順を読む。
+2. 出典URL付きのMarkdown entity/contextを編集する。確定できないことは `未確認` として残す。
+3. 必要なら雛形を作る。
 
 ```bash
-git config core.hooksPath .githooks
+uv run --locked python tools/new_entity.py movement kano-school --ja 狩野派 --en "Kanō school"
 ```
 
-忘れてもCIの同じ正準コマンドで検出できる。手で走らせる規律に頼ると、走らせ忘れた1回で壊れたまま履歴に入る。
+4. 入力から生成物を更新する。
 
-## 書くときの規律
+```bash
+uv run --locked python tools/build_graph.py
+uv run --locked python tools/build_context_vectors.py
+```
 
-- 出典URLを本文に置く。手元の知識だけで書いた行は書かない。
-- 一次情報を優先する（所蔵館 API・本人の手紙・カタログ）。二次情報は二次と書く。
-- 実物を見ていない作品は「実物未見」と明記する。
-- 確定できないことは `未確認` として残す。空欄で隠さない。
-- 俯瞰を書いたら、根拠になる個別エンティティを1つ以上張る。張れないなら書く段階にない。
+生成物を直接編集しないでください。`data/graph.json`、`data/coverage.json`、
+`data/context-vectors.json`、`data/context-similarity.json`、`overviews/coverage.md` は生成物です。
+検証だけを行う場合は `tools/build_graph.py --check` または `tools/build_context_vectors.py --check` を使います。
 
-詳細は [docs/schema.md](docs/schema.md)。
+## データの基本ルール
 
-## いま入っているもの
+- 1 entity 1ファイル。frontmatterが正本です。
+- すべての調査記述に出典URLを置き、一次情報を優先します。
+- `movement`、`person`、`work`、`place` などの型と関係語彙は [`docs/schema.md`](docs/schema.md) に従います。
+- 時間はEDTF、空間は役割付きの場所参照、解釈を含む関係は確度と出典を持ちます。
+- 外部典拠IDがない場合は、理由を `none_reason` に残します。
+- 実物を見ていない作品は「実物未見」、確認できない事項は「未確認」と明記します。
 
-`uv run --locked python tools/build_graph.py` の出力が正確な現在地（件数をここに書き写すと必ず古くなる）。
-空白の全体像は [overviews/coverage.md](overviews/coverage.md)。
+## リポジトリの構成
 
-## 制作との接続
+```text
+entities/       人物・作品・ムーブメント・場所などの正本
+contexts/       根拠付きの時代文脈スナップショット
+overviews/      俯瞰資料（coverage.mdは生成物）
+config/         文化圏、検証閾値、task/check schemaの設定
+docs/           schema、調査手順、Agent向け手順、標準対応表
+tools/          検証、検索、生成、Agent向けローカルCLI
+data/           検証・生成された機械可読データ
+tests/          domain検証とAgent interfaceのテスト
+```
 
-当面の制作締切は AIアートグランプリ5「調和」（2026-09-15・**1名1作品のみ**）と
-AIクリエイターズマーケット2026（2026-11-07）。だから最初に深く掘るのは
-[concept/harmony](entities/concepts/harmony.md)。ただしこのKBは締切のための資料置き場ではなく、
-締切が変わっても残る蓄積として作る。
+## 外部Agentで作業する
+
+Agentの入口は [AGENTS.md](AGENTS.md) です。task contractがある場合は、contractをvalidateしてから
+作業前baselineを記録し、許可されたscopeだけを変更し、最後にtask verifyを実行します。
+詳細な手順、責務境界、受入れ証跡は [`docs/agent/README.md`](docs/agent/README.md) を読んでください。
+
+このハーネスは、Agentを選定・起動・ホストする仕組みではありません。GitHub Actionsも検証だけを行い、
+Agent executable、モデルAPI、GitHub write権限、repository secretを要求しません。
+commit、push、PR、Issue更新は利用者が明示的に依頼した場合だけ行います。
+
+## 検証とCI
+
+正準検証は次の1コマンドです。
+
+```bash
+uv run --locked python tools/verify.py
+```
+
+この検証は必須項目、参照先、関係語彙、EDTF、生成物の鮮度、時間・空間・関係の整合性を確認します。
+`tools/audit.py` は検証を止めずに、偏りや未調査事項を「次に調べること」として報告します。
+
+GitHub Actionsには、正準検証用の `validate.yml` と、Agent interface全体を検証する
+`agent-readiness.yml` があります。いずれもAgentを起動せず、read-onlyの検証だけを行います。
+
+## 関連ドキュメント
+
+- [`AGENTS.md`](AGENTS.md)：作業時の指示と完了報告の正本
+- [`docs/schema.md`](docs/schema.md)：型、必須項目、関係語彙、EDTF、claims
+- [`docs/investigation-task.md`](docs/investigation-task.md)：1件の調査手順
+- [`docs/context-investigation-task.md`](docs/context-investigation-task.md)：時代文脈の調査手順
+- [`docs/agent/acceptance.md`](docs/agent/acceptance.md)：Agent interfaceとE2Eの対応表
+- [`docs/for-other-personas.md`](docs/for-other-personas.md)：他の人格が読むときの扱い
