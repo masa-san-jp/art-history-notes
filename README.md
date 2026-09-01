@@ -22,6 +22,38 @@
 要件の正本は [Issue #1](https://github.com/masa-san-jp/art-history-notes/issues/1)、データ形式の正本は
 [`docs/schema.md`](docs/schema.md) です。このREADMEは利用方法の案内であり、仕様と食い違う場合は正本を優先します。
 
+## 兄弟リポジトリと関係
+
+このrepoは、複数の正本を横断するシステムの一部です。各repoは独立して管理され、データを一つのrepoへ
+コピーして統合しません。横断利用が必要な場合は、[`agentic-art-orchestration`](https://github.com/masa-san-jp/agentic-art-orchestration)
+がsource commit、manifest、依存関係、境界形式を管理します。
+
+```text
+input KBs: self-model / art-history / marketing / viewer-response
+                              │
+                              │ source commit + 境界形式
+                              ▼
+                 agentic-art-orchestration
+                              │
+                              ▼
+                   agentic-art-research
+                              │
+                              ▼
+                  agentic-art-production
+```
+
+| リポジトリ | 役割 | art-history-notesとの関係 |
+| --- | --- | --- |
+| [self-model-notes](https://github.com/masa-san-jp/self-model-notes) | 同意範囲と不確実性を保持するSelf Model入力KB | 並列の入力KB。人物・観測データをこのrepoへコピーしません |
+| [marketing-trends-notes](https://github.com/masa-san-jp/marketing-trends-notes) | 時間・チャネル・関係で蓄積するマーケティング変化KB | 同じMarkdown + Git型の入力KB。構造の基礎はこのrepoをもとにしていますが、鮮度・vendor根拠などは固有です |
+| [agentic-art-research](https://github.com/masa-san-jp/agentic-art-research) | 複数入力から証拠を整理し、研究判断と制作handoffへ変換するrepo | 下流の研究実行側。美術史の正本を読み替えず、境界形式で参照します |
+| [agentic-art-production](https://github.com/masa-san-jp/agentic-art-production) | research handoffから制作計画・実行・結果記録を扱うrepo | researchのさらに下流。実作品やproduction projectはこのrepoに保存しません |
+| [viewer-response-notes](https://github.com/masa-san-jp/viewer-response-notes) | viewer反応のprivacy-safeな集計と保守的な制作要件評価 | 横断的なfeedback入力。生回答やPIIをこのrepoへ持ち込みません |
+| [agentic-art-orchestration](https://github.com/masa-san-jp/agentic-art-orchestration) | 上記repoをsource commit固定で横断利用するcontrol plane | 親のデータベースではありません。各repoの正本性を保ったまま接続します |
+
+このrepo単体で美術史データの閲覧・検索・検証・追記は完結します。横断的な調査や制作handoffが必要な
+場合だけ、orchestrationのrunbookと各repoのREADMEを参照してください。
+
 ## 最短手順
 
 前提は Python 3.12 と [uv](https://docs.astral.sh/uv/) です。Python本体や依存パッケージを直接呼ばず、
