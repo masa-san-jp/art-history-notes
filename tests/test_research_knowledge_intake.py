@@ -151,6 +151,37 @@ class ResearchIntakeTests(unittest.TestCase):
         self.assertIn("context/synthetic-context", after["contexts"])
         for context, vector in before["contexts"].items(): self.assertEqual(vector, after["contexts"][context])
 
+    def test_prepare_checks_canonical_domain_without_writing_knowledge(self):
+        parent = self.store.head()
+        candidate = self.candidate()
+        result = self.store.commit(candidate, parent, "validate", "validation", self.snapshots, dry_run=True)
+        self.assertEqual("VALID", result["status"])
+        self.assertEqual(parent, self.store.head())
+        self.assertEqual([], self.store.records(parent))
+        candidate["payload"]["entity"]["type"] = "invalid-owner-type"
+        self.rehash(candidate)
+        with self.assertRaises(IntakeError):
+            self.store.commit(candidate, parent, "validate", "validation", self.snapshots, dry_run=True)
+        self.assertEqual(parent, self.store.head())
+
+    def test_index_failure_keeps_commit_and_can_resume_without_raw(self):
+        receipt = self.commit(self.candidate())
+        victim = self.root / "unchanged.txt"; victim.write_text("unchanged")
+        index = self.store_root / "research-index.json"; index.symlink_to(victim)
+        self.snapshot.unlink()
+        command = [sys.executable, str(ROOT / "tools/research_knowledge_intake.py"), "index",
+            "--store-root", str(self.store_root), "--creator", "creator-a", "--collection", "history-a",
+            "--code-commit", self.code, "--knowledge-commit", receipt["target_commit"]]
+        failed = subprocess.run(command, text=True, capture_output=True)
+        self.assertEqual(1, failed.returncode)
+        self.assertEqual("INDEX_PENDING", json.loads(failed.stdout)["status"])
+        self.assertEqual(receipt["target_commit"], self.store.head())
+        self.assertEqual("unchanged", victim.read_text())
+        index.unlink()
+        resumed = subprocess.run(command, text=True, capture_output=True)
+        self.assertEqual(0, resumed.returncode, resumed.stderr)
+        self.assertEqual(receipt["target_commit"], json.loads(resumed.stdout)["index_commit"])
+
     def test_completed_operation_replay_does_not_need_raw_snapshot_retention(self):
         candidate = self.candidate(); parent = self.store.head(); first = self.commit(candidate)
         self.snapshot.unlink()

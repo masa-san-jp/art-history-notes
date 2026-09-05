@@ -246,7 +246,7 @@ class KnowledgeStore:
                 targets.add(json.loads(binding)["canonical_id"] if binding else payload["target_id"])
         return targets
 
-    def commit(self, candidate, parent, operation, run_id, snapshots=None):
+    def commit(self, candidate, parent, operation, run_id, snapshots=None, *, dry_run=False):
         record, payload = candidate["record"], candidate["payload"]
         operation_path = "operations/" + digest(operation.encode()) + ".json"
         head = self.head()
@@ -328,6 +328,9 @@ class KnowledgeStore:
             self.context_payloads(head, {name: raw})
             writes["contexts/" + name] = raw
         writes[operation_path] = canonical({"candidate_hash": digest(canonical(candidate)), "parent": parent, "record_id": record["record_id"]})
+        if dry_run:
+            return {"status": "VALID", "candidate_hash": digest(canonical(candidate)),
+                    "target_parent": parent, "planned_paths": sorted(writes)}
         with tempfile.TemporaryDirectory(dir=self.root) as td:
             index = Path(td) / "index"
             self.git("read-tree", parent, index=index)
@@ -406,15 +409,17 @@ def main():
             candidate = json.loads(args.candidate.read_text())
             snapshots = json.loads(args.source_snapshots.read_text()) if args.source_snapshots else {}
             if args.command in {"prepare", "validate"}:
-                validate_candidate(candidate, creator=args.creator, collection=args.collection, snapshots=snapshots)
-                result = {"status": "VALID", "candidate_hash": digest(canonical(candidate))}
+                result = store.commit(candidate, args.knowledge_commit,
+                    "validation-" + digest(canonical(candidate)), "validation", snapshots, dry_run=True)
             else:
                 if not args.operation_id or not args.run_id: raise IntakeError("operation/run ID required")
                 if args.command == "invalidate" and not candidate["record"]["invalidates"]: raise IntakeError("invalidation target required")
                 result = store.commit(candidate, args.knowledge_commit, args.operation_id, args.run_id, snapshots)
         print(json.dumps(result, ensure_ascii=False, sort_keys=True)); return 0
     except (OSError, ValueError, TypeError, KeyError, AttributeError) as exc:
-        print(json.dumps({"status": "REJECTED", "reason": str(exc)}, ensure_ascii=False)); return 1
+        result = {"status": "INDEX_PENDING" if args.command == "index" else "REJECTED", "reason": str(exc)}
+        if args.command == "index": result["target_commit"] = args.knowledge_commit
+        print(json.dumps(result, ensure_ascii=False)); return 1
 
 
 if __name__ == "__main__": raise SystemExit(main())
