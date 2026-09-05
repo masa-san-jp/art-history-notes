@@ -201,7 +201,34 @@ def main() -> int:
     ap.add_argument("--entity", help="1件だけ出す（例: movement/mannerism）")
     ap.add_argument("--limit", type=int, default=0, help="0 なら全件")
     ap.add_argument("--output", help="書き出し先。省略時は標準出力")
+    ap.add_argument("--knowledge-store-root", type=Path)
+    ap.add_argument("--creator")
+    ap.add_argument("--collection")
+    ap.add_argument("--code-commit")
+    ap.add_argument("--knowledge-commit")
+    ap.add_argument("--query", default="")
+    ap.add_argument("--at")
+    ap.add_argument("--access-scope", choices=["public", "creator-private"], default="creator-private")
     args = ap.parse_args()
+
+    if args.knowledge_store_root:
+        from research_knowledge_intake import KnowledgeStore
+        try:
+            if not all((args.creator, args.collection, args.code_commit, args.knowledge_commit, args.at)):
+                raise ValueError("explicit creator, collection, code/knowledge commits and time required")
+            at = datetime.fromisoformat(args.at.replace("Z", "+00:00"))
+            if at.tzinfo is None: raise ValueError("timezone required")
+            store = KnowledgeStore(args.knowledge_store_root, args.creator, args.collection, args.code_commit)
+            result = store.retrieve(args.knowledge_commit, args.query, args.access_scope, at)
+            result.update(contract_version="art-history-knowledge-export/v1", purpose=args.purpose,
+                          code_commit=args.code_commit, knowledge_commit=args.knowledge_commit)
+            text = json.dumps(result, ensure_ascii=False, sort_keys=True) + "\n"
+            if args.output: Path(args.output).write_text(text, encoding="utf-8")
+            else: sys.stdout.write(text)
+            return 0
+        except (OSError, ValueError) as exc:
+            print(f"ERROR: {exc}", file=sys.stderr)
+            return 1
 
     entities, _records = load_entities()
     if args.entity and args.entity not in entities:
