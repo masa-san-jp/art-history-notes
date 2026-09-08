@@ -18,6 +18,7 @@
 | 時代文脈を調査・比較する | [`docs/context-investigation-task.md`](docs/context-investigation-task.md)、[`docs/context-vectors.md`](docs/context-vectors.md) |
 | 外部Agentとして作業する | [AGENTS.md](AGENTS.md)、[docs/agent/README.md](docs/agent/README.md) |
 | 外部標準へ対応付ける | [`docs/interop-mapping.md`](docs/interop-mapping.md) |
+| 研究成果をowner知識へ取り込む | [`docs/research-knowledge-intake.md`](docs/research-knowledge-intake.md) |
 
 要件の正本は [Issue #1](https://github.com/masa-san-jp/art-history-notes/issues/1)、データ形式の正本は
 [`docs/schema.md`](docs/schema.md) です。このREADMEは利用方法の案内であり、仕様と食い違う場合は正本を優先します。

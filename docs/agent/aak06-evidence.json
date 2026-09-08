@@ -1,0 +1,78 @@
+{
+  "task": "AAK-06",
+  "mode": "synthetic-owner",
+  "code_commit": "41494dfbc22d0d47d0c891e4e27cfa1f212418e1",
+  "receipt": {
+    "contract_version": "knowledge-write-receipt/v1",
+    "operation_id": "one",
+    "run_id": "synthetic-run",
+    "owner": "art-history-notes",
+    "collection": "history-a",
+    "target_parent": "6d00fb1d3a9f52d5995974afe03be43c70ab03f0",
+    "target_commit": "985e278f6d9ca1a42846d1c1fbc8c98c42451ff0",
+    "accepted_ids": [
+      "observation"
+    ],
+    "rejected_ids": [],
+    "schema_version": "art-history-research-intake/v1",
+    "policy_version": "art-history-research-intake/v1",
+    "index_commit": null,
+    "index_hash": null,
+    "status": "COMMITTED",
+    "reason": "Owner-validated immutable knowledge; index remains a separate resumable step"
+  },
+  "index": {
+    "index_commit": "985e278f6d9ca1a42846d1c1fbc8c98c42451ff0",
+    "index_hash": "f30ad557ba20fbc38eba524c6b5f766d6e417c46fdca0c7c7f25b8df4450294c",
+    "records": 1
+  },
+  "retrieval": {
+    "status": "FOUND",
+    "records": [
+      {
+        "record_id": "observation",
+        "revision": 1,
+        "origin_instance_id": "instance-a",
+        "creator_id": "creator-a",
+        "owner_repository": "art-history-notes",
+        "knowledge_commit": "985e278f6d9ca1a42846d1c1fbc8c98c42451ff0",
+        "code_commit": "41494dfbc22d0d47d0c891e4e27cfa1f212418e1",
+        "target_id": "concept/synthetic-study",
+        "payload_ref": "contexts/research-memory/payloads/3ce31613ce2b551899850305a5ba64843780e916fee086f9f15b0506731600a1.json",
+        "epistemic_status": "externally-supported",
+        "classification": "historical",
+        "reason": "query matched owner knowledge; retrieval alone is not reuse"
+      }
+    ]
+  },
+  "reuse_status": "NOT_RUN: retrieval is not production reuse",
+  "knowledge_locator": "synthetic-local-git://aak-06-evidence/synthetic-memory",
+  "input_fixture": "tests/test_research_knowledge_intake.py#ResearchIntakeTests.candidate",
+  "payload_sha256": "62920ce4a084b24ea6f81fbff47e856db8c8d1f2a015c4a29558c20ac9af67ad",
+  "qualification": {
+    "local_code_commit": "e93a5d7887d9c7e23ef5ccb30603a108ad9bb709",
+    "github_code_commit": "f10a4f187966d1d2602a03410e8b3c9aa31fb22e",
+    "tree": "9322ae193362439281a82395d28be139e8f707f7",
+    "focused": {
+      "result": "PASS",
+      "tests": 11,
+      "log_sha256": "a7da6dff57e7bddd7d05a0789134b125d5481d77b0ee367a8b20595f1d487657"
+    },
+    "canonical": {
+      "result": "PASS",
+      "command": "uv run --locked python tools/agent_verify.py --task-file <actual-issue-386> --session <session> --json",
+      "report_sha256": "b63875c34782a0cd77d772b3b287cf0705e86429f32b15d09dbef804843708ca"
+    },
+    "acceptance": {
+      "AAK-06-AC1": "PASS: synthetic owner fixtures",
+      "AAK-06-AC2": "PASS: synthetic owner fixtures",
+      "AAK-06-AC3": "PASS: synthetic owner fixtures",
+      "AAK-06-AC4": "PASS: synthetic owner fixtures",
+      "AAK-06-AC5": "PASS: synthetic owner fixtures"
+    },
+    "integration": "NOT_RUN",
+    "merge": "NOT_RUN",
+    "next": "AAK-07; AAK-05 registration gate remains independent",
+    "snapshot_note": "Retained knowledge receipt was produced by original local 41494df candidate (GitHub 478cbf5); qualification includes subsequent recovery fix with identical Git tree verified on GitHub. No claim of live Research or production reuse."
+  }
+}
