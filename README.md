@@ -28,6 +28,8 @@
 コピーして統合しません。横断利用が必要な場合は、[`agentic-art-orchestration`](https://github.com/masa-san-jp/agentic-art-orchestration)
 がsource commit、manifest、依存関係、境界形式を管理します。
 
+8リポジトリの全体図と、各repoの正本・受け渡し・公開境界は、親repoの [repository map](https://github.com/masa-san-jp/agentic-art-orchestration/blob/main/docs/repository-map.md) にまとめています。ここではart-history-notesから見た接続だけを説明します。
+
 ```text
 input KBs: self-model / art-history / marketing / viewer-response
                               │
@@ -50,6 +52,7 @@ input KBs: self-model / art-history / marketing / viewer-response
 | [agentic-art-production](https://github.com/masa-san-jp/agentic-art-production) | research handoffから制作計画・実行・結果記録を扱うrepo | researchのさらに下流。実作品やproduction projectはこのrepoに保存しません |
 | [viewer-response-notes](https://github.com/masa-san-jp/viewer-response-notes) | viewer反応のprivacy-safeな集計と保守的な制作要件評価 | 横断的なfeedback入力。生回答やPIIをこのrepoへ持ち込みません |
 | [agentic-art-orchestration](https://github.com/masa-san-jp/agentic-art-orchestration) | 上記repoをsource commit固定で横断利用するcontrol plane | 親のデータベースではありません。各repoの正本性を保ったまま接続します |
+| [agentic-art-project](https://github.com/masa-san-jp/agentic-art-project) | 公開制作プラン、作品、制作記録のカタログ | art-historyのentity本文を直接公開せず、Research・Production・Orchestrationの検証済み境界を経た成果だけが公開されます |
 
 このrepo単体で美術史データの閲覧・検索・検証・追記は完結します。横断的な調査や制作handoffが必要な
 場合だけ、orchestrationのrunbookと各repoのREADMEを参照してください。
