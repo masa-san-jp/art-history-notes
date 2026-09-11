@@ -23,6 +23,7 @@ from kb import (ROOT, DIR_FOR_TYPE, URI_PREFIX, load_config, load_entities, sour
                 read_frontmatter, normalized_meta, build_edges)
 from build_graph import validate as validate_entities
 from agent_support import SECRET_PATTERNS
+from path_safety import external_path
 
 OWNER = "art-history-notes"
 POLICY = "art-history-research-intake/v1"
@@ -146,11 +147,12 @@ def validate_candidate(candidate, *, creator, collection, snapshots=None):
 class KnowledgeStore:
     """Compatible with the explicit AAK-04 owner store binding; never pushes."""
     def __init__(self, root, creator, collection, code_commit):
-        self.root = Path(root)
-        if not self.root.is_absolute() or self.root == ROOT or ROOT in self.root.parents:
+        try:
+            self.root = external_path(root, require_exists=True)
+        except ValueError as exc:
+            raise IntakeError("symlink store forbidden") from exc
+        if self.root == ROOT or ROOT in self.root.parents:
             raise IntakeError("explicit external store required")
-        if self.root.is_symlink() or any(p.is_symlink() for p in self.root.parents):
-            raise IntakeError("symlink store forbidden")
         self.creator, self.collection, self.code_commit = creator, collection, code_commit
         if not re.fullmatch(r"[0-9a-f]{40}", code_commit): raise IntakeError("code commit must be fixed")
         actual_code = subprocess.run(["git", "rev-parse", "HEAD"], cwd=ROOT, capture_output=True, text=True)
