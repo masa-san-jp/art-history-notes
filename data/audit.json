@@ -1,13 +1,19 @@
 {
   "schema_version": 1,
-  "findings": [],
+  "findings": [
+    {
+      "kind": "no-cross-region",
+      "about": "all",
+      "text": "4経路でconnectedにもreviewedにもなっていないmovementが 3/122 件"
+    }
+  ],
   "cross_region": {
     "schema_version": 1,
-    "movement_total": 119,
+    "movement_total": 122,
     "counts": {
       "connected": 75,
       "reviewed-no-documented-link": 44,
-      "unreviewed": 0
+      "unreviewed": 3
     },
     "connected": [
       "movement/abstract-expressionism",
@@ -132,7 +138,11 @@
       "movement/wu-school",
       "movement/zhe-school"
     ],
-    "unreviewed": [],
+    "unreviewed": [
+      "movement/ai-bigeiken",
+      "movement/computer-art",
+      "movement/conceptual-art"
+    ],
     "movements": [
       {
         "movement_id": "movement/abstract-expressionism",
@@ -174,6 +184,16 @@
         ],
         "reasons": [
           "2経路で起源region外へ到達"
+        ],
+        "review": null
+      },
+      {
+        "movement_id": "movement/ai-bigeiken",
+        "status": "unreviewed",
+        "origin_regions": [],
+        "routes": [],
+        "reasons": [
+          "4経路に起源region外への到達がなく、cross-region reviewもない"
         ],
         "review": null
       },
@@ -774,6 +794,30 @@
         ],
         "reasons": [
           "1経路で起源region外へ到達"
+        ],
+        "review": null
+      },
+      {
+        "movement_id": "movement/computer-art",
+        "status": "unreviewed",
+        "origin_regions": [
+          "europe-west"
+        ],
+        "routes": [],
+        "reasons": [
+          "4経路に起源region外への到達がなく、cross-region reviewもない"
+        ],
+        "review": null
+      },
+      {
+        "movement_id": "movement/conceptual-art",
+        "status": "unreviewed",
+        "origin_regions": [
+          "americas-north"
+        ],
+        "routes": [],
+        "reasons": [
+          "4経路に起源region外への到達がなく、cross-region reviewもない"
         ],
         "review": null
       },
@@ -3636,13 +3680,16 @@
   "cross_region_baseline": {
     "schema_version": 1,
     "source_commit": "bd15d4c707d6c2fff84ff0c763a993f94cbc3589",
-    "movement_count": 44,
+    "movement_count": 47,
     "movement_ids": [
+      "movement/ai-bigeiken",
       "movement/arts-and-crafts",
       "movement/bamana-sculpture",
       "movement/barbizon-school",
       "movement/baroque",
       "movement/byzantine-art",
+      "movement/computer-art",
+      "movement/conceptual-art",
       "movement/constructivism",
       "movement/cubism",
       "movement/de-stijl",
@@ -3683,7 +3730,15 @@
       "movement/wu-school",
       "movement/zhe-school"
     ],
-    "remaining_unreviewed": [],
-    "current_unreviewed": []
+    "remaining_unreviewed": [
+      "movement/ai-bigeiken",
+      "movement/computer-art",
+      "movement/conceptual-art"
+    ],
+    "current_unreviewed": [
+      "movement/ai-bigeiken",
+      "movement/computer-art",
+      "movement/conceptual-art"
+    ]
   }
 }

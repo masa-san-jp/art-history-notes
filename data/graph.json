@@ -1,5 +1,47 @@
 {
   "entities": {
+    "concept/automatism": {
+      "id": "concept/automatism",
+      "uri": "urn:ahn:concept/automatism",
+      "type": "concept",
+      "label_ja": "オートマティスム",
+      "label_en": "Automatism",
+      "authority": {
+        "wikidata": "Q186251",
+        "aat": null,
+        "ulan": null,
+        "tgn": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": "1924",
+        "end": null,
+        "display": "1924年、ブルトン『シュルレアリスム宣言』が技法として定義。技法そのものは以後も使われ続ける"
+      },
+      "space": [],
+      "relations": [],
+      "sources": [
+        {
+          "url": "https://www.wikidata.org/wiki/Q186251",
+          "kind": "authority"
+        },
+        {
+          "url": "https://gallica.bnf.fr/ark:/12148/btv1b525214035",
+          "kind": "primary",
+          "note": "ブルトン『シュルレアリスム宣言』（1924）自筆原稿。オートマティスムの定義箇所を含む"
+        },
+        {
+          "url": "https://www.moma.org/collection/works/38201",
+          "kind": "institutional",
+          "note": "アンドレ・マッソン《Automatic Drawing》（1924）所蔵記録・解説"
+        }
+      ],
+      "status": "draft",
+      "updated": "2026-09-15",
+      "path": "entities/concepts/automatism.md"
+    },
     "concept/divisionism": {
       "id": "concept/divisionism",
       "uri": "urn:ahn:concept/divisionism",
@@ -817,6 +859,82 @@
       "status": "verified",
       "updated": "2026-08-25",
       "path": "entities/movements/abstract-expressionism.md"
+    },
+    "movement/ai-bigeiken": {
+      "id": "movement/ai-bigeiken",
+      "uri": "urn:ahn:movement/ai-bigeiken",
+      "type": "movement",
+      "label_ja": "人工知能美学芸術研究会",
+      "label_en": "Artificial Intelligence Art and Aesthetics Research Group",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ulan": null,
+        "tgn": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "Wikidataを「人工知能美学芸術研究会」「AI美芸研」で検索したが該当項目なし。Getty AATも同様に未確認"
+      },
+      "time": {
+        "start": "2016-05-01",
+        "end": "..",
+        "display": "2016年5月1日設立（宣言の起草は同年4月25日）。2022年4月にNPO法人化し活動継続中"
+      },
+      "kind": "self-declared",
+      "naming": {
+        "self_identified": true,
+        "named_by": null,
+        "named_when": "2016-05-01",
+        "original_label": "人工知能美学芸術研究会",
+        "note": "団体としての名乗りは発起人29名の連名（自称）。ただし研究会の綱領にあたる「人工知能美学芸術宣言」本文は、発起人の一人である中ザワヒデキ（person/hideki-nakazawa）が単独で起草した（公式サイトの記述より）。団体名の命名者個人は特定できないため named_by は null とした"
+      },
+      "claims": [
+        {
+          "field": "time",
+          "source": "https://www.aibigeiken.com/",
+          "certainty": "attested"
+        },
+        {
+          "field": "kind",
+          "source": "https://www.aibigeiken.com/manifesto.html",
+          "certainty": "attested"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "person/hideki-nakazawa",
+          "supports": [
+            "kind"
+          ]
+        }
+      ],
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/hideki-nakazawa"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.aibigeiken.com/",
+          "kind": "primary",
+          "note": "研究会公式サイト。設立日・発起人数・活動内容を記す"
+        },
+        {
+          "url": "https://www.aibigeiken.com/manifesto.html",
+          "kind": "primary",
+          "note": "「人工知能美学芸術宣言」全文の転載"
+        },
+        {
+          "url": "http://aloalo.co.jp/nakazawa/2016/0501b_j.html",
+          "kind": "primary",
+          "note": "宣言文の原本。起草者・中ザワヒデキの個人サイトに掲載"
+        }
+      ],
+      "status": "draft",
+      "updated": "2026-09-15",
+      "path": "entities/movements/ai-bigeiken.md"
     },
     "movement/an-gyeon-school": {
       "id": "movement/an-gyeon-school",
@@ -3223,6 +3341,207 @@
       "status": "verified",
       "updated": "2026-08-25",
       "path": "entities/movements/company-painting.md"
+    },
+    "movement/computer-art": {
+      "id": "movement/computer-art",
+      "uri": "urn:ahn:movement/computer-art",
+      "type": "movement",
+      "label_ja": "コンピュータ・アート",
+      "label_en": "Computer Art",
+      "authority": {
+        "wikidata": "Q1376265",
+        "aat": "300069478",
+        "ulan": null,
+        "tgn": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": "1965",
+        "end": null,
+        "display": "1965年11月、フリーダー・ナケとゲオルク・ニースのシュトゥットガルトでの展示を、確認できる範囲で最初期の公開実践とした。ただし同時多発的な起源を持ち、単一の開始点には代表させられない"
+      },
+      "kind": "retrospective",
+      "naming": {
+        "self_identified": false,
+        "named_by": null,
+        "named_when": null,
+        "original_label": "コンピュータ・アート / computer art",
+        "note": "Getty AAT は「digital art works that emphasize the computer's role in their creation and apprehension」への適用語とし、created_by を「computer artists」とする。単一の宣言や単一グループの自称ではなく、1960年代に北米・欧州で独立に始まった複数の実践へ事後的に適用された括り。ただしナケやモーアは自らをcomputer artistと呼んだ形跡があり、括り自体への異議は確認していない"
+      },
+      "claims": [
+        {
+          "field": "time",
+          "source": "https://en.wikipedia.org/wiki/Frieder_Nake",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "originated_in",
+          "source": "https://en.wikipedia.org/wiki/Frieder_Nake",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "kind",
+          "source": "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300069478",
+          "certainty": "scholarly"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "person/harold-cohen",
+          "supports": [
+            "kind"
+          ]
+        },
+        {
+          "target": "person/frieder-nake",
+          "supports": [
+            "time",
+            "kind"
+          ]
+        }
+      ],
+      "space": [
+        {
+          "role": "originated_in",
+          "target": "place/stuttgart"
+        },
+        {
+          "role": "originated_in",
+          "target": "place/paris"
+        }
+      ],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/harold-cohen"
+        },
+        {
+          "type": "created_by",
+          "target": "person/frieder-nake"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.wikidata.org/wiki/Q1376265",
+          "kind": "authority"
+        },
+        {
+          "url": "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300069478",
+          "kind": "authority"
+        },
+        {
+          "url": "https://cs.uml.edu/~fredm/courses/91.548-spr04/papers/furtherexploits.pdf",
+          "kind": "primary",
+          "note": "Harold Cohen本人の論考"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Frieder_Nake",
+          "kind": "reference"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Vera_Moln%C3%A1r",
+          "kind": "reference"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Manfred_Mohr",
+          "kind": "reference"
+        }
+      ],
+      "status": "draft",
+      "updated": "2026-09-15",
+      "path": "entities/movements/computer-art.md"
+    },
+    "movement/conceptual-art": {
+      "id": "movement/conceptual-art",
+      "uri": "urn:ahn:movement/conceptual-art",
+      "type": "movement",
+      "label_ja": "コンセプチュアル・アート",
+      "label_en": "Conceptual Art",
+      "authority": {
+        "wikidata": "Q203209",
+        "aat": "300264827",
+        "ulan": null,
+        "tgn": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": "1967",
+        "end": null,
+        "display": "1967年、ルウィットが「Paragraphs on Conceptual Art」で自身の実践を名指した年を起点とした。Wikidata P571のprecision 8（196X）は同じ10年代を指す"
+      },
+      "kind": "self-declared",
+      "naming": {
+        "self_identified": true,
+        "named_by": "person/sol-lewitt",
+        "named_when": "1967",
+        "original_label": "conceptual art",
+        "note": "ルウィット自身が1967年の論考で「I will refer to the kind of art in which I am involved as conceptual art」と自らの実践を名指した。ただし1961年、Henry Flyntが私的講演で近い語「concept art」を先に使っている——Flyntの定義は「音楽の材料が音であるように、その材料が概念であるアート」であり、ルウィットの定義（アイデアが計画のすべてを決め実行が形式的作業になる）とは異なる。Flyntはルウィットのこの運動を名指したわけではないため named_by は person/sol-lewitt のままとした（surrealism.mdのアポリネール先行使用と同じ処理）"
+      },
+      "claims": [
+        {
+          "field": "time",
+          "source": "https://www.kim-cohen.com/Assets/CourseAssets/Texts/LeWitt_Paragraphs%20(1967).pdf",
+          "certainty": "attested"
+        },
+        {
+          "field": "kind",
+          "source": "https://www.kim-cohen.com/Assets/CourseAssets/Texts/LeWitt_Paragraphs%20(1967).pdf",
+          "certainty": "attested"
+        }
+      ],
+      "evidence": [
+        {
+          "target": "person/sol-lewitt",
+          "supports": [
+            "kind",
+            "time"
+          ]
+        }
+      ],
+      "space": [
+        {
+          "role": "originated_in",
+          "target": "place/new-york-city"
+        }
+      ],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/sol-lewitt"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.wikidata.org/wiki/Q203209",
+          "kind": "authority"
+        },
+        {
+          "url": "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300264827",
+          "kind": "authority"
+        },
+        {
+          "url": "https://www.kim-cohen.com/Assets/CourseAssets/Texts/LeWitt_Paragraphs%20(1967).pdf",
+          "kind": "primary",
+          "note": "ルウィット「Paragraphs on Conceptual Art」全文（Artforum, 1967年6月号）"
+        },
+        {
+          "url": "http://www.multimedialab.be/doc/citations/sol_lewitt_sentences.pdf",
+          "kind": "primary",
+          "note": "ルウィット「Sentences on Conceptual Art」全文（1969年）"
+        },
+        {
+          "url": "https://henryflynt.org/aesthetics/conart.html",
+          "kind": "reference",
+          "note": "Henry Flyntによる「concept art」の先行使用（1961年講演、1963年論考掲載）"
+        }
+      ],
+      "status": "draft",
+      "updated": "2026-09-15",
+      "path": "entities/movements/conceptual-art.md"
     },
     "movement/constructivism": {
       "id": "movement/constructivism",
@@ -23524,6 +23843,47 @@
       "updated": "2026-08-13",
       "path": "entities/persons/francesco-vismara.md"
     },
+    "person/frieder-nake": {
+      "id": "person/frieder-nake",
+      "uri": "urn:ahn:person/frieder-nake",
+      "type": "person",
+      "label_ja": "フリーダー・ナケ",
+      "label_en": "Frieder Nake",
+      "authority": {
+        "wikidata": "Q92703",
+        "aat": null,
+        "ulan": null,
+        "tgn": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": "1938-12-16",
+        "end": null,
+        "display": "1938年12月16日生（シュトゥットガルト）"
+      },
+      "space": [
+        {
+          "role": "born_in",
+          "target": "place/stuttgart"
+        }
+      ],
+      "relations": [],
+      "sources": [
+        {
+          "url": "https://www.wikidata.org/wiki/Q92703",
+          "kind": "authority"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Frieder_Nake",
+          "kind": "reference"
+        }
+      ],
+      "status": "stub",
+      "updated": "2026-09-15",
+      "path": "entities/persons/frieder-nake.md"
+    },
     "person/gabriele-brunati": {
       "id": "person/gabriele-brunati",
       "uri": "urn:ahn:person/gabriele-brunati",
@@ -26312,6 +26672,56 @@
       "updated": "2026-08-10",
       "path": "entities/persons/gyula-kosice.md"
     },
+    "person/harold-cohen": {
+      "id": "person/harold-cohen",
+      "uri": "urn:ahn:person/harold-cohen",
+      "type": "person",
+      "label_ja": "ハロルド・コーエン",
+      "label_en": "Harold Cohen",
+      "authority": {
+        "wikidata": "Q92723",
+        "aat": null,
+        "ulan": null,
+        "tgn": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": "1928-05-01",
+        "end": "2016-04-27",
+        "display": "1928年5月1日（ロンドン）– 2016年4月27日（米カリフォルニア州エンシニタス）"
+      },
+      "space": [
+        {
+          "role": "born_in",
+          "target": "place/london"
+        }
+      ],
+      "relations": [],
+      "sources": [
+        {
+          "url": "https://www.wikidata.org/wiki/Q92723",
+          "kind": "authority"
+        },
+        {
+          "url": "https://cs.uml.edu/~fredm/courses/91.548-spr04/papers/furtherexploits.pdf",
+          "kind": "primary",
+          "note": "Cohen本人の論考「The Further Exploits of AARON, Painter」（Stanford Humanities Review, 1994年10月）"
+        },
+        {
+          "url": "https://www.tate.org.uk/art/artists/harold-cohen-925",
+          "kind": "institutional"
+        },
+        {
+          "url": "https://whitney.org/artists/20415",
+          "kind": "institutional"
+        }
+      ],
+      "status": "draft",
+      "updated": "2026-09-15",
+      "path": "entities/persons/harold-cohen.md"
+    },
     "person/henri-lehmann": {
       "id": "person/henri-lehmann",
       "uri": "urn:ahn:person/henri-lehmann",
@@ -26357,6 +26767,48 @@
       "status": "draft",
       "updated": "2026-08-09",
       "path": "entities/persons/henri-lehmann.md"
+    },
+    "person/hideki-nakazawa": {
+      "id": "person/hideki-nakazawa",
+      "uri": "urn:ahn:person/hideki-nakazawa",
+      "type": "person",
+      "label_ja": "中ザワヒデキ",
+      "label_en": "Hideki Nakazawa",
+      "authority": {
+        "wikidata": "Q11362785",
+        "aat": null,
+        "ulan": null,
+        "tgn": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": "1963",
+        "end": null,
+        "display": "1963年生（precision 9＝年のみ、Wikidata P569）"
+      },
+      "space": [],
+      "relations": [],
+      "sources": [
+        {
+          "url": "https://www.wikidata.org/wiki/Q11362785",
+          "kind": "authority"
+        },
+        {
+          "url": "https://www.aibigeiken.com/manifesto.html",
+          "kind": "primary",
+          "note": "「人工知能美学芸術宣言」の転載。本人が起草者"
+        },
+        {
+          "url": "http://aloalo.co.jp/nakazawa/2016/0501b_j.html",
+          "kind": "primary",
+          "note": "宣言文の原本。本人サイトに掲載"
+        }
+      ],
+      "status": "stub",
+      "updated": "2026-09-15",
+      "path": "entities/persons/hideki-nakazawa.md"
     },
     "person/iba-ndiaye": {
       "id": "person/iba-ndiaye",
@@ -31380,6 +31832,53 @@
       "updated": "2026-08-12",
       "path": "entities/persons/sofia-di-bricherasio.md"
     },
+    "person/sol-lewitt": {
+      "id": "person/sol-lewitt",
+      "uri": "urn:ahn:person/sol-lewitt",
+      "type": "person",
+      "label_ja": "ソル・ルウィット",
+      "label_en": "Sol LeWitt",
+      "authority": {
+        "wikidata": "Q168587",
+        "aat": null,
+        "ulan": null,
+        "tgn": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": "1928-09-09",
+        "end": "2007-04-08",
+        "display": "1928年9月9日（米コネチカット州ハートフォード）– 2007年4月8日（ニューヨーク）"
+      },
+      "space": [
+        {
+          "role": "died_in",
+          "target": "place/new-york-city"
+        }
+      ],
+      "relations": [],
+      "sources": [
+        {
+          "url": "https://www.wikidata.org/wiki/Q168587",
+          "kind": "authority"
+        },
+        {
+          "url": "https://www.kim-cohen.com/Assets/CourseAssets/Texts/LeWitt_Paragraphs%20(1967).pdf",
+          "kind": "primary",
+          "note": "本人論考「Paragraphs on Conceptual Art」（Artforum, 1967年6月号）全文転載"
+        },
+        {
+          "url": "http://www.multimedialab.be/doc/citations/sol_lewitt_sentences.pdf",
+          "kind": "primary",
+          "note": "本人論考「Sentences on Conceptual Art」（1969年）全文転載"
+        }
+      ],
+      "status": "draft",
+      "updated": "2026-09-15",
+      "path": "entities/persons/sol-lewitt.md"
+    },
     "person/spartaco-vela": {
       "id": "person/spartaco-vela",
       "uri": "urn:ahn:person/spartaco-vela",
@@ -35542,6 +36041,43 @@
       "status": "stub",
       "updated": "2026-08-10",
       "path": "entities/places/songjiang.md"
+    },
+    "place/stuttgart": {
+      "id": "place/stuttgart",
+      "uri": "urn:ahn:place/stuttgart",
+      "type": "place",
+      "label_ja": "シュトゥットガルト",
+      "label_en": "Stuttgart",
+      "authority": {
+        "wikidata": "Q1022",
+        "aat": null,
+        "ulan": null,
+        "tgn": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": null,
+        "end": null,
+        "display": null
+      },
+      "region": "europe-west",
+      "coordinates": [
+        48.7758,
+        9.1829
+      ],
+      "space": [],
+      "relations": [],
+      "sources": [
+        {
+          "url": "https://www.wikidata.org/wiki/Q1022",
+          "kind": "authority"
+        }
+      ],
+      "status": "stub",
+      "updated": "2026-09-15",
+      "path": "entities/places/stuttgart.md"
     },
     "place/suzhou": {
       "id": "place/suzhou",
@@ -70141,6 +70677,13 @@
       "to": "place/new-york-city"
     },
     {
+      "from": "movement/ai-bigeiken",
+      "type": "created_by",
+      "to": "person/hideki-nakazawa",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "movement/an-gyeon-school",
       "type": "influenced_by",
       "to": "movement/song-academy-painting",
@@ -70555,6 +71098,42 @@
       "from": "movement/company-painting",
       "type": "originated_in",
       "to": "place/murshidabad"
+    },
+    {
+      "from": "movement/computer-art",
+      "type": "created_by",
+      "to": "person/harold-cohen",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "movement/computer-art",
+      "type": "created_by",
+      "to": "person/frieder-nake",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "movement/computer-art",
+      "type": "originated_in",
+      "to": "place/stuttgart"
+    },
+    {
+      "from": "movement/computer-art",
+      "type": "originated_in",
+      "to": "place/paris"
+    },
+    {
+      "from": "movement/conceptual-art",
+      "type": "created_by",
+      "to": "person/sol-lewitt",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "movement/conceptual-art",
+      "type": "originated_in",
+      "to": "place/new-york-city"
     },
     {
       "from": "movement/constructivism",
@@ -73873,6 +74452,11 @@
       "source": null
     },
     {
+      "from": "person/frieder-nake",
+      "type": "born_in",
+      "to": "place/stuttgart"
+    },
+    {
       "from": "person/gabriele-brunati",
       "type": "exhibited_at",
       "to": "event/first-brera-triennale-1891",
@@ -74449,6 +75033,11 @@
       "to": "event/first-brera-triennale-1891",
       "certainty": null,
       "source": null
+    },
+    {
+      "from": "person/harold-cohen",
+      "type": "born_in",
+      "to": "place/london"
     },
     {
       "from": "person/henri-lehmann",
@@ -75264,6 +75853,11 @@
       "to": "event/first-brera-triennale-1891",
       "certainty": null,
       "source": null
+    },
+    {
+      "from": "person/sol-lewitt",
+      "type": "died_in",
+      "to": "place/new-york-city"
     },
     {
       "from": "person/spartaco-vela",
@@ -86995,6 +87589,12 @@
       "derived": true
     },
     {
+      "from": "person/hideki-nakazawa",
+      "type": "created",
+      "to": "movement/ai-bigeiken",
+      "derived": true
+    },
+    {
       "from": "movement/song-academy-painting",
       "type": "influenced",
       "to": "movement/an-gyeon-school",
@@ -87250,6 +87850,24 @@
       "from": "org/east-india-company",
       "type": "patronized",
       "to": "movement/company-painting",
+      "derived": true
+    },
+    {
+      "from": "person/harold-cohen",
+      "type": "created",
+      "to": "movement/computer-art",
+      "derived": true
+    },
+    {
+      "from": "person/frieder-nake",
+      "type": "created",
+      "to": "movement/computer-art",
+      "derived": true
+    },
+    {
+      "from": "person/sol-lewitt",
+      "type": "created",
+      "to": "movement/conceptual-art",
       "derived": true
     },
     {
