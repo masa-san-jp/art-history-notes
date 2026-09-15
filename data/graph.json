@@ -6414,6 +6414,81 @@
       "updated": "2026-08-25",
       "path": "entities/movements/harlem-renaissance.md"
     },
+    "movement/hawaiian-featherwork": {
+      "id": "movement/hawaiian-featherwork",
+      "uri": "urn:ahn:movement/hawaiian-featherwork",
+      "type": "movement",
+      "kind": "retrospective",
+      "label_ja": "ハワイの羽根細工",
+      "label_en": "Hawaiian Featherwork",
+      "authority": {
+        "wikidata": "Q8083959",
+        "aat": null,
+        "ulan": null,
+        "tgn": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": null,
+        "end": "..",
+        "display": "起源は特定できない（古代からの伝統とされるが、開始点を示す一次資料には本調査では 到達していない）。具体的に日付を追える最初期の例は、1779年のキャプテン・クック来訪時に 首長カラニオプウが贈った羽根マント（ʻahuʻula）・兜（mahiole）で、カラーカウア王 （在位1874-1891年）の時代まで王族の正装として製作が続いた。2025年時点でも復興の 取り組みが報じられており、伝統は途絶えていない"
+      },
+      "naming": {
+        "self_identified": false,
+        "named_by": null,
+        "named_when": null,
+        "original_label": "nā hulu aliʻi",
+        "note": "『ハワイの羽根細工』は外部・分析的な括りの英語名。『nā hulu aliʻi（王族の羽根）』は ハワイ語の呼称で、製作物の総称ではあるが、担い手がこれを集団的な運動の自称として用いた記録は 見出せなかった。個々の技法・製品（ʻahuʻula＝マント、mahiole＝兜、kāhili＝羽根の杖）は それぞれ別の語を持つ"
+      },
+      "claims": [
+        {
+          "field": "time",
+          "source": "https://en.wikipedia.org/wiki/%CA%BBAhu_%CA%BBula",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "originated_in",
+          "source": "https://en.wikipedia.org/wiki/%CA%BBAhu_%CA%BBula",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "kind",
+          "source": "https://www.wikidata.org/wiki/Q8083959",
+          "certainty": "scholarly"
+        }
+      ],
+      "evidence": [],
+      "space": [
+        {
+          "role": "originated_in",
+          "target": "place/hawaii-island"
+        }
+      ],
+      "relations": [
+        {
+          "type": "diffused_to",
+          "target": "place/london",
+          "certainty": "scholarly",
+          "source": "https://en.wikipedia.org/wiki/%CA%BBAhu_%CA%BBula"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.wikidata.org/wiki/Q8083959",
+          "kind": "authority"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/%CA%BBAhu_%CA%BBula",
+          "kind": "reference",
+          "note": "『ʻAhu ʻula』の項。ハワイの首長階級（aliʻi）の正装であるマントの定義・製法・鳥の種類 （ʻiʻiwi、mamo、ʻōʻō）を記す。1779年のキャプテン・クック来訪から19世紀のカラーカウア王の 時代までの使用例と、大英博物館・ドレスデン民族学博物館・ピーボディ・エセックス博物館・ スミソニアン協会など160点以上が世界各地の博物館に現存すると記す"
+        }
+      ],
+      "status": "draft",
+      "updated": "2026-09-15",
+      "path": "entities/movements/hawaiian-featherwork.md"
+    },
     "movement/herat-school": {
       "id": "movement/herat-school",
       "uri": "urn:ahn:movement/herat-school",
@@ -35060,6 +35135,43 @@
       "status": "stub",
       "updated": "2026-08-09",
       "path": "entities/places/hanseong.md"
+    },
+    "place/hawaii-island": {
+      "id": "place/hawaii-island",
+      "uri": "urn:ahn:place/hawaii-island",
+      "type": "place",
+      "label_ja": "ハワイ島",
+      "label_en": "Hawaiʻi Island",
+      "authority": {
+        "wikidata": "Q68740",
+        "aat": null,
+        "ulan": null,
+        "tgn": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": null,
+        "end": null,
+        "display": null
+      },
+      "region": "oceania",
+      "coordinates": [
+        19.5667,
+        -155.5
+      ],
+      "space": [],
+      "relations": [],
+      "sources": [
+        {
+          "url": "https://www.wikidata.org/wiki/Q68740",
+          "kind": "authority"
+        }
+      ],
+      "status": "stub",
+      "updated": "2026-09-15",
+      "path": "entities/places/hawaii-island.md"
     },
     "place/herat": {
       "id": "place/herat",
@@ -72484,6 +72596,18 @@
       "to": "place/new-york-city"
     },
     {
+      "from": "movement/hawaiian-featherwork",
+      "type": "diffused_to",
+      "to": "place/london",
+      "certainty": "scholarly",
+      "source": "https://en.wikipedia.org/wiki/%CA%BBAhu_%CA%BBula"
+    },
+    {
+      "from": "movement/hawaiian-featherwork",
+      "type": "originated_in",
+      "to": "place/hawaii-island"
+    },
+    {
       "from": "movement/herat-school",
       "type": "diffused_to",
       "to": "place/tabriz",
@@ -89111,6 +89235,12 @@
       "from": "movement/abstract-expressionism",
       "type": "reacted_against_by",
       "to": "movement/gutai",
+      "derived": true
+    },
+    {
+      "from": "place/london",
+      "type": "received",
+      "to": "movement/hawaiian-featherwork",
       "derived": true
     },
     {

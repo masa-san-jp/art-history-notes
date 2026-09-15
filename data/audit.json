@@ -3,9 +3,9 @@
   "findings": [],
   "cross_region": {
     "schema_version": 1,
-    "movement_total": 129,
+    "movement_total": 130,
     "counts": {
-      "connected": 80,
+      "connected": 81,
       "reviewed-no-documented-link": 49,
       "unreviewed": 0
     },
@@ -42,6 +42,7 @@
       "movement/gothic-art",
       "movement/group-of-seven",
       "movement/gutai",
+      "movement/hawaiian-featherwork",
       "movement/herat-school",
       "movement/hudson-river-school",
       "movement/iatmul-carving",
@@ -1559,6 +1560,34 @@
             "https://www.jstor.org/stable/i40051482"
           ]
         }
+      },
+      {
+        "movement_id": "movement/hawaiian-featherwork",
+        "status": "connected",
+        "origin_regions": [
+          "oceania"
+        ],
+        "routes": [
+          {
+            "kind": "diffused-to-place",
+            "edges": [
+              {
+                "from": "movement/hawaiian-featherwork",
+                "type": "diffused_to",
+                "to": "place/london",
+                "certainty": "scholarly",
+                "source": "https://en.wikipedia.org/wiki/%CA%BBAhu_%CA%BBula"
+              }
+            ],
+            "destination_regions": [
+              "europe-west"
+            ]
+          }
+        ],
+        "reasons": [
+          "1経路で起源region外へ到達"
+        ],
+        "review": null
       },
       {
         "movement_id": "movement/herat-school",
@@ -3892,7 +3921,7 @@
   "cross_region_baseline": {
     "schema_version": 1,
     "source_commit": "bd15d4c707d6c2fff84ff0c763a993f94cbc3589",
-    "movement_count": 54,
+    "movement_count": 55,
     "movement_ids": [
       "movement/ai-bigeiken",
       "movement/arts-and-crafts",
@@ -3914,6 +3943,7 @@
       "movement/four-wangs",
       "movement/futurism",
       "movement/harlem-renaissance",
+      "movement/hawaiian-featherwork",
       "movement/italian-divisionism",
       "movement/jain-manuscript-painting",
       "movement/jinling-eight-masters",
