@@ -9995,6 +9995,91 @@
       "updated": "2026-08-25",
       "path": "entities/movements/mingei.md"
     },
+    "movement/mongol-zurag": {
+      "id": "movement/mongol-zurag",
+      "uri": "urn:ahn:movement/mongol-zurag",
+      "type": "movement",
+      "kind": "retrospective",
+      "label_ja": "モンゴル・ズラグ",
+      "label_en": "Mongol Zurag",
+      "authority": {
+        "wikidata": "Q6899568",
+        "aat": null,
+        "ulan": null,
+        "tgn": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": "1912",
+        "end": "..",
+        "display": "1912〜13年、バルドギーン・シャラヴ（愛称マルザン・シャラヴ）の代表作《モンゴルの一日》 （当初は『日常の出来事』の題）を起点年とした。ただし英語版Wikipediaの『Mongol zurag』項は 『1921年革命の余波で（シャラヴらにより）様式が切り開かれた』と記しており、この作品自体の 制作年（1912〜13年）と食い違う。**未確認**: このずれの原因（シャラヴの活動期全体を指すか、 様式としての確立時期を指すかの違いなど）。QAGOMA・Sapar Contemporary Galleryなど複数の 情報源が『Contemporary Mongol Zurag』として21世紀の継続的な実践を記録しており、`end`は 継続中とした"
+      },
+      "naming": {
+        "self_identified": false,
+        "named_by": null,
+        "named_when": null,
+        "original_label": "Монгол зураг",
+        "note": "『zurag（ズラグ）』はモンゴル語で単に『絵』を意味する語であり、シャラヴ自身がこの様式を 自派の名として名乗った記録は無い。『Urga school（イフ・フレー派）』という呼称もdocumenta 14の キュレーション資料に見られる後代の分析的な括りであり、当事者由来ではない"
+      },
+      "claims": [
+        {
+          "field": "time",
+          "source": "https://www.documenta14.de/en/artists/21988/baldugiin-sharav",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "originated_in",
+          "source": "https://www.documenta14.de/en/artists/21988/baldugiin-sharav",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "kind",
+          "source": "https://en.wikipedia.org/wiki/Mongol_zurag",
+          "certainty": "scholarly"
+        }
+      ],
+      "evidence": [],
+      "space": [
+        {
+          "role": "originated_in",
+          "target": "place/ulaanbaatar"
+        }
+      ],
+      "relations": [
+        {
+          "type": "diffused_to",
+          "target": "place/kassel",
+          "certainty": "scholarly",
+          "source": "https://www.documenta14.de/en/artists/21988/baldugiin-sharav"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.wikidata.org/wiki/Q6899568",
+          "kind": "authority"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Mongol_zurag",
+          "kind": "reference",
+          "note": "『Mongol zurag』の項。20世紀初頭に発達した、チベットのタンカに似た鉱物顔料・綿布の技法で 世俗的・民族的主題を描く様式とし、1921年革命後にシャラヴらが切り開いたと記す"
+        },
+        {
+          "url": "https://www.documenta14.de/en/artists/21988/baldugiin-sharav",
+          "kind": "scholarly",
+          "note": "documenta 14（2017年）のキュレーション資料。シャラヴ（1869-1939）を『Urga school （19世紀末〜20世紀初頭のモンゴル絵画様式）』の担い手とし、代表作《モンゴルの一日》を 1912〜13年制作とする。作品はカッセルのノイエ・ガレリーで展示されたと記す"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Marzan_Sharav",
+          "kind": "reference",
+          "note": "バルドギーン・シャラヴ（愛称マルザン＝『機知に富む』）の項。近代絵画様式のモンゴルへの 導入者とされる一方、代表作《モンゴルの一日》はより伝統的なズラグ様式で描かれたと記す"
+        }
+      ],
+      "status": "draft",
+      "updated": "2026-09-15",
+      "path": "entities/movements/mongol-zurag.md"
+    },
     "movement/mono-ha": {
       "id": "movement/mono-ha",
       "uri": "urn:ahn:movement/mono-ha",
@@ -72590,6 +72675,18 @@
       "to": "place/tokyo"
     },
     {
+      "from": "movement/mongol-zurag",
+      "type": "diffused_to",
+      "to": "place/kassel",
+      "certainty": "scholarly",
+      "source": "https://www.documenta14.de/en/artists/21988/baldugiin-sharav"
+    },
+    {
+      "from": "movement/mongol-zurag",
+      "type": "originated_in",
+      "to": "place/ulaanbaatar"
+    },
+    {
       "from": "movement/mono-ha",
       "type": "created_by",
       "to": "person/nobuo-sekine",
@@ -88949,6 +89046,12 @@
       "from": "movement/arts-and-crafts",
       "type": "influenced",
       "to": "movement/mingei",
+      "derived": true
+    },
+    {
+      "from": "place/kassel",
+      "type": "received",
+      "to": "movement/mongol-zurag",
       "derived": true
     },
     {

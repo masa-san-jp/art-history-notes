@@ -1,6 +1,6 @@
 schema_version: 1
 source_commit: bd15d4c707d6c2fff84ff0c763a993f94cbc3589
-movement_count: 50
+movement_count: 51
 movement_ids:
   - movement/ai-bigeiken
   - movement/arts-and-crafts
@@ -33,6 +33,7 @@ movement_ids:
   - movement/mandalay-style
   - movement/mannerism
   - movement/mexican-muralism
+  - movement/mongol-zurag
   - movement/mono-ha
   - movement/moscow-school-icon-painting
   - movement/neoclassicism

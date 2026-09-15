@@ -3,9 +3,9 @@
   "findings": [],
   "cross_region": {
     "schema_version": 1,
-    "movement_total": 125,
+    "movement_total": 126,
     "counts": {
-      "connected": 78,
+      "connected": 79,
       "reviewed-no-documented-link": 47,
       "unreviewed": 0
     },
@@ -60,6 +60,7 @@
       "movement/menri-school",
       "movement/mewar-painting",
       "movement/mingei",
+      "movement/mongol-zurag",
       "movement/mughal-painting",
       "movement/nanga",
       "movement/negritude",
@@ -2423,6 +2424,34 @@
         "review": null
       },
       {
+        "movement_id": "movement/mongol-zurag",
+        "status": "connected",
+        "origin_regions": [
+          "asia-central"
+        ],
+        "routes": [
+          {
+            "kind": "diffused-to-place",
+            "edges": [
+              {
+                "from": "movement/mongol-zurag",
+                "type": "diffused_to",
+                "to": "place/kassel",
+                "certainty": "scholarly",
+                "source": "https://www.documenta14.de/en/artists/21988/baldugiin-sharav"
+              }
+            ],
+            "destination_regions": [
+              "europe-west"
+            ]
+          }
+        ],
+        "reasons": [
+          "1経路で起源region外へ到達"
+        ],
+        "review": null
+      },
+      {
         "movement_id": "movement/mono-ha",
         "status": "reviewed-no-documented-link",
         "origin_regions": [
@@ -3790,7 +3819,7 @@
   "cross_region_baseline": {
     "schema_version": 1,
     "source_commit": "bd15d4c707d6c2fff84ff0c763a993f94cbc3589",
-    "movement_count": 50,
+    "movement_count": 51,
     "movement_ids": [
       "movement/ai-bigeiken",
       "movement/arts-and-crafts",
@@ -3823,6 +3852,7 @@
       "movement/mandalay-style",
       "movement/mannerism",
       "movement/mexican-muralism",
+      "movement/mongol-zurag",
       "movement/mono-ha",
       "movement/moscow-school-icon-painting",
       "movement/neoclassicism",
