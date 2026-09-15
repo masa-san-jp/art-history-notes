@@ -15018,6 +15018,86 @@
       "updated": "2026-08-25",
       "path": "entities/movements/surrealism.md"
     },
+    "movement/suzani": {
+      "id": "movement/suzani",
+      "uri": "urn:ahn:movement/suzani",
+      "type": "movement",
+      "kind": "retrospective",
+      "label_ja": "スザニ",
+      "label_en": "Suzani",
+      "authority": {
+        "wikidata": "Q1432446",
+        "aat": null,
+        "ulan": null,
+        "tgn": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": "178X",
+        "end": "..",
+        "display": "刺繍の技法自体はより古い時代に遡るとされ、15世紀にはカスティーリャの使節ルイ・ ゴンサレス・デ・クラビホがティムール朝の宮廷でこれに先行する刺繍を記録している。ただし 現存する作例は繊細さゆえに極めて少なく、確認できる最古のものは18世紀末〜19世紀初頭。 今日も刺繍として継続する（アメリカでも収集・展示の対象になっている）"
+      },
+      "naming": {
+        "self_identified": true,
+        "named_by": null,
+        "named_when": null,
+        "original_label": "سوزن (suzan)",
+        "note": "『スザニ』はペルシア語で『針』を意味する語に由来し、当事者（中央アジアの女性刺繍職人）が 自らの制作物を指して用いる語である"
+      },
+      "claims": [
+        {
+          "field": "time",
+          "source": "https://en.wikipedia.org/wiki/Suzani_(textile)",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "originated_in",
+          "source": "https://en.wikipedia.org/wiki/Suzani_(textile)",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "kind",
+          "source": "https://en.wikipedia.org/wiki/Suzani_(textile)",
+          "certainty": "scholarly"
+        }
+      ],
+      "evidence": [],
+      "space": [
+        {
+          "role": "originated_in",
+          "target": "place/bukhara"
+        }
+      ],
+      "relations": [
+        {
+          "type": "diffused_to",
+          "target": "place/new-york-city",
+          "certainty": "scholarly",
+          "source": "https://www.metmuseum.org/art/collection/search/698681"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.wikidata.org/wiki/Q1432446",
+          "kind": "authority"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Suzani_(textile)",
+          "kind": "reference",
+          "note": "『Suzani (textile)』の項。タジキスタン・ウズベキスタン・アフガニスタンなど中央アジアで 作られる刺繍textileとし、現存最古の作例が18世紀末〜19世紀初頭に限られると記す。ブハラ・ サマルカンド・タシケントなど複数の地域様式があると記す"
+        },
+        {
+          "url": "https://www.metmuseum.org/art/collection/search/698681",
+          "kind": "institutional",
+          "note": "メトロポリタン美術館収蔵のスザニ。同館は花嫁の持参品としての位置づけ、専門の下絵師 （kalamkesh）が図案を描き、花嫁の女性親族が刺繍する分業制作の過程を記す。同館のブハラ・ ウズベキスタン産スザニのコレクションは16〜20世紀に及ぶと記す"
+        }
+      ],
+      "status": "draft",
+      "updated": "2026-09-16",
+      "path": "entities/movements/suzani.md"
+    },
     "movement/symbolism": {
       "id": "movement/symbolism",
       "uri": "urn:ahn:movement/symbolism",
@@ -35243,6 +35323,43 @@
       "status": "stub",
       "updated": "2026-08-10",
       "path": "entities/places/buenos-aires.md"
+    },
+    "place/bukhara": {
+      "id": "place/bukhara",
+      "uri": "urn:ahn:place/bukhara",
+      "type": "place",
+      "label_ja": "ブハラ",
+      "label_en": "Bukhara",
+      "authority": {
+        "wikidata": "Q5764",
+        "aat": null,
+        "ulan": null,
+        "tgn": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": null,
+        "end": null,
+        "display": null
+      },
+      "region": "asia-central",
+      "coordinates": [
+        39.7667,
+        64.4231
+      ],
+      "space": [],
+      "relations": [],
+      "sources": [
+        {
+          "url": "https://www.wikidata.org/wiki/Q5764",
+          "kind": "authority"
+        }
+      ],
+      "status": "stub",
+      "updated": "2026-09-16",
+      "path": "entities/places/bukhara.md"
     },
     "place/cairo": {
       "id": "place/cairo",
@@ -74840,6 +74957,18 @@
       "to": "place/paris"
     },
     {
+      "from": "movement/suzani",
+      "type": "diffused_to",
+      "to": "place/new-york-city",
+      "certainty": "scholarly",
+      "source": "https://www.metmuseum.org/art/collection/search/698681"
+    },
+    {
+      "from": "movement/suzani",
+      "type": "originated_in",
+      "to": "place/bukhara"
+    },
+    {
       "from": "movement/symbolism",
       "type": "reacts_against",
       "to": "movement/realism",
@@ -91021,6 +91150,12 @@
       "from": "movement/symbolism",
       "type": "influenced",
       "to": "movement/surrealism",
+      "derived": true
+    },
+    {
+      "from": "place/new-york-city",
+      "type": "received",
+      "to": "movement/suzani",
       "derived": true
     },
     {

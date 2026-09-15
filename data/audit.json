@@ -3,9 +3,9 @@
   "findings": [],
   "cross_region": {
     "schema_version": 1,
-    "movement_total": 139,
+    "movement_total": 140,
     "counts": {
-      "connected": 86,
+      "connected": 87,
       "reviewed-no-documented-link": 53,
       "unreviewed": 0
     },
@@ -85,6 +85,7 @@
       "movement/renaissance",
       "movement/safavid-painting",
       "movement/sienese-school",
+      "movement/suzani",
       "movement/symbolism",
       "movement/talavera-poblana",
       "movement/tanjore-painting",
@@ -3756,6 +3757,34 @@
             "https://fr.wikipedia.org/wiki/Manifeste_du_surr%C3%A9alisme"
           ]
         }
+      },
+      {
+        "movement_id": "movement/suzani",
+        "status": "connected",
+        "origin_regions": [
+          "asia-central"
+        ],
+        "routes": [
+          {
+            "kind": "diffused-to-place",
+            "edges": [
+              {
+                "from": "movement/suzani",
+                "type": "diffused_to",
+                "to": "place/new-york-city",
+                "certainty": "scholarly",
+                "source": "https://www.metmuseum.org/art/collection/search/698681"
+              }
+            ],
+            "destination_regions": [
+              "americas-north"
+            ]
+          }
+        ],
+        "reasons": [
+          "1経路で起源region外へ到達"
+        ],
+        "review": null
       },
       {
         "movement_id": "movement/symbolism",
