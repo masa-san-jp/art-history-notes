@@ -3,9 +3,9 @@
   "findings": [],
   "cross_region": {
     "schema_version": 1,
-    "movement_total": 145,
+    "movement_total": 146,
     "counts": {
-      "connected": 91,
+      "connected": 92,
       "reviewed-no-documented-link": 54,
       "unreviewed": 0
     },
@@ -65,6 +65,7 @@
       "movement/menri-school",
       "movement/mewar-painting",
       "movement/mingei",
+      "movement/missao-artistica-francesa",
       "movement/moai",
       "movement/mongol-zurag",
       "movement/mughal-painting",
@@ -2663,6 +2664,34 @@
                 "to": "movement/arts-and-crafts",
                 "certainty": "scholarly",
                 "source": "https://www.vam.ac.uk/articles/arts-and-crafts-beyond-the-uk"
+              }
+            ],
+            "destination_regions": [
+              "europe-west"
+            ]
+          }
+        ],
+        "reasons": [
+          "1経路で起源region外へ到達"
+        ],
+        "review": null
+      },
+      {
+        "movement_id": "movement/missao-artistica-francesa",
+        "status": "connected",
+        "origin_regions": [
+          "americas-latin"
+        ],
+        "routes": [
+          {
+            "kind": "diffused-to-place",
+            "edges": [
+              {
+                "from": "movement/missao-artistica-francesa",
+                "type": "diffused_to",
+                "to": "place/paris",
+                "certainty": "scholarly",
+                "source": "http://arts-graphiques.louvre.fr/detail/artistes/0/757-DEBRET-Jean-Baptiste"
               }
             ],
             "destination_regions": [
