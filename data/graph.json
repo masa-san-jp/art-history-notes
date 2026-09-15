@@ -10216,6 +10216,86 @@
       "updated": "2026-08-25",
       "path": "entities/movements/mingei.md"
     },
+    "movement/moai": {
+      "id": "movement/moai",
+      "uri": "urn:ahn:movement/moai",
+      "type": "movement",
+      "kind": "retrospective",
+      "label_ja": "モアイ",
+      "label_en": "Moai",
+      "authority": {
+        "wikidata": "Q20350",
+        "aat": null,
+        "ulan": null,
+        "tgn": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": "10XX",
+        "end": "16XX",
+        "display": "彫像の科学的年代測定例は無いとされ（英語版Wikipedia「Hoa Hakananai'a」）、資料間で 起点の幅がある。英語版Wikipedia「moai」は制作期間を『紀元1000年頃から17世紀後半まで』とし、 887体のうち多くが1250〜1500年頃に集中して切り出されたとする記述もある。個別像（例： ホア・ハカナナイア）は1000〜1200年頃と推定される。終期は17世紀後半（部族間抗争・資源枯渇に よる社会変動が背景とされる）"
+      },
+      "naming": {
+        "self_identified": true,
+        "named_by": null,
+        "named_when": null,
+        "original_label": "moai",
+        "note": "『モアイ』はラパ・ヌイ語で『像』を意味する語で、当事者（ラパ・ヌイの人々）自身が用いる 呼称である。ただし『運動・様式』としての集団的な名乗り・綱領があったわけではなく、個々の像に 与えられた対象名である点で、西洋の-ismのような宣言的movementとは性質が異なる"
+      },
+      "claims": [
+        {
+          "field": "time",
+          "source": "https://en.wikipedia.org/wiki/Moai",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "originated_in",
+          "source": "https://en.wikipedia.org/wiki/Moai",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "kind",
+          "source": "https://www.wikidata.org/wiki/Q20350",
+          "certainty": "scholarly"
+        }
+      ],
+      "evidence": [],
+      "space": [
+        {
+          "role": "originated_in",
+          "target": "place/rapa-nui"
+        }
+      ],
+      "relations": [
+        {
+          "type": "diffused_to",
+          "target": "place/london",
+          "certainty": "scholarly",
+          "source": "https://en.wikipedia.org/wiki/Hoa_Hakananai%27a"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.wikidata.org/wiki/Q20350",
+          "kind": "authority"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Moai",
+          "kind": "reference",
+          "note": "『moai』の項。祖先を記念して彫られたと考えられ、紀元1000年頃から17世紀後半まで、 887体が数百年かけて切り出され・彫られ・立てられたと記す"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Hoa_Hakananai%27a",
+          "kind": "reference",
+          "note": "『Hoa Hakananai'a』の項。1000〜1200年頃の制作と推定されるが科学的年代測定は無いとし、 1868年に英国艦船HMSトパーズの乗組員がラパ・ヌイのオロンゴから持ち去り、1869年に大英博物館 （ロンドン）へ収蔵された経緯を記す"
+        }
+      ],
+      "status": "draft",
+      "updated": "2026-09-16",
+      "path": "entities/movements/moai.md"
+    },
     "movement/mongol-zurag": {
       "id": "movement/mongol-zurag",
       "uri": "urn:ahn:movement/mongol-zurag",
@@ -36560,6 +36640,43 @@
       "status": "stub",
       "updated": "2026-08-10",
       "path": "entities/places/quito.md"
+    },
+    "place/rapa-nui": {
+      "id": "place/rapa-nui",
+      "uri": "urn:ahn:place/rapa-nui",
+      "type": "place",
+      "label_ja": "ラパ・ヌイ",
+      "label_en": "Rapa Nui",
+      "authority": {
+        "wikidata": "Q36746",
+        "aat": null,
+        "ulan": null,
+        "tgn": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": null,
+        "end": null,
+        "display": null
+      },
+      "region": "oceania",
+      "coordinates": [
+        -27.12,
+        -109.35
+      ],
+      "space": [],
+      "relations": [],
+      "sources": [
+        {
+          "url": "https://www.wikidata.org/wiki/Q36746",
+          "kind": "authority"
+        }
+      ],
+      "status": "stub",
+      "updated": "2026-09-16",
+      "path": "entities/places/rapa-nui.md"
     },
     "place/rio-de-janeiro": {
       "id": "place/rio-de-janeiro",
@@ -73157,6 +73274,18 @@
       "to": "place/tokyo"
     },
     {
+      "from": "movement/moai",
+      "type": "diffused_to",
+      "to": "place/london",
+      "certainty": "scholarly",
+      "source": "https://en.wikipedia.org/wiki/Hoa_Hakananai%27a"
+    },
+    {
+      "from": "movement/moai",
+      "type": "originated_in",
+      "to": "place/rapa-nui"
+    },
+    {
       "from": "movement/mongol-zurag",
       "type": "diffused_to",
       "to": "place/kassel",
@@ -89553,6 +89682,12 @@
       "from": "movement/arts-and-crafts",
       "type": "influenced",
       "to": "movement/mingei",
+      "derived": true
+    },
+    {
+      "from": "place/london",
+      "type": "received",
+      "to": "movement/moai",
       "derived": true
     },
     {

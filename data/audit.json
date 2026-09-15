@@ -3,9 +3,9 @@
   "findings": [],
   "cross_region": {
     "schema_version": 1,
-    "movement_total": 130,
+    "movement_total": 131,
     "counts": {
-      "connected": 81,
+      "connected": 82,
       "reviewed-no-documented-link": 49,
       "unreviewed": 0
     },
@@ -61,6 +61,7 @@
       "movement/menri-school",
       "movement/mewar-painting",
       "movement/mingei",
+      "movement/moai",
       "movement/mongol-zurag",
       "movement/mughal-painting",
       "movement/nanga",
@@ -2485,6 +2486,34 @@
                 "to": "movement/arts-and-crafts",
                 "certainty": "scholarly",
                 "source": "https://www.vam.ac.uk/articles/arts-and-crafts-beyond-the-uk"
+              }
+            ],
+            "destination_regions": [
+              "europe-west"
+            ]
+          }
+        ],
+        "reasons": [
+          "1経路で起源region外へ到達"
+        ],
+        "review": null
+      },
+      {
+        "movement_id": "movement/moai",
+        "status": "connected",
+        "origin_regions": [
+          "oceania"
+        ],
+        "routes": [
+          {
+            "kind": "diffused-to-place",
+            "edges": [
+              {
+                "from": "movement/moai",
+                "type": "diffused_to",
+                "to": "place/london",
+                "certainty": "scholarly",
+                "source": "https://en.wikipedia.org/wiki/Hoa_Hakananai%27a"
               }
             ],
             "destination_regions": [
