@@ -55,7 +55,7 @@ images:
     license: cc0
     note: "葛飾北斎《神奈川沖浪裏》「冨嶽三十六景」より、1830-33年頃。シカゴ美術館蔵（is_public_domain: true）。19世紀、名所絵（風景画）へ主題が拡大した段階"
 status: draft
-updated: 2026-08-09
+updated: 2026-09-15
 ---
 
 # 浮世絵 / Ukiyo-e
@@ -205,6 +205,22 @@ even preliminary drafts required approval."と記す（二次情報）。
 このKBにはまだ`place/tokyo`も`place/edo`も存在しない。江戸→東京という改称・改編を伴う土地をどう
 `place`として置くか（同一の場所として1つのIDにするか、時代で分けるか）は未決の論点のため、本稿では
 新しい`place`を作らず`space`を空のままにした。
+
+### 域外への伝播（ジャポニスム）
+
+1860年代以降、浮世絵版画は西洋の芸術家に影響を与えた。英語版Wikipediaの「Japonisme」項はこう記す
+（二次情報、原文引用）。
+
+> These items were widely visible in nineteenth-century Europe: a succession of world's fairs
+> displayed Japanese decorative art to millions.
+
+1862年ロンドン万博・1867年パリ万博で日本の工芸品が公開の場に出て、浮世絵版画は好事家の店
+（La Porte Chinoiseなど）を通じて流通し、ホイッスラー、マネ、ドガら西洋の画家に渡った。フランスの
+批評家フィリップ・ビュルティが1872年に「ジャポニスム」の語を作った（[Japonisme](https://en.wikipedia.org/wiki/Japonisme)）。
+**未確認**: 1867年パリ万博の日本展示が浮世絵版画そのものを公式に出品したのか、工芸品一般の展示を
+通じて版画が別経路（好事家の店・個人収集）で流通したのかは、今回は一次資料での区別をしていない。
+`concept`型には`relations`はあるが本KBの4経路文化圏間接続監査（`tools/audit.py`）は`movement`のみを
+対象とするため、この伝播はここでは本文の記述にとどめ、`relations`へのエッジは張っていない。
 
 ## 使える手
 

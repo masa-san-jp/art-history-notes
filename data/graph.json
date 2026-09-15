@@ -440,7 +440,7 @@
         }
       ],
       "status": "draft",
-      "updated": "2026-08-09",
+      "updated": "2026-09-15",
       "path": "entities/concepts/ukiyo-e.md"
     },
     "concept/yohaku": {
@@ -10009,6 +10009,91 @@
       "updated": "2026-08-25",
       "path": "entities/movements/mono-ha.md"
     },
+    "movement/moscow-school-icon-painting": {
+      "id": "movement/moscow-school-icon-painting",
+      "uri": "urn:ahn:movement/moscow-school-icon-painting",
+      "type": "movement",
+      "kind": "period-style",
+      "label_ja": "モスクワ派",
+      "label_en": "Moscow school of icon painting",
+      "authority": {
+        "wikidata": "Q122978289",
+        "aat": null,
+        "ulan": null,
+        "tgn": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": "14XX",
+        "end": "15XX",
+        "display": "14〜16世紀（Московская школа）。フェオファン・グレク、アンドレイ・ルブリョフ、ダニイル・ チョールヌィによる14世紀末〜15世紀初頭の隆盛（1405年のモスクワ・クレムリン全告知大聖堂の 仕事が最初期の記録）を経て、15世紀末〜16世紀初頭のディオニシーの世代まで続いたとされる"
+      },
+      "naming": {
+        "self_identified": false,
+        "named_by": null,
+        "named_when": null,
+        "original_label": "Московская школа",
+        "note": "ノヴゴロド派（movement/novgorod-school-icon-painting）と同じく、中世の画家・発注者自身が この名で自らを呼んだ記録は無い。地域別に『派（школа）』を区別する用法自体が後代（19〜20世紀）の 美術史記述に由来する点も同様と見て、named_by・named_whenは未特定のままとした"
+      },
+      "claims": [
+        {
+          "field": "time",
+          "source": "https://en.wikipedia.org/wiki/Moscow_School",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "originated_in",
+          "source": "https://en.wikipedia.org/wiki/Moscow_School",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "kind",
+          "source": "https://en.wikipedia.org/wiki/Moscow_School",
+          "certainty": "scholarly"
+        }
+      ],
+      "evidence": [],
+      "space": [
+        {
+          "role": "originated_in",
+          "target": "place/moscow"
+        }
+      ],
+      "relations": [
+        {
+          "type": "influenced_by",
+          "target": "movement/byzantine-art",
+          "certainty": "scholarly",
+          "source": "https://en.wikipedia.org/wiki/Moscow_School"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.wikidata.org/wiki/Q122978289",
+          "kind": "authority"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Moscow_School",
+          "kind": "reference",
+          "note": "『Moscow school』の項。14〜16世紀のロシアの建築・絵画の学派とし、フェオファン・グレク、 アンドレイ・ルブリョフ、ダニイル・チョールヌィによる隆盛と、ビザンティン・南スラヴ美術との 総合を基盤とすると記す"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Andrei_Rublev",
+          "kind": "reference",
+          "note": "アンドレイ・ルブリョフの項。1405年、フェオファン・グレク、プロホル・ゴロデツキーとともに モスクワ・クレムリンの全告知大聖堂のイコン・壁画を手がけた最初の記録を記す"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Dionisius",
+          "kind": "reference",
+          "note": "ディオニシー（Dionisius, c.1440–1503/1508）の項。15〜16世紀の境目における『モスクワ派の 最重要な担い手の一人』とし、ルブリョフの伝統を継いだと記す"
+        }
+      ],
+      "status": "draft",
+      "updated": "2026-09-15",
+      "path": "entities/movements/moscow-school-icon-painting.md"
+    },
     "movement/mughal-painting": {
       "id": "movement/mughal-painting",
       "uri": "urn:ahn:movement/mughal-painting",
@@ -11375,6 +11460,10 @@
           "target": "place/new-york-city",
           "certainty": "scholarly",
           "source": "https://www.metmuseum.org/art/collection/search/437578"
+        },
+        {
+          "type": "precedes",
+          "target": "movement/moscow-school-icon-painting"
         }
       ],
       "sources": [
@@ -11456,7 +11545,7 @@
         }
       ],
       "status": "verified",
-      "updated": "2026-08-25",
+      "updated": "2026-09-15",
       "path": "entities/movements/novgorod-school-icon-painting.md"
     },
     "movement/ottoman-miniature": {
@@ -14430,100 +14519,6 @@
       "status": "verified",
       "updated": "2026-08-25",
       "path": "entities/movements/tosa-school.md"
-    },
-    "movement/ukiyo-e": {
-      "id": "movement/ukiyo-e",
-      "uri": "urn:ahn:movement/ukiyo-e",
-      "type": "movement",
-      "label_ja": "浮世絵",
-      "label_en": "Ukiyo-e",
-      "authority": {
-        "wikidata": "Q185905",
-        "aat": "300106769",
-        "ulan": null,
-        "tgn": null,
-        "ndl": null,
-        "jpsearch": null,
-        "none_reason": null
-      },
-      "time": {
-        "start": "1672",
-        "end": "1868~",
-        "display": "1672年頃、菱川師宣の一枚絵が評判を得た時期を起点とした。江戸時代（1600〜1868年）の枠内の様式とするGetty AATの記述に合わせ、終期は明治維新（1868年）とした"
-      },
-      "kind": "retrospective",
-      "naming": {
-        "self_identified": false,
-        "named_by": null,
-        "named_when": null,
-        "original_label": "浮世絵",
-        "note": "「浮世絵師」という呼称は、菱川師宣が歌舞伎・遊里を主題に大衆の支持を得た後にまもなく与えられたと千葉市美術館の解説にあるが、命名者個人は特定できない。同時代の呼称ではあるが、単一の宣言や特定個人による命名ではなく社会が与えた呼称であるため self_identified は false とした"
-      },
-      "claims": [
-        {
-          "field": "time",
-          "source": "https://en.wikipedia.org/wiki/Hishikawa_Moronobu",
-          "certainty": "scholarly"
-        },
-        {
-          "field": "originated_in",
-          "source": "https://www.town.kyonan.chiba.jp/site/hishikawamoronobukinenkan/2460.html",
-          "certainty": "scholarly"
-        },
-        {
-          "field": "kind",
-          "source": "https://www.getty.edu/vow/AATFullDisplay?find=ukiyo-e&logic=AND&note=&english=Y&subjectid=300106769",
-          "certainty": "scholarly"
-        }
-      ],
-      "evidence": [],
-      "space": [
-        {
-          "role": "originated_in",
-          "target": "place/tokyo"
-        }
-      ],
-      "relations": [
-        {
-          "type": "diffused_to",
-          "target": "place/paris",
-          "certainty": "scholarly",
-          "source": "https://en.wikipedia.org/wiki/Japonisme"
-        }
-      ],
-      "sources": [
-        {
-          "url": "https://www.wikidata.org/wiki/Q185905",
-          "kind": "authority"
-        },
-        {
-          "url": "https://www.getty.edu/vow/AATFullDisplay?find=ukiyo-e&logic=AND&note=&english=Y&subjectid=300106769",
-          "kind": "authority"
-        },
-        {
-          "url": "https://en.wikipedia.org/wiki/Hishikawa_Moronobu",
-          "kind": "reference",
-          "note": "菱川師宣が1672年までに評判を得て、以降作品に署名するようになったと記す"
-        },
-        {
-          "url": "https://www.town.kyonan.chiba.jp/site/hishikawamoronobukinenkan/2460.html",
-          "kind": "institutional",
-          "note": "菱川師宣記念館（鋸南町立）公式ページ。師宣を『浮世絵の祖』とし、江戸で活動したことを記す"
-        },
-        {
-          "url": "https://www.ccma-net.jp/exhibitions/special/18-4-6-5-20-2/",
-          "kind": "institutional",
-          "note": "千葉市美術館の企画展解説。師宣が肉筆画・版本・一枚絵の流通を通じて浮世絵文化の礎を作ったと記す"
-        },
-        {
-          "url": "https://en.wikipedia.org/wiki/Japonisme",
-          "kind": "reference",
-          "note": "1860年代以降、浮世絵版画が西洋の芸術家に影響を与え、1862年ロンドン・1867年パリの万国博覧会で日本の工芸品が公開されたと記す。1872年にフィリップ・ビュルティが「ジャポニスム」の語を作った"
-        }
-      ],
-      "status": "draft",
-      "updated": "2026-09-15",
-      "path": "entities/movements/ukiyo-e.md"
     },
     "movement/utagawa-school": {
       "id": "movement/utagawa-school",
@@ -72475,6 +72470,18 @@
       "to": "place/tokyo"
     },
     {
+      "from": "movement/moscow-school-icon-painting",
+      "type": "influenced_by",
+      "to": "movement/byzantine-art",
+      "certainty": "scholarly",
+      "source": "https://en.wikipedia.org/wiki/Moscow_School"
+    },
+    {
+      "from": "movement/moscow-school-icon-painting",
+      "type": "originated_in",
+      "to": "place/moscow"
+    },
+    {
       "from": "movement/mughal-painting",
       "type": "influenced_by",
       "to": "movement/safavid-painting",
@@ -72713,6 +72720,13 @@
       "to": "place/new-york-city",
       "certainty": "scholarly",
       "source": "https://www.metmuseum.org/art/collection/search/437578"
+    },
+    {
+      "from": "movement/novgorod-school-icon-painting",
+      "type": "precedes",
+      "to": "movement/moscow-school-icon-painting",
+      "certainty": null,
+      "source": null
     },
     {
       "from": "movement/novgorod-school-icon-painting",
@@ -73159,18 +73173,6 @@
       "from": "movement/tosa-school",
       "type": "originated_in",
       "to": "place/kyoto"
-    },
-    {
-      "from": "movement/ukiyo-e",
-      "type": "diffused_to",
-      "to": "place/paris",
-      "certainty": "scholarly",
-      "source": "https://en.wikipedia.org/wiki/Japonisme"
-    },
-    {
-      "from": "movement/ukiyo-e",
-      "type": "originated_in",
-      "to": "place/tokyo"
     },
     {
       "from": "movement/utagawa-school",
@@ -88817,6 +88819,12 @@
       "derived": true
     },
     {
+      "from": "movement/byzantine-art",
+      "type": "influenced",
+      "to": "movement/moscow-school-icon-painting",
+      "derived": true
+    },
+    {
       "from": "movement/safavid-painting",
       "type": "influenced",
       "to": "movement/mughal-painting",
@@ -88963,6 +88971,12 @@
     {
       "from": "place/new-york-city",
       "type": "received",
+      "to": "movement/novgorod-school-icon-painting",
+      "derived": true
+    },
+    {
+      "from": "movement/moscow-school-icon-painting",
+      "type": "follows",
       "to": "movement/novgorod-school-icon-painting",
       "derived": true
     },
@@ -89222,12 +89236,6 @@
       "from": "place/new-york-city",
       "type": "received",
       "to": "movement/tosa-school",
-      "derived": true
-    },
-    {
-      "from": "place/paris",
-      "type": "received",
-      "to": "movement/ukiyo-e",
       "derived": true
     },
     {

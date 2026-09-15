@@ -30,6 +30,7 @@ space:
 relations:
   - {type: influenced_by, target: movement/byzantine-art, certainty: scholarly, source: "https://www.nasjonalmuseet.no/en/collection/object/NG.M.01773"}
   - {type: diffused_to, target: place/new-york-city, certainty: scholarly, source: "https://www.metmuseum.org/art/collection/search/437578"}
+  - {type: precedes, target: movement/moscow-school-icon-painting}
 sources:
   - url: "https://www.wikidata.org/wiki/Q2876208"
     kind: authority
@@ -73,7 +74,7 @@ images:
     license: public-domain
     note: "《生涯の20場面を伴う聖ニコラウス（ザライスクの）》16世紀初頭頃。ノルウェー国立美術館・建築・デザイン博物館（Nasjonalmuseet）蔵、作者を「School of Novgorod」と明記（Wikidata Q2876208をauthorityとして参照）。Wikimedia Commonsのextmetadataは LicenseShortName: Public domain / Copyrighted: false"
 status: verified
-updated: 2026-08-25
+updated: 2026-09-15
 ---
 
 # ノヴゴロド派 / Novgorod school of icon painting
@@ -258,9 +259,11 @@ WikidataのQ2876208は「Byzantine art」を`P737`（influenced by）に挙げ�
   `docs/schema.md`の作成基準（この movement の kind/time/originated_in の根拠になる／2つ以上の
   movement を繋ぐ／作品を分解して読んだ）のどれにも単独では当たらないため、本文に名前を書くだけに
   留めた
-- モスクワ派・プスコフ派——このKBにはまだ movement として存在せず、`relations`（`precedes` /
-  `grouped_as` など）を張ることができなかった。整備できれば、ノヴゴロド派からモスクワ派への
-  「主導権の移行」（`precedes`）やプスコフ派との分岐の関係が張れる可能性がある
+- ~~モスクワ派——このKBにはまだ movement として存在せず~~ 2026-09-15、
+  [movement/moscow-school-icon-painting](moscow-school-icon-painting.md) を追加し、
+  `precedes` 関係を張った。プスコフ派はこのKBにまだ movement として存在せず、`relations`
+  （`grouped_as` など）を張ることができなかった。整備できれば、プスコフ派との分岐の関係が
+  張れる可能性がある
 - ロヴィンスキー1856年の原文における「ノヴゴロド派」という語の具体的な使用箇所、および呼称の
   最初の使用者・使用年の確定（`naming.named_by` / `named_when`）
 - 大主教の工房（владычная мастерская）がイコン画制作の主体として継続した制度だったのかどうか

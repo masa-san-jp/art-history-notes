@@ -5,8 +5,8 @@
     "schema_version": 1,
     "movement_total": 124,
     "counts": {
-      "connected": 78,
-      "reviewed-no-documented-link": 46,
+      "connected": 77,
+      "reviewed-no-documented-link": 47,
       "unreviewed": 0
     },
     "connected": [
@@ -82,7 +82,6 @@
       "movement/tanjore-painting",
       "movement/thirteen-moderns",
       "movement/tosa-school",
-      "movement/ukiyo-e",
       "movement/venetian-school",
       "movement/yamato-e",
       "movement/yangzhou-eccentrics",
@@ -119,6 +118,7 @@
       "movement/mannerism",
       "movement/mexican-muralism",
       "movement/mono-ha",
+      "movement/moscow-school-icon-painting",
       "movement/neoclassicism",
       "movement/newar-art",
       "movement/nihonga",
@@ -2415,6 +2415,27 @@
         }
       },
       {
+        "movement_id": "movement/moscow-school-icon-painting",
+        "status": "reviewed-no-documented-link",
+        "origin_regions": [
+          "europe-east"
+        ],
+        "routes": [],
+        "reasons": [
+          "2026-09-15時点で、movement→movement relation、movement→placeのdiffused_to、space.active_in、movement→event/orgのexhibited_at→held_at/sited_inの4経路を、当該movementに登録された資料を対象に確認した。relationsに張ったinfluenced_by movement/byzantine-artは、config/place-region-history.yamlがイスタンブールを330〜1453年（東ローマ帝国の首都だった期間）はeurope-eastと時代限定で上書きしているため、モスクワ派の活動期と重なりregions_of上は同一region（europe-east）となり、4経路の接続としては機能しない。西側美術館へのイコン収蔵など他の接続も今回は確認できず、起源region外への文書化された接続は現時点で確認できない。"
+        ],
+        "review": {
+          "movement_id": "movement/moscow-school-icon-painting",
+          "status": "no-documented-cross-region-relation",
+          "checked": "2026-09-15",
+          "note": "2026-09-15時点で、movement→movement relation、movement→placeのdiffused_to、space.active_in、movement→event/orgのexhibited_at→held_at/sited_inの4経路を、当該movementに登録された資料を対象に確認した。relationsに張ったinfluenced_by movement/byzantine-artは、config/place-region-history.yamlがイスタンブールを330〜1453年（東ローマ帝国の首都だった期間）はeurope-eastと時代限定で上書きしているため、モスクワ派の活動期と重なりregions_of上は同一region（europe-east）となり、4経路の接続としては機能しない。西側美術館へのイコン収蔵など他の接続も今回は確認できず、起源region外への文書化された接続は現時点で確認できない。",
+          "sources": [
+            "https://www.wikidata.org/wiki/Q122978289",
+            "https://en.wikipedia.org/wiki/Moscow_School"
+          ]
+        }
+      },
+      {
         "movement_id": "movement/mughal-painting",
         "status": "connected",
         "origin_regions": [
@@ -3518,34 +3539,6 @@
         "review": null
       },
       {
-        "movement_id": "movement/ukiyo-e",
-        "status": "connected",
-        "origin_regions": [
-          "asia-east-japan"
-        ],
-        "routes": [
-          {
-            "kind": "diffused-to-place",
-            "edges": [
-              {
-                "from": "movement/ukiyo-e",
-                "type": "diffused_to",
-                "to": "place/paris",
-                "certainty": "scholarly",
-                "source": "https://en.wikipedia.org/wiki/Japonisme"
-              }
-            ],
-            "destination_regions": [
-              "europe-west"
-            ]
-          }
-        ],
-        "reasons": [
-          "1経路で起源region外へ到達"
-        ],
-        "review": null
-      },
-      {
         "movement_id": "movement/utagawa-school",
         "status": "reviewed-no-documented-link",
         "origin_regions": [
@@ -3801,6 +3794,7 @@
       "movement/mannerism",
       "movement/mexican-muralism",
       "movement/mono-ha",
+      "movement/moscow-school-icon-painting",
       "movement/neoclassicism",
       "movement/newar-art",
       "movement/nihonga",
@@ -3815,7 +3809,6 @@
       "movement/songjiang-school",
       "movement/suprematism",
       "movement/surrealism",
-      "movement/ukiyo-e",
       "movement/utagawa-school",
       "movement/wu-school",
       "movement/zhe-school"

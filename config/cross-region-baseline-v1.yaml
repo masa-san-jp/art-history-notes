@@ -33,6 +33,7 @@ movement_ids:
   - movement/mannerism
   - movement/mexican-muralism
   - movement/mono-ha
+  - movement/moscow-school-icon-painting
   - movement/neoclassicism
   - movement/newar-art
   - movement/nihonga
@@ -47,7 +48,6 @@ movement_ids:
   - movement/songjiang-school
   - movement/suprematism
   - movement/surrealism
-  - movement/ukiyo-e
   - movement/utagawa-school
   - movement/wu-school
   - movement/zhe-school
