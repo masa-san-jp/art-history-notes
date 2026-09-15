@@ -3,10 +3,10 @@
   "findings": [],
   "cross_region": {
     "schema_version": 1,
-    "movement_total": 127,
+    "movement_total": 128,
     "counts": {
       "connected": 79,
-      "reviewed-no-documented-link": 48,
+      "reviewed-no-documented-link": 49,
       "unreviewed": 0
     },
     "connected": [
@@ -98,6 +98,7 @@
       "movement/baroque",
       "movement/barroco-mineiro",
       "movement/byzantine-art",
+      "movement/coffin-portrait",
       "movement/colonial-limner-painting",
       "movement/constructivism",
       "movement/cubism",
@@ -822,6 +823,27 @@
           "sources": [
             "https://www.metmuseum.org/art/collection/search/469960",
             "https://en.wikipedia.org/wiki/Byzantine_art"
+          ]
+        }
+      },
+      {
+        "movement_id": "movement/coffin-portrait",
+        "status": "reviewed-no-documented-link",
+        "origin_regions": [
+          "europe-east"
+        ],
+        "routes": [],
+        "reasons": [
+          "2026-09-15時点で、movement→movement relation、movement→placeのdiffused_to、space.active_in、movement→event/orgのexhibited_at→held_at/sited_inの4経路を、当該movementに登録された資料を対象に確認した。ポーランド・リトアニア共和国以外でこの形式の肖像画は作られなかったとされ、海外美術館収蔵などeurope-east外への文書化された接続は確認できない。"
+        ],
+        "review": {
+          "movement_id": "movement/coffin-portrait",
+          "status": "no-documented-cross-region-relation",
+          "checked": "2026-09-15",
+          "note": "2026-09-15時点で、movement→movement relation、movement→placeのdiffused_to、space.active_in、movement→event/orgのexhibited_at→held_at/sited_inの4経路を、当該movementに登録された資料を対象に確認した。ポーランド・リトアニア共和国以外でこの形式の肖像画は作られなかったとされ、海外美術館収蔵などeurope-east外への文書化された接続は確認できない。",
+          "sources": [
+            "https://www.wikidata.org/wiki/Q1542239",
+            "https://en.wikipedia.org/wiki/Coffin_portrait"
           ]
         }
       },
@@ -3841,7 +3863,7 @@
   "cross_region_baseline": {
     "schema_version": 1,
     "source_commit": "bd15d4c707d6c2fff84ff0c763a993f94cbc3589",
-    "movement_count": 52,
+    "movement_count": 53,
     "movement_ids": [
       "movement/ai-bigeiken",
       "movement/arts-and-crafts",
@@ -3851,6 +3873,7 @@
       "movement/baroque",
       "movement/barroco-mineiro",
       "movement/byzantine-art",
+      "movement/coffin-portrait",
       "movement/colonial-limner-painting",
       "movement/computer-art",
       "movement/conceptual-art",

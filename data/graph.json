@@ -3408,6 +3408,79 @@
       "updated": "2026-08-25",
       "path": "entities/movements/byzantine-art.md"
     },
+    "movement/coffin-portrait": {
+      "id": "movement/coffin-portrait",
+      "uri": "urn:ahn:movement/coffin-portrait",
+      "type": "movement",
+      "kind": "period-style",
+      "label_ja": "棺肖像画",
+      "label_en": "Coffin Portrait",
+      "authority": {
+        "wikidata": "Q1542239",
+        "aat": null,
+        "ulan": null,
+        "tgn": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": "1586~",
+        "end": "18XX",
+        "display": "最古の現存例は1586年没のステファン・バートリ王のものとされる。17〜18世紀 （ポーランドのバロック期・サルマティズムの時代）に貴族（シュラフタ）の間で最も盛んに 制作され、最後の記録例は1809年。19世紀、サルマティズムの衰退とともに慣習も消えたとされる"
+      },
+      "naming": {
+        "self_identified": false,
+        "named_by": null,
+        "named_when": null,
+        "original_label": "portret trumienny",
+        "note": "『棺肖像画（portret trumienny）』は制作物の形態・用途に基づく記述的な名称であり、 当事者（画家・発注者である貴族）がこれを集団的な運動の名として名乗った記録は無い"
+      },
+      "claims": [
+        {
+          "field": "time",
+          "source": "https://en.wikipedia.org/wiki/Coffin_portrait",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "originated_in",
+          "source": "https://en.wikipedia.org/wiki/Coffin_portrait",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "kind",
+          "source": "https://en.wikipedia.org/wiki/Coffin_portrait",
+          "certainty": "scholarly"
+        }
+      ],
+      "evidence": [],
+      "space": [
+        {
+          "role": "originated_in",
+          "target": "place/krakow"
+        }
+      ],
+      "relations": [],
+      "sources": [
+        {
+          "url": "https://www.wikidata.org/wiki/Q1542239",
+          "kind": "authority"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Coffin_portrait",
+          "kind": "reference",
+          "note": "『Coffin portrait』の項。ポーランド・リトアニア共和国の貴族の葬儀で用いられた慣習とし、 最古の現存例をステファン・バートリ王（1586年没）のものとする。17〜18世紀に最も盛んになり、 最後の記録例は1809年とする"
+        },
+        {
+          "url": "https://www.dailyartmagazine.com/the-deadly-sarmatians/",
+          "kind": "reference",
+          "note": "ポーランド・リトアニア共和国が、この形式の肖像画を制作した欧州で唯一の国だったと記す"
+        }
+      ],
+      "status": "draft",
+      "updated": "2026-09-15",
+      "path": "entities/movements/coffin-portrait.md"
+    },
     "movement/colonial-limner-painting": {
       "id": "movement/colonial-limner-painting",
       "uri": "urn:ahn:movement/colonial-limner-painting",
@@ -35293,6 +35366,43 @@
       "status": "stub",
       "updated": "2026-08-09",
       "path": "entities/places/kolkata.md"
+    },
+    "place/krakow": {
+      "id": "place/krakow",
+      "uri": "urn:ahn:place/krakow",
+      "type": "place",
+      "label_ja": "クラクフ",
+      "label_en": "Kraków",
+      "authority": {
+        "wikidata": "Q31487",
+        "aat": null,
+        "ulan": null,
+        "tgn": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": null,
+        "end": null,
+        "display": null
+      },
+      "region": "europe-east",
+      "coordinates": [
+        50.06143,
+        19.93658
+      ],
+      "space": [],
+      "relations": [],
+      "sources": [
+        {
+          "url": "https://www.wikidata.org/wiki/Q31487",
+          "kind": "authority"
+        }
+      ],
+      "status": "stub",
+      "updated": "2026-09-15",
+      "path": "entities/places/krakow.md"
     },
     "place/kyoto": {
       "id": "place/kyoto",
@@ -71771,6 +71881,11 @@
       "from": "movement/byzantine-art",
       "type": "originated_in",
       "to": "place/istanbul"
+    },
+    {
+      "from": "movement/coffin-portrait",
+      "type": "originated_in",
+      "to": "place/krakow"
     },
     {
       "from": "movement/colonial-limner-painting",

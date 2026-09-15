@@ -6,6 +6,13 @@ reviews:
   sources:
   - https://www.aibigeiken.com/
   - http://aloalo.co.jp/nakazawa/2016/0501b_j.html
+- movement_id: movement/coffin-portrait
+  status: no-documented-cross-region-relation
+  checked: '2026-09-15'
+  note: 2026-09-15時点で、movement→movement relation、movement→placeのdiffused_to、space.active_in、movement→event/orgのexhibited_at→held_at/sited_inの4経路を、当該movementに登録された資料を対象に確認した。ポーランド・リトアニア共和国以外でこの形式の肖像画は作られなかったとされ、海外美術館収蔵などeurope-east外への文書化された接続は確認できない。
+  sources:
+  - https://www.wikidata.org/wiki/Q1542239
+  - https://en.wikipedia.org/wiki/Coffin_portrait
 - movement_id: movement/colonial-limner-painting
   status: no-documented-cross-region-relation
   checked: '2026-09-15'
