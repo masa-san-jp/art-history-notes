@@ -3,9 +3,9 @@
   "findings": [],
   "cross_region": {
     "schema_version": 1,
-    "movement_total": 143,
+    "movement_total": 144,
     "counts": {
-      "connected": 89,
+      "connected": 90,
       "reviewed-no-documented-link": 54,
       "unreviewed": 0
     },
@@ -27,6 +27,7 @@
       "movement/bengal-school",
       "movement/benin-court-art",
       "movement/bombay-progressive-artists-group",
+      "movement/chola-bronzes",
       "movement/company-painting",
       "movement/computer-art",
       "movement/conceptual-art",
@@ -904,6 +905,49 @@
             "https://en.wikipedia.org/wiki/Byzantine_art"
           ]
         }
+      },
+      {
+        "movement_id": "movement/chola-bronzes",
+        "status": "connected",
+        "origin_regions": [
+          "asia-south"
+        ],
+        "routes": [
+          {
+            "kind": "diffused-to-place",
+            "edges": [
+              {
+                "from": "movement/chola-bronzes",
+                "type": "diffused_to",
+                "to": "place/london",
+                "certainty": "scholarly",
+                "source": "https://www.bmimages.com/preview.asp?image=00033974001"
+              }
+            ],
+            "destination_regions": [
+              "europe-west"
+            ]
+          },
+          {
+            "kind": "diffused-to-place",
+            "edges": [
+              {
+                "from": "movement/chola-bronzes",
+                "type": "diffused_to",
+                "to": "place/new-york-city",
+                "certainty": "scholarly",
+                "source": "https://www.metmuseum.org/art/collection/search/39328"
+              }
+            ],
+            "destination_regions": [
+              "americas-north"
+            ]
+          }
+        ],
+        "reasons": [
+          "2経路で起源region外へ到達"
+        ],
+        "review": null
       },
       {
         "movement_id": "movement/coffin-portrait",
