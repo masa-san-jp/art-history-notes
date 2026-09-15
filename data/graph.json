@@ -3245,6 +3245,84 @@
       "updated": "2026-08-25",
       "path": "entities/movements/byzantine-art.md"
     },
+    "movement/colonial-limner-painting": {
+      "id": "movement/colonial-limner-painting",
+      "uri": "urn:ahn:movement/colonial-limner-painting",
+      "type": "movement",
+      "label_ja": "植民地期リムナー絵画",
+      "label_en": "Colonial Limner Painting",
+      "authority": {
+        "wikidata": "Q1825525",
+        "aat": null,
+        "ulan": null,
+        "tgn": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": "1670",
+        "end": "1728~",
+        "display": "1670年頃（フリーク＝ギブス画家の現存作の最初期）から、1728年のジョン・スミバート（植民地初の アカデミー教育を受けた画家）の渡米前後まで。地方では1728年以降もリムナーの活動が続いたため、終期は おおよその転換点として扱う"
+      },
+      "kind": "retrospective",
+      "naming": {
+        "self_identified": false,
+        "named_by": null,
+        "named_when": null,
+        "original_label": "limner",
+        "note": "'limner'自体は当時（17〜18世紀）すでに肖像画家を指す職業語として使われていたが、無名・独学の 植民地肖像画家群を一つの様式的括りとして扱う美術史上の区分は後代の研究者によるものである。単一の 命名者は特定できないため named_by は null とした"
+      },
+      "claims": [
+        {
+          "field": "time",
+          "source": "https://en.wikipedia.org/wiki/Freake_Painter",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "originated_in",
+          "source": "https://en.wikipedia.org/wiki/Freake_Painter",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "kind",
+          "source": "https://en.wikipedia.org/wiki/Limner",
+          "certainty": "scholarly"
+        }
+      ],
+      "evidence": [],
+      "space": [
+        {
+          "role": "originated_in",
+          "target": "place/boston"
+        }
+      ],
+      "relations": [],
+      "sources": [
+        {
+          "url": "https://www.wikidata.org/wiki/Q1825525",
+          "kind": "authority"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Limner",
+          "kind": "reference",
+          "note": "limnerの一般的な定義。植民地期アメリカで正規の美術教育を受けていない旅回りの肖像画家を指すと記す"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Freake_Painter",
+          "kind": "reference",
+          "note": "『フリーク＝ギブス画家（Freake Painter）』の項。1670〜1674年、ボストンで活動し、現存する 肖像約10点が帰属されると記す。「北米最初期の重要な画家」と評されることも記す"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/John_Smibert",
+          "kind": "reference",
+          "note": "ジョン・スミバートが1728年に植民地へ渡り、『植民地で活動した最初のアカデミー教育を受けた画家』 とされると記す。これをリムナー中心の時代からの転換点として終期の目安に用いた"
+        }
+      ],
+      "status": "draft",
+      "updated": "2026-09-15",
+      "path": "entities/movements/colonial-limner-painting.md"
+    },
     "movement/company-painting": {
       "id": "movement/company-painting",
       "uri": "urn:ahn:movement/company-painting",
@@ -33766,6 +33844,43 @@
       "status": "stub",
       "updated": "2026-08-10",
       "path": "entities/places/bismarck-archipelago.md"
+    },
+    "place/boston": {
+      "id": "place/boston",
+      "uri": "urn:ahn:place/boston",
+      "type": "place",
+      "label_ja": "ボストン",
+      "label_en": "Boston",
+      "authority": {
+        "wikidata": "Q100",
+        "aat": null,
+        "ulan": null,
+        "tgn": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": null,
+        "end": null,
+        "display": null
+      },
+      "region": "americas-north",
+      "coordinates": [
+        42.34889,
+        -71.05444
+      ],
+      "space": [],
+      "relations": [],
+      "sources": [
+        {
+          "url": "https://www.wikidata.org/wiki/Q100",
+          "kind": "authority"
+        }
+      ],
+      "status": "stub",
+      "updated": "2026-09-15",
+      "path": "entities/places/boston.md"
     },
     "place/brazzaville": {
       "id": "place/brazzaville",
@@ -71322,6 +71437,11 @@
       "from": "movement/byzantine-art",
       "type": "originated_in",
       "to": "place/istanbul"
+    },
+    {
+      "from": "movement/colonial-limner-painting",
+      "type": "originated_in",
+      "to": "place/boston"
     },
     {
       "from": "movement/company-painting",

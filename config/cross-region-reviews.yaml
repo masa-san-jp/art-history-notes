@@ -6,6 +6,13 @@ reviews:
   sources:
   - https://www.aibigeiken.com/
   - http://aloalo.co.jp/nakazawa/2016/0501b_j.html
+- movement_id: movement/colonial-limner-painting
+  status: no-documented-cross-region-relation
+  checked: '2026-09-15'
+  note: 2026-09-15時点で、movement→movement relation、movement→placeのdiffused_to、space.active_in、movement→event/orgのexhibited_at→held_at/sited_inの4経路を、当該movementに登録された資料を対象に確認した。フリーク＝ギブス画家らボストンのリムナーはイギリスのエリザベス朝〜初期バロック様式の影響を受けたとされるが、その影響元をmovementエンティティとして登録しておらず、relationsに接続先がない。植民地内での地方への伝播はあり得るが、起源regionと同じamericas-north内にとどまるため4経路の対象にならない。起源region外への文書化された接続は現時点で確認できない。
+  sources:
+  - https://www.wikidata.org/wiki/Q1825525
+  - https://en.wikipedia.org/wiki/Freake_Painter
 - movement_id: movement/arts-and-crafts
   status: no-documented-cross-region-relation
   checked: '2026-08-25'
