@@ -2577,6 +2577,79 @@
       "updated": "2026-08-25",
       "path": "entities/movements/baroque.md"
     },
+    "movement/barroco-mineiro": {
+      "id": "movement/barroco-mineiro",
+      "uri": "urn:ahn:movement/barroco-mineiro",
+      "type": "movement",
+      "kind": "period-style",
+      "label_ja": "ミナス・バロック",
+      "label_en": "Barroco Mineiro",
+      "authority": {
+        "wikidata": "Q16142974",
+        "aat": null,
+        "ulan": null,
+        "tgn": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": "171X",
+        "end": "18XX",
+        "display": "18世紀初頭〜19世紀。中心地ヴィラ・リカ（現オウロ・プレット）の建設が1711年。金・ ダイヤモンド鉱山の繁栄を背景に様式が発達し、アレイジャジーニョ（1738年頃-1814年）の代表作 《十二預言者像》（コンゴーニャス、1800-1805年）を頂点として19世紀まで続いたとされる"
+      },
+      "naming": {
+        "self_identified": false,
+        "named_by": null,
+        "named_when": null,
+        "original_label": "Barroco mineiro",
+        "note": "『ミネイロ（mineiro）』は『ミナスジェライス州の』を意味する形容詞で、後代の美術史記述が 地域名＋様式名として組み合わせた分析的な呼称。当事者（マヌエル・フランシスコ・リズボア、 アレイジャジーニョ、メストレ・アタイーデら）が自らをこの名で呼んだ記録は無い"
+      },
+      "claims": [
+        {
+          "field": "time",
+          "source": "https://en.wikipedia.org/wiki/Aleijadinho",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "originated_in",
+          "source": "https://pt.wikipedia.org/wiki/Barroco_mineiro",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "kind",
+          "source": "https://pt.wikipedia.org/wiki/Barroco_mineiro",
+          "certainty": "scholarly"
+        }
+      ],
+      "evidence": [],
+      "space": [
+        {
+          "role": "originated_in",
+          "target": "place/ouro-preto"
+        }
+      ],
+      "relations": [],
+      "sources": [
+        {
+          "url": "https://www.wikidata.org/wiki/Q16142974",
+          "kind": "authority"
+        },
+        {
+          "url": "https://pt.wikipedia.org/wiki/Barroco_mineiro",
+          "kind": "reference",
+          "note": "『Barroco mineiro』の項。18世紀初頭〜19世紀末、ミナスジェライス州で発達したバロック様式の 地域的変種とし、中心地をヴィラ・リカ（現オウロ・プレット、1711年建設）とする。金・ダイヤモンド 鉱山の繁栄が様式形成の背景と記す"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Aleijadinho",
+          "kind": "reference",
+          "note": "アントニオ・フランシスコ・リズボア（愛称アレイジャジーニョ、1730または1738年-1814年）の 項。ブラジル植民地美術の『ほぼ総意による最大の担い手』とされ、活動地をオウロ・プレット、 サバラー、サン・ジョアン・デル・レイ、コンゴーニャスとする。代表作《十二預言者像》 （コンゴーニャス、1800-1805年、蝋石彫刻）を記す"
+        }
+      ],
+      "status": "draft",
+      "updated": "2026-09-15",
+      "path": "entities/movements/barroco-mineiro.md"
+    },
     "movement/basohli-painting": {
       "id": "movement/basohli-painting",
       "uri": "urn:ahn:movement/basohli-painting",
@@ -35911,6 +35984,43 @@
       "status": "stub",
       "updated": "2026-08-10",
       "path": "entities/places/nok.md"
+    },
+    "place/ouro-preto": {
+      "id": "place/ouro-preto",
+      "uri": "urn:ahn:place/ouro-preto",
+      "type": "place",
+      "label_ja": "オウロ・プレット",
+      "label_en": "Ouro Preto",
+      "authority": {
+        "wikidata": "Q188905",
+        "aat": null,
+        "ulan": null,
+        "tgn": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": null,
+        "end": null,
+        "display": null
+      },
+      "region": "americas-latin",
+      "coordinates": [
+        -20.38528,
+        -43.50361
+      ],
+      "space": [],
+      "relations": [],
+      "sources": [
+        {
+          "url": "https://www.wikidata.org/wiki/Q188905",
+          "kind": "authority"
+        }
+      ],
+      "status": "stub",
+      "updated": "2026-09-15",
+      "path": "entities/places/ouro-preto.md"
     },
     "place/pacific-northwest-coast": {
       "id": "place/pacific-northwest-coast",
@@ -71504,6 +71614,11 @@
       "from": "movement/baroque",
       "type": "originated_in",
       "to": "place/rome"
+    },
+    {
+      "from": "movement/barroco-mineiro",
+      "type": "originated_in",
+      "to": "place/ouro-preto"
     },
     {
       "from": "movement/basohli-painting",

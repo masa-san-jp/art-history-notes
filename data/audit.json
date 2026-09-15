@@ -3,10 +3,10 @@
   "findings": [],
   "cross_region": {
     "schema_version": 1,
-    "movement_total": 126,
+    "movement_total": 127,
     "counts": {
       "connected": 79,
-      "reviewed-no-documented-link": 47,
+      "reviewed-no-documented-link": 48,
       "unreviewed": 0
     },
     "connected": [
@@ -96,6 +96,7 @@
       "movement/bamana-sculpture",
       "movement/barbizon-school",
       "movement/baroque",
+      "movement/barroco-mineiro",
       "movement/byzantine-art",
       "movement/colonial-limner-painting",
       "movement/constructivism",
@@ -624,6 +625,27 @@
           "sources": [
             "https://www.metmuseum.org/ko/essays/baroque-rome",
             "https://www.wikidata.org/wiki/Q37853"
+          ]
+        }
+      },
+      {
+        "movement_id": "movement/barroco-mineiro",
+        "status": "reviewed-no-documented-link",
+        "origin_regions": [
+          "americas-latin"
+        ],
+        "routes": [],
+        "reasons": [
+          "2026-09-15時点で、movement→movement relation、movement→placeのdiffused_to、space.active_in、movement→event/orgのexhibited_at→held_at/sited_inの4経路を、当該movementに登録された資料を対象に確認した。アレイジャジーニョらの作品はほぼ全てミナスジェライス州内に残っており、海外の美術館収蔵などamericas-latin外への文書化された接続は確認できない。"
+        ],
+        "review": {
+          "movement_id": "movement/barroco-mineiro",
+          "status": "no-documented-cross-region-relation",
+          "checked": "2026-09-15",
+          "note": "2026-09-15時点で、movement→movement relation、movement→placeのdiffused_to、space.active_in、movement→event/orgのexhibited_at→held_at/sited_inの4経路を、当該movementに登録された資料を対象に確認した。アレイジャジーニョらの作品はほぼ全てミナスジェライス州内に残っており、海外の美術館収蔵などamericas-latin外への文書化された接続は確認できない。",
+          "sources": [
+            "https://www.wikidata.org/wiki/Q16142974",
+            "https://en.wikipedia.org/wiki/Aleijadinho"
           ]
         }
       },
@@ -3819,7 +3841,7 @@
   "cross_region_baseline": {
     "schema_version": 1,
     "source_commit": "bd15d4c707d6c2fff84ff0c763a993f94cbc3589",
-    "movement_count": 51,
+    "movement_count": 52,
     "movement_ids": [
       "movement/ai-bigeiken",
       "movement/arts-and-crafts",
@@ -3827,6 +3849,7 @@
       "movement/barbizon-school",
       "movement/bark-painting",
       "movement/baroque",
+      "movement/barroco-mineiro",
       "movement/byzantine-art",
       "movement/colonial-limner-painting",
       "movement/computer-art",
