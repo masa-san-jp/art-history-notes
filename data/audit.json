@@ -3,10 +3,10 @@
   "findings": [],
   "cross_region": {
     "schema_version": 1,
-    "movement_total": 136,
+    "movement_total": 137,
     "counts": {
       "connected": 85,
-      "reviewed-no-documented-link": 51,
+      "reviewed-no-documented-link": 52,
       "unreviewed": 0
     },
     "connected": [
@@ -145,6 +145,7 @@
       "movement/stroganov-school",
       "movement/suprematism",
       "movement/surrealism",
+      "movement/ukrainian-baroque",
       "movement/utagawa-school",
       "movement/wu-school",
       "movement/zhe-school"
@@ -3874,6 +3875,27 @@
         "review": null
       },
       {
+        "movement_id": "movement/ukrainian-baroque",
+        "status": "reviewed-no-documented-link",
+        "origin_regions": [
+          "europe-east"
+        ],
+        "routes": [],
+        "reasons": [
+          "2026-09-16時点で、movement→movement relation、movement→placeのdiffused_to、space.active_in、movement→event/orgのexhibited_at→held_at/sited_inの4経路を、当該movementに登録された資料を対象に確認した。起源region外への文書化された接続は確認できない。"
+        ],
+        "review": {
+          "movement_id": "movement/ukrainian-baroque",
+          "status": "no-documented-cross-region-relation",
+          "checked": "2026-09-16",
+          "note": "2026-09-16時点で、movement→movement relation、movement→placeのdiffused_to、space.active_in、movement→event/orgのexhibited_at→held_at/sited_inの4経路を、当該movementに登録された資料を対象に確認した。起源region外への文書化された接続は確認できない。",
+          "sources": [
+            "https://www.wikidata.org/wiki/Q1542287",
+            "https://en.wikipedia.org/wiki/Ukrainian_Baroque"
+          ]
+        }
+      },
+      {
         "movement_id": "movement/utagawa-school",
         "status": "reviewed-no-documented-link",
         "origin_regions": [
@@ -4096,7 +4118,7 @@
   "cross_region_baseline": {
     "schema_version": 1,
     "source_commit": "bd15d4c707d6c2fff84ff0c763a993f94cbc3589",
-    "movement_count": 57,
+    "movement_count": 58,
     "movement_ids": [
       "movement/ai-bigeiken",
       "movement/arts-and-crafts",
@@ -4152,6 +4174,7 @@
       "movement/suprematism",
       "movement/surrealism",
       "movement/tarnovo-artistic-school",
+      "movement/ukrainian-baroque",
       "movement/utagawa-school",
       "movement/wu-school",
       "movement/zhe-school"

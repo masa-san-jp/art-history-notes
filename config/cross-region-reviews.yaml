@@ -356,3 +356,10 @@ reviews:
   sources:
   - https://ja.wikipedia.org/wiki/%E6%B5%99%E6%B4%BE
   - https://www.hkpm.org.hk/en/visit/audio-guide/g4-stories-untold
+- movement_id: movement/ukrainian-baroque
+  status: no-documented-cross-region-relation
+  checked: '2026-09-16'
+  note: 2026-09-16時点で、movement→movement relation、movement→placeのdiffused_to、space.active_in、movement→event/orgのexhibited_at→held_at/sited_inの4経路を、当該movementに登録された資料を対象に確認した。起源region外への文書化された接続は確認できない。
+  sources:
+  - https://www.wikidata.org/wiki/Q1542287
+  - https://en.wikipedia.org/wiki/Ukrainian_Baroque

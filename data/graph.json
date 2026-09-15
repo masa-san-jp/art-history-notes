@@ -15475,6 +15475,79 @@
       "updated": "2026-08-25",
       "path": "entities/movements/tosa-school.md"
     },
+    "movement/ukrainian-baroque": {
+      "id": "movement/ukrainian-baroque",
+      "uri": "urn:ahn:movement/ukrainian-baroque",
+      "type": "movement",
+      "kind": "period-style",
+      "label_ja": "ウクライナ・バロック",
+      "label_en": "Ukrainian Baroque",
+      "authority": {
+        "wikidata": "Q1542287",
+        "aat": null,
+        "ulan": null,
+        "tgn": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": "16XX",
+        "end": "17XX",
+        "display": "17〜18世紀、コサック・ヘーチマン国家（Hetmanate）の時代に広まった。ヘーチマン、 イヴァン・マゼーパの治世（1687-1708年）に最盛期を迎えたとされる"
+      },
+      "naming": {
+        "self_identified": false,
+        "named_by": null,
+        "named_when": null,
+        "original_label": "Українське бароко",
+        "note": "『ウクライナ・バロック』（別名『コサック・バロック』『マゼーパ・バロック』）は後代の 美術史記述による呼称。『マゼーパ・バロック』はヘーチマン、イヴァン・マゼーパの個人名に 由来するが、マゼーパ自身がこの様式を自らの名で名乗った記録は無い"
+      },
+      "claims": [
+        {
+          "field": "time",
+          "source": "https://en.wikipedia.org/wiki/Ukrainian_Baroque",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "originated_in",
+          "source": "https://en.wikipedia.org/wiki/Ukrainian_Baroque",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "kind",
+          "source": "https://en.wikipedia.org/wiki/Ukrainian_Baroque",
+          "certainty": "scholarly"
+        }
+      ],
+      "evidence": [],
+      "space": [
+        {
+          "role": "originated_in",
+          "target": "place/kyiv"
+        }
+      ],
+      "relations": [],
+      "sources": [
+        {
+          "url": "https://www.wikidata.org/wiki/Q1542287",
+          "kind": "authority"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Ukrainian_Baroque",
+          "kind": "reference",
+          "note": "『Ukrainian Baroque』の項。17〜18世紀にウクライナで広まった様式とし、ヘーチマン、 イヴァン・マゼーパの治世（1687-1708年）に最盛期を迎えたと記す。キーウ・チェルニーヒウを 中心地とし、西欧バロックより装飾が控えめで単純な形態を特徴とすると記す"
+        },
+        {
+          "url": "https://www.encyclopediaofukraine.com/display.asp?linkpath=pages%5CP%5CA%5CPortraiture.htm",
+          "kind": "reference",
+          "note": "ウクライナ百科事典の『Portraiture』項。ラテン語persona由来の『パルスナ（parsunnyi）』 肖像画が、フメリニツキー・マゼーパら歴代ヘーチマンを正装で描いたと記す"
+        }
+      ],
+      "status": "draft",
+      "updated": "2026-09-16",
+      "path": "entities/movements/ukrainian-baroque.md"
+    },
     "movement/utagawa-school": {
       "id": "movement/utagawa-school",
       "uri": "urn:ahn:movement/utagawa-school",
@@ -36074,6 +36147,43 @@
       "status": "stub",
       "updated": "2026-09-15",
       "path": "entities/places/krakow.md"
+    },
+    "place/kyiv": {
+      "id": "place/kyiv",
+      "uri": "urn:ahn:place/kyiv",
+      "type": "place",
+      "label_ja": "キーウ",
+      "label_en": "Kyiv",
+      "authority": {
+        "wikidata": "Q1899",
+        "aat": null,
+        "ulan": null,
+        "tgn": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": null,
+        "end": null,
+        "display": null
+      },
+      "region": "europe-east",
+      "coordinates": [
+        50.45,
+        30.5236
+      ],
+      "space": [],
+      "relations": [],
+      "sources": [
+        {
+          "url": "https://www.wikidata.org/wiki/Q1899",
+          "kind": "authority"
+        }
+      ],
+      "status": "stub",
+      "updated": "2026-09-16",
+      "path": "entities/places/kyiv.md"
     },
     "place/kyoto": {
       "id": "place/kyoto",
@@ -74591,6 +74701,11 @@
       "from": "movement/tosa-school",
       "type": "originated_in",
       "to": "place/kyoto"
+    },
+    {
+      "from": "movement/ukrainian-baroque",
+      "type": "originated_in",
+      "to": "place/kyiv"
     },
     {
       "from": "movement/utagawa-school",
