@@ -12457,6 +12457,87 @@
       "updated": "2026-08-25",
       "path": "entities/movements/ottoman-miniature.md"
     },
+    "movement/ottoman-westernization-painting": {
+      "id": "movement/ottoman-westernization-painting",
+      "uri": "urn:ahn:movement/ottoman-westernization-painting",
+      "type": "movement",
+      "kind": "period-style",
+      "label_ja": "オスマン西欧化絵画",
+      "label_en": "Ottoman Westernization Painting",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ulan": null,
+        "tgn": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "この様式・時代区分全体を指すWikidata項目は検索で特定できなかった。中心人物 オスマン・ハムディ・ベイの項目、制度サナーイ・イ・ネフィーセ美術学校の後身ミマール・スィナン 大学の沿革ページは別途sourcesに記載した"
+      },
+      "time": {
+        "start": "1793",
+        "end": "1914",
+        "display": "西洋式の絵画授業は1793年、技術目的でムヒエンディスハーネ（陸軍工兵学校）に設けられた のが最初とされる。1882年（学校設立は1882年1月1日、開校は1883年3月2日）、オスマン・ハムディ・ ベイを初代校長にサナーイ・イ・ネフィーセ美術学校が設立され、本格的な西欧式美術教育が始まった。 1914年、女子校イナス・サナーイ・イ・ネフィーセ美術学校が設立された"
+      },
+      "naming": {
+        "self_identified": false,
+        "named_by": null,
+        "named_when": null,
+        "original_label": "Sanâyi-i Nefîse",
+        "note": "『オスマン西欧化絵画』は後代の美術史記述による時代区分の呼称。制度名『サナーイ・イ・ ネフィーセ（美術）』自体は当事者由来だが、様式全体を指す運動名として当事者が用いた記録は無い"
+      },
+      "claims": [
+        {
+          "field": "time",
+          "source": "https://en.wikipedia.org/wiki/Turkish_painting",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "originated_in",
+          "source": "https://en.wikipedia.org/wiki/Turkish_painting",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "kind",
+          "source": "https://en.wikipedia.org/wiki/Turkish_painting",
+          "certainty": "scholarly"
+        }
+      ],
+      "evidence": [],
+      "space": [
+        {
+          "role": "originated_in",
+          "target": "place/istanbul"
+        }
+      ],
+      "relations": [
+        {
+          "type": "diffused_to",
+          "target": "place/paris",
+          "certainty": "scholarly",
+          "source": "https://en.wikipedia.org/wiki/Keeper_of_the_Mausoleum_(1903)"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Turkish_painting",
+          "kind": "reference",
+          "note": "『Turkish painting』の項。西洋的な意味でのトルコ絵画は19世紀半ばから本格的に発達し、 最初の絵画授業は1793年に陸軍工兵学校で技術目的として設けられたと記す。19世紀の担い手は 多くがオスマン軍学校出身だったと記す"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Osman_Hamdi_Bey",
+          "kind": "reference",
+          "note": "オスマン・ハムディ・ベイ（1842-1910年）の項。イスタンブール考古学博物館とサナーイ・ イ・ネフィーセ美術学校（現ミマール・スィナン大学）の創設者であり、ジャン＝レオン・ジェローム らに師事したと記す"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Keeper_of_the_Mausoleum_(1903)",
+          "kind": "reference",
+          "note": "オスマン・ハムディ・ベイ作《霊廟の番人》（1903年）が現在パリのオルセー美術館に 所蔵されると記す"
+        }
+      ],
+      "status": "draft",
+      "updated": "2026-09-16",
+      "path": "entities/movements/ottoman-westernization-painting.md"
+    },
     "movement/papunya-tula": {
       "id": "movement/papunya-tula",
       "uri": "urn:ahn:movement/papunya-tula",
@@ -74608,6 +74689,18 @@
       "to": "place/istanbul"
     },
     {
+      "from": "movement/ottoman-westernization-painting",
+      "type": "diffused_to",
+      "to": "place/paris",
+      "certainty": "scholarly",
+      "source": "https://en.wikipedia.org/wiki/Keeper_of_the_Mausoleum_(1903)"
+    },
+    {
+      "from": "movement/ottoman-westernization-painting",
+      "type": "originated_in",
+      "to": "place/istanbul"
+    },
+    {
       "from": "movement/papunya-tula",
       "type": "diffused_to",
       "to": "place/new-york-city",
@@ -90958,6 +91051,12 @@
       "from": "movement/safavid-painting",
       "type": "influenced",
       "to": "movement/ottoman-miniature",
+      "derived": true
+    },
+    {
+      "from": "place/paris",
+      "type": "received",
+      "to": "movement/ottoman-westernization-painting",
       "derived": true
     },
     {

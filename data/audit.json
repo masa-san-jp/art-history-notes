@@ -3,9 +3,9 @@
   "findings": [],
   "cross_region": {
     "schema_version": 1,
-    "movement_total": 140,
+    "movement_total": 141,
     "counts": {
-      "connected": 87,
+      "connected": 88,
       "reviewed-no-documented-link": 53,
       "unreviewed": 0
     },
@@ -74,6 +74,7 @@
       "movement/ngati-tarawhai-whakairo",
       "movement/nok-sculpture",
       "movement/novgorod-school-icon-painting",
+      "movement/ottoman-westernization-painting",
       "movement/papunya-tula",
       "movement/peredvizhniki",
       "movement/pita-maha",
@@ -3129,6 +3130,34 @@
             "https://www.britishmuseum.org/collection/object/W_1930-1112-0-4"
           ]
         }
+      },
+      {
+        "movement_id": "movement/ottoman-westernization-painting",
+        "status": "connected",
+        "origin_regions": [
+          "mena"
+        ],
+        "routes": [
+          {
+            "kind": "diffused-to-place",
+            "edges": [
+              {
+                "from": "movement/ottoman-westernization-painting",
+                "type": "diffused_to",
+                "to": "place/paris",
+                "certainty": "scholarly",
+                "source": "https://en.wikipedia.org/wiki/Keeper_of_the_Mausoleum_(1903)"
+              }
+            ],
+            "destination_regions": [
+              "europe-west"
+            ]
+          }
+        ],
+        "reasons": [
+          "1経路で起源region外へ到達"
+        ],
+        "review": null
       },
       {
         "movement_id": "movement/papunya-tula",
