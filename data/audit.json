@@ -3,9 +3,9 @@
   "findings": [],
   "cross_region": {
     "schema_version": 1,
-    "movement_total": 132,
+    "movement_total": 133,
     "counts": {
-      "connected": 82,
+      "connected": 83,
       "reviewed-no-documented-link": 50,
       "unreviewed": 0
     },
@@ -65,6 +65,7 @@
       "movement/mongol-zurag",
       "movement/mughal-painting",
       "movement/nanga",
+      "movement/ndop",
       "movement/negritude",
       "movement/neo-impressionism",
       "movement/neoconcretismo",
@@ -2680,6 +2681,49 @@
         ],
         "reasons": [
           "3経路で起源region外へ到達"
+        ],
+        "review": null
+      },
+      {
+        "movement_id": "movement/ndop",
+        "status": "connected",
+        "origin_regions": [
+          "africa-sub"
+        ],
+        "routes": [
+          {
+            "kind": "diffused-to-place",
+            "edges": [
+              {
+                "from": "movement/ndop",
+                "type": "diffused_to",
+                "to": "place/london",
+                "certainty": "scholarly",
+                "source": "https://en.wikipedia.org/wiki/Ndop_(Kuba)"
+              }
+            ],
+            "destination_regions": [
+              "europe-west"
+            ]
+          },
+          {
+            "kind": "diffused-to-place",
+            "edges": [
+              {
+                "from": "movement/ndop",
+                "type": "diffused_to",
+                "to": "place/new-york-city",
+                "certainty": "scholarly",
+                "source": "https://en.wikipedia.org/wiki/Ndop_(Kuba)"
+              }
+            ],
+            "destination_regions": [
+              "americas-north"
+            ]
+          }
+        ],
+        "reasons": [
+          "2経路で起源region外へ到達"
         ],
         "review": null
       },

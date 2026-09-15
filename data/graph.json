@@ -10866,6 +10866,92 @@
       "updated": "2026-08-25",
       "path": "entities/movements/nanga.md"
     },
+    "movement/ndop": {
+      "id": "movement/ndop",
+      "uri": "urn:ahn:movement/ndop",
+      "type": "movement",
+      "kind": "period-style",
+      "label_ja": "ンドプ",
+      "label_en": "Ndop",
+      "authority": {
+        "wikidata": "Q17144276",
+        "aat": null,
+        "ulan": null,
+        "tgn": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": "178X",
+        "end": "19XX",
+        "display": "英語版Wikipediaは伝統の始まりを『18世紀後半』とする。ただし個々のンドプ像は、より 早い時代（例えば1650年頃・1710年頃・1740年頃在位の王）を遡って表すものもあり、像の制作年代と 表される王の在位年代は区別される。19世紀まで王の即位儀礼に伴い制作が続いたとされる"
+      },
+      "naming": {
+        "self_identified": true,
+        "named_by": null,
+        "named_when": null,
+        "original_label": "ndop",
+        "note": "『ンドプ』はクバ王国の言語で当事者が用いる語であり、後代の外部研究者による命名ではない"
+      },
+      "claims": [
+        {
+          "field": "time",
+          "source": "https://en.wikipedia.org/wiki/Ndop_(Kuba)",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "originated_in",
+          "source": "https://en.wikipedia.org/wiki/Ndop_(Kuba)",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "kind",
+          "source": "https://en.wikipedia.org/wiki/Ndop_(Kuba)",
+          "certainty": "scholarly"
+        }
+      ],
+      "evidence": [],
+      "space": [
+        {
+          "role": "originated_in",
+          "target": "place/mushenge"
+        }
+      ],
+      "relations": [
+        {
+          "type": "diffused_to",
+          "target": "place/london",
+          "certainty": "scholarly",
+          "source": "https://en.wikipedia.org/wiki/Ndop_(Kuba)"
+        },
+        {
+          "type": "diffused_to",
+          "target": "place/new-york-city",
+          "certainty": "scholarly",
+          "source": "https://en.wikipedia.org/wiki/Ndop_(Kuba)"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.wikidata.org/wiki/Q17144276",
+          "kind": "authority"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Ndop_(Kuba)",
+          "kind": "reference",
+          "note": "『Ndop (Kuba)』の項。18世紀後半に伝統が始まったとし、王（nyim）が即位儀礼を終えた後に 制作を発注したと記す。ハンガリー人探検家エミール・トルデーが1907年に大英博物館の資金による 探検で収集した4体、ベルギーの大臣ジュール・レンキンが1909年に収集した1体（現ブルックリン 美術館）を記す。ミシェ・ミシャーング・マムブル王（1710年頃在位）のンドプ（1760-1780年制作、 ブルックリン美術館）を代表例とする"
+        },
+        {
+          "url": "https://www.brooklynmuseum.org/objects/4791",
+          "kind": "institutional",
+          "note": "ブルックリン美術館の作品ページ。所蔵するンドプ像が表す可能性のある王（在位c.1650・ c.1710・c.1740年）を記す"
+        }
+      ],
+      "status": "draft",
+      "updated": "2026-09-16",
+      "path": "entities/movements/ndop.md"
+    },
     "movement/negritude": {
       "id": "movement/negritude",
       "uri": "urn:ahn:movement/negritude",
@@ -36272,6 +36358,43 @@
       "status": "stub",
       "updated": "2026-08-09",
       "path": "entities/places/murshidabad.md"
+    },
+    "place/mushenge": {
+      "id": "place/mushenge",
+      "uri": "urn:ahn:place/mushenge",
+      "type": "place",
+      "label_ja": "ムシェンゲ",
+      "label_en": "Mushenge",
+      "authority": {
+        "wikidata": "Q64577749",
+        "aat": null,
+        "ulan": null,
+        "tgn": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": null,
+        "end": null,
+        "display": null
+      },
+      "region": "africa-sub",
+      "coordinates": [
+        -4.5333,
+        21.35
+      ],
+      "space": [],
+      "relations": [],
+      "sources": [
+        {
+          "url": "https://www.wikidata.org/wiki/Q64577749",
+          "kind": "authority"
+        }
+      ],
+      "status": "stub",
+      "updated": "2026-09-16",
+      "path": "entities/places/mushenge.md"
     },
     "place/nanjing": {
       "id": "place/nanjing",
@@ -73497,6 +73620,25 @@
       "to": "place/tokyo"
     },
     {
+      "from": "movement/ndop",
+      "type": "diffused_to",
+      "to": "place/london",
+      "certainty": "scholarly",
+      "source": "https://en.wikipedia.org/wiki/Ndop_(Kuba)"
+    },
+    {
+      "from": "movement/ndop",
+      "type": "diffused_to",
+      "to": "place/new-york-city",
+      "certainty": "scholarly",
+      "source": "https://en.wikipedia.org/wiki/Ndop_(Kuba)"
+    },
+    {
+      "from": "movement/ndop",
+      "type": "originated_in",
+      "to": "place/mushenge"
+    },
+    {
       "from": "movement/negritude",
       "type": "influenced_by",
       "to": "movement/harlem-renaissance",
@@ -89864,6 +90006,18 @@
       "from": "movement/shanghai-school",
       "type": "influenced",
       "to": "movement/nanga",
+      "derived": true
+    },
+    {
+      "from": "place/london",
+      "type": "received",
+      "to": "movement/ndop",
+      "derived": true
+    },
+    {
+      "from": "place/new-york-city",
+      "type": "received",
+      "to": "movement/ndop",
       "derived": true
     },
     {
