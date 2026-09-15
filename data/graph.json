@@ -481,6 +481,48 @@
       "updated": "2026-08-12",
       "path": "entities/concepts/yohaku.md"
     },
+    "event/documenta-5-1972": {
+      "id": "event/documenta-5-1972",
+      "uri": "urn:ahn:event/documenta-5-1972",
+      "type": "event",
+      "label_ja": "第5回ドクメンタ",
+      "label_en": "documenta 5",
+      "authority": {
+        "wikidata": "Q1233994",
+        "aat": null,
+        "ulan": null,
+        "tgn": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": "1972-06-30",
+        "end": "1972-10-08",
+        "display": "1972年6月30日〜10月8日"
+      },
+      "space": [
+        {
+          "role": "held_at",
+          "target": "place/kassel"
+        }
+      ],
+      "relations": [],
+      "sources": [
+        {
+          "url": "https://www.documenta.de/en/retrospective/documenta_5",
+          "kind": "institutional",
+          "note": "documenta公式アーカイブ。会期・会場（Museum Fridericianum, Friedrichsplatz, Neue Galerie）と出品作家一覧（LeWittを含む）を記す"
+        },
+        {
+          "url": "https://www.wikidata.org/wiki/Q1233994",
+          "kind": "authority"
+        }
+      ],
+      "status": "draft",
+      "updated": "2026-09-15",
+      "path": "entities/events/documenta-5-1972.md"
+    },
     "event/eighth-impressionist-exhibition-1886": {
       "id": "event/eighth-impressionist-exhibition-1886",
       "uri": "urn:ahn:event/eighth-impressionist-exhibition-1886",
@@ -3410,6 +3452,10 @@
         {
           "role": "originated_in",
           "target": "place/paris"
+        },
+        {
+          "role": "active_in",
+          "target": "place/la-jolla"
         }
       ],
       "relations": [
@@ -3447,6 +3493,16 @@
         {
           "url": "https://en.wikipedia.org/wiki/Manfred_Mohr",
           "kind": "reference"
+        },
+        {
+          "url": "https://senate.universityofcalifornia.edu/_files/inmemoriam/html/HaroldCohen.html",
+          "kind": "institutional",
+          "note": "UC Academic Senate In Memoriam。1968年UCSD着任（visiting lecturer）から1994年退官までを記す"
+        },
+        {
+          "url": "https://visarts.ucsd.edu/people/in-memoriam/harold-cohen.html",
+          "kind": "institutional",
+          "note": "UC San Diego Visual Arts学科によるIn Memoriam。学科在籍とProfessor Emeritusの肩書を記す"
         }
       ],
       "status": "draft",
@@ -3512,6 +3568,12 @@
         {
           "type": "created_by",
           "target": "person/sol-lewitt"
+        },
+        {
+          "type": "exhibited_at",
+          "target": "event/documenta-5-1972",
+          "certainty": "attested",
+          "source": "https://www.documenta.de/en/retrospective/documenta_5"
         }
       ],
       "sources": [
@@ -3537,6 +3599,11 @@
           "url": "https://henryflynt.org/aesthetics/conart.html",
           "kind": "reference",
           "note": "Henry Flyntによる「concept art」の先行使用（1961年講演、1963年論考掲載）"
+        },
+        {
+          "url": "https://www.documenta.de/en/retrospective/documenta_5",
+          "kind": "institutional",
+          "note": "documenta公式アーカイブ。1972年第5回documenta（カッセル）の出品作家一覧にLeWittが含まれることを記す"
         }
       ],
       "status": "draft",
@@ -34626,6 +34693,43 @@
       "updated": "2026-08-09",
       "path": "entities/places/kangra.md"
     },
+    "place/kassel": {
+      "id": "place/kassel",
+      "uri": "urn:ahn:place/kassel",
+      "type": "place",
+      "label_ja": "カッセル",
+      "label_en": "Kassel",
+      "authority": {
+        "wikidata": "Q2865",
+        "aat": null,
+        "ulan": null,
+        "tgn": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": null,
+        "end": null,
+        "display": null
+      },
+      "region": "europe-west",
+      "coordinates": [
+        51.31578,
+        9.49792
+      ],
+      "space": [],
+      "relations": [],
+      "sources": [
+        {
+          "url": "https://www.wikidata.org/wiki/Q2865",
+          "kind": "authority"
+        }
+      ],
+      "status": "stub",
+      "updated": "2026-09-15",
+      "path": "entities/places/kassel.md"
+    },
     "place/kathmandu": {
       "id": "place/kathmandu",
       "uri": "urn:ahn:place/kathmandu",
@@ -34731,6 +34835,48 @@
       "status": "stub",
       "updated": "2026-08-08",
       "path": "entities/places/kyoto.md"
+    },
+    "place/la-jolla": {
+      "id": "place/la-jolla",
+      "uri": "urn:ahn:place/la-jolla",
+      "type": "place",
+      "label_ja": "ラホヤ",
+      "label_en": "La Jolla",
+      "authority": {
+        "wikidata": "Q840668",
+        "aat": null,
+        "ulan": null,
+        "tgn": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": null,
+        "end": null,
+        "display": null
+      },
+      "region": "americas-north",
+      "coordinates": [
+        32.84,
+        -117.276944
+      ],
+      "space": [],
+      "relations": [],
+      "sources": [
+        {
+          "url": "https://www.wikidata.org/wiki/Q840668",
+          "kind": "authority"
+        },
+        {
+          "url": "https://senate.universityofcalifornia.edu/_files/inmemoriam/html/HaroldCohen.html",
+          "kind": "institutional",
+          "note": "UC Academic Senate In Memoriam。ハロルド・コーエンが1968年にvisiting lecturerとしてUC San Diegoに着任し、1994年に退官するまで在籍したことを記す"
+        }
+      ],
+      "status": "stub",
+      "updated": "2026-09-15",
+      "path": "entities/places/la-jolla.md"
     },
     "place/lake-okataina": {
       "id": "place/lake-okataina",
@@ -70612,6 +70758,11 @@
       "to": "place/tokyo"
     },
     {
+      "from": "event/documenta-5-1972",
+      "type": "held_at",
+      "to": "place/kassel"
+    },
+    {
       "from": "event/eighth-impressionist-exhibition-1886",
       "type": "held_at",
       "to": "place/paris"
@@ -71124,11 +71275,23 @@
       "to": "place/paris"
     },
     {
+      "from": "movement/computer-art",
+      "type": "active_in",
+      "to": "place/la-jolla"
+    },
+    {
       "from": "movement/conceptual-art",
       "type": "created_by",
       "to": "person/sol-lewitt",
       "certainty": null,
       "source": null
+    },
+    {
+      "from": "movement/conceptual-art",
+      "type": "exhibited_at",
+      "to": "event/documenta-5-1972",
+      "certainty": "attested",
+      "source": "https://www.documenta.de/en/retrospective/documenta_5"
     },
     {
       "from": "movement/conceptual-art",
@@ -87867,6 +88030,12 @@
     {
       "from": "person/sol-lewitt",
       "type": "created",
+      "to": "movement/conceptual-art",
+      "derived": true
+    },
+    {
+      "from": "event/documenta-5-1972",
+      "type": "exhibited",
       "to": "movement/conceptual-art",
       "derived": true
     },

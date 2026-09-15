@@ -66,15 +66,7 @@ movement **122** 件（stub 0件は不算入）／内訳 {'draft': 3, 'stub': 0,
 形式の検証（`build_graph.py --check`）と違って commit は止めない——次に何を調べるかの材料として出す。
 
 <!-- generated:audit:start -->
-**文化圏を跨ぐ関係が無い**
-- 4経路でconnectedにもreviewedにもなっていないmovementが 3/122 件
-
-**文化圏間接続監査（4経路）**
-- connected: 75件
-- reviewed-no-documented-link: 44件
-- unreviewed: 3件
-- baseline: 47件 / 残り未調査: 3件
-- unreviewed ID: `movement/ai-bigeiken`, `movement/computer-art`, `movement/conceptual-art`
+食い違い・偏りの指摘はなし。
 <!-- generated:audit:end -->
 
 ## 需要から決める（探されたが無かった語）

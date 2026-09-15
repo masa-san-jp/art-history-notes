@@ -1,19 +1,13 @@
 {
   "schema_version": 1,
-  "findings": [
-    {
-      "kind": "no-cross-region",
-      "about": "all",
-      "text": "4経路でconnectedにもreviewedにもなっていないmovementが 3/122 件"
-    }
-  ],
+  "findings": [],
   "cross_region": {
     "schema_version": 1,
     "movement_total": 122,
     "counts": {
-      "connected": 75,
-      "reviewed-no-documented-link": 44,
-      "unreviewed": 3
+      "connected": 77,
+      "reviewed-no-documented-link": 45,
+      "unreviewed": 0
     },
     "connected": [
       "movement/abstract-expressionism",
@@ -32,6 +26,8 @@
       "movement/benin-court-art",
       "movement/bombay-progressive-artists-group",
       "movement/company-painting",
+      "movement/computer-art",
+      "movement/conceptual-art",
       "movement/cubo-futurism",
       "movement/cusco-school",
       "movement/dada",
@@ -93,6 +89,7 @@
       "movement/zaria-art-society"
     ],
     "reviewed_no_documented_link": [
+      "movement/ai-bigeiken",
       "movement/arts-and-crafts",
       "movement/bamana-sculpture",
       "movement/barbizon-school",
@@ -138,11 +135,7 @@
       "movement/wu-school",
       "movement/zhe-school"
     ],
-    "unreviewed": [
-      "movement/ai-bigeiken",
-      "movement/computer-art",
-      "movement/conceptual-art"
-    ],
+    "unreviewed": [],
     "movements": [
       {
         "movement_id": "movement/abstract-expressionism",
@@ -189,13 +182,22 @@
       },
       {
         "movement_id": "movement/ai-bigeiken",
-        "status": "unreviewed",
+        "status": "reviewed-no-documented-link",
         "origin_regions": [],
         "routes": [],
         "reasons": [
-          "4経路に起源region外への到達がなく、cross-region reviewもない"
+          "2026-09-15時点で、movement→movement relation、movement→placeのdiffused_to、space.active_in、movement→event/orgのexhibited_at→held_at/sited_inの4経路を、当該movementに登録された資料を対象に確認した。発起人29名のうち27名の氏名・発足地の都市自体が公式サイトから特定できず（originated_inは空欄で発生地未確認）、公式サイトが記録する展覧会「人工知能美学芸術展」（2017-18年、沖縄科学技術大学院大学）も国内会場である。海外への書籍販売の事実は確認できるが、venueへのexhibited_atやplaceへのdiffused_toに当たる資料化された接続ではない。起源regionが未確定であることを含め、4経路による域外接続は確認できない。"
         ],
-        "review": null
+        "review": {
+          "movement_id": "movement/ai-bigeiken",
+          "status": "no-documented-cross-region-relation",
+          "checked": "2026-09-15",
+          "note": "2026-09-15時点で、movement→movement relation、movement→placeのdiffused_to、space.active_in、movement→event/orgのexhibited_at→held_at/sited_inの4経路を、当該movementに登録された資料を対象に確認した。発起人29名のうち27名の氏名・発足地の都市自体が公式サイトから特定できず（originated_inは空欄で発生地未確認）、公式サイトが記録する展覧会「人工知能美学芸術展」（2017-18年、沖縄科学技術大学院大学）も国内会場である。海外への書籍販売の事実は確認できるが、venueへのexhibited_atやplaceへのdiffused_toに当たる資料化された接続ではない。起源regionが未確定であることを含め、4経路による域外接続は確認できない。",
+          "sources": [
+            "https://www.aibigeiken.com/",
+            "http://aloalo.co.jp/nakazawa/2016/0501b_j.html"
+          ]
+        }
       },
       {
         "movement_id": "movement/an-gyeon-school",
@@ -799,25 +801,60 @@
       },
       {
         "movement_id": "movement/computer-art",
-        "status": "unreviewed",
+        "status": "connected",
         "origin_regions": [
           "europe-west"
         ],
-        "routes": [],
+        "routes": [
+          {
+            "kind": "active-in-place",
+            "edges": [
+              {
+                "from": "movement/computer-art",
+                "type": "active_in",
+                "to": "place/la-jolla"
+              }
+            ],
+            "destination_regions": [
+              "americas-north"
+            ]
+          }
+        ],
         "reasons": [
-          "4経路に起源region外への到達がなく、cross-region reviewもない"
+          "1経路で起源region外へ到達"
         ],
         "review": null
       },
       {
         "movement_id": "movement/conceptual-art",
-        "status": "unreviewed",
+        "status": "connected",
         "origin_regions": [
           "americas-north"
         ],
-        "routes": [],
+        "routes": [
+          {
+            "kind": "exhibited-at-place",
+            "edges": [
+              {
+                "from": "movement/conceptual-art",
+                "type": "exhibited_at",
+                "to": "event/documenta-5-1972",
+                "certainty": "attested",
+                "source": "https://www.documenta.de/en/retrospective/documenta_5"
+              },
+              {
+                "from": "event/documenta-5-1972",
+                "type": "held_at",
+                "to": "place/kassel"
+              }
+            ],
+            "destination_regions": [
+              "europe-west"
+            ]
+          }
+        ],
         "reasons": [
-          "4経路に起源region外への到達がなく、cross-region reviewもない"
+          "1経路で起源region外へ到達"
         ],
         "review": null
       },
@@ -3730,15 +3767,7 @@
       "movement/wu-school",
       "movement/zhe-school"
     ],
-    "remaining_unreviewed": [
-      "movement/ai-bigeiken",
-      "movement/computer-art",
-      "movement/conceptual-art"
-    ],
-    "current_unreviewed": [
-      "movement/ai-bigeiken",
-      "movement/computer-art",
-      "movement/conceptual-art"
-    ]
+    "remaining_unreviewed": [],
+    "current_unreviewed": []
   }
 }

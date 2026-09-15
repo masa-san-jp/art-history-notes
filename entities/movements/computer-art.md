@@ -33,6 +33,7 @@ evidence:
 space:
   - {role: originated_in, target: place/stuttgart}
   - {role: originated_in, target: place/paris}
+  - {role: active_in, target: place/la-jolla}
 relations:
   - {type: created_by, target: person/harold-cohen}
   - {type: created_by, target: person/frieder-nake}
@@ -50,6 +51,12 @@ sources:
     kind: reference
   - url: "https://en.wikipedia.org/wiki/Manfred_Mohr"
     kind: reference
+  - url: "https://senate.universityofcalifornia.edu/_files/inmemoriam/html/HaroldCohen.html"
+    kind: institutional
+    note: "UC Academic Senate In Memoriam。1968年UCSD着任（visiting lecturer）から1994年退官までを記す"
+  - url: "https://visarts.ucsd.edu/people/in-memoriam/harold-cohen.html"
+    kind: institutional
+    note: "UC San Diego Visual Arts学科によるIn Memoriam。学科在籍とProfessor Emeritusの肩書を記す"
 status: draft
 updated: 2026-09-15
 ---
@@ -113,10 +120,22 @@ computer art と呼ぶことを拒んだという記録はない。
 記述では、機械は**人間の代わりに描く主体**として位置づけられており、人間に霊感を与える側としては
 描かれていない。
 
+## 文化圏間の接続
+
+起源はシュトゥットガルト／パリ（ともに europe-west）だが、担い手の一人ハロルド・コーエンは1968年に
+米国カリフォルニア州の[ラホヤ](../places/la-jolla.md)（UC San Diego 所在地、americas-north）へ
+visiting lecturer として着任し、1994年の退官まで在籍した（UC Academic Senate In Memoriam、
+機関資料、原文引用）。
+
+> Brought to UC San Diego in 1968 as a visiting lecturer, Cohen was a mainstay of the Visual Arts
+> Department until he retired in 1994.
+
+AARON の開発はUCSD在籍期間中に進んだため、`space.active_in` に la-jolla を追加し、
+europe-west 起源から americas-north への活動の広がりを機械可読に記録した。
+
 ## 未着手
 
 - ヴェラ・モルナール、マンフレート・モーア本人の論考・一次資料への到達（今回は二次情報どまり）
-- コーエンの拠点（UCSD、米国）を place エンティティとして立てるかどうか
 - 1983年 Tate Gallery での AARON 展示の一次アーカイブ記録
 - マックス・ベンゼの情報美学とコンピュータ・アートの理論的な結びつき（ナケ・モーア双方が影響を
   受けたとされるが、ベンゼ自身の一次資料は未確認）

@@ -32,6 +32,7 @@ space:
   - {role: originated_in, target: place/new-york-city}
 relations:
   - {type: created_by, target: person/sol-lewitt}
+  - {type: exhibited_at, target: event/documenta-5-1972, certainty: attested, source: "https://www.documenta.de/en/retrospective/documenta_5"}
 sources:
   - url: "https://www.wikidata.org/wiki/Q203209"
     kind: authority
@@ -46,6 +47,9 @@ sources:
   - url: "https://henryflynt.org/aesthetics/conart.html"
     kind: reference
     note: "Henry Flyntによる「concept art」の先行使用（1961年講演、1963年論考掲載）"
+  - url: "https://www.documenta.de/en/retrospective/documenta_5"
+    kind: institutional
+    note: "documenta公式アーカイブ。1972年第5回documenta（カッセル）の出品作家一覧にLeWittが含まれることを記す"
 status: draft
 updated: 2026-09-15
 ---
@@ -110,6 +114,14 @@ that makes the art」という一節は、アイデアそのものを機械に�
 助手という**人間**である（Wall Drawings の制作構造、二次情報）。したがって、この先行例における
 「契機」は常に作家自身のアイデアに由来し、外部の機械や人工知能に由来するものではない。issueが扱う
 主張とは、**契機の出どころが人間（作家自身）か、人間の外部（機械）か**という一点で分かれる。
+
+## 文化圏間の接続
+
+起源はニューヨーク（americas-north）だが、ルウィットは1972年6月30日〜10月8日、ドイツ・
+[カッセル](../places/kassel.md)（europe-west）で開かれた[第5回ドクメンタ](../events/documenta-5-1972.md)
+に出品した。documenta公式アーカイブが出品作家一覧にLeWittを掲載している（機関資料）。
+`relations` に `exhibited_at` を追加し、americas-north起源からeurope-westへの活動の広がりを
+機械可読に記録した。
 
 ## 未着手
 

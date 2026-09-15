@@ -1,4 +1,11 @@
 reviews:
+- movement_id: movement/ai-bigeiken
+  status: no-documented-cross-region-relation
+  checked: '2026-09-15'
+  note: 2026-09-15時点で、movement→movement relation、movement→placeのdiffused_to、space.active_in、movement→event/orgのexhibited_at→held_at/sited_inの4経路を、当該movementに登録された資料を対象に確認した。発起人29名のうち27名の氏名・発足地の都市自体が公式サイトから特定できず（originated_inは空欄で発生地未確認）、公式サイトが記録する展覧会「人工知能美学芸術展」（2017-18年、沖縄科学技術大学院大学）も国内会場である。海外への書籍販売の事実は確認できるが、venueへのexhibited_atやplaceへのdiffused_toに当たる資料化された接続ではない。起源regionが未確定であることを含め、4経路による域外接続は確認できない。
+  sources:
+  - https://www.aibigeiken.com/
+  - http://aloalo.co.jp/nakazawa/2016/0501b_j.html
 - movement_id: movement/arts-and-crafts
   status: no-documented-cross-region-relation
   checked: '2026-08-25'
