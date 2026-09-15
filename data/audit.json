@@ -3,10 +3,10 @@
   "findings": [],
   "cross_region": {
     "schema_version": 1,
-    "movement_total": 141,
+    "movement_total": 142,
     "counts": {
       "connected": 88,
-      "reviewed-no-documented-link": 53,
+      "reviewed-no-documented-link": 54,
       "unreviewed": 0
     },
     "connected": [
@@ -146,6 +146,7 @@
       "movement/shiraz-school",
       "movement/song-academy-painting",
       "movement/songjiang-school",
+      "movement/southeastern-ceremonial-complex",
       "movement/stroganov-school",
       "movement/suprematism",
       "movement/surrealism",
@@ -3725,6 +3726,27 @@
         }
       },
       {
+        "movement_id": "movement/southeastern-ceremonial-complex",
+        "status": "reviewed-no-documented-link",
+        "origin_regions": [
+          "americas-north"
+        ],
+        "routes": [],
+        "reasons": [
+          "2026-09-16時点で、movement→movement relation、movement→placeのdiffused_to、space.active_in、movement→event/orgのexhibited_at→held_at/sited_inの4経路を、当該movementに登録された資料を対象に確認した。検索した範囲では、海外美術館収蔵などamericas-north外への文書化された接続は確認できない。"
+        ],
+        "review": {
+          "movement_id": "movement/southeastern-ceremonial-complex",
+          "status": "no-documented-cross-region-relation",
+          "checked": "2026-09-16",
+          "note": "2026-09-16時点で、movement→movement relation、movement→placeのdiffused_to、space.active_in、movement→event/orgのexhibited_at→held_at/sited_inの4経路を、当該movementに登録された資料を対象に確認した。検索した範囲では、海外美術館収蔵などamericas-north外への文書化された接続は確認できない。",
+          "sources": [
+            "https://www.wikidata.org/wiki/Q3492313",
+            "https://en.wikipedia.org/wiki/Southeastern_Ceremonial_Complex"
+          ]
+        }
+      },
+      {
         "movement_id": "movement/stroganov-school",
         "status": "reviewed-no-documented-link",
         "origin_regions": [
@@ -4242,7 +4264,7 @@
   "cross_region_baseline": {
     "schema_version": 1,
     "source_commit": "bd15d4c707d6c2fff84ff0c763a993f94cbc3589",
-    "movement_count": 59,
+    "movement_count": 60,
     "movement_ids": [
       "movement/ai-bigeiken",
       "movement/arts-and-crafts",
@@ -4295,6 +4317,7 @@
       "movement/shiraz-school",
       "movement/song-academy-painting",
       "movement/songjiang-school",
+      "movement/southeastern-ceremonial-complex",
       "movement/stroganov-school",
       "movement/suprematism",
       "movement/surrealism",

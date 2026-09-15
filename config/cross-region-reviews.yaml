@@ -370,3 +370,10 @@ reviews:
   sources:
   - https://www.wikidata.org/wiki/Q460596
   - https://en.wikipedia.org/wiki/Br%C3%A2ncovenesc_art
+- movement_id: movement/southeastern-ceremonial-complex
+  status: no-documented-cross-region-relation
+  checked: '2026-09-16'
+  note: 2026-09-16時点で、movement→movement relation、movement→placeのdiffused_to、space.active_in、movement→event/orgのexhibited_at→held_at/sited_inの4経路を、当該movementに登録された資料を対象に確認した。検索した範囲では、海外美術館収蔵などamericas-north外への文書化された接続は確認できない。
+  sources:
+  - https://www.wikidata.org/wiki/Q3492313
+  - https://en.wikipedia.org/wiki/Southeastern_Ceremonial_Complex

@@ -14801,6 +14801,74 @@
       "updated": "2026-08-25",
       "path": "entities/movements/songjiang-school.md"
     },
+    "movement/southeastern-ceremonial-complex": {
+      "id": "movement/southeastern-ceremonial-complex",
+      "uri": "urn:ahn:movement/southeastern-ceremonial-complex",
+      "type": "movement",
+      "kind": "retrospective",
+      "label_ja": "南東部祭祀複合",
+      "label_en": "Southeastern Ceremonial Complex",
+      "authority": {
+        "wikidata": "Q3492313",
+        "aat": null,
+        "ulan": null,
+        "tgn": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": "12XX",
+        "end": "16XX",
+        "display": "1200〜1650年頃。ミシシッピ文化の首長制社会の形成と重なる。中心地カホキア （現イリノイ州）自体は紀元700〜1400年頃に居住されたとされるが、様式的なまとまりとしての 『南東部祭祀複合』は1200年頃から1650年頃までとされる"
+      },
+      "naming": {
+        "self_identified": false,
+        "named_by": null,
+        "named_when": null,
+        "original_label": "Southeastern Ceremonial Complex",
+        "note": "現代の研究者が付けた分析上の呼称（旧称『Southern Cult』『Southern Death Cult』 『Buzzard Cult』）。当事者（ミシシッピ文化の担い手）自身がこの名で自らを呼んだ記録は無い"
+      },
+      "claims": [
+        {
+          "field": "time",
+          "source": "https://en.wikipedia.org/wiki/Southeastern_Ceremonial_Complex",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "originated_in",
+          "source": "https://en.wikipedia.org/wiki/Southeastern_Ceremonial_Complex",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "kind",
+          "source": "https://en.wikipedia.org/wiki/Southeastern_Ceremonial_Complex",
+          "certainty": "scholarly"
+        }
+      ],
+      "evidence": [],
+      "space": [
+        {
+          "role": "originated_in",
+          "target": "place/cahokia"
+        }
+      ],
+      "relations": [],
+      "sources": [
+        {
+          "url": "https://www.wikidata.org/wiki/Q3492313",
+          "kind": "authority"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Southeastern_Ceremonial_Complex",
+          "kind": "reference",
+          "note": "『Southeastern Ceremonial Complex』の項。ミシシッピ文化の遺物・図像・儀礼・神話に 見られる地域的な様式的類似を指す現代の研究者による呼称とし、1200〜1650年頃、トウモロコシ 農耕と首長制の複雑な社会組織の採用と重なると記す。カホキア・エトワ・マウンドヴィル・ スピロなどの遺跡を挙げる"
+        }
+      ],
+      "status": "draft",
+      "updated": "2026-09-16",
+      "path": "entities/movements/southeastern-ceremonial-complex.md"
+    },
     "movement/stroganov-school": {
       "id": "movement/stroganov-school",
       "uri": "urn:ahn:movement/stroganov-school",
@@ -35441,6 +35509,43 @@
       "status": "stub",
       "updated": "2026-09-16",
       "path": "entities/places/bukhara.md"
+    },
+    "place/cahokia": {
+      "id": "place/cahokia",
+      "uri": "urn:ahn:place/cahokia",
+      "type": "place",
+      "label_ja": "カホキア",
+      "label_en": "Cahokia",
+      "authority": {
+        "wikidata": "Q1025785",
+        "aat": null,
+        "ulan": null,
+        "tgn": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": null,
+        "end": null,
+        "display": null
+      },
+      "region": "americas-north",
+      "coordinates": [
+        38.65389,
+        -90.06444
+      ],
+      "space": [],
+      "relations": [],
+      "sources": [
+        {
+          "url": "https://www.wikidata.org/wiki/Q1025785",
+          "kind": "authority"
+        }
+      ],
+      "status": "stub",
+      "updated": "2026-09-16",
+      "path": "entities/places/cahokia.md"
     },
     "place/cairo": {
       "id": "place/cairo",
@@ -75005,6 +75110,11 @@
       "from": "movement/songjiang-school",
       "type": "originated_in",
       "to": "place/songjiang"
+    },
+    {
+      "from": "movement/southeastern-ceremonial-complex",
+      "type": "originated_in",
+      "to": "place/cahokia"
     },
     {
       "from": "movement/stroganov-school",
