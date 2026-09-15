@@ -14,7 +14,7 @@ depends_on: []
 <!-- generated:coverage:start -->
 データの最新日: 2026-09-15 — `uv run --locked python tools/build_graph.py` が生成（手で書き換えない）
 
-movement **122** 件（stub 0件は不算入）／内訳 {'draft': 3, 'stub': 0, 'verified': 119}
+movement **123** 件（stub 0件は不算入）／内訳 {'draft': 4, 'stub': 0, 'verified': 119}
 
 | 文化圏 | 9BCE | 4C | 9C | 10C | 11C | 12C | 13C | 14C | 15C | 16C | 17C | 18C | 19C | 20C | 21C | 年代不明 | 計 |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
@@ -28,7 +28,7 @@ movement **122** 件（stub 0件は不算入）／内訳 {'draft': 3, 'stub': 0,
 | asia-southeast（東南アジア） ※非西洋 |  |  |  |  |  |  |  |  |  | 1 | 1 | 1 | 1 | 4 |  |  | 8 |
 | asia-east-china（中国圏） ※非西洋 |  |  |  | 1 |  |  |  |  | 2 | 2 | 1 | 1 | 1 | 1 |  |  | 9 |
 | asia-east-korea（朝鮮半島） ※非西洋 |  |  |  |  |  |  | 1 |  | 1 |  | 1 | 1 |  | 1 |  |  | 5 |
-| asia-east-japan（日本） ※非西洋 |  |  | 1 |  |  |  | 1 |  | 2 |  | 1 | 3 | 1 | 4 |  |  | 13 |
+| asia-east-japan（日本） ※非西洋 |  |  | 1 |  |  |  | 1 |  | 2 |  | 2 | 3 | 1 | 4 |  |  | 14 |
 | americas-latin（中南米・カリブ） ※非西洋 |  |  |  |  |  |  |  |  |  | 2 |  |  |  | 5 |  |  | 7 |
 | oceania（オセアニア・太平洋） ※非西洋 |  |  |  |  |  |  |  |  |  |  |  |  | 1 | 1 |  | 4 | 6 |
 | **発生地未確認** |  |  |  |  | 1 |  |  |  |  |  |  |  |  |  | 1 |  | 2 |
@@ -41,7 +41,7 @@ movement **122** 件（stub 0件は不算入）／内訳 {'draft': 3, 'stub': 0,
 
 受け入れ条件の達成度:
 
-- movement_total: 122/100（stub 0件は不算入）
+- movement_total: 123/100（stub 0件は不算入）
 - non_west_ratio: 0.66/0.5
 - per_bucket_min: 13/13 バケットが 3件以上
 - pre_1800_ratio: 0.47/0.3

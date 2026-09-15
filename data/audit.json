@@ -3,9 +3,9 @@
   "findings": [],
   "cross_region": {
     "schema_version": 1,
-    "movement_total": 122,
+    "movement_total": 123,
     "counts": {
-      "connected": 77,
+      "connected": 78,
       "reviewed-no-documented-link": 45,
       "unreviewed": 0
     },
@@ -82,6 +82,7 @@
       "movement/tanjore-painting",
       "movement/thirteen-moderns",
       "movement/tosa-school",
+      "movement/ukiyo-e",
       "movement/venetian-school",
       "movement/yamato-e",
       "movement/yangzhou-eccentrics",
@@ -3495,6 +3496,34 @@
         "review": null
       },
       {
+        "movement_id": "movement/ukiyo-e",
+        "status": "connected",
+        "origin_regions": [
+          "asia-east-japan"
+        ],
+        "routes": [
+          {
+            "kind": "diffused-to-place",
+            "edges": [
+              {
+                "from": "movement/ukiyo-e",
+                "type": "diffused_to",
+                "to": "place/paris",
+                "certainty": "scholarly",
+                "source": "https://en.wikipedia.org/wiki/Japonisme"
+              }
+            ],
+            "destination_regions": [
+              "europe-west"
+            ]
+          }
+        ],
+        "reasons": [
+          "1経路で起源region外へ到達"
+        ],
+        "review": null
+      },
+      {
         "movement_id": "movement/utagawa-school",
         "status": "reviewed-no-documented-link",
         "origin_regions": [
@@ -3717,7 +3746,7 @@
   "cross_region_baseline": {
     "schema_version": 1,
     "source_commit": "bd15d4c707d6c2fff84ff0c763a993f94cbc3589",
-    "movement_count": 47,
+    "movement_count": 48,
     "movement_ids": [
       "movement/ai-bigeiken",
       "movement/arts-and-crafts",
@@ -3763,6 +3792,7 @@
       "movement/songjiang-school",
       "movement/suprematism",
       "movement/surrealism",
+      "movement/ukiyo-e",
       "movement/utagawa-school",
       "movement/wu-school",
       "movement/zhe-school"

@@ -14348,6 +14348,100 @@
       "updated": "2026-08-25",
       "path": "entities/movements/tosa-school.md"
     },
+    "movement/ukiyo-e": {
+      "id": "movement/ukiyo-e",
+      "uri": "urn:ahn:movement/ukiyo-e",
+      "type": "movement",
+      "label_ja": "浮世絵",
+      "label_en": "Ukiyo-e",
+      "authority": {
+        "wikidata": "Q185905",
+        "aat": "300106769",
+        "ulan": null,
+        "tgn": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": "1672",
+        "end": "1868~",
+        "display": "1672年頃、菱川師宣の一枚絵が評判を得た時期を起点とした。江戸時代（1600〜1868年）の枠内の様式とするGetty AATの記述に合わせ、終期は明治維新（1868年）とした"
+      },
+      "kind": "retrospective",
+      "naming": {
+        "self_identified": false,
+        "named_by": null,
+        "named_when": null,
+        "original_label": "浮世絵",
+        "note": "「浮世絵師」という呼称は、菱川師宣が歌舞伎・遊里を主題に大衆の支持を得た後にまもなく与えられたと千葉市美術館の解説にあるが、命名者個人は特定できない。同時代の呼称ではあるが、単一の宣言や特定個人による命名ではなく社会が与えた呼称であるため self_identified は false とした"
+      },
+      "claims": [
+        {
+          "field": "time",
+          "source": "https://en.wikipedia.org/wiki/Hishikawa_Moronobu",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "originated_in",
+          "source": "https://www.town.kyonan.chiba.jp/site/hishikawamoronobukinenkan/2460.html",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "kind",
+          "source": "https://www.getty.edu/vow/AATFullDisplay?find=ukiyo-e&logic=AND&note=&english=Y&subjectid=300106769",
+          "certainty": "scholarly"
+        }
+      ],
+      "evidence": [],
+      "space": [
+        {
+          "role": "originated_in",
+          "target": "place/tokyo"
+        }
+      ],
+      "relations": [
+        {
+          "type": "diffused_to",
+          "target": "place/paris",
+          "certainty": "scholarly",
+          "source": "https://en.wikipedia.org/wiki/Japonisme"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.wikidata.org/wiki/Q185905",
+          "kind": "authority"
+        },
+        {
+          "url": "https://www.getty.edu/vow/AATFullDisplay?find=ukiyo-e&logic=AND&note=&english=Y&subjectid=300106769",
+          "kind": "authority"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Hishikawa_Moronobu",
+          "kind": "reference",
+          "note": "菱川師宣が1672年までに評判を得て、以降作品に署名するようになったと記す"
+        },
+        {
+          "url": "https://www.town.kyonan.chiba.jp/site/hishikawamoronobukinenkan/2460.html",
+          "kind": "institutional",
+          "note": "菱川師宣記念館（鋸南町立）公式ページ。師宣を『浮世絵の祖』とし、江戸で活動したことを記す"
+        },
+        {
+          "url": "https://www.ccma-net.jp/exhibitions/special/18-4-6-5-20-2/",
+          "kind": "institutional",
+          "note": "千葉市美術館の企画展解説。師宣が肉筆画・版本・一枚絵の流通を通じて浮世絵文化の礎を作ったと記す"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Japonisme",
+          "kind": "reference",
+          "note": "1860年代以降、浮世絵版画が西洋の芸術家に影響を与え、1862年ロンドン・1867年パリの万国博覧会で日本の工芸品が公開されたと記す。1872年にフィリップ・ビュルティが「ジャポニスム」の語を作った"
+        }
+      ],
+      "status": "draft",
+      "updated": "2026-09-15",
+      "path": "entities/movements/ukiyo-e.md"
+    },
     "movement/utagawa-school": {
       "id": "movement/utagawa-school",
       "uri": "urn:ahn:movement/utagawa-school",
@@ -72942,6 +73036,18 @@
       "to": "place/kyoto"
     },
     {
+      "from": "movement/ukiyo-e",
+      "type": "diffused_to",
+      "to": "place/paris",
+      "certainty": "scholarly",
+      "source": "https://en.wikipedia.org/wiki/Japonisme"
+    },
+    {
+      "from": "movement/ukiyo-e",
+      "type": "originated_in",
+      "to": "place/tokyo"
+    },
+    {
       "from": "movement/utagawa-school",
       "type": "part_of",
       "to": "concept/ukiyo-e",
@@ -88991,6 +89097,12 @@
       "from": "place/new-york-city",
       "type": "received",
       "to": "movement/tosa-school",
+      "derived": true
+    },
+    {
+      "from": "place/paris",
+      "type": "received",
+      "to": "movement/ukiyo-e",
       "derived": true
     },
     {

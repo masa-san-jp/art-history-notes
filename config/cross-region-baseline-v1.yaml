@@ -1,6 +1,6 @@
 schema_version: 1
 source_commit: bd15d4c707d6c2fff84ff0c763a993f94cbc3589
-movement_count: 47
+movement_count: 48
 movement_ids:
   - movement/ai-bigeiken
   - movement/arts-and-crafts
@@ -46,6 +46,7 @@ movement_ids:
   - movement/songjiang-school
   - movement/suprematism
   - movement/surrealism
+  - movement/ukiyo-e
   - movement/utagawa-school
   - movement/wu-school
   - movement/zhe-school
