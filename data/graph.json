@@ -14965,6 +14965,86 @@
       "updated": "2026-08-25",
       "path": "entities/movements/symbolism.md"
     },
+    "movement/talavera-poblana": {
+      "id": "movement/talavera-poblana",
+      "uri": "urn:ahn:movement/talavera-poblana",
+      "type": "movement",
+      "kind": "period-style",
+      "label_ja": "タラベラ・ポブラーナ",
+      "label_en": "Talavera Poblana",
+      "authority": {
+        "wikidata": "Q7678980",
+        "aat": null,
+        "ulan": null,
+        "tgn": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": "1653",
+        "end": "1750~",
+        "display": "1550〜70年代、スペイン・タラベラ・デ・ラ・レイナ出身の職人がプエブラへスズ釉技法を 伝え、現地の意匠と融合したとされる（起源）。ギルドとしての制度化は1652年にプエブラの陶工が 副王へ規約制定を求め、1653年に最初の規約（Ordenanzas）が発布されたことで確立した。1650〜 1750年が『黄金時代』とされる"
+      },
+      "naming": {
+        "self_identified": false,
+        "named_by": null,
+        "named_when": null,
+        "original_label": "Talavera poblana",
+        "note": "スペインの陶器産地タラベラ・デ・ラ・レイナの名を冠した呼称で、プエブラの陶工が当事者と してこの名を制度名（ギルド規約上の呼称）として用いた記録がある一方、様式全体としての 『タラベラ・ポブラーナ』という括りが後代の美術史・工芸史記述でどこまで確立したかは 本調査では厳密に区別できていない"
+      },
+      "claims": [
+        {
+          "field": "time",
+          "source": "https://smarthistory.org/talavera-poblana/",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "originated_in",
+          "source": "https://smarthistory.org/talavera-poblana/",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "kind",
+          "source": "https://smarthistory.org/talavera-poblana/",
+          "certainty": "scholarly"
+        }
+      ],
+      "evidence": [],
+      "space": [
+        {
+          "role": "originated_in",
+          "target": "place/puebla"
+        }
+      ],
+      "relations": [
+        {
+          "type": "diffused_to",
+          "target": "place/new-york-city",
+          "certainty": "scholarly",
+          "source": "https://www.metmuseum.org/essays/talavera-de-puebla"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.wikidata.org/wiki/Q7678980",
+          "kind": "authority"
+        },
+        {
+          "url": "https://smarthistory.org/talavera-poblana/",
+          "kind": "scholarly",
+          "note": "『Talavera poblana』の項。1550-70年代のスペイン職人伝来、1652-53年のギルド規約制定、 1650-1750年の黄金時代を記す"
+        },
+        {
+          "url": "https://www.metmuseum.org/essays/talavera-de-puebla",
+          "kind": "institutional",
+          "note": "メトロポリタン美術館Heilbrunn Timelineの『Talavera de Puebla』essay。17世紀初頭以降 プエブラがメキシコの陶器生産の中心地となり、マニラ・ガレオン船で運ばれた中国磁器の影響を 受けた青白の意匠が特徴と記す。同館所蔵の『Master Potter A』作の水盤（c.1650年）を挙げる"
+        }
+      ],
+      "status": "draft",
+      "updated": "2026-09-16",
+      "path": "entities/movements/talavera-poblana.md"
+    },
     "movement/tanjore-painting": {
       "id": "movement/tanjore-painting",
       "uri": "urn:ahn:movement/tanjore-painting",
@@ -36950,6 +37030,43 @@
       "status": "stub",
       "updated": "2026-08-10",
       "path": "entities/places/patan.md"
+    },
+    "place/puebla": {
+      "id": "place/puebla",
+      "uri": "urn:ahn:place/puebla",
+      "type": "place",
+      "label_ja": "プエブラ",
+      "label_en": "Puebla",
+      "authority": {
+        "wikidata": "Q125293",
+        "aat": null,
+        "ulan": null,
+        "tgn": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": null,
+        "end": null,
+        "display": null
+      },
+      "region": "americas-latin",
+      "coordinates": [
+        19.0333,
+        -98.1833
+      ],
+      "space": [],
+      "relations": [],
+      "sources": [
+        {
+          "url": "https://www.wikidata.org/wiki/Q125293",
+          "kind": "authority"
+        }
+      ],
+      "status": "stub",
+      "updated": "2026-09-16",
+      "path": "entities/places/puebla.md"
     },
     "place/quito": {
       "id": "place/quito",
@@ -74381,6 +74498,18 @@
       "to": "place/paris"
     },
     {
+      "from": "movement/talavera-poblana",
+      "type": "diffused_to",
+      "to": "place/new-york-city",
+      "certainty": "scholarly",
+      "source": "https://www.metmuseum.org/essays/talavera-de-puebla"
+    },
+    {
+      "from": "movement/talavera-poblana",
+      "type": "originated_in",
+      "to": "place/puebla"
+    },
+    {
       "from": "movement/tanjore-painting",
       "type": "patronized_by",
       "to": "org/thanjavur-maratha-kingdom",
@@ -90525,6 +90654,12 @@
       "from": "place/brussels",
       "type": "received",
       "to": "movement/symbolism",
+      "derived": true
+    },
+    {
+      "from": "place/new-york-city",
+      "type": "received",
+      "to": "movement/talavera-poblana",
       "derived": true
     },
     {

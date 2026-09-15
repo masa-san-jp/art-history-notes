@@ -3,9 +3,9 @@
   "findings": [],
   "cross_region": {
     "schema_version": 1,
-    "movement_total": 135,
+    "movement_total": 136,
     "counts": {
-      "connected": 84,
+      "connected": 85,
       "reviewed-no-documented-link": 51,
       "unreviewed": 0
     },
@@ -85,6 +85,7 @@
       "movement/safavid-painting",
       "movement/sienese-school",
       "movement/symbolism",
+      "movement/talavera-poblana",
       "movement/tanjore-painting",
       "movement/tarnovo-artistic-school",
       "movement/thirteen-moderns",
@@ -3709,6 +3710,34 @@
             ],
             "destination_regions": [
               "asia-east-japan"
+            ]
+          }
+        ],
+        "reasons": [
+          "1経路で起源region外へ到達"
+        ],
+        "review": null
+      },
+      {
+        "movement_id": "movement/talavera-poblana",
+        "status": "connected",
+        "origin_regions": [
+          "americas-latin"
+        ],
+        "routes": [
+          {
+            "kind": "diffused-to-place",
+            "edges": [
+              {
+                "from": "movement/talavera-poblana",
+                "type": "diffused_to",
+                "to": "place/new-york-city",
+                "certainty": "scholarly",
+                "source": "https://www.metmuseum.org/essays/talavera-de-puebla"
+              }
+            ],
+            "destination_regions": [
+              "americas-north"
             ]
           }
         ],
