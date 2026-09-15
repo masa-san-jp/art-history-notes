@@ -14,12 +14,12 @@ depends_on: []
 <!-- generated:coverage:start -->
 データの最新日: 2026-09-15 — `uv run --locked python tools/build_graph.py` が生成（手で書き換えない）
 
-movement **128** 件（stub 0件は不算入）／内訳 {'draft': 9, 'stub': 0, 'verified': 119}
+movement **129** 件（stub 0件は不算入）／内訳 {'draft': 10, 'stub': 0, 'verified': 119}
 
 | 文化圏 | 9BCE | 4C | 9C | 10C | 11C | 12C | 13C | 14C | 15C | 16C | 17C | 18C | 19C | 20C | 21C | 年代不明 | 計 |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
 | europe-west（西欧・南欧・北欧） |  |  |  |  |  | 1 | 1 | 1 | 1 | 2 |  | 2 | 9 | 10 |  |  | 27 |
-| europe-east（中東欧・ロシア・ビザンツ圏） |  | 1 |  |  |  | 1 |  |  | 1 | 1 |  |  | 1 | 3 |  |  | 8 |
+| europe-east（中東欧・ロシア・ビザンツ圏） |  | 1 |  |  |  | 1 |  | 1 | 1 | 1 |  |  | 1 | 3 |  |  | 9 |
 | americas-north（北米） |  |  |  |  |  |  |  |  |  |  | 1 |  | 1 | 4 |  | 1 | 7 |
 | mena（中東・北アフリカ） ※非西洋 |  |  |  |  |  | 1 |  | 1 |  | 1 |  | 1 |  | 3 |  |  | 7 |
 | africa-sub（サブサハラ・アフリカ） ※非西洋 | 1 |  |  |  | 1 |  | 1 |  |  |  | 1 |  |  | 3 |  | 2 | 9 |
@@ -41,8 +41,8 @@ movement **128** 件（stub 0件は不算入）／内訳 {'draft': 9, 'stub': 0,
 
 受け入れ条件の達成度:
 
-- movement_total: 128/100（stub 0件は不算入）
-- non_west_ratio: 0.65/0.5
+- movement_total: 129/100（stub 0件は不算入）
+- non_west_ratio: 0.64/0.5
 - per_bucket_min: 13/13 バケットが 3件以上
 - pre_1800_ratio: 0.48/0.3
 - isolated_ratio: 0.00（上限 0.1）

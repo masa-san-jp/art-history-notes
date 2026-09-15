@@ -14621,6 +14621,97 @@
       "updated": "2026-08-25",
       "path": "entities/movements/tanjore-painting.md"
     },
+    "movement/tarnovo-artistic-school": {
+      "id": "movement/tarnovo-artistic-school",
+      "uri": "urn:ahn:movement/tarnovo-artistic-school",
+      "type": "movement",
+      "kind": "period-style",
+      "label_ja": "タルノヴォ画派",
+      "label_en": "Painting of the Tarnovo Artistic School",
+      "authority": {
+        "wikidata": "Q3658056",
+        "aat": null,
+        "ulan": null,
+        "tgn": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": "13XX",
+        "end": "14XX",
+        "display": "13〜14世紀、第二次ブルガリア帝国（1185〜1396年）の首都タルノヴォ（現ヴェリコ・タルノヴォ） を中心地とした。代表例のボヤナ教会壁画は1259年制作。1396年のオスマン帝国による帝国征服が 終期の目安となる"
+      },
+      "naming": {
+        "self_identified": false,
+        "named_by": null,
+        "named_when": null,
+        "original_label": "Търновска художествена школа",
+        "note": "首都タルノヴォの名を冠した括りは後代の美術史記述によるもので、当事者（無名の画家たち）が 自らをこの名で呼んだ記録は無い"
+      },
+      "claims": [
+        {
+          "field": "time",
+          "source": "https://en.wikipedia.org/wiki/Painting_of_the_Tarnovo_Artistic_School",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "originated_in",
+          "source": "https://en.wikipedia.org/wiki/Painting_of_the_Tarnovo_Artistic_School",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "kind",
+          "source": "https://en.wikipedia.org/wiki/Painting_of_the_Tarnovo_Artistic_School",
+          "certainty": "scholarly"
+        }
+      ],
+      "evidence": [],
+      "space": [
+        {
+          "role": "originated_in",
+          "target": "place/veliko-tarnovo"
+        }
+      ],
+      "relations": [
+        {
+          "type": "influenced_by",
+          "target": "movement/byzantine-art",
+          "certainty": "scholarly",
+          "source": "https://en.wikipedia.org/wiki/Painting_of_the_Tarnovo_Artistic_School"
+        },
+        {
+          "type": "diffused_to",
+          "target": "place/london",
+          "certainty": "scholarly",
+          "source": "https://blogs.bl.uk/digitisedmanuscripts/2012/09/the-gospels-of-tsar-ivan-alexander.html"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.wikidata.org/wiki/Q3658056",
+          "kind": "authority"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Painting_of_the_Tarnovo_Artistic_School",
+          "kind": "reference",
+          "note": "『Painting of the Tarnovo Artistic School』の項。13〜14世紀、第二次ブルガリア帝国の 首都タルノヴォを中心地としたブルガリア絵画の主流とし、ビザンティン帝国のパレオロゴス朝 ルネサンスの影響を受けつつ独自の様式を持つと記す。代表的な写本としてソフィア詩篇（1337年）、 トミッチ詩篇（c.1360年）、イヴァン・アレクサンダル皇帝の四福音書（1355-56年、現ロンドン） を挙げる"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Gospels_of_Tsar_Ivan_Alexander",
+          "kind": "reference",
+          "note": "『Gospels of Tsar Ivan Alexander』の項。1355-56年制作、大英図書館Add MS 39627として 現存し、タルノヴォ画派の伝統に連なる複数の匿名画家による366〜367点の細密画を含むと記す"
+        },
+        {
+          "url": "https://blogs.bl.uk/digitisedmanuscripts/2012/09/the-gospels-of-tsar-ivan-alexander.html",
+          "kind": "institutional",
+          "note": "大英図書館公式ブログ。写本が17世紀までにアトス山の聖パウロ修道院に渡り、1837年に 同修道院長からイギリス人旅行者ロバート・カーゾンへ贈られ、最終的に同館所蔵となった経緯を記す"
+        }
+      ],
+      "status": "draft",
+      "updated": "2026-09-15",
+      "path": "entities/movements/tarnovo-artistic-school.md"
+    },
     "movement/thirteen-moderns": {
       "id": "movement/thirteen-moderns",
       "uri": "urn:ahn:movement/thirteen-moderns",
@@ -37370,6 +37461,43 @@
       "status": "stub",
       "updated": "2026-08-09",
       "path": "entities/places/ulaanbaatar.md"
+    },
+    "place/veliko-tarnovo": {
+      "id": "place/veliko-tarnovo",
+      "uri": "urn:ahn:place/veliko-tarnovo",
+      "type": "place",
+      "label_ja": "ヴェリコ・タルノヴォ",
+      "label_en": "Veliko Tarnovo",
+      "authority": {
+        "wikidata": "Q173474",
+        "aat": null,
+        "ulan": null,
+        "tgn": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": null,
+        "end": null,
+        "display": null
+      },
+      "region": "europe-east",
+      "coordinates": [
+        43.07865,
+        25.62829
+      ],
+      "space": [],
+      "relations": [],
+      "sources": [
+        {
+          "url": "https://www.wikidata.org/wiki/Q173474",
+          "kind": "authority"
+        }
+      ],
+      "status": "stub",
+      "updated": "2026-09-15",
+      "path": "entities/places/veliko-tarnovo.md"
     },
     "place/veliky-novgorod": {
       "id": "place/veliky-novgorod",
@@ -73596,6 +73724,25 @@
       "to": "place/thanjavur"
     },
     {
+      "from": "movement/tarnovo-artistic-school",
+      "type": "influenced_by",
+      "to": "movement/byzantine-art",
+      "certainty": "scholarly",
+      "source": "https://en.wikipedia.org/wiki/Painting_of_the_Tarnovo_Artistic_School"
+    },
+    {
+      "from": "movement/tarnovo-artistic-school",
+      "type": "diffused_to",
+      "to": "place/london",
+      "certainty": "scholarly",
+      "source": "https://blogs.bl.uk/digitisedmanuscripts/2012/09/the-gospels-of-tsar-ivan-alexander.html"
+    },
+    {
+      "from": "movement/tarnovo-artistic-school",
+      "type": "originated_in",
+      "to": "place/veliko-tarnovo"
+    },
+    {
       "from": "movement/thirteen-moderns",
       "type": "created_by",
       "to": "person/victorio-edades",
@@ -89684,6 +89831,18 @@
       "from": "movement/realism",
       "type": "influenced",
       "to": "movement/tanjore-painting",
+      "derived": true
+    },
+    {
+      "from": "movement/byzantine-art",
+      "type": "influenced",
+      "to": "movement/tarnovo-artistic-school",
+      "derived": true
+    },
+    {
+      "from": "place/london",
+      "type": "received",
+      "to": "movement/tarnovo-artistic-school",
       "derived": true
     },
     {
