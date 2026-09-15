@@ -3,9 +3,9 @@
   "findings": [],
   "cross_region": {
     "schema_version": 1,
-    "movement_total": 134,
+    "movement_total": 135,
     "counts": {
-      "connected": 83,
+      "connected": 84,
       "reviewed-no-documented-link": 51,
       "unreviewed": 0
     },
@@ -56,6 +56,7 @@
       "movement/kangra-painting",
       "movement/kano-school",
       "movement/lingnan-school",
+      "movement/mamluk-art",
       "movement/maruyama-shijo-school",
       "movement/mavo",
       "movement/menri-school",
@@ -2252,6 +2253,34 @@
             "https://en.wikipedia.org/wiki/Makonde_art"
           ]
         }
+      },
+      {
+        "movement_id": "movement/mamluk-art",
+        "status": "connected",
+        "origin_regions": [
+          "mena"
+        ],
+        "routes": [
+          {
+            "kind": "diffused-to-place",
+            "edges": [
+              {
+                "from": "movement/mamluk-art",
+                "type": "diffused_to",
+                "to": "place/london",
+                "certainty": "scholarly",
+                "source": "https://hyperallergic.com/british-library-digitizes-one-of-the-worlds-oldest-quran-manuscripts/"
+              }
+            ],
+            "destination_regions": [
+              "europe-west"
+            ]
+          }
+        ],
+        "reasons": [
+          "1経路で起源region外へ到達"
+        ],
+        "review": null
       },
       {
         "movement_id": "movement/mandalay-style",

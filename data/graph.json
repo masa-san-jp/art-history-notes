@@ -9298,6 +9298,86 @@
       "updated": "2026-08-25",
       "path": "entities/movements/makonde-carving.md"
     },
+    "movement/mamluk-art": {
+      "id": "movement/mamluk-art",
+      "uri": "urn:ahn:movement/mamluk-art",
+      "type": "movement",
+      "kind": "period-style",
+      "label_ja": "マムルーク美術",
+      "label_en": "Mamluk Art",
+      "authority": {
+        "wikidata": "Q2864675",
+        "aat": null,
+        "ulan": null,
+        "tgn": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": "1250",
+        "end": "1517",
+        "display": "マムルーク朝の成立年は資料により1250年（アイユーブ朝スルターン、アッ＝サーリフの 死とシャジャル・アッ＝ドゥッルの即位）または1260年（モンゴル軍撃退・アッバース朝カリフ制の カイロ再興）とされる。終期は1517年、オスマン帝国による征服。現存最古の年紀入り彩飾クルアーン とされる『バイバルスのクルアーン』は1304-1306年制作"
+      },
+      "naming": {
+        "self_identified": false,
+        "named_by": null,
+        "named_when": null,
+        "original_label": "Mamluk art",
+        "note": "『マムルーク』はアラビア語で『所有された者（奴隷軍人）』を意味する語で、王朝の担い手を 指す語ではあるが、美術の様式を自称する語として当事者が用いた記録は無い。『マムルーク美術』は 王朝名を冠した後代の美術史上の括りである"
+      },
+      "claims": [
+        {
+          "field": "time",
+          "source": "https://www.missedhistory.com/article/mamluk-qurans",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "originated_in",
+          "source": "https://www.missedhistory.com/article/mamluk-qurans",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "kind",
+          "source": "https://www.wikidata.org/wiki/Q2864675",
+          "certainty": "scholarly"
+        }
+      ],
+      "evidence": [],
+      "space": [
+        {
+          "role": "originated_in",
+          "target": "place/cairo"
+        }
+      ],
+      "relations": [
+        {
+          "type": "diffused_to",
+          "target": "place/london",
+          "certainty": "scholarly",
+          "source": "https://hyperallergic.com/british-library-digitizes-one-of-the-worlds-oldest-quran-manuscripts/"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.wikidata.org/wiki/Q2864675",
+          "kind": "authority"
+        },
+        {
+          "url": "https://www.missedhistory.com/article/mamluk-qurans",
+          "kind": "reference",
+          "note": "『Cairo's Golden Words: The Art of Mamluk Qurans』の記事。マムルーク朝（1250-1517年） のカイロで制作された彩飾クルアーンを扱い、現存最古の年紀入り例『バイバルスのクルアーン』 （1304-1306年制作、7巻）を記す"
+        },
+        {
+          "url": "https://hyperallergic.com/british-library-digitizes-one-of-the-worlds-oldest-quran-manuscripts/",
+          "kind": "reference",
+          "note": "スルターン・バイバルス2世治下で制作された『バイバルスのクルアーン』が現在ロンドンの 大英図書館に所蔵されると記す"
+        }
+      ],
+      "status": "draft",
+      "updated": "2026-09-16",
+      "path": "entities/movements/mamluk-art.md"
+    },
     "movement/mandalay-style": {
       "id": "movement/mandalay-style",
       "uri": "urn:ahn:movement/mandalay-style",
@@ -73447,6 +73527,18 @@
       "to": "place/dar-es-salaam"
     },
     {
+      "from": "movement/mamluk-art",
+      "type": "diffused_to",
+      "to": "place/london",
+      "certainty": "scholarly",
+      "source": "https://hyperallergic.com/british-library-digitizes-one-of-the-worlds-oldest-quran-manuscripts/"
+    },
+    {
+      "from": "movement/mamluk-art",
+      "type": "originated_in",
+      "to": "place/cairo"
+    },
+    {
       "from": "movement/mandalay-style",
       "type": "originated_in",
       "to": "place/mandalay"
@@ -89941,6 +90033,12 @@
       "from": "person/mohamed-peera",
       "type": "patronized",
       "to": "movement/makonde-carving",
+      "derived": true
+    },
+    {
+      "from": "place/london",
+      "type": "received",
+      "to": "movement/mamluk-art",
       "derived": true
     },
     {
