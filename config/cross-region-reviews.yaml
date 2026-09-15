@@ -363,3 +363,10 @@ reviews:
   sources:
   - https://www.wikidata.org/wiki/Q1542287
   - https://en.wikipedia.org/wiki/Ukrainian_Baroque
+- movement_id: movement/brancovenesc-art
+  status: no-documented-cross-region-relation
+  checked: '2026-09-16'
+  note: 2026-09-16時点で、movement→movement relation、movement→placeのdiffused_to、space.active_in、movement→event/orgのexhibited_at→held_at/sited_inの4経路を、当該movementに登録された資料を対象に確認した。建築中心の様式であり可動作品の海外収蔵自体が想定しにくく、起源region外への文書化された接続は確認できない。
+  sources:
+  - https://www.wikidata.org/wiki/Q460596
+  - https://en.wikipedia.org/wiki/Br%C3%A2ncovenesc_art

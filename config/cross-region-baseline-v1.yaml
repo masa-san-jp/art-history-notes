@@ -1,6 +1,6 @@
 schema_version: 1
 source_commit: bd15d4c707d6c2fff84ff0c763a993f94cbc3589
-movement_count: 58
+movement_count: 59
 movement_ids:
   - movement/ai-bigeiken
   - movement/arts-and-crafts
@@ -9,6 +9,7 @@ movement_ids:
   - movement/bark-painting
   - movement/baroque
   - movement/barroco-mineiro
+  - movement/brancovenesc-art
   - movement/byzantine-art
   - movement/coffin-portrait
   - movement/colonial-limner-painting

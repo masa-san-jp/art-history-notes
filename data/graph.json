@@ -3281,6 +3281,74 @@
       "updated": "2026-08-25",
       "path": "entities/movements/bombay-progressive-artists-group.md"
     },
+    "movement/brancovenesc-art": {
+      "id": "movement/brancovenesc-art",
+      "uri": "urn:ahn:movement/brancovenesc-art",
+      "type": "movement",
+      "kind": "retrospective",
+      "label_ja": "ブルンコヴェネスク様式",
+      "label_en": "Brâncovenesc Art",
+      "authority": {
+        "wikidata": "Q460596",
+        "aat": null,
+        "ulan": null,
+        "tgn": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": "1688",
+        "end": "1714",
+        "display": "ワラキア公コンスタンティン・ブルンコヴェアヌの治世（1688-1714年）に発達した"
+      },
+      "naming": {
+        "self_identified": false,
+        "named_by": null,
+        "named_when": null,
+        "original_label": "stil brâncovenesc",
+        "note": "『ブルンコヴェネスク』は公コンスタンティン・ブルンコヴェアヌの名に由来する呼称だが、 様式全体を指す名として当事者（建築家・職人）自身が用いた記録は無い。ブルンコヴェアヌ自身は 建設事業の発注者ではあるが、様式そのものの命名者だという記録には当たっておらず、後代の 美術史記述による呼称である可能性が高い。person/movement双方ともこのKBに未登録のため named_byはnullとした"
+      },
+      "claims": [
+        {
+          "field": "time",
+          "source": "https://en.wikipedia.org/wiki/Br%C3%A2ncovenesc_art",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "originated_in",
+          "source": "https://en.wikipedia.org/wiki/Br%C3%A2ncovenesc_art",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "kind",
+          "source": "https://en.wikipedia.org/wiki/Br%C3%A2ncovenesc_art",
+          "certainty": "scholarly"
+        }
+      ],
+      "evidence": [],
+      "space": [
+        {
+          "role": "originated_in",
+          "target": "place/bucharest"
+        }
+      ],
+      "relations": [],
+      "sources": [
+        {
+          "url": "https://www.wikidata.org/wiki/Q460596",
+          "kind": "authority"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Br%C3%A2ncovenesc_art",
+          "kind": "reference",
+          "note": "『Brâncovenesc art』の項。ワラキア公コンスタンティン・ブルンコヴェアヌ（在位1688-1714年） の治世に発達した様式とし、ビザンティン・オスマン・盛期ルネサンスの融合と記す。代表例として UNESCO世界遺産のホレズ修道院、モゴショアイア宮殿、クレツレスク教会（1722年完成）を挙げる"
+        }
+      ],
+      "status": "draft",
+      "updated": "2026-09-16",
+      "path": "entities/movements/brancovenesc-art.md"
+    },
     "movement/byzantine-art": {
       "id": "movement/byzantine-art",
       "uri": "urn:ahn:movement/byzantine-art",
@@ -35011,6 +35079,43 @@
       "status": "stub",
       "updated": "2026-08-09",
       "path": "entities/places/brussels.md"
+    },
+    "place/bucharest": {
+      "id": "place/bucharest",
+      "uri": "urn:ahn:place/bucharest",
+      "type": "place",
+      "label_ja": "ブカレスト",
+      "label_en": "Bucharest",
+      "authority": {
+        "wikidata": "Q19660",
+        "aat": null,
+        "ulan": null,
+        "tgn": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": null,
+        "end": null,
+        "display": null
+      },
+      "region": "europe-east",
+      "coordinates": [
+        44.4134,
+        26.0978
+      ],
+      "space": [],
+      "relations": [],
+      "sources": [
+        {
+          "url": "https://www.wikidata.org/wiki/Q19660",
+          "kind": "authority"
+        }
+      ],
+      "status": "stub",
+      "updated": "2026-09-16",
+      "path": "entities/places/bucharest.md"
     },
     "place/buenos-aires": {
       "id": "place/buenos-aires",
@@ -72842,6 +72947,11 @@
       "from": "movement/bombay-progressive-artists-group",
       "type": "originated_in",
       "to": "place/mumbai"
+    },
+    {
+      "from": "movement/brancovenesc-art",
+      "type": "originated_in",
+      "to": "place/bucharest"
     },
     {
       "from": "movement/byzantine-art",

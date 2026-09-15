@@ -3,10 +3,10 @@
   "findings": [],
   "cross_region": {
     "schema_version": 1,
-    "movement_total": 137,
+    "movement_total": 138,
     "counts": {
       "connected": 85,
-      "reviewed-no-documented-link": 52,
+      "reviewed-no-documented-link": 53,
       "unreviewed": 0
     },
     "connected": [
@@ -103,6 +103,7 @@
       "movement/barbizon-school",
       "movement/baroque",
       "movement/barroco-mineiro",
+      "movement/brancovenesc-art",
       "movement/byzantine-art",
       "movement/coffin-portrait",
       "movement/colonial-limner-painting",
@@ -813,6 +814,27 @@
           "2経路で起源region外へ到達"
         ],
         "review": null
+      },
+      {
+        "movement_id": "movement/brancovenesc-art",
+        "status": "reviewed-no-documented-link",
+        "origin_regions": [
+          "europe-east"
+        ],
+        "routes": [],
+        "reasons": [
+          "2026-09-16時点で、movement→movement relation、movement→placeのdiffused_to、space.active_in、movement→event/orgのexhibited_at→held_at/sited_inの4経路を、当該movementに登録された資料を対象に確認した。建築中心の様式であり可動作品の海外収蔵自体が想定しにくく、起源region外への文書化された接続は確認できない。"
+        ],
+        "review": {
+          "movement_id": "movement/brancovenesc-art",
+          "status": "no-documented-cross-region-relation",
+          "checked": "2026-09-16",
+          "note": "2026-09-16時点で、movement→movement relation、movement→placeのdiffused_to、space.active_in、movement→event/orgのexhibited_at→held_at/sited_inの4経路を、当該movementに登録された資料を対象に確認した。建築中心の様式であり可動作品の海外収蔵自体が想定しにくく、起源region外への文書化された接続は確認できない。",
+          "sources": [
+            "https://www.wikidata.org/wiki/Q460596",
+            "https://en.wikipedia.org/wiki/Br%C3%A2ncovenesc_art"
+          ]
+        }
       },
       {
         "movement_id": "movement/byzantine-art",
@@ -4118,7 +4140,7 @@
   "cross_region_baseline": {
     "schema_version": 1,
     "source_commit": "bd15d4c707d6c2fff84ff0c763a993f94cbc3589",
-    "movement_count": 58,
+    "movement_count": 59,
     "movement_ids": [
       "movement/ai-bigeiken",
       "movement/arts-and-crafts",
@@ -4127,6 +4149,7 @@
       "movement/bark-painting",
       "movement/baroque",
       "movement/barroco-mineiro",
+      "movement/brancovenesc-art",
       "movement/byzantine-art",
       "movement/coffin-portrait",
       "movement/colonial-limner-painting",
