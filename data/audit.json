@@ -3,9 +3,9 @@
   "findings": [],
   "cross_region": {
     "schema_version": 1,
-    "movement_total": 124,
+    "movement_total": 125,
     "counts": {
-      "connected": 77,
+      "connected": 78,
       "reviewed-no-documented-link": 47,
       "unreviewed": 0
     },
@@ -20,6 +20,7 @@
       "movement/baghdad-modern-art-group",
       "movement/baghdad-school-of-illustration",
       "movement/bandung-school",
+      "movement/bark-painting",
       "movement/basohli-painting",
       "movement/bauhaus",
       "movement/bengal-school",
@@ -575,6 +576,34 @@
             "https://en.wikipedia.org/wiki/Barbizon_school"
           ]
         }
+      },
+      {
+        "movement_id": "movement/bark-painting",
+        "status": "connected",
+        "origin_regions": [
+          "oceania"
+        ],
+        "routes": [
+          {
+            "kind": "diffused-to-place",
+            "edges": [
+              {
+                "from": "movement/bark-painting",
+                "type": "diffused_to",
+                "to": "place/new-york-city",
+                "certainty": "scholarly",
+                "source": "https://www.metmuseum.org/art/collection/search/313650"
+              }
+            ],
+            "destination_regions": [
+              "americas-north"
+            ]
+          }
+        ],
+        "reasons": [
+          "1経路で起源region外へ到達"
+        ],
+        "review": null
       },
       {
         "movement_id": "movement/baroque",
@@ -3761,12 +3790,13 @@
   "cross_region_baseline": {
     "schema_version": 1,
     "source_commit": "bd15d4c707d6c2fff84ff0c763a993f94cbc3589",
-    "movement_count": 49,
+    "movement_count": 50,
     "movement_ids": [
       "movement/ai-bigeiken",
       "movement/arts-and-crafts",
       "movement/bamana-sculpture",
       "movement/barbizon-school",
+      "movement/bark-painting",
       "movement/baroque",
       "movement/byzantine-art",
       "movement/colonial-limner-painting",

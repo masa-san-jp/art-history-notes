@@ -2419,6 +2419,96 @@
       "updated": "2026-08-25",
       "path": "entities/movements/barbizon-school.md"
     },
+    "movement/bark-painting": {
+      "id": "movement/bark-painting",
+      "uri": "urn:ahn:movement/bark-painting",
+      "type": "movement",
+      "kind": "retrospective",
+      "label_ja": "樹皮画",
+      "label_en": "Bark Painting",
+      "authority": {
+        "wikidata": "Q4860878",
+        "aat": null,
+        "ulan": null,
+        "tgn": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": null,
+        "end": "..",
+        "display": "起源は特定できない（樹皮の物証は劣化しやすく、シェルター壁面への樹皮画はミレニアム単位で 続いてきたとされるが、開始点を示す一次資料には本調査では到達していない）。持ち運び可能な樹皮画 として外部の収集・鑑賞の対象になったのは、1912年のボールドウィン・スペンサーによる西アーネム ランド（Oenpelli）での収集が最初期とされ、1929年にはヴィクトリア国立美術館が民族誌博物館の外で 初めての樹皮画展を開いた。1960〜70年代、国際的な収集家の関心の高まりと『ホームランド運動』 （自らの土地への帰還）を背景に制作が『flourish（花開いた）』とされ、現在も継続する"
+      },
+      "naming": {
+        "self_identified": false,
+        "named_by": null,
+        "named_when": null,
+        "original_label": "bark painting",
+        "note": "『樹皮画（bark painting）』は媒体（樹皮）に基づく外部・分析的な括りであり、担い手（ヨルング、 クニンジュクなど個々の民族集団）が自らの制作を指して用いる集合的な自称ではない。当事者は自らの 民族名やクラン（氏族）名で自分の制作を語り、氏族固有の文様（西部のrarrk、東部のminy'tji）の 所有権を語る。北西海岸先住民の彫刻（movement/northwest-coast-carving）と同じ構造の外部性を持つ ため、self_identifiedはfalseとした"
+      },
+      "claims": [
+        {
+          "field": "time",
+          "source": "https://www.nma.gov.au/exhibitions/old-masters/history",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "originated_in",
+          "source": "https://www.nma.gov.au/exhibitions/old-masters/western-arnhem-land",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "kind",
+          "source": "https://www.wikidata.org/wiki/Q4860878",
+          "certainty": "scholarly"
+        }
+      ],
+      "evidence": [],
+      "space": [
+        {
+          "role": "originated_in",
+          "target": "place/arnhem-land"
+        }
+      ],
+      "relations": [
+        {
+          "type": "diffused_to",
+          "target": "place/new-york-city",
+          "certainty": "scholarly",
+          "source": "https://www.metmuseum.org/art/collection/search/313650"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.wikidata.org/wiki/Q4860878",
+          "kind": "authority"
+        },
+        {
+          "url": "https://www.nma.gov.au/exhibitions/old-masters/history",
+          "kind": "institutional",
+          "note": "国立オーストラリア博物館『Old Masters』展の解説。1912年のボールドウィン・スペンサーによる 西アーネムランドでの収集、1929年のヴィクトリア国立美術館での展示、1970年代の『ホームランド 運動』を背景とした隆盛を記す"
+        },
+        {
+          "url": "https://www.nma.gov.au/exhibitions/old-masters/western-arnhem-land",
+          "kind": "institutional",
+          "note": "同展の西アーネムランド解説ページ"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Bark_painting",
+          "kind": "reference",
+          "note": "樹皮画の技法（樹皮の採取・加熱・平坦化、天然顔料）と、1960年代の国際的な収集家の関心を 記す"
+        },
+        {
+          "url": "https://www.metmuseum.org/art/collection/search/313650",
+          "kind": "institutional",
+          "note": "メトロポリタン美術館収蔵、アニンディルヤクワ（Groote Eylandt、アーネムランド東部沖）の 樹皮画。同館の解説は『Bark painting in Arnhem Land is one of the most dynamic contemporary art movements in Australia』と記し、Groote Eylandtが『1920年代以来、樹皮画の中心地』 だったとする"
+        }
+      ],
+      "status": "draft",
+      "updated": "2026-09-15",
+      "path": "entities/movements/bark-painting.md"
+    },
     "movement/baroque": {
       "id": "movement/baroque",
       "uri": "urn:ahn:movement/baroque",
@@ -33442,6 +33532,43 @@
       "status": "stub",
       "updated": "2026-08-10",
       "path": "entities/places/ahmadnagar.md"
+    },
+    "place/arnhem-land": {
+      "id": "place/arnhem-land",
+      "uri": "urn:ahn:place/arnhem-land",
+      "type": "place",
+      "label_ja": "アーネムランド",
+      "label_en": "Arnhem Land",
+      "authority": {
+        "wikidata": "Q329884",
+        "aat": null,
+        "ulan": null,
+        "tgn": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": null,
+        "end": null,
+        "display": null
+      },
+      "region": "oceania",
+      "coordinates": [
+        -12.73,
+        134.59
+      ],
+      "space": [],
+      "relations": [],
+      "sources": [
+        {
+          "url": "https://www.wikidata.org/wiki/Q329884",
+          "kind": "authority"
+        }
+      ],
+      "status": "stub",
+      "updated": "2026-09-15",
+      "path": "entities/places/arnhem-land.md"
     },
     "place/ashiya": {
       "id": "place/ashiya",
@@ -71277,6 +71404,18 @@
       "to": "place/barbizon"
     },
     {
+      "from": "movement/bark-painting",
+      "type": "diffused_to",
+      "to": "place/new-york-city",
+      "certainty": "scholarly",
+      "source": "https://www.metmuseum.org/art/collection/search/313650"
+    },
+    {
+      "from": "movement/bark-painting",
+      "type": "originated_in",
+      "to": "place/arnhem-land"
+    },
+    {
       "from": "movement/baroque",
       "type": "originated_in",
       "to": "place/rome"
@@ -88132,6 +88271,12 @@
       "from": "movement/cubism",
       "type": "influenced",
       "to": "movement/bandung-school",
+      "derived": true
+    },
+    {
+      "from": "place/new-york-city",
+      "type": "received",
+      "to": "movement/bark-painting",
       "derived": true
     },
     {
