@@ -15104,6 +15104,87 @@
       "updated": "2026-09-16",
       "path": "entities/movements/stroganov-school.md"
     },
+    "movement/sukhothai-art": {
+      "id": "movement/sukhothai-art",
+      "uri": "urn:ahn:movement/sukhothai-art",
+      "type": "movement",
+      "kind": "period-style",
+      "label_ja": "スコータイ美術",
+      "label_en": "Sukhothai Art",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ulan": null,
+        "tgn": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "『スコータイ美術』全体を指すWikidata項目は検索で特定できなかった。王国自体・ 代表的な寺院ワット・マハータートの項目は別途sourcesに記載した"
+      },
+      "time": {
+        "start": "1200",
+        "end": "1350~",
+        "display": "スコータイ王国の存続期間（伝統的な建国年は1238年、Smarthistoryは代表様式 『歩行仏（Walking Buddha）』を1200-1350年のスコータイ王国の古典様式とする）。歩行仏 という様式的発明自体は14世紀とされる"
+      },
+      "naming": {
+        "self_identified": false,
+        "named_by": null,
+        "named_when": null,
+        "original_label": "Sukhothai style",
+        "note": "地名『スコータイ』を冠した後代の美術史記述による様式区分。当事者がこの名で自らの 様式を運動として名乗った記録は無い"
+      },
+      "claims": [
+        {
+          "field": "time",
+          "source": "https://smarthistory.org/sukhothai-walking-buddha/",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "originated_in",
+          "source": "https://smarthistory.org/sukhothai-walking-buddha/",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "kind",
+          "source": "https://smarthistory.org/sukhothai-walking-buddha/",
+          "certainty": "scholarly"
+        }
+      ],
+      "evidence": [],
+      "space": [
+        {
+          "role": "originated_in",
+          "target": "place/sukhothai"
+        }
+      ],
+      "relations": [
+        {
+          "type": "diffused_to",
+          "target": "place/new-york-city",
+          "certainty": "scholarly",
+          "source": "https://www.metmuseum.org/art/collection/search/39102"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.wikidata.org/wiki/Q986737",
+          "kind": "authority",
+          "note": "スコータイ市（旧王都）の項目"
+        },
+        {
+          "url": "https://smarthistory.org/sukhothai-walking-buddha/",
+          "kind": "scholarly",
+          "note": "『Sukhothai Walking Buddha』の項。歩行仏をスコータイ王国（1200-1350年）の 古典様式の代表像とし、インドに先行例を持たないタイ独自の発明と記す。スリランカの 上座部仏教美術が最も直接の影響源とする"
+        },
+        {
+          "url": "https://www.metmuseum.org/art/collection/search/39102",
+          "kind": "institutional",
+          "note": "メトロポリタン美術館収蔵《歩行仏》（タイ）"
+        }
+      ],
+      "status": "draft",
+      "updated": "2026-09-16",
+      "path": "entities/movements/sukhothai-art.md"
+    },
     "movement/suprematism": {
       "id": "movement/suprematism",
       "uri": "urn:ahn:movement/suprematism",
@@ -38535,6 +38616,43 @@
       "status": "stub",
       "updated": "2026-09-15",
       "path": "entities/places/stuttgart.md"
+    },
+    "place/sukhothai": {
+      "id": "place/sukhothai",
+      "uri": "urn:ahn:place/sukhothai",
+      "type": "place",
+      "label_ja": "スコータイ",
+      "label_en": "Sukhothai",
+      "authority": {
+        "wikidata": "Q986737",
+        "aat": null,
+        "ulan": null,
+        "tgn": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": null,
+        "end": null,
+        "display": null
+      },
+      "region": "asia-southeast",
+      "coordinates": [
+        17.0142,
+        99.8219
+      ],
+      "space": [],
+      "relations": [],
+      "sources": [
+        {
+          "url": "https://www.wikidata.org/wiki/Q986737",
+          "kind": "authority"
+        }
+      ],
+      "status": "stub",
+      "updated": "2026-09-16",
+      "path": "entities/places/sukhothai.md"
     },
     "place/suzhou": {
       "id": "place/suzhou",
@@ -75357,6 +75475,18 @@
       "to": "place/moscow"
     },
     {
+      "from": "movement/sukhothai-art",
+      "type": "diffused_to",
+      "to": "place/new-york-city",
+      "certainty": "scholarly",
+      "source": "https://www.metmuseum.org/art/collection/search/39102"
+    },
+    {
+      "from": "movement/sukhothai-art",
+      "type": "originated_in",
+      "to": "place/sukhothai"
+    },
+    {
       "from": "movement/suprematism",
       "type": "created_by",
       "to": "person/kazimir-malevich",
@@ -91588,6 +91718,12 @@
       "from": "movement/shanghai-school",
       "type": "follows",
       "to": "movement/songjiang-school",
+      "derived": true
+    },
+    {
+      "from": "place/new-york-city",
+      "type": "received",
+      "to": "movement/sukhothai-art",
       "derived": true
     },
     {

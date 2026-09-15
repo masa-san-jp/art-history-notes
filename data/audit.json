@@ -3,9 +3,9 @@
   "findings": [],
   "cross_region": {
     "schema_version": 1,
-    "movement_total": 144,
+    "movement_total": 145,
     "counts": {
-      "connected": 90,
+      "connected": 91,
       "reviewed-no-documented-link": 54,
       "unreviewed": 0
     },
@@ -88,6 +88,7 @@
       "movement/renaissance",
       "movement/safavid-painting",
       "movement/sienese-school",
+      "movement/sukhothai-art",
       "movement/suzani",
       "movement/symbolism",
       "movement/talavera-poblana",
@@ -3839,6 +3840,34 @@
             "https://en.wikipedia.org/wiki/Stroganov_School"
           ]
         }
+      },
+      {
+        "movement_id": "movement/sukhothai-art",
+        "status": "connected",
+        "origin_regions": [
+          "asia-southeast"
+        ],
+        "routes": [
+          {
+            "kind": "diffused-to-place",
+            "edges": [
+              {
+                "from": "movement/sukhothai-art",
+                "type": "diffused_to",
+                "to": "place/new-york-city",
+                "certainty": "scholarly",
+                "source": "https://www.metmuseum.org/art/collection/search/39102"
+              }
+            ],
+            "destination_regions": [
+              "americas-north"
+            ]
+          }
+        ],
+        "reasons": [
+          "1経路で起源region外へ到達"
+        ],
+        "review": null
       },
       {
         "movement_id": "movement/suprematism",
