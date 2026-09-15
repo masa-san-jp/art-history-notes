@@ -3,9 +3,9 @@
   "findings": [],
   "cross_region": {
     "schema_version": 1,
-    "movement_total": 142,
+    "movement_total": 143,
     "counts": {
-      "connected": 88,
+      "connected": 89,
       "reviewed-no-documented-link": 54,
       "unreviewed": 0
     },
@@ -56,6 +56,7 @@
       "movement/kanga",
       "movement/kangra-painting",
       "movement/kano-school",
+      "movement/khmer-art",
       "movement/lingnan-school",
       "movement/mamluk-art",
       "movement/maruyama-shijo-school",
@@ -2180,6 +2181,34 @@
             "https://www.himalayanart.org/search/set.cfm?setID=248"
           ]
         }
+      },
+      {
+        "movement_id": "movement/khmer-art",
+        "status": "connected",
+        "origin_regions": [
+          "asia-southeast"
+        ],
+        "routes": [
+          {
+            "kind": "diffused-to-place",
+            "edges": [
+              {
+                "from": "movement/khmer-art",
+                "type": "diffused_to",
+                "to": "place/paris",
+                "certainty": "scholarly",
+                "source": "https://cambodianess.com/article/the-musee-guimet-and-the-khmer-treasures-of-paris"
+              }
+            ],
+            "destination_regions": [
+              "europe-west"
+            ]
+          }
+        ],
+        "reasons": [
+          "1経路で起源region外へ到達"
+        ],
+        "review": null
       },
       {
         "movement_id": "movement/khyenri-school",

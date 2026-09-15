@@ -8791,6 +8791,86 @@
       "updated": "2026-08-25",
       "path": "entities/movements/karma-gardri.md"
     },
+    "movement/khmer-art": {
+      "id": "movement/khmer-art",
+      "uri": "urn:ahn:movement/khmer-art",
+      "type": "movement",
+      "kind": "period-style",
+      "label_ja": "クメール美術",
+      "label_en": "Khmer Art",
+      "authority": {
+        "wikidata": "Q4203993",
+        "aat": null,
+        "ulan": null,
+        "tgn": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": "0802",
+        "end": "1431",
+        "display": "クメール王朝の存続期間（802-1431年）を範囲とした。代表例のアンコール・ワットは 12世紀の建立。1431年はアユタヤ王朝によるアンコール陥落の年"
+      },
+      "naming": {
+        "self_identified": false,
+        "named_by": null,
+        "named_when": null,
+        "original_label": "Khmer art",
+        "note": "『クメール美術』は民族名『クメール』を冠した後代の美術史記述による括り。本項は Wikidata Q4203993（Cambodian art／カンボジア美術全体を指す項目）を典拠として借用しつつ、 範囲をクメール王朝期（802-1431年）に限定した——現代までのカンボジア美術全体は範囲外とした"
+      },
+      "claims": [
+        {
+          "field": "time",
+          "source": "https://en.wikipedia.org/wiki/Khmer_art",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "originated_in",
+          "source": "https://en.wikipedia.org/wiki/Khmer_art",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "kind",
+          "source": "https://en.wikipedia.org/wiki/Khmer_art",
+          "certainty": "scholarly"
+        }
+      ],
+      "evidence": [],
+      "space": [
+        {
+          "role": "originated_in",
+          "target": "place/angkor"
+        }
+      ],
+      "relations": [
+        {
+          "type": "diffused_to",
+          "target": "place/paris",
+          "certainty": "scholarly",
+          "source": "https://cambodianess.com/article/the-musee-guimet-and-the-khmer-treasures-of-paris"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.wikidata.org/wiki/Q4203993",
+          "kind": "authority"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Khmer_art",
+          "kind": "reference",
+          "note": "『Cambodian art』（英語版記事名はKhmer_art）の項。最も広く認知される時代がクメール 王朝期（802-1431年）とし、アンコール・ワット（12世紀）を代表例に、規模・豊かさ・ 石彫の精緻さを特徴とすると記す"
+        },
+        {
+          "url": "https://cambodianess.com/article/the-musee-guimet-and-the-khmer-treasures-of-paris",
+          "kind": "reference",
+          "note": "パリのギメ美術館のクメール・コレクションが、1888年のエミール・ギメによる収集と 旧トロカデロ・インドシナ博物館（ルイ・ドラポルトが着手）のコレクションを1927-31年に 統合して成立し、カンボジア国外では最大・最も網羅的なクメール美術コレクションと なったと記す"
+        }
+      ],
+      "status": "draft",
+      "updated": "2026-09-16",
+      "path": "entities/movements/khmer-art.md"
+    },
     "movement/khyenri-school": {
       "id": "movement/khyenri-school",
       "uri": "urn:ahn:movement/khyenri-school",
@@ -34859,6 +34939,43 @@
       "status": "stub",
       "updated": "2026-08-10",
       "path": "entities/places/ahmadnagar.md"
+    },
+    "place/angkor": {
+      "id": "place/angkor",
+      "uri": "urn:ahn:place/angkor",
+      "type": "place",
+      "label_ja": "アンコール",
+      "label_en": "Angkor",
+      "authority": {
+        "wikidata": "Q163607",
+        "aat": null,
+        "ulan": null,
+        "tgn": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": null,
+        "end": null,
+        "display": null
+      },
+      "region": "asia-southeast",
+      "coordinates": [
+        13.4333,
+        103.8333
+      ],
+      "space": [],
+      "relations": [],
+      "sources": [
+        {
+          "url": "https://www.wikidata.org/wiki/Q163607",
+          "kind": "authority"
+        }
+      ],
+      "status": "stub",
+      "updated": "2026-09-16",
+      "path": "entities/places/angkor.md"
     },
     "place/arnhem-land": {
       "id": "place/arnhem-land",
@@ -74252,6 +74369,18 @@
       "to": "place/palpung-monastery"
     },
     {
+      "from": "movement/khmer-art",
+      "type": "diffused_to",
+      "to": "place/paris",
+      "certainty": "scholarly",
+      "source": "https://cambodianess.com/article/the-musee-guimet-and-the-khmer-treasures-of-paris"
+    },
+    {
+      "from": "movement/khmer-art",
+      "type": "originated_in",
+      "to": "place/angkor"
+    },
+    {
       "from": "movement/khyenri-school",
       "type": "originated_in",
       "to": "place/gongkar-chode-monastery"
@@ -90855,6 +90984,12 @@
       "from": "movement/menri-school",
       "type": "derived_into",
       "to": "movement/karma-gardri",
+      "derived": true
+    },
+    {
+      "from": "place/paris",
+      "type": "received",
+      "to": "movement/khmer-art",
       "derived": true
     },
     {
