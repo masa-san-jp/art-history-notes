@@ -1,6 +1,6 @@
 schema_version: 1
 source_commit: bd15d4c707d6c2fff84ff0c763a993f94cbc3589
-movement_count: 55
+movement_count: 56
 movement_ids:
   - movement/ai-bigeiken
   - movement/arts-and-crafts
@@ -47,6 +47,7 @@ movement_ids:
   - movement/realism
   - movement/rinpa
   - movement/rococo
+  - movement/santero
   - movement/shanghai-school
   - movement/shiraz-school
   - movement/song-academy-painting

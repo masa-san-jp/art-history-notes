@@ -279,6 +279,13 @@ reviews:
   sources:
   - https://resources.metmuseum.org/resources/metpublications/pdf/Vienna_Circa_1780_An_Imperial_Silver_Service_Rediscovered.pdf
   - https://www.wikidata.org/wiki/Q122960
+- movement_id: movement/santero
+  status: no-documented-cross-region-relation
+  checked: '2026-09-16'
+  note: 2026-09-16時点で、movement→movement relation、movement→placeのdiffused_to、space.active_in、movement→event/orgのexhibited_at→held_at/sited_inの4経路を、当該movementに登録された資料を対象に確認した。作例の収蔵先はいずれも米国内（Museum of International Folk Art、Palace of the Governorsなど）で、americas-north外への文書化された接続は確認できない。
+  sources:
+  - https://www.wikidata.org/wiki/Q30213495
+  - https://blog.nmhistorymuseum.org/2011/09/exploring-the-global-roots-of-santeros/
 - movement_id: movement/shanghai-school
   status: no-documented-cross-region-relation
   checked: '2026-08-25'

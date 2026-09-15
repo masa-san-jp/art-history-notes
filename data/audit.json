@@ -3,10 +3,10 @@
   "findings": [],
   "cross_region": {
     "schema_version": 1,
-    "movement_total": 131,
+    "movement_total": 132,
     "counts": {
       "connected": 82,
-      "reviewed-no-documented-link": 49,
+      "reviewed-no-documented-link": 50,
       "unreviewed": 0
     },
     "connected": [
@@ -134,6 +134,7 @@
       "movement/realism",
       "movement/rinpa",
       "movement/rococo",
+      "movement/santero",
       "movement/shanghai-school",
       "movement/shiraz-school",
       "movement/song-academy-painting",
@@ -3419,6 +3420,27 @@
         "review": null
       },
       {
+        "movement_id": "movement/santero",
+        "status": "reviewed-no-documented-link",
+        "origin_regions": [
+          "americas-north"
+        ],
+        "routes": [],
+        "reasons": [
+          "2026-09-16時点で、movement→movement relation、movement→placeのdiffused_to、space.active_in、movement→event/orgのexhibited_at→held_at/sited_inの4経路を、当該movementに登録された資料を対象に確認した。作例の収蔵先はいずれも米国内（Museum of International Folk Art、Palace of the Governorsなど）で、americas-north外への文書化された接続は確認できない。"
+        ],
+        "review": {
+          "movement_id": "movement/santero",
+          "status": "no-documented-cross-region-relation",
+          "checked": "2026-09-16",
+          "note": "2026-09-16時点で、movement→movement relation、movement→placeのdiffused_to、space.active_in、movement→event/orgのexhibited_at→held_at/sited_inの4経路を、当該movementに登録された資料を対象に確認した。作例の収蔵先はいずれも米国内（Museum of International Folk Art、Palace of the Governorsなど）で、americas-north外への文書化された接続は確認できない。",
+          "sources": [
+            "https://www.wikidata.org/wiki/Q30213495",
+            "https://blog.nmhistorymuseum.org/2011/09/exploring-the-global-roots-of-santeros/"
+          ]
+        }
+      },
+      {
         "movement_id": "movement/shanghai-school",
         "status": "reviewed-no-documented-link",
         "origin_regions": [
@@ -3950,7 +3972,7 @@
   "cross_region_baseline": {
     "schema_version": 1,
     "source_commit": "bd15d4c707d6c2fff84ff0c763a993f94cbc3589",
-    "movement_count": 55,
+    "movement_count": 56,
     "movement_ids": [
       "movement/ai-bigeiken",
       "movement/arts-and-crafts",
@@ -3997,6 +4019,7 @@
       "movement/realism",
       "movement/rinpa",
       "movement/rococo",
+      "movement/santero",
       "movement/shanghai-school",
       "movement/shiraz-school",
       "movement/song-academy-painting",

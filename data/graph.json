@@ -13621,6 +13621,80 @@
       "updated": "2026-08-25",
       "path": "entities/movements/safavid-painting.md"
     },
+    "movement/santero": {
+      "id": "movement/santero",
+      "uri": "urn:ahn:movement/santero",
+      "type": "movement",
+      "kind": "period-style",
+      "label_ja": "サンテロ",
+      "label_en": "Santero (New Mexican santos tradition)",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ulan": null,
+        "tgn": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "『santero』のWikidata項目（Q35293314）は本文中でメキシコの地名を指すとの 注記があり、ニューメキシコの聖人像制作の伝統そのものを指す項目ではないため採用しなかった。 代表的な担い手『ラグーナ・サンテロ』個人の項目（Q30213495）はsourcesに別途記載した"
+      },
+      "time": {
+        "start": "178X",
+        "end": "..",
+        "display": "18世紀最後の四半期（1780年代）に始まったとされる。代表的な匿名画家『ラグーナ・ サンテロ』の活動期は1795〜1810年（資料により1796〜1808年）。1821年のサンタフェ・ トレイル開通で安価な量産版画が流入し、伝統的なサンテロは廃業に追い込まれたとされるが、 20世紀に民芸復興運動の中で再興され、現在も継続する（ニコラス・エレーラら現代のサンテロ）"
+      },
+      "naming": {
+        "self_identified": true,
+        "named_by": null,
+        "named_when": null,
+        "original_label": "santero",
+        "note": "『サンテロ（聖人を作る者）』はスペイン語で担い手自身が用いる職業名であり、当事者由来の 語である。ただし個々の匿名の担い手を『ラグーナ・サンテロ』のように様式・作例のまとまりで 後代の研究者が名指した例が多く、個人名の特定できない担い手が多数を占める"
+      },
+      "claims": [
+        {
+          "field": "time",
+          "source": "https://www.wikidata.org/wiki/Q30213495",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "originated_in",
+          "source": "https://blog.nmhistorymuseum.org/2011/09/exploring-the-global-roots-of-santeros/",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "kind",
+          "source": "https://blog.nmhistorymuseum.org/2011/09/exploring-the-global-roots-of-santeros/",
+          "certainty": "scholarly"
+        }
+      ],
+      "evidence": [],
+      "space": [
+        {
+          "role": "originated_in",
+          "target": "place/santa-fe"
+        }
+      ],
+      "relations": [],
+      "sources": [
+        {
+          "url": "https://www.wikidata.org/wiki/Q30213495",
+          "kind": "authority",
+          "note": "代表的な匿名画家『ラグーナ・サンテロ』の項。活動期を1795-1810年とし、ラグーナ・ プエブロの祭壇画に由来する後代の呼称であると記す"
+        },
+        {
+          "url": "https://blog.nmhistorymuseum.org/2011/09/exploring-the-global-roots-of-santeros/",
+          "kind": "institutional",
+          "note": "ニューメキシコ歴史博物館の公式ブログ。18世紀最後の四半期以降、約10名のサンテロが 教会向けに聖人像を制作したこと、ラグーナ・サンテロがラグーナ・アコマ両プエブロの祭壇画を 手がけたことを記す"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Santos_(art)",
+          "kind": "reference",
+          "note": "『Santos』の項。レタブロ（板絵）とブルト（彫像）の技法区分を記す"
+        }
+      ],
+      "status": "draft",
+      "updated": "2026-09-16",
+      "path": "entities/movements/santero.md"
+    },
     "movement/shanghai-school": {
       "id": "movement/shanghai-school",
       "uri": "urn:ahn:movement/shanghai-school",
@@ -36825,6 +36899,43 @@
       "status": "stub",
       "updated": "2026-08-10",
       "path": "entities/places/samoa.md"
+    },
+    "place/santa-fe": {
+      "id": "place/santa-fe",
+      "uri": "urn:ahn:place/santa-fe",
+      "type": "place",
+      "label_ja": "サンタフェ",
+      "label_en": "Santa Fe",
+      "authority": {
+        "wikidata": "Q38555",
+        "aat": null,
+        "ulan": null,
+        "tgn": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": null,
+        "end": null,
+        "display": null
+      },
+      "region": "americas-north",
+      "coordinates": [
+        35.66725,
+        -105.96444
+      ],
+      "space": [],
+      "relations": [],
+      "sources": [
+        {
+          "url": "https://www.wikidata.org/wiki/Q38555",
+          "kind": "authority"
+        }
+      ],
+      "status": "stub",
+      "updated": "2026-09-16",
+      "path": "entities/places/santa-fe.md"
     },
     "place/sao-paulo": {
       "id": "place/sao-paulo",
@@ -73827,6 +73938,11 @@
       "from": "movement/safavid-painting",
       "type": "active_in",
       "to": "place/isfahan"
+    },
+    {
+      "from": "movement/santero",
+      "type": "originated_in",
+      "to": "place/santa-fe"
     },
     {
       "from": "movement/shanghai-school",
