@@ -3,10 +3,10 @@
   "findings": [],
   "cross_region": {
     "schema_version": 1,
-    "movement_total": 133,
+    "movement_total": 134,
     "counts": {
       "connected": 83,
-      "reviewed-no-documented-link": 50,
+      "reviewed-no-documented-link": 51,
       "unreviewed": 0
     },
     "connected": [
@@ -140,6 +140,7 @@
       "movement/shiraz-school",
       "movement/song-academy-painting",
       "movement/songjiang-school",
+      "movement/stroganov-school",
       "movement/suprematism",
       "movement/surrealism",
       "movement/utagawa-school",
@@ -3597,6 +3598,27 @@
         }
       },
       {
+        "movement_id": "movement/stroganov-school",
+        "status": "reviewed-no-documented-link",
+        "origin_regions": [
+          "europe-east"
+        ],
+        "routes": [],
+        "reasons": [
+          "2026-09-16時点で、movement→movement relation、movement→placeのdiffused_to、space.active_in、movement→event/orgのexhibited_at→held_at/sited_inの4経路を、当該movementに登録された資料を対象に確認した。起源region外への文書化された接続は確認できない。"
+        ],
+        "review": {
+          "movement_id": "movement/stroganov-school",
+          "status": "no-documented-cross-region-relation",
+          "checked": "2026-09-16",
+          "note": "2026-09-16時点で、movement→movement relation、movement→placeのdiffused_to、space.active_in、movement→event/orgのexhibited_at→held_at/sited_inの4経路を、当該movementに登録された資料を対象に確認した。起源region外への文書化された接続は確認できない。",
+          "sources": [
+            "https://www.wikidata.org/wiki/Q1968335",
+            "https://en.wikipedia.org/wiki/Stroganov_School"
+          ]
+        }
+      },
+      {
         "movement_id": "movement/suprematism",
         "status": "reviewed-no-documented-link",
         "origin_regions": [
@@ -4016,7 +4038,7 @@
   "cross_region_baseline": {
     "schema_version": 1,
     "source_commit": "bd15d4c707d6c2fff84ff0c763a993f94cbc3589",
-    "movement_count": 56,
+    "movement_count": 57,
     "movement_ids": [
       "movement/ai-bigeiken",
       "movement/arts-and-crafts",
@@ -4068,6 +4090,7 @@
       "movement/shiraz-school",
       "movement/song-academy-painting",
       "movement/songjiang-school",
+      "movement/stroganov-school",
       "movement/suprematism",
       "movement/surrealism",
       "movement/tarnovo-artistic-school",
