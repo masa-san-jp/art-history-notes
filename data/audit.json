@@ -3,9 +3,9 @@
   "findings": [],
   "cross_region": {
     "schema_version": 1,
-    "movement_total": 138,
+    "movement_total": 139,
     "counts": {
-      "connected": 85,
+      "connected": 86,
       "reviewed-no-documented-link": 53,
       "unreviewed": 0
     },
@@ -19,6 +19,7 @@
       "movement/asmat-carving",
       "movement/baghdad-modern-art-group",
       "movement/baghdad-school-of-illustration",
+      "movement/bamum-art",
       "movement/bandung-school",
       "movement/bark-painting",
       "movement/basohli-painting",
@@ -540,6 +541,49 @@
             "https://www.metmuseum.org/art/collection/search/310864"
           ]
         }
+      },
+      {
+        "movement_id": "movement/bamum-art",
+        "status": "connected",
+        "origin_regions": [
+          "africa-sub"
+        ],
+        "routes": [
+          {
+            "kind": "diffused-to-place",
+            "edges": [
+              {
+                "from": "movement/bamum-art",
+                "type": "diffused_to",
+                "to": "place/berlin",
+                "certainty": "scholarly",
+                "source": "https://www.smb.museum/en/museums-institutions/ethnologisches-museum/collection-research/focus-on-collection-holdings/mandu-yenu-the-royal-throne-of-bamum/"
+              }
+            ],
+            "destination_regions": [
+              "europe-west"
+            ]
+          },
+          {
+            "kind": "diffused-to-place",
+            "edges": [
+              {
+                "from": "movement/bamum-art",
+                "type": "diffused_to",
+                "to": "place/paris",
+                "certainty": "scholarly",
+                "source": "https://www.smb.museum/en/museums-institutions/ethnologisches-museum/collection-research/focus-on-collection-holdings/mandu-yenu-the-royal-throne-of-bamum/"
+              }
+            ],
+            "destination_regions": [
+              "europe-west"
+            ]
+          }
+        ],
+        "reasons": [
+          "2経路で起源region外へ到達"
+        ],
+        "review": null
       },
       {
         "movement_id": "movement/bandung-school",

@@ -2197,6 +2197,98 @@
       "updated": "2026-08-25",
       "path": "entities/movements/bamana-sculpture.md"
     },
+    "movement/bamum-art": {
+      "id": "movement/bamum-art",
+      "uri": "urn:ahn:movement/bamum-art",
+      "type": "movement",
+      "kind": "period-style",
+      "label_ja": "バムン美術",
+      "label_en": "Bamum Art",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ulan": null,
+        "tgn": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "『バムン美術』全体を指すWikidata項目は検索で特定できなかった。代表作『マンドゥ・ イェヌ』王座の項目、バムン王国自体の項目は別途sourcesに記載した"
+      },
+      "time": {
+        "start": "1887~",
+        "end": "1933",
+        "display": "王イブラヒム・ンジョヤの治世（資料により1887年・1889年・1890年と幅がある）から、 1933年の同王の死去までを、美術の隆盛期として扱う。フンバン王宮の建設は1917年"
+      },
+      "naming": {
+        "self_identified": false,
+        "named_by": null,
+        "named_when": null,
+        "original_label": "Bamum art",
+        "note": "民族名『バムン（Bamum）』を冠した括りは後代の美術史・民族誌記述による呼称。当事者が 自らの制作を『バムン美術』という運動名で名乗った記録は無い"
+      },
+      "claims": [
+        {
+          "field": "time",
+          "source": "https://www.smb.museum/en/museums-institutions/ethnologisches-museum/collection-research/focus-on-collection-holdings/mandu-yenu-the-royal-throne-of-bamum/",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "originated_in",
+          "source": "https://en.wikipedia.org/wiki/Foumban_Royal_Palace",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "kind",
+          "source": "https://en.wikipedia.org/wiki/Kingdom_of_Bamum",
+          "certainty": "scholarly"
+        }
+      ],
+      "evidence": [],
+      "space": [
+        {
+          "role": "originated_in",
+          "target": "place/foumban"
+        }
+      ],
+      "relations": [
+        {
+          "type": "diffused_to",
+          "target": "place/berlin",
+          "certainty": "scholarly",
+          "source": "https://www.smb.museum/en/museums-institutions/ethnologisches-museum/collection-research/focus-on-collection-holdings/mandu-yenu-the-royal-throne-of-bamum/"
+        },
+        {
+          "type": "diffused_to",
+          "target": "place/paris",
+          "certainty": "scholarly",
+          "source": "https://www.smb.museum/en/museums-institutions/ethnologisches-museum/collection-research/focus-on-collection-holdings/mandu-yenu-the-royal-throne-of-bamum/"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.wikidata.org/wiki/Q1629505",
+          "kind": "authority",
+          "note": "Kingdom of Bamum（バムン王国）の項目"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Kingdom_of_Bamum",
+          "kind": "reference",
+          "note": "『Kingdom of Bamum』の項。王ンジョヤ（在位ca.1887-1933年）が学校を設立し、絵文字を 発明し、美術を庇護したと記す"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Foumban_Royal_Palace",
+          "kind": "reference",
+          "note": "『Foumban Royal Palace』の項。宮殿の建設を1917年とし、王朝を1394年から現在までとする"
+        },
+        {
+          "url": "https://www.smb.museum/en/museums-institutions/ethnologisches-museum/collection-research/focus-on-collection-holdings/mandu-yenu-the-royal-throne-of-bamum/",
+          "kind": "institutional",
+          "note": "ベルリン民族学博物館の公式ページ。王座『マンドゥ・イェヌ』の複製が1908年、ンジョヤ王から ドイツ皇帝ヴィルヘルム2世へ贈られ、現在同館所蔵であること、玉座がヨーロッパ産ガラスビーズと インド洋産の子安貝で装飾されていることを記す。パリのケ・ブランリー美術館にも別の玉座が 所蔵されると記す"
+        }
+      ],
+      "status": "draft",
+      "updated": "2026-09-16",
+      "path": "entities/movements/bamum-art.md"
+    },
     "movement/bandung-school": {
       "id": "movement/bandung-school",
       "uri": "urn:ahn:movement/bandung-school",
@@ -35489,6 +35581,43 @@
       "status": "stub",
       "updated": "2026-08-12",
       "path": "entities/places/florence.md"
+    },
+    "place/foumban": {
+      "id": "place/foumban",
+      "uri": "urn:ahn:place/foumban",
+      "type": "place",
+      "label_ja": "フンバン",
+      "label_en": "Foumban",
+      "authority": {
+        "wikidata": "Q1439847",
+        "aat": null,
+        "ulan": null,
+        "tgn": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": null,
+        "end": null,
+        "display": null
+      },
+      "region": "africa-sub",
+      "coordinates": [
+        5.7167,
+        10.9167
+      ],
+      "space": [],
+      "relations": [],
+      "sources": [
+        {
+          "url": "https://www.wikidata.org/wiki/Q1439847",
+          "kind": "authority"
+        }
+      ],
+      "status": "stub",
+      "updated": "2026-09-16",
+      "path": "entities/places/foumban.md"
     },
     "place/golconda": {
       "id": "place/golconda",
@@ -72756,6 +72885,25 @@
       "to": "place/segou"
     },
     {
+      "from": "movement/bamum-art",
+      "type": "diffused_to",
+      "to": "place/berlin",
+      "certainty": "scholarly",
+      "source": "https://www.smb.museum/en/museums-institutions/ethnologisches-museum/collection-research/focus-on-collection-holdings/mandu-yenu-the-royal-throne-of-bamum/"
+    },
+    {
+      "from": "movement/bamum-art",
+      "type": "diffused_to",
+      "to": "place/paris",
+      "certainty": "scholarly",
+      "source": "https://www.smb.museum/en/museums-institutions/ethnologisches-museum/collection-research/focus-on-collection-holdings/mandu-yenu-the-royal-throne-of-bamum/"
+    },
+    {
+      "from": "movement/bamum-art",
+      "type": "originated_in",
+      "to": "place/foumban"
+    },
+    {
       "from": "movement/bandung-school",
       "type": "created_by",
       "to": "person/ries-mulder",
@@ -89763,6 +89911,18 @@
       "from": "org/bamana-numu",
       "type": "created",
       "to": "movement/bamana-sculpture",
+      "derived": true
+    },
+    {
+      "from": "place/berlin",
+      "type": "received",
+      "to": "movement/bamum-art",
+      "derived": true
+    },
+    {
+      "from": "place/paris",
+      "type": "received",
+      "to": "movement/bamum-art",
       "derived": true
     },
     {
