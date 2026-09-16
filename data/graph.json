@@ -17654,6 +17654,91 @@
       "updated": "2026-08-25",
       "path": "entities/movements/zhe-school.md"
     },
+    "movement/zimbabwe-stone-architecture": {
+      "id": "movement/zimbabwe-stone-architecture",
+      "uri": "urn:ahn:movement/zimbabwe-stone-architecture",
+      "type": "movement",
+      "kind": "retrospective",
+      "label_ja": "ジンバブエ石造建築",
+      "label_en": "Zimbabwe Stone Architecture",
+      "authority": {
+        "wikidata": "Q209217",
+        "aat": null,
+        "ulan": null,
+        "tgn": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": "11XX",
+        "end": "15XX",
+        "display": "11世紀にショナ人の祖先によって建設が始まり、300年以上かけて拡張された。主要な 建設は15世紀まで続き、16〜17世紀に放棄されたとされる"
+      },
+      "naming": {
+        "self_identified": false,
+        "named_by": null,
+        "named_when": null,
+        "original_label": "zimbabwe",
+        "note": "『ジンバブエ（石の家）』という語自体はショナ語由来で、同種の石造遺跡400以上に共通して 用いられる呼称。ただし『建築movement』として一つの様式運動にまとめたのは後代の考古学・ 美術史記述である"
+      },
+      "claims": [
+        {
+          "field": "time",
+          "source": "https://www.metmuseum.org/essays/great-zimbabwe-11th-15th-century",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "originated_in",
+          "source": "https://www.metmuseum.org/essays/great-zimbabwe-11th-15th-century",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "kind",
+          "source": "https://en.wikipedia.org/wiki/Great_Zimbabwe",
+          "certainty": "scholarly"
+        }
+      ],
+      "evidence": [],
+      "space": [
+        {
+          "role": "originated_in",
+          "target": "place/great-zimbabwe"
+        }
+      ],
+      "relations": [
+        {
+          "type": "diffused_to",
+          "target": "place/berlin",
+          "certainty": "scholarly",
+          "source": "https://en.wikipedia.org/wiki/Zimbabwe_Bird"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.wikidata.org/wiki/Q209217",
+          "kind": "authority"
+        },
+        {
+          "url": "https://www.metmuseum.org/essays/great-zimbabwe-11th-15th-century",
+          "kind": "institutional",
+          "note": "メトロポリタン美術館Heilbrunn Timelineの『Great Zimbabwe (11th-15th Century)』essay。 ショナ人の祖先による11世紀の建設開始と、300年以上にわたる拡張を記す"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Great_Zimbabwe",
+          "kind": "reference",
+          "note": "『Great Zimbabwe』の項。目地を使わない乾式石積みの技法、高さ36フィート・全長820 フィートに及ぶ『大囲壁（Great Enclosure）』をサハラ以南最大の古代構造物とし、1986年 UNESCO世界遺産に登録されたと記す"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Zimbabwe_Bird",
+          "kind": "reference",
+          "note": "『Zimbabwe Bird』の項。グレート・ジンバブエから出土した8体の滑石鳥像のうち、 1体の台座が1907年、あるドイツ人宣教師を経てベルリン民族学博物館へ売却されたと記す。 別の1体は1889年にウィリー・ポッセルトが持ち去りセシル・ローズが所有、4体は1981年に 南アフリカからジンバブエへ返還、残り1体（『チャプング』）は2026年4月に返還された"
+        }
+      ],
+      "status": "draft",
+      "updated": "2026-09-16",
+      "path": "entities/movements/zimbabwe-stone-architecture.md"
+    },
     "org/art-institute-of-chicago": {
       "id": "org/art-institute-of-chicago",
       "uri": "urn:ahn:org/art-institute-of-chicago",
@@ -36808,6 +36893,43 @@
       "status": "stub",
       "updated": "2026-08-10",
       "path": "entities/places/gongkar-chode-monastery.md"
+    },
+    "place/great-zimbabwe": {
+      "id": "place/great-zimbabwe",
+      "uri": "urn:ahn:place/great-zimbabwe",
+      "type": "place",
+      "label_ja": "グレート・ジンバブエ",
+      "label_en": "Great Zimbabwe",
+      "authority": {
+        "wikidata": "Q209217",
+        "aat": null,
+        "ulan": null,
+        "tgn": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": null,
+        "end": null,
+        "display": null
+      },
+      "region": "africa-sub",
+      "coordinates": [
+        -20.2667,
+        30.9331
+      ],
+      "space": [],
+      "relations": [],
+      "sources": [
+        {
+          "url": "https://www.wikidata.org/wiki/Q209217",
+          "kind": "authority"
+        }
+      ],
+      "status": "stub",
+      "updated": "2026-09-16",
+      "path": "entities/places/great-zimbabwe.md"
     },
     "place/guangzhou": {
       "id": "place/guangzhou",
@@ -76478,6 +76600,18 @@
       "to": "place/hangzhou"
     },
     {
+      "from": "movement/zimbabwe-stone-architecture",
+      "type": "diffused_to",
+      "to": "place/berlin",
+      "certainty": "scholarly",
+      "source": "https://en.wikipedia.org/wiki/Zimbabwe_Bird"
+    },
+    {
+      "from": "movement/zimbabwe-stone-architecture",
+      "type": "originated_in",
+      "to": "place/great-zimbabwe"
+    },
+    {
       "from": "org/art-institute-of-chicago",
       "type": "sited_in",
       "to": "place/chicago"
@@ -92597,6 +92731,12 @@
       "from": "movement/song-academy-painting",
       "type": "influenced",
       "to": "movement/zhe-school",
+      "derived": true
+    },
+    {
+      "from": "place/berlin",
+      "type": "received",
+      "to": "movement/zimbabwe-stone-architecture",
       "derived": true
     },
     {

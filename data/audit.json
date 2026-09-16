@@ -3,9 +3,9 @@
   "findings": [],
   "cross_region": {
     "schema_version": 1,
-    "movement_total": 151,
+    "movement_total": 152,
     "counts": {
-      "connected": 93,
+      "connected": 94,
       "reviewed-no-documented-link": 58,
       "unreviewed": 0
     },
@@ -102,7 +102,8 @@
       "movement/yamato-e",
       "movement/yangzhou-eccentrics",
       "movement/zanabazar-school",
-      "movement/zaria-art-society"
+      "movement/zaria-art-society",
+      "movement/zimbabwe-stone-architecture"
     ],
     "reviewed_no_documented_link": [
       "movement/ai-bigeiken",
@@ -4506,6 +4507,34 @@
             "https://www.hkpm.org.hk/en/visit/audio-guide/g4-stories-untold"
           ]
         }
+      },
+      {
+        "movement_id": "movement/zimbabwe-stone-architecture",
+        "status": "connected",
+        "origin_regions": [
+          "africa-sub"
+        ],
+        "routes": [
+          {
+            "kind": "diffused-to-place",
+            "edges": [
+              {
+                "from": "movement/zimbabwe-stone-architecture",
+                "type": "diffused_to",
+                "to": "place/berlin",
+                "certainty": "scholarly",
+                "source": "https://en.wikipedia.org/wiki/Zimbabwe_Bird"
+              }
+            ],
+            "destination_regions": [
+              "europe-west"
+            ]
+          }
+        ],
+        "reasons": [
+          "1経路で起源region外へ到達"
+        ],
+        "review": null
       }
     ]
   },
