@@ -9436,6 +9436,91 @@
       "updated": "2026-08-25",
       "path": "entities/movements/khyenri-school.md"
     },
+    "movement/kilwa-swahili-architecture": {
+      "id": "movement/kilwa-swahili-architecture",
+      "uri": "urn:ahn:movement/kilwa-swahili-architecture",
+      "type": "movement",
+      "kind": "period-style",
+      "label_ja": "キルワ・スワヒリ建築",
+      "label_en": "Kilwa Swahili Architecture",
+      "authority": {
+        "wikidata": "Q3107156",
+        "aat": null,
+        "ulan": null,
+        "tgn": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": "11XX",
+        "end": "1500~",
+        "display": "大モスクの北側祈祷室（最初期の建設段階）は11世紀または12世紀の建設とされる。 キルワは独立した都市国家として12〜15世紀に栄え、13〜16世紀を最盛期とする資料もある"
+      },
+      "naming": {
+        "self_identified": false,
+        "named_by": null,
+        "named_when": null,
+        "original_label": "Kilwa Swahili architecture",
+        "note": "地名『キルワ』を冠した後代の美術史記述による様式区分。当事者（スルターン・職人） 自身がこの名で自らの様式を運動として名乗った記録は無い"
+      },
+      "claims": [
+        {
+          "field": "time",
+          "source": "https://en.wikipedia.org/wiki/Great_Mosque_of_Kilwa",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "originated_in",
+          "source": "https://en.wikipedia.org/wiki/Great_Mosque_of_Kilwa",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "kind",
+          "source": "https://www.worldhistory.org/Kilwa/",
+          "certainty": "scholarly"
+        }
+      ],
+      "evidence": [],
+      "space": [
+        {
+          "role": "originated_in",
+          "target": "place/kilwa-kisiwani"
+        }
+      ],
+      "relations": [
+        {
+          "type": "diffused_to",
+          "target": "place/london",
+          "certainty": "scholarly",
+          "source": "https://www.britishmuseum.org/collection/object/C_1935-1101-1"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.wikidata.org/wiki/Q3107156",
+          "kind": "authority"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Great_Mosque_of_Kilwa",
+          "kind": "reference",
+          "note": "『Great Mosque of Kilwa』の項。北側祈祷室が最初期の建設段階として11〜12世紀に 建てられ、13世紀に側柱・梁が追加され、14世紀初頭にスルターン、アル＝ハサン・イブン・ スライマーンが大ドームを持つ南側拡張部を加えたと記す"
+        },
+        {
+          "url": "https://www.worldhistory.org/Kilwa/",
+          "kind": "reference",
+          "note": "『Kilwa』の項。独立した都市国家として12〜15世紀に栄え、珊瑚石・石灰モルタルを用いる スワヒリ建築様式の壮麗な建造物を持ったと記す"
+        },
+        {
+          "url": "https://www.britishmuseum.org/collection/object/C_1935-1101-1",
+          "kind": "institutional",
+          "note": "大英博物館収蔵、キルワのスルターンに関するアラビア語銘文を持つ銅合金貨（登録番号 1935,1101.1）"
+        }
+      ],
+      "status": "draft",
+      "updated": "2026-09-16",
+      "path": "entities/movements/kilwa-swahili-architecture.md"
+    },
     "movement/kowhaiwhai": {
       "id": "movement/kowhaiwhai",
       "uri": "urn:ahn:movement/kowhaiwhai",
@@ -37852,6 +37937,43 @@
       "status": "stub",
       "updated": "2026-08-10",
       "path": "entities/places/kathmandu.md"
+    },
+    "place/kilwa-kisiwani": {
+      "id": "place/kilwa-kisiwani",
+      "uri": "urn:ahn:place/kilwa-kisiwani",
+      "type": "place",
+      "label_ja": "キルワ・キシワニ",
+      "label_en": "Kilwa Kisiwani",
+      "authority": {
+        "wikidata": "Q20822396",
+        "aat": null,
+        "ulan": null,
+        "tgn": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": null,
+        "end": null,
+        "display": null
+      },
+      "region": "africa-sub",
+      "coordinates": [
+        -8.9817,
+        39.5172
+      ],
+      "space": [],
+      "relations": [],
+      "sources": [
+        {
+          "url": "https://www.wikidata.org/wiki/Q20822396",
+          "kind": "authority"
+        }
+      ],
+      "status": "stub",
+      "updated": "2026-09-16",
+      "path": "entities/places/kilwa-kisiwani.md"
     },
     "place/kolkata": {
       "id": "place/kolkata",
@@ -75863,6 +75985,18 @@
       "to": "place/gongkar-chode-monastery"
     },
     {
+      "from": "movement/kilwa-swahili-architecture",
+      "type": "diffused_to",
+      "to": "place/london",
+      "certainty": "scholarly",
+      "source": "https://www.britishmuseum.org/collection/object/C_1935-1101-1"
+    },
+    {
+      "from": "movement/kilwa-swahili-architecture",
+      "type": "originated_in",
+      "to": "place/kilwa-kisiwani"
+    },
+    {
       "from": "movement/kowhaiwhai",
       "type": "originated_in",
       "to": "place/new-zealand"
@@ -92568,6 +92702,12 @@
       "from": "place/paris",
       "type": "received",
       "to": "movement/khmer-art",
+      "derived": true
+    },
+    {
+      "from": "place/london",
+      "type": "received",
+      "to": "movement/kilwa-swahili-architecture",
       "derived": true
     },
     {

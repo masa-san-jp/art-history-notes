@@ -3,9 +3,9 @@
   "findings": [],
   "cross_region": {
     "schema_version": 1,
-    "movement_total": 155,
+    "movement_total": 156,
     "counts": {
-      "connected": 97,
+      "connected": 98,
       "reviewed-no-documented-link": 58,
       "unreviewed": 0
     },
@@ -60,6 +60,7 @@
       "movement/kangra-painting",
       "movement/kano-school",
       "movement/khmer-art",
+      "movement/kilwa-swahili-architecture",
       "movement/lingnan-school",
       "movement/mamluk-art",
       "movement/maruyama-shijo-school",
@@ -2404,6 +2405,34 @@
             "https://www.himalayanart.org/search/set.cfm?setID=250"
           ]
         }
+      },
+      {
+        "movement_id": "movement/kilwa-swahili-architecture",
+        "status": "connected",
+        "origin_regions": [
+          "africa-sub"
+        ],
+        "routes": [
+          {
+            "kind": "diffused-to-place",
+            "edges": [
+              {
+                "from": "movement/kilwa-swahili-architecture",
+                "type": "diffused_to",
+                "to": "place/london",
+                "certainty": "scholarly",
+                "source": "https://www.britishmuseum.org/collection/object/C_1935-1101-1"
+              }
+            ],
+            "destination_regions": [
+              "europe-west"
+            ]
+          }
+        ],
+        "reasons": [
+          "1経路で起源region外へ到達"
+        ],
+        "review": null
       },
       {
         "movement_id": "movement/kowhaiwhai",
