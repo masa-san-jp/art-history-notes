@@ -1,9 +1,9 @@
 {
   "as_of": "2026-09-16",
-  "movement_total": 154,
+  "movement_total": 155,
   "movement_stub_excluded": 0,
   "by_status": {
-    "draft": 35,
+    "draft": 36,
     "stub": 0,
     "verified": 119
   },
@@ -64,6 +64,7 @@
     "asia-southeast": {
       "11": 1,
       "20": 4,
+      "6": 1,
       "17": 1,
       "16": 1,
       "9": 1,
@@ -141,7 +142,7 @@
     "africa-sub": 12,
     "asia-central": 7,
     "asia-south": 14,
-    "asia-southeast": 11,
+    "asia-southeast": 12,
     "asia-east-china": 9,
     "asia-east-korea": 5,
     "asia-east-japan": 13,
@@ -164,7 +165,7 @@
   "isolated": [],
   "no_known_grouping": [],
   "progress": {
-    "movement_total": "154/100（stub 0件は不算入）",
+    "movement_total": "155/100（stub 0件は不算入）",
     "non_west_ratio": "0.66/0.5",
     "per_bucket_min": "13/13 バケットが 3件以上",
     "pre_1800_ratio": "0.55/0.3",

@@ -3,9 +3,9 @@
   "findings": [],
   "cross_region": {
     "schema_version": 1,
-    "movement_total": 154,
+    "movement_total": 155,
     "counts": {
-      "connected": 96,
+      "connected": 97,
       "reviewed-no-documented-link": 58,
       "unreviewed": 0
     },
@@ -28,6 +28,7 @@
       "movement/bengal-school",
       "movement/benin-court-art",
       "movement/bombay-progressive-artists-group",
+      "movement/champa-art",
       "movement/chola-bronzes",
       "movement/company-painting",
       "movement/computer-art",
@@ -964,6 +965,34 @@
             "https://en.wikipedia.org/wiki/Byzantine_art"
           ]
         }
+      },
+      {
+        "movement_id": "movement/champa-art",
+        "status": "connected",
+        "origin_regions": [
+          "asia-southeast"
+        ],
+        "routes": [
+          {
+            "kind": "diffused-to-place",
+            "edges": [
+              {
+                "from": "movement/champa-art",
+                "type": "diffused_to",
+                "to": "place/paris",
+                "certainty": "scholarly",
+                "source": "https://www.guimet.fr/fr/la-sculpture-du-champa-tresors-dart-du-vietnam-ve-xve-siecles"
+              }
+            ],
+            "destination_regions": [
+              "europe-west"
+            ]
+          }
+        ],
+        "reasons": [
+          "1経路で起源region外へ到達"
+        ],
+        "review": null
       },
       {
         "movement_id": "movement/chola-bronzes",
