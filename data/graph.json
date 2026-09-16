@@ -1848,6 +1848,96 @@
       "updated": "2026-08-25",
       "path": "entities/movements/asmat-carving.md"
     },
+    "movement/bagan-art": {
+      "id": "movement/bagan-art",
+      "uri": "urn:ahn:movement/bagan-art",
+      "type": "movement",
+      "kind": "period-style",
+      "label_ja": "バガン美術",
+      "label_en": "Bagan Art",
+      "authority": {
+        "wikidata": "Q29317",
+        "aat": null,
+        "ulan": null,
+        "tgn": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": "1044",
+        "end": "1297",
+        "display": "王アノーヤター（1044年に最初のビルマ王国を形成）から、建設の最盛期（1057-1287年） を経て、1297年頃のパガン王国の実質的な終焉までを範囲とした"
+      },
+      "naming": {
+        "self_identified": false,
+        "named_by": null,
+        "named_when": null,
+        "original_label": "Bagan art",
+        "note": "地名『バガン（パガン）』を冠した後代の美術史記述による様式区分。当事者（王・職人） 自身がこの名で自らの様式を運動として名乗った記録は無い"
+      },
+      "claims": [
+        {
+          "field": "time",
+          "source": "https://www.smithsonianmag.com/travel/the-architectural-wonders-of-bagan-11363805/",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "originated_in",
+          "source": "https://www.smithsonianmag.com/travel/the-architectural-wonders-of-bagan-11363805/",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "kind",
+          "source": "https://whc.unesco.org/en/list/1588/",
+          "certainty": "scholarly"
+        }
+      ],
+      "evidence": [],
+      "space": [
+        {
+          "role": "originated_in",
+          "target": "place/bagan"
+        }
+      ],
+      "relations": [
+        {
+          "type": "diffused_to",
+          "target": "place/new-york-city",
+          "certainty": "scholarly",
+          "source": "https://www.metmuseum.org/art/collection/search/39188"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.wikidata.org/wiki/Q29317",
+          "kind": "authority"
+        },
+        {
+          "url": "https://www.smithsonianmag.com/travel/the-architectural-wonders-of-bagan-11363805/",
+          "kind": "reference",
+          "note": "『The Architectural Wonders of Bagan』の記事。王アノーヤターが1044年に最初のビルマ 王国を形成し、1057-1287年の建設ラッシュで1万を超える仏教建造物が作られたと記す"
+        },
+        {
+          "url": "https://whc.unesco.org/en/list/1588/",
+          "kind": "institutional",
+          "note": "UNESCO世界遺産センターのバガン登録ページ（2019年登録）。仏教美術・建築の卓越した 集積とし、塔・寺院・僧院・巡礼地・壁画・彫刻を含む8つの構成資産・3,595件の記録された 建造物を記す"
+        },
+        {
+          "url": "https://www.metmuseum.org/art/collection/search/39188",
+          "kind": "institutional",
+          "note": "メトロポリタン美術館収蔵《立像仏》（ビルマ、パガン期）"
+        },
+        {
+          "url": "https://www.metmuseum.org/art/collection/search/65015",
+          "kind": "institutional",
+          "note": "メトロポリタン美術館収蔵《蓮華座の坐仏》（ビルマ、パガン期、11世紀末、銀・銅象嵌の ブロンズ）"
+        }
+      ],
+      "status": "draft",
+      "updated": "2026-09-16",
+      "path": "entities/movements/bagan-art.md"
+    },
     "movement/baghdad-modern-art-group": {
       "id": "movement/baghdad-modern-art-group",
       "uri": "urn:ahn:movement/baghdad-modern-art-group",
@@ -35920,6 +36010,43 @@
       "status": "stub",
       "updated": "2026-08-10",
       "path": "entities/places/asmat-regency.md"
+    },
+    "place/bagan": {
+      "id": "place/bagan",
+      "uri": "urn:ahn:place/bagan",
+      "type": "place",
+      "label_ja": "バガン",
+      "label_en": "Bagan",
+      "authority": {
+        "wikidata": "Q29317",
+        "aat": null,
+        "ulan": null,
+        "tgn": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": null,
+        "end": null,
+        "display": null
+      },
+      "region": "asia-southeast",
+      "coordinates": [
+        21.1725,
+        94.86
+      ],
+      "space": [],
+      "relations": [],
+      "sources": [
+        {
+          "url": "https://www.wikidata.org/wiki/Q29317",
+          "kind": "authority"
+        }
+      ],
+      "status": "stub",
+      "updated": "2026-09-16",
+      "path": "entities/places/bagan.md"
     },
     "place/baghdad": {
       "id": "place/baghdad",
@@ -74423,6 +74550,18 @@
       "to": "place/asmat-regency"
     },
     {
+      "from": "movement/bagan-art",
+      "type": "diffused_to",
+      "to": "place/new-york-city",
+      "certainty": "scholarly",
+      "source": "https://www.metmuseum.org/art/collection/search/39188"
+    },
+    {
+      "from": "movement/bagan-art",
+      "type": "originated_in",
+      "to": "place/bagan"
+    },
+    {
       "from": "movement/baghdad-modern-art-group",
       "type": "created_by",
       "to": "person/shakir-hassan-al-said",
@@ -91617,6 +91756,12 @@
       "from": "place/new-york-city",
       "type": "received",
       "to": "movement/asmat-carving",
+      "derived": true
+    },
+    {
+      "from": "place/new-york-city",
+      "type": "received",
+      "to": "movement/bagan-art",
       "derived": true
     },
     {

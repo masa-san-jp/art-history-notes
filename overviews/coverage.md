@@ -14,7 +14,7 @@ depends_on: []
 <!-- generated:coverage:start -->
 データの最新日: 2026-09-16 — `uv run --locked python tools/build_graph.py` が生成（手で書き換えない）
 
-movement **153** 件（stub 0件は不算入）／内訳 {'draft': 34, 'stub': 0, 'verified': 119}
+movement **154** 件（stub 0件は不算入）／内訳 {'draft': 35, 'stub': 0, 'verified': 119}
 
 | 文化圏 | 9BCE | 4C | 6C | 9C | 10C | 11C | 12C | 13C | 14C | 15C | 16C | 17C | 18C | 19C | 20C | 21C | 年代不明 | 計 |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
@@ -25,7 +25,7 @@ movement **153** 件（stub 0件は不算入）／内訳 {'draft': 34, 'stub': 0
 | africa-sub（サブサハラ・アフリカ） ※非西洋 | 1 |  |  |  |  | 1 | 1 | 1 |  |  |  | 1 | 1 | 1 | 3 |  | 2 | 12 |
 | asia-central（中央アジア・チベット・モンゴル） ※非西洋 |  |  |  |  |  |  |  |  |  | 3 | 1 | 1 | 1 |  | 1 |  |  | 7 |
 | asia-south（南アジア） ※非西洋 |  |  |  | 1 |  | 1 |  |  | 1 | 1 | 2 | 3 | 2 |  | 2 |  | 1 | 14 |
-| asia-southeast（東南アジア） ※非西洋 |  |  |  | 1 |  |  |  | 1 |  |  | 1 | 1 | 1 | 1 | 4 |  |  | 10 |
+| asia-southeast（東南アジア） ※非西洋 |  |  |  | 1 |  | 1 |  | 1 |  |  | 1 | 1 | 1 | 1 | 4 |  |  | 11 |
 | asia-east-china（中国圏） ※非西洋 |  |  |  |  | 1 |  |  |  |  | 2 | 2 | 1 | 1 | 1 | 1 |  |  | 9 |
 | asia-east-korea（朝鮮半島） ※非西洋 |  |  |  |  |  |  |  | 1 |  | 1 |  | 1 | 1 |  | 1 |  |  | 5 |
 | asia-east-japan（日本） ※非西洋 |  |  |  | 1 |  |  |  | 1 |  | 2 |  | 1 | 3 | 1 | 4 |  |  | 13 |
@@ -41,10 +41,10 @@ movement **153** 件（stub 0件は不算入）／内訳 {'draft': 34, 'stub': 0
 
 受け入れ条件の達成度:
 
-- movement_total: 153/100（stub 0件は不算入）
+- movement_total: 154/100（stub 0件は不算入）
 - non_west_ratio: 0.66/0.5
 - per_bucket_min: 13/13 バケットが 3件以上
-- pre_1800_ratio: 0.54/0.3
+- pre_1800_ratio: 0.55/0.3
 - isolated_ratio: 0.00（上限 0.1）
 
 基準movementの根拠付きverified化:

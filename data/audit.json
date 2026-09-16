@@ -3,9 +3,9 @@
   "findings": [],
   "cross_region": {
     "schema_version": 1,
-    "movement_total": 153,
+    "movement_total": 154,
     "counts": {
-      "connected": 95,
+      "connected": 96,
       "reviewed-no-documented-link": 58,
       "unreviewed": 0
     },
@@ -17,6 +17,7 @@
       "movement/art-nouveau",
       "movement/arte-madi",
       "movement/asmat-carving",
+      "movement/bagan-art",
       "movement/baghdad-modern-art-group",
       "movement/baghdad-school-of-illustration",
       "movement/bamum-art",
@@ -473,6 +474,34 @@
                 "to": "place/new-york-city",
                 "certainty": "scholarly",
                 "source": "https://www.metmuseum.org/exhibitions/listings/2013/nelson-rockefeller"
+              }
+            ],
+            "destination_regions": [
+              "americas-north"
+            ]
+          }
+        ],
+        "reasons": [
+          "1経路で起源region外へ到達"
+        ],
+        "review": null
+      },
+      {
+        "movement_id": "movement/bagan-art",
+        "status": "connected",
+        "origin_regions": [
+          "asia-southeast"
+        ],
+        "routes": [
+          {
+            "kind": "diffused-to-place",
+            "edges": [
+              {
+                "from": "movement/bagan-art",
+                "type": "diffused_to",
+                "to": "place/new-york-city",
+                "certainty": "scholarly",
+                "source": "https://www.metmuseum.org/art/collection/search/39188"
               }
             ],
             "destination_regions": [
