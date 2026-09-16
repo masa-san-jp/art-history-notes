@@ -3,9 +3,9 @@
   "findings": [],
   "cross_region": {
     "schema_version": 1,
-    "movement_total": 169,
+    "movement_total": 170,
     "counts": {
-      "connected": 107,
+      "connected": 108,
       "reviewed-no-documented-link": 62,
       "unreviewed": 0
     },
@@ -64,6 +64,7 @@
       "movement/kano-school",
       "movement/khmer-art",
       "movement/kilwa-swahili-architecture",
+      "movement/kokand-khanate-art",
       "movement/kongo-christian-art",
       "movement/lingnan-school",
       "movement/mamluk-art",
@@ -2580,6 +2581,34 @@
             ],
             "destination_regions": [
               "europe-west"
+            ]
+          }
+        ],
+        "reasons": [
+          "1経路で起源region外へ到達"
+        ],
+        "review": null
+      },
+      {
+        "movement_id": "movement/kokand-khanate-art",
+        "status": "connected",
+        "origin_regions": [
+          "asia-central"
+        ],
+        "routes": [
+          {
+            "kind": "diffused-to-place",
+            "edges": [
+              {
+                "from": "movement/kokand-khanate-art",
+                "type": "diffused_to",
+                "to": "place/saint-petersburg",
+                "certainty": "scholarly",
+                "source": "https://en.wikipedia.org/wiki/Palace_of_Khud%C3%A1y%C3%A1r_Kh%C3%A1n"
+              }
+            ],
+            "destination_regions": [
+              "europe-east"
             ]
           }
         ],

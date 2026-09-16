@@ -9934,6 +9934,87 @@
       "updated": "2026-09-16",
       "path": "entities/movements/kilwa-swahili-architecture.md"
     },
+    "movement/kokand-khanate-art": {
+      "id": "movement/kokand-khanate-art",
+      "uri": "urn:ahn:movement/kokand-khanate-art",
+      "type": "movement",
+      "kind": "period-style",
+      "label_ja": "コーカンド・ハン国美術",
+      "label_en": "Kokand Khanate Art",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ulan": null,
+        "tgn": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "Wikidataの『Palace of Khudáyár Khán』（Q7126242）は建造物1件を指す個別項目 であり、コーカンド・ハン国の建築・装飾様式全体を指すmovement単位の項目ではないため 採用しなかった。movement単位のWikidata項目は検索で特定できなかった"
+      },
+      "time": {
+        "start": "1865",
+        "end": "1876",
+        "display": "コーカンド・ハン国（1709-1876年、[コーカンド](../places/kokand.md)を都とする） の建築・装飾芸術のうち、確実に年代づけできる代表例として最後の統治者フダーヤール・ ハーンの宮殿（1865-1870年建設、1871年完成）を起点とした。1876年、ロシア帝国による ハン国併合を終期とした"
+      },
+      "naming": {
+        "self_identified": false,
+        "named_by": null,
+        "named_when": null,
+        "original_label": "Kokand Khanate art",
+        "note": "『コーカンド・ハン国美術』は政体名を借りた後代の美術史記述による様式区分。当事者 （ハン・職人）自身がこの名で自らの様式を運動として名乗った記録は無い"
+      },
+      "claims": [
+        {
+          "field": "time",
+          "source": "https://en.wikipedia.org/wiki/Palace_of_Khud%C3%A1y%C3%A1r_Kh%C3%A1n",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "originated_in",
+          "source": "https://en.wikipedia.org/wiki/Khanate_of_Kokand",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "kind",
+          "source": "https://en.wikipedia.org/wiki/Khanate_of_Kokand",
+          "certainty": "scholarly"
+        }
+      ],
+      "evidence": [],
+      "space": [
+        {
+          "role": "originated_in",
+          "target": "place/kokand"
+        }
+      ],
+      "relations": [
+        {
+          "type": "diffused_to",
+          "target": "place/saint-petersburg",
+          "certainty": "scholarly",
+          "source": "https://en.wikipedia.org/wiki/Palace_of_Khud%C3%A1y%C3%A1r_Kh%C3%A1n"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.wikidata.org/wiki/Q7126242",
+          "kind": "authority",
+          "note": "フダーヤール・ハーンの宮殿の項目。movement単位ではなく建造物1件の項目である点は authority.none_reasonに記載した"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Khanate_of_Kokand",
+          "kind": "reference",
+          "note": "『Khanate of Kokand』の項。ハン国は1709-1876年に存続し、シャフルフ・ビイにより 建国、ロシア帝国軍により廃絶されたと記す。19世紀後半、西洋からの訪問者が都 コーカンドの規模（人口8万人、モスク約600、マドラサ15）に驚いたと記す"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Palace_of_Khud%C3%A1y%C3%A1r_Kh%C3%A1n",
+          "kind": "reference",
+          "note": "『Palace of Khudáyár Khán』の項。最後のコーカンド・ハン国統治者フダーヤール・ ハーンにより1865-1870年に建設（1871年完成）されたと記す。ティムール朝・ウズベク 様式で、ウズベキスタンの他地域に多い青・ターコイズ系ではなく黄色と緑を基調とした タイル装飾を特徴とし、幾何学文様・アラベスク・花卉文様の陶製タイル、木彫、パネル 張り・彩色天井、壁画を持つと記す。80人の棟梁と16000人の労働者、資材運搬に牛車 1000台を要したと記す。当初7つの中庭・114（または119）室を持ったが、1918年の ボリシェヴィキによる破壊で5中庭・19室のみが現存すると記す。フダーヤール・ハーンの 玉座は現在サンクトペテルブルクのエルミタージュ美術館に所蔵されると記す"
+        }
+      ],
+      "status": "draft",
+      "updated": "2026-09-16",
+      "path": "entities/movements/kokand-khanate-art.md"
+    },
     "movement/kongo-christian-art": {
       "id": "movement/kongo-christian-art",
       "uri": "urn:ahn:movement/kongo-christian-art",
@@ -39176,6 +39257,43 @@
       "status": "stub",
       "updated": "2026-09-16",
       "path": "entities/places/kilwa-kisiwani.md"
+    },
+    "place/kokand": {
+      "id": "place/kokand",
+      "uri": "urn:ahn:place/kokand",
+      "type": "place",
+      "label_ja": "コーカンド",
+      "label_en": "Kokand",
+      "authority": {
+        "wikidata": "Q489890",
+        "aat": null,
+        "ulan": null,
+        "tgn": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": null,
+        "end": null,
+        "display": null
+      },
+      "region": "asia-central",
+      "coordinates": [
+        40.528611,
+        70.9425
+      ],
+      "space": [],
+      "relations": [],
+      "sources": [
+        {
+          "url": "https://www.wikidata.org/wiki/Q489890",
+          "kind": "authority"
+        }
+      ],
+      "status": "stub",
+      "updated": "2026-09-16",
+      "path": "entities/places/kokand.md"
     },
     "place/kolkata": {
       "id": "place/kolkata",
@@ -77548,6 +77666,18 @@
       "to": "place/kilwa-kisiwani"
     },
     {
+      "from": "movement/kokand-khanate-art",
+      "type": "diffused_to",
+      "to": "place/saint-petersburg",
+      "certainty": "scholarly",
+      "source": "https://en.wikipedia.org/wiki/Palace_of_Khud%C3%A1y%C3%A1r_Kh%C3%A1n"
+    },
+    {
+      "from": "movement/kokand-khanate-art",
+      "type": "originated_in",
+      "to": "place/kokand"
+    },
+    {
       "from": "movement/kongo-christian-art",
       "type": "diffused_to",
       "to": "place/new-york-city",
@@ -94379,6 +94509,12 @@
       "from": "place/london",
       "type": "received",
       "to": "movement/kilwa-swahili-architecture",
+      "derived": true
+    },
+    {
+      "from": "place/saint-petersburg",
+      "type": "received",
+      "to": "movement/kokand-khanate-art",
       "derived": true
     },
     {
