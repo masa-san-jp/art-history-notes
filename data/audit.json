@@ -3,10 +3,10 @@
   "findings": [],
   "cross_region": {
     "schema_version": 1,
-    "movement_total": 174,
+    "movement_total": 175,
     "counts": {
       "connected": 110,
-      "reviewed-no-documented-link": 64,
+      "reviewed-no-documented-link": 65,
       "unreviewed": 0
     },
     "connected": [
@@ -157,6 +157,7 @@
       "movement/latte-stone-architecture",
       "movement/literati-painting",
       "movement/makonde-carving",
+      "movement/malacca-sultanate-art",
       "movement/mandalay-style",
       "movement/mannerism",
       "movement/mexican-muralism",
@@ -2871,6 +2872,27 @@
         }
       },
       {
+        "movement_id": "movement/malacca-sultanate-art",
+        "status": "reviewed-no-documented-link",
+        "origin_regions": [
+          "asia-southeast"
+        ],
+        "routes": [],
+        "reasons": [
+          "2026-09-16時点で、movement→movement relation、movement→placeのdiffused_to、space.active_in、movement→event/orgのexhibited_at→held_at/sited_inの4経路を、当該movementに登録された資料を対象に確認した。明朝との朝貢関係、1511年のポルトガルによる征服・王家の宝物接収という2つの対外接続を確認したが、いずれも作品・様式そのものが域外の博物館等へ拡散した文書化された記録には至らなかった（ポルトガル接収の宝物は「王室に還元された」とのみ記され、その後の所在は出典に記載無し）。起源region外への文書化された接続は現時点で確認できない。"
+        ],
+        "review": {
+          "movement_id": "movement/malacca-sultanate-art",
+          "status": "no-documented-cross-region-relation",
+          "checked": "2026-09-16",
+          "note": "2026-09-16時点で、movement→movement relation、movement→placeのdiffused_to、space.active_in、movement→event/orgのexhibited_at→held_at/sited_inの4経路を、当該movementに登録された資料を対象に確認した。明朝との朝貢関係、1511年のポルトガルによる征服・王家の宝物接収という2つの対外接続を確認したが、いずれも作品・様式そのものが域外の博物館等へ拡散した文書化された記録には至らなかった（ポルトガル接収の宝物は「王室に還元された」とのみ記され、その後の所在は出典に記載無し）。起源region外への文書化された接続は現時点で確認できない。",
+          "sources": [
+            "https://www.wikidata.org/wiki/Q46652",
+            "https://en.wikipedia.org/wiki/Malacca_Sultanate"
+          ]
+        }
+      },
+      {
         "movement_id": "movement/mamluk-art",
         "status": "connected",
         "origin_regions": [
@@ -5197,7 +5219,7 @@
   "cross_region_baseline": {
     "schema_version": 1,
     "source_commit": "bd15d4c707d6c2fff84ff0c763a993f94cbc3589",
-    "movement_count": 70,
+    "movement_count": 71,
     "movement_ids": [
       "movement/ai-bigeiken",
       "movement/alaouite-imperial-architecture",
@@ -5238,6 +5260,7 @@
       "movement/latte-stone-architecture",
       "movement/literati-painting",
       "movement/makonde-carving",
+      "movement/malacca-sultanate-art",
       "movement/mandalay-style",
       "movement/mannerism",
       "movement/mexican-muralism",

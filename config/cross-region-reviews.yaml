@@ -419,6 +419,13 @@ reviews:
   sources:
   - https://www.wikidata.org/wiki/Q3492313
   - https://en.wikipedia.org/wiki/Southeastern_Ceremonial_Complex
+- movement_id: movement/malacca-sultanate-art
+  status: no-documented-cross-region-relation
+  checked: '2026-09-16'
+  note: 2026-09-16時点で、movement→movement relation、movement→placeのdiffused_to、space.active_in、movement→event/orgのexhibited_at→held_at/sited_inの4経路を、当該movementに登録された資料を対象に確認した。明朝との朝貢関係、1511年のポルトガルによる征服・王家の宝物接収という2つの対外接続を確認したが、いずれも作品・様式そのものが域外の博物館等へ拡散した文書化された記録には至らなかった（ポルトガル接収の宝物は「王室に還元された」とのみ記され、その後の所在は出典に記載無し）。起源region外への文書化された接続は現時点で確認できない。
+  sources:
+  - https://www.wikidata.org/wiki/Q46652
+  - https://en.wikipedia.org/wiki/Malacca_Sultanate
 - movement_id: movement/lan-xang-art
   status: no-documented-cross-region-relation
   checked: '2026-09-16'
