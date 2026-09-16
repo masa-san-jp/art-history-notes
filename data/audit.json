@@ -3,9 +3,9 @@
   "findings": [],
   "cross_region": {
     "schema_version": 1,
-    "movement_total": 170,
+    "movement_total": 171,
     "counts": {
-      "connected": 108,
+      "connected": 109,
       "reviewed-no-documented-link": 62,
       "unreviewed": 0
     },
@@ -53,6 +53,7 @@
       "movement/hudson-river-school",
       "movement/iatmul-carving",
       "movement/ife-art",
+      "movement/igbo-ukwu-bronze",
       "movement/impressionism",
       "movement/inca-art",
       "movement/indigenismo",
@@ -2077,6 +2078,34 @@
                 "to": "place/london",
                 "certainty": "scholarly",
                 "source": "https://www.frobenius-institut.de/forschung/beendete-projekte/ife-objects-and-collections-in-and-out-of-africa"
+              }
+            ],
+            "destination_regions": [
+              "europe-west"
+            ]
+          }
+        ],
+        "reasons": [
+          "1経路で起源region外へ到達"
+        ],
+        "review": null
+      },
+      {
+        "movement_id": "movement/igbo-ukwu-bronze",
+        "status": "connected",
+        "origin_regions": [
+          "africa-sub"
+        ],
+        "routes": [
+          {
+            "kind": "diffused-to-place",
+            "edges": [
+              {
+                "from": "movement/igbo-ukwu-bronze",
+                "type": "diffused_to",
+                "to": "place/london",
+                "certainty": "scholarly",
+                "source": "https://en.wikipedia.org/wiki/Igbo-Ukwu"
               }
             ],
             "destination_regions": [

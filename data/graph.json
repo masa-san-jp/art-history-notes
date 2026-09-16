@@ -7895,6 +7895,77 @@
       "updated": "2026-08-25",
       "path": "entities/movements/ife-art.md"
     },
+    "movement/igbo-ukwu-bronze": {
+      "id": "movement/igbo-ukwu-bronze",
+      "uri": "urn:ahn:movement/igbo-ukwu-bronze",
+      "type": "movement",
+      "kind": "retrospective",
+      "label_ja": "イグボ・ウクウ青銅器",
+      "label_en": "Igbo-Ukwu Bronzes",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ulan": null,
+        "tgn": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "Wikidataの『Igbo-Ukwu』（Q4785495）は考古遺跡そのものを指す項目であり、 青銅器制作の様式・movement単位の項目ではないため採用しなかった。movement単位の Wikidata項目は検索で特定できなかった"
+      },
+      "time": {
+        "start": "08XX",
+        "end": "12XX",
+        "display": "最初の放射性炭素年代測定と遺物の比較に基づき、長らく『9世紀の遺物群』と 要約されてきた。近年の研究はより幅を持たせ、研究者はイグボ・ウクウの活動期を おおよそ9〜12世紀とすることが多いが、個々の埋納物が同時代とは限らないとも 認識されている。本項では従来の9世紀説を起点として採用しつつ、この幅を time.displayに残した"
+      },
+      "naming": {
+        "self_identified": false,
+        "named_by": null,
+        "named_when": null,
+        "original_label": "Igbo-Ukwu bronzes",
+        "note": "『イグボ・ウクウ青銅器』は考古遺跡の地名を借りた後代の考古学・美術史記述による 括り。制作者自身の集団名・様式名としての当事者由来の呼称は記録されていない"
+      },
+      "claims": [
+        {
+          "field": "time",
+          "source": "https://en.wikipedia.org/wiki/Igbo-Ukwu",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "originated_in",
+          "source": "https://en.wikipedia.org/wiki/Igbo-Ukwu",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "kind",
+          "source": "https://en.wikipedia.org/wiki/Igbo-Ukwu",
+          "certainty": "scholarly"
+        }
+      ],
+      "evidence": [],
+      "space": [
+        {
+          "role": "originated_in",
+          "target": "place/igbo-ukwu"
+        }
+      ],
+      "relations": [
+        {
+          "type": "diffused_to",
+          "target": "place/london",
+          "certainty": "scholarly",
+          "source": "https://en.wikipedia.org/wiki/Igbo-Ukwu"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Igbo-Ukwu",
+          "kind": "reference",
+          "note": "『Igbo-Ukwu』の項。最初の放射性炭素年代測定と遺物比較に基づき長らく『9世紀の 遺物群』と要約されてきたが、近年の研究者はおおよそ9〜12世紀の活動期とすることが 多く、個々の埋納物が同時代とは限らないと記す。蝋型鋳造により精巧な容器・儀礼具が 作られ、職人は針金・鎖・取っ手・螺旋状の突起には不純銅を鍛造・焼鈍し、鋳造部品には 合金を選んで用いるなど、部位ごとに意図的な材料選択をしたと記す。この発見により、 ヨーロッパ人接触以前から現ナイジェリア南東部の森林地帯の共同体が高度な工芸生産と 遠距離交易網に参加していたことが示されたと記す。植民地行政期の初期発見の一部 （5点）は現在大英博物館に所蔵され、その他の出土品はナイジェリアの国立コレクション に保存されていると記す"
+        }
+      ],
+      "status": "draft",
+      "updated": "2026-09-16",
+      "path": "entities/movements/igbo-ukwu-bronze.md"
+    },
     "movement/impressionism": {
       "id": "movement/impressionism",
       "uri": "urn:ahn:movement/impressionism",
@@ -38928,6 +38999,43 @@
       "status": "stub",
       "updated": "2026-08-10",
       "path": "entities/places/ife.md"
+    },
+    "place/igbo-ukwu": {
+      "id": "place/igbo-ukwu",
+      "uri": "urn:ahn:place/igbo-ukwu",
+      "type": "place",
+      "label_ja": "イグボ・ウクウ",
+      "label_en": "Igbo-Ukwu",
+      "authority": {
+        "wikidata": "Q4785495",
+        "aat": null,
+        "ulan": null,
+        "tgn": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": null,
+        "end": null,
+        "display": null
+      },
+      "region": "africa-sub",
+      "coordinates": [
+        6.012,
+        7.018
+      ],
+      "space": [],
+      "relations": [],
+      "sources": [
+        {
+          "url": "https://www.wikidata.org/wiki/Q4785495",
+          "kind": "authority"
+        }
+      ],
+      "status": "stub",
+      "updated": "2026-09-16",
+      "path": "entities/places/igbo-ukwu.md"
     },
     "place/isfahan": {
       "id": "place/isfahan",
@@ -77325,6 +77433,18 @@
       "to": "place/ife"
     },
     {
+      "from": "movement/igbo-ukwu-bronze",
+      "type": "diffused_to",
+      "to": "place/london",
+      "certainty": "scholarly",
+      "source": "https://en.wikipedia.org/wiki/Igbo-Ukwu"
+    },
+    {
+      "from": "movement/igbo-ukwu-bronze",
+      "type": "originated_in",
+      "to": "place/igbo-ukwu"
+    },
+    {
       "from": "movement/impressionism",
       "type": "precedes",
       "to": "movement/neo-impressionism",
@@ -94311,6 +94431,12 @@
       "from": "place/london",
       "type": "received",
       "to": "movement/ife-art",
+      "derived": true
+    },
+    {
+      "from": "place/london",
+      "type": "received",
+      "to": "movement/igbo-ukwu-bronze",
       "derived": true
     },
     {
