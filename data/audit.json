@@ -3,9 +3,9 @@
   "findings": [],
   "cross_region": {
     "schema_version": 1,
-    "movement_total": 171,
+    "movement_total": 172,
     "counts": {
-      "connected": 109,
+      "connected": 110,
       "reviewed-no-documented-link": 62,
       "unreviewed": 0
     },
@@ -39,6 +39,7 @@
       "movement/dada",
       "movement/dansaekhwa",
       "movement/deccan-painting",
+      "movement/east-javanese-kawi-inscriptions",
       "movement/ecole-de-dakar",
       "movement/ecole-de-tunis",
       "movement/fauvism",
@@ -1513,6 +1514,34 @@
             "https://en.wikipedia.org/wiki/Green_Mosque,_Bursa"
           ]
         }
+      },
+      {
+        "movement_id": "movement/east-javanese-kawi-inscriptions",
+        "status": "connected",
+        "origin_regions": [
+          "asia-southeast"
+        ],
+        "routes": [
+          {
+            "kind": "diffused-to-place",
+            "edges": [
+              {
+                "from": "movement/east-javanese-kawi-inscriptions",
+                "type": "diffused_to",
+                "to": "place/kolkata",
+                "certainty": "scholarly",
+                "source": "https://en.wikipedia.org/wiki/Calcutta_Stone"
+              }
+            ],
+            "destination_regions": [
+              "asia-south"
+            ]
+          }
+        ],
+        "reasons": [
+          "1経路で起源region外へ到達"
+        ],
+        "review": null
       },
       {
         "movement_id": "movement/ecole-de-dakar",

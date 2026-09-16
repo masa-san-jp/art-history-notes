@@ -5653,6 +5653,87 @@
       "updated": "2026-09-16",
       "path": "entities/movements/early-ottoman-architecture.md"
     },
+    "movement/east-javanese-kawi-inscriptions": {
+      "id": "movement/east-javanese-kawi-inscriptions",
+      "uri": "urn:ahn:movement/east-javanese-kawi-inscriptions",
+      "type": "movement",
+      "kind": "period-style",
+      "label_ja": "東ジャワ王朝カウィ碑文",
+      "label_en": "East Javanese Kawi Royal Inscriptions",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ulan": null,
+        "tgn": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "Wikidataの『Calcutta Stone』（Q9025028）は個別の石碑1点を指す項目であり、 東ジャワ王朝期のカウィ文字碑文という様式・movement単位の項目ではないため採用しなかった。 movement単位のWikidata項目は検索で特定できなかった"
+      },
+      "time": {
+        "start": "0929",
+        "end": "1041",
+        "display": "929年、ムプ・シンドクが中部ジャワからブランタス川流域の東ジャワ（ワトゥガルー、 現ジョンバン県）へマタラム王国の都を遷したことを起点とした。カルカッタ・ストーン 碑文は1041年、シンドクの子孫である王アイルランガの治世に刻まれ、この王朝の系譜を 伝える。終期は同碑文の年とした"
+      },
+      "naming": {
+        "self_identified": false,
+        "named_by": null,
+        "named_when": null,
+        "original_label": "East Javanese Kawi inscriptions",
+        "note": "『カウィ』は古ジャワ語による碑文用の文語・書体を指す当事者由来の語だが、これを 王朝の碑文制作という一つのmovementとして括るのは後代の碑文学・美術史記述による"
+      },
+      "claims": [
+        {
+          "field": "time",
+          "source": "https://en.wikipedia.org/wiki/Mpu_Sindok",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "originated_in",
+          "source": "https://en.wikipedia.org/wiki/Mpu_Sindok",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "kind",
+          "source": "https://en.wikipedia.org/wiki/Calcutta_Stone",
+          "certainty": "scholarly"
+        }
+      ],
+      "evidence": [],
+      "space": [
+        {
+          "role": "originated_in",
+          "target": "place/jombang"
+        }
+      ],
+      "relations": [
+        {
+          "type": "diffused_to",
+          "target": "place/kolkata",
+          "certainty": "scholarly",
+          "source": "https://en.wikipedia.org/wiki/Calcutta_Stone"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.wikidata.org/wiki/Q9025028",
+          "kind": "authority",
+          "note": "カルカッタ・ストーン（個別の石碑1点）の項目。movement単位ではない点は authority.none_reasonに記載した"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Mpu_Sindok",
+          "kind": "reference",
+          "note": "『Mpu Sindok』の項。929年頃に即位し、メラピ山噴火またはスリーヴィジャヤの 侵攻を受けて中部ジャワから東ジャワ（ブランタス川沿いのワトゥガルー、現ジョンバン 県付近）へマタラム王国の都を遷したと記す。治世中に『カカウィン・ラーマーヤナ』 『サンヒャン・カマハーヤーニカン』が書かれたと記す。現カルカッタのインド博物館に 所蔵される碑文が、シンドクの子孫を11世紀のアイルランガに至るまで記すと記す"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Calcutta_Stone",
+          "kind": "reference",
+          "note": "『Calcutta Stone』の項。サンスクリット語と古ジャワ語でカウィ文字により刻まれた 碑文で、1041年、カフリパン王国の王アイルランガが、1016年の反乱（前王ダルマヴァンシャ の死・都の破壊）を経て自らの正統性を主張するために制作させたと記す。トーマス・ スタンフォード・ラッフルズがプナングンガン山の斜面で発見し、1812年、感謝のしるし としてサングラン碑文とともにインド総督ミント卿へ送り、以来19世紀から現在まで カルカッタのインド博物館に保管されていると記す"
+        }
+      ],
+      "status": "draft",
+      "updated": "2026-09-16",
+      "path": "entities/movements/east-javanese-kawi-inscriptions.md"
+    },
     "movement/ecole-de-dakar": {
       "id": "movement/ecole-de-dakar",
       "uri": "urn:ahn:movement/ecole-de-dakar",
@@ -39112,6 +39193,43 @@
       "status": "stub",
       "updated": "2026-08-09",
       "path": "entities/places/istanbul.md"
+    },
+    "place/jombang": {
+      "id": "place/jombang",
+      "uri": "urn:ahn:place/jombang",
+      "type": "place",
+      "label_ja": "ジョンバン",
+      "label_en": "Jombang",
+      "authority": {
+        "wikidata": "Q11082",
+        "aat": null,
+        "ulan": null,
+        "tgn": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": null,
+        "end": null,
+        "display": null
+      },
+      "region": "asia-southeast",
+      "coordinates": [
+        -7.466667,
+        112.233333
+      ],
+      "space": [],
+      "relations": [],
+      "sources": [
+        {
+          "url": "https://www.wikidata.org/wiki/Q11082",
+          "kind": "authority"
+        }
+      ],
+      "status": "stub",
+      "updated": "2026-09-16",
+      "path": "entities/places/jombang.md"
     },
     "place/kaesong": {
       "id": "place/kaesong",
@@ -77109,6 +77227,18 @@
       "to": "place/bursa"
     },
     {
+      "from": "movement/east-javanese-kawi-inscriptions",
+      "type": "diffused_to",
+      "to": "place/kolkata",
+      "certainty": "scholarly",
+      "source": "https://en.wikipedia.org/wiki/Calcutta_Stone"
+    },
+    {
+      "from": "movement/east-javanese-kawi-inscriptions",
+      "type": "originated_in",
+      "to": "place/jombang"
+    },
+    {
       "from": "movement/ecole-de-dakar",
       "type": "part_of",
       "to": "movement/negritude",
@@ -94239,6 +94369,12 @@
       "from": "movement/ottoman-miniature",
       "type": "influenced",
       "to": "movement/deccan-painting",
+      "derived": true
+    },
+    {
+      "from": "place/kolkata",
+      "type": "received",
+      "to": "movement/east-javanese-kawi-inscriptions",
       "derived": true
     },
     {
