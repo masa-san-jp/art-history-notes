@@ -7449,6 +7449,91 @@
       "updated": "2026-08-25",
       "path": "entities/movements/herat-school.md"
     },
+    "movement/hoysala-art": {
+      "id": "movement/hoysala-art",
+      "uri": "urn:ahn:movement/hoysala-art",
+      "type": "movement",
+      "kind": "period-style",
+      "label_ja": "ホイサラ美術",
+      "label_en": "Hoysala Art",
+      "authority": {
+        "wikidata": "Q2361582",
+        "aat": null,
+        "ulan": null,
+        "tgn": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": "1117",
+        "end": "13XX",
+        "display": "ヴィシュヌヴァルダナ王が1117年にベルールのチェンナケーシャヴァ寺院建立を 命じたことを起点とした。王は後にハレビドゥへ遷都し、ホイサレーシュヴァラ寺院の建設は 王の没年（1140年）を超えて子孫の代まで続いた。ホイサラ朝自体はc.1000-1346年に及ぶが、 寺院建築・彫刻の様式的最盛期は12〜13世紀とされる"
+      },
+      "naming": {
+        "self_identified": false,
+        "named_by": null,
+        "named_when": null,
+        "original_label": "Hoysala art / Hoysala architecture",
+        "note": "『ホイサラ美術』はホイサラ朝（政体）の名を借りた後代の美術史記述による様式区分。 当事者（王・彫刻師）自身がこの名で自らの様式を運動として名乗った記録は無い"
+      },
+      "claims": [
+        {
+          "field": "time",
+          "source": "https://en.wikipedia.org/wiki/Chennakeshava_Temple,_Belur",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "originated_in",
+          "source": "https://en.wikipedia.org/wiki/Chennakeshava_Temple,_Belur",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "kind",
+          "source": "https://www.wikidata.org/wiki/Q2361582",
+          "certainty": "scholarly"
+        }
+      ],
+      "evidence": [],
+      "space": [
+        {
+          "role": "originated_in",
+          "target": "place/belur"
+        }
+      ],
+      "relations": [
+        {
+          "type": "diffused_to",
+          "target": "place/london",
+          "certainty": "scholarly",
+          "source": "https://www.britishmuseum.org/collection/object/A_1967-1016-1"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.wikidata.org/wiki/Q2361582",
+          "kind": "authority"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Chennakeshava_Temple,_Belur",
+          "kind": "reference",
+          "note": "『Chennakeshava Temple, Belur』の項。1110年に即位したヴィシュヌヴァルダナ王が 1117年にヴィシュヌ神を祀るチェンナケーシャヴァ寺院建立を命じ、同年に本殿が竣工・ 開眼したが、複合施設全体は以後100年余りにわたり拡張が続いたと記す。ホイサラ朝は c.1000-1346年に958の中心地で約1500の寺院を建てたと記す。ヴィシュヌヴァルダナは 後にハレビドゥへ遷都し、ホイサレーシュヴァラ寺院の建設は王の没年（1140年）を超えて 子孫の代（13世紀）まで続いたと記す"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Hoysala_architecture",
+          "kind": "reference",
+          "note": "『Hoysala architecture』の項。11〜14世紀、現カルナータカ州のホイサラ朝統治下で 発達した建築様式とし、寺院表面全体を覆う超写実的な彫刻・周回可能な基壇・多層の フリーズを特徴とすると記す。彫刻師の多くが自らの作品に署名したとも記す"
+        },
+        {
+          "url": "https://www.britishmuseum.org/collection/object/A_1967-1016-1",
+          "kind": "institutional",
+          "note": "大英博物館収蔵《バイラヴァ神像》（花崗岩、カルナータカ、ホイサラ様式、 1200-1250年頃）。シヴァ神の恐怖相バイラヴァを表し、剣・両面太鼓・生首・髑髏杯・ 三叉戟を持つ姿で、装身具に厚く覆われる点がホイサラ様式の特徴と記す"
+        }
+      ],
+      "status": "draft",
+      "updated": "2026-09-16",
+      "path": "entities/movements/hoysala-art.md"
+    },
     "movement/hudson-river-school": {
       "id": "movement/hudson-river-school",
       "uri": "urn:ahn:movement/hudson-river-school",
@@ -37255,6 +37340,43 @@
       "status": "stub",
       "updated": "2026-08-10",
       "path": "entities/places/basohli.md"
+    },
+    "place/belur": {
+      "id": "place/belur",
+      "uri": "urn:ahn:place/belur",
+      "type": "place",
+      "label_ja": "ベルール",
+      "label_en": "Belur",
+      "authority": {
+        "wikidata": "Q760603",
+        "aat": null,
+        "ulan": null,
+        "tgn": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": null,
+        "end": null,
+        "display": null
+      },
+      "region": "asia-south",
+      "coordinates": [
+        13.164167,
+        75.864722
+      ],
+      "space": [],
+      "relations": [],
+      "sources": [
+        {
+          "url": "https://www.wikidata.org/wiki/Q760603",
+          "kind": "authority"
+        }
+      ],
+      "status": "stub",
+      "updated": "2026-09-16",
+      "path": "entities/places/belur.md"
     },
     "place/benin-city": {
       "id": "place/benin-city",
@@ -76853,6 +76975,18 @@
       "to": "place/herat"
     },
     {
+      "from": "movement/hoysala-art",
+      "type": "diffused_to",
+      "to": "place/london",
+      "certainty": "scholarly",
+      "source": "https://www.britishmuseum.org/collection/object/A_1967-1016-1"
+    },
+    {
+      "from": "movement/hoysala-art",
+      "type": "originated_in",
+      "to": "place/belur"
+    },
+    {
       "from": "movement/hudson-river-school",
       "type": "influenced_by",
       "to": "movement/barbizon-school",
@@ -93829,6 +93963,12 @@
       "from": "movement/shiraz-school",
       "type": "influenced",
       "to": "movement/herat-school",
+      "derived": true
+    },
+    {
+      "from": "place/london",
+      "type": "received",
+      "to": "movement/hoysala-art",
       "derived": true
     },
     {

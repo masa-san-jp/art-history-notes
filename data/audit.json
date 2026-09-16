@@ -3,9 +3,9 @@
   "findings": [],
   "cross_region": {
     "schema_version": 1,
-    "movement_total": 166,
+    "movement_total": 167,
     "counts": {
-      "connected": 106,
+      "connected": 107,
       "reviewed-no-documented-link": 60,
       "unreviewed": 0
     },
@@ -49,6 +49,7 @@
       "movement/gutai",
       "movement/hawaiian-featherwork",
       "movement/herat-school",
+      "movement/hoysala-art",
       "movement/hudson-river-school",
       "movement/iatmul-carving",
       "movement/ife-art",
@@ -1970,6 +1971,34 @@
         ],
         "reasons": [
           "3経路で起源region外へ到達"
+        ],
+        "review": null
+      },
+      {
+        "movement_id": "movement/hoysala-art",
+        "status": "connected",
+        "origin_regions": [
+          "asia-south"
+        ],
+        "routes": [
+          {
+            "kind": "diffused-to-place",
+            "edges": [
+              {
+                "from": "movement/hoysala-art",
+                "type": "diffused_to",
+                "to": "place/london",
+                "certainty": "scholarly",
+                "source": "https://www.britishmuseum.org/collection/object/A_1967-1016-1"
+              }
+            ],
+            "destination_regions": [
+              "europe-west"
+            ]
+          }
+        ],
+        "reasons": [
+          "1経路で起源region外へ到達"
         ],
         "review": null
       },
