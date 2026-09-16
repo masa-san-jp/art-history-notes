@@ -10766,6 +10766,108 @@
       "updated": "2026-08-25",
       "path": "entities/movements/mannerism.md"
     },
+    "movement/marquesan-tiki": {
+      "id": "movement/marquesan-tiki",
+      "uri": "urn:ahn:movement/marquesan-tiki",
+      "type": "movement",
+      "kind": "retrospective",
+      "label_ja": "マルキーズ・ティキ彫刻",
+      "label_en": "Marquesan Tiki Sculpture",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ulan": null,
+        "tgn": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "Wikidataの『Tiki』（Q13389032）は神話上の祖先像という概念自体の項目であり、 マルキーズ諸島の石彫伝統という美術movement単位の項目ではないため採用しなかった。movement 単位のWikidata項目は検索で特定できなかった"
+      },
+      "time": {
+        "start": "14XX",
+        "end": "18XX",
+        "display": "石造ティキの正確な年代づけは難しいとされるが、フランス語の観光局系資料は 『15世紀に遡るものもある』と記す。現存する最大規模・最良の作例は18〜19世紀のものとされ、 19世紀のキリスト教宣教・人口減少により伝統が急速に衰退した。この幅を範囲とした"
+      },
+      "naming": {
+        "self_identified": true,
+        "named_by": null,
+        "named_when": null,
+        "original_label": "tiki",
+        "note": "『ティキ』はマルキーズ語（および広く中東部ポリネシア諸語）で神格化された祖先像を指す 当事者由来の語である。ただしこれを一つの美術movementとして束ねたのは後代の美術史・ 人類学記述であり、当事者自身が『運動』として綱領的に名乗った語ではない"
+      },
+      "claims": [
+        {
+          "field": "time",
+          "source": "https://universvoyage.com/en/the-marquise-islands-a-history-etched-in-stone/",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "originated_in",
+          "source": "https://www.wikidata.org/wiki/Q172697",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "kind",
+          "source": "https://universvoyage.com/en/the-marquise-islands-a-history-etched-in-stone/",
+          "certainty": "scholarly"
+        }
+      ],
+      "evidence": [],
+      "space": [
+        {
+          "role": "originated_in",
+          "target": "place/marquesas-islands"
+        }
+      ],
+      "relations": [
+        {
+          "type": "diffused_to",
+          "target": "place/london",
+          "certainty": "scholarly",
+          "source": "https://www.britishmuseum.org/collection/object/E_Oc1899-155"
+        },
+        {
+          "type": "diffused_to",
+          "target": "place/new-york-city",
+          "certainty": "scholarly",
+          "source": "https://www.metmuseum.org/art/collection/search/311298"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.wikidata.org/wiki/Q172697",
+          "kind": "authority",
+          "note": "originated_inの対象地（マルキーズ諸島）のWikidata項目。movement単位の項目では ない点はauthority.none_reasonに記載した"
+        },
+        {
+          "url": "https://www.wikidata.org/wiki/Q13389032",
+          "kind": "reference",
+          "note": "『Tiki』の項。神格化された祖先を表す像の概念そのものを指す項目であり、マルキーズの 石彫movement単位の項目ではないため、authority.wikidataには採用しなかった"
+        },
+        {
+          "url": "https://universvoyage.com/en/the-marquise-islands-a-history-etched-in-stone/",
+          "kind": "reference",
+          "note": "マルキーズ諸島の石造ティキについて、『15世紀に遡るものもあるが正確な年代づけは 難しい』と記す。ウアフカ島のマイオテ遺跡の赤い凝灰岩製ティキ、プアマウ（ヒバオア島）の 灰色凝灰岩製ティキなど、島ごとの石材の違いにも触れる。また初期の考古学調査・収集により 多くの石像が博物館や個人コレクションへ渡り、一部は贈与・売却・盗難で流出したため、 現地の人々が『発掘者』へ不信感を抱くようになったと記す"
+        },
+        {
+          "url": "https://thesublimeblog.org/2019/09/15/presence-monumental-sculptures-of-the-marquesas-islands/",
+          "kind": "reference",
+          "note": "マルキーズのティキ彫刻について、最良の作例（畏怖と威厳を感じさせる造形）は 18〜19世紀に彫られたものとし、それ以前の作例も『19世紀かそれ以前』と幅を持たせて 年代づけると記す。玄武岩・凝灰岩の使用、大型像ほど石造が多い傾向にも触れる"
+        },
+        {
+          "url": "https://www.britishmuseum.org/collection/object/E_Oc1899-155",
+          "kind": "institutional",
+          "note": "大英博物館収蔵《フィギュア》。玄武岩製の男性ティキ・ケア小像で、頭頂部に貫通した 円形の窪みを持つ。登録番号E_Oc1899-155（同館の登録番号は登録年を含む慣例のため、 1899年に収蔵されたと確認できる）"
+        },
+        {
+          "url": "https://www.metmuseum.org/art/collection/search/311298",
+          "kind": "institutional",
+          "note": "メトロポリタン美術館収蔵《男性像（ティキ）》。マルキーズ（エナタ）の人々による作 （WebSearch経由の検索結果に基づく。metmuseum.orgへの直接アクセスは429エラーで 繰り返し失敗したため未確認）"
+        }
+      ],
+      "status": "draft",
+      "updated": "2026-09-16",
+      "path": "entities/movements/marquesan-tiki.md"
+    },
     "movement/maruyama-shijo-school": {
       "id": "movement/maruyama-shijo-school",
       "uri": "urn:ahn:movement/maruyama-shijo-school",
@@ -39028,6 +39130,43 @@
       "status": "stub",
       "updated": "2026-08-09",
       "path": "entities/places/manila.md"
+    },
+    "place/marquesas-islands": {
+      "id": "place/marquesas-islands",
+      "uri": "urn:ahn:place/marquesas-islands",
+      "type": "place",
+      "label_ja": "マルキーズ諸島",
+      "label_en": "Marquesas Islands",
+      "authority": {
+        "wikidata": "Q172697",
+        "aat": null,
+        "ulan": null,
+        "tgn": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": null,
+        "end": null,
+        "display": null
+      },
+      "region": "oceania",
+      "coordinates": [
+        -9.15,
+        -139.6
+      ],
+      "space": [],
+      "relations": [],
+      "sources": [
+        {
+          "url": "https://www.wikidata.org/wiki/Q172697",
+          "kind": "authority"
+        }
+      ],
+      "status": "stub",
+      "updated": "2026-09-16",
+      "path": "entities/places/marquesas-islands.md"
     },
     "place/mbanza-kongo": {
       "id": "place/mbanza-kongo",
@@ -76926,6 +77065,25 @@
       "to": "place/rome"
     },
     {
+      "from": "movement/marquesan-tiki",
+      "type": "diffused_to",
+      "to": "place/london",
+      "certainty": "scholarly",
+      "source": "https://www.britishmuseum.org/collection/object/E_Oc1899-155"
+    },
+    {
+      "from": "movement/marquesan-tiki",
+      "type": "diffused_to",
+      "to": "place/new-york-city",
+      "certainty": "scholarly",
+      "source": "https://www.metmuseum.org/art/collection/search/311298"
+    },
+    {
+      "from": "movement/marquesan-tiki",
+      "type": "originated_in",
+      "to": "place/marquesas-islands"
+    },
+    {
       "from": "movement/maruyama-shijo-school",
       "type": "influenced_by",
       "to": "movement/nanga",
@@ -93640,6 +93798,18 @@
       "from": "place/london",
       "type": "received",
       "to": "movement/mamluk-art",
+      "derived": true
+    },
+    {
+      "from": "place/london",
+      "type": "received",
+      "to": "movement/marquesan-tiki",
+      "derived": true
+    },
+    {
+      "from": "place/new-york-city",
+      "type": "received",
+      "to": "movement/marquesan-tiki",
       "derived": true
     },
     {

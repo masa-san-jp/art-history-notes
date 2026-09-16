@@ -3,9 +3,9 @@
   "findings": [],
   "cross_region": {
     "schema_version": 1,
-    "movement_total": 163,
+    "movement_total": 164,
     "counts": {
-      "connected": 103,
+      "connected": 104,
       "reviewed-no-documented-link": 60,
       "unreviewed": 0
     },
@@ -66,6 +66,7 @@
       "movement/kongo-christian-art",
       "movement/lingnan-school",
       "movement/mamluk-art",
+      "movement/marquesan-tiki",
       "movement/maruyama-shijo-school",
       "movement/mavo",
       "movement/menri-school",
@@ -2753,6 +2754,49 @@
             "https://en.wikipedia.org/wiki/Mannerism"
           ]
         }
+      },
+      {
+        "movement_id": "movement/marquesan-tiki",
+        "status": "connected",
+        "origin_regions": [
+          "oceania"
+        ],
+        "routes": [
+          {
+            "kind": "diffused-to-place",
+            "edges": [
+              {
+                "from": "movement/marquesan-tiki",
+                "type": "diffused_to",
+                "to": "place/london",
+                "certainty": "scholarly",
+                "source": "https://www.britishmuseum.org/collection/object/E_Oc1899-155"
+              }
+            ],
+            "destination_regions": [
+              "europe-west"
+            ]
+          },
+          {
+            "kind": "diffused-to-place",
+            "edges": [
+              {
+                "from": "movement/marquesan-tiki",
+                "type": "diffused_to",
+                "to": "place/new-york-city",
+                "certainty": "scholarly",
+                "source": "https://www.metmuseum.org/art/collection/search/311298"
+              }
+            ],
+            "destination_regions": [
+              "americas-north"
+            ]
+          }
+        ],
+        "reasons": [
+          "2経路で起源region外へ到達"
+        ],
+        "review": null
       },
       {
         "movement_id": "movement/maruyama-shijo-school",
