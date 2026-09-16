@@ -349,6 +349,13 @@ reviews:
   sources:
   - https://www.wikidata.org/wiki/Q1968335
   - https://en.wikipedia.org/wiki/Stroganov_School
+- movement_id: movement/sudano-sahelian-architecture
+  status: no-documented-cross-region-relation
+  checked: '2026-09-16'
+  note: 2026-09-16時点で、movement→movement relation、movement→placeのdiffused_to、space.active_in、movement→event/orgのexhibited_at→held_at/sited_inの4経路を、当該movementに登録された資料を対象に確認した。トンブクトゥ写本の一部はライブラリー・オブ・コングレス・大英図書館がデジタル化に関わっているが、原本はマリ国内の家族図書館に残り続けており、物理的な資料の域外への移動ではない。起源region外への文書化された接続は現時点で確認できない。
+  sources:
+  - https://www.wikidata.org/wiki/Q489021
+  - https://en.wikipedia.org/wiki/Sudano-Sahelian_architecture
 - movement_id: movement/suprematism
   status: no-documented-cross-region-relation
   checked: '2026-08-25'

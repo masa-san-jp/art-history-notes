@@ -3,10 +3,10 @@
   "findings": [],
   "cross_region": {
     "schema_version": 1,
-    "movement_total": 157,
+    "movement_total": 158,
     "counts": {
       "connected": 99,
-      "reviewed-no-documented-link": 58,
+      "reviewed-no-documented-link": 59,
       "unreviewed": 0
     },
     "connected": [
@@ -163,6 +163,7 @@
       "movement/songjiang-school",
       "movement/southeastern-ceremonial-complex",
       "movement/stroganov-school",
+      "movement/sudano-sahelian-architecture",
       "movement/suprematism",
       "movement/surrealism",
       "movement/ukrainian-baroque",
@@ -4121,6 +4122,27 @@
         }
       },
       {
+        "movement_id": "movement/sudano-sahelian-architecture",
+        "status": "reviewed-no-documented-link",
+        "origin_regions": [
+          "africa-sub"
+        ],
+        "routes": [],
+        "reasons": [
+          "2026-09-16時点で、movement→movement relation、movement→placeのdiffused_to、space.active_in、movement→event/orgのexhibited_at→held_at/sited_inの4経路を、当該movementに登録された資料を対象に確認した。トンブクトゥ写本の一部はライブラリー・オブ・コングレス・大英図書館がデジタル化に関わっているが、原本はマリ国内の家族図書館に残り続けており、物理的な資料の域外への移動ではない。起源region外への文書化された接続は現時点で確認できない。"
+        ],
+        "review": {
+          "movement_id": "movement/sudano-sahelian-architecture",
+          "status": "no-documented-cross-region-relation",
+          "checked": "2026-09-16",
+          "note": "2026-09-16時点で、movement→movement relation、movement→placeのdiffused_to、space.active_in、movement→event/orgのexhibited_at→held_at/sited_inの4経路を、当該movementに登録された資料を対象に確認した。トンブクトゥ写本の一部はライブラリー・オブ・コングレス・大英図書館がデジタル化に関わっているが、原本はマリ国内の家族図書館に残り続けており、物理的な資料の域外への移動ではない。起源region外への文書化された接続は現時点で確認できない。",
+          "sources": [
+            "https://www.wikidata.org/wiki/Q489021",
+            "https://en.wikipedia.org/wiki/Sudano-Sahelian_architecture"
+          ]
+        }
+      },
+      {
         "movement_id": "movement/sukhothai-art",
         "status": "connected",
         "origin_regions": [
@@ -4701,7 +4723,7 @@
   "cross_region_baseline": {
     "schema_version": 1,
     "source_commit": "bd15d4c707d6c2fff84ff0c763a993f94cbc3589",
-    "movement_count": 64,
+    "movement_count": 65,
     "movement_ids": [
       "movement/ai-bigeiken",
       "movement/alaouite-imperial-architecture",
@@ -4760,6 +4782,7 @@
       "movement/songjiang-school",
       "movement/southeastern-ceremonial-complex",
       "movement/stroganov-school",
+      "movement/sudano-sahelian-architecture",
       "movement/suprematism",
       "movement/surrealism",
       "movement/tarnovo-artistic-school",
