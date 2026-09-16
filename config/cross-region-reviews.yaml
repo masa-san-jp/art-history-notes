@@ -118,6 +118,13 @@ reviews:
   sources:
   - https://archive.org/details/f.t.-marinetti-manifeste-du-futurism-1909
   - https://gallica.bnf.fr/ark:/12148/bpt6k2883730
+- movement_id: movement/golden-horde-art
+  status: no-documented-cross-region-relation
+  checked: '2026-09-16'
+  note: 2026-09-16時点で、movement→movement relation、movement→placeのdiffused_to、space.active_in、movement→event/orgのexhibited_at→held_at/sited_inの4経路を、当該movementに登録された資料を対象に確認した。エルミタージュ美術館・国立歴史博物館（いずれもロシア国内、europe-east）の収蔵は確認できたが、europe-east外への文書化された接続は現時点で確認できない。
+  sources:
+  - https://www.wikidata.org/wiki/Q79965
+  - https://en.wikipedia.org/wiki/Golden_Horde
 - movement_id: movement/gujarat-sultanate-architecture
   status: no-documented-cross-region-relation
   checked: '2026-09-16'
