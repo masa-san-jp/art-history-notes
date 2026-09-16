@@ -3,14 +3,15 @@
   "findings": [],
   "cross_region": {
     "schema_version": 1,
-    "movement_total": 160,
+    "movement_total": 161,
     "counts": {
-      "connected": 100,
+      "connected": 101,
       "reviewed-no-documented-link": 60,
       "unreviewed": 0
     },
     "connected": [
       "movement/abstract-expressionism",
+      "movement/akan-goldweights",
       "movement/an-gyeon-school",
       "movement/antropofagia",
       "movement/art-et-liberte",
@@ -236,6 +237,49 @@
             "http://aloalo.co.jp/nakazawa/2016/0501b_j.html"
           ]
         }
+      },
+      {
+        "movement_id": "movement/akan-goldweights",
+        "status": "connected",
+        "origin_regions": [
+          "africa-sub"
+        ],
+        "routes": [
+          {
+            "kind": "diffused-to-place",
+            "edges": [
+              {
+                "from": "movement/akan-goldweights",
+                "type": "diffused_to",
+                "to": "place/london",
+                "certainty": "scholarly",
+                "source": "http://www.britishmuseum.org/research/online_research_catalogues/agw/african_gold-weights/origins_and_history.aspx"
+              }
+            ],
+            "destination_regions": [
+              "europe-west"
+            ]
+          },
+          {
+            "kind": "diffused-to-place",
+            "edges": [
+              {
+                "from": "movement/akan-goldweights",
+                "type": "diffused_to",
+                "to": "place/new-york-city",
+                "certainty": "scholarly",
+                "source": "https://www.metmuseum.org/art/collection/search/312390"
+              }
+            ],
+            "destination_regions": [
+              "americas-north"
+            ]
+          }
+        ],
+        "reasons": [
+          "2経路で起源region外へ到達"
+        ],
+        "review": null
       },
       {
         "movement_id": "movement/alaouite-imperial-architecture",

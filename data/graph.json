@@ -983,6 +983,102 @@
       "updated": "2026-09-15",
       "path": "entities/movements/ai-bigeiken.md"
     },
+    "movement/akan-goldweights": {
+      "id": "movement/akan-goldweights",
+      "uri": "urn:ahn:movement/akan-goldweights",
+      "type": "movement",
+      "kind": "retrospective",
+      "label_ja": "アカン金分銅",
+      "label_en": "Akan Goldweights",
+      "authority": {
+        "wikidata": "Q4291228",
+        "aat": null,
+        "ulan": null,
+        "tgn": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": "14XX",
+        "end": "19XX",
+        "display": "幾何学文様の分銅は現存最古のもので1400年代に遡るとされ、北アフリカのイスラーム 社会由来の意匠を交易路経由で取り入れたと記される。17世紀から19世紀末にかけては、人物・ 動物・植物・器物を象る具象的な分銅も作られるようになった。大英博物館は16〜20世紀に収集 された分銅コレクションを所蔵する"
+      },
+      "naming": {
+        "self_identified": true,
+        "named_by": null,
+        "named_when": null,
+        "original_label": "mrammuo / abrammuo",
+        "note": "『ムラムオ（mrammuo）／アブラムオ（abrammuo）』はアカンの言葉で当事者が用いる語 である。ただしこれを一つの美術movementとして束ねたのは後代の人類学・美術史記述である"
+      },
+      "claims": [
+        {
+          "field": "time",
+          "source": "https://en.wikipedia.org/wiki/Akan_goldweights",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "originated_in",
+          "source": "https://en.wikipedia.org/wiki/Bono_Manso",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "kind",
+          "source": "https://en.wikipedia.org/wiki/Akan_goldweights",
+          "certainty": "scholarly"
+        }
+      ],
+      "evidence": [],
+      "space": [
+        {
+          "role": "originated_in",
+          "target": "place/bono-manso"
+        }
+      ],
+      "relations": [
+        {
+          "type": "diffused_to",
+          "target": "place/london",
+          "certainty": "scholarly",
+          "source": "http://www.britishmuseum.org/research/online_research_catalogues/agw/african_gold-weights/origins_and_history.aspx"
+        },
+        {
+          "type": "diffused_to",
+          "target": "place/new-york-city",
+          "certainty": "scholarly",
+          "source": "https://www.metmuseum.org/art/collection/search/312390"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.wikidata.org/wiki/Q4291228",
+          "kind": "authority"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Akan_goldweights",
+          "kind": "reference",
+          "note": "『Akan goldweights』の項。現存最古の幾何学文様の分銅が1400年代に遡り、北アフリカ のイスラーム社会由来の意匠を交易路経由で取り入れたと記す。蝋型鋳造による真鍮製で、 17世紀以降は具象的な意匠も作られたと記す"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Bono_Manso",
+          "kind": "reference",
+          "note": "『Bono Manso』の項。アカン人の金鉱山とジェンネ・トンブクトゥなどサヘル地域の 市場を結ぶトランス・サハラ交易の要衝だったと記す"
+        },
+        {
+          "url": "http://www.britishmuseum.org/research/online_research_catalogues/agw/african_gold-weights/origins_and_history.aspx",
+          "kind": "institutional",
+          "note": "大英博物館のオンライン研究カタログ。16〜20世紀に収集された分銅約2000点の コレクションを所蔵すると記す"
+        },
+        {
+          "url": "https://www.metmuseum.org/art/collection/search/312390",
+          "kind": "institutional",
+          "note": "メトロポリタン美術館収蔵《鳥の爪の分銅》（アサンテ、アカン作）"
+        }
+      ],
+      "status": "draft",
+      "updated": "2026-09-16",
+      "path": "entities/movements/akan-goldweights.md"
+    },
     "movement/alaouite-imperial-architecture": {
       "id": "movement/alaouite-imperial-architecture",
       "uri": "urn:ahn:movement/alaouite-imperial-architecture",
@@ -36852,6 +36948,43 @@
       "status": "stub",
       "updated": "2026-08-10",
       "path": "entities/places/bismarck-archipelago.md"
+    },
+    "place/bono-manso": {
+      "id": "place/bono-manso",
+      "uri": "urn:ahn:place/bono-manso",
+      "type": "place",
+      "label_ja": "ボノ・マンソ",
+      "label_en": "Bono Manso",
+      "authority": {
+        "wikidata": "Q134373893",
+        "aat": null,
+        "ulan": null,
+        "tgn": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": null,
+        "end": null,
+        "display": null
+      },
+      "region": "africa-sub",
+      "coordinates": [
+        7.70111,
+        -1.84611
+      ],
+      "space": [],
+      "relations": [],
+      "sources": [
+        {
+          "url": "https://www.wikidata.org/wiki/Q134373893",
+          "kind": "authority"
+        }
+      ],
+      "status": "stub",
+      "updated": "2026-09-16",
+      "path": "entities/places/bono-manso.md"
     },
     "place/boston": {
       "id": "place/boston",
@@ -75093,6 +75226,25 @@
       "source": null
     },
     {
+      "from": "movement/akan-goldweights",
+      "type": "diffused_to",
+      "to": "place/london",
+      "certainty": "scholarly",
+      "source": "http://www.britishmuseum.org/research/online_research_catalogues/agw/african_gold-weights/origins_and_history.aspx"
+    },
+    {
+      "from": "movement/akan-goldweights",
+      "type": "diffused_to",
+      "to": "place/new-york-city",
+      "certainty": "scholarly",
+      "source": "https://www.metmuseum.org/art/collection/search/312390"
+    },
+    {
+      "from": "movement/akan-goldweights",
+      "type": "originated_in",
+      "to": "place/bono-manso"
+    },
+    {
       "from": "movement/alaouite-imperial-architecture",
       "type": "originated_in",
       "to": "place/meknes"
@@ -92418,6 +92570,18 @@
       "from": "person/hideki-nakazawa",
       "type": "created",
       "to": "movement/ai-bigeiken",
+      "derived": true
+    },
+    {
+      "from": "place/london",
+      "type": "received",
+      "to": "movement/akan-goldweights",
+      "derived": true
+    },
+    {
+      "from": "place/new-york-city",
+      "type": "received",
+      "to": "movement/akan-goldweights",
       "derived": true
     },
     {
