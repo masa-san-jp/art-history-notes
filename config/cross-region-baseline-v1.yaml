@@ -1,6 +1,6 @@
 schema_version: 1
 source_commit: bd15d4c707d6c2fff84ff0c763a993f94cbc3589
-movement_count: 65
+movement_count: 66
 movement_ids:
   - movement/ai-bigeiken
   - movement/alaouite-imperial-architecture
@@ -20,6 +20,7 @@ movement_ids:
   - movement/cubism
   - movement/de-stijl
   - movement/dong-ho-painting
+  - movement/early-ottoman-architecture
   - movement/expressionism
   - movement/four-wangs
   - movement/futurism
