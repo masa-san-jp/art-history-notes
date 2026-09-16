@@ -11184,6 +11184,79 @@
       "updated": "2026-08-25",
       "path": "entities/movements/mughal-painting.md"
     },
+    "movement/nan-madol-architecture": {
+      "id": "movement/nan-madol-architecture",
+      "uri": "urn:ahn:movement/nan-madol-architecture",
+      "type": "movement",
+      "kind": "period-style",
+      "label_ja": "ナンマドール建築",
+      "label_en": "Nan Madol Architecture",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ulan": null,
+        "tgn": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "ナンマドールの巨石建築様式そのものを指すWikidata項目は検索で特定できなかった。 遺跡自体の項目（Q846967）は place/nan-madol の authority として別途登録した"
+      },
+      "time": {
+        "start": "1200",
+        "end": "1628~",
+        "display": "ウラン系列年代測定により、サウデレウル朝による島全体の政治的統合は西暦1180-1200年 頃に確立したとされる。石造の宮殿・神殿・墓・居住区の建設は1200-1500年に及ぶとする資料と、 13〜17世紀に及ぶとする資料がある。サウデレウル朝の都としての機能は1628年頃までとされる"
+      },
+      "naming": {
+        "self_identified": false,
+        "named_by": null,
+        "named_when": null,
+        "original_label": "Nan Madol",
+        "note": "『ナンマドール』は現地の言葉で『間の中に』を意味し、遺跡を刻む水路への言及とされる （地名としては当事者由来）。ただし様式・建築技法を一つの美術運動として束ねる名としては 後代の考古学記述による"
+      },
+      "claims": [
+        {
+          "field": "time",
+          "source": "https://www.heritagedaily.com/2020/07/nan-madol-capital-of-the-saudeleur-dynasty/134102",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "originated_in",
+          "source": "https://www.heritagedaily.com/2020/07/nan-madol-capital-of-the-saudeleur-dynasty/134102",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "kind",
+          "source": "https://en.wikipedia.org/wiki/Saudeleur_dynasty",
+          "certainty": "scholarly"
+        }
+      ],
+      "evidence": [],
+      "space": [
+        {
+          "role": "originated_in",
+          "target": "place/nan-madol"
+        }
+      ],
+      "relations": [],
+      "sources": [
+        {
+          "url": "https://www.wikidata.org/wiki/Q846967",
+          "kind": "authority"
+        },
+        {
+          "url": "https://www.heritagedaily.com/2020/07/nan-madol-capital-of-the-saudeleur-dynasty/134102",
+          "kind": "reference",
+          "note": "ナンマドールをサウデレウル朝の都とし、サウデレウル朝の墓のウラン系列年代測定から 島全体の政治統合を西暦1180-1200年頃と記す。石造の宮殿・神殿・墓・居住区が1200-1500年に 及ぶと記す"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Saudeleur_dynasty",
+          "kind": "reference",
+          "note": "サウデレウル朝が12世紀から17世紀初頭まで統治し、ナンマドールを政治・儀礼の中心地に 押し上げたと記す。同朝の都としての機能は1628年頃までとする"
+        }
+      ],
+      "status": "draft",
+      "updated": "2026-09-16",
+      "path": "entities/movements/nan-madol-architecture.md"
+    },
     "movement/nanga": {
       "id": "movement/nanga",
       "uri": "urn:ahn:movement/nanga",
@@ -37635,6 +37708,43 @@
       "status": "stub",
       "updated": "2026-09-16",
       "path": "entities/places/mushenge.md"
+    },
+    "place/nan-madol": {
+      "id": "place/nan-madol",
+      "uri": "urn:ahn:place/nan-madol",
+      "type": "place",
+      "label_ja": "ナンマドール",
+      "label_en": "Nan Madol",
+      "authority": {
+        "wikidata": "Q846967",
+        "aat": null,
+        "ulan": null,
+        "tgn": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": null,
+        "end": null,
+        "display": null
+      },
+      "region": "oceania",
+      "coordinates": [
+        6.8392,
+        158.3167
+      ],
+      "space": [],
+      "relations": [],
+      "sources": [
+        {
+          "url": "https://www.wikidata.org/wiki/Q846967",
+          "kind": "authority"
+        }
+      ],
+      "status": "stub",
+      "updated": "2026-09-16",
+      "path": "entities/places/nan-madol.md"
     },
     "place/nanjing": {
       "id": "place/nanjing",
@@ -74966,6 +75076,11 @@
       "from": "movement/mughal-painting",
       "type": "originated_in",
       "to": "place/agra"
+    },
+    {
+      "from": "movement/nan-madol-architecture",
+      "type": "originated_in",
+      "to": "place/nan-madol"
     },
     {
       "from": "movement/nanga",
