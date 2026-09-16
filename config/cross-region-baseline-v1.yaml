@@ -1,8 +1,9 @@
 schema_version: 1
 source_commit: bd15d4c707d6c2fff84ff0c763a993f94cbc3589
-movement_count: 62
+movement_count: 63
 movement_ids:
   - movement/ai-bigeiken
+  - movement/alaouite-imperial-architecture
   - movement/arts-and-crafts
   - movement/bamana-sculpture
   - movement/barbizon-school

@@ -3,10 +3,10 @@
   "findings": [],
   "cross_region": {
     "schema_version": 1,
-    "movement_total": 149,
+    "movement_total": 150,
     "counts": {
       "connected": 93,
-      "reviewed-no-documented-link": 56,
+      "reviewed-no-documented-link": 57,
       "unreviewed": 0
     },
     "connected": [
@@ -106,6 +106,7 @@
     ],
     "reviewed_no_documented_link": [
       "movement/ai-bigeiken",
+      "movement/alaouite-imperial-architecture",
       "movement/arts-and-crafts",
       "movement/bamana-sculpture",
       "movement/barbizon-school",
@@ -223,6 +224,27 @@
           "sources": [
             "https://www.aibigeiken.com/",
             "http://aloalo.co.jp/nakazawa/2016/0501b_j.html"
+          ]
+        }
+      },
+      {
+        "movement_id": "movement/alaouite-imperial-architecture",
+        "status": "reviewed-no-documented-link",
+        "origin_regions": [
+          "mena"
+        ],
+        "routes": [],
+        "reasons": [
+          "2026-09-16時点で、movement→movement relation、movement→placeのdiffused_to、space.active_in、movement→event/orgのexhibited_at→held_at/sited_inの4経路を、当該movementに登録された資料を対象に確認した。ルイ14世からの外交贈答品（時計）がメクネスに現存する記録は見つけたが、これはフランスからモロッコへの一方向の贈答であり、本movement自体がeurope-westへ拡散した記録ではない。起源region外への文書化された接続は現時点で確認できない。"
+        ],
+        "review": {
+          "movement_id": "movement/alaouite-imperial-architecture",
+          "status": "no-documented-cross-region-relation",
+          "checked": "2026-09-16",
+          "note": "2026-09-16時点で、movement→movement relation、movement→placeのdiffused_to、space.active_in、movement→event/orgのexhibited_at→held_at/sited_inの4経路を、当該movementに登録された資料を対象に確認した。ルイ14世からの外交贈答品（時計）がメクネスに現存する記録は見つけたが、これはフランスからモロッコへの一方向の贈答であり、本movement自体がeurope-westへ拡散した記録ではない。起源region外への文書化された接続は現時点で確認できない。",
+          "sources": [
+            "https://www.wikidata.org/wiki/Q178663",
+            "https://en.wikipedia.org/wiki/Meknes"
           ]
         }
       },
@@ -4468,9 +4490,10 @@
   "cross_region_baseline": {
     "schema_version": 1,
     "source_commit": "bd15d4c707d6c2fff84ff0c763a993f94cbc3589",
-    "movement_count": 62,
+    "movement_count": 63,
     "movement_ids": [
       "movement/ai-bigeiken",
+      "movement/alaouite-imperial-architecture",
       "movement/arts-and-crafts",
       "movement/bamana-sculpture",
       "movement/barbizon-school",

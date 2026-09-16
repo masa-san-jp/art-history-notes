@@ -6,6 +6,13 @@ reviews:
   sources:
   - https://www.aibigeiken.com/
   - http://aloalo.co.jp/nakazawa/2016/0501b_j.html
+- movement_id: movement/alaouite-imperial-architecture
+  status: no-documented-cross-region-relation
+  checked: '2026-09-16'
+  note: 2026-09-16時点で、movement→movement relation、movement→placeのdiffused_to、space.active_in、movement→event/orgのexhibited_at→held_at/sited_inの4経路を、当該movementに登録された資料を対象に確認した。ルイ14世からの外交贈答品（時計）がメクネスに現存する記録は見つけたが、これはフランスからモロッコへの一方向の贈答であり、本movement自体がeurope-westへ拡散した記録ではない。起源region外への文書化された接続は現時点で確認できない。
+  sources:
+  - https://www.wikidata.org/wiki/Q178663
+  - https://en.wikipedia.org/wiki/Meknes
 - movement_id: movement/coffin-portrait
   status: no-documented-cross-region-relation
   checked: '2026-09-15'
