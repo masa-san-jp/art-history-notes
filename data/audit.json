@@ -3,10 +3,10 @@
   "findings": [],
   "cross_region": {
     "schema_version": 1,
-    "movement_total": 172,
+    "movement_total": 173,
     "counts": {
       "connected": 110,
-      "reviewed-no-documented-link": 62,
+      "reviewed-no-documented-link": 63,
       "unreviewed": 0
     },
     "connected": [
@@ -153,6 +153,7 @@
       "movement/khyenri-school",
       "movement/kowhaiwhai",
       "movement/lapita-pottery",
+      "movement/latte-stone-architecture",
       "movement/literati-painting",
       "movement/makonde-carving",
       "movement/mandalay-style",
@@ -2746,6 +2747,27 @@
         }
       },
       {
+        "movement_id": "movement/latte-stone-architecture",
+        "status": "reviewed-no-documented-link",
+        "origin_regions": [
+          "oceania"
+        ],
+        "routes": [],
+        "reasons": [
+          "2026-09-16時点で、movement→movement relation、movement→placeのdiffused_to、space.active_in、movement→event/orgのexhibited_at→held_at/sited_inの4経路を、当該movementに登録された資料を対象に確認した。石造構造物という性質上可搬性の高い作例が乏しく、検索した範囲ではラッテ・ストーンやチャモロの工芸品がマリアナ諸島外の博物館へ収蔵された記録を確認できなかった。起源region外への文書化された接続は現時点で確認できない。"
+        ],
+        "review": {
+          "movement_id": "movement/latte-stone-architecture",
+          "status": "no-documented-cross-region-relation",
+          "checked": "2026-09-16",
+          "note": "2026-09-16時点で、movement→movement relation、movement→placeのdiffused_to、space.active_in、movement→event/orgのexhibited_at→held_at/sited_inの4経路を、当該movementに登録された資料を対象に確認した。石造構造物という性質上可搬性の高い作例が乏しく、検索した範囲ではラッテ・ストーンやチャモロの工芸品がマリアナ諸島外の博物館へ収蔵された記録を確認できなかった。起源region外への文書化された接続は現時点で確認できない。",
+          "sources": [
+            "https://www.wikidata.org/wiki/Q4211672",
+            "https://en.wikipedia.org/wiki/Latte_stone"
+          ]
+        }
+      },
+      {
         "movement_id": "movement/lingnan-school",
         "status": "connected",
         "origin_regions": [
@@ -5153,7 +5175,7 @@
   "cross_region_baseline": {
     "schema_version": 1,
     "source_commit": "bd15d4c707d6c2fff84ff0c763a993f94cbc3589",
-    "movement_count": 68,
+    "movement_count": 69,
     "movement_ids": [
       "movement/ai-bigeiken",
       "movement/alaouite-imperial-architecture",
@@ -5190,6 +5212,7 @@
       "movement/khyenri-school",
       "movement/kowhaiwhai",
       "movement/lapita-pottery",
+      "movement/latte-stone-architecture",
       "movement/literati-painting",
       "movement/makonde-carving",
       "movement/mandalay-style",

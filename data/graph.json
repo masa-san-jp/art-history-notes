@@ -10497,6 +10497,74 @@
       "updated": "2026-08-25",
       "path": "entities/movements/lapita-pottery.md"
     },
+    "movement/latte-stone-architecture": {
+      "id": "movement/latte-stone-architecture",
+      "uri": "urn:ahn:movement/latte-stone-architecture",
+      "type": "movement",
+      "kind": "retrospective",
+      "label_ja": "ラッテ・ストーン建築",
+      "label_en": "Latte Stone Architecture",
+      "authority": {
+        "wikidata": "Q4211672",
+        "aat": null,
+        "ulan": null,
+        "tgn": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": "09XX",
+        "end": "17XX",
+        "display": "英語版Wikipedia『Latte stone』は、紀元900年頃に使用が始まり、1521年の フェルディナンド・マゼラン来航後も続いたが、スペインによる植民地化を経て1700年頃 までに完全に廃れたと記す"
+      },
+      "naming": {
+        "self_identified": false,
+        "named_by": null,
+        "named_when": null,
+        "original_label": "latte stone",
+        "note": "『ラッテ』（latte）自体はチャモロ語由来とされる語だが、これを建築movementとして 括るのは後代の考古学・建築史記述による。当事者自身がこの語を運動名として綱領的に 用いた記録は無い"
+      },
+      "claims": [
+        {
+          "field": "time",
+          "source": "https://en.wikipedia.org/wiki/Latte_stone",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "originated_in",
+          "source": "https://en.wikipedia.org/wiki/Latte_stone",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "kind",
+          "source": "https://www.wikidata.org/wiki/Q4211672",
+          "certainty": "scholarly"
+        }
+      ],
+      "evidence": [],
+      "space": [
+        {
+          "role": "originated_in",
+          "target": "place/guam"
+        }
+      ],
+      "relations": [],
+      "sources": [
+        {
+          "url": "https://www.wikidata.org/wiki/Q4211672",
+          "kind": "authority"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Latte_stone",
+          "kind": "reference",
+          "note": "『Latte stone』の項。半球形の笠石を頂く柱状の石造構造物で、初期のチャモロ人が 建物の土台として用い始めたのは紀元900年頃とし、1521年のマゼラン来航後も一般的に 使われ続けたが、スペインによる植民地化を経て1700年頃までに完全に廃れたと記す。 現在ではグアム・北マリアナ諸島の米国硬貨、道路標識などにチャモロ人アイデンティティ の象徴として用いられると記す"
+        }
+      ],
+      "status": "draft",
+      "updated": "2026-09-16",
+      "path": "entities/movements/latte-stone-architecture.md"
+    },
     "movement/lingnan-school": {
       "id": "movement/lingnan-school",
       "uri": "urn:ahn:movement/lingnan-school",
@@ -38757,6 +38825,43 @@
       "status": "stub",
       "updated": "2026-09-16",
       "path": "entities/places/great-zimbabwe.md"
+    },
+    "place/guam": {
+      "id": "place/guam",
+      "uri": "urn:ahn:place/guam",
+      "type": "place",
+      "label_ja": "グアム",
+      "label_en": "Guam",
+      "authority": {
+        "wikidata": "Q16635",
+        "aat": null,
+        "ulan": null,
+        "tgn": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": null,
+        "end": null,
+        "display": null
+      },
+      "region": "oceania",
+      "coordinates": [
+        13.5,
+        144.8
+      ],
+      "space": [],
+      "relations": [],
+      "sources": [
+        {
+          "url": "https://www.wikidata.org/wiki/Q16635",
+          "kind": "authority"
+        }
+      ],
+      "status": "stub",
+      "updated": "2026-09-16",
+      "path": "entities/places/guam.md"
     },
     "place/guangzhou": {
       "id": "place/guangzhou",
@@ -77962,6 +78067,11 @@
       "from": "movement/lapita-pottery",
       "type": "originated_in",
       "to": "place/bismarck-archipelago"
+    },
+    {
+      "from": "movement/latte-stone-architecture",
+      "type": "originated_in",
+      "to": "place/guam"
     },
     {
       "from": "movement/lingnan-school",

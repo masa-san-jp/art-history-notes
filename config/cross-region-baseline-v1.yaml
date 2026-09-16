@@ -1,6 +1,6 @@
 schema_version: 1
 source_commit: bd15d4c707d6c2fff84ff0c763a993f94cbc3589
-movement_count: 68
+movement_count: 69
 movement_ids:
   - movement/ai-bigeiken
   - movement/alaouite-imperial-architecture
@@ -37,6 +37,7 @@ movement_ids:
   - movement/khyenri-school
   - movement/kowhaiwhai
   - movement/lapita-pottery
+  - movement/latte-stone-architecture
   - movement/literati-painting
   - movement/makonde-carving
   - movement/mandalay-style
