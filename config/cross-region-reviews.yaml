@@ -419,6 +419,13 @@ reviews:
   sources:
   - https://www.wikidata.org/wiki/Q3492313
   - https://en.wikipedia.org/wiki/Southeastern_Ceremonial_Complex
+- movement_id: movement/muhammad-ali-mosque-architecture
+  status: no-documented-cross-region-relation
+  checked: '2026-09-16'
+  note: 2026-09-16時点で、movement→movement relation、movement→placeのdiffused_to、space.active_in、movement→event/orgのexhibited_at→held_at/sited_inの4経路を、当該movementに登録された資料を対象に確認した。中庭のフランス製大時計塔（1846年、ルイ・フィリップからの贈答）はeurope-westからmenaへの受け入れであり、本movement自身の様式・作品が域外へ拡散した記録ではない。様式の範としたイスタンブールもmena内（regionバケット上）であり域外接続に当たらない。起源region外への文書化された接続は現時点で確認できない。
+  sources:
+  - https://www.wikidata.org/wiki/Q652046
+  - https://en.wikipedia.org/wiki/Mosque_of_Muhammad_Ali
 - movement_id: movement/kakatiya-art
   status: no-documented-cross-region-relation
   checked: '2026-09-16'

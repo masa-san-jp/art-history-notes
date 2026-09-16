@@ -12268,6 +12268,75 @@
       "updated": "2026-08-25",
       "path": "entities/movements/mughal-painting.md"
     },
+    "movement/muhammad-ali-mosque-architecture": {
+      "id": "movement/muhammad-ali-mosque-architecture",
+      "uri": "urn:ahn:movement/muhammad-ali-mosque-architecture",
+      "type": "movement",
+      "kind": "self-declared",
+      "label_ja": "ムハンマド・アリー朝モスク建築",
+      "label_en": "Muhammad Ali Dynasty Mosque Architecture",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ulan": null,
+        "tgn": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "Wikidataの『Muhammad Ali Mosque』（Q652046）は建造物1件を指す個別項目であり、 様式・movement単位の項目ではないため採用しなかった。movement単位のWikidata項目は 検索で特定できなかった"
+      },
+      "time": {
+        "start": "1830",
+        "end": "1848",
+        "display": "1830年に建設開始、1848年（Wikidataのinception年）完成。実際の建設は 1857年頃まで続いたとする資料もある（英語版Wikipedia『Mosque of Muhammad Ali』）"
+      },
+      "naming": {
+        "self_identified": false,
+        "named_by": null,
+        "named_when": null,
+        "original_label": "Muhammad Ali Mosque architecture",
+        "note": "モスクの名称『ムハンマド・アリー・モスク』自体は建立者の名を冠したものだが、 これを様式movementとして括る呼称は後代の建築史記述による"
+      },
+      "claims": [
+        {
+          "field": "time",
+          "source": "https://www.wikidata.org/wiki/Q652046",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "originated_in",
+          "source": "https://en.wikipedia.org/wiki/Mosque_of_Muhammad_Ali",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "kind",
+          "source": "https://en.wikipedia.org/wiki/Mosque_of_Muhammad_Ali",
+          "certainty": "scholarly"
+        }
+      ],
+      "evidence": [],
+      "space": [
+        {
+          "role": "originated_in",
+          "target": "place/cairo"
+        }
+      ],
+      "relations": [],
+      "sources": [
+        {
+          "url": "https://www.wikidata.org/wiki/Q652046",
+          "kind": "authority",
+          "note": "movement単位の項目ではなく建造物1件の項目である点はauthority.none_reasonに 記載した"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Mosque_of_Muhammad_Ali",
+          "kind": "reference",
+          "note": "『Mosque of Muhammad Ali』の項。1827年、フランス人建築家パスカル・コストが ネオ・マムルーク様式を提案したが、ムハンマド・アリーはこれを退けたと記す。1832年から 進んだ実際の建設は『おそらくギリシャ人かアルメニア人』の建築家によるとし、様式は イスタンブールのシェフザーデ・モスク、スルタンアフメト・モスクと同じ配置を持つ 『完全にオットマン様式』であり、カイロの伝統的建築様式からの意図的な断絶を通じて、 ムハンマド・アリー自身がエジプトに新しい秩序を築こうとした意志の表れと解釈されると 記す。中庭北西の壁上には、1846年頃にフランス王ルイ・フィリップからルクソール・ オベリスクとの交換で贈られた鉄製の大時計塔（ネオ・ゴシックとオリエンタリズム様式の 混交）があると記す"
+        }
+      ],
+      "status": "draft",
+      "updated": "2026-09-16",
+      "path": "entities/movements/muhammad-ali-mosque-architecture.md"
+    },
     "movement/nan-madol-architecture": {
       "id": "movement/nan-madol-architecture",
       "uri": "urn:ahn:movement/nan-madol-architecture",
@@ -77786,6 +77855,11 @@
       "from": "movement/mughal-painting",
       "type": "originated_in",
       "to": "place/agra"
+    },
+    {
+      "from": "movement/muhammad-ali-mosque-architecture",
+      "type": "originated_in",
+      "to": "place/cairo"
     },
     {
       "from": "movement/nan-madol-architecture",
