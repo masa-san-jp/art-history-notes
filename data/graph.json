@@ -10369,6 +10369,75 @@
       "updated": "2026-08-25",
       "path": "entities/movements/kowhaiwhai.md"
     },
+    "movement/lan-xang-art": {
+      "id": "movement/lan-xang-art",
+      "uri": "urn:ahn:movement/lan-xang-art",
+      "type": "movement",
+      "kind": "period-style",
+      "label_ja": "ラーンサーン美術",
+      "label_en": "Lan Xang Art",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ulan": null,
+        "tgn": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "Wikidataの『Lan Xang』（Q853477）は王国（政体）そのものを指す項目であり、 美術・様式単位の項目ではないため採用しなかった。movement単位のWikidata項目は検索で 特定できなかった"
+      },
+      "time": {
+        "start": "1353",
+        "end": "1707",
+        "display": "英語版Wikipediaはファー・グムによる建国を1353年とし、Wikidataは1354年とする （出典間の1年の差）。1707年、王国が3王国（ルアンパバーン・ヴィエンチャン・ チャンパーサック）に分裂した年を終期とした"
+      },
+      "naming": {
+        "self_identified": false,
+        "named_by": null,
+        "named_when": null,
+        "original_label": "Lan Xang art",
+        "note": "『ラーンサーン（百万の象の意）』は王国自体の当事者由来の名だが、これを美術movement として括る呼称は後代の美術史記述による"
+      },
+      "claims": [
+        {
+          "field": "time",
+          "source": "https://en.wikipedia.org/wiki/Lan_Xang",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "originated_in",
+          "source": "https://en.wikipedia.org/wiki/Lan_Xang",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "kind",
+          "source": "https://en.wikipedia.org/wiki/Lan_Xang",
+          "certainty": "scholarly"
+        }
+      ],
+      "evidence": [],
+      "space": [
+        {
+          "role": "originated_in",
+          "target": "place/luang-prabang"
+        }
+      ],
+      "relations": [],
+      "sources": [
+        {
+          "url": "https://www.wikidata.org/wiki/Q853477",
+          "kind": "reference",
+          "note": "『Lan Xang』の項。1354-1707年に存続した統一王国とし、東南アジア最大級の王国の 一つと記す。都は1354-1560年ルアンパバーン、1560-1707年ヴィエンチャンと記す。 movement単位の項目ではない点はauthority.none_reasonに記載した"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Lan_Xang",
+          "kind": "reference",
+          "note": "『Lan Xang』の項。1353年、ファー・グムによる建国とする。王ウィスン （在位1500-1520年）が『畏怖払拭』印を結ぶ仏立像プラバーンを王国の護持仏に定め、 仏教説話（ジャータカ）・ラーマーヤナ（プララック・プララム）・三蔵のパーリ語から ラオ語への翻訳など古典文学が編まれたと記す。ワット・ウィスン（1513年、現存最古の 継続使用される上座部寺院）、王セーターティラート（在位1548-1571年）代のワット・ シエントーン（ルアンパバーン）・タート・ルアン（ヴィエンチャン、大規模改修）を 代表的建造物として挙げる"
+        }
+      ],
+      "status": "draft",
+      "updated": "2026-09-16",
+      "path": "entities/movements/lan-xang-art.md"
+    },
     "movement/lapita-pottery": {
       "id": "movement/lapita-pottery",
       "uri": "urn:ahn:movement/lapita-pottery",
@@ -39952,6 +40021,43 @@
       "status": "stub",
       "updated": "2026-08-12",
       "path": "entities/places/london.md"
+    },
+    "place/luang-prabang": {
+      "id": "place/luang-prabang",
+      "uri": "urn:ahn:place/luang-prabang",
+      "type": "place",
+      "label_ja": "ルアンパバーン",
+      "label_en": "Luang Prabang",
+      "authority": {
+        "wikidata": "Q190165",
+        "aat": null,
+        "ulan": null,
+        "tgn": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": null,
+        "end": null,
+        "display": null
+      },
+      "region": "asia-southeast",
+      "coordinates": [
+        19.89,
+        102.13
+      ],
+      "space": [],
+      "relations": [],
+      "sources": [
+        {
+          "url": "https://www.wikidata.org/wiki/Q190165",
+          "kind": "authority"
+        }
+      ],
+      "status": "stub",
+      "updated": "2026-09-16",
+      "path": "entities/places/luang-prabang.md"
     },
     "place/mandalay": {
       "id": "place/mandalay",
@@ -78048,6 +78154,11 @@
       "from": "movement/kowhaiwhai",
       "type": "originated_in",
       "to": "place/new-zealand"
+    },
+    {
+      "from": "movement/lan-xang-art",
+      "type": "originated_in",
+      "to": "place/luang-prabang"
     },
     {
       "from": "movement/lapita-pottery",

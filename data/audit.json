@@ -3,10 +3,10 @@
   "findings": [],
   "cross_region": {
     "schema_version": 1,
-    "movement_total": 173,
+    "movement_total": 174,
     "counts": {
       "connected": 110,
-      "reviewed-no-documented-link": 63,
+      "reviewed-no-documented-link": 64,
       "unreviewed": 0
     },
     "connected": [
@@ -152,6 +152,7 @@
       "movement/karma-gardri",
       "movement/khyenri-school",
       "movement/kowhaiwhai",
+      "movement/lan-xang-art",
       "movement/lapita-pottery",
       "movement/latte-stone-architecture",
       "movement/literati-painting",
@@ -2726,6 +2727,27 @@
         }
       },
       {
+        "movement_id": "movement/lan-xang-art",
+        "status": "reviewed-no-documented-link",
+        "origin_regions": [
+          "asia-southeast"
+        ],
+        "routes": [],
+        "reasons": [
+          "2026-09-16時点で、movement→movement relation、movement→placeのdiffused_to、space.active_in、movement→event/orgのexhibited_at→held_at/sited_inの4経路を、当該movementに登録された資料を対象に確認した。護持仏プラバーンは1778年・1828年の2度シャム（現タイ）軍によりバンコクへ運ばれたが、シャム・タイも本KBのregionバケット上はasia-southeast内であり域外接続に当たらない。起源region外への文書化された接続は現時点で確認できない。"
+        ],
+        "review": {
+          "movement_id": "movement/lan-xang-art",
+          "status": "no-documented-cross-region-relation",
+          "checked": "2026-09-16",
+          "note": "2026-09-16時点で、movement→movement relation、movement→placeのdiffused_to、space.active_in、movement→event/orgのexhibited_at→held_at/sited_inの4経路を、当該movementに登録された資料を対象に確認した。護持仏プラバーンは1778年・1828年の2度シャム（現タイ）軍によりバンコクへ運ばれたが、シャム・タイも本KBのregionバケット上はasia-southeast内であり域外接続に当たらない。起源region外への文書化された接続は現時点で確認できない。",
+          "sources": [
+            "https://www.wikidata.org/wiki/Q853477",
+            "https://en.wikipedia.org/wiki/Lan_Xang"
+          ]
+        }
+      },
+      {
         "movement_id": "movement/lapita-pottery",
         "status": "reviewed-no-documented-link",
         "origin_regions": [
@@ -5175,7 +5197,7 @@
   "cross_region_baseline": {
     "schema_version": 1,
     "source_commit": "bd15d4c707d6c2fff84ff0c763a993f94cbc3589",
-    "movement_count": 69,
+    "movement_count": 70,
     "movement_ids": [
       "movement/ai-bigeiken",
       "movement/alaouite-imperial-architecture",
@@ -5211,6 +5233,7 @@
       "movement/karma-gardri",
       "movement/khyenri-school",
       "movement/kowhaiwhai",
+      "movement/lan-xang-art",
       "movement/lapita-pottery",
       "movement/latte-stone-architecture",
       "movement/literati-painting",
