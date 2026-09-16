@@ -3,9 +3,9 @@
   "findings": [],
   "cross_region": {
     "schema_version": 1,
-    "movement_total": 147,
+    "movement_total": 148,
     "counts": {
-      "connected": 92,
+      "connected": 93,
       "reviewed-no-documented-link": 55,
       "unreviewed": 0
     },
@@ -98,6 +98,7 @@
       "movement/thirteen-moderns",
       "movement/tosa-school",
       "movement/venetian-school",
+      "movement/vijayanagara-art",
       "movement/yamato-e",
       "movement/yangzhou-eccentrics",
       "movement/zanabazar-school",
@@ -4235,6 +4236,34 @@
             ],
             "destination_regions": [
               "europe-east"
+            ]
+          }
+        ],
+        "reasons": [
+          "1経路で起源region外へ到達"
+        ],
+        "review": null
+      },
+      {
+        "movement_id": "movement/vijayanagara-art",
+        "status": "connected",
+        "origin_regions": [
+          "asia-south"
+        ],
+        "routes": [
+          {
+            "kind": "diffused-to-place",
+            "edges": [
+              {
+                "from": "movement/vijayanagara-art",
+                "type": "diffused_to",
+                "to": "place/new-york-city",
+                "certainty": "scholarly",
+                "source": "https://www.metmuseum.org/art/collection/search?q=South+Indian,+Vijayanagara&sortBy=Relevance"
+              }
+            ],
+            "destination_regions": [
+              "americas-north"
             ]
           }
         ],

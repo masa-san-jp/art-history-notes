@@ -16633,6 +16633,86 @@
       ],
       "path": "entities/movements/venetian-school.md"
     },
+    "movement/vijayanagara-art": {
+      "id": "movement/vijayanagara-art",
+      "uri": "urn:ahn:movement/vijayanagara-art",
+      "type": "movement",
+      "kind": "period-style",
+      "label_ja": "ヴィジャヤナガル美術",
+      "label_en": "Vijayanagara Art",
+      "authority": {
+        "wikidata": "Q3533669",
+        "aat": null,
+        "ulan": null,
+        "tgn": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": "1336",
+        "end": "1565",
+        "display": "ヴィジャヤナガル王国はハリハラ1世とその弟ブッカ・ラーヤ1世により1336年に建国された。 1565年、ターリコータの戦いでの敗北を機に王国は衰退し、都ハンピは破壊された。最盛期は クリシュナ・デーヴァ・ラーヤ王の治世（1509-1530年）"
+      },
+      "naming": {
+        "self_identified": false,
+        "named_by": null,
+        "named_when": null,
+        "original_label": "Vijayanagara art",
+        "note": "王国名『ヴィジャヤナガル（勝利の都）』を冠した後代の美術史記述による括り。当事者 （石工・彫刻家）自身がこの名で自らの様式を運動として名乗った記録は無い"
+      },
+      "claims": [
+        {
+          "field": "time",
+          "source": "https://smarthistory.org/art-and-architecture-of-vijayanagara-empire/",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "originated_in",
+          "source": "https://smarthistory.org/art-and-architecture-of-vijayanagara-empire/",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "kind",
+          "source": "https://smarthistory.org/art-and-architecture-of-vijayanagara-empire/",
+          "certainty": "scholarly"
+        }
+      ],
+      "evidence": [],
+      "space": [
+        {
+          "role": "originated_in",
+          "target": "place/hampi"
+        }
+      ],
+      "relations": [
+        {
+          "type": "diffused_to",
+          "target": "place/new-york-city",
+          "certainty": "scholarly",
+          "source": "https://www.metmuseum.org/art/collection/search?q=South+Indian,+Vijayanagara&sortBy=Relevance"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.wikidata.org/wiki/Q3533669",
+          "kind": "authority"
+        },
+        {
+          "url": "https://smarthistory.org/art-and-architecture-of-vijayanagara-empire/",
+          "kind": "scholarly",
+          "note": "『Art and architecture of the Vijayanagara empire』の項。ハンピの建造物群を1336-1565年 の帝国の権勢を示すものとし、シヴァ派・ヴィシュヌ派・ジャイナ教それぞれの信仰を反映した彫刻、 柱廊のある『結婚の間（カリヤーナ・マンダパ）』を特徴とすると記す。様式は先行するチョーラ・ パーンディヤ朝の伝統の継続と記す"
+        },
+        {
+          "url": "https://www.metmuseum.org/art/collection/search?q=South+Indian,+Vijayanagara&sortBy=Relevance",
+          "kind": "institutional",
+          "note": "メトロポリタン美術館の収蔵検索結果。『South Indian, Vijayanagara』で451件の作品を 確認した（武具・彫刻等を含む、2026-09-16時点）"
+        }
+      ],
+      "status": "draft",
+      "updated": "2026-09-16",
+      "path": "entities/movements/vijayanagara-art.md"
+    },
     "movement/wu-school": {
       "id": "movement/wu-school",
       "uri": "urn:ahn:movement/wu-school",
@@ -36546,6 +36626,43 @@
       "status": "stub",
       "updated": "2026-08-09",
       "path": "entities/places/gyantse.md"
+    },
+    "place/hampi": {
+      "id": "place/hampi",
+      "uri": "urn:ahn:place/hampi",
+      "type": "place",
+      "label_ja": "ハンピ",
+      "label_en": "Hampi",
+      "authority": {
+        "wikidata": "Q48727106",
+        "aat": null,
+        "ulan": null,
+        "tgn": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": null,
+        "end": null,
+        "display": null
+      },
+      "region": "asia-south",
+      "coordinates": [
+        15.335,
+        76.4622
+      ],
+      "space": [],
+      "relations": [],
+      "sources": [
+        {
+          "url": "https://www.wikidata.org/wiki/Q48727106",
+          "kind": "authority"
+        }
+      ],
+      "status": "stub",
+      "updated": "2026-09-16",
+      "path": "entities/places/hampi.md"
     },
     "place/hangzhou": {
       "id": "place/hangzhou",
@@ -75899,6 +76016,18 @@
       "to": "place/venice"
     },
     {
+      "from": "movement/vijayanagara-art",
+      "type": "diffused_to",
+      "to": "place/new-york-city",
+      "certainty": "scholarly",
+      "source": "https://www.metmuseum.org/art/collection/search?q=South+Indian,+Vijayanagara&sortBy=Relevance"
+    },
+    {
+      "from": "movement/vijayanagara-art",
+      "type": "originated_in",
+      "to": "place/hampi"
+    },
+    {
       "from": "movement/wu-school",
       "type": "grouped_as",
       "to": "movement/literati-painting",
@@ -92057,6 +92186,12 @@
       "from": "movement/byzantine-art",
       "type": "influenced",
       "to": "movement/venetian-school",
+      "derived": true
+    },
+    {
+      "from": "place/new-york-city",
+      "type": "received",
+      "to": "movement/vijayanagara-art",
       "derived": true
     },
     {
