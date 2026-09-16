@@ -8010,6 +8010,91 @@
       "updated": "2026-08-25",
       "path": "entities/movements/impressionism.md"
     },
+    "movement/inca-art": {
+      "id": "movement/inca-art",
+      "uri": "urn:ahn:movement/inca-art",
+      "type": "movement",
+      "kind": "period-style",
+      "label_ja": "インカ美術",
+      "label_en": "Inca Art",
+      "authority": {
+        "wikidata": "Q28573",
+        "aat": null,
+        "ulan": null,
+        "tgn": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": "1425~",
+        "end": "1532",
+        "display": "インカ帝国の存続期間（c.1425-1532年）を範囲とした。皇帝パチャクティの治世 （15世紀）に太陽信仰と帝国が拡大したとされ、1532年のスペインによる征服開始を終期とした"
+      },
+      "naming": {
+        "self_identified": false,
+        "named_by": null,
+        "named_when": null,
+        "original_label": "Inca art",
+        "note": "『インカ』は帝国の統治者を指す当事者由来の語（ケチュア語でIncaは皇帝の称号）だが、 美術movementとしての『インカ美術』という括りは後代の美術史記述による"
+      },
+      "claims": [
+        {
+          "field": "time",
+          "source": "https://www.worldhistory.org/Inca_Art/",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "originated_in",
+          "source": "https://www.metmuseum.org/essays/ancient-andean-metalworking",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "kind",
+          "source": "https://www.worldhistory.org/Inca_Art/",
+          "certainty": "scholarly"
+        }
+      ],
+      "evidence": [],
+      "space": [
+        {
+          "role": "originated_in",
+          "target": "place/cusco"
+        }
+      ],
+      "relations": [
+        {
+          "type": "diffused_to",
+          "target": "place/new-york-city",
+          "certainty": "scholarly",
+          "source": "https://www.metmuseum.org/art/collection/search/751901"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.wikidata.org/wiki/Q28573",
+          "kind": "authority"
+        },
+        {
+          "url": "https://www.worldhistory.org/Inca_Art/",
+          "kind": "reference",
+          "note": "『Inca Art』の項。インカ文明の美術（c.1425-1532年）を、精緻な金属細工・陶器・ とりわけ織物（インカ自身が最も権威ある芸術形式と見なした）に見出せると記す。皇帝 パチャクティの治世に帝国が拡大したと記す"
+        },
+        {
+          "url": "https://www.metmuseum.org/essays/ancient-andean-metalworking",
+          "kind": "institutional",
+          "note": "メトロポリタン美術館essay『Ancient Andean Metalworking』。インカが帝国各地から 金属職人を都クスコに集め、金・銀・銅・青銅の器物を作らせたと記す"
+        },
+        {
+          "url": "https://www.metmuseum.org/art/collection/search/751901",
+          "kind": "institutional",
+          "note": "メトロポリタン美術館収蔵《チュニカ》（インカ）。同館はインカ関連の織物908点を 所蔵する（2026-09-16時点の検索結果）"
+        }
+      ],
+      "status": "draft",
+      "updated": "2026-09-16",
+      "path": "entities/movements/inca-art.md"
+    },
     "movement/indigenismo": {
       "id": "movement/indigenismo",
       "uri": "urn:ahn:movement/indigenismo",
@@ -76474,6 +76559,18 @@
       "to": "place/paris"
     },
     {
+      "from": "movement/inca-art",
+      "type": "diffused_to",
+      "to": "place/new-york-city",
+      "certainty": "scholarly",
+      "source": "https://www.metmuseum.org/art/collection/search/751901"
+    },
+    {
+      "from": "movement/inca-art",
+      "type": "originated_in",
+      "to": "place/cusco"
+    },
+    {
       "from": "movement/indigenismo",
       "type": "created_by",
       "to": "person/jose-sabogal",
@@ -93357,6 +93454,12 @@
       "from": "place/new-york-city",
       "type": "received",
       "to": "movement/impressionism",
+      "derived": true
+    },
+    {
+      "from": "place/new-york-city",
+      "type": "received",
+      "to": "movement/inca-art",
       "derived": true
     },
     {
