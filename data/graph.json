@@ -13923,6 +13923,101 @@
       ],
       "path": "entities/movements/quito-school.md"
     },
+    "movement/rai-stones": {
+      "id": "movement/rai-stones",
+      "uri": "urn:ahn:movement/rai-stones",
+      "type": "movement",
+      "kind": "retrospective",
+      "label_ja": "ライ・ストーン",
+      "label_en": "Rai Stones",
+      "authority": {
+        "wikidata": "Q917019",
+        "aat": null,
+        "ulan": null,
+        "tgn": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": "0500~",
+        "end": "1932",
+        "display": "資料によれば紀元500年頃、パラオの採石場からヤップへ石灰岩の巨大な円盤が運ばれ始めた とされる。最後に採掘されたライは1931年にパラオで切り出され、1932年にヤップへ運ばれた"
+      },
+      "naming": {
+        "self_identified": true,
+        "named_by": null,
+        "named_when": null,
+        "original_label": "rai",
+        "note": "『ライ（rai）』はヤップの言葉で当事者が用いる語である。ヤップの伝承では、航海者 アナグマングがパラオでこの石を発見したとされ、当初は魚の形、次に三日月形、最後に 運びやすいよう中央に穴を開けた満月形にたどり着いたと伝えられる"
+      },
+      "claims": [
+        {
+          "field": "time",
+          "source": "https://en.wikipedia.org/wiki/Rai_stones",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "originated_in",
+          "source": "https://en.wikipedia.org/wiki/Rai_stones",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "kind",
+          "source": "https://en.wikipedia.org/wiki/Rai_stones",
+          "certainty": "scholarly"
+        }
+      ],
+      "evidence": [],
+      "space": [
+        {
+          "role": "originated_in",
+          "target": "place/palau"
+        },
+        {
+          "role": "active_in",
+          "target": "place/yap"
+        }
+      ],
+      "relations": [
+        {
+          "type": "diffused_to",
+          "target": "place/london",
+          "certainty": "scholarly",
+          "source": "https://www.britishmuseum.org/collection/object/Oc1980-Q-928"
+        },
+        {
+          "type": "diffused_to",
+          "target": "place/washington-dc",
+          "certainty": "scholarly",
+          "source": "https://www.si.edu/object/rai-stone:nmah_1967502"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.wikidata.org/wiki/Q917019",
+          "kind": "authority"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Rai_stones",
+          "kind": "reference",
+          "note": "『Rai stones』の項。紀元500年頃からパラオの石灰岩採石場から280マイル離れたヤップへ 運ばれ始めたとし、航海者アナグマングによる発見伝承を記す。1931年にパラオで最後の ライが採石され、1932年にヤップへ運ばれたと記す"
+        },
+        {
+          "url": "https://www.britishmuseum.org/collection/object/Oc1980-Q-928",
+          "kind": "institutional",
+          "note": "大英博物館収蔵のライ・ストーン標本（登録番号Oc1980,Q.928）"
+        },
+        {
+          "url": "https://www.si.edu/object/rai-stone:nmah_1967502",
+          "kind": "institutional",
+          "note": "スミソニアン協会（国立自然史博物館、ワシントンD.C.）収蔵のライ・ストーン。1904年に パラオで採石されヤップへ運ばれた高さ6フィート・重さ4000ポンドの石が、同館ロビーに 展示されていると記す"
+        }
+      ],
+      "status": "draft",
+      "updated": "2026-09-16",
+      "path": "entities/movements/rai-stones.md"
+    },
     "movement/rattanakosin-mural-painting": {
       "id": "movement/rattanakosin-mural-painting",
       "uri": "urn:ahn:movement/rattanakosin-mural-painting",
@@ -38541,6 +38636,43 @@
       "updated": "2026-08-10",
       "path": "entities/places/pacific-northwest-coast.md"
     },
+    "place/palau": {
+      "id": "place/palau",
+      "uri": "urn:ahn:place/palau",
+      "type": "place",
+      "label_ja": "パラオ",
+      "label_en": "Palau",
+      "authority": {
+        "wikidata": "Q695",
+        "aat": null,
+        "ulan": null,
+        "tgn": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": null,
+        "end": null,
+        "display": null
+      },
+      "region": "oceania",
+      "coordinates": [
+        7.4667,
+        134.55
+      ],
+      "space": [],
+      "relations": [],
+      "sources": [
+        {
+          "url": "https://www.wikidata.org/wiki/Q695",
+          "kind": "authority"
+        }
+      ],
+      "status": "stub",
+      "updated": "2026-09-16",
+      "path": "entities/places/palau.md"
+    },
     "place/palpung-monastery": {
       "id": "place/palpung-monastery",
       "uri": "urn:ahn:place/palpung-monastery",
@@ -40060,6 +40192,43 @@
       "updated": "2026-08-13",
       "path": "entities/places/vienna.md"
     },
+    "place/washington-dc": {
+      "id": "place/washington-dc",
+      "uri": "urn:ahn:place/washington-dc",
+      "type": "place",
+      "label_ja": "ワシントンD.C.",
+      "label_en": "Washington, D.C.",
+      "authority": {
+        "wikidata": "Q61",
+        "aat": null,
+        "ulan": null,
+        "tgn": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": null,
+        "end": null,
+        "display": null
+      },
+      "region": "americas-north",
+      "coordinates": [
+        38.895,
+        -77.0367
+      ],
+      "space": [],
+      "relations": [],
+      "sources": [
+        {
+          "url": "https://www.wikidata.org/wiki/Q61",
+          "kind": "authority"
+        }
+      ],
+      "status": "stub",
+      "updated": "2026-09-16",
+      "path": "entities/places/washington-dc.md"
+    },
     "place/weimar": {
       "id": "place/weimar",
       "uri": "urn:ahn:place/weimar",
@@ -40129,6 +40298,43 @@
       "status": "stub",
       "updated": "2026-08-10",
       "path": "entities/places/yangzhou.md"
+    },
+    "place/yap": {
+      "id": "place/yap",
+      "uri": "urn:ahn:place/yap",
+      "type": "place",
+      "label_ja": "ヤップ",
+      "label_en": "Yap",
+      "authority": {
+        "wikidata": "Q3571856",
+        "aat": null,
+        "ulan": null,
+        "tgn": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": null,
+        "end": null,
+        "display": null
+      },
+      "region": "oceania",
+      "coordinates": [
+        9.5369,
+        138.0972
+      ],
+      "space": [],
+      "relations": [],
+      "sources": [
+        {
+          "url": "https://www.wikidata.org/wiki/Q3571856",
+          "kind": "authority"
+        }
+      ],
+      "status": "stub",
+      "updated": "2026-09-16",
+      "path": "entities/places/yap.md"
     },
     "place/zaria": {
       "id": "place/zaria",
@@ -76097,6 +76303,30 @@
       "to": "place/quito"
     },
     {
+      "from": "movement/rai-stones",
+      "type": "diffused_to",
+      "to": "place/london",
+      "certainty": "scholarly",
+      "source": "https://www.britishmuseum.org/collection/object/Oc1980-Q-928"
+    },
+    {
+      "from": "movement/rai-stones",
+      "type": "diffused_to",
+      "to": "place/washington-dc",
+      "certainty": "scholarly",
+      "source": "https://www.si.edu/object/rai-stone:nmah_1967502"
+    },
+    {
+      "from": "movement/rai-stones",
+      "type": "originated_in",
+      "to": "place/palau"
+    },
+    {
+      "from": "movement/rai-stones",
+      "type": "active_in",
+      "to": "place/yap"
+    },
+    {
       "from": "movement/rattanakosin-mural-painting",
       "type": "influenced_by",
       "to": "movement/realism",
@@ -92467,6 +92697,18 @@
       "from": "movement/neoclassicism",
       "type": "influenced",
       "to": "movement/quito-school",
+      "derived": true
+    },
+    {
+      "from": "place/london",
+      "type": "received",
+      "to": "movement/rai-stones",
+      "derived": true
+    },
+    {
+      "from": "place/washington-dc",
+      "type": "received",
+      "to": "movement/rai-stones",
       "derived": true
     },
     {

@@ -3,9 +3,9 @@
   "findings": [],
   "cross_region": {
     "schema_version": 1,
-    "movement_total": 152,
+    "movement_total": 153,
     "counts": {
-      "connected": 94,
+      "connected": 95,
       "reviewed-no-documented-link": 58,
       "unreviewed": 0
     },
@@ -85,6 +85,7 @@
       "movement/poto-poto-school",
       "movement/qajar-painting",
       "movement/quito-school",
+      "movement/rai-stones",
       "movement/rattanakosin-mural-painting",
       "movement/renaissance",
       "movement/safavid-painting",
@@ -3620,6 +3621,49 @@
         ],
         "reasons": [
           "3経路で起源region外へ到達"
+        ],
+        "review": null
+      },
+      {
+        "movement_id": "movement/rai-stones",
+        "status": "connected",
+        "origin_regions": [
+          "oceania"
+        ],
+        "routes": [
+          {
+            "kind": "diffused-to-place",
+            "edges": [
+              {
+                "from": "movement/rai-stones",
+                "type": "diffused_to",
+                "to": "place/london",
+                "certainty": "scholarly",
+                "source": "https://www.britishmuseum.org/collection/object/Oc1980-Q-928"
+              }
+            ],
+            "destination_regions": [
+              "europe-west"
+            ]
+          },
+          {
+            "kind": "diffused-to-place",
+            "edges": [
+              {
+                "from": "movement/rai-stones",
+                "type": "diffused_to",
+                "to": "place/washington-dc",
+                "certainty": "scholarly",
+                "source": "https://www.si.edu/object/rai-stone:nmah_1967502"
+              }
+            ],
+            "destination_regions": [
+              "americas-north"
+            ]
+          }
+        ],
+        "reasons": [
+          "2経路で起源region外へ到達"
         ],
         "review": null
       },
