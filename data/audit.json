@@ -3,10 +3,10 @@
   "findings": [],
   "cross_region": {
     "schema_version": 1,
-    "movement_total": 148,
+    "movement_total": 149,
     "counts": {
       "connected": 93,
-      "reviewed-no-documented-link": 55,
+      "reviewed-no-documented-link": 56,
       "unreviewed": 0
     },
     "connected": [
@@ -122,6 +122,7 @@
       "movement/expressionism",
       "movement/four-wangs",
       "movement/futurism",
+      "movement/gujarat-sultanate-architecture",
       "movement/harlem-renaissance",
       "movement/italian-divisionism",
       "movement/jain-manuscript-painting",
@@ -1636,6 +1637,27 @@
           "1経路で起源region外へ到達"
         ],
         "review": null
+      },
+      {
+        "movement_id": "movement/gujarat-sultanate-architecture",
+        "status": "reviewed-no-documented-link",
+        "origin_regions": [
+          "asia-south"
+        ],
+        "routes": [],
+        "reasons": [
+          "2026-09-16時点で、movement→movement relation、movement→placeのdiffused_to、space.active_in、movement→event/orgのexhibited_at→held_at/sited_inの4経路を、当該movementに登録された資料を対象に確認した。ヴィクトリア＆アルバート博物館所蔵のグジャラート産工芸品は確認できたが、いずれもスルターン朝独立期（〜1573年）ではなくムガル支配下（1573年以降）に制作された可能性が高く、本項の範囲との対応を確認できなかったため接続には数えていない。起源region外への文書化された接続は現時点で確認できない。"
+        ],
+        "review": {
+          "movement_id": "movement/gujarat-sultanate-architecture",
+          "status": "no-documented-cross-region-relation",
+          "checked": "2026-09-16",
+          "note": "2026-09-16時点で、movement→movement relation、movement→placeのdiffused_to、space.active_in、movement→event/orgのexhibited_at→held_at/sited_inの4経路を、当該movementに登録された資料を対象に確認した。ヴィクトリア＆アルバート博物館所蔵のグジャラート産工芸品は確認できたが、いずれもスルターン朝独立期（〜1573年）ではなくムガル支配下（1573年以降）に制作された可能性が高く、本項の範囲との対応を確認できなかったため接続には数えていない。起源region外への文書化された接続は現時点で確認できない。",
+          "sources": [
+            "https://www.wikidata.org/wiki/Q507796",
+            "https://en.wikipedia.org/wiki/Gujarat_Sultanate"
+          ]
+        }
       },
       {
         "movement_id": "movement/gutai",
@@ -4446,7 +4468,7 @@
   "cross_region_baseline": {
     "schema_version": 1,
     "source_commit": "bd15d4c707d6c2fff84ff0c763a993f94cbc3589",
-    "movement_count": 61,
+    "movement_count": 62,
     "movement_ids": [
       "movement/ai-bigeiken",
       "movement/arts-and-crafts",
@@ -4468,6 +4490,7 @@
       "movement/expressionism",
       "movement/four-wangs",
       "movement/futurism",
+      "movement/gujarat-sultanate-architecture",
       "movement/harlem-renaissance",
       "movement/hawaiian-featherwork",
       "movement/italian-divisionism",

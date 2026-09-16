@@ -6430,6 +6430,79 @@
       "updated": "2026-08-25",
       "path": "entities/movements/group-of-seven.md"
     },
+    "movement/gujarat-sultanate-architecture": {
+      "id": "movement/gujarat-sultanate-architecture",
+      "uri": "urn:ahn:movement/gujarat-sultanate-architecture",
+      "type": "movement",
+      "kind": "period-style",
+      "label_ja": "グジャラート・スルターン朝建築",
+      "label_en": "Gujarat Sultanate Architecture",
+      "authority": {
+        "wikidata": "Q507796",
+        "aat": null,
+        "ulan": null,
+        "tgn": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": "1407",
+        "end": "1573",
+        "display": "グジャラートのムザッファル朝は1407年頃、デリー・スルターン朝の衰退期に成立した。 1411年、建国者の孫アフマド・シャーがサバルマティー川沿いに新都アフマダーバードを建設した。 王朝は1573年、ムガル帝国のアクバルによる征服まで独立を保った"
+      },
+      "naming": {
+        "self_identified": false,
+        "named_by": null,
+        "named_when": null,
+        "original_label": "Gujarat Sultanate architecture",
+        "note": "王朝名『グジャラート・スルターン朝』を冠した後代の美術史記述による様式区分。当事者 （石工・建築家）自身がこの名で自らの様式を運動として名乗った記録は無い"
+      },
+      "claims": [
+        {
+          "field": "time",
+          "source": "https://en.wikipedia.org/wiki/Gujarat_Sultanate",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "originated_in",
+          "source": "https://en.wikipedia.org/wiki/Gujarat_Sultanate",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "kind",
+          "source": "https://en.wikipedia.org/wiki/Indo-Islamic_architecture",
+          "certainty": "scholarly"
+        }
+      ],
+      "evidence": [],
+      "space": [
+        {
+          "role": "originated_in",
+          "target": "place/ahmedabad"
+        }
+      ],
+      "relations": [],
+      "sources": [
+        {
+          "url": "https://www.wikidata.org/wiki/Q507796",
+          "kind": "authority"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Gujarat_Sultanate",
+          "kind": "reference",
+          "note": "『Gujarat Sultanate』の項。1407年頃の成立、1411年のアフマダーバード建設、 1573年のムガル帝国による征服までの独立期間を記す"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Indo-Islamic_architecture",
+          "kind": "reference",
+          "note": "『Indo-Islamic architecture』の項。グジャラートの様式が、精緻なミフラーブ・ ミナレット、ジャーリー（透かし彫りの石格子）、チャットリー（丸屋根の四阿）など、後の ムガル建築の要素の多くを先取りしていたと記す"
+        }
+      ],
+      "status": "draft",
+      "updated": "2026-09-16",
+      "path": "entities/movements/gujarat-sultanate-architecture.md"
+    },
     "movement/gutai": {
       "id": "movement/gutai",
       "uri": "urn:ahn:movement/gutai",
@@ -35340,6 +35413,43 @@
       "status": "stub",
       "updated": "2026-08-10",
       "path": "entities/places/ahmadnagar.md"
+    },
+    "place/ahmedabad": {
+      "id": "place/ahmedabad",
+      "uri": "urn:ahn:place/ahmedabad",
+      "type": "place",
+      "label_ja": "アフマダーバード",
+      "label_en": "Ahmedabad",
+      "authority": {
+        "wikidata": "Q1070",
+        "aat": null,
+        "ulan": null,
+        "tgn": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": null,
+        "end": null,
+        "display": null
+      },
+      "region": "asia-south",
+      "coordinates": [
+        23.0225,
+        72.5714
+      ],
+      "space": [],
+      "relations": [],
+      "sources": [
+        {
+          "url": "https://www.wikidata.org/wiki/Q1070",
+          "kind": "authority"
+        }
+      ],
+      "status": "stub",
+      "updated": "2026-09-16",
+      "path": "entities/places/ahmedabad.md"
     },
     "place/angkor": {
       "id": "place/angkor",
@@ -74505,6 +74615,11 @@
       "from": "movement/group-of-seven",
       "type": "originated_in",
       "to": "place/toronto"
+    },
+    {
+      "from": "movement/gujarat-sultanate-architecture",
+      "type": "originated_in",
+      "to": "place/ahmedabad"
     },
     {
       "from": "movement/gutai",
