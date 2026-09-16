@@ -15763,6 +15763,91 @@
       "updated": "2026-09-16",
       "path": "entities/movements/southeastern-ceremonial-complex.md"
     },
+    "movement/srivijaya-art": {
+      "id": "movement/srivijaya-art",
+      "uri": "urn:ahn:movement/srivijaya-art",
+      "type": "movement",
+      "kind": "period-style",
+      "label_ja": "シュリーヴィジャヤ美術",
+      "label_en": "Srivijaya Art",
+      "authority": {
+        "wikidata": "Q13021441",
+        "aat": null,
+        "ulan": null,
+        "tgn": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": "0650",
+        "end": "1025~",
+        "display": "西暦650年頃から1025年頃までの海上交易帝国シュリーヴィジャヤの存続期間を範囲とした。 帝国自体はその後も13世紀まで存続したとする資料もあるが、勢力の実質的な最盛期を650-1025年と する記述に従った"
+      },
+      "naming": {
+        "self_identified": false,
+        "named_by": null,
+        "named_when": null,
+        "original_label": "Srivijaya art",
+        "note": "王国名『シュリーヴィジャヤ』を冠した後代の美術史記述による様式区分。当事者（王・ 職人）自身がこの名で自らの様式を運動として名乗った記録は無い"
+      },
+      "claims": [
+        {
+          "field": "time",
+          "source": "https://countryreports.org/articles/the-srivijaya-empire-maritime-sovereign-of-southeast-asia",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "originated_in",
+          "source": "https://countryreports.org/articles/the-srivijaya-empire-maritime-sovereign-of-southeast-asia",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "kind",
+          "source": "https://www.hdasianart.com/blogs/news/indonesian-buddhist-sculpture-majapahit-srivijaya-legacy",
+          "certainty": "scholarly"
+        }
+      ],
+      "evidence": [],
+      "space": [
+        {
+          "role": "originated_in",
+          "target": "place/palembang"
+        }
+      ],
+      "relations": [
+        {
+          "type": "diffused_to",
+          "target": "place/new-york-city",
+          "certainty": "scholarly",
+          "source": "https://www.metmuseum.org/art/collection/search/39120"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.wikidata.org/wiki/Q13021441",
+          "kind": "authority"
+        },
+        {
+          "url": "https://countryreports.org/articles/the-srivijaya-empire-maritime-sovereign-of-southeast-asia",
+          "kind": "reference",
+          "note": "『The Srivijaya Empire』の記事。スマトラ島を拠点とする仏教海上交易帝国とし、 西暦650-1275年頃にマラッカ海峡と交易路を支配したと記す。都パレンバンが世界有数の 仏教学の中心地だったと記す"
+        },
+        {
+          "url": "https://www.hdasianart.com/blogs/news/indonesian-buddhist-sculpture-majapahit-srivijaya-legacy",
+          "kind": "reference",
+          "note": "『Indonesian Buddhist Sculpture』の記事。シュリーヴィジャヤ美術の主要な遺産が ブロンズ彫刻とし、観音・ターラー・弥勒などの大乗仏教の尊格を表すと記す。南インドの パッラヴァ朝・初期チョーラ朝の様式と東南アジア独自の要素の融合と記す"
+        },
+        {
+          "url": "https://www.metmuseum.org/art/collection/search/39120",
+          "kind": "institutional",
+          "note": "メトロポリタン美術館収蔵《立像の神格（ヴィシュヌ？）》（インドネシア、スマトラ、 シュリーヴィジャヤ期）"
+        }
+      ],
+      "status": "draft",
+      "updated": "2026-09-16",
+      "path": "entities/movements/srivijaya-art.md"
+    },
     "movement/stroganov-school": {
       "id": "movement/stroganov-school",
       "uri": "urn:ahn:movement/stroganov-school",
@@ -39043,6 +39128,43 @@
       "status": "stub",
       "updated": "2026-09-16",
       "path": "entities/places/palau.md"
+    },
+    "place/palembang": {
+      "id": "place/palembang",
+      "uri": "urn:ahn:place/palembang",
+      "type": "place",
+      "label_ja": "パレンバン",
+      "label_en": "Palembang",
+      "authority": {
+        "wikidata": "Q8131",
+        "aat": null,
+        "ulan": null,
+        "tgn": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": null,
+        "end": null,
+        "display": null
+      },
+      "region": "asia-southeast",
+      "coordinates": [
+        -2.9833,
+        104.7644
+      ],
+      "space": [],
+      "relations": [],
+      "sources": [
+        {
+          "url": "https://www.wikidata.org/wiki/Q8131",
+          "kind": "authority"
+        }
+      ],
+      "status": "stub",
+      "updated": "2026-09-16",
+      "path": "entities/places/palembang.md"
     },
     "place/palpung-monastery": {
       "id": "place/palpung-monastery",
@@ -76898,6 +77020,18 @@
       "to": "place/cahokia"
     },
     {
+      "from": "movement/srivijaya-art",
+      "type": "diffused_to",
+      "to": "place/new-york-city",
+      "certainty": "scholarly",
+      "source": "https://www.metmuseum.org/art/collection/search/39120"
+    },
+    {
+      "from": "movement/srivijaya-art",
+      "type": "originated_in",
+      "to": "place/palembang"
+    },
+    {
       "from": "movement/stroganov-school",
       "type": "originated_in",
       "to": "place/moscow"
@@ -93206,6 +93340,12 @@
       "from": "movement/shanghai-school",
       "type": "follows",
       "to": "movement/songjiang-school",
+      "derived": true
+    },
+    {
+      "from": "place/new-york-city",
+      "type": "received",
+      "to": "movement/srivijaya-art",
       "derived": true
     },
     {
