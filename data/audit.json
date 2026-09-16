@@ -3,9 +3,9 @@
   "findings": [],
   "cross_region": {
     "schema_version": 1,
-    "movement_total": 161,
+    "movement_total": 162,
     "counts": {
-      "connected": 101,
+      "connected": 102,
       "reviewed-no-documented-link": 60,
       "unreviewed": 0
     },
@@ -62,6 +62,7 @@
       "movement/kano-school",
       "movement/khmer-art",
       "movement/kilwa-swahili-architecture",
+      "movement/kongo-christian-art",
       "movement/lingnan-school",
       "movement/mamluk-art",
       "movement/maruyama-shijo-school",
@@ -2495,6 +2496,34 @@
             ],
             "destination_regions": [
               "europe-west"
+            ]
+          }
+        ],
+        "reasons": [
+          "1経路で起源region外へ到達"
+        ],
+        "review": null
+      },
+      {
+        "movement_id": "movement/kongo-christian-art",
+        "status": "connected",
+        "origin_regions": [
+          "africa-sub"
+        ],
+        "routes": [
+          {
+            "kind": "diffused-to-place",
+            "edges": [
+              {
+                "from": "movement/kongo-christian-art",
+                "type": "diffused_to",
+                "to": "place/new-york-city",
+                "certainty": "scholarly",
+                "source": "https://www.metmuseum.org/art/collection/search/318329"
+              }
+            ],
+            "destination_regions": [
+              "americas-north"
             ]
           }
         ],
