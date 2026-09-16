@@ -3,9 +3,9 @@
   "findings": [],
   "cross_region": {
     "schema_version": 1,
-    "movement_total": 175,
+    "movement_total": 176,
     "counts": {
-      "connected": 110,
+      "connected": 111,
       "reviewed-no-documented-link": 65,
       "unreviewed": 0
     },
@@ -61,6 +61,7 @@
       "movement/indochina-lacquer-painting",
       "movement/jingyeong-sansuhwa",
       "movement/joseon-genre-painting",
+      "movement/kalighat-painting",
       "movement/kanga",
       "movement/kangra-painting",
       "movement/kano-school",
@@ -2416,6 +2417,49 @@
             "https://en.wikipedia.org/wiki/Kakatiya_dynasty"
           ]
         }
+      },
+      {
+        "movement_id": "movement/kalighat-painting",
+        "status": "connected",
+        "origin_regions": [
+          "asia-south"
+        ],
+        "routes": [
+          {
+            "kind": "diffused-to-place",
+            "edges": [
+              {
+                "from": "movement/kalighat-painting",
+                "type": "diffused_to",
+                "to": "place/london",
+                "certainty": "scholarly",
+                "source": "https://en.wikipedia.org/wiki/Kalighat_painting"
+              }
+            ],
+            "destination_regions": [
+              "europe-west"
+            ]
+          },
+          {
+            "kind": "diffused-to-place",
+            "edges": [
+              {
+                "from": "movement/kalighat-painting",
+                "type": "diffused_to",
+                "to": "place/moscow",
+                "certainty": "scholarly",
+                "source": "https://en.wikipedia.org/wiki/Kalighat_painting"
+              }
+            ],
+            "destination_regions": [
+              "europe-east"
+            ]
+          }
+        ],
+        "reasons": [
+          "2経路で起源region外へ到達"
+        ],
+        "review": null
       },
       {
         "movement_id": "movement/kamasan-painting",

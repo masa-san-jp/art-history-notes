@@ -9262,6 +9262,87 @@
       "updated": "2026-09-16",
       "path": "entities/movements/kakatiya-art.md"
     },
+    "movement/kalighat-painting": {
+      "id": "movement/kalighat-painting",
+      "uri": "urn:ahn:movement/kalighat-painting",
+      "type": "movement",
+      "kind": "retrospective",
+      "label_ja": "カーリーガート絵画",
+      "label_en": "Kalighat Painting",
+      "authority": {
+        "wikidata": "Q6352595",
+        "aat": null,
+        "ulan": null,
+        "tgn": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": "18XX",
+        "end": "19XX",
+        "display": "紙・顔料の物質的証拠から19世紀前半に遡るとされる。V&Aは1830年代から1930年代の 100年間にわたり制作・収集されたと記す"
+      },
+      "naming": {
+        "self_identified": false,
+        "named_by": null,
+        "named_when": null,
+        "original_label": "Kalighat painting",
+        "note": "『カーリーガート』はコルカタのカーリー女神を祀る寺院の名を借りた後代の美術史記述 による呼称。無名の絵師たちが寺院参詣者向けに制作した大衆絵画であり、当事者自身が 一つの様式movementとして名乗った記録は無い"
+      },
+      "claims": [
+        {
+          "field": "time",
+          "source": "https://en.wikipedia.org/wiki/Kalighat_painting",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "originated_in",
+          "source": "https://en.wikipedia.org/wiki/Kalighat_painting",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "kind",
+          "source": "https://www.wikidata.org/wiki/Q6352595",
+          "certainty": "scholarly"
+        }
+      ],
+      "evidence": [],
+      "space": [
+        {
+          "role": "originated_in",
+          "target": "place/kolkata"
+        }
+      ],
+      "relations": [
+        {
+          "type": "diffused_to",
+          "target": "place/london",
+          "certainty": "scholarly",
+          "source": "https://en.wikipedia.org/wiki/Kalighat_painting"
+        },
+        {
+          "type": "diffused_to",
+          "target": "place/moscow",
+          "certainty": "scholarly",
+          "source": "https://en.wikipedia.org/wiki/Kalighat_painting"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.wikidata.org/wiki/Q6352595",
+          "kind": "authority"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Kalighat_painting",
+          "kind": "reference",
+          "note": "『Kalighat painting』の項。用紙・顔料の物質的証拠から19世紀前半に遡るとし、 コルカタのカーリー女神寺院周辺で発達したと記す。大胆な輪郭線・鮮やかな色調・ 最小限の背景を特徴とし、手漉き紙・機械漉き紙の両方に、神話的な図像・ヒンドゥーの 神々に加え、社会が変容していく当時の世相を映す同時代の日常場面も描いたと記す。 V&Aは1830年代から1930年代の100年間にわたり制作・収集されたコレクションを持ち、 世界最大の645点を所蔵すると記す。他にオックスフォード大学ボドリアン図書館110点、 モスクワのプーシキン美術館62点、ペンシルベニア大学博物館57点、プラハのナープルステク 博物館26点、カーディフの国立ウェールズ博物館25点、大英図書館（インド・オフィス・ ライブラリー）17点を所蔵すると記す"
+        }
+      ],
+      "status": "draft",
+      "updated": "2026-09-16",
+      "path": "entities/movements/kalighat-painting.md"
+    },
     "movement/kamasan-painting": {
       "id": "movement/kamasan-painting",
       "uri": "urn:ahn:movement/kamasan-painting",
@@ -78108,6 +78189,25 @@
       "to": "place/warangal"
     },
     {
+      "from": "movement/kalighat-painting",
+      "type": "diffused_to",
+      "to": "place/london",
+      "certainty": "scholarly",
+      "source": "https://en.wikipedia.org/wiki/Kalighat_painting"
+    },
+    {
+      "from": "movement/kalighat-painting",
+      "type": "diffused_to",
+      "to": "place/moscow",
+      "certainty": "scholarly",
+      "source": "https://en.wikipedia.org/wiki/Kalighat_painting"
+    },
+    {
+      "from": "movement/kalighat-painting",
+      "type": "originated_in",
+      "to": "place/kolkata"
+    },
+    {
       "from": "movement/kamasan-painting",
       "type": "originated_in",
       "to": "place/kamasan"
@@ -95043,6 +95143,18 @@
       "from": "movement/zhe-school",
       "type": "influenced",
       "to": "movement/joseon-genre-painting",
+      "derived": true
+    },
+    {
+      "from": "place/london",
+      "type": "received",
+      "to": "movement/kalighat-painting",
+      "derived": true
+    },
+    {
+      "from": "place/moscow",
+      "type": "received",
+      "to": "movement/kalighat-painting",
       "derived": true
     },
     {
