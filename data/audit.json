@@ -3,9 +3,9 @@
   "findings": [],
   "cross_region": {
     "schema_version": 1,
-    "movement_total": 159,
+    "movement_total": 160,
     "counts": {
-      "connected": 99,
+      "connected": 100,
       "reviewed-no-documented-link": 60,
       "unreviewed": 0
     },
@@ -81,6 +81,7 @@
       "movement/nok-sculpture",
       "movement/novgorod-school-icon-painting",
       "movement/ottoman-westernization-painting",
+      "movement/pala-art",
       "movement/papunya-tula",
       "movement/peredvizhniki",
       "movement/pita-maha",
@@ -3457,6 +3458,34 @@
             ],
             "destination_regions": [
               "europe-west"
+            ]
+          }
+        ],
+        "reasons": [
+          "1経路で起源region外へ到達"
+        ],
+        "review": null
+      },
+      {
+        "movement_id": "movement/pala-art",
+        "status": "connected",
+        "origin_regions": [
+          "asia-south"
+        ],
+        "routes": [
+          {
+            "kind": "diffused-to-place",
+            "edges": [
+              {
+                "from": "movement/pala-art",
+                "type": "diffused_to",
+                "to": "place/new-york-city",
+                "certainty": "scholarly",
+                "source": "https://www.metmuseum.org/art/collection/search/38934"
+              }
+            ],
+            "destination_regions": [
+              "americas-north"
             ]
           }
         ],

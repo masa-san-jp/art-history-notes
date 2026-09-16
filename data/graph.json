@@ -13406,6 +13406,87 @@
       "updated": "2026-09-16",
       "path": "entities/movements/ottoman-westernization-painting.md"
     },
+    "movement/pala-art": {
+      "id": "movement/pala-art",
+      "uri": "urn:ahn:movement/pala-art",
+      "type": "movement",
+      "kind": "period-style",
+      "label_ja": "パーラ美術",
+      "label_en": "Pala Art",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ulan": null,
+        "tgn": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "『パーラ美術』全体を指すWikidata項目は検索で特定できなかった。中心地 ナーランダーの項目（Q216243）は別途sourcesに記載した"
+      },
+      "time": {
+        "start": "07XX",
+        "end": "12XX",
+        "display": "パーラ朝の統治期間（8〜12世紀）を範囲とした"
+      },
+      "naming": {
+        "self_identified": false,
+        "named_by": null,
+        "named_when": null,
+        "original_label": "Pala art",
+        "note": "王朝名『パーラ』を冠した後代の美術史記述による様式区分。当事者（王・職人）自身が この名で自らの様式を運動として名乗った記録は無い"
+      },
+      "claims": [
+        {
+          "field": "time",
+          "source": "https://mapacademy.io/article/pala-bronze-sculptures/",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "originated_in",
+          "source": "https://mapacademy.io/article/pala-bronze-sculptures/",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "kind",
+          "source": "https://mapacademy.io/article/pala-bronze-sculptures/",
+          "certainty": "scholarly"
+        }
+      ],
+      "evidence": [],
+      "space": [
+        {
+          "role": "originated_in",
+          "target": "place/nalanda"
+        }
+      ],
+      "relations": [
+        {
+          "type": "diffused_to",
+          "target": "place/new-york-city",
+          "certainty": "scholarly",
+          "source": "https://www.metmuseum.org/art/collection/search/38934"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.wikidata.org/wiki/Q216243",
+          "kind": "authority",
+          "note": "ナーランダー・マハーヴィハーラの項目"
+        },
+        {
+          "url": "https://mapacademy.io/article/pala-bronze-sculptures/",
+          "kind": "scholarly",
+          "note": "『Pala Bronze Sculptures』の項。ビハール・西ベンガル（現バングラデシュ含む）で 8〜12世紀に栄えた様式とし、蝋型鋳造による八金属合金のブロンズ像（仏・観音・ターラー等）が 個人礼拝用に小型・可搬に作られたと記す"
+        },
+        {
+          "url": "https://www.metmuseum.org/art/collection/search/38934",
+          "kind": "institutional",
+          "note": "メトロポリタン美術館収蔵《ターラー》（インド、ビハール州、パーラ期、12世紀、 銀象嵌ブロンズ）"
+        }
+      ],
+      "status": "draft",
+      "updated": "2026-09-16",
+      "path": "entities/movements/pala-art.md"
+    },
     "movement/papunya-tula": {
       "id": "movement/papunya-tula",
       "uri": "urn:ahn:movement/papunya-tula",
@@ -38970,6 +39051,43 @@
       "status": "stub",
       "updated": "2026-09-16",
       "path": "entities/places/my-son.md"
+    },
+    "place/nalanda": {
+      "id": "place/nalanda",
+      "uri": "urn:ahn:place/nalanda",
+      "type": "place",
+      "label_ja": "ナーランダー",
+      "label_en": "Nalanda",
+      "authority": {
+        "wikidata": "Q216243",
+        "aat": null,
+        "ulan": null,
+        "tgn": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": null,
+        "end": null,
+        "display": null
+      },
+      "region": "asia-south",
+      "coordinates": [
+        25.1367,
+        85.4439
+      ],
+      "space": [],
+      "relations": [],
+      "sources": [
+        {
+          "url": "https://www.wikidata.org/wiki/Q216243",
+          "kind": "authority"
+        }
+      ],
+      "status": "stub",
+      "updated": "2026-09-16",
+      "path": "entities/places/nalanda.md"
     },
     "place/nan-madol": {
       "id": "place/nan-madol",
@@ -76906,6 +77024,18 @@
       "to": "place/istanbul"
     },
     {
+      "from": "movement/pala-art",
+      "type": "diffused_to",
+      "to": "place/new-york-city",
+      "certainty": "scholarly",
+      "source": "https://www.metmuseum.org/art/collection/search/38934"
+    },
+    {
+      "from": "movement/pala-art",
+      "type": "originated_in",
+      "to": "place/nalanda"
+    },
+    {
       "from": "movement/papunya-tula",
       "type": "diffused_to",
       "to": "place/new-york-city",
@@ -93386,6 +93516,12 @@
       "from": "place/paris",
       "type": "received",
       "to": "movement/ottoman-westernization-painting",
+      "derived": true
+    },
+    {
+      "from": "place/new-york-city",
+      "type": "received",
+      "to": "movement/pala-art",
       "derived": true
     },
     {
