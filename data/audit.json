@@ -3,9 +3,9 @@
   "findings": [],
   "cross_region": {
     "schema_version": 1,
-    "movement_total": 165,
+    "movement_total": 166,
     "counts": {
-      "connected": 105,
+      "connected": 106,
       "reviewed-no-documented-link": 60,
       "unreviewed": 0
     },
@@ -97,6 +97,7 @@
       "movement/rattanakosin-mural-painting",
       "movement/renaissance",
       "movement/safavid-painting",
+      "movement/serbian-baroque-painting",
       "movement/sienese-school",
       "movement/srivijaya-art",
       "movement/sukhothai-art",
@@ -4136,6 +4137,34 @@
             "https://blog.nmhistorymuseum.org/2011/09/exploring-the-global-roots-of-santeros/"
           ]
         }
+      },
+      {
+        "movement_id": "movement/serbian-baroque-painting",
+        "status": "connected",
+        "origin_regions": [
+          "europe-east"
+        ],
+        "routes": [
+          {
+            "kind": "movement-relation",
+            "edges": [
+              {
+                "from": "movement/serbian-baroque-painting",
+                "type": "influenced_by",
+                "to": "movement/rococo",
+                "certainty": "scholarly",
+                "source": "https://en.wikipedia.org/wiki/Teodor_Kra%C4%8Dun"
+              }
+            ],
+            "destination_regions": [
+              "europe-west"
+            ]
+          }
+        ],
+        "reasons": [
+          "1経路で起源region外へ到達"
+        ],
+        "review": null
       },
       {
         "movement_id": "movement/shanghai-school",

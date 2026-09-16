@@ -15519,6 +15519,87 @@
       "updated": "2026-09-16",
       "path": "entities/movements/santero.md"
     },
+    "movement/serbian-baroque-painting": {
+      "id": "movement/serbian-baroque-painting",
+      "uri": "urn:ahn:movement/serbian-baroque-painting",
+      "type": "movement",
+      "kind": "period-style",
+      "label_ja": "セルビア・バロック絵画",
+      "label_en": "Serbian Baroque Painting",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ulan": null,
+        "tgn": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "Wikidataの『Baroque painting』（Q808561）は様式全般を指す広すぎる項目であり、 セルビア・バロック絵画という地域様式単位の項目ではないため採用しなかった。地域様式 単位のWikidata項目は検索で特定できなかった"
+      },
+      "time": {
+        "start": "17XX",
+        "end": "1803",
+        "display": "18世紀末（1770年代〜1780年代）にディミトリエ・バチェヴィッチ、テオドル・ クラチュン、ヤコヴ・オルフェリンらの世代でバロック様式が顕著となった。クラチュンの 没年（1781年）とオルフェリンの没年（1803年）を範囲の目安とした"
+      },
+      "naming": {
+        "self_identified": false,
+        "named_by": null,
+        "named_when": null,
+        "original_label": "Serbian Baroque painting",
+        "note": "『セルビア・バロック絵画』は後代の美術史記述による様式区分。当事者（画家たち） 自身がこの名で自らの様式を運動として名乗った記録は無い"
+      },
+      "claims": [
+        {
+          "field": "time",
+          "source": "https://en.wikipedia.org/wiki/Teodor_Kra%C4%8Dun",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "originated_in",
+          "source": "https://en.wikipedia.org/wiki/Teodor_Kra%C4%8Dun",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "kind",
+          "source": "https://en.wikipedia.org/wiki/Teodor_Kra%C4%8Dun",
+          "certainty": "scholarly"
+        }
+      ],
+      "evidence": [],
+      "space": [
+        {
+          "role": "originated_in",
+          "target": "place/sremski-karlovci"
+        }
+      ],
+      "relations": [
+        {
+          "type": "influenced_by",
+          "target": "movement/rococo",
+          "certainty": "scholarly",
+          "source": "https://en.wikipedia.org/wiki/Teodor_Kra%C4%8Dun"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Teodor_Kra%C4%8Dun",
+          "kind": "reference",
+          "note": "『Teodor Kračun』の項。1730年スレムスカ・カメニツァ生、1781年没。ディミトリエ・ バチェヴィッチに師事した後、修道誓願を立て1769年にウィーン・アカデミーへ入学したと 記す。1771〜1781年に制作したスレムスキ・カルロヴツィの聖ニコラ大聖堂のイコノスタシス 2点が代表作とされ、『北セルビアにおけるバロック・ロココ様式の最も著名な画家』と 記す。エル・グレコとの類似（明暗の効果、震えるような動き、衣文と背景の相互作用）が 指摘され、ロカイユ的要素も見られると記す"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Jakov_Orfelin",
+          "kind": "reference",
+          "note": "『Jakov Orfelin』の項。ヴコヴァルまたはスレムスキ・カルロヴツィ生（当時ハプスブルク 帝国領）、1803年没。1766年にウィーン美術アカデミーへ留学し、ヤーコプ・マティアス・ シュムッツァー主宰の版画アカデミーでも学んだと記す。1780〜1781年にはクラチュンと 共同でスレムスキ・カルロヴツィの聖ニコラ大聖堂のイコノスタシス制作に携わったと記す"
+        },
+        {
+          "url": "https://www.wikidata.org/wiki/Q808561",
+          "kind": "reference",
+          "note": "『Baroque painting』の項。バロック様式全般を指す項目であり、セルビア・バロック 絵画という地域様式単位の項目ではないため、authority.wikidataには採用しなかった"
+        }
+      ],
+      "status": "draft",
+      "updated": "2026-09-16",
+      "path": "entities/movements/serbian-baroque-painting.md"
+    },
     "movement/shanghai-school": {
       "id": "movement/shanghai-school",
       "uri": "urn:ahn:movement/shanghai-school",
@@ -40878,6 +40959,43 @@
       "status": "stub",
       "updated": "2026-08-10",
       "path": "entities/places/songjiang.md"
+    },
+    "place/sremski-karlovci": {
+      "id": "place/sremski-karlovci",
+      "uri": "urn:ahn:place/sremski-karlovci",
+      "type": "place",
+      "label_ja": "スレムスキ・カルロヴツィ",
+      "label_en": "Sremski Karlovci",
+      "authority": {
+        "wikidata": "Q271922",
+        "aat": null,
+        "ulan": null,
+        "tgn": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": null,
+        "end": null,
+        "display": null
+      },
+      "region": "europe-east",
+      "coordinates": [
+        45.2,
+        19.933
+      ],
+      "space": [],
+      "relations": [],
+      "sources": [
+        {
+          "url": "https://www.wikidata.org/wiki/Q271922",
+          "kind": "authority"
+        }
+      ],
+      "status": "stub",
+      "updated": "2026-09-16",
+      "path": "entities/places/sremski-karlovci.md"
     },
     "place/stuttgart": {
       "id": "place/stuttgart",
@@ -77981,6 +78099,18 @@
       "to": "place/santa-fe"
     },
     {
+      "from": "movement/serbian-baroque-painting",
+      "type": "influenced_by",
+      "to": "movement/rococo",
+      "certainty": "scholarly",
+      "source": "https://en.wikipedia.org/wiki/Teodor_Kra%C4%8Dun"
+    },
+    {
+      "from": "movement/serbian-baroque-painting",
+      "type": "originated_in",
+      "to": "place/sremski-karlovci"
+    },
+    {
       "from": "movement/shanghai-school",
       "type": "influenced_by",
       "to": "movement/yangzhou-eccentrics",
@@ -94407,6 +94537,12 @@
       "from": "place/agra",
       "type": "received",
       "to": "movement/safavid-painting",
+      "derived": true
+    },
+    {
+      "from": "movement/rococo",
+      "type": "influenced",
+      "to": "movement/serbian-baroque-painting",
       "derived": true
     },
     {
