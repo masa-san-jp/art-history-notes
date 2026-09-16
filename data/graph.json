@@ -17406,6 +17406,103 @@
       "updated": "2026-08-25",
       "path": "entities/movements/thirteen-moderns.md"
     },
+    "movement/tongan-ngatu": {
+      "id": "movement/tongan-ngatu",
+      "uri": "urn:ahn:movement/tongan-ngatu",
+      "type": "movement",
+      "kind": "period-style",
+      "label_ja": "トンガのンガトゥ（タパ）",
+      "label_en": "Tongan Ngatu (Tapa Cloth)",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ulan": null,
+        "tgn": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "Wikidataの『tapa cloth』（Q972724）は太平洋諸島文化圏全体に広がる樹皮布 という素材・技法カテゴリ全般を指す項目であり、トンガのンガトゥという特定の担い手・ 社会的文脈（親族間の贈与儀礼）に紐づくmovement単位の項目ではないため採用しなかった"
+      },
+      "time": {
+        "start": "17XX",
+        "end": "..",
+        "display": "英語版Wikipedia『Tapa cloth』は、西部ポリネシア（フィジー・トンガ・サモア） には紀元1000年頃までにタパが存在したと記すが、これはトンガ単独ではなく地域全体に ついての一般的な推定であり、単一の起点年としては採用しなかった。確実に年代づけ できる最古級の資料は、クック船長の3回の航海（1768-1779年）でトンガから収集された タパ標本群で、1787年にアレクサンダー・ショウが標本帖として出版した。これを開始点 とした。現在も継続する慣習のため終期は継続中とした"
+      },
+      "naming": {
+        "self_identified": true,
+        "named_by": null,
+        "named_when": null,
+        "original_label": "ngatu",
+        "note": "『ンガトゥ』はトンガ語で樹皮布（タパ）を指す当事者由来の語。ただし本エンティティが 束ねる『複数世代にわたるンガトゥ制作の慣習』というmovement単位の括りは、後代の 民族学・美術史記述による整理でもある"
+      },
+      "claims": [
+        {
+          "field": "time",
+          "source": "https://www.penn.museum/sites/expedition/captain-cooks-barkcloth-books/",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "originated_in",
+          "source": "https://www.wikidata.org/wiki/Q678",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "kind",
+          "source": "https://www.penn.museum/sites/expedition/captain-cooks-barkcloth-books/",
+          "certainty": "scholarly"
+        }
+      ],
+      "evidence": [],
+      "space": [
+        {
+          "role": "originated_in",
+          "target": "place/tonga"
+        }
+      ],
+      "relations": [
+        {
+          "type": "diffused_to",
+          "target": "place/london",
+          "certainty": "scholarly",
+          "source": "https://www.britishmuseum.org/collection/object/E_2013-2015-1"
+        },
+        {
+          "type": "diffused_to",
+          "target": "place/philadelphia",
+          "certainty": "scholarly",
+          "source": "https://www.penn.museum/sites/expedition/captain-cooks-barkcloth-books/"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.wikidata.org/wiki/Q678",
+          "kind": "authority",
+          "note": "originated_inの対象地（トンガ）のWikidata項目"
+        },
+        {
+          "url": "https://www.wikidata.org/wiki/Q972724",
+          "kind": "reference",
+          "note": "『tapa cloth』の項。太平洋諸島文化圏に広く見られる樹皮布という素材カテゴリ全般を 指す項目であり、トンガのンガトゥmovement単位の項目ではないため、authority.wikidata には採用しなかった"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Tapa_cloth",
+          "kind": "reference",
+          "note": "『Tapa cloth』の項。西部ポリネシア（フィジー・トンガ・サモア）には紀元1000年頃 までにタパが存在し、その後太平洋各地へ広がったと記す。トンガのみが強いタパ伝統を 現在まで維持しているとも記す"
+        },
+        {
+          "url": "https://www.penn.museum/sites/expedition/captain-cooks-barkcloth-books/",
+          "kind": "scholarly",
+          "note": "ペン博物館の記事『Captain Cook's Barkcloth Books』。アレクサンダー・ショウが クック船長の3回の航海（1768-1771・1771-1775・1776-1779年）でトンガ・タヒチ・ ハワイから収集された樹皮布の実物標本約110点を用い、1787年に標本帖として出版したと 記す。ペン博物館は1920年に自館所蔵の標本帖を取得したと記す。ケンブリッジ大学考古学 人類学博物館（英国）も『pre-Shaw Shaw』と俗称される関連資料を所蔵し、ケアの調査では 公私の所蔵先を合わせて66冊が所在確認されているとする"
+        },
+        {
+          "url": "https://www.britishmuseum.org/collection/object/E_2013-2015-1",
+          "kind": "institutional",
+          "note": "大英博物館収蔵《樹皮布（バークロス）》。同館はクック航海由来の初期タパ標本・ 断片・完形の樹皮布を多数所蔵する（検索結果に基づく）"
+        }
+      ],
+      "status": "draft",
+      "updated": "2026-09-16",
+      "path": "entities/movements/tongan-ngatu.md"
+    },
     "movement/tosa-school": {
       "id": "movement/tosa-school",
       "uri": "urn:ahn:movement/tosa-school",
@@ -40090,6 +40187,43 @@
       "status": "stub",
       "updated": "2026-08-10",
       "path": "entities/places/patan.md"
+    },
+    "place/philadelphia": {
+      "id": "place/philadelphia",
+      "uri": "urn:ahn:place/philadelphia",
+      "type": "place",
+      "label_ja": "フィラデルフィア",
+      "label_en": "Philadelphia",
+      "authority": {
+        "wikidata": "Q1345",
+        "aat": null,
+        "ulan": null,
+        "tgn": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": null,
+        "end": null,
+        "display": null
+      },
+      "region": "americas-north",
+      "coordinates": [
+        39.952778,
+        -75.163611
+      ],
+      "space": [],
+      "relations": [],
+      "sources": [
+        {
+          "url": "https://www.wikidata.org/wiki/Q1345",
+          "kind": "authority"
+        }
+      ],
+      "status": "stub",
+      "updated": "2026-09-16",
+      "path": "entities/places/philadelphia.md"
     },
     "place/puebla": {
       "id": "place/puebla",
@@ -78103,6 +78237,25 @@
       "to": "place/manila"
     },
     {
+      "from": "movement/tongan-ngatu",
+      "type": "diffused_to",
+      "to": "place/london",
+      "certainty": "scholarly",
+      "source": "https://www.britishmuseum.org/collection/object/E_2013-2015-1"
+    },
+    {
+      "from": "movement/tongan-ngatu",
+      "type": "diffused_to",
+      "to": "place/philadelphia",
+      "certainty": "scholarly",
+      "source": "https://www.penn.museum/sites/expedition/captain-cooks-barkcloth-books/"
+    },
+    {
+      "from": "movement/tongan-ngatu",
+      "type": "originated_in",
+      "to": "place/tonga"
+    },
+    {
       "from": "movement/tosa-school",
       "type": "derives_from",
       "to": "movement/yamato-e",
@@ -94392,6 +94545,18 @@
       "from": "movement/cubism",
       "type": "influenced",
       "to": "movement/thirteen-moderns",
+      "derived": true
+    },
+    {
+      "from": "place/london",
+      "type": "received",
+      "to": "movement/tongan-ngatu",
+      "derived": true
+    },
+    {
+      "from": "place/philadelphia",
+      "type": "received",
+      "to": "movement/tongan-ngatu",
       "derived": true
     },
     {

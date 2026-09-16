@@ -1,9 +1,9 @@
 {
   "as_of": "2026-09-16",
-  "movement_total": 164,
+  "movement_total": 165,
   "movement_stub_excluded": 0,
   "by_status": {
-    "draft": 45,
+    "draft": 46,
     "stub": 0,
     "verified": 119
   },
@@ -76,7 +76,8 @@
       "13": 1,
       "19": 1,
       "20": 1,
-      "6": 1
+      "6": 1,
+      "18": 1
     },
     "asia-southeast": {
       "11": 1,
@@ -155,7 +156,7 @@
     "asia-east-korea": 5,
     "asia-east-japan": 13,
     "americas-latin": 11,
-    "oceania": 12
+    "oceania": 13
   },
   "origin_unknown": [
     "movement/ai-bigeiken",
@@ -173,10 +174,10 @@
   "isolated": [],
   "no_known_grouping": [],
   "progress": {
-    "movement_total": "164/100（stub 0件は不算入）",
+    "movement_total": "165/100（stub 0件は不算入）",
     "non_west_ratio": "0.68/0.5",
     "per_bucket_min": "13/13 バケットが 3件以上",
-    "pre_1800_ratio": "0.57/0.3",
+    "pre_1800_ratio": "0.58/0.3",
     "isolated_ratio": "0.00（上限 0.1）"
   },
   "verified_movement": {

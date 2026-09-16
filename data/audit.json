@@ -3,9 +3,9 @@
   "findings": [],
   "cross_region": {
     "schema_version": 1,
-    "movement_total": 164,
+    "movement_total": 165,
     "counts": {
-      "connected": 104,
+      "connected": 105,
       "reviewed-no-documented-link": 60,
       "unreviewed": 0
     },
@@ -106,6 +106,7 @@
       "movement/tanjore-painting",
       "movement/tarnovo-artistic-school",
       "movement/thirteen-moderns",
+      "movement/tongan-ngatu",
       "movement/tosa-school",
       "movement/venetian-school",
       "movement/vijayanagara-art",
@@ -4584,6 +4585,49 @@
             ],
             "destination_regions": [
               "europe-west"
+            ]
+          }
+        ],
+        "reasons": [
+          "2経路で起源region外へ到達"
+        ],
+        "review": null
+      },
+      {
+        "movement_id": "movement/tongan-ngatu",
+        "status": "connected",
+        "origin_regions": [
+          "oceania"
+        ],
+        "routes": [
+          {
+            "kind": "diffused-to-place",
+            "edges": [
+              {
+                "from": "movement/tongan-ngatu",
+                "type": "diffused_to",
+                "to": "place/london",
+                "certainty": "scholarly",
+                "source": "https://www.britishmuseum.org/collection/object/E_2013-2015-1"
+              }
+            ],
+            "destination_regions": [
+              "europe-west"
+            ]
+          },
+          {
+            "kind": "diffused-to-place",
+            "edges": [
+              {
+                "from": "movement/tongan-ngatu",
+                "type": "diffused_to",
+                "to": "place/philadelphia",
+                "certainty": "scholarly",
+                "source": "https://www.penn.museum/sites/expedition/captain-cooks-barkcloth-books/"
+              }
+            ],
+            "destination_regions": [
+              "americas-north"
             ]
           }
         ],
