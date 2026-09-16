@@ -419,6 +419,13 @@ reviews:
   sources:
   - https://www.wikidata.org/wiki/Q3492313
   - https://en.wikipedia.org/wiki/Southeastern_Ceremonial_Complex
+- movement_id: movement/melayu-mauli-buddhist-art
+  status: no-documented-cross-region-relation
+  checked: '2026-09-16'
+  note: 2026-09-16時点で、movement→movement relation、movement→placeのdiffused_to、space.active_in、movement→event/orgのexhibited_at→held_at/sited_inの4経路を、当該movementに登録された資料を対象に確認した。1183年のグラヒ碑文の発見地（現タイ領マレー半島）はマラユ王国の版図内であり、現タイ・現インドネシアはいずれも本KBのregionバケット上asia-southeast内のため域外接続に当たらない。起源region外への文書化された接続は現時点で確認できない。
+  sources:
+  - https://www.wikidata.org/wiki/Q3112053
+  - https://en.wikipedia.org/wiki/Melayu_Kingdom
 - movement_id: movement/tongan-langi-architecture
   status: no-documented-cross-region-relation
   checked: '2026-09-16'

@@ -3,10 +3,10 @@
   "findings": [],
   "cross_region": {
     "schema_version": 1,
-    "movement_total": 177,
+    "movement_total": 178,
     "counts": {
       "connected": 111,
-      "reviewed-no-documented-link": 66,
+      "reviewed-no-documented-link": 67,
       "unreviewed": 0
     },
     "connected": [
@@ -161,6 +161,7 @@
       "movement/malacca-sultanate-art",
       "movement/mandalay-style",
       "movement/mannerism",
+      "movement/melayu-mauli-buddhist-art",
       "movement/mexican-muralism",
       "movement/mono-ha",
       "movement/moscow-school-icon-painting",
@@ -3137,6 +3138,27 @@
         "review": null
       },
       {
+        "movement_id": "movement/melayu-mauli-buddhist-art",
+        "status": "reviewed-no-documented-link",
+        "origin_regions": [
+          "asia-southeast"
+        ],
+        "routes": [],
+        "reasons": [
+          "2026-09-16時点で、movement→movement relation、movement→placeのdiffused_to、space.active_in、movement→event/orgのexhibited_at→held_at/sited_inの4経路を、当該movementに登録された資料を対象に確認した。1183年のグラヒ碑文の発見地（現タイ領マレー半島）はマラユ王国の版図内であり、現タイ・現インドネシアはいずれも本KBのregionバケット上asia-southeast内のため域外接続に当たらない。起源region外への文書化された接続は現時点で確認できない。"
+        ],
+        "review": {
+          "movement_id": "movement/melayu-mauli-buddhist-art",
+          "status": "no-documented-cross-region-relation",
+          "checked": "2026-09-16",
+          "note": "2026-09-16時点で、movement→movement relation、movement→placeのdiffused_to、space.active_in、movement→event/orgのexhibited_at→held_at/sited_inの4経路を、当該movementに登録された資料を対象に確認した。1183年のグラヒ碑文の発見地（現タイ領マレー半島）はマラユ王国の版図内であり、現タイ・現インドネシアはいずれも本KBのregionバケット上asia-southeast内のため域外接続に当たらない。起源region外への文書化された接続は現時点で確認できない。",
+          "sources": [
+            "https://www.wikidata.org/wiki/Q3112053",
+            "https://en.wikipedia.org/wiki/Melayu_Kingdom"
+          ]
+        }
+      },
+      {
         "movement_id": "movement/menri-school",
         "status": "connected",
         "origin_regions": [
@@ -5285,7 +5307,7 @@
   "cross_region_baseline": {
     "schema_version": 1,
     "source_commit": "bd15d4c707d6c2fff84ff0c763a993f94cbc3589",
-    "movement_count": 72,
+    "movement_count": 73,
     "movement_ids": [
       "movement/ai-bigeiken",
       "movement/alaouite-imperial-architecture",
@@ -5329,6 +5351,7 @@
       "movement/malacca-sultanate-art",
       "movement/mandalay-style",
       "movement/mannerism",
+      "movement/melayu-mauli-buddhist-art",
       "movement/mexican-muralism",
       "movement/mongol-zurag",
       "movement/mono-ha",
