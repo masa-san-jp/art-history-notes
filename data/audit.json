@@ -3,10 +3,10 @@
   "findings": [],
   "cross_region": {
     "schema_version": 1,
-    "movement_total": 176,
+    "movement_total": 177,
     "counts": {
       "connected": 111,
-      "reviewed-no-documented-link": 65,
+      "reviewed-no-documented-link": 66,
       "unreviewed": 0
     },
     "connected": [
@@ -184,6 +184,7 @@
       "movement/sudano-sahelian-architecture",
       "movement/suprematism",
       "movement/surrealism",
+      "movement/tongan-langi-architecture",
       "movement/ukrainian-baroque",
       "movement/utagawa-school",
       "movement/wu-school",
@@ -4893,6 +4894,27 @@
         "review": null
       },
       {
+        "movement_id": "movement/tongan-langi-architecture",
+        "status": "reviewed-no-documented-link",
+        "origin_regions": [
+          "oceania"
+        ],
+        "routes": [],
+        "reasons": [
+          "2026-09-16時点で、movement→movement relation、movement→placeのdiffused_to、space.active_in、movement→event/orgのexhibited_at→held_at/sited_inの4経路を、当該movementに登録された資料を対象に確認した。石造の墓所建築という性質上可搬性の高い作例が乏しく、検索した範囲ではラーンギ建築や関連副葬品がトンガ域外の博物館へ収蔵された記録を確認できなかった。起源region外への文書化された接続は現時点で確認できない。"
+        ],
+        "review": {
+          "movement_id": "movement/tongan-langi-architecture",
+          "status": "no-documented-cross-region-relation",
+          "checked": "2026-09-16",
+          "note": "2026-09-16時点で、movement→movement relation、movement→placeのdiffused_to、space.active_in、movement→event/orgのexhibited_at→held_at/sited_inの4経路を、当該movementに登録された資料を対象に確認した。石造の墓所建築という性質上可搬性の高い作例が乏しく、検索した範囲ではラーンギ建築や関連副葬品がトンガ域外の博物館へ収蔵された記録を確認できなかった。起源region外への文書化された接続は現時点で確認できない。",
+          "sources": [
+            "https://www.wikidata.org/wiki/Q2359181",
+            "https://en.wikipedia.org/wiki/Monuments_of_Tonga"
+          ]
+        }
+      },
+      {
         "movement_id": "movement/tongan-ngatu",
         "status": "connected",
         "origin_regions": [
@@ -5263,7 +5285,7 @@
   "cross_region_baseline": {
     "schema_version": 1,
     "source_commit": "bd15d4c707d6c2fff84ff0c763a993f94cbc3589",
-    "movement_count": 71,
+    "movement_count": 72,
     "movement_ids": [
       "movement/ai-bigeiken",
       "movement/alaouite-imperial-architecture",
@@ -5332,6 +5354,7 @@
       "movement/suprematism",
       "movement/surrealism",
       "movement/tarnovo-artistic-school",
+      "movement/tongan-langi-architecture",
       "movement/ukrainian-baroque",
       "movement/utagawa-school",
       "movement/wu-school",

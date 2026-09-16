@@ -419,6 +419,13 @@ reviews:
   sources:
   - https://www.wikidata.org/wiki/Q3492313
   - https://en.wikipedia.org/wiki/Southeastern_Ceremonial_Complex
+- movement_id: movement/tongan-langi-architecture
+  status: no-documented-cross-region-relation
+  checked: '2026-09-16'
+  note: 2026-09-16時点で、movement→movement relation、movement→placeのdiffused_to、space.active_in、movement→event/orgのexhibited_at→held_at/sited_inの4経路を、当該movementに登録された資料を対象に確認した。石造の墓所建築という性質上可搬性の高い作例が乏しく、検索した範囲ではラーンギ建築や関連副葬品がトンガ域外の博物館へ収蔵された記録を確認できなかった。起源region外への文書化された接続は現時点で確認できない。
+  sources:
+  - https://www.wikidata.org/wiki/Q2359181
+  - https://en.wikipedia.org/wiki/Monuments_of_Tonga
 - movement_id: movement/malacca-sultanate-art
   status: no-documented-cross-region-relation
   checked: '2026-09-16'

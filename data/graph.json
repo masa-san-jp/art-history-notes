@@ -18239,6 +18239,80 @@
       "updated": "2026-08-25",
       "path": "entities/movements/thirteen-moderns.md"
     },
+    "movement/tongan-langi-architecture": {
+      "id": "movement/tongan-langi-architecture",
+      "uri": "urn:ahn:movement/tongan-langi-architecture",
+      "type": "movement",
+      "kind": "period-style",
+      "label_ja": "トンガのラーンギ王墓建築",
+      "label_en": "Tongan Langi Royal Tomb Architecture",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ulan": null,
+        "tgn": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "movement単位のWikidata項目は検索で特定できなかった。ラーンギ（王墓）建築 様式そのものを指す独立した項目は見当たらない"
+      },
+      "time": {
+        "start": "15XX",
+        "end": "17XX",
+        "display": "ラーンギ（トゥイ・トンガ王家の石造階段状墓所）自体は、13世紀半ばに遡る最古の 埋葬例が確認されるが、様式が最も洗練された『最も壮大』とされる例——トゥイ・ ウルアキマタ1世（テレア）による『パエパエ・オ・テレア』——は16世紀の建立とされる。 この最盛期を起点とした。トゥイ・トンガ王権が実質的な統治権を失ったのは17世紀とされる"
+      },
+      "naming": {
+        "self_identified": false,
+        "named_by": null,
+        "named_when": null,
+        "original_label": "langi",
+        "note": "『ラーンギ』はトンガ語で王家の墓所を指す当事者由来の語だが、これを建築movementと して束ねるのは後代の考古学・建築史記述による"
+      },
+      "claims": [
+        {
+          "field": "time",
+          "source": "https://en.wikipedia.org/wiki/Monuments_of_Tonga",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "originated_in",
+          "source": "https://en.wikipedia.org/wiki/Monuments_of_Tonga",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "kind",
+          "source": "https://en.wikipedia.org/wiki/Monuments_of_Tonga",
+          "certainty": "scholarly"
+        }
+      ],
+      "evidence": [],
+      "space": [
+        {
+          "role": "originated_in",
+          "target": "place/mua"
+        }
+      ],
+      "relations": [],
+      "sources": [
+        {
+          "url": "https://www.wikidata.org/wiki/Q2359181",
+          "kind": "authority",
+          "note": "originated_inの対象地（ムア）のWikidata項目"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Monuments_of_Tonga",
+          "kind": "reference",
+          "note": "『Monuments of Tonga』の項。ラパハ（ムア近郊）に22〜28基のラーンギ（王墓）が あり、階段状ピラミッド状の土盛りを丁寧に配置した擁壁で支えると記す。最古の埋葬は トゥイ・トゥイタトゥイの娘ファタフェヒとされ13世紀半ばに遡ると記す。『最も壮大』 とされるパエパエ・オ・テレアは、幅8フィートの珊瑚岩板を隙間なく組み合わせたもので、 16世紀にトゥイ・ウルアキマタ1世（テレア）により建立されたが、王がサモアで没した ため空のまま残されたと記す"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Tu%CA%BBi_Tonga_Empire",
+          "kind": "reference",
+          "note": "『Tuʻi Tonga Empire』の項。ムアの王墓写真に『16世紀、ウルアキマタ1世建立』の 注記があると記す"
+        }
+      ],
+      "status": "draft",
+      "updated": "2026-09-16",
+      "path": "entities/movements/tongan-langi-architecture.md"
+    },
     "movement/tongan-ngatu": {
       "id": "movement/tongan-ngatu",
       "uri": "urn:ahn:movement/tongan-ngatu",
@@ -40535,6 +40609,43 @@
       "status": "stub",
       "updated": "2026-08-11",
       "path": "entities/places/moscow.md"
+    },
+    "place/mua": {
+      "id": "place/mua",
+      "uri": "urn:ahn:place/mua",
+      "type": "place",
+      "label_ja": "ムア",
+      "label_en": "Muʻa",
+      "authority": {
+        "wikidata": "Q2359181",
+        "aat": null,
+        "ulan": null,
+        "tgn": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": null,
+        "end": null,
+        "display": null
+      },
+      "region": "oceania",
+      "coordinates": [
+        -21.179,
+        -175.117
+      ],
+      "space": [],
+      "relations": [],
+      "sources": [
+        {
+          "url": "https://www.wikidata.org/wiki/Q2359181",
+          "kind": "authority"
+        }
+      ],
+      "status": "stub",
+      "updated": "2026-09-16",
+      "path": "entities/places/mua.md"
     },
     "place/mueda": {
       "id": "place/mueda",
@@ -79505,6 +79616,11 @@
       "from": "movement/thirteen-moderns",
       "type": "originated_in",
       "to": "place/manila"
+    },
+    {
+      "from": "movement/tongan-langi-architecture",
+      "type": "originated_in",
+      "to": "place/mua"
     },
     {
       "from": "movement/tongan-ngatu",
