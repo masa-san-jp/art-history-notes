@@ -419,3 +419,10 @@ reviews:
   sources:
   - https://www.wikidata.org/wiki/Q3492313
   - https://en.wikipedia.org/wiki/Southeastern_Ceremonial_Complex
+- movement_id: movement/kakatiya-art
+  status: no-documented-cross-region-relation
+  checked: '2026-09-16'
+  note: 2026-09-16時点で、movement→movement relation、movement→placeのdiffused_to、space.active_in、movement→event/orgのexhibited_at→held_at/sited_inの4経路を、当該movementに登録された資料を対象に確認した。ラーマッパ寺院・千柱寺院とも現地に残る石造の建築装飾彫刻であり、大英博物館・メトロポリタン美術館のオンラインコレクション検索でも該当収蔵品を確認できなかった（メトロポリタン美術館は429エラー、大英博物館は403エラーで直接アクセスできず、検索エンジン経由の間接確認にとどまる）。起源region外への文書化された接続は現時点で確認できない。
+  sources:
+  - https://www.wikidata.org/wiki/Q108907973
+  - https://en.wikipedia.org/wiki/Kakatiya_dynasty

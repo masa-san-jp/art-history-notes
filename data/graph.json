@@ -9032,6 +9032,84 @@
       "updated": "2026-08-25",
       "path": "entities/movements/joseon-genre-painting.md"
     },
+    "movement/kakatiya-art": {
+      "id": "movement/kakatiya-art",
+      "uri": "urn:ahn:movement/kakatiya-art",
+      "type": "movement",
+      "kind": "period-style",
+      "label_ja": "カーカティーヤ美術",
+      "label_en": "Kakatiya Art",
+      "authority": {
+        "wikidata": "Q108907973",
+        "aat": null,
+        "ulan": null,
+        "tgn": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": "1213",
+        "end": "1323",
+        "display": "カーカティーヤ朝（現テランガーナ州）の建築・彫刻活動は、王ルドラ・デーヴァの 治下に建てられたとされる千柱寺院（ハナムコンダ）に遡るが、出典間で年代が食い違う （英語版Wikipedia『Thousand Pillar Temple』は本文で1175-1324年建設としながら、 infoboxでは1163年完成としており、本調査ではこの矛盾を解消できなかった）。彫刻様式 としての最高到達点とされるラーマッパ寺院（パラムペート）は、碑文により1213年 （レーチェルラ・ルドラによる建立、1212-1234年建設）と確実に年代づけられるため、 こちらを起点として採用した。終期はカーカティーヤ朝の滅亡年（1323年、デリー・ スルターン朝による征服）とした"
+      },
+      "naming": {
+        "self_identified": false,
+        "named_by": null,
+        "named_when": null,
+        "original_label": "Kakatiya art / Kakatiya architecture",
+        "note": "『カーカティーヤ美術』はカーカティーヤ朝（政体）の名を借りた後代の美術史記述に よる様式区分。当事者（王・彫刻師）自身がこの名で自らの様式を運動として名乗った記録は 無い"
+      },
+      "claims": [
+        {
+          "field": "time",
+          "source": "https://en.wikipedia.org/wiki/Ramappa_Temple",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "originated_in",
+          "source": "https://en.wikipedia.org/wiki/Kakatiya_dynasty",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "kind",
+          "source": "https://www.wikidata.org/wiki/Q108907973",
+          "certainty": "scholarly"
+        }
+      ],
+      "evidence": [],
+      "space": [
+        {
+          "role": "originated_in",
+          "target": "place/warangal"
+        }
+      ],
+      "relations": [],
+      "sources": [
+        {
+          "url": "https://www.wikidata.org/wiki/Q108907973",
+          "kind": "authority"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Kakatiya_dynasty",
+          "kind": "reference",
+          "note": "『Kakatiya dynasty』の項。1163年のアヌマコンダ碑文（ルドラデーヴァ）が カーカティーヤを主権勢力として記す最古の記録とし、都をオルガッル（現ワランガル）と 記す。千柱寺院・ラーマッパ寺院・ワランガル要塞・ゴールコンダ要塞・コータ・グッル （ガンプル）を代表的建造物として挙げ、従属する諸侯家によって建てられた灌漑用の 溜池（タンク）約5000基のうち多くが現在も使用されていると記す"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Thousand_Pillar_Temple",
+          "kind": "reference",
+          "note": "『Thousand Pillar Temple』の項。本文では王ルドラ・デーヴァの命により1175-1324年 に建設されたとする一方、infoboxでは1163年完成と記し、本調査ではこの矛盾を解消 できなかった。『カーカティーヤ美術・建築・彫刻の現存最古級の例』とし、後期チャールキヤ 様式と初期カーカティーヤ様式（星形平面・三殿形式）を示すと記す。精巧に彫られた柱・ 透かし彫りのスクリーン・岩を刳り抜いた象・一枚岩のナンディ像、ドレライト・花崗岩への ろくろ挽き研磨技法、象牙彫刻技術にも触れる"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Ramappa_Temple",
+          "kind": "reference",
+          "note": "『Ramappa Temple』の項。碑文により1213年、レーチェルラ・ルドラ・レッディによる 建立（1212-1234年建設、設計者ラーマッパ）と記す。約600体の舞踊関連彫刻を有し、 ガジャ・ヴィヤーラ（神話上の生物）の持ち送り像や、繊細な彫り・官能的な姿態・ 引き伸ばされた身体と頭部を特徴とする女性像マダニカーを『カーカティーヤ美術の 傑作』と記す。2021年にUNESCO世界遺産に登録されたと記す"
+        }
+      ],
+      "status": "draft",
+      "updated": "2026-09-16",
+      "path": "entities/movements/kakatiya-art.md"
+    },
     "movement/kamasan-painting": {
       "id": "movement/kamasan-painting",
       "uri": "urn:ahn:movement/kamasan-painting",
@@ -41876,6 +41954,43 @@
       "status": "stub",
       "updated": "2026-08-13",
       "path": "entities/places/vienna.md"
+    },
+    "place/warangal": {
+      "id": "place/warangal",
+      "uri": "urn:ahn:place/warangal",
+      "type": "place",
+      "label_ja": "ワランガル",
+      "label_en": "Warangal",
+      "authority": {
+        "wikidata": "Q25563103",
+        "aat": null,
+        "ulan": null,
+        "tgn": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": null,
+        "end": null,
+        "display": null
+      },
+      "region": "asia-south",
+      "coordinates": [
+        17.975556,
+        79.601111
+      ],
+      "space": [],
+      "relations": [],
+      "sources": [
+        {
+          "url": "https://www.wikidata.org/wiki/Q25563103",
+          "kind": "authority"
+        }
+      ],
+      "status": "stub",
+      "updated": "2026-09-16",
+      "path": "entities/places/warangal.md"
     },
     "place/washington-dc": {
       "id": "place/washington-dc",
@@ -77232,6 +77347,11 @@
       "from": "movement/joseon-genre-painting",
       "type": "originated_in",
       "to": "place/hanseong"
+    },
+    {
+      "from": "movement/kakatiya-art",
+      "type": "originated_in",
+      "to": "place/warangal"
     },
     {
       "from": "movement/kamasan-painting",
