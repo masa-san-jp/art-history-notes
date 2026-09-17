@@ -1,6 +1,13 @@
 # テーマ調査サイクル仕様（theme-research-cycle/v1）
 
-作成: 2026-09-17 ／ 状態: 提案（実装前） ／ 対象repo: `masa-san-jp/art-history-notes`（owner側）
+作成: 2026-09-17 ／ 状態: **確定 v1**（2026-09-17、下記4決定を利用者が承認） ／ 対象repo: `masa-san-jp/art-history-notes`（owner側）
+
+確定した4決定（詳細は各節）:
+
+1. 「調べる人」は **Research repo（agentic-art-research）の手順** に置く（§6 P2が主、P1は補助）。
+2. 予算は **小さく固定して実測で上げる**（§5 R4: 1 run 1 pass／検索語≤4／candidate≤2／出典取得≤8／15分）。
+3. origin参照は **schema専用field `derived_from` を最終形** とし、段階導入する（§5 R7-4: まず `note`、次taskでfield必須化）。
+4. mainの取り込みは **merge**（§9 Phase 0）。
 
 目的を一文で言うと——**制作計画の実行1回につき、そのテーマに応じた美術史調査が1回回り、結果がこのKBの
 利用者ローカルに根拠付きで残り、次回の実行がそれを参照でき、貯まった分を利用者が任意のタイミングで
@@ -183,15 +190,19 @@ contract_version: theme-research-budget/v1
 per_run:
   max_passes: 1            # 1 runにつき1 pass。増やさない
   max_theme_terms: 4       # creative_questionから派生させる検索語の上限
-  max_candidates: 3        # 1 passで起票するcandidateの上限
-  max_source_fetches: 12   # 取得する出典URLの上限（snapshot化するもの）
-  wall_clock_seconds: 1200
+  max_candidates: 2        # 1 passで起票するcandidateの上限
+  max_source_fetches: 8    # 取得する出典URLの上限（snapshot化するもの）
+  wall_clock_seconds: 900
 on_exhausted: stop         # 上限到達で停止し、未完了分は書かない（捏造しない）
+review:
+  after_runs: 3            # 実runをこの回数回した実測（所要時間・candidate採用率）で見直す
 ```
 
+**初期値の根拠**: 測定値ではなく、2026-09-16〜17に本repoで行った手作業（movement 1件あたり
+出典3〜6 URL、10〜20分）から逆算した保守的な値である。AAK-SPEC「現在の上限を未検証で増やして
+通さない」に従い、まず小さく固定し、実run 3回の所要時間と採用率を記録してから引き上げる。
 上限到達時のwrite jobは、それまでに検証済みのcandidateだけを `write` するか、1件も無ければ
-`no-new-evidence` を選ぶ。`reason` に `BUDGET` と到達した上限名を書く。上限の緩和は
-AAK-SPEC「現在の上限を未検証で増やして通さない」に従い、本configの改訂と根拠を伴う。
+`no-new-evidence` を選ぶ。`reason` に `BUDGET` と到達した上限名を書く。
 
 ### R5 重複と競合（既存intakeの機能に委ねる）
 
@@ -212,9 +223,12 @@ AAK-SPEC「現在の上限を未検証で増やして通さない」に従い、
    `tools/agent_task.py validate` → `agent_session.py begin` → 編集 → `agent_verify.py`。
    Issueとして起票するかは利用者の任意。
 3. 昇格したentityの `status` は `draft`。`verified` は既存基準を満たしたときだけ。
-4. **origin保持**: 昇格entityの `sources[].note` に、元recordの `record_id` / `revision` /
-   `origin_instance_id` / `collection_id` を書く。schemaへ専用fieldを足すかは別途 `docs/schema.md`
-   改訂で判断し、v1では `note` 記載を必須とする（AAK-06 要件4「fork/upstream差分でもorigin IDを維持する」）。
+4. **origin保持（確定: 最終形は専用field、段階導入）**: 最終形は `docs/schema.md` に
+   `derived_from`（`record_id` / `revision` / `origin_instance_id` / `collection_id` を持つ配列）を
+   追加し、`build_graph.py` が「store由来の昇格entityに `derived_from` が無い」を落とす。理由は
+   本repoの設計原則「規律は文章ではなく検証器が落とす形にする」（`docs/design-fable-draft.md` §0）。
+   段階導入として、Phase 1では `sources[].note` に同じ4項目を書くことを必須とし、Phase 1完了後の
+   別taskで `derived_from` を追加・必須化し、`note` 記載分を移行する（AAK-06 要件4）。
 5. `build_graph.py --check` → `build_graph.py` → `audit.py` → `verify.py` を通し、利用者自身がcommitする。
 6. push / PR / Issue更新は利用者の明示操作。fork利用者は自分のremoteのみを対象にし、
    元remoteへ自動送信しない（AAK-04 要件3）。
@@ -227,18 +241,21 @@ AAK-SPEC「現在の上限を未検証で増やして通さない」に従い、
 dirty worktreeを検出しない（`_source_commit`）。経路Bで `entities/` を編集した直後にpinを更新する
 場合は、**commit後のHEAD**でpinすることを手順書に書く。
 
-## 6. 親（orchestration）・Research側への提案（本repoの外。各repoでIssue化する）
+## 6. 親（orchestration）・Research側への要求（本repoの外。各repoでIssue化する）
 
 これらは本仕様の完成に必要だが、本repoの権限外である。自動でIssueを送らず、利用者が各repoに起票する。
+Issue本文の下書きは本repo側で用意する（Phase 2）。
 
-- P1（orchestration）`knowledge_cycle_run.py:281` の art-history write job要求 `do` 文言に、
-  「`theme_research.py` のreconを行い、theme-research-budget/v1 の範囲でcandidateを起票するか、
-  recon hashを理由に添えて `no-new-evidence` を選ぶ」を追加する。あわせて `query_inputs['art-history-notes']`
-  の `query` を `theme_proposal.creative_question` 由来のterm群から生成できる補助を検討する
-  （現状は利用者手書きの外部JSON）。
-- P2（research）`docs/research-task-protocol.md` §2 の「bundleを利用できる場合は検索する」を、
-  「recon → 予算内で調査 → candidate起票」に拡張し、`art-history-research-intake/v1` のcandidateを
-  出力する場所（work root配下、Git外）を定める。
+- **P2（research・主）確定**: 「調べる人」の責務は `agentic-art-research` に置く。理由は親の
+  repository-mapが定める責務分担（調査・判断=Research、保管・検証=art-history-notes、配線=orchestration）
+  を崩さないため、および調査の記録（reuse-trace/v1：何を読み、何を採用・棄却したか）がResearchに
+  残るため。`docs/research-task-protocol.md` §2 の「bundleを利用できる場合は検索する」を、
+  「recon（`theme_research.py`）→ theme-research-budget/v1 の範囲で調査 → candidate起票」に拡張し、
+  `art-history-research-intake/v1` のcandidateを出力する場所（work root配下、Git外）を定める。
+- **P1（orchestration・補助）**: `knowledge_cycle_run.py:281` の art-history write job要求 `do` 文言に、
+  Research手順で作られたcandidateを `write` するか、recon hashを理由に添えて `no-new-evidence` を選ぶ
+  ことを明記する。親は調査内容を指示しない（責務境界）。`query_inputs['art-history-notes']` の `query` を
+  `theme_proposal.creative_question` 由来のterm群から生成する補助は任意。
 - P3（両方）`no-new-evidence` の `reason` に recon結果のhash（theme terms・hit_count）を含め、
   「調べなかった」と「調べたが無かった」を区別する。
 
@@ -273,8 +290,11 @@ dirty worktreeを検出しない（`_source_commit`）。経路Bで `entities/` 
 
 ## 9. 実装順序
 
-1. **Phase 0 — mainへの追従**: `docs/ecosystem-readme-20260910` に `origin/main` を取り込む
-   （AAK-06実装を得るため）。方法は利用者が決める。
+1. **Phase 0 — mainへの追従（確定: merge）**: `origin/main` を `docs/ecosystem-readme-20260910` へ
+   mergeする（AAK-06実装を得るため）。理由: 本branchは既にremoteへpush済みの共有branchであり、
+   rebaseはforce pushを要して他者の履歴を壊す。新branch案は今日の66 commitと実装のPRを分けて
+   管理する負担が増える。mergeは履歴を消さず、生成物（`data/*.json`、`overviews/coverage.md`）の
+   衝突は再生成で解消する。
 2. **Phase 1 — owner側（本repo）**: R1（`contract_version`・複数term）、R2（手順書2経路化）、
    R4（config）、R3（雛形、任意）、TR-AC1〜AC6のテスト。task contract v2で実施。
 3. **Phase 2 — 他repoへの提案**: §6 P1〜P3を各repoに起票（利用者操作）。
