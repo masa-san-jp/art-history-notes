@@ -17,6 +17,7 @@
 - task-contract.md: task contract v2の形式
 - local-workflow.md: baseline、編集、検証、報告
 - acceptance.md: 完成判定とE2Eの対応表
+- theme-research-task.md: テーマを1つ渡して調査を1回まとめる専用task（`tools/theme_research.py`）
 
 ## 所有者
 

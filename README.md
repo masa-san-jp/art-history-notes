@@ -90,6 +90,9 @@ git config core.hooksPath .githooks
 uv run --locked python tools/bundle.py --search 調和
 uv run --locked python tools/bundle.py movement/kano-school
 
+# テーマを1つ渡して「既にあるか／被覆の空欄はどこか」を1回でまとめる（検索は data/queries.jsonl に記録される）
+uv run --locked python tools/theme_research.py --theme "ムガル絵画"
+
 # 時間・地域・距離から同時代の候補を探す
 uv run --locked python tools/query_spacetime.py --at 1885
 uv run --locked python tools/query_spacetime.py --at 1885 --near place/paris --radius-km 500 --format json
@@ -149,6 +152,13 @@ tests/          domain検証とAgent interfaceのテスト
 Agentの入口は [AGENTS.md](AGENTS.md) です。task contractがある場合は、contractをvalidateしてから
 作業前baselineを記録し、許可されたscopeだけを変更し、最後にtask verifyを実行します。
 詳細な手順、責務境界、受入れ証跡は [`docs/agent/README.md`](docs/agent/README.md) を読んでください。
+
+下流（`agentic-art-research`等）でテーマに応じた調査を1回まとめて回したい場合は
+[`docs/agent/theme-research-task.md`](docs/agent/theme-research-task.md) の手順と
+[`.github/ISSUE_TEMPLATE/theme-research-task.md`](.github/ISSUE_TEMPLATE/theme-research-task.md)
+のcontractを使います。下流repoの`tools/art_history_adapter.py`はpinされたcommitのread-only参照
+のままで、この手順を自動では呼びません——ローカルcloneを持つ利用者が、使うたびに手動で回して
+知見を蓄積し、貯まった分だけ後から任意にremoteへpushします。
 
 このハーネスは、Agentを選定・起動・ホストする仕組みではありません。GitHub Actionsも検証だけを行い、
 Agent executable、モデルAPI、GitHub write権限、repository secretを要求しません。
