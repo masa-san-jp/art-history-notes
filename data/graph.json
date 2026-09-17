@@ -14669,6 +14669,74 @@
       "updated": "2026-09-16",
       "path": "entities/movements/ottoman-westernization-painting.md"
     },
+    "movement/pa-fortification-architecture": {
+      "id": "movement/pa-fortification-architecture",
+      "uri": "urn:ahn:movement/pa-fortification-architecture",
+      "type": "movement",
+      "kind": "period-style",
+      "label_ja": "パー要塞集落建築",
+      "label_en": "Pā Fortified Settlement Architecture",
+      "authority": {
+        "wikidata": "Q1234236",
+        "aat": null,
+        "ulan": null,
+        "tgn": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": "13XX",
+        "end": "..",
+        "display": "英語版Wikipedia『Pā』は、クマラ（サツマイモ）の貯蔵技術の発達が、北から南へ 広がる要塞化された丘陵集落（パー）の勃興の契機になったとし、14〜15世紀を勃興・拡大の 時期とする。17〜18世紀にはタイアハ（棒状武器）が主要武器となる時期まで発展が続いたと 記す。ニュージーランド戦争（1845-1872年）の戦場としても使われ続けたため、終期は 継続中とした"
+      },
+      "naming": {
+        "self_identified": true,
+        "named_by": null,
+        "named_when": null,
+        "original_label": "pā",
+        "note": "『パー』はマオリ語で村・要塞化された集落を指す当事者由来の語である。ただし 『建築movement』として時代を貫いて括るのは後代の考古学・建築史記述による"
+      },
+      "claims": [
+        {
+          "field": "time",
+          "source": "https://en.wikipedia.org/wiki/P%C4%81",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "originated_in",
+          "source": "https://en.wikipedia.org/wiki/P%C4%81",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "kind",
+          "source": "https://www.wikidata.org/wiki/Q1234236",
+          "certainty": "scholarly"
+        }
+      ],
+      "evidence": [],
+      "space": [
+        {
+          "role": "originated_in",
+          "target": "place/new-zealand"
+        }
+      ],
+      "relations": [],
+      "sources": [
+        {
+          "url": "https://www.wikidata.org/wiki/Q1234236",
+          "kind": "authority"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/P%C4%81",
+          "kind": "reference",
+          "note": "『Pā』の項。クマラ（サツマイモ）貯蔵穴の技術発達が、北から南へ広がる要塞化された 丘陵集落の勃興・拡大を後押ししたとし、14〜15世紀を勃興期とする。約500年前 （15世紀頃）以前からの古い時期のパーも知られるとする一方、17〜18世紀には タイアハが主要武器となる時期まで発展が続いたと記す。精巧な設計のパーには 『入念に彫刻された出入口・意匠を凝らした主柱』が特徴として見られるとする。 ワイカト地方ンガーロト湖の泥炭から保存状態の良い彫刻木工品が多数出土し、 近隣のテ・アワムトゥ博物館（ニュージーランド国内）に展示されていると記す"
+        }
+      ],
+      "status": "draft",
+      "updated": "2026-09-17",
+      "path": "entities/movements/pa-fortification-architecture.md"
+    },
     "movement/pala-art": {
       "id": "movement/pala-art",
       "uri": "urn:ahn:movement/pala-art",
@@ -79298,6 +79366,11 @@
       "from": "movement/ottoman-westernization-painting",
       "type": "originated_in",
       "to": "place/istanbul"
+    },
+    {
+      "from": "movement/pa-fortification-architecture",
+      "type": "originated_in",
+      "to": "place/new-zealand"
     },
     {
       "from": "movement/pala-art",
