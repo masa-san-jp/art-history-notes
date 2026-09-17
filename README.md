@@ -185,4 +185,5 @@ GitHub Actionsには、正準検証用の `validate.yml` と、Agent interface�
 - [`docs/investigation-task.md`](docs/investigation-task.md)：1件の調査手順
 - [`docs/context-investigation-task.md`](docs/context-investigation-task.md)：時代文脈の調査手順
 - [`docs/agent/acceptance.md`](docs/agent/acceptance.md)：Agent interfaceとE2Eの対応表
+- [`docs/theme-research-cycle.md`](docs/theme-research-cycle.md)：実行1回につきテーマ調査を1回回し、ローカルに蓄積し、任意でremoteへ還元する仕様（提案）
 - [`docs/for-other-personas.md`](docs/for-other-personas.md)：他の人格が読むときの扱い

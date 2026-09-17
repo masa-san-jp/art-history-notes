@@ -1,5 +1,11 @@
 # Theme research task
 
+Specification: `docs/theme-research-cycle.md` (theme-research-cycle/v1) defines the full
+per-run cycle this task belongs to — reconnaissance → investigation → owner intake (local
+knowledge store) → next-run export → optional manual upstream contribution. This page is the
+walkthrough for the canonical-`entities/` path ("経路B" in that spec); the run-internal
+store path ("経路A") is documented in `docs/research-knowledge-intake.md` on `main`.
+
 Purpose: give any caller — a downstream repository (`agentic-art-research` generating a
 production plan), a human, or an interactive Agent session — a single, repeatable unit of
 work: *"run one research pass on this theme against art-history-notes."* Every run should
