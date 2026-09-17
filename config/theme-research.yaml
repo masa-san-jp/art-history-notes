@@ -1,0 +1,14 @@
+# テーマ調査サイクル（docs/theme-research-cycle.md §5 R4）の予算。有限の正の整数だけを置く。
+# 初期値の根拠は測定ではなく、2026-09-16〜17の手作業（movement 1件あたり出典3〜6 URL、10〜20分）
+# からの逆算。実run 3回の所要時間・candidate採用率を記録してから引き上げる（AAK-SPEC:
+# 「現在の上限を未検証で増やして通さない」）。上限到達時は捏造せず停止し、検証済み分だけを書く。
+contract_version: theme-research-budget/v1
+per_run:
+  max_passes: 1            # 1 runにつき1 pass。増やさない
+  max_theme_terms: 4       # creative_questionから派生させる検索語の上限
+  max_candidates: 2        # 1 passで起票するcandidateの上限
+  max_source_fetches: 8    # 取得する出典URLの上限（snapshot化するもの）
+  wall_clock_seconds: 900
+on_exhausted: stop         # 上限到達で停止し、未完了分は書かない（捏造しない）
+review:
+  after_runs: 3            # 実runをこの回数回した実測で見直す

@@ -143,8 +143,11 @@ git config core.hooksPath .githooks
 uv run --locked python tools/bundle.py --search 調和
 uv run --locked python tools/bundle.py movement/kano-school
 
-# テーマを1つ渡して「既にあるか／被覆の空欄はどこか」を1回でまとめる（検索は data/queries.jsonl に記録される）
-uv run --locked python tools/theme_research.py --theme "ムガル絵画"
+# テーマを渡して「既にあるか／被覆の空欄はどこか／予算」を1回でまとめる（検索語ごとに data/queries.jsonl へ記録）
+uv run --locked python tools/theme_research.py --theme "ムガル絵画" --theme "Mughal painting" --json
+# 調査→owner intake の candidate.json 骨格を出す（docs/theme-research-cycle.md §5 R3、出典や主張は推測しない）
+uv run --locked python tools/theme_research.py --theme "ムガル絵画" --emit-candidate-template \
+  --creator <creator> --collection <collection> --project-id <project> --origin-instance-id <instance> --run-id <run>
 
 # 時間・地域・距離から同時代の候補を探す
 uv run --locked python tools/query_spacetime.py --at 1885

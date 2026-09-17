@@ -65,6 +65,40 @@ local clone; nothing here changes the adapter's pinned, read-only contract on th
    a locally-accumulated clone's history to the shared remote later is a deliberate, manual
    choice by whoever holds that clone, not something this task automates.
 
+## 経路A — run内: candidate → owner intake（利用者ローカルのstoreへ）
+
+制作計画のrunの中で回す標準経路。code checkoutの `entities/` には書かない。手順の正本は
+`docs/research-knowledge-intake.md`（AAK-06）。ここでは theme research との接続だけを書く。
+
+1. recon: `tools/theme_research.py --theme "<term>" [--theme "<term2>"] --json`。
+   `results[].exact_label_hits` が空でなく、その entity が `verified` なら **NO_NEW_EVIDENCE**。
+   親の write job は `{action: no-new-evidence, inputs: {}, reason: "<recon の theme と hit_count>"}`。
+2. 骨格: `--emit-candidate-template --creator … --collection … --project-id … --origin-instance-id … --run-id …`
+   を付けると `candidate_templates[]` に candidate.json の骨格と `missing` が出る。
+   骨格は出典・hash・主張を推測しない。`missing` を全部埋めるのはエージェント。
+3. 調査: `config/theme-research.yaml` の予算内で出典を読み、URL→外部snapshot fileの対応
+   （`source-snapshots.json`）と `payload.source_reads`（byte範囲hash）を作る。読んでいない出典を
+   `source_reads` に書かない（intakeが拒否する）。
+4. 検証: `tools/research_knowledge_intake.py prepare …`（read-only）。通らなければ candidate を直す。
+   予算到達で1件も通らなければ `no-new-evidence`（reason に `BUDGET` と上限名）。
+5. 親の write job: `{action: write, inputs: {candidate: <path>, source-snapshots: <path>}, reason: …}`。
+   commit / index は親が native CLI で行い、receipt を検証する。エージェントは push しない。
+6. 次回: `tools/export_signals.py --knowledge-store-root … --query <theme>` に新record が ID 付きで返る。
+
+## 経路B — 手動: store の record を canonical `entities/` へ昇格（このページの残り）
+
+貯まった record のうち共有価値のあるものを、利用者が選んで共有リポジトリへ返す経路。
+自動ではない。昇格した entity には **元 record への参照** を必ず残す（spec §5 R7-4、Phase 1の形式）:
+
+```yaml
+sources:
+  - url: "https://example.org/read-source"
+    kind: reference
+    note: "origin: record_id=<record_id>; revision=<n>; origin_instance_id=<instance>; collection_id=<collection>"
+```
+
+`derived_from` 専用field への移行は別task（spec §5 R7-4）。それまでは上の `note` 形式を必須とする。
+
 ## Using the GitHub issue template
 
 [`.github/ISSUE_TEMPLATE/theme-research-task.md`](../../.github/ISSUE_TEMPLATE/theme-research-task.md)

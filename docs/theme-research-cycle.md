@@ -151,13 +151,13 @@ clone/forkを扱う **AAK-04** である。本仕様はそれらを変更せず�
 }
 ```
 
-- 現行実装（2026-09-17）は `contract_version` を持たない。追加する（後方互換）。
-- `--theme` は複数回指定可能にし、1回の起動でterm数分のrecon結果を配列で返す（1 runのtheme termsが
-  日英で複数になるため）。各termは個別に `data/queries.jsonl` へ記録する。
+- **実装済み（Phase 1、2026-09-17）**: `contract_version`、複数 `--theme`（`themes[]` / `results[]`、
+  各termを個別に `data/queries.jsonl` へ記録）、`results[].exact_label_hits`（`label_ja` / `label_en` が
+  termに一致するhit）、`budget`（R4のconfigをそのまま同梱）、`truncated_themes`（`max_theme_terms` 超過分）。
+  単一テーマ呼び出しの旧field（`theme` / `hits` / `hit_count`）は後方互換で残す。
 - exit codeは常に0。該当なしは失敗ではない。
 - `search_entities` は本文全体の部分一致であり関連度順ではない（`tools/kb.py:326-335`）。
-  「主題そのもの」の判定は、`label_ja` / `label_en` がtermに一致するhitがあるかでエージェントが行う。
-  将来 `exact_label_hits` を別fieldで返す改善は許すが、v1の必須ではない。
+  「主題そのもの」の最終判定は `exact_label_hits` を手がかりにエージェントが行う。
 
 ### R2 手順書の2経路化
 
@@ -169,10 +169,13 @@ clone/forkを扱う **AAK-04** である。本仕様はそれらを変更せず�
 - **経路B（手動 / 還元）**: store内recordを canonical `entities/` へ昇格。
   `.github/ISSUE_TEMPLATE/theme-research-task.md` のcontractはこの経路用。
 
-### R3 candidate雛形の生成（新規・任意機能）
+### R3 candidate雛形の生成（実装済み、Phase 1）
 
-`tools/theme_research.py --emit-candidate-template --theme <term> --creator <id> --collection <id> --project-id <id>`
-で、recon結果から candidate.json の骨格を出す。
+`tools/theme_research.py --theme <term> --emit-candidate-template --creator <id> --collection <id> --project-id <id> --origin-instance-id <id> --run-id <id>`
+で、recon結果から candidate.json の骨格を `candidate_templates[]` に出す（`max_candidates` 件まで）。
+envelope の固定field、`payload_ref`、`content_sha256` は既存intakeの同じ関数（`key` / `canonical` / `digest`）で
+計算し、穴を埋めれば既存の `validate_candidate` をそのまま通ることをテストで確認している
+（`tests/test_theme_research.py::test_filled_template_is_accepted_by_intake_validator`）。
 
 - envelopeの固定field（`contract_version`, `owner_repository`, `kind`, `payload_schema`, `producer.kind` 等）と、
   payloadの `target_id` 候補（既存canonical IDとの照合結果、無ければ安全な新ID案）を埋める。
@@ -263,8 +266,8 @@ Issue本文の下書きは本repo側で用意する（Phase 2）。
 
 | 契約 | 所在 | 状態 |
 |---|---|---|
-| theme-research-recon/v1 | `tools/theme_research.py --json` | 既存出力に `contract_version` を追加 |
-| theme-research-budget/v1 | `config/theme-research.yaml` | 新規 |
+| theme-research-recon/v1 | `tools/theme_research.py --json` | 実装済み（Phase 1） |
+| theme-research-budget/v1 | `config/theme-research.yaml` | 実装済み（Phase 1、初期値は§5 R4） |
 | artifact-record/v1 + art-history-research-intake/v1 | `docs/research-knowledge-intake.md`（origin/main） | 既存・変更なし |
 | owner write job `{action, inputs, reason}` | 親 `knowledge_cycle_run.py` | 既存・変更なし |
 | knowledge-write-receipt/v1 | `tools/research_knowledge_intake.py` | 既存・変更なし |
