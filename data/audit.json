@@ -3,10 +3,10 @@
   "findings": [],
   "cross_region": {
     "schema_version": 1,
-    "movement_total": 178,
+    "movement_total": 179,
     "counts": {
       "connected": 111,
-      "reviewed-no-documented-link": 67,
+      "reviewed-no-documented-link": 68,
       "unreviewed": 0
     },
     "connected": [
@@ -152,6 +152,7 @@
       "movement/kamasan-painting",
       "movement/karma-gardri",
       "movement/khyenri-school",
+      "movement/kisalian-culture-art",
       "movement/kowhaiwhai",
       "movement/lan-xang-art",
       "movement/lapita-pottery",
@@ -2695,6 +2696,27 @@
           "1経路で起源region外へ到達"
         ],
         "review": null
+      },
+      {
+        "movement_id": "movement/kisalian-culture-art",
+        "status": "reviewed-no-documented-link",
+        "origin_regions": [
+          "africa-sub"
+        ],
+        "routes": [],
+        "reasons": [
+          "2026-09-17時点で、movement→movement relation、movement→placeのdiffused_to、space.active_in、movement→event/orgのexhibited_at→held_at/sited_inの4経路を、当該movementに登録された資料を対象に確認した。検索した範囲では、キサレ文化の副葬品がコンゴ民主共和国域外の博物館等へ拡散した文書化された記録を確認できなかった。起源region外への文書化された接続は現時点で確認できない。"
+        ],
+        "review": {
+          "movement_id": "movement/kisalian-culture-art",
+          "status": "no-documented-cross-region-relation",
+          "checked": "2026-09-17",
+          "note": "2026-09-17時点で、movement→movement relation、movement→placeのdiffused_to、space.active_in、movement→event/orgのexhibited_at→held_at/sited_inの4経路を、当該movementに登録された資料を対象に確認した。検索した範囲では、キサレ文化の副葬品がコンゴ民主共和国域外の博物館等へ拡散した文書化された記録を確認できなかった。起源region外への文書化された接続は現時点で確認できない。",
+          "sources": [
+            "https://en.wikipedia.org/wiki/Kisalian_Graves",
+            "https://www.wikidata.org/wiki/Q681743"
+          ]
+        }
       },
       {
         "movement_id": "movement/kokand-khanate-art",
@@ -5307,7 +5329,7 @@
   "cross_region_baseline": {
     "schema_version": 1,
     "source_commit": "bd15d4c707d6c2fff84ff0c763a993f94cbc3589",
-    "movement_count": 73,
+    "movement_count": 74,
     "movement_ids": [
       "movement/ai-bigeiken",
       "movement/alaouite-imperial-architecture",
@@ -5342,6 +5364,7 @@
       "movement/kamasan-painting",
       "movement/karma-gardri",
       "movement/khyenri-school",
+      "movement/kisalian-culture-art",
       "movement/kowhaiwhai",
       "movement/lan-xang-art",
       "movement/lapita-pottery",

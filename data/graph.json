@@ -10167,6 +10167,75 @@
       "updated": "2026-09-16",
       "path": "entities/movements/kilwa-swahili-architecture.md"
     },
+    "movement/kisalian-culture-art": {
+      "id": "movement/kisalian-culture-art",
+      "uri": "urn:ahn:movement/kisalian-culture-art",
+      "type": "movement",
+      "kind": "retrospective",
+      "label_ja": "キサレ文化美術",
+      "label_en": "Kisalian Culture Art",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ulan": null,
+        "tgn": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "movement単位のWikidata項目は検索で特定できなかった。キサレ古墓群 そのものを指す項目（英語版Wikipedia『Kisalian Graves』）にも対応するWikidata項目が 見つからなかった"
+      },
+      "time": {
+        "start": "0900",
+        "end": "1200",
+        "display": "土器・放射性炭素年代測定により、初期キサレ期（700-900年）と古典期キサレ期 （900-1200年）の2段階が確認される。本項では、副葬品の豊かさ・多様性が最も高まる 古典期の開始（900年）を起点とした"
+      },
+      "naming": {
+        "self_identified": false,
+        "named_by": null,
+        "named_when": null,
+        "original_label": "Kisalian culture",
+        "note": "『キサレ（Kisalian）』はウペンバ低地の地名（キサレ）を借りた後代の考古学記述による 呼称。当事者自身がこの名で自らの様式を運動として名乗った記録は無い"
+      },
+      "claims": [
+        {
+          "field": "time",
+          "source": "https://en.wikipedia.org/wiki/Kisalian_Graves",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "originated_in",
+          "source": "https://en.wikipedia.org/wiki/Kisalian_Graves",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "kind",
+          "source": "https://en.wikipedia.org/wiki/Kisalian_Graves",
+          "certainty": "scholarly"
+        }
+      ],
+      "evidence": [],
+      "space": [
+        {
+          "role": "originated_in",
+          "target": "place/upemba-depression"
+        }
+      ],
+      "relations": [],
+      "sources": [
+        {
+          "url": "https://www.wikidata.org/wiki/Q681743",
+          "kind": "reference",
+          "note": "originated_inの対象地（ウペンバ低地）のWikidata項目"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Kisalian_Graves",
+          "kind": "reference",
+          "note": "『Kisalian Graves』の項。ウペンバ低地北部の墓所群を、土器・放射性炭素年代測定に 基づき初期キサレ期（700-900年）と古典期キサレ期（900-1200年）に区分すると記す。 副葬品として土器・鉄・銅・骨・象牙が見られ、銅製品の数が被葬者の地位を反映したと記す。 土器・象牙・銅・宝貝・彫刻を施した骨製人形など豊かな副葬品が交易網の存在を示すと記す。 長く反った刃物も同時期の特徴とし、地位や富の象徴だったと推測されると記す"
+        }
+      ],
+      "status": "draft",
+      "updated": "2026-09-17",
+      "path": "entities/movements/kisalian-culture-art.md"
+    },
     "movement/kokand-khanate-art": {
       "id": "movement/kokand-khanate-art",
       "uri": "urn:ahn:movement/kokand-khanate-art",
@@ -42845,6 +42914,43 @@
       "status": "stub",
       "updated": "2026-08-09",
       "path": "entities/places/ulaanbaatar.md"
+    },
+    "place/upemba-depression": {
+      "id": "place/upemba-depression",
+      "uri": "urn:ahn:place/upemba-depression",
+      "type": "place",
+      "label_ja": "ウペンバ低地",
+      "label_en": "Upemba Depression",
+      "authority": {
+        "wikidata": "Q681743",
+        "aat": null,
+        "ulan": null,
+        "tgn": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": null,
+        "end": null,
+        "display": null
+      },
+      "region": "africa-sub",
+      "coordinates": [
+        -8.6,
+        26.4
+      ],
+      "space": [],
+      "relations": [],
+      "sources": [
+        {
+          "url": "https://www.wikidata.org/wiki/Q681743",
+          "kind": "authority"
+        }
+      ],
+      "status": "stub",
+      "updated": "2026-09-17",
+      "path": "entities/places/upemba-depression.md"
     },
     "place/veliko-tarnovo": {
       "id": "place/veliko-tarnovo",
@@ -78553,6 +78659,11 @@
       "from": "movement/kilwa-swahili-architecture",
       "type": "originated_in",
       "to": "place/kilwa-kisiwani"
+    },
+    {
+      "from": "movement/kisalian-culture-art",
+      "type": "originated_in",
+      "to": "place/upemba-depression"
     },
     {
       "from": "movement/kokand-khanate-art",

@@ -1,6 +1,6 @@
 schema_version: 1
 source_commit: bd15d4c707d6c2fff84ff0c763a993f94cbc3589
-movement_count: 73
+movement_count: 74
 movement_ids:
   - movement/ai-bigeiken
   - movement/alaouite-imperial-architecture
@@ -35,6 +35,7 @@ movement_ids:
   - movement/kamasan-painting
   - movement/karma-gardri
   - movement/khyenri-school
+  - movement/kisalian-culture-art
   - movement/kowhaiwhai
   - movement/lan-xang-art
   - movement/lapita-pottery
