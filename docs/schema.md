@@ -1,5 +1,9 @@
 # スキーマ v2 — このナレッジベースの骨格
 
+AAK-06の追加owner契約は [research knowledge intake](research-knowledge-intake.md) に記述する。
+既存entity/context型とvalidatorを使い、creator/project固有の解釈は別のversioned payloadへ置く。
+参照仕様は親repoのAAK-SPEC v1（commit `b0e7c7f8d0a1f756fa708deef4fb380a62e45e0d`）。
+
 1エンティティ = 1 markdown。**frontmatter が唯一の正**で、グラフ・被覆マップ・バンドルはすべて生成物。
 生成物を手で編集しない。
 

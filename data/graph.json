@@ -33905,6 +33905,46 @@
       "updated": "2026-08-12",
       "path": "entities/persons/mose-bianchi.md"
     },
+    "person/myron-krueger": {
+      "id": "person/myron-krueger",
+      "uri": "urn:ahn:person/myron-krueger",
+      "type": "person",
+      "label_ja": "マイロン・W・クルーガー",
+      "label_en": "Myron W. Krueger",
+      "authority": {
+        "wikidata": "Q4243085",
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": "1942",
+        "end": null,
+        "display": "1942年生"
+      },
+      "space": [],
+      "relations": [],
+      "sources": [
+        {
+          "url": "https://dam.org/museum/artists_ui/artists/krueger-myron/",
+          "kind": "institutional",
+          "note": "Digital Art Museumの作家・作品解説"
+        },
+        {
+          "url": "https://www.si.edu/object/videoplace:25244",
+          "kind": "institutional",
+          "note": "Smithsonian Archives of American ArtのVideoplace記録"
+        },
+        {
+          "url": "https://www.wikidata.org/wiki/Q4243085",
+          "kind": "authority"
+        }
+      ],
+      "status": "stub",
+      "updated": "2026-09-14",
+      "path": "entities/persons/myron-krueger.md"
+    },
     "person/napoleone-gradi": {
       "id": "person/napoleone-gradi",
       "uri": "urn:ahn:person/napoleone-gradi",
@@ -76761,6 +76801,56 @@
       "updated": "2026-08-12",
       "path": "entities/works/via-crucis-previati-1907.md"
     },
+    "work/videoplace": {
+      "id": "work/videoplace",
+      "uri": "urn:ahn:work/videoplace",
+      "type": "work",
+      "label_ja": "《Videoplace》",
+      "label_en": "Videoplace",
+      "authority": {
+        "wikidata": "Q132199814",
+        "aat": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": "1974",
+        "end": "1984",
+        "display": "1974年から開発。最初の環境は1975年、計算機系の開発は1984年までとする機関記録に基づく"
+      },
+      "space": [],
+      "relations": [
+        {
+          "type": "created_by",
+          "target": "person/myron-krueger"
+        }
+      ],
+      "sources": [
+        {
+          "url": "http://www.medienkunstnetz.de/works/videoplace/",
+          "kind": "institutional",
+          "note": "Media Art Netの作品記録。年記、最初の環境、開発期間の記述"
+        },
+        {
+          "url": "https://dam.org/museum/artists_ui/artists/krueger-myron/",
+          "kind": "institutional",
+          "note": "Digital Art Museumの作品解説"
+        },
+        {
+          "url": "https://www.si.edu/object/videoplace:25244",
+          "kind": "institutional",
+          "note": "Smithsonian Archives of American Artの1990年映像記録"
+        },
+        {
+          "url": "https://www.wikidata.org/wiki/Q132199814",
+          "kind": "authority"
+        }
+      ],
+      "status": "draft",
+      "updated": "2026-09-14",
+      "path": "entities/works/videoplace.md"
+    },
     "work/vierge-a-l-enfant-previati-1907": {
       "id": "work/vierge-a-l-enfant-previati-1907",
       "uri": "urn:ahn:work/vierge-a-l-enfant-previati-1907",
@@ -94629,6 +94719,13 @@
       "source": null
     },
     {
+      "from": "work/videoplace",
+      "type": "created_by",
+      "to": "person/myron-krueger",
+      "certainty": null,
+      "source": null
+    },
+    {
       "from": "work/vierge-a-l-enfant-previati-1907",
       "type": "created_by",
       "to": "person/gaetano-previati",
@@ -108591,6 +108688,12 @@
       "from": "event/salon-divisionnistes-italiens-paris-1907",
       "type": "exhibited",
       "to": "work/via-crucis-previati-1907",
+      "derived": true
+    },
+    {
+      "from": "person/myron-krueger",
+      "type": "created",
+      "to": "work/videoplace",
       "derived": true
     },
     {
