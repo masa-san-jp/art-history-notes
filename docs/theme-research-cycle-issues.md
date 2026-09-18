@@ -1,5 +1,10 @@
 # theme-research-cycle Phase 2 — 兄弟repoへのIssue下書き
 
+起票済み（2026-09-18、利用者の明示依頼により）:
+P2 → https://github.com/masa-san-jp/agentic-art-research/issues/112 ／
+P1 → https://github.com/masa-san-jp/agentic-art-orchestration/issues/251 。
+起票時に `checks:` は各repoの実在コマンドに置き換えた。以下は起票時点の下書き原本。
+
 `docs/theme-research-cycle.md`（確定v1）§6 の P2（Research・主）と P1（orchestration・補助）を、
 各repoで起票できる形にした下書き。**このrepoからは自動で起票しない**（AAK-04 要件3、AAK-06 要件5）。
 利用者が内容を確認し、対象repoにIssueとして貼る。YAMLは各repoのIssueが既に使っている

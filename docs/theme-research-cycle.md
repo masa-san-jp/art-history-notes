@@ -300,9 +300,10 @@ Issue本文の下書きは本repo側で用意する（Phase 2）。
    衝突は再生成で解消する。
 2. **Phase 1 — owner側（本repo）**: R1（`contract_version`・複数term）、R2（手順書2経路化）、
    R4（config）、R3（雛形、任意）、TR-AC1〜AC6のテスト。task contract v2で実施。
-3. **Phase 2 — 他repoへの要求**: §6 P2（主）・P1（補助）の下書きは
-   `docs/theme-research-cycle-issues.md`（agent-task v2投影、対象repo基準のpath）。起票は利用者操作。
-   P3（reasonへのrecon要約）はP1/P2の要件に含めた。
+3. **Phase 2 — 他repoへの要求（起票済み 2026-09-18）**: §6 P2（主）→
+   agentic-art-research#112、P1（補助）→ agentic-art-orchestration#251。下書き原本は
+   `docs/theme-research-cycle-issues.md`。P3（reasonへのrecon要約）はP1/P2の要件に含めた。
+   本repoのmainへのPRは art-history-notes#395。
 4. **Phase 3 — 実runでの確認**: 実エージェントで1 run通し、receiptと次回exportの証拠を残す（TR-AC7）。
 
 ## 10. 未確認・リスク
