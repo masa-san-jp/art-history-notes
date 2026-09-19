@@ -304,6 +304,9 @@ Issue本文の下書きは本repo側で用意する（Phase 2）。
    agentic-art-research#112、P1（補助）→ agentic-art-orchestration#251。下書き原本は
    `docs/theme-research-cycle-issues.md`。P3（reasonへのrecon要約）はP1/P2の要件に含めた。
    本repoのmainへのPRは art-history-notes#395。
+   **P2は実装済み（2026-09-19、draft PR agentic-art-research#113）**: `tools/theme_research_pass.py`
+   （recon / assemble / write-job、theme-research-pass/v1）。owner側は本repoの
+   `theme_research.py --validate-candidate`（store不要のcandidate検証、#395に含む）で受ける。
 4. **Phase 3 — 実runでの確認**: 実エージェントで1 run通し、receiptと次回exportの証拠を残す（TR-AC7）。
 
 ## 10. 未確認・リスク
