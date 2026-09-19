@@ -190,9 +190,36 @@ def candidate_template(term, recon_result, *, creator, collection, project_id, o
             "existing_target": exact[0] if exact else None, "missing": missing}
 
 
+def validate_candidate_file(candidate_path, snapshots_path=None):
+    """spec §4 [D] の前段: store 無しで既存 intake の validate_candidate を掛ける（read-only）。
+
+    creator / collection は candidate 自身の record から取る（ここで見るのは内部整合だけ。
+    store との照合は intake の prepare/commit が行う）。戻り値は {"ok": bool, ...}。
+    """
+    from research_knowledge_intake import IntakeError, validate_candidate
+    candidate = json.loads(Path(candidate_path).read_text(encoding="utf-8"))
+    snapshots = json.loads(Path(snapshots_path).read_text(encoding="utf-8")) if snapshots_path else None
+    record = candidate.get("record") if isinstance(candidate, dict) else None
+    if not isinstance(record, dict):
+        return {"ok": False, "errors": ["candidate must contain record and payload"]}
+    try:
+        validate_candidate(candidate, creator=record.get("creator_id"), collection=record.get("collection_id"),
+                           snapshots=snapshots)
+    except (IntakeError, KeyError, TypeError, ValueError, OSError) as exc:
+        return {"ok": False, "errors": [str(exc) or type(exc).__name__]}
+    return {"ok": True, "target_id": candidate["payload"]["target_id"],
+            "classification": candidate["payload"]["classification"],
+            "n_source_reads": len(candidate["payload"]["source_reads"])}
+
+
 def main():
     p = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
-    p.add_argument("--theme", required=True, action="append",
+    p.add_argument("--validate-candidate", type=Path, metavar="CANDIDATE_JSON",
+                   help="candidate.json を既存 intake の validate_candidate に掛けて {ok, errors} を出す（store 不要・read-only）。"
+                        "invalid なら exit 1")
+    p.add_argument("--source-snapshots", type=Path, metavar="MAP_JSON",
+                   help="--validate-candidate 用: URL→snapshot file の対応 JSON")
+    p.add_argument("--theme", action="append",
                    help="調べたい語（人名・movement名・地域名など、自由記述）。複数回指定できる")
     p.add_argument("--json", action="store_true", help="JSON で出す（他ツール・エージェントからの呼び出し用）")
     p.add_argument("--budget", type=Path, default=BUDGET_PATH, help="予算ファイル（theme-research-budget/v1）")
@@ -202,9 +229,14 @@ def main():
     p.add_argument("--origin-instance-id"); p.add_argument("--run-id")
     a = p.parse_args()
 
-    terms = [t for t in a.theme if t and t.strip()]
+    if a.validate_candidate:
+        result = validate_candidate_file(a.validate_candidate, a.source_snapshots)
+        print(json.dumps(result, ensure_ascii=False, indent=2))
+        return 0 if result["ok"] else 1
+
+    terms = [t for t in (a.theme or []) if t and t.strip()]
     if not terms:
-        p.error("--theme が空")
+        p.error("--theme が空（または --validate-candidate を指定する）")
     budget = load_budget(a.budget)
     limit = budget["per_run"]["max_theme_terms"]
     truncated = terms[limit:]

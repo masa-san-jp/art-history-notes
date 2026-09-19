@@ -168,6 +168,50 @@ class ThemeResearchTest(unittest.TestCase):
         self.assertIsNone(out["existing_target"])
         self.assertTrue(any("dedupe" in m for m in out["missing"]))
 
+    def filled_candidate(self):
+        from tools.research_knowledge_intake import canonical, digest
+        candidate = self.template()["candidate"]
+        snapshot = Path(self.temp.name) / "source.txt"
+        raw = b"Synthetic catalogue passage. Not an actual historical source."
+        snapshot.write_bytes(raw)
+        candidate["payload"]["statement"] = "Synthetic observation for the contract test."
+        candidate["payload"]["source_reads"] = [{
+            "url": "https://example.org/synthetic", "content_sha256": digest(raw),
+            "locator": "p.1", "start": 0, "end": 9, "slice_sha256": digest(raw[0:9]),
+        }]
+        candidate["record"]["consent_ref"] = "consent/synthetic"
+        candidate["record"]["content_sha256"] = digest(canonical(candidate["payload"]))
+        return candidate, {"https://example.org/synthetic": str(snapshot)}
+
+    def test_validate_candidate_file_reports_ok_and_errors(self):
+        candidate, snapshots = self.filled_candidate()
+        cpath = Path(self.temp.name) / "candidate.json"; spath = Path(self.temp.name) / "snapshots.json"
+        cpath.write_text(json.dumps(candidate, ensure_ascii=False), encoding="utf-8")
+        spath.write_text(json.dumps(snapshots), encoding="utf-8")
+        ok = theme_research.validate_candidate_file(cpath, spath)
+        self.assertTrue(ok["ok"], ok)
+        self.assertEqual(ok["target_id"], "movement/mughal-painting")
+        # 未読の出典（snapshot 無し）は拒否される
+        bad = theme_research.validate_candidate_file(cpath, None)
+        self.assertFalse(bad["ok"])
+        self.assertTrue(bad["errors"])
+
+    def test_validate_candidate_cli_exit_code(self):
+        candidate, snapshots = self.filled_candidate()
+        cpath = Path(self.temp.name) / "candidate.json"; spath = Path(self.temp.name) / "snapshots.json"
+        cpath.write_text(json.dumps(candidate, ensure_ascii=False), encoding="utf-8")
+        spath.write_text(json.dumps(snapshots), encoding="utf-8")
+        with mock.patch("sys.argv", ["theme_research.py", "--validate-candidate", str(cpath),
+                                     "--source-snapshots", str(spath)]):
+            out = io.StringIO()
+            with contextlib.redirect_stdout(out):
+                self.assertEqual(theme_research.main(), 0)
+        self.assertTrue(json.loads(out.getvalue())["ok"])
+        with mock.patch("sys.argv", ["theme_research.py", "--validate-candidate", str(cpath)]):
+            out = io.StringIO()
+            with contextlib.redirect_stdout(out):
+                self.assertEqual(theme_research.main(), 1)
+
     def test_filled_template_is_accepted_by_intake_validator(self):
         """穴を埋めれば既存 intake の validate_candidate をそのまま通る（骨格が契約と一致している証拠）。"""
         from tools.research_knowledge_intake import canonical, digest, validate_candidate
