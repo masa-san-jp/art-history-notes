@@ -1,5 +1,5 @@
 ---
-as_of: 2026-08-25
+as_of: 2026-09-15
 depends_on:
   - concept/hurufiyya
   - concept/ukiyo-e

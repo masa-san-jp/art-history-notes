@@ -3,34 +3,43 @@
   "findings": [],
   "cross_region": {
     "schema_version": 1,
-    "movement_total": 119,
+    "movement_total": 180,
     "counts": {
-      "connected": 75,
-      "reviewed-no-documented-link": 44,
+      "connected": 111,
+      "reviewed-no-documented-link": 69,
       "unreviewed": 0
     },
     "connected": [
       "movement/abstract-expressionism",
+      "movement/akan-goldweights",
       "movement/an-gyeon-school",
       "movement/antropofagia",
       "movement/art-et-liberte",
       "movement/art-nouveau",
       "movement/arte-madi",
       "movement/asmat-carving",
+      "movement/bagan-art",
       "movement/baghdad-modern-art-group",
       "movement/baghdad-school-of-illustration",
+      "movement/bamum-art",
       "movement/bandung-school",
+      "movement/bark-painting",
       "movement/basohli-painting",
       "movement/bauhaus",
       "movement/bengal-school",
       "movement/benin-court-art",
       "movement/bombay-progressive-artists-group",
+      "movement/champa-art",
+      "movement/chola-bronzes",
       "movement/company-painting",
+      "movement/computer-art",
+      "movement/conceptual-art",
       "movement/cubo-futurism",
       "movement/cusco-school",
       "movement/dada",
       "movement/dansaekhwa",
       "movement/deccan-painting",
+      "movement/east-javanese-kawi-inscriptions",
       "movement/ecole-de-dakar",
       "movement/ecole-de-tunis",
       "movement/fauvism",
@@ -39,32 +48,49 @@
       "movement/gothic-art",
       "movement/group-of-seven",
       "movement/gutai",
+      "movement/hawaiian-featherwork",
       "movement/herat-school",
+      "movement/hoysala-art",
       "movement/hudson-river-school",
       "movement/iatmul-carving",
       "movement/ife-art",
+      "movement/igbo-ukwu-bronze",
       "movement/impressionism",
+      "movement/inca-art",
       "movement/indigenismo",
       "movement/indochina-lacquer-painting",
       "movement/jingyeong-sansuhwa",
       "movement/joseon-genre-painting",
+      "movement/kalighat-painting",
       "movement/kanga",
       "movement/kangra-painting",
       "movement/kano-school",
+      "movement/khmer-art",
+      "movement/kilwa-swahili-architecture",
+      "movement/kokand-khanate-art",
+      "movement/kongo-christian-art",
       "movement/lingnan-school",
+      "movement/mamluk-art",
+      "movement/marquesan-tiki",
       "movement/maruyama-shijo-school",
       "movement/mavo",
       "movement/menri-school",
       "movement/mewar-painting",
       "movement/mingei",
+      "movement/missao-artistica-francesa",
+      "movement/moai",
+      "movement/mongol-zurag",
       "movement/mughal-painting",
       "movement/nanga",
+      "movement/ndop",
       "movement/negritude",
       "movement/neo-impressionism",
       "movement/neoconcretismo",
       "movement/ngati-tarawhai-whakairo",
       "movement/nok-sculpture",
       "movement/novgorod-school-icon-painting",
+      "movement/ottoman-westernization-painting",
+      "movement/pala-art",
       "movement/papunya-tula",
       "movement/peredvizhniki",
       "movement/pita-maha",
@@ -72,62 +98,97 @@
       "movement/poto-poto-school",
       "movement/qajar-painting",
       "movement/quito-school",
+      "movement/rai-stones",
       "movement/rattanakosin-mural-painting",
       "movement/renaissance",
       "movement/safavid-painting",
+      "movement/serbian-baroque-painting",
       "movement/sienese-school",
+      "movement/srivijaya-art",
+      "movement/sukhothai-art",
+      "movement/suzani",
       "movement/symbolism",
+      "movement/talavera-poblana",
       "movement/tanjore-painting",
+      "movement/tarnovo-artistic-school",
       "movement/thirteen-moderns",
+      "movement/tongan-ngatu",
       "movement/tosa-school",
       "movement/venetian-school",
+      "movement/vijayanagara-art",
       "movement/yamato-e",
       "movement/yangzhou-eccentrics",
       "movement/zanabazar-school",
-      "movement/zaria-art-society"
+      "movement/zaria-art-society",
+      "movement/zimbabwe-stone-architecture"
     ],
     "reviewed_no_documented_link": [
+      "movement/ai-bigeiken",
+      "movement/alaouite-imperial-architecture",
       "movement/arts-and-crafts",
       "movement/bamana-sculpture",
       "movement/barbizon-school",
       "movement/baroque",
+      "movement/barroco-mineiro",
+      "movement/brancovenesc-art",
       "movement/byzantine-art",
+      "movement/coffin-portrait",
+      "movement/colonial-limner-painting",
       "movement/constructivism",
       "movement/cubism",
       "movement/de-stijl",
       "movement/dong-ho-painting",
+      "movement/early-ottoman-architecture",
       "movement/expressionism",
       "movement/four-wangs",
       "movement/futurism",
+      "movement/golden-horde-art",
+      "movement/gujarat-sultanate-architecture",
       "movement/harlem-renaissance",
       "movement/italian-divisionism",
       "movement/jain-manuscript-painting",
       "movement/jinling-eight-masters",
+      "movement/kakatiya-art",
       "movement/kamasan-painting",
       "movement/karma-gardri",
       "movement/khyenri-school",
+      "movement/kisalian-culture-art",
       "movement/kowhaiwhai",
+      "movement/lan-xang-art",
       "movement/lapita-pottery",
+      "movement/latte-stone-architecture",
       "movement/literati-painting",
       "movement/makonde-carving",
+      "movement/malacca-sultanate-art",
       "movement/mandalay-style",
       "movement/mannerism",
+      "movement/melayu-mauli-buddhist-art",
       "movement/mexican-muralism",
       "movement/mono-ha",
+      "movement/moscow-school-icon-painting",
+      "movement/muhammad-ali-mosque-architecture",
+      "movement/nan-madol-architecture",
       "movement/neoclassicism",
       "movement/newar-art",
       "movement/nihonga",
       "movement/northwest-coast-carving",
       "movement/ottoman-miniature",
+      "movement/pa-fortification-architecture",
       "movement/realism",
       "movement/rinpa",
       "movement/rococo",
+      "movement/santero",
       "movement/shanghai-school",
       "movement/shiraz-school",
       "movement/song-academy-painting",
       "movement/songjiang-school",
+      "movement/southeastern-ceremonial-complex",
+      "movement/stroganov-school",
+      "movement/sudano-sahelian-architecture",
       "movement/suprematism",
       "movement/surrealism",
+      "movement/tongan-langi-architecture",
+      "movement/ukrainian-baroque",
       "movement/utagawa-school",
       "movement/wu-school",
       "movement/zhe-school"
@@ -176,6 +237,89 @@
           "2経路で起源region外へ到達"
         ],
         "review": null
+      },
+      {
+        "movement_id": "movement/ai-bigeiken",
+        "status": "reviewed-no-documented-link",
+        "origin_regions": [],
+        "routes": [],
+        "reasons": [
+          "2026-09-15時点で、movement→movement relation、movement→placeのdiffused_to、space.active_in、movement→event/orgのexhibited_at→held_at/sited_inの4経路を、当該movementに登録された資料を対象に確認した。発起人29名のうち27名の氏名・発足地の都市自体が公式サイトから特定できず（originated_inは空欄で発生地未確認）、公式サイトが記録する展覧会「人工知能美学芸術展」（2017-18年、沖縄科学技術大学院大学）も国内会場である。海外への書籍販売の事実は確認できるが、venueへのexhibited_atやplaceへのdiffused_toに当たる資料化された接続ではない。起源regionが未確定であることを含め、4経路による域外接続は確認できない。"
+        ],
+        "review": {
+          "movement_id": "movement/ai-bigeiken",
+          "status": "no-documented-cross-region-relation",
+          "checked": "2026-09-15",
+          "note": "2026-09-15時点で、movement→movement relation、movement→placeのdiffused_to、space.active_in、movement→event/orgのexhibited_at→held_at/sited_inの4経路を、当該movementに登録された資料を対象に確認した。発起人29名のうち27名の氏名・発足地の都市自体が公式サイトから特定できず（originated_inは空欄で発生地未確認）、公式サイトが記録する展覧会「人工知能美学芸術展」（2017-18年、沖縄科学技術大学院大学）も国内会場である。海外への書籍販売の事実は確認できるが、venueへのexhibited_atやplaceへのdiffused_toに当たる資料化された接続ではない。起源regionが未確定であることを含め、4経路による域外接続は確認できない。",
+          "sources": [
+            "https://www.aibigeiken.com/",
+            "http://aloalo.co.jp/nakazawa/2016/0501b_j.html"
+          ]
+        }
+      },
+      {
+        "movement_id": "movement/akan-goldweights",
+        "status": "connected",
+        "origin_regions": [
+          "africa-sub"
+        ],
+        "routes": [
+          {
+            "kind": "diffused-to-place",
+            "edges": [
+              {
+                "from": "movement/akan-goldweights",
+                "type": "diffused_to",
+                "to": "place/london",
+                "certainty": "scholarly",
+                "source": "http://www.britishmuseum.org/research/online_research_catalogues/agw/african_gold-weights/origins_and_history.aspx"
+              }
+            ],
+            "destination_regions": [
+              "europe-west"
+            ]
+          },
+          {
+            "kind": "diffused-to-place",
+            "edges": [
+              {
+                "from": "movement/akan-goldweights",
+                "type": "diffused_to",
+                "to": "place/new-york-city",
+                "certainty": "scholarly",
+                "source": "https://www.metmuseum.org/art/collection/search/312390"
+              }
+            ],
+            "destination_regions": [
+              "americas-north"
+            ]
+          }
+        ],
+        "reasons": [
+          "2経路で起源region外へ到達"
+        ],
+        "review": null
+      },
+      {
+        "movement_id": "movement/alaouite-imperial-architecture",
+        "status": "reviewed-no-documented-link",
+        "origin_regions": [
+          "mena"
+        ],
+        "routes": [],
+        "reasons": [
+          "2026-09-16時点で、movement→movement relation、movement→placeのdiffused_to、space.active_in、movement→event/orgのexhibited_at→held_at/sited_inの4経路を、当該movementに登録された資料を対象に確認した。ルイ14世からの外交贈答品（時計）がメクネスに現存する記録は見つけたが、これはフランスからモロッコへの一方向の贈答であり、本movement自体がeurope-westへ拡散した記録ではない。起源region外への文書化された接続は現時点で確認できない。"
+        ],
+        "review": {
+          "movement_id": "movement/alaouite-imperial-architecture",
+          "status": "no-documented-cross-region-relation",
+          "checked": "2026-09-16",
+          "note": "2026-09-16時点で、movement→movement relation、movement→placeのdiffused_to、space.active_in、movement→event/orgのexhibited_at→held_at/sited_inの4経路を、当該movementに登録された資料を対象に確認した。ルイ14世からの外交贈答品（時計）がメクネスに現存する記録は見つけたが、これはフランスからモロッコへの一方向の贈答であり、本movement自体がeurope-westへ拡散した記録ではない。起源region外への文書化された接続は現時点で確認できない。",
+          "sources": [
+            "https://www.wikidata.org/wiki/Q178663",
+            "https://en.wikipedia.org/wiki/Meknes"
+          ]
+        }
       },
       {
         "movement_id": "movement/an-gyeon-school",
@@ -412,6 +556,34 @@
         "review": null
       },
       {
+        "movement_id": "movement/bagan-art",
+        "status": "connected",
+        "origin_regions": [
+          "asia-southeast"
+        ],
+        "routes": [
+          {
+            "kind": "diffused-to-place",
+            "edges": [
+              {
+                "from": "movement/bagan-art",
+                "type": "diffused_to",
+                "to": "place/new-york-city",
+                "certainty": "scholarly",
+                "source": "https://www.metmuseum.org/art/collection/search/39188"
+              }
+            ],
+            "destination_regions": [
+              "americas-north"
+            ]
+          }
+        ],
+        "reasons": [
+          "1経路で起源region外へ到達"
+        ],
+        "review": null
+      },
+      {
         "movement_id": "movement/baghdad-modern-art-group",
         "status": "connected",
         "origin_regions": [
@@ -504,6 +676,49 @@
         }
       },
       {
+        "movement_id": "movement/bamum-art",
+        "status": "connected",
+        "origin_regions": [
+          "africa-sub"
+        ],
+        "routes": [
+          {
+            "kind": "diffused-to-place",
+            "edges": [
+              {
+                "from": "movement/bamum-art",
+                "type": "diffused_to",
+                "to": "place/berlin",
+                "certainty": "scholarly",
+                "source": "https://www.smb.museum/en/museums-institutions/ethnologisches-museum/collection-research/focus-on-collection-holdings/mandu-yenu-the-royal-throne-of-bamum/"
+              }
+            ],
+            "destination_regions": [
+              "europe-west"
+            ]
+          },
+          {
+            "kind": "diffused-to-place",
+            "edges": [
+              {
+                "from": "movement/bamum-art",
+                "type": "diffused_to",
+                "to": "place/paris",
+                "certainty": "scholarly",
+                "source": "https://www.smb.museum/en/museums-institutions/ethnologisches-museum/collection-research/focus-on-collection-holdings/mandu-yenu-the-royal-throne-of-bamum/"
+              }
+            ],
+            "destination_regions": [
+              "europe-west"
+            ]
+          }
+        ],
+        "reasons": [
+          "2経路で起源region外へ到達"
+        ],
+        "review": null
+      },
+      {
         "movement_id": "movement/bandung-school",
         "status": "connected",
         "origin_regions": [
@@ -553,6 +768,34 @@
         }
       },
       {
+        "movement_id": "movement/bark-painting",
+        "status": "connected",
+        "origin_regions": [
+          "oceania"
+        ],
+        "routes": [
+          {
+            "kind": "diffused-to-place",
+            "edges": [
+              {
+                "from": "movement/bark-painting",
+                "type": "diffused_to",
+                "to": "place/new-york-city",
+                "certainty": "scholarly",
+                "source": "https://www.metmuseum.org/art/collection/search/313650"
+              }
+            ],
+            "destination_regions": [
+              "americas-north"
+            ]
+          }
+        ],
+        "reasons": [
+          "1経路で起源region外へ到達"
+        ],
+        "review": null
+      },
+      {
         "movement_id": "movement/baroque",
         "status": "reviewed-no-documented-link",
         "origin_regions": [
@@ -570,6 +813,27 @@
           "sources": [
             "https://www.metmuseum.org/ko/essays/baroque-rome",
             "https://www.wikidata.org/wiki/Q37853"
+          ]
+        }
+      },
+      {
+        "movement_id": "movement/barroco-mineiro",
+        "status": "reviewed-no-documented-link",
+        "origin_regions": [
+          "americas-latin"
+        ],
+        "routes": [],
+        "reasons": [
+          "2026-09-15時点で、movement→movement relation、movement→placeのdiffused_to、space.active_in、movement→event/orgのexhibited_at→held_at/sited_inの4経路を、当該movementに登録された資料を対象に確認した。アレイジャジーニョらの作品はほぼ全てミナスジェライス州内に残っており、海外の美術館収蔵などamericas-latin外への文書化された接続は確認できない。"
+        ],
+        "review": {
+          "movement_id": "movement/barroco-mineiro",
+          "status": "no-documented-cross-region-relation",
+          "checked": "2026-09-15",
+          "note": "2026-09-15時点で、movement→movement relation、movement→placeのdiffused_to、space.active_in、movement→event/orgのexhibited_at→held_at/sited_inの4経路を、当該movementに登録された資料を対象に確認した。アレイジャジーニョらの作品はほぼ全てミナスジェライス州内に残っており、海外の美術館収蔵などamericas-latin外への文書化された接続は確認できない。",
+          "sources": [
+            "https://www.wikidata.org/wiki/Q16142974",
+            "https://en.wikipedia.org/wiki/Aleijadinho"
           ]
         }
       },
@@ -729,6 +993,27 @@
         "review": null
       },
       {
+        "movement_id": "movement/brancovenesc-art",
+        "status": "reviewed-no-documented-link",
+        "origin_regions": [
+          "europe-east"
+        ],
+        "routes": [],
+        "reasons": [
+          "2026-09-16時点で、movement→movement relation、movement→placeのdiffused_to、space.active_in、movement→event/orgのexhibited_at→held_at/sited_inの4経路を、当該movementに登録された資料を対象に確認した。建築中心の様式であり可動作品の海外収蔵自体が想定しにくく、起源region外への文書化された接続は確認できない。"
+        ],
+        "review": {
+          "movement_id": "movement/brancovenesc-art",
+          "status": "no-documented-cross-region-relation",
+          "checked": "2026-09-16",
+          "note": "2026-09-16時点で、movement→movement relation、movement→placeのdiffused_to、space.active_in、movement→event/orgのexhibited_at→held_at/sited_inの4経路を、当該movementに登録された資料を対象に確認した。建築中心の様式であり可動作品の海外収蔵自体が想定しにくく、起源region外への文書化された接続は確認できない。",
+          "sources": [
+            "https://www.wikidata.org/wiki/Q460596",
+            "https://en.wikipedia.org/wiki/Br%C3%A2ncovenesc_art"
+          ]
+        }
+      },
+      {
         "movement_id": "movement/byzantine-art",
         "status": "reviewed-no-documented-link",
         "origin_regions": [
@@ -750,6 +1035,119 @@
         }
       },
       {
+        "movement_id": "movement/champa-art",
+        "status": "connected",
+        "origin_regions": [
+          "asia-southeast"
+        ],
+        "routes": [
+          {
+            "kind": "diffused-to-place",
+            "edges": [
+              {
+                "from": "movement/champa-art",
+                "type": "diffused_to",
+                "to": "place/paris",
+                "certainty": "scholarly",
+                "source": "https://www.guimet.fr/fr/la-sculpture-du-champa-tresors-dart-du-vietnam-ve-xve-siecles"
+              }
+            ],
+            "destination_regions": [
+              "europe-west"
+            ]
+          }
+        ],
+        "reasons": [
+          "1経路で起源region外へ到達"
+        ],
+        "review": null
+      },
+      {
+        "movement_id": "movement/chola-bronzes",
+        "status": "connected",
+        "origin_regions": [
+          "asia-south"
+        ],
+        "routes": [
+          {
+            "kind": "diffused-to-place",
+            "edges": [
+              {
+                "from": "movement/chola-bronzes",
+                "type": "diffused_to",
+                "to": "place/london",
+                "certainty": "scholarly",
+                "source": "https://www.bmimages.com/preview.asp?image=00033974001"
+              }
+            ],
+            "destination_regions": [
+              "europe-west"
+            ]
+          },
+          {
+            "kind": "diffused-to-place",
+            "edges": [
+              {
+                "from": "movement/chola-bronzes",
+                "type": "diffused_to",
+                "to": "place/new-york-city",
+                "certainty": "scholarly",
+                "source": "https://www.metmuseum.org/art/collection/search/39328"
+              }
+            ],
+            "destination_regions": [
+              "americas-north"
+            ]
+          }
+        ],
+        "reasons": [
+          "2経路で起源region外へ到達"
+        ],
+        "review": null
+      },
+      {
+        "movement_id": "movement/coffin-portrait",
+        "status": "reviewed-no-documented-link",
+        "origin_regions": [
+          "europe-east"
+        ],
+        "routes": [],
+        "reasons": [
+          "2026-09-15時点で、movement→movement relation、movement→placeのdiffused_to、space.active_in、movement→event/orgのexhibited_at→held_at/sited_inの4経路を、当該movementに登録された資料を対象に確認した。ポーランド・リトアニア共和国以外でこの形式の肖像画は作られなかったとされ、海外美術館収蔵などeurope-east外への文書化された接続は確認できない。"
+        ],
+        "review": {
+          "movement_id": "movement/coffin-portrait",
+          "status": "no-documented-cross-region-relation",
+          "checked": "2026-09-15",
+          "note": "2026-09-15時点で、movement→movement relation、movement→placeのdiffused_to、space.active_in、movement→event/orgのexhibited_at→held_at/sited_inの4経路を、当該movementに登録された資料を対象に確認した。ポーランド・リトアニア共和国以外でこの形式の肖像画は作られなかったとされ、海外美術館収蔵などeurope-east外への文書化された接続は確認できない。",
+          "sources": [
+            "https://www.wikidata.org/wiki/Q1542239",
+            "https://en.wikipedia.org/wiki/Coffin_portrait"
+          ]
+        }
+      },
+      {
+        "movement_id": "movement/colonial-limner-painting",
+        "status": "reviewed-no-documented-link",
+        "origin_regions": [
+          "americas-north"
+        ],
+        "routes": [],
+        "reasons": [
+          "2026-09-15時点で、movement→movement relation、movement→placeのdiffused_to、space.active_in、movement→event/orgのexhibited_at→held_at/sited_inの4経路を、当該movementに登録された資料を対象に確認した。フリーク＝ギブス画家らボストンのリムナーはイギリスのエリザベス朝〜初期バロック様式の影響を受けたとされるが、その影響元をmovementエンティティとして登録しておらず、relationsに接続先がない。植民地内での地方への伝播はあり得るが、起源regionと同じamericas-north内にとどまるため4経路の対象にならない。起源region外への文書化された接続は現時点で確認できない。"
+        ],
+        "review": {
+          "movement_id": "movement/colonial-limner-painting",
+          "status": "no-documented-cross-region-relation",
+          "checked": "2026-09-15",
+          "note": "2026-09-15時点で、movement→movement relation、movement→placeのdiffused_to、space.active_in、movement→event/orgのexhibited_at→held_at/sited_inの4経路を、当該movementに登録された資料を対象に確認した。フリーク＝ギブス画家らボストンのリムナーはイギリスのエリザベス朝〜初期バロック様式の影響を受けたとされるが、その影響元をmovementエンティティとして登録しておらず、relationsに接続先がない。植民地内での地方への伝播はあり得るが、起源regionと同じamericas-north内にとどまるため4経路の対象にならない。起源region外への文書化された接続は現時点で確認できない。",
+          "sources": [
+            "https://www.wikidata.org/wiki/Q1825525",
+            "https://en.wikipedia.org/wiki/Freake_Painter"
+          ]
+        }
+      },
+      {
         "movement_id": "movement/company-painting",
         "status": "connected",
         "origin_regions": [
@@ -765,6 +1163,65 @@
                 "to": "movement/realism",
                 "certainty": "hypothesis",
                 "source": "https://www.metmuseum.org/fr/essays/company-painting-in-nineteenth-century-india"
+              }
+            ],
+            "destination_regions": [
+              "europe-west"
+            ]
+          }
+        ],
+        "reasons": [
+          "1経路で起源region外へ到達"
+        ],
+        "review": null
+      },
+      {
+        "movement_id": "movement/computer-art",
+        "status": "connected",
+        "origin_regions": [
+          "europe-west"
+        ],
+        "routes": [
+          {
+            "kind": "active-in-place",
+            "edges": [
+              {
+                "from": "movement/computer-art",
+                "type": "active_in",
+                "to": "place/la-jolla"
+              }
+            ],
+            "destination_regions": [
+              "americas-north"
+            ]
+          }
+        ],
+        "reasons": [
+          "1経路で起源region外へ到達"
+        ],
+        "review": null
+      },
+      {
+        "movement_id": "movement/conceptual-art",
+        "status": "connected",
+        "origin_regions": [
+          "americas-north"
+        ],
+        "routes": [
+          {
+            "kind": "exhibited-at-place",
+            "edges": [
+              {
+                "from": "movement/conceptual-art",
+                "type": "exhibited_at",
+                "to": "event/documenta-5-1972",
+                "certainty": "attested",
+                "source": "https://www.documenta.de/en/retrospective/documenta_5"
+              },
+              {
+                "from": "event/documenta-5-1972",
+                "type": "held_at",
+                "to": "place/kassel"
               }
             ],
             "destination_regions": [
@@ -1046,6 +1503,55 @@
         }
       },
       {
+        "movement_id": "movement/early-ottoman-architecture",
+        "status": "reviewed-no-documented-link",
+        "origin_regions": [
+          "mena"
+        ],
+        "routes": [],
+        "reasons": [
+          "2026-09-16時点で、movement→movement relation、movement→placeのdiffused_to、space.active_in、movement→event/orgのexhibited_at→held_at/sited_inの4経路を、当該movementに登録された資料を対象に確認した。建築中心の様式であり可動作品の海外収蔵自体が想定しにくく、起源region外への文書化された接続は確認できない。"
+        ],
+        "review": {
+          "movement_id": "movement/early-ottoman-architecture",
+          "status": "no-documented-cross-region-relation",
+          "checked": "2026-09-16",
+          "note": "2026-09-16時点で、movement→movement relation、movement→placeのdiffused_to、space.active_in、movement→event/orgのexhibited_at→held_at/sited_inの4経路を、当該movementに登録された資料を対象に確認した。建築中心の様式であり可動作品の海外収蔵自体が想定しにくく、起源region外への文書化された接続は確認できない。",
+          "sources": [
+            "https://www.wikidata.org/wiki/Q1549086",
+            "https://en.wikipedia.org/wiki/Green_Mosque,_Bursa"
+          ]
+        }
+      },
+      {
+        "movement_id": "movement/east-javanese-kawi-inscriptions",
+        "status": "connected",
+        "origin_regions": [
+          "asia-southeast"
+        ],
+        "routes": [
+          {
+            "kind": "diffused-to-place",
+            "edges": [
+              {
+                "from": "movement/east-javanese-kawi-inscriptions",
+                "type": "diffused_to",
+                "to": "place/kolkata",
+                "certainty": "scholarly",
+                "source": "https://en.wikipedia.org/wiki/Calcutta_Stone"
+              }
+            ],
+            "destination_regions": [
+              "asia-south"
+            ]
+          }
+        ],
+        "reasons": [
+          "1経路で起源region外へ到達"
+        ],
+        "review": null
+      },
+      {
         "movement_id": "movement/ecole-de-dakar",
         "status": "connected",
         "origin_regions": [
@@ -1206,6 +1712,27 @@
         }
       },
       {
+        "movement_id": "movement/golden-horde-art",
+        "status": "reviewed-no-documented-link",
+        "origin_regions": [
+          "europe-east"
+        ],
+        "routes": [],
+        "reasons": [
+          "2026-09-16時点で、movement→movement relation、movement→placeのdiffused_to、space.active_in、movement→event/orgのexhibited_at→held_at/sited_inの4経路を、当該movementに登録された資料を対象に確認した。エルミタージュ美術館・国立歴史博物館（いずれもロシア国内、europe-east）の収蔵は確認できたが、europe-east外への文書化された接続は現時点で確認できない。"
+        ],
+        "review": {
+          "movement_id": "movement/golden-horde-art",
+          "status": "no-documented-cross-region-relation",
+          "checked": "2026-09-16",
+          "note": "2026-09-16時点で、movement→movement relation、movement→placeのdiffused_to、space.active_in、movement→event/orgのexhibited_at→held_at/sited_inの4経路を、当該movementに登録された資料を対象に確認した。エルミタージュ美術館・国立歴史博物館（いずれもロシア国内、europe-east）の収蔵は確認できたが、europe-east外への文書化された接続は現時点で確認できない。",
+          "sources": [
+            "https://www.wikidata.org/wiki/Q79965",
+            "https://en.wikipedia.org/wiki/Golden_Horde"
+          ]
+        }
+      },
+      {
         "movement_id": "movement/gondarine-church-painting",
         "status": "connected",
         "origin_regions": [
@@ -1333,6 +1860,27 @@
         "review": null
       },
       {
+        "movement_id": "movement/gujarat-sultanate-architecture",
+        "status": "reviewed-no-documented-link",
+        "origin_regions": [
+          "asia-south"
+        ],
+        "routes": [],
+        "reasons": [
+          "2026-09-16時点で、movement→movement relation、movement→placeのdiffused_to、space.active_in、movement→event/orgのexhibited_at→held_at/sited_inの4経路を、当該movementに登録された資料を対象に確認した。ヴィクトリア＆アルバート博物館所蔵のグジャラート産工芸品は確認できたが、いずれもスルターン朝独立期（〜1573年）ではなくムガル支配下（1573年以降）に制作された可能性が高く、本項の範囲との対応を確認できなかったため接続には数えていない。起源region外への文書化された接続は現時点で確認できない。"
+        ],
+        "review": {
+          "movement_id": "movement/gujarat-sultanate-architecture",
+          "status": "no-documented-cross-region-relation",
+          "checked": "2026-09-16",
+          "note": "2026-09-16時点で、movement→movement relation、movement→placeのdiffused_to、space.active_in、movement→event/orgのexhibited_at→held_at/sited_inの4経路を、当該movementに登録された資料を対象に確認した。ヴィクトリア＆アルバート博物館所蔵のグジャラート産工芸品は確認できたが、いずれもスルターン朝独立期（〜1573年）ではなくムガル支配下（1573年以降）に制作された可能性が高く、本項の範囲との対応を確認できなかったため接続には数えていない。起源region外への文書化された接続は現時点で確認できない。",
+          "sources": [
+            "https://www.wikidata.org/wiki/Q507796",
+            "https://en.wikipedia.org/wiki/Gujarat_Sultanate"
+          ]
+        }
+      },
+      {
         "movement_id": "movement/gutai",
         "status": "connected",
         "origin_regions": [
@@ -1380,6 +1928,34 @@
             "https://www.jstor.org/stable/i40051482"
           ]
         }
+      },
+      {
+        "movement_id": "movement/hawaiian-featherwork",
+        "status": "connected",
+        "origin_regions": [
+          "oceania"
+        ],
+        "routes": [
+          {
+            "kind": "diffused-to-place",
+            "edges": [
+              {
+                "from": "movement/hawaiian-featherwork",
+                "type": "diffused_to",
+                "to": "place/london",
+                "certainty": "scholarly",
+                "source": "https://en.wikipedia.org/wiki/%CA%BBAhu_%CA%BBula"
+              }
+            ],
+            "destination_regions": [
+              "europe-west"
+            ]
+          }
+        ],
+        "reasons": [
+          "1経路で起源region外へ到達"
+        ],
+        "review": null
       },
       {
         "movement_id": "movement/herat-school",
@@ -1436,6 +2012,34 @@
         ],
         "reasons": [
           "3経路で起源region外へ到達"
+        ],
+        "review": null
+      },
+      {
+        "movement_id": "movement/hoysala-art",
+        "status": "connected",
+        "origin_regions": [
+          "asia-south"
+        ],
+        "routes": [
+          {
+            "kind": "diffused-to-place",
+            "edges": [
+              {
+                "from": "movement/hoysala-art",
+                "type": "diffused_to",
+                "to": "place/london",
+                "certainty": "scholarly",
+                "source": "https://www.britishmuseum.org/collection/object/A_1967-1016-1"
+              }
+            ],
+            "destination_regions": [
+              "europe-west"
+            ]
+          }
+        ],
+        "reasons": [
+          "1経路で起源region外へ到達"
         ],
         "review": null
       },
@@ -1524,6 +2128,34 @@
         "review": null
       },
       {
+        "movement_id": "movement/igbo-ukwu-bronze",
+        "status": "connected",
+        "origin_regions": [
+          "africa-sub"
+        ],
+        "routes": [
+          {
+            "kind": "diffused-to-place",
+            "edges": [
+              {
+                "from": "movement/igbo-ukwu-bronze",
+                "type": "diffused_to",
+                "to": "place/london",
+                "certainty": "scholarly",
+                "source": "https://en.wikipedia.org/wiki/Igbo-Ukwu"
+              }
+            ],
+            "destination_regions": [
+              "europe-west"
+            ]
+          }
+        ],
+        "reasons": [
+          "1経路で起源region外へ到達"
+        ],
+        "review": null
+      },
+      {
         "movement_id": "movement/impressionism",
         "status": "connected",
         "origin_regions": [
@@ -1563,6 +2195,34 @@
         ],
         "reasons": [
           "2経路で起源region外へ到達"
+        ],
+        "review": null
+      },
+      {
+        "movement_id": "movement/inca-art",
+        "status": "connected",
+        "origin_regions": [
+          "americas-latin"
+        ],
+        "routes": [
+          {
+            "kind": "diffused-to-place",
+            "edges": [
+              {
+                "from": "movement/inca-art",
+                "type": "diffused_to",
+                "to": "place/new-york-city",
+                "certainty": "scholarly",
+                "source": "https://www.metmuseum.org/art/collection/search/751901"
+              }
+            ],
+            "destination_regions": [
+              "americas-north"
+            ]
+          }
+        ],
+        "reasons": [
+          "1経路で起源region外へ到達"
         ],
         "review": null
       },
@@ -1742,6 +2402,70 @@
         "review": null
       },
       {
+        "movement_id": "movement/kakatiya-art",
+        "status": "reviewed-no-documented-link",
+        "origin_regions": [
+          "asia-south"
+        ],
+        "routes": [],
+        "reasons": [
+          "2026-09-16時点で、movement→movement relation、movement→placeのdiffused_to、space.active_in、movement→event/orgのexhibited_at→held_at/sited_inの4経路を、当該movementに登録された資料を対象に確認した。ラーマッパ寺院・千柱寺院とも現地に残る石造の建築装飾彫刻であり、大英博物館・メトロポリタン美術館のオンラインコレクション検索でも該当収蔵品を確認できなかった（メトロポリタン美術館は429エラー、大英博物館は403エラーで直接アクセスできず、検索エンジン経由の間接確認にとどまる）。起源region外への文書化された接続は現時点で確認できない。"
+        ],
+        "review": {
+          "movement_id": "movement/kakatiya-art",
+          "status": "no-documented-cross-region-relation",
+          "checked": "2026-09-16",
+          "note": "2026-09-16時点で、movement→movement relation、movement→placeのdiffused_to、space.active_in、movement→event/orgのexhibited_at→held_at/sited_inの4経路を、当該movementに登録された資料を対象に確認した。ラーマッパ寺院・千柱寺院とも現地に残る石造の建築装飾彫刻であり、大英博物館・メトロポリタン美術館のオンラインコレクション検索でも該当収蔵品を確認できなかった（メトロポリタン美術館は429エラー、大英博物館は403エラーで直接アクセスできず、検索エンジン経由の間接確認にとどまる）。起源region外への文書化された接続は現時点で確認できない。",
+          "sources": [
+            "https://www.wikidata.org/wiki/Q108907973",
+            "https://en.wikipedia.org/wiki/Kakatiya_dynasty"
+          ]
+        }
+      },
+      {
+        "movement_id": "movement/kalighat-painting",
+        "status": "connected",
+        "origin_regions": [
+          "asia-south"
+        ],
+        "routes": [
+          {
+            "kind": "diffused-to-place",
+            "edges": [
+              {
+                "from": "movement/kalighat-painting",
+                "type": "diffused_to",
+                "to": "place/london",
+                "certainty": "scholarly",
+                "source": "https://en.wikipedia.org/wiki/Kalighat_painting"
+              }
+            ],
+            "destination_regions": [
+              "europe-west"
+            ]
+          },
+          {
+            "kind": "diffused-to-place",
+            "edges": [
+              {
+                "from": "movement/kalighat-painting",
+                "type": "diffused_to",
+                "to": "place/moscow",
+                "certainty": "scholarly",
+                "source": "https://en.wikipedia.org/wiki/Kalighat_painting"
+              }
+            ],
+            "destination_regions": [
+              "europe-east"
+            ]
+          }
+        ],
+        "reasons": [
+          "2経路で起源region外へ到達"
+        ],
+        "review": null
+      },
+      {
         "movement_id": "movement/kamasan-painting",
         "status": "reviewed-no-documented-link",
         "origin_regions": [
@@ -1898,6 +2622,34 @@
         }
       },
       {
+        "movement_id": "movement/khmer-art",
+        "status": "connected",
+        "origin_regions": [
+          "asia-southeast"
+        ],
+        "routes": [
+          {
+            "kind": "diffused-to-place",
+            "edges": [
+              {
+                "from": "movement/khmer-art",
+                "type": "diffused_to",
+                "to": "place/paris",
+                "certainty": "scholarly",
+                "source": "https://cambodianess.com/article/the-musee-guimet-and-the-khmer-treasures-of-paris"
+              }
+            ],
+            "destination_regions": [
+              "europe-west"
+            ]
+          }
+        ],
+        "reasons": [
+          "1経路で起源region外へ到達"
+        ],
+        "review": null
+      },
+      {
         "movement_id": "movement/khyenri-school",
         "status": "reviewed-no-documented-link",
         "origin_regions": [
@@ -1917,6 +2669,111 @@
             "https://www.himalayanart.org/search/set.cfm?setID=250"
           ]
         }
+      },
+      {
+        "movement_id": "movement/kilwa-swahili-architecture",
+        "status": "connected",
+        "origin_regions": [
+          "africa-sub"
+        ],
+        "routes": [
+          {
+            "kind": "diffused-to-place",
+            "edges": [
+              {
+                "from": "movement/kilwa-swahili-architecture",
+                "type": "diffused_to",
+                "to": "place/london",
+                "certainty": "scholarly",
+                "source": "https://www.britishmuseum.org/collection/object/C_1935-1101-1"
+              }
+            ],
+            "destination_regions": [
+              "europe-west"
+            ]
+          }
+        ],
+        "reasons": [
+          "1経路で起源region外へ到達"
+        ],
+        "review": null
+      },
+      {
+        "movement_id": "movement/kisalian-culture-art",
+        "status": "reviewed-no-documented-link",
+        "origin_regions": [
+          "africa-sub"
+        ],
+        "routes": [],
+        "reasons": [
+          "2026-09-17時点で、movement→movement relation、movement→placeのdiffused_to、space.active_in、movement→event/orgのexhibited_at→held_at/sited_inの4経路を、当該movementに登録された資料を対象に確認した。検索した範囲では、キサレ文化の副葬品がコンゴ民主共和国域外の博物館等へ拡散した文書化された記録を確認できなかった。起源region外への文書化された接続は現時点で確認できない。"
+        ],
+        "review": {
+          "movement_id": "movement/kisalian-culture-art",
+          "status": "no-documented-cross-region-relation",
+          "checked": "2026-09-17",
+          "note": "2026-09-17時点で、movement→movement relation、movement→placeのdiffused_to、space.active_in、movement→event/orgのexhibited_at→held_at/sited_inの4経路を、当該movementに登録された資料を対象に確認した。検索した範囲では、キサレ文化の副葬品がコンゴ民主共和国域外の博物館等へ拡散した文書化された記録を確認できなかった。起源region外への文書化された接続は現時点で確認できない。",
+          "sources": [
+            "https://en.wikipedia.org/wiki/Kisalian_Graves",
+            "https://www.wikidata.org/wiki/Q681743"
+          ]
+        }
+      },
+      {
+        "movement_id": "movement/kokand-khanate-art",
+        "status": "connected",
+        "origin_regions": [
+          "asia-central"
+        ],
+        "routes": [
+          {
+            "kind": "diffused-to-place",
+            "edges": [
+              {
+                "from": "movement/kokand-khanate-art",
+                "type": "diffused_to",
+                "to": "place/saint-petersburg",
+                "certainty": "scholarly",
+                "source": "https://en.wikipedia.org/wiki/Palace_of_Khud%C3%A1y%C3%A1r_Kh%C3%A1n"
+              }
+            ],
+            "destination_regions": [
+              "europe-east"
+            ]
+          }
+        ],
+        "reasons": [
+          "1経路で起源region外へ到達"
+        ],
+        "review": null
+      },
+      {
+        "movement_id": "movement/kongo-christian-art",
+        "status": "connected",
+        "origin_regions": [
+          "africa-sub"
+        ],
+        "routes": [
+          {
+            "kind": "diffused-to-place",
+            "edges": [
+              {
+                "from": "movement/kongo-christian-art",
+                "type": "diffused_to",
+                "to": "place/new-york-city",
+                "certainty": "scholarly",
+                "source": "https://www.metmuseum.org/art/collection/search/318329"
+              }
+            ],
+            "destination_regions": [
+              "americas-north"
+            ]
+          }
+        ],
+        "reasons": [
+          "1経路で起源region外へ到達"
+        ],
+        "review": null
       },
       {
         "movement_id": "movement/kowhaiwhai",
@@ -1940,6 +2797,27 @@
         }
       },
       {
+        "movement_id": "movement/lan-xang-art",
+        "status": "reviewed-no-documented-link",
+        "origin_regions": [
+          "asia-southeast"
+        ],
+        "routes": [],
+        "reasons": [
+          "2026-09-16時点で、movement→movement relation、movement→placeのdiffused_to、space.active_in、movement→event/orgのexhibited_at→held_at/sited_inの4経路を、当該movementに登録された資料を対象に確認した。護持仏プラバーンは1778年・1828年の2度シャム（現タイ）軍によりバンコクへ運ばれたが、シャム・タイも本KBのregionバケット上はasia-southeast内であり域外接続に当たらない。起源region外への文書化された接続は現時点で確認できない。"
+        ],
+        "review": {
+          "movement_id": "movement/lan-xang-art",
+          "status": "no-documented-cross-region-relation",
+          "checked": "2026-09-16",
+          "note": "2026-09-16時点で、movement→movement relation、movement→placeのdiffused_to、space.active_in、movement→event/orgのexhibited_at→held_at/sited_inの4経路を、当該movementに登録された資料を対象に確認した。護持仏プラバーンは1778年・1828年の2度シャム（現タイ）軍によりバンコクへ運ばれたが、シャム・タイも本KBのregionバケット上はasia-southeast内であり域外接続に当たらない。起源region外への文書化された接続は現時点で確認できない。",
+          "sources": [
+            "https://www.wikidata.org/wiki/Q853477",
+            "https://en.wikipedia.org/wiki/Lan_Xang"
+          ]
+        }
+      },
+      {
         "movement_id": "movement/lapita-pottery",
         "status": "reviewed-no-documented-link",
         "origin_regions": [
@@ -1957,6 +2835,27 @@
           "sources": [
             "http://www.ioa.ucla.edu/talepakemalai",
             "https://www.metmuseum.org/art/collection/search/314215"
+          ]
+        }
+      },
+      {
+        "movement_id": "movement/latte-stone-architecture",
+        "status": "reviewed-no-documented-link",
+        "origin_regions": [
+          "oceania"
+        ],
+        "routes": [],
+        "reasons": [
+          "2026-09-16時点で、movement→movement relation、movement→placeのdiffused_to、space.active_in、movement→event/orgのexhibited_at→held_at/sited_inの4経路を、当該movementに登録された資料を対象に確認した。石造構造物という性質上可搬性の高い作例が乏しく、検索した範囲ではラッテ・ストーンやチャモロの工芸品がマリアナ諸島外の博物館へ収蔵された記録を確認できなかった。起源region外への文書化された接続は現時点で確認できない。"
+        ],
+        "review": {
+          "movement_id": "movement/latte-stone-architecture",
+          "status": "no-documented-cross-region-relation",
+          "checked": "2026-09-16",
+          "note": "2026-09-16時点で、movement→movement relation、movement→placeのdiffused_to、space.active_in、movement→event/orgのexhibited_at→held_at/sited_inの4経路を、当該movementに登録された資料を対象に確認した。石造構造物という性質上可搬性の高い作例が乏しく、検索した範囲ではラッテ・ストーンやチャモロの工芸品がマリアナ諸島外の博物館へ収蔵された記録を確認できなかった。起源region外への文書化された接続は現時点で確認できない。",
+          "sources": [
+            "https://www.wikidata.org/wiki/Q4211672",
+            "https://en.wikipedia.org/wiki/Latte_stone"
           ]
         }
       },
@@ -2042,6 +2941,55 @@
         }
       },
       {
+        "movement_id": "movement/malacca-sultanate-art",
+        "status": "reviewed-no-documented-link",
+        "origin_regions": [
+          "asia-southeast"
+        ],
+        "routes": [],
+        "reasons": [
+          "2026-09-16時点で、movement→movement relation、movement→placeのdiffused_to、space.active_in、movement→event/orgのexhibited_at→held_at/sited_inの4経路を、当該movementに登録された資料を対象に確認した。明朝との朝貢関係、1511年のポルトガルによる征服・王家の宝物接収という2つの対外接続を確認したが、いずれも作品・様式そのものが域外の博物館等へ拡散した文書化された記録には至らなかった（ポルトガル接収の宝物は「王室に還元された」とのみ記され、その後の所在は出典に記載無し）。起源region外への文書化された接続は現時点で確認できない。"
+        ],
+        "review": {
+          "movement_id": "movement/malacca-sultanate-art",
+          "status": "no-documented-cross-region-relation",
+          "checked": "2026-09-16",
+          "note": "2026-09-16時点で、movement→movement relation、movement→placeのdiffused_to、space.active_in、movement→event/orgのexhibited_at→held_at/sited_inの4経路を、当該movementに登録された資料を対象に確認した。明朝との朝貢関係、1511年のポルトガルによる征服・王家の宝物接収という2つの対外接続を確認したが、いずれも作品・様式そのものが域外の博物館等へ拡散した文書化された記録には至らなかった（ポルトガル接収の宝物は「王室に還元された」とのみ記され、その後の所在は出典に記載無し）。起源region外への文書化された接続は現時点で確認できない。",
+          "sources": [
+            "https://www.wikidata.org/wiki/Q46652",
+            "https://en.wikipedia.org/wiki/Malacca_Sultanate"
+          ]
+        }
+      },
+      {
+        "movement_id": "movement/mamluk-art",
+        "status": "connected",
+        "origin_regions": [
+          "mena"
+        ],
+        "routes": [
+          {
+            "kind": "diffused-to-place",
+            "edges": [
+              {
+                "from": "movement/mamluk-art",
+                "type": "diffused_to",
+                "to": "place/london",
+                "certainty": "scholarly",
+                "source": "https://hyperallergic.com/british-library-digitizes-one-of-the-worlds-oldest-quran-manuscripts/"
+              }
+            ],
+            "destination_regions": [
+              "europe-west"
+            ]
+          }
+        ],
+        "reasons": [
+          "1経路で起源region外へ到達"
+        ],
+        "review": null
+      },
+      {
         "movement_id": "movement/mandalay-style",
         "status": "reviewed-no-documented-link",
         "origin_regions": [
@@ -2082,6 +3030,49 @@
             "https://en.wikipedia.org/wiki/Mannerism"
           ]
         }
+      },
+      {
+        "movement_id": "movement/marquesan-tiki",
+        "status": "connected",
+        "origin_regions": [
+          "oceania"
+        ],
+        "routes": [
+          {
+            "kind": "diffused-to-place",
+            "edges": [
+              {
+                "from": "movement/marquesan-tiki",
+                "type": "diffused_to",
+                "to": "place/london",
+                "certainty": "scholarly",
+                "source": "https://www.britishmuseum.org/collection/object/E_Oc1899-155"
+              }
+            ],
+            "destination_regions": [
+              "europe-west"
+            ]
+          },
+          {
+            "kind": "diffused-to-place",
+            "edges": [
+              {
+                "from": "movement/marquesan-tiki",
+                "type": "diffused_to",
+                "to": "place/new-york-city",
+                "certainty": "scholarly",
+                "source": "https://www.metmuseum.org/art/collection/search/311298"
+              }
+            ],
+            "destination_regions": [
+              "americas-north"
+            ]
+          }
+        ],
+        "reasons": [
+          "2経路で起源region外へ到達"
+        ],
+        "review": null
       },
       {
         "movement_id": "movement/maruyama-shijo-school",
@@ -2168,6 +3159,27 @@
           "2経路で起源region外へ到達"
         ],
         "review": null
+      },
+      {
+        "movement_id": "movement/melayu-mauli-buddhist-art",
+        "status": "reviewed-no-documented-link",
+        "origin_regions": [
+          "asia-southeast"
+        ],
+        "routes": [],
+        "reasons": [
+          "2026-09-16時点で、movement→movement relation、movement→placeのdiffused_to、space.active_in、movement→event/orgのexhibited_at→held_at/sited_inの4経路を、当該movementに登録された資料を対象に確認した。1183年のグラヒ碑文の発見地（現タイ領マレー半島）はマラユ王国の版図内であり、現タイ・現インドネシアはいずれも本KBのregionバケット上asia-southeast内のため域外接続に当たらない。起源region外への文書化された接続は現時点で確認できない。"
+        ],
+        "review": {
+          "movement_id": "movement/melayu-mauli-buddhist-art",
+          "status": "no-documented-cross-region-relation",
+          "checked": "2026-09-16",
+          "note": "2026-09-16時点で、movement→movement relation、movement→placeのdiffused_to、space.active_in、movement→event/orgのexhibited_at→held_at/sited_inの4経路を、当該movementに登録された資料を対象に確認した。1183年のグラヒ碑文の発見地（現タイ領マレー半島）はマラユ王国の版図内であり、現タイ・現インドネシアはいずれも本KBのregionバケット上asia-southeast内のため域外接続に当たらない。起源region外への文書化された接続は現時点で確認できない。",
+          "sources": [
+            "https://www.wikidata.org/wiki/Q3112053",
+            "https://en.wikipedia.org/wiki/Melayu_Kingdom"
+          ]
+        }
       },
       {
         "movement_id": "movement/menri-school",
@@ -2290,6 +3302,90 @@
         "review": null
       },
       {
+        "movement_id": "movement/missao-artistica-francesa",
+        "status": "connected",
+        "origin_regions": [
+          "americas-latin"
+        ],
+        "routes": [
+          {
+            "kind": "diffused-to-place",
+            "edges": [
+              {
+                "from": "movement/missao-artistica-francesa",
+                "type": "diffused_to",
+                "to": "place/paris",
+                "certainty": "scholarly",
+                "source": "http://arts-graphiques.louvre.fr/detail/artistes/0/757-DEBRET-Jean-Baptiste"
+              }
+            ],
+            "destination_regions": [
+              "europe-west"
+            ]
+          }
+        ],
+        "reasons": [
+          "1経路で起源region外へ到達"
+        ],
+        "review": null
+      },
+      {
+        "movement_id": "movement/moai",
+        "status": "connected",
+        "origin_regions": [
+          "oceania"
+        ],
+        "routes": [
+          {
+            "kind": "diffused-to-place",
+            "edges": [
+              {
+                "from": "movement/moai",
+                "type": "diffused_to",
+                "to": "place/london",
+                "certainty": "scholarly",
+                "source": "https://en.wikipedia.org/wiki/Hoa_Hakananai%27a"
+              }
+            ],
+            "destination_regions": [
+              "europe-west"
+            ]
+          }
+        ],
+        "reasons": [
+          "1経路で起源region外へ到達"
+        ],
+        "review": null
+      },
+      {
+        "movement_id": "movement/mongol-zurag",
+        "status": "connected",
+        "origin_regions": [
+          "asia-central"
+        ],
+        "routes": [
+          {
+            "kind": "diffused-to-place",
+            "edges": [
+              {
+                "from": "movement/mongol-zurag",
+                "type": "diffused_to",
+                "to": "place/kassel",
+                "certainty": "scholarly",
+                "source": "https://www.documenta14.de/en/artists/21988/baldugiin-sharav"
+              }
+            ],
+            "destination_regions": [
+              "europe-west"
+            ]
+          }
+        ],
+        "reasons": [
+          "1経路で起源region外へ到達"
+        ],
+        "review": null
+      },
+      {
         "movement_id": "movement/mono-ha",
         "status": "reviewed-no-documented-link",
         "origin_regions": [
@@ -2307,6 +3403,27 @@
           "sources": [
             "https://en.wikipedia.org/wiki/Mono-ha",
             "https://artscape.jp/artword/6888/"
+          ]
+        }
+      },
+      {
+        "movement_id": "movement/moscow-school-icon-painting",
+        "status": "reviewed-no-documented-link",
+        "origin_regions": [
+          "europe-east"
+        ],
+        "routes": [],
+        "reasons": [
+          "2026-09-15時点で、movement→movement relation、movement→placeのdiffused_to、space.active_in、movement→event/orgのexhibited_at→held_at/sited_inの4経路を、当該movementに登録された資料を対象に確認した。relationsに張ったinfluenced_by movement/byzantine-artは、config/place-region-history.yamlがイスタンブールを330〜1453年（東ローマ帝国の首都だった期間）はeurope-eastと時代限定で上書きしているため、モスクワ派の活動期と重なりregions_of上は同一region（europe-east）となり、4経路の接続としては機能しない。西側美術館へのイコン収蔵など他の接続も今回は確認できず、起源region外への文書化された接続は現時点で確認できない。"
+        ],
+        "review": {
+          "movement_id": "movement/moscow-school-icon-painting",
+          "status": "no-documented-cross-region-relation",
+          "checked": "2026-09-15",
+          "note": "2026-09-15時点で、movement→movement relation、movement→placeのdiffused_to、space.active_in、movement→event/orgのexhibited_at→held_at/sited_inの4経路を、当該movementに登録された資料を対象に確認した。relationsに張ったinfluenced_by movement/byzantine-artは、config/place-region-history.yamlがイスタンブールを330〜1453年（東ローマ帝国の首都だった期間）はeurope-eastと時代限定で上書きしているため、モスクワ派の活動期と重なりregions_of上は同一region（europe-east）となり、4経路の接続としては機能しない。西側美術館へのイコン収蔵など他の接続も今回は確認できず、起源region外への文書化された接続は現時点で確認できない。",
+          "sources": [
+            "https://www.wikidata.org/wiki/Q122978289",
+            "https://en.wikipedia.org/wiki/Moscow_School"
           ]
         }
       },
@@ -2337,6 +3454,48 @@
           "1経路で起源region外へ到達"
         ],
         "review": null
+      },
+      {
+        "movement_id": "movement/muhammad-ali-mosque-architecture",
+        "status": "reviewed-no-documented-link",
+        "origin_regions": [
+          "mena"
+        ],
+        "routes": [],
+        "reasons": [
+          "2026-09-16時点で、movement→movement relation、movement→placeのdiffused_to、space.active_in、movement→event/orgのexhibited_at→held_at/sited_inの4経路を、当該movementに登録された資料を対象に確認した。中庭のフランス製大時計塔（1846年、ルイ・フィリップからの贈答）はeurope-westからmenaへの受け入れであり、本movement自身の様式・作品が域外へ拡散した記録ではない。様式の範としたイスタンブールもmena内（regionバケット上）であり域外接続に当たらない。起源region外への文書化された接続は現時点で確認できない。"
+        ],
+        "review": {
+          "movement_id": "movement/muhammad-ali-mosque-architecture",
+          "status": "no-documented-cross-region-relation",
+          "checked": "2026-09-16",
+          "note": "2026-09-16時点で、movement→movement relation、movement→placeのdiffused_to、space.active_in、movement→event/orgのexhibited_at→held_at/sited_inの4経路を、当該movementに登録された資料を対象に確認した。中庭のフランス製大時計塔（1846年、ルイ・フィリップからの贈答）はeurope-westからmenaへの受け入れであり、本movement自身の様式・作品が域外へ拡散した記録ではない。様式の範としたイスタンブールもmena内（regionバケット上）であり域外接続に当たらない。起源region外への文書化された接続は現時点で確認できない。",
+          "sources": [
+            "https://www.wikidata.org/wiki/Q652046",
+            "https://en.wikipedia.org/wiki/Mosque_of_Muhammad_Ali"
+          ]
+        }
+      },
+      {
+        "movement_id": "movement/nan-madol-architecture",
+        "status": "reviewed-no-documented-link",
+        "origin_regions": [
+          "oceania"
+        ],
+        "routes": [],
+        "reasons": [
+          "2026-09-16時点で、movement→movement relation、movement→placeのdiffused_to、space.active_in、movement→event/orgのexhibited_at→held_at/sited_inの4経路を、当該movementに登録された資料を対象に確認した。遠隔の孤立した遺跡であり、検索した範囲では海外美術館収蔵などoceania外への文書化された接続は確認できない。"
+        ],
+        "review": {
+          "movement_id": "movement/nan-madol-architecture",
+          "status": "no-documented-cross-region-relation",
+          "checked": "2026-09-16",
+          "note": "2026-09-16時点で、movement→movement relation、movement→placeのdiffused_to、space.active_in、movement→event/orgのexhibited_at→held_at/sited_inの4経路を、当該movementに登録された資料を対象に確認した。遠隔の孤立した遺跡であり、検索した範囲では海外美術館収蔵などoceania外への文書化された接続は確認できない。",
+          "sources": [
+            "https://www.wikidata.org/wiki/Q846967",
+            "https://en.wikipedia.org/wiki/Saudeleur_dynasty"
+          ]
+        }
       },
       {
         "movement_id": "movement/nanga",
@@ -2393,6 +3552,49 @@
         ],
         "reasons": [
           "3経路で起源region外へ到達"
+        ],
+        "review": null
+      },
+      {
+        "movement_id": "movement/ndop",
+        "status": "connected",
+        "origin_regions": [
+          "africa-sub"
+        ],
+        "routes": [
+          {
+            "kind": "diffused-to-place",
+            "edges": [
+              {
+                "from": "movement/ndop",
+                "type": "diffused_to",
+                "to": "place/london",
+                "certainty": "scholarly",
+                "source": "https://en.wikipedia.org/wiki/Ndop_(Kuba)"
+              }
+            ],
+            "destination_regions": [
+              "europe-west"
+            ]
+          },
+          {
+            "kind": "diffused-to-place",
+            "edges": [
+              {
+                "from": "movement/ndop",
+                "type": "diffused_to",
+                "to": "place/new-york-city",
+                "certainty": "scholarly",
+                "source": "https://en.wikipedia.org/wiki/Ndop_(Kuba)"
+              }
+            ],
+            "destination_regions": [
+              "americas-north"
+            ]
+          }
+        ],
+        "reasons": [
+          "2経路で起源region外へ到達"
         ],
         "review": null
       },
@@ -2701,6 +3903,83 @@
         }
       },
       {
+        "movement_id": "movement/ottoman-westernization-painting",
+        "status": "connected",
+        "origin_regions": [
+          "mena"
+        ],
+        "routes": [
+          {
+            "kind": "diffused-to-place",
+            "edges": [
+              {
+                "from": "movement/ottoman-westernization-painting",
+                "type": "diffused_to",
+                "to": "place/paris",
+                "certainty": "scholarly",
+                "source": "https://en.wikipedia.org/wiki/Keeper_of_the_Mausoleum_(1903)"
+              }
+            ],
+            "destination_regions": [
+              "europe-west"
+            ]
+          }
+        ],
+        "reasons": [
+          "1経路で起源region外へ到達"
+        ],
+        "review": null
+      },
+      {
+        "movement_id": "movement/pa-fortification-architecture",
+        "status": "reviewed-no-documented-link",
+        "origin_regions": [
+          "oceania"
+        ],
+        "routes": [],
+        "reasons": [
+          "2026-09-17時点で、movement→movement relation、movement→placeのdiffused_to、space.active_in、movement→event/orgのexhibited_at→held_at/sited_inの4経路を、当該movementに登録された資料を対象に確認した。ンガーロト湖出土の彫刻木工品はニュージーランド国内のテ・アワムトゥ博物館に展示されるのみで、検索した範囲ではパーの建築様式・彫刻がニュージーランド域外の博物館等へ拡散した文書化された記録を確認できなかった。起源region外への文書化された接続は現時点で確認できない。"
+        ],
+        "review": {
+          "movement_id": "movement/pa-fortification-architecture",
+          "status": "no-documented-cross-region-relation",
+          "checked": "2026-09-17",
+          "note": "2026-09-17時点で、movement→movement relation、movement→placeのdiffused_to、space.active_in、movement→event/orgのexhibited_at→held_at/sited_inの4経路を、当該movementに登録された資料を対象に確認した。ンガーロト湖出土の彫刻木工品はニュージーランド国内のテ・アワムトゥ博物館に展示されるのみで、検索した範囲ではパーの建築様式・彫刻がニュージーランド域外の博物館等へ拡散した文書化された記録を確認できなかった。起源region外への文書化された接続は現時点で確認できない。",
+          "sources": [
+            "https://www.wikidata.org/wiki/Q1234236",
+            "https://en.wikipedia.org/wiki/P%C4%81"
+          ]
+        }
+      },
+      {
+        "movement_id": "movement/pala-art",
+        "status": "connected",
+        "origin_regions": [
+          "asia-south"
+        ],
+        "routes": [
+          {
+            "kind": "diffused-to-place",
+            "edges": [
+              {
+                "from": "movement/pala-art",
+                "type": "diffused_to",
+                "to": "place/new-york-city",
+                "certainty": "scholarly",
+                "source": "https://www.metmuseum.org/art/collection/search/38934"
+              }
+            ],
+            "destination_regions": [
+              "americas-north"
+            ]
+          }
+        ],
+        "reasons": [
+          "1経路で起源region外へ到達"
+        ],
+        "review": null
+      },
+      {
         "movement_id": "movement/papunya-tula",
         "status": "connected",
         "origin_regions": [
@@ -2971,6 +4250,49 @@
         "review": null
       },
       {
+        "movement_id": "movement/rai-stones",
+        "status": "connected",
+        "origin_regions": [
+          "oceania"
+        ],
+        "routes": [
+          {
+            "kind": "diffused-to-place",
+            "edges": [
+              {
+                "from": "movement/rai-stones",
+                "type": "diffused_to",
+                "to": "place/london",
+                "certainty": "scholarly",
+                "source": "https://www.britishmuseum.org/collection/object/Oc1980-Q-928"
+              }
+            ],
+            "destination_regions": [
+              "europe-west"
+            ]
+          },
+          {
+            "kind": "diffused-to-place",
+            "edges": [
+              {
+                "from": "movement/rai-stones",
+                "type": "diffused_to",
+                "to": "place/washington-dc",
+                "certainty": "scholarly",
+                "source": "https://www.si.edu/object/rai-stone:nmah_1967502"
+              }
+            ],
+            "destination_regions": [
+              "americas-north"
+            ]
+          }
+        ],
+        "reasons": [
+          "2経路で起源region外へ到達"
+        ],
+        "review": null
+      },
+      {
         "movement_id": "movement/rattanakosin-mural-painting",
         "status": "connected",
         "origin_regions": [
@@ -3133,6 +4455,55 @@
         "review": null
       },
       {
+        "movement_id": "movement/santero",
+        "status": "reviewed-no-documented-link",
+        "origin_regions": [
+          "americas-north"
+        ],
+        "routes": [],
+        "reasons": [
+          "2026-09-16時点で、movement→movement relation、movement→placeのdiffused_to、space.active_in、movement→event/orgのexhibited_at→held_at/sited_inの4経路を、当該movementに登録された資料を対象に確認した。作例の収蔵先はいずれも米国内（Museum of International Folk Art、Palace of the Governorsなど）で、americas-north外への文書化された接続は確認できない。"
+        ],
+        "review": {
+          "movement_id": "movement/santero",
+          "status": "no-documented-cross-region-relation",
+          "checked": "2026-09-16",
+          "note": "2026-09-16時点で、movement→movement relation、movement→placeのdiffused_to、space.active_in、movement→event/orgのexhibited_at→held_at/sited_inの4経路を、当該movementに登録された資料を対象に確認した。作例の収蔵先はいずれも米国内（Museum of International Folk Art、Palace of the Governorsなど）で、americas-north外への文書化された接続は確認できない。",
+          "sources": [
+            "https://www.wikidata.org/wiki/Q30213495",
+            "https://blog.nmhistorymuseum.org/2011/09/exploring-the-global-roots-of-santeros/"
+          ]
+        }
+      },
+      {
+        "movement_id": "movement/serbian-baroque-painting",
+        "status": "connected",
+        "origin_regions": [
+          "europe-east"
+        ],
+        "routes": [
+          {
+            "kind": "movement-relation",
+            "edges": [
+              {
+                "from": "movement/serbian-baroque-painting",
+                "type": "influenced_by",
+                "to": "movement/rococo",
+                "certainty": "scholarly",
+                "source": "https://en.wikipedia.org/wiki/Teodor_Kra%C4%8Dun"
+              }
+            ],
+            "destination_regions": [
+              "europe-west"
+            ]
+          }
+        ],
+        "reasons": [
+          "1経路で起源region外へ到達"
+        ],
+        "review": null
+      },
+      {
         "movement_id": "movement/shanghai-school",
         "status": "reviewed-no-documented-link",
         "origin_regions": [
@@ -3245,6 +4616,125 @@
         }
       },
       {
+        "movement_id": "movement/southeastern-ceremonial-complex",
+        "status": "reviewed-no-documented-link",
+        "origin_regions": [
+          "americas-north"
+        ],
+        "routes": [],
+        "reasons": [
+          "2026-09-16時点で、movement→movement relation、movement→placeのdiffused_to、space.active_in、movement→event/orgのexhibited_at→held_at/sited_inの4経路を、当該movementに登録された資料を対象に確認した。検索した範囲では、海外美術館収蔵などamericas-north外への文書化された接続は確認できない。"
+        ],
+        "review": {
+          "movement_id": "movement/southeastern-ceremonial-complex",
+          "status": "no-documented-cross-region-relation",
+          "checked": "2026-09-16",
+          "note": "2026-09-16時点で、movement→movement relation、movement→placeのdiffused_to、space.active_in、movement→event/orgのexhibited_at→held_at/sited_inの4経路を、当該movementに登録された資料を対象に確認した。検索した範囲では、海外美術館収蔵などamericas-north外への文書化された接続は確認できない。",
+          "sources": [
+            "https://www.wikidata.org/wiki/Q3492313",
+            "https://en.wikipedia.org/wiki/Southeastern_Ceremonial_Complex"
+          ]
+        }
+      },
+      {
+        "movement_id": "movement/srivijaya-art",
+        "status": "connected",
+        "origin_regions": [
+          "asia-southeast"
+        ],
+        "routes": [
+          {
+            "kind": "diffused-to-place",
+            "edges": [
+              {
+                "from": "movement/srivijaya-art",
+                "type": "diffused_to",
+                "to": "place/new-york-city",
+                "certainty": "scholarly",
+                "source": "https://www.metmuseum.org/art/collection/search/39120"
+              }
+            ],
+            "destination_regions": [
+              "americas-north"
+            ]
+          }
+        ],
+        "reasons": [
+          "1経路で起源region外へ到達"
+        ],
+        "review": null
+      },
+      {
+        "movement_id": "movement/stroganov-school",
+        "status": "reviewed-no-documented-link",
+        "origin_regions": [
+          "europe-east"
+        ],
+        "routes": [],
+        "reasons": [
+          "2026-09-16時点で、movement→movement relation、movement→placeのdiffused_to、space.active_in、movement→event/orgのexhibited_at→held_at/sited_inの4経路を、当該movementに登録された資料を対象に確認した。起源region外への文書化された接続は確認できない。"
+        ],
+        "review": {
+          "movement_id": "movement/stroganov-school",
+          "status": "no-documented-cross-region-relation",
+          "checked": "2026-09-16",
+          "note": "2026-09-16時点で、movement→movement relation、movement→placeのdiffused_to、space.active_in、movement→event/orgのexhibited_at→held_at/sited_inの4経路を、当該movementに登録された資料を対象に確認した。起源region外への文書化された接続は確認できない。",
+          "sources": [
+            "https://www.wikidata.org/wiki/Q1968335",
+            "https://en.wikipedia.org/wiki/Stroganov_School"
+          ]
+        }
+      },
+      {
+        "movement_id": "movement/sudano-sahelian-architecture",
+        "status": "reviewed-no-documented-link",
+        "origin_regions": [
+          "africa-sub"
+        ],
+        "routes": [],
+        "reasons": [
+          "2026-09-16時点で、movement→movement relation、movement→placeのdiffused_to、space.active_in、movement→event/orgのexhibited_at→held_at/sited_inの4経路を、当該movementに登録された資料を対象に確認した。トンブクトゥ写本の一部はライブラリー・オブ・コングレス・大英図書館がデジタル化に関わっているが、原本はマリ国内の家族図書館に残り続けており、物理的な資料の域外への移動ではない。起源region外への文書化された接続は現時点で確認できない。"
+        ],
+        "review": {
+          "movement_id": "movement/sudano-sahelian-architecture",
+          "status": "no-documented-cross-region-relation",
+          "checked": "2026-09-16",
+          "note": "2026-09-16時点で、movement→movement relation、movement→placeのdiffused_to、space.active_in、movement→event/orgのexhibited_at→held_at/sited_inの4経路を、当該movementに登録された資料を対象に確認した。トンブクトゥ写本の一部はライブラリー・オブ・コングレス・大英図書館がデジタル化に関わっているが、原本はマリ国内の家族図書館に残り続けており、物理的な資料の域外への移動ではない。起源region外への文書化された接続は現時点で確認できない。",
+          "sources": [
+            "https://www.wikidata.org/wiki/Q489021",
+            "https://en.wikipedia.org/wiki/Sudano-Sahelian_architecture"
+          ]
+        }
+      },
+      {
+        "movement_id": "movement/sukhothai-art",
+        "status": "connected",
+        "origin_regions": [
+          "asia-southeast"
+        ],
+        "routes": [
+          {
+            "kind": "diffused-to-place",
+            "edges": [
+              {
+                "from": "movement/sukhothai-art",
+                "type": "diffused_to",
+                "to": "place/new-york-city",
+                "certainty": "scholarly",
+                "source": "https://www.metmuseum.org/art/collection/search/39102"
+              }
+            ],
+            "destination_regions": [
+              "americas-north"
+            ]
+          }
+        ],
+        "reasons": [
+          "1経路で起源region外へ到達"
+        ],
+        "review": null
+      },
+      {
         "movement_id": "movement/suprematism",
         "status": "reviewed-no-documented-link",
         "origin_regions": [
@@ -3287,6 +4777,34 @@
         }
       },
       {
+        "movement_id": "movement/suzani",
+        "status": "connected",
+        "origin_regions": [
+          "asia-central"
+        ],
+        "routes": [
+          {
+            "kind": "diffused-to-place",
+            "edges": [
+              {
+                "from": "movement/suzani",
+                "type": "diffused_to",
+                "to": "place/new-york-city",
+                "certainty": "scholarly",
+                "source": "https://www.metmuseum.org/art/collection/search/698681"
+              }
+            ],
+            "destination_regions": [
+              "americas-north"
+            ]
+          }
+        ],
+        "reasons": [
+          "1経路で起源region外へ到達"
+        ],
+        "review": null
+      },
+      {
         "movement_id": "movement/symbolism",
         "status": "connected",
         "origin_regions": [
@@ -3315,6 +4833,34 @@
         "review": null
       },
       {
+        "movement_id": "movement/talavera-poblana",
+        "status": "connected",
+        "origin_regions": [
+          "americas-latin"
+        ],
+        "routes": [
+          {
+            "kind": "diffused-to-place",
+            "edges": [
+              {
+                "from": "movement/talavera-poblana",
+                "type": "diffused_to",
+                "to": "place/new-york-city",
+                "certainty": "scholarly",
+                "source": "https://www.metmuseum.org/essays/talavera-de-puebla"
+              }
+            ],
+            "destination_regions": [
+              "americas-north"
+            ]
+          }
+        ],
+        "reasons": [
+          "1経路で起源region外へ到達"
+        ],
+        "review": null
+      },
+      {
         "movement_id": "movement/tanjore-painting",
         "status": "connected",
         "origin_regions": [
@@ -3330,6 +4876,34 @@
                 "to": "movement/realism",
                 "certainty": "hypothesis",
                 "source": "https://www.britishmuseum.org/collection/object/A_2020-3021-1"
+              }
+            ],
+            "destination_regions": [
+              "europe-west"
+            ]
+          }
+        ],
+        "reasons": [
+          "1経路で起源region外へ到達"
+        ],
+        "review": null
+      },
+      {
+        "movement_id": "movement/tarnovo-artistic-school",
+        "status": "connected",
+        "origin_regions": [
+          "europe-east"
+        ],
+        "routes": [
+          {
+            "kind": "diffused-to-place",
+            "edges": [
+              {
+                "from": "movement/tarnovo-artistic-school",
+                "type": "diffused_to",
+                "to": "place/london",
+                "certainty": "scholarly",
+                "source": "https://blogs.bl.uk/digitisedmanuscripts/2012/09/the-gospels-of-tsar-ivan-alexander.html"
               }
             ],
             "destination_regions": [
@@ -3386,6 +4960,70 @@
         "review": null
       },
       {
+        "movement_id": "movement/tongan-langi-architecture",
+        "status": "reviewed-no-documented-link",
+        "origin_regions": [
+          "oceania"
+        ],
+        "routes": [],
+        "reasons": [
+          "2026-09-16時点で、movement→movement relation、movement→placeのdiffused_to、space.active_in、movement→event/orgのexhibited_at→held_at/sited_inの4経路を、当該movementに登録された資料を対象に確認した。石造の墓所建築という性質上可搬性の高い作例が乏しく、検索した範囲ではラーンギ建築や関連副葬品がトンガ域外の博物館へ収蔵された記録を確認できなかった。起源region外への文書化された接続は現時点で確認できない。"
+        ],
+        "review": {
+          "movement_id": "movement/tongan-langi-architecture",
+          "status": "no-documented-cross-region-relation",
+          "checked": "2026-09-16",
+          "note": "2026-09-16時点で、movement→movement relation、movement→placeのdiffused_to、space.active_in、movement→event/orgのexhibited_at→held_at/sited_inの4経路を、当該movementに登録された資料を対象に確認した。石造の墓所建築という性質上可搬性の高い作例が乏しく、検索した範囲ではラーンギ建築や関連副葬品がトンガ域外の博物館へ収蔵された記録を確認できなかった。起源region外への文書化された接続は現時点で確認できない。",
+          "sources": [
+            "https://www.wikidata.org/wiki/Q2359181",
+            "https://en.wikipedia.org/wiki/Monuments_of_Tonga"
+          ]
+        }
+      },
+      {
+        "movement_id": "movement/tongan-ngatu",
+        "status": "connected",
+        "origin_regions": [
+          "oceania"
+        ],
+        "routes": [
+          {
+            "kind": "diffused-to-place",
+            "edges": [
+              {
+                "from": "movement/tongan-ngatu",
+                "type": "diffused_to",
+                "to": "place/london",
+                "certainty": "scholarly",
+                "source": "https://www.britishmuseum.org/collection/object/E_2013-2015-1"
+              }
+            ],
+            "destination_regions": [
+              "europe-west"
+            ]
+          },
+          {
+            "kind": "diffused-to-place",
+            "edges": [
+              {
+                "from": "movement/tongan-ngatu",
+                "type": "diffused_to",
+                "to": "place/philadelphia",
+                "certainty": "scholarly",
+                "source": "https://www.penn.museum/sites/expedition/captain-cooks-barkcloth-books/"
+              }
+            ],
+            "destination_regions": [
+              "americas-north"
+            ]
+          }
+        ],
+        "reasons": [
+          "2経路で起源region外へ到達"
+        ],
+        "review": null
+      },
+      {
         "movement_id": "movement/tosa-school",
         "status": "connected",
         "origin_regions": [
@@ -3412,6 +5050,27 @@
           "1経路で起源region外へ到達"
         ],
         "review": null
+      },
+      {
+        "movement_id": "movement/ukrainian-baroque",
+        "status": "reviewed-no-documented-link",
+        "origin_regions": [
+          "europe-east"
+        ],
+        "routes": [],
+        "reasons": [
+          "2026-09-16時点で、movement→movement relation、movement→placeのdiffused_to、space.active_in、movement→event/orgのexhibited_at→held_at/sited_inの4経路を、当該movementに登録された資料を対象に確認した。起源region外への文書化された接続は確認できない。"
+        ],
+        "review": {
+          "movement_id": "movement/ukrainian-baroque",
+          "status": "no-documented-cross-region-relation",
+          "checked": "2026-09-16",
+          "note": "2026-09-16時点で、movement→movement relation、movement→placeのdiffused_to、space.active_in、movement→event/orgのexhibited_at→held_at/sited_inの4経路を、当該movementに登録された資料を対象に確認した。起源region外への文書化された接続は確認できない。",
+          "sources": [
+            "https://www.wikidata.org/wiki/Q1542287",
+            "https://en.wikipedia.org/wiki/Ukrainian_Baroque"
+          ]
+        }
       },
       {
         "movement_id": "movement/utagawa-school",
@@ -3454,6 +5113,34 @@
             ],
             "destination_regions": [
               "europe-east"
+            ]
+          }
+        ],
+        "reasons": [
+          "1経路で起源region外へ到達"
+        ],
+        "review": null
+      },
+      {
+        "movement_id": "movement/vijayanagara-art",
+        "status": "connected",
+        "origin_regions": [
+          "asia-south"
+        ],
+        "routes": [
+          {
+            "kind": "diffused-to-place",
+            "edges": [
+              {
+                "from": "movement/vijayanagara-art",
+                "type": "diffused_to",
+                "to": "place/new-york-city",
+                "certainty": "scholarly",
+                "source": "https://www.metmuseum.org/art/collection/search?q=South+Indian,+Vijayanagara&sortBy=Relevance"
+              }
+            ],
+            "destination_regions": [
+              "americas-north"
             ]
           }
         ],
@@ -3630,55 +5317,114 @@
             "https://www.hkpm.org.hk/en/visit/audio-guide/g4-stories-untold"
           ]
         }
+      },
+      {
+        "movement_id": "movement/zimbabwe-stone-architecture",
+        "status": "connected",
+        "origin_regions": [
+          "africa-sub"
+        ],
+        "routes": [
+          {
+            "kind": "diffused-to-place",
+            "edges": [
+              {
+                "from": "movement/zimbabwe-stone-architecture",
+                "type": "diffused_to",
+                "to": "place/berlin",
+                "certainty": "scholarly",
+                "source": "https://en.wikipedia.org/wiki/Zimbabwe_Bird"
+              }
+            ],
+            "destination_regions": [
+              "europe-west"
+            ]
+          }
+        ],
+        "reasons": [
+          "1経路で起源region外へ到達"
+        ],
+        "review": null
       }
     ]
   },
   "cross_region_baseline": {
     "schema_version": 1,
     "source_commit": "bd15d4c707d6c2fff84ff0c763a993f94cbc3589",
-    "movement_count": 44,
+    "movement_count": 75,
     "movement_ids": [
+      "movement/ai-bigeiken",
+      "movement/alaouite-imperial-architecture",
       "movement/arts-and-crafts",
       "movement/bamana-sculpture",
       "movement/barbizon-school",
+      "movement/bark-painting",
       "movement/baroque",
+      "movement/barroco-mineiro",
+      "movement/brancovenesc-art",
       "movement/byzantine-art",
+      "movement/coffin-portrait",
+      "movement/colonial-limner-painting",
+      "movement/computer-art",
+      "movement/conceptual-art",
       "movement/constructivism",
       "movement/cubism",
       "movement/de-stijl",
       "movement/dong-ho-painting",
+      "movement/early-ottoman-architecture",
       "movement/expressionism",
       "movement/four-wangs",
       "movement/futurism",
+      "movement/golden-horde-art",
+      "movement/gujarat-sultanate-architecture",
       "movement/harlem-renaissance",
+      "movement/hawaiian-featherwork",
       "movement/italian-divisionism",
       "movement/jain-manuscript-painting",
       "movement/jinling-eight-masters",
+      "movement/kakatiya-art",
       "movement/kamasan-painting",
       "movement/karma-gardri",
       "movement/khyenri-school",
+      "movement/kisalian-culture-art",
       "movement/kowhaiwhai",
+      "movement/lan-xang-art",
       "movement/lapita-pottery",
+      "movement/latte-stone-architecture",
       "movement/literati-painting",
       "movement/makonde-carving",
+      "movement/malacca-sultanate-art",
       "movement/mandalay-style",
       "movement/mannerism",
+      "movement/melayu-mauli-buddhist-art",
       "movement/mexican-muralism",
+      "movement/mongol-zurag",
       "movement/mono-ha",
+      "movement/moscow-school-icon-painting",
+      "movement/muhammad-ali-mosque-architecture",
+      "movement/nan-madol-architecture",
       "movement/neoclassicism",
       "movement/newar-art",
       "movement/nihonga",
       "movement/northwest-coast-carving",
       "movement/ottoman-miniature",
+      "movement/pa-fortification-architecture",
       "movement/realism",
       "movement/rinpa",
       "movement/rococo",
+      "movement/santero",
       "movement/shanghai-school",
       "movement/shiraz-school",
       "movement/song-academy-painting",
       "movement/songjiang-school",
+      "movement/southeastern-ceremonial-complex",
+      "movement/stroganov-school",
+      "movement/sudano-sahelian-architecture",
       "movement/suprematism",
       "movement/surrealism",
+      "movement/tarnovo-artistic-school",
+      "movement/tongan-langi-architecture",
+      "movement/ukrainian-baroque",
       "movement/utagawa-school",
       "movement/wu-school",
       "movement/zhe-school"

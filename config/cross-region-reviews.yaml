@@ -1,4 +1,32 @@
 reviews:
+- movement_id: movement/ai-bigeiken
+  status: no-documented-cross-region-relation
+  checked: '2026-09-15'
+  note: 2026-09-15時点で、movement→movement relation、movement→placeのdiffused_to、space.active_in、movement→event/orgのexhibited_at→held_at/sited_inの4経路を、当該movementに登録された資料を対象に確認した。発起人29名のうち27名の氏名・発足地の都市自体が公式サイトから特定できず（originated_inは空欄で発生地未確認）、公式サイトが記録する展覧会「人工知能美学芸術展」（2017-18年、沖縄科学技術大学院大学）も国内会場である。海外への書籍販売の事実は確認できるが、venueへのexhibited_atやplaceへのdiffused_toに当たる資料化された接続ではない。起源regionが未確定であることを含め、4経路による域外接続は確認できない。
+  sources:
+  - https://www.aibigeiken.com/
+  - http://aloalo.co.jp/nakazawa/2016/0501b_j.html
+- movement_id: movement/alaouite-imperial-architecture
+  status: no-documented-cross-region-relation
+  checked: '2026-09-16'
+  note: 2026-09-16時点で、movement→movement relation、movement→placeのdiffused_to、space.active_in、movement→event/orgのexhibited_at→held_at/sited_inの4経路を、当該movementに登録された資料を対象に確認した。ルイ14世からの外交贈答品（時計）がメクネスに現存する記録は見つけたが、これはフランスからモロッコへの一方向の贈答であり、本movement自体がeurope-westへ拡散した記録ではない。起源region外への文書化された接続は現時点で確認できない。
+  sources:
+  - https://www.wikidata.org/wiki/Q178663
+  - https://en.wikipedia.org/wiki/Meknes
+- movement_id: movement/coffin-portrait
+  status: no-documented-cross-region-relation
+  checked: '2026-09-15'
+  note: 2026-09-15時点で、movement→movement relation、movement→placeのdiffused_to、space.active_in、movement→event/orgのexhibited_at→held_at/sited_inの4経路を、当該movementに登録された資料を対象に確認した。ポーランド・リトアニア共和国以外でこの形式の肖像画は作られなかったとされ、海外美術館収蔵などeurope-east外への文書化された接続は確認できない。
+  sources:
+  - https://www.wikidata.org/wiki/Q1542239
+  - https://en.wikipedia.org/wiki/Coffin_portrait
+- movement_id: movement/colonial-limner-painting
+  status: no-documented-cross-region-relation
+  checked: '2026-09-15'
+  note: 2026-09-15時点で、movement→movement relation、movement→placeのdiffused_to、space.active_in、movement→event/orgのexhibited_at→held_at/sited_inの4経路を、当該movementに登録された資料を対象に確認した。フリーク＝ギブス画家らボストンのリムナーはイギリスのエリザベス朝〜初期バロック様式の影響を受けたとされるが、その影響元をmovementエンティティとして登録しておらず、relationsに接続先がない。植民地内での地方への伝播はあり得るが、起源regionと同じamericas-north内にとどまるため4経路の対象にならない。起源region外への文書化された接続は現時点で確認できない。
+  sources:
+  - https://www.wikidata.org/wiki/Q1825525
+  - https://en.wikipedia.org/wiki/Freake_Painter
 - movement_id: movement/arts-and-crafts
   status: no-documented-cross-region-relation
   checked: '2026-08-25'
@@ -27,6 +55,13 @@ reviews:
   sources:
   - https://www.metmuseum.org/ko/essays/baroque-rome
   - https://www.wikidata.org/wiki/Q37853
+- movement_id: movement/barroco-mineiro
+  status: no-documented-cross-region-relation
+  checked: '2026-09-15'
+  note: 2026-09-15時点で、movement→movement relation、movement→placeのdiffused_to、space.active_in、movement→event/orgのexhibited_at→held_at/sited_inの4経路を、当該movementに登録された資料を対象に確認した。アレイジャジーニョらの作品はほぼ全てミナスジェライス州内に残っており、海外の美術館収蔵などamericas-latin外への文書化された接続は確認できない。
+  sources:
+  - https://www.wikidata.org/wiki/Q16142974
+  - https://en.wikipedia.org/wiki/Aleijadinho
 - movement_id: movement/byzantine-art
   status: no-documented-cross-region-relation
   checked: '2026-08-25'
@@ -62,6 +97,13 @@ reviews:
   sources:
   - https://ich.unesco.org/en/decisions/20.COM/7.A.1
   - https://en.wikipedia.org/wiki/%C4%90%C3%B4ng_H%E1%BB%93_painting
+- movement_id: movement/early-ottoman-architecture
+  status: no-documented-cross-region-relation
+  checked: '2026-09-16'
+  note: 2026-09-16時点で、movement→movement relation、movement→placeのdiffused_to、space.active_in、movement→event/orgのexhibited_at→held_at/sited_inの4経路を、当該movementに登録された資料を対象に確認した。建築中心の様式であり可動作品の海外収蔵自体が想定しにくく、起源region外への文書化された接続は確認できない。
+  sources:
+  - https://www.wikidata.org/wiki/Q1549086
+  - https://en.wikipedia.org/wiki/Green_Mosque,_Bursa
 - movement_id: movement/expressionism
   status: no-documented-cross-region-relation
   checked: '2026-08-25'
@@ -83,6 +125,20 @@ reviews:
   sources:
   - https://archive.org/details/f.t.-marinetti-manifeste-du-futurism-1909
   - https://gallica.bnf.fr/ark:/12148/bpt6k2883730
+- movement_id: movement/golden-horde-art
+  status: no-documented-cross-region-relation
+  checked: '2026-09-16'
+  note: 2026-09-16時点で、movement→movement relation、movement→placeのdiffused_to、space.active_in、movement→event/orgのexhibited_at→held_at/sited_inの4経路を、当該movementに登録された資料を対象に確認した。エルミタージュ美術館・国立歴史博物館（いずれもロシア国内、europe-east）の収蔵は確認できたが、europe-east外への文書化された接続は現時点で確認できない。
+  sources:
+  - https://www.wikidata.org/wiki/Q79965
+  - https://en.wikipedia.org/wiki/Golden_Horde
+- movement_id: movement/gujarat-sultanate-architecture
+  status: no-documented-cross-region-relation
+  checked: '2026-09-16'
+  note: 2026-09-16時点で、movement→movement relation、movement→placeのdiffused_to、space.active_in、movement→event/orgのexhibited_at→held_at/sited_inの4経路を、当該movementに登録された資料を対象に確認した。ヴィクトリア＆アルバート博物館所蔵のグジャラート産工芸品は確認できたが、いずれもスルターン朝独立期（〜1573年）ではなくムガル支配下（1573年以降）に制作された可能性が高く、本項の範囲との対応を確認できなかったため接続には数えていない。起源region外への文書化された接続は現時点で確認できない。
+  sources:
+  - https://www.wikidata.org/wiki/Q507796
+  - https://en.wikipedia.org/wiki/Gujarat_Sultanate
 - movement_id: movement/harlem-renaissance
   status: no-documented-cross-region-relation
   checked: '2026-08-25'
@@ -188,6 +244,20 @@ reviews:
   sources:
   - https://en.wikipedia.org/wiki/Mono-ha
   - https://artscape.jp/artword/6888/
+- movement_id: movement/moscow-school-icon-painting
+  status: no-documented-cross-region-relation
+  checked: '2026-09-15'
+  note: 2026-09-15時点で、movement→movement relation、movement→placeのdiffused_to、space.active_in、movement→event/orgのexhibited_at→held_at/sited_inの4経路を、当該movementに登録された資料を対象に確認した。relationsに張ったinfluenced_by movement/byzantine-artは、config/place-region-history.yamlがイスタンブールを330〜1453年（東ローマ帝国の首都だった期間）はeurope-eastと時代限定で上書きしているため、モスクワ派の活動期と重なりregions_of上は同一region（europe-east）となり、4経路の接続としては機能しない。西側美術館へのイコン収蔵など他の接続も今回は確認できず、起源region外への文書化された接続は現時点で確認できない。
+  sources:
+  - https://www.wikidata.org/wiki/Q122978289
+  - https://en.wikipedia.org/wiki/Moscow_School
+- movement_id: movement/nan-madol-architecture
+  status: no-documented-cross-region-relation
+  checked: '2026-09-16'
+  note: 2026-09-16時点で、movement→movement relation、movement→placeのdiffused_to、space.active_in、movement→event/orgのexhibited_at→held_at/sited_inの4経路を、当該movementに登録された資料を対象に確認した。遠隔の孤立した遺跡であり、検索した範囲では海外美術館収蔵などoceania外への文書化された接続は確認できない。
+  sources:
+  - https://www.wikidata.org/wiki/Q846967
+  - https://en.wikipedia.org/wiki/Saudeleur_dynasty
 - movement_id: movement/neoclassicism
   status: no-documented-cross-region-relation
   checked: '2026-08-25'
@@ -244,6 +314,13 @@ reviews:
   sources:
   - https://resources.metmuseum.org/resources/metpublications/pdf/Vienna_Circa_1780_An_Imperial_Silver_Service_Rediscovered.pdf
   - https://www.wikidata.org/wiki/Q122960
+- movement_id: movement/santero
+  status: no-documented-cross-region-relation
+  checked: '2026-09-16'
+  note: 2026-09-16時点で、movement→movement relation、movement→placeのdiffused_to、space.active_in、movement→event/orgのexhibited_at→held_at/sited_inの4経路を、当該movementに登録された資料を対象に確認した。作例の収蔵先はいずれも米国内（Museum of International Folk Art、Palace of the Governorsなど）で、americas-north外への文書化された接続は確認できない。
+  sources:
+  - https://www.wikidata.org/wiki/Q30213495
+  - https://blog.nmhistorymuseum.org/2011/09/exploring-the-global-roots-of-santeros/
 - movement_id: movement/shanghai-school
   status: no-documented-cross-region-relation
   checked: '2026-08-25'
@@ -272,6 +349,20 @@ reviews:
   sources:
   - https://www.shanghaimuseum.net/mu/frontend/pg/m/article/id/RI00004055
   - https://zh.wikipedia.org/zh-hans/%E6%9D%BE%E6%B1%9F%E7%94%BB%E6%B4%BE
+- movement_id: movement/stroganov-school
+  status: no-documented-cross-region-relation
+  checked: '2026-09-16'
+  note: 2026-09-16時点で、movement→movement relation、movement→placeのdiffused_to、space.active_in、movement→event/orgのexhibited_at→held_at/sited_inの4経路を、当該movementに登録された資料を対象に確認した。起源region外への文書化された接続は確認できない。
+  sources:
+  - https://www.wikidata.org/wiki/Q1968335
+  - https://en.wikipedia.org/wiki/Stroganov_School
+- movement_id: movement/sudano-sahelian-architecture
+  status: no-documented-cross-region-relation
+  checked: '2026-09-16'
+  note: 2026-09-16時点で、movement→movement relation、movement→placeのdiffused_to、space.active_in、movement→event/orgのexhibited_at→held_at/sited_inの4経路を、当該movementに登録された資料を対象に確認した。トンブクトゥ写本の一部はライブラリー・オブ・コングレス・大英図書館がデジタル化に関わっているが、原本はマリ国内の家族図書館に残り続けており、物理的な資料の域外への移動ではない。起源region外への文書化された接続は現時点で確認できない。
+  sources:
+  - https://www.wikidata.org/wiki/Q489021
+  - https://en.wikipedia.org/wiki/Sudano-Sahelian_architecture
 - movement_id: movement/suprematism
   status: no-documented-cross-region-relation
   checked: '2026-08-25'
@@ -307,3 +398,87 @@ reviews:
   sources:
   - https://ja.wikipedia.org/wiki/%E6%B5%99%E6%B4%BE
   - https://www.hkpm.org.hk/en/visit/audio-guide/g4-stories-untold
+- movement_id: movement/ukrainian-baroque
+  status: no-documented-cross-region-relation
+  checked: '2026-09-16'
+  note: 2026-09-16時点で、movement→movement relation、movement→placeのdiffused_to、space.active_in、movement→event/orgのexhibited_at→held_at/sited_inの4経路を、当該movementに登録された資料を対象に確認した。起源region外への文書化された接続は確認できない。
+  sources:
+  - https://www.wikidata.org/wiki/Q1542287
+  - https://en.wikipedia.org/wiki/Ukrainian_Baroque
+- movement_id: movement/brancovenesc-art
+  status: no-documented-cross-region-relation
+  checked: '2026-09-16'
+  note: 2026-09-16時点で、movement→movement relation、movement→placeのdiffused_to、space.active_in、movement→event/orgのexhibited_at→held_at/sited_inの4経路を、当該movementに登録された資料を対象に確認した。建築中心の様式であり可動作品の海外収蔵自体が想定しにくく、起源region外への文書化された接続は確認できない。
+  sources:
+  - https://www.wikidata.org/wiki/Q460596
+  - https://en.wikipedia.org/wiki/Br%C3%A2ncovenesc_art
+- movement_id: movement/southeastern-ceremonial-complex
+  status: no-documented-cross-region-relation
+  checked: '2026-09-16'
+  note: 2026-09-16時点で、movement→movement relation、movement→placeのdiffused_to、space.active_in、movement→event/orgのexhibited_at→held_at/sited_inの4経路を、当該movementに登録された資料を対象に確認した。検索した範囲では、海外美術館収蔵などamericas-north外への文書化された接続は確認できない。
+  sources:
+  - https://www.wikidata.org/wiki/Q3492313
+  - https://en.wikipedia.org/wiki/Southeastern_Ceremonial_Complex
+- movement_id: movement/pa-fortification-architecture
+  status: no-documented-cross-region-relation
+  checked: '2026-09-17'
+  note: 2026-09-17時点で、movement→movement relation、movement→placeのdiffused_to、space.active_in、movement→event/orgのexhibited_at→held_at/sited_inの4経路を、当該movementに登録された資料を対象に確認した。ンガーロト湖出土の彫刻木工品はニュージーランド国内のテ・アワムトゥ博物館に展示されるのみで、検索した範囲ではパーの建築様式・彫刻がニュージーランド域外の博物館等へ拡散した文書化された記録を確認できなかった。起源region外への文書化された接続は現時点で確認できない。
+  sources:
+  - https://www.wikidata.org/wiki/Q1234236
+  - https://en.wikipedia.org/wiki/P%C4%81
+- movement_id: movement/kisalian-culture-art
+  status: no-documented-cross-region-relation
+  checked: '2026-09-17'
+  note: 2026-09-17時点で、movement→movement relation、movement→placeのdiffused_to、space.active_in、movement→event/orgのexhibited_at→held_at/sited_inの4経路を、当該movementに登録された資料を対象に確認した。検索した範囲では、キサレ文化の副葬品がコンゴ民主共和国域外の博物館等へ拡散した文書化された記録を確認できなかった。起源region外への文書化された接続は現時点で確認できない。
+  sources:
+  - https://en.wikipedia.org/wiki/Kisalian_Graves
+  - https://www.wikidata.org/wiki/Q681743
+- movement_id: movement/melayu-mauli-buddhist-art
+  status: no-documented-cross-region-relation
+  checked: '2026-09-16'
+  note: 2026-09-16時点で、movement→movement relation、movement→placeのdiffused_to、space.active_in、movement→event/orgのexhibited_at→held_at/sited_inの4経路を、当該movementに登録された資料を対象に確認した。1183年のグラヒ碑文の発見地（現タイ領マレー半島）はマラユ王国の版図内であり、現タイ・現インドネシアはいずれも本KBのregionバケット上asia-southeast内のため域外接続に当たらない。起源region外への文書化された接続は現時点で確認できない。
+  sources:
+  - https://www.wikidata.org/wiki/Q3112053
+  - https://en.wikipedia.org/wiki/Melayu_Kingdom
+- movement_id: movement/tongan-langi-architecture
+  status: no-documented-cross-region-relation
+  checked: '2026-09-16'
+  note: 2026-09-16時点で、movement→movement relation、movement→placeのdiffused_to、space.active_in、movement→event/orgのexhibited_at→held_at/sited_inの4経路を、当該movementに登録された資料を対象に確認した。石造の墓所建築という性質上可搬性の高い作例が乏しく、検索した範囲ではラーンギ建築や関連副葬品がトンガ域外の博物館へ収蔵された記録を確認できなかった。起源region外への文書化された接続は現時点で確認できない。
+  sources:
+  - https://www.wikidata.org/wiki/Q2359181
+  - https://en.wikipedia.org/wiki/Monuments_of_Tonga
+- movement_id: movement/malacca-sultanate-art
+  status: no-documented-cross-region-relation
+  checked: '2026-09-16'
+  note: 2026-09-16時点で、movement→movement relation、movement→placeのdiffused_to、space.active_in、movement→event/orgのexhibited_at→held_at/sited_inの4経路を、当該movementに登録された資料を対象に確認した。明朝との朝貢関係、1511年のポルトガルによる征服・王家の宝物接収という2つの対外接続を確認したが、いずれも作品・様式そのものが域外の博物館等へ拡散した文書化された記録には至らなかった（ポルトガル接収の宝物は「王室に還元された」とのみ記され、その後の所在は出典に記載無し）。起源region外への文書化された接続は現時点で確認できない。
+  sources:
+  - https://www.wikidata.org/wiki/Q46652
+  - https://en.wikipedia.org/wiki/Malacca_Sultanate
+- movement_id: movement/lan-xang-art
+  status: no-documented-cross-region-relation
+  checked: '2026-09-16'
+  note: 2026-09-16時点で、movement→movement relation、movement→placeのdiffused_to、space.active_in、movement→event/orgのexhibited_at→held_at/sited_inの4経路を、当該movementに登録された資料を対象に確認した。護持仏プラバーンは1778年・1828年の2度シャム（現タイ）軍によりバンコクへ運ばれたが、シャム・タイも本KBのregionバケット上はasia-southeast内であり域外接続に当たらない。起源region外への文書化された接続は現時点で確認できない。
+  sources:
+  - https://www.wikidata.org/wiki/Q853477
+  - https://en.wikipedia.org/wiki/Lan_Xang
+- movement_id: movement/latte-stone-architecture
+  status: no-documented-cross-region-relation
+  checked: '2026-09-16'
+  note: 2026-09-16時点で、movement→movement relation、movement→placeのdiffused_to、space.active_in、movement→event/orgのexhibited_at→held_at/sited_inの4経路を、当該movementに登録された資料を対象に確認した。石造構造物という性質上可搬性の高い作例が乏しく、検索した範囲ではラッテ・ストーンやチャモロの工芸品がマリアナ諸島外の博物館へ収蔵された記録を確認できなかった。起源region外への文書化された接続は現時点で確認できない。
+  sources:
+  - https://www.wikidata.org/wiki/Q4211672
+  - https://en.wikipedia.org/wiki/Latte_stone
+- movement_id: movement/muhammad-ali-mosque-architecture
+  status: no-documented-cross-region-relation
+  checked: '2026-09-16'
+  note: 2026-09-16時点で、movement→movement relation、movement→placeのdiffused_to、space.active_in、movement→event/orgのexhibited_at→held_at/sited_inの4経路を、当該movementに登録された資料を対象に確認した。中庭のフランス製大時計塔（1846年、ルイ・フィリップからの贈答）はeurope-westからmenaへの受け入れであり、本movement自身の様式・作品が域外へ拡散した記録ではない。様式の範としたイスタンブールもmena内（regionバケット上）であり域外接続に当たらない。起源region外への文書化された接続は現時点で確認できない。
+  sources:
+  - https://www.wikidata.org/wiki/Q652046
+  - https://en.wikipedia.org/wiki/Mosque_of_Muhammad_Ali
+- movement_id: movement/kakatiya-art
+  status: no-documented-cross-region-relation
+  checked: '2026-09-16'
+  note: 2026-09-16時点で、movement→movement relation、movement→placeのdiffused_to、space.active_in、movement→event/orgのexhibited_at→held_at/sited_inの4経路を、当該movementに登録された資料を対象に確認した。ラーマッパ寺院・千柱寺院とも現地に残る石造の建築装飾彫刻であり、大英博物館・メトロポリタン美術館のオンラインコレクション検索でも該当収蔵品を確認できなかった（メトロポリタン美術館は429エラー、大英博物館は403エラーで直接アクセスできず、検索エンジン経由の間接確認にとどまる）。起源region外への文書化された接続は現時点で確認できない。
+  sources:
+  - https://www.wikidata.org/wiki/Q108907973
+  - https://en.wikipedia.org/wiki/Kakatiya_dynasty

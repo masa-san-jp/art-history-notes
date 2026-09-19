@@ -1,17 +1,51 @@
 {
-  "as_of": "2026-09-14",
-  "movement_total": 119,
+  "as_of": "2026-09-17",
+  "movement_total": 180,
   "movement_stub_excluded": 0,
   "by_status": {
-    "draft": 0,
+    "draft": 61,
     "stub": 0,
     "verified": 119
   },
   "grid": {
     "americas-north": {
-      "20": 3,
+      "20": 4,
+      "17": 1,
       "19": 1,
-      "unknown": 1
+      "unknown": 1,
+      "18": 1,
+      "13": 1
+    },
+    "origin-unknown": {
+      "21": 1,
+      "11": 1
+    },
+    "africa-sub": {
+      "15": 1,
+      "unknown": 2,
+      "19": 1,
+      "13": 1,
+      "20": 3,
+      "17": 1,
+      "11": 1,
+      "9": 1,
+      "12": 2,
+      "10": 1,
+      "16": 1,
+      "18": 1,
+      "-9": 1,
+      "14": 1
+    },
+    "mena": {
+      "17": 1,
+      "20": 3,
+      "12": 1,
+      "15": 1,
+      "13": 1,
+      "19": 1,
+      "18": 2,
+      "16": 1,
+      "14": 1
     },
     "asia-east-korea": {
       "15": 1,
@@ -22,19 +56,16 @@
     },
     "americas-latin": {
       "20": 5,
-      "16": 2
-    },
-    "mena": {
-      "20": 3,
-      "12": 1,
       "18": 1,
-      "16": 1,
-      "14": 1
+      "16": 2,
+      "15": 1,
+      "19": 1,
+      "17": 1
     },
     "europe-west": {
       "19": 9,
       "16": 2,
-      "20": 9,
+      "20": 10,
       "12": 1,
       "18": 2,
       "14": 1,
@@ -42,38 +73,60 @@
       "15": 1
     },
     "oceania": {
-      "unknown": 4,
-      "19": 1,
-      "20": 1
-    },
-    "africa-sub": {
-      "unknown": 2,
-      "13": 1,
-      "20": 3,
-      "17": 1,
+      "unknown": 6,
+      "10": 1,
+      "15": 1,
       "11": 1,
-      "-9": 1
+      "13": 1,
+      "19": 1,
+      "14": 1,
+      "20": 1,
+      "6": 1,
+      "16": 1,
+      "18": 1
     },
     "asia-southeast": {
+      "11": 1,
       "20": 4,
+      "6": 1,
       "17": 1,
+      "10": 1,
       "16": 1,
+      "9": 1,
+      "14": 1,
+      "15": 1,
       "19": 1,
-      "18": 1
+      "12": 1,
+      "18": 1,
+      "7": 1,
+      "13": 1
     },
     "asia-south": {
       "17": 3,
       "20": 2,
+      "9": 1,
       "18": 2,
       "16": 2,
+      "15": 1,
+      "12": 1,
       "11": 1,
-      "unknown": 1
+      "13": 1,
+      "19": 1,
+      "unknown": 1,
+      "8": 1,
+      "14": 1
     },
     "europe-east": {
+      "17": 2,
       "4": 1,
+      "16": 2,
       "20": 3,
+      "13": 1,
+      "15": 1,
       "12": 1,
-      "19": 1
+      "19": 1,
+      "18": 1,
+      "14": 1
     },
     "asia-east-china": {
       "16": 2,
@@ -96,31 +149,32 @@
     "asia-central": {
       "15": 3,
       "16": 1,
+      "19": 1,
+      "20": 1,
+      "18": 1,
       "17": 1
-    },
-    "origin-unknown": {
-      "11": 1
     },
     "origin-multiple": {
       "15": 1
     }
   },
   "per_bucket": {
-    "europe-west": 26,
-    "europe-east": 6,
-    "americas-north": 5,
-    "mena": 7,
-    "africa-sub": 9,
-    "asia-central": 5,
-    "asia-south": 11,
-    "asia-southeast": 8,
+    "europe-west": 27,
+    "europe-east": 14,
+    "americas-north": 9,
+    "mena": 12,
+    "africa-sub": 18,
+    "asia-central": 8,
+    "asia-south": 18,
+    "asia-southeast": 17,
     "asia-east-china": 9,
     "asia-east-korea": 5,
     "asia-east-japan": 13,
-    "americas-latin": 7,
-    "oceania": 6
+    "americas-latin": 11,
+    "oceania": 16
   },
   "origin_unknown": [
+    "movement/ai-bigeiken",
     "movement/literati-painting"
   ],
   "origin_multiple": [
@@ -135,10 +189,10 @@
   "isolated": [],
   "no_known_grouping": [],
   "progress": {
-    "movement_total": "119/100（stub 0件は不算入）",
-    "non_west_ratio": "0.67/0.5",
+    "movement_total": "180/100（stub 0件は不算入）",
+    "non_west_ratio": "0.71/0.5",
     "per_bucket_min": "13/13 バケットが 3件以上",
-    "pre_1800_ratio": "0.48/0.3",
+    "pre_1800_ratio": "0.59/0.3",
     "isolated_ratio": "0.00（上限 0.1）"
   },
   "verified_movement": {

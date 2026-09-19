@@ -81,6 +81,8 @@ Agentic Artは、生成AIを「古代の芸術家に霊感を与えた精霊の�
 コピーして統合しません。横断利用が必要な場合は、[`agentic-art-orchestration`](https://github.com/masa-san-jp/agentic-art-orchestration)
 がsource commit、manifest、依存関係、境界形式を管理します。
 
+8リポジトリの全体図と、各repoの正本・受け渡し・公開境界は、親repoの [repository map](https://github.com/masa-san-jp/agentic-art-orchestration/blob/main/docs/repository-map.md) にまとめています。ここではart-history-notesから見た接続だけを説明します。
+
 ```text
 input KBs: self-model / art-history / marketing / viewer-response
                               │
@@ -103,6 +105,7 @@ input KBs: self-model / art-history / marketing / viewer-response
 | [agentic-art-production](https://github.com/masa-san-jp/agentic-art-production) | research handoffから制作計画・実行・結果記録を扱うrepo | researchのさらに下流。実作品やproduction projectはこのrepoに保存しません |
 | [viewer-response-notes](https://github.com/masa-san-jp/viewer-response-notes) | viewer反応のprivacy-safeな集計と保守的な制作要件評価 | 横断的なfeedback入力。生回答やPIIをこのrepoへ持ち込みません |
 | [agentic-art-orchestration](https://github.com/masa-san-jp/agentic-art-orchestration) | 上記repoをsource commit固定で横断利用するcontrol plane | 親のデータベースではありません。各repoの正本性を保ったまま接続します |
+| [agentic-art-project](https://github.com/masa-san-jp/agentic-art-project) | 公開制作プラン、作品、制作記録のカタログ | art-historyのentity本文を直接公開せず、Research・Production・Orchestrationの検証済み境界を経た成果だけが公開されます |
 
 このrepo単体で美術史データの閲覧・検索・検証・追記は完結します。横断的な調査や制作handoffが必要な
 場合だけ、orchestrationのrunbookと各repoのREADMEを参照してください。
@@ -139,6 +142,12 @@ git config core.hooksPath .githooks
 # キーワード、型、関係を含むまとまりを読む
 uv run --locked python tools/bundle.py --search 調和
 uv run --locked python tools/bundle.py movement/kano-school
+
+# テーマを渡して「既にあるか／被覆の空欄はどこか／予算」を1回でまとめる（検索語ごとに data/queries.jsonl へ記録）
+uv run --locked python tools/theme_research.py --theme "ムガル絵画" --theme "Mughal painting" --json
+# 調査→owner intake の candidate.json 骨格を出す（docs/theme-research-cycle.md §5 R3、出典や主張は推測しない）
+uv run --locked python tools/theme_research.py --theme "ムガル絵画" --emit-candidate-template \
+  --creator <creator> --collection <collection> --project-id <project> --origin-instance-id <instance> --run-id <run>
 
 # 時間・地域・距離から同時代の候補を探す
 uv run --locked python tools/query_spacetime.py --at 1885
@@ -200,6 +209,13 @@ Agentの入口は [AGENTS.md](AGENTS.md) です。task contractがある場合�
 作業前baselineを記録し、許可されたscopeだけを変更し、最後にtask verifyを実行します。
 詳細な手順、責務境界、受入れ証跡は [`docs/agent/README.md`](docs/agent/README.md) を読んでください。
 
+下流（`agentic-art-research`等）でテーマに応じた調査を1回まとめて回したい場合は
+[`docs/agent/theme-research-task.md`](docs/agent/theme-research-task.md) の手順と
+[`.github/ISSUE_TEMPLATE/theme-research-task.md`](.github/ISSUE_TEMPLATE/theme-research-task.md)
+のcontractを使います。下流repoの`tools/art_history_adapter.py`はpinされたcommitのread-only参照
+のままで、この手順を自動では呼びません——ローカルcloneを持つ利用者が、使うたびに手動で回して
+知見を蓄積し、貯まった分だけ後から任意にremoteへpushします。
+
 このハーネスは、Agentを選定・起動・ホストする仕組みではありません。GitHub Actionsも検証だけを行い、
 Agent executable、モデルAPI、GitHub write権限、repository secretを要求しません。
 commit、push、PR、Issue更新は利用者が明示的に依頼した場合だけ行います。
@@ -225,4 +241,5 @@ GitHub Actionsには、正準検証用の `validate.yml` と、Agent interface�
 - [`docs/investigation-task.md`](docs/investigation-task.md)：1件の調査手順
 - [`docs/context-investigation-task.md`](docs/context-investigation-task.md)：時代文脈の調査手順
 - [`docs/agent/acceptance.md`](docs/agent/acceptance.md)：Agent interfaceとE2Eの対応表
+- [`docs/theme-research-cycle.md`](docs/theme-research-cycle.md)：実行1回につきテーマ調査を1回回し、ローカルに蓄積し、任意でremoteへ還元する仕様（提案）
 - [`docs/for-other-personas.md`](docs/for-other-personas.md)：他の人格が読むときの扱い
