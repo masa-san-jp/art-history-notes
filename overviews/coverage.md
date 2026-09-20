@@ -1,5 +1,5 @@
 ---
-as_of: 2026-09-17
+as_of: 2026-09-21
 depends_on: []
 ---
 
@@ -12,7 +12,7 @@ depends_on: []
 受け入れ条件の閾値も同じファイルに置いてある（issue #1 と対応）。
 
 <!-- generated:coverage:start -->
-データの最新日: 2026-09-17 — `uv run --locked python tools/build_graph.py` が生成（手で書き換えない）
+データの最新日: 2026-09-21 — `uv run --locked python tools/build_graph.py` が生成（手で書き換えない）
 
 movement **180** 件（stub 0件は不算入）／内訳 {'draft': 61, 'stub': 0, 'verified': 119}
 
@@ -39,11 +39,10 @@ movement **180** 件（stub 0件は不算入）／内訳 {'draft': 61, 'stub': 0
 
 **探されたが無かった語**（需要のシグナル。多い順）:
 
-- トロンプルイユ — 2回
 - パタゴニア先住民美術 — 1回
 - trompe-l'oeil — 1回
 
-探された当時は無く、いまは入っている語: ムガル, 浮世絵
+探された当時は無く、いまは入っている語: トロンプルイユ, ムガル, 浮世絵
 
 受け入れ条件の達成度:
 

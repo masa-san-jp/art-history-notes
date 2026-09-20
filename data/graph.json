@@ -349,6 +349,48 @@
       "updated": "2026-08-09",
       "path": "entities/concepts/minhwa.md"
     },
+    "concept/trompe-loeil": {
+      "id": "concept/trompe-loeil",
+      "uri": "urn:ahn:concept/trompe-loeil",
+      "type": "concept",
+      "label_ja": "トロンプルイユ",
+      "label_en": "Trompe-l'œil",
+      "authority": {
+        "wikidata": "Q468930",
+        "aat": "300056506",
+        "ulan": null,
+        "tgn": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": "0070",
+        "end": "..",
+        "display": "技法自体の古い例としてポンペイの静物画（西暦70年頃）が現存する。ゼウクシスと パラシオスの故事（紀元前5世紀）はより古い言及だが、Wikipedia自身が『繰り返し語られて きた古代ギリシアの逸話』とし史実性を留保しているため起点には採らなかった。『トロンプ ルイユ』という語自体の初出は、画家ルイ=レオポルド・ボワイーが1800年のパリ・サロンに 出品した1点の絵画の題名として用いたことに帰される（技法の古さと呼称の初出は別の事実）。 技法は現在も継続して用いられる"
+      },
+      "space": [],
+      "relations": [],
+      "sources": [
+        {
+          "url": "https://www.wikidata.org/wiki/Q468930",
+          "kind": "authority"
+        },
+        {
+          "url": "https://www.getty.edu/vow/AATFullDisplay?find=trompe+l%27oeil&logic=AND&note=&english=Y&subjectid=300056506",
+          "kind": "authority",
+          "note": "Getty AAT（主題ID 300056506）。フランス語で『目を欺く』の意とし、彩色による 質感・偽の窓・偽の額縁による空間の錯視、棚や戸棚の描写を含む技法とする。古代ギリシア 美術に見られ、古代ローマで洗練され、ルネサンス期とその後のヨーロッパ・アメリカで 流行したと記す。階層は『視覚・表象概念 > 幻視主義（illusionism） > トロンプルイユ』"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Trompe-l%27%C5%93il",
+          "kind": "reference",
+          "note": "『Trompe-l'œil』の項。語自体の由来を、画家ルイ=レオポルド・ボワイーが1800年の パリ・サロンに出品した1点の絵画の題名として用いたことに帰すると記す。ゼウクシスが 描いた葡萄に鳥が舞い降りたという故事（繰り返し語られてきた古代ギリシアの逸話、 史実性は留保）、ライバルのパラシオスがゼウクシスを騙して幕を引かせようとした逸話、 ポンペイ出土の静物画（西暦70年頃）を古代の例として挙げる。17世紀の遠近法理論により 壁面・天井を絵画で『開く』手法クアドラトゥーラが発達し、アンドレア・ポッツォによる ローマ、サンティニャツィオ教会天井画『聖イグナティウスの功徳』、ウィーンのイエズス会 教会のわずかに湾曲しただけで本物の建築のような印象を与えるドームを代表例として挙げる。 19世紀アメリカの静物画家ウィリアム・ハーネットがこの技法を得意とし、ジョン・ ハーバールも《独身者の抽斗》（1890-1894年）などを制作したと記す"
+        }
+      ],
+      "status": "draft",
+      "updated": "2026-09-21",
+      "path": "entities/concepts/trompe-loeil.md"
+    },
     "concept/ukiyo-e": {
       "id": "concept/ukiyo-e",
       "uri": "urn:ahn:concept/ukiyo-e",
