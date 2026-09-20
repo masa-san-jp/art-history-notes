@@ -88,16 +88,19 @@ local clone; nothing here changes the adapter's pinned, read-only contract on th
 ## 経路B — 手動: store の record を canonical `entities/` へ昇格（このページの残り）
 
 貯まった record のうち共有価値のあるものを、利用者が選んで共有リポジトリへ返す経路。
-自動ではない。昇格した entity には **元 record への参照** を必ず残す（spec §5 R7-4、Phase 1の形式）:
+自動ではない。昇格した entity には **元 record への参照** を必ず残す（`docs/schema.md`
+`derived_from`、spec §5 R7-4）:
 
 ```yaml
-sources:
-  - url: "https://example.org/read-source"
-    kind: reference
-    note: "origin: record_id=<record_id>; revision=<n>; origin_instance_id=<instance>; collection_id=<collection>"
+derived_from:
+  - origin_instance_id: "<instance>"
+    owner_repository: agentic-art-research
+    record_id: "<record_id>"
+    revision: 1
 ```
 
-`derived_from` 専用field への移行は別task（spec §5 R7-4）。それまでは上の `note` 形式を必須とする。
+`tools/build_graph.py --check` が4項目すべての存在・形式・重複を検証する。`collection_id` は
+`derived_from` には含めない（record自体を一意に指すのに不要——store側の`store.json`が持つ）。
 
 ## Using the GitHub issue template
 

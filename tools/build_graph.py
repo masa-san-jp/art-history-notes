@@ -18,6 +18,7 @@ import re
 from datetime import date
 
 from kb import (AUTHORITY_ID_PATTERNS, AUTHORITY_KEYS, CERTAINTIES, CLAIM_FIELDS_FOR_VERIFIED,
+                DERIVED_FROM_ID_RE, DERIVED_FROM_KEYS,
                 DIR_FOR_TYPE, ENTITIES, FOUNDING_CONTROL, IMAGE_LICENSES,
                 INTERPRETIVE_RELATIONS, MOVEMENT_KINDS, RELATION_TARGET_TYPES, RELATIONS, ROOT,
                 SPACE_ROLES, SPACE_TARGET_TYPES, STATUSES, TYPES, URI_PREFIX, alias_map,
@@ -177,6 +178,31 @@ def validate(entities, records, cfg, errors):
             if img.get("license") not in IMAGE_LICENSES:
                 err(f"{prefix}.license は {sorted(IMAGE_LICENSES)} のどれか"
                     f"（パブリックドメイン相当のみ／今: {img.get('license')}）")
+
+        seen_derived_from = set()
+        for index, ref in enumerate(meta.get("derived_from") or [], start=1):
+            prefix = f"derived_from[{index}]"
+            if not isinstance(ref, dict):
+                err(f"{prefix} はobjectが必要")
+                continue
+            unknown = set(ref) - DERIVED_FROM_KEYS
+            if unknown:
+                err(f"{prefix} に未知のkey: {sorted(unknown)}")
+            missing = DERIVED_FROM_KEYS - set(ref)
+            if missing:
+                err(f"{prefix} に必須keyが無い: {sorted(missing)}")
+            for field in ("origin_instance_id", "owner_repository", "record_id"):
+                value = ref.get(field)
+                if field in ref and (not isinstance(value, str) or not DERIVED_FROM_ID_RE.fullmatch(value)):
+                    err(f"{prefix}.{field} は識別子形式の文字列が必要（今: {value!r}）")
+            revision = ref.get("revision")
+            if "revision" in ref and (isinstance(revision, bool) or not isinstance(revision, int) or revision < 1):
+                err(f"{prefix}.revision は1以上の整数が必要（今: {revision!r}）")
+            if not unknown and not missing:
+                key = (ref["origin_instance_id"], ref["owner_repository"], ref["record_id"], ref["revision"])
+                if key in seen_derived_from:
+                    err(f"{prefix} が同じentity内で重複している: {key}")
+                seen_derived_from.add(key)
 
         for fn in meta.get("former_names") or []:
             if not fn.get("name"):

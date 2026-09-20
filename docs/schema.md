@@ -359,6 +359,34 @@ images:
 - 出どころの候補: Art Institute of Chicago（CC0）／Metropolitan Museum（Open Access CC0）／
   Cleveland Museum（CC0）／Rijksmuseum／National Gallery of Art／Wikimedia Commons（ファイル単位で確認）
 
+### `derived_from`（任意）— store由来のentityが元recordを指す
+
+`docs/theme-research-cycle.md`（theme-research-cycle/v1）の経路B（利用者ローカルのowner
+storeに貯まった調査記録を、手動でこのKBの `entities/` へ昇格する）で作ったentityは、
+元recordへの参照を機械可読に残す。
+
+```yaml
+derived_from:
+  - origin_instance_id: instance-a
+    owner_repository: agentic-art-research
+    record_id: theme-mughal-painting-01
+    revision: 1
+```
+
+**規律**:
+- 4項目すべて必須（`origin_instance_id` / `owner_repository` / `record_id` / `revision`）。
+  1つでも欠けたobjectはエラーになる
+- `origin_instance_id` / `owner_repository` / `record_id` は
+  `^[A-Za-z0-9][A-Za-z0-9._:-]{0,127}$`（agentic-art-research・art-history-notes双方の
+  owner intake が使う `artifact-record/v1` の識別子形式と同じ）
+- `revision` は1以上の整数
+- 同一entity内での重複参照（4項目すべて一致）はエラーになる
+- **手で書いた通常のentityには付けない**——付けるのは経路Bで実際にstoreのrecordから
+  昇格したときだけ。付けたからverifiedになるわけではなく、`status` は既存基準
+  （`claims`・`sources`）のまま判定する
+- 旧形式（`sources[].note` に `origin: record_id=…` と書く）は、この項目を追加する前の
+  段階導入としてのみ使った。新規の昇格はこの項目を使う
+
 ### `time` — EDTF（ISO 8601-2）Level 1 サブセット
 
 受ける形: `1884` / `0000`（紀元前1年）/ `-0001`（紀元前2年）/ `-0899`（紀元前900年）/ `1884-05` / `1884-05-20` /

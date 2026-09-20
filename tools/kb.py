@@ -42,6 +42,12 @@ CERTAINTIES = {"attested", "scholarly", "hypothesis"}
 SOURCE_KINDS = {"primary", "scholarly", "institutional", "authority", "reference"}
 SOURCE_KEYS = {"url", "kind", "note"}
 
+# store由来のentity（theme-research-cycle 経路B）が元recordを指す任意項目。
+# 識別子の正規表現は agentic-art-research/art-history-notes 双方の owner intake
+# （artifact-record/v1 の record_id / origin_instance_id / collection_id）と揃える。
+DERIVED_FROM_KEYS = {"origin_instance_id", "owner_repository", "record_id", "revision"}
+DERIVED_FROM_ID_RE = re.compile(r"^[A-Za-z0-9][A-Za-z0-9._:-]{0,127}$")
+
 # 構造的な関係（出典なしで書ける）
 STRUCTURAL_RELATIONS = {
     "created_by": "created", "belongs_to": "has_member", "member_of": "has_member",

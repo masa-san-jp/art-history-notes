@@ -6,7 +6,7 @@
 
 1. 「調べる人」は **Research repo（agentic-art-research）の手順** に置く（§6 P2が主、P1は補助）。
 2. 予算は **小さく固定して実測で上げる**（§5 R4: 1 run 1 pass／検索語≤4／candidate≤2／出典取得≤8／15分）。
-3. origin参照は **schema専用field `derived_from` を最終形** とし、段階導入する（§5 R7-4: まず `note`、次taskでfield必須化）。
+3. origin参照は **schema専用field `derived_from`**（§5 R7-4、実装済み: `docs/schema.md` + `build_graph.py` 検証）。
 4. mainの取り込みは **merge**（§9 Phase 0）。
 
 目的を一文で言うと——**制作計画の実行1回につき、そのテーマに応じた美術史調査が1回回り、結果がこのKBの
@@ -226,12 +226,13 @@ review:
    `tools/agent_task.py validate` → `agent_session.py begin` → 編集 → `agent_verify.py`。
    Issueとして起票するかは利用者の任意。
 3. 昇格したentityの `status` は `draft`。`verified` は既存基準を満たしたときだけ。
-4. **origin保持（確定: 最終形は専用field、段階導入）**: 最終形は `docs/schema.md` に
-   `derived_from`（`record_id` / `revision` / `origin_instance_id` / `collection_id` を持つ配列）を
-   追加し、`build_graph.py` が「store由来の昇格entityに `derived_from` が無い」を落とす。理由は
+4. **origin保持（実装済み、2026-09-20）**: `docs/schema.md` に `derived_from`
+   （`origin_instance_id` / `owner_repository` / `record_id` / `revision` を持つ配列）を追加した。
+   `tools/build_graph.py` が各項目の必須・形式（識別子正規表現・revisionは1以上の整数）・
+   entity内重複を検証する（`collection_id` は含めない——recordを一意に指すのに不要）。理由は
    本repoの設計原則「規律は文章ではなく検証器が落とす形にする」（`docs/design-fable-draft.md` §0）。
-   段階導入として、Phase 1では `sources[].note` に同じ4項目を書くことを必須とし、Phase 1完了後の
-   別taskで `derived_from` を追加・必須化し、`note` 記載分を移行する（AAK-06 要件4）。
+   段階導入で使っていた `sources[].note` 形式は、実際の昇格が無いうちに `derived_from` へ
+   置き換えたため移行対象は無い（AAK-06 要件4）。
 5. `build_graph.py --check` → `build_graph.py` → `audit.py` → `verify.py` を通し、利用者自身がcommitする。
 6. push / PR / Issue更新は利用者の明示操作。fork利用者は自分のremoteのみを対象にし、
    元remoteへ自動送信しない（AAK-04 要件3）。
@@ -284,8 +285,8 @@ Issue本文の下書きは本repo側で用意する（Phase 2）。
 - TR-AC3 空振り: 同テーマの `verified` entityが既にある場合、passは重複entityを作らず、
   write jobは `no-new-evidence` になる。
 - TR-AC4 予算: `max_candidates` 到達で停止し、検証済み分だけが `write` される。未検証分は書かれない。
-- TR-AC5 経路B: 昇格taskが `canonical` check（`tools/verify.py`）を通り、昇格entityの `sources[].note`
-  に元record refが残る。
+- TR-AC5 経路B: 昇格taskが `canonical` check（`tools/verify.py`）を通り、昇格entityの `derived_from`
+  に元record refが残る（実装済み、`tests/test_semantic_validation.py` に検証テストを追加）。
 - TR-AC6 副作用なし: いずれの経路でも `git push` / PR / Issue APIを呼ばない（既存harnessテストと
   同じ方式で確認）。
 - TR-AC7 実エージェント: synthetic合格を実運用の合格と混同しない。実エージェントによる1 run通しは

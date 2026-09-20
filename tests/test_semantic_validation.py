@@ -256,6 +256,71 @@ class SemanticValidationTests(unittest.TestCase):
                 errors = self.validate(movement)
                 self.assertTrue(errors, (field, errors))
 
+    def test_derived_from_requires_all_four_fields_in_id_form(self):
+        movement = valid_meta()
+        movement["derived_from"] = [{
+            "origin_instance_id": "instance-a",
+            "owner_repository": "agentic-art-research",
+            "record_id": "theme-mughal-painting-01",
+            "revision": 1,
+        }]
+        self.assertEqual([], self.validate(movement))
+
+        for missing_field in ("origin_instance_id", "owner_repository", "record_id", "revision"):
+            with self.subTest(missing=missing_field):
+                incomplete = copy.deepcopy(movement)
+                del incomplete["derived_from"][0][missing_field]
+                errors = self.validate(incomplete)
+                self.assertTrue(any("derived_from" in e and "必須key" in e for e in errors), errors)
+
+    def test_derived_from_rejects_bad_identifiers_and_revision(self):
+        base = {
+            "origin_instance_id": "instance-a",
+            "owner_repository": "agentic-art-research",
+            "record_id": "theme-x",
+            "revision": 1,
+        }
+        for field, bad_value in (
+            ("origin_instance_id", "has spaces"),
+            ("owner_repository", ""),
+            ("record_id", "!not-allowed"),
+        ):
+            with self.subTest(field=field):
+                movement = valid_meta()
+                ref = copy.deepcopy(base)
+                ref[field] = bad_value
+                movement["derived_from"] = [ref]
+                errors = self.validate(movement)
+                self.assertTrue(any(f"derived_from[1].{field}" in e for e in errors), errors)
+
+        for bad_revision in (0, -1, True, "1", 1.5):
+            with self.subTest(revision=bad_revision):
+                movement = valid_meta()
+                ref = copy.deepcopy(base)
+                ref["revision"] = bad_revision
+                movement["derived_from"] = [ref]
+                errors = self.validate(movement)
+                self.assertTrue(any("derived_from[1].revision" in e for e in errors), errors)
+
+    def test_derived_from_rejects_unknown_keys_and_duplicates(self):
+        movement = valid_meta()
+        ref = {
+            "origin_instance_id": "instance-a",
+            "owner_repository": "agentic-art-research",
+            "record_id": "theme-x",
+            "revision": 1,
+            "collection_id": "history-a",
+        }
+        movement["derived_from"] = [ref]
+        errors = self.validate(movement)
+        self.assertTrue(any("未知のkey" in e and "collection_id" in e for e in errors), errors)
+
+        movement = valid_meta()
+        clean_ref = {k: v for k, v in ref.items() if k != "collection_id"}
+        movement["derived_from"] = [copy.deepcopy(clean_ref), copy.deepcopy(clean_ref)]
+        errors = self.validate(movement)
+        self.assertTrue(any("重複している" in e for e in errors), errors)
+
 
 if __name__ == "__main__":
     unittest.main()
