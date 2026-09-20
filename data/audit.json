@@ -3,9 +3,9 @@
   "findings": [],
   "cross_region": {
     "schema_version": 1,
-    "movement_total": 180,
+    "movement_total": 181,
     "counts": {
-      "connected": 111,
+      "connected": 112,
       "reviewed-no-documented-link": 69,
       "unreviewed": 0
     },
@@ -71,6 +71,7 @@
       "movement/kongo-christian-art",
       "movement/lingnan-school",
       "movement/mamluk-art",
+      "movement/mapuche-silverwork",
       "movement/marquesan-tiki",
       "movement/maruyama-shijo-school",
       "movement/mavo",
@@ -3030,6 +3031,34 @@
             "https://en.wikipedia.org/wiki/Mannerism"
           ]
         }
+      },
+      {
+        "movement_id": "movement/mapuche-silverwork",
+        "status": "connected",
+        "origin_regions": [
+          "americas-latin"
+        ],
+        "routes": [
+          {
+            "kind": "diffused-to-place",
+            "edges": [
+              {
+                "from": "movement/mapuche-silverwork",
+                "type": "diffused_to",
+                "to": "place/washington-dc",
+                "certainty": "scholarly",
+                "source": "https://en.wikipedia.org/wiki/Mapuche_silverwork"
+              }
+            ],
+            "destination_regions": [
+              "americas-north"
+            ]
+          }
+        ],
+        "reasons": [
+          "1経路で起源region外へ到達"
+        ],
+        "review": null
       },
       {
         "movement_id": "movement/marquesan-tiki",

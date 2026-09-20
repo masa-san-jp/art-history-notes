@@ -11560,6 +11560,81 @@
       "updated": "2026-08-25",
       "path": "entities/movements/mannerism.md"
     },
+    "movement/mapuche-silverwork": {
+      "id": "movement/mapuche-silverwork",
+      "uri": "urn:ahn:movement/mapuche-silverwork",
+      "type": "movement",
+      "kind": "retrospective",
+      "label_ja": "マプチェ銀細工",
+      "label_en": "Mapuche Silverwork",
+      "authority": {
+        "wikidata": "Q17068381",
+        "aat": null,
+        "ulan": null,
+        "tgn": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": "17XX",
+        "end": "19XX",
+        "display": "英語版Wikipedia『Mapuche silverwork』は、18世紀後半にマプチェの銀細工師が 大量の銀装身具を制作し始め、18世紀末から19世紀初頭にかけて制作量・意匠の多様性が 頂点に達したと記す。1869年以降、戦争と疫病によりマプチェ社会が大きな打撃を受け 伝統は大きく衰退し、1980年代までに実質的に途絶えたと記す"
+      },
+      "naming": {
+        "self_identified": false,
+        "named_by": null,
+        "named_when": null,
+        "original_label": "Mapuche silverwork",
+        "note": "『マプチェ銀細工』は民族名を借りた後代の美術史・民族誌記述による括り。制作者 自身がこの名で自らの実践を運動として名乗った記録は無い"
+      },
+      "claims": [
+        {
+          "field": "time",
+          "source": "https://en.wikipedia.org/wiki/Mapuche_silverwork",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "originated_in",
+          "source": "https://en.wikipedia.org/wiki/Mapuche_silverwork",
+          "certainty": "scholarly"
+        },
+        {
+          "field": "kind",
+          "source": "https://en.wikipedia.org/wiki/Mapuche_silverwork",
+          "certainty": "scholarly"
+        }
+      ],
+      "evidence": [],
+      "space": [
+        {
+          "role": "originated_in",
+          "target": "place/araucania"
+        }
+      ],
+      "relations": [
+        {
+          "type": "diffused_to",
+          "target": "place/washington-dc",
+          "certainty": "scholarly",
+          "source": "https://en.wikipedia.org/wiki/Mapuche_silverwork"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.wikidata.org/wiki/Q17068381",
+          "kind": "authority"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Mapuche_silverwork",
+          "kind": "reference",
+          "note": "『Mapuche silverwork』の項。18世紀後半にマプチェの銀細工師が大量の銀装身具を 制作し始め、18世紀末から19世紀初頭に制作量・意匠の多様性が頂点に達したと記す。 素材はスペイン植民地時代の銀貨（特にポトシ銀山産）を用いたと記す。代表的な装身具 （トゥポなど）は、平たく打ち延ばした銀の輪を3列に連ね正方形の輪で交互に繋いだ構造で、 上部に平たい双頭の鳥の意匠、下部に半円または台形（小円盤が連なる）を持つと記す。 1869年以降の戦争・疫病によるマプチェ社会への打撃を経て伝統は大きく衰退し、1980年代 までに実質的に途絶えたと記す。スミソニアン協会国立アメリカ・インディアン博物館 （NMAI）のコレクションにマプチェ銀細工が所蔵されると記す"
+        }
+      ],
+      "status": "draft",
+      "updated": "2026-09-21",
+      "path": "entities/movements/mapuche-silverwork.md"
+    },
     "movement/marquesan-tiki": {
       "id": "movement/marquesan-tiki",
       "uri": "urn:ahn:movement/marquesan-tiki",
@@ -38046,6 +38121,43 @@
       "status": "stub",
       "updated": "2026-09-16",
       "path": "entities/places/angkor.md"
+    },
+    "place/araucania": {
+      "id": "place/araucania",
+      "uri": "urn:ahn:place/araucania",
+      "type": "place",
+      "label_ja": "アラウカニア",
+      "label_en": "Araucanía",
+      "authority": {
+        "wikidata": "Q2176",
+        "aat": null,
+        "ulan": null,
+        "tgn": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": null
+      },
+      "time": {
+        "start": null,
+        "end": null,
+        "display": null
+      },
+      "region": "americas-latin",
+      "coordinates": [
+        -38.9,
+        -72.667
+      ],
+      "space": [],
+      "relations": [],
+      "sources": [
+        {
+          "url": "https://www.wikidata.org/wiki/Q2176",
+          "kind": "authority"
+        }
+      ],
+      "status": "stub",
+      "updated": "2026-09-21",
+      "path": "entities/places/araucania.md"
     },
     "place/arnhem-land": {
       "id": "place/arnhem-land",
@@ -78985,6 +79097,18 @@
       "to": "place/rome"
     },
     {
+      "from": "movement/mapuche-silverwork",
+      "type": "diffused_to",
+      "to": "place/washington-dc",
+      "certainty": "scholarly",
+      "source": "https://en.wikipedia.org/wiki/Mapuche_silverwork"
+    },
+    {
+      "from": "movement/mapuche-silverwork",
+      "type": "originated_in",
+      "to": "place/araucania"
+    },
+    {
       "from": "movement/marquesan-tiki",
       "type": "diffused_to",
       "to": "place/london",
@@ -95812,6 +95936,12 @@
       "from": "place/london",
       "type": "received",
       "to": "movement/mamluk-art",
+      "derived": true
+    },
+    {
+      "from": "place/washington-dc",
+      "type": "received",
+      "to": "movement/mapuche-silverwork",
       "derived": true
     },
     {
