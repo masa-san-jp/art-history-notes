@@ -4700,10 +4700,25 @@
             "destination_regions": [
               "americas-north"
             ]
+          },
+          {
+            "kind": "movement-relation",
+            "edges": [
+              {
+                "from": "movement/srivijaya-art",
+                "type": "influenced_by",
+                "to": "movement/pala-art",
+                "certainty": "scholarly",
+                "source": "https://en.wikipedia.org/wiki/Srivijaya"
+              }
+            ],
+            "destination_regions": [
+              "asia-south"
+            ]
           }
         ],
         "reasons": [
-          "1経路で起源region外へ到達"
+          "2経路で起源region外へ到達"
         ],
         "review": null
       },

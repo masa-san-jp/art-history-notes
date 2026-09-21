@@ -36,7 +36,15 @@ space:
   - {role: originated_in, target: place/sukhothai}
 relations:
   - {type: diffused_to, target: place/new-york-city, certainty: scholarly, source: "https://www.metmuseum.org/art/collection/search/39102"}
+  - {type: influenced_by, target: movement/khmer-art, certainty: scholarly, source: "https://en.wikipedia.org/wiki/Sukhothai_Kingdom"}
 sources:
+  - url: "https://en.wikipedia.org/wiki/Sukhothai_Kingdom"
+    kind: reference
+    note: "『Sukhothai Kingdom』の項。13〜14世紀を通じて、スコータイはロッブリー（Lavo）を
+      経由してクメール文化から大きく影響を受けたと記す。現存するタ・パー・デーン祠堂、
+      ワット・プラ・パーイ・ルアン、ワット・シー・サワーイをこの様式の遺構として挙げる。
+      1292年の最古のスコータイ碑文には5系統の称号があり、『カムラテン・アン』『ソムデット』
+      はクメール語由来と記す"
   - url: "https://www.wikidata.org/wiki/Q986737"
     kind: authority
     note: "スコータイ市（旧王都）の項目"
@@ -49,7 +57,7 @@ sources:
     kind: institutional
     note: "メトロポリタン美術館収蔵《歩行仏》（タイ）"
 status: draft
-updated: 2026-09-16
+updated: 2026-09-21
 ---
 
 # スコータイ美術 / Sukhothai Art
@@ -79,6 +87,15 @@ Smarthistoryの記事「[Sukhothai Walking Buddha](https://smarthistory.org/sukh
 メトロポリタン美術館は《歩行仏》（タイ）を所蔵する。これに基づき`relations`へ
 `diffused_to place/new-york-city`を張り、asia-southeast起源からamericas-northへの接続を
 記録した。
+
+## クメール美術との関係
+
+英語版Wikipedia「[Sukhothai Kingdom](https://en.wikipedia.org/wiki/Sukhothai_Kingdom)」
+（参考資料）は、13〜14世紀を通じてスコータイがロッブリー（Lavo）を経由して
+[クメール](khmer-art.md)文化から大きく影響を受けたと記す。現存するタ・パー・デーン祠堂・
+ワット・プラ・パーイ・ルアン・ワット・シー・サワーイをこの様式の遺構として挙げ、1292年の
+最古のスコータイ碑文にある称号のうち「カムラテン・アン」「ソムデット」がクメール語由来
+だとも記す。これに基づき`relations`へ`influenced_by movement/khmer-art`を張った。
 
 ## 未着手
 

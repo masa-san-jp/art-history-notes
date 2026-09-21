@@ -35,6 +35,7 @@ space:
   - {role: originated_in, target: place/palembang}
 relations:
   - {type: diffused_to, target: place/new-york-city, certainty: scholarly, source: "https://www.metmuseum.org/art/collection/search/39120"}
+  - {type: influenced_by, target: movement/pala-art, certainty: scholarly, source: "https://en.wikipedia.org/wiki/Srivijaya"}
 sources:
   - url: "https://www.wikidata.org/wiki/Q13021441"
     kind: authority
@@ -43,6 +44,10 @@ sources:
     note: "『The Srivijaya Empire』の記事。スマトラ島を拠点とする仏教海上交易帝国とし、
       西暦650-1275年頃にマラッカ海峡と交易路を支配したと記す。都パレンバンが世界有数の
       仏教学の中心地だったと記す"
+  - url: "https://en.wikipedia.org/wiki/Srivijaya"
+    kind: reference
+    note: "『Srivijaya』の項。スリーヴィジャヤはベンガルの仏教王朝パーラ朝と宗教・文化・
+      交易上のつながりを持ったと記す"
   - url: "https://www.hdasianart.com/blogs/news/indonesian-buddhist-sculpture-majapahit-srivijaya-legacy"
     kind: reference
     note: "『Indonesian Buddhist Sculpture』の記事。シュリーヴィジャヤ美術の主要な遺産が
@@ -53,7 +58,7 @@ sources:
     note: "メトロポリタン美術館収蔵《立像の神格（ヴィシュヌ？）》（インドネシア、スマトラ、
       シュリーヴィジャヤ期）"
 status: draft
-updated: 2026-09-16
+updated: 2026-09-21
 ---
 
 # シュリーヴィジャヤ美術 / Srivijaya Art
@@ -82,9 +87,18 @@ updated: 2026-09-16
 （インドネシア、スマトラ）を所蔵する。これに基づき`relations`へ`diffused_to place/new-york-city`
 を張り、asia-southeast起源からamericas-northへの接続を記録した。
 
+## パーラ美術との関係
+
+英語版Wikipedia「[Srivijaya](https://en.wikipedia.org/wiki/Srivijaya)」（参考資料）は、
+スリーヴィジャヤがベンガルの仏教王朝[パーラ朝](pala-art.md)と宗教・文化・交易上の
+つながりを持ったと記す。これに基づき`relations`へ`influenced_by movement/pala-art`を
+張った。
+
 ## 未着手
 
 - 代表的な出土像（チャイヤーの観音像など）を work エンティティとして立てるかどうか
 - パッラヴァ・初期チョーラ様式からの影響を`relations`の`influenced_by`で明示するかどうか
-  （今回は本文の記述にとどめた）
+  （対応するmovementエンティティが本KBに未整備のため今回は本文の記述にとどめた）
+- パーラ朝との宗教・文化的つながりの具体的内容（僧侶の往来、写本・図像の伝播経路など）の
+  一次資料での確認
 - 帝国の終期（1025年頃 vs 13世紀まで存続とする資料）の食い違いの一次資料での整理

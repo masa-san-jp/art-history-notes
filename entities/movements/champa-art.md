@@ -35,9 +35,15 @@ space:
   - {role: originated_in, target: place/my-son}
 relations:
   - {type: diffused_to, target: place/paris, certainty: scholarly, source: "https://www.guimet.fr/fr/la-sculpture-du-champa-tresors-dart-du-vietnam-ve-xve-siecles"}
+  - {type: influenced_by, target: movement/khmer-art, certainty: scholarly, source: "https://en.wikipedia.org/wiki/Champa"}
 sources:
   - url: "https://www.wikidata.org/wiki/Q2864642"
     kind: authority
+  - url: "https://en.wikipedia.org/wiki/Champa"
+    kind: reference
+    note: "『Champa』の項『Sources of foreign cultural influence』節。チャム人とクメール人は
+      頻繁に戦争を交えたにもかかわらず、両者は交易も行い文化的影響が行き来したと記す。
+      王族同士の通婚も頻繁だったと記す"
   - url: "https://en.wikipedia.org/wiki/Art_of_Champa"
     kind: reference
     note: "『Art of Champa』の項。西暦500〜1700年頃の千年間にわたり栄えた文明とし、砂岩彫刻
@@ -53,7 +59,7 @@ sources:
       Ve-XVe siècles（チャンパの彫刻——ベトナム美術の至宝、5〜15世紀）』のページ。同館が
       世界有数のチャム美術コレクションを持つと記す"
 status: draft
-updated: 2026-09-16
+updated: 2026-09-21
 ---
 
 # チャンパ美術 / Art of Champa
@@ -85,6 +91,15 @@ du Champa – Trésors d'art du Vietnam Ve-XVe siècles」（チャンパの彫�
 asia-southeast起源からeurope-westへの接続を記録した。ダナン・チャム彫刻博物館（1910年代、
 アンリ・パルマンティエにより創設）が世界最大のチャンパ美術コレクションを持つとされ、その一部が
 ギメ美術館・メトロポリタン美術館へ貸し出された記録もある。
+
+## クメール美術との関係
+
+英語版Wikipedia「[Champa](https://en.wikipedia.org/wiki/Champa)」（参考資料）の
+「Sources of foreign cultural influence（外来の文化的影響の源）」節はこう記す（二次情報）。
+チャム人と[クメール](khmer-art.md)人は頻繁に戦争を交えたにもかかわらず、両者は交易も行い、
+文化的影響が行き来した。王族同士の通婚も頻繁だったとされる。この記述は影響の方向を一方に
+限定しておらず、双方向の交流だった可能性を示すが、本項が置かれた節の題（チャンパへの外来
+影響）に従い、`relations`へ`influenced_by movement/khmer-art`を張った。
 
 ## 未着手
 

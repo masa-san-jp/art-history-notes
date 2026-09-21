@@ -3940,12 +3940,23 @@
           "target": "place/paris",
           "certainty": "scholarly",
           "source": "https://www.guimet.fr/fr/la-sculpture-du-champa-tresors-dart-du-vietnam-ve-xve-siecles"
+        },
+        {
+          "type": "influenced_by",
+          "target": "movement/khmer-art",
+          "certainty": "scholarly",
+          "source": "https://en.wikipedia.org/wiki/Champa"
         }
       ],
       "sources": [
         {
           "url": "https://www.wikidata.org/wiki/Q2864642",
           "kind": "authority"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Champa",
+          "kind": "reference",
+          "note": "『Champa』の項『Sources of foreign cultural influence』節。チャム人とクメール人は 頻繁に戦争を交えたにもかかわらず、両者は交易も行い文化的影響が行き来したと記す。 王族同士の通婚も頻繁だったと記す"
         },
         {
           "url": "https://en.wikipedia.org/wiki/Art_of_Champa",
@@ -3964,7 +3975,7 @@
         }
       ],
       "status": "draft",
-      "updated": "2026-09-16",
+      "updated": "2026-09-21",
       "path": "entities/movements/champa-art.md"
     },
     "movement/chola-bronzes": {
@@ -17532,6 +17543,12 @@
           "target": "place/new-york-city",
           "certainty": "scholarly",
           "source": "https://www.metmuseum.org/art/collection/search/39120"
+        },
+        {
+          "type": "influenced_by",
+          "target": "movement/pala-art",
+          "certainty": "scholarly",
+          "source": "https://en.wikipedia.org/wiki/Srivijaya"
         }
       ],
       "sources": [
@@ -17545,6 +17562,11 @@
           "note": "『The Srivijaya Empire』の記事。スマトラ島を拠点とする仏教海上交易帝国とし、 西暦650-1275年頃にマラッカ海峡と交易路を支配したと記す。都パレンバンが世界有数の 仏教学の中心地だったと記す"
         },
         {
+          "url": "https://en.wikipedia.org/wiki/Srivijaya",
+          "kind": "reference",
+          "note": "『Srivijaya』の項。スリーヴィジャヤはベンガルの仏教王朝パーラ朝と宗教・文化・ 交易上のつながりを持ったと記す"
+        },
+        {
           "url": "https://www.hdasianart.com/blogs/news/indonesian-buddhist-sculpture-majapahit-srivijaya-legacy",
           "kind": "reference",
           "note": "『Indonesian Buddhist Sculpture』の記事。シュリーヴィジャヤ美術の主要な遺産が ブロンズ彫刻とし、観音・ターラー・弥勒などの大乗仏教の尊格を表すと記す。南インドの パッラヴァ朝・初期チョーラ朝の様式と東南アジア独自の要素の融合と記す"
@@ -17556,7 +17578,7 @@
         }
       ],
       "status": "draft",
-      "updated": "2026-09-16",
+      "updated": "2026-09-21",
       "path": "entities/movements/srivijaya-art.md"
     },
     "movement/stroganov-school": {
@@ -17765,9 +17787,20 @@
           "target": "place/new-york-city",
           "certainty": "scholarly",
           "source": "https://www.metmuseum.org/art/collection/search/39102"
+        },
+        {
+          "type": "influenced_by",
+          "target": "movement/khmer-art",
+          "certainty": "scholarly",
+          "source": "https://en.wikipedia.org/wiki/Sukhothai_Kingdom"
         }
       ],
       "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Sukhothai_Kingdom",
+          "kind": "reference",
+          "note": "『Sukhothai Kingdom』の項。13〜14世紀を通じて、スコータイはロッブリー（Lavo）を 経由してクメール文化から大きく影響を受けたと記す。現存するタ・パー・デーン祠堂、 ワット・プラ・パーイ・ルアン、ワット・シー・サワーイをこの様式の遺構として挙げる。 1292年の最古のスコータイ碑文には5系統の称号があり、『カムラテン・アン』『ソムデット』 はクメール語由来と記す"
+        },
         {
           "url": "https://www.wikidata.org/wiki/Q986737",
           "kind": "authority",
@@ -17785,7 +17818,7 @@
         }
       ],
       "status": "draft",
-      "updated": "2026-09-16",
+      "updated": "2026-09-21",
       "path": "entities/movements/sukhothai-art.md"
     },
     "movement/suprematism": {
@@ -78063,6 +78096,13 @@
     },
     {
       "from": "movement/champa-art",
+      "type": "influenced_by",
+      "to": "movement/khmer-art",
+      "certainty": "scholarly",
+      "source": "https://en.wikipedia.org/wiki/Champa"
+    },
+    {
+      "from": "movement/champa-art",
       "type": "originated_in",
       "to": "place/my-son"
     },
@@ -80081,6 +80121,13 @@
     },
     {
       "from": "movement/srivijaya-art",
+      "type": "influenced_by",
+      "to": "movement/pala-art",
+      "certainty": "scholarly",
+      "source": "https://en.wikipedia.org/wiki/Srivijaya"
+    },
+    {
+      "from": "movement/srivijaya-art",
       "type": "originated_in",
       "to": "place/palembang"
     },
@@ -80107,6 +80154,13 @@
       "to": "place/new-york-city",
       "certainty": "scholarly",
       "source": "https://www.metmuseum.org/art/collection/search/39102"
+    },
+    {
+      "from": "movement/sukhothai-art",
+      "type": "influenced_by",
+      "to": "movement/khmer-art",
+      "certainty": "scholarly",
+      "source": "https://en.wikipedia.org/wiki/Sukhothai_Kingdom"
     },
     {
       "from": "movement/sukhothai-art",
@@ -95469,6 +95523,12 @@
       "derived": true
     },
     {
+      "from": "movement/khmer-art",
+      "type": "influenced",
+      "to": "movement/champa-art",
+      "derived": true
+    },
+    {
       "from": "place/london",
       "type": "received",
       "to": "movement/chola-bronzes",
@@ -96573,6 +96633,12 @@
       "derived": true
     },
     {
+      "from": "movement/pala-art",
+      "type": "influenced",
+      "to": "movement/srivijaya-art",
+      "derived": true
+    },
+    {
       "from": "movement/moscow-school-icon-painting",
       "type": "derived_into",
       "to": "movement/stroganov-school",
@@ -96581,6 +96647,12 @@
     {
       "from": "place/new-york-city",
       "type": "received",
+      "to": "movement/sukhothai-art",
+      "derived": true
+    },
+    {
+      "from": "movement/khmer-art",
+      "type": "influenced",
       "to": "movement/sukhothai-art",
       "derived": true
     },
