@@ -97,13 +97,6 @@ reviews:
   sources:
   - https://ich.unesco.org/en/decisions/20.COM/7.A.1
   - https://en.wikipedia.org/wiki/%C4%90%C3%B4ng_H%E1%BB%93_painting
-- movement_id: movement/early-ottoman-architecture
-  status: no-documented-cross-region-relation
-  checked: '2026-09-16'
-  note: 2026-09-16時点で、movement→movement relation、movement→placeのdiffused_to、space.active_in、movement→event/orgのexhibited_at→held_at/sited_inの4経路を、当該movementに登録された資料を対象に確認した。建築中心の様式であり可動作品の海外収蔵自体が想定しにくく、起源region外への文書化された接続は確認できない。
-  sources:
-  - https://www.wikidata.org/wiki/Q1549086
-  - https://en.wikipedia.org/wiki/Green_Mosque,_Bursa
 - movement_id: movement/expressionism
   status: no-documented-cross-region-relation
   checked: '2026-08-25'
@@ -398,20 +391,6 @@ reviews:
   sources:
   - https://ja.wikipedia.org/wiki/%E6%B5%99%E6%B4%BE
   - https://www.hkpm.org.hk/en/visit/audio-guide/g4-stories-untold
-- movement_id: movement/ukrainian-baroque
-  status: no-documented-cross-region-relation
-  checked: '2026-09-16'
-  note: 2026-09-16時点で、movement→movement relation、movement→placeのdiffused_to、space.active_in、movement→event/orgのexhibited_at→held_at/sited_inの4経路を、当該movementに登録された資料を対象に確認した。起源region外への文書化された接続は確認できない。
-  sources:
-  - https://www.wikidata.org/wiki/Q1542287
-  - https://en.wikipedia.org/wiki/Ukrainian_Baroque
-- movement_id: movement/brancovenesc-art
-  status: no-documented-cross-region-relation
-  checked: '2026-09-16'
-  note: 2026-09-16時点で、movement→movement relation、movement→placeのdiffused_to、space.active_in、movement→event/orgのexhibited_at→held_at/sited_inの4経路を、当該movementに登録された資料を対象に確認した。建築中心の様式であり可動作品の海外収蔵自体が想定しにくく、起源region外への文書化された接続は確認できない。
-  sources:
-  - https://www.wikidata.org/wiki/Q460596
-  - https://en.wikipedia.org/wiki/Br%C3%A2ncovenesc_art
 - movement_id: movement/southeastern-ceremonial-complex
   status: no-documented-cross-region-relation
   checked: '2026-09-16'

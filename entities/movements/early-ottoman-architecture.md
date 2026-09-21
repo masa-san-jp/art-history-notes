@@ -33,7 +33,8 @@ claims:
 evidence: []
 space:
   - {role: originated_in, target: place/bursa}
-relations: []
+relations:
+  - {type: influenced_by, target: movement/byzantine-art, certainty: scholarly, source: "https://en.wikipedia.org/wiki/Ottoman_architecture"}
 sources:
   - url: "https://www.wikidata.org/wiki/Q1549086"
     kind: authority
@@ -43,8 +44,13 @@ sources:
     note: "『Green Mosque, Bursa』の項。スルターン、メフメト1世の発注で1419-1424年に建立
       され、建築家ハジュ・イヴァズ・パシャ（1428年没）を記す。初期オスマン建築様式の
       頂点と見なされると記す"
+  - url: "https://en.wikipedia.org/wiki/Ottoman_architecture"
+    kind: reference
+    note: "『Ottoman architecture』の項。初期オスマン朝が位置した辺境（ビザンツ帝国との
+      境界地帯）が、ビザンツ建築や他の古代遺構からの影響を促し、この時期の周辺の
+      テュルク系諸侯国の下でも建築的な実験の例があったと記す"
 status: draft
-updated: 2026-09-16
+updated: 2026-09-21
 ---
 
 # 初期オスマン建築 / Early Ottoman Architecture
@@ -66,10 +72,21 @@ updated: 2026-09-16
 重視した。1453年のコンスタンティノープル征服・遷都を機に建築の中心地が移ったとされるため、
 これを終期の目安とした。
 
+## ビザンツ建築からの影響
+
+英語版Wikipedia「[Ottoman architecture](https://en.wikipedia.org/wiki/Ottoman_architecture)」
+（参考資料）はこう記す（二次情報）。初期オスマン朝が位置した辺境（ビザンツ帝国との境界
+地帯）は、ビザンツ建築や他の古代遺構からの影響を受けやすい立地であり、この時期には周辺の
+テュルク系諸侯国の下でも建築的な実験の例があった。これに基づき`relations`へ
+`influenced_by movement/byzantine-art`を張った。
+
 ## 未着手
 
 - スルターン、メフメト1世・ムラト2世、建築家ハジュ・イヴァズ・パシャを person エンティティ
   として立てるかどうか
 - 緑のモスク、緑の廟を work エンティティとして立てるかどうか
-- 文化圏間接続（4経路）: 検索した範囲では、海外美術館収蔵などmena外への文書化された接続は
-  見つけられなかった（建築中心の様式であるため、可動作品の海外収蔵自体が想定しにくい）
+- ~~文化圏間接続（4経路）: 検索した範囲では、海外美術館収蔵などmena外への文書化された接続は
+  見つけられなかった（建築中心の様式であるため、可動作品の海外収蔵自体が想定しにくい）~~
+  → 2026-09-21解消。`influenced_by movement/byzantine-art`（europe-east/europe-west起源）を
+  張ったことでmovement-relation経路が成立し、`config/cross-region-reviews.yaml`の
+  当該エントリは削除した

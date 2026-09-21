@@ -3726,7 +3726,20 @@
           "target": "place/bucharest"
         }
       ],
-      "relations": [],
+      "relations": [
+        {
+          "type": "influenced_by",
+          "target": "movement/byzantine-art",
+          "certainty": "scholarly",
+          "source": "https://en.wikipedia.org/wiki/Br%C3%A2ncovenesc_art"
+        },
+        {
+          "type": "influenced_by",
+          "target": "movement/renaissance",
+          "certainty": "scholarly",
+          "source": "https://en.wikipedia.org/wiki/Br%C3%A2ncovenesc_art"
+        }
+      ],
       "sources": [
         {
           "url": "https://www.wikidata.org/wiki/Q460596",
@@ -3739,7 +3752,7 @@
         }
       ],
       "status": "draft",
-      "updated": "2026-09-16",
+      "updated": "2026-09-21",
       "path": "entities/movements/brancovenesc-art.md"
     },
     "movement/byzantine-art": {
@@ -5678,7 +5691,14 @@
           "target": "place/bursa"
         }
       ],
-      "relations": [],
+      "relations": [
+        {
+          "type": "influenced_by",
+          "target": "movement/byzantine-art",
+          "certainty": "scholarly",
+          "source": "https://en.wikipedia.org/wiki/Ottoman_architecture"
+        }
+      ],
       "sources": [
         {
           "url": "https://www.wikidata.org/wiki/Q1549086",
@@ -5689,10 +5709,15 @@
           "url": "https://en.wikipedia.org/wiki/Green_Mosque,_Bursa",
           "kind": "reference",
           "note": "『Green Mosque, Bursa』の項。スルターン、メフメト1世の発注で1419-1424年に建立 され、建築家ハジュ・イヴァズ・パシャ（1428年没）を記す。初期オスマン建築様式の 頂点と見なされると記す"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Ottoman_architecture",
+          "kind": "reference",
+          "note": "『Ottoman architecture』の項。初期オスマン朝が位置した辺境（ビザンツ帝国との 境界地帯）が、ビザンツ建築や他の古代遺構からの影響を促し、この時期の周辺の テュルク系諸侯国の下でも建築的な実験の例があったと記す"
         }
       ],
       "status": "draft",
-      "updated": "2026-09-16",
+      "updated": "2026-09-21",
       "path": "entities/movements/early-ottoman-architecture.md"
     },
     "movement/east-javanese-kawi-inscriptions": {
@@ -11529,7 +11554,14 @@
           "target": "place/rome"
         }
       ],
-      "relations": [],
+      "relations": [
+        {
+          "type": "reacts_against",
+          "target": "movement/renaissance",
+          "certainty": "scholarly",
+          "source": "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300021144"
+        }
+      ],
       "sources": [
         {
           "url": "https://www.wikidata.org/wiki/Q131808",
@@ -11557,7 +11589,7 @@
         }
       ],
       "status": "verified",
-      "updated": "2026-08-25",
+      "updated": "2026-09-21",
       "path": "entities/movements/mannerism.md"
     },
     "movement/mapuche-silverwork": {
@@ -17579,7 +17611,14 @@
           "target": "place/moscow"
         }
       ],
-      "relations": [],
+      "relations": [
+        {
+          "type": "derives_from",
+          "target": "movement/moscow-school-icon-painting",
+          "certainty": "scholarly",
+          "source": "https://en.wikipedia.org/wiki/Stroganov_School"
+        }
+      ],
       "sources": [
         {
           "url": "https://www.wikidata.org/wiki/Q1968335",
@@ -17592,7 +17631,7 @@
         }
       ],
       "status": "draft",
-      "updated": "2026-09-16",
+      "updated": "2026-09-21",
       "path": "entities/movements/stroganov-school.md"
     },
     "movement/sudano-sahelian-architecture": {
@@ -18899,7 +18938,14 @@
           "target": "place/kyiv"
         }
       ],
-      "relations": [],
+      "relations": [
+        {
+          "type": "derives_from",
+          "target": "movement/baroque",
+          "certainty": "scholarly",
+          "source": "https://en.wikipedia.org/wiki/Ukrainian_Baroque"
+        }
+      ],
       "sources": [
         {
           "url": "https://www.wikidata.org/wiki/Q1542287",
@@ -18917,7 +18963,7 @@
         }
       ],
       "status": "draft",
-      "updated": "2026-09-16",
+      "updated": "2026-09-21",
       "path": "entities/movements/ukrainian-baroque.md"
     },
     "movement/utagawa-school": {
@@ -19273,6 +19319,12 @@
           "target": "place/new-york-city",
           "certainty": "scholarly",
           "source": "https://www.metmuseum.org/art/collection/search?q=South+Indian,+Vijayanagara&sortBy=Relevance"
+        },
+        {
+          "type": "influenced_by",
+          "target": "movement/hoysala-art",
+          "certainty": "scholarly",
+          "source": "https://en.wikipedia.org/wiki/Vijayanagara_architecture"
         }
       ],
       "sources": [
@@ -19289,10 +19341,15 @@
           "url": "https://www.metmuseum.org/art/collection/search?q=South+Indian,+Vijayanagara&sortBy=Relevance",
           "kind": "institutional",
           "note": "メトロポリタン美術館の収蔵検索結果。『South Indian, Vijayanagara』で451件の作品を 確認した（武具・彫刻等を含む、2026-09-16時点）"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Vijayanagara_architecture",
+          "kind": "reference",
+          "note": "『Vijayanagara architecture』の項。ヴィジャヤナガル様式は、それ以前の数世紀に 各王朝が統治した時代に発展したチャールキヤ・ホイサラ・ラーシュトラクータ・ パーンディヤ・チョーラの諸様式を組み合わせたものだと記す。カーカティーヤ朝への 言及は無い"
         }
       ],
       "status": "draft",
-      "updated": "2026-09-16",
+      "updated": "2026-09-21",
       "path": "entities/movements/vijayanagara-art.md"
     },
     "movement/wu-school": {
@@ -77975,6 +78032,20 @@
     },
     {
       "from": "movement/brancovenesc-art",
+      "type": "influenced_by",
+      "to": "movement/byzantine-art",
+      "certainty": "scholarly",
+      "source": "https://en.wikipedia.org/wiki/Br%C3%A2ncovenesc_art"
+    },
+    {
+      "from": "movement/brancovenesc-art",
+      "type": "influenced_by",
+      "to": "movement/renaissance",
+      "certainty": "scholarly",
+      "source": "https://en.wikipedia.org/wiki/Br%C3%A2ncovenesc_art"
+    },
+    {
+      "from": "movement/brancovenesc-art",
       "type": "originated_in",
       "to": "place/bucharest"
     },
@@ -78258,6 +78329,13 @@
       "from": "movement/dong-ho-painting",
       "type": "originated_in",
       "to": "place/dong-ho-village"
+    },
+    {
+      "from": "movement/early-ottoman-architecture",
+      "type": "influenced_by",
+      "to": "movement/byzantine-art",
+      "certainty": "scholarly",
+      "source": "https://en.wikipedia.org/wiki/Ottoman_architecture"
     },
     {
       "from": "movement/early-ottoman-architecture",
@@ -79090,6 +79168,13 @@
       "from": "movement/mandalay-style",
       "type": "originated_in",
       "to": "place/mandalay"
+    },
+    {
+      "from": "movement/mannerism",
+      "type": "reacts_against",
+      "to": "movement/renaissance",
+      "certainty": "scholarly",
+      "source": "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300021144"
     },
     {
       "from": "movement/mannerism",
@@ -80001,6 +80086,13 @@
     },
     {
       "from": "movement/stroganov-school",
+      "type": "derives_from",
+      "to": "movement/moscow-school-icon-painting",
+      "certainty": "scholarly",
+      "source": "https://en.wikipedia.org/wiki/Stroganov_School"
+    },
+    {
+      "from": "movement/stroganov-school",
       "type": "originated_in",
       "to": "place/moscow"
     },
@@ -80218,6 +80310,13 @@
     },
     {
       "from": "movement/ukrainian-baroque",
+      "type": "derives_from",
+      "to": "movement/baroque",
+      "certainty": "scholarly",
+      "source": "https://en.wikipedia.org/wiki/Ukrainian_Baroque"
+    },
+    {
+      "from": "movement/ukrainian-baroque",
       "type": "originated_in",
       "to": "place/kyiv"
     },
@@ -80256,6 +80355,13 @@
       "to": "place/new-york-city",
       "certainty": "scholarly",
       "source": "https://www.metmuseum.org/art/collection/search?q=South+Indian,+Vijayanagara&sortBy=Relevance"
+    },
+    {
+      "from": "movement/vijayanagara-art",
+      "type": "influenced_by",
+      "to": "movement/hoysala-art",
+      "certainty": "scholarly",
+      "source": "https://en.wikipedia.org/wiki/Vijayanagara_architecture"
     },
     {
       "from": "movement/vijayanagara-art",
@@ -95345,6 +95451,18 @@
       "derived": true
     },
     {
+      "from": "movement/byzantine-art",
+      "type": "influenced",
+      "to": "movement/brancovenesc-art",
+      "derived": true
+    },
+    {
+      "from": "movement/renaissance",
+      "type": "influenced",
+      "to": "movement/brancovenesc-art",
+      "derived": true
+    },
+    {
       "from": "place/paris",
       "type": "received",
       "to": "movement/champa-art",
@@ -95480,6 +95598,12 @@
       "from": "movement/ottoman-miniature",
       "type": "influenced",
       "to": "movement/deccan-painting",
+      "derived": true
+    },
+    {
+      "from": "movement/byzantine-art",
+      "type": "influenced",
+      "to": "movement/early-ottoman-architecture",
       "derived": true
     },
     {
@@ -95936,6 +96060,12 @@
       "from": "place/london",
       "type": "received",
       "to": "movement/mamluk-art",
+      "derived": true
+    },
+    {
+      "from": "movement/renaissance",
+      "type": "reacted_against_by",
+      "to": "movement/mannerism",
       "derived": true
     },
     {
@@ -96443,6 +96573,12 @@
       "derived": true
     },
     {
+      "from": "movement/moscow-school-icon-painting",
+      "type": "derived_into",
+      "to": "movement/stroganov-school",
+      "derived": true
+    },
+    {
       "from": "place/new-york-city",
       "type": "received",
       "to": "movement/sukhothai-art",
@@ -96569,6 +96705,12 @@
       "derived": true
     },
     {
+      "from": "movement/baroque",
+      "type": "derived_into",
+      "to": "movement/ukrainian-baroque",
+      "derived": true
+    },
+    {
       "from": "concept/ukiyo-e",
       "type": "has_part",
       "to": "movement/utagawa-school",
@@ -96583,6 +96725,12 @@
     {
       "from": "place/new-york-city",
       "type": "received",
+      "to": "movement/vijayanagara-art",
+      "derived": true
+    },
+    {
+      "from": "movement/hoysala-art",
+      "type": "influenced",
       "to": "movement/vijayanagara-art",
       "derived": true
     },

@@ -5,8 +5,8 @@
     "schema_version": 1,
     "movement_total": 181,
     "counts": {
-      "connected": 112,
-      "reviewed-no-documented-link": 69,
+      "connected": 115,
+      "reviewed-no-documented-link": 66,
       "unreviewed": 0
     },
     "connected": [
@@ -29,6 +29,7 @@
       "movement/bengal-school",
       "movement/benin-court-art",
       "movement/bombay-progressive-artists-group",
+      "movement/brancovenesc-art",
       "movement/champa-art",
       "movement/chola-bronzes",
       "movement/company-painting",
@@ -39,6 +40,7 @@
       "movement/dada",
       "movement/dansaekhwa",
       "movement/deccan-painting",
+      "movement/early-ottoman-architecture",
       "movement/east-javanese-kawi-inscriptions",
       "movement/ecole-de-dakar",
       "movement/ecole-de-tunis",
@@ -115,6 +117,7 @@
       "movement/thirteen-moderns",
       "movement/tongan-ngatu",
       "movement/tosa-school",
+      "movement/ukrainian-baroque",
       "movement/venetian-school",
       "movement/vijayanagara-art",
       "movement/yamato-e",
@@ -131,7 +134,6 @@
       "movement/barbizon-school",
       "movement/baroque",
       "movement/barroco-mineiro",
-      "movement/brancovenesc-art",
       "movement/byzantine-art",
       "movement/coffin-portrait",
       "movement/colonial-limner-painting",
@@ -139,7 +141,6 @@
       "movement/cubism",
       "movement/de-stijl",
       "movement/dong-ho-painting",
-      "movement/early-ottoman-architecture",
       "movement/expressionism",
       "movement/four-wangs",
       "movement/futurism",
@@ -189,7 +190,6 @@
       "movement/suprematism",
       "movement/surrealism",
       "movement/tongan-langi-architecture",
-      "movement/ukrainian-baroque",
       "movement/utagawa-school",
       "movement/wu-school",
       "movement/zhe-school"
@@ -995,24 +995,31 @@
       },
       {
         "movement_id": "movement/brancovenesc-art",
-        "status": "reviewed-no-documented-link",
+        "status": "connected",
         "origin_regions": [
           "europe-east"
         ],
-        "routes": [],
-        "reasons": [
-          "2026-09-16時点で、movement→movement relation、movement→placeのdiffused_to、space.active_in、movement→event/orgのexhibited_at→held_at/sited_inの4経路を、当該movementに登録された資料を対象に確認した。建築中心の様式であり可動作品の海外収蔵自体が想定しにくく、起源region外への文書化された接続は確認できない。"
+        "routes": [
+          {
+            "kind": "movement-relation",
+            "edges": [
+              {
+                "from": "movement/brancovenesc-art",
+                "type": "influenced_by",
+                "to": "movement/renaissance",
+                "certainty": "scholarly",
+                "source": "https://en.wikipedia.org/wiki/Br%C3%A2ncovenesc_art"
+              }
+            ],
+            "destination_regions": [
+              "europe-west"
+            ]
+          }
         ],
-        "review": {
-          "movement_id": "movement/brancovenesc-art",
-          "status": "no-documented-cross-region-relation",
-          "checked": "2026-09-16",
-          "note": "2026-09-16時点で、movement→movement relation、movement→placeのdiffused_to、space.active_in、movement→event/orgのexhibited_at→held_at/sited_inの4経路を、当該movementに登録された資料を対象に確認した。建築中心の様式であり可動作品の海外収蔵自体が想定しにくく、起源region外への文書化された接続は確認できない。",
-          "sources": [
-            "https://www.wikidata.org/wiki/Q460596",
-            "https://en.wikipedia.org/wiki/Br%C3%A2ncovenesc_art"
-          ]
-        }
+        "reasons": [
+          "1経路で起源region外へ到達"
+        ],
+        "review": null
       },
       {
         "movement_id": "movement/byzantine-art",
@@ -1505,24 +1512,31 @@
       },
       {
         "movement_id": "movement/early-ottoman-architecture",
-        "status": "reviewed-no-documented-link",
+        "status": "connected",
         "origin_regions": [
           "mena"
         ],
-        "routes": [],
-        "reasons": [
-          "2026-09-16時点で、movement→movement relation、movement→placeのdiffused_to、space.active_in、movement→event/orgのexhibited_at→held_at/sited_inの4経路を、当該movementに登録された資料を対象に確認した。建築中心の様式であり可動作品の海外収蔵自体が想定しにくく、起源region外への文書化された接続は確認できない。"
+        "routes": [
+          {
+            "kind": "movement-relation",
+            "edges": [
+              {
+                "from": "movement/early-ottoman-architecture",
+                "type": "influenced_by",
+                "to": "movement/byzantine-art",
+                "certainty": "scholarly",
+                "source": "https://en.wikipedia.org/wiki/Ottoman_architecture"
+              }
+            ],
+            "destination_regions": [
+              "europe-east"
+            ]
+          }
         ],
-        "review": {
-          "movement_id": "movement/early-ottoman-architecture",
-          "status": "no-documented-cross-region-relation",
-          "checked": "2026-09-16",
-          "note": "2026-09-16時点で、movement→movement relation、movement→placeのdiffused_to、space.active_in、movement→event/orgのexhibited_at→held_at/sited_inの4経路を、当該movementに登録された資料を対象に確認した。建築中心の様式であり可動作品の海外収蔵自体が想定しにくく、起源region外への文書化された接続は確認できない。",
-          "sources": [
-            "https://www.wikidata.org/wiki/Q1549086",
-            "https://en.wikipedia.org/wiki/Green_Mosque,_Bursa"
-          ]
-        }
+        "reasons": [
+          "1経路で起源region外へ到達"
+        ],
+        "review": null
       },
       {
         "movement_id": "movement/east-javanese-kawi-inscriptions",
@@ -5082,24 +5096,31 @@
       },
       {
         "movement_id": "movement/ukrainian-baroque",
-        "status": "reviewed-no-documented-link",
+        "status": "connected",
         "origin_regions": [
           "europe-east"
         ],
-        "routes": [],
-        "reasons": [
-          "2026-09-16時点で、movement→movement relation、movement→placeのdiffused_to、space.active_in、movement→event/orgのexhibited_at→held_at/sited_inの4経路を、当該movementに登録された資料を対象に確認した。起源region外への文書化された接続は確認できない。"
+        "routes": [
+          {
+            "kind": "movement-relation",
+            "edges": [
+              {
+                "from": "movement/ukrainian-baroque",
+                "type": "derives_from",
+                "to": "movement/baroque",
+                "certainty": "scholarly",
+                "source": "https://en.wikipedia.org/wiki/Ukrainian_Baroque"
+              }
+            ],
+            "destination_regions": [
+              "europe-west"
+            ]
+          }
         ],
-        "review": {
-          "movement_id": "movement/ukrainian-baroque",
-          "status": "no-documented-cross-region-relation",
-          "checked": "2026-09-16",
-          "note": "2026-09-16時点で、movement→movement relation、movement→placeのdiffused_to、space.active_in、movement→event/orgのexhibited_at→held_at/sited_inの4経路を、当該movementに登録された資料を対象に確認した。起源region外への文書化された接続は確認できない。",
-          "sources": [
-            "https://www.wikidata.org/wiki/Q1542287",
-            "https://en.wikipedia.org/wiki/Ukrainian_Baroque"
-          ]
-        }
+        "reasons": [
+          "1経路で起源region外へ到達"
+        ],
+        "review": null
       },
       {
         "movement_id": "movement/utagawa-school",

@@ -34,7 +34,9 @@ claims:
 evidence: []
 space:
   - {role: originated_in, target: place/bucharest}
-relations: []
+relations:
+  - {type: influenced_by, target: movement/byzantine-art, certainty: scholarly, source: "https://en.wikipedia.org/wiki/Br%C3%A2ncovenesc_art"}
+  - {type: influenced_by, target: movement/renaissance, certainty: scholarly, source: "https://en.wikipedia.org/wiki/Br%C3%A2ncovenesc_art"}
 sources:
   - url: "https://www.wikidata.org/wiki/Q460596"
     kind: authority
@@ -44,7 +46,7 @@ sources:
       の治世に発達した様式とし、ビザンティン・オスマン・盛期ルネサンスの融合と記す。代表例として
       UNESCO世界遺産のホレズ修道院、モゴショアイア宮殿、クレツレスク教会（1722年完成）を挙げる"
 status: draft
-updated: 2026-09-16
+updated: 2026-09-21
 ---
 
 # ブルンコヴェネスク様式 / Brâncovenesc Art
@@ -57,10 +59,14 @@ updated: 2026-09-16
 > Brâncovenesc art or Brâncovenesc style ... is an artistic style that evolved during the
 > administration of Prince Constantin Brâncoveanu in the late 17th and early 18th centuries.
 
-「ワラキア・ルネサンス」「ルーマニア・ルネサンス」とも呼ばれ、ビザンティン・オスマン・盛期
-ルネサンスの融合とされる（同項）。建築が中心だが絵画・彫刻にも表れた。代表例が、ブルンコヴェアヌ
-自身が墓所として意図したホレズ修道院（UNESCO世界遺産）、ブカレスト近郊のモゴショアイア宮殿、
-1722年完成のクレツレスク教会など。
+「ワラキア・ルネサンス」「ルーマニア・ルネサンス」とも呼ばれ、[ビザンティン](byzantine-art.md)・
+オスマン・盛期[ルネサンス](renaissance.md)の融合とされる（同項）。建築が中心だが絵画・彫刻にも
+表れた。代表例が、ブルンコヴェアヌ自身が墓所として意図したホレズ修道院（UNESCO世界遺産）、
+ブカレスト近郊のモゴショアイア宮殿、1722年完成のクレツレスク教会など。これに基づき
+`relations`へ`influenced_by`を`movement/byzantine-art`・`movement/renaissance`の双方に張った。
+オスマン建築については、この時代・地域に対応する具体的なmovementを本KBで特定できなかった
+（[初期オスマン建築](early-ottoman-architecture.md)は14〜15世紀ブルサが対象で、時代が異なる）
+ため、影響として明記されているものの`relations`には反映しなかった。
 
 ## kind の判定
 
@@ -78,5 +84,8 @@ updated: 2026-09-16
 - コンスタンティン・ブルンコヴェアヌを person エンティティとして立てるかどうか
 - ホレズ修道院・モゴショアイア宮殿を work エンティティとして立てるかどうか
 - 様式名称の最初の使用者・使用年の確認
-- 文化圏間接続（4経路）: 検索した範囲では、海外美術館収蔵などeurope-east外への文書化された
-  接続は見つけられなかった（建築中心の様式であるため、可動作品の海外収蔵自体が想定しにくい）
+- ~~文化圏間接続（4経路）: 検索した範囲では、海外美術館収蔵などeurope-east外への文書化された
+  接続は見つけられなかった（建築中心の様式であるため、可動作品の海外収蔵自体が想定しにくい）~~
+  → 2026-09-21解消。`influenced_by`を`movement/byzantine-art`・`movement/renaissance`
+  （いずれもeurope-west/europe-east起源）に張ったことでmovement-relation経路が成立し、
+  `config/cross-region-reviews.yaml`の当該エントリは削除した

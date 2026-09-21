@@ -35,6 +35,7 @@ space:
   - {role: originated_in, target: place/hampi}
 relations:
   - {type: diffused_to, target: place/new-york-city, certainty: scholarly, source: "https://www.metmuseum.org/art/collection/search?q=South+Indian,+Vijayanagara&sortBy=Relevance"}
+  - {type: influenced_by, target: movement/hoysala-art, certainty: scholarly, source: "https://en.wikipedia.org/wiki/Vijayanagara_architecture"}
 sources:
   - url: "https://www.wikidata.org/wiki/Q3533669"
     kind: authority
@@ -48,8 +49,14 @@ sources:
     kind: institutional
     note: "メトロポリタン美術館の収蔵検索結果。『South Indian, Vijayanagara』で451件の作品を
       確認した（武具・彫刻等を含む、2026-09-16時点）"
+  - url: "https://en.wikipedia.org/wiki/Vijayanagara_architecture"
+    kind: reference
+    note: "『Vijayanagara architecture』の項。ヴィジャヤナガル様式は、それ以前の数世紀に
+      各王朝が統治した時代に発展したチャールキヤ・ホイサラ・ラーシュトラクータ・
+      パーンディヤ・チョーラの諸様式を組み合わせたものだと記す。カーカティーヤ朝への
+      言及は無い"
 status: draft
-updated: 2026-09-16
+updated: 2026-09-21
 ---
 
 # ヴィジャヤナガル美術 / Vijayanagara Art
@@ -77,6 +84,21 @@ Smarthistoryの記事「[Art and architecture of the Vijayanagara empire](https:
 [チョーラ朝ブロンズ](chola-bronzes.md)（880-1279年）とは時代が連続しており、様式的にも
 継承関係にあるとされる。
 
+## ホイサラ美術からの影響
+
+英語版Wikipedia「[Vijayanagara architecture](https://en.wikipedia.org/wiki/Vijayanagara_architecture)」
+（参考資料）はこう記す（二次情報）。
+
+> The Vijayanagara style is a combination of the Chalukya, Hoysala, Rashtrakuta, Pandya and
+> Chola styles which evolved earlier in the centuries when these empires ruled.
+
+ヴィジャヤナガル王国は1336年、[ホイサラ美術](hoysala-art.md)の発生地であるカルナータカ
+地方を含む南インドに興った。同記事はヴィジャヤナガル様式を、チャールキヤ・ホイサラ・
+ラーシュトラクータ・パーンディヤ・チョーラという先行諸王朝の様式を組み合わせたものと
+明記しており、これに基づき`relations`へ`influenced_by movement/hoysala-art`を張った。
+同記事はカーカティーヤ朝（テランガーナ、[カーカティーヤ美術](kakatiya-art.md)の発生地）
+には言及しておらず、この接続は今回確認できなかった。
+
 ## ニューヨークでの収蔵
 
 メトロポリタン美術館の収蔵検索で「South Indian, Vijayanagara」を対象に451件がヒットした
@@ -89,5 +111,8 @@ asia-south起源からamericas-northへの接続を記録した。
   立てるかどうか
 - 代表的な建造物（ヴィルーパークシャ寺院、ヴィッタラ寺院など）を work エンティティとして
   立てるかどうか
-- チョーラ朝ブロンズからの様式継承を`relations`の`influenced_by`で明示するかどうか（今回は
-  本文の記述にとどめた）
+- チョーラ朝ブロンズからの様式継承を`relations`の`influenced_by`で明示するかどうか
+  ——Smarthistory記事は建築様式一般としての『チョーラ・パーンディヤ朝の伝統』を挙げており、
+  [チョーラ朝ブロンズ](chola-bronzes.md)（青銅像に特化したmovement）と対象範囲が一致するか
+  確認できなかったため、本文の記述にとどめた（Smarthistoryへの再アクセスが403エラーで
+  失敗し、原文の精査ができなかった）

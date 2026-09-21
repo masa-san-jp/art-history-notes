@@ -34,7 +34,8 @@ claims:
 evidence: []
 space:
   - {role: originated_in, target: place/moscow}
-relations: []
+relations:
+  - {type: derives_from, target: movement/moscow-school-icon-painting, certainty: scholarly, source: "https://en.wikipedia.org/wiki/Stroganov_School"}
 sources:
   - url: "https://www.wikidata.org/wiki/Q1968335"
     kind: authority
@@ -44,7 +45,7 @@ sources:
       ロシア最後の主要なイコン画派とし、小型で緻密な技法・金箔の多用を特徴とすると記す。プロコピー・
       チーリンらの多くは実際にはモスクワ拠点でツァーリの発注をこなした画家だったと明記する"
 status: draft
-updated: 2026-09-16
+updated: 2026-09-21
 ---
 
 # ストロガノフ派 / Stroganov School
@@ -73,6 +74,9 @@ updated: 2026-09-16
 `period-style` とした。単一の血縁・工房ではなく、ストロガノフ家の富裕な庇護と、モスクワの
 ツァーリ工房の技量が交差する16世紀末〜17世紀という時代の枠を通じて、複数の画家が様式を
 共有し続けた点を、[モスクワ派](moscow-school-icon-painting.md)の後継として位置づけた。
+Wikipediaが記す「ロシア最後の主要なイコン画派」という位置づけ、および画家たちの実際の
+活動拠点がモスクワだったという指摘に基づき、`relations`へ`derives_from movement/moscow-school-icon-painting`
+を張った。
 
 ## 時間・空間
 

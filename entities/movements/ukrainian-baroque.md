@@ -33,7 +33,8 @@ claims:
 evidence: []
 space:
   - {role: originated_in, target: place/kyiv}
-relations: []
+relations:
+  - {type: derives_from, target: movement/baroque, certainty: scholarly, source: "https://en.wikipedia.org/wiki/Ukrainian_Baroque"}
 sources:
   - url: "https://www.wikidata.org/wiki/Q1542287"
     kind: authority
@@ -47,7 +48,7 @@ sources:
     note: "ウクライナ百科事典の『Portraiture』項。ラテン語persona由来の『パルスナ（parsunnyi）』
       肖像画が、フメリニツキー・マゼーパら歴代ヘーチマンを正装で描いたと記す"
 status: draft
-updated: 2026-09-16
+updated: 2026-09-21
 ---
 
 # ウクライナ・バロック / Ukrainian Baroque
@@ -60,8 +61,9 @@ updated: 2026-09-16
 > Ukrainian Baroque ... also known as Cossack Baroque ... or Mazepa Baroque, is an artistic style
 > that was widespread in Ukraine in the 17th and 18th centuries.
 
-コサック・ヘーチマン国家の時代、地元の伝統と西欧バロックが融合して生まれた様式で、西欧の
-バロックに比べ装飾が控えめで単純な形態を特徴とする（同項）。キーウ（[place/kyiv](../places/kyiv.md)）・
+コサック・ヘーチマン国家の時代、地元の伝統と西欧[バロック](baroque.md)が融合して生まれた
+様式で、西欧のバロックに比べ装飾が控えめで単純な形態を特徴とする（同項）。この記述に基づき
+`relations`へ`derives_from movement/baroque`を張った。キーウ（[place/kyiv](../places/kyiv.md)）・
 チェルニーヒウが中心地とされ、キエフ・ペチェールシク大修道院などの教会建築群が代表例とされる。
 イコン画も17世紀初頭に東部ウクライナで復興し、教会だけでなく台頭するコサック上層階級も
 発注者となった（同項）。
@@ -81,5 +83,7 @@ updated: 2026-09-16
 - イヴァン・マゼーパ、ボフダン・フメリニツキーら歴代ヘーチマンを person エンティティとして
   立てるかどうか（今回は本文中の記述にとどめた）
 - 代表的な建築物（キエフ・ペチェールシク大修道院など）を work エンティティとして立てるかどうか
-- 文化圏間接続（4経路）: 検索した範囲では、海外美術館収蔵などeurope-east外への文書化された
-  接続は見つけられなかった
+- ~~文化圏間接続（4経路）: 検索した範囲では、海外美術館収蔵などeurope-east外への文書化された
+  接続は見つけられなかった~~ → 2026-09-21解消。`derives_from movement/baroque`
+  （発生地パリ、europe-west）を張ったことでmovement-relation経路が成立し、
+  `config/cross-region-reviews.yaml`の当該エントリは削除した

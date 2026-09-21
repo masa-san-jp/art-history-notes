@@ -38,7 +38,8 @@ images:
     note: "パルミジャニーノ《立つ9人の人物群》1524〜27年、シカゴ美術館蔵"
 space:
   - {role: originated_in, target: place/rome}
-relations: []
+relations:
+  - {type: reacts_against, target: movement/renaissance, certainty: scholarly, source: "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300021144"}
 sources:
   - url: "https://www.wikidata.org/wiki/Q131808"
     kind: authority
@@ -53,7 +54,7 @@ sources:
   - url: "https://www.artic.edu/artworks/52668"
     kind: institutional
 status: verified
-updated: 2026-08-25
+updated: 2026-09-21
 ---
 
 # マニエリスム / Mannerism
@@ -129,7 +130,15 @@ pallid, exaggerated elegance.」（1520年代から1590年頃までの様式お�
   図像がエチオピアの絵画に現れた（同ファイル、Journal18 掲載のウィンドミュラー＝ルナ論考に拠る）
 
 **エッジは受け取った側のファイルに置いた**（`docs/schema.md` の「逆向きの関係は書かない」に従う）。
-本ファイルの `relations` が空なのはそのためである。
+上記2件については本ファイルの `relations` に対応するエッジを置かない。
+
+## ルネサンスへの反発
+
+Getty AATの定義（前掲）は、マニエリスムを「ルネサンスの古典的理想から距離を取って幻想性を
+作り出し（a distancing from the Classical ideal of the Renaissance to create a sense of
+fantasy）」た様式と明記する。これに基づき`relations`へ`reacts_against movement/renaissance`
+を張った。マニエリスム自身がこの関係の起点（反発した側）であるため、このエッジは本ファイルに
+置く。
 
 ## 未着手
 
