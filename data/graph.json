@@ -5789,6 +5789,12 @@
           "target": "place/kolkata",
           "certainty": "scholarly",
           "source": "https://en.wikipedia.org/wiki/Calcutta_Stone"
+        },
+        {
+          "type": "influenced_by",
+          "target": "movement/srivijaya-art",
+          "certainty": "scholarly",
+          "source": "https://en.wikipedia.org/wiki/Kingdom_of_Kahuripan"
         }
       ],
       "sources": [
@@ -5806,10 +5812,15 @@
           "url": "https://en.wikipedia.org/wiki/Calcutta_Stone",
           "kind": "reference",
           "note": "『Calcutta Stone』の項。サンスクリット語と古ジャワ語でカウィ文字により刻まれた 碑文で、1041年、カフリパン王国の王アイルランガが、1016年の反乱（前王ダルマヴァンシャ の死・都の破壊）を経て自らの正統性を主張するために制作させたと記す。トーマス・ スタンフォード・ラッフルズがプナングンガン山の斜面で発見し、1812年、感謝のしるし としてサングラン碑文とともにインド総督ミント卿へ送り、以来19世紀から現在まで カルカッタのインド博物館に保管されていると記す"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Kingdom_of_Kahuripan",
+          "kind": "reference",
+          "note": "『Kingdom of Kahuripan』の項。アイルランガの叔父ダルマヴァンシャがスリーヴィジャヤ へ海軍侵攻しパレンバン攻略を試みたが失敗し、後にヴラワリによる侵攻がスリーヴィジャヤ 側の報復だったと記す。アイルランガはカフリパン建国後スリーヴィジャヤと和平を結び、 1035年、王妃がスリーヴィジャヤ王の娘だったとされることから『スリーヴィジャヤスラマ』 という名の仏教僧院を建立したと記す"
         }
       ],
       "status": "draft",
-      "updated": "2026-09-16",
+      "updated": "2026-09-21",
       "path": "entities/movements/east-javanese-kawi-inscriptions.md"
     },
     "movement/ecole-de-dakar": {
@@ -12583,6 +12594,12 @@
           "target": "place/paris",
           "certainty": "scholarly",
           "source": "http://arts-graphiques.louvre.fr/detail/artistes/0/757-DEBRET-Jean-Baptiste"
+        },
+        {
+          "type": "derives_from",
+          "target": "movement/neoclassicism",
+          "certainty": "scholarly",
+          "source": "https://en.wikipedia.org/wiki/Miss%C3%A3o_Art%C3%ADstica_Francesa"
         }
       ],
       "sources": [
@@ -12602,7 +12619,7 @@
         }
       ],
       "status": "draft",
-      "updated": "2026-09-16",
+      "updated": "2026-09-21",
       "path": "entities/movements/missao-artistica-francesa.md"
     },
     "movement/moai": {
@@ -12743,6 +12760,12 @@
           "target": "place/kassel",
           "certainty": "scholarly",
           "source": "https://www.documenta14.de/en/artists/21988/baldugiin-sharav"
+        },
+        {
+          "type": "derives_from",
+          "target": "movement/menri-school",
+          "certainty": "scholarly",
+          "source": "https://en.wikipedia.org/wiki/Mongol_zurag"
         }
       ],
       "sources": [
@@ -12767,7 +12790,7 @@
         }
       ],
       "status": "draft",
-      "updated": "2026-09-15",
+      "updated": "2026-09-21",
       "path": "entities/movements/mongol-zurag.md"
     },
     "movement/mono-ha": {
@@ -78391,6 +78414,13 @@
     },
     {
       "from": "movement/east-javanese-kawi-inscriptions",
+      "type": "influenced_by",
+      "to": "movement/srivijaya-art",
+      "certainty": "scholarly",
+      "source": "https://en.wikipedia.org/wiki/Kingdom_of_Kahuripan"
+    },
+    {
+      "from": "movement/east-javanese-kawi-inscriptions",
       "type": "originated_in",
       "to": "place/jombang"
     },
@@ -79385,6 +79415,13 @@
     },
     {
       "from": "movement/missao-artistica-francesa",
+      "type": "derives_from",
+      "to": "movement/neoclassicism",
+      "certainty": "scholarly",
+      "source": "https://en.wikipedia.org/wiki/Miss%C3%A3o_Art%C3%ADstica_Francesa"
+    },
+    {
+      "from": "movement/missao-artistica-francesa",
       "type": "originated_in",
       "to": "place/rio-de-janeiro"
     },
@@ -79406,6 +79443,13 @@
       "to": "place/kassel",
       "certainty": "scholarly",
       "source": "https://www.documenta14.de/en/artists/21988/baldugiin-sharav"
+    },
+    {
+      "from": "movement/mongol-zurag",
+      "type": "derives_from",
+      "to": "movement/menri-school",
+      "certainty": "scholarly",
+      "source": "https://en.wikipedia.org/wiki/Mongol_zurag"
     },
     {
       "from": "movement/mongol-zurag",
@@ -95673,6 +95717,12 @@
       "derived": true
     },
     {
+      "from": "movement/srivijaya-art",
+      "type": "influenced",
+      "to": "movement/east-javanese-kawi-inscriptions",
+      "derived": true
+    },
+    {
       "from": "movement/negritude",
       "type": "has_part",
       "to": "movement/ecole-de-dakar",
@@ -96225,6 +96275,12 @@
       "derived": true
     },
     {
+      "from": "movement/neoclassicism",
+      "type": "derived_into",
+      "to": "movement/missao-artistica-francesa",
+      "derived": true
+    },
+    {
       "from": "place/london",
       "type": "received",
       "to": "movement/moai",
@@ -96233,6 +96289,12 @@
     {
       "from": "place/kassel",
       "type": "received",
+      "to": "movement/mongol-zurag",
+      "derived": true
+    },
+    {
+      "from": "movement/menri-school",
+      "type": "derived_into",
       "to": "movement/mongol-zurag",
       "derived": true
     },

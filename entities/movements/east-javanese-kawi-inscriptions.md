@@ -38,6 +38,7 @@ space:
   - {role: originated_in, target: place/jombang}
 relations:
   - {type: diffused_to, target: place/kolkata, certainty: scholarly, source: "https://en.wikipedia.org/wiki/Calcutta_Stone"}
+  - {type: influenced_by, target: movement/srivijaya-art, certainty: scholarly, source: "https://en.wikipedia.org/wiki/Kingdom_of_Kahuripan"}
 sources:
   - url: "https://www.wikidata.org/wiki/Q9025028"
     kind: authority
@@ -58,8 +59,15 @@ sources:
       スタンフォード・ラッフルズがプナングンガン山の斜面で発見し、1812年、感謝のしるし
       としてサングラン碑文とともにインド総督ミント卿へ送り、以来19世紀から現在まで
       カルカッタのインド博物館に保管されていると記す"
+  - url: "https://en.wikipedia.org/wiki/Kingdom_of_Kahuripan"
+    kind: reference
+    note: "『Kingdom of Kahuripan』の項。アイルランガの叔父ダルマヴァンシャがスリーヴィジャヤ
+      へ海軍侵攻しパレンバン攻略を試みたが失敗し、後にヴラワリによる侵攻がスリーヴィジャヤ
+      側の報復だったと記す。アイルランガはカフリパン建国後スリーヴィジャヤと和平を結び、
+      1035年、王妃がスリーヴィジャヤ王の娘だったとされることから『スリーヴィジャヤスラマ』
+      という名の仏教僧院を建立したと記す"
 status: draft
-updated: 2026-09-16
+updated: 2026-09-21
 ---
 
 # 東ジャワ王朝カウィ碑文 / East Javanese Kawi Royal Inscriptions
@@ -89,6 +97,16 @@ updated: 2026-09-16
 碑文とともにインド総督ミント卿（カルカッタ）へ送った。以来19世紀から現在まで、
 カルカッタのインド博物館に保管されている。これに基づき`relations`へ
 `diffused_to place/kolkata`を張り、asia-southeast起源からasia-southへの接続を記録した。
+
+## スリーヴィジャヤ美術との関係
+
+英語版Wikipedia「[Kingdom of Kahuripan](https://en.wikipedia.org/wiki/Kingdom_of_Kahuripan)」
+（参考資料）はこう記す（二次情報）。アイルランガの叔父ダルマヴァンシャは
+[スリーヴィジャヤ](srivijaya-art.md)へ海軍侵攻しパレンバン攻略を試みたが失敗し、後の
+ヴラワリによる侵攻はスリーヴィジャヤ側の報復だったとされる。アイルランガはカフリパン
+建国後スリーヴィジャヤと和平を結び、王妃がスリーヴィジャヤ王の娘だったとされることから、
+1035年に『スリーヴィジャヤスラマ』という名の仏教僧院を建立した。この婚姻同盟と
+命名の事実に基づき、`relations`へ`influenced_by movement/srivijaya-art`を張った。
 
 ## 未着手
 

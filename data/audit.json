@@ -3365,10 +3365,25 @@
             "destination_regions": [
               "europe-west"
             ]
+          },
+          {
+            "kind": "movement-relation",
+            "edges": [
+              {
+                "from": "movement/missao-artistica-francesa",
+                "type": "derives_from",
+                "to": "movement/neoclassicism",
+                "certainty": "scholarly",
+                "source": "https://en.wikipedia.org/wiki/Miss%C3%A3o_Art%C3%ADstica_Francesa"
+              }
+            ],
+            "destination_regions": [
+              "europe-west"
+            ]
           }
         ],
         "reasons": [
-          "1経路で起源region外へ到達"
+          "2経路で起源region外へ到達"
         ],
         "review": null
       },

@@ -40,6 +40,7 @@ space:
   - {role: originated_in, target: place/ulaanbaatar}
 relations:
   - {type: diffused_to, target: place/kassel, certainty: scholarly, source: "https://www.documenta14.de/en/artists/21988/baldugiin-sharav"}
+  - {type: derives_from, target: movement/menri-school, certainty: scholarly, source: "https://en.wikipedia.org/wiki/Mongol_zurag"}
 sources:
   - url: "https://www.wikidata.org/wiki/Q6899568"
     kind: authority
@@ -57,7 +58,7 @@ sources:
     note: "バルドギーン・シャラヴ（愛称マルザン＝『機知に富む』）の項。近代絵画様式のモンゴルへの
       導入者とされる一方、代表作《モンゴルの一日》はより伝統的なズラグ様式で描かれたと記す"
 status: draft
-updated: 2026-09-15
+updated: 2026-09-21
 ---
 
 # モンゴル・ズラグ / Mongol Zurag
@@ -109,6 +110,15 @@ documenta 14（2017年、ドイツ・[カッセル](../places/kassel.md)）は�
 記録した。documenta 5（1972年）に[コンセプチュアル・アート](conceptual-art.md)が出品された記録
 （[event/documenta-5-1972](documenta-5-1972.md)）とは別の、documenta 14（2017年）という
 異なる回への出品である。
+
+## メンリ派との関係
+
+英語版Wikipedia「[Mongol zurag](https://en.wikipedia.org/wiki/Mongol_zurag)」（参考資料）は、
+モンゴル・ズラグを「チベットのタンカに似た鉱物顔料・綿布の技法（mineral-paint–on–cotton
+medium similar to Tibetan thangka）」を用いる様式と記す。本KBでは、現在もチベット・タンカ
+絵画の主流の様式である[メンリ派](menri-school.md)をこの『チベットのタンカ』の代表と見なし、
+`relations`へ`derives_from movement/menri-school`を張った。ただし主題（宗教的図像ではなく
+世俗的・民族的主題）は大きく異なる点に注意する。
 
 ## 未着手
 

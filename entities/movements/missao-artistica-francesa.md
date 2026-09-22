@@ -36,6 +36,7 @@ space:
   - {role: originated_in, target: place/rio-de-janeiro}
 relations:
   - {type: diffused_to, target: place/paris, certainty: scholarly, source: "http://arts-graphiques.louvre.fr/detail/artistes/0/757-DEBRET-Jean-Baptiste"}
+  - {type: derives_from, target: movement/neoclassicism, certainty: scholarly, source: "https://en.wikipedia.org/wiki/Miss%C3%A3o_Art%C3%ADstica_Francesa"}
 sources:
   - url: "https://www.wikidata.org/wiki/Q3316787"
     kind: authority
@@ -50,7 +51,7 @@ sources:
     kind: institutional
     note: "ルーヴル美術館版画素描部門のジャン＝バティスト・デブレのコレクションページ"
 status: draft
-updated: 2026-09-16
+updated: 2026-09-21
 ---
 
 # フランス美術使節団 / Missão Artística Francesa
@@ -81,6 +82,14 @@ updated: 2026-09-16
 （1834-39年）を刊行した。ルーヴル美術館版画素描部門はデブレの作品を所蔵する。これに基づき
 `relations`へ`diffused_to place/paris`を張り、americas-latin起源からeurope-westへの接続を
 記録した。
+
+## ネオクラシシズムとの関係
+
+英語版Wikipedia「[Missão Artística Francesa](https://en.wikipedia.org/wiki/Miss%C3%A3o_Art%C3%ADstica_Francesa)」
+（参考資料）は、フランス使節団がブラジルにおける[ネオクラシシズム（新古典主義）](neoclassicism.md)
+の強化に結びついているとし、使節団の芸術家・職人たちがブラジルにこの様式を導入・定着させる
+決定的な役割を果たしたと記す。トーネーをはじめとする画家たちが新古典主義様式で制作したとも
+記す。これに基づき`relations`へ`derives_from movement/neoclassicism`を張った。
 
 ## 未着手
 
