@@ -10,6 +10,7 @@ from unittest.mock import patch
 
 from tools.research_knowledge_intake import (KnowledgeStore, IntakeError, OWNER, POLICY,
     canonical, digest, key, validate_candidate, ROOT)
+from tools.agent_support import is_immutable_archive, resolve_code_commit, run_git
 
 NOW = datetime(2026, 9, 5, tzinfo=timezone.utc)
 
@@ -19,13 +20,17 @@ class ResearchIntakeTests(unittest.TestCase):
         self.temp = tempfile.TemporaryDirectory(); self.addCleanup(self.temp.cleanup)
         self.root = Path(self.temp.name)
         self.store_root = self.root / "memory"; self.store_root.mkdir()
-        self.code = subprocess.check_output(["git", "rev-parse", "HEAD"], cwd=ROOT, text=True).strip()
+        self.code = resolve_code_commit(ROOT)
         # KnowledgeStore fails closed on any uncommitted change (by design). Inside a
         # pre-commit hook the worktree is dirty by definition, so these tests cannot be
         # meaningful there; they run on the clean checkouts used by CI and by verify.py
         # outside a commit. Skipping keeps the tool strict without blocking every commit.
-        dirty = subprocess.check_output(["git", "status", "--porcelain", "--untracked-files=all"],
-                                        cwd=ROOT, text=True).strip()
+        if is_immutable_archive(ROOT):
+            dirty = ""
+        else:
+            status = run_git(["status", "--porcelain", "--untracked-files=all"], root=ROOT)
+            self.assertEqual(status.returncode, 0, status.stderr.decode(errors="replace"))
+            dirty = status.stdout.decode(errors="replace").strip()
         if dirty:
             self.skipTest("requires a clean checkout at HEAD (worktree has uncommitted changes)")
         gitdir = self.store_root / "objects.git"
