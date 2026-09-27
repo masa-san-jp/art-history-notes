@@ -22,7 +22,7 @@ if str(TOOLS) not in sys.path:
 from kb import (ROOT, DIR_FOR_TYPE, URI_PREFIX, load_config, load_entities, source_validation_errors,
                 read_frontmatter, normalized_meta, build_edges)
 from build_graph import validate as validate_entities
-from agent_support import SECRET_PATTERNS
+from agent_support import SECRET_PATTERNS, is_immutable_archive, resolve_code_commit, run_git
 from path_safety import external_path
 
 OWNER = "art-history-notes"
@@ -155,9 +155,18 @@ class KnowledgeStore:
             raise IntakeError("explicit external store required")
         self.creator, self.collection, self.code_commit = creator, collection, code_commit
         if not re.fullmatch(r"[0-9a-f]{40}", code_commit): raise IntakeError("code commit must be fixed")
-        actual_code = subprocess.run(["git", "rev-parse", "HEAD"], cwd=ROOT, capture_output=True, text=True)
-        dirty_code = subprocess.run(["git", "status", "--porcelain", "--untracked-files=all"], cwd=ROOT, capture_output=True, text=True)
-        if actual_code.returncode or dirty_code.returncode or actual_code.stdout.strip() != code_commit or dirty_code.stdout.strip():
+        try:
+            actual_code = resolve_code_commit(ROOT)
+        except RuntimeError as exc:
+            raise IntakeError(str(exc)) from exc
+        if is_immutable_archive(ROOT):
+            dirty_code = ""
+        else:
+            dirty_result = run_git(["status", "--porcelain", "--untracked-files=all"], root=ROOT)
+            if dirty_result.returncode:
+                raise IntakeError(dirty_result.stderr.decode("utf-8", errors="replace").strip() or "git status failed")
+            dirty_code = dirty_result.stdout.decode("utf-8", errors="replace")
+        if actual_code != code_commit or dirty_code.strip():
             raise IntakeError("execute from the clean isolated checkout at the declared code commit")
         self.git_dir = self.root / "objects.git"
         marker = self.root / "store.json"

@@ -20,11 +20,11 @@ import yaml
 try:
     from .agent_session import load_session, task_hash
     from .agent_task import ContractInvalid, load_contract
-    from .agent_support import ROOT, file_states, path_forbidden, path_in_scope, run_git, secret_finding, symlink_component
+    from .agent_support import ROOT, file_states, path_forbidden, path_in_scope, revision_exists, secret_finding, symlink_component
 except ImportError:
     from agent_session import load_session, task_hash
     from agent_task import ContractInvalid, load_contract
-    from agent_support import ROOT, file_states, path_forbidden, path_in_scope, run_git, secret_finding, symlink_component
+    from agent_support import ROOT, file_states, path_forbidden, path_in_scope, revision_exists, secret_finding, symlink_component
 
 
 MAX_OUTPUT_BYTES = 1024 * 1024
@@ -177,9 +177,7 @@ def _load_registry() -> dict[str, Any]:
 
 
 def _git_revision_exists(sha: str) -> bool:
-    if not isinstance(sha, str) or not sha:
-        return False
-    return run_git(["cat-file", "-e", f"{sha}^{{commit}}"]).returncode == 0
+    return revision_exists(sha)
 
 
 def _session_entries(payload: dict[str, Any]) -> dict[str, dict[str, Any]]:

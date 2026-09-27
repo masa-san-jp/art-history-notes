@@ -40,16 +40,12 @@ def _resolve_output(path: Path) -> Path:
 
 
 def _git_head() -> str:
-    import subprocess
     try:
-        from .agent_support import run_git
+        from .agent_support import resolve_code_commit
     except ImportError:
-        from agent_support import run_git
+        from agent_support import resolve_code_commit
 
-    result = run_git(["rev-parse", "HEAD"])
-    if result.returncode:
-        raise RuntimeError(result.stderr.decode("utf-8", errors="replace").strip() or "cannot resolve HEAD")
-    return result.stdout.decode("ascii", errors="strict").strip()
+    return resolve_code_commit()
 
 
 def begin(task_file: Path, output: Path) -> dict[str, Any]:

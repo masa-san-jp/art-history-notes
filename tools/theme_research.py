@@ -34,6 +34,7 @@ from pathlib import Path
 import yaml
 
 from kb import ROOT, load_entities, log_query, search_entities
+from agent_support import resolve_code_commit
 
 CONTRACT = "theme-research-recon/v1"
 BUDGET_CONTRACT = "theme-research-budget/v1"
@@ -254,9 +255,7 @@ def main():
         absent = [k for k, v in needed.items() if not v]
         if absent:
             p.error("--emit-candidate-template には次が要る: " + ", ".join("--" + k.replace("_", "-") for k in absent))
-        import subprocess
-        head = subprocess.run(["git", "rev-parse", "HEAD"], cwd=ROOT, capture_output=True, text=True)
-        code_commit = head.stdout.strip() if head.returncode == 0 else ""
+        code_commit = resolve_code_commit(ROOT)
         max_c = budget["per_run"]["max_candidates"]
         report["candidate_templates"] = [
             candidate_template(r["theme"], r, code_commit=code_commit, **needed)
