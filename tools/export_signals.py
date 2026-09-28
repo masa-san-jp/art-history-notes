@@ -25,8 +25,10 @@ from pathlib import Path
 
 try:
     from kb import ROOT, load_entities, normalize_reference, normalize_sources
+    from agent_support import is_immutable_archive, resolve_code_commit
 except ModuleNotFoundError:  # tools.export_signals として読まれた場合
     from tools.kb import ROOT, load_entities, normalize_reference, normalize_sources
+    from tools.agent_support import is_immutable_archive, resolve_code_commit
 
 CONTRACT = "research-signal-export/v1"
 ADAPTER_VERSION = "1.0.0"
@@ -46,22 +48,20 @@ REVALIDATE_DAYS = 365
 
 
 def _head_commit() -> str:
-    status = subprocess.run(
+    status_result = subprocess.run(
         ["git", "-C", str(ROOT), "status", "--porcelain"],
         capture_output=True,
         text=True,
-        check=True,
-    ).stdout.strip()
+        check=False,
+    )
+    status = status_result.stdout.strip()
     if status:
         raise RuntimeError(
             "作業ツリーが dirty のため、HEAD を入力データの provenance として使えない"
         )
-    return subprocess.run(
-        ["git", "-C", str(ROOT), "rev-parse", "HEAD"],
-        capture_output=True,
-        text=True,
-        check=True,
-    ).stdout.strip()
+    if status_result.returncode and not is_immutable_archive(ROOT):
+        raise RuntimeError(status_result.stderr.strip() or "git status failed")
+    return resolve_code_commit(ROOT)
 
 
 def _iso(dt: datetime) -> str:

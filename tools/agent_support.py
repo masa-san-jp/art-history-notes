@@ -13,6 +13,8 @@ from typing import Iterable
 
 
 ROOT = Path(__file__).resolve().parents[1]
+ARCHIVE_COMMIT_PATH = ".archive-commit"
+COMMIT_SHA_RE = re.compile(r"[0-9a-f]{40}")
 FORBIDDEN_ROOTS = {".git", ".agent-local"}
 FORBIDDEN_NAMES = {
     ".env",
@@ -53,6 +55,57 @@ def run_git(args: list[str], *, root: Path = ROOT) -> subprocess.CompletedProces
     )
 
 
+def _archive_commit(root: Path = ROOT) -> str | None:
+    """Read the commit substituted into an immutable git archive, if valid."""
+
+    marker = root / ARCHIVE_COMMIT_PATH
+    try:
+        value = marker.read_text(encoding="ascii").strip()
+    except FileNotFoundError:
+        return None
+    except (OSError, UnicodeError) as exc:
+        raise RuntimeError(f"cannot read {ARCHIVE_COMMIT_PATH}: {exc}") from exc
+    if value == "$Format:%H$":
+        return None
+    return value if COMMIT_SHA_RE.fullmatch(value) else None
+
+
+def is_immutable_archive(root: Path = ROOT) -> bool:
+    """Return true only for a directory without Git and with a valid archive pin."""
+
+    return run_git(["rev-parse", "--git-dir"], root=root).returncode != 0 and _archive_commit(root) is not None
+
+
+def resolve_code_commit(root: Path = ROOT) -> str:
+    """Resolve the immutable code commit, failing closed when neither source works."""
+
+    result = run_git(["rev-parse", "HEAD"], root=root)
+    if result.returncode == 0:
+        value = result.stdout.decode("ascii", errors="strict").strip()
+        if COMMIT_SHA_RE.fullmatch(value):
+            return value
+        raise RuntimeError("git rev-parse HEAD did not return a 40-character lowercase SHA")
+    archive = _archive_commit(root)
+    if archive is not None:
+        return archive
+    detail = result.stderr.decode("utf-8", errors="replace").strip()
+    raise RuntimeError(
+        "cannot resolve code commit: git rev-parse HEAD failed and .archive-commit has no 40-character SHA"
+        + (f" ({detail})" if detail else "")
+    )
+
+
+def revision_exists(sha: str, root: Path = ROOT) -> bool:
+    """Check a session revision in Git or against an immutable archive pin."""
+
+    if not COMMIT_SHA_RE.fullmatch(sha):
+        return False
+    result = run_git(["cat-file", "-e", f"{sha}^{{commit}}"], root=root)
+    if result.returncode == 0:
+        return True
+    return is_immutable_archive(root) and _archive_commit(root) == sha
+
+
 def relative_path(path: str) -> str:
     if not path or "\x00" in path or path.startswith("/") or "\\" in path:
         raise ValueError("path must be a non-empty relative POSIX path")
@@ -77,6 +130,8 @@ def content_sha(path: Path) -> str | None:
 def _status_paths(root: Path) -> list[tuple[str, str]]:
     result = run_git(["status", "--porcelain=v1", "--untracked-files=all", "-z"], root=root)
     if result.returncode:
+        if is_immutable_archive(root):
+            return [(path, "archive") for path in _archive_paths(root)]
         raise RuntimeError(result.stderr.decode("utf-8", errors="replace").strip() or "git status failed")
     fields = result.stdout.split(b"\0")
     paths: list[tuple[str, str]] = []
@@ -101,8 +156,30 @@ def _status_paths(root: Path) -> list[tuple[str, str]]:
 def _diff_paths(root: Path, base_sha: str) -> list[str]:
     result = run_git(["diff", "--no-renames", "--name-only", "-z", base_sha, "--"], root=root)
     if result.returncode:
+        if is_immutable_archive(root) and _archive_commit(root) == base_sha:
+            return []
         raise RuntimeError(result.stderr.decode("utf-8", errors="replace").strip() or "git diff failed")
     return [field.decode("utf-8", errors="surrogateescape") for field in result.stdout.split(b"\0") if field]
+
+
+def _archive_paths(root: Path) -> set[str]:
+    paths: set[str] = set()
+    for current, directories, files in os.walk(root, followlinks=False):
+        current_path = Path(current)
+        kept_directories: list[str] = []
+        for name in directories:
+            candidate = current_path / name
+            if name == ".agent-local":
+                continue
+            if candidate.is_symlink():
+                paths.add(relative_path(candidate.relative_to(root).as_posix()))
+            else:
+                kept_directories.append(name)
+        directories[:] = kept_directories
+        for name in files:
+            candidate = current_path / name
+            paths.add(relative_path(candidate.relative_to(root).as_posix()))
+    return paths
 
 
 def _local_paths(root: Path) -> set[str]:
@@ -125,7 +202,7 @@ def _local_paths(root: Path) -> set[str]:
 def file_states(root: Path = ROOT, *, base_sha: str | None = None) -> dict[str, FileState]:
     paths = {path for path, _ in _status_paths(root)}
     paths.update(_local_paths(root))
-    if base_sha is not None:
+    if base_sha is not None and not is_immutable_archive(root):
         paths.update(_diff_paths(root, base_sha))
     states: dict[str, FileState] = {}
     for raw_path in paths:

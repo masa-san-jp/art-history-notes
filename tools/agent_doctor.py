@@ -14,9 +14,9 @@ from typing import Any
 import yaml
 
 try:
-    from .agent_support import ROOT
+    from .agent_support import ROOT, is_immutable_archive
 except ImportError:
-    from agent_support import ROOT
+    from agent_support import ROOT, is_immutable_archive
 
 
 def _check(name: str, ok: bool, code: str, detail: str) -> dict[str, Any]:
@@ -36,7 +36,7 @@ def _command_version(command: str, root: Path) -> tuple[bool, str]:
 
 def checks(root: Path = ROOT) -> list[dict[str, Any]]:
     result: list[dict[str, Any]] = []
-    root_ok = (root / ".git").exists()
+    root_ok = (root / ".git").exists() or is_immutable_archive(root)
     result.append(_check("repository_root", root_ok, "repository_root_ready" if root_ok else "repository_root_missing", str(root)))
     python_ok = sys.version_info >= (3, 12) and sys.version_info < (3, 13)
     result.append(_check("python", python_ok, "python_version_invalid" if not python_ok else "python_ready", sys.version.split()[0]))
