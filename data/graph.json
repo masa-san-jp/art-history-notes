@@ -97,6 +97,53 @@
       "updated": "2026-08-12",
       "path": "entities/concepts/divisionism.md"
     },
+    "concept/frottage": {
+      "id": "concept/frottage",
+      "uri": "urn:ahn:concept/frottage",
+      "type": "concept",
+      "label_ja": "フロッタージュ",
+      "label_en": "Frottage",
+      "authority": {
+        "none_reason": "この経路では外部典拠IDを未確認"
+      },
+      "time": {
+        "start": null,
+        "end": null,
+        "display": "起源年は未確認。エルンストのシュルレアリスム期の実践を記録"
+      },
+      "method": {
+        "fixes": [
+          "凹凸のある面に紙を重ね、鉛筆で擦ってその面のテクスチャを写す手順"
+        ],
+        "varies": [
+          "紙の下に置く面のテクスチャと、紙に写される模様"
+        ],
+        "requires": [
+          "凹凸のある面、紙、鉛筆、および紙を擦る操作"
+        ],
+        "origin_domain": "art"
+      },
+      "space": [],
+      "relations": [],
+      "sources": [
+        {
+          "url": "https://www.museothyssen.org/en/collection/artists/ernst-max",
+          "kind": "institutional",
+          "note": "エルンストの半自動技法と、凹凸面に紙を重ね鉛筆で擦るフロッタージュの手順"
+        }
+      ],
+      "derived_from": [
+        {
+          "origin_instance_id": "agent-398-review",
+          "owner_repository": "art-history-notes",
+          "record_id": "frottage",
+          "revision": 1
+        }
+      ],
+      "status": "draft",
+      "updated": "2026-10-03",
+      "path": "entities/concepts/frottage.md"
+    },
     "concept/harmony": {
       "id": "concept/harmony",
       "uri": "urn:ahn:concept/harmony",
@@ -268,6 +315,14 @@
           "url": "https://sohl-dickstein.github.io/2024/02/12/fractal.html",
           "kind": "primary",
           "note": "反復関数、ハイパーパラメータ、収束・発散の境界がフラクタル構造を生む実験記述（2024-02-12）"
+        }
+      ],
+      "derived_from": [
+        {
+          "origin_instance_id": "agent-398-review",
+          "owner_repository": "art-history-notes",
+          "record_id": "iterated-boundary-generation",
+          "revision": 1
         }
       ],
       "status": "draft",
@@ -18156,6 +18211,12 @@
           "source": "https://www.moma.org/collection/works/38201"
         },
         {
+          "type": "uses_method",
+          "target": "concept/frottage",
+          "certainty": "scholarly",
+          "source": "https://www.museothyssen.org/en/collection/artists/ernst-max"
+        },
+        {
           "type": "influenced_by",
           "target": "movement/dada",
           "certainty": "scholarly",
@@ -18169,6 +18230,11 @@
         }
       ],
       "sources": [
+        {
+          "url": "https://www.museothyssen.org/en/collection/artists/ernst-max",
+          "kind": "institutional",
+          "note": "エルンストがシュルレアリスムのグループと交流した時期の半自動技法としてフロッタージュを紹介"
+        },
         {
           "url": "https://www.moma.org/collection/works/38201",
           "kind": "institutional",
@@ -80381,6 +80447,13 @@
     },
     {
       "from": "movement/surrealism",
+      "type": "uses_method",
+      "to": "concept/frottage",
+      "certainty": "scholarly",
+      "source": "https://www.museothyssen.org/en/collection/artists/ernst-max"
+    },
+    {
+      "from": "movement/surrealism",
       "type": "influenced_by",
       "to": "movement/dada",
       "certainty": "scholarly",
@@ -96887,6 +96960,12 @@
     },
     {
       "from": "concept/automatism",
+      "type": "used_by",
+      "to": "movement/surrealism",
+      "derived": true
+    },
+    {
+      "from": "concept/frottage",
       "type": "used_by",
       "to": "movement/surrealism",
       "derived": true

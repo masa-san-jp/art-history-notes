@@ -119,6 +119,17 @@ class ThemeResearchTest(unittest.TestCase):
         self.assertEqual(self.logged, [("存在しないテーマ", 0)])
         self.assertIn("該当なし", out)
 
+    def test_explicit_query_log_keeps_default_unchanged_outside_invocation(self):
+        import kb
+        original = kb.QUERY_LOG
+        destination = Path(self.temp.name) / "queries.jsonl"
+        with mock.patch.object(kb, "QUERY_LOG", original):
+            code, _ = self.run_main(["--theme", "fixture", "--json", "--query-log", str(destination)],
+                                    {}, lambda *_: [])
+            self.assertEqual(code, 0)
+            self.assertEqual(kb.QUERY_LOG, destination)
+        self.assertEqual(kb.QUERY_LOG, original)
+
     def test_declaration_rejects_multiple_themes_before_search_or_budget_truncation(self):
         self.budget = budget_file(self.temp.name, max_theme_terms=1)
         for declaration in (["--entity-kind", "method"], ["--method-fixes", "rule"]):

@@ -33,6 +33,8 @@ sources:
   - url: "https://sohl-dickstein.github.io/2024/02/12/fractal.html"
     kind: primary
     note: "反復関数、ハイパーパラメータ、収束・発散の境界がフラクタル構造を生む実験記述（2024-02-12）"
+derived_from:
+  - {origin_instance_id: agent-398-review, owner_repository: art-history-notes, record_id: iterated-boundary-generation, revision: 1}
 status: draft
 updated: 2026-10-03
 ---
@@ -62,3 +64,6 @@ updated: 2026-10-03
 出典は計算手順そのものを美術史上の技法と呼んでいるわけではない。そのため、ここでは
 美術外で生まれた方法を同じ concept 経路へ記録したものとして扱い、芸術作品への適用や
 歴史的影響は主張しない。
+
+方法宣言から owner intake を実行した記録と、その共有KBへの昇格元は
+[#398 実行記録](../../docs/method-concepts-398-review.md) に示す。
