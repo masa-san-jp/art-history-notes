@@ -5,11 +5,12 @@
     python3 tools/export_signals.py --purpose artistic-research --entity movement/mannerism
     python3 tools/export_signals.py --purpose artistic-research --limit 5 --output signals.json
 
-出すのは **安定IDと locator だけ** で、正準グラフ（graph.json のノード・エッジ本体）は複製しない。
+正準グラフ（graph.json のノード・エッジ本体）は複製しない。
+出典付きの method concept は、候補の種に必要な method 記述と source_refs も境界へ出す。
 親の `tools/adapters.py::adapt_art_history_signal` が受け取る境界DTOの形に合わせてある。
 
-**解釈を含む関係だけを出す。** `influenced_by` / `derives_from` / `responds_to` / `reacts_against` /
-`grouped_as` / `diffused_to` / `patronized_by` は、このKBが `certainty` と `source` を必須にしている
+**関係は解釈を含むものだけを出す。** `influenced_by` / `derives_from` / `responds_to` / `reacts_against` /
+`grouped_as` / `diffused_to` / `patronized_by` / `uses_method` は、このKBが `certainty` と `source` を必須にしている
 関係で、根拠と確度がそのまま境界へ運べる。構造的な関係（`created_by` 等）は確度の概念を持たないので
 出さない——**「解釈を事実に変換しない」** という cross-repository-contract の禁止事項に当たるため。
 """
@@ -24,10 +25,10 @@ from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
 try:
-    from kb import ROOT, load_entities, normalize_reference, normalize_sources
+    from kb import ROOT, is_http_url, load_entities, normalize_reference, normalize_sources
     from agent_support import is_immutable_archive, resolve_code_commit
 except ModuleNotFoundError:  # tools.export_signals として読まれた場合
-    from tools.kb import ROOT, load_entities, normalize_reference, normalize_sources
+    from tools.kb import ROOT, is_http_url, load_entities, normalize_reference, normalize_sources
     from tools.agent_support import is_immutable_archive, resolve_code_commit
 
 CONTRACT = "research-signal-export/v1"
@@ -37,7 +38,7 @@ SOURCE_REPOSITORY = "art-history"
 # このKBが certainty と source を必須にしている関係（docs/schema.md「relations」）。
 INTERPRETIVE = {
     "influenced_by", "derives_from", "responds_to", "reacts_against",
-    "grouped_as", "diffused_to", "patronized_by",
+    "grouped_as", "diffused_to", "patronized_by", "uses_method",
 }
 
 # KB の certainty → 境界の certainty.level
@@ -126,10 +127,35 @@ def _source_details(meta: dict, relations: list[dict]) -> tuple[list[dict], list
     return sources, evidence_sources
 
 
+def _method(meta: dict) -> dict | None:
+    """出典付きの draft 以上の method concept だけを境界へ出す。"""
+    if meta.get("type") != "concept" or meta.get("status") not in {"draft", "verified"}:
+        return None
+    method = meta.get("method")
+    if not isinstance(method, dict):
+        return None
+    for field in ("fixes", "varies", "requires"):
+        values = method.get(field)
+        if not isinstance(values, list) or not values or any(
+            not isinstance(value, str) or not value.strip() for value in values
+        ):
+            return None
+    origin = method.get("origin_domain")
+    if not isinstance(origin, str) or not origin.strip():
+        return None
+    if not any(is_http_url(source.get("url"))
+               for source in normalize_sources(meta.get("sources") or [])):
+        return None
+    return {field: list(method[field]) for field in ("fixes", "varies", "requires")} | {"origin_domain": origin}
+
+
 def build_record(meta: dict, entities: dict, commit: str, now: datetime, purpose: str) -> dict | None:
-    """1つの movement を境界DTOへ変換する。解釈関係が無いものは None（出さない）。"""
+    """movement または出典付き method concept を既存の境界DTOへ変換する。"""
+    method = _method(meta)
+    if meta.get("type") == "concept" and method is None:
+        return None  # relation があっても未記入・無出典の concept は出さない
     relations = _relations(meta)
-    if not relations:
+    if not relations and method is None:
         return None
     sources, evidence_sources = _source_details(meta, relations)
 
@@ -149,8 +175,8 @@ def build_record(meta: dict, entities: dict, commit: str, now: datetime, purpose
             + ", ".join(origin_targets)
         )
 
-    return {
-        "signal_id": f"art-history:{slug}",
+    record = {
+        "signal_id": f"art-history:method:{slug}" if method else f"art-history:{slug}",
         "repository": SOURCE_REPOSITORY,
         "commit": commit,
         "entity_id": meta["id"],
@@ -163,18 +189,21 @@ def build_record(meta: dict, entities: dict, commit: str, now: datetime, purpose
         # 各ファイルの「未着手」に残っている状態なので、既定は secondary にする。
         # 一次・二次を frontmatter で機械可読に持っていないため、ここで個別判定はしない。
         "evidence_kind": "secondary",
-        "statement": f"{meta.get('label_ja')}（{meta.get('label_en')}）は "
-                     f"{len(relations)} 件の解釈的関係を根拠付きで持つ",
+        "statement": (f"{meta.get('label_ja')}（{meta.get('label_en')}）は出典付きの方法記述を持つ"
+                      if method else f"{meta.get('label_ja')}（{meta.get('label_en')}）は "
+                      f"{len(relations)} 件の解釈的関係を根拠付きで持つ"),
         "certainty": {
             "level": "observed" if verified else "inferred",
             "basis": f"kind={meta.get('kind')} / status={meta.get('status')}。"
-                     "関係ごとの根拠は relations[].evidence_refs にある",
+                     + ("方法記述の根拠は source_refs にある。美術への適用・歴史的影響は認定しない"
+                        if method else "関係ごとの根拠は relations[].evidence_refs にある"),
         },
         "unknowns": unknowns or ["この括りの未着手事項は本文の「未着手」節にある"],
         "constraints": [
             f"{purpose} の目的内でのみ利用する",
             "解釈を含む関係を事実の関係へ変換しない",
-            "正準グラフは複製せず、安定IDと locator で参照する",
+            ("正準グラフや出典本文は複製せず、方法記述と安定IDと locator で参照する"
+             if method else "正準グラフは複製せず、安定IDと locator で参照する"),
         ],
         "validity": {
             "status": "valid" if verified else "unknown",
@@ -187,12 +216,19 @@ def build_record(meta: dict, entities: dict, commit: str, now: datetime, purpose
         },
         "generated_at": _iso(now),
         "adapter_version": ADAPTER_VERSION,
-        "entity_kind": meta.get("kind") or "movement",
+        "entity_kind": "concept" if method else meta.get("kind") or "movement",
         "time": _time_display(meta),
         "geo": _geo(meta, entities),
         "relations": relations,
         "canonical_graph_locator": f"data/graph.json#{meta['id']}",
     }
+    if method:
+        record["method"] = method
+        record["source_refs"] = sorted({source["url"] for source in sources
+                                        if is_http_url(source.get("url"))})
+        record["evidence_sources"] = sources
+        record["constraints"].append("方法の起源領域は美術への適用・歴史的影響の証明ではない")
+    return record
 
 
 def main() -> int:
@@ -243,7 +279,8 @@ def main() -> int:
     now = datetime.now(timezone(timedelta(hours=9))).replace(microsecond=0)
 
     targets = [entities[args.entity]] if args.entity else [
-        meta for meta in entities.values() if meta.get("type") == "movement"
+        meta for meta in entities.values()
+        if meta.get("type") == "movement" or _method(meta) is not None
     ]
 
     records = []

@@ -1,4 +1,5 @@
 import contextlib
+import copy
 import io
 import sys
 import unittest
@@ -33,6 +34,81 @@ def movement(status="draft", space=None):
 
 
 class ExportSignalsTests(unittest.TestCase):
+    def method_concept(self):
+        return {
+            "id": "concept/example-method", "type": "concept", "status": "draft",
+            "path": "entities/concepts/example-method.md", "label_ja": "方法例",
+            "label_en": "Example method", "relations": [],
+            "method": {"fixes": ["repeat"], "varies": ["initial condition"],
+                       "requires": ["classify result"], "origin_domain": "computation"},
+            "sources": [{"url": "https://example.test/method", "kind": "primary", "note": "fixture"}],
+        }
+
+    def export(self, meta):
+        return export_signals.build_record(meta, {}, "a" * 40,
+                                          datetime(2026, 8, 14, tzinfo=timezone.utc), "artistic-research")
+
+    def test_sourced_method_exports_without_a_historical_relation(self):
+        meta = self.method_concept()
+        original = copy.deepcopy(meta)
+        record = self.export(meta)
+        self.assertEqual(original, meta)
+        self.assertEqual(meta["method"], record["method"])
+        self.assertEqual([meta["sources"][0]["url"]], record["source_refs"])
+        self.assertEqual([], record["relations"])
+        self.assertEqual("concept", record["entity_kind"])
+        self.assertEqual("unknown", record["validity"]["status"])
+        self.assertEqual("inferred", record["certainty"]["level"])
+        self.assertEqual("art-history:method:example-method", record["signal_id"])
+
+    def test_method_requires_sources_complete_description_and_draft_status(self):
+        for field in ("fixes", "varies", "requires", "origin_domain"):
+            with self.subTest(field=field):
+                meta = self.method_concept()
+                del meta["method"][field]
+                self.assertIsNone(self.export(meta))
+        for status in ("stub", "unknown", None):
+            meta = self.method_concept()
+            meta["status"] = status
+            self.assertIsNone(self.export(meta))
+        for sources in ([], [{"url": "", "kind": "primary"}]):
+            meta = self.method_concept()
+            meta["sources"] = sources
+            meta["relations"] = movement()["relations"]
+            self.assertIsNone(self.export(meta))
+
+    def test_default_cli_exports_methods_alongside_movements(self):
+        method = self.method_concept()
+        metas = {method["id"]: method, "movement/example": movement()}
+        stdout = io.StringIO()
+        with mock.patch.object(export_signals, "load_entities", return_value=(metas, [])), \
+             mock.patch.object(export_signals, "_head_commit", return_value="a" * 40), \
+             mock.patch.object(sys, "argv", ["export_signals.py", "--purpose", "artistic-research"]), \
+             contextlib.redirect_stdout(stdout):
+            self.assertEqual(0, export_signals.main())
+        import json
+        payload = json.loads(stdout.getvalue())
+        self.assertEqual(2, payload["signal_count"])
+        self.assertEqual({"concept", "retrospective"}, {r["entity_kind"] for r in payload["signals"]})
+
+    def test_uses_method_relation_retains_source_and_certainty(self):
+        meta = movement()
+        meta["relations"][0].update(type="uses_method", target="concept/example-method", certainty="hypothesis")
+        record = self.export(meta)
+        relation = record["relations"][0]
+        self.assertEqual("uses_method", relation["relation"])
+        self.assertEqual("inferred", relation["certainty"]["level"])
+        self.assertEqual([meta["relations"][0]["source"]], relation["evidence_refs"])
+
+    def test_computation_method_from_398_is_exportable_as_an_unverified_seed(self):
+        entities, _records = export_signals.load_entities()
+        meta = entities["concept/iterated-boundary-generation"]
+        record = self.export(meta)
+        self.assertEqual("computation", record["method"]["origin_domain"])
+        self.assertIn("https://sohl-dickstein.github.io/2024/02/12/fractal.html", record["source_refs"])
+        self.assertEqual([], record["relations"])
+        self.assertEqual("unknown", record["validity"]["status"])
+
     def test_unverified_status_is_preserved_as_unknown_validity(self):
         record = export_signals.build_record(
             movement("draft"),

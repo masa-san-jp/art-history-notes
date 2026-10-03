@@ -162,6 +162,15 @@ uv run --locked python tools/compare_context.py context/ai-art-japan-2026-h2 --k
 
 ### データを書く・生成する
 
+出典付きの方法 concept を候補生成へ渡すには、clean な checkout から
+`tools/export_signals.py --purpose artistic-research` を実行します。既存の movement に加え、
+`status: draft` / `verified` で `method.fixes / varies / requires / origin_domain` と出典URLを
+持つ concept を同じ `research-signal-export/v1` の `signals` に含めます。方法 signal は
+`method` と `source_refs` を保持し、関係がなくても export できます。無出典・stub・記述不足は
+出しません。美術外の起源領域は、美術への適用や歴史的影響の証明を意味しません。
+draft の validity は `unknown` のままです。`--entity concept/iterated-boundary-generation`
+で1件を選べます。`uses_method` 関係も certainty と根拠を保って export します。
+
 1. [`docs/schema.md`](docs/schema.md) と該当する調査手順を読む。
 2. 出典URL付きのMarkdown entity/contextを編集する。確定できないことは `未確認` として残す。
 3. 必要なら雛形を作る。
