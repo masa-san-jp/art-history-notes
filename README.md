@@ -243,3 +243,8 @@ GitHub Actionsには、正準検証用の `validate.yml` と、Agent interface�
 - [`docs/agent/acceptance.md`](docs/agent/acceptance.md)：Agent interfaceとE2Eの対応表
 - [`docs/theme-research-cycle.md`](docs/theme-research-cycle.md)：実行1回につきテーマ調査を1回回し、ローカルに蓄積し、任意でremoteへ還元する仕様（提案）
 - [`docs/for-other-personas.md`](docs/for-other-personas.md)：他の人格が読むときの扱い
+
+
+## 用語としての用例
+
+「art-history-notes で1885年のパリ周辺の事例を調べる」は、時間・場所の条件から調査候補を探す使い方です。「ムガル絵画の被覆を確認する」は、theme_research で既存知識と未調査部分を整理する使い方を指します。上記「データを読む・探す」のコマンドに対応しており、候補が同時代・近隣にあることだけで影響関係を確定するものではありません。
