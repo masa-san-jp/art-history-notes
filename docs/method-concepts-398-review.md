@@ -12,6 +12,8 @@ payload / receipt は以下の明示したローカルowner storeへ保存した
 - 最終knowledge commit: `d9b6e6695323402afa23e335752c685d313f9f0e`
 - 詳細なargv、candidate hash、prepare結果、receipt: `/private/tmp/art-history-398-method-review.Ffjwhv/run-report.json`
 - 保存ref: `objects.git` の `refs/heads/knowledge`。remoteなし。後続レビューのためstoreを保持する。
+- 移送用bundle: `/private/tmp/art-history-398-method-review.Ffjwhv/owner-store.bundle`。
+  `git bundle verify` は exit 0。上記knowledge commitの完全な履歴を含み、原文snapshotは含まない。
 
 | target | 判定 reason（v2） | record / payload key | intake commit |
 |---|---|---|---|

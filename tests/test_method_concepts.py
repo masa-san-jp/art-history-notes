@@ -56,6 +56,12 @@ class MethodConceptRulesTest(unittest.TestCase):
             self.assertEqual(concept_validation_errors({"id": eid, "type": "concept", "status": "draft"}), [])
         self.assertEqual(concept_validation_errors({"id": "concept/new-method", "type": "concept", "status": "stub"}), [])
 
+    def test_non_concept_does_not_reload_method_config(self):
+        from unittest.mock import patch
+        with patch("method_concepts.load_method_config", side_effect=AssertionError("unnecessary read")):
+            self.assertEqual(concept_validation_errors({"type": "work"}), [])
+            self.assertTrue(concept_validation_errors({"type": "work", "method": {}}))
+
     def test_graph_enforces_method_and_sourced_relation_contract(self):
         import copy
         from build_graph import validate

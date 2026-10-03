@@ -94,9 +94,9 @@ def _exact_type(recon_result: dict, exact_ids: list[str]) -> str | None:
 
 def concept_validation_errors(meta: dict, *, config: dict | None = None) -> list[str]:
     """methodキー自体の欠落も拒否する。移行猶予は固定IDだけ。"""
-    config = config or load_method_config()
     if meta.get("type") != "concept":
         return ["method を持てるのは concept だけ"] if meta.get("method") is not None else []
+    config = config or load_method_config()
     if meta.get("method") is not None:
         return method_validation_errors(meta["method"], config=config)
     if meta.get("status") in config["classification"]["enforced_statuses"] \
