@@ -17,7 +17,7 @@ from kb import CONFIG, ROOT
 
 
 CONFIG_PATH = CONFIG / "method-concepts.yaml"
-CONTRACT = "method-concepts/v1"
+CONTRACT = "method-concepts/v2"
 REQUIRED_METHOD_FIELDS = ("fixes", "varies", "requires", "origin_domain")
 
 
@@ -42,6 +42,12 @@ def load_method_config(path: Path = CONFIG_PATH) -> dict:
         raise ValueError(f"{path}: required_method_fields が {REQUIRED_METHOD_FIELDS} と一致しない")
     if not rules["origin_domains"] or not rules["enforced_statuses"]:
         raise ValueError(f"{path}: origin_domains / enforced_statuses は空にできない")
+    legacy = data.get("legacy_concept_ids")
+    if not isinstance(legacy, list) or len(legacy) != 9 or len(set(legacy)) != 9 \
+            or any(not isinstance(eid, str) or not eid.startswith("concept/") for eid in legacy):
+        raise ValueError(f"{path}: legacy_concept_ids は移行対象の9件が必要")
+    if not isinstance(data.get("decision_reasons"), list) or not data["decision_reasons"]:
+        raise ValueError(f"{path}: decision_reasons は閉じた語彙が必要")
     return data
 
 
@@ -84,6 +90,44 @@ def _exact_type(recon_result: dict, exact_ids: list[str]) -> str | None:
         if isinstance(entity_id, str) and "/" in entity_id:
             return entity_id.split("/", 1)[0]
     return None
+
+
+def concept_validation_errors(meta: dict, *, config: dict | None = None) -> list[str]:
+    """methodキー自体の欠落も拒否する。移行猶予は固定IDだけ。"""
+    config = config or load_method_config()
+    if meta.get("type") != "concept":
+        return ["method を持てるのは concept だけ"] if meta.get("method") is not None else []
+    if meta.get("method") is not None:
+        return method_validation_errors(meta["method"], config=config)
+    if meta.get("status") in config["classification"]["enforced_statuses"] \
+            and meta.get("id") not in config["legacy_concept_ids"]:
+        return ["新規 draft / verified concept は method が必須（legacy ID以外）"]
+    return []
+
+
+def decision_validation_errors(decision, target_id: str, *, config: dict | None = None) -> list[str]:
+    config = config or load_method_config()
+    fields = {"reason", "rule_version", "entity_type", "is_method"}
+    if not isinstance(decision, dict) or set(decision) != fields:
+        return ["method_classification は閉じた判定記録が必要"]
+    errors = []
+    if decision["rule_version"] != config["contract_version"]:
+        errors.append("method_classification.rule_version が規則版と一致しない")
+    if decision["reason"] not in config["decision_reasons"]:
+        errors.append("method_classification.reason が語彙外")
+    if type(decision["is_method"]) is not bool:
+        errors.append("method_classification.is_method はboolが必要")
+    if decision["entity_type"] != target_id.split("/", 1)[0]:
+        errors.append("method_classification.entity_type がtargetと一致しない")
+    if decision["is_method"] and decision["entity_type"] != "concept":
+        errors.append("method判定はconceptでなければならない")
+    if decision["reason"] in {"candidate-declared-method", "configured-method-term"} \
+            and not decision["is_method"]:
+        errors.append("method判定のreasonとis_methodが矛盾する")
+    if decision["reason"] in {"candidate-declared-movement", "style-name-exclusion", "default-movement"} \
+            and (decision["is_method"] or decision["entity_type"] != "movement"):
+        errors.append("movement判定のreasonと型が矛盾する")
+    return errors
 
 
 def classify(term: str, recon_result: dict, *, declaration: dict | None = None,

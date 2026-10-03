@@ -119,6 +119,16 @@ class ThemeResearchTest(unittest.TestCase):
         self.assertEqual(self.logged, [("存在しないテーマ", 0)])
         self.assertIn("該当なし", out)
 
+    def test_declaration_rejects_multiple_themes_before_search_or_budget_truncation(self):
+        self.budget = budget_file(self.temp.name, max_theme_terms=1)
+        for declaration in (["--entity-kind", "method"], ["--method-fixes", "rule"]):
+            with self.subTest(declaration=declaration), contextlib.redirect_stderr(io.StringIO()):
+                with self.assertRaises(SystemExit) as exc:
+                    self.run_main(["--theme", "a", "--theme", "b", "--emit-candidate-template",
+                                   *declaration], {}, lambda *_: self.fail("must not search"))
+                self.assertEqual(exc.exception.code, 2)
+                self.assertEqual(self.logged, [])
+
     def test_budget_rejects_missing_or_non_finite_values(self):
         bad = budget_file(self.temp.name, max_candidates=0)
         with self.assertRaises(ValueError):

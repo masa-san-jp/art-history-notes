@@ -28,10 +28,13 @@ claims:
 space:
   - {role: originated_in, target: place/paris}
 relations:
-  - {type: uses_method, target: concept/automatism}
+  - {type: uses_method, target: concept/automatism, certainty: scholarly, source: "https://www.moma.org/collection/works/38201"}
   - {type: influenced_by, target: movement/dada, certainty: scholarly, source: "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300021512"}
   - {type: influenced_by, target: movement/symbolism, certainty: scholarly, source: "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300021512"}
 sources:
+  - url: "https://www.moma.org/collection/works/38201"
+    kind: institutional
+    note: "所蔵作品の解説はシュルレアリストの自動記述・描画・絵画を記録する"
   - url: "https://www.wikidata.org/wiki/Q39427"
     kind: authority
   - url: "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300021512"

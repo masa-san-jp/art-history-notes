@@ -11,6 +11,7 @@ from unittest.mock import patch
 from tools.research_knowledge_intake import (KnowledgeStore, IntakeError, OWNER, POLICY,
     canonical, digest, key, validate_candidate, ROOT)
 from tools.agent_support import is_immutable_archive, resolve_code_commit, run_git
+from tools.method_concepts import classify
 
 NOW = datetime(2026, 9, 5, tzinfo=timezone.utc)
 
@@ -50,6 +51,8 @@ class ResearchIntakeTests(unittest.TestCase):
             "label_ja": "合成研究概念", "label_en": "Synthetic study", "authority": {"none_reason": "synthetic fixture"},
             "sources": [{"url": "https://example.org/synthetic", "kind": "institutional", "note": "synthetic fixture"}],
             "status": "draft", "updated": "2026-09-05", "relations": [], "time": {"start": "1900", "end": "1901"}}
+        entity["method"] = {"fixes": ["synthetic rule"], "varies": ["synthetic input"],
+                            "requires": ["synthetic material"], "origin_domain": "art"}
         payload = {"classification": "historical", "target_id": entity["id"], "project_id": "synthetic-project",
             "context_body": None,
             "statement": "Synthetic research decision grounded in a read fixture.", "entity": entity,
@@ -64,6 +67,11 @@ class ResearchIntakeTests(unittest.TestCase):
             "created_at": "2026-09-05T00:00:00Z", "reviewed_at": None, "valid_until": None,
             "producer": {"kind": "agent", "generator_version": POLICY, "code_commit": self.code, "run_id": "synthetic"}, "supersedes": [], "invalidates": []}
         record["payload_ref"] = "contexts/research-memory/payloads/" + key(record) + ".json"
+        payload.update(entity_kind="method", method=copy.deepcopy(entity["method"]))
+        decision = classify("synthetic", {}, declaration={"entity_kind": "method", "method": entity["method"]})
+        record["applicability"]["method_classification"] = {
+            field: decision[field] for field in ("reason", "rule_version", "entity_type", "is_method")}
+        record["content_sha256"] = digest(canonical(payload))
         return {"record": record, "payload": payload}
 
     def commit(self, candidate, operation="one"):
@@ -158,6 +166,9 @@ class ResearchIntakeTests(unittest.TestCase):
                 "holders": ["researchers"], "claim": "Synthetic scoped observation", "certainty": "hypothesis",
                 "source": source[0]["url"], "note": "Synthetic evidence, no historical assertion"}]}
         candidate["payload"].update(target_id="context/synthetic-context", context_body="\n## 範囲\n合成条件のみ\n## 根拠の読み方\n合成snapshot\n## 反対証拠・内部差\n未観測\n## 未確認\n実世界は未検証\n")
+        candidate["payload"].pop("entity_kind")
+        candidate["payload"].pop("method")
+        candidate["record"]["applicability"].pop("method_classification")
         self.rehash(candidate); receipt = self.commit(candidate, "context")
         self.store.index(receipt["target_commit"])
         after = json.loads((self.store_root / "research-index.json").read_text())["context_vectors"]

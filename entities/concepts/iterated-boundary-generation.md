@@ -13,9 +13,9 @@ authority:
   jpsearch: null
   none_reason: "この構成方法に対応する外部典拠IDは未調査"
 time:
-  start: "2024"
+  start: null
   end: null
-  display: "2024年、ニューラルネットワークの訓練とフラクタルの類似を扱う実験記述から、反復出力が境界に構造を生む方法として記録"
+  display: "起源年は未確認。2024年の出典で確認できる実験例を記録する（方法の発明年ではない）"
 method:
   fixes:
     - "同じ更新関数を反復して適用すること"
@@ -31,10 +31,10 @@ space: []
 relations: []
 sources:
   - url: "https://sohl-dickstein.github.io/2024/02/12/fractal.html"
-    kind: reference
+    kind: primary
     note: "反復関数、ハイパーパラメータ、収束・発散の境界がフラクタル構造を生む実験記述（2024-02-12）"
 status: draft
-updated: 2026-09-21
+updated: 2026-10-03
 ---
 
 # 反復境界生成 / Iterated Boundary Generation

@@ -35,7 +35,6 @@ space:
   - {role: originated_in, target: place/paris}
   - {role: active_in, target: place/la-jolla}
 relations:
-  - {type: uses_method, target: concept/iterated-boundary-generation}
   - {type: created_by, target: person/harold-cohen}
   - {type: created_by, target: person/frieder-nake}
 sources:

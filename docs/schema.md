@@ -421,18 +421,20 @@ derived_from:
 ### `relations` — 閉じた語彙と確度
 
 構造的（出典なしで書ける）: `created_by` `belongs_to` `member_of` `part_of` `depicts`
-`exhibited_at` `precedes` `taught_by` `documented_in` `uses_method`
+`exhibited_at` `precedes` `taught_by` `documented_in`
 
 解釈を含む（`certainty` と `source` を必須）: `influenced_by` `responds_to` `derives_from`
-`reacts_against` `grouped_as` `diffused_to` `patronized_by`
+`reacts_against` `grouped_as` `diffused_to` `patronized_by` `uses_method`
 
 `certainty`: `attested`（当事者の言明）／`scholarly`（研究の通説）／`hypothesis`（自分の仮説）。
 仮説は俯瞰の生成から除外する。逆向きの関係は書かない（ビルドが両方向に展開する）。
 
 `uses_method` は work / movement / person から method concept へ張る。生成される逆向きの
 `used_by` により、手法から作品・運動へ辿れる。`build_graph.py --check` は、
-`status: draft` 以上で `method` を宣言した concept に、上記4フィールドと1件以上の
-`sources` があることを検証する。既存の method 未記入 concept は legacy として許す。
+`status: draft` 以上の新規 concept は `method` 自体が必須で、上記4フィールドと1件以上の
+`sources` があることを検証する。未記入を許すのは config の `legacy_concept_ids` に
+固定した移行対象9件だけ。新規の様式 concept に暗黙の例外は設けない。
+`uses_method` は関係元を work / movement / person に限定し、根拠URLと certainty を必須とする。
 
 - **後付けの括りへの所属は `grouped_as`**。`part_of` は当事者的・構造的な包含に限る
   （場所の入れ子、歌川派 ⊂ 浮世絵の系統）。新印象派→ポスト印象派は `grouped_as`

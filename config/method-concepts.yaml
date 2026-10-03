@@ -1,5 +1,23 @@
 # 手法と様式名を機械的に分ける判定規則。変更時は contract_version を更新する。
-contract_version: method-concepts/v1
+contract_version: method-concepts/v2
+# #398以前の9件だけを移行猶予とする。新規conceptへの自動拡張は禁止。
+legacy_concept_ids:
+  - concept/automatism
+  - concept/divisionism
+  - concept/trompe-loeil
+  - concept/hurufiyya
+  - concept/minhwa
+  - concept/ukiyo-e
+  - concept/harmony
+  - concept/ma
+  - concept/yohaku
+decision_reasons:
+  - existing-exact-label
+  - candidate-declared-method
+  - candidate-declared-movement
+  - style-name-exclusion
+  - configured-method-term
+  - default-movement
 classification:
   # 担い手の集合を指す未宣言の語は movement。手法の候補だけが method を宣言する。
   default_entity_type: movement

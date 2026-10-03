@@ -53,14 +53,13 @@ STRUCTURAL_RELATIONS = {
     "created_by": "created", "belongs_to": "has_member", "member_of": "has_member",
     "part_of": "has_part", "depicts": "depicted_in", "exhibited_at": "exhibited",
     "precedes": "follows", "taught_by": "taught", "documented_in": "documents",
-    # 作品・運動・人物がどの手法を使ったか。逆向きの used_by は生成エッジ。
-    "uses_method": "used_by",
 }
 # 解釈を含む関係（certainty と source を必須にする）
 INTERPRETIVE_RELATIONS = {
     "influenced_by": "influenced", "responds_to": "answered_by", "derives_from": "derived_into",
     "reacts_against": "reacted_against_by", "grouped_as": "groups", "diffused_to": "received",
     "patronized_by": "patronized",
+    "uses_method": "used_by",
 }
 RELATIONS = {**STRUCTURAL_RELATIONS, **INTERPRETIVE_RELATIONS}
 

@@ -18,7 +18,11 @@ AAK-04のowner保存先を使用します。store.jsonはowner=`art-history-note
 producerを検証します。producerはkind（agent/human/tool）、generator_version、code_commit、run_idです。
 rightsはknowledge_writeとredistributeを明示し、creator-privateはconsent_refが必要です。
 
-payloadは次の7 fieldだけを持ちます。
+payloadは次の7 fieldを必須とし、方法候補だけ `entity_kind: method` と `method` を対で追加します。
+方法宣言は concept 型と一致し、空の方法欄・型違い・構造不一致を拒否します。
+`record.applicability.method_classification` に reason / rule_version / entity_type / is_method を
+保存します。方法候補では必須で、版付きconfigの閉じた語彙とtarget型をintakeで検証します。
+CLIの `--entity-kind` / `--method-*` 宣言は1テーマに限ります。
 
 | field | 内容 |
 |---|---|

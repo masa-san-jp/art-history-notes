@@ -175,7 +175,8 @@ def candidate_template(term, recon_result, *, creator, collection, project_id, o
         "derived_from": [],
         "epistemic_status": "externally-supported",
         "lifecycle": "candidate",
-        "applicability": {"theme": term},
+        "applicability": {"theme": term, "method_classification": {
+            field: decision[field] for field in ("reason", "rule_version", "entity_type", "is_method")}},
         "rights": {"knowledge_write": True, "redistribute": False},
         "access_scope": "creator-private",
         "consent_ref": None,
@@ -261,6 +262,10 @@ def main():
     terms = [t for t in (a.theme or []) if t and t.strip()]
     if not terms:
         p.error("--theme が空（または --validate-candidate を指定する）")
+    declared = any((a.entity_kind, a.method_fixes, a.method_varies,
+                    a.method_requires, a.method_origin_domain))
+    if declared and (len(terms) != 1 or not a.emit_candidate_template):
+        p.error("--entity-kind / --method-* は --emit-candidate-template と1テーマだけで指定する")
     budget = load_budget(a.budget)
     limit = budget["per_run"]["max_theme_terms"]
     truncated = terms[limit:]
