@@ -27,6 +27,7 @@ from kb import (AUTHORITY_ID_PATTERNS, AUTHORITY_KEYS, CERTAINTIES, CLAIM_FIELDS
                 is_http_url, normalized_meta, read_frontmatter, read_queries, regions_of,
                 search_entities, source_urls, source_validation_errors)
 from detail_baseline import validate_manifest
+from method_concepts import load_method_config, method_concept_ids, method_validation_errors
 from verified_movement import audit_manifest, load_manifest, render_progress
 
 OVERVIEWS = ROOT / "overviews"
@@ -153,6 +154,16 @@ def validate(entities, records, cfg, errors):
                             else:
                                 if not re.search(r"^## どう成立しているか\s*$", target_body, re.MULTILINE):
                                     err(f"{prefix}.visual-characterにはwork本文の ## どう成立しているか が必要")
+
+        if etype == "concept" and meta.get("method") is not None:
+            method_config = load_method_config()
+            method_errors = method_validation_errors(meta.get("method"), config=method_config)
+            if meta.get("status") in method_config["classification"]["enforced_statuses"]:
+                for method_error in method_errors:
+                    err(method_error)
+            elif method_errors:
+                # stub は移行途中を許すが、draft へ上げる時点で空の殻を拒否する。
+                err("stub の method も構造を埋めるか、method フィールドを外す")
 
         if meta.get("founding_control") and meta["founding_control"] not in FOUNDING_CONTROL:
             err(f"founding_control は {sorted(FOUNDING_CONTROL)} のどれか（今: {meta['founding_control']}）")
@@ -646,8 +657,15 @@ def coverage(entities, cfg, verified_movement=None):
     th = cfg["thresholds"]
     # as_of は「今日」ではなく、反映しているデータの最新日にする。
     # 今日を入れると生成物が走らせた日ごとに変わり、CI の「生成物が最新か」が時差だけで落ちる。
+    method_ids = method_concept_ids(entities)
+    method_edges = [edge for edge in all_edges
+                    if edge.get("from") in method_ids and edge.get("type") == "used_by"
+                    and entities.get(edge.get("to"), {}).get("type") in {"work", "movement"}]
     return {
         "as_of": max((str(m.get("updated") or "") for m in entities.values()), default=""),
+        "concept_total": sum(1 for m in entities.values() if m.get("type") == "concept"),
+        "method_concept_total": len(method_ids),
+        "method_to_work_or_movement_edges": len(method_edges),
         "movement_total": total,
         "movement_stub_excluded": len(movements) - total,
         "by_status": {s: sum(1 for m in movements.values() if m.get("status") == s)
@@ -685,7 +703,9 @@ def render_coverage(cov, cfg, entities):
     sep = "|---" * (len(cols) + 2) + "|"
     lines = [f"データの最新日: {cov['as_of']} — `uv run --locked python tools/build_graph.py` が生成（手で書き換えない）", "",
              f"movement **{cov['movement_total']}** 件（stub {cov['movement_stub_excluded']}件は不算入）"
-             f"／内訳 {cov['by_status']}", "", header, sep]
+             f"／内訳 {cov['by_status']}",
+             f"concept **{cov.get('concept_total', 0)}** 件 / method **{cov.get('method_concept_total', 0)}** 件 "
+             f"/ method→work|movement **{cov.get('method_to_work_or_movement_edges', 0)}** 本", "", header, sep]
     for b, conf in buckets.items():
         row = cov["grid"].get(b, {})
         cells = " | ".join("∅" if (b, k) in reviewed else str(row.get(k, 0) or "")

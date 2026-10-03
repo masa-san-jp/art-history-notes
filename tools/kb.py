@@ -53,6 +53,8 @@ STRUCTURAL_RELATIONS = {
     "created_by": "created", "belongs_to": "has_member", "member_of": "has_member",
     "part_of": "has_part", "depicts": "depicted_in", "exhibited_at": "exhibited",
     "precedes": "follows", "taught_by": "taught", "documented_in": "documents",
+    # 作品・運動・人物がどの手法を使ったか。逆向きの used_by は生成エッジ。
+    "uses_method": "used_by",
 }
 # 解釈を含む関係（certainty と source を必須にする）
 INTERPRETIVE_RELATIONS = {
@@ -73,6 +75,7 @@ RELATION_TARGET_TYPES = {
     "patronized_by": {"org", "person"}, "member_of": {"org", "movement", "event"},
     "exhibited_at": {"event", "org"}, "documented_in": {"source"},
     "depicts": {"concept", "place", "person", "work"},
+    "uses_method": {"concept"},
     "influenced_by": None, "responds_to": None, "part_of": None,  # None = 型を限定しない
 }
 SPACE_TARGET_TYPES = {

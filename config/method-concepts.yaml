@@ -1,0 +1,20 @@
+# 手法と様式名を機械的に分ける判定規則。変更時は contract_version を更新する。
+contract_version: method-concepts/v1
+classification:
+  # 担い手の集合を指す未宣言の語は movement。手法の候補だけが method を宣言する。
+  default_entity_type: movement
+  method_entity_kind: method
+  method_entity_type: concept
+  required_method_fields: [fixes, varies, requires, origin_domain]
+  origin_domains: [art, computation, natural-science, design, craft, engineering]
+  enforced_statuses: [draft, verified]
+  # 既存の様式名は方法ではない。既存 exact hit は entity の型を優先する。
+  style_term_exclusions: [ukiyo-e, ukiyoe, minhwa]
+  # 出典を埋めた candidate は entity_kind: method を明示する。ここは自動判定の補助。
+  method_term_patterns:
+    - '(?i)automatism|automatic drawing|オートマティスム|自動記述'
+    - '(?i)divisionism|pointillism|分割主義|点描'
+    - '(?i)trompe[- ]l.?oeil|トロンプルイユ'
+    - '(?i)frottage|decalcomania|collage|フロッタージュ|デカルコマニー|コラージュ'
+    - '(?i)fractal|iteration|iterated|recursive|フラクタル|反復|再帰'
+    - '(?i)poured painting|pour painting|drip painting|ポーリング|ドリッピング'

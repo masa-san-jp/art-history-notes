@@ -28,6 +28,7 @@ claims:
 space:
   - {role: originated_in, target: place/paris}
 relations:
+  - {type: uses_method, target: concept/automatism}
   - {type: influenced_by, target: movement/dada, certainty: scholarly, source: "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300021512"}
   - {type: influenced_by, target: movement/symbolism, certainty: scholarly, source: "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300021512"}
 sources:

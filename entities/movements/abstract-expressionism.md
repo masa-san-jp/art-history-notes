@@ -29,6 +29,7 @@ claims:
 space:
   - {role: originated_in, target: place/new-york-city}
 relations:
+  - {type: uses_method, target: concept/poured-painting}
   - {type: influenced_by, target: movement/mexican-muralism, certainty: scholarly, source: "https://whitney.org/exhibitions/vida-americana"}
   - {type: influenced_by, target: movement/expressionism, certainty: scholarly, source: "https://assets.moma.org/documents/moma_catalogue_1990_300190211.pdf"}
 sources:

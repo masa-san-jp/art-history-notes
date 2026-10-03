@@ -16,6 +16,15 @@ time:
   start: "1924"
   end: null
   display: "1924年、ブルトン『シュルレアリスム宣言』が技法として定義。技法そのものは以後も使われ続ける"
+method:
+  fixes:
+    - "制作開始時点で、意識的な主題決定と理性的な統制を外す"
+  varies:
+    - "手の軌跡、線の速度、そこから現れる形象と連想"
+  requires:
+    - "作家の身体的な筆記・描画行為と、軌跡を受ける支持体"
+    - "あらかじめ主題を決めずに始める制作条件"
+  origin_domain: art
 space: []
 relations: []
 sources:
@@ -28,7 +37,7 @@ sources:
     kind: institutional
     note: "アンドレ・マッソン《Automatic Drawing》（1924）所蔵記録・解説"
 status: draft
-updated: 2026-09-15
+updated: 2026-09-21
 ---
 
 # オートマティスム / Automatism

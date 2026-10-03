@@ -5511,5 +5511,30 @@
     ],
     "remaining_unreviewed": [],
     "current_unreviewed": []
+  },
+  "methods": {
+    "concept_total": 11,
+    "method_concept_total": 3,
+    "legacy_concept_total": 8,
+    "method_to_work_or_movement_edges": 3,
+    "method_ids": [
+      "concept/automatism",
+      "concept/iterated-boundary-generation",
+      "concept/poured-painting"
+    ],
+    "links": [
+      {
+        "method": "concept/poured-painting",
+        "target": "movement/abstract-expressionism"
+      },
+      {
+        "method": "concept/iterated-boundary-generation",
+        "target": "movement/computer-art"
+      },
+      {
+        "method": "concept/automatism",
+        "target": "movement/surrealism"
+      }
+    ]
   }
 }

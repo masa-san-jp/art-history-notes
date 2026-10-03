@@ -46,6 +46,12 @@ ID は `<型>/<slug>`。**ID は変えない**（表記を変えたいときは 
 **時代区分（江戸時代・ルネサンス）は型にしない** — `config/regions.yaml` と世紀の軸で持つ。
 技法・様式のうち**担い手の集合を特定できないもの**（点描・明暗法）は `concept`。
 境界の判定は1行: **担い手の集合が歴史的に特定できるなら movement、手の形の記述なら concept**。
+自動経路では [config/method-concepts.yaml](../config/method-concepts.yaml) の版付き規則を使う。
+candidate が `entity_kind: method` を宣言し、`method.fixes`（固定するもの）・
+`method.varies`（動かすもの）・`method.requires`（成立条件）・`method.origin_domain`
+（起源領域）をすべて埋めた場合、および規則の method term に一致した場合は `concept`。
+それ以外の新規語は movement を既定にする。`ukiyo-e` や `minhwa` のような様式名は、
+手順ではないため style exclusion として movement 既定を維持する（既存 exact hit は既存型を優先）。
 
 ## frontmatter
 
@@ -415,13 +421,18 @@ derived_from:
 ### `relations` — 閉じた語彙と確度
 
 構造的（出典なしで書ける）: `created_by` `belongs_to` `member_of` `part_of` `depicts`
-`exhibited_at` `precedes` `taught_by` `documented_in`
+`exhibited_at` `precedes` `taught_by` `documented_in` `uses_method`
 
 解釈を含む（`certainty` と `source` を必須）: `influenced_by` `responds_to` `derives_from`
 `reacts_against` `grouped_as` `diffused_to` `patronized_by`
 
 `certainty`: `attested`（当事者の言明）／`scholarly`（研究の通説）／`hypothesis`（自分の仮説）。
 仮説は俯瞰の生成から除外する。逆向きの関係は書かない（ビルドが両方向に展開する）。
+
+`uses_method` は work / movement / person から method concept へ張る。生成される逆向きの
+`used_by` により、手法から作品・運動へ辿れる。`build_graph.py --check` は、
+`status: draft` 以上で `method` を宣言した concept に、上記4フィールドと1件以上の
+`sources` があることを検証する。既存の method 未記入 concept は legacy として許す。
 
 - **後付けの括りへの所属は `grouped_as`**。`part_of` は当事者的・構造的な包含に限る
   （場所の入れ子、歌川派 ⊂ 浮世絵の系統）。新印象派→ポスト印象派は `grouped_as`

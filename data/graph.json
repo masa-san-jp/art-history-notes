@@ -20,6 +20,19 @@
         "end": null,
         "display": "1924年、ブルトン『シュルレアリスム宣言』が技法として定義。技法そのものは以後も使われ続ける"
       },
+      "method": {
+        "fixes": [
+          "制作開始時点で、意識的な主題決定と理性的な統制を外す"
+        ],
+        "varies": [
+          "手の軌跡、線の速度、そこから現れる形象と連想"
+        ],
+        "requires": [
+          "作家の身体的な筆記・描画行為と、軌跡を受ける支持体",
+          "あらかじめ主題を決めずに始める制作条件"
+        ],
+        "origin_domain": "art"
+      },
       "space": [],
       "relations": [],
       "sources": [
@@ -39,7 +52,7 @@
         }
       ],
       "status": "draft",
-      "updated": "2026-09-15",
+      "updated": "2026-09-21",
       "path": "entities/concepts/automatism.md"
     },
     "concept/divisionism": {
@@ -213,6 +226,54 @@
       "updated": "2026-08-09",
       "path": "entities/concepts/hurufiyya.md"
     },
+    "concept/iterated-boundary-generation": {
+      "id": "concept/iterated-boundary-generation",
+      "uri": "urn:ahn:concept/iterated-boundary-generation",
+      "type": "concept",
+      "label_ja": "反復境界生成",
+      "label_en": "Iterated Boundary Generation",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ulan": null,
+        "tgn": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "この構成方法に対応する外部典拠IDは未調査"
+      },
+      "time": {
+        "start": "2024",
+        "end": null,
+        "display": "2024年、ニューラルネットワークの訓練とフラクタルの類似を扱う実験記述から、反復出力が境界に構造を生む方法として記録"
+      },
+      "method": {
+        "fixes": [
+          "同じ更新関数を反復して適用すること",
+          "収束・発散など、反復の振る舞いを分ける境界を観測すること"
+        ],
+        "varies": [
+          "学習率などのハイパーパラメータ、初期値、データ、ネットワーク設計",
+          "反復後の出力が有界に留まるか発散するかという結果"
+        ],
+        "requires": [
+          "出力を次の入力へ戻せるパラメータ化された関数",
+          "反復結果を収束・発散などの状態へ分類する観測規則"
+        ],
+        "origin_domain": "computation"
+      },
+      "space": [],
+      "relations": [],
+      "sources": [
+        {
+          "url": "https://sohl-dickstein.github.io/2024/02/12/fractal.html",
+          "kind": "reference",
+          "note": "反復関数、ハイパーパラメータ、収束・発散の境界がフラクタル構造を生む実験記述（2024-02-12）"
+        }
+      ],
+      "status": "draft",
+      "updated": "2026-09-21",
+      "path": "entities/concepts/iterated-boundary-generation.md"
+    },
     "concept/ma": {
       "id": "concept/ma",
       "uri": "urn:ahn:concept/ma",
@@ -348,6 +409,54 @@
       "status": "draft",
       "updated": "2026-08-09",
       "path": "entities/concepts/minhwa.md"
+    },
+    "concept/poured-painting": {
+      "id": "concept/poured-painting",
+      "uri": "urn:ahn:concept/poured-painting",
+      "type": "concept",
+      "label_ja": "ポーリング絵画",
+      "label_en": "Poured Painting",
+      "authority": {
+        "wikidata": null,
+        "aat": null,
+        "ulan": null,
+        "tgn": null,
+        "ndl": null,
+        "jpsearch": null,
+        "none_reason": "この方法名に対応する外部典拠IDは未調査"
+      },
+      "time": {
+        "start": "1936",
+        "end": null,
+        "display": "1936〜37年のポロックの制作記録と、1940年代以後に広く知られた poured paintings を方法の初期記録として扱う"
+      },
+      "method": {
+        "fixes": [
+          "支持体を水平に置き、絵具を筆で塗る代わりに流れとして配置する",
+          "絵具の重力による移動と画面上の痕跡を、制作過程の一部として残す"
+        ],
+        "varies": [
+          "絵具を落とす位置、量、粘度、流れる経路と重なり",
+          "画面上で形成される線・滴・層の密度"
+        ],
+        "requires": [
+          "流動する絵具と、それを受け止める水平な支持体",
+          "絵具の流れを制御しつつ偶然性を残す身体的な操作"
+        ],
+        "origin_domain": "art"
+      },
+      "space": [],
+      "relations": [],
+      "sources": [
+        {
+          "url": "https://whitney.org/media/46248",
+          "kind": "institutional",
+          "note": "Whitney Museum の音声ガイド。ポロックの poured paintings と、先行する airbrush / automotive lacquer の制作を記録"
+        }
+      ],
+      "status": "draft",
+      "updated": "2026-09-21",
+      "path": "entities/concepts/poured-painting.md"
     },
     "concept/trompe-loeil": {
       "id": "concept/trompe-loeil",
@@ -862,6 +971,10 @@
         }
       ],
       "relations": [
+        {
+          "type": "uses_method",
+          "target": "concept/poured-painting"
+        },
         {
           "type": "influenced_by",
           "target": "movement/mexican-muralism",
@@ -4435,6 +4548,10 @@
         }
       ],
       "relations": [
+        {
+          "type": "uses_method",
+          "target": "concept/iterated-boundary-generation"
+        },
         {
           "type": "created_by",
           "target": "person/harold-cohen"
@@ -18025,6 +18142,10 @@
         }
       ],
       "relations": [
+        {
+          "type": "uses_method",
+          "target": "concept/automatism"
+        },
         {
           "type": "influenced_by",
           "target": "movement/dada",
@@ -77605,6 +77726,13 @@
     },
     {
       "from": "movement/abstract-expressionism",
+      "type": "uses_method",
+      "to": "concept/poured-painting",
+      "certainty": null,
+      "source": null
+    },
+    {
+      "from": "movement/abstract-expressionism",
       "type": "influenced_by",
       "to": "movement/mexican-muralism",
       "certainty": "scholarly",
@@ -78183,6 +78311,13 @@
       "from": "movement/company-painting",
       "type": "originated_in",
       "to": "place/murshidabad"
+    },
+    {
+      "from": "movement/computer-art",
+      "type": "uses_method",
+      "to": "concept/iterated-boundary-generation",
+      "certainty": null,
+      "source": null
     },
     {
       "from": "movement/computer-art",
@@ -80229,6 +80364,13 @@
       "from": "movement/suprematism",
       "type": "originated_in",
       "to": "place/saint-petersburg"
+    },
+    {
+      "from": "movement/surrealism",
+      "type": "uses_method",
+      "to": "concept/automatism",
+      "certainty": null,
+      "source": null
     },
     {
       "from": "movement/surrealism",
@@ -95255,6 +95397,12 @@
       "derived": true
     },
     {
+      "from": "concept/poured-painting",
+      "type": "used_by",
+      "to": "movement/abstract-expressionism",
+      "derived": true
+    },
+    {
       "from": "movement/mexican-muralism",
       "type": "influenced",
       "to": "movement/abstract-expressionism",
@@ -95600,6 +95748,12 @@
       "from": "org/east-india-company",
       "type": "patronized",
       "to": "movement/company-painting",
+      "derived": true
+    },
+    {
+      "from": "concept/iterated-boundary-generation",
+      "type": "used_by",
+      "to": "movement/computer-art",
       "derived": true
     },
     {
@@ -96728,6 +96882,12 @@
       "from": "movement/cubo-futurism",
       "type": "derived_into",
       "to": "movement/suprematism",
+      "derived": true
+    },
+    {
+      "from": "concept/automatism",
+      "type": "used_by",
+      "to": "movement/surrealism",
       "derived": true
     },
     {

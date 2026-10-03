@@ -38,6 +38,7 @@ from cross_region import (
     validate_reviews,
 )
 from kb import ROOT, build_edges, edtf_year_range, load_config, load_entities, load_region_history, regions_of
+from method_concepts import method_concept_ids
 
 OVERVIEWS = ROOT / "overviews"
 OUT = ROOT / "data" / "audit.json"
@@ -182,6 +183,23 @@ def check_detail_baseline(entities, findings):
                                  "text": f"baseline movement {movement_id} のevidenceが未充足"})
 
 
+def method_coverage(entities, edges):
+    """手法 concept の件数と、作品・movementへ辿れる関係本数を返す。"""
+    method_ids = method_concept_ids(entities)
+    links = [edge for edge in edges
+             if edge.get("from") in method_ids and edge.get("type") == "used_by"
+             and entities.get(edge.get("to"), {}).get("type") in {"work", "movement"}]
+    return {
+        "concept_total": sum(1 for meta in entities.values() if meta.get("type") == "concept"),
+        "method_concept_total": len(method_ids),
+        "legacy_concept_total": sum(1 for eid, meta in entities.items()
+                                     if meta.get("type") == "concept" and eid not in method_ids),
+        "method_to_work_or_movement_edges": len(links),
+        "method_ids": sorted(method_ids),
+        "links": [{"method": edge["from"], "target": edge["to"]} for edge in links],
+    }
+
+
 def render(findings, cross_region=None, baseline=None):
     if not findings:
         return "食い違い・偏りの指摘はなし。"
@@ -206,12 +224,17 @@ def render(findings, cross_region=None, baseline=None):
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--dry-run", action="store_true")
+    ap.add_argument("--methods", action="store_true",
+                    help="手法 concept 件数と work/movement への関係本数だけをJSONで測る")
     a = ap.parse_args()
 
     cfg = load_config()
     entities, _ = load_entities()
     region_history = load_region_history()
     edges = build_edges(entities)
+    if a.methods:
+        print(json.dumps(method_coverage(entities, edges), ensure_ascii=False, indent=2))
+        return 0
     reviews, review_errors = load_reviews()
     baseline, baseline_errors = load_baseline()
     cross_region = audit_cross_region(entities, region_history, reviews)
@@ -238,13 +261,15 @@ def main():
     check_dangling_lineage(entities, edges, findings)
     check_detail_baseline(entities, findings)
     check_cross_region_links(entities, edges, findings, region_history, cross_region)
+    methods = method_coverage(entities, edges)
 
     print(render(findings, cross_region, baseline_report))
     if not a.dry_run:
         OUT.parent.mkdir(exist_ok=True)
         OUT.write_text(json.dumps({"schema_version": 1, "findings": findings,
                                    "cross_region": cross_region,
-                                   "cross_region_baseline": baseline_report},
+                                   "cross_region_baseline": baseline_report,
+                                   "methods": methods},
                                   ensure_ascii=False, indent=2) + "\n",
                        encoding="utf-8")
         text = COVERAGE.read_text(encoding="utf-8")
