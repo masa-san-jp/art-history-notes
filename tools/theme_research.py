@@ -252,6 +252,8 @@ def main():
     p.add_argument("--method-varies", action="append", default=[])
     p.add_argument("--method-requires", action="append", default=[])
     p.add_argument("--method-origin-domain")
+    p.add_argument("--query-log", type=Path,
+                   help="検索履歴の保存先（既定は data/queries.jsonl）。clean code からの intake には .agent-local 等を指定する")
     a = p.parse_args()
 
     if a.validate_candidate:
@@ -266,6 +268,9 @@ def main():
                     a.method_requires, a.method_origin_domain))
     if declared and (len(terms) != 1 or not a.emit_candidate_template):
         p.error("--entity-kind / --method-* は --emit-candidate-template と1テーマだけで指定する")
+    if a.query_log:
+        import kb
+        kb.QUERY_LOG = a.query_log
     budget = load_budget(a.budget)
     limit = budget["per_run"]["max_theme_terms"]
     truncated = terms[limit:]

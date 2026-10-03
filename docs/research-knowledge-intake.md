@@ -23,6 +23,8 @@ payloadは次の7 fieldを必須とし、方法候補だけ `entity_kind: method
 `record.applicability.method_classification` に reason / rule_version / entity_type / is_method を
 保存します。方法候補では必須で、版付きconfigの閉じた語彙とtarget型をintakeで検証します。
 CLIの `--entity-kind` / `--method-*` 宣言は1テーマに限ります。
+`theme_research.py --query-log .agent-local/queries.jsonl` で検索履歴をcodeの追跡対象外へ
+残せます。既定の `data/queries.jsonl` を更新するとcode checkoutがdirtyになり、intakeが拒否します。
 
 | field | 内容 |
 |---|---|
