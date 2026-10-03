@@ -35,6 +35,7 @@ import yaml
 
 from kb import ROOT, load_entities, log_query, search_entities
 from agent_support import resolve_code_commit
+from method_concepts import classify, method_validation_errors
 
 CONTRACT = "theme-research-recon/v1"
 BUDGET_CONTRACT = "theme-research-budget/v1"
@@ -55,6 +56,7 @@ def hit_summary(hit_id, entities):
         "type": meta.get("type"),
         "status": meta.get("status"),
         "n_sources": len(meta.get("sources") or []),
+        "is_method": bool(meta.get("method")),
     }
 
 
@@ -129,7 +131,8 @@ def slug(term):
 
 
 def candidate_template(term, recon_result, *, creator, collection, project_id, origin_instance_id,
-                       run_id, code_commit, record_id=None, now=None):
+                       run_id, code_commit, record_id=None, now=None, entity_kind=None,
+                       method=None):
     """spec §5 R3: candidate.json の骨格。statement / source_reads / entity はエージェントが埋める。
 
     envelope の固定 field と payload_ref / content_sha256 は既存 intake の同じ関数で計算する。
@@ -139,7 +142,9 @@ def candidate_template(term, recon_result, *, creator, collection, project_id, o
     from research_knowledge_intake import OWNER, POLICY, canonical, digest, key
 
     exact = recon_result.get("exact_label_hits") or []
-    target_id = exact[0] if exact else "movement/" + slug(term)
+    declaration = {"entity_kind": entity_kind, "method": method}
+    decision = classify(term, recon_result, declaration=declaration)
+    target_id = exact[0] if exact else decision["entity_type"] + "/" + slug(term)
     payload = {
         "classification": "historical",
         "target_id": target_id,
@@ -149,6 +154,11 @@ def candidate_template(term, recon_result, *, creator, collection, project_id, o
         "source_reads": [],
         "context_body": None,
     }
+    # 追加フィールドは method candidate のときだけ持たせ、旧候補の閉じたpayloadを
+    # 不要に変えない。method候補は必ず宣言と構造化フィールドを対にして intake へ渡す。
+    if decision["is_method"]:
+        payload["entity_kind"] = "method"
+        payload["method"] = method
     record = {
         "contract_version": "artifact-record/v1",
         "record_id": record_id or slug(term),
@@ -165,7 +175,8 @@ def candidate_template(term, recon_result, *, creator, collection, project_id, o
         "derived_from": [],
         "epistemic_status": "externally-supported",
         "lifecycle": "candidate",
-        "applicability": {"theme": term},
+        "applicability": {"theme": term, "method_classification": {
+            field: decision[field] for field in ("reason", "rule_version", "entity_type", "is_method")}},
         "rights": {"knowledge_write": True, "redistribute": False},
         "access_scope": "creator-private",
         "consent_ref": None,
@@ -187,8 +198,15 @@ def candidate_template(term, recon_result, *, creator, collection, project_id, o
     ]
     if not exact:
         missing.insert(0, f"payload.target_id: 既存 id が無いため新 id 案 '{target_id}'——dedupe（entities/ 全型の grep）を先に行う")
+    if decision["is_method"]:
+        if method is None:
+            missing.append("payload.entity_kind: method candidate であることを明示する")
+            missing.append("payload.method: fixes / varies / requires / origin_domain を埋める")
+        else:
+            missing.extend("payload." + error for error in method_validation_errors(method))
     return {"candidate": {"record": record, "payload": payload},
-            "existing_target": exact[0] if exact else None, "missing": missing}
+            "existing_target": exact[0] if exact else None, "missing": missing,
+            "classification": decision}
 
 
 def validate_candidate_file(candidate_path, snapshots_path=None):
@@ -228,6 +246,14 @@ def main():
                    help="spec §5 R3: 各テーマの candidate.json 骨格を report.candidate_templates に含める（要 --creator 等）")
     p.add_argument("--creator"); p.add_argument("--collection"); p.add_argument("--project-id")
     p.add_argument("--origin-instance-id"); p.add_argument("--run-id")
+    p.add_argument("--entity-kind", choices=("method", "movement"),
+                   help="candidate の宣言。method は必須方法記述が埋まるまで intake が拒否する")
+    p.add_argument("--method-fixes", action="append", default=[])
+    p.add_argument("--method-varies", action="append", default=[])
+    p.add_argument("--method-requires", action="append", default=[])
+    p.add_argument("--method-origin-domain")
+    p.add_argument("--query-log", type=Path,
+                   help="検索履歴の保存先（既定は data/queries.jsonl）。clean code からの intake には .agent-local 等を指定する")
     a = p.parse_args()
 
     if a.validate_candidate:
@@ -238,6 +264,13 @@ def main():
     terms = [t for t in (a.theme or []) if t and t.strip()]
     if not terms:
         p.error("--theme が空（または --validate-candidate を指定する）")
+    declared = any((a.entity_kind, a.method_fixes, a.method_varies,
+                    a.method_requires, a.method_origin_domain))
+    if declared and (len(terms) != 1 or not a.emit_candidate_template):
+        p.error("--entity-kind / --method-* は --emit-candidate-template と1テーマだけで指定する")
+    if a.query_log:
+        import kb
+        kb.QUERY_LOG = a.query_log
     budget = load_budget(a.budget)
     limit = budget["per_run"]["max_theme_terms"]
     truncated = terms[limit:]
@@ -257,8 +290,13 @@ def main():
             p.error("--emit-candidate-template には次が要る: " + ", ".join("--" + k.replace("_", "-") for k in absent))
         code_commit = resolve_code_commit(ROOT)
         max_c = budget["per_run"]["max_candidates"]
+        method = None
+        if any((a.method_fixes, a.method_varies, a.method_requires, a.method_origin_domain)):
+            method = {"fixes": a.method_fixes, "varies": a.method_varies,
+                      "requires": a.method_requires, "origin_domain": a.method_origin_domain}
         report["candidate_templates"] = [
-            candidate_template(r["theme"], r, code_commit=code_commit, **needed)
+            candidate_template(r["theme"], r, code_commit=code_commit,
+                               entity_kind=a.entity_kind, method=method, **needed)
             for r in report["results"][:max_c]
         ]
         a.json = True
@@ -276,6 +314,8 @@ def main():
             for h in r["hits"]:
                 mark = "*" if h["id"] in r["exact_label_hits"] else " "
                 print(f"  {mark} {h['id']} （{h['label_ja']}／{h['status']}／出典{h['n_sources']}件）")
+        decision = classify(r["theme"], r)
+        print(f"  判定: {decision['entity_type']}（{decision['reason']}、{decision['rule_version']}）")
     if truncated:
         print(f"\n予算 max_theme_terms={limit} を超えたテーマ語は扱わなかった: {truncated}")
     print()

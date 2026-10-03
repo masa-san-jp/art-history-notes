@@ -1,5 +1,8 @@
 {
-  "as_of": "2026-09-21",
+  "as_of": "2026-10-03",
+  "concept_total": 12,
+  "method_concept_total": 4,
+  "method_to_work_or_movement_edges": 3,
   "movement_total": 181,
   "movement_stub_excluded": 0,
   "by_status": {

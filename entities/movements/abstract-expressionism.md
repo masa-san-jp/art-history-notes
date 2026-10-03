@@ -29,9 +29,13 @@ claims:
 space:
   - {role: originated_in, target: place/new-york-city}
 relations:
+  - {type: uses_method, target: concept/poured-painting, certainty: scholarly, source: "https://www.moca.org/artworks/number-1"}
   - {type: influenced_by, target: movement/mexican-muralism, certainty: scholarly, source: "https://whitney.org/exhibitions/vida-americana"}
   - {type: influenced_by, target: movement/expressionism, certainty: scholarly, source: "https://assets.moma.org/documents/moma_catalogue_1990_300190211.pdf"}
 sources:
+  - url: "https://www.moca.org/artworks/number-1"
+    kind: institutional
+    note: "Number 1, 1949 の注ぐ・飛散させる制作法と抽象表現主義での位置を記録"
   - url: "https://www.wikidata.org/wiki/Q177725"
     kind: authority
   - url: "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300022099"

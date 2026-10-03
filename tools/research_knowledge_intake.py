@@ -23,6 +23,7 @@ from kb import (ROOT, DIR_FOR_TYPE, URI_PREFIX, load_config, load_entities, sour
                 read_frontmatter, normalized_meta, build_edges)
 from build_graph import validate as validate_entities
 from agent_support import SECRET_PATTERNS, is_immutable_archive, resolve_code_commit, run_git
+from method_concepts import concept_validation_errors, decision_validation_errors, method_validation_errors
 from path_safety import external_path
 
 OWNER = "art-history-notes"
@@ -93,7 +94,13 @@ def validate_candidate(candidate, *, creator, collection, snapshots=None):
         raise IntakeError("explicit knowledge write and redistribution rights required")
     if record["access_scope"] == "creator-private" and (not isinstance(record["consent_ref"], str) or not record["consent_ref"]):
         raise IntakeError("private creator knowledge requires explicit consent reference")
-    if not isinstance(payload, dict) or set(payload) != {"classification", "target_id", "project_id", "statement", "entity", "source_reads", "context_body"}:
+    base_payload_fields = {"classification", "target_id", "project_id", "statement", "entity", "source_reads", "context_body"}
+    optional_method_fields = {"entity_kind", "method"}
+    if not isinstance(payload, dict):
+        raise IntakeError("closed owner payload required")
+    unknown_payload_fields = set(payload) - base_payload_fields - optional_method_fields
+    missing_payload_fields = base_payload_fields - set(payload)
+    if unknown_payload_fields or missing_payload_fields:
         raise IntakeError("closed owner payload required")
     if payload["classification"] not in {"historical", "creator-interpretation"}:
         raise IntakeError("unknown knowledge classification")
@@ -102,6 +109,23 @@ def validate_candidate(candidate, *, creator, collection, snapshots=None):
             raise IntakeError("target, project and substantive statement required")
     if payload["classification"] == "creator-interpretation" and (payload["entity"] is not None or record["epistemic_status"] not in {"inferred", "proposed", "simulated", "unknown"}):
         raise IntakeError("creator interpretation cannot become canonical historical fact")
+    entity_kind = payload.get("entity_kind")
+    method = payload.get("method")
+    decision = record["applicability"].get("method_classification")
+    if decision is not None:
+        errors = decision_validation_errors(decision, payload["target_id"])
+        if errors:
+            raise IntakeError("; ".join(errors))
+    if entity_kind not in {None, "method", "movement"}:
+        raise IntakeError("entity_kind は method / movement のどちらか")
+    if entity_kind == "method":
+        if decision is None or not decision["is_method"]:
+            raise IntakeError("entity_kind=method は method_classification の判定記録が必須")
+        method_errors = method_validation_errors(method)
+        if method_errors:
+            raise IntakeError("; ".join(method_errors))
+    elif method is not None:
+        raise IntakeError("method は entity_kind=method と対で指定する")
     if record["content_sha256"] != digest(canonical(payload)):
         raise IntakeError("payload hash mismatch")
     expected_path = "contexts/research-memory/payloads/" + key(record) + ".json"
@@ -133,8 +157,20 @@ def validate_candidate(candidate, *, creator, collection, snapshots=None):
             raise IntakeError("canonical target mismatch")
         if entity.get("status") == "verified":
             raise IntakeError("research intake cannot assign verified; owner review required")
-        allowed = set("id uri type label_ja label_en authority time space relations sources status updated kind naming claims evidence aliases former_names founding_control control_changes images region role place_type about scope signals".split())
+        allowed = set("id uri type label_ja label_en authority time space relations sources status updated kind naming claims evidence aliases former_names founding_control control_changes images region role place_type about scope signals method".split())
         if set(entity) - allowed: raise IntakeError("unrecognized canonical payload fields")
+        errors = concept_validation_errors(entity)
+        if errors: raise IntakeError("; ".join(errors))
+        if entity.get("method") is not None and entity_kind != "method":
+            raise IntakeError("method concept は entity_kind=method の宣言が必要")
+        if entity_kind == "method" and entity.get("type") != "concept":
+            raise IntakeError("entity_kind=method の canonical entity は concept でなければならない")
+        if entity_kind == "method":
+            method_errors = method_validation_errors(entity.get("method"))
+            if method_errors:
+                raise IntakeError("; ".join(method_errors))
+        if entity.get("method") is not None and method is not None and entity.get("method") != method:
+            raise IntakeError("payload.method と entity.method が一致しない")
         if not verified_urls or any(s.get("url") not in verified_urls for s in entity.get("sources", [])):
             raise IntakeError("canonical candidate requires read source snapshots")
         if record["epistemic_status"] not in {"externally-supported", "observed"}:
@@ -304,6 +340,9 @@ class KnowledgeStore:
                         if field == "sources" and any(v.get("url") == value.get("url") for v in values): continue
                         if value not in values: values.append(value)
                     merged[field] = values
+                # Fill only an absent legacy method; competing descriptions remain in history.
+                if merged.get("method") is None and entity.get("method") is not None:
+                    merged["method"] = copy.deepcopy(entity["method"])
             etype, slug = target.split("/", 1)
             if etype not in DIR_FOR_TYPE or not re.fullmatch(r"[a-z0-9]+(?:-[a-z0-9]+)*", slug):
                 raise IntakeError("unsafe canonical entity ID")

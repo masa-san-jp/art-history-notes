@@ -20,6 +20,20 @@ def entity(entity_id, entity_type="movement", **extra):
 
 
 class OverviewValidationTests(unittest.TestCase):
+    def test_coverage_can_be_regenerated_without_backdating_entities(self):
+        with tempfile.TemporaryDirectory() as directory:
+            overview_dir = Path(directory)
+            (overview_dir / "coverage.md").write_text(
+                "---\nas_of: 2026-08-13\ndepends_on: []\n---\nデータの最新日: 2026-08-13\n")
+            entities = {"movement/a": entity("movement/a", updated="2026-10-03")}
+            with mock.patch.object(build_graph, "OVERVIEWS", overview_dir):
+                errors = []
+                build_graph.validate_overviews(entities, errors)
+                self.assertEqual(len(errors), 2)
+                errors = []
+                build_graph.validate_overviews(entities, errors, regenerating_coverage=True)
+                self.assertEqual(errors, [])
+
     def validate(self, text, entities):
         with tempfile.TemporaryDirectory() as directory:
             overview_dir = Path(directory)

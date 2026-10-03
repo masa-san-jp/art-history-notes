@@ -27,6 +27,7 @@ from kb import (AUTHORITY_ID_PATTERNS, AUTHORITY_KEYS, CERTAINTIES, CLAIM_FIELDS
                 is_http_url, normalized_meta, read_frontmatter, read_queries, regions_of,
                 search_entities, source_urls, source_validation_errors)
 from detail_baseline import validate_manifest
+from method_concepts import concept_validation_errors, method_concept_ids
 from verified_movement import audit_manifest, load_manifest, render_progress
 
 OVERVIEWS = ROOT / "overviews"
@@ -153,6 +154,9 @@ def validate(entities, records, cfg, errors):
                             else:
                                 if not re.search(r"^## どう成立しているか\s*$", target_body, re.MULTILINE):
                                     err(f"{prefix}.visual-characterにはwork本文の ## どう成立しているか が必要")
+
+        for method_error in concept_validation_errors(meta):
+            err(method_error)
 
         if meta.get("founding_control") and meta["founding_control"] not in FOUNDING_CONTROL:
             err(f"founding_control は {sorted(FOUNDING_CONTROL)} のどれか（今: {meta['founding_control']}）")
@@ -305,6 +309,11 @@ def validate(entities, records, cfg, errors):
                 continue
             allowed = RELATION_TARGET_TYPES.get(rtype)
             target = entities.get(r.get("target"))
+            if rtype == "uses_method":
+                if etype not in {"work", "movement", "person"}:
+                    err("uses_method の関係元は work / movement / person に限る")
+                if target and target.get("method") is None:
+                    err("uses_method の関係先には method 記述が必要")
             if allowed and target and target.get("type") not in allowed:
                 err(f"{rtype} が指せるのは {sorted(allowed)}。今: {r.get('target')}"
                     f"（{target.get('type')}）")
@@ -445,7 +454,7 @@ def _overview_link_ids(path, body, entities):
     return ids
 
 
-def validate_overviews(entities, errors):
+def validate_overviews(entities, errors, *, regenerating_coverage=False):
     """Validate machine-readable overview assertions and dependency closure."""
     latest_updated = max((str(meta.get("updated") or "") for meta in entities.values()), default="")
     for path in sorted(OVERVIEWS.glob("*.md")):
@@ -483,6 +492,10 @@ def validate_overviews(entities, errors):
                 errors.append(f"overviews/{path.name}: depends_on に存在しない {entity_id}")
 
         if path.name == "coverage.md":
+            # The generation command replaces these dates below. Check mode still
+            # rejects stale generated data; do not backdate entities to bootstrap it.
+            if regenerating_coverage:
+                continue
             generated = re.search(r"データの最新日: (\d{4}-\d{2}-\d{2})", body)
             if as_of != latest_updated:
                 errors.append(f"overviews/{path.name}: as_of={as_of} がentityの最新日 {latest_updated} と不一致")
@@ -646,8 +659,15 @@ def coverage(entities, cfg, verified_movement=None):
     th = cfg["thresholds"]
     # as_of は「今日」ではなく、反映しているデータの最新日にする。
     # 今日を入れると生成物が走らせた日ごとに変わり、CI の「生成物が最新か」が時差だけで落ちる。
+    method_ids = method_concept_ids(entities)
+    method_edges = [edge for edge in all_edges
+                    if edge.get("from") in method_ids and edge.get("type") == "used_by"
+                    and entities.get(edge.get("to"), {}).get("type") in {"work", "movement"}]
     return {
         "as_of": max((str(m.get("updated") or "") for m in entities.values()), default=""),
+        "concept_total": sum(1 for m in entities.values() if m.get("type") == "concept"),
+        "method_concept_total": len(method_ids),
+        "method_to_work_or_movement_edges": len(method_edges),
         "movement_total": total,
         "movement_stub_excluded": len(movements) - total,
         "by_status": {s: sum(1 for m in movements.values() if m.get("status") == s)
@@ -685,7 +705,9 @@ def render_coverage(cov, cfg, entities):
     sep = "|---" * (len(cols) + 2) + "|"
     lines = [f"データの最新日: {cov['as_of']} — `uv run --locked python tools/build_graph.py` が生成（手で書き換えない）", "",
              f"movement **{cov['movement_total']}** 件（stub {cov['movement_stub_excluded']}件は不算入）"
-             f"／内訳 {cov['by_status']}", "", header, sep]
+             f"／内訳 {cov['by_status']}",
+             f"concept **{cov.get('concept_total', 0)}** 件 / method **{cov.get('method_concept_total', 0)}** 件 "
+             f"/ method→work|movement **{cov.get('method_to_work_or_movement_edges', 0)}** 本", "", header, sep]
     for b, conf in buckets.items():
         row = cov["grid"].get(b, {})
         cells = " | ".join("∅" if (b, k) in reviewed else str(row.get(k, 0) or "")
@@ -757,7 +779,7 @@ def main():
 
     validate(entities, records, cfg, errors)
     check_overview_freshness(entities, errors)
-    validate_overviews(entities, errors)
+    validate_overviews(entities, errors, regenerating_coverage=not check_only)
     errors.extend(validate_manifest(entities, cfg))
     verified_manifest, verified_load_errors = load_manifest()
     errors.extend(verified_load_errors)
@@ -794,6 +816,7 @@ def main():
     text = cmap.read_text(encoding="utf-8")
     if MARK_START in text and MARK_END in text:
         head, rest = text.split(MARK_START, 1)
+        head = re.sub(r"(?m)^as_of: .*?$", f"as_of: {cov['as_of']}", head, count=1)
         _old, tail = rest.split(MARK_END, 1)
         cmap.write_text(f"{head}{MARK_START}\n{render_coverage(cov, cfg, entities)}\n{MARK_END}{tail}",
                         encoding="utf-8")

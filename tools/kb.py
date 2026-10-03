@@ -59,6 +59,7 @@ INTERPRETIVE_RELATIONS = {
     "influenced_by": "influenced", "responds_to": "answered_by", "derives_from": "derived_into",
     "reacts_against": "reacted_against_by", "grouped_as": "groups", "diffused_to": "received",
     "patronized_by": "patronized",
+    "uses_method": "used_by",
 }
 RELATIONS = {**STRUCTURAL_RELATIONS, **INTERPRETIVE_RELATIONS}
 
@@ -73,6 +74,7 @@ RELATION_TARGET_TYPES = {
     "patronized_by": {"org", "person"}, "member_of": {"org", "movement", "event"},
     "exhibited_at": {"event", "org"}, "documented_in": {"source"},
     "depicts": {"concept", "place", "person", "work"},
+    "uses_method": {"concept"},
     "influenced_by": None, "responds_to": None, "part_of": None,  # None = 型を限定しない
 }
 SPACE_TARGET_TYPES = {

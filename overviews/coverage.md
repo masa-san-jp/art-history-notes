@@ -1,5 +1,5 @@
 ---
-as_of: 2026-09-21
+as_of: 2026-10-03
 depends_on: []
 ---
 
@@ -12,9 +12,10 @@ depends_on: []
 受け入れ条件の閾値も同じファイルに置いてある（issue #1 と対応）。
 
 <!-- generated:coverage:start -->
-データの最新日: 2026-09-21 — `uv run --locked python tools/build_graph.py` が生成（手で書き換えない）
+データの最新日: 2026-10-03 — `uv run --locked python tools/build_graph.py` が生成（手で書き換えない）
 
 movement **181** 件（stub 0件は不算入）／内訳 {'draft': 62, 'stub': 0, 'verified': 119}
+concept **12** 件 / method **4** 件 / method→work|movement **3** 本
 
 | 文化圏 | 9BCE | 4C | 6C | 7C | 8C | 9C | 10C | 11C | 12C | 13C | 14C | 15C | 16C | 17C | 18C | 19C | 20C | 21C | 年代不明 | 計 |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
