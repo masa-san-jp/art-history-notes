@@ -150,10 +150,10 @@ def _method(meta: dict) -> dict | None:
 
 
 def build_record(meta: dict, entities: dict, commit: str, now: datetime, purpose: str) -> dict | None:
-    """movement または出典付き method concept を既存の境界DTOへ変換する。"""
+    """既存の関係信号、または出典付き method concept を境界DTOへ変換する。"""
     method = _method(meta)
-    if meta.get("type") == "concept" and method is None:
-        return None  # relation があっても未記入・無出典の concept は出さない
+    if meta.get("type") == "concept" and "method" in meta and method is None:
+        return None  # 宣言された方法が未記入・無出典なら関係経路へ迂回しない
     relations = _relations(meta)
     if not relations and method is None:
         return None
@@ -226,7 +226,7 @@ def build_record(meta: dict, entities: dict, commit: str, now: datetime, purpose
         record["method"] = method
         record["source_refs"] = sorted({source["url"] for source in sources
                                         if is_http_url(source.get("url"))})
-        record["evidence_sources"] = sources
+        # evidence_sources は関係の根拠。方法の出典は source_refs に分けて保持する。
         record["constraints"].append("方法の起源領域は美術への適用・歴史的影響の証明ではない")
     return record
 
@@ -284,7 +284,8 @@ def main() -> int:
     ]
 
     records = []
-    for meta in sorted(targets, key=lambda m: m["id"]):
+    # 既存の --limit は movement の ID 順を保ち、その後に方法を追加する。
+    for meta in sorted(targets, key=lambda m: (m.get("type") != "movement", m["id"])):
         record = build_record(meta, entities, commit, now, args.purpose)
         if record:
             records.append(record)

@@ -100,6 +100,52 @@ class ExportSignalsTests(unittest.TestCase):
         self.assertEqual("inferred", relation["certainty"]["level"])
         self.assertEqual([meta["relations"][0]["source"]], relation["evidence_refs"])
 
+    def test_limit_preserves_movement_order_before_methods(self):
+        method = self.method_concept()
+        first = movement()
+        second = movement()
+        second["id"] = "movement/z-example"
+        metas = {meta["id"]: meta for meta in (method, second, first)}
+        import json
+        for limit in (1, 2):
+            with self.subTest(limit=limit):
+                stdout = io.StringIO()
+                with mock.patch.object(export_signals, "load_entities", return_value=(metas, [])), \
+                     mock.patch.object(export_signals, "_head_commit", return_value="a" * 40), \
+                     mock.patch.object(sys, "argv", ["export_signals.py", "--purpose", "test", "--limit", str(limit)]), \
+                     contextlib.redirect_stdout(stdout):
+                    self.assertEqual(0, export_signals.main())
+                records = json.loads(stdout.getvalue())["signals"]
+                self.assertEqual([first["id"], second["id"]][:limit], [r["entity_id"] for r in records])
+
+    def test_explicit_concept_without_method_keeps_relation_export(self):
+        entities, _records = export_signals.load_entities()
+        meta = entities["concept/hurufiyya"]
+        self.assertNotIn("method", meta)
+        stdout = io.StringIO()
+        with mock.patch.object(export_signals, "_head_commit", return_value="a" * 40), \
+             mock.patch.object(sys, "argv", ["export_signals.py", "--purpose", "test", "--entity", meta["id"]]), \
+             contextlib.redirect_stdout(stdout):
+            self.assertEqual(0, export_signals.main())
+        import json
+        payload = json.loads(stdout.getvalue())
+        self.assertEqual(1, payload["signal_count"])
+        record = payload["signals"][0]
+        self.assertEqual("art-history:hurufiyya", record["signal_id"])
+        self.assertEqual(export_signals._relations(meta), record["relations"])
+        self.assertNotIn("method", record)
+        self.assertNotIn("source_refs", record)
+
+    def test_method_sources_do_not_replace_relation_evidence_sources(self):
+        meta = self.method_concept()
+        meta["relations"] = movement()["relations"]
+        relation_source = meta["relations"][0]["source"]
+        meta["sources"].append({"url": relation_source, "kind": "secondary", "note": "relation fixture"})
+        record = self.export(meta)
+        self.assertEqual([relation_source], [s["url"] for s in record["evidence_sources"]])
+        self.assertEqual(meta["sources"], record["sources"])
+        self.assertEqual(sorted(s["url"] for s in meta["sources"]), record["source_refs"])
+
     def test_computation_method_from_398_is_exportable_as_an_unverified_seed(self):
         entities, _records = export_signals.load_entities()
         meta = entities["concept/iterated-boundary-generation"]
