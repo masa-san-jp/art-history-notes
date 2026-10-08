@@ -778,6 +778,11 @@ def main():
         return 1
 
     validate(entities, records, cfg, errors)
+    from operation_tags import validate_tags
+    try:
+        validate_tags(records)
+    except (OSError, ValueError, KeyError, TypeError) as exc:
+        errors.append(f'Operation tags: {exc}')
     check_overview_freshness(entities, errors)
     validate_overviews(entities, errors, regenerating_coverage=not check_only)
     errors.extend(validate_manifest(entities, cfg))

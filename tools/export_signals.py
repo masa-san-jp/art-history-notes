@@ -194,14 +194,14 @@ def entity_content(meta: dict, body: str = "") -> list[dict]:
 
 
 def build_record(meta: dict, entities: dict, commit: str, now: datetime, purpose: str,
-                 body: str = "") -> dict | None:
+                 body: str = "", *, operation_tags: list | None = None, operation_vocabulary: dict | None = None) -> dict | None:
     """既存の関係信号、または出典付き method concept を境界DTOへ変換する。"""
     method = _method(meta)
     if meta.get("type") == "concept" and "method" in meta and method is None:
         return None  # 宣言された方法が未記入・無出典なら関係経路へ迂回しない
     relations = _relations(meta)
     content = entity_content(meta, body)
-    if not relations and method is None and not content:
+    if not relations and method is None and not content and not operation_tags:
         return None
     sources, evidence_sources = _source_details(meta, relations)
 
@@ -272,6 +272,9 @@ def build_record(meta: dict, entities: dict, commit: str, now: datetime, purpose
     }
     if content:
         record["content"] = content
+    if operation_vocabulary is not None:
+        record["operation_vocabulary"] = operation_vocabulary
+        record["operation_tags"] = operation_tags or []
     if method:
         record["method"] = method
         record["source_refs"] = sorted({source["url"] for source in sources
@@ -334,10 +337,15 @@ def main() -> int:
         if meta.get("type") == "movement" or _method(meta) is not None
     ]
 
+    from operation_tags import vocabulary, validate_tags
+    vocab = vocabulary()
+    tags = validate_tags(source_records)
     records = []
     # 既存の --limit は movement の ID 順を保ち、その後に方法を追加する。
     for meta in sorted(targets, key=lambda m: (m.get("type") != "movement", m["id"])):
-        record = build_record(meta, entities, commit, now, args.purpose, bodies.get(meta["id"], ""))
+        record = build_record(meta, entities, commit, now, args.purpose, bodies.get(meta["id"], ""),
+                              operation_tags=tags["records"].get(meta["id"], {}).get("tags"),
+                              operation_vocabulary=vocab if meta["id"] in tags["records"] else None)
         if record:
             records.append(record)
         if args.limit and len(records) >= args.limit:

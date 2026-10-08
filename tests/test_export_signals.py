@@ -63,6 +63,7 @@ class ExportSignalsTests(unittest.TestCase):
         with mock.patch.object(export_signals, 'load_entities', return_value=(
             {meta['id']: meta}, [(ROOT / meta['path'], meta, body)])), \
              mock.patch.object(export_signals, '_head_commit', return_value='a' * 40), \
+             mock.patch('operation_tags.validate_tags', return_value={'records': {meta['id']: {'tags': []}}}), \
              mock.patch.object(sys, 'argv', ['export_signals.py', '--purpose', 'test']), \
              contextlib.redirect_stdout(stdout):
             self.assertEqual(0, export_signals.main())
@@ -145,6 +146,7 @@ class ExportSignalsTests(unittest.TestCase):
         metas = {method["id"]: method, "movement/example": movement()}
         stdout = io.StringIO()
         with mock.patch.object(export_signals, "load_entities", return_value=(metas, [])), \
+             mock.patch("operation_tags.validate_tags", return_value={"records": {key: {"tags": []} for key in metas}}), \
              mock.patch.object(export_signals, "_head_commit", return_value="a" * 40), \
              mock.patch.object(sys, "argv", ["export_signals.py", "--purpose", "artistic-research"]), \
              contextlib.redirect_stdout(stdout):
@@ -174,6 +176,7 @@ class ExportSignalsTests(unittest.TestCase):
             with self.subTest(limit=limit):
                 stdout = io.StringIO()
                 with mock.patch.object(export_signals, "load_entities", return_value=(metas, [])), \
+                     mock.patch("operation_tags.validate_tags", return_value={"records": {key: {"tags": []} for key in metas}}), \
                      mock.patch.object(export_signals, "_head_commit", return_value="a" * 40), \
                      mock.patch.object(sys, "argv", ["export_signals.py", "--purpose", "test", "--limit", str(limit)]), \
                      contextlib.redirect_stdout(stdout):
