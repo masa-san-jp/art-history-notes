@@ -19,6 +19,7 @@ from __future__ import annotations
 
 import argparse
 import json
+import re
 import subprocess
 import sys
 from datetime import datetime, timedelta, timezone
@@ -32,7 +33,8 @@ except ModuleNotFoundError:  # tools.export_signals として読まれた場合
     from tools.agent_support import is_immutable_archive, resolve_code_commit
 
 CONTRACT = "research-signal-export/v1"
-ADAPTER_VERSION = "1.0.0"
+ADAPTER_VERSION = "1.1.0"
+CONTENT_MAX_CHARS = 2400
 SOURCE_REPOSITORY = "art-history"
 
 # このKBが certainty と source を必須にしている関係（docs/schema.md「relations」）。
@@ -149,13 +151,57 @@ def _method(meta: dict) -> dict | None:
     return {field: list(method[field]) for field in ("fixes", "varies", "requires")} | {"origin_domain": origin}
 
 
-def build_record(meta: dict, entities: dict, commit: str, now: datetime, purpose: str) -> dict | None:
+def entity_content(meta: dict, body: str = "") -> list[dict]:
+    """Bounded verbatim excerpts, never a generated summary or an uncited section.
+
+    Prose paragraphs need their own explicit URL in the entity's sources. A
+    directly following quotation inherits that paragraph's citation. Method
+    fields use the existing owner contract's declared source_refs.
+    """
+    sources = sorted({s["url"] for s in normalize_sources(meta.get("sources") or [])
+                      if is_http_url(s.get("url"))})
+    remaining = CONTENT_MAX_CHARS
+    content = []
+
+    def append(text, refs, locator):
+        nonlocal remaining
+        if remaining and text and refs:
+            text = text[:remaining]
+            content.append({"text": text, "source_refs": refs, "source_locator": locator})
+            remaining -= len(text)
+
+    method = _method(meta)
+    if method:
+        for field in ("fixes", "varies", "requires"):
+            for text in method[field]:
+                append(text, sources, f"{meta['path']}#method.{field}")
+    sections = re.split(r"(?m)^#{1,6}\s+([^\n]+)\n", body)
+    for index in range(1, len(sections), 2):
+        heading, prose = sections[index:index + 2]
+        if not re.match(r"定義|方法|手法|技法|態度|特徴|実装例", heading):
+            continue
+        citation = []
+        for paragraph in re.split(r"\n\s*\n", prose.strip()):
+            urls = set(re.findall(r'\]\((https?://[^\s]+?)\)', paragraph))
+            urls.update(re.findall(r'https?://[^\s<>()]+', paragraph))
+            refs = sorted(set(sources) & urls)
+            if refs:
+                citation = refs
+            elif not paragraph.startswith(">"):
+                citation = []
+            append(paragraph, refs or citation, f"{meta['path']}#{heading}")
+    return content
+
+
+def build_record(meta: dict, entities: dict, commit: str, now: datetime, purpose: str,
+                 body: str = "") -> dict | None:
     """既存の関係信号、または出典付き method concept を境界DTOへ変換する。"""
     method = _method(meta)
     if meta.get("type") == "concept" and "method" in meta and method is None:
         return None  # 宣言された方法が未記入・無出典なら関係経路へ迂回しない
     relations = _relations(meta)
-    if not relations and method is None:
+    content = entity_content(meta, body)
+    if not relations and method is None and not content:
         return None
     sources, evidence_sources = _source_details(meta, relations)
 
@@ -180,6 +226,8 @@ def build_record(meta: dict, entities: dict, commit: str, now: datetime, purpose
         "repository": SOURCE_REPOSITORY,
         "commit": commit,
         "entity_id": meta["id"],
+        "entity_labels": [value for value in (meta.get('label_ja'), meta.get('label_en'))
+                          if isinstance(value, str) and value.strip()],
         "source_locator": meta["path"],
         "evidence_locator": f"{meta['path']}#sources",
         "sources": sources,
@@ -222,6 +270,8 @@ def build_record(meta: dict, entities: dict, commit: str, now: datetime, purpose
         "relations": relations,
         "canonical_graph_locator": f"data/graph.json#{meta['id']}",
     }
+    if content:
+        record["content"] = content
     if method:
         record["method"] = method
         record["source_refs"] = sorted({source["url"] for source in sources
@@ -266,7 +316,8 @@ def main() -> int:
             print(f"ERROR: {exc}", file=sys.stderr)
             return 1
 
-    entities, _records = load_entities()
+    entities, source_records = load_entities()
+    bodies = {meta["id"]: body for _path, meta, body in source_records}
     if args.entity and args.entity not in entities:
         print(f"ERROR: そのIDは無い: {args.entity}", file=sys.stderr)
         return 1
@@ -286,7 +337,7 @@ def main() -> int:
     records = []
     # 既存の --limit は movement の ID 順を保ち、その後に方法を追加する。
     for meta in sorted(targets, key=lambda m: (m.get("type") != "movement", m["id"])):
-        record = build_record(meta, entities, commit, now, args.purpose)
+        record = build_record(meta, entities, commit, now, args.purpose, bodies.get(meta["id"], ""))
         if record:
             records.append(record)
         if args.limit and len(records) >= args.limit:
