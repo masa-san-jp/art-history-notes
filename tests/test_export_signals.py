@@ -34,6 +34,69 @@ def movement(status="draft", space=None):
 
 
 class ExportSignalsTests(unittest.TestCase):
+    def test_content_keeps_only_cited_definition_paragraphs_and_adjacent_quote(self):
+        meta = movement()
+        meta['sources'] = [{'url': 'https://example.test/source', 'kind': 'primary'}]
+        body = ('## 定義と範囲\n\n無出典の説明。\n\n'
+                '操作を遅らせる（[資料](https://example.test/source)）。\n\n'
+                '> Delay execution.\n\n出典なしの追記。\n\n'
+                '## 未確認\n[資料](https://example.test/source) 未確認の仮説。\n')
+        content = export_signals.entity_content(meta, body)
+        self.assertEqual(['操作を遅らせる（[資料](https://example.test/source)）。', '> Delay execution.'],
+                         [item['text'] for item in content])
+        self.assertTrue(all(item['source_refs'] == ['https://example.test/source'] for item in content))
+        self.assertTrue(all(item['source_locator'].endswith('#定義と範囲') for item in content))
+
+    def test_uncited_or_unregistered_source_is_never_content(self):
+        meta = movement()
+        meta['sources'] = [{'url': 'https://example.test/source', 'kind': 'primary'}]
+        for body in ('## 定義\n本文だけ。', '## 定義\nhttps://other.test/source 本文。',
+                     '## 定義\nhttps://example.test/source-unrelated 本文。',
+                     '## 未着手\nhttps://example.test/source 仮説。'):
+            self.assertEqual([], export_signals.entity_content(meta, body))
+
+    def test_cli_uses_loaded_markdown_body_for_movement_content(self):
+        meta = movement()
+        meta['sources'] = [{'url': 'https://example.test/source', 'kind': 'primary'}]
+        body = '## 定義\n操作を待つ [資料](https://example.test/source)'
+        stdout = io.StringIO()
+        with mock.patch.object(export_signals, 'load_entities', return_value=(
+            {meta['id']: meta}, [(ROOT / meta['path'], meta, body)])), \
+             mock.patch.object(export_signals, '_head_commit', return_value='a' * 40), \
+             mock.patch.object(sys, 'argv', ['export_signals.py', '--purpose', 'test']), \
+             contextlib.redirect_stdout(stdout):
+            self.assertEqual(0, export_signals.main())
+        import json
+        record = json.loads(stdout.getvalue())['signals'][0]
+        self.assertEqual('操作を待つ [資料](https://example.test/source)', record['content'][0]['text'])
+        self.assertEqual([meta['label_ja'], meta['label_en']], record['entity_labels'])
+
+    def test_content_limit_is_per_entity_and_preserves_native_prefix(self):
+        meta = movement()
+        meta['sources'] = [{'url': 'https://example.test/source', 'kind': 'primary'}]
+        paragraph = 'https://example.test/source ' + '操作' * 2000
+        content = export_signals.entity_content(meta, '## 定義\n' + paragraph)
+        self.assertEqual(export_signals.CONTENT_MAX_CHARS, sum(len(item['text']) for item in content))
+        self.assertEqual(paragraph[:export_signals.CONTENT_MAX_CHARS], content[0]['text'])
+
+    def test_content_only_movement_exports_without_inventing_relations(self):
+        meta = movement()
+        meta['relations'] = []
+        meta['sources'] = [{'url': 'https://example.test/source', 'kind': 'primary'}]
+        record = export_signals.build_record(meta, {}, 'a' * 40,
+            datetime(2026, 8, 14, tzinfo=timezone.utc), 'test',
+            '## 定義\n操作を遅らせる https://example.test/source')
+        self.assertEqual([], record['relations'])
+        self.assertTrue(record['content'])
+        self.assertEqual('unknown', record['validity']['status'])
+
+    def test_method_content_preserves_fixed_varied_and_required_values_with_sources(self):
+        meta = self.method_concept()
+        record = self.export(meta)
+        self.assertEqual(['repeat', 'initial condition', 'classify result'],
+                         [item['text'] for item in record['content']])
+        self.assertTrue(all(item['source_refs'] == record['source_refs'] for item in record['content']))
+
     def method_concept(self):
         return {
             "id": "concept/example-method", "type": "concept", "status": "draft",

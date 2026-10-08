@@ -257,3 +257,5 @@ GitHub Actionsには、正準検証用の `validate.yml` と、Agent interface�
 ## 用語としての用例
 
 「art-history-notes で1885年のパリ周辺の事例を調べる」は、時間・場所の条件から調査候補を探す使い方です。「ムガル絵画の被覆を確認する」は、theme_research で既存知識と未調査部分を整理する使い方を指します。上記「データを読む・探す」のコマンドに対応しており、候補が同時代・近隣にあることだけで影響関係を確定するものではありません。
+
+出典付き本文の signal export は [export entity content](docs/export-entity-content.md) を参照してください。
