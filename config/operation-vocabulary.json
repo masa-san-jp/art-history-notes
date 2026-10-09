@@ -30,6 +30,12 @@
     {"id":"perform","label":"行為を作品にする","definition":"時間の中の行為を作品として行う。"},
     {"id":"participate","label":"参加を組み込む","definition":"他者の参加や応答を作品の成立に組み込む。"},
     {"id":"conceptualize","label":"概念を提示する","definition":"物の造形より概念や言葉の提示を中心に置く。"},
-    {"id":"integrate","label":"領域を結びつける","definition":"異なる制作領域や生活の実践を結びつける。"}
+    {"id":"integrate","label":"領域を結びつける","definition":"異なる制作領域や生活の実践を結びつける。"},
+    {"id":"decide-in-action","label":"行為の中で決める","definition":"行為を進めながら次の判断をその場で決める。"},
+    {"id":"follow-procedure","label":"規則に委ねる","definition":"あらかじめ定めた規則や手順に制作の判断を委ねる。"},
+    {"id":"accept-chance","label":"偶然を受け入れる","definition":"意図していない偶然の結果を制作に受け入れる。"},
+    {"id":"delegate","label":"他者に委ねる","definition":"制作の判断や実行を他者に委ねる。"},
+    {"id":"present-unfinished","label":"未完成を提示する","definition":"完成に至る前の状態を作品として提示する。"},
+    {"id":"impose-constraints","label":"制約を課す","definition":"使用できる要素や行為の範囲に制約を課す。"}
   ]
 }

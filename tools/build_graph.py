@@ -778,9 +778,11 @@ def main():
         return 1
 
     validate(entities, records, cfg, errors)
-    from operation_tags import validate_tags
+    from operation_tags import validated_bundle
+    from operation_relations import validate_relations
     try:
-        validate_tags(records)
+        validated_bundle(records)
+        validate_relations()
     except (OSError, ValueError, KeyError, TypeError) as exc:
         errors.append(f'Operation tags: {exc}')
     check_overview_freshness(entities, errors)

@@ -1,0 +1,37 @@
+{
+  "added_operation_ids": [
+    "decide-in-action",
+    "follow-procedure",
+    "accept-chance",
+    "delegate",
+    "present-unfinished",
+    "impose-constraints"
+  ],
+  "base_tags_sha256": "c11906aaa781228870c2fca14a6389f3aa03ff33541803145147a5a8f3999288",
+  "contract_version": "operation-tag-extension/v1",
+  "target_ids": [
+    "concept/automatism",
+    "concept/frottage",
+    "concept/iterated-boundary-generation",
+    "concept/poured-painting",
+    "movement/abstract-expressionism",
+    "movement/ai-bigeiken",
+    "movement/arte-madi",
+    "movement/bengal-school",
+    "movement/brancovenesc-art",
+    "movement/computer-art",
+    "movement/conceptual-art",
+    "movement/dada",
+    "movement/igbo-ukwu-bronze",
+    "movement/kamasan-painting",
+    "movement/kanga",
+    "movement/lapita-pottery",
+    "movement/muhammad-ali-mosque-architecture",
+    "movement/ngati-tarawhai-whakairo",
+    "movement/nok-sculpture",
+    "movement/ottoman-miniature",
+    "movement/papunya-tula",
+    "movement/poto-poto-school",
+    "movement/qajar-painting"
+  ]
+}

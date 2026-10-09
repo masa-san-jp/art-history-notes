@@ -1,0 +1,1706 @@
+{
+  "contract_version": "operation-relations/v1",
+  "edges": {
+    "complement": {
+      "abstract": [
+        "geometrize"
+      ],
+      "accept-chance": [
+        "release-control"
+      ],
+      "appropriate": [
+        "combine"
+      ],
+      "capture-light": [
+        "observe",
+        "separate-color"
+      ],
+      "carve": [
+        "observe"
+      ],
+      "combine": [
+        "appropriate",
+        "fragment",
+        "integrate"
+      ],
+      "conceptualize": [
+        "follow-procedure"
+      ],
+      "construct": [
+        "geometrize"
+      ],
+      "decide-in-action": [
+        "gesture"
+      ],
+      "defer": [
+        "impose-constraints"
+      ],
+      "delegate": [
+        "follow-procedure"
+      ],
+      "distort": [
+        "symbolize"
+      ],
+      "follow-procedure": [
+        "conceptualize",
+        "delegate",
+        "iterate"
+      ],
+      "fragment": [
+        "combine"
+      ],
+      "geometrize": [
+        "abstract",
+        "construct",
+        "ornament"
+      ],
+      "gesture": [
+        "decide-in-action",
+        "pour"
+      ],
+      "impose-constraints": [
+        "defer",
+        "reduce"
+      ],
+      "integrate": [
+        "combine"
+      ],
+      "iterate": [
+        "follow-procedure",
+        "present-unfinished",
+        "print",
+        "vary-conditions"
+      ],
+      "layer": [
+        "mold",
+        "pour",
+        "transfer-texture"
+      ],
+      "mold": [
+        "layer"
+      ],
+      "narrate": [
+        "symbolize"
+      ],
+      "observe": [
+        "capture-light",
+        "carve"
+      ],
+      "observe-boundary": [
+        "vary-conditions"
+      ],
+      "ornament": [
+        "geometrize"
+      ],
+      "participate": [
+        "perform"
+      ],
+      "perform": [
+        "participate"
+      ],
+      "pour": [
+        "gesture",
+        "layer"
+      ],
+      "present-unfinished": [
+        "iterate"
+      ],
+      "print": [
+        "iterate"
+      ],
+      "reduce": [
+        "impose-constraints"
+      ],
+      "release-control": [
+        "accept-chance"
+      ],
+      "separate-color": [
+        "capture-light"
+      ],
+      "symbolize": [
+        "distort",
+        "narrate"
+      ],
+      "transfer-texture": [
+        "layer"
+      ],
+      "vary-conditions": [
+        "iterate",
+        "observe-boundary"
+      ]
+    },
+    "contrast": {
+      "abstract": [
+        "narrate",
+        "observe"
+      ],
+      "accept-chance": [
+        "follow-procedure",
+        "observe-boundary"
+      ],
+      "appropriate": [
+        "observe"
+      ],
+      "capture-light": [
+        "follow-procedure"
+      ],
+      "carve": [
+        "construct",
+        "layer",
+        "mold",
+        "transfer-texture"
+      ],
+      "combine": [
+        "reduce"
+      ],
+      "conceptualize": [
+        "construct",
+        "perform"
+      ],
+      "construct": [
+        "carve",
+        "conceptualize"
+      ],
+      "decide-in-action": [
+        "defer",
+        "delegate",
+        "iterate"
+      ],
+      "defer": [
+        "decide-in-action",
+        "present-unfinished"
+      ],
+      "delegate": [
+        "decide-in-action",
+        "participate"
+      ],
+      "distort": [
+        "observe"
+      ],
+      "follow-procedure": [
+        "accept-chance",
+        "capture-light",
+        "release-control"
+      ],
+      "fragment": [
+        "integrate"
+      ],
+      "geometrize": [
+        "gesture"
+      ],
+      "gesture": [
+        "geometrize",
+        "print"
+      ],
+      "impose-constraints": [
+        "vary-conditions"
+      ],
+      "integrate": [
+        "fragment"
+      ],
+      "iterate": [
+        "decide-in-action"
+      ],
+      "layer": [
+        "carve"
+      ],
+      "mold": [
+        "carve"
+      ],
+      "narrate": [
+        "abstract"
+      ],
+      "observe": [
+        "abstract",
+        "appropriate",
+        "distort",
+        "symbolize"
+      ],
+      "observe-boundary": [
+        "accept-chance"
+      ],
+      "ornament": [
+        "reduce"
+      ],
+      "participate": [
+        "delegate"
+      ],
+      "perform": [
+        "conceptualize"
+      ],
+      "pour": [
+        "print",
+        "separate-color"
+      ],
+      "present-unfinished": [
+        "defer"
+      ],
+      "print": [
+        "gesture",
+        "pour"
+      ],
+      "reduce": [
+        "combine",
+        "ornament"
+      ],
+      "release-control": [
+        "follow-procedure"
+      ],
+      "separate-color": [
+        "pour"
+      ],
+      "symbolize": [
+        "observe"
+      ],
+      "transfer-texture": [
+        "carve"
+      ],
+      "vary-conditions": [
+        "impose-constraints"
+      ]
+    }
+  },
+  "selections": [
+    {
+      "history": [
+        {
+          "accepted": true,
+          "attempt": 1,
+          "element_id": "defer.contrast.choice",
+          "value_sha256": "bda326b39e4539ccd9b6a9f9ce126824998307778232f96728e33b8ac76652f0"
+        },
+        {
+          "accepted": true,
+          "attempt": 1,
+          "element_id": "defer.contrast.reason",
+          "value_sha256": "1ee1ce421beb17e961ffa9143572d10e8ace8ae4dd6441b5d0512ce1fdb440cc"
+        }
+      ],
+      "operation_id": "defer",
+      "reason": "条件が整うまで決定を後に回すことと、行為を進めながらその場で決めることは、判断の時点が対比になる。",
+      "relation": "contrast",
+      "target_id": "decide-in-action"
+    },
+    {
+      "history": [
+        {
+          "accepted": true,
+          "attempt": 1,
+          "element_id": "defer.complement.choice",
+          "value_sha256": "d5124ecff225783488f5c685a0688b10a265ce8d62896438dd97d5ff09580e55"
+        },
+        {
+          "accepted": true,
+          "attempt": 1,
+          "element_id": "defer.complement.reason",
+          "value_sha256": "99344f67cfbf4e28ad5aa64162c523decbfa93389d07332eb5b497197045c1ae"
+        }
+      ],
+      "operation_id": "defer",
+      "reason": "決定を後に回す際に条件が整う範囲を確かめるため、使用できる要素や行為の範囲に制約を課すことが補い合う。",
+      "relation": "complement",
+      "target_id": "impose-constraints"
+    },
+    {
+      "history": [
+        {
+          "accepted": true,
+          "attempt": 1,
+          "element_id": "release-control.contrast.choice",
+          "value_sha256": "659f5a8cb63bdb22488a904461b676da40a787269a349a350098a9298a551f99"
+        },
+        {
+          "accepted": true,
+          "attempt": 1,
+          "element_id": "release-control.contrast.reason",
+          "value_sha256": "9ed58f4a917441e577e1794b5283a11eb8c048d38c67d39c968fd2d34287e703"
+        }
+      ],
+      "operation_id": "release-control",
+      "reason": "意識的な主題決定や理性的な統制を外して進めることと、あらかじめ定めた規則や手順に判断を委ねることは、進め方を決める根拠が対比になる。",
+      "relation": "contrast",
+      "target_id": "follow-procedure"
+    },
+    {
+      "history": [
+        {
+          "accepted": true,
+          "attempt": 1,
+          "element_id": "release-control.complement.choice",
+          "value_sha256": "ec7f1fca5963f78eee2dd986346766ac617f063b648982ccea1a07b5a776c95c"
+        },
+        {
+          "accepted": true,
+          "attempt": 1,
+          "element_id": "release-control.complement.reason",
+          "value_sha256": "90f407cdd5f741a5a3f22f0a6ebd8ccc6748ccbeac48a9266ae14f9ccdae48a5"
+        }
+      ],
+      "operation_id": "release-control",
+      "reason": "理性的な統制を外して進める際、意図していない偶然の結果を制作に受け入れる態度が補い合う。",
+      "relation": "complement",
+      "target_id": "accept-chance"
+    },
+    {
+      "history": [
+        {
+          "accepted": true,
+          "attempt": 1,
+          "element_id": "transfer-texture.contrast.choice",
+          "value_sha256": "86ee1e42398ca98474ecfc82768fbf119c97e002ebffa7d7fbfb268a16a0cc5a"
+        },
+        {
+          "accepted": true,
+          "attempt": 1,
+          "element_id": "transfer-texture.contrast.reason",
+          "value_sha256": "efcb0f55cb10ad770432f4a5183aa3cd38d665f4bf914a70ff8ad3a530a729fb"
+        }
+      ],
+      "operation_id": "transfer-texture",
+      "reason": "支持体を擦り凹凸を写すことと、素材を彫るか削って形を作ることは、既存の面を写すか面自体を変えるかで対比になる。",
+      "relation": "contrast",
+      "target_id": "carve"
+    },
+    {
+      "history": [
+        {
+          "accepted": true,
+          "attempt": 1,
+          "element_id": "transfer-texture.complement.choice",
+          "value_sha256": "d456af7b2e8d17eb8917d3e9a5aa236d02a52334a42468218e5dfd691690cb6c"
+        },
+        {
+          "accepted": true,
+          "attempt": 1,
+          "element_id": "transfer-texture.complement.reason",
+          "value_sha256": "6c85d141f52225ccd307c27caf9dcfd827855dd8124dde5b610415161cd789df"
+        }
+      ],
+      "operation_id": "transfer-texture",
+      "reason": "面に重ねた支持体を擦り凹凸を写した後、素材や色を層として重ねることで写した面に構成を加えられる。",
+      "relation": "complement",
+      "target_id": "layer"
+    },
+    {
+      "history": [
+        {
+          "accepted": true,
+          "attempt": 1,
+          "element_id": "pour.contrast.choice",
+          "value_sha256": "fa1ebf4ab53a9f1c051c88be5c2d0ec0beac6c0bcf831f9966628815b60a2870"
+        },
+        {
+          "accepted": true,
+          "attempt": 1,
+          "element_id": "pour.contrast.reason",
+          "value_sha256": "7379cf7ed8fc3f77826899be418358cc15be552113b4b24267a48bf0c087d55f"
+        }
+      ],
+      "operation_id": "pour",
+      "reason": "液体を注ぐか飛散させて線や層を作ることと、版から像を支持体へ写すことは、流れを生じさせるか既存の版を写すかで対比になる。",
+      "relation": "contrast",
+      "target_id": "print"
+    },
+    {
+      "history": [
+        {
+          "accepted": true,
+          "attempt": 1,
+          "element_id": "pour.complement.choice",
+          "value_sha256": "8aedb84bb3f5214ce145d92ec0589c02e8168036753d6faf373d3b69f42afd05"
+        },
+        {
+          "accepted": true,
+          "attempt": 1,
+          "element_id": "pour.complement.reason",
+          "value_sha256": "8830b0db2b672a1a3ea0f02928b965c491a339b00085eddf66ffc95b552bb7dc"
+        }
+      ],
+      "operation_id": "pour",
+      "reason": "液体を注ぐか飛散させて線や層を作る際、身体の動きや筆の軌跡を形として残すことが流れの方向を補う。",
+      "relation": "complement",
+      "target_id": "gesture"
+    },
+    {
+      "history": [
+        {
+          "accepted": true,
+          "attempt": 1,
+          "element_id": "iterate.contrast.choice",
+          "value_sha256": "bda326b39e4539ccd9b6a9f9ce126824998307778232f96728e33b8ac76652f0"
+        },
+        {
+          "accepted": true,
+          "attempt": 1,
+          "element_id": "iterate.contrast.reason",
+          "value_sha256": "2723c73e7fa71dc5af4e74c2bb2c77c685a089d1e2181724aa7d6cedd0cb8d3b"
+        }
+      ],
+      "operation_id": "iterate",
+      "reason": "同じ手順を繰り返し出力を次の入力に戻すことと、行為を進めながら次の判断をその場で決めることは、反復手順を保つか判断を更新するかで対比になる。",
+      "relation": "contrast",
+      "target_id": "decide-in-action"
+    },
+    {
+      "history": [
+        {
+          "accepted": true,
+          "attempt": 1,
+          "element_id": "iterate.complement.choice",
+          "value_sha256": "02a2c6512997f6b9dab73cc6076dde63dabd3396231d765adc9703d45c0a5e32"
+        },
+        {
+          "accepted": true,
+          "attempt": 1,
+          "element_id": "iterate.complement.reason",
+          "value_sha256": "665ed960cecd56d26340adf08720e0b78e460377447702f6f8b5039ea42307d5"
+        }
+      ],
+      "operation_id": "iterate",
+      "reason": "同じ手順を繰り返し出力を次の入力に戻しつつ、入力や条件を変えて結果を比較することで反復の違いを確かめられる。",
+      "relation": "complement",
+      "target_id": "vary-conditions"
+    },
+    {
+      "history": [
+        {
+          "accepted": true,
+          "attempt": 1,
+          "element_id": "vary-conditions.contrast.choice",
+          "value_sha256": "d5124ecff225783488f5c685a0688b10a265ce8d62896438dd97d5ff09580e55"
+        },
+        {
+          "accepted": true,
+          "attempt": 1,
+          "element_id": "vary-conditions.contrast.reason",
+          "value_sha256": "34a8f497feb9a18b80a51ea404bc5f25c4033521b35b2d5b1ed62c0b8608d744"
+        }
+      ],
+      "operation_id": "vary-conditions",
+      "reason": "入力や条件を変えて結果を比較することと、使用できる要素や行為の範囲に制約を課すことは、条件を開いて変えるか範囲を絞るかで対比になる。",
+      "relation": "contrast",
+      "target_id": "impose-constraints"
+    },
+    {
+      "history": [
+        {
+          "accepted": true,
+          "attempt": 1,
+          "element_id": "vary-conditions.complement.choice",
+          "value_sha256": "07818d4e908840d2377397c72acb29380c9084858832092de8a30cdd1febc9aa"
+        },
+        {
+          "accepted": true,
+          "attempt": 1,
+          "element_id": "vary-conditions.complement.reason",
+          "value_sha256": "dd349840af273ac60aa2e1f986d5ef817dc1223b47f8a573d6e05692a2610b3a"
+        }
+      ],
+      "operation_id": "vary-conditions",
+      "reason": "入力や条件を変えて結果を比較する際、結果の振る舞いが切り替わる境界を観測することで変化の位置を確かめられる。",
+      "relation": "complement",
+      "target_id": "observe-boundary"
+    },
+    {
+      "history": [
+        {
+          "accepted": true,
+          "attempt": 1,
+          "element_id": "observe-boundary.contrast.choice",
+          "value_sha256": "ec7f1fca5963f78eee2dd986346766ac617f063b648982ccea1a07b5a776c95c"
+        },
+        {
+          "accepted": true,
+          "attempt": 1,
+          "element_id": "observe-boundary.contrast.reason",
+          "value_sha256": "9b7647084a2ef00c06a1c35f7a2c03e0f4aa05441e756eeaa49c8d07804039c1"
+        }
+      ],
+      "operation_id": "observe-boundary",
+      "reason": "結果の振る舞いが切り替わる境界を観測することと、意図していない偶然の結果を制作に受け入れることは、変化を見極めるか受け入れるかで対比になる。",
+      "relation": "contrast",
+      "target_id": "accept-chance"
+    },
+    {
+      "history": [
+        {
+          "accepted": true,
+          "attempt": 1,
+          "element_id": "observe-boundary.complement.choice",
+          "value_sha256": "02a2c6512997f6b9dab73cc6076dde63dabd3396231d765adc9703d45c0a5e32"
+        },
+        {
+          "accepted": true,
+          "attempt": 1,
+          "element_id": "observe-boundary.complement.reason",
+          "value_sha256": "defe67306f013c7bcf2844ddca5a9132e6475fd4fd7dd503e562cf54d9a10f35"
+        }
+      ],
+      "operation_id": "observe-boundary",
+      "reason": "結果の振る舞いが切り替わる境界を観測するため、入力や条件を変えて結果を比較することが観測を補う。",
+      "relation": "complement",
+      "target_id": "vary-conditions"
+    },
+    {
+      "history": [
+        {
+          "accepted": true,
+          "attempt": 1,
+          "element_id": "combine.contrast.choice",
+          "value_sha256": "61d10b375f018a673105780995284330422c41c4b00ed815e97e2bdd623fe53f"
+        },
+        {
+          "accepted": true,
+          "attempt": 1,
+          "element_id": "combine.contrast.reason",
+          "value_sha256": "28d064b3ee821d0a8af5217675f26f27c349f5f5996fccb22c84b4c21adbc6a8"
+        }
+      ],
+      "operation_id": "combine",
+      "reason": "異質な素材や像を組み合わせることと、要素を減らして限定した形や構成にすることは、異質な要素を加えるか減らすかで対比になる。",
+      "relation": "contrast",
+      "target_id": "reduce"
+    },
+    {
+      "history": [
+        {
+          "accepted": true,
+          "attempt": 1,
+          "element_id": "combine.complement.choice",
+          "value_sha256": "93716b4dd15c63e673502fcacd7bca02518b20617305fef448957d44fa653ec3"
+        },
+        {
+          "accepted": true,
+          "attempt": 1,
+          "element_id": "combine.complement.reason",
+          "value_sha256": "a7ab8028a17749f256877383142962d72b6c28ff4ca95d204bdd2508984fc400"
+        }
+      ],
+      "operation_id": "combine",
+      "reason": "異質な素材や像を組み合わせる際、既存の物や像を別の文脈に置き直すことで組合せの意味を補える。",
+      "relation": "complement",
+      "target_id": "appropriate"
+    },
+    {
+      "history": [
+        {
+          "accepted": true,
+          "attempt": 1,
+          "element_id": "appropriate.contrast.choice",
+          "value_sha256": "137c165f7fe3ec3dfb24fffbefea32ad3186836233e02ebe226870cc6c1bd470"
+        },
+        {
+          "accepted": true,
+          "attempt": 1,
+          "element_id": "appropriate.contrast.reason",
+          "value_sha256": "fa495d844e74bba853b27e9299d9e5899e624ef1f34dfc0bf93a639a8baca1fd"
+        }
+      ],
+      "operation_id": "appropriate",
+      "reason": "既存の物や像を別の文脈に置き直すことと、目の前の対象や環境を観察して表すことは、文脈を移すか現前の環境を捉えるかで対比になる。",
+      "relation": "contrast",
+      "target_id": "observe"
+    },
+    {
+      "history": [
+        {
+          "accepted": true,
+          "attempt": 1,
+          "element_id": "appropriate.complement.choice",
+          "value_sha256": "1026e2eea0873ba2c65f199b3929fc601d4a2b9cf5ee7cbfc6ca9b6092334246"
+        },
+        {
+          "accepted": true,
+          "attempt": 1,
+          "element_id": "appropriate.complement.reason",
+          "value_sha256": "abab314fb93e8083073d79c509d729d516313f3020016b0ebae2cebb66415cbe"
+        }
+      ],
+      "operation_id": "appropriate",
+      "reason": "既存の物や像を別の文脈に置き直し、異質な素材や像を組み合わせることで転用の構成を補える。",
+      "relation": "complement",
+      "target_id": "combine"
+    },
+    {
+      "history": [
+        {
+          "accepted": true,
+          "attempt": 1,
+          "element_id": "reduce.contrast.choice",
+          "value_sha256": "84299e39bf7e4ec4bcb589740881a257595c98b1d4966a7603c0eb3f882797af"
+        },
+        {
+          "accepted": true,
+          "attempt": 1,
+          "element_id": "reduce.contrast.reason",
+          "value_sha256": "d91ac8c2e8182ec2d225fe52f997ca65a940d76d01652d8418e0f7fbb94e4b52"
+        }
+      ],
+      "operation_id": "reduce",
+      "reason": "要素を減らして限定した形や構成にすることと、模様や装飾を配置して面や物を構成することは、要素を絞るか装飾を配置するかで対比になる。",
+      "relation": "contrast",
+      "target_id": "ornament"
+    },
+    {
+      "history": [
+        {
+          "accepted": true,
+          "attempt": 1,
+          "element_id": "reduce.complement.choice",
+          "value_sha256": "d5124ecff225783488f5c685a0688b10a265ce8d62896438dd97d5ff09580e55"
+        },
+        {
+          "accepted": true,
+          "attempt": 1,
+          "element_id": "reduce.complement.reason",
+          "value_sha256": "adf80e266dfb928f7204d1113ad6944b7161f84da7f8c5680e2ef5a3dc79f034"
+        }
+      ],
+      "operation_id": "reduce",
+      "reason": "要素を減らして限定した形や構成にする際、使用できる要素や行為の範囲に制約を課すことで限定を保てる。",
+      "relation": "complement",
+      "target_id": "impose-constraints"
+    },
+    {
+      "history": [
+        {
+          "accepted": true,
+          "attempt": 1,
+          "element_id": "geometrize.contrast.choice",
+          "value_sha256": "8aedb84bb3f5214ce145d92ec0589c02e8168036753d6faf373d3b69f42afd05"
+        },
+        {
+          "accepted": true,
+          "attempt": 1,
+          "element_id": "geometrize.contrast.reason",
+          "value_sha256": "79008c8fe805d19c06db58e361e09f9c846d5a7a99075357b6f1d9d97c964f82"
+        }
+      ],
+      "operation_id": "geometrize",
+      "reason": "幾何学的な形や配置で構成することと、身体の動きや筆の軌跡を形として残すことは、配置の基準か身体の軌跡かで対比になる。",
+      "relation": "contrast",
+      "target_id": "gesture"
+    },
+    {
+      "history": [
+        {
+          "accepted": true,
+          "attempt": 1,
+          "element_id": "geometrize.complement.choice",
+          "value_sha256": "9a334c28b395bf7f4409bc81994e1d02ff8764d477ae214bba38152fa8b3c5ef"
+        },
+        {
+          "accepted": true,
+          "attempt": 1,
+          "element_id": "geometrize.complement.reason",
+          "value_sha256": "d871ee8dd67c46fe759180be92e235541ddf9a1664302029870f77e3ba89a200"
+        }
+      ],
+      "operation_id": "geometrize",
+      "reason": "幾何学的な形や配置で構成する際、素材や部材を組み立てて構造を作ることで配置を具体化できる。",
+      "relation": "complement",
+      "target_id": "construct"
+    },
+    {
+      "history": [
+        {
+          "accepted": true,
+          "attempt": 1,
+          "element_id": "fragment.contrast.choice",
+          "value_sha256": "d4c0a7ac6aba5b7460358f0fcfb9761af062d3a718a2cde6ed3e793b196a1039"
+        },
+        {
+          "accepted": true,
+          "attempt": 1,
+          "element_id": "fragment.contrast.reason",
+          "value_sha256": "ef9e3e4297cde1553037960f31f03ad72a80a1f94fbd442d3b497a95afde0741"
+        }
+      ],
+      "operation_id": "fragment",
+      "reason": "対象を部分や複数の視点に分解して組むことと、異なる制作領域や生活の実践を結びつけることは、分解か結合かという向きで対比になる。",
+      "relation": "contrast",
+      "target_id": "integrate"
+    },
+    {
+      "history": [
+        {
+          "accepted": true,
+          "attempt": 1,
+          "element_id": "fragment.complement.choice",
+          "value_sha256": "1026e2eea0873ba2c65f199b3929fc601d4a2b9cf5ee7cbfc6ca9b6092334246"
+        },
+        {
+          "accepted": true,
+          "attempt": 1,
+          "element_id": "fragment.complement.reason",
+          "value_sha256": "84f82cc265b6c27b57615e285c530a278635d187c03b856619293fa794ca1f8c"
+        }
+      ],
+      "operation_id": "fragment",
+      "reason": "対象を部分や複数の視点に分解して組む際、異質な素材や像を組み合わせることで分解した部分の構成を補える。",
+      "relation": "complement",
+      "target_id": "combine"
+    },
+    {
+      "history": [
+        {
+          "accepted": true,
+          "attempt": 1,
+          "element_id": "distort.contrast.choice",
+          "value_sha256": "137c165f7fe3ec3dfb24fffbefea32ad3186836233e02ebe226870cc6c1bd470"
+        },
+        {
+          "accepted": true,
+          "attempt": 1,
+          "element_id": "distort.contrast.reason",
+          "value_sha256": "34fd90bf1936b04692fa854f70f3c19d38cebdd9d97bec8513c4fb0e0aa68e5b"
+        }
+      ],
+      "operation_id": "distort",
+      "reason": "対象の形を誇張または変形することと、目の前の対象や環境を観察して表すことは、形の変更か観察した対象の表現かで対比になる。",
+      "relation": "contrast",
+      "target_id": "observe"
+    },
+    {
+      "history": [
+        {
+          "accepted": true,
+          "attempt": 1,
+          "element_id": "distort.complement.choice",
+          "value_sha256": "16d7023eeaa3d3d3f8ae41d333a665c2a5268d0cdbbb10771b52b5da7f9a46c6"
+        },
+        {
+          "accepted": true,
+          "attempt": 1,
+          "element_id": "distort.complement.reason",
+          "value_sha256": "3ab2632d3173daa52ea137b0a2f8c616ed8385f2bf7b97d051f0a494d372103b"
+        }
+      ],
+      "operation_id": "distort",
+      "reason": "対象の形を誇張または変形する際、像や形を使って直接見えない意味を示すことで変形の意味を補える。",
+      "relation": "complement",
+      "target_id": "symbolize"
+    },
+    {
+      "history": [
+        {
+          "accepted": true,
+          "attempt": 1,
+          "element_id": "abstract.contrast.choice",
+          "value_sha256": "137c165f7fe3ec3dfb24fffbefea32ad3186836233e02ebe226870cc6c1bd470"
+        },
+        {
+          "accepted": true,
+          "attempt": 1,
+          "element_id": "abstract.contrast.reason",
+          "value_sha256": "5afdebde723e59249f027cde9bd95d1f4725bbed810c41a374d6b123642de89f"
+        }
+      ],
+      "operation_id": "abstract",
+      "reason": "対象の再現から離れ色や形を構成することと、目の前の対象や環境を観察して表すことは、再現からの距離で対比になる。",
+      "relation": "contrast",
+      "target_id": "observe"
+    },
+    {
+      "history": [
+        {
+          "accepted": true,
+          "attempt": 1,
+          "element_id": "abstract.complement.choice",
+          "value_sha256": "59404d6517db03dffb5c5ed7ec976841f763ffa32006356cb6687c9f3c2892bd"
+        },
+        {
+          "accepted": true,
+          "attempt": 1,
+          "element_id": "abstract.complement.reason",
+          "value_sha256": "c250100457efed5ab5879067f73a8c1628b008fe36ef797ccf74aeb1dbb40eef"
+        }
+      ],
+      "operation_id": "abstract",
+      "reason": "対象の再現から離れ色や形を構成する際、幾何学的な形や配置で構成することで抽象的な配置の基準を補える。",
+      "relation": "complement",
+      "target_id": "geometrize"
+    },
+    {
+      "history": [
+        {
+          "accepted": true,
+          "attempt": 1,
+          "element_id": "observe.contrast.choice",
+          "value_sha256": "dc185ad0955080b6163525f6c3e2c781a0800766919c35968f4a6e7232f4ea25"
+        },
+        {
+          "accepted": true,
+          "attempt": 1,
+          "element_id": "observe.contrast.reason",
+          "value_sha256": "29e25f2bca0fa58a15025b5e814f40015feda244038ceebcf4c47073485cd747"
+        }
+      ],
+      "operation_id": "observe",
+      "reason": "目の前の対象や環境を観察して表すことと、対象の再現から離れ色や形を構成することは、現前の対象との距離で対比になる。",
+      "relation": "contrast",
+      "target_id": "abstract"
+    },
+    {
+      "history": [
+        {
+          "accepted": true,
+          "attempt": 1,
+          "element_id": "observe.complement.choice",
+          "value_sha256": "953a167a40028a60ed8f62bdf84bd4c0fb9e3e5d02866c8d5046e412f8249e7c"
+        },
+        {
+          "accepted": true,
+          "attempt": 1,
+          "element_id": "observe.complement.reason",
+          "value_sha256": "2383ae0935e5e0249b5db3466ffdd5b96b92881ccb3288aa40ceb3e1392e8bea"
+        }
+      ],
+      "operation_id": "observe",
+      "reason": "目の前の対象や環境を観察して表す際、光や色の一時的な変化を捉えて表すことで観察の対象を具体化できる。",
+      "relation": "complement",
+      "target_id": "capture-light"
+    },
+    {
+      "history": [
+        {
+          "accepted": true,
+          "attempt": 1,
+          "element_id": "capture-light.contrast.choice",
+          "value_sha256": "659f5a8cb63bdb22488a904461b676da40a787269a349a350098a9298a551f99"
+        },
+        {
+          "accepted": true,
+          "attempt": 1,
+          "element_id": "capture-light.contrast.reason",
+          "value_sha256": "b3bb40addf3959d125c24d9482bb8bc54e7e4b4ecd5f8b33909aa79b5ef6672e"
+        }
+      ],
+      "operation_id": "capture-light",
+      "reason": "光や色の一時的な変化を捉えて表すことと、あらかじめ定めた規則や手順に制作の判断を委ねることは、その時の変化か先に定めた手順かで対比になる。",
+      "relation": "contrast",
+      "target_id": "follow-procedure"
+    },
+    {
+      "history": [
+        {
+          "accepted": true,
+          "attempt": 1,
+          "element_id": "capture-light.complement.choice",
+          "value_sha256": "468d7e2b5094c44b75d1d6101960dbec816d49293126eec9df6e5861b183fec2"
+        },
+        {
+          "accepted": true,
+          "attempt": 1,
+          "element_id": "capture-light.complement.reason",
+          "value_sha256": "1e13903feff64baec70d117aeb434ef87f2cca06a2b819f1e16c1bfc6d42b8d2"
+        }
+      ],
+      "operation_id": "capture-light",
+      "reason": "光や色の一時的な変化を捉えて表す際、色を点や小さな筆触に分けて並べることで捉えた変化を配置できる。",
+      "relation": "complement",
+      "target_id": "separate-color"
+    },
+    {
+      "history": [
+        {
+          "accepted": true,
+          "attempt": 1,
+          "element_id": "separate-color.contrast.choice",
+          "value_sha256": "e0cc3216509556f863dc7246ce0dabee4fd4149d7d56a8428798aea1b6a4dc56"
+        },
+        {
+          "accepted": true,
+          "attempt": 1,
+          "element_id": "separate-color.contrast.reason",
+          "value_sha256": "114b1d9cf9fe9e068045f37a58a40ac710da4520a10d2b07e897eb4ef9057641"
+        }
+      ],
+      "operation_id": "separate-color",
+      "reason": "色を点や小さな筆触に分けて並べることと、液体を注ぐか飛散させて線や層を作ることは、細かく配置するか流して形を生むかで対比になる。",
+      "relation": "contrast",
+      "target_id": "pour"
+    },
+    {
+      "history": [
+        {
+          "accepted": true,
+          "attempt": 1,
+          "element_id": "separate-color.complement.choice",
+          "value_sha256": "953a167a40028a60ed8f62bdf84bd4c0fb9e3e5d02866c8d5046e412f8249e7c"
+        },
+        {
+          "accepted": true,
+          "attempt": 1,
+          "element_id": "separate-color.complement.reason",
+          "value_sha256": "3911072defa328330e69024126043774adda84e22762cd8b87dda4f65574040b"
+        }
+      ],
+      "operation_id": "separate-color",
+      "reason": "色を点や小さな筆触に分けて並べる際、光や色の一時的な変化を捉えて表すことが配色の観察を補う。",
+      "relation": "complement",
+      "target_id": "capture-light"
+    },
+    {
+      "history": [
+        {
+          "accepted": true,
+          "attempt": 1,
+          "element_id": "symbolize.contrast.choice",
+          "value_sha256": "137c165f7fe3ec3dfb24fffbefea32ad3186836233e02ebe226870cc6c1bd470"
+        },
+        {
+          "accepted": true,
+          "attempt": 1,
+          "element_id": "symbolize.contrast.reason",
+          "value_sha256": "4ba792f4636941fcd5c2106036c14ac483232655246dc95a710ba3ec43032836"
+        }
+      ],
+      "operation_id": "symbolize",
+      "reason": "像や形を使って直接見えない意味を示すことと、目の前の対象や環境を観察して表すことは、不可視の意味か観察できる対象かで対比になる。",
+      "relation": "contrast",
+      "target_id": "observe"
+    },
+    {
+      "history": [
+        {
+          "accepted": true,
+          "attempt": 1,
+          "element_id": "symbolize.complement.choice",
+          "value_sha256": "41d77bff6e8f5c3c804f53521e63c7e7c934f3dd0d3875a69386a3300e2a1f81"
+        },
+        {
+          "accepted": true,
+          "attempt": 1,
+          "element_id": "symbolize.complement.reason",
+          "value_sha256": "010a2c57d64c7bc0611fc4c4cb8c1de6d52f3c27acf37da4fab6ab9cbe7bbb6a"
+        }
+      ],
+      "operation_id": "symbolize",
+      "reason": "像や形を使って直接見えない意味を示す際、出来事や物語を場面として表すことで意味を伝える文脈を補える。",
+      "relation": "complement",
+      "target_id": "narrate"
+    },
+    {
+      "history": [
+        {
+          "accepted": true,
+          "attempt": 1,
+          "element_id": "narrate.contrast.choice",
+          "value_sha256": "dc185ad0955080b6163525f6c3e2c781a0800766919c35968f4a6e7232f4ea25"
+        },
+        {
+          "accepted": true,
+          "attempt": 1,
+          "element_id": "narrate.contrast.reason",
+          "value_sha256": "94481931c1e6dc22eb78f5de05ce8a6695bfdebad665038389f4539bb4c17bd7"
+        }
+      ],
+      "operation_id": "narrate",
+      "reason": "出来事や物語を場面として表すことと、対象の再現から離れ色や形を構成することは、場面の再現か再現から離れた構成かで対比になる。",
+      "relation": "contrast",
+      "target_id": "abstract"
+    },
+    {
+      "history": [
+        {
+          "accepted": true,
+          "attempt": 1,
+          "element_id": "narrate.complement.choice",
+          "value_sha256": "16d7023eeaa3d3d3f8ae41d333a665c2a5268d0cdbbb10771b52b5da7f9a46c6"
+        },
+        {
+          "accepted": true,
+          "attempt": 1,
+          "element_id": "narrate.complement.reason",
+          "value_sha256": "45ee061dcc5cedf9bb6a4f61acb6bd9b8e7b9dad9233d5cfec4b25d5e765e422"
+        }
+      ],
+      "operation_id": "narrate",
+      "reason": "出来事や物語を場面として表す際、像や形を使って直接見えない意味を示すことで物語の含意を補える。",
+      "relation": "complement",
+      "target_id": "symbolize"
+    },
+    {
+      "history": [
+        {
+          "accepted": true,
+          "attempt": 1,
+          "element_id": "ornament.contrast.choice",
+          "value_sha256": "61d10b375f018a673105780995284330422c41c4b00ed815e97e2bdd623fe53f"
+        },
+        {
+          "accepted": true,
+          "attempt": 1,
+          "element_id": "ornament.contrast.reason",
+          "value_sha256": "6d9bd098c94270cd8fbc1edd2935806ccded7f584407b88eef40879451ab4b4a"
+        }
+      ],
+      "operation_id": "ornament",
+      "reason": "模様や装飾を配置して面や物を構成することと、要素を減らして限定した形や構成にすることは、装飾を加えるか要素を減らすかで対比になる。",
+      "relation": "contrast",
+      "target_id": "reduce"
+    },
+    {
+      "history": [
+        {
+          "accepted": true,
+          "attempt": 1,
+          "element_id": "ornament.complement.choice",
+          "value_sha256": "59404d6517db03dffb5c5ed7ec976841f763ffa32006356cb6687c9f3c2892bd"
+        },
+        {
+          "accepted": true,
+          "attempt": 1,
+          "element_id": "ornament.complement.reason",
+          "value_sha256": "5ce750edb96717bcc079f8c235e9e9d539cdc162fc93fdbb96b54a24b1f07fdd"
+        }
+      ],
+      "operation_id": "ornament",
+      "reason": "模様や装飾を配置して面や物を構成する際、幾何学的な形や配置で構成することで模様の配置を補える。",
+      "relation": "complement",
+      "target_id": "geometrize"
+    },
+    {
+      "history": [
+        {
+          "accepted": true,
+          "attempt": 1,
+          "element_id": "gesture.contrast.choice",
+          "value_sha256": "59404d6517db03dffb5c5ed7ec976841f763ffa32006356cb6687c9f3c2892bd"
+        },
+        {
+          "accepted": true,
+          "attempt": 1,
+          "element_id": "gesture.contrast.reason",
+          "value_sha256": "2089a6f4c4797d7b26f5f61208b6e7249676e5ba6835ef7077645ef605b7deeb"
+        }
+      ],
+      "operation_id": "gesture",
+      "reason": "身体の動きや筆の軌跡を形として残すことと、幾何学的な形や配置で構成することは、動作の軌跡か形の配置基準かで対比になる。",
+      "relation": "contrast",
+      "target_id": "geometrize"
+    },
+    {
+      "history": [
+        {
+          "accepted": true,
+          "attempt": 1,
+          "element_id": "gesture.complement.choice",
+          "value_sha256": "bda326b39e4539ccd9b6a9f9ce126824998307778232f96728e33b8ac76652f0"
+        },
+        {
+          "accepted": true,
+          "attempt": 1,
+          "element_id": "gesture.complement.reason",
+          "value_sha256": "4b17683d2462fa717357feb1d8a125f52d1c47072d6efa5b0f8113ac8ef0db74"
+        }
+      ],
+      "operation_id": "gesture",
+      "reason": "身体の動きや筆の軌跡を形として残す際、行為を進めながら次の判断をその場で決めることで動作への応答を補える。",
+      "relation": "complement",
+      "target_id": "decide-in-action"
+    },
+    {
+      "history": [
+        {
+          "accepted": true,
+          "attempt": 1,
+          "element_id": "construct.contrast.choice",
+          "value_sha256": "86ee1e42398ca98474ecfc82768fbf119c97e002ebffa7d7fbfb268a16a0cc5a"
+        },
+        {
+          "accepted": true,
+          "attempt": 1,
+          "element_id": "construct.contrast.reason",
+          "value_sha256": "87d7a603887215901c1f6c3811c062366349a0c6fd09e64fce77644baaf73953"
+        }
+      ],
+      "operation_id": "construct",
+      "reason": "素材や部材を組み立てて構造を作ることと、素材を彫るか削って形を作ることは、部材を加えて組むか素材を取り除くかで対比になる。",
+      "relation": "contrast",
+      "target_id": "carve"
+    },
+    {
+      "history": [
+        {
+          "accepted": true,
+          "attempt": 1,
+          "element_id": "construct.complement.choice",
+          "value_sha256": "59404d6517db03dffb5c5ed7ec976841f763ffa32006356cb6687c9f3c2892bd"
+        },
+        {
+          "accepted": true,
+          "attempt": 1,
+          "element_id": "construct.complement.reason",
+          "value_sha256": "51bc45c572f6b1c0ef67febad346f77b10387ac5e9333848f9710c818f2942b7"
+        }
+      ],
+      "operation_id": "construct",
+      "reason": "素材や部材を組み立てて構造を作る際、幾何学的な形や配置で構成することで構造の配置を補える。",
+      "relation": "complement",
+      "target_id": "geometrize"
+    },
+    {
+      "history": [
+        {
+          "accepted": true,
+          "attempt": 1,
+          "element_id": "carve.contrast.choice",
+          "value_sha256": "86b59b7cf687d256e850ee2b9d6121f9cd7f1074791b9f6950e609ac36c6ff62"
+        },
+        {
+          "accepted": true,
+          "attempt": 1,
+          "element_id": "carve.contrast.reason",
+          "value_sha256": "0b6ad27907d3e95a2f1943e52096d6c0c78f6a0244ca144db4d4f340453273b7"
+        }
+      ],
+      "operation_id": "carve",
+      "reason": "素材を彫るか削って形を作ることと、素材を盛るか成形して形を作ることは、素材を取り除くか盛るかで対比になる。",
+      "relation": "contrast",
+      "target_id": "mold"
+    },
+    {
+      "history": [
+        {
+          "accepted": true,
+          "attempt": 1,
+          "element_id": "carve.complement.choice",
+          "value_sha256": "137c165f7fe3ec3dfb24fffbefea32ad3186836233e02ebe226870cc6c1bd470"
+        },
+        {
+          "accepted": true,
+          "attempt": 1,
+          "element_id": "carve.complement.reason",
+          "value_sha256": "fe596a57064685023629a7f1cf1c91adbccb37337401169a452edc17aaf05f6f"
+        }
+      ],
+      "operation_id": "carve",
+      "reason": "素材を彫るか削って形を作る際、目の前の対象や環境を観察して表すことで削る形の判断を補える。",
+      "relation": "complement",
+      "target_id": "observe"
+    },
+    {
+      "history": [
+        {
+          "accepted": true,
+          "attempt": 1,
+          "element_id": "mold.contrast.choice",
+          "value_sha256": "86ee1e42398ca98474ecfc82768fbf119c97e002ebffa7d7fbfb268a16a0cc5a"
+        },
+        {
+          "accepted": true,
+          "attempt": 1,
+          "element_id": "mold.contrast.reason",
+          "value_sha256": "e4030e48b44a139d00ecbfd968994bd233f90a22454c0247f7e442713a2805e7"
+        }
+      ],
+      "operation_id": "mold",
+      "reason": "素材を盛るか成形して形を作ることと、素材を彫るか削って形を作ることは、盛るか取り除くかで対比になる。",
+      "relation": "contrast",
+      "target_id": "carve"
+    },
+    {
+      "history": [
+        {
+          "accepted": true,
+          "attempt": 1,
+          "element_id": "mold.complement.choice",
+          "value_sha256": "d456af7b2e8d17eb8917d3e9a5aa236d02a52334a42468218e5dfd691690cb6c"
+        },
+        {
+          "accepted": true,
+          "attempt": 1,
+          "element_id": "mold.complement.reason",
+          "value_sha256": "2e157d37ce6947f8f46d4abad45f2ad78185a64cc82ce28e0b0216b749764704"
+        }
+      ],
+      "operation_id": "mold",
+      "reason": "素材を盛るか成形して形を作る際、素材や色を層として重ねることで盛り上げる構成を補える。",
+      "relation": "complement",
+      "target_id": "layer"
+    },
+    {
+      "history": [
+        {
+          "accepted": true,
+          "attempt": 1,
+          "element_id": "layer.contrast.choice",
+          "value_sha256": "86ee1e42398ca98474ecfc82768fbf119c97e002ebffa7d7fbfb268a16a0cc5a"
+        },
+        {
+          "accepted": true,
+          "attempt": 1,
+          "element_id": "layer.contrast.reason",
+          "value_sha256": "f7656aea62497964a293654687398bd7c565477e414f57244ecf8a1ea983882a"
+        }
+      ],
+      "operation_id": "layer",
+      "reason": "素材や色を層として重ねることと、素材を彫るか削って形を作ることは、層を加えるか素材を取り除くかで対比になる。",
+      "relation": "contrast",
+      "target_id": "carve"
+    },
+    {
+      "history": [
+        {
+          "accepted": true,
+          "attempt": 1,
+          "element_id": "layer.complement.choice",
+          "value_sha256": "e0cc3216509556f863dc7246ce0dabee4fd4149d7d56a8428798aea1b6a4dc56"
+        },
+        {
+          "accepted": true,
+          "attempt": 1,
+          "element_id": "layer.complement.reason",
+          "value_sha256": "d77405e63525f495fe0c1d9a08bf5859b84ed21a591f2aaa1c5d4bf1e99f11b7"
+        }
+      ],
+      "operation_id": "layer",
+      "reason": "素材や色を層として重ねる際、液体を注ぐか飛散させて線や層を作ることで重ねる層を生み出せる。",
+      "relation": "complement",
+      "target_id": "pour"
+    },
+    {
+      "history": [
+        {
+          "accepted": true,
+          "attempt": 1,
+          "element_id": "print.contrast.choice",
+          "value_sha256": "8aedb84bb3f5214ce145d92ec0589c02e8168036753d6faf373d3b69f42afd05"
+        },
+        {
+          "accepted": true,
+          "attempt": 1,
+          "element_id": "print.contrast.reason",
+          "value_sha256": "8f7ffd6d6870e3562c1cff0139b8ff193ab17356e5ccdcdb3e670978ef82ba95"
+        }
+      ],
+      "operation_id": "print",
+      "reason": "版から像を支持体へ写すことと、身体の動きや筆の軌跡を形として残すことは、版を介すか動作を直接残すかで対比になる。",
+      "relation": "contrast",
+      "target_id": "gesture"
+    },
+    {
+      "history": [
+        {
+          "accepted": true,
+          "attempt": 1,
+          "element_id": "print.complement.choice",
+          "value_sha256": "82805f81d1a965f7ad3bedf66432a5dd2502e995a6c11a48ff80c869785e75e6"
+        },
+        {
+          "accepted": true,
+          "attempt": 1,
+          "element_id": "print.complement.reason",
+          "value_sha256": "1695c95571160a345798867204a71bcc18d90bfbe70b2ec57691c7b7abf3cee7"
+        }
+      ],
+      "operation_id": "print",
+      "reason": "版から像を支持体へ写す際、同じ手順を繰り返し出力を次の入力に戻すことで転写の反復を補える。",
+      "relation": "complement",
+      "target_id": "iterate"
+    },
+    {
+      "history": [
+        {
+          "accepted": true,
+          "attempt": 1,
+          "element_id": "perform.contrast.choice",
+          "value_sha256": "69d9ddcd5511c00282f033505dbe3222572134e470d006573953c6c3e23b78c7"
+        },
+        {
+          "accepted": true,
+          "attempt": 1,
+          "element_id": "perform.contrast.reason",
+          "value_sha256": "4665bd30ee8a5ac3f9eb37c20ceb1ece17f3adc5560271af792f7ef2e34eebdd"
+        }
+      ],
+      "operation_id": "perform",
+      "reason": "時間の中の行為を作品として行うことと、物の造形より概念や言葉の提示を中心に置くことは、行為の実行か概念の提示かで対比になる。",
+      "relation": "contrast",
+      "target_id": "conceptualize"
+    },
+    {
+      "history": [
+        {
+          "accepted": true,
+          "attempt": 1,
+          "element_id": "perform.complement.choice",
+          "value_sha256": "f4109f74b671a2f34a7ece3a5eed7b6916af4eba82415ec14ee3e1c135cc37f7"
+        },
+        {
+          "accepted": true,
+          "attempt": 1,
+          "element_id": "perform.complement.reason",
+          "value_sha256": "c883f1794ec2fcc6eecff6c54cad1916b1337232ea5de33ab9d03622dee4d674"
+        }
+      ],
+      "operation_id": "perform",
+      "reason": "時間の中の行為を作品として行う際、他者の参加や応答を作品の成立に組み込むことで行為の相互性を補える。",
+      "relation": "complement",
+      "target_id": "participate"
+    },
+    {
+      "history": [
+        {
+          "accepted": true,
+          "attempt": 1,
+          "element_id": "participate.contrast.choice",
+          "value_sha256": "5575a615f521c4aaa6b2a0095942706d4f1ec6641154cf5235748e3fe3f7f0c9"
+        },
+        {
+          "accepted": true,
+          "attempt": 1,
+          "element_id": "participate.contrast.reason",
+          "value_sha256": "cfed011b661d46ad455b1279acae4885c864f7fffbbf26610c8f488ff1136884"
+        }
+      ],
+      "operation_id": "participate",
+      "reason": "他者の参加や応答を作品の成立に組み込むことと、制作の判断や実行を他者に委ねることは、参加を取り込むか権限を渡すかで対比になる。",
+      "relation": "contrast",
+      "target_id": "delegate"
+    },
+    {
+      "history": [
+        {
+          "accepted": true,
+          "attempt": 1,
+          "element_id": "participate.complement.choice",
+          "value_sha256": "70bc0236daece9908752cb0e7618ee01232c30db7ac7ec72696e5858c201b8e3"
+        },
+        {
+          "accepted": true,
+          "attempt": 1,
+          "element_id": "participate.complement.reason",
+          "value_sha256": "32b0074410f62551910c2571fc8b41cc2f921da7d42ec60b55ec859e8670c066"
+        }
+      ],
+      "operation_id": "participate",
+      "reason": "他者の参加や応答を作品の成立に組み込む際、時間の中の行為を作品として行うことで参加の場を具体化できる。",
+      "relation": "complement",
+      "target_id": "perform"
+    },
+    {
+      "history": [
+        {
+          "accepted": true,
+          "attempt": 1,
+          "element_id": "conceptualize.contrast.choice",
+          "value_sha256": "9a334c28b395bf7f4409bc81994e1d02ff8764d477ae214bba38152fa8b3c5ef"
+        },
+        {
+          "accepted": true,
+          "attempt": 1,
+          "element_id": "conceptualize.contrast.reason",
+          "value_sha256": "11c117d791efd03ec29f814b118e24d019d3c191583d06176d106baf58cc7519"
+        }
+      ],
+      "operation_id": "conceptualize",
+      "reason": "物の造形より概念や言葉の提示を中心に置くことと、素材や部材を組み立てて構造を作ることは、概念の提示か物の構造かで対比になる。",
+      "relation": "contrast",
+      "target_id": "construct"
+    },
+    {
+      "history": [
+        {
+          "accepted": true,
+          "attempt": 1,
+          "element_id": "conceptualize.complement.choice",
+          "value_sha256": "659f5a8cb63bdb22488a904461b676da40a787269a349a350098a9298a551f99"
+        },
+        {
+          "accepted": true,
+          "attempt": 1,
+          "element_id": "conceptualize.complement.reason",
+          "value_sha256": "286fbe5f8f690de91b6ba6b8565289d32e7b279597692544bd11db65d0cc0b62"
+        }
+      ],
+      "operation_id": "conceptualize",
+      "reason": "物の造形より概念や言葉の提示を中心に置く際、あらかじめ定めた規則や手順に制作の判断を委ねることで概念を手順として具体化できる。",
+      "relation": "complement",
+      "target_id": "follow-procedure"
+    },
+    {
+      "history": [
+        {
+          "accepted": true,
+          "attempt": 1,
+          "element_id": "integrate.contrast.choice",
+          "value_sha256": "27fdf0fe3c29dc5ba967d4c43596147240f7709fc0814cc08389eb8c197b9f21"
+        },
+        {
+          "accepted": true,
+          "attempt": 1,
+          "element_id": "integrate.contrast.reason",
+          "value_sha256": "78bf199f6bc41a8972c9069316473971c1b20078c3d27ea41e1b486e24cec839"
+        }
+      ],
+      "operation_id": "integrate",
+      "reason": "異なる制作領域や生活の実践を結びつけることと、対象を部分や複数の視点に分解して組むことは、領域の結合か対象の分解かで対比になる。",
+      "relation": "contrast",
+      "target_id": "fragment"
+    },
+    {
+      "history": [
+        {
+          "accepted": true,
+          "attempt": 1,
+          "element_id": "integrate.complement.choice",
+          "value_sha256": "1026e2eea0873ba2c65f199b3929fc601d4a2b9cf5ee7cbfc6ca9b6092334246"
+        },
+        {
+          "accepted": true,
+          "attempt": 1,
+          "element_id": "integrate.complement.reason",
+          "value_sha256": "30014515b4a7db181e58c38e2016bb9af784693075235364f62b3fb26b6c3af0"
+        }
+      ],
+      "operation_id": "integrate",
+      "reason": "異なる制作領域や生活の実践を結びつける際、異質な素材や像を組み合わせることで領域間の結合を形にできる。",
+      "relation": "complement",
+      "target_id": "combine"
+    },
+    {
+      "history": [
+        {
+          "accepted": true,
+          "attempt": 1,
+          "element_id": "decide-in-action.contrast.choice",
+          "value_sha256": "ec8647a0e8884e0bed31d251a5497f81ac7d7eb4dd2878b1006362b82c35a936"
+        },
+        {
+          "accepted": true,
+          "attempt": 1,
+          "element_id": "decide-in-action.contrast.reason",
+          "value_sha256": "bb22460c0a4918cab3d4681d7b15c9ce28c3aa217269ca412435e31f09cf6d32"
+        }
+      ],
+      "operation_id": "decide-in-action",
+      "reason": "行為を進めながら次の判断をその場で決めることと、条件が整うまで決定を後に回すことは、判断を行う時点が対比になる。",
+      "relation": "contrast",
+      "target_id": "defer"
+    },
+    {
+      "history": [
+        {
+          "accepted": true,
+          "attempt": 1,
+          "element_id": "decide-in-action.complement.choice",
+          "value_sha256": "8aedb84bb3f5214ce145d92ec0589c02e8168036753d6faf373d3b69f42afd05"
+        },
+        {
+          "accepted": true,
+          "attempt": 1,
+          "element_id": "decide-in-action.complement.reason",
+          "value_sha256": "d5299c5f13585f2491d86877245356e531922bb2d782d4dc11851600dcc2a08e"
+        }
+      ],
+      "operation_id": "decide-in-action",
+      "reason": "行為を進めながら次の判断をその場で決める際、身体の動きや筆の軌跡を形として残すことで判断への反応を確かめられる。",
+      "relation": "complement",
+      "target_id": "gesture"
+    },
+    {
+      "history": [
+        {
+          "accepted": true,
+          "attempt": 1,
+          "element_id": "follow-procedure.contrast.choice",
+          "value_sha256": "ec7f1fca5963f78eee2dd986346766ac617f063b648982ccea1a07b5a776c95c"
+        },
+        {
+          "accepted": true,
+          "attempt": 1,
+          "element_id": "follow-procedure.contrast.reason",
+          "value_sha256": "e6a43008950ff40300ada5f57330ef82ffaceebe3083936c3b5f767c6d67c7e2"
+        }
+      ],
+      "operation_id": "follow-procedure",
+      "reason": "あらかじめ定めた規則や手順に制作の判断を委ねることと、意図していない偶然の結果を制作に受け入れることは、先に定めるか想定外を受け入れるかで対比になる。",
+      "relation": "contrast",
+      "target_id": "accept-chance"
+    },
+    {
+      "history": [
+        {
+          "accepted": true,
+          "attempt": 1,
+          "element_id": "follow-procedure.complement.choice",
+          "value_sha256": "82805f81d1a965f7ad3bedf66432a5dd2502e995a6c11a48ff80c869785e75e6"
+        },
+        {
+          "accepted": true,
+          "attempt": 1,
+          "element_id": "follow-procedure.complement.reason",
+          "value_sha256": "0a9a7a2e3f6a416b271a329235914df825075e57c4c247420cfde48123d15668"
+        }
+      ],
+      "operation_id": "follow-procedure",
+      "reason": "あらかじめ定めた規則や手順に制作の判断を委ねる際、同じ手順を繰り返し出力を次の入力に戻すことで規則の反復適用を補える。",
+      "relation": "complement",
+      "target_id": "iterate"
+    },
+    {
+      "history": [
+        {
+          "accepted": true,
+          "attempt": 1,
+          "element_id": "accept-chance.contrast.choice",
+          "value_sha256": "659f5a8cb63bdb22488a904461b676da40a787269a349a350098a9298a551f99"
+        },
+        {
+          "accepted": true,
+          "attempt": 1,
+          "element_id": "accept-chance.contrast.reason",
+          "value_sha256": "79004c417bc21f2b98f201d81d1bba7a039de6fd4eb0001fcca92fbb6e5ea69c"
+        }
+      ],
+      "operation_id": "accept-chance",
+      "reason": "意図していない偶然の結果を制作に受け入れることと、あらかじめ定めた規則や手順に制作の判断を委ねることは、想定外を採るか規則を採るかで対比になる。",
+      "relation": "contrast",
+      "target_id": "follow-procedure"
+    },
+    {
+      "history": [
+        {
+          "accepted": true,
+          "attempt": 1,
+          "element_id": "accept-chance.complement.choice",
+          "value_sha256": "afa8e28c43930ef0b911becd453f33296f27c257192b32bc1cb708756e3b2fa6"
+        },
+        {
+          "accepted": true,
+          "attempt": 1,
+          "element_id": "accept-chance.complement.reason",
+          "value_sha256": "c7482cc547892950e6f43551e4bfe3b49d6610b6ee960a8ab20b3eec2f314709"
+        }
+      ],
+      "operation_id": "accept-chance",
+      "reason": "意図していない偶然の結果を制作に受け入れる際、意識的な主題決定や理性的な統制を外して進める態度が受入れを補う。",
+      "relation": "complement",
+      "target_id": "release-control"
+    },
+    {
+      "history": [
+        {
+          "accepted": true,
+          "attempt": 1,
+          "element_id": "delegate.contrast.choice",
+          "value_sha256": "bda326b39e4539ccd9b6a9f9ce126824998307778232f96728e33b8ac76652f0"
+        },
+        {
+          "accepted": true,
+          "attempt": 1,
+          "element_id": "delegate.contrast.reason",
+          "value_sha256": "982b71bea9ebbf3deaded84626f730a054aec837f216406c06fa4fcbfb1edaf2"
+        }
+      ],
+      "operation_id": "delegate",
+      "reason": "制作の判断や実行を他者に委ねることと、行為を進めながら次の判断をその場で決めることは、判断を渡すか行為者が決めるかで対比になる。",
+      "relation": "contrast",
+      "target_id": "decide-in-action"
+    },
+    {
+      "history": [
+        {
+          "accepted": true,
+          "attempt": 1,
+          "element_id": "delegate.complement.choice",
+          "value_sha256": "659f5a8cb63bdb22488a904461b676da40a787269a349a350098a9298a551f99"
+        },
+        {
+          "accepted": true,
+          "attempt": 1,
+          "element_id": "delegate.complement.reason",
+          "value_sha256": "b313df5ed96d2bdc0687e2cc42e94b3bffaa0ab3a3b016bde2ee9731f91da97e"
+        }
+      ],
+      "operation_id": "delegate",
+      "reason": "制作の判断や実行を他者に委ねる際、あらかじめ定めた規則や手順に制作の判断を委ねることで他者と手順を共有できる。",
+      "relation": "complement",
+      "target_id": "follow-procedure"
+    },
+    {
+      "history": [
+        {
+          "accepted": true,
+          "attempt": 1,
+          "element_id": "present-unfinished.contrast.choice",
+          "value_sha256": "ec8647a0e8884e0bed31d251a5497f81ac7d7eb4dd2878b1006362b82c35a936"
+        },
+        {
+          "accepted": true,
+          "attempt": 1,
+          "element_id": "present-unfinished.contrast.reason",
+          "value_sha256": "0091ae4bec5e77e8c40d7a8a05967c540545de49ad55deeeadf980ade31f1708"
+        }
+      ],
+      "operation_id": "present-unfinished",
+      "reason": "完成に至る前の状態を作品として提示することと、条件が整うまで決定を後に回すことは、未完の状態を提示するか決定を待つかで対比になる。",
+      "relation": "contrast",
+      "target_id": "defer"
+    },
+    {
+      "history": [
+        {
+          "accepted": true,
+          "attempt": 1,
+          "element_id": "present-unfinished.complement.choice",
+          "value_sha256": "82805f81d1a965f7ad3bedf66432a5dd2502e995a6c11a48ff80c869785e75e6"
+        },
+        {
+          "accepted": true,
+          "attempt": 1,
+          "element_id": "present-unfinished.complement.reason",
+          "value_sha256": "33a5c197dddb9fa4197be260596a83f5bf580bfc9d7f3711a6d97f70db748cc0"
+        }
+      ],
+      "operation_id": "present-unfinished",
+      "reason": "完成に至る前の状態を作品として提示する際、同じ手順を繰り返し出力を次の入力に戻すことで途中の状態を次へつなげられる。",
+      "relation": "complement",
+      "target_id": "iterate"
+    },
+    {
+      "history": [
+        {
+          "accepted": true,
+          "attempt": 1,
+          "element_id": "impose-constraints.contrast.choice",
+          "value_sha256": "02a2c6512997f6b9dab73cc6076dde63dabd3396231d765adc9703d45c0a5e32"
+        },
+        {
+          "accepted": true,
+          "attempt": 1,
+          "element_id": "impose-constraints.contrast.reason",
+          "value_sha256": "6240116c892c3b6c044eb14cc9f9aeb49c604e8af5c5ca3f14e0637e8dd232b5"
+        }
+      ],
+      "operation_id": "impose-constraints",
+      "reason": "使用できる要素や行為の範囲に制約を課すことと、入力や条件を変えて結果を比較することは、範囲を絞るか条件を変えて開くかで対比になる。",
+      "relation": "contrast",
+      "target_id": "vary-conditions"
+    },
+    {
+      "history": [
+        {
+          "accepted": true,
+          "attempt": 1,
+          "element_id": "impose-constraints.complement.choice",
+          "value_sha256": "61d10b375f018a673105780995284330422c41c4b00ed815e97e2bdd623fe53f"
+        },
+        {
+          "accepted": true,
+          "attempt": 1,
+          "element_id": "impose-constraints.complement.reason",
+          "value_sha256": "a361f2f4f0b426b58675912a7cb32cf91a2c017439ce7ec1fefae439fa27b682"
+        }
+      ],
+      "operation_id": "impose-constraints",
+      "reason": "使用できる要素や行為の範囲に制約を課す際、要素を減らして限定した形や構成にすることで制約を具体化できる。",
+      "relation": "complement",
+      "target_id": "reduce"
+    }
+  ],
+  "vocabulary_sha256": "478b67953ab32f5526abc4fecef543377fa8b3ca8f3e24670af542e18ca7ec73"
+}

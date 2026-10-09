@@ -77,6 +77,12 @@ def validate_tags(records, document=None, vocab=None, *, complete=True):
     vocab = vocab or vocabulary()
     if document is None:
         document = json.loads(TAGS.read_text())
+        # Preserve old receipts only when an exact prefix of definitions matches.
+        for size in range(1, len(vocab['operations']) + 1):
+            prefix = {**vocab, 'operations': vocab['operations'][:size]}
+            if digest(prefix) == document['vocabulary_sha256']:
+                vocab = prefix
+                break
     if set(document) != {'contract_version', 'vocabulary_sha256', 'records'} or document['contract_version'] != 'operation-tags/v1':
         raise ValueError('Invalid operation tags contract')
     if document['vocabulary_sha256'] != digest(vocab):
@@ -123,6 +129,35 @@ def validate_tags(records, document=None, vocab=None, *, complete=True):
     return document
 
 
+
+def validated_bundle(records):
+    base = validate_tags(records)
+    scope_path = ROOT / 'config/operation-tag-extension.json'
+    if not scope_path.exists():
+        return base
+    scope = json.loads(scope_path.read_text())
+    full = vocabulary()
+    old_count = len(full['operations']) - len(scope['added_operation_ids'])
+    if (set(scope) != {'contract_version', 'base_tags_sha256', 'added_operation_ids', 'target_ids'}
+            or scope['contract_version'] != 'operation-tag-extension/v1'
+            or scope['base_tags_sha256'] != digest(base)
+            or scope['added_operation_ids'] != [row['id'] for row in full['operations'][old_count:]]
+            or digest({**full, 'operations': full['operations'][:old_count]}) != base['vocabulary_sha256']
+            or len(scope['target_ids']) != len(set(scope['target_ids']))):
+        raise ValueError('Invalid append-only operation extension')
+    added_vocab = {**full, 'operations': full['operations'][old_count:]}
+    additions = validate_tags(records, json.loads((ROOT / 'config/operation-tag-additions.json').read_text()), added_vocab, complete=False)
+    if set(additions['records']) != set(scope['target_ids']) or any(not row['completed'] for row in additions['records'].values()):
+        raise ValueError('Unfinished extension coverage')
+    result = deepcopy(base)
+    result['vocabulary_sha256'] = digest(full)
+    for entity, row in additions['records'].items():
+        existing = {tag['operation_id'] for tag in result['records'][entity]['tags']}
+        if any(tag['operation_id'] in existing for tag in row['tags']):
+            raise ValueError('Duplicate extension tag')
+        result['records'][entity]['tags'].extend(deepcopy(row['tags']))
+    return result
+
 def atomic(path, value):
     path.parent.mkdir(parents=True, exist_ok=True)
     with tempfile.NamedTemporaryFile(dir=path.parent, mode='w', encoding='utf-8', delete=False) as handle:
@@ -137,15 +172,23 @@ def atomic(path, value):
 
 
 class Tagger:
-    def __init__(self, state_root, *, output=TAGS):
+    def __init__(self, state_root, *, output=TAGS, entities=None, allowed_ids=None):
         self.root = Path(state_root).resolve() if Path(state_root).is_absolute() else Path(state_root)
         if not self.root.is_absolute() or any((p / '.git').exists() for p in [self.root, *self.root.parents]):
             raise ValueError('Use an absolute Git-external state root')
         self.path = self.root / 'operation-tag-state.json'
         self.output = output
         self.vocab = vocabulary()
+        if allowed_ids is not None:
+            if not set(allowed_ids) <= {row['id'] for row in self.vocab['operations']}:
+                raise ValueError('Unknown extension operation')
+            self.vocab['operations'] = [row for row in self.vocab['operations'] if row['id'] in allowed_ids]
         _, self.records = load_entities()
         self.pool = targets(self.records)
+        if entities is not None:
+            if not set(entities) <= set(self.pool):
+                raise ValueError('Unknown extension target')
+            self.pool = {key: self.pool[key] for key in entities}
 
     def next(self):
         if self.path.exists():
@@ -248,16 +291,19 @@ def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('command', choices=['next', 'answer', 'check'])
     parser.add_argument('--state-root', type=Path)
+    parser.add_argument('--extension', action='store_true')
     args = parser.parse_args()
     try:
         if args.command == 'check':
             _, records = load_entities()
-            validate_tags(records)
+            validated_bundle(records)
             print('Operation vocabulary, coverage and verbatim evidence verified')
             return 0
         if args.state_root is None:
             raise ValueError('--state-root required')
-        tagger = Tagger(args.state_root)
+        scope = json.loads((ROOT / 'config/operation-tag-extension.json').read_text()) if args.extension else None
+        tagger = Tagger(args.state_root, output=ROOT / 'config/operation-tag-additions.json',
+                        entities=scope['target_ids'], allowed_ids=scope['added_operation_ids']) if scope else Tagger(args.state_root)
         tagger.root.mkdir(parents=True, exist_ok=True, mode=0o700)
         with (tagger.root / 'operation-tags.lock').open('a') as lock:
             fcntl.flock(lock, fcntl.LOCK_EX)
