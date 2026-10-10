@@ -162,6 +162,10 @@ uv run --locked python tools/compare_context.py context/ai-art-japan-2026-h2 --k
 
 ### データを書く・生成する
 
+操作の選択式タグ付けは [操作語彙と本文タグ](docs/operation-tags.md) を使います。
+全対象の確認と根拠の完全一致を export 前に検査し、語彙とタグを owner 境界として渡します。
+各項目のカードの抜き書き（`card`）は [カードの抜き書き](docs/card-excerpts.md) を参照します。
+
 出典付きの方法 concept を候補生成へ渡すには、clean な checkout から
 `tools/export_signals.py --purpose artistic-research` を実行します。既存の movement に加え、
 `status: draft` / `verified` で `method.fixes / varies / requires / origin_domain` と出典URLを

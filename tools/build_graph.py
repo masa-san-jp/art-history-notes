@@ -778,6 +778,13 @@ def main():
         return 1
 
     validate(entities, records, cfg, errors)
+    from operation_tags import validated_bundle
+    from card_excerpts import pool as card_pool, validate_store as validate_card_store, load_store as load_card_store
+    try:
+        bundle = validated_bundle(records)
+        validate_card_store(card_pool(records, bundle), load_card_store())
+    except (OSError, ValueError, KeyError, TypeError) as exc:
+        errors.append(f'Operation tags / card excerpts: {exc}')
     check_overview_freshness(entities, errors)
     validate_overviews(entities, errors, regenerating_coverage=not check_only)
     errors.extend(validate_manifest(entities, cfg))
