@@ -1,0 +1,2004 @@
+{
+  "contract_version": "card-excerpts/v1",
+  "records": {
+    "movement/ai-bigeiken": {
+      "completed": true,
+      "content_sha256": "4e13e41325c59d3a22586f9b6d945e93aa0072254142016918e1d97eb22720cd",
+      "excerpts": [
+        {
+          "source_locator": "entities/movements/ai-bigeiken.md#定義と範囲",
+          "text": "人間が人工知能を使って創る芸術のことではない。人工知能が自ら行う美学と芸術のことである。"
+        },
+        {
+          "source_locator": "entities/movements/ai-bigeiken.md#定義と範囲",
+          "text": "宣言冒頭はこの運動の対象を次のように定義する。"
+        }
+      ],
+      "history": [
+        {
+          "accepted": true,
+          "attempt": 1,
+          "element_id": "K1.card.movement.ai-bigeiken.1",
+          "failed_checks": [],
+          "value_sha256": "5c816805b02d091645c841e521ae704e1d0b74f060a591d7dea2b244f581d52c"
+        },
+        {
+          "accepted": true,
+          "attempt": 1,
+          "element_id": "K1.card.movement.ai-bigeiken.2",
+          "failed_checks": [],
+          "value_sha256": "c9436d94a2ec668f824aae51628b5a67f120b7d1222691df3a08b14ff85f6daf"
+        }
+      ],
+      "source_commit": "d5bd9bc544343fad551bda87bfe1b5623fda6061"
+    },
+    "movement/alaouite-imperial-architecture": {
+      "completed": true,
+      "content_sha256": "fb196f3d32808bf8664d6048397b3f80b76f73f0637c44fa7457e3465f3a123e",
+      "excerpts": [
+        {
+          "source_locator": "entities/movements/alaouite-imperial-architecture.md#定義と範囲",
+          "text": "イスラーム様式とヨーロッパ様式が融合した「スペイン＝ムーア様式」"
+        },
+        {
+          "source_locator": "entities/movements/alaouite-imperial-architecture.md#定義と範囲",
+          "text": "高さ15メートル・全長40キロメートルに及ぶ城壁に囲まれる"
+        }
+      ],
+      "history": [
+        {
+          "accepted": true,
+          "attempt": 1,
+          "element_id": "K1.card.movement.alaouite-imperial-architecture.1",
+          "failed_checks": [],
+          "value_sha256": "9af6cadb6e4a5576319c289f5c117d0042cbabd701502287b77f7edf8faf504b"
+        },
+        {
+          "accepted": true,
+          "attempt": 1,
+          "element_id": "K1.card.movement.alaouite-imperial-architecture.2",
+          "failed_checks": [],
+          "value_sha256": "2e94d43fe8d1f3981d3525c28cfdf7487247ea353bf053d1ada8ad7586c9d992"
+        }
+      ],
+      "source_commit": "d5bd9bc544343fad551bda87bfe1b5623fda6061"
+    },
+    "movement/art-et-liberte": {
+      "completed": true,
+      "content_sha256": "707cfa184467b8f86611de12f3189bfecf568e8719f43d95beb728b9ef6c9948",
+      "excerpts": [
+        {
+          "source_locator": "entities/movements/art-et-liberte.md#定義と範囲",
+          "text": "「頽廃（degenerate）」という語を、逆に名誉の徽章として引き受ける"
+        },
+        {
+          "source_locator": "entities/movements/art-et-liberte.md#定義と範囲",
+          "text": "1938年から1948年にかけてカイロで活動した、画家・詩人・写真家・批評家からなる集団。"
+        }
+      ],
+      "history": [
+        {
+          "accepted": true,
+          "attempt": 1,
+          "element_id": "K1.card.movement.art-et-liberte.1",
+          "failed_checks": [],
+          "value_sha256": "50c91e9e0c167ecc05abcfe4474782042efc7099220a6110730b42fc38889d88"
+        },
+        {
+          "accepted": true,
+          "attempt": 1,
+          "element_id": "K1.card.movement.art-et-liberte.2",
+          "failed_checks": [],
+          "value_sha256": "3526af7a6b4a6724dc1110c861fbd80332ce8c947c951e12d86625978f5ea69a"
+        }
+      ],
+      "source_commit": "d5bd9bc544343fad551bda87bfe1b5623fda6061"
+    },
+    "movement/bandung-school": {
+      "completed": true,
+      "content_sha256": "6ab2724ae3fcb508172859ce36184c6b22a46d46c2a2c8ff72bb0f5a20b5492d",
+      "excerpts": [
+        {
+          "source_locator": "entities/movements/bandung-school.md#定義と範囲",
+          "text": "バンドン工科大学（ITB、）の美術教育課程を出自とする"
+        },
+        {
+          "source_locator": "entities/movements/bandung-school.md#定義と範囲",
+          "text": "インドネシア語では「Mazhab Bandung」「Aliran Bandung」「Modernisme Bandung」と表記が揺れる。"
+        }
+      ],
+      "history": [
+        {
+          "accepted": true,
+          "attempt": 1,
+          "element_id": "K1.card.movement.bandung-school.1",
+          "failed_checks": [],
+          "value_sha256": "4db9fec8847f71ed917f51b4c06d054ad29a2dc62d1564e68f47db5e5a9a6b03"
+        },
+        {
+          "accepted": true,
+          "attempt": 1,
+          "element_id": "K1.card.movement.bandung-school.2",
+          "failed_checks": [],
+          "value_sha256": "b17336641c2b531bd014606a8ea8adca65e41f51c1596e82c4ccbab485191679"
+        }
+      ],
+      "source_commit": "d5bd9bc544343fad551bda87bfe1b5623fda6061"
+    },
+    "movement/barroco-mineiro": {
+      "completed": true,
+      "content_sha256": "0c31e09e1bd025ea6d721b32a6ffb033f1a8ae4484485c3b7e736451db7b7920",
+      "excerpts": [
+        {
+          "source_locator": "entities/movements/barroco-mineiro.md#定義と範囲",
+          "text": "鉱夫たちが独自の材料・技法・労働力を用いた創意工夫がこの様式を形づくったとされる。"
+        },
+        {
+          "source_locator": "entities/movements/barroco-mineiro.md#定義と範囲",
+          "text": "代表的な担い手がアントニオ・フランシスコ・リズボア（愛称アレイジャジーニョ〈「小さな身障者」の意〉、1730年頃または1738年-1814年）である。"
+        }
+      ],
+      "history": [
+        {
+          "accepted": true,
+          "attempt": 1,
+          "element_id": "K1.card.movement.barroco-mineiro.1",
+          "failed_checks": [],
+          "value_sha256": "e184af25f36da109ef2dc97817b426cc736196970a3662304b59b2b718ad671c"
+        },
+        {
+          "accepted": true,
+          "attempt": 1,
+          "element_id": "K1.card.movement.barroco-mineiro.2",
+          "failed_checks": [],
+          "value_sha256": "d34661a42f33efe5a325e079a8c7c595625871dc54db242fc0fab36b62ea269c"
+        }
+      ],
+      "source_commit": "d5bd9bc544343fad551bda87bfe1b5623fda6061"
+    },
+    "movement/bengal-school": {
+      "completed": true,
+      "content_sha256": "78ac1d4e42c19442d7f0f655e0b48fe76eee5c52cc49b8c49dbc98ad5b14059e",
+      "excerpts": [
+        {
+          "source_locator": "entities/movements/bengal-school.md#定義と範囲",
+          "text": "ムガル細密画やラージプート絵画・アジャンター壁画の伝統を参照し、油彩に代えて水彩・淡彩のウォッシュ技法を用いた。"
+        },
+        {
+          "source_locator": "entities/movements/bengal-school.md#定義と範囲",
+          "text": "1905年、画家アバニンドラナート・タゴール（、詩人ラビンドラナート・タゴールの甥）が副校長として着任し、ハヴェルの改革を実作品の面で担う中心人物となった。"
+        }
+      ],
+      "history": [
+        {
+          "accepted": true,
+          "attempt": 1,
+          "element_id": "K1.card.movement.bengal-school.1",
+          "failed_checks": [],
+          "value_sha256": "20a8939fbf5886f5528fe3870fa48bd53177b53c453717dbae6b3904bd5b51c1"
+        },
+        {
+          "accepted": true,
+          "attempt": 1,
+          "element_id": "K1.card.movement.bengal-school.2",
+          "failed_checks": [],
+          "value_sha256": "133a17c6f6b96c3b9bd771e7f705897aabc4362398c875460402cf0152bb6db3"
+        }
+      ],
+      "source_commit": "d5bd9bc544343fad551bda87bfe1b5623fda6061"
+    },
+    "movement/bombay-progressive-artists-group": {
+      "completed": true,
+      "content_sha256": "a9ddd53f940207af0050ddc7263edf2d0f1f0268b1ac5920ecbe7af95769d0bd",
+      "excerpts": [
+        {
+          "source_locator": "entities/movements/bombay-progressive-artists-group.md#定義と範囲",
+          "text": "6人の若い画家・彫刻家の集団"
+        },
+        {
+          "source_locator": "entities/movements/bombay-progressive-artists-group.md#定義と範囲",
+          "text": "後にラム・クマール、アクバル・パダムシー、タイエブ・メータらが加わった。"
+        }
+      ],
+      "history": [
+        {
+          "accepted": true,
+          "attempt": 1,
+          "element_id": "K1.card.movement.bombay-progressive-artists-group.1",
+          "failed_checks": [],
+          "value_sha256": "28fa672f789d074df3afe048c54060089f7ea41d7ccf7d37567679b2272e43c5"
+        },
+        {
+          "accepted": true,
+          "attempt": 1,
+          "element_id": "K1.card.movement.bombay-progressive-artists-group.2",
+          "failed_checks": [],
+          "value_sha256": "3e28c2acafa003ec2e1bc262751334f95060f7e9d1bde420ad56fbd2dfea647d"
+        }
+      ],
+      "source_commit": "d5bd9bc544343fad551bda87bfe1b5623fda6061"
+    },
+    "movement/brancovenesc-art": {
+      "completed": true,
+      "content_sha256": "e168eef7fe35892bdaf4d46531ad8106d5594490d25de5c3c5df1d84b9168977",
+      "excerpts": [
+        {
+          "source_locator": "entities/movements/brancovenesc-art.md#定義と範囲",
+          "text": "is an artistic style that evolved during the administration of Prince Constantin Brâncoveanu"
+        },
+        {
+          "source_locator": "entities/movements/brancovenesc-art.md#定義と範囲",
+          "text": "in the late 17th and early 18th centuries."
+        }
+      ],
+      "history": [
+        {
+          "accepted": true,
+          "attempt": 1,
+          "element_id": "K1.card.movement.brancovenesc-art.1",
+          "failed_checks": [],
+          "value_sha256": "e55b21f5db73d0946c68e543c319353b91094d894bc2f1d874f8e92e23d601d4"
+        },
+        {
+          "accepted": true,
+          "attempt": 1,
+          "element_id": "K1.card.movement.brancovenesc-art.2",
+          "failed_checks": [],
+          "value_sha256": "542dffbfd9079955efeb976f9a8e4239428379886869485aa3e5e7004f9174c7"
+        }
+      ],
+      "source_commit": "d5bd9bc544343fad551bda87bfe1b5623fda6061"
+    },
+    "movement/byzantine-art": {
+      "completed": true,
+      "content_sha256": "43235fe8caad45dad766df52d4035ec7f9387affa3468230d5cf080cf84ead02",
+      "excerpts": [
+        {
+          "source_locator": "entities/movements/byzantine-art.md#定義と範囲",
+          "text": "帝室・教会・修道院・貴族の発注を受けて制作された美術"
+        },
+        {
+          "source_locator": "entities/movements/byzantine-art.md#定義と範囲",
+          "text": "330年のコンスタンティノープル建設から1453年の陥落まで"
+        }
+      ],
+      "history": [
+        {
+          "accepted": true,
+          "attempt": 1,
+          "element_id": "K1.card.movement.byzantine-art.1",
+          "failed_checks": [],
+          "value_sha256": "50b859d3018fca5d3a9ae96dec7f72d256ec29a821ecbef1b67bd888f5b57a77"
+        },
+        {
+          "accepted": true,
+          "attempt": 1,
+          "element_id": "K1.card.movement.byzantine-art.2",
+          "failed_checks": [],
+          "value_sha256": "a4a59e8e08e7db3581c68dc3e29c6d177b754916d73820c8eef42f430151e2aa"
+        }
+      ],
+      "source_commit": "d5bd9bc544343fad551bda87bfe1b5623fda6061"
+    },
+    "movement/coffin-portrait": {
+      "completed": true,
+      "content_sha256": "8d586fb7b748bde0858d00cd8b750f721941af9bc09eaea97e3aea67b0eddf6d",
+      "excerpts": [
+        {
+          "source_locator": "entities/movements/coffin-portrait.md#定義と範囲",
+          "text": "A realistic portrait of the deceased person put on coffins for the funeral"
+        },
+        {
+          "source_locator": "entities/movements/coffin-portrait.md#定義と範囲",
+          "text": "and one of the elements of the castrum doloris, but removed before the burial."
+        }
+      ],
+      "history": [
+        {
+          "accepted": true,
+          "attempt": 1,
+          "element_id": "K1.card.movement.coffin-portrait.1",
+          "failed_checks": [],
+          "value_sha256": "50704562d9250d2f26dd31f0e25428480b4f70626896a8b590d159890327aced"
+        },
+        {
+          "accepted": true,
+          "attempt": 1,
+          "element_id": "K1.card.movement.coffin-portrait.2",
+          "failed_checks": [],
+          "value_sha256": "cafe8bdbc0aa0d33bf03a83c277d4a03727f16b6bd413b324b3505f6826bdaa8"
+        }
+      ],
+      "source_commit": "d5bd9bc544343fad551bda87bfe1b5623fda6061"
+    },
+    "movement/colonial-limner-painting": {
+      "completed": true,
+      "content_sha256": "51c6b862a8808a2e5062f634643545749d65f0bd4af7a9b64bb0109e73bd497c",
+      "excerpts": [
+        {
+          "source_locator": "entities/movements/colonial-limner-painting.md#定義と範囲",
+          "text": "正規の美術教育を受けていない旅回りの肖像画家群"
+        },
+        {
+          "source_locator": "entities/movements/colonial-limner-painting.md#定義と範囲",
+          "text": "「limner」はもともと肖像画家一般を指す当時の職業語だが、"
+        }
+      ],
+      "history": [
+        {
+          "accepted": true,
+          "attempt": 1,
+          "element_id": "K1.card.movement.colonial-limner-painting.1",
+          "failed_checks": [],
+          "value_sha256": "7395064ea5017b038342aa148e075b35cac4ff6e30c5f9193a241c4eb075ce4e"
+        },
+        {
+          "accepted": true,
+          "attempt": 1,
+          "element_id": "K1.card.movement.colonial-limner-painting.2",
+          "failed_checks": [],
+          "value_sha256": "4b9ded1506ee94faeb3d0b572798f9b6e72d7af8db18f182dae2f992bb29fc8a"
+        }
+      ],
+      "source_commit": "d5bd9bc544343fad551bda87bfe1b5623fda6061"
+    },
+    "movement/company-painting": {
+      "completed": true,
+      "content_sha256": "16be401440002c9846836d9c58017be800a6e9fbe899342994fdb4110c54a34c",
+      "excerpts": [
+        {
+          "source_locator": "entities/movements/company-painting.md#定義と範囲",
+          "text": "ヨーロッパの影響を受けたカンパニー様式の絵画に自らを適応させた"
+        },
+        {
+          "source_locator": "entities/movements/company-painting.md#定義と範囲",
+          "text": "最初に興ったのはムルシダーバードで"
+        }
+      ],
+      "history": [
+        {
+          "accepted": true,
+          "attempt": 1,
+          "element_id": "K1.card.movement.company-painting.1",
+          "failed_checks": [],
+          "value_sha256": "ba5870de8f4acd598c7c48882f02c64c96819f460b79e0736714765e579d58fd"
+        },
+        {
+          "accepted": true,
+          "attempt": 1,
+          "element_id": "K1.card.movement.company-painting.2",
+          "failed_checks": [],
+          "value_sha256": "31297c7b78f84df120c5bcae33447fe477f7e3f1ee0338ee455af5542ba97882"
+        }
+      ],
+      "source_commit": "d5bd9bc544343fad551bda87bfe1b5623fda6061"
+    },
+    "movement/ecole-de-dakar": {
+      "completed": true,
+      "content_sha256": "5c94f66b895c40489043342ddac8f6839cea999c0fea3644848d249804e15a68",
+      "excerpts": [
+        {
+          "source_locator": "entities/movements/ecole-de-dakar.md#定義と範囲",
+          "text": "アフリカの美的伝統を、西洋のアヴァンギャルド、とりわけ抽象と大胆なグラフィックの形式と結びつけた"
+        },
+        {
+          "source_locator": "entities/movements/ecole-de-dakar.md#定義と範囲",
+          "text": "国家がつくった制度の共有"
+        }
+      ],
+      "history": [
+        {
+          "accepted": true,
+          "attempt": 1,
+          "element_id": "K1.card.movement.ecole-de-dakar.1",
+          "failed_checks": [],
+          "value_sha256": "c96d30034f6d65d1049c09f4c763ae15d33f830d33d19e955d28869f9be5037d"
+        },
+        {
+          "accepted": true,
+          "attempt": 1,
+          "element_id": "K1.card.movement.ecole-de-dakar.2",
+          "failed_checks": [],
+          "value_sha256": "844f064f3c6edf67957201525c9d50b0f61f76dde0699828fe015b58d8c308e9"
+        }
+      ],
+      "source_commit": "d5bd9bc544343fad551bda87bfe1b5623fda6061"
+    },
+    "movement/ecole-de-tunis": {
+      "completed": true,
+      "content_sha256": "8f20ffedc45c3bbc0e66acccbac6d942678f3effd0169bd71dd6f69cc8cb4c37",
+      "excerpts": [
+        {
+          "source_locator": "entities/movements/ecole-de-tunis.md#定義と範囲",
+          "text": "作風は、チュニジアの伝統的な民衆文化・工芸装飾（陶器、刺繍、細密画的な色彩感覚）を主題に取り込みながら、同時代のフォーヴィスムやキュビスムに連なる平坦な色面構成を用いる点に共通性があるとされる"
+        },
+        {
+          "source_locator": "entities/movements/ecole-de-tunis.md#定義と範囲",
+          "text": "ある論考は結成に加わった顔ぶれを「ムスリム・ユダヤ教徒・キリスト教徒という3つの信仰に属する16人の芸術家」と記す"
+        }
+      ],
+      "history": [
+        {
+          "accepted": true,
+          "attempt": 1,
+          "element_id": "K1.card.movement.ecole-de-tunis.1",
+          "failed_checks": [],
+          "value_sha256": "c903ad7da490ad1f4d36494f90833c791e61cc5e52995d4dbf5ca211c1c07266"
+        },
+        {
+          "accepted": true,
+          "attempt": 1,
+          "element_id": "K1.card.movement.ecole-de-tunis.2",
+          "failed_checks": [],
+          "value_sha256": "a15f98ae7e59ecffcc8acb8147a000a766ce19363b515f742530d2126bba51fb"
+        }
+      ],
+      "source_commit": "d5bd9bc544343fad551bda87bfe1b5623fda6061"
+    },
+    "movement/four-wangs": {
+      "completed": true,
+      "content_sha256": "8ced0b1438ce568567df2193030f1edd567a800400cd393934ee39fccdfbed4e",
+      "excerpts": [
+        {
+          "source_locator": "entities/movements/four-wangs.md#定義と範囲",
+          "text": "倾心师古，精研笔墨，追求文人画意趣"
+        },
+        {
+          "source_locator": "entities/movements/four-wangs.md#定義と範囲",
+          "text": "畫有南北宗，至石谷而合焉"
+        }
+      ],
+      "history": [
+        {
+          "accepted": true,
+          "attempt": 1,
+          "element_id": "K1.card.movement.four-wangs.1",
+          "failed_checks": [],
+          "value_sha256": "632d732461d9007795e81ce18354d1eefe93c002f8e9e73490ec5cbaa99a2353"
+        },
+        {
+          "accepted": true,
+          "attempt": 1,
+          "element_id": "K1.card.movement.four-wangs.2",
+          "failed_checks": [],
+          "value_sha256": "7d8adea0dc6fac7cd8136d4b91f769967c7a1e94a652eb1817bef32737312e17"
+        }
+      ],
+      "source_commit": "d5bd9bc544343fad551bda87bfe1b5623fda6061"
+    },
+    "movement/futurism": {
+      "completed": true,
+      "content_sha256": "743c5872f51525e45c795320ee20cbfc9caa9fdf09c4f022c1b40c572ddedb39",
+      "excerpts": [
+        {
+          "source_locator": "entities/movements/futurism.md#定義と範囲",
+          "text": "マリネッティが率いたこのイタリア発の運動"
+        },
+        {
+          "source_locator": "entities/movements/futurism.md#定義と範囲",
+          "text": "それらは別系統であり本項の対象外とする。"
+        }
+      ],
+      "history": [
+        {
+          "accepted": true,
+          "attempt": 1,
+          "element_id": "K1.card.movement.futurism.1",
+          "failed_checks": [],
+          "value_sha256": "f4e744ab5af5e5837d39cc099e3cad0cef5fe5b8fef2856d2b1b886971855ded"
+        },
+        {
+          "accepted": true,
+          "attempt": 1,
+          "element_id": "K1.card.movement.futurism.2",
+          "failed_checks": [],
+          "value_sha256": "bb0602552ad8bfff01dd95734d1dc258c0a629c671f94585ee350a9c77e41ec9"
+        }
+      ],
+      "source_commit": "d5bd9bc544343fad551bda87bfe1b5623fda6061"
+    },
+    "movement/gondarine-church-painting": {
+      "completed": true,
+      "content_sha256": "bced6c7a26338114e74eb762de0b1a15d2f5bfec525aa911a0a5d662da7e955c",
+      "excerpts": [
+        {
+          "source_locator": "entities/movements/gondarine-church-painting.md#定義と範囲",
+          "text": "教会壁画・二連祭壇画（ディプティク）・三連祭壇画（トリプティク）・写本挿絵"
+        },
+        {
+          "source_locator": "entities/movements/gondarine-church-painting.md#定義と範囲",
+          "text": "天使の顔で埋め尽くされた天井画で知られる教会"
+        }
+      ],
+      "history": [
+        {
+          "accepted": true,
+          "attempt": 1,
+          "element_id": "K1.card.movement.gondarine-church-painting.1",
+          "failed_checks": [],
+          "value_sha256": "bca977f23ebd121aedafba05a2a687a42f1518948cbb4a87223954f135d3d3a4"
+        },
+        {
+          "accepted": true,
+          "attempt": 1,
+          "element_id": "K1.card.movement.gondarine-church-painting.2",
+          "failed_checks": [],
+          "value_sha256": "2b29afbe6d9eb33b5a7a8ba0114ff09084c04e03f9557ffa298fa2bcea6c822e"
+        }
+      ],
+      "source_commit": "d5bd9bc544343fad551bda87bfe1b5623fda6061"
+    },
+    "movement/group-of-seven": {
+      "completed": true,
+      "content_sha256": "605a75d2bba0db2bc306d33eaa5fd7dd19291c9b583433b5763af7848d620367",
+      "excerpts": [
+        {
+          "source_locator": "entities/movements/group-of-seven.md#定義と範囲",
+          "text": "名前が数える集合（7）と、実際にこの画風・活動を担った人々の集合はここで既にずれている"
+        },
+        {
+          "source_locator": "entities/movements/group-of-seven.md#定義と範囲",
+          "text": "彼はグループの正式な成立（1920年）より3年前に死んでいるため、7人の誰にも数えられていない。"
+        }
+      ],
+      "history": [
+        {
+          "accepted": true,
+          "attempt": 1,
+          "element_id": "K1.card.movement.group-of-seven.1",
+          "failed_checks": [],
+          "value_sha256": "146dc0a727be56100c1f8b45439eca84ee9fac3e3846be84456ee7051d93d508"
+        },
+        {
+          "accepted": true,
+          "attempt": 1,
+          "element_id": "K1.card.movement.group-of-seven.2",
+          "failed_checks": [],
+          "value_sha256": "7fbd4e7b4d891a5f46b74fcb07f1815c974ed3d56cc5781b573edc1f8f047b46"
+        }
+      ],
+      "source_commit": "d5bd9bc544343fad551bda87bfe1b5623fda6061"
+    },
+    "movement/gutai": {
+      "completed": true,
+      "content_sha256": "19af29744dec3969aba83e78c4a96398f45bd75aea3a3779cbe1000b26d31dd0",
+      "excerpts": [
+        {
+          "source_locator": "entities/movements/gutai.md#定義と範囲",
+          "text": "具体美術に於ては人間精神と物質とが対立したまま、握手している"
+        },
+        {
+          "source_locator": "entities/movements/gutai.md#定義と範囲",
+          "text": "吉原は「人の真似をするな。今までにないものをつくれ」という方針で若い作家たちを導いた"
+        }
+      ],
+      "history": [
+        {
+          "accepted": true,
+          "attempt": 1,
+          "element_id": "K1.card.movement.gutai.1",
+          "failed_checks": [],
+          "value_sha256": "6e6560d9d6037b4420a488311d79c4e81e8432ac1b988d81296bc90aa55100b5"
+        },
+        {
+          "accepted": true,
+          "attempt": 1,
+          "element_id": "K1.card.movement.gutai.2",
+          "failed_checks": [],
+          "value_sha256": "4380f819d4ca3c3346a9cc61c438b7715b1b0a11ecdb5fb16558d09b5e72e03c"
+        }
+      ],
+      "source_commit": "d5bd9bc544343fad551bda87bfe1b5623fda6061"
+    },
+    "movement/harlem-renaissance": {
+      "completed": true,
+      "content_sha256": "5cbcc3aa48c459fe2b3ccb93e3a164365dcc50b072634ea2a628017b64aaa6c5",
+      "excerpts": [
+        {
+          "source_locator": "entities/movements/harlem-renaissance.md#定義と範囲",
+          "text": "アフリカ系アメリカ人による文学・音楽・演劇・舞踊・美術・学術を横断する文化的高揚。"
+        },
+        {
+          "source_locator": "entities/movements/harlem-renaissance.md#定義と範囲",
+          "text": "単一の美術様式に閉じた分類ではないことをデータ自体が示している。"
+        }
+      ],
+      "history": [
+        {
+          "accepted": true,
+          "attempt": 1,
+          "element_id": "K1.card.movement.harlem-renaissance.1",
+          "failed_checks": [],
+          "value_sha256": "052c7950253a209e488a0e79c6a8b819cf23d36a2da3807bfa54174318229705"
+        },
+        {
+          "accepted": true,
+          "attempt": 1,
+          "element_id": "K1.card.movement.harlem-renaissance.2",
+          "failed_checks": [],
+          "value_sha256": "1c018923dab9c0354f8ea1b42304a4c7ebbcbb34ae15adac7aa518f377b0cb46"
+        }
+      ],
+      "source_commit": "d5bd9bc544343fad551bda87bfe1b5623fda6061"
+    },
+    "movement/herat-school": {
+      "completed": true,
+      "content_sha256": "66c50c95ad13630cd3f67024e1fd2bdc936fbbe591aa988cf0692d015bfef1bc",
+      "excerpts": [
+        {
+          "source_locator": "entities/movements/herat-school.md#定義と範囲",
+          "text": "タブリーズ（ジャライル朝様式）とシーラーズの2系統の職人が同じ王室工房（キタブハーネ、kitabkhana）に統合された"
+        },
+        {
+          "source_locator": "entities/movements/herat-school.md#定義と範囲",
+          "text": "バイスングル自身も自ら書家であったとされる"
+        }
+      ],
+      "history": [
+        {
+          "accepted": true,
+          "attempt": 1,
+          "element_id": "K1.card.movement.herat-school.1",
+          "failed_checks": [],
+          "value_sha256": "bc416991de4f761026f40917077f28c6811e1398b5363823c11cfa0c919624d6"
+        },
+        {
+          "accepted": true,
+          "attempt": 1,
+          "element_id": "K1.card.movement.herat-school.2",
+          "failed_checks": [],
+          "value_sha256": "612c3d0830ef1a295be814a3bd6ef3a75ed88a14b0e19206f746cd6cff7984c1"
+        }
+      ],
+      "source_commit": "d5bd9bc544343fad551bda87bfe1b5623fda6061"
+    },
+    "movement/indigenismo": {
+      "completed": true,
+      "content_sha256": "25147fa86f0f75471fe703e99a7107ed49fd237df119738eb48f43dd4f1b3814",
+      "excerpts": [
+        {
+          "source_locator": "entities/movements/indigenismo.md#定義と範囲",
+          "text": "ホセ・サボガルが主導した絵画運動"
+        },
+        {
+          "source_locator": "entities/movements/indigenismo.md#定義と範囲",
+          "text": "政治思想そのものは範囲外である"
+        }
+      ],
+      "history": [
+        {
+          "accepted": true,
+          "attempt": 1,
+          "element_id": "K1.card.movement.indigenismo.1",
+          "failed_checks": [],
+          "value_sha256": "14e438a4b0e7abece4d89e806f12ea2f5450d11b378b92f2045207648c3490d3"
+        },
+        {
+          "accepted": true,
+          "attempt": 1,
+          "element_id": "K1.card.movement.indigenismo.2",
+          "failed_checks": [],
+          "value_sha256": "4d4d8f9717be2cf97fba6ba0ae5834a28c0ab4321bb630ff6b32f2bfc37a179f"
+        }
+      ],
+      "source_commit": "d5bd9bc544343fad551bda87bfe1b5623fda6061"
+    },
+    "movement/jinling-eight-masters": {
+      "completed": true,
+      "content_sha256": "a0503172a7e4cfa460b330014003612b0e5c4381ac3086d4c1315a7ee9b24211",
+      "excerpts": [
+        {
+          "source_locator": "entities/movements/jinling-eight-masters.md#定義と範囲",
+          "text": "「誰を8家に数えるか」は史料間で揺れる"
+        },
+        {
+          "source_locator": "entities/movements/jinling-eight-masters.md#定義と範囲",
+          "text": "龔賢・樊圻・高岑・鄒喆・呉宏・葉欣・胡造（胡慥）・謝蓀。"
+        }
+      ],
+      "history": [
+        {
+          "accepted": true,
+          "attempt": 1,
+          "element_id": "K1.card.movement.jinling-eight-masters.1",
+          "failed_checks": [],
+          "value_sha256": "371fc973c1f89299b1e7a4097cd5e6e6909af0fe93e84863e67e3150bb299947"
+        },
+        {
+          "accepted": true,
+          "attempt": 1,
+          "element_id": "K1.card.movement.jinling-eight-masters.2",
+          "failed_checks": [],
+          "value_sha256": "4c66ad9f6812112af3e36024d6c1f06563775ca35a2553f3758fd9674a982578"
+        }
+      ],
+      "source_commit": "d5bd9bc544343fad551bda87bfe1b5623fda6061"
+    },
+    "movement/kanga": {
+      "completed": true,
+      "content_sha256": "babcfa69461f4e2405e431a2c35736100cf13862904688736e24a99b85bbea99",
+      "excerpts": [
+        {
+          "source_locator": "entities/movements/kanga.md#定義と範囲",
+          "text": "日本で描かれた中国由来の水墨画法の系統を指す。"
+        },
+        {
+          "source_locator": "entities/movements/kanga.md#定義と範囲",
+          "text": "大和絵に対して「中国風の画」を指す対の語"
+        }
+      ],
+      "history": [
+        {
+          "accepted": true,
+          "attempt": 1,
+          "element_id": "K1.card.movement.kanga.1",
+          "failed_checks": [],
+          "value_sha256": "f5297140a3a10ed39957b7631bc5ec7f00305b1d7cb1270121ef1a6366aa6163"
+        },
+        {
+          "accepted": true,
+          "attempt": 1,
+          "element_id": "K1.card.movement.kanga.2",
+          "failed_checks": [],
+          "value_sha256": "deb7dcd7428486995177a505cb5e7b5560e5341e79888f82810d81fa62756a21"
+        }
+      ],
+      "source_commit": "d5bd9bc544343fad551bda87bfe1b5623fda6061"
+    },
+    "movement/kangra-painting": {
+      "completed": true,
+      "content_sha256": "ecb53b5a67856c9a1487fc18bc3edae27a01e7ca465000168e5988de9babe2ce",
+      "excerpts": [
+        {
+          "source_locator": "entities/movements/kangra-painting.md#定義と範囲",
+          "text": "単一の様式ではなく、独立した複数の宮廷ごとに別々の様式を持つ集合体"
+        },
+        {
+          "source_locator": "entities/movements/kangra-painting.md#定義と範囲",
+          "text": "地名ではなく、王族の子孫であることを称する武人階層（クシャトリヤの一部）を指す身分・血統の呼称である。"
+        }
+      ],
+      "history": [
+        {
+          "accepted": true,
+          "attempt": 1,
+          "element_id": "K1.card.movement.kangra-painting.1",
+          "failed_checks": [],
+          "value_sha256": "2e682dc594119b68881f69e2cee1bf8f74b32b204735c590b8d5e03c081c7927"
+        },
+        {
+          "accepted": true,
+          "attempt": 1,
+          "element_id": "K1.card.movement.kangra-painting.2",
+          "failed_checks": [],
+          "value_sha256": "f8db6ee915cbdde4a45076c5e90b54141cf630e68798c8662b52067459f39020"
+        }
+      ],
+      "source_commit": "d5bd9bc544343fad551bda87bfe1b5623fda6061"
+    },
+    "movement/karma-gardri": {
+      "completed": true,
+      "content_sha256": "219a31907cc296a91edec4aa30c135647161d8c84daea54e55da6487e4eb0c16",
+      "excerpts": [
+        {
+          "source_locator": "entities/movements/karma-gardri.md#定義と範囲",
+          "text": "カルマ・ガルリ絵画は単一の様式ではなく、16世紀以来、数多くの異なる様式を内に含みながら発展してきた一つの絵画の伝統である"
+        },
+        {
+          "source_locator": "entities/movements/karma-gardri.md#定義と範囲",
+          "text": "16世紀にチベットで成立したとされる絵画の伝統・様式群。"
+        }
+      ],
+      "history": [
+        {
+          "accepted": true,
+          "attempt": 1,
+          "element_id": "K1.card.movement.karma-gardri.1",
+          "failed_checks": [],
+          "value_sha256": "9db1274f8f82f44a0ddfd8fc8c235b3df3e4c073ffb977fbc720126e1b117d4c"
+        },
+        {
+          "accepted": true,
+          "attempt": 1,
+          "element_id": "K1.card.movement.karma-gardri.2",
+          "failed_checks": [],
+          "value_sha256": "a5f81422c0c8e8f42c72cded2fd2c04a5053844ec83b1c7a7b80dc58ff0fbaba"
+        }
+      ],
+      "source_commit": "d5bd9bc544343fad551bda87bfe1b5623fda6061"
+    },
+    "movement/khmer-art": {
+      "completed": true,
+      "content_sha256": "146132b868118b669fdcd8b155245cf0ba2dde929ca383cd309e2d2ff1e323ea",
+      "excerpts": [
+        {
+          "source_locator": "entities/movements/khmer-art.md#定義と範囲",
+          "text": "especially in the area around Angkor and the 12th-century temple-complex of Angkor Wat."
+        },
+        {
+          "source_locator": "entities/movements/khmer-art.md#定義と範囲",
+          "text": "The most widely recognized period of Cambodian art is that of the Khmer Empire (802–1431)"
+        }
+      ],
+      "history": [
+        {
+          "accepted": true,
+          "attempt": 1,
+          "element_id": "K1.card.movement.khmer-art.1",
+          "failed_checks": [],
+          "value_sha256": "d730a87f4e6d46cccbe2e01d9d2148bd713944daa8c2bfe39226ff418a0ff1a8"
+        },
+        {
+          "accepted": true,
+          "attempt": 1,
+          "element_id": "K1.card.movement.khmer-art.2",
+          "failed_checks": [],
+          "value_sha256": "6d08d29205d927ca3e90ac5783a126973a77b5f716e9d2276a7042419bbaa9d4"
+        }
+      ],
+      "source_commit": "d5bd9bc544343fad551bda87bfe1b5623fda6061"
+    },
+    "movement/khyenri-school": {
+      "completed": true,
+      "content_sha256": "781bce9abf1fc6a0e469bad9548497058502e5ab2be671dc08d410d9741a44a4",
+      "excerpts": [
+        {
+          "source_locator": "entities/movements/khyenri-school.md#定義と範囲",
+          "text": "両様式（キェンリ・メンリ）はともに、絵画に中国風の風景表現を取り入れた点で共通するとされる"
+        },
+        {
+          "source_locator": "entities/movements/khyenri-school.md#定義と範囲",
+          "text": "現存が確実にキェンツェ・チェンモ自身の手に帰属する作例は、ゴンカル・チョデ僧院（、中央チベット・ウー地方、ラサの南約60km）の壁画のみとされる。"
+        }
+      ],
+      "history": [
+        {
+          "accepted": true,
+          "attempt": 1,
+          "element_id": "K1.card.movement.khyenri-school.1",
+          "failed_checks": [],
+          "value_sha256": "ef3adf391d5fce1b689b861ccf7ed41aa4b28ce9d9d19c34b920e42a24924a1e"
+        },
+        {
+          "accepted": true,
+          "attempt": 1,
+          "element_id": "K1.card.movement.khyenri-school.2",
+          "failed_checks": [],
+          "value_sha256": "5c1ddb917ef5d89425a164cabcfebb32c9d8be6aadc84596b0cd9255f19ad8e4"
+        }
+      ],
+      "source_commit": "d5bd9bc544343fad551bda87bfe1b5623fda6061"
+    },
+    "movement/kilwa-swahili-architecture": {
+      "completed": true,
+      "content_sha256": "61e361731b1ad092557b9caf9e5df51496cfcb4529dc04dff92ad9e077c93055",
+      "excerpts": [
+        {
+          "source_locator": "entities/movements/kilwa-swahili-architecture.md#定義と範囲",
+          "text": "珊瑚石・石灰モルタルを用いる精緻な彫刻と意匠を特徴とする"
+        },
+        {
+          "source_locator": "entities/movements/kilwa-swahili-architecture.md#定義と範囲",
+          "text": "フシュニ・クブワ宮殿では、14世紀にヴォールト構造が初めて用いられ、大モスクの拡張部にも応用された。"
+        }
+      ],
+      "history": [
+        {
+          "accepted": true,
+          "attempt": 1,
+          "element_id": "K1.card.movement.kilwa-swahili-architecture.1",
+          "failed_checks": [],
+          "value_sha256": "befc4b854a87fdd6f4283e58cc3b54c620d3142d13790c9dfe8e3084e217e1c4"
+        },
+        {
+          "accepted": true,
+          "attempt": 1,
+          "element_id": "K1.card.movement.kilwa-swahili-architecture.2",
+          "failed_checks": [],
+          "value_sha256": "4acc637896907ed7535b3554a12b5d9fcb77fb9e5df00f38ebf5e3f6c6ad4ca2"
+        }
+      ],
+      "source_commit": "d5bd9bc544343fad551bda87bfe1b5623fda6061"
+    },
+    "movement/lan-xang-art": {
+      "completed": true,
+      "content_sha256": "d88419ed23aa0f17fc228fdd3b5bc801af5154d74caf9b56cc9dbfe4bd08c312",
+      "excerpts": [
+        {
+          "source_locator": "entities/movements/lan-xang-art.md#定義と範囲",
+          "text": "ジャータカ（仏教説話）、ラーマーヤナ（プララック・プララム）、パーリ語からラオ語への三蔵翻訳などの古典文学が編まれた。"
+        },
+        {
+          "source_locator": "entities/movements/lan-xang-art.md#定義と範囲",
+          "text": "1353年、ファー・グムがラーンサーン王国（百万の象の意）を建国し、都をルアンパバーンに置いた。"
+        }
+      ],
+      "history": [
+        {
+          "accepted": true,
+          "attempt": 1,
+          "element_id": "K1.card.movement.lan-xang-art.1",
+          "failed_checks": [],
+          "value_sha256": "76ffd83c9623bf948b0f8048218cdc9422e9902aae785fbc943de94914603311"
+        },
+        {
+          "accepted": true,
+          "attempt": 1,
+          "element_id": "K1.card.movement.lan-xang-art.2",
+          "failed_checks": [],
+          "value_sha256": "06fc98c102551706cda47574cd6496f8c74c8543a29742ae129386773f602b5f"
+        }
+      ],
+      "source_commit": "d5bd9bc544343fad551bda87bfe1b5623fda6061"
+    },
+    "movement/literati-painting": {
+      "completed": true,
+      "content_sha256": "6d0242a950ed8e048f8a3314c158397ca0415bae28b4623372ed54314ed295da",
+      "excerpts": [
+        {
+          "source_locator": "entities/movements/literati-painting.md#定義と範囲",
+          "text": "北宋末には米芾・米友仁父子の「横点山水画」（米点皴・米家山）が「文人画山水最早の典型」と見なされるという"
+        },
+        {
+          "source_locator": "entities/movements/literati-painting.md#定義と範囲",
+          "text": "始祖に位置づけたのは董其昌による約800年後の遡及的な系譜づけである。"
+        }
+      ],
+      "history": [
+        {
+          "accepted": true,
+          "attempt": 1,
+          "element_id": "K1.card.movement.literati-painting.1",
+          "failed_checks": [],
+          "value_sha256": "0be89c5b0983f1d4d049e593afed5cecbd3c462472a24b72276c752e8b7708dc"
+        },
+        {
+          "accepted": true,
+          "attempt": 1,
+          "element_id": "K1.card.movement.literati-painting.2",
+          "failed_checks": [],
+          "value_sha256": "ac897285d555395cf6dde50477c7314341edc4845611ea21b9cde8af977b9af4"
+        }
+      ],
+      "source_commit": "d5bd9bc544343fad551bda87bfe1b5623fda6061"
+    },
+    "movement/malacca-sultanate-art": {
+      "completed": true,
+      "content_sha256": "ca4e5f63f12ededbaf34b8b57a87a6af9909784fd5538545fb550399835d4904",
+      "excerpts": [
+        {
+          "source_locator": "entities/movements/malacca-sultanate-art.md#定義と範囲",
+          "text": "マラッカの富・繁栄・権力を反映し、マレー建築の卓越性と独自の特徴を体現した"
+        },
+        {
+          "source_locator": "entities/movements/malacca-sultanate-art.md#定義と範囲",
+          "text": "同王国は、文学・建築・料理・伝統衣装・芸能・武術・宮廷儀礼にわたりマレー文化の慣行を標準化したと評される。"
+        }
+      ],
+      "history": [
+        {
+          "accepted": true,
+          "attempt": 1,
+          "element_id": "K1.card.movement.malacca-sultanate-art.1",
+          "failed_checks": [],
+          "value_sha256": "37876c4270a1e4e992737e9a0df8b9d87fcd6dbf5a65a0bdec7d2075e1df093f"
+        },
+        {
+          "accepted": true,
+          "attempt": 1,
+          "element_id": "K1.card.movement.malacca-sultanate-art.2",
+          "failed_checks": [],
+          "value_sha256": "d93b9ea9eb3777a943a072f1cee8210055f9944821c4c5015285b718d6b3a4d6"
+        }
+      ],
+      "source_commit": "d5bd9bc544343fad551bda87bfe1b5623fda6061"
+    },
+    "movement/maruyama-shijo-school": {
+      "completed": true,
+      "content_sha256": "e06c4c6309652499112872f0c32b0e19a109498dfdf809a14e0614ae35452d62",
+      "excerpts": [
+        {
+          "source_locator": "entities/movements/maruyama-shijo-school.md#定義と範囲",
+          "text": "呉春は元々、与謝蕪村門下の文人画（南画）を出発点としており、その後、応挙の写生的画風の影響を受けて独自の画風を確立したとされる"
+        },
+        {
+          "source_locator": "entities/movements/maruyama-shijo-school.md#定義と範囲",
+          "text": "四条派の名は、松村呉春が拠点を置いた京都・四条通に由来する。"
+        }
+      ],
+      "history": [
+        {
+          "accepted": true,
+          "attempt": 1,
+          "element_id": "K1.card.movement.maruyama-shijo-school.1",
+          "failed_checks": [],
+          "value_sha256": "26a538bcd9b8504f0d2cfa3a943132e38765b13fdb0fff27c487e63ce75f59fd"
+        },
+        {
+          "accepted": true,
+          "attempt": 1,
+          "element_id": "K1.card.movement.maruyama-shijo-school.2",
+          "failed_checks": [],
+          "value_sha256": "9118aa7c93d9ea05533ea68d08b7191f848aea3dc3c1b6feb9c30c78b36fdcc3"
+        }
+      ],
+      "source_commit": "d5bd9bc544343fad551bda87bfe1b5623fda6061"
+    },
+    "movement/mewar-painting": {
+      "completed": true,
+      "content_sha256": "380daac371a29bb49cded0df50f4bff31adce9842de5880704850ab5412b2d6e",
+      "excerpts": [
+        {
+          "source_locator": "entities/movements/mewar-painting.md#定義と範囲",
+          "text": "大胆な輪郭線・鮮やかな彩色・外部の美術的影響への抵抗"
+        },
+        {
+          "source_locator": "entities/movements/mewar-painting.md#定義と範囲",
+          "text": "メーワール派は、現在のインド・ラージャスターン州に位置したメーワール王国（シソーディヤ家のラージプト諸侯国）の宮廷で16世紀末から19世紀前半にかけて制作された細密画群を指す分類名である。"
+        }
+      ],
+      "history": [
+        {
+          "accepted": true,
+          "attempt": 1,
+          "element_id": "K1.card.movement.mewar-painting.1",
+          "failed_checks": [],
+          "value_sha256": "e582c97b38e8066ed6c6d59c24b83715e5a5903f3c770e790c165d7541d31d46"
+        },
+        {
+          "accepted": true,
+          "attempt": 1,
+          "element_id": "K1.card.movement.mewar-painting.2",
+          "failed_checks": [],
+          "value_sha256": "05859a78d3335ac4e6df781cee37dff54469e64386ff6a83497453b3e2da3f01"
+        }
+      ],
+      "source_commit": "d5bd9bc544343fad551bda87bfe1b5623fda6061"
+    },
+    "movement/mexican-muralism": {
+      "completed": true,
+      "content_sha256": "30bc83feee9aa46c308525932485bb11bde4378e8ebabe0fa3ac15c93d744f54",
+      "excerpts": [
+        {
+          "source_locator": "entities/movements/mexican-muralism.md#定義と範囲",
+          "text": "壁画は建築の形状（アーチ・階段・天井など）に応じた不定形の画面で制作され、従来の矩形キャンバスの枠組みを拒否した点、革命・労働者階級・先コロンブス期の図像・メキシコの民族的アイデンティティを主題とした点が担い手間で広く共有される"
+        },
+        {
+          "source_locator": "entities/movements/mexican-muralism.md#定義と範囲",
+          "text": "教育省長官ホセ・バスコンセロスが国家統合とナショナリズムの喚起を目的に壁画事業を構想し"
+        }
+      ],
+      "history": [
+        {
+          "accepted": true,
+          "attempt": 1,
+          "element_id": "K1.card.movement.mexican-muralism.1",
+          "failed_checks": [],
+          "value_sha256": "258d0f136bb9783af45d38ae724ad4143a3b23d121d05eafc927246cd52ba5f3"
+        },
+        {
+          "accepted": true,
+          "attempt": 1,
+          "element_id": "K1.card.movement.mexican-muralism.2",
+          "failed_checks": [],
+          "value_sha256": "15c2cfa4386632bb347c636366888d4019e52c701849059fa9168049a00f919d"
+        }
+      ],
+      "source_commit": "d5bd9bc544343fad551bda87bfe1b5623fda6061"
+    },
+    "movement/mingei": {
+      "completed": true,
+      "content_sha256": "4bf463676d67a9c52034e33d90374365a3d1b47c14360b9dbad7ff5663894bce",
+      "excerpts": [
+        {
+          "source_locator": "entities/movements/mingei.md#定義と範囲",
+          "text": "無名の職人による日常の雑器（雑器＝日常使いの道具）に「用の美」を見出す立場を公にした"
+        },
+        {
+          "source_locator": "entities/movements/mingei.md#定義と範囲",
+          "text": "1924年1月、（柳宗悦）は山梨（甲州）で木喰上人（江戸後期の遊行僧）の彫った木喰仏に出会い、以後全国を巡る調査旅行を続けた。"
+        }
+      ],
+      "history": [
+        {
+          "accepted": true,
+          "attempt": 1,
+          "element_id": "K1.card.movement.mingei.1",
+          "failed_checks": [],
+          "value_sha256": "c42d70b32937c9f5acbf83f350321e8e00f2fae01f5a3fb801af302f166649f9"
+        },
+        {
+          "accepted": true,
+          "attempt": 1,
+          "element_id": "K1.card.movement.mingei.2",
+          "failed_checks": [],
+          "value_sha256": "b42b1ae7dd7cd2567536323685cfc78e9cd540c511d33943e387a4c22d6aa758"
+        }
+      ],
+      "source_commit": "d5bd9bc544343fad551bda87bfe1b5623fda6061"
+    },
+    "movement/moscow-school-icon-painting": {
+      "completed": true,
+      "content_sha256": "3fc682d259c0fe65891ecc88f5b83c8f4582e01f15464f88b17710f8603548f4",
+      "excerpts": [
+        {
+          "source_locator": "entities/movements/moscow-school-icon-painting.md#定義と範囲",
+          "text": "フェオファン・グレク、プロホル・ゴロデツキーとともにこれを手がけた"
+        },
+        {
+          "source_locator": "entities/movements/moscow-school-icon-painting.md#定義と範囲",
+          "text": "ルブリョフの伝統は15世紀末〜16世紀初頭、ディオニシーへ引き継がれた。"
+        }
+      ],
+      "history": [
+        {
+          "accepted": true,
+          "attempt": 1,
+          "element_id": "K1.card.movement.moscow-school-icon-painting.1",
+          "failed_checks": [],
+          "value_sha256": "334b2940d8901634fc7a68030bf21f566a6519f1d95f04544bd1183f8185efdf"
+        },
+        {
+          "accepted": true,
+          "attempt": 1,
+          "element_id": "K1.card.movement.moscow-school-icon-painting.2",
+          "failed_checks": [],
+          "value_sha256": "34ccac7cb7ae8fbe41e2b36cc3a71be02b2626c9103c94d3813885870aff653c"
+        }
+      ],
+      "source_commit": "d5bd9bc544343fad551bda87bfe1b5623fda6061"
+    },
+    "movement/mughal-painting": {
+      "completed": true,
+      "content_sha256": "b1ab51480f32e9aed17aa141be375b912bb49a8a4ab61878773e411238b8cb41",
+      "excerpts": [
+        {
+          "source_locator": "entities/movements/mughal-painting.md#定義と範囲",
+          "text": "階層的な分業体制（見習いによる顔料・筆の準備から、熟練画家による下絵作成・監督まで）を組織した"
+        },
+        {
+          "source_locator": "entities/movements/mughal-painting.md#定義と範囲",
+          "text": "制作の中心は皇帝直属の工房（キターブハーナ、kitabkhana／書物工房）だった。"
+        }
+      ],
+      "history": [
+        {
+          "accepted": true,
+          "attempt": 1,
+          "element_id": "K1.card.movement.mughal-painting.1",
+          "failed_checks": [],
+          "value_sha256": "83fee801a1fe805ad4ac015fd509a3543a9de316c3e87c728561ed74bbe8e397"
+        },
+        {
+          "accepted": true,
+          "attempt": 1,
+          "element_id": "K1.card.movement.mughal-painting.2",
+          "failed_checks": [],
+          "value_sha256": "da943df44ec11afa0affc6971ea2aa52400d16a1b56212ed89a66ba40dbbe435"
+        }
+      ],
+      "source_commit": "d5bd9bc544343fad551bda87bfe1b5623fda6061"
+    },
+    "movement/negritude": {
+      "completed": true,
+      "content_sha256": "b3523412ed5a8960d481cdc34c1b93d29229107d052ee54909dc7094ca23a66f",
+      "excerpts": [
+        {
+          "source_locator": "entities/movements/negritude.md#定義と範囲",
+          "text": "1930年代のパリで、黒人であることとアフリカ文化の価値を取り戻そうとしたアフリカ系・カリブ海系の学生たちの集団によって創られた、反植民地の文化的・政治的運動"
+        },
+        {
+          "source_locator": "entities/movements/negritude.md#定義と範囲",
+          "text": "その制度から出た作家群が、後にダカール派と呼ばれる。"
+        }
+      ],
+      "history": [
+        {
+          "accepted": true,
+          "attempt": 1,
+          "element_id": "K1.card.movement.negritude.1",
+          "failed_checks": [],
+          "value_sha256": "7baf34345ac14ce84a0e2d2375c9a39bc67e242cbce496aaccd30957705df5a2"
+        },
+        {
+          "accepted": true,
+          "attempt": 1,
+          "element_id": "K1.card.movement.negritude.2",
+          "failed_checks": [],
+          "value_sha256": "1fabcdf3c731fbc5852933c30ed83168399d58ca2d4408c06fbf83bf26fac29d"
+        }
+      ],
+      "source_commit": "d5bd9bc544343fad551bda87bfe1b5623fda6061"
+    },
+    "movement/neoconcretismo": {
+      "completed": true,
+      "content_sha256": "44143fc324bf2c7ee133659b7b1525629b8a0cbbca9415bc1b92bde586778e7e",
+      "excerpts": [
+        {
+          "source_locator": "entities/movements/neoconcretismo.md#定義と範囲",
+          "text": "新具体主義宣言（Manifesto Neoconcreto）"
+        },
+        {
+          "source_locator": "entities/movements/neoconcretismo.md#定義と範囲",
+          "text": "宣言の署名者は同展の出品者7名——アミルカル・デ・カストロ、フェレイラ・グラール、フランツ・ヴァイスマン、リジア・クラーク、リジア・ペイピ、ヘイナウド・ジャルヂン、テオン・スパヌジス。"
+        }
+      ],
+      "history": [
+        {
+          "accepted": true,
+          "attempt": 1,
+          "element_id": "K1.card.movement.neoconcretismo.1",
+          "failed_checks": [],
+          "value_sha256": "16a31f68d6c778d24f72e587f6a99696abad6466259affc4386441c0cdeb822a"
+        },
+        {
+          "accepted": false,
+          "attempt": 1,
+          "element_id": "K1.card.movement.neoconcretismo.2",
+          "failed_checks": [
+            "length"
+          ],
+          "value_sha256": "67ef225d9ab6700a294412adeea9c71f789e409ccf5cfd685e6dda025c499536"
+        },
+        {
+          "accepted": true,
+          "attempt": 2,
+          "element_id": "K1.card.movement.neoconcretismo.2",
+          "failed_checks": [],
+          "value_sha256": "277968fe9fcd56ef58532b110816c1772b6ea837792ba3d42171e9dc5c822253"
+        }
+      ],
+      "source_commit": "d5bd9bc544343fad551bda87bfe1b5623fda6061"
+    },
+    "movement/newar-art": {
+      "completed": true,
+      "content_sha256": "2de6fc5c5eee77e067ece04080a6ac38695a343b1777d4a4a7a560b99e07ac10",
+      "excerpts": [
+        {
+          "source_locator": "entities/movements/newar-art.md#定義と範囲",
+          "text": "担い手はチトラカール・ヴァジュラーチャーリヤ・シャーキャといった職能カーストに属する。"
+        },
+        {
+          "source_locator": "entities/movements/newar-art.md#定義と範囲",
+          "text": "ネパール・カトマンズ盆地の伝統的住民であるネワールが担ってきた美術。"
+        }
+      ],
+      "history": [
+        {
+          "accepted": true,
+          "attempt": 1,
+          "element_id": "K1.card.movement.newar-art.1",
+          "failed_checks": [],
+          "value_sha256": "ad564dea1720d22071d5f28dcf042fd6259417fe19f63dee00e29c26e4fb5d88"
+        },
+        {
+          "accepted": true,
+          "attempt": 1,
+          "element_id": "K1.card.movement.newar-art.2",
+          "failed_checks": [],
+          "value_sha256": "24486dd4e8867fbcc26ac04536322c997a5ead6fb24f7395f360544e82d21b7b"
+        }
+      ],
+      "source_commit": "d5bd9bc544343fad551bda87bfe1b5623fda6061"
+    },
+    "movement/nihonga": {
+      "completed": true,
+      "content_sha256": "f2928abb411a9767e3c3c22dfc43496d26bed23e7d193acf178f7da018d2e721",
+      "excerpts": [
+        {
+          "source_locator": "entities/movements/nihonga.md#定義と範囲",
+          "text": "『洋画』が油絵の具という画材によって認識されているのに対し、『日本画』は、単純な画材による分類以外のなにかによって認識されていると考えられる"
+        },
+        {
+          "source_locator": "entities/movements/nihonga.md#定義と範囲",
+          "text": "「日本画」は「洋画（油絵）」と対になって初めて成り立つ。"
+        }
+      ],
+      "history": [
+        {
+          "accepted": true,
+          "attempt": 1,
+          "element_id": "K1.card.movement.nihonga.1",
+          "failed_checks": [],
+          "value_sha256": "59cd4420be84b4371b774688d7a00fd22dc17eadc837e6957bd878c3b76682af"
+        },
+        {
+          "accepted": true,
+          "attempt": 1,
+          "element_id": "K1.card.movement.nihonga.2",
+          "failed_checks": [],
+          "value_sha256": "33a5bfd4d35a1070c2fbe556289a6a47634413fbe9fe68cdc3c6e2e8d43edc48"
+        }
+      ],
+      "source_commit": "d5bd9bc544343fad551bda87bfe1b5623fda6061"
+    },
+    "movement/novgorod-school-icon-painting": {
+      "completed": true,
+      "content_sha256": "bb225e333142586ee0ec15a06fcde85d381a631122d145b34537e4d4714370bb",
+      "excerpts": [
+        {
+          "source_locator": "entities/movements/novgorod-school-icon-painting.md#定義と範囲",
+          "text": "イコン画（板絵テンペラ）"
+        },
+        {
+          "source_locator": "entities/movements/novgorod-school-icon-painting.md#定義と範囲",
+          "text": "1378年にはビザンティン出身の画家"
+        }
+      ],
+      "history": [
+        {
+          "accepted": true,
+          "attempt": 1,
+          "element_id": "K1.card.movement.novgorod-school-icon-painting.1",
+          "failed_checks": [],
+          "value_sha256": "9dc3133f71267b84538aab024a0909004310471ba89f4e10bf63f251ed2eccbe"
+        },
+        {
+          "accepted": true,
+          "attempt": 1,
+          "element_id": "K1.card.movement.novgorod-school-icon-painting.2",
+          "failed_checks": [],
+          "value_sha256": "c5e6996953cf129a23006a9e84a17e365eab33358a2ad73dec3211cf5681b9e4"
+        }
+      ],
+      "source_commit": "d5bd9bc544343fad551bda87bfe1b5623fda6061"
+    },
+    "movement/ottoman-miniature": {
+      "completed": true,
+      "content_sha256": "733811f35a15c87bc38cd959162e3645ad7074d222f1366b51f9b26debe0fbe1",
+      "excerpts": [
+        {
+          "source_locator": "entities/movements/ottoman-miniature.md#定義と範囲",
+          "text": "メフメト2世期はナッカーシュ・スィナン・ベイ、スレイマン1世期はシャークル（Şahkulu、1556年没）とその弟子カラ・メミ、16世紀後半はナッカーシュ・オスマンとマトラクチュ・ナスフ、18世紀はレヴニーが記録されている"
+        }
+      ],
+      "history": [
+        {
+          "accepted": true,
+          "attempt": 1,
+          "element_id": "K1.card.movement.ottoman-miniature.1",
+          "failed_checks": [],
+          "value_sha256": "bc871c8690328528ec6a34f88564e02ce689e9957b150de30839b7478e757ace"
+        },
+        {
+          "accepted": false,
+          "attempt": 1,
+          "element_id": "K1.card.movement.ottoman-miniature.2",
+          "failed_checks": [
+            "length"
+          ],
+          "value_sha256": "fa9bacbebab2ef3f6886c641f6904f9425359ad31120da427ee9cbfb00d04ed3"
+        },
+        {
+          "accepted": true,
+          "attempt": 2,
+          "element_id": "K1.card.movement.ottoman-miniature.2",
+          "failed_checks": [],
+          "value_sha256": "c46c041ce888ac802aeaa833971696d791475277bca48f0f1a6615633aedf6c9"
+        }
+      ],
+      "source_commit": "d5bd9bc544343fad551bda87bfe1b5623fda6061"
+    },
+    "movement/ottoman-westernization-painting": {
+      "completed": true,
+      "content_sha256": "503a2380392b8709858732686124e7f28f12df74845dc801b573947ecae7797d",
+      "excerpts": [
+        {
+          "source_locator": "entities/movements/ottoman-westernization-painting.md#定義と範囲",
+          "text": "最初の西洋式絵画授業は1793年、ムヒエンディスハーネ（陸軍工兵学校）に技術目的で設けられたのが最初とされ"
+        },
+        {
+          "source_locator": "entities/movements/ottoman-westernization-painting.md#定義と範囲",
+          "text": "ハムディ・ベイ自身はジャン＝レオン・ジェロームらフランスのオリエンタリスト画家に師事した。"
+        }
+      ],
+      "history": [
+        {
+          "accepted": true,
+          "attempt": 1,
+          "element_id": "K1.card.movement.ottoman-westernization-painting.1",
+          "failed_checks": [],
+          "value_sha256": "a7bbe7562e71bd0f33e7926c06c3a3e8493efa63db073e02480ca8719d6d5f07"
+        },
+        {
+          "accepted": true,
+          "attempt": 1,
+          "element_id": "K1.card.movement.ottoman-westernization-painting.2",
+          "failed_checks": [],
+          "value_sha256": "058ff980985a2287b913757aba4449f1aa88e4f1c20af32b2eb0e2fa29e9fda0"
+        }
+      ],
+      "source_commit": "d5bd9bc544343fad551bda87bfe1b5623fda6061"
+    },
+    "movement/peredvizhniki": {
+      "completed": true,
+      "content_sha256": "7fff333c53fac87cc3b66b89697cf41b52f6e7dc509aea49cdbc6c3c6534dd12",
+      "excerpts": [
+        {
+          "source_locator": "entities/movements/peredvizhniki.md#定義と範囲",
+          "text": "正式名称は「Товарищество передвижных художественных выставок」（移動美術展協会、略称ТПХВ）。"
+        },
+        {
+          "source_locator": "entities/movements/peredvizhniki.md#定義と範囲",
+          "text": "1870年9月、発起人14人が内務大臣アレクサンドル・チマシェフに定款案の承認を求める請願書を提出"
+        }
+      ],
+      "history": [
+        {
+          "accepted": true,
+          "attempt": 1,
+          "element_id": "K1.card.movement.peredvizhniki.1",
+          "failed_checks": [],
+          "value_sha256": "aef201be3cbb4bf49653e89885c5bd3b0f75bde9035d5e40951a780c51b8d9e5"
+        },
+        {
+          "accepted": true,
+          "attempt": 1,
+          "element_id": "K1.card.movement.peredvizhniki.2",
+          "failed_checks": [],
+          "value_sha256": "1504800288191d0a5c7be3de8aee402ff1d25eeb5405d931259d35365dc197f1"
+        }
+      ],
+      "source_commit": "d5bd9bc544343fad551bda87bfe1b5623fda6061"
+    },
+    "movement/pita-maha": {
+      "completed": true,
+      "content_sha256": "1af3f743263b27ce6b47b89050481d38c9de78c01ed81f3d85e2d7a7b15373da",
+      "excerpts": [
+        {
+          "source_locator": "entities/movements/pita-maha.md#定義と範囲",
+          "text": "活動を通じて、影絵人形劇（ワヤン）・神話・宗教を主題とする伝統的な絵画表現から、遠近法・陰影の明暗表現・単独作品への署名・日常生活（市場、稲刈り、舞踊）を主題とする表現への転換が起きたとされる"
+        },
+        {
+          "source_locator": "entities/movements/pita-maha.md#定義と範囲",
+          "text": "バリ各地から約150名が参加した"
+        }
+      ],
+      "history": [
+        {
+          "accepted": true,
+          "attempt": 1,
+          "element_id": "K1.card.movement.pita-maha.1",
+          "failed_checks": [],
+          "value_sha256": "d3b9f19df4d8fabb728dbc6887d690b3107b2194dda7241edd406b69032a2072"
+        },
+        {
+          "accepted": true,
+          "attempt": 1,
+          "element_id": "K1.card.movement.pita-maha.2",
+          "failed_checks": [],
+          "value_sha256": "d13284c7c33fdacf706a54e063365a3b06e31a8f410faa641b86279a6c83eb4f"
+        }
+      ],
+      "source_commit": "d5bd9bc544343fad551bda87bfe1b5623fda6061"
+    },
+    "movement/qajar-painting": {
+      "completed": true,
+      "content_sha256": "dcb90add4d0fe42e617fcb03ac9d6ab602f54c7405c1c293b07eaf2ea80c1ccc",
+      "excerpts": [
+        {
+          "source_locator": "entities/movements/qajar-painting.md#定義と範囲",
+          "text": "カージャール期の絵画がサファヴィー期から続く様式的前提を受けつつ、油彩・細密画・漆絵を横断して展開した"
+        },
+        {
+          "source_locator": "entities/movements/qajar-painting.md#定義と範囲",
+          "text": "カージャール様式が後期サファヴィー期に起源を持ち、18世紀初頭までに新しいヨーロッパ化された様式が優勢になった"
+        }
+      ],
+      "history": [
+        {
+          "accepted": true,
+          "attempt": 1,
+          "element_id": "K1.card.movement.qajar-painting.1",
+          "failed_checks": [],
+          "value_sha256": "e9927c2d76de9fdd39bb8c9f9f2ba8c550a1d613e970cc529997032f26be1e3f"
+        },
+        {
+          "accepted": true,
+          "attempt": 1,
+          "element_id": "K1.card.movement.qajar-painting.2",
+          "failed_checks": [],
+          "value_sha256": "1044d95fb181231a26d30b4c3739e6b3feacb184a6628bfde5877701410227da"
+        }
+      ],
+      "source_commit": "d5bd9bc544343fad551bda87bfe1b5623fda6061"
+    },
+    "movement/rinpa": {
+      "completed": true,
+      "content_sha256": "064f1dd45eb259ba3cd69c4921a256b5925059c92d660933575ea5054b66061a",
+      "excerpts": [
+        {
+          "source_locator": "entities/movements/rinpa.md#定義と範囲",
+          "text": "本阿弥光悦と俵屋宗達に始まり、尾形光琳が発展させ、酒井抱一らが江戸に定着させた系統"
+        }
+      ],
+      "history": [
+        {
+          "accepted": true,
+          "attempt": 1,
+          "element_id": "K1.card.movement.rinpa.1",
+          "failed_checks": [],
+          "value_sha256": "f1cdf1f9be74d7b96b90eacb2e8bc8dc88f065c43f9bcbe0c815026412edb050"
+        },
+        {
+          "accepted": true,
+          "attempt": 1,
+          "element_id": "K1.card.movement.rinpa.2",
+          "failed_checks": [],
+          "value_sha256": "c46c041ce888ac802aeaa833971696d791475277bca48f0f1a6615633aedf6c9"
+        }
+      ],
+      "source_commit": "d5bd9bc544343fad551bda87bfe1b5623fda6061"
+    },
+    "movement/safavid-painting": {
+      "completed": true,
+      "content_sha256": "22223bcc3302cb3b0708868a3f59eb68c5c1a2a1fd06b04d75ff0ca635d8ced8",
+      "excerpts": [
+        {
+          "source_locator": "entities/movements/safavid-painting.md#定義と範囲",
+          "text": "サファヴィー朝の細密画は白紙から始まったのではなく、先行する王朝（アク・コユンル朝・ティムール朝）の工房と担い手を引き継いで始まった"
+        },
+        {
+          "source_locator": "entities/movements/safavid-painting.md#定義と範囲",
+          "text": "1501年、イスマーイール1世がタブリーズに入城して王朝を建てた"
+        }
+      ],
+      "history": [
+        {
+          "accepted": true,
+          "attempt": 1,
+          "element_id": "K1.card.movement.safavid-painting.1",
+          "failed_checks": [],
+          "value_sha256": "ddf7722a979118f1d3e9703ff853525c6e6d61d4374dae04dc402b3d9c9ee579"
+        },
+        {
+          "accepted": true,
+          "attempt": 1,
+          "element_id": "K1.card.movement.safavid-painting.2",
+          "failed_checks": [],
+          "value_sha256": "abc8b736b1e5ac1114bfcc0a1e74fa258af2ada87d243bbdfaed3abceeaae579"
+        }
+      ],
+      "source_commit": "d5bd9bc544343fad551bda87bfe1b5623fda6061"
+    },
+    "movement/serbian-baroque-painting": {
+      "completed": true,
+      "content_sha256": "ef20fe24b7a7386ad9b1da34ed7c1cb6bfe848e035d92b24c3529476eec19a33",
+      "excerpts": [
+        {
+          "source_locator": "entities/movements/serbian-baroque-painting.md#定義と範囲",
+          "text": "セルビア正教会のイコン・イコノスタシス画にバロック・ロココ様式を取り入れた"
+        },
+        {
+          "source_locator": "entities/movements/serbian-baroque-painting.md#定義と範囲",
+          "text": "クラチュンとオルフェリンが1771〜1781年にかけて手がけた聖ニコラ大聖堂のイコノスタシスは、セルビア科学芸術アカデミーにより「ヴォイヴォディナにおけるバロック絵画の頂点」と評される。"
+        }
+      ],
+      "history": [
+        {
+          "accepted": true,
+          "attempt": 1,
+          "element_id": "K1.card.movement.serbian-baroque-painting.1",
+          "failed_checks": [],
+          "value_sha256": "48b1a182939632c343c013d0ebbfb25103fd7913a04296dbbf87db2e292e953a"
+        },
+        {
+          "accepted": true,
+          "attempt": 1,
+          "element_id": "K1.card.movement.serbian-baroque-painting.2",
+          "failed_checks": [],
+          "value_sha256": "d58b8299c80943b7a494c0666a46c1b9d92e670d70e9784716d4b6d19f2c75a7"
+        }
+      ],
+      "source_commit": "d5bd9bc544343fad551bda87bfe1b5623fda6061"
+    },
+    "movement/shiraz-school": {
+      "completed": true,
+      "content_sha256": "588049bbf0bb1dc829dd36cc65b7d5af81c653a6ae6a55fe4d65bbd07c98a490",
+      "excerpts": [
+        {
+          "source_locator": "entities/movements/shiraz-school.md#定義と範囲",
+          "text": "1420年完成の文集を兄弟バイスングルに献呈したほか、自ら書写に携わり1427年にコーランを完成させている。"
+        },
+        {
+          "source_locator": "entities/movements/shiraz-school.md#定義と範囲",
+          "text": "1410–1411年に『イスカンダル・スルターン文集』を編ませた。"
+        }
+      ],
+      "history": [
+        {
+          "accepted": true,
+          "attempt": 1,
+          "element_id": "K1.card.movement.shiraz-school.1",
+          "failed_checks": [],
+          "value_sha256": "ad86ddb028e6f7532d8fde0ea9af74f7e47550b0ac7e5d1dd894142add9f4564"
+        },
+        {
+          "accepted": true,
+          "attempt": 1,
+          "element_id": "K1.card.movement.shiraz-school.2",
+          "failed_checks": [],
+          "value_sha256": "1e8262332772c683c910258a3bf482c5172e725414afb6444ec1211aac7dc350"
+        }
+      ],
+      "source_commit": "d5bd9bc544343fad551bda87bfe1b5623fda6061"
+    },
+    "movement/sienese-school": {
+      "completed": true,
+      "content_sha256": "2a2ff4ebbc8f6de30375a8ccee085e92232ed8750c75c410d67502c7fbab3f1c",
+      "excerpts": [
+        {
+          "source_locator": "entities/movements/sienese-school.md#定義と範囲",
+          "text": "いずれも教会（大聖堂造営局）と都市の統治機構（ノーヴェ、九人政庁）という2つの発注元がシエナの主要な公共制作を担ったことを示す。"
+        },
+        {
+          "source_locator": "entities/movements/sienese-school.md#定義と範囲",
+          "text": "区切りの根拠となる個々の出来事は書誌ごとに異なり、単一の確定した起点・終点があるわけではない。"
+        }
+      ],
+      "history": [
+        {
+          "accepted": true,
+          "attempt": 1,
+          "element_id": "K1.card.movement.sienese-school.1",
+          "failed_checks": [],
+          "value_sha256": "9a88aa0ddb8945ee9724ec6b519813c4d66cb94f9144c9e9da90bf542a642868"
+        },
+        {
+          "accepted": true,
+          "attempt": 1,
+          "element_id": "K1.card.movement.sienese-school.2",
+          "failed_checks": [],
+          "value_sha256": "72c1e576ed71abdc253526bc8f48f93f3a406863a6bc25b0e6536213ea844f8c"
+        }
+      ],
+      "source_commit": "d5bd9bc544343fad551bda87bfe1b5623fda6061"
+    },
+    "movement/song-academy-painting": {
+      "completed": true,
+      "content_sha256": "799052c9745760c994e2474a0ad3b2f202eb9a76358b6b968150afe20cc36631",
+      "excerpts": [
+        {
+          "source_locator": "entities/movements/song-academy-painting.md#定義と範囲",
+          "text": "北宋後期、徽宗（在位1100〜1126年）が宣和画院を厚く支援したことで、院体画は「前所未有的高峰」（かつてない高峰）に達したとされる。"
+        },
+        {
+          "source_locator": "entities/movements/song-academy-painting.md#定義と範囲",
+          "text": "この時期の画院には馬賁・王希孟・張択端・李唐・朱鋭・蘇漢臣・劉益・富燮らが集った"
+        }
+      ],
+      "history": [
+        {
+          "accepted": true,
+          "attempt": 1,
+          "element_id": "K1.card.movement.song-academy-painting.1",
+          "failed_checks": [],
+          "value_sha256": "c6f494e91ab020626d61c216f84323d6d5f019086608cbc8c40c8f6ee0f13cee"
+        },
+        {
+          "accepted": true,
+          "attempt": 1,
+          "element_id": "K1.card.movement.song-academy-painting.2",
+          "failed_checks": [],
+          "value_sha256": "23b04ae25d6a2e62047a48aead2ede6428bd7e409519043cbe474a568a13658c"
+        }
+      ],
+      "source_commit": "d5bd9bc544343fad551bda87bfe1b5623fda6061"
+    },
+    "movement/songjiang-school": {
+      "completed": true,
+      "content_sha256": "ae9f042543fe2704101baf861725a8552807e1a106da25d0f97778f7ded4ce6a",
+      "excerpts": [
+        {
+          "source_locator": "entities/movements/songjiang-school.md#定義と範囲",
+          "text": "董其昌と筆墨の交流があり、董其昌の代筆も務めたとされる"
+        },
+        {
+          "source_locator": "entities/movements/songjiang-school.md#定義と範囲",
+          "text": "宋懋晋・趙左に師事したとされる"
+        }
+      ],
+      "history": [
+        {
+          "accepted": true,
+          "attempt": 1,
+          "element_id": "K1.card.movement.songjiang-school.1",
+          "failed_checks": [],
+          "value_sha256": "02221d7d56acad3a4b90bccc7c489d9c171e04a6692fb3ce13b50a901b06c03c"
+        },
+        {
+          "accepted": true,
+          "attempt": 1,
+          "element_id": "K1.card.movement.songjiang-school.2",
+          "failed_checks": [],
+          "value_sha256": "412fe2f250b59a538bfd2becaf719813d99494e3f3517be400c4a2d0c79898ab"
+        }
+      ],
+      "source_commit": "d5bd9bc544343fad551bda87bfe1b5623fda6061"
+    },
+    "movement/stroganov-school": {
+      "completed": true,
+      "content_sha256": "3817fb16cda0e445a959bb6a581be4942124c858ff15f92bcb04f8c8753bea40",
+      "excerpts": [
+        {
+          "source_locator": "entities/movements/stroganov-school.md#定義と範囲",
+          "text": "the last major Russian icon-painting school"
+        },
+        {
+          "source_locator": "entities/movements/stroganov-school.md#定義と範囲",
+          "text": "The Stroganov school is a conventional name for"
+        }
+      ],
+      "history": [
+        {
+          "accepted": true,
+          "attempt": 1,
+          "element_id": "K1.card.movement.stroganov-school.1",
+          "failed_checks": [],
+          "value_sha256": "ac76dbb808c067c821062cd2b35763dd8bd46f3379f3ed194dba0335939f7a1d"
+        },
+        {
+          "accepted": true,
+          "attempt": 1,
+          "element_id": "K1.card.movement.stroganov-school.2",
+          "failed_checks": [],
+          "value_sha256": "81cf6b2c18a85031886c10f70efaeb46a381eaad319a52fb10dba4d24c01ec85"
+        }
+      ],
+      "source_commit": "d5bd9bc544343fad551bda87bfe1b5623fda6061"
+    },
+    "movement/sudano-sahelian-architecture": {
+      "completed": true,
+      "content_sha256": "5469ea44ebc2ca019599a917fb42414b7ae59cf1f7fad6fdfa5c25a08457051b",
+      "excerpts": [
+        {
+          "source_locator": "entities/movements/sudano-sahelian-architecture.md#定義と範囲",
+          "text": "日干しレンガとアドベ漆喰を用い、壁面から突き出た大きな木材梁を特徴とする。"
+        },
+        {
+          "source_locator": "entities/movements/sudano-sahelian-architecture.md#定義と範囲",
+          "text": "西アフリカのサヘル・スーダン草原地帯の諸民族に共通する土着の建築様式群"
+        }
+      ],
+      "history": [
+        {
+          "accepted": true,
+          "attempt": 1,
+          "element_id": "K1.card.movement.sudano-sahelian-architecture.1",
+          "failed_checks": [],
+          "value_sha256": "10de6738b250fb85f3207037648ea8e125abb334af03688ca55793fe7b95d2d0"
+        },
+        {
+          "accepted": true,
+          "attempt": 1,
+          "element_id": "K1.card.movement.sudano-sahelian-architecture.2",
+          "failed_checks": [],
+          "value_sha256": "fe02bdb5b243070922a794183f86af738096c44bd9157a04e3a6e758a72a62b4"
+        }
+      ],
+      "source_commit": "d5bd9bc544343fad551bda87bfe1b5623fda6061"
+    },
+    "movement/sukhothai-art": {
+      "completed": true,
+      "content_sha256": "45b3ae8fdaf9466cd5cdc38de0a5390b0bfefdf35eedc09acbf89c4d89146080",
+      "excerpts": [
+        {
+          "source_locator": "entities/movements/sukhothai-art.md#定義と範囲",
+          "text": "The creation of a walking Buddha image is a distinctive feature of Thai art in the thirteenth century."
+        }
+      ],
+      "history": [
+        {
+          "accepted": true,
+          "attempt": 1,
+          "element_id": "K1.card.movement.sukhothai-art.1",
+          "failed_checks": [],
+          "value_sha256": "0724b237f5a211d93336fc29733275c7f190d0406fc39ece5b39d92f177148dd"
+        },
+        {
+          "accepted": true,
+          "attempt": 1,
+          "element_id": "K1.card.movement.sukhothai-art.2",
+          "failed_checks": [],
+          "value_sha256": "c46c041ce888ac802aeaa833971696d791475277bca48f0f1a6615633aedf6c9"
+        }
+      ],
+      "source_commit": "d5bd9bc544343fad551bda87bfe1b5623fda6061"
+    },
+    "movement/tarnovo-artistic-school": {
+      "completed": true,
+      "content_sha256": "7007aa13df90ee25b53eeffbd58be47dc9001f38cea899aedd00f445651c04ea",
+      "excerpts": [
+        {
+          "source_locator": "entities/movements/tarnovo-artistic-school.md#定義と範囲",
+          "text": "修道士シメオンが筆写し、複数の匿名画家がタルノヴォ画派の伝統に連なる366〜367点の細密画を描いた。"
+        },
+        {
+          "source_locator": "entities/movements/tarnovo-artistic-school.md#定義と範囲",
+          "text": "もう一つの代表例がイヴァン・アレクサンダル皇帝の四福音書（1355-56年）で、"
+        }
+      ],
+      "history": [
+        {
+          "accepted": true,
+          "attempt": 1,
+          "element_id": "K1.card.movement.tarnovo-artistic-school.1",
+          "failed_checks": [],
+          "value_sha256": "ef8394089ae40f68e3f49a9449805c62398f687d5ee7f2aa8028ca7887ad9a9e"
+        },
+        {
+          "accepted": true,
+          "attempt": 1,
+          "element_id": "K1.card.movement.tarnovo-artistic-school.2",
+          "failed_checks": [],
+          "value_sha256": "2095d82f7ce6a989278a1760a4bc0a4e4e34198127105b1da7a1634e1c6487e5"
+        }
+      ],
+      "source_commit": "d5bd9bc544343fad551bda87bfe1b5623fda6061"
+    },
+    "movement/thirteen-moderns": {
+      "completed": true,
+      "content_sha256": "6a5e64b786dbb04c029641f8559183c5f79397775c540d3dd307cc01f9c26c56",
+      "excerpts": [
+        {
+          "source_locator": "entities/movements/thirteen-moderns.md#定義と範囲",
+          "text": "当時のアカデミックな写実絵画（フェルナンド・アモルソロに代表される牧歌的な風俗画）に異を唱えた画家たち13名を指す歴史叙述上の括り。"
+        },
+        {
+          "source_locator": "entities/movements/thirteen-moderns.md#定義と範囲",
+          "text": "エダデスは1919年に渡米し、ワシントン大学（シアトル）で絵画を学び、1928年11月にフィリピンへ帰国、同年12月の個展でMFA修了制作《The Builders》を発表した。"
+        }
+      ],
+      "history": [
+        {
+          "accepted": true,
+          "attempt": 1,
+          "element_id": "K1.card.movement.thirteen-moderns.1",
+          "failed_checks": [],
+          "value_sha256": "ed9d4df38e1b3ae654d0b97ad91af689359e4cc55159c3e1cfdb3631f4465d7a"
+        },
+        {
+          "accepted": true,
+          "attempt": 1,
+          "element_id": "K1.card.movement.thirteen-moderns.2",
+          "failed_checks": [],
+          "value_sha256": "9eea667163b6c59228769afc3e501e82e380fe95d28f6d39318af8bbb10cf168"
+        }
+      ],
+      "source_commit": "d5bd9bc544343fad551bda87bfe1b5623fda6061"
+    },
+    "movement/venetian-school": {
+      "completed": true,
+      "content_sha256": "0b666ecc49f995a39963f3de7fd10d8756285e52d7bf4c888cc2aeddfe17699f",
+      "excerpts": [
+        {
+          "source_locator": "entities/movements/venetian-school.md#定義と範囲",
+          "text": "色彩を線に優先させたと見なされる"
+        },
+        {
+          "source_locator": "entities/movements/venetian-school.md#定義と範囲",
+          "text": "ヨーロッパ中で非常な需要があった"
+        }
+      ],
+      "history": [
+        {
+          "accepted": true,
+          "attempt": 1,
+          "element_id": "K1.card.movement.venetian-school.1",
+          "failed_checks": [],
+          "value_sha256": "9e2ecd3976da30a146a18a83977655e6838f46b5947e1990d06e53de04e4ae2e"
+        },
+        {
+          "accepted": false,
+          "attempt": 1,
+          "element_id": "K1.card.movement.venetian-school.2",
+          "failed_checks": [
+            "length"
+          ],
+          "value_sha256": "f00ccc6a5d4f5b8450c2f4dec46954fe53d5446ff4faa8202365ca905f482167"
+        },
+        {
+          "accepted": true,
+          "attempt": 2,
+          "element_id": "K1.card.movement.venetian-school.2",
+          "failed_checks": [],
+          "value_sha256": "8d938f35433a147de8e58b93b1e5d0fbd8f6245baf4d195e8add7ae40bc400f6"
+        }
+      ],
+      "source_commit": "d5bd9bc544343fad551bda87bfe1b5623fda6061"
+    },
+    "movement/wu-school": {
+      "completed": true,
+      "content_sha256": "8f5b6982189d90bb35ea4f53b101e497ab534829978dae2b6b1bc8af1254b912",
+      "excerpts": [
+        {
+          "source_locator": "entities/movements/wu-school.md#定義と範囲",
+          "text": "士大夫が官職の余技として描いた、専門画工と対置される絵画観"
+        },
+        {
+          "source_locator": "entities/movements/wu-school.md#定義と範囲",
+          "text": "ここで示されるのは呉派が文人画の伝統を受け継いだという影響の向きだけではなく、呉派を文人画系の括りとして呼ぶ分類である。"
+        }
+      ],
+      "history": [
+        {
+          "accepted": true,
+          "attempt": 1,
+          "element_id": "K1.card.movement.wu-school.1",
+          "failed_checks": [],
+          "value_sha256": "df6e91a07d84fa1d25464a460016be8aa4219d7b297e9f4aa43a1810790830bb"
+        },
+        {
+          "accepted": true,
+          "attempt": 1,
+          "element_id": "K1.card.movement.wu-school.2",
+          "failed_checks": [],
+          "value_sha256": "814f9233ed66eaee742fd35477926428a5def6221665268868380a5fddf837b2"
+        }
+      ],
+      "source_commit": "d5bd9bc544343fad551bda87bfe1b5623fda6061"
+    },
+    "movement/yamato-e": {
+      "completed": true,
+      "content_sha256": "7a8dba2f55ee242b49a77f2cbd327fbc586d181e850f88f73ac49d29a88b4c0f",
+      "excerpts": [
+        {
+          "source_locator": "entities/movements/yamato-e.md#定義と範囲",
+          "text": "平安時代の大和絵は、画題（何を描いたか）についての概念で、日本の故事・人物・事物・風景を主題とした絵画を指した。対義語の唐絵は、唐（中国）の故事・人物・事物・山水を主題とした絵を指し、この段階では様式・技法の違いを意味していなかった。"
+        },
+        {
+          "source_locator": "entities/movements/yamato-e.md#定義と範囲",
+          "text": "片方だけを取り出しても意味を持たない。"
+        }
+      ],
+      "history": [
+        {
+          "accepted": true,
+          "attempt": 1,
+          "element_id": "K1.card.movement.yamato-e.1",
+          "failed_checks": [],
+          "value_sha256": "19f24d9fbcfe424cc0bd352ffb5b3ca5d401a7548dd35d6e605ebb4c180e31bb"
+        },
+        {
+          "accepted": true,
+          "attempt": 1,
+          "element_id": "K1.card.movement.yamato-e.2",
+          "failed_checks": [],
+          "value_sha256": "11cecea360c8feaf351844a7edf6ec7978f90dd4e6032a1cdf2d11eb77471979"
+        }
+      ],
+      "source_commit": "d5bd9bc544343fad551bda87bfe1b5623fda6061"
+    },
+    "movement/zhe-school": {
+      "completed": true,
+      "content_sha256": "56bd1d6ab6bcd5d9bd6c01e9b6a8c368bdb73356b4d0f0c200180e4d74032766",
+      "excerpts": [
+        {
+          "source_locator": "entities/movements/zhe-school.md#定義と範囲",
+          "text": "を祖とする職業画家の集団とされる"
+        },
+        {
+          "source_locator": "entities/movements/zhe-school.md#定義と範囲",
+          "text": "戴進が浙江省杭州の出身だったため「浙派」と呼ばれた"
+        }
+      ],
+      "history": [
+        {
+          "accepted": true,
+          "attempt": 1,
+          "element_id": "K1.card.movement.zhe-school.1",
+          "failed_checks": [],
+          "value_sha256": "9e3de4149120a5f6cfca424c2f26b30361cb86745b3fe0fbbc3c32165faf6c18"
+        },
+        {
+          "accepted": true,
+          "attempt": 1,
+          "element_id": "K1.card.movement.zhe-school.2",
+          "failed_checks": [],
+          "value_sha256": "df9425cd642fe351796528f6d560a9346e8949475d060e347e4c890e5873209a"
+        }
+      ],
+      "source_commit": "d5bd9bc544343fad551bda87bfe1b5623fda6061"
+    }
+  }
+}

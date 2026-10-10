@@ -1,0 +1,13 @@
+{
+  "copied_from": {
+    "repository": "https://github.com/masa-san-jp/agentic-art-orchestration.git",
+    "path": "schemas/element-request.schema.json, schemas/element-answer.schema.json",
+    "last_changed_commit": "4117fc25f3c3ffa8ef52a1b856cea84972b0e257",
+    "checked_out_head": "946faedc850491c8f4468fdfc3d599bbb9a7a668"
+  },
+  "note": "Byte-for-byte copies of the parent element contract. Do not edit; update by copying again from the parent.",
+  "sha256": {
+    "element-request.schema.json": "45d7bc0acecf41f98516746ba684110434821dab1e727f73c2a9882a530cbd52",
+    "element-answer.schema.json": "7b74d114e0d9ee8976dc8ed17e43623b1e5a490a08c6bb4f1a5118b78c6cc812"
+  }
+}

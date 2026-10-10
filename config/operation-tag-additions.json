@@ -1,0 +1,622 @@
+{
+  "contract_version": "operation-tags/v1",
+  "records": {
+    "concept/automatism": {
+      "completed": true,
+      "content_sha256": "56a77d0dbef0200c28a3ad94dcb7ece4974972e808f0db843a5a6ba98c85e2c7",
+      "history": [
+        {
+          "accepted": true,
+          "attempt": 1,
+          "element_id": "concept.automatism.operation.1",
+          "value_sha256": "c46c041ce888ac802aeaa833971696d791475277bca48f0f1a6615633aedf6c9"
+        }
+      ],
+      "source_commit": "3c2b53d487cd5afdcf3bdc46e03bc00697cfe683",
+      "tags": []
+    },
+    "concept/frottage": {
+      "completed": true,
+      "content_sha256": "1c2a0648b6191a4b95d86d1e15dc84f9edb2c582b88f0173e46d5893dcf472d2",
+      "history": [
+        {
+          "accepted": true,
+          "attempt": 1,
+          "element_id": "concept.frottage.operation.1",
+          "value_sha256": "659f5a8cb63bdb22488a904461b676da40a787269a349a350098a9298a551f99"
+        },
+        {
+          "accepted": true,
+          "attempt": 1,
+          "element_id": "concept.frottage.evidence.1",
+          "value_sha256": "710a109c933497c2b340cbc1ab0049b654eee9799412635fed25ac8936adbfb4"
+        },
+        {
+          "accepted": true,
+          "attempt": 1,
+          "element_id": "concept.frottage.operation.2",
+          "value_sha256": "c46c041ce888ac802aeaa833971696d791475277bca48f0f1a6615633aedf6c9"
+        }
+      ],
+      "source_commit": "3c2b53d487cd5afdcf3bdc46e03bc00697cfe683",
+      "tags": [
+        {
+          "evidence": "紙を重ねて擦る手順を固定し、\n下に置く面のテクスチャと転写される模様を可変要素とする",
+          "operation_id": "follow-procedure",
+          "source_locator": "entities/concepts/frottage.md#実装例",
+          "source_refs": [
+            "https://www.museothyssen.org/en/collection/artists/ernst-max"
+          ]
+        }
+      ]
+    },
+    "concept/iterated-boundary-generation": {
+      "completed": true,
+      "content_sha256": "4ab9ae65e220bb2396dc151f342e95f5a402e0074c53b2d530fadd525941f7ab",
+      "history": [
+        {
+          "accepted": true,
+          "attempt": 1,
+          "element_id": "concept.iterated-boundary-generation.operation.1",
+          "value_sha256": "659f5a8cb63bdb22488a904461b676da40a787269a349a350098a9298a551f99"
+        },
+        {
+          "accepted": true,
+          "attempt": 1,
+          "element_id": "concept.iterated-boundary-generation.evidence.1",
+          "value_sha256": "9a4a6eae9b7b1372958e00a97f6fd5922e300e2fd5305438749da2120c7e8294"
+        },
+        {
+          "accepted": true,
+          "attempt": 1,
+          "element_id": "concept.iterated-boundary-generation.operation.2",
+          "value_sha256": "c46c041ce888ac802aeaa833971696d791475277bca48f0f1a6615633aedf6c9"
+        }
+      ],
+      "source_commit": "3c2b53d487cd5afdcf3bdc46e03bc00697cfe683",
+      "tags": [
+        {
+          "evidence": "1. 何を反復して次の入力へ戻すかを固定する。\n2. 反復の結果を、少なくとも二つの振る舞い（たとえば有界／発散）に分ける。\n3. 入力条件やハイパーパラメータを少しずつ動かし、結果が切り替わる境界を記録する。",
+          "operation_id": "follow-procedure",
+          "source_locator": "entities/concepts/iterated-boundary-generation.md#使える手",
+          "source_refs": [
+            "https://sohl-dickstein.github.io/2024/02/12/fractal.html"
+          ]
+        }
+      ]
+    },
+    "concept/poured-painting": {
+      "completed": true,
+      "content_sha256": "402af77df374a972d3c8a2c706ff097f5f4c2d82d847a9a772a7cf32f2d747ac",
+      "history": [
+        {
+          "accepted": true,
+          "attempt": 1,
+          "element_id": "concept.poured-painting.operation.1",
+          "value_sha256": "c46c041ce888ac802aeaa833971696d791475277bca48f0f1a6615633aedf6c9"
+        }
+      ],
+      "source_commit": "3c2b53d487cd5afdcf3bdc46e03bc00697cfe683",
+      "tags": []
+    },
+    "movement/abstract-expressionism": {
+      "completed": true,
+      "content_sha256": "5d49066cba8e29f73bfec4eba2f43120e097e4783d4939acc17a5e9c4f1fc682",
+      "history": [
+        {
+          "accepted": true,
+          "attempt": 1,
+          "element_id": "movement.abstract-expressionism.operation.1",
+          "value_sha256": "c46c041ce888ac802aeaa833971696d791475277bca48f0f1a6615633aedf6c9"
+        }
+      ],
+      "source_commit": "3c2b53d487cd5afdcf3bdc46e03bc00697cfe683",
+      "tags": []
+    },
+    "movement/ai-bigeiken": {
+      "completed": true,
+      "content_sha256": "78cfa9978efac3218d2e61e2d53c95c25bcbe292ee27028f7a5471bcf70e0a6f",
+      "history": [
+        {
+          "accepted": true,
+          "attempt": 1,
+          "element_id": "movement.ai-bigeiken.operation.1",
+          "value_sha256": "c46c041ce888ac802aeaa833971696d791475277bca48f0f1a6615633aedf6c9"
+        }
+      ],
+      "source_commit": "3c2b53d487cd5afdcf3bdc46e03bc00697cfe683",
+      "tags": []
+    },
+    "movement/arte-madi": {
+      "completed": true,
+      "content_sha256": "135cc2b40f3a2d62ce869d7287005f1e1e2e2c2fc6336ca41552f8b3b2815f16",
+      "history": [
+        {
+          "accepted": true,
+          "attempt": 1,
+          "element_id": "movement.arte-madi.operation.1",
+          "value_sha256": "d5124ecff225783488f5c685a0688b10a265ce8d62896438dd97d5ff09580e55"
+        },
+        {
+          "accepted": true,
+          "attempt": 1,
+          "element_id": "movement.arte-madi.evidence.1",
+          "value_sha256": "15a876566073aed462ca030a0802c02b0951cbd6161469a51dcfb1d8c42f8a30"
+        },
+        {
+          "accepted": true,
+          "attempt": 1,
+          "element_id": "movement.arte-madi.operation.2",
+          "value_sha256": "c46c041ce888ac802aeaa833971696d791475277bca48f0f1a6615633aedf6c9"
+        }
+      ],
+      "source_commit": "3c2b53d487cd5afdcf3bdc46e03bc00697cfe683",
+      "tags": [
+        {
+          "evidence": "表現・再現・意味作用という現象のあらゆる介入は排される。",
+          "operation_id": "impose-constraints",
+          "source_locator": "entities/movements/arte-madi.md#定義と範囲",
+          "source_refs": [
+            "https://en.wikipedia.org/wiki/Carmelo_Arden_Quin",
+            "https://en.wikipedia.org/wiki/Mad%C3%AD",
+            "https://kosice.com.ar/el-artista/linea-de-tiempo/",
+            "https://kosice.com.ar/otros-recursos/los-textos/de-kosice/manifiesto-madi/",
+            "https://masdearte.com/movimientos/madi/",
+            "https://www.mfah.org/blogs/inside-mfah/gyula-kosice-and-rise-argentinean-avant-garde",
+            "https://www.museoreinasofia.es/en/exhibitions/arte-madi",
+            "https://www.tate.org.uk/art/art-terms/a/arte-madi",
+            "https://www.wikidata.org/wiki/Q692924"
+          ]
+        }
+      ]
+    },
+    "movement/bengal-school": {
+      "completed": true,
+      "content_sha256": "d926bbd69be89f116ffe5792063045b269eeb3303bcfb22c43954527b6ce5cf0",
+      "history": [
+        {
+          "accepted": true,
+          "attempt": 1,
+          "element_id": "movement.bengal-school.operation.1",
+          "value_sha256": "c46c041ce888ac802aeaa833971696d791475277bca48f0f1a6615633aedf6c9"
+        }
+      ],
+      "source_commit": "3c2b53d487cd5afdcf3bdc46e03bc00697cfe683",
+      "tags": []
+    },
+    "movement/brancovenesc-art": {
+      "completed": true,
+      "content_sha256": "d637c8ddc06361c129c7019e9a2f892f7d96c5d9f06bc41f49dbe217913ad881",
+      "history": [
+        {
+          "accepted": true,
+          "attempt": 1,
+          "element_id": "movement.brancovenesc-art.operation.1",
+          "value_sha256": "c46c041ce888ac802aeaa833971696d791475277bca48f0f1a6615633aedf6c9"
+        }
+      ],
+      "source_commit": "3c2b53d487cd5afdcf3bdc46e03bc00697cfe683",
+      "tags": []
+    },
+    "movement/computer-art": {
+      "completed": true,
+      "content_sha256": "8235fdae0e0f74278739381b50adbc935607a3440a32de90da834a04a3cda1c5",
+      "history": [
+        {
+          "accepted": true,
+          "attempt": 1,
+          "element_id": "movement.computer-art.operation.1",
+          "value_sha256": "659f5a8cb63bdb22488a904461b676da40a787269a349a350098a9298a551f99"
+        },
+        {
+          "accepted": true,
+          "attempt": 1,
+          "element_id": "movement.computer-art.evidence.1",
+          "value_sha256": "7f7859d5d7f0f79906870b9cdda00e9551ce079568e0f46b7a31c8ea583d948f"
+        },
+        {
+          "accepted": true,
+          "attempt": 1,
+          "element_id": "movement.computer-art.operation.2",
+          "value_sha256": "c46c041ce888ac802aeaa833971696d791475277bca48f0f1a6615633aedf6c9"
+        }
+      ],
+      "source_commit": "3c2b53d487cd5afdcf3bdc46e03bc00697cfe683",
+      "tags": [
+        {
+          "evidence": "1959年に手作業のアルゴリズム的手法「machine imaginaire」を開始し1968年から\nコンピュータを併用",
+          "operation_id": "follow-procedure",
+          "source_locator": "entities/movements/computer-art.md#定義と範囲",
+          "source_refs": [
+            "https://cs.uml.edu/~fredm/courses/91.548-spr04/papers/furtherexploits.pdf",
+            "https://en.wikipedia.org/wiki/Frieder_Nake",
+            "https://en.wikipedia.org/wiki/Manfred_Mohr",
+            "https://en.wikipedia.org/wiki/Vera_Moln%C3%A1r",
+            "https://senate.universityofcalifornia.edu/_files/inmemoriam/html/HaroldCohen.html",
+            "https://visarts.ucsd.edu/people/in-memoriam/harold-cohen.html",
+            "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300069478",
+            "https://www.wikidata.org/wiki/Q1376265"
+          ]
+        }
+      ]
+    },
+    "movement/conceptual-art": {
+      "completed": true,
+      "content_sha256": "2b842bb00551e61467d549823c8bb7f6a50f714f28515c6ec229504fdfb7569f",
+      "history": [
+        {
+          "accepted": true,
+          "attempt": 1,
+          "element_id": "movement.conceptual-art.operation.1",
+          "value_sha256": "659f5a8cb63bdb22488a904461b676da40a787269a349a350098a9298a551f99"
+        },
+        {
+          "accepted": true,
+          "attempt": 1,
+          "element_id": "movement.conceptual-art.evidence.1",
+          "value_sha256": "ccc1b0ef99a375ea161a3bd9d3d689af27e1235fe386260820515b3411757308"
+        },
+        {
+          "accepted": true,
+          "attempt": 1,
+          "element_id": "movement.conceptual-art.operation.2",
+          "value_sha256": "d5124ecff225783488f5c685a0688b10a265ce8d62896438dd97d5ff09580e55"
+        },
+        {
+          "accepted": true,
+          "attempt": 1,
+          "element_id": "movement.conceptual-art.evidence.2",
+          "value_sha256": "b7d9bdcbdaced70af561ed4453375e1e44c616e88533c23ecab60ce958820296"
+        },
+        {
+          "accepted": true,
+          "attempt": 1,
+          "element_id": "movement.conceptual-art.operation.3",
+          "value_sha256": "c46c041ce888ac802aeaa833971696d791475277bca48f0f1a6615633aedf6c9"
+        }
+      ],
+      "source_commit": "3c2b53d487cd5afdcf3bdc46e03bc00697cfe683",
+      "tags": [
+        {
+          "evidence": "all of the planning and decisions are made beforehand and the execution is\n> a perfunctory affair. The idea becomes a machine that makes the art.",
+          "operation_id": "follow-procedure",
+          "source_locator": "entities/movements/conceptual-art.md#定義と範囲",
+          "source_refs": [
+            "http://www.multimedialab.be/doc/citations/sol_lewitt_sentences.pdf",
+            "https://henryflynt.org/aesthetics/conart.html",
+            "https://www.documenta.de/en/retrospective/documenta_5",
+            "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300264827",
+            "https://www.kim-cohen.com/Assets/CourseAssets/Texts/LeWitt_Paragraphs%20(1967).pdf",
+            "https://www.wikidata.org/wiki/Q203209"
+          ]
+        },
+        {
+          "evidence": "The process is mechanical and should not be tampered with. It should run its course.",
+          "operation_id": "impose-constraints",
+          "source_locator": "entities/movements/conceptual-art.md#定義と範囲",
+          "source_refs": [
+            "http://www.multimedialab.be/doc/citations/sol_lewitt_sentences.pdf",
+            "https://henryflynt.org/aesthetics/conart.html",
+            "https://www.documenta.de/en/retrospective/documenta_5",
+            "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300264827",
+            "https://www.kim-cohen.com/Assets/CourseAssets/Texts/LeWitt_Paragraphs%20(1967).pdf",
+            "https://www.wikidata.org/wiki/Q203209"
+          ]
+        }
+      ]
+    },
+    "movement/dada": {
+      "completed": true,
+      "content_sha256": "42ed65cbaf2d5650772836b569d37d1ae7f155b449dc05631bb609edf8ed8f8d",
+      "history": [
+        {
+          "accepted": true,
+          "attempt": 1,
+          "element_id": "movement.dada.operation.1",
+          "value_sha256": "c46c041ce888ac802aeaa833971696d791475277bca48f0f1a6615633aedf6c9"
+        }
+      ],
+      "source_commit": "3c2b53d487cd5afdcf3bdc46e03bc00697cfe683",
+      "tags": []
+    },
+    "movement/igbo-ukwu-bronze": {
+      "completed": true,
+      "content_sha256": "e076f0e513b40bd3e8c16427b0fd8205ead67ac81d4f2c1a5b6ce5c149dbb228",
+      "history": [
+        {
+          "accepted": true,
+          "attempt": 1,
+          "element_id": "movement.igbo-ukwu-bronze.operation.1",
+          "value_sha256": "c46c041ce888ac802aeaa833971696d791475277bca48f0f1a6615633aedf6c9"
+        }
+      ],
+      "source_commit": "3c2b53d487cd5afdcf3bdc46e03bc00697cfe683",
+      "tags": []
+    },
+    "movement/kamasan-painting": {
+      "completed": true,
+      "content_sha256": "56274ae3e3871bd824320a574f0d174715cbc61c7e1f0b991d5ec3e0586b630c",
+      "history": [
+        {
+          "accepted": true,
+          "attempt": 1,
+          "element_id": "movement.kamasan-painting.operation.1",
+          "value_sha256": "659f5a8cb63bdb22488a904461b676da40a787269a349a350098a9298a551f99"
+        },
+        {
+          "accepted": true,
+          "attempt": 1,
+          "element_id": "movement.kamasan-painting.evidence.1",
+          "value_sha256": "30bccc764cf73ece3d336995a147c70d2d925db56a516269725f463aaac3d8b7"
+        },
+        {
+          "accepted": true,
+          "attempt": 1,
+          "element_id": "movement.kamasan-painting.operation.2",
+          "value_sha256": "d5124ecff225783488f5c685a0688b10a265ce8d62896438dd97d5ff09580e55"
+        },
+        {
+          "accepted": true,
+          "attempt": 1,
+          "element_id": "movement.kamasan-painting.evidence.2",
+          "value_sha256": "1a6c3b725bf3fc2b9c26fc1841fa12ef5eba7d05aed04ce77736f1bc635f9b5f"
+        },
+        {
+          "accepted": true,
+          "attempt": 1,
+          "element_id": "movement.kamasan-painting.operation.3",
+          "value_sha256": "c46c041ce888ac802aeaa833971696d791475277bca48f0f1a6615633aedf6c9"
+        }
+      ],
+      "source_commit": "3c2b53d487cd5afdcf3bdc46e03bc00697cfe683",
+      "tags": [
+        {
+          "evidence": "図像・構図・彩色手順は\n「ウゲル＝ウゲル（uger-uger／ウゲル＝ウゲル）」と呼ばれる規則によって厳格に定められ",
+          "operation_id": "follow-procedure",
+          "source_locator": "entities/movements/kamasan-painting.md#定義と範囲",
+          "source_refs": [
+            "http://balitourismjournal.org/ojs/index.php/btj/article/view/74",
+            "https://artsofbali.com/kamasan-painting-bali/",
+            "https://balitra.com/en/cultures/bali-painting",
+            "https://e-museum.klungkungkab.go.id/history-of-klungkung/",
+            "https://en.wikipedia.org/wiki/Kamasan",
+            "https://en.wikipedia.org/wiki/Mangku_Muriati",
+            "https://journal.binus.ac.id/index.php/Humaniora/article/view/3599",
+            "https://wovensouls.com/pages/wovensouls-guide-where-can-one-see-kamasan-paintings",
+            "https://www.endlessjoy.co.uk/journal/kamasan-painting",
+            "https://www.kk-advocates.com/news/read/balinese-kamasan-classical-paintings-registered-as-a-geographical-indication-product",
+            "https://www.michaelbackmanltd.com/archived_objects/balinese-temple-textile-ider-ider/",
+            "https://www.wikidata.org/wiki/Q6356113"
+          ]
+        },
+        {
+          "evidence": "規則によって厳格に定められ、目の形（3〜4種）、\n姿勢（5〜6種）、被り物、手の位置による意味の区別",
+          "operation_id": "impose-constraints",
+          "source_locator": "entities/movements/kamasan-painting.md#定義と範囲",
+          "source_refs": [
+            "http://balitourismjournal.org/ojs/index.php/btj/article/view/74",
+            "https://artsofbali.com/kamasan-painting-bali/",
+            "https://balitra.com/en/cultures/bali-painting",
+            "https://e-museum.klungkungkab.go.id/history-of-klungkung/",
+            "https://en.wikipedia.org/wiki/Kamasan",
+            "https://en.wikipedia.org/wiki/Mangku_Muriati",
+            "https://journal.binus.ac.id/index.php/Humaniora/article/view/3599",
+            "https://wovensouls.com/pages/wovensouls-guide-where-can-one-see-kamasan-paintings",
+            "https://www.endlessjoy.co.uk/journal/kamasan-painting",
+            "https://www.kk-advocates.com/news/read/balinese-kamasan-classical-paintings-registered-as-a-geographical-indication-product",
+            "https://www.michaelbackmanltd.com/archived_objects/balinese-temple-textile-ider-ider/",
+            "https://www.wikidata.org/wiki/Q6356113"
+          ]
+        }
+      ]
+    },
+    "movement/kanga": {
+      "completed": true,
+      "content_sha256": "de5cd48eb96c43188f60c1f03b8d6e2f9500371d277f05f1e8333c7bca482a3c",
+      "history": [
+        {
+          "accepted": true,
+          "attempt": 1,
+          "element_id": "movement.kanga.operation.1",
+          "value_sha256": "c46c041ce888ac802aeaa833971696d791475277bca48f0f1a6615633aedf6c9"
+        }
+      ],
+      "source_commit": "3c2b53d487cd5afdcf3bdc46e03bc00697cfe683",
+      "tags": []
+    },
+    "movement/lapita-pottery": {
+      "completed": true,
+      "content_sha256": "198a37ca3befc448b1c18f8ab684184261350d4198a4a683c2026f16d50c99ed",
+      "history": [
+        {
+          "accepted": true,
+          "attempt": 1,
+          "element_id": "movement.lapita-pottery.operation.1",
+          "value_sha256": "d5124ecff225783488f5c685a0688b10a265ce8d62896438dd97d5ff09580e55"
+        },
+        {
+          "accepted": true,
+          "attempt": 1,
+          "element_id": "movement.lapita-pottery.evidence.1",
+          "value_sha256": "0cd1c8c5c9d342f7aea3d394cd65af76fe73c3c86c616bed4d19158cb5499629"
+        },
+        {
+          "accepted": true,
+          "attempt": 1,
+          "element_id": "movement.lapita-pottery.operation.2",
+          "value_sha256": "c46c041ce888ac802aeaa833971696d791475277bca48f0f1a6615633aedf6c9"
+        }
+      ],
+      "source_commit": "3c2b53d487cd5afdcf3bdc46e03bc00697cfe683",
+      "tags": [
+        {
+          "evidence": "文様は器面の特定の帯（ゾーン）ごとに限られた種類の意匠を組み合わせて配置する規則性を持ち",
+          "operation_id": "impose-constraints",
+          "source_locator": "entities/movements/lapita-pottery.md#定義と範囲",
+          "source_refs": [
+            "http://www.ioa.ucla.edu/talepakemalai",
+            "https://en.wikipedia.org/wiki/Lapita_culture",
+            "https://en.wiktionary.org/wiki/Lapita",
+            "https://human.libretexts.org/Bookshelves/Art/SmartHistory/10:_Oceania/10.01:_Terracotta_fragments_Lapita_people",
+            "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300264776",
+            "https://www.metmuseum.org/art/collection/search/314214",
+            "https://www.metmuseum.org/art/collection/search/314215",
+            "https://www.metmuseum.org/art/collection/search/314216",
+            "https://www.wikidata.org/wiki/Q1021436"
+          ]
+        }
+      ]
+    },
+    "movement/muhammad-ali-mosque-architecture": {
+      "completed": true,
+      "content_sha256": "cb780454382f7d6a8e70d30fe82c871059fe147fa88e62ff90536da7aad5db2b",
+      "history": [
+        {
+          "accepted": true,
+          "attempt": 1,
+          "element_id": "movement.muhammad-ali-mosque-architecture.operation.1",
+          "value_sha256": "5575a615f521c4aaa6b2a0095942706d4f1ec6641154cf5235748e3fe3f7f0c9"
+        },
+        {
+          "accepted": true,
+          "attempt": 1,
+          "element_id": "movement.muhammad-ali-mosque-architecture.evidence.1",
+          "value_sha256": "0566ce3a56fc275ed4588790065f053039d88c5c6d749fe3d0a63b0d77b50025"
+        },
+        {
+          "accepted": true,
+          "attempt": 1,
+          "element_id": "movement.muhammad-ali-mosque-architecture.operation.2",
+          "value_sha256": "c46c041ce888ac802aeaa833971696d791475277bca48f0f1a6615633aedf6c9"
+        }
+      ],
+      "source_commit": "3c2b53d487cd5afdcf3bdc46e03bc00697cfe683",
+      "tags": [
+        {
+          "evidence": "モスクを、おそらくギリシャ人かアルメニア人の建築家により建てさせた。",
+          "operation_id": "delegate",
+          "source_locator": "entities/movements/muhammad-ali-mosque-architecture.md#定義と範囲",
+          "source_refs": [
+            "https://en.wikipedia.org/wiki/Mosque_of_Muhammad_Ali",
+            "https://www.wikidata.org/wiki/Q652046"
+          ]
+        }
+      ]
+    },
+    "movement/ngati-tarawhai-whakairo": {
+      "completed": true,
+      "content_sha256": "4d47ffc3d7060ce87bb7bf59da013e2d4750345a89514055d88b392d5d6d890f",
+      "history": [
+        {
+          "accepted": true,
+          "attempt": 1,
+          "element_id": "movement.ngati-tarawhai-whakairo.operation.1",
+          "value_sha256": "c46c041ce888ac802aeaa833971696d791475277bca48f0f1a6615633aedf6c9"
+        }
+      ],
+      "source_commit": "3c2b53d487cd5afdcf3bdc46e03bc00697cfe683",
+      "tags": []
+    },
+    "movement/nok-sculpture": {
+      "completed": true,
+      "content_sha256": "ed04e12f95f8f7d6bfa4b9b4c694bf7657572eb9986642e71c6e94b153974c4a",
+      "history": [
+        {
+          "accepted": true,
+          "attempt": 1,
+          "element_id": "movement.nok-sculpture.operation.1",
+          "value_sha256": "c46c041ce888ac802aeaa833971696d791475277bca48f0f1a6615633aedf6c9"
+        }
+      ],
+      "source_commit": "3c2b53d487cd5afdcf3bdc46e03bc00697cfe683",
+      "tags": []
+    },
+    "movement/ottoman-miniature": {
+      "completed": true,
+      "content_sha256": "2eb53b439b48c6fa8646bd3fb1643a0cc876ef402415d305081f49af719a46a2",
+      "history": [
+        {
+          "accepted": true,
+          "attempt": 1,
+          "element_id": "movement.ottoman-miniature.operation.1",
+          "value_sha256": "c46c041ce888ac802aeaa833971696d791475277bca48f0f1a6615633aedf6c9"
+        }
+      ],
+      "source_commit": "3c2b53d487cd5afdcf3bdc46e03bc00697cfe683",
+      "tags": []
+    },
+    "movement/papunya-tula": {
+      "completed": true,
+      "content_sha256": "5bcfc1cd3762fc6ae77e65c29ebae04bb84daa2c4fc80df52fb1d99d2b5285a7",
+      "history": [
+        {
+          "accepted": true,
+          "attempt": 1,
+          "element_id": "movement.papunya-tula.operation.1",
+          "value_sha256": "c46c041ce888ac802aeaa833971696d791475277bca48f0f1a6615633aedf6c9"
+        }
+      ],
+      "source_commit": "3c2b53d487cd5afdcf3bdc46e03bc00697cfe683",
+      "tags": []
+    },
+    "movement/poto-poto-school": {
+      "completed": true,
+      "content_sha256": "dfa54e8a43473922cfdb8c8e725023e7c04931cdd842b2ea84460fd42f33622c",
+      "history": [
+        {
+          "accepted": true,
+          "attempt": 1,
+          "element_id": "movement.poto-poto-school.operation.1",
+          "value_sha256": "5575a615f521c4aaa6b2a0095942706d4f1ec6641154cf5235748e3fe3f7f0c9"
+        },
+        {
+          "accepted": true,
+          "attempt": 1,
+          "element_id": "movement.poto-poto-school.evidence.1",
+          "value_sha256": "b3c5e25439ed5e0a991d2ef52f457a6202cb3b0631994413f75209bea239d5a3"
+        },
+        {
+          "accepted": true,
+          "attempt": 1,
+          "element_id": "movement.poto-poto-school.operation.2",
+          "value_sha256": "c46c041ce888ac802aeaa833971696d791475277bca48f0f1a6615633aedf6c9"
+        }
+      ],
+      "source_commit": "3c2b53d487cd5afdcf3bdc46e03bc00697cfe683",
+      "tags": [
+        {
+          "evidence": "様式・主題は\n各自の裁量に委ねたとされる",
+          "operation_id": "delegate",
+          "source_locator": "entities/movements/poto-poto-school.md#定義と範囲",
+          "source_refs": [
+            "http://vocabsservices.getty.edu/AATService.asmx/AATGetTermMatch?term=Poto-Poto&logop=and&notes=",
+            "https://en.wikipedia.org/wiki/Poto-Poto",
+            "https://heiup.uni-heidelberg.de/catalog/view/457/718/111002",
+            "https://shs.cairn.info/journal-cahiers-d-etudes-africaines-2012-1-page-259?lang=en",
+            "https://sites.rhodes.edu/potopoto",
+            "https://sites.rhodes.edu/potopoto/history-poto-poto-school",
+            "https://www.africanews.com/2021/07/06/congo-school-of-painting-poto-poto-celebrates-70-years-of-african-art/",
+            "https://www.si.edu/object/siris_sil_752655",
+            "https://www.wikidata.org/wiki/Q114247696",
+            "https://www.wikidata.org/wiki/Q59564370"
+          ]
+        }
+      ]
+    },
+    "movement/qajar-painting": {
+      "completed": true,
+      "content_sha256": "237538682e8a0f69fb7520dd6ecb5cb2919fb7064bfbdcc1fa7da431c8590d3c",
+      "history": [
+        {
+          "accepted": true,
+          "attempt": 1,
+          "element_id": "movement.qajar-painting.operation.1",
+          "value_sha256": "c46c041ce888ac802aeaa833971696d791475277bca48f0f1a6615633aedf6c9"
+        }
+      ],
+      "source_commit": "3c2b53d487cd5afdcf3bdc46e03bc00697cfe683",
+      "tags": []
+    }
+  },
+  "vocabulary_sha256": "f7ebf72a3deddab6f8bdd602ae21d7b321f3105740ac45a6be5902755aa0f2f7"
+}
