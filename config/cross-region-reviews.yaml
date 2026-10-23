@@ -309,11 +309,12 @@ reviews:
   - https://www.wikidata.org/wiki/Q122960
 - movement_id: movement/santero
   status: no-documented-cross-region-relation
-  checked: '2026-09-16'
-  note: 2026-09-16時点で、movement→movement relation、movement→placeのdiffused_to、space.active_in、movement→event/orgのexhibited_at→held_at/sited_inの4経路を、当該movementに登録された資料を対象に確認した。作例の収蔵先はいずれも米国内（Museum of International Folk Art、Palace of the Governorsなど）で、americas-north外への文書化された接続は確認できない。
+  checked: '2026-10-22'
+  note: 2026-10-22時点で、movement→movement relation、movement→placeのdiffused_to、space.active_in、movement→event/orgのexhibited_at→held_at/sited_inの4経路を、当該movementに登録された資料を対象に確認した。作例の収蔵先はいずれも米国内（Museum of International Folk Art、Palace of the Governorsなど）で、americas-north外への文書化された接続は確認できない。なお、ニューメキシコ歴史博物館の解説は第一世代のサンテロが南部ヌエバ・エスパーニャから移住したと記し、ラグーナ・サンテロもそうだった可能性が高いとするが、これは起源への流入であり、上の4経路のいずれにも当たらない。
   sources:
   - https://www.wikidata.org/wiki/Q30213495
-  - https://blog.nmhistorymuseum.org/2011/09/exploring-the-global-roots-of-santeros/
+  - https://tesoros.nmhistorymuseum.org/heritage-more-text.html
+  - https://tesoros.nmhistorymuseum.org/tesoros-lightbox/more-text-laguna-santero.html
 - movement_id: movement/shanghai-school
   status: no-documented-cross-region-relation
   checked: '2026-08-25'

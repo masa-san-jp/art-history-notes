@@ -5937,7 +5937,7 @@
     },
     "movement/santero": {
       "completed": true,
-      "content_sha256": "383db9fa725927196929848d3595335a7ec6dc1502ff8cd40f59c0a18075fc59",
+      "content_sha256": "85c22fe40c8710322c60697da9f1c526f2c169786107aa857f0c42c2a92979a7",
       "history": [
         {
           "accepted": true,
@@ -5958,15 +5958,16 @@
           "value_sha256": "c46c041ce888ac802aeaa833971696d791475277bca48f0f1a6615633aedf6c9"
         }
       ],
-      "source_commit": "d5bd9bc544343fad551bda87bfe1b5623fda6061",
+      "source_commit": "372928427b3dcdb1921e7c2c9fe5ff2e305d51e9",
       "tags": [
         {
           "evidence": "ブルト（彩色木彫像）",
           "operation_id": "carve",
           "source_locator": "entities/movements/santero.md#定義と範囲",
           "source_refs": [
-            "https://blog.nmhistorymuseum.org/2011/09/exploring-the-global-roots-of-santeros/",
             "https://en.wikipedia.org/wiki/Santos_(art)",
+            "https://tesoros.nmhistorymuseum.org/heritage-more-text.html",
+            "https://tesoros.nmhistorymuseum.org/tesoros-lightbox/more-text-laguna-santero.html",
             "https://www.wikidata.org/wiki/Q30213495"
           ]
         }
@@ -6603,7 +6604,7 @@
     },
     "movement/tarnovo-artistic-school": {
       "completed": true,
-      "content_sha256": "927283e67c745d1d80aedd19017bd5ce770c3df76d32b7a13aab14562db4d220",
+      "content_sha256": "05266b645e9da8e29596347a7dc4e9d03f35f9eb176dac6b30aec76b3782d365",
       "history": [
         {
           "accepted": true,
@@ -6612,7 +6613,7 @@
           "value_sha256": "c46c041ce888ac802aeaa833971696d791475277bca48f0f1a6615633aedf6c9"
         }
       ],
-      "source_commit": "d5bd9bc544343fad551bda87bfe1b5623fda6061",
+      "source_commit": "372928427b3dcdb1921e7c2c9fe5ff2e305d51e9",
       "tags": []
     },
     "movement/thirteen-moderns": {

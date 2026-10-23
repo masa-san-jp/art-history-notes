@@ -35,7 +35,7 @@ space:
   - {role: originated_in, target: place/veliko-tarnovo}
 relations:
   - {type: influenced_by, target: movement/byzantine-art, certainty: scholarly, source: "https://en.wikipedia.org/wiki/Painting_of_the_Tarnovo_Artistic_School"}
-  - {type: diffused_to, target: place/london, certainty: scholarly, source: "https://blogs.bl.uk/digitisedmanuscripts/2012/09/the-gospels-of-tsar-ivan-alexander.html"}
+  - {type: diffused_to, target: place/london, certainty: scholarly, source: "https://web.archive.org/web/20250424201828/https://blogs.bl.uk/digitisedmanuscripts/2012/09/the-gospels-of-tsar-ivan-alexander.html"}
 sources:
   - url: "https://www.wikidata.org/wiki/Q3658056"
     kind: authority
@@ -50,12 +50,12 @@ sources:
     kind: reference
     note: "『Gospels of Tsar Ivan Alexander』の項。1355-56年制作、大英図書館Add MS 39627として
       現存し、タルノヴォ画派の伝統に連なる複数の匿名画家による366〜367点の細密画を含むと記す"
-  - url: "https://blogs.bl.uk/digitisedmanuscripts/2012/09/the-gospels-of-tsar-ivan-alexander.html"
+  - url: "https://web.archive.org/web/20250424201828/https://blogs.bl.uk/digitisedmanuscripts/2012/09/the-gospels-of-tsar-ivan-alexander.html"
     kind: institutional
-    note: "大英図書館公式ブログ。写本が17世紀までにアトス山の聖パウロ修道院に渡り、1837年に
+    note: "大英図書館公式ブログ（元のURLは2026年10月に404となったため、Wayback Machineの2025-04-24保存版を指す）。写本が17世紀までにアトス山の聖パウロ修道院に渡り、1837年に
       同修道院長からイギリス人旅行者ロバート・カーゾンへ贈られ、最終的に同館所蔵となった経緯を記す"
 status: draft
-updated: 2026-09-15
+updated: 2026-10-22
 ---
 
 # タルノヴォ画派 / Painting of the Tarnovo Artistic School
