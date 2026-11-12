@@ -28,9 +28,9 @@ naming:
     地域名＋様式名として組み合わせた分析的な呼称。当事者（マヌエル・フランシスコ・リズボア、
     アレイジャジーニョ、メストレ・アタイーデら）が自らをこの名で呼んだ記録は無い"
 claims:
-  - {field: time, source: "https://en.wikipedia.org/wiki/Aleijadinho", certainty: scholarly}
-  - {field: originated_in, source: "https://pt.wikipedia.org/wiki/Barroco_mineiro", certainty: scholarly}
-  - {field: kind, source: "https://pt.wikipedia.org/wiki/Barroco_mineiro", certainty: scholarly}
+  - {field: time, source: "https://whc.unesco.org/en/list/124", certainty: scholarly}
+  - {field: originated_in, source: "https://whc.unesco.org/en/list/124", certainty: scholarly}
+  - {field: kind, source: "https://whc.unesco.org/en/list/124", certainty: scholarly}
 evidence: []
 space:
   - {role: originated_in, target: place/ouro-preto}
@@ -49,8 +49,19 @@ sources:
       項。ブラジル植民地美術の『ほぼ総意による最大の担い手』とされ、活動地をオウロ・プレット、
       サバラー、サン・ジョアン・デル・レイ、コンゴーニャスとする。代表作《十二預言者像》
       （コンゴーニャス、1800-1805年、蝋石彫刻）を記す"
-status: draft
-updated: 2026-09-15
+  - url: "https://whc.unesco.org/en/list/124"
+    kind: institutional
+    note: "ユネスコ世界遺産『オウロ・プレット歴史地区』。18世紀初頭に創設されたヴィラ・リカが
+      金鉱地帯の中心で、1720〜1897年にミナスジェライス州の州都だったと記し、アレイジャジーニョら
+      ブラジル・バロックの主要作品がここにあると述べる。取得日2026-11-13、Wayback Machine
+      2025年の保存版を取得元とした"
+  - url: "https://whc.unesco.org/en/list/334"
+    kind: institutional
+    note: "ユネスコ世界遺産『コンゴーニャスのボン・ジェズス・デ・マトジーニョス聖域』。
+      18世紀後半に遡る聖域で、石鹸石の《十二預言者像》がアレイジャジーニョの代表作と記す。
+      取得日2026-11-13、Wayback Machine 2025年の保存版を取得元とした"
+status: verified
+updated: 2026-11-13
 ---
 
 # ミナス・バロック / Barroco Mineiro
@@ -77,6 +88,16 @@ Wikipediaはこう記す（二次情報、原文引用）。
 二次情報）。父マヌエル・フランシスコ・リズボア（ポルトガル出身の建築家）や、画家メストレ・
 アタイーデもこの様式の担い手として知られる。
 
+ユネスコ世界遺産「[オウロ・プレット歴史地区](https://whc.unesco.org/en/list/124)」の説明（機関資料、
+取得日2026-11-13、Wayback Machine 2025年の保存版）は、この町を18世紀初頭に創設されたヴィラ・リカ
+（金鉱地帯の中心）とし、1720〜1897年にミナスジェライス州の州都だったと記す。同じ説明は、
+ブラジル・バロック期の主要作品の多くがここの芸術家によるものとし、アレイジャジーニョ設計・彫刻の
+サン・フランシスコ・デ・アシス教会を挙げる。「[コンゴーニャスのボン・ジェズス・デ・マトジーニョス
+聖域](https://whc.unesco.org/en/list/334)」の説明（同日取得）は、18世紀後半に遡る聖域の石鹸石の
+《十二預言者像》をアレイジャジーニョの代表作とし、「熱帯へ運ばれたバロックスタイル」の独創的な表現と記す。
+
+**未確認**: スタイルの終期（19世紀）とアレイジャジーニョの生没年はWikipediaに拠る。機関資料では確かめていない。
+
 ## kind の判定
 
 `period-style` とした。単一の血縁・工房・自称ではなく、ヴィラ・リカ（現オウロ・プレット）を中心と
@@ -96,6 +117,6 @@ Wikipediaはこう記す（二次情報、原文引用）。
 - アレイジャジーニョ、マヌエル・フランシスコ・リズボア、メストレ・アタイーデを person
   エンティティとして立てるかどうか
 - 《十二預言者像》を work エンティティとして立てるかどうか
-- UNESCO世界遺産登録（1985年）の一次資料（whc.unesco.orgは今回403でブロックされた）
+- UNESCO世界遺産登録年（コンゴーニャス1985年）の確認（Wayback保存版の本文に登録年の記載を確認していない）
 - 文化圏間接続（4経路）: 検索した範囲では、アレイジャジーニョの作品はほぼ全てミナスジェライス州
   内に残っており、海外の美術館収蔵など域外への文書化された接続は見つけられなかった
