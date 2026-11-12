@@ -3183,17 +3183,17 @@
       "claims": [
         {
           "field": "time",
-          "source": "https://en.wikipedia.org/wiki/Aleijadinho",
+          "source": "https://whc.unesco.org/en/list/124",
           "certainty": "scholarly"
         },
         {
           "field": "originated_in",
-          "source": "https://pt.wikipedia.org/wiki/Barroco_mineiro",
+          "source": "https://whc.unesco.org/en/list/124",
           "certainty": "scholarly"
         },
         {
           "field": "kind",
-          "source": "https://pt.wikipedia.org/wiki/Barroco_mineiro",
+          "source": "https://whc.unesco.org/en/list/124",
           "certainty": "scholarly"
         }
       ],
@@ -3219,10 +3219,20 @@
           "url": "https://en.wikipedia.org/wiki/Aleijadinho",
           "kind": "reference",
           "note": "アントニオ・フランシスコ・リズボア（愛称アレイジャジーニョ、1730または1738年-1814年）の 項。ブラジル植民地美術の『ほぼ総意による最大の担い手』とされ、活動地をオウロ・プレット、 サバラー、サン・ジョアン・デル・レイ、コンゴーニャスとする。代表作《十二預言者像》 （コンゴーニャス、1800-1805年、蝋石彫刻）を記す"
+        },
+        {
+          "url": "https://whc.unesco.org/en/list/124",
+          "kind": "institutional",
+          "note": "ユネスコ世界遺産『オウロ・プレット歴史地区』。18世紀初頭に創設されたヴィラ・リカが 金鉱地帯の中心で、1720〜1897年にミナスジェライス州の州都だったと記し、アレイジャジーニョら ブラジル・バロックの主要作品がここにあると述べる。取得日2026-11-13、Wayback Machine 2025年の保存版を取得元とした"
+        },
+        {
+          "url": "https://whc.unesco.org/en/list/334",
+          "kind": "institutional",
+          "note": "ユネスコ世界遺産『コンゴーニャスのボン・ジェズス・デ・マトジーニョス聖域』。 18世紀後半に遡る聖域で、石鹸石の《十二預言者像》がアレイジャジーニョの代表作と記す。 取得日2026-11-13、Wayback Machine 2025年の保存版を取得元とした"
         }
       ],
-      "status": "draft",
-      "updated": "2026-09-15",
+      "status": "verified",
+      "updated": "2026-11-13",
       "path": "entities/movements/barroco-mineiro.md"
     },
     "movement/basohli-painting": {
@@ -7832,17 +7842,17 @@
       "claims": [
         {
           "field": "time",
-          "source": "https://en.wikipedia.org/wiki/Chennakeshava_Temple,_Belur",
+          "source": "https://whc.unesco.org/en/list/1670",
           "certainty": "scholarly"
         },
         {
           "field": "originated_in",
-          "source": "https://en.wikipedia.org/wiki/Chennakeshava_Temple,_Belur",
+          "source": "https://whc.unesco.org/en/list/1670",
           "certainty": "scholarly"
         },
         {
           "field": "kind",
-          "source": "https://www.wikidata.org/wiki/Q2361582",
+          "source": "https://whc.unesco.org/en/list/1670",
           "certainty": "scholarly"
         }
       ],
@@ -7880,10 +7890,15 @@
           "url": "https://www.britishmuseum.org/collection/object/A_1967-1016-1",
           "kind": "institutional",
           "note": "大英博物館収蔵《バイラヴァ神像》（花崗岩、カルナータカ、ホイサラ様式、 1200-1250年頃）。シヴァ神の恐怖相バイラヴァを表し、剣・両面太鼓・生首・髑髏杯・ 三叉戟を持つ姿で、装身具に厚く覆われる点がホイサラ様式の特徴と記す"
+        },
+        {
+          "url": "https://whc.unesco.org/en/list/1670",
+          "kind": "institutional",
+          "note": "ユネスコ世界遺産『ホイサラの聖なる建築群』（2023年登録）。ベルール、ハレビドゥ、 ソーマナータプラの3寺院群を、現カルナータカ州で12〜13世紀に建てられた代表的な ホイサラスタイルの寺院とし、星形の聖室・周回基壇・多層フリーズ・外壁全面の彫刻を組み合わせた スタイルがホイサラ王国の独自性を築いたと記す。ベルールの寺院は1117年に始まる。取得日2026-11-13、 Wayback Machine 2025年の保存版を取得元とした"
         }
       ],
-      "status": "draft",
-      "updated": "2026-09-16",
+      "status": "verified",
+      "updated": "2026-11-13",
       "path": "entities/movements/hoysala-art.md"
     },
     "movement/hudson-river-school": {
