@@ -14,7 +14,7 @@ depends_on: []
 <!-- generated:coverage:start -->
 データの最新日: 2026-11-13 — `uv run --locked python tools/build_graph.py` が生成（手で書き換えない）
 
-movement **181** 件（stub 0件は不算入）／内訳 {'draft': 60, 'stub': 0, 'verified': 121}
+movement **181** 件（stub 0件は不算入）／内訳 {'draft': 59, 'stub': 0, 'verified': 122}
 concept **12** 件 / method **4** 件 / method→work|movement **3** 本
 
 | 文化圏 | 9BCE | 4C | 6C | 7C | 8C | 9C | 10C | 11C | 12C | 13C | 14C | 15C | 16C | 17C | 18C | 19C | 20C | 21C | 年代不明 | 計 |

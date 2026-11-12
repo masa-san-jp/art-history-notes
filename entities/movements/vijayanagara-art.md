@@ -55,8 +55,8 @@ sources:
       各王朝が統治した時代に発展したチャールキヤ・ホイサラ・ラーシュトラクータ・
       パーンディヤ・チョーラの諸様式を組み合わせたものだと記す。カーカティーヤ朝への
       言及は無い"
-status: draft
-updated: 2026-09-21
+status: verified
+updated: 2026-11-13
 ---
 
 # ヴィジャヤナガル美術 / Vijayanagara Art
