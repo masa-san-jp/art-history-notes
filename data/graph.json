@@ -556,7 +556,7 @@
         }
       ],
       "status": "draft",
-      "updated": "2026-09-21",
+      "updated": "2026-11-14",
       "path": "entities/concepts/trompe-loeil.md"
     },
     "concept/ukiyo-e": {
@@ -14395,6 +14395,12 @@
           "target": "movement/maruyama-shijo-school",
           "certainty": "scholarly",
           "source": "https://www.yamatane-museum.jp/en/nihonga/"
+        },
+        {
+          "type": "diffused_to",
+          "target": "place/kolkata",
+          "certainty": "scholarly",
+          "source": "https://amis-musee-cernuschi.org/en/les-liens-artistiques-et-culturels-entre-linde-et-le-japon-vers-1890-1940-2/"
         }
       ],
       "images": [
@@ -14441,7 +14447,7 @@
         }
       ],
       "status": "verified",
-      "updated": "2026-08-25",
+      "updated": "2026-11-14",
       "path": "entities/movements/nihonga.md"
     },
     "movement/nok-sculpture": {
@@ -18085,6 +18091,12 @@
         {
           "type": "derives_from",
           "target": "movement/cubo-futurism",
+          "certainty": "attested",
+          "source": "https://velikanov.ru/lib/%D0%9C%D0%B0%D0%BB%D0%B5%D0%B2%D0%B8%D1%87.%20%D0%9E%D1%82%20%D0%BA%D1%83%D0%B1%D0%B8%D0%B7%D0%BC%D0%B0%20%D0%BA%20%D1%81%D1%83%D0%BF%D1%80%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%B7%D0%BC%D1%83.pdf"
+        },
+        {
+          "type": "influenced_by",
+          "target": "movement/cubism",
           "certainty": "attested",
           "source": "https://velikanov.ru/lib/%D0%9C%D0%B0%D0%BB%D0%B5%D0%B2%D0%B8%D1%87.%20%D0%9E%D1%82%20%D0%BA%D1%83%D0%B1%D0%B8%D0%B7%D0%BC%D0%B0%20%D0%BA%20%D1%81%D1%83%D0%BF%D1%80%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%B7%D0%BC%D1%83.pdf"
         }
@@ -79930,6 +79942,13 @@
     },
     {
       "from": "movement/nihonga",
+      "type": "diffused_to",
+      "to": "place/kolkata",
+      "certainty": "scholarly",
+      "source": "https://amis-musee-cernuschi.org/en/les-liens-artistiques-et-culturels-entre-linde-et-le-japon-vers-1890-1940-2/"
+    },
+    {
+      "from": "movement/nihonga",
       "type": "originated_in",
       "to": "place/tokyo"
     },
@@ -80435,6 +80454,13 @@
       "from": "movement/suprematism",
       "type": "derives_from",
       "to": "movement/cubo-futurism",
+      "certainty": "attested",
+      "source": "https://velikanov.ru/lib/%D0%9C%D0%B0%D0%BB%D0%B5%D0%B2%D0%B8%D1%87.%20%D0%9E%D1%82%20%D0%BA%D1%83%D0%B1%D0%B8%D0%B7%D0%BC%D0%B0%20%D0%BA%20%D1%81%D1%83%D0%BF%D1%80%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%B7%D0%BC%D1%83.pdf"
+    },
+    {
+      "from": "movement/suprematism",
+      "type": "influenced_by",
+      "to": "movement/cubism",
       "certainty": "attested",
       "source": "https://velikanov.ru/lib/%D0%9C%D0%B0%D0%BB%D0%B5%D0%B2%D0%B8%D1%87.%20%D0%9E%D1%82%20%D0%BA%D1%83%D0%B1%D0%B8%D0%B7%D0%BC%D0%B0%20%D0%BA%20%D1%81%D1%83%D0%BF%D1%80%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%B7%D0%BC%D1%83.pdf"
     },
@@ -96694,6 +96720,12 @@
       "derived": true
     },
     {
+      "from": "place/kolkata",
+      "type": "received",
+      "to": "movement/nihonga",
+      "derived": true
+    },
+    {
       "from": "place/paris",
       "type": "received",
       "to": "movement/nok-sculpture",
@@ -96960,6 +96992,12 @@
     {
       "from": "movement/cubo-futurism",
       "type": "derived_into",
+      "to": "movement/suprematism",
+      "derived": true
+    },
+    {
+      "from": "movement/cubism",
+      "type": "influenced",
       "to": "movement/suprematism",
       "derived": true
     },
