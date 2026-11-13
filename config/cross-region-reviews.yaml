@@ -265,13 +265,6 @@ reviews:
   sources:
   - https://rubinmuseum.org/projecthimalayanart/glossary/newar/
   - https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300018822
-- movement_id: movement/nihonga
-  status: no-documented-cross-region-relation
-  checked: '2026-08-25'
-  note: 2026-08-25時点で、movement→movement relation、movement→placeのdiffused_to、space.active_in、movement→event/orgのexhibited_at→held_at/sited_inの4経路を、当該movementに登録された資料を対象に確認した。起源region外への文書化された接続は確認できない。未確認なのは、資料化されていない個人間往来・展示・受容、ならびに視覚的類似だけであり、視覚的類似から因果関係は推定していない。
-  sources:
-  - https://www.yamatane-museum.jp/en/nihonga/
-  - http://museums.toyamaken.jp/documents/documents007/
 - movement_id: movement/northwest-coast-carving
   status: no-documented-cross-region-relation
   checked: '2026-08-25'
@@ -357,13 +350,6 @@ reviews:
   sources:
   - https://www.wikidata.org/wiki/Q489021
   - https://en.wikipedia.org/wiki/Sudano-Sahelian_architecture
-- movement_id: movement/suprematism
-  status: no-documented-cross-region-relation
-  checked: '2026-08-25'
-  note: 2026-08-25時点で、movement→movement relation、movement→placeのdiffused_to、space.active_in、movement→event/orgのexhibited_at→held_at/sited_inの4経路を、当該movementに登録された資料を対象に確認した。起源region外への文書化された接続は確認できない。未確認なのは、資料化されていない個人間往来・展示・受容、ならびに視覚的類似だけであり、視覚的類似から因果関係は推定していない。
-  sources:
-  - https://velikanov.ru/lib/%D0%9C%D0%B0%D0%BB%D0%B5%D0%B2%D0%B8%D1%87.%20%D0%9E%D1%82%20%D0%BA%D1%83%D0%B1%D0%B8%D0%B7%D0%BC%D0%B0%20%D0%BA%20%D1%81%D1%83%D0%BF%D1%80%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%B7%D0%BC%D1%83.pdf
-  - https://www.artic.edu/artworks/199128
 - movement_id: movement/surrealism
   status: no-documented-cross-region-relation
   checked: '2026-08-25'
