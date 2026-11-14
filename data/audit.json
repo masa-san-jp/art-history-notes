@@ -5,8 +5,8 @@
     "schema_version": 1,
     "movement_total": 181,
     "counts": {
-      "connected": 115,
-      "reviewed-no-documented-link": 66,
+      "connected": 117,
+      "reviewed-no-documented-link": 64,
       "unreviewed": 0
     },
     "connected": [
@@ -79,6 +79,7 @@
       "movement/mavo",
       "movement/menri-school",
       "movement/mewar-painting",
+      "movement/mexican-muralism",
       "movement/mingei",
       "movement/missao-artistica-francesa",
       "movement/moai",
@@ -118,6 +119,7 @@
       "movement/tongan-ngatu",
       "movement/tosa-school",
       "movement/ukrainian-baroque",
+      "movement/utagawa-school",
       "movement/venetian-school",
       "movement/vijayanagara-art",
       "movement/yamato-e",
@@ -165,7 +167,6 @@
       "movement/mandalay-style",
       "movement/mannerism",
       "movement/melayu-mauli-buddhist-art",
-      "movement/mexican-muralism",
       "movement/mono-ha",
       "movement/moscow-school-icon-painting",
       "movement/muhammad-ali-mosque-architecture",
@@ -190,7 +191,6 @@
       "movement/suprematism",
       "movement/surrealism",
       "movement/tongan-langi-architecture",
-      "movement/utagawa-school",
       "movement/wu-school",
       "movement/zhe-school"
     ],
@@ -3297,24 +3297,31 @@
       },
       {
         "movement_id": "movement/mexican-muralism",
-        "status": "reviewed-no-documented-link",
+        "status": "connected",
         "origin_regions": [
           "americas-latin"
         ],
-        "routes": [],
-        "reasons": [
-          "2026-08-25時点で、movement→movement relation、movement→placeのdiffused_to、space.active_in、movement→event/orgのexhibited_at→held_at/sited_inの4経路を、当該movementに登録された資料を対象に確認した。起源region外への文書化された接続は確認できない。未確認なのは、資料化されていない個人間往来・展示・受容、ならびに視覚的類似だけであり、視覚的類似から因果関係は推定していない。"
+        "routes": [
+          {
+            "kind": "diffused-to-place",
+            "edges": [
+              {
+                "from": "movement/mexican-muralism",
+                "type": "diffused_to",
+                "to": "place/new-york-city",
+                "certainty": "scholarly",
+                "source": "https://whitney.org/media/46248"
+              }
+            ],
+            "destination_regions": [
+              "americas-north"
+            ]
+          }
         ],
-        "review": {
-          "movement_id": "movement/mexican-muralism",
-          "status": "no-documented-cross-region-relation",
-          "checked": "2026-08-25",
-          "note": "2026-08-25時点で、movement→movement relation、movement→placeのdiffused_to、space.active_in、movement→event/orgのexhibited_at→held_at/sited_inの4経路を、当該movementに登録された資料を対象に確認した。起源region外への文書化された接続は確認できない。未確認なのは、資料化されていない個人間往来・展示・受容、ならびに視覚的類似だけであり、視覚的類似から因果関係は推定していない。",
-          "sources": [
-            "https://www.scielo.org.mx/scielo.php?script=sci_arttext&pid=S2448-83722019000100115",
-            "https://en.wikipedia.org/wiki/Mexican_muralism"
-          ]
-        }
+        "reasons": [
+          "1経路で起源region外へ到達"
+        ],
+        "review": null
       },
       {
         "movement_id": "movement/mingei",
@@ -5155,24 +5162,31 @@
       },
       {
         "movement_id": "movement/utagawa-school",
-        "status": "reviewed-no-documented-link",
+        "status": "connected",
         "origin_regions": [
           "asia-east-japan"
         ],
-        "routes": [],
-        "reasons": [
-          "2026-08-25時点で、movement→movement relation、movement→placeのdiffused_to、space.active_in、movement→event/orgのexhibited_at→held_at/sited_inの4経路を、当該movementに登録された資料を対象に確認した。起源region外への文書化された接続は確認できない。未確認なのは、資料化されていない個人間往来・展示・受容、ならびに視覚的類似だけであり、視覚的類似から因果関係は推定していない。"
+        "routes": [
+          {
+            "kind": "diffused-to-place",
+            "edges": [
+              {
+                "from": "movement/utagawa-school",
+                "type": "diffused_to",
+                "to": "place/paris",
+                "certainty": "scholarly",
+                "source": "https://www.vangoghmuseum.nl/en/collection/s0114V1962"
+              }
+            ],
+            "destination_regions": [
+              "europe-west"
+            ]
+          }
         ],
-        "review": {
-          "movement_id": "movement/utagawa-school",
-          "status": "no-documented-cross-region-relation",
-          "checked": "2026-08-25",
-          "note": "2026-08-25時点で、movement→movement relation、movement→placeのdiffused_to、space.active_in、movement→event/orgのexhibited_at→held_at/sited_inの4経路を、当該movementに登録された資料を対象に確認した。起源region外への文書化された接続は確認できない。未確認なのは、資料化されていない個人間往来・展示・受容、ならびに視覚的類似だけであり、視覚的類似から因果関係は推定していない。",
-          "sources": [
-            "https://kunisada-and-kabuki.fitzmuseum.cam.ac.uk/themes/kunisadas-names",
-            "https://www.artic.edu/artworks/15804"
-          ]
-        }
+        "reasons": [
+          "1経路で起源region外へ到達"
+        ],
+        "review": null
       },
       {
         "movement_id": "movement/venetian-school",

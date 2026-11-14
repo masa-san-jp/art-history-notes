@@ -27,7 +27,8 @@ claims:
   - {field: kind, source: "https://www.scielo.org.mx/scielo.php?script=sci_arttext&pid=S2448-83722019000100115", certainty: scholarly}
 space:
   - {role: originated_in, target: place/mexico-city}
-relations: []
+relations:
+  - {type: diffused_to, target: place/new-york-city, certainty: scholarly, source: "https://whitney.org/media/46248"}
 sources:
   - url: "https://www.wikidata.org/wiki/Q938864"
     kind: authority
@@ -47,8 +48,14 @@ sources:
     kind: reference
   - url: "https://designmanifestos.org/taller-de-grafica-popular-manifesto-of-the-painters-union/"
     kind: reference
+  - url: "https://whitney.org/media/46248"
+    kind: institutional
+    note: "ホイットニー美術館の音声解説（2020-01-22）。ポロック作品の項で、シケイロスが1936年にニューヨークで実験工房を設けたと述べる。取得日 2026-11-15、curl で直接取得"
+  - url: "https://whitney.org/exhibitions/vida-americana"
+    kind: institutional
+    note: "ホイットニー美術館「Vida Americana」展の公式ページ（2020-02-17〜2021-01-31）。取得日 2026-11-15、curl で直接取得"
 status: verified
-updated: 2026-08-25
+updated: 2026-11-15
 ---
 
 # メキシコ壁画運動 / Mexican muralism
@@ -250,6 +257,13 @@ TheArtStoryは運動の期間を「1920年〜1950年」と表示するが、こ�
 had on their counterparts in the United States" と書く
 （[whitney.org/exhibitions/vida-americana](https://whitney.org/exhibitions/vida-americana)）。
 本KBが出典で押さえられているのはシケイロスの経路だけである。
+
+この運動の側からも、ニューヨークへの `diffused_to` を張った。動いたのは人で、根拠はホイットニー美術館の
+音声解説（[whitney.org/media/46248](https://whitney.org/media/46248)、英語、機関資料、2026-11-15に取得）の
+"an artistic collective that Siqueiros established in New York in 1936" である。展覧会ページ
+（[vida-americana](https://whitney.org/exhibitions/vida-americana)、同日取得）は、3人が合衆国で
+「壁画・絵画・版画を制作し、地元の作家と交流した」と述べるが、都市名は挙げていない。
+**未確認**: リベラのニューヨーク個展（1931年）など、都市を特定できる他の経路は一次資料に当たっていない。
 
 ## 未着手
 

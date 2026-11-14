@@ -4762,7 +4762,7 @@
     },
     "movement/mexican-muralism": {
       "completed": true,
-      "content_sha256": "9bdf6a563a6572d8e5126ec4e385733276ac8386bbf51b87b06339f26e9ee3f1",
+      "content_sha256": "edced90d89df177c97b24b3cc7a905e180d9993cb4f76ef403bc095e9b0ebd4e",
       "history": [
         {
           "accepted": true,
@@ -4771,7 +4771,7 @@
           "value_sha256": "c46c041ce888ac802aeaa833971696d791475277bca48f0f1a6615633aedf6c9"
         }
       ],
-      "source_commit": "d5bd9bc544343fad551bda87bfe1b5623fda6061",
+      "source_commit": "27b09753d3322adec4c41f95efa8cbb7bb28dbf9",
       "tags": []
     },
     "movement/mingei": {
@@ -6812,7 +6812,7 @@
     },
     "movement/utagawa-school": {
       "completed": true,
-      "content_sha256": "ca180a147ad430c5b4a89d5e78d2280b3a03ec885c8cec6b0c5e2a4768fc90cb",
+      "content_sha256": "b9dbef3b865b6806eb1d2e984486d45e0ea5855a2b6557934203032c203db89c",
       "history": [
         {
           "accepted": true,
@@ -6833,7 +6833,7 @@
           "value_sha256": "c46c041ce888ac802aeaa833971696d791475277bca48f0f1a6615633aedf6c9"
         }
       ],
-      "source_commit": "d5bd9bc544343fad551bda87bfe1b5623fda6061",
+      "source_commit": "27b09753d3322adec4c41f95efa8cbb7bb28dbf9",
       "tags": [
         {
           "evidence": "現存する浮世絵\n版画がこの派に帰属する",
@@ -6848,6 +6848,7 @@
             "https://www.artic.edu/artworks/15804",
             "https://www.artic.edu/artworks/24248",
             "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&subjectid=300018662",
+            "https://www.vangoghmuseum.nl/en/collection/s0114V1962",
             "https://www.wikidata.org/wiki/Q1490",
             "https://www.wikidata.org/wiki/Q2297646"
           ]

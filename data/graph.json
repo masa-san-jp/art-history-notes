@@ -556,7 +556,7 @@
         }
       ],
       "status": "draft",
-      "updated": "2026-09-21",
+      "updated": "2026-11-15",
       "path": "entities/concepts/trompe-loeil.md"
     },
     "concept/ukiyo-e": {
@@ -12560,7 +12560,14 @@
           "target": "place/mexico-city"
         }
       ],
-      "relations": [],
+      "relations": [
+        {
+          "type": "diffused_to",
+          "target": "place/new-york-city",
+          "certainty": "scholarly",
+          "source": "https://whitney.org/media/46248"
+        }
+      ],
       "sources": [
         {
           "url": "https://www.wikidata.org/wiki/Q938864",
@@ -12597,10 +12604,20 @@
         {
           "url": "https://designmanifestos.org/taller-de-grafica-popular-manifesto-of-the-painters-union/",
           "kind": "reference"
+        },
+        {
+          "url": "https://whitney.org/media/46248",
+          "kind": "institutional",
+          "note": "ホイットニー美術館の音声解説（2020-01-22）。ポロック作品の項で、シケイロスが1936年にニューヨークで実験工房を設けたと述べる。取得日 2026-11-15、curl で直接取得"
+        },
+        {
+          "url": "https://whitney.org/exhibitions/vida-americana",
+          "kind": "institutional",
+          "note": "ホイットニー美術館「Vida Americana」展の公式ページ（2020-02-17〜2021-01-31）。取得日 2026-11-15、curl で直接取得"
         }
       ],
       "status": "verified",
-      "updated": "2026-08-25",
+      "updated": "2026-11-15",
       "path": "entities/movements/mexican-muralism.md"
     },
     "movement/mingei": {
@@ -19285,6 +19302,12 @@
         {
           "type": "part_of",
           "target": "concept/ukiyo-e"
+        },
+        {
+          "type": "diffused_to",
+          "target": "place/paris",
+          "certainty": "scholarly",
+          "source": "https://www.vangoghmuseum.nl/en/collection/s0114V1962"
         }
       ],
       "images": [
@@ -19350,10 +19373,15 @@
         {
           "url": "https://www.wikidata.org/wiki/Q1490",
           "kind": "authority"
+        },
+        {
+          "url": "https://www.vangoghmuseum.nl/en/collection/s0114V1962",
+          "kind": "institutional",
+          "note": "ファン・ゴッホ《雨の橋（広重による）》の所蔵館記録。取得日 2026-11-15、curl で直接取得"
         }
       ],
       "status": "verified",
-      "updated": "2026-08-25",
+      "updated": "2026-11-15",
       "path": "entities/movements/utagawa-school.md"
     },
     "movement/venetian-school": {
@@ -79597,6 +79625,13 @@
     },
     {
       "from": "movement/mexican-muralism",
+      "type": "diffused_to",
+      "to": "place/new-york-city",
+      "certainty": "scholarly",
+      "source": "https://whitney.org/media/46248"
+    },
+    {
+      "from": "movement/mexican-muralism",
       "type": "originated_in",
       "to": "place/mexico-city"
     },
@@ -80651,6 +80686,13 @@
       "to": "concept/ukiyo-e",
       "certainty": null,
       "source": null
+    },
+    {
+      "from": "movement/utagawa-school",
+      "type": "diffused_to",
+      "to": "place/paris",
+      "certainty": "scholarly",
+      "source": "https://www.vangoghmuseum.nl/en/collection/s0114V1962"
     },
     {
       "from": "movement/utagawa-school",
@@ -96490,6 +96532,12 @@
       "derived": true
     },
     {
+      "from": "place/new-york-city",
+      "type": "received",
+      "to": "movement/mexican-muralism",
+      "derived": true
+    },
+    {
       "from": "person/yanagi-soetsu",
       "type": "created",
       "to": "movement/mingei",
@@ -97092,6 +97140,12 @@
     {
       "from": "concept/ukiyo-e",
       "type": "has_part",
+      "to": "movement/utagawa-school",
+      "derived": true
+    },
+    {
+      "from": "place/paris",
+      "type": "received",
       "to": "movement/utagawa-school",
       "derived": true
     },
