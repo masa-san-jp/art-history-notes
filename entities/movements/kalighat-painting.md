@@ -27,9 +27,9 @@ naming:
     による呼称。無名の絵師たちが寺院参詣者向けに制作した大衆絵画であり、当事者自身が
     一つの様式movementとして名乗った記録は無い"
 claims:
-  - {field: time, source: "https://en.wikipedia.org/wiki/Kalighat_painting", certainty: scholarly}
-  - {field: originated_in, source: "https://en.wikipedia.org/wiki/Kalighat_painting", certainty: scholarly}
-  - {field: kind, source: "https://www.wikidata.org/wiki/Q6352595", certainty: scholarly}
+  - {field: time, source: "https://www.vam.ac.uk/articles/kalighat-painting", certainty: scholarly}
+  - {field: originated_in, source: "https://www.vam.ac.uk/articles/kalighat-painting", certainty: scholarly}
+  - {field: kind, source: "https://www.vam.ac.uk/articles/kalighat-painting", certainty: scholarly}
 evidence: []
 space:
   - {role: originated_in, target: place/kolkata}
@@ -39,6 +39,18 @@ relations:
 sources:
   - url: "https://www.wikidata.org/wiki/Q6352595"
     kind: authority
+  - url: "https://www.vam.ac.uk/articles/kalighat-painting"
+    kind: institutional
+    note: "V&Aの解説記事（最終更新2024-04-17）。2026-11-16に取得。19世紀コルカタ（旧カルカッタ）で
+      発達した独自のジャンルとし、1830年代から1930年代の100年間に制作・収集された約645点を
+      所蔵すると記す。制作者は寺院参詣者向けに安価な絵を売って生計を立てたパトゥア（画工）で、
+      Kalighatはフーグリー川沿いの沐浴場（ガート）に由来する地名と記す"
+  - url: "https://collections.vam.ac.uk/item/O432772/"
+    kind: institutional
+    note: "V&A《Vishnu as Narasimha avatar》（IS.196-1950）。2026-11-16にV&A API
+      （museumobject/O432772）で様式欄「Kalighat」、制作地「Kolkata」、制作年「ca. 1830」を確認。
+      同館のO71567（IS.32-1952、ca. 1900）も様式欄「Kalighat」・制作地「Kolkata」。
+      1930年代までの下限と、kindの根拠にあたる命名の経緯は、この資料では確認できていない"
   - url: "https://en.wikipedia.org/wiki/Kalighat_painting"
     kind: reference
     note: "『Kalighat painting』の項。用紙・顔料の物質的証拠から19世紀前半に遡るとし、
@@ -50,8 +62,8 @@ sources:
       モスクワのプーシキン美術館62点、ペンシルベニア大学博物館57点、プラハのナープルステク
       博物館26点、カーディフの国立ウェールズ博物館25点、大英図書館（インド・オフィス・
       ライブラリー）17点を所蔵すると記す"
-status: draft
-updated: 2026-09-16
+status: verified
+updated: 2026-11-16
 ---
 
 # カーリーガート絵画 / Kalighat Painting
@@ -86,3 +98,5 @@ updated: 2026-09-16
   博物館、カーディフの国立ウェールズ博物館、大英図書館の各コレクションの一次資料での確認
 - 代表的な個々の絵師・作品を person/work エンティティとして立てるかどうか
 - 19世紀前半という起点年代の学術論文での確認
+- **未確認**: 「Kalighat painting」という呼称を誰がいつ付けたか。V&Aの記事は地名の由来と制作者が
+  無名のパトゥアだったことは記すが、命名者は記さない
