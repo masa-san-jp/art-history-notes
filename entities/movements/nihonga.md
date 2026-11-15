@@ -31,6 +31,7 @@ space:
 relations:
   - {type: influenced_by, target: movement/yamato-e, certainty: scholarly, source: "https://www.yamatane-museum.jp/en/nihonga/"}
   - {type: influenced_by, target: movement/maruyama-shijo-school, certainty: scholarly, source: "https://www.yamatane-museum.jp/en/nihonga/"}
+  - {type: diffused_to, target: place/kolkata, certainty: scholarly, source: "https://amis-musee-cernuschi.org/en/les-liens-artistiques-et-culturels-entre-linde-et-le-japon-vers-1890-1940-2/"}
 images:
   - url: https://upload.wikimedia.org/wikipedia/commons/4/48/Hishida_Shuns%C5%8D_-_Fallen_Leaves_%28Eisei_Bunko_Museum%29_2.jpg
     source_page: https://commons.wikimedia.org/wiki/File:Hishida_Shuns%C5%8D_-_Fallen_Leaves_(Eisei_Bunko_Museum)_2.jpg
@@ -55,7 +56,7 @@ sources:
   - url: "https://kyoto-museums.city.kyoto.lg.jp/feature-column/painting/"
     kind: institutional
 status: verified
-updated: 2026-08-25
+updated: 2026-11-14
 ---
 
 # 日本画 / Nihonga
@@ -140,7 +141,9 @@ and gradients: this style is called *Morotai*" と説明する
 ## 外へ出た手つき — 同じ技法が2つの方向へ渡った
 
 この括りは受け取っただけでなく、**送り出した側**として2つの文化圏に繋がっている。関係はどちらも
-受け取った側に書いてある。
+受け取った側に書いてあり、インド側は送り出した側からも `diffused_to` で[コルカタ](../places/kolkata.md)へ張った
+（2026-11-14 取得。チェルヌスキ美術館友の会が1903年1月の到着、タゴール周辺の画家への技法の紹介、
+出発前にR.タゴールが40点の展覧会を開いたことを記す。同会は研究機関ではなく友の会であり、二次情報）。
 
 | 受け取った側 | 年 | 動いたもの |
 |---|---|---|
