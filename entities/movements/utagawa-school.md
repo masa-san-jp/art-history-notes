@@ -30,6 +30,7 @@ space:
   - {role: active_in, target: place/tokyo}
 relations:
   - {type: part_of, target: concept/ukiyo-e}
+  - {type: diffused_to, target: place/paris, certainty: scholarly, source: "https://www.vangoghmuseum.nl/en/collection/s0114V1962"}
 images:
   - url: https://www.artic.edu/iiif/2/22e03cc0-d3cb-26e5-c024-167f8e22c55f/full/843,/0/default.jpg
     source_page: https://www.artic.edu/artworks/15804
@@ -67,8 +68,11 @@ sources:
     kind: institutional
   - url: "https://www.wikidata.org/wiki/Q1490"
     kind: authority
+  - url: "https://www.vangoghmuseum.nl/en/collection/s0114V1962"
+    kind: institutional
+    note: "ファン・ゴッホ《雨の橋（広重による）》の所蔵館記録。取得日 2026-11-15、curl で直接取得"
 status: verified
-updated: 2026-08-25
+updated: 2026-11-15
 ---
 
 # 歌川派 / Utagawa school
@@ -173,6 +177,12 @@ Fitzwilliam美術館の学術キャプション（[kunisada-and-kabuki.fitzmuseu
 |---|---|---|
 | [ポスト印象派](post-impressionism.md) | ファン・ゴッホがパリで購入した版画。うち広重の2図を1887年に油彩で模写した | [同項](post-impressionism.md#日本の版画がパリへ運ばれた経路) |
 | [印象派](impressionism.md) | モネのジヴェルニーの家に残る浮世絵243点のうち、広重が48点で最多 | [同項](impressionism.md#日本の版画との接続--壁に掛かっていた48枚) |
+
+この一門の側からも、パリへの `diffused_to` を張った。動いたのは**物**（広重の版画）で、根拠は
+ファン・ゴッホ美術館の所蔵記録（[s0114V1962](https://www.vangoghmuseum.nl/en/collection/s0114V1962)、
+英語、機関資料、2026-11-15 に取得）である。同記録は《雨の橋（広重による）》を1887年10〜11月にパリで
+描いたと記し、「歌川広重の版画に基づく」「色を原作より強くした」と述べる。**未確認**: 同記録の本文は
+版画をどこで入手したかを述べておらず、入手先のパリ内の画商までは確かめていない。
 
 どちらの経路も広重（歌川豊広の弟子）を通っている。**この一門の側にこの往来の記録は無い**——
 渡った先の美術館とコレクションの記録から辿れるだけで、送り出した側の帳面（版元の輸出記録など）は

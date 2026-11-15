@@ -47,12 +47,12 @@ sources:
       19世紀アメリカの静物画家ウィリアム・ハーネットがこの技法を得意とし、ジョン・
       ハーバールも《独身者の抽斗》（1890-1894年）などを制作したと記す"
 status: draft
-updated: 2026-11-14
+updated: 2026-11-15
 ---
 
 # トロンプルイユ / Trompe-l'œil
 
-ASCII表記は trompe-l'oeil。ラテン文字の合字を使わない綴りでも引けるよう、ここに置く。
+綴りには œ を oe と書く trompe-l'oeil の形もある。Getty AAT の検索語（上記 sources の AAT 記録の URL）もこの形である。
 
 ## 定義
 
