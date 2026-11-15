@@ -3565,7 +3565,7 @@
     },
     "movement/kalighat-painting": {
       "completed": true,
-      "content_sha256": "e3155c69983f40722f8eadce0ca1fd97636c98cf21f42e0e39ecb6aff7d733ba",
+      "content_sha256": "ef9c7ddadf1f6115c1cedbda68cbbe791cbd8a7d8cfaf45979fda4c785266c27",
       "history": [
         {
           "accepted": true,
@@ -3598,14 +3598,16 @@
           "value_sha256": "c46c041ce888ac802aeaa833971696d791475277bca48f0f1a6615633aedf6c9"
         }
       ],
-      "source_commit": "d5bd9bc544343fad551bda87bfe1b5623fda6061",
+      "source_commit": "56d6e829597adbd087b8663537176922dcc61bbc",
       "tags": [
         {
           "evidence": "大胆な輪郭線・鮮やかな色調・最小限の\n背景を特徴とし",
           "operation_id": "reduce",
           "source_locator": "entities/movements/kalighat-painting.md#定義と範囲",
           "source_refs": [
+            "https://collections.vam.ac.uk/item/O432772/",
             "https://en.wikipedia.org/wiki/Kalighat_painting",
+            "https://www.vam.ac.uk/articles/kalighat-painting",
             "https://www.wikidata.org/wiki/Q6352595"
           ]
         },
@@ -3614,7 +3616,9 @@
           "operation_id": "narrate",
           "source_locator": "entities/movements/kalighat-painting.md#定義と範囲",
           "source_refs": [
+            "https://collections.vam.ac.uk/item/O432772/",
             "https://en.wikipedia.org/wiki/Kalighat_painting",
+            "https://www.vam.ac.uk/articles/kalighat-painting",
             "https://www.wikidata.org/wiki/Q6352595"
           ]
         }
@@ -4309,7 +4313,7 @@
     },
     "movement/mamluk-art": {
       "completed": true,
-      "content_sha256": "decf768a5261f914accaee6187f2f08f351e2e03c5c7bab7335a07c57e9ac989",
+      "content_sha256": "3fff1f807c8992d5f640700fde9c55d1f464aaf29a821eb6ffcbb6798dceb096",
       "history": [
         {
           "accepted": true,
@@ -4330,14 +4334,16 @@
           "value_sha256": "c46c041ce888ac802aeaa833971696d791475277bca48f0f1a6615633aedf6c9"
         }
       ],
-      "source_commit": "d5bd9bc544343fad551bda87bfe1b5623fda6061",
+      "source_commit": "56d6e829597adbd087b8663537176922dcc61bbc",
       "tags": [
         {
           "evidence": "金地に幾何学文様・唐草文様を用いる",
           "operation_id": "ornament",
           "source_locator": "entities/movements/mamluk-art.md#定義と範囲",
           "source_refs": [
+            "https://clevelandart.org/art/2013.102",
             "https://hyperallergic.com/british-library-digitizes-one-of-the-worlds-oldest-quran-manuscripts/",
+            "https://www.artic.edu/artworks/100740",
             "https://www.missedhistory.com/article/mamluk-qurans",
             "https://www.wikidata.org/wiki/Q2864675"
           ]
