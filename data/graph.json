@@ -523,6 +523,9 @@
       "type": "concept",
       "label_ja": "トロンプルイユ",
       "label_en": "Trompe-l'œil",
+      "aliases": [
+        "trompe-l'oeil"
+      ],
       "authority": {
         "wikidata": "Q468930",
         "aat": "300056506",
@@ -556,7 +559,7 @@
         }
       ],
       "status": "draft",
-      "updated": "2026-09-21",
+      "updated": "2026-11-13",
       "path": "entities/concepts/trompe-loeil.md"
     },
     "concept/ukiyo-e": {
@@ -18016,7 +18019,7 @@
         {
           "url": "https://smarthistory.org/sukhothai-walking-buddha/",
           "kind": "scholarly",
-          "note": "『Sukhothai Walking Buddha』の項。歩行仏をスコータイ王国（1200-1350年）の 古典様式の代表像とし、インドに先行例を持たないタイ独自の発明と記す。スリランカの 上座部仏教美術が最も直接の影響源とする"
+          "note": "『Sukhothai Walking Buddha』の項（Wayback 2025-12-14版を2026-11-13に確認）。 歩行仏の創出を13世紀のタイ美術の特徴と記し、大英博物館所蔵の歩行仏を『スコータイ期、 14世紀』とする。スコータイ王国を『タイ最初の上座部仏教王国』、最大版図を1292年の 地図で示す。扇形でなく炎形の肉髻にスリランカの影響が明らかと記す。この版には 『1200-1350年』という年代範囲の記載は無い"
         },
         {
           "url": "https://www.metmuseum.org/art/collection/search/39102",
@@ -18025,7 +18028,7 @@
         }
       ],
       "status": "draft",
-      "updated": "2026-09-21",
+      "updated": "2026-11-13",
       "path": "entities/movements/sukhothai-art.md"
     },
     "movement/suprematism": {

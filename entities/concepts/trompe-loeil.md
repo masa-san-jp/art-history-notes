@@ -4,6 +4,8 @@ uri: urn:ahn:concept/trompe-loeil
 type: concept
 label_ja: トロンプルイユ
 label_en: Trompe-l'œil
+aliases:
+  - "trompe-l'oeil"
 authority:
   wikidata: Q468930
   aat: "300056506"
@@ -45,7 +47,7 @@ sources:
       19世紀アメリカの静物画家ウィリアム・ハーネットがこの技法を得意とし、ジョン・
       ハーバールも《独身者の抽斗》（1890-1894年）などを制作したと記す"
 status: draft
-updated: 2026-09-21
+updated: 2026-11-13
 ---
 
 # トロンプルイユ / Trompe-l'œil
@@ -57,6 +59,10 @@ Getty AAT（主題ID 300056506）はこう記す（参考資料）。トロン�
 指す。彩色による質感の再現、偽の窓、空間の錯視を生む偽の額縁、棚や戸棚の描写などを含む
 技法で、古代ギリシア美術に見られ、古代ローマで洗練され、ルネサンス期とその後のヨーロッパ・
 アメリカで流行したとされる。
+
+綴りは資料で揺れる。英語版Wikipediaの見出しは合字を使う「Trompe-l'œil」で、これを
+oeに置き換えた「trompe-l'oeil」と、ハイフンを省いたGetty AATの照会語「trompe l'oeil」は、
+同じ語の綴り違いである。
 
 ## 古代の例
 
