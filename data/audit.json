@@ -5,8 +5,8 @@
     "schema_version": 1,
     "movement_total": 181,
     "counts": {
-      "connected": 117,
-      "reviewed-no-documented-link": 64,
+      "connected": 119,
+      "reviewed-no-documented-link": 62,
       "unreviewed": 0
     },
     "connected": [
