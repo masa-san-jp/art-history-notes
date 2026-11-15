@@ -1204,7 +1204,7 @@
     },
     "movement/barroco-mineiro": {
       "completed": true,
-      "content_sha256": "a3e6e5b9209866b497eb63c14cdb7fcec034c073e74df93baf2a072c6c431c23",
+      "content_sha256": "ebe9fc965062c380824e8c4eb9330f35ca1fa643738f4786a13ce41dccc0bbda",
       "history": [
         {
           "accepted": true,
@@ -1213,7 +1213,7 @@
           "value_sha256": "c46c041ce888ac802aeaa833971696d791475277bca48f0f1a6615633aedf6c9"
         }
       ],
-      "source_commit": "d5bd9bc544343fad551bda87bfe1b5623fda6061",
+      "source_commit": "94d90b443938b151c7378a22a35c3acd86326304",
       "tags": []
     },
     "movement/basohli-painting": {
@@ -2790,7 +2790,7 @@
     },
     "movement/hoysala-art": {
       "completed": true,
-      "content_sha256": "d6cf04886ccf6d1a908bfc52158352dbeab083ab1e071026260fa1f70a2823d6",
+      "content_sha256": "6f757aca271c889123617326c8e8e3a56d80b7296a5221911a197e6a011ab891",
       "history": [
         {
           "accepted": true,
@@ -2823,7 +2823,7 @@
           "value_sha256": "c46c041ce888ac802aeaa833971696d791475277bca48f0f1a6615633aedf6c9"
         }
       ],
-      "source_commit": "d5bd9bc544343fad551bda87bfe1b5623fda6061",
+      "source_commit": "94d90b443938b151c7378a22a35c3acd86326304",
       "tags": [
         {
           "evidence": "宮廷生活の場面を刻む。",
@@ -2832,6 +2832,7 @@
           "source_refs": [
             "https://en.wikipedia.org/wiki/Chennakeshava_Temple,_Belur",
             "https://en.wikipedia.org/wiki/Hoysala_architecture",
+            "https://whc.unesco.org/en/list/1670",
             "https://www.britishmuseum.org/collection/object/A_1967-1016-1",
             "https://www.wikidata.org/wiki/Q2361582"
           ]
@@ -2843,6 +2844,7 @@
           "source_refs": [
             "https://en.wikipedia.org/wiki/Chennakeshava_Temple,_Belur",
             "https://en.wikipedia.org/wiki/Hoysala_architecture",
+            "https://whc.unesco.org/en/list/1670",
             "https://www.britishmuseum.org/collection/object/A_1967-1016-1",
             "https://www.wikidata.org/wiki/Q2361582"
           ]
@@ -6870,7 +6872,7 @@
     },
     "movement/vijayanagara-art": {
       "completed": true,
-      "content_sha256": "b502c34036001a5b577b9f4d2bbb68e5dc5f9b9975a6257209d46f6121ddd9c4",
+      "content_sha256": "c1810e197850fc800d5ac45007305bb79dd8da31321d474fde7d7674e0c6f011",
       "history": [
         {
           "accepted": true,
@@ -6891,7 +6893,7 @@
           "value_sha256": "c46c041ce888ac802aeaa833971696d791475277bca48f0f1a6615633aedf6c9"
         }
       ],
-      "source_commit": "d5bd9bc544343fad551bda87bfe1b5623fda6061",
+      "source_commit": "94d90b443938b151c7378a22a35c3acd86326304",
       "tags": [
         {
           "evidence": "花崗岩の柱に跳ねるヤーリ（神獣）に乗る騎手を彫った",

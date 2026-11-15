@@ -127,7 +127,7 @@
     },
     "movement/barroco-mineiro": {
       "completed": true,
-      "content_sha256": "0c31e09e1bd025ea6d721b32a6ffb033f1a8ae4484485c3b7e736451db7b7920",
+      "content_sha256": "9ec621cf6996521ca704297c8e103810a0e28730d4903dab5cbcfe5a0d65d9ea",
       "excerpts": [
         {
           "source_locator": "entities/movements/barroco-mineiro.md#定義と範囲",
@@ -154,7 +154,7 @@
           "value_sha256": "d34661a42f33efe5a325e079a8c7c595625871dc54db242fc0fab36b62ea269c"
         }
       ],
-      "source_commit": "d5bd9bc544343fad551bda87bfe1b5623fda6061"
+      "source_commit": "94d90b443938b151c7378a22a35c3acd86326304"
     },
     "movement/bengal-school": {
       "completed": true,

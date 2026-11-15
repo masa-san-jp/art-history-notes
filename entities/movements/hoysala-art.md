@@ -28,9 +28,9 @@ naming:
   note: "『ホイサラ美術』はホイサラ朝（政体）の名を借りた後代の美術史記述による様式区分。
     当事者（王・彫刻師）自身がこの名で自らの様式を運動として名乗った記録は無い"
 claims:
-  - {field: time, source: "https://en.wikipedia.org/wiki/Chennakeshava_Temple,_Belur", certainty: scholarly}
-  - {field: originated_in, source: "https://en.wikipedia.org/wiki/Chennakeshava_Temple,_Belur", certainty: scholarly}
-  - {field: kind, source: "https://www.wikidata.org/wiki/Q2361582", certainty: scholarly}
+  - {field: time, source: "https://whc.unesco.org/en/list/1670", certainty: scholarly}
+  - {field: originated_in, source: "https://whc.unesco.org/en/list/1670", certainty: scholarly}
+  - {field: kind, source: "https://whc.unesco.org/en/list/1670", certainty: scholarly}
 evidence: []
 space:
   - {role: originated_in, target: place/belur}
@@ -57,8 +57,15 @@ sources:
     note: "大英博物館収蔵《バイラヴァ神像》（花崗岩、カルナータカ、ホイサラ様式、
       1200-1250年頃）。シヴァ神の恐怖相バイラヴァを表し、剣・両面太鼓・生首・髑髏杯・
       三叉戟を持つ姿で、装身具に厚く覆われる点がホイサラ様式の特徴と記す"
-status: draft
-updated: 2026-09-16
+  - url: "https://whc.unesco.org/en/list/1670"
+    kind: institutional
+    note: "ユネスコ世界遺産『ホイサラの聖なる建築群』（2023年登録）。ベルール、ハレビドゥ、
+      ソーマナータプラの3寺院群を、現カルナータカ州で12〜13世紀に建てられた代表的な
+      ホイサラスタイルの寺院とし、星形の聖室・周回基壇・多層フリーズ・外壁全面の彫刻を組み合わせた
+      スタイルがホイサラ王国の独自性を築いたと記す。ベルールの寺院は1117年に始まる。取得日2026-11-13、
+      Wayback Machine 2025年の保存版を取得元とした"
+status: verified
+updated: 2026-11-13
 ---
 
 # ホイサラ美術 / Hoysala Art
@@ -74,6 +81,13 @@ updated: 2026-09-16
 続いたと記す。ホイサラ様式は、寺院の外壁全体を覆う超写実的な彫刻・周回式の基壇・多層の
 フリーズを特徴とし、ラーマーヤナ・マハーバーラタ・バーガヴァタ・プラーナなどの神話や
 宮廷生活の場面を刻む。彫刻師の多くが自らの作品に署名を残したことでも知られる。
+
+ユネスコ世界遺産「[ホイサラの聖なる建築群](https://whc.unesco.org/en/list/1670)」（機関資料、2023年登録、
+取得日2026-11-13、Wayback Machine 2025年の保存版）は、ベルールのチェンナケーシャヴァ寺院、
+ハレビドゥのホイサレーシュヴァラ寺院、ソーマナータプラのケーシャヴァ寺院を、現カルナータカ州で
+12〜13世紀に建てられたホイサラスタイルの代表的な寺院群とする。星形の聖室、その形に沿う周回基壇、
+多層のフリーズ、外壁全面を覆う彫刻の組み合わせが、ホイサラ王国の独自性を築いたと述べ、
+ベルールの寺院は1117年の創建以来礼拝が続くと記す。
 
 ## kind の判定
 
@@ -93,5 +107,4 @@ europe-westへの接続を記録した。
 - ヴィシュヌヴァルダナ王を person エンティティとして立てるかどうか
 - チェンナケーシャヴァ寺院・ホイサレーシュヴァラ寺院を work/place エンティティとして
   個別に立てるかどうか（本ファイルではベルールをoriginated_inの代表地とした）
-- 2023年UNESCO世界遺産登録（「ホイサラの聖なる建築群」）の一次資料での確認
 - メトロポリタン美術館所蔵のホイサラ関連彫刻の一次資料での確認
