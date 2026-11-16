@@ -5,8 +5,8 @@
     "schema_version": 1,
     "movement_total": 181,
     "counts": {
-      "connected": 119,
-      "reviewed-no-documented-link": 62,
+      "connected": 122,
+      "reviewed-no-documented-link": 59,
       "unreviewed": 0
     },
     "connected": [
@@ -24,6 +24,7 @@
       "movement/bamum-art",
       "movement/bandung-school",
       "movement/bark-painting",
+      "movement/barroco-mineiro",
       "movement/basohli-painting",
       "movement/bauhaus",
       "movement/bengal-school",
@@ -85,6 +86,7 @@
       "movement/moai",
       "movement/mongol-zurag",
       "movement/mughal-painting",
+      "movement/muhammad-ali-mosque-architecture",
       "movement/nanga",
       "movement/ndop",
       "movement/negritude",
@@ -107,6 +109,7 @@
       "movement/rattanakosin-mural-painting",
       "movement/renaissance",
       "movement/safavid-painting",
+      "movement/santero",
       "movement/serbian-baroque-painting",
       "movement/sienese-school",
       "movement/srivijaya-art",
@@ -137,7 +140,6 @@
       "movement/bamana-sculpture",
       "movement/barbizon-school",
       "movement/baroque",
-      "movement/barroco-mineiro",
       "movement/byzantine-art",
       "movement/coffin-portrait",
       "movement/colonial-limner-painting",
@@ -171,7 +173,6 @@
       "movement/melayu-mauli-buddhist-art",
       "movement/mono-ha",
       "movement/moscow-school-icon-painting",
-      "movement/muhammad-ali-mosque-architecture",
       "movement/nan-madol-architecture",
       "movement/neoclassicism",
       "movement/newar-art",
@@ -181,7 +182,6 @@
       "movement/realism",
       "movement/rinpa",
       "movement/rococo",
-      "movement/santero",
       "movement/shanghai-school",
       "movement/shiraz-school",
       "movement/song-academy-painting",
@@ -819,24 +819,31 @@
       },
       {
         "movement_id": "movement/barroco-mineiro",
-        "status": "reviewed-no-documented-link",
+        "status": "connected",
         "origin_regions": [
           "americas-latin"
         ],
-        "routes": [],
-        "reasons": [
-          "2026-09-15時点で、movement→movement relation、movement→placeのdiffused_to、space.active_in、movement→event/orgのexhibited_at→held_at/sited_inの4経路を、当該movementに登録された資料を対象に確認した。アレイジャジーニョらの作品はほぼ全てミナスジェライス州内に残っており、海外の美術館収蔵などamericas-latin外への文書化された接続は確認できない。"
+        "routes": [
+          {
+            "kind": "movement-relation",
+            "edges": [
+              {
+                "from": "movement/barroco-mineiro",
+                "type": "derives_from",
+                "to": "movement/baroque",
+                "certainty": "scholarly",
+                "source": "https://pt.wikipedia.org/wiki/Barroco_mineiro"
+              }
+            ],
+            "destination_regions": [
+              "europe-west"
+            ]
+          }
         ],
-        "review": {
-          "movement_id": "movement/barroco-mineiro",
-          "status": "no-documented-cross-region-relation",
-          "checked": "2026-09-15",
-          "note": "2026-09-15時点で、movement→movement relation、movement→placeのdiffused_to、space.active_in、movement→event/orgのexhibited_at→held_at/sited_inの4経路を、当該movementに登録された資料を対象に確認した。アレイジャジーニョらの作品はほぼ全てミナスジェライス州内に残っており、海外の美術館収蔵などamericas-latin外への文書化された接続は確認できない。",
-          "sources": [
-            "https://www.wikidata.org/wiki/Q16142974",
-            "https://en.wikipedia.org/wiki/Aleijadinho"
-          ]
-        }
+        "reasons": [
+          "1経路で起源region外へ到達"
+        ],
+        "review": null
       },
       {
         "movement_id": "movement/basohli-painting",
@@ -3522,24 +3529,31 @@
       },
       {
         "movement_id": "movement/muhammad-ali-mosque-architecture",
-        "status": "reviewed-no-documented-link",
+        "status": "connected",
         "origin_regions": [
           "mena"
         ],
-        "routes": [],
-        "reasons": [
-          "2026-09-16時点で、movement→movement relation、movement→placeのdiffused_to、space.active_in、movement→event/orgのexhibited_at→held_at/sited_inの4経路を、当該movementに登録された資料を対象に確認した。中庭のフランス製大時計塔（1846年、ルイ・フィリップからの贈答）はeurope-westからmenaへの受け入れであり、本movement自身の様式・作品が域外へ拡散した記録ではない。様式の範としたイスタンブールもmena内（regionバケット上）であり域外接続に当たらない。起源region外への文書化された接続は現時点で確認できない。"
+        "routes": [
+          {
+            "kind": "movement-relation",
+            "edges": [
+              {
+                "from": "movement/muhammad-ali-mosque-architecture",
+                "type": "influenced_by",
+                "to": "movement/baroque",
+                "certainty": "scholarly",
+                "source": "https://en.wikipedia.org/wiki/Mosque_of_Muhammad_Ali"
+              }
+            ],
+            "destination_regions": [
+              "europe-west"
+            ]
+          }
         ],
-        "review": {
-          "movement_id": "movement/muhammad-ali-mosque-architecture",
-          "status": "no-documented-cross-region-relation",
-          "checked": "2026-09-16",
-          "note": "2026-09-16時点で、movement→movement relation、movement→placeのdiffused_to、space.active_in、movement→event/orgのexhibited_at→held_at/sited_inの4経路を、当該movementに登録された資料を対象に確認した。中庭のフランス製大時計塔（1846年、ルイ・フィリップからの贈答）はeurope-westからmenaへの受け入れであり、本movement自身の様式・作品が域外へ拡散した記録ではない。様式の範としたイスタンブールもmena内（regionバケット上）であり域外接続に当たらない。起源region外への文書化された接続は現時点で確認できない。",
-          "sources": [
-            "https://www.wikidata.org/wiki/Q652046",
-            "https://en.wikipedia.org/wiki/Mosque_of_Muhammad_Ali"
-          ]
-        }
+        "reasons": [
+          "1経路で起源region外へ到達"
+        ],
+        "review": null
       },
       {
         "movement_id": "movement/nan-madol-architecture",
@@ -4528,25 +4542,31 @@
       },
       {
         "movement_id": "movement/santero",
-        "status": "reviewed-no-documented-link",
+        "status": "connected",
         "origin_regions": [
           "americas-north"
         ],
-        "routes": [],
-        "reasons": [
-          "2026-10-22時点で、movement→movement relation、movement→placeのdiffused_to、space.active_in、movement→event/orgのexhibited_at→held_at/sited_inの4経路を、当該movementに登録された資料を対象に確認した。作例の収蔵先はいずれも米国内（Museum of International Folk Art、Palace of the Governorsなど）で、americas-north外への文書化された接続は確認できない。なお、ニューメキシコ歴史博物館の解説は第一世代のサンテロが南部ヌエバ・エスパーニャから移住したと記し、ラグーナ・サンテロもそうだった可能性が高いとするが、これは起源への流入であり、上の4経路のいずれにも当たらない。"
+        "routes": [
+          {
+            "kind": "movement-relation",
+            "edges": [
+              {
+                "from": "movement/santero",
+                "type": "influenced_by",
+                "to": "movement/baroque",
+                "certainty": "scholarly",
+                "source": "https://tesoros.nmhistorymuseum.org/heritage-more-text.html"
+              }
+            ],
+            "destination_regions": [
+              "europe-west"
+            ]
+          }
         ],
-        "review": {
-          "movement_id": "movement/santero",
-          "status": "no-documented-cross-region-relation",
-          "checked": "2026-10-22",
-          "note": "2026-10-22時点で、movement→movement relation、movement→placeのdiffused_to、space.active_in、movement→event/orgのexhibited_at→held_at/sited_inの4経路を、当該movementに登録された資料を対象に確認した。作例の収蔵先はいずれも米国内（Museum of International Folk Art、Palace of the Governorsなど）で、americas-north外への文書化された接続は確認できない。なお、ニューメキシコ歴史博物館の解説は第一世代のサンテロが南部ヌエバ・エスパーニャから移住したと記し、ラグーナ・サンテロもそうだった可能性が高いとするが、これは起源への流入であり、上の4経路のいずれにも当たらない。",
-          "sources": [
-            "https://www.wikidata.org/wiki/Q30213495",
-            "https://tesoros.nmhistorymuseum.org/heritage-more-text.html",
-            "https://tesoros.nmhistorymuseum.org/tesoros-lightbox/more-text-laguna-santero.html"
-          ]
-        }
+        "reasons": [
+          "1経路で起源region外へ到達"
+        ],
+        "review": null
       },
       {
         "movement_id": "movement/serbian-baroque-painting",
