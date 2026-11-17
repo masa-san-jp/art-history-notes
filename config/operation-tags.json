@@ -1700,7 +1700,7 @@
     },
     "movement/constructivism": {
       "completed": true,
-      "content_sha256": "ebe5681b5e3221227da034d19c033386905cbfa47dc0c36d9c27c94fb38f2f49",
+      "content_sha256": "56b386855ff954af54434cfc7980f7e8be4b73cbfd1965cbf86b32779c964880",
       "history": [
         {
           "accepted": true,
@@ -1721,7 +1721,7 @@
           "value_sha256": "c46c041ce888ac802aeaa833971696d791475277bca48f0f1a6615633aedf6c9"
         }
       ],
-      "source_commit": "d5bd9bc544343fad551bda87bfe1b5623fda6061",
+      "source_commit": "56d6e829597adbd087b8663537176922dcc61bbc",
       "tags": [
         {
           "evidence": "生産と生活に接続する実践へ移ろうとした。",
@@ -1737,6 +1737,7 @@
             "https://www.moma.org/interactives/exhibitions/1998/rodchenko/texts/new_cultural.html",
             "https://www.moma.org/interactives/objectphoto/schools/15.html",
             "https://www.nga.gov/artworks/93943-wendingen",
+            "https://www.theartstory.org/movement/constructivism/",
             "https://www.theartstory.org/movement/suprematism/",
             "https://www.vkhutemas.ru/en/summary/",
             "https://www.vkhutemas.ru/en/the-history/",

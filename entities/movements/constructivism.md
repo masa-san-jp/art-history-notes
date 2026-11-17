@@ -30,6 +30,8 @@ evidence:
 space:
   - {role: originated_in, target: place/moscow}
 relations:
+  - {type: influenced_by, target: movement/cubism, certainty: scholarly, source: "https://www.theartstory.org/movement/constructivism/"}
+  - {type: influenced_by, target: movement/futurism, certainty: scholarly, source: "https://www.theartstory.org/movement/constructivism/"}
   - {type: reacts_against, target: movement/suprematism, certainty: scholarly, source: "https://press.moma.org/wp-content/files_mf/russianavantgarde_pressrelease_final88.pdf"}
 images:
   - url: "https://commons.wikimedia.org/wiki/Special:FilePath/El_Lissitzky,_Wendingen,_1921_(published_1923),_NGA_93943.jpg"
@@ -54,6 +56,9 @@ sources:
     kind: institutional
   - url: "https://www.theartstory.org/movement/suprematism/"
     kind: reference
+  - url: "https://www.theartstory.org/movement/constructivism/"
+    kind: reference
+    note: "二次情報。構成主義がキュビスムと未来派の要素を借りたとする記述と、ガボが1913〜14年にパリでキュビスム彫刻に触れたとする記述を2026-11-18に確認"
   - url: "https://www.vkhutemas.ru/en/summary/"
     kind: reference
   - url: "https://www.vkhutemas.ru/en/the-history/"
@@ -65,7 +70,7 @@ sources:
   - url: "https://commons.wikimedia.org/wiki/File:El_Lissitzky,_Wendingen,_1921_(published_1923),_NGA_93943.jpg"
     kind: reference
 status: verified
-updated: 2026-08-25
+updated: 2026-11-18
 ---
 
 # ロシア構成主義 / Constructivism
@@ -130,6 +135,18 @@ MoMAのロシア前衛展プレス資料も、シュプレマティスムが純�
 ロシア構成主義の幾何学・生産志向は、後のバウハウスや西欧の国際的な構成主義に接続する重要な経路を持つ。
 ただし、本KBでは現時点で直接の講義・作品・出版経路を揃えていないため、バウハウスやデ・ステイルへの
 `influenced_by` はこのエントリからは張らない。類似した幾何学だけで影響関係にしない。
+
+## キュビスム・未来派との関係
+
+The Art Story は、構成主義が「他のヨーロッパ前衛、とりわけキュビスムと未来派の要素を借りた」と書く
+（[theartstory.org](https://www.theartstory.org/movement/constructivism/)、二次情報、取得 2026-11-18）。
+同じ頁は、ナウム・ガボが1913〜14年にパリで兄アントワーヌ・ペヴスナーを訪ね、アレクサンドル・
+アルキペンコらを通じてキュビスム彫刻に触れたこと、《Constructed Head No. 2》（1916年）がキュビスムと
+構成主義の両方の原理を持つことを記す。英語版Wikipediaの項も、影響元にシュプレマティスム、
+キュビスム、未来派などを挙げる（二次情報）。Wikidata Q207103 の P737 にもキュビスム（Q42934）がある。
+ここで記録するのは、パリ・イタリアの前衛からロシア・ソ連圏の運動への一方向の借用であり、
+構成主義の形成要因を全て説明するものではない（シュプレマティスムからの反発は別に記録している）。
+個々の作品・人物の経路は未確認。
 
 ## 未着手
 

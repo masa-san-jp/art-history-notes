@@ -5,8 +5,8 @@
     "schema_version": 1,
     "movement_total": 181,
     "counts": {
-      "connected": 119,
-      "reviewed-no-documented-link": 62,
+      "connected": 122,
+      "reviewed-no-documented-link": 59,
       "unreviewed": 0
     },
     "connected": [
@@ -17,6 +17,7 @@
       "movement/art-et-liberte",
       "movement/art-nouveau",
       "movement/arte-madi",
+      "movement/arts-and-crafts",
       "movement/asmat-carving",
       "movement/bagan-art",
       "movement/baghdad-modern-art-group",
@@ -24,6 +25,7 @@
       "movement/bamum-art",
       "movement/bandung-school",
       "movement/bark-painting",
+      "movement/barroco-mineiro",
       "movement/basohli-painting",
       "movement/bauhaus",
       "movement/bengal-school",
@@ -35,6 +37,7 @@
       "movement/company-painting",
       "movement/computer-art",
       "movement/conceptual-art",
+      "movement/constructivism",
       "movement/cubo-futurism",
       "movement/cusco-school",
       "movement/dada",
@@ -133,15 +136,12 @@
     "reviewed_no_documented_link": [
       "movement/ai-bigeiken",
       "movement/alaouite-imperial-architecture",
-      "movement/arts-and-crafts",
       "movement/bamana-sculpture",
       "movement/barbizon-school",
       "movement/baroque",
-      "movement/barroco-mineiro",
       "movement/byzantine-art",
       "movement/coffin-portrait",
       "movement/colonial-limner-painting",
-      "movement/constructivism",
       "movement/cubism",
       "movement/de-stijl",
       "movement/dong-ho-painting",
@@ -509,24 +509,31 @@
       },
       {
         "movement_id": "movement/arts-and-crafts",
-        "status": "reviewed-no-documented-link",
+        "status": "connected",
         "origin_regions": [
           "europe-west"
         ],
-        "routes": [],
-        "reasons": [
-          "2026-08-25時点で、movement→movement relation、movement→placeのdiffused_to、space.active_in、movement→event/orgのexhibited_at→held_at/sited_inの4経路を、当該movementに登録された資料を対象に確認した。起源region外への文書化された接続は確認できない。未確認なのは、資料化されていない個人間往来・展示・受容、ならびに視覚的類似だけであり、視覚的類似から因果関係は推定していない。"
+        "routes": [
+          {
+            "kind": "diffused-to-place",
+            "edges": [
+              {
+                "from": "movement/arts-and-crafts",
+                "type": "diffused_to",
+                "to": "place/chicago",
+                "certainty": "scholarly",
+                "source": "https://www.vam.ac.uk/articles/arts-and-crafts-beyond-the-uk"
+              }
+            ],
+            "destination_regions": [
+              "americas-north"
+            ]
+          }
         ],
-        "review": {
-          "movement_id": "movement/arts-and-crafts",
-          "status": "no-documented-cross-region-relation",
-          "checked": "2026-08-25",
-          "note": "2026-08-25時点で、movement→movement relation、movement→placeのdiffused_to、space.active_in、movement→event/orgのexhibited_at→held_at/sited_inの4経路を、当該movementに登録された資料を対象に確認した。起源region外への文書化された接続は確認できない。未確認なのは、資料化されていない個人間往来・展示・受容、ならびに視覚的類似だけであり、視覚的類似から因果関係は推定していない。",
-          "sources": [
-            "https://www.metmuseum.org/it/essays/design-reform",
-            "https://www.vam.ac.uk/articles/arts-and-crafts-an-introduction"
-          ]
-        }
+        "reasons": [
+          "1経路で起源region外へ到達"
+        ],
+        "review": null
       },
       {
         "movement_id": "movement/asmat-carving",
@@ -819,24 +826,31 @@
       },
       {
         "movement_id": "movement/barroco-mineiro",
-        "status": "reviewed-no-documented-link",
+        "status": "connected",
         "origin_regions": [
           "americas-latin"
         ],
-        "routes": [],
-        "reasons": [
-          "2026-09-15時点で、movement→movement relation、movement→placeのdiffused_to、space.active_in、movement→event/orgのexhibited_at→held_at/sited_inの4経路を、当該movementに登録された資料を対象に確認した。アレイジャジーニョらの作品はほぼ全てミナスジェライス州内に残っており、海外の美術館収蔵などamericas-latin外への文書化された接続は確認できない。"
+        "routes": [
+          {
+            "kind": "movement-relation",
+            "edges": [
+              {
+                "from": "movement/barroco-mineiro",
+                "type": "derives_from",
+                "to": "movement/baroque",
+                "certainty": "scholarly",
+                "source": "https://pt.wikipedia.org/wiki/Barroco_mineiro"
+              }
+            ],
+            "destination_regions": [
+              "europe-west"
+            ]
+          }
         ],
-        "review": {
-          "movement_id": "movement/barroco-mineiro",
-          "status": "no-documented-cross-region-relation",
-          "checked": "2026-09-15",
-          "note": "2026-09-15時点で、movement→movement relation、movement→placeのdiffused_to、space.active_in、movement→event/orgのexhibited_at→held_at/sited_inの4経路を、当該movementに登録された資料を対象に確認した。アレイジャジーニョらの作品はほぼ全てミナスジェライス州内に残っており、海外の美術館収蔵などamericas-latin外への文書化された接続は確認できない。",
-          "sources": [
-            "https://www.wikidata.org/wiki/Q16142974",
-            "https://en.wikipedia.org/wiki/Aleijadinho"
-          ]
-        }
+        "reasons": [
+          "1経路で起源region外へ到達"
+        ],
+        "review": null
       },
       {
         "movement_id": "movement/basohli-painting",
@@ -1244,24 +1258,46 @@
       },
       {
         "movement_id": "movement/constructivism",
-        "status": "reviewed-no-documented-link",
+        "status": "connected",
         "origin_regions": [
           "europe-east"
         ],
-        "routes": [],
-        "reasons": [
-          "2026-08-25時点で、movement→movement relation、movement→placeのdiffused_to、space.active_in、movement→event/orgのexhibited_at→held_at/sited_inの4経路を、当該movementに登録された資料を対象に確認した。起源region外への文書化された接続は確認できない。未確認なのは、資料化されていない個人間往来・展示・受容、ならびに視覚的類似だけであり、視覚的類似から因果関係は推定していない。"
+        "routes": [
+          {
+            "kind": "movement-relation",
+            "edges": [
+              {
+                "from": "movement/constructivism",
+                "type": "influenced_by",
+                "to": "movement/cubism",
+                "certainty": "scholarly",
+                "source": "https://www.theartstory.org/movement/constructivism/"
+              }
+            ],
+            "destination_regions": [
+              "europe-west"
+            ]
+          },
+          {
+            "kind": "movement-relation",
+            "edges": [
+              {
+                "from": "movement/constructivism",
+                "type": "influenced_by",
+                "to": "movement/futurism",
+                "certainty": "scholarly",
+                "source": "https://www.theartstory.org/movement/constructivism/"
+              }
+            ],
+            "destination_regions": [
+              "europe-west"
+            ]
+          }
         ],
-        "review": {
-          "movement_id": "movement/constructivism",
-          "status": "no-documented-cross-region-relation",
-          "checked": "2026-08-25",
-          "note": "2026-08-25時点で、movement→movement relation、movement→placeのdiffused_to、space.active_in、movement→event/orgのexhibited_at→held_at/sited_inの4経路を、当該movementに登録された資料を対象に確認した。起源region外への文書化された接続は確認できない。未確認なのは、資料化されていない個人間往来・展示・受容、ならびに視覚的類似だけであり、視覚的類似から因果関係は推定していない。",
-          "sources": [
-            "https://press.moma.org/wp-content/files_mf/russianavantgarde_pressrelease_final88.pdf",
-            "https://nga.gov.au/exhibitions/russian-avant-garde/"
-          ]
-        }
+        "reasons": [
+          "2経路で起源region外へ到達"
+        ],
+        "review": null
       },
       {
         "movement_id": "movement/cubism",
