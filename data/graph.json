@@ -3204,7 +3204,14 @@
           "target": "place/ouro-preto"
         }
       ],
-      "relations": [],
+      "relations": [
+        {
+          "type": "derives_from",
+          "target": "movement/baroque",
+          "certainty": "scholarly",
+          "source": "https://pt.wikipedia.org/wiki/Barroco_mineiro"
+        }
+      ],
       "sources": [
         {
           "url": "https://www.wikidata.org/wiki/Q16142974",
@@ -3222,7 +3229,7 @@
         }
       ],
       "status": "draft",
-      "updated": "2026-09-15",
+      "updated": "2026-11-20",
       "path": "entities/movements/barroco-mineiro.md"
     },
     "movement/basohli-painting": {
@@ -4833,6 +4840,12 @@
           "target": "movement/suprematism",
           "certainty": "scholarly",
           "source": "https://press.moma.org/wp-content/files_mf/russianavantgarde_pressrelease_final88.pdf"
+        },
+        {
+          "type": "influenced_by",
+          "target": "movement/cubism",
+          "certainty": "scholarly",
+          "source": "https://www.tate.org.uk/art/art-terms/c/constructivism"
         }
       ],
       "images": [
@@ -4874,6 +4887,11 @@
           "kind": "institutional"
         },
         {
+          "url": "https://www.tate.org.uk/art/art-terms/c/constructivism",
+          "kind": "institutional",
+          "note": "Tate『Constructivism』の項（2026-11-20取得）。タトリンがパリのピカソのアトリエで見たキュビスムの構成作品（Construction 1914）に決定的な影響を受けたと記す"
+        },
+        {
           "url": "https://www.theartstory.org/movement/suprematism/",
           "kind": "reference"
         },
@@ -4899,7 +4917,7 @@
         }
       ],
       "status": "verified",
-      "updated": "2026-08-25",
+      "updated": "2026-11-20",
       "path": "entities/movements/constructivism.md"
     },
     "movement/cubism": {
@@ -5545,6 +5563,12 @@
           "target": "movement/cubism",
           "certainty": "scholarly",
           "source": "https://assets.moma.org/documents/moma_catalogue_2748_300086869.pdf"
+        },
+        {
+          "type": "influenced_by",
+          "target": "movement/constructivism",
+          "certainty": "scholarly",
+          "source": "https://en.wikipedia.org/wiki/Constructivism_(art)"
         }
       ],
       "images": [
@@ -5588,10 +5612,20 @@
         {
           "url": "https://commons.wikimedia.org/wiki/File:Stijl_vol_03_nr_01_p_003.jpg",
           "kind": "reference"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Constructivism_(art)",
+          "kind": "reference",
+          "note": "『Constructivism (art)』の項（2026-11-20取得）。構成主義の建築・美術がバウハウスとデ・ステイルに大きな影響を与えたとし、構成主義インターナショナルが1922年にドイツでダダイストとデ・ステイルの芸術家に会ったと記す。二次情報"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/El_Lissitzky",
+          "kind": "reference",
+          "note": "『El Lissitzky』の項（2026-11-20取得）。リシツキーがベルリンでテオ・ファン・ドゥースブルフと出会い、シュヴィッタース、ドゥースブルフとともに構成主義を指針とする国際的な芸術運動の構想を示したと記す。二次情報"
         }
       ],
       "status": "verified",
-      "updated": "2026-08-25",
+      "updated": "2026-11-20",
       "path": "entities/movements/de-stijl.md"
     },
     "movement/deccan-painting": {
@@ -78192,6 +78226,13 @@
     },
     {
       "from": "movement/barroco-mineiro",
+      "type": "derives_from",
+      "to": "movement/baroque",
+      "certainty": "scholarly",
+      "source": "https://pt.wikipedia.org/wiki/Barroco_mineiro"
+    },
+    {
+      "from": "movement/barroco-mineiro",
       "type": "originated_in",
       "to": "place/ouro-preto"
     },
@@ -78497,6 +78538,13 @@
     },
     {
       "from": "movement/constructivism",
+      "type": "influenced_by",
+      "to": "movement/cubism",
+      "certainty": "scholarly",
+      "source": "https://www.tate.org.uk/art/art-terms/c/constructivism"
+    },
+    {
+      "from": "movement/constructivism",
       "type": "originated_in",
       "to": "place/moscow"
     },
@@ -78609,6 +78657,13 @@
       "to": "movement/cubism",
       "certainty": "scholarly",
       "source": "https://assets.moma.org/documents/moma_catalogue_2748_300086869.pdf"
+    },
+    {
+      "from": "movement/de-stijl",
+      "type": "influenced_by",
+      "to": "movement/constructivism",
+      "certainty": "scholarly",
+      "source": "https://en.wikipedia.org/wiki/Constructivism_(art)"
     },
     {
       "from": "movement/de-stijl",
@@ -95757,6 +95812,12 @@
       "derived": true
     },
     {
+      "from": "movement/baroque",
+      "type": "derived_into",
+      "to": "movement/barroco-mineiro",
+      "derived": true
+    },
+    {
       "from": "movement/mughal-painting",
       "type": "influenced",
       "to": "movement/basohli-painting",
@@ -95937,6 +95998,12 @@
       "derived": true
     },
     {
+      "from": "movement/cubism",
+      "type": "influenced",
+      "to": "movement/constructivism",
+      "derived": true
+    },
+    {
       "from": "person/pablo-picasso",
       "type": "created",
       "to": "movement/cubism",
@@ -95992,6 +96059,12 @@
     },
     {
       "from": "movement/cubism",
+      "type": "influenced",
+      "to": "movement/de-stijl",
+      "derived": true
+    },
+    {
+      "from": "movement/constructivism",
       "type": "influenced",
       "to": "movement/de-stijl",
       "derived": true
