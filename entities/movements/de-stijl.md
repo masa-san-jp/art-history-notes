@@ -29,6 +29,7 @@ space:
   - {role: originated_in, target: place/leiden}
 relations:
   - {type: influenced_by, target: movement/cubism, certainty: scholarly, source: "https://assets.moma.org/documents/moma_catalogue_2748_300086869.pdf"}
+  - {type: influenced_by, target: movement/constructivism, certainty: scholarly, source: "https://en.wikipedia.org/wiki/Constructivism_(art)"}
 images:
   - url: "https://commons.wikimedia.org/wiki/Special:FilePath/Stijl_vol_03_nr_01_p_003.jpg"
     source_page: "https://commons.wikimedia.org/wiki/File:Stijl_vol_03_nr_01_p_003.jpg"
@@ -52,8 +53,14 @@ sources:
     kind: scholarly
   - url: "https://commons.wikimedia.org/wiki/File:Stijl_vol_03_nr_01_p_003.jpg"
     kind: reference
+  - url: "https://en.wikipedia.org/wiki/Constructivism_(art)"
+    kind: reference
+    note: "『Constructivism (art)』の項（2026-11-20取得）。構成主義の建築・美術がバウハウスとデ・ステイルに大きな影響を与えたとし、構成主義インターナショナルが1922年にドイツでダダイストとデ・ステイルの芸術家に会ったと記す。二次情報"
+  - url: "https://en.wikipedia.org/wiki/El_Lissitzky"
+    kind: reference
+    note: "『El Lissitzky』の項（2026-11-20取得）。リシツキーがベルリンでテオ・ファン・ドゥースブルフと出会い、シュヴィッタース、ドゥースブルフとともに構成主義を指針とする国際的な芸術運動の構想を示したと記す。二次情報"
 status: verified
-updated: 2026-08-25
+updated: 2026-11-20
 ---
 
 # デ・ステイル / De Stijl
@@ -106,10 +113,24 @@ MoMAの『Cubism and Abstract Art』カタログは、1910年にパリへ移っ�
 ここで記録するのは、両運動が同じだったという意味ではない。デ・ステイルの抽象的な秩序と、バウハウスが
 後に展開した機能・素材・工房教育の統合は重なる部分を持つが、同一視はしない。
 
+## 構成主義との接触
+
+動いたのは人と場である。英語版Wikipediaの『El Lissitzky』は、エル・リシツキーが
+ベルリンでファン・ドゥースブルフと出会い、シュヴィッタースを加えた3人で、構成主義を指針とする
+国際的な芸術運動を構想したと記す。『Constructivism (art)』は、構成主義インターナショナルが1922年に
+ドイツでダダイストとデ・ステイルの芸術家に会ったと記す（いずれも二次情報、2026-11-20取得）。
+ロシアの構成主義者と、オランダを拠点にした雑誌『De Stijl』の周囲の芸術家が、1922年のドイツで顔を
+合わせたことになる。これに基づき `influenced_by → movement/constructivism`（`scholarly`）を張った。
+
+この関係は影響の向きを強く言わない。同じ項は、リシツキーの振る舞いがファン・ドゥースブルフを疎遠にした（alienated）
+ことも記す。Tateは、モンドリアンがファン・ドゥースブルフの対角線の採用を理由に1923年にデ・ステイルを
+去ったと記すが（[Tate](https://www.tate.org.uk/art/art-terms/d/de-stijl)）、この対角線の採用が構成主義から
+来たかどうかは**未確認**。原典（リシツキー、ファン・ドゥースブルフの書簡・誌上の文章）には届いていない。
+
 ## 未着手
 
 - ファン・ドゥースブルフ、ピート・モンドリアン、バルト・ファン・デル・レック、ヘリット・リートフェルトらの人物エンティティ化
 - 雑誌各号と1918年の宣言・論文の一次資料化
 - ユトレヒト、パリ、ワイマールなど、参加者・講義・建築作品に即した活動地の追加
-- 構成主義、ダダとの関係。類似だけで影響線を増やさない
+- 構成主義との接触の原典確認（1922年のデュッセルドルフ・ワイマールでの会合の記録、書簡、『De Stijl』誌上のリシツキー関連の文章）。ダダとの関係は、類似だけで影響線を増やさない
 - 1931年／1932年の終点の差を、結社・雑誌・理念のどの単位で区切るかの精密化
