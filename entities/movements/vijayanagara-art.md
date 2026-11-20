@@ -16,9 +16,11 @@ authority:
 time:
   start: "1336"
   end: "1565"
-  display: "ヴィジャヤナガル王国はハリハラ1世とその弟ブッカ・ラーヤ1世により1336年に建国された。
-    1565年、ターリコータの戦いでの敗北を機に王国は衰退し、都ハンピは破壊された。最盛期は
-    クリシュナ・デーヴァ・ラーヤ王の治世（1509-1530年）"
+  display: "Smarthistoryは、ハリハラ1世とブッカ・ラーヤ1世が1336年に建国し、4王朝（サンガマ1336-1485、
+    サールヴァ1485-1505、トゥルヴァ1505-1570、アラヴィードゥ1570-1646）が統治し、王国は1646年まで
+    続いたと記す。本項は『2世紀強にわたり南インドの政治・文化を支配した』時期にあたる、ハンピが都
+    だった1336-1565年に絞った（1565年に敗戦後の都が略奪・放棄され、宮廷はペヌコンダ、のちチャンドラ
+    ギリへ移った）"
 naming:
   self_identified: false
   named_by: null
@@ -41,10 +43,10 @@ sources:
     kind: authority
   - url: "https://smarthistory.org/art-and-architecture-of-vijayanagara-empire/"
     kind: scholarly
-    note: "『Art and architecture of the Vijayanagara empire』の項。ハンピの建造物群を1336-1565年
-      の帝国の権勢を示すものとし、シヴァ派・ヴィシュヌ派・ジャイナ教それぞれの信仰を反映した彫刻、
-      柱廊のある『結婚の間（カリヤーナ・マンダパ）』を特徴とすると記す。様式は先行するチョーラ・
-      パーンディヤ朝の伝統の継続と記す"
+    note: "『Art and architecture of the Vijayanagara empire』の項（Wayback 2025-11-16版を2026-11-21に
+      確認。元サイトは自動取得に403を返す）。1336年建国、4王朝の統治期間（〜1646年）、ハンピの都
+      と1565年の略奪・放棄、クリシュナデーヴァラーヤの治世、結婚の間（カリヤーナ・マンダパ）を記す。
+      『チョーラ・パーンディヤ朝の伝統の継承』の記述はこの版では見つからなかった"
   - url: "https://www.metmuseum.org/art/collection/search?q=South+Indian,+Vijayanagara&sortBy=Relevance"
     kind: institutional
     note: "メトロポリタン美術館の収蔵検索結果。『South Indian, Vijayanagara』で451件の作品を
@@ -55,64 +57,52 @@ sources:
       各王朝が統治した時代に発展したチャールキヤ・ホイサラ・ラーシュトラクータ・
       パーンディヤ・チョーラの諸様式を組み合わせたものだと記す。カーカティーヤ朝への
       言及は無い"
-status: draft
-updated: 2026-09-21
+status: verified
+updated: 2026-11-21
 ---
 
 # ヴィジャヤナガル美術 / Vijayanagara Art
 
 ## 定義と範囲
 
-Smarthistoryの記事「[Art and architecture of the Vijayanagara empire](https://smarthistory.org/art-and-architecture-of-vijayanagara-empire/)」
-（学術資料）はこう記す（二次情報、原文引用）。
-
-> The group of monuments at Hampi bear witness to the power and geopolitical significance of the
-> Vijayanagara Empire between the 14th and 16th Centuries in southern India.
-
-[ハンピ](../places/hampi.md)を都に1336年、ハリハラ1世と弟ブッカ・ラーヤ1世により建国された。
-様式はシヴァ派・ヴィシュヌ派・ジャイナ教それぞれの信仰を反映した彫刻表現を持ち、先行する
-チョーラ・パーンディヤ朝の伝統を継承しつつ発展したとされる。柱廊を持つ「結婚の間（カリヤーナ・
-マンダパ）」——花崗岩の柱に跳ねるヤーリ（神獣）に乗る騎手を彫った意匠——が代表的な建築要素と
-される。1509-1530年、クリシュナ・デーヴァ・ラーヤ王の治世に最盛期を迎えた。1565年の
-ターリコータの戦いでの敗北を機に王国は衰退した。
+ヴィジャヤナガル王国（1336年建国）の下で、都ハンピ（[ハンピ](../places/hampi.md)）を中心に、
+寺院建築・彫刻が作られた造形。Smarthistoryの記事
+「[Art and architecture of the Vijayanagara empire](https://smarthistory.org/art-and-architecture-of-vijayanagara-empire/)」
+（学術資料、2026-11-21にWayback Machine 2025-11-16版で確認）によれば、サンガマ朝のハリハラ1世と
+ブッカ・ラーヤ1世がトゥンガバドラー川沿いに新王国を興し、都を「ヴィジャヤナガル（勝利の都）」と
+名付けた。最も名高い王クリシュナデーヴァラーヤの治世に王国は最盛期を迎え、王は建築と文学の
+大きな後援者だったとされる。代表的な建築要素として、儀礼で神と配偶神の象徴的婚礼を行う、
+吹き放ちの「結婚の間（カリヤーナ・マンダパ）」（ヴィッタラ寺院、15〜16世紀頃）を挙げる。この広間は
+花崗岩の柱に跳ねるヤーリ（神獣）に乗る騎手を彫った外側の支柱を持つ。記事はさらに、15世紀のラーマチャンドラ寺院は王家の私的な礼拝堂だったと記す。
 
 ## kind の判定
 
-`period-style`とした。単一の血縁・工房ではなく、ヴィジャヤナガル王国の存続期間（1336-1565年）を
-通じて、複数世代の石工・彫刻家が寺院建築・彫刻を制作し続けた点を、[クメール美術](khmer-art.md)・
-[チョーラ朝ブロンズ](chola-bronzes.md)と同型の構造と見た。既存の
-[チョーラ朝ブロンズ](chola-bronzes.md)（880-1279年）とは時代が連続しており、様式的にも
-継承関係にあるとされる。
+`period-style`とした。単一の血縁・工房ではなく、ヴィジャヤナガル王国の統治期間を通じて、複数の
+王朝（サンガマ・サールヴァ・トゥルヴァ・アラヴィードゥ）の下で制作が続いたため。担い手は王朝と
+ともに交代する。
 
 ## ホイサラ美術からの影響
 
 英語版Wikipedia「[Vijayanagara architecture](https://en.wikipedia.org/wiki/Vijayanagara_architecture)」
-（参考資料）はこう記す（二次情報）。
+（参考資料、2026-11-21に確認）はこう記す（二次情報）。
 
 > The Vijayanagara style is a combination of the Chalukya, Hoysala, Rashtrakuta, Pandya and
 > Chola styles which evolved earlier in the centuries when these empires ruled.
 
-ヴィジャヤナガル王国は1336年、[ホイサラ美術](hoysala-art.md)の発生地であるカルナータカ
-地方を含む南インドに興った。同記事はヴィジャヤナガル様式を、チャールキヤ・ホイサラ・
-ラーシュトラクータ・パーンディヤ・チョーラという先行諸王朝の様式を組み合わせたものと
-明記しており、これに基づき`relations`へ`influenced_by movement/hoysala-art`を張った。
-同記事はカーカティーヤ朝（テランガーナ、[カーカティーヤ美術](kakatiya-art.md)の発生地）
-には言及しておらず、この接続は今回確認できなかった。
+これに基づき`relations`へ`influenced_by movement/hoysala-art`を張った。同記事はカーカティーヤ朝
+（[カーカティーヤ美術](kakatiya-art.md)）には言及しておらず、この接続は確認できなかった。
 
 ## ニューヨークでの収蔵
 
 メトロポリタン美術館の収蔵検索で「South Indian, Vijayanagara」を対象に451件がヒットした
-（武具・彫刻等を含む）。これに基づき`relations`へ`diffused_to place/new-york-city`を張り、
-asia-south起源からamericas-northへの接続を記録した。
+（武具・彫刻等を含む、2026-09-16時点）。これに基づき`relations`へ`diffused_to place/new-york-city`を
+張り、asia-south起源からamericas-northへの接続を記録した。
 
 ## 未着手
 
-- ハリハラ1世、ブッカ・ラーヤ1世、クリシュナ・デーヴァ・ラーヤ王を person エンティティとして
-  立てるかどうか
-- 代表的な建造物（ヴィルーパークシャ寺院、ヴィッタラ寺院など）を work エンティティとして
-  立てるかどうか
-- チョーラ朝ブロンズからの様式継承を`relations`の`influenced_by`で明示するかどうか
-  ——Smarthistory記事は建築様式一般としての『チョーラ・パーンディヤ朝の伝統』を挙げており、
-  [チョーラ朝ブロンズ](chola-bronzes.md)（青銅像に特化したmovement）と対象範囲が一致するか
-  確認できなかったため、本文の記述にとどめた（Smarthistoryへの再アクセスが403エラーで
-  失敗し、原文の精査ができなかった）
+- **未確認**: 1565年の敗戦の名称（ターリコータの戦い）。Smarthistoryの当該記事は敗戦と略奪の
+  事実を記すが戦いの名を挙げていない
+- **未確認**: 「先行するチョーラ・パーンディヤ朝の伝統の継承」を述べるSmarthistoryの記述。
+  2026-11-21時点のWayback版の本文では見つからなかった。造形の先行諸王朝との関係は上記Wikipediaにのみ依拠する
+- ハリハラ1世、ブッカ・ラーヤ1世、クリシュナデーヴァラーヤを person エンティティとして立てるかどうか
+- 代表的な建造物（ヴィルーパークシャ寺院、ヴィッタラ寺院など）を work エンティティとして立てるかどうか
