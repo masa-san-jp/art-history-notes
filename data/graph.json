@@ -4833,6 +4833,12 @@
           "target": "movement/suprematism",
           "certainty": "scholarly",
           "source": "https://press.moma.org/wp-content/files_mf/russianavantgarde_pressrelease_final88.pdf"
+        },
+        {
+          "type": "influenced_by",
+          "target": "movement/cubism",
+          "certainty": "scholarly",
+          "source": "https://www.tate.org.uk/art/art-terms/c/constructivism"
         }
       ],
       "images": [
@@ -4845,6 +4851,11 @@
         }
       ],
       "sources": [
+        {
+          "url": "https://www.tate.org.uk/art/art-terms/c/constructivism",
+          "kind": "institutional",
+          "note": "テート用語解説『Constructivism』。タトリンが1913年にパリのピカソのアトリエで見たキュビスムの構成作品（《Construction》1914）に決定的な影響を受けたと記す。取得日2026-11-22"
+        },
         {
           "url": "https://www.wikidata.org/wiki/Q207103",
           "kind": "authority"
@@ -4899,7 +4910,7 @@
         }
       ],
       "status": "verified",
-      "updated": "2026-08-25",
+      "updated": "2026-11-22",
       "path": "entities/movements/constructivism.md"
     },
     "movement/cubism": {
@@ -7503,7 +7514,14 @@
           "target": "place/new-york-city"
         }
       ],
-      "relations": [],
+      "relations": [
+        {
+          "type": "diffused_to",
+          "target": "place/paris",
+          "certainty": "scholarly",
+          "source": "https://plato.stanford.edu/entries/negritude/"
+        }
+      ],
       "images": [
         {
           "url": "https://ids.si.edu/ids/download?id=NPG-9800260B_2.jpg",
@@ -7521,6 +7539,11 @@
         }
       ],
       "sources": [
+        {
+          "url": "https://plato.stanford.edu/entries/negritude/",
+          "kind": "institutional",
+          "note": "スタンフォード哲学百科事典『Negritude』。セゼール、サンゴール、ダマスがパリのナルダル姉妹のサロンでラングストン・ヒューズやクロード・マッケイら黒人アメリカ人作家に会い、ハーレム・ルネサンスに黒人の誇りの表現を見出したと記す。取得日2026-11-22"
+        },
         {
           "url": "https://www.wikidata.org/wiki/Q829895",
           "kind": "authority"
@@ -7569,7 +7592,7 @@
         }
       ],
       "status": "verified",
-      "updated": "2026-08-25",
+      "updated": "2026-11-22",
       "path": "entities/movements/harlem-renaissance.md"
     },
     "movement/hawaiian-featherwork": {
@@ -18264,9 +18287,26 @@
           "target": "movement/symbolism",
           "certainty": "scholarly",
           "source": "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300021512"
+        },
+        {
+          "type": "diffused_to",
+          "target": "place/mexico-city",
+          "certainty": "scholarly",
+          "source": "https://www.tate.org.uk/whats-on/tate-modern/surrealism-beyond-borders"
+        },
+        {
+          "type": "diffused_to",
+          "target": "place/tokyo",
+          "certainty": "scholarly",
+          "source": "https://www.tate.org.uk/whats-on/tate-modern/surrealism-beyond-borders"
         }
       ],
       "sources": [
+        {
+          "url": "https://www.tate.org.uk/whats-on/tate-modern/surrealism-beyond-borders",
+          "kind": "institutional",
+          "note": "テート・モダンとメトロポリタン美術館が組織した展覧会『Surrealism Beyond Borders』の紹介。世界各地の芸術家がシュルレアリスムに触発されたとし、中心地にブエノスアイレス、カイロ、リスボン、メキシコシティ、プラハ、ソウル、東京を挙げる。取得日2026-11-22"
+        },
         {
           "url": "https://www.museothyssen.org/en/collection/artists/ernst-max",
           "kind": "institutional",
@@ -18309,7 +18349,7 @@
         }
       ],
       "status": "verified",
-      "updated": "2026-08-25",
+      "updated": "2026-11-22",
       "path": "entities/movements/surrealism.md"
     },
     "movement/suzani": {
@@ -78497,6 +78537,13 @@
     },
     {
       "from": "movement/constructivism",
+      "type": "influenced_by",
+      "to": "movement/cubism",
+      "certainty": "scholarly",
+      "source": "https://www.tate.org.uk/art/art-terms/c/constructivism"
+    },
+    {
+      "from": "movement/constructivism",
       "type": "originated_in",
       "to": "place/moscow"
     },
@@ -78912,6 +78959,13 @@
       "from": "movement/gutai",
       "type": "originated_in",
       "to": "place/ashiya"
+    },
+    {
+      "from": "movement/harlem-renaissance",
+      "type": "diffused_to",
+      "to": "place/paris",
+      "certainty": "scholarly",
+      "source": "https://plato.stanford.edu/entries/negritude/"
     },
     {
       "from": "movement/harlem-renaissance",
@@ -80534,6 +80588,20 @@
       "to": "movement/symbolism",
       "certainty": "scholarly",
       "source": "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300021512"
+    },
+    {
+      "from": "movement/surrealism",
+      "type": "diffused_to",
+      "to": "place/mexico-city",
+      "certainty": "scholarly",
+      "source": "https://www.tate.org.uk/whats-on/tate-modern/surrealism-beyond-borders"
+    },
+    {
+      "from": "movement/surrealism",
+      "type": "diffused_to",
+      "to": "place/tokyo",
+      "certainty": "scholarly",
+      "source": "https://www.tate.org.uk/whats-on/tate-modern/surrealism-beyond-borders"
     },
     {
       "from": "movement/surrealism",
@@ -95937,6 +96005,12 @@
       "derived": true
     },
     {
+      "from": "movement/cubism",
+      "type": "influenced",
+      "to": "movement/constructivism",
+      "derived": true
+    },
+    {
       "from": "person/pablo-picasso",
       "type": "created",
       "to": "movement/cubism",
@@ -96168,6 +96242,12 @@
       "from": "movement/abstract-expressionism",
       "type": "reacted_against_by",
       "to": "movement/gutai",
+      "derived": true
+    },
+    {
+      "from": "place/paris",
+      "type": "received",
+      "to": "movement/harlem-renaissance",
       "derived": true
     },
     {
@@ -97073,6 +97153,18 @@
     {
       "from": "movement/symbolism",
       "type": "influenced",
+      "to": "movement/surrealism",
+      "derived": true
+    },
+    {
+      "from": "place/mexico-city",
+      "type": "received",
+      "to": "movement/surrealism",
+      "derived": true
+    },
+    {
+      "from": "place/tokyo",
+      "type": "received",
       "to": "movement/surrealism",
       "derived": true
     },

@@ -1700,7 +1700,7 @@
     },
     "movement/constructivism": {
       "completed": true,
-      "content_sha256": "ebe5681b5e3221227da034d19c033386905cbfa47dc0c36d9c27c94fb38f2f49",
+      "content_sha256": "21acae204615628a0b2ed0cf4fb0374a2dd074f2c0850fc1487f75e5fa26f841",
       "history": [
         {
           "accepted": true,
@@ -1737,6 +1737,7 @@
             "https://www.moma.org/interactives/exhibitions/1998/rodchenko/texts/new_cultural.html",
             "https://www.moma.org/interactives/objectphoto/schools/15.html",
             "https://www.nga.gov/artworks/93943-wendingen",
+            "https://www.tate.org.uk/art/art-terms/c/constructivism",
             "https://www.theartstory.org/movement/suprematism/",
             "https://www.vkhutemas.ru/en/summary/",
             "https://www.vkhutemas.ru/en/the-history/",
@@ -2705,7 +2706,7 @@
     },
     "movement/harlem-renaissance": {
       "completed": true,
-      "content_sha256": "838f5f5993821ef80a5e96ad92766c222016d5267abb37070f39482c486c4a61",
+      "content_sha256": "522adae058efb358f9a721d4a41424a8d8b9c5c2465c1a8ff3488d71b9d42003",
       "history": [
         {
           "accepted": true,
@@ -6321,7 +6322,7 @@
     },
     "movement/surrealism": {
       "completed": true,
-      "content_sha256": "74976d148213aa6b55a6471a57738b8a25c9e343988d23119853b770c6ba9432",
+      "content_sha256": "04a0b0dad300e1951516ebfe1969612086ea11edcba48e160233becf6d85c124",
       "history": [
         {
           "accepted": true,
@@ -6357,6 +6358,7 @@
             "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300021512",
             "https://www.moma.org/collection/works/38201",
             "https://www.museothyssen.org/en/collection/artists/ernst-max",
+            "https://www.tate.org.uk/whats-on/tate-modern/surrealism-beyond-borders",
             "https://www.wikidata.org/wiki/Q39427"
           ]
         }

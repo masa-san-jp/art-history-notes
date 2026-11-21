@@ -31,6 +31,7 @@ space:
   - {role: originated_in, target: place/moscow}
 relations:
   - {type: reacts_against, target: movement/suprematism, certainty: scholarly, source: "https://press.moma.org/wp-content/files_mf/russianavantgarde_pressrelease_final88.pdf"}
+  - {type: influenced_by, target: movement/cubism, certainty: scholarly, source: "https://www.tate.org.uk/art/art-terms/c/constructivism"}
 images:
   - url: "https://commons.wikimedia.org/wiki/Special:FilePath/El_Lissitzky,_Wendingen,_1921_(published_1923),_NGA_93943.jpg"
     source_page: https://www.nga.gov/artworks/93943-wendingen
@@ -38,6 +39,9 @@ images:
     license: cc0
     note: "エル・リシツキー《Wendingen》1921年（1923年刊）、国立美術館蔵。構成主義のグラフィック実践を示す代表的な公開画像として、NGAの作品ページとCC0画像を参照"
 sources:
+  - url: "https://www.tate.org.uk/art/art-terms/c/constructivism"
+    kind: institutional
+    note: "テート用語解説『Constructivism』。タトリンが1913年にパリのピカソのアトリエで見たキュビスムの構成作品（《Construction》1914）に決定的な影響を受けたと記す。取得日2026-11-22"
   - url: "https://www.wikidata.org/wiki/Q207103"
     kind: authority
   - url: "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300021393"
@@ -65,7 +69,7 @@ sources:
   - url: "https://commons.wikimedia.org/wiki/File:El_Lissitzky,_Wendingen,_1921_(published_1923),_NGA_93943.jpg"
     kind: reference
 status: verified
-updated: 2026-08-25
+updated: 2026-11-22
 ---
 
 # ロシア構成主義 / Constructivism
@@ -124,6 +128,16 @@ MoMAのロシア前衛展プレス資料も、シュプレマティスムが純�
 （黒の上の黒）》を、マレーヴィチの白い絵画群への直接の応答として説明する。この個別の応答と1921年前後の
 理論的分岐を合わせ、ここでの `reacts_against` は運動全体の全面対立ではなく、純粋形態中心の方向に対する
 社会的・物質的な再定位として記録する。
+
+## キュビスムとの関係
+
+テートの用語解説「[Constructivism](https://www.tate.org.uk/art/art-terms/c/constructivism)」（機関資料、2026-11-22取得）は、
+ウラジーミル・タトリンが、1913年にパリのピカソのアトリエで見たキュビスムの構成作品
+（《Construction》1914、廃材による立体の静物）に決定的な影響を受けたと記す。タトリンはそこから
+自作を作り始めたが、それらは完全に抽象的で工業素材で作られていた。ここから
+`influenced_by → movement/cubism` を張り、europe-east（モスクワ起点）からeurope-west（パリ）への
+接続を記録した。影響は素材による構成という方法に限られ、構成主義全体がキュビスムの派生だという
+意味ではない。個別の作品間の対応までは確認していない。
 
 ## バウハウス・デ・ステイルとの距離
 
