@@ -1166,6 +1166,11 @@
           "certainty": "attested"
         },
         {
+          "field": "origin_unknown",
+          "source": "https://www.aibigeiken.com/found.html",
+          "certainty": "attested"
+        },
+        {
           "field": "kind",
           "source": "https://www.aibigeiken.com/manifesto.html",
           "certainty": "attested"
@@ -1193,6 +1198,11 @@
           "note": "研究会公式サイト。設立日・発起人数・活動内容を記す"
         },
         {
+          "url": "https://www.aibigeiken.com/found.html",
+          "kind": "primary",
+          "note": "2016年5月1日配信の発足通知（取得日2026-11-23）。発起人代表・中ザワヒデキ名義で、同日の発足、宣言の起草が前週であること、活動はSNS上の場の開設と数ヶ月に一度程度の公開研究会を考えていることを記す。発足の場所・会場の記載は無い"
+        },
+        {
           "url": "https://www.aibigeiken.com/manifesto.html",
           "kind": "primary",
           "note": "「人工知能美学芸術宣言」全文の転載"
@@ -1203,8 +1213,8 @@
           "note": "宣言文の原本。起草者・中ザワヒデキの個人サイトに掲載"
         }
       ],
-      "status": "draft",
-      "updated": "2026-09-15",
+      "status": "verified",
+      "updated": "2026-11-23",
       "path": "entities/movements/ai-bigeiken.md"
     },
     "movement/akan-goldweights": {
@@ -19005,7 +19015,7 @@
         },
         {
           "field": "originated_in",
-          "source": "https://www.wikidata.org/wiki/Q678",
+          "source": "https://www.penn.museum/sites/expedition/captain-cooks-barkcloth-books/",
           "certainty": "scholarly"
         },
         {
@@ -19054,7 +19064,7 @@
         {
           "url": "https://www.penn.museum/sites/expedition/captain-cooks-barkcloth-books/",
           "kind": "scholarly",
-          "note": "ペン博物館の記事『Captain Cook's Barkcloth Books』。アレクサンダー・ショウが クック船長の3回の航海（1768-1771・1771-1775・1776-1779年）でトンガ・タヒチ・ ハワイから収集された樹皮布の実物標本約110点を用い、1787年に標本帖として出版したと 記す。ペン博物館は1920年に自館所蔵の標本帖を取得したと記す。ケンブリッジ大学考古学 人類学博物館（英国）も『pre-Shaw Shaw』と俗称される関連資料を所蔵し、ケアの調査では 公私の所蔵先を合わせて66冊が所在確認されているとする"
+          "note": "ペン博物館の記事『Captain Cook's Barkcloth Books』（取得日2026-11-23。ポリネシアの樹皮布をトンガ語で ngatu と呼ぶこと、18世紀後半に収集された品にトンガの丈夫な防水性の標本が含まれること、トンガの女性が桑の内樹皮を叩く写真、収集品が今もこの技を続ける人々の図柄と技法の蔵であることを同記事で確認）。アレクサンダー・ショウが クック船長の3回の航海（1768-1771・1771-1775・1776-1779年）でトンガ・タヒチ・ ハワイから収集された樹皮布の実物標本約110点を用い、1787年に標本帖として出版したと 記す。ペン博物館は1920年に自館所蔵の標本帖を取得したと記す。ケンブリッジ大学考古学 人類学博物館（英国）も『pre-Shaw Shaw』と俗称される関連資料を所蔵し、ケアの調査では 公私の所蔵先を合わせて66冊が所在確認されているとする"
         },
         {
           "url": "https://www.britishmuseum.org/collection/object/E_2013-2015-1",
@@ -19062,8 +19072,8 @@
           "note": "大英博物館収蔵《樹皮布（バークロス）》。同館はクック航海由来の初期タパ標本・ 断片・完形の樹皮布を多数所蔵する（検索結果に基づく）"
         }
       ],
-      "status": "draft",
-      "updated": "2026-09-16",
+      "status": "verified",
+      "updated": "2026-11-23",
       "path": "entities/movements/tongan-ngatu.md"
     },
     "movement/tosa-school": {

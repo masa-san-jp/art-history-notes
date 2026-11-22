@@ -25,6 +25,7 @@ naming:
   note: "団体としての名乗りは発起人29名の連名（自称）。ただし研究会の綱領にあたる「人工知能美学芸術宣言」本文は、発起人の一人である中ザワヒデキ（person/hideki-nakazawa）が単独で起草した（公式サイトの記述より）。団体名の命名者個人は特定できないため named_by は null とした"
 claims:
   - {field: time, source: "https://www.aibigeiken.com/", certainty: attested}
+  - {field: origin_unknown, source: "https://www.aibigeiken.com/found.html", certainty: attested}
   - {field: kind, source: "https://www.aibigeiken.com/manifesto.html", certainty: attested}
 evidence:
   - {target: person/hideki-nakazawa, supports: [kind]}
@@ -35,14 +36,17 @@ sources:
   - url: "https://www.aibigeiken.com/"
     kind: primary
     note: "研究会公式サイト。設立日・発起人数・活動内容を記す"
+  - url: "https://www.aibigeiken.com/found.html"
+    kind: primary
+    note: "2016年5月1日配信の発足通知（取得日2026-11-23）。発起人代表・中ザワヒデキ名義で、同日の発足、宣言の起草が前週であること、活動はSNS上の場の開設と数ヶ月に一度程度の公開研究会を考えていることを記す。発足の場所・会場の記載は無い"
   - url: "https://www.aibigeiken.com/manifesto.html"
     kind: primary
     note: "「人工知能美学芸術宣言」全文の転載"
   - url: "http://aloalo.co.jp/nakazawa/2016/0501b_j.html"
     kind: primary
     note: "宣言文の原本。起草者・中ザワヒデキの個人サイトに掲載"
-status: draft
-updated: 2026-09-15
+status: verified
+updated: 2026-11-23
 ---
 
 # 人工知能美学芸術研究会 / Artificial Intelligence Art and Aesthetics Research Group
@@ -94,8 +98,7 @@ updated: 2026-09-15
 
 ## 空間
 
-**未確認**: 活動拠点となる都市・地域が公式サイトのトップページからは特定できていない。今回は
-`originated_in` を空欄のまま残す（被覆マップには「発生地未確認」として出る）。
+発生地は特定しない（`origin_unknown`）。2016年5月1日配信の発足通知（[found.html](https://www.aibigeiken.com/found.html)、一次資料、2026-11-23取得）は、発足を同日の配信で周知する形をとり、活動の場としてフェイスブック等のSNS上の場と数ヶ月に一度程度の公開研究会を挙げるだけで、発足の都市・会場を記していない。公式サイトの後年のお知らせには、東京・渋谷のSUPER DOMMUNEでの出演・開催が見えるが、これは発足地の根拠にならない。
 
 ## 主張との関係
 
@@ -112,4 +115,3 @@ updated: 2026-09-15
 - 「人工知能美学芸術宣言」全文の一次資料での文字レベル照合。WebFetch経由の取得では著作権上の制約から
   冒頭・要所の引用にとどまり、全文は未採取
 - 草刈ミカの経歴・役割
-- 発足の場所（都市）
