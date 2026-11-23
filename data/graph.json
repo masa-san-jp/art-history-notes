@@ -3204,7 +3204,14 @@
           "target": "place/ouro-preto"
         }
       ],
-      "relations": [],
+      "relations": [
+        {
+          "type": "derives_from",
+          "target": "movement/baroque",
+          "certainty": "scholarly",
+          "source": "https://pt.wikipedia.org/wiki/Barroco_mineiro"
+        }
+      ],
       "sources": [
         {
           "url": "https://www.wikidata.org/wiki/Q16142974",
@@ -3222,7 +3229,7 @@
         }
       ],
       "status": "draft",
-      "updated": "2026-09-15",
+      "updated": "2026-11-17",
       "path": "entities/movements/barroco-mineiro.md"
     },
     "movement/basohli-painting": {
@@ -13380,7 +13387,20 @@
           "target": "place/cairo"
         }
       ],
-      "relations": [],
+      "relations": [
+        {
+          "type": "reacts_against",
+          "target": "movement/mamluk-art",
+          "certainty": "scholarly",
+          "source": "https://en.wikipedia.org/wiki/Mosque_of_Muhammad_Ali"
+        },
+        {
+          "type": "influenced_by",
+          "target": "movement/baroque",
+          "certainty": "scholarly",
+          "source": "https://en.wikipedia.org/wiki/Mosque_of_Muhammad_Ali"
+        }
+      ],
       "sources": [
         {
           "url": "https://www.wikidata.org/wiki/Q652046",
@@ -13394,7 +13414,7 @@
         }
       ],
       "status": "draft",
-      "updated": "2026-09-16",
+      "updated": "2026-11-17",
       "path": "entities/movements/muhammad-ali-mosque-architecture.md"
     },
     "movement/nan-madol-architecture": {
@@ -16863,7 +16883,14 @@
           "target": "place/santa-fe"
         }
       ],
-      "relations": [],
+      "relations": [
+        {
+          "type": "influenced_by",
+          "target": "movement/baroque",
+          "certainty": "scholarly",
+          "source": "https://tesoros.nmhistorymuseum.org/heritage-more-text.html"
+        }
+      ],
       "sources": [
         {
           "url": "https://www.wikidata.org/wiki/Q30213495",
@@ -16887,7 +16914,7 @@
         }
       ],
       "status": "draft",
-      "updated": "2026-10-22",
+      "updated": "2026-11-17",
       "path": "entities/movements/santero.md"
     },
     "movement/serbian-baroque-painting": {
@@ -78212,6 +78239,13 @@
     },
     {
       "from": "movement/barroco-mineiro",
+      "type": "derives_from",
+      "to": "movement/baroque",
+      "certainty": "scholarly",
+      "source": "https://pt.wikipedia.org/wiki/Barroco_mineiro"
+    },
+    {
+      "from": "movement/barroco-mineiro",
       "type": "originated_in",
       "to": "place/ouro-preto"
     },
@@ -79784,6 +79818,20 @@
     },
     {
       "from": "movement/muhammad-ali-mosque-architecture",
+      "type": "reacts_against",
+      "to": "movement/mamluk-art",
+      "certainty": "scholarly",
+      "source": "https://en.wikipedia.org/wiki/Mosque_of_Muhammad_Ali"
+    },
+    {
+      "from": "movement/muhammad-ali-mosque-architecture",
+      "type": "influenced_by",
+      "to": "movement/baroque",
+      "certainty": "scholarly",
+      "source": "https://en.wikipedia.org/wiki/Mosque_of_Muhammad_Ali"
+    },
+    {
+      "from": "movement/muhammad-ali-mosque-architecture",
       "type": "originated_in",
       "to": "place/cairo"
     },
@@ -80358,6 +80406,13 @@
       "from": "movement/safavid-painting",
       "type": "active_in",
       "to": "place/isfahan"
+    },
+    {
+      "from": "movement/santero",
+      "type": "influenced_by",
+      "to": "movement/baroque",
+      "certainty": "scholarly",
+      "source": "https://tesoros.nmhistorymuseum.org/heritage-more-text.html"
     },
     {
       "from": "movement/santero",
@@ -95777,6 +95832,12 @@
       "derived": true
     },
     {
+      "from": "movement/baroque",
+      "type": "derived_into",
+      "to": "movement/barroco-mineiro",
+      "derived": true
+    },
+    {
       "from": "movement/mughal-painting",
       "type": "influenced",
       "to": "movement/basohli-painting",
@@ -96653,6 +96714,18 @@
       "derived": true
     },
     {
+      "from": "movement/mamluk-art",
+      "type": "reacted_against_by",
+      "to": "movement/muhammad-ali-mosque-architecture",
+      "derived": true
+    },
+    {
+      "from": "movement/baroque",
+      "type": "influenced",
+      "to": "movement/muhammad-ali-mosque-architecture",
+      "derived": true
+    },
+    {
       "from": "person/dong-qichang",
       "type": "influenced",
       "to": "movement/nanga",
@@ -96986,6 +97059,12 @@
       "from": "place/agra",
       "type": "received",
       "to": "movement/safavid-painting",
+      "derived": true
+    },
+    {
+      "from": "movement/baroque",
+      "type": "influenced",
+      "to": "movement/santero",
       "derived": true
     },
     {

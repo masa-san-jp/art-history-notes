@@ -34,7 +34,8 @@ claims:
 evidence: []
 space:
   - {role: originated_in, target: place/ouro-preto}
-relations: []
+relations:
+  - {type: derives_from, target: movement/baroque, certainty: scholarly, source: "https://pt.wikipedia.org/wiki/Barroco_mineiro"}
 sources:
   - url: "https://www.wikidata.org/wiki/Q16142974"
     kind: authority
@@ -50,7 +51,7 @@ sources:
       サバラー、サン・ジョアン・デル・レイ、コンゴーニャスとする。代表作《十二預言者像》
       （コンゴーニャス、1800-1805年、蝋石彫刻）を記す"
 status: draft
-updated: 2026-09-15
+updated: 2026-11-17
 ---
 
 # ミナス・バロック / Barroco Mineiro
@@ -90,6 +91,19 @@ Wikipediaはこう記す（二次情報、原文引用）。
 `originated_in`はオウロ・プレット（[place/ouro-preto](../places/ouro-preto.md)）。`start`は
 中心地ヴィラ・リカの建設年（1711年）、`end`はアレイジャジーニョの活動終期（1814年没）を含む
 19世紀とした。
+
+## 空間的接続の判定
+
+ポルトガル語版Wikipedia「Barroco mineiro」（二次情報、2026-11-17取得）は、この様式をバロックの地域的
+変種と定義し、制作の実態について次のように記す。
+
+> Muitos dos artistas eram autodidatas, e pesquisas recentes atestam que era uma praxe basearem
+> suas criações em gravuras de procedência europeia, algumas, surpeendentemente, reproduzindo obras
+> de artistas da Alta Renascença, como Rafael
+
+（画家の多くは独学で、近年の研究は、ヨーロッパ産の版画に基づいて制作するのが通例だったと証明する。）
+同項は一方で、ミナスの彫刻家は単一の美的原理にまとまらず、多様で折衷的だったとも記す。
+これに基づき `derives_from` を [バロック](baroque.md)（europe-west）に張った。
 
 ## 未着手
 
