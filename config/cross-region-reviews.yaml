@@ -27,13 +27,6 @@ reviews:
   sources:
   - https://www.wikidata.org/wiki/Q1825525
   - https://en.wikipedia.org/wiki/Freake_Painter
-- movement_id: movement/arts-and-crafts
-  status: no-documented-cross-region-relation
-  checked: '2026-08-25'
-  note: 2026-08-25時点で、movement→movement relation、movement→placeのdiffused_to、space.active_in、movement→event/orgのexhibited_at→held_at/sited_inの4経路を、当該movementに登録された資料を対象に確認した。起源region外への文書化された接続は確認できない。未確認なのは、資料化されていない個人間往来・展示・受容、ならびに視覚的類似だけであり、視覚的類似から因果関係は推定していない。
-  sources:
-  - https://www.metmuseum.org/it/essays/design-reform
-  - https://www.vam.ac.uk/articles/arts-and-crafts-an-introduction
 - movement_id: movement/bamana-sculpture
   status: no-documented-cross-region-relation
   checked: '2026-08-25'
@@ -62,13 +55,6 @@ reviews:
   sources:
   - https://www.metmuseum.org/art/collection/search/469960
   - https://en.wikipedia.org/wiki/Byzantine_art
-- movement_id: movement/constructivism
-  status: no-documented-cross-region-relation
-  checked: '2026-08-25'
-  note: 2026-08-25時点で、movement→movement relation、movement→placeのdiffused_to、space.active_in、movement→event/orgのexhibited_at→held_at/sited_inの4経路を、当該movementに登録された資料を対象に確認した。起源region外への文書化された接続は確認できない。未確認なのは、資料化されていない個人間往来・展示・受容、ならびに視覚的類似だけであり、視覚的類似から因果関係は推定していない。
-  sources:
-  - https://press.moma.org/wp-content/files_mf/russianavantgarde_pressrelease_final88.pdf
-  - https://nga.gov.au/exhibitions/russian-avant-garde/
 - movement_id: movement/cubism
   status: no-documented-cross-region-relation
   checked: '2026-08-25'

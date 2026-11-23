@@ -1993,6 +1993,12 @@
           "target": "place/vienna",
           "certainty": "scholarly",
           "source": "https://www.mak.at/en/program/exhibitions/vienna_1900"
+        },
+        {
+          "type": "diffused_to",
+          "target": "place/chicago",
+          "certainty": "scholarly",
+          "source": "https://www.vam.ac.uk/articles/arts-and-crafts-beyond-the-uk"
         }
       ],
       "sources": [
@@ -2018,7 +2024,7 @@
         }
       ],
       "status": "verified",
-      "updated": "2026-08-25",
+      "updated": "2026-11-18",
       "path": "entities/movements/arts-and-crafts.md"
     },
     "movement/asmat-carving": {
@@ -3229,7 +3235,7 @@
         }
       ],
       "status": "draft",
-      "updated": "2026-11-17",
+      "updated": "2026-11-18",
       "path": "entities/movements/barroco-mineiro.md"
     },
     "movement/basohli-painting": {
@@ -4836,6 +4842,18 @@
       ],
       "relations": [
         {
+          "type": "influenced_by",
+          "target": "movement/cubism",
+          "certainty": "scholarly",
+          "source": "https://www.theartstory.org/movement/constructivism/"
+        },
+        {
+          "type": "influenced_by",
+          "target": "movement/futurism",
+          "certainty": "scholarly",
+          "source": "https://www.theartstory.org/movement/constructivism/"
+        },
+        {
           "type": "reacts_against",
           "target": "movement/suprematism",
           "certainty": "scholarly",
@@ -4885,6 +4903,11 @@
           "kind": "reference"
         },
         {
+          "url": "https://www.theartstory.org/movement/constructivism/",
+          "kind": "reference",
+          "note": "二次情報。構成主義がキュビスムと未来派の要素を借りたとする記述と、ガボが1913〜14年にパリでキュビスム彫刻に触れたとする記述を2026-11-18に確認"
+        },
+        {
           "url": "https://www.vkhutemas.ru/en/summary/",
           "kind": "reference"
         },
@@ -4906,7 +4929,7 @@
         }
       ],
       "status": "verified",
-      "updated": "2026-08-25",
+      "updated": "2026-11-18",
       "path": "entities/movements/constructivism.md"
     },
     "movement/cubism": {
@@ -78093,6 +78116,13 @@
     },
     {
       "from": "movement/arts-and-crafts",
+      "type": "diffused_to",
+      "to": "place/chicago",
+      "certainty": "scholarly",
+      "source": "https://www.vam.ac.uk/articles/arts-and-crafts-beyond-the-uk"
+    },
+    {
+      "from": "movement/arts-and-crafts",
       "type": "originated_in",
       "to": "place/london"
     },
@@ -78541,6 +78571,20 @@
       "from": "movement/conceptual-art",
       "type": "originated_in",
       "to": "place/new-york-city"
+    },
+    {
+      "from": "movement/constructivism",
+      "type": "influenced_by",
+      "to": "movement/cubism",
+      "certainty": "scholarly",
+      "source": "https://www.theartstory.org/movement/constructivism/"
+    },
+    {
+      "from": "movement/constructivism",
+      "type": "influenced_by",
+      "to": "movement/futurism",
+      "certainty": "scholarly",
+      "source": "https://www.theartstory.org/movement/constructivism/"
     },
     {
       "from": "movement/constructivism",
@@ -95754,6 +95798,12 @@
       "derived": true
     },
     {
+      "from": "place/chicago",
+      "type": "received",
+      "to": "movement/arts-and-crafts",
+      "derived": true
+    },
+    {
       "from": "place/new-york-city",
       "type": "received",
       "to": "movement/asmat-carving",
@@ -96009,6 +96059,18 @@
       "from": "event/documenta-5-1972",
       "type": "exhibited",
       "to": "movement/conceptual-art",
+      "derived": true
+    },
+    {
+      "from": "movement/cubism",
+      "type": "influenced",
+      "to": "movement/constructivism",
+      "derived": true
+    },
+    {
+      "from": "movement/futurism",
+      "type": "influenced",
+      "to": "movement/constructivism",
       "derived": true
     },
     {
