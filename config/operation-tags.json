@@ -4790,7 +4790,7 @@
     },
     "movement/missao-artistica-francesa": {
       "completed": true,
-      "content_sha256": "ce71bd8eafdb9484b61c7ab6ab0b30bf7ea666caecf7cee9b7ba4e1b27c1d2dc",
+      "content_sha256": "a3c62c723dec523d7f9c28ab063eee7096f2a43a33bb84dc617974403e8160a1",
       "history": [
         {
           "accepted": true,
@@ -4811,7 +4811,7 @@
           "value_sha256": "c46c041ce888ac802aeaa833971696d791475277bca48f0f1a6615633aedf6c9"
         }
       ],
-      "source_commit": "d5bd9bc544343fad551bda87bfe1b5623fda6061",
+      "source_commit": "56d6e829597adbd087b8663537176922dcc61bbc",
       "tags": [
         {
           "evidence": "レオポルディーナ王女の上陸やペドロ1世の戴冠などブラジル史の場面も描いた。",
@@ -4819,6 +4819,8 @@
           "source_locator": "entities/movements/missao-artistica-francesa.md#定義と範囲",
           "source_refs": [
             "http://arts-graphiques.louvre.fr/detail/artistes/0/757-DEBRET-Jean-Baptiste",
+            "https://doi.org/10.11606/issn.2176-8099.pcso.2007.75459",
+            "https://doi.org/10.1590/S0101-47142006000200009",
             "https://en.wikipedia.org/wiki/Miss%C3%A3o_Art%C3%ADstica_Francesa",
             "https://www.wikidata.org/wiki/Q3316787"
           ]
