@@ -2938,7 +2938,14 @@
           "target": "place/barbizon"
         }
       ],
-      "relations": [],
+      "relations": [
+        {
+          "type": "diffused_to",
+          "target": "place/boston",
+          "certainty": "scholarly",
+          "source": "https://vosegalleries.com/in-support-of-the-barbizon-rebels-vose-galleries-in-the-1870s/"
+        }
+      ],
       "images": [
         {
           "url": "https://www.artic.edu/iiif/2/6d981a44-bb4a-e577-387d-16fc581b1304/full/843,/0/default.jpg",
@@ -2994,10 +3001,19 @@
         {
           "url": "https://www.artic.edu/artworks/95993",
           "kind": "institutional"
+        },
+        {
+          "url": "https://vosegalleries.com/in-support-of-the-barbizon-rebels-vose-galleries-in-the-1870s/",
+          "kind": "reference",
+          "note": "ボストンの画商の社史エッセイ。ハントによるバルビゾン派の紹介を記す二次情報（2026-11-25取得）"
+        },
+        {
+          "url": "https://eclecticlight.co/2016/09/20/barbizon-crosses-the-atlantic-william-morris-hunt/",
+          "kind": "reference"
         }
       ],
       "status": "verified",
-      "updated": "2026-08-25",
+      "updated": "2026-11-25",
       "path": "entities/movements/barbizon-school.md"
     },
     "movement/bark-painting": {
@@ -78247,6 +78263,13 @@
     },
     {
       "from": "movement/barbizon-school",
+      "type": "diffused_to",
+      "to": "place/boston",
+      "certainty": "scholarly",
+      "source": "https://vosegalleries.com/in-support-of-the-barbizon-rebels-vose-galleries-in-the-1870s/"
+    },
+    {
+      "from": "movement/barbizon-school",
       "type": "originated_in",
       "to": "place/barbizon"
     },
@@ -95873,6 +95896,12 @@
       "from": "movement/cubism",
       "type": "influenced",
       "to": "movement/bandung-school",
+      "derived": true
+    },
+    {
+      "from": "place/boston",
+      "type": "received",
+      "to": "movement/barbizon-school",
       "derived": true
     },
     {

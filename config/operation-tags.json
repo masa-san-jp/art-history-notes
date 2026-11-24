@@ -1090,7 +1090,7 @@
     },
     "movement/barbizon-school": {
       "completed": true,
-      "content_sha256": "64ba87a572db04b9dc5e575e32c0999cb920379c580754311d4adad94b8186a5",
+      "content_sha256": "1deff41bbcaf2f69d3213a17981b26e7362b01fbe64058bf4cfc578bdc819fe0",
       "history": [
         {
           "accepted": true,
@@ -1099,7 +1099,7 @@
           "value_sha256": "c46c041ce888ac802aeaa833971696d791475277bca48f0f1a6615633aedf6c9"
         }
       ],
-      "source_commit": "d5bd9bc544343fad551bda87bfe1b5623fda6061",
+      "source_commit": "b93cc1719491cf3174b1771dbbf094b97f93fc41",
       "tags": []
     },
     "movement/bark-painting": {
