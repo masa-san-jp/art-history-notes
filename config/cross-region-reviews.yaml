@@ -34,13 +34,6 @@ reviews:
   sources:
   - https://africanarchive.org/en/staemme/bamana
   - https://www.metmuseum.org/art/collection/search/310864
-- movement_id: movement/barbizon-school
-  status: no-documented-cross-region-relation
-  checked: '2026-08-25'
-  note: 2026-08-25時点で、movement→movement relation、movement→placeのdiffused_to、space.active_in、movement→event/orgのexhibited_at→held_at/sited_inの4経路を、当該movementに登録された資料を対象に確認した。起源region外への文書化された接続は確認できない。未確認なのは、資料化されていない個人間往来・展示・受容、ならびに視覚的類似だけであり、視覚的類似から因果関係は推定していない。
-  sources:
-  - https://www.artic.edu/artworks/27873
-  - https://en.wikipedia.org/wiki/Barbizon_school
 - movement_id: movement/baroque
   status: no-documented-cross-region-relation
   checked: '2026-08-25'
