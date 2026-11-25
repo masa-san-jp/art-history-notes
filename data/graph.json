@@ -20417,6 +20417,12 @@
           "target": "movement/song-academy-painting",
           "certainty": "scholarly",
           "source": "https://www.hkpm.org.hk/en/visit/audio-guide/g4-stories-untold"
+        },
+        {
+          "type": "diffused_to",
+          "target": "place/kyoto",
+          "certainty": "scholarly",
+          "source": "https://ja.wikipedia.org/wiki/%E6%B5%99%E6%B4%BE"
         }
       ],
       "sources": [
@@ -20462,7 +20468,7 @@
         }
       ],
       "status": "verified",
-      "updated": "2026-08-25",
+      "updated": "2026-11-26",
       "path": "entities/movements/zhe-school.md"
     },
     "movement/zimbabwe-stone-architecture": {
@@ -81008,6 +81014,13 @@
     },
     {
       "from": "movement/zhe-school",
+      "type": "diffused_to",
+      "to": "place/kyoto",
+      "certainty": "scholarly",
+      "source": "https://ja.wikipedia.org/wiki/%E6%B5%99%E6%B4%BE"
+    },
+    {
+      "from": "movement/zhe-school",
       "type": "originated_in",
       "to": "place/hangzhou"
     },
@@ -97455,6 +97468,12 @@
     {
       "from": "movement/song-academy-painting",
       "type": "influenced",
+      "to": "movement/zhe-school",
+      "derived": true
+    },
+    {
+      "from": "place/kyoto",
+      "type": "received",
       "to": "movement/zhe-school",
       "derived": true
     },

@@ -29,6 +29,7 @@ space:
   - {role: originated_in, target: place/hangzhou}
 relations:
   - {type: influenced_by, target: movement/song-academy-painting, certainty: scholarly, source: "https://www.hkpm.org.hk/en/visit/audio-guide/g4-stories-untold"}
+  - {type: diffused_to, target: place/kyoto, certainty: scholarly, source: "https://ja.wikipedia.org/wiki/%E6%B5%99%E6%B4%BE"}
 sources:
   - url: "https://www.wikidata.org/wiki/Q1150941"
     kind: authority
@@ -54,7 +55,7 @@ images:
     license: cc0
     note: "蒋嵩《冬景山水図》（Winter landscape）、16世紀前半。メトロポリタン美術館蔵（isPublicDomain: true）"
 status: verified
-updated: 2026-08-25
+updated: 2026-11-26
 ---
 
 # 浙派 / Zhe school
@@ -178,6 +179,18 @@ claim が無い。狩野派・土佐派・琳派はいずれも `P571` に世紀
 **未確認**: 浙派の活動が最も集中した都市（北京か南京か）を特定する一次資料には当たっていない。
 `space.role: active_in` を追加で張るかは、その特定ができてから判断する。
 
+### 日本への伝播を記録した根拠
+
+日本語版Wikipediaは、浙派の絵画が日本の室町時代の水墨画や朝鮮王朝の絵画に影響を与えたと記す
+（二次情報、取得 2026-11-26）。京都国立博物館の学芸部長による文章は、浙派の殿軍とされる藍瑛の作品が
+日本に多数舶載され、池大雅をはじめ江戸時代の南画家に大きな影響を与えたと書く
+（[kyohaku.go.jp](https://www.kyohaku.go.jp/jp/learn/home/yomimono_data/0071/)）。
+受け取った側の[南画](nanga.md)にも同じ出典で `influenced_by` が張られている。
+ここでは `diffused_to place/kyoto` を1本だけ置いた。**未確認**: どちらの出典も受容地として都市名を
+挙げていない。京都は室町幕府の所在地であり、池大雅の拠点として南画のファイルが記す地であるため
+採ったが、これは出典の記述ではなく編集上の判断である。朝鮮王朝側（place/hanseong）には、
+朝鮮の受容を具体的に記す出典に当たっていないため張っていない。
+
 ## 未着手
 
 - 董其昌『画禅室随筆』の成立年（`naming.named_when` を埋める一次資料）
@@ -187,8 +200,8 @@ claim が無い。狩野派・土佐派・琳派はいずれも `P571` に世紀
   他系統）を繋ぐ一次資料が見つかれば基準2に当たる
 - 南宋画院（馬遠・夏珪）・元代の李郭派との `derives_from` — 現状 movement として立てていないため
   張れない。南宋院体を movement/concept のどちらで持つかは別途判断が要る
-- 日本の室町水墨画・李氏朝鮮絵画への影響（日本語版Wikipediaが触れている）——`diffused_to` の
-  候補だが、対象側の movement が未整備（室町水墨画は現状このKBに無い）
+- 室町水墨画・朝鮮王朝絵画の movement 化。受容地としては京都に `diffused_to` を張ったが、
+  受け取った側の movement（室町水墨画）は現状このKBに無く、朝鮮側は出典未確認
 - 「後代由来の呼称は人名／地名のどちらかに落ちる」という、本ファイルの kind 判定で新たに
   立てた仮説の検証（次の反例候補: 呉派——地縁か号か未確認、次に調べる価値がある）
 - 呉派（同じく明代・地域名を冠する画派とされる）との対比。`overviews/japan-school-types.md` は
