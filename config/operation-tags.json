@@ -297,7 +297,7 @@
     },
     "movement/ai-bigeiken": {
       "completed": true,
-      "content_sha256": "78cfa9978efac3218d2e61e2d53c95c25bcbe292ee27028f7a5471bcf70e0a6f",
+      "content_sha256": "8ade5990f01d1b9b5236a8a59c4920a9fed296444ef9d567f8fd448bf9cc24f5",
       "history": [
         {
           "accepted": true,
@@ -306,7 +306,7 @@
           "value_sha256": "c46c041ce888ac802aeaa833971696d791475277bca48f0f1a6615633aedf6c9"
         }
       ],
-      "source_commit": "d5bd9bc544343fad551bda87bfe1b5623fda6061",
+      "source_commit": "56d6e829597adbd087b8663537176922dcc61bbc",
       "tags": []
     },
     "movement/akan-goldweights": {
@@ -1090,7 +1090,7 @@
     },
     "movement/barbizon-school": {
       "completed": true,
-      "content_sha256": "64ba87a572db04b9dc5e575e32c0999cb920379c580754311d4adad94b8186a5",
+      "content_sha256": "1deff41bbcaf2f69d3213a17981b26e7362b01fbe64058bf4cfc578bdc819fe0",
       "history": [
         {
           "accepted": true,
@@ -1099,7 +1099,7 @@
           "value_sha256": "c46c041ce888ac802aeaa833971696d791475277bca48f0f1a6615633aedf6c9"
         }
       ],
-      "source_commit": "d5bd9bc544343fad551bda87bfe1b5623fda6061",
+      "source_commit": "b93cc1719491cf3174b1771dbbf094b97f93fc41",
       "tags": []
     },
     "movement/bark-painting": {
@@ -1700,7 +1700,7 @@
     },
     "movement/constructivism": {
       "completed": true,
-      "content_sha256": "ebe5681b5e3221227da034d19c033386905cbfa47dc0c36d9c27c94fb38f2f49",
+      "content_sha256": "56b386855ff954af54434cfc7980f7e8be4b73cbfd1965cbf86b32779c964880",
       "history": [
         {
           "accepted": true,
@@ -1721,7 +1721,7 @@
           "value_sha256": "c46c041ce888ac802aeaa833971696d791475277bca48f0f1a6615633aedf6c9"
         }
       ],
-      "source_commit": "d5bd9bc544343fad551bda87bfe1b5623fda6061",
+      "source_commit": "56d6e829597adbd087b8663537176922dcc61bbc",
       "tags": [
         {
           "evidence": "生産と生活に接続する実践へ移ろうとした。",
@@ -1737,6 +1737,7 @@
             "https://www.moma.org/interactives/exhibitions/1998/rodchenko/texts/new_cultural.html",
             "https://www.moma.org/interactives/objectphoto/schools/15.html",
             "https://www.nga.gov/artworks/93943-wendingen",
+            "https://www.theartstory.org/movement/constructivism/",
             "https://www.theartstory.org/movement/suprematism/",
             "https://www.vkhutemas.ru/en/summary/",
             "https://www.vkhutemas.ru/en/the-history/",
@@ -3565,7 +3566,7 @@
     },
     "movement/kalighat-painting": {
       "completed": true,
-      "content_sha256": "e3155c69983f40722f8eadce0ca1fd97636c98cf21f42e0e39ecb6aff7d733ba",
+      "content_sha256": "ef9c7ddadf1f6115c1cedbda68cbbe791cbd8a7d8cfaf45979fda4c785266c27",
       "history": [
         {
           "accepted": true,
@@ -3598,14 +3599,16 @@
           "value_sha256": "c46c041ce888ac802aeaa833971696d791475277bca48f0f1a6615633aedf6c9"
         }
       ],
-      "source_commit": "d5bd9bc544343fad551bda87bfe1b5623fda6061",
+      "source_commit": "56d6e829597adbd087b8663537176922dcc61bbc",
       "tags": [
         {
           "evidence": "大胆な輪郭線・鮮やかな色調・最小限の\n背景を特徴とし",
           "operation_id": "reduce",
           "source_locator": "entities/movements/kalighat-painting.md#定義と範囲",
           "source_refs": [
+            "https://collections.vam.ac.uk/item/O432772/",
             "https://en.wikipedia.org/wiki/Kalighat_painting",
+            "https://www.vam.ac.uk/articles/kalighat-painting",
             "https://www.wikidata.org/wiki/Q6352595"
           ]
         },
@@ -3614,7 +3617,9 @@
           "operation_id": "narrate",
           "source_locator": "entities/movements/kalighat-painting.md#定義と範囲",
           "source_refs": [
+            "https://collections.vam.ac.uk/item/O432772/",
             "https://en.wikipedia.org/wiki/Kalighat_painting",
+            "https://www.vam.ac.uk/articles/kalighat-painting",
             "https://www.wikidata.org/wiki/Q6352595"
           ]
         }
@@ -4309,7 +4314,7 @@
     },
     "movement/mamluk-art": {
       "completed": true,
-      "content_sha256": "decf768a5261f914accaee6187f2f08f351e2e03c5c7bab7335a07c57e9ac989",
+      "content_sha256": "3fff1f807c8992d5f640700fde9c55d1f464aaf29a821eb6ffcbb6798dceb096",
       "history": [
         {
           "accepted": true,
@@ -4330,14 +4335,16 @@
           "value_sha256": "c46c041ce888ac802aeaa833971696d791475277bca48f0f1a6615633aedf6c9"
         }
       ],
-      "source_commit": "d5bd9bc544343fad551bda87bfe1b5623fda6061",
+      "source_commit": "56d6e829597adbd087b8663537176922dcc61bbc",
       "tags": [
         {
           "evidence": "金地に幾何学文様・唐草文様を用いる",
           "operation_id": "ornament",
           "source_locator": "entities/movements/mamluk-art.md#定義と範囲",
           "source_refs": [
+            "https://clevelandart.org/art/2013.102",
             "https://hyperallergic.com/british-library-digitizes-one-of-the-worlds-oldest-quran-manuscripts/",
+            "https://www.artic.edu/artworks/100740",
             "https://www.missedhistory.com/article/mamluk-qurans",
             "https://www.wikidata.org/wiki/Q2864675"
           ]
@@ -6873,7 +6880,7 @@
     },
     "movement/vijayanagara-art": {
       "completed": true,
-      "content_sha256": "b502c34036001a5b577b9f4d2bbb68e5dc5f9b9975a6257209d46f6121ddd9c4",
+      "content_sha256": "9197a3aba51f72e7ad716b4e4307080680160f109ee55698bb8c8943bee0d01c",
       "history": [
         {
           "accepted": true,
@@ -6894,7 +6901,7 @@
           "value_sha256": "c46c041ce888ac802aeaa833971696d791475277bca48f0f1a6615633aedf6c9"
         }
       ],
-      "source_commit": "d5bd9bc544343fad551bda87bfe1b5623fda6061",
+      "source_commit": "56d6e829597adbd087b8663537176922dcc61bbc",
       "tags": [
         {
           "evidence": "花崗岩の柱に跳ねるヤーリ（神獣）に乗る騎手を彫った",
@@ -7094,7 +7101,7 @@
     },
     "movement/zimbabwe-stone-architecture": {
       "completed": true,
-      "content_sha256": "dc5ae65af3b14f9705af99b7f368e2cd94beac64e923648ca5a8ee845a88cf90",
+      "content_sha256": "783b8c7830ed4e70e773a3bc5ea871311ed493ba094cbe667e017528746aadce",
       "history": [
         {
           "accepted": true,
@@ -7106,7 +7113,7 @@
           "accepted": true,
           "attempt": 1,
           "element_id": "movement.zimbabwe-stone-architecture.evidence.1",
-          "value_sha256": "f607c7b5dc899f94065dc363b1603a3dcfa68aab5d7c72ef050ca4eff2f7c09c"
+          "value_sha256": "5d954daf7f8ce5d212e1d49e19fe1b2c1d3f91bb7d91a9706da5023123799e54"
         },
         {
           "accepted": true,
@@ -7115,10 +7122,10 @@
           "value_sha256": "c46c041ce888ac802aeaa833971696d791475277bca48f0f1a6615633aedf6c9"
         }
       ],
-      "source_commit": "d5bd9bc544343fad551bda87bfe1b5623fda6061",
+      "source_commit": "56d6e829597adbd087b8663537176922dcc61bbc",
       "tags": [
         {
-          "evidence": "目地を使わない乾式石積み（ドライストーン・メーソンリー）",
+          "evidence": "モルタルを使わず積み、上へ向かって内側へ傾く",
           "operation_id": "construct",
           "source_locator": "entities/movements/zimbabwe-stone-architecture.md#定義と範囲",
           "source_refs": [

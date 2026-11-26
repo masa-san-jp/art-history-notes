@@ -29,6 +29,7 @@ space:
   - {role: originated_in, target: place/london}
 relations:
   - {type: diffused_to, target: place/vienna, certainty: scholarly, source: "https://www.mak.at/en/program/exhibitions/vienna_1900"}
+  - {type: diffused_to, target: place/chicago, certainty: scholarly, source: "https://www.vam.ac.uk/articles/arts-and-crafts-beyond-the-uk"}
 sources:
   - url: "https://www.wikidata.org/wiki/Q330369"
     kind: authority
@@ -41,7 +42,7 @@ sources:
   - url: "https://www.mak.at/en/program/exhibitions/vienna_1900"
     kind: reference
 status: verified
-updated: 2026-08-25
+updated: 2026-11-18
 ---
 
 # アーツ・アンド・クラフツ運動 / Arts and Crafts movement
@@ -71,6 +72,14 @@ V&Aによれば、運動は1887年にロンドンで設立されたArts and Craf
 ロンドンは運動全体の唯一の発生地ではないが、1887年の展示協会設立と1888年の最初の年次展が行われた
 代表的な形成地として `originated_in` に置く。英国各地の都市・農村工房は、個別の団体と活動地を調査してから
 追加する。
+
+## シカゴへの伝播
+
+V&Aは、アーツ・アンド・クラフツの考えが中欧、米国、日本へ順に広がったと書き、シカゴでは「特に
+影響が大きく」、フランク・ロイド・ライトら「プレーリー派」の建築家・デザイナーの拠点になったと記す
+（[vam.ac.uk](https://www.vam.ac.uk/articles/arts-and-crafts-beyond-the-uk)、二次情報、取得 2026-11-18）。
+そのためシカゴを米国での受容地として `diffused_to` に記録する。プレーリー派を英国の運動の
+後継とみなすかどうかは別の問題で、ここでは決めない（プレーリー派のmovementは未作成）。
 
 ## 未着手
 

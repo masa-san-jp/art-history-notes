@@ -34,7 +34,8 @@ claims:
 evidence: []
 space:
   - {role: originated_in, target: place/ouro-preto}
-relations: []
+relations:
+  - {type: derives_from, target: movement/baroque, certainty: scholarly, source: "https://pt.wikipedia.org/wiki/Barroco_mineiro"}
 sources:
   - url: "https://www.wikidata.org/wiki/Q16142974"
     kind: authority
@@ -50,7 +51,7 @@ sources:
       サバラー、サン・ジョアン・デル・レイ、コンゴーニャスとする。代表作《十二預言者像》
       （コンゴーニャス、1800-1805年、蝋石彫刻）を記す"
 status: draft
-updated: 2026-09-15
+updated: 2026-11-18
 ---
 
 # ミナス・バロック / Barroco Mineiro
@@ -91,11 +92,33 @@ Wikipediaはこう記す（二次情報、原文引用）。
 中心地ヴィラ・リカの建設年（1711年）、`end`はアレイジャジーニョの活動終期（1814年没）を含む
 19世紀とした。
 
+## 空間的接続の判定
+
+ポルトガル語版Wikipedia「Barroco mineiro」（二次情報、2026-11-17取得）は、この様式をバロックの地域的
+変種と定義し、制作の実態について次のように記す。
+
+> Muitos dos artistas eram autodidatas, e pesquisas recentes atestam que era uma praxe basearem
+> suas criações em gravuras de procedência europeia, algumas, surpeendentemente, reproduzindo obras
+> de artistas da Alta Renascença, como Rafael
+
+（画家の多くは独学で、近年の研究は、ヨーロッパ産の版画に基づいて制作するのが通例だったと証明する。）
+同項は一方で、ミナスの彫刻家は単一の美的原理にまとまらず、多様で折衷的だったとも記す。
+これに基づき `derives_from` を [バロック](baroque.md)（europe-west）に張った。
+
+## バロックとの関係
+
+ポルトガル語版Wikipediaは、この様式をバロックの地域的変種とし、堂の平面にポルトガル型（隅を面取りした
+平面）とイタリア型（円形）のバロックがあったと記し、18世紀後半の担い手の一部（ヴィエイラ・セルヴァスら）
+はポルトガルの直接の影響下で働いたと書く（二次情報、取得 2026-11-18）。Wikidata Q16142974 も
+上位概念（P279）にポルトガル・バロック（Q326469）とブラジル・バロック（Q899271）を挙げる。
+そのため `derives_from movement/baroque` を置く。ポルトガル・バロックを独立のmovementとして
+立てるかどうか、個々の堂・作品ごとの手本の特定は未確認。
+
 ## 未着手
 
 - アレイジャジーニョ、マヌエル・フランシスコ・リズボア、メストレ・アタイーデを person
   エンティティとして立てるかどうか
 - 《十二預言者像》を work エンティティとして立てるかどうか
 - UNESCO世界遺産登録（1985年）の一次資料（whc.unesco.orgは今回403でブロックされた）
-- 文化圏間接続（4経路）: 検索した範囲では、アレイジャジーニョの作品はほぼ全てミナスジェライス州
-  内に残っており、海外の美術館収蔵など域外への文書化された接続は見つけられなかった
+- 海外の美術館収蔵など、アレイジャジーニョの作品の域外への文書化された接続は、検索した範囲では
+  見つけられなかった

@@ -29,9 +29,9 @@ naming:
     指す語ではあるが、美術の様式を自称する語として当事者が用いた記録は無い。『マムルーク美術』は
     王朝名を冠した後代の美術史上の括りである"
 claims:
-  - {field: time, source: "https://www.missedhistory.com/article/mamluk-qurans", certainty: scholarly}
-  - {field: originated_in, source: "https://www.missedhistory.com/article/mamluk-qurans", certainty: scholarly}
-  - {field: kind, source: "https://www.wikidata.org/wiki/Q2864675", certainty: scholarly}
+  - {field: time, source: "https://clevelandart.org/art/2013.102", certainty: scholarly}
+  - {field: originated_in, source: "https://clevelandart.org/art/2013.102", certainty: scholarly}
+  - {field: kind, source: "https://www.artic.edu/artworks/100740", certainty: scholarly}
 evidence: []
 space:
   - {role: originated_in, target: place/cairo}
@@ -40,6 +40,17 @@ relations:
 sources:
   - url: "https://www.wikidata.org/wiki/Q2864675"
     kind: authority
+  - url: "https://clevelandart.org/art/2013.102"
+    kind: institutional
+    note: "クリーヴランド美術館《Leaf from a Qur'an》（2013.102）。2026-11-16にCleveland Open
+      Access API（artworks/170528）で culture欄「Egypt, Cairo, Mamluk Sultanate (1250–1517)」、
+      creation_date「1300s」、CC0を確認。マムルーク朝の存続期間（1250-1517年）とカイロ制作を
+      同じ館の帰属欄が示す"
+  - url: "https://www.artic.edu/artworks/100740"
+    kind: institutional
+    note: "シカゴ美術館《Fragment》（100740）。2026-11-16にAIC API（artworks/100740）で
+      place_of_origin「Egypt」、date_display「Mamluk period (1250–1517), late 14th century」を
+      確認。美術館が王朝の存続期間そのものを時代区分の名として所蔵品の帰属に使う例"
   - url: "https://www.missedhistory.com/article/mamluk-qurans"
     kind: reference
     note: "『Cairo's Golden Words: The Art of Mamluk Qurans』の記事。マムルーク朝（1250-1517年）
@@ -49,8 +60,8 @@ sources:
     kind: reference
     note: "スルターン・バイバルス2世治下で制作された『バイバルスのクルアーン』が現在ロンドンの
       大英図書館に所蔵されると記す"
-status: draft
-updated: 2026-09-16
+status: verified
+updated: 2026-11-16
 ---
 
 # マムルーク美術 / Mamluk Art
