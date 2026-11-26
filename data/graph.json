@@ -1993,6 +1993,12 @@
           "target": "place/vienna",
           "certainty": "scholarly",
           "source": "https://www.mak.at/en/program/exhibitions/vienna_1900"
+        },
+        {
+          "type": "diffused_to",
+          "target": "place/chicago",
+          "certainty": "scholarly",
+          "source": "https://www.vam.ac.uk/articles/arts-and-crafts-beyond-the-uk"
         }
       ],
       "sources": [
@@ -2018,7 +2024,7 @@
         }
       ],
       "status": "verified",
-      "updated": "2026-08-25",
+      "updated": "2026-11-18",
       "path": "entities/movements/arts-and-crafts.md"
     },
     "movement/asmat-carving": {
@@ -2932,7 +2938,14 @@
           "target": "place/barbizon"
         }
       ],
-      "relations": [],
+      "relations": [
+        {
+          "type": "diffused_to",
+          "target": "place/boston",
+          "certainty": "scholarly",
+          "source": "https://vosegalleries.com/in-support-of-the-barbizon-rebels-vose-galleries-in-the-1870s/"
+        }
+      ],
       "images": [
         {
           "url": "https://www.artic.edu/iiif/2/6d981a44-bb4a-e577-387d-16fc581b1304/full/843,/0/default.jpg",
@@ -2988,10 +3001,19 @@
         {
           "url": "https://www.artic.edu/artworks/95993",
           "kind": "institutional"
+        },
+        {
+          "url": "https://vosegalleries.com/in-support-of-the-barbizon-rebels-vose-galleries-in-the-1870s/",
+          "kind": "reference",
+          "note": "ボストンの画商の社史エッセイ。ハントによるバルビゾン派の紹介を記す二次情報（2026-11-25取得）"
+        },
+        {
+          "url": "https://eclecticlight.co/2016/09/20/barbizon-crosses-the-atlantic-william-morris-hunt/",
+          "kind": "reference"
         }
       ],
       "status": "verified",
-      "updated": "2026-08-25",
+      "updated": "2026-11-25",
       "path": "entities/movements/barbizon-school.md"
     },
     "movement/bark-painting": {
@@ -3204,7 +3226,14 @@
           "target": "place/ouro-preto"
         }
       ],
-      "relations": [],
+      "relations": [
+        {
+          "type": "derives_from",
+          "target": "movement/baroque",
+          "certainty": "scholarly",
+          "source": "https://pt.wikipedia.org/wiki/Barroco_mineiro"
+        }
+      ],
       "sources": [
         {
           "url": "https://www.wikidata.org/wiki/Q16142974",
@@ -3222,7 +3251,7 @@
         }
       ],
       "status": "draft",
-      "updated": "2026-09-15",
+      "updated": "2026-11-18",
       "path": "entities/movements/barroco-mineiro.md"
     },
     "movement/basohli-painting": {
@@ -4235,16 +4264,16 @@
         {
           "url": "https://www.metmuseum.org/art/collection/search/39328",
           "kind": "institutional",
-          "note": "メトロポリタン美術館収蔵《舞踏の王シヴァ（ナタラージャ）》。タミル・ナードゥ州、 チョーラ朝期（880-1279年）と帰属年代を記す。2026-11-21にMet Open Access API（objects/39328）で culture='Indian (Tamil Nadu)'、period='Chola period (880–1279)'、objectDate='ca. late 11th century'を確認"
+          "note": "メトロポリタン美術館収蔵《舞踏の王シヴァ（ナタラージャ）》。タミル・ナードゥ州、 チョーラ朝期（880-1279年）と帰属年代を記す。2026-11-16にMet Open Access API （objects/39328）で period欄「Chola period (880–1279)」、culture欄「Indian (Tamil Nadu)」、 objectDate「ca. late 11th century」、パブリックドメインを確認"
         },
         {
           "url": "https://www.bmimages.com/preview.asp?image=00033974001",
           "kind": "institutional",
-          "note": "大英博物館収蔵《ナタラージャ像》（登録番号1987,0314.1）。タンジャーヴール、 チョーラ朝、c.1100年、高さ89.50cmの一鋳造品と記す。2026-11-21にページ本文でタイトル『Chola dynasty, c.1100』と キーワード『thanjavur district』を確認"
+          "note": "大英博物館収蔵《ナタラージャ像》（登録番号1987,0314.1）。タンジャーヴール、 チョーラ朝、c.1100年、高さ89.50cmの一鋳造品と記す。2026-11-16に同ページで Period/culture「Chola」、Production place「Thanjavur, Tamil Nadu」、Technique「lost-wax cast」、 Materials「bronze」を確認"
         }
       ],
       "status": "verified",
-      "updated": "2026-11-21",
+      "updated": "2026-11-16",
       "path": "entities/movements/chola-bronzes.md"
     },
     "movement/coffin-portrait": {
@@ -4829,6 +4858,18 @@
       ],
       "relations": [
         {
+          "type": "influenced_by",
+          "target": "movement/cubism",
+          "certainty": "scholarly",
+          "source": "https://www.theartstory.org/movement/constructivism/"
+        },
+        {
+          "type": "influenced_by",
+          "target": "movement/futurism",
+          "certainty": "scholarly",
+          "source": "https://www.theartstory.org/movement/constructivism/"
+        },
+        {
           "type": "reacts_against",
           "target": "movement/suprematism",
           "certainty": "scholarly",
@@ -4878,6 +4919,11 @@
           "kind": "reference"
         },
         {
+          "url": "https://www.theartstory.org/movement/constructivism/",
+          "kind": "reference",
+          "note": "二次情報。構成主義がキュビスムと未来派の要素を借りたとする記述と、ガボが1913〜14年にパリでキュビスム彫刻に触れたとする記述を2026-11-18に確認"
+        },
+        {
           "url": "https://www.vkhutemas.ru/en/summary/",
           "kind": "reference"
         },
@@ -4899,7 +4945,7 @@
         }
       ],
       "status": "verified",
-      "updated": "2026-08-25",
+      "updated": "2026-11-18",
       "path": "entities/movements/constructivism.md"
     },
     "movement/cubism": {
@@ -9564,17 +9610,17 @@
       "claims": [
         {
           "field": "time",
-          "source": "https://en.wikipedia.org/wiki/Kalighat_painting",
+          "source": "https://www.vam.ac.uk/articles/kalighat-painting",
           "certainty": "scholarly"
         },
         {
           "field": "originated_in",
-          "source": "https://en.wikipedia.org/wiki/Kalighat_painting",
+          "source": "https://www.vam.ac.uk/articles/kalighat-painting",
           "certainty": "scholarly"
         },
         {
           "field": "kind",
-          "source": "https://www.wikidata.org/wiki/Q6352595",
+          "source": "https://www.vam.ac.uk/articles/kalighat-painting",
           "certainty": "scholarly"
         }
       ],
@@ -9605,13 +9651,23 @@
           "kind": "authority"
         },
         {
+          "url": "https://www.vam.ac.uk/articles/kalighat-painting",
+          "kind": "institutional",
+          "note": "V&Aの解説記事（最終更新2024-04-17）。2026-11-16に取得。19世紀コルカタ（旧カルカッタ）で 発達した独自のジャンルとし、1830年代から1930年代の100年間に制作・収集された約645点を 所蔵すると記す。制作者は寺院参詣者向けに安価な絵を売って生計を立てたパトゥア（画工）で、 Kalighatはフーグリー川沿いの沐浴場（ガート）に由来する地名と記す"
+        },
+        {
+          "url": "https://collections.vam.ac.uk/item/O432772/",
+          "kind": "institutional",
+          "note": "V&A《Vishnu as Narasimha avatar》（IS.196-1950）。2026-11-16にV&A API （museumobject/O432772）で様式欄「Kalighat」、制作地「Kolkata」、制作年「ca. 1830」を確認。 同館のO71567（IS.32-1952、ca. 1900）も様式欄「Kalighat」・制作地「Kolkata」。 1930年代までの下限と、kindの根拠にあたる命名の経緯は、この資料では確認できていない"
+        },
+        {
           "url": "https://en.wikipedia.org/wiki/Kalighat_painting",
           "kind": "reference",
           "note": "『Kalighat painting』の項。用紙・顔料の物質的証拠から19世紀前半に遡るとし、 コルカタのカーリー女神寺院周辺で発達したと記す。大胆な輪郭線・鮮やかな色調・ 最小限の背景を特徴とし、手漉き紙・機械漉き紙の両方に、神話的な図像・ヒンドゥーの 神々に加え、社会が変容していく当時の世相を映す同時代の日常場面も描いたと記す。 V&Aは1830年代から1930年代の100年間にわたり制作・収集されたコレクションを持ち、 世界最大の645点を所蔵すると記す。他にオックスフォード大学ボドリアン図書館110点、 モスクワのプーシキン美術館62点、ペンシルベニア大学博物館57点、プラハのナープルステク 博物館26点、カーディフの国立ウェールズ博物館25点、大英図書館（インド・オフィス・ ライブラリー）17点を所蔵すると記す"
         }
       ],
-      "status": "draft",
-      "updated": "2026-09-16",
+      "status": "verified",
+      "updated": "2026-11-16",
       "path": "entities/movements/kalighat-painting.md"
     },
     "movement/kamasan-painting": {
@@ -11498,17 +11554,17 @@
       "claims": [
         {
           "field": "time",
-          "source": "https://www.missedhistory.com/article/mamluk-qurans",
+          "source": "https://clevelandart.org/art/2013.102",
           "certainty": "scholarly"
         },
         {
           "field": "originated_in",
-          "source": "https://www.missedhistory.com/article/mamluk-qurans",
+          "source": "https://clevelandart.org/art/2013.102",
           "certainty": "scholarly"
         },
         {
           "field": "kind",
-          "source": "https://www.wikidata.org/wiki/Q2864675",
+          "source": "https://www.artic.edu/artworks/100740",
           "certainty": "scholarly"
         }
       ],
@@ -11533,6 +11589,16 @@
           "kind": "authority"
         },
         {
+          "url": "https://clevelandart.org/art/2013.102",
+          "kind": "institutional",
+          "note": "クリーヴランド美術館《Leaf from a Qur'an》（2013.102）。2026-11-16にCleveland Open Access API（artworks/170528）で culture欄「Egypt, Cairo, Mamluk Sultanate (1250–1517)」、 creation_date「1300s」、CC0を確認。マムルーク朝の存続期間（1250-1517年）とカイロ制作を 同じ館の帰属欄が示す"
+        },
+        {
+          "url": "https://www.artic.edu/artworks/100740",
+          "kind": "institutional",
+          "note": "シカゴ美術館《Fragment》（100740）。2026-11-16にAIC API（artworks/100740）で place_of_origin「Egypt」、date_display「Mamluk period (1250–1517), late 14th century」を 確認。美術館が王朝の存続期間そのものを時代区分の名として所蔵品の帰属に使う例"
+        },
+        {
           "url": "https://www.missedhistory.com/article/mamluk-qurans",
           "kind": "reference",
           "note": "『Cairo's Golden Words: The Art of Mamluk Qurans』の記事。マムルーク朝（1250-1517年） のカイロで制作された彩飾クルアーンを扱い、現存最古の年紀入り例『バイバルスのクルアーン』 （1304-1306年制作、7巻）を記す"
@@ -11543,8 +11609,8 @@
           "note": "スルターン・バイバルス2世治下で制作された『バイバルスのクルアーン』が現在ロンドンの 大英図書館に所蔵されると記す"
         }
       ],
-      "status": "draft",
-      "updated": "2026-09-16",
+      "status": "verified",
+      "updated": "2026-11-16",
       "path": "entities/movements/mamluk-art.md"
     },
     "movement/mandalay-style": {
@@ -13360,7 +13426,20 @@
           "target": "place/cairo"
         }
       ],
-      "relations": [],
+      "relations": [
+        {
+          "type": "reacts_against",
+          "target": "movement/mamluk-art",
+          "certainty": "scholarly",
+          "source": "https://en.wikipedia.org/wiki/Mosque_of_Muhammad_Ali"
+        },
+        {
+          "type": "influenced_by",
+          "target": "movement/baroque",
+          "certainty": "scholarly",
+          "source": "https://en.wikipedia.org/wiki/Mosque_of_Muhammad_Ali"
+        }
+      ],
       "sources": [
         {
           "url": "https://www.wikidata.org/wiki/Q652046",
@@ -13374,7 +13453,7 @@
         }
       ],
       "status": "draft",
-      "updated": "2026-09-16",
+      "updated": "2026-11-17",
       "path": "entities/movements/muhammad-ali-mosque-architecture.md"
     },
     "movement/nan-madol-architecture": {
@@ -16843,7 +16922,14 @@
           "target": "place/santa-fe"
         }
       ],
-      "relations": [],
+      "relations": [
+        {
+          "type": "influenced_by",
+          "target": "movement/baroque",
+          "certainty": "scholarly",
+          "source": "https://tesoros.nmhistorymuseum.org/heritage-more-text.html"
+        }
+      ],
       "sources": [
         {
           "url": "https://www.wikidata.org/wiki/Q30213495",
@@ -16867,7 +16953,7 @@
         }
       ],
       "status": "draft",
-      "updated": "2026-10-22",
+      "updated": "2026-11-17",
       "path": "entities/movements/santero.md"
     },
     "movement/serbian-baroque-painting": {
@@ -78046,6 +78132,13 @@
     },
     {
       "from": "movement/arts-and-crafts",
+      "type": "diffused_to",
+      "to": "place/chicago",
+      "certainty": "scholarly",
+      "source": "https://www.vam.ac.uk/articles/arts-and-crafts-beyond-the-uk"
+    },
+    {
+      "from": "movement/arts-and-crafts",
       "type": "originated_in",
       "to": "place/london"
     },
@@ -78170,6 +78263,13 @@
     },
     {
       "from": "movement/barbizon-school",
+      "type": "diffused_to",
+      "to": "place/boston",
+      "certainty": "scholarly",
+      "source": "https://vosegalleries.com/in-support-of-the-barbizon-rebels-vose-galleries-in-the-1870s/"
+    },
+    {
+      "from": "movement/barbizon-school",
       "type": "originated_in",
       "to": "place/barbizon"
     },
@@ -78189,6 +78289,13 @@
       "from": "movement/baroque",
       "type": "originated_in",
       "to": "place/rome"
+    },
+    {
+      "from": "movement/barroco-mineiro",
+      "type": "derives_from",
+      "to": "movement/baroque",
+      "certainty": "scholarly",
+      "source": "https://pt.wikipedia.org/wiki/Barroco_mineiro"
     },
     {
       "from": "movement/barroco-mineiro",
@@ -78487,6 +78594,20 @@
       "from": "movement/conceptual-art",
       "type": "originated_in",
       "to": "place/new-york-city"
+    },
+    {
+      "from": "movement/constructivism",
+      "type": "influenced_by",
+      "to": "movement/cubism",
+      "certainty": "scholarly",
+      "source": "https://www.theartstory.org/movement/constructivism/"
+    },
+    {
+      "from": "movement/constructivism",
+      "type": "influenced_by",
+      "to": "movement/futurism",
+      "certainty": "scholarly",
+      "source": "https://www.theartstory.org/movement/constructivism/"
     },
     {
       "from": "movement/constructivism",
@@ -79764,6 +79885,20 @@
     },
     {
       "from": "movement/muhammad-ali-mosque-architecture",
+      "type": "reacts_against",
+      "to": "movement/mamluk-art",
+      "certainty": "scholarly",
+      "source": "https://en.wikipedia.org/wiki/Mosque_of_Muhammad_Ali"
+    },
+    {
+      "from": "movement/muhammad-ali-mosque-architecture",
+      "type": "influenced_by",
+      "to": "movement/baroque",
+      "certainty": "scholarly",
+      "source": "https://en.wikipedia.org/wiki/Mosque_of_Muhammad_Ali"
+    },
+    {
+      "from": "movement/muhammad-ali-mosque-architecture",
       "type": "originated_in",
       "to": "place/cairo"
     },
@@ -80338,6 +80473,13 @@
       "from": "movement/safavid-painting",
       "type": "active_in",
       "to": "place/isfahan"
+    },
+    {
+      "from": "movement/santero",
+      "type": "influenced_by",
+      "to": "movement/baroque",
+      "certainty": "scholarly",
+      "source": "https://tesoros.nmhistorymuseum.org/heritage-more-text.html"
     },
     {
       "from": "movement/santero",
@@ -95679,6 +95821,12 @@
       "derived": true
     },
     {
+      "from": "place/chicago",
+      "type": "received",
+      "to": "movement/arts-and-crafts",
+      "derived": true
+    },
+    {
       "from": "place/new-york-city",
       "type": "received",
       "to": "movement/asmat-carving",
@@ -95751,9 +95899,21 @@
       "derived": true
     },
     {
+      "from": "place/boston",
+      "type": "received",
+      "to": "movement/barbizon-school",
+      "derived": true
+    },
+    {
       "from": "place/new-york-city",
       "type": "received",
       "to": "movement/bark-painting",
+      "derived": true
+    },
+    {
+      "from": "movement/baroque",
+      "type": "derived_into",
+      "to": "movement/barroco-mineiro",
       "derived": true
     },
     {
@@ -95928,6 +96088,18 @@
       "from": "event/documenta-5-1972",
       "type": "exhibited",
       "to": "movement/conceptual-art",
+      "derived": true
+    },
+    {
+      "from": "movement/cubism",
+      "type": "influenced",
+      "to": "movement/constructivism",
+      "derived": true
+    },
+    {
+      "from": "movement/futurism",
+      "type": "influenced",
+      "to": "movement/constructivism",
       "derived": true
     },
     {
@@ -96633,6 +96805,18 @@
       "derived": true
     },
     {
+      "from": "movement/mamluk-art",
+      "type": "reacted_against_by",
+      "to": "movement/muhammad-ali-mosque-architecture",
+      "derived": true
+    },
+    {
+      "from": "movement/baroque",
+      "type": "influenced",
+      "to": "movement/muhammad-ali-mosque-architecture",
+      "derived": true
+    },
+    {
       "from": "person/dong-qichang",
       "type": "influenced",
       "to": "movement/nanga",
@@ -96966,6 +97150,12 @@
       "from": "place/agra",
       "type": "received",
       "to": "movement/safavid-painting",
+      "derived": true
+    },
+    {
+      "from": "movement/baroque",
+      "type": "influenced",
+      "to": "movement/santero",
       "derived": true
     },
     {

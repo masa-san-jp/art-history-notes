@@ -27,7 +27,8 @@ claims:
   - {field: kind, source: "https://www.artic.edu/artworks/27873", certainty: scholarly}
 space:
   - {role: originated_in, target: place/barbizon}
-relations: []
+relations:
+  - {type: diffused_to, target: place/boston, certainty: scholarly, source: "https://vosegalleries.com/in-support-of-the-barbizon-rebels-vose-galleries-in-the-1870s/"}
 images:
   - url: https://www.artic.edu/iiif/2/6d981a44-bb4a-e577-387d-16fc581b1304/full/843,/0/default.jpg
     source_page: https://www.artic.edu/artworks/27873
@@ -61,8 +62,13 @@ sources:
     kind: institutional
   - url: "https://www.artic.edu/artworks/95993"
     kind: institutional
+  - url: "https://vosegalleries.com/in-support-of-the-barbizon-rebels-vose-galleries-in-the-1870s/"
+    kind: reference
+    note: "ボストンの画商の社史エッセイ。ハントによるバルビゾン派の紹介を記す二次情報（2026-11-25取得）"
+  - url: "https://eclecticlight.co/2016/09/20/barbizon-crosses-the-atlantic-william-morris-hunt/"
+    kind: reference
 status: verified
-updated: 2026-08-25
+updated: 2026-11-25
 ---
 
 # バルビゾン派 / Barbizon school
@@ -146,6 +152,20 @@ Wikipedia・TheArtStoryは1830〜1870年とする。Getty AATのscope noteは正
 「centered in the village of Barbizon around the edge of the Forest of Fontainebleau」と明記
 する。バルビゾンはフォンテーヌブローの森の縁にあり、この森自体が画題として繰り返し描かれた
 （`place/barbizon` 参照）。
+
+## 米国への伝播（ボストン）
+
+ヴェルモント出身の画家ウィリアム・モリス・ハント（1824–1879）はバルビゾンでミレーに学び、1855年に
+ボストンに定住した。ボストンの画商ヴォーズ・ギャラリーズの社史エッセイは、ハントと画商セス・ヴォーズが
+バルビゾンの画家を認めた最初期のアメリカ人であり、ハントはボストンの収集家への影響力でマーティン・
+ブリマー（ボストン美術館の創設者の一人）らに購入を促した、と記す
+（[Vose Galleries](https://vosegalleries.com/in-support-of-the-barbizon-rebels-vose-galleries-in-the-1870s/)、
+2026-11-25取得。画商自身の来歴で二次情報）。ハントが所蔵したミレー5点が1872年のボストン大火で
+焼失した点と、定住年は[Eclectic Light Co.](https://eclecticlight.co/2016/09/20/barbizon-crosses-the-atlantic-william-morris-hunt/)
+（2026-11-25取得、二次情報）。
+
+**未確認**: 学術書または美術館の公式資料による裏付け。BritannicaとNGAの作家ページは同日に取得できず（HTTP 403）、
+内容を確かめていない。購入された作品の個別特定も未確認。
 
 ## 未着手
 
