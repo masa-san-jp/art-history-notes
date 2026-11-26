@@ -7,7 +7,7 @@
     "present-unfinished",
     "impose-constraints"
   ],
-  "base_tags_sha256": "9a6660be6d96d4b0fbc9e38c34e9db17101d4458a30fabdbeccac4173b97d097",
+  "base_tags_sha256": "b63ac482a87f964151687c122de55022a290b87a227bd40acdd091ebda08482b",
   "contract_version": "operation-tag-extension/v1",
   "target_ids": [
     "concept/automatism",

@@ -297,7 +297,7 @@
     },
     "movement/ai-bigeiken": {
       "completed": true,
-      "content_sha256": "78cfa9978efac3218d2e61e2d53c95c25bcbe292ee27028f7a5471bcf70e0a6f",
+      "content_sha256": "8ade5990f01d1b9b5236a8a59c4920a9fed296444ef9d567f8fd448bf9cc24f5",
       "history": [
         {
           "accepted": true,
@@ -306,7 +306,7 @@
           "value_sha256": "c46c041ce888ac802aeaa833971696d791475277bca48f0f1a6615633aedf6c9"
         }
       ],
-      "source_commit": "d5bd9bc544343fad551bda87bfe1b5623fda6061",
+      "source_commit": "56d6e829597adbd087b8663537176922dcc61bbc",
       "tags": []
     },
     "movement/akan-goldweights": {
@@ -4797,7 +4797,7 @@
     },
     "movement/missao-artistica-francesa": {
       "completed": true,
-      "content_sha256": "ce71bd8eafdb9484b61c7ab6ab0b30bf7ea666caecf7cee9b7ba4e1b27c1d2dc",
+      "content_sha256": "a3c62c723dec523d7f9c28ab063eee7096f2a43a33bb84dc617974403e8160a1",
       "history": [
         {
           "accepted": true,
@@ -4818,7 +4818,7 @@
           "value_sha256": "c46c041ce888ac802aeaa833971696d791475277bca48f0f1a6615633aedf6c9"
         }
       ],
-      "source_commit": "d5bd9bc544343fad551bda87bfe1b5623fda6061",
+      "source_commit": "56d6e829597adbd087b8663537176922dcc61bbc",
       "tags": [
         {
           "evidence": "レオポルディーナ王女の上陸やペドロ1世の戴冠などブラジル史の場面も描いた。",
@@ -4826,6 +4826,8 @@
           "source_locator": "entities/movements/missao-artistica-francesa.md#定義と範囲",
           "source_refs": [
             "http://arts-graphiques.louvre.fr/detail/artistes/0/757-DEBRET-Jean-Baptiste",
+            "https://doi.org/10.11606/issn.2176-8099.pcso.2007.75459",
+            "https://doi.org/10.1590/S0101-47142006000200009",
             "https://en.wikipedia.org/wiki/Miss%C3%A3o_Art%C3%ADstica_Francesa",
             "https://www.wikidata.org/wiki/Q3316787"
           ]
@@ -6878,7 +6880,7 @@
     },
     "movement/vijayanagara-art": {
       "completed": true,
-      "content_sha256": "b502c34036001a5b577b9f4d2bbb68e5dc5f9b9975a6257209d46f6121ddd9c4",
+      "content_sha256": "9197a3aba51f72e7ad716b4e4307080680160f109ee55698bb8c8943bee0d01c",
       "history": [
         {
           "accepted": true,
@@ -6899,7 +6901,7 @@
           "value_sha256": "c46c041ce888ac802aeaa833971696d791475277bca48f0f1a6615633aedf6c9"
         }
       ],
-      "source_commit": "d5bd9bc544343fad551bda87bfe1b5623fda6061",
+      "source_commit": "56d6e829597adbd087b8663537176922dcc61bbc",
       "tags": [
         {
           "evidence": "花崗岩の柱に跳ねるヤーリ（神獣）に乗る騎手を彫った",
@@ -7099,7 +7101,7 @@
     },
     "movement/zimbabwe-stone-architecture": {
       "completed": true,
-      "content_sha256": "dc5ae65af3b14f9705af99b7f368e2cd94beac64e923648ca5a8ee845a88cf90",
+      "content_sha256": "783b8c7830ed4e70e773a3bc5ea871311ed493ba094cbe667e017528746aadce",
       "history": [
         {
           "accepted": true,
@@ -7111,7 +7113,7 @@
           "accepted": true,
           "attempt": 1,
           "element_id": "movement.zimbabwe-stone-architecture.evidence.1",
-          "value_sha256": "f607c7b5dc899f94065dc363b1603a3dcfa68aab5d7c72ef050ca4eff2f7c09c"
+          "value_sha256": "5d954daf7f8ce5d212e1d49e19fe1b2c1d3f91bb7d91a9706da5023123799e54"
         },
         {
           "accepted": true,
@@ -7120,10 +7122,10 @@
           "value_sha256": "c46c041ce888ac802aeaa833971696d791475277bca48f0f1a6615633aedf6c9"
         }
       ],
-      "source_commit": "d5bd9bc544343fad551bda87bfe1b5623fda6061",
+      "source_commit": "56d6e829597adbd087b8663537176922dcc61bbc",
       "tags": [
         {
-          "evidence": "目地を使わない乾式石積み（ドライストーン・メーソンリー）",
+          "evidence": "モルタルを使わず積み、上へ向かって内側へ傾く",
           "operation_id": "construct",
           "source_locator": "entities/movements/zimbabwe-stone-architecture.md#定義と範囲",
           "source_refs": [
