@@ -5,8 +5,8 @@
     "schema_version": 1,
     "movement_total": 181,
     "counts": {
-      "connected": 125,
-      "reviewed-no-documented-link": 56,
+      "connected": 126,
+      "reviewed-no-documented-link": 55,
       "unreviewed": 0
     },
     "connected": [
@@ -134,6 +134,7 @@
       "movement/yangzhou-eccentrics",
       "movement/zanabazar-school",
       "movement/zaria-art-society",
+      "movement/zhe-school",
       "movement/zimbabwe-stone-architecture"
     ],
     "reviewed_no_documented_link": [
@@ -191,8 +192,7 @@
       "movement/sudano-sahelian-architecture",
       "movement/surrealism",
       "movement/tongan-langi-architecture",
-      "movement/wu-school",
-      "movement/zhe-school"
+      "movement/wu-school"
     ],
     "unreviewed": [],
     "movements": [
@@ -5464,24 +5464,31 @@
       },
       {
         "movement_id": "movement/zhe-school",
-        "status": "reviewed-no-documented-link",
+        "status": "connected",
         "origin_regions": [
           "asia-east-china"
         ],
-        "routes": [],
-        "reasons": [
-          "2026-08-25時点で、movement→movement relation、movement→placeのdiffused_to、space.active_in、movement→event/orgのexhibited_at→held_at/sited_inの4経路を、当該movementに登録された資料を対象に確認した。起源region外への文書化された接続は確認できない。未確認なのは、資料化されていない個人間往来・展示・受容、ならびに視覚的類似だけであり、視覚的類似から因果関係は推定していない。"
+        "routes": [
+          {
+            "kind": "diffused-to-place",
+            "edges": [
+              {
+                "from": "movement/zhe-school",
+                "type": "diffused_to",
+                "to": "place/kyoto",
+                "certainty": "scholarly",
+                "source": "https://ja.wikipedia.org/wiki/%E6%B5%99%E6%B4%BE"
+              }
+            ],
+            "destination_regions": [
+              "asia-east-japan"
+            ]
+          }
         ],
-        "review": {
-          "movement_id": "movement/zhe-school",
-          "status": "no-documented-cross-region-relation",
-          "checked": "2026-08-25",
-          "note": "2026-08-25時点で、movement→movement relation、movement→placeのdiffused_to、space.active_in、movement→event/orgのexhibited_at→held_at/sited_inの4経路を、当該movementに登録された資料を対象に確認した。起源region外への文書化された接続は確認できない。未確認なのは、資料化されていない個人間往来・展示・受容、ならびに視覚的類似だけであり、視覚的類似から因果関係は推定していない。",
-          "sources": [
-            "https://ja.wikipedia.org/wiki/%E6%B5%99%E6%B4%BE",
-            "https://www.hkpm.org.hk/en/visit/audio-guide/g4-stories-untold"
-          ]
-        }
+        "reasons": [
+          "1経路で起源region外へ到達"
+        ],
+        "review": null
       },
       {
         "movement_id": "movement/zimbabwe-stone-architecture",
