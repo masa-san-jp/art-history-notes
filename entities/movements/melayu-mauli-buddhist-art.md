@@ -35,7 +35,8 @@ claims:
 evidence: []
 space:
   - {role: originated_in, target: place/dharmasraya}
-relations: []
+relations:
+  - {type: influenced_by, target: movement/srivijaya-art, certainty: hypothesis, source: "https://en.wikipedia.org/wiki/Melayu_Kingdom"}
 sources:
   - url: "https://www.wikidata.org/wiki/Q3112053"
     kind: reference
@@ -52,7 +53,7 @@ sources:
       1180年代以降、マウリ朝の下で王国が『黄金期』を迎え、13世紀を通じて地域的な影響力を
       維持したと記す"
 status: draft
-updated: 2026-09-17
+updated: 2026-11-27
 ---
 
 # マラユ・マウリ朝仏教美術 / Melayu Mauli Dynasty Buddhist Art
@@ -81,6 +82,15 @@ updated: 2026-09-17
 asia-southeast外の博物館等へ拡散した文書化された記録は見つからなかった。よって
 `relations`に`diffused_to`は張らず、`config/cross-region-reviews.yaml`に「文化圏を
 またぐ接続の記録なし」として記録した。
+
+## スリーヴィジャヤとの関係
+
+英語版Wikipedia「[Melayu Kingdom](https://en.wikipedia.org/wiki/Melayu_Kingdom)」
+（二次情報、2026-11-27取得）は、マラユが692年までにスリーヴィジャヤに吸収され、12世紀末までに
+離脱したと記し、中国側が三仏斉としたのは後にマラユ＝ジャンビを指すとする。政治的な前後関係を根拠に、
+[スリーヴィジャヤ美術](srivijaya-art.md)への`influenced_by`を`hypothesis`で張った。
+**未確認**: 1183年のグラヒ碑文の仏像を含め、マウリ朝期の仏教彫像の造形が
+スリーヴィジャヤ期から継がれたことを示す美術史の資料は確認できていない。
 
 ## 未着手
 

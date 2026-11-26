@@ -4074,7 +4074,7 @@
     },
     "movement/lan-xang-art": {
       "completed": true,
-      "content_sha256": "17e3bf7958382c3a75d75365053225902137501b361f4a9eaab4d622c8d39cb9",
+      "content_sha256": "55ce734594d4e305e23647ec194979414b5012802ff5871ad88ac64369ec5756",
       "history": [
         {
           "accepted": true,
@@ -4083,7 +4083,7 @@
           "value_sha256": "c46c041ce888ac802aeaa833971696d791475277bca48f0f1a6615633aedf6c9"
         }
       ],
-      "source_commit": "d5bd9bc544343fad551bda87bfe1b5623fda6061",
+      "source_commit": "b9bee896b74b4c27fc53f8021c33a7789f2b6609",
       "tags": []
     },
     "movement/lapita-pottery": {

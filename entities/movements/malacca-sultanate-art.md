@@ -34,7 +34,8 @@ claims:
 evidence: []
 space:
   - {role: originated_in, target: place/malacca}
-relations: []
+relations:
+  - {type: influenced_by, target: movement/srivijaya-art, certainty: hypothesis, source: "https://en.wikipedia.org/wiki/Malacca_Sultanate"}
 sources:
   - url: "https://www.wikidata.org/wiki/Q46652"
     kind: reference
@@ -54,7 +55,7 @@ sources:
       黄金の腕輪（出血を防ぐ魔力があるとされた）などの王家の宝物を接収し、20万クルザード
       余りが王室に還元されたと記す（宝物の最終的な所在は同記事に記載無し）"
 status: draft
-updated: 2026-09-16
+updated: 2026-11-27
 ---
 
 # マラッカ王国美術 / Malacca Sultanate Art
@@ -85,6 +86,15 @@ updated: 2026-09-16
 見当たらず、ポルトガルが接収した宝物は「王室に還元された」とのみ記され、その後の所在
 （博物館収蔵の有無を含む）は出典に記載が無い。よって`relations`に`diffused_to`は張らず、
 `config/cross-region-reviews.yaml`に「文化圏をまたぐ接続の記録なし」として記録した。
+
+## スリーヴィジャヤとの関係
+
+英語版Wikipedia「[Malacca Sultanate](https://en.wikipedia.org/wiki/Malacca_Sultanate)」
+（二次情報、2026-11-27取得）は、建国前の地域をパレンバン中心のスリーヴィジャヤが支配していたと記し、
+スリーヴィジャヤの王権観がマラッカでもダウラットとして残ったと記す。これを根拠に、
+[スリーヴィジャヤ美術](srivijaya-art.md)への`influenced_by`を`hypothesis`で張った。
+**未確認**: 記されているのは王権観と建国者の出自であり、王宮建築・工芸の造形が
+スリーヴィジャヤから継がれたことを示す美術史の資料は、取得した範囲では確認できていない。
 
 ## 未着手
 

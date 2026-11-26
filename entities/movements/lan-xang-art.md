@@ -35,7 +35,8 @@ claims:
 evidence: []
 space:
   - {role: originated_in, target: place/luang-prabang}
-relations: []
+relations:
+  - {type: influenced_by, target: movement/khmer-art, certainty: scholarly, source: "https://en.wikipedia.org/wiki/Phra_Bang"}
 sources:
   - url: "https://www.wikidata.org/wiki/Q853477"
     kind: reference
@@ -51,8 +52,14 @@ sources:
       継続使用される上座部寺院）、王セーターティラート（在位1548-1571年）代のワット・
       シエントーン（ルアンパバーン）・タート・ルアン（ヴィエンチャン、大規模改修）を
       代表的建造物として挙げる"
+  - url: "https://en.wikipedia.org/wiki/Phra_Bang"
+    kind: reference
+    note: "『Phra Bang』の項（2026-11-27取得、MediaWiki API）。像の特徴は後代のクメール起源を示唆すると
+      記し、1359年にクメール王が娘婿ファー・グムへ贈り、上座部仏教と王権の正統性の拠り所に
+      なったと記す。同項の伝承（セイロン鋳造）は、Lan Xang の項が引くLorrillardにより、16世紀パーリ語
+      文献に由来し同時代記録ではないとされる"
 status: draft
-updated: 2026-09-16
+updated: 2026-11-27
 ---
 
 # ラーンサーン美術 / Lan Xang Art
@@ -83,6 +90,17 @@ asia-southeast内であり、域外接続には当たらない。検索した範
 美術・作品がasia-southeast外の博物館等へ拡散した文書化された記録は見つからなかった。
 よって`relations`に`diffused_to`は張らず、`config/cross-region-reviews.yaml`に
 「文化圏をまたぐ接続の記録なし」として記録した。
+
+## 他の文化圏との関係
+
+護持仏プラバーンは、英語版Wikipedia「[Phra Bang](https://en.wikipedia.org/wiki/Phra_Bang)」
+（二次情報、2026-11-27取得）が、像の特徴は後代のクメール起源を示唆すると記し、1359年にクメール王が
+娘婿ファー・グムへ贈ったとする。「Lan Xang」の項は、ファー・グムが若年期にクメールの宮廷で過ごした
+とも記す。そこで`influenced_by`を[クメール美術](khmer-art.md)へ`scholarly`で張った。ただし
+贈与の経緯は王国年代記に拠り、Lorrillardは仏教伝来の叙述を16世紀パーリ語文献に由来するもので
+同時代記録ではないとみる。**未確認**: 像そのものの鋳造年代・産地（美術史の鑑定）と、
+寺院建築・写本にまでクメールの影響が及ぶかどうか。クメールとラーンサーンはいずれもasia-southeast
+内であり、域外接続には当たらない。
 
 ## 未着手
 

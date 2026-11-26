@@ -10908,7 +10908,14 @@
           "target": "place/luang-prabang"
         }
       ],
-      "relations": [],
+      "relations": [
+        {
+          "type": "influenced_by",
+          "target": "movement/khmer-art",
+          "certainty": "scholarly",
+          "source": "https://en.wikipedia.org/wiki/Phra_Bang"
+        }
+      ],
       "sources": [
         {
           "url": "https://www.wikidata.org/wiki/Q853477",
@@ -10919,10 +10926,15 @@
           "url": "https://en.wikipedia.org/wiki/Lan_Xang",
           "kind": "reference",
           "note": "『Lan Xang』の項。1353年、ファー・グムによる建国とする。王ウィスン （在位1500-1520年）が『畏怖払拭』印を結ぶ仏立像プラバーンを王国の護持仏に定め、 仏教説話（ジャータカ）・ラーマーヤナ（プララック・プララム）・三蔵のパーリ語から ラオ語への翻訳など古典文学が編まれたと記す。ワット・ウィスン（1513年、現存最古の 継続使用される上座部寺院）、王セーターティラート（在位1548-1571年）代のワット・ シエントーン（ルアンパバーン）・タート・ルアン（ヴィエンチャン、大規模改修）を 代表的建造物として挙げる"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Phra_Bang",
+          "kind": "reference",
+          "note": "『Phra Bang』の項（2026-11-27取得、MediaWiki API）。像の特徴は後代のクメール起源を示唆すると 記し、1359年にクメール王が娘婿ファー・グムへ贈り、上座部仏教と王権の正統性の拠り所に なったと記す。同項の伝承（セイロン鋳造）は、Lan Xang の項が引くLorrillardにより、16世紀パーリ語 文献に由来し同時代記録ではないとされる"
         }
       ],
       "status": "draft",
-      "updated": "2026-09-16",
+      "updated": "2026-11-27",
       "path": "entities/movements/lan-xang-art.md"
     },
     "movement/lapita-pottery": {
@@ -11516,7 +11528,14 @@
           "target": "place/malacca"
         }
       ],
-      "relations": [],
+      "relations": [
+        {
+          "type": "influenced_by",
+          "target": "movement/srivijaya-art",
+          "certainty": "hypothesis",
+          "source": "https://en.wikipedia.org/wiki/Malacca_Sultanate"
+        }
+      ],
       "sources": [
         {
           "url": "https://www.wikidata.org/wiki/Q46652",
@@ -11530,7 +11549,7 @@
         }
       ],
       "status": "draft",
-      "updated": "2026-09-16",
+      "updated": "2026-11-27",
       "path": "entities/movements/malacca-sultanate-art.md"
     },
     "movement/mamluk-art": {
@@ -12317,7 +12336,14 @@
           "target": "place/dharmasraya"
         }
       ],
-      "relations": [],
+      "relations": [
+        {
+          "type": "influenced_by",
+          "target": "movement/srivijaya-art",
+          "certainty": "hypothesis",
+          "source": "https://en.wikipedia.org/wiki/Melayu_Kingdom"
+        }
+      ],
       "sources": [
         {
           "url": "https://www.wikidata.org/wiki/Q3112053",
@@ -12331,7 +12357,7 @@
         }
       ],
       "status": "draft",
-      "updated": "2026-09-17",
+      "updated": "2026-11-27",
       "path": "entities/movements/melayu-mauli-buddhist-art.md"
     },
     "movement/menri-school": {
@@ -79553,6 +79579,13 @@
     },
     {
       "from": "movement/lan-xang-art",
+      "type": "influenced_by",
+      "to": "movement/khmer-art",
+      "certainty": "scholarly",
+      "source": "https://en.wikipedia.org/wiki/Phra_Bang"
+    },
+    {
+      "from": "movement/lan-xang-art",
       "type": "originated_in",
       "to": "place/luang-prabang"
     },
@@ -79613,6 +79646,13 @@
       "from": "movement/makonde-carving",
       "type": "active_in",
       "to": "place/dar-es-salaam"
+    },
+    {
+      "from": "movement/malacca-sultanate-art",
+      "type": "influenced_by",
+      "to": "movement/srivijaya-art",
+      "certainty": "hypothesis",
+      "source": "https://en.wikipedia.org/wiki/Malacca_Sultanate"
     },
     {
       "from": "movement/malacca-sultanate-art",
@@ -79723,6 +79763,13 @@
       "from": "movement/mavo",
       "type": "originated_in",
       "to": "place/tokyo"
+    },
+    {
+      "from": "movement/melayu-mauli-buddhist-art",
+      "type": "influenced_by",
+      "to": "movement/srivijaya-art",
+      "certainty": "hypothesis",
+      "source": "https://en.wikipedia.org/wiki/Melayu_Kingdom"
     },
     {
       "from": "movement/melayu-mauli-buddhist-art",
@@ -96639,6 +96686,12 @@
       "derived": true
     },
     {
+      "from": "movement/khmer-art",
+      "type": "influenced",
+      "to": "movement/lan-xang-art",
+      "derived": true
+    },
+    {
       "from": "place/tonga",
       "type": "received",
       "to": "movement/lapita-pottery",
@@ -96660,6 +96713,12 @@
       "from": "person/mohamed-peera",
       "type": "patronized",
       "to": "movement/makonde-carving",
+      "derived": true
+    },
+    {
+      "from": "movement/srivijaya-art",
+      "type": "influenced",
+      "to": "movement/malacca-sultanate-art",
       "derived": true
     },
     {
@@ -96720,6 +96779,12 @@
       "from": "movement/constructivism",
       "type": "influenced",
       "to": "movement/mavo",
+      "derived": true
+    },
+    {
+      "from": "movement/srivijaya-art",
+      "type": "influenced",
+      "to": "movement/melayu-mauli-buddhist-art",
       "derived": true
     },
     {
