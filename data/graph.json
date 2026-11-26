@@ -19671,7 +19671,7 @@
       "time": {
         "start": "1336",
         "end": "1565",
-        "display": "ヴィジャヤナガル王国はハリハラ1世とその弟ブッカ・ラーヤ1世により1336年に建国された。 1565年、ターリコータの戦いでの敗北を機に王国は衰退し、都ハンピは破壊された。最盛期は クリシュナ・デーヴァ・ラーヤ王の治世（1509-1530年）"
+        "display": "Smarthistoryは、ハリハラ1世とブッカ・ラーヤ1世が1336年に建国し、4王朝（サンガマ1336-1485、 サールヴァ1485-1505、トゥルヴァ1505-1570、アラヴィードゥ1570-1646）が統治し、王国は1646年まで 続いたと記す。本項は『2世紀強にわたり南インドの政治・文化を支配した』時期にあたる、ハンピが都 だった1336-1565年に絞った（1565年に敗戦後の都が略奪・放棄され、宮廷はペヌコンダ、のちチャンドラ ギリへ移った）"
       },
       "naming": {
         "self_identified": false,
@@ -19726,7 +19726,7 @@
         {
           "url": "https://smarthistory.org/art-and-architecture-of-vijayanagara-empire/",
           "kind": "scholarly",
-          "note": "『Art and architecture of the Vijayanagara empire』の項。ハンピの建造物群を1336-1565年 の帝国の権勢を示すものとし、シヴァ派・ヴィシュヌ派・ジャイナ教それぞれの信仰を反映した彫刻、 柱廊のある『結婚の間（カリヤーナ・マンダパ）』を特徴とすると記す。様式は先行するチョーラ・ パーンディヤ朝の伝統の継続と記す"
+          "note": "『Art and architecture of the Vijayanagara empire』の項（Wayback 2025-11-16版を2026-11-21に 確認。元サイトは自動取得に403を返す）。1336年建国、4王朝の統治期間（〜1646年）、ハンピの都 と1565年の略奪・放棄、クリシュナデーヴァラーヤの治世、結婚の間（カリヤーナ・マンダパ）を記す。 『チョーラ・パーンディヤ朝の伝統の継承』の記述はこの版では見つからなかった"
         },
         {
           "url": "https://www.metmuseum.org/art/collection/search?q=South+Indian,+Vijayanagara&sortBy=Relevance",
@@ -19739,8 +19739,8 @@
           "note": "『Vijayanagara architecture』の項。ヴィジャヤナガル様式は、それ以前の数世紀に 各王朝が統治した時代に発展したチャールキヤ・ホイサラ・ラーシュトラクータ・ パーンディヤ・チョーラの諸様式を組み合わせたものだと記す。カーカティーヤ朝への 言及は無い"
         }
       ],
-      "status": "draft",
-      "updated": "2026-09-21",
+      "status": "verified",
+      "updated": "2026-11-21",
       "path": "entities/movements/vijayanagara-art.md"
     },
     "movement/wu-school": {
@@ -20484,7 +20484,7 @@
       "time": {
         "start": "11XX",
         "end": "15XX",
-        "display": "11世紀にショナ人の祖先によって建設が始まり、300年以上かけて拡張された。主要な 建設は15世紀まで続き、16〜17世紀に放棄されたとされる"
+        "display": "Met essayの標題は『11th–15th Century』。11世紀にショナ人の祖先によって建設が始まり、 300年以上かけて拡張された"
       },
       "naming": {
         "self_identified": false,
@@ -20506,7 +20506,7 @@
         },
         {
           "field": "kind",
-          "source": "https://en.wikipedia.org/wiki/Great_Zimbabwe",
+          "source": "https://www.metmuseum.org/essays/great-zimbabwe-11th-15th-century",
           "certainty": "scholarly"
         }
       ],
@@ -20533,7 +20533,7 @@
         {
           "url": "https://www.metmuseum.org/essays/great-zimbabwe-11th-15th-century",
           "kind": "institutional",
-          "note": "メトロポリタン美術館Heilbrunn Timelineの『Great Zimbabwe (11th-15th Century)』essay。 ショナ人の祖先による11世紀の建設開始と、300年以上にわたる拡張を記す"
+          "note": "メトロポリタン美術館Heilbrunn Timelineの『Great Zimbabwe (11th-15th Century)』essay。 ショナ人の祖先による11世紀の建設開始と、300年以上にわたる拡張を記す。2026-11-21にWayback Machine 2025年版で本文を確認（元サイトは自動取得に制限あり）。『現在のジンバブエ南東部』『約300の同種複合体の1つ』 『曲線を好む地域的な造形』とも記す"
         },
         {
           "url": "https://en.wikipedia.org/wiki/Great_Zimbabwe",
@@ -20546,8 +20546,8 @@
           "note": "『Zimbabwe Bird』の項。グレート・ジンバブエから出土した8体の滑石鳥像のうち、 1体の台座が1907年、あるドイツ人宣教師を経てベルリン民族学博物館へ売却されたと記す。 別の1体は1889年にウィリー・ポッセルトが持ち去りセシル・ローズが所有、4体は1981年に 南アフリカからジンバブエへ返還、残り1体（『チャプング』）は2026年4月に返還された"
         }
       ],
-      "status": "draft",
-      "updated": "2026-09-16",
+      "status": "verified",
+      "updated": "2026-11-21",
       "path": "entities/movements/zimbabwe-stone-architecture.md"
     },
     "org/art-institute-of-chicago": {
