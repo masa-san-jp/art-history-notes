@@ -12842,17 +12842,17 @@
       "claims": [
         {
           "field": "time",
-          "source": "https://en.wikipedia.org/wiki/Miss%C3%A3o_Art%C3%ADstica_Francesa",
+          "source": "https://doi.org/10.1590/S0101-47142006000200009",
           "certainty": "scholarly"
         },
         {
           "field": "originated_in",
-          "source": "https://en.wikipedia.org/wiki/Miss%C3%A3o_Art%C3%ADstica_Francesa",
+          "source": "https://doi.org/10.1590/S0101-47142006000200009",
           "certainty": "scholarly"
         },
         {
           "field": "kind",
-          "source": "https://en.wikipedia.org/wiki/Miss%C3%A3o_Art%C3%ADstica_Francesa",
+          "source": "https://doi.org/10.11606/issn.2176-8099.pcso.2007.75459",
           "certainty": "scholarly"
         }
       ],
@@ -12888,13 +12888,23 @@
           "note": "『Missão Artística Francesa』の項。1816年3月、ジョアキン・ルブルトンに率いられ リオデジャネイロに到着したフランス人芸術家・職人の一団とし、ドン・ジョアン6世の招聘・ 資金提供によると記す。画家ジャン＝バティスト・デブレ、風景画家ニコラ・アントワーヌ・ トーネー、彫刻家オーギュスト・マリー・トーネー、建築家グランジャン・ド・モンティニーらを 構成員とする"
         },
         {
+          "url": "https://doi.org/10.1590/S0101-47142006000200009",
+          "kind": "scholarly",
+          "note": "Elaine Dias『Correspondências entre Joachim Le Breton e a corte portuguesa na Europa: o nascimento da Missão Artística de 1816』Anais do Museu Paulista 14(2), 2006。リスボンのトーレ・ド・トンボ国立文書館の書簡を扱う査読論文。1816年3月のフランス人のリオデジャネイロ到着と、ルブルトンが宮廷と交わした招聘の経緯を述べる。取得日2026-11-24、SciELO本文（scielo.br）から確認"
+        },
+        {
+          "url": "https://doi.org/10.11606/issn.2176-8099.pcso.2007.75459",
+          "kind": "scholarly",
+          "note": "Anderson Ricardo Trevisan、Plural（サンパウロ大学）2007掲載のデブレ論。デブレが1816年に画家として渡ブラジルし1831年まで滞在した『Missão Artística Francesa』の歴史画家だったと記す。取得日2026-11-24、revistas.usp.brの論文ページから確認"
+        },
+        {
           "url": "http://arts-graphiques.louvre.fr/detail/artistes/0/757-DEBRET-Jean-Baptiste",
           "kind": "institutional",
           "note": "ルーヴル美術館版画素描部門のジャン＝バティスト・デブレのコレクションページ"
         }
       ],
-      "status": "draft",
-      "updated": "2026-09-21",
+      "status": "verified",
+      "updated": "2026-11-24",
       "path": "entities/movements/missao-artistica-francesa.md"
     },
     "movement/moai": {
