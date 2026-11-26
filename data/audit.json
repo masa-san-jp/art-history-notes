@@ -5,8 +5,8 @@
     "schema_version": 1,
     "movement_total": 181,
     "counts": {
-      "connected": 122,
-      "reviewed-no-documented-link": 59,
+      "connected": 129,
+      "reviewed-no-documented-link": 52,
       "unreviewed": 0
     },
     "connected": [
@@ -17,13 +17,16 @@
       "movement/art-et-liberte",
       "movement/art-nouveau",
       "movement/arte-madi",
+      "movement/arts-and-crafts",
       "movement/asmat-carving",
       "movement/bagan-art",
       "movement/baghdad-modern-art-group",
       "movement/baghdad-school-of-illustration",
       "movement/bamum-art",
       "movement/bandung-school",
+      "movement/barbizon-school",
       "movement/bark-painting",
+      "movement/barroco-mineiro",
       "movement/basohli-painting",
       "movement/bauhaus",
       "movement/bengal-school",
@@ -40,6 +43,7 @@
       "movement/cusco-school",
       "movement/dada",
       "movement/dansaekhwa",
+      "movement/de-stijl",
       "movement/deccan-painting",
       "movement/early-ottoman-architecture",
       "movement/east-javanese-kawi-inscriptions",
@@ -87,6 +91,7 @@
       "movement/moai",
       "movement/mongol-zurag",
       "movement/mughal-painting",
+      "movement/muhammad-ali-mosque-architecture",
       "movement/nanga",
       "movement/ndop",
       "movement/negritude",
@@ -109,6 +114,7 @@
       "movement/rattanakosin-mural-painting",
       "movement/renaissance",
       "movement/safavid-painting",
+      "movement/santero",
       "movement/serbian-baroque-painting",
       "movement/sienese-school",
       "movement/srivijaya-art",
@@ -131,21 +137,18 @@
       "movement/yangzhou-eccentrics",
       "movement/zanabazar-school",
       "movement/zaria-art-society",
+      "movement/zhe-school",
       "movement/zimbabwe-stone-architecture"
     ],
     "reviewed_no_documented_link": [
       "movement/ai-bigeiken",
       "movement/alaouite-imperial-architecture",
-      "movement/arts-and-crafts",
       "movement/bamana-sculpture",
-      "movement/barbizon-school",
       "movement/baroque",
-      "movement/barroco-mineiro",
       "movement/byzantine-art",
       "movement/coffin-portrait",
       "movement/colonial-limner-painting",
       "movement/cubism",
-      "movement/de-stijl",
       "movement/dong-ho-painting",
       "movement/expressionism",
       "movement/four-wangs",
@@ -172,7 +175,6 @@
       "movement/melayu-mauli-buddhist-art",
       "movement/mono-ha",
       "movement/moscow-school-icon-painting",
-      "movement/muhammad-ali-mosque-architecture",
       "movement/nan-madol-architecture",
       "movement/neoclassicism",
       "movement/newar-art",
@@ -182,7 +184,6 @@
       "movement/realism",
       "movement/rinpa",
       "movement/rococo",
-      "movement/santero",
       "movement/shanghai-school",
       "movement/shiraz-school",
       "movement/song-academy-painting",
@@ -191,8 +192,7 @@
       "movement/stroganov-school",
       "movement/sudano-sahelian-architecture",
       "movement/tongan-langi-architecture",
-      "movement/wu-school",
-      "movement/zhe-school"
+      "movement/wu-school"
     ],
     "unreviewed": [],
     "movements": [
@@ -509,24 +509,31 @@
       },
       {
         "movement_id": "movement/arts-and-crafts",
-        "status": "reviewed-no-documented-link",
+        "status": "connected",
         "origin_regions": [
           "europe-west"
         ],
-        "routes": [],
-        "reasons": [
-          "2026-08-25時点で、movement→movement relation、movement→placeのdiffused_to、space.active_in、movement→event/orgのexhibited_at→held_at/sited_inの4経路を、当該movementに登録された資料を対象に確認した。起源region外への文書化された接続は確認できない。未確認なのは、資料化されていない個人間往来・展示・受容、ならびに視覚的類似だけであり、視覚的類似から因果関係は推定していない。"
+        "routes": [
+          {
+            "kind": "diffused-to-place",
+            "edges": [
+              {
+                "from": "movement/arts-and-crafts",
+                "type": "diffused_to",
+                "to": "place/chicago",
+                "certainty": "scholarly",
+                "source": "https://www.vam.ac.uk/articles/arts-and-crafts-beyond-the-uk"
+              }
+            ],
+            "destination_regions": [
+              "americas-north"
+            ]
+          }
         ],
-        "review": {
-          "movement_id": "movement/arts-and-crafts",
-          "status": "no-documented-cross-region-relation",
-          "checked": "2026-08-25",
-          "note": "2026-08-25時点で、movement→movement relation、movement→placeのdiffused_to、space.active_in、movement→event/orgのexhibited_at→held_at/sited_inの4経路を、当該movementに登録された資料を対象に確認した。起源region外への文書化された接続は確認できない。未確認なのは、資料化されていない個人間往来・展示・受容、ならびに視覚的類似だけであり、視覚的類似から因果関係は推定していない。",
-          "sources": [
-            "https://www.metmuseum.org/it/essays/design-reform",
-            "https://www.vam.ac.uk/articles/arts-and-crafts-an-introduction"
-          ]
-        }
+        "reasons": [
+          "1経路で起源region外へ到達"
+        ],
+        "review": null
       },
       {
         "movement_id": "movement/asmat-carving",
@@ -749,24 +756,31 @@
       },
       {
         "movement_id": "movement/barbizon-school",
-        "status": "reviewed-no-documented-link",
+        "status": "connected",
         "origin_regions": [
           "europe-west"
         ],
-        "routes": [],
-        "reasons": [
-          "2026-08-25時点で、movement→movement relation、movement→placeのdiffused_to、space.active_in、movement→event/orgのexhibited_at→held_at/sited_inの4経路を、当該movementに登録された資料を対象に確認した。起源region外への文書化された接続は確認できない。未確認なのは、資料化されていない個人間往来・展示・受容、ならびに視覚的類似だけであり、視覚的類似から因果関係は推定していない。"
+        "routes": [
+          {
+            "kind": "diffused-to-place",
+            "edges": [
+              {
+                "from": "movement/barbizon-school",
+                "type": "diffused_to",
+                "to": "place/boston",
+                "certainty": "scholarly",
+                "source": "https://vosegalleries.com/in-support-of-the-barbizon-rebels-vose-galleries-in-the-1870s/"
+              }
+            ],
+            "destination_regions": [
+              "americas-north"
+            ]
+          }
         ],
-        "review": {
-          "movement_id": "movement/barbizon-school",
-          "status": "no-documented-cross-region-relation",
-          "checked": "2026-08-25",
-          "note": "2026-08-25時点で、movement→movement relation、movement→placeのdiffused_to、space.active_in、movement→event/orgのexhibited_at→held_at/sited_inの4経路を、当該movementに登録された資料を対象に確認した。起源region外への文書化された接続は確認できない。未確認なのは、資料化されていない個人間往来・展示・受容、ならびに視覚的類似だけであり、視覚的類似から因果関係は推定していない。",
-          "sources": [
-            "https://www.artic.edu/artworks/27873",
-            "https://en.wikipedia.org/wiki/Barbizon_school"
-          ]
-        }
+        "reasons": [
+          "1経路で起源region外へ到達"
+        ],
+        "review": null
       },
       {
         "movement_id": "movement/bark-painting",
@@ -819,24 +833,31 @@
       },
       {
         "movement_id": "movement/barroco-mineiro",
-        "status": "reviewed-no-documented-link",
+        "status": "connected",
         "origin_regions": [
           "americas-latin"
         ],
-        "routes": [],
-        "reasons": [
-          "2026-09-15時点で、movement→movement relation、movement→placeのdiffused_to、space.active_in、movement→event/orgのexhibited_at→held_at/sited_inの4経路を、当該movementに登録された資料を対象に確認した。アレイジャジーニョらの作品はほぼ全てミナスジェライス州内に残っており、海外の美術館収蔵などamericas-latin外への文書化された接続は確認できない。"
+        "routes": [
+          {
+            "kind": "movement-relation",
+            "edges": [
+              {
+                "from": "movement/barroco-mineiro",
+                "type": "derives_from",
+                "to": "movement/baroque",
+                "certainty": "scholarly",
+                "source": "https://pt.wikipedia.org/wiki/Barroco_mineiro"
+              }
+            ],
+            "destination_regions": [
+              "europe-west"
+            ]
+          }
         ],
-        "review": {
-          "movement_id": "movement/barroco-mineiro",
-          "status": "no-documented-cross-region-relation",
-          "checked": "2026-09-15",
-          "note": "2026-09-15時点で、movement→movement relation、movement→placeのdiffused_to、space.active_in、movement→event/orgのexhibited_at→held_at/sited_inの4経路を、当該movementに登録された資料を対象に確認した。アレイジャジーニョらの作品はほぼ全てミナスジェライス州内に残っており、海外の美術館収蔵などamericas-latin外への文書化された接続は確認できない。",
-          "sources": [
-            "https://www.wikidata.org/wiki/Q16142974",
-            "https://en.wikipedia.org/wiki/Aleijadinho"
-          ]
-        }
+        "reasons": [
+          "1経路で起源region外へ到達"
+        ],
+        "review": null
       },
       {
         "movement_id": "movement/basohli-painting",
@@ -1257,7 +1278,22 @@
                 "type": "influenced_by",
                 "to": "movement/cubism",
                 "certainty": "scholarly",
-                "source": "https://www.tate.org.uk/art/art-terms/c/constructivism"
+                "source": "https://www.theartstory.org/movement/constructivism/"
+              }
+            ],
+            "destination_regions": [
+              "europe-west"
+            ]
+          },
+          {
+            "kind": "movement-relation",
+            "edges": [
+              {
+                "from": "movement/constructivism",
+                "type": "influenced_by",
+                "to": "movement/futurism",
+                "certainty": "scholarly",
+                "source": "https://www.theartstory.org/movement/constructivism/"
               }
             ],
             "destination_regions": [
@@ -1266,7 +1302,7 @@
           }
         ],
         "reasons": [
-          "1経路で起源region外へ到達"
+          "2経路で起源region外へ到達"
         ],
         "review": null
       },
@@ -1433,24 +1469,31 @@
       },
       {
         "movement_id": "movement/de-stijl",
-        "status": "reviewed-no-documented-link",
+        "status": "connected",
         "origin_regions": [
           "europe-west"
         ],
-        "routes": [],
-        "reasons": [
-          "2026-08-25時点で、movement→movement relation、movement→placeのdiffused_to、space.active_in、movement→event/orgのexhibited_at→held_at/sited_inの4経路を、当該movementに登録された資料を対象に確認した。起源region外への文書化された接続は確認できない。未確認なのは、資料化されていない個人間往来・展示・受容、ならびに視覚的類似だけであり、視覚的類似から因果関係は推定していない。"
+        "routes": [
+          {
+            "kind": "movement-relation",
+            "edges": [
+              {
+                "from": "movement/de-stijl",
+                "type": "influenced_by",
+                "to": "movement/constructivism",
+                "certainty": "scholarly",
+                "source": "https://en.wikipedia.org/wiki/Constructivism_(art)"
+              }
+            ],
+            "destination_regions": [
+              "europe-east"
+            ]
+          }
         ],
-        "review": {
-          "movement_id": "movement/de-stijl",
-          "status": "no-documented-cross-region-relation",
-          "checked": "2026-08-25",
-          "note": "2026-08-25時点で、movement→movement relation、movement→placeのdiffused_to、space.active_in、movement→event/orgのexhibited_at→held_at/sited_inの4経路を、当該movementに登録された資料を対象に確認した。起源region外への文書化された接続は確認できない。未確認なのは、資料化されていない個人間往来・展示・受容、ならびに視覚的類似だけであり、視覚的類似から因果関係は推定していない。",
-          "sources": [
-            "https://www.moma.org/documents/moma_catalogue_1798_300159061.pdf",
-            "https://sammlung.staedelmuseum.de/en/person/de-stijl"
-          ]
-        }
+        "reasons": [
+          "1経路で起源region外へ到達"
+        ],
+        "review": null
       },
       {
         "movement_id": "movement/deccan-painting",
@@ -3536,24 +3579,31 @@
       },
       {
         "movement_id": "movement/muhammad-ali-mosque-architecture",
-        "status": "reviewed-no-documented-link",
+        "status": "connected",
         "origin_regions": [
           "mena"
         ],
-        "routes": [],
-        "reasons": [
-          "2026-09-16時点で、movement→movement relation、movement→placeのdiffused_to、space.active_in、movement→event/orgのexhibited_at→held_at/sited_inの4経路を、当該movementに登録された資料を対象に確認した。中庭のフランス製大時計塔（1846年、ルイ・フィリップからの贈答）はeurope-westからmenaへの受け入れであり、本movement自身の様式・作品が域外へ拡散した記録ではない。様式の範としたイスタンブールもmena内（regionバケット上）であり域外接続に当たらない。起源region外への文書化された接続は現時点で確認できない。"
+        "routes": [
+          {
+            "kind": "movement-relation",
+            "edges": [
+              {
+                "from": "movement/muhammad-ali-mosque-architecture",
+                "type": "influenced_by",
+                "to": "movement/baroque",
+                "certainty": "scholarly",
+                "source": "https://en.wikipedia.org/wiki/Mosque_of_Muhammad_Ali"
+              }
+            ],
+            "destination_regions": [
+              "europe-west"
+            ]
+          }
         ],
-        "review": {
-          "movement_id": "movement/muhammad-ali-mosque-architecture",
-          "status": "no-documented-cross-region-relation",
-          "checked": "2026-09-16",
-          "note": "2026-09-16時点で、movement→movement relation、movement→placeのdiffused_to、space.active_in、movement→event/orgのexhibited_at→held_at/sited_inの4経路を、当該movementに登録された資料を対象に確認した。中庭のフランス製大時計塔（1846年、ルイ・フィリップからの贈答）はeurope-westからmenaへの受け入れであり、本movement自身の様式・作品が域外へ拡散した記録ではない。様式の範としたイスタンブールもmena内（regionバケット上）であり域外接続に当たらない。起源region外への文書化された接続は現時点で確認できない。",
-          "sources": [
-            "https://www.wikidata.org/wiki/Q652046",
-            "https://en.wikipedia.org/wiki/Mosque_of_Muhammad_Ali"
-          ]
-        }
+        "reasons": [
+          "1経路で起源region外へ到達"
+        ],
+        "review": null
       },
       {
         "movement_id": "movement/nan-madol-architecture",
@@ -4542,25 +4592,31 @@
       },
       {
         "movement_id": "movement/santero",
-        "status": "reviewed-no-documented-link",
+        "status": "connected",
         "origin_regions": [
           "americas-north"
         ],
-        "routes": [],
-        "reasons": [
-          "2026-10-22時点で、movement→movement relation、movement→placeのdiffused_to、space.active_in、movement→event/orgのexhibited_at→held_at/sited_inの4経路を、当該movementに登録された資料を対象に確認した。作例の収蔵先はいずれも米国内（Museum of International Folk Art、Palace of the Governorsなど）で、americas-north外への文書化された接続は確認できない。なお、ニューメキシコ歴史博物館の解説は第一世代のサンテロが南部ヌエバ・エスパーニャから移住したと記し、ラグーナ・サンテロもそうだった可能性が高いとするが、これは起源への流入であり、上の4経路のいずれにも当たらない。"
+        "routes": [
+          {
+            "kind": "movement-relation",
+            "edges": [
+              {
+                "from": "movement/santero",
+                "type": "influenced_by",
+                "to": "movement/baroque",
+                "certainty": "scholarly",
+                "source": "https://tesoros.nmhistorymuseum.org/heritage-more-text.html"
+              }
+            ],
+            "destination_regions": [
+              "europe-west"
+            ]
+          }
         ],
-        "review": {
-          "movement_id": "movement/santero",
-          "status": "no-documented-cross-region-relation",
-          "checked": "2026-10-22",
-          "note": "2026-10-22時点で、movement→movement relation、movement→placeのdiffused_to、space.active_in、movement→event/orgのexhibited_at→held_at/sited_inの4経路を、当該movementに登録された資料を対象に確認した。作例の収蔵先はいずれも米国内（Museum of International Folk Art、Palace of the Governorsなど）で、americas-north外への文書化された接続は確認できない。なお、ニューメキシコ歴史博物館の解説は第一世代のサンテロが南部ヌエバ・エスパーニャから移住したと記し、ラグーナ・サンテロもそうだった可能性が高いとするが、これは起源への流入であり、上の4経路のいずれにも当たらない。",
-          "sources": [
-            "https://www.wikidata.org/wiki/Q30213495",
-            "https://tesoros.nmhistorymuseum.org/heritage-more-text.html",
-            "https://tesoros.nmhistorymuseum.org/tesoros-lightbox/more-text-laguna-santero.html"
-          ]
-        }
+        "reasons": [
+          "1経路で起源region外へ到達"
+        ],
+        "review": null
       },
       {
         "movement_id": "movement/serbian-baroque-painting",
@@ -5444,24 +5500,31 @@
       },
       {
         "movement_id": "movement/zhe-school",
-        "status": "reviewed-no-documented-link",
+        "status": "connected",
         "origin_regions": [
           "asia-east-china"
         ],
-        "routes": [],
-        "reasons": [
-          "2026-08-25時点で、movement→movement relation、movement→placeのdiffused_to、space.active_in、movement→event/orgのexhibited_at→held_at/sited_inの4経路を、当該movementに登録された資料を対象に確認した。起源region外への文書化された接続は確認できない。未確認なのは、資料化されていない個人間往来・展示・受容、ならびに視覚的類似だけであり、視覚的類似から因果関係は推定していない。"
+        "routes": [
+          {
+            "kind": "diffused-to-place",
+            "edges": [
+              {
+                "from": "movement/zhe-school",
+                "type": "diffused_to",
+                "to": "place/kyoto",
+                "certainty": "scholarly",
+                "source": "https://ja.wikipedia.org/wiki/%E6%B5%99%E6%B4%BE"
+              }
+            ],
+            "destination_regions": [
+              "asia-east-japan"
+            ]
+          }
         ],
-        "review": {
-          "movement_id": "movement/zhe-school",
-          "status": "no-documented-cross-region-relation",
-          "checked": "2026-08-25",
-          "note": "2026-08-25時点で、movement→movement relation、movement→placeのdiffused_to、space.active_in、movement→event/orgのexhibited_at→held_at/sited_inの4経路を、当該movementに登録された資料を対象に確認した。起源region外への文書化された接続は確認できない。未確認なのは、資料化されていない個人間往来・展示・受容、ならびに視覚的類似だけであり、視覚的類似から因果関係は推定していない。",
-          "sources": [
-            "https://ja.wikipedia.org/wiki/%E6%B5%99%E6%B4%BE",
-            "https://www.hkpm.org.hk/en/visit/audio-guide/g4-stories-untold"
-          ]
-        }
+        "reasons": [
+          "1経路で起源region外へ到達"
+        ],
+        "review": null
       },
       {
         "movement_id": "movement/zimbabwe-stone-architecture",

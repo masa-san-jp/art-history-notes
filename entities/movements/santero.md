@@ -37,7 +37,8 @@ claims:
 evidence: []
 space:
   - {role: originated_in, target: place/santa-fe}
-relations: []
+relations:
+  - {type: influenced_by, target: movement/baroque, certainty: scholarly, source: "https://tesoros.nmhistorymuseum.org/heritage-more-text.html"}
 sources:
   - url: "https://www.wikidata.org/wiki/Q30213495"
     kind: authority
@@ -58,7 +59,7 @@ sources:
     kind: reference
     note: "『Santos』の項。レタブロ（板絵）とブルト（彫像）の技法区分を記す"
 status: draft
-updated: 2026-10-22
+updated: 2026-11-17
 ---
 
 # サンテロ / Santero
@@ -104,11 +105,29 @@ updated: 2026-10-22
 ラグーナ・サンテロの帰属作（サン・ミゲル）の所在地と1920年代の復興の地として現れるだけである。
 そのため certainty は `hypothesis` とした。
 
+## 空間的接続の判定
+
+ニューメキシコ歴史博物館の解説『Four Centuries of a Tradition』（機関資料、2026-11-17取得）はこう記す。
+
+> Early New Mexican images of devotion reflected the same subjects and iconography as their
+> Mexican colonial counterparts from Spanish traditions.
+
+> Shifting from the original European and Mexican sources, artists created a local version of the
+> baroque style by the late eighteenth century.
+
+この記述に基づき、`influenced_by` を [バロック](baroque.md)（europe-west）に張った。17世紀に
+フランシスコ会士がヨーロッパとメキシコから油彩画・版画・彫像を持ち込んだという記述が、
+伝播経路の根拠である。「派生した」とまでは書いていないため `derives_from` ではなく
+`influenced_by` とした。
+
 ## 未着手
 
 - ラグーナ・サンテロ、ペドロ・アントニオ・フレスキースらを person エンティティとして立てるか
   どうか
 - ラグーナ・アコマ両プエブロの祭壇画を work エンティティとして立てるかどうか
-- 文化圏間接続（4経路）: 検索した範囲では、収蔵先はいずれも米国内の博物館（Museum of
-  International Folk Art、Palace of the Governorsなど）で、域外への文書化された接続は
-  見つけられなかった
+- 収蔵先への拡散（`diffused_to`）: 検索した範囲では、収蔵先はいずれも米国内の博物館
+  （Museum of International Folk Art、Palace of the Governorsなど）で、域外への文書化された
+  接続は見つけられなかった
+- バロックとの関係の細部: 機関解説は「ヨーロッパとメキシコの原資料から離れ、18世紀末までに
+  バロックの地方版を作った」と記すのみで、個々の作例とヨーロッパ・メキシコの原資料の
+  対応（版画の種本など）は未確認

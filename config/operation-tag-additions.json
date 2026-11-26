@@ -115,7 +115,7 @@
     },
     "movement/ai-bigeiken": {
       "completed": true,
-      "content_sha256": "78cfa9978efac3218d2e61e2d53c95c25bcbe292ee27028f7a5471bcf70e0a6f",
+      "content_sha256": "8ade5990f01d1b9b5236a8a59c4920a9fed296444ef9d567f8fd448bf9cc24f5",
       "history": [
         {
           "accepted": true,
@@ -124,7 +124,7 @@
           "value_sha256": "c46c041ce888ac802aeaa833971696d791475277bca48f0f1a6615633aedf6c9"
         }
       ],
-      "source_commit": "3c2b53d487cd5afdcf3bdc46e03bc00697cfe683",
+      "source_commit": "56d6e829597adbd087b8663537176922dcc61bbc",
       "tags": []
     },
     "movement/arte-madi": {

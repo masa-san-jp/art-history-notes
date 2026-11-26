@@ -34,7 +34,7 @@ naming:
     民族学・美術史記述による整理でもある"
 claims:
   - {field: time, source: "https://www.penn.museum/sites/expedition/captain-cooks-barkcloth-books/", certainty: scholarly}
-  - {field: originated_in, source: "https://www.wikidata.org/wiki/Q678", certainty: scholarly}
+  - {field: originated_in, source: "https://www.penn.museum/sites/expedition/captain-cooks-barkcloth-books/", certainty: scholarly}
   - {field: kind, source: "https://www.penn.museum/sites/expedition/captain-cooks-barkcloth-books/", certainty: scholarly}
 evidence: []
 space:
@@ -58,7 +58,7 @@ sources:
       現在まで維持しているとも記す"
   - url: "https://www.penn.museum/sites/expedition/captain-cooks-barkcloth-books/"
     kind: scholarly
-    note: "ペン博物館の記事『Captain Cook's Barkcloth Books』。アレクサンダー・ショウが
+    note: "ペン博物館の記事『Captain Cook's Barkcloth Books』（取得日2026-11-23。ポリネシアの樹皮布をトンガ語で ngatu と呼ぶこと、18世紀後半に収集された品にトンガの丈夫な防水性の標本が含まれること、トンガの女性が桑の内樹皮を叩く写真、収集品が今もこの技を続ける人々の図柄と技法の蔵であることを同記事で確認）。アレクサンダー・ショウが
       クック船長の3回の航海（1768-1771・1771-1775・1776-1779年）でトンガ・タヒチ・
       ハワイから収集された樹皮布の実物標本約110点を用い、1787年に標本帖として出版したと
       記す。ペン博物館は1920年に自館所蔵の標本帖を取得したと記す。ケンブリッジ大学考古学
@@ -68,8 +68,8 @@ sources:
     kind: institutional
     note: "大英博物館収蔵《樹皮布（バークロス）》。同館はクック航海由来の初期タパ標本・
       断片・完形の樹皮布を多数所蔵する（検索結果に基づく）"
-status: draft
-updated: 2026-09-16
+status: verified
+updated: 2026-11-23
 ---
 
 # トンガのンガトゥ（タパ） / Tongan Ngatu (Tapa Cloth)
@@ -103,6 +103,10 @@ updated: 2026-09-16
 （`naming.self_identified: true`）、単一の血縁・工房による継承ではなく、複数世代の
 トンガの女性たちが同じ樹皮布制作の慣習を数世紀にわたり共有し続けてきた点を、
 [コーワイワイ](kowhaiwhai.md)・[アカン金分銅](akan-goldweights.md)と同型の構造と見た。
+
+## 空間
+
+`originated_in` は[トンガ](../places/tonga.md)。ペン博物館の記事は、ポリネシアの樹皮布を呼ぶトンガ語が ngatu であること、クック航海で18世紀後半に収集された品にトンガ産の丈夫な防水性の標本があること、トンガの女性が桑の内樹皮を叩いて樹皮布を作るようすを写真で示している。**未確認**: ンガトゥの起源がトンガ単独か西部ポリネシア全体かは、同記事では決まらない。ここでの `originated_in` は、確認できる最古級の標本の産地を指す。
 
 ## ロンドン・フィラデルフィアでの収蔵
 
