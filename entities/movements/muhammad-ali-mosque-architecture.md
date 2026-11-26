@@ -34,7 +34,9 @@ claims:
 evidence: []
 space:
   - {role: originated_in, target: place/cairo}
-relations: []
+relations:
+  - {type: reacts_against, target: movement/mamluk-art, certainty: scholarly, source: "https://en.wikipedia.org/wiki/Mosque_of_Muhammad_Ali"}
+  - {type: influenced_by, target: movement/baroque, certainty: scholarly, source: "https://en.wikipedia.org/wiki/Mosque_of_Muhammad_Ali"}
 sources:
   - url: "https://www.wikidata.org/wiki/Q652046"
     kind: authority
@@ -52,7 +54,7 @@ sources:
       オベリスクとの交換で贈られた鉄製の大時計塔（ネオ・ゴシックとオリエンタリズム様式の
       混交）があると記す"
 status: draft
-updated: 2026-09-16
+updated: 2026-11-17
 ---
 
 # ムハンマド・アリー朝モスク建築 / Muhammad Ali Dynasty Mosque Architecture
@@ -78,12 +80,28 @@ updated: 2026-09-16
 
 ## 空間的接続の判定
 
+英語版Wikipedia「[Muhammad Ali Mosque](https://en.wikipedia.org/wiki/Mosque_of_Muhammad_Ali)」
+（二次情報、2026-11-17取得。このURLは現行タイトル「Muhammad Ali Mosque」へ転送される）はこう記す。
+
+> The mosque's decoration, however, eschews any Mamluk influences or any traditional Islamic
+> ornamentation in favour of European influences instead, although Qur'anic inscriptions and
+> references are still present.
+
+> The new and deliberate design choices of Muhammad Ali's mosque were a radical break from this
+> tradition [a blend of Ottoman and Mamluk styles] and likely symbolized Muhammad Ali's own efforts
+> to forge a new order in Egypt.
+
+これに基づき2本を張った。`reacts_against` を [マムルーク美術](mamluk-art.md)に張ったのは、
+1827年のパスカル・コストのネオ・マムルーク案を退けたこと、およびカイロの従来の建築からの
+意図的な断絶と記されることによる。`influenced_by` を[バロック](baroque.md)（europe-west）に
+張ったのは、同項が中庭の洗浄泉を「バロックの装飾で豪華に飾った」と記し、装飾全体がヨーロッパの
+影響によると記すことによる。ただし同項が「バロック」と名指すのは洗浄泉の装飾だけで、
+建物全体の装飾をバロックと特定してはいない。
+
 モスク中庭のフランス製大時計塔（1846年、ルイ・フィリップからの贈答、ルクソール・
 オベリスクとの交換）はeurope-westからの受け入れであり、本movement自身の様式・作品が
-europe-westへ拡散した記録ではない。イスタンブールの様式を範としたという事実も、
-イスタンブール自体がmena内（本KBのregionバケット上）であるため、region間の接続には
-当たらない。検索した範囲では、このmovementの様式・作品自体が起源region外の博物館等へ
-拡散した文書化された記録は見つからなかった。
+europe-westへ拡散した記録ではない。イスタンブールのモスクを範としたという事実は、イスタンブール
+自体がmena内（本KBのregionバケット上）であるため、region間の接続には当たらない。
 
 ## 未着手
 

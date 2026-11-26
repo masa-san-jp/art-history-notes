@@ -30,8 +30,9 @@ evidence:
 space:
   - {role: originated_in, target: place/moscow}
 relations:
+  - {type: influenced_by, target: movement/cubism, certainty: scholarly, source: "https://www.theartstory.org/movement/constructivism/"}
+  - {type: influenced_by, target: movement/futurism, certainty: scholarly, source: "https://www.theartstory.org/movement/constructivism/"}
   - {type: reacts_against, target: movement/suprematism, certainty: scholarly, source: "https://press.moma.org/wp-content/files_mf/russianavantgarde_pressrelease_final88.pdf"}
-  - {type: influenced_by, target: movement/cubism, certainty: scholarly, source: "https://www.tate.org.uk/art/art-terms/c/constructivism"}
 images:
   - url: "https://commons.wikimedia.org/wiki/Special:FilePath/El_Lissitzky,_Wendingen,_1921_(published_1923),_NGA_93943.jpg"
     source_page: https://www.nga.gov/artworks/93943-wendingen
@@ -53,11 +54,11 @@ sources:
     kind: scholarly
   - url: "https://nga.gov.au/exhibitions/russian-avant-garde/"
     kind: institutional
-  - url: "https://www.tate.org.uk/art/art-terms/c/constructivism"
-    kind: institutional
-    note: "Tate『Constructivism』の項（2026-11-20取得）。タトリンがパリのピカソのアトリエで見たキュビスムの構成作品（Construction 1914）に決定的な影響を受けたと記す"
   - url: "https://www.theartstory.org/movement/suprematism/"
     kind: reference
+  - url: "https://www.theartstory.org/movement/constructivism/"
+    kind: reference
+    note: "二次情報。構成主義がキュビスムと未来派の要素を借りたとする記述と、ガボが1913〜14年にパリでキュビスム彫刻に触れたとする記述を2026-11-18に確認"
   - url: "https://www.vkhutemas.ru/en/summary/"
     kind: reference
   - url: "https://www.vkhutemas.ru/en/the-history/"
@@ -69,7 +70,7 @@ sources:
   - url: "https://commons.wikimedia.org/wiki/File:El_Lissitzky,_Wendingen,_1921_(published_1923),_NGA_93943.jpg"
     kind: reference
 status: verified
-updated: 2026-11-20
+updated: 2026-11-18
 ---
 
 # ロシア構成主義 / Constructivism
@@ -129,22 +130,23 @@ MoMAのロシア前衛展プレス資料も、シュプレマティスムが純�
 理論的分岐を合わせ、ここでの `reacts_against` は運動全体の全面対立ではなく、純粋形態中心の方向に対する
 社会的・物質的な再定位として記録する。
 
-## キュビスムとの関係
-
-動いたのは物と人である。Tateの『Constructivism』は、タトリンがパリのピカソのアトリエで見たピカソの
-キュビスム的な構成作品（《Construction》1914年）に「決定的な影響を受けた」と記す（機関資料、2026-11-20取得）。
-これを受けて `influenced_by → movement/cubism`（`scholarly`）を張った。西欧（パリ）から東欧（ロシア）への
-文化圏をまたぐ経路である。
-
-Tateは、タトリンがこの構成作品を見た年を1913年とする。別の資料は1914年とすることがあり、年は
-**未確認**（Tateの記述に従い、本文では年を断定しない）。また、これは運動の前史（1913〜1917年）にあたる
-経路であり、1921年3月の集団成立後の関係ではない。
-
 ## バウハウス・デ・ステイルとの距離
 
 ロシア構成主義の幾何学・生産志向は、後のバウハウスや西欧の国際的な構成主義に接続する重要な経路を持つ。
 ただし、本KBでは現時点で直接の講義・作品・出版経路を揃えていないため、バウハウスやデ・ステイルへの
 `influenced_by` はこのエントリからは張らない。類似した幾何学だけで影響関係にしない。
+
+## キュビスム・未来派との関係
+
+The Art Story は、構成主義が「他のヨーロッパ前衛、とりわけキュビスムと未来派の要素を借りた」と書く
+（[theartstory.org](https://www.theartstory.org/movement/constructivism/)、二次情報、取得 2026-11-18）。
+同じ頁は、ナウム・ガボが1913〜14年にパリで兄アントワーヌ・ペヴスナーを訪ね、アレクサンドル・
+アルキペンコらを通じてキュビスム彫刻に触れたこと、《Constructed Head No. 2》（1916年）がキュビスムと
+構成主義の両方の原理を持つことを記す。英語版Wikipediaの項も、影響元にシュプレマティスム、
+キュビスム、未来派などを挙げる（二次情報）。Wikidata Q207103 の P737 にもキュビスム（Q42934）がある。
+ここで記録するのは、パリ・イタリアの前衛からロシア・ソ連圏の運動への一方向の借用であり、
+構成主義の形成要因を全て説明するものではない（シュプレマティスムからの反発は別に記録している）。
+個々の作品・人物の経路は未確認。
 
 ## 未着手
 
@@ -152,5 +154,4 @@ Tateは、タトリンがこの構成作品を見た年を1913年とする。別
 - 1920年の『現実主義宣言』、1921年の作業グループ綱領、1921年『5×5=25』展の一次資料化
 - ペトログラード、ヴィテプスク、ベルリンでの活動地と、VKhUTEMAS・INKhUK・LEFの組織化
 - 1932年頃という終点の精密化。政策転換、学校・雑誌・作業グループのどれを終点とするかを分解する
-- バウハウス、国際構成主義への具体的な伝播経路。デ・ステイルとの1922年の接触は[デ・ステイル](de-stijl.md)側に記録した
-- タトリンがピカソのアトリエを訪れた年（Tateは1913年、他資料は1914年とする）の一次資料での確認
+- バウハウス、デ・ステイル、国際構成主義への具体的な伝播経路

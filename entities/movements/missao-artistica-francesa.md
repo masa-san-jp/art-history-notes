@@ -28,9 +28,9 @@ naming:
     よる呼称なのかを区別する一次資料に本調査では到達していない。王室の招聘による公的な性格を
     持つ集団だったことは確実だが、self_identifiedは慎重にfalseとした"
 claims:
-  - {field: time, source: "https://en.wikipedia.org/wiki/Miss%C3%A3o_Art%C3%ADstica_Francesa", certainty: scholarly}
-  - {field: originated_in, source: "https://en.wikipedia.org/wiki/Miss%C3%A3o_Art%C3%ADstica_Francesa", certainty: scholarly}
-  - {field: kind, source: "https://en.wikipedia.org/wiki/Miss%C3%A3o_Art%C3%ADstica_Francesa", certainty: scholarly}
+  - {field: time, source: "https://doi.org/10.1590/S0101-47142006000200009", certainty: scholarly}
+  - {field: originated_in, source: "https://doi.org/10.1590/S0101-47142006000200009", certainty: scholarly}
+  - {field: kind, source: "https://doi.org/10.11606/issn.2176-8099.pcso.2007.75459", certainty: scholarly}
 evidence: []
 space:
   - {role: originated_in, target: place/rio-de-janeiro}
@@ -47,11 +47,17 @@ sources:
       資金提供によると記す。画家ジャン＝バティスト・デブレ、風景画家ニコラ・アントワーヌ・
       トーネー、彫刻家オーギュスト・マリー・トーネー、建築家グランジャン・ド・モンティニーらを
       構成員とする"
+  - url: "https://doi.org/10.1590/S0101-47142006000200009"
+    kind: scholarly
+    note: "Elaine Dias『Correspondências entre Joachim Le Breton e a corte portuguesa na Europa: o nascimento da Missão Artística de 1816』Anais do Museu Paulista 14(2), 2006。リスボンのトーレ・ド・トンボ国立文書館の書簡を扱う査読論文。1816年3月のフランス人のリオデジャネイロ到着と、ルブルトンが宮廷と交わした招聘の経緯を述べる。取得日2026-11-24、SciELO本文（scielo.br）から確認"
+  - url: "https://doi.org/10.11606/issn.2176-8099.pcso.2007.75459"
+    kind: scholarly
+    note: "Anderson Ricardo Trevisan、Plural（サンパウロ大学）2007掲載のデブレ論。デブレが1816年に画家として渡ブラジルし1831年まで滞在した『Missão Artística Francesa』の歴史画家だったと記す。取得日2026-11-24、revistas.usp.brの論文ページから確認"
   - url: "http://arts-graphiques.louvre.fr/detail/artistes/0/757-DEBRET-Jean-Baptiste"
     kind: institutional
     note: "ルーヴル美術館版画素描部門のジャン＝バティスト・デブレのコレクションページ"
-status: draft
-updated: 2026-09-21
+status: verified
+updated: 2026-11-24
 ---
 
 # フランス美術使節団 / Missão Artística Francesa
@@ -91,7 +97,20 @@ updated: 2026-09-21
 決定的な役割を果たしたと記す。トーネーをはじめとする画家たちが新古典主義様式で制作したとも
 記す。これに基づき`relations`へ`derives_from movement/neoclassicism`を張った。
 
+## 一次寄りの確認（2026-11-24）
+
+Elaine Dias（2006、[doi:10.1590/S0101-47142006000200009](https://doi.org/10.1590/S0101-47142006000200009)）は、
+リスボンのトーレ・ド・トンボ国立文書館に残るジョアキン・ルブルトンと宮廷の往復書簡から「1816年の
+美術使節団」の成立を辿る。同論文は、フランス人の到着を1816年3月のリオデジャネイロとし、書簡の中で
+ブラジル人芸術家を計画に含める提案が出ていたことも述べる。Trevisan（2007、
+[doi:10.11606/issn.2176-8099.pcso.2007.75459](https://doi.org/10.11606/issn.2176-8099.pcso.2007.75459)）は、
+デブレを使節団が作った教育計画の歴史画家とする。これらは`time`の開始年・`originated_in`・団体としての
+性格の根拠として`claims`に使った。
+
 ## 未着手
+
+- **未確認**: 使節団の名称が当時の公文書にあったかは、上の2論文からは判別できていない。
+  `naming.self_identified`をfalseのままにしている理由である
 
 - ジャン＝バティスト・デブレ、ニコラ・アントワーヌ・トーネーらを person エンティティとして
   立てるかどうか

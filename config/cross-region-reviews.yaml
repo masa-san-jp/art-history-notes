@@ -27,13 +27,6 @@ reviews:
   sources:
   - https://www.wikidata.org/wiki/Q1825525
   - https://en.wikipedia.org/wiki/Freake_Painter
-- movement_id: movement/arts-and-crafts
-  status: no-documented-cross-region-relation
-  checked: '2026-08-25'
-  note: 2026-08-25時点で、movement→movement relation、movement→placeのdiffused_to、space.active_in、movement→event/orgのexhibited_at→held_at/sited_inの4経路を、当該movementに登録された資料を対象に確認した。起源region外への文書化された接続は確認できない。未確認なのは、資料化されていない個人間往来・展示・受容、ならびに視覚的類似だけであり、視覚的類似から因果関係は推定していない。
-  sources:
-  - https://www.metmuseum.org/it/essays/design-reform
-  - https://www.vam.ac.uk/articles/arts-and-crafts-an-introduction
 - movement_id: movement/bamana-sculpture
   status: no-documented-cross-region-relation
   checked: '2026-08-25'
@@ -41,13 +34,6 @@ reviews:
   sources:
   - https://africanarchive.org/en/staemme/bamana
   - https://www.metmuseum.org/art/collection/search/310864
-- movement_id: movement/barbizon-school
-  status: no-documented-cross-region-relation
-  checked: '2026-08-25'
-  note: 2026-08-25時点で、movement→movement relation、movement→placeのdiffused_to、space.active_in、movement→event/orgのexhibited_at→held_at/sited_inの4経路を、当該movementに登録された資料を対象に確認した。起源region外への文書化された接続は確認できない。未確認なのは、資料化されていない個人間往来・展示・受容、ならびに視覚的類似だけであり、視覚的類似から因果関係は推定していない。
-  sources:
-  - https://www.artic.edu/artworks/27873
-  - https://en.wikipedia.org/wiki/Barbizon_school
 - movement_id: movement/baroque
   status: no-documented-cross-region-relation
   checked: '2026-08-25'
@@ -272,14 +258,6 @@ reviews:
   sources:
   - https://resources.metmuseum.org/resources/metpublications/pdf/Vienna_Circa_1780_An_Imperial_Silver_Service_Rediscovered.pdf
   - https://www.wikidata.org/wiki/Q122960
-- movement_id: movement/santero
-  status: no-documented-cross-region-relation
-  checked: '2026-10-22'
-  note: 2026-10-22時点で、movement→movement relation、movement→placeのdiffused_to、space.active_in、movement→event/orgのexhibited_at→held_at/sited_inの4経路を、当該movementに登録された資料を対象に確認した。作例の収蔵先はいずれも米国内（Museum of International Folk Art、Palace of the Governorsなど）で、americas-north外への文書化された接続は確認できない。なお、ニューメキシコ歴史博物館の解説は第一世代のサンテロが南部ヌエバ・エスパーニャから移住したと記し、ラグーナ・サンテロもそうだった可能性が高いとするが、これは起源への流入であり、上の4経路のいずれにも当たらない。
-  sources:
-  - https://www.wikidata.org/wiki/Q30213495
-  - https://tesoros.nmhistorymuseum.org/heritage-more-text.html
-  - https://tesoros.nmhistorymuseum.org/tesoros-lightbox/more-text-laguna-santero.html
 - movement_id: movement/shanghai-school
   status: no-documented-cross-region-relation
   checked: '2026-08-25'
@@ -336,13 +314,6 @@ reviews:
   sources:
   - https://ja.wikipedia.org/wiki/%E5%91%89%E6%B4%BE
   - https://www.britannica.com/biography/Dong-Qichang
-- movement_id: movement/zhe-school
-  status: no-documented-cross-region-relation
-  checked: '2026-08-25'
-  note: 2026-08-25時点で、movement→movement relation、movement→placeのdiffused_to、space.active_in、movement→event/orgのexhibited_at→held_at/sited_inの4経路を、当該movementに登録された資料を対象に確認した。起源region外への文書化された接続は確認できない。未確認なのは、資料化されていない個人間往来・展示・受容、ならびに視覚的類似だけであり、視覚的類似から因果関係は推定していない。
-  sources:
-  - https://ja.wikipedia.org/wiki/%E6%B5%99%E6%B4%BE
-  - https://www.hkpm.org.hk/en/visit/audio-guide/g4-stories-untold
 - movement_id: movement/southeastern-ceremonial-complex
   status: no-documented-cross-region-relation
   checked: '2026-09-16'
@@ -399,13 +370,6 @@ reviews:
   sources:
   - https://www.wikidata.org/wiki/Q4211672
   - https://en.wikipedia.org/wiki/Latte_stone
-- movement_id: movement/muhammad-ali-mosque-architecture
-  status: no-documented-cross-region-relation
-  checked: '2026-09-16'
-  note: 2026-09-16時点で、movement→movement relation、movement→placeのdiffused_to、space.active_in、movement→event/orgのexhibited_at→held_at/sited_inの4経路を、当該movementに登録された資料を対象に確認した。中庭のフランス製大時計塔（1846年、ルイ・フィリップからの贈答）はeurope-westからmenaへの受け入れであり、本movement自身の様式・作品が域外へ拡散した記録ではない。様式の範としたイスタンブールもmena内（regionバケット上）であり域外接続に当たらない。起源region外への文書化された接続は現時点で確認できない。
-  sources:
-  - https://www.wikidata.org/wiki/Q652046
-  - https://en.wikipedia.org/wiki/Mosque_of_Muhammad_Ali
 - movement_id: movement/kakatiya-art
   status: no-documented-cross-region-relation
   checked: '2026-09-16'
