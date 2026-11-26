@@ -45,13 +45,17 @@ sources:
   - url: "https://www.metmuseum.org/art/collection/search/39328"
     kind: institutional
     note: "メトロポリタン美術館収蔵《舞踏の王シヴァ（ナタラージャ）》。タミル・ナードゥ州、
-      チョーラ朝期（880-1279年）と帰属年代を記す"
+      チョーラ朝期（880-1279年）と帰属年代を記す。2026-11-16にMet Open Access API
+      （objects/39328）で period欄「Chola period (880–1279)」、culture欄「Indian (Tamil Nadu)」、
+      objectDate「ca. late 11th century」、パブリックドメインを確認"
   - url: "https://www.bmimages.com/preview.asp?image=00033974001"
     kind: institutional
     note: "大英博物館収蔵《ナタラージャ像》（登録番号1987,0314.1）。タンジャーヴール、
-      チョーラ朝、c.1100年、高さ89.50cmの一鋳造品と記す"
-status: draft
-updated: 2026-09-16
+      チョーラ朝、c.1100年、高さ89.50cmの一鋳造品と記す。2026-11-16に同ページで
+      Period/culture「Chola」、Production place「Thanjavur, Tamil Nadu」、Technique「lost-wax cast」、
+      Materials「bronze」を確認"
+status: verified
+updated: 2026-11-16
 ---
 
 # チョーラ朝ブロンズ / Chola Bronzes
