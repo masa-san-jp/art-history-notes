@@ -5,8 +5,8 @@
     "schema_version": 1,
     "movement_total": 181,
     "counts": {
-      "connected": 127,
-      "reviewed-no-documented-link": 54,
+      "connected": 129,
+      "reviewed-no-documented-link": 52,
       "unreviewed": 0
     },
     "connected": [
@@ -55,6 +55,7 @@
       "movement/gothic-art",
       "movement/group-of-seven",
       "movement/gutai",
+      "movement/harlem-renaissance",
       "movement/hawaiian-featherwork",
       "movement/herat-school",
       "movement/hoysala-art",
@@ -119,6 +120,7 @@
       "movement/srivijaya-art",
       "movement/sukhothai-art",
       "movement/suprematism",
+      "movement/surrealism",
       "movement/suzani",
       "movement/symbolism",
       "movement/talavera-poblana",
@@ -153,7 +155,6 @@
       "movement/futurism",
       "movement/golden-horde-art",
       "movement/gujarat-sultanate-architecture",
-      "movement/harlem-renaissance",
       "movement/italian-divisionism",
       "movement/jain-manuscript-painting",
       "movement/jinling-eight-masters",
@@ -190,7 +191,6 @@
       "movement/southeastern-ceremonial-complex",
       "movement/stroganov-school",
       "movement/sudano-sahelian-architecture",
-      "movement/surrealism",
       "movement/tongan-langi-architecture",
       "movement/wu-school"
     ],
@@ -1975,24 +1975,31 @@
       },
       {
         "movement_id": "movement/harlem-renaissance",
-        "status": "reviewed-no-documented-link",
+        "status": "connected",
         "origin_regions": [
           "americas-north"
         ],
-        "routes": [],
-        "reasons": [
-          "2026-08-25時点で、movement→movement relation、movement→placeのdiffused_to、space.active_in、movement→event/orgのexhibited_at→held_at/sited_inの4経路を、当該movementに登録された資料を対象に確認した。起源region外への文書化された接続は確認できない。未確認なのは、資料化されていない個人間往来・展示・受容、ならびに視覚的類似だけであり、視覚的類似から因果関係は推定していない。"
+        "routes": [
+          {
+            "kind": "diffused-to-place",
+            "edges": [
+              {
+                "from": "movement/harlem-renaissance",
+                "type": "diffused_to",
+                "to": "place/paris",
+                "certainty": "scholarly",
+                "source": "https://plato.stanford.edu/entries/negritude/"
+              }
+            ],
+            "destination_regions": [
+              "europe-west"
+            ]
+          }
         ],
-        "review": {
-          "movement_id": "movement/harlem-renaissance",
-          "status": "no-documented-cross-region-relation",
-          "checked": "2026-08-25",
-          "note": "2026-08-25時点で、movement→movement relation、movement→placeのdiffused_to、space.active_in、movement→event/orgのexhibited_at→held_at/sited_inの4経路を、当該movementに登録された資料を対象に確認した。起源region外への文書化された接続は確認できない。未確認なのは、資料化されていない個人間往来・展示・受容、ならびに視覚的類似だけであり、視覚的類似から因果関係は推定していない。",
-          "sources": [
-            "https://archive.org/details/newnegrointerpre00unse",
-            "https://www.jstor.org/stable/i40051482"
-          ]
-        }
+        "reasons": [
+          "1経路で起源region外へ到達"
+        ],
+        "review": null
       },
       {
         "movement_id": "movement/hawaiian-featherwork",
@@ -4915,24 +4922,46 @@
       },
       {
         "movement_id": "movement/surrealism",
-        "status": "reviewed-no-documented-link",
+        "status": "connected",
         "origin_regions": [
           "europe-west"
         ],
-        "routes": [],
-        "reasons": [
-          "2026-08-25時点で、movement→movement relation、movement→placeのdiffused_to、space.active_in、movement→event/orgのexhibited_at→held_at/sited_inの4経路を、当該movementに登録された資料を対象に確認した。起源region外への文書化された接続は確認できない。未確認なのは、資料化されていない個人間往来・展示・受容、ならびに視覚的類似だけであり、視覚的類似から因果関係は推定していない。"
+        "routes": [
+          {
+            "kind": "diffused-to-place",
+            "edges": [
+              {
+                "from": "movement/surrealism",
+                "type": "diffused_to",
+                "to": "place/mexico-city",
+                "certainty": "scholarly",
+                "source": "https://www.tate.org.uk/whats-on/tate-modern/surrealism-beyond-borders"
+              }
+            ],
+            "destination_regions": [
+              "americas-latin"
+            ]
+          },
+          {
+            "kind": "diffused-to-place",
+            "edges": [
+              {
+                "from": "movement/surrealism",
+                "type": "diffused_to",
+                "to": "place/tokyo",
+                "certainty": "scholarly",
+                "source": "https://www.tate.org.uk/whats-on/tate-modern/surrealism-beyond-borders"
+              }
+            ],
+            "destination_regions": [
+              "asia-east-japan"
+            ]
+          }
         ],
-        "review": {
-          "movement_id": "movement/surrealism",
-          "status": "no-documented-cross-region-relation",
-          "checked": "2026-08-25",
-          "note": "2026-08-25時点で、movement→movement relation、movement→placeのdiffused_to、space.active_in、movement→event/orgのexhibited_at→held_at/sited_inの4経路を、当該movementに登録された資料を対象に確認した。起源region外への文書化された接続は確認できない。未確認なのは、資料化されていない個人間往来・展示・受容、ならびに視覚的類似だけであり、視覚的類似から因果関係は推定していない。",
-          "sources": [
-            "https://gallica.bnf.fr/ark:/12148/btv1b525214035",
-            "https://fr.wikipedia.org/wiki/Manifeste_du_surr%C3%A9alisme"
-          ]
-        }
+        "reasons": [
+          "2経路で起源region外へ到達"
+        ],
+        "review": null
       },
       {
         "movement_id": "movement/suzani",

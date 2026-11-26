@@ -28,7 +28,8 @@ claims:
 founding_control: shared
 space:
   - {role: originated_in, target: place/new-york-city}
-relations: []
+relations:
+  - {type: diffused_to, target: place/paris, certainty: scholarly, source: "https://plato.stanford.edu/entries/negritude/"}
 images:
   - url: "https://ids.si.edu/ids/download?id=NPG-9800260B_2.jpg"
     source_page: "https://npg.si.edu/object/npg_NPG.98.129.a"
@@ -41,6 +42,9 @@ images:
     license: cc0
     note: "ウィノルド・ライス《W・E・B・デュボイス》1925年、パステル画（原画。『The New Negro』のために制作された肖像連作の一つ）。国立肖像画美術館（スミソニアン協会）所蔵、NPG.72.79。Smithsonian Open Access APIでobjectRights=CC0を確認"
 sources:
+  - url: "https://plato.stanford.edu/entries/negritude/"
+    kind: institutional
+    note: "スタンフォード哲学百科事典『Negritude』。セゼール、サンゴール、ダマスがパリのナルダル姉妹のサロンでラングストン・ヒューズやクロード・マッケイら黒人アメリカ人作家に会い、ハーレム・ルネサンスに黒人の誇りの表現を見出したと記す。取得日2026-11-22"
   - url: "https://www.wikidata.org/wiki/Q829895"
     kind: authority
   - url: "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300121558"
@@ -66,7 +70,7 @@ sources:
   - url: "https://www.nationalgeographic.com/history/article/harlem-renaissance-dinner"
     kind: reference
 status: verified
-updated: 2026-08-25
+updated: 2026-11-22
 ---
 
 # ハーレム・ルネサンス / Harlem Renaissance
@@ -259,6 +263,18 @@ in the 1920s」と明記していること、およびロックの序文が「Ha
 cultural expression across other urban areas in the Northeastern United States and the Midwestern
 United States（運動はアメリカ北東部・中西部の他の都市にも新しいアフリカ系アメリカ人の文化表現を
 含んでいた）」とし、さらにパリ在住のフランス語圏黒人作家たちへの影響も記す（二次情報）。
+
+### パリへの広がり
+
+スタンフォード哲学百科事典「[Negritude](https://plato.stanford.edu/entries/negritude/)」（機関資料、2026-11-22取得）は、
+エメ・セゼール、レオポール・サンゴール、レオン・ダマスがパリでナルダル姉妹の主宰するサロンに通い、
+ラングストン・ヒューズやクロード・マッケイら黒人アメリカ人作家と出会って、ハーレム・ルネサンスを
+知ったと記す。彼らはアラン・ロックの選集『The New Negro』に強い印象を受けたとされる。これに基づき
+`diffused_to → place/paris` を張り、americas-north起源からeurope-westへの接続を記録した。
+ネグリチュード側の受容は[ネグリチュード](negritude.md)に `influenced_by` として記録済みである。
+
+**未確認**: ヒューズ、マッケイのパリ滞在の時期と、ハーレム・ルネサンスの美術作品（絵画・彫刻）が
+パリで展示された記録。上の資料が記すのは文学者の出会いである。
 
 ## 未着手
 

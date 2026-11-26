@@ -32,7 +32,12 @@ relations:
   - {type: uses_method, target: concept/frottage, certainty: scholarly, source: "https://www.museothyssen.org/en/collection/artists/ernst-max"}
   - {type: influenced_by, target: movement/dada, certainty: scholarly, source: "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300021512"}
   - {type: influenced_by, target: movement/symbolism, certainty: scholarly, source: "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300021512"}
+  - {type: diffused_to, target: place/mexico-city, certainty: scholarly, source: "https://www.tate.org.uk/whats-on/tate-modern/surrealism-beyond-borders"}
+  - {type: diffused_to, target: place/tokyo, certainty: scholarly, source: "https://www.tate.org.uk/whats-on/tate-modern/surrealism-beyond-borders"}
 sources:
+  - url: "https://www.tate.org.uk/whats-on/tate-modern/surrealism-beyond-borders"
+    kind: institutional
+    note: "テート・モダンとメトロポリタン美術館が組織した展覧会『Surrealism Beyond Borders』の紹介。世界各地の芸術家がシュルレアリスムに触発されたとし、中心地にブエノスアイレス、カイロ、リスボン、メキシコシティ、プラハ、ソウル、東京を挙げる。取得日2026-11-22"
   - url: "https://www.museothyssen.org/en/collection/artists/ernst-max"
     kind: institutional
     note: "エルンストがシュルレアリスムのグループと交流した時期の半自動技法としてフロッタージュを紹介"
@@ -56,7 +61,7 @@ sources:
   - url: "https://www.bnf.fr/fr/1924-annee-surrealiste"
     kind: reference
 status: verified
-updated: 2026-08-25
+updated: 2026-11-22
 ---
 
 # シュルレアリスム / Surrealism
@@ -138,6 +143,18 @@ dreams, in order to create an absolute reality."
 **2つの受け取り方は同じではない。** ネグリチュードは書法として取り込んだと記述されるのに対し、
 アントロポファジアは「食う」と宣言している。関係語彙を `influenced_by` と `responds_to` で分けたのは
 この違いによる。
+
+## パリの外への広がり（メキシコシティ・東京）
+
+テート・モダンとメトロポリタン美術館が組織した展覧会「[Surrealism Beyond Borders](https://www.tate.org.uk/whats-on/tate-modern/surrealism-beyond-borders)」
+の紹介（機関資料、2026-11-22取得）は、1920年代のパリに焦点を当てた従来の見方を越え、世界各地の
+芸術家がシュルレアリスムに触発され結びついたことを示す展覧会だと説明し、その中心地として
+ブエノスアイレス、カイロ、リスボン、メキシコシティ、プラハ、ソウル、東京を挙げる。
+このうちKBに場所エンティティがあるメキシコシティ（americas-latin）と東京（asia-east-japan）へ
+`diffused_to` を張った。個々の都市での展覧会・作家・年代はこの資料からは特定できないため、
+関係の確度は `scholarly` とし、時期や担い手は確認していない。
+
+**未確認**: メキシコシティと東京それぞれでの最初の紹介の年、主要な作家、展覧会。
 
 ## ダダとの関係
 
