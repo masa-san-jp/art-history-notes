@@ -55,13 +55,6 @@ reviews:
   sources:
   - https://www.metmuseum.org/fr/essays/paul-cezanne-1839-1906
   - https://www.moma.org/collection/terms/cubism/before-and-beyond-cubism
-- movement_id: movement/de-stijl
-  status: no-documented-cross-region-relation
-  checked: '2026-08-25'
-  note: 2026-08-25時点で、movement→movement relation、movement→placeのdiffused_to、space.active_in、movement→event/orgのexhibited_at→held_at/sited_inの4経路を、当該movementに登録された資料を対象に確認した。起源region外への文書化された接続は確認できない。未確認なのは、資料化されていない個人間往来・展示・受容、ならびに視覚的類似だけであり、視覚的類似から因果関係は推定していない。
-  sources:
-  - https://www.moma.org/documents/moma_catalogue_1798_300159061.pdf
-  - https://sammlung.staedelmuseum.de/en/person/de-stijl
 - movement_id: movement/dong-ho-painting
   status: no-documented-cross-region-relation
   checked: '2026-08-25'

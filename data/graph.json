@@ -5601,6 +5601,12 @@
           "target": "movement/cubism",
           "certainty": "scholarly",
           "source": "https://assets.moma.org/documents/moma_catalogue_2748_300086869.pdf"
+        },
+        {
+          "type": "influenced_by",
+          "target": "movement/constructivism",
+          "certainty": "scholarly",
+          "source": "https://en.wikipedia.org/wiki/Constructivism_(art)"
         }
       ],
       "images": [
@@ -5644,10 +5650,20 @@
         {
           "url": "https://commons.wikimedia.org/wiki/File:Stijl_vol_03_nr_01_p_003.jpg",
           "kind": "reference"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Constructivism_(art)",
+          "kind": "reference",
+          "note": "『Constructivism (art)』の項（2026-11-20取得）。構成主義の建築・美術がバウハウスとデ・ステイルに大きな影響を与えたとし、構成主義インターナショナルが1922年にドイツでダダイストとデ・ステイルの芸術家に会ったと記す。二次情報"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/El_Lissitzky",
+          "kind": "reference",
+          "note": "『El Lissitzky』の項（2026-11-20取得）。リシツキーがベルリンでテオ・ファン・ドゥースブルフと出会い、シュヴィッタース、ドゥースブルフとともに構成主義を指針とする国際的な芸術運動の構想を示したと記す。二次情報"
         }
       ],
       "status": "verified",
-      "updated": "2026-08-25",
+      "updated": "2026-11-20",
       "path": "entities/movements/de-stijl.md"
     },
     "movement/deccan-painting": {
@@ -78759,6 +78775,13 @@
     },
     {
       "from": "movement/de-stijl",
+      "type": "influenced_by",
+      "to": "movement/constructivism",
+      "certainty": "scholarly",
+      "source": "https://en.wikipedia.org/wiki/Constructivism_(art)"
+    },
+    {
+      "from": "movement/de-stijl",
       "type": "originated_in",
       "to": "place/leiden"
     },
@@ -96197,6 +96220,12 @@
     },
     {
       "from": "movement/cubism",
+      "type": "influenced",
+      "to": "movement/de-stijl",
+      "derived": true
+    },
+    {
+      "from": "movement/constructivism",
       "type": "influenced",
       "to": "movement/de-stijl",
       "derived": true
