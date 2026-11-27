@@ -3165,7 +3165,20 @@
           "target": "place/rome"
         }
       ],
-      "relations": [],
+      "relations": [
+        {
+          "type": "diffused_to",
+          "target": "place/mexico-city",
+          "certainty": "scholarly",
+          "source": "https://en.wikipedia.org/wiki/Baroque"
+        },
+        {
+          "type": "diffused_to",
+          "target": "place/lima",
+          "certainty": "scholarly",
+          "source": "https://en.wikipedia.org/wiki/Baroque"
+        }
+      ],
       "sources": [
         {
           "url": "https://www.wikidata.org/wiki/Q37853",
@@ -3178,10 +3191,15 @@
         {
           "url": "https://www.metmuseum.org/ko/essays/baroque-rome",
           "kind": "institutional"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Baroque",
+          "kind": "reference",
+          "note": "『Baroque』の項（2026-11-28取得、MediaWiki API）。「Baroque in the Spanish and Portuguese Colonial Americas」の節で、バロックが新大陸へ移り、メキシコ・ペルーが主要な中心であること、メキシコ市のラ・プロフェサ教会、リマ、クスコのイエズス会教会・サン・フランシスコ聖堂などを例に挙げる。二次情報"
         }
       ],
       "status": "verified",
-      "updated": "2026-08-25",
+      "updated": "2026-11-28",
       "path": "entities/movements/baroque.md"
     },
     "movement/barroco-mineiro": {
@@ -5021,6 +5039,12 @@
           "target": "movement/post-impressionism",
           "certainty": "scholarly",
           "source": "https://www.metmuseum.org/fr/essays/paul-cezanne-1839-1906"
+        },
+        {
+          "type": "diffused_to",
+          "target": "place/moscow",
+          "certainty": "scholarly",
+          "source": "https://en.wikipedia.org/wiki/Sergei_Shchukin"
         }
       ],
       "sources": [
@@ -5087,10 +5111,15 @@
         {
           "url": "https://www.tate.org.uk/art/art-terms/p/post-impressionism",
           "kind": "institutional"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Sergei_Shchukin",
+          "kind": "reference",
+          "note": "『Sergei Shchukin』の項（2026-11-28取得、MediaWiki API）。モスクワの収集家シチューキンのコレクションに、ピカソの初期キュビスム作品を含む約50点が入っていたこと、1909年から日曜に邸宅を公開しフランス前衛絵画をモスクワの人々に紹介したことを記す。二次情報"
         }
       ],
       "status": "verified",
-      "updated": "2026-08-25",
+      "updated": "2026-11-28",
       "path": "entities/movements/cubism.md"
     },
     "movement/cubo-futurism": {
@@ -6703,6 +6732,12 @@
           "target": "movement/italian-divisionism",
           "certainty": "scholarly",
           "source": "https://www.nationalgallery.org.uk/about-us/press-and-media/press-releases-archive/radical-light-italy-s-divisionist-painters-1891-1910"
+        },
+        {
+          "type": "diffused_to",
+          "target": "place/moscow",
+          "certainty": "scholarly",
+          "source": "https://en.wikipedia.org/wiki/Russian_Futurism"
         }
       ],
       "images": [
@@ -6793,10 +6828,15 @@
         {
           "url": "https://www.nationalgallery.org.uk/about-us/press-and-media/press-releases-archive/radical-light-italy-s-divisionist-painters-1891-1910",
           "kind": "institutional"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Russian_Futurism",
+          "kind": "reference",
+          "note": "『Russian Futurism』の項（2026-11-28取得、MediaWiki API）。マリネッティが1914年に布教のためロシアを訪れ、大半のロシア未来派から妨げられた（obstructed）と記す。同日取得の『Futurism』の項は、1914年のロシア講演旅行に言及する。二次情報"
         }
       ],
       "status": "verified",
-      "updated": "2026-08-25",
+      "updated": "2026-11-28",
       "path": "entities/movements/futurism.md"
     },
     "movement/golden-horde-art": {
@@ -78358,6 +78398,20 @@
     },
     {
       "from": "movement/baroque",
+      "type": "diffused_to",
+      "to": "place/mexico-city",
+      "certainty": "scholarly",
+      "source": "https://en.wikipedia.org/wiki/Baroque"
+    },
+    {
+      "from": "movement/baroque",
+      "type": "diffused_to",
+      "to": "place/lima",
+      "certainty": "scholarly",
+      "source": "https://en.wikipedia.org/wiki/Baroque"
+    },
+    {
+      "from": "movement/baroque",
       "type": "originated_in",
       "to": "place/rome"
     },
@@ -78715,6 +78769,13 @@
     },
     {
       "from": "movement/cubism",
+      "type": "diffused_to",
+      "to": "place/moscow",
+      "certainty": "scholarly",
+      "source": "https://en.wikipedia.org/wiki/Sergei_Shchukin"
+    },
+    {
+      "from": "movement/cubism",
       "type": "originated_in",
       "to": "place/paris"
     },
@@ -79022,6 +79083,13 @@
       "to": "movement/italian-divisionism",
       "certainty": "scholarly",
       "source": "https://www.nationalgallery.org.uk/about-us/press-and-media/press-releases-archive/radical-light-italy-s-divisionist-painters-1891-1910"
+    },
+    {
+      "from": "movement/futurism",
+      "type": "diffused_to",
+      "to": "place/moscow",
+      "certainty": "scholarly",
+      "source": "https://en.wikipedia.org/wiki/Russian_Futurism"
     },
     {
       "from": "movement/futurism",
@@ -96017,6 +96085,18 @@
       "derived": true
     },
     {
+      "from": "place/mexico-city",
+      "type": "received",
+      "to": "movement/baroque",
+      "derived": true
+    },
+    {
+      "from": "place/lima",
+      "type": "received",
+      "to": "movement/baroque",
+      "derived": true
+    },
+    {
       "from": "movement/baroque",
       "type": "derived_into",
       "to": "movement/barroco-mineiro",
@@ -96233,6 +96313,12 @@
       "derived": true
     },
     {
+      "from": "place/moscow",
+      "type": "received",
+      "to": "movement/cubism",
+      "derived": true
+    },
+    {
       "from": "movement/futurism",
       "type": "influenced",
       "to": "movement/cubo-futurism",
@@ -96409,6 +96495,12 @@
     {
       "from": "movement/italian-divisionism",
       "type": "influenced",
+      "to": "movement/futurism",
+      "derived": true
+    },
+    {
+      "from": "place/moscow",
+      "type": "received",
       "to": "movement/futurism",
       "derived": true
     },

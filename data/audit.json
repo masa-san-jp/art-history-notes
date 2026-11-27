@@ -5,8 +5,8 @@
     "schema_version": 1,
     "movement_total": 181,
     "counts": {
-      "connected": 129,
-      "reviewed-no-documented-link": 52,
+      "connected": 132,
+      "reviewed-no-documented-link": 49,
       "unreviewed": 0
     },
     "connected": [
@@ -26,6 +26,7 @@
       "movement/bandung-school",
       "movement/barbizon-school",
       "movement/bark-painting",
+      "movement/baroque",
       "movement/barroco-mineiro",
       "movement/basohli-painting",
       "movement/bauhaus",
@@ -39,6 +40,7 @@
       "movement/computer-art",
       "movement/conceptual-art",
       "movement/constructivism",
+      "movement/cubism",
       "movement/cubo-futurism",
       "movement/cusco-school",
       "movement/dada",
@@ -50,6 +52,7 @@
       "movement/ecole-de-dakar",
       "movement/ecole-de-tunis",
       "movement/fauvism",
+      "movement/futurism",
       "movement/gondarine-church-painting",
       "movement/goryeo-buddhist-painting",
       "movement/gothic-art",
@@ -144,15 +147,12 @@
       "movement/ai-bigeiken",
       "movement/alaouite-imperial-architecture",
       "movement/bamana-sculpture",
-      "movement/baroque",
       "movement/byzantine-art",
       "movement/coffin-portrait",
       "movement/colonial-limner-painting",
-      "movement/cubism",
       "movement/dong-ho-painting",
       "movement/expressionism",
       "movement/four-wangs",
-      "movement/futurism",
       "movement/golden-horde-art",
       "movement/gujarat-sultanate-architecture",
       "movement/italian-divisionism",
@@ -812,24 +812,46 @@
       },
       {
         "movement_id": "movement/baroque",
-        "status": "reviewed-no-documented-link",
+        "status": "connected",
         "origin_regions": [
           "europe-west"
         ],
-        "routes": [],
-        "reasons": [
-          "2026-08-25時点で、movement→movement relation、movement→placeのdiffused_to、space.active_in、movement→event/orgのexhibited_at→held_at/sited_inの4経路を、当該movementに登録された資料を対象に確認した。起源region外への文書化された接続は確認できない。未確認なのは、資料化されていない個人間往来・展示・受容、ならびに視覚的類似だけであり、視覚的類似から因果関係は推定していない。"
+        "routes": [
+          {
+            "kind": "diffused-to-place",
+            "edges": [
+              {
+                "from": "movement/baroque",
+                "type": "diffused_to",
+                "to": "place/lima",
+                "certainty": "scholarly",
+                "source": "https://en.wikipedia.org/wiki/Baroque"
+              }
+            ],
+            "destination_regions": [
+              "americas-latin"
+            ]
+          },
+          {
+            "kind": "diffused-to-place",
+            "edges": [
+              {
+                "from": "movement/baroque",
+                "type": "diffused_to",
+                "to": "place/mexico-city",
+                "certainty": "scholarly",
+                "source": "https://en.wikipedia.org/wiki/Baroque"
+              }
+            ],
+            "destination_regions": [
+              "americas-latin"
+            ]
+          }
         ],
-        "review": {
-          "movement_id": "movement/baroque",
-          "status": "no-documented-cross-region-relation",
-          "checked": "2026-08-25",
-          "note": "2026-08-25時点で、movement→movement relation、movement→placeのdiffused_to、space.active_in、movement→event/orgのexhibited_at→held_at/sited_inの4経路を、当該movementに登録された資料を対象に確認した。起源region外への文書化された接続は確認できない。未確認なのは、資料化されていない個人間往来・展示・受容、ならびに視覚的類似だけであり、視覚的類似から因果関係は推定していない。",
-          "sources": [
-            "https://www.metmuseum.org/ko/essays/baroque-rome",
-            "https://www.wikidata.org/wiki/Q37853"
-          ]
-        }
+        "reasons": [
+          "2経路で起源region外へ到達"
+        ],
+        "review": null
       },
       {
         "movement_id": "movement/barroco-mineiro",
@@ -1308,24 +1330,31 @@
       },
       {
         "movement_id": "movement/cubism",
-        "status": "reviewed-no-documented-link",
+        "status": "connected",
         "origin_regions": [
           "europe-west"
         ],
-        "routes": [],
-        "reasons": [
-          "2026-08-25時点で、movement→movement relation、movement→placeのdiffused_to、space.active_in、movement→event/orgのexhibited_at→held_at/sited_inの4経路を、当該movementに登録された資料を対象に確認した。起源region外への文書化された接続は確認できない。未確認なのは、資料化されていない個人間往来・展示・受容、ならびに視覚的類似だけであり、視覚的類似から因果関係は推定していない。"
+        "routes": [
+          {
+            "kind": "diffused-to-place",
+            "edges": [
+              {
+                "from": "movement/cubism",
+                "type": "diffused_to",
+                "to": "place/moscow",
+                "certainty": "scholarly",
+                "source": "https://en.wikipedia.org/wiki/Sergei_Shchukin"
+              }
+            ],
+            "destination_regions": [
+              "europe-east"
+            ]
+          }
         ],
-        "review": {
-          "movement_id": "movement/cubism",
-          "status": "no-documented-cross-region-relation",
-          "checked": "2026-08-25",
-          "note": "2026-08-25時点で、movement→movement relation、movement→placeのdiffused_to、space.active_in、movement→event/orgのexhibited_at→held_at/sited_inの4経路を、当該movementに登録された資料を対象に確認した。起源region外への文書化された接続は確認できない。未確認なのは、資料化されていない個人間往来・展示・受容、ならびに視覚的類似だけであり、視覚的類似から因果関係は推定していない。",
-          "sources": [
-            "https://www.metmuseum.org/fr/essays/paul-cezanne-1839-1906",
-            "https://www.moma.org/collection/terms/cubism/before-and-beyond-cubism"
-          ]
-        }
+        "reasons": [
+          "1経路で起源region外へ到達"
+        ],
+        "review": null
       },
       {
         "movement_id": "movement/cubo-futurism",
@@ -1757,24 +1786,31 @@
       },
       {
         "movement_id": "movement/futurism",
-        "status": "reviewed-no-documented-link",
+        "status": "connected",
         "origin_regions": [
           "europe-west"
         ],
-        "routes": [],
-        "reasons": [
-          "2026-08-25時点で、movement→movement relation、movement→placeのdiffused_to、space.active_in、movement→event/orgのexhibited_at→held_at/sited_inの4経路を、当該movementに登録された資料を対象に確認した。起源region外への文書化された接続は確認できない。未確認なのは、資料化されていない個人間往来・展示・受容、ならびに視覚的類似だけであり、視覚的類似から因果関係は推定していない。"
+        "routes": [
+          {
+            "kind": "diffused-to-place",
+            "edges": [
+              {
+                "from": "movement/futurism",
+                "type": "diffused_to",
+                "to": "place/moscow",
+                "certainty": "scholarly",
+                "source": "https://en.wikipedia.org/wiki/Russian_Futurism"
+              }
+            ],
+            "destination_regions": [
+              "europe-east"
+            ]
+          }
         ],
-        "review": {
-          "movement_id": "movement/futurism",
-          "status": "no-documented-cross-region-relation",
-          "checked": "2026-08-25",
-          "note": "2026-08-25時点で、movement→movement relation、movement→placeのdiffused_to、space.active_in、movement→event/orgのexhibited_at→held_at/sited_inの4経路を、当該movementに登録された資料を対象に確認した。起源region外への文書化された接続は確認できない。未確認なのは、資料化されていない個人間往来・展示・受容、ならびに視覚的類似だけであり、視覚的類似から因果関係は推定していない。",
-          "sources": [
-            "https://archive.org/details/f.t.-marinetti-manifeste-du-futurism-1909",
-            "https://gallica.bnf.fr/ark:/12148/bpt6k2883730"
-          ]
-        }
+        "reasons": [
+          "1経路で起源region外へ到達"
+        ],
+        "review": null
       },
       {
         "movement_id": "movement/golden-horde-art",

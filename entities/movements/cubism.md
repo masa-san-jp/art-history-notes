@@ -31,6 +31,7 @@ relations:
   - {type: created_by, target: person/pablo-picasso}
   - {type: created_by, target: person/georges-braque}
   - {type: influenced_by, target: movement/post-impressionism, certainty: scholarly, source: "https://www.metmuseum.org/fr/essays/paul-cezanne-1839-1906"}
+  - {type: diffused_to, target: place/moscow, certainty: scholarly, source: "https://en.wikipedia.org/wiki/Sergei_Shchukin"}
 sources:
   - url: "https://www.wikidata.org/wiki/Q42934"
     kind: authority
@@ -64,8 +65,11 @@ sources:
     kind: institutional
   - url: "https://www.tate.org.uk/art/art-terms/p/post-impressionism"
     kind: institutional
+  - url: "https://en.wikipedia.org/wiki/Sergei_Shchukin"
+    kind: reference
+    note: "『Sergei Shchukin』の項（2026-11-28取得、MediaWiki API）。モスクワの収集家シチューキンのコレクションに、ピカソの初期キュビスム作品を含む約50点が入っていたこと、1909年から日曜に邸宅を公開しフランス前衛絵画をモスクワの人々に紹介したことを記す。二次情報"
 status: verified
-updated: 2026-08-25
+updated: 2026-11-28
 ---
 
 # キュビスム
@@ -212,6 +216,15 @@ gradually flooded everything）」という言葉が複数の二次資料で引�
 キュビスムに影響した」というより、「ポスト印象派の中心人物の1人（セザンヌ）の後年の作風が、
 彼の死後の回顧展を通じて次世代に伝わった」という、個人を介した世代間の伝播に近い。`certainty`を
 `attested`ではなく`scholarly`に置いたのはこのためである。
+
+### 拡散地としてのモスクワ
+
+`diffused_to → place/moscow`（`scholarly`）は、キュビスム作品がモスクワの収集に入り、公開された事実を記録する。
+英語版Wikipediaの『Sergei Shchukin』は、シチューキンのコレクションがピカソの初期キュビスム作品を含む約50点を
+備え、1909年から日曜に邸宅を公開したと書く。同日取得の『Cubism』の項は、メッツァンジェとグレーズの
+『Du "Cubisme"』が1913年にロシア語へ翻訳されたと記す（いずれも2026-11-28取得、二次情報）。
+この線は収蔵・翻訳という受容の節点を指す。ロシアの個々の画家がキュビスムから何を受け取ったかは主張しない。
+所蔵作品の個別の同定（どの作品がキュビスム期か）と、公開の実態を示す一次資料には届いておらず、**未確認**。
 
 ## 未着手
 

@@ -30,6 +30,7 @@ space:
 relations:
   - {type: created_by, target: person/filippo-tommaso-marinetti}
   - {type: influenced_by, target: movement/italian-divisionism, certainty: scholarly, source: "https://www.nationalgallery.org.uk/about-us/press-and-media/press-releases-archive/radical-light-italy-s-divisionist-painters-1891-1910"}
+  - {type: diffused_to, target: place/moscow, certainty: scholarly, source: "https://en.wikipedia.org/wiki/Russian_Futurism"}
 images:
   - url: https://upload.wikimedia.org/wikipedia/commons/f/fd/%27Unique_Forms_of_Continuity_in_Space%27%2C_1913_bronze_by_Umberto_Boccioni.jpg
     source_page: https://commons.wikimedia.org/wiki/File:%27Unique_Forms_of_Continuity_in_Space%27,_1913_bronze_by_Umberto_Boccioni.jpg
@@ -80,8 +81,11 @@ sources:
     kind: reference
   - url: "https://www.nationalgallery.org.uk/about-us/press-and-media/press-releases-archive/radical-light-italy-s-divisionist-painters-1891-1910"
     kind: institutional
+  - url: "https://en.wikipedia.org/wiki/Russian_Futurism"
+    kind: reference
+    note: "『Russian Futurism』の項（2026-11-28取得、MediaWiki API）。マリネッティが1914年に布教のためロシアを訪れ、大半のロシア未来派から妨げられた（obstructed）と記す。同日取得の『Futurism』の項は、1914年のロシア講演旅行に言及する。二次情報"
 status: verified
-updated: 2026-08-25
+updated: 2026-11-28
 ---
 
 # 未来派
@@ -229,6 +233,15 @@ who did not profess to owe him anything" と書く
 名乗った運動が、同じやり方で名乗った別の土地の運動から、名乗りの出所を否定された形になる。
 経緯と弱点は[立体未来主義側](cubo-futurism.md#イタリア未来派との接続--動いたのは言葉届いた先は否認だった)に
 まとめて書いた。
+
+### 拡散地としてのモスクワ
+
+`diffused_to → place/moscow`（`scholarly`）は、1914年のマリネッティ本人のロシア訪問という**人の移動**を記録する。
+英語版Wikipediaの『Russian Futurism』は、この訪問を「布教（proselytizing）」の旅と書き、『Futurism』の項は1914年の
+ロシア講演旅行に触れる（2026-11-28取得、いずれも二次情報）。この点は上の節のとおり、受け取った側は
+負い目を否定した。したがってこの線は、ロシア未来派が未来派から派生したという主張ではなく、宣言の発信者が
+モスクワへ渡ったという事実だけを指す。サンクトペテルブルクでの講演は今回取得した本文から確認できず、
+**未確認**のため線を張っていない。講演の日付と会場の原史料にも届いていない。
 
 ## 未着手
 

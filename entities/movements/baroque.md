@@ -27,7 +27,9 @@ claims:
   - {field: kind, source: "https://www.metmuseum.org/ko/essays/baroque-rome", certainty: scholarly}
 space:
   - {role: originated_in, target: place/rome}
-relations: []
+relations:
+  - {type: diffused_to, target: place/mexico-city, certainty: scholarly, source: "https://en.wikipedia.org/wiki/Baroque"}
+  - {type: diffused_to, target: place/lima, certainty: scholarly, source: "https://en.wikipedia.org/wiki/Baroque"}
 sources:
   - url: "https://www.wikidata.org/wiki/Q37853"
     kind: authority
@@ -35,8 +37,11 @@ sources:
     kind: authority
   - url: "https://www.metmuseum.org/ko/essays/baroque-rome"
     kind: institutional
+  - url: "https://en.wikipedia.org/wiki/Baroque"
+    kind: reference
+    note: "『Baroque』の項（2026-11-28取得、MediaWiki API）。「Baroque in the Spanish and Portuguese Colonial Americas」の節で、バロックが新大陸へ移り、メキシコ・ペルーが主要な中心であること、メキシコ市のラ・プロフェサ教会、リマ、クスコのイエズス会教会・サン・フランシスコ聖堂などを例に挙げる。二次情報"
 status: verified
-updated: 2026-08-25
+updated: 2026-11-28
 ---
 
 # バロック / Baroque
@@ -55,6 +60,15 @@ updated: 2026-08-25
 
 イタリアでの初期形成を含めて始点を `15XX`、Wikidata の1750年代という終期を包含するよう `17XX` とした。
 ローマを起源・制度・制作の主要結節点として登録し、各地域の受容は今後分解する。
+
+### ラテンアメリカへの伝播
+
+`diffused_to` を `place/mexico-city` と `place/lima` に張った（いずれも `scholarly`）。英語版Wikipediaの『Baroque』は、
+バロックがスペイン・ポルトガルの植民地アメリカへ移り、現存する主要な中心としてメキシコ、ペルー、ブラジルなどを
+挙げ、メキシコ市のラ・プロフェサ教会の正面とリマのサン・フランシスコ聖堂・修道院を例に引く
+（2026-11-28取得、二次情報）。ここで記録するのは建築・絵画が植民地都市に展開した事実で、現地の
+様式がヨーロッパの規範の写しだったという主張ではない。同じ項は、クリオーリョと先住民の職人が独自の特徴を
+与えたと書く。個々の建物の年代と、ローマで成立した造形との直接の系譜は未確認。
 
 ## 未着手
 
