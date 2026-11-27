@@ -1167,7 +1167,7 @@
     },
     "movement/baroque": {
       "completed": true,
-      "content_sha256": "0aea244da14a88cc68c005fcf82be97e482dcec0d94a497c65403c0a1c7b8c65",
+      "content_sha256": "cdb9fdfa964d4cb6672312321a00e7fcf023d26359b94167a668f05148493293",
       "history": [
         {
           "accepted": true,
@@ -1195,6 +1195,7 @@
           "operation_id": "integrate",
           "source_locator": "entities/movements/baroque.md#lead",
           "source_refs": [
+            "https://en.wikipedia.org/wiki/Baroque",
             "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300021147",
             "https://www.metmuseum.org/ko/essays/baroque-rome",
             "https://www.wikidata.org/wiki/Q37853"
@@ -1748,7 +1749,7 @@
     },
     "movement/cubism": {
       "completed": true,
-      "content_sha256": "8600a1c67473ef9d8694935202baf9f14020ca54b6b2b34281725917e66e9f01",
+      "content_sha256": "f97a8a2774469205614e475ee69ebd87d73b038243de63ea70290587a7099a7c",
       "history": [
         {
           "accepted": true,
@@ -1793,6 +1794,7 @@
             "https://en.wikipedia.org/wiki/Houses_at_l%27Estaque",
             "https://en.wikipedia.org/wiki/Louis_Vauxcelles",
             "https://en.wikipedia.org/wiki/Proto-Cubism",
+            "https://en.wikipedia.org/wiki/Sergei_Shchukin",
             "https://wist.info/picasso-pablo/3147/",
             "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300021495",
             "https://www.metmuseum.org/fr/essays/paul-cezanne-1839-1906",
@@ -1816,6 +1818,7 @@
             "https://en.wikipedia.org/wiki/Houses_at_l%27Estaque",
             "https://en.wikipedia.org/wiki/Louis_Vauxcelles",
             "https://en.wikipedia.org/wiki/Proto-Cubism",
+            "https://en.wikipedia.org/wiki/Sergei_Shchukin",
             "https://wist.info/picasso-pablo/3147/",
             "https://www.getty.edu/vow/AATFullDisplay?find=&logic=AND&note=&english=Y&subjectid=300021495",
             "https://www.metmuseum.org/fr/essays/paul-cezanne-1839-1906",
@@ -2499,7 +2502,7 @@
     },
     "movement/futurism": {
       "completed": true,
-      "content_sha256": "7c6de1b3002f08994c959982c2c8657922e39564844a4ad48c42ba0a07aadb99",
+      "content_sha256": "139638c00f1992fba43048bd30059ec2763f475d7a42a3b83dc504ad9096c836",
       "history": [
         {
           "accepted": true,
